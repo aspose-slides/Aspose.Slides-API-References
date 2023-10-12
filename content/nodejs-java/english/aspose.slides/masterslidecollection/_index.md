@@ -11,22 +11,26 @@ url: /aspose.slides/masterslidecollection/
 
  Represents a collection of master slides.
  
-| [addClone] ([MasterSlide]) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
+| Name | Description |
+| --- | --- |
+| addClone (MasterSlide(../masterslide)) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceMaster | [MasterSlide] | Slide to clone. |
+| sourceMaster | MasterSlide(../../masterslide) | Slide to clone. |
 
 ### Result
-[MasterSlide]
+MasterSlide(../../masterslide)
 
 
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -35,32 +39,38 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Gets the element at the specified index. Read-only MasterSlide. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Gets the element at the specified index. Read-only MasterSlide. |
 
 ### Result
-[MasterSlide]
+MasterSlide(../../masterslide)
 
 
 ---
 
 
-| [insertClone] ([int], [MasterSlide]) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
+| Name | Description |
+| --- | --- |
+| insertClone (int, MasterSlide(../masterslide)) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of new slide. |
-| sourceMaster | [MasterSlide] | Slide to clone. |
+| index | int | Index of new slide. |
+| sourceMaster | MasterSlide(../../masterslide) | Slide to clone. |
 
 ### Result
-[MasterSlide]
+MasterSlide(../../masterslide)
 
 
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -69,7 +79,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -78,7 +90,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -87,25 +101,29 @@ boolean
 ---
 
 
-| [remove] ([MasterSlide]) | Removes the first occurrence of a specific object from the collection. |
+| Name | Description |
+| --- | --- |
+| remove (MasterSlide(../masterslide)) | Removes the first occurrence of a specific object from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [MasterSlide] | The master slide to remove from the collection. |
+| value | MasterSlide(../../masterslide) | The master slide to remove from the collection. |
 
 
 ---
 
 
-| [removeAt] ([int]) | Removes the element at the specified index of the collection. |
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes the element at the specified index of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | The zero-based index of the element to remove. To avoid throwing of the PptxEditException check master's HasDependingSlides property before. |
+| index | int | The zero-based index of the element to remove. To avoid throwing of the PptxEditException check master's HasDependingSlides property before. |
 
 ### Error
 
@@ -117,19 +135,23 @@ boolean
 ---
 
 
-| [removeUnused] ([boolean]) | Removes unused master slides. |
+| Name | Description |
+| --- | --- |
+| removeUnused (boolean) | Removes unused master slides. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ignorePreserveField | [boolean] | Determines, whether this function should remove unused master even if its ( MasterSlide#getPreserve/ MasterSlide#setPreserve(boolean)) property is set to true. |
+| ignorePreserveField | boolean | Determines, whether this function should remove unused master even if its ( MasterSlide#getPreserve/ MasterSlide#setPreserve(boolean)) property is set to true. |
 
 
 ---
 
 
-| [size] () | Gets the number of elements actually contained in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int

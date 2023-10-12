@@ -11,76 +11,88 @@ url: /aspose.slides/chartseriescollection/
 
  Represents collection of   ChartSeries
  
-| [add] ([int]) | Creates new chart series and adds it to the collection. |
+| Name | Description |
+| --- | --- |
+| add (int) | Creates new chart series and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| type | [int] | Type of series |
+| type | int | Type of series |
 
 ### Result
-[ChartSeries]
+ChartSeries(../../chartseries)
 
 
 ---
 
 
-| [add] ([ChartDataCell], [int]) | Creates new chart series from ChartDataCell and adds it to the collection. |
+| Name | Description |
+| --- | --- |
+| add (ChartDataCell(../chartdatacell), int) | Creates new chart series from ChartDataCell and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cellWithSeriesName | [ChartDataCell] | Cell which contain series name. |
-| type | [int] | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
+| cellWithSeriesName | ChartDataCell(../chartdatacell) | Cell which contain series name. |
+| type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
 ### Result
-[ChartSeries]
+ChartSeries(../../chartseries)
 
 
 ---
 
 
-| [add] ([ChartCellCollection], [int]) | Creates new chart series from ChartCellCollection and adds it to the collection. |
+| Name | Description |
+| --- | --- |
+| add (ChartCellCollection(../chartcellcollection), int) | Creates new chart series from ChartCellCollection and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cellsWithSeriesName | [ChartCellCollection] | Cells which contain series name. |
-| type | [int] | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
+| cellsWithSeriesName | ChartCellCollection(../chartcellcollection) | Cells which contain series name. |
+| type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
 ### Result
-[ChartSeries]
+ChartSeries(../../chartseries)
 
 
 ---
 
 
-| [add] ([String], [int]) | Creates new chart series from value and adds it to the collection. |
+| Name | Description |
+| --- | --- |
+| add (String, int) | Creates new chart series from value and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | [String] | Series name. |
-| type | [int] | Type set type of series |
+| name | String | Series name. |
+| type | int | Type set type of series |
 
 ### Result
-[ChartSeries]
+ChartSeries(../../chartseries)
 
 
 ---
 
 
-| [clear] () | Removes all controls from the collection. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all controls from the collection. |
 
 
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -89,10 +101,12 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Gets the element at the specified index. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Gets the element at the specified index. |
 
 ### Result
-[ChartSeries]
+ChartSeries(../../chartseries)
 
 ### Error
 
@@ -104,13 +118,15 @@ Object
 ---
 
 
-| [indexOf] ([ChartSeries]) | Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
+| Name | Description |
+| --- | --- |
+| indexOf (ChartSeries(../chartseries)) | Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartSeries] | Chart series value. |
+| value | ChartSeries(../../chartseries) | Chart series value. |
 
 ### Result
 int
@@ -119,16 +135,20 @@ int
 ---
 
 
-| [insert] ([int], [int]) | Creates new chart series and inserts it into the collection. |
+| Name | Description |
+| --- | --- |
+| insert (int, int) | Creates new chart series and inserts it into the collection. |
 
 ### Result
-[ChartSeries]
+ChartSeries(../../chartseries)
 
 
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -137,7 +157,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -146,7 +168,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -155,13 +179,15 @@ boolean
 ---
 
 
-| [remove] ([ChartSeries]) | Removes the specified value. |
+| Name | Description |
+| --- | --- |
+| remove (ChartSeries(../chartseries)) | Removes the specified value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartSeries] | The value. |
+| value | ChartSeries(../../chartseries) | The value. |
 
 ### Error
 
@@ -173,19 +199,23 @@ boolean
 ---
 
 
-| [removeAt] ([int]) | Removes an ActiveX control stored at specified position from the collection. |
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes an ActiveX control stored at specified position from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of a control to remove. |
+| index | int | Index of a control to remove. |
 
 
 ---
 
 
-| [size] () | Returns a number of objects in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Returns a number of objects in the collection. Read-only int. |
 
 ### Result
 int

@@ -12,13 +12,15 @@ url: /aspose.slides/filloverlay/
  Represents a Fill Overlay effect. A fill overlay may be used to specify
  an additional fill for an object and blend the two fills together.
  
-| [equals] ([Object]) | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
+| Name | Description |
+| --- | --- |
+| equals (Object) | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| obj | [Object] | The FillOverlay to compare. |
+| obj | Object | The FillOverlay to compare. |
 
 ### Result
 boolean
@@ -27,7 +29,9 @@ boolean
 ---
 
 
-| [getBlend] () | FillBlendMode. Read/write FillBlendMode. |
+| Name | Description |
+| --- | --- |
+| getBlend () | FillBlendMode. Read/write FillBlendMode. |
 
 ### Result
 int
@@ -36,25 +40,31 @@ int
 ---
 
 
-| [getEffective] () | Gets effective Fill Overlay effect data with the inheritance applied. |
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Fill Overlay effect data with the inheritance applied. |
 
 ### Result
-[FillOverlayEffectiveData]
+FillOverlayEffectiveData
 
 
 ---
 
 
-| [getFillFormat] () | Fill format. Read-only IFillFormat. |
+| Name | Description |
+| --- | --- |
+| getFillFormat () | Fill format. Read-only IFillFormat. |
 
 ### Result
-[FillFormat]
+FillFormat(../../fillformat)
 
 
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long
@@ -63,7 +73,9 @@ long
 ---
 
 
-| [hashCode] () | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
 
 ### Result
 int
@@ -72,7 +84,9 @@ int
 ---
 
 
-| [setBlend] ([int]) | FillBlendMode. Read/write FillBlendMode. |
+| Name | Description |
+| --- | --- |
+| setBlend (int) | FillBlendMode. Read/write FillBlendMode. |
 
 
 ---

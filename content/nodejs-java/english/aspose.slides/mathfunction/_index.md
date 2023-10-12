@@ -11,7 +11,9 @@ url: /aspose.slides/mathfunction/
 
  Specifies a function of an argument.
  
-| [MathFunction]([MathLimit], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -20,7 +22,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -29,7 +33,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -38,7 +44,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -47,7 +55,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -56,7 +66,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -65,7 +77,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -74,7 +88,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -83,7 +99,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -92,7 +110,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -101,7 +121,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -110,7 +132,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -119,7 +143,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -128,7 +154,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -137,7 +165,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -146,7 +176,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -155,7 +187,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -164,7 +198,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -173,7 +209,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLimit], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLimit(../mathlimit), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -182,7 +220,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -191,7 +231,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -200,7 +242,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -209,7 +253,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -218,7 +264,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -227,7 +275,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -236,7 +286,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -245,7 +297,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -254,7 +308,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -263,7 +319,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -272,7 +330,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -281,7 +341,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -290,7 +352,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -299,7 +363,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -308,7 +374,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -317,7 +385,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -326,7 +396,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -335,7 +407,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -344,7 +418,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBorderBox], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBorderBox(../mathborderbox), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -353,7 +429,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -362,7 +440,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -371,7 +451,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -380,7 +462,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -389,7 +473,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -398,7 +484,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -407,7 +495,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -416,7 +506,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -425,7 +517,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -434,7 +528,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -443,7 +539,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -452,7 +550,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -461,7 +561,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -470,7 +572,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -479,7 +583,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -488,7 +594,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -497,7 +605,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -506,7 +616,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -515,7 +627,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFraction], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFraction(../mathfraction), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -524,7 +638,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -533,7 +649,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -542,7 +660,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -551,7 +671,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -560,7 +682,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -569,7 +693,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -578,7 +704,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -587,7 +715,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -596,7 +726,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -605,7 +737,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -614,7 +748,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -623,7 +759,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -632,7 +770,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -641,7 +781,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -650,7 +792,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -659,7 +803,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -668,7 +814,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -677,7 +825,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -686,7 +836,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathDelimiter], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathDelimiter(../mathdelimiter), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -695,7 +847,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -704,7 +858,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -713,7 +869,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -722,7 +880,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -731,7 +891,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -740,7 +902,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -749,7 +913,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -758,7 +924,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -767,7 +935,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -776,7 +946,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -785,7 +957,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -794,7 +968,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -803,7 +979,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -812,7 +990,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -821,7 +1001,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -830,7 +1012,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -839,7 +1023,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -848,7 +1034,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -857,7 +1045,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSuperscriptElement], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSuperscriptElement(../mathsuperscriptelement), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -866,7 +1056,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -875,7 +1067,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -884,7 +1078,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -893,7 +1089,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -902,7 +1100,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -911,7 +1111,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -920,7 +1122,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -929,7 +1133,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -938,7 +1144,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -947,7 +1155,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -956,7 +1166,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -965,7 +1177,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -974,7 +1188,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -983,7 +1199,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -992,7 +1210,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1001,7 +1221,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1010,7 +1232,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1019,7 +1243,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1028,7 +1254,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathLeftSubSuperscriptElement], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1037,7 +1265,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1046,7 +1276,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1055,7 +1287,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1064,7 +1298,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1073,7 +1309,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1082,7 +1320,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1091,7 +1331,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1100,7 +1342,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1109,7 +1353,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1118,7 +1364,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1127,7 +1375,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1136,7 +1386,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1145,7 +1397,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1154,7 +1408,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1163,7 +1419,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1172,7 +1430,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1181,7 +1441,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1190,7 +1452,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1199,7 +1463,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRightSubSuperscriptElement], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1208,7 +1474,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1217,7 +1485,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1226,7 +1496,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1235,7 +1507,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1244,7 +1518,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1253,7 +1529,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1262,7 +1540,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1271,7 +1551,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1280,7 +1562,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1289,7 +1573,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1298,7 +1584,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1307,7 +1595,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1316,7 +1606,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1325,7 +1617,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1334,7 +1628,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1343,7 +1639,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1352,7 +1650,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1361,7 +1661,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1370,7 +1672,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBox], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBox(../mathbox), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1379,7 +1683,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1388,7 +1694,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1397,7 +1705,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1406,7 +1716,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1415,7 +1727,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1424,7 +1738,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1433,7 +1749,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1442,7 +1760,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1451,7 +1771,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1460,7 +1782,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1469,7 +1793,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1478,7 +1804,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1487,7 +1815,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1496,7 +1826,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1505,7 +1837,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1514,7 +1848,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1523,7 +1859,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1532,7 +1870,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1541,7 +1881,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathMatrix], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathMatrix(../mathmatrix), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1550,7 +1892,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1559,7 +1903,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1568,7 +1914,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1577,7 +1925,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1586,7 +1936,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1595,7 +1947,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1604,7 +1958,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1613,7 +1969,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1622,7 +1980,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1631,7 +1991,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1640,7 +2002,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1649,7 +2013,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1658,7 +2024,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1667,7 +2035,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1676,7 +2046,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1685,7 +2057,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1694,7 +2068,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1703,7 +2079,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1712,7 +2090,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathArray], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathGroupingCharacter(../mathgroupingcharacter), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1721,7 +2101,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1730,7 +2112,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1739,7 +2123,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1748,7 +2134,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1757,7 +2145,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1766,7 +2156,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1775,7 +2167,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1784,7 +2178,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1793,7 +2189,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1802,7 +2200,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1811,7 +2211,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1820,7 +2222,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1829,7 +2233,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1838,7 +2244,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1847,7 +2255,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1856,7 +2266,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1865,7 +2277,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1874,7 +2288,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1883,7 +2299,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBlock], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathArray(../matharray), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1892,7 +2310,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1901,7 +2321,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1910,7 +2332,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1919,7 +2343,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1928,7 +2354,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1937,7 +2365,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1946,7 +2376,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1955,7 +2387,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1964,7 +2398,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1973,7 +2409,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1982,7 +2420,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -1991,7 +2431,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2000,7 +2442,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2009,7 +2453,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2018,7 +2464,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2027,7 +2475,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2036,7 +2486,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2045,7 +2497,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2054,7 +2508,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathSubscriptElement], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBlock(../mathblock), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2063,7 +2519,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2072,7 +2530,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2081,7 +2541,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2090,7 +2552,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2099,7 +2563,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2108,7 +2574,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2117,7 +2585,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2126,7 +2596,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2135,7 +2607,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2144,7 +2618,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2153,7 +2629,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2162,7 +2640,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2171,7 +2651,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2180,7 +2662,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2189,7 +2673,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2198,7 +2684,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2207,7 +2695,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2216,7 +2706,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2225,7 +2717,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathFunction], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathSubscriptElement(../mathsubscriptelement), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2234,7 +2728,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2243,7 +2739,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2252,7 +2750,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2261,7 +2761,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2270,7 +2772,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2279,7 +2783,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2288,7 +2794,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2297,7 +2805,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2306,7 +2816,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2315,7 +2827,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2324,7 +2838,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2333,7 +2849,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2342,7 +2860,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2351,7 +2871,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2360,7 +2882,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2369,7 +2893,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2378,7 +2904,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2387,7 +2915,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2396,7 +2926,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathNaryOperator], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathFunction(../mathfunction), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2405,7 +2937,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2414,7 +2948,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2423,7 +2959,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2432,7 +2970,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2441,7 +2981,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2450,7 +2992,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2459,7 +3003,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2468,7 +3014,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2477,7 +3025,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2486,7 +3036,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2495,7 +3047,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2504,7 +3058,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2513,7 +3069,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2522,7 +3080,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2531,7 +3091,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2540,7 +3102,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2549,7 +3113,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2558,7 +3124,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2567,7 +3135,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathGroupingCharacter], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathNaryOperator(../mathnaryoperator), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2576,7 +3146,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2585,7 +3157,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2594,7 +3168,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2603,7 +3179,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2612,7 +3190,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2621,7 +3201,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2630,7 +3212,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2639,7 +3223,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2648,7 +3234,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2657,7 +3245,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2666,7 +3256,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2675,7 +3267,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2684,7 +3278,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2693,7 +3289,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2702,7 +3300,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2711,7 +3311,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2720,7 +3322,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2729,7 +3333,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2738,7 +3344,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathematicalText], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathematicalText(../mathematicaltext), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2747,7 +3355,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2756,7 +3366,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2765,7 +3377,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2774,7 +3388,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2783,7 +3399,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2792,7 +3410,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2801,7 +3421,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2810,7 +3432,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2819,7 +3443,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2828,7 +3454,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2837,7 +3465,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2846,7 +3476,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2855,7 +3487,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2864,7 +3498,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2873,7 +3509,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2882,7 +3520,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2891,7 +3531,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2900,7 +3542,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2909,7 +3553,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathAccent], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathAccent(../mathaccent), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2918,7 +3564,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2927,7 +3575,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2936,7 +3586,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2945,7 +3597,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2954,7 +3608,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2963,7 +3619,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2972,7 +3630,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2981,7 +3641,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2990,7 +3652,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -2999,7 +3663,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3008,7 +3674,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3017,7 +3685,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3026,7 +3696,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3035,7 +3707,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3044,7 +3718,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3053,7 +3729,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3062,7 +3740,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3071,7 +3751,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3080,7 +3762,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathRadical], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathRadical(../mathradical), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3089,7 +3773,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3098,7 +3784,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3107,7 +3795,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3116,7 +3806,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3125,7 +3817,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3134,7 +3828,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3143,7 +3839,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3152,7 +3850,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3161,7 +3861,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3170,7 +3872,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3179,7 +3883,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3188,7 +3894,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3197,7 +3905,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3206,7 +3916,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3215,7 +3927,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3224,7 +3938,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3233,7 +3949,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3242,7 +3960,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3251,7 +3971,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([MathBar], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(MathBar(../mathbar), MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3260,7 +3982,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathLimit]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathLimit(../mathlimit)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3269,7 +3993,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathBorderBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathBorderBox(../mathborderbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3278,7 +4004,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathFraction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathFraction(../mathfraction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3287,7 +4015,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathDelimiter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathDelimiter(../mathdelimiter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3296,7 +4026,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathSuperscriptElement(../mathsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3305,7 +4037,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3314,7 +4048,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3323,7 +4059,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathBox]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathBox(../mathbox)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3332,7 +4070,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathMatrix]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathMatrix(../mathmatrix)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3341,7 +4081,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathArray]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathGroupingCharacter(../mathgroupingcharacter)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3350,7 +4092,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathBlock]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathArray(../matharray)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3359,7 +4103,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathSubscriptElement]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathBlock(../mathblock)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3368,7 +4114,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathFunction]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathSubscriptElement(../mathsubscriptelement)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3377,7 +4125,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathNaryOperator]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathFunction(../mathfunction)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3386,7 +4136,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathGroupingCharacter]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathNaryOperator(../mathnaryoperator)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3395,7 +4147,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathematicalText]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathematicalText(../mathematicaltext)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3404,7 +4158,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathAccent]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathAccent(../mathaccent)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3413,7 +4169,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathRadical]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathRadical(../mathradical)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3422,7 +4180,9 @@ MathFunction
 ---
 
 
-| [MathFunction]([String], [MathBar]) | Initializes a new instance of the MathFunction class. |
+| Name | Description |
+| --- | --- |
+| MathFunction(String, MathBar(../mathbar)) | Initializes a new instance of the MathFunction class. |
 
 ### Result
 MathFunction
@@ -3431,28 +4191,34 @@ MathFunction
 ---
 
 
-| [getBase] () | Function Argument |
+| Name | Description |
+| --- | --- |
+| getBase () | Function Argument |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
 
 
 ---
 
 
-| [getChildren] () | Get children elements |
+| Name | Description |
+| --- | --- |
+| getChildren () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
 
 
 ---
 
 
-| [getName] () | Function name For example, function names are sin and cos |
+| Name | Description |
+| --- | --- |
+| getName () | Function name For example, function names are sin and cos |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
 
 
 ---

@@ -11,7 +11,9 @@ url: /aspose.slides/cellinvalidreferenceexception/
 
  The exception that is thrown when an invalid cell reference is encountered.
  
-| [CellInvalidReferenceException]() | Initializes a new instance of the CellInvalidReferenceException class. |
+| Name | Description |
+| --- | --- |
+| CellInvalidReferenceException() | Initializes a new instance of the CellInvalidReferenceException class. |
 
 ### Result
 CellInvalidReferenceException
@@ -20,13 +22,15 @@ CellInvalidReferenceException
 ---
 
 
-| [CellInvalidReferenceException]([String]) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message. |
+| Name | Description |
+| --- | --- |
+| CellInvalidReferenceException(String) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | A string that describes the error. |
+| message | String | A string that describes the error. |
 
 ### Result
 CellInvalidReferenceException
@@ -35,14 +39,16 @@ CellInvalidReferenceException
 ---
 
 
-| [CellInvalidReferenceException]([String], [RuntimeException]) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| Name | Description |
+| --- | --- |
+| CellInvalidReferenceException(String, RuntimeException) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | A string that describes the error. |
-| innerException | [RuntimeException] | The exception that is the cause of the current exception. |
+| message | String | A string that describes the error. |
+| innerException | RuntimeException | The exception that is the cause of the current exception. |
 
 ### Result
 CellInvalidReferenceException
@@ -51,14 +57,16 @@ CellInvalidReferenceException
 ---
 
 
-| [CellInvalidReferenceException]([String], [String]) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and an invalid cell reference. |
+| Name | Description |
+| --- | --- |
+| CellInvalidReferenceException(String, String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and an invalid cell reference. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | A string that describes the error. |
-| reference | [String] | An invalid cell reference. |
+| message | String | A string that describes the error. |
+| reference | String | An invalid cell reference. |
 
 ### Result
 CellInvalidReferenceException
@@ -67,7 +75,9 @@ CellInvalidReferenceException
 ---
 
 
-| [getReference] () | Gets an invalid cell reference. |
+| Name | Description |
+| --- | --- |
+| getReference () | Gets an invalid cell reference. |
 
 ### Result
 String

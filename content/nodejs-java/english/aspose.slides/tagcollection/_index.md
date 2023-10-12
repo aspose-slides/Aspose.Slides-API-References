@@ -11,14 +11,16 @@ url: /aspose.slides/tagcollection/
 
  Represents the collection of tags (user defined pairs of strings)
  
-| [add] ([String], [String]) | Adds a new tag to collection. |
+| Name | Description |
+| --- | --- |
+| add (String, String) | Adds a new tag to collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | [String] | The name of the tag. |
-| value | [String] | The value of the tag. |
+| name | String | The name of the tag. |
+| value | String | The value of the tag. |
 
 ### Result
 int
@@ -27,19 +29,23 @@ int
 ---
 
 
-| [clear] () | Removes all tags from the collection. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all tags from the collection. |
 
 
 ---
 
 
-| [contains] ([String]) | Determines whether the collection contains a specific name. |
+| Name | Description |
+| --- | --- |
+| contains (String) | Determines whether the collection contains a specific name. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | [String] | The key to locate. |
+| name | String | The key to locate. |
 
 ### Result
 boolean
@@ -48,13 +54,15 @@ boolean
 ---
 
 
-| [getNameByIndex] ([int]) | Returns key of a tag at the specified index. |
+| Name | Description |
+| --- | --- |
+| getNameByIndex (int) | Returns key of a tag at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of a tag to return. |
+| index | int | Index of a tag to return. |
 
 ### Result
 String
@@ -63,7 +71,9 @@ String
 ---
 
 
-| [getNamesOfTags] () | Returns names of tags. |
+| Name | Description |
+| --- | --- |
+| getNamesOfTags () | Returns names of tags. |
 
 ### Result
 String
@@ -72,7 +82,9 @@ String
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -81,13 +93,15 @@ Object
 ---
 
 
-| [getValueByIndex] ([int]) | Returns value of a tag at the specified index. |
+| Name | Description |
+| --- | --- |
+| getValueByIndex (int) | Returns value of a tag at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of a tag to return. |
+| index | int | Index of a tag to return. |
 
 ### Result
 String
@@ -96,13 +110,15 @@ String
 ---
 
 
-| [get_Item] ([String]) | Returns or sets a key and a value pair of a tag. |
+| Name | Description |
+| --- | --- |
+| get_Item (String) | Returns or sets a key and a value pair of a tag. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | [String] | Key of a tag. |
+| name | String | Key of a tag. |
 
 ### Result
 String
@@ -111,13 +127,15 @@ String
 ---
 
 
-| [indexOfName] ([String]) | Returns the zero-based index of the specified key in the collection. |
+| Name | Description |
+| --- | --- |
+| indexOfName (String) | Returns the zero-based index of the specified key in the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | [String] | The name to locate in the collection. |
+| name | String | The name to locate in the collection. |
 
 ### Result
 int
@@ -126,7 +144,9 @@ int
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -135,7 +155,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -144,7 +166,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -153,43 +177,51 @@ boolean
 ---
 
 
-| [remove] ([String]) | Removes the tag with a specified name from the collection. |
+| Name | Description |
+| --- | --- |
+| remove (String) | Removes the tag with a specified name from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | [String] | The name of tag to remove. |
+| name | String | The name of tag to remove. |
 
 
 ---
 
 
-| [removeAt] ([int]) | Removes the tag at the specified index. |
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes the tag at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | The zero-based index of the tag to remove. |
+| index | int | The zero-based index of the tag to remove. |
 
 
 ---
 
 
-| [set_Item] ([String], [String]) | Returns or sets a key and a value pair of a tag. |
+| Name | Description |
+| --- | --- |
+| set_Item (String, String) | Returns or sets a key and a value pair of a tag. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | [String] | Key of a tag. |
+| name | String | Key of a tag. |
 
 
 ---
 
 
-| [size] () | Returns a number of tags in the collectoin. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Returns a number of tags in the collectoin. Read-only int. |
 
 ### Result
 int

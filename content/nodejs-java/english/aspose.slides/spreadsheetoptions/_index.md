@@ -11,7 +11,9 @@ url: /aspose.slides/spreadsheetoptions/
 
  Represents options which can be used to specify additional spreadsheets behavior.
  
-| [SpreadsheetOptions]() | Initializes a new instance of the SpreadsheetOptions class. |
+| Name | Description |
+| --- | --- |
+| SpreadsheetOptions() | Initializes a new instance of the SpreadsheetOptions class. |
 
 ### Result
 SpreadsheetOptions
@@ -20,7 +22,9 @@ SpreadsheetOptions
 ---
 
 
-| [getPreferredCulture] () | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
+| Name | Description |
+| --- | --- |
+| getPreferredCulture () | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
 
 ### Result
 Locale
@@ -29,7 +33,9 @@ Locale
 ---
 
 
-| [getRecoverWorkbookFromChartCache] () | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
+| Name | Description |
+| --- | --- |
+| getRecoverWorkbookFromChartCache () | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
 
 ### Result
 boolean
@@ -44,13 +50,17 @@ boolean
 ---
 
 
-| [setPreferredCulture] ([Locale]) | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
+| Name | Description |
+| --- | --- |
+| setPreferredCulture (Locale) | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
 
 
 ---
 
 
-| [setRecoverWorkbookFromChartCache] ([boolean]) | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
+| Name | Description |
+| --- | --- |
+| setRecoverWorkbookFromChartCache (boolean) | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
 
 ### Error
 

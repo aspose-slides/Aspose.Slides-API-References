@@ -11,25 +11,20 @@ url: /aspose.slides/chartwall/
 
  Represents walls on 3d charts.
  
-| [getFormat] () | Returns the wall fill, line, effect, 3d styles. Read-only IFormat. |
+| Name | Description |
+| --- | --- |
+| getFormat () | Returns the wall fill, line, effect, 3d styles. Read-only IFormat. |
 
 ### Result
-[Format]
+Format(../../format)
 
 
 ---
 
 
-| [getPictureType] () | Return or sets the picture type. Read/write PictureType. |
-
-### Result
-int
-
-
----
-
-
-| [getThickness] () | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
+| Name | Description |
+| --- | --- |
+| getPictureType () | Return or sets the picture type. Read/write PictureType. |
 
 ### Result
 int
@@ -38,13 +33,28 @@ int
 ---
 
 
-| [setPictureType] ([int]) | Return or sets the picture type. Read/write PictureType. |
+| Name | Description |
+| --- | --- |
+| getThickness () | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
+
+### Result
+int
 
 
 ---
 
 
-| [setThickness] ([int]) | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
+| Name | Description |
+| --- | --- |
+| setPictureType (int) | Return or sets the picture type. Read/write PictureType. |
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| setThickness (int) | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
 
 
 ---

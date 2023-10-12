@@ -11,34 +11,31 @@ url: /aspose.slides/smartartnode/
 
  Represents node of a SmartArt object
  
-| [getBulletFillFormat] () | Returns the FillFormat object that contains fill formatting properties for a node bullet. Note: can return null for certain types of SmartArt layout which does not provide bullets for nodes. Read-only IFillFormat. |
+| Name | Description |
+| --- | --- |
+| getBulletFillFormat () | Returns the FillFormat object that contains fill formatting properties for a node bullet. Note: can return null for certain types of SmartArt layout which does not provide bullets for nodes. Read-only IFillFormat. |
 
 ### Result
-[FillFormat]
+FillFormat(../../fillformat)
 
 
 ---
 
 
-| [getChildNodes] () | Returns collections of all child nodes of the current node. Read-only ISmartArtNodeCollection. |
+| Name | Description |
+| --- | --- |
+| getChildNodes () | Returns collections of all child nodes of the current node. Read-only ISmartArtNodeCollection. |
 
 ### Result
-[SmartArtNodeCollection]
+SmartArtNodeCollection(../../smartartnodecollection)
 
 
 ---
 
 
-| [getLevel] () | Returns nesting level of the node. Read-only int. |
-
-### Result
-int
-
-
----
-
-
-| [getOrganizationChartLayout] () | Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutType. |
+| Name | Description |
+| --- | --- |
+| getLevel () | Returns nesting level of the node. Read-only int. |
 
 ### Result
 int
@@ -47,7 +44,20 @@ int
 ---
 
 
-| [getPosition] () | Returns or sets zero-based position of node among sibling nodes. Read/write int. |
+| Name | Description |
+| --- | --- |
+| getOrganizationChartLayout () | Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutType. |
+
+### Result
+int
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getPosition () | Returns or sets zero-based position of node among sibling nodes. Read/write int. |
 
 ### Result
 int
@@ -62,34 +72,31 @@ int
 ---
 
 
-| [getShapes] () | Returns collections of all shapes associated with the node. Read-only ISmartArtShapeCollection. |
+| Name | Description |
+| --- | --- |
+| getShapes () | Returns collections of all shapes associated with the node. Read-only ISmartArtShapeCollection. |
 
 ### Result
-[SmartArtShapeCollection]
+SmartArtShapeCollection(../../smartartshapecollection)
 
 
 ---
 
 
-| [getTextFrame] () | Returns or sets text of the node. Read-only ITextFrame. |
+| Name | Description |
+| --- | --- |
+| getTextFrame () | Returns or sets text of the node. Read-only ITextFrame. |
 
 ### Result
-[TextFrame]
+TextFrame(../../textframe)
 
 
 ---
 
 
-| [isAssistant] () | Returns or sets the node as assistant. Read/write boolean. |
-
-### Result
-boolean
-
-
----
-
-
-| [isHidden] () | Returns true if this node is a hidden node in the data model. Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isAssistant () | Returns or sets the node as assistant. Read/write boolean. |
 
 ### Result
 boolean
@@ -98,7 +105,9 @@ boolean
 ---
 
 
-| [remove] () | Remove current node. |
+| Name | Description |
+| --- | --- |
+| isHidden () | Returns true if this node is a hidden node in the data model. Read-only boolean. |
 
 ### Result
 boolean
@@ -107,19 +116,36 @@ boolean
 ---
 
 
-| [setAssistant] ([boolean]) | Returns or sets the node as assistant. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| remove () | Remove current node. |
+
+### Result
+boolean
 
 
 ---
 
 
-| [setOrganizationChartLayout] ([int]) | Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutType. |
+| Name | Description |
+| --- | --- |
+| setAssistant (boolean) | Returns or sets the node as assistant. Read/write boolean. |
 
 
 ---
 
 
-| [setPosition] ([int]) | Returns or sets zero-based position of node among sibling nodes. Read/write int. |
+| Name | Description |
+| --- | --- |
+| setOrganizationChartLayout (int) | Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutType. |
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| setPosition (int) | Returns or sets zero-based position of node among sibling nodes. Read/write int. |
 
 ### Error
 

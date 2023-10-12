@@ -12,7 +12,9 @@ url: /aspose.slides/fieldtype/
  Represents a type of field. 
  This value determines which text will be set to the field portion when it will be updated.
  
-| [FieldType]([String]) | Initializes a new instance of FieldType class. |
+| Name | Description |
+| --- | --- |
+| FieldType(String) | Initializes a new instance of FieldType class. |
 
 ### Result
 FieldType
@@ -21,13 +23,15 @@ FieldType
 ---
 
 
-| [equals] ([Object]) | Checks if this field is equal to another. |
+| Name | Description |
+| --- | --- |
+| equals (Object) | Checks if this field is equal to another. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| obj | [Object] | Field to compare. |
+| obj | Object | Field to compare. |
 
 ### Result
 boolean
@@ -36,7 +40,9 @@ boolean
 ---
 
 
-| [getDateTime] () | Current date and time in default date time format for the rendering application. Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime () | Current date and time in default date time format for the rendering application. Read-only FieldType. |
 
 ### Result
 FieldType
@@ -45,7 +51,9 @@ FieldType
 ---
 
 
-| [getDateTime1] () | Current date and time in a first predefined format (MM/DD/YYYY for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime1 () | Current date and time in a first predefined format (MM/DD/YYYY for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -54,7 +62,9 @@ FieldType
 ---
 
 
-| [getDateTime10] () | Current date and time in a tenth predefined format (hh:mm for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime10 () | Current date and time in a tenth predefined format (hh:mm for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -63,7 +73,9 @@ FieldType
 ---
 
 
-| [getDateTime11] () | Current date and time in a eleventh predefined format (hh:mm:ss for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime11 () | Current date and time in a eleventh predefined format (hh:mm:ss for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -72,7 +84,9 @@ FieldType
 ---
 
 
-| [getDateTime12] () | Current date and time in a twelfth predefined format (hh:mm AM/PM for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime12 () | Current date and time in a twelfth predefined format (hh:mm AM/PM for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -81,7 +95,9 @@ FieldType
 ---
 
 
-| [getDateTime13] () | Current date and time in a thirteenth predefined format (hh:mm:ss AM/PM for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime13 () | Current date and time in a thirteenth predefined format (hh:mm:ss AM/PM for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -90,7 +106,9 @@ FieldType
 ---
 
 
-| [getDateTime2] () | Current date and time in a second predefined format (Day, Month DD, YYYY for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime2 () | Current date and time in a second predefined format (Day, Month DD, YYYY for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -99,7 +117,9 @@ FieldType
 ---
 
 
-| [getDateTime3] () | Current date and time in a third predefined format (DD Month YYYY for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime3 () | Current date and time in a third predefined format (DD Month YYYY for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -108,7 +128,9 @@ FieldType
 ---
 
 
-| [getDateTime4] () | Current date and time in a fourth predefined format (Month DD, YYYY for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime4 () | Current date and time in a fourth predefined format (Month DD, YYYY for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -117,7 +139,9 @@ FieldType
 ---
 
 
-| [getDateTime5] () | Current date and time in a fifth predefined format (DD-Mon-YY for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime5 () | Current date and time in a fifth predefined format (DD-Mon-YY for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -126,7 +150,9 @@ FieldType
 ---
 
 
-| [getDateTime6] () | Current date and time in a sixth predefined format (Month YY for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime6 () | Current date and time in a sixth predefined format (Month YY for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -135,7 +161,9 @@ FieldType
 ---
 
 
-| [getDateTime7] () | Current date and time in a seventh predefined format (Mon-YY for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime7 () | Current date and time in a seventh predefined format (Mon-YY for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -144,7 +172,9 @@ FieldType
 ---
 
 
-| [getDateTime8] () | Current date and time in a eighth predefined format (MM/DD/YYYY hh:mm AM/PM for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime8 () | Current date and time in a eighth predefined format (MM/DD/YYYY hh:mm AM/PM for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -153,7 +183,9 @@ FieldType
 ---
 
 
-| [getDateTime9] () | Current date and time in a ninth predefined format (MM/DD/YYYY hh:mm:ss AM/PM for english). Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getDateTime9 () | Current date and time in a ninth predefined format (MM/DD/YYYY hh:mm:ss AM/PM for english). Read-only FieldType. |
 
 ### Result
 FieldType
@@ -162,7 +194,9 @@ FieldType
 ---
 
 
-| [getFooter] () | Slide's footer. Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getFooter () | Slide's footer. Read-only FieldType. |
 
 ### Result
 FieldType
@@ -171,7 +205,9 @@ FieldType
 ---
 
 
-| [getHeader] () | Slide's header. Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getHeader () | Slide's header. Read-only FieldType. |
 
 ### Result
 FieldType
@@ -180,7 +216,9 @@ FieldType
 ---
 
 
-| [getInternalString] () | Returns the internal name of this FieldType object. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getInternalString () | Returns the internal name of this FieldType object. Read/write String. |
 
 ### Result
 String
@@ -189,7 +227,9 @@ String
 ---
 
 
-| [getSlideNumber] () | Current slide's number. Read-only FieldType. |
+| Name | Description |
+| --- | --- |
+| getSlideNumber () | Current slide's number. Read-only FieldType. |
 
 ### Result
 FieldType
@@ -198,7 +238,9 @@ FieldType
 ---
 
 
-| [hashCode] () | Returns hashcode for this object. |
+| Name | Description |
+| --- | --- |
+| hashCode () | Returns hashcode for this object. |
 
 ### Result
 int
@@ -207,14 +249,16 @@ int
 ---
 
 
-| [op_Equality] ([FieldType], [FieldType]) | Checks if two FieldType objects is equal. |
+| Name | Description |
+| --- | --- |
+| op_Equality (FieldType(../fieldtype), FieldType(../fieldtype)) | Checks if two FieldType objects is equal. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| a | [FieldType] | First FieldType to compare. |
-| b | [FieldType] | Second FieldType to compare. |
+| a | FieldType(../fieldtype) | First FieldType to compare. |
+| b | FieldType(../../fieldtype) | Second FieldType to compare. |
 
 ### Result
 boolean
@@ -223,14 +267,16 @@ boolean
 ---
 
 
-| [op_Inequality] ([FieldType], [FieldType]) | Checks if two FieldType objects is inequal. |
+| Name | Description |
+| --- | --- |
+| op_Inequality (FieldType(../fieldtype), FieldType(../fieldtype)) | Checks if two FieldType objects is inequal. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| a | [FieldType] | First FieldType to compare. |
-| b | [FieldType] | Second FieldType to compare. |
+| a | FieldType(../fieldtype) | First FieldType to compare. |
+| b | FieldType(../../fieldtype) | Second FieldType to compare. |
 
 ### Result
 boolean
@@ -239,7 +285,9 @@ boolean
 ---
 
 
-| [setInternalString] ([String]) | Returns the internal name of this FieldType object. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setInternalString (String) | Returns the internal name of this FieldType object. Read/write String. |
 
 
 ---

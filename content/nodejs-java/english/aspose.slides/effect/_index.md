@@ -11,34 +11,20 @@ url: /aspose.slides/effect/
 
  Represents animation effect.
  
-| [getAfterAnimationColor] () | Defined an after animation color for effect. Read/write IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getAfterAnimationColor () | Defined an after animation color for effect. Read/write IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getAfterAnimationType] () | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
-
-### Result
-int
-
-
----
-
-
-| [getBehaviors] () | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
-
-### Result
-[BehaviorCollection]
-
-
----
-
-
-| [getPresetClassType] () | Defines class of effect. Read/write EffectPresetClassType. |
+| Name | Description |
+| --- | --- |
+| getAfterAnimationType () | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
 
 ### Result
 int
@@ -47,25 +33,53 @@ int
 ---
 
 
-| [getSequence] () | Returns a sequence for an effect. Read-only ISequence. |
+| Name | Description |
+| --- | --- |
+| getBehaviors () | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 
 ### Result
-[Sequence]
+BehaviorCollection(../../behaviorcollection)
 
 
 ---
 
 
-| [getSound] () | Defined embedded sound for effect. Read/write IAudio. |
+| Name | Description |
+| --- | --- |
+| getPresetClassType () | Defines class of effect. Read/write EffectPresetClassType. |
 
 ### Result
-[Audio]
+int
 
 
 ---
 
 
-| [getStopPreviousSound] () | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getSequence () | Returns a sequence for an effect. Read-only ISequence. |
+
+### Result
+Sequence(../../sequence)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getSound () | Defined embedded sound for effect. Read/write IAudio. |
+
+### Result
+Audio(../../audio)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getStopPreviousSound () | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
 
 ### Result
 boolean
@@ -74,7 +88,9 @@ boolean
 ---
 
 
-| [getSubtype] () | Defines subtype of effect. Read/write EffectSubtype. |
+| Name | Description |
+| --- | --- |
+| getSubtype () | Defines subtype of effect. Read/write EffectSubtype. |
 
 ### Result
 int
@@ -83,34 +99,42 @@ int
 ---
 
 
-| [getTargetShape] () | Returns target shape for effect. Read-only IShape. |
+| Name | Description |
+| --- | --- |
+| getTargetShape () | Returns target shape for effect. Read-only IShape. |
 
 ### Result
-[LegacyDiagram], [Connector], [GraphicalObject], [Shape], [Ink], [GroupShape], [SmartArtShape], [SummaryZoomSection], [ZoomObject], [SmartArt], [VideoFrame], [PictureFrame], [ZoomFrame], [AutoShape], [GeometryShape], [OleObjectFrame], [SectionZoomFrame], [AudioFrame], [Chart], [Table], [SummaryZoomFrame]
+LegacyDiagram(../../legacydiagram), Connector(../../connector), GraphicalObject(../../graphicalobject), Shape(../../shape), Ink(../../ink), GroupShape(../../groupshape), SmartArtShape(../../smartartshape), SummaryZoomSection(../../summaryzoomsection), ZoomObject(../../zoomobject), SmartArt(../../smartart), VideoFrame(../../videoframe), PictureFrame(../../pictureframe), ZoomFrame(../../zoomframe), AutoShape(../../autoshape), GeometryShape(../../geometryshape), OleObjectFrame(../../oleobjectframe), SectionZoomFrame(../../sectionzoomframe), AudioFrame(../../audioframe), Chart(../../chart), Table(../../table), SummaryZoomFrame(../../summaryzoomframe)
 
 
 ---
 
 
-| [getTextAnimation] () | TextAnimation Read-only ITextAnimation. |
+| Name | Description |
+| --- | --- |
+| getTextAnimation () | TextAnimation Read-only ITextAnimation. |
 
 ### Result
-[TextAnimation]
+TextAnimation(../../textanimation)
 
 
 ---
 
 
-| [getTiming] () | Defines timing value for effect. Read/write ITiming. |
+| Name | Description |
+| --- | --- |
+| getTiming () | Defines timing value for effect. Read/write ITiming. |
 
 ### Result
-[Timing]
+Timing(../../timing)
 
 
 ---
 
 
-| [getType] () | Defines type of effect. Read/write EffectType. |
+| Name | Description |
+| --- | --- |
+| getType () | Defines type of effect. Read/write EffectType. |
 
 ### Result
 int
@@ -119,55 +143,73 @@ int
 ---
 
 
-| [setAfterAnimationColor] ([ColorFormat]) | Defined an after animation color for effect. Read/write IColorFormat. |
+| Name | Description |
+| --- | --- |
+| setAfterAnimationColor (ColorFormat(../colorformat)) | Defined an after animation color for effect. Read/write IColorFormat. |
 
 
 ---
 
 
-| [setAfterAnimationType] ([int]) | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+| Name | Description |
+| --- | --- |
+| setAfterAnimationType (int) | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
 
 
 ---
 
 
-| [setBehaviors] ([BehaviorCollection]) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+| Name | Description |
+| --- | --- |
+| setBehaviors (BehaviorCollection(../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 
 
 ---
 
 
-| [setPresetClassType] ([int]) | Defines class of effect. Read/write EffectPresetClassType. |
+| Name | Description |
+| --- | --- |
+| setPresetClassType (int) | Defines class of effect. Read/write EffectPresetClassType. |
 
 
 ---
 
 
-| [setSound] ([Audio]) | Defined embedded sound for effect. Read/write IAudio. |
+| Name | Description |
+| --- | --- |
+| setSound (Audio(../audio)) | Defined embedded sound for effect. Read/write IAudio. |
 
 
 ---
 
 
-| [setStopPreviousSound] ([boolean]) | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setStopPreviousSound (boolean) | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
 
 
 ---
 
 
-| [setSubtype] ([int]) | Defines subtype of effect. Read/write EffectSubtype. |
+| Name | Description |
+| --- | --- |
+| setSubtype (int) | Defines subtype of effect. Read/write EffectSubtype. |
 
 
 ---
 
 
-| [setTiming] ([Timing]) | Defines timing value for effect. Read/write ITiming. |
+| Name | Description |
+| --- | --- |
+| setTiming (Timing(../timing)) | Defines timing value for effect. Read/write ITiming. |
 
 
 ---
 
 
-| [setType] ([int]) | Defines type of effect. Read/write EffectType. |
+| Name | Description |
+| --- | --- |
+| setType (int) | Defines type of effect. Read/write EffectType. |
 
 
 ---

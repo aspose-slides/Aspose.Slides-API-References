@@ -11,7 +11,9 @@ url: /aspose.slides/motioncmdpath/
 
  Represent one command of a path.
  
-| [getCommandType] () | Specifies command type. Read/write MotionCommandPathType. |
+| Name | Description |
+| --- | --- |
+| getCommandType () | Specifies command type. Read/write MotionCommandPathType. |
 
 ### Result
 int
@@ -20,7 +22,9 @@ int
 ---
 
 
-| [getPoints] () | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
+| Name | Description |
+| --- | --- |
+| getPoints () | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
 
 ### Result
 Point2D.Float
@@ -29,7 +33,9 @@ Point2D.Float
 ---
 
 
-| [getPointsType] () | Specifies command points type Read/write MotionPathPointsType. |
+| Name | Description |
+| --- | --- |
+| getPointsType () | Specifies command points type Read/write MotionPathPointsType. |
 
 ### Result
 int
@@ -38,7 +44,9 @@ int
 ---
 
 
-| [isRelative] () | Determine command coordinates relative or not. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| isRelative () | Determine command coordinates relative or not. Read/write boolean. |
 
 ### Result
 boolean
@@ -47,25 +55,33 @@ boolean
 ---
 
 
-| [setCommandType] ([int]) | Specifies command type. Read/write MotionCommandPathType. |
+| Name | Description |
+| --- | --- |
+| setCommandType (int) | Specifies command type. Read/write MotionCommandPathType. |
 
 
 ---
 
 
-| [setPoints] ([java.awt.geom.Point2D.Float[]]) | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
+| Name | Description |
+| --- | --- |
+| setPoints (java.awt.geom.Point2D.Float[]) | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
 
 
 ---
 
 
-| [setPointsType] ([int]) | Specifies command points type Read/write MotionPathPointsType. |
+| Name | Description |
+| --- | --- |
+| setPointsType (int) | Specifies command points type Read/write MotionPathPointsType. |
 
 
 ---
 
 
-| [setRelative] ([boolean]) | Determine command coordinates relative or not. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setRelative (boolean) | Determine command coordinates relative or not. Read/write boolean. |
 
 
 ---

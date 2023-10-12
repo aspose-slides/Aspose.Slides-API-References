@@ -11,13 +11,15 @@ url: /aspose.slides/mathborderbox/
 
  Draws a rectangular or some other border around the IMathElement. 
  
-| [MathBorderBox]([MathLimit]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathLimit(../mathlimit)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit] | The base element to which the border box is applied. Can be null. |
+| element | MathLimit(../../mathlimit) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -26,13 +28,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathBorderBox]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathBorderBox(../mathborderbox)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox] | The base element to which the border box is applied. Can be null. |
+| element | MathBorderBox(../../mathborderbox) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -41,13 +45,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathFraction]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathFraction(../mathfraction)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction] | The base element to which the border box is applied. Can be null. |
+| element | MathFraction(../../mathfraction) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -56,13 +62,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathDelimiter]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathDelimiter(../mathdelimiter)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter] | The base element to which the border box is applied. Can be null. |
+| element | MathDelimiter(../../mathdelimiter) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -71,13 +79,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathSuperscriptElement]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathSuperscriptElement(../mathsuperscriptelement)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement] | The base element to which the border box is applied. Can be null. |
+| element | MathSuperscriptElement(../../mathsuperscriptelement) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -86,13 +96,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathLeftSubSuperscriptElement]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement] | The base element to which the border box is applied. Can be null. |
+| element | MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -101,13 +113,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathRightSubSuperscriptElement]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement] | The base element to which the border box is applied. Can be null. |
+| element | MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -116,13 +130,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathBox]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathBox(../mathbox)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox] | The base element to which the border box is applied. Can be null. |
+| element | MathBox(../../mathbox) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -131,13 +147,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathMatrix]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathMatrix(../mathmatrix)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix] | The base element to which the border box is applied. Can be null. |
+| element | MathMatrix(../../mathmatrix) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -146,13 +164,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathArray]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathGroupingCharacter(../mathgroupingcharacter)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray] | The base element to which the border box is applied. Can be null. |
+| element | MathGroupingCharacter(../../mathgroupingcharacter) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -161,13 +181,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathBlock]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathArray(../matharray)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBlock] | The base element to which the border box is applied. Can be null. |
+| element | MathArray(../../matharray) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -176,13 +198,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathSubscriptElement]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathBlock(../mathblock)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement] | The base element to which the border box is applied. Can be null. |
+| element | MathBlock(../../mathblock) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -191,13 +215,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathFunction]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathSubscriptElement(../mathsubscriptelement)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction] | The base element to which the border box is applied. Can be null. |
+| element | MathSubscriptElement(../../mathsubscriptelement) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -206,13 +232,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathNaryOperator]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathFunction(../mathfunction)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator] | The base element to which the border box is applied. Can be null. |
+| element | MathFunction(../../mathfunction) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -221,13 +249,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathGroupingCharacter]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathNaryOperator(../mathnaryoperator)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the border box is applied. Can be null. |
+| element | MathNaryOperator(../../mathnaryoperator) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -236,13 +266,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathematicalText]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathematicalText(../mathematicaltext)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText] | The base element to which the border box is applied. Can be null. |
+| element | MathematicalText(../../mathematicaltext) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -251,13 +283,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathAccent]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathAccent(../mathaccent)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent] | The base element to which the border box is applied. Can be null. |
+| element | MathAccent(../../mathaccent) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -266,13 +300,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathRadical]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathRadical(../mathradical)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical] | The base element to which the border box is applied. Can be null. |
+| element | MathRadical(../../mathradical) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -281,13 +317,15 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathBar]) | Creates MathBorderBox element with rectangular border |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathBar(../mathbar)) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar] | The base element to which the border box is applied. Can be null. |
+| element | MathBar(../../mathbar) | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -296,21 +334,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathLimit], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathLimit(../mathlimit), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathLimit(../mathlimit) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -319,21 +359,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathBorderBox], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathBorderBox(../mathborderbox), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathBorderBox(../mathborderbox) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -342,21 +384,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathFraction], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathFraction(../mathfraction), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathFraction(../mathfraction) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -365,21 +409,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathDelimiter], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathDelimiter(../mathdelimiter), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathDelimiter(../mathdelimiter) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -388,21 +434,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathSuperscriptElement], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathSuperscriptElement(../mathsuperscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathSuperscriptElement(../mathsuperscriptelement) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -411,21 +459,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathLeftSubSuperscriptElement], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -434,21 +484,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathRightSubSuperscriptElement], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -457,21 +509,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathBox], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathBox(../mathbox), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathBox(../mathbox) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -480,21 +534,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathMatrix], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathMatrix(../mathmatrix), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathMatrix(../mathmatrix) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -503,21 +559,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathArray], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathGroupingCharacter(../mathgroupingcharacter), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathGroupingCharacter(../mathgroupingcharacter) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -526,21 +584,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathBlock], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathArray(../matharray), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBlock] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathArray(../matharray) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -549,21 +609,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathSubscriptElement], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathBlock(../mathblock), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathBlock(../mathblock) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -572,21 +634,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathFunction], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathSubscriptElement(../mathsubscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathSubscriptElement(../mathsubscriptelement) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -595,21 +659,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathNaryOperator], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathFunction(../mathfunction), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathFunction(../mathfunction) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -618,21 +684,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathGroupingCharacter], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathNaryOperator(../mathnaryoperator), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathNaryOperator(../mathnaryoperator) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -641,21 +709,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathematicalText], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathematicalText(../mathematicaltext), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathematicalText(../mathematicaltext) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -664,21 +734,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathAccent], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathAccent(../mathaccent), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathAccent(../mathaccent) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -687,21 +759,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathRadical], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathRadical(../mathradical), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathRadical(../mathradical) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -710,21 +784,23 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathBar], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+| Name | Description |
+| --- | --- |
+| MathBorderBox(MathBar(../mathbar), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+| element | MathBar(../mathbar) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
 
 ### Result
 MathBorderBox
@@ -733,25 +809,31 @@ MathBorderBox
 ---
 
 
-| [getBase] () | Base argument |
+| Name | Description |
+| --- | --- |
+| getBase () | Base argument |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
 
 
 ---
 
 
-| [getChildren] () | Get children elements |
+| Name | Description |
+| --- | --- |
+| getChildren () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
 
 
 ---
 
 
-| [getHideBottom] () | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
+| Name | Description |
+| --- | --- |
+| getHideBottom () | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
 
 ### Result
 boolean
@@ -760,7 +842,9 @@ boolean
 ---
 
 
-| [getHideLeft] () | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
+| Name | Description |
+| --- | --- |
+| getHideLeft () | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
 
 ### Result
 boolean
@@ -769,7 +853,9 @@ boolean
 ---
 
 
-| [getHideRight] () | Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
+| Name | Description |
+| --- | --- |
+| getHideRight () | Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
 
 ### Result
 boolean
@@ -778,7 +864,9 @@ boolean
 ---
 
 
-| [getHideTop] () | Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
+| Name | Description |
+| --- | --- |
+| getHideTop () | Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
 
 ### Result
 boolean
@@ -787,7 +875,9 @@ boolean
 ---
 
 
-| [getStrikethroughBottomLeftToTopRight] () | Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
+| Name | Description |
+| --- | --- |
+| getStrikethroughBottomLeftToTopRight () | Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
 
 ### Result
 boolean
@@ -796,7 +886,9 @@ boolean
 ---
 
 
-| [getStrikethroughHorizontal] () | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
+| Name | Description |
+| --- | --- |
+| getStrikethroughHorizontal () | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
 
 ### Result
 boolean
@@ -805,7 +897,9 @@ boolean
 ---
 
 
-| [getStrikethroughTopLeftToBottomRight] () | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
+| Name | Description |
+| --- | --- |
+| getStrikethroughTopLeftToBottomRight () | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
 
 ### Result
 boolean
@@ -814,7 +908,9 @@ boolean
 ---
 
 
-| [getStrikethroughVertical] () | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
+| Name | Description |
+| --- | --- |
+| getStrikethroughVertical () | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
 
 ### Result
 boolean
@@ -823,49 +919,65 @@ boolean
 ---
 
 
-| [setHideBottom] ([boolean]) | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
+| Name | Description |
+| --- | --- |
+| setHideBottom (boolean) | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
 
 
 ---
 
 
-| [setHideLeft] ([boolean]) | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
+| Name | Description |
+| --- | --- |
+| setHideLeft (boolean) | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
 
 
 ---
 
 
-| [setHideRight] ([boolean]) | Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
+| Name | Description |
+| --- | --- |
+| setHideRight (boolean) | Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
 
 
 ---
 
 
-| [setHideTop] ([boolean]) | Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
+| Name | Description |
+| --- | --- |
+| setHideTop (boolean) | Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
 
 
 ---
 
 
-| [setStrikethroughBottomLeftToTopRight] ([boolean]) | Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
+| Name | Description |
+| --- | --- |
+| setStrikethroughBottomLeftToTopRight (boolean) | Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
 
 
 ---
 
 
-| [setStrikethroughHorizontal] ([boolean]) | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
+| Name | Description |
+| --- | --- |
+| setStrikethroughHorizontal (boolean) | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
 
 
 ---
 
 
-| [setStrikethroughTopLeftToBottomRight] ([boolean]) | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
+| Name | Description |
+| --- | --- |
+| setStrikethroughTopLeftToBottomRight (boolean) | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
 
 
 ---
 
 
-| [setStrikethroughVertical] ([boolean]) | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
+| Name | Description |
+| --- | --- |
+| setStrikethroughVertical (boolean) | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
 
 
 ---

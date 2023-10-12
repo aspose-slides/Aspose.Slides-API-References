@@ -11,16 +11,20 @@ url: /aspose.slides/shapestyle/
 
  Represent shape's style reference.
  
-| [getEffectColor] () | Returns a shape's effect color. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getEffectColor () | Returns a shape's effect color. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getEffectStyleIndex] () | Returns or sets shape's effect column index in a style matrix. Read/write long. |
+| Name | Description |
+| --- | --- |
+| getEffectStyleIndex () | Returns or sets shape's effect column index in a style matrix. Read/write long. |
 
 ### Result
 long
@@ -29,16 +33,20 @@ long
 ---
 
 
-| [getFillColor] () | Returns a shape's fill color. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getFillColor () | Returns a shape's fill color. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getFillStyleIndex] () | Returns or sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. Read/write short. |
+| Name | Description |
+| --- | --- |
+| getFillStyleIndex () | Returns or sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. Read/write short. |
 
 ### Result
 short
@@ -47,7 +55,9 @@ short
 ---
 
 
-| [getFontCollectionIndex] () | Returns or sets shape's font index in a font collection. Read/write FontCollectionIndex. |
+| Name | Description |
+| --- | --- |
+| getFontCollectionIndex () | Returns or sets shape's font index in a font collection. Read/write FontCollectionIndex. |
 
 ### Result
 byte
@@ -56,25 +66,31 @@ byte
 ---
 
 
-| [getFontColor] () | Returns a shape's font color. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getFontColor () | Returns a shape's font color. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getLineColor] () | Returns a shape's outline color. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getLineColor () | Returns a shape's outline color. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getLineStyleIndex] () | Returns or sets line's column index in a style matrix. Read/write int. |
+| Name | Description |
+| --- | --- |
+| getLineStyleIndex () | Returns or sets line's column index in a style matrix. Read/write int. |
 
 ### Result
 int
@@ -83,25 +99,33 @@ int
 ---
 
 
-| [setEffectStyleIndex] ([long]) | Returns or sets shape's effect column index in a style matrix. Read/write long. |
+| Name | Description |
+| --- | --- |
+| setEffectStyleIndex (long) | Returns or sets shape's effect column index in a style matrix. Read/write long. |
 
 
 ---
 
 
-| [setFillStyleIndex] ([short]) | Returns or sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. Read/write short. |
+| Name | Description |
+| --- | --- |
+| setFillStyleIndex (short) | Returns or sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. Read/write short. |
 
 
 ---
 
 
-| [setFontCollectionIndex] ([byte]) | Returns or sets shape's font index in a font collection. Read/write FontCollectionIndex. |
+| Name | Description |
+| --- | --- |
+| setFontCollectionIndex (byte) | Returns or sets shape's font index in a font collection. Read/write FontCollectionIndex. |
 
 
 ---
 
 
-| [setLineStyleIndex] ([int]) | Returns or sets line's column index in a style matrix. Read/write int. |
+| Name | Description |
+| --- | --- |
+| setLineStyleIndex (int) | Returns or sets line's column index in a style matrix. Read/write int. |
 
 
 ---

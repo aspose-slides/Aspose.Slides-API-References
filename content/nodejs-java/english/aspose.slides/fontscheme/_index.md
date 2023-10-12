@@ -11,25 +11,31 @@ url: /aspose.slides/fontscheme/
 
  Stores theme-defined fonts.
  
-| [getMajor] () | Returns the fonts collection for a "heading" part of the slide. Read-only IFonts. |
+| Name | Description |
+| --- | --- |
+| getMajor () | Returns the fonts collection for a "heading" part of the slide. Read-only IFonts. |
 
 ### Result
-[Fonts]
+Fonts(../../fonts)
 
 
 ---
 
 
-| [getMinor] () | Returns the fonts collection for a "body" part of the slide. Read-only IFonts. |
+| Name | Description |
+| --- | --- |
+| getMinor () | Returns the fonts collection for a "body" part of the slide. Read-only IFonts. |
 
 ### Result
-[Fonts]
+Fonts(../../fonts)
 
 
 ---
 
 
-| [getName] () | Returns the font scheme name. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getName () | Returns the font scheme name. Read/write String. |
 
 ### Result
 String
@@ -38,7 +44,9 @@ String
 ---
 
 
-| [setName] ([String]) | Returns the font scheme name. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setName (String) | Returns the font scheme name. Read/write String. |
 
 
 ---

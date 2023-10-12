@@ -14,13 +14,15 @@ url: /aspose.slides/mathbox/
  serve as a line break point, or be grouped such as not to allow line breaks within.
  For example, the "==" operator should be boxed to prevent line breaks.
  
-| [MathBox]([MathLimit]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathLimit(../mathlimit)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit] | The base element to which the box is applied. Can be null. |
+| element | MathLimit(../../mathlimit) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -29,13 +31,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathBorderBox]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathBorderBox(../mathborderbox)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox] | The base element to which the box is applied. Can be null. |
+| element | MathBorderBox(../../mathborderbox) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -44,13 +48,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathFraction]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathFraction(../mathfraction)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction] | The base element to which the box is applied. Can be null. |
+| element | MathFraction(../../mathfraction) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -59,13 +65,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathDelimiter]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathDelimiter(../mathdelimiter)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter] | The base element to which the box is applied. Can be null. |
+| element | MathDelimiter(../../mathdelimiter) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -74,13 +82,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathSuperscriptElement]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathSuperscriptElement(../mathsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement] | The base element to which the box is applied. Can be null. |
+| element | MathSuperscriptElement(../../mathsuperscriptelement) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -89,13 +99,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathLeftSubSuperscriptElement]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement] | The base element to which the box is applied. Can be null. |
+| element | MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -104,13 +116,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathRightSubSuperscriptElement]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement] | The base element to which the box is applied. Can be null. |
+| element | MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -119,13 +133,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathBox]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathBox(../mathbox)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox] | The base element to which the box is applied. Can be null. |
+| element | MathBox(../../mathbox) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -134,13 +150,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathMatrix]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathMatrix(../mathmatrix)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix] | The base element to which the box is applied. Can be null. |
+| element | MathMatrix(../../mathmatrix) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -149,13 +167,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathArray]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathGroupingCharacter(../mathgroupingcharacter)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray] | The base element to which the box is applied. Can be null. |
+| element | MathGroupingCharacter(../../mathgroupingcharacter) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -164,13 +184,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathBlock]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathArray(../matharray)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBlock] | The base element to which the box is applied. Can be null. |
+| element | MathArray(../../matharray) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -179,13 +201,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathSubscriptElement]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathBlock(../mathblock)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement] | The base element to which the box is applied. Can be null. |
+| element | MathBlock(../../mathblock) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -194,13 +218,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathFunction]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathSubscriptElement(../mathsubscriptelement)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction] | The base element to which the box is applied. Can be null. |
+| element | MathSubscriptElement(../../mathsubscriptelement) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -209,13 +235,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathNaryOperator]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathFunction(../mathfunction)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator] | The base element to which the box is applied. Can be null. |
+| element | MathFunction(../../mathfunction) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -224,13 +252,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathGroupingCharacter]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathNaryOperator(../mathnaryoperator)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the box is applied. Can be null. |
+| element | MathNaryOperator(../../mathnaryoperator) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -239,13 +269,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathematicalText]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathematicalText(../mathematicaltext)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText] | The base element to which the box is applied. Can be null. |
+| element | MathematicalText(../../mathematicaltext) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -254,13 +286,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathAccent]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathAccent(../mathaccent)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent] | The base element to which the box is applied. Can be null. |
+| element | MathAccent(../../mathaccent) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -269,13 +303,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathRadical]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathRadical(../mathradical)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical] | The base element to which the box is applied. Can be null. |
+| element | MathRadical(../../mathradical) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -284,13 +320,15 @@ MathBox
 ---
 
 
-| [MathBox]([MathBar]) | Initializes MathBox with the specified element as an argument |
+| Name | Description |
+| --- | --- |
+| MathBox(MathBar(../mathbar)) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar] | The base element to which the box is applied. Can be null. |
+| element | MathBar(../../mathbar) | The base element to which the box is applied. Can be null. |
 
 ### Result
 MathBox
@@ -299,7 +337,9 @@ MathBox
 ---
 
 
-| [getAlignmentPoint] () | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
+| Name | Description |
+| --- | --- |
+| getAlignmentPoint () | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
 
 ### Result
 boolean
@@ -308,25 +348,31 @@ boolean
 ---
 
 
-| [getBase] () | Base argument |
+| Name | Description |
+| --- | --- |
+| getBase () | Base argument |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
 
 
 ---
 
 
-| [getChildren] () | Get children elements |
+| Name | Description |
+| --- | --- |
+| getChildren () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
 
 
 ---
 
 
-| [getDifferential] () | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
+| Name | Description |
+| --- | --- |
+| getDifferential () | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
 
 ### Result
 boolean
@@ -335,7 +381,9 @@ boolean
 ---
 
 
-| [getExplicitBreak] () | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
+| Name | Description |
+| --- | --- |
+| getExplicitBreak () | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
 
 ### Result
 byte
@@ -344,7 +392,9 @@ byte
 ---
 
 
-| [getNoBreak] () | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
+| Name | Description |
+| --- | --- |
+| getNoBreak () | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
 
 ### Result
 boolean
@@ -353,7 +403,9 @@ boolean
 ---
 
 
-| [getOperatorEmulator] () | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
+| Name | Description |
+| --- | --- |
+| getOperatorEmulator () | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
 
 ### Result
 boolean
@@ -362,31 +414,41 @@ boolean
 ---
 
 
-| [setAlignmentPoint] ([boolean]) | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
+| Name | Description |
+| --- | --- |
+| setAlignmentPoint (boolean) | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
 
 
 ---
 
 
-| [setDifferential] ([boolean]) | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
+| Name | Description |
+| --- | --- |
+| setDifferential (boolean) | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
 
 
 ---
 
 
-| [setExplicitBreak] ([byte]) | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
+| Name | Description |
+| --- | --- |
+| setExplicitBreak (byte) | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
 
 
 ---
 
 
-| [setNoBreak] ([boolean]) | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
+| Name | Description |
+| --- | --- |
+| setNoBreak (boolean) | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
 
 
 ---
 
 
-| [setOperatorEmulator] ([boolean]) | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
+| Name | Description |
+| --- | --- |
+| setOperatorEmulator (boolean) | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
 
 
 ---

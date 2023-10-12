@@ -11,7 +11,9 @@ url: /aspose.slides/propertyeffect/
 
  Represent property effect behavior.
  
-| [PropertyEffect]() |  |
+| Name | Description |
+| --- | --- |
+| PropertyEffect() |  |
 
 ### Result
 PropertyEffect
@@ -20,7 +22,9 @@ PropertyEffect
 ---
 
 
-| [getBy] () | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getBy () | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 
 ### Result
 String
@@ -29,7 +33,9 @@ String
 ---
 
 
-| [getCalcMode] () | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
+| Name | Description |
+| --- | --- |
+| getCalcMode () | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 
 ### Result
 int
@@ -38,7 +44,9 @@ int
 ---
 
 
-| [getFrom] () | Specifies the starting value of the animation. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getFrom () | Specifies the starting value of the animation. Read/write String. |
 
 ### Result
 String
@@ -47,16 +55,20 @@ String
 ---
 
 
-| [getPoints] () | Specifies the points of the animation. Read/write IPointCollection. |
+| Name | Description |
+| --- | --- |
+| getPoints () | Specifies the points of the animation. Read/write IPointCollection. |
 
 ### Result
-[PointCollection]
+PointCollection(../../pointcollection)
 
 
 ---
 
 
-| [getTo] () | Specifies the ending value for the animation. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getTo () | Specifies the ending value for the animation. Read/write String. |
 
 ### Result
 String
@@ -65,7 +77,9 @@ String
 ---
 
 
-| [getValueType] () | Specifies the type of a property value. Read/write PropertyValueType. |
+| Name | Description |
+| --- | --- |
+| getValueType () | Specifies the type of a property value. Read/write PropertyValueType. |
 
 ### Result
 int
@@ -74,37 +88,49 @@ int
 ---
 
 
-| [setBy] ([String]) | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setBy (String) | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 
 
 ---
 
 
-| [setCalcMode] ([int]) | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
+| Name | Description |
+| --- | --- |
+| setCalcMode (int) | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 
 
 ---
 
 
-| [setFrom] ([String]) | Specifies the starting value of the animation. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setFrom (String) | Specifies the starting value of the animation. Read/write String. |
 
 
 ---
 
 
-| [setPoints] ([PointCollection]) | Specifies the points of the animation. Read/write IPointCollection. |
+| Name | Description |
+| --- | --- |
+| setPoints (PointCollection(../pointcollection)) | Specifies the points of the animation. Read/write IPointCollection. |
 
 
 ---
 
 
-| [setTo] ([String]) | Specifies the ending value for the animation. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setTo (String) | Specifies the ending value for the animation. Read/write String. |
 
 
 ---
 
 
-| [setValueType] ([int]) | Specifies the type of a property value. Read/write PropertyValueType. |
+| Name | Description |
+| --- | --- |
+| setValueType (int) | Specifies the type of a property value. Read/write PropertyValueType. |
 
 
 ---

@@ -13,7 +13,9 @@ url: /aspose.slides/behaviorfactory/
  
  For COM compatibility.
  
-| [BehaviorFactory]() |  |
+| Name | Description |
+| --- | --- |
+| BehaviorFactory() |  |
 
 ### Result
 BehaviorFactory
@@ -22,43 +24,53 @@ BehaviorFactory
 ---
 
 
-| [createColorEffect] () | Creates color effect. |
+| Name | Description |
+| --- | --- |
+| createColorEffect () | Creates color effect. |
 
 ### Result
-[ColorEffect]
+ColorEffect(../../coloreffect)
 
 
 ---
 
 
-| [createCommandEffect] () | Creates command effect. |
+| Name | Description |
+| --- | --- |
+| createCommandEffect () | Creates command effect. |
 
 ### Result
-[CommandEffect]
+CommandEffect(../../commandeffect)
 
 
 ---
 
 
-| [createFilterEffect] () | Creates filter effect. |
+| Name | Description |
+| --- | --- |
+| createFilterEffect () | Creates filter effect. |
 
 ### Result
-[FilterEffect]
+FilterEffect(../../filtereffect)
 
 
 ---
 
 
-| [createMotionEffect] () | Creates motion effect. |
+| Name | Description |
+| --- | --- |
+| createMotionEffect () | Creates motion effect. |
 
 ### Result
-[MotionEffect]
+MotionEffect(../../motioneffect)
 
 
 ---
 
 
-| [createPropertyEffect] () | Creates property effect. |
+| Name | Description |
+| --- | --- |
+| createPropertyEffect () | Creates property effect. |
 
 ### Result
 IPropertyEffect
@@ -67,28 +79,34 @@ IPropertyEffect
 ---
 
 
-| [createRotationEffect] () | Creates rotation effect. |
+| Name | Description |
+| --- | --- |
+| createRotationEffect () | Creates rotation effect. |
 
 ### Result
-[RotationEffect]
+RotationEffect(../../rotationeffect)
 
 
 ---
 
 
-| [createScaleEffect] () | Creates scale effect. |
+| Name | Description |
+| --- | --- |
+| createScaleEffect () | Creates scale effect. |
 
 ### Result
-[ScaleEffect]
+ScaleEffect(../../scaleeffect)
 
 
 ---
 
 
-| [createSetEffect] () | Creates set effect. |
+| Name | Description |
+| --- | --- |
+| createSetEffect () | Creates set effect. |
 
 ### Result
-[SetEffect]
+SetEffect(../../seteffect)
 
 
 ---

@@ -11,7 +11,9 @@ url: /aspose.slides/texthighlightingoptions/
 
  Represents options which can be used to highlight text in text frame.
  
-| [TextHighlightingOptions]() | Creates new default text highlighting options. |
+| Name | Description |
+| --- | --- |
+| TextHighlightingOptions() | Creates new default text highlighting options. |
 
 ### Result
 TextHighlightingOptions
@@ -20,7 +22,9 @@ TextHighlightingOptions
 ---
 
 
-| [getCaseSensitive] () | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getCaseSensitive () | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,7 +33,9 @@ boolean
 ---
 
 
-| [getWholeWordsOnly] () | Set true to match only whole words, false - otherwise. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getWholeWordsOnly () | Set true to match only whole words, false - otherwise. Read/write boolean. |
 
 ### Result
 boolean
@@ -38,13 +44,17 @@ boolean
 ---
 
 
-| [setCaseSensitive] ([boolean]) | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setCaseSensitive (boolean) | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
 
 
 ---
 
 
-| [setWholeWordsOnly] ([boolean]) | Set true to match only whole words, false - otherwise. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setWholeWordsOnly (boolean) | Set true to match only whole words, false - otherwise. Read/write boolean. |
 
 
 ---

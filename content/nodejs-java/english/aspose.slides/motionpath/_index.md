@@ -11,7 +11,9 @@ url: /aspose.slides/motionpath/
 
  Represent motion path.
  
-| [MotionPath]() |  |
+| Name | Description |
+| --- | --- |
+| MotionPath() |  |
 
 ### Result
 MotionPath
@@ -20,31 +22,37 @@ MotionPath
 ---
 
 
-| [add] ([int], [java.awt.geom.Point2D.Float[]], [int], [boolean]) | Add new command to path |
+| Name | Description |
+| --- | --- |
+| add (int, java.awt.geom.Point2D.Float[], int, boolean) | Add new command to path |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| type | [int] | MotionCommandPathType |
-| pts | [java.awt.geom.Point2D.Float[]] | Array of points |
-| ptsType | [int] | MotionPathPointsType |
-| bRelativeCoord | [boolean] | Relative coordinates boolean |
+| type | int | MotionCommandPathType |
+| pts | java.awt.geom.Point2D.Float[] | Array of points |
+| ptsType | int | MotionPathPointsType |
+| bRelativeCoord | boolean | Relative coordinates boolean |
 
 ### Result
-[MotionCmdPath]
+MotionCmdPath(../../motioncmdpath)
 
 
 ---
 
 
-| [clear] () | Removes all commands from the collection. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all commands from the collection. |
 
 
 ---
 
 
-| [getCount] () | Returns the number of paths in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| getCount () | Returns the number of paths in the collection. Read-only int. |
 
 ### Result
 int
@@ -53,47 +61,44 @@ int
 ---
 
 
-| [get_Item] ([int]) | Returns a command at the specified index. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns a command at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of element. |
+| index | int | Index of element. |
 
 ### Result
-[MotionCmdPath]
+MotionCmdPath(../../motioncmdpath)
 
 
 ---
 
 
-| [insert] ([int], [int], [java.awt.geom.Point2D.Float[]], [int], [boolean]) | Insert new command to path |
+| Name | Description |
+| --- | --- |
+| insert (int, int, java.awt.geom.Point2D.Float[], int, boolean) | Insert new command to path |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | The zero-based index at which item should be inserted. |
-| type | [int] | MotionCommandPathType |
-| pts | [java.awt.geom.Point2D.Float[]] | Array of points |
-| ptsType | [int] | MotionPathPointsType |
-| bRelativeCoord | [boolean] | Relative coordinates boolean |
+| index | int | The zero-based index at which item should be inserted. |
+| type | int | MotionCommandPathType |
+| pts | java.awt.geom.Point2D.Float[] | Array of points |
+| ptsType | int | MotionPathPointsType |
+| bRelativeCoord | boolean | Relative coordinates boolean |
 
 
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
-
-### Result
-
-
-
----
-
-
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -102,25 +107,40 @@ int
 ---
 
 
-| [remove] ([MotionCmdPath]) | Removes specified commans from the collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Parameters
+### Result
 
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MotionCmdPath] | Motion path to remove. |
 
 
 ---
 
 
-| [removeAt] ([int]) | Removes a command at the specified index. |
+| Name | Description |
+| --- | --- |
+| remove (MotionCmdPath(../motioncmdpath)) | Removes specified commans from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of a command that should be deleted. |
+| item | MotionCmdPath(../../motioncmdpath) | Motion path to remove. |
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes a command at the specified index. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a command that should be deleted. |
 
 
 ---

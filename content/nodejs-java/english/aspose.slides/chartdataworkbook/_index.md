@@ -11,7 +11,9 @@ url: /aspose.slides/chartdataworkbook/
 
  Provides access to embedded Excel workbook
  
-| [calculateFormulas] () | Calculates all formulas in the workbook and updates corresponding cells values. |
+| Name | Description |
+| --- | --- |
+| calculateFormulas () | Calculates all formulas in the workbook and updates corresponding cells values. |
 
 ### Error
 
@@ -23,123 +25,139 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-| [clear] ([int]) | Clear all cells values on sheet |
+| Name | Description |
+| --- | --- |
+| clear (int) | Clear all cells values on sheet |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sheetIndex | [int] | Index of sheet |
+| sheetIndex | int | Index of sheet |
 
 
 ---
 
 
-| [getCell] ([String], [int], [int]) | Gets the cell that can be used for chart series or categories |
+| Name | Description |
+| --- | --- |
+| getCell (String, int, int) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| worksheetName | [String] | Name of the worksheet. |
-| row | [int] | The row. |
-| column | [int] | The column. |
+| worksheetName | String | Name of the worksheet. |
+| row | int | The row. |
+| column | int | The column. |
 
 ### Result
-[ChartDataCell]
+ChartDataCell(../../chartdatacell)
 
 
 ---
 
 
-| [getCell] ([int], [int], [int]) | Gets the cell that can be used for chart series or categories |
+| Name | Description |
+| --- | --- |
+| getCell (int, int, int) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | [int] | Index of the worksheet. |
-| row | [int] | The row. |
-| column | [int] | The column. |
+| worksheetIndex | int | Index of the worksheet. |
+| row | int | The row. |
+| column | int | The column. |
 
 ### Result
-[ChartDataCell]
+ChartDataCell(../../chartdatacell)
 
 
 ---
 
 
-| [getCell] ([int], [String]) | Gets the cell that can be used for chart series or categories |
+| Name | Description |
+| --- | --- |
+| getCell (int, String) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | [int] | Index of the worksheet. |
-| cellName | [String] | Name of the cell. |
+| worksheetIndex | int | Index of the worksheet. |
+| cellName | String | Name of the cell. |
 
 ### Result
-[ChartDataCell]
+ChartDataCell(../../chartdatacell)
 
 
 ---
 
 
-| [getCell] ([int], [String], [Object]) | Gets the cell that can be used for chart series or categories |
+| Name | Description |
+| --- | --- |
+| getCell (int, String, Object) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | [int] | Index of the worksheet. |
-| cellName | [String] | Name of the cell. |
-| value | [Object] | The value. |
+| worksheetIndex | int | Index of the worksheet. |
+| cellName | String | Name of the cell. |
+| value | Object | The value. |
 
 ### Result
-[ChartDataCell]
+ChartDataCell(../../chartdatacell)
 
 
 ---
 
 
-| [getCell] ([int], [int], [int], [Object]) | Gets the cell that can be used for chart series or categories |
+| Name | Description |
+| --- | --- |
+| getCell (int, int, int, Object) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | [int] | Index of the worksheet. |
-| row | [int] | The row. |
-| column | [int] | The column. |
-| value | [Object] | The value. |
+| worksheetIndex | int | Index of the worksheet. |
+| row | int | The row. |
+| column | int | The column. |
+| value | Object | The value. |
 
 ### Result
-[ChartDataCell]
+ChartDataCell(../../chartdatacell)
 
 
 ---
 
 
-| [getCellCollection] ([String], [boolean]) | Gets the set of cells. |
+| Name | Description |
+| --- | --- |
+| getCellCollection (String, boolean) | Gets the set of cells. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formula | [String] | Excel formula like "Sheet1!$A$2:$A$5". |
-| skipHiddenCells | [boolean] | If true then function returns collection without hidden cells. |
+| formula | String | Excel formula like "Sheet1!$A$2:$A$5". |
+| skipHiddenCells | boolean | If true then function returns collection without hidden cells. |
 
 ### Result
-[ChartCellCollection]
+ChartCellCollection(../../chartcellcollection)
 
 
 ---
 
 
-| [getWorksheets] () | Gets a collection of worksheets. |
+| Name | Description |
+| --- | --- |
+| getWorksheets () | Gets a collection of worksheets. |
 
 ### Result
-[ChartDataWorksheetCollection]
+ChartDataWorksheetCollection(../../chartdataworksheetcollection)
 
 
 ---

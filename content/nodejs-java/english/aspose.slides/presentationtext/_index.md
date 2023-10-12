@@ -11,10 +11,12 @@ url: /aspose.slides/presentationtext/
 
  Represents the text extracted from the presentation
  
-| [getSlidesText] () | An array of ISlideText contains a presentation's text. |
+| Name | Description |
+| --- | --- |
+| getSlidesText () | An array of ISlideText contains a presentation's text. |
 
 ### Result
-[SlideText]
+SlideText
 
 
 ---

@@ -11,7 +11,9 @@ url: /aspose.slides/tiffoptions/
 
  Provides options that control how a presentation is saved in TIFF format.
  
-| [TiffOptions]() | Default function. |
+| Name | Description |
+| --- | --- |
+| TiffOptions() | Default function. |
 
 ### Result
 TiffOptions
@@ -20,7 +22,9 @@ TiffOptions
 ---
 
 
-| [getCompressionType] () | Specifies the compression type. Read/write TiffCompressionTypes. |
+| Name | Description |
+| --- | --- |
+| getCompressionType () | Specifies the compression type. Read/write TiffCompressionTypes. |
 
 ### Result
 int
@@ -29,7 +33,9 @@ int
 ---
 
 
-| [getDpiX] () | Specifies the horizontal resolution in dots per inch. Read/write long. |
+| Name | Description |
+| --- | --- |
+| getDpiX () | Specifies the horizontal resolution in dots per inch. Read/write long. |
 
 ### Result
 long
@@ -38,7 +44,9 @@ long
 ---
 
 
-| [getDpiY] () | Specifies the vertical resolution in dots per inch. Read/write long. |
+| Name | Description |
+| --- | --- |
+| getDpiY () | Specifies the vertical resolution in dots per inch. Read/write long. |
 
 ### Result
 long
@@ -47,7 +55,9 @@ long
 ---
 
 
-| [getImageSize] () | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write java.awt.Dimension. |
+| Name | Description |
+| --- | --- |
+| getImageSize () | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write java.awt.Dimension. |
 
 ### Result
 Dimension
@@ -56,16 +66,20 @@ Dimension
 ---
 
 
-| [getNotesCommentsLayouting] () | Provides options that control how notes and comments is placed in exported document. |
+| Name | Description |
+| --- | --- |
+| getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
 ### Result
-[NotesCommentsLayoutingOptions]
+NotesCommentsLayoutingOptions(../../notescommentslayoutingoptions)
 
 
 ---
 
 
-| [getPixelFormat] () | Specifies the pixel format for the generated images. Read/write ImagePixelFormat. |
+| Name | Description |
+| --- | --- |
+| getPixelFormat () | Specifies the pixel format for the generated images. Read/write ImagePixelFormat. |
 
 ### Result
 int
@@ -74,7 +88,9 @@ int
 ---
 
 
-| [getShowHiddenSlides] () | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 ### Result
 boolean
@@ -83,37 +99,49 @@ boolean
 ---
 
 
-| [setCompressionType] ([int]) | Specifies the compression type. Read/write TiffCompressionTypes. |
+| Name | Description |
+| --- | --- |
+| setCompressionType (int) | Specifies the compression type. Read/write TiffCompressionTypes. |
 
 
 ---
 
 
-| [setDpiX] ([long]) | Specifies the horizontal resolution in dots per inch. Read/write long. |
+| Name | Description |
+| --- | --- |
+| setDpiX (long) | Specifies the horizontal resolution in dots per inch. Read/write long. |
 
 
 ---
 
 
-| [setDpiY] ([long]) | Specifies the vertical resolution in dots per inch. Read/write long. |
+| Name | Description |
+| --- | --- |
+| setDpiY (long) | Specifies the vertical resolution in dots per inch. Read/write long. |
 
 
 ---
 
 
-| [setImageSize] ([Dimension]) | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write java.awt.Dimension. |
+| Name | Description |
+| --- | --- |
+| setImageSize (Dimension) | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write java.awt.Dimension. |
 
 
 ---
 
 
-| [setPixelFormat] ([int]) | Specifies the pixel format for the generated images. Read/write ImagePixelFormat. |
+| Name | Description |
+| --- | --- |
+| setPixelFormat (int) | Specifies the pixel format for the generated images. Read/write ImagePixelFormat. |
 
 
 ---
 
 
-| [setShowHiddenSlides] ([boolean]) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 
 ---

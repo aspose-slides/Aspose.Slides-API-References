@@ -11,16 +11,20 @@ url: /aspose.slides/extracolorscheme/
 
  Represents an additional color scheme which can be assigned to a slide.
  
-| [getColorScheme] () | Returns a color scheme. Read-only IColorScheme. |
+| Name | Description |
+| --- | --- |
+| getColorScheme () | Returns a color scheme. Read-only IColorScheme. |
 
 ### Result
-[ColorScheme]
+ColorScheme(../../colorscheme)
 
 
 ---
 
 
-| [getName] () | Returns a name of this scheme. Read-only String. |
+| Name | Description |
+| --- | --- |
+| getName () | Returns a name of this scheme. Read-only String. |
 
 ### Result
 String

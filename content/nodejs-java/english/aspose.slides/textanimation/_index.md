@@ -11,7 +11,9 @@ url: /aspose.slides/textanimation/
 
  Represent text animation.
  
-| [TextAnimation]() |  |
+| Name | Description |
+| --- | --- |
+| TextAnimation() |  |
 
 ### Result
 TextAnimation
@@ -20,24 +22,28 @@ TextAnimation
 ---
 
 
-| [addEffect] ([int], [int], [int]) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
+| Name | Description |
+| --- | --- |
+| addEffect (int, int, int) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getBuildType] () | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
+| Name | Description |
+| --- | --- |
+| getBuildType () | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
 
 ### Result
 int
@@ -46,22 +52,28 @@ int
 ---
 
 
-| [getEffectAnimateBackgroundShape] () | Linked shape effect with group or not (null). Read/write IEffect. |
+| Name | Description |
+| --- | --- |
+| getEffectAnimateBackgroundShape () | Linked shape effect with group or not (null). Read/write IEffect. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [setBuildType] ([int]) | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
+| Name | Description |
+| --- | --- |
+| setBuildType (int) | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
 
 
 ---
 
 
-| [setEffectAnimateBackgroundShape] ([Effect]) | Linked shape effect with group or not (null). Read/write IEffect. |
+| Name | Description |
+| --- | --- |
+| setEffectAnimateBackgroundShape (Effect(../effect)) | Linked shape effect with group or not (null). Read/write IEffect. |
 
 
 ---

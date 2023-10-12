@@ -11,7 +11,9 @@ url: /aspose.slides/fontsources/
 
  Provides file and memory sources for external fonts.
  
-| [FontSources]() | Creates new default font options. |
+| Name | Description |
+| --- | --- |
+| FontSources() | Creates new default font options. |
 
 ### Result
 FontSources
@@ -20,7 +22,9 @@ FontSources
 ---
 
 
-| [getFontFolders] () | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| Name | Description |
+| --- | --- |
+| getFontFolders () | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
 
 ### Result
 String
@@ -29,7 +33,9 @@ String
 ---
 
 
-| [getMemoryFonts] () | A collection of fonts represented as byte arrays. |
+| Name | Description |
+| --- | --- |
+| getMemoryFonts () | A collection of fonts represented as byte arrays. |
 
 ### Result
 byte
@@ -38,13 +44,17 @@ byte
 ---
 
 
-| [setFontFolders] ([java.lang.String[]]) | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| Name | Description |
+| --- | --- |
+| setFontFolders (java.lang.String[]) | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
 
 
 ---
 
 
-| [setMemoryFonts] ([byte[][]]) | A collection of fonts represented as byte arrays. |
+| Name | Description |
+| --- | --- |
+| setMemoryFonts (byte[][]) | A collection of fonts represented as byte arrays. |
 
 
 ---

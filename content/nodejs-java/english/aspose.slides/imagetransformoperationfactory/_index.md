@@ -13,7 +13,9 @@ url: /aspose.slides/imagetransformoperationfactory/
  
  For COM compatibility.
  
-| [ImageTransformOperationFactory]() |  |
+| Name | Description |
+| --- | --- |
+| ImageTransformOperationFactory() |  |
 
 ### Result
 ImageTransformOperationFactory
@@ -22,207 +24,241 @@ ImageTransformOperationFactory
 ---
 
 
-| [createAlphCeiling] () | Creates Alpha Ceiling effect. |
+| Name | Description |
+| --- | --- |
+| createAlphCeiling () | Creates Alpha Ceiling effect. |
 
 ### Result
-[AlphaCeiling]
+AlphaCeiling(../../alphaceiling)
 
 
 ---
 
 
-| [createAlphaBiLevel] ([float]) | Creates Alpha BiLevel effect. |
+| Name | Description |
+| --- | --- |
+| createAlphaBiLevel (float) | Creates Alpha BiLevel effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| threshold | [float] | Threshold. |
+| threshold | float | Threshold. |
 
 ### Result
-[AlphaBiLevel]
+AlphaBiLevel(../../alphabilevel)
 
 
 ---
 
 
-| [createAlphaFloor] () | Creates Alpha floor effect. |
+| Name | Description |
+| --- | --- |
+| createAlphaFloor () | Creates Alpha floor effect. |
 
 ### Result
-[AlphaFloor]
+AlphaFloor(../../alphafloor)
 
 
 ---
 
 
-| [createAlphaInverse] () | Creates Alpha inverse effect. |
+| Name | Description |
+| --- | --- |
+| createAlphaInverse () | Creates Alpha inverse effect. |
 
 ### Result
-[AlphaInverse]
+AlphaInverse(../../alphainverse)
 
 
 ---
 
 
-| [createAlphaModulate] () | Creates Alpha modulate effect. |
+| Name | Description |
+| --- | --- |
+| createAlphaModulate () | Creates Alpha modulate effect. |
 
 ### Result
-[AlphaModulate]
+AlphaModulate(../../alphamodulate)
 
 
 ---
 
 
-| [createAlphaModulateFixed] ([float]) | Creates Alpha modulate fixed effect. |
+| Name | Description |
+| --- | --- |
+| createAlphaModulateFixed (float) | Creates Alpha modulate fixed effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| amount | [float] | Amount. |
+| amount | float | Amount. |
 
 ### Result
-[AlphaModulateFixed]
+AlphaModulateFixed(../../alphamodulatefixed)
 
 
 ---
 
 
-| [createAlphaReplace] ([float]) | Creates Alpha replace effect. |
+| Name | Description |
+| --- | --- |
+| createAlphaReplace (float) | Creates Alpha replace effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| alpha | [float] | Alpha |
+| alpha | float | Alpha |
 
 ### Result
-[AlphaReplace]
+AlphaReplace(../../alphareplace)
 
 
 ---
 
 
-| [createBiLevel] ([float]) | Creates BiLevel effect. |
+| Name | Description |
+| --- | --- |
+| createBiLevel (float) | Creates BiLevel effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| threshold | [float] | Threshold. |
+| threshold | float | Threshold. |
 
 ### Result
-[BiLevel]
+BiLevel(../../bilevel)
 
 
 ---
 
 
-| [createBlur] ([double], [boolean]) | Creates Blur effect. |
+| Name | Description |
+| --- | --- |
+| createBlur (double, boolean) | Creates Blur effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| radius | [double] | Radius. |
-| grow | [boolean] | Grow. |
+| radius | double | Radius. |
+| grow | boolean | Grow. |
 
 ### Result
-[Blur]
+Blur(../../blur)
 
 
 ---
 
 
-| [createColorChange] () | Creates Color change effect. |
+| Name | Description |
+| --- | --- |
+| createColorChange () | Creates Color change effect. |
 
 ### Result
-[ColorChange]
+ColorChange(../../colorchange)
 
 
 ---
 
 
-| [createColorReplace] () | Creates Color replace effect. |
+| Name | Description |
+| --- | --- |
+| createColorReplace () | Creates Color replace effect. |
 
 ### Result
-[ColorReplace]
+ColorReplace(../../colorreplace)
 
 
 ---
 
 
-| [createDuotone] () | Creates Duotone effect. |
+| Name | Description |
+| --- | --- |
+| createDuotone () | Creates Duotone effect. |
 
 ### Result
-[Duotone]
+Duotone(../../duotone)
 
 
 ---
 
 
-| [createFillOverlay] () | Creates Fill overlay effect. |
+| Name | Description |
+| --- | --- |
+| createFillOverlay () | Creates Fill overlay effect. |
 
 ### Result
-[FillOverlay]
+FillOverlay(../../filloverlay)
 
 
 ---
 
 
-| [createGrayScale] () | Creates Gray scale effect. |
+| Name | Description |
+| --- | --- |
+| createGrayScale () | Creates Gray scale effect. |
 
 ### Result
-[GrayScale]
+GrayScale(../../grayscale)
 
 
 ---
 
 
-| [createHSL] ([float], [float], [float]) | Creates Hue Saturation Luminance effect. |
+| Name | Description |
+| --- | --- |
+| createHSL (float, float, float) | Creates Hue Saturation Luminance effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| hue | [float] | Hue. |
-| saturation | [float] | Saturation. |
-| luminance | [float] | Luminance. |
+| hue | float | Hue. |
+| saturation | float | Saturation. |
+| luminance | float | Luminance. |
 
 ### Result
-[HSL]
+HSL(../../hsl)
 
 
 ---
 
 
-| [createLuminance] ([float], [float]) | Createtes Luminance effect. |
+| Name | Description |
+| --- | --- |
+| createLuminance (float, float) | Createtes Luminance effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| brightness | [float] | Brightness. |
-| contrast | [float] | Contrast. |
+| brightness | float | Brightness. |
+| contrast | float | Contrast. |
 
 ### Result
-[Luminance]
+Luminance(../../luminance)
 
 
 ---
 
 
-| [createTint] ([float], [float]) | Creates Tint effect. |
+| Name | Description |
+| --- | --- |
+| createTint (float, float) | Creates Tint effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| hue | [float] | Hue. |
-| amount | [float] | Amount. |
+| hue | float | Hue. |
+| amount | float | Amount. |
 
 ### Result
-[Tint]
+Tint(../../tint)
 
 
 ---

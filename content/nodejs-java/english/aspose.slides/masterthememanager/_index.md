@@ -11,37 +11,45 @@ url: /aspose.slides/masterthememanager/
 
  Provides access to presentation master theme.
  
-| [applyColorScheme] ([ExtraColorScheme]) | Applies extra color scheme to a slide. |
+| Name | Description |
+| --- | --- |
+| applyColorScheme (ExtraColorScheme(../extracolorscheme)) | Applies extra color scheme to a slide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| scheme | [ExtraColorScheme] | IExtraColorScheme object. |
+| scheme | ExtraColorScheme(../../extracolorscheme) | IExtraColorScheme object. |
 
 
 ---
 
 
-| [createThemeEffective] () | Returns the theme object. |
+| Name | Description |
+| --- | --- |
+| createThemeEffective () | Returns the theme object. |
 
 ### Result
-[ThemeEffectiveData]
+ThemeEffectiveData
 
 
 ---
 
 
-| [getOverrideTheme] () | Returns the overriding theme object. Read/write IMasterTheme. |
+| Name | Description |
+| --- | --- |
+| getOverrideTheme () | Returns the overriding theme object. Read/write IMasterTheme. |
 
 ### Result
-[MasterTheme]
+MasterTheme(../../mastertheme)
 
 
 ---
 
 
-| [isOverrideThemeEnabled] () | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| isOverrideThemeEnabled () | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
 
 ### Result
 boolean
@@ -50,13 +58,17 @@ boolean
 ---
 
 
-| [setOverrideTheme] ([MasterTheme]) | Returns the overriding theme object. Read/write IMasterTheme. |
+| Name | Description |
+| --- | --- |
+| setOverrideTheme (MasterTheme(../mastertheme)) | Returns the overriding theme object. Read/write IMasterTheme. |
 
 
 ---
 
 
-| [setOverrideThemeEnabled] ([boolean]) | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setOverrideThemeEnabled (boolean) | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
 
 
 ---

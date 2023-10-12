@@ -11,7 +11,9 @@ url: /aspose.slides/datasourcetypeforerrorbarscustomvalues/
 
   Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list
  
-| [DataSourceTypeForErrorBarsCustomValues]() |  |
+| Name | Description |
+| --- | --- |
+| DataSourceTypeForErrorBarsCustomValues() |  |
 
 ### Result
 DataSourceTypeForErrorBarsCustomValues
@@ -20,7 +22,9 @@ DataSourceTypeForErrorBarsCustomValues
 ---
 
 
-| [getDataSourceTypeForXMinusValues] () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XMinus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XMinus.Data property. Read/write DataSourceType. |
+| Name | Description |
+| --- | --- |
+| getDataSourceTypeForXMinusValues () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XMinus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XMinus.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -29,7 +33,9 @@ int
 ---
 
 
-| [getDataSourceTypeForXPlusValues] () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XPlus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XPlus.Data property. Read/write DataSourceType. |
+| Name | Description |
+| --- | --- |
+| getDataSourceTypeForXPlusValues () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XPlus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XPlus.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -38,7 +44,9 @@ int
 ---
 
 
-| [getDataSourceTypeForYMinusValues] () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YMinus property object for error bars custom values. In other words it specifies the type of value of ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data property. Read/write DataSourceType. |
+| Name | Description |
+| --- | --- |
+| getDataSourceTypeForYMinusValues () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YMinus property object for error bars custom values. In other words it specifies the type of value of ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -47,7 +55,9 @@ int
 ---
 
 
-| [getDataSourceTypeForYPlusValues] () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YPlus property object for error bars custom values. In other words it specifies the type of value of ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data property. Read/write DataSourceType. |
+| Name | Description |
+| --- | --- |
+| getDataSourceTypeForYPlusValues () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YPlus property object for error bars custom values. In other words it specifies the type of value of ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -56,25 +66,33 @@ int
 ---
 
 
-| [setDataSourceTypeForXMinusValues] ([int]) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XMinus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XMinus.Data property. Read/write DataSourceType. |
+| Name | Description |
+| --- | --- |
+| setDataSourceTypeForXMinusValues (int) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XMinus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XMinus.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [setDataSourceTypeForXPlusValues] ([int]) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XPlus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XPlus.Data property. Read/write DataSourceType. |
+| Name | Description |
+| --- | --- |
+| setDataSourceTypeForXPlusValues (int) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XPlus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XPlus.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [setDataSourceTypeForYMinusValues] ([int]) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YMinus property object for error bars custom values. In other words it specifies the type of value of ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data property. Read/write DataSourceType. |
+| Name | Description |
+| --- | --- |
+| setDataSourceTypeForYMinusValues (int) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YMinus property object for error bars custom values. In other words it specifies the type of value of ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [setDataSourceTypeForYPlusValues] ([int]) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YPlus property object for error bars custom values. In other words it specifies the type of value of ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data property. Read/write DataSourceType. |
+| Name | Description |
+| --- | --- |
+| setDataSourceTypeForYPlusValues (int) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YPlus property object for error bars custom values. In other words it specifies the type of value of ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data property. Read/write DataSourceType. |
 
 
 ---

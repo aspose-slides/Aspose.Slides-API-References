@@ -11,7 +11,9 @@ url: /aspose.slides/texttohtmlconversionoptions/
 
  Options for extracting HTML from the Pptx text.
  
-| [TextToHtmlConversionOptions]() |  |
+| Name | Description |
+| --- | --- |
+| TextToHtmlConversionOptions() |  |
 
 ### Result
 TextToHtmlConversionOptions
@@ -20,7 +22,9 @@ TextToHtmlConversionOptions
 ---
 
 
-| [getAddClipboardFragmentHeader] () | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getAddClipboardFragmentHeader () | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,7 +33,9 @@ boolean
 ---
 
 
-| [getEncodingName] () | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getEncodingName () | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
 
 ### Result
 String
@@ -38,16 +44,20 @@ String
 ---
 
 
-| [getLinkEmbedController] () | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
+| Name | Description |
+| --- | --- |
+| getLinkEmbedController () | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
 
 ### Result
-[VideoPlayerHtmlController]
+VideoPlayerHtmlController(../../videoplayerhtmlcontroller)
 
 
 ---
 
 
-| [getTextInheritanceLimit] () | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
+| Name | Description |
+| --- | --- |
+| getTextInheritanceLimit () | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
 
 ### Result
 int
@@ -56,25 +66,33 @@ int
 ---
 
 
-| [setAddClipboardFragmentHeader] ([boolean]) | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setAddClipboardFragmentHeader (boolean) | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
 
 
 ---
 
 
-| [setEncodingName] ([String]) | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setEncodingName (String) | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
 
 
 ---
 
 
-| [setLinkEmbedController] ([VideoPlayerHtmlController]) | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
+| Name | Description |
+| --- | --- |
+| setLinkEmbedController (VideoPlayerHtmlController(../videoplayerhtmlcontroller)) | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
 
 
 ---
 
 
-| [setTextInheritanceLimit] ([int]) | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
+| Name | Description |
+| --- | --- |
+| setTextInheritanceLimit (int) | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
 
 
 ---

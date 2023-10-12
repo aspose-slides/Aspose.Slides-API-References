@@ -11,23 +11,27 @@ url: /aspose.slides/rowcollection/
 
  Represents table row collection.
  
-| [addClone] ([Row], [boolean]) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| Name | Description |
+| --- | --- |
+| addClone (Row(../row), boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| templ | [Row] | Row which is used as a template. |
-| withAttachedRows | [boolean] | True to copy also all rows attached to the template row. |
+| templ | Row(../row) | Row which is used as a template. |
+| withAttachedRows | boolean | True to copy also all rows attached to the template row. |
 
 ### Result
-[Row]
+Row(../../row)
 
 
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -36,33 +40,39 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Returns the row at the specified index. Read-only Row. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns the row at the specified index. Read-only Row. |
 
 ### Result
-[Row]
+Row(../../row)
 
 
 ---
 
 
-| [insertClone] ([int], [Row], [boolean]) | Creates a copy of the specified template row and insert it at the specified position in a table. |
+| Name | Description |
+| --- | --- |
+| insertClone (int, Row(../row), boolean) | Creates a copy of the specified template row and insert it at the specified position in a table. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of a new row. |
-| templ | [Row] | Row which is used as a template. |
-| withAttachedRows | [boolean] | True to copy also all rows attached to the template row. |
+| index | int | Index of a new row. |
+| templ | Row(../row) | Row which is used as a template. |
+| withAttachedRows | boolean | True to copy also all rows attached to the template row. |
 
 ### Result
-[Row]
+Row(../../row)
 
 
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -71,7 +81,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -80,7 +92,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -89,20 +103,24 @@ boolean
 ---
 
 
-| [removeAt] ([int], [boolean]) | Removes a row at the specified position from a table. |
+| Name | Description |
+| --- | --- |
+| removeAt (int, boolean) | Removes a row at the specified position from a table. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| firstRowIndex | [int] | Index of a row to delete. |
-| withAttachedRows | [boolean] | True to delete also all attached rows. |
+| firstRowIndex | int | Index of a row to delete. |
+| withAttachedRows | boolean | True to delete also all attached rows. |
 
 
 ---
 
 
-| [size] () | Gets the number of rows actually contained in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Gets the number of rows actually contained in the collection. Read-only int. |
 
 ### Result
 int

@@ -11,25 +11,20 @@ url: /aspose.slides/smartart/
 
  Represents a SmartArt diagram
  
-| [getAllNodes] () | Returns collections of all nodes in the SmartArt object. Read-only ISmartArtNodeCollection. |
+| Name | Description |
+| --- | --- |
+| getAllNodes () | Returns collections of all nodes in the SmartArt object. Read-only ISmartArtNodeCollection. |
 
 ### Result
-[SmartArtNodeCollection]
+SmartArtNodeCollection(../../smartartnodecollection)
 
 
 ---
 
 
-| [getColorStyle] () | Returns or sets color style of SmartArt object. Read/write SmartArtColorType. |
-
-### Result
-int
-
-
----
-
-
-| [getLayout] () | Returns or sets layout of the SmartArt object. Read/write SmartArtLayoutType. |
+| Name | Description |
+| --- | --- |
+| getColorStyle () | Returns or sets color style of SmartArt object. Read/write SmartArtColorType. |
 
 ### Result
 int
@@ -38,16 +33,9 @@ int
 ---
 
 
-| [getNodes] () | Returns collections of root nodes in SmartArt object. Read-only ISmartArtNodeCollection. |
-
-### Result
-[SmartArtNodeCollection]
-
-
----
-
-
-| [getQuickStyle] () | Returns or sets quick style of SmartArt object. Read/write SmartArtQuickStyleType. |
+| Name | Description |
+| --- | --- |
+| getLayout () | Returns or sets layout of the SmartArt object. Read/write SmartArtLayoutType. |
 
 ### Result
 int
@@ -56,7 +44,31 @@ int
 ---
 
 
-| [isReversed] () | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getNodes () | Returns collections of root nodes in SmartArt object. Read-only ISmartArtNodeCollection. |
+
+### Result
+SmartArtNodeCollection(../../smartartnodecollection)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getQuickStyle () | Returns or sets quick style of SmartArt object. Read/write SmartArtQuickStyleType. |
+
+### Result
+int
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| isReversed () | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write boolean. |
 
 ### Result
 boolean
@@ -65,25 +77,33 @@ boolean
 ---
 
 
-| [setColorStyle] ([int]) | Returns or sets color style of SmartArt object. Read/write SmartArtColorType. |
+| Name | Description |
+| --- | --- |
+| setColorStyle (int) | Returns or sets color style of SmartArt object. Read/write SmartArtColorType. |
 
 
 ---
 
 
-| [setLayout] ([int]) | Returns or sets layout of the SmartArt object. Read/write SmartArtLayoutType. |
+| Name | Description |
+| --- | --- |
+| setLayout (int) | Returns or sets layout of the SmartArt object. Read/write SmartArtLayoutType. |
 
 
 ---
 
 
-| [setQuickStyle] ([int]) | Returns or sets quick style of SmartArt object. Read/write SmartArtQuickStyleType. |
+| Name | Description |
+| --- | --- |
+| setQuickStyle (int) | Returns or sets quick style of SmartArt object. Read/write SmartArtQuickStyleType. |
 
 
 ---
 
 
-| [setReversed] ([boolean]) | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setReversed (boolean) | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write boolean. |
 
 
 ---

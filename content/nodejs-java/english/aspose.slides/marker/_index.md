@@ -11,25 +11,20 @@ url: /aspose.slides/marker/
 
  Represents marker of a chert.
  
-| [getFormat] () | Gets or sets the marker fill. Read-only IFormat. |
+| Name | Description |
+| --- | --- |
+| getFormat () | Gets or sets the marker fill. Read-only IFormat. |
 
 ### Result
-[Format]
+Format(../../format)
 
 
 ---
 
 
-| [getSize] () | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
-
-### Result
-int
-
-
----
-
-
-| [getSymbol] () | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
+| Name | Description |
+| --- | --- |
+| getSize () | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
 
 ### Result
 int
@@ -38,13 +33,28 @@ int
 ---
 
 
-| [setSize] ([int]) | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
+| Name | Description |
+| --- | --- |
+| getSymbol () | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
+
+### Result
+int
 
 
 ---
 
 
-| [setSymbol] ([int]) | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
+| Name | Description |
+| --- | --- |
+| setSize (int) | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| setSymbol (int) | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
 
 
 ---

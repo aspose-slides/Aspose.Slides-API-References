@@ -11,19 +11,23 @@ url: /aspose.slides/effectstyle/
 
  Represents an effect style.
  
-| [getEffectFormat] () | Returns an effect format. Read-only IEffectFormat. |
+| Name | Description |
+| --- | --- |
+| getEffectFormat () | Returns an effect format. Read-only IEffectFormat. |
 
 ### Result
-[EffectFormat]
+EffectFormat(../../effectformat)
 
 
 ---
 
 
-| [getThreeDFormat] () | Returns an 3d format. Read-only IThreeDFormat. |
+| Name | Description |
+| --- | --- |
+| getThreeDFormat () | Returns an 3d format. Read-only IThreeDFormat. |
 
 ### Result
-[ThreeDFormat]
+ThreeDFormat(../../threedformat)
 
 
 ---

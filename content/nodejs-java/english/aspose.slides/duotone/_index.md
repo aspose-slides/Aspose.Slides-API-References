@@ -13,13 +13,15 @@ url: /aspose.slides/duotone/
  For each pixel, combines Color1 and Color2 through a linear interpolation
  to determine the new color for that pixel.
  
-| [equals] ([Object]) | Determines whether the specified Duotone is equal to the current Duotone. |
+| Name | Description |
+| --- | --- |
+| equals (Object) | Determines whether the specified Duotone is equal to the current Duotone. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| obj | [Object] | The Duotone to compare. |
+| obj | Object | The Duotone to compare. |
 
 ### Result
 boolean
@@ -28,34 +30,42 @@ boolean
 ---
 
 
-| [getColor1] () | Returns target color format for dark pixels. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getColor1 () | Returns target color format for dark pixels. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getColor2] () | Returns target color format for light pixels. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getColor2 () | Returns target color format for light pixels. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getEffective] () | Gets effective Duotone effect data with the inheritance applied. |
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Duotone effect data with the inheritance applied. |
 
 ### Result
-[DuotoneEffectiveData]
+DuotoneEffectiveData
 
 
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long
@@ -64,7 +74,9 @@ long
 ---
 
 
-| [hashCode] () | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
 
 ### Result
 int

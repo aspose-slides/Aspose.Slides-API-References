@@ -11,7 +11,9 @@ url: /aspose.slides/linefillformat/
 
  Represents properties for lines filling.
  
-| [getFillType] () | Returns or sets the fill type. Read/write FillType. |
+| Name | Description |
+| --- | --- |
+| getFillType () | Returns or sets the fill type. Read/write FillType. |
 
 ### Result
 byte
@@ -20,25 +22,31 @@ byte
 ---
 
 
-| [getGradientFormat] () | Returns the gradient fill format. Read-only IGradientFormat. |
+| Name | Description |
+| --- | --- |
+| getGradientFormat () | Returns the gradient fill format. Read-only IGradientFormat. |
 
 ### Result
-[GradientFormat]
+GradientFormat(../../gradientformat)
 
 
 ---
 
 
-| [getPatternFormat] () | Returns the pattern fill format. Read-only IPatternFormat. |
+| Name | Description |
+| --- | --- |
+| getPatternFormat () | Returns the pattern fill format. Read-only IPatternFormat. |
 
 ### Result
-[PatternFormat]
+PatternFormat(../../patternformat)
 
 
 ---
 
 
-| [getRotateWithShape] () | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
+| Name | Description |
+| --- | --- |
+| getRotateWithShape () | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
 
 ### Result
 byte
@@ -47,16 +55,20 @@ byte
 ---
 
 
-| [getSolidFillColor] () | Returns the color of a solid fill. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getSolidFillColor () | Returns the color of a solid fill. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long
@@ -65,13 +77,17 @@ long
 ---
 
 
-| [setFillType] ([byte]) | Returns or sets the fill type. Read/write FillType. |
+| Name | Description |
+| --- | --- |
+| setFillType (byte) | Returns or sets the fill type. Read/write FillType. |
 
 
 ---
 
 
-| [setRotateWithShape] ([byte]) | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
+| Name | Description |
+| --- | --- |
+| setRotateWithShape (byte) | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
 
 
 ---

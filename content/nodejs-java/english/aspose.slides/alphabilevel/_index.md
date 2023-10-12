@@ -13,13 +13,15 @@ url: /aspose.slides/alphabilevel/
  Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and
  alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
  
-| [equals] ([Object]) | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
+| Name | Description |
+| --- | --- |
+| equals (Object) | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| obj | [Object] | The AlphaBiLevel to compare. |
+| obj | Object | The AlphaBiLevel to compare. |
 
 ### Result
 boolean
@@ -28,16 +30,20 @@ boolean
 ---
 
 
-| [getEffective] () | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
 
 ### Result
-[AlphaBiLevelEffectiveData]
+AlphaBiLevelEffectiveData
 
 
 ---
 
 
-| [getThreshold] () | Returns effect threshold. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getThreshold () | Returns effect threshold. Read/write float. |
 
 ### Result
 float
@@ -46,7 +52,9 @@ float
 ---
 
 
-| [hashCode] () | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
 
 ### Result
 int
@@ -55,7 +63,9 @@ int
 ---
 
 
-| [setThreshold] ([float]) | Returns effect threshold. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setThreshold (float) | Returns effect threshold. Read/write float. |
 
 
 ---

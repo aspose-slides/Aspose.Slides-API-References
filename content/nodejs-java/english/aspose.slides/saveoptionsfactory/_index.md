@@ -13,7 +13,9 @@ url: /aspose.slides/saveoptionsfactory/
  
  For COM compatibility.
  
-| [SaveOptionsFactory]() |  |
+| Name | Description |
+| --- | --- |
+| SaveOptionsFactory() |  |
 
 ### Result
 SaveOptionsFactory
@@ -22,10 +24,12 @@ SaveOptionsFactory
 ---
 
 
-| [createPptxOptions] () | Creates PPTX save options. |
+| Name | Description |
+| --- | --- |
+| createPptxOptions () | Creates PPTX save options. |
 
 ### Result
-[PptxOptions]
+PptxOptions(../../pptxoptions)
 
 
 ---

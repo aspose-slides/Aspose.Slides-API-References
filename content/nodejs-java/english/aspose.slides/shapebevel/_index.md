@@ -11,13 +11,15 @@ url: /aspose.slides/shapebevel/
 
  Contains the properties of shape's main face relief.
  
-| [ShapeBevel]([boolean]) | Creates new instance. |
+| Name | Description |
+| --- | --- |
+| ShapeBevel(boolean) | Creates new instance. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| bIsTopBevel | [boolean] | Is top bevel. |
+| bIsTopBevel | boolean | Is top bevel. |
 
 ### Result
 ShapeBevel
@@ -26,7 +28,9 @@ ShapeBevel
 ---
 
 
-| [equals] ([Object]) |  |
+| Name | Description |
+| --- | --- |
+| equals (Object) |  |
 
 ### Result
 boolean
@@ -35,7 +39,9 @@ boolean
 ---
 
 
-| [getBevelType] () | Bevel type. Read/write BevelPresetType. |
+| Name | Description |
+| --- | --- |
+| getBevelType () | Bevel type. Read/write BevelPresetType. |
 
 ### Result
 int
@@ -44,7 +50,9 @@ int
 ---
 
 
-| [getHeight] () | Bevel height. Read/write double. |
+| Name | Description |
+| --- | --- |
+| getHeight () | Bevel height. Read/write double. |
 
 ### Result
 double
@@ -53,7 +61,9 @@ double
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long
@@ -62,7 +72,9 @@ long
 ---
 
 
-| [getWidth] () | Bevel width. Read/write double. |
+| Name | Description |
+| --- | --- |
+| getWidth () | Bevel width. Read/write double. |
 
 ### Result
 double
@@ -71,19 +83,25 @@ double
 ---
 
 
-| [setBevelType] ([int]) | Bevel type. Read/write BevelPresetType. |
+| Name | Description |
+| --- | --- |
+| setBevelType (int) | Bevel type. Read/write BevelPresetType. |
 
 
 ---
 
 
-| [setHeight] ([double]) | Bevel height. Read/write double. |
+| Name | Description |
+| --- | --- |
+| setHeight (double) | Bevel height. Read/write double. |
 
 
 ---
 
 
-| [setWidth] ([double]) | Bevel width. Read/write double. |
+| Name | Description |
+| --- | --- |
+| setWidth (double) | Bevel width. Read/write double. |
 
 
 ---

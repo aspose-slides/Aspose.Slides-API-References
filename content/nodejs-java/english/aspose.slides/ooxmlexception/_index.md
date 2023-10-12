@@ -11,7 +11,9 @@ url: /aspose.slides/ooxmlexception/
 
  Represents a standard internal exception type related to Office Open XML file format.
  
-| [OOXMLException]() | Default function. |
+| Name | Description |
+| --- | --- |
+| OOXMLException() | Default function. |
 
 ### Result
 OOXMLException
@@ -20,13 +22,15 @@ OOXMLException
 ---
 
 
-| [OOXMLException]([String]) | Constructor allowing a message to be added to this exception. |
+| Name | Description |
+| --- | --- |
+| OOXMLException(String) | Constructor allowing a message to be added to this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | message |
+| message | String | message |
 
 ### Result
 OOXMLException
@@ -35,14 +39,16 @@ OOXMLException
 ---
 
 
-| [OOXMLException]([String], [RuntimeException]) | Constructor for an exception containing a message and an embedded exception. |
+| Name | Description |
+| --- | --- |
+| OOXMLException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | message |
-| exception | [RuntimeException] | original exception |
+| message | String | message |
+| exception | RuntimeException | original exception |
 
 ### Result
 OOXMLException

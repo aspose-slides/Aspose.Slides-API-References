@@ -11,7 +11,9 @@ url: /aspose.slides/coloroffset/
 
  Represent color offset.
  
-| [ColorOffset]() |  |
+| Name | Description |
+| --- | --- |
+| ColorOffset() |  |
 
 ### Result
 ColorOffset
@@ -20,7 +22,9 @@ ColorOffset
 ---
 
 
-| [getValue0] () | Defines first value of offset. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getValue0 () | Defines first value of offset. Read/write float. |
 
 ### Result
 float
@@ -29,7 +33,9 @@ float
 ---
 
 
-| [getValue1] () | Defines second value of offset. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getValue1 () | Defines second value of offset. Read/write float. |
 
 ### Result
 float
@@ -38,7 +44,9 @@ float
 ---
 
 
-| [getValue2] () | Defines third value of offset. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getValue2 () | Defines third value of offset. Read/write float. |
 
 ### Result
 float
@@ -47,19 +55,25 @@ float
 ---
 
 
-| [setValue0] ([float]) | Defines first value of offset. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setValue0 (float) | Defines first value of offset. Read/write float. |
 
 
 ---
 
 
-| [setValue1] ([float]) | Defines second value of offset. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setValue1 (float) | Defines second value of offset. Read/write float. |
 
 
 ---
 
 
-| [setValue2] ([float]) | Defines third value of offset. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setValue2 (float) | Defines third value of offset. Read/write float. |
 
 
 ---

@@ -11,13 +11,15 @@ url: /aspose.slides/presentationanimationsgenerator/
 
  Represents a generator of the animations in the  Presentation.
  
-| [PresentationAnimationsGenerator]([Presentation]) | Creates a new instance of the PresentationAnimationsGenerator. |
+| Name | Description |
+| --- | --- |
+| PresentationAnimationsGenerator(Presentation(../presentation)) | Creates a new instance of the PresentationAnimationsGenerator. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| presentation | [Presentation] | The frame size will be set with accordance to the ( Presentation#getSlideSize) |
+| presentation | Presentation(../../presentation) | The frame size will be set with accordance to the ( Presentation#getSlideSize) |
 
 ### Result
 PresentationAnimationsGenerator
@@ -26,13 +28,15 @@ PresentationAnimationsGenerator
 ---
 
 
-| [PresentationAnimationsGenerator]([Dimension]) | Creates a new instance of the PresentationAnimationsGenerator. |
+| Name | Description |
+| --- | --- |
+| PresentationAnimationsGenerator(Dimension) | Creates a new instance of the PresentationAnimationsGenerator. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| frameSize | [Dimension] | The frame size. |
+| frameSize | Dimension | The frame size. |
 
 ### Result
 PresentationAnimationsGenerator
@@ -41,13 +45,15 @@ PresentationAnimationsGenerator
 ---
 
 
-| [PresentationAnimationsGenerator]([Dimension2D]) | Creates a new instance of the PresentationAnimationsGenerator. |
+| Name | Description |
+| --- | --- |
+| PresentationAnimationsGenerator(Dimension2D) | Creates a new instance of the PresentationAnimationsGenerator. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| frameSize | [Dimension2D] | The frame size. |
+| frameSize | Dimension2D | The frame size. |
 
 ### Result
 PresentationAnimationsGenerator
@@ -56,13 +62,17 @@ PresentationAnimationsGenerator
 ---
 
 
-| [dispose] () | Disposes the instance of the PresentationAnimationsGenerator. |
+| Name | Description |
+| --- | --- |
+| dispose () | Disposes the instance of the PresentationAnimationsGenerator. |
 
 
 ---
 
 
-| [getDefaultDelay] () | Gets or sets default delay time [ms]. |
+| Name | Description |
+| --- | --- |
+| getDefaultDelay () | Gets or sets default delay time [ms]. |
 
 ### Result
 int
@@ -71,7 +81,9 @@ int
 ---
 
 
-| [getExportedSlides] () | Get the number of the exported slides count. |
+| Name | Description |
+| --- | --- |
+| getExportedSlides () | Get the number of the exported slides count. |
 
 ### Result
 int
@@ -80,7 +92,9 @@ int
 ---
 
 
-| [getFrameSize] () | Gets the frame size. |
+| Name | Description |
+| --- | --- |
+| getFrameSize () | Gets the frame size. |
 
 ### Result
 Dimension
@@ -89,7 +103,9 @@ Dimension
 ---
 
 
-| [getIncludeHiddenSlides] () | Get or sets if hidden slides should be included. |
+| Name | Description |
+| --- | --- |
+| getIncludeHiddenSlides () | Get or sets if hidden slides should be included. |
 
 ### Result
 boolean
@@ -98,37 +114,47 @@ boolean
 ---
 
 
-| [run] ([com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>]) | Run the animation events generation for each slide. |
+| Name | Description |
+| --- | --- |
+| run (com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>) | Run the animation events generation for each slide. |
 
 
 ---
 
 
-| [run] ([com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>], [int], [PresentationPlayer.FrameTick]) | Run the animation events generation for each slide. |
+| Name | Description |
+| --- | --- |
+| run (com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>, int, PresentationPlayer.FrameTick(../presentationplayer.frametick)) | Run the animation events generation for each slide. |
 
 
 ---
 
 
-| [setDefaultDelay] ([int]) | Gets or sets default delay time [ms]. |
+| Name | Description |
+| --- | --- |
+| setDefaultDelay (int) | Gets or sets default delay time [ms]. |
 
 
 ---
 
 
-| [setIncludeHiddenSlides] ([boolean]) | Get or sets if hidden slides should be included. |
+| Name | Description |
+| --- | --- |
+| setIncludeHiddenSlides (boolean) | Get or sets if hidden slides should be included. |
 
 
 ---
 
 
-| [setNewAnimation] ([PresentationAnimationsGenerator.NewAnimation]) | Set a new animation event. |
+| Name | Description |
+| --- | --- |
+| setNewAnimation (PresentationAnimationsGenerator.NewAnimation(../presentationanimationsgenerator.newanimation)) | Set a new animation event. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| anim | [PresentationAnimationsGenerator.NewAnimation] | Animation event. |
+| anim | PresentationAnimationsGenerator.NewAnimation(../../presentationanimationsgenerator.newanimation) | Animation event. |
 
 
 ---

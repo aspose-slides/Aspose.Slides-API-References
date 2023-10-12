@@ -11,25 +11,31 @@ url: /aspose.slides/layoutslide/
 
  Represents a layout slide.
  
-| [getDependingSlides] () | Returns an array with all slides, which depend on this layout slide. |
+| Name | Description |
+| --- | --- |
+| getDependingSlides () | Returns an array with all slides, which depend on this layout slide. |
 
 ### Result
-[Slide]
+Slide(../../slide)
 
 
 ---
 
 
-| [getHeaderFooterManager] () | Returns HeaderFooter manager of the layout slide. Read-only ILayoutSlideHeaderFooterManager. |
+| Name | Description |
+| --- | --- |
+| getHeaderFooterManager () | Returns HeaderFooter manager of the layout slide. Read-only ILayoutSlideHeaderFooterManager. |
 
 ### Result
-[LayoutSlideHeaderFooterManager]
+LayoutSlideHeaderFooterManager(../../layoutslideheaderfootermanager)
 
 
 ---
 
 
-| [getLayoutType] () | Returns layout type of this layout slide. Read-only SlideLayoutType. |
+| Name | Description |
+| --- | --- |
+| getLayoutType () | Returns layout type of this layout slide. Read-only SlideLayoutType. |
 
 ### Result
 byte
@@ -38,34 +44,20 @@ byte
 ---
 
 
-| [getMasterSlide] () | Returns or sets the master slide for a layout. Read/write IMasterSlide. |
+| Name | Description |
+| --- | --- |
+| getMasterSlide () | Returns or sets the master slide for a layout. Read/write IMasterSlide. |
 
 ### Result
-[MasterSlide]
+MasterSlide(../../masterslide)
 
 
 ---
 
 
-| [getShowMasterShapes] () | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
-
-### Result
-boolean
-
-
----
-
-
-| [getThemeManager] () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
-
-### Result
-[NotesSlideThemeManager], [ChartThemeManager], [BaseOverrideThemeManager], [LayoutSlideThemeManager], [SlideThemeManager]
-
-
----
-
-
-| [hasDependingSlides] () | Returns true if there exists at least one slide that depends on this layout slide. Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
 ### Result
 boolean
@@ -74,7 +66,31 @@ boolean
 ---
 
 
-| [remove] () | Removes layout from presentation. |
+| Name | Description |
+| --- | --- |
+| getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
+
+### Result
+NotesSlideThemeManager(../../notesslidethememanager), ChartThemeManager(../../chartthememanager), BaseOverrideThemeManager(../../baseoverridethememanager), LayoutSlideThemeManager(../../layoutslidethememanager), SlideThemeManager(../../slidethememanager)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| hasDependingSlides () | Returns true if there exists at least one slide that depends on this layout slide. Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| remove () | Removes layout from presentation. |
 
 ### Error
 
@@ -86,13 +102,17 @@ boolean
 ---
 
 
-| [setMasterSlide] ([MasterSlide]) | Returns or sets the master slide for a layout. Read/write IMasterSlide. |
+| Name | Description |
+| --- | --- |
+| setMasterSlide (MasterSlide(../masterslide)) | Returns or sets the master slide for a layout. Read/write IMasterSlide. |
 
 
 ---
 
 
-| [setShowMasterShapes] ([boolean]) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setShowMasterShapes (boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
 
 ---

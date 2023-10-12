@@ -13,7 +13,9 @@ url: /aspose.slides/portionfactory/
  
  For COM comparibility
  
-| [PortionFactory]() |  |
+| Name | Description |
+| --- | --- |
+| PortionFactory() |  |
 
 ### Result
 PortionFactory
@@ -22,55 +24,63 @@ PortionFactory
 ---
 
 
-| [createPortion] () | Creates an empty text portion. |
+| Name | Description |
+| --- | --- |
+| createPortion () | Creates an empty text portion. |
 
 ### Result
-[Portion], [MathPortion]
+Portion(../../portion), MathPortion(../../mathportion)
 
 
 ---
 
 
-| [createPortion] ([String]) | Creates a text portion from specified string. |
+| Name | Description |
+| --- | --- |
+| createPortion (String) | Creates a text portion from specified string. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| str | [String] | String. |
+| str | String | String. |
 
 ### Result
-[Portion], [MathPortion]
+Portion(../../portion), MathPortion(../../mathportion)
 
 
 ---
 
 
-| [createPortion] ([Portion]) | Creates a portion with the using of a specified portion data. |
+| Name | Description |
+| --- | --- |
+| createPortion (Portion(../portion)) | Creates a portion with the using of a specified portion data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| portion | [Portion] | A portion to use. |
+| portion | Portion(../../portion) | A portion to use. |
 
 ### Result
-[Portion], [MathPortion]
+Portion(../../portion), MathPortion(../../mathportion)
 
 
 ---
 
 
-| [createPortion] ([MathPortion]) | Creates a portion with the using of a specified portion data. |
+| Name | Description |
+| --- | --- |
+| createPortion (MathPortion(../mathportion)) | Creates a portion with the using of a specified portion data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| portion | [MathPortion] | A portion to use. |
+| portion | MathPortion(../../mathportion) | A portion to use. |
 
 ### Result
-[Portion], [MathPortion]
+Portion(../../portion), MathPortion(../../mathportion)
 
 
 ---

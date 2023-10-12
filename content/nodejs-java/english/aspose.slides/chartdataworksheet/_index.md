@@ -11,7 +11,9 @@ url: /aspose.slides/chartdataworksheet/
 
  Represents worksheet associated with  IChartDataCell
  
-| [getIndex] () | Gets the index of the worksheet. Read-only int. |
+| Name | Description |
+| --- | --- |
+| getIndex () | Gets the index of the worksheet. Read-only int. |
 
 ### Result
 int
@@ -20,7 +22,9 @@ int
 ---
 
 
-| [getName] () | Returns the name of the worksheet. Read-only String. |
+| Name | Description |
+| --- | --- |
+| getName () | Returns the name of the worksheet. Read-only String. |
 
 ### Result
 String

@@ -11,72 +11,82 @@ url: /aspose.slides/audiocollection/
 
  Represents a collection of embedded audio files.
  
-| [addAudio] ([Audio]) | Adds a copy of an audio file from an another presentation. |
+| Name | Description |
+| --- | --- |
+| addAudio (Audio(../audio)) | Adds a copy of an audio file from an another presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| audio | [Audio] | Source audio. |
+| audio | Audio(../../audio) | Source audio. |
 
 ### Result
-[Audio]
+Audio(../../audio)
 
 
 ---
 
 
-| [addAudioFromStream ] (AudioCollection, [ReadStream], Function) | Creates and adds a audio to a presentation from stream. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| audiocollection | AudioCollection  | link to self |
-| stream | [ReadStream] | Stream to add audio from. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
-
-### Result
-[Audio]
-
-
----
-
-
-| [addAudioFromStream ] (AudioCollection, [ReadStream], [int], Function) | Creates and adds a audio to a presentation from stream. |
+| Name | Description |
+| --- | --- |
+| addAudioFromStream  (AudioCollection, ReadStream, Function) | Creates and adds a audio to a presentation from stream. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | audiocollection | AudioCollection  | link to self |
-| stream | [ReadStream] | Stream to add video audio from. |
-| loadingStreamBehavior | [int] | The behavior which will be applied to the stream. |
+| stream | ReadStream | Stream to add audio from. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
 ### Result
-[Audio]
+Audio(../../audio)
 
 
 ---
 
 
-| [addAudio] ([byte[]]) | Creates and adds a audio to a presentation from byte array. |
+| Name | Description |
+| --- | --- |
+| addAudioFromStream  (AudioCollection, ReadStream, int, Function) | Creates and adds a audio to a presentation from stream. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| audioData | [byte[]] | Audio bytes. |
+| audiocollection | AudioCollection  | link to self |
+| stream | ReadStream | Stream to add video audio from. |
+| loadingStreamBehavior | int | The behavior which will be applied to the stream. |
+| callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
 ### Result
-[Audio]
+Audio(../../audio)
 
 
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| addAudio (byte[]) | Creates and adds a audio to a presentation from byte array. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| audioData | byte[] | Audio bytes. |
+
+### Result
+Audio(../../audio)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -85,16 +95,20 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Gets the element at the specified index. Read-only IAudio. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Gets the element at the specified index. Read-only IAudio. |
 
 ### Result
-[Audio]
+Audio(../../audio)
 
 
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -103,7 +117,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -112,7 +128,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -121,7 +139,9 @@ boolean
 ---
 
 
-| [size] () | Returns a number of audio files in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Returns a number of audio files in the collection. Read-only int. |
 
 ### Result
 int

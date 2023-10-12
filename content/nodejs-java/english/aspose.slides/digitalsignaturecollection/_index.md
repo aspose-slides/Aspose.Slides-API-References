@@ -11,25 +11,31 @@ url: /aspose.slides/digitalsignaturecollection/
 
  Represents a collection of digital signatures attached to a document.
  
-| [add] ([DigitalSignature]) | Adds the signature at the end of collection. |
+| Name | Description |
+| --- | --- |
+| add (DigitalSignature(../digitalsignature)) | Adds the signature at the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| signature | [DigitalSignature] | Signature to add. |
+| signature | DigitalSignature(../../digitalsignature) | Signature to add. |
 
 
 ---
 
 
-| [clear] () | Removes all signatures from collection. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all signatures from collection. |
 
 
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -38,16 +44,20 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Returns the signature by index. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns the signature by index. |
 
 ### Result
-[DigitalSignature]
+DigitalSignature(../../digitalsignature)
 
 
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -56,7 +66,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -65,7 +77,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -74,19 +88,23 @@ boolean
 ---
 
 
-| [removeAt] ([int]) | Removes the signature at the specified index. |
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes the signature at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of the signature that should be deleted. |
+| index | int | Index of the signature that should be deleted. |
 
 
 ---
 
 
-| [size] () | Returns the number of elements in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Returns the number of elements in the collection. Read-only int. |
 
 ### Result
 int

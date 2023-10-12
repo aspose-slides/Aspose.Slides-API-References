@@ -11,88 +11,102 @@ url: /aspose.slides/hyperlinkmanager/
 
  Provide hyperlinks management (adding, removing).
  
-| [removeHyperlinkClick] () | Removes hyperlink on click. |
+| Name | Description |
+| --- | --- |
+| removeHyperlinkClick () | Removes hyperlink on click. |
 
 
 ---
 
 
-| [removeHyperlinkMouseOver] () | Removes hyperlink mouse over. |
+| Name | Description |
+| --- | --- |
+| removeHyperlinkMouseOver () | Removes hyperlink mouse over. |
 
 
 ---
 
 
-| [setExternalHyperlinkClick] ([String]) | Set external hyperlink on click. |
+| Name | Description |
+| --- | --- |
+| setExternalHyperlinkClick (String) | Set external hyperlink on click. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| url | [String] | Hyperlink URL. |
+| url | String | Hyperlink URL. |
 
 ### Result
-[Hyperlink]
+Hyperlink(../../hyperlink)
 
 
 ---
 
 
-| [setExternalHyperlinkMouseOver] ([String]) | Sets external hyperlink mouse over. |
+| Name | Description |
+| --- | --- |
+| setExternalHyperlinkMouseOver (String) | Sets external hyperlink mouse over. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| url | [String] | Hyperlink URL. |
+| url | String | Hyperlink URL. |
 
 ### Result
-[Hyperlink]
+Hyperlink(../../hyperlink)
 
 
 ---
 
 
-| [setInternalHyperlinkClick] ([Slide]) | Sets internal hyperlink on click. |
+| Name | Description |
+| --- | --- |
+| setInternalHyperlinkClick (Slide(../slide)) | Sets internal hyperlink on click. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| targetSlide | [Slide] | Target slide. |
+| targetSlide | Slide(../../slide) | Target slide. |
 
 ### Result
-[Hyperlink]
+Hyperlink(../../hyperlink)
 
 
 ---
 
 
-| [setInternalHyperlinkMouseOver] ([Slide]) | Sets internal hyperlink mouse over. |
+| Name | Description |
+| --- | --- |
+| setInternalHyperlinkMouseOver (Slide(../slide)) | Sets internal hyperlink mouse over. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| targetSlide | [Slide] | Target slide. |
+| targetSlide | Slide(../../slide) | Target slide. |
 
 ### Result
-[Hyperlink]
+Hyperlink(../../hyperlink)
 
 
 ---
 
 
-| [setMacroHyperlinkClick] ([String]) | Set Macro hyperlink on a click. |
+| Name | Description |
+| --- | --- |
+| setMacroHyperlinkClick (String) | Set Macro hyperlink on a click. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| macroName | [String] | Name of the macro |
+| macroName | String | Name of the macro |
 
 ### Result
-[Hyperlink]
+Hyperlink(../../hyperlink)
 
 
 ---

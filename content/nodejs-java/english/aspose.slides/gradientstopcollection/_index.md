@@ -11,61 +11,71 @@ url: /aspose.slides/gradientstopcollection/
 
  Represnts a collection of gradient stops.
  
-| [add] ([float], [Color]) | Creates the new gradient stop and adds it to the end of collection. |
+| Name | Description |
+| --- | --- |
+| add (float, Color) | Creates the new gradient stop and adds it to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| position | [float] | Position of the new gradient stop. |
-| color | [Color] | Color of the new radient stop. |
+| position | float | Position of the new gradient stop. |
+| color | Color | Color of the new radient stop. |
 
 ### Result
-[GradientStop]
+GradientStop(../../gradientstop)
 
 
 ---
 
 
-| [addPresetColor] ([float], [int]) | Creates the new gradient stop and adds it to the end of collection. |
+| Name | Description |
+| --- | --- |
+| addPresetColor (float, int) | Creates the new gradient stop and adds it to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| position | [float] | Position of the new gradient stop. |
-| presetColor | [int] | Color of the new radient stop. |
+| position | float | Position of the new gradient stop. |
+| presetColor | int | Color of the new radient stop. |
 
 ### Result
-[GradientStop]
+GradientStop(../../gradientstop)
 
 
 ---
 
 
-| [addSchemeColor] ([float], [int]) | Creates the new gradient stop and adds it to the end of collection. |
+| Name | Description |
+| --- | --- |
+| addSchemeColor (float, int) | Creates the new gradient stop and adds it to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| position | [float] | Position of the new gradient stop. |
-| schemeColor | [int] | Color of the new radient stop. |
+| position | float | Position of the new gradient stop. |
+| schemeColor | int | Color of the new radient stop. |
 
 ### Result
-[GradientStop]
+GradientStop(../../gradientstop)
 
 
 ---
 
 
-| [clear] () | Removes all gradient stops from a collection. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all gradient stops from a collection. |
 
 
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -74,7 +84,9 @@ Object
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long
@@ -83,58 +95,68 @@ long
 ---
 
 
-| [get_Item] ([int]) | Returns the gradient stop by index. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns the gradient stop by index. |
 
 ### Result
-[GradientStop]
+GradientStop(../../gradientstop)
 
 
 ---
 
 
-| [insert] ([int], [float], [Color]) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| Name | Description |
+| --- | --- |
+| insert (int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index in the collection where new gradient stop will be inserted. |
-| position | [float] | Position of the new gradient stop. |
-| color | [Color] | Color of the new radient stop. |
+| index | int | Index in the collection where new gradient stop will be inserted. |
+| position | float | Position of the new gradient stop. |
+| color | Color | Color of the new radient stop. |
 
 
 ---
 
 
-| [insertPresetColor] ([int], [float], [int]) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| Name | Description |
+| --- | --- |
+| insertPresetColor (int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index in the collection where new gradient stop will be inserted. |
-| position | [float] | Position of the new gradient stop. |
-| presetColor | [int] | Color of the new radient stop. |
+| index | int | Index in the collection where new gradient stop will be inserted. |
+| position | float | Position of the new gradient stop. |
+| presetColor | int | Color of the new radient stop. |
 
 
 ---
 
 
-| [insertSchemeColor] ([int], [float], [int]) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| Name | Description |
+| --- | --- |
+| insertSchemeColor (int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index in the collection where new gradient stop will be inserted. |
-| position | [float] | Position of the new gradient stop. |
-| schemeColor | [int] | Color of the new radient stop. |
+| index | int | Index in the collection where new gradient stop will be inserted. |
+| position | float | Position of the new gradient stop. |
+| schemeColor | int | Color of the new radient stop. |
 
 
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -143,7 +165,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -152,7 +176,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -161,19 +187,23 @@ boolean
 ---
 
 
-| [removeAt] ([int]) | Removes a gradient stop at the specified index. |
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes a gradient stop at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of a gradient stop that should be deleted. |
+| index | int | Index of a gradient stop that should be deleted. |
 
 
 ---
 
 
-| [size] () | Returns the number of gradient stops in a collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Returns the number of gradient stops in a collection. Read-only int. |
 
 ### Result
 int

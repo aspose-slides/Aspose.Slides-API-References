@@ -11,432 +11,482 @@ url: /aspose.slides/sequence/
 
  Represents sequence (collection of effects).
  
-| [addEffect] ([LegacyDiagram], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (LegacyDiagram(../legacydiagram), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [LegacyDiagram] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | LegacyDiagram(../legacydiagram) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([Connector], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (Connector(../connector), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Connector] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | Connector(../connector) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([GraphicalObject], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (GraphicalObject(../graphicalobject), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [GraphicalObject] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | GraphicalObject(../graphicalobject) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([Shape], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (Shape(../shape), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Shape] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | Shape(../shape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([Ink], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (Ink(../ink), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Ink] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | Ink(../ink) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([GroupShape], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (GroupShape(../groupshape), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [GroupShape] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | GroupShape(../groupshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([SmartArtShape], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (SmartArtShape(../smartartshape), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SmartArtShape] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | SmartArtShape(../smartartshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([SummaryZoomSection], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (SummaryZoomSection(../summaryzoomsection), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SummaryZoomSection] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | SummaryZoomSection(../summaryzoomsection) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([ZoomObject], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (ZoomObject(../zoomobject), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomObject] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | ZoomObject(../zoomobject) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([SmartArt], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (SmartArt(../smartart), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SmartArt] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | SmartArt(../smartart) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([VideoFrame], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (VideoFrame(../videoframe), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [VideoFrame] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | VideoFrame(../videoframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([PictureFrame], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (PictureFrame(../pictureframe), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [PictureFrame] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | PictureFrame(../pictureframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([ZoomFrame], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (ZoomFrame(../zoomframe), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomFrame] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | ZoomFrame(../zoomframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([AutoShape], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (AutoShape(../autoshape), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [AutoShape] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | AutoShape(../autoshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([OleObjectFrame], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (OleObjectFrame(../oleobjectframe), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | OleObjectFrame(../oleobjectframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([SectionZoomFrame], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (SectionZoomFrame(../sectionzoomframe), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SectionZoomFrame] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | SectionZoomFrame(../sectionzoomframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([AudioFrame], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (AudioFrame(../audioframe), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [AudioFrame] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | AudioFrame(../audioframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([Chart], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (Chart(../chart), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Chart] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | Chart(../chart) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([Table], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (Table(../table), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Table] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | Table(../table) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([SummaryZoomFrame], [int], [int], [int]) | Add new effect to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (SummaryZoomFrame(../summaryzoomframe), int, int, int) | Add new effect to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SummaryZoomFrame] | Shape object IShape for adding an effect |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| shape | SummaryZoomFrame(../summaryzoomframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([Paragraph], [int], [int], [int]) | Add new animation effect for paragraph to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (Paragraph(../paragraph), int, int, int) | Add new animation effect for paragraph to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| paragraph | [Paragraph] | Paragraph object IParagraph |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| paragraph | Paragraph(../paragraph) | Paragraph object IParagraph |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([Chart], [int], [int], [int], [int], [int]) | Adds the new chart animation effect for category or series to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (Chart(../chart), int, int, int, int, int) | Adds the new chart animation effect for category or series to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| chart | [Chart] | Chart object IChart |
-| type | [int] | Type of an animation effect EffectChartMinorGroupingType |
-| index | [int] | Index int |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| chart | Chart(../chart) | Chart object IChart |
+| type | int | Type of an animation effect EffectChartMinorGroupingType |
+| index | int | Index int |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [addEffect] ([Chart], [int], [int], [int], [int], [int], [int]) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
+| Name | Description |
+| --- | --- |
+| addEffect (Chart(../chart), int, int, int, int, int, int) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| chart | [Chart] | Chart object IChart |
-| type | [int] | Type of an animation effect EffectChartMinorGroupingType |
-| seriesIndex | [int] | Index of chart series int |
-| categoriesIndex | [int] | Index of category int |
-| effectType | [int] | Type of an animation effect EffectType |
-| subtype | [int] | Subtypes of animation effect EffectSubtype |
-| triggerType | [int] | Trigger type of effect EffectTriggerType |
+| chart | Chart(../chart) | Chart object IChart |
+| type | int | Type of an animation effect EffectChartMinorGroupingType |
+| seriesIndex | int | Index of chart series int |
+| categoriesIndex | int | Index of category int |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [clear] () | Removes all effects from a collection. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all effects from a collection. |
 
 
 ---
 
 
-| [getCount] () | Returns the number of effects in a sequense. Read-only int. |
+| Name | Description |
+| --- | --- |
+| getCount () | Returns the number of effects in a sequense. Read-only int. |
 
 ### Result
 int
@@ -445,7 +495,9 @@ int
 ---
 
 
-| [getCount] ([LegacyDiagram]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (LegacyDiagram(../legacydiagram)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -454,7 +506,9 @@ int
 ---
 
 
-| [getCount] ([Connector]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (Connector(../connector)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -463,7 +517,9 @@ int
 ---
 
 
-| [getCount] ([GraphicalObject]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (GraphicalObject(../graphicalobject)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -472,7 +528,9 @@ int
 ---
 
 
-| [getCount] ([Shape]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (Shape(../shape)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -481,7 +539,9 @@ int
 ---
 
 
-| [getCount] ([Ink]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (Ink(../ink)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -490,7 +550,9 @@ int
 ---
 
 
-| [getCount] ([GroupShape]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (GroupShape(../groupshape)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -499,7 +561,9 @@ int
 ---
 
 
-| [getCount] ([SmartArtShape]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (SmartArtShape(../smartartshape)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -508,7 +572,9 @@ int
 ---
 
 
-| [getCount] ([SummaryZoomSection]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (SummaryZoomSection(../summaryzoomsection)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -517,7 +583,9 @@ int
 ---
 
 
-| [getCount] ([ZoomObject]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (ZoomObject(../zoomobject)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -526,7 +594,9 @@ int
 ---
 
 
-| [getCount] ([SmartArt]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (SmartArt(../smartart)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -535,7 +605,9 @@ int
 ---
 
 
-| [getCount] ([VideoFrame]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (VideoFrame(../videoframe)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -544,7 +616,9 @@ int
 ---
 
 
-| [getCount] ([PictureFrame]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (PictureFrame(../pictureframe)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -553,7 +627,9 @@ int
 ---
 
 
-| [getCount] ([ZoomFrame]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (ZoomFrame(../zoomframe)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -562,7 +638,9 @@ int
 ---
 
 
-| [getCount] ([AutoShape]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (AutoShape(../autoshape)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -571,7 +649,9 @@ int
 ---
 
 
-| [getCount] ([OleObjectFrame]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (OleObjectFrame(../oleobjectframe)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -580,7 +660,9 @@ int
 ---
 
 
-| [getCount] ([SectionZoomFrame]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (SectionZoomFrame(../sectionzoomframe)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -589,7 +671,9 @@ int
 ---
 
 
-| [getCount] ([AudioFrame]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (AudioFrame(../audioframe)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -598,7 +682,9 @@ int
 ---
 
 
-| [getCount] ([Chart]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (Chart(../chart)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -607,7 +693,9 @@ int
 ---
 
 
-| [getCount] ([Table]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (Table(../table)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -616,7 +704,9 @@ int
 ---
 
 
-| [getCount] ([SummaryZoomFrame]) | Returns count of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getCount (SummaryZoomFrame(../summaryzoomframe)) | Returns count of effects for the specified shape. |
 
 ### Result
 int
@@ -625,229 +715,268 @@ int
 ---
 
 
-| [getEffectsByParagraph] ([Paragraph]) | Returns array of effects for the specified paragraph. |
+| Name | Description |
+| --- | --- |
+| getEffectsByParagraph (Paragraph(../paragraph)) | Returns array of effects for the specified paragraph. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([LegacyDiagram]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (LegacyDiagram(../legacydiagram)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([Connector]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (Connector(../connector)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([GraphicalObject]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (GraphicalObject(../graphicalobject)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([Shape]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (Shape(../shape)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([Ink]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (Ink(../ink)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([GroupShape]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (GroupShape(../groupshape)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([SmartArtShape]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (SmartArtShape(../smartartshape)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([SummaryZoomSection]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (SummaryZoomSection(../summaryzoomsection)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([ZoomObject]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (ZoomObject(../zoomobject)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([SmartArt]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (SmartArt(../smartart)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([VideoFrame]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (VideoFrame(../videoframe)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([PictureFrame]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (PictureFrame(../pictureframe)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([ZoomFrame]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (ZoomFrame(../zoomframe)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([AutoShape]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (AutoShape(../autoshape)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([OleObjectFrame]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (OleObjectFrame(../oleobjectframe)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([SectionZoomFrame]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (SectionZoomFrame(../sectionzoomframe)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([AudioFrame]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (AudioFrame(../audioframe)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([Chart]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (Chart(../chart)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([Table]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (Table(../table)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getEffectsByShape] ([SummaryZoomFrame]) | Returns array of effects for the specified shape. |
+| Name | Description |
+| --- | --- |
+| getEffectsByShape (SummaryZoomFrame(../summaryzoomframe)) | Returns array of effects for the specified shape. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [getTriggerShape] () | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| getTriggerShape () | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 ### Result
-[LegacyDiagram], [Connector], [GraphicalObject], [Shape], [Ink], [GroupShape], [SmartArtShape], [SummaryZoomSection], [ZoomObject], [SmartArt], [VideoFrame], [PictureFrame], [ZoomFrame], [AutoShape], [GeometryShape], [OleObjectFrame], [SectionZoomFrame], [AudioFrame], [Chart], [Table], [SummaryZoomFrame]
+LegacyDiagram(../../legacydiagram), Connector(../../connector), GraphicalObject(../../graphicalobject), Shape(../../shape), Ink(../../ink), GroupShape(../../groupshape), SmartArtShape(../../smartartshape), SummaryZoomSection(../../summaryzoomsection), ZoomObject(../../zoomobject), SmartArt(../../smartart), VideoFrame(../../videoframe), PictureFrame(../../pictureframe), ZoomFrame(../../zoomframe), AutoShape(../../autoshape), GeometryShape(../../geometryshape), OleObjectFrame(../../oleobjectframe), SectionZoomFrame(../../sectionzoomframe), AudioFrame(../../audioframe), Chart(../../chart), Table(../../table), SummaryZoomFrame(../../summaryzoomframe)
 
 
 ---
 
 
-| [get_Item] ([int]) | Returns an effect at the specified index. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns an effect at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of element. |
+| index | int | Index of element. |
 
 ### Result
-[Effect]
+Effect(../../effect)
 
 
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
-
-### Result
-
-
-
----
-
-
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -856,265 +985,360 @@ int
 ---
 
 
-| [remove] ([Effect]) | Removes specified effect from a collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| remove (Effect(../effect)) | Removes specified effect from a collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Effect] | Effect to remove. |
+| item | Effect(../../effect) | Effect to remove. |
 
 
 ---
 
 
-| [removeAt] ([int]) | Removes an effect from a collection. |
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes an effect from a collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of a effect that should be deleted. |
+| index | int | Index of a effect that should be deleted. |
 
 
 ---
 
 
-| [removeByShape] ([LegacyDiagram]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (LegacyDiagram(../legacydiagram)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([Connector]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (Connector(../connector)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([GraphicalObject]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (GraphicalObject(../graphicalobject)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([Shape]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (Shape(../shape)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([Ink]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (Ink(../ink)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([GroupShape]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (GroupShape(../groupshape)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([SmartArtShape]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (SmartArtShape(../smartartshape)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([SummaryZoomSection]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (SummaryZoomSection(../summaryzoomsection)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([ZoomObject]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (ZoomObject(../zoomobject)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([SmartArt]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (SmartArt(../smartart)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([VideoFrame]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (VideoFrame(../videoframe)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([PictureFrame]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (PictureFrame(../pictureframe)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([ZoomFrame]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (ZoomFrame(../zoomframe)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([AutoShape]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (AutoShape(../autoshape)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([OleObjectFrame]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (OleObjectFrame(../oleobjectframe)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([SectionZoomFrame]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (SectionZoomFrame(../sectionzoomframe)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([AudioFrame]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (AudioFrame(../audioframe)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([Chart]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (Chart(../chart)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([Table]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (Table(../table)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [removeByShape] ([SummaryZoomFrame]) | Remove effect for the specified shape. |
+| Name | Description |
+| --- | --- |
+| removeByShape (SummaryZoomFrame(../summaryzoomframe)) | Remove effect for the specified shape. |
 
 
 ---
 
 
-| [setTriggerShape] ([LegacyDiagram]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (LegacyDiagram(../legacydiagram)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([Connector]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (Connector(../connector)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([GraphicalObject]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (GraphicalObject(../graphicalobject)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([Shape]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (Shape(../shape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([Ink]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (Ink(../ink)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([GroupShape]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (GroupShape(../groupshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([SmartArtShape]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (SmartArtShape(../smartartshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([SummaryZoomSection]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (SummaryZoomSection(../summaryzoomsection)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([ZoomObject]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (ZoomObject(../zoomobject)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([SmartArt]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (SmartArt(../smartart)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([VideoFrame]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (VideoFrame(../videoframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([PictureFrame]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (PictureFrame(../pictureframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([ZoomFrame]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (ZoomFrame(../zoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([AutoShape]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (AutoShape(../autoshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([OleObjectFrame]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (OleObjectFrame(../oleobjectframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([SectionZoomFrame]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (SectionZoomFrame(../sectionzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([AudioFrame]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (AudioFrame(../audioframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([Chart]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (Chart(../chart)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([Table]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (Table(../table)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---
 
 
-| [setTriggerShape] ([SummaryZoomFrame]) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| Name | Description |
+| --- | --- |
+| setTriggerShape (SummaryZoomFrame(../summaryzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
 
 ---

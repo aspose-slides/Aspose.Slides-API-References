@@ -11,7 +11,9 @@ url: /aspose.slides/html5options/
 
  Represents a HTML5 exporting options.
  
-| [Html5Options]() | Default function. |
+| Name | Description |
+| --- | --- |
+| Html5Options() | Default function. |
 
 ### Result
 Html5Options
@@ -20,7 +22,9 @@ Html5Options
 ---
 
 
-| [getAnimateShapes] () | Returns or sets shapes animation option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getAnimateShapes () | Returns or sets shapes animation option. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,7 +33,9 @@ boolean
 ---
 
 
-| [getAnimateTransitions] () | Returns or sets transitions animation option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getAnimateTransitions () | Returns or sets transitions animation option. Read/write boolean. |
 
 ### Result
 boolean
@@ -38,7 +44,9 @@ boolean
 ---
 
 
-| [getEmbedImages] () | Returns or sets images embedding option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getEmbedImages () | Returns or sets images embedding option. Read/write boolean. |
 
 ### Result
 boolean
@@ -47,7 +55,9 @@ boolean
 ---
 
 
-| [getOutputPath] () | Determines where external resources should be stored. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getOutputPath () | Determines where external resources should be stored. Read/write String. |
 
 ### Result
 String
@@ -56,25 +66,33 @@ String
 ---
 
 
-| [setAnimateShapes] ([boolean]) | Returns or sets shapes animation option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setAnimateShapes (boolean) | Returns or sets shapes animation option. Read/write boolean. |
 
 
 ---
 
 
-| [setAnimateTransitions] ([boolean]) | Returns or sets transitions animation option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setAnimateTransitions (boolean) | Returns or sets transitions animation option. Read/write boolean. |
 
 
 ---
 
 
-| [setEmbedImages] ([boolean]) | Returns or sets images embedding option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setEmbedImages (boolean) | Returns or sets images embedding option. Read/write boolean. |
 
 
 ---
 
 
-| [setOutputPath] ([String]) | Determines where external resources should be stored. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setOutputPath (String) | Determines where external resources should be stored. Read/write String. |
 
 
 ---

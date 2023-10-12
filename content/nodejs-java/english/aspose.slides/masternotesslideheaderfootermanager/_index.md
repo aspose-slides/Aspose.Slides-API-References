@@ -13,85 +13,99 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
  Child placeholders mean placeholders are contained on depending notes slides.
  Depending notes slides use and depend on master notes slide.
  
-| [setDateTimeAndChildDateTimesText] ([String]) | Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| Name | Description |
+| --- | --- |
+| setDateTimeAndChildDateTimesText (String) | Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | [String] | Text to set. |
+| text | String | Text to set. |
 
 
 ---
 
 
-| [setDateTimeAndChildDateTimesVisibility] ([boolean]) | Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| Name | Description |
+| --- | --- |
+| setDateTimeAndChildDateTimesVisibility (boolean) | Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| isVisible | [boolean] | true - makes a date-time placeholders visible, otherwise - hides them. |
+| isVisible | boolean | true - makes a date-time placeholders visible, otherwise - hides them. |
 
 
 ---
 
 
-| [setFooterAndChildFootersText] ([String]) | Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| Name | Description |
+| --- | --- |
+| setFooterAndChildFootersText (String) | Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | [String] | Text to set. |
+| text | String | Text to set. |
 
 
 ---
 
 
-| [setFooterAndChildFootersVisibility] ([boolean]) | Changes master slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| Name | Description |
+| --- | --- |
+| setFooterAndChildFootersVisibility (boolean) | Changes master slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| isVisible | [boolean] | true - makes a footer placeholders visible, otherwise - hides them. |
+| isVisible | boolean | true - makes a footer placeholders visible, otherwise - hides them. |
 
 
 ---
 
 
-| [setHeaderAndChildHeadersText] ([String]) | Sets text to master notes slide header placeholder and all child header placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| Name | Description |
+| --- | --- |
+| setHeaderAndChildHeadersText (String) | Sets text to master notes slide header placeholder and all child header placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | [String] | Text to set. |
+| text | String | Text to set. |
 
 
 ---
 
 
-| [setHeaderAndChildHeadersVisibility] ([boolean]) | Changes master notes slide header placeholder and all child header placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| Name | Description |
+| --- | --- |
+| setHeaderAndChildHeadersVisibility (boolean) | Changes master notes slide header placeholder and all child header placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| isVisible | [boolean] | true - makes a header placeholders visible, otherwise - hides them. |
+| isVisible | boolean | true - makes a header placeholders visible, otherwise - hides them. |
 
 
 ---
 
 
-| [setSlideNumberAndChildSlideNumbersVisibility] ([boolean]) | Changes master slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| Name | Description |
+| --- | --- |
+| setSlideNumberAndChildSlideNumbersVisibility (boolean) | Changes master slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| isVisible | [boolean] | true - makes a page number placeholders visible, otherwise - hides them. |
+| isVisible | boolean | true - makes a page number placeholders visible, otherwise - hides them. |
 
 
 ---

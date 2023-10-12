@@ -11,7 +11,9 @@ url: /aspose.slides/markdownsaveoptions/
 
  Represents options that control how presentation should be saved to markdown.
  
-| [MarkdownSaveOptions]() | Ctor. |
+| Name | Description |
+| --- | --- |
+| MarkdownSaveOptions() | Ctor. |
 
 ### Result
 MarkdownSaveOptions
@@ -20,7 +22,9 @@ MarkdownSaveOptions
 ---
 
 
-| [getBasePath] () | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
+| Name | Description |
+| --- | --- |
+| getBasePath () | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
 
 ### Result
 String
@@ -29,7 +33,9 @@ String
 ---
 
 
-| [getExportType] () | Specifies markdown specification to convert presentation. Default is TextOnly. |
+| Name | Description |
+| --- | --- |
+| getExportType () | Specifies markdown specification to convert presentation. Default is TextOnly. |
 
 ### Result
 int
@@ -38,7 +44,9 @@ int
 ---
 
 
-| [getFlavor] () | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
+| Name | Description |
+| --- | --- |
+| getFlavor () | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
 
 ### Result
 int
@@ -47,7 +55,9 @@ int
 ---
 
 
-| [getImagesSaveFolderName] () | Specifies folder name to save images. Default is Images. |
+| Name | Description |
+| --- | --- |
+| getImagesSaveFolderName () | Specifies folder name to save images. Default is Images. |
 
 ### Result
 String
@@ -56,7 +66,9 @@ String
 ---
 
 
-| [getNewLineType] () | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+| Name | Description |
+| --- | --- |
+| getNewLineType () | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
 
 ### Result
 int
@@ -65,7 +77,9 @@ int
 ---
 
 
-| [getShowComments] () | Specifies whether the generated document should show comments or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| getShowComments () | Specifies whether the generated document should show comments or not. Default is false. |
 
 ### Result
 boolean
@@ -74,7 +88,9 @@ boolean
 ---
 
 
-| [getShowHiddenSlides] () | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 ### Result
 boolean
@@ -83,7 +99,9 @@ boolean
 ---
 
 
-| [getShowSlideNumber] () | Specifies whether the generated document should show number of each slide or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| getShowSlideNumber () | Specifies whether the generated document should show number of each slide or not. Default is false. |
 
 ### Result
 boolean
@@ -92,49 +110,65 @@ boolean
 ---
 
 
-| [setBasePath] ([String]) | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
+| Name | Description |
+| --- | --- |
+| setBasePath (String) | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
 
 
 ---
 
 
-| [setExportType] ([int]) | Specifies markdown specification to convert presentation. Default is TextOnly. |
+| Name | Description |
+| --- | --- |
+| setExportType (int) | Specifies markdown specification to convert presentation. Default is TextOnly. |
 
 
 ---
 
 
-| [setFlavor] ([int]) | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
+| Name | Description |
+| --- | --- |
+| setFlavor (int) | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
 
 
 ---
 
 
-| [setImagesSaveFolderName] ([String]) | Specifies folder name to save images. Default is Images. |
+| Name | Description |
+| --- | --- |
+| setImagesSaveFolderName (String) | Specifies folder name to save images. Default is Images. |
 
 
 ---
 
 
-| [setNewLineType] ([int]) | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+| Name | Description |
+| --- | --- |
+| setNewLineType (int) | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
 
 
 ---
 
 
-| [setShowComments] ([boolean]) | Specifies whether the generated document should show comments or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| setShowComments (boolean) | Specifies whether the generated document should show comments or not. Default is false. |
 
 
 ---
 
 
-| [setShowHiddenSlides] ([boolean]) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 
 ---
 
 
-| [setShowSlideNumber] ([boolean]) | Specifies whether the generated document should show number of each slide or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| setShowSlideNumber (boolean) | Specifies whether the generated document should show number of each slide or not. Default is false. |
 
 
 ---

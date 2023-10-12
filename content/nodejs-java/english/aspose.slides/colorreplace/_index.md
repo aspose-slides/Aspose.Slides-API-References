@@ -13,13 +13,15 @@ url: /aspose.slides/colorreplace/
  All effect colors are changed to a fixed color.
  Alpha values are unaffected.
  
-| [equals] ([Object]) | Determines whether the specified ColorReplace is equal to the current ColorReplace. |
+| Name | Description |
+| --- | --- |
+| equals (Object) | Determines whether the specified ColorReplace is equal to the current ColorReplace. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| obj | [Object] | The ColorReplace to compare. |
+| obj | Object | The ColorReplace to compare. |
 
 ### Result
 boolean
@@ -28,25 +30,31 @@ boolean
 ---
 
 
-| [getColor] () | Returns color format which will replace color of every pixel. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getColor () | Returns color format which will replace color of every pixel. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getEffective] () | Gets effective Color Replacement effect data with the inheritance applied. |
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Color Replacement effect data with the inheritance applied. |
 
 ### Result
-[ColorReplaceEffectiveData]
+ColorReplaceEffectiveData
 
 
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long
@@ -55,7 +63,9 @@ long
 ---
 
 
-| [hashCode] () | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
 
 ### Result
 int

@@ -11,193 +11,237 @@ url: /aspose.slides/sequencecollection/
 
  Represents collection of interactive sequences.
  
-| [add] ([LegacyDiagram]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (LegacyDiagram(../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([Connector]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (Connector(../connector)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([GraphicalObject]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (GraphicalObject(../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([Shape]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (Shape(../shape)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([Ink]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (Ink(../ink)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([GroupShape]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (GroupShape(../groupshape)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([SmartArtShape]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (SmartArtShape(../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([SummaryZoomSection]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (SummaryZoomSection(../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([ZoomObject]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (ZoomObject(../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([SmartArt]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (SmartArt(../smartart)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([VideoFrame]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (VideoFrame(../videoframe)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([PictureFrame]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (PictureFrame(../pictureframe)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([ZoomFrame]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (ZoomFrame(../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([AutoShape]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (AutoShape(../autoshape)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([OleObjectFrame]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (OleObjectFrame(../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([SectionZoomFrame]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (SectionZoomFrame(../sectionzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([AudioFrame]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (AudioFrame(../audioframe)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([Chart]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (Chart(../chart)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([Table]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (Table(../table)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [add] ([SummaryZoomFrame]) | Add new interactive sequence. Read/write Sequence. |
+| Name | Description |
+| --- | --- |
+| add (SummaryZoomFrame(../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [clear] () | Removes all sequences from a collection. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all sequences from a collection. |
 
 
 ---
 
 
-| [getCount] () | Returns the number of elements in a collection Read-only int. |
+| Name | Description |
+| --- | --- |
+| getCount () | Returns the number of elements in a collection Read-only int. |
 
 ### Result
 int
@@ -206,31 +250,26 @@ int
 ---
 
 
-| [get_Item] ([int]) | Returns a sequense at the specified index. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns a sequense at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of element. |
+| index | int | Index of element. |
 
 ### Result
-[Sequence]
+Sequence(../../sequence)
 
 
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
-
-### Result
-
-
-
----
-
-
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -239,25 +278,40 @@ int
 ---
 
 
-| [remove] ([Sequence]) | Removes specified sequence from a collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Parameters
+### Result
 
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Sequence] | Sequence to remove. |
 
 
 ---
 
 
-| [removeAt] ([int]) | Removes sequence at the specified index. |
+| Name | Description |
+| --- | --- |
+| remove (Sequence(../sequence)) | Removes specified sequence from a collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of a sequence that should be deleted. |
+| item | Sequence(../../sequence) | Sequence to remove. |
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes sequence at the specified index. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a sequence that should be deleted. |
 
 
 ---

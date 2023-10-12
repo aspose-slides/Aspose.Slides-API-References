@@ -11,55 +11,67 @@ url: /aspose.slides/formatscheme/
 
  Stores theme-defined formats for the shapes.
  
-| [getBackgroundFillStyles] () | Returns a collection of theme defined background fill styles. Read-only IFillFormatCollection. |
+| Name | Description |
+| --- | --- |
+| getBackgroundFillStyles () | Returns a collection of theme defined background fill styles. Read-only IFillFormatCollection. |
 
 ### Result
-[FillFormatCollection]
+FillFormatCollection(../../fillformatcollection)
 
 
 ---
 
 
-| [getEffectStyles] () | Returns a collection of theme defined effect styles. Read-only IEffectStyleCollection. |
+| Name | Description |
+| --- | --- |
+| getEffectStyles () | Returns a collection of theme defined effect styles. Read-only IEffectStyleCollection. |
 
 ### Result
-[EffectStyleCollection]
+EffectStyleCollection(../../effectstylecollection)
 
 
 ---
 
 
-| [getFillStyles] () | Returns a collection of theme defined fill styles. Read-only IFillFormatCollection. |
+| Name | Description |
+| --- | --- |
+| getFillStyles () | Returns a collection of theme defined fill styles. Read-only IFillFormatCollection. |
 
 ### Result
-[FillFormatCollection]
+FillFormatCollection(../../fillformatcollection)
 
 
 ---
 
 
-| [getLineStyles] () | Returns a collection of theme defined line styles. Read-only ILineFormatCollection. |
+| Name | Description |
+| --- | --- |
+| getLineStyles () | Returns a collection of theme defined line styles. Read-only ILineFormatCollection. |
 
 ### Result
-[LineFormatCollection]
+LineFormatCollection(../../lineformatcollection)
 
 
 ---
 
 
-| [getPresentation] () | Returns the parent presentation. Read-only IPresentation. |
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation. Read-only IPresentation. |
 
 ### Result
-[Presentation]
+Presentation(../../presentation)
 
 
 ---
 
 
-| [getSlide] () | Returns the parent slide. Read-only IBaseSlide. |
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide. Read-only IBaseSlide. |
 
 ### Result
-[MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
+MasterNotesSlide(../../masternotesslide), MasterHandoutSlide(../../masterhandoutslide), BaseSlide(../../baseslide), NotesSlide(../../notesslide), LayoutSlide(../../layoutslide), Slide(../../slide), MasterSlide(../../masterslide)
 
 
 ---

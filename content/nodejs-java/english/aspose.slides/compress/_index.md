@@ -11,7 +11,9 @@ url: /aspose.slides/compress/
 
  Represents a group of methods intended to compress  Presentation.
  
-| [Compress]() |  |
+| Name | Description |
+| --- | --- |
+| Compress() |  |
 
 ### Result
 Compress
@@ -20,37 +22,43 @@ Compress
 ---
 
 
-| [compressEmbeddedFonts] ([Presentation]) | Makes compression of the Presentation by removing unused characters from embedded fonts. |
+| Name | Description |
+| --- | --- |
+| compressEmbeddedFonts (Presentation(../presentation)) | Makes compression of the Presentation by removing unused characters from embedded fonts. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation] | The presentation instance |
+| pres | Presentation(../../presentation) | The presentation instance |
 
 
 ---
 
 
-| [removeUnusedLayoutSlides] ([Presentation]) | Makes compression of the Presentation by removing unused layout slides. |
+| Name | Description |
+| --- | --- |
+| removeUnusedLayoutSlides (Presentation(../presentation)) | Makes compression of the Presentation by removing unused layout slides. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation] | The presentation instance |
+| pres | Presentation(../../presentation) | The presentation instance |
 
 
 ---
 
 
-| [removeUnusedMasterSlides] ([Presentation]) | Makes compression of the Presentation by removing unused master slides. |
+| Name | Description |
+| --- | --- |
+| removeUnusedMasterSlides (Presentation(../presentation)) | Makes compression of the Presentation by removing unused master slides. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation] | The presentation instance |
+| pres | Presentation(../../presentation) | The presentation instance |
 
 
 ---

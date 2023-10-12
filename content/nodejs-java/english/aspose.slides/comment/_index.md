@@ -11,16 +11,20 @@ url: /aspose.slides/comment/
 
  Represents a comment on a slide.
  
-| [getAuthor] () | Returns the author of a comment. Read-only ICommentAuthor. |
+| Name | Description |
+| --- | --- |
+| getAuthor () | Returns the author of a comment. Read-only ICommentAuthor. |
 
 ### Result
-[CommentAuthor]
+CommentAuthor(../../commentauthor)
 
 
 ---
 
 
-| [getCreatedTime] () | Returns or sets the time of a comment creation. Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set. Read/write java.util.Date. Comment time is an optional parameter. |
+| Name | Description |
+| --- | --- |
+| getCreatedTime () | Returns or sets the time of a comment creation. Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set. Read/write java.util.Date. Comment time is an optional parameter. |
 
 ### Result
 Date
@@ -29,10 +33,12 @@ Date
 ---
 
 
-| [getParentComment] () | Gets or sets parent comment. Read/write IComment. |
+| Name | Description |
+| --- | --- |
+| getParentComment () | Gets or sets parent comment. Read/write IComment. |
 
 ### Result
-[Comment], [ModernComment]
+Comment(../../comment), ModernComment(../../moderncomment)
 
 ### Error
 
@@ -44,7 +50,9 @@ Date
 ---
 
 
-| [getPosition] () | Returns or sets the position of a comment on a slide. Read/write java.awt.geom.Point2D.Float. |
+| Name | Description |
+| --- | --- |
+| getPosition () | Returns or sets the position of a comment on a slide. Read/write java.awt.geom.Point2D.Float. |
 
 ### Result
 Point2D.Float
@@ -53,16 +61,20 @@ Point2D.Float
 ---
 
 
-| [getSlide] () | Returns or sets the parent slide of a comment. Read-only ISlide. |
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns or sets the parent slide of a comment. Read-only ISlide. |
 
 ### Result
-[Slide]
+Slide(../../slide)
 
 
 ---
 
 
-| [getText] () | Returns or sets the plain text of a slide comment. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getText () | Returns or sets the plain text of a slide comment. Read/write String. |
 
 ### Result
 String
@@ -71,7 +83,9 @@ String
 ---
 
 
-| [remove] () | Removes comment and all its replies from the parent collection. |
+| Name | Description |
+| --- | --- |
+| remove () | Removes comment and all its replies from the parent collection. |
 
 ### Error
 
@@ -83,13 +97,17 @@ String
 ---
 
 
-| [setCreatedTime] ([Date]) | Returns or sets the time of a comment creation. Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set. Read/write java.util.Date. Comment time is an optional parameter. |
+| Name | Description |
+| --- | --- |
+| setCreatedTime (Date) | Returns or sets the time of a comment creation. Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set. Read/write java.util.Date. Comment time is an optional parameter. |
 
 
 ---
 
 
-| [setParentComment] ([Comment]) | Gets or sets parent comment. Read/write IComment. |
+| Name | Description |
+| --- | --- |
+| setParentComment (Comment(../comment)) | Gets or sets parent comment. Read/write IComment. |
 
 ### Error
 
@@ -101,7 +119,9 @@ String
 ---
 
 
-| [setParentComment] ([ModernComment]) | Gets or sets parent comment. Read/write IComment. |
+| Name | Description |
+| --- | --- |
+| setParentComment (ModernComment(../moderncomment)) | Gets or sets parent comment. Read/write IComment. |
 
 ### Error
 
@@ -113,13 +133,17 @@ String
 ---
 
 
-| [setPosition] ([Point2D.Float]) | Returns or sets the position of a comment on a slide. Read/write java.awt.geom.Point2D.Float. |
+| Name | Description |
+| --- | --- |
+| setPosition (Point2D.Float) | Returns or sets the position of a comment on a slide. Read/write java.awt.geom.Point2D.Float. |
 
 
 ---
 
 
-| [setText] ([String]) | Returns or sets the plain text of a slide comment. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setText (String) | Returns or sets the plain text of a slide comment. Read/write String. |
 
 
 ---

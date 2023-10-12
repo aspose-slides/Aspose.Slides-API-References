@@ -11,7 +11,9 @@ url: /aspose.slides/xpsoptions/
 
  Provides options that control how a presentation is saved in XPS format.
  
-| [XpsOptions]() | Default function. |
+| Name | Description |
+| --- | --- |
+| XpsOptions() | Default function. |
 
 ### Result
 XpsOptions
@@ -20,7 +22,9 @@ XpsOptions
 ---
 
 
-| [getDrawSlidesFrame] () | True to draw black frame around each slide. Read/write boolean. Default is false. |
+| Name | Description |
+| --- | --- |
+| getDrawSlidesFrame () | True to draw black frame around each slide. Read/write boolean. Default is false. |
 
 ### Result
 boolean
@@ -29,7 +33,9 @@ boolean
 ---
 
 
-| [getSaveMetafilesAsPng] () | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+| Name | Description |
+| --- | --- |
+| getSaveMetafilesAsPng () | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
 
 ### Result
 boolean
@@ -38,7 +44,9 @@ boolean
 ---
 
 
-| [getShowHiddenSlides] () | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 ### Result
 boolean
@@ -47,19 +55,25 @@ boolean
 ---
 
 
-| [setDrawSlidesFrame] ([boolean]) | True to draw black frame around each slide. Read/write boolean. Default is false. |
+| Name | Description |
+| --- | --- |
+| setDrawSlidesFrame (boolean) | True to draw black frame around each slide. Read/write boolean. Default is false. |
 
 
 ---
 
 
-| [setSaveMetafilesAsPng] ([boolean]) | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+| Name | Description |
+| --- | --- |
+| setSaveMetafilesAsPng (boolean) | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
 
 
 ---
 
 
-| [setShowHiddenSlides] ([boolean]) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 
 ---

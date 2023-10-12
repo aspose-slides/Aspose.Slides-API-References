@@ -11,14 +11,16 @@ url: /aspose.slides/fontsubstrule/
 
  Represents font subtituition information
  
-| [FontSubstRule]([FontData], [FontData]) | Creates new instance. |
+| Name | Description |
+| --- | --- |
+| FontSubstRule(FontData(../fontdata), FontData(../fontdata)) | Creates new instance. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceFont | [FontData] | Source font. |
-| destFont | [FontData] | Destination font. |
+| sourceFont | FontData(../fontdata) | Source font. |
+| destFont | FontData(../../fontdata) | Destination font. |
 
 ### Result
 FontSubstRule
@@ -27,15 +29,17 @@ FontSubstRule
 ---
 
 
-| [FontSubstRule]([FontData], [FontData], [int]) | Creates new instance. |
+| Name | Description |
+| --- | --- |
+| FontSubstRule(FontData(../fontdata), FontData(../fontdata), int) | Creates new instance. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceFont | [FontData] | Source font. |
-| destFont | [FontData] | Destination font. |
-| fontSubstRule | [int] | Font subst rule. |
+| sourceFont | FontData(../fontdata) | Source font. |
+| destFont | FontData(../fontdata) | Destination font. |
+| fontSubstRule | int | Font subst rule. |
 
 ### Result
 FontSubstRule
@@ -44,16 +48,20 @@ FontSubstRule
 ---
 
 
-| [getDestFont] () | Font to use for substitution. Read-only IFontData. |
+| Name | Description |
+| --- | --- |
+| getDestFont () | Font to use for substitution. Read-only IFontData. |
 
 ### Result
-[FontData]
+FontData(../../fontdata)
 
 
 ---
 
 
-| [getReplaceFontCondition] () | Rule to apply for substitution. Read-only FontSubstCondition. |
+| Name | Description |
+| --- | --- |
+| getReplaceFontCondition () | Rule to apply for substitution. Read-only FontSubstCondition. |
 
 ### Result
 int
@@ -62,10 +70,12 @@ int
 ---
 
 
-| [getSourceFont] () | Font to substitute. Read-only IFontData. |
+| Name | Description |
+| --- | --- |
+| getSourceFont () | Font to substitute. Read-only IFontData. |
 
 ### Result
-[FontData]
+FontData(../../fontdata)
 
 
 ---

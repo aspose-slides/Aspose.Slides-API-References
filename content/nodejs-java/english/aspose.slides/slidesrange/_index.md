@@ -11,7 +11,9 @@ url: /aspose.slides/slidesrange/
 
  Slides range
  
-| [SlidesRange]() |  |
+| Name | Description |
+| --- | --- |
+| SlidesRange() |  |
 
 ### Result
 SlidesRange
@@ -20,7 +22,9 @@ SlidesRange
 ---
 
 
-| [getEnd] () | End |
+| Name | Description |
+| --- | --- |
+| getEnd () | End |
 
 ### Result
 long
@@ -29,7 +33,9 @@ long
 ---
 
 
-| [getStart] () | Start |
+| Name | Description |
+| --- | --- |
+| getStart () | Start |
 
 ### Result
 long
@@ -38,13 +44,17 @@ long
 ---
 
 
-| [setEnd] ([long]) | End |
+| Name | Description |
+| --- | --- |
+| setEnd (long) | End |
 
 
 ---
 
 
-| [setStart] ([long]) | Start |
+| Name | Description |
+| --- | --- |
+| setStart (long) | Start |
 
 
 ---

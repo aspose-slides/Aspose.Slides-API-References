@@ -11,16 +11,20 @@ url: /aspose.slides/column/
 
  Represents a column in a table.
  
-| [getColumnFormat] () | Returns the ColumnFormat object that contains formatting properties for this column. Read-only IColumnFormat. |
+| Name | Description |
+| --- | --- |
+| getColumnFormat () | Returns the ColumnFormat object that contains formatting properties for this column. Read-only IColumnFormat. |
 
 ### Result
-[ColumnFormat]
+ColumnFormat(../../columnformat)
 
 
 ---
 
 
-| [getWidth] () | Returns or sets the width of a column. Read/write double. |
+| Name | Description |
+| --- | --- |
+| getWidth () | Returns or sets the width of a column. Read/write double. |
 
 ### Result
 double
@@ -29,43 +33,51 @@ double
 ---
 
 
-| [setTextFormat] ([PortionFormat]) | Sets defined portion format properties to all column cells' portions. |
+| Name | Description |
+| --- | --- |
+| setTextFormat (PortionFormat(../portionformat)) | Sets defined portion format properties to all column cells' portions. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | [PortionFormat] | IPortionFormat object with necessary properties set. |
+| source | PortionFormat(../../portionformat) | IPortionFormat object with necessary properties set. |
 
 
 ---
 
 
-| [setTextFormat] ([ParagraphFormat]) | Sets defined paragraph format properties to all column cells' paragraphs. |
+| Name | Description |
+| --- | --- |
+| setTextFormat (ParagraphFormat(../paragraphformat)) | Sets defined paragraph format properties to all column cells' paragraphs. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | [ParagraphFormat] | IParagraphFormat object with necessary properties set. |
+| source | ParagraphFormat(../../paragraphformat) | IParagraphFormat object with necessary properties set. |
 
 
 ---
 
 
-| [setTextFormat] ([TextFrameFormat]) | Sets defined text frame format properties to all column cells' text frames. |
+| Name | Description |
+| --- | --- |
+| setTextFormat (TextFrameFormat(../textframeformat)) | Sets defined text frame format properties to all column cells' text frames. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | [TextFrameFormat] | ITextFrameFormat object with necessary properties set. |
+| source | TextFrameFormat(../../textframeformat) | ITextFrameFormat object with necessary properties set. |
 
 
 ---
 
 
-| [setWidth] ([double]) | Returns or sets the width of a column. Read/write double. |
+| Name | Description |
+| --- | --- |
+| setWidth (double) | Returns or sets the width of a column. Read/write double. |
 
 
 ---

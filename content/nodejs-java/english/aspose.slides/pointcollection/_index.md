@@ -11,7 +11,9 @@ url: /aspose.slides/pointcollection/
 
  Represent collection of animation points.
  
-| [PointCollection]() |  |
+| Name | Description |
+| --- | --- |
+| PointCollection() |  |
 
 ### Result
 PointCollection
@@ -20,7 +22,9 @@ PointCollection
 ---
 
 
-| [getCount] () | Returns the number of points in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| getCount () | Returns the number of points in the collection. Read-only int. |
 
 ### Result
 int
@@ -29,22 +33,26 @@ int
 ---
 
 
-| [get_Item] ([int]) | Returns a point at the specified index. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns a point at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of element. |
+| index | int | Index of element. |
 
 ### Result
-[Point]
+Point(../../point)
 
 
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -53,7 +61,9 @@ int
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 

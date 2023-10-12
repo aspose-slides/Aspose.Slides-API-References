@@ -19,7 +19,9 @@ url: /aspose.slides/chartportionformat/
  In order to get the effective formatting parameter values including
  inherited you need to use  PortionFormat#getEffective method
  which returns a  IPortionFormatEffectiveData instance.
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long

@@ -11,19 +11,23 @@ url: /aspose.slides/chartlinesformat/
 
  Represents gridlines format properties.
  
-| [getEffect] () | Returns effects used for a chart line. Read-only IEffectFormat. |
+| Name | Description |
+| --- | --- |
+| getEffect () | Returns effects used for a chart line. Read-only IEffectFormat. |
 
 ### Result
-[EffectFormat]
+EffectFormat(../../effectformat)
 
 
 ---
 
 
-| [getLine] () | Returns line style properties of a chart line. Read-only ILineFormat. |
+| Name | Description |
+| --- | --- |
+| getLine () | Returns line style properties of a chart line. Read-only ILineFormat. |
 
 ### Result
-[LineFormat]
+LineFormat(../../lineformat)
 
 
 ---

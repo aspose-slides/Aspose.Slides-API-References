@@ -11,7 +11,9 @@ url: /aspose.slides/browsedbyindividual/
 
  Browsed by individual (window)
  
-| [BrowsedByIndividual]() | Initializes a new instance of the BrowsedByIndividual class. |
+| Name | Description |
+| --- | --- |
+| BrowsedByIndividual() | Initializes a new instance of the BrowsedByIndividual class. |
 
 ### Result
 BrowsedByIndividual
@@ -20,7 +22,9 @@ BrowsedByIndividual
 ---
 
 
-| [getShowScrollbar] () | Show Scroll Bar in Window |
+| Name | Description |
+| --- | --- |
+| getShowScrollbar () | Show Scroll Bar in Window |
 
 ### Result
 boolean
@@ -29,7 +33,9 @@ boolean
 ---
 
 
-| [setShowScrollbar] ([boolean]) | Show Scroll Bar in Window |
+| Name | Description |
+| --- | --- |
+| setShowScrollbar (boolean) | Show Scroll Bar in Window |
 
 
 ---

@@ -13,7 +13,9 @@ url: /aspose.slides/mathboxfactory/
  
  For COM comparibility
  
-| [MathBoxFactory]() |  |
+| Name | Description |
+| --- | --- |
+| MathBoxFactory() |  |
 
 ### Result
 MathBoxFactory
@@ -22,286 +24,324 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathLimit]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathLimit(../mathlimit)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit] | math element to apply box |
+| element | MathLimit(../../mathlimit) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathBorderBox]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathBorderBox(../mathborderbox)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox] | math element to apply box |
+| element | MathBorderBox(../../mathborderbox) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathFraction]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathFraction(../mathfraction)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction] | math element to apply box |
+| element | MathFraction(../../mathfraction) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathDelimiter]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathDelimiter(../mathdelimiter)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter] | math element to apply box |
+| element | MathDelimiter(../../mathdelimiter) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathSuperscriptElement]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathSuperscriptElement(../mathsuperscriptelement)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement] | math element to apply box |
+| element | MathSuperscriptElement(../../mathsuperscriptelement) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathLeftSubSuperscriptElement]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement] | math element to apply box |
+| element | MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathRightSubSuperscriptElement]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement] | math element to apply box |
+| element | MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathBox]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathBox(../mathbox)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox] | math element to apply box |
+| element | MathBox(../../mathbox) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathMatrix]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathMatrix(../mathmatrix)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix] | math element to apply box |
+| element | MathMatrix(../../mathmatrix) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathArray]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathGroupingCharacter(../mathgroupingcharacter)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray] | math element to apply box |
+| element | MathGroupingCharacter(../../mathgroupingcharacter) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathBlock]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathArray(../matharray)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBlock] | math element to apply box |
+| element | MathArray(../../matharray) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathSubscriptElement]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathBlock(../mathblock)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement] | math element to apply box |
+| element | MathBlock(../../mathblock) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathFunction]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathSubscriptElement(../mathsubscriptelement)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction] | math element to apply box |
+| element | MathSubscriptElement(../../mathsubscriptelement) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathNaryOperator]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathFunction(../mathfunction)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator] | math element to apply box |
+| element | MathFunction(../../mathfunction) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathGroupingCharacter]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathNaryOperator(../mathnaryoperator)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter] | math element to apply box |
+| element | MathNaryOperator(../../mathnaryoperator) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathematicalText]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathematicalText(../mathematicaltext)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText] | math element to apply box |
+| element | MathematicalText(../../mathematicaltext) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathAccent]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathAccent(../mathaccent)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent] | math element to apply box |
+| element | MathAccent(../../mathaccent) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathRadical]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathRadical(../mathradical)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical] | math element to apply box |
+| element | MathRadical(../../mathradical) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---
 
 
-| [createMathBox] ([MathBar]) | Create a math box by applying to the element |
+| Name | Description |
+| --- | --- |
+| createMathBox (MathBar(../mathbar)) | Create a math box by applying to the element |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar] | math element to apply box |
+| element | MathBar(../../mathbar) | math element to apply box |
 
 ### Result
-[MathBox]
+MathBox(../../mathbox)
 
 
 ---

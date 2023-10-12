@@ -11,25 +11,29 @@ url: /aspose.slides/smartartnodecollection/
 
  Represents a collection of SmartArt nodes.
  
-| [addNode] () | Add new smart art node or sub node. |
+| Name | Description |
+| --- | --- |
+| addNode () | Add new smart art node or sub node. |
 
 ### Result
-[SmartArtNode]
+SmartArtNode(../../smartartnode)
 
 
 ---
 
 
-| [addNodeByPosition] ([int]) | Add new node in the selected position of nodes collection |
+| Name | Description |
+| --- | --- |
+| addNodeByPosition (int) | Add new node in the selected position of nodes collection |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| position | [int] | Zero-base node position |
+| position | int | Zero-base node position |
 
 ### Result
-[SmartArtNode]
+SmartArtNode(../../smartartnode)
 
 ### Error
 
@@ -41,7 +45,9 @@ url: /aspose.slides/smartartnodecollection/
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -50,22 +56,26 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Returns node by index |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns node by index |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | The zero-based index of the element |
+| index | int | The zero-based index of the element |
 
 ### Result
-[SmartArtNode]
+SmartArtNode(../../smartartnode)
 
 
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -74,7 +84,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -83,7 +95,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -92,13 +106,15 @@ boolean
 ---
 
 
-| [removeNode] ([int]) | Remove node or sub node by index |
+| Name | Description |
+| --- | --- |
+| removeNode (int) | Remove node or sub node by index |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Zero-based index of node |
+| index | int | Zero-based index of node |
 
 ### Error
 
@@ -110,19 +126,23 @@ boolean
 ---
 
 
-| [removeNode] ([SmartArtNode]) | Remove node or sub node |
+| Name | Description |
+| --- | --- |
+| removeNode (SmartArtNode(../smartartnode)) | Remove node or sub node |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| node | [SmartArtNode] | Node to remove |
+| node | SmartArtNode(../../smartartnode) | Node to remove |
 
 
 ---
 
 
-| [size] () | Returns count of nodes in collection Read-only int Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Returns count of nodes in collection Read-only int Read-only int. |
 
 ### Result
 int

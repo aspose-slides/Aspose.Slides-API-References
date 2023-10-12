@@ -13,7 +13,9 @@ url: /aspose.slides/effectfactory/
  
  For COM compatibility.
  
-| [EffectFactory]() |  |
+| Name | Description |
+| --- | --- |
+| EffectFactory() |  |
 
 ### Result
 EffectFactory
@@ -22,64 +24,78 @@ EffectFactory
 ---
 
 
-| [createGlow] () | Creates Glow effect. |
+| Name | Description |
+| --- | --- |
+| createGlow () | Creates Glow effect. |
 
 ### Result
-[Glow]
+Glow(../../glow)
 
 
 ---
 
 
-| [createInnerShadow] () | Creates Inner shafow effect. |
+| Name | Description |
+| --- | --- |
+| createInnerShadow () | Creates Inner shafow effect. |
 
 ### Result
-[InnerShadow]
+InnerShadow(../../innershadow)
 
 
 ---
 
 
-| [createOuterShadow] () | Creates Outer shadow effect. |
+| Name | Description |
+| --- | --- |
+| createOuterShadow () | Creates Outer shadow effect. |
 
 ### Result
-[OuterShadow]
+OuterShadow(../../outershadow)
 
 
 ---
 
 
-| [createPresetShadow] () | Creates Preset shadow effect. |
+| Name | Description |
+| --- | --- |
+| createPresetShadow () | Creates Preset shadow effect. |
 
 ### Result
-[PresetShadow]
+PresetShadow(../../presetshadow)
 
 
 ---
 
 
-| [createReflection] () | Creates Reflection effect. |
+| Name | Description |
+| --- | --- |
+| createReflection () | Creates Reflection effect. |
 
 ### Result
-[Reflection]
+Reflection(../../reflection)
 
 
 ---
 
 
-| [createSoftEdge] () | Creates Soft Edge effect. |
+| Name | Description |
+| --- | --- |
+| createSoftEdge () | Creates Soft Edge effect. |
 
 ### Result
-[SoftEdge]
+SoftEdge(../../softedge)
 
 
 ---
 
 
-| [getImageTransformOperationFactory] () | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
+| Name | Description |
+| --- | --- |
+| getImageTransformOperationFactory () | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
 
 ### Result
-[ImageTransformOperationFactory]
+ImageTransformOperationFactory(../../imagetransformoperationfactory)
 
 
 ---

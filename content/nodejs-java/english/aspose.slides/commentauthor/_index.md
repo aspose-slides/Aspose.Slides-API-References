@@ -11,25 +11,20 @@ url: /aspose.slides/commentauthor/
 
  Represents an author of comments.
  
-| [getComments] () | Returns the collection of comments made by this author. Read-only ICommentCollection. |
+| Name | Description |
+| --- | --- |
+| getComments () | Returns the collection of comments made by this author. Read-only ICommentCollection. |
 
 ### Result
-[CommentCollection]
+CommentCollection(../../commentcollection)
 
 
 ---
 
 
-| [getInitials] () | Returns or sets the authors initials. Read/write String. |
-
-### Result
-String
-
-
----
-
-
-| [getName] () | Returns or sets the author's name. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getInitials () | Returns or sets the authors initials. Read/write String. |
 
 ### Result
 String
@@ -38,7 +33,20 @@ String
 ---
 
 
-| [remove] () | Removes the author from the parent collection. |
+| Name | Description |
+| --- | --- |
+| getName () | Returns or sets the author's name. Read/write String. |
+
+### Result
+String
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| remove () | Removes the author from the parent collection. |
 
 ### Error
 
@@ -50,13 +58,17 @@ String
 ---
 
 
-| [setInitials] ([String]) | Returns or sets the authors initials. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setInitials (String) | Returns or sets the authors initials. Read/write String. |
 
 
 ---
 
 
-| [setName] ([String]) | Returns or sets the author's name. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setName (String) | Returns or sets the author's name. Read/write String. |
 
 
 ---

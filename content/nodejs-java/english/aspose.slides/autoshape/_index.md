@@ -11,49 +11,59 @@ url: /aspose.slides/autoshape/
 
   Represents an AutoShape.
  
-| [addTextFrame] ([String]) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
+| Name | Description |
+| --- | --- |
+| addTextFrame (String) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | [String] | Default text for a new TextFrame. |
+| text | String | Default text for a new TextFrame. |
 
 ### Result
-[TextFrame]
+TextFrame(../../textframe)
 
 
 ---
 
 
-| [getAutoShapeLock] () | Returns autoshape's locks. Read-only IAutoShapeLock. |
+| Name | Description |
+| --- | --- |
+| getAutoShapeLock () | Returns autoshape's locks. Read-only IAutoShapeLock. |
 
 ### Result
-[AutoShapeLock]
+AutoShapeLock(../../autoshapelock)
 
 
 ---
 
 
-| [getShapeLock] () | Returns shape's locks. Read-only IAutoShapeLock. |
+| Name | Description |
+| --- | --- |
+| getShapeLock () | Returns shape's locks. Read-only IAutoShapeLock. |
 
 ### Result
-[AutoShapeLock]
+AutoShapeLock(../../autoshapelock)
 
 
 ---
 
 
-| [getTextFrame] () | Returns TextFrame object for the AutoShape. Read-only ITextFrame. |
+| Name | Description |
+| --- | --- |
+| getTextFrame () | Returns TextFrame object for the AutoShape. Read-only ITextFrame. |
 
 ### Result
-[TextFrame]
+TextFrame(../../textframe)
 
 
 ---
 
 
-| [getUseBackgroundFill] () | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getUseBackgroundFill () | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
 
 ### Result
 boolean
@@ -62,7 +72,9 @@ boolean
 ---
 
 
-| [isTextBox] () | Specifies if the shape is a text box. If shape is not specified to be a text box does not mean that it cannot have text attached to it. A text box is merely a specialized shape with specific properties. |
+| Name | Description |
+| --- | --- |
+| isTextBox () | Specifies if the shape is a text box. If shape is not specified to be a text box does not mean that it cannot have text attached to it. A text box is merely a specialized shape with specific properties. |
 
 ### Result
 boolean
@@ -71,7 +83,9 @@ boolean
 ---
 
 
-| [setUseBackgroundFill] ([boolean]) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setUseBackgroundFill (boolean) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
 
 
 ---

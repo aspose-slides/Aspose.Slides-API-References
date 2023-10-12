@@ -12,7 +12,9 @@ url: /aspose.slides/axescompositionnotcombinableexception/
  Exception which thrown when axes composition of the series is not combinable with present axes 
  composition in chart.
  
-| [AxesCompositionNotCombinableException]() | Default function. |
+| Name | Description |
+| --- | --- |
+| AxesCompositionNotCombinableException() | Default function. |
 
 ### Result
 AxesCompositionNotCombinableException
@@ -21,13 +23,15 @@ AxesCompositionNotCombinableException
 ---
 
 
-| [AxesCompositionNotCombinableException]([String]) | Constructor allowing a message to be added to this exception. |
+| Name | Description |
+| --- | --- |
+| AxesCompositionNotCombinableException(String) | Constructor allowing a message to be added to this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | message |
+| message | String | message |
 
 ### Result
 AxesCompositionNotCombinableException
@@ -36,14 +40,16 @@ AxesCompositionNotCombinableException
 ---
 
 
-| [AxesCompositionNotCombinableException]([String], [RuntimeException]) | Constructor for an exception containing a message and an embedded exception. |
+| Name | Description |
+| --- | --- |
+| AxesCompositionNotCombinableException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | message |
-| exception | [RuntimeException] | original exception |
+| message | String | message |
+| exception | RuntimeException | original exception |
 
 ### Result
 AxesCompositionNotCombinableException

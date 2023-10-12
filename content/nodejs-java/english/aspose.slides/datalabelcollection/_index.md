@@ -11,25 +11,20 @@ url: /aspose.slides/datalabelcollection/
 
  Represents a series labels.
  
-| [getChart] () | Returns the parent chart. Read-only IChart. |
+| Name | Description |
+| --- | --- |
+| getChart () | Returns the parent chart. Read-only IChart. |
 
 ### Result
-[Chart]
+Chart(../../chart)
 
 
 ---
 
 
-| [getCount] () | Gets the number of all data labels in the collection. Read-only int. |
-
-### Result
-int
-
-
----
-
-
-| [getCountOfVisibleDataLabels] () | Gets the number of visible data labels in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| getCount () | Gets the number of all data labels in the collection. Read-only int. |
 
 ### Result
 int
@@ -38,16 +33,31 @@ int
 ---
 
 
-| [getDefaultDataLabelFormat] () | Gets the default data label format. Read-only IDataLabelFormat. |
+| Name | Description |
+| --- | --- |
+| getCountOfVisibleDataLabels () | Gets the number of visible data labels in the collection. Read-only int. |
 
 ### Result
-[DataLabelFormat]
+int
 
 
 ---
 
 
-| [getLeaderLinesColor] () | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
+| Name | Description |
+| --- | --- |
+| getDefaultDataLabelFormat () | Gets the default data label format. Read-only IDataLabelFormat. |
+
+### Result
+DataLabelFormat(../../datalabelformat)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getLeaderLinesColor () | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
 
 ### Result
 Color
@@ -56,64 +66,78 @@ Color
 ---
 
 
-| [getLeaderLinesFormat] () | Represents data labels leader lines format. Read-only IChartLinesFormat. |
+| Name | Description |
+| --- | --- |
+| getLeaderLinesFormat () | Represents data labels leader lines format. Read-only IChartLinesFormat. |
 
 ### Result
-[ChartLinesFormat]
+ChartLinesFormat(../../chartlinesformat)
 
 
 ---
 
 
-| [getParentSeries] () | Gets the parent series. Read-only IChartSeries. |
+| Name | Description |
+| --- | --- |
+| getParentSeries () | Gets the parent series. Read-only IChartSeries. |
 
 ### Result
-[ChartSeries]
+ChartSeries(../../chartseries)
 
 
 ---
 
 
-| [getPresentation] () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
 ### Result
-[Presentation]
+Presentation(../../presentation)
 
 
 ---
 
 
-| [getSlide] () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
 ### Result
-[MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
+MasterNotesSlide(../../masternotesslide), MasterHandoutSlide(../../masterhandoutslide), BaseSlide(../../baseslide), NotesSlide(../../notesslide), LayoutSlide(../../layoutslide), Slide(../../slide), MasterSlide(../../masterslide)
 
 
 ---
 
 
-| [get_Item] ([int]) | Gets the data label for the data point with the specified index. Alternate way to access data label is: - series.getDataPoints().get_Item(i).getLabel() - manage label properties. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Gets the data label for the data point with the specified index. Alternate way to access data label is: - series.getDataPoints().get_Item(i).getLabel() - manage label properties. |
 
 ### Result
-[DataLabel]
+DataLabel(../../datalabel)
 
 
 ---
 
 
-| [hide] () | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this. If data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
+| Name | Description |
+| --- | --- |
+| hide () | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this. If data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
 
 
 ---
 
 
-| [indexOf] ([DataLabel]) | Returns an index of the specified DataLabel in the collection. |
+| Name | Description |
+| --- | --- |
+| indexOf (DataLabel(../datalabel)) | Returns an index of the specified DataLabel in the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [DataLabel] | DataLabel to find. |
+| value | DataLabel(../../datalabel) | DataLabel to find. |
 
 ### Result
 int
@@ -122,7 +146,9 @@ int
 ---
 
 
-| [isVisible] () | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only boolean. If data label is visible by default you can make it hidden by default with Hide() function. But if data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
+| Name | Description |
+| --- | --- |
+| isVisible () | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only boolean. If data label is visible by default you can make it hidden by default with Hide() function. But if data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
 
 ### Result
 boolean
@@ -131,7 +157,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -140,7 +168,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -149,7 +179,9 @@ boolean
 ---
 
 
-| [setLeaderLinesColor] ([Color]) | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
+| Name | Description |
+| --- | --- |
+| setLeaderLinesColor (Color) | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
 
 
 ---

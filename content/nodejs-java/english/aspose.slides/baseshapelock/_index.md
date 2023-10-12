@@ -11,7 +11,9 @@ url: /aspose.slides/baseshapelock/
 
  Represents a base class for locks (disabled operation).
  
-| [getNoLocks] () | Return true if all lock-flags are disabled. Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| getNoLocks () | Return true if all lock-flags are disabled. Read-only boolean. |
 
 ### Result
 boolean

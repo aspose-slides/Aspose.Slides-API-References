@@ -13,7 +13,9 @@ url: /aspose.slides/mathematicaltextfactory/
  
  For COM comparibility
  
-| [MathematicalTextFactory]() |  |
+| Name | Description |
+| --- | --- |
+| MathematicalTextFactory() |  |
 
 ### Result
 MathematicalTextFactory
@@ -22,56 +24,64 @@ MathematicalTextFactory
 ---
 
 
-| [createMathematicalText] () | Create empty mathematical text element |
+| Name | Description |
+| --- | --- |
+| createMathematicalText () | Create empty mathematical text element |
 
 ### Result
-[MathematicalText]
+MathematicalText(../../mathematicaltext)
 
 
 ---
 
 
-| [createMathematicalText] ([char]) | Create mathematical text element with the specified value |
+| Name | Description |
+| --- | --- |
+| createMathematicalText (char) | Create mathematical text element with the specified value |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathSymbol | [char] | single symbol to use as text value |
+| mathSymbol | char | single symbol to use as text value |
 
 ### Result
-[MathematicalText]
+MathematicalText(../../mathematicaltext)
 
 
 ---
 
 
-| [createMathematicalText] ([String]) | Create empty mathematical text element with the specified value |
+| Name | Description |
+| --- | --- |
+| createMathematicalText (String) | Create empty mathematical text element with the specified value |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathText | [String] | text value |
+| mathText | String | text value |
 
 ### Result
-[MathematicalText]
+MathematicalText(../../mathematicaltext)
 
 
 ---
 
 
-| [createMathematicalText] ([String], [PortionFormat]) | Create empty mathematical text element with the specified value and formatting properties |
+| Name | Description |
+| --- | --- |
+| createMathematicalText (String, PortionFormat(../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathText | [String] | text value |
-| portionFormat | [PortionFormat] | text format settings |
+| mathText | String | text value |
+| portionFormat | PortionFormat(../../portionformat) | text format settings |
 
 ### Result
-[MathematicalText]
+MathematicalText(../../mathematicaltext)
 
 
 ---

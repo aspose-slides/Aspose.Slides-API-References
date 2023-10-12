@@ -11,7 +11,9 @@ url: /aspose.slides/odpreadexception/
 
  Represents an exception which thrown on presentation reading errors.
  
-| [OdpReadException]() | Default function |
+| Name | Description |
+| --- | --- |
+| OdpReadException() | Default function |
 
 ### Result
 OdpReadException
@@ -20,13 +22,15 @@ OdpReadException
 ---
 
 
-| [OdpReadException]([String]) | Constructor allowing a message to be added to this exception. |
+| Name | Description |
+| --- | --- |
+| OdpReadException(String) | Constructor allowing a message to be added to this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | message |
+| message | String | message |
 
 ### Result
 OdpReadException
@@ -35,14 +39,16 @@ OdpReadException
 ---
 
 
-| [OdpReadException]([String], [RuntimeException]) | Constructor for an exception containing a message and an embedded exception. |
+| Name | Description |
+| --- | --- |
+| OdpReadException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | message |
-| exception | [RuntimeException] | original exception |
+| message | String | message |
+| exception | RuntimeException | original exception |
 
 ### Result
 OdpReadException

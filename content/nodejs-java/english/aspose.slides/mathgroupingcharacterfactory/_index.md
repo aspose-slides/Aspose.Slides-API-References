@@ -13,7 +13,9 @@ url: /aspose.slides/mathgroupingcharacterfactory/
  
  For COM compatibility
  
-| [MathGroupingCharacterFactory]() |  |
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacterFactory() |  |
 
 ### Result
 MathGroupingCharacterFactory
@@ -22,628 +24,704 @@ MathGroupingCharacterFactory
 ---
 
 
-| [createMathGroupingCharacter] ([MathLimit], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathLimit(../mathlimit), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathLimit(../mathlimit) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathBorderBox], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathBorderBox(../mathborderbox), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathBorderBox(../mathborderbox) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathFraction], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathFraction(../mathfraction), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathFraction(../mathfraction) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathDelimiter], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathDelimiter(../mathdelimiter), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathDelimiter(../mathdelimiter) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathSuperscriptElement], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathSuperscriptElement(../mathsuperscriptelement), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathSuperscriptElement(../mathsuperscriptelement) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathLeftSubSuperscriptElement], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathRightSubSuperscriptElement], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathBox], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathBox(../mathbox), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathBox(../mathbox) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathMatrix], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathMatrix(../mathmatrix), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathMatrix(../mathmatrix) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathArray], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathGroupingCharacter(../mathgroupingcharacter), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathGroupingCharacter(../mathgroupingcharacter) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathBlock], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathArray(../matharray), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBlock] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathArray(../matharray) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathSubscriptElement], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathBlock(../mathblock), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathBlock(../mathblock) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathFunction], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathSubscriptElement(../mathsubscriptelement), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathSubscriptElement(../mathsubscriptelement) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathNaryOperator], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathFunction(../mathfunction), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathFunction(../mathfunction) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathGroupingCharacter], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathNaryOperator(../mathnaryoperator), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathNaryOperator(../mathnaryoperator) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathematicalText], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathematicalText(../mathematicaltext), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathematicalText(../mathematicaltext) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathAccent], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathAccent(../mathaccent), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathAccent(../mathaccent) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathRadical], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathRadical(../mathradical), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathRadical(../mathradical) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathBar], [char], [int], [int]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathBar(../mathbar), char, int, int) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar] | math element to apply grouping character |
-| character | [char] | grouping character |
-| position | [int] | position of grouping character |
-| verticalJustification | [int] | vertical justification |
+| element | MathBar(../mathbar) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathLimit]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathLimit(../mathlimit)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit] | math element to apply grouping character |
+| element | MathLimit(../../mathlimit) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathBorderBox]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathBorderBox(../mathborderbox)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox] | math element to apply grouping character |
+| element | MathBorderBox(../../mathborderbox) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathFraction]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathFraction(../mathfraction)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction] | math element to apply grouping character |
+| element | MathFraction(../../mathfraction) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathDelimiter]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathDelimiter(../mathdelimiter)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter] | math element to apply grouping character |
+| element | MathDelimiter(../../mathdelimiter) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathSuperscriptElement]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathSuperscriptElement(../mathsuperscriptelement)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement] | math element to apply grouping character |
+| element | MathSuperscriptElement(../../mathsuperscriptelement) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathLeftSubSuperscriptElement]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement] | math element to apply grouping character |
+| element | MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathRightSubSuperscriptElement]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement] | math element to apply grouping character |
+| element | MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathBox]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathBox(../mathbox)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox] | math element to apply grouping character |
+| element | MathBox(../../mathbox) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathMatrix]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathMatrix(../mathmatrix)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix] | math element to apply grouping character |
+| element | MathMatrix(../../mathmatrix) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathArray]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathGroupingCharacter(../mathgroupingcharacter)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray] | math element to apply grouping character |
+| element | MathGroupingCharacter(../../mathgroupingcharacter) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathBlock]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathArray(../matharray)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBlock] | math element to apply grouping character |
+| element | MathArray(../../matharray) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathSubscriptElement]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathBlock(../mathblock)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement] | math element to apply grouping character |
+| element | MathBlock(../../mathblock) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathFunction]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathSubscriptElement(../mathsubscriptelement)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction] | math element to apply grouping character |
+| element | MathSubscriptElement(../../mathsubscriptelement) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathNaryOperator]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathFunction(../mathfunction)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator] | math element to apply grouping character |
+| element | MathFunction(../../mathfunction) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathGroupingCharacter]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathNaryOperator(../mathnaryoperator)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter] | math element to apply grouping character |
+| element | MathNaryOperator(../../mathnaryoperator) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathematicalText]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathematicalText(../mathematicaltext)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText] | math element to apply grouping character |
+| element | MathematicalText(../../mathematicaltext) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathAccent]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathAccent(../mathaccent)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent] | math element to apply grouping character |
+| element | MathAccent(../../mathaccent) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathRadical]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathRadical(../mathradical)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical] | math element to apply grouping character |
+| element | MathRadical(../../mathradical) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---
 
 
-| [createMathGroupingCharacter] ([MathBar]) | Creates a math grouping character |
+| Name | Description |
+| --- | --- |
+| createMathGroupingCharacter (MathBar(../mathbar)) | Creates a math grouping character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar] | math element to apply grouping character |
+| element | MathBar(../../mathbar) | math element to apply grouping character |
 
 ### Result
-[MathGroupingCharacter]
+MathGroupingCharacter(../../mathgroupingcharacter)
 
 
 ---

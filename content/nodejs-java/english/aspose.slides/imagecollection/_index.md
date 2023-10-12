@@ -11,96 +11,108 @@ url: /aspose.slides/imagecollection/
 
  Represents collection of PPImage.
  
-| [addImage] ([PPImage]) | Adds a copy of an image from an another presentation. |
+| Name | Description |
+| --- | --- |
+| addImage (PPImage(../ppimage)) | Adds a copy of an image from an another presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| imageSource | [PPImage] | Source image. |
+| imageSource | PPImage(../../ppimage) | Source image. |
 
 ### Result
-[PPImage]
+PPImage(../../ppimage)
 
 
 ---
 
 
-| [addImage] ([BufferedImage]) | Add an image to a presentation. |
+| Name | Description |
+| --- | --- |
+| addImage (BufferedImage) | Add an image to a presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| image | [BufferedImage] | Image to add. This function converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
+| image | BufferedImage | Image to add. This function converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
 
 ### Result
-[PPImage]
+PPImage(../../ppimage)
 
 
 ---
 
 
-| [addImageFromStream ] (ImageCollection, [ReadStream], Function) | Add an image to a presentation from stream. |
+| Name | Description |
+| --- | --- |
+| addImageFromStream  (ImageCollection, ReadStream, Function) | Add an image to a presentation from stream. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | imagecollection | ImageCollection  | link to self |
-| stream | [ReadStream] | Stream to add image from. This function can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
+| stream | ReadStream | Stream to add image from. This function can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
 ### Result
-[PPImage]
+PPImage(../../ppimage)
 
 
 ---
 
 
-| [addImageFromStream ] (ImageCollection, [ReadStream], [int], Function) | Creates and adds an image to a presentation from stream. |
+| Name | Description |
+| --- | --- |
+| addImageFromStream  (ImageCollection, ReadStream, int, Function) | Creates and adds an image to a presentation from stream. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | imagecollection | ImageCollection  | link to self |
-| stream | [ReadStream] | Stream to add image file from. |
-| loadingStreamBehavior | [int] | The behavior which will be applied to the stream. |
+| stream | ReadStream | Stream to add image file from. |
+| loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
 ### Result
-[PPImage]
+PPImage(../../ppimage)
 
 
 ---
 
 
-| [addImage] ([byte[]]) | Adds an image to a presentation from specified buffer. |
+| Name | Description |
+| --- | --- |
+| addImage (byte[]) | Adds an image to a presentation from specified buffer. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| buffer | [byte[]] | Buffer. |
+| buffer | byte[] | Buffer. |
 
 ### Result
-[PPImage]
+PPImage(../../ppimage)
 
 
 ---
 
 
-| [addImage] ([SvgImage]) | Add an image to a presentation from Svg object. |
+| Name | Description |
+| --- | --- |
+| addImage (SvgImage(../svgimage)) | Add an image to a presentation from Svg object. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| svgImage | [SvgImage] | Svg image object ISvgImage |
+| svgImage | SvgImage(../../svgimage) | Svg image object ISvgImage |
 
 ### Result
-[PPImage]
+PPImage(../../ppimage)
 
 ### Error
 
@@ -112,7 +124,9 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -121,16 +135,20 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Gets the element at the specified index. Read-only IPPImage. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Gets the element at the specified index. Read-only IPPImage. |
 
 ### Result
-[PPImage]
+PPImage(../../ppimage)
 
 
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -139,7 +157,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -148,7 +168,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -157,7 +179,9 @@ boolean
 ---
 
 
-| [size] () | Returns a number of images in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Returns a number of images in the collection. Read-only int. |
 
 ### Result
 int

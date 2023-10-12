@@ -12,7 +12,9 @@ url: /aspose.slides/cellcircularreferenceexception/
  The exception that is thrown when one or more circular references are detected where a formula refers to its
  own cell either directly or indirectly.
  
-| [CellCircularReferenceException]() | Initializes a new instance of the CellCircularReferenceException class. |
+| Name | Description |
+| --- | --- |
+| CellCircularReferenceException() | Initializes a new instance of the CellCircularReferenceException class. |
 
 ### Result
 CellCircularReferenceException
@@ -21,13 +23,15 @@ CellCircularReferenceException
 ---
 
 
-| [CellCircularReferenceException]([String]) | Initializes a new instance of the CellCircularReferenceException class with a specified error message. |
+| Name | Description |
+| --- | --- |
+| CellCircularReferenceException(String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | A string that describes the error. |
+| message | String | A string that describes the error. |
 
 ### Result
 CellCircularReferenceException
@@ -36,14 +40,16 @@ CellCircularReferenceException
 ---
 
 
-| [CellCircularReferenceException]([String], [RuntimeException]) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| Name | Description |
+| --- | --- |
+| CellCircularReferenceException(String, RuntimeException) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | A string that describes the error. |
-| innerException | [RuntimeException] | The exception that is the cause of the current exception. |
+| message | String | A string that describes the error. |
+| innerException | RuntimeException | The exception that is the cause of the current exception. |
 
 ### Result
 CellCircularReferenceException
@@ -52,14 +58,16 @@ CellCircularReferenceException
 ---
 
 
-| [CellCircularReferenceException]([String], [String]) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and circular cell reference. |
+| Name | Description |
+| --- | --- |
+| CellCircularReferenceException(String, String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and circular cell reference. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | A string that describes the error. |
-| reference | [String] | A circular cell reference. |
+| message | String | A string that describes the error. |
+| reference | String | A circular cell reference. |
 
 ### Result
 CellCircularReferenceException
@@ -68,7 +76,9 @@ CellCircularReferenceException
 ---
 
 
-| [getReference] () | Gets a circular cell reference. |
+| Name | Description |
+| --- | --- |
+| getReference () | Gets a circular cell reference. |
 
 ### Result
 String

@@ -11,7 +11,9 @@ url: /aspose.slides/browsedatkiosk/
 
  Browsed at a kiosk (full screen)
  
-| [BrowsedAtKiosk]() | Initializes a new instance of the BrowsedAtKiosk class. |
+| Name | Description |
+| --- | --- |
+| BrowsedAtKiosk() | Initializes a new instance of the BrowsedAtKiosk class. |
 
 ### Result
 BrowsedAtKiosk

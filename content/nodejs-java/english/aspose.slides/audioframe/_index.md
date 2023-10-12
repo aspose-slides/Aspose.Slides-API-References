@@ -11,7 +11,9 @@ url: /aspose.slides/audioframe/
 
   Represents an audio clip on a slide.
  
-| [getAudioCdEndTrack] () | Returns or sets a last track index Read/write int. |
+| Name | Description |
+| --- | --- |
+| getAudioCdEndTrack () | Returns or sets a last track index Read/write int. |
 
 ### Result
 int
@@ -20,7 +22,9 @@ int
 ---
 
 
-| [getAudioCdEndTrackTime] () | Returns or sets a last track time. Read/write int. |
+| Name | Description |
+| --- | --- |
+| getAudioCdEndTrackTime () | Returns or sets a last track time. Read/write int. |
 
 ### Result
 int
@@ -29,7 +33,9 @@ int
 ---
 
 
-| [getAudioCdStartTrack] () | Returns or sets a start track index. Read/write int. |
+| Name | Description |
+| --- | --- |
+| getAudioCdStartTrack () | Returns or sets a start track index. Read/write int. |
 
 ### Result
 int
@@ -38,7 +44,9 @@ int
 ---
 
 
-| [getAudioCdStartTrackTime] () | Returns or sets a start track time. Read/write int. |
+| Name | Description |
+| --- | --- |
+| getAudioCdStartTrackTime () | Returns or sets a start track time. Read/write int. |
 
 ### Result
 int
@@ -47,7 +55,9 @@ int
 ---
 
 
-| [getEmbedded] () | Determines whether a sound is embedded to a presentation. Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| getEmbedded () | Determines whether a sound is embedded to a presentation. Read-only boolean. |
 
 ### Result
 boolean
@@ -56,16 +66,20 @@ boolean
 ---
 
 
-| [getEmbeddedAudio] () | Returns or sets embedded audio object. Read/write IAudio. |
+| Name | Description |
+| --- | --- |
+| getEmbeddedAudio () | Returns or sets embedded audio object. Read/write IAudio. |
 
 ### Result
-[Audio]
+Audio(../../audio)
 
 
 ---
 
 
-| [getHideAtShowing] () | Determines whether an AudioFrame is hidden. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getHideAtShowing () | Determines whether an AudioFrame is hidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -74,7 +88,9 @@ boolean
 ---
 
 
-| [getLinkPathLong] () | Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getLinkPathLong () | Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String. |
 
 ### Result
 String
@@ -83,7 +99,9 @@ String
 ---
 
 
-| [getPlayAcrossSlides] () | Determines whether audio is playing across the slides. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getPlayAcrossSlides () | Determines whether audio is playing across the slides. Read/write boolean. |
 
 ### Result
 boolean
@@ -92,7 +110,9 @@ boolean
 ---
 
 
-| [getPlayLoopMode] () | Determines whether an audio is looped. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getPlayLoopMode () | Determines whether an audio is looped. Read/write boolean. |
 
 ### Result
 boolean
@@ -101,7 +121,9 @@ boolean
 ---
 
 
-| [getPlayMode] () | Returns or sets the audio play mode. Read/write AudioPlayModePreset. |
+| Name | Description |
+| --- | --- |
+| getPlayMode () | Returns or sets the audio play mode. Read/write AudioPlayModePreset. |
 
 ### Result
 int
@@ -110,7 +132,9 @@ int
 ---
 
 
-| [getRewindAudio] () | Determines whether audio is automatically rewinded to start after playing. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getRewindAudio () | Determines whether audio is automatically rewinded to start after playing. Read/write boolean. |
 
 ### Result
 boolean
@@ -119,7 +143,9 @@ boolean
 ---
 
 
-| [getVolume] () | Returns or sets the audio volume. Read/write AudioVolumeMode. |
+| Name | Description |
+| --- | --- |
+| getVolume () | Returns or sets the audio volume. Read/write AudioVolumeMode. |
 
 ### Result
 int
@@ -128,73 +154,97 @@ int
 ---
 
 
-| [setAudioCdEndTrack] ([int]) | Returns or sets a last track index Read/write int. |
+| Name | Description |
+| --- | --- |
+| setAudioCdEndTrack (int) | Returns or sets a last track index Read/write int. |
 
 
 ---
 
 
-| [setAudioCdEndTrackTime] ([int]) | Returns or sets a last track time. Read/write int. |
+| Name | Description |
+| --- | --- |
+| setAudioCdEndTrackTime (int) | Returns or sets a last track time. Read/write int. |
 
 
 ---
 
 
-| [setAudioCdStartTrack] ([int]) | Returns or sets a start track index. Read/write int. |
+| Name | Description |
+| --- | --- |
+| setAudioCdStartTrack (int) | Returns or sets a start track index. Read/write int. |
 
 
 ---
 
 
-| [setAudioCdStartTrackTime] ([int]) | Returns or sets a start track time. Read/write int. |
+| Name | Description |
+| --- | --- |
+| setAudioCdStartTrackTime (int) | Returns or sets a start track time. Read/write int. |
 
 
 ---
 
 
-| [setEmbeddedAudio] ([Audio]) | Returns or sets embedded audio object. Read/write IAudio. |
+| Name | Description |
+| --- | --- |
+| setEmbeddedAudio (Audio(../audio)) | Returns or sets embedded audio object. Read/write IAudio. |
 
 
 ---
 
 
-| [setHideAtShowing] ([boolean]) | Determines whether an AudioFrame is hidden. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setHideAtShowing (boolean) | Determines whether an AudioFrame is hidden. Read/write boolean. |
 
 
 ---
 
 
-| [setLinkPathLong] ([String]) | Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setLinkPathLong (String) | Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String. |
 
 
 ---
 
 
-| [setPlayAcrossSlides] ([boolean]) | Determines whether audio is playing across the slides. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setPlayAcrossSlides (boolean) | Determines whether audio is playing across the slides. Read/write boolean. |
 
 
 ---
 
 
-| [setPlayLoopMode] ([boolean]) | Determines whether an audio is looped. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setPlayLoopMode (boolean) | Determines whether an audio is looped. Read/write boolean. |
 
 
 ---
 
 
-| [setPlayMode] ([int]) | Returns or sets the audio play mode. Read/write AudioPlayModePreset. |
+| Name | Description |
+| --- | --- |
+| setPlayMode (int) | Returns or sets the audio play mode. Read/write AudioPlayModePreset. |
 
 
 ---
 
 
-| [setRewindAudio] ([boolean]) | Determines whether audio is automatically rewinded to start after playing. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setRewindAudio (boolean) | Determines whether audio is automatically rewinded to start after playing. Read/write boolean. |
 
 
 ---
 
 
-| [setVolume] ([int]) | Returns or sets the audio volume. Read/write AudioVolumeMode. |
+| Name | Description |
+| --- | --- |
+| setVolume (int) | Returns or sets the audio volume. Read/write AudioVolumeMode. |
 
 
 ---

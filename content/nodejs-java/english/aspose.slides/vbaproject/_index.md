@@ -11,7 +11,9 @@ url: /aspose.slides/vbaproject/
 
  Represents VBA project with presentation macros.
  
-| [VbaProject]() | This function creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
+| Name | Description |
+| --- | --- |
+| VbaProject() | This function creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
 
 ### Result
 VbaProject
@@ -20,7 +22,9 @@ VbaProject
 ---
 
 
-| [VbaProject]([byte[]]) | This function loads VBA project from binary representation of OLE container. |
+| Name | Description |
+| --- | --- |
+| VbaProject(byte[]) | This function loads VBA project from binary representation of OLE container. |
 
 ### Result
 VbaProject
@@ -29,16 +33,20 @@ VbaProject
 ---
 
 
-| [getModules] () | Returns the list of all modules that are contained in the VBA project. Read-only IVbaModuleCollection. |
+| Name | Description |
+| --- | --- |
+| getModules () | Returns the list of all modules that are contained in the VBA project. Read-only IVbaModuleCollection. |
 
 ### Result
-[VbaModuleCollection]
+VbaModuleCollection(../../vbamodulecollection)
 
 
 ---
 
 
-| [getName] () | Returns the name of the VBA project. Read-only String. |
+| Name | Description |
+| --- | --- |
+| getName () | Returns the name of the VBA project. Read-only String. |
 
 ### Result
 String
@@ -47,16 +55,20 @@ String
 ---
 
 
-| [getReferences] () | Returns the list of all references that are contained in the VBA project. Read-only IVbaReferenceCollection. |
+| Name | Description |
+| --- | --- |
+| getReferences () | Returns the list of all references that are contained in the VBA project. Read-only IVbaReferenceCollection. |
 
 ### Result
-[VbaReferenceCollection]
+VbaReferenceCollection(../../vbareferencecollection)
 
 
 ---
 
 
-| [toBinary] () | Returns the binary representation of the VBA project as OLE container |
+| Name | Description |
+| --- | --- |
+| toBinary () | Returns the binary representation of the VBA project as OLE container |
 
 ### Result
 byte

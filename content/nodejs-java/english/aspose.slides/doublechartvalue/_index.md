@@ -13,16 +13,20 @@ url: /aspose.slides/doublechartvalue/
  1) in cell/cells of workbook related to chart;
  2) as literal value.
  
-| [getAsCell] () | Returns or sets chart data cell. Read/write IChartDataCell. |
+| Name | Description |
+| --- | --- |
+| getAsCell () | Returns or sets chart data cell. Read/write IChartDataCell. |
 
 ### Result
-[ChartDataCell]
+ChartDataCell(../../chartdatacell)
 
 
 ---
 
 
-| [getAsLiteralDouble] () | Returns or sets value as literal double. Read/write double. |
+| Name | Description |
+| --- | --- |
+| getAsLiteralDouble () | Returns or sets value as literal double. Read/write double. |
 
 ### Result
 double
@@ -31,7 +35,9 @@ double
 ---
 
 
-| [getData] () | Returns or sets Data object. Read/write Object. |
+| Name | Description |
+| --- | --- |
+| getData () | Returns or sets Data object. Read/write Object. |
 
 ### Result
 Object
@@ -40,25 +46,33 @@ Object
 ---
 
 
-| [setAsCell] ([ChartDataCell]) | Returns or sets chart data cell. Read/write IChartDataCell. |
+| Name | Description |
+| --- | --- |
+| setAsCell (ChartDataCell(../chartdatacell)) | Returns or sets chart data cell. Read/write IChartDataCell. |
 
 
 ---
 
 
-| [setAsLiteralDouble] ([double]) | Returns or sets value as literal double. Read/write double. |
+| Name | Description |
+| --- | --- |
+| setAsLiteralDouble (double) | Returns or sets value as literal double. Read/write double. |
 
 
 ---
 
 
-| [setData] ([Object]) | Returns or sets Data object. Read/write Object. |
+| Name | Description |
+| --- | --- |
+| setData (Object) | Returns or sets Data object. Read/write Object. |
 
 
 ---
 
 
-| [toDouble] () | Converts to double. |
+| Name | Description |
+| --- | --- |
+| toDouble () | Converts to double. |
 
 ### Result
 double

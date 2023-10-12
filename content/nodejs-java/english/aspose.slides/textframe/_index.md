@@ -11,43 +11,53 @@ url: /aspose.slides/textframe/
 
   Represents a TextFrame.
  
-| [getHyperlinkQueries] () | Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
+| Name | Description |
+| --- | --- |
+| getHyperlinkQueries () | Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
 
 ### Result
-[HyperlinkQueries]
+HyperlinkQueries(../../hyperlinkqueries)
 
 
 ---
 
 
-| [getParagraphs] () | Returns the list of all paragraphs in a frame. Read-only IParagraphCollection. |
+| Name | Description |
+| --- | --- |
+| getParagraphs () | Returns the list of all paragraphs in a frame. Read-only IParagraphCollection. |
 
 ### Result
-[ParagraphCollection]
+ParagraphCollection(../../paragraphcollection)
 
 
 ---
 
 
-| [getPresentation] () | Returns the parent presentation of a TextFrame. Read-only IPresentation. |
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a TextFrame. Read-only IPresentation. |
 
 ### Result
-[Presentation]
+Presentation(../../presentation)
 
 
 ---
 
 
-| [getSlide] () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
 ### Result
-[MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
+MasterNotesSlide(../../masternotesslide), MasterHandoutSlide(../../masterhandoutslide), BaseSlide(../../baseslide), NotesSlide(../../notesslide), LayoutSlide(../../layoutslide), Slide(../../slide), MasterSlide(../../masterslide)
 
 
 ---
 
 
-| [getText] () | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
+| Name | Description |
+| --- | --- |
+| getText () | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
 
 ### Result
 String
@@ -56,63 +66,75 @@ String
 ---
 
 
-| [getTextFrameFormat] () | Returns the formatting object for this TextFrame object. Read-only ITextFrameFormat. |
+| Name | Description |
+| --- | --- |
+| getTextFrameFormat () | Returns the formatting object for this TextFrame object. Read-only ITextFrameFormat. |
 
 ### Result
-[TextFrameFormat]
+TextFrameFormat(../../textframeformat)
 
 
 ---
 
 
-| [highlightRegex] ([String], [Color], [TextHighlightingOptions]) | Highlight all matches of regular expression in text frame text using specified color. |
+| Name | Description |
+| --- | --- |
+| highlightRegex (String, Color, TextHighlightingOptions(../texthighlightingoptions)) | Highlight all matches of regular expression in text frame text using specified color. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| regex | [String] | Text of regular expression to get text to highlight. |
-| highlightColor | [Color] | Highlighting color. |
-| options | [TextHighlightingOptions] | Highlighting options. |
+| regex | String | Text of regular expression to get text to highlight. |
+| highlightColor | Color | Highlighting color. |
+| options | TextHighlightingOptions(../../texthighlightingoptions) | Highlighting options. |
 
 
 ---
 
 
-| [highlightText] ([String], [Color]) | Highlight all matches of sample in text frame text using specified color. |
+| Name | Description |
+| --- | --- |
+| highlightText (String, Color) | Highlight all matches of sample in text frame text using specified color. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | [String] | Text sample to highlight. |
-| highlightColor | [Color] | Highlighting color. |
+| text | String | Text sample to highlight. |
+| highlightColor | Color | Highlighting color. |
 
 
 ---
 
 
-| [highlightText] ([String], [Color], [TextHighlightingOptions]) | Highlight all matches of sample in text frame text using specified color. |
+| Name | Description |
+| --- | --- |
+| highlightText (String, Color, TextHighlightingOptions(../texthighlightingoptions)) | Highlight all matches of sample in text frame text using specified color. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | [String] | Text sample to highlight. |
-| highlightColor | [Color] | Highlighting color. |
-| options | [TextHighlightingOptions] | Highlighting options. |
+| text | String | Text sample to highlight. |
+| highlightColor | Color | Highlighting color. |
+| options | TextHighlightingOptions(../../texthighlightingoptions) | Highlighting options. |
 
 
 ---
 
 
-| [joinPortionsWithSameFormatting] () | Joins runs with same formatting in all paragraphs. |
+| Name | Description |
+| --- | --- |
+| joinPortionsWithSameFormatting () | Joins runs with same formatting in all paragraphs. |
 
 
 ---
 
 
-| [setText] ([String]) | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
+| Name | Description |
+| --- | --- |
+| setText (String) | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
 
 
 ---

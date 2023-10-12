@@ -11,7 +11,9 @@ url: /aspose.slides/pptxoptions/
 
  Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
  
-| [PptxOptions]() | Creates new instance of PptxOptions |
+| Name | Description |
+| --- | --- |
+| PptxOptions() | Creates new instance of PptxOptions |
 
 ### Result
 PptxOptions
@@ -20,7 +22,9 @@ PptxOptions
 ---
 
 
-| [getConformance] () | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
+| Name | Description |
+| --- | --- |
+| getConformance () | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
 
 ### Result
 int
@@ -29,7 +33,9 @@ int
 ---
 
 
-| [setConformance] ([int]) | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
+| Name | Description |
+| --- | --- |
+| setConformance (int) | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
 
 
 ---

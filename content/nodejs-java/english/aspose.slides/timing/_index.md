@@ -11,7 +11,9 @@ url: /aspose.slides/timing/
 
  Represents animation timing.
  
-| [getAccelerate] () | Describes the percentage of duration accelerate behavior effect. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getAccelerate () | Describes the percentage of duration accelerate behavior effect. Read/write float. |
 
 ### Result
 float
@@ -20,7 +22,9 @@ float
 ---
 
 
-| [getAutoReverse] () | Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getAutoReverse () | Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,7 +33,9 @@ boolean
 ---
 
 
-| [getDecelerate] () | Describes the percentage of duration decelerate behavior effect. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getDecelerate () | Describes the percentage of duration decelerate behavior effect. Read/write float. |
 
 ### Result
 float
@@ -38,7 +44,9 @@ float
 ---
 
 
-| [getDuration] () | Describes the duration of animation effect. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getDuration () | Describes the duration of animation effect. Read/write float. |
 
 ### Result
 float
@@ -47,7 +55,9 @@ float
 ---
 
 
-| [getRepeatCount] () | Describes the number of times the effect should repeat. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getRepeatCount () | Describes the number of times the effect should repeat. Read/write float. |
 
 ### Result
 float
@@ -56,7 +66,9 @@ float
 ---
 
 
-| [getRepeatDuration] () | Describes the number of times the effect should repeat. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getRepeatDuration () | Describes the number of times the effect should repeat. Read/write float. |
 
 ### Result
 float
@@ -65,7 +77,9 @@ float
 ---
 
 
-| [getRepeatUntilEndSlide] () | This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getRepeatUntilEndSlide () | This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean. |
 
 ### Result
 boolean
@@ -74,7 +88,9 @@ boolean
 ---
 
 
-| [getRepeatUntilNextClick] () | This attribute specifies if the effect will repeat until the next click. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getRepeatUntilNextClick () | This attribute specifies if the effect will repeat until the next click. Read/write boolean. |
 
 ### Result
 boolean
@@ -83,7 +99,9 @@ boolean
 ---
 
 
-| [getRestart] () | Specifies if a effect is to restart after complete. Read/write EffectRestartType. |
+| Name | Description |
+| --- | --- |
+| getRestart () | Specifies if a effect is to restart after complete. Read/write EffectRestartType. |
 
 ### Result
 int
@@ -92,7 +110,9 @@ int
 ---
 
 
-| [getRewind] () | This attribute specifies if the effect will rewind when done playing. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getRewind () | This attribute specifies if the effect will rewind when done playing. Read/write boolean. |
 
 ### Result
 boolean
@@ -101,7 +121,9 @@ boolean
 ---
 
 
-| [getSpeed] () | Specifies the percentage by which to speed up (or slow down) the timing. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getSpeed () | Specifies the percentage by which to speed up (or slow down) the timing. Read/write float. |
 
 ### Result
 float
@@ -110,7 +132,9 @@ float
 ---
 
 
-| [getTriggerDelayTime] () | Describes delay time after trigger. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getTriggerDelayTime () | Describes delay time after trigger. Read/write float. |
 
 ### Result
 float
@@ -119,7 +143,9 @@ float
 ---
 
 
-| [getTriggerType] () | Describes trigger type. Read/write EffectTriggerType. |
+| Name | Description |
+| --- | --- |
+| getTriggerType () | Describes trigger type. Read/write EffectTriggerType. |
 
 ### Result
 int
@@ -128,79 +154,105 @@ int
 ---
 
 
-| [setAccelerate] ([float]) | Describes the percentage of duration accelerate behavior effect. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setAccelerate (float) | Describes the percentage of duration accelerate behavior effect. Read/write float. |
 
 
 ---
 
 
-| [setAutoReverse] ([boolean]) | Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setAutoReverse (boolean) | Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write boolean. |
 
 
 ---
 
 
-| [setDecelerate] ([float]) | Describes the percentage of duration decelerate behavior effect. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setDecelerate (float) | Describes the percentage of duration decelerate behavior effect. Read/write float. |
 
 
 ---
 
 
-| [setDuration] ([float]) | Describes the duration of animation effect. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setDuration (float) | Describes the duration of animation effect. Read/write float. |
 
 
 ---
 
 
-| [setRepeatCount] ([float]) | Describes the number of times the effect should repeat. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setRepeatCount (float) | Describes the number of times the effect should repeat. Read/write float. |
 
 
 ---
 
 
-| [setRepeatDuration] ([float]) | Describes the number of times the effect should repeat. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setRepeatDuration (float) | Describes the number of times the effect should repeat. Read/write float. |
 
 
 ---
 
 
-| [setRepeatUntilEndSlide] ([boolean]) | This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setRepeatUntilEndSlide (boolean) | This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean. |
 
 
 ---
 
 
-| [setRepeatUntilNextClick] ([boolean]) | This attribute specifies if the effect will repeat until the next click. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setRepeatUntilNextClick (boolean) | This attribute specifies if the effect will repeat until the next click. Read/write boolean. |
 
 
 ---
 
 
-| [setRestart] ([int]) | Specifies if a effect is to restart after complete. Read/write EffectRestartType. |
+| Name | Description |
+| --- | --- |
+| setRestart (int) | Specifies if a effect is to restart after complete. Read/write EffectRestartType. |
 
 
 ---
 
 
-| [setRewind] ([boolean]) | This attribute specifies if the effect will rewind when done playing. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setRewind (boolean) | This attribute specifies if the effect will rewind when done playing. Read/write boolean. |
 
 
 ---
 
 
-| [setSpeed] ([float]) | Specifies the percentage by which to speed up (or slow down) the timing. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setSpeed (float) | Specifies the percentage by which to speed up (or slow down) the timing. Read/write float. |
 
 
 ---
 
 
-| [setTriggerDelayTime] ([float]) | Describes delay time after trigger. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setTriggerDelayTime (float) | Describes delay time after trigger. Read/write float. |
 
 
 ---
 
 
-| [setTriggerType] ([int]) | Describes trigger type. Read/write EffectTriggerType. |
+| Name | Description |
+| --- | --- |
+| setTriggerType (int) | Describes trigger type. Read/write EffectTriggerType. |
 
 
 ---

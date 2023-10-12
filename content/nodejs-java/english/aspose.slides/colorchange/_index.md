@@ -12,13 +12,15 @@ url: /aspose.slides/colorchange/
  Represents a Color Change effect.
  Instances of FromColor are replaced with instances of ToColor.
  
-| [equals] ([Object]) | Determines whether the specified ColorChange is equal to the current ColorChange. |
+| Name | Description |
+| --- | --- |
+| equals (Object) | Determines whether the specified ColorChange is equal to the current ColorChange. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| obj | [Object] | The ColorChange to compare. |
+| obj | Object | The ColorChange to compare. |
 
 ### Result
 boolean
@@ -27,34 +29,42 @@ boolean
 ---
 
 
-| [getEffective] () | Gets effective Color Change effect data with the inheritance applied. |
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Color Change effect data with the inheritance applied. |
 
 ### Result
-[ColorChangeEffectiveData]
+ColorChangeEffectiveData
 
 
 ---
 
 
-| [getFromColor] () | Color which will be replaced. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getFromColor () | Color which will be replaced. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getToColor] () | Color which will replace. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getToColor () | Color which will replace. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long
@@ -63,7 +73,9 @@ long
 ---
 
 
-| [hashCode] () | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
 
 ### Result
 int

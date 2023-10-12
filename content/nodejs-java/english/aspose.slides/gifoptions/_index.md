@@ -11,7 +11,9 @@ url: /aspose.slides/gifoptions/
 
  Represents GIF exporting options.
  
-| [GifOptions]() | Initializes a new instance of the GifOptions class. |
+| Name | Description |
+| --- | --- |
+| GifOptions() | Initializes a new instance of the GifOptions class. |
 
 ### Result
 GifOptions
@@ -20,7 +22,9 @@ GifOptions
 ---
 
 
-| [getDefaultDelay] () | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
+| Name | Description |
+| --- | --- |
+| getDefaultDelay () | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
 
 ### Result
 int
@@ -29,7 +33,9 @@ int
 ---
 
 
-| [getExportHiddenSlides] () | Determines whether hidden slides will be exported. The default value is false. |
+| Name | Description |
+| --- | --- |
+| getExportHiddenSlides () | Determines whether hidden slides will be exported. The default value is false. |
 
 ### Result
 boolean
@@ -38,7 +44,9 @@ boolean
 ---
 
 
-| [getFrameSize] () | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
+| Name | Description |
+| --- | --- |
+| getFrameSize () | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
 
 ### Result
 Dimension
@@ -47,7 +55,9 @@ Dimension
 ---
 
 
-| [getTransitionFps] () | Gets or sets transition FPS [frames/sec] The default value is 25. |
+| Name | Description |
+| --- | --- |
+| getTransitionFps () | Gets or sets transition FPS [frames/sec] The default value is 25. |
 
 ### Result
 int
@@ -56,25 +66,33 @@ int
 ---
 
 
-| [setDefaultDelay] ([int]) | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
+| Name | Description |
+| --- | --- |
+| setDefaultDelay (int) | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
 
 
 ---
 
 
-| [setExportHiddenSlides] ([boolean]) | Determines whether hidden slides will be exported. The default value is false. |
+| Name | Description |
+| --- | --- |
+| setExportHiddenSlides (boolean) | Determines whether hidden slides will be exported. The default value is false. |
 
 
 ---
 
 
-| [setFrameSize] ([Dimension]) | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
+| Name | Description |
+| --- | --- |
+| setFrameSize (Dimension) | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
 
 
 ---
 
 
-| [setTransitionFps] ([int]) | Gets or sets transition FPS [frames/sec] The default value is 25. |
+| Name | Description |
+| --- | --- |
+| setTransitionFps (int) | Gets or sets transition FPS [frames/sec] The default value is 25. |
 
 
 ---

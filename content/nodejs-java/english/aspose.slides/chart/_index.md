@@ -11,142 +11,86 @@ url: /aspose.slides/chart/
 
  Represents an graphic chart on a slide.
  
-| [createThemeEffective] () | Returns an effective theme for this chart. |
+| Name | Description |
+| --- | --- |
+| createThemeEffective () | Returns an effective theme for this chart. |
 
 ### Result
-[ThemeEffectiveData]
+ThemeEffectiveData
 
 
 ---
 
 
-| [getAxes] () | Provide access to chart axes. Read-only IAxesManager. |
+| Name | Description |
+| --- | --- |
+| getAxes () | Provide access to chart axes. Read-only IAxesManager. |
 
 ### Result
-[AxesManager]
+AxesManager(../../axesmanager)
 
 
 ---
 
 
-| [getBackWall] () | Returns an object which allows to change format of the back wall of a 3D chart. Read-only IChartWall. |
+| Name | Description |
+| --- | --- |
+| getBackWall () | Returns an object which allows to change format of the back wall of a 3D chart. Read-only IChartWall. |
 
 ### Result
-[ChartWall]
+ChartWall(../../chartwall)
 
 
 ---
 
 
-| [getChart] () |  |
+| Name | Description |
+| --- | --- |
+| getChart () |  |
 
 ### Result
-[Chart]
+Chart(../../chart)
 
 
 ---
 
 
-| [getChartData] () | Returns information about the linked or embedded data associated with a chart. Read-only IChartData. |
+| Name | Description |
+| --- | --- |
+| getChartData () | Returns information about the linked or embedded data associated with a chart. Read-only IChartData. |
 
 ### Result
-[ChartData]
+ChartData(../../chartdata)
 
 
 ---
 
 
-| [getChartDataTable] () | Returns a data table of a chart. Read-only IDataTable. |
+| Name | Description |
+| --- | --- |
+| getChartDataTable () | Returns a data table of a chart. Read-only IDataTable. |
 
 ### Result
-[DataTable]
+DataTable(../../datatable)
 
 
 ---
 
 
-| [getChartTitle] () | Returns or sets a chart title. Read-only IChartTitle. |
+| Name | Description |
+| --- | --- |
+| getChartTitle () | Returns or sets a chart title. Read-only IChartTitle. |
 
 ### Result
-[ChartTitle]
+ChartTitle(../../charttitle)
 
 
 ---
 
 
-| [getDisplayBlanksAs] () | Returns or sets the way to plot blank cells on a chart. Read/write DisplayBlanksAsType. |
-
-### Result
-int
-
-
----
-
-
-| [getFloor] () | Returns an object which allows to change format of the floor of a 3D chart. Read-only IChartWall. |
-
-### Result
-[ChartWall]
-
-
----
-
-
-| [getLegend] () | Returns or sets a legend for a chart. Read-only ILegend. |
-
-### Result
-[Legend]
-
-
----
-
-
-| [getPlotArea] () | Represents the plot area of a chart. Read-only IChartPlotArea. |
-
-### Result
-[ChartPlotArea]
-
-
----
-
-
-| [getPlotVisibleCellsOnly] () | Determines whether the only visible cells are plotted. False to plot both visible and hidden cells. Read/write boolean. |
-
-### Result
-boolean
-
-
----
-
-
-| [getRotation3D] () | Returns a 3D rotation of a chart. Read-only IRotation3D. |
-
-### Result
-[Rotation3D]
-
-
----
-
-
-| [getShowDataLabelsOverMaximum] () | Specifies data labels over the maximum of the chart shall be shown. Read/write boolean. |
-
-### Result
-boolean
-
-
----
-
-
-| [getSideWall] () | Returns an object which allows to change format of the side wall of a 3D chart. Read-only IChartWall. |
-
-### Result
-[ChartWall]
-
-
----
-
-
-| [getStyle] () | Returns or sets the chart style. Read/write StyleType. |
+| Name | Description |
+| --- | --- |
+| getDisplayBlanksAs () | Returns or sets the way to plot blank cells on a chart. Read/write DisplayBlanksAsType. |
 
 ### Result
 int
@@ -155,25 +99,86 @@ int
 ---
 
 
-| [getTextFormat] () | Returns chart text format. The property is not applicable for the following types: ChartType#Treemap, ChartType#Sunburst, ChartType#Waterfall, ChartType#Histogram, ChartType#Funnel, ChartType#BoxAndWhisker. Read-only IChartTextFormat. |
+| Name | Description |
+| --- | --- |
+| getFloor () | Returns an object which allows to change format of the floor of a 3D chart. Read-only IChartWall. |
 
 ### Result
-[ChartTextFormat]
+ChartWall(../../chartwall)
 
 
 ---
 
 
-| [getThemeManager] () | Returns theme manager. Read-only IOverrideThemeManager. |
+| Name | Description |
+| --- | --- |
+| getLegend () | Returns or sets a legend for a chart. Read-only ILegend. |
 
 ### Result
-[NotesSlideThemeManager], [ChartThemeManager], [BaseOverrideThemeManager], [LayoutSlideThemeManager], [SlideThemeManager]
+Legend(../../legend)
 
 
 ---
 
 
-| [getType] () | Returns or sets the chart type. Read/write ChartType. |
+| Name | Description |
+| --- | --- |
+| getPlotArea () | Represents the plot area of a chart. Read-only IChartPlotArea. |
+
+### Result
+ChartPlotArea(../../chartplotarea)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getPlotVisibleCellsOnly () | Determines whether the only visible cells are plotted. False to plot both visible and hidden cells. Read/write boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getRotation3D () | Returns a 3D rotation of a chart. Read-only IRotation3D. |
+
+### Result
+Rotation3D(../../rotation3d)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getShowDataLabelsOverMaximum () | Specifies data labels over the maximum of the chart shall be shown. Read/write boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getSideWall () | Returns an object which allows to change format of the side wall of a 3D chart. Read-only IChartWall. |
+
+### Result
+ChartWall(../../chartwall)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getStyle () | Returns or sets the chart style. Read/write StyleType. |
 
 ### Result
 int
@@ -182,16 +187,53 @@ int
 ---
 
 
-| [getUserShapes] () | Specify the shapes drawn on top of the chart. Read-only IGroupShape. |
+| Name | Description |
+| --- | --- |
+| getTextFormat () | Returns chart text format. The property is not applicable for the following types: ChartType#Treemap, ChartType#Sunburst, ChartType#Waterfall, ChartType#Histogram, ChartType#Funnel, ChartType#BoxAndWhisker. Read-only IChartTextFormat. |
 
 ### Result
-[GroupShape]
+ChartTextFormat(../../charttextformat)
 
 
 ---
 
 
-| [hasDataTable] () | Determines whether a chart has a data table. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getThemeManager () | Returns theme manager. Read-only IOverrideThemeManager. |
+
+### Result
+NotesSlideThemeManager(../../notesslidethememanager), ChartThemeManager(../../chartthememanager), BaseOverrideThemeManager(../../baseoverridethememanager), LayoutSlideThemeManager(../../layoutslidethememanager), SlideThemeManager(../../slidethememanager)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getType () | Returns or sets the chart type. Read/write ChartType. |
+
+### Result
+int
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getUserShapes () | Specify the shapes drawn on top of the chart. Read-only IGroupShape. |
+
+### Result
+GroupShape(../../groupshape)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| hasDataTable () | Determines whether a chart has a data table. Read/write boolean. |
 
 ### Result
 boolean
@@ -200,7 +242,9 @@ boolean
 ---
 
 
-| [hasLegend] () | Determines whether a chart has a legend. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| hasLegend () | Determines whether a chart has a legend. Read/write boolean. |
 
 ### Result
 boolean
@@ -209,7 +253,9 @@ boolean
 ---
 
 
-| [hasRoundedCorners] () | Specifies the chart area shall have rounded corners. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| hasRoundedCorners () | Specifies the chart area shall have rounded corners. Read/write boolean. |
 
 ### Result
 boolean
@@ -218,7 +264,9 @@ boolean
 ---
 
 
-| [hasTitle] () | Determines whether a chart has a visible title. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| hasTitle () | Determines whether a chart has a visible title. Read/write boolean. |
 
 ### Result
 boolean
@@ -227,61 +275,81 @@ boolean
 ---
 
 
-| [setDataTable] ([boolean]) | Determines whether a chart has a data table. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setDataTable (boolean) | Determines whether a chart has a data table. Read/write boolean. |
 
 
 ---
 
 
-| [setDisplayBlanksAs] ([int]) | Returns or sets the way to plot blank cells on a chart. Read/write DisplayBlanksAsType. |
+| Name | Description |
+| --- | --- |
+| setDisplayBlanksAs (int) | Returns or sets the way to plot blank cells on a chart. Read/write DisplayBlanksAsType. |
 
 
 ---
 
 
-| [setLegend] ([boolean]) | Determines whether a chart has a legend. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setLegend (boolean) | Determines whether a chart has a legend. Read/write boolean. |
 
 
 ---
 
 
-| [setPlotVisibleCellsOnly] ([boolean]) | Determines whether the only visible cells are plotted. False to plot both visible and hidden cells. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setPlotVisibleCellsOnly (boolean) | Determines whether the only visible cells are plotted. False to plot both visible and hidden cells. Read/write boolean. |
 
 
 ---
 
 
-| [setRoundedCorners] ([boolean]) | Specifies the chart area shall have rounded corners. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setRoundedCorners (boolean) | Specifies the chart area shall have rounded corners. Read/write boolean. |
 
 
 ---
 
 
-| [setShowDataLabelsOverMaximum] ([boolean]) | Specifies data labels over the maximum of the chart shall be shown. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setShowDataLabelsOverMaximum (boolean) | Specifies data labels over the maximum of the chart shall be shown. Read/write boolean. |
 
 
 ---
 
 
-| [setStyle] ([int]) | Returns or sets the chart style. Read/write StyleType. |
+| Name | Description |
+| --- | --- |
+| setStyle (int) | Returns or sets the chart style. Read/write StyleType. |
 
 
 ---
 
 
-| [setTitle] ([boolean]) | Determines whether a chart has a visible title. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setTitle (boolean) | Determines whether a chart has a visible title. Read/write boolean. |
 
 
 ---
 
 
-| [setType] ([int]) | Returns or sets the chart type. Read/write ChartType. |
+| Name | Description |
+| --- | --- |
+| setType (int) | Returns or sets the chart type. Read/write ChartType. |
 
 
 ---
 
 
-| [validateChartLayout] () | Calculates actual values of chart elements. The actual values include position of elements that implement IActualLayout interface (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
+| Name | Description |
+| --- | --- |
+| validateChartLayout () | Calculates actual values of chart elements. The actual values include position of elements that implement IActualLayout interface (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
 
 
 ---

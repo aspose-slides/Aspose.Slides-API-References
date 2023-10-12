@@ -11,43 +11,53 @@ url: /aspose.slides/format/
 
  Represents chart format properties.
  
-| [getEffect] () | Returns effects used for a chart. Read-only IEffectFormat. |
+| Name | Description |
+| --- | --- |
+| getEffect () | Returns effects used for a chart. Read-only IEffectFormat. |
 
 ### Result
-[EffectFormat]
+EffectFormat(../../effectformat)
 
 
 ---
 
 
-| [getEffect3D] () | Returns 3D format of a chart. Read-only IThreeDFormat. |
+| Name | Description |
+| --- | --- |
+| getEffect3D () | Returns 3D format of a chart. Read-only IThreeDFormat. |
 
 ### Result
-[ThreeDFormat]
+ThreeDFormat(../../threedformat)
 
 
 ---
 
 
-| [getFill] () | Returns fill style properties of a chart. Read-only IFillFormat. |
+| Name | Description |
+| --- | --- |
+| getFill () | Returns fill style properties of a chart. Read-only IFillFormat. |
 
 ### Result
-[FillFormat]
+FillFormat(../../fillformat)
 
 
 ---
 
 
-| [getLine] () | Returns line style properties of a chart. Read-only ILineFormat. |
+| Name | Description |
+| --- | --- |
+| getLine () | Returns line style properties of a chart. Read-only ILineFormat. |
 
 ### Result
-[LineFormat]
+LineFormat(../../lineformat)
 
 
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long

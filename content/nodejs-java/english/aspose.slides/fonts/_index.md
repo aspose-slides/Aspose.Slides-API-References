@@ -11,46 +11,58 @@ url: /aspose.slides/fonts/
 
  Fonts collection.
  
-| [getComplexScriptFont] () | Returns or sets the complex script font. Read/write IFontData. |
+| Name | Description |
+| --- | --- |
+| getComplexScriptFont () | Returns or sets the complex script font. Read/write IFontData. |
 
 ### Result
-[FontData]
+FontData(../../fontdata)
 
 
 ---
 
 
-| [getEastAsianFont] () | Returns or sets the East Asian font. Read/write IFontData. |
+| Name | Description |
+| --- | --- |
+| getEastAsianFont () | Returns or sets the East Asian font. Read/write IFontData. |
 
 ### Result
-[FontData]
+FontData(../../fontdata)
 
 
 ---
 
 
-| [getLatinFont] () | Returns or sets the Latin font. Read/write IFontData. |
+| Name | Description |
+| --- | --- |
+| getLatinFont () | Returns or sets the Latin font. Read/write IFontData. |
 
 ### Result
-[FontData]
+FontData(../../fontdata)
 
 
 ---
 
 
-| [setComplexScriptFont] ([FontData]) | Returns or sets the complex script font. Read/write IFontData. |
+| Name | Description |
+| --- | --- |
+| setComplexScriptFont (FontData(../fontdata)) | Returns or sets the complex script font. Read/write IFontData. |
 
 
 ---
 
 
-| [setEastAsianFont] ([FontData]) | Returns or sets the East Asian font. Read/write IFontData. |
+| Name | Description |
+| --- | --- |
+| setEastAsianFont (FontData(../fontdata)) | Returns or sets the East Asian font. Read/write IFontData. |
 
 
 ---
 
 
-| [setLatinFont] ([FontData]) | Returns or sets the Latin font. Read/write IFontData. |
+| Name | Description |
+| --- | --- |
+| setLatinFont (FontData(../fontdata)) | Returns or sets the Latin font. Read/write IFontData. |
 
 
 ---

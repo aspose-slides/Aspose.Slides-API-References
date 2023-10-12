@@ -11,16 +11,18 @@ url: /aspose.slides/summaryzoomsectioncollection/
 
  Represents a collection of Summary Zoom Section objects.
  
-| [addSummaryZoomSection] ([Section]) | Creates new Summary Zoom Section object and add it to the collection |
+| Name | Description |
+| --- | --- |
+| addSummaryZoomSection (Section(../section)) | Creates new Summary Zoom Section object and add it to the collection |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| section | [Section] | Section for a new Summary Zoom Section element ISection If an element for this section already exists in the collection, the existing element is returned. |
+| section | Section(../../section) | Section for a new Summary Zoom Section element ISection If an element for this section already exists in the collection, the existing element is returned. |
 
 ### Result
-[SummaryZoomSection]
+SummaryZoomSection(../../summaryzoomsection)
 
 ### Error
 
@@ -32,28 +34,34 @@ url: /aspose.slides/summaryzoomsectioncollection/
 ---
 
 
-| [clear] () | Removes all SummaryZoomSection objects from the collection. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all SummaryZoomSection objects from the collection. |
 
 
 ---
 
 
-| [getSummarySection] ([Section]) | Returns Summary Zoom Section element for the given section. |
+| Name | Description |
+| --- | --- |
+| getSummarySection (Section(../section)) | Returns Summary Zoom Section element for the given section. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| section | [Section] | Section to find ISection |
+| section | Section(../../section) | Section to find ISection |
 
 ### Result
-[SummaryZoomSection]
+SummaryZoomSection(../../summaryzoomsection)
 
 
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -62,22 +70,26 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Gets the element at the specified index. Read-only ISummaryZoomSection. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Gets the element at the specified index. Read-only ISummaryZoomSection. |
 
 ### Result
-[SummaryZoomSection]
+SummaryZoomSection(../../summaryzoomsection)
 
 
 ---
 
 
-| [indexOf] ([SummaryZoomSection]) | Returns an index of the specified SummaryZoomSection object. |
+| Name | Description |
+| --- | --- |
+| indexOf (SummaryZoomSection(../summaryzoomsection)) | Returns an index of the specified SummaryZoomSection object. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| summaryZoomSection | [SummaryZoomSection] | SummaryZoomSection object to find ISummaryZoomSection. |
+| summaryZoomSection | SummaryZoomSection(../../summaryzoomsection) | SummaryZoomSection object to find ISummaryZoomSection. |
 
 ### Result
 int
@@ -86,7 +98,9 @@ int
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -95,7 +109,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -104,7 +120,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -113,19 +131,23 @@ boolean
 ---
 
 
-| [removeSummaryZoomSection] ([Section]) | Remove Summary Zoom Section object from the collection. |
+| Name | Description |
+| --- | --- |
+| removeSummaryZoomSection (Section(../section)) | Remove Summary Zoom Section object from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| section | [Section] | Section for which the Summary Zoom Section element is to be removed ISection. |
+| section | Section(../../section) | Section for which the Summary Zoom Section element is to be removed ISection. |
 
 
 ---
 
 
-| [size] () | Gets the number of elements actually contained in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int

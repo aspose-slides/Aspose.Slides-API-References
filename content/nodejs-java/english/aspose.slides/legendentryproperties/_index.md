@@ -11,16 +11,20 @@ url: /aspose.slides/legendentryproperties/
 
  Represents legend properties of a chart.
  
-| [getChart] () | Returns the parent chart. Read-only IChart. |
+| Name | Description |
+| --- | --- |
+| getChart () | Returns the parent chart. Read-only IChart. |
 
 ### Result
-[Chart]
+Chart(../../chart)
 
 
 ---
 
 
-| [getHide] () | Determines whether the legend entry is hide. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getHide () | Determines whether the legend entry is hide. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,34 +33,42 @@ boolean
 ---
 
 
-| [getPresentation] () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
 ### Result
-[Presentation]
+Presentation(../../presentation)
 
 
 ---
 
 
-| [getSlide] () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
 ### Result
-[MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
+MasterNotesSlide(../../masternotesslide), MasterHandoutSlide(../../masterhandoutslide), BaseSlide(../../baseslide), NotesSlide(../../notesslide), LayoutSlide(../../layoutslide), Slide(../../slide), MasterSlide(../../masterslide)
 
 
 ---
 
 
-| [getTextFormat] () | Returns text format. Read-only IChartTextFormat. |
+| Name | Description |
+| --- | --- |
+| getTextFormat () | Returns text format. Read-only IChartTextFormat. |
 
 ### Result
-[ChartTextFormat]
+ChartTextFormat(../../charttextformat)
 
 
 ---
 
 
-| [setHide] ([boolean]) | Determines whether the legend entry is hide. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setHide (boolean) | Determines whether the legend entry is hide. Read/write boolean. |
 
 
 ---

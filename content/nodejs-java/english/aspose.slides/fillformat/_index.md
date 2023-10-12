@@ -11,52 +11,20 @@ url: /aspose.slides/fillformat/
 
  Represents a fill formatting options.
  
-| [getEffective] () | Gets effective fill formatting data with the inheritance applied. |
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective fill formatting data with the inheritance applied. |
 
 ### Result
-[FillFormatEffectiveData]
+FillFormatEffectiveData
 
 
 ---
 
 
-| [getFillType] () | Returns or sets the type of filling. Read/write FillType. |
-
-### Result
-byte
-
-
----
-
-
-| [getGradientFormat] () | Returns the gradient fill format. Read-only IGradientFormat. |
-
-### Result
-[GradientFormat]
-
-
----
-
-
-| [getPatternFormat] () | Returns the pattern fill format. Read-only IPatternFormat. |
-
-### Result
-[PatternFormat]
-
-
----
-
-
-| [getPictureFillFormat] () | Returns the picture fill format. Read-only IPictureFillFormat. |
-
-### Result
-[PictureFillFormat]
-
-
----
-
-
-| [getRotateWithShape] () | Determines whether the fill should be rotated with shape. Read/write NullableBool. |
+| Name | Description |
+| --- | --- |
+| getFillType () | Returns or sets the type of filling. Read/write FillType. |
 
 ### Result
 byte
@@ -65,16 +33,64 @@ byte
 ---
 
 
-| [getSolidFillColor] () | Returns the fill color. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getGradientFormat () | Returns the gradient fill format. Read-only IGradientFormat. |
 
 ### Result
-[ColorFormat]
+GradientFormat(../../gradientformat)
 
 
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getPatternFormat () | Returns the pattern fill format. Read-only IPatternFormat. |
+
+### Result
+PatternFormat(../../patternformat)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getPictureFillFormat () | Returns the picture fill format. Read-only IPictureFillFormat. |
+
+### Result
+PictureFillFormat(../../picturefillformat)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getRotateWithShape () | Determines whether the fill should be rotated with shape. Read/write NullableBool. |
+
+### Result
+byte
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getSolidFillColor () | Returns the fill color. Read-only IColorFormat. |
+
+### Result
+ColorFormat(../../colorformat)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long
@@ -83,13 +99,17 @@ long
 ---
 
 
-| [setFillType] ([byte]) | Returns or sets the type of filling. Read/write FillType. |
+| Name | Description |
+| --- | --- |
+| setFillType (byte) | Returns or sets the type of filling. Read/write FillType. |
 
 
 ---
 
 
-| [setRotateWithShape] ([byte]) | Determines whether the fill should be rotated with shape. Read/write NullableBool. |
+| Name | Description |
+| --- | --- |
+| setRotateWithShape (byte) | Determines whether the fill should be rotated with shape. Read/write NullableBool. |
 
 
 ---

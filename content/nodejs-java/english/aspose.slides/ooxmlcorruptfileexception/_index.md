@@ -11,7 +11,9 @@ url: /aspose.slides/ooxmlcorruptfileexception/
 
  Exception which thrown when Office Open XML file format is corrupted.
  
-| [OOXMLCorruptFileException]() | Default function. |
+| Name | Description |
+| --- | --- |
+| OOXMLCorruptFileException() | Default function. |
 
 ### Result
 OOXMLCorruptFileException
@@ -20,13 +22,15 @@ OOXMLCorruptFileException
 ---
 
 
-| [OOXMLCorruptFileException]([String]) | Constructor allowing a message to be added to this exception. |
+| Name | Description |
+| --- | --- |
+| OOXMLCorruptFileException(String) | Constructor allowing a message to be added to this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | message |
+| message | String | message |
 
 ### Result
 OOXMLCorruptFileException
@@ -35,14 +39,16 @@ OOXMLCorruptFileException
 ---
 
 
-| [OOXMLCorruptFileException]([String], [RuntimeException]) | Constructor for an exception containing a message and an embedded exception. |
+| Name | Description |
+| --- | --- |
+| OOXMLCorruptFileException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | [String] | message |
-| exception | [RuntimeException] | original exception |
+| message | String | message |
+| exception | RuntimeException | original exception |
 
 ### Result
 OOXMLCorruptFileException

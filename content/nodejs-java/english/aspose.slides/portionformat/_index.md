@@ -14,7 +14,9 @@ url: /aspose.slides/portionformat/
  no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
  In order to get the effective formatting parameter values including inherited you need to use  PortionFormat#getEffective method 
  which returns a  IPortionFormatEffectiveData instance.
-| [PortionFormat]() | Initializes a new instance of PortionFormat class. |
+| Name | Description |
+| --- | --- |
+| PortionFormat() | Initializes a new instance of PortionFormat class. |
 
 ### Result
 PortionFormat
@@ -23,7 +25,9 @@ PortionFormat
 ---
 
 
-| [getBookmarkId] () | Returns or sets bookmark identifier. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getBookmarkId () | Returns or sets bookmark identifier. Read/write String. |
 
 ### Result
 String
@@ -32,43 +36,53 @@ String
 ---
 
 
-| [getEffective] () | Gets effective portion formatting data with the inheritance applied. |
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective portion formatting data with the inheritance applied. |
 
 ### Result
-[PortionFormatEffectiveData]
+PortionFormatEffectiveData
 
 
 ---
 
 
-| [getHyperlinkClick] () | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| Name | Description |
+| --- | --- |
+| getHyperlinkClick () | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
 ### Result
-[Hyperlink]
+Hyperlink(../../hyperlink)
 
 
 ---
 
 
-| [getHyperlinkManager] () | Hyperlinks manager. Read-only IHyperlinkManager. |
+| Name | Description |
+| --- | --- |
+| getHyperlinkManager () | Hyperlinks manager. Read-only IHyperlinkManager. |
 
 ### Result
-[HyperlinkManager]
+HyperlinkManager(../../hyperlinkmanager)
 
 
 ---
 
 
-| [getHyperlinkMouseOver] () | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| Name | Description |
+| --- | --- |
+| getHyperlinkMouseOver () | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
 ### Result
-[Hyperlink]
+Hyperlink(../../hyperlink)
 
 
 ---
 
 
-| [getSmartTagClean] () | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getSmartTagClean () | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
 
 ### Result
 boolean
@@ -77,25 +91,33 @@ boolean
 ---
 
 
-| [setBookmarkId] ([String]) | Returns or sets bookmark identifier. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setBookmarkId (String) | Returns or sets bookmark identifier. Read/write String. |
 
 
 ---
 
 
-| [setHyperlinkClick] ([Hyperlink]) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| Name | Description |
+| --- | --- |
+| setHyperlinkClick (Hyperlink(../hyperlink)) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
 
 ---
 
 
-| [setHyperlinkMouseOver] ([Hyperlink]) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| Name | Description |
+| --- | --- |
+| setHyperlinkMouseOver (Hyperlink(../hyperlink)) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
 
 ---
 
 
-| [setSmartTagClean] ([boolean]) | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setSmartTagClean (boolean) | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
 
 
 ---

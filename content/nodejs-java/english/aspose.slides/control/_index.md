@@ -11,7 +11,9 @@ url: /aspose.slides/control/
 
  Represents an ActiveX control.
  
-| [getActiveXControlBinary] () | Specifies the persistence of an ActiveX control when the function used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
+| Name | Description |
+| --- | --- |
+| getActiveXControlBinary () | Specifies the persistence of an ActiveX control when the function used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
 
 ### Result
 byte
@@ -20,7 +22,9 @@ byte
 ---
 
 
-| [getClassId] () | Gets class id of this control. Read-only java.util.UUID. |
+| Name | Description |
+| --- | --- |
+| getClassId () | Gets class id of this control. Read-only java.util.UUID. |
 
 ### Result
 UUID
@@ -29,16 +33,20 @@ UUID
 ---
 
 
-| [getFrame] () | Returns or sets control's frame. Read/write IShapeFrame. |
+| Name | Description |
+| --- | --- |
+| getFrame () | Returns or sets control's frame. Read/write IShapeFrame. |
 
 ### Result
-[ShapeFrame]
+ShapeFrame(../../shapeframe)
 
 
 ---
 
 
-| [getName] () | Gets or sets the name of this control. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getName () | Gets or sets the name of this control. Read/write String. |
 
 ### Result
 String
@@ -47,7 +55,9 @@ String
 ---
 
 
-| [getPersistence] () | Gets the function used to store properties of the ActiveX control. Read only PersistenceType. |
+| Name | Description |
+| --- | --- |
+| getPersistence () | Gets the function used to store properties of the ActiveX control. Read only PersistenceType. |
 
 ### Result
 int
@@ -56,55 +66,69 @@ int
 ---
 
 
-| [getPresentation] () |  |
+| Name | Description |
+| --- | --- |
+| getPresentation () |  |
 
 ### Result
-[Presentation]
+Presentation(../../presentation)
 
 
 ---
 
 
-| [getProperties] () | Returns a collection of ActiveX properties. Read-only IControlPropertiesCollection. Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null. |
+| Name | Description |
+| --- | --- |
+| getProperties () | Returns a collection of ActiveX properties. Read-only IControlPropertiesCollection. Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null. |
 
 ### Result
-[ControlPropertiesCollection]
+ControlPropertiesCollection(../../controlpropertiescollection)
 
 
 ---
 
 
-| [getSlide] () |  |
+| Name | Description |
+| --- | --- |
+| getSlide () |  |
 
 ### Result
-[MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
+MasterNotesSlide(../../masternotesslide), MasterHandoutSlide(../../masterhandoutslide), BaseSlide(../../baseslide), NotesSlide(../../notesslide), LayoutSlide(../../layoutslide), Slide(../../slide), MasterSlide(../../masterslide)
 
 
 ---
 
 
-| [getSubstitutePictureFormat] () | Returns Control image fill properties object. Read-only IPictureFillFormat. |
+| Name | Description |
+| --- | --- |
+| getSubstitutePictureFormat () | Returns Control image fill properties object. Read-only IPictureFillFormat. |
 
 ### Result
-[PictureFillFormat]
+PictureFillFormat(../../picturefillformat)
 
 
 ---
 
 
-| [setClassId] ([UUID]) | Gets class id of this control. Read-only java.util.UUID. |
+| Name | Description |
+| --- | --- |
+| setClassId (UUID) | Gets class id of this control. Read-only java.util.UUID. |
 
 
 ---
 
 
-| [setFrame] ([ShapeFrame]) | Returns or sets control's frame. Read/write IShapeFrame. |
+| Name | Description |
+| --- | --- |
+| setFrame (ShapeFrame(../shapeframe)) | Returns or sets control's frame. Read/write IShapeFrame. |
 
 
 ---
 
 
-| [setName] ([String]) | Gets or sets the name of this control. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setName (String) | Gets or sets the name of this control. Read/write String. |
 
 
 ---

@@ -11,7 +11,9 @@ url: /aspose.slides/filtereffect/
 
  Represent filter effect of behavior.
  
-| [FilterEffect]() | Default function. |
+| Name | Description |
+| --- | --- |
+| FilterEffect() | Default function. |
 
 ### Result
 FilterEffect
@@ -20,7 +22,9 @@ FilterEffect
 ---
 
 
-| [getReveal] () | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
+| Name | Description |
+| --- | --- |
+| getReveal () | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
 
 ### Result
 int
@@ -29,7 +33,9 @@ int
 ---
 
 
-| [getSubtype] () | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
+| Name | Description |
+| --- | --- |
+| getSubtype () | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
 
 ### Result
 int
@@ -38,7 +44,9 @@ int
 ---
 
 
-| [getType] () | Represents type of filter effect. Read/write FilterEffectType. |
+| Name | Description |
+| --- | --- |
+| getType () | Represents type of filter effect. Read/write FilterEffectType. |
 
 ### Result
 int
@@ -47,19 +55,25 @@ int
 ---
 
 
-| [setReveal] ([int]) | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
+| Name | Description |
+| --- | --- |
+| setReveal (int) | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
 
 
 ---
 
 
-| [setSubtype] ([int]) | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
+| Name | Description |
+| --- | --- |
+| setSubtype (int) | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
 
 
 ---
 
 
-| [setType] ([int]) | Represents type of filter effect. Read/write FilterEffectType. |
+| Name | Description |
+| --- | --- |
+| setType (int) | Represents type of filter effect. Read/write FilterEffectType. |
 
 
 ---

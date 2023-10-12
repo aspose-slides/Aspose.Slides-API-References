@@ -11,7 +11,9 @@ url: /aspose.slides/webdocumentoptions/
 
  Represents an options set for  WebDocument saving.
  
-| [WebDocumentOptions]() |  |
+| Name | Description |
+| --- | --- |
+| WebDocumentOptions() |  |
 
 ### Result
 WebDocumentOptions
@@ -20,7 +22,9 @@ WebDocumentOptions
 ---
 
 
-| [getAnimateShapes] () | Returns or sets shapes animation option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getAnimateShapes () | Returns or sets shapes animation option. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,7 +33,9 @@ boolean
 ---
 
 
-| [getAnimateTransitions] () | Returns or sets transitions animation option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getAnimateTransitions () | Returns or sets transitions animation option. Read/write boolean. |
 
 ### Result
 boolean
@@ -38,7 +44,9 @@ boolean
 ---
 
 
-| [getEmbedImages] () | Returns or sets images embedding option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getEmbedImages () | Returns or sets images embedding option. Read/write boolean. |
 
 ### Result
 boolean
@@ -47,49 +55,63 @@ boolean
 ---
 
 
-| [getOutputSaver] () | Returns or sets output saver. Read/write IOutputSaver. |
+| Name | Description |
+| --- | --- |
+| getOutputSaver () | Returns or sets output saver. Read/write IOutputSaver. |
 
 ### Result
-[OutputSaverStub]
+OutputSaverStub
 
 
 ---
 
 
-| [getTemplateEngine] () | Returns or sets templates engine. Read/write ITemplateEngine. |
+| Name | Description |
+| --- | --- |
+| getTemplateEngine () | Returns or sets templates engine. Read/write ITemplateEngine. |
 
 ### Result
-[TemplateEngineStub]
+TemplateEngineStub
 
 
 ---
 
 
-| [setAnimateShapes] ([boolean]) | Returns or sets shapes animation option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setAnimateShapes (boolean) | Returns or sets shapes animation option. Read/write boolean. |
 
 
 ---
 
 
-| [setAnimateTransitions] ([boolean]) | Returns or sets transitions animation option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setAnimateTransitions (boolean) | Returns or sets transitions animation option. Read/write boolean. |
 
 
 ---
 
 
-| [setEmbedImages] ([boolean]) | Returns or sets images embedding option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setEmbedImages (boolean) | Returns or sets images embedding option. Read/write boolean. |
 
 
 ---
 
 
-| [setOutputSaver] ([IOutputSaver]) | Returns or sets output saver. Read/write IOutputSaver. |
+| Name | Description |
+| --- | --- |
+| setOutputSaver (IOutputSaver(../ioutputsaver)) | Returns or sets output saver. Read/write IOutputSaver. |
 
 
 ---
 
 
-| [setTemplateEngine] ([ITemplateEngine]) | Returns or sets templates engine. Read/write ITemplateEngine. |
+| Name | Description |
+| --- | --- |
+| setTemplateEngine (ITemplateEngine(../itemplateengine)) | Returns or sets templates engine. Read/write ITemplateEngine. |
 
 
 ---

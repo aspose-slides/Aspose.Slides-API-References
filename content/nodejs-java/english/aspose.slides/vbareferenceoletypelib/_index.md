@@ -11,7 +11,9 @@ url: /aspose.slides/vbareferenceoletypelib/
 
  Represents OLE Automation type library reference.
  
-| [VbaReferenceOleTypeLib]([String], [String]) | This function creates new OLE Automation type library reference. |
+| Name | Description |
+| --- | --- |
+| VbaReferenceOleTypeLib(String, String) | This function creates new OLE Automation type library reference. |
 
 ### Result
 VbaReferenceOleTypeLib
@@ -20,7 +22,9 @@ VbaReferenceOleTypeLib
 ---
 
 
-| [getLibid] () | Represents the identifier of an Automation type library. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getLibid () | Represents the identifier of an Automation type library. Read/write String. |
 
 ### Result
 String
@@ -29,7 +33,9 @@ String
 ---
 
 
-| [getName] () | Represents the name of the VBA project reference. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getName () | Represents the name of the VBA project reference. Read/write String. |
 
 ### Result
 String
@@ -38,13 +44,17 @@ String
 ---
 
 
-| [setLibid] ([String]) | Represents the identifier of an Automation type library. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setLibid (String) | Represents the identifier of an Automation type library. Read/write String. |
 
 
 ---
 
 
-| [setName] ([String]) | Represents the name of the VBA project reference. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setName (String) | Represents the name of the VBA project reference. Read/write String. |
 
 
 ---

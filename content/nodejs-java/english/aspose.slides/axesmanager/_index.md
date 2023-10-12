@@ -11,46 +11,56 @@ url: /aspose.slides/axesmanager/
 
  Provides access to chart axes.
  
-| [getHorizontalAxis] () | Gets the chart's horizontal axis. Read-only IAxis. |
+| Name | Description |
+| --- | --- |
+| getHorizontalAxis () | Gets the chart's horizontal axis. Read-only IAxis. |
 
 ### Result
-[Axis]
+Axis(../../axis)
 
 
 ---
 
 
-| [getSecondaryHorizontalAxis] () | Gets the chart's secondary horizontal axis. Read-only IAxis. |
+| Name | Description |
+| --- | --- |
+| getSecondaryHorizontalAxis () | Gets the chart's secondary horizontal axis. Read-only IAxis. |
 
 ### Result
-[Axis]
+Axis(../../axis)
 
 
 ---
 
 
-| [getSecondaryVerticalAxis] () | Gets the chart's secondary vertical axis. Read-only IAxis. |
+| Name | Description |
+| --- | --- |
+| getSecondaryVerticalAxis () | Gets the chart's secondary vertical axis. Read-only IAxis. |
 
 ### Result
-[Axis]
+Axis(../../axis)
 
 
 ---
 
 
-| [getSeriesAxis] () | Gets the chart's series axis. Read-only IAxis. |
+| Name | Description |
+| --- | --- |
+| getSeriesAxis () | Gets the chart's series axis. Read-only IAxis. |
 
 ### Result
-[Axis]
+Axis(../../axis)
 
 
 ---
 
 
-| [getVerticalAxis] () | Gets the chart's vertical axis. Read-only IAxis. |
+| Name | Description |
+| --- | --- |
+| getVerticalAxis () | Gets the chart's vertical axis. Read-only IAxis. |
 
 ### Result
-[Axis]
+Axis(../../axis)
 
 
 ---

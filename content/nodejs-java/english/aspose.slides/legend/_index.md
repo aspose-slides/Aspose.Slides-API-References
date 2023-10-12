@@ -11,7 +11,9 @@ url: /aspose.slides/legend/
 
  Represents chart's legend properties.
  
-| [getBottom] () | Bottom. Read-only float. |
+| Name | Description |
+| --- | --- |
+| getBottom () | Bottom. Read-only float. |
 
 ### Result
 float
@@ -20,34 +22,42 @@ float
 ---
 
 
-| [getChart] () | Returns the chart. Read-only IChart. |
+| Name | Description |
+| --- | --- |
+| getChart () | Returns the chart. Read-only IChart. |
 
 ### Result
-[Chart]
+Chart(../../chart)
 
 
 ---
 
 
-| [getEntries] () | Gets legend entries. Read-only ILegendEntryCollection. |
+| Name | Description |
+| --- | --- |
+| getEntries () | Gets legend entries. Read-only ILegendEntryCollection. |
 
 ### Result
-[LegendEntryCollection]
+LegendEntryCollection(../../legendentrycollection)
 
 
 ---
 
 
-| [getFormat] () | Returns the format of a legend. Read-only IFormat. |
+| Name | Description |
+| --- | --- |
+| getFormat () | Returns the format of a legend. Read-only IFormat. |
 
 ### Result
-[Format]
+Format(../../format)
 
 
 ---
 
 
-| [getHeight] () | Returns or sets the height of a legend as a fraction of the height of the chart. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getHeight () | Returns or sets the height of a legend as a fraction of the height of the chart. Read/write float. |
 
 ### Result
 float
@@ -56,7 +66,9 @@ float
 ---
 
 
-| [getOverlay] () | Determines whether other chart elements shall be allowed to overlap legend. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| getOverlay () | Determines whether other chart elements shall be allowed to overlap legend. Read/write boolean. |
 
 ### Result
 boolean
@@ -65,7 +77,9 @@ boolean
 ---
 
 
-| [getPosition] () | Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write LegendPositionType. |
+| Name | Description |
+| --- | --- |
+| getPosition () | Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write LegendPositionType. |
 
 ### Result
 int
@@ -74,43 +88,20 @@ int
 ---
 
 
-| [getPresentation] () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
 ### Result
-[Presentation]
+Presentation(../../presentation)
 
 
 ---
 
 
-| [getRight] () | Right. Read-only float. |
-
-### Result
-float
-
-
----
-
-
-| [getSlide] () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
-
-### Result
-[MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
-
-
----
-
-
-| [getTextFormat] () | Text format. Read-only IChartTextFormat. |
-
-### Result
-[ChartTextFormat]
-
-
----
-
-
-| [getWidth] () | Returns or sets the width of a legend as a fraction of the width of the chart. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getRight () | Right. Read-only float. |
 
 ### Result
 float
@@ -119,7 +110,31 @@ float
 ---
 
 
-| [getX] () | Returns or sets the x coordinate of a legend as a fraction of the width of the chart. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+
+### Result
+MasterNotesSlide(../../masternotesslide), MasterHandoutSlide(../../masterhandoutslide), BaseSlide(../../baseslide), NotesSlide(../../notesslide), LayoutSlide(../../layoutslide), Slide(../../slide), MasterSlide(../../masterslide)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getTextFormat () | Text format. Read-only IChartTextFormat. |
+
+### Result
+ChartTextFormat(../../charttextformat)
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| getWidth () | Returns or sets the width of a legend as a fraction of the width of the chart. Read/write float. |
 
 ### Result
 float
@@ -128,7 +143,9 @@ float
 ---
 
 
-| [getY] () | Returns or sets the y coordinate of a legend as a fraction of the height of the chart. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getX () | Returns or sets the x coordinate of a legend as a fraction of the width of the chart. Read/write float. |
 
 ### Result
 float
@@ -137,37 +154,60 @@ float
 ---
 
 
-| [setHeight] ([float]) | Returns or sets the height of a legend as a fraction of the height of the chart. Read/write float. |
+| Name | Description |
+| --- | --- |
+| getY () | Returns or sets the y coordinate of a legend as a fraction of the height of the chart. Read/write float. |
+
+### Result
+float
 
 
 ---
 
 
-| [setOverlay] ([boolean]) | Determines whether other chart elements shall be allowed to overlap legend. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| setHeight (float) | Returns or sets the height of a legend as a fraction of the height of the chart. Read/write float. |
 
 
 ---
 
 
-| [setPosition] ([int]) | Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write LegendPositionType. |
+| Name | Description |
+| --- | --- |
+| setOverlay (boolean) | Determines whether other chart elements shall be allowed to overlap legend. Read/write boolean. |
 
 
 ---
 
 
-| [setWidth] ([float]) | Returns or sets the width of a legend as a fraction of the width of the chart. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setPosition (int) | Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write LegendPositionType. |
 
 
 ---
 
 
-| [setX] ([float]) | Returns or sets the x coordinate of a legend as a fraction of the width of the chart. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setWidth (float) | Returns or sets the width of a legend as a fraction of the width of the chart. Read/write float. |
 
 
 ---
 
 
-| [setY] ([float]) | Returns or sets the y coordinate of a legend as a fraction of the height of the chart. Read/write float. |
+| Name | Description |
+| --- | --- |
+| setX (float) | Returns or sets the x coordinate of a legend as a fraction of the width of the chart. Read/write float. |
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| setY (float) | Returns or sets the y coordinate of a legend as a fraction of the height of the chart. Read/write float. |
 
 
 ---

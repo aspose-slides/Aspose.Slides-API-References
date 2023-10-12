@@ -11,25 +11,31 @@ url: /aspose.slides/patternformat/
 
  Represents a pattern to fill a shape.
  
-| [getBackColor] () | Returns the background pattern color. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getBackColor () | Returns the background pattern color. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getForeColor] () | Returns the foreground pattern color. Read-only IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getForeColor () | Returns the foreground pattern color. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [getPatternStyle] () | Returns or sets the pattern style. Read/write PatternStyle. |
+| Name | Description |
+| --- | --- |
+| getPatternStyle () | Returns or sets the pattern style. Read/write PatternStyle. |
 
 ### Result
 byte
@@ -38,14 +44,16 @@ byte
 ---
 
 
-| [getTileImage] ([Color], [Color]) | Creates a tile image for the pattern fill with a specified colors. |
+| Name | Description |
+| --- | --- |
+| getTileImage (Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| background | [Color] | The background java.awt.Color for the pattern. |
-| foreground | [Color] | The foreground java.awt.Color for the pattern. |
+| background | Color | The background java.awt.Color for the pattern. |
+| foreground | Color | The foreground java.awt.Color for the pattern. |
 
 ### Result
 BufferedImage
@@ -54,13 +62,15 @@ BufferedImage
 ---
 
 
-| [getTileImage] ([Color]) | Creates a tile image for the pattern fill. |
+| Name | Description |
+| --- | --- |
+| getTileImage (Color) | Creates a tile image for the pattern fill. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| styleColor | [Color] | The default java.awt.Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
+| styleColor | Color | The default java.awt.Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
 ### Result
 BufferedImage
@@ -69,7 +79,9 @@ BufferedImage
 ---
 
 
-| [getVersion] () |  |
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
 
 ### Result
 long
@@ -78,7 +90,9 @@ long
 ---
 
 
-| [setPatternStyle] ([byte]) | Returns or sets the pattern style. Read/write PatternStyle. |
+| Name | Description |
+| --- | --- |
+| setPatternStyle (byte) | Returns or sets the pattern style. Read/write PatternStyle. |
 
 
 ---

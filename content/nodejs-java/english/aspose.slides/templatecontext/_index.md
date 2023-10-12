@@ -11,7 +11,9 @@ url: /aspose.slides/templatecontext/
 
  Represents a model object interface for a template engine.
  
-| [getGlobal] () | Returns global storage of the host document. Read-only Storage. |
+| Name | Description |
+| --- | --- |
+| getGlobal () | Returns global storage of the host document. Read-only Storage. |
 
 ### Result
 Storage
@@ -20,7 +22,9 @@ Storage
 ---
 
 
-| [getLocal] () | Returns local storage of the current template context. Read-only Storage. |
+| Name | Description |
+| --- | --- |
+| getLocal () | Returns local storage of the current template context. Read-only Storage. |
 
 ### Result
 Storage
@@ -29,7 +33,9 @@ Storage
 ---
 
 
-| [getObject] () | Returns the model object. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getObject () | Returns the model object. Read-only Object. |
 
 ### Result
 TObject
@@ -38,7 +44,9 @@ TObject
 ---
 
 
-| [getOutput] () | Returns collection of output elements of the host document. Read-only Output( #getOutput). |
+| Name | Description |
+| --- | --- |
+| getOutput () | Returns collection of output elements of the host document. Read-only Output( #getOutput). |
 
 ### Result
 Output
@@ -47,13 +55,15 @@ Output
 ---
 
 
-| [subModel] ([TSubModel]) | Creates a child template context. |
+| Name | Description |
+| --- | --- |
+| subModel (TSubModel) | Creates a child template context. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| subModel | [TSubModel] | Child model object. |
+| subModel | TSubModel | Child model object. |
 
 ### Result
 TemplateContext

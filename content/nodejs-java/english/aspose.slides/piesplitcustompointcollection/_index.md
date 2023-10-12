@@ -11,13 +11,15 @@ url: /aspose.slides/piesplitcustompointcollection/
 
  Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split.
  
-| [add] ([int]) | Adds data point by its index in parent series points collection. |
+| Name | Description |
+| --- | --- |
+| add (int) | Adds data point by its index in parent series points collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| dataPointIndex | [int] | Index of data point in parent series points collection. |
+| dataPointIndex | int | Index of data point in parent series points collection. |
 
 ### Error
 
@@ -29,31 +31,37 @@ url: /aspose.slides/piesplitcustompointcollection/
 ---
 
 
-| [addItem] ([ChartDataPoint]) | Adds data point to collection. |
+| Name | Description |
+| --- | --- |
+| addItem (ChartDataPoint(../chartdatapoint)) | Adds data point to collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| dataPoint | [ChartDataPoint] | Data point add to. |
+| dataPoint | ChartDataPoint(../../chartdatapoint) | Data point add to. |
 
 
 ---
 
 
-| [clear] () | Removes all items from the IGenericCollection. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all items from the IGenericCollection. |
 
 
 ---
 
 
-| [containsItem] ([ChartDataPoint]) | Determines whether the IGenericCollection contains a specific value. |
+| Name | Description |
+| --- | --- |
+| containsItem (ChartDataPoint(../chartdatapoint)) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ChartDataPoint] | The object to locate in the IGenericCollection. |
+| item | ChartDataPoint(../../chartdatapoint) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -62,14 +70,16 @@ boolean
 ---
 
 
-| [copyToTArray] ([com.aspose.slides.IChartDataPoint[]], [int]) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+| Name | Description |
+| --- | --- |
+| copyToTArray (com.aspose.slides.IChartDataPoint[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| array | [com.aspose.slides.IChartDataPoint[]] | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
-| arrayIndex | [int] | The zero-based index in array at which copying begins. |
+| array | com.aspose.slides.IChartDataPoint[] | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
+| arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### Error
 
@@ -81,7 +91,9 @@ boolean
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -90,22 +102,26 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Returns chart data point for specified index. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns chart data point for specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index. |
+| index | int | Index. |
 
 ### Result
-[ChartDataPoint]
+ChartDataPoint(../../chartdatapoint)
 
 
 ---
 
 
-| [isReadOnly] () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
 ### Result
 boolean
@@ -114,7 +130,9 @@ boolean
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -123,7 +141,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -132,7 +152,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -141,13 +163,15 @@ boolean
 ---
 
 
-| [remove] ([int]) | Removes item from collection by it index in parent series points collection. |
+| Name | Description |
+| --- | --- |
+| remove (int) | Removes item from collection by it index in parent series points collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| dataPointIndex | [int] | Index of data point in parent series points collection. |
+| dataPointIndex | int | Index of data point in parent series points collection. |
 
 ### Error
 
@@ -159,13 +183,15 @@ boolean
 ---
 
 
-| [removeItem] ([ChartDataPoint]) | Removes item from collection. |
+| Name | Description |
+| --- | --- |
+| removeItem (ChartDataPoint(../chartdatapoint)) | Removes item from collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| dataPoint | [ChartDataPoint] | Data point remove to. |
+| dataPoint | ChartDataPoint(../../chartdatapoint) | Data point remove to. |
 
 ### Result
 boolean
@@ -174,7 +200,9 @@ boolean
 ---
 
 
-| [size] () | Returns or sets the count of chart data points. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Returns or sets the count of chart data points. Read-only int. |
 
 ### Result
 int

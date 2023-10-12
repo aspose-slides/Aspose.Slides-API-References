@@ -11,13 +11,17 @@ url: /aspose.slides/ppimage/
 
  Represents an image in a presentation.
  
-| [dispose] () | Disposes object. |
+| Name | Description |
+| --- | --- |
+| dispose () | Disposes object. |
 
 
 ---
 
 
-| [getBinaryData] () | Returns the copy of an image's data. Read-only byte[]. |
+| Name | Description |
+| --- | --- |
+| getBinaryData () | Returns the copy of an image's data. Read-only byte[]. |
 
 ### Result
 byte
@@ -26,7 +30,9 @@ byte
 ---
 
 
-| [getContentType] () | Returns a MIME type of an image, encoded in BinaryData( #getBinaryData). Read-only String. |
+| Name | Description |
+| --- | --- |
+| getContentType () | Returns a MIME type of an image, encoded in BinaryData( #getBinaryData). Read-only String. |
 
 ### Result
 String
@@ -35,7 +41,9 @@ String
 ---
 
 
-| [getHeight] () | Returns a height of an image. Read-only int. |
+| Name | Description |
+| --- | --- |
+| getHeight () | Returns a height of an image. Read-only int. |
 
 ### Result
 int
@@ -44,16 +52,20 @@ int
 ---
 
 
-| [getSvgImage] () | Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
+| Name | Description |
+| --- | --- |
+| getSvgImage () | Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
 
 ### Result
-[SvgImage]
+SvgImage(../../svgimage)
 
 
 ---
 
 
-| [getSystemImage] () | Returns the copy of an image. Read-only java.awt.image.BufferedImage. |
+| Name | Description |
+| --- | --- |
+| getSystemImage () | Returns the copy of an image. Read-only java.awt.image.BufferedImage. |
 
 ### Result
 BufferedImage
@@ -62,7 +74,9 @@ BufferedImage
 ---
 
 
-| [getWidth] () | Returns a width of an image. Read-only int. |
+| Name | Description |
+| --- | --- |
+| getWidth () | Returns a width of an image. Read-only int. |
 
 ### Result
 int
@@ -71,7 +85,9 @@ int
 ---
 
 
-| [getX] () | Returns a X-offset of an image. Read-only int. |
+| Name | Description |
+| --- | --- |
+| getX () | Returns a X-offset of an image. Read-only int. |
 
 ### Result
 int
@@ -80,7 +96,9 @@ int
 ---
 
 
-| [getY] () | Returns a Y-offset of an image. Read-only int. |
+| Name | Description |
+| --- | --- |
+| getY () | Returns a Y-offset of an image. Read-only int. |
 
 ### Result
 int
@@ -89,7 +107,9 @@ int
 ---
 
 
-| [hashCode] () | Returns the hash code of an image. |
+| Name | Description |
+| --- | --- |
+| hashCode () | Returns the hash code of an image. |
 
 ### Result
 int
@@ -98,13 +118,15 @@ int
 ---
 
 
-| [replaceImage] ([byte[]]) | Replaces image data. |
+| Name | Description |
+| --- | --- |
+| replaceImage (byte[]) | Replaces image data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| newImageData | [byte[]] | The new image's data. |
+| newImageData | byte[] | The new image's data. |
 
 ### Error
 
@@ -116,13 +138,15 @@ int
 ---
 
 
-| [replaceImage] ([PPImage]) | Replaces image data. |
+| Name | Description |
+| --- | --- |
+| replaceImage (PPImage(../ppimage)) | Replaces image data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| newImage | [PPImage] | The new IPPImage. |
+| newImage | PPImage(../../ppimage) | The new IPPImage. |
 
 ### Error
 
@@ -134,7 +158,9 @@ int
 ---
 
 
-| [setSvgImage] ([SvgImage]) | Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
+| Name | Description |
+| --- | --- |
+| setSvgImage (SvgImage(../svgimage)) | Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
 
 
 ---

@@ -11,7 +11,9 @@ url: /aspose.slides/coloreffect/
 
  Represents a color effect for an animation behavior.
  
-| [ColorEffect]() | Creates new instance. |
+| Name | Description |
+| --- | --- |
+| ColorEffect() | Creates new instance. |
 
 ### Result
 ColorEffect
@@ -20,25 +22,20 @@ ColorEffect
 ---
 
 
-| [getBy] () | Describes the relative offset value for the color animation. Read/write IColorOffset. |
+| Name | Description |
+| --- | --- |
+| getBy () | Describes the relative offset value for the color animation. Read/write IColorOffset. |
 
 ### Result
-[ColorOffset]
+ColorOffset(../../coloroffset)
 
 
 ---
 
 
-| [getColorSpace] () | Represent color space of behavior. Read/write ColorSpace. |
-
-### Result
-int
-
-
----
-
-
-| [getDirection] () | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
+| Name | Description |
+| --- | --- |
+| getColorSpace () | Represent color space of behavior. Read/write ColorSpace. |
 
 ### Result
 int
@@ -47,49 +44,74 @@ int
 ---
 
 
-| [getFrom] () | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getDirection () | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
 
 ### Result
-[ColorFormat]
+int
 
 
 ---
 
 
-| [getTo] () | Describes resulting color for the animation color change. Read/write IColorFormat. |
+| Name | Description |
+| --- | --- |
+| getFrom () | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
 
 ### Result
-[ColorFormat]
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [setBy] ([ColorOffset]) | Describes the relative offset value for the color animation. Read/write IColorOffset. |
+| Name | Description |
+| --- | --- |
+| getTo () | Describes resulting color for the animation color change. Read/write IColorFormat. |
+
+### Result
+ColorFormat(../../colorformat)
 
 
 ---
 
 
-| [setColorSpace] ([int]) | Represent color space of behavior. Read/write ColorSpace. |
+| Name | Description |
+| --- | --- |
+| setBy (ColorOffset(../coloroffset)) | Describes the relative offset value for the color animation. Read/write IColorOffset. |
 
 
 ---
 
 
-| [setDirection] ([int]) | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
+| Name | Description |
+| --- | --- |
+| setColorSpace (int) | Represent color space of behavior. Read/write ColorSpace. |
 
 
 ---
 
 
-| [setFrom] ([ColorFormat]) | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
+| Name | Description |
+| --- | --- |
+| setDirection (int) | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
 
 
 ---
 
 
-| [setTo] ([ColorFormat]) | Describes resulting color for the animation color change. Read/write IColorFormat. |
+| Name | Description |
+| --- | --- |
+| setFrom (ColorFormat(../colorformat)) | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
+
+
+---
+
+
+| Name | Description |
+| --- | --- |
+| setTo (ColorFormat(../colorformat)) | Describes resulting color for the animation color change. Read/write IColorFormat. |
 
 
 ---

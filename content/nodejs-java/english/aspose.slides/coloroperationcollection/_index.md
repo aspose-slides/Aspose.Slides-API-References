@@ -11,53 +11,63 @@ url: /aspose.slides/coloroperationcollection/
 
  Represents a collection of color transform operations.
  
-| [add] ([int], [float]) | Adds a new operation to the end of collection. |
+| Name | Description |
+| --- | --- |
+| add (int, float) | Adds a new operation to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [int] | Operation type. |
-| parameter | [float] | Operation's parameter. |
+| operation | int | Operation type. |
+| parameter | float | Operation's parameter. |
 
 ### Result
-[ColorOperation]
+ColorOperation(../../coloroperation)
 
 
 ---
 
 
-| [add] ([int]) | Adds a new operation to the end of collection. |
+| Name | Description |
+| --- | --- |
+| add (int) | Adds a new operation to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [int] | Operation type. |
+| operation | int | Operation type. |
 
 ### Result
-[ColorOperation]
+ColorOperation(../../coloroperation)
 
 
 ---
 
 
-| [clear] () | Removes all color operations. |
+| Name | Description |
+| --- | --- |
+| clear () | Removes all color operations. |
 
 
 ---
 
 
-| [cloneT] () | Clones current object |
+| Name | Description |
+| --- | --- |
+| cloneT () | Clones current object |
 
 ### Result
-[ColorOperationCollection]
+ColorOperationCollection(../../coloroperationcollection)
 
 
 ---
 
 
-| [deepClone] () | Creates a copy of a ColorOperationCollection collection. |
+| Name | Description |
+| --- | --- |
+| deepClone () | Creates a copy of a ColorOperationCollection collection. |
 
 ### Result
 Object
@@ -66,7 +76,9 @@ Object
 ---
 
 
-| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -75,49 +87,57 @@ Object
 ---
 
 
-| [get_Item] ([int]) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
 
 ### Result
-[ColorOperation]
+ColorOperation(../../coloroperation)
 
 
 ---
 
 
-| [insert] ([int], [int], [float]) | Inserts the new operation to a collection. |
+| Name | Description |
+| --- | --- |
+| insert (int, int, float) | Inserts the new operation to a collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| position | [int] | The index at which the operation will be inserted. |
-| operation | [int] | Operation type. |
-| parameter | [float] | Operation's parameter. |
+| position | int | The index at which the operation will be inserted. |
+| operation | int | Operation type. |
+| parameter | float | Operation's parameter. |
 
 ### Result
-[ColorOperation]
+ColorOperation(../../coloroperation)
 
 
 ---
 
 
-| [insert] ([int], [int]) | Inserts the new operation to a collection. |
+| Name | Description |
+| --- | --- |
+| insert (int, int) | Inserts the new operation to a collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| position | [int] | The index at which the operation will be inserted. |
-| operation | [int] | Operation type. |
+| position | int | The index at which the operation will be inserted. |
+| operation | int | Operation type. |
 
 ### Result
-[ColorOperation]
+ColorOperation(../../coloroperation)
 
 
 ---
 
 
-| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -126,7 +146,9 @@ boolean
 ---
 
 
-| [iterator] () | Returns an enumerator that iterates through the collection. |
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -135,7 +157,9 @@ boolean
 ---
 
 
-| [iteratorJava] () | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -144,25 +168,31 @@ boolean
 ---
 
 
-| [removeAt] ([int]) | Removes the color operation from a collection. |
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes the color operation from a collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | [int] | Index of a color operation to remove. |
+| index | int | Index of a color operation to remove. |
 
 
 ---
 
 
-| [set_Item] ([int], [ColorOperation]) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
+| Name | Description |
+| --- | --- |
+| set_Item (int, ColorOperation(../coloroperation)) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
 
 
 ---
 
 
-| [size] () | Returns the number of operations in a collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| size () | Returns the number of operations in a collection. Read-only int. |
 
 ### Result
 int

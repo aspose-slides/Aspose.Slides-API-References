@@ -11,7 +11,9 @@ url: /aspose.slides/customxmlpart/
 
  Represents custom xml part.
  
-| [getItemId] () | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only java.util.UUID. |
+| Name | Description |
+| --- | --- |
+| getItemId () | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only java.util.UUID. |
 
 ### Result
 UUID
@@ -20,7 +22,9 @@ UUID
 ---
 
 
-| [getNamespaceSchemas] () | Returns the collection XML schemas that are associated with the custom XML part. Read-only String[]. |
+| Name | Description |
+| --- | --- |
+| getNamespaceSchemas () | Returns the collection XML schemas that are associated with the custom XML part. Read-only String[]. |
 
 ### Result
 String
@@ -29,7 +33,9 @@ String
 ---
 
 
-| [getXmlAsString] () | Returns or sets xml data as UTF-8 string. Read/write String. |
+| Name | Description |
+| --- | --- |
+| getXmlAsString () | Returns or sets xml data as UTF-8 string. Read/write String. |
 
 ### Result
 String
@@ -44,7 +50,9 @@ String
 ---
 
 
-| [getXmlData] () | Returns or sets xml data. Read/write byte[]. |
+| Name | Description |
+| --- | --- |
+| getXmlData () | Returns or sets xml data. Read/write byte[]. |
 
 ### Result
 byte
@@ -59,7 +67,9 @@ byte
 ---
 
 
-| [remove] () | Removes the custom xml part from the presentation. |
+| Name | Description |
+| --- | --- |
+| remove () | Removes the custom xml part from the presentation. |
 
 ### Error
 
@@ -71,13 +81,17 @@ byte
 ---
 
 
-| [setItemId] ([UUID]) | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only java.util.UUID. |
+| Name | Description |
+| --- | --- |
+| setItemId (UUID) | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only java.util.UUID. |
 
 
 ---
 
 
-| [setXmlAsString] ([String]) | Returns or sets xml data as UTF-8 string. Read/write String. |
+| Name | Description |
+| --- | --- |
+| setXmlAsString (String) | Returns or sets xml data as UTF-8 string. Read/write String. |
 
 ### Error
 
@@ -89,7 +103,9 @@ byte
 ---
 
 
-| [setXmlData] ([byte[]]) | Returns or sets xml data. Read/write byte[]. |
+| Name | Description |
+| --- | --- |
+| setXmlData (byte[]) | Returns or sets xml data. Read/write byte[]. |
 
 ### Error
 

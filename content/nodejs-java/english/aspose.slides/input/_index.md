@@ -11,14 +11,16 @@ url: /aspose.slides/input/
 
  Represents a collection of input elements (templates).
  
-| [addTemplate] ([String], [String]) | Adds a template to the collection. |
+| Name | Description |
+| --- | --- |
+| addTemplate (String, String) | Adds a template to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| key | [String] | Key for the template in the collection. |
-| path | [String] | Path to the template file. |
+| key | String | Key for the template in the collection. |
+| path | String | Path to the template file. |
 
 
 ---
