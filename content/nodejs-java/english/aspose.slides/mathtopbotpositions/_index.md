@@ -16,28 +16,31 @@ url: /aspose.slides/mathtopbotpositions/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | 0 | Not defined |
-| [Top](#Top) | 1 | Top |
-| [Bottom](#Bottom) | 2 | Bottom |
+[NotDefined](#NotDefined) | 0 | Not defined |
+[Top](#Top) | 1 | Top |
+[Bottom](#Bottom) | 2 | Bottom |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| 0 | Not defined |
+| --- | --- | --- |
+ | NotDefined | 0 | Not defined |
 
 
 ---
 
 ### Top {#Top}
-| Top| 1 | Top |
+| --- | --- | --- |
+ | Top | 1 | Top |
 
 
 ---
 
 ### Bottom {#Bottom}
-| Bottom| 2 | Bottom |
+| --- | --- | --- |
+ | Bottom | 2 | Bottom |
 
 
 ---

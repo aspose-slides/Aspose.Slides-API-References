@@ -16,21 +16,23 @@ url: /aspose.slides/categoryaxistype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Text](#Text) | 0 | Specifies category axis is a text axis. |
-| [Date](#Date) | 1 | Specifies category axis is a date axis. |
+[Text](#Text) | 0 | Specifies category axis is a text axis. |
+[Date](#Date) | 1 | Specifies category axis is a date axis. |
 
 
 ---
 
 
 ### Text {#Text}
-| Text| 0 | Specifies category axis is a text axis. |
+| --- | --- | --- |
+ | Text | 0 | Specifies category axis is a text axis. |
 
 
 ---
 
 ### Date {#Date}
-| Date| 1 | Specifies category axis is a date axis. |
+| --- | --- | --- |
+ | Date | 1 | Specifies category axis is a date axis. |
 
 
 ---

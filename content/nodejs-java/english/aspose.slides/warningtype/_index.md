@@ -16,49 +16,55 @@ url: /aspose.slides/warningtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [SourceFileCorruption](#SourceFileCorruption) | 0 | An issue has been detected in the source document which makes it very likely the document will be not be able to be opened if saved in it's original format. |
-| [DataLoss](#DataLoss) | 1 | Text/chart/image or other data will be completely missing from either the document tree following load, or the created document following save. |
-| [MajorFormattingLoss](#MajorFormattingLoss) | 2 | Major formatting loss. |
-| [MinorFormattingLoss](#MinorFormattingLoss) | 3 | Minor formatting loss. |
-| [CompatibilityIssue](#CompatibilityIssue) | 4 | This is known issue that will prevent the document being opened by certain user agents, or previous versions of user agents. |
-| [UnexpectedContent](#UnexpectedContent) | 99 | Some content in the source document could not be recognised (i.e. is unsupported), this may or may not cause issues or result in data/formatting loss. |
+[SourceFileCorruption](#SourceFileCorruption) | 0 | An issue has been detected in the source document which makes it very likely the document will be not be able to be opened if saved in it's original format. |
+[DataLoss](#DataLoss) | 1 | Text/chart/image or other data will be completely missing from either the document tree following load, or the created document following save. |
+[MajorFormattingLoss](#MajorFormattingLoss) | 2 | Major formatting loss. |
+[MinorFormattingLoss](#MinorFormattingLoss) | 3 | Minor formatting loss. |
+[CompatibilityIssue](#CompatibilityIssue) | 4 | This is known issue that will prevent the document being opened by certain user agents, or previous versions of user agents. |
+[UnexpectedContent](#UnexpectedContent) | 99 | Some content in the source document could not be recognised (i.e. is unsupported), this may or may not cause issues or result in data/formatting loss. |
 
 
 ---
 
 
 ### SourceFileCorruption {#SourceFileCorruption}
-| SourceFileCorruption| 0 | An issue has been detected in the source document which makes it very likely the document will be not be able to be opened if saved in it's original format. |
+| --- | --- | --- |
+ | SourceFileCorruption | 0 | An issue has been detected in the source document which makes it very likely the document will be not be able to be opened if saved in it's original format. |
 
 
 ---
 
 ### DataLoss {#DataLoss}
-| DataLoss| 1 | Text/chart/image or other data will be completely missing from either the document tree following load, or the created document following save. |
+| --- | --- | --- |
+ | DataLoss | 1 | Text/chart/image or other data will be completely missing from either the document tree following load, or the created document following save. |
 
 
 ---
 
 ### MajorFormattingLoss {#MajorFormattingLoss}
-| MajorFormattingLoss| 2 | Major formatting loss. |
+| --- | --- | --- |
+ | MajorFormattingLoss | 2 | Major formatting loss. |
 
 
 ---
 
 ### MinorFormattingLoss {#MinorFormattingLoss}
-| MinorFormattingLoss| 3 | Minor formatting loss. |
+| --- | --- | --- |
+ | MinorFormattingLoss | 3 | Minor formatting loss. |
 
 
 ---
 
 ### CompatibilityIssue {#CompatibilityIssue}
-| CompatibilityIssue| 4 | This is known issue that will prevent the document being opened by certain user agents, or previous versions of user agents. |
+| --- | --- | --- |
+ | CompatibilityIssue | 4 | This is known issue that will prevent the document being opened by certain user agents, or previous versions of user agents. |
 
 
 ---
 
 ### UnexpectedContent {#UnexpectedContent}
-| UnexpectedContent| 99 | Some content in the source document could not be recognised (i.e. is unsupported), this may or may not cause issues or result in data/formatting loss. |
+| --- | --- | --- |
+ | UnexpectedContent | 99 | Some content in the source document could not be recognised (i.e. is unsupported), this may or may not cause issues or result in data/formatting loss. |
 
 
 ---

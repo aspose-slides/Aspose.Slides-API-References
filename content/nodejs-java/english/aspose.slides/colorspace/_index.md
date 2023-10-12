@@ -16,28 +16,31 @@ url: /aspose.slides/colorspace/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [RGB](#RGB) | 0 |  |
-| [HSL](#HSL) | 1 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[RGB](#RGB) | 0 |  |
+[HSL](#HSL) | 1 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### RGB {#RGB}
-| RGB| 0 |  |
+| --- | --- | --- |
+ | RGB | 0 |  |
 
 
 ---
 
 ### HSL {#HSL}
-| HSL| 1 |  |
+| --- | --- | --- |
+ | HSL | 1 |  |
 
 
 ---

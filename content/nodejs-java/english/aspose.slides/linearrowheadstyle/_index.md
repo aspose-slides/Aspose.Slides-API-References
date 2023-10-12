@@ -16,56 +16,63 @@ url: /aspose.slides/linearrowheadstyle/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [None](#None) | 0 |  |
-| [Triangle](#Triangle) | 1 |  |
-| [Stealth](#Stealth) | 2 |  |
-| [Diamond](#Diamond) | 3 |  |
-| [Oval](#Oval) | 4 |  |
-| [Open](#Open) | 5 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[None](#None) | 0 |  |
+[Triangle](#Triangle) | 1 |  |
+[Stealth](#Stealth) | 2 |  |
+[Diamond](#Diamond) | 3 |  |
+[Oval](#Oval) | 4 |  |
+[Open](#Open) | 5 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### None {#None}
-| None| 0 |  |
+| --- | --- | --- |
+ | None | 0 |  |
 
 
 ---
 
 ### Triangle {#Triangle}
-| Triangle| 1 |  |
+| --- | --- | --- |
+ | Triangle | 1 |  |
 
 
 ---
 
 ### Stealth {#Stealth}
-| Stealth| 2 |  |
+| --- | --- | --- |
+ | Stealth | 2 |  |
 
 
 ---
 
 ### Diamond {#Diamond}
-| Diamond| 3 |  |
+| --- | --- | --- |
+ | Diamond | 3 |  |
 
 
 ---
 
 ### Oval {#Oval}
-| Oval| 4 |  |
+| --- | --- | --- |
+ | Oval | 4 |  |
 
 
 ---
 
 ### Open {#Open}
-| Open| 5 |  |
+| --- | --- | --- |
+ | Open | 5 |  |
 
 
 ---

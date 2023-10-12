@@ -16,119 +16,135 @@ url: /aspose.slides/materialpresettype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [Clear](#Clear) | 0 |  |
-| [DkEdge](#DkEdge) | 1 |  |
-| [Flat](#Flat) | 2 |  |
-| [LegacyMatte](#LegacyMatte) | 3 |  |
-| [LegacyMetal](#LegacyMetal) | 4 |  |
-| [LegacyPlastic](#LegacyPlastic) | 5 |  |
-| [LegacyWireframe](#LegacyWireframe) | 6 |  |
-| [Matte](#Matte) | 7 |  |
-| [Metal](#Metal) | 8 |  |
-| [Plastic](#Plastic) | 9 |  |
-| [Powder](#Powder) | 10 |  |
-| [SoftEdge](#SoftEdge) | 11 |  |
-| [Softmetal](#Softmetal) | 12 |  |
-| [TranslucentPowder](#TranslucentPowder) | 13 |  |
-| [WarmMatte](#WarmMatte) | 14 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Clear](#Clear) | 0 |  |
+[DkEdge](#DkEdge) | 1 |  |
+[Flat](#Flat) | 2 |  |
+[LegacyMatte](#LegacyMatte) | 3 |  |
+[LegacyMetal](#LegacyMetal) | 4 |  |
+[LegacyPlastic](#LegacyPlastic) | 5 |  |
+[LegacyWireframe](#LegacyWireframe) | 6 |  |
+[Matte](#Matte) | 7 |  |
+[Metal](#Metal) | 8 |  |
+[Plastic](#Plastic) | 9 |  |
+[Powder](#Powder) | 10 |  |
+[SoftEdge](#SoftEdge) | 11 |  |
+[Softmetal](#Softmetal) | 12 |  |
+[TranslucentPowder](#TranslucentPowder) | 13 |  |
+[WarmMatte](#WarmMatte) | 14 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### Clear {#Clear}
-| Clear| 0 |  |
+| --- | --- | --- |
+ | Clear | 0 |  |
 
 
 ---
 
 ### DkEdge {#DkEdge}
-| DkEdge| 1 |  |
+| --- | --- | --- |
+ | DkEdge | 1 |  |
 
 
 ---
 
 ### Flat {#Flat}
-| Flat| 2 |  |
+| --- | --- | --- |
+ | Flat | 2 |  |
 
 
 ---
 
 ### LegacyMatte {#LegacyMatte}
-| LegacyMatte| 3 |  |
+| --- | --- | --- |
+ | LegacyMatte | 3 |  |
 
 
 ---
 
 ### LegacyMetal {#LegacyMetal}
-| LegacyMetal| 4 |  |
+| --- | --- | --- |
+ | LegacyMetal | 4 |  |
 
 
 ---
 
 ### LegacyPlastic {#LegacyPlastic}
-| LegacyPlastic| 5 |  |
+| --- | --- | --- |
+ | LegacyPlastic | 5 |  |
 
 
 ---
 
 ### LegacyWireframe {#LegacyWireframe}
-| LegacyWireframe| 6 |  |
+| --- | --- | --- |
+ | LegacyWireframe | 6 |  |
 
 
 ---
 
 ### Matte {#Matte}
-| Matte| 7 |  |
+| --- | --- | --- |
+ | Matte | 7 |  |
 
 
 ---
 
 ### Metal {#Metal}
-| Metal| 8 |  |
+| --- | --- | --- |
+ | Metal | 8 |  |
 
 
 ---
 
 ### Plastic {#Plastic}
-| Plastic| 9 |  |
+| --- | --- | --- |
+ | Plastic | 9 |  |
 
 
 ---
 
 ### Powder {#Powder}
-| Powder| 10 |  |
+| --- | --- | --- |
+ | Powder | 10 |  |
 
 
 ---
 
 ### SoftEdge {#SoftEdge}
-| SoftEdge| 11 |  |
+| --- | --- | --- |
+ | SoftEdge | 11 |  |
 
 
 ---
 
 ### Softmetal {#Softmetal}
-| Softmetal| 12 |  |
+| --- | --- | --- |
+ | Softmetal | 12 |  |
 
 
 ---
 
 ### TranslucentPowder {#TranslucentPowder}
-| TranslucentPowder| 13 |  |
+| --- | --- | --- |
+ | TranslucentPowder | 13 |  |
 
 
 ---
 
 ### WarmMatte {#WarmMatte}
-| WarmMatte| 14 |  |
+| --- | --- | --- |
+ | WarmMatte | 14 |  |
 
 
 ---

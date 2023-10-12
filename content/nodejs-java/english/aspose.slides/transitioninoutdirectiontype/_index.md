@@ -16,21 +16,23 @@ url: /aspose.slides/transitioninoutdirectiontype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [In](#In) | 0 |  |
-| [Out](#Out) | 1 |  |
+[In](#In) | 0 |  |
+[Out](#Out) | 1 |  |
 
 
 ---
 
 
 ### In {#In}
-| In| 0 |  |
+| --- | --- | --- |
+ | In | 0 |  |
 
 
 ---
 
 ### Out {#Out}
-| Out| 1 |  |
+| --- | --- | --- |
+ | Out | 1 |  |
 
 
 ---

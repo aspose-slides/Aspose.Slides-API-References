@@ -16,21 +16,23 @@ url: /aspose.slides/transitionpattern/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Diamond](#Diamond) | 0 | Diamond tile pattern |
-| [Hexagon](#Hexagon) | 1 | Hexagon tile pattern |
+[Diamond](#Diamond) | 0 | Diamond tile pattern |
+[Hexagon](#Hexagon) | 1 | Hexagon tile pattern |
 
 
 ---
 
 
 ### Diamond {#Diamond}
-| Diamond| 0 | Diamond tile pattern |
+| --- | --- | --- |
+ | Diamond | 0 | Diamond tile pattern |
 
 
 ---
 
 ### Hexagon {#Hexagon}
-| Hexagon| 1 | Hexagon tile pattern |
+| --- | --- | --- |
+ | Hexagon | 1 | Hexagon tile pattern |
 
 
 ---

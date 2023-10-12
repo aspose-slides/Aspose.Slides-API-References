@@ -16,42 +16,47 @@ url: /aspose.slides/audiovolumemode/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Mixed](#Mixed) | -1 |  |
-| [Mute](#Mute) | 0 | Zero sound volume. |
-| [Low](#Low) | 1 | Low sound volume. |
-| [Medium](#Medium) | 2 | Medium sound volume. |
-| [Loud](#Loud) | 3 | Loud sound volume. |
+[Mixed](#Mixed) | -1 |  |
+[Mute](#Mute) | 0 | Zero sound volume. |
+[Low](#Low) | 1 | Low sound volume. |
+[Medium](#Medium) | 2 | Medium sound volume. |
+[Loud](#Loud) | 3 | Loud sound volume. |
 
 
 ---
 
 
 ### Mixed {#Mixed}
-| Mixed| -1 |  |
+| --- | --- | --- |
+ | Mixed | -1 |  |
 
 
 ---
 
 ### Mute {#Mute}
-| Mute| 0 | Zero sound volume. |
+| --- | --- | --- |
+ | Mute | 0 | Zero sound volume. |
 
 
 ---
 
 ### Low {#Low}
-| Low| 1 | Low sound volume. |
+| --- | --- | --- |
+ | Low | 1 | Low sound volume. |
 
 
 ---
 
 ### Medium {#Medium}
-| Medium| 2 | Medium sound volume. |
+| --- | --- | --- |
+ | Medium | 2 | Medium sound volume. |
 
 
 ---
 
 ### Loud {#Loud}
-| Loud| 3 | Loud sound volume. |
+| --- | --- | --- |
+ | Loud | 3 | Loud sound volume. |
 
 
 ---

@@ -16,35 +16,39 @@ url: /aspose.slides/commandeffecttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [Event](#Event) | 0 |  |
-| [Call](#Call) | 1 |  |
-| [Verb](#Verb) | 2 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Event](#Event) | 0 |  |
+[Call](#Call) | 1 |  |
+[Verb](#Verb) | 2 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### Event {#Event}
-| Event| 0 |  |
+| --- | --- | --- |
+ | Event | 0 |  |
 
 
 ---
 
 ### Call {#Call}
-| Call| 1 |  |
+| --- | --- | --- |
+ | Call | 1 |  |
 
 
 ---
 
 ### Verb {#Verb}
-| Verb| 2 |  |
+| --- | --- | --- |
+ | Verb | 2 |  |
 
 
 ---

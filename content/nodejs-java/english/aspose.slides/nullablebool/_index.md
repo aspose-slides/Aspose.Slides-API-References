@@ -16,28 +16,31 @@ url: /aspose.slides/nullablebool/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 | Boolean value is undefined. |
-| [False](#False) | 0 | False value. |
-| [True](#True) | 1 | True value. |
+[NotDefined](#NotDefined) | -1 | Boolean value is undefined. |
+[False](#False) | 0 | False value. |
+[True](#True) | 1 | True value. |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 | Boolean value is undefined. |
+| --- | --- | --- |
+ | NotDefined | -1 | Boolean value is undefined. |
 
 
 ---
 
 ### False {#False}
-| False| 0 | False value. |
+| --- | --- | --- |
+ | False | 0 | False value. |
 
 
 ---
 
 ### True {#True}
-| True| 1 | True value. |
+| --- | --- | --- |
+ | True | 1 | True value. |
 
 
 ---

@@ -16,49 +16,55 @@ url: /aspose.slides/effectpresetclasstype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Entrance](#Entrance) | 0 | Entrance effects class. Target shape types: All |
-| [Exit](#Exit) | 1 | Exit effects class. Target shape types: All |
-| [Emphasis](#Emphasis) | 2 | Emphasis effects class. Target shape types: All |
-| [Path](#Path) | 3 | Motion Paths class. Target shape types: All |
-| [MediaCall](#MediaCall) | 4 | Media effects class. Target shape types: IVideoFrame, IAudioFrame |
-| [OLEActionVerbs](#OLEActionVerbs) | 5 | OLE Action Verbs class. Target shape types: IOleObjectFrame |
+[Entrance](#Entrance) | 0 | Entrance effects class. Target shape types: All |
+[Exit](#Exit) | 1 | Exit effects class. Target shape types: All |
+[Emphasis](#Emphasis) | 2 | Emphasis effects class. Target shape types: All |
+[Path](#Path) | 3 | Motion Paths class. Target shape types: All |
+[MediaCall](#MediaCall) | 4 | Media effects class. Target shape types: IVideoFrame, IAudioFrame |
+[OLEActionVerbs](#OLEActionVerbs) | 5 | OLE Action Verbs class. Target shape types: IOleObjectFrame |
 
 
 ---
 
 
 ### Entrance {#Entrance}
-| Entrance| 0 | Entrance effects class. Target shape types: All |
+| --- | --- | --- |
+ | Entrance | 0 | Entrance effects class. Target shape types: All |
 
 
 ---
 
 ### Exit {#Exit}
-| Exit| 1 | Exit effects class. Target shape types: All |
+| --- | --- | --- |
+ | Exit | 1 | Exit effects class. Target shape types: All |
 
 
 ---
 
 ### Emphasis {#Emphasis}
-| Emphasis| 2 | Emphasis effects class. Target shape types: All |
+| --- | --- | --- |
+ | Emphasis | 2 | Emphasis effects class. Target shape types: All |
 
 
 ---
 
 ### Path {#Path}
-| Path| 3 | Motion Paths class. Target shape types: All |
+| --- | --- | --- |
+ | Path | 3 | Motion Paths class. Target shape types: All |
 
 
 ---
 
 ### MediaCall {#MediaCall}
-| MediaCall| 4 | Media effects class. Target shape types: IVideoFrame, IAudioFrame |
+| --- | --- | --- |
+ | MediaCall | 4 | Media effects class. Target shape types: IVideoFrame, IAudioFrame |
 
 
 ---
 
 ### OLEActionVerbs {#OLEActionVerbs}
-| OLEActionVerbs| 5 | OLE Action Verbs class. Target shape types: IOleObjectFrame |
+| --- | --- | --- |
+ | OLEActionVerbs | 5 | OLE Action Verbs class. Target shape types: IOleObjectFrame |
 
 
 ---

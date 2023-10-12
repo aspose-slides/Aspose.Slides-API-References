@@ -16,35 +16,39 @@ url: /aspose.slides/textautofittype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 | Not defined. |
-| [None](#None) | 0 | No autofit. |
-| [Normal](#Normal) | 1 | Normal autofit. Font size and line spacing will be reduced to fit the shape. |
-| [Shape](#Shape) | 2 | Shape autofit. Shape size will be changed to fit the text. |
+[NotDefined](#NotDefined) | -1 | Not defined. |
+[None](#None) | 0 | No autofit. |
+[Normal](#Normal) | 1 | Normal autofit. Font size and line spacing will be reduced to fit the shape. |
+[Shape](#Shape) | 2 | Shape autofit. Shape size will be changed to fit the text. |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 | Not defined. |
+| --- | --- | --- |
+ | NotDefined | -1 | Not defined. |
 
 
 ---
 
 ### None {#None}
-| None| 0 | No autofit. |
+| --- | --- | --- |
+ | None | 0 | No autofit. |
 
 
 ---
 
 ### Normal {#Normal}
-| Normal| 1 | Normal autofit. Font size and line spacing will be reduced to fit the shape. |
+| --- | --- | --- |
+ | Normal | 1 | Normal autofit. Font size and line spacing will be reduced to fit the shape. |
 
 
 ---
 
 ### Shape {#Shape}
-| Shape| 2 | Shape autofit. Shape size will be changed to fit the text. |
+| --- | --- | --- |
+ | Shape | 2 | Shape autofit. Shape size will be changed to fit the text. |
 
 
 ---

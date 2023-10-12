@@ -16,70 +16,79 @@ url: /aspose.slides/lightingdirection/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [TopLeft](#TopLeft) | 0 |  |
-| [Top](#Top) | 1 |  |
-| [TopRight](#TopRight) | 2 |  |
-| [Right](#Right) | 3 |  |
-| [BottomRight](#BottomRight) | 4 |  |
-| [Bottom](#Bottom) | 5 |  |
-| [BottomLeft](#BottomLeft) | 6 |  |
-| [Left](#Left) | 7 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[TopLeft](#TopLeft) | 0 |  |
+[Top](#Top) | 1 |  |
+[TopRight](#TopRight) | 2 |  |
+[Right](#Right) | 3 |  |
+[BottomRight](#BottomRight) | 4 |  |
+[Bottom](#Bottom) | 5 |  |
+[BottomLeft](#BottomLeft) | 6 |  |
+[Left](#Left) | 7 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### TopLeft {#TopLeft}
-| TopLeft| 0 |  |
+| --- | --- | --- |
+ | TopLeft | 0 |  |
 
 
 ---
 
 ### Top {#Top}
-| Top| 1 |  |
+| --- | --- | --- |
+ | Top | 1 |  |
 
 
 ---
 
 ### TopRight {#TopRight}
-| TopRight| 2 |  |
+| --- | --- | --- |
+ | TopRight | 2 |  |
 
 
 ---
 
 ### Right {#Right}
-| Right| 3 |  |
+| --- | --- | --- |
+ | Right | 3 |  |
 
 
 ---
 
 ### BottomRight {#BottomRight}
-| BottomRight| 4 |  |
+| --- | --- | --- |
+ | BottomRight | 4 |  |
 
 
 ---
 
 ### Bottom {#Bottom}
-| Bottom| 5 |  |
+| --- | --- | --- |
+ | Bottom | 5 |  |
 
 
 ---
 
 ### BottomLeft {#BottomLeft}
-| BottomLeft| 6 |  |
+| --- | --- | --- |
+ | BottomLeft | 6 |  |
 
 
 ---
 
 ### Left {#Left}
-| Left| 7 |  |
+| --- | --- | --- |
+ | Left | 7 |  |
 
 
 ---

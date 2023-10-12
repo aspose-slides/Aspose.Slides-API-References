@@ -16,49 +16,55 @@ url: /aspose.slides/pathcommandtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Close](#Close) | 0 | Closes geometry path |
-| [MoveTo](#MoveTo) | 1 | Sets next point position of the geometry path |
-| [LineTo](#LineTo) | 2 | Appends line to the geometry path |
-| [ArcTo](#ArcTo) | 3 | Appends the specified arc to the geometry path. |
-| [QuadBezierTo](#QuadBezierTo) | 4 | Appends quadratic Bezier curve to the geometry path |
-| [CubicBezierTo](#CubicBezierTo) | 5 | Appends cubic Bezier curve to the geometry path |
+[Close](#Close) | 0 | Closes geometry path |
+[MoveTo](#MoveTo) | 1 | Sets next point position of the geometry path |
+[LineTo](#LineTo) | 2 | Appends line to the geometry path |
+[ArcTo](#ArcTo) | 3 | Appends the specified arc to the geometry path. |
+[QuadBezierTo](#QuadBezierTo) | 4 | Appends quadratic Bezier curve to the geometry path |
+[CubicBezierTo](#CubicBezierTo) | 5 | Appends cubic Bezier curve to the geometry path |
 
 
 ---
 
 
 ### Close {#Close}
-| Close| 0 | Closes geometry path |
+| --- | --- | --- |
+ | Close | 0 | Closes geometry path |
 
 
 ---
 
 ### MoveTo {#MoveTo}
-| MoveTo| 1 | Sets next point position of the geometry path |
+| --- | --- | --- |
+ | MoveTo | 1 | Sets next point position of the geometry path |
 
 
 ---
 
 ### LineTo {#LineTo}
-| LineTo| 2 | Appends line to the geometry path |
+| --- | --- | --- |
+ | LineTo | 2 | Appends line to the geometry path |
 
 
 ---
 
 ### ArcTo {#ArcTo}
-| ArcTo| 3 | Appends the specified arc to the geometry path. |
+| --- | --- | --- |
+ | ArcTo | 3 | Appends the specified arc to the geometry path. |
 
 
 ---
 
 ### QuadBezierTo {#QuadBezierTo}
-| QuadBezierTo| 4 | Appends quadratic Bezier curve to the geometry path |
+| --- | --- | --- |
+ | QuadBezierTo | 4 | Appends quadratic Bezier curve to the geometry path |
 
 
 ---
 
 ### CubicBezierTo {#CubicBezierTo}
-| CubicBezierTo| 5 | Appends cubic Bezier curve to the geometry path |
+| --- | --- | --- |
+ | CubicBezierTo | 5 | Appends cubic Bezier curve to the geometry path |
 
 
 ---

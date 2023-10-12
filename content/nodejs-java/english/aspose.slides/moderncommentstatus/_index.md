@@ -16,35 +16,39 @@ url: /aspose.slides/moderncommentstatus/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | 0 | Not Defined. |
-| [Active](#Active) | 1 | Active. |
-| [Resolved](#Resolved) | 2 | Resolved. |
-| [Closed](#Closed) | 3 | Closed. |
+[NotDefined](#NotDefined) | 0 | Not Defined. |
+[Active](#Active) | 1 | Active. |
+[Resolved](#Resolved) | 2 | Resolved. |
+[Closed](#Closed) | 3 | Closed. |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| 0 | Not Defined. |
+| --- | --- | --- |
+ | NotDefined | 0 | Not Defined. |
 
 
 ---
 
 ### Active {#Active}
-| Active| 1 | Active. |
+| --- | --- | --- |
+ | Active | 1 | Active. |
 
 
 ---
 
 ### Resolved {#Resolved}
-| Resolved| 2 | Resolved. |
+| --- | --- | --- |
+ | Resolved | 2 | Resolved. |
 
 
 ---
 
 ### Closed {#Closed}
-| Closed| 3 | Closed. |
+| --- | --- | --- |
+ | Closed | 3 | Closed. |
 
 
 ---

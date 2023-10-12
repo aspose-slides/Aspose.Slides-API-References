@@ -17,28 +17,31 @@ url: /aspose.slides/motionorigintype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [Parent](#Parent) | 0 |  |
-| [Layout](#Layout) | 1 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Parent](#Parent) | 0 |  |
+[Layout](#Layout) | 1 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### Parent {#Parent}
-| Parent| 0 |  |
+| --- | --- | --- |
+ | Parent | 0 |  |
 
 
 ---
 
 ### Layout {#Layout}
-| Layout| 1 |  |
+| --- | --- | --- |
+ | Layout | 1 |  |
 
 
 ---

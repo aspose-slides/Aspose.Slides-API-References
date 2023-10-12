@@ -16,35 +16,39 @@ url: /aspose.slides/tickmarktype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Cross](#Cross) | 0 | Specifies the tick marks shall cross the axis. |
-| [Inside](#Inside) | 1 | Specifies the tick marks shall be inside the plot area. |
-| [None](#None) | 2 | Specifies there shall be no tick marks. |
-| [Outside](#Outside) | 3 | Specifies the tick marks shall be outside the plot area. |
+[Cross](#Cross) | 0 | Specifies the tick marks shall cross the axis. |
+[Inside](#Inside) | 1 | Specifies the tick marks shall be inside the plot area. |
+[None](#None) | 2 | Specifies there shall be no tick marks. |
+[Outside](#Outside) | 3 | Specifies the tick marks shall be outside the plot area. |
 
 
 ---
 
 
 ### Cross {#Cross}
-| Cross| 0 | Specifies the tick marks shall cross the axis. |
+| --- | --- | --- |
+ | Cross | 0 | Specifies the tick marks shall cross the axis. |
 
 
 ---
 
 ### Inside {#Inside}
-| Inside| 1 | Specifies the tick marks shall be inside the plot area. |
+| --- | --- | --- |
+ | Inside | 1 | Specifies the tick marks shall be inside the plot area. |
 
 
 ---
 
 ### None {#None}
-| None| 2 | Specifies there shall be no tick marks. |
+| --- | --- | --- |
+ | None | 2 | Specifies there shall be no tick marks. |
 
 
 ---
 
 ### Outside {#Outside}
-| Outside| 3 | Specifies the tick marks shall be outside the plot area. |
+| --- | --- | --- |
+ | Outside | 3 | Specifies the tick marks shall be outside the plot area. |
 
 
 ---

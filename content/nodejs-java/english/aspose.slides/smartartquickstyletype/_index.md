@@ -16,105 +16,119 @@ url: /aspose.slides/smartartquickstyletype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [SimpleFill](#SimpleFill) | 0 | SimpleFill |
-| [WhiteOutline](#WhiteOutline) | 1 | WhiteOutline |
-| [SubtleEffect](#SubtleEffect) | 2 | SubtleEffect |
-| [ModerateEffect](#ModerateEffect) | 3 | ModerateEffect |
-| [IntenceEffect](#IntenceEffect) | 4 | IntenceEffect |
-| [Polished](#Polished) | 5 | Polished |
-| [Inset](#Inset) | 6 | Inset |
-| [Cartoon](#Cartoon) | 7 | Cartoon |
-| [Powder](#Powder) | 8 | Powder |
-| [BrickScene](#BrickScene) | 9 | BrickScene |
-| [FlatScene](#FlatScene) | 10 | FlatScene |
-| [MetallicScene](#MetallicScene) | 11 | MetallicScene |
-| [SunsetScene](#SunsetScene) | 12 | SunsetScene |
-| [BirdsEyeScene](#BirdsEyeScene) | 13 | BirdsEyeScene |
+[SimpleFill](#SimpleFill) | 0 | SimpleFill |
+[WhiteOutline](#WhiteOutline) | 1 | WhiteOutline |
+[SubtleEffect](#SubtleEffect) | 2 | SubtleEffect |
+[ModerateEffect](#ModerateEffect) | 3 | ModerateEffect |
+[IntenceEffect](#IntenceEffect) | 4 | IntenceEffect |
+[Polished](#Polished) | 5 | Polished |
+[Inset](#Inset) | 6 | Inset |
+[Cartoon](#Cartoon) | 7 | Cartoon |
+[Powder](#Powder) | 8 | Powder |
+[BrickScene](#BrickScene) | 9 | BrickScene |
+[FlatScene](#FlatScene) | 10 | FlatScene |
+[MetallicScene](#MetallicScene) | 11 | MetallicScene |
+[SunsetScene](#SunsetScene) | 12 | SunsetScene |
+[BirdsEyeScene](#BirdsEyeScene) | 13 | BirdsEyeScene |
 
 
 ---
 
 
 ### SimpleFill {#SimpleFill}
-| SimpleFill| 0 | SimpleFill |
+| --- | --- | --- |
+ | SimpleFill | 0 | SimpleFill |
 
 
 ---
 
 ### WhiteOutline {#WhiteOutline}
-| WhiteOutline| 1 | WhiteOutline |
+| --- | --- | --- |
+ | WhiteOutline | 1 | WhiteOutline |
 
 
 ---
 
 ### SubtleEffect {#SubtleEffect}
-| SubtleEffect| 2 | SubtleEffect |
+| --- | --- | --- |
+ | SubtleEffect | 2 | SubtleEffect |
 
 
 ---
 
 ### ModerateEffect {#ModerateEffect}
-| ModerateEffect| 3 | ModerateEffect |
+| --- | --- | --- |
+ | ModerateEffect | 3 | ModerateEffect |
 
 
 ---
 
 ### IntenceEffect {#IntenceEffect}
-| IntenceEffect| 4 | IntenceEffect |
+| --- | --- | --- |
+ | IntenceEffect | 4 | IntenceEffect |
 
 
 ---
 
 ### Polished {#Polished}
-| Polished| 5 | Polished |
+| --- | --- | --- |
+ | Polished | 5 | Polished |
 
 
 ---
 
 ### Inset {#Inset}
-| Inset| 6 | Inset |
+| --- | --- | --- |
+ | Inset | 6 | Inset |
 
 
 ---
 
 ### Cartoon {#Cartoon}
-| Cartoon| 7 | Cartoon |
+| --- | --- | --- |
+ | Cartoon | 7 | Cartoon |
 
 
 ---
 
 ### Powder {#Powder}
-| Powder| 8 | Powder |
+| --- | --- | --- |
+ | Powder | 8 | Powder |
 
 
 ---
 
 ### BrickScene {#BrickScene}
-| BrickScene| 9 | BrickScene |
+| --- | --- | --- |
+ | BrickScene | 9 | BrickScene |
 
 
 ---
 
 ### FlatScene {#FlatScene}
-| FlatScene| 10 | FlatScene |
+| --- | --- | --- |
+ | FlatScene | 10 | FlatScene |
 
 
 ---
 
 ### MetallicScene {#MetallicScene}
-| MetallicScene| 11 | MetallicScene |
+| --- | --- | --- |
+ | MetallicScene | 11 | MetallicScene |
 
 
 ---
 
 ### SunsetScene {#SunsetScene}
-| SunsetScene| 12 | SunsetScene |
+| --- | --- | --- |
+ | SunsetScene | 12 | SunsetScene |
 
 
 ---
 
 ### BirdsEyeScene {#BirdsEyeScene}
-| BirdsEyeScene| 13 | BirdsEyeScene |
+| --- | --- | --- |
+ | BirdsEyeScene | 13 | BirdsEyeScene |
 
 
 ---

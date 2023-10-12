@@ -16,28 +16,31 @@ url: /aspose.slides/newlinetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Windows](#Windows) | 0 |  |
-| [Unix](#Unix) | 1 |  |
-| [Mac](#Mac) | 2 | Mac (OS 9) new line - \r |
+[Windows](#Windows) | 0 |  |
+[Unix](#Unix) | 1 |  |
+[Mac](#Mac) | 2 | Mac (OS 9) new line - \r |
 
 
 ---
 
 
 ### Windows {#Windows}
-| Windows| 0 |  |
+| --- | --- | --- |
+ | Windows | 0 |  |
 
 
 ---
 
 ### Unix {#Unix}
-| Unix| 1 |  |
+| --- | --- | --- |
+ | Unix | 1 |  |
 
 
 ---
 
 ### Mac {#Mac}
-| Mac| 2 | Mac (OS 9) new line - \r |
+| --- | --- | --- |
+ | Mac | 2 | Mac (OS 9) new line - \r |
 
 
 ---

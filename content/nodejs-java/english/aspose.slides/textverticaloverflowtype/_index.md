@@ -16,35 +16,39 @@ url: /aspose.slides/textverticaloverflowtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [Overflow](#Overflow) | 0 |  |
-| [Ellipsis](#Ellipsis) | 1 |  |
-| [Clip](#Clip) | 2 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Overflow](#Overflow) | 0 |  |
+[Ellipsis](#Ellipsis) | 1 |  |
+[Clip](#Clip) | 2 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### Overflow {#Overflow}
-| Overflow| 0 |  |
+| --- | --- | --- |
+ | Overflow | 0 |  |
 
 
 ---
 
 ### Ellipsis {#Ellipsis}
-| Ellipsis| 1 |  |
+| --- | --- | --- |
+ | Ellipsis | 1 |  |
 
 
 ---
 
 ### Clip {#Clip}
-| Clip| 2 |  |
+| --- | --- | --- |
+ | Clip | 2 |  |
 
 
 ---

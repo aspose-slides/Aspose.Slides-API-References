@@ -16,42 +16,47 @@ url: /aspose.slides/buildversioninfo/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [ProductMinor](#ProductMinor) | 8 | Minor version number. |
-| [ProductMajor](#ProductMajor) | 23 | Major version number. |
-| [AssemblyVersion](#AssemblyVersion) | 23.8 | Version of Aspose.Slides assembly. |
-| [FileVersion](#FileVersion) | 23.8 | Version of assembly file. |
-| [Product](#Product) | Aspose.Slides for Node.js via Java | Product name of Aspose.Slides |
+[ProductMinor](#ProductMinor) | 8 | Minor version number. |
+[ProductMajor](#ProductMajor) | 23 | Major version number. |
+[AssemblyVersion](#AssemblyVersion) | 23.8 | Version of Aspose.Slides assembly. |
+[FileVersion](#FileVersion) | 23.8 | Version of assembly file. |
+[Product](#Product) | Aspose.Slides for Node.js via Java | Product name of Aspose.Slides |
 
 
 ---
 
 
 ### ProductMinor {#ProductMinor}
-| ProductMinor| 8 | Minor version number. |
+| --- | --- | --- |
+ | ProductMinor | 8 | Minor version number. |
 
 
 ---
 
 ### ProductMajor {#ProductMajor}
-| ProductMajor| 23 | Major version number. |
+| --- | --- | --- |
+ | ProductMajor | 23 | Major version number. |
 
 
 ---
 
 ### AssemblyVersion {#AssemblyVersion}
-| AssemblyVersion| 23.8 | Version of Aspose.Slides assembly. |
+| --- | --- | --- |
+ | AssemblyVersion | 23.8 | Version of Aspose.Slides assembly. |
 
 
 ---
 
 ### FileVersion {#FileVersion}
-| FileVersion| 23.8 | Version of assembly file. |
+| --- | --- | --- |
+ | FileVersion | 23.8 | Version of assembly file. |
 
 
 ---
 
 ### Product {#Product}
-| Product| Aspose.Slides for Node.js via Java | Product name of Aspose.Slides |
+| --- | --- | --- |
+ | Product | Aspose.Slides for Node.js via Java | Product name of Aspose.Slides |
 
 
 ---

@@ -16,35 +16,39 @@ url: /aspose.slides/linecapstyle/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [Round](#Round) | 0 |  |
-| [Square](#Square) | 1 |  |
-| [Flat](#Flat) | 2 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Round](#Round) | 0 |  |
+[Square](#Square) | 1 |  |
+[Flat](#Flat) | 2 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### Round {#Round}
-| Round| 0 |  |
+| --- | --- | --- |
+ | Round | 0 |  |
 
 
 ---
 
 ### Square {#Square}
-| Square| 1 |  |
+| --- | --- | --- |
+ | Square | 1 |  |
 
 
 ---
 
 ### Flat {#Flat}
-| Flat| 2 |  |
+| --- | --- | --- |
+ | Flat | 2 |  |
 
 
 ---

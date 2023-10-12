@@ -16,42 +16,47 @@ url: /aspose.slides/tileflip/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [NoFlip](#NoFlip) | 0 |  |
-| [FlipX](#FlipX) | 1 |  |
-| [FlipY](#FlipY) | 2 |  |
-| [FlipBoth](#FlipBoth) | 3 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[NoFlip](#NoFlip) | 0 |  |
+[FlipX](#FlipX) | 1 |  |
+[FlipY](#FlipY) | 2 |  |
+[FlipBoth](#FlipBoth) | 3 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### NoFlip {#NoFlip}
-| NoFlip| 0 |  |
+| --- | --- | --- |
+ | NoFlip | 0 |  |
 
 
 ---
 
 ### FlipX {#FlipX}
-| FlipX| 1 |  |
+| --- | --- | --- |
+ | FlipX | 1 |  |
 
 
 ---
 
 ### FlipY {#FlipY}
-| FlipY| 2 |  |
+| --- | --- | --- |
+ | FlipY | 2 |  |
 
 
 ---
 
 ### FlipBoth {#FlipBoth}
-| FlipBoth| 3 |  |
+| --- | --- | --- |
+ | FlipBoth | 3 |  |
 
 
 ---

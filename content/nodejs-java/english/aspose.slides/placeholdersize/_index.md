@@ -16,28 +16,31 @@ url: /aspose.slides/placeholdersize/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Full](#Full) | 0 | Full. |
-| [Half](#Half) | 1 | Half. |
-| [Quarter](#Quarter) | 2 | Quarter. |
+[Full](#Full) | 0 | Full. |
+[Half](#Half) | 1 | Half. |
+[Quarter](#Quarter) | 2 | Quarter. |
 
 
 ---
 
 
 ### Full {#Full}
-| Full| 0 | Full. |
+| --- | --- | --- |
+ | Full | 0 | Full. |
 
 
 ---
 
 ### Half {#Half}
-| Half| 1 | Half. |
+| --- | --- | --- |
+ | Half | 1 | Half. |
 
 
 ---
 
 ### Quarter {#Quarter}
-| Quarter| 2 | Quarter. |
+| --- | --- | --- |
+ | Quarter | 2 | Quarter. |
 
 
 ---

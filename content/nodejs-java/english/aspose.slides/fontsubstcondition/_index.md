@@ -16,21 +16,23 @@ url: /aspose.slides/fontsubstcondition/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [WhenInaccessible](#WhenInaccessible) | 0 | Substitute when font is not found |
-| [Always](#Always) | 1 | Substitute always |
+[WhenInaccessible](#WhenInaccessible) | 0 | Substitute when font is not found |
+[Always](#Always) | 1 | Substitute always |
 
 
 ---
 
 
 ### WhenInaccessible {#WhenInaccessible}
-| WhenInaccessible| 0 | Substitute when font is not found |
+| --- | --- | --- |
+ | WhenInaccessible | 0 | Substitute when font is not found |
 
 
 ---
 
 ### Always {#Always}
-| Always| 1 | Substitute always |
+| --- | --- | --- |
+ | Always | 1 | Substitute always |
 
 
 ---

@@ -16,49 +16,55 @@ url: /aspose.slides/fontalignment/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Default](#Default) | -1 |  |
-| [Automatic](#Automatic) | 0 |  |
-| [Top](#Top) | 1 |  |
-| [Center](#Center) | 2 |  |
-| [Bottom](#Bottom) | 3 |  |
-| [Baseline](#Baseline) | 4 |  |
+[Default](#Default) | -1 |  |
+[Automatic](#Automatic) | 0 |  |
+[Top](#Top) | 1 |  |
+[Center](#Center) | 2 |  |
+[Bottom](#Bottom) | 3 |  |
+[Baseline](#Baseline) | 4 |  |
 
 
 ---
 
 
 ### Default {#Default}
-| Default| -1 |  |
+| --- | --- | --- |
+ | Default | -1 |  |
 
 
 ---
 
 ### Automatic {#Automatic}
-| Automatic| 0 |  |
+| --- | --- | --- |
+ | Automatic | 0 |  |
 
 
 ---
 
 ### Top {#Top}
-| Top| 1 |  |
+| --- | --- | --- |
+ | Top | 1 |  |
 
 
 ---
 
 ### Center {#Center}
-| Center| 2 |  |
+| --- | --- | --- |
+ | Center | 2 |  |
 
 
 ---
 
 ### Bottom {#Bottom}
-| Bottom| 3 |  |
+| --- | --- | --- |
+ | Bottom | 3 |  |
 
 
 ---
 
 ### Baseline {#Baseline}
-| Baseline| 4 |  |
+| --- | --- | --- |
+ | Baseline | 4 |  |
 
 
 ---

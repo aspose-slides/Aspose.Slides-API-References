@@ -16,35 +16,39 @@ url: /aspose.slides/textstrikethroughtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [None](#None) | 0 |  |
-| [Single](#Single) | 1 |  |
-| [Double](#Double) | 2 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[None](#None) | 0 |  |
+[Single](#Single) | 1 |  |
+[Double](#Double) | 2 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### None {#None}
-| None| 0 |  |
+| --- | --- | --- |
+ | None | 0 |  |
 
 
 ---
 
 ### Single {#Single}
-| Single| 1 |  |
+| --- | --- | --- |
+ | Single | 1 |  |
 
 
 ---
 
 ### Double {#Double}
-| Double| 2 |  |
+| --- | --- | --- |
+ | Double | 2 |  |
 
 
 ---

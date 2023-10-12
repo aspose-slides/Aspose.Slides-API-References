@@ -16,70 +16,79 @@ url: /aspose.slides/motionpathpointstype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [None](#None) | 0 |  |
-| [Auto](#Auto) | 1 |  |
-| [Corner](#Corner) | 2 |  |
-| [Straight](#Straight) | 3 |  |
-| [Smooth](#Smooth) | 4 |  |
-| [CurveAuto](#CurveAuto) | 5 |  |
-| [CurveCorner](#CurveCorner) | 6 |  |
-| [CurveStraight](#CurveStraight) | 7 |  |
-| [CurveSmooth](#CurveSmooth) | 8 |  |
+[None](#None) | 0 |  |
+[Auto](#Auto) | 1 |  |
+[Corner](#Corner) | 2 |  |
+[Straight](#Straight) | 3 |  |
+[Smooth](#Smooth) | 4 |  |
+[CurveAuto](#CurveAuto) | 5 |  |
+[CurveCorner](#CurveCorner) | 6 |  |
+[CurveStraight](#CurveStraight) | 7 |  |
+[CurveSmooth](#CurveSmooth) | 8 |  |
 
 
 ---
 
 
 ### None {#None}
-| None| 0 |  |
+| --- | --- | --- |
+ | None | 0 |  |
 
 
 ---
 
 ### Auto {#Auto}
-| Auto| 1 |  |
+| --- | --- | --- |
+ | Auto | 1 |  |
 
 
 ---
 
 ### Corner {#Corner}
-| Corner| 2 |  |
+| --- | --- | --- |
+ | Corner | 2 |  |
 
 
 ---
 
 ### Straight {#Straight}
-| Straight| 3 |  |
+| --- | --- | --- |
+ | Straight | 3 |  |
 
 
 ---
 
 ### Smooth {#Smooth}
-| Smooth| 4 |  |
+| --- | --- | --- |
+ | Smooth | 4 |  |
 
 
 ---
 
 ### CurveAuto {#CurveAuto}
-| CurveAuto| 5 |  |
+| --- | --- | --- |
+ | CurveAuto | 5 |  |
 
 
 ---
 
 ### CurveCorner {#CurveCorner}
-| CurveCorner| 6 |  |
+| --- | --- | --- |
+ | CurveCorner | 6 |  |
 
 
 ---
 
 ### CurveStraight {#CurveStraight}
-| CurveStraight| 7 |  |
+| --- | --- | --- |
+ | CurveStraight | 7 |  |
 
 
 ---
 
 ### CurveSmooth {#CurveSmooth}
-| CurveSmooth| 8 |  |
+| --- | --- | --- |
+ | CurveSmooth | 8 |  |
 
 
 ---

@@ -16,70 +16,79 @@ url: /aspose.slides/viewtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | 0 | Value is not defined |
-| [SlideView](#SlideView) | 1 | Normal Slide View |
-| [SlideMasterView](#SlideMasterView) | 2 | Slide Master View |
-| [NotesView](#NotesView) | 3 | Notes View |
-| [HandoutView](#HandoutView) | 4 | Handout View |
-| [NotesMasterView](#NotesMasterView) | 5 | Notes Master View |
-| [OutlineView](#OutlineView) | 6 | Outline View |
-| [SlideSorterView](#SlideSorterView) | 7 | Slide Sorter View |
-| [SlideThumbnailView](#SlideThumbnailView) | 8 | Slide Thumbnail View |
+[NotDefined](#NotDefined) | 0 | Value is not defined |
+[SlideView](#SlideView) | 1 | Normal Slide View |
+[SlideMasterView](#SlideMasterView) | 2 | Slide Master View |
+[NotesView](#NotesView) | 3 | Notes View |
+[HandoutView](#HandoutView) | 4 | Handout View |
+[NotesMasterView](#NotesMasterView) | 5 | Notes Master View |
+[OutlineView](#OutlineView) | 6 | Outline View |
+[SlideSorterView](#SlideSorterView) | 7 | Slide Sorter View |
+[SlideThumbnailView](#SlideThumbnailView) | 8 | Slide Thumbnail View |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| 0 | Value is not defined |
+| --- | --- | --- |
+ | NotDefined | 0 | Value is not defined |
 
 
 ---
 
 ### SlideView {#SlideView}
-| SlideView| 1 | Normal Slide View |
+| --- | --- | --- |
+ | SlideView | 1 | Normal Slide View |
 
 
 ---
 
 ### SlideMasterView {#SlideMasterView}
-| SlideMasterView| 2 | Slide Master View |
+| --- | --- | --- |
+ | SlideMasterView | 2 | Slide Master View |
 
 
 ---
 
 ### NotesView {#NotesView}
-| NotesView| 3 | Notes View |
+| --- | --- | --- |
+ | NotesView | 3 | Notes View |
 
 
 ---
 
 ### HandoutView {#HandoutView}
-| HandoutView| 4 | Handout View |
+| --- | --- | --- |
+ | HandoutView | 4 | Handout View |
 
 
 ---
 
 ### NotesMasterView {#NotesMasterView}
-| NotesMasterView| 5 | Notes Master View |
+| --- | --- | --- |
+ | NotesMasterView | 5 | Notes Master View |
 
 
 ---
 
 ### OutlineView {#OutlineView}
-| OutlineView| 6 | Outline View |
+| --- | --- | --- |
+ | OutlineView | 6 | Outline View |
 
 
 ---
 
 ### SlideSorterView {#SlideSorterView}
-| SlideSorterView| 7 | Slide Sorter View |
+| --- | --- | --- |
+ | SlideSorterView | 7 | Slide Sorter View |
 
 
 ---
 
 ### SlideThumbnailView {#SlideThumbnailView}
-| SlideThumbnailView| 8 | Slide Thumbnail View |
+| --- | --- | --- |
+ | SlideThumbnailView | 8 | Slide Thumbnail View |
 
 
 ---

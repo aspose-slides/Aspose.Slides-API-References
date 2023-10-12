@@ -16,35 +16,39 @@ url: /aspose.slides/filtereffectrevealtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [None](#None) | 0 |  |
-| [In](#In) | 1 |  |
-| [Out](#Out) | 2 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[None](#None) | 0 |  |
+[In](#In) | 1 |  |
+[Out](#Out) | 2 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### None {#None}
-| None| 0 |  |
+| --- | --- | --- |
+ | None | 0 |  |
 
 
 ---
 
 ### In {#In}
-| In| 1 |  |
+| --- | --- | --- |
+ | In | 1 |  |
 
 
 ---
 
 ### Out {#Out}
-| Out| 2 |  |
+| --- | --- | --- |
+ | Out | 2 |  |
 
 
 ---

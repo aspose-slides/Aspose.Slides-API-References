@@ -16,28 +16,31 @@ url: /aspose.slides/linkembeddecision/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Link](#Link) | 0 | Object will be stored externally, referrenced by URL |
-| [Embed](#Embed) | 1 | Object should be embedded to a generated file if possible. If embedding is imposible, GetUrl will be called and, depending on result, object will be referrenced by URL or ignored. |
-| [Ignore](#Ignore) | 2 | Object will be ignored. |
+[Link](#Link) | 0 | Object will be stored externally, referrenced by URL |
+[Embed](#Embed) | 1 | Object should be embedded to a generated file if possible. If embedding is imposible, GetUrl will be called and, depending on result, object will be referrenced by URL or ignored. |
+[Ignore](#Ignore) | 2 | Object will be ignored. |
 
 
 ---
 
 
 ### Link {#Link}
-| Link| 0 | Object will be stored externally, referrenced by URL |
+| --- | --- | --- |
+ | Link | 0 | Object will be stored externally, referrenced by URL |
 
 
 ---
 
 ### Embed {#Embed}
-| Embed| 1 | Object should be embedded to a generated file if possible. If embedding is imposible, GetUrl will be called and, depending on result, object will be referrenced by URL or ignored. |
+| --- | --- | --- |
+ | Embed | 1 | Object should be embedded to a generated file if possible. If embedding is imposible, GetUrl will be called and, depending on result, object will be referrenced by URL or ignored. |
 
 
 ---
 
 ### Ignore {#Ignore}
-| Ignore| 2 | Object will be ignored. |
+| --- | --- | --- |
+ | Ignore | 2 | Object will be ignored. |
 
 
 ---

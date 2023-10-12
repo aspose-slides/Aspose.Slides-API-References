@@ -16,28 +16,31 @@ url: /aspose.slides/transitionsoundmode/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [StartSound](#StartSound) | 0 |  |
-| [StopPrevoiusSound](#StopPrevoiusSound) | 1 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[StartSound](#StartSound) | 0 |  |
+[StopPrevoiusSound](#StopPrevoiusSound) | 1 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### StartSound {#StartSound}
-| StartSound| 0 |  |
+| --- | --- | --- |
+ | StartSound | 0 |  |
 
 
 ---
 
 ### StopPrevoiusSound {#StopPrevoiusSound}
-| StopPrevoiusSound| 1 |  |
+| --- | --- | --- |
+ | StopPrevoiusSound | 1 |  |
 
 
 ---

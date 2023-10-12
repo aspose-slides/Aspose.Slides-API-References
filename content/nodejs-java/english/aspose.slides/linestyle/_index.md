@@ -16,49 +16,55 @@ url: /aspose.slides/linestyle/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [Single](#Single) | 0 |  |
-| [ThinThin](#ThinThin) | 1 |  |
-| [ThickThin](#ThickThin) | 2 |  |
-| [ThinThick](#ThinThick) | 3 |  |
-| [ThickBetweenThin](#ThickBetweenThin) | 4 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Single](#Single) | 0 |  |
+[ThinThin](#ThinThin) | 1 |  |
+[ThickThin](#ThickThin) | 2 |  |
+[ThinThick](#ThinThick) | 3 |  |
+[ThickBetweenThin](#ThickBetweenThin) | 4 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### Single {#Single}
-| Single| 0 |  |
+| --- | --- | --- |
+ | Single | 0 |  |
 
 
 ---
 
 ### ThinThin {#ThinThin}
-| ThinThin| 1 |  |
+| --- | --- | --- |
+ | ThinThin | 1 |  |
 
 
 ---
 
 ### ThickThin {#ThickThin}
-| ThickThin| 2 |  |
+| --- | --- | --- |
+ | ThickThin | 2 |  |
 
 
 ---
 
 ### ThinThick {#ThinThick}
-| ThinThick| 3 |  |
+| --- | --- | --- |
+ | ThinThick | 3 |  |
 
 
 ---
 
 ### ThickBetweenThin {#ThickBetweenThin}
-| ThickBetweenThin| 4 |  |
+| --- | --- | --- |
+ | ThickBetweenThin | 4 |  |
 
 
 ---

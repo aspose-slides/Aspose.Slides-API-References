@@ -16,399 +16,455 @@ url: /aspose.slides/patternstyle/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [Unknown](#Unknown) | 0 |  |
-| [Percent05](#Percent05) | 1 |  |
-| [Percent10](#Percent10) | 2 |  |
-| [Percent20](#Percent20) | 3 |  |
-| [Percent25](#Percent25) | 4 |  |
-| [Percent30](#Percent30) | 5 |  |
-| [Percent40](#Percent40) | 6 |  |
-| [Percent50](#Percent50) | 7 |  |
-| [Percent60](#Percent60) | 8 |  |
-| [Percent70](#Percent70) | 9 |  |
-| [Percent75](#Percent75) | 10 |  |
-| [Percent80](#Percent80) | 11 |  |
-| [Percent90](#Percent90) | 12 |  |
-| [DarkHorizontal](#DarkHorizontal) | 13 |  |
-| [DarkVertical](#DarkVertical) | 14 |  |
-| [DarkDownwardDiagonal](#DarkDownwardDiagonal) | 15 |  |
-| [DarkUpwardDiagonal](#DarkUpwardDiagonal) | 16 |  |
-| [SmallCheckerBoard](#SmallCheckerBoard) | 17 |  |
-| [Trellis](#Trellis) | 18 |  |
-| [LightHorizontal](#LightHorizontal) | 19 |  |
-| [LightVertical](#LightVertical) | 20 |  |
-| [LightDownwardDiagonal](#LightDownwardDiagonal) | 21 |  |
-| [LightUpwardDiagonal](#LightUpwardDiagonal) | 22 |  |
-| [SmallGrid](#SmallGrid) | 23 |  |
-| [DottedDiamond](#DottedDiamond) | 24 |  |
-| [WideDownwardDiagonal](#WideDownwardDiagonal) | 25 |  |
-| [WideUpwardDiagonal](#WideUpwardDiagonal) | 26 |  |
-| [DashedDownwardDiagonal](#DashedDownwardDiagonal) | 27 |  |
-| [DashedUpwardDiagonal](#DashedUpwardDiagonal) | 28 |  |
-| [NarrowVertical](#NarrowVertical) | 29 |  |
-| [NarrowHorizontal](#NarrowHorizontal) | 30 |  |
-| [DashedVertical](#DashedVertical) | 31 |  |
-| [DashedHorizontal](#DashedHorizontal) | 32 |  |
-| [LargeConfetti](#LargeConfetti) | 33 |  |
-| [LargeGrid](#LargeGrid) | 34 |  |
-| [HorizontalBrick](#HorizontalBrick) | 35 |  |
-| [LargeCheckerBoard](#LargeCheckerBoard) | 36 |  |
-| [SmallConfetti](#SmallConfetti) | 37 |  |
-| [Zigzag](#Zigzag) | 38 |  |
-| [SolidDiamond](#SolidDiamond) | 39 |  |
-| [DiagonalBrick](#DiagonalBrick) | 40 |  |
-| [OutlinedDiamond](#OutlinedDiamond) | 41 |  |
-| [Plaid](#Plaid) | 42 |  |
-| [Sphere](#Sphere) | 43 |  |
-| [Weave](#Weave) | 44 |  |
-| [DottedGrid](#DottedGrid) | 45 |  |
-| [Divot](#Divot) | 46 |  |
-| [Shingle](#Shingle) | 47 |  |
-| [Wave](#Wave) | 48 |  |
-| [Horizontal](#Horizontal) | 49 |  |
-| [Vertical](#Vertical) | 50 |  |
-| [Cross](#Cross) | 51 |  |
-| [DownwardDiagonal](#DownwardDiagonal) | 52 |  |
-| [UpwardDiagonal](#UpwardDiagonal) | 53 |  |
-| [DiagonalCross](#DiagonalCross) | 54 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Unknown](#Unknown) | 0 |  |
+[Percent05](#Percent05) | 1 |  |
+[Percent10](#Percent10) | 2 |  |
+[Percent20](#Percent20) | 3 |  |
+[Percent25](#Percent25) | 4 |  |
+[Percent30](#Percent30) | 5 |  |
+[Percent40](#Percent40) | 6 |  |
+[Percent50](#Percent50) | 7 |  |
+[Percent60](#Percent60) | 8 |  |
+[Percent70](#Percent70) | 9 |  |
+[Percent75](#Percent75) | 10 |  |
+[Percent80](#Percent80) | 11 |  |
+[Percent90](#Percent90) | 12 |  |
+[DarkHorizontal](#DarkHorizontal) | 13 |  |
+[DarkVertical](#DarkVertical) | 14 |  |
+[DarkDownwardDiagonal](#DarkDownwardDiagonal) | 15 |  |
+[DarkUpwardDiagonal](#DarkUpwardDiagonal) | 16 |  |
+[SmallCheckerBoard](#SmallCheckerBoard) | 17 |  |
+[Trellis](#Trellis) | 18 |  |
+[LightHorizontal](#LightHorizontal) | 19 |  |
+[LightVertical](#LightVertical) | 20 |  |
+[LightDownwardDiagonal](#LightDownwardDiagonal) | 21 |  |
+[LightUpwardDiagonal](#LightUpwardDiagonal) | 22 |  |
+[SmallGrid](#SmallGrid) | 23 |  |
+[DottedDiamond](#DottedDiamond) | 24 |  |
+[WideDownwardDiagonal](#WideDownwardDiagonal) | 25 |  |
+[WideUpwardDiagonal](#WideUpwardDiagonal) | 26 |  |
+[DashedDownwardDiagonal](#DashedDownwardDiagonal) | 27 |  |
+[DashedUpwardDiagonal](#DashedUpwardDiagonal) | 28 |  |
+[NarrowVertical](#NarrowVertical) | 29 |  |
+[NarrowHorizontal](#NarrowHorizontal) | 30 |  |
+[DashedVertical](#DashedVertical) | 31 |  |
+[DashedHorizontal](#DashedHorizontal) | 32 |  |
+[LargeConfetti](#LargeConfetti) | 33 |  |
+[LargeGrid](#LargeGrid) | 34 |  |
+[HorizontalBrick](#HorizontalBrick) | 35 |  |
+[LargeCheckerBoard](#LargeCheckerBoard) | 36 |  |
+[SmallConfetti](#SmallConfetti) | 37 |  |
+[Zigzag](#Zigzag) | 38 |  |
+[SolidDiamond](#SolidDiamond) | 39 |  |
+[DiagonalBrick](#DiagonalBrick) | 40 |  |
+[OutlinedDiamond](#OutlinedDiamond) | 41 |  |
+[Plaid](#Plaid) | 42 |  |
+[Sphere](#Sphere) | 43 |  |
+[Weave](#Weave) | 44 |  |
+[DottedGrid](#DottedGrid) | 45 |  |
+[Divot](#Divot) | 46 |  |
+[Shingle](#Shingle) | 47 |  |
+[Wave](#Wave) | 48 |  |
+[Horizontal](#Horizontal) | 49 |  |
+[Vertical](#Vertical) | 50 |  |
+[Cross](#Cross) | 51 |  |
+[DownwardDiagonal](#DownwardDiagonal) | 52 |  |
+[UpwardDiagonal](#UpwardDiagonal) | 53 |  |
+[DiagonalCross](#DiagonalCross) | 54 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### Unknown {#Unknown}
-| Unknown| 0 |  |
+| --- | --- | --- |
+ | Unknown | 0 |  |
 
 
 ---
 
 ### Percent05 {#Percent05}
-| Percent05| 1 |  |
+| --- | --- | --- |
+ | Percent05 | 1 |  |
 
 
 ---
 
 ### Percent10 {#Percent10}
-| Percent10| 2 |  |
+| --- | --- | --- |
+ | Percent10 | 2 |  |
 
 
 ---
 
 ### Percent20 {#Percent20}
-| Percent20| 3 |  |
+| --- | --- | --- |
+ | Percent20 | 3 |  |
 
 
 ---
 
 ### Percent25 {#Percent25}
-| Percent25| 4 |  |
+| --- | --- | --- |
+ | Percent25 | 4 |  |
 
 
 ---
 
 ### Percent30 {#Percent30}
-| Percent30| 5 |  |
+| --- | --- | --- |
+ | Percent30 | 5 |  |
 
 
 ---
 
 ### Percent40 {#Percent40}
-| Percent40| 6 |  |
+| --- | --- | --- |
+ | Percent40 | 6 |  |
 
 
 ---
 
 ### Percent50 {#Percent50}
-| Percent50| 7 |  |
+| --- | --- | --- |
+ | Percent50 | 7 |  |
 
 
 ---
 
 ### Percent60 {#Percent60}
-| Percent60| 8 |  |
+| --- | --- | --- |
+ | Percent60 | 8 |  |
 
 
 ---
 
 ### Percent70 {#Percent70}
-| Percent70| 9 |  |
+| --- | --- | --- |
+ | Percent70 | 9 |  |
 
 
 ---
 
 ### Percent75 {#Percent75}
-| Percent75| 10 |  |
+| --- | --- | --- |
+ | Percent75 | 10 |  |
 
 
 ---
 
 ### Percent80 {#Percent80}
-| Percent80| 11 |  |
+| --- | --- | --- |
+ | Percent80 | 11 |  |
 
 
 ---
 
 ### Percent90 {#Percent90}
-| Percent90| 12 |  |
+| --- | --- | --- |
+ | Percent90 | 12 |  |
 
 
 ---
 
 ### DarkHorizontal {#DarkHorizontal}
-| DarkHorizontal| 13 |  |
+| --- | --- | --- |
+ | DarkHorizontal | 13 |  |
 
 
 ---
 
 ### DarkVertical {#DarkVertical}
-| DarkVertical| 14 |  |
+| --- | --- | --- |
+ | DarkVertical | 14 |  |
 
 
 ---
 
 ### DarkDownwardDiagonal {#DarkDownwardDiagonal}
-| DarkDownwardDiagonal| 15 |  |
+| --- | --- | --- |
+ | DarkDownwardDiagonal | 15 |  |
 
 
 ---
 
 ### DarkUpwardDiagonal {#DarkUpwardDiagonal}
-| DarkUpwardDiagonal| 16 |  |
+| --- | --- | --- |
+ | DarkUpwardDiagonal | 16 |  |
 
 
 ---
 
 ### SmallCheckerBoard {#SmallCheckerBoard}
-| SmallCheckerBoard| 17 |  |
+| --- | --- | --- |
+ | SmallCheckerBoard | 17 |  |
 
 
 ---
 
 ### Trellis {#Trellis}
-| Trellis| 18 |  |
+| --- | --- | --- |
+ | Trellis | 18 |  |
 
 
 ---
 
 ### LightHorizontal {#LightHorizontal}
-| LightHorizontal| 19 |  |
+| --- | --- | --- |
+ | LightHorizontal | 19 |  |
 
 
 ---
 
 ### LightVertical {#LightVertical}
-| LightVertical| 20 |  |
+| --- | --- | --- |
+ | LightVertical | 20 |  |
 
 
 ---
 
 ### LightDownwardDiagonal {#LightDownwardDiagonal}
-| LightDownwardDiagonal| 21 |  |
+| --- | --- | --- |
+ | LightDownwardDiagonal | 21 |  |
 
 
 ---
 
 ### LightUpwardDiagonal {#LightUpwardDiagonal}
-| LightUpwardDiagonal| 22 |  |
+| --- | --- | --- |
+ | LightUpwardDiagonal | 22 |  |
 
 
 ---
 
 ### SmallGrid {#SmallGrid}
-| SmallGrid| 23 |  |
+| --- | --- | --- |
+ | SmallGrid | 23 |  |
 
 
 ---
 
 ### DottedDiamond {#DottedDiamond}
-| DottedDiamond| 24 |  |
+| --- | --- | --- |
+ | DottedDiamond | 24 |  |
 
 
 ---
 
 ### WideDownwardDiagonal {#WideDownwardDiagonal}
-| WideDownwardDiagonal| 25 |  |
+| --- | --- | --- |
+ | WideDownwardDiagonal | 25 |  |
 
 
 ---
 
 ### WideUpwardDiagonal {#WideUpwardDiagonal}
-| WideUpwardDiagonal| 26 |  |
+| --- | --- | --- |
+ | WideUpwardDiagonal | 26 |  |
 
 
 ---
 
 ### DashedDownwardDiagonal {#DashedDownwardDiagonal}
-| DashedDownwardDiagonal| 27 |  |
+| --- | --- | --- |
+ | DashedDownwardDiagonal | 27 |  |
 
 
 ---
 
 ### DashedUpwardDiagonal {#DashedUpwardDiagonal}
-| DashedUpwardDiagonal| 28 |  |
+| --- | --- | --- |
+ | DashedUpwardDiagonal | 28 |  |
 
 
 ---
 
 ### NarrowVertical {#NarrowVertical}
-| NarrowVertical| 29 |  |
+| --- | --- | --- |
+ | NarrowVertical | 29 |  |
 
 
 ---
 
 ### NarrowHorizontal {#NarrowHorizontal}
-| NarrowHorizontal| 30 |  |
+| --- | --- | --- |
+ | NarrowHorizontal | 30 |  |
 
 
 ---
 
 ### DashedVertical {#DashedVertical}
-| DashedVertical| 31 |  |
+| --- | --- | --- |
+ | DashedVertical | 31 |  |
 
 
 ---
 
 ### DashedHorizontal {#DashedHorizontal}
-| DashedHorizontal| 32 |  |
+| --- | --- | --- |
+ | DashedHorizontal | 32 |  |
 
 
 ---
 
 ### LargeConfetti {#LargeConfetti}
-| LargeConfetti| 33 |  |
+| --- | --- | --- |
+ | LargeConfetti | 33 |  |
 
 
 ---
 
 ### LargeGrid {#LargeGrid}
-| LargeGrid| 34 |  |
+| --- | --- | --- |
+ | LargeGrid | 34 |  |
 
 
 ---
 
 ### HorizontalBrick {#HorizontalBrick}
-| HorizontalBrick| 35 |  |
+| --- | --- | --- |
+ | HorizontalBrick | 35 |  |
 
 
 ---
 
 ### LargeCheckerBoard {#LargeCheckerBoard}
-| LargeCheckerBoard| 36 |  |
+| --- | --- | --- |
+ | LargeCheckerBoard | 36 |  |
 
 
 ---
 
 ### SmallConfetti {#SmallConfetti}
-| SmallConfetti| 37 |  |
+| --- | --- | --- |
+ | SmallConfetti | 37 |  |
 
 
 ---
 
 ### Zigzag {#Zigzag}
-| Zigzag| 38 |  |
+| --- | --- | --- |
+ | Zigzag | 38 |  |
 
 
 ---
 
 ### SolidDiamond {#SolidDiamond}
-| SolidDiamond| 39 |  |
+| --- | --- | --- |
+ | SolidDiamond | 39 |  |
 
 
 ---
 
 ### DiagonalBrick {#DiagonalBrick}
-| DiagonalBrick| 40 |  |
+| --- | --- | --- |
+ | DiagonalBrick | 40 |  |
 
 
 ---
 
 ### OutlinedDiamond {#OutlinedDiamond}
-| OutlinedDiamond| 41 |  |
+| --- | --- | --- |
+ | OutlinedDiamond | 41 |  |
 
 
 ---
 
 ### Plaid {#Plaid}
-| Plaid| 42 |  |
+| --- | --- | --- |
+ | Plaid | 42 |  |
 
 
 ---
 
 ### Sphere {#Sphere}
-| Sphere| 43 |  |
+| --- | --- | --- |
+ | Sphere | 43 |  |
 
 
 ---
 
 ### Weave {#Weave}
-| Weave| 44 |  |
+| --- | --- | --- |
+ | Weave | 44 |  |
 
 
 ---
 
 ### DottedGrid {#DottedGrid}
-| DottedGrid| 45 |  |
+| --- | --- | --- |
+ | DottedGrid | 45 |  |
 
 
 ---
 
 ### Divot {#Divot}
-| Divot| 46 |  |
+| --- | --- | --- |
+ | Divot | 46 |  |
 
 
 ---
 
 ### Shingle {#Shingle}
-| Shingle| 47 |  |
+| --- | --- | --- |
+ | Shingle | 47 |  |
 
 
 ---
 
 ### Wave {#Wave}
-| Wave| 48 |  |
+| --- | --- | --- |
+ | Wave | 48 |  |
 
 
 ---
 
 ### Horizontal {#Horizontal}
-| Horizontal| 49 |  |
+| --- | --- | --- |
+ | Horizontal | 49 |  |
 
 
 ---
 
 ### Vertical {#Vertical}
-| Vertical| 50 |  |
+| --- | --- | --- |
+ | Vertical | 50 |  |
 
 
 ---
 
 ### Cross {#Cross}
-| Cross| 51 |  |
+| --- | --- | --- |
+ | Cross | 51 |  |
 
 
 ---
 
 ### DownwardDiagonal {#DownwardDiagonal}
-| DownwardDiagonal| 52 |  |
+| --- | --- | --- |
+ | DownwardDiagonal | 52 |  |
 
 
 ---
 
 ### UpwardDiagonal {#UpwardDiagonal}
-| UpwardDiagonal| 53 |  |
+| --- | --- | --- |
+ | UpwardDiagonal | 53 |  |
 
 
 ---
 
 ### DiagonalCross {#DiagonalCross}
-| DiagonalCross| 54 |  |
+| --- | --- | --- |
+ | DiagonalCross | 54 |  |
 
 
 ---

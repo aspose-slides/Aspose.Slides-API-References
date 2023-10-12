@@ -16,21 +16,23 @@ url: /aspose.slides/effectchartmajorgroupingtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [BySeries](#BySeries) | 0 | Animate chart by series |
-| [ByCategory](#ByCategory) | 1 | Animate chart by category |
+[BySeries](#BySeries) | 0 | Animate chart by series |
+[ByCategory](#ByCategory) | 1 | Animate chart by category |
 
 
 ---
 
 
 ### BySeries {#BySeries}
-| BySeries| 0 | Animate chart by series |
+| --- | --- | --- |
+ | BySeries | 0 | Animate chart by series |
 
 
 ---
 
 ### ByCategory {#ByCategory}
-| ByCategory| 1 | Animate chart by category |
+| --- | --- | --- |
+ | ByCategory | 1 | Animate chart by category |
 
 
 ---

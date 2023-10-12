@@ -16,28 +16,31 @@ url: /aspose.slides/crossestype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AxisCrossesAtZero](#AxisCrossesAtZero) | 0 | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
-| [Maximum](#Maximum) | 1 | The axis crosses at the maximum value. |
-| [Custom](#Custom) | 2 | Custom value from property CrossAt |
+[AxisCrossesAtZero](#AxisCrossesAtZero) | 0 | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
+[Maximum](#Maximum) | 1 | The axis crosses at the maximum value. |
+[Custom](#Custom) | 2 | Custom value from property CrossAt |
 
 
 ---
 
 
 ### AxisCrossesAtZero {#AxisCrossesAtZero}
-| AxisCrossesAtZero| 0 | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
+| --- | --- | --- |
+ | AxisCrossesAtZero | 0 | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
 
 
 ---
 
 ### Maximum {#Maximum}
-| Maximum| 1 | The axis crosses at the maximum value. |
+| --- | --- | --- |
+ | Maximum | 1 | The axis crosses at the maximum value. |
 
 
 ---
 
 ### Custom {#Custom}
-| Custom| 2 | Custom value from property CrossAt |
+| --- | --- | --- |
+ | Custom | 2 | Custom value from property CrossAt |
 
 
 ---

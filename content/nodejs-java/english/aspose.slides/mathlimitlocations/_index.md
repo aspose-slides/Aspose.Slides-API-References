@@ -16,28 +16,31 @@ url: /aspose.slides/mathlimitlocations/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | 0 | Not defined |
-| [UnderOver](#UnderOver) | 1 | Limits draw at top and bottom of the operator symbol |
-| [SubscriptSuperscript](#SubscriptSuperscript) | 2 | Limits draw as subscript and superscript |
+[NotDefined](#NotDefined) | 0 | Not defined |
+[UnderOver](#UnderOver) | 1 | Limits draw at top and bottom of the operator symbol |
+[SubscriptSuperscript](#SubscriptSuperscript) | 2 | Limits draw as subscript and superscript |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| 0 | Not defined |
+| --- | --- | --- |
+ | NotDefined | 0 | Not defined |
 
 
 ---
 
 ### UnderOver {#UnderOver}
-| UnderOver| 1 | Limits draw at top and bottom of the operator symbol |
+| --- | --- | --- |
+ | UnderOver | 1 | Limits draw at top and bottom of the operator symbol |
 
 
 ---
 
 ### SubscriptSuperscript {#SubscriptSuperscript}
-| SubscriptSuperscript| 2 | Limits draw as subscript and superscript |
+| --- | --- | --- |
+ | SubscriptSuperscript | 2 | Limits draw as subscript and superscript |
 
 
 ---

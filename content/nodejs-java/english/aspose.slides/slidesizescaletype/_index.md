@@ -16,28 +16,31 @@ url: /aspose.slides/slidesizescaletype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [DoNotScale](#DoNotScale) | 0 | Do not scale. |
-| [EnsureFit](#EnsureFit) | 1 | Scale to ensure fit. |
-| [Maximize](#Maximize) | 2 | Maximize size of content. |
+[DoNotScale](#DoNotScale) | 0 | Do not scale. |
+[EnsureFit](#EnsureFit) | 1 | Scale to ensure fit. |
+[Maximize](#Maximize) | 2 | Maximize size of content. |
 
 
 ---
 
 
 ### DoNotScale {#DoNotScale}
-| DoNotScale| 0 | Do not scale. |
+| --- | --- | --- |
+ | DoNotScale | 0 | Do not scale. |
 
 
 ---
 
 ### EnsureFit {#EnsureFit}
-| EnsureFit| 1 | Scale to ensure fit. |
+| --- | --- | --- |
+ | EnsureFit | 1 | Scale to ensure fit. |
 
 
 ---
 
 ### Maximize {#Maximize}
-| Maximize| 2 | Maximize size of content. |
+| --- | --- | --- |
+ | Maximize | 2 | Maximize size of content. |
 
 
 ---

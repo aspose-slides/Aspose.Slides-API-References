@@ -16,28 +16,31 @@ url: /aspose.slides/shapethumbnailbounds/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Slide](#Slide) | 0 | Shape thumbnail will have the size equal to slide size. Shape position will be saved. |
-| [Shape](#Shape) | 1 | Shape thumbnail will have size equal to the shape bounds rectangle with taking into account shape outline settings. |
-| [Appearance](#Appearance) | 2 | Shape thumbnail will have size equal to the shape appearance (in bounds of a slide). It can be cases when shape appearance doesn't fit into the shape bounds. E.g. rotation, miter join of acute angle , 3D effects, etc. |
+[Slide](#Slide) | 0 | Shape thumbnail will have the size equal to slide size. Shape position will be saved. |
+[Shape](#Shape) | 1 | Shape thumbnail will have size equal to the shape bounds rectangle with taking into account shape outline settings. |
+[Appearance](#Appearance) | 2 | Shape thumbnail will have size equal to the shape appearance (in bounds of a slide). It can be cases when shape appearance doesn't fit into the shape bounds. E.g. rotation, miter join of acute angle , 3D effects, etc. |
 
 
 ---
 
 
 ### Slide {#Slide}
-| Slide| 0 | Shape thumbnail will have the size equal to slide size. Shape position will be saved. |
+| --- | --- | --- |
+ | Slide | 0 | Shape thumbnail will have the size equal to slide size. Shape position will be saved. |
 
 
 ---
 
 ### Shape {#Shape}
-| Shape| 1 | Shape thumbnail will have size equal to the shape bounds rectangle with taking into account shape outline settings. |
+| --- | --- | --- |
+ | Shape | 1 | Shape thumbnail will have size equal to the shape bounds rectangle with taking into account shape outline settings. |
 
 
 ---
 
 ### Appearance {#Appearance}
-| Appearance| 2 | Shape thumbnail will have size equal to the shape appearance (in bounds of a slide). It can be cases when shape appearance doesn't fit into the shape bounds. E.g. rotation, miter join of acute angle , 3D effects, etc. |
+| --- | --- | --- |
+ | Appearance | 2 | Shape thumbnail will have size equal to the shape appearance (in bounds of a slide). It can be cases when shape appearance doesn't fit into the shape bounds. E.g. rotation, miter join of acute angle , 3D effects, etc. |
 
 
 ---

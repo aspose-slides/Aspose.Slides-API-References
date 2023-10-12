@@ -16,203 +16,231 @@ url: /aspose.slides/lightrigpresettype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [Balanced](#Balanced) | 0 |  |
-| [BrightRoom](#BrightRoom) | 1 |  |
-| [Chilly](#Chilly) | 2 |  |
-| [Contrasting](#Contrasting) | 3 |  |
-| [Flat](#Flat) | 4 |  |
-| [Flood](#Flood) | 5 |  |
-| [Freezing](#Freezing) | 6 |  |
-| [Glow](#Glow) | 7 |  |
-| [Harsh](#Harsh) | 8 |  |
-| [LegacyFlat1](#LegacyFlat1) | 9 |  |
-| [LegacyFlat2](#LegacyFlat2) | 10 |  |
-| [LegacyFlat3](#LegacyFlat3) | 11 |  |
-| [LegacyFlat4](#LegacyFlat4) | 12 |  |
-| [LegacyHarsh1](#LegacyHarsh1) | 13 |  |
-| [LegacyHarsh2](#LegacyHarsh2) | 14 |  |
-| [LegacyHarsh3](#LegacyHarsh3) | 15 |  |
-| [LegacyHarsh4](#LegacyHarsh4) | 16 |  |
-| [LegacyNormal1](#LegacyNormal1) | 17 |  |
-| [LegacyNormal2](#LegacyNormal2) | 18 |  |
-| [LegacyNormal3](#LegacyNormal3) | 19 |  |
-| [LegacyNormal4](#LegacyNormal4) | 20 |  |
-| [Morning](#Morning) | 21 |  |
-| [Soft](#Soft) | 22 |  |
-| [Sunrise](#Sunrise) | 23 |  |
-| [Sunset](#Sunset) | 24 |  |
-| [ThreePt](#ThreePt) | 25 |  |
-| [TwoPt](#TwoPt) | 26 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Balanced](#Balanced) | 0 |  |
+[BrightRoom](#BrightRoom) | 1 |  |
+[Chilly](#Chilly) | 2 |  |
+[Contrasting](#Contrasting) | 3 |  |
+[Flat](#Flat) | 4 |  |
+[Flood](#Flood) | 5 |  |
+[Freezing](#Freezing) | 6 |  |
+[Glow](#Glow) | 7 |  |
+[Harsh](#Harsh) | 8 |  |
+[LegacyFlat1](#LegacyFlat1) | 9 |  |
+[LegacyFlat2](#LegacyFlat2) | 10 |  |
+[LegacyFlat3](#LegacyFlat3) | 11 |  |
+[LegacyFlat4](#LegacyFlat4) | 12 |  |
+[LegacyHarsh1](#LegacyHarsh1) | 13 |  |
+[LegacyHarsh2](#LegacyHarsh2) | 14 |  |
+[LegacyHarsh3](#LegacyHarsh3) | 15 |  |
+[LegacyHarsh4](#LegacyHarsh4) | 16 |  |
+[LegacyNormal1](#LegacyNormal1) | 17 |  |
+[LegacyNormal2](#LegacyNormal2) | 18 |  |
+[LegacyNormal3](#LegacyNormal3) | 19 |  |
+[LegacyNormal4](#LegacyNormal4) | 20 |  |
+[Morning](#Morning) | 21 |  |
+[Soft](#Soft) | 22 |  |
+[Sunrise](#Sunrise) | 23 |  |
+[Sunset](#Sunset) | 24 |  |
+[ThreePt](#ThreePt) | 25 |  |
+[TwoPt](#TwoPt) | 26 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### Balanced {#Balanced}
-| Balanced| 0 |  |
+| --- | --- | --- |
+ | Balanced | 0 |  |
 
 
 ---
 
 ### BrightRoom {#BrightRoom}
-| BrightRoom| 1 |  |
+| --- | --- | --- |
+ | BrightRoom | 1 |  |
 
 
 ---
 
 ### Chilly {#Chilly}
-| Chilly| 2 |  |
+| --- | --- | --- |
+ | Chilly | 2 |  |
 
 
 ---
 
 ### Contrasting {#Contrasting}
-| Contrasting| 3 |  |
+| --- | --- | --- |
+ | Contrasting | 3 |  |
 
 
 ---
 
 ### Flat {#Flat}
-| Flat| 4 |  |
+| --- | --- | --- |
+ | Flat | 4 |  |
 
 
 ---
 
 ### Flood {#Flood}
-| Flood| 5 |  |
+| --- | --- | --- |
+ | Flood | 5 |  |
 
 
 ---
 
 ### Freezing {#Freezing}
-| Freezing| 6 |  |
+| --- | --- | --- |
+ | Freezing | 6 |  |
 
 
 ---
 
 ### Glow {#Glow}
-| Glow| 7 |  |
+| --- | --- | --- |
+ | Glow | 7 |  |
 
 
 ---
 
 ### Harsh {#Harsh}
-| Harsh| 8 |  |
+| --- | --- | --- |
+ | Harsh | 8 |  |
 
 
 ---
 
 ### LegacyFlat1 {#LegacyFlat1}
-| LegacyFlat1| 9 |  |
+| --- | --- | --- |
+ | LegacyFlat1 | 9 |  |
 
 
 ---
 
 ### LegacyFlat2 {#LegacyFlat2}
-| LegacyFlat2| 10 |  |
+| --- | --- | --- |
+ | LegacyFlat2 | 10 |  |
 
 
 ---
 
 ### LegacyFlat3 {#LegacyFlat3}
-| LegacyFlat3| 11 |  |
+| --- | --- | --- |
+ | LegacyFlat3 | 11 |  |
 
 
 ---
 
 ### LegacyFlat4 {#LegacyFlat4}
-| LegacyFlat4| 12 |  |
+| --- | --- | --- |
+ | LegacyFlat4 | 12 |  |
 
 
 ---
 
 ### LegacyHarsh1 {#LegacyHarsh1}
-| LegacyHarsh1| 13 |  |
+| --- | --- | --- |
+ | LegacyHarsh1 | 13 |  |
 
 
 ---
 
 ### LegacyHarsh2 {#LegacyHarsh2}
-| LegacyHarsh2| 14 |  |
+| --- | --- | --- |
+ | LegacyHarsh2 | 14 |  |
 
 
 ---
 
 ### LegacyHarsh3 {#LegacyHarsh3}
-| LegacyHarsh3| 15 |  |
+| --- | --- | --- |
+ | LegacyHarsh3 | 15 |  |
 
 
 ---
 
 ### LegacyHarsh4 {#LegacyHarsh4}
-| LegacyHarsh4| 16 |  |
+| --- | --- | --- |
+ | LegacyHarsh4 | 16 |  |
 
 
 ---
 
 ### LegacyNormal1 {#LegacyNormal1}
-| LegacyNormal1| 17 |  |
+| --- | --- | --- |
+ | LegacyNormal1 | 17 |  |
 
 
 ---
 
 ### LegacyNormal2 {#LegacyNormal2}
-| LegacyNormal2| 18 |  |
+| --- | --- | --- |
+ | LegacyNormal2 | 18 |  |
 
 
 ---
 
 ### LegacyNormal3 {#LegacyNormal3}
-| LegacyNormal3| 19 |  |
+| --- | --- | --- |
+ | LegacyNormal3 | 19 |  |
 
 
 ---
 
 ### LegacyNormal4 {#LegacyNormal4}
-| LegacyNormal4| 20 |  |
+| --- | --- | --- |
+ | LegacyNormal4 | 20 |  |
 
 
 ---
 
 ### Morning {#Morning}
-| Morning| 21 |  |
+| --- | --- | --- |
+ | Morning | 21 |  |
 
 
 ---
 
 ### Soft {#Soft}
-| Soft| 22 |  |
+| --- | --- | --- |
+ | Soft | 22 |  |
 
 
 ---
 
 ### Sunrise {#Sunrise}
-| Sunrise| 23 |  |
+| --- | --- | --- |
+ | Sunrise | 23 |  |
 
 
 ---
 
 ### Sunset {#Sunset}
-| Sunset| 24 |  |
+| --- | --- | --- |
+ | Sunset | 24 |  |
 
 
 ---
 
 ### ThreePt {#ThreePt}
-| ThreePt| 25 |  |
+| --- | --- | --- |
+ | ThreePt | 25 |  |
 
 
 ---
 
 ### TwoPt {#TwoPt}
-| TwoPt| 26 |  |
+| --- | --- | --- |
+ | TwoPt | 26 |  |
 
 
 ---

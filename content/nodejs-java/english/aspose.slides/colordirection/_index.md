@@ -16,28 +16,31 @@ url: /aspose.slides/colordirection/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [Clockwise](#Clockwise) | 0 |  |
-| [CounterClockwise](#CounterClockwise) | 1 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Clockwise](#Clockwise) | 0 |  |
+[CounterClockwise](#CounterClockwise) | 1 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### Clockwise {#Clockwise}
-| Clockwise| 0 |  |
+| --- | --- | --- |
+ | Clockwise | 0 |  |
 
 
 ---
 
 ### CounterClockwise {#CounterClockwise}
-| CounterClockwise| 1 |  |
+| --- | --- | --- |
+ | CounterClockwise | 1 |  |
 
 
 ---

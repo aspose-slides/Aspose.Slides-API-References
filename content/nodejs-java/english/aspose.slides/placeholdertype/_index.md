@@ -16,119 +16,135 @@ url: /aspose.slides/placeholdertype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Title](#Title) | 0 | Title. |
-| [Body](#Body) | 1 | Body. |
-| [CenteredTitle](#CenteredTitle) | 2 | Centered Title. |
-| [Subtitle](#Subtitle) | 3 | Subtitle. |
-| [DateAndTime](#DateAndTime) | 4 | Date and Time. |
-| [SlideNumber](#SlideNumber) | 5 | Slide Number. |
-| [Footer](#Footer) | 6 | Footer. |
-| [Header](#Header) | 7 | Header. |
-| [Object](#Object) | 8 | Object. |
-| [Chart](#Chart) | 9 | Chart. |
-| [Table](#Table) | 10 | Table. |
-| [ClipArt](#ClipArt) | 11 | Clip Art. |
-| [Diagram](#Diagram) | 12 | Diagram. |
-| [Media](#Media) | 13 | Media. |
-| [SlideImage](#SlideImage) | 14 | Slide Image. |
-| [Picture](#Picture) | 15 | Picture. |
+[Title](#Title) | 0 | Title. |
+[Body](#Body) | 1 | Body. |
+[CenteredTitle](#CenteredTitle) | 2 | Centered Title. |
+[Subtitle](#Subtitle) | 3 | Subtitle. |
+[DateAndTime](#DateAndTime) | 4 | Date and Time. |
+[SlideNumber](#SlideNumber) | 5 | Slide Number. |
+[Footer](#Footer) | 6 | Footer. |
+[Header](#Header) | 7 | Header. |
+[Object](#Object) | 8 | Object. |
+[Chart](#Chart) | 9 | Chart. |
+[Table](#Table) | 10 | Table. |
+[ClipArt](#ClipArt) | 11 | Clip Art. |
+[Diagram](#Diagram) | 12 | Diagram. |
+[Media](#Media) | 13 | Media. |
+[SlideImage](#SlideImage) | 14 | Slide Image. |
+[Picture](#Picture) | 15 | Picture. |
 
 
 ---
 
 
 ### Title {#Title}
-| Title| 0 | Title. |
+| --- | --- | --- |
+ | Title | 0 | Title. |
 
 
 ---
 
 ### Body {#Body}
-| Body| 1 | Body. |
+| --- | --- | --- |
+ | Body | 1 | Body. |
 
 
 ---
 
 ### CenteredTitle {#CenteredTitle}
-| CenteredTitle| 2 | Centered Title. |
+| --- | --- | --- |
+ | CenteredTitle | 2 | Centered Title. |
 
 
 ---
 
 ### Subtitle {#Subtitle}
-| Subtitle| 3 | Subtitle. |
+| --- | --- | --- |
+ | Subtitle | 3 | Subtitle. |
 
 
 ---
 
 ### DateAndTime {#DateAndTime}
-| DateAndTime| 4 | Date and Time. |
+| --- | --- | --- |
+ | DateAndTime | 4 | Date and Time. |
 
 
 ---
 
 ### SlideNumber {#SlideNumber}
-| SlideNumber| 5 | Slide Number. |
+| --- | --- | --- |
+ | SlideNumber | 5 | Slide Number. |
 
 
 ---
 
 ### Footer {#Footer}
-| Footer| 6 | Footer. |
+| --- | --- | --- |
+ | Footer | 6 | Footer. |
 
 
 ---
 
 ### Header {#Header}
-| Header| 7 | Header. |
+| --- | --- | --- |
+ | Header | 7 | Header. |
 
 
 ---
 
 ### Object {#Object}
-| Object| 8 | Object. |
+| --- | --- | --- |
+ | Object | 8 | Object. |
 
 
 ---
 
 ### Chart {#Chart}
-| Chart| 9 | Chart. |
+| --- | --- | --- |
+ | Chart | 9 | Chart. |
 
 
 ---
 
 ### Table {#Table}
-| Table| 10 | Table. |
+| --- | --- | --- |
+ | Table | 10 | Table. |
 
 
 ---
 
 ### ClipArt {#ClipArt}
-| ClipArt| 11 | Clip Art. |
+| --- | --- | --- |
+ | ClipArt | 11 | Clip Art. |
 
 
 ---
 
 ### Diagram {#Diagram}
-| Diagram| 12 | Diagram. |
+| --- | --- | --- |
+ | Diagram | 12 | Diagram. |
 
 
 ---
 
 ### Media {#Media}
-| Media| 13 | Media. |
+| --- | --- | --- |
+ | Media | 13 | Media. |
 
 
 ---
 
 ### SlideImage {#SlideImage}
-| SlideImage| 14 | Slide Image. |
+| --- | --- | --- |
+ | SlideImage | 14 | Slide Image. |
 
 
 ---
 
 ### Picture {#Picture}
-| Picture| 15 | Picture. |
+| --- | --- | --- |
+ | Picture | 15 | Picture. |
 
 
 ---

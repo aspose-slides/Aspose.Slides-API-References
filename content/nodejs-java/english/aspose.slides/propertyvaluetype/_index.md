@@ -16,35 +16,39 @@ url: /aspose.slides/propertyvaluetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [String](#String) | 0 |  |
-| [Number](#Number) | 1 |  |
-| [Color](#Color) | 2 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[String](#String) | 0 |  |
+[Number](#Number) | 1 |  |
+[Color](#Color) | 2 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### String {#String}
-| String| 0 |  |
+| --- | --- | --- |
+ | String | 0 |  |
 
 
 ---
 
 ### Number {#Number}
-| Number| 1 |  |
+| --- | --- | --- |
+ | Number | 1 |  |
 
 
 ---
 
 ### Color {#Color}
-| Color| 2 |  |
+| --- | --- | --- |
+ | Color | 2 |  |
 
 
 ---

@@ -16,140 +16,159 @@ url: /aspose.slides/textunderlinetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 |  |
-| [None](#None) | 0 |  |
-| [Words](#Words) | 1 |  |
-| [Single](#Single) | 2 |  |
-| [Double](#Double) | 3 |  |
-| [Heavy](#Heavy) | 4 |  |
-| [Dotted](#Dotted) | 5 |  |
-| [HeavyDotted](#HeavyDotted) | 6 |  |
-| [Dashed](#Dashed) | 7 |  |
-| [HeavyDashed](#HeavyDashed) | 8 |  |
-| [LongDashed](#LongDashed) | 9 |  |
-| [HeavyLongDashed](#HeavyLongDashed) | 10 |  |
-| [DotDash](#DotDash) | 11 |  |
-| [HeavyDotDash](#HeavyDotDash) | 12 |  |
-| [DotDotDash](#DotDotDash) | 13 |  |
-| [HeavyDotDotDash](#HeavyDotDotDash) | 14 |  |
-| [Wavy](#Wavy) | 15 |  |
-| [HeavyWavy](#HeavyWavy) | 16 |  |
-| [DoubleWavy](#DoubleWavy) | 17 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[None](#None) | 0 |  |
+[Words](#Words) | 1 |  |
+[Single](#Single) | 2 |  |
+[Double](#Double) | 3 |  |
+[Heavy](#Heavy) | 4 |  |
+[Dotted](#Dotted) | 5 |  |
+[HeavyDotted](#HeavyDotted) | 6 |  |
+[Dashed](#Dashed) | 7 |  |
+[HeavyDashed](#HeavyDashed) | 8 |  |
+[LongDashed](#LongDashed) | 9 |  |
+[HeavyLongDashed](#HeavyLongDashed) | 10 |  |
+[DotDash](#DotDash) | 11 |  |
+[HeavyDotDash](#HeavyDotDash) | 12 |  |
+[DotDotDash](#DotDotDash) | 13 |  |
+[HeavyDotDotDash](#HeavyDotDotDash) | 14 |  |
+[Wavy](#Wavy) | 15 |  |
+[HeavyWavy](#HeavyWavy) | 16 |  |
+[DoubleWavy](#DoubleWavy) | 17 |  |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 |  |
+| --- | --- | --- |
+ | NotDefined | -1 |  |
 
 
 ---
 
 ### None {#None}
-| None| 0 |  |
+| --- | --- | --- |
+ | None | 0 |  |
 
 
 ---
 
 ### Words {#Words}
-| Words| 1 |  |
+| --- | --- | --- |
+ | Words | 1 |  |
 
 
 ---
 
 ### Single {#Single}
-| Single| 2 |  |
+| --- | --- | --- |
+ | Single | 2 |  |
 
 
 ---
 
 ### Double {#Double}
-| Double| 3 |  |
+| --- | --- | --- |
+ | Double | 3 |  |
 
 
 ---
 
 ### Heavy {#Heavy}
-| Heavy| 4 |  |
+| --- | --- | --- |
+ | Heavy | 4 |  |
 
 
 ---
 
 ### Dotted {#Dotted}
-| Dotted| 5 |  |
+| --- | --- | --- |
+ | Dotted | 5 |  |
 
 
 ---
 
 ### HeavyDotted {#HeavyDotted}
-| HeavyDotted| 6 |  |
+| --- | --- | --- |
+ | HeavyDotted | 6 |  |
 
 
 ---
 
 ### Dashed {#Dashed}
-| Dashed| 7 |  |
+| --- | --- | --- |
+ | Dashed | 7 |  |
 
 
 ---
 
 ### HeavyDashed {#HeavyDashed}
-| HeavyDashed| 8 |  |
+| --- | --- | --- |
+ | HeavyDashed | 8 |  |
 
 
 ---
 
 ### LongDashed {#LongDashed}
-| LongDashed| 9 |  |
+| --- | --- | --- |
+ | LongDashed | 9 |  |
 
 
 ---
 
 ### HeavyLongDashed {#HeavyLongDashed}
-| HeavyLongDashed| 10 |  |
+| --- | --- | --- |
+ | HeavyLongDashed | 10 |  |
 
 
 ---
 
 ### DotDash {#DotDash}
-| DotDash| 11 |  |
+| --- | --- | --- |
+ | DotDash | 11 |  |
 
 
 ---
 
 ### HeavyDotDash {#HeavyDotDash}
-| HeavyDotDash| 12 |  |
+| --- | --- | --- |
+ | HeavyDotDash | 12 |  |
 
 
 ---
 
 ### DotDotDash {#DotDotDash}
-| DotDotDash| 13 |  |
+| --- | --- | --- |
+ | DotDotDash | 13 |  |
 
 
 ---
 
 ### HeavyDotDotDash {#HeavyDotDotDash}
-| HeavyDotDotDash| 14 |  |
+| --- | --- | --- |
+ | HeavyDotDotDash | 14 |  |
 
 
 ---
 
 ### Wavy {#Wavy}
-| Wavy| 15 |  |
+| --- | --- | --- |
+ | Wavy | 15 |  |
 
 
 ---
 
 ### HeavyWavy {#HeavyWavy}
-| HeavyWavy| 16 |  |
+| --- | --- | --- |
+ | HeavyWavy | 16 |  |
 
 
 ---
 
 ### DoubleWavy {#DoubleWavy}
-| DoubleWavy| 17 |  |
+| --- | --- | --- |
+ | DoubleWavy | 17 |  |
 
 
 ---

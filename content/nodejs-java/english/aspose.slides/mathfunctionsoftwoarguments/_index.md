@@ -16,35 +16,39 @@ url: /aspose.slides/mathfunctionsoftwoarguments/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Log](#Log) | 0 | Log |
-| [Lim](#Lim) | 1 | Limit |
-| [Min](#Min) | 2 | Minimum |
-| [Max](#Max) | 3 | Maximum |
+[Log](#Log) | 0 | Log |
+[Lim](#Lim) | 1 | Limit |
+[Min](#Min) | 2 | Minimum |
+[Max](#Max) | 3 | Maximum |
 
 
 ---
 
 
 ### Log {#Log}
-| Log| 0 | Log |
+| --- | --- | --- |
+ | Log | 0 | Log |
 
 
 ---
 
 ### Lim {#Lim}
-| Lim| 1 | Limit |
+| --- | --- | --- |
+ | Lim | 1 | Limit |
 
 
 ---
 
 ### Min {#Min}
-| Min| 2 | Minimum |
+| --- | --- | --- |
+ | Min | 2 | Minimum |
 
 
 ---
 
 ### Max {#Max}
-| Max| 3 | Maximum |
+| --- | --- | --- |
+ | Max | 3 | Maximum |
 
 
 ---

@@ -16,35 +16,39 @@ url: /aspose.slides/tabalignment/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Left](#Left) | 0 | Left alignment |
-| [Center](#Center) | 1 | Center alignment |
-| [Right](#Right) | 2 | Right alignment |
-| [Decimal](#Decimal) | 3 | Decimal alignment |
+[Left](#Left) | 0 | Left alignment |
+[Center](#Center) | 1 | Center alignment |
+[Right](#Right) | 2 | Right alignment |
+[Decimal](#Decimal) | 3 | Decimal alignment |
 
 
 ---
 
 
 ### Left {#Left}
-| Left| 0 | Left alignment |
+| --- | --- | --- |
+ | Left | 0 | Left alignment |
 
 
 ---
 
 ### Center {#Center}
-| Center| 1 | Center alignment |
+| --- | --- | --- |
+ | Center | 1 | Center alignment |
 
 
 ---
 
 ### Right {#Right}
-| Right| 2 | Right alignment |
+| --- | --- | --- |
+ | Right | 2 | Right alignment |
 
 
 ---
 
 ### Decimal {#Decimal}
-| Decimal| 3 | Decimal alignment |
+| --- | --- | --- |
+ | Decimal | 3 | Decimal alignment |
 
 
 ---

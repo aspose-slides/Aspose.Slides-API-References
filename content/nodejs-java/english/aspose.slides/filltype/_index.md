@@ -16,56 +16,63 @@ url: /aspose.slides/filltype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [NotDefined](#NotDefined) | -1 | The fill type is not defined. |
-| [NoFill](#NoFill) | 0 | No fill applied. |
-| [Solid](#Solid) | 1 | Filled with a solid color. |
-| [Gradient](#Gradient) | 2 | The fill is gradient. |
-| [Pattern](#Pattern) | 3 | Repeating pattern is used to fill the object. |
-| [Picture](#Picture) | 4 | A single picture is used to fill the object. |
-| [Group](#Group) | 5 | The visual object inherits the fill properties from the group. |
+[NotDefined](#NotDefined) | -1 | The fill type is not defined. |
+[NoFill](#NoFill) | 0 | No fill applied. |
+[Solid](#Solid) | 1 | Filled with a solid color. |
+[Gradient](#Gradient) | 2 | The fill is gradient. |
+[Pattern](#Pattern) | 3 | Repeating pattern is used to fill the object. |
+[Picture](#Picture) | 4 | A single picture is used to fill the object. |
+[Group](#Group) | 5 | The visual object inherits the fill properties from the group. |
 
 
 ---
 
 
 ### NotDefined {#NotDefined}
-| NotDefined| -1 | The fill type is not defined. |
+| --- | --- | --- |
+ | NotDefined | -1 | The fill type is not defined. |
 
 
 ---
 
 ### NoFill {#NoFill}
-| NoFill| 0 | No fill applied. |
+| --- | --- | --- |
+ | NoFill | 0 | No fill applied. |
 
 
 ---
 
 ### Solid {#Solid}
-| Solid| 1 | Filled with a solid color. |
+| --- | --- | --- |
+ | Solid | 1 | Filled with a solid color. |
 
 
 ---
 
 ### Gradient {#Gradient}
-| Gradient| 2 | The fill is gradient. |
+| --- | --- | --- |
+ | Gradient | 2 | The fill is gradient. |
 
 
 ---
 
 ### Pattern {#Pattern}
-| Pattern| 3 | Repeating pattern is used to fill the object. |
+| --- | --- | --- |
+ | Pattern | 3 | Repeating pattern is used to fill the object. |
 
 
 ---
 
 ### Picture {#Picture}
-| Picture| 4 | A single picture is used to fill the object. |
+| --- | --- | --- |
+ | Picture | 4 | A single picture is used to fill the object. |
 
 
 ---
 
 ### Group {#Group}
-| Group| 5 | The visual object inherits the fill properties from the group. |
+| --- | --- | --- |
+ | Group | 5 | The visual object inherits the fill properties from the group. |
 
 
 ---

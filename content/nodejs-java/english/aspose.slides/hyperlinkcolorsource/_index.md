@@ -16,21 +16,23 @@ url: /aspose.slides/hyperlinkcolorsource/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Styles](#Styles) | 0 | Styles. |
-| [PortionFormat](#PortionFormat) | 1 | Portion format. |
+[Styles](#Styles) | 0 | Styles. |
+[PortionFormat](#PortionFormat) | 1 | Portion format. |
 
 
 ---
 
 
 ### Styles {#Styles}
-| Styles| 0 | Styles. |
+| --- | --- | --- |
+ | Styles | 0 | Styles. |
 
 
 ---
 
 ### PortionFormat {#PortionFormat}
-| PortionFormat| 1 | Portion format. |
+| --- | --- | --- |
+ | PortionFormat | 1 | Portion format. |
 
 
 ---

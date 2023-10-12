@@ -16,14 +16,15 @@ url: /aspose.slides/colorstringformat/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Vml](#Vml) | 0 | VML color string format. |
+[Vml](#Vml) | 0 | VML color string format. |
 
 
 ---
 
 
 ### Vml {#Vml}
-| Vml| 0 | VML color string format. |
+| --- | --- | --- |
+ | Vml | 0 | VML color string format. |
 
 
 ---

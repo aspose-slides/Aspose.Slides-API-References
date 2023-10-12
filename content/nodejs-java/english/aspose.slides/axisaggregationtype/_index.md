@@ -16,35 +16,39 @@ url: /aspose.slides/axisaggregationtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [ByCategory](#ByCategory) | 0 | Aggregate by categories |
-| [Automatic](#Automatic) | 1 | Aggregate categories automatically. |
-| [ByBinWidth](#ByBinWidth) | 2 | Aggregate categories by bin width. Property IAxis.BinWidth must be setted. |
-| [ByNumberOfBins](#ByNumberOfBins) | 3 | Aggregate categories by number of bins. Property IAxis.NumberOfBins must be setted. |
+[ByCategory](#ByCategory) | 0 | Aggregate by categories |
+[Automatic](#Automatic) | 1 | Aggregate categories automatically. |
+[ByBinWidth](#ByBinWidth) | 2 | Aggregate categories by bin width. Property IAxis.BinWidth must be setted. |
+[ByNumberOfBins](#ByNumberOfBins) | 3 | Aggregate categories by number of bins. Property IAxis.NumberOfBins must be setted. |
 
 
 ---
 
 
 ### ByCategory {#ByCategory}
-| ByCategory| 0 | Aggregate by categories |
+| --- | --- | --- |
+ | ByCategory | 0 | Aggregate by categories |
 
 
 ---
 
 ### Automatic {#Automatic}
-| Automatic| 1 | Aggregate categories automatically. |
+| --- | --- | --- |
+ | Automatic | 1 | Aggregate categories automatically. |
 
 
 ---
 
 ### ByBinWidth {#ByBinWidth}
-| ByBinWidth| 2 | Aggregate categories by bin width. Property IAxis.BinWidth must be setted. |
+| --- | --- | --- |
+ | ByBinWidth | 2 | Aggregate categories by bin width. Property IAxis.BinWidth must be setted. |
 
 
 ---
 
 ### ByNumberOfBins {#ByNumberOfBins}
-| ByNumberOfBins| 3 | Aggregate categories by number of bins. Property IAxis.NumberOfBins must be setted. |
+| --- | --- | --- |
+ | ByNumberOfBins | 3 | Aggregate categories by number of bins. Property IAxis.NumberOfBins must be setted. |
 
 
 ---
