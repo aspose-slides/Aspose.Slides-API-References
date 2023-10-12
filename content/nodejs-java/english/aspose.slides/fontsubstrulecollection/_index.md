@@ -11,7 +11,7 @@ url: /aspose.slides/fontsubstrulecollection/
 
  Represents collection of fonts substitution.
  
-###FontSubstRuleCollection{#FontSubstRuleCollection}
+### FontSubstRuleCollection {#FontSubstRuleCollection}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ FontSubstRuleCollection
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
@@ -34,7 +34,7 @@ FontSubstRuleCollection
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -47,7 +47,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -99,13 +99,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([FontSubstRule](../fontsubstrule)) | Removes the first occurrence of a specific object from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

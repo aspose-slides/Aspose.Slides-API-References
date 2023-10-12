@@ -11,7 +11,7 @@ url: /aspose.slides/formatscheme/
 
  Stores theme-defined formats for the shapes.
  
-###getBackgroundFillStyles{#getBackgroundFillStyles}
+### getBackgroundFillStyles {#getBackgroundFillStyles}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-###getEffectStyles{#getEffectStyles}
+### getEffectStyles {#getEffectStyles}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-###getFillStyles{#getFillStyles}
+### getFillStyles {#getFillStyles}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-###getLineStyles{#getLineStyles}
+### getLineStyles {#getLineStyles}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |

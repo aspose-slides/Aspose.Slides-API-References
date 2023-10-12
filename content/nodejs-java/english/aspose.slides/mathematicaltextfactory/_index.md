@@ -13,7 +13,7 @@ url: /aspose.slides/mathematicaltextfactory/
  
  For COM comparibility
  
-###MathematicalTextFactory{#MathematicalTextFactory}
+### MathematicalTextFactory {#MathematicalTextFactory}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ MathematicalTextFactory
 ---
 
 
-###createMathematicalText{#createMathematicalText}
+### createMathematicalText {#createMathematicalText}
 
 | Name | Description |
 | --- | --- |
@@ -39,13 +39,13 @@ MathematicalTextFactory
 ---
 
 
-###createMathematicalText{#createMathematicalText}
+### createMathematicalText {#createMathematicalText}
 
 | Name | Description |
 | --- | --- |
 | createMathematicalText (char) | Create mathematical text element with the specified value |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -58,13 +58,13 @@ MathematicalTextFactory
 ---
 
 
-###createMathematicalText{#createMathematicalText}
+### createMathematicalText {#createMathematicalText}
 
 | Name | Description |
 | --- | --- |
 | createMathematicalText (String) | Create empty mathematical text element with the specified value |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -77,13 +77,13 @@ MathematicalTextFactory
 ---
 
 
-###createMathematicalText{#createMathematicalText}
+### createMathematicalText {#createMathematicalText}
 
 | Name | Description |
 | --- | --- |
 | createMathematicalText (String, [PortionFormat](../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

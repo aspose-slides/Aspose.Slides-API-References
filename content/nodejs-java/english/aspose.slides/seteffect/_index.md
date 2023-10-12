@@ -11,7 +11,7 @@ url: /aspose.slides/seteffect/
 
  Represents a set effect for an animation behavior.
  
-###SetEffect{#SetEffect}
+### SetEffect {#SetEffect}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ SetEffect
 ---
 
 
-###getTo{#getTo}
+### getTo {#getTo}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Object
 ---
 
 
-###setTo{#setTo}
+### setTo {#setTo}
 
 | Name | Description |
 | --- | --- |

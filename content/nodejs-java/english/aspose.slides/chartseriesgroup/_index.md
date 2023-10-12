@@ -17,7 +17,7 @@ url: /aspose.slides/chartseriesgroup/
  "Series group properties" in ChartSeriesGroup class is read/write.
  Each of "series group properties" can have a read-only projection in ChartSeries class.
  
-###getBubbleSizeRepresentation{#getBubbleSizeRepresentation}
+### getBubbleSizeRepresentation {#getBubbleSizeRepresentation}
 
 | Name | Description |
 | --- | --- |
@@ -30,7 +30,7 @@ int
 ---
 
 
-###getBubbleSizeScale{#getBubbleSizeScale}
+### getBubbleSizeScale {#getBubbleSizeScale}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ int
 ---
 
 
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ int
 ---
 
 
-###getDoughnutHoleSize{#getDoughnutHoleSize}
+### getDoughnutHoleSize {#getDoughnutHoleSize}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ byte
 ---
 
 
-###getFirstSliceAngle{#getFirstSliceAngle}
+### getFirstSliceAngle {#getFirstSliceAngle}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ int
 ---
 
 
-###getGapDepth{#getGapDepth}
+### getGapDepth {#getGapDepth}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ int
 ---
 
 
-###getGapWidth{#getGapWidth}
+### getGapWidth {#getGapWidth}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ int
 ---
 
 
-###getHiLowLinesFormat{#getHiLowLinesFormat}
+### getHiLowLinesFormat {#getHiLowLinesFormat}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ int
 ---
 
 
-###getOverlap{#getOverlap}
+### getOverlap {#getOverlap}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ byte
 ---
 
 
-###getPieSplitBy{#getPieSplitBy}
+### getPieSplitBy {#getPieSplitBy}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ int
 ---
 
 
-###getPieSplitCustomPoints{#getPieSplitCustomPoints}
+### getPieSplitCustomPoints {#getPieSplitCustomPoints}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ int
 ---
 
 
-###getPieSplitPosition{#getPieSplitPosition}
+### getPieSplitPosition {#getPieSplitPosition}
 
 | Name | Description |
 | --- | --- |
@@ -173,7 +173,7 @@ double
 ---
 
 
-###getPlotOnSecondAxis{#getPlotOnSecondAxis}
+### getPlotOnSecondAxis {#getPlotOnSecondAxis}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ boolean
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ boolean
 ---
 
 
-###getSecondPieSize{#getSecondPieSize}
+### getSecondPieSize {#getSecondPieSize}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ int
 ---
 
 
-###getSeries{#getSeries}
+### getSeries {#getSeries}
 
 | Name | Description |
 | --- | --- |
@@ -225,7 +225,7 @@ ChartSeriesReadonlyCollection
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -238,7 +238,7 @@ ChartSeriesReadonlyCollection
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -251,7 +251,7 @@ int
 ---
 
 
-###getUpDownBars{#getUpDownBars}
+### getUpDownBars {#getUpDownBars}
 
 | Name | Description |
 | --- | --- |
@@ -264,7 +264,7 @@ int
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -277,7 +277,7 @@ int
 ---
 
 
-###hasSeriesLines{#hasSeriesLines}
+### hasSeriesLines {#hasSeriesLines}
 
 | Name | Description |
 | --- | --- |
@@ -290,7 +290,7 @@ boolean
 ---
 
 
-###isColorVaried{#isColorVaried}
+### isColorVaried {#isColorVaried}
 
 | Name | Description |
 | --- | --- |
@@ -303,7 +303,7 @@ boolean
 ---
 
 
-###setBubbleSizeRepresentation{#setBubbleSizeRepresentation}
+### setBubbleSizeRepresentation {#setBubbleSizeRepresentation}
 
 | Name | Description |
 | --- | --- |
@@ -313,7 +313,7 @@ boolean
 ---
 
 
-###setBubbleSizeScale{#setBubbleSizeScale}
+### setBubbleSizeScale {#setBubbleSizeScale}
 
 | Name | Description |
 | --- | --- |
@@ -323,7 +323,7 @@ boolean
 ---
 
 
-###setColorVaried{#setColorVaried}
+### setColorVaried {#setColorVaried}
 
 | Name | Description |
 | --- | --- |
@@ -333,7 +333,7 @@ boolean
 ---
 
 
-###setDoughnutHoleSize{#setDoughnutHoleSize}
+### setDoughnutHoleSize {#setDoughnutHoleSize}
 
 | Name | Description |
 | --- | --- |
@@ -343,7 +343,7 @@ boolean
 ---
 
 
-###setFirstSliceAngle{#setFirstSliceAngle}
+### setFirstSliceAngle {#setFirstSliceAngle}
 
 | Name | Description |
 | --- | --- |
@@ -353,7 +353,7 @@ boolean
 ---
 
 
-###setGapDepth{#setGapDepth}
+### setGapDepth {#setGapDepth}
 
 | Name | Description |
 | --- | --- |
@@ -363,7 +363,7 @@ boolean
 ---
 
 
-###setGapWidth{#setGapWidth}
+### setGapWidth {#setGapWidth}
 
 | Name | Description |
 | --- | --- |
@@ -373,7 +373,7 @@ boolean
 ---
 
 
-###setOverlap{#setOverlap}
+### setOverlap {#setOverlap}
 
 | Name | Description |
 | --- | --- |
@@ -383,7 +383,7 @@ boolean
 ---
 
 
-###setPieSplitBy{#setPieSplitBy}
+### setPieSplitBy {#setPieSplitBy}
 
 | Name | Description |
 | --- | --- |
@@ -393,7 +393,7 @@ boolean
 ---
 
 
-###setPieSplitPosition{#setPieSplitPosition}
+### setPieSplitPosition {#setPieSplitPosition}
 
 | Name | Description |
 | --- | --- |
@@ -403,7 +403,7 @@ boolean
 ---
 
 
-###setSecondPieSize{#setSecondPieSize}
+### setSecondPieSize {#setSecondPieSize}
 
 | Name | Description |
 | --- | --- |
@@ -413,7 +413,7 @@ boolean
 ---
 
 
-###setSeriesLines{#setSeriesLines}
+### setSeriesLines {#setSeriesLines}
 
 | Name | Description |
 | --- | --- |

@@ -12,7 +12,7 @@ url: /aspose.slides/normalviewproperties/
  Represents normal view properties. The normal view consists of
  three content regions: the slide itself, a side content region, and a bottom content region.
  
-###getHorizontalBarState{#getHorizontalBarState}
+### getHorizontalBarState {#getHorizontalBarState}
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ int
 ---
 
 
-###getPreferSingleView{#getPreferSingleView}
+### getPreferSingleView {#getPreferSingleView}
 
 | Name | Description |
 | --- | --- |
@@ -38,7 +38,7 @@ boolean
 ---
 
 
-###getRestoredLeft{#getRestoredLeft}
+### getRestoredLeft {#getRestoredLeft}
 
 | Name | Description |
 | --- | --- |
@@ -51,7 +51,7 @@ boolean
 ---
 
 
-###getRestoredTop{#getRestoredTop}
+### getRestoredTop {#getRestoredTop}
 
 | Name | Description |
 | --- | --- |
@@ -64,7 +64,7 @@ boolean
 ---
 
 
-###getShowOutlineIcons{#getShowOutlineIcons}
+### getShowOutlineIcons {#getShowOutlineIcons}
 
 | Name | Description |
 | --- | --- |
@@ -77,7 +77,7 @@ boolean
 ---
 
 
-###getSnapVerticalSplitter{#getSnapVerticalSplitter}
+### getSnapVerticalSplitter {#getSnapVerticalSplitter}
 
 | Name | Description |
 | --- | --- |
@@ -90,7 +90,7 @@ boolean
 ---
 
 
-###getVerticalBarState{#getVerticalBarState}
+### getVerticalBarState {#getVerticalBarState}
 
 | Name | Description |
 | --- | --- |
@@ -103,7 +103,7 @@ int
 ---
 
 
-###setHorizontalBarState{#setHorizontalBarState}
+### setHorizontalBarState {#setHorizontalBarState}
 
 | Name | Description |
 | --- | --- |
@@ -113,7 +113,7 @@ int
 ---
 
 
-###setPreferSingleView{#setPreferSingleView}
+### setPreferSingleView {#setPreferSingleView}
 
 | Name | Description |
 | --- | --- |
@@ -123,7 +123,7 @@ int
 ---
 
 
-###setShowOutlineIcons{#setShowOutlineIcons}
+### setShowOutlineIcons {#setShowOutlineIcons}
 
 | Name | Description |
 | --- | --- |
@@ -133,7 +133,7 @@ int
 ---
 
 
-###setSnapVerticalSplitter{#setSnapVerticalSplitter}
+### setSnapVerticalSplitter {#setSnapVerticalSplitter}
 
 | Name | Description |
 | --- | --- |
@@ -143,7 +143,7 @@ int
 ---
 
 
-###setVerticalBarState{#setVerticalBarState}
+### setVerticalBarState {#setVerticalBarState}
 
 | Name | Description |
 | --- | --- |

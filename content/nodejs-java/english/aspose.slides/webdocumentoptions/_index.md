@@ -11,7 +11,7 @@ url: /aspose.slides/webdocumentoptions/
 
  Represents an options set for  WebDocument saving.
  
-###WebDocumentOptions{#WebDocumentOptions}
+### WebDocumentOptions {#WebDocumentOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ WebDocumentOptions
 ---
 
 
-###getAnimateShapes{#getAnimateShapes}
+### getAnimateShapes {#getAnimateShapes}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getAnimateTransitions{#getAnimateTransitions}
+### getAnimateTransitions {#getAnimateTransitions}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getEmbedImages{#getEmbedImages}
+### getEmbedImages {#getEmbedImages}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getOutputSaver{#getOutputSaver}
+### getOutputSaver {#getOutputSaver}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ OutputSaverStub
 ---
 
 
-###getTemplateEngine{#getTemplateEngine}
+### getTemplateEngine {#getTemplateEngine}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ TemplateEngineStub
 ---
 
 
-###setAnimateShapes{#setAnimateShapes}
+### setAnimateShapes {#setAnimateShapes}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ TemplateEngineStub
 ---
 
 
-###setAnimateTransitions{#setAnimateTransitions}
+### setAnimateTransitions {#setAnimateTransitions}
 
 | Name | Description |
 | --- | --- |
@@ -109,7 +109,7 @@ TemplateEngineStub
 ---
 
 
-###setEmbedImages{#setEmbedImages}
+### setEmbedImages {#setEmbedImages}
 
 | Name | Description |
 | --- | --- |
@@ -119,7 +119,7 @@ TemplateEngineStub
 ---
 
 
-###setOutputSaver{#setOutputSaver}
+### setOutputSaver {#setOutputSaver}
 
 | Name | Description |
 | --- | --- |
@@ -129,7 +129,7 @@ TemplateEngineStub
 ---
 
 
-###setTemplateEngine{#setTemplateEngine}
+### setTemplateEngine {#setTemplateEngine}
 
 | Name | Description |
 | --- | --- |

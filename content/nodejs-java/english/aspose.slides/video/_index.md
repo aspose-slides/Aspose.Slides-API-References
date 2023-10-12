@@ -11,7 +11,7 @@ url: /aspose.slides/video/
 
  Represents an image embedded into a presentation.
  
-###getBinaryData{#getBinaryData}
+### getBinaryData {#getBinaryData}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ byte
 ---
 
 
-###getContentType{#getContentType}
+### getContentType {#getContentType}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###getStream{#getStream}
+### getStream {#getStream}
 
 | Name | Description |
 | --- | --- |

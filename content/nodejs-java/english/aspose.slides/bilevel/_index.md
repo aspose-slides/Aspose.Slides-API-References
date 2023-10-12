@@ -14,13 +14,13 @@ url: /aspose.slides/bilevel/
  Input colors whose luminance are greater than or equal the specified value are set to white.
  The alpha effect values are unaffected by this effect.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified BiLevel is equal to the current BiLevel. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ boolean
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -46,7 +46,7 @@ BiLevelEffectiveData
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

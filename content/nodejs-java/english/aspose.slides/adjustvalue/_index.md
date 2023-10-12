@@ -12,7 +12,7 @@ url: /aspose.slides/adjustvalue/
  Represents a geometry shape's adjustment value.
  These values affect shape's form.
  
-###getAngleValue{#getAngleValue}
+### getAngleValue {#getAngleValue}
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ float
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -38,7 +38,7 @@ String
 ---
 
 
-###getRawValue{#getRawValue}
+### getRawValue {#getRawValue}
 
 | Name | Description |
 | --- | --- |
@@ -51,7 +51,7 @@ long
 ---
 
 
-###setAngleValue{#setAngleValue}
+### setAngleValue {#setAngleValue}
 
 | Name | Description |
 | --- | --- |
@@ -61,7 +61,7 @@ long
 ---
 
 
-###setRawValue{#setRawValue}
+### setRawValue {#setRawValue}
 
 | Name | Description |
 | --- | --- |

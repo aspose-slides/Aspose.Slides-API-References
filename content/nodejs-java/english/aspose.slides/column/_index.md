@@ -11,7 +11,7 @@ url: /aspose.slides/column/
 
  Represents a column in a table.
  
-###getColumnFormat{#getColumnFormat}
+### getColumnFormat {#getColumnFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/column/
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -37,13 +37,13 @@ double
 ---
 
 
-###setTextFormat{#setTextFormat}
+### setTextFormat {#setTextFormat}
 
 | Name | Description |
 | --- | --- |
 | setTextFormat ([PortionFormat](../portionformat)) | Sets defined portion format properties to all column cells' portions. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -53,13 +53,13 @@ double
 ---
 
 
-###setTextFormat{#setTextFormat}
+### setTextFormat {#setTextFormat}
 
 | Name | Description |
 | --- | --- |
 | setTextFormat ([ParagraphFormat](../paragraphformat)) | Sets defined paragraph format properties to all column cells' paragraphs. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -69,13 +69,13 @@ double
 ---
 
 
-###setTextFormat{#setTextFormat}
+### setTextFormat {#setTextFormat}
 
 | Name | Description |
 | --- | --- |
 | setTextFormat ([TextFrameFormat](../textframeformat)) | Sets defined text frame format properties to all column cells' text frames. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -85,7 +85,7 @@ double
 ---
 
 
-###setWidth{#setWidth}
+### setWidth {#setWidth}
 
 | Name | Description |
 | --- | --- |

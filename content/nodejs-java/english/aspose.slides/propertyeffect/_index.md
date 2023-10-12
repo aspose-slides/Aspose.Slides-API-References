@@ -11,7 +11,7 @@ url: /aspose.slides/propertyeffect/
 
  Represent property effect behavior.
  
-###PropertyEffect{#PropertyEffect}
+### PropertyEffect {#PropertyEffect}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ PropertyEffect
 ---
 
 
-###getBy{#getBy}
+### getBy {#getBy}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###getCalcMode{#getCalcMode}
+### getCalcMode {#getCalcMode}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getFrom{#getFrom}
+### getFrom {#getFrom}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ String
 ---
 
 
-###getPoints{#getPoints}
+### getPoints {#getPoints}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 ---
 
 
-###getTo{#getTo}
+### getTo {#getTo}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ String
 ---
 
 
-###getValueType{#getValueType}
+### getValueType {#getValueType}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ int
 ---
 
 
-###setBy{#setBy}
+### setBy {#setBy}
 
 | Name | Description |
 | --- | --- |
@@ -112,7 +112,7 @@ int
 ---
 
 
-###setCalcMode{#setCalcMode}
+### setCalcMode {#setCalcMode}
 
 | Name | Description |
 | --- | --- |
@@ -122,7 +122,7 @@ int
 ---
 
 
-###setFrom{#setFrom}
+### setFrom {#setFrom}
 
 | Name | Description |
 | --- | --- |
@@ -132,7 +132,7 @@ int
 ---
 
 
-###setPoints{#setPoints}
+### setPoints {#setPoints}
 
 | Name | Description |
 | --- | --- |
@@ -142,7 +142,7 @@ int
 ---
 
 
-###setTo{#setTo}
+### setTo {#setTo}
 
 | Name | Description |
 | --- | --- |
@@ -152,7 +152,7 @@ int
 ---
 
 
-###setValueType{#setValueType}
+### setValueType {#setValueType}
 
 | Name | Description |
 | --- | --- |

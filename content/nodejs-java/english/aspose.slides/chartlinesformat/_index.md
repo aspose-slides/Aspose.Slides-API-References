@@ -11,7 +11,7 @@ url: /aspose.slides/chartlinesformat/
 
  Represents gridlines format properties.
  
-###getEffect{#getEffect}
+### getEffect {#getEffect}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/chartlinesformat/
 ---
 
 
-###getLine{#getLine}
+### getLine {#getLine}
 
 | Name | Description |
 | --- | --- |

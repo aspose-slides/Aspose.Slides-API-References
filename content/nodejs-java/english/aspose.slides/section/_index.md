@@ -11,7 +11,7 @@ url: /aspose.slides/section/
 
  Represents section of slides.
  
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ String
 ---
 
 
-###getSectionId{#getSectionId}
+### getSectionId {#getSectionId}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ UUID
 ---
 
 
-###getSlidesListOfSection{#getSlidesListOfSection}
+### getSlidesListOfSection {#getSlidesListOfSection}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ UUID
 ---
 
 
-###getStartedFromSlide{#getStartedFromSlide}
+### getStartedFromSlide {#getStartedFromSlide}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ UUID
 ---
 
 
-###setName{#setName}
+### setName {#setName}
 
 | Name | Description |
 | --- | --- |

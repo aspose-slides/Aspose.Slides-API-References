@@ -11,7 +11,7 @@ url: /aspose.slides/notesslide/
 
  Represents a notes slide in a presentation.
  
-###getHeaderFooterManager{#getHeaderFooterManager}
+### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/notesslide/
 ---
 
 
-###getNotesTextFrame{#getNotesTextFrame}
+### getNotesTextFrame {#getNotesTextFrame}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/notesslide/
 ---
 
 
-###getParentSlide{#getParentSlide}
+### getParentSlide {#getParentSlide}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/notesslide/
 ---
 
 
-###getShowMasterShapes{#getShowMasterShapes}
+### getShowMasterShapes {#getShowMasterShapes}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getThemeManager{#getThemeManager}
+### getThemeManager {#getThemeManager}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###setShowMasterShapes{#setShowMasterShapes}
+### setShowMasterShapes {#setShowMasterShapes}
 
 | Name | Description |
 | --- | --- |

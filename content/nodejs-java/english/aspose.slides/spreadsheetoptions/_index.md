@@ -11,7 +11,7 @@ url: /aspose.slides/spreadsheetoptions/
 
  Represents options which can be used to specify additional spreadsheets behavior.
  
-###SpreadsheetOptions{#SpreadsheetOptions}
+### SpreadsheetOptions {#SpreadsheetOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ SpreadsheetOptions
 ---
 
 
-###getPreferredCulture{#getPreferredCulture}
+### getPreferredCulture {#getPreferredCulture}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Locale
 ---
 
 
-###getRecoverWorkbookFromChartCache{#getRecoverWorkbookFromChartCache}
+### getRecoverWorkbookFromChartCache {#getRecoverWorkbookFromChartCache}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-###setPreferredCulture{#setPreferredCulture}
+### setPreferredCulture {#setPreferredCulture}
 
 | Name | Description |
 | --- | --- |
@@ -66,7 +66,7 @@ boolean
 ---
 
 
-###setRecoverWorkbookFromChartCache{#setRecoverWorkbookFromChartCache}
+### setRecoverWorkbookFromChartCache {#setRecoverWorkbookFromChartCache}
 
 | Name | Description |
 | --- | --- |

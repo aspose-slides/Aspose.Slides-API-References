@@ -11,7 +11,7 @@ url: /aspose.slides/rotation3d/
 
  Represents 3D rotation of a chart.
  
-###getDepthPercents{#getDepthPercents}
+### getDepthPercents {#getDepthPercents}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getHeightPercents{#getHeightPercents}
+### getHeightPercents {#getHeightPercents}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getPerspective{#getPerspective}
+### getPerspective {#getPerspective}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ byte
 ---
 
 
-###getRightAngleAxes{#getRightAngleAxes}
+### getRightAngleAxes {#getRightAngleAxes}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getRotationX{#getRotationX}
+### getRotationX {#getRotationX}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ byte
 ---
 
 
-###getRotationY{#getRotationY}
+### getRotationY {#getRotationY}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###setDepthPercents{#setDepthPercents}
+### setDepthPercents {#setDepthPercents}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ int
 ---
 
 
-###setHeightPercents{#setHeightPercents}
+### setHeightPercents {#setHeightPercents}
 
 | Name | Description |
 | --- | --- |
@@ -109,7 +109,7 @@ int
 ---
 
 
-###setPerspective{#setPerspective}
+### setPerspective {#setPerspective}
 
 | Name | Description |
 | --- | --- |
@@ -119,7 +119,7 @@ int
 ---
 
 
-###setRightAngleAxes{#setRightAngleAxes}
+### setRightAngleAxes {#setRightAngleAxes}
 
 | Name | Description |
 | --- | --- |
@@ -129,7 +129,7 @@ int
 ---
 
 
-###setRotationX{#setRotationX}
+### setRotationX {#setRotationX}
 
 | Name | Description |
 | --- | --- |
@@ -139,7 +139,7 @@ int
 ---
 
 
-###setRotationY{#setRotationY}
+### setRotationY {#setRotationY}
 
 | Name | Description |
 | --- | --- |

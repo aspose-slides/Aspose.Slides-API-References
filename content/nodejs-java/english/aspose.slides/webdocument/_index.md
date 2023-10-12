@@ -11,13 +11,13 @@ url: /aspose.slides/webdocument/
 
  Represents a transition form of the presentation for saving into a web format.
  
-###WebDocument{#WebDocument}
+### WebDocument {#WebDocument}
 
 | Name | Description |
 | --- | --- |
 | WebDocument([WebDocumentOptions](../webdocumentoptions)) | WebDocument function. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ WebDocument
 ---
 
 
-###getGlobal{#getGlobal}
+### getGlobal {#getGlobal}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ Storage
 ---
 
 
-###getInput{#getInput}
+### getInput {#getInput}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ Input
 ---
 
 
-###getOutput{#getOutput}
+### getOutput {#getOutput}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ Output
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |

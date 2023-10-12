@@ -13,7 +13,7 @@ url: /aspose.slides/mathmatrixfactory/
  
  For COM comparibility
  
-###MathMatrixFactory{#MathMatrixFactory}
+### MathMatrixFactory {#MathMatrixFactory}
 
 | Name | Description |
 | --- | --- |
@@ -26,13 +26,13 @@ MathMatrixFactory
 ---
 
 
-###createMathMatrix{#createMathMatrix}
+### createMathMatrix {#createMathMatrix}
 
 | Name | Description |
 | --- | --- |
 | createMathMatrix (int, int) | Creates a math matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

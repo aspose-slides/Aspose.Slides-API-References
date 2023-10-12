@@ -11,13 +11,13 @@ url: /aspose.slides/masterthememanager/
 
  Provides access to presentation master theme.
  
-###applyColorScheme{#applyColorScheme}
+### applyColorScheme {#applyColorScheme}
 
 | Name | Description |
 | --- | --- |
 | applyColorScheme ([ExtraColorScheme](../extracolorscheme)) | Applies extra color scheme to a slide. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ url: /aspose.slides/masterthememanager/
 ---
 
 
-###createThemeEffective{#createThemeEffective}
+### createThemeEffective {#createThemeEffective}
 
 | Name | Description |
 | --- | --- |
@@ -40,7 +40,7 @@ ThemeEffectiveData
 ---
 
 
-###getOverrideTheme{#getOverrideTheme}
+### getOverrideTheme {#getOverrideTheme}
 
 | Name | Description |
 | --- | --- |
@@ -53,7 +53,7 @@ ThemeEffectiveData
 ---
 
 
-###isOverrideThemeEnabled{#isOverrideThemeEnabled}
+### isOverrideThemeEnabled {#isOverrideThemeEnabled}
 
 | Name | Description |
 | --- | --- |
@@ -66,7 +66,7 @@ boolean
 ---
 
 
-###setOverrideTheme{#setOverrideTheme}
+### setOverrideTheme {#setOverrideTheme}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###setOverrideThemeEnabled{#setOverrideThemeEnabled}
+### setOverrideThemeEnabled {#setOverrideThemeEnabled}
 
 | Name | Description |
 | --- | --- |

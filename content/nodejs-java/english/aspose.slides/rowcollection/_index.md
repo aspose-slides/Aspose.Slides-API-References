@@ -11,13 +11,13 @@ url: /aspose.slides/rowcollection/
 
  Represents table row collection.
  
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Row](../row), boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ url: /aspose.slides/rowcollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -57,13 +57,13 @@ Object
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Row](../row), boolean) | Creates a copy of the specified template row and insert it at the specified position in a table. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -78,7 +78,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -91,7 +91,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -104,7 +104,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -117,13 +117,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int, boolean) | Removes a row at the specified position from a table. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -134,7 +134,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

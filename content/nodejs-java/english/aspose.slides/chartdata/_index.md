@@ -11,7 +11,7 @@ url: /aspose.slides/chartdata/
 
  Represents data used for a chart plotting.
  
-###getCategories{#getCategories}
+### getCategories {#getCategories}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/chartdata/
 ---
 
 
-###getChartDataWorkbook{#getChartDataWorkbook}
+### getChartDataWorkbook {#getChartDataWorkbook}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/chartdata/
 ---
 
 
-###getDataSourceType{#getDataSourceType}
+### getDataSourceType {#getDataSourceType}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getExternalWorkbookPath{#getExternalWorkbookPath}
+### getExternalWorkbookPath {#getExternalWorkbookPath}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ String
 ---
 
 
-###getRange{#getRange}
+### getRange {#getRange}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ String
 ---
 
 
-###getSecondaryCategories{#getSecondaryCategories}
+### getSecondaryCategories {#getSecondaryCategories}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ String
 ---
 
 
-###getSeries{#getSeries}
+### getSeries {#getSeries}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ String
 ---
 
 
-###getSeriesGroups{#getSeriesGroups}
+### getSeriesGroups {#getSeriesGroups}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ ChartSeriesGroupCollection
 ---
 
 
-###getUseSecondaryCategories{#getUseSecondaryCategories}
+### getUseSecondaryCategories {#getUseSecondaryCategories}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ boolean
 ---
 
 
-###readWorkbookStream{#readWorkbookStream}
+### readWorkbookStream {#readWorkbookStream}
 
 | Name | Description |
 | --- | --- |
@@ -147,13 +147,13 @@ byte
 ---
 
 
-###setExternalWorkbook{#setExternalWorkbook}
+### setExternalWorkbook {#setExternalWorkbook}
 
 | Name | Description |
 | --- | --- |
 | setExternalWorkbook (String) | Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -169,13 +169,13 @@ byte
 ---
 
 
-###setExternalWorkbook{#setExternalWorkbook}
+### setExternalWorkbook {#setExternalWorkbook}
 
 | Name | Description |
 | --- | --- |
 | setExternalWorkbook (String, boolean) | Sets external workbook as a data source for the chart. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -192,13 +192,13 @@ byte
 ---
 
 
-###setRange{#setRange}
+### setRange {#setRange}
 
 | Name | Description |
 | --- | --- |
 | setRange (String) | Set chart data range. Series and categories will be updated based on new data range. If amount of series in data range greater than count of series in the chart data then additional series with the same type as a last series in the current collection will be added to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -214,7 +214,7 @@ byte
 ---
 
 
-###setUseSecondaryCategories{#setUseSecondaryCategories}
+### setUseSecondaryCategories {#setUseSecondaryCategories}
 
 | Name | Description |
 | --- | --- |
@@ -224,7 +224,7 @@ byte
 ---
 
 
-###switchRowColumn{#switchRowColumn}
+### switchRowColumn {#switchRowColumn}
 
 | Name | Description |
 | --- | --- |
@@ -234,13 +234,13 @@ byte
 ---
 
 
-###writeWorkbookStream{#writeWorkbookStream}
+### writeWorkbookStream {#writeWorkbookStream}
 
 | Name | Description |
 | --- | --- |
 | writeWorkbookStream (byte[]) | Initializes the internally contained Excel workbook with user-specified value. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

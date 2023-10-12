@@ -11,7 +11,7 @@ url: /aspose.slides/scaleeffect/
 
  Represents animation scale effect.
  
-###ScaleEffect{#ScaleEffect}
+### ScaleEffect {#ScaleEffect}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ ScaleEffect
 ---
 
 
-###getBy{#getBy}
+### getBy {#getBy}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Point2D.Float
 ---
 
 
-###getFrom{#getFrom}
+### getFrom {#getFrom}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ Point2D.Float
 ---
 
 
-###getTo{#getTo}
+### getTo {#getTo}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ Point2D.Float
 ---
 
 
-###getZoomContent{#getZoomContent}
+### getZoomContent {#getZoomContent}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ byte
 ---
 
 
-###setBy{#setBy}
+### setBy {#setBy}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ byte
 ---
 
 
-###setFrom{#setFrom}
+### setFrom {#setFrom}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ byte
 ---
 
 
-###setTo{#setTo}
+### setTo {#setTo}
 
 | Name | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ byte
 ---
 
 
-###setZoomContent{#setZoomContent}
+### setZoomContent {#setZoomContent}
 
 | Name | Description |
 | --- | --- |

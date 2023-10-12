@@ -11,13 +11,13 @@ url: /aspose.slides/summaryzoomsectioncollection/
 
  Represents a collection of Summary Zoom Section objects.
  
-###addSummaryZoomSection{#addSummaryZoomSection}
+### addSummaryZoomSection {#addSummaryZoomSection}
 
 | Name | Description |
 | --- | --- |
 | addSummaryZoomSection ([Section](../section)) | Creates new Summary Zoom Section object and add it to the collection |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ url: /aspose.slides/summaryzoomsectioncollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -46,13 +46,13 @@ url: /aspose.slides/summaryzoomsectioncollection/
 ---
 
 
-###getSummarySection{#getSummarySection}
+### getSummarySection {#getSummarySection}
 
 | Name | Description |
 | --- | --- |
 | getSummarySection ([Section](../section)) | Returns Summary Zoom Section element for the given section. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ url: /aspose.slides/summaryzoomsectioncollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -78,7 +78,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -91,13 +91,13 @@ Object
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([SummaryZoomSection](../summaryzoomsection)) | Returns an index of the specified SummaryZoomSection object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -110,7 +110,7 @@ int
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -123,7 +123,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -136,7 +136,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -149,13 +149,13 @@ boolean
 ---
 
 
-###removeSummaryZoomSection{#removeSummaryZoomSection}
+### removeSummaryZoomSection {#removeSummaryZoomSection}
 
 | Name | Description |
 | --- | --- |
 | removeSummaryZoomSection ([Section](../section)) | Remove Summary Zoom Section object from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -165,7 +165,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

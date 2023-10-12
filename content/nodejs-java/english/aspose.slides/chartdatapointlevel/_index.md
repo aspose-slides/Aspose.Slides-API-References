@@ -11,7 +11,7 @@ url: /aspose.slides/chartdatapointlevel/
 
  Represents data point level. Applies for Treemap and Sunburst chart.
  
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/chartdatapointlevel/
 ---
 
 
-###getLabel{#getLabel}
+### getLabel {#getLabel}
 
 | Name | Description |
 | --- | --- |

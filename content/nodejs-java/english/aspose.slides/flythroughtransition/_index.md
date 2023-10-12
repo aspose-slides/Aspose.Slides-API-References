@@ -11,7 +11,7 @@ url: /aspose.slides/flythroughtransition/
 
  Fly-through slide transition effect.
  
-###getDirection{#getDirection}
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###hasBounce{#hasBounce}
+### hasBounce {#hasBounce}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###setBounce{#setBounce}
+### setBounce {#setBounce}
 
 | Name | Description |
 | --- | --- |
@@ -47,7 +47,7 @@ boolean
 ---
 
 
-###setDirection{#setDirection}
+### setDirection {#setDirection}
 
 | Name | Description |
 | --- | --- |

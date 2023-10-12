@@ -11,7 +11,7 @@ url: /aspose.slides/revealtransition/
 
  Reveal slide transition effect.
  
-###getDirection{#getDirection}
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getThroughBlack{#getThroughBlack}
+### getThroughBlack {#getThroughBlack}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###setDirection{#setDirection}
+### setDirection {#setDirection}
 
 | Name | Description |
 | --- | --- |
@@ -47,7 +47,7 @@ boolean
 ---
 
 
-###setThroughBlack{#setThroughBlack}
+### setThroughBlack {#setThroughBlack}
 
 | Name | Description |
 | --- | --- |

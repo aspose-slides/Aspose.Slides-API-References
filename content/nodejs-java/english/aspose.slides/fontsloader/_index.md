@@ -12,7 +12,7 @@ url: /aspose.slides/fontsloader/
  Class for loading custom fonts defined by user.
  Should be used before creating any presentation objects.
  
-###clearCache{#clearCache}
+### clearCache {#clearCache}
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,7 @@ url: /aspose.slides/fontsloader/
 ---
 
 
-###getFontFolders{#getFontFolders}
+### getFontFolders {#getFontFolders}
 
 | Name | Description |
 | --- | --- |
@@ -35,13 +35,13 @@ String
 ---
 
 
-###loadExternalFont{#loadExternalFont}
+### loadExternalFont {#loadExternalFont}
 
 | Name | Description |
 | --- | --- |
 | loadExternalFont (byte[]) | Adds font from the binary data |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -51,13 +51,13 @@ String
 ---
 
 
-###loadExternalFonts{#loadExternalFonts}
+### loadExternalFonts {#loadExternalFonts}
 
 | Name | Description |
 | --- | --- |
 | loadExternalFonts (java.lang.String[]) | Adds additional folders to seek fonts. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

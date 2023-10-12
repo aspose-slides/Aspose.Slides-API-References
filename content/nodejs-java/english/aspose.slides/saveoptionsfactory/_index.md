@@ -13,7 +13,7 @@ url: /aspose.slides/saveoptionsfactory/
  
  For COM compatibility.
  
-###SaveOptionsFactory{#SaveOptionsFactory}
+### SaveOptionsFactory {#SaveOptionsFactory}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ SaveOptionsFactory
 ---
 
 
-###createPptxOptions{#createPptxOptions}
+### createPptxOptions {#createPptxOptions}
 
 | Name | Description |
 | --- | --- |

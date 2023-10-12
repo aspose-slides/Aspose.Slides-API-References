@@ -13,7 +13,7 @@ url: /aspose.slides/doublechartvalue/
  1) in cell/cells of workbook related to chart;
  2) as literal value.
  
-###getAsCell{#getAsCell}
+### getAsCell {#getAsCell}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ url: /aspose.slides/doublechartvalue/
 ---
 
 
-###getAsLiteralDouble{#getAsLiteralDouble}
+### getAsLiteralDouble {#getAsLiteralDouble}
 
 | Name | Description |
 | --- | --- |
@@ -39,7 +39,7 @@ double
 ---
 
 
-###getData{#getData}
+### getData {#getData}
 
 | Name | Description |
 | --- | --- |
@@ -52,7 +52,7 @@ Object
 ---
 
 
-###setAsCell{#setAsCell}
+### setAsCell {#setAsCell}
 
 | Name | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ Object
 ---
 
 
-###setAsLiteralDouble{#setAsLiteralDouble}
+### setAsLiteralDouble {#setAsLiteralDouble}
 
 | Name | Description |
 | --- | --- |
@@ -72,7 +72,7 @@ Object
 ---
 
 
-###setData{#setData}
+### setData {#setData}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ Object
 ---
 
 
-###toDouble{#toDouble}
+### toDouble {#toDouble}
 
 | Name | Description |
 | --- | --- |

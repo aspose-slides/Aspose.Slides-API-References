@@ -11,7 +11,7 @@ url: /aspose.slides/oleobjectframe/
 
  Represents an OLE object on a slide.
  
-###getEmbeddedData{#getEmbeddedData}
+### getEmbeddedData {#getEmbeddedData}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/oleobjectframe/
 ---
 
 
-###getEmbeddedFileLabel{#getEmbeddedFileLabel}
+### getEmbeddedFileLabel {#getEmbeddedFileLabel}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###getEmbeddedFileName{#getEmbeddedFileName}
+### getEmbeddedFileName {#getEmbeddedFileName}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ String
 ---
 
 
-###getLinkFileName{#getLinkFileName}
+### getLinkFileName {#getLinkFileName}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ String
 ---
 
 
-###getLinkPathLong{#getLinkPathLong}
+### getLinkPathLong {#getLinkPathLong}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 ---
 
 
-###getLinkPathRelative{#getLinkPathRelative}
+### getLinkPathRelative {#getLinkPathRelative}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ String
 ---
 
 
-###getObjectName{#getObjectName}
+### getObjectName {#getObjectName}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ String
 ---
 
 
-###getObjectProgId{#getObjectProgId}
+### getObjectProgId {#getObjectProgId}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ String
 ---
 
 
-###getSubstitutePictureFormat{#getSubstitutePictureFormat}
+### getSubstitutePictureFormat {#getSubstitutePictureFormat}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ String
 ---
 
 
-###getSubstitutePictureTitle{#getSubstitutePictureTitle}
+### getSubstitutePictureTitle {#getSubstitutePictureTitle}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ String
 ---
 
 
-###getUpdateAutomatic{#getUpdateAutomatic}
+### getUpdateAutomatic {#getUpdateAutomatic}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ boolean
 ---
 
 
-###isObjectIcon{#isObjectIcon}
+### isObjectIcon {#isObjectIcon}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ boolean
 ---
 
 
-###isObjectLink{#isObjectLink}
+### isObjectLink {#isObjectLink}
 
 | Name | Description |
 | --- | --- |
@@ -180,13 +180,13 @@ boolean
 ---
 
 
-###setEmbeddedData{#setEmbeddedData}
+### setEmbeddedData {#setEmbeddedData}
 
 | Name | Description |
 | --- | --- |
 | setEmbeddedData ([OleEmbeddedDataInfo](../oleembeddeddatainfo)) | Sets information about OLE embedded data. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -202,7 +202,7 @@ boolean
 ---
 
 
-###setLinkPathLong{#setLinkPathLong}
+### setLinkPathLong {#setLinkPathLong}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ boolean
 ---
 
 
-###setObjectIcon{#setObjectIcon}
+### setObjectIcon {#setObjectIcon}
 
 | Name | Description |
 | --- | --- |
@@ -222,7 +222,7 @@ boolean
 ---
 
 
-###setObjectName{#setObjectName}
+### setObjectName {#setObjectName}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ boolean
 ---
 
 
-###setObjectProgId{#setObjectProgId}
+### setObjectProgId {#setObjectProgId}
 
 | Name | Description |
 | --- | --- |
@@ -242,7 +242,7 @@ boolean
 ---
 
 
-###setSubstitutePictureTitle{#setSubstitutePictureTitle}
+### setSubstitutePictureTitle {#setSubstitutePictureTitle}
 
 | Name | Description |
 | --- | --- |
@@ -252,7 +252,7 @@ boolean
 ---
 
 
-###setUpdateAutomatic{#setUpdateAutomatic}
+### setUpdateAutomatic {#setUpdateAutomatic}
 
 | Name | Description |
 | --- | --- |

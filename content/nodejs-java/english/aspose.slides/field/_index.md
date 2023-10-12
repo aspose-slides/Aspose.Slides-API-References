@@ -11,7 +11,7 @@ url: /aspose.slides/field/
 
  Represents a field.
  
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/field/
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/field/
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/field/
 ---
 
 
-###setType{#setType}
+### setType {#setType}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/smartartnodecollection/
 
  Represents a collection of SmartArt nodes.
  
-###addNode{#addNode}
+### addNode {#addNode}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ url: /aspose.slides/smartartnodecollection/
 ---
 
 
-###addNodeByPosition{#addNodeByPosition}
+### addNodeByPosition {#addNodeByPosition}
 
 | Name | Description |
 | --- | --- |
 | addNodeByPosition (int) | Add new node in the selected position of nodes collection |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ url: /aspose.slides/smartartnodecollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -62,13 +62,13 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns node by index |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -94,7 +94,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -107,7 +107,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -120,13 +120,13 @@ boolean
 ---
 
 
-###removeNode{#removeNode}
+### removeNode {#removeNode}
 
 | Name | Description |
 | --- | --- |
 | removeNode (int) | Remove node or sub node by index |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -142,13 +142,13 @@ boolean
 ---
 
 
-###removeNode{#removeNode}
+### removeNode {#removeNode}
 
 | Name | Description |
 | --- | --- |
 | removeNode ([SmartArtNode](../smartartnode)) | Remove node or sub node |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -158,7 +158,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

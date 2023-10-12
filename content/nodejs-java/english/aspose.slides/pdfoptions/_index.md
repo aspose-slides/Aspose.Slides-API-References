@@ -11,7 +11,7 @@ url: /aspose.slides/pdfoptions/
 
  Provides options that control how a presentation is saved in Pdf format.
  
-###PdfOptions{#PdfOptions}
+### PdfOptions {#PdfOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ PdfOptions
 ---
 
 
-###getAccessPermissions{#getAccessPermissions}
+### getAccessPermissions {#getAccessPermissions}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getAdditionalCommonFontFamilies{#getAdditionalCommonFontFamilies}
+### getAdditionalCommonFontFamilies {#getAdditionalCommonFontFamilies}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ String
 ---
 
 
-###getApplyImageTransparent{#getApplyImageTransparent}
+### getApplyImageTransparent {#getApplyImageTransparent}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getBestImagesCompressionRatio{#getBestImagesCompressionRatio}
+### getBestImagesCompressionRatio {#getBestImagesCompressionRatio}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getCompliance{#getCompliance}
+### getCompliance {#getCompliance}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getDrawSlidesFrame{#getDrawSlidesFrame}
+### getDrawSlidesFrame {#getDrawSlidesFrame}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###getEmbedFullFonts{#getEmbedFullFonts}
+### getEmbedFullFonts {#getEmbedFullFonts}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###getEmbedTrueTypeFontsForASCII{#getEmbedTrueTypeFontsForASCII}
+### getEmbedTrueTypeFontsForASCII {#getEmbedTrueTypeFontsForASCII}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-###getImageTransparentColor{#getImageTransparentColor}
+### getImageTransparentColor {#getImageTransparentColor}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ Color
 ---
 
 
-###getJpegQuality{#getJpegQuality}
+### getJpegQuality {#getJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ byte
 ---
 
 
-###getNotesCommentsLayouting{#getNotesCommentsLayouting}
+### getNotesCommentsLayouting {#getNotesCommentsLayouting}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ byte
 ---
 
 
-###getPassword{#getPassword}
+### getPassword {#getPassword}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ String
 ---
 
 
-###getSaveMetafilesAsPng{#getSaveMetafilesAsPng}
+### getSaveMetafilesAsPng {#getSaveMetafilesAsPng}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ boolean
 ---
 
 
-###getShowHiddenSlides{#getShowHiddenSlides}
+### getShowHiddenSlides {#getShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ boolean
 ---
 
 
-###getSufficientResolution{#getSufficientResolution}
+### getSufficientResolution {#getSufficientResolution}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ float
 ---
 
 
-###getTextCompression{#getTextCompression}
+### getTextCompression {#getTextCompression}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ int
 ---
 
 
-###setAccessPermissions{#setAccessPermissions}
+### setAccessPermissions {#setAccessPermissions}
 
 | Name | Description |
 | --- | --- |
@@ -242,7 +242,7 @@ int
 ---
 
 
-###setAdditionalCommonFontFamilies{#setAdditionalCommonFontFamilies}
+### setAdditionalCommonFontFamilies {#setAdditionalCommonFontFamilies}
 
 | Name | Description |
 | --- | --- |
@@ -252,7 +252,7 @@ int
 ---
 
 
-###setApplyImageTransparent{#setApplyImageTransparent}
+### setApplyImageTransparent {#setApplyImageTransparent}
 
 | Name | Description |
 | --- | --- |
@@ -262,7 +262,7 @@ int
 ---
 
 
-###setBestImagesCompressionRatio{#setBestImagesCompressionRatio}
+### setBestImagesCompressionRatio {#setBestImagesCompressionRatio}
 
 | Name | Description |
 | --- | --- |
@@ -272,7 +272,7 @@ int
 ---
 
 
-###setCompliance{#setCompliance}
+### setCompliance {#setCompliance}
 
 | Name | Description |
 | --- | --- |
@@ -282,7 +282,7 @@ int
 ---
 
 
-###setDrawSlidesFrame{#setDrawSlidesFrame}
+### setDrawSlidesFrame {#setDrawSlidesFrame}
 
 | Name | Description |
 | --- | --- |
@@ -292,7 +292,7 @@ int
 ---
 
 
-###setEmbedFullFonts{#setEmbedFullFonts}
+### setEmbedFullFonts {#setEmbedFullFonts}
 
 | Name | Description |
 | --- | --- |
@@ -302,7 +302,7 @@ int
 ---
 
 
-###setEmbedTrueTypeFontsForASCII{#setEmbedTrueTypeFontsForASCII}
+### setEmbedTrueTypeFontsForASCII {#setEmbedTrueTypeFontsForASCII}
 
 | Name | Description |
 | --- | --- |
@@ -312,7 +312,7 @@ int
 ---
 
 
-###setImageTransparentColor{#setImageTransparentColor}
+### setImageTransparentColor {#setImageTransparentColor}
 
 | Name | Description |
 | --- | --- |
@@ -322,7 +322,7 @@ int
 ---
 
 
-###setJpegQuality{#setJpegQuality}
+### setJpegQuality {#setJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -332,7 +332,7 @@ int
 ---
 
 
-###setPassword{#setPassword}
+### setPassword {#setPassword}
 
 | Name | Description |
 | --- | --- |
@@ -342,7 +342,7 @@ int
 ---
 
 
-###setSaveMetafilesAsPng{#setSaveMetafilesAsPng}
+### setSaveMetafilesAsPng {#setSaveMetafilesAsPng}
 
 | Name | Description |
 | --- | --- |
@@ -352,7 +352,7 @@ int
 ---
 
 
-###setShowHiddenSlides{#setShowHiddenSlides}
+### setShowHiddenSlides {#setShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -362,7 +362,7 @@ int
 ---
 
 
-###setSufficientResolution{#setSufficientResolution}
+### setSufficientResolution {#setSufficientResolution}
 
 | Name | Description |
 | --- | --- |
@@ -372,7 +372,7 @@ int
 ---
 
 
-###setTextCompression{#setTextCompression}
+### setTextCompression {#setTextCompression}
 
 | Name | Description |
 | --- | --- |

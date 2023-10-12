@@ -11,7 +11,7 @@ url: /aspose.slides/marker/
 
  Represents marker of a chert.
  
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/marker/
 ---
 
 
-###getSize{#getSize}
+### getSize {#getSize}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getSymbol{#getSymbol}
+### getSymbol {#getSymbol}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###setSize{#setSize}
+### setSize {#setSize}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ int
 ---
 
 
-###setSymbol{#setSymbol}
+### setSymbol {#setSymbol}
 
 | Name | Description |
 | --- | --- |

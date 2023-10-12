@@ -11,7 +11,7 @@ url: /aspose.slides/swfoptions/
 
  Provides options that control how a presentation is saved in Swf format.
  
-###SwfOptions{#SwfOptions}
+### SwfOptions {#SwfOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ SwfOptions
 ---
 
 
-###getCompressed{#getCompressed}
+### getCompressed {#getCompressed}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getEnableContextMenu{#getEnableContextMenu}
+### getEnableContextMenu {#getEnableContextMenu}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getJpegQuality{#getJpegQuality}
+### getJpegQuality {#getJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getLogoImageBytes{#getLogoImageBytes}
+### getLogoImageBytes {#getLogoImageBytes}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ byte
 ---
 
 
-###getLogoLink{#getLogoLink}
+### getLogoLink {#getLogoLink}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ String
 ---
 
 
-###getNotesCommentsLayouting{#getNotesCommentsLayouting}
+### getNotesCommentsLayouting {#getNotesCommentsLayouting}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ String
 ---
 
 
-###getShowBottomPane{#getShowBottomPane}
+### getShowBottomPane {#getShowBottomPane}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###getShowFullScreen{#getShowFullScreen}
+### getShowFullScreen {#getShowFullScreen}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-###getShowHiddenSlides{#getShowHiddenSlides}
+### getShowHiddenSlides {#getShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ boolean
 ---
 
 
-###getShowLeftPane{#getShowLeftPane}
+### getShowLeftPane {#getShowLeftPane}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ boolean
 ---
 
 
-###getShowPageBorder{#getShowPageBorder}
+### getShowPageBorder {#getShowPageBorder}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ boolean
 ---
 
 
-###getShowPageStepper{#getShowPageStepper}
+### getShowPageStepper {#getShowPageStepper}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ boolean
 ---
 
 
-###getShowSearch{#getShowSearch}
+### getShowSearch {#getShowSearch}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ boolean
 ---
 
 
-###getShowTopPane{#getShowTopPane}
+### getShowTopPane {#getShowTopPane}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ boolean
 ---
 
 
-###getStartOpenLeftPane{#getStartOpenLeftPane}
+### getStartOpenLeftPane {#getStartOpenLeftPane}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ boolean
 ---
 
 
-###getViewerIncluded{#getViewerIncluded}
+### getViewerIncluded {#getViewerIncluded}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ boolean
 ---
 
 
-###setCompressed{#setCompressed}
+### setCompressed {#setCompressed}
 
 | Name | Description |
 | --- | --- |
@@ -242,7 +242,7 @@ boolean
 ---
 
 
-###setEnableContextMenu{#setEnableContextMenu}
+### setEnableContextMenu {#setEnableContextMenu}
 
 | Name | Description |
 | --- | --- |
@@ -252,7 +252,7 @@ boolean
 ---
 
 
-###setJpegQuality{#setJpegQuality}
+### setJpegQuality {#setJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -262,7 +262,7 @@ boolean
 ---
 
 
-###setLogoImageBytes{#setLogoImageBytes}
+### setLogoImageBytes {#setLogoImageBytes}
 
 | Name | Description |
 | --- | --- |
@@ -272,7 +272,7 @@ boolean
 ---
 
 
-###setLogoLink{#setLogoLink}
+### setLogoLink {#setLogoLink}
 
 | Name | Description |
 | --- | --- |
@@ -282,7 +282,7 @@ boolean
 ---
 
 
-###setShowBottomPane{#setShowBottomPane}
+### setShowBottomPane {#setShowBottomPane}
 
 | Name | Description |
 | --- | --- |
@@ -292,7 +292,7 @@ boolean
 ---
 
 
-###setShowFullScreen{#setShowFullScreen}
+### setShowFullScreen {#setShowFullScreen}
 
 | Name | Description |
 | --- | --- |
@@ -302,7 +302,7 @@ boolean
 ---
 
 
-###setShowHiddenSlides{#setShowHiddenSlides}
+### setShowHiddenSlides {#setShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -312,7 +312,7 @@ boolean
 ---
 
 
-###setShowLeftPane{#setShowLeftPane}
+### setShowLeftPane {#setShowLeftPane}
 
 | Name | Description |
 | --- | --- |
@@ -322,7 +322,7 @@ boolean
 ---
 
 
-###setShowPageBorder{#setShowPageBorder}
+### setShowPageBorder {#setShowPageBorder}
 
 | Name | Description |
 | --- | --- |
@@ -332,7 +332,7 @@ boolean
 ---
 
 
-###setShowPageStepper{#setShowPageStepper}
+### setShowPageStepper {#setShowPageStepper}
 
 | Name | Description |
 | --- | --- |
@@ -342,7 +342,7 @@ boolean
 ---
 
 
-###setShowSearch{#setShowSearch}
+### setShowSearch {#setShowSearch}
 
 | Name | Description |
 | --- | --- |
@@ -352,7 +352,7 @@ boolean
 ---
 
 
-###setShowTopPane{#setShowTopPane}
+### setShowTopPane {#setShowTopPane}
 
 | Name | Description |
 | --- | --- |
@@ -362,7 +362,7 @@ boolean
 ---
 
 
-###setStartOpenLeftPane{#setStartOpenLeftPane}
+### setStartOpenLeftPane {#setStartOpenLeftPane}
 
 | Name | Description |
 | --- | --- |
@@ -372,7 +372,7 @@ boolean
 ---
 
 
-###setViewerIncluded{#setViewerIncluded}
+### setViewerIncluded {#setViewerIncluded}
 
 | Name | Description |
 | --- | --- |

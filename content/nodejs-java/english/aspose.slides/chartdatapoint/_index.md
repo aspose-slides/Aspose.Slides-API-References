@@ -11,7 +11,7 @@ url: /aspose.slides/chartdatapoint/
 
  Represents series data point.
  
-###getActualHeight{#getActualHeight}
+### getActualHeight {#getActualHeight}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ float
 ---
 
 
-###getActualWidth{#getActualWidth}
+### getActualWidth {#getActualWidth}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getActualX{#getActualX}
+### getActualX {#getActualX}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getActualY{#getActualY}
+### getActualY {#getActualY}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ float
 ---
 
 
-###getAutomaticDataPointColor{#getAutomaticDataPointColor}
+### getAutomaticDataPointColor {#getAutomaticDataPointColor}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ Color
 ---
 
 
-###getBubbleSize{#getBubbleSize}
+### getBubbleSize {#getBubbleSize}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ Color
 ---
 
 
-###getColorValue{#getColorValue}
+### getColorValue {#getColorValue}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ Color
 ---
 
 
-###getDataPointLevels{#getDataPointLevels}
+### getDataPointLevels {#getDataPointLevels}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ Color
 ---
 
 
-###getErrorBarsCustomValues{#getErrorBarsCustomValues}
+### getErrorBarsCustomValues {#getErrorBarsCustomValues}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ Color
 ---
 
 
-###getExplosion{#getExplosion}
+### getExplosion {#getExplosion}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ int
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ int
 ---
 
 
-###getIndex{#getIndex}
+### getIndex {#getIndex}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ long
 ---
 
 
-###getInvertIfNegative{#getInvertIfNegative}
+### getInvertIfNegative {#getInvertIfNegative}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ boolean
 ---
 
 
-###getLabel{#getLabel}
+### getLabel {#getLabel}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ boolean
 ---
 
 
-###getMarker{#getMarker}
+### getMarker {#getMarker}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ boolean
 ---
 
 
-###getRelatedLegendEntry{#getRelatedLegendEntry}
+### getRelatedLegendEntry {#getRelatedLegendEntry}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ boolean
 ---
 
 
-###getSetAsTotal{#getSetAsTotal}
+### getSetAsTotal {#getSetAsTotal}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ boolean
 ---
 
 
-###getSizeValue{#getSizeValue}
+### getSizeValue {#getSizeValue}
 
 | Name | Description |
 | --- | --- |
@@ -245,7 +245,7 @@ boolean
 ---
 
 
-###getValue{#getValue}
+### getValue {#getValue}
 
 | Name | Description |
 | --- | --- |
@@ -258,7 +258,7 @@ boolean
 ---
 
 
-###getXValue{#getXValue}
+### getXValue {#getXValue}
 
 | Name | Description |
 | --- | --- |
@@ -271,7 +271,7 @@ boolean
 ---
 
 
-###getYValue{#getYValue}
+### getYValue {#getYValue}
 
 | Name | Description |
 | --- | --- |
@@ -284,7 +284,7 @@ boolean
 ---
 
 
-###isBubble3D{#isBubble3D}
+### isBubble3D {#isBubble3D}
 
 | Name | Description |
 | --- | --- |
@@ -297,7 +297,7 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
@@ -313,7 +313,7 @@ boolean
 ---
 
 
-###setBubble3D{#setBubble3D}
+### setBubble3D {#setBubble3D}
 
 | Name | Description |
 | --- | --- |
@@ -323,7 +323,7 @@ boolean
 ---
 
 
-###setExplosion{#setExplosion}
+### setExplosion {#setExplosion}
 
 | Name | Description |
 | --- | --- |
@@ -333,7 +333,7 @@ boolean
 ---
 
 
-###setFormat{#setFormat}
+### setFormat {#setFormat}
 
 | Name | Description |
 | --- | --- |
@@ -343,7 +343,7 @@ boolean
 ---
 
 
-###setInvertIfNegative{#setInvertIfNegative}
+### setInvertIfNegative {#setInvertIfNegative}
 
 | Name | Description |
 | --- | --- |
@@ -353,7 +353,7 @@ boolean
 ---
 
 
-###setSetAsTotal{#setSetAsTotal}
+### setSetAsTotal {#setSetAsTotal}
 
 | Name | Description |
 | --- | --- |

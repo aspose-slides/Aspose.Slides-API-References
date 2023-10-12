@@ -11,7 +11,7 @@ url: /aspose.slides/camera/
 
  Represents Camera.
  
-###getCameraType{#getCameraType}
+### getCameraType {#getCameraType}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getFieldOfViewAngle{#getFieldOfViewAngle}
+### getFieldOfViewAngle {#getFieldOfViewAngle}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getRotation{#getRotation}
+### getRotation {#getRotation}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ long
 ---
 
 
-###getZoom{#getZoom}
+### getZoom {#getZoom}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ float
 ---
 
 
-###setCameraType{#setCameraType}
+### setCameraType {#setCameraType}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ float
 ---
 
 
-###setFieldOfViewAngle{#setFieldOfViewAngle}
+### setFieldOfViewAngle {#setFieldOfViewAngle}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ float
 ---
 
 
-###setRotation{#setRotation}
+### setRotation {#setRotation}
 
 | Name | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ float
 ---
 
 
-###setZoom{#setZoom}
+### setZoom {#setZoom}
 
 | Name | Description |
 | --- | --- |

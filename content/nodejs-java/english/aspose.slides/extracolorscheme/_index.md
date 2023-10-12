@@ -11,7 +11,7 @@ url: /aspose.slides/extracolorscheme/
 
  Represents an additional color scheme which can be assigned to a slide.
  
-###getColorScheme{#getColorScheme}
+### getColorScheme {#getColorScheme}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/extracolorscheme/
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |

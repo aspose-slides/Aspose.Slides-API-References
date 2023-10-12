@@ -11,7 +11,7 @@ url: /aspose.slides/lineformat/
 
  Represents format of a line.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ boolean
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals ([LineFormat](../lineformat)) | Determines whether the two LineFormat instances are equal. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ boolean
 ---
 
 
-###getAlignment{#getAlignment}
+### getAlignment {#getAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ byte
 ---
 
 
-###getBeginArrowheadLength{#getBeginArrowheadLength}
+### getBeginArrowheadLength {#getBeginArrowheadLength}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ byte
 ---
 
 
-###getBeginArrowheadStyle{#getBeginArrowheadStyle}
+### getBeginArrowheadStyle {#getBeginArrowheadStyle}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ byte
 ---
 
 
-###getBeginArrowheadWidth{#getBeginArrowheadWidth}
+### getBeginArrowheadWidth {#getBeginArrowheadWidth}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ byte
 ---
 
 
-###getCapStyle{#getCapStyle}
+### getCapStyle {#getCapStyle}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ byte
 ---
 
 
-###getCustomDashPattern{#getCustomDashPattern}
+### getCustomDashPattern {#getCustomDashPattern}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ float
 ---
 
 
-###getDashStyle{#getDashStyle}
+### getDashStyle {#getDashStyle}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ byte
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ LineFormatEffectiveData
 ---
 
 
-###getEndArrowheadLength{#getEndArrowheadLength}
+### getEndArrowheadLength {#getEndArrowheadLength}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ byte
 ---
 
 
-###getEndArrowheadStyle{#getEndArrowheadStyle}
+### getEndArrowheadStyle {#getEndArrowheadStyle}
 
 | Name | Description |
 | --- | --- |
@@ -173,7 +173,7 @@ byte
 ---
 
 
-###getEndArrowheadWidth{#getEndArrowheadWidth}
+### getEndArrowheadWidth {#getEndArrowheadWidth}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ byte
 ---
 
 
-###getFillFormat{#getFillFormat}
+### getFillFormat {#getFillFormat}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ byte
 ---
 
 
-###getJoinStyle{#getJoinStyle}
+### getJoinStyle {#getJoinStyle}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ byte
 ---
 
 
-###getMiterLimit{#getMiterLimit}
+### getMiterLimit {#getMiterLimit}
 
 | Name | Description |
 | --- | --- |
@@ -225,7 +225,7 @@ float
 ---
 
 
-###getSketchFormat{#getSketchFormat}
+### getSketchFormat {#getSketchFormat}
 
 | Name | Description |
 | --- | --- |
@@ -238,7 +238,7 @@ float
 ---
 
 
-###getStyle{#getStyle}
+### getStyle {#getStyle}
 
 | Name | Description |
 | --- | --- |
@@ -251,7 +251,7 @@ byte
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -264,7 +264,7 @@ long
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -277,7 +277,7 @@ double
 ---
 
 
-###isFormatNotDefined{#isFormatNotDefined}
+### isFormatNotDefined {#isFormatNotDefined}
 
 | Name | Description |
 | --- | --- |
@@ -290,7 +290,7 @@ boolean
 ---
 
 
-###setAlignment{#setAlignment}
+### setAlignment {#setAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -300,7 +300,7 @@ boolean
 ---
 
 
-###setBeginArrowheadLength{#setBeginArrowheadLength}
+### setBeginArrowheadLength {#setBeginArrowheadLength}
 
 | Name | Description |
 | --- | --- |
@@ -310,7 +310,7 @@ boolean
 ---
 
 
-###setBeginArrowheadStyle{#setBeginArrowheadStyle}
+### setBeginArrowheadStyle {#setBeginArrowheadStyle}
 
 | Name | Description |
 | --- | --- |
@@ -320,7 +320,7 @@ boolean
 ---
 
 
-###setBeginArrowheadWidth{#setBeginArrowheadWidth}
+### setBeginArrowheadWidth {#setBeginArrowheadWidth}
 
 | Name | Description |
 | --- | --- |
@@ -330,7 +330,7 @@ boolean
 ---
 
 
-###setCapStyle{#setCapStyle}
+### setCapStyle {#setCapStyle}
 
 | Name | Description |
 | --- | --- |
@@ -340,7 +340,7 @@ boolean
 ---
 
 
-###setCustomDashPattern{#setCustomDashPattern}
+### setCustomDashPattern {#setCustomDashPattern}
 
 | Name | Description |
 | --- | --- |
@@ -350,7 +350,7 @@ boolean
 ---
 
 
-###setDashStyle{#setDashStyle}
+### setDashStyle {#setDashStyle}
 
 | Name | Description |
 | --- | --- |
@@ -360,7 +360,7 @@ boolean
 ---
 
 
-###setEndArrowheadLength{#setEndArrowheadLength}
+### setEndArrowheadLength {#setEndArrowheadLength}
 
 | Name | Description |
 | --- | --- |
@@ -370,7 +370,7 @@ boolean
 ---
 
 
-###setEndArrowheadStyle{#setEndArrowheadStyle}
+### setEndArrowheadStyle {#setEndArrowheadStyle}
 
 | Name | Description |
 | --- | --- |
@@ -380,7 +380,7 @@ boolean
 ---
 
 
-###setEndArrowheadWidth{#setEndArrowheadWidth}
+### setEndArrowheadWidth {#setEndArrowheadWidth}
 
 | Name | Description |
 | --- | --- |
@@ -390,7 +390,7 @@ boolean
 ---
 
 
-###setJoinStyle{#setJoinStyle}
+### setJoinStyle {#setJoinStyle}
 
 | Name | Description |
 | --- | --- |
@@ -400,7 +400,7 @@ boolean
 ---
 
 
-###setMiterLimit{#setMiterLimit}
+### setMiterLimit {#setMiterLimit}
 
 | Name | Description |
 | --- | --- |
@@ -410,7 +410,7 @@ boolean
 ---
 
 
-###setStyle{#setStyle}
+### setStyle {#setStyle}
 
 | Name | Description |
 | --- | --- |
@@ -420,7 +420,7 @@ boolean
 ---
 
 
-###setWidth{#setWidth}
+### setWidth {#setWidth}
 
 | Name | Description |
 | --- | --- |

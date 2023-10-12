@@ -11,7 +11,7 @@ url: /aspose.slides/audio/
 
  Represents an embedded audio file.
  
-###getBinaryData{#getBinaryData}
+### getBinaryData {#getBinaryData}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ byte
 ---
 
 
-###getContentType{#getContentType}
+### getContentType {#getContentType}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###getStream{#getStream}
+### getStream {#getStream}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ InputStream
 ---
 
 
-###setContentType{#setContentType}
+### setContentType {#setContentType}
 
 | Name | Description |
 | --- | --- |

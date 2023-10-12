@@ -11,7 +11,7 @@ url: /aspose.slides/tabcollection/
 
  Represents a collection of tabs.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ url: /aspose.slides/tabcollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([Tab](../tab)) | Adds a Tab to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ int
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -53,13 +53,13 @@ int
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether two TabsEx instances are equal. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -72,7 +72,7 @@ boolean
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -85,7 +85,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -98,7 +98,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -111,7 +111,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -124,7 +124,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -137,13 +137,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the element at the specified index of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -153,7 +153,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

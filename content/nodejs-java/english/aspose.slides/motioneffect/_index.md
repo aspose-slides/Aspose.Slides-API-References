@@ -11,7 +11,7 @@ url: /aspose.slides/motioneffect/
 
  Represent motion effect behavior of effect.
  
-###MotionEffect{#MotionEffect}
+### MotionEffect {#MotionEffect}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ MotionEffect
 ---
 
 
-###getAngle{#getAngle}
+### getAngle {#getAngle}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getBy{#getBy}
+### getBy {#getBy}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ Point2D.Float
 ---
 
 
-###getFrom{#getFrom}
+### getFrom {#getFrom}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ Point2D.Float
 ---
 
 
-###getOrigin{#getOrigin}
+### getOrigin {#getOrigin}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###getPath{#getPath}
+### getPath {#getPath}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getPathEditMode{#getPathEditMode}
+### getPathEditMode {#getPathEditMode}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ int
 ---
 
 
-###getRotationCenter{#getRotationCenter}
+### getRotationCenter {#getRotationCenter}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ Point2D.Float
 ---
 
 
-###getTo{#getTo}
+### getTo {#getTo}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ Point2D.Float
 ---
 
 
-###setAngle{#setAngle}
+### setAngle {#setAngle}
 
 | Name | Description |
 | --- | --- |
@@ -138,7 +138,7 @@ Point2D.Float
 ---
 
 
-###setBy{#setBy}
+### setBy {#setBy}
 
 | Name | Description |
 | --- | --- |
@@ -148,7 +148,7 @@ Point2D.Float
 ---
 
 
-###setFrom{#setFrom}
+### setFrom {#setFrom}
 
 | Name | Description |
 | --- | --- |
@@ -158,7 +158,7 @@ Point2D.Float
 ---
 
 
-###setOrigin{#setOrigin}
+### setOrigin {#setOrigin}
 
 | Name | Description |
 | --- | --- |
@@ -168,7 +168,7 @@ Point2D.Float
 ---
 
 
-###setPath{#setPath}
+### setPath {#setPath}
 
 | Name | Description |
 | --- | --- |
@@ -178,7 +178,7 @@ Point2D.Float
 ---
 
 
-###setPathEditMode{#setPathEditMode}
+### setPathEditMode {#setPathEditMode}
 
 | Name | Description |
 | --- | --- |
@@ -188,7 +188,7 @@ Point2D.Float
 ---
 
 
-###setRotationCenter{#setRotationCenter}
+### setRotationCenter {#setRotationCenter}
 
 | Name | Description |
 | --- | --- |
@@ -198,7 +198,7 @@ Point2D.Float
 ---
 
 
-###setTo{#setTo}
+### setTo {#setTo}
 
 | Name | Description |
 | --- | --- |

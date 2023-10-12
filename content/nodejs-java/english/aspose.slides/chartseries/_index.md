@@ -11,7 +11,7 @@ url: /aspose.slides/chartseries/
 
  Represents a chart series.
  
-###getAutomaticSeriesColor{#getAutomaticSeriesColor}
+### getAutomaticSeriesColor {#getAutomaticSeriesColor}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ Color
 ---
 
 
-###getBar3DShape{#getBar3DShape}
+### getBar3DShape {#getBar3DShape}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getBubbleSizeRepresentation{#getBubbleSizeRepresentation}
+### getBubbleSizeRepresentation {#getBubbleSizeRepresentation}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getBubbleSizeScale{#getBubbleSizeScale}
+### getBubbleSizeScale {#getBubbleSizeScale}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###getDataPoints{#getDataPoints}
+### getDataPoints {#getDataPoints}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getDoughnutHoleSize{#getDoughnutHoleSize}
+### getDoughnutHoleSize {#getDoughnutHoleSize}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ byte
 ---
 
 
-###getErrorBarsXFormat{#getErrorBarsXFormat}
+### getErrorBarsXFormat {#getErrorBarsXFormat}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ byte
 ---
 
 
-###getErrorBarsYFormat{#getErrorBarsYFormat}
+### getErrorBarsYFormat {#getErrorBarsYFormat}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ byte
 ---
 
 
-###getExplosion{#getExplosion}
+### getExplosion {#getExplosion}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ int
 ---
 
 
-###getFirstSliceAngle{#getFirstSliceAngle}
+### getFirstSliceAngle {#getFirstSliceAngle}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ int
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ int
 ---
 
 
-###getGapDepth{#getGapDepth}
+### getGapDepth {#getGapDepth}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ int
 ---
 
 
-###getGapWidth{#getGapWidth}
+### getGapWidth {#getGapWidth}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ int
 ---
 
 
-###getInvertIfNegative{#getInvertIfNegative}
+### getInvertIfNegative {#getInvertIfNegative}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ boolean
 ---
 
 
-###getInvertedSolidFillColor{#getInvertedSolidFillColor}
+### getInvertedSolidFillColor {#getInvertedSolidFillColor}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ boolean
 ---
 
 
-###getLabels{#getLabels}
+### getLabels {#getLabels}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ boolean
 ---
 
 
-###getMarker{#getMarker}
+### getMarker {#getMarker}
 
 | Name | Description |
 | --- | --- |
@@ -245,7 +245,7 @@ boolean
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -258,7 +258,7 @@ boolean
 ---
 
 
-###getNumberFormatOfBubbleSizes{#getNumberFormatOfBubbleSizes}
+### getNumberFormatOfBubbleSizes {#getNumberFormatOfBubbleSizes}
 
 | Name | Description |
 | --- | --- |
@@ -271,7 +271,7 @@ String
 ---
 
 
-###getNumberFormatOfValues{#getNumberFormatOfValues}
+### getNumberFormatOfValues {#getNumberFormatOfValues}
 
 | Name | Description |
 | --- | --- |
@@ -284,7 +284,7 @@ String
 ---
 
 
-###getNumberFormatOfXValues{#getNumberFormatOfXValues}
+### getNumberFormatOfXValues {#getNumberFormatOfXValues}
 
 | Name | Description |
 | --- | --- |
@@ -297,7 +297,7 @@ String
 ---
 
 
-###getNumberFormatOfYValues{#getNumberFormatOfYValues}
+### getNumberFormatOfYValues {#getNumberFormatOfYValues}
 
 | Name | Description |
 | --- | --- |
@@ -310,7 +310,7 @@ String
 ---
 
 
-###getOrder{#getOrder}
+### getOrder {#getOrder}
 
 | Name | Description |
 | --- | --- |
@@ -323,7 +323,7 @@ int
 ---
 
 
-###getOverlap{#getOverlap}
+### getOverlap {#getOverlap}
 
 | Name | Description |
 | --- | --- |
@@ -336,7 +336,7 @@ byte
 ---
 
 
-###getParentLabelLayout{#getParentLabelLayout}
+### getParentLabelLayout {#getParentLabelLayout}
 
 | Name | Description |
 | --- | --- |
@@ -349,7 +349,7 @@ int
 ---
 
 
-###getParentSeriesGroup{#getParentSeriesGroup}
+### getParentSeriesGroup {#getParentSeriesGroup}
 
 | Name | Description |
 | --- | --- |
@@ -362,7 +362,7 @@ int
 ---
 
 
-###getPieSplitBy{#getPieSplitBy}
+### getPieSplitBy {#getPieSplitBy}
 
 | Name | Description |
 | --- | --- |
@@ -375,7 +375,7 @@ int
 ---
 
 
-###getPieSplitCustomPoints{#getPieSplitCustomPoints}
+### getPieSplitCustomPoints {#getPieSplitCustomPoints}
 
 | Name | Description |
 | --- | --- |
@@ -388,7 +388,7 @@ int
 ---
 
 
-###getPieSplitPosition{#getPieSplitPosition}
+### getPieSplitPosition {#getPieSplitPosition}
 
 | Name | Description |
 | --- | --- |
@@ -401,7 +401,7 @@ double
 ---
 
 
-###getPlotOnSecondAxis{#getPlotOnSecondAxis}
+### getPlotOnSecondAxis {#getPlotOnSecondAxis}
 
 | Name | Description |
 | --- | --- |
@@ -414,7 +414,7 @@ boolean
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -427,7 +427,7 @@ boolean
 ---
 
 
-###getQuartileMethod{#getQuartileMethod}
+### getQuartileMethod {#getQuartileMethod}
 
 | Name | Description |
 | --- | --- |
@@ -440,7 +440,7 @@ int
 ---
 
 
-###getRelatedLegendEntry{#getRelatedLegendEntry}
+### getRelatedLegendEntry {#getRelatedLegendEntry}
 
 | Name | Description |
 | --- | --- |
@@ -453,7 +453,7 @@ int
 ---
 
 
-###getSecondPieSize{#getSecondPieSize}
+### getSecondPieSize {#getSecondPieSize}
 
 | Name | Description |
 | --- | --- |
@@ -466,7 +466,7 @@ int
 ---
 
 
-###getShowConnectorLines{#getShowConnectorLines}
+### getShowConnectorLines {#getShowConnectorLines}
 
 | Name | Description |
 | --- | --- |
@@ -479,7 +479,7 @@ boolean
 ---
 
 
-###getShowInnerPoints{#getShowInnerPoints}
+### getShowInnerPoints {#getShowInnerPoints}
 
 | Name | Description |
 | --- | --- |
@@ -492,7 +492,7 @@ boolean
 ---
 
 
-###getShowMeanLine{#getShowMeanLine}
+### getShowMeanLine {#getShowMeanLine}
 
 | Name | Description |
 | --- | --- |
@@ -505,7 +505,7 @@ boolean
 ---
 
 
-###getShowMeanMarkers{#getShowMeanMarkers}
+### getShowMeanMarkers {#getShowMeanMarkers}
 
 | Name | Description |
 | --- | --- |
@@ -518,7 +518,7 @@ boolean
 ---
 
 
-###getShowOutlierPoints{#getShowOutlierPoints}
+### getShowOutlierPoints {#getShowOutlierPoints}
 
 | Name | Description |
 | --- | --- |
@@ -531,7 +531,7 @@ boolean
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -544,7 +544,7 @@ boolean
 ---
 
 
-###getSmooth{#getSmooth}
+### getSmooth {#getSmooth}
 
 | Name | Description |
 | --- | --- |
@@ -557,7 +557,7 @@ boolean
 ---
 
 
-###getTrendLines{#getTrendLines}
+### getTrendLines {#getTrendLines}
 
 | Name | Description |
 | --- | --- |
@@ -570,7 +570,7 @@ boolean
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -583,7 +583,7 @@ int
 ---
 
 
-###hasSeriesLines{#hasSeriesLines}
+### hasSeriesLines {#hasSeriesLines}
 
 | Name | Description |
 | --- | --- |
@@ -596,7 +596,7 @@ boolean
 ---
 
 
-###hasUpDownBars{#hasUpDownBars}
+### hasUpDownBars {#hasUpDownBars}
 
 | Name | Description |
 | --- | --- |
@@ -609,7 +609,7 @@ boolean
 ---
 
 
-###isColorVaried{#isColorVaried}
+### isColorVaried {#isColorVaried}
 
 | Name | Description |
 | --- | --- |
@@ -622,7 +622,7 @@ boolean
 ---
 
 
-###setBar3DShape{#setBar3DShape}
+### setBar3DShape {#setBar3DShape}
 
 | Name | Description |
 | --- | --- |
@@ -632,7 +632,7 @@ boolean
 ---
 
 
-###setExplosion{#setExplosion}
+### setExplosion {#setExplosion}
 
 | Name | Description |
 | --- | --- |
@@ -642,7 +642,7 @@ boolean
 ---
 
 
-###setInvertIfNegative{#setInvertIfNegative}
+### setInvertIfNegative {#setInvertIfNegative}
 
 | Name | Description |
 | --- | --- |
@@ -652,7 +652,7 @@ boolean
 ---
 
 
-###setNumberFormatOfBubbleSizes{#setNumberFormatOfBubbleSizes}
+### setNumberFormatOfBubbleSizes {#setNumberFormatOfBubbleSizes}
 
 | Name | Description |
 | --- | --- |
@@ -662,7 +662,7 @@ boolean
 ---
 
 
-###setNumberFormatOfValues{#setNumberFormatOfValues}
+### setNumberFormatOfValues {#setNumberFormatOfValues}
 
 | Name | Description |
 | --- | --- |
@@ -672,7 +672,7 @@ boolean
 ---
 
 
-###setNumberFormatOfXValues{#setNumberFormatOfXValues}
+### setNumberFormatOfXValues {#setNumberFormatOfXValues}
 
 | Name | Description |
 | --- | --- |
@@ -682,7 +682,7 @@ boolean
 ---
 
 
-###setNumberFormatOfYValues{#setNumberFormatOfYValues}
+### setNumberFormatOfYValues {#setNumberFormatOfYValues}
 
 | Name | Description |
 | --- | --- |
@@ -692,7 +692,7 @@ boolean
 ---
 
 
-###setOrder{#setOrder}
+### setOrder {#setOrder}
 
 | Name | Description |
 | --- | --- |
@@ -702,7 +702,7 @@ boolean
 ---
 
 
-###setParentLabelLayout{#setParentLabelLayout}
+### setParentLabelLayout {#setParentLabelLayout}
 
 | Name | Description |
 | --- | --- |
@@ -712,7 +712,7 @@ boolean
 ---
 
 
-###setPlotOnSecondAxis{#setPlotOnSecondAxis}
+### setPlotOnSecondAxis {#setPlotOnSecondAxis}
 
 | Name | Description |
 | --- | --- |
@@ -722,7 +722,7 @@ boolean
 ---
 
 
-###setQuartileMethod{#setQuartileMethod}
+### setQuartileMethod {#setQuartileMethod}
 
 | Name | Description |
 | --- | --- |
@@ -732,7 +732,7 @@ boolean
 ---
 
 
-###setShowConnectorLines{#setShowConnectorLines}
+### setShowConnectorLines {#setShowConnectorLines}
 
 | Name | Description |
 | --- | --- |
@@ -742,7 +742,7 @@ boolean
 ---
 
 
-###setShowInnerPoints{#setShowInnerPoints}
+### setShowInnerPoints {#setShowInnerPoints}
 
 | Name | Description |
 | --- | --- |
@@ -752,7 +752,7 @@ boolean
 ---
 
 
-###setShowMeanLine{#setShowMeanLine}
+### setShowMeanLine {#setShowMeanLine}
 
 | Name | Description |
 | --- | --- |
@@ -762,7 +762,7 @@ boolean
 ---
 
 
-###setShowMeanMarkers{#setShowMeanMarkers}
+### setShowMeanMarkers {#setShowMeanMarkers}
 
 | Name | Description |
 | --- | --- |
@@ -772,7 +772,7 @@ boolean
 ---
 
 
-###setShowOutlierPoints{#setShowOutlierPoints}
+### setShowOutlierPoints {#setShowOutlierPoints}
 
 | Name | Description |
 | --- | --- |
@@ -782,7 +782,7 @@ boolean
 ---
 
 
-###setSmooth{#setSmooth}
+### setSmooth {#setSmooth}
 
 | Name | Description |
 | --- | --- |
@@ -792,7 +792,7 @@ boolean
 ---
 
 
-###setType{#setType}
+### setType {#setType}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/vbaprojectfactory/
 
  Allows to create VBA project via COM interface
  
-###VbaProjectFactory{#VbaProjectFactory}
+### VbaProjectFactory {#VbaProjectFactory}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ VbaProjectFactory
 ---
 
 
-###createVbaProject{#createVbaProject}
+### createVbaProject {#createVbaProject}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ VbaProjectFactory
 ---
 
 
-###getInstance{#getInstance}
+### getInstance {#getInstance}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ VbaProjectFactory
 ---
 
 
-###readVbaProject{#readVbaProject}
+### readVbaProject {#readVbaProject}
 
 | Name | Description |
 | --- | --- |

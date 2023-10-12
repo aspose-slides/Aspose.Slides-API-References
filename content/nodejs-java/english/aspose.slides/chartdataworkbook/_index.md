@@ -11,7 +11,7 @@ url: /aspose.slides/chartdataworkbook/
 
  Provides access to embedded Excel workbook
  
-###calculateFormulas{#calculateFormulas}
+### calculateFormulas {#calculateFormulas}
 
 | Name | Description |
 | --- | --- |
@@ -27,13 +27,13 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
 | clear (int) | Clear all cells values on sheet |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-###getCell{#getCell}
+### getCell {#getCell}
 
 | Name | Description |
 | --- | --- |
 | getCell (String, int, int) | Gets the cell that can be used for chart series or categories |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -64,13 +64,13 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-###getCell{#getCell}
+### getCell {#getCell}
 
 | Name | Description |
 | --- | --- |
 | getCell (int, int, int) | Gets the cell that can be used for chart series or categories |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -85,13 +85,13 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-###getCell{#getCell}
+### getCell {#getCell}
 
 | Name | Description |
 | --- | --- |
 | getCell (int, String) | Gets the cell that can be used for chart series or categories |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -105,13 +105,13 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-###getCell{#getCell}
+### getCell {#getCell}
 
 | Name | Description |
 | --- | --- |
 | getCell (int, String, Object) | Gets the cell that can be used for chart series or categories |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -126,13 +126,13 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-###getCell{#getCell}
+### getCell {#getCell}
 
 | Name | Description |
 | --- | --- |
 | getCell (int, int, int, Object) | Gets the cell that can be used for chart series or categories |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -148,13 +148,13 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-###getCellCollection{#getCellCollection}
+### getCellCollection {#getCellCollection}
 
 | Name | Description |
 | --- | --- |
 | getCellCollection (String, boolean) | Gets the set of cells. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -168,7 +168,7 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-###getWorksheets{#getWorksheets}
+### getWorksheets {#getWorksheets}
 
 | Name | Description |
 | --- | --- |

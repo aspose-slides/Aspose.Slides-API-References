@@ -11,7 +11,7 @@ url: /aspose.slides/effect/
 
  Represents animation effect.
  
-###getAfterAnimationColor{#getAfterAnimationColor}
+### getAfterAnimationColor {#getAfterAnimationColor}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/effect/
 ---
 
 
-###getAfterAnimationType{#getAfterAnimationType}
+### getAfterAnimationType {#getAfterAnimationType}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getBehaviors{#getBehaviors}
+### getBehaviors {#getBehaviors}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getPresetClassType{#getPresetClassType}
+### getPresetClassType {#getPresetClassType}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getSequence{#getSequence}
+### getSequence {#getSequence}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###getSound{#getSound}
+### getSound {#getSound}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getStopPreviousSound{#getStopPreviousSound}
+### getStopPreviousSound {#getStopPreviousSound}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###getSubtype{#getSubtype}
+### getSubtype {#getSubtype}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ int
 ---
 
 
-###getTargetShape{#getTargetShape}
+### getTargetShape {#getTargetShape}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ int
 ---
 
 
-###getTextAnimation{#getTextAnimation}
+### getTextAnimation {#getTextAnimation}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ int
 ---
 
 
-###getTiming{#getTiming}
+### getTiming {#getTiming}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ int
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ int
 ---
 
 
-###setAfterAnimationColor{#setAfterAnimationColor}
+### setAfterAnimationColor {#setAfterAnimationColor}
 
 | Name | Description |
 | --- | --- |
@@ -177,7 +177,7 @@ int
 ---
 
 
-###setAfterAnimationType{#setAfterAnimationType}
+### setAfterAnimationType {#setAfterAnimationType}
 
 | Name | Description |
 | --- | --- |
@@ -187,7 +187,7 @@ int
 ---
 
 
-###setBehaviors{#setBehaviors}
+### setBehaviors {#setBehaviors}
 
 | Name | Description |
 | --- | --- |
@@ -197,7 +197,7 @@ int
 ---
 
 
-###setPresetClassType{#setPresetClassType}
+### setPresetClassType {#setPresetClassType}
 
 | Name | Description |
 | --- | --- |
@@ -207,7 +207,7 @@ int
 ---
 
 
-###setSound{#setSound}
+### setSound {#setSound}
 
 | Name | Description |
 | --- | --- |
@@ -217,7 +217,7 @@ int
 ---
 
 
-###setStopPreviousSound{#setStopPreviousSound}
+### setStopPreviousSound {#setStopPreviousSound}
 
 | Name | Description |
 | --- | --- |
@@ -227,7 +227,7 @@ int
 ---
 
 
-###setSubtype{#setSubtype}
+### setSubtype {#setSubtype}
 
 | Name | Description |
 | --- | --- |
@@ -237,7 +237,7 @@ int
 ---
 
 
-###setTiming{#setTiming}
+### setTiming {#setTiming}
 
 | Name | Description |
 | --- | --- |
@@ -247,7 +247,7 @@ int
 ---
 
 
-###setType{#setType}
+### setType {#setType}
 
 | Name | Description |
 | --- | --- |

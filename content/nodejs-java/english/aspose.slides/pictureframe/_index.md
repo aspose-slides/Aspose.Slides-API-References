@@ -11,7 +11,7 @@ url: /aspose.slides/pictureframe/
 
  Represents a frame with a picture inside.
  
-###getPictureFormat{#getPictureFormat}
+### getPictureFormat {#getPictureFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/pictureframe/
 ---
 
 
-###getPictureFrameLock{#getPictureFrameLock}
+### getPictureFrameLock {#getPictureFrameLock}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/pictureframe/
 ---
 
 
-###getRelativeScaleHeight{#getRelativeScaleHeight}
+### getRelativeScaleHeight {#getRelativeScaleHeight}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getRelativeScaleWidth{#getRelativeScaleWidth}
+### getRelativeScaleWidth {#getRelativeScaleWidth}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ float
 ---
 
 
-###getShapeType{#getShapeType}
+### getShapeType {#getShapeType}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###setRelativeScaleHeight{#setRelativeScaleHeight}
+### setRelativeScaleHeight {#setRelativeScaleHeight}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ int
 ---
 
 
-###setRelativeScaleWidth{#setRelativeScaleWidth}
+### setRelativeScaleWidth {#setRelativeScaleWidth}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ int
 ---
 
 
-###setShapeType{#setShapeType}
+### setShapeType {#setShapeType}
 
 | Name | Description |
 | --- | --- |

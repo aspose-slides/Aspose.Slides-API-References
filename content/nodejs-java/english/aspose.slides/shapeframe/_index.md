@@ -11,13 +11,13 @@ url: /aspose.slides/shapeframe/
 
  Represents shape frame's properties.
  
-###ShapeFrame{#ShapeFrame}
+### ShapeFrame {#ShapeFrame}
 
 | Name | Description |
 | --- | --- |
 | ShapeFrame(float, float, float, float, byte, byte, float) | Creates new shape frame's properties. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ ShapeFrame
 ---
 
 
-###cloneT{#cloneT}
+### cloneT {#cloneT}
 
 | Name | Description |
 | --- | --- |
@@ -49,7 +49,7 @@ ShapeFrame
 ---
 
 
-###deepClone{#deepClone}
+### deepClone {#deepClone}
 
 | Name | Description |
 | --- | --- |
@@ -62,13 +62,13 @@ Object
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Returns a value indicating whether this instance is equal to a specified object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -81,13 +81,13 @@ boolean
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals ([ShapeFrame](../shapeframe)) | Returns a value indicating whether this instance is equal to a specified object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -100,7 +100,7 @@ boolean
 ---
 
 
-###getCenterX{#getCenterX}
+### getCenterX {#getCenterX}
 
 | Name | Description |
 | --- | --- |
@@ -113,7 +113,7 @@ float
 ---
 
 
-###getCenterY{#getCenterY}
+### getCenterY {#getCenterY}
 
 | Name | Description |
 | --- | --- |
@@ -126,7 +126,7 @@ float
 ---
 
 
-###getFlipH{#getFlipH}
+### getFlipH {#getFlipH}
 
 | Name | Description |
 | --- | --- |
@@ -139,7 +139,7 @@ byte
 ---
 
 
-###getFlipV{#getFlipV}
+### getFlipV {#getFlipV}
 
 | Name | Description |
 | --- | --- |
@@ -152,7 +152,7 @@ byte
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -165,7 +165,7 @@ float
 ---
 
 
-###getRectangle{#getRectangle}
+### getRectangle {#getRectangle}
 
 | Name | Description |
 | --- | --- |
@@ -178,7 +178,7 @@ Rectangle2D.Float
 ---
 
 
-###getRotation{#getRotation}
+### getRotation {#getRotation}
 
 | Name | Description |
 | --- | --- |
@@ -191,7 +191,7 @@ float
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -204,7 +204,7 @@ float
 ---
 
 
-###getX{#getX}
+### getX {#getX}
 
 | Name | Description |
 | --- | --- |
@@ -217,7 +217,7 @@ float
 ---
 
 
-###getY{#getY}
+### getY {#getY}
 
 | Name | Description |
 | --- | --- |
@@ -230,7 +230,7 @@ float
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

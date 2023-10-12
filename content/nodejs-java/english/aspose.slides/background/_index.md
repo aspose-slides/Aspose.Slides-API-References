@@ -11,7 +11,7 @@ url: /aspose.slides/background/
 
  Represents background of a slide.
  
-###getEffectFormat{#getEffectFormat}
+### getEffectFormat {#getEffectFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/background/
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ BackgroundEffectiveData
 ---
 
 
-###getFillFormat{#getFillFormat}
+### getFillFormat {#getFillFormat}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ BackgroundEffectiveData
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ Presentation
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ BaseSlide
 ---
 
 
-###getStyleColor{#getStyleColor}
+### getStyleColor {#getStyleColor}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ BaseSlide
 ---
 
 
-###getStyleIndex{#getStyleIndex}
+### getStyleIndex {#getStyleIndex}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ int
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ byte
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ long
 ---
 
 
-###setStyleIndex{#setStyleIndex}
+### setStyleIndex {#setStyleIndex}
 
 | Name | Description |
 | --- | --- |
@@ -138,7 +138,7 @@ long
 ---
 
 
-###setType{#setType}
+### setType {#setType}
 
 | Name | Description |
 | --- | --- |

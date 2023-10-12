@@ -11,13 +11,13 @@ url: /aspose.slides/slideshowtransition/
 
  Represents slide show transition.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the two SlideShowTransition instances are equal. Read/write boolean. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ boolean
 ---
 
 
-###getAdvanceAfter{#getAdvanceAfter}
+### getAdvanceAfter {#getAdvanceAfter}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ boolean
 ---
 
 
-###getAdvanceAfterTime{#getAdvanceAfterTime}
+### getAdvanceAfterTime {#getAdvanceAfterTime}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ long
 ---
 
 
-###getAdvanceOnClick{#getAdvanceOnClick}
+### getAdvanceOnClick {#getAdvanceOnClick}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-###getSound{#getSound}
+### getSound {#getSound}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ boolean
 ---
 
 
-###getSoundIsBuiltIn{#getSoundIsBuiltIn}
+### getSoundIsBuiltIn {#getSoundIsBuiltIn}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ boolean
 ---
 
 
-###getSoundLoop{#getSoundLoop}
+### getSoundLoop {#getSoundLoop}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ boolean
 ---
 
 
-###getSoundMode{#getSoundMode}
+### getSoundMode {#getSoundMode}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ int
 ---
 
 
-###getSoundName{#getSoundName}
+### getSoundName {#getSoundName}
 
 | Name | Description |
 | --- | --- |
@@ -140,7 +140,7 @@ String
 ---
 
 
-###getSpeed{#getSpeed}
+### getSpeed {#getSpeed}
 
 | Name | Description |
 | --- | --- |
@@ -153,7 +153,7 @@ int
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -166,7 +166,7 @@ int
 ---
 
 
-###getValue{#getValue}
+### getValue {#getValue}
 
 | Name | Description |
 | --- | --- |
@@ -179,7 +179,7 @@ int
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -192,7 +192,7 @@ int
 ---
 
 
-###setAdvanceAfter{#setAdvanceAfter}
+### setAdvanceAfter {#setAdvanceAfter}
 
 | Name | Description |
 | --- | --- |
@@ -202,7 +202,7 @@ int
 ---
 
 
-###setAdvanceAfterTime{#setAdvanceAfterTime}
+### setAdvanceAfterTime {#setAdvanceAfterTime}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ int
 ---
 
 
-###setAdvanceOnClick{#setAdvanceOnClick}
+### setAdvanceOnClick {#setAdvanceOnClick}
 
 | Name | Description |
 | --- | --- |
@@ -222,7 +222,7 @@ int
 ---
 
 
-###setSound{#setSound}
+### setSound {#setSound}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ int
 ---
 
 
-###setSoundIsBuiltIn{#setSoundIsBuiltIn}
+### setSoundIsBuiltIn {#setSoundIsBuiltIn}
 
 | Name | Description |
 | --- | --- |
@@ -242,7 +242,7 @@ int
 ---
 
 
-###setSoundLoop{#setSoundLoop}
+### setSoundLoop {#setSoundLoop}
 
 | Name | Description |
 | --- | --- |
@@ -252,7 +252,7 @@ int
 ---
 
 
-###setSoundMode{#setSoundMode}
+### setSoundMode {#setSoundMode}
 
 | Name | Description |
 | --- | --- |
@@ -262,7 +262,7 @@ int
 ---
 
 
-###setSoundName{#setSoundName}
+### setSoundName {#setSoundName}
 
 | Name | Description |
 | --- | --- |
@@ -278,7 +278,7 @@ int
 ---
 
 
-###setSpeed{#setSpeed}
+### setSpeed {#setSpeed}
 
 | Name | Description |
 | --- | --- |
@@ -288,7 +288,7 @@ int
 ---
 
 
-###setType{#setType}
+### setType {#setType}
 
 | Name | Description |
 | --- | --- |

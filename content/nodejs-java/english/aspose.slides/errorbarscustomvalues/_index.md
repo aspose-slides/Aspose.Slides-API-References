@@ -11,7 +11,7 @@ url: /aspose.slides/errorbarscustomvalues/
 
  Specifies the errors bar values. It shall be used only when the Error bars value type is Custom.
  
-###getXMinus{#getXMinus}
+### getXMinus {#getXMinus}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/errorbarscustomvalues/
 ---
 
 
-###getXPlus{#getXPlus}
+### getXPlus {#getXPlus}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/errorbarscustomvalues/
 ---
 
 
-###getYMinus{#getYMinus}
+### getYMinus {#getYMinus}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/errorbarscustomvalues/
 ---
 
 
-###getYPlus{#getYPlus}
+### getYPlus {#getYPlus}
 
 | Name | Description |
 | --- | --- |

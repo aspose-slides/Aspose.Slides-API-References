@@ -11,7 +11,7 @@ url: /aspose.slides/presentedbyspeaker/
 
  Presented by a speaker (full screen)
  
-###PresentedBySpeaker{#PresentedBySpeaker}
+### PresentedBySpeaker {#PresentedBySpeaker}
 
 | Name | Description |
 | --- | --- |

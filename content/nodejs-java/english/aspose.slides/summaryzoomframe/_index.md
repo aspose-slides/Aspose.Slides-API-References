@@ -11,7 +11,7 @@ url: /aspose.slides/summaryzoomframe/
 
  Represents a Summary Zoom object in a slide.
  
-###getLayout{#getLayout}
+### getLayout {#getLayout}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getSummaryZoomCollection{#getSummaryZoomCollection}
+### getSummaryZoomCollection {#getSummaryZoomCollection}
 
 | Name | Description |
 | --- | --- |

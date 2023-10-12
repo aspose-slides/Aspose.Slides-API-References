@@ -11,7 +11,7 @@ url: /aspose.slides/charttypecharacterizer/
 
  Helper for getting additional information about charts and series by its ChartType.
  
-###ChartTypeCharacterizer{#ChartTypeCharacterizer}
+### ChartTypeCharacterizer {#ChartTypeCharacterizer}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ ChartTypeCharacterizer
 ---
 
 
-###hasSeriesTrendLines{#hasSeriesTrendLines}
+### hasSeriesTrendLines {#hasSeriesTrendLines}
 
 | Name | Description |
 | --- | --- |
 | hasSeriesTrendLines (int) | Returns if there are series trend lines for specified series type. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ boolean
 ---
 
 
-###is2DChart{#is2DChart}
+### is2DChart {#is2DChart}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-###is3DChart{#is3DChart}
+### is3DChart {#is3DChart}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-###isBar3DChart{#isBar3DChart}
+### isBar3DChart {#isBar3DChart}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ boolean
 ---
 
 
-###isChartTypeArea{#isChartTypeArea}
+### isChartTypeArea {#isChartTypeArea}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ boolean
 ---
 
 
-###isChartTypeBar{#isChartTypeBar}
+### isChartTypeBar {#isChartTypeBar}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ boolean
 ---
 
 
-###isChartTypeBubble{#isChartTypeBubble}
+### isChartTypeBubble {#isChartTypeBubble}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ boolean
 ---
 
 
-###isChartTypeColumn{#isChartTypeColumn}
+### isChartTypeColumn {#isChartTypeColumn}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ boolean
 ---
 
 
-###isChartTypeDoughnut{#isChartTypeDoughnut}
+### isChartTypeDoughnut {#isChartTypeDoughnut}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ boolean
 ---
 
 
-###isChartTypeLine{#isChartTypeLine}
+### isChartTypeLine {#isChartTypeLine}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ boolean
 ---
 
 
-###isChartTypePie{#isChartTypePie}
+### isChartTypePie {#isChartTypePie}
 
 | Name | Description |
 | --- | --- |
@@ -173,7 +173,7 @@ boolean
 ---
 
 
-###isChartTypeRadar{#isChartTypeRadar}
+### isChartTypeRadar {#isChartTypeRadar}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ boolean
 ---
 
 
-###isChartTypeScatter{#isChartTypeScatter}
+### isChartTypeScatter {#isChartTypeScatter}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ boolean
 ---
 
 
-###isChartTypeStock{#isChartTypeStock}
+### isChartTypeStock {#isChartTypeStock}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ boolean
 ---
 
 
-###isChartTypeSurface{#isChartTypeSurface}
+### isChartTypeSurface {#isChartTypeSurface}
 
 | Name | Description |
 | --- | --- |
@@ -225,13 +225,13 @@ boolean
 ---
 
 
-###isErrorBarsXAllowed{#isErrorBarsXAllowed}
+### isErrorBarsXAllowed {#isErrorBarsXAllowed}
 
 | Name | Description |
 | --- | --- |
 | isErrorBarsXAllowed (int) | Returns if error bars X allowed for specified series type. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -244,13 +244,13 @@ boolean
 ---
 
 
-###isErrorBarsYAllowed{#isErrorBarsYAllowed}
+### isErrorBarsYAllowed {#isErrorBarsYAllowed}
 
 | Name | Description |
 | --- | --- |
 | isErrorBarsYAllowed (int) | Returns if error bars Y allowed for specified series type. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -263,13 +263,13 @@ boolean
 ---
 
 
-###isSeriesUsesBubbleSizeCoordinate{#isSeriesUsesBubbleSizeCoordinate}
+### isSeriesUsesBubbleSizeCoordinate {#isSeriesUsesBubbleSizeCoordinate}
 
 | Name | Description |
 | --- | --- |
 | isSeriesUsesBubbleSizeCoordinate (int) | Returns if bubble size coordinates can be used for specified series type. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -282,13 +282,13 @@ boolean
 ---
 
 
-###isSeriesUsesValueCoordinate{#isSeriesUsesValueCoordinate}
+### isSeriesUsesValueCoordinate {#isSeriesUsesValueCoordinate}
 
 | Name | Description |
 | --- | --- |
 | isSeriesUsesValueCoordinate (int) | Returns if specified series type uses value coordinates. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -301,13 +301,13 @@ boolean
 ---
 
 
-###isSeriesUsesXValueCoordinate{#isSeriesUsesXValueCoordinate}
+### isSeriesUsesXValueCoordinate {#isSeriesUsesXValueCoordinate}
 
 | Name | Description |
 | --- | --- |
 | isSeriesUsesXValueCoordinate (int) | Returns if specified series type uses X value coordinates. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -320,13 +320,13 @@ boolean
 ---
 
 
-###isSeriesUsesYValueCoordinate{#isSeriesUsesYValueCoordinate}
+### isSeriesUsesYValueCoordinate {#isSeriesUsesYValueCoordinate}
 
 | Name | Description |
 | --- | --- |
 | isSeriesUsesYValueCoordinate (int) | Returns if specified series type uses Y value coordinates. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

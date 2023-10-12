@@ -11,7 +11,7 @@ url: /aspose.slides/gifoptions/
 
  Represents GIF exporting options.
  
-###GifOptions{#GifOptions}
+### GifOptions {#GifOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ GifOptions
 ---
 
 
-###getDefaultDelay{#getDefaultDelay}
+### getDefaultDelay {#getDefaultDelay}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getExportHiddenSlides{#getExportHiddenSlides}
+### getExportHiddenSlides {#getExportHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getFrameSize{#getFrameSize}
+### getFrameSize {#getFrameSize}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ Dimension
 ---
 
 
-###getTransitionFps{#getTransitionFps}
+### getTransitionFps {#getTransitionFps}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###setDefaultDelay{#setDefaultDelay}
+### setDefaultDelay {#setDefaultDelay}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ int
 ---
 
 
-###setExportHiddenSlides{#setExportHiddenSlides}
+### setExportHiddenSlides {#setExportHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ int
 ---
 
 
-###setFrameSize{#setFrameSize}
+### setFrameSize {#setFrameSize}
 
 | Name | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ int
 ---
 
 
-###setTransitionFps{#setTransitionFps}
+### setTransitionFps {#setTransitionFps}
 
 | Name | Description |
 | --- | --- |

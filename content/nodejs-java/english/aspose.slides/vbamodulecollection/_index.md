@@ -11,13 +11,13 @@ url: /aspose.slides/vbamodulecollection/
 
  Represents a collection of a VBA Project modules.
  
-###addEmptyModule{#addEmptyModule}
+### addEmptyModule {#addEmptyModule}
 
 | Name | Description |
 | --- | --- |
 | addEmptyModule (String) | Adds a new empty module to the VBA Project. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ url: /aspose.slides/vbamodulecollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -95,13 +95,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([VbaModule](../vbamodule)) | Removes the first occurrence of a specific object from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -111,7 +111,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

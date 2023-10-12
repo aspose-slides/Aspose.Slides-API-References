@@ -11,7 +11,7 @@ url: /aspose.slides/patternformat/
 
  Represents a pattern to fill a shape.
  
-###getBackColor{#getBackColor}
+### getBackColor {#getBackColor}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/patternformat/
 ---
 
 
-###getForeColor{#getForeColor}
+### getForeColor {#getForeColor}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/patternformat/
 ---
 
 
-###getPatternStyle{#getPatternStyle}
+### getPatternStyle {#getPatternStyle}
 
 | Name | Description |
 | --- | --- |
@@ -50,13 +50,13 @@ byte
 ---
 
 
-###getTileImage{#getTileImage}
+### getTileImage {#getTileImage}
 
 | Name | Description |
 | --- | --- |
 | getTileImage (Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -70,13 +70,13 @@ BufferedImage
 ---
 
 
-###getTileImage{#getTileImage}
+### getTileImage {#getTileImage}
 
 | Name | Description |
 | --- | --- |
 | getTileImage (Color) | Creates a tile image for the pattern fill. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -89,7 +89,7 @@ BufferedImage
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ long
 ---
 
 
-###setPatternStyle{#setPatternStyle}
+### setPatternStyle {#setPatternStyle}
 
 | Name | Description |
 | --- | --- |

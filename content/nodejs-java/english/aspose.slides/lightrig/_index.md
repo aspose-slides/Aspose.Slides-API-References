@@ -11,7 +11,7 @@ url: /aspose.slides/lightrig/
 
  Represents LightRig.
  
-###getDirection{#getDirection}
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getLightType{#getLightType}
+### getLightType {#getLightType}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getRotation{#getRotation}
+### getRotation {#getRotation}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ long
 ---
 
 
-###setDirection{#setDirection}
+### setDirection {#setDirection}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ long
 ---
 
 
-###setLightType{#setLightType}
+### setLightType {#setLightType}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ long
 ---
 
 
-###setRotation{#setRotation}
+### setRotation {#setRotation}
 
 | Name | Description |
 | --- | --- |

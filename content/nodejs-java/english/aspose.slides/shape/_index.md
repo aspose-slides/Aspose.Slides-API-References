@@ -11,13 +11,13 @@ url: /aspose.slides/shape/
 
   Represents a shape on a slide.
  
-###addPlaceholder{#addPlaceholder}
+### addPlaceholder {#addPlaceholder}
 
 | Name | Description |
 | --- | --- |
 | addPlaceholder ([Placeholder](../placeholder)) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ url: /aspose.slides/shape/
 ---
 
 
-###getAlternativeText{#getAlternativeText}
+### getAlternativeText {#getAlternativeText}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ String
 ---
 
 
-###getAlternativeTextTitle{#getAlternativeTextTitle}
+### getAlternativeTextTitle {#getAlternativeTextTitle}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ String
 ---
 
 
-###getBasePlaceholder{#getBasePlaceholder}
+### getBasePlaceholder {#getBasePlaceholder}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ String
 ---
 
 
-###getBlackWhiteMode{#getBlackWhiteMode}
+### getBlackWhiteMode {#getBlackWhiteMode}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ byte
 ---
 
 
-###getConnectionSiteCount{#getConnectionSiteCount}
+### getConnectionSiteCount {#getConnectionSiteCount}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ int
 ---
 
 
-###getCustomData{#getCustomData}
+### getCustomData {#getCustomData}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ int
 ---
 
 
-###getEffectFormat{#getEffectFormat}
+### getEffectFormat {#getEffectFormat}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ int
 ---
 
 
-###getFillFormat{#getFillFormat}
+### getFillFormat {#getFillFormat}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ int
 ---
 
 
-###getFrame{#getFrame}
+### getFrame {#getFrame}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ int
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ float
 ---
 
 
-###getHidden{#getHidden}
+### getHidden {#getHidden}
 
 | Name | Description |
 | --- | --- |
@@ -173,7 +173,7 @@ boolean
 ---
 
 
-###getHyperlinkClick{#getHyperlinkClick}
+### getHyperlinkClick {#getHyperlinkClick}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ boolean
 ---
 
 
-###getHyperlinkManager{#getHyperlinkManager}
+### getHyperlinkManager {#getHyperlinkManager}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ boolean
 ---
 
 
-###getHyperlinkMouseOver{#getHyperlinkMouseOver}
+### getHyperlinkMouseOver {#getHyperlinkMouseOver}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ boolean
 ---
 
 
-###getLineFormat{#getLineFormat}
+### getLineFormat {#getLineFormat}
 
 | Name | Description |
 | --- | --- |
@@ -225,7 +225,7 @@ boolean
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -238,7 +238,7 @@ String
 ---
 
 
-###getOfficeInteropShapeId{#getOfficeInteropShapeId}
+### getOfficeInteropShapeId {#getOfficeInteropShapeId}
 
 | Name | Description |
 | --- | --- |
@@ -251,7 +251,7 @@ long
 ---
 
 
-###getParentGroup{#getParentGroup}
+### getParentGroup {#getParentGroup}
 
 | Name | Description |
 | --- | --- |
@@ -264,7 +264,7 @@ long
 ---
 
 
-###getPlaceholder{#getPlaceholder}
+### getPlaceholder {#getPlaceholder}
 
 | Name | Description |
 | --- | --- |
@@ -277,7 +277,7 @@ long
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -290,7 +290,7 @@ long
 ---
 
 
-###getRawFrame{#getRawFrame}
+### getRawFrame {#getRawFrame}
 
 | Name | Description |
 | --- | --- |
@@ -303,7 +303,7 @@ long
 ---
 
 
-###getRotation{#getRotation}
+### getRotation {#getRotation}
 
 | Name | Description |
 | --- | --- |
@@ -316,7 +316,7 @@ float
 ---
 
 
-###getShapeLock{#getShapeLock}
+### getShapeLock {#getShapeLock}
 
 | Name | Description |
 | --- | --- |
@@ -329,7 +329,7 @@ float
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -342,7 +342,7 @@ float
 ---
 
 
-###getThreeDFormat{#getThreeDFormat}
+### getThreeDFormat {#getThreeDFormat}
 
 | Name | Description |
 | --- | --- |
@@ -355,7 +355,7 @@ float
 ---
 
 
-###getThumbnail{#getThumbnail}
+### getThumbnail {#getThumbnail}
 
 | Name | Description |
 | --- | --- |
@@ -368,13 +368,13 @@ BufferedImage
 ---
 
 
-###getThumbnail{#getThumbnail}
+### getThumbnail {#getThumbnail}
 
 | Name | Description |
 | --- | --- |
 | getThumbnail (int, float, float) | Returns shape thumbnail. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -389,7 +389,7 @@ BufferedImage
 ---
 
 
-###getUniqueId{#getUniqueId}
+### getUniqueId {#getUniqueId}
 
 | Name | Description |
 | --- | --- |
@@ -402,7 +402,7 @@ long
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -415,7 +415,7 @@ float
 ---
 
 
-###getX{#getX}
+### getX {#getX}
 
 | Name | Description |
 | --- | --- |
@@ -428,7 +428,7 @@ float
 ---
 
 
-###getY{#getY}
+### getY {#getY}
 
 | Name | Description |
 | --- | --- |
@@ -441,7 +441,7 @@ float
 ---
 
 
-###getZOrderPosition{#getZOrderPosition}
+### getZOrderPosition {#getZOrderPosition}
 
 | Name | Description |
 | --- | --- |
@@ -454,7 +454,7 @@ int
 ---
 
 
-###isGrouped{#isGrouped}
+### isGrouped {#isGrouped}
 
 | Name | Description |
 | --- | --- |
@@ -467,7 +467,7 @@ boolean
 ---
 
 
-###isTextHolder{#isTextHolder}
+### isTextHolder {#isTextHolder}
 
 | Name | Description |
 | --- | --- |
@@ -480,7 +480,7 @@ boolean
 ---
 
 
-###removePlaceholder{#removePlaceholder}
+### removePlaceholder {#removePlaceholder}
 
 | Name | Description |
 | --- | --- |
@@ -490,7 +490,7 @@ boolean
 ---
 
 
-###setAlternativeText{#setAlternativeText}
+### setAlternativeText {#setAlternativeText}
 
 | Name | Description |
 | --- | --- |
@@ -500,7 +500,7 @@ boolean
 ---
 
 
-###setAlternativeTextTitle{#setAlternativeTextTitle}
+### setAlternativeTextTitle {#setAlternativeTextTitle}
 
 | Name | Description |
 | --- | --- |
@@ -510,7 +510,7 @@ boolean
 ---
 
 
-###setBlackWhiteMode{#setBlackWhiteMode}
+### setBlackWhiteMode {#setBlackWhiteMode}
 
 | Name | Description |
 | --- | --- |
@@ -520,7 +520,7 @@ boolean
 ---
 
 
-###setFrame{#setFrame}
+### setFrame {#setFrame}
 
 | Name | Description |
 | --- | --- |
@@ -530,7 +530,7 @@ boolean
 ---
 
 
-###setHeight{#setHeight}
+### setHeight {#setHeight}
 
 | Name | Description |
 | --- | --- |
@@ -540,7 +540,7 @@ boolean
 ---
 
 
-###setHidden{#setHidden}
+### setHidden {#setHidden}
 
 | Name | Description |
 | --- | --- |
@@ -550,7 +550,7 @@ boolean
 ---
 
 
-###setHyperlinkClick{#setHyperlinkClick}
+### setHyperlinkClick {#setHyperlinkClick}
 
 | Name | Description |
 | --- | --- |
@@ -560,7 +560,7 @@ boolean
 ---
 
 
-###setHyperlinkMouseOver{#setHyperlinkMouseOver}
+### setHyperlinkMouseOver {#setHyperlinkMouseOver}
 
 | Name | Description |
 | --- | --- |
@@ -570,7 +570,7 @@ boolean
 ---
 
 
-###setName{#setName}
+### setName {#setName}
 
 | Name | Description |
 | --- | --- |
@@ -580,7 +580,7 @@ boolean
 ---
 
 
-###setRawFrame{#setRawFrame}
+### setRawFrame {#setRawFrame}
 
 | Name | Description |
 | --- | --- |
@@ -590,7 +590,7 @@ boolean
 ---
 
 
-###setRotation{#setRotation}
+### setRotation {#setRotation}
 
 | Name | Description |
 | --- | --- |
@@ -600,7 +600,7 @@ boolean
 ---
 
 
-###setWidth{#setWidth}
+### setWidth {#setWidth}
 
 | Name | Description |
 | --- | --- |
@@ -610,7 +610,7 @@ boolean
 ---
 
 
-###setX{#setX}
+### setX {#setX}
 
 | Name | Description |
 | --- | --- |
@@ -620,7 +620,7 @@ boolean
 ---
 
 
-###setY{#setY}
+### setY {#setY}
 
 | Name | Description |
 | --- | --- |
@@ -630,13 +630,13 @@ boolean
 ---
 
 
-###writeAsSvgToStream {#writeAsSvgToStream }
+### writeAsSvgToStream  {#writeAsSvgToStream }
 
 | Name | Description |
 | --- | --- |
 | writeAsSvgToStream  (Shape, WriteStream) | Saves content of Shape as SVG file. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -647,13 +647,13 @@ boolean
 ---
 
 
-###writeAsSvgToStream {#writeAsSvgToStream }
+### writeAsSvgToStream  {#writeAsSvgToStream }
 
 | Name | Description |
 | --- | --- |
 | writeAsSvgToStream  (Shape, WriteStream, [SVGOptions](../svgoptions)) | Saves content of Shape as SVG file. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

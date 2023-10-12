@@ -11,13 +11,13 @@ url: /aspose.slides/htmloptions/
 
  Represents a HTML exporting options.
  
-###HtmlOptions{#HtmlOptions}
+### HtmlOptions {#HtmlOptions}
 
 | Name | Description |
 | --- | --- |
 | HtmlOptions([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates a new HtmlOptions object specifiing callback. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ HtmlOptions
 ---
 
 
-###HtmlOptions{#HtmlOptions}
+### HtmlOptions {#HtmlOptions}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ HtmlOptions
 ---
 
 
-###getDeletePicturesCroppedAreas{#getDeletePicturesCroppedAreas}
+### getDeletePicturesCroppedAreas {#getDeletePicturesCroppedAreas}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-###getHtmlFormatter{#getHtmlFormatter}
+### getHtmlFormatter {#getHtmlFormatter}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-###getJpegQuality{#getJpegQuality}
+### getJpegQuality {#getJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ byte
 ---
 
 
-###getNotesCommentsLayouting{#getNotesCommentsLayouting}
+### getNotesCommentsLayouting {#getNotesCommentsLayouting}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ byte
 ---
 
 
-###getPicturesCompression{#getPicturesCompression}
+### getPicturesCompression {#getPicturesCompression}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ int
 ---
 
 
-###getShowHiddenSlides{#getShowHiddenSlides}
+### getShowHiddenSlides {#getShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ boolean
 ---
 
 
-###getSlideImageFormat{#getSlideImageFormat}
+### getSlideImageFormat {#getSlideImageFormat}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ boolean
 ---
 
 
-###getSvgResponsiveLayout{#getSvgResponsiveLayout}
+### getSvgResponsiveLayout {#getSvgResponsiveLayout}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ boolean
 ---
 
 
-###setDeletePicturesCroppedAreas{#setDeletePicturesCroppedAreas}
+### setDeletePicturesCroppedAreas {#setDeletePicturesCroppedAreas}
 
 | Name | Description |
 | --- | --- |
@@ -157,7 +157,7 @@ boolean
 ---
 
 
-###setHtmlFormatter{#setHtmlFormatter}
+### setHtmlFormatter {#setHtmlFormatter}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ boolean
 ---
 
 
-###setJpegQuality{#setJpegQuality}
+### setJpegQuality {#setJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -177,7 +177,7 @@ boolean
 ---
 
 
-###setPicturesCompression{#setPicturesCompression}
+### setPicturesCompression {#setPicturesCompression}
 
 | Name | Description |
 | --- | --- |
@@ -187,7 +187,7 @@ boolean
 ---
 
 
-###setShowHiddenSlides{#setShowHiddenSlides}
+### setShowHiddenSlides {#setShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -197,7 +197,7 @@ boolean
 ---
 
 
-###setSlideImageFormat{#setSlideImageFormat}
+### setSlideImageFormat {#setSlideImageFormat}
 
 | Name | Description |
 | --- | --- |
@@ -207,7 +207,7 @@ boolean
 ---
 
 
-###setSvgResponsiveLayout{#setSvgResponsiveLayout}
+### setSvgResponsiveLayout {#setSvgResponsiveLayout}
 
 | Name | Description |
 | --- | --- |

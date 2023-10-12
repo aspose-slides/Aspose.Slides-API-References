@@ -11,7 +11,7 @@ url: /aspose.slides/notescommentslayoutingoptions/
 
  Provides options that control the look of layouting of notes and comments in exported document.
  
-###NotesCommentsLayoutingOptions{#NotesCommentsLayoutingOptions}
+### NotesCommentsLayoutingOptions {#NotesCommentsLayoutingOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ NotesCommentsLayoutingOptions
 ---
 
 
-###getCommentsAreaColor{#getCommentsAreaColor}
+### getCommentsAreaColor {#getCommentsAreaColor}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Color
 ---
 
 
-###getCommentsAreaWidth{#getCommentsAreaWidth}
+### getCommentsAreaWidth {#getCommentsAreaWidth}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getCommentsPosition{#getCommentsPosition}
+### getCommentsPosition {#getCommentsPosition}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getNotesPosition{#getNotesPosition}
+### getNotesPosition {#getNotesPosition}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###getShowCommentsByNoAuthor{#getShowCommentsByNoAuthor}
+### getShowCommentsByNoAuthor {#getShowCommentsByNoAuthor}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###setCommentsAreaColor{#setCommentsAreaColor}
+### setCommentsAreaColor {#setCommentsAreaColor}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ boolean
 ---
 
 
-###setCommentsAreaWidth{#setCommentsAreaWidth}
+### setCommentsAreaWidth {#setCommentsAreaWidth}
 
 | Name | Description |
 | --- | --- |
@@ -109,7 +109,7 @@ boolean
 ---
 
 
-###setCommentsPosition{#setCommentsPosition}
+### setCommentsPosition {#setCommentsPosition}
 
 | Name | Description |
 | --- | --- |
@@ -119,7 +119,7 @@ boolean
 ---
 
 
-###setNotesPosition{#setNotesPosition}
+### setNotesPosition {#setNotesPosition}
 
 | Name | Description |
 | --- | --- |
@@ -129,7 +129,7 @@ boolean
 ---
 
 
-###setShowCommentsByNoAuthor{#setShowCommentsByNoAuthor}
+### setShowCommentsByNoAuthor {#setShowCommentsByNoAuthor}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/notessize/
 
  Represents a size of notes slide.
  
-###NotesSize{#NotesSize}
+### NotesSize {#NotesSize}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ NotesSize
 ---
 
 
-###getSize{#getSize}
+### getSize {#getSize}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Dimension2D
 ---
 
 
-###setSize{#setSize}
+### setSize {#setSize}
 
 | Name | Description |
 | --- | --- |

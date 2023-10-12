@@ -11,13 +11,13 @@ url: /aspose.slides/behaviorpropertycollection/
 
  Represents timing properties for the effect behavior.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([BehaviorProperty](../behaviorproperty)) | Adds a new property to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -27,13 +27,13 @@ url: /aspose.slides/behaviorpropertycollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String) | Adds a new property to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ url: /aspose.slides/behaviorpropertycollection/
 ---
 
 
-###addItem{#addItem}
+### addItem {#addItem}
 
 | Name | Description |
 | --- | --- |
@@ -53,7 +53,7 @@ url: /aspose.slides/behaviorpropertycollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -63,13 +63,13 @@ url: /aspose.slides/behaviorpropertycollection/
 ---
 
 
-###contains{#contains}
+### contains {#contains}
 
 | Name | Description |
 | --- | --- |
 | contains ([BehaviorProperty](../behaviorproperty)) | Determines whether the IGenericCollection contains a specific value. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -82,13 +82,13 @@ boolean
 ---
 
 
-###contains{#contains}
+### contains {#contains}
 
 | Name | Description |
 | --- | --- |
 | contains (String) | Determines whether the IGenericCollection contains a specific value. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -101,7 +101,7 @@ boolean
 ---
 
 
-###containsItem{#containsItem}
+### containsItem {#containsItem}
 
 | Name | Description |
 | --- | --- |
@@ -114,13 +114,13 @@ boolean
 ---
 
 
-###copyTo{#copyTo}
+### copyTo {#copyTo}
 
 | Name | Description |
 | --- | --- |
 | copyTo (com.aspose.slides.IBehaviorProperty[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -137,7 +137,7 @@ boolean
 ---
 
 
-###copyToTArray{#copyToTArray}
+### copyToTArray {#copyToTArray}
 
 | Name | Description |
 | --- | --- |
@@ -147,13 +147,13 @@ boolean
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns a property at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -166,13 +166,13 @@ boolean
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([BehaviorProperty](../behaviorproperty)) | Determines the index of a specific item in the List. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -185,13 +185,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf (String) | Determines the index of a specific item by property value in the List. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -204,7 +204,7 @@ int
 ---
 
 
-###indexOfItem{#indexOfItem}
+### indexOfItem {#indexOfItem}
 
 | Name | Description |
 | --- | --- |
@@ -217,13 +217,13 @@ int
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, [BehaviorProperty](../behaviorproperty)) | Inserts a new property to the collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -234,13 +234,13 @@ int
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, String) | Inserts a new property (with the specified property value) to the collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -251,7 +251,7 @@ int
 ---
 
 
-###insertItem{#insertItem}
+### insertItem {#insertItem}
 
 | Name | Description |
 | --- | --- |
@@ -261,7 +261,7 @@ int
 ---
 
 
-###isReadOnly{#isReadOnly}
+### isReadOnly {#isReadOnly}
 
 | Name | Description |
 | --- | --- |
@@ -274,7 +274,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -287,7 +287,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -300,13 +300,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([BehaviorProperty](../behaviorproperty)) | Removes specified property from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -319,13 +319,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove (String) | Removes specified property from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -338,13 +338,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes property at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -354,7 +354,7 @@ boolean
 ---
 
 
-###removeItem{#removeItem}
+### removeItem {#removeItem}
 
 | Name | Description |
 | --- | --- |
@@ -367,13 +367,13 @@ boolean
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, [BehaviorProperty](../behaviorproperty)) | Sets a property at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -383,7 +383,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

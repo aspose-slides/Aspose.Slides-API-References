@@ -11,7 +11,7 @@ url: /aspose.slides/masternotesslide/
 
  Represents master slide for notes.
  
-###getHeaderFooterManager{#getHeaderFooterManager}
+### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/masternotesslide/
 ---
 
 
-###getNotesStyle{#getNotesStyle}
+### getNotesStyle {#getNotesStyle}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/masternotesslide/
 ---
 
 
-###getShowMasterShapes{#getShowMasterShapes}
+### getShowMasterShapes {#getShowMasterShapes}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-###getThemeManager{#getThemeManager}
+### getThemeManager {#getThemeManager}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-###setShowMasterShapes{#setShowMasterShapes}
+### setShowMasterShapes {#setShowMasterShapes}
 
 | Name | Description |
 | --- | --- |

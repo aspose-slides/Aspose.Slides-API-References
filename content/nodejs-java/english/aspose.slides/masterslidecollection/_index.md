@@ -11,13 +11,13 @@ url: /aspose.slides/masterslidecollection/
 
  Represents a collection of master slides.
  
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([MasterSlide](../masterslide)) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ url: /aspose.slides/masterslidecollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -56,13 +56,13 @@ Object
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [MasterSlide](../masterslide)) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -115,13 +115,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([MasterSlide](../masterslide)) | Removes the first occurrence of a specific object from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -131,13 +131,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the element at the specified index of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -153,13 +153,13 @@ boolean
 ---
 
 
-###removeUnused{#removeUnused}
+### removeUnused {#removeUnused}
 
 | Name | Description |
 | --- | --- |
 | removeUnused (boolean) | Removes unused master slides. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -169,7 +169,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

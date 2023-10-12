@@ -13,13 +13,13 @@ url: /aspose.slides/behaviorproperty/
  Follows the list of properties from https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx
  and https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Checks if this object is equal to another. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ boolean
 ---
 
 
-###getExtrusionAutoRotationCenter{#getExtrusionAutoRotationCenter}
+### getExtrusionAutoRotationCenter {#getExtrusionAutoRotationCenter}
 
 | Name | Description |
 | --- | --- |
@@ -45,7 +45,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionBackDepth{#getExtrusionBackDepth}
+### getExtrusionBackDepth {#getExtrusionBackDepth}
 
 | Name | Description |
 | --- | --- |
@@ -58,7 +58,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionColor{#getExtrusionColor}
+### getExtrusionColor {#getExtrusionColor}
 
 | Name | Description |
 | --- | --- |
@@ -71,7 +71,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionColorMode{#getExtrusionColorMode}
+### getExtrusionColorMode {#getExtrusionColorMode}
 
 | Name | Description |
 | --- | --- |
@@ -84,7 +84,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionForeDepth{#getExtrusionForeDepth}
+### getExtrusionForeDepth {#getExtrusionForeDepth}
 
 | Name | Description |
 | --- | --- |
@@ -97,7 +97,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionLockRotationCenter{#getExtrusionLockRotationCenter}
+### getExtrusionLockRotationCenter {#getExtrusionLockRotationCenter}
 
 | Name | Description |
 | --- | --- |
@@ -110,7 +110,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionOn{#getExtrusionOn}
+### getExtrusionOn {#getExtrusionOn}
 
 | Name | Description |
 | --- | --- |
@@ -123,7 +123,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionOrientationAngle{#getExtrusionOrientationAngle}
+### getExtrusionOrientationAngle {#getExtrusionOrientationAngle}
 
 | Name | Description |
 | --- | --- |
@@ -136,7 +136,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionOrientationX{#getExtrusionOrientationX}
+### getExtrusionOrientationX {#getExtrusionOrientationX}
 
 | Name | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionOrientationY{#getExtrusionOrientationY}
+### getExtrusionOrientationY {#getExtrusionOrientationY}
 
 | Name | Description |
 | --- | --- |
@@ -162,7 +162,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionOrientationZ{#getExtrusionOrientationZ}
+### getExtrusionOrientationZ {#getExtrusionOrientationZ}
 
 | Name | Description |
 | --- | --- |
@@ -175,7 +175,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionPlane{#getExtrusionPlane}
+### getExtrusionPlane {#getExtrusionPlane}
 
 | Name | Description |
 | --- | --- |
@@ -188,7 +188,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionRender{#getExtrusionRender}
+### getExtrusionRender {#getExtrusionRender}
 
 | Name | Description |
 | --- | --- |
@@ -201,7 +201,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionRotationAngleX{#getExtrusionRotationAngleX}
+### getExtrusionRotationAngleX {#getExtrusionRotationAngleX}
 
 | Name | Description |
 | --- | --- |
@@ -214,7 +214,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionRotationAngleY{#getExtrusionRotationAngleY}
+### getExtrusionRotationAngleY {#getExtrusionRotationAngleY}
 
 | Name | Description |
 | --- | --- |
@@ -227,7 +227,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionRotationCenterX{#getExtrusionRotationCenterX}
+### getExtrusionRotationCenterX {#getExtrusionRotationCenterX}
 
 | Name | Description |
 | --- | --- |
@@ -240,7 +240,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionRotationCenterY{#getExtrusionRotationCenterY}
+### getExtrusionRotationCenterY {#getExtrusionRotationCenterY}
 
 | Name | Description |
 | --- | --- |
@@ -253,7 +253,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionRotationCenterZ{#getExtrusionRotationCenterZ}
+### getExtrusionRotationCenterZ {#getExtrusionRotationCenterZ}
 
 | Name | Description |
 | --- | --- |
@@ -266,7 +266,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionSkewAmt{#getExtrusionSkewAmt}
+### getExtrusionSkewAmt {#getExtrusionSkewAmt}
 
 | Name | Description |
 | --- | --- |
@@ -279,7 +279,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionSkewAngle{#getExtrusionSkewAngle}
+### getExtrusionSkewAngle {#getExtrusionSkewAngle}
 
 | Name | Description |
 | --- | --- |
@@ -292,7 +292,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionType{#getExtrusionType}
+### getExtrusionType {#getExtrusionType}
 
 | Name | Description |
 | --- | --- |
@@ -305,7 +305,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionViewPointOriginX{#getExtrusionViewPointOriginX}
+### getExtrusionViewPointOriginX {#getExtrusionViewPointOriginX}
 
 | Name | Description |
 | --- | --- |
@@ -318,7 +318,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionViewPointOriginY{#getExtrusionViewPointOriginY}
+### getExtrusionViewPointOriginY {#getExtrusionViewPointOriginY}
 
 | Name | Description |
 | --- | --- |
@@ -331,7 +331,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionViewPointX{#getExtrusionViewPointX}
+### getExtrusionViewPointX {#getExtrusionViewPointX}
 
 | Name | Description |
 | --- | --- |
@@ -344,7 +344,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionViewPointY{#getExtrusionViewPointY}
+### getExtrusionViewPointY {#getExtrusionViewPointY}
 
 | Name | Description |
 | --- | --- |
@@ -357,7 +357,7 @@ BehaviorProperty
 ---
 
 
-###getExtrusionViewPointZ{#getExtrusionViewPointZ}
+### getExtrusionViewPointZ {#getExtrusionViewPointZ}
 
 | Name | Description |
 | --- | --- |
@@ -370,7 +370,7 @@ BehaviorProperty
 ---
 
 
-###getFillAngle{#getFillAngle}
+### getFillAngle {#getFillAngle}
 
 | Name | Description |
 | --- | --- |
@@ -383,7 +383,7 @@ BehaviorProperty
 ---
 
 
-###getFillColor{#getFillColor}
+### getFillColor {#getFillColor}
 
 | Name | Description |
 | --- | --- |
@@ -396,7 +396,7 @@ BehaviorProperty
 ---
 
 
-###getFillColor2{#getFillColor2}
+### getFillColor2 {#getFillColor2}
 
 | Name | Description |
 | --- | --- |
@@ -409,7 +409,7 @@ BehaviorProperty
 ---
 
 
-###getFillFocus{#getFillFocus}
+### getFillFocus {#getFillFocus}
 
 | Name | Description |
 | --- | --- |
@@ -422,7 +422,7 @@ BehaviorProperty
 ---
 
 
-###getFillFocusPositionX{#getFillFocusPositionX}
+### getFillFocusPositionX {#getFillFocusPositionX}
 
 | Name | Description |
 | --- | --- |
@@ -435,7 +435,7 @@ BehaviorProperty
 ---
 
 
-###getFillFocusPositionY{#getFillFocusPositionY}
+### getFillFocusPositionY {#getFillFocusPositionY}
 
 | Name | Description |
 | --- | --- |
@@ -448,7 +448,7 @@ BehaviorProperty
 ---
 
 
-###getFillFocusSizeX{#getFillFocusSizeX}
+### getFillFocusSizeX {#getFillFocusSizeX}
 
 | Name | Description |
 | --- | --- |
@@ -461,7 +461,7 @@ BehaviorProperty
 ---
 
 
-###getFillFocusSizeY{#getFillFocusSizeY}
+### getFillFocusSizeY {#getFillFocusSizeY}
 
 | Name | Description |
 | --- | --- |
@@ -474,7 +474,7 @@ BehaviorProperty
 ---
 
 
-###getFillMethod{#getFillMethod}
+### getFillMethod {#getFillMethod}
 
 | Name | Description |
 | --- | --- |
@@ -487,7 +487,7 @@ BehaviorProperty
 ---
 
 
-###getFillOn{#getFillOn}
+### getFillOn {#getFillOn}
 
 | Name | Description |
 | --- | --- |
@@ -500,7 +500,7 @@ BehaviorProperty
 ---
 
 
-###getFillOpacity{#getFillOpacity}
+### getFillOpacity {#getFillOpacity}
 
 | Name | Description |
 | --- | --- |
@@ -513,7 +513,7 @@ BehaviorProperty
 ---
 
 
-###getFillOpacity2{#getFillOpacity2}
+### getFillOpacity2 {#getFillOpacity2}
 
 | Name | Description |
 | --- | --- |
@@ -526,7 +526,7 @@ BehaviorProperty
 ---
 
 
-###getFillType{#getFillType}
+### getFillType {#getFillType}
 
 | Name | Description |
 | --- | --- |
@@ -539,7 +539,7 @@ BehaviorProperty
 ---
 
 
-###getFill_Color{#getFill_Color}
+### getFill_Color {#getFill_Color}
 
 | Name | Description |
 | --- | --- |
@@ -552,7 +552,7 @@ BehaviorProperty
 ---
 
 
-###getImage{#getImage}
+### getImage {#getImage}
 
 | Name | Description |
 | --- | --- |
@@ -565,7 +565,7 @@ BehaviorProperty
 ---
 
 
-###getImageDataBlacklevel{#getImageDataBlacklevel}
+### getImageDataBlacklevel {#getImageDataBlacklevel}
 
 | Name | Description |
 | --- | --- |
@@ -578,7 +578,7 @@ BehaviorProperty
 ---
 
 
-###getImageDataChromakey{#getImageDataChromakey}
+### getImageDataChromakey {#getImageDataChromakey}
 
 | Name | Description |
 | --- | --- |
@@ -591,7 +591,7 @@ BehaviorProperty
 ---
 
 
-###getImageDataCropBottom{#getImageDataCropBottom}
+### getImageDataCropBottom {#getImageDataCropBottom}
 
 | Name | Description |
 | --- | --- |
@@ -604,7 +604,7 @@ BehaviorProperty
 ---
 
 
-###getImageDataCropLeft{#getImageDataCropLeft}
+### getImageDataCropLeft {#getImageDataCropLeft}
 
 | Name | Description |
 | --- | --- |
@@ -617,7 +617,7 @@ BehaviorProperty
 ---
 
 
-###getImageDataCropRight{#getImageDataCropRight}
+### getImageDataCropRight {#getImageDataCropRight}
 
 | Name | Description |
 | --- | --- |
@@ -630,7 +630,7 @@ BehaviorProperty
 ---
 
 
-###getImageDataCropTop{#getImageDataCropTop}
+### getImageDataCropTop {#getImageDataCropTop}
 
 | Name | Description |
 | --- | --- |
@@ -643,7 +643,7 @@ BehaviorProperty
 ---
 
 
-###getImageDataGain{#getImageDataGain}
+### getImageDataGain {#getImageDataGain}
 
 | Name | Description |
 | --- | --- |
@@ -656,7 +656,7 @@ BehaviorProperty
 ---
 
 
-###getImageDataGamma{#getImageDataGamma}
+### getImageDataGamma {#getImageDataGamma}
 
 | Name | Description |
 | --- | --- |
@@ -669,7 +669,7 @@ BehaviorProperty
 ---
 
 
-###getImageDataGrayscale{#getImageDataGrayscale}
+### getImageDataGrayscale {#getImageDataGrayscale}
 
 | Name | Description |
 | --- | --- |
@@ -682,13 +682,13 @@ BehaviorProperty
 ---
 
 
-###getOrCreateByValue{#getOrCreateByValue}
+### getOrCreateByValue {#getOrCreateByValue}
 
 | Name | Description |
 | --- | --- |
 | getOrCreateByValue (String) | Looks for existing behavior property by value or creates new custom one with the specified value |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -701,7 +701,7 @@ BehaviorProperty
 ---
 
 
-###getPptC{#getPptC}
+### getPptC {#getPptC}
 
 | Name | Description |
 | --- | --- |
@@ -714,7 +714,7 @@ BehaviorProperty
 ---
 
 
-###getPptH{#getPptH}
+### getPptH {#getPptH}
 
 | Name | Description |
 | --- | --- |
@@ -727,7 +727,7 @@ BehaviorProperty
 ---
 
 
-###getPptR{#getPptR}
+### getPptR {#getPptR}
 
 | Name | Description |
 | --- | --- |
@@ -740,7 +740,7 @@ BehaviorProperty
 ---
 
 
-###getPptW{#getPptW}
+### getPptW {#getPptW}
 
 | Name | Description |
 | --- | --- |
@@ -753,7 +753,7 @@ BehaviorProperty
 ---
 
 
-###getPptX{#getPptX}
+### getPptX {#getPptX}
 
 | Name | Description |
 | --- | --- |
@@ -766,7 +766,7 @@ BehaviorProperty
 ---
 
 
-###getPptY{#getPptY}
+### getPptY {#getPptY}
 
 | Name | Description |
 | --- | --- |
@@ -779,7 +779,7 @@ BehaviorProperty
 ---
 
 
-###getR{#getR}
+### getR {#getR}
 
 | Name | Description |
 | --- | --- |
@@ -792,7 +792,7 @@ BehaviorProperty
 ---
 
 
-###getScaleX{#getScaleX}
+### getScaleX {#getScaleX}
 
 | Name | Description |
 | --- | --- |
@@ -805,7 +805,7 @@ BehaviorProperty
 ---
 
 
-###getScaleY{#getScaleY}
+### getScaleY {#getScaleY}
 
 | Name | Description |
 | --- | --- |
@@ -818,7 +818,7 @@ BehaviorProperty
 ---
 
 
-###getShadowColor{#getShadowColor}
+### getShadowColor {#getShadowColor}
 
 | Name | Description |
 | --- | --- |
@@ -831,7 +831,7 @@ BehaviorProperty
 ---
 
 
-###getShadowColor2{#getShadowColor2}
+### getShadowColor2 {#getShadowColor2}
 
 | Name | Description |
 | --- | --- |
@@ -844,7 +844,7 @@ BehaviorProperty
 ---
 
 
-###getShadowMatrixPerspectiveX{#getShadowMatrixPerspectiveX}
+### getShadowMatrixPerspectiveX {#getShadowMatrixPerspectiveX}
 
 | Name | Description |
 | --- | --- |
@@ -857,7 +857,7 @@ BehaviorProperty
 ---
 
 
-###getShadowMatrixPerspectiveY{#getShadowMatrixPerspectiveY}
+### getShadowMatrixPerspectiveY {#getShadowMatrixPerspectiveY}
 
 | Name | Description |
 | --- | --- |
@@ -870,7 +870,7 @@ BehaviorProperty
 ---
 
 
-###getShadowMatrixXtoX{#getShadowMatrixXtoX}
+### getShadowMatrixXtoX {#getShadowMatrixXtoX}
 
 | Name | Description |
 | --- | --- |
@@ -883,7 +883,7 @@ BehaviorProperty
 ---
 
 
-###getShadowMatrixXtoY{#getShadowMatrixXtoY}
+### getShadowMatrixXtoY {#getShadowMatrixXtoY}
 
 | Name | Description |
 | --- | --- |
@@ -896,7 +896,7 @@ BehaviorProperty
 ---
 
 
-###getShadowMatrixYtoX{#getShadowMatrixYtoX}
+### getShadowMatrixYtoX {#getShadowMatrixYtoX}
 
 | Name | Description |
 | --- | --- |
@@ -909,7 +909,7 @@ BehaviorProperty
 ---
 
 
-###getShadowMatrixYtoY{#getShadowMatrixYtoY}
+### getShadowMatrixYtoY {#getShadowMatrixYtoY}
 
 | Name | Description |
 | --- | --- |
@@ -922,7 +922,7 @@ BehaviorProperty
 ---
 
 
-###getShadowOffset2X{#getShadowOffset2X}
+### getShadowOffset2X {#getShadowOffset2X}
 
 | Name | Description |
 | --- | --- |
@@ -935,7 +935,7 @@ BehaviorProperty
 ---
 
 
-###getShadowOffset2Y{#getShadowOffset2Y}
+### getShadowOffset2Y {#getShadowOffset2Y}
 
 | Name | Description |
 | --- | --- |
@@ -948,7 +948,7 @@ BehaviorProperty
 ---
 
 
-###getShadowOffsetX{#getShadowOffsetX}
+### getShadowOffsetX {#getShadowOffsetX}
 
 | Name | Description |
 | --- | --- |
@@ -961,7 +961,7 @@ BehaviorProperty
 ---
 
 
-###getShadowOffsetY{#getShadowOffsetY}
+### getShadowOffsetY {#getShadowOffsetY}
 
 | Name | Description |
 | --- | --- |
@@ -974,7 +974,7 @@ BehaviorProperty
 ---
 
 
-###getShadowOn{#getShadowOn}
+### getShadowOn {#getShadowOn}
 
 | Name | Description |
 | --- | --- |
@@ -987,7 +987,7 @@ BehaviorProperty
 ---
 
 
-###getShadowOpacity{#getShadowOpacity}
+### getShadowOpacity {#getShadowOpacity}
 
 | Name | Description |
 | --- | --- |
@@ -1000,7 +1000,7 @@ BehaviorProperty
 ---
 
 
-###getShadowOriginX{#getShadowOriginX}
+### getShadowOriginX {#getShadowOriginX}
 
 | Name | Description |
 | --- | --- |
@@ -1013,7 +1013,7 @@ BehaviorProperty
 ---
 
 
-###getShadowOriginY{#getShadowOriginY}
+### getShadowOriginY {#getShadowOriginY}
 
 | Name | Description |
 | --- | --- |
@@ -1026,7 +1026,7 @@ BehaviorProperty
 ---
 
 
-###getShadowType{#getShadowType}
+### getShadowType {#getShadowType}
 
 | Name | Description |
 | --- | --- |
@@ -1039,7 +1039,7 @@ BehaviorProperty
 ---
 
 
-###getSkewMatrixPerspectiveX{#getSkewMatrixPerspectiveX}
+### getSkewMatrixPerspectiveX {#getSkewMatrixPerspectiveX}
 
 | Name | Description |
 | --- | --- |
@@ -1052,7 +1052,7 @@ BehaviorProperty
 ---
 
 
-###getSkewMatrixPerspectiveY{#getSkewMatrixPerspectiveY}
+### getSkewMatrixPerspectiveY {#getSkewMatrixPerspectiveY}
 
 | Name | Description |
 | --- | --- |
@@ -1065,7 +1065,7 @@ BehaviorProperty
 ---
 
 
-###getSkewMatrixXtoX{#getSkewMatrixXtoX}
+### getSkewMatrixXtoX {#getSkewMatrixXtoX}
 
 | Name | Description |
 | --- | --- |
@@ -1078,7 +1078,7 @@ BehaviorProperty
 ---
 
 
-###getSkewMatrixXtoY{#getSkewMatrixXtoY}
+### getSkewMatrixXtoY {#getSkewMatrixXtoY}
 
 | Name | Description |
 | --- | --- |
@@ -1091,7 +1091,7 @@ BehaviorProperty
 ---
 
 
-###getSkewMatrixYtoX{#getSkewMatrixYtoX}
+### getSkewMatrixYtoX {#getSkewMatrixYtoX}
 
 | Name | Description |
 | --- | --- |
@@ -1104,7 +1104,7 @@ BehaviorProperty
 ---
 
 
-###getSkewMatrixYtoY{#getSkewMatrixYtoY}
+### getSkewMatrixYtoY {#getSkewMatrixYtoY}
 
 | Name | Description |
 | --- | --- |
@@ -1117,7 +1117,7 @@ BehaviorProperty
 ---
 
 
-###getSkewOffsetX{#getSkewOffsetX}
+### getSkewOffsetX {#getSkewOffsetX}
 
 | Name | Description |
 | --- | --- |
@@ -1130,7 +1130,7 @@ BehaviorProperty
 ---
 
 
-###getSkewOffsetY{#getSkewOffsetY}
+### getSkewOffsetY {#getSkewOffsetY}
 
 | Name | Description |
 | --- | --- |
@@ -1143,7 +1143,7 @@ BehaviorProperty
 ---
 
 
-###getSkewOn{#getSkewOn}
+### getSkewOn {#getSkewOn}
 
 | Name | Description |
 | --- | --- |
@@ -1156,7 +1156,7 @@ BehaviorProperty
 ---
 
 
-###getSkewOriginX{#getSkewOriginX}
+### getSkewOriginX {#getSkewOriginX}
 
 | Name | Description |
 | --- | --- |
@@ -1169,7 +1169,7 @@ BehaviorProperty
 ---
 
 
-###getSkewOriginY{#getSkewOriginY}
+### getSkewOriginY {#getSkewOriginY}
 
 | Name | Description |
 | --- | --- |
@@ -1182,7 +1182,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeColor{#getStrokeColor}
+### getStrokeColor {#getStrokeColor}
 
 | Name | Description |
 | --- | --- |
@@ -1195,7 +1195,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeColor2{#getStrokeColor2}
+### getStrokeColor2 {#getStrokeColor2}
 
 | Name | Description |
 | --- | --- |
@@ -1208,7 +1208,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeDashStyle{#getStrokeDashStyle}
+### getStrokeDashStyle {#getStrokeDashStyle}
 
 | Name | Description |
 | --- | --- |
@@ -1221,7 +1221,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeEndArrow{#getStrokeEndArrow}
+### getStrokeEndArrow {#getStrokeEndArrow}
 
 | Name | Description |
 | --- | --- |
@@ -1234,7 +1234,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeEndArrowLength{#getStrokeEndArrowLength}
+### getStrokeEndArrowLength {#getStrokeEndArrowLength}
 
 | Name | Description |
 | --- | --- |
@@ -1247,7 +1247,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeEndArrowWidth{#getStrokeEndArrowWidth}
+### getStrokeEndArrowWidth {#getStrokeEndArrowWidth}
 
 | Name | Description |
 | --- | --- |
@@ -1260,7 +1260,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeFillType{#getStrokeFillType}
+### getStrokeFillType {#getStrokeFillType}
 
 | Name | Description |
 | --- | --- |
@@ -1273,7 +1273,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeImageSizeX{#getStrokeImageSizeX}
+### getStrokeImageSizeX {#getStrokeImageSizeX}
 
 | Name | Description |
 | --- | --- |
@@ -1286,7 +1286,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeImageSizeY{#getStrokeImageSizeY}
+### getStrokeImageSizeY {#getStrokeImageSizeY}
 
 | Name | Description |
 | --- | --- |
@@ -1299,7 +1299,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeLineStyle{#getStrokeLineStyle}
+### getStrokeLineStyle {#getStrokeLineStyle}
 
 | Name | Description |
 | --- | --- |
@@ -1312,7 +1312,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeOn{#getStrokeOn}
+### getStrokeOn {#getStrokeOn}
 
 | Name | Description |
 | --- | --- |
@@ -1325,7 +1325,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeOpacity{#getStrokeOpacity}
+### getStrokeOpacity {#getStrokeOpacity}
 
 | Name | Description |
 | --- | --- |
@@ -1338,7 +1338,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeSrc{#getStrokeSrc}
+### getStrokeSrc {#getStrokeSrc}
 
 | Name | Description |
 | --- | --- |
@@ -1351,7 +1351,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeStartArrow{#getStrokeStartArrow}
+### getStrokeStartArrow {#getStrokeStartArrow}
 
 | Name | Description |
 | --- | --- |
@@ -1364,7 +1364,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeStartArrowLength{#getStrokeStartArrowLength}
+### getStrokeStartArrowLength {#getStrokeStartArrowLength}
 
 | Name | Description |
 | --- | --- |
@@ -1377,7 +1377,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeStartArrowWidth{#getStrokeStartArrowWidth}
+### getStrokeStartArrowWidth {#getStrokeStartArrowWidth}
 
 | Name | Description |
 | --- | --- |
@@ -1390,7 +1390,7 @@ BehaviorProperty
 ---
 
 
-###getStrokeWeight{#getStrokeWeight}
+### getStrokeWeight {#getStrokeWeight}
 
 | Name | Description |
 | --- | --- |
@@ -1403,7 +1403,7 @@ BehaviorProperty
 ---
 
 
-###getStyleColor{#getStyleColor}
+### getStyleColor {#getStyleColor}
 
 | Name | Description |
 | --- | --- |
@@ -1416,7 +1416,7 @@ BehaviorProperty
 ---
 
 
-###getStyleFontFamily{#getStyleFontFamily}
+### getStyleFontFamily {#getStyleFontFamily}
 
 | Name | Description |
 | --- | --- |
@@ -1429,7 +1429,7 @@ BehaviorProperty
 ---
 
 
-###getStyleFontSize{#getStyleFontSize}
+### getStyleFontSize {#getStyleFontSize}
 
 | Name | Description |
 | --- | --- |
@@ -1442,7 +1442,7 @@ BehaviorProperty
 ---
 
 
-###getStyleFontStyle{#getStyleFontStyle}
+### getStyleFontStyle {#getStyleFontStyle}
 
 | Name | Description |
 | --- | --- |
@@ -1455,7 +1455,7 @@ BehaviorProperty
 ---
 
 
-###getStyleFontWeight{#getStyleFontWeight}
+### getStyleFontWeight {#getStyleFontWeight}
 
 | Name | Description |
 | --- | --- |
@@ -1468,7 +1468,7 @@ BehaviorProperty
 ---
 
 
-###getStyleOpacity{#getStyleOpacity}
+### getStyleOpacity {#getStyleOpacity}
 
 | Name | Description |
 | --- | --- |
@@ -1481,7 +1481,7 @@ BehaviorProperty
 ---
 
 
-###getStyleRotation{#getStyleRotation}
+### getStyleRotation {#getStyleRotation}
 
 | Name | Description |
 | --- | --- |
@@ -1494,7 +1494,7 @@ BehaviorProperty
 ---
 
 
-###getStyleSRotation{#getStyleSRotation}
+### getStyleSRotation {#getStyleSRotation}
 
 | Name | Description |
 | --- | --- |
@@ -1507,7 +1507,7 @@ BehaviorProperty
 ---
 
 
-###getStyleTextDecorationLineThrough{#getStyleTextDecorationLineThrough}
+### getStyleTextDecorationLineThrough {#getStyleTextDecorationLineThrough}
 
 | Name | Description |
 | --- | --- |
@@ -1520,7 +1520,7 @@ BehaviorProperty
 ---
 
 
-###getStyleTextDecorationUnderline{#getStyleTextDecorationUnderline}
+### getStyleTextDecorationUnderline {#getStyleTextDecorationUnderline}
 
 | Name | Description |
 | --- | --- |
@@ -1533,7 +1533,7 @@ BehaviorProperty
 ---
 
 
-###getStyleTextEffectEmboss{#getStyleTextEffectEmboss}
+### getStyleTextEffectEmboss {#getStyleTextEffectEmboss}
 
 | Name | Description |
 | --- | --- |
@@ -1546,7 +1546,7 @@ BehaviorProperty
 ---
 
 
-###getStyleTextEffectOutline{#getStyleTextEffectOutline}
+### getStyleTextEffectOutline {#getStyleTextEffectOutline}
 
 | Name | Description |
 | --- | --- |
@@ -1559,7 +1559,7 @@ BehaviorProperty
 ---
 
 
-###getStyleTextShadow{#getStyleTextShadow}
+### getStyleTextShadow {#getStyleTextShadow}
 
 | Name | Description |
 | --- | --- |
@@ -1572,7 +1572,7 @@ BehaviorProperty
 ---
 
 
-###getStyleTextTransform{#getStyleTextTransform}
+### getStyleTextTransform {#getStyleTextTransform}
 
 | Name | Description |
 | --- | --- |
@@ -1585,7 +1585,7 @@ BehaviorProperty
 ---
 
 
-###getStyleVisibility{#getStyleVisibility}
+### getStyleVisibility {#getStyleVisibility}
 
 | Name | Description |
 | --- | --- |
@@ -1598,7 +1598,7 @@ BehaviorProperty
 ---
 
 
-###getValue{#getValue}
+### getValue {#getValue}
 
 | Name | Description |
 | --- | --- |
@@ -1611,7 +1611,7 @@ String
 ---
 
 
-###getXShear{#getXShear}
+### getXShear {#getXShear}
 
 | Name | Description |
 | --- | --- |
@@ -1624,7 +1624,7 @@ BehaviorProperty
 ---
 
 
-###getYShear{#getYShear}
+### getYShear {#getYShear}
 
 | Name | Description |
 | --- | --- |
@@ -1637,7 +1637,7 @@ BehaviorProperty
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -1650,7 +1650,7 @@ int
 ---
 
 
-###isCustom{#isCustom}
+### isCustom {#isCustom}
 
 | Name | Description |
 | --- | --- |

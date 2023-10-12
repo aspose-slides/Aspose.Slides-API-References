@@ -11,7 +11,7 @@ url: /aspose.slides/chartwall/
 
  Represents walls on 3d charts.
  
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/chartwall/
 ---
 
 
-###getPictureType{#getPictureType}
+### getPictureType {#getPictureType}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getThickness{#getThickness}
+### getThickness {#getThickness}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###setPictureType{#setPictureType}
+### setPictureType {#setPictureType}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ int
 ---
 
 
-###setThickness{#setThickness}
+### setThickness {#setThickness}
 
 | Name | Description |
 | --- | --- |

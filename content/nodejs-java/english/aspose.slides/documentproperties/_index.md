@@ -11,7 +11,7 @@ url: /aspose.slides/documentproperties/
 
  Represents properties of a presentation.
  
-###DocumentProperties{#DocumentProperties}
+### DocumentProperties {#DocumentProperties}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ DocumentProperties
 ---
 
 
-###clearBuiltInProperties{#clearBuiltInProperties}
+### clearBuiltInProperties {#clearBuiltInProperties}
 
 | Name | Description |
 | --- | --- |
@@ -34,7 +34,7 @@ DocumentProperties
 ---
 
 
-###clearCustomProperties{#clearCustomProperties}
+### clearCustomProperties {#clearCustomProperties}
 
 | Name | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ DocumentProperties
 ---
 
 
-###cloneT{#cloneT}
+### cloneT {#cloneT}
 
 | Name | Description |
 | --- | --- |
@@ -57,13 +57,13 @@ DocumentProperties
 ---
 
 
-###containsCustomProperty{#containsCustomProperty}
+### containsCustomProperty {#containsCustomProperty}
 
 | Name | Description |
 | --- | --- |
 | containsCustomProperty (String) | Check presents of a custom property with a specified name. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###deepClone{#deepClone}
+### deepClone {#deepClone}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ Object
 ---
 
 
-###getAppVersion{#getAppVersion}
+### getAppVersion {#getAppVersion}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ String
 ---
 
 
-###getApplicationTemplate{#getApplicationTemplate}
+### getApplicationTemplate {#getApplicationTemplate}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ String
 ---
 
 
-###getAuthor{#getAuthor}
+### getAuthor {#getAuthor}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ String
 ---
 
 
-###getCategory{#getCategory}
+### getCategory {#getCategory}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ String
 ---
 
 
-###getComments{#getComments}
+### getComments {#getComments}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ String
 ---
 
 
-###getCompany{#getCompany}
+### getCompany {#getCompany}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ String
 ---
 
 
-###getContentStatus{#getContentStatus}
+### getContentStatus {#getContentStatus}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ String
 ---
 
 
-###getContentType{#getContentType}
+### getContentType {#getContentType}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ String
 ---
 
 
-###getCountOfCustomProperties{#getCountOfCustomProperties}
+### getCountOfCustomProperties {#getCountOfCustomProperties}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ int
 ---
 
 
-###getCreatedTime{#getCreatedTime}
+### getCreatedTime {#getCreatedTime}
 
 | Name | Description |
 | --- | --- |
@@ -219,13 +219,13 @@ Date
 ---
 
 
-###getCustomPropertyName{#getCustomPropertyName}
+### getCustomPropertyName {#getCustomPropertyName}
 
 | Name | Description |
 | --- | --- |
 | getCustomPropertyName (int) | Return a custom property name at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -244,13 +244,13 @@ String
 ---
 
 
-###getCustomPropertyValue{#getCustomPropertyValue}
+### getCustomPropertyValue {#getCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | getCustomPropertyValue (String, boolean[]) | Gets a named boolean value from the custom properties. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -261,13 +261,13 @@ String
 ---
 
 
-###getCustomPropertyValue{#getCustomPropertyValue}
+### getCustomPropertyValue {#getCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | getCustomPropertyValue (String, int[]) | Gets a named integer value from the custom properties. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -278,13 +278,13 @@ String
 ---
 
 
-###getCustomPropertyValue{#getCustomPropertyValue}
+### getCustomPropertyValue {#getCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | getCustomPropertyValue (String, java.util.Date[]) | Gets a named DateTime value from the custom properties. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -295,13 +295,13 @@ String
 ---
 
 
-###getCustomPropertyValue{#getCustomPropertyValue}
+### getCustomPropertyValue {#getCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | getCustomPropertyValue (String, java.lang.String[]) | Gets a named string value from the custom properties. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -312,13 +312,13 @@ String
 ---
 
 
-###getCustomPropertyValue{#getCustomPropertyValue}
+### getCustomPropertyValue {#getCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | getCustomPropertyValue (String, float[]) | Gets a named float value from the custom properties. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -329,13 +329,13 @@ String
 ---
 
 
-###getCustomPropertyValue{#getCustomPropertyValue}
+### getCustomPropertyValue {#getCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | getCustomPropertyValue (String, double[]) | Gets a named double value from the custom properties. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -346,7 +346,7 @@ String
 ---
 
 
-###getHyperlinkBase{#getHyperlinkBase}
+### getHyperlinkBase {#getHyperlinkBase}
 
 | Name | Description |
 | --- | --- |
@@ -359,7 +359,7 @@ String
 ---
 
 
-###getKeywords{#getKeywords}
+### getKeywords {#getKeywords}
 
 | Name | Description |
 | --- | --- |
@@ -372,7 +372,7 @@ String
 ---
 
 
-###getLastPrinted{#getLastPrinted}
+### getLastPrinted {#getLastPrinted}
 
 | Name | Description |
 | --- | --- |
@@ -385,7 +385,7 @@ Date
 ---
 
 
-###getLastSavedBy{#getLastSavedBy}
+### getLastSavedBy {#getLastSavedBy}
 
 | Name | Description |
 | --- | --- |
@@ -398,7 +398,7 @@ String
 ---
 
 
-###getLastSavedTime{#getLastSavedTime}
+### getLastSavedTime {#getLastSavedTime}
 
 | Name | Description |
 | --- | --- |
@@ -411,7 +411,7 @@ Date
 ---
 
 
-###getManager{#getManager}
+### getManager {#getManager}
 
 | Name | Description |
 | --- | --- |
@@ -424,7 +424,7 @@ String
 ---
 
 
-###getNameOfApplication{#getNameOfApplication}
+### getNameOfApplication {#getNameOfApplication}
 
 | Name | Description |
 | --- | --- |
@@ -437,7 +437,7 @@ String
 ---
 
 
-###getPresentationFormat{#getPresentationFormat}
+### getPresentationFormat {#getPresentationFormat}
 
 | Name | Description |
 | --- | --- |
@@ -450,7 +450,7 @@ String
 ---
 
 
-###getRevisionNumber{#getRevisionNumber}
+### getRevisionNumber {#getRevisionNumber}
 
 | Name | Description |
 | --- | --- |
@@ -463,7 +463,7 @@ int
 ---
 
 
-###getSharedDoc{#getSharedDoc}
+### getSharedDoc {#getSharedDoc}
 
 | Name | Description |
 | --- | --- |
@@ -476,7 +476,7 @@ boolean
 ---
 
 
-###getSubject{#getSubject}
+### getSubject {#getSubject}
 
 | Name | Description |
 | --- | --- |
@@ -489,7 +489,7 @@ String
 ---
 
 
-###getTitle{#getTitle}
+### getTitle {#getTitle}
 
 | Name | Description |
 | --- | --- |
@@ -502,7 +502,7 @@ String
 ---
 
 
-###getTotalEditingTime{#getTotalEditingTime}
+### getTotalEditingTime {#getTotalEditingTime}
 
 | Name | Description |
 | --- | --- |
@@ -515,7 +515,7 @@ double
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -528,13 +528,13 @@ Object
 ---
 
 
-###removeCustomProperty{#removeCustomProperty}
+### removeCustomProperty {#removeCustomProperty}
 
 | Name | Description |
 | --- | --- |
 | removeCustomProperty (String) | Remove a custom property associated with a specified name. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -547,7 +547,7 @@ boolean
 ---
 
 
-###setApplicationTemplate{#setApplicationTemplate}
+### setApplicationTemplate {#setApplicationTemplate}
 
 | Name | Description |
 | --- | --- |
@@ -557,7 +557,7 @@ boolean
 ---
 
 
-###setAuthor{#setAuthor}
+### setAuthor {#setAuthor}
 
 | Name | Description |
 | --- | --- |
@@ -567,7 +567,7 @@ boolean
 ---
 
 
-###setCategory{#setCategory}
+### setCategory {#setCategory}
 
 | Name | Description |
 | --- | --- |
@@ -577,7 +577,7 @@ boolean
 ---
 
 
-###setComments{#setComments}
+### setComments {#setComments}
 
 | Name | Description |
 | --- | --- |
@@ -587,7 +587,7 @@ boolean
 ---
 
 
-###setCompany{#setCompany}
+### setCompany {#setCompany}
 
 | Name | Description |
 | --- | --- |
@@ -597,7 +597,7 @@ boolean
 ---
 
 
-###setContentStatus{#setContentStatus}
+### setContentStatus {#setContentStatus}
 
 | Name | Description |
 | --- | --- |
@@ -607,7 +607,7 @@ boolean
 ---
 
 
-###setContentType{#setContentType}
+### setContentType {#setContentType}
 
 | Name | Description |
 | --- | --- |
@@ -617,7 +617,7 @@ boolean
 ---
 
 
-###setCreatedTime{#setCreatedTime}
+### setCreatedTime {#setCreatedTime}
 
 | Name | Description |
 | --- | --- |
@@ -627,13 +627,13 @@ boolean
 ---
 
 
-###setCustomPropertyValue{#setCustomPropertyValue}
+### setCustomPropertyValue {#setCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | setCustomPropertyValue (String, boolean) | Sets a named boolean custom property. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -644,13 +644,13 @@ boolean
 ---
 
 
-###setCustomPropertyValue{#setCustomPropertyValue}
+### setCustomPropertyValue {#setCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | setCustomPropertyValue (String, int) | Sets a named integer custom property. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -661,13 +661,13 @@ boolean
 ---
 
 
-###setCustomPropertyValue{#setCustomPropertyValue}
+### setCustomPropertyValue {#setCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | setCustomPropertyValue (String, Date) | Sets a named DateTime custom property. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -678,13 +678,13 @@ boolean
 ---
 
 
-###setCustomPropertyValue{#setCustomPropertyValue}
+### setCustomPropertyValue {#setCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | setCustomPropertyValue (String, String) | Sets a named string custom property. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -695,13 +695,13 @@ boolean
 ---
 
 
-###setCustomPropertyValue{#setCustomPropertyValue}
+### setCustomPropertyValue {#setCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | setCustomPropertyValue (String, float) | Sets a named float custom property. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -712,13 +712,13 @@ boolean
 ---
 
 
-###setCustomPropertyValue{#setCustomPropertyValue}
+### setCustomPropertyValue {#setCustomPropertyValue}
 
 | Name | Description |
 | --- | --- |
 | setCustomPropertyValue (String, double) | Sets a named double custom property. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -729,7 +729,7 @@ boolean
 ---
 
 
-###setHyperlinkBase{#setHyperlinkBase}
+### setHyperlinkBase {#setHyperlinkBase}
 
 | Name | Description |
 | --- | --- |
@@ -739,7 +739,7 @@ boolean
 ---
 
 
-###setKeywords{#setKeywords}
+### setKeywords {#setKeywords}
 
 | Name | Description |
 | --- | --- |
@@ -749,7 +749,7 @@ boolean
 ---
 
 
-###setLastPrinted{#setLastPrinted}
+### setLastPrinted {#setLastPrinted}
 
 | Name | Description |
 | --- | --- |
@@ -759,7 +759,7 @@ boolean
 ---
 
 
-###setLastSavedBy{#setLastSavedBy}
+### setLastSavedBy {#setLastSavedBy}
 
 | Name | Description |
 | --- | --- |
@@ -769,7 +769,7 @@ boolean
 ---
 
 
-###setLastSavedTime{#setLastSavedTime}
+### setLastSavedTime {#setLastSavedTime}
 
 | Name | Description |
 | --- | --- |
@@ -779,7 +779,7 @@ boolean
 ---
 
 
-###setManager{#setManager}
+### setManager {#setManager}
 
 | Name | Description |
 | --- | --- |
@@ -789,7 +789,7 @@ boolean
 ---
 
 
-###setNameOfApplication{#setNameOfApplication}
+### setNameOfApplication {#setNameOfApplication}
 
 | Name | Description |
 | --- | --- |
@@ -799,7 +799,7 @@ boolean
 ---
 
 
-###setPresentationFormat{#setPresentationFormat}
+### setPresentationFormat {#setPresentationFormat}
 
 | Name | Description |
 | --- | --- |
@@ -809,7 +809,7 @@ boolean
 ---
 
 
-###setRevisionNumber{#setRevisionNumber}
+### setRevisionNumber {#setRevisionNumber}
 
 | Name | Description |
 | --- | --- |
@@ -819,7 +819,7 @@ boolean
 ---
 
 
-###setSharedDoc{#setSharedDoc}
+### setSharedDoc {#setSharedDoc}
 
 | Name | Description |
 | --- | --- |
@@ -829,7 +829,7 @@ boolean
 ---
 
 
-###setSubject{#setSubject}
+### setSubject {#setSubject}
 
 | Name | Description |
 | --- | --- |
@@ -839,7 +839,7 @@ boolean
 ---
 
 
-###setTitle{#setTitle}
+### setTitle {#setTitle}
 
 | Name | Description |
 | --- | --- |
@@ -849,7 +849,7 @@ boolean
 ---
 
 
-###setTotalEditingTime{#setTotalEditingTime}
+### setTotalEditingTime {#setTotalEditingTime}
 
 | Name | Description |
 | --- | --- |
@@ -859,7 +859,7 @@ boolean
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |

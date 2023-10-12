@@ -11,7 +11,7 @@ url: /aspose.slides/sectionzoomframe/
 
  Represents a Section Zoom object in a slide.
  
-###getTargetSection{#getTargetSection}
+### getTargetSection {#getTargetSection}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/sectionzoomframe/
 ---
 
 
-###setTargetSection{#setTargetSection}
+### setTargetSection {#setTargetSection}
 
 | Name | Description |
 | --- | --- |

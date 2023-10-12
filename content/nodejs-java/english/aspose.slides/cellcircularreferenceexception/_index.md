@@ -12,7 +12,7 @@ url: /aspose.slides/cellcircularreferenceexception/
  The exception that is thrown when one or more circular references are detected where a formula refers to its
  own cell either directly or indirectly.
  
-###CellCircularReferenceException{#CellCircularReferenceException}
+### CellCircularReferenceException {#CellCircularReferenceException}
 
 | Name | Description |
 | --- | --- |
@@ -25,13 +25,13 @@ CellCircularReferenceException
 ---
 
 
-###CellCircularReferenceException{#CellCircularReferenceException}
+### CellCircularReferenceException {#CellCircularReferenceException}
 
 | Name | Description |
 | --- | --- |
 | CellCircularReferenceException(String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -44,13 +44,13 @@ CellCircularReferenceException
 ---
 
 
-###CellCircularReferenceException{#CellCircularReferenceException}
+### CellCircularReferenceException {#CellCircularReferenceException}
 
 | Name | Description |
 | --- | --- |
 | CellCircularReferenceException(String, RuntimeException) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -64,13 +64,13 @@ CellCircularReferenceException
 ---
 
 
-###CellCircularReferenceException{#CellCircularReferenceException}
+### CellCircularReferenceException {#CellCircularReferenceException}
 
 | Name | Description |
 | --- | --- |
 | CellCircularReferenceException(String, String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and circular cell reference. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ CellCircularReferenceException
 ---
 
 
-###getReference{#getReference}
+### getReference {#getReference}
 
 | Name | Description |
 | --- | --- |

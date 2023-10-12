@@ -11,7 +11,7 @@ url: /aspose.slides/datatable/
 
  Represents data table properties.
  
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/datatable/
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/datatable/
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/datatable/
 ---
 
 
-###getShowLegendKey{#getShowLegendKey}
+### getShowLegendKey {#getShowLegendKey}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getTextFormat{#getTextFormat}
+### getTextFormat {#getTextFormat}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###hasBorderHorizontal{#hasBorderHorizontal}
+### hasBorderHorizontal {#hasBorderHorizontal}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###hasBorderOutline{#hasBorderOutline}
+### hasBorderOutline {#hasBorderOutline}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###hasBorderVertical{#hasBorderVertical}
+### hasBorderVertical {#hasBorderVertical}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-###setBorderHorizontal{#setBorderHorizontal}
+### setBorderHorizontal {#setBorderHorizontal}
 
 | Name | Description |
 | --- | --- |
@@ -138,7 +138,7 @@ boolean
 ---
 
 
-###setBorderOutline{#setBorderOutline}
+### setBorderOutline {#setBorderOutline}
 
 | Name | Description |
 | --- | --- |
@@ -148,7 +148,7 @@ boolean
 ---
 
 
-###setBorderVertical{#setBorderVertical}
+### setBorderVertical {#setBorderVertical}
 
 | Name | Description |
 | --- | --- |
@@ -158,7 +158,7 @@ boolean
 ---
 
 
-###setShowLegendKey{#setShowLegendKey}
+### setShowLegendKey {#setShowLegendKey}
 
 | Name | Description |
 | --- | --- |

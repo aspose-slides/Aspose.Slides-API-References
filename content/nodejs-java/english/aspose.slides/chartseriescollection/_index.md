@@ -11,13 +11,13 @@ url: /aspose.slides/chartseriescollection/
 
  Represents collection of   ChartSeries
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (int) | Creates new chart series and adds it to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ url: /aspose.slides/chartseriescollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([ChartDataCell](../chartdatacell), int) | Creates new chart series from ChartDataCell and adds it to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -50,13 +50,13 @@ url: /aspose.slides/chartseriescollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([ChartCellCollection](../chartcellcollection), int) | Creates new chart series from ChartCellCollection and adds it to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -70,13 +70,13 @@ url: /aspose.slides/chartseriescollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String, int) | Creates new chart series from value and adds it to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -90,7 +90,7 @@ url: /aspose.slides/chartseriescollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -100,7 +100,7 @@ url: /aspose.slides/chartseriescollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -113,7 +113,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -132,13 +132,13 @@ Object
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([ChartSeries](../chartseries)) | Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -151,7 +151,7 @@ int
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
@@ -164,7 +164,7 @@ int
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -177,7 +177,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -190,7 +190,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -203,13 +203,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([ChartSeries](../chartseries)) | Removes the specified value. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -225,13 +225,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes an ActiveX control stored at specified position from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -241,7 +241,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

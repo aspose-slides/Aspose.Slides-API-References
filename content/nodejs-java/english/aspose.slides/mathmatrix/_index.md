@@ -14,13 +14,13 @@ url: /aspose.slides/mathmatrix/
  To place the matrix in the brackets you should use the delimiter object (IMathDelimiter).
  Null arguments can be used to create gaps in matrices.
  
-###MathMatrix{#MathMatrix}
+### MathMatrix {#MathMatrix}
 
 | Name | Description |
 | --- | --- |
 | MathMatrix(int, int) | Initializes a new instance of the MathMatrix class. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -34,13 +34,13 @@ MathMatrix
 ---
 
 
-###deleteColumn{#deleteColumn}
+### deleteColumn {#deleteColumn}
 
 | Name | Description |
 | --- | --- |
 | deleteColumn (int) | Deletes the specified column |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -56,13 +56,13 @@ MathMatrix
 ---
 
 
-###deleteRow{#deleteRow}
+### deleteRow {#deleteRow}
 
 | Name | Description |
 | --- | --- |
 | deleteRow (int) | Deletes the specified row |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -78,7 +78,7 @@ MathMatrix
 ---
 
 
-###getBaseJustification{#getBaseJustification}
+### getBaseJustification {#getBaseJustification}
 
 | Name | Description |
 | --- | --- |
@@ -91,26 +91,26 @@ int
 ---
 
 
-###getChildren{#getChildren}
+### getChildren {#getChildren}
 
 | Name | Description |
 | --- | --- |
 | getChildren () | Get children elements |
 
  **Result**
-[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
 
 
-###getColumnAlignment{#getColumnAlignment}
+### getColumnAlignment {#getColumnAlignment}
 
 | Name | Description |
 | --- | --- |
 | getColumnAlignment (int) | Get the horizontal alignment of the specified column |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -123,7 +123,7 @@ int
 ---
 
 
-###getColumnCount{#getColumnCount}
+### getColumnCount {#getColumnCount}
 
 | Name | Description |
 | --- | --- |
@@ -136,7 +136,7 @@ int
 ---
 
 
-###getColumnGap{#getColumnGap}
+### getColumnGap {#getColumnGap}
 
 | Name | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ long
 ---
 
 
-###getColumnGapRule{#getColumnGapRule}
+### getColumnGapRule {#getColumnGapRule}
 
 | Name | Description |
 | --- | --- |
@@ -162,7 +162,7 @@ int
 ---
 
 
-###getHidePlaceholders{#getHidePlaceholders}
+### getHidePlaceholders {#getHidePlaceholders}
 
 | Name | Description |
 | --- | --- |
@@ -175,7 +175,7 @@ boolean
 ---
 
 
-###getMinColumnWidth{#getMinColumnWidth}
+### getMinColumnWidth {#getMinColumnWidth}
 
 | Name | Description |
 | --- | --- |
@@ -188,7 +188,7 @@ long
 ---
 
 
-###getRowCount{#getRowCount}
+### getRowCount {#getRowCount}
 
 | Name | Description |
 | --- | --- |
@@ -201,7 +201,7 @@ int
 ---
 
 
-###getRowGap{#getRowGap}
+### getRowGap {#getRowGap}
 
 | Name | Description |
 | --- | --- |
@@ -214,7 +214,7 @@ long
 ---
 
 
-###getRowGapRule{#getRowGapRule}
+### getRowGapRule {#getRowGapRule}
 
 | Name | Description |
 | --- | --- |
@@ -227,13 +227,13 @@ int
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (int, int) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -241,19 +241,19 @@ int
 | column | int | The zero-based index of the column to get item |
 
  **Result**
-[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
 
 
-###insertColumnAfter{#insertColumnAfter}
+### insertColumnAfter {#insertColumnAfter}
 
 | Name | Description |
 | --- | --- |
 | insertColumnAfter (int) | Insert a new column after the specified one Initially all elements in the new column are null. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -263,13 +263,13 @@ int
 ---
 
 
-###insertColumnBefore{#insertColumnBefore}
+### insertColumnBefore {#insertColumnBefore}
 
 | Name | Description |
 | --- | --- |
 | insertColumnBefore (int) | Insert a new column before the specified one Initially all elements in the new column are null. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -279,13 +279,13 @@ int
 ---
 
 
-###insertRowAfter{#insertRowAfter}
+### insertRowAfter {#insertRowAfter}
 
 | Name | Description |
 | --- | --- |
 | insertRowAfter (int) | Insert a new row after the specified one Initially all elements in the new row are null. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -295,13 +295,13 @@ int
 ---
 
 
-###insertRowBefore{#insertRowBefore}
+### insertRowBefore {#insertRowBefore}
 
 | Name | Description |
 | --- | --- |
 | insertRowBefore (int) | Insert a new row before the specified one Initially all elements in the new row are null. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -311,7 +311,7 @@ int
 ---
 
 
-###setBaseJustification{#setBaseJustification}
+### setBaseJustification {#setBaseJustification}
 
 | Name | Description |
 | --- | --- |
@@ -321,13 +321,13 @@ int
 ---
 
 
-###setColumnAlignment{#setColumnAlignment}
+### setColumnAlignment {#setColumnAlignment}
 
 | Name | Description |
 | --- | --- |
 | setColumnAlignment (int, int) | Set the horizontal alignment of the specified column |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -338,7 +338,7 @@ int
 ---
 
 
-###setColumnGap{#setColumnGap}
+### setColumnGap {#setColumnGap}
 
 | Name | Description |
 | --- | --- |
@@ -348,7 +348,7 @@ int
 ---
 
 
-###setColumnGapRule{#setColumnGapRule}
+### setColumnGapRule {#setColumnGapRule}
 
 | Name | Description |
 | --- | --- |
@@ -358,13 +358,13 @@ int
 ---
 
 
-###setColumnsAlignment{#setColumnsAlignment}
+### setColumnsAlignment {#setColumnsAlignment}
 
 | Name | Description |
 | --- | --- |
 | setColumnsAlignment (int, long, int) | Set the horizontal alignment of the specified columns |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -376,7 +376,7 @@ int
 ---
 
 
-###setHidePlaceholders{#setHidePlaceholders}
+### setHidePlaceholders {#setHidePlaceholders}
 
 | Name | Description |
 | --- | --- |
@@ -386,7 +386,7 @@ int
 ---
 
 
-###setMinColumnWidth{#setMinColumnWidth}
+### setMinColumnWidth {#setMinColumnWidth}
 
 | Name | Description |
 | --- | --- |
@@ -396,7 +396,7 @@ int
 ---
 
 
-###setRowGap{#setRowGap}
+### setRowGap {#setRowGap}
 
 | Name | Description |
 | --- | --- |
@@ -406,7 +406,7 @@ int
 ---
 
 
-###setRowGapRule{#setRowGapRule}
+### setRowGapRule {#setRowGapRule}
 
 | Name | Description |
 | --- | --- |
@@ -416,13 +416,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathLimit](../mathlimit)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -433,13 +433,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathBorderBox](../mathborderbox)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -450,13 +450,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathFraction](../mathfraction)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -467,13 +467,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathDelimiter](../mathdelimiter)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -484,13 +484,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathSuperscriptElement](../mathsuperscriptelement)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -501,13 +501,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -518,13 +518,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -535,13 +535,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathBox](../mathbox)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -552,13 +552,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathMatrix](../mathmatrix)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -569,30 +569,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathArray](../matharray)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -603,13 +586,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathBlock](../mathblock)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -620,13 +603,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -637,13 +620,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathFunction](../mathfunction)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -654,13 +637,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, [MathNaryOperator](../mathnaryoperator)) | Element of matrix |
+| set_Item (int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -671,13 +654,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -688,13 +671,30 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item (int, int, [MathNaryOperator](../mathnaryoperator)) | Element of matrix |
+
+ **Parameters**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathAccent](../mathaccent)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -705,13 +705,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathRadical](../mathradical)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -722,13 +722,13 @@ int
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, int, [MathBar](../mathbar)) | Element of matrix |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

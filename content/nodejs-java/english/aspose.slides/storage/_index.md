@@ -11,7 +11,7 @@ url: /aspose.slides/storage/
 
  Represents a temporary data storage for  WebDocument.
  
-###Storage{#Storage}
+### Storage {#Storage}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ Storage
 ---
 
 
-###containsKey{#containsKey}
+### containsKey {#containsKey}
 
 | Name | Description |
 | --- | --- |
 | containsKey (String) | Determines whether the storage contains an element with the specified key. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ boolean
 ---
 
 
-###get{#get}
+### get {#get}
 
 | Name | Description |
 | --- | --- |
 | get (String) | Gets the data from the storage. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -62,13 +62,13 @@ TValue
 ---
 
 
-###put{#put}
+### put {#put}
 
 | Name | Description |
 | --- | --- |
 | put (String, TValue) | Puts the value into the storage. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

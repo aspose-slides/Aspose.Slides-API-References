@@ -13,7 +13,7 @@ url: /aspose.slides/portionfactory/
  
  For COM comparibility
  
-###PortionFactory{#PortionFactory}
+### PortionFactory {#PortionFactory}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ PortionFactory
 ---
 
 
-###createPortion{#createPortion}
+### createPortion {#createPortion}
 
 | Name | Description |
 | --- | --- |
@@ -39,13 +39,13 @@ PortionFactory
 ---
 
 
-###createPortion{#createPortion}
+### createPortion {#createPortion}
 
 | Name | Description |
 | --- | --- |
 | createPortion (String) | Creates a text portion from specified string. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -58,13 +58,13 @@ PortionFactory
 ---
 
 
-###createPortion{#createPortion}
+### createPortion {#createPortion}
 
 | Name | Description |
 | --- | --- |
 | createPortion ([Portion](../portion)) | Creates a portion with the using of a specified portion data. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -77,13 +77,13 @@ PortionFactory
 ---
 
 
-###createPortion{#createPortion}
+### createPortion {#createPortion}
 
 | Name | Description |
 | --- | --- |
 | createPortion ([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

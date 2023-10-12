@@ -12,13 +12,13 @@ url: /aspose.slides/alphainverse/
  Represents an Alpha Inverse effect.
  Alpha (opacity) values are inverted by subtracting from 100%.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ boolean
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ AlphaInverseEffectiveData
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -57,7 +57,7 @@ long
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/point/
 
  Represent animation point.
  
-###Point{#Point}
+### Point {#Point}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ Point
 ---
 
 
-###Point{#Point}
+### Point {#Point}
 
 | Name | Description |
 | --- | --- |
 | Point(float, Object, String) | Create animation point with time, value and formula. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Point
 ---
 
 
-###getFormula{#getFormula}
+### getFormula {#getFormula}
 
 | Name | Description |
 | --- | --- |
@@ -58,7 +58,7 @@ String
 ---
 
 
-###getTime{#getTime}
+### getTime {#getTime}
 
 | Name | Description |
 | --- | --- |
@@ -71,7 +71,7 @@ float
 ---
 
 
-###getValue{#getValue}
+### getValue {#getValue}
 
 | Name | Description |
 | --- | --- |
@@ -84,7 +84,7 @@ Object
 ---
 
 
-###setFormula{#setFormula}
+### setFormula {#setFormula}
 
 | Name | Description |
 | --- | --- |
@@ -94,7 +94,7 @@ Object
 ---
 
 
-###setTime{#setTime}
+### setTime {#setTime}
 
 | Name | Description |
 | --- | --- |
@@ -104,7 +104,7 @@ Object
 ---
 
 
-###setValue{#setValue}
+### setValue {#setValue}
 
 | Name | Description |
 | --- | --- |

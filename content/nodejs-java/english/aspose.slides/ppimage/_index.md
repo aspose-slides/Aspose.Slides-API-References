@@ -11,7 +11,7 @@ url: /aspose.slides/ppimage/
 
  Represents an image in a presentation.
  
-###dispose{#dispose}
+### dispose {#dispose}
 
 | Name | Description |
 | --- | --- |
@@ -21,7 +21,7 @@ url: /aspose.slides/ppimage/
 ---
 
 
-###getBinaryData{#getBinaryData}
+### getBinaryData {#getBinaryData}
 
 | Name | Description |
 | --- | --- |
@@ -34,7 +34,7 @@ byte
 ---
 
 
-###getContentType{#getContentType}
+### getContentType {#getContentType}
 
 | Name | Description |
 | --- | --- |
@@ -47,7 +47,7 @@ String
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ int
 ---
 
 
-###getSvgImage{#getSvgImage}
+### getSvgImage {#getSvgImage}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ int
 ---
 
 
-###getSystemImage{#getSystemImage}
+### getSystemImage {#getSystemImage}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ BufferedImage
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ int
 ---
 
 
-###getX{#getX}
+### getX {#getX}
 
 | Name | Description |
 | --- | --- |
@@ -112,7 +112,7 @@ int
 ---
 
 
-###getY{#getY}
+### getY {#getY}
 
 | Name | Description |
 | --- | --- |
@@ -125,7 +125,7 @@ int
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -138,13 +138,13 @@ int
 ---
 
 
-###replaceImage{#replaceImage}
+### replaceImage {#replaceImage}
 
 | Name | Description |
 | --- | --- |
 | replaceImage (byte[]) | Replaces image data. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -160,13 +160,13 @@ int
 ---
 
 
-###replaceImage{#replaceImage}
+### replaceImage {#replaceImage}
 
 | Name | Description |
 | --- | --- |
 | replaceImage ([PPImage](../ppimage)) | Replaces image data. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -182,7 +182,7 @@ int
 ---
 
 
-###setSvgImage{#setSvgImage}
+### setSvgImage {#setSvgImage}
 
 | Name | Description |
 | --- | --- |

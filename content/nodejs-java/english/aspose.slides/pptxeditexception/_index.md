@@ -11,7 +11,7 @@ url: /aspose.slides/pptxeditexception/
 
  Represents an exception thrown when edit presentation error is detected.
  
-###PptxEditException{#PptxEditException}
+### PptxEditException {#PptxEditException}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ PptxEditException
 ---
 
 
-###PptxEditException{#PptxEditException}
+### PptxEditException {#PptxEditException}
 
 | Name | Description |
 | --- | --- |
 | PptxEditException(String) | Constructor allowing a message to be added to this exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ PptxEditException
 ---
 
 
-###PptxEditException{#PptxEditException}
+### PptxEditException {#PptxEditException}
 
 | Name | Description |
 | --- | --- |
 | PptxEditException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

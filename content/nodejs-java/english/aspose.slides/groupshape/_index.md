@@ -11,7 +11,7 @@ url: /aspose.slides/groupshape/
 
   Represents a group of shapes on a slide.
  
-###getGroupShapeLock{#getGroupShapeLock}
+### getGroupShapeLock {#getGroupShapeLock}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/groupshape/
 ---
 
 
-###getLineFormat{#getLineFormat}
+### getLineFormat {#getLineFormat}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/groupshape/
 ---
 
 
-###getShapes{#getShapes}
+### getShapes {#getShapes}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/xpsoptions/
 
  Provides options that control how a presentation is saved in XPS format.
  
-###XpsOptions{#XpsOptions}
+### XpsOptions {#XpsOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ XpsOptions
 ---
 
 
-###getDrawSlidesFrame{#getDrawSlidesFrame}
+### getDrawSlidesFrame {#getDrawSlidesFrame}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getSaveMetafilesAsPng{#getSaveMetafilesAsPng}
+### getSaveMetafilesAsPng {#getSaveMetafilesAsPng}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getShowHiddenSlides{#getShowHiddenSlides}
+### getShowHiddenSlides {#getShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###setDrawSlidesFrame{#setDrawSlidesFrame}
+### setDrawSlidesFrame {#setDrawSlidesFrame}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ boolean
 ---
 
 
-###setSaveMetafilesAsPng{#setSaveMetafilesAsPng}
+### setSaveMetafilesAsPng {#setSaveMetafilesAsPng}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ boolean
 ---
 
 
-###setShowHiddenSlides{#setShowHiddenSlides}
+### setShowHiddenSlides {#setShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |

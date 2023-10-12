@@ -9,7 +9,7 @@ url: /aspose.slides/currentthreadsettings/
 
 ## CurrentThreadSettings class
 Auxiliary class that allows to define default Locale for current thread
-###CurrentThreadSettings{#CurrentThreadSettings}
+### CurrentThreadSettings {#CurrentThreadSettings}
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,7 @@ CurrentThreadSettings
 ---
 
 
-###getLocale{#getLocale}
+### getLocale {#getLocale}
 
 | Name | Description |
 | --- | --- |
@@ -35,13 +35,13 @@ Locale
 ---
 
 
-###setLocale{#setLocale}
+### setLocale {#setLocale}
 
 | Name | Description |
 | --- | --- |
 | setLocale (Locale) | Sets default Locale for current thread. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -57,13 +57,13 @@ Locale
 ---
 
 
-###setLocale{#setLocale}
+### setLocale {#setLocale}
 
 | Name | Description |
 | --- | --- |
 | setLocale (String) | Sets default Locale for current thread. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

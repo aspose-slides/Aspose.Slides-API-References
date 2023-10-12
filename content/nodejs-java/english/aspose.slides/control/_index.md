@@ -11,7 +11,7 @@ url: /aspose.slides/control/
 
  Represents an ActiveX control.
  
-###getActiveXControlBinary{#getActiveXControlBinary}
+### getActiveXControlBinary {#getActiveXControlBinary}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ byte
 ---
 
 
-###getClassId{#getClassId}
+### getClassId {#getClassId}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ UUID
 ---
 
 
-###getFrame{#getFrame}
+### getFrame {#getFrame}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ UUID
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ String
 ---
 
 
-###getPersistence{#getPersistence}
+### getPersistence {#getPersistence}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getProperties{#getProperties}
+### getProperties {#getProperties}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ int
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ int
 ---
 
 
-###getSubstitutePictureFormat{#getSubstitutePictureFormat}
+### getSubstitutePictureFormat {#getSubstitutePictureFormat}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ int
 ---
 
 
-###setClassId{#setClassId}
+### setClassId {#setClassId}
 
 | Name | Description |
 | --- | --- |
@@ -138,7 +138,7 @@ int
 ---
 
 
-###setFrame{#setFrame}
+### setFrame {#setFrame}
 
 | Name | Description |
 | --- | --- |
@@ -148,7 +148,7 @@ int
 ---
 
 
-###setName{#setName}
+### setName {#setName}
 
 | Name | Description |
 | --- | --- |

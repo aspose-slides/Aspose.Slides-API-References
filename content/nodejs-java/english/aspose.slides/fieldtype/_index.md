@@ -12,7 +12,7 @@ url: /aspose.slides/fieldtype/
  Represents a type of field. 
  This value determines which text will be set to the field portion when it will be updated.
  
-###FieldType{#FieldType}
+### FieldType {#FieldType}
 
 | Name | Description |
 | --- | --- |
@@ -25,13 +25,13 @@ FieldType
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Checks if this field is equal to another. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -44,7 +44,7 @@ boolean
 ---
 
 
-###getDateTime{#getDateTime}
+### getDateTime {#getDateTime}
 
 | Name | Description |
 | --- | --- |
@@ -57,7 +57,7 @@ FieldType
 ---
 
 
-###getDateTime1{#getDateTime1}
+### getDateTime1 {#getDateTime1}
 
 | Name | Description |
 | --- | --- |
@@ -70,7 +70,7 @@ FieldType
 ---
 
 
-###getDateTime10{#getDateTime10}
+### getDateTime10 {#getDateTime10}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ FieldType
 ---
 
 
-###getDateTime11{#getDateTime11}
+### getDateTime11 {#getDateTime11}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ FieldType
 ---
 
 
-###getDateTime12{#getDateTime12}
+### getDateTime12 {#getDateTime12}
 
 | Name | Description |
 | --- | --- |
@@ -109,7 +109,7 @@ FieldType
 ---
 
 
-###getDateTime13{#getDateTime13}
+### getDateTime13 {#getDateTime13}
 
 | Name | Description |
 | --- | --- |
@@ -122,7 +122,7 @@ FieldType
 ---
 
 
-###getDateTime2{#getDateTime2}
+### getDateTime2 {#getDateTime2}
 
 | Name | Description |
 | --- | --- |
@@ -135,7 +135,7 @@ FieldType
 ---
 
 
-###getDateTime3{#getDateTime3}
+### getDateTime3 {#getDateTime3}
 
 | Name | Description |
 | --- | --- |
@@ -148,7 +148,7 @@ FieldType
 ---
 
 
-###getDateTime4{#getDateTime4}
+### getDateTime4 {#getDateTime4}
 
 | Name | Description |
 | --- | --- |
@@ -161,7 +161,7 @@ FieldType
 ---
 
 
-###getDateTime5{#getDateTime5}
+### getDateTime5 {#getDateTime5}
 
 | Name | Description |
 | --- | --- |
@@ -174,7 +174,7 @@ FieldType
 ---
 
 
-###getDateTime6{#getDateTime6}
+### getDateTime6 {#getDateTime6}
 
 | Name | Description |
 | --- | --- |
@@ -187,7 +187,7 @@ FieldType
 ---
 
 
-###getDateTime7{#getDateTime7}
+### getDateTime7 {#getDateTime7}
 
 | Name | Description |
 | --- | --- |
@@ -200,7 +200,7 @@ FieldType
 ---
 
 
-###getDateTime8{#getDateTime8}
+### getDateTime8 {#getDateTime8}
 
 | Name | Description |
 | --- | --- |
@@ -213,7 +213,7 @@ FieldType
 ---
 
 
-###getDateTime9{#getDateTime9}
+### getDateTime9 {#getDateTime9}
 
 | Name | Description |
 | --- | --- |
@@ -226,7 +226,7 @@ FieldType
 ---
 
 
-###getFooter{#getFooter}
+### getFooter {#getFooter}
 
 | Name | Description |
 | --- | --- |
@@ -239,7 +239,7 @@ FieldType
 ---
 
 
-###getHeader{#getHeader}
+### getHeader {#getHeader}
 
 | Name | Description |
 | --- | --- |
@@ -252,7 +252,7 @@ FieldType
 ---
 
 
-###getInternalString{#getInternalString}
+### getInternalString {#getInternalString}
 
 | Name | Description |
 | --- | --- |
@@ -265,7 +265,7 @@ String
 ---
 
 
-###getSlideNumber{#getSlideNumber}
+### getSlideNumber {#getSlideNumber}
 
 | Name | Description |
 | --- | --- |
@@ -278,7 +278,7 @@ FieldType
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -291,13 +291,13 @@ int
 ---
 
 
-###op_Equality{#op_Equality}
+### op_Equality {#op_Equality}
 
 | Name | Description |
 | --- | --- |
 | op_Equality ([FieldType](../fieldtype), [FieldType](../fieldtype)) | Checks if two FieldType objects is equal. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -311,13 +311,13 @@ boolean
 ---
 
 
-###op_Inequality{#op_Inequality}
+### op_Inequality {#op_Inequality}
 
 | Name | Description |
 | --- | --- |
 | op_Inequality ([FieldType](../fieldtype), [FieldType](../fieldtype)) | Checks if two FieldType objects is inequal. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -331,7 +331,7 @@ boolean
 ---
 
 
-###setInternalString{#setInternalString}
+### setInternalString {#setInternalString}
 
 | Name | Description |
 | --- | --- |

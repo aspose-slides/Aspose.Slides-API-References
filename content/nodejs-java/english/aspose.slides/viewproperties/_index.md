@@ -11,7 +11,7 @@ url: /aspose.slides/viewproperties/
 
  Presentation wide view properties.
  
-###getLastView{#getLastView}
+### getLastView {#getLastView}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getNormalViewProperties{#getNormalViewProperties}
+### getNormalViewProperties {#getNormalViewProperties}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getNotesViewProperties{#getNotesViewProperties}
+### getNotesViewProperties {#getNotesViewProperties}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getShowComments{#getShowComments}
+### getShowComments {#getShowComments}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ byte
 ---
 
 
-###getSlideViewProperties{#getSlideViewProperties}
+### getSlideViewProperties {#getSlideViewProperties}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ byte
 ---
 
 
-###setLastView{#setLastView}
+### setLastView {#setLastView}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ byte
 ---
 
 
-###setShowComments{#setShowComments}
+### setShowComments {#setShowComments}
 
 | Name | Description |
 | --- | --- |

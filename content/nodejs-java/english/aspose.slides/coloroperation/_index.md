@@ -12,13 +12,13 @@ url: /aspose.slides/coloroperation/
  Represents different color operations used for color transformations.
  Immutable object.
  
-###ColorOperation{#ColorOperation}
+### ColorOperation {#ColorOperation}
 
 | Name | Description |
 | --- | --- |
 | ColorOperation(int) | Creates new color transform operation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +31,13 @@ ColorOperation
 ---
 
 
-###ColorOperation{#ColorOperation}
+### ColorOperation {#ColorOperation}
 
 | Name | Description |
 | --- | --- |
 | ColorOperation(int, float) | Creates new color transform operation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -51,13 +51,13 @@ ColorOperation
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the two ColorOperation instances are equal. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ boolean
 ---
 
 
-###getOperationType{#getOperationType}
+### getOperationType {#getOperationType}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ int
 ---
 
 
-###getParameter{#getParameter}
+### getParameter {#getParameter}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ float
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

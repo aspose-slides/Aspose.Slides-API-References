@@ -11,7 +11,7 @@ url: /aspose.slides/moderncomment/
 
  Represents a comment on a slide.
  
-###getShape{#getShape}
+### getShape {#getShape}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/moderncomment/
 ---
 
 
-###getStatus{#getStatus}
+### getStatus {#getStatus}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ byte
 ---
 
 
-###getTextSelectionLength{#getTextSelectionLength}
+### getTextSelectionLength {#getTextSelectionLength}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getTextSelectionStart{#getTextSelectionStart}
+### getTextSelectionStart {#getTextSelectionStart}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###setStatus{#setStatus}
+### setStatus {#setStatus}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ int
 ---
 
 
-###setTextSelectionLength{#setTextSelectionLength}
+### setTextSelectionLength {#setTextSelectionLength}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ int
 ---
 
 
-###setTextSelectionStart{#setTextSelectionStart}
+### setTextSelectionStart {#setTextSelectionStart}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/backdrop3dscene/
 
  Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to.
  
-###getAnchorPoint{#getAnchorPoint}
+### getAnchorPoint {#getAnchorPoint}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ float
 ---
 
 
-###getNormalVector{#getNormalVector}
+### getNormalVector {#getNormalVector}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getUpVector{#getUpVector}
+### getUpVector {#getUpVector}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ long
 ---
 
 
-###setAnchorPoint{#setAnchorPoint}
+### setAnchorPoint {#setAnchorPoint}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ long
 ---
 
 
-###setNormalVector{#setNormalVector}
+### setNormalVector {#setNormalVector}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ long
 ---
 
 
-###setUpVector{#setUpVector}
+### setUpVector {#setUpVector}
 
 | Name | Description |
 | --- | --- |

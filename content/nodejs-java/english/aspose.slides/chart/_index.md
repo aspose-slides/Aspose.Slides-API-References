@@ -11,7 +11,7 @@ url: /aspose.slides/chart/
 
  Represents an graphic chart on a slide.
  
-###createThemeEffective{#createThemeEffective}
+### createThemeEffective {#createThemeEffective}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ ThemeEffectiveData
 ---
 
 
-###getAxes{#getAxes}
+### getAxes {#getAxes}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ ThemeEffectiveData
 ---
 
 
-###getBackWall{#getBackWall}
+### getBackWall {#getBackWall}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ ThemeEffectiveData
 ---
 
 
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ ThemeEffectiveData
 ---
 
 
-###getChartData{#getChartData}
+### getChartData {#getChartData}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ ThemeEffectiveData
 ---
 
 
-###getChartDataTable{#getChartDataTable}
+### getChartDataTable {#getChartDataTable}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ ThemeEffectiveData
 ---
 
 
-###getChartTitle{#getChartTitle}
+### getChartTitle {#getChartTitle}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ ThemeEffectiveData
 ---
 
 
-###getDisplayBlanksAs{#getDisplayBlanksAs}
+### getDisplayBlanksAs {#getDisplayBlanksAs}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ int
 ---
 
 
-###getFloor{#getFloor}
+### getFloor {#getFloor}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ int
 ---
 
 
-###getLegend{#getLegend}
+### getLegend {#getLegend}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ int
 ---
 
 
-###getPlotArea{#getPlotArea}
+### getPlotArea {#getPlotArea}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ int
 ---
 
 
-###getPlotVisibleCellsOnly{#getPlotVisibleCellsOnly}
+### getPlotVisibleCellsOnly {#getPlotVisibleCellsOnly}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ boolean
 ---
 
 
-###getRotation3D{#getRotation3D}
+### getRotation3D {#getRotation3D}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ boolean
 ---
 
 
-###getShowDataLabelsOverMaximum{#getShowDataLabelsOverMaximum}
+### getShowDataLabelsOverMaximum {#getShowDataLabelsOverMaximum}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ boolean
 ---
 
 
-###getSideWall{#getSideWall}
+### getSideWall {#getSideWall}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ boolean
 ---
 
 
-###getStyle{#getStyle}
+### getStyle {#getStyle}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ int
 ---
 
 
-###getTextFormat{#getTextFormat}
+### getTextFormat {#getTextFormat}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ int
 ---
 
 
-###getThemeManager{#getThemeManager}
+### getThemeManager {#getThemeManager}
 
 | Name | Description |
 | --- | --- |
@@ -245,7 +245,7 @@ int
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -258,7 +258,7 @@ int
 ---
 
 
-###getUserShapes{#getUserShapes}
+### getUserShapes {#getUserShapes}
 
 | Name | Description |
 | --- | --- |
@@ -271,7 +271,7 @@ int
 ---
 
 
-###hasDataTable{#hasDataTable}
+### hasDataTable {#hasDataTable}
 
 | Name | Description |
 | --- | --- |
@@ -284,7 +284,7 @@ boolean
 ---
 
 
-###hasLegend{#hasLegend}
+### hasLegend {#hasLegend}
 
 | Name | Description |
 | --- | --- |
@@ -297,7 +297,7 @@ boolean
 ---
 
 
-###hasRoundedCorners{#hasRoundedCorners}
+### hasRoundedCorners {#hasRoundedCorners}
 
 | Name | Description |
 | --- | --- |
@@ -310,7 +310,7 @@ boolean
 ---
 
 
-###hasTitle{#hasTitle}
+### hasTitle {#hasTitle}
 
 | Name | Description |
 | --- | --- |
@@ -323,7 +323,7 @@ boolean
 ---
 
 
-###setDataTable{#setDataTable}
+### setDataTable {#setDataTable}
 
 | Name | Description |
 | --- | --- |
@@ -333,7 +333,7 @@ boolean
 ---
 
 
-###setDisplayBlanksAs{#setDisplayBlanksAs}
+### setDisplayBlanksAs {#setDisplayBlanksAs}
 
 | Name | Description |
 | --- | --- |
@@ -343,7 +343,7 @@ boolean
 ---
 
 
-###setLegend{#setLegend}
+### setLegend {#setLegend}
 
 | Name | Description |
 | --- | --- |
@@ -353,7 +353,7 @@ boolean
 ---
 
 
-###setPlotVisibleCellsOnly{#setPlotVisibleCellsOnly}
+### setPlotVisibleCellsOnly {#setPlotVisibleCellsOnly}
 
 | Name | Description |
 | --- | --- |
@@ -363,7 +363,7 @@ boolean
 ---
 
 
-###setRoundedCorners{#setRoundedCorners}
+### setRoundedCorners {#setRoundedCorners}
 
 | Name | Description |
 | --- | --- |
@@ -373,7 +373,7 @@ boolean
 ---
 
 
-###setShowDataLabelsOverMaximum{#setShowDataLabelsOverMaximum}
+### setShowDataLabelsOverMaximum {#setShowDataLabelsOverMaximum}
 
 | Name | Description |
 | --- | --- |
@@ -383,7 +383,7 @@ boolean
 ---
 
 
-###setStyle{#setStyle}
+### setStyle {#setStyle}
 
 | Name | Description |
 | --- | --- |
@@ -393,7 +393,7 @@ boolean
 ---
 
 
-###setTitle{#setTitle}
+### setTitle {#setTitle}
 
 | Name | Description |
 | --- | --- |
@@ -403,7 +403,7 @@ boolean
 ---
 
 
-###setType{#setType}
+### setType {#setType}
 
 | Name | Description |
 | --- | --- |
@@ -413,7 +413,7 @@ boolean
 ---
 
 
-###validateChartLayout{#validateChartLayout}
+### validateChartLayout {#validateChartLayout}
 
 | Name | Description |
 | --- | --- |

@@ -12,7 +12,7 @@ url: /aspose.slides/normalviewrestoredproperties/
  Specifies the sizing of the slide region ((width when a child of restoredTop, height when a
  child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized).
   
-###getAutoAdjust{#getAutoAdjust}
+### getAutoAdjust {#getAutoAdjust}
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ boolean
 ---
 
 
-###getDimensionSize{#getDimensionSize}
+### getDimensionSize {#getDimensionSize}
 
 | Name | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ float
 ---
 
 
-###setAutoAdjust{#setAutoAdjust}
+### setAutoAdjust {#setAutoAdjust}
 
 | Name | Description |
 | --- | --- |
@@ -54,7 +54,7 @@ float
 ---
 
 
-###setDimensionSize{#setDimensionSize}
+### setDimensionSize {#setDimensionSize}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/rotationeffect/
 
  Represent rotation behavior of effect.
  
-###RotationEffect{#RotationEffect}
+### RotationEffect {#RotationEffect}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ RotationEffect
 ---
 
 
-###getBy{#getBy}
+### getBy {#getBy}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getFrom{#getFrom}
+### getFrom {#getFrom}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getTo{#getTo}
+### getTo {#getTo}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ float
 ---
 
 
-###setBy{#setBy}
+### setBy {#setBy}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ float
 ---
 
 
-###setFrom{#setFrom}
+### setFrom {#setFrom}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ float
 ---
 
 
-###setTo{#setTo}
+### setTo {#setTo}
 
 | Name | Description |
 | --- | --- |

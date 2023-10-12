@@ -11,7 +11,7 @@ url: /aspose.slides/wheeltransition/
 
  Wheel slide transition effect.
  
-###getSpokes{#getSpokes}
+### getSpokes {#getSpokes}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ long
 ---
 
 
-###setSpokes{#setSpokes}
+### setSpokes {#setSpokes}
 
 | Name | Description |
 | --- | --- |

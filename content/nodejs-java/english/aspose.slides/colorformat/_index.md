@@ -11,7 +11,7 @@ url: /aspose.slides/colorformat/
 
  Represents a color used in a presentation.
  
-###copyFrom{#copyFrom}
+### copyFrom {#copyFrom}
 
 | Name | Description |
 | --- | --- |
@@ -21,13 +21,13 @@ url: /aspose.slides/colorformat/
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Checks for equality with specified object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ boolean
 ---
 
 
-###getB{#getB}
+### getB {#getB}
 
 | Name | Description |
 | --- | --- |
@@ -53,7 +53,7 @@ byte
 ---
 
 
-###getColor{#getColor}
+### getColor {#getColor}
 
 | Name | Description |
 | --- | --- |
@@ -66,7 +66,7 @@ Color
 ---
 
 
-###getColorTransform{#getColorTransform}
+### getColorTransform {#getColorTransform}
 
 | Name | Description |
 | --- | --- |
@@ -79,7 +79,7 @@ Color
 ---
 
 
-###getColorType{#getColorType}
+### getColorType {#getColorType}
 
 | Name | Description |
 | --- | --- |
@@ -92,7 +92,7 @@ int
 ---
 
 
-###getFloatB{#getFloatB}
+### getFloatB {#getFloatB}
 
 | Name | Description |
 | --- | --- |
@@ -105,7 +105,7 @@ float
 ---
 
 
-###getFloatG{#getFloatG}
+### getFloatG {#getFloatG}
 
 | Name | Description |
 | --- | --- |
@@ -118,7 +118,7 @@ float
 ---
 
 
-###getFloatR{#getFloatR}
+### getFloatR {#getFloatR}
 
 | Name | Description |
 | --- | --- |
@@ -131,7 +131,7 @@ float
 ---
 
 
-###getG{#getG}
+### getG {#getG}
 
 | Name | Description |
 | --- | --- |
@@ -144,7 +144,7 @@ byte
 ---
 
 
-###getHue{#getHue}
+### getHue {#getHue}
 
 | Name | Description |
 | --- | --- |
@@ -157,7 +157,7 @@ float
 ---
 
 
-###getLuminance{#getLuminance}
+### getLuminance {#getLuminance}
 
 | Name | Description |
 | --- | --- |
@@ -170,33 +170,33 @@ float
 ---
 
 
-###getParent_IPresentationComponent{#getParent_IPresentationComponent}
+### getParent_IPresentationComponent {#getParent_IPresentationComponent}
 
 | Name | Description |
 | --- | --- |
 | getParent_IPresentationComponent () |  |
 
  **Result**
-[MasterTheme](../mastertheme), [PVIObject](../pviobject), [PictureFrame](../pictureframe), [AlphaCeiling](../alphaceiling), [ColorReplace](../colorreplace), [FillFormat](../fillformat), [GrayScale](../grayscale), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [FillOverlay](../filloverlay), [HSL](../hsl), [PatternFormat](../patternformat), [DataLabelCollection](../datalabelcollection), [Duotone](../duotone), [DataLabel](../datalabel), [Tab](../tab), [SummaryZoomFrame](../summaryzoomframe), [ShapeBevel](../shapebevel), [LineFormat](../lineformat), [ColorScheme](../colorscheme), [ChartSeries](../chartseries), [BasePortionFormat](../baseportionformat), [SummaryZoomSection](../summaryzoomsection), [Presentation](../presentation), [OleObjectFrame](../oleobjectframe), [Theme](../theme), [Hyperlink](../hyperlink), [SketchFormat](../sketchformat), [CellFormat](../cellformat), [DataTable](../datatable), [AlphaFloor](../alphafloor), [ParagraphFormat](../paragraphformat), [GroupShape](../groupshape), [NotesSlide](../notesslide), [SmartArtShape](../smartartshape), [GradientFormat](../gradientformat), [MasterHandoutSlide](../masterhandoutslide), [AlphaBiLevel](../alphabilevel), [Trendline](../trendline), [Slide](../slide), [Axis](../axis), [ColorChange](../colorchange), [MasterNotesSlide](../masternotesslide), [Connector](../connector), [LegendEntryProperties](../legendentryproperties), [LightRig](../lightrig), [Ink](../ink), [BaseSlide](../baseslide), [Background](../background), [BiLevel](../bilevel), [Blur](../blur), [VideoFrame](../videoframe), [Row](../row), [DataLabelFormat](../datalabelformat), [Field](../field), [ChartPortionFormat](../chartportionformat), [LayoutSlide](../layoutslide), [LegacyDiagram](../legacydiagram), [ColorFormat](../colorformat), [ThreeDFormat](../threedformat), [GraphicalObject](../graphicalobject), [Shape](../shape), [GradientStop](../gradientstop), [ZoomFrame](../zoomframe), [ChartTitle](../charttitle), [MasterSlide](../masterslide), [CellCollection](../cellcollection), [EffectFormat](../effectformat), [Control](../control), [ChartSeriesGroup](../chartseriesgroup), [ErrorBarsFormat](../errorbarsformat), [Column](../column), [PictureFillFormat](../picturefillformat), [Chart](../chart), [Backdrop3DScene](../backdrop3dscene), [Format](../format), [Portion](../portion), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [AlphaModulate](../alphamodulate), [LineFillFormat](../linefillformat), [ZoomObject](../zoomobject), [BulletFormat](../bulletformat), [Cell](../cell), [Picture](../picture), [FormatScheme](../formatscheme), [AlphaInverse](../alphainverse), [TextFrameFormat](../textframeformat), [TextFrame](../textframe), [Paragraph](../paragraph), [MathPortion](../mathportion), [TextStyle](../textstyle), [OverrideTheme](../overridetheme), [SmartArt](../smartart), [AlphaModulateFixed](../alphamodulatefixed), [ParagraphCollection](../paragraphcollection), [ChartPlotArea](../chartplotarea), [ImageTransformOperationCollection](../imagetransformoperationcollection), [GeometryShape](../geometryshape), [AudioFrame](../audioframe), [GradientStopCollection](../gradientstopcollection), [Tint](../tint), [PortionFormat](../portionformat), [Legend](../legend), [AlphaReplace](../alphareplace), [Table](../table), [Camera](../camera)
+[MasterTheme](../mastertheme), [PVIObject](../pviobject), [PictureFrame](../pictureframe), [AlphaCeiling](../alphaceiling), [ColorReplace](../colorreplace), [FillFormat](../fillformat), [GrayScale](../grayscale), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [CellCollection](../cellcollection), [FillOverlay](../filloverlay), [HSL](../hsl), [PatternFormat](../patternformat), [DataLabelCollection](../datalabelcollection), [Duotone](../duotone), [DataLabel](../datalabel), [Tab](../tab), [SummaryZoomFrame](../summaryzoomframe), [ShapeBevel](../shapebevel), [LineFormat](../lineformat), [ColorScheme](../colorscheme), [ChartSeries](../chartseries), [BasePortionFormat](../baseportionformat), [SummaryZoomSection](../summaryzoomsection), [Presentation](../presentation), [OleObjectFrame](../oleobjectframe), [Theme](../theme), [Hyperlink](../hyperlink), [SketchFormat](../sketchformat), [CellFormat](../cellformat), [DataTable](../datatable), [AlphaFloor](../alphafloor), [ParagraphFormat](../paragraphformat), [GroupShape](../groupshape), [NotesSlide](../notesslide), [SmartArtShape](../smartartshape), [GradientFormat](../gradientformat), [MasterHandoutSlide](../masterhandoutslide), [AlphaBiLevel](../alphabilevel), [Trendline](../trendline), [Slide](../slide), [Axis](../axis), [ColorChange](../colorchange), [MasterNotesSlide](../masternotesslide), [Connector](../connector), [LegendEntryProperties](../legendentryproperties), [LightRig](../lightrig), [Ink](../ink), [BaseSlide](../baseslide), [Background](../background), [BiLevel](../bilevel), [Blur](../blur), [VideoFrame](../videoframe), [Row](../row), [DataLabelFormat](../datalabelformat), [Field](../field), [ChartPortionFormat](../chartportionformat), [TextFrame](../textframe), [LayoutSlide](../layoutslide), [LegacyDiagram](../legacydiagram), [ColorFormat](../colorformat), [ThreeDFormat](../threedformat), [GraphicalObject](../graphicalobject), [Shape](../shape), [GradientStop](../gradientstop), [ZoomFrame](../zoomframe), [ChartTitle](../charttitle), [MasterSlide](../masterslide), [EffectFormat](../effectformat), [Control](../control), [ChartSeriesGroup](../chartseriesgroup), [ErrorBarsFormat](../errorbarsformat), [Column](../column), [PictureFillFormat](../picturefillformat), [Chart](../chart), [Backdrop3DScene](../backdrop3dscene), [Format](../format), [Portion](../portion), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [AlphaModulate](../alphamodulate), [LineFillFormat](../linefillformat), [ZoomObject](../zoomobject), [BulletFormat](../bulletformat), [FormatScheme](../formatscheme), [Cell](../cell), [Picture](../picture), [AlphaInverse](../alphainverse), [TextFrameFormat](../textframeformat), [Paragraph](../paragraph), [MathPortion](../mathportion), [TextStyle](../textstyle), [OverrideTheme](../overridetheme), [SmartArt](../smartart), [AlphaModulateFixed](../alphamodulatefixed), [ParagraphCollection](../paragraphcollection), [ChartPlotArea](../chartplotarea), [ImageTransformOperationCollection](../imagetransformoperationcollection), [GeometryShape](../geometryshape), [AudioFrame](../audioframe), [GradientStopCollection](../gradientstopcollection), [Tint](../tint), [PortionFormat](../portionformat), [Legend](../legend), [AlphaReplace](../alphareplace), [Table](../table), [Camera](../camera)
 
 
 ---
 
 
-###getParent_ISlideComponent{#getParent_ISlideComponent}
+### getParent_ISlideComponent {#getParent_ISlideComponent}
 
 | Name | Description |
 | --- | --- |
 | getParent_ISlideComponent () |  |
 
  **Result**
-[PVIObject](../pviobject), [PictureFrame](../pictureframe), [AlphaCeiling](../alphaceiling), [ColorReplace](../colorreplace), [FillFormat](../fillformat), [GrayScale](../grayscale), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [FillOverlay](../filloverlay), [HSL](../hsl), [PatternFormat](../patternformat), [DataLabelCollection](../datalabelcollection), [Duotone](../duotone), [DataLabel](../datalabel), [Tab](../tab), [SummaryZoomFrame](../summaryzoomframe), [ShapeBevel](../shapebevel), [LineFormat](../lineformat), [ColorScheme](../colorscheme), [ChartSeries](../chartseries), [BasePortionFormat](../baseportionformat), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [Hyperlink](../hyperlink), [SketchFormat](../sketchformat), [CellFormat](../cellformat), [DataTable](../datatable), [AlphaFloor](../alphafloor), [ParagraphFormat](../paragraphformat), [GroupShape](../groupshape), [NotesSlide](../notesslide), [SmartArtShape](../smartartshape), [GradientFormat](../gradientformat), [MasterHandoutSlide](../masterhandoutslide), [AlphaBiLevel](../alphabilevel), [Trendline](../trendline), [Slide](../slide), [Axis](../axis), [ColorChange](../colorchange), [MasterNotesSlide](../masternotesslide), [Connector](../connector), [LegendEntryProperties](../legendentryproperties), [LightRig](../lightrig), [Ink](../ink), [BaseSlide](../baseslide), [Background](../background), [BiLevel](../bilevel), [Blur](../blur), [VideoFrame](../videoframe), [Row](../row), [DataLabelFormat](../datalabelformat), [Field](../field), [ChartPortionFormat](../chartportionformat), [LayoutSlide](../layoutslide), [LegacyDiagram](../legacydiagram), [ColorFormat](../colorformat), [ThreeDFormat](../threedformat), [GraphicalObject](../graphicalobject), [Shape](../shape), [GradientStop](../gradientstop), [ZoomFrame](../zoomframe), [ChartTitle](../charttitle), [MasterSlide](../masterslide), [CellCollection](../cellcollection), [EffectFormat](../effectformat), [Control](../control), [ChartSeriesGroup](../chartseriesgroup), [ErrorBarsFormat](../errorbarsformat), [Column](../column), [PictureFillFormat](../picturefillformat), [Chart](../chart), [Backdrop3DScene](../backdrop3dscene), [Format](../format), [Portion](../portion), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [AlphaModulate](../alphamodulate), [LineFillFormat](../linefillformat), [ZoomObject](../zoomobject), [BulletFormat](../bulletformat), [Cell](../cell), [Picture](../picture), [FormatScheme](../formatscheme), [AlphaInverse](../alphainverse), [TextFrameFormat](../textframeformat), [TextFrame](../textframe), [Paragraph](../paragraph), [MathPortion](../mathportion), [TextStyle](../textstyle), [SmartArt](../smartart), [AlphaModulateFixed](../alphamodulatefixed), [ParagraphCollection](../paragraphcollection), [ChartPlotArea](../chartplotarea), [ImageTransformOperationCollection](../imagetransformoperationcollection), [GeometryShape](../geometryshape), [AudioFrame](../audioframe), [GradientStopCollection](../gradientstopcollection), [Tint](../tint), [PortionFormat](../portionformat), [Legend](../legend), [AlphaReplace](../alphareplace), [Table](../table), [Camera](../camera)
+[PVIObject](../pviobject), [PictureFrame](../pictureframe), [AlphaCeiling](../alphaceiling), [ColorReplace](../colorreplace), [FillFormat](../fillformat), [GrayScale](../grayscale), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [CellCollection](../cellcollection), [FillOverlay](../filloverlay), [HSL](../hsl), [PatternFormat](../patternformat), [DataLabelCollection](../datalabelcollection), [Duotone](../duotone), [DataLabel](../datalabel), [Tab](../tab), [SummaryZoomFrame](../summaryzoomframe), [ShapeBevel](../shapebevel), [LineFormat](../lineformat), [ColorScheme](../colorscheme), [ChartSeries](../chartseries), [BasePortionFormat](../baseportionformat), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [Hyperlink](../hyperlink), [SketchFormat](../sketchformat), [CellFormat](../cellformat), [DataTable](../datatable), [AlphaFloor](../alphafloor), [ParagraphFormat](../paragraphformat), [GroupShape](../groupshape), [NotesSlide](../notesslide), [SmartArtShape](../smartartshape), [GradientFormat](../gradientformat), [MasterHandoutSlide](../masterhandoutslide), [AlphaBiLevel](../alphabilevel), [Trendline](../trendline), [Slide](../slide), [Axis](../axis), [ColorChange](../colorchange), [MasterNotesSlide](../masternotesslide), [Connector](../connector), [LegendEntryProperties](../legendentryproperties), [LightRig](../lightrig), [Ink](../ink), [BaseSlide](../baseslide), [Background](../background), [BiLevel](../bilevel), [Blur](../blur), [VideoFrame](../videoframe), [Row](../row), [DataLabelFormat](../datalabelformat), [Field](../field), [ChartPortionFormat](../chartportionformat), [TextFrame](../textframe), [LayoutSlide](../layoutslide), [LegacyDiagram](../legacydiagram), [ColorFormat](../colorformat), [ThreeDFormat](../threedformat), [GraphicalObject](../graphicalobject), [Shape](../shape), [GradientStop](../gradientstop), [ZoomFrame](../zoomframe), [ChartTitle](../charttitle), [MasterSlide](../masterslide), [EffectFormat](../effectformat), [Control](../control), [ChartSeriesGroup](../chartseriesgroup), [ErrorBarsFormat](../errorbarsformat), [Column](../column), [PictureFillFormat](../picturefillformat), [Chart](../chart), [Backdrop3DScene](../backdrop3dscene), [Format](../format), [Portion](../portion), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [AlphaModulate](../alphamodulate), [LineFillFormat](../linefillformat), [ZoomObject](../zoomobject), [BulletFormat](../bulletformat), [FormatScheme](../formatscheme), [Cell](../cell), [Picture](../picture), [AlphaInverse](../alphainverse), [TextFrameFormat](../textframeformat), [Paragraph](../paragraph), [MathPortion](../mathportion), [TextStyle](../textstyle), [SmartArt](../smartart), [AlphaModulateFixed](../alphamodulatefixed), [ParagraphCollection](../paragraphcollection), [ChartPlotArea](../chartplotarea), [ImageTransformOperationCollection](../imagetransformoperationcollection), [GeometryShape](../geometryshape), [AudioFrame](../audioframe), [GradientStopCollection](../gradientstopcollection), [Tint](../tint), [PortionFormat](../portionformat), [Legend](../legend), [AlphaReplace](../alphareplace), [Table](../table), [Camera](../camera)
 
 
 ---
 
 
-###getPresetColor{#getPresetColor}
+### getPresetColor {#getPresetColor}
 
 | Name | Description |
 | --- | --- |
@@ -209,7 +209,7 @@ int
 ---
 
 
-###getR{#getR}
+### getR {#getR}
 
 | Name | Description |
 | --- | --- |
@@ -222,7 +222,7 @@ byte
 ---
 
 
-###getSaturation{#getSaturation}
+### getSaturation {#getSaturation}
 
 | Name | Description |
 | --- | --- |
@@ -235,7 +235,7 @@ float
 ---
 
 
-###getSchemeColor{#getSchemeColor}
+### getSchemeColor {#getSchemeColor}
 
 | Name | Description |
 | --- | --- |
@@ -248,7 +248,7 @@ int
 ---
 
 
-###getSystemColor{#getSystemColor}
+### getSystemColor {#getSystemColor}
 
 | Name | Description |
 | --- | --- |
@@ -261,7 +261,7 @@ int
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -274,7 +274,7 @@ long
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -287,7 +287,7 @@ int
 ---
 
 
-###setB{#setB}
+### setB {#setB}
 
 | Name | Description |
 | --- | --- |
@@ -297,7 +297,7 @@ int
 ---
 
 
-###setColor{#setColor}
+### setColor {#setColor}
 
 | Name | Description |
 | --- | --- |
@@ -307,7 +307,7 @@ int
 ---
 
 
-###setColorType{#setColorType}
+### setColorType {#setColorType}
 
 | Name | Description |
 | --- | --- |
@@ -317,7 +317,7 @@ int
 ---
 
 
-###setFloatB{#setFloatB}
+### setFloatB {#setFloatB}
 
 | Name | Description |
 | --- | --- |
@@ -327,7 +327,7 @@ int
 ---
 
 
-###setFloatG{#setFloatG}
+### setFloatG {#setFloatG}
 
 | Name | Description |
 | --- | --- |
@@ -337,7 +337,7 @@ int
 ---
 
 
-###setFloatR{#setFloatR}
+### setFloatR {#setFloatR}
 
 | Name | Description |
 | --- | --- |
@@ -347,7 +347,7 @@ int
 ---
 
 
-###setG{#setG}
+### setG {#setG}
 
 | Name | Description |
 | --- | --- |
@@ -357,7 +357,7 @@ int
 ---
 
 
-###setHue{#setHue}
+### setHue {#setHue}
 
 | Name | Description |
 | --- | --- |
@@ -367,7 +367,7 @@ int
 ---
 
 
-###setLuminance{#setLuminance}
+### setLuminance {#setLuminance}
 
 | Name | Description |
 | --- | --- |
@@ -377,7 +377,7 @@ int
 ---
 
 
-###setPresetColor{#setPresetColor}
+### setPresetColor {#setPresetColor}
 
 | Name | Description |
 | --- | --- |
@@ -387,7 +387,7 @@ int
 ---
 
 
-###setR{#setR}
+### setR {#setR}
 
 | Name | Description |
 | --- | --- |
@@ -397,7 +397,7 @@ int
 ---
 
 
-###setSaturation{#setSaturation}
+### setSaturation {#setSaturation}
 
 | Name | Description |
 | --- | --- |
@@ -407,7 +407,7 @@ int
 ---
 
 
-###setSchemeColor{#setSchemeColor}
+### setSchemeColor {#setSchemeColor}
 
 | Name | Description |
 | --- | --- |
@@ -417,7 +417,7 @@ int
 ---
 
 
-###setSystemColor{#setSystemColor}
+### setSystemColor {#setSystemColor}
 
 | Name | Description |
 | --- | --- |
@@ -427,13 +427,13 @@ int
 ---
 
 
-###toString{#toString}
+### toString {#toString}
 
 | Name | Description |
 | --- | --- |
 | toString (int) | Returns a String that represents the current color format. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

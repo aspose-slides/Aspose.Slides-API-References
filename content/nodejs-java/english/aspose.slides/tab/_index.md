@@ -11,13 +11,13 @@ url: /aspose.slides/tab/
 
  Represents a tabulation for a text.
  
-###Tab{#Tab}
+### Tab {#Tab}
 
 | Name | Description |
 | --- | --- |
 | Tab(double, int) | Creates new Tab |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +31,13 @@ Tab
 ---
 
 
-###compareTo{#compareTo}
+### compareTo {#compareTo}
 
 | Name | Description |
 | --- | --- |
 | compareTo (Object) | Compares the current instance with another object of the same type. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getAlignment{#getAlignment}
+### getAlignment {#getAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getPosition{#getPosition}
+### getPosition {#getPosition}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ double
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ long
 ---
 
 
-###setAlignment{#setAlignment}
+### setAlignment {#setAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ long
 ---
 
 
-###setPosition{#setPosition}
+### setPosition {#setPosition}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/effectstyle/
 
  Represents an effect style.
  
-###getEffectFormat{#getEffectFormat}
+### getEffectFormat {#getEffectFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/effectstyle/
 ---
 
 
-###getThreeDFormat{#getThreeDFormat}
+### getThreeDFormat {#getThreeDFormat}
 
 | Name | Description |
 | --- | --- |

@@ -11,13 +11,13 @@ url: /aspose.slides/shapecollection/
 
  Represents a collection of a shapes.
  
-###addAudioFrameCD{#addAudioFrameCD}
+### addAudioFrameCD {#addAudioFrameCD}
 
 | Name | Description |
 | --- | --- |
 | addAudioFrameCD (float, float, float, float) | Adds an AudioFrame with CD to the end of collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -33,13 +33,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addAudioFrameEmbeddedFromStream {#addAudioFrameEmbeddedFromStream }
+### addAudioFrameEmbeddedFromStream  {#addAudioFrameEmbeddedFromStream }
 
 | Name | Description |
 | --- | --- |
 | addAudioFrameEmbeddedFromStream  (ShapeCollection, float, float, float, float,  ReadStream, Function) | Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into Presentation.Audios list. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -58,13 +58,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addAudioFrameEmbedded{#addAudioFrameEmbedded}
+### addAudioFrameEmbedded {#addAudioFrameEmbedded}
 
 | Name | Description |
 | --- | --- |
 | addAudioFrameEmbedded (float, float, float, float, [Audio](../audio)) | Adds a new audio frame with embedded audio file to the end of a collection. It uses audio file from Presentation.Audios list. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -81,13 +81,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addAudioFrameLinked{#addAudioFrameLinked}
+### addAudioFrameLinked {#addAudioFrameLinked}
 
 | Name | Description |
 | --- | --- |
 | addAudioFrameLinked (float, float, float, float, String) | Adds a new audio frame with linked audio file to the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -104,13 +104,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addAutoShape{#addAutoShape}
+### addAutoShape {#addAutoShape}
 
 | Name | Description |
 | --- | --- |
 | addAutoShape (int, float, float, float, float) | Creates a new AutoShape, tunes it from default template and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -127,13 +127,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addAutoShape{#addAutoShape}
+### addAutoShape {#addAutoShape}
 
 | Name | Description |
 | --- | --- |
 | addAutoShape (int, float, float, float, float, boolean) | Creates a new AutoShape and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -151,13 +151,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addChart{#addChart}
+### addChart {#addChart}
 
 | Name | Description |
 | --- | --- |
 | addChart (int, float, float, float, float) | Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -174,13 +174,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addChart{#addChart}
+### addChart {#addChart}
 
 | Name | Description |
 | --- | --- |
 | addChart (int, float, float, float, float, boolean) | Creates a new Chart and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -198,13 +198,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([LegacyDiagram](../legacydiagram), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -221,13 +221,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Connector](../connector), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -244,13 +244,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([GraphicalObject](../graphicalobject), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -267,13 +267,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Shape](../shape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -290,13 +290,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Ink](../ink), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -313,13 +313,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([GroupShape](../groupshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -336,13 +336,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SmartArtShape](../smartartshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -359,13 +359,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -382,13 +382,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([ZoomObject](../zoomobject), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -405,13 +405,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SmartArt](../smartart), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -428,13 +428,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([VideoFrame](../videoframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -451,13 +451,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([PictureFrame](../pictureframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -474,13 +474,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([ZoomFrame](../zoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -497,13 +497,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([AutoShape](../autoshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -520,13 +520,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([OleObjectFrame](../oleobjectframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -543,13 +543,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SectionZoomFrame](../sectionzoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -566,13 +566,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([AudioFrame](../audioframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -589,13 +589,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Chart](../chart), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -612,13 +612,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Table](../table), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -635,13 +635,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -658,13 +658,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([LegacyDiagram](../legacydiagram), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -679,13 +679,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Connector](../connector), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -700,13 +700,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([GraphicalObject](../graphicalobject), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -721,13 +721,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Shape](../shape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -742,13 +742,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Ink](../ink), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -763,13 +763,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([GroupShape](../groupshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -784,13 +784,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SmartArtShape](../smartartshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -805,13 +805,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SummaryZoomSection](../summaryzoomsection), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -826,13 +826,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([ZoomObject](../zoomobject), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -847,13 +847,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SmartArt](../smartart), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -868,13 +868,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([VideoFrame](../videoframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -889,13 +889,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([PictureFrame](../pictureframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -910,13 +910,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([ZoomFrame](../zoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -931,13 +931,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([AutoShape](../autoshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -952,13 +952,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([OleObjectFrame](../oleobjectframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -973,13 +973,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SectionZoomFrame](../sectionzoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -994,13 +994,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([AudioFrame](../audioframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1015,13 +1015,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Chart](../chart), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1036,13 +1036,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Table](../table), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1057,13 +1057,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SummaryZoomFrame](../summaryzoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1078,13 +1078,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([LegacyDiagram](../legacydiagram)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1097,13 +1097,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Connector](../connector)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1116,13 +1116,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([GraphicalObject](../graphicalobject)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1135,13 +1135,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Shape](../shape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1154,13 +1154,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Ink](../ink)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1173,13 +1173,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([GroupShape](../groupshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1192,13 +1192,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SmartArtShape](../smartartshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1211,13 +1211,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SummaryZoomSection](../summaryzoomsection)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1230,13 +1230,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([ZoomObject](../zoomobject)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1249,13 +1249,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SmartArt](../smartart)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1268,13 +1268,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([VideoFrame](../videoframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1287,13 +1287,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([PictureFrame](../pictureframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1306,13 +1306,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([ZoomFrame](../zoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1325,13 +1325,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([AutoShape](../autoshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1344,13 +1344,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([OleObjectFrame](../oleobjectframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1363,13 +1363,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SectionZoomFrame](../sectionzoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1382,13 +1382,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([AudioFrame](../audioframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1401,13 +1401,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Chart](../chart)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1420,13 +1420,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([Table](../table)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1439,13 +1439,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([SummaryZoomFrame](../summaryzoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1458,13 +1458,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addConnector{#addConnector}
+### addConnector {#addConnector}
 
 | Name | Description |
 | --- | --- |
 | addConnector (int, float, float, float, float) | Creates a new Connector, tunes it from default template and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1481,13 +1481,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addConnector{#addConnector}
+### addConnector {#addConnector}
 
 | Name | Description |
 | --- | --- |
 | addConnector (int, float, float, float, float, boolean) | Creates a new Connector and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1505,7 +1505,7 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addGroupShape{#addGroupShape}
+### addGroupShape {#addGroupShape}
 
 | Name | Description |
 | --- | --- |
@@ -1518,13 +1518,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addGroupShape{#addGroupShape}
+### addGroupShape {#addGroupShape}
 
 | Name | Description |
 | --- | --- |
 | addGroupShape ([SvgImage](../svgimage), float, float, float, float) | Creates a new GroupShape, fills it with converted shapes from SVG and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1541,13 +1541,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addMathShape{#addMathShape}
+### addMathShape {#addMathShape}
 
 | Name | Description |
 | --- | --- |
 | addMathShape (float, float, float, float) | Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1563,13 +1563,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addOleObjectFrame{#addOleObjectFrame}
+### addOleObjectFrame {#addOleObjectFrame}
 
 | Name | Description |
 | --- | --- |
 | addOleObjectFrame (float, float, float, float, [OleEmbeddedDataInfo](../oleembeddeddatainfo)) | Adds a new OLE object to the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1586,13 +1586,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addOleObjectFrame{#addOleObjectFrame}
+### addOleObjectFrame {#addOleObjectFrame}
 
 | Name | Description |
 | --- | --- |
 | addOleObjectFrame (float, float, float, float, String, String) | Adds a new OLE object to the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1610,13 +1610,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addPictureFrame{#addPictureFrame}
+### addPictureFrame {#addPictureFrame}
 
 | Name | Description |
 | --- | --- |
 | addPictureFrame (int, float, float, float, float, [PPImage](../ppimage)) | Creates a new PictureFrame and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1634,13 +1634,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addSectionZoomFrame{#addSectionZoomFrame}
+### addSectionZoomFrame {#addSectionZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | addSectionZoomFrame (float, float, float, float, [Section](../section)) | Adds a new Section Zoom object to the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1663,13 +1663,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addSectionZoomFrame{#addSectionZoomFrame}
+### addSectionZoomFrame {#addSectionZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | addSectionZoomFrame (float, float, float, float, [Section](../section), [PPImage](../ppimage)) | Adds a new Section Zoom object to the end of a collection with a predefined image. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1693,13 +1693,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addSmartArt{#addSmartArt}
+### addSmartArt {#addSmartArt}
 
 | Name | Description |
 | --- | --- |
 | addSmartArt (float, float, float, float, int) | Add SmartArt diagram. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1716,13 +1716,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addSummaryZoomFrame{#addSummaryZoomFrame}
+### addSummaryZoomFrame {#addSummaryZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | addSummaryZoomFrame (float, float, float, float) | Adds a new Summary Zoom object to the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1744,13 +1744,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addTable{#addTable}
+### addTable {#addTable}
 
 | Name | Description |
 | --- | --- |
 | addTable (float, float, double[], double[]) | Creates a new Table and adds it to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1766,13 +1766,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addVideoFrame{#addVideoFrame}
+### addVideoFrame {#addVideoFrame}
 
 | Name | Description |
 | --- | --- |
 | addVideoFrame (float, float, float, float, String) | Adds a new video frame to the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1789,13 +1789,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addVideoFrame{#addVideoFrame}
+### addVideoFrame {#addVideoFrame}
 
 | Name | Description |
 | --- | --- |
 | addVideoFrame (float, float, float, float, [Video](../video)) | Adds a new video frame to the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1812,13 +1812,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addZoomFrame{#addZoomFrame}
+### addZoomFrame {#addZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | addZoomFrame (float, float, float, float, [Slide](../slide)) | Adds a new Zoom object to the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1841,13 +1841,13 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###addZoomFrame{#addZoomFrame}
+### addZoomFrame {#addZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | addZoomFrame (float, float, float, float, [Slide](../slide), [PPImage](../ppimage)) | Adds a new Zoom object to the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1871,7 +1871,7 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -1881,7 +1881,7 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###getParentGroup{#getParentGroup}
+### getParentGroup {#getParentGroup}
 
 | Name | Description |
 | --- | --- |
@@ -1894,7 +1894,7 @@ url: /aspose.slides/shapecollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -1907,7 +1907,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -1920,13 +1920,13 @@ Object
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([LegacyDiagram](../legacydiagram)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1939,13 +1939,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([Connector](../connector)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1958,13 +1958,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([GraphicalObject](../graphicalobject)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1977,13 +1977,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([Shape](../shape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1996,13 +1996,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([Ink](../ink)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2015,13 +2015,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([GroupShape](../groupshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2034,13 +2034,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([SmartArtShape](../smartartshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2053,13 +2053,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([SummaryZoomSection](../summaryzoomsection)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2072,13 +2072,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([ZoomObject](../zoomobject)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2091,13 +2091,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([SmartArt](../smartart)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2110,13 +2110,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([VideoFrame](../videoframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2129,13 +2129,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([PictureFrame](../pictureframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2148,13 +2148,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([ZoomFrame](../zoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2167,13 +2167,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([AutoShape](../autoshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2186,13 +2186,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([OleObjectFrame](../oleobjectframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2205,13 +2205,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([SectionZoomFrame](../sectionzoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2224,13 +2224,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([AudioFrame](../audioframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2243,13 +2243,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([Chart](../chart)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2262,13 +2262,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([Table](../table)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2281,13 +2281,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([SummaryZoomFrame](../summaryzoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2300,13 +2300,13 @@ int
 ---
 
 
-###insertAudioFrameCD{#insertAudioFrameCD}
+### insertAudioFrameCD {#insertAudioFrameCD}
 
 | Name | Description |
 | --- | --- |
 | insertAudioFrameCD (int, float, float, float, float) | Insert an AudioFrame with CD. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2323,13 +2323,13 @@ int
 ---
 
 
-###insertAudioFrameEmbeddedFromStream {#insertAudioFrameEmbeddedFromStream }
+### insertAudioFrameEmbeddedFromStream  {#insertAudioFrameEmbeddedFromStream }
 
 | Name | Description |
 | --- | --- |
 | insertAudioFrameEmbeddedFromStream  (ShapeCollection, int, float, float, float,  float, ReadStream, Function) | Insert an AudioFrame with embedded audio file. Embedded audio file sound can be a WAV only. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2349,13 +2349,13 @@ int
 ---
 
 
-###insertAudioFrameEmbedded{#insertAudioFrameEmbedded}
+### insertAudioFrameEmbedded {#insertAudioFrameEmbedded}
 
 | Name | Description |
 | --- | --- |
 | insertAudioFrameEmbedded (int, float, float, float, float, [Audio](../audio)) | Insert an AudioFrame with embedded audio file. It uses audio file from Presentation.Audios list. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2373,13 +2373,13 @@ int
 ---
 
 
-###insertAudioFrameLinked{#insertAudioFrameLinked}
+### insertAudioFrameLinked {#insertAudioFrameLinked}
 
 | Name | Description |
 | --- | --- |
 | insertAudioFrameLinked (int, float, float, float, float, String) | Creates a new audio frame with linked audio file and inserts it to a collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2397,13 +2397,13 @@ int
 ---
 
 
-###insertAutoShape{#insertAutoShape}
+### insertAutoShape {#insertAutoShape}
 
 | Name | Description |
 | --- | --- |
 | insertAutoShape (int, int, float, float, float, float) | Creates a new AutoShape, tunes it from default template and inserts it to the collection at the specified index. Note: the type of the shape will be determined by the shapeType parameter. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2421,13 +2421,13 @@ int
 ---
 
 
-###insertAutoShape{#insertAutoShape}
+### insertAutoShape {#insertAutoShape}
 
 | Name | Description |
 | --- | --- |
 | insertAutoShape (int, int, float, float, float, float, boolean) | Creates a new AutoShape and inserts it to the collection at the specified index. Note: the type of the shape will be determined by the shapeType parameter. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2446,13 +2446,13 @@ int
 ---
 
 
-###insertChart{#insertChart}
+### insertChart {#insertChart}
 
 | Name | Description |
 | --- | --- |
 | insertChart (int, float, float, float, float, int) | Creates a new Chart, initialize it with sample series data and settings and inserts it to the specified position in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2470,13 +2470,13 @@ int
 ---
 
 
-###insertChart{#insertChart}
+### insertChart {#insertChart}
 
 | Name | Description |
 | --- | --- |
 | insertChart (int, float, float, float, float, int, boolean) | Creates a new Chart and inserts it to the specified position in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2495,13 +2495,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [LegacyDiagram](../legacydiagram), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2519,13 +2519,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Connector](../connector), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2543,13 +2543,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [GraphicalObject](../graphicalobject), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2567,13 +2567,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Shape](../shape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2591,13 +2591,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Ink](../ink), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2615,13 +2615,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [GroupShape](../groupshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2639,13 +2639,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SmartArtShape](../smartartshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2663,13 +2663,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2687,13 +2687,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [ZoomObject](../zoomobject), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2711,13 +2711,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SmartArt](../smartart), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2735,13 +2735,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [VideoFrame](../videoframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2759,13 +2759,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [PictureFrame](../pictureframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2783,13 +2783,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [ZoomFrame](../zoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2807,13 +2807,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [AutoShape](../autoshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2831,13 +2831,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [OleObjectFrame](../oleobjectframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2855,13 +2855,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SectionZoomFrame](../sectionzoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2879,13 +2879,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [AudioFrame](../audioframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2903,13 +2903,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Chart](../chart), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2927,13 +2927,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Table](../table), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2951,13 +2951,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2975,13 +2975,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [LegacyDiagram](../legacydiagram), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2997,13 +2997,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Connector](../connector), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3019,13 +3019,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [GraphicalObject](../graphicalobject), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3041,13 +3041,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Shape](../shape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3063,13 +3063,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Ink](../ink), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3085,13 +3085,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [GroupShape](../groupshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3107,13 +3107,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SmartArtShape](../smartartshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3129,13 +3129,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SummaryZoomSection](../summaryzoomsection), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3151,13 +3151,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [ZoomObject](../zoomobject), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3173,13 +3173,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SmartArt](../smartart), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3195,13 +3195,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [VideoFrame](../videoframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3217,13 +3217,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [PictureFrame](../pictureframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3239,13 +3239,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [ZoomFrame](../zoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3261,13 +3261,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [AutoShape](../autoshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3283,13 +3283,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [OleObjectFrame](../oleobjectframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3305,13 +3305,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SectionZoomFrame](../sectionzoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3327,13 +3327,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [AudioFrame](../audioframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3349,13 +3349,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Chart](../chart), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3371,13 +3371,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Table](../table), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3393,13 +3393,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SummaryZoomFrame](../summaryzoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3415,13 +3415,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [LegacyDiagram](../legacydiagram)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3435,13 +3435,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Connector](../connector)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3455,13 +3455,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [GraphicalObject](../graphicalobject)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3475,13 +3475,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Shape](../shape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3495,13 +3495,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Ink](../ink)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3515,13 +3515,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [GroupShape](../groupshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3535,13 +3535,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SmartArtShape](../smartartshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3555,13 +3555,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SummaryZoomSection](../summaryzoomsection)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3575,13 +3575,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [ZoomObject](../zoomobject)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3595,13 +3595,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SmartArt](../smartart)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3615,13 +3615,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [VideoFrame](../videoframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3635,13 +3635,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [PictureFrame](../pictureframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3655,13 +3655,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [ZoomFrame](../zoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3675,13 +3675,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [AutoShape](../autoshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3695,13 +3695,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [OleObjectFrame](../oleobjectframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3715,13 +3715,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SectionZoomFrame](../sectionzoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3735,13 +3735,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [AudioFrame](../audioframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3755,13 +3755,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Chart](../chart)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3775,13 +3775,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [Table](../table)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3795,13 +3795,13 @@ int
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [SummaryZoomFrame](../summaryzoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3815,13 +3815,13 @@ int
 ---
 
 
-###insertConnector{#insertConnector}
+### insertConnector {#insertConnector}
 
 | Name | Description |
 | --- | --- |
 | insertConnector (int, int, float, float, float, float) | Creates a new Connector, tunes it from default template and inserts it to the collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3839,13 +3839,13 @@ int
 ---
 
 
-###insertConnector{#insertConnector}
+### insertConnector {#insertConnector}
 
 | Name | Description |
 | --- | --- |
 | insertConnector (int, int, float, float, float, float, boolean) | Creates a new Connector and inserts it to the collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3864,13 +3864,13 @@ int
 ---
 
 
-###insertGroupShape{#insertGroupShape}
+### insertGroupShape {#insertGroupShape}
 
 | Name | Description |
 | --- | --- |
 | insertGroupShape (int) | Creates a new GroupShape and inserts it to the collection at the specified index. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3883,13 +3883,13 @@ int
 ---
 
 
-###insertOleObjectFrame{#insertOleObjectFrame}
+### insertOleObjectFrame {#insertOleObjectFrame}
 
 | Name | Description |
 | --- | --- |
 | insertOleObjectFrame (int, float, float, float, float, [OleEmbeddedDataInfo](../oleembeddeddatainfo)) | Creates a new OLE object and inserts it to a collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3907,13 +3907,13 @@ int
 ---
 
 
-###insertOleObjectFrame{#insertOleObjectFrame}
+### insertOleObjectFrame {#insertOleObjectFrame}
 
 | Name | Description |
 | --- | --- |
 | insertOleObjectFrame (int, float, float, float, float, String, String) | Creates a new OLE object and inserts it to a collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3932,13 +3932,13 @@ int
 ---
 
 
-###insertPictureFrame{#insertPictureFrame}
+### insertPictureFrame {#insertPictureFrame}
 
 | Name | Description |
 | --- | --- |
 | insertPictureFrame (int, int, float, float, float, float, [PPImage](../ppimage)) | Creates a new PictureFrame and inserts it to the collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3957,13 +3957,13 @@ int
 ---
 
 
-###insertSectionZoomFrame{#insertSectionZoomFrame}
+### insertSectionZoomFrame {#insertSectionZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | insertSectionZoomFrame (int, float, float, float, float, [Section](../section)) | Creates a new Section Zoom object and inserts into to a collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -3987,13 +3987,13 @@ int
 ---
 
 
-###insertSectionZoomFrame{#insertSectionZoomFrame}
+### insertSectionZoomFrame {#insertSectionZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | insertSectionZoomFrame (int, float, float, float, float, [Section](../section), [PPImage](../ppimage)) | Creates a new Section Zoom object and inserts it to a collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4018,13 +4018,13 @@ int
 ---
 
 
-###insertSummaryZoomFrame{#insertSummaryZoomFrame}
+### insertSummaryZoomFrame {#insertSummaryZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | insertSummaryZoomFrame (int, float, float, float, float) | Creates a new Summary Zoom object and inserts it to a collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4047,13 +4047,13 @@ int
 ---
 
 
-###insertTable{#insertTable}
+### insertTable {#insertTable}
 
 | Name | Description |
 | --- | --- |
 | insertTable (int, float, float, double[], double[]) | Creates a new Table and inserts it to the collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4070,13 +4070,13 @@ int
 ---
 
 
-###insertVideoFrame{#insertVideoFrame}
+### insertVideoFrame {#insertVideoFrame}
 
 | Name | Description |
 | --- | --- |
 | insertVideoFrame (int, float, float, float, float, String) | Creates a new video frame and inserts it to a collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4094,13 +4094,13 @@ int
 ---
 
 
-###insertZoomFrame{#insertZoomFrame}
+### insertZoomFrame {#insertZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | insertZoomFrame (int, float, float, float, float, [Slide](../slide)) | Creates a new Zoom object and inserts it to a collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4124,13 +4124,13 @@ int
 ---
 
 
-###insertZoomFrame{#insertZoomFrame}
+### insertZoomFrame {#insertZoomFrame}
 
 | Name | Description |
 | --- | --- |
 | insertZoomFrame (int, float, float, float, float, [Slide](../slide), [PPImage](../ppimage)) | Creates a new Zoom object and inserts it to a collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4155,7 +4155,7 @@ int
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -4168,7 +4168,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -4181,7 +4181,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -4194,13 +4194,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([LegacyDiagram](../legacydiagram)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4210,13 +4210,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([Connector](../connector)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4226,13 +4226,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([GraphicalObject](../graphicalobject)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4242,13 +4242,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([Shape](../shape)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4258,13 +4258,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([Ink](../ink)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4274,13 +4274,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([GroupShape](../groupshape)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4290,13 +4290,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([SmartArtShape](../smartartshape)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4306,13 +4306,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([SummaryZoomSection](../summaryzoomsection)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4322,13 +4322,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([ZoomObject](../zoomobject)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4338,13 +4338,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([SmartArt](../smartart)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4354,13 +4354,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([VideoFrame](../videoframe)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4370,13 +4370,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([PictureFrame](../pictureframe)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4386,13 +4386,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([ZoomFrame](../zoomframe)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4402,13 +4402,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([AutoShape](../autoshape)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4418,13 +4418,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([OleObjectFrame](../oleobjectframe)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4434,13 +4434,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([SectionZoomFrame](../sectionzoomframe)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4450,13 +4450,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([AudioFrame](../audioframe)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4466,13 +4466,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([Chart](../chart)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4482,13 +4482,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([Table](../table)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4498,13 +4498,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([SummaryZoomFrame](../summaryzoomframe)) | Removes the first occurrence of a specific shape from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4514,13 +4514,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the element at the specified index of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4530,13 +4530,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [LegacyDiagram](../legacydiagram)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4547,13 +4547,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [Connector](../connector)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4564,13 +4564,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [GraphicalObject](../graphicalobject)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4581,13 +4581,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [Shape](../shape)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4598,13 +4598,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [Ink](../ink)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4615,13 +4615,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [GroupShape](../groupshape)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4632,13 +4632,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [SmartArtShape](../smartartshape)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4649,13 +4649,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [SummaryZoomSection](../summaryzoomsection)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4666,13 +4666,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [ZoomObject](../zoomobject)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4683,13 +4683,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [SmartArt](../smartart)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4700,13 +4700,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [VideoFrame](../videoframe)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4717,13 +4717,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [PictureFrame](../pictureframe)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4734,13 +4734,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [ZoomFrame](../zoomframe)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4751,13 +4751,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [AutoShape](../autoshape)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4768,13 +4768,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [OleObjectFrame](../oleobjectframe)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4785,13 +4785,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [SectionZoomFrame](../sectionzoomframe)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4802,13 +4802,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [AudioFrame](../audioframe)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4819,13 +4819,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [Chart](../chart)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4836,13 +4836,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [Table](../table)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4853,13 +4853,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [SummaryZoomFrame](../summaryzoomframe)) | Moves a shape from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4870,13 +4870,13 @@ boolean
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, com.aspose.slides.IShape[]) | Moves shapes from the collection to the specified position. Shapes will be placed starting from index in order they appear in list. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -4887,7 +4887,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |
@@ -4900,7 +4900,7 @@ int
 ---
 
 
-###toArray{#toArray}
+### toArray {#toArray}
 
 | Name | Description |
 | --- | --- |
@@ -4913,13 +4913,13 @@ int
 ---
 
 
-###toArray{#toArray}
+### toArray {#toArray}
 
 | Name | Description |
 | --- | --- |
 | toArray (int, int) | Creates and returns an array with all shapes from the specified range in it. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

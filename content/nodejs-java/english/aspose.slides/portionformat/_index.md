@@ -14,7 +14,7 @@ url: /aspose.slides/portionformat/
  no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
  In order to get the effective formatting parameter values including inherited you need to use  PortionFormat#getEffective method 
  which returns a  IPortionFormatEffectiveData instance.
-###PortionFormat{#PortionFormat}
+### PortionFormat {#PortionFormat}
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,7 @@ PortionFormat
 ---
 
 
-###getBookmarkId{#getBookmarkId}
+### getBookmarkId {#getBookmarkId}
 
 | Name | Description |
 | --- | --- |
@@ -40,7 +40,7 @@ String
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -53,7 +53,7 @@ PortionFormatEffectiveData
 ---
 
 
-###getHyperlinkClick{#getHyperlinkClick}
+### getHyperlinkClick {#getHyperlinkClick}
 
 | Name | Description |
 | --- | --- |
@@ -66,7 +66,7 @@ PortionFormatEffectiveData
 ---
 
 
-###getHyperlinkManager{#getHyperlinkManager}
+### getHyperlinkManager {#getHyperlinkManager}
 
 | Name | Description |
 | --- | --- |
@@ -79,7 +79,7 @@ PortionFormatEffectiveData
 ---
 
 
-###getHyperlinkMouseOver{#getHyperlinkMouseOver}
+### getHyperlinkMouseOver {#getHyperlinkMouseOver}
 
 | Name | Description |
 | --- | --- |
@@ -92,7 +92,7 @@ PortionFormatEffectiveData
 ---
 
 
-###getSmartTagClean{#getSmartTagClean}
+### getSmartTagClean {#getSmartTagClean}
 
 | Name | Description |
 | --- | --- |
@@ -105,7 +105,7 @@ boolean
 ---
 
 
-###setBookmarkId{#setBookmarkId}
+### setBookmarkId {#setBookmarkId}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###setHyperlinkClick{#setHyperlinkClick}
+### setHyperlinkClick {#setHyperlinkClick}
 
 | Name | Description |
 | --- | --- |
@@ -125,7 +125,7 @@ boolean
 ---
 
 
-###setHyperlinkMouseOver{#setHyperlinkMouseOver}
+### setHyperlinkMouseOver {#setHyperlinkMouseOver}
 
 | Name | Description |
 | --- | --- |
@@ -135,7 +135,7 @@ boolean
 ---
 
 
-###setSmartTagClean{#setSmartTagClean}
+### setSmartTagClean {#setSmartTagClean}
 
 | Name | Description |
 | --- | --- |

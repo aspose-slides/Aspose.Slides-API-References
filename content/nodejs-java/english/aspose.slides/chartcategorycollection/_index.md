@@ -11,13 +11,13 @@ url: /aspose.slides/chartcategorycollection/
 
  Represents collection of  ChartCategory
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([ChartDataCell](../chartdatacell)) | If category exists in collection, return it. Else creates new chart category from IChartDataCell and adds it to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ url: /aspose.slides/chartcategorycollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (Object) | Creates new ChartCategory from value and adds it to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -55,7 +55,7 @@ url: /aspose.slides/chartcategorycollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -65,7 +65,7 @@ url: /aspose.slides/chartcategorycollection/
 ---
 
 
-###getGroupingLevelCount{#getGroupingLevelCount}
+### getGroupingLevelCount {#getGroupingLevelCount}
 
 | Name | Description |
 | --- | --- |
@@ -78,7 +78,7 @@ int
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -91,7 +91,7 @@ Object
 ---
 
 
-###getUseCells{#getUseCells}
+### getUseCells {#getUseCells}
 
 | Name | Description |
 | --- | --- |
@@ -104,7 +104,7 @@ boolean
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -123,13 +123,13 @@ boolean
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([ChartCategory](../chartcategory)) | Searches for the specified ChartCategory and returns the zero-based index of the first occurrence within the entire Collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -142,7 +142,7 @@ int
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -155,7 +155,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -168,7 +168,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -181,13 +181,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([ChartCategory](../chartcategory)) | Removes the specified value. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -203,13 +203,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the element at the given index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -219,7 +219,7 @@ boolean
 ---
 
 
-###setUseCells{#setUseCells}
+### setUseCells {#setUseCells}
 
 | Name | Description |
 | --- | --- |
@@ -229,7 +229,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

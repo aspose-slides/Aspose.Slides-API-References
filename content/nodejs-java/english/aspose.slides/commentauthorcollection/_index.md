@@ -11,13 +11,13 @@ url: /aspose.slides/commentauthorcollection/
 
  Represents a collection of comment authors.
  
-###addAuthor{#addAuthor}
+### addAuthor {#addAuthor}
 
 | Name | Description |
 | --- | --- |
 | addAuthor (String, String) | Add new author at the end of a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ url: /aspose.slides/commentauthorcollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -41,13 +41,13 @@ url: /aspose.slides/commentauthorcollection/
 ---
 
 
-###findByName{#findByName}
+### findByName {#findByName}
 
 | Name | Description |
 | --- | --- |
 | findByName (String) | Find author in a collection by name. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -60,13 +60,13 @@ url: /aspose.slides/commentauthorcollection/
 ---
 
 
-###findByNameAndInitials{#findByNameAndInitials}
+### findByNameAndInitials {#findByNameAndInitials}
 
 | Name | Description |
 | --- | --- |
 | findByNameAndInitials (String, String) | Find author in a collection by name and initials. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ url: /aspose.slides/commentauthorcollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -93,7 +93,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -119,7 +119,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -132,7 +132,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -145,13 +145,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([CommentAuthor](../commentauthor)) | Removes the first occurrence of the specified author in a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -167,13 +167,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the author at the specified index of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -189,7 +189,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |
@@ -202,7 +202,7 @@ int
 ---
 
 
-###toArray{#toArray}
+### toArray {#toArray}
 
 | Name | Description |
 | --- | --- |

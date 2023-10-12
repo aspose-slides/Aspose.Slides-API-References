@@ -11,13 +11,13 @@ url: /aspose.slides/paragraphcollection/
 
  Represents a collection of a paragraphs.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([Paragraph](../paragraph)) | Adds a Paragraph to the end of collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -27,13 +27,13 @@ url: /aspose.slides/paragraphcollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([ParagraphCollection](../paragraphcollection)) | Adds a content of ParagraphCollection to the end of collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -46,13 +46,13 @@ int
 ---
 
 
-###addFromHtml{#addFromHtml}
+### addFromHtml {#addFromHtml}
 
 | Name | Description |
 | --- | --- |
 | addFromHtml (String) | Adds text from specified html string to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -62,13 +62,13 @@ int
 ---
 
 
-###addFromHtml{#addFromHtml}
+### addFromHtml {#addFromHtml}
 
 | Name | Description |
 | --- | --- |
 | addFromHtml (String, [ExternalResourceResolver](../externalresourceresolver), String) | Adds text from specified html string to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -80,13 +80,13 @@ int
 ---
 
 
-###addFromHtml{#addFromHtml}
+### addFromHtml {#addFromHtml}
 
 | Name | Description |
 | --- | --- |
 | addFromHtml (String, [HtmlExternalResolver](../htmlexternalresolver), String) | Adds text from specified html string to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -98,7 +98,7 @@ int
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -108,13 +108,13 @@ int
 ---
 
 
-###contains{#contains}
+### contains {#contains}
 
 | Name | Description |
 | --- | --- |
 | contains ([Paragraph](../paragraph)) | Determines whether the IGenericCollection contains a specific value. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -127,13 +127,13 @@ boolean
 ---
 
 
-###copyTo{#copyTo}
+### copyTo {#copyTo}
 
 | Name | Description |
 | --- | --- |
 | copyTo (com.aspose.slides.IParagraph[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -150,13 +150,13 @@ boolean
 ---
 
 
-###exportToHtml{#exportToHtml}
+### exportToHtml {#exportToHtml}
 
 | Name | Description |
 | --- | --- |
 | exportToHtml (int, int, [TextToHtmlConversionOptions](../texttohtmlconversionoptions)) | Converts specifying paragraphs to the HTML and returns it as String object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -171,7 +171,7 @@ String
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -184,7 +184,7 @@ int
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -197,7 +197,7 @@ int
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -210,7 +210,7 @@ int
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -223,13 +223,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([Paragraph](../paragraph)) | Determines the index of a specific item in the List. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -242,13 +242,13 @@ int
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, [Paragraph](../paragraph)) | Inserts a Paragraph into the collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -259,13 +259,13 @@ int
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, [ParagraphCollection](../paragraphcollection)) | Inserts a content of ParagraphCollection into the collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -276,7 +276,7 @@ int
 ---
 
 
-###isReadOnly{#isReadOnly}
+### isReadOnly {#isReadOnly}
 
 | Name | Description |
 | --- | --- |
@@ -289,7 +289,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -302,7 +302,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -315,13 +315,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([Paragraph](../paragraph)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -340,13 +340,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the element at the specified index of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

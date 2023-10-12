@@ -11,7 +11,7 @@ url: /aspose.slides/baseshapelock/
 
  Represents a base class for locks (disabled operation).
  
-###getNoLocks{#getNoLocks}
+### getNoLocks {#getNoLocks}
 
 | Name | Description |
 | --- | --- |

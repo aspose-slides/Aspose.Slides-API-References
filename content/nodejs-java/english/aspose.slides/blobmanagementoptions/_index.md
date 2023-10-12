@@ -11,7 +11,7 @@ url: /aspose.slides/blobmanagementoptions/
 
  Represents options which can be used to manage BLOB handling rules and other BLOB settings.
  
-###BlobManagementOptions{#BlobManagementOptions}
+### BlobManagementOptions {#BlobManagementOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ BlobManagementOptions
 ---
 
 
-###getMaxBlobsBytesInMemory{#getMaxBlobsBytesInMemory}
+### getMaxBlobsBytesInMemory {#getMaxBlobsBytesInMemory}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ long
 ---
 
 
-###getPresentationLockingBehavior{#getPresentationLockingBehavior}
+### getPresentationLockingBehavior {#getPresentationLockingBehavior}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getTempFilesRootPath{#getTempFilesRootPath}
+### getTempFilesRootPath {#getTempFilesRootPath}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ String
 ---
 
 
-###isTemporaryFilesAllowed{#isTemporaryFilesAllowed}
+### isTemporaryFilesAllowed {#isTemporaryFilesAllowed}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###setMaxBlobsBytesInMemory{#setMaxBlobsBytesInMemory}
+### setMaxBlobsBytesInMemory {#setMaxBlobsBytesInMemory}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ boolean
 ---
 
 
-###setPresentationLockingBehavior{#setPresentationLockingBehavior}
+### setPresentationLockingBehavior {#setPresentationLockingBehavior}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ boolean
 ---
 
 
-###setTempFilesRootPath{#setTempFilesRootPath}
+### setTempFilesRootPath {#setTempFilesRootPath}
 
 | Name | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ boolean
 ---
 
 
-###setTemporaryFilesAllowed{#setTemporaryFilesAllowed}
+### setTemporaryFilesAllowed {#setTemporaryFilesAllowed}
 
 | Name | Description |
 | --- | --- |

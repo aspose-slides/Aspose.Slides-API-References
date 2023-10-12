@@ -11,7 +11,7 @@ url: /aspose.slides/vbareferenceoletypelib/
 
  Represents OLE Automation type library reference.
  
-###VbaReferenceOleTypeLib{#VbaReferenceOleTypeLib}
+### VbaReferenceOleTypeLib {#VbaReferenceOleTypeLib}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ VbaReferenceOleTypeLib
 ---
 
 
-###getLibid{#getLibid}
+### getLibid {#getLibid}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ String
 ---
 
 
-###setLibid{#setLibid}
+### setLibid {#setLibid}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ String
 ---
 
 
-###setName{#setName}
+### setName {#setName}
 
 | Name | Description |
 | --- | --- |

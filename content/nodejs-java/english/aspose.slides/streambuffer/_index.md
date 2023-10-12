@@ -9,7 +9,7 @@ url: /aspose.slides/streambuffer/
 
 ## StreamBuffer class
 
-###StreamBuffer{#StreamBuffer}
+### StreamBuffer {#StreamBuffer}
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,7 @@ StreamBuffer
 ---
 
 
-###StreamBuffer{#StreamBuffer}
+### StreamBuffer {#StreamBuffer}
 
 | Name | Description |
 | --- | --- |
@@ -35,7 +35,7 @@ StreamBuffer
 ---
 
 
-###read{#read}
+### read {#read}
 
 | Name | Description |
 | --- | --- |
@@ -48,7 +48,7 @@ byte
 ---
 
 
-###reset{#reset}
+### reset {#reset}
 
 | Name | Description |
 | --- | --- |
@@ -58,7 +58,7 @@ byte
 ---
 
 
-###toInputStream{#toInputStream}
+### toInputStream {#toInputStream}
 
 | Name | Description |
 | --- | --- |

@@ -13,13 +13,13 @@ url: /aspose.slides/alphamodulate/
  Effect alpha (opacity) values are multiplied by a fixed percentage.
  The effect container specifies an effect containing alpha values to modulate.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified AlphaModulate is equal to the current AlphaModulate. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ boolean
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -45,7 +45,7 @@ AlphaModulateEffectiveData
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

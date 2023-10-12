@@ -11,7 +11,7 @@ url: /aspose.slides/morphtransition/
 
  Ripple slide transition effect.
  
-###getMorphType{#getMorphType}
+### getMorphType {#getMorphType}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###setMorphType{#setMorphType}
+### setMorphType {#setMorphType}
 
 | Name | Description |
 | --- | --- |

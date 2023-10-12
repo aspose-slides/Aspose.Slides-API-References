@@ -14,7 +14,7 @@ url: /aspose.slides/paragraphformat/
  no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
  In order to get the effective formatting parameter values including inherited you need to use  ParagraphFormat#getEffective method 
  which returns a  IParagraphFormatEffectiveData instance.
-###ParagraphFormat{#ParagraphFormat}
+### ParagraphFormat {#ParagraphFormat}
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,7 @@ ParagraphFormat
 ---
 
 
-###getAlignment{#getAlignment}
+### getAlignment {#getAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -40,7 +40,7 @@ int
 ---
 
 
-###getBullet{#getBullet}
+### getBullet {#getBullet}
 
 | Name | Description |
 | --- | --- |
@@ -53,7 +53,7 @@ int
 ---
 
 
-###getDefaultPortionFormat{#getDefaultPortionFormat}
+### getDefaultPortionFormat {#getDefaultPortionFormat}
 
 | Name | Description |
 | --- | --- |
@@ -66,7 +66,7 @@ int
 ---
 
 
-###getDefaultTabSize{#getDefaultTabSize}
+### getDefaultTabSize {#getDefaultTabSize}
 
 | Name | Description |
 | --- | --- |
@@ -79,7 +79,7 @@ float
 ---
 
 
-###getDepth{#getDepth}
+### getDepth {#getDepth}
 
 | Name | Description |
 | --- | --- |
@@ -92,7 +92,7 @@ short
 ---
 
 
-###getEastAsianLineBreak{#getEastAsianLineBreak}
+### getEastAsianLineBreak {#getEastAsianLineBreak}
 
 | Name | Description |
 | --- | --- |
@@ -105,7 +105,7 @@ byte
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -118,7 +118,7 @@ ParagraphFormatEffectiveData
 ---
 
 
-###getFontAlignment{#getFontAlignment}
+### getFontAlignment {#getFontAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -131,7 +131,7 @@ int
 ---
 
 
-###getHangingPunctuation{#getHangingPunctuation}
+### getHangingPunctuation {#getHangingPunctuation}
 
 | Name | Description |
 | --- | --- |
@@ -144,7 +144,7 @@ byte
 ---
 
 
-###getIndent{#getIndent}
+### getIndent {#getIndent}
 
 | Name | Description |
 | --- | --- |
@@ -157,7 +157,7 @@ float
 ---
 
 
-###getLatinLineBreak{#getLatinLineBreak}
+### getLatinLineBreak {#getLatinLineBreak}
 
 | Name | Description |
 | --- | --- |
@@ -170,7 +170,7 @@ byte
 ---
 
 
-###getMarginLeft{#getMarginLeft}
+### getMarginLeft {#getMarginLeft}
 
 | Name | Description |
 | --- | --- |
@@ -183,7 +183,7 @@ float
 ---
 
 
-###getMarginRight{#getMarginRight}
+### getMarginRight {#getMarginRight}
 
 | Name | Description |
 | --- | --- |
@@ -196,7 +196,7 @@ float
 ---
 
 
-###getRightToLeft{#getRightToLeft}
+### getRightToLeft {#getRightToLeft}
 
 | Name | Description |
 | --- | --- |
@@ -209,7 +209,7 @@ byte
 ---
 
 
-###getSpaceAfter{#getSpaceAfter}
+### getSpaceAfter {#getSpaceAfter}
 
 | Name | Description |
 | --- | --- |
@@ -222,7 +222,7 @@ float
 ---
 
 
-###getSpaceBefore{#getSpaceBefore}
+### getSpaceBefore {#getSpaceBefore}
 
 | Name | Description |
 | --- | --- |
@@ -235,7 +235,7 @@ float
 ---
 
 
-###getSpaceWithin{#getSpaceWithin}
+### getSpaceWithin {#getSpaceWithin}
 
 | Name | Description |
 | --- | --- |
@@ -248,7 +248,7 @@ float
 ---
 
 
-###getTabs{#getTabs}
+### getTabs {#getTabs}
 
 | Name | Description |
 | --- | --- |
@@ -261,7 +261,7 @@ float
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -274,7 +274,7 @@ long
 ---
 
 
-###setAlignment{#setAlignment}
+### setAlignment {#setAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -284,7 +284,7 @@ long
 ---
 
 
-###setDefaultTabSize{#setDefaultTabSize}
+### setDefaultTabSize {#setDefaultTabSize}
 
 | Name | Description |
 | --- | --- |
@@ -294,7 +294,7 @@ long
 ---
 
 
-###setDepth{#setDepth}
+### setDepth {#setDepth}
 
 | Name | Description |
 | --- | --- |
@@ -304,7 +304,7 @@ long
 ---
 
 
-###setEastAsianLineBreak{#setEastAsianLineBreak}
+### setEastAsianLineBreak {#setEastAsianLineBreak}
 
 | Name | Description |
 | --- | --- |
@@ -314,7 +314,7 @@ long
 ---
 
 
-###setFontAlignment{#setFontAlignment}
+### setFontAlignment {#setFontAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -324,7 +324,7 @@ long
 ---
 
 
-###setHangingPunctuation{#setHangingPunctuation}
+### setHangingPunctuation {#setHangingPunctuation}
 
 | Name | Description |
 | --- | --- |
@@ -334,7 +334,7 @@ long
 ---
 
 
-###setIndent{#setIndent}
+### setIndent {#setIndent}
 
 | Name | Description |
 | --- | --- |
@@ -344,7 +344,7 @@ long
 ---
 
 
-###setLatinLineBreak{#setLatinLineBreak}
+### setLatinLineBreak {#setLatinLineBreak}
 
 | Name | Description |
 | --- | --- |
@@ -354,7 +354,7 @@ long
 ---
 
 
-###setMarginLeft{#setMarginLeft}
+### setMarginLeft {#setMarginLeft}
 
 | Name | Description |
 | --- | --- |
@@ -364,7 +364,7 @@ long
 ---
 
 
-###setMarginRight{#setMarginRight}
+### setMarginRight {#setMarginRight}
 
 | Name | Description |
 | --- | --- |
@@ -374,7 +374,7 @@ long
 ---
 
 
-###setRightToLeft{#setRightToLeft}
+### setRightToLeft {#setRightToLeft}
 
 | Name | Description |
 | --- | --- |
@@ -384,7 +384,7 @@ long
 ---
 
 
-###setSpaceAfter{#setSpaceAfter}
+### setSpaceAfter {#setSpaceAfter}
 
 | Name | Description |
 | --- | --- |
@@ -394,7 +394,7 @@ long
 ---
 
 
-###setSpaceBefore{#setSpaceBefore}
+### setSpaceBefore {#setSpaceBefore}
 
 | Name | Description |
 | --- | --- |
@@ -404,7 +404,7 @@ long
 ---
 
 
-###setSpaceWithin{#setSpaceWithin}
+### setSpaceWithin {#setSpaceWithin}
 
 | Name | Description |
 | --- | --- |

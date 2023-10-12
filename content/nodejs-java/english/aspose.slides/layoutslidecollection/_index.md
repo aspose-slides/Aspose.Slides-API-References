@@ -11,13 +11,13 @@ url: /aspose.slides/layoutslidecollection/
 
  Represents a base class for collection of a layout slides.
  
-###getByType{#getByType}
+### getByType {#getByType}
 
 | Name | Description |
 | --- | --- |
 | getByType (byte) | Returns the first layout slide of specified type. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ url: /aspose.slides/layoutslidecollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -95,13 +95,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([LayoutSlide](../layoutslide)) | Removes a layout from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -117,7 +117,7 @@ boolean
 ---
 
 
-###removeUnused{#removeUnused}
+### removeUnused {#removeUnused}
 
 | Name | Description |
 | --- | --- |
@@ -127,7 +127,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

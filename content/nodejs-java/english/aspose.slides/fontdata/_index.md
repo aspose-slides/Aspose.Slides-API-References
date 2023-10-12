@@ -11,13 +11,13 @@ url: /aspose.slides/fontdata/
 
  Represents a font definition. Immutable.
  
-###FontData{#FontData}
+### FontData {#FontData}
 
 | Name | Description |
 | --- | --- |
 | FontData(String) | Creates a new FontData object with the specified font name. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ FontData
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether two FontData instances are equal. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ boolean
 ---
 
 
-###getFontName{#getFontName}
+### getFontName {#getFontName}
 
 | Name | Description |
 | --- | --- |
@@ -62,13 +62,13 @@ String
 ---
 
 
-###getFontName{#getFontName}
+### getFontName {#getFontName}
 
 | Name | Description |
 | --- | --- |
 | getFontName ([IThemeEffectiveData](../ithemeeffectivedata)) | Returns the font name, replacing theme referrence with an actual font used. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ String
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -94,7 +94,7 @@ int
 ---
 
 
-###toString{#toString}
+### toString {#toString}
 
 | Name | Description |
 | --- | --- |

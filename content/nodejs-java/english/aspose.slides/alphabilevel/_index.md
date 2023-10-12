@@ -13,13 +13,13 @@ url: /aspose.slides/alphabilevel/
  Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and
  alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ boolean
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -45,7 +45,7 @@ AlphaBiLevelEffectiveData
 ---
 
 
-###getThreshold{#getThreshold}
+### getThreshold {#getThreshold}
 
 | Name | Description |
 | --- | --- |
@@ -58,7 +58,7 @@ float
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -71,7 +71,7 @@ int
 ---
 
 
-###setThreshold{#setThreshold}
+### setThreshold {#setThreshold}
 
 | Name | Description |
 | --- | --- |

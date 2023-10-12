@@ -11,7 +11,7 @@ url: /aspose.slides/connectorlock/
 
  Determines which operations are disabled on the parent Connector.
  
-###getAdjustHandlesLocked{#getAdjustHandlesLocked}
+### getAdjustHandlesLocked {#getAdjustHandlesLocked}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ boolean
 ---
 
 
-###getArrowheadsLocked{#getArrowheadsLocked}
+### getArrowheadsLocked {#getArrowheadsLocked}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getAspectRatioLocked{#getAspectRatioLocked}
+### getAspectRatioLocked {#getAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getEditPointsLocked{#getEditPointsLocked}
+### getEditPointsLocked {#getEditPointsLocked}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getGroupingLocked{#getGroupingLocked}
+### getGroupingLocked {#getGroupingLocked}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getPositionMove{#getPositionMove}
+### getPositionMove {#getPositionMove}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###getRotateLocked{#getRotateLocked}
+### getRotateLocked {#getRotateLocked}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###getSelectLocked{#getSelectLocked}
+### getSelectLocked {#getSelectLocked}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###getShapeTypeLocked{#getShapeTypeLocked}
+### getShapeTypeLocked {#getShapeTypeLocked}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-###getSizeLocked{#getSizeLocked}
+### getSizeLocked {#getSizeLocked}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ boolean
 ---
 
 
-###setAdjustHandlesLocked{#setAdjustHandlesLocked}
+### setAdjustHandlesLocked {#setAdjustHandlesLocked}
 
 | Name | Description |
 | --- | --- |
@@ -151,7 +151,7 @@ boolean
 ---
 
 
-###setArrowheadsLocked{#setArrowheadsLocked}
+### setArrowheadsLocked {#setArrowheadsLocked}
 
 | Name | Description |
 | --- | --- |
@@ -161,7 +161,7 @@ boolean
 ---
 
 
-###setAspectRatioLocked{#setAspectRatioLocked}
+### setAspectRatioLocked {#setAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
@@ -171,7 +171,7 @@ boolean
 ---
 
 
-###setEditPointsLocked{#setEditPointsLocked}
+### setEditPointsLocked {#setEditPointsLocked}
 
 | Name | Description |
 | --- | --- |
@@ -181,7 +181,7 @@ boolean
 ---
 
 
-###setGroupingLocked{#setGroupingLocked}
+### setGroupingLocked {#setGroupingLocked}
 
 | Name | Description |
 | --- | --- |
@@ -191,7 +191,7 @@ boolean
 ---
 
 
-###setPositionMove{#setPositionMove}
+### setPositionMove {#setPositionMove}
 
 | Name | Description |
 | --- | --- |
@@ -201,7 +201,7 @@ boolean
 ---
 
 
-###setRotateLocked{#setRotateLocked}
+### setRotateLocked {#setRotateLocked}
 
 | Name | Description |
 | --- | --- |
@@ -211,7 +211,7 @@ boolean
 ---
 
 
-###setSelectLocked{#setSelectLocked}
+### setSelectLocked {#setSelectLocked}
 
 | Name | Description |
 | --- | --- |
@@ -221,7 +221,7 @@ boolean
 ---
 
 
-###setShapeTypeLocked{#setShapeTypeLocked}
+### setShapeTypeLocked {#setShapeTypeLocked}
 
 | Name | Description |
 | --- | --- |
@@ -231,7 +231,7 @@ boolean
 ---
 
 
-###setSizeLocked{#setSizeLocked}
+### setSizeLocked {#setSizeLocked}
 
 | Name | Description |
 | --- | --- |

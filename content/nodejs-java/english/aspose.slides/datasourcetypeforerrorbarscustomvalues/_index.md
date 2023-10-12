@@ -11,7 +11,7 @@ url: /aspose.slides/datasourcetypeforerrorbarscustomvalues/
 
   Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list
  
-###DataSourceTypeForErrorBarsCustomValues{#DataSourceTypeForErrorBarsCustomValues}
+### DataSourceTypeForErrorBarsCustomValues {#DataSourceTypeForErrorBarsCustomValues}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ DataSourceTypeForErrorBarsCustomValues
 ---
 
 
-###getDataSourceTypeForXMinusValues{#getDataSourceTypeForXMinusValues}
+### getDataSourceTypeForXMinusValues {#getDataSourceTypeForXMinusValues}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getDataSourceTypeForXPlusValues{#getDataSourceTypeForXPlusValues}
+### getDataSourceTypeForXPlusValues {#getDataSourceTypeForXPlusValues}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getDataSourceTypeForYMinusValues{#getDataSourceTypeForYMinusValues}
+### getDataSourceTypeForYMinusValues {#getDataSourceTypeForYMinusValues}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getDataSourceTypeForYPlusValues{#getDataSourceTypeForYPlusValues}
+### getDataSourceTypeForYPlusValues {#getDataSourceTypeForYPlusValues}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###setDataSourceTypeForXMinusValues{#setDataSourceTypeForXMinusValues}
+### setDataSourceTypeForXMinusValues {#setDataSourceTypeForXMinusValues}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ int
 ---
 
 
-###setDataSourceTypeForXPlusValues{#setDataSourceTypeForXPlusValues}
+### setDataSourceTypeForXPlusValues {#setDataSourceTypeForXPlusValues}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ int
 ---
 
 
-###setDataSourceTypeForYMinusValues{#setDataSourceTypeForYMinusValues}
+### setDataSourceTypeForYMinusValues {#setDataSourceTypeForYMinusValues}
 
 | Name | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ int
 ---
 
 
-###setDataSourceTypeForYPlusValues{#setDataSourceTypeForYPlusValues}
+### setDataSourceTypeForYPlusValues {#setDataSourceTypeForYPlusValues}
 
 | Name | Description |
 | --- | --- |

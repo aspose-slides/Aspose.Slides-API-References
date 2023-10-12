@@ -11,13 +11,13 @@ url: /aspose.slides/coloroperationcollection/
 
  Represents a collection of color transform operations.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (int, float) | Adds a new operation to the end of collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +31,13 @@ url: /aspose.slides/coloroperationcollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (int) | Adds a new operation to the end of collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/coloroperationcollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ url: /aspose.slides/coloroperationcollection/
 ---
 
 
-###cloneT{#cloneT}
+### cloneT {#cloneT}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ url: /aspose.slides/coloroperationcollection/
 ---
 
 
-###deepClone{#deepClone}
+### deepClone {#deepClone}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ Object
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -112,13 +112,13 @@ Object
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, int, float) | Inserts the new operation to a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -133,13 +133,13 @@ Object
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, int) | Inserts the new operation to a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -153,7 +153,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -166,7 +166,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -179,7 +179,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -192,13 +192,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the color operation from a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -208,7 +208,7 @@ boolean
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
@@ -218,7 +218,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

@@ -11,13 +11,13 @@ url: /aspose.slides/customxmlpartcollection/
 
  Represents collection of custom xml parts.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String) | Adds new custom xml part. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -36,13 +36,13 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (byte[]) | Adds new custom xml part. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -61,13 +61,13 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-###addFromStream {#addFromStream }
+### addFromStream  {#addFromStream }
 
 | Name | Description |
 | --- | --- |
 | addFromStream  (CustomXmlPartCollection, ReadStream, Function) | Adds new custom xml part. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -88,7 +88,7 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -98,7 +98,7 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -111,13 +111,13 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns the element at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -136,7 +136,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -162,7 +162,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -175,13 +175,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([CustomXmlPart](../customxmlpart)) | Removes the first occurrence of a specific object from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -200,13 +200,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes custom xml part at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -222,7 +222,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

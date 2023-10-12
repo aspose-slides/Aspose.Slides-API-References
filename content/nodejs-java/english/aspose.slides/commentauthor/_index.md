@@ -11,7 +11,7 @@ url: /aspose.slides/commentauthor/
 
  Represents an author of comments.
  
-###getComments{#getComments}
+### getComments {#getComments}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/commentauthor/
 ---
 
 
-###getInitials{#getInitials}
+### getInitials {#getInitials}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ String
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
@@ -66,7 +66,7 @@ String
 ---
 
 
-###setInitials{#setInitials}
+### setInitials {#setInitials}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 ---
 
 
-###setName{#setName}
+### setName {#setName}
 
 | Name | Description |
 | --- | --- |

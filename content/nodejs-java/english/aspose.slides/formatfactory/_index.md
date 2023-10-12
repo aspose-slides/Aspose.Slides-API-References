@@ -11,7 +11,7 @@ url: /aspose.slides/formatfactory/
 
  Allows to create formats via COM interface.
  
-###FormatFactory{#FormatFactory}
+### FormatFactory {#FormatFactory}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ FormatFactory
 ---
 
 
-###createParagraphFormat{#createParagraphFormat}
+### createParagraphFormat {#createParagraphFormat}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ FormatFactory
 ---
 
 
-###createPortionFormat{#createPortionFormat}
+### createPortionFormat {#createPortionFormat}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ FormatFactory
 ---
 
 
-###createTextFrameFormat{#createTextFrameFormat}
+### createTextFrameFormat {#createTextFrameFormat}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ FormatFactory
 ---
 
 
-###getInstance{#getInstance}
+### getInstance {#getInstance}
 
 | Name | Description |
 | --- | --- |

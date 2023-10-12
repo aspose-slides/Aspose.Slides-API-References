@@ -11,7 +11,7 @@ url: /aspose.slides/texttohtmlconversionoptions/
 
  Options for extracting HTML from the Pptx text.
  
-###TextToHtmlConversionOptions{#TextToHtmlConversionOptions}
+### TextToHtmlConversionOptions {#TextToHtmlConversionOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ TextToHtmlConversionOptions
 ---
 
 
-###getAddClipboardFragmentHeader{#getAddClipboardFragmentHeader}
+### getAddClipboardFragmentHeader {#getAddClipboardFragmentHeader}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getEncodingName{#getEncodingName}
+### getEncodingName {#getEncodingName}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ String
 ---
 
 
-###getLinkEmbedController{#getLinkEmbedController}
+### getLinkEmbedController {#getLinkEmbedController}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ String
 ---
 
 
-###getTextInheritanceLimit{#getTextInheritanceLimit}
+### getTextInheritanceLimit {#getTextInheritanceLimit}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###setAddClipboardFragmentHeader{#setAddClipboardFragmentHeader}
+### setAddClipboardFragmentHeader {#setAddClipboardFragmentHeader}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ int
 ---
 
 
-###setEncodingName{#setEncodingName}
+### setEncodingName {#setEncodingName}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ int
 ---
 
 
-###setLinkEmbedController{#setLinkEmbedController}
+### setLinkEmbedController {#setLinkEmbedController}
 
 | Name | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ int
 ---
 
 
-###setTextInheritanceLimit{#setTextInheritanceLimit}
+### setTextInheritanceLimit {#setTextInheritanceLimit}
 
 | Name | Description |
 | --- | --- |

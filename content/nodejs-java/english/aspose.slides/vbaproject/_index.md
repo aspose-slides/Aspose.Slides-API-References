@@ -11,7 +11,7 @@ url: /aspose.slides/vbaproject/
 
  Represents VBA project with presentation macros.
  
-###VbaProject{#VbaProject}
+### VbaProject {#VbaProject}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ VbaProject
 ---
 
 
-###VbaProject{#VbaProject}
+### VbaProject {#VbaProject}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ VbaProject
 ---
 
 
-###getModules{#getModules}
+### getModules {#getModules}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ VbaProject
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ String
 ---
 
 
-###getReferences{#getReferences}
+### getReferences {#getReferences}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 ---
 
 
-###toBinary{#toBinary}
+### toBinary {#toBinary}
 
 | Name | Description |
 | --- | --- |

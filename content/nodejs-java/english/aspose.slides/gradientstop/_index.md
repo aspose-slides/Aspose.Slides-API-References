@@ -11,7 +11,7 @@ url: /aspose.slides/gradientstop/
 
  Represents a gradient format.
  
-###getColor{#getColor}
+### getColor {#getColor}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/gradientstop/
 ---
 
 
-###getPosition{#getPosition}
+### getPosition {#getPosition}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ long
 ---
 
 
-###setPosition{#setPosition}
+### setPosition {#setPosition}
 
 | Name | Description |
 | --- | --- |

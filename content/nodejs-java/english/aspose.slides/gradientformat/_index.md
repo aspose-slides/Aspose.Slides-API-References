@@ -11,7 +11,7 @@ url: /aspose.slides/gradientformat/
 
  Represent a gradient format.
  
-###getGradientDirection{#getGradientDirection}
+### getGradientDirection {#getGradientDirection}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getGradientShape{#getGradientShape}
+### getGradientShape {#getGradientShape}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ byte
 ---
 
 
-###getGradientStops{#getGradientStops}
+### getGradientStops {#getGradientStops}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ byte
 ---
 
 
-###getLinearGradientAngle{#getLinearGradientAngle}
+### getLinearGradientAngle {#getLinearGradientAngle}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ float
 ---
 
 
-###getLinearGradientScaled{#getLinearGradientScaled}
+### getLinearGradientScaled {#getLinearGradientScaled}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ byte
 ---
 
 
-###getTileFlip{#getTileFlip}
+### getTileFlip {#getTileFlip}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ long
 ---
 
 
-###setGradientDirection{#setGradientDirection}
+### setGradientDirection {#setGradientDirection}
 
 | Name | Description |
 | --- | --- |
@@ -112,7 +112,7 @@ long
 ---
 
 
-###setGradientShape{#setGradientShape}
+### setGradientShape {#setGradientShape}
 
 | Name | Description |
 | --- | --- |
@@ -122,7 +122,7 @@ long
 ---
 
 
-###setLinearGradientAngle{#setLinearGradientAngle}
+### setLinearGradientAngle {#setLinearGradientAngle}
 
 | Name | Description |
 | --- | --- |
@@ -132,7 +132,7 @@ long
 ---
 
 
-###setLinearGradientScaled{#setLinearGradientScaled}
+### setLinearGradientScaled {#setLinearGradientScaled}
 
 | Name | Description |
 | --- | --- |
@@ -142,7 +142,7 @@ long
 ---
 
 
-###setTileFlip{#setTileFlip}
+### setTileFlip {#setTileFlip}
 
 | Name | Description |
 | --- | --- |

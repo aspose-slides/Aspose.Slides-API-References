@@ -13,13 +13,13 @@ url: /aspose.slides/masterlayoutslidecollection/
  Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering 
  layout slides in context of the individual collections of master's layout slides.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (byte, String) | Adds a new layout slide to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -39,13 +39,13 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([LayoutSlide](../layoutslide)) | Adds a copy of a specified layout slide to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -58,13 +58,13 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, byte, String) | Inserts a new layout slide to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -85,13 +85,13 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-###insertClone{#insertClone}
+### insertClone {#insertClone}
 
 | Name | Description |
 | --- | --- |
 | insertClone (int, [LayoutSlide](../layoutslide)) | Inserts a copy of a specified layout slide to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -105,13 +105,13 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the element at the specified index of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -127,13 +127,13 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-###reorder{#reorder}
+### reorder {#reorder}
 
 | Name | Description |
 | --- | --- |
 | reorder (int, [LayoutSlide](../layoutslide)) | Moves layout slide from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

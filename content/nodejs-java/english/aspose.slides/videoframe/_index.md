@@ -11,7 +11,7 @@ url: /aspose.slides/videoframe/
 
   Represents a video clip on a slide.
  
-###getEmbeddedVideo{#getEmbeddedVideo}
+### getEmbeddedVideo {#getEmbeddedVideo}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/videoframe/
 ---
 
 
-###getFullScreenMode{#getFullScreenMode}
+### getFullScreenMode {#getFullScreenMode}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getHideAtShowing{#getHideAtShowing}
+### getHideAtShowing {#getHideAtShowing}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getLinkPathLong{#getLinkPathLong}
+### getLinkPathLong {#getLinkPathLong}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ String
 ---
 
 
-###getPlayLoopMode{#getPlayLoopMode}
+### getPlayLoopMode {#getPlayLoopMode}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getPlayMode{#getPlayMode}
+### getPlayMode {#getPlayMode}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getRewindVideo{#getRewindVideo}
+### getRewindVideo {#getRewindVideo}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###getTrimFromEnd{#getTrimFromEnd}
+### getTrimFromEnd {#getTrimFromEnd}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ float
 ---
 
 
-###getTrimFromStart{#getTrimFromStart}
+### getTrimFromStart {#getTrimFromStart}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ float
 ---
 
 
-###getVolume{#getVolume}
+### getVolume {#getVolume}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ int
 ---
 
 
-###setEmbeddedVideo{#setEmbeddedVideo}
+### setEmbeddedVideo {#setEmbeddedVideo}
 
 | Name | Description |
 | --- | --- |
@@ -151,7 +151,7 @@ int
 ---
 
 
-###setFullScreenMode{#setFullScreenMode}
+### setFullScreenMode {#setFullScreenMode}
 
 | Name | Description |
 | --- | --- |
@@ -161,7 +161,7 @@ int
 ---
 
 
-###setHideAtShowing{#setHideAtShowing}
+### setHideAtShowing {#setHideAtShowing}
 
 | Name | Description |
 | --- | --- |
@@ -171,7 +171,7 @@ int
 ---
 
 
-###setLinkPathLong{#setLinkPathLong}
+### setLinkPathLong {#setLinkPathLong}
 
 | Name | Description |
 | --- | --- |
@@ -181,7 +181,7 @@ int
 ---
 
 
-###setPlayLoopMode{#setPlayLoopMode}
+### setPlayLoopMode {#setPlayLoopMode}
 
 | Name | Description |
 | --- | --- |
@@ -191,7 +191,7 @@ int
 ---
 
 
-###setPlayMode{#setPlayMode}
+### setPlayMode {#setPlayMode}
 
 | Name | Description |
 | --- | --- |
@@ -201,7 +201,7 @@ int
 ---
 
 
-###setRewindVideo{#setRewindVideo}
+### setRewindVideo {#setRewindVideo}
 
 | Name | Description |
 | --- | --- |
@@ -211,7 +211,7 @@ int
 ---
 
 
-###setTrimFromEnd{#setTrimFromEnd}
+### setTrimFromEnd {#setTrimFromEnd}
 
 | Name | Description |
 | --- | --- |
@@ -221,7 +221,7 @@ int
 ---
 
 
-###setTrimFromStart{#setTrimFromStart}
+### setTrimFromStart {#setTrimFromStart}
 
 | Name | Description |
 | --- | --- |
@@ -231,7 +231,7 @@ int
 ---
 
 
-###setVolume{#setVolume}
+### setVolume {#setVolume}
 
 | Name | Description |
 | --- | --- |

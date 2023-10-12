@@ -11,13 +11,13 @@ url: /aspose.slides/presentationanimationsgenerator/
 
  Represents a generator of the animations in the  Presentation.
  
-###PresentationAnimationsGenerator{#PresentationAnimationsGenerator}
+### PresentationAnimationsGenerator {#PresentationAnimationsGenerator}
 
 | Name | Description |
 | --- | --- |
 | PresentationAnimationsGenerator([Presentation](../presentation)) | Creates a new instance of the PresentationAnimationsGenerator. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ PresentationAnimationsGenerator
 ---
 
 
-###PresentationAnimationsGenerator{#PresentationAnimationsGenerator}
+### PresentationAnimationsGenerator {#PresentationAnimationsGenerator}
 
 | Name | Description |
 | --- | --- |
 | PresentationAnimationsGenerator(Dimension) | Creates a new instance of the PresentationAnimationsGenerator. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,13 +49,13 @@ PresentationAnimationsGenerator
 ---
 
 
-###PresentationAnimationsGenerator{#PresentationAnimationsGenerator}
+### PresentationAnimationsGenerator {#PresentationAnimationsGenerator}
 
 | Name | Description |
 | --- | --- |
 | PresentationAnimationsGenerator(Dimension2D) | Creates a new instance of the PresentationAnimationsGenerator. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ PresentationAnimationsGenerator
 ---
 
 
-###dispose{#dispose}
+### dispose {#dispose}
 
 | Name | Description |
 | --- | --- |
@@ -78,7 +78,7 @@ PresentationAnimationsGenerator
 ---
 
 
-###getDefaultDelay{#getDefaultDelay}
+### getDefaultDelay {#getDefaultDelay}
 
 | Name | Description |
 | --- | --- |
@@ -91,7 +91,7 @@ int
 ---
 
 
-###getExportedSlides{#getExportedSlides}
+### getExportedSlides {#getExportedSlides}
 
 | Name | Description |
 | --- | --- |
@@ -104,7 +104,7 @@ int
 ---
 
 
-###getFrameSize{#getFrameSize}
+### getFrameSize {#getFrameSize}
 
 | Name | Description |
 | --- | --- |
@@ -117,7 +117,7 @@ Dimension
 ---
 
 
-###getIncludeHiddenSlides{#getIncludeHiddenSlides}
+### getIncludeHiddenSlides {#getIncludeHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -130,7 +130,7 @@ boolean
 ---
 
 
-###run{#run}
+### run {#run}
 
 | Name | Description |
 | --- | --- |
@@ -140,7 +140,7 @@ boolean
 ---
 
 
-###run{#run}
+### run {#run}
 
 | Name | Description |
 | --- | --- |
@@ -150,7 +150,7 @@ boolean
 ---
 
 
-###setDefaultDelay{#setDefaultDelay}
+### setDefaultDelay {#setDefaultDelay}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ boolean
 ---
 
 
-###setIncludeHiddenSlides{#setIncludeHiddenSlides}
+### setIncludeHiddenSlides {#setIncludeHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -170,13 +170,13 @@ boolean
 ---
 
 
-###setNewAnimation{#setNewAnimation}
+### setNewAnimation {#setNewAnimation}
 
 | Name | Description |
 | --- | --- |
 | setNewAnimation ([PresentationAnimationsGenerator.NewAnimation](../presentationanimationsgenerator.newanimation)) | Set a new animation event. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

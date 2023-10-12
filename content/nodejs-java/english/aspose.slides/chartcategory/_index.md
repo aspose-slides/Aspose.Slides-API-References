@@ -11,7 +11,7 @@ url: /aspose.slides/chartcategory/
 
  Represents chart categories.
  
-###getAsCell{#getAsCell}
+### getAsCell {#getAsCell}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/chartcategory/
 ---
 
 
-###getAsLiteral{#getAsLiteral}
+### getAsLiteral {#getAsLiteral}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Object
 ---
 
 
-###getGroupingLevels{#getGroupingLevels}
+### getGroupingLevels {#getGroupingLevels}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ Object
 ---
 
 
-###getUseCell{#getUseCell}
+### getUseCell {#getUseCell}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getValue{#getValue}
+### getValue {#getValue}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ Object
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
@@ -92,7 +92,7 @@ Object
 ---
 
 
-###setAsCell{#setAsCell}
+### setAsCell {#setAsCell}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ Object
 ---
 
 
-###setAsLiteral{#setAsLiteral}
+### setAsLiteral {#setAsLiteral}
 
 | Name | Description |
 | --- | --- |
@@ -112,7 +112,7 @@ Object
 ---
 
 
-###setValue{#setValue}
+### setValue {#setValue}
 
 | Name | Description |
 | --- | --- |

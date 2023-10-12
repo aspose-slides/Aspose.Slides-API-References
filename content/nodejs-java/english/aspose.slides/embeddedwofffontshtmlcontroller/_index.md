@@ -11,7 +11,7 @@ url: /aspose.slides/embeddedwofffontshtmlcontroller/
 
  The formatting controller class to use for fonts embedding in WOFF format
  
-###EmbeddedWoffFontsHtmlController{#EmbeddedWoffFontsHtmlController}
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###EmbeddedWoffFontsHtmlController{#EmbeddedWoffFontsHtmlController}
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
 
 | Name | Description |
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###EmbeddedWoffFontsHtmlController{#EmbeddedWoffFontsHtmlController}
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
 
 | Name | Description |
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -62,13 +62,13 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###EmbeddedWoffFontsHtmlController{#EmbeddedWoffFontsHtmlController}
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
 
 | Name | Description |
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -81,13 +81,13 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###EmbeddedWoffFontsHtmlController{#EmbeddedWoffFontsHtmlController}
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
 
 | Name | Description |
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -100,13 +100,13 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###EmbeddedWoffFontsHtmlController{#EmbeddedWoffFontsHtmlController}
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
 
 | Name | Description |
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -119,7 +119,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeDocumentEnd{#writeDocumentEnd}
+### writeDocumentEnd {#writeDocumentEnd}
 
 | Name | Description |
 | --- | --- |
@@ -129,7 +129,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeDocumentStart{#writeDocumentStart}
+### writeDocumentStart {#writeDocumentStart}
 
 | Name | Description |
 | --- | --- |
@@ -139,7 +139,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -159,7 +159,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -169,7 +169,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -179,7 +179,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -189,7 +189,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -209,7 +209,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -229,7 +229,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -239,7 +239,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -249,7 +249,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -259,7 +259,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -269,7 +269,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -279,7 +279,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -289,7 +289,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -299,7 +299,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -309,7 +309,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -319,7 +319,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -329,7 +329,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -339,7 +339,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -349,7 +349,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -359,7 +359,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -369,7 +369,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -379,7 +379,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -389,7 +389,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -399,7 +399,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -409,7 +409,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -419,7 +419,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -429,7 +429,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -439,7 +439,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -449,7 +449,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -459,7 +459,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -469,7 +469,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -479,7 +479,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -489,7 +489,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -499,7 +499,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -509,7 +509,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -519,7 +519,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -529,7 +529,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -539,7 +539,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeSlideEnd{#writeSlideEnd}
+### writeSlideEnd {#writeSlideEnd}
 
 | Name | Description |
 | --- | --- |
@@ -549,7 +549,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-###writeSlideStart{#writeSlideStart}
+### writeSlideStart {#writeSlideStart}
 
 | Name | Description |
 | --- | --- |

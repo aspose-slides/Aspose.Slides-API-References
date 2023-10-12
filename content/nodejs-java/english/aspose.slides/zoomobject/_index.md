@@ -11,7 +11,7 @@ url: /aspose.slides/zoomobject/
 
  Represents an Zoom object in a slide.
  
-###getImage{#getImage}
+### getImage {#getImage}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/zoomobject/
 ---
 
 
-###getImageType{#getImageType}
+### getImageType {#getImageType}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getReturnToParent{#getReturnToParent}
+### getReturnToParent {#getReturnToParent}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getShowBackground{#getShowBackground}
+### getShowBackground {#getShowBackground}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getTransitionDuration{#getTransitionDuration}
+### getTransitionDuration {#getTransitionDuration}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ float
 ---
 
 
-###setImage{#setImage}
+### setImage {#setImage}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ float
 ---
 
 
-###setImageType{#setImageType}
+### setImageType {#setImageType}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ float
 ---
 
 
-###setReturnToParent{#setReturnToParent}
+### setReturnToParent {#setReturnToParent}
 
 | Name | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ float
 ---
 
 
-###setShowBackground{#setShowBackground}
+### setShowBackground {#setShowBackground}
 
 | Name | Description |
 | --- | --- |
@@ -116,7 +116,7 @@ float
 ---
 
 
-###setTransitionDuration{#setTransitionDuration}
+### setTransitionDuration {#setTransitionDuration}
 
 | Name | Description |
 | --- | --- |

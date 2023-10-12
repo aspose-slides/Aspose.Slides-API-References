@@ -11,7 +11,7 @@ url: /aspose.slides/chartdataworksheet/
 
  Represents worksheet associated with  IChartDataCell
  
-###getIndex{#getIndex}
+### getIndex {#getIndex}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/timing/
 
  Represents animation timing.
  
-###getAccelerate{#getAccelerate}
+### getAccelerate {#getAccelerate}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ float
 ---
 
 
-###getAutoReverse{#getAutoReverse}
+### getAutoReverse {#getAutoReverse}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getDecelerate{#getDecelerate}
+### getDecelerate {#getDecelerate}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getDuration{#getDuration}
+### getDuration {#getDuration}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ float
 ---
 
 
-###getRepeatCount{#getRepeatCount}
+### getRepeatCount {#getRepeatCount}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ float
 ---
 
 
-###getRepeatDuration{#getRepeatDuration}
+### getRepeatDuration {#getRepeatDuration}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ float
 ---
 
 
-###getRepeatUntilEndSlide{#getRepeatUntilEndSlide}
+### getRepeatUntilEndSlide {#getRepeatUntilEndSlide}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###getRepeatUntilNextClick{#getRepeatUntilNextClick}
+### getRepeatUntilNextClick {#getRepeatUntilNextClick}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###getRestart{#getRestart}
+### getRestart {#getRestart}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ int
 ---
 
 
-###getRewind{#getRewind}
+### getRewind {#getRewind}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ boolean
 ---
 
 
-###getSpeed{#getSpeed}
+### getSpeed {#getSpeed}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ float
 ---
 
 
-###getTriggerDelayTime{#getTriggerDelayTime}
+### getTriggerDelayTime {#getTriggerDelayTime}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ float
 ---
 
 
-###getTriggerType{#getTriggerType}
+### getTriggerType {#getTriggerType}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ int
 ---
 
 
-###setAccelerate{#setAccelerate}
+### setAccelerate {#setAccelerate}
 
 | Name | Description |
 | --- | --- |
@@ -190,7 +190,7 @@ int
 ---
 
 
-###setAutoReverse{#setAutoReverse}
+### setAutoReverse {#setAutoReverse}
 
 | Name | Description |
 | --- | --- |
@@ -200,7 +200,7 @@ int
 ---
 
 
-###setDecelerate{#setDecelerate}
+### setDecelerate {#setDecelerate}
 
 | Name | Description |
 | --- | --- |
@@ -210,7 +210,7 @@ int
 ---
 
 
-###setDuration{#setDuration}
+### setDuration {#setDuration}
 
 | Name | Description |
 | --- | --- |
@@ -220,7 +220,7 @@ int
 ---
 
 
-###setRepeatCount{#setRepeatCount}
+### setRepeatCount {#setRepeatCount}
 
 | Name | Description |
 | --- | --- |
@@ -230,7 +230,7 @@ int
 ---
 
 
-###setRepeatDuration{#setRepeatDuration}
+### setRepeatDuration {#setRepeatDuration}
 
 | Name | Description |
 | --- | --- |
@@ -240,7 +240,7 @@ int
 ---
 
 
-###setRepeatUntilEndSlide{#setRepeatUntilEndSlide}
+### setRepeatUntilEndSlide {#setRepeatUntilEndSlide}
 
 | Name | Description |
 | --- | --- |
@@ -250,7 +250,7 @@ int
 ---
 
 
-###setRepeatUntilNextClick{#setRepeatUntilNextClick}
+### setRepeatUntilNextClick {#setRepeatUntilNextClick}
 
 | Name | Description |
 | --- | --- |
@@ -260,7 +260,7 @@ int
 ---
 
 
-###setRestart{#setRestart}
+### setRestart {#setRestart}
 
 | Name | Description |
 | --- | --- |
@@ -270,7 +270,7 @@ int
 ---
 
 
-###setRewind{#setRewind}
+### setRewind {#setRewind}
 
 | Name | Description |
 | --- | --- |
@@ -280,7 +280,7 @@ int
 ---
 
 
-###setSpeed{#setSpeed}
+### setSpeed {#setSpeed}
 
 | Name | Description |
 | --- | --- |
@@ -290,7 +290,7 @@ int
 ---
 
 
-###setTriggerDelayTime{#setTriggerDelayTime}
+### setTriggerDelayTime {#setTriggerDelayTime}
 
 | Name | Description |
 | --- | --- |
@@ -300,7 +300,7 @@ int
 ---
 
 
-###setTriggerType{#setTriggerType}
+### setTriggerType {#setTriggerType}
 
 | Name | Description |
 | --- | --- |

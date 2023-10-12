@@ -11,7 +11,7 @@ url: /aspose.slides/paragraph/
 
  Represents a paragraph of text.
  
-###Paragraph{#Paragraph}
+### Paragraph {#Paragraph}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ Paragraph
 ---
 
 
-###Paragraph{#Paragraph}
+### Paragraph {#Paragraph}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Paragraph
 ---
 
 
-###getEndParagraphPortionFormat{#getEndParagraphPortionFormat}
+### getEndParagraphPortionFormat {#getEndParagraphPortionFormat}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ Paragraph
 ---
 
 
-###getParagraphFormat{#getParagraphFormat}
+### getParagraphFormat {#getParagraphFormat}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ Paragraph
 ---
 
 
-###getPortions{#getPortions}
+### getPortions {#getPortions}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ Paragraph
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ Paragraph
 ---
 
 
-###getRect{#getRect}
+### getRect {#getRect}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ Rectangle2D.Float
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ Rectangle2D.Float
 ---
 
 
-###getText{#getText}
+### getText {#getText}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ String
 ---
 
 
-###joinPortionsWithSameFormatting{#joinPortionsWithSameFormatting}
+### joinPortionsWithSameFormatting {#joinPortionsWithSameFormatting}
 
 | Name | Description |
 | --- | --- |
@@ -138,7 +138,7 @@ String
 ---
 
 
-###setEndParagraphPortionFormat{#setEndParagraphPortionFormat}
+### setEndParagraphPortionFormat {#setEndParagraphPortionFormat}
 
 | Name | Description |
 | --- | --- |
@@ -148,7 +148,7 @@ String
 ---
 
 
-###setText{#setText}
+### setText {#setText}
 
 | Name | Description |
 | --- | --- |

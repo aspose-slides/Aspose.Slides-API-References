@@ -11,7 +11,7 @@ url: /aspose.slides/legacydiagram/
 
  Represents a legacy diagram object.
  
-###convertToGroupShape{#convertToGroupShape}
+### convertToGroupShape {#convertToGroupShape}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/legacydiagram/
 ---
 
 
-###convertToSmartArt{#convertToSmartArt}
+### convertToSmartArt {#convertToSmartArt}
 
 | Name | Description |
 | --- | --- |

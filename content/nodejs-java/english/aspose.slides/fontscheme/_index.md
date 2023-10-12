@@ -11,7 +11,7 @@ url: /aspose.slides/fontscheme/
 
  Stores theme-defined fonts.
  
-###getMajor{#getMajor}
+### getMajor {#getMajor}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/fontscheme/
 ---
 
 
-###getMinor{#getMinor}
+### getMinor {#getMinor}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/fontscheme/
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ String
 ---
 
 
-###setName{#setName}
+### setName {#setName}
 
 | Name | Description |
 | --- | --- |

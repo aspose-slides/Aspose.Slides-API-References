@@ -11,7 +11,7 @@ url: /aspose.slides/cellformat/
 
  Represents format of a table cell.
  
-###getBorderBottom{#getBorderBottom}
+### getBorderBottom {#getBorderBottom}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-###getBorderDiagonalDown{#getBorderDiagonalDown}
+### getBorderDiagonalDown {#getBorderDiagonalDown}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-###getBorderDiagonalUp{#getBorderDiagonalUp}
+### getBorderDiagonalUp {#getBorderDiagonalUp}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-###getBorderLeft{#getBorderLeft}
+### getBorderLeft {#getBorderLeft}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-###getBorderRight{#getBorderRight}
+### getBorderRight {#getBorderRight}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-###getBorderTop{#getBorderTop}
+### getBorderTop {#getBorderTop}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ CellFormatEffectiveData
 ---
 
 
-###getFillFormat{#getFillFormat}
+### getFillFormat {#getFillFormat}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ CellFormatEffectiveData
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |

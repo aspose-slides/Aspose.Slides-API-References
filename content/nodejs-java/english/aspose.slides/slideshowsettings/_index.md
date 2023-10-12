@@ -11,7 +11,7 @@ url: /aspose.slides/slideshowsettings/
 
  Represents the slide show settings for the presentation.
  
-###getLoop{#getLoop}
+### getLoop {#getLoop}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ boolean
 ---
 
 
-###getPenColor{#getPenColor}
+### getPenColor {#getPenColor}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getShowAnimation{#getShowAnimation}
+### getShowAnimation {#getShowAnimation}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getShowMediaControls{#getShowMediaControls}
+### getShowMediaControls {#getShowMediaControls}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getShowNarration{#getShowNarration}
+### getShowNarration {#getShowNarration}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getSlideShowType{#getSlideShowType}
+### getSlideShowType {#getSlideShowType}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ SlideShowType
 ---
 
 
-###getSlides{#getSlides}
+### getSlides {#getSlides}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ SlidesRange
 ---
 
 
-###getUseTimings{#getUseTimings}
+### getUseTimings {#getUseTimings}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###setLoop{#setLoop}
+### setLoop {#setLoop}
 
 | Name | Description |
 | --- | --- |
@@ -125,7 +125,7 @@ boolean
 ---
 
 
-###setShowAnimation{#setShowAnimation}
+### setShowAnimation {#setShowAnimation}
 
 | Name | Description |
 | --- | --- |
@@ -135,7 +135,7 @@ boolean
 ---
 
 
-###setShowMediaControls{#setShowMediaControls}
+### setShowMediaControls {#setShowMediaControls}
 
 | Name | Description |
 | --- | --- |
@@ -145,7 +145,7 @@ boolean
 ---
 
 
-###setShowNarration{#setShowNarration}
+### setShowNarration {#setShowNarration}
 
 | Name | Description |
 | --- | --- |
@@ -155,7 +155,7 @@ boolean
 ---
 
 
-###setSlideShowType{#setSlideShowType}
+### setSlideShowType {#setSlideShowType}
 
 | Name | Description |
 | --- | --- |
@@ -165,7 +165,7 @@ boolean
 ---
 
 
-###setSlides{#setSlides}
+### setSlides {#setSlides}
 
 | Name | Description |
 | --- | --- |
@@ -175,7 +175,7 @@ boolean
 ---
 
 
-###setUseTimings{#setUseTimings}
+### setUseTimings {#setUseTimings}
 
 | Name | Description |
 | --- | --- |

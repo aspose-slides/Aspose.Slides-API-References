@@ -11,7 +11,7 @@ url: /aspose.slides/effectformat/
 
  Represents effect properties of shape.
  
-###disableBlurEffect{#disableBlurEffect}
+### disableBlurEffect {#disableBlurEffect}
 
 | Name | Description |
 | --- | --- |
@@ -21,7 +21,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###disableFillOverlayEffect{#disableFillOverlayEffect}
+### disableFillOverlayEffect {#disableFillOverlayEffect}
 
 | Name | Description |
 | --- | --- |
@@ -31,7 +31,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###disableGlowEffect{#disableGlowEffect}
+### disableGlowEffect {#disableGlowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -41,7 +41,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###disableInnerShadowEffect{#disableInnerShadowEffect}
+### disableInnerShadowEffect {#disableInnerShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -51,7 +51,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###disableOuterShadowEffect{#disableOuterShadowEffect}
+### disableOuterShadowEffect {#disableOuterShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -61,7 +61,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###disablePresetShadowEffect{#disablePresetShadowEffect}
+### disablePresetShadowEffect {#disablePresetShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -71,7 +71,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###disableReflectionEffect{#disableReflectionEffect}
+### disableReflectionEffect {#disableReflectionEffect}
 
 | Name | Description |
 | --- | --- |
@@ -81,7 +81,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###disableSoftEdgeEffect{#disableSoftEdgeEffect}
+### disableSoftEdgeEffect {#disableSoftEdgeEffect}
 
 | Name | Description |
 | --- | --- |
@@ -91,7 +91,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###enableFillOverlayEffect{#enableFillOverlayEffect}
+### enableFillOverlayEffect {#enableFillOverlayEffect}
 
 | Name | Description |
 | --- | --- |
@@ -101,7 +101,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###enableGlowEffect{#enableGlowEffect}
+### enableGlowEffect {#enableGlowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -111,7 +111,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###enableInnerShadowEffect{#enableInnerShadowEffect}
+### enableInnerShadowEffect {#enableInnerShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###enableOuterShadowEffect{#enableOuterShadowEffect}
+### enableOuterShadowEffect {#enableOuterShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -131,7 +131,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###enablePresetShadowEffect{#enablePresetShadowEffect}
+### enablePresetShadowEffect {#enablePresetShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###enableReflectionEffect{#enableReflectionEffect}
+### enableReflectionEffect {#enableReflectionEffect}
 
 | Name | Description |
 | --- | --- |
@@ -151,7 +151,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###enableSoftEdgeEffect{#enableSoftEdgeEffect}
+### enableSoftEdgeEffect {#enableSoftEdgeEffect}
 
 | Name | Description |
 | --- | --- |
@@ -161,7 +161,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###getBlurEffect{#getBlurEffect}
+### getBlurEffect {#getBlurEffect}
 
 | Name | Description |
 | --- | --- |
@@ -174,7 +174,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -187,7 +187,7 @@ EffectFormatEffectiveData
 ---
 
 
-###getFillOverlayEffect{#getFillOverlayEffect}
+### getFillOverlayEffect {#getFillOverlayEffect}
 
 | Name | Description |
 | --- | --- |
@@ -200,7 +200,7 @@ EffectFormatEffectiveData
 ---
 
 
-###getGlowEffect{#getGlowEffect}
+### getGlowEffect {#getGlowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -213,7 +213,7 @@ EffectFormatEffectiveData
 ---
 
 
-###getInnerShadowEffect{#getInnerShadowEffect}
+### getInnerShadowEffect {#getInnerShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -226,7 +226,7 @@ EffectFormatEffectiveData
 ---
 
 
-###getOuterShadowEffect{#getOuterShadowEffect}
+### getOuterShadowEffect {#getOuterShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -239,7 +239,7 @@ EffectFormatEffectiveData
 ---
 
 
-###getPresetShadowEffect{#getPresetShadowEffect}
+### getPresetShadowEffect {#getPresetShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -252,7 +252,7 @@ EffectFormatEffectiveData
 ---
 
 
-###getReflectionEffect{#getReflectionEffect}
+### getReflectionEffect {#getReflectionEffect}
 
 | Name | Description |
 | --- | --- |
@@ -265,7 +265,7 @@ EffectFormatEffectiveData
 ---
 
 
-###getSoftEdgeEffect{#getSoftEdgeEffect}
+### getSoftEdgeEffect {#getSoftEdgeEffect}
 
 | Name | Description |
 | --- | --- |
@@ -278,7 +278,7 @@ EffectFormatEffectiveData
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -291,7 +291,7 @@ long
 ---
 
 
-###isNoEffects{#isNoEffects}
+### isNoEffects {#isNoEffects}
 
 | Name | Description |
 | --- | --- |
@@ -304,7 +304,7 @@ boolean
 ---
 
 
-###setBlurEffect{#setBlurEffect}
+### setBlurEffect {#setBlurEffect}
 
 | Name | Description |
 | --- | --- |
@@ -314,13 +314,13 @@ boolean
 ---
 
 
-###setBlurEffect{#setBlurEffect}
+### setBlurEffect {#setBlurEffect}
 
 | Name | Description |
 | --- | --- |
 | setBlurEffect (double, boolean) | Sets blur effect. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -331,7 +331,7 @@ boolean
 ---
 
 
-###setFillOverlayEffect{#setFillOverlayEffect}
+### setFillOverlayEffect {#setFillOverlayEffect}
 
 | Name | Description |
 | --- | --- |
@@ -341,7 +341,7 @@ boolean
 ---
 
 
-###setGlowEffect{#setGlowEffect}
+### setGlowEffect {#setGlowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -351,7 +351,7 @@ boolean
 ---
 
 
-###setInnerShadowEffect{#setInnerShadowEffect}
+### setInnerShadowEffect {#setInnerShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -361,7 +361,7 @@ boolean
 ---
 
 
-###setOuterShadowEffect{#setOuterShadowEffect}
+### setOuterShadowEffect {#setOuterShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -371,7 +371,7 @@ boolean
 ---
 
 
-###setPresetShadowEffect{#setPresetShadowEffect}
+### setPresetShadowEffect {#setPresetShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -381,7 +381,7 @@ boolean
 ---
 
 
-###setReflectionEffect{#setReflectionEffect}
+### setReflectionEffect {#setReflectionEffect}
 
 | Name | Description |
 | --- | --- |
@@ -391,7 +391,7 @@ boolean
 ---
 
 
-###setSoftEdgeEffect{#setSoftEdgeEffect}
+### setSoftEdgeEffect {#setSoftEdgeEffect}
 
 | Name | Description |
 | --- | --- |

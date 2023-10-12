@@ -11,7 +11,7 @@ url: /aspose.slides/fonts/
 
  Fonts collection.
  
-###getComplexScriptFont{#getComplexScriptFont}
+### getComplexScriptFont {#getComplexScriptFont}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/fonts/
 ---
 
 
-###getEastAsianFont{#getEastAsianFont}
+### getEastAsianFont {#getEastAsianFont}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/fonts/
 ---
 
 
-###getLatinFont{#getLatinFont}
+### getLatinFont {#getLatinFont}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/fonts/
 ---
 
 
-###setComplexScriptFont{#setComplexScriptFont}
+### setComplexScriptFont {#setComplexScriptFont}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ url: /aspose.slides/fonts/
 ---
 
 
-###setEastAsianFont{#setEastAsianFont}
+### setEastAsianFont {#setEastAsianFont}
 
 | Name | Description |
 | --- | --- |
@@ -70,7 +70,7 @@ url: /aspose.slides/fonts/
 ---
 
 
-###setLatinFont{#setLatinFont}
+### setLatinFont {#setLatinFont}
 
 | Name | Description |
 | --- | --- |

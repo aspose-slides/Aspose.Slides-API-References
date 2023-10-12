@@ -11,13 +11,13 @@ url: /aspose.slides/fontfallbackrule/
 
  Represents font fallback rule
  
-###FontFallBackRule{#FontFallBackRule}
+### FontFallBackRule {#FontFallBackRule}
 
 | Name | Description |
 | --- | --- |
 | FontFallBackRule(long, long, String) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -32,13 +32,13 @@ FontFallBackRule
 ---
 
 
-###FontFallBackRule{#FontFallBackRule}
+### FontFallBackRule {#FontFallBackRule}
 
 | Name | Description |
 | --- | --- |
 | FontFallBackRule(long, long, java.lang.String[]) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -53,13 +53,13 @@ FontFallBackRule
 ---
 
 
-###addFallBackFonts{#addFallBackFonts}
+### addFallBackFonts {#addFallBackFonts}
 
 | Name | Description |
 | --- | --- |
 | addFallBackFonts (String) | Adds a new font(s) to the list of FallBack fonts. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -69,13 +69,13 @@ FontFallBackRule
 ---
 
 
-###addFallBackFonts{#addFallBackFonts}
+### addFallBackFonts {#addFallBackFonts}
 
 | Name | Description |
 | --- | --- |
 | addFallBackFonts (java.lang.String[]) | Adds a new fonts to the list of FallBack fonts. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -85,7 +85,7 @@ FontFallBackRule
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ FontFallBackRule
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ int
 ---
 
 
-###getRangeEndIndex{#getRangeEndIndex}
+### getRangeEndIndex {#getRangeEndIndex}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ long
 ---
 
 
-###getRangeStartIndex{#getRangeStartIndex}
+### getRangeStartIndex {#getRangeStartIndex}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ long
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -147,13 +147,13 @@ String
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf (String) | Returns an index of the specified rule in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -166,13 +166,13 @@ int
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove (String) | Removes the first occurrence of a specific FallBack font from the list. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -182,13 +182,13 @@ int
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the FallBack font at the specified index of the list. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -198,7 +198,7 @@ int
 ---
 
 
-###setRangeEndIndex{#setRangeEndIndex}
+### setRangeEndIndex {#setRangeEndIndex}
 
 | Name | Description |
 | --- | --- |
@@ -208,7 +208,7 @@ int
 ---
 
 
-###setRangeStartIndex{#setRangeStartIndex}
+### setRangeStartIndex {#setRangeStartIndex}
 
 | Name | Description |
 | --- | --- |
@@ -218,7 +218,7 @@ int
 ---
 
 
-###toArray{#toArray}
+### toArray {#toArray}
 
 | Name | Description |
 | --- | --- |
@@ -231,13 +231,13 @@ String
 ---
 
 
-###toArray{#toArray}
+### toArray {#toArray}
 
 | Name | Description |
 | --- | --- |
 | toArray (int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. // Create a rule contains a list of fonts. IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman"); // Get a last two font names as array. String[] fontNames = newRule.toArray(2, 2); |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

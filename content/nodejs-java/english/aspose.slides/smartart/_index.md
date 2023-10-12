@@ -11,7 +11,7 @@ url: /aspose.slides/smartart/
 
  Represents a SmartArt diagram
  
-###getAllNodes{#getAllNodes}
+### getAllNodes {#getAllNodes}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/smartart/
 ---
 
 
-###getColorStyle{#getColorStyle}
+### getColorStyle {#getColorStyle}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getLayout{#getLayout}
+### getLayout {#getLayout}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getNodes{#getNodes}
+### getNodes {#getNodes}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getQuickStyle{#getQuickStyle}
+### getQuickStyle {#getQuickStyle}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###isReversed{#isReversed}
+### isReversed {#isReversed}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###setColorStyle{#setColorStyle}
+### setColorStyle {#setColorStyle}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ boolean
 ---
 
 
-###setLayout{#setLayout}
+### setLayout {#setLayout}
 
 | Name | Description |
 | --- | --- |
@@ -109,7 +109,7 @@ boolean
 ---
 
 
-###setQuickStyle{#setQuickStyle}
+### setQuickStyle {#setQuickStyle}
 
 | Name | Description |
 | --- | --- |
@@ -119,7 +119,7 @@ boolean
 ---
 
 
-###setReversed{#setReversed}
+### setReversed {#setReversed}
 
 | Name | Description |
 | --- | --- |

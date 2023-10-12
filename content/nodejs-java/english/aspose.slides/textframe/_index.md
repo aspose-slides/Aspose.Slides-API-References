@@ -11,7 +11,7 @@ url: /aspose.slides/textframe/
 
   Represents a TextFrame.
  
-###getHyperlinkQueries{#getHyperlinkQueries}
+### getHyperlinkQueries {#getHyperlinkQueries}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/textframe/
 ---
 
 
-###getParagraphs{#getParagraphs}
+### getParagraphs {#getParagraphs}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/textframe/
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/textframe/
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ url: /aspose.slides/textframe/
 ---
 
 
-###getText{#getText}
+### getText {#getText}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 ---
 
 
-###getTextFrameFormat{#getTextFrameFormat}
+### getTextFrameFormat {#getTextFrameFormat}
 
 | Name | Description |
 | --- | --- |
@@ -89,13 +89,13 @@ String
 ---
 
 
-###highlightRegex{#highlightRegex}
+### highlightRegex {#highlightRegex}
 
 | Name | Description |
 | --- | --- |
 | highlightRegex (String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of regular expression in text frame text using specified color. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -107,13 +107,13 @@ String
 ---
 
 
-###highlightText{#highlightText}
+### highlightText {#highlightText}
 
 | Name | Description |
 | --- | --- |
 | highlightText (String, Color) | Highlight all matches of sample in text frame text using specified color. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -124,13 +124,13 @@ String
 ---
 
 
-###highlightText{#highlightText}
+### highlightText {#highlightText}
 
 | Name | Description |
 | --- | --- |
 | highlightText (String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of sample in text frame text using specified color. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -142,7 +142,7 @@ String
 ---
 
 
-###joinPortionsWithSameFormatting{#joinPortionsWithSameFormatting}
+### joinPortionsWithSameFormatting {#joinPortionsWithSameFormatting}
 
 | Name | Description |
 | --- | --- |
@@ -152,7 +152,7 @@ String
 ---
 
 
-###setText{#setText}
+### setText {#setText}
 
 | Name | Description |
 | --- | --- |

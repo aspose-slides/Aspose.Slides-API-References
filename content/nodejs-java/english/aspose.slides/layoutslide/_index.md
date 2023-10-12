@@ -11,7 +11,7 @@ url: /aspose.slides/layoutslide/
 
  Represents a layout slide.
  
-###getDependingSlides{#getDependingSlides}
+### getDependingSlides {#getDependingSlides}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/layoutslide/
 ---
 
 
-###getHeaderFooterManager{#getHeaderFooterManager}
+### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/layoutslide/
 ---
 
 
-###getLayoutType{#getLayoutType}
+### getLayoutType {#getLayoutType}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ byte
 ---
 
 
-###getMasterSlide{#getMasterSlide}
+### getMasterSlide {#getMasterSlide}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ byte
 ---
 
 
-###getShowMasterShapes{#getShowMasterShapes}
+### getShowMasterShapes {#getShowMasterShapes}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getThemeManager{#getThemeManager}
+### getThemeManager {#getThemeManager}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###hasDependingSlides{#hasDependingSlides}
+### hasDependingSlides {#hasDependingSlides}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
@@ -118,7 +118,7 @@ boolean
 ---
 
 
-###setMasterSlide{#setMasterSlide}
+### setMasterSlide {#setMasterSlide}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-###setShowMasterShapes{#setShowMasterShapes}
+### setShowMasterShapes {#setShowMasterShapes}
 
 | Name | Description |
 | --- | --- |

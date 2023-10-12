@@ -11,13 +11,13 @@ url: /aspose.slides/sectioncollection/
 
  Represents a collection of sections.
  
-###addEmptySection{#addEmptySection}
+### addEmptySection {#addEmptySection}
 
 | Name | Description |
 | --- | --- |
 | addEmptySection (String, int) | Add empty section to specified position of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +31,13 @@ url: /aspose.slides/sectioncollection/
 ---
 
 
-###addSection{#addSection}
+### addSection {#addSection}
 
 | Name | Description |
 | --- | --- |
 | addSection (String, [Slide](../slide)) | Add slides section started form specific slide. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -51,13 +51,13 @@ url: /aspose.slides/sectioncollection/
 ---
 
 
-###appendEmptySection{#appendEmptySection}
+### appendEmptySection {#appendEmptySection}
 
 | Name | Description |
 | --- | --- |
 | appendEmptySection (String) | Add empty section to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ url: /aspose.slides/sectioncollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -80,7 +80,7 @@ url: /aspose.slides/sectioncollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -93,7 +93,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -106,13 +106,13 @@ Object
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([Section](../section)) | Returns an index of the specified section in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -125,7 +125,7 @@ int
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -138,7 +138,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -151,7 +151,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -164,13 +164,13 @@ boolean
 ---
 
 
-###removeSection{#removeSection}
+### removeSection {#removeSection}
 
 | Name | Description |
 | --- | --- |
 | removeSection ([Section](../section)) | Remove section. Slides contained in the section will be merged into previous section. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -180,13 +180,13 @@ boolean
 ---
 
 
-###removeSectionWithSlides{#removeSectionWithSlides}
+### removeSectionWithSlides {#removeSectionWithSlides}
 
 | Name | Description |
 | --- | --- |
 | removeSectionWithSlides ([Section](../section)) | Remove section and slides contained in the section. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -196,13 +196,13 @@ boolean
 ---
 
 
-###reorderSectionWithSlides{#reorderSectionWithSlides}
+### reorderSectionWithSlides {#reorderSectionWithSlides}
 
 | Name | Description |
 | --- | --- |
 | reorderSectionWithSlides ([Section](../section), int) | Moves section and its slides from the collection to the specified position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -213,7 +213,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

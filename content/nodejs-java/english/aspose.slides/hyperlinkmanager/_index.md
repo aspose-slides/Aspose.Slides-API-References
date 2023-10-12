@@ -11,7 +11,7 @@ url: /aspose.slides/hyperlinkmanager/
 
  Provide hyperlinks management (adding, removing).
  
-###removeHyperlinkClick{#removeHyperlinkClick}
+### removeHyperlinkClick {#removeHyperlinkClick}
 
 | Name | Description |
 | --- | --- |
@@ -21,7 +21,7 @@ url: /aspose.slides/hyperlinkmanager/
 ---
 
 
-###removeHyperlinkMouseOver{#removeHyperlinkMouseOver}
+### removeHyperlinkMouseOver {#removeHyperlinkMouseOver}
 
 | Name | Description |
 | --- | --- |
@@ -31,13 +31,13 @@ url: /aspose.slides/hyperlinkmanager/
 ---
 
 
-###setExternalHyperlinkClick{#setExternalHyperlinkClick}
+### setExternalHyperlinkClick {#setExternalHyperlinkClick}
 
 | Name | Description |
 | --- | --- |
 | setExternalHyperlinkClick (String) | Set external hyperlink on click. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -50,13 +50,13 @@ url: /aspose.slides/hyperlinkmanager/
 ---
 
 
-###setExternalHyperlinkMouseOver{#setExternalHyperlinkMouseOver}
+### setExternalHyperlinkMouseOver {#setExternalHyperlinkMouseOver}
 
 | Name | Description |
 | --- | --- |
 | setExternalHyperlinkMouseOver (String) | Sets external hyperlink mouse over. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -69,13 +69,13 @@ url: /aspose.slides/hyperlinkmanager/
 ---
 
 
-###setInternalHyperlinkClick{#setInternalHyperlinkClick}
+### setInternalHyperlinkClick {#setInternalHyperlinkClick}
 
 | Name | Description |
 | --- | --- |
 | setInternalHyperlinkClick ([Slide](../slide)) | Sets internal hyperlink on click. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -88,13 +88,13 @@ url: /aspose.slides/hyperlinkmanager/
 ---
 
 
-###setInternalHyperlinkMouseOver{#setInternalHyperlinkMouseOver}
+### setInternalHyperlinkMouseOver {#setInternalHyperlinkMouseOver}
 
 | Name | Description |
 | --- | --- |
 | setInternalHyperlinkMouseOver ([Slide](../slide)) | Sets internal hyperlink mouse over. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -107,13 +107,13 @@ url: /aspose.slides/hyperlinkmanager/
 ---
 
 
-###setMacroHyperlinkClick{#setMacroHyperlinkClick}
+### setMacroHyperlinkClick {#setMacroHyperlinkClick}
 
 | Name | Description |
 | --- | --- |
 | setMacroHyperlinkClick (String) | Set Macro hyperlink on a click. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

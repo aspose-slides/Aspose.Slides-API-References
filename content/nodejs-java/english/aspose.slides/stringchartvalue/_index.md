@@ -13,7 +13,7 @@ url: /aspose.slides/stringchartvalue/
  1) in cell/cells of workbook related to chart;
  2) as literal value.
  
-###getAsCells{#getAsCells}
+### getAsCells {#getAsCells}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ url: /aspose.slides/stringchartvalue/
 ---
 
 
-###getAsLiteralString{#getAsLiteralString}
+### getAsLiteralString {#getAsLiteralString}
 
 | Name | Description |
 | --- | --- |
@@ -39,7 +39,7 @@ String
 ---
 
 
-###getCellsAddressInWorkbook{#getCellsAddressInWorkbook}
+### getCellsAddressInWorkbook {#getCellsAddressInWorkbook}
 
 | Name | Description |
 | --- | --- |
@@ -52,7 +52,7 @@ String
 ---
 
 
-###getData{#getData}
+### getData {#getData}
 
 | Name | Description |
 | --- | --- |
@@ -65,7 +65,7 @@ Object
 ---
 
 
-###setAsCells{#setAsCells}
+### setAsCells {#setAsCells}
 
 | Name | Description |
 | --- | --- |
@@ -75,7 +75,7 @@ Object
 ---
 
 
-###setAsLiteralString{#setAsLiteralString}
+### setAsLiteralString {#setAsLiteralString}
 
 | Name | Description |
 | --- | --- |
@@ -85,7 +85,7 @@ Object
 ---
 
 
-###setData{#setData}
+### setData {#setData}
 
 | Name | Description |
 | --- | --- |
@@ -95,13 +95,13 @@ Object
 ---
 
 
-###setFromOneCell{#setFromOneCell}
+### setFromOneCell {#setFromOneCell}
 
 | Name | Description |
 | --- | --- |
 | setFromOneCell ([ChartDataCell](../chartdatacell)) | Sets value from specified cell. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -111,7 +111,7 @@ Object
 ---
 
 
-###toString{#toString}
+### toString {#toString}
 
 | Name | Description |
 | --- | --- |

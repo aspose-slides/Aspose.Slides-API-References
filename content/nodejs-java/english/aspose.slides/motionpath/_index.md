@@ -11,7 +11,7 @@ url: /aspose.slides/motionpath/
 
  Represent motion path.
  
-###MotionPath{#MotionPath}
+### MotionPath {#MotionPath}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ MotionPath
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (int, java.awt.geom.Point2D.Float[], int, boolean) | Add new command to path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -46,7 +46,7 @@ MotionPath
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ MotionPath
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -69,13 +69,13 @@ int
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns a command at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -88,13 +88,13 @@ int
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, int, java.awt.geom.Point2D.Float[], int, boolean) | Insert new command to path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -108,7 +108,7 @@ int
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ int
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -134,13 +134,13 @@ int
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([MotionCmdPath](../motioncmdpath)) | Removes specified commans from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -150,13 +150,13 @@ int
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes a command at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

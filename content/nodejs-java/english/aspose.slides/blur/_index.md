@@ -12,13 +12,13 @@ url: /aspose.slides/blur/
  Represents a Blur effect that is applied to the entire shape, including its fill.
  All color channels, including alpha, are affected.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified Blur is equal to the current Blur. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ boolean
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ BlurEffectiveData
 ---
 
 
-###getGrow{#getGrow}
+### getGrow {#getGrow}
 
 | Name | Description |
 | --- | --- |
@@ -57,7 +57,7 @@ boolean
 ---
 
 
-###getRadius{#getRadius}
+### getRadius {#getRadius}
 
 | Name | Description |
 | --- | --- |
@@ -70,7 +70,7 @@ double
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ int
 ---
 
 
-###setGrow{#setGrow}
+### setGrow {#setGrow}
 
 | Name | Description |
 | --- | --- |
@@ -93,7 +93,7 @@ int
 ---
 
 
-###setRadius{#setRadius}
+### setRadius {#setRadius}
 
 | Name | Description |
 | --- | --- |

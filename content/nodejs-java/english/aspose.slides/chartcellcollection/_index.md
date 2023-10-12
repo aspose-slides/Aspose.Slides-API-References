@@ -11,13 +11,13 @@ url: /aspose.slides/chartcellcollection/
 
  Represents collection of a cells with data.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([ChartDataCell](../chartdatacell)) | Add new cell to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -27,13 +27,13 @@ url: /aspose.slides/chartcellcollection/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (Object) | Creates ChartDataCell from specified value and adds it to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ url: /aspose.slides/chartcellcollection/
 ---
 
 
-###getCellsAddress{#getCellsAddress}
+### getCellsAddress {#getCellsAddress}
 
 | Name | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ String
 ---
 
 
-###getConcatenatedValuesFromCells{#getConcatenatedValuesFromCells}
+### getConcatenatedValuesFromCells {#getConcatenatedValuesFromCells}
 
 | Name | Description |
 | --- | --- |
@@ -75,7 +75,7 @@ String
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -88,13 +88,13 @@ int
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns a cell (IChartDataCell) by index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -107,7 +107,7 @@ int
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -120,7 +120,7 @@ int
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -133,13 +133,13 @@ int
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes a cell from the collection by index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

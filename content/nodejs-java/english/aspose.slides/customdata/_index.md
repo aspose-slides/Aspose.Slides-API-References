@@ -11,7 +11,7 @@ url: /aspose.slides/customdata/
 
  Represents container for custom data.
  
-###getCustomXmlParts{#getCustomXmlParts}
+### getCustomXmlParts {#getCustomXmlParts}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/customdata/
 ---
 
 
-###getTags{#getTags}
+### getTags {#getTags}
 
 | Name | Description |
 | --- | --- |

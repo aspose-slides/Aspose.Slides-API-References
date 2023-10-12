@@ -11,7 +11,7 @@ url: /aspose.slides/svgtspan/
 
  Represents options for SVG text portion ("tspan").
  
-###getId{#getId}
+### getId {#getId}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ String
 ---
 
 
-###setId{#setId}
+### setId {#setId}
 
 | Name | Description |
 | --- | --- |

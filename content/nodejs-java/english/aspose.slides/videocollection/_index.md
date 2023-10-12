@@ -11,13 +11,13 @@ url: /aspose.slides/videocollection/
 
  Represents a collection of Video objects.
  
-###addVideo{#addVideo}
+### addVideo {#addVideo}
 
 | Name | Description |
 | --- | --- |
 | addVideo ([Video](../video)) | Adds a copy of an video file from an another presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ url: /aspose.slides/videocollection/
 ---
 
 
-###addVideoFromStream {#addVideoFromStream }
+### addVideoFromStream  {#addVideoFromStream }
 
 | Name | Description |
 | --- | --- |
 | addVideoFromStream  (VideoCollection, ReadStream, Function) | Creates and adds a video to a presentation from stream. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -51,13 +51,13 @@ url: /aspose.slides/videocollection/
 ---
 
 
-###addVideoFromStream {#addVideoFromStream }
+### addVideoFromStream  {#addVideoFromStream }
 
 | Name | Description |
 | --- | --- |
 | addVideoFromStream  (VideoCollection, ReadStream, int, Function) | Creates and adds a video to a presentation from stream. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -73,13 +73,13 @@ url: /aspose.slides/videocollection/
 ---
 
 
-###addVideo{#addVideo}
+### addVideo {#addVideo}
 
 | Name | Description |
 | --- | --- |
 | addVideo (byte[]) | Creates and adds a video to a presentation from byte array. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -92,7 +92,7 @@ url: /aspose.slides/videocollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -105,7 +105,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -118,7 +118,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -131,7 +131,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -144,7 +144,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -157,7 +157,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

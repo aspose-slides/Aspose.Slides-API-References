@@ -11,7 +11,7 @@ url: /aspose.slides/cellinvalidformulaexception/
 
  The exception that is thrown when a calculated formula is not correct or was not parsed. 
  
-###CellInvalidFormulaException{#CellInvalidFormulaException}
+### CellInvalidFormulaException {#CellInvalidFormulaException}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ CellInvalidFormulaException
 ---
 
 
-###CellInvalidFormulaException{#CellInvalidFormulaException}
+### CellInvalidFormulaException {#CellInvalidFormulaException}
 
 | Name | Description |
 | --- | --- |
 | CellInvalidFormulaException(String) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ CellInvalidFormulaException
 ---
 
 
-###CellInvalidFormulaException{#CellInvalidFormulaException}
+### CellInvalidFormulaException {#CellInvalidFormulaException}
 
 | Name | Description |
 | --- | --- |
 | CellInvalidFormulaException(String, RuntimeException) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -63,13 +63,13 @@ CellInvalidFormulaException
 ---
 
 
-###CellInvalidFormulaException{#CellInvalidFormulaException}
+### CellInvalidFormulaException {#CellInvalidFormulaException}
 
 | Name | Description |
 | --- | --- |
 | CellInvalidFormulaException(String, String) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a cell reference that contains the invalid formula. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -83,7 +83,7 @@ CellInvalidFormulaException
 ---
 
 
-###getReference{#getReference}
+### getReference {#getReference}
 
 | Name | Description |
 | --- | --- |

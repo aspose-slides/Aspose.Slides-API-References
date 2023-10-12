@@ -11,13 +11,13 @@ url: /aspose.slides/piesplitcustompointcollection/
 
  Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (int) | Adds data point by its index in parent series points collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -33,13 +33,13 @@ url: /aspose.slides/piesplitcustompointcollection/
 ---
 
 
-###addItem{#addItem}
+### addItem {#addItem}
 
 | Name | Description |
 | --- | --- |
 | addItem ([ChartDataPoint](../chartdatapoint)) | Adds data point to collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ url: /aspose.slides/piesplitcustompointcollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -59,13 +59,13 @@ url: /aspose.slides/piesplitcustompointcollection/
 ---
 
 
-###containsItem{#containsItem}
+### containsItem {#containsItem}
 
 | Name | Description |
 | --- | --- |
 | containsItem ([ChartDataPoint](../chartdatapoint)) | Determines whether the IGenericCollection contains a specific value. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -78,13 +78,13 @@ boolean
 ---
 
 
-###copyToTArray{#copyToTArray}
+### copyToTArray {#copyToTArray}
 
 | Name | Description |
 | --- | --- |
 | copyToTArray (com.aspose.slides.IChartDataPoint[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -101,7 +101,7 @@ boolean
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -114,13 +114,13 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns chart data point for specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -133,7 +133,7 @@ Object
 ---
 
 
-###isReadOnly{#isReadOnly}
+### isReadOnly {#isReadOnly}
 
 | Name | Description |
 | --- | --- |
@@ -146,7 +146,7 @@ boolean
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -159,7 +159,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -172,7 +172,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -185,13 +185,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove (int) | Removes item from collection by it index in parent series points collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -207,13 +207,13 @@ boolean
 ---
 
 
-###removeItem{#removeItem}
+### removeItem {#removeItem}
 
 | Name | Description |
 | --- | --- |
 | removeItem ([ChartDataPoint](../chartdatapoint)) | Removes item from collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -226,7 +226,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

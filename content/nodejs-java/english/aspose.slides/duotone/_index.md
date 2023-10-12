@@ -13,13 +13,13 @@ url: /aspose.slides/duotone/
  For each pixel, combines Color1 and Color2 through a linear interpolation
  to determine the new color for that pixel.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified Duotone is equal to the current Duotone. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ boolean
 ---
 
 
-###getColor1{#getColor1}
+### getColor1 {#getColor1}
 
 | Name | Description |
 | --- | --- |
@@ -45,7 +45,7 @@ boolean
 ---
 
 
-###getColor2{#getColor2}
+### getColor2 {#getColor2}
 
 | Name | Description |
 | --- | --- |
@@ -58,7 +58,7 @@ boolean
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -71,7 +71,7 @@ DuotoneEffectiveData
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -84,7 +84,7 @@ long
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

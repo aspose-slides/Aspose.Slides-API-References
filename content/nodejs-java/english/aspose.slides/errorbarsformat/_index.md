@@ -12,7 +12,7 @@ url: /aspose.slides/errorbarsformat/
  Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection
  (in ( IChartDataPoint#getErrorBarsCustomValues) property).
  
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ url: /aspose.slides/errorbarsformat/
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -38,7 +38,7 @@ url: /aspose.slides/errorbarsformat/
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -51,7 +51,7 @@ url: /aspose.slides/errorbarsformat/
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -64,7 +64,7 @@ url: /aspose.slides/errorbarsformat/
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -77,7 +77,7 @@ int
 ---
 
 
-###getValue{#getValue}
+### getValue {#getValue}
 
 | Name | Description |
 | --- | --- |
@@ -90,7 +90,7 @@ float
 ---
 
 
-###getValueType{#getValueType}
+### getValueType {#getValueType}
 
 | Name | Description |
 | --- | --- |
@@ -103,7 +103,7 @@ int
 ---
 
 
-###hasEndCap{#hasEndCap}
+### hasEndCap {#hasEndCap}
 
 | Name | Description |
 | --- | --- |
@@ -116,7 +116,7 @@ boolean
 ---
 
 
-###isVisible{#isVisible}
+### isVisible {#isVisible}
 
 | Name | Description |
 | --- | --- |
@@ -129,7 +129,7 @@ boolean
 ---
 
 
-###setEndCap{#setEndCap}
+### setEndCap {#setEndCap}
 
 | Name | Description |
 | --- | --- |
@@ -139,7 +139,7 @@ boolean
 ---
 
 
-###setFormat{#setFormat}
+### setFormat {#setFormat}
 
 | Name | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ boolean
 ---
 
 
-###setType{#setType}
+### setType {#setType}
 
 | Name | Description |
 | --- | --- |
@@ -159,7 +159,7 @@ boolean
 ---
 
 
-###setValue{#setValue}
+### setValue {#setValue}
 
 | Name | Description |
 | --- | --- |
@@ -169,7 +169,7 @@ boolean
 ---
 
 
-###setValueType{#setValueType}
+### setValueType {#setValueType}
 
 | Name | Description |
 | --- | --- |
@@ -179,7 +179,7 @@ boolean
 ---
 
 
-###setVisible{#setVisible}
+### setVisible {#setVisible}
 
 | Name | Description |
 | --- | --- |

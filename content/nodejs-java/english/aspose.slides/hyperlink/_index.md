@@ -11,13 +11,13 @@ url: /aspose.slides/hyperlink/
 
  Represents a hyperlink.
  
-###Hyperlink{#Hyperlink}
+### Hyperlink {#Hyperlink}
 
 | Name | Description |
 | --- | --- |
 | Hyperlink(String) | Creates an instance of a hyperlink. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ Hyperlink
 ---
 
 
-###Hyperlink{#Hyperlink}
+### Hyperlink {#Hyperlink}
 
 | Name | Description |
 | --- | --- |
 | Hyperlink([Slide](../slide)) | Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,13 +49,13 @@ Hyperlink
 ---
 
 
-###Hyperlink{#Hyperlink}
+### Hyperlink {#Hyperlink}
 
 | Name | Description |
 | --- | --- |
 | Hyperlink([Hyperlink](../hyperlink), String, String, boolean, boolean, boolean) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -73,13 +73,13 @@ Hyperlink
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the two Hyperlink instances are equal. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -92,13 +92,13 @@ boolean
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals ([Hyperlink](../hyperlink)) | Determines whether the two Hyperlink instances are equal. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -111,7 +111,7 @@ boolean
 ---
 
 
-###getActionType{#getActionType}
+### getActionType {#getActionType}
 
 | Name | Description |
 | --- | --- |
@@ -124,7 +124,7 @@ int
 ---
 
 
-###getColorSource{#getColorSource}
+### getColorSource {#getColorSource}
 
 | Name | Description |
 | --- | --- |
@@ -137,7 +137,7 @@ int
 ---
 
 
-###getEndShow{#getEndShow}
+### getEndShow {#getEndShow}
 
 | Name | Description |
 | --- | --- |
@@ -150,7 +150,7 @@ Hyperlink
 ---
 
 
-###getExternalUrl{#getExternalUrl}
+### getExternalUrl {#getExternalUrl}
 
 | Name | Description |
 | --- | --- |
@@ -163,7 +163,7 @@ String
 ---
 
 
-###getFirstSlide{#getFirstSlide}
+### getFirstSlide {#getFirstSlide}
 
 | Name | Description |
 | --- | --- |
@@ -176,7 +176,7 @@ Hyperlink
 ---
 
 
-###getHighlightClick{#getHighlightClick}
+### getHighlightClick {#getHighlightClick}
 
 | Name | Description |
 | --- | --- |
@@ -189,7 +189,7 @@ boolean
 ---
 
 
-###getHistory{#getHistory}
+### getHistory {#getHistory}
 
 | Name | Description |
 | --- | --- |
@@ -202,7 +202,7 @@ boolean
 ---
 
 
-###getLastSlide{#getLastSlide}
+### getLastSlide {#getLastSlide}
 
 | Name | Description |
 | --- | --- |
@@ -215,7 +215,7 @@ Hyperlink
 ---
 
 
-###getLastVievedSlide{#getLastVievedSlide}
+### getLastVievedSlide {#getLastVievedSlide}
 
 | Name | Description |
 | --- | --- |
@@ -228,7 +228,7 @@ Hyperlink
 ---
 
 
-###getMedia{#getMedia}
+### getMedia {#getMedia}
 
 | Name | Description |
 | --- | --- |
@@ -241,7 +241,7 @@ Hyperlink
 ---
 
 
-###getNextSlide{#getNextSlide}
+### getNextSlide {#getNextSlide}
 
 | Name | Description |
 | --- | --- |
@@ -254,7 +254,7 @@ Hyperlink
 ---
 
 
-###getNoAction{#getNoAction}
+### getNoAction {#getNoAction}
 
 | Name | Description |
 | --- | --- |
@@ -267,7 +267,7 @@ Hyperlink
 ---
 
 
-###getPreviousSlide{#getPreviousSlide}
+### getPreviousSlide {#getPreviousSlide}
 
 | Name | Description |
 | --- | --- |
@@ -280,7 +280,7 @@ Hyperlink
 ---
 
 
-###getSound{#getSound}
+### getSound {#getSound}
 
 | Name | Description |
 | --- | --- |
@@ -293,7 +293,7 @@ Hyperlink
 ---
 
 
-###getStopSoundOnClick{#getStopSoundOnClick}
+### getStopSoundOnClick {#getStopSoundOnClick}
 
 | Name | Description |
 | --- | --- |
@@ -306,7 +306,7 @@ boolean
 ---
 
 
-###getTargetFrame{#getTargetFrame}
+### getTargetFrame {#getTargetFrame}
 
 | Name | Description |
 | --- | --- |
@@ -319,7 +319,7 @@ String
 ---
 
 
-###getTargetSlide{#getTargetSlide}
+### getTargetSlide {#getTargetSlide}
 
 | Name | Description |
 | --- | --- |
@@ -332,7 +332,7 @@ String
 ---
 
 
-###getTooltip{#getTooltip}
+### getTooltip {#getTooltip}
 
 | Name | Description |
 | --- | --- |
@@ -345,7 +345,7 @@ String
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -358,7 +358,7 @@ long
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -371,13 +371,13 @@ int
 ---
 
 
-###op_Equality{#op_Equality}
+### op_Equality {#op_Equality}
 
 | Name | Description |
 | --- | --- |
 | op_Equality ([Hyperlink](../hyperlink), [Hyperlink](../hyperlink)) | Tests two hyperlinks for equality. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -391,13 +391,13 @@ boolean
 ---
 
 
-###op_Inequality{#op_Inequality}
+### op_Inequality {#op_Inequality}
 
 | Name | Description |
 | --- | --- |
 | op_Inequality ([Hyperlink](../hyperlink), [Hyperlink](../hyperlink)) | Tests two hyperlinks for inequality. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -411,7 +411,7 @@ boolean
 ---
 
 
-###setColorSource{#setColorSource}
+### setColorSource {#setColorSource}
 
 | Name | Description |
 | --- | --- |
@@ -421,7 +421,7 @@ boolean
 ---
 
 
-###setHighlightClick{#setHighlightClick}
+### setHighlightClick {#setHighlightClick}
 
 | Name | Description |
 | --- | --- |
@@ -431,7 +431,7 @@ boolean
 ---
 
 
-###setHistory{#setHistory}
+### setHistory {#setHistory}
 
 | Name | Description |
 | --- | --- |
@@ -441,7 +441,7 @@ boolean
 ---
 
 
-###setSound{#setSound}
+### setSound {#setSound}
 
 | Name | Description |
 | --- | --- |
@@ -451,7 +451,7 @@ boolean
 ---
 
 
-###setStopSoundOnClick{#setStopSoundOnClick}
+### setStopSoundOnClick {#setStopSoundOnClick}
 
 | Name | Description |
 | --- | --- |
@@ -461,7 +461,7 @@ boolean
 ---
 
 
-###setTargetFrame{#setTargetFrame}
+### setTargetFrame {#setTargetFrame}
 
 | Name | Description |
 | --- | --- |
@@ -471,7 +471,7 @@ boolean
 ---
 
 
-###setTooltip{#setTooltip}
+### setTooltip {#setTooltip}
 
 | Name | Description |
 | --- | --- |

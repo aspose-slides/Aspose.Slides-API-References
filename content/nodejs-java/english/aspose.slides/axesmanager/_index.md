@@ -11,7 +11,7 @@ url: /aspose.slides/axesmanager/
 
  Provides access to chart axes.
  
-###getHorizontalAxis{#getHorizontalAxis}
+### getHorizontalAxis {#getHorizontalAxis}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/axesmanager/
 ---
 
 
-###getSecondaryHorizontalAxis{#getSecondaryHorizontalAxis}
+### getSecondaryHorizontalAxis {#getSecondaryHorizontalAxis}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/axesmanager/
 ---
 
 
-###getSecondaryVerticalAxis{#getSecondaryVerticalAxis}
+### getSecondaryVerticalAxis {#getSecondaryVerticalAxis}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/axesmanager/
 ---
 
 
-###getSeriesAxis{#getSeriesAxis}
+### getSeriesAxis {#getSeriesAxis}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ url: /aspose.slides/axesmanager/
 ---
 
 
-###getVerticalAxis{#getVerticalAxis}
+### getVerticalAxis {#getVerticalAxis}
 
 | Name | Description |
 | --- | --- |

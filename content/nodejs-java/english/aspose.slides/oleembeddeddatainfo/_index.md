@@ -11,7 +11,7 @@ url: /aspose.slides/oleembeddeddatainfo/
 
  Represents embedded data info for OLE object.
  
-###OleEmbeddedDataInfo{#OleEmbeddedDataInfo}
+### OleEmbeddedDataInfo {#OleEmbeddedDataInfo}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ OleEmbeddedDataInfo
 ---
 
 
-###OleEmbeddedDataInfo{#OleEmbeddedDataInfo}
+### OleEmbeddedDataInfo {#OleEmbeddedDataInfo}
 
 | Name | Description |
 | --- | --- |
 | OleEmbeddedDataInfo(byte[], String) | Creates a new instance of an embedded data info for OLE object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -44,7 +44,7 @@ OleEmbeddedDataInfo
 ---
 
 
-###getEmbeddedFileData{#getEmbeddedFileData}
+### getEmbeddedFileData {#getEmbeddedFileData}
 
 | Name | Description |
 | --- | --- |
@@ -57,7 +57,7 @@ byte
 ---
 
 
-###getEmbeddedFileExtension{#getEmbeddedFileExtension}
+### getEmbeddedFileExtension {#getEmbeddedFileExtension}
 
 | Name | Description |
 | --- | --- |

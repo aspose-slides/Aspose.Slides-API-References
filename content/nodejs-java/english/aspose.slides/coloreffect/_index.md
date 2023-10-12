@@ -11,7 +11,7 @@ url: /aspose.slides/coloreffect/
 
  Represents a color effect for an animation behavior.
  
-###ColorEffect{#ColorEffect}
+### ColorEffect {#ColorEffect}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ ColorEffect
 ---
 
 
-###getBy{#getBy}
+### getBy {#getBy}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ ColorEffect
 ---
 
 
-###getColorSpace{#getColorSpace}
+### getColorSpace {#getColorSpace}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getDirection{#getDirection}
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getFrom{#getFrom}
+### getFrom {#getFrom}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###getTo{#getTo}
+### getTo {#getTo}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###setBy{#setBy}
+### setBy {#setBy}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ int
 ---
 
 
-###setColorSpace{#setColorSpace}
+### setColorSpace {#setColorSpace}
 
 | Name | Description |
 | --- | --- |
@@ -109,7 +109,7 @@ int
 ---
 
 
-###setDirection{#setDirection}
+### setDirection {#setDirection}
 
 | Name | Description |
 | --- | --- |
@@ -119,7 +119,7 @@ int
 ---
 
 
-###setFrom{#setFrom}
+### setFrom {#setFrom}
 
 | Name | Description |
 | --- | --- |
@@ -129,7 +129,7 @@ int
 ---
 
 
-###setTo{#setTo}
+### setTo {#setTo}
 
 | Name | Description |
 | --- | --- |

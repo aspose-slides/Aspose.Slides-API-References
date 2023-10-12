@@ -13,7 +13,7 @@ url: /aspose.slides/paragraphfactory/
  
  For COM compatibility.
  
-###ParagraphFactory{#ParagraphFactory}
+### ParagraphFactory {#ParagraphFactory}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ ParagraphFactory
 ---
 
 
-###createParagraph{#createParagraph}
+### createParagraph {#createParagraph}
 
 | Name | Description |
 | --- | --- |
@@ -39,13 +39,13 @@ ParagraphFactory
 ---
 
 
-###createParagraph{#createParagraph}
+### createParagraph {#createParagraph}
 
 | Name | Description |
 | --- | --- |
 | createParagraph ([Paragraph](../paragraph)) | Creates a new paragraph with specified paragraph data using. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

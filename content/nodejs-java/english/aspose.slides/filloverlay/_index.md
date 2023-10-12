@@ -12,13 +12,13 @@ url: /aspose.slides/filloverlay/
  Represents a Fill Overlay effect. A fill overlay may be used to specify
  an additional fill for an object and blend the two fills together.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ boolean
 ---
 
 
-###getBlend{#getBlend}
+### getBlend {#getBlend}
 
 | Name | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ int
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -57,7 +57,7 @@ FillOverlayEffectiveData
 ---
 
 
-###getFillFormat{#getFillFormat}
+### getFillFormat {#getFillFormat}
 
 | Name | Description |
 | --- | --- |
@@ -70,7 +70,7 @@ FillOverlayEffectiveData
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ long
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ int
 ---
 
 
-###setBlend{#setBlend}
+### setBlend {#setBlend}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/zoomframe/
 
  Represents a Slide Zoom object in a slide.
  
-###getTargetSlide{#getTargetSlide}
+### getTargetSlide {#getTargetSlide}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/zoomframe/
 ---
 
 
-###setTargetSlide{#setTargetSlide}
+### setTargetSlide {#setTargetSlide}
 
 | Name | Description |
 | --- | --- |

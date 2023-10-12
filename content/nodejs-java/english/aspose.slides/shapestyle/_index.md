@@ -11,7 +11,7 @@ url: /aspose.slides/shapestyle/
 
  Represent shape's style reference.
  
-###getEffectColor{#getEffectColor}
+### getEffectColor {#getEffectColor}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/shapestyle/
 ---
 
 
-###getEffectStyleIndex{#getEffectStyleIndex}
+### getEffectStyleIndex {#getEffectStyleIndex}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ long
 ---
 
 
-###getFillColor{#getFillColor}
+### getFillColor {#getFillColor}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ long
 ---
 
 
-###getFillStyleIndex{#getFillStyleIndex}
+### getFillStyleIndex {#getFillStyleIndex}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ short
 ---
 
 
-###getFontCollectionIndex{#getFontCollectionIndex}
+### getFontCollectionIndex {#getFontCollectionIndex}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ byte
 ---
 
 
-###getFontColor{#getFontColor}
+### getFontColor {#getFontColor}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ byte
 ---
 
 
-###getLineColor{#getLineColor}
+### getLineColor {#getLineColor}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ byte
 ---
 
 
-###getLineStyleIndex{#getLineStyleIndex}
+### getLineStyleIndex {#getLineStyleIndex}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ int
 ---
 
 
-###setEffectStyleIndex{#setEffectStyleIndex}
+### setEffectStyleIndex {#setEffectStyleIndex}
 
 | Name | Description |
 | --- | --- |
@@ -125,7 +125,7 @@ int
 ---
 
 
-###setFillStyleIndex{#setFillStyleIndex}
+### setFillStyleIndex {#setFillStyleIndex}
 
 | Name | Description |
 | --- | --- |
@@ -135,7 +135,7 @@ int
 ---
 
 
-###setFontCollectionIndex{#setFontCollectionIndex}
+### setFontCollectionIndex {#setFontCollectionIndex}
 
 | Name | Description |
 | --- | --- |
@@ -145,7 +145,7 @@ int
 ---
 
 
-###setLineStyleIndex{#setLineStyleIndex}
+### setLineStyleIndex {#setLineStyleIndex}
 
 | Name | Description |
 | --- | --- |

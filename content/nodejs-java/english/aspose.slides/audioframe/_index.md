@@ -11,7 +11,7 @@ url: /aspose.slides/audioframe/
 
   Represents an audio clip on a slide.
  
-###getAudioCdEndTrack{#getAudioCdEndTrack}
+### getAudioCdEndTrack {#getAudioCdEndTrack}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getAudioCdEndTrackTime{#getAudioCdEndTrackTime}
+### getAudioCdEndTrackTime {#getAudioCdEndTrackTime}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getAudioCdStartTrack{#getAudioCdStartTrack}
+### getAudioCdStartTrack {#getAudioCdStartTrack}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getAudioCdStartTrackTime{#getAudioCdStartTrackTime}
+### getAudioCdStartTrackTime {#getAudioCdStartTrackTime}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getEmbedded{#getEmbedded}
+### getEmbedded {#getEmbedded}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getEmbeddedAudio{#getEmbeddedAudio}
+### getEmbeddedAudio {#getEmbeddedAudio}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###getHideAtShowing{#getHideAtShowing}
+### getHideAtShowing {#getHideAtShowing}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###getLinkPathLong{#getLinkPathLong}
+### getLinkPathLong {#getLinkPathLong}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ String
 ---
 
 
-###getPlayAcrossSlides{#getPlayAcrossSlides}
+### getPlayAcrossSlides {#getPlayAcrossSlides}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-###getPlayLoopMode{#getPlayLoopMode}
+### getPlayLoopMode {#getPlayLoopMode}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ boolean
 ---
 
 
-###getPlayMode{#getPlayMode}
+### getPlayMode {#getPlayMode}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ int
 ---
 
 
-###getRewindAudio{#getRewindAudio}
+### getRewindAudio {#getRewindAudio}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ boolean
 ---
 
 
-###getVolume{#getVolume}
+### getVolume {#getVolume}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ int
 ---
 
 
-###setAudioCdEndTrack{#setAudioCdEndTrack}
+### setAudioCdEndTrack {#setAudioCdEndTrack}
 
 | Name | Description |
 | --- | --- |
@@ -190,7 +190,7 @@ int
 ---
 
 
-###setAudioCdEndTrackTime{#setAudioCdEndTrackTime}
+### setAudioCdEndTrackTime {#setAudioCdEndTrackTime}
 
 | Name | Description |
 | --- | --- |
@@ -200,7 +200,7 @@ int
 ---
 
 
-###setAudioCdStartTrack{#setAudioCdStartTrack}
+### setAudioCdStartTrack {#setAudioCdStartTrack}
 
 | Name | Description |
 | --- | --- |
@@ -210,7 +210,7 @@ int
 ---
 
 
-###setAudioCdStartTrackTime{#setAudioCdStartTrackTime}
+### setAudioCdStartTrackTime {#setAudioCdStartTrackTime}
 
 | Name | Description |
 | --- | --- |
@@ -220,7 +220,7 @@ int
 ---
 
 
-###setEmbeddedAudio{#setEmbeddedAudio}
+### setEmbeddedAudio {#setEmbeddedAudio}
 
 | Name | Description |
 | --- | --- |
@@ -230,7 +230,7 @@ int
 ---
 
 
-###setHideAtShowing{#setHideAtShowing}
+### setHideAtShowing {#setHideAtShowing}
 
 | Name | Description |
 | --- | --- |
@@ -240,7 +240,7 @@ int
 ---
 
 
-###setLinkPathLong{#setLinkPathLong}
+### setLinkPathLong {#setLinkPathLong}
 
 | Name | Description |
 | --- | --- |
@@ -250,7 +250,7 @@ int
 ---
 
 
-###setPlayAcrossSlides{#setPlayAcrossSlides}
+### setPlayAcrossSlides {#setPlayAcrossSlides}
 
 | Name | Description |
 | --- | --- |
@@ -260,7 +260,7 @@ int
 ---
 
 
-###setPlayLoopMode{#setPlayLoopMode}
+### setPlayLoopMode {#setPlayLoopMode}
 
 | Name | Description |
 | --- | --- |
@@ -270,7 +270,7 @@ int
 ---
 
 
-###setPlayMode{#setPlayMode}
+### setPlayMode {#setPlayMode}
 
 | Name | Description |
 | --- | --- |
@@ -280,7 +280,7 @@ int
 ---
 
 
-###setRewindAudio{#setRewindAudio}
+### setRewindAudio {#setRewindAudio}
 
 | Name | Description |
 | --- | --- |
@@ -290,7 +290,7 @@ int
 ---
 
 
-###setVolume{#setVolume}
+### setVolume {#setVolume}
 
 | Name | Description |
 | --- | --- |

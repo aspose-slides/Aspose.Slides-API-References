@@ -11,7 +11,7 @@ url: /aspose.slides/mastertheme/
 
  Represents a master theme.
  
-###getColorScheme{#getColorScheme}
+### getColorScheme {#getColorScheme}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/mastertheme/
 ---
 
 
-###getExtraColorSchemes{#getExtraColorSchemes}
+### getExtraColorSchemes {#getExtraColorSchemes}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/mastertheme/
 ---
 
 
-###getFontScheme{#getFontScheme}
+### getFontScheme {#getFontScheme}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/mastertheme/
 ---
 
 
-###getFormatScheme{#getFormatScheme}
+### getFormatScheme {#getFormatScheme}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ url: /aspose.slides/mastertheme/
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ long
 ---
 
 
-###setName{#setName}
+### setName {#setName}
 
 | Name | Description |
 | --- | --- |

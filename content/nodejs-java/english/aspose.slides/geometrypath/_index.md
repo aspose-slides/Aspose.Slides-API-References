@@ -11,7 +11,7 @@ url: /aspose.slides/geometrypath/
 
  Represents geometry path of GeometryShape
  
-###GeometryPath{#GeometryPath}
+### GeometryPath {#GeometryPath}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ GeometryPath
 ---
 
 
-###arcTo{#arcTo}
+### arcTo {#arcTo}
 
 | Name | Description |
 | --- | --- |
 | arcTo (float, float, float, float) | Appends the specified arc to the path. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ GeometryPath
 ---
 
 
-###closeFigure{#closeFigure}
+### closeFigure {#closeFigure}
 
 | Name | Description |
 | --- | --- |
@@ -53,13 +53,13 @@ GeometryPath
 ---
 
 
-###cubicBezierTo{#cubicBezierTo}
+### cubicBezierTo {#cubicBezierTo}
 
 | Name | Description |
 | --- | --- |
 | cubicBezierTo (Point2D.Float, Point2D.Float, Point2D.Float) | Adds cubic Bezier curve at the end the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -71,13 +71,13 @@ GeometryPath
 ---
 
 
-###cubicBezierTo{#cubicBezierTo}
+### cubicBezierTo {#cubicBezierTo}
 
 | Name | Description |
 | --- | --- |
 | cubicBezierTo (float, float, float, float, float, float) | Adds cubic Bezier curve at the end the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -92,13 +92,13 @@ GeometryPath
 ---
 
 
-###cubicBezierTo{#cubicBezierTo}
+### cubicBezierTo {#cubicBezierTo}
 
 | Name | Description |
 | --- | --- |
 | cubicBezierTo (Point2D.Float, Point2D.Float, Point2D.Float, long) | Adds cubic Bezier curve to the specified place of the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -117,13 +117,13 @@ GeometryPath
 ---
 
 
-###cubicBezierTo{#cubicBezierTo}
+### cubicBezierTo {#cubicBezierTo}
 
 | Name | Description |
 | --- | --- |
 | cubicBezierTo (float, float, float, float, float, float, long) | Adds cubic Bezier curve to the specified place of the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -145,7 +145,7 @@ GeometryPath
 ---
 
 
-###getFillMode{#getFillMode}
+### getFillMode {#getFillMode}
 
 | Name | Description |
 | --- | --- |
@@ -158,7 +158,7 @@ byte
 ---
 
 
-###getPathData{#getPathData}
+### getPathData {#getPathData}
 
 | Name | Description |
 | --- | --- |
@@ -171,7 +171,7 @@ byte
 ---
 
 
-###getStroke{#getStroke}
+### getStroke {#getStroke}
 
 | Name | Description |
 | --- | --- |
@@ -184,13 +184,13 @@ boolean
 ---
 
 
-###lineTo{#lineTo}
+### lineTo {#lineTo}
 
 | Name | Description |
 | --- | --- |
 | lineTo (Point2D.Float) | Adds line to the end of the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -200,13 +200,13 @@ boolean
 ---
 
 
-###lineTo{#lineTo}
+### lineTo {#lineTo}
 
 | Name | Description |
 | --- | --- |
 | lineTo (float, float) | Adds line to the end of the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -217,13 +217,13 @@ boolean
 ---
 
 
-###lineTo{#lineTo}
+### lineTo {#lineTo}
 
 | Name | Description |
 | --- | --- |
 | lineTo (Point2D.Float, long) | Adds line to the specified place of the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -240,13 +240,13 @@ boolean
 ---
 
 
-###lineTo{#lineTo}
+### lineTo {#lineTo}
 
 | Name | Description |
 | --- | --- |
 | lineTo (float, float, long) | Adds line to the specified place of the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -264,13 +264,13 @@ boolean
 ---
 
 
-###moveTo{#moveTo}
+### moveTo {#moveTo}
 
 | Name | Description |
 | --- | --- |
 | moveTo (Point2D.Float) | Sets next point position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -280,13 +280,13 @@ boolean
 ---
 
 
-###moveTo{#moveTo}
+### moveTo {#moveTo}
 
 | Name | Description |
 | --- | --- |
 | moveTo (float, float) | Sets next point position. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -297,13 +297,13 @@ boolean
 ---
 
 
-###quadraticBezierTo{#quadraticBezierTo}
+### quadraticBezierTo {#quadraticBezierTo}
 
 | Name | Description |
 | --- | --- |
 | quadraticBezierTo (Point2D.Float, Point2D.Float) | Adds quadratic Bezier curve at the end the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -314,13 +314,13 @@ boolean
 ---
 
 
-###quadraticBezierTo{#quadraticBezierTo}
+### quadraticBezierTo {#quadraticBezierTo}
 
 | Name | Description |
 | --- | --- |
 | quadraticBezierTo (float, float, float, float) | Adds quadratic Bezier curve at the end the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -333,13 +333,13 @@ boolean
 ---
 
 
-###quadraticBezierTo{#quadraticBezierTo}
+### quadraticBezierTo {#quadraticBezierTo}
 
 | Name | Description |
 | --- | --- |
 | quadraticBezierTo (Point2D.Float, Point2D.Float, long) | Adds quadratic Bezier curve to the specified place of the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -357,13 +357,13 @@ boolean
 ---
 
 
-###quadraticBezierTo{#quadraticBezierTo}
+### quadraticBezierTo {#quadraticBezierTo}
 
 | Name | Description |
 | --- | --- |
 | quadraticBezierTo (float, float, float, float, long) | Adds quadratic Bezier curve to the specified place of the path |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -383,13 +383,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes segment at the specified index of the geometry path. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -399,7 +399,7 @@ boolean
 ---
 
 
-###setFillMode{#setFillMode}
+### setFillMode {#setFillMode}
 
 | Name | Description |
 | --- | --- |
@@ -409,7 +409,7 @@ boolean
 ---
 
 
-###setStroke{#setStroke}
+### setStroke {#setStroke}
 
 | Name | Description |
 | --- | --- |

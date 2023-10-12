@@ -11,7 +11,7 @@ url: /aspose.slides/texthighlightingoptions/
 
  Represents options which can be used to highlight text in text frame.
  
-###TextHighlightingOptions{#TextHighlightingOptions}
+### TextHighlightingOptions {#TextHighlightingOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ TextHighlightingOptions
 ---
 
 
-###getCaseSensitive{#getCaseSensitive}
+### getCaseSensitive {#getCaseSensitive}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getWholeWordsOnly{#getWholeWordsOnly}
+### getWholeWordsOnly {#getWholeWordsOnly}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###setCaseSensitive{#setCaseSensitive}
+### setCaseSensitive {#setCaseSensitive}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ boolean
 ---
 
 
-###setWholeWordsOnly{#setWholeWordsOnly}
+### setWholeWordsOnly {#setWholeWordsOnly}
 
 | Name | Description |
 | --- | --- |

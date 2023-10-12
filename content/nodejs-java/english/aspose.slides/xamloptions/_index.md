@@ -11,7 +11,7 @@ url: /aspose.slides/xamloptions/
 
  Options that control how a XAML document is saved.
  
-###XamlOptions{#XamlOptions}
+### XamlOptions {#XamlOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ XamlOptions
 ---
 
 
-###getExportHiddenSlides{#getExportHiddenSlides}
+### getExportHiddenSlides {#getExportHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getOutputSaver{#getOutputSaver}
+### getOutputSaver {#getOutputSaver}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ XamlOutputSaver
 ---
 
 
-###setExportHiddenSlides{#setExportHiddenSlides}
+### setExportHiddenSlides {#setExportHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ XamlOutputSaver
 ---
 
 
-###setOutputSaver{#setOutputSaver}
+### setOutputSaver {#setOutputSaver}
 
 | Name | Description |
 | --- | --- |

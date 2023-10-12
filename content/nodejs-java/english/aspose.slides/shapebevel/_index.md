@@ -11,13 +11,13 @@ url: /aspose.slides/shapebevel/
 
  Contains the properties of shape's main face relief.
  
-###ShapeBevel{#ShapeBevel}
+### ShapeBevel {#ShapeBevel}
 
 | Name | Description |
 | --- | --- |
 | ShapeBevel(boolean) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ ShapeBevel
 ---
 
 
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ boolean
 ---
 
 
-###getBevelType{#getBevelType}
+### getBevelType {#getBevelType}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ int
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ double
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ long
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ double
 ---
 
 
-###setBevelType{#setBevelType}
+### setBevelType {#setBevelType}
 
 | Name | Description |
 | --- | --- |
@@ -105,7 +105,7 @@ double
 ---
 
 
-###setHeight{#setHeight}
+### setHeight {#setHeight}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ double
 ---
 
 
-###setWidth{#setWidth}
+### setWidth {#setWidth}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/optionalblacktransition/
 
  Optional black slide transition effect.
  
-###getFromBlack{#getFromBlack}
+### getFromBlack {#getFromBlack}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ boolean
 ---
 
 
-###setFromBlack{#setFromBlack}
+### setFromBlack {#setFromBlack}
 
 | Name | Description |
 | --- | --- |

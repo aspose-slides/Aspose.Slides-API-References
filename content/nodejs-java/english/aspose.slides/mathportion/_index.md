@@ -11,7 +11,7 @@ url: /aspose.slides/mathportion/
 
  Represents a portion with mathematical context inside.
  
-###MathPortion{#MathPortion}
+### MathPortion {#MathPortion}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ MathPortion
 ---
 
 
-###getMathParagraph{#getMathParagraph}
+### getMathParagraph {#getMathParagraph}
 
 | Name | Description |
 | --- | --- |

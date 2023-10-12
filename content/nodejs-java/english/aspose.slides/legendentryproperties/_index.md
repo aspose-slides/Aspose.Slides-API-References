@@ -11,7 +11,7 @@ url: /aspose.slides/legendentryproperties/
 
  Represents legend properties of a chart.
  
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/legendentryproperties/
 ---
 
 
-###getHide{#getHide}
+### getHide {#getHide}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getTextFormat{#getTextFormat}
+### getTextFormat {#getTextFormat}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###setHide{#setHide}
+### setHide {#setHide}
 
 | Name | Description |
 | --- | --- |

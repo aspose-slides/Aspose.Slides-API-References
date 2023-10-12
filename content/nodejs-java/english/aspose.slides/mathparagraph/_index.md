@@ -11,7 +11,7 @@ url: /aspose.slides/mathparagraph/
 
  Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
  
-###MathParagraph{#MathParagraph}
+### MathParagraph {#MathParagraph}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ MathParagraph
 ---
 
 
-###MathParagraph{#MathParagraph}
+### MathParagraph {#MathParagraph}
 
 | Name | Description |
 | --- | --- |
@@ -37,13 +37,13 @@ MathParagraph
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([MathBlock](../mathblock)) | Adds IMathBlock to the end of collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -53,7 +53,7 @@ MathParagraph
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -63,13 +63,13 @@ MathParagraph
 ---
 
 
-###contains{#contains}
+### contains {#contains}
 
 | Name | Description |
 | --- | --- |
 | contains ([MathBlock](../mathblock)) | Determines whether the collection contains a specific value. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -82,7 +82,7 @@ boolean
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ int
 ---
 
 
-###getJustification{#getJustification}
+### getJustification {#getJustification}
 
 | Name | Description |
 | --- | --- |
@@ -108,13 +108,13 @@ int
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Gets the item at the specified index. Read-only IMathBlock. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -127,13 +127,13 @@ int
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([MathBlock](../mathblock)) | Determines the index of a specific IMathBlock in collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -146,13 +146,13 @@ int
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, [MathBlock](../mathblock)) | Inserts IMathBlock into the collection at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -163,7 +163,7 @@ int
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -176,7 +176,7 @@ int
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -189,13 +189,13 @@ int
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([MathBlock](../mathblock)) | Removes the first occurrence of a specific object from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -208,13 +208,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes an item at the specified index of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -224,7 +224,7 @@ boolean
 ---
 
 
-###setJustification{#setJustification}
+### setJustification {#setJustification}
 
 | Name | Description |
 | --- | --- |
@@ -234,13 +234,13 @@ boolean
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (int, [MathBlock](../mathblock)) | Gets the item at the specified index. Read-only IMathBlock. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -251,13 +251,13 @@ boolean
 ---
 
 
-###writeAsMathMlToStream {#writeAsMathMlToStream }
+### writeAsMathMlToStream  {#writeAsMathMlToStream }
 
 | Name | Description |
 | --- | --- |
 | writeAsMathMlToStream  (MathParagraph, WriteStream) | Saves content of this MathParagraph as MathML |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

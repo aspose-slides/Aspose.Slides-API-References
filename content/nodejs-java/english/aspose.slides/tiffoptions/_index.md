@@ -11,7 +11,7 @@ url: /aspose.slides/tiffoptions/
 
  Provides options that control how a presentation is saved in TIFF format.
  
-###TiffOptions{#TiffOptions}
+### TiffOptions {#TiffOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ TiffOptions
 ---
 
 
-###getCompressionType{#getCompressionType}
+### getCompressionType {#getCompressionType}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getDpiX{#getDpiX}
+### getDpiX {#getDpiX}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ long
 ---
 
 
-###getDpiY{#getDpiY}
+### getDpiY {#getDpiY}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ long
 ---
 
 
-###getImageSize{#getImageSize}
+### getImageSize {#getImageSize}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ Dimension
 ---
 
 
-###getNotesCommentsLayouting{#getNotesCommentsLayouting}
+### getNotesCommentsLayouting {#getNotesCommentsLayouting}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ Dimension
 ---
 
 
-###getPixelFormat{#getPixelFormat}
+### getPixelFormat {#getPixelFormat}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ int
 ---
 
 
-###getShowHiddenSlides{#getShowHiddenSlides}
+### getShowHiddenSlides {#getShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###setCompressionType{#setCompressionType}
+### setCompressionType {#setCompressionType}
 
 | Name | Description |
 | --- | --- |
@@ -125,7 +125,7 @@ boolean
 ---
 
 
-###setDpiX{#setDpiX}
+### setDpiX {#setDpiX}
 
 | Name | Description |
 | --- | --- |
@@ -135,7 +135,7 @@ boolean
 ---
 
 
-###setDpiY{#setDpiY}
+### setDpiY {#setDpiY}
 
 | Name | Description |
 | --- | --- |
@@ -145,7 +145,7 @@ boolean
 ---
 
 
-###setImageSize{#setImageSize}
+### setImageSize {#setImageSize}
 
 | Name | Description |
 | --- | --- |
@@ -155,7 +155,7 @@ boolean
 ---
 
 
-###setPixelFormat{#setPixelFormat}
+### setPixelFormat {#setPixelFormat}
 
 | Name | Description |
 | --- | --- |
@@ -165,7 +165,7 @@ boolean
 ---
 
 
-###setShowHiddenSlides{#setShowHiddenSlides}
+### setShowHiddenSlides {#setShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |

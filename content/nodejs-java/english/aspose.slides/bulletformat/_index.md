@@ -11,7 +11,7 @@ url: /aspose.slides/bulletformat/
 
  Represents paragraph bullet formatting properties.
  
-###applyDefaultParagraphIndentsShifts{#applyDefaultParagraphIndentsShifts}
+### applyDefaultParagraphIndentsShifts {#applyDefaultParagraphIndentsShifts}
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,7 @@ url: /aspose.slides/bulletformat/
 ---
 
 
-###getChar{#getChar}
+### getChar {#getChar}
 
 | Name | Description |
 | --- | --- |
@@ -40,7 +40,7 @@ char
 ---
 
 
-###getColor{#getColor}
+### getColor {#getColor}
 
 | Name | Description |
 | --- | --- |
@@ -53,7 +53,7 @@ char
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -66,7 +66,7 @@ BulletFormatEffectiveData
 ---
 
 
-###getFont{#getFont}
+### getFont {#getFont}
 
 | Name | Description |
 | --- | --- |
@@ -79,7 +79,7 @@ BulletFormatEffectiveData
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -92,7 +92,7 @@ float
 ---
 
 
-###getNumberedBulletStartWith{#getNumberedBulletStartWith}
+### getNumberedBulletStartWith {#getNumberedBulletStartWith}
 
 | Name | Description |
 | --- | --- |
@@ -105,7 +105,7 @@ short
 ---
 
 
-###getNumberedBulletStyle{#getNumberedBulletStyle}
+### getNumberedBulletStyle {#getNumberedBulletStyle}
 
 | Name | Description |
 | --- | --- |
@@ -118,7 +118,7 @@ byte
 ---
 
 
-###getPicture{#getPicture}
+### getPicture {#getPicture}
 
 | Name | Description |
 | --- | --- |
@@ -131,7 +131,7 @@ byte
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -144,7 +144,7 @@ byte
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -157,7 +157,7 @@ long
 ---
 
 
-###isBulletHardColor{#isBulletHardColor}
+### isBulletHardColor {#isBulletHardColor}
 
 | Name | Description |
 | --- | --- |
@@ -170,7 +170,7 @@ byte
 ---
 
 
-###isBulletHardFont{#isBulletHardFont}
+### isBulletHardFont {#isBulletHardFont}
 
 | Name | Description |
 | --- | --- |
@@ -183,7 +183,7 @@ byte
 ---
 
 
-###setBulletHardColor{#setBulletHardColor}
+### setBulletHardColor {#setBulletHardColor}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ byte
 ---
 
 
-###setBulletHardFont{#setBulletHardFont}
+### setBulletHardFont {#setBulletHardFont}
 
 | Name | Description |
 | --- | --- |
@@ -203,7 +203,7 @@ byte
 ---
 
 
-###setChar{#setChar}
+### setChar {#setChar}
 
 | Name | Description |
 | --- | --- |
@@ -213,7 +213,7 @@ byte
 ---
 
 
-###setFont{#setFont}
+### setFont {#setFont}
 
 | Name | Description |
 | --- | --- |
@@ -223,7 +223,7 @@ byte
 ---
 
 
-###setHeight{#setHeight}
+### setHeight {#setHeight}
 
 | Name | Description |
 | --- | --- |
@@ -233,7 +233,7 @@ byte
 ---
 
 
-###setNumberedBulletStartWith{#setNumberedBulletStartWith}
+### setNumberedBulletStartWith {#setNumberedBulletStartWith}
 
 | Name | Description |
 | --- | --- |
@@ -243,7 +243,7 @@ byte
 ---
 
 
-###setNumberedBulletStyle{#setNumberedBulletStyle}
+### setNumberedBulletStyle {#setNumberedBulletStyle}
 
 | Name | Description |
 | --- | --- |
@@ -253,7 +253,7 @@ byte
 ---
 
 
-###setType{#setType}
+### setType {#setType}
 
 | Name | Description |
 | --- | --- |

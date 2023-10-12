@@ -11,7 +11,7 @@ url: /aspose.slides/browsedatkiosk/
 
  Browsed at a kiosk (full screen)
  
-###BrowsedAtKiosk{#BrowsedAtKiosk}
+### BrowsedAtKiosk {#BrowsedAtKiosk}
 
 | Name | Description |
 | --- | --- |

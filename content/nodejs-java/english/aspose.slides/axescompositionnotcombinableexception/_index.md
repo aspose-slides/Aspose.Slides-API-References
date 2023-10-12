@@ -12,7 +12,7 @@ url: /aspose.slides/axescompositionnotcombinableexception/
  Exception which thrown when axes composition of the series is not combinable with present axes 
  composition in chart.
  
-###AxesCompositionNotCombinableException{#AxesCompositionNotCombinableException}
+### AxesCompositionNotCombinableException {#AxesCompositionNotCombinableException}
 
 | Name | Description |
 | --- | --- |
@@ -25,13 +25,13 @@ AxesCompositionNotCombinableException
 ---
 
 
-###AxesCompositionNotCombinableException{#AxesCompositionNotCombinableException}
+### AxesCompositionNotCombinableException {#AxesCompositionNotCombinableException}
 
 | Name | Description |
 | --- | --- |
 | AxesCompositionNotCombinableException(String) | Constructor allowing a message to be added to this exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -44,13 +44,13 @@ AxesCompositionNotCombinableException
 ---
 
 
-###AxesCompositionNotCombinableException{#AxesCompositionNotCombinableException}
+### AxesCompositionNotCombinableException {#AxesCompositionNotCombinableException}
 
 | Name | Description |
 | --- | --- |
 | AxesCompositionNotCombinableException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

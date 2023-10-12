@@ -11,7 +11,7 @@ url: /aspose.slides/masterhandoutslide/
 
  Represents master slide for handouts.
  
-###getHeaderFooterManager{#getHeaderFooterManager}
+### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/masterhandoutslide/
 ---
 
 
-###getShowMasterShapes{#getShowMasterShapes}
+### getShowMasterShapes {#getShowMasterShapes}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ boolean
 ---
 
 
-###getThemeManager{#getThemeManager}
+### getThemeManager {#getThemeManager}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-###setShowMasterShapes{#setShowMasterShapes}
+### setShowMasterShapes {#setShowMasterShapes}
 
 | Name | Description |
 | --- | --- |

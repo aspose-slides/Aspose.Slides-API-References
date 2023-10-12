@@ -11,13 +11,13 @@ url: /aspose.slides/svgimage/
 
  Represents an SVG image.
  
-###SvgImage{#SvgImage}
+### SvgImage {#SvgImage}
 
 | Name | Description |
 | --- | --- |
 | SvgImage(byte[]) | Creates new SvgImage object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ SvgImage
 ---
 
 
-###SvgImage{#SvgImage}
+### SvgImage {#SvgImage}
 
 | Name | Description |
 | --- | --- |
 | SvgImage(String) | Creates new SvgImage object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,13 +49,13 @@ SvgImage
 ---
 
 
-###createSvgImageFromStream {#createSvgImageFromStream }
+### createSvgImageFromStream  {#createSvgImageFromStream }
 
 | Name | Description |
 | --- | --- |
 | createSvgImageFromStream (ReadStream, Function) | Creates new SvgImage object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -69,13 +69,13 @@ SvgImage
 ---
 
 
-###SvgImage{#SvgImage}
+### SvgImage {#SvgImage}
 
 | Name | Description |
 | --- | --- |
 | SvgImage(byte[], [ExternalResourceResolver](../externalresourceresolver), String) | Creates new SvgImage object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -90,13 +90,13 @@ SvgImage
 ---
 
 
-###SvgImage{#SvgImage}
+### SvgImage {#SvgImage}
 
 | Name | Description |
 | --- | --- |
 | SvgImage(byte[], [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -111,13 +111,13 @@ SvgImage
 ---
 
 
-###SvgImage{#SvgImage}
+### SvgImage {#SvgImage}
 
 | Name | Description |
 | --- | --- |
 | SvgImage(String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates new SvgImage object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -132,13 +132,13 @@ SvgImage
 ---
 
 
-###SvgImage{#SvgImage}
+### SvgImage {#SvgImage}
 
 | Name | Description |
 | --- | --- |
 | SvgImage(String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -153,13 +153,13 @@ SvgImage
 ---
 
 
-###createSvgImageFromStream {#createSvgImageFromStream }
+### createSvgImageFromStream  {#createSvgImageFromStream }
 
 | Name | Description |
 | --- | --- |
 | createSvgImageFromStream (ReadStream, [ExternalResourceResolver](../externalresourceresolver), String, Function) | Creates new SvgImage object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -175,13 +175,13 @@ SvgImage
 ---
 
 
-###createSvgImageFromStream {#createSvgImageFromStream }
+### createSvgImageFromStream  {#createSvgImageFromStream }
 
 | Name | Description |
 | --- | --- |
 | createSvgImageFromStream (ReadStream, [HtmlExternalResolver](../htmlexternalresolver), String, Function) | Creates new SvgImage object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -197,7 +197,7 @@ SvgImage
 ---
 
 
-###getBaseUri{#getBaseUri}
+### getBaseUri {#getBaseUri}
 
 | Name | Description |
 | --- | --- |
@@ -210,7 +210,7 @@ String
 ---
 
 
-###getExternalResourceResolver{#getExternalResourceResolver}
+### getExternalResourceResolver {#getExternalResourceResolver}
 
 | Name | Description |
 | --- | --- |
@@ -223,7 +223,7 @@ String
 ---
 
 
-###getSvgContent{#getSvgContent}
+### getSvgContent {#getSvgContent}
 
 | Name | Description |
 | --- | --- |
@@ -236,7 +236,7 @@ String
 ---
 
 
-###getSvgData{#getSvgData}
+### getSvgData {#getSvgData}
 
 | Name | Description |
 | --- | --- |

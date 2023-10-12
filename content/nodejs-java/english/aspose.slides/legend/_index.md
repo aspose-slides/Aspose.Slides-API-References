@@ -11,7 +11,7 @@ url: /aspose.slides/legend/
 
  Represents chart's legend properties.
  
-###getBottom{#getBottom}
+### getBottom {#getBottom}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ float
 ---
 
 
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getEntries{#getEntries}
+### getEntries {#getEntries}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ float
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ float
 ---
 
 
-###getOverlay{#getOverlay}
+### getOverlay {#getOverlay}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###getPosition{#getPosition}
+### getPosition {#getPosition}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ int
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ int
 ---
 
 
-###getRight{#getRight}
+### getRight {#getRight}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ float
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ float
 ---
 
 
-###getTextFormat{#getTextFormat}
+### getTextFormat {#getTextFormat}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ float
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ float
 ---
 
 
-###getX{#getX}
+### getX {#getX}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ float
 ---
 
 
-###getY{#getY}
+### getY {#getY}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ float
 ---
 
 
-###setHeight{#setHeight}
+### setHeight {#setHeight}
 
 | Name | Description |
 | --- | --- |
@@ -203,7 +203,7 @@ float
 ---
 
 
-###setOverlay{#setOverlay}
+### setOverlay {#setOverlay}
 
 | Name | Description |
 | --- | --- |
@@ -213,7 +213,7 @@ float
 ---
 
 
-###setPosition{#setPosition}
+### setPosition {#setPosition}
 
 | Name | Description |
 | --- | --- |
@@ -223,7 +223,7 @@ float
 ---
 
 
-###setWidth{#setWidth}
+### setWidth {#setWidth}
 
 | Name | Description |
 | --- | --- |
@@ -233,7 +233,7 @@ float
 ---
 
 
-###setX{#setX}
+### setX {#setX}
 
 | Name | Description |
 | --- | --- |
@@ -243,7 +243,7 @@ float
 ---
 
 
-###setY{#setY}
+### setY {#setY}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/datalabelcollection/
 
  Represents a series labels.
  
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/datalabelcollection/
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getCountOfVisibleDataLabels{#getCountOfVisibleDataLabels}
+### getCountOfVisibleDataLabels {#getCountOfVisibleDataLabels}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getDefaultDataLabelFormat{#getDefaultDataLabelFormat}
+### getDefaultDataLabelFormat {#getDefaultDataLabelFormat}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getLeaderLinesColor{#getLeaderLinesColor}
+### getLeaderLinesColor {#getLeaderLinesColor}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ Color
 ---
 
 
-###getLeaderLinesFormat{#getLeaderLinesFormat}
+### getLeaderLinesFormat {#getLeaderLinesFormat}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ Color
 ---
 
 
-###getParentSeries{#getParentSeries}
+### getParentSeries {#getParentSeries}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ Color
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ Color
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ Color
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ Color
 ---
 
 
-###hide{#hide}
+### hide {#hide}
 
 | Name | Description |
 | --- | --- |
@@ -151,13 +151,13 @@ Color
 ---
 
 
-###indexOf{#indexOf}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
 | indexOf ([DataLabel](../datalabel)) | Returns an index of the specified DataLabel in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -170,7 +170,7 @@ int
 ---
 
 
-###isVisible{#isVisible}
+### isVisible {#isVisible}
 
 | Name | Description |
 | --- | --- |
@@ -183,7 +183,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -196,7 +196,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -209,7 +209,7 @@ boolean
 ---
 
 
-###setLeaderLinesColor{#setLeaderLinesColor}
+### setLeaderLinesColor {#setLeaderLinesColor}
 
 | Name | Description |
 | --- | --- |

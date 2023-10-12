@@ -11,7 +11,7 @@ url: /aspose.slides/smartartnode/
 
  Represents node of a SmartArt object
  
-###getBulletFillFormat{#getBulletFillFormat}
+### getBulletFillFormat {#getBulletFillFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/smartartnode/
 ---
 
 
-###getChildNodes{#getChildNodes}
+### getChildNodes {#getChildNodes}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/smartartnode/
 ---
 
 
-###getLevel{#getLevel}
+### getLevel {#getLevel}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getOrganizationChartLayout{#getOrganizationChartLayout}
+### getOrganizationChartLayout {#getOrganizationChartLayout}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getPosition{#getPosition}
+### getPosition {#getPosition}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ int
 ---
 
 
-###getShapes{#getShapes}
+### getShapes {#getShapes}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ int
 ---
 
 
-###getTextFrame{#getTextFrame}
+### getTextFrame {#getTextFrame}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ int
 ---
 
 
-###isAssistant{#isAssistant}
+### isAssistant {#isAssistant}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ boolean
 ---
 
 
-###isHidden{#isHidden}
+### isHidden {#isHidden}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ boolean
 ---
 
 
-###setAssistant{#setAssistant}
+### setAssistant {#setAssistant}
 
 | Name | Description |
 | --- | --- |
@@ -157,7 +157,7 @@ boolean
 ---
 
 
-###setOrganizationChartLayout{#setOrganizationChartLayout}
+### setOrganizationChartLayout {#setOrganizationChartLayout}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ boolean
 ---
 
 
-###setPosition{#setPosition}
+### setPosition {#setPosition}
 
 | Name | Description |
 | --- | --- |

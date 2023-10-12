@@ -11,7 +11,7 @@ url: /aspose.slides/datalabelformat/
 
  Represents formatting options for DataLabel.
  
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/datalabelformat/
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/datalabelformat/
 ---
 
 
-###getNumberFormat{#getNumberFormat}
+### getNumberFormat {#getNumberFormat}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ String
 ---
 
 
-###getPosition{#getPosition}
+### getPosition {#getPosition}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getSeparator{#getSeparator}
+### getSeparator {#getSeparator}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 ---
 
 
-###getShowBubbleSize{#getShowBubbleSize}
+### getShowBubbleSize {#getShowBubbleSize}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###getShowCategoryName{#getShowCategoryName}
+### getShowCategoryName {#getShowCategoryName}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###getShowLabelAsDataCallout{#getShowLabelAsDataCallout}
+### getShowLabelAsDataCallout {#getShowLabelAsDataCallout}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###getShowLabelValueFromCell{#getShowLabelValueFromCell}
+### getShowLabelValueFromCell {#getShowLabelValueFromCell}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-###getShowLeaderLines{#getShowLeaderLines}
+### getShowLeaderLines {#getShowLeaderLines}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ boolean
 ---
 
 
-###getShowLegendKey{#getShowLegendKey}
+### getShowLegendKey {#getShowLegendKey}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ boolean
 ---
 
 
-###getShowPercentage{#getShowPercentage}
+### getShowPercentage {#getShowPercentage}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ boolean
 ---
 
 
-###getShowSeriesName{#getShowSeriesName}
+### getShowSeriesName {#getShowSeriesName}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ boolean
 ---
 
 
-###getShowValue{#getShowValue}
+### getShowValue {#getShowValue}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ boolean
 ---
 
 
-###getTextFormat{#getTextFormat}
+### getTextFormat {#getTextFormat}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ boolean
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ long
 ---
 
 
-###isNumberFormatLinkedToSource{#isNumberFormatLinkedToSource}
+### isNumberFormatLinkedToSource {#isNumberFormatLinkedToSource}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ boolean
 ---
 
 
-###setNumberFormat{#setNumberFormat}
+### setNumberFormat {#setNumberFormat}
 
 | Name | Description |
 | --- | --- |
@@ -242,7 +242,7 @@ boolean
 ---
 
 
-###setNumberFormatLinkedToSource{#setNumberFormatLinkedToSource}
+### setNumberFormatLinkedToSource {#setNumberFormatLinkedToSource}
 
 | Name | Description |
 | --- | --- |
@@ -252,7 +252,7 @@ boolean
 ---
 
 
-###setPosition{#setPosition}
+### setPosition {#setPosition}
 
 | Name | Description |
 | --- | --- |
@@ -262,7 +262,7 @@ boolean
 ---
 
 
-###setSeparator{#setSeparator}
+### setSeparator {#setSeparator}
 
 | Name | Description |
 | --- | --- |
@@ -272,7 +272,7 @@ boolean
 ---
 
 
-###setShowBubbleSize{#setShowBubbleSize}
+### setShowBubbleSize {#setShowBubbleSize}
 
 | Name | Description |
 | --- | --- |
@@ -282,7 +282,7 @@ boolean
 ---
 
 
-###setShowCategoryName{#setShowCategoryName}
+### setShowCategoryName {#setShowCategoryName}
 
 | Name | Description |
 | --- | --- |
@@ -292,7 +292,7 @@ boolean
 ---
 
 
-###setShowLabelAsDataCallout{#setShowLabelAsDataCallout}
+### setShowLabelAsDataCallout {#setShowLabelAsDataCallout}
 
 | Name | Description |
 | --- | --- |
@@ -302,7 +302,7 @@ boolean
 ---
 
 
-###setShowLabelValueFromCell{#setShowLabelValueFromCell}
+### setShowLabelValueFromCell {#setShowLabelValueFromCell}
 
 | Name | Description |
 | --- | --- |
@@ -312,7 +312,7 @@ boolean
 ---
 
 
-###setShowLeaderLines{#setShowLeaderLines}
+### setShowLeaderLines {#setShowLeaderLines}
 
 | Name | Description |
 | --- | --- |
@@ -322,7 +322,7 @@ boolean
 ---
 
 
-###setShowLegendKey{#setShowLegendKey}
+### setShowLegendKey {#setShowLegendKey}
 
 | Name | Description |
 | --- | --- |
@@ -332,7 +332,7 @@ boolean
 ---
 
 
-###setShowPercentage{#setShowPercentage}
+### setShowPercentage {#setShowPercentage}
 
 | Name | Description |
 | --- | --- |
@@ -342,7 +342,7 @@ boolean
 ---
 
 
-###setShowSeriesName{#setShowSeriesName}
+### setShowSeriesName {#setShowSeriesName}
 
 | Name | Description |
 | --- | --- |
@@ -352,7 +352,7 @@ boolean
 ---
 
 
-###setShowValue{#setShowValue}
+### setShowValue {#setShowValue}
 
 | Name | Description |
 | --- | --- |

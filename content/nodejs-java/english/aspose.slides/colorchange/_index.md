@@ -12,13 +12,13 @@ url: /aspose.slides/colorchange/
  Represents a Color Change effect.
  Instances of FromColor are replaced with instances of ToColor.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified ColorChange is equal to the current ColorChange. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ boolean
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ ColorChangeEffectiveData
 ---
 
 
-###getFromColor{#getFromColor}
+### getFromColor {#getFromColor}
 
 | Name | Description |
 | --- | --- |
@@ -57,7 +57,7 @@ ColorChangeEffectiveData
 ---
 
 
-###getToColor{#getToColor}
+### getToColor {#getToColor}
 
 | Name | Description |
 | --- | --- |
@@ -70,7 +70,7 @@ ColorChangeEffectiveData
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ long
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

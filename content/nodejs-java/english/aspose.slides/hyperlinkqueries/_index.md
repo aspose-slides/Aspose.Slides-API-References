@@ -11,7 +11,7 @@ url: /aspose.slides/hyperlinkqueries/
 
  Provide easy access to contained hyperlinks.
  
-###getAnyHyperlinks{#getAnyHyperlinks}
+### getAnyHyperlinks {#getAnyHyperlinks}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ KeyedCollection, List, [BehaviorPropertyCollection](../behaviorpropertycollectio
 ---
 
 
-###getHyperlinkClicks{#getHyperlinkClicks}
+### getHyperlinkClicks {#getHyperlinkClicks}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ KeyedCollection, List, [BehaviorPropertyCollection](../behaviorpropertycollectio
 ---
 
 
-###getHyperlinkMouseOvers{#getHyperlinkMouseOvers}
+### getHyperlinkMouseOvers {#getHyperlinkMouseOvers}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ KeyedCollection, List, [BehaviorPropertyCollection](../behaviorpropertycollectio
 ---
 
 
-###removeAllHyperlinks{#removeAllHyperlinks}
+### removeAllHyperlinks {#removeAllHyperlinks}
 
 | Name | Description |
 | --- | --- |

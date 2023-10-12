@@ -11,7 +11,7 @@ url: /aspose.slides/svgoptions/
 
  Represents an SVG options.
  
-###SVGOptions{#SVGOptions}
+### SVGOptions {#SVGOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ SVGOptions
 ---
 
 
-###SVGOptions{#SVGOptions}
+### SVGOptions {#SVGOptions}
 
 | Name | Description |
 | --- | --- |
 | SVGOptions([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ SVGOptions
 ---
 
 
-###getDefault{#getDefault}
+### getDefault {#getDefault}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ SVGOptions
 ---
 
 
-###getDeletePicturesCroppedAreas{#getDeletePicturesCroppedAreas}
+### getDeletePicturesCroppedAreas {#getDeletePicturesCroppedAreas}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-###getDisable3DText{#getDisable3DText}
+### getDisable3DText {#getDisable3DText}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ boolean
 ---
 
 
-###getDisableGradientSplit{#getDisableGradientSplit}
+### getDisableGradientSplit {#getDisableGradientSplit}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ boolean
 ---
 
 
-###getDisableLineEndCropping{#getDisableLineEndCropping}
+### getDisableLineEndCropping {#getDisableLineEndCropping}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ boolean
 ---
 
 
-###getExternalFontsHandling{#getExternalFontsHandling}
+### getExternalFontsHandling {#getExternalFontsHandling}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ int
 ---
 
 
-###getJpegQuality{#getJpegQuality}
+### getJpegQuality {#getJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ int
 ---
 
 
-###getMetafileRasterizationDpi{#getMetafileRasterizationDpi}
+### getMetafileRasterizationDpi {#getMetafileRasterizationDpi}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ int
 ---
 
 
-###getPicturesCompression{#getPicturesCompression}
+### getPicturesCompression {#getPicturesCompression}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ int
 ---
 
 
-###getShapeFormattingController{#getShapeFormattingController}
+### getShapeFormattingController {#getShapeFormattingController}
 
 | Name | Description |
 | --- | --- |
@@ -173,7 +173,7 @@ int
 ---
 
 
-###getSimple{#getSimple}
+### getSimple {#getSimple}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ SVGOptions
 ---
 
 
-###getUseFrameRotation{#getUseFrameRotation}
+### getUseFrameRotation {#getUseFrameRotation}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ boolean
 ---
 
 
-###getUseFrameSize{#getUseFrameSize}
+### getUseFrameSize {#getUseFrameSize}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ boolean
 ---
 
 
-###getVectorizeText{#getVectorizeText}
+### getVectorizeText {#getVectorizeText}
 
 | Name | Description |
 | --- | --- |
@@ -225,7 +225,7 @@ boolean
 ---
 
 
-###getWYSIWYG{#getWYSIWYG}
+### getWYSIWYG {#getWYSIWYG}
 
 | Name | Description |
 | --- | --- |
@@ -238,7 +238,7 @@ SVGOptions
 ---
 
 
-###setDeletePicturesCroppedAreas{#setDeletePicturesCroppedAreas}
+### setDeletePicturesCroppedAreas {#setDeletePicturesCroppedAreas}
 
 | Name | Description |
 | --- | --- |
@@ -248,7 +248,7 @@ SVGOptions
 ---
 
 
-###setDisable3DText{#setDisable3DText}
+### setDisable3DText {#setDisable3DText}
 
 | Name | Description |
 | --- | --- |
@@ -258,7 +258,7 @@ SVGOptions
 ---
 
 
-###setDisableGradientSplit{#setDisableGradientSplit}
+### setDisableGradientSplit {#setDisableGradientSplit}
 
 | Name | Description |
 | --- | --- |
@@ -268,7 +268,7 @@ SVGOptions
 ---
 
 
-###setDisableLineEndCropping{#setDisableLineEndCropping}
+### setDisableLineEndCropping {#setDisableLineEndCropping}
 
 | Name | Description |
 | --- | --- |
@@ -278,7 +278,7 @@ SVGOptions
 ---
 
 
-###setExternalFontsHandling{#setExternalFontsHandling}
+### setExternalFontsHandling {#setExternalFontsHandling}
 
 | Name | Description |
 | --- | --- |
@@ -288,7 +288,7 @@ SVGOptions
 ---
 
 
-###setJpegQuality{#setJpegQuality}
+### setJpegQuality {#setJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -298,7 +298,7 @@ SVGOptions
 ---
 
 
-###setMetafileRasterizationDpi{#setMetafileRasterizationDpi}
+### setMetafileRasterizationDpi {#setMetafileRasterizationDpi}
 
 | Name | Description |
 | --- | --- |
@@ -308,7 +308,7 @@ SVGOptions
 ---
 
 
-###setPicturesCompression{#setPicturesCompression}
+### setPicturesCompression {#setPicturesCompression}
 
 | Name | Description |
 | --- | --- |
@@ -318,7 +318,7 @@ SVGOptions
 ---
 
 
-###setShapeFormattingController{#setShapeFormattingController}
+### setShapeFormattingController {#setShapeFormattingController}
 
 | Name | Description |
 | --- | --- |
@@ -328,7 +328,7 @@ SVGOptions
 ---
 
 
-###setUseFrameRotation{#setUseFrameRotation}
+### setUseFrameRotation {#setUseFrameRotation}
 
 | Name | Description |
 | --- | --- |
@@ -338,7 +338,7 @@ SVGOptions
 ---
 
 
-###setUseFrameSize{#setUseFrameSize}
+### setUseFrameSize {#setUseFrameSize}
 
 | Name | Description |
 | --- | --- |
@@ -348,7 +348,7 @@ SVGOptions
 ---
 
 
-###setVectorizeText{#setVectorizeText}
+### setVectorizeText {#setVectorizeText}
 
 | Name | Description |
 | --- | --- |

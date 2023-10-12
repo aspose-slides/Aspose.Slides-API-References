@@ -11,7 +11,7 @@ url: /aspose.slides/loadoptions/
 
  Allows to specify additional options (such as format or default font) when loading a presentation.
  
-###LoadOptions{#LoadOptions}
+### LoadOptions {#LoadOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ LoadOptions
 ---
 
 
-###LoadOptions{#LoadOptions}
+### LoadOptions {#LoadOptions}
 
 | Name | Description |
 | --- | --- |
 | LoadOptions(int) | Creates new load options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ LoadOptions
 ---
 
 
-###getBlobManagementOptions{#getBlobManagementOptions}
+### getBlobManagementOptions {#getBlobManagementOptions}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ LoadOptions
 ---
 
 
-###getDefaultAsianFont{#getDefaultAsianFont}
+### getDefaultAsianFont {#getDefaultAsianFont}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ String
 ---
 
 
-###getDefaultRegularFont{#getDefaultRegularFont}
+### getDefaultRegularFont {#getDefaultRegularFont}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ String
 ---
 
 
-###getDefaultSymbolFont{#getDefaultSymbolFont}
+### getDefaultSymbolFont {#getDefaultSymbolFont}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ String
 ---
 
 
-###getDefaultTextLanguage{#getDefaultTextLanguage}
+### getDefaultTextLanguage {#getDefaultTextLanguage}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ String
 ---
 
 
-###getDocumentLevelFontSources{#getDocumentLevelFontSources}
+### getDocumentLevelFontSources {#getDocumentLevelFontSources}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ String
 ---
 
 
-###getInterruptionToken{#getInterruptionToken}
+### getInterruptionToken {#getInterruptionToken}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ String
 ---
 
 
-###getLoadFormat{#getLoadFormat}
+### getLoadFormat {#getLoadFormat}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ int
 ---
 
 
-###getOnlyLoadDocumentProperties{#getOnlyLoadDocumentProperties}
+### getOnlyLoadDocumentProperties {#getOnlyLoadDocumentProperties}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ boolean
 ---
 
 
-###getPassword{#getPassword}
+### getPassword {#getPassword}
 
 | Name | Description |
 | --- | --- |
@@ -173,7 +173,7 @@ String
 ---
 
 
-###getResourceLoadingCallback{#getResourceLoadingCallback}
+### getResourceLoadingCallback {#getResourceLoadingCallback}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ SvgResourceResolver, ResourceLoadingAdapter
 ---
 
 
-###getSpreadsheetOptions{#getSpreadsheetOptions}
+### getSpreadsheetOptions {#getSpreadsheetOptions}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ SvgResourceResolver, ResourceLoadingAdapter
 ---
 
 
-###getWarningCallback{#getWarningCallback}
+### getWarningCallback {#getWarningCallback}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ IWarningCallback
 ---
 
 
-###setBlobManagementOptions{#setBlobManagementOptions}
+### setBlobManagementOptions {#setBlobManagementOptions}
 
 | Name | Description |
 | --- | --- |
@@ -222,7 +222,7 @@ IWarningCallback
 ---
 
 
-###setDefaultAsianFont{#setDefaultAsianFont}
+### setDefaultAsianFont {#setDefaultAsianFont}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ IWarningCallback
 ---
 
 
-###setDefaultRegularFont{#setDefaultRegularFont}
+### setDefaultRegularFont {#setDefaultRegularFont}
 
 | Name | Description |
 | --- | --- |
@@ -242,7 +242,7 @@ IWarningCallback
 ---
 
 
-###setDefaultSymbolFont{#setDefaultSymbolFont}
+### setDefaultSymbolFont {#setDefaultSymbolFont}
 
 | Name | Description |
 | --- | --- |
@@ -252,7 +252,7 @@ IWarningCallback
 ---
 
 
-###setDefaultTextLanguage{#setDefaultTextLanguage}
+### setDefaultTextLanguage {#setDefaultTextLanguage}
 
 | Name | Description |
 | --- | --- |
@@ -262,7 +262,7 @@ IWarningCallback
 ---
 
 
-###setDocumentLevelFontSources{#setDocumentLevelFontSources}
+### setDocumentLevelFontSources {#setDocumentLevelFontSources}
 
 | Name | Description |
 | --- | --- |
@@ -272,7 +272,7 @@ IWarningCallback
 ---
 
 
-###setInterruptionToken{#setInterruptionToken}
+### setInterruptionToken {#setInterruptionToken}
 
 | Name | Description |
 | --- | --- |
@@ -282,7 +282,7 @@ IWarningCallback
 ---
 
 
-###setLoadFormat{#setLoadFormat}
+### setLoadFormat {#setLoadFormat}
 
 | Name | Description |
 | --- | --- |
@@ -292,7 +292,7 @@ IWarningCallback
 ---
 
 
-###setOnlyLoadDocumentProperties{#setOnlyLoadDocumentProperties}
+### setOnlyLoadDocumentProperties {#setOnlyLoadDocumentProperties}
 
 | Name | Description |
 | --- | --- |
@@ -302,7 +302,7 @@ IWarningCallback
 ---
 
 
-###setPassword{#setPassword}
+### setPassword {#setPassword}
 
 | Name | Description |
 | --- | --- |
@@ -312,7 +312,7 @@ IWarningCallback
 ---
 
 
-###setResourceLoadingCallback{#setResourceLoadingCallback}
+### setResourceLoadingCallback {#setResourceLoadingCallback}
 
 | Name | Description |
 | --- | --- |
@@ -322,7 +322,7 @@ IWarningCallback
 ---
 
 
-###setSpreadsheetOptions{#setSpreadsheetOptions}
+### setSpreadsheetOptions {#setSpreadsheetOptions}
 
 | Name | Description |
 | --- | --- |
@@ -332,7 +332,7 @@ IWarningCallback
 ---
 
 
-###setWarningCallback{#setWarningCallback}
+### setWarningCallback {#setWarningCallback}
 
 | Name | Description |
 | --- | --- |

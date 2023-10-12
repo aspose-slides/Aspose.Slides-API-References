@@ -13,13 +13,13 @@ url: /aspose.slides/alphaceiling/
  Alpha (opacity) values greater than zero are changed to 100%.
  In other words, anything partially opaque becomes fully opaque.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified AlphaCeiling is equal to the current AlphaCeiling. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ boolean
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -45,7 +45,7 @@ AlphaCeilingEffectiveData
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

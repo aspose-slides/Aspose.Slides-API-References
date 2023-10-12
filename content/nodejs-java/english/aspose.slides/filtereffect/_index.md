@@ -11,7 +11,7 @@ url: /aspose.slides/filtereffect/
 
  Represent filter effect of behavior.
  
-###FilterEffect{#FilterEffect}
+### FilterEffect {#FilterEffect}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ FilterEffect
 ---
 
 
-###getReveal{#getReveal}
+### getReveal {#getReveal}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getSubtype{#getSubtype}
+### getSubtype {#getSubtype}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###setReveal{#setReveal}
+### setReveal {#setReveal}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ int
 ---
 
 
-###setSubtype{#setSubtype}
+### setSubtype {#setSubtype}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ int
 ---
 
 
-###setType{#setType}
+### setType {#setType}
 
 | Name | Description |
 | --- | --- |

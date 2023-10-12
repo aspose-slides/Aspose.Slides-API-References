@@ -11,7 +11,7 @@ url: /aspose.slides/shapeutil/
 
  Offer methods which helps to process shapes objects.
  
-###ShapeUtil{#ShapeUtil}
+### ShapeUtil {#ShapeUtil}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ ShapeUtil
 ---
 
 
-###geometryPathToGraphicsPath{#geometryPathToGraphicsPath}
+### geometryPathToGraphicsPath {#geometryPathToGraphicsPath}
 
 | Name | Description |
 | --- | --- |
 | geometryPathToGraphicsPath ([GeometryPath](../geometrypath)) | Converts IGeometryPath to java.awt.Shape. GraphicsPath can be transformed in a different ways using its convenient functions and then transformed back into the IGeometryPath to use in GeometryShape via #graphicsPathToGeometryPath(java.awt.Shape graphicsPath) function. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ Shape
 ---
 
 
-###graphicsPathToGeometryPath{#graphicsPathToGeometryPath}
+### graphicsPathToGeometryPath {#graphicsPathToGeometryPath}
 
 | Name | Description |
 | --- | --- |
 | graphicsPathToGeometryPath ([Shape](../shape)) | Converts a java.awt.Shape graphicsPath to the IGeometryPath |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

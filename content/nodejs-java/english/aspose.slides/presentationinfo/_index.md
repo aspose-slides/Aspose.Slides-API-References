@@ -11,13 +11,13 @@ url: /aspose.slides/presentationinfo/
 
  Information about presentation file
  
-###checkPassword{#checkPassword}
+### checkPassword {#checkPassword}
 
 | Name | Description |
 | --- | --- |
 | checkPassword (String) | Checks whether a password is correct for a presentation protected with open password. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -36,13 +36,13 @@ boolean
 ---
 
 
-###checkWriteProtection{#checkWriteProtection}
+### checkWriteProtection {#checkWriteProtection}
 
 | Name | Description |
 | --- | --- |
 | checkWriteProtection (String) | Checks whether a password to modify is correct for a write protected presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -61,7 +61,7 @@ boolean
 ---
 
 
-###getLoadFormat{#getLoadFormat}
+### getLoadFormat {#getLoadFormat}
 
 | Name | Description |
 | --- | --- |
@@ -74,7 +74,7 @@ int
 ---
 
 
-###isEncrypted{#isEncrypted}
+### isEncrypted {#isEncrypted}
 
 | Name | Description |
 | --- | --- |
@@ -87,7 +87,7 @@ boolean
 ---
 
 
-###isPasswordProtected{#isPasswordProtected}
+### isPasswordProtected {#isPasswordProtected}
 
 | Name | Description |
 | --- | --- |
@@ -100,7 +100,7 @@ boolean
 ---
 
 
-###isWriteProtected{#isWriteProtected}
+### isWriteProtected {#isWriteProtected}
 
 | Name | Description |
 | --- | --- |
@@ -113,7 +113,7 @@ byte
 ---
 
 
-###readDocumentProperties{#readDocumentProperties}
+### readDocumentProperties {#readDocumentProperties}
 
 | Name | Description |
 | --- | --- |
@@ -126,7 +126,7 @@ byte
 ---
 
 
-###updateDocumentProperties{#updateDocumentProperties}
+### updateDocumentProperties {#updateDocumentProperties}
 
 | Name | Description |
 | --- | --- |
@@ -136,13 +136,13 @@ byte
 ---
 
 
-###writeBindedPresentationToStream {#writeBindedPresentationToStream }
+### writeBindedPresentationToStream  {#writeBindedPresentationToStream }
 
 | Name | Description |
 | --- | --- |
 | writeBindedPresentationToStream  (PresentationInfo, WriteStream) | Writes binded presentation to stream. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -153,13 +153,13 @@ byte
 ---
 
 
-###writeBindedPresentation{#writeBindedPresentation}
+### writeBindedPresentation {#writeBindedPresentation}
 
 | Name | Description |
 | --- | --- |
 | writeBindedPresentation (String) | Writes binded presentation to file. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

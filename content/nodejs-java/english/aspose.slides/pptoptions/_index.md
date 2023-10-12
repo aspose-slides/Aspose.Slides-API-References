@@ -11,7 +11,7 @@ url: /aspose.slides/pptoptions/
 
  Provides options that control how a presentation is saved in PPT format.
  
-###PptOptions{#PptOptions}
+### PptOptions {#PptOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ PptOptions
 ---
 
 
-###getRootDirectoryClsid{#getRootDirectoryClsid}
+### getRootDirectoryClsid {#getRootDirectoryClsid}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ UUID
 ---
 
 
-###setRootDirectoryClsid{#setRootDirectoryClsid}
+### setRootDirectoryClsid {#setRootDirectoryClsid}
 
 | Name | Description |
 | --- | --- |

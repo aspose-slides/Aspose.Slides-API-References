@@ -11,13 +11,13 @@ url: /aspose.slides/datalabel/
 
  Represents a series labels.
  
-###DataLabel{#DataLabel}
+### DataLabel {#DataLabel}
 
 | Name | Description |
 | --- | --- |
 | DataLabel([ChartDataPoint](../chartdatapoint)) | Creates a new instance of DataLabel class. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ DataLabel
 ---
 
 
-###addTextFrameForOverriding{#addTextFrameForOverriding}
+### addTextFrameForOverriding {#addTextFrameForOverriding}
 
 | Name | Description |
 | --- | --- |
 | addTextFrameForOverriding (String) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ DataLabel
 ---
 
 
-###getActualHeight{#getActualHeight}
+### getActualHeight {#getActualHeight}
 
 | Name | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ float
 ---
 
 
-###getActualLabelText{#getActualLabelText}
+### getActualLabelText {#getActualLabelText}
 
 | Name | Description |
 | --- | --- |
@@ -75,7 +75,7 @@ String
 ---
 
 
-###getActualWidth{#getActualWidth}
+### getActualWidth {#getActualWidth}
 
 | Name | Description |
 | --- | --- |
@@ -88,7 +88,7 @@ float
 ---
 
 
-###getActualX{#getActualX}
+### getActualX {#getActualX}
 
 | Name | Description |
 | --- | --- |
@@ -101,7 +101,7 @@ float
 ---
 
 
-###getActualY{#getActualY}
+### getActualY {#getActualY}
 
 | Name | Description |
 | --- | --- |
@@ -114,7 +114,7 @@ float
 ---
 
 
-###getBottom{#getBottom}
+### getBottom {#getBottom}
 
 | Name | Description |
 | --- | --- |
@@ -127,7 +127,7 @@ float
 ---
 
 
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -140,7 +140,7 @@ float
 ---
 
 
-###getDataLabelFormat{#getDataLabelFormat}
+### getDataLabelFormat {#getDataLabelFormat}
 
 | Name | Description |
 | --- | --- |
@@ -153,7 +153,7 @@ float
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -166,7 +166,7 @@ float
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -179,7 +179,7 @@ float
 ---
 
 
-###getRight{#getRight}
+### getRight {#getRight}
 
 | Name | Description |
 | --- | --- |
@@ -192,7 +192,7 @@ float
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -205,7 +205,7 @@ float
 ---
 
 
-###getTextFormat{#getTextFormat}
+### getTextFormat {#getTextFormat}
 
 | Name | Description |
 | --- | --- |
@@ -218,7 +218,7 @@ float
 ---
 
 
-###getTextFrameForOverriding{#getTextFrameForOverriding}
+### getTextFrameForOverriding {#getTextFrameForOverriding}
 
 | Name | Description |
 | --- | --- |
@@ -231,7 +231,7 @@ float
 ---
 
 
-###getValueFromCell{#getValueFromCell}
+### getValueFromCell {#getValueFromCell}
 
 | Name | Description |
 | --- | --- |
@@ -244,7 +244,7 @@ float
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -257,7 +257,7 @@ float
 ---
 
 
-###getX{#getX}
+### getX {#getX}
 
 | Name | Description |
 | --- | --- |
@@ -270,7 +270,7 @@ float
 ---
 
 
-###getY{#getY}
+### getY {#getY}
 
 | Name | Description |
 | --- | --- |
@@ -283,7 +283,7 @@ float
 ---
 
 
-###hide{#hide}
+### hide {#hide}
 
 | Name | Description |
 | --- | --- |
@@ -293,7 +293,7 @@ float
 ---
 
 
-###isVisible{#isVisible}
+### isVisible {#isVisible}
 
 | Name | Description |
 | --- | --- |
@@ -306,7 +306,7 @@ boolean
 ---
 
 
-###setHeight{#setHeight}
+### setHeight {#setHeight}
 
 | Name | Description |
 | --- | --- |
@@ -316,7 +316,7 @@ boolean
 ---
 
 
-###setValueFromCell{#setValueFromCell}
+### setValueFromCell {#setValueFromCell}
 
 | Name | Description |
 | --- | --- |
@@ -326,7 +326,7 @@ boolean
 ---
 
 
-###setWidth{#setWidth}
+### setWidth {#setWidth}
 
 | Name | Description |
 | --- | --- |
@@ -336,7 +336,7 @@ boolean
 ---
 
 
-###setX{#setX}
+### setX {#setX}
 
 | Name | Description |
 | --- | --- |
@@ -346,7 +346,7 @@ boolean
 ---
 
 
-###setY{#setY}
+### setY {#setY}
 
 | Name | Description |
 | --- | --- |

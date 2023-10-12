@@ -11,7 +11,7 @@ url: /aspose.slides/responsivehtmlcontroller/
 
  Responsive HTML Controller
  
-###ResponsiveHtmlController{#ResponsiveHtmlController}
+### ResponsiveHtmlController {#ResponsiveHtmlController}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ ResponsiveHtmlController
 ---
 
 
-###ResponsiveHtmlController{#ResponsiveHtmlController}
+### ResponsiveHtmlController {#ResponsiveHtmlController}
 
 | Name | Description |
 | --- | --- |
 | ResponsiveHtmlController([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ ResponsiveHtmlController
 ---
 
 
-###ResponsiveHtmlController{#ResponsiveHtmlController}
+### ResponsiveHtmlController {#ResponsiveHtmlController}
 
 | Name | Description |
 | --- | --- |
 | ResponsiveHtmlController([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -62,13 +62,13 @@ ResponsiveHtmlController
 ---
 
 
-###ResponsiveHtmlController{#ResponsiveHtmlController}
+### ResponsiveHtmlController {#ResponsiveHtmlController}
 
 | Name | Description |
 | --- | --- |
 | ResponsiveHtmlController([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -81,13 +81,13 @@ ResponsiveHtmlController
 ---
 
 
-###ResponsiveHtmlController{#ResponsiveHtmlController}
+### ResponsiveHtmlController {#ResponsiveHtmlController}
 
 | Name | Description |
 | --- | --- |
 | ResponsiveHtmlController([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -100,13 +100,13 @@ ResponsiveHtmlController
 ---
 
 
-###ResponsiveHtmlController{#ResponsiveHtmlController}
+### ResponsiveHtmlController {#ResponsiveHtmlController}
 
 | Name | Description |
 | --- | --- |
 | ResponsiveHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -119,7 +119,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeDocumentEnd{#writeDocumentEnd}
+### writeDocumentEnd {#writeDocumentEnd}
 
 | Name | Description |
 | --- | --- |
@@ -129,7 +129,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeDocumentStart{#writeDocumentStart}
+### writeDocumentStart {#writeDocumentStart}
 
 | Name | Description |
 | --- | --- |
@@ -139,7 +139,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -159,7 +159,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -169,7 +169,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -179,7 +179,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -189,7 +189,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -209,7 +209,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -229,7 +229,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -239,7 +239,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -249,7 +249,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -259,7 +259,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -269,7 +269,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -279,7 +279,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -289,7 +289,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -299,7 +299,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -309,7 +309,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -319,7 +319,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -329,7 +329,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -339,7 +339,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -349,7 +349,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -359,7 +359,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -369,7 +369,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -379,7 +379,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -389,7 +389,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -399,7 +399,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -409,7 +409,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -419,7 +419,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -429,7 +429,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -439,7 +439,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -449,7 +449,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -459,7 +459,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -469,7 +469,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -479,7 +479,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -489,7 +489,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -499,7 +499,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -509,7 +509,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -519,7 +519,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -529,7 +529,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -539,7 +539,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeSlideEnd{#writeSlideEnd}
+### writeSlideEnd {#writeSlideEnd}
 
 | Name | Description |
 | --- | --- |
@@ -549,7 +549,7 @@ ResponsiveHtmlController
 ---
 
 
-###writeSlideStart{#writeSlideStart}
+### writeSlideStart {#writeSlideStart}
 
 | Name | Description |
 | --- | --- |

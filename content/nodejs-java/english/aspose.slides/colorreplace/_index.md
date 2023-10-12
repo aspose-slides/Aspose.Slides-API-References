@@ -13,13 +13,13 @@ url: /aspose.slides/colorreplace/
  All effect colors are changed to a fixed color.
  Alpha values are unaffected.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified ColorReplace is equal to the current ColorReplace. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ boolean
 ---
 
 
-###getColor{#getColor}
+### getColor {#getColor}
 
 | Name | Description |
 | --- | --- |
@@ -45,7 +45,7 @@ boolean
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -58,7 +58,7 @@ ColorReplaceEffectiveData
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -71,7 +71,7 @@ long
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

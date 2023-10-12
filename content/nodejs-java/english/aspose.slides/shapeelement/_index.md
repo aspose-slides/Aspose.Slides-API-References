@@ -11,7 +11,7 @@ url: /aspose.slides/shapeelement/
 
  Represents a part of shape with same outline and fill properties.
  
-###getFillSource{#getFillSource}
+### getFillSource {#getFillSource}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ byte
 ---
 
 
-###getGraphicsPath{#getGraphicsPath}
+### getGraphicsPath {#getGraphicsPath}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Shape
 ---
 
 
-###getParentShape{#getParentShape}
+### getParentShape {#getParentShape}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ Shape
 ---
 
 
-###getStrokeSource{#getStrokeSource}
+### getStrokeSource {#getStrokeSource}
 
 | Name | Description |
 | --- | --- |

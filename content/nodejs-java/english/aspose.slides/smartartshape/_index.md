@@ -11,7 +11,7 @@ url: /aspose.slides/smartartshape/
 
  Represents SmartArt shape
  
-###getShapeType{#getShapeType}
+### getShapeType {#getShapeType}
 
 | Name | Description |
 | --- | --- |
@@ -30,7 +30,7 @@ int
 ---
 
 
-###getTextFrame{#getTextFrame}
+### getTextFrame {#getTextFrame}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ int
 ---
 
 
-###setShapeType{#setShapeType}
+### setShapeType {#setShapeType}
 
 | Name | Description |
 | --- | --- |

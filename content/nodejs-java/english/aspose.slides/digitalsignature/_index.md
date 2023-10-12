@@ -11,13 +11,13 @@ url: /aspose.slides/digitalsignature/
 
  Digital signature in signed file.
  
-###DigitalSignature{#DigitalSignature}
+### DigitalSignature {#DigitalSignature}
 
 | Name | Description |
 | --- | --- |
 | DigitalSignature(byte[], String) | Creates a new DigitalSignature object with the specified certificate. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +31,13 @@ DigitalSignature
 ---
 
 
-###DigitalSignature{#DigitalSignature}
+### DigitalSignature {#DigitalSignature}
 
 | Name | Description |
 | --- | --- |
 | DigitalSignature(String, String) | Creates a new DigitalSignature object with the specified certificate file path and password. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -51,7 +51,7 @@ DigitalSignature
 ---
 
 
-###getCertificate{#getCertificate}
+### getCertificate {#getCertificate}
 
 | Name | Description |
 | --- | --- |
@@ -64,7 +64,7 @@ byte
 ---
 
 
-###getComments{#getComments}
+### getComments {#getComments}
 
 | Name | Description |
 | --- | --- |
@@ -77,7 +77,7 @@ String
 ---
 
 
-###getSignTime{#getSignTime}
+### getSignTime {#getSignTime}
 
 | Name | Description |
 | --- | --- |
@@ -90,7 +90,7 @@ Date
 ---
 
 
-###isValid{#isValid}
+### isValid {#isValid}
 
 | Name | Description |
 | --- | --- |
@@ -103,7 +103,7 @@ boolean
 ---
 
 
-###setComments{#setComments}
+### setComments {#setComments}
 
 | Name | Description |
 | --- | --- |

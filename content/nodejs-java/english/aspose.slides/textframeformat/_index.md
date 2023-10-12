@@ -11,7 +11,7 @@ url: /aspose.slides/textframeformat/
 
   Contains the TextFrame's formatTextFrameFormatting properties.
  
-###TextFrameFormat{#TextFrameFormat}
+### TextFrameFormat {#TextFrameFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ TextFrameFormat
 ---
 
 
-###getAnchoringType{#getAnchoringType}
+### getAnchoringType {#getAnchoringType}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ byte
 ---
 
 
-###getAutofitType{#getAutofitType}
+### getAutofitType {#getAutofitType}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ byte
 ---
 
 
-###getCenterText{#getCenterText}
+### getCenterText {#getCenterText}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ byte
 ---
 
 
-###getColumnCount{#getColumnCount}
+### getColumnCount {#getColumnCount}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###getColumnSpacing{#getColumnSpacing}
+### getColumnSpacing {#getColumnSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ double
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ TextFrameFormatEffectiveData
 ---
 
 
-###getKeepTextFlat{#getKeepTextFlat}
+### getKeepTextFlat {#getKeepTextFlat}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###getMarginBottom{#getMarginBottom}
+### getMarginBottom {#getMarginBottom}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ double
 ---
 
 
-###getMarginLeft{#getMarginLeft}
+### getMarginLeft {#getMarginLeft}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ double
 ---
 
 
-###getMarginRight{#getMarginRight}
+### getMarginRight {#getMarginRight}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ double
 ---
 
 
-###getMarginTop{#getMarginTop}
+### getMarginTop {#getMarginTop}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ double
 ---
 
 
-###getRotationAngle{#getRotationAngle}
+### getRotationAngle {#getRotationAngle}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ float
 ---
 
 
-###getTextStyle{#getTextStyle}
+### getTextStyle {#getTextStyle}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ float
 ---
 
 
-###getTextVerticalType{#getTextVerticalType}
+### getTextVerticalType {#getTextVerticalType}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ byte
 ---
 
 
-###getThreeDFormat{#getThreeDFormat}
+### getThreeDFormat {#getThreeDFormat}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ byte
 ---
 
 
-###getTransform{#getTransform}
+### getTransform {#getTransform}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ byte
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -245,7 +245,7 @@ long
 ---
 
 
-###getWrapText{#getWrapText}
+### getWrapText {#getWrapText}
 
 | Name | Description |
 | --- | --- |
@@ -258,7 +258,7 @@ byte
 ---
 
 
-###setAnchoringType{#setAnchoringType}
+### setAnchoringType {#setAnchoringType}
 
 | Name | Description |
 | --- | --- |
@@ -268,7 +268,7 @@ byte
 ---
 
 
-###setAutofitType{#setAutofitType}
+### setAutofitType {#setAutofitType}
 
 | Name | Description |
 | --- | --- |
@@ -278,7 +278,7 @@ byte
 ---
 
 
-###setCenterText{#setCenterText}
+### setCenterText {#setCenterText}
 
 | Name | Description |
 | --- | --- |
@@ -288,7 +288,7 @@ byte
 ---
 
 
-###setColumnCount{#setColumnCount}
+### setColumnCount {#setColumnCount}
 
 | Name | Description |
 | --- | --- |
@@ -298,7 +298,7 @@ byte
 ---
 
 
-###setColumnSpacing{#setColumnSpacing}
+### setColumnSpacing {#setColumnSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -308,7 +308,7 @@ byte
 ---
 
 
-###setKeepTextFlat{#setKeepTextFlat}
+### setKeepTextFlat {#setKeepTextFlat}
 
 | Name | Description |
 | --- | --- |
@@ -318,7 +318,7 @@ byte
 ---
 
 
-###setMarginBottom{#setMarginBottom}
+### setMarginBottom {#setMarginBottom}
 
 | Name | Description |
 | --- | --- |
@@ -328,7 +328,7 @@ byte
 ---
 
 
-###setMarginLeft{#setMarginLeft}
+### setMarginLeft {#setMarginLeft}
 
 | Name | Description |
 | --- | --- |
@@ -338,7 +338,7 @@ byte
 ---
 
 
-###setMarginRight{#setMarginRight}
+### setMarginRight {#setMarginRight}
 
 | Name | Description |
 | --- | --- |
@@ -348,7 +348,7 @@ byte
 ---
 
 
-###setMarginTop{#setMarginTop}
+### setMarginTop {#setMarginTop}
 
 | Name | Description |
 | --- | --- |
@@ -358,7 +358,7 @@ byte
 ---
 
 
-###setRotationAngle{#setRotationAngle}
+### setRotationAngle {#setRotationAngle}
 
 | Name | Description |
 | --- | --- |
@@ -368,7 +368,7 @@ byte
 ---
 
 
-###setTextVerticalType{#setTextVerticalType}
+### setTextVerticalType {#setTextVerticalType}
 
 | Name | Description |
 | --- | --- |
@@ -378,7 +378,7 @@ byte
 ---
 
 
-###setTransform{#setTransform}
+### setTransform {#setTransform}
 
 | Name | Description |
 | --- | --- |
@@ -388,7 +388,7 @@ byte
 ---
 
 
-###setWrapText{#setWrapText}
+### setWrapText {#setWrapText}
 
 | Name | Description |
 | --- | --- |

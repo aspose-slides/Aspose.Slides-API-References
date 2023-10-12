@@ -11,13 +11,13 @@ url: /aspose.slides/imagecollection/
 
  Represents collection of PPImage.
  
-###addImage{#addImage}
+### addImage {#addImage}
 
 | Name | Description |
 | --- | --- |
 | addImage ([PPImage](../ppimage)) | Adds a copy of an image from an another presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-###addImage{#addImage}
+### addImage {#addImage}
 
 | Name | Description |
 | --- | --- |
 | addImage (BufferedImage) | Add an image to a presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,13 +49,13 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-###addImageFromStream {#addImageFromStream }
+### addImageFromStream  {#addImageFromStream }
 
 | Name | Description |
 | --- | --- |
 | addImageFromStream  (ImageCollection, ReadStream, Function) | Add an image to a presentation from stream. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -70,13 +70,13 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-###addImageFromStream {#addImageFromStream }
+### addImageFromStream  {#addImageFromStream }
 
 | Name | Description |
 | --- | --- |
 | addImageFromStream  (ImageCollection, ReadStream, int, Function) | Creates and adds an image to a presentation from stream. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -92,13 +92,13 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-###addImage{#addImage}
+### addImage {#addImage}
 
 | Name | Description |
 | --- | --- |
 | addImage (byte[]) | Adds an image to a presentation from specified buffer. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -111,13 +111,13 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-###addImage{#addImage}
+### addImage {#addImage}
 
 | Name | Description |
 | --- | --- |
 | addImage ([SvgImage](../svgimage)) | Add an image to a presentation from Svg object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -136,7 +136,7 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -162,7 +162,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -175,7 +175,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -188,7 +188,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -201,7 +201,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

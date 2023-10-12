@@ -11,7 +11,7 @@ url: /aspose.slides/graphicalobjectlock/
 
  Determines which operations are disabled on the parent GraphicalObject.
  
-###getAspectRatioLocked{#getAspectRatioLocked}
+### getAspectRatioLocked {#getAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ boolean
 ---
 
 
-###getDrilldownLocked{#getDrilldownLocked}
+### getDrilldownLocked {#getDrilldownLocked}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getGroupingLocked{#getGroupingLocked}
+### getGroupingLocked {#getGroupingLocked}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getPositionLocked{#getPositionLocked}
+### getPositionLocked {#getPositionLocked}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getSelectLocked{#getSelectLocked}
+### getSelectLocked {#getSelectLocked}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getSizeLocked{#getSizeLocked}
+### getSizeLocked {#getSizeLocked}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###setAspectRatioLocked{#setAspectRatioLocked}
+### setAspectRatioLocked {#setAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ boolean
 ---
 
 
-###setDrilldownLocked{#setDrilldownLocked}
+### setDrilldownLocked {#setDrilldownLocked}
 
 | Name | Description |
 | --- | --- |
@@ -109,7 +109,7 @@ boolean
 ---
 
 
-###setGroupingLocked{#setGroupingLocked}
+### setGroupingLocked {#setGroupingLocked}
 
 | Name | Description |
 | --- | --- |
@@ -119,7 +119,7 @@ boolean
 ---
 
 
-###setPositionLocked{#setPositionLocked}
+### setPositionLocked {#setPositionLocked}
 
 | Name | Description |
 | --- | --- |
@@ -129,7 +129,7 @@ boolean
 ---
 
 
-###setSelectLocked{#setSelectLocked}
+### setSelectLocked {#setSelectLocked}
 
 | Name | Description |
 | --- | --- |
@@ -139,7 +139,7 @@ boolean
 ---
 
 
-###setSizeLocked{#setSizeLocked}
+### setSizeLocked {#setSizeLocked}
 
 | Name | Description |
 | --- | --- |

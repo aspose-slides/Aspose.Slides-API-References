@@ -11,13 +11,13 @@ url: /aspose.slides/tagcollection/
 
  Represents the collection of tags (user defined pairs of strings)
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String, String) | Adds a new tag to collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ int
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -41,13 +41,13 @@ int
 ---
 
 
-###contains{#contains}
+### contains {#contains}
 
 | Name | Description |
 | --- | --- |
 | contains (String) | Determines whether the collection contains a specific name. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -60,13 +60,13 @@ boolean
 ---
 
 
-###getNameByIndex{#getNameByIndex}
+### getNameByIndex {#getNameByIndex}
 
 | Name | Description |
 | --- | --- |
 | getNameByIndex (int) | Returns key of a tag at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -79,7 +79,7 @@ String
 ---
 
 
-###getNamesOfTags{#getNamesOfTags}
+### getNamesOfTags {#getNamesOfTags}
 
 | Name | Description |
 | --- | --- |
@@ -92,7 +92,7 @@ String
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -105,13 +105,13 @@ Object
 ---
 
 
-###getValueByIndex{#getValueByIndex}
+### getValueByIndex {#getValueByIndex}
 
 | Name | Description |
 | --- | --- |
 | getValueByIndex (int) | Returns value of a tag at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -124,13 +124,13 @@ String
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (String) | Returns or sets a key and a value pair of a tag. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -143,13 +143,13 @@ String
 ---
 
 
-###indexOfName{#indexOfName}
+### indexOfName {#indexOfName}
 
 | Name | Description |
 | --- | --- |
 | indexOfName (String) | Returns the zero-based index of the specified key in the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -162,7 +162,7 @@ int
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -175,7 +175,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -188,7 +188,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -201,13 +201,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove (String) | Removes the tag with a specified name from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -217,13 +217,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the tag at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -233,13 +233,13 @@ boolean
 ---
 
 
-###set_Item{#set_Item}
+### set_Item {#set_Item}
 
 | Name | Description |
 | --- | --- |
 | set_Item (String, String) | Returns or sets a key and a value pair of a tag. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -249,7 +249,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/slidesize/
 
  Represents a size of slide.
  
-###getOrientation{#getOrientation}
+### getOrientation {#getOrientation}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getSize{#getSize}
+### getSize {#getSize}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Dimension2D
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###setOrientation{#setOrientation}
+### setOrientation {#setOrientation}
 
 | Name | Description |
 | --- | --- |
@@ -60,13 +60,13 @@ int
 ---
 
 
-###setSize{#setSize}
+### setSize {#setSize}
 
 | Name | Description |
 | --- | --- |
 | setSize (int, int) | Sets the type of slide size and scales content using scale type. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -77,13 +77,13 @@ int
 ---
 
 
-###setSize{#setSize}
+### setSize {#setSize}
 
 | Name | Description |
 | --- | --- |
 | setSize (float, float, int) | Sets the size in points and scales content using scale type. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

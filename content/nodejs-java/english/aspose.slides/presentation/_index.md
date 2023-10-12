@@ -11,7 +11,7 @@ url: /aspose.slides/presentation/
 
   Represents a Microsoft PowerPoint presentation.
  
-###Presentation{#Presentation}
+### Presentation {#Presentation}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ Presentation
 ---
 
 
-###Presentation{#Presentation}
+### Presentation {#Presentation}
 
 | Name | Description |
 | --- | --- |
 | Presentation([LoadOptions](../loadoptions)) | This function creates new presentation from scratch. Created presentation has one empty slide. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ Presentation
 ---
 
 
-###createPresentationFromStream {#createPresentationFromStream }
+### createPresentationFromStream  {#createPresentationFromStream }
 
 | Name | Description |
 | --- | --- |
 | createPresentationFromStream (ReadStream, Function) | This function is the primary mechanism for reading an existing Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -63,13 +63,13 @@ Presentation
 ---
 
 
-###createPresentationFromStream {#createPresentationFromStream }
+### createPresentationFromStream  {#createPresentationFromStream }
 
 | Name | Description |
 | --- | --- |
 | createPresentationFromStream (ReadStream, [LoadOptions](../loadoptions), Function) | This function is the primary mechanism for reading an existing Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -84,13 +84,13 @@ Presentation
 ---
 
 
-###Presentation{#Presentation}
+### Presentation {#Presentation}
 
 | Name | Description |
 | --- | --- |
 | Presentation(String) | This function gets a source file path from which the contents of the Presentation are read. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -109,13 +109,13 @@ Presentation
 ---
 
 
-###Presentation{#Presentation}
+### Presentation {#Presentation}
 
 | Name | Description |
 | --- | --- |
 | Presentation(String, [LoadOptions](../loadoptions)) | This function gets a source file path from which the contents of the Presentation are read. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -135,7 +135,7 @@ Presentation
 ---
 
 
-###dispose{#dispose}
+### dispose {#dispose}
 
 | Name | Description |
 | --- | --- |
@@ -145,7 +145,7 @@ Presentation
 ---
 
 
-###getAllCustomXmlParts{#getAllCustomXmlParts}
+### getAllCustomXmlParts {#getAllCustomXmlParts}
 
 | Name | Description |
 | --- | --- |
@@ -158,7 +158,7 @@ Presentation
 ---
 
 
-###getAudios{#getAudios}
+### getAudios {#getAudios}
 
 | Name | Description |
 | --- | --- |
@@ -171,7 +171,7 @@ Presentation
 ---
 
 
-###getCommentAuthors{#getCommentAuthors}
+### getCommentAuthors {#getCommentAuthors}
 
 | Name | Description |
 | --- | --- |
@@ -184,7 +184,7 @@ Presentation
 ---
 
 
-###getCurrentDateTime{#getCurrentDateTime}
+### getCurrentDateTime {#getCurrentDateTime}
 
 | Name | Description |
 | --- | --- |
@@ -197,7 +197,7 @@ Date
 ---
 
 
-###getCustomData{#getCustomData}
+### getCustomData {#getCustomData}
 
 | Name | Description |
 | --- | --- |
@@ -210,7 +210,7 @@ Date
 ---
 
 
-###getDefaultTextStyle{#getDefaultTextStyle}
+### getDefaultTextStyle {#getDefaultTextStyle}
 
 | Name | Description |
 | --- | --- |
@@ -223,7 +223,7 @@ Date
 ---
 
 
-###getDigitalSignatures{#getDigitalSignatures}
+### getDigitalSignatures {#getDigitalSignatures}
 
 | Name | Description |
 | --- | --- |
@@ -236,7 +236,7 @@ Date
 ---
 
 
-###getDocumentProperties{#getDocumentProperties}
+### getDocumentProperties {#getDocumentProperties}
 
 | Name | Description |
 | --- | --- |
@@ -249,7 +249,7 @@ Date
 ---
 
 
-###getFirstSlideNumber{#getFirstSlideNumber}
+### getFirstSlideNumber {#getFirstSlideNumber}
 
 | Name | Description |
 | --- | --- |
@@ -262,7 +262,7 @@ int
 ---
 
 
-###getFontsManager{#getFontsManager}
+### getFontsManager {#getFontsManager}
 
 | Name | Description |
 | --- | --- |
@@ -275,7 +275,7 @@ int
 ---
 
 
-###getHeaderFooterManager{#getHeaderFooterManager}
+### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
@@ -288,7 +288,7 @@ int
 ---
 
 
-###getHyperlinkQueries{#getHyperlinkQueries}
+### getHyperlinkQueries {#getHyperlinkQueries}
 
 | Name | Description |
 | --- | --- |
@@ -301,7 +301,7 @@ int
 ---
 
 
-###getImages{#getImages}
+### getImages {#getImages}
 
 | Name | Description |
 | --- | --- |
@@ -314,7 +314,7 @@ int
 ---
 
 
-###getLayoutSlides{#getLayoutSlides}
+### getLayoutSlides {#getLayoutSlides}
 
 | Name | Description |
 | --- | --- |
@@ -327,7 +327,7 @@ int
 ---
 
 
-###getMasterHandoutSlideManager{#getMasterHandoutSlideManager}
+### getMasterHandoutSlideManager {#getMasterHandoutSlideManager}
 
 | Name | Description |
 | --- | --- |
@@ -340,7 +340,7 @@ MasterHandoutSlideManager
 ---
 
 
-###getMasterNotesSlideManager{#getMasterNotesSlideManager}
+### getMasterNotesSlideManager {#getMasterNotesSlideManager}
 
 | Name | Description |
 | --- | --- |
@@ -353,7 +353,7 @@ MasterNotesSlideManager
 ---
 
 
-###getMasterTheme{#getMasterTheme}
+### getMasterTheme {#getMasterTheme}
 
 | Name | Description |
 | --- | --- |
@@ -366,7 +366,7 @@ MasterNotesSlideManager
 ---
 
 
-###getMasters{#getMasters}
+### getMasters {#getMasters}
 
 | Name | Description |
 | --- | --- |
@@ -379,7 +379,7 @@ MasterNotesSlideManager
 ---
 
 
-###getNotesSize{#getNotesSize}
+### getNotesSize {#getNotesSize}
 
 | Name | Description |
 | --- | --- |
@@ -392,7 +392,7 @@ MasterNotesSlideManager
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -405,7 +405,7 @@ MasterNotesSlideManager
 ---
 
 
-###getProtectionManager{#getProtectionManager}
+### getProtectionManager {#getProtectionManager}
 
 | Name | Description |
 | --- | --- |
@@ -418,7 +418,7 @@ MasterNotesSlideManager
 ---
 
 
-###getSections{#getSections}
+### getSections {#getSections}
 
 | Name | Description |
 | --- | --- |
@@ -431,13 +431,13 @@ MasterNotesSlideManager
 ---
 
 
-###getSlideById{#getSlideById}
+### getSlideById {#getSlideById}
 
 | Name | Description |
 | --- | --- |
 | getSlideById (long) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -450,7 +450,7 @@ MasterNotesSlideManager
 ---
 
 
-###getSlideShowSettings{#getSlideShowSettings}
+### getSlideShowSettings {#getSlideShowSettings}
 
 | Name | Description |
 | --- | --- |
@@ -463,7 +463,7 @@ SlideShowSettings
 ---
 
 
-###getSlideSize{#getSlideSize}
+### getSlideSize {#getSlideSize}
 
 | Name | Description |
 | --- | --- |
@@ -476,7 +476,7 @@ SlideShowSettings
 ---
 
 
-###getSlides{#getSlides}
+### getSlides {#getSlides}
 
 | Name | Description |
 | --- | --- |
@@ -489,7 +489,7 @@ SlideShowSettings
 ---
 
 
-###getSourceFormat{#getSourceFormat}
+### getSourceFormat {#getSourceFormat}
 
 | Name | Description |
 | --- | --- |
@@ -502,13 +502,13 @@ int
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -521,13 +521,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), int[]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -541,13 +541,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -562,13 +562,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), int[], float, float) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -584,13 +584,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -604,13 +604,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), int[], Dimension) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -625,13 +625,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([RenderingOptions](../renderingoptions)) | Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -644,13 +644,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([RenderingOptions](../renderingoptions), int[]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -664,13 +664,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -685,13 +685,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([RenderingOptions](../renderingoptions), int[], float, float) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -707,13 +707,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -727,13 +727,13 @@ BufferedImage
 ---
 
 
-###getThumbnails{#getThumbnails}
+### getThumbnails {#getThumbnails}
 
 | Name | Description |
 | --- | --- |
 | getThumbnails ([RenderingOptions](../renderingoptions), int[], Dimension) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -748,7 +748,7 @@ BufferedImage
 ---
 
 
-###getVbaProject{#getVbaProject}
+### getVbaProject {#getVbaProject}
 
 | Name | Description |
 | --- | --- |
@@ -761,7 +761,7 @@ BufferedImage
 ---
 
 
-###getVideos{#getVideos}
+### getVideos {#getVideos}
 
 | Name | Description |
 | --- | --- |
@@ -774,7 +774,7 @@ BufferedImage
 ---
 
 
-###getViewProperties{#getViewProperties}
+### getViewProperties {#getViewProperties}
 
 | Name | Description |
 | --- | --- |
@@ -787,7 +787,7 @@ BufferedImage
 ---
 
 
-###joinPortionsWithSameFormatting{#joinPortionsWithSameFormatting}
+### joinPortionsWithSameFormatting {#joinPortionsWithSameFormatting}
 
 | Name | Description |
 | --- | --- |
@@ -797,13 +797,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int) | Saves all slides of a presentation to a file with the specified format. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -814,13 +814,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int) | Saves all slides of a presentation to a stream in the specified format. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -832,13 +832,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -850,13 +850,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [XamlOptions](../xamloptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -868,13 +868,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [RenderingOptions](../renderingoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -886,13 +886,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -904,13 +904,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [XpsOptions](../xpsoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -922,13 +922,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -940,13 +940,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [PptxOptions](../pptxoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -958,13 +958,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [PptOptions](../pptoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -976,13 +976,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -994,13 +994,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [SwfOptions](../swfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1012,13 +1012,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [SVGOptions](../svgoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1030,13 +1030,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [GifOptions](../gifoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1048,13 +1048,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1066,13 +1066,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1091,13 +1091,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [XamlOptions](../xamloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1116,13 +1116,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [RenderingOptions](../renderingoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1141,13 +1141,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1166,13 +1166,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [XpsOptions](../xpsoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1191,13 +1191,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1216,13 +1216,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [PptxOptions](../pptxoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1241,13 +1241,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [PptOptions](../pptoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1266,13 +1266,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1291,13 +1291,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [SwfOptions](../swfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1316,13 +1316,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [SVGOptions](../svgoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1341,13 +1341,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [GifOptions](../gifoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1366,13 +1366,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1391,13 +1391,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save ([XamlOptions](../xamloptions)) | Saves all slides of a presentation to a set of files representing XAML markup. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1407,13 +1407,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1431,13 +1431,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1450,13 +1450,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [XamlOptions](../xamloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1469,13 +1469,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [RenderingOptions](../renderingoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1488,13 +1488,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1507,13 +1507,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [XpsOptions](../xpsoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1526,13 +1526,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1545,13 +1545,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [PptxOptions](../pptxoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1564,13 +1564,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [PptOptions](../pptoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1583,13 +1583,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1602,13 +1602,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [SwfOptions](../swfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1621,13 +1621,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [SVGOptions](../svgoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1640,13 +1640,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [GifOptions](../gifoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1659,13 +1659,13 @@ BufferedImage
 ---
 
 
-###save{#save}
+### save {#save}
 
 | Name | Description |
 | --- | --- |
 | save (String, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1678,13 +1678,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1697,13 +1697,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1723,13 +1723,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [XamlOptions](../xamloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1749,13 +1749,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [RenderingOptions](../renderingoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1775,13 +1775,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1801,13 +1801,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [XpsOptions](../xpsoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1827,13 +1827,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1853,13 +1853,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [PptxOptions](../pptxoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1879,13 +1879,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [PptOptions](../pptoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1905,13 +1905,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1931,13 +1931,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [SwfOptions](../swfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1957,13 +1957,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [SVGOptions](../svgoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1983,13 +1983,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [GifOptions](../gifoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2009,13 +2009,13 @@ BufferedImage
 ---
 
 
-###saveToStream {#saveToStream }
+### saveToStream  {#saveToStream }
 
 | Name | Description |
 | --- | --- |
 | saveToStream  (Presentation, WriteStream, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -2035,7 +2035,7 @@ BufferedImage
 ---
 
 
-###setCurrentDateTime{#setCurrentDateTime}
+### setCurrentDateTime {#setCurrentDateTime}
 
 | Name | Description |
 | --- | --- |
@@ -2045,7 +2045,7 @@ BufferedImage
 ---
 
 
-###setFirstSlideNumber{#setFirstSlideNumber}
+### setFirstSlideNumber {#setFirstSlideNumber}
 
 | Name | Description |
 | --- | --- |
@@ -2055,7 +2055,7 @@ BufferedImage
 ---
 
 
-###setVbaProject{#setVbaProject}
+### setVbaProject {#setVbaProject}
 
 | Name | Description |
 | --- | --- |

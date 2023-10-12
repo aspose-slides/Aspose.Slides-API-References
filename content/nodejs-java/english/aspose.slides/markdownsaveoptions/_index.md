@@ -11,7 +11,7 @@ url: /aspose.slides/markdownsaveoptions/
 
  Represents options that control how presentation should be saved to markdown.
  
-###MarkdownSaveOptions{#MarkdownSaveOptions}
+### MarkdownSaveOptions {#MarkdownSaveOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ MarkdownSaveOptions
 ---
 
 
-###getBasePath{#getBasePath}
+### getBasePath {#getBasePath}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###getExportType{#getExportType}
+### getExportType {#getExportType}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getFlavor{#getFlavor}
+### getFlavor {#getFlavor}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getImagesSaveFolderName{#getImagesSaveFolderName}
+### getImagesSaveFolderName {#getImagesSaveFolderName}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 ---
 
 
-###getNewLineType{#getNewLineType}
+### getNewLineType {#getNewLineType}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getShowComments{#getShowComments}
+### getShowComments {#getShowComments}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###getShowHiddenSlides{#getShowHiddenSlides}
+### getShowHiddenSlides {#getShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###getShowSlideNumber{#getShowSlideNumber}
+### getShowSlideNumber {#getShowSlideNumber}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-###setBasePath{#setBasePath}
+### setBasePath {#setBasePath}
 
 | Name | Description |
 | --- | --- |
@@ -138,7 +138,7 @@ boolean
 ---
 
 
-###setExportType{#setExportType}
+### setExportType {#setExportType}
 
 | Name | Description |
 | --- | --- |
@@ -148,7 +148,7 @@ boolean
 ---
 
 
-###setFlavor{#setFlavor}
+### setFlavor {#setFlavor}
 
 | Name | Description |
 | --- | --- |
@@ -158,7 +158,7 @@ boolean
 ---
 
 
-###setImagesSaveFolderName{#setImagesSaveFolderName}
+### setImagesSaveFolderName {#setImagesSaveFolderName}
 
 | Name | Description |
 | --- | --- |
@@ -168,7 +168,7 @@ boolean
 ---
 
 
-###setNewLineType{#setNewLineType}
+### setNewLineType {#setNewLineType}
 
 | Name | Description |
 | --- | --- |
@@ -178,7 +178,7 @@ boolean
 ---
 
 
-###setShowComments{#setShowComments}
+### setShowComments {#setShowComments}
 
 | Name | Description |
 | --- | --- |
@@ -188,7 +188,7 @@ boolean
 ---
 
 
-###setShowHiddenSlides{#setShowHiddenSlides}
+### setShowHiddenSlides {#setShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -198,7 +198,7 @@ boolean
 ---
 
 
-###setShowSlideNumber{#setShowSlideNumber}
+### setShowSlideNumber {#setShowSlideNumber}
 
 | Name | Description |
 | --- | --- |

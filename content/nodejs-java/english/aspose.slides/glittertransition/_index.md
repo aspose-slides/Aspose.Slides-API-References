@@ -11,7 +11,7 @@ url: /aspose.slides/glittertransition/
 
  Glitter slide transition effect.
  
-###getDirection{#getDirection}
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getPattern{#getPattern}
+### getPattern {#getPattern}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###setDirection{#setDirection}
+### setDirection {#setDirection}
 
 | Name | Description |
 | --- | --- |
@@ -47,7 +47,7 @@ int
 ---
 
 
-###setPattern{#setPattern}
+### setPattern {#setPattern}
 
 | Name | Description |
 | --- | --- |

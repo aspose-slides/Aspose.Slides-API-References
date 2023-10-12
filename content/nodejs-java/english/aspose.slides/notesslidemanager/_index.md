@@ -11,7 +11,7 @@ url: /aspose.slides/notesslidemanager/
 
  Notes slide manager.
  
-###addNotesSlide{#addNotesSlide}
+### addNotesSlide {#addNotesSlide}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/notesslidemanager/
 ---
 
 
-###getNotesSlide{#getNotesSlide}
+### getNotesSlide {#getNotesSlide}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/notesslidemanager/
 ---
 
 
-###removeNotesSlide{#removeNotesSlide}
+### removeNotesSlide {#removeNotesSlide}
 
 | Name | Description |
 | --- | --- |

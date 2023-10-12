@@ -11,13 +11,13 @@ url: /aspose.slides/charttitle/
 
  Represents chart title properties.
  
-###addTextFrameForOverriding{#addTextFrameForOverriding}
+### addTextFrameForOverriding {#addTextFrameForOverriding}
 
 | Name | Description |
 | --- | --- |
 | addTextFrameForOverriding (String) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ url: /aspose.slides/charttitle/
 ---
 
 
-###getBottom{#getBottom}
+### getBottom {#getBottom}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ float
 ---
 
 
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ float
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ float
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ float
 ---
 
 
-###getOverlay{#getOverlay}
+### getOverlay {#getOverlay}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ boolean
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ boolean
 ---
 
 
-###getRight{#getRight}
+### getRight {#getRight}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ float
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ float
 ---
 
 
-###getTextFormat{#getTextFormat}
+### getTextFormat {#getTextFormat}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ float
 ---
 
 
-###getTextFrameForOverriding{#getTextFrameForOverriding}
+### getTextFrameForOverriding {#getTextFrameForOverriding}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ float
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -173,7 +173,7 @@ float
 ---
 
 
-###getX{#getX}
+### getX {#getX}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ float
 ---
 
 
-###getY{#getY}
+### getY {#getY}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ float
 ---
 
 
-###setHeight{#setHeight}
+### setHeight {#setHeight}
 
 | Name | Description |
 | --- | --- |
@@ -209,7 +209,7 @@ float
 ---
 
 
-###setOverlay{#setOverlay}
+### setOverlay {#setOverlay}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ float
 ---
 
 
-###setWidth{#setWidth}
+### setWidth {#setWidth}
 
 | Name | Description |
 | --- | --- |
@@ -229,7 +229,7 @@ float
 ---
 
 
-###setX{#setX}
+### setX {#setX}
 
 | Name | Description |
 | --- | --- |
@@ -239,7 +239,7 @@ float
 ---
 
 
-###setY{#setY}
+### setY {#setY}
 
 | Name | Description |
 | --- | --- |

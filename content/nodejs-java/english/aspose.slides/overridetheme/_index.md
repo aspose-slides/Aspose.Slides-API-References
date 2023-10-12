@@ -11,7 +11,7 @@ url: /aspose.slides/overridetheme/
 
  Represents a overriding theme.
  
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -21,7 +21,7 @@ url: /aspose.slides/overridetheme/
 ---
 
 
-###getColorScheme{#getColorScheme}
+### getColorScheme {#getColorScheme}
 
 | Name | Description |
 | --- | --- |
@@ -34,7 +34,7 @@ url: /aspose.slides/overridetheme/
 ---
 
 
-###getFontScheme{#getFontScheme}
+### getFontScheme {#getFontScheme}
 
 | Name | Description |
 | --- | --- |
@@ -47,7 +47,7 @@ url: /aspose.slides/overridetheme/
 ---
 
 
-###getFormatScheme{#getFormatScheme}
+### getFormatScheme {#getFormatScheme}
 
 | Name | Description |
 | --- | --- |
@@ -60,7 +60,7 @@ url: /aspose.slides/overridetheme/
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ long
 ---
 
 
-###initColorScheme{#initColorScheme}
+### initColorScheme {#initColorScheme}
 
 | Name | Description |
 | --- | --- |
@@ -89,13 +89,13 @@ long
 ---
 
 
-###initColorSchemeFrom{#initColorSchemeFrom}
+### initColorSchemeFrom {#initColorSchemeFrom}
 
 | Name | Description |
 | --- | --- |
 | initColorSchemeFrom ([ColorScheme](../colorscheme)) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -111,7 +111,7 @@ long
 ---
 
 
-###initColorSchemeFromInherited{#initColorSchemeFromInherited}
+### initColorSchemeFromInherited {#initColorSchemeFromInherited}
 
 | Name | Description |
 | --- | --- |
@@ -127,7 +127,7 @@ long
 ---
 
 
-###initFontScheme{#initFontScheme}
+### initFontScheme {#initFontScheme}
 
 | Name | Description |
 | --- | --- |
@@ -143,13 +143,13 @@ long
 ---
 
 
-###initFontSchemeFrom{#initFontSchemeFrom}
+### initFontSchemeFrom {#initFontSchemeFrom}
 
 | Name | Description |
 | --- | --- |
 | initFontSchemeFrom ([FontScheme](../fontscheme)) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -165,7 +165,7 @@ long
 ---
 
 
-###initFontSchemeFromInherited{#initFontSchemeFromInherited}
+### initFontSchemeFromInherited {#initFontSchemeFromInherited}
 
 | Name | Description |
 | --- | --- |
@@ -181,7 +181,7 @@ long
 ---
 
 
-###initFormatScheme{#initFormatScheme}
+### initFormatScheme {#initFormatScheme}
 
 | Name | Description |
 | --- | --- |
@@ -197,13 +197,13 @@ long
 ---
 
 
-###initFormatSchemeFrom{#initFormatSchemeFrom}
+### initFormatSchemeFrom {#initFormatSchemeFrom}
 
 | Name | Description |
 | --- | --- |
 | initFormatSchemeFrom ([FormatScheme](../formatscheme)) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -219,7 +219,7 @@ long
 ---
 
 
-###initFormatSchemeFromInherited{#initFormatSchemeFromInherited}
+### initFormatSchemeFromInherited {#initFormatSchemeFromInherited}
 
 | Name | Description |
 | --- | --- |
@@ -235,7 +235,7 @@ long
 ---
 
 
-###isEmpty{#isEmpty}
+### isEmpty {#isEmpty}
 
 | Name | Description |
 | --- | --- |

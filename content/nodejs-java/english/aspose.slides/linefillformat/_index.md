@@ -11,7 +11,7 @@ url: /aspose.slides/linefillformat/
 
  Represents properties for lines filling.
  
-###getFillType{#getFillType}
+### getFillType {#getFillType}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ byte
 ---
 
 
-###getGradientFormat{#getGradientFormat}
+### getGradientFormat {#getGradientFormat}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ byte
 ---
 
 
-###getPatternFormat{#getPatternFormat}
+### getPatternFormat {#getPatternFormat}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ byte
 ---
 
 
-###getRotateWithShape{#getRotateWithShape}
+### getRotateWithShape {#getRotateWithShape}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ byte
 ---
 
 
-###getSolidFillColor{#getSolidFillColor}
+### getSolidFillColor {#getSolidFillColor}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ byte
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ long
 ---
 
 
-###setFillType{#setFillType}
+### setFillType {#setFillType}
 
 | Name | Description |
 | --- | --- |
@@ -99,7 +99,7 @@ long
 ---
 
 
-###setRotateWithShape{#setRotateWithShape}
+### setRotateWithShape {#setRotateWithShape}
 
 | Name | Description |
 | --- | --- |

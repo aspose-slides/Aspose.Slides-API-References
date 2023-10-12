@@ -11,7 +11,7 @@ url: /aspose.slides/slideimageformat/
 
  Determines format in which slide image will be saved for presentation to HTML export.
  
-###SlideImageFormat{#SlideImageFormat}
+### SlideImageFormat {#SlideImageFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ SlideImageFormat
 ---
 
 
-###bitmap{#bitmap}
+### bitmap {#bitmap}
 
 | Name | Description |
 | --- | --- |
 | bitmap (float, String) | Slides should be converted to a raster image. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -44,13 +44,13 @@ SlideImageFormat
 ---
 
 
-###svg{#svg}
+### svg {#svg}
 
 | Name | Description |
 | --- | --- |
 | svg ([SVGOptions](../svgoptions)) | Slides should converted to a SVG format. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/groupshapelock/
 
  Determines which operations are disabled on the parent GroupShape.
  
-###getAspectRatioLocked{#getAspectRatioLocked}
+### getAspectRatioLocked {#getAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ boolean
 ---
 
 
-###getGroupingLocked{#getGroupingLocked}
+### getGroupingLocked {#getGroupingLocked}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getPositionLocked{#getPositionLocked}
+### getPositionLocked {#getPositionLocked}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getRotationLocked{#getRotationLocked}
+### getRotationLocked {#getRotationLocked}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getSelectLocked{#getSelectLocked}
+### getSelectLocked {#getSelectLocked}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getSizeLocked{#getSizeLocked}
+### getSizeLocked {#getSizeLocked}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###getUngroupingLocked{#getUngroupingLocked}
+### getUngroupingLocked {#getUngroupingLocked}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###setAspectRatioLocked{#setAspectRatioLocked}
+### setAspectRatioLocked {#setAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
@@ -112,7 +112,7 @@ boolean
 ---
 
 
-###setGroupingLocked{#setGroupingLocked}
+### setGroupingLocked {#setGroupingLocked}
 
 | Name | Description |
 | --- | --- |
@@ -122,7 +122,7 @@ boolean
 ---
 
 
-###setPositionLocked{#setPositionLocked}
+### setPositionLocked {#setPositionLocked}
 
 | Name | Description |
 | --- | --- |
@@ -132,7 +132,7 @@ boolean
 ---
 
 
-###setRotationLocked{#setRotationLocked}
+### setRotationLocked {#setRotationLocked}
 
 | Name | Description |
 | --- | --- |
@@ -142,7 +142,7 @@ boolean
 ---
 
 
-###setSelectLocked{#setSelectLocked}
+### setSelectLocked {#setSelectLocked}
 
 | Name | Description |
 | --- | --- |
@@ -152,7 +152,7 @@ boolean
 ---
 
 
-###setSizeLocked{#setSizeLocked}
+### setSizeLocked {#setSizeLocked}
 
 | Name | Description |
 | --- | --- |
@@ -162,7 +162,7 @@ boolean
 ---
 
 
-###setUngroupingLocked{#setUngroupingLocked}
+### setUngroupingLocked {#setUngroupingLocked}
 
 | Name | Description |
 | --- | --- |

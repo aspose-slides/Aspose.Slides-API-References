@@ -11,7 +11,7 @@ url: /aspose.slides/pptxexception/
 
  Represents a standard internal exception type.
  
-###PptxException{#PptxException}
+### PptxException {#PptxException}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ PptxException
 ---
 
 
-###PptxException{#PptxException}
+### PptxException {#PptxException}
 
 | Name | Description |
 | --- | --- |
 | PptxException(String) | Constructor allowing a message to be added to this exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ PptxException
 ---
 
 
-###PptxException{#PptxException}
+### PptxException {#PptxException}
 
 | Name | Description |
 | --- | --- |
 | PptxException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

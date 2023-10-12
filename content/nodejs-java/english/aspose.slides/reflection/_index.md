@@ -11,13 +11,13 @@ url: /aspose.slides/reflection/
 
  Represents a Reflection effect.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified Reflection is equal to the current Reflection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ boolean
 ---
 
 
-###getBlurRadius{#getBlurRadius}
+### getBlurRadius {#getBlurRadius}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ double
 ---
 
 
-###getDirection{#getDirection}
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ float
 ---
 
 
-###getDistance{#getDistance}
+### getDistance {#getDistance}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ double
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ ReflectionEffectiveData
 ---
 
 
-###getEndPosAlpha{#getEndPosAlpha}
+### getEndPosAlpha {#getEndPosAlpha}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ float
 ---
 
 
-###getEndReflectionOpacity{#getEndReflectionOpacity}
+### getEndReflectionOpacity {#getEndReflectionOpacity}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ float
 ---
 
 
-###getFadeDirection{#getFadeDirection}
+### getFadeDirection {#getFadeDirection}
 
 | Name | Description |
 | --- | --- |
@@ -121,20 +121,20 @@ float
 ---
 
 
-###getParent_IPresentationComponent{#getParent_IPresentationComponent}
+### getParent_IPresentationComponent {#getParent_IPresentationComponent}
 
 | Name | Description |
 | --- | --- |
 | getParent_IPresentationComponent () |  |
 
  **Result**
-[MasterTheme](../mastertheme), [PVIObject](../pviobject), [PictureFrame](../pictureframe), [AlphaCeiling](../alphaceiling), [ColorReplace](../colorreplace), [FillFormat](../fillformat), [GrayScale](../grayscale), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [FillOverlay](../filloverlay), [HSL](../hsl), [PatternFormat](../patternformat), [DataLabelCollection](../datalabelcollection), [Duotone](../duotone), [DataLabel](../datalabel), [Tab](../tab), [SummaryZoomFrame](../summaryzoomframe), [ShapeBevel](../shapebevel), [LineFormat](../lineformat), [ColorScheme](../colorscheme), [ChartSeries](../chartseries), [BasePortionFormat](../baseportionformat), [SummaryZoomSection](../summaryzoomsection), [Presentation](../presentation), [OleObjectFrame](../oleobjectframe), [Theme](../theme), [Hyperlink](../hyperlink), [SketchFormat](../sketchformat), [CellFormat](../cellformat), [DataTable](../datatable), [AlphaFloor](../alphafloor), [ParagraphFormat](../paragraphformat), [GroupShape](../groupshape), [NotesSlide](../notesslide), [SmartArtShape](../smartartshape), [GradientFormat](../gradientformat), [MasterHandoutSlide](../masterhandoutslide), [AlphaBiLevel](../alphabilevel), [Trendline](../trendline), [Slide](../slide), [Axis](../axis), [ColorChange](../colorchange), [MasterNotesSlide](../masternotesslide), [Connector](../connector), [LegendEntryProperties](../legendentryproperties), [LightRig](../lightrig), [Ink](../ink), [BaseSlide](../baseslide), [Background](../background), [BiLevel](../bilevel), [Blur](../blur), [VideoFrame](../videoframe), [Row](../row), [DataLabelFormat](../datalabelformat), [Field](../field), [ChartPortionFormat](../chartportionformat), [LayoutSlide](../layoutslide), [LegacyDiagram](../legacydiagram), [ColorFormat](../colorformat), [ThreeDFormat](../threedformat), [GraphicalObject](../graphicalobject), [Shape](../shape), [GradientStop](../gradientstop), [ZoomFrame](../zoomframe), [ChartTitle](../charttitle), [MasterSlide](../masterslide), [CellCollection](../cellcollection), [EffectFormat](../effectformat), [Control](../control), [ChartSeriesGroup](../chartseriesgroup), [ErrorBarsFormat](../errorbarsformat), [Column](../column), [PictureFillFormat](../picturefillformat), [Chart](../chart), [Backdrop3DScene](../backdrop3dscene), [Format](../format), [Portion](../portion), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [AlphaModulate](../alphamodulate), [LineFillFormat](../linefillformat), [ZoomObject](../zoomobject), [BulletFormat](../bulletformat), [Cell](../cell), [Picture](../picture), [FormatScheme](../formatscheme), [AlphaInverse](../alphainverse), [TextFrameFormat](../textframeformat), [TextFrame](../textframe), [Paragraph](../paragraph), [MathPortion](../mathportion), [TextStyle](../textstyle), [OverrideTheme](../overridetheme), [SmartArt](../smartart), [AlphaModulateFixed](../alphamodulatefixed), [ParagraphCollection](../paragraphcollection), [ChartPlotArea](../chartplotarea), [ImageTransformOperationCollection](../imagetransformoperationcollection), [GeometryShape](../geometryshape), [AudioFrame](../audioframe), [GradientStopCollection](../gradientstopcollection), [Tint](../tint), [PortionFormat](../portionformat), [Legend](../legend), [AlphaReplace](../alphareplace), [Table](../table), [Camera](../camera)
+[MasterTheme](../mastertheme), [PVIObject](../pviobject), [PictureFrame](../pictureframe), [AlphaCeiling](../alphaceiling), [ColorReplace](../colorreplace), [FillFormat](../fillformat), [GrayScale](../grayscale), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [CellCollection](../cellcollection), [FillOverlay](../filloverlay), [HSL](../hsl), [PatternFormat](../patternformat), [DataLabelCollection](../datalabelcollection), [Duotone](../duotone), [DataLabel](../datalabel), [Tab](../tab), [SummaryZoomFrame](../summaryzoomframe), [ShapeBevel](../shapebevel), [LineFormat](../lineformat), [ColorScheme](../colorscheme), [ChartSeries](../chartseries), [BasePortionFormat](../baseportionformat), [SummaryZoomSection](../summaryzoomsection), [Presentation](../presentation), [OleObjectFrame](../oleobjectframe), [Theme](../theme), [Hyperlink](../hyperlink), [SketchFormat](../sketchformat), [CellFormat](../cellformat), [DataTable](../datatable), [AlphaFloor](../alphafloor), [ParagraphFormat](../paragraphformat), [GroupShape](../groupshape), [NotesSlide](../notesslide), [SmartArtShape](../smartartshape), [GradientFormat](../gradientformat), [MasterHandoutSlide](../masterhandoutslide), [AlphaBiLevel](../alphabilevel), [Trendline](../trendline), [Slide](../slide), [Axis](../axis), [ColorChange](../colorchange), [MasterNotesSlide](../masternotesslide), [Connector](../connector), [LegendEntryProperties](../legendentryproperties), [LightRig](../lightrig), [Ink](../ink), [BaseSlide](../baseslide), [Background](../background), [BiLevel](../bilevel), [Blur](../blur), [VideoFrame](../videoframe), [Row](../row), [DataLabelFormat](../datalabelformat), [Field](../field), [ChartPortionFormat](../chartportionformat), [TextFrame](../textframe), [LayoutSlide](../layoutslide), [LegacyDiagram](../legacydiagram), [ColorFormat](../colorformat), [ThreeDFormat](../threedformat), [GraphicalObject](../graphicalobject), [Shape](../shape), [GradientStop](../gradientstop), [ZoomFrame](../zoomframe), [ChartTitle](../charttitle), [MasterSlide](../masterslide), [EffectFormat](../effectformat), [Control](../control), [ChartSeriesGroup](../chartseriesgroup), [ErrorBarsFormat](../errorbarsformat), [Column](../column), [PictureFillFormat](../picturefillformat), [Chart](../chart), [Backdrop3DScene](../backdrop3dscene), [Format](../format), [Portion](../portion), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [AlphaModulate](../alphamodulate), [LineFillFormat](../linefillformat), [ZoomObject](../zoomobject), [BulletFormat](../bulletformat), [FormatScheme](../formatscheme), [Cell](../cell), [Picture](../picture), [AlphaInverse](../alphainverse), [TextFrameFormat](../textframeformat), [Paragraph](../paragraph), [MathPortion](../mathportion), [TextStyle](../textstyle), [OverrideTheme](../overridetheme), [SmartArt](../smartart), [AlphaModulateFixed](../alphamodulatefixed), [ParagraphCollection](../paragraphcollection), [ChartPlotArea](../chartplotarea), [ImageTransformOperationCollection](../imagetransformoperationcollection), [GeometryShape](../geometryshape), [AudioFrame](../audioframe), [GradientStopCollection](../gradientstopcollection), [Tint](../tint), [PortionFormat](../portionformat), [Legend](../legend), [AlphaReplace](../alphareplace), [Table](../table), [Camera](../camera)
 
 
 ---
 
 
-###getRectangleAlign{#getRectangleAlign}
+### getRectangleAlign {#getRectangleAlign}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ byte
 ---
 
 
-###getRotateShadowWithShape{#getRotateShadowWithShape}
+### getRotateShadowWithShape {#getRotateShadowWithShape}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ boolean
 ---
 
 
-###getScaleHorizontal{#getScaleHorizontal}
+### getScaleHorizontal {#getScaleHorizontal}
 
 | Name | Description |
 | --- | --- |
@@ -173,7 +173,7 @@ double
 ---
 
 
-###getScaleVertical{#getScaleVertical}
+### getScaleVertical {#getScaleVertical}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ double
 ---
 
 
-###getSkewHorizontal{#getSkewHorizontal}
+### getSkewHorizontal {#getSkewHorizontal}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ double
 ---
 
 
-###getSkewVertical{#getSkewVertical}
+### getSkewVertical {#getSkewVertical}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ double
 ---
 
 
-###getStartPosAlpha{#getStartPosAlpha}
+### getStartPosAlpha {#getStartPosAlpha}
 
 | Name | Description |
 | --- | --- |
@@ -225,7 +225,7 @@ float
 ---
 
 
-###getStartReflectionOpacity{#getStartReflectionOpacity}
+### getStartReflectionOpacity {#getStartReflectionOpacity}
 
 | Name | Description |
 | --- | --- |
@@ -238,7 +238,7 @@ float
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -251,7 +251,7 @@ long
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -264,7 +264,7 @@ int
 ---
 
 
-###setBlurRadius{#setBlurRadius}
+### setBlurRadius {#setBlurRadius}
 
 | Name | Description |
 | --- | --- |
@@ -274,7 +274,7 @@ int
 ---
 
 
-###setDirection{#setDirection}
+### setDirection {#setDirection}
 
 | Name | Description |
 | --- | --- |
@@ -284,7 +284,7 @@ int
 ---
 
 
-###setDistance{#setDistance}
+### setDistance {#setDistance}
 
 | Name | Description |
 | --- | --- |
@@ -294,7 +294,7 @@ int
 ---
 
 
-###setEndPosAlpha{#setEndPosAlpha}
+### setEndPosAlpha {#setEndPosAlpha}
 
 | Name | Description |
 | --- | --- |
@@ -304,7 +304,7 @@ int
 ---
 
 
-###setEndReflectionOpacity{#setEndReflectionOpacity}
+### setEndReflectionOpacity {#setEndReflectionOpacity}
 
 | Name | Description |
 | --- | --- |
@@ -314,7 +314,7 @@ int
 ---
 
 
-###setFadeDirection{#setFadeDirection}
+### setFadeDirection {#setFadeDirection}
 
 | Name | Description |
 | --- | --- |
@@ -324,7 +324,7 @@ int
 ---
 
 
-###setRectangleAlign{#setRectangleAlign}
+### setRectangleAlign {#setRectangleAlign}
 
 | Name | Description |
 | --- | --- |
@@ -334,7 +334,7 @@ int
 ---
 
 
-###setRotateShadowWithShape{#setRotateShadowWithShape}
+### setRotateShadowWithShape {#setRotateShadowWithShape}
 
 | Name | Description |
 | --- | --- |
@@ -344,7 +344,7 @@ int
 ---
 
 
-###setScaleHorizontal{#setScaleHorizontal}
+### setScaleHorizontal {#setScaleHorizontal}
 
 | Name | Description |
 | --- | --- |
@@ -354,7 +354,7 @@ int
 ---
 
 
-###setScaleVertical{#setScaleVertical}
+### setScaleVertical {#setScaleVertical}
 
 | Name | Description |
 | --- | --- |
@@ -364,7 +364,7 @@ int
 ---
 
 
-###setSkewHorizontal{#setSkewHorizontal}
+### setSkewHorizontal {#setSkewHorizontal}
 
 | Name | Description |
 | --- | --- |
@@ -374,7 +374,7 @@ int
 ---
 
 
-###setSkewVertical{#setSkewVertical}
+### setSkewVertical {#setSkewVertical}
 
 | Name | Description |
 | --- | --- |
@@ -384,7 +384,7 @@ int
 ---
 
 
-###setStartPosAlpha{#setStartPosAlpha}
+### setStartPosAlpha {#setStartPosAlpha}
 
 | Name | Description |
 | --- | --- |
@@ -394,7 +394,7 @@ int
 ---
 
 
-###setStartReflectionOpacity{#setStartReflectionOpacity}
+### setStartReflectionOpacity {#setStartReflectionOpacity}
 
 | Name | Description |
 | --- | --- |

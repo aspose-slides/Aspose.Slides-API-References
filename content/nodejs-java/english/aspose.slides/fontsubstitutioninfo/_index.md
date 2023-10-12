@@ -11,13 +11,13 @@ url: /aspose.slides/fontsubstitutioninfo/
 
  This structure represents the information about the font replacement when it will be rendered.
  
-###FontSubstitutionInfo{#FontSubstitutionInfo}
+### FontSubstitutionInfo {#FontSubstitutionInfo}
 
 | Name | Description |
 | --- | --- |
 | FontSubstitutionInfo(String, String) | Creates an instance of FontSubstitutionInfo class. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ FontSubstitutionInfo
 ---
 
 
-###getOriginalFontName{#getOriginalFontName}
+### getOriginalFontName {#getOriginalFontName}
 
 | Name | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ String
 ---
 
 
-###getSubstitutedFontName{#getSubstitutedFontName}
+### getSubstitutedFontName {#getSubstitutedFontName}
 
 | Name | Description |
 | --- | --- |

@@ -11,13 +11,13 @@ url: /aspose.slides/chartdatacell/
 
  Represents cell for chart data.
  
-###calculate{#calculate}
+### calculate {#calculate}
 
 | Name | Description |
 | --- | --- |
 | calculate (boolean) | If the cell contains a formula, the value will be updated base on that formula. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ url: /aspose.slides/chartdatacell/
 ---
 
 
-###getChartDataWorksheet{#getChartDataWorksheet}
+### getChartDataWorksheet {#getChartDataWorksheet}
 
 | Name | Description |
 | --- | --- |
@@ -40,7 +40,7 @@ url: /aspose.slides/chartdatacell/
 ---
 
 
-###getColumn{#getColumn}
+### getColumn {#getColumn}
 
 | Name | Description |
 | --- | --- |
@@ -53,7 +53,7 @@ int
 ---
 
 
-###getCustomNumberFormat{#getCustomNumberFormat}
+### getCustomNumberFormat {#getCustomNumberFormat}
 
 | Name | Description |
 | --- | --- |
@@ -72,7 +72,7 @@ String
 ---
 
 
-###getFormula{#getFormula}
+### getFormula {#getFormula}
 
 | Name | Description |
 | --- | --- |
@@ -85,7 +85,7 @@ String
 ---
 
 
-###getPresetNumberFormat{#getPresetNumberFormat}
+### getPresetNumberFormat {#getPresetNumberFormat}
 
 | Name | Description |
 | --- | --- |
@@ -98,7 +98,7 @@ byte
 ---
 
 
-###getR1C1Formula{#getR1C1Formula}
+### getR1C1Formula {#getR1C1Formula}
 
 | Name | Description |
 | --- | --- |
@@ -111,7 +111,7 @@ String
 ---
 
 
-###getRow{#getRow}
+### getRow {#getRow}
 
 | Name | Description |
 | --- | --- |
@@ -124,7 +124,7 @@ int
 ---
 
 
-###getValue{#getValue}
+### getValue {#getValue}
 
 | Name | Description |
 | --- | --- |
@@ -137,7 +137,7 @@ Object
 ---
 
 
-###isHidden{#isHidden}
+### isHidden {#isHidden}
 
 | Name | Description |
 | --- | --- |
@@ -150,7 +150,7 @@ boolean
 ---
 
 
-###setCustomNumberFormat{#setCustomNumberFormat}
+### setCustomNumberFormat {#setCustomNumberFormat}
 
 | Name | Description |
 | --- | --- |
@@ -166,7 +166,7 @@ boolean
 ---
 
 
-###setFormula{#setFormula}
+### setFormula {#setFormula}
 
 | Name | Description |
 | --- | --- |
@@ -176,7 +176,7 @@ boolean
 ---
 
 
-###setPresetNumberFormat{#setPresetNumberFormat}
+### setPresetNumberFormat {#setPresetNumberFormat}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ boolean
 ---
 
 
-###setR1C1Formula{#setR1C1Formula}
+### setR1C1Formula {#setR1C1Formula}
 
 | Name | Description |
 | --- | --- |
@@ -196,7 +196,7 @@ boolean
 ---
 
 
-###setValue{#setValue}
+### setValue {#setValue}
 
 | Name | Description |
 | --- | --- |

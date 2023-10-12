@@ -11,7 +11,7 @@ url: /aspose.slides/motioncmdpath/
 
  Represent one command of a path.
  
-###getCommandType{#getCommandType}
+### getCommandType {#getCommandType}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ int
 ---
 
 
-###getPoints{#getPoints}
+### getPoints {#getPoints}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Point2D.Float
 ---
 
 
-###getPointsType{#getPointsType}
+### getPointsType {#getPointsType}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###isRelative{#isRelative}
+### isRelative {#isRelative}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###setCommandType{#setCommandType}
+### setCommandType {#setCommandType}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ boolean
 ---
 
 
-###setPoints{#setPoints}
+### setPoints {#setPoints}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ boolean
 ---
 
 
-###setPointsType{#setPointsType}
+### setPointsType {#setPointsType}
 
 | Name | Description |
 | --- | --- |
@@ -93,7 +93,7 @@ boolean
 ---
 
 
-###setRelative{#setRelative}
+### setRelative {#setRelative}
 
 | Name | Description |
 | --- | --- |

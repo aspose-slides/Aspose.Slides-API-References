@@ -11,7 +11,7 @@ url: /aspose.slides/odpexception/
 
  Represents a standard internal exception type.
  
-###OdpException{#OdpException}
+### OdpException {#OdpException}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ OdpException
 ---
 
 
-###OdpException{#OdpException}
+### OdpException {#OdpException}
 
 | Name | Description |
 | --- | --- |
 | OdpException(String) | Constructor allowing a message to be added to this exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ OdpException
 ---
 
 
-###OdpException{#OdpException}
+### OdpException {#OdpException}
 
 | Name | Description |
 | --- | --- |
 | OdpException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

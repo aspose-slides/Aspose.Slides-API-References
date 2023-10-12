@@ -11,7 +11,7 @@ url: /aspose.slides/threedformat/
 
  Represents 3-D properties.
  
-###getBevelBottom{#getBevelBottom}
+### getBevelBottom {#getBevelBottom}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/threedformat/
 ---
 
 
-###getBevelTop{#getBevelTop}
+### getBevelTop {#getBevelTop}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/threedformat/
 ---
 
 
-###getCamera{#getCamera}
+### getCamera {#getCamera}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/threedformat/
 ---
 
 
-###getContourColor{#getContourColor}
+### getContourColor {#getContourColor}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ url: /aspose.slides/threedformat/
 ---
 
 
-###getContourWidth{#getContourWidth}
+### getContourWidth {#getContourWidth}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ double
 ---
 
 
-###getDepth{#getDepth}
+### getDepth {#getDepth}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ double
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ ThreeDFormatEffectiveData
 ---
 
 
-###getExtrusionColor{#getExtrusionColor}
+### getExtrusionColor {#getExtrusionColor}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ ThreeDFormatEffectiveData
 ---
 
 
-###getExtrusionHeight{#getExtrusionHeight}
+### getExtrusionHeight {#getExtrusionHeight}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ double
 ---
 
 
-###getLightRig{#getLightRig}
+### getLightRig {#getLightRig}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ double
 ---
 
 
-###getMaterial{#getMaterial}
+### getMaterial {#getMaterial}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ int
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ long
 ---
 
 
-###setContourWidth{#setContourWidth}
+### setContourWidth {#setContourWidth}
 
 | Name | Description |
 | --- | --- |
@@ -177,7 +177,7 @@ long
 ---
 
 
-###setDepth{#setDepth}
+### setDepth {#setDepth}
 
 | Name | Description |
 | --- | --- |
@@ -187,7 +187,7 @@ long
 ---
 
 
-###setExtrusionHeight{#setExtrusionHeight}
+### setExtrusionHeight {#setExtrusionHeight}
 
 | Name | Description |
 | --- | --- |
@@ -197,7 +197,7 @@ long
 ---
 
 
-###setMaterial{#setMaterial}
+### setMaterial {#setMaterial}
 
 | Name | Description |
 | --- | --- |

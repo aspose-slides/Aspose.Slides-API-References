@@ -11,7 +11,7 @@ url: /aspose.slides/connector/
 
   Represents a connector.
  
-###getConnectorLock{#getConnectorLock}
+### getConnectorLock {#getConnectorLock}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/connector/
 ---
 
 
-###getEndShapeConnectedTo{#getEndShapeConnectedTo}
+### getEndShapeConnectedTo {#getEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ url: /aspose.slides/connector/
 ---
 
 
-###getEndShapeConnectionSiteIndex{#getEndShapeConnectionSiteIndex}
+### getEndShapeConnectionSiteIndex {#getEndShapeConnectionSiteIndex}
 
 | Name | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ long
 ---
 
 
-###getShapeLock{#getShapeLock}
+### getShapeLock {#getShapeLock}
 
 | Name | Description |
 | --- | --- |
@@ -75,7 +75,7 @@ long
 ---
 
 
-###getShapeType{#getShapeType}
+### getShapeType {#getShapeType}
 
 | Name | Description |
 | --- | --- |
@@ -88,7 +88,7 @@ int
 ---
 
 
-###getStartShapeConnectedTo{#getStartShapeConnectedTo}
+### getStartShapeConnectedTo {#getStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -107,7 +107,7 @@ int
 ---
 
 
-###getStartShapeConnectionSiteIndex{#getStartShapeConnectionSiteIndex}
+### getStartShapeConnectionSiteIndex {#getStartShapeConnectionSiteIndex}
 
 | Name | Description |
 | --- | --- |
@@ -126,7 +126,7 @@ long
 ---
 
 
-###reroute{#reroute}
+### reroute {#reroute}
 
 | Name | Description |
 | --- | --- |
@@ -136,7 +136,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -152,7 +152,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -168,7 +168,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -184,7 +184,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -200,7 +200,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -216,7 +216,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -248,7 +248,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -264,7 +264,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -280,7 +280,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -296,7 +296,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -312,7 +312,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -328,7 +328,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -344,7 +344,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -360,7 +360,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -376,7 +376,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -392,7 +392,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -408,7 +408,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -424,7 +424,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -440,7 +440,7 @@ long
 ---
 
 
-###setEndShapeConnectedTo{#setEndShapeConnectedTo}
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -456,7 +456,7 @@ long
 ---
 
 
-###setEndShapeConnectionSiteIndex{#setEndShapeConnectionSiteIndex}
+### setEndShapeConnectionSiteIndex {#setEndShapeConnectionSiteIndex}
 
 | Name | Description |
 | --- | --- |
@@ -472,7 +472,7 @@ long
 ---
 
 
-###setShapeType{#setShapeType}
+### setShapeType {#setShapeType}
 
 | Name | Description |
 | --- | --- |
@@ -482,7 +482,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -498,7 +498,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -514,7 +514,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -530,7 +530,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -546,7 +546,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -562,7 +562,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -578,7 +578,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -594,7 +594,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -610,7 +610,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -626,7 +626,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -642,7 +642,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -658,7 +658,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -674,7 +674,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -690,7 +690,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -706,7 +706,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -722,7 +722,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -738,7 +738,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -754,7 +754,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -770,7 +770,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -786,7 +786,7 @@ long
 ---
 
 
-###setStartShapeConnectedTo{#setStartShapeConnectedTo}
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
 
 | Name | Description |
 | --- | --- |
@@ -802,7 +802,7 @@ long
 ---
 
 
-###setStartShapeConnectionSiteIndex{#setStartShapeConnectionSiteIndex}
+### setStartShapeConnectionSiteIndex {#setStartShapeConnectionSiteIndex}
 
 | Name | Description |
 | --- | --- |

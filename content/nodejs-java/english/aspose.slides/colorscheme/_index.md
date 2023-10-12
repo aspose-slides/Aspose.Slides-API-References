@@ -11,7 +11,7 @@ url: /aspose.slides/colorscheme/
 
  Stores theme-defined colors.
  
-###getAccent1{#getAccent1}
+### getAccent1 {#getAccent1}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getAccent2{#getAccent2}
+### getAccent2 {#getAccent2}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getAccent3{#getAccent3}
+### getAccent3 {#getAccent3}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getAccent4{#getAccent4}
+### getAccent4 {#getAccent4}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getAccent5{#getAccent5}
+### getAccent5 {#getAccent5}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getAccent6{#getAccent6}
+### getAccent6 {#getAccent6}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getByColorSchemeIndex{#getByColorSchemeIndex}
+### getByColorSchemeIndex {#getByColorSchemeIndex}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getDark1{#getDark1}
+### getDark1 {#getDark1}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getDark2{#getDark2}
+### getDark2 {#getDark2}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getFollowedHyperlink{#getFollowedHyperlink}
+### getFollowedHyperlink {#getFollowedHyperlink}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getHyperlink{#getHyperlink}
+### getHyperlink {#getHyperlink}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getLight1{#getLight1}
+### getLight1 {#getLight1}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getLight2{#getLight2}
+### getLight2 {#getLight2}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ url: /aspose.slides/colorscheme/
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |

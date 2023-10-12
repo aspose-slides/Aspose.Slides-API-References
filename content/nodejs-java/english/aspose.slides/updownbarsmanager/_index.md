@@ -11,7 +11,7 @@ url: /aspose.slides/updownbarsmanager/
 
  Provide access to up/down bars of Line- or Stock-chart.
  
-###getDownBarsFormat{#getDownBarsFormat}
+### getDownBarsFormat {#getDownBarsFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/updownbarsmanager/
 ---
 
 
-###getGapWidth{#getGapWidth}
+### getGapWidth {#getGapWidth}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getUpBarsFormat{#getUpBarsFormat}
+### getUpBarsFormat {#getUpBarsFormat}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###hasUpDownBars{#hasUpDownBars}
+### hasUpDownBars {#hasUpDownBars}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###setGapWidth{#setGapWidth}
+### setGapWidth {#setGapWidth}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ boolean
 ---
 
 
-###setUpDownBars{#setUpDownBars}
+### setUpDownBars {#setUpDownBars}
 
 | Name | Description |
 | --- | --- |

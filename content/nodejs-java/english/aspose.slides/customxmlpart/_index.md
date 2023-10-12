@@ -11,7 +11,7 @@ url: /aspose.slides/customxmlpart/
 
  Represents custom xml part.
  
-###getItemId{#getItemId}
+### getItemId {#getItemId}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ UUID
 ---
 
 
-###getNamespaceSchemas{#getNamespaceSchemas}
+### getNamespaceSchemas {#getNamespaceSchemas}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###getXmlAsString{#getXmlAsString}
+### getXmlAsString {#getXmlAsString}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ String
 ---
 
 
-###getXmlData{#getXmlData}
+### getXmlData {#getXmlData}
 
 | Name | Description |
 | --- | --- |
@@ -75,7 +75,7 @@ byte
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
@@ -91,7 +91,7 @@ byte
 ---
 
 
-###setItemId{#setItemId}
+### setItemId {#setItemId}
 
 | Name | Description |
 | --- | --- |
@@ -101,7 +101,7 @@ byte
 ---
 
 
-###setXmlAsString{#setXmlAsString}
+### setXmlAsString {#setXmlAsString}
 
 | Name | Description |
 | --- | --- |
@@ -117,7 +117,7 @@ byte
 ---
 
 
-###setXmlData{#setXmlData}
+### setXmlData {#setXmlData}
 
 | Name | Description |
 | --- | --- |

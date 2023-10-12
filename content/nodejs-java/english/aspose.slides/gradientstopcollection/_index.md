@@ -11,13 +11,13 @@ url: /aspose.slides/gradientstopcollection/
 
  Represnts a collection of gradient stops.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (float, Color) | Creates the new gradient stop and adds it to the end of collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +31,13 @@ url: /aspose.slides/gradientstopcollection/
 ---
 
 
-###addPresetColor{#addPresetColor}
+### addPresetColor {#addPresetColor}
 
 | Name | Description |
 | --- | --- |
 | addPresetColor (float, int) | Creates the new gradient stop and adds it to the end of collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -51,13 +51,13 @@ url: /aspose.slides/gradientstopcollection/
 ---
 
 
-###addSchemeColor{#addSchemeColor}
+### addSchemeColor {#addSchemeColor}
 
 | Name | Description |
 | --- | --- |
 | addSchemeColor (float, int) | Creates the new gradient stop and adds it to the end of collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ url: /aspose.slides/gradientstopcollection/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -81,7 +81,7 @@ url: /aspose.slides/gradientstopcollection/
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -94,7 +94,7 @@ Object
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -107,7 +107,7 @@ long
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -120,13 +120,13 @@ long
 ---
 
 
-###insert{#insert}
+### insert {#insert}
 
 | Name | Description |
 | --- | --- |
 | insert (int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -138,13 +138,13 @@ long
 ---
 
 
-###insertPresetColor{#insertPresetColor}
+### insertPresetColor {#insertPresetColor}
 
 | Name | Description |
 | --- | --- |
 | insertPresetColor (int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -156,13 +156,13 @@ long
 ---
 
 
-###insertSchemeColor{#insertSchemeColor}
+### insertSchemeColor {#insertSchemeColor}
 
 | Name | Description |
 | --- | --- |
 | insertSchemeColor (int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -174,7 +174,7 @@ long
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -187,7 +187,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -200,7 +200,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -213,13 +213,13 @@ boolean
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes a gradient stop at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -229,7 +229,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/row/
 
  Represents a row in a table.
  
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ double
 ---
 
 
-###getMinimalHeight{#getMinimalHeight}
+### getMinimalHeight {#getMinimalHeight}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ double
 ---
 
 
-###getRowFormat{#getRowFormat}
+### getRowFormat {#getRowFormat}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ double
 ---
 
 
-###setMinimalHeight{#setMinimalHeight}
+### setMinimalHeight {#setMinimalHeight}
 
 | Name | Description |
 | --- | --- |
@@ -60,13 +60,13 @@ double
 ---
 
 
-###setTextFormat{#setTextFormat}
+### setTextFormat {#setTextFormat}
 
 | Name | Description |
 | --- | --- |
 | setTextFormat ([PortionFormat](../portionformat)) | Sets defined portion format properties to all row cells' portions. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -76,13 +76,13 @@ double
 ---
 
 
-###setTextFormat{#setTextFormat}
+### setTextFormat {#setTextFormat}
 
 | Name | Description |
 | --- | --- |
 | setTextFormat ([ParagraphFormat](../paragraphformat)) | Sets defined paragraph format properties to all row cells' paragraphs. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -92,13 +92,13 @@ double
 ---
 
 
-###setTextFormat{#setTextFormat}
+### setTextFormat {#setTextFormat}
 
 | Name | Description |
 | --- | --- |
 | setTextFormat ([TextFrameFormat](../textframeformat)) | Sets defined text frame format properties to all row cells' text frames. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

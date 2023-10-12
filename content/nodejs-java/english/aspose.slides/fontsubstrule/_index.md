@@ -11,13 +11,13 @@ url: /aspose.slides/fontsubstrule/
 
  Represents font subtituition information
  
-###FontSubstRule{#FontSubstRule}
+### FontSubstRule {#FontSubstRule}
 
 | Name | Description |
 | --- | --- |
 | FontSubstRule([FontData](../fontdata), [FontData](../fontdata)) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +31,13 @@ FontSubstRule
 ---
 
 
-###FontSubstRule{#FontSubstRule}
+### FontSubstRule {#FontSubstRule}
 
 | Name | Description |
 | --- | --- |
 | FontSubstRule([FontData](../fontdata), [FontData](../fontdata), int) | Creates new instance. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ FontSubstRule
 ---
 
 
-###getDestFont{#getDestFont}
+### getDestFont {#getDestFont}
 
 | Name | Description |
 | --- | --- |
@@ -65,7 +65,7 @@ FontSubstRule
 ---
 
 
-###getReplaceFontCondition{#getReplaceFontCondition}
+### getReplaceFontCondition {#getReplaceFontCondition}
 
 | Name | Description |
 | --- | --- |
@@ -78,7 +78,7 @@ int
 ---
 
 
-###getSourceFont{#getSourceFont}
+### getSourceFont {#getSourceFont}
 
 | Name | Description |
 | --- | --- |

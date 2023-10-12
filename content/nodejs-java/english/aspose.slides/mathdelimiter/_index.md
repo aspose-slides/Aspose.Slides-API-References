@@ -13,13 +13,13 @@ url: /aspose.slides/mathdelimiter/
  braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character.
  Examples: (?2); [?2|?2]
  
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathLimit](../mathlimit)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -38,13 +38,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathBorderBox](../mathborderbox)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -63,13 +63,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathFraction](../mathfraction)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -88,13 +88,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathDelimiter](../mathdelimiter)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -113,13 +113,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -138,13 +138,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -163,13 +163,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -188,13 +188,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathBox](../mathbox)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -213,13 +213,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathMatrix](../mathmatrix)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -238,38 +238,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| MathDelimiter([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathDelimiter with the specified element as single base argument |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the delimiter is applied. Can be null. |
-
- **Result**
-MathDelimiter
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathArray](../matharray)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -288,13 +263,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathBlock](../mathblock)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -313,13 +288,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -338,13 +313,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathFunction](../mathfunction)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -363,17 +338,17 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
-| MathDelimiter([MathNaryOperator](../mathnaryoperator)) | Initializes MathDelimiter with the specified element as single base argument |
+| MathDelimiter([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the delimiter is applied. Can be null. |
 
  **Result**
 MathDelimiter
@@ -388,13 +363,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathematicalText](../mathematicaltext)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -413,13 +388,38 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| MathDelimiter([MathNaryOperator](../mathnaryoperator)) | Initializes MathDelimiter with the specified element as single base argument |
+
+ **Parameters**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathNaryOperator](../mathnaryoperator) | The base element to which the delimiter is applied. Can be null. |
+
+ **Result**
+MathDelimiter
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathAccent](../mathaccent)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -438,13 +438,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathRadical](../mathradical)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -463,13 +463,13 @@ MathDelimiter
 ---
 
 
-###MathDelimiter{#MathDelimiter}
+### MathDelimiter {#MathDelimiter}
 
 | Name | Description |
 | --- | --- |
 | MathDelimiter([MathBar](../mathbar)) | Initializes MathDelimiter with the specified element as single base argument |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -488,13 +488,13 @@ MathDelimiter
 ---
 
 
-###delimit{#delimit}
+### delimit {#delimit}
 
 | Name | Description |
 | --- | --- |
 | delimit (char) | Delimits arguments using the specified delimiter character |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -507,13 +507,13 @@ MathDelimiter
 ---
 
 
-###enclose{#enclose}
+### enclose {#enclose}
 
 | Name | Description |
 | --- | --- |
 | enclose (char, char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -527,7 +527,7 @@ MathDelimiter
 ---
 
 
-###getArguments{#getArguments}
+### getArguments {#getArguments}
 
 | Name | Description |
 | --- | --- |
@@ -540,7 +540,7 @@ MathDelimiter
 ---
 
 
-###getBeginningCharacter{#getBeginningCharacter}
+### getBeginningCharacter {#getBeginningCharacter}
 
 | Name | Description |
 | --- | --- |
@@ -553,20 +553,20 @@ char
 ---
 
 
-###getChildren{#getChildren}
+### getChildren {#getChildren}
 
 | Name | Description |
 | --- | --- |
 | getChildren () | Get children elements |
 
  **Result**
-[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
 
 
-###getDelimiterShape{#getDelimiterShape}
+### getDelimiterShape {#getDelimiterShape}
 
 | Name | Description |
 | --- | --- |
@@ -579,7 +579,7 @@ int
 ---
 
 
-###getEndingCharacter{#getEndingCharacter}
+### getEndingCharacter {#getEndingCharacter}
 
 | Name | Description |
 | --- | --- |
@@ -592,7 +592,7 @@ char
 ---
 
 
-###getGrowToMatchOperandHeight{#getGrowToMatchOperandHeight}
+### getGrowToMatchOperandHeight {#getGrowToMatchOperandHeight}
 
 | Name | Description |
 | --- | --- |
@@ -605,7 +605,7 @@ boolean
 ---
 
 
-###getSeparatorCharacter{#getSeparatorCharacter}
+### getSeparatorCharacter {#getSeparatorCharacter}
 
 | Name | Description |
 | --- | --- |
@@ -618,7 +618,7 @@ char
 ---
 
 
-###setBeginningCharacter{#setBeginningCharacter}
+### setBeginningCharacter {#setBeginningCharacter}
 
 | Name | Description |
 | --- | --- |
@@ -628,7 +628,7 @@ char
 ---
 
 
-###setDelimiterShape{#setDelimiterShape}
+### setDelimiterShape {#setDelimiterShape}
 
 | Name | Description |
 | --- | --- |
@@ -638,7 +638,7 @@ char
 ---
 
 
-###setEndingCharacter{#setEndingCharacter}
+### setEndingCharacter {#setEndingCharacter}
 
 | Name | Description |
 | --- | --- |
@@ -648,7 +648,7 @@ char
 ---
 
 
-###setGrowToMatchOperandHeight{#setGrowToMatchOperandHeight}
+### setGrowToMatchOperandHeight {#setGrowToMatchOperandHeight}
 
 | Name | Description |
 | --- | --- |
@@ -658,7 +658,7 @@ char
 ---
 
 
-###setSeparatorCharacter{#setSeparatorCharacter}
+### setSeparatorCharacter {#setSeparatorCharacter}
 
 | Name | Description |
 | --- | --- |

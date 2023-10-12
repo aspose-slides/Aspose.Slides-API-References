@@ -13,7 +13,7 @@ url: /aspose.slides/foreach_/
  These methods can be useful if you need to iterate and change some Presentation' elements formatting or content,
   e.g. change each portion formatting. 
  
-###ForEach_{#ForEach_}
+### ForEach_ {#ForEach_}
 
 | Name | Description |
 | --- | --- |
@@ -26,13 +26,13 @@ ForEach_
 ---
 
 
-###layoutSlide{#layoutSlide}
+### layoutSlide {#layoutSlide}
 
 | Name | Description |
 | --- | --- |
 | layoutSlide ([Presentation](../presentation), [ForEach_.ForEachLayoutSlideCallback](../foreach_.foreachlayoutslidecallback)) | Iterate each #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ ForEach_
 ---
 
 
-###masterSlide{#masterSlide}
+### masterSlide {#masterSlide}
 
 | Name | Description |
 | --- | --- |
 | masterSlide ([Presentation](../presentation), [ForEach_.ForEachMasterSlideCallback](../foreach_.foreachmasterslidecallback)) | Iterate each #masterSlide(Presentation,ForEachMasterSlideCallback) in the Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -60,13 +60,13 @@ ForEach_
 ---
 
 
-###paragraph{#paragraph}
+### paragraph {#paragraph}
 
 | Name | Description |
 | --- | --- |
 | paragraph ([Presentation](../presentation), [ForEach_.ForEachParagraphCallback](../foreach_.foreachparagraphcallback)) | Iterate each Paragraph in the Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -77,13 +77,13 @@ ForEach_
 ---
 
 
-###paragraph{#paragraph}
+### paragraph {#paragraph}
 
 | Name | Description |
 | --- | --- |
 | paragraph ([Presentation](../presentation), boolean, [ForEach_.ForEachParagraphCallback](../foreach_.foreachparagraphcallback)) | Iterate each Paragraph in the Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -95,13 +95,13 @@ ForEach_
 ---
 
 
-###portion{#portion}
+### portion {#portion}
 
 | Name | Description |
 | --- | --- |
 | portion ([Presentation](../presentation), [ForEach_.ForEachPortionCallback](../foreach_.foreachportioncallback)) | Iterate each Portion in the Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -112,13 +112,13 @@ ForEach_
 ---
 
 
-###portion{#portion}
+### portion {#portion}
 
 | Name | Description |
 | --- | --- |
 | portion ([Presentation](../presentation), boolean, [ForEach_.ForEachPortionCallback](../foreach_.foreachportioncallback)) | Iterate each Portion in the Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -130,13 +130,13 @@ ForEach_
 ---
 
 
-###shape{#shape}
+### shape {#shape}
 
 | Name | Description |
 | --- | --- |
 | shape ([Presentation](../presentation), [ForEach_.ForEachShapeCallback](../foreach_.foreachshapecallback)) | Iterate each Shape in the Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -147,13 +147,13 @@ ForEach_
 ---
 
 
-###shape{#shape}
+### shape {#shape}
 
 | Name | Description |
 | --- | --- |
 | shape ([Presentation](../presentation), boolean, [ForEach_.ForEachShapeCallback](../foreach_.foreachshapecallback)) | Iterate each Shape in the Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -165,13 +165,13 @@ ForEach_
 ---
 
 
-###shape{#shape}
+### shape {#shape}
 
 | Name | Description |
 | --- | --- |
 | shape ([BaseSlide](../baseslide), [ForEach_.ForEachShapeCallback](../foreach_.foreachshapecallback)) | Iterate each Shape in the BaseSlide. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -182,13 +182,13 @@ ForEach_
 ---
 
 
-###slide{#slide}
+### slide {#slide}
 
 | Name | Description |
 | --- | --- |
 | slide ([Presentation](../presentation), [ForEach_.ForEachSlideCallback](../foreach_.foreachslidecallback)) | Iterate each #slide(Presentation,ForEachSlideCallback) in the Presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

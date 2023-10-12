@@ -11,7 +11,7 @@ url: /aspose.slides/chartplotarea/
 
  Represents rectangle where chart should be plotted.
  
-###getActualHeight{#getActualHeight}
+### getActualHeight {#getActualHeight}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ float
 ---
 
 
-###getActualWidth{#getActualWidth}
+### getActualWidth {#getActualWidth}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getActualX{#getActualX}
+### getActualX {#getActualX}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getActualY{#getActualY}
+### getActualY {#getActualY}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ float
 ---
 
 
-###getBottom{#getBottom}
+### getBottom {#getBottom}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ float
 ---
 
 
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ float
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ float
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ float
 ---
 
 
-###getLayoutTargetType{#getLayoutTargetType}
+### getLayoutTargetType {#getLayoutTargetType}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ int
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ int
 ---
 
 
-###getRight{#getRight}
+### getRight {#getRight}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ float
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ float
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ float
 ---
 
 
-###getX{#getX}
+### getX {#getX}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ float
 ---
 
 
-###getY{#getY}
+### getY {#getY}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ float
 ---
 
 
-###isLocationAutocalculated{#isLocationAutocalculated}
+### isLocationAutocalculated {#isLocationAutocalculated}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ boolean
 ---
 
 
-###setHeight{#setHeight}
+### setHeight {#setHeight}
 
 | Name | Description |
 | --- | --- |
@@ -229,7 +229,7 @@ boolean
 ---
 
 
-###setLayoutTargetType{#setLayoutTargetType}
+### setLayoutTargetType {#setLayoutTargetType}
 
 | Name | Description |
 | --- | --- |
@@ -239,7 +239,7 @@ boolean
 ---
 
 
-###setWidth{#setWidth}
+### setWidth {#setWidth}
 
 | Name | Description |
 | --- | --- |
@@ -249,7 +249,7 @@ boolean
 ---
 
 
-###setX{#setX}
+### setX {#setX}
 
 | Name | Description |
 | --- | --- |
@@ -259,7 +259,7 @@ boolean
 ---
 
 
-###setY{#setY}
+### setY {#setY}
 
 | Name | Description |
 | --- | --- |

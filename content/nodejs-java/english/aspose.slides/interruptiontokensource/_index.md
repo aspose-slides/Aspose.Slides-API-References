@@ -11,7 +11,7 @@ url: /aspose.slides/interruptiontokensource/
 
  Represents the source of  InterruptionToken.
  
-###InterruptionTokenSource{#InterruptionTokenSource}
+### InterruptionTokenSource {#InterruptionTokenSource}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ InterruptionTokenSource
 ---
 
 
-###getToken{#getToken}
+### getToken {#getToken}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ InterruptionToken
 ---
 
 
-###interrupt{#interrupt}
+### interrupt {#interrupt}
 
 | Name | Description |
 | --- | --- |
@@ -47,7 +47,7 @@ InterruptionToken
 ---
 
 
-###isInterruptionRequested{#isInterruptionRequested}
+### isInterruptionRequested {#isInterruptionRequested}
 
 | Name | Description |
 | --- | --- |

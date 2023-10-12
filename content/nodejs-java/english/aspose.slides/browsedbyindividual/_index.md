@@ -11,7 +11,7 @@ url: /aspose.slides/browsedbyindividual/
 
  Browsed by individual (window)
  
-###BrowsedByIndividual{#BrowsedByIndividual}
+### BrowsedByIndividual {#BrowsedByIndividual}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ BrowsedByIndividual
 ---
 
 
-###getShowScrollbar{#getShowScrollbar}
+### getShowScrollbar {#getShowScrollbar}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###setShowScrollbar{#setShowScrollbar}
+### setShowScrollbar {#setShowScrollbar}
 
 | Name | Description |
 | --- | --- |

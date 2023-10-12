@@ -11,7 +11,7 @@ url: /aspose.slides/coloroffset/
 
  Represent color offset.
  
-###ColorOffset{#ColorOffset}
+### ColorOffset {#ColorOffset}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ ColorOffset
 ---
 
 
-###getValue0{#getValue0}
+### getValue0 {#getValue0}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getValue1{#getValue1}
+### getValue1 {#getValue1}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getValue2{#getValue2}
+### getValue2 {#getValue2}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ float
 ---
 
 
-###setValue0{#setValue0}
+### setValue0 {#setValue0}
 
 | Name | Description |
 | --- | --- |
@@ -73,7 +73,7 @@ float
 ---
 
 
-###setValue1{#setValue1}
+### setValue1 {#setValue1}
 
 | Name | Description |
 | --- | --- |
@@ -83,7 +83,7 @@ float
 ---
 
 
-###setValue2{#setValue2}
+### setValue2 {#setValue2}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/vbamodule/
 
  Represents module that is contained in VBA project.
  
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ String
 ---
 
 
-###getSourceCode{#getSourceCode}
+### getSourceCode {#getSourceCode}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###setSourceCode{#setSourceCode}
+### setSourceCode {#setSourceCode}
 
 | Name | Description |
 | --- | --- |

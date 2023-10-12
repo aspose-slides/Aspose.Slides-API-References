@@ -11,7 +11,7 @@ url: /aspose.slides/table/
 
  Represents a table on a slide.
  
-###getColumns{#getColumns}
+### getColumns {#getColumns}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/table/
 ---
 
 
-###getFillFormat{#getFillFormat}
+### getFillFormat {#getFillFormat}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/table/
 ---
 
 
-###getFirstCol{#getFirstCol}
+### getFirstCol {#getFirstCol}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getFirstRow{#getFirstRow}
+### getFirstRow {#getFirstRow}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getHorizontalBanding{#getHorizontalBanding}
+### getHorizontalBanding {#getHorizontalBanding}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-###getLastCol{#getLastCol}
+### getLastCol {#getLastCol}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-###getLastRow{#getLastRow}
+### getLastRow {#getLastRow}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-###getRightToLeft{#getRightToLeft}
+### getRightToLeft {#getRightToLeft}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###getRows{#getRows}
+### getRows {#getRows}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-###getStylePreset{#getStylePreset}
+### getStylePreset {#getStylePreset}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ int
 ---
 
 
-###getTableFormat{#getTableFormat}
+### getTableFormat {#getTableFormat}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ int
 ---
 
 
-###getVerticalBanding{#getVerticalBanding}
+### getVerticalBanding {#getVerticalBanding}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ boolean
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -180,13 +180,13 @@ boolean
 ---
 
 
-###mergeCells{#mergeCells}
+### mergeCells {#mergeCells}
 
 | Name | Description |
 | --- | --- |
 | mergeCells ([Cell](../cell), [Cell](../cell), boolean) | Merges neighbour cells. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -201,7 +201,7 @@ boolean
 ---
 
 
-###setFirstCol{#setFirstCol}
+### setFirstCol {#setFirstCol}
 
 | Name | Description |
 | --- | --- |
@@ -211,7 +211,7 @@ boolean
 ---
 
 
-###setFirstRow{#setFirstRow}
+### setFirstRow {#setFirstRow}
 
 | Name | Description |
 | --- | --- |
@@ -221,7 +221,7 @@ boolean
 ---
 
 
-###setHorizontalBanding{#setHorizontalBanding}
+### setHorizontalBanding {#setHorizontalBanding}
 
 | Name | Description |
 | --- | --- |
@@ -231,7 +231,7 @@ boolean
 ---
 
 
-###setLastCol{#setLastCol}
+### setLastCol {#setLastCol}
 
 | Name | Description |
 | --- | --- |
@@ -241,7 +241,7 @@ boolean
 ---
 
 
-###setLastRow{#setLastRow}
+### setLastRow {#setLastRow}
 
 | Name | Description |
 | --- | --- |
@@ -251,7 +251,7 @@ boolean
 ---
 
 
-###setRightToLeft{#setRightToLeft}
+### setRightToLeft {#setRightToLeft}
 
 | Name | Description |
 | --- | --- |
@@ -261,7 +261,7 @@ boolean
 ---
 
 
-###setStylePreset{#setStylePreset}
+### setStylePreset {#setStylePreset}
 
 | Name | Description |
 | --- | --- |
@@ -271,13 +271,13 @@ boolean
 ---
 
 
-###setTextFormat{#setTextFormat}
+### setTextFormat {#setTextFormat}
 
 | Name | Description |
 | --- | --- |
 | setTextFormat ([PortionFormat](../portionformat)) | Sets defined portion format properties to all table cells' portions. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -287,13 +287,13 @@ boolean
 ---
 
 
-###setTextFormat{#setTextFormat}
+### setTextFormat {#setTextFormat}
 
 | Name | Description |
 | --- | --- |
 | setTextFormat ([ParagraphFormat](../paragraphformat)) | Sets defined paragraph format properties to all table cells' paragraphs. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -303,13 +303,13 @@ boolean
 ---
 
 
-###setTextFormat{#setTextFormat}
+### setTextFormat {#setTextFormat}
 
 | Name | Description |
 | --- | --- |
 | setTextFormat ([TextFrameFormat](../textframeformat)) | Sets defined text frame format properties to all table cells' text frames. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -319,7 +319,7 @@ boolean
 ---
 
 
-###setVerticalBanding{#setVerticalBanding}
+### setVerticalBanding {#setVerticalBanding}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/pptcorruptfileexception/
 
  Exception which thrown when presentation file is probably corrupt.
  
-###PptCorruptFileException{#PptCorruptFileException}
+### PptCorruptFileException {#PptCorruptFileException}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ PptCorruptFileException
 ---
 
 
-###PptCorruptFileException{#PptCorruptFileException}
+### PptCorruptFileException {#PptCorruptFileException}
 
 | Name | Description |
 | --- | --- |
 | PptCorruptFileException(String) | Constructor allowing a message to be added to this exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ PptCorruptFileException
 ---
 
 
-###PptCorruptFileException{#PptCorruptFileException}
+### PptCorruptFileException {#PptCorruptFileException}
 
 | Name | Description |
 | --- | --- |
 | PptCorruptFileException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

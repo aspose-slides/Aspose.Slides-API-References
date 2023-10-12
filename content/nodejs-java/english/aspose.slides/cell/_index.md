@@ -11,7 +11,7 @@ url: /aspose.slides/cell/
 
  Represents a cell of a table.
  
-###getAnchorCenter{#getAnchorCenter}
+### getAnchorCenter {#getAnchorCenter}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ boolean
 ---
 
 
-###getCellFormat{#getCellFormat}
+### getCellFormat {#getCellFormat}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getColSpan{#getColSpan}
+### getColSpan {#getColSpan}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ int
 ---
 
 
-###getFirstColumn{#getFirstColumn}
+### getFirstColumn {#getFirstColumn}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ int
 ---
 
 
-###getFirstColumnIndex{#getFirstColumnIndex}
+### getFirstColumnIndex {#getFirstColumnIndex}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###getFirstRow{#getFirstRow}
+### getFirstRow {#getFirstRow}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getFirstRowIndex{#getFirstRowIndex}
+### getFirstRowIndex {#getFirstRowIndex}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ int
 ---
 
 
-###getHeight{#getHeight}
+### getHeight {#getHeight}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ double
 ---
 
 
-###getMarginBottom{#getMarginBottom}
+### getMarginBottom {#getMarginBottom}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ double
 ---
 
 
-###getMarginLeft{#getMarginLeft}
+### getMarginLeft {#getMarginLeft}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ double
 ---
 
 
-###getMarginRight{#getMarginRight}
+### getMarginRight {#getMarginRight}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ double
 ---
 
 
-###getMarginTop{#getMarginTop}
+### getMarginTop {#getMarginTop}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ double
 ---
 
 
-###getMinimalHeight{#getMinimalHeight}
+### getMinimalHeight {#getMinimalHeight}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ double
 ---
 
 
-###getOffsetX{#getOffsetX}
+### getOffsetX {#getOffsetX}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ double
 ---
 
 
-###getOffsetY{#getOffsetY}
+### getOffsetY {#getOffsetY}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ double
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ double
 ---
 
 
-###getRowSpan{#getRowSpan}
+### getRowSpan {#getRowSpan}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ int
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -245,7 +245,7 @@ int
 ---
 
 
-###getTable{#getTable}
+### getTable {#getTable}
 
 | Name | Description |
 | --- | --- |
@@ -258,7 +258,7 @@ int
 ---
 
 
-###getTextAnchorType{#getTextAnchorType}
+### getTextAnchorType {#getTextAnchorType}
 
 | Name | Description |
 | --- | --- |
@@ -271,7 +271,7 @@ byte
 ---
 
 
-###getTextFrame{#getTextFrame}
+### getTextFrame {#getTextFrame}
 
 | Name | Description |
 | --- | --- |
@@ -284,7 +284,7 @@ byte
 ---
 
 
-###getTextVerticalType{#getTextVerticalType}
+### getTextVerticalType {#getTextVerticalType}
 
 | Name | Description |
 | --- | --- |
@@ -297,7 +297,7 @@ byte
 ---
 
 
-###getWidth{#getWidth}
+### getWidth {#getWidth}
 
 | Name | Description |
 | --- | --- |
@@ -310,7 +310,7 @@ double
 ---
 
 
-###isMergedCell{#isMergedCell}
+### isMergedCell {#isMergedCell}
 
 | Name | Description |
 | --- | --- |
@@ -323,7 +323,7 @@ boolean
 ---
 
 
-###setAnchorCenter{#setAnchorCenter}
+### setAnchorCenter {#setAnchorCenter}
 
 | Name | Description |
 | --- | --- |
@@ -333,7 +333,7 @@ boolean
 ---
 
 
-###setMarginBottom{#setMarginBottom}
+### setMarginBottom {#setMarginBottom}
 
 | Name | Description |
 | --- | --- |
@@ -343,7 +343,7 @@ boolean
 ---
 
 
-###setMarginLeft{#setMarginLeft}
+### setMarginLeft {#setMarginLeft}
 
 | Name | Description |
 | --- | --- |
@@ -353,7 +353,7 @@ boolean
 ---
 
 
-###setMarginRight{#setMarginRight}
+### setMarginRight {#setMarginRight}
 
 | Name | Description |
 | --- | --- |
@@ -363,7 +363,7 @@ boolean
 ---
 
 
-###setMarginTop{#setMarginTop}
+### setMarginTop {#setMarginTop}
 
 | Name | Description |
 | --- | --- |
@@ -373,7 +373,7 @@ boolean
 ---
 
 
-###setTextAnchorType{#setTextAnchorType}
+### setTextAnchorType {#setTextAnchorType}
 
 | Name | Description |
 | --- | --- |
@@ -383,7 +383,7 @@ boolean
 ---
 
 
-###setTextVerticalType{#setTextVerticalType}
+### setTextVerticalType {#setTextVerticalType}
 
 | Name | Description |
 | --- | --- |
@@ -393,13 +393,13 @@ boolean
 ---
 
 
-###splitByColSpan{#splitByColSpan}
+### splitByColSpan {#splitByColSpan}
 
 | Name | Description |
 | --- | --- |
 | splitByColSpan (int) | Splits the cell to two cells by index of column. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -409,13 +409,13 @@ boolean
 ---
 
 
-###splitByHeight{#splitByHeight}
+### splitByHeight {#splitByHeight}
 
 | Name | Description |
 | --- | --- |
 | splitByHeight (double) | Splits the cell by height. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -425,13 +425,13 @@ boolean
 ---
 
 
-###splitByRowSpan{#splitByRowSpan}
+### splitByRowSpan {#splitByRowSpan}
 
 | Name | Description |
 | --- | --- |
 | splitByRowSpan (int) | Splits the cell to two cells by index of row. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -441,13 +441,13 @@ boolean
 ---
 
 
-###splitByWidth{#splitByWidth}
+### splitByWidth {#splitByWidth}
 
 | Name | Description |
 | --- | --- |
 | splitByWidth (double) | Splits the cell by width. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

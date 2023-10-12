@@ -11,7 +11,7 @@ url: /aspose.slides/fontfallbackrulescollection/
 
  Represents a collection of FontFallBack rules, defined by user
  
-###FontFallBackRulesCollection{#FontFallBackRulesCollection}
+### FontFallBackRulesCollection {#FontFallBackRulesCollection}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ FontFallBackRulesCollection
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([FontFallBackRule](../fontfallbackrule)) | Add a specified FallBack rule to the end of the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ FontFallBackRulesCollection
 ---
 
 
-###getSyncRoot{#getSyncRoot}
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
@@ -53,7 +53,7 @@ Object
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -66,7 +66,7 @@ Object
 ---
 
 
-###isSynchronized{#isSynchronized}
+### isSynchronized {#isSynchronized}
 
 | Name | Description |
 | --- | --- |
@@ -79,7 +79,7 @@ boolean
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -92,7 +92,7 @@ boolean
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -105,13 +105,13 @@ boolean
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([FontFallBackRule](../fontfallbackrule)) | Removes the first occurrence of a specific FallBack rule from the collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -121,7 +121,7 @@ boolean
 ---
 
 
-###size{#size}
+### size {#size}
 
 | Name | Description |
 | --- | --- |

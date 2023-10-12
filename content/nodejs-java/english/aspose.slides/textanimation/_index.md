@@ -11,7 +11,7 @@ url: /aspose.slides/textanimation/
 
  Represent text animation.
  
-###TextAnimation{#TextAnimation}
+### TextAnimation {#TextAnimation}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ TextAnimation
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect (int, int, int) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ TextAnimation
 ---
 
 
-###getBuildType{#getBuildType}
+### getBuildType {#getBuildType}
 
 | Name | Description |
 | --- | --- |
@@ -58,7 +58,7 @@ int
 ---
 
 
-###getEffectAnimateBackgroundShape{#getEffectAnimateBackgroundShape}
+### getEffectAnimateBackgroundShape {#getEffectAnimateBackgroundShape}
 
 | Name | Description |
 | --- | --- |
@@ -71,7 +71,7 @@ int
 ---
 
 
-###setBuildType{#setBuildType}
+### setBuildType {#setBuildType}
 
 | Name | Description |
 | --- | --- |
@@ -81,7 +81,7 @@ int
 ---
 
 
-###setEffectAnimateBackgroundShape{#setEffectAnimateBackgroundShape}
+### setEffectAnimateBackgroundShape {#setEffectAnimateBackgroundShape}
 
 | Name | Description |
 | --- | --- |

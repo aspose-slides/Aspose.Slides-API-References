@@ -11,13 +11,13 @@ url: /aspose.slides/htmlformatter/
 
  Represents HTML file template.
  
-###createCustomFormatter{#createCustomFormatter}
+### createCustomFormatter {#createCustomFormatter}
 
 | Name | Description |
 | --- | --- |
 | createCustomFormatter ([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ HtmlFormatter
 ---
 
 
-###createCustomFormatter{#createCustomFormatter}
+### createCustomFormatter {#createCustomFormatter}
 
 | Name | Description |
 | --- | --- |
 | createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,13 +49,13 @@ HtmlFormatter
 ---
 
 
-###createCustomFormatter{#createCustomFormatter}
+### createCustomFormatter {#createCustomFormatter}
 
 | Name | Description |
 | --- | --- |
 | createCustomFormatter ([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -68,13 +68,13 @@ HtmlFormatter
 ---
 
 
-###createCustomFormatter{#createCustomFormatter}
+### createCustomFormatter {#createCustomFormatter}
 
 | Name | Description |
 | --- | --- |
 | createCustomFormatter ([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -87,13 +87,13 @@ HtmlFormatter
 ---
 
 
-###createCustomFormatter{#createCustomFormatter}
+### createCustomFormatter {#createCustomFormatter}
 
 | Name | Description |
 | --- | --- |
 | createCustomFormatter ([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -106,13 +106,13 @@ HtmlFormatter
 ---
 
 
-###createDocumentFormatter{#createDocumentFormatter}
+### createDocumentFormatter {#createDocumentFormatter}
 
 | Name | Description |
 | --- | --- |
 | createDocumentFormatter (String, boolean) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -126,13 +126,13 @@ HtmlFormatter
 ---
 
 
-###createSlideShowFormatter{#createSlideShowFormatter}
+### createSlideShowFormatter {#createSlideShowFormatter}
 
 | Name | Description |
 | --- | --- |
 | createSlideShowFormatter (String, boolean) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

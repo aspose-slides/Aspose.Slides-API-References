@@ -13,7 +13,7 @@ url: /aspose.slides/imagetransformoperationfactory/
  
  For COM compatibility.
  
-###ImageTransformOperationFactory{#ImageTransformOperationFactory}
+### ImageTransformOperationFactory {#ImageTransformOperationFactory}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ ImageTransformOperationFactory
 ---
 
 
-###createAlphCeiling{#createAlphCeiling}
+### createAlphCeiling {#createAlphCeiling}
 
 | Name | Description |
 | --- | --- |
@@ -39,13 +39,13 @@ ImageTransformOperationFactory
 ---
 
 
-###createAlphaBiLevel{#createAlphaBiLevel}
+### createAlphaBiLevel {#createAlphaBiLevel}
 
 | Name | Description |
 | --- | --- |
 | createAlphaBiLevel (float) | Creates Alpha BiLevel effect. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -58,7 +58,7 @@ ImageTransformOperationFactory
 ---
 
 
-###createAlphaFloor{#createAlphaFloor}
+### createAlphaFloor {#createAlphaFloor}
 
 | Name | Description |
 | --- | --- |
@@ -71,7 +71,7 @@ ImageTransformOperationFactory
 ---
 
 
-###createAlphaInverse{#createAlphaInverse}
+### createAlphaInverse {#createAlphaInverse}
 
 | Name | Description |
 | --- | --- |
@@ -84,7 +84,7 @@ ImageTransformOperationFactory
 ---
 
 
-###createAlphaModulate{#createAlphaModulate}
+### createAlphaModulate {#createAlphaModulate}
 
 | Name | Description |
 | --- | --- |
@@ -97,13 +97,13 @@ ImageTransformOperationFactory
 ---
 
 
-###createAlphaModulateFixed{#createAlphaModulateFixed}
+### createAlphaModulateFixed {#createAlphaModulateFixed}
 
 | Name | Description |
 | --- | --- |
 | createAlphaModulateFixed (float) | Creates Alpha modulate fixed effect. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -116,13 +116,13 @@ ImageTransformOperationFactory
 ---
 
 
-###createAlphaReplace{#createAlphaReplace}
+### createAlphaReplace {#createAlphaReplace}
 
 | Name | Description |
 | --- | --- |
 | createAlphaReplace (float) | Creates Alpha replace effect. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -135,13 +135,13 @@ ImageTransformOperationFactory
 ---
 
 
-###createBiLevel{#createBiLevel}
+### createBiLevel {#createBiLevel}
 
 | Name | Description |
 | --- | --- |
 | createBiLevel (float) | Creates BiLevel effect. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -154,13 +154,13 @@ ImageTransformOperationFactory
 ---
 
 
-###createBlur{#createBlur}
+### createBlur {#createBlur}
 
 | Name | Description |
 | --- | --- |
 | createBlur (double, boolean) | Creates Blur effect. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -174,7 +174,7 @@ ImageTransformOperationFactory
 ---
 
 
-###createColorChange{#createColorChange}
+### createColorChange {#createColorChange}
 
 | Name | Description |
 | --- | --- |
@@ -187,7 +187,7 @@ ImageTransformOperationFactory
 ---
 
 
-###createColorReplace{#createColorReplace}
+### createColorReplace {#createColorReplace}
 
 | Name | Description |
 | --- | --- |
@@ -200,7 +200,7 @@ ImageTransformOperationFactory
 ---
 
 
-###createDuotone{#createDuotone}
+### createDuotone {#createDuotone}
 
 | Name | Description |
 | --- | --- |
@@ -213,7 +213,7 @@ ImageTransformOperationFactory
 ---
 
 
-###createFillOverlay{#createFillOverlay}
+### createFillOverlay {#createFillOverlay}
 
 | Name | Description |
 | --- | --- |
@@ -226,7 +226,7 @@ ImageTransformOperationFactory
 ---
 
 
-###createGrayScale{#createGrayScale}
+### createGrayScale {#createGrayScale}
 
 | Name | Description |
 | --- | --- |
@@ -239,13 +239,13 @@ ImageTransformOperationFactory
 ---
 
 
-###createHSL{#createHSL}
+### createHSL {#createHSL}
 
 | Name | Description |
 | --- | --- |
 | createHSL (float, float, float) | Creates Hue Saturation Luminance effect. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -260,13 +260,13 @@ ImageTransformOperationFactory
 ---
 
 
-###createLuminance{#createLuminance}
+### createLuminance {#createLuminance}
 
 | Name | Description |
 | --- | --- |
 | createLuminance (float, float) | Createtes Luminance effect. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -280,13 +280,13 @@ ImageTransformOperationFactory
 ---
 
 
-###createTint{#createTint}
+### createTint {#createTint}
 
 | Name | Description |
 | --- | --- |
 | createTint (float, float) | Creates Tint effect. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

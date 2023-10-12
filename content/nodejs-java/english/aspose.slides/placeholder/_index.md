@@ -11,7 +11,7 @@ url: /aspose.slides/placeholder/
 
  Represents a placeholder on a slide.
  
-###getIndex{#getIndex}
+### getIndex {#getIndex}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ long
 ---
 
 
-###getOrientation{#getOrientation}
+### getOrientation {#getOrientation}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ byte
 ---
 
 
-###getSize{#getSize}
+### getSize {#getSize}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ byte
 ---
 
 
-###getType{#getType}
+### getType {#getType}
 
 | Name | Description |
 | --- | --- |

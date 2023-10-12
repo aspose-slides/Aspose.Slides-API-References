@@ -11,7 +11,7 @@ url: /aspose.slides/commonslideviewproperties/
 
  Represents common slide view properties.
  
-###getScale{#getScale}
+### getScale {#getScale}
 
 | Name | Description |
 | --- | --- |
@@ -30,7 +30,7 @@ int
 ---
 
 
-###getVariableScale{#getVariableScale}
+### getVariableScale {#getVariableScale}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ boolean
 ---
 
 
-###setScale{#setScale}
+### setScale {#setScale}
 
 | Name | Description |
 | --- | --- |
@@ -59,7 +59,7 @@ boolean
 ---
 
 
-###setVariableScale{#setVariableScale}
+### setVariableScale {#setVariableScale}
 
 | Name | Description |
 | --- | --- |

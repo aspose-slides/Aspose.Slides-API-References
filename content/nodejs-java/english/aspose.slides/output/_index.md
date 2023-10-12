@@ -11,13 +11,13 @@ url: /aspose.slides/output/
 
  Represents a collection of output elements for IWebDocument.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String, String, TContextObject) | Adds an output element for the context object. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -32,13 +32,13 @@ url: /aspose.slides/output/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String, [PPImage](../ppimage)) | Adds an output element for the image. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -52,13 +52,13 @@ url: /aspose.slides/output/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String, BufferedImage) | Adds an output element for the image. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -72,13 +72,13 @@ url: /aspose.slides/output/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String, [Video](../video)) | Adds an output element for the video. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -92,13 +92,13 @@ url: /aspose.slides/output/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String, [FontData](../fontdata), int) | Adds an output element for the font. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -113,13 +113,13 @@ url: /aspose.slides/output/
 ---
 
 
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add (String, String) | Adds an output element for the text content. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -133,13 +133,13 @@ url: /aspose.slides/output/
 ---
 
 
-###getResourcePath{#getResourcePath}
+### getResourcePath {#getResourcePath}
 
 | Name | Description |
 | --- | --- |
 | getResourcePath (Object) | Returns the path for a given resource. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

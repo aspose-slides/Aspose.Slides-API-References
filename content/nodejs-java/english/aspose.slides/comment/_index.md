@@ -11,7 +11,7 @@ url: /aspose.slides/comment/
 
  Represents a comment on a slide.
  
-###getAuthor{#getAuthor}
+### getAuthor {#getAuthor}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/comment/
 ---
 
 
-###getCreatedTime{#getCreatedTime}
+### getCreatedTime {#getCreatedTime}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Date
 ---
 
 
-###getParentComment{#getParentComment}
+### getParentComment {#getParentComment}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ Date
 ---
 
 
-###getPosition{#getPosition}
+### getPosition {#getPosition}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ Point2D.Float
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ Point2D.Float
 ---
 
 
-###getText{#getText}
+### getText {#getText}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ String
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
@@ -111,7 +111,7 @@ String
 ---
 
 
-###setCreatedTime{#setCreatedTime}
+### setCreatedTime {#setCreatedTime}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ String
 ---
 
 
-###setParentComment{#setParentComment}
+### setParentComment {#setParentComment}
 
 | Name | Description |
 | --- | --- |
@@ -137,7 +137,7 @@ String
 ---
 
 
-###setParentComment{#setParentComment}
+### setParentComment {#setParentComment}
 
 | Name | Description |
 | --- | --- |
@@ -153,7 +153,7 @@ String
 ---
 
 
-###setPosition{#setPosition}
+### setPosition {#setPosition}
 
 | Name | Description |
 | --- | --- |
@@ -163,7 +163,7 @@ String
 ---
 
 
-###setText{#setText}
+### setText {#setText}
 
 | Name | Description |
 | --- | --- |

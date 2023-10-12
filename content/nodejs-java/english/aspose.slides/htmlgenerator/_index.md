@@ -11,13 +11,13 @@ url: /aspose.slides/htmlgenerator/
 
  Html generator.
  
-###addAttributeValue{#addAttributeValue}
+### addAttributeValue {#addAttributeValue}
 
 | Name | Description |
 | --- | --- |
 | addAttributeValue (String) | Quotes attribute value and adds it to the html file. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -27,13 +27,13 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-###addAttributeValue{#addAttributeValue}
+### addAttributeValue {#addAttributeValue}
 
 | Name | Description |
 | --- | --- |
 | addAttributeValue (char[]) | Quotes attribute value and adds it to the html file. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-###addAttributeValue{#addAttributeValue}
+### addAttributeValue {#addAttributeValue}
 
 | Name | Description |
 | --- | --- |
 | addAttributeValue (char[], int, int) | Quotes attribute value and adds it to the html file. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -61,13 +61,13 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-###addHtml{#addHtml}
+### addHtml {#addHtml}
 
 | Name | Description |
 | --- | --- |
 | addHtml (String) | Adds formatted HTML text. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -77,13 +77,13 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-###addHtml{#addHtml}
+### addHtml {#addHtml}
 
 | Name | Description |
 | --- | --- |
 | addHtml (char[]) | Adds formatted HTML text. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -93,13 +93,13 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-###addHtml{#addHtml}
+### addHtml {#addHtml}
 
 | Name | Description |
 | --- | --- |
 | addHtml (char[], int, int) | Adds formatted HTML text. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -111,13 +111,13 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-###addText{#addText}
+### addText {#addText}
 
 | Name | Description |
 | --- | --- |
 | addText (String) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -127,13 +127,13 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-###addText{#addText}
+### addText {#addText}
 
 | Name | Description |
 | --- | --- |
 | addText (char[]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -143,13 +143,13 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-###addText{#addText}
+### addText {#addText}
 
 | Name | Description |
 | --- | --- |
 | addText (char[], int, int) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -161,7 +161,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-###getNextSlideIndex{#getNextSlideIndex}
+### getNextSlideIndex {#getNextSlideIndex}
 
 | Name | Description |
 | --- | --- |
@@ -174,7 +174,7 @@ int
 ---
 
 
-###getPreviousSlideIndex{#getPreviousSlideIndex}
+### getPreviousSlideIndex {#getPreviousSlideIndex}
 
 | Name | Description |
 | --- | --- |
@@ -187,7 +187,7 @@ int
 ---
 
 
-###getSlideImageSize{#getSlideImageSize}
+### getSlideImageSize {#getSlideImageSize}
 
 | Name | Description |
 | --- | --- |
@@ -200,7 +200,7 @@ Dimension2D
 ---
 
 
-###getSlideImageSizeUnit{#getSlideImageSizeUnit}
+### getSlideImageSizeUnit {#getSlideImageSizeUnit}
 
 | Name | Description |
 | --- | --- |
@@ -213,7 +213,7 @@ int
 ---
 
 
-###getSlideImageSizeUnitCode{#getSlideImageSizeUnitCode}
+### getSlideImageSizeUnitCode {#getSlideImageSizeUnitCode}
 
 | Name | Description |
 | --- | --- |
@@ -226,7 +226,7 @@ String
 ---
 
 
-###getSlideIndex{#getSlideIndex}
+### getSlideIndex {#getSlideIndex}
 
 | Name | Description |
 | --- | --- |

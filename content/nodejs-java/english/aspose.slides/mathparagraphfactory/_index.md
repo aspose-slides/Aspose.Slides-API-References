@@ -13,7 +13,7 @@ url: /aspose.slides/mathparagraphfactory/
  
  For COM comparibility
  
-###MathParagraphFactory{#MathParagraphFactory}
+### MathParagraphFactory {#MathParagraphFactory}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ MathParagraphFactory
 ---
 
 
-###createMathParagraph{#createMathParagraph}
+### createMathParagraph {#createMathParagraph}
 
 | Name | Description |
 | --- | --- |
@@ -39,13 +39,13 @@ MathParagraphFactory
 ---
 
 
-###createMathParagraph{#createMathParagraph}
+### createMathParagraph {#createMathParagraph}
 
 | Name | Description |
 | --- | --- |
 | createMathParagraph ([MathBlock](../mathblock)) | Creates a math paragraph and places the specified math block in it |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

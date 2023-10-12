@@ -11,7 +11,7 @@ url: /aspose.slides/interruptiontoken/
 
  This class represents the token to use for signaling long running tasks whether the interruption was requested.
  
-###getNone{#getNone}
+### getNone {#getNone}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ InterruptionToken
 ---
 
 
-###isInterruptionRequested{#isInterruptionRequested}
+### isInterruptionRequested {#isInterruptionRequested}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###throwIfInterruptionRequested{#throwIfInterruptionRequested}
+### throwIfInterruptionRequested {#throwIfInterruptionRequested}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/mathematicaltext/
 
  Mathematical text
  
-###MathematicalText{#MathematicalText}
+### MathematicalText {#MathematicalText}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ MathematicalText
 ---
 
 
-###MathematicalText{#MathematicalText}
+### MathematicalText {#MathematicalText}
 
 | Name | Description |
 | --- | --- |
 | MathematicalText(char) | Create MathText with single symbol |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ MathematicalText
 ---
 
 
-###MathematicalText{#MathematicalText}
+### MathematicalText {#MathematicalText}
 
 | Name | Description |
 | --- | --- |
 | MathematicalText(String) | Create MathematicalText from text |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -62,13 +62,13 @@ MathematicalText
 ---
 
 
-###MathematicalText{#MathematicalText}
+### MathematicalText {#MathematicalText}
 
 | Name | Description |
 | --- | --- |
 | MathematicalText(String, [PortionFormat](../portionformat)) | Create MathematicalText from text and format settings |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -82,20 +82,20 @@ MathematicalText
 ---
 
 
-###getChildren{#getChildren}
+### getChildren {#getChildren}
 
 | Name | Description |
 | --- | --- |
 | getChildren () | Get children elements |
 
  **Result**
-[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ MathematicalText
 ---
 
 
-###getValue{#getValue}
+### getValue {#getValue}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ String
 ---
 
 
-###setValue{#setValue}
+### setValue {#setValue}
 
 | Name | Description |
 | --- | --- |

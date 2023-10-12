@@ -12,7 +12,7 @@ url: /aspose.slides/mathsuperscriptelement/
  Specifies the superscript object, which consists of a base 
  and a reduced-size superscript placed above and to the right
  
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -38,7 +38,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -51,7 +51,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -64,7 +64,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -77,7 +77,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -90,7 +90,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -103,7 +103,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -116,7 +116,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -129,20 +129,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -155,7 +142,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -168,7 +155,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -181,7 +168,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -194,11 +181,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -207,7 +194,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -220,7 +207,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -233,7 +233,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -246,7 +246,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -259,7 +259,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -272,7 +272,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -285,7 +285,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -298,7 +298,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -311,7 +311,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -324,7 +324,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -337,7 +337,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -350,7 +350,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -363,7 +363,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -376,20 +376,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -402,7 +389,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -415,7 +402,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -428,7 +415,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -441,11 +428,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -454,7 +441,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -467,7 +454,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -480,7 +480,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -493,7 +493,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -506,7 +506,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -519,7 +519,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -532,7 +532,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -545,7 +545,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -558,7 +558,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -571,7 +571,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -584,7 +584,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -597,7 +597,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -610,7 +610,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -623,20 +623,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -649,7 +636,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -662,7 +649,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -675,7 +662,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -688,11 +675,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -701,7 +688,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -714,7 +701,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -727,7 +727,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -740,7 +740,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -753,7 +753,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -766,7 +766,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -779,7 +779,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -792,7 +792,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -805,7 +805,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -818,7 +818,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -831,7 +831,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -844,7 +844,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -857,7 +857,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -870,20 +870,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -896,7 +883,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -909,7 +896,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -922,7 +909,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -935,11 +922,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -948,7 +935,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -961,7 +948,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -974,7 +974,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -987,7 +987,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1000,7 +1000,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1013,7 +1013,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1026,7 +1026,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1039,7 +1039,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1052,7 +1052,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1065,7 +1065,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1078,7 +1078,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1091,7 +1091,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1104,7 +1104,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1117,20 +1117,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1143,7 +1130,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1156,7 +1143,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1169,7 +1156,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1182,11 +1169,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -1195,7 +1182,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1208,7 +1195,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1221,7 +1221,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1234,7 +1234,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1247,7 +1247,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1260,7 +1260,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1273,7 +1273,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1286,7 +1286,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1299,7 +1299,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1312,7 +1312,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1325,7 +1325,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1338,7 +1338,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1351,7 +1351,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1364,20 +1364,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1390,7 +1377,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1403,7 +1390,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1416,7 +1403,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1429,11 +1416,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -1442,7 +1429,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1455,7 +1442,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1468,7 +1468,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1481,7 +1481,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1494,7 +1494,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1507,7 +1507,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1520,7 +1520,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1533,7 +1533,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1546,7 +1546,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1559,7 +1559,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1572,7 +1572,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1585,7 +1585,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1598,7 +1598,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1611,20 +1611,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1637,7 +1624,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1650,7 +1637,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1663,7 +1650,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1676,11 +1663,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -1689,7 +1676,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1702,7 +1689,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1715,7 +1715,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1728,7 +1728,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1741,7 +1741,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1754,7 +1754,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1767,7 +1767,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1780,7 +1780,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1793,7 +1793,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1806,7 +1806,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1819,7 +1819,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1832,7 +1832,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1845,7 +1845,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1858,20 +1858,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1884,7 +1871,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1897,7 +1884,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1910,7 +1897,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1923,11 +1910,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -1936,7 +1923,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1949,7 +1936,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1962,7 +1962,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1975,7 +1975,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -1988,7 +1988,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2001,7 +2001,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2014,7 +2014,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2027,7 +2027,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2040,7 +2040,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2053,7 +2053,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2066,7 +2066,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2079,7 +2079,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2092,7 +2092,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2105,20 +2105,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2131,7 +2118,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2144,7 +2131,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2157,7 +2144,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2170,11 +2157,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -2183,7 +2170,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2196,7 +2183,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2209,7 +2209,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2222,7 +2222,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2235,254 +2235,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2495,7 +2248,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2508,7 +2261,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2521,7 +2274,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2534,7 +2287,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2547,7 +2300,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2560,7 +2313,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2573,7 +2326,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2586,7 +2339,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2599,20 +2352,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2625,7 +2365,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2638,7 +2378,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2651,7 +2391,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2664,11 +2404,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -2677,7 +2417,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2690,7 +2430,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2703,7 +2456,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2716,7 +2469,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2729,7 +2482,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2742,7 +2495,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2755,7 +2508,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2768,7 +2521,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2781,7 +2534,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2794,7 +2547,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2807,7 +2560,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2820,7 +2573,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2833,7 +2586,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2846,20 +2599,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2872,7 +2612,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2885,7 +2625,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2898,7 +2638,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2911,11 +2651,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -2924,7 +2664,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2937,7 +2677,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2950,7 +2703,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2963,7 +2716,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2976,7 +2729,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -2989,7 +2742,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3002,7 +2755,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3015,7 +2768,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3028,7 +2781,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3041,7 +2794,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3054,7 +2807,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3067,7 +2820,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3080,7 +2833,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3093,20 +2846,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3119,7 +2859,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3132,7 +2872,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3145,7 +2885,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3158,11 +2898,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3171,7 +2911,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3184,7 +2924,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3197,7 +2950,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3210,7 +2963,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3223,7 +2976,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3236,7 +2989,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3249,7 +3002,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3262,7 +3015,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3275,7 +3028,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3288,7 +3041,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3301,7 +3054,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3314,7 +3067,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3327,7 +3080,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3340,20 +3093,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3366,7 +3106,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3379,7 +3119,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3392,7 +3132,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3405,11 +3145,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3418,7 +3158,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3431,7 +3171,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3444,7 +3197,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3457,7 +3210,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3470,11 +3223,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3483,11 +3236,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3496,11 +3249,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3509,11 +3262,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3522,11 +3275,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3535,11 +3288,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3548,11 +3301,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3561,11 +3314,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3574,11 +3327,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3587,11 +3340,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3600,11 +3353,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3613,11 +3366,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3626,11 +3379,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3639,11 +3392,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3652,11 +3405,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3665,11 +3418,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3678,11 +3431,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3691,11 +3444,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3704,11 +3457,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3717,7 +3470,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3730,7 +3483,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3743,7 +3496,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3756,7 +3509,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3769,7 +3522,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3782,7 +3535,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3795,7 +3548,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3808,7 +3561,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3821,7 +3574,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3834,20 +3587,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3860,7 +3600,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3873,7 +3613,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3886,7 +3626,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3899,11 +3639,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -3912,7 +3652,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3925,7 +3665,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3938,7 +3691,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3951,7 +3704,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3964,7 +3717,254 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3977,7 +3977,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -3990,7 +3990,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4003,7 +4003,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4016,7 +4016,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4029,7 +4029,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4042,7 +4042,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4055,7 +4055,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4068,7 +4068,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4081,20 +4081,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4107,7 +4094,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4120,7 +4107,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4133,7 +4120,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4146,11 +4133,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -4159,7 +4146,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4172,7 +4159,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4185,7 +4185,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4198,7 +4198,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4211,7 +4211,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4224,7 +4224,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4237,7 +4237,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4250,7 +4250,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4263,7 +4263,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4276,7 +4276,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4289,7 +4289,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4302,7 +4302,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4315,7 +4315,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4328,20 +4328,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4354,7 +4341,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4367,7 +4354,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4380,7 +4367,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4393,11 +4380,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -4406,7 +4393,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4419,7 +4406,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4432,7 +4432,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4445,7 +4445,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4458,7 +4458,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4471,7 +4471,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4484,7 +4484,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4497,7 +4497,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4510,7 +4510,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4523,7 +4523,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4536,7 +4536,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4549,7 +4549,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4562,7 +4562,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4575,20 +4575,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
-
-| Name | Description |
-| --- | --- |
-| MathSuperscriptElement([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
-
- **Result**
-MathSuperscriptElement
-
-
----
-
-
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4601,7 +4588,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4614,7 +4601,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4627,7 +4614,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4640,11 +4627,11 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result**
 MathSuperscriptElement
@@ -4653,7 +4640,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4666,7 +4653,20 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
+
+| Name | Description |
+| --- | --- |
+| MathSuperscriptElement([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathSuperscriptElement class. |
+
+ **Result**
+MathSuperscriptElement
+
+
+---
+
+
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4679,7 +4679,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4692,7 +4692,7 @@ MathSuperscriptElement
 ---
 
 
-###MathSuperscriptElement{#MathSuperscriptElement}
+### MathSuperscriptElement {#MathSuperscriptElement}
 
 | Name | Description |
 | --- | --- |
@@ -4705,27 +4705,27 @@ MathSuperscriptElement
 ---
 
 
-###getChildren{#getChildren}
+### getChildren {#getChildren}
 
 | Name | Description |
 | --- | --- |
 | getChildren () | Get children elements |
 
  **Result**
-[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
 
 
-###getSuperscript{#getSuperscript}
+### getSuperscript {#getSuperscript}
 
 | Name | Description |
 | --- | --- |
 | getSuperscript () | Superscript |
 
  **Result**
-[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---

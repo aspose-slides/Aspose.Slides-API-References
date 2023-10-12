@@ -11,7 +11,7 @@ url: /aspose.slides/picturefillformat/
 
  Represents a picture fill style.
  
-###getCropBottom{#getCropBottom}
+### getCropBottom {#getCropBottom}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ float
 ---
 
 
-###getCropLeft{#getCropLeft}
+### getCropLeft {#getCropLeft}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ float
 ---
 
 
-###getCropRight{#getCropRight}
+### getCropRight {#getCropRight}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ float
 ---
 
 
-###getCropTop{#getCropTop}
+### getCropTop {#getCropTop}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ float
 ---
 
 
-###getDpi{#getDpi}
+### getDpi {#getDpi}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ int
 ---
 
 
-###getPicture{#getPicture}
+### getPicture {#getPicture}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getPictureFillMode{#getPictureFillMode}
+### getPictureFillMode {#getPictureFillMode}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ int
 ---
 
 
-###getStretchOffsetBottom{#getStretchOffsetBottom}
+### getStretchOffsetBottom {#getStretchOffsetBottom}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ float
 ---
 
 
-###getStretchOffsetLeft{#getStretchOffsetLeft}
+### getStretchOffsetLeft {#getStretchOffsetLeft}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ float
 ---
 
 
-###getStretchOffsetRight{#getStretchOffsetRight}
+### getStretchOffsetRight {#getStretchOffsetRight}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ float
 ---
 
 
-###getStretchOffsetTop{#getStretchOffsetTop}
+### getStretchOffsetTop {#getStretchOffsetTop}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ float
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ long
 ---
 
 
-###setCropBottom{#setCropBottom}
+### setCropBottom {#setCropBottom}
 
 | Name | Description |
 | --- | --- |
@@ -177,7 +177,7 @@ long
 ---
 
 
-###setCropLeft{#setCropLeft}
+### setCropLeft {#setCropLeft}
 
 | Name | Description |
 | --- | --- |
@@ -187,7 +187,7 @@ long
 ---
 
 
-###setCropRight{#setCropRight}
+### setCropRight {#setCropRight}
 
 | Name | Description |
 | --- | --- |
@@ -197,7 +197,7 @@ long
 ---
 
 
-###setCropTop{#setCropTop}
+### setCropTop {#setCropTop}
 
 | Name | Description |
 | --- | --- |
@@ -207,7 +207,7 @@ long
 ---
 
 
-###setDpi{#setDpi}
+### setDpi {#setDpi}
 
 | Name | Description |
 | --- | --- |
@@ -217,7 +217,7 @@ long
 ---
 
 
-###setPictureFillMode{#setPictureFillMode}
+### setPictureFillMode {#setPictureFillMode}
 
 | Name | Description |
 | --- | --- |
@@ -227,7 +227,7 @@ long
 ---
 
 
-###setStretchOffsetBottom{#setStretchOffsetBottom}
+### setStretchOffsetBottom {#setStretchOffsetBottom}
 
 | Name | Description |
 | --- | --- |
@@ -237,7 +237,7 @@ long
 ---
 
 
-###setStretchOffsetLeft{#setStretchOffsetLeft}
+### setStretchOffsetLeft {#setStretchOffsetLeft}
 
 | Name | Description |
 | --- | --- |
@@ -247,7 +247,7 @@ long
 ---
 
 
-###setStretchOffsetRight{#setStretchOffsetRight}
+### setStretchOffsetRight {#setStretchOffsetRight}
 
 | Name | Description |
 | --- | --- |
@@ -257,7 +257,7 @@ long
 ---
 
 
-###setStretchOffsetTop{#setStretchOffsetTop}
+### setStretchOffsetTop {#setStretchOffsetTop}
 
 | Name | Description |
 | --- | --- |

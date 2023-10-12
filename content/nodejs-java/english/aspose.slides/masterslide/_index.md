@@ -11,13 +11,13 @@ url: /aspose.slides/masterslide/
 
  Represents a master slide in a presentation.
  
-###applyExternalThemeToDependingSlides{#applyExternalThemeToDependingSlides}
+### applyExternalThemeToDependingSlides {#applyExternalThemeToDependingSlides}
 
 | Name | Description |
 | --- | --- |
 | applyExternalThemeToDependingSlides (String) | Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ url: /aspose.slides/masterslide/
 ---
 
 
-###getBodyStyle{#getBodyStyle}
+### getBodyStyle {#getBodyStyle}
 
 | Name | Description |
 | --- | --- |
@@ -49,7 +49,7 @@ url: /aspose.slides/masterslide/
 ---
 
 
-###getDependingSlides{#getDependingSlides}
+### getDependingSlides {#getDependingSlides}
 
 | Name | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ url: /aspose.slides/masterslide/
 ---
 
 
-###getHeaderFooterManager{#getHeaderFooterManager}
+### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
@@ -75,7 +75,7 @@ url: /aspose.slides/masterslide/
 ---
 
 
-###getLayoutSlides{#getLayoutSlides}
+### getLayoutSlides {#getLayoutSlides}
 
 | Name | Description |
 | --- | --- |
@@ -88,7 +88,7 @@ url: /aspose.slides/masterslide/
 ---
 
 
-###getName{#getName}
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
@@ -101,7 +101,7 @@ String
 ---
 
 
-###getOtherStyle{#getOtherStyle}
+### getOtherStyle {#getOtherStyle}
 
 | Name | Description |
 | --- | --- |
@@ -114,7 +114,7 @@ String
 ---
 
 
-###getPreserve{#getPreserve}
+### getPreserve {#getPreserve}
 
 | Name | Description |
 | --- | --- |
@@ -127,7 +127,7 @@ boolean
 ---
 
 
-###getShowMasterShapes{#getShowMasterShapes}
+### getShowMasterShapes {#getShowMasterShapes}
 
 | Name | Description |
 | --- | --- |
@@ -146,7 +146,7 @@ boolean
 ---
 
 
-###getThemeManager{#getThemeManager}
+### getThemeManager {#getThemeManager}
 
 | Name | Description |
 | --- | --- |
@@ -159,7 +159,7 @@ boolean
 ---
 
 
-###getTitleStyle{#getTitleStyle}
+### getTitleStyle {#getTitleStyle}
 
 | Name | Description |
 | --- | --- |
@@ -172,7 +172,7 @@ boolean
 ---
 
 
-###hasDependingSlides{#hasDependingSlides}
+### hasDependingSlides {#hasDependingSlides}
 
 | Name | Description |
 | --- | --- |
@@ -185,7 +185,7 @@ boolean
 ---
 
 
-###setName{#setName}
+### setName {#setName}
 
 | Name | Description |
 | --- | --- |
@@ -195,7 +195,7 @@ boolean
 ---
 
 
-###setPreserve{#setPreserve}
+### setPreserve {#setPreserve}
 
 | Name | Description |
 | --- | --- |
@@ -205,7 +205,7 @@ boolean
 ---
 
 
-###setShowMasterShapes{#setShowMasterShapes}
+### setShowMasterShapes {#setShowMasterShapes}
 
 | Name | Description |
 | --- | --- |

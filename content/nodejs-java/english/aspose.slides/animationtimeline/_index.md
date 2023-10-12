@@ -11,7 +11,7 @@ url: /aspose.slides/animationtimeline/
 
  Represents timeline of animation.
  
-###getInteractiveSequences{#getInteractiveSequences}
+### getInteractiveSequences {#getInteractiveSequences}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/animationtimeline/
 ---
 
 
-###getMainSequence{#getMainSequence}
+### getMainSequence {#getMainSequence}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/animationtimeline/
 ---
 
 
-###getTextAnimationCollection{#getTextAnimationCollection}
+### getTextAnimationCollection {#getTextAnimationCollection}
 
 | Name | Description |
 | --- | --- |

@@ -13,13 +13,13 @@ url: /aspose.slides/globallayoutslidecollection/
  Extends LayoutSlideCollection class with methods for adding/cloning 
  layout slides in context of uniting of the individual collections of master's layout slides.
  
-###add{#add}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
 | add ([MasterSlide](../masterslide), byte, String) | Adds a new layout slide to the presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -40,13 +40,13 @@ url: /aspose.slides/globallayoutslidecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([LayoutSlide](../layoutslide)) | Adds a copy of a specified layout slide to the presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -59,13 +59,13 @@ url: /aspose.slides/globallayoutslidecollection/
 ---
 
 
-###addClone{#addClone}
+### addClone {#addClone}
 
 | Name | Description |
 | --- | --- |
 | addClone ([LayoutSlide](../layoutslide), [MasterSlide](../masterslide)) | Adds a copy of a specified layout slide to the presentation. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

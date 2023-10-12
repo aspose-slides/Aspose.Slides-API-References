@@ -11,7 +11,7 @@ url: /aspose.slides/html5options/
 
  Represents a HTML5 exporting options.
  
-###Html5Options{#Html5Options}
+### Html5Options {#Html5Options}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ Html5Options
 ---
 
 
-###getAnimateShapes{#getAnimateShapes}
+### getAnimateShapes {#getAnimateShapes}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-###getAnimateTransitions{#getAnimateTransitions}
+### getAnimateTransitions {#getAnimateTransitions}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ boolean
 ---
 
 
-###getEmbedImages{#getEmbedImages}
+### getEmbedImages {#getEmbedImages}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ boolean
 ---
 
 
-###getOutputPath{#getOutputPath}
+### getOutputPath {#getOutputPath}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 ---
 
 
-###setAnimateShapes{#setAnimateShapes}
+### setAnimateShapes {#setAnimateShapes}
 
 | Name | Description |
 | --- | --- |
@@ -86,7 +86,7 @@ String
 ---
 
 
-###setAnimateTransitions{#setAnimateTransitions}
+### setAnimateTransitions {#setAnimateTransitions}
 
 | Name | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ String
 ---
 
 
-###setEmbedImages{#setEmbedImages}
+### setEmbedImages {#setEmbedImages}
 
 | Name | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ String
 ---
 
 
-###setOutputPath{#setOutputPath}
+### setOutputPath {#setOutputPath}
 
 | Name | Description |
 | --- | --- |

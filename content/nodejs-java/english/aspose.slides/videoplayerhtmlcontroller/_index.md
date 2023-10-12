@@ -11,13 +11,13 @@ url: /aspose.slides/videoplayerhtmlcontroller/
 
  This class allows export of video and audio files into a HTML
  
-###VideoPlayerHtmlController{#VideoPlayerHtmlController}
+### VideoPlayerHtmlController {#VideoPlayerHtmlController}
 
 | Name | Description |
 | --- | --- |
 | VideoPlayerHtmlController(String, String, String) | Creates a new instance of controller |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -42,7 +42,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -52,7 +52,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -72,7 +72,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -92,7 +92,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -112,7 +112,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -122,7 +122,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -132,7 +132,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -142,7 +142,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -152,7 +152,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -162,7 +162,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -172,7 +172,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -182,7 +182,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -192,7 +192,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -202,7 +202,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -222,7 +222,7 @@ VideoPlayerHtmlController
 ---
 
 
-###formatShape{#formatShape}
+### formatShape {#formatShape}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ VideoPlayerHtmlController
 ---
 
 
-###getObjectStoringLocation{#getObjectStoringLocation}
+### getObjectStoringLocation {#getObjectStoringLocation}
 
 | Name | Description |
 | --- | --- |
@@ -245,7 +245,7 @@ int
 ---
 
 
-###getUrl{#getUrl}
+### getUrl {#getUrl}
 
 | Name | Description |
 | --- | --- |
@@ -258,7 +258,7 @@ String
 ---
 
 
-###saveExternal{#saveExternal}
+### saveExternal {#saveExternal}
 
 | Name | Description |
 | --- | --- |
@@ -268,7 +268,7 @@ String
 ---
 
 
-###writeDocumentEnd{#writeDocumentEnd}
+### writeDocumentEnd {#writeDocumentEnd}
 
 | Name | Description |
 | --- | --- |
@@ -278,7 +278,7 @@ String
 ---
 
 
-###writeDocumentStart{#writeDocumentStart}
+### writeDocumentStart {#writeDocumentStart}
 
 | Name | Description |
 | --- | --- |
@@ -288,7 +288,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -298,7 +298,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -308,7 +308,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -318,7 +318,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -328,7 +328,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -338,7 +338,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -348,7 +348,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -358,7 +358,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -368,7 +368,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -378,7 +378,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -388,7 +388,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -398,7 +398,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -408,7 +408,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -418,7 +418,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -428,7 +428,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -438,7 +438,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -448,7 +448,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -458,7 +458,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -468,7 +468,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -478,7 +478,7 @@ String
 ---
 
 
-###writeShapeEnd{#writeShapeEnd}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
@@ -488,7 +488,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -498,7 +498,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -508,7 +508,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -518,7 +518,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -528,7 +528,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -538,7 +538,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -548,7 +548,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -558,7 +558,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -568,7 +568,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -578,7 +578,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -588,7 +588,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -598,7 +598,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -608,7 +608,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -618,7 +618,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -628,7 +628,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -638,7 +638,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -648,7 +648,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -658,7 +658,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -668,7 +668,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -678,7 +678,7 @@ String
 ---
 
 
-###writeShapeStart{#writeShapeStart}
+### writeShapeStart {#writeShapeStart}
 
 | Name | Description |
 | --- | --- |
@@ -688,7 +688,7 @@ String
 ---
 
 
-###writeSlideEnd{#writeSlideEnd}
+### writeSlideEnd {#writeSlideEnd}
 
 | Name | Description |
 | --- | --- |
@@ -698,7 +698,7 @@ String
 ---
 
 
-###writeSlideStart{#writeSlideStart}
+### writeSlideStart {#writeSlideStart}
 
 | Name | Description |
 | --- | --- |

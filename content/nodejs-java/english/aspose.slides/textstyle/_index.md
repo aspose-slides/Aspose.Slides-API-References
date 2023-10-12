@@ -11,7 +11,7 @@ url: /aspose.slides/textstyle/
 
  This class contains the text style formatting properties.
  
-###getDefaultParagraphFormat{#getDefaultParagraphFormat}
+### getDefaultParagraphFormat {#getDefaultParagraphFormat}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/textstyle/
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -37,13 +37,13 @@ TextStyleEffectiveData
 ---
 
 
-###getLevel{#getLevel}
+### getLevel {#getLevel}
 
 | Name | Description |
 | --- | --- |
 | getLevel (int) | If level of style exist returns it, otherwise returns null. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -56,7 +56,7 @@ TextStyleEffectiveData
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |

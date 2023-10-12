@@ -11,7 +11,7 @@ url: /aspose.slides/convert/
 
  Represents a group of methods intended to convert  Presentation.
  
-###Convert{#Convert}
+### Convert {#Convert}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ Convert
 ---
 
 
-###autoByExtension{#autoByExtension}
+### autoByExtension {#autoByExtension}
 
 | Name | Description |
 | --- | --- |
 | autoByExtension (String, String) | Converts Presentation using the passed output path extension to determine the required export format. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -47,13 +47,13 @@ Convert
 ---
 
 
-###toPdf{#toPdf}
+### toPdf {#toPdf}
 
 | Name | Description |
 | --- | --- |
 | toPdf (String, String) | Converts Presentation to PDF. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -64,13 +64,13 @@ Convert
 ---
 
 
-###toPdf{#toPdf}
+### toPdf {#toPdf}
 
 | Name | Description |
 | --- | --- |
 | toPdf (String, String, [PdfOptions](../pdfoptions)) | Converts Presentation to PDF. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -82,13 +82,13 @@ Convert
 ---
 
 
-###toPdf{#toPdf}
+### toPdf {#toPdf}
 
 | Name | Description |
 | --- | --- |
 | toPdf ([Presentation](../presentation), String) | Converts Presentation to PDF. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -99,13 +99,13 @@ Convert
 ---
 
 
-###toPdf{#toPdf}
+### toPdf {#toPdf}
 
 | Name | Description |
 | --- | --- |
 | toPdf ([Presentation](../presentation), String, [PdfOptions](../pdfoptions)) | Converts Presentation to PDF. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -117,13 +117,13 @@ Convert
 ---
 
 
-###toSvg{#toSvg}
+### toSvg {#toSvg}
 
 | Name | Description |
 | --- | --- |
 | toSvg (String) | Converts Presentation to SVG. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -133,13 +133,13 @@ Convert
 ---
 
 
-###toSvg{#toSvg}
+### toSvg {#toSvg}
 
 | Name | Description |
 | --- | --- |
 | toSvg (String, [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -150,13 +150,13 @@ Convert
 ---
 
 
-###toSvg{#toSvg}
+### toSvg {#toSvg}
 
 | Name | Description |
 | --- | --- |
 | toSvg ([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -167,13 +167,13 @@ Convert
 ---
 
 
-###toSvg{#toSvg}
+### toSvg {#toSvg}
 
 | Name | Description |
 | --- | --- |
 | toSvg ([Presentation](../presentation), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -184,13 +184,13 @@ Convert
 ---
 
 
-###toSvg{#toSvg}
+### toSvg {#toSvg}
 
 | Name | Description |
 | --- | --- |
 | toSvg ([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

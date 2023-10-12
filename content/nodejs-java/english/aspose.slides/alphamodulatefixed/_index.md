@@ -12,13 +12,13 @@ url: /aspose.slides/alphamodulatefixed/
  Represents an Alpha Modulate Fixed effect.
  Effect alpha (opacity) values are multiplied by a fixed percentage.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified AlphaModulateFixed is equal to the current AlphaModulateFixed. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ boolean
 ---
 
 
-###getAmount{#getAmount}
+### getAmount {#getAmount}
 
 | Name | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ float
 ---
 
 
-###getEffective{#getEffective}
+### getEffective {#getEffective}
 
 | Name | Description |
 | --- | --- |
@@ -57,7 +57,7 @@ AlphaModulateFixedEffectiveData
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |
@@ -70,7 +70,7 @@ int
 ---
 
 
-###setAmount{#setAmount}
+### setAmount {#setAmount}
 
 | Name | Description |
 | --- | --- |

@@ -11,7 +11,7 @@ url: /aspose.slides/summaryzoomsection/
 
  Represents a Summary Zoom Section object in a Summary Zoom frame.
  
-###getDescription{#getDescription}
+### getDescription {#getDescription}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ String
 ---
 
 
-###getTitle{#getTitle}
+### getTitle {#getTitle}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ String
 ---
 
 
-###setDescription{#setDescription}
+### setDescription {#setDescription}
 
 | Name | Description |
 | --- | --- |
@@ -47,7 +47,7 @@ String
 ---
 
 
-###setTitle{#setTitle}
+### setTitle {#setTitle}
 
 | Name | Description |
 | --- | --- |

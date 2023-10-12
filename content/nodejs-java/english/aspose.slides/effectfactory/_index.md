@@ -13,7 +13,7 @@ url: /aspose.slides/effectfactory/
  
  For COM compatibility.
  
-###EffectFactory{#EffectFactory}
+### EffectFactory {#EffectFactory}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ EffectFactory
 ---
 
 
-###createGlow{#createGlow}
+### createGlow {#createGlow}
 
 | Name | Description |
 | --- | --- |
@@ -39,7 +39,7 @@ EffectFactory
 ---
 
 
-###createInnerShadow{#createInnerShadow}
+### createInnerShadow {#createInnerShadow}
 
 | Name | Description |
 | --- | --- |
@@ -52,7 +52,7 @@ EffectFactory
 ---
 
 
-###createOuterShadow{#createOuterShadow}
+### createOuterShadow {#createOuterShadow}
 
 | Name | Description |
 | --- | --- |
@@ -65,7 +65,7 @@ EffectFactory
 ---
 
 
-###createPresetShadow{#createPresetShadow}
+### createPresetShadow {#createPresetShadow}
 
 | Name | Description |
 | --- | --- |
@@ -78,7 +78,7 @@ EffectFactory
 ---
 
 
-###createReflection{#createReflection}
+### createReflection {#createReflection}
 
 | Name | Description |
 | --- | --- |
@@ -91,7 +91,7 @@ EffectFactory
 ---
 
 
-###createSoftEdge{#createSoftEdge}
+### createSoftEdge {#createSoftEdge}
 
 | Name | Description |
 | --- | --- |
@@ -104,7 +104,7 @@ EffectFactory
 ---
 
 
-###getImageTransformOperationFactory{#getImageTransformOperationFactory}
+### getImageTransformOperationFactory {#getImageTransformOperationFactory}
 
 | Name | Description |
 | --- | --- |

@@ -11,13 +11,13 @@ url: /aspose.slides/protectionmanager/
 
  Presentation password protection management.
  
-###checkWriteProtection{#checkWriteProtection}
+### checkWriteProtection {#checkWriteProtection}
 
 | Name | Description |
 | --- | --- |
 | checkWriteProtection (String) | Determines whether a presentation is a password protected to modify. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +30,13 @@ boolean
 ---
 
 
-###encrypt{#encrypt}
+### encrypt {#encrypt}
 
 | Name | Description |
 | --- | --- |
 | encrypt (String) | Encrypts Presentation with specified password. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -46,7 +46,7 @@ boolean
 ---
 
 
-###getEncryptDocumentProperties{#getEncryptDocumentProperties}
+### getEncryptDocumentProperties {#getEncryptDocumentProperties}
 
 | Name | Description |
 | --- | --- |
@@ -59,7 +59,7 @@ boolean
 ---
 
 
-###getEncryptionPassword{#getEncryptionPassword}
+### getEncryptionPassword {#getEncryptionPassword}
 
 | Name | Description |
 | --- | --- |
@@ -72,7 +72,7 @@ String
 ---
 
 
-###getReadOnlyRecommended{#getReadOnlyRecommended}
+### getReadOnlyRecommended {#getReadOnlyRecommended}
 
 | Name | Description |
 | --- | --- |
@@ -85,7 +85,7 @@ boolean
 ---
 
 
-###isEncrypted{#isEncrypted}
+### isEncrypted {#isEncrypted}
 
 | Name | Description |
 | --- | --- |
@@ -98,7 +98,7 @@ boolean
 ---
 
 
-###isOnlyDocumentPropertiesLoaded{#isOnlyDocumentPropertiesLoaded}
+### isOnlyDocumentPropertiesLoaded {#isOnlyDocumentPropertiesLoaded}
 
 | Name | Description |
 | --- | --- |
@@ -111,7 +111,7 @@ boolean
 ---
 
 
-###isWriteProtected{#isWriteProtected}
+### isWriteProtected {#isWriteProtected}
 
 | Name | Description |
 | --- | --- |
@@ -124,7 +124,7 @@ boolean
 ---
 
 
-###removeEncryption{#removeEncryption}
+### removeEncryption {#removeEncryption}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ boolean
 ---
 
 
-###removeWriteProtection{#removeWriteProtection}
+### removeWriteProtection {#removeWriteProtection}
 
 | Name | Description |
 | --- | --- |
@@ -144,7 +144,7 @@ boolean
 ---
 
 
-###setEncryptDocumentProperties{#setEncryptDocumentProperties}
+### setEncryptDocumentProperties {#setEncryptDocumentProperties}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ boolean
 ---
 
 
-###setReadOnlyRecommended{#setReadOnlyRecommended}
+### setReadOnlyRecommended {#setReadOnlyRecommended}
 
 | Name | Description |
 | --- | --- |
@@ -164,13 +164,13 @@ boolean
 ---
 
 
-###setWriteProtection{#setWriteProtection}
+### setWriteProtection {#setWriteProtection}
 
 | Name | Description |
 | --- | --- |
 | setWriteProtection (String) | Set write protection for this presentation with specified password. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

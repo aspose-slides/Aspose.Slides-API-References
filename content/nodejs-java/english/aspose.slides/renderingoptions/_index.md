@@ -11,7 +11,7 @@ url: /aspose.slides/renderingoptions/
 
  Provides options that control how a presentation/slide is rendered.
  
-###RenderingOptions{#RenderingOptions}
+### RenderingOptions {#RenderingOptions}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ RenderingOptions
 ---
 
 
-###getNotesCommentsLayouting{#getNotesCommentsLayouting}
+### getNotesCommentsLayouting {#getNotesCommentsLayouting}
 
 | Name | Description |
 | --- | --- |

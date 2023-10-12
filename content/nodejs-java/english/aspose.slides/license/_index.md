@@ -15,7 +15,7 @@ Provides methods to license the component.
  in the folder of the entry assembly and then in the embedded resources of the calling assembly.
  
  
-###License{#License}
+### License {#License}
 
 | Name | Description |
 | --- | --- |
@@ -28,7 +28,7 @@ License
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
@@ -41,7 +41,7 @@ String
 ---
 
 
-###isLicensed{#isLicensed}
+### isLicensed {#isLicensed}
 
 | Name | Description |
 | --- | --- |
@@ -54,7 +54,7 @@ boolean
 ---
 
 
-###resetLicense{#resetLicense}
+### resetLicense {#resetLicense}
 
 | Name | Description |
 | --- | --- |
@@ -64,13 +64,13 @@ boolean
 ---
 
 
-###setLicenseFromStream {#setLicenseFromStream }
+### setLicenseFromStream  {#setLicenseFromStream }
 
 | Name | Description |
 | --- | --- |
 | setLicenseFromStream  (License, ReadStream, Function) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -82,13 +82,13 @@ boolean
 ---
 
 
-###setLicense{#setLicense}
+### setLicense {#setLicense}
 
 | Name | Description |
 | --- | --- |
 | setLicense (String) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

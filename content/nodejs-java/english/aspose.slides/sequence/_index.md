@@ -11,13 +11,13 @@ url: /aspose.slides/sequence/
 
  Represents sequence (collection of effects).
  
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([LegacyDiagram](../legacydiagram), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -33,13 +33,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([Connector](../connector), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -55,13 +55,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([GraphicalObject](../graphicalobject), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -77,13 +77,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([Shape](../shape), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -99,13 +99,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([Ink](../ink), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -121,13 +121,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([GroupShape](../groupshape), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -143,13 +143,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([SmartArtShape](../smartartshape), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -165,13 +165,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([SummaryZoomSection](../summaryzoomsection), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -187,13 +187,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([ZoomObject](../zoomobject), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -209,13 +209,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([SmartArt](../smartart), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -231,13 +231,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([VideoFrame](../videoframe), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -253,13 +253,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([PictureFrame](../pictureframe), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -275,13 +275,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([ZoomFrame](../zoomframe), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -297,13 +297,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([AutoShape](../autoshape), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -319,13 +319,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([OleObjectFrame](../oleobjectframe), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -341,13 +341,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([SectionZoomFrame](../sectionzoomframe), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -363,13 +363,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([AudioFrame](../audioframe), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -385,13 +385,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([Chart](../chart), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -407,13 +407,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([Table](../table), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -429,13 +429,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([SummaryZoomFrame](../summaryzoomframe), int, int, int) | Add new effect to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -451,13 +451,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([Paragraph](../paragraph), int, int, int) | Add new animation effect for paragraph to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -473,13 +473,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([Chart](../chart), int, int, int, int, int) | Adds the new chart animation effect for category or series to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -497,13 +497,13 @@ url: /aspose.slides/sequence/
 ---
 
 
-###addEffect{#addEffect}
+### addEffect {#addEffect}
 
 | Name | Description |
 | --- | --- |
 | addEffect ([Chart](../chart), int, int, int, int, int, int) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -522,7 +522,7 @@ url: /aspose.slides/sequence/
 ---
 
 
-###clear{#clear}
+### clear {#clear}
 
 | Name | Description |
 | --- | --- |
@@ -532,7 +532,7 @@ url: /aspose.slides/sequence/
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -545,7 +545,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -558,7 +558,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -571,7 +571,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -584,7 +584,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -597,7 +597,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -610,7 +610,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -623,7 +623,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -636,7 +636,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -649,7 +649,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -662,7 +662,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -675,7 +675,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -688,7 +688,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -701,7 +701,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -714,7 +714,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -727,7 +727,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -740,7 +740,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -753,7 +753,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -766,7 +766,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -779,7 +779,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -792,7 +792,7 @@ int
 ---
 
 
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -805,7 +805,7 @@ int
 ---
 
 
-###getEffectsByParagraph{#getEffectsByParagraph}
+### getEffectsByParagraph {#getEffectsByParagraph}
 
 | Name | Description |
 | --- | --- |
@@ -818,7 +818,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -831,7 +831,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -844,7 +844,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -857,7 +857,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -870,7 +870,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -883,7 +883,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -896,7 +896,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -909,7 +909,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -922,7 +922,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -935,7 +935,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -948,7 +948,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -961,7 +961,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -974,7 +974,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -987,7 +987,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1000,7 +1000,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1013,7 +1013,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1026,7 +1026,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1039,7 +1039,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1052,7 +1052,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1065,7 +1065,7 @@ int
 ---
 
 
-###getEffectsByShape{#getEffectsByShape}
+### getEffectsByShape {#getEffectsByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1078,7 +1078,7 @@ int
 ---
 
 
-###getTriggerShape{#getTriggerShape}
+### getTriggerShape {#getTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1091,13 +1091,13 @@ int
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns an effect at the specified index. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1110,7 +1110,7 @@ int
 ---
 
 
-###iterator{#iterator}
+### iterator {#iterator}
 
 | Name | Description |
 | --- | --- |
@@ -1123,7 +1123,7 @@ int
 ---
 
 
-###iteratorJava{#iteratorJava}
+### iteratorJava {#iteratorJava}
 
 | Name | Description |
 | --- | --- |
@@ -1136,13 +1136,13 @@ int
 ---
 
 
-###remove{#remove}
+### remove {#remove}
 
 | Name | Description |
 | --- | --- |
 | remove ([Effect](../effect)) | Removes specified effect from a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1152,13 +1152,13 @@ int
 ---
 
 
-###removeAt{#removeAt}
+### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes an effect from a collection. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1168,7 +1168,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1178,7 +1178,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1188,7 +1188,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1198,7 +1198,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1208,7 +1208,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1218,7 +1218,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1228,7 +1228,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1238,7 +1238,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1248,7 +1248,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1258,7 +1258,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1268,7 +1268,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1278,7 +1278,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1288,7 +1288,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1298,7 +1298,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1308,7 +1308,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1318,7 +1318,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1328,7 +1328,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1338,7 +1338,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1348,7 +1348,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1358,7 +1358,7 @@ int
 ---
 
 
-###removeByShape{#removeByShape}
+### removeByShape {#removeByShape}
 
 | Name | Description |
 | --- | --- |
@@ -1368,7 +1368,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1378,7 +1378,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1388,7 +1388,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1398,7 +1398,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1408,7 +1408,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1418,7 +1418,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1428,7 +1428,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1438,7 +1438,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1448,7 +1448,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1458,7 +1458,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1468,7 +1468,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1478,7 +1478,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1488,7 +1488,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1498,7 +1498,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1508,7 +1508,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1518,7 +1518,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1528,7 +1528,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1538,7 +1538,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1548,7 +1548,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |
@@ -1558,7 +1558,7 @@ int
 ---
 
 
-###setTriggerShape{#setTriggerShape}
+### setTriggerShape {#setTriggerShape}
 
 | Name | Description |
 | --- | --- |

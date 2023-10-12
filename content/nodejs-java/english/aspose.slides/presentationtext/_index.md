@@ -11,7 +11,7 @@ url: /aspose.slides/presentationtext/
 
  Represents the text extracted from the presentation
  
-###getSlidesText{#getSlidesText}
+### getSlidesText {#getSlidesText}
 
 | Name | Description |
 | --- | --- |

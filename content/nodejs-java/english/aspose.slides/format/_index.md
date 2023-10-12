@@ -11,7 +11,7 @@ url: /aspose.slides/format/
 
  Represents chart format properties.
  
-###getEffect{#getEffect}
+### getEffect {#getEffect}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ url: /aspose.slides/format/
 ---
 
 
-###getEffect3D{#getEffect3D}
+### getEffect3D {#getEffect3D}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ url: /aspose.slides/format/
 ---
 
 
-###getFill{#getFill}
+### getFill {#getFill}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ url: /aspose.slides/format/
 ---
 
 
-###getLine{#getLine}
+### getLine {#getLine}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ url: /aspose.slides/format/
 ---
 
 
-###getVersion{#getVersion}
+### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |

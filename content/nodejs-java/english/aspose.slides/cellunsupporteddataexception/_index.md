@@ -11,7 +11,7 @@ url: /aspose.slides/cellunsupporteddataexception/
 
  The exception that is thrown when an unsupported data is encountered in a spreadsheet cell.
  
-###CellUnsupportedDataException{#CellUnsupportedDataException}
+### CellUnsupportedDataException {#CellUnsupportedDataException}
 
 | Name | Description |
 | --- | --- |
@@ -24,13 +24,13 @@ CellUnsupportedDataException
 ---
 
 
-###CellUnsupportedDataException{#CellUnsupportedDataException}
+### CellUnsupportedDataException {#CellUnsupportedDataException}
 
 | Name | Description |
 | --- | --- |
 | CellUnsupportedDataException(String) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -43,13 +43,13 @@ CellUnsupportedDataException
 ---
 
 
-###CellUnsupportedDataException{#CellUnsupportedDataException}
+### CellUnsupportedDataException {#CellUnsupportedDataException}
 
 | Name | Description |
 | --- | --- |
 | CellUnsupportedDataException(String, RuntimeException) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

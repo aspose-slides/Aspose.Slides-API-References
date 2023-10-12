@@ -11,7 +11,7 @@ url: /aspose.slides/portion/
 
  Represents a portion of text inside a text paragraph.
  
-###Portion{#Portion}
+### Portion {#Portion}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ Portion
 ---
 
 
-###Portion{#Portion}
+### Portion {#Portion}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Portion
 ---
 
 
-###Portion{#Portion}
+### Portion {#Portion}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ Portion
 ---
 
 
-###addField{#addField}
+### addField {#addField}
 
 | Name | Description |
 | --- | --- |
@@ -60,13 +60,13 @@ Portion
 ---
 
 
-###addField{#addField}
+### addField {#addField}
 
 | Name | Description |
 | --- | --- |
 | addField (String) | Converts this portion to the automaticaly updated field. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ Portion
 ---
 
 
-###getCoordinates{#getCoordinates}
+### getCoordinates {#getCoordinates}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ Point2D.Float
 ---
 
 
-###getField{#getField}
+### getField {#getField}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ Point2D.Float
 ---
 
 
-###getPortionFormat{#getPortionFormat}
+### getPortionFormat {#getPortionFormat}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ Point2D.Float
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ Point2D.Float
 ---
 
 
-###getRect{#getRect}
+### getRect {#getRect}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ Rectangle2D.Float
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ Rectangle2D.Float
 ---
 
 
-###getText{#getText}
+### getText {#getText}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ String
 ---
 
 
-###removeField{#removeField}
+### removeField {#removeField}
 
 | Name | Description |
 | --- | --- |
@@ -177,7 +177,7 @@ String
 ---
 
 
-###setText{#setText}
+### setText {#setText}
 
 | Name | Description |
 | --- | --- |

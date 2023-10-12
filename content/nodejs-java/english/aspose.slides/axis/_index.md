@@ -11,7 +11,7 @@ url: /aspose.slides/axis/
 
  Encapsulates the object that represents a chart's axis.
  
-###getActualMajorUnit{#getActualMajorUnit}
+### getActualMajorUnit {#getActualMajorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ double
 ---
 
 
-###getActualMajorUnitScale{#getActualMajorUnitScale}
+### getActualMajorUnitScale {#getActualMajorUnitScale}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ int
 ---
 
 
-###getActualMaxValue{#getActualMaxValue}
+### getActualMaxValue {#getActualMaxValue}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ double
 ---
 
 
-###getActualMinValue{#getActualMinValue}
+### getActualMinValue {#getActualMinValue}
 
 | Name | Description |
 | --- | --- |
@@ -63,7 +63,7 @@ double
 ---
 
 
-###getActualMinorUnit{#getActualMinorUnit}
+### getActualMinorUnit {#getActualMinorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ double
 ---
 
 
-###getActualMinorUnitScale{#getActualMinorUnitScale}
+### getActualMinorUnitScale {#getActualMinorUnitScale}
 
 | Name | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ int
 ---
 
 
-###getAggregationType{#getAggregationType}
+### getAggregationType {#getAggregationType}
 
 | Name | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ int
 ---
 
 
-###getAxisBetweenCategories{#getAxisBetweenCategories}
+### getAxisBetweenCategories {#getAxisBetweenCategories}
 
 | Name | Description |
 | --- | --- |
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-###getBaseUnitScale{#getBaseUnitScale}
+### getBaseUnitScale {#getBaseUnitScale}
 
 | Name | Description |
 | --- | --- |
@@ -128,7 +128,7 @@ int
 ---
 
 
-###getBinWidth{#getBinWidth}
+### getBinWidth {#getBinWidth}
 
 | Name | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ double
 ---
 
 
-###getCategoryAxisType{#getCategoryAxisType}
+### getCategoryAxisType {#getCategoryAxisType}
 
 | Name | Description |
 | --- | --- |
@@ -154,7 +154,7 @@ int
 ---
 
 
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -167,7 +167,7 @@ int
 ---
 
 
-###getCrossAt{#getCrossAt}
+### getCrossAt {#getCrossAt}
 
 | Name | Description |
 | --- | --- |
@@ -180,7 +180,7 @@ float
 ---
 
 
-###getCrossType{#getCrossType}
+### getCrossType {#getCrossType}
 
 | Name | Description |
 | --- | --- |
@@ -193,7 +193,7 @@ int
 ---
 
 
-###getDisplayUnit{#getDisplayUnit}
+### getDisplayUnit {#getDisplayUnit}
 
 | Name | Description |
 | --- | --- |
@@ -206,7 +206,7 @@ int
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -219,7 +219,7 @@ int
 ---
 
 
-###getLabelOffset{#getLabelOffset}
+### getLabelOffset {#getLabelOffset}
 
 | Name | Description |
 | --- | --- |
@@ -232,7 +232,7 @@ int
 ---
 
 
-###getLogBase{#getLogBase}
+### getLogBase {#getLogBase}
 
 | Name | Description |
 | --- | --- |
@@ -245,7 +245,7 @@ double
 ---
 
 
-###getMajorGridLinesFormat{#getMajorGridLinesFormat}
+### getMajorGridLinesFormat {#getMajorGridLinesFormat}
 
 | Name | Description |
 | --- | --- |
@@ -258,7 +258,7 @@ double
 ---
 
 
-###getMajorTickMark{#getMajorTickMark}
+### getMajorTickMark {#getMajorTickMark}
 
 | Name | Description |
 | --- | --- |
@@ -271,7 +271,7 @@ int
 ---
 
 
-###getMajorUnit{#getMajorUnit}
+### getMajorUnit {#getMajorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -284,7 +284,7 @@ double
 ---
 
 
-###getMajorUnitScale{#getMajorUnitScale}
+### getMajorUnitScale {#getMajorUnitScale}
 
 | Name | Description |
 | --- | --- |
@@ -297,7 +297,7 @@ int
 ---
 
 
-###getMaxValue{#getMaxValue}
+### getMaxValue {#getMaxValue}
 
 | Name | Description |
 | --- | --- |
@@ -310,7 +310,7 @@ double
 ---
 
 
-###getMinValue{#getMinValue}
+### getMinValue {#getMinValue}
 
 | Name | Description |
 | --- | --- |
@@ -323,7 +323,7 @@ double
 ---
 
 
-###getMinorGridLinesFormat{#getMinorGridLinesFormat}
+### getMinorGridLinesFormat {#getMinorGridLinesFormat}
 
 | Name | Description |
 | --- | --- |
@@ -336,7 +336,7 @@ double
 ---
 
 
-###getMinorTickMark{#getMinorTickMark}
+### getMinorTickMark {#getMinorTickMark}
 
 | Name | Description |
 | --- | --- |
@@ -349,7 +349,7 @@ int
 ---
 
 
-###getMinorUnit{#getMinorUnit}
+### getMinorUnit {#getMinorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -362,7 +362,7 @@ double
 ---
 
 
-###getMinorUnitScale{#getMinorUnitScale}
+### getMinorUnitScale {#getMinorUnitScale}
 
 | Name | Description |
 | --- | --- |
@@ -375,7 +375,7 @@ int
 ---
 
 
-###getNumberFormat{#getNumberFormat}
+### getNumberFormat {#getNumberFormat}
 
 | Name | Description |
 | --- | --- |
@@ -388,7 +388,7 @@ String
 ---
 
 
-###getNumberOfBins{#getNumberOfBins}
+### getNumberOfBins {#getNumberOfBins}
 
 | Name | Description |
 | --- | --- |
@@ -401,7 +401,7 @@ long
 ---
 
 
-###getOverflowBin{#getOverflowBin}
+### getOverflowBin {#getOverflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -414,7 +414,7 @@ double
 ---
 
 
-###getPosition{#getPosition}
+### getPosition {#getPosition}
 
 | Name | Description |
 | --- | --- |
@@ -427,7 +427,7 @@ int
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -440,7 +440,7 @@ int
 ---
 
 
-###getShowMajorGridLines{#getShowMajorGridLines}
+### getShowMajorGridLines {#getShowMajorGridLines}
 
 | Name | Description |
 | --- | --- |
@@ -453,7 +453,7 @@ boolean
 ---
 
 
-###getShowMinorGridLines{#getShowMinorGridLines}
+### getShowMinorGridLines {#getShowMinorGridLines}
 
 | Name | Description |
 | --- | --- |
@@ -466,7 +466,7 @@ boolean
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -479,7 +479,7 @@ boolean
 ---
 
 
-###getTextFormat{#getTextFormat}
+### getTextFormat {#getTextFormat}
 
 | Name | Description |
 | --- | --- |
@@ -492,7 +492,7 @@ boolean
 ---
 
 
-###getTickLabelPosition{#getTickLabelPosition}
+### getTickLabelPosition {#getTickLabelPosition}
 
 | Name | Description |
 | --- | --- |
@@ -505,7 +505,7 @@ int
 ---
 
 
-###getTickLabelRotationAngle{#getTickLabelRotationAngle}
+### getTickLabelRotationAngle {#getTickLabelRotationAngle}
 
 | Name | Description |
 | --- | --- |
@@ -518,7 +518,7 @@ float
 ---
 
 
-###getTickLabelSpacing{#getTickLabelSpacing}
+### getTickLabelSpacing {#getTickLabelSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -531,7 +531,7 @@ long
 ---
 
 
-###getTickMarksSpacing{#getTickMarksSpacing}
+### getTickMarksSpacing {#getTickMarksSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -544,7 +544,7 @@ long
 ---
 
 
-###getTitle{#getTitle}
+### getTitle {#getTitle}
 
 | Name | Description |
 | --- | --- |
@@ -557,7 +557,7 @@ long
 ---
 
 
-###getUnderflowBin{#getUnderflowBin}
+### getUnderflowBin {#getUnderflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -570,7 +570,7 @@ double
 ---
 
 
-###hasTitle{#hasTitle}
+### hasTitle {#hasTitle}
 
 | Name | Description |
 | --- | --- |
@@ -583,7 +583,7 @@ boolean
 ---
 
 
-###isAutomaticMajorUnit{#isAutomaticMajorUnit}
+### isAutomaticMajorUnit {#isAutomaticMajorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -596,7 +596,7 @@ boolean
 ---
 
 
-###isAutomaticMaxValue{#isAutomaticMaxValue}
+### isAutomaticMaxValue {#isAutomaticMaxValue}
 
 | Name | Description |
 | --- | --- |
@@ -609,7 +609,7 @@ boolean
 ---
 
 
-###isAutomaticMinValue{#isAutomaticMinValue}
+### isAutomaticMinValue {#isAutomaticMinValue}
 
 | Name | Description |
 | --- | --- |
@@ -622,7 +622,7 @@ boolean
 ---
 
 
-###isAutomaticMinorUnit{#isAutomaticMinorUnit}
+### isAutomaticMinorUnit {#isAutomaticMinorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -635,7 +635,7 @@ boolean
 ---
 
 
-###isAutomaticOverflowBin{#isAutomaticOverflowBin}
+### isAutomaticOverflowBin {#isAutomaticOverflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -648,7 +648,7 @@ boolean
 ---
 
 
-###isAutomaticTickLabelSpacing{#isAutomaticTickLabelSpacing}
+### isAutomaticTickLabelSpacing {#isAutomaticTickLabelSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -661,7 +661,7 @@ boolean
 ---
 
 
-###isAutomaticTickMarksSpacing{#isAutomaticTickMarksSpacing}
+### isAutomaticTickMarksSpacing {#isAutomaticTickMarksSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -674,7 +674,7 @@ boolean
 ---
 
 
-###isAutomaticUnderflowBin{#isAutomaticUnderflowBin}
+### isAutomaticUnderflowBin {#isAutomaticUnderflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -687,7 +687,7 @@ boolean
 ---
 
 
-###isLogarithmic{#isLogarithmic}
+### isLogarithmic {#isLogarithmic}
 
 | Name | Description |
 | --- | --- |
@@ -700,7 +700,7 @@ boolean
 ---
 
 
-###isNumberFormatLinkedToSource{#isNumberFormatLinkedToSource}
+### isNumberFormatLinkedToSource {#isNumberFormatLinkedToSource}
 
 | Name | Description |
 | --- | --- |
@@ -713,7 +713,7 @@ boolean
 ---
 
 
-###isOverflowBin{#isOverflowBin}
+### isOverflowBin {#isOverflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -726,7 +726,7 @@ boolean
 ---
 
 
-###isPlotOrderReversed{#isPlotOrderReversed}
+### isPlotOrderReversed {#isPlotOrderReversed}
 
 | Name | Description |
 | --- | --- |
@@ -739,7 +739,7 @@ boolean
 ---
 
 
-###isUnderflowBin{#isUnderflowBin}
+### isUnderflowBin {#isUnderflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -752,7 +752,7 @@ boolean
 ---
 
 
-###isVisible{#isVisible}
+### isVisible {#isVisible}
 
 | Name | Description |
 | --- | --- |
@@ -765,7 +765,7 @@ boolean
 ---
 
 
-###setAggregationType{#setAggregationType}
+### setAggregationType {#setAggregationType}
 
 | Name | Description |
 | --- | --- |
@@ -775,7 +775,7 @@ boolean
 ---
 
 
-###setAutomaticMajorUnit{#setAutomaticMajorUnit}
+### setAutomaticMajorUnit {#setAutomaticMajorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -785,7 +785,7 @@ boolean
 ---
 
 
-###setAutomaticMaxValue{#setAutomaticMaxValue}
+### setAutomaticMaxValue {#setAutomaticMaxValue}
 
 | Name | Description |
 | --- | --- |
@@ -795,7 +795,7 @@ boolean
 ---
 
 
-###setAutomaticMinValue{#setAutomaticMinValue}
+### setAutomaticMinValue {#setAutomaticMinValue}
 
 | Name | Description |
 | --- | --- |
@@ -805,7 +805,7 @@ boolean
 ---
 
 
-###setAutomaticMinorUnit{#setAutomaticMinorUnit}
+### setAutomaticMinorUnit {#setAutomaticMinorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -815,7 +815,7 @@ boolean
 ---
 
 
-###setAutomaticOverflowBin{#setAutomaticOverflowBin}
+### setAutomaticOverflowBin {#setAutomaticOverflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -825,7 +825,7 @@ boolean
 ---
 
 
-###setAutomaticTickLabelSpacing{#setAutomaticTickLabelSpacing}
+### setAutomaticTickLabelSpacing {#setAutomaticTickLabelSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -835,7 +835,7 @@ boolean
 ---
 
 
-###setAutomaticTickMarksSpacing{#setAutomaticTickMarksSpacing}
+### setAutomaticTickMarksSpacing {#setAutomaticTickMarksSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -845,7 +845,7 @@ boolean
 ---
 
 
-###setAutomaticUnderflowBin{#setAutomaticUnderflowBin}
+### setAutomaticUnderflowBin {#setAutomaticUnderflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -855,7 +855,7 @@ boolean
 ---
 
 
-###setAxisBetweenCategories{#setAxisBetweenCategories}
+### setAxisBetweenCategories {#setAxisBetweenCategories}
 
 | Name | Description |
 | --- | --- |
@@ -865,7 +865,7 @@ boolean
 ---
 
 
-###setBaseUnitScale{#setBaseUnitScale}
+### setBaseUnitScale {#setBaseUnitScale}
 
 | Name | Description |
 | --- | --- |
@@ -875,7 +875,7 @@ boolean
 ---
 
 
-###setBinWidth{#setBinWidth}
+### setBinWidth {#setBinWidth}
 
 | Name | Description |
 | --- | --- |
@@ -885,7 +885,7 @@ boolean
 ---
 
 
-###setCategoryAxisType{#setCategoryAxisType}
+### setCategoryAxisType {#setCategoryAxisType}
 
 | Name | Description |
 | --- | --- |
@@ -895,7 +895,7 @@ boolean
 ---
 
 
-###setCategoryAxisTypeAutomatically{#setCategoryAxisTypeAutomatically}
+### setCategoryAxisTypeAutomatically {#setCategoryAxisTypeAutomatically}
 
 | Name | Description |
 | --- | --- |
@@ -905,7 +905,7 @@ boolean
 ---
 
 
-###setCrossAt{#setCrossAt}
+### setCrossAt {#setCrossAt}
 
 | Name | Description |
 | --- | --- |
@@ -915,7 +915,7 @@ boolean
 ---
 
 
-###setCrossType{#setCrossType}
+### setCrossType {#setCrossType}
 
 | Name | Description |
 | --- | --- |
@@ -925,7 +925,7 @@ boolean
 ---
 
 
-###setDisplayUnit{#setDisplayUnit}
+### setDisplayUnit {#setDisplayUnit}
 
 | Name | Description |
 | --- | --- |
@@ -935,7 +935,7 @@ boolean
 ---
 
 
-###setLabelOffset{#setLabelOffset}
+### setLabelOffset {#setLabelOffset}
 
 | Name | Description |
 | --- | --- |
@@ -945,7 +945,7 @@ boolean
 ---
 
 
-###setLogBase{#setLogBase}
+### setLogBase {#setLogBase}
 
 | Name | Description |
 | --- | --- |
@@ -955,7 +955,7 @@ boolean
 ---
 
 
-###setLogarithmic{#setLogarithmic}
+### setLogarithmic {#setLogarithmic}
 
 | Name | Description |
 | --- | --- |
@@ -965,7 +965,7 @@ boolean
 ---
 
 
-###setMajorTickMark{#setMajorTickMark}
+### setMajorTickMark {#setMajorTickMark}
 
 | Name | Description |
 | --- | --- |
@@ -975,7 +975,7 @@ boolean
 ---
 
 
-###setMajorUnit{#setMajorUnit}
+### setMajorUnit {#setMajorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -985,7 +985,7 @@ boolean
 ---
 
 
-###setMajorUnitScale{#setMajorUnitScale}
+### setMajorUnitScale {#setMajorUnitScale}
 
 | Name | Description |
 | --- | --- |
@@ -995,7 +995,7 @@ boolean
 ---
 
 
-###setMaxValue{#setMaxValue}
+### setMaxValue {#setMaxValue}
 
 | Name | Description |
 | --- | --- |
@@ -1005,7 +1005,7 @@ boolean
 ---
 
 
-###setMinValue{#setMinValue}
+### setMinValue {#setMinValue}
 
 | Name | Description |
 | --- | --- |
@@ -1015,7 +1015,7 @@ boolean
 ---
 
 
-###setMinorTickMark{#setMinorTickMark}
+### setMinorTickMark {#setMinorTickMark}
 
 | Name | Description |
 | --- | --- |
@@ -1025,7 +1025,7 @@ boolean
 ---
 
 
-###setMinorUnit{#setMinorUnit}
+### setMinorUnit {#setMinorUnit}
 
 | Name | Description |
 | --- | --- |
@@ -1035,7 +1035,7 @@ boolean
 ---
 
 
-###setMinorUnitScale{#setMinorUnitScale}
+### setMinorUnitScale {#setMinorUnitScale}
 
 | Name | Description |
 | --- | --- |
@@ -1045,7 +1045,7 @@ boolean
 ---
 
 
-###setNumberFormat{#setNumberFormat}
+### setNumberFormat {#setNumberFormat}
 
 | Name | Description |
 | --- | --- |
@@ -1055,7 +1055,7 @@ boolean
 ---
 
 
-###setNumberFormatLinkedToSource{#setNumberFormatLinkedToSource}
+### setNumberFormatLinkedToSource {#setNumberFormatLinkedToSource}
 
 | Name | Description |
 | --- | --- |
@@ -1065,7 +1065,7 @@ boolean
 ---
 
 
-###setNumberOfBins{#setNumberOfBins}
+### setNumberOfBins {#setNumberOfBins}
 
 | Name | Description |
 | --- | --- |
@@ -1075,7 +1075,7 @@ boolean
 ---
 
 
-###setOverflowBin{#setOverflowBin}
+### setOverflowBin {#setOverflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -1085,7 +1085,7 @@ boolean
 ---
 
 
-###setOverflowBin{#setOverflowBin}
+### setOverflowBin {#setOverflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -1095,7 +1095,7 @@ boolean
 ---
 
 
-###setPlotOrderReversed{#setPlotOrderReversed}
+### setPlotOrderReversed {#setPlotOrderReversed}
 
 | Name | Description |
 | --- | --- |
@@ -1105,7 +1105,7 @@ boolean
 ---
 
 
-###setPosition{#setPosition}
+### setPosition {#setPosition}
 
 | Name | Description |
 | --- | --- |
@@ -1115,7 +1115,7 @@ boolean
 ---
 
 
-###setTickLabelPosition{#setTickLabelPosition}
+### setTickLabelPosition {#setTickLabelPosition}
 
 | Name | Description |
 | --- | --- |
@@ -1125,7 +1125,7 @@ boolean
 ---
 
 
-###setTickLabelRotationAngle{#setTickLabelRotationAngle}
+### setTickLabelRotationAngle {#setTickLabelRotationAngle}
 
 | Name | Description |
 | --- | --- |
@@ -1135,7 +1135,7 @@ boolean
 ---
 
 
-###setTickLabelSpacing{#setTickLabelSpacing}
+### setTickLabelSpacing {#setTickLabelSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -1145,7 +1145,7 @@ boolean
 ---
 
 
-###setTickMarksSpacing{#setTickMarksSpacing}
+### setTickMarksSpacing {#setTickMarksSpacing}
 
 | Name | Description |
 | --- | --- |
@@ -1155,7 +1155,7 @@ boolean
 ---
 
 
-###setTitle{#setTitle}
+### setTitle {#setTitle}
 
 | Name | Description |
 | --- | --- |
@@ -1165,7 +1165,7 @@ boolean
 ---
 
 
-###setUnderflowBin{#setUnderflowBin}
+### setUnderflowBin {#setUnderflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -1175,7 +1175,7 @@ boolean
 ---
 
 
-###setUnderflowBin{#setUnderflowBin}
+### setUnderflowBin {#setUnderflowBin}
 
 | Name | Description |
 | --- | --- |
@@ -1185,7 +1185,7 @@ boolean
 ---
 
 
-###setVisible{#setVisible}
+### setVisible {#setVisible}
 
 | Name | Description |
 | --- | --- |

@@ -11,13 +11,13 @@ url: /aspose.slides/autoshape/
 
   Represents an AutoShape.
  
-###addTextFrame{#addTextFrame}
+### addTextFrame {#addTextFrame}
 
 | Name | Description |
 | --- | --- |
 | addTextFrame (String) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ url: /aspose.slides/autoshape/
 ---
 
 
-###getAutoShapeLock{#getAutoShapeLock}
+### getAutoShapeLock {#getAutoShapeLock}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ url: /aspose.slides/autoshape/
 ---
 
 
-###getShapeLock{#getShapeLock}
+### getShapeLock {#getShapeLock}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ url: /aspose.slides/autoshape/
 ---
 
 
-###getTextFrame{#getTextFrame}
+### getTextFrame {#getTextFrame}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ url: /aspose.slides/autoshape/
 ---
 
 
-###getUseBackgroundFill{#getUseBackgroundFill}
+### getUseBackgroundFill {#getUseBackgroundFill}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ boolean
 ---
 
 
-###isTextBox{#isTextBox}
+### isTextBox {#isTextBox}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ boolean
 ---
 
 
-###setUseBackgroundFill{#setUseBackgroundFill}
+### setUseBackgroundFill {#setUseBackgroundFill}
 
 | Name | Description |
 | --- | --- |

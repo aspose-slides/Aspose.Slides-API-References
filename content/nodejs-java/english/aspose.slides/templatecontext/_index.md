@@ -11,7 +11,7 @@ url: /aspose.slides/templatecontext/
 
  Represents a model object interface for a template engine.
  
-###getGlobal{#getGlobal}
+### getGlobal {#getGlobal}
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,7 @@ Storage
 ---
 
 
-###getLocal{#getLocal}
+### getLocal {#getLocal}
 
 | Name | Description |
 | --- | --- |
@@ -37,7 +37,7 @@ Storage
 ---
 
 
-###getObject{#getObject}
+### getObject {#getObject}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +50,7 @@ TObject
 ---
 
 
-###getOutput{#getOutput}
+### getOutput {#getOutput}
 
 | Name | Description |
 | --- | --- |
@@ -63,13 +63,13 @@ Output
 ---
 
 
-###subModel{#subModel}
+### subModel {#subModel}
 
 | Name | Description |
 | --- | --- |
 | subModel (TSubModel) | Creates a child template context. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |

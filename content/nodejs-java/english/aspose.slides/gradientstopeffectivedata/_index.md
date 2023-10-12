@@ -11,13 +11,13 @@ url: /aspose.slides/gradientstopeffectivedata/
 
  Immutable object which represents a gradient stop.
  
-###equals{#equals}
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified GradientStopEffectiveData is equal to the current GradientStopEffectiveData. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ boolean
 ---
 
 
-###getColor{#getColor}
+### getColor {#getColor}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ Color
 ---
 
 
-###getPosition{#getPosition}
+### getPosition {#getPosition}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ float
 ---
 
 
-###hashCode{#hashCode}
+### hashCode {#hashCode}
 
 | Name | Description |
 | --- | --- |

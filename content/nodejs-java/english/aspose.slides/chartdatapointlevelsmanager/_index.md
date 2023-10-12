@@ -12,7 +12,7 @@ url: /aspose.slides/chartdatapointlevelsmanager/
  Container of data point levels. Applied for Treeamp and Sunburst series.
  Data point levels indexing is zero-based.
  
-###getCount{#getCount}
+### getCount {#getCount}
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ int
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |

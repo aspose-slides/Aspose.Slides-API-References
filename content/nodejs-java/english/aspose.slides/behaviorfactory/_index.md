@@ -13,7 +13,7 @@ url: /aspose.slides/behaviorfactory/
  
  For COM compatibility.
  
-###BehaviorFactory{#BehaviorFactory}
+### BehaviorFactory {#BehaviorFactory}
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,7 @@ BehaviorFactory
 ---
 
 
-###createColorEffect{#createColorEffect}
+### createColorEffect {#createColorEffect}
 
 | Name | Description |
 | --- | --- |
@@ -39,7 +39,7 @@ BehaviorFactory
 ---
 
 
-###createCommandEffect{#createCommandEffect}
+### createCommandEffect {#createCommandEffect}
 
 | Name | Description |
 | --- | --- |
@@ -52,7 +52,7 @@ BehaviorFactory
 ---
 
 
-###createFilterEffect{#createFilterEffect}
+### createFilterEffect {#createFilterEffect}
 
 | Name | Description |
 | --- | --- |
@@ -65,7 +65,7 @@ BehaviorFactory
 ---
 
 
-###createMotionEffect{#createMotionEffect}
+### createMotionEffect {#createMotionEffect}
 
 | Name | Description |
 | --- | --- |
@@ -78,7 +78,7 @@ BehaviorFactory
 ---
 
 
-###createPropertyEffect{#createPropertyEffect}
+### createPropertyEffect {#createPropertyEffect}
 
 | Name | Description |
 | --- | --- |
@@ -91,7 +91,7 @@ IPropertyEffect
 ---
 
 
-###createRotationEffect{#createRotationEffect}
+### createRotationEffect {#createRotationEffect}
 
 | Name | Description |
 | --- | --- |
@@ -104,7 +104,7 @@ IPropertyEffect
 ---
 
 
-###createScaleEffect{#createScaleEffect}
+### createScaleEffect {#createScaleEffect}
 
 | Name | Description |
 | --- | --- |
@@ -117,7 +117,7 @@ IPropertyEffect
 ---
 
 
-###createSetEffect{#createSetEffect}
+### createSetEffect {#createSetEffect}
 
 | Name | Description |
 | --- | --- |

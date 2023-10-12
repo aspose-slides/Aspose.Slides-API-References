@@ -11,13 +11,13 @@ url: /aspose.slides/trendline/
 
  Class represents trend line of chart series
  
-###addTextFrameForOverriding{#addTextFrameForOverriding}
+### addTextFrameForOverriding {#addTextFrameForOverriding}
 
 | Name | Description |
 | --- | --- |
 | addTextFrameForOverriding (String) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 
-### Parameters
+ **Parameters**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ url: /aspose.slides/trendline/
 ---
 
 
-###getBackward{#getBackward}
+### getBackward {#getBackward}
 
 | Name | Description |
 | --- | --- |
@@ -43,7 +43,7 @@ double
 ---
 
 
-###getChart{#getChart}
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ double
 ---
 
 
-###getDisplayEquation{#getDisplayEquation}
+### getDisplayEquation {#getDisplayEquation}
 
 | Name | Description |
 | --- | --- |
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-###getDisplayRSquaredValue{#getDisplayRSquaredValue}
+### getDisplayRSquaredValue {#getDisplayRSquaredValue}
 
 | Name | Description |
 | --- | --- |
@@ -82,7 +82,7 @@ boolean
 ---
 
 
-###getFormat{#getFormat}
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
@@ -95,7 +95,7 @@ boolean
 ---
 
 
-###getForward{#getForward}
+### getForward {#getForward}
 
 | Name | Description |
 | --- | --- |
@@ -108,7 +108,7 @@ double
 ---
 
 
-###getIntercept{#getIntercept}
+### getIntercept {#getIntercept}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +121,7 @@ double
 ---
 
 
-###getOrder{#getOrder}
+### getOrder {#getOrder}
 
 | Name | Description |
 | --- | --- |
@@ -134,7 +134,7 @@ byte
 ---
 
 
-###getPeriod{#getPeriod}
+### getPeriod {#getPeriod}
 
 | Name | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ byte
 ---
 
 
-###getPresentation{#getPresentation}
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -160,7 +160,7 @@ byte
 ---
 
 
-###getRelatedLegendEntry{#getRelatedLegendEntry}
+### getRelatedLegendEntry {#getRelatedLegendEntry}
 
 | Name | Description |
 | --- | --- |
@@ -173,7 +173,7 @@ byte
 ---
 
 
-###getSlide{#getSlide}
+### getSlide {#getSlide}
 
 | Name | Description |
 | --- | --- |
@@ -186,7 +186,7 @@ byte
 ---
 
 
-###getTextFormat{#getTextFormat}
+### getTextFormat {#getTextFormat}
 
 | Name | Description |
 | --- | --- |
@@ -199,7 +199,7 @@ byte
 ---
 
 
-###getTextFrameForOverriding{#getTextFrameForOverriding}
+### getTextFrameForOverriding {#getTextFrameForOverriding}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +212,7 @@ byte
 ---
 
 
-###getTrendlineName{#getTrendlineName}
+### getTrendlineName {#getTrendlineName}
 
 | Name | Description |
 | --- | --- |
@@ -225,7 +225,7 @@ String
 ---
 
 
-###getTrendlineType{#getTrendlineType}
+### getTrendlineType {#getTrendlineType}
 
 | Name | Description |
 | --- | --- |
@@ -238,7 +238,7 @@ int
 ---
 
 
-###setBackward{#setBackward}
+### setBackward {#setBackward}
 
 | Name | Description |
 | --- | --- |
@@ -248,7 +248,7 @@ int
 ---
 
 
-###setDisplayEquation{#setDisplayEquation}
+### setDisplayEquation {#setDisplayEquation}
 
 | Name | Description |
 | --- | --- |
@@ -258,7 +258,7 @@ int
 ---
 
 
-###setDisplayRSquaredValue{#setDisplayRSquaredValue}
+### setDisplayRSquaredValue {#setDisplayRSquaredValue}
 
 | Name | Description |
 | --- | --- |
@@ -268,7 +268,7 @@ int
 ---
 
 
-###setFormat{#setFormat}
+### setFormat {#setFormat}
 
 | Name | Description |
 | --- | --- |
@@ -278,7 +278,7 @@ int
 ---
 
 
-###setForward{#setForward}
+### setForward {#setForward}
 
 | Name | Description |
 | --- | --- |
@@ -288,7 +288,7 @@ int
 ---
 
 
-###setIntercept{#setIntercept}
+### setIntercept {#setIntercept}
 
 | Name | Description |
 | --- | --- |
@@ -298,7 +298,7 @@ int
 ---
 
 
-###setOrder{#setOrder}
+### setOrder {#setOrder}
 
 | Name | Description |
 | --- | --- |
@@ -308,7 +308,7 @@ int
 ---
 
 
-###setPeriod{#setPeriod}
+### setPeriod {#setPeriod}
 
 | Name | Description |
 | --- | --- |
@@ -318,7 +318,7 @@ int
 ---
 
 
-###setTrendlineName{#setTrendlineName}
+### setTrendlineName {#setTrendlineName}
 
 | Name | Description |
 | --- | --- |
@@ -328,7 +328,7 @@ int
 ---
 
 
-###setTrendlineType{#setTrendlineType}
+### setTrendlineType {#setTrendlineType}
 
 | Name | Description |
 | --- | --- |

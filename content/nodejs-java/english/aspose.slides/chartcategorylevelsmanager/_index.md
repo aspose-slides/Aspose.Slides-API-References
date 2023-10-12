@@ -11,7 +11,7 @@ url: /aspose.slides/chartcategorylevelsmanager/
 
  Managed container of the values of the chart category levels.
  
-###deleteGroupingItem{#deleteGroupingItem}
+### deleteGroupingItem {#deleteGroupingItem}
 
 | Name | Description |
 | --- | --- |
@@ -21,7 +21,7 @@ url: /aspose.slides/chartcategorylevelsmanager/
 ---
 
 
-###get_Item{#get_Item}
+### get_Item {#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -34,7 +34,7 @@ url: /aspose.slides/chartcategorylevelsmanager/
 ---
 
 
-###setGroupingItem{#setGroupingItem}
+### setGroupingItem {#setGroupingItem}
 
 | Name | Description |
 | --- | --- |
