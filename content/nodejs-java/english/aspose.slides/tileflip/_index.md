@@ -27,37 +27,37 @@ url: /aspose.slides/tileflip/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### NoFlip {#NoFlip}
-| --- | --- | --- |
- | NoFlip | 0 |  |
+```
 
+```
 
 ---
 
 ### FlipX {#FlipX}
-| --- | --- | --- |
- | FlipX | 1 |  |
+```
 
+```
 
 ---
 
 ### FlipY {#FlipY}
-| --- | --- | --- |
- | FlipY | 2 |  |
+```
 
+```
 
 ---
 
 ### FlipBoth {#FlipBoth}
-| --- | --- | --- |
- | FlipBoth | 3 |  |
+```
 
+```
 
 ---
 

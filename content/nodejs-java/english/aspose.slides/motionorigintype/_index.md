@@ -26,23 +26,23 @@ url: /aspose.slides/motionorigintype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Parent {#Parent}
-| --- | --- | --- |
- | Parent | 0 |  |
+```
 
+```
 
 ---
 
 ### Layout {#Layout}
-| --- | --- | --- |
- | Layout | 1 |  |
+```
 
+```
 
 ---
 

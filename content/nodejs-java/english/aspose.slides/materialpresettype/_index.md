@@ -38,114 +38,114 @@ url: /aspose.slides/materialpresettype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Clear {#Clear}
-| --- | --- | --- |
- | Clear | 0 |  |
+```
 
+```
 
 ---
 
 ### DkEdge {#DkEdge}
-| --- | --- | --- |
- | DkEdge | 1 |  |
+```
 
+```
 
 ---
 
 ### Flat {#Flat}
-| --- | --- | --- |
- | Flat | 2 |  |
+```
 
+```
 
 ---
 
 ### LegacyMatte {#LegacyMatte}
-| --- | --- | --- |
- | LegacyMatte | 3 |  |
+```
 
+```
 
 ---
 
 ### LegacyMetal {#LegacyMetal}
-| --- | --- | --- |
- | LegacyMetal | 4 |  |
+```
 
+```
 
 ---
 
 ### LegacyPlastic {#LegacyPlastic}
-| --- | --- | --- |
- | LegacyPlastic | 5 |  |
+```
 
+```
 
 ---
 
 ### LegacyWireframe {#LegacyWireframe}
-| --- | --- | --- |
- | LegacyWireframe | 6 |  |
+```
 
+```
 
 ---
 
 ### Matte {#Matte}
-| --- | --- | --- |
- | Matte | 7 |  |
+```
 
+```
 
 ---
 
 ### Metal {#Metal}
-| --- | --- | --- |
- | Metal | 8 |  |
+```
 
+```
 
 ---
 
 ### Plastic {#Plastic}
-| --- | --- | --- |
- | Plastic | 9 |  |
+```
 
+```
 
 ---
 
 ### Powder {#Powder}
-| --- | --- | --- |
- | Powder | 10 |  |
+```
 
+```
 
 ---
 
 ### SoftEdge {#SoftEdge}
-| --- | --- | --- |
- | SoftEdge | 11 |  |
+```
 
+```
 
 ---
 
 ### Softmetal {#Softmetal}
-| --- | --- | --- |
- | Softmetal | 12 |  |
+```
 
+```
 
 ---
 
 ### TranslucentPowder {#TranslucentPowder}
-| --- | --- | --- |
- | TranslucentPowder | 13 |  |
+```
 
+```
 
 ---
 
 ### WarmMatte {#WarmMatte}
-| --- | --- | --- |
- | WarmMatte | 14 |  |
+```
 
+```
 
 ---
 

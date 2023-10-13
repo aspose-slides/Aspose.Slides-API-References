@@ -25,23 +25,23 @@ url: /aspose.slides/transitionmorphtype/
 
 
 ### ByObject {#ByObject}
-| --- | --- | --- |
- | ByObject | 0 | Morph transition will be performed considering shapes as indivisible objects. |
-
+```
+Morph transition will be performed considering shapes as indivisible objects.
+```
 
 ---
 
 ### ByWord {#ByWord}
-| --- | --- | --- |
- | ByWord | 1 | Morph transition will be performed with transferring text by words where possible. |
-
+```
+Morph transition will be performed with transferring text by words where possible.
+```
 
 ---
 
 ### ByChar {#ByChar}
-| --- | --- | --- |
- | ByChar | 2 | Morph transition will be performed with transferring text by characters where possible. |
-
+```
+Morph transition will be performed with transferring text by characters where possible.
+```
 
 ---
 

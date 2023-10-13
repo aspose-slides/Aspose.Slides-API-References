@@ -39,121 +39,121 @@ url: /aspose.slides/slidesizetype/
 
 
 ### OnScreen {#OnScreen}
-| --- | --- | --- |
- | OnScreen | 0 | On screen 4x3 |
-
+```
+On screen 4x3
+```
 
 ---
 
 ### LetterPaper {#LetterPaper}
-| --- | --- | --- |
- | LetterPaper | 1 | Letter |
-
+```
+Letter
+```
 
 ---
 
 ### A4Paper {#A4Paper}
-| --- | --- | --- |
- | A4Paper | 2 | A4 |
-
+```
+A4
+```
 
 ---
 
 ### Slide35mm {#Slide35mm}
-| --- | --- | --- |
- | Slide35mm | 3 | Slide 35mm |
-
+```
+Slide 35mm
+```
 
 ---
 
 ### Overhead {#Overhead}
-| --- | --- | --- |
- | Overhead | 4 | Overhead |
-
+```
+Overhead
+```
 
 ---
 
 ### Banner {#Banner}
-| --- | --- | --- |
- | Banner | 5 | Banner |
-
+```
+Banner
+```
 
 ---
 
 ### Custom {#Custom}
-| --- | --- | --- |
- | Custom | 6 | Custom size |
-
+```
+Custom size
+```
 
 ---
 
 ### Ledger {#Ledger}
-| --- | --- | --- |
- | Ledger | 7 | Ledger |
-
+```
+Ledger
+```
 
 ---
 
 ### A3Paper {#A3Paper}
-| --- | --- | --- |
- | A3Paper | 8 | A3 |
-
+```
+A3
+```
 
 ---
 
 ### B4IsoPaper {#B4IsoPaper}
-| --- | --- | --- |
- | B4IsoPaper | 9 | B4 ISO |
-
+```
+B4 ISO
+```
 
 ---
 
 ### B5IsoPaper {#B5IsoPaper}
-| --- | --- | --- |
- | B5IsoPaper | 10 | B5 ISO |
-
+```
+B5 ISO
+```
 
 ---
 
 ### B4JisPaper {#B4JisPaper}
-| --- | --- | --- |
- | B4JisPaper | 11 | B4 JIS |
-
+```
+B4 JIS
+```
 
 ---
 
 ### B5JisPaper {#B5JisPaper}
-| --- | --- | --- |
- | B5JisPaper | 12 | B5 JIS |
-
+```
+B5 JIS
+```
 
 ---
 
 ### HagakiCard {#HagakiCard}
-| --- | --- | --- |
- | HagakiCard | 13 | Hagaki card |
-
+```
+Hagaki card
+```
 
 ---
 
 ### OnScreen16x9 {#OnScreen16x9}
-| --- | --- | --- |
- | OnScreen16x9 | 14 | On screen 16x9 |
-
+```
+On screen 16x9
+```
 
 ---
 
 ### OnScreen16x10 {#OnScreen16x10}
-| --- | --- | --- |
- | OnScreen16x10 | 15 | On Screen 16x10 |
-
+```
+On Screen 16x10
+```
 
 ---
 
 ### Widescreen {#Widescreen}
-| --- | --- | --- |
- | Widescreen | 16 | Widescreen |
-
+```
+Widescreen
+```
 
 ---
 

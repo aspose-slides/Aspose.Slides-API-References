@@ -35,93 +35,93 @@ url: /aspose.slides/linedashstyle/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Solid {#Solid}
-| --- | --- | --- |
- | Solid | 0 |  |
+```
 
+```
 
 ---
 
 ### Dot {#Dot}
-| --- | --- | --- |
- | Dot | 1 |  |
+```
 
+```
 
 ---
 
 ### Dash {#Dash}
-| --- | --- | --- |
- | Dash | 2 |  |
+```
 
+```
 
 ---
 
 ### LargeDash {#LargeDash}
-| --- | --- | --- |
- | LargeDash | 3 |  |
+```
 
+```
 
 ---
 
 ### DashDot {#DashDot}
-| --- | --- | --- |
- | DashDot | 4 |  |
+```
 
+```
 
 ---
 
 ### LargeDashDot {#LargeDashDot}
-| --- | --- | --- |
- | LargeDashDot | 5 |  |
+```
 
+```
 
 ---
 
 ### LargeDashDotDot {#LargeDashDotDot}
-| --- | --- | --- |
- | LargeDashDotDot | 6 |  |
+```
 
+```
 
 ---
 
 ### SystemDash {#SystemDash}
-| --- | --- | --- |
- | SystemDash | 7 |  |
+```
 
+```
 
 ---
 
 ### SystemDot {#SystemDot}
-| --- | --- | --- |
- | SystemDot | 8 |  |
+```
 
+```
 
 ---
 
 ### SystemDashDot {#SystemDashDot}
-| --- | --- | --- |
- | SystemDashDot | 9 |  |
+```
 
+```
 
 ---
 
 ### SystemDashDotDot {#SystemDashDotDot}
-| --- | --- | --- |
- | SystemDashDotDot | 10 |  |
+```
 
+```
 
 ---
 
 ### Custom {#Custom}
-| --- | --- | --- |
- | Custom | 11 |  |
+```
 
+```
 
 ---
 

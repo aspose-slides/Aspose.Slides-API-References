@@ -26,30 +26,30 @@ url: /aspose.slides/tickmarktype/
 
 
 ### Cross {#Cross}
-| --- | --- | --- |
- | Cross | 0 | Specifies the tick marks shall cross the axis. |
-
+```
+Specifies the tick marks shall cross the axis.
+```
 
 ---
 
 ### Inside {#Inside}
-| --- | --- | --- |
- | Inside | 1 | Specifies the tick marks shall be inside the plot area. |
-
+```
+Specifies the tick marks shall be inside the plot area.
+```
 
 ---
 
 ### None {#None}
-| --- | --- | --- |
- | None | 2 | Specifies there shall be no tick marks. |
-
+```
+Specifies there shall be no tick marks.
+```
 
 ---
 
 ### Outside {#Outside}
-| --- | --- | --- |
- | Outside | 3 | Specifies the tick marks shall be outside the plot area. |
-
+```
+Specifies the tick marks shall be outside the plot area.
+```
 
 ---
 

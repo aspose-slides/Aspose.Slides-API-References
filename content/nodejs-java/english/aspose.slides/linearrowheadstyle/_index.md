@@ -29,51 +29,51 @@ url: /aspose.slides/linearrowheadstyle/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 |  |
+```
 
+```
 
 ---
 
 ### Triangle {#Triangle}
-| --- | --- | --- |
- | Triangle | 1 |  |
+```
 
+```
 
 ---
 
 ### Stealth {#Stealth}
-| --- | --- | --- |
- | Stealth | 2 |  |
+```
 
+```
 
 ---
 
 ### Diamond {#Diamond}
-| --- | --- | --- |
- | Diamond | 3 |  |
+```
 
+```
 
 ---
 
 ### Oval {#Oval}
-| --- | --- | --- |
- | Oval | 4 |  |
+```
 
+```
 
 ---
 
 ### Open {#Open}
-| --- | --- | --- |
- | Open | 5 |  |
+```
 
+```
 
 ---
 

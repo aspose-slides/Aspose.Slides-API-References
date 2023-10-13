@@ -27,37 +27,37 @@ url: /aspose.slides/imagepixelformat/
 
 
 ### Format1bppIndexed {#Format1bppIndexed}
-| --- | --- | --- |
- | Format1bppIndexed | 1 | 1 bits per pixel, indexed. |
-
+```
+1 bits per pixel, indexed.
+```
 
 ---
 
 ### Format4bppIndexed {#Format4bppIndexed}
-| --- | --- | --- |
- | Format4bppIndexed | 4 | 4 bits per pixel, indexed. |
-
+```
+4 bits per pixel, indexed.
+```
 
 ---
 
 ### Format8bppIndexed {#Format8bppIndexed}
-| --- | --- | --- |
- | Format8bppIndexed | 8 | 8 bits per pixel, indexed. |
-
+```
+8 bits per pixel, indexed.
+```
 
 ---
 
 ### Format24bppRgb {#Format24bppRgb}
-| --- | --- | --- |
- | Format24bppRgb | 24 | 24 bits per pixel, RGB. |
-
+```
+24 bits per pixel, RGB.
+```
 
 ---
 
 ### Format32bppArgb {#Format32bppArgb}
-| --- | --- | --- |
- | Format32bppArgb | 32 | 32 bits per pixel, ARGB. |
-
+```
+32 bits per pixel, ARGB.
+```
 
 ---
 

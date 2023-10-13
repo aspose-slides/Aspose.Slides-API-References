@@ -28,44 +28,44 @@ url: /aspose.slides/linestyle/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Single {#Single}
-| --- | --- | --- |
- | Single | 0 |  |
+```
 
+```
 
 ---
 
 ### ThinThin {#ThinThin}
-| --- | --- | --- |
- | ThinThin | 1 |  |
+```
 
+```
 
 ---
 
 ### ThickThin {#ThickThin}
-| --- | --- | --- |
- | ThickThin | 2 |  |
+```
 
+```
 
 ---
 
 ### ThinThick {#ThinThick}
-| --- | --- | --- |
- | ThinThick | 3 |  |
+```
 
+```
 
 ---
 
 ### ThickBetweenThin {#ThickBetweenThin}
-| --- | --- | --- |
- | ThickBetweenThin | 4 |  |
+```
 
+```
 
 ---
 

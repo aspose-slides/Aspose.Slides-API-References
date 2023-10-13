@@ -28,44 +28,44 @@ url: /aspose.slides/tiffcompressiontypes/
 
 
 ### Default {#Default}
-| --- | --- | --- |
- | Default | 0 | Specifies the default compression scheme (LZW). |
-
+```
+Specifies the default compression scheme (LZW).
+```
 
 ---
 
 ### None {#None}
-| --- | --- | --- |
- | None | 1 | Specifies no compression. |
-
+```
+Specifies no compression.
+```
 
 ---
 
 ### CCITT3 {#CCITT3}
-| --- | --- | --- |
- | CCITT3 | 2 | Specifies the CCITT3 compression scheme. |
-
+```
+Specifies the CCITT3 compression scheme.
+```
 
 ---
 
 ### CCITT4 {#CCITT4}
-| --- | --- | --- |
- | CCITT4 | 3 | Specifies the CCITT4 compression scheme. |
-
+```
+Specifies the CCITT4 compression scheme.
+```
 
 ---
 
 ### LZW {#LZW}
-| --- | --- | --- |
- | LZW | 4 | Specifies the LZW compression scheme (Default). |
-
+```
+Specifies the LZW compression scheme (Default).
+```
 
 ---
 
 ### RLE {#RLE}
-| --- | --- | --- |
- | RLE | 5 | Specifies the RLE compression scheme. |
-
+```
+Specifies the RLE compression scheme.
+```
 
 ---
 

@@ -26,30 +26,30 @@ url: /aspose.slides/mathhorizontalalignment/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | 0 | Value is not defined |
-
+```
+Value is not defined
+```
 
 ---
 
 ### Left {#Left}
-| --- | --- | --- |
- | Left | 1 | Left Justification |
-
+```
+Left Justification
+```
 
 ---
 
 ### Center {#Center}
-| --- | --- | --- |
- | Center | 2 | Center |
-
+```
+Center
+```
 
 ---
 
 ### Right {#Right}
-| --- | --- | --- |
- | Right | 3 | Right |
-
+```
+Right
+```
 
 ---
 

@@ -27,37 +27,37 @@ url: /aspose.slides/motioncommandpathtype/
 
 
 ### MoveTo {#MoveTo}
-| --- | --- | --- |
- | MoveTo | 0 |  |
+```
 
+```
 
 ---
 
 ### LineTo {#LineTo}
-| --- | --- | --- |
- | LineTo | 1 |  |
+```
 
+```
 
 ---
 
 ### CurveTo {#CurveTo}
-| --- | --- | --- |
- | CurveTo | 2 |  |
+```
 
+```
 
 ---
 
 ### CloseLoop {#CloseLoop}
-| --- | --- | --- |
- | CloseLoop | 3 |  |
+```
 
+```
 
 ---
 
 ### End {#End}
-| --- | --- | --- |
- | End | 4 |  |
+```
 
+```
 
 ---
 

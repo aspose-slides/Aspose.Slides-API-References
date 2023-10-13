@@ -25,23 +25,23 @@ url: /aspose.slides/behavioraccumulatetype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Always {#Always}
-| --- | --- | --- |
- | Always | 0 |  |
+```
 
+```
 
 ---
 
 ### None {#None}
-| --- | --- | --- |
- | None | 1 |  |
+```
 
+```
 
 ---
 

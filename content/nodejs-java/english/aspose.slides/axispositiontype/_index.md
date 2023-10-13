@@ -26,30 +26,30 @@ url: /aspose.slides/axispositiontype/
 
 
 ### Bottom {#Bottom}
-| --- | --- | --- |
- | Bottom | 0 | Specifies that the axis shall be displayed at the bottom of the plot area. |
-
+```
+Specifies that the axis shall be displayed at the bottom of the plot area.
+```
 
 ---
 
 ### Left {#Left}
-| --- | --- | --- |
- | Left | 1 | Specifies that the axis shall be displayed at the left of the plot area. |
-
+```
+Specifies that the axis shall be displayed at the left of the plot area.
+```
 
 ---
 
 ### Right {#Right}
-| --- | --- | --- |
- | Right | 2 | Specifies that the axis shall be displayed at the right of the plot area. |
-
+```
+Specifies that the axis shall be displayed at the right of the plot area.
+```
 
 ---
 
 ### Top {#Top}
-| --- | --- | --- |
- | Top | 3 | Specifies that the axis shall be displayed at the top of the plot area. |
-
+```
+Specifies that the axis shall be displayed at the top of the plot area.
+```
 
 ---
 

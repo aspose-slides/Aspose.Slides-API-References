@@ -24,16 +24,16 @@ url: /aspose.slides/transitionleftrightdirectiontype/
 
 
 ### Left {#Left}
-| --- | --- | --- |
- | Left | 0 |  |
+```
 
+```
 
 ---
 
 ### Right {#Right}
-| --- | --- | --- |
- | Right | 1 |  |
+```
 
+```
 
 ---
 

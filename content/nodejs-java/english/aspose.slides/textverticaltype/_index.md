@@ -30,58 +30,58 @@ url: /aspose.slides/textverticaltype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 | Not defined. |
-
+```
+Not defined.
+```
 
 ---
 
 ### Horizontal {#Horizontal}
-| --- | --- | --- |
- | Horizontal | 0 | Horizontal text. |
-
+```
+Horizontal text.
+```
 
 ---
 
 ### Vertical {#Vertical}
-| --- | --- | --- |
- | Vertical | 1 | Vertical text. |
-
+```
+Vertical text.
+```
 
 ---
 
 ### Vertical270 {#Vertical270}
-| --- | --- | --- |
- | Vertical270 | 2 | Vertical 270 degrees text. |
-
+```
+Vertical 270 degrees text.
+```
 
 ---
 
 ### WordArtVertical {#WordArtVertical}
-| --- | --- | --- |
- | WordArtVertical | 3 | WordArt vertical text. |
-
+```
+WordArt vertical text.
+```
 
 ---
 
 ### EastAsianVertical {#EastAsianVertical}
-| --- | --- | --- |
- | EastAsianVertical | 4 | East asian vertical text. |
-
+```
+East asian vertical text.
+```
 
 ---
 
 ### MongolianVertical {#MongolianVertical}
-| --- | --- | --- |
- | MongolianVertical | 5 | Mongolian vertical text. |
-
+```
+Mongolian vertical text.
+```
 
 ---
 
 ### WordArtVerticalRightToLeft {#WordArtVerticalRightToLeft}
-| --- | --- | --- |
- | WordArtVerticalRightToLeft | 6 | WordArt vertical right to left text. |
-
+```
+WordArt vertical right to left text.
+```
 
 ---
 

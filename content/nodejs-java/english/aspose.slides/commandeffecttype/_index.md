@@ -26,30 +26,30 @@ url: /aspose.slides/commandeffecttype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Event {#Event}
-| --- | --- | --- |
- | Event | 0 |  |
+```
 
+```
 
 ---
 
 ### Call {#Call}
-| --- | --- | --- |
- | Call | 1 |  |
+```
 
+```
 
 ---
 
 ### Verb {#Verb}
-| --- | --- | --- |
- | Verb | 2 |  |
+```
 
+```
 
 ---
 

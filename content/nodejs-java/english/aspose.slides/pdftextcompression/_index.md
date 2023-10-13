@@ -24,16 +24,16 @@ url: /aspose.slides/pdftextcompression/
 
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 | No compression. |
-
+```
+No compression.
+```
 
 ---
 
 ### Flate {#Flate}
-| --- | --- | --- |
- | Flate | 1 | Flate (ZIP) compression. |
-
+```
+Flate (ZIP) compression.
+```
 
 ---
 

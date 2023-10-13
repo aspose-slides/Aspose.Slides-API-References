@@ -24,16 +24,16 @@ url: /aspose.slides/mathdelimitershape/
 
 
 ### Centered {#Centered}
-| --- | --- | --- |
- | Centered | 0 | Centered to math axis |
-
+```
+Centered to math axis
+```
 
 ---
 
 ### Match {#Match}
-| --- | --- | --- |
- | Match | 1 | Match to content |
-
+```
+Match to content
+```
 
 ---
 

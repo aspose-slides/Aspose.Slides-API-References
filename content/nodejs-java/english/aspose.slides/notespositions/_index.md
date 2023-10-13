@@ -25,23 +25,23 @@ url: /aspose.slides/notespositions/
 
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 | Specifies that notes should not be displayed at all. |
-
+```
+Specifies that notes should not be displayed at all.
+```
 
 ---
 
 ### BottomFull {#BottomFull}
-| --- | --- | --- |
- | BottomFull | 1 | Specifies that notes should be full displayed using additional pages as it is needed. |
-
+```
+Specifies that notes should be full displayed using additional pages as it is needed.
+```
 
 ---
 
 ### BottomTruncated {#BottomTruncated}
-| --- | --- | --- |
- | BottomTruncated | 2 | Specifies that notes should be displayed in only one page. |
-
+```
+Specifies that notes should be displayed in only one page.
+```
 
 ---
 

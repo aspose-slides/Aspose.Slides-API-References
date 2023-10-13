@@ -26,30 +26,30 @@ url: /aspose.slides/mathfunctionsoftwoarguments/
 
 
 ### Log {#Log}
-| --- | --- | --- |
- | Log | 0 | Log |
-
+```
+Log
+```
 
 ---
 
 ### Lim {#Lim}
-| --- | --- | --- |
- | Lim | 1 | Limit |
-
+```
+Limit
+```
 
 ---
 
 ### Min {#Min}
-| --- | --- | --- |
- | Min | 2 | Minimum |
-
+```
+Minimum
+```
 
 ---
 
 ### Max {#Max}
-| --- | --- | --- |
- | Max | 3 | Maximum |
-
+```
+Maximum
+```
 
 ---
 

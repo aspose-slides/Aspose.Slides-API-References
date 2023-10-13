@@ -25,23 +25,23 @@ url: /aspose.slides/mathtopbotpositions/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | 0 | Not defined |
-
+```
+Not defined
+```
 
 ---
 
 ### Top {#Top}
-| --- | --- | --- |
- | Top | 1 | Top |
-
+```
+Top
+```
 
 ---
 
 ### Bottom {#Bottom}
-| --- | --- | --- |
- | Bottom | 2 | Bottom |
-
+```
+Bottom
+```
 
 ---
 

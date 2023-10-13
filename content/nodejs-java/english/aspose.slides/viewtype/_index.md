@@ -31,65 +31,65 @@ url: /aspose.slides/viewtype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | 0 | Value is not defined |
-
+```
+Value is not defined
+```
 
 ---
 
 ### SlideView {#SlideView}
-| --- | --- | --- |
- | SlideView | 1 | Normal Slide View |
-
+```
+Normal Slide View
+```
 
 ---
 
 ### SlideMasterView {#SlideMasterView}
-| --- | --- | --- |
- | SlideMasterView | 2 | Slide Master View |
-
+```
+Slide Master View
+```
 
 ---
 
 ### NotesView {#NotesView}
-| --- | --- | --- |
- | NotesView | 3 | Notes View |
-
+```
+Notes View
+```
 
 ---
 
 ### HandoutView {#HandoutView}
-| --- | --- | --- |
- | HandoutView | 4 | Handout View |
-
+```
+Handout View
+```
 
 ---
 
 ### NotesMasterView {#NotesMasterView}
-| --- | --- | --- |
- | NotesMasterView | 5 | Notes Master View |
-
+```
+Notes Master View
+```
 
 ---
 
 ### OutlineView {#OutlineView}
-| --- | --- | --- |
- | OutlineView | 6 | Outline View |
-
+```
+Outline View
+```
 
 ---
 
 ### SlideSorterView {#SlideSorterView}
-| --- | --- | --- |
- | SlideSorterView | 7 | Slide Sorter View |
-
+```
+Slide Sorter View
+```
 
 ---
 
 ### SlideThumbnailView {#SlideThumbnailView}
-| --- | --- | --- |
- | SlideThumbnailView | 8 | Slide Thumbnail View |
-
+```
+Slide Thumbnail View
+```
 
 ---
 

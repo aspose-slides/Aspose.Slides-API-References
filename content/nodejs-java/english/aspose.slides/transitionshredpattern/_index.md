@@ -24,16 +24,16 @@ url: /aspose.slides/transitionshredpattern/
 
 
 ### Strip {#Strip}
-| --- | --- | --- |
- | Strip | 0 | Vertical strips |
-
+```
+Vertical strips
+```
 
 ---
 
 ### Rectangle {#Rectangle}
-| --- | --- | --- |
- | Rectangle | 1 | Small rectangles |
-
+```
+Small rectangles
+```
 
 ---
 

@@ -24,16 +24,16 @@ url: /aspose.slides/slideorientation/
 
 
 ### Landscape {#Landscape}
-| --- | --- | --- |
- | Landscape | 0 | Landscape orientation. |
-
+```
+Landscape orientation.
+```
 
 ---
 
 ### Portrait {#Portrait}
-| --- | --- | --- |
- | Portrait | 1 | Portrait orientation. |
-
+```
+Portrait orientation.
+```
 
 ---
 

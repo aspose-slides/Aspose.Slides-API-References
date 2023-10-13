@@ -24,16 +24,16 @@ url: /aspose.slides/effectchartmajorgroupingtype/
 
 
 ### BySeries {#BySeries}
-| --- | --- | --- |
- | BySeries | 0 | Animate chart by series |
-
+```
+Animate chart by series
+```
 
 ---
 
 ### ByCategory {#ByCategory}
-| --- | --- | --- |
- | ByCategory | 1 | Animate chart by category |
-
+```
+Animate chart by category
+```
 
 ---
 

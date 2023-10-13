@@ -30,58 +30,58 @@ url: /aspose.slides/shapesalignmenttype/
 
 
 ### AlignLeft {#AlignLeft}
-| --- | --- | --- |
- | AlignLeft | 0 | Align left |
-
+```
+Align left
+```
 
 ---
 
 ### AlignRight {#AlignRight}
-| --- | --- | --- |
- | AlignRight | 1 | Align right |
-
+```
+Align right
+```
 
 ---
 
 ### AlignCenter {#AlignCenter}
-| --- | --- | --- |
- | AlignCenter | 2 | Align center |
-
+```
+Align center
+```
 
 ---
 
 ### AlignTop {#AlignTop}
-| --- | --- | --- |
- | AlignTop | 3 | Align top |
-
+```
+Align top
+```
 
 ---
 
 ### AlignMiddle {#AlignMiddle}
-| --- | --- | --- |
- | AlignMiddle | 4 | Align middle |
-
+```
+Align middle
+```
 
 ---
 
 ### AlignBottom {#AlignBottom}
-| --- | --- | --- |
- | AlignBottom | 5 | Align bottom |
-
+```
+Align bottom
+```
 
 ---
 
 ### DistributeHorizontally {#DistributeHorizontally}
-| --- | --- | --- |
- | DistributeHorizontally | 6 | Distribute horizontally |
-
+```
+Distribute horizontally
+```
 
 ---
 
 ### DistributeVertically {#DistributeVertically}
-| --- | --- | --- |
- | DistributeVertically | 7 | Distribute vertically |
-
+```
+Distribute vertically
+```
 
 ---
 

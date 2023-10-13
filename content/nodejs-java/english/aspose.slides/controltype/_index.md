@@ -23,9 +23,9 @@ url: /aspose.slides/controltype/
 
 
 ### WindowsMediaPlayer {#WindowsMediaPlayer}
-| --- | --- | --- |
- | WindowsMediaPlayer | 0 | Windows Media Player control. |
-
+```
+Windows Media Player control.
+```
 
 ---
 

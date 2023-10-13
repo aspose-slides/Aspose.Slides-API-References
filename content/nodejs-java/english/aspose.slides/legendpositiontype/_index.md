@@ -27,37 +27,37 @@ url: /aspose.slides/legendpositiontype/
 
 
 ### Bottom {#Bottom}
-| --- | --- | --- |
- | Bottom | 0 | Specifies that the legend shall be drawn at the bottom of the chart. |
-
+```
+Specifies that the legend shall be drawn at the bottom of the chart.
+```
 
 ---
 
 ### Left {#Left}
-| --- | --- | --- |
- | Left | 1 | Specifies that the legend shall be drawn at the left of the chart. |
-
+```
+Specifies that the legend shall be drawn at the left of the chart.
+```
 
 ---
 
 ### Right {#Right}
-| --- | --- | --- |
- | Right | 2 | Specifies that the legend shall be drawn at the right of the chart. |
-
+```
+Specifies that the legend shall be drawn at the right of the chart.
+```
 
 ---
 
 ### Top {#Top}
-| --- | --- | --- |
- | Top | 3 | Specifies that the legend shall be drawn at the top of the chart. |
-
+```
+Specifies that the legend shall be drawn at the top of the chart.
+```
 
 ---
 
 ### TopRight {#TopRight}
-| --- | --- | --- |
- | TopRight | 4 | Specifies that the legend shall be drawn at the top right of the chart. |
-
+```
+Specifies that the legend shall be drawn at the top right of the chart.
+```
 
 ---
 

@@ -38,114 +38,114 @@ url: /aspose.slides/hyperlinkactiontype/
 
 
 ### Unknown {#Unknown}
-| --- | --- | --- |
- | Unknown | -1 | Unrecognized action type. |
-
+```
+Unrecognized action type.
+```
 
 ---
 
 ### NoAction {#NoAction}
-| --- | --- | --- |
- | NoAction | 0 | No action. |
-
+```
+No action.
+```
 
 ---
 
 ### Hyperlink {#Hyperlink}
-| --- | --- | --- |
- | Hyperlink | 1 | Usual hyperlink. |
-
+```
+Usual hyperlink.
+```
 
 ---
 
 ### JumpFirstSlide {#JumpFirstSlide}
-| --- | --- | --- |
- | JumpFirstSlide | 2 | Jump to the first slide of the presentation. |
-
+```
+Jump to the first slide of the presentation.
+```
 
 ---
 
 ### JumpPreviousSlide {#JumpPreviousSlide}
-| --- | --- | --- |
- | JumpPreviousSlide | 3 | Jump to the previous slide. |
-
+```
+Jump to the previous slide.
+```
 
 ---
 
 ### JumpNextSlide {#JumpNextSlide}
-| --- | --- | --- |
- | JumpNextSlide | 4 | Jump to the next slide. |
-
+```
+Jump to the next slide.
+```
 
 ---
 
 ### JumpLastSlide {#JumpLastSlide}
-| --- | --- | --- |
- | JumpLastSlide | 5 | Jump to the last slide of the presentation. |
-
+```
+Jump to the last slide of the presentation.
+```
 
 ---
 
 ### JumpEndShow {#JumpEndShow}
-| --- | --- | --- |
- | JumpEndShow | 6 | Jump to the end of slideshow. |
-
+```
+Jump to the end of slideshow.
+```
 
 ---
 
 ### JumpLastViewedSlide {#JumpLastViewedSlide}
-| --- | --- | --- |
- | JumpLastViewedSlide | 7 | Jump to the last viewed slide. |
-
+```
+Jump to the last viewed slide.
+```
 
 ---
 
 ### JumpSpecificSlide {#JumpSpecificSlide}
-| --- | --- | --- |
- | JumpSpecificSlide | 8 | Jump to the specific slide, referred by ( IHyperlink#getTargetSlide) property. |
-
+```
+Jump to the specific slide, referred by ( IHyperlink#getTargetSlide) property.
+```
 
 ---
 
 ### StartCustomSlideShow {#StartCustomSlideShow}
-| --- | --- | --- |
- | StartCustomSlideShow | 9 | Start custom slideshow. |
-
+```
+Start custom slideshow.
+```
 
 ---
 
 ### OpenFile {#OpenFile}
-| --- | --- | --- |
- | OpenFile | 10 | Open referenced file. |
-
+```
+Open referenced file.
+```
 
 ---
 
 ### OpenPresentation {#OpenPresentation}
-| --- | --- | --- |
- | OpenPresentation | 11 | Open referenced presentation. |
-
+```
+Open referenced presentation.
+```
 
 ---
 
 ### StartStopMedia {#StartStopMedia}
-| --- | --- | --- |
- | StartStopMedia | 12 | Start/stop playing mediafile. |
-
+```
+Start/stop playing mediafile.
+```
 
 ---
 
 ### StartMacro {#StartMacro}
-| --- | --- | --- |
- | StartMacro | 13 | Start executing macro script. |
-
+```
+Start executing macro script.
+```
 
 ---
 
 ### StartProgram {#StartProgram}
-| --- | --- | --- |
- | StartProgram | 14 | Start program. |
-
+```
+Start program.
+```
 
 ---
 

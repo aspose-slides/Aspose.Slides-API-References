@@ -25,23 +25,23 @@ url: /aspose.slides/errorbartype/
 
 
 ### Both {#Both}
-| --- | --- | --- |
- | Both | 0 | Specifies that error bars shall be shown in the positive and negative directions. |
-
+```
+Specifies that error bars shall be shown in the positive and negative directions.
+```
 
 ---
 
 ### Minus {#Minus}
-| --- | --- | --- |
- | Minus | 1 | Specifies that error bars shall be shown in the negative direction only. |
-
+```
+Specifies that error bars shall be shown in the negative direction only.
+```
 
 ---
 
 ### Plus {#Plus}
-| --- | --- | --- |
- | Plus | 2 | Specifies that error bars shall be shown in the positive direction only. |
-
+```
+Specifies that error bars shall be shown in the positive direction only.
+```
 
 ---
 

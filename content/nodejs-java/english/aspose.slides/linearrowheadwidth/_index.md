@@ -26,30 +26,30 @@ url: /aspose.slides/linearrowheadwidth/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Narrow {#Narrow}
-| --- | --- | --- |
- | Narrow | 0 |  |
+```
 
+```
 
 ---
 
 ### Medium {#Medium}
-| --- | --- | --- |
- | Medium | 1 |  |
+```
 
+```
 
 ---
 
 ### Wide {#Wide}
-| --- | --- | --- |
- | Wide | 2 |  |
+```
 
+```
 
 ---
 

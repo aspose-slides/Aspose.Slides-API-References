@@ -58,254 +58,254 @@ url: /aspose.slides/slidelayouttype/
 
 
 ### Custom {#Custom}
-| --- | --- | --- |
- | Custom | -1 | Custom |
-
+```
+Custom
+```
 
 ---
 
 ### Title {#Title}
-| --- | --- | --- |
- | Title | 0 | Title |
-
+```
+Title
+```
 
 ---
 
 ### Text {#Text}
-| --- | --- | --- |
- | Text | 1 | Text |
-
+```
+Text
+```
 
 ---
 
 ### TwoColumnText {#TwoColumnText}
-| --- | --- | --- |
- | TwoColumnText | 2 | Two Column Text |
-
+```
+Two Column Text
+```
 
 ---
 
 ### Table {#Table}
-| --- | --- | --- |
- | Table | 3 | Table |
-
+```
+Table
+```
 
 ---
 
 ### TextAndChart {#TextAndChart}
-| --- | --- | --- |
- | TextAndChart | 4 | Text and Chart |
-
+```
+Text and Chart
+```
 
 ---
 
 ### ChartAndText {#ChartAndText}
-| --- | --- | --- |
- | ChartAndText | 5 | Chart and Text |
-
+```
+Chart and Text
+```
 
 ---
 
 ### Diagram {#Diagram}
-| --- | --- | --- |
- | Diagram | 6 | Diagram |
-
+```
+Diagram
+```
 
 ---
 
 ### Chart {#Chart}
-| --- | --- | --- |
- | Chart | 7 | Chart |
-
+```
+Chart
+```
 
 ---
 
 ### TextAndClipArt {#TextAndClipArt}
-| --- | --- | --- |
- | TextAndClipArt | 8 | Text and Clip Art |
-
+```
+Text and Clip Art
+```
 
 ---
 
 ### ClipArtAndText {#ClipArtAndText}
-| --- | --- | --- |
- | ClipArtAndText | 9 | Clip Art and Text |
-
+```
+Clip Art and Text
+```
 
 ---
 
 ### TitleOnly {#TitleOnly}
-| --- | --- | --- |
- | TitleOnly | 10 | Title Only |
-
+```
+Title Only
+```
 
 ---
 
 ### Blank {#Blank}
-| --- | --- | --- |
- | Blank | 11 | Blank |
-
+```
+Blank
+```
 
 ---
 
 ### TextAndObject {#TextAndObject}
-| --- | --- | --- |
- | TextAndObject | 12 | Text and Object |
-
+```
+Text and Object
+```
 
 ---
 
 ### ObjectAndText {#ObjectAndText}
-| --- | --- | --- |
- | ObjectAndText | 13 | Object and Text |
-
+```
+Object and Text
+```
 
 ---
 
 ### Object {#Object}
-| --- | --- | --- |
- | Object | 14 | Object |
-
+```
+Object
+```
 
 ---
 
 ### TitleAndObject {#TitleAndObject}
-| --- | --- | --- |
- | TitleAndObject | 15 | Title and Object |
-
+```
+Title and Object
+```
 
 ---
 
 ### TextAndMedia {#TextAndMedia}
-| --- | --- | --- |
- | TextAndMedia | 16 | Text and Media |
-
+```
+Text and Media
+```
 
 ---
 
 ### MediaAndText {#MediaAndText}
-| --- | --- | --- |
- | MediaAndText | 17 | Media and Text |
-
+```
+Media and Text
+```
 
 ---
 
 ### ObjectOverText {#ObjectOverText}
-| --- | --- | --- |
- | ObjectOverText | 18 | Object over Text |
-
+```
+Object over Text
+```
 
 ---
 
 ### TextOverObject {#TextOverObject}
-| --- | --- | --- |
- | TextOverObject | 19 | Text over Object |
-
+```
+Text over Object
+```
 
 ---
 
 ### TextAndTwoObjects {#TextAndTwoObjects}
-| --- | --- | --- |
- | TextAndTwoObjects | 20 | Text and Two Objects |
-
+```
+Text and Two Objects
+```
 
 ---
 
 ### TwoObjectsAndText {#TwoObjectsAndText}
-| --- | --- | --- |
- | TwoObjectsAndText | 21 | Two Objects and Text |
-
+```
+Two Objects and Text
+```
 
 ---
 
 ### TwoObjectsOverText {#TwoObjectsOverText}
-| --- | --- | --- |
- | TwoObjectsOverText | 22 | Two Objects over Text |
-
+```
+Two Objects over Text
+```
 
 ---
 
 ### FourObjects {#FourObjects}
-| --- | --- | --- |
- | FourObjects | 23 | Four Objects |
-
+```
+Four Objects
+```
 
 ---
 
 ### VerticalText {#VerticalText}
-| --- | --- | --- |
- | VerticalText | 24 | Vertical Text |
-
+```
+Vertical Text
+```
 
 ---
 
 ### ClipArtAndVerticalText {#ClipArtAndVerticalText}
-| --- | --- | --- |
- | ClipArtAndVerticalText | 25 | Clip Art and Vertical Text |
-
+```
+Clip Art and Vertical Text
+```
 
 ---
 
 ### VerticalTitleAndText {#VerticalTitleAndText}
-| --- | --- | --- |
- | VerticalTitleAndText | 26 | Vertical Title and Text |
-
+```
+Vertical Title and Text
+```
 
 ---
 
 ### VerticalTitleAndTextOverChart {#VerticalTitleAndTextOverChart}
-| --- | --- | --- |
- | VerticalTitleAndTextOverChart | 27 | Vertical Title and Text Over Chart |
-
+```
+Vertical Title and Text Over Chart
+```
 
 ---
 
 ### TwoObjects {#TwoObjects}
-| --- | --- | --- |
- | TwoObjects | 28 | Two Objects |
-
+```
+Two Objects
+```
 
 ---
 
 ### ObjectAndTwoObject {#ObjectAndTwoObject}
-| --- | --- | --- |
- | ObjectAndTwoObject | 29 | Object and Two Object |
-
+```
+Object and Two Object
+```
 
 ---
 
 ### TwoObjectsAndObject {#TwoObjectsAndObject}
-| --- | --- | --- |
- | TwoObjectsAndObject | 30 | Two Objects and Object |
-
+```
+Two Objects and Object
+```
 
 ---
 
 ### SectionHeader {#SectionHeader}
-| --- | --- | --- |
- | SectionHeader | 31 | Section Header |
-
+```
+Section Header
+```
 
 ---
 
 ### TwoTextAndTwoObjects {#TwoTextAndTwoObjects}
-| --- | --- | --- |
- | TwoTextAndTwoObjects | 32 | Two Text and Two Objects |
-
+```
+Two Text and Two Objects
+```
 
 ---
 
 ### TitleObjectAndCaption {#TitleObjectAndCaption}
-| --- | --- | --- |
- | TitleObjectAndCaption | 33 | Title, Object, and Caption |
-
+```
+Title, Object, and Caption
+```
 
 ---
 
 ### PictureAndCaption {#PictureAndCaption}
-| --- | --- | --- |
- | PictureAndCaption | 34 | Picture and Caption |
-
+```
+Picture and Caption
+```
 
 ---
 

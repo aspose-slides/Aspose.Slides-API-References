@@ -28,44 +28,44 @@ url: /aspose.slides/textanchortype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Top {#Top}
-| --- | --- | --- |
- | Top | 0 |  |
+```
 
+```
 
 ---
 
 ### Center {#Center}
-| --- | --- | --- |
- | Center | 1 |  |
+```
 
+```
 
 ---
 
 ### Bottom {#Bottom}
-| --- | --- | --- |
- | Bottom | 2 |  |
+```
 
+```
 
 ---
 
 ### Justified {#Justified}
-| --- | --- | --- |
- | Justified | 3 |  |
+```
 
+```
 
 ---
 
 ### Distributed {#Distributed}
-| --- | --- | --- |
- | Distributed | 4 |  |
+```
 
+```
 
 ---
 

@@ -23,9 +23,9 @@ url: /aspose.slides/colorstringformat/
 
 
 ### Vml {#Vml}
-| --- | --- | --- |
- | Vml | 0 | VML color string format. |
-
+```
+VML color string format.
+```
 
 ---
 

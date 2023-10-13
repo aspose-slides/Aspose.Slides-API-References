@@ -48,184 +48,184 @@ url: /aspose.slides/mathfunctionsofoneargument/
 
 
 ### Sin {#Sin}
-| --- | --- | --- |
- | Sin | 0 | Sine |
-
+```
+Sine
+```
 
 ---
 
 ### Cos {#Cos}
-| --- | --- | --- |
- | Cos | 1 | Cosine |
-
+```
+Cosine
+```
 
 ---
 
 ### Tan {#Tan}
-| --- | --- | --- |
- | Tan | 2 | Tangent |
-
+```
+Tangent
+```
 
 ---
 
 ### Csc {#Csc}
-| --- | --- | --- |
- | Csc | 3 | ?osecant |
-
+```
+?osecant
+```
 
 ---
 
 ### Sec {#Sec}
-| --- | --- | --- |
- | Sec | 4 | Secant |
-
+```
+Secant
+```
 
 ---
 
 ### Cot {#Cot}
-| --- | --- | --- |
- | Cot | 5 | Cotangent |
-
+```
+Cotangent
+```
 
 ---
 
 ### HyperbolicSin {#HyperbolicSin}
-| --- | --- | --- |
- | HyperbolicSin | 6 | Hyperbolic sine |
-
+```
+Hyperbolic sine
+```
 
 ---
 
 ### HyperbolicCos {#HyperbolicCos}
-| --- | --- | --- |
- | HyperbolicCos | 7 | Hyperbolic Cosine |
-
+```
+Hyperbolic Cosine
+```
 
 ---
 
 ### HyperbolicTan {#HyperbolicTan}
-| --- | --- | --- |
- | HyperbolicTan | 8 | Hyperbolic Tangent |
-
+```
+Hyperbolic Tangent
+```
 
 ---
 
 ### HyperbolicCsc {#HyperbolicCsc}
-| --- | --- | --- |
- | HyperbolicCsc | 9 | Hyperbolic ?osecant |
-
+```
+Hyperbolic ?osecant
+```
 
 ---
 
 ### HyperbolicSec {#HyperbolicSec}
-| --- | --- | --- |
- | HyperbolicSec | 10 | Hyperbolic Secant |
-
+```
+Hyperbolic Secant
+```
 
 ---
 
 ### HyperbolicCot {#HyperbolicCot}
-| --- | --- | --- |
- | HyperbolicCot | 11 | Hyperbolic Cotangent |
-
+```
+Hyperbolic Cotangent
+```
 
 ---
 
 ### Lg {#Lg}
-| --- | --- | --- |
- | Lg | 12 | Decimal logarithm |
-
+```
+Decimal logarithm
+```
 
 ---
 
 ### Ln {#Ln}
-| --- | --- | --- |
- | Ln | 13 | Natural logarithm |
-
+```
+Natural logarithm
+```
 
 ---
 
 ### ArcSin {#ArcSin}
-| --- | --- | --- |
- | ArcSin | 14 | Arcsine |
-
+```
+Arcsine
+```
 
 ---
 
 ### ArcCos {#ArcCos}
-| --- | --- | --- |
- | ArcCos | 15 | Arccosine |
-
+```
+Arccosine
+```
 
 ---
 
 ### ArcTan {#ArcTan}
-| --- | --- | --- |
- | ArcTan | 16 | Arctangent |
-
+```
+Arctangent
+```
 
 ---
 
 ### ArcCsc {#ArcCsc}
-| --- | --- | --- |
- | ArcCsc | 17 | Arccosecant |
-
+```
+Arccosecant
+```
 
 ---
 
 ### ArcSec {#ArcSec}
-| --- | --- | --- |
- | ArcSec | 18 | Arcsecant |
-
+```
+Arcsecant
+```
 
 ---
 
 ### ArcCot {#ArcCot}
-| --- | --- | --- |
- | ArcCot | 19 | Arccotangent |
-
+```
+Arccotangent
+```
 
 ---
 
 ### HyperbolicArcSin {#HyperbolicArcSin}
-| --- | --- | --- |
- | HyperbolicArcSin | 20 | Hyperbolic arcsine |
-
+```
+Hyperbolic arcsine
+```
 
 ---
 
 ### HyperbolicArcCos {#HyperbolicArcCos}
-| --- | --- | --- |
- | HyperbolicArcCos | 21 | Hyperbolic arccosine |
-
+```
+Hyperbolic arccosine
+```
 
 ---
 
 ### HyperbolicArcTan {#HyperbolicArcTan}
-| --- | --- | --- |
- | HyperbolicArcTan | 22 | Hyperbolic arctangent |
-
+```
+Hyperbolic arctangent
+```
 
 ---
 
 ### HyperbolicArcCsc {#HyperbolicArcCsc}
-| --- | --- | --- |
- | HyperbolicArcCsc | 23 | Hyperbolic arccosecant |
-
+```
+Hyperbolic arccosecant
+```
 
 ---
 
 ### HyperbolicArcSec {#HyperbolicArcSec}
-| --- | --- | --- |
- | HyperbolicArcSec | 24 | Hyperbolic arcsecant |
-
+```
+Hyperbolic arcsecant
+```
 
 ---
 
 ### HyperbolicArcCot {#HyperbolicArcCot}
-| --- | --- | --- |
- | HyperbolicArcCot | 25 | Hyperbolic arccotangent |
-
+```
+Hyperbolic arccotangent
+```
 
 ---
 

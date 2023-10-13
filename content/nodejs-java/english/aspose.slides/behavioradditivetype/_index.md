@@ -28,44 +28,44 @@ url: /aspose.slides/behavioradditivetype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 |  |
+```
 
+```
 
 ---
 
 ### Base {#Base}
-| --- | --- | --- |
- | Base | 1 |  |
+```
 
+```
 
 ---
 
 ### Sum {#Sum}
-| --- | --- | --- |
- | Sum | 2 |  |
+```
 
+```
 
 ---
 
 ### Replace {#Replace}
-| --- | --- | --- |
- | Replace | 3 |  |
+```
 
+```
 
 ---
 
 ### Multiply {#Multiply}
-| --- | --- | --- |
- | Multiply | 4 |  |
+```
 
+```
 
 ---
 

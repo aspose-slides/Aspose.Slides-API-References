@@ -26,30 +26,30 @@ url: /aspose.slides/picturetype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 | Not defined. |
-
+```
+Not defined.
+```
 
 ---
 
 ### Stack {#Stack}
-| --- | --- | --- |
- | Stack | 0 | The picture is sized to repeat a maximum of 15 times in the longest stacked bar. |
-
+```
+The picture is sized to repeat a maximum of 15 times in the longest stacked bar.
+```
 
 ---
 
 ### StackScale {#StackScale}
-| --- | --- | --- |
- | StackScale | 1 | The picture is sized to a specified number of units and repeated the length of the bar. |
-
+```
+The picture is sized to a specified number of units and repeated the length of the bar.
+```
 
 ---
 
 ### Stretch {#Stretch}
-| --- | --- | --- |
- | Stretch | 2 | The picture is stretched the full length of the stacked bar. |
-
+```
+The picture is stretched the full length of the stacked bar.
+```
 
 ---
 

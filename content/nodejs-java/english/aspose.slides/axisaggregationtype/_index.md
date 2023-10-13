@@ -26,30 +26,30 @@ url: /aspose.slides/axisaggregationtype/
 
 
 ### ByCategory {#ByCategory}
-| --- | --- | --- |
- | ByCategory | 0 | Aggregate by categories |
-
+```
+Aggregate by categories
+```
 
 ---
 
 ### Automatic {#Automatic}
-| --- | --- | --- |
- | Automatic | 1 | Aggregate categories automatically. |
-
+```
+Aggregate categories automatically.
+```
 
 ---
 
 ### ByBinWidth {#ByBinWidth}
-| --- | --- | --- |
- | ByBinWidth | 2 | Aggregate categories by bin width. Property IAxis.BinWidth must be setted. |
-
+```
+Aggregate categories by bin width. Property IAxis.BinWidth must be setted.
+```
 
 ---
 
 ### ByNumberOfBins {#ByNumberOfBins}
-| --- | --- | --- |
- | ByNumberOfBins | 3 | Aggregate categories by number of bins. Property IAxis.NumberOfBins must be setted. |
-
+```
+Aggregate categories by number of bins. Property IAxis.NumberOfBins must be setted.
+```
 
 ---
 

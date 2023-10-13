@@ -65,303 +65,303 @@ url: /aspose.slides/textshapetype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 | Not defined |
-
+```
+Not defined
+```
 
 ---
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 | No shape |
-
+```
+No shape
+```
 
 ---
 
 ### Plain {#Plain}
-| --- | --- | --- |
- | Plain | 1 | Plain |
-
+```
+Plain
+```
 
 ---
 
 ### Stop {#Stop}
-| --- | --- | --- |
- | Stop | 2 | Stop Sign |
-
+```
+Stop Sign
+```
 
 ---
 
 ### Triangle {#Triangle}
-| --- | --- | --- |
- | Triangle | 3 | Triangle |
-
+```
+Triangle
+```
 
 ---
 
 ### TriangleInverted {#TriangleInverted}
-| --- | --- | --- |
- | TriangleInverted | 4 | Inverted Triangle |
-
+```
+Inverted Triangle
+```
 
 ---
 
 ### Chevron {#Chevron}
-| --- | --- | --- |
- | Chevron | 5 | Chevron |
-
+```
+Chevron
+```
 
 ---
 
 ### ChevronInverted {#ChevronInverted}
-| --- | --- | --- |
- | ChevronInverted | 6 | Inverted Chevron |
-
+```
+Inverted Chevron
+```
 
 ---
 
 ### RingInside {#RingInside}
-| --- | --- | --- |
- | RingInside | 7 | Inside Ring |
-
+```
+Inside Ring
+```
 
 ---
 
 ### RingOutside {#RingOutside}
-| --- | --- | --- |
- | RingOutside | 8 | Outside Ring |
-
+```
+Outside Ring
+```
 
 ---
 
 ### ArchUp {#ArchUp}
-| --- | --- | --- |
- | ArchUp | 9 | Upward Arch |
-
+```
+Upward Arch
+```
 
 ---
 
 ### ArchDown {#ArchDown}
-| --- | --- | --- |
- | ArchDown | 10 | Downward Arch |
-
+```
+Downward Arch
+```
 
 ---
 
 ### Circle {#Circle}
-| --- | --- | --- |
- | Circle | 11 | Circle |
-
+```
+Circle
+```
 
 ---
 
 ### Button {#Button}
-| --- | --- | --- |
- | Button | 12 | Button |
-
+```
+Button
+```
 
 ---
 
 ### ArchUpPour {#ArchUpPour}
-| --- | --- | --- |
- | ArchUpPour | 13 | Upward Pour Arch |
-
+```
+Upward Pour Arch
+```
 
 ---
 
 ### ArchDownPour {#ArchDownPour}
-| --- | --- | --- |
- | ArchDownPour | 14 | Downward Pour Arch |
-
+```
+Downward Pour Arch
+```
 
 ---
 
 ### CirclePour {#CirclePour}
-| --- | --- | --- |
- | CirclePour | 15 | Circle Pour |
-
+```
+Circle Pour
+```
 
 ---
 
 ### ButtonPour {#ButtonPour}
-| --- | --- | --- |
- | ButtonPour | 16 | Button Pour |
-
+```
+Button Pour
+```
 
 ---
 
 ### CurveUp {#CurveUp}
-| --- | --- | --- |
- | CurveUp | 17 | Upward Curve |
-
+```
+Upward Curve
+```
 
 ---
 
 ### CurveDown {#CurveDown}
-| --- | --- | --- |
- | CurveDown | 18 | Downward Curve |
-
+```
+Downward Curve
+```
 
 ---
 
 ### CanUp {#CanUp}
-| --- | --- | --- |
- | CanUp | 19 | Upward Can |
-
+```
+Upward Can
+```
 
 ---
 
 ### CanDown {#CanDown}
-| --- | --- | --- |
- | CanDown | 20 | Downward Can |
-
+```
+Downward Can
+```
 
 ---
 
 ### Wave1 {#Wave1}
-| --- | --- | --- |
- | Wave1 | 21 | Wave 1 |
-
+```
+Wave 1
+```
 
 ---
 
 ### Wave2 {#Wave2}
-| --- | --- | --- |
- | Wave2 | 22 | Wave 2 |
-
+```
+Wave 2
+```
 
 ---
 
 ### DoubleWave1 {#DoubleWave1}
-| --- | --- | --- |
- | DoubleWave1 | 23 | Double Wave 1 |
-
+```
+Double Wave 1
+```
 
 ---
 
 ### Wave4 {#Wave4}
-| --- | --- | --- |
- | Wave4 | 24 | Wave 4 |
-
+```
+Wave 4
+```
 
 ---
 
 ### Inflate {#Inflate}
-| --- | --- | --- |
- | Inflate | 25 | Inflate |
-
+```
+Inflate
+```
 
 ---
 
 ### Deflate {#Deflate}
-| --- | --- | --- |
- | Deflate | 26 | Deflate |
-
+```
+Deflate
+```
 
 ---
 
 ### InflateBottom {#InflateBottom}
-| --- | --- | --- |
- | InflateBottom | 27 | Bottom Inflate |
-
+```
+Bottom Inflate
+```
 
 ---
 
 ### DeflateBottom {#DeflateBottom}
-| --- | --- | --- |
- | DeflateBottom | 28 | Bottom Deflate |
-
+```
+Bottom Deflate
+```
 
 ---
 
 ### InflateTop {#InflateTop}
-| --- | --- | --- |
- | InflateTop | 29 | Top Inflate |
-
+```
+Top Inflate
+```
 
 ---
 
 ### DeflateTop {#DeflateTop}
-| --- | --- | --- |
- | DeflateTop | 30 | Top Deflate |
-
+```
+Top Deflate
+```
 
 ---
 
 ### DeflateInflate {#DeflateInflate}
-| --- | --- | --- |
- | DeflateInflate | 31 | Deflate-Inflate |
-
+```
+Deflate-Inflate
+```
 
 ---
 
 ### DeflateInflateDeflate {#DeflateInflateDeflate}
-| --- | --- | --- |
- | DeflateInflateDeflate | 32 | Deflate-Inflate-Deflate |
-
+```
+Deflate-Inflate-Deflate
+```
 
 ---
 
 ### FadeRight {#FadeRight}
-| --- | --- | --- |
- | FadeRight | 33 | Right Fade |
-
+```
+Right Fade
+```
 
 ---
 
 ### FadeLeft {#FadeLeft}
-| --- | --- | --- |
- | FadeLeft | 34 | Left Fade |
-
+```
+Left Fade
+```
 
 ---
 
 ### FadeUp {#FadeUp}
-| --- | --- | --- |
- | FadeUp | 35 | Upward Fade |
-
+```
+Upward Fade
+```
 
 ---
 
 ### FadeDown {#FadeDown}
-| --- | --- | --- |
- | FadeDown | 36 | Downward Fade |
-
+```
+Downward Fade
+```
 
 ---
 
 ### SlantUp {#SlantUp}
-| --- | --- | --- |
- | SlantUp | 37 | Upward Slant |
-
+```
+Upward Slant
+```
 
 ---
 
 ### SlantDown {#SlantDown}
-| --- | --- | --- |
- | SlantDown | 38 | Downward Slant |
-
+```
+Downward Slant
+```
 
 ---
 
 ### CascadeUp {#CascadeUp}
-| --- | --- | --- |
- | CascadeUp | 39 | Upward Cascade |
-
+```
+Upward Cascade
+```
 
 ---
 
 ### CascadeDown {#CascadeDown}
-| --- | --- | --- |
- | CascadeDown | 40 | Downward Cascade |
-
+```
+Downward Cascade
+```
 
 ---
 
 ### Custom {#Custom}
-| --- | --- | --- |
- | Custom | 41 | Custom |
-
+```
+Custom
+```
 
 ---
 

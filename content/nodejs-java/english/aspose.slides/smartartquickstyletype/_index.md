@@ -36,100 +36,100 @@ url: /aspose.slides/smartartquickstyletype/
 
 
 ### SimpleFill {#SimpleFill}
-| --- | --- | --- |
- | SimpleFill | 0 | SimpleFill |
-
+```
+SimpleFill
+```
 
 ---
 
 ### WhiteOutline {#WhiteOutline}
-| --- | --- | --- |
- | WhiteOutline | 1 | WhiteOutline |
-
+```
+WhiteOutline
+```
 
 ---
 
 ### SubtleEffect {#SubtleEffect}
-| --- | --- | --- |
- | SubtleEffect | 2 | SubtleEffect |
-
+```
+SubtleEffect
+```
 
 ---
 
 ### ModerateEffect {#ModerateEffect}
-| --- | --- | --- |
- | ModerateEffect | 3 | ModerateEffect |
-
+```
+ModerateEffect
+```
 
 ---
 
 ### IntenceEffect {#IntenceEffect}
-| --- | --- | --- |
- | IntenceEffect | 4 | IntenceEffect |
-
+```
+IntenceEffect
+```
 
 ---
 
 ### Polished {#Polished}
-| --- | --- | --- |
- | Polished | 5 | Polished |
-
+```
+Polished
+```
 
 ---
 
 ### Inset {#Inset}
-| --- | --- | --- |
- | Inset | 6 | Inset |
-
+```
+Inset
+```
 
 ---
 
 ### Cartoon {#Cartoon}
-| --- | --- | --- |
- | Cartoon | 7 | Cartoon |
-
+```
+Cartoon
+```
 
 ---
 
 ### Powder {#Powder}
-| --- | --- | --- |
- | Powder | 8 | Powder |
-
+```
+Powder
+```
 
 ---
 
 ### BrickScene {#BrickScene}
-| --- | --- | --- |
- | BrickScene | 9 | BrickScene |
-
+```
+BrickScene
+```
 
 ---
 
 ### FlatScene {#FlatScene}
-| --- | --- | --- |
- | FlatScene | 10 | FlatScene |
-
+```
+FlatScene
+```
 
 ---
 
 ### MetallicScene {#MetallicScene}
-| --- | --- | --- |
- | MetallicScene | 11 | MetallicScene |
-
+```
+MetallicScene
+```
 
 ---
 
 ### SunsetScene {#SunsetScene}
-| --- | --- | --- |
- | SunsetScene | 12 | SunsetScene |
-
+```
+SunsetScene
+```
 
 ---
 
 ### BirdsEyeScene {#BirdsEyeScene}
-| --- | --- | --- |
- | BirdsEyeScene | 13 | BirdsEyeScene |
-
+```
+BirdsEyeScene
+```
 
 ---
 

@@ -26,30 +26,30 @@ url: /aspose.slides/textverticaloverflowtype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Overflow {#Overflow}
-| --- | --- | --- |
- | Overflow | 0 |  |
+```
 
+```
 
 ---
 
 ### Ellipsis {#Ellipsis}
-| --- | --- | --- |
- | Ellipsis | 1 |  |
+```
 
+```
 
 ---
 
 ### Clip {#Clip}
-| --- | --- | --- |
- | Clip | 2 |  |
+```
 
+```
 
 ---
 

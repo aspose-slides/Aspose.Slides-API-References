@@ -33,79 +33,79 @@ url: /aspose.slides/displayunittype/
 
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 | Values will dislayed as is. |
-
+```
+Values will dislayed as is.
+```
 
 ---
 
 ### Hundreds {#Hundreds}
-| --- | --- | --- |
- | Hundreds | 1 | Specifies the values on the chart shall be divided by 100. |
-
+```
+Specifies the values on the chart shall be divided by 100.
+```
 
 ---
 
 ### Thousands {#Thousands}
-| --- | --- | --- |
- | Thousands | 2 | Specifies the values on the chart shall be divided by 1,000. |
-
+```
+Specifies the values on the chart shall be divided by 1,000.
+```
 
 ---
 
 ### TenThousands {#TenThousands}
-| --- | --- | --- |
- | TenThousands | 3 | Specifies the values on the chart shall be divided by 10,000. |
-
+```
+Specifies the values on the chart shall be divided by 10,000.
+```
 
 ---
 
 ### HundredThousands {#HundredThousands}
-| --- | --- | --- |
- | HundredThousands | 4 | Specifies the values on the chart shall be divided by 100,000. |
-
+```
+Specifies the values on the chart shall be divided by 100,000.
+```
 
 ---
 
 ### Millions {#Millions}
-| --- | --- | --- |
- | Millions | 5 | Specifies the values on the chart shall be divided by 1,000,000. |
-
+```
+Specifies the values on the chart shall be divided by 1,000,000.
+```
 
 ---
 
 ### TenMillions {#TenMillions}
-| --- | --- | --- |
- | TenMillions | 6 | Specifies the values on the chart shall be divided by 10,000,000. |
-
+```
+Specifies the values on the chart shall be divided by 10,000,000.
+```
 
 ---
 
 ### HundredMillions {#HundredMillions}
-| --- | --- | --- |
- | HundredMillions | 7 | Specifies the values on the chart shall be divided by 100,000,000. |
-
+```
+Specifies the values on the chart shall be divided by 100,000,000.
+```
 
 ---
 
 ### Billions {#Billions}
-| --- | --- | --- |
- | Billions | 8 | Specifies the values on the chart shall be divided by 1,000,000,000. |
-
+```
+Specifies the values on the chart shall be divided by 1,000,000,000.
+```
 
 ---
 
 ### Trillions {#Trillions}
-| --- | --- | --- |
- | Trillions | 9 | Specifies the values on the chart shall be divided by 1,000,000,000. |
-
+```
+Specifies the values on the chart shall be divided by 1,000,000,000.
+```
 
 ---
 
 ### CustomValue {#CustomValue}
-| --- | --- | --- |
- | CustomValue | 10 | Specifies the values on the chart shall be divided by a custom value. |
-
+```
+Specifies the values on the chart shall be divided by a custom value.
+```
 
 ---
 

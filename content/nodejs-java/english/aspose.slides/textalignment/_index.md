@@ -29,51 +29,51 @@ url: /aspose.slides/textalignment/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 | Default aligment. |
-
+```
+Default aligment.
+```
 
 ---
 
 ### Left {#Left}
-| --- | --- | --- |
- | Left | 0 | Left alignment. |
-
+```
+Left alignment.
+```
 
 ---
 
 ### Center {#Center}
-| --- | --- | --- |
- | Center | 1 | Center alignment. |
-
+```
+Center alignment.
+```
 
 ---
 
 ### Right {#Right}
-| --- | --- | --- |
- | Right | 2 | Right alignment. |
-
+```
+Right alignment.
+```
 
 ---
 
 ### Justify {#Justify}
-| --- | --- | --- |
- | Justify | 3 | Justify alignment. |
-
+```
+Justify alignment.
+```
 
 ---
 
 ### JustifyLow {#JustifyLow}
-| --- | --- | --- |
- | JustifyLow | 4 | Kashida justify low. |
-
+```
+Kashida justify low.
+```
 
 ---
 
 ### Distributed {#Distributed}
-| --- | --- | --- |
- | Distributed | 5 | Distributed alignment. |
-
+```
+Distributed alignment.
+```
 
 ---
 

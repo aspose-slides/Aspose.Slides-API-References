@@ -25,23 +25,23 @@ url: /aspose.slides/commentspositions/
 
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 | Specifies that comments should not be displayed at all. |
-
+```
+Specifies that comments should not be displayed at all.
+```
 
 ---
 
 ### Bottom {#Bottom}
-| --- | --- | --- |
- | Bottom | 1 | Specifies that comments should be displayed at the bottom of the page. |
-
+```
+Specifies that comments should be displayed at the bottom of the page.
+```
 
 ---
 
 ### Right {#Right}
-| --- | --- | --- |
- | Right | 2 | Specifies that comments should be displayed to the right of the page. |
-
+```
+Specifies that comments should be displayed to the right of the page.
+```
 
 ---
 

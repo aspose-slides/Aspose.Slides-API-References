@@ -26,30 +26,30 @@ url: /aspose.slides/linecapstyle/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Round {#Round}
-| --- | --- | --- |
- | Round | 0 |  |
+```
 
+```
 
 ---
 
 ### Square {#Square}
-| --- | --- | --- |
- | Square | 1 |  |
+```
 
+```
 
 ---
 
 ### Flat {#Flat}
-| --- | --- | --- |
- | Flat | 2 |  |
+```
 
+```
 
 ---
 

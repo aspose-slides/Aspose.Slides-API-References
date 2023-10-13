@@ -26,30 +26,30 @@ url: /aspose.slides/textautofittype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 | Not defined. |
-
+```
+Not defined.
+```
 
 ---
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 | No autofit. |
-
+```
+No autofit.
+```
 
 ---
 
 ### Normal {#Normal}
-| --- | --- | --- |
- | Normal | 1 | Normal autofit. Font size and line spacing will be reduced to fit the shape. |
-
+```
+Normal autofit. Font size and line spacing will be reduced to fit the shape.
+```
 
 ---
 
 ### Shape {#Shape}
-| --- | --- | --- |
- | Shape | 2 | Shape autofit. Shape size will be changed to fit the text. |
-
+```
+Shape autofit. Shape size will be changed to fit the text.
+```
 
 ---
 

@@ -26,30 +26,30 @@ url: /aspose.slides/mathfractiontypes/
 
 
 ### Bar {#Bar}
-| --- | --- | --- |
- | Bar | 1 | Bar Fraction |
-
+```
+Bar Fraction
+```
 
 ---
 
 ### Skewed {#Skewed}
-| --- | --- | --- |
- | Skewed | 2 | Skewed |
-
+```
+Skewed
+```
 
 ---
 
 ### Linear {#Linear}
-| --- | --- | --- |
- | Linear | 3 | Linear Fraction |
-
+```
+Linear Fraction
+```
 
 ---
 
 ### NoBar {#NoBar}
-| --- | --- | --- |
- | NoBar | 4 | No-Bar Fraction (Stack) |
-
+```
+No-Bar Fraction (Stack)
+```
 
 ---
 

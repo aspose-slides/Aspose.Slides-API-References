@@ -38,114 +38,114 @@ url: /aspose.slides/placeholdertype/
 
 
 ### Title {#Title}
-| --- | --- | --- |
- | Title | 0 | Title. |
-
+```
+Title.
+```
 
 ---
 
 ### Body {#Body}
-| --- | --- | --- |
- | Body | 1 | Body. |
-
+```
+Body.
+```
 
 ---
 
 ### CenteredTitle {#CenteredTitle}
-| --- | --- | --- |
- | CenteredTitle | 2 | Centered Title. |
-
+```
+Centered Title.
+```
 
 ---
 
 ### Subtitle {#Subtitle}
-| --- | --- | --- |
- | Subtitle | 3 | Subtitle. |
-
+```
+Subtitle.
+```
 
 ---
 
 ### DateAndTime {#DateAndTime}
-| --- | --- | --- |
- | DateAndTime | 4 | Date and Time. |
-
+```
+Date and Time.
+```
 
 ---
 
 ### SlideNumber {#SlideNumber}
-| --- | --- | --- |
- | SlideNumber | 5 | Slide Number. |
-
+```
+Slide Number.
+```
 
 ---
 
 ### Footer {#Footer}
-| --- | --- | --- |
- | Footer | 6 | Footer. |
-
+```
+Footer.
+```
 
 ---
 
 ### Header {#Header}
-| --- | --- | --- |
- | Header | 7 | Header. |
-
+```
+Header.
+```
 
 ---
 
 ### Object {#Object}
-| --- | --- | --- |
- | Object | 8 | Object. |
-
+```
+Object.
+```
 
 ---
 
 ### Chart {#Chart}
-| --- | --- | --- |
- | Chart | 9 | Chart. |
-
+```
+Chart.
+```
 
 ---
 
 ### Table {#Table}
-| --- | --- | --- |
- | Table | 10 | Table. |
-
+```
+Table.
+```
 
 ---
 
 ### ClipArt {#ClipArt}
-| --- | --- | --- |
- | ClipArt | 11 | Clip Art. |
-
+```
+Clip Art.
+```
 
 ---
 
 ### Diagram {#Diagram}
-| --- | --- | --- |
- | Diagram | 12 | Diagram. |
-
+```
+Diagram.
+```
 
 ---
 
 ### Media {#Media}
-| --- | --- | --- |
- | Media | 13 | Media. |
-
+```
+Media.
+```
 
 ---
 
 ### SlideImage {#SlideImage}
-| --- | --- | --- |
- | SlideImage | 14 | Slide Image. |
-
+```
+Slide Image.
+```
 
 ---
 
 ### Picture {#Picture}
-| --- | --- | --- |
- | Picture | 15 | Picture. |
-
+```
+Picture.
+```
 
 ---
 

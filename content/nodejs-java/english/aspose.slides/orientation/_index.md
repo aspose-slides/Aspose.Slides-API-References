@@ -24,16 +24,16 @@ url: /aspose.slides/orientation/
 
 
 ### Horizontal {#Horizontal}
-| --- | --- | --- |
- | Horizontal | 0 | Horizontal. |
-
+```
+Horizontal.
+```
 
 ---
 
 ### Vertical {#Vertical}
-| --- | --- | --- |
- | Vertical | 1 | Vertical. |
-
+```
+Vertical.
+```
 
 ---
 

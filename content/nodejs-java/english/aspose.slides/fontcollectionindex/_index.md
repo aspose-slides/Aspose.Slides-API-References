@@ -25,23 +25,23 @@ url: /aspose.slides/fontcollectionindex/
 
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 |  |
+```
 
+```
 
 ---
 
 ### Minor {#Minor}
-| --- | --- | --- |
- | Minor | 1 |  |
+```
 
+```
 
 ---
 
 ### Major {#Major}
-| --- | --- | --- |
- | Major | 2 |  |
+```
 
+```
 
 ---
 

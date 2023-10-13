@@ -25,23 +25,23 @@ url: /aspose.slides/resourceloadingaction/
 
 
 ### Default {#Default}
-| --- | --- | --- |
- | Default | 0 | Aspose.Slides will load external resource as usual. |
-
+```
+Aspose.Slides will load external resource as usual.
+```
 
 ---
 
 ### Skip {#Skip}
-| --- | --- | --- |
- | Skip | 1 | Aspose.Slides will skip loading of external resource. Only link without data will be stored for an image. |
-
+```
+Aspose.Slides will skip loading of external resource. Only link without data will be stored for an image.
+```
 
 ---
 
 ### UserProvided {#UserProvided}
-| --- | --- | --- |
- | UserProvided | 2 | Aspose.Slides will use byte array provided by user in IResourceLoadingArgs#setData(byte[]) as image data. |
-
+```
+Aspose.Slides will use byte array provided by user in IResourceLoadingArgs#setData(byte[]) as image data.
+```
 
 ---
 

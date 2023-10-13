@@ -27,37 +27,37 @@ url: /aspose.slides/transitioncornerandcenterdirectiontype/
 
 
 ### LeftDown {#LeftDown}
-| --- | --- | --- |
- | LeftDown | 0 |  |
+```
 
+```
 
 ---
 
 ### LeftUp {#LeftUp}
-| --- | --- | --- |
- | LeftUp | 1 |  |
+```
 
+```
 
 ---
 
 ### RightDown {#RightDown}
-| --- | --- | --- |
- | RightDown | 2 |  |
+```
 
+```
 
 ---
 
 ### RightUp {#RightUp}
-| --- | --- | --- |
- | RightUp | 3 |  |
+```
 
+```
 
 ---
 
 ### Center {#Center}
-| --- | --- | --- |
- | Center | 4 |  |
+```
 
+```
 
 ---
 

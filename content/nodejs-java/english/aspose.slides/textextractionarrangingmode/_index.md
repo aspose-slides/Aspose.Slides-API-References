@@ -24,16 +24,16 @@ url: /aspose.slides/textextractionarrangingmode/
 
 
 ### Unarranged {#Unarranged}
-| --- | --- | --- |
- | Unarranged | 0 | The raw text with no respect to position on the slide |
-
+```
+The raw text with no respect to position on the slide
+```
 
 ---
 
 ### Arranged {#Arranged}
-| --- | --- | --- |
- | Arranged | 1 | The text is positioned in the same order as on the slide |
-
+```
+The text is positioned in the same order as on the slide
+```
 
 ---
 

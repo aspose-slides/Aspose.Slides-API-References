@@ -24,16 +24,16 @@ url: /aspose.slides/chartdatasourcetype/
 
 
 ### InternalWorkbook {#InternalWorkbook}
-| --- | --- | --- |
- | InternalWorkbook | 0 | Internal data source. |
-
+```
+Internal data source.
+```
 
 ---
 
 ### ExternalWorkbook {#ExternalWorkbook}
-| --- | --- | --- |
- | ExternalWorkbook | 1 | External data source. |
-
+```
+External data source.
+```
 
 ---
 

@@ -30,51 +30,51 @@ url: /aspose.slides/mathnaryoperatortypes/
 
 
 ### Summation {#Summation}
-| --- | --- | --- |
- | Summation | 0 | Summation: '?' |
-
+```
+Summation: '?'
+```
 
 ---
 
 ### Product {#Product}
-| --- | --- | --- |
- | Product | 1 | Product: '?' |
-
+```
+Product: '?'
+```
 
 ---
 
 ### CoProduct {#CoProduct}
-| --- | --- | --- |
- | CoProduct | 2 | Coproduct: '?' |
-
+```
+Coproduct: '?'
+```
 
 ---
 
 ### Intersection {#Intersection}
-| --- | --- | --- |
- | Intersection | 3 | Intersection: '?' |
-
+```
+Intersection: '?'
+```
 
 ---
 
 ### Union {#Union}
-| --- | --- | --- |
- | Union | 4 | Union: '?' |
-
+```
+Union: '?'
+```
 
 ---
 
 ### LogicalAnd {#LogicalAnd}
-| --- | --- | --- |
- | LogicalAnd | 5 | Logical And: '?' |
-
+```
+Logical And: '?'
+```
 
 ---
 
 ### LogicalOr {#LogicalOr}
-| --- | --- | --- |
- | LogicalOr | 6 | Logical Or: '?' |
-
+```
+Logical Or: '?'
+```
 
 ---
 

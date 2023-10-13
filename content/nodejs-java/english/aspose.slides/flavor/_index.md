@@ -46,170 +46,170 @@ url: /aspose.slides/flavor/
 
 
 ### Github {#Github}
-| --- | --- | --- |
- | Github | 0 | Github flavor. |
-
+```
+Github flavor.
+```
 
 ---
 
 ### Gruber {#Gruber}
-| --- | --- | --- |
- | Gruber | 1 | Gruber flavor. |
-
+```
+Gruber flavor.
+```
 
 ---
 
 ### MultiMarkdown {#MultiMarkdown}
-| --- | --- | --- |
- | MultiMarkdown | 2 | Multi markdown flavor. |
-
+```
+Multi markdown flavor.
+```
 
 ---
 
 ### CommonMark {#CommonMark}
-| --- | --- | --- |
- | CommonMark | 3 | Common mark flavor. |
-
+```
+Common mark flavor.
+```
 
 ---
 
 ### MarkdownExtra {#MarkdownExtra}
-| --- | --- | --- |
- | MarkdownExtra | 4 | Markdown extra flavor. |
-
+```
+Markdown extra flavor.
+```
 
 ---
 
 ### Pandoc {#Pandoc}
-| --- | --- | --- |
- | Pandoc | 5 | Pandoc flavor. |
-
+```
+Pandoc flavor.
+```
 
 ---
 
 ### Kramdown {#Kramdown}
-| --- | --- | --- |
- | Kramdown | 6 | Kramdown flavor. |
-
+```
+Kramdown flavor.
+```
 
 ---
 
 ### Markua {#Markua}
-| --- | --- | --- |
- | Markua | 7 | Markua flavor. |
-
+```
+Markua flavor.
+```
 
 ---
 
 ### Maruku {#Maruku}
-| --- | --- | --- |
- | Maruku | 8 | Maruku flavor. |
-
+```
+Maruku flavor.
+```
 
 ---
 
 ### Markdown2 {#Markdown2}
-| --- | --- | --- |
- | Markdown2 | 9 | Markdown2 flavor. |
-
+```
+Markdown2 flavor.
+```
 
 ---
 
 ### Remarkable {#Remarkable}
-| --- | --- | --- |
- | Remarkable | 10 | Remarkable flavor |
-
+```
+Remarkable flavor
+```
 
 ---
 
 ### Showdown {#Showdown}
-| --- | --- | --- |
- | Showdown | 11 | Showdown flavor. |
-
+```
+Showdown flavor.
+```
 
 ---
 
 ### Ghost {#Ghost}
-| --- | --- | --- |
- | Ghost | 12 | Ghost flavor. |
-
+```
+Ghost flavor.
+```
 
 ---
 
 ### GitLab {#GitLab}
-| --- | --- | --- |
- | GitLab | 13 | Gitlab flavor. |
-
+```
+Gitlab flavor.
+```
 
 ---
 
 ### Haroopad {#Haroopad}
-| --- | --- | --- |
- | Haroopad | 14 | Haroopad flavor. |
-
+```
+Haroopad flavor.
+```
 
 ---
 
 ### IaWriter {#IaWriter}
-| --- | --- | --- |
- | IaWriter | 15 | IAWriter flavor. |
-
+```
+IAWriter flavor.
+```
 
 ---
 
 ### Redcarpet {#Redcarpet}
-| --- | --- | --- |
- | Redcarpet | 16 | Redcarpet flavor. |
-
+```
+Redcarpet flavor.
+```
 
 ---
 
 ### ScholarlyMarkdown {#ScholarlyMarkdown}
-| --- | --- | --- |
- | ScholarlyMarkdown | 17 | Scholarly markdown flavor. |
-
+```
+Scholarly markdown flavor.
+```
 
 ---
 
 ### Taiga {#Taiga}
-| --- | --- | --- |
- | Taiga | 18 | Taiga flavor. |
-
+```
+Taiga flavor.
+```
 
 ---
 
 ### Trello {#Trello}
-| --- | --- | --- |
- | Trello | 19 | Trello flavor. |
-
+```
+Trello flavor.
+```
 
 ---
 
 ### S9ETextFormatter {#S9ETextFormatter}
-| --- | --- | --- |
- | S9ETextFormatter | 20 | S9E text formatter flavor. |
-
+```
+S9E text formatter flavor.
+```
 
 ---
 
 ### XWiki {#XWiki}
-| --- | --- | --- |
- | XWiki | 21 | XWiki flavor. |
-
+```
+XWiki flavor.
+```
 
 ---
 
 ### StackOverflow {#StackOverflow}
-| --- | --- | --- |
- | StackOverflow | 22 | Stack overflow flavor. |
-
+```
+Stack overflow flavor.
+```
 
 ---
 
 ### Default {#Default}
-| --- | --- | --- |
- | Default | 23 | Default markdown flavor. |
-
+```
+Default markdown flavor.
+```
 
 ---
 

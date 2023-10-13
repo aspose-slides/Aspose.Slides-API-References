@@ -26,30 +26,30 @@ url: /aspose.slides/linejoinstyle/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Round {#Round}
-| --- | --- | --- |
- | Round | 0 |  |
+```
 
+```
 
 ---
 
 ### Bevel {#Bevel}
-| --- | --- | --- |
- | Bevel | 1 |  |
+```
 
+```
 
 ---
 
 ### Miter {#Miter}
-| --- | --- | --- |
- | Miter | 2 |  |
+```
 
+```
 
 ---
 

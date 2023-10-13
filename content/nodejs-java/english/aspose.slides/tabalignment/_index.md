@@ -26,30 +26,30 @@ url: /aspose.slides/tabalignment/
 
 
 ### Left {#Left}
-| --- | --- | --- |
- | Left | 0 | Left alignment |
-
+```
+Left alignment
+```
 
 ---
 
 ### Center {#Center}
-| --- | --- | --- |
- | Center | 1 | Center alignment |
-
+```
+Center alignment
+```
 
 ---
 
 ### Right {#Right}
-| --- | --- | --- |
- | Right | 2 | Right alignment |
-
+```
+Right alignment
+```
 
 ---
 
 ### Decimal {#Decimal}
-| --- | --- | --- |
- | Decimal | 3 | Decimal alignment |
-
+```
+Decimal alignment
+```
 
 ---
 

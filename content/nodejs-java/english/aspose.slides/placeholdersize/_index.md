@@ -25,23 +25,23 @@ url: /aspose.slides/placeholdersize/
 
 
 ### Full {#Full}
-| --- | --- | --- |
- | Full | 0 | Full. |
-
+```
+Full.
+```
 
 ---
 
 ### Half {#Half}
-| --- | --- | --- |
- | Half | 1 | Half. |
-
+```
+Half.
+```
 
 ---
 
 ### Quarter {#Quarter}
-| --- | --- | --- |
- | Quarter | 2 | Quarter. |
-
+```
+Quarter.
+```
 
 ---
 

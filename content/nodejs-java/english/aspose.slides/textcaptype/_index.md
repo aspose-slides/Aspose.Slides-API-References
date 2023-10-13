@@ -26,30 +26,30 @@ url: /aspose.slides/textcaptype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### None {#None}
-| --- | --- | --- |
- | None | 0 |  |
+```
 
+```
 
 ---
 
 ### Small {#Small}
-| --- | --- | --- |
- | Small | 1 |  |
+```
 
+```
 
 ---
 
 ### All {#All}
-| --- | --- | --- |
- | All | 2 |  |
+```
 
+```
 
 ---
 

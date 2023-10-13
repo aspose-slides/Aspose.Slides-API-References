@@ -35,93 +35,93 @@ url: /aspose.slides/bevelpresettype/
 
 
 ### NotDefined {#NotDefined}
-| --- | --- | --- |
- | NotDefined | -1 |  |
+```
 
+```
 
 ---
 
 ### Angle {#Angle}
-| --- | --- | --- |
- | Angle | 0 |  |
+```
 
+```
 
 ---
 
 ### ArtDeco {#ArtDeco}
-| --- | --- | --- |
- | ArtDeco | 1 |  |
+```
 
+```
 
 ---
 
 ### Circle {#Circle}
-| --- | --- | --- |
- | Circle | 2 |  |
+```
 
+```
 
 ---
 
 ### Convex {#Convex}
-| --- | --- | --- |
- | Convex | 3 |  |
+```
 
+```
 
 ---
 
 ### CoolSlant {#CoolSlant}
-| --- | --- | --- |
- | CoolSlant | 4 |  |
+```
 
+```
 
 ---
 
 ### Cross {#Cross}
-| --- | --- | --- |
- | Cross | 5 |  |
+```
 
+```
 
 ---
 
 ### Divot {#Divot}
-| --- | --- | --- |
- | Divot | 6 |  |
+```
 
+```
 
 ---
 
 ### HardEdge {#HardEdge}
-| --- | --- | --- |
- | HardEdge | 7 |  |
+```
 
+```
 
 ---
 
 ### RelaxedInset {#RelaxedInset}
-| --- | --- | --- |
- | RelaxedInset | 8 |  |
+```
 
+```
 
 ---
 
 ### Riblet {#Riblet}
-| --- | --- | --- |
- | Riblet | 9 |  |
+```
 
+```
 
 ---
 
 ### Slope {#Slope}
-| --- | --- | --- |
- | Slope | 10 |  |
+```
 
+```
 
 ---
 
 ### SoftRound {#SoftRound}
-| --- | --- | --- |
- | SoftRound | 11 |  |
+```
 
+```
 
 ---
 

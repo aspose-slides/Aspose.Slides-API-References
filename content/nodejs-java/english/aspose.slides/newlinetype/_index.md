@@ -25,23 +25,23 @@ url: /aspose.slides/newlinetype/
 
 
 ### Windows {#Windows}
-| --- | --- | --- |
- | Windows | 0 |  |
+```
 
+```
 
 ---
 
 ### Unix {#Unix}
-| --- | --- | --- |
- | Unix | 1 |  |
+```
 
+```
 
 ---
 
 ### Mac {#Mac}
-| --- | --- | --- |
- | Mac | 2 | Mac (OS 9) new line - \r |
-
+```
+Mac (OS 9) new line - \r
+```
 
 ---
 

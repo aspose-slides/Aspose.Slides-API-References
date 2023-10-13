@@ -26,30 +26,30 @@ url: /aspose.slides/afteranimationtype/
 
 
 ### DoNotDim {#DoNotDim}
-| --- | --- | --- |
- | DoNotDim | 0 | Don't Dim after animation type. |
-
+```
+Don't Dim after animation type.
+```
 
 ---
 
 ### Color {#Color}
-| --- | --- | --- |
- | Color | 1 | Color after animation type. |
-
+```
+Color after animation type.
+```
 
 ---
 
 ### HideAfterAnimation {#HideAfterAnimation}
-| --- | --- | --- |
- | HideAfterAnimation | 2 | Hide After Animation type |
-
+```
+Hide After Animation type
+```
 
 ---
 
 ### HideOnNextMouseClick {#HideOnNextMouseClick}
-| --- | --- | --- |
- | HideOnNextMouseClick | 3 | Hide on Next Mouse Click after animation type. |
-
+```
+Hide on Next Mouse Click after animation type.
+```
 
 ---
 

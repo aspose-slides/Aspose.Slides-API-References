@@ -25,23 +25,23 @@ url: /aspose.slides/crossestype/
 
 
 ### AxisCrossesAtZero {#AxisCrossesAtZero}
-| --- | --- | --- |
- | AxisCrossesAtZero | 0 | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
-
+```
+The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero).
+```
 
 ---
 
 ### Maximum {#Maximum}
-| --- | --- | --- |
- | Maximum | 1 | The axis crosses at the maximum value. |
-
+```
+The axis crosses at the maximum value.
+```
 
 ---
 
 ### Custom {#Custom}
-| --- | --- | --- |
- | Custom | 2 | Custom value from property CrossAt |
-
+```
+Custom value from property CrossAt
+```
 
 ---
 
