@@ -15,6 +15,15 @@ Creates empty set.
 System::Collections::Generic::HashSet<T>::HashSet()
 ```
 
+## HashSet::HashSet(int) constructor
+
+
+Creates empty set with specified capacity.
+
+```cpp
+System::Collections::Generic::HashSet<T>::HashSet(int capacity)
+```
+
 ## HashSet::HashSet(const SharedPtr\<IEqualityComparer\<T\>\>\&) constructor
 
 

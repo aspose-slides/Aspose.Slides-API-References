@@ -48,6 +48,7 @@ template<typename T>class HashSet : public virtual System::Object,
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
 |  [HashSet](./hashset/)() | Creates empty set. |
+|  [HashSet](./hashset/)(int) | Creates empty set with specified capacity. |
 |  [HashSet](./hashset/)(const [SharedPtr](../../system/sharedptr/)\<[IEqualityComparer](../iequalitycomparer/)\<T\>\>\&) | Creates empty set that uses the specified equality comparer. |
 |  [HashSet](./hashset/)(const [SharedPtr](../../system/sharedptr/)\<[IEnumerable](../ienumerable/)\<T\>\>\&) | Creates hashset based on enumerable values. |
 |  [ICollection](../icollection/icollection/)() | Default constructor. |

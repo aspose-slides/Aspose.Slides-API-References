@@ -3,7 +3,7 @@ title: TiffOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Default constructor.
 type: docs
-weight: 170
+weight: 196
 url: /aspose.slides.export/tiffoptions/tiffoptions/
 ---
 ## TiffOptions::TiffOptions() constructor

@@ -3,7 +3,7 @@ title: Ink
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an ink object on a slide.
 type: docs
-weight: 14
+weight: 40
 url: /aspose.slides.ink/ink/
 ---
 ## Ink class
@@ -54,6 +54,7 @@ class Ink : public Aspose::Slides::GraphicalObject,
 | [System::SharedPtr](../../system/sharedptr/)\<[IBaseShapeLock](../../aspose.slides/ibaseshapelock/)\> [get_ShapeLock](../../aspose.slides/shape/get_shapelock/)() override | Returns shape's locks. Read-only [IBaseShapeLock](../../aspose.slides/ibaseshapelock/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IBaseSlide](../../aspose.slides/ibaseslide/)\> [get_Slide](../../aspose.slides/shape/get_slide/)() override | Returns the parent slide of a shape. Read-only [IBaseSlide](../../aspose.slides/ibaseslide/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../../aspose.slides/ithreedformat/)\> [get_ThreeDFormat](../../aspose.slides/shape/get_threedformat/)() override | Returns the [ThreeDFormat](../../aspose.slides/threedformat/) object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only [IThreeDFormat](../../aspose.slides/ithreedformat/). |
+| [System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<[IInkTrace](../iinktrace/)\>\> [get_Traces](./get_traces/)() override | Gets all traces containing in the [IInk](../iink/) element [IInkTrace](../iinktrace/). Read-only. |
 | **uint32_t** [get_UniqueId](../../aspose.slides/shape/get_uniqueid/)() override | Gets unique shape identifier in presentation scope. Read-only **uint32_t**. See also [Shape::get_OfficeInteropShapeId](../../aspose.slides/shape/get_officeinteropshapeid/) for getting unique shape identifier in slide scope. |
 | **float** [get_Width](../../aspose.slides/shape/get_width/)() override | Returns the width of the shape. Read **float**. |
 | **float** [get_X](../../aspose.slides/shape/get_x/)() override | Returns the x-coordinate of the upper-left corner of the shape. Read **float**. |

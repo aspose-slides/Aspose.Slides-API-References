@@ -3,7 +3,7 @@ title: get_Portion()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a text portion at the specified index.
 type: docs
-weight: 118
+weight: 131
 url: /aspose.slides/paragraph/get_portion/
 ---
 ## Paragraph::get_Portion(int32_t) method
