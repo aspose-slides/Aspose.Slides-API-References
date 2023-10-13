@@ -25,23 +25,17 @@ url: /aspose.slides/colordirection/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Clockwise {#Clockwise}
-```
 
-```
 
 ---
 
 ### CounterClockwise {#CounterClockwise}
-```
 
-```
 
 ---
 

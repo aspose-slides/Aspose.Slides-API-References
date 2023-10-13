@@ -36,100 +36,72 @@ url: /aspose.slides/smartartquickstyletype/
 
 
 ### SimpleFill {#SimpleFill}
-```
 SimpleFill
-```
 
 ---
 
 ### WhiteOutline {#WhiteOutline}
-```
 WhiteOutline
-```
 
 ---
 
 ### SubtleEffect {#SubtleEffect}
-```
 SubtleEffect
-```
 
 ---
 
 ### ModerateEffect {#ModerateEffect}
-```
 ModerateEffect
-```
 
 ---
 
 ### IntenceEffect {#IntenceEffect}
-```
 IntenceEffect
-```
 
 ---
 
 ### Polished {#Polished}
-```
 Polished
-```
 
 ---
 
 ### Inset {#Inset}
-```
 Inset
-```
 
 ---
 
 ### Cartoon {#Cartoon}
-```
 Cartoon
-```
 
 ---
 
 ### Powder {#Powder}
-```
 Powder
-```
 
 ---
 
 ### BrickScene {#BrickScene}
-```
 BrickScene
-```
 
 ---
 
 ### FlatScene {#FlatScene}
-```
 FlatScene
-```
 
 ---
 
 ### MetallicScene {#MetallicScene}
-```
 MetallicScene
-```
 
 ---
 
 ### SunsetScene {#SunsetScene}
-```
 SunsetScene
-```
 
 ---
 
 ### BirdsEyeScene {#BirdsEyeScene}
-```
 BirdsEyeScene
-```
 
 ---
 

@@ -25,23 +25,17 @@ url: /aspose.slides/displayblanksastype/
 
 
 ### Gap {#Gap}
-```
 Specifies that blank values shall be left as a gap.
-```
 
 ---
 
 ### Span {#Span}
-```
 Specifies that blank values shall be spanned with a line.
-```
 
 ---
 
 ### Zero {#Zero}
-```
 Specifies that blank values shall be treated as zero.
-```
 
 ---
 

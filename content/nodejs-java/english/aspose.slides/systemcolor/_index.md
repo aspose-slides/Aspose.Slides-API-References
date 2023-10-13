@@ -53,219 +53,157 @@ url: /aspose.slides/systemcolor/
 
 
 ### NotDefined {#NotDefined}
-```
 System color is not defined.
-```
 
 ---
 
 ### ScrollBar {#ScrollBar}
-```
 
-```
 
 ---
 
 ### Background {#Background}
-```
 
-```
 
 ---
 
 ### ActiveCaption {#ActiveCaption}
-```
 
-```
 
 ---
 
 ### InactiveCaption {#InactiveCaption}
-```
 
-```
 
 ---
 
 ### Menu {#Menu}
-```
 
-```
 
 ---
 
 ### Window {#Window}
-```
 
-```
 
 ---
 
 ### WindowFrame {#WindowFrame}
-```
 
-```
 
 ---
 
 ### MenuText {#MenuText}
-```
 
-```
 
 ---
 
 ### WindowText {#WindowText}
-```
 
-```
 
 ---
 
 ### CaptionText {#CaptionText}
-```
 
-```
 
 ---
 
 ### ActiveBorder {#ActiveBorder}
-```
 
-```
 
 ---
 
 ### InactiveBorder {#InactiveBorder}
-```
 
-```
 
 ---
 
 ### AppWorkspace {#AppWorkspace}
-```
 
-```
 
 ---
 
 ### Highlight {#Highlight}
-```
 
-```
 
 ---
 
 ### HighlightText {#HighlightText}
-```
 
-```
 
 ---
 
 ### BtnFace {#BtnFace}
-```
 
-```
 
 ---
 
 ### BtnShadow {#BtnShadow}
-```
 
-```
 
 ---
 
 ### GrayText {#GrayText}
-```
 
-```
 
 ---
 
 ### BtnText {#BtnText}
-```
 
-```
 
 ---
 
 ### InactiveCaptionText {#InactiveCaptionText}
-```
 
-```
 
 ---
 
 ### BtnHighlight {#BtnHighlight}
-```
 
-```
 
 ---
 
 ### ThreeDDkShadow {#ThreeDDkShadow}
-```
 
-```
 
 ---
 
 ### ThreeDLight {#ThreeDLight}
-```
 
-```
 
 ---
 
 ### InfoText {#InfoText}
-```
 
-```
 
 ---
 
 ### InfoBk {#InfoBk}
-```
 
-```
 
 ---
 
 ### HotLight {#HotLight}
-```
 
-```
 
 ---
 
 ### GradientActiveCaption {#GradientActiveCaption}
-```
 
-```
 
 ---
 
 ### GradientInactiveCaption {#GradientInactiveCaption}
-```
 
-```
 
 ---
 
 ### MenuHighlight {#MenuHighlight}
-```
 
-```
 
 ---
 
 ### MenuBar {#MenuBar}
-```
 
-```
 
 ---
 

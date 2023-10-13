@@ -25,23 +25,17 @@ url: /aspose.slides/backgroundtype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Themed {#Themed}
-```
 
-```
 
 ---
 
 ### OwnBackground {#OwnBackground}
-```
 
-```
 
 ---
 

@@ -24,16 +24,12 @@ url: /aspose.slides/bubblesizerepresentationtype/
 
 
 ### Area {#Area}
-```
 Specifies the area of the bubbles shall be proportional to the bubble size value.
-```
 
 ---
 
 ### Width {#Width}
-```
 Specifies the radius of the bubbles shall be proportional to the bubble size value.
-```
 
 ---
 

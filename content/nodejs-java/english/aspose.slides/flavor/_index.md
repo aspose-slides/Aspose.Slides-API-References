@@ -46,170 +46,122 @@ url: /aspose.slides/flavor/
 
 
 ### Github {#Github}
-```
 Github flavor.
-```
 
 ---
 
 ### Gruber {#Gruber}
-```
 Gruber flavor.
-```
 
 ---
 
 ### MultiMarkdown {#MultiMarkdown}
-```
 Multi markdown flavor.
-```
 
 ---
 
 ### CommonMark {#CommonMark}
-```
 Common mark flavor.
-```
 
 ---
 
 ### MarkdownExtra {#MarkdownExtra}
-```
 Markdown extra flavor.
-```
 
 ---
 
 ### Pandoc {#Pandoc}
-```
 Pandoc flavor.
-```
 
 ---
 
 ### Kramdown {#Kramdown}
-```
 Kramdown flavor.
-```
 
 ---
 
 ### Markua {#Markua}
-```
 Markua flavor.
-```
 
 ---
 
 ### Maruku {#Maruku}
-```
 Maruku flavor.
-```
 
 ---
 
 ### Markdown2 {#Markdown2}
-```
 Markdown2 flavor.
-```
 
 ---
 
 ### Remarkable {#Remarkable}
-```
 Remarkable flavor
-```
 
 ---
 
 ### Showdown {#Showdown}
-```
 Showdown flavor.
-```
 
 ---
 
 ### Ghost {#Ghost}
-```
 Ghost flavor.
-```
 
 ---
 
 ### GitLab {#GitLab}
-```
 Gitlab flavor.
-```
 
 ---
 
 ### Haroopad {#Haroopad}
-```
 Haroopad flavor.
-```
 
 ---
 
 ### IaWriter {#IaWriter}
-```
 IAWriter flavor.
-```
 
 ---
 
 ### Redcarpet {#Redcarpet}
-```
 Redcarpet flavor.
-```
 
 ---
 
 ### ScholarlyMarkdown {#ScholarlyMarkdown}
-```
 Scholarly markdown flavor.
-```
 
 ---
 
 ### Taiga {#Taiga}
-```
 Taiga flavor.
-```
 
 ---
 
 ### Trello {#Trello}
-```
 Trello flavor.
-```
 
 ---
 
 ### S9ETextFormatter {#S9ETextFormatter}
-```
 S9E text formatter flavor.
-```
 
 ---
 
 ### XWiki {#XWiki}
-```
 XWiki flavor.
-```
 
 ---
 
 ### StackOverflow {#StackOverflow}
-```
 Stack overflow flavor.
-```
 
 ---
 
 ### Default {#Default}
-```
 Default markdown flavor.
-```
 
 ---
 

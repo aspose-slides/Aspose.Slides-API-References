@@ -25,23 +25,17 @@ url: /aspose.slides/mathlimitlocations/
 
 
 ### NotDefined {#NotDefined}
-```
 Not defined
-```
 
 ---
 
 ### UnderOver {#UnderOver}
-```
 Limits draw at top and bottom of the operator symbol
-```
 
 ---
 
 ### SubscriptSuperscript {#SubscriptSuperscript}
-```
 Limits draw as subscript and superscript
-```
 
 ---
 

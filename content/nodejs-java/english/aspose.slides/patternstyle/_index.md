@@ -78,394 +78,282 @@ url: /aspose.slides/patternstyle/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Unknown {#Unknown}
-```
 
-```
 
 ---
 
 ### Percent05 {#Percent05}
-```
 
-```
 
 ---
 
 ### Percent10 {#Percent10}
-```
 
-```
 
 ---
 
 ### Percent20 {#Percent20}
-```
 
-```
 
 ---
 
 ### Percent25 {#Percent25}
-```
 
-```
 
 ---
 
 ### Percent30 {#Percent30}
-```
 
-```
 
 ---
 
 ### Percent40 {#Percent40}
-```
 
-```
 
 ---
 
 ### Percent50 {#Percent50}
-```
 
-```
 
 ---
 
 ### Percent60 {#Percent60}
-```
 
-```
 
 ---
 
 ### Percent70 {#Percent70}
-```
 
-```
 
 ---
 
 ### Percent75 {#Percent75}
-```
 
-```
 
 ---
 
 ### Percent80 {#Percent80}
-```
 
-```
 
 ---
 
 ### Percent90 {#Percent90}
-```
 
-```
 
 ---
 
 ### DarkHorizontal {#DarkHorizontal}
-```
 
-```
 
 ---
 
 ### DarkVertical {#DarkVertical}
-```
 
-```
 
 ---
 
 ### DarkDownwardDiagonal {#DarkDownwardDiagonal}
-```
 
-```
 
 ---
 
 ### DarkUpwardDiagonal {#DarkUpwardDiagonal}
-```
 
-```
 
 ---
 
 ### SmallCheckerBoard {#SmallCheckerBoard}
-```
 
-```
 
 ---
 
 ### Trellis {#Trellis}
-```
 
-```
 
 ---
 
 ### LightHorizontal {#LightHorizontal}
-```
 
-```
 
 ---
 
 ### LightVertical {#LightVertical}
-```
 
-```
 
 ---
 
 ### LightDownwardDiagonal {#LightDownwardDiagonal}
-```
 
-```
 
 ---
 
 ### LightUpwardDiagonal {#LightUpwardDiagonal}
-```
 
-```
 
 ---
 
 ### SmallGrid {#SmallGrid}
-```
 
-```
 
 ---
 
 ### DottedDiamond {#DottedDiamond}
-```
 
-```
 
 ---
 
 ### WideDownwardDiagonal {#WideDownwardDiagonal}
-```
 
-```
 
 ---
 
 ### WideUpwardDiagonal {#WideUpwardDiagonal}
-```
 
-```
 
 ---
 
 ### DashedDownwardDiagonal {#DashedDownwardDiagonal}
-```
 
-```
 
 ---
 
 ### DashedUpwardDiagonal {#DashedUpwardDiagonal}
-```
 
-```
 
 ---
 
 ### NarrowVertical {#NarrowVertical}
-```
 
-```
 
 ---
 
 ### NarrowHorizontal {#NarrowHorizontal}
-```
 
-```
 
 ---
 
 ### DashedVertical {#DashedVertical}
-```
 
-```
 
 ---
 
 ### DashedHorizontal {#DashedHorizontal}
-```
 
-```
 
 ---
 
 ### LargeConfetti {#LargeConfetti}
-```
 
-```
 
 ---
 
 ### LargeGrid {#LargeGrid}
-```
 
-```
 
 ---
 
 ### HorizontalBrick {#HorizontalBrick}
-```
 
-```
 
 ---
 
 ### LargeCheckerBoard {#LargeCheckerBoard}
-```
 
-```
 
 ---
 
 ### SmallConfetti {#SmallConfetti}
-```
 
-```
 
 ---
 
 ### Zigzag {#Zigzag}
-```
 
-```
 
 ---
 
 ### SolidDiamond {#SolidDiamond}
-```
 
-```
 
 ---
 
 ### DiagonalBrick {#DiagonalBrick}
-```
 
-```
 
 ---
 
 ### OutlinedDiamond {#OutlinedDiamond}
-```
 
-```
 
 ---
 
 ### Plaid {#Plaid}
-```
 
-```
 
 ---
 
 ### Sphere {#Sphere}
-```
 
-```
 
 ---
 
 ### Weave {#Weave}
-```
 
-```
 
 ---
 
 ### DottedGrid {#DottedGrid}
-```
 
-```
 
 ---
 
 ### Divot {#Divot}
-```
 
-```
 
 ---
 
 ### Shingle {#Shingle}
-```
 
-```
 
 ---
 
 ### Wave {#Wave}
-```
 
-```
 
 ---
 
 ### Horizontal {#Horizontal}
-```
 
-```
 
 ---
 
 ### Vertical {#Vertical}
-```
 
-```
 
 ---
 
 ### Cross {#Cross}
-```
 
-```
 
 ---
 
 ### DownwardDiagonal {#DownwardDiagonal}
-```
 
-```
 
 ---
 
 ### UpwardDiagonal {#UpwardDiagonal}
-```
 
-```
 
 ---
 
 ### DiagonalCross {#DiagonalCross}
-```
 
-```
 
 ---
 

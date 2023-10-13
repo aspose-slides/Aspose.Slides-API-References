@@ -40,128 +40,92 @@ url: /aspose.slides/schemecolor/
 
 
 ### NotDefined {#NotDefined}
-```
 Color scheme is not defined.
-```
 
 ---
 
 ### Background1 {#Background1}
-```
 
-```
 
 ---
 
 ### Text1 {#Text1}
-```
 
-```
 
 ---
 
 ### Background2 {#Background2}
-```
 
-```
 
 ---
 
 ### Text2 {#Text2}
-```
 
-```
 
 ---
 
 ### Accent1 {#Accent1}
-```
 
-```
 
 ---
 
 ### Accent2 {#Accent2}
-```
 
-```
 
 ---
 
 ### Accent3 {#Accent3}
-```
 
-```
 
 ---
 
 ### Accent4 {#Accent4}
-```
 
-```
 
 ---
 
 ### Accent5 {#Accent5}
-```
 
-```
 
 ---
 
 ### Accent6 {#Accent6}
-```
 
-```
 
 ---
 
 ### Hyperlink {#Hyperlink}
-```
 
-```
 
 ---
 
 ### FollowedHyperlink {#FollowedHyperlink}
-```
 
-```
 
 ---
 
 ### StyleColor {#StyleColor}
-```
 
-```
 
 ---
 
 ### Dark1 {#Dark1}
-```
 
-```
 
 ---
 
 ### Light1 {#Light1}
-```
 
-```
 
 ---
 
 ### Dark2 {#Dark2}
-```
 
-```
 
 ---
 
 ### Light2 {#Light2}
-```
 
-```
 
 ---
 

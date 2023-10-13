@@ -29,51 +29,37 @@ url: /aspose.slides/filltype/
 
 
 ### NotDefined {#NotDefined}
-```
 The fill type is not defined.
-```
 
 ---
 
 ### NoFill {#NoFill}
-```
 No fill applied.
-```
 
 ---
 
 ### Solid {#Solid}
-```
 Filled with a solid color.
-```
 
 ---
 
 ### Gradient {#Gradient}
-```
 The fill is gradient.
-```
 
 ---
 
 ### Pattern {#Pattern}
-```
 Repeating pattern is used to fill the object.
-```
 
 ---
 
 ### Picture {#Picture}
-```
 A single picture is used to fill the object.
-```
 
 ---
 
 ### Group {#Group}
-```
 The visual object inherits the fill properties from the group.
-```
 
 ---
 

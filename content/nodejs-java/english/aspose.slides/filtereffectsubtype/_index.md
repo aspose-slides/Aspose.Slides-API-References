@@ -49,191 +49,137 @@ url: /aspose.slides/filtereffectsubtype/
 
 
 ### None {#None}
-```
 
-```
 
 ---
 
 ### Across {#Across}
-```
 
-```
 
 ---
 
 ### Down {#Down}
-```
 
-```
 
 ---
 
 ### DownLeft {#DownLeft}
-```
 
-```
 
 ---
 
 ### DownRight {#DownRight}
-```
 
-```
 
 ---
 
 ### FromBottom {#FromBottom}
-```
 
-```
 
 ---
 
 ### FromLeft {#FromLeft}
-```
 
-```
 
 ---
 
 ### FromRight {#FromRight}
-```
 
-```
 
 ---
 
 ### FromTop {#FromTop}
-```
 
-```
 
 ---
 
 ### Horizontal {#Horizontal}
-```
 
-```
 
 ---
 
 ### In {#In}
-```
 
-```
 
 ---
 
 ### InHorizontal {#InHorizontal}
-```
 
-```
 
 ---
 
 ### InVertical {#InVertical}
-```
 
-```
 
 ---
 
 ### Left {#Left}
-```
 
-```
 
 ---
 
 ### Out {#Out}
-```
 
-```
 
 ---
 
 ### OutHorizontal {#OutHorizontal}
-```
 
-```
 
 ---
 
 ### OutVertical {#OutVertical}
-```
 
-```
 
 ---
 
 ### Right {#Right}
-```
 
-```
 
 ---
 
 ### Spokes1 {#Spokes1}
-```
 
-```
 
 ---
 
 ### Spokes2 {#Spokes2}
-```
 
-```
 
 ---
 
 ### Spokes3 {#Spokes3}
-```
 
-```
 
 ---
 
 ### Spokes4 {#Spokes4}
-```
 
-```
 
 ---
 
 ### Spokes8 {#Spokes8}
-```
 
-```
 
 ---
 
 ### Up {#Up}
-```
 
-```
 
 ---
 
 ### UpLeft {#UpLeft}
-```
 
-```
 
 ---
 
 ### UpRight {#UpRight}
-```
 
-```
 
 ---
 
 ### Vertical {#Vertical}
-```
 
-```
 
 ---
 

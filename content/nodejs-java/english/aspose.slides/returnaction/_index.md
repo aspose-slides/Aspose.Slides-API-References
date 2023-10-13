@@ -24,16 +24,12 @@ url: /aspose.slides/returnaction/
 
 
 ### Continue {#Continue}
-```
 Operation should be continued.
-```
 
 ---
 
 ### Abort {#Abort}
-```
 Operation should be aborted.
-```
 
 ---
 

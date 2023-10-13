@@ -27,37 +27,27 @@ url: /aspose.slides/errorbarvaluetype/
 
 
 ### Custom {#Custom}
-```
 Specifies that the length of the error bars shall be determined by the Plus and Minus elements.
-```
 
 ---
 
 ### Fixed {#Fixed}
-```
 Specifies that the length of the error bars shall be the fixed value determined by Error Bar Value.
-```
 
 ---
 
 ### Percentage {#Percentage}
-```
 Specifies that the length of the error bars shall be Error Bar Value percent of the data.
-```
 
 ---
 
 ### StandardDeviation {#StandardDeviation}
-```
 Specifies that the length of the error bars shall be Error Bar Value standard deviations of the data.
-```
 
 ---
 
 ### StandardError {#StandardError}
-```
 Specifies that the length of the error bars shall be Error Bar Value standard errors of the data.
-```
 
 ---
 

@@ -34,86 +34,62 @@ url: /aspose.slides/markerstyletype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Circle {#Circle}
-```
 Specifies a circle shall be drawn at each data point.
-```
 
 ---
 
 ### Dash {#Dash}
-```
 Specifies a dash shall be drawn at each data point.
-```
 
 ---
 
 ### Diamond {#Diamond}
-```
 Specifies a diamond shall be drawn at each data point.
-```
 
 ---
 
 ### Dot {#Dot}
-```
 Specifies a dot shall be drawn at each data point.
-```
 
 ---
 
 ### None {#None}
-```
 Specifies nothing shall be drawn at each data point.
-```
 
 ---
 
 ### Picture {#Picture}
-```
 Specifies a picture shall be drawn at each data point.
-```
 
 ---
 
 ### Plus {#Plus}
-```
 Specifies a plus shall be drawn at each data point.
-```
 
 ---
 
 ### Square {#Square}
-```
 Specifies a square shall be drawn at each data point.
-```
 
 ---
 
 ### Star {#Star}
-```
 Specifies a star shall be drawn at each data point.
-```
 
 ---
 
 ### Triangle {#Triangle}
-```
 Specifies a triangle shall be drawn at each data point.
-```
 
 ---
 
 ### X {#X}
-```
 Specifies an X shall be drawn at each data point.
-```
 
 ---
 

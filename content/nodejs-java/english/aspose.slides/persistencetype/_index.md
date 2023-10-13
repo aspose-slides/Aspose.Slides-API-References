@@ -27,37 +27,27 @@ url: /aspose.slides/persistencetype/
 
 
 ### NotDefined {#NotDefined}
-```
 Persistance id not specified.
-```
 
 ---
 
 ### PersistPropertyBag {#PersistPropertyBag}
-```
 Specifies that the ActiveX control is persisted using property-bag-based persistence. Property-bag-based persistence stores an ActiveX control by means of a collection of name and value pairs which specify the data persisted by the ActiveX control.
-```
 
 ---
 
 ### PersistStream {#PersistStream}
-```
 Specifies that the ActiveX control is persisted using a stream-based persistence that does not support initialization of the ActiveX control to a default state.
-```
 
 ---
 
 ### PersistStreamInit {#PersistStreamInit}
-```
 Specifies that the ActiveX control is persisted using a stream-based persistence that supports initialization of the ActiveX control to a default state.
-```
 
 ---
 
 ### PersistStorage {#PersistStorage}
-```
 Specifies that the ActiveX control is persisted using storage-based persistence.
-```
 
 ---
 

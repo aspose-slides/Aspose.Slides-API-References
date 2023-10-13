@@ -25,23 +25,17 @@ url: /aspose.slides/motionpatheditmode/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Relative {#Relative}
-```
 
-```
 
 ---
 
 ### Fixed {#Fixed}
-```
 
-```
 
 ---
 

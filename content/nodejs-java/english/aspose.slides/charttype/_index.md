@@ -104,576 +104,412 @@ url: /aspose.slides/charttype/
 
 
 ### ClusteredColumn {#ClusteredColumn}
-```
 Represents Clustered Column Chart.
-```
 
 ---
 
 ### StackedColumn {#StackedColumn}
-```
 Represents Stacked Column Chart.
-```
 
 ---
 
 ### PercentsStackedColumn {#PercentsStackedColumn}
-```
 Represents 100% Stacked Column Chart.
-```
 
 ---
 
 ### ClusteredColumn3D {#ClusteredColumn3D}
-```
 Represents 3D Colustered Column Chart.
-```
 
 ---
 
 ### StackedColumn3D {#StackedColumn3D}
-```
 Represents 3D Stacked Column Chart.
-```
 
 ---
 
 ### PercentsStackedColumn3D {#PercentsStackedColumn3D}
-```
 Represents 3D 100% Stacked Column Chart.
-```
 
 ---
 
 ### Column3D {#Column3D}
-```
 Represents 3D Column Chart.
-```
 
 ---
 
 ### ClusteredCylinder {#ClusteredCylinder}
-```
 Represents Cylinder Chart.
-```
 
 ---
 
 ### StackedCylinder {#StackedCylinder}
-```
 Represents Stacked Cylinder Chart.
-```
 
 ---
 
 ### PercentsStackedCylinder {#PercentsStackedCylinder}
-```
 Represents 100% Stacked Cylinder Chart.
-```
 
 ---
 
 ### Cylinder3D {#Cylinder3D}
-```
 Represents 3D Cylindrical Column Chart.
-```
 
 ---
 
 ### ClusteredCone {#ClusteredCone}
-```
 Represents Cone Chart.
-```
 
 ---
 
 ### StackedCone {#StackedCone}
-```
 Represents Stacked Cone Chart.
-```
 
 ---
 
 ### PercentsStackedCone {#PercentsStackedCone}
-```
 Represents 100% Stacked Cone Chart.
-```
 
 ---
 
 ### Cone3D {#Cone3D}
-```
 Represents 3D Conical Column Chart.
-```
 
 ---
 
 ### ClusteredPyramid {#ClusteredPyramid}
-```
 Represents Pyramid Chart.
-```
 
 ---
 
 ### StackedPyramid {#StackedPyramid}
-```
 Represents Stacked Pyramid Chart.
-```
 
 ---
 
 ### PercentsStackedPyramid {#PercentsStackedPyramid}
-```
 Represents 100% Stacked Pyramid Chart.
-```
 
 ---
 
 ### Pyramid3D {#Pyramid3D}
-```
 Represents 3D Pyramid Column Chart.
-```
 
 ---
 
 ### Line {#Line}
-```
 Represents Line Chart.
-```
 
 ---
 
 ### StackedLine {#StackedLine}
-```
 Represents Stacked Line Chart.
-```
 
 ---
 
 ### PercentsStackedLine {#PercentsStackedLine}
-```
 Represents 100% Stacked Line Chart.
-```
 
 ---
 
 ### LineWithMarkers {#LineWithMarkers}
-```
 Represents Line Chart with data markers.
-```
 
 ---
 
 ### StackedLineWithMarkers {#StackedLineWithMarkers}
-```
 Represents Stacked Line Chart with data markers.
-```
 
 ---
 
 ### PercentsStackedLineWithMarkers {#PercentsStackedLineWithMarkers}
-```
 Represents 100% Stacked Line Chart with data markers.
-```
 
 ---
 
 ### Line3D {#Line3D}
-```
 Represents 3D Line Chart.
-```
 
 ---
 
 ### Pie {#Pie}
-```
 Represents Pie Chart.
-```
 
 ---
 
 ### Pie3D {#Pie3D}
-```
 Represents 3D Pie Chart.
-```
 
 ---
 
 ### PieOfPie {#PieOfPie}
-```
 Represents Pie of Pie Chart.
-```
 
 ---
 
 ### ExplodedPie {#ExplodedPie}
-```
 Represents Exploded Pie Chart.
-```
 
 ---
 
 ### ExplodedPie3D {#ExplodedPie3D}
-```
 Represents 3D Exploded Pie Chart.
-```
 
 ---
 
 ### BarOfPie {#BarOfPie}
-```
 Represents Bar of Pie Chart.
-```
 
 ---
 
 ### PercentsStackedBar {#PercentsStackedBar}
-```
 Represents 100% Stacked Bar Chart.
-```
 
 ---
 
 ### ClusteredBar3D {#ClusteredBar3D}
-```
 Represents 3D Colustered Bar Chart.
-```
 
 ---
 
 ### ClusteredBar {#ClusteredBar}
-```
 Represents Clustered Bar Chart.
-```
 
 ---
 
 ### StackedBar {#StackedBar}
-```
 Represents Stacked Bar Chart.
-```
 
 ---
 
 ### StackedBar3D {#StackedBar3D}
-```
 Represents 3D Stacked Bar Chart.
-```
 
 ---
 
 ### PercentsStackedBar3D {#PercentsStackedBar3D}
-```
 Represents 3D 100% Stacked Bar Chart.
-```
 
 ---
 
 ### ClusteredHorizontalCylinder {#ClusteredHorizontalCylinder}
-```
 Represents Cylindrical Bar Chart.
-```
 
 ---
 
 ### StackedHorizontalCylinder {#StackedHorizontalCylinder}
-```
 Represents Stacked Cylindrical Bar Chart.
-```
 
 ---
 
 ### PercentsStackedHorizontalCylinder {#PercentsStackedHorizontalCylinder}
-```
 Represents 100% Stacked Cylindrical Bar Chart.
-```
 
 ---
 
 ### ClusteredHorizontalCone {#ClusteredHorizontalCone}
-```
 Represents Conical Bar Chart.
-```
 
 ---
 
 ### StackedHorizontalCone {#StackedHorizontalCone}
-```
 Represents Stacked Conical Bar Chart.
-```
 
 ---
 
 ### PercentsStackedHorizontalCone {#PercentsStackedHorizontalCone}
-```
 Represents 100% Stacked Conical Bar Chart.
-```
 
 ---
 
 ### ClusteredHorizontalPyramid {#ClusteredHorizontalPyramid}
-```
 Represents Pyramid Bar Chart.
-```
 
 ---
 
 ### StackedHorizontalPyramid {#StackedHorizontalPyramid}
-```
 Represents Stacked Pyramid Bar Chart.
-```
 
 ---
 
 ### PercentsStackedHorizontalPyramid {#PercentsStackedHorizontalPyramid}
-```
 Represents 100% Stacked Pyramid Bar Chart.
-```
 
 ---
 
 ### Area {#Area}
-```
 Represents Area Chart.
-```
 
 ---
 
 ### StackedArea {#StackedArea}
-```
 Represents Stacked Area Chart.
-```
 
 ---
 
 ### PercentsStackedArea {#PercentsStackedArea}
-```
 Represents 100% Stacked Area Chart.
-```
 
 ---
 
 ### Area3D {#Area3D}
-```
 Represents 3D Area Chart.
-```
 
 ---
 
 ### StackedArea3D {#StackedArea3D}
-```
 Represents 3D Stacked Area Chart.
-```
 
 ---
 
 ### PercentsStackedArea3D {#PercentsStackedArea3D}
-```
 Represents 3D 100% Stacked Area Chart.
-```
 
 ---
 
 ### ScatterWithMarkers {#ScatterWithMarkers}
-```
 Represents Scatter Chart.
-```
 
 ---
 
 ### ScatterWithSmoothLinesAndMarkers {#ScatterWithSmoothLinesAndMarkers}
-```
 Represents Scatter Chart connected by curves, with data markers.
-```
 
 ---
 
 ### ScatterWithSmoothLines {#ScatterWithSmoothLines}
-```
 Represents Scatter Chart connected by curves, without data markers.
-```
 
 ---
 
 ### ScatterWithStraightLinesAndMarkers {#ScatterWithStraightLinesAndMarkers}
-```
 Represents Scatter Chart connected by lines, with data markers.
-```
 
 ---
 
 ### ScatterWithStraightLines {#ScatterWithStraightLines}
-```
 Represents Scatter Chart connected by lines, without data markers.
-```
 
 ---
 
 ### HighLowClose {#HighLowClose}
-```
 Represents High-Low-Close Stock Chart.
-```
 
 ---
 
 ### OpenHighLowClose {#OpenHighLowClose}
-```
 Represents Open-High-Low-Close Stock Chart.
-```
 
 ---
 
 ### VolumeHighLowClose {#VolumeHighLowClose}
-```
 Represents Volume-High-Low-Close Stock Chart.
-```
 
 ---
 
 ### VolumeOpenHighLowClose {#VolumeOpenHighLowClose}
-```
 Represents Volume-Open-High-Low-Close Stock Chart.
-```
 
 ---
 
 ### Surface3D {#Surface3D}
-```
 Represents 3D Surface Chart.
-```
 
 ---
 
 ### WireframeSurface3D {#WireframeSurface3D}
-```
 Represents Wireframe 3D Surface Chart.
-```
 
 ---
 
 ### Contour {#Contour}
-```
 Represents Contour Chart.
-```
 
 ---
 
 ### WireframeContour {#WireframeContour}
-```
 Represents Wireframe Contour Chart.
-```
 
 ---
 
 ### Doughnut {#Doughnut}
-```
 Represents Doughnut Chart.
-```
 
 ---
 
 ### ExplodedDoughnut {#ExplodedDoughnut}
-```
 Represents Exploded Doughnut Chart.
-```
 
 ---
 
 ### Bubble {#Bubble}
-```
 Represents Bubble Chart.
-```
 
 ---
 
 ### BubbleWith3D {#BubbleWith3D}
-```
 Represents 3D Bubble Chart.
-```
 
 ---
 
 ### Radar {#Radar}
-```
 Represents Radar Chart.
-```
 
 ---
 
 ### RadarWithMarkers {#RadarWithMarkers}
-```
 Represents Radar Chart with data markers.
-```
 
 ---
 
 ### FilledRadar {#FilledRadar}
-```
 Represents Filled Radar Chart.
-```
 
 ---
 
 ### SeriesOfMixedTypes {#SeriesOfMixedTypes}
-```
 This value only can be returned by ChartEx.Type property. It mean that chart has series of mixed types.
-```
 
 ---
 
 ### Treemap {#Treemap}
-```
 Represents Treemap chart.
-```
 
 ---
 
 ### Sunburst {#Sunburst}
-```
 Represents Sunburst chart.
-```
 
 ---
 
 ### Histogram {#Histogram}
-```
 Represents Histogram chart.
-```
 
 ---
 
 ### ParetoLine {#ParetoLine}
-```
 Represents Pareto line series type (Histogram Pareto chart).
-```
 
 ---
 
 ### BoxAndWhisker {#BoxAndWhisker}
-```
 Represents BoxAndWhisker chart.
-```
 
 ---
 
 ### Waterfall {#Waterfall}
-```
 Represents Waterfall chart.
-```
 
 ---
 
 ### Funnel {#Funnel}
-```
 Represents Funnel chart.
-```
 
 ---
 
 ### Map {#Map}
-```
 Represents Map chart.
-```
 
 ---
 

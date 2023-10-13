@@ -26,30 +26,22 @@ url: /aspose.slides/mathjustification/
 
 
 ### LeftJustified {#LeftJustified}
-```
 Align mathematical text to the left
-```
 
 ---
 
 ### RightJustified {#RightJustified}
-```
 Align mathematical text to the right
-```
 
 ---
 
 ### Centered {#Centered}
-```
 Align mathematical text to the center
-```
 
 ---
 
 ### CenteredAsGroup {#CenteredAsGroup}
-```
 Center on the page the entire group of math blocks as a single unit. This means that the instances of mathematical text can be aligned with respect to each other, but the entire group of mathematical text is centered as a whole.
-```
 
 ---
 

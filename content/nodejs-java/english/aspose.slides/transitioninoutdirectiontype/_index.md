@@ -24,16 +24,12 @@ url: /aspose.slides/transitioninoutdirectiontype/
 
 
 ### In {#In}
-```
 
-```
 
 ---
 
 ### Out {#Out}
-```
 
-```
 
 ---
 

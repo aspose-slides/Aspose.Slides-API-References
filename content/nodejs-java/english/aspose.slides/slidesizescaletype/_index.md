@@ -25,23 +25,17 @@ url: /aspose.slides/slidesizescaletype/
 
 
 ### DoNotScale {#DoNotScale}
-```
 Do not scale.
-```
 
 ---
 
 ### EnsureFit {#EnsureFit}
-```
 Scale to ensure fit.
-```
 
 ---
 
 ### Maximize {#Maximize}
-```
 Maximize size of content.
-```
 
 ---
 

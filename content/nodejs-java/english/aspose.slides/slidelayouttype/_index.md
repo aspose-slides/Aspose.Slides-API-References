@@ -58,254 +58,182 @@ url: /aspose.slides/slidelayouttype/
 
 
 ### Custom {#Custom}
-```
 Custom
-```
 
 ---
 
 ### Title {#Title}
-```
 Title
-```
 
 ---
 
 ### Text {#Text}
-```
 Text
-```
 
 ---
 
 ### TwoColumnText {#TwoColumnText}
-```
 Two Column Text
-```
 
 ---
 
 ### Table {#Table}
-```
 Table
-```
 
 ---
 
 ### TextAndChart {#TextAndChart}
-```
 Text and Chart
-```
 
 ---
 
 ### ChartAndText {#ChartAndText}
-```
 Chart and Text
-```
 
 ---
 
 ### Diagram {#Diagram}
-```
 Diagram
-```
 
 ---
 
 ### Chart {#Chart}
-```
 Chart
-```
 
 ---
 
 ### TextAndClipArt {#TextAndClipArt}
-```
 Text and Clip Art
-```
 
 ---
 
 ### ClipArtAndText {#ClipArtAndText}
-```
 Clip Art and Text
-```
 
 ---
 
 ### TitleOnly {#TitleOnly}
-```
 Title Only
-```
 
 ---
 
 ### Blank {#Blank}
-```
 Blank
-```
 
 ---
 
 ### TextAndObject {#TextAndObject}
-```
 Text and Object
-```
 
 ---
 
 ### ObjectAndText {#ObjectAndText}
-```
 Object and Text
-```
 
 ---
 
 ### Object {#Object}
-```
 Object
-```
 
 ---
 
 ### TitleAndObject {#TitleAndObject}
-```
 Title and Object
-```
 
 ---
 
 ### TextAndMedia {#TextAndMedia}
-```
 Text and Media
-```
 
 ---
 
 ### MediaAndText {#MediaAndText}
-```
 Media and Text
-```
 
 ---
 
 ### ObjectOverText {#ObjectOverText}
-```
 Object over Text
-```
 
 ---
 
 ### TextOverObject {#TextOverObject}
-```
 Text over Object
-```
 
 ---
 
 ### TextAndTwoObjects {#TextAndTwoObjects}
-```
 Text and Two Objects
-```
 
 ---
 
 ### TwoObjectsAndText {#TwoObjectsAndText}
-```
 Two Objects and Text
-```
 
 ---
 
 ### TwoObjectsOverText {#TwoObjectsOverText}
-```
 Two Objects over Text
-```
 
 ---
 
 ### FourObjects {#FourObjects}
-```
 Four Objects
-```
 
 ---
 
 ### VerticalText {#VerticalText}
-```
 Vertical Text
-```
 
 ---
 
 ### ClipArtAndVerticalText {#ClipArtAndVerticalText}
-```
 Clip Art and Vertical Text
-```
 
 ---
 
 ### VerticalTitleAndText {#VerticalTitleAndText}
-```
 Vertical Title and Text
-```
 
 ---
 
 ### VerticalTitleAndTextOverChart {#VerticalTitleAndTextOverChart}
-```
 Vertical Title and Text Over Chart
-```
 
 ---
 
 ### TwoObjects {#TwoObjects}
-```
 Two Objects
-```
 
 ---
 
 ### ObjectAndTwoObject {#ObjectAndTwoObject}
-```
 Object and Two Object
-```
 
 ---
 
 ### TwoObjectsAndObject {#TwoObjectsAndObject}
-```
 Two Objects and Object
-```
 
 ---
 
 ### SectionHeader {#SectionHeader}
-```
 Section Header
-```
 
 ---
 
 ### TwoTextAndTwoObjects {#TwoTextAndTwoObjects}
-```
 Two Text and Two Objects
-```
 
 ---
 
 ### TitleObjectAndCaption {#TitleObjectAndCaption}
-```
 Title, Object, and Caption
-```
 
 ---
 
 ### PictureAndCaption {#PictureAndCaption}
-```
 Picture and Caption
-```
 
 ---
 

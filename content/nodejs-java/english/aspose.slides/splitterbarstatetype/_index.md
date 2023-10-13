@@ -26,23 +26,17 @@ url: /aspose.slides/splitterbarstatetype/
 
 
 ### Minimized {#Minimized}
-```
 The primary region occupies the least amount of the viewing area allowed by the application.
-```
 
 ---
 
 ### Restored {#Restored}
-```
 The primary region has a specific intermediate size.
-```
 
 ---
 
 ### Maximized {#Maximized}
-```
 The primary region occupies the greatest amount of the viewing area allowed by the application.
-```
 
 ---
 

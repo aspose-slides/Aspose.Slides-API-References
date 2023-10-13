@@ -25,23 +25,17 @@ url: /aspose.slides/svgexternalfontshandling/
 
 
 ### AddLinksToFontFiles {#AddLinksToFontFiles}
-```
 Add links to separate font files to style section of SVG file.
-```
 
 ---
 
 ### Embed {#Embed}
-```
 Save fonts data directly to SVG file. Please check all external fonts license agreements before using this option.
-```
 
 ---
 
 ### Vectorize {#Vectorize}
-```
 Save all text using external fonts as graphics.
-```
 
 ---
 

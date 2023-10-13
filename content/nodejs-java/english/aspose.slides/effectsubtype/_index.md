@@ -72,352 +72,252 @@ url: /aspose.slides/effectsubtype/
 
 
 ### None {#None}
-```
 
-```
 
 ---
 
 ### Across {#Across}
-```
 
-```
 
 ---
 
 ### Bottom {#Bottom}
-```
 
-```
 
 ---
 
 ### BottomLeft {#BottomLeft}
-```
 
-```
 
 ---
 
 ### BottomRight {#BottomRight}
-```
 
-```
 
 ---
 
 ### Center {#Center}
-```
 
-```
 
 ---
 
 ### Clockwise {#Clockwise}
-```
 
-```
 
 ---
 
 ### CounterClockwise {#CounterClockwise}
-```
 
-```
 
 ---
 
 ### GradualAndCycleClockwise {#GradualAndCycleClockwise}
-```
 
-```
 
 ---
 
 ### GradualAndCycleCounterClockwise {#GradualAndCycleCounterClockwise}
-```
 
-```
 
 ---
 
 ### Down {#Down}
-```
 
-```
 
 ---
 
 ### DownLeft {#DownLeft}
-```
 
-```
 
 ---
 
 ### DownRight {#DownRight}
-```
 
-```
 
 ---
 
 ### FontAllCaps {#FontAllCaps}
-```
 
-```
 
 ---
 
 ### FontBold {#FontBold}
-```
 
-```
 
 ---
 
 ### FontItalic {#FontItalic}
-```
 
-```
 
 ---
 
 ### FontShadow {#FontShadow}
-```
 
-```
 
 ---
 
 ### FontStrikethrough {#FontStrikethrough}
-```
 
-```
 
 ---
 
 ### FontUnderline {#FontUnderline}
-```
 
-```
 
 ---
 
 ### Gradual {#Gradual}
-```
 
-```
 
 ---
 
 ### Horizontal {#Horizontal}
-```
 
-```
 
 ---
 
 ### HorizontalIn {#HorizontalIn}
-```
 
-```
 
 ---
 
 ### HorizontalOut {#HorizontalOut}
-```
 
-```
 
 ---
 
 ### In {#In}
-```
 
-```
 
 ---
 
 ### InBottom {#InBottom}
-```
 
-```
 
 ---
 
 ### InCenter {#InCenter}
-```
 
-```
 
 ---
 
 ### InSlightly {#InSlightly}
-```
 
-```
 
 ---
 
 ### Instant {#Instant}
-```
 
-```
 
 ---
 
 ### Left {#Left}
-```
 
-```
 
 ---
 
 ### OrdinalMask {#OrdinalMask}
-```
 
-```
 
 ---
 
 ### Out {#Out}
-```
 
-```
 
 ---
 
 ### OutBottom {#OutBottom}
-```
 
-```
 
 ---
 
 ### OutCenter {#OutCenter}
-```
 
-```
 
 ---
 
 ### OutSlightly {#OutSlightly}
-```
 
-```
 
 ---
 
 ### Right {#Right}
-```
 
-```
 
 ---
 
 ### Slightly {#Slightly}
-```
 
-```
 
 ---
 
 ### Top {#Top}
-```
 
-```
 
 ---
 
 ### TopLeft {#TopLeft}
-```
 
-```
 
 ---
 
 ### TopRight {#TopRight}
-```
 
-```
 
 ---
 
 ### Up {#Up}
-```
 
-```
 
 ---
 
 ### UpLeft {#UpLeft}
-```
 
-```
 
 ---
 
 ### UpRight {#UpRight}
-```
 
-```
 
 ---
 
 ### Vertical {#Vertical}
-```
 
-```
 
 ---
 
 ### VerticalIn {#VerticalIn}
-```
 
-```
 
 ---
 
 ### VerticalOut {#VerticalOut}
-```
 
-```
 
 ---
 
 ### Wheel1 {#Wheel1}
-```
 
-```
 
 ---
 
 ### Wheel2 {#Wheel2}
-```
 
-```
 
 ---
 
 ### Wheel3 {#Wheel3}
-```
 
-```
 
 ---
 
 ### Wheel4 {#Wheel4}
-```
 
-```
 
 ---
 
 ### Wheel8 {#Wheel8}
-```
 
-```
 
 ---
 

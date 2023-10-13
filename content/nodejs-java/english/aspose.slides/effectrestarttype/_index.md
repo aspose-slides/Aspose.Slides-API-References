@@ -26,30 +26,22 @@ url: /aspose.slides/effectrestarttype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Always {#Always}
-```
 
-```
 
 ---
 
 ### WhenNotActive {#WhenNotActive}
-```
 
-```
 
 ---
 
 ### Never {#Never}
-```
 
-```
 
 ---
 

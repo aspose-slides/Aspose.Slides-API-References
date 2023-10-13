@@ -28,44 +28,32 @@ url: /aspose.slides/fontalignment/
 
 
 ### Default {#Default}
-```
 
-```
 
 ---
 
 ### Automatic {#Automatic}
-```
 
-```
 
 ---
 
 ### Top {#Top}
-```
 
-```
 
 ---
 
 ### Center {#Center}
-```
 
-```
 
 ---
 
 ### Bottom {#Bottom}
-```
 
-```
 
 ---
 
 ### Baseline {#Baseline}
-```
 
-```
 
 ---
 

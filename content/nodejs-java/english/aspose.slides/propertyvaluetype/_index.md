@@ -26,30 +26,22 @@ url: /aspose.slides/propertyvaluetype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### String {#String}
-```
 
-```
 
 ---
 
 ### Number {#Number}
-```
 
-```
 
 ---
 
 ### Color {#Color}
-```
 
-```
 
 ---
 

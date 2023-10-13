@@ -26,30 +26,22 @@ url: /aspose.slides/ticklabelpositiontype/
 
 
 ### High {#High}
-```
 Specifies the axis labels shall be at the high end of the perpendicular axis.
-```
 
 ---
 
 ### Low {#Low}
-```
 Specifies the axis labels shall be at the low end of the perpendicular axis.
-```
 
 ---
 
 ### NextTo {#NextTo}
-```
 Specifies the axis labels shall be next to the axis.
-```
 
 ---
 
 ### None {#None}
-```
 Specifies the axis labels are not drawn.
-```
 
 ---
 

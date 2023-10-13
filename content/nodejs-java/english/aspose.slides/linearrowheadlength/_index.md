@@ -26,30 +26,22 @@ url: /aspose.slides/linearrowheadlength/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Short {#Short}
-```
 
-```
 
 ---
 
 ### Medium {#Medium}
-```
 
-```
 
 ---
 
 ### Long {#Long}
-```
 
-```
 
 ---
 

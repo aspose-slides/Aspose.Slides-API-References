@@ -26,30 +26,22 @@ url: /aspose.slides/mathverticalalignment/
 
 
 ### NotDefined {#NotDefined}
-```
 Value is not defined
-```
 
 ---
 
 ### Top {#Top}
-```
 Top
-```
 
 ---
 
 ### Center {#Center}
-```
 Center
-```
 
 ---
 
 ### Bottom {#Bottom}
-```
 Bottom
-```
 
 ---
 

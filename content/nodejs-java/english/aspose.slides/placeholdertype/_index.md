@@ -38,114 +38,82 @@ url: /aspose.slides/placeholdertype/
 
 
 ### Title {#Title}
-```
 Title.
-```
 
 ---
 
 ### Body {#Body}
-```
 Body.
-```
 
 ---
 
 ### CenteredTitle {#CenteredTitle}
-```
 Centered Title.
-```
 
 ---
 
 ### Subtitle {#Subtitle}
-```
 Subtitle.
-```
 
 ---
 
 ### DateAndTime {#DateAndTime}
-```
 Date and Time.
-```
 
 ---
 
 ### SlideNumber {#SlideNumber}
-```
 Slide Number.
-```
 
 ---
 
 ### Footer {#Footer}
-```
 Footer.
-```
 
 ---
 
 ### Header {#Header}
-```
 Header.
-```
 
 ---
 
 ### Object {#Object}
-```
 Object.
-```
 
 ---
 
 ### Chart {#Chart}
-```
 Chart.
-```
 
 ---
 
 ### Table {#Table}
-```
 Table.
-```
 
 ---
 
 ### ClipArt {#ClipArt}
-```
 Clip Art.
-```
 
 ---
 
 ### Diagram {#Diagram}
-```
 Diagram.
-```
 
 ---
 
 ### Media {#Media}
-```
 Media.
-```
 
 ---
 
 ### SlideImage {#SlideImage}
-```
 Slide Image.
-```
 
 ---
 
 ### Picture {#Picture}
-```
 Picture.
-```
 
 ---
 

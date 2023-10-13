@@ -48,184 +48,132 @@ url: /aspose.slides/mathfunctionsofoneargument/
 
 
 ### Sin {#Sin}
-```
 Sine
-```
 
 ---
 
 ### Cos {#Cos}
-```
 Cosine
-```
 
 ---
 
 ### Tan {#Tan}
-```
 Tangent
-```
 
 ---
 
 ### Csc {#Csc}
-```
 ?osecant
-```
 
 ---
 
 ### Sec {#Sec}
-```
 Secant
-```
 
 ---
 
 ### Cot {#Cot}
-```
 Cotangent
-```
 
 ---
 
 ### HyperbolicSin {#HyperbolicSin}
-```
 Hyperbolic sine
-```
 
 ---
 
 ### HyperbolicCos {#HyperbolicCos}
-```
 Hyperbolic Cosine
-```
 
 ---
 
 ### HyperbolicTan {#HyperbolicTan}
-```
 Hyperbolic Tangent
-```
 
 ---
 
 ### HyperbolicCsc {#HyperbolicCsc}
-```
 Hyperbolic ?osecant
-```
 
 ---
 
 ### HyperbolicSec {#HyperbolicSec}
-```
 Hyperbolic Secant
-```
 
 ---
 
 ### HyperbolicCot {#HyperbolicCot}
-```
 Hyperbolic Cotangent
-```
 
 ---
 
 ### Lg {#Lg}
-```
 Decimal logarithm
-```
 
 ---
 
 ### Ln {#Ln}
-```
 Natural logarithm
-```
 
 ---
 
 ### ArcSin {#ArcSin}
-```
 Arcsine
-```
 
 ---
 
 ### ArcCos {#ArcCos}
-```
 Arccosine
-```
 
 ---
 
 ### ArcTan {#ArcTan}
-```
 Arctangent
-```
 
 ---
 
 ### ArcCsc {#ArcCsc}
-```
 Arccosecant
-```
 
 ---
 
 ### ArcSec {#ArcSec}
-```
 Arcsecant
-```
 
 ---
 
 ### ArcCot {#ArcCot}
-```
 Arccotangent
-```
 
 ---
 
 ### HyperbolicArcSin {#HyperbolicArcSin}
-```
 Hyperbolic arcsine
-```
 
 ---
 
 ### HyperbolicArcCos {#HyperbolicArcCos}
-```
 Hyperbolic arccosine
-```
 
 ---
 
 ### HyperbolicArcTan {#HyperbolicArcTan}
-```
 Hyperbolic arctangent
-```
 
 ---
 
 ### HyperbolicArcCsc {#HyperbolicArcCsc}
-```
 Hyperbolic arccosecant
-```
 
 ---
 
 ### HyperbolicArcSec {#HyperbolicArcSec}
-```
 Hyperbolic arcsecant
-```
 
 ---
 
 ### HyperbolicArcCot {#HyperbolicArcCot}
-```
 Hyperbolic arccotangent
-```
 
 ---
 

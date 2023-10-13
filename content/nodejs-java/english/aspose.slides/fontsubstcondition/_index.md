@@ -24,16 +24,12 @@ url: /aspose.slides/fontsubstcondition/
 
 
 ### WhenInaccessible {#WhenInaccessible}
-```
 Substitute when font is not found
-```
 
 ---
 
 ### Always {#Always}
-```
 Substitute always
-```
 
 ---
 

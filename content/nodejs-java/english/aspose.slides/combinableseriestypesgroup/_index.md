@@ -89,429 +89,307 @@ url: /aspose.slides/combinableseriestypesgroup/
 
 
 ### BarOfPieChart {#BarOfPieChart}
-```
 Groups this set of series types: { ChartType.BarOfPie }
-```
 
 ---
 
 ### PieOfPieChart {#PieOfPieChart}
-```
 Groups this set of series types: { ChartType.PieOfPie }
-```
 
 ---
 
 ### DoughnutChart {#DoughnutChart}
-```
 Groups this set of series types: { ChartType.Doughnut, ChartType.ExplodedDoughnut }
-```
 
 ---
 
 ### PieChart {#PieChart}
-```
 Groups this set of series types: { ChartType.Pie, ChartType.ExplodedPie }
-```
 
 ---
 
 ### AreaChart_Area {#AreaChart_Area}
-```
 Groups this set of series types: { ChartType.Area }
-```
 
 ---
 
 ### AreaChart_PercentsStackedArea {#AreaChart_PercentsStackedArea}
-```
 Groups this set of series types: { ChartType.PercentsStackedArea }
-```
 
 ---
 
 ### AreaChart_StackedArea {#AreaChart_StackedArea}
-```
 Groups this set of series types: { ChartType.StackedArea }
-```
 
 ---
 
 ### BarChart_HorizClustered {#BarChart_HorizClustered}
-```
 Groups this set of series types: { ChartType.ClusteredBar }
-```
 
 ---
 
 ### BarChart_HorizStacked {#BarChart_HorizStacked}
-```
 Groups this set of series types: { ChartType.StackedBar }
-```
 
 ---
 
 ### BarChart_HorizPercentsStacked {#BarChart_HorizPercentsStacked}
-```
 Groups this set of series types: { ChartType.PercentsStackedBar }
-```
 
 ---
 
 ### BarChart_VertClustered {#BarChart_VertClustered}
-```
 Groups this set of series types: { ChartType.ClusteredColumn }
-```
 
 ---
 
 ### BarChart_VertStacked {#BarChart_VertStacked}
-```
 Groups this set of series types: { ChartType.StackedColumn }
-```
 
 ---
 
 ### BarChart_VertPercentsStacked {#BarChart_VertPercentsStacked}
-```
 Groups this set of series types: { ChartType.PercentsStackedColumn }
-```
 
 ---
 
 ### LineChart_Line {#LineChart_Line}
-```
 Groups this set of series types: { ChartType.Line, ChartType.LineWithMarkers }
-```
 
 ---
 
 ### LineChart_StackedLine {#LineChart_StackedLine}
-```
 Groups this set of series types: { ChartType.StackedLine, ChartType.StackedLineWithMarkers }
-```
 
 ---
 
 ### LineChart_PercentsStackedLine {#LineChart_PercentsStackedLine}
-```
 Groups this set of series types: { ChartType.PercentsStackedLine, ChartType.PercentsStackedLineWithMarkers }
-```
 
 ---
 
 ### RadarChart {#RadarChart}
-```
 Groups this set of series types: { ChartType.Radar, ChartType.RadarWithMarkers }
-```
 
 ---
 
 ### FilledRadarChart {#FilledRadarChart}
-```
 Groups this set of series types: { ChartType.FilledRadar }
-```
 
 ---
 
 ### StockHighLowClose {#StockHighLowClose}
-```
 Groups this set of series types: { ChartType.HighLowClose }
-```
 
 ---
 
 ### StockOpenHighLowClose {#StockOpenHighLowClose}
-```
 Groups this set of series types: { ChartType.OpenHighLowClose }
-```
 
 ---
 
 ### StockVolumeHighLowClose {#StockVolumeHighLowClose}
-```
 Groups this set of series types: { ChartType.VolumeHighLowClose }
-```
 
 ---
 
 ### StockVolumeOpenHighLowClose {#StockVolumeOpenHighLowClose}
-```
 Groups this set of series types: { ChartType.VolumeOpenHighLowClose }
-```
 
 ---
 
 ### ScatterStraightMarker {#ScatterStraightMarker}
-```
 Groups this set of series types: { ChartType.ScatterWithMarkers, ChartType.ScatterWithStraightLines, ChartType.ScatterWithStraightLinesAndMarkers }
-```
 
 ---
 
 ### ScatterSmoothMarker {#ScatterSmoothMarker}
-```
 Groups this set of series types: { ChartType.ScatterWithSmoothLines, ChartType.ScatterWithSmoothLinesAndMarkers }
-```
 
 ---
 
 ### AreaChart_Area3D {#AreaChart_Area3D}
-```
 Groups this set of series types: { ChartType.Area3D }
-```
 
 ---
 
 ### AreaChart_StackedArea3D {#AreaChart_StackedArea3D}
-```
 Groups this set of series types: { ChartType.StackedArea3D }
-```
 
 ---
 
 ### AreaChart_PercentsStackedArea3D {#AreaChart_PercentsStackedArea3D}
-```
 Groups this set of series types: { ChartType.PercentsStackedArea3D }
-```
 
 ---
 
 ### Line3DChart {#Line3DChart}
-```
 Groups this set of series types: { ChartType.Line3D }
-```
 
 ---
 
 ### Pie3DChart {#Pie3DChart}
-```
 Groups this set of series types: { ChartType.Pie3D, ChartType.ExplodedPie3D }
-```
 
 ---
 
 ### Bar3DChart_Vert {#Bar3DChart_Vert}
-```
 Groups this set of series types: { ChartType.Column3D, ChartType.Cylinder3D, ChartType.Cone3D, ChartType.Pyramid3D }
-```
 
 ---
 
 ### Bar3DChart_VertClustered {#Bar3DChart_VertClustered}
-```
 Groups this set of series types: { ChartType.ClusteredColumn3D, ChartType.ClusteredCone, ChartType.ClusteredCylinder, ChartType.ClusteredPyramid }
-```
 
 ---
 
 ### Bar3DChart_VertPercentsStackedColumn3D {#Bar3DChart_VertPercentsStackedColumn3D}
-```
 Groups this set of series types: { ChartType.PercentsStackedColumn3D }
-```
 
 ---
 
 ### Bar3DChart_VertPercentsStackedCone {#Bar3DChart_VertPercentsStackedCone}
-```
 Groups this set of series types: { ChartType.PercentsStackedCone }
-```
 
 ---
 
 ### Bar3DChart_VertPercentsStackedCylinder {#Bar3DChart_VertPercentsStackedCylinder}
-```
 Groups this set of series types: { ChartType.PercentsStackedCylinder }
-```
 
 ---
 
 ### Bar3DChart_VertPercentsStackedPyramid {#Bar3DChart_VertPercentsStackedPyramid}
-```
 Groups this set of series types: { ChartType.PercentsStackedPyramid }
-```
 
 ---
 
 ### Bar3DChart_VertStackedColumn3D {#Bar3DChart_VertStackedColumn3D}
-```
 Groups this set of series types: { ChartType.StackedColumn3D }
-```
 
 ---
 
 ### Bar3DChart_VertStackedCone {#Bar3DChart_VertStackedCone}
-```
 Groups this set of series types: { ChartType.StackedCone }
-```
 
 ---
 
 ### Bar3DChart_VertStackedCylinder {#Bar3DChart_VertStackedCylinder}
-```
 Groups this set of series types: { ChartType.StackedCylinder }
-```
 
 ---
 
 ### Bar3DChart_VertStackedPyramid {#Bar3DChart_VertStackedPyramid}
-```
 Groups this set of series types: { ChartType.StackedPyramid }
-```
 
 ---
 
 ### Bar3DChart_HorizClustered {#Bar3DChart_HorizClustered}
-```
 Groups this set of series types: { ChartType.ClusteredBar3D, ChartType.ClusteredHorizontalCone, ChartType.ClusteredHorizontalCylinder, ChartType.ClusteredHorizontalPyramid }
-```
 
 ---
 
 ### Bar3DChart_HorizStackedBar3D {#Bar3DChart_HorizStackedBar3D}
-```
 Groups this set of series types: { ChartType.StackedBar3D }
-```
 
 ---
 
 ### Bar3DChart_HorizStackedCone {#Bar3DChart_HorizStackedCone}
-```
 Groups this set of series types: { ChartType.StackedHorizontalCone }
-```
 
 ---
 
 ### Bar3DChart_HorizStackedCylinder {#Bar3DChart_HorizStackedCylinder}
-```
 Groups this set of series types: { ChartType.StackedHorizontalCylinder }
-```
 
 ---
 
 ### Bar3DChart_HorizStackedPyramid {#Bar3DChart_HorizStackedPyramid}
-```
 Groups this set of series types: { ChartType.StackedHorizontalPyramid }
-```
 
 ---
 
 ### Bar3DChart_HorizPercentsStackedBar3D {#Bar3DChart_HorizPercentsStackedBar3D}
-```
 Groups this set of series types: { ChartType.PercentsStackedBar3D }
-```
 
 ---
 
 ### Bar3DChart_HorizPercentsStackedCone {#Bar3DChart_HorizPercentsStackedCone}
-```
 Groups this set of series types: { ChartType.PercentsStackedHorizontalCone }
-```
 
 ---
 
 ### Bar3DChart_HorizPercentsStackedCylinder {#Bar3DChart_HorizPercentsStackedCylinder}
-```
 Groups this set of series types: { ChartType.PercentsStackedHorizontalCylinder }
-```
 
 ---
 
 ### Bar3DChart_HorizPercentsStackedPyramid {#Bar3DChart_HorizPercentsStackedPyramid}
-```
 Groups this set of series types: { ChartType.PercentsStackedHorizontalPyramid }
-```
 
 ---
 
 ### SurfaceChart_Contour {#SurfaceChart_Contour}
-```
 Groups this set of series types: { ChartType.Contour }
-```
 
 ---
 
 ### SurfaceChart_WireframeContour {#SurfaceChart_WireframeContour}
-```
 Groups this set of series types: { ChartType.WireframeContour }
-```
 
 ---
 
 ### SurfaceChart_Surface3D {#SurfaceChart_Surface3D}
-```
 Groups this set of series types: { ChartType.Surface3D }
-```
 
 ---
 
 ### SurfaceChart_WireframeSurface3D {#SurfaceChart_WireframeSurface3D}
-```
 Groups this set of series types: { ChartType.WireframeSurface3D }
-```
 
 ---
 
 ### BubbleChart {#BubbleChart}
-```
 Groups this set of series types: { ChartType.Bubble, ChartType.BubbleWith3D }
-```
 
 ---
 
 ### HistogramChart {#HistogramChart}
-```
 Groups this set of series types: { ChartType.Histogram }
-```
 
 ---
 
 ### ParetoLineChart {#ParetoLineChart}
-```
 Groups this set of series types: { ChartType.ParetoLine }
-```
 
 ---
 
 ### BoxAndWhiskerChart {#BoxAndWhiskerChart}
-```
 Groups this set of series types: { ChartType.BoxAndWhisker }
-```
 
 ---
 
 ### WaterfallChart {#WaterfallChart}
-```
 Groups this set of series types: { ChartType.Waterfall }
-```
 
 ---
 
 ### FunnelChart {#FunnelChart}
-```
 Groups this set of series types: { ChartType.Funnel }
-```
 
 ---
 
 ### TreemapChart {#TreemapChart}
-```
 Groups this set of series types: { ChartType.Treemap }
-```
 
 ---
 
 ### MapChart {#MapChart}
-```
 Groups this set of series types: { ChartType.Map }
-```
 
 ---
 
 ### SunburstChart {#SunburstChart}
-```
 Groups this set of series types: { ChartType.Sunburst }
-```
 
 ---
 

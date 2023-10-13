@@ -31,65 +31,47 @@ url: /aspose.slides/motionpathpointstype/
 
 
 ### None {#None}
-```
 
-```
 
 ---
 
 ### Auto {#Auto}
-```
 
-```
 
 ---
 
 ### Corner {#Corner}
-```
 
-```
 
 ---
 
 ### Straight {#Straight}
-```
 
-```
 
 ---
 
 ### Smooth {#Smooth}
-```
 
-```
 
 ---
 
 ### CurveAuto {#CurveAuto}
-```
 
-```
 
 ---
 
 ### CurveCorner {#CurveCorner}
-```
 
-```
 
 ---
 
 ### CurveStraight {#CurveStraight}
-```
 
-```
 
 ---
 
 ### CurveSmooth {#CurveSmooth}
-```
 
-```
 
 ---
 

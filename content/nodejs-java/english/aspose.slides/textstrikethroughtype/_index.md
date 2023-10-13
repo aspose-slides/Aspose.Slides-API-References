@@ -26,30 +26,22 @@ url: /aspose.slides/textstrikethroughtype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### None {#None}
-```
 
-```
 
 ---
 
 ### Single {#Single}
-```
 
-```
 
 ---
 
 ### Double {#Double}
-```
 
-```
 
 ---
 

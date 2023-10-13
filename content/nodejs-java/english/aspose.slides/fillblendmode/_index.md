@@ -27,37 +27,27 @@ url: /aspose.slides/fillblendmode/
 
 
 ### Darken {#Darken}
-```
 Darken blend mode.
-```
 
 ---
 
 ### Lighten {#Lighten}
-```
 Lighten blend mode.
-```
 
 ---
 
 ### Multiply {#Multiply}
-```
 Multiply blend mode.
-```
 
 ---
 
 ### Overlay {#Overlay}
-```
 Overlay blend mode.
-```
 
 ---
 
 ### Screen {#Screen}
-```
 Screen blend mode.
-```
 
 ---
 

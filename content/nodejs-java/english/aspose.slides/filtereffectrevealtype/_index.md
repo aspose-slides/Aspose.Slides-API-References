@@ -26,30 +26,22 @@ url: /aspose.slides/filtereffectrevealtype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### None {#None}
-```
 
-```
 
 ---
 
 ### In {#In}
-```
 
-```
 
 ---
 
 ### Out {#Out}
-```
 
-```
 
 ---
 

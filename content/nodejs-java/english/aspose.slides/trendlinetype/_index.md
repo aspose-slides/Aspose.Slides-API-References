@@ -28,44 +28,32 @@ url: /aspose.slides/trendlinetype/
 
 
 ### Exponential {#Exponential}
-```
 Specifies the trendline shall be an exponential curve in the form.
-```
 
 ---
 
 ### Linear {#Linear}
-```
 Specifies the trendline shall be a line in the form.
-```
 
 ---
 
 ### Logarithmic {#Logarithmic}
-```
 Specifies the trendline shall be a logarithmic curve in the form , where log is the natural logarithm.
-```
 
 ---
 
 ### MovingAverage {#MovingAverage}
-```
 Specifies the trendline shall be a moving average of period Period.
-```
 
 ---
 
 ### Polynomial {#Polynomial}
-```
 Specifies the trendline shall be a polynomial curve of order Order in the form.
-```
 
 ---
 
 ### Power {#Power}
-```
 Specifies the trendline shall be a power curve in the form.
-```
 
 ---
 

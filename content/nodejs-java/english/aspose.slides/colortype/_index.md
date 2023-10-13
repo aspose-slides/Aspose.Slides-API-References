@@ -29,51 +29,37 @@ url: /aspose.slides/colortype/
 
 
 ### NotDefined {#NotDefined}
-```
 Color is not defined at all.
-```
 
 ---
 
 ### RGB {#RGB}
-```
 Standard 24bit RGB color.
-```
 
 ---
 
 ### RGBPercentage {#RGBPercentage}
-```
 High definition RGB color.
-```
 
 ---
 
 ### HSL {#HSL}
-```
 High definition HSL color.
-```
 
 ---
 
 ### Scheme {#Scheme}
-```
 Scheme color.
-```
 
 ---
 
 ### System {#System}
-```
 System color.
-```
 
 ---
 
 ### Preset {#Preset}
-```
 Preset Color.
-```
 
 ---
 

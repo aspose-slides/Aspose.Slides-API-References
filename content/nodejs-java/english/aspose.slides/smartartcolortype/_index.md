@@ -60,268 +60,192 @@ url: /aspose.slides/smartartcolortype/
 
 
 ### Dark1Outline {#Dark1Outline}
-```
 Dark1Outline
-```
 
 ---
 
 ### Dark2Outline {#Dark2Outline}
-```
 Dark2Outline
-```
 
 ---
 
 ### DarkFill {#DarkFill}
-```
 DarkFill
-```
 
 ---
 
 ### ColorfulAccentColors {#ColorfulAccentColors}
-```
 ColorfulAccentColors
-```
 
 ---
 
 ### ColorfulAccentColors2to3 {#ColorfulAccentColors2to3}
-```
 ColorfulAccentColors2to3
-```
 
 ---
 
 ### ColorfulAccentColors3to4 {#ColorfulAccentColors3to4}
-```
 ColorfulAccentColors3to4
-```
 
 ---
 
 ### ColorfulAccentColors4to5 {#ColorfulAccentColors4to5}
-```
 ColorfulAccentColors4to5
-```
 
 ---
 
 ### ColorfulAccentColors5to6 {#ColorfulAccentColors5to6}
-```
 ColorfulAccentColors5to6
-```
 
 ---
 
 ### ColoredOutlineAccent1 {#ColoredOutlineAccent1}
-```
 ColoredOutlineAccent1
-```
 
 ---
 
 ### ColoredFillAccent1 {#ColoredFillAccent1}
-```
 ColoredFillAccent1
-```
 
 ---
 
 ### GradientRangeAccent1 {#GradientRangeAccent1}
-```
 GradientRangeAccent1
-```
 
 ---
 
 ### GradientLoopAccent1 {#GradientLoopAccent1}
-```
 GradientLoopAccent1
-```
 
 ---
 
 ### TransparentGradientRangeAccent1 {#TransparentGradientRangeAccent1}
-```
 TransparentGradientRangeAccent1
-```
 
 ---
 
 ### ColoredOutlineAccent2 {#ColoredOutlineAccent2}
-```
 ColoredOutlineAccent2
-```
 
 ---
 
 ### ColoredFillAccent2 {#ColoredFillAccent2}
-```
 ColoredFillAccent2
-```
 
 ---
 
 ### GradientRangeAccent2 {#GradientRangeAccent2}
-```
 GradientRangeAccent2
-```
 
 ---
 
 ### GradientLoopAccent2 {#GradientLoopAccent2}
-```
 GradientLoopAccent2
-```
 
 ---
 
 ### TransparentGradientRangeAccent2 {#TransparentGradientRangeAccent2}
-```
 TransparentGradientRangeAccent2
-```
 
 ---
 
 ### ColoredOutlineAccent3 {#ColoredOutlineAccent3}
-```
 ColoredOutlineAccent3
-```
 
 ---
 
 ### ColoredFillAccent3 {#ColoredFillAccent3}
-```
 ColoredFillAccent3
-```
 
 ---
 
 ### GradientRangeAccent3 {#GradientRangeAccent3}
-```
 GradientRangeAccent3
-```
 
 ---
 
 ### GradientLoopAccent3 {#GradientLoopAccent3}
-```
 GradientLoopAccent3
-```
 
 ---
 
 ### TransparentGradientRangeAccent3 {#TransparentGradientRangeAccent3}
-```
 TransparentGradientRangeAccent3
-```
 
 ---
 
 ### ColoredOutlineAccent4 {#ColoredOutlineAccent4}
-```
 ColoredOutlineAccent4
-```
 
 ---
 
 ### ColoredFillAccent4 {#ColoredFillAccent4}
-```
 ColoredFillAccent4
-```
 
 ---
 
 ### GradientRangeAccent4 {#GradientRangeAccent4}
-```
 GradientRangeAccent4
-```
 
 ---
 
 ### GradientLoopAccent4 {#GradientLoopAccent4}
-```
 GradientLoopAccent4
-```
 
 ---
 
 ### TransparentGradientRangeAccent4 {#TransparentGradientRangeAccent4}
-```
 TransparentGradientRangeAccent4
-```
 
 ---
 
 ### ColoredOutlineAccent5 {#ColoredOutlineAccent5}
-```
 ColoredOutlineAccent5
-```
 
 ---
 
 ### ColoredFillAccent5 {#ColoredFillAccent5}
-```
 ColoredFillAccent5
-```
 
 ---
 
 ### GradientRangeAccent5 {#GradientRangeAccent5}
-```
 GradientRangeAccent5
-```
 
 ---
 
 ### GradientLoopAccent5 {#GradientLoopAccent5}
-```
 GradientLoopAccent5
-```
 
 ---
 
 ### TransparentGradientRangeAccent5 {#TransparentGradientRangeAccent5}
-```
 TransparentGradientRangeAccent5
-```
 
 ---
 
 ### ColoredOutlineAccent6 {#ColoredOutlineAccent6}
-```
 ColoredOutlineAccent6
-```
 
 ---
 
 ### ColoredFillAccent6 {#ColoredFillAccent6}
-```
 ColoredFillAccent6
-```
 
 ---
 
 ### GradientRangeAccent6 {#GradientRangeAccent6}
-```
 GradientRangeAccent6
-```
 
 ---
 
 ### GradientLoopAccent6 {#GradientLoopAccent6}
-```
 GradientLoopAccent6
-```
 
 ---
 
 ### TransparentGradientRangeAccent6 {#TransparentGradientRangeAccent6}
-```
 TransparentGradientRangeAccent6
-```
 
 ---
 

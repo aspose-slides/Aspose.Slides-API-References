@@ -25,23 +25,17 @@ url: /aspose.slides/linkembeddecision/
 
 
 ### Link {#Link}
-```
 Object will be stored externally, referrenced by URL
-```
 
 ---
 
 ### Embed {#Embed}
-```
 Object should be embedded to a generated file if possible. If embedding is imposible, GetUrl will be called and, depending on result, object will be referrenced by URL or ignored.
-```
 
 ---
 
 ### Ignore {#Ignore}
-```
 Object will be ignored.
-```
 
 ---
 

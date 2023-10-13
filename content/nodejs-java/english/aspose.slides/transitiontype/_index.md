@@ -79,401 +79,287 @@ url: /aspose.slides/transitiontype/
 
 
 ### None {#None}
-```
 
-```
 
 ---
 
 ### Blinds {#Blinds}
-```
 
-```
 
 ---
 
 ### Checker {#Checker}
-```
 
-```
 
 ---
 
 ### Circle {#Circle}
-```
 Relates to transition Shape (with option Circle) in PowerPoint 2010.
-```
 
 ---
 
 ### Comb {#Comb}
-```
 
-```
 
 ---
 
 ### Cover {#Cover}
-```
 
-```
 
 ---
 
 ### Cut {#Cut}
-```
 
-```
 
 ---
 
 ### Diamond {#Diamond}
-```
 Relates to transition Shape (with option Diamond) in PowerPoint 2010.
-```
 
 ---
 
 ### Dissolve {#Dissolve}
-```
 
-```
 
 ---
 
 ### Fade {#Fade}
-```
 
-```
 
 ---
 
 ### Newsflash {#Newsflash}
-```
 
-```
 
 ---
 
 ### Plus {#Plus}
-```
 Relates to transition Shape (with option Plus) in PowerPoint 2010.
-```
 
 ---
 
 ### Pull {#Pull}
-```
 
-```
 
 ---
 
 ### Push {#Push}
-```
 
-```
 
 ---
 
 ### Random {#Random}
-```
 
-```
 
 ---
 
 ### RandomBar {#RandomBar}
-```
 
-```
 
 ---
 
 ### Split {#Split}
-```
 Equivalent to transition Wipe in PowerPoint 2010.
-```
 
 ---
 
 ### Strips {#Strips}
-```
 
-```
 
 ---
 
 ### Wedge {#Wedge}
-```
 Relates to transition Clock (with option Wedge) in PowerPoint 2010.
-```
 
 ---
 
 ### Wheel {#Wheel}
-```
 Relates to transition Clock (with option Clockwise) in PowerPoint 2010.
-```
 
 ---
 
 ### Wipe {#Wipe}
-```
 
-```
 
 ---
 
 ### Zoom {#Zoom}
-```
 Relates to transition Shape (with options In/Out) in PowerPoint 2010. See also TransitionType#Warp that relates to transition Zoom in PowerPoint 2010.
-```
 
 ---
 
 ### Vortex {#Vortex}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Switch {#Switch}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Flip {#Flip}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Ripple {#Ripple}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Honeycomb {#Honeycomb}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Cube {#Cube}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Box {#Box}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Rotate {#Rotate}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Orbit {#Orbit}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Doors {#Doors}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Window {#Window}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Ferris {#Ferris}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Gallery {#Gallery}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Conveyor {#Conveyor}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Pan {#Pan}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Glitter {#Glitter}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Warp {#Warp}
-```
 Relates to transition Zoom in PowerPoint 2010. Available in PowerPoint 2010.
-```
 
 ---
 
 ### Flythrough {#Flythrough}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Flash {#Flash}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Shred {#Shred}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### Reveal {#Reveal}
-```
 Available in PowerPoint 2010.
-```
 
 ---
 
 ### WheelReverse {#WheelReverse}
-```
 Relates to transition Clock (with option Counterclockwise) in PowerPoint 2010. Available in PowerPoint 2010.
-```
 
 ---
 
 ### FallOver {#FallOver}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### Drape {#Drape}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### Curtains {#Curtains}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### Wind {#Wind}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### Prestige {#Prestige}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### Fracture {#Fracture}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### Crush {#Crush}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### PeelOff {#PeelOff}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### PageCurlDouble {#PageCurlDouble}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### PageCurlSingle {#PageCurlSingle}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### Airplane {#Airplane}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### Origami {#Origami}
-```
 Available in PowerPoint 2013.
-```
 
 ---
 
 ### Morph {#Morph}
-```
 Relates to transition Morph (with option Type) in PowerPoint 2019.
-```
 
 ---
 

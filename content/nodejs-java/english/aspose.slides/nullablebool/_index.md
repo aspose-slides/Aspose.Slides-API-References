@@ -25,23 +25,17 @@ url: /aspose.slides/nullablebool/
 
 
 ### NotDefined {#NotDefined}
-```
 Boolean value is undefined.
-```
 
 ---
 
 ### False {#False}
-```
 False value.
-```
 
 ---
 
 ### True {#True}
-```
 True value.
-```
 
 ---
 

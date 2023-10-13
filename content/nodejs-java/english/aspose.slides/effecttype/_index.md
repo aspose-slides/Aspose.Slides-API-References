@@ -177,1087 +177,777 @@ url: /aspose.slides/effecttype/
 
 
 ### Appear {#Appear}
-```
 Appear effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### CurveUpDown {#CurveUpDown}
-```
 CurveUpDown effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Ascend {#Ascend}
-```
 Ascend effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Blast {#Blast}
-```
 Blast effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Blinds {#Blinds}
-```
 Blinds effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Horizontal EffectSubtype.Vertical}
-```
 
 ---
 
 ### Blink {#Blink}
-```
 Blink effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### BoldFlash {#BoldFlash}
-```
 BoldFlash effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### BoldReveal {#BoldReveal}
-```
 BoldReveal effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Boomerang {#Boomerang}
-```
 Boomerang effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Bounce {#Bounce}
-```
 Bounce effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Box {#Box}
-```
 Box effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.In EffectSubtype.Out}
-```
 
 ---
 
 ### BrushOnColor {#BrushOnColor}
-```
 BrushOnColor effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### BrushOnUnderline {#BrushOnUnderline}
-```
 BrushOnUnderline effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### CenterRevolve {#CenterRevolve}
-```
 CenterRevolve effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### ChangeFillColor {#ChangeFillColor}
-```
 ChangeFillColor effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.Instant EffectSubtype.Gradual EffectSubtype.GradualAndCycleClockwise EffectSubtype.GradualAndCycleCounterClockwise}
-```
 
 ---
 
 ### ChangeFont {#ChangeFont}
-```
 ChangeFont effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.Instant EffectSubtype.Gradual}
-```
 
 ---
 
 ### ChangeFontColor {#ChangeFontColor}
-```
 ChangeFontColor effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.Instant EffectSubtype.Gradual EffectSubtype.GradualAndCycleClockwise EffectSubtype.GradualAndCycleCounterClockwise}
-```
 
 ---
 
 ### ChangeFontSize {#ChangeFontSize}
-```
 ChangeFontSize effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.Instant EffectSubtype.Gradual}
-```
 
 ---
 
 ### ChangeFontStyle {#ChangeFontStyle}
-```
 ChangeFontSize effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.FontBold EffectSubtype.FontItalic EffectSubtype.FontUnderline}
-```
 
 ---
 
 ### ChangeLineColor {#ChangeLineColor}
-```
 ChangeLineColor effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.Instant EffectSubtype.Gradual EffectSubtype.GradualAndCycleClockwise EffectSubtype.GradualAndCycleCounterClockwise}
-```
 
 ---
 
 ### Checkerboard {#Checkerboard}
-```
 Checkerboard effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Vertical EffectSubtype.Across}
-```
 
 ---
 
 ### Circle {#Circle}
-```
 ColorBlend effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.In EffectSubtype.Out}
-```
 
 ---
 
 ### ColorBlend {#ColorBlend}
-```
 BrushOnUnderline effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### ColorTypewriter {#ColorTypewriter}
-```
 Checkerboard effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### ColorWave {#ColorWave}
-```
 ColorWave effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### ComplementaryColor {#ComplementaryColor}
-```
 ComplementaryColor effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### ComplementaryColor2 {#ComplementaryColor2}
-```
 ComplementaryColor2 effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Compress {#Compress}
-```
 Compress effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### ContrastingColor {#ContrastingColor}
-```
 ContrastingColor effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Crawl {#Crawl}
-```
 Crawl effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Right EffectSubtype.Left EffectSubtype.Top EffectSubtype.Bottom}
-```
 
 ---
 
 ### Credits {#Credits}
-```
 Credits effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Custom {#Custom}
-```
 Custom effect.
-```
 
 ---
 
 ### Darken {#Darken}
-```
 Darken effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Desaturate {#Desaturate}
-```
 Desaturate effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Descend {#Descend}
-```
 Descend effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Diamond {#Diamond}
-```
 Diamond effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.In EffectSubtype.Out}
-```
 
 ---
 
 ### Dissolve {#Dissolve}
-```
 Dissolve effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### EaseInOut {#EaseInOut}
-```
 Dissolve effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Expand {#Expand}
-```
 Expand effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Fade {#Fade}
-```
 Fade effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### FadedSwivel {#FadedSwivel}
-```
 FadedSwivel effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### FadedZoom {#FadedZoom}
-```
 FadedZoom effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### FlashBulb {#FlashBulb}
-```
 FlashBulb effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### FlashOnce {#FlashOnce}
-```
 FlashOnce effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Flicker {#Flicker}
-```
 Flicker effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Flip {#Flip}
-```
 Flip effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Float {#Float}
-```
 Float effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Fly {#Fly}
-```
 Fly effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Right EffectSubtype.Left EffectSubtype.Top EffectSubtype.Bottom EffectSubtype.TopLeft EffectSubtype.TopRight EffectSubtype.BottomLeft EffectSubtype.BottomRight}
-```
 
 ---
 
 ### Fold {#Fold}
-```
 Fold effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Glide {#Glide}
-```
 Glide effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### GrowAndTurn {#GrowAndTurn}
-```
 GrowAndTurn effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### GrowShrink {#GrowShrink}
-```
 GrowShrink effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### GrowWithColor {#GrowWithColor}
-```
 GrowWithColor effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Lighten {#Lighten}
-```
 Lighten effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### LightSpeed {#LightSpeed}
-```
 LightSpeed effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### MediaPause {#MediaPause}
-```
 MediaPause effect. Class Media. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### MediaPlay {#MediaPlay}
-```
 MediaPlay effect. Class Media. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### MediaStop {#MediaStop}
-```
 MediaStop effect. Class Media. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Path4PointStar {#Path4PointStar}
-```
 Path4PointStar effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Path5PointStar {#Path5PointStar}
-```
 Path5PointStar effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Path6PointStar {#Path6PointStar}
-```
 Path6PointStar effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Path8PointStar {#Path8PointStar}
-```
 Path8PointStar effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathArcDown {#PathArcDown}
-```
 PathArcDown effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathArcLeft {#PathArcLeft}
-```
 PathArcLeft effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathArcRight {#PathArcRight}
-```
 PathArcRight effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathArcUp {#PathArcUp}
-```
 PathArcUp effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathBean {#PathBean}
-```
 PathBean effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathBounceLeft {#PathBounceLeft}
-```
 PathBounceLeft effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathBounceRight {#PathBounceRight}
-```
 PathBounceRight effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathBuzzsaw {#PathBuzzsaw}
-```
 PathBuzzsaw effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathCircle {#PathCircle}
-```
 PathCircle effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathCrescentMoon {#PathCrescentMoon}
-```
 PathCrescentMoon effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathCurvedSquare {#PathCurvedSquare}
-```
 PathCurvedSquare effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathCurvedX {#PathCurvedX}
-```
 PathCurvedX effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathCurvyLeft {#PathCurvyLeft}
-```
 PathCurvyLeft effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathCurvyRight {#PathCurvyRight}
-```
 PathCurvyRight effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathCurvyStar {#PathCurvyStar}
-```
 PathCurvyStar effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathDecayingWave {#PathDecayingWave}
-```
 PathDecayingWave effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathDiagonalDownRight {#PathDiagonalDownRight}
-```
 PathDiagonalDownRight effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathDiagonalUpRight {#PathDiagonalUpRight}
-```
 PathDiagonalUpRight effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathDiamond {#PathDiamond}
-```
 PathDiamond effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathDown {#PathDown}
-```
 PathDown effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathEqualTriangle {#PathEqualTriangle}
-```
 PathEqualTriangle effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathFigure8Four {#PathFigure8Four}
-```
 PathFigure8Four effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathFootball {#PathFootball}
-```
 PathFootball effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathFunnel {#PathFunnel}
-```
 PathFunnel effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathHeart {#PathHeart}
-```
 PathHeart effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathHeartbeat {#PathHeartbeat}
-```
 PathHeartbeat effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathHexagon {#PathHexagon}
-```
 PathHexagon effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathHorizontalFigure8 {#PathHorizontalFigure8}
-```
 PathHorizontalFigure8 effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathInvertedSquare {#PathInvertedSquare}
-```
 PathInvertedSquare effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathInvertedTriangle {#PathInvertedTriangle}
-```
 PathInvertedTriangle effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathLeft {#PathLeft}
-```
 PathLeft effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathLoopdeLoop {#PathLoopdeLoop}
-```
 PathLoopdeLoop effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathNeutron {#PathNeutron}
-```
 PathNeutron effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathOctagon {#PathOctagon}
-```
 PathOctagon effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathParallelogram {#PathParallelogram}
-```
 PathParallelogram effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathPeanut {#PathPeanut}
-```
 PathPeanut effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathPentagon {#PathPentagon}
-```
 PathPentagon effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathPlus {#PathPlus}
-```
 PathPlus effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathPointyStar {#PathPointyStar}
-```
 PathPointyStar effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathRight {#PathRight}
-```
 PathRight effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathRightTriangle {#PathRightTriangle}
-```
 PathRightTriangle effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathSCurve1 {#PathSCurve1}
-```
 PathSCurve1 effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathSCurve2 {#PathSCurve2}
-```
 PathSCurve2 effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathSineWave {#PathSineWave}
-```
 PathSineWave effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathSpiralLeft {#PathSpiralLeft}
-```
 PathSpiralLeft effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathSpiralRight {#PathSpiralRight}
-```
 PathSpiralRight effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathSpring {#PathSpring}
-```
 PathSpring effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathSquare {#PathSquare}
-```
 PathSquare effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathStairsDown {#PathStairsDown}
-```
 PathStairsDown effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathSwoosh {#PathSwoosh}
-```
 PathSwoosh effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathTeardrop {#PathTeardrop}
-```
 PathTeardrop effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathTrapezoid {#PathTrapezoid}
-```
 PathTrapezoid effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathTurnDown {#PathTurnDown}
-```
 PathTurnDown effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathTurnRight {#PathTurnRight}
-```
 PathTurnRight effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathTurnUp {#PathTurnUp}
-```
 PathTurnUp effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathTurnUpRight {#PathTurnUpRight}
-```
 PathTurnUpRight effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathUp {#PathUp}
-```
 PathUp effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathUser {#PathUser}
-```
 PathUser effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathVerticalFigure8 {#PathVerticalFigure8}
-```
 PathVerticalFigure8 effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathWave {#PathWave}
-```
 PathWave effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### PathZigzag {#PathZigzag}
-```
 PathZigzag effect. Class Path. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Peek {#Peek}
-```
 Peek effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Pinwheel {#Pinwheel}
-```
 Pinwheel effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Plus {#Plus}
-```
 Plus effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.In EffectSubtype.Out}
-```
 
 ---
 
 ### RandomBars {#RandomBars}
-```
 RandomBars effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Horizontal EffectSubtype.Vertical}
-```
 
 ---
 
 ### RandomEffects {#RandomEffects}
-```
 RandomEffects effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### RiseUp {#RiseUp}
-```
 RandomEffects effect. Class Entrance. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Shimmer {#Shimmer}
-```
 Shimmer effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Sling {#Sling}
-```
 RandomEffects effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Spin {#Spin}
-```
 Spin effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Spinner {#Spinner}
-```
 Spinner effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Spiral {#Spiral}
-```
 Spiral effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Split {#Split}
-```
 Split effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.HorizontalIn EffectSubtype.HorizontalOut EffectSubtype.VerticalIn EffectSubtype.VerticalOut}
-```
 
 ---
 
 ### Stretch {#Stretch}
-```
 Stretch effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Right EffectSubtype.Left EffectSubtype.Top EffectSubtype.Bottom EffectSubtype.Across}
-```
 
 ---
 
 ### Strips {#Strips}
-```
 Stretch effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.UpLeft EffectSubtype.UpRight EffectSubtype.DownLeft EffectSubtype.DownRight}
-```
 
 ---
 
 ### StyleEmphasis {#StyleEmphasis}
-```
 StyleEmphasis effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Swish {#Swish}
-```
 Swish effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Swivel {#Swivel}
-```
 Swivel effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Horizontal EffectSubtype.Vertical}
-```
 
 ---
 
 ### Teeter {#Teeter}
-```
 Teeter effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Thread {#Thread}
-```
 Thread effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Transparency {#Transparency}
-```
 Transparency effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Unfold {#Unfold}
-```
 Unfold effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### VerticalGrow {#VerticalGrow}
-```
 VerticalGrow effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Wave {#Wave}
-```
 Wave effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Wedge {#Wedge}
-```
 Wedge effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Wheel {#Wheel}
-```
 Wedge effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Wheel1 EffectSubtype.Wheel2 EffectSubtype.Wheel3 EffectSubtype.Wheel4 EffectSubtype.Wheel8}
-```
 
 ---
 
 ### Whip {#Whip}
-```
 Whip effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Wipe {#Wipe}
-```
 Wedge effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Top EffectSubtype.Right EffectSubtype.Bottom EffectSubtype.Left}
-```
 
 ---
 
 ### Magnify {#Magnify}
-```
 Magnify effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### Zoom {#Zoom}
-```
 Zoom effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.In EffectSubtype.Out EffectSubtype.InCenter - only for Entrance class EffectSubtype.OutBottom - only for Entrance class EffectSubtype.OutSlightly EffectSubtype.InSlightly EffectSubtype.OutCenter - only for Exit class EffectSubtype.InBottom - only for Exit class}
-```
 
 ---
 
 ### OLEObjectShow {#OLEObjectShow}
-```
 OLEObjectShow effect. Class OLEActionVerbs. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### OLEObjectEdit {#OLEObjectEdit}
-```
 OLEObjectEdit effect. Class OLEActionVerbs. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 
 ### OLEObjectOpen {#OLEObjectOpen}
-```
 OLEObjectOpen effect. Class OLEActionVerbs. Valid subtypes: {@code EffectSubtype.None}
-```
 
 ---
 

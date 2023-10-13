@@ -25,23 +25,17 @@ url: /aspose.slides/linealignment/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Center {#Center}
-```
 
-```
 
 ---
 
 ### Inset {#Inset}
-```
 
-```
 
 ---
 

@@ -28,44 +28,32 @@ url: /aspose.slides/effectpresetclasstype/
 
 
 ### Entrance {#Entrance}
-```
 Entrance effects class. Target shape types: All
-```
 
 ---
 
 ### Exit {#Exit}
-```
 Exit effects class. Target shape types: All
-```
 
 ---
 
 ### Emphasis {#Emphasis}
-```
 Emphasis effects class. Target shape types: All
-```
 
 ---
 
 ### Path {#Path}
-```
 Motion Paths class. Target shape types: All
-```
 
 ---
 
 ### MediaCall {#MediaCall}
-```
 Media effects class. Target shape types: IVideoFrame, IAudioFrame
-```
 
 ---
 
 ### OLEActionVerbs {#OLEActionVerbs}
-```
 OLE Action Verbs class. Target shape types: IOleObjectFrame
-```
 
 ---
 

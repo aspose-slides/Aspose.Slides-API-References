@@ -26,30 +26,22 @@ url: /aspose.slides/timeunittype/
 
 
 ### None {#None}
-```
 Values will displayed as is.
-```
 
 ---
 
 ### Days {#Days}
-```
 Specifies the chart data shall be shown in days.
-```
 
 ---
 
 ### Months {#Months}
-```
 Specifies the chart data shall be shown in months.
-```
 
 ---
 
 ### Years {#Years}
-```
 Specifies the chart data shall be shown in years.
-```
 
 ---
 

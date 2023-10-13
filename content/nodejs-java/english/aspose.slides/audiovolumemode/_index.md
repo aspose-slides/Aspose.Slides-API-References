@@ -27,37 +27,27 @@ url: /aspose.slides/audiovolumemode/
 
 
 ### Mixed {#Mixed}
-```
 
-```
 
 ---
 
 ### Mute {#Mute}
-```
 Zero sound volume.
-```
 
 ---
 
 ### Low {#Low}
-```
 Low sound volume.
-```
 
 ---
 
 ### Medium {#Medium}
-```
 Medium sound volume.
-```
 
 ---
 
 ### Loud {#Loud}
-```
 Loud sound volume.
-```
 
 ---
 

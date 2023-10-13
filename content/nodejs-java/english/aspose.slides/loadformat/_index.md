@@ -37,107 +37,77 @@ url: /aspose.slides/loadformat/
 
 
 ### Auto {#Auto}
-```
 Instructs Aspose.Slides to recognize the format automatically.
-```
 
 ---
 
 ### Ppt {#Ppt}
-```
 Microsoft PowerPoint 97-2003 Presentation.
-```
 
 ---
 
 ### Pps {#Pps}
-```
 Microsoft PowerPoint 97-2003 SlideShow.
-```
 
 ---
 
 ### Pptx {#Pptx}
-```
 Microsoft Office Open XML PresentationML Document.
-```
 
 ---
 
 ### Ppsx {#Ppsx}
-```
 Microsoft Office Open XML PresentationML SlideShow.
-```
 
 ---
 
 ### Odp {#Odp}
-```
 OpenOffice ODF Presentation.
-```
 
 ---
 
 ### Potx {#Potx}
-```
 Microsoft Office Open XML PresentationML Template.
-```
 
 ---
 
 ### Pptm {#Pptm}
-```
 Microsoft Office Open XML PresentationML Macro-enabled Document.
-```
 
 ---
 
 ### Ppsm {#Ppsm}
-```
 Microsoft Office Open XML PresentationML Macro-enabled SlideShow.
-```
 
 ---
 
 ### Potm {#Potm}
-```
 Microsoft Office Open XML PresentationML Macro-enabled Template.
-```
 
 ---
 
 ### Otp {#Otp}
-```
 OpenOffice OTP Presentation template.
-```
 
 ---
 
 ### Ppt95 {#Ppt95}
-```
 Microsoft PowerPoint 95 Presentation.
-```
 
 ---
 
 ### Pot {#Pot}
-```
 Microsoft PowerPoint 97-2003 Presentation Template.
-```
 
 ---
 
 ### Fodp {#Fodp}
-```
 Flat XML ODF Presentation.
-```
 
 ---
 
 ### Unknown {#Unknown}
-```
 Unknown file format
-```
 
 ---
 

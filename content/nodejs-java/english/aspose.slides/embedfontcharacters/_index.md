@@ -24,16 +24,12 @@ url: /aspose.slides/embedfontcharacters/
 
 
 ### OnlyUsed {#OnlyUsed}
-```
 Embed only the characters used in the presentation (best for reducing file size).
-```
 
 ---
 
 ### All {#All}
-```
 Embed all characters (best for editing by other people).
-```
 
 ---
 

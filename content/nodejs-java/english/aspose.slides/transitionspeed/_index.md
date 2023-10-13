@@ -25,23 +25,17 @@ url: /aspose.slides/transitionspeed/
 
 
 ### Fast {#Fast}
-```
 
-```
 
 ---
 
 ### Medium {#Medium}
-```
 
-```
 
 ---
 
 ### Slow {#Slow}
-```
 
-```
 
 ---
 

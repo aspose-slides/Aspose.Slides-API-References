@@ -27,37 +27,27 @@ url: /aspose.slides/effectfilltype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Remove {#Remove}
-```
 
-```
 
 ---
 
 ### Freeze {#Freeze}
-```
 
-```
 
 ---
 
 ### Hold {#Hold}
-```
 
-```
 
 ---
 
 ### Transition {#Transition}
-```
 
-```
 
 ---
 

@@ -42,142 +42,102 @@ url: /aspose.slides/saveformat/
 
 
 ### Ppt {#Ppt}
-```
 Save presentation in PPT format.
-```
 
 ---
 
 ### Pdf {#Pdf}
-```
 Save presentation in PDF format.
-```
 
 ---
 
 ### Xps {#Xps}
-```
 Save presentation in XPS format.
-```
 
 ---
 
 ### Pptx {#Pptx}
-```
 Save presentation in PPTX format.
-```
 
 ---
 
 ### Ppsx {#Ppsx}
-```
 Save presentation in PPSX (slideshow) format.
-```
 
 ---
 
 ### Tiff {#Tiff}
-```
 Save presentation as multi-page TIFF image.
-```
 
 ---
 
 ### Odp {#Odp}
-```
 Save presentation in ODP format.
-```
 
 ---
 
 ### Pptm {#Pptm}
-```
 Save presentation in PPTM (macro-enabled presentation) format.
-```
 
 ---
 
 ### Ppsm {#Ppsm}
-```
 Save presentation in PPSM (macro-enabled slideshow) format.
-```
 
 ---
 
 ### Potx {#Potx}
-```
 Save presentation in POTX (template) format.
-```
 
 ---
 
 ### Potm {#Potm}
-```
 Save presentation in POTM (macro-enabled template) format.
-```
 
 ---
 
 ### Html {#Html}
-```
 Save presentation in HTML format.
-```
 
 ---
 
 ### Swf {#Swf}
-```
 Save presentation in SWF format.
-```
 
 ---
 
 ### Otp {#Otp}
-```
 Save presentation in OTP (presentation template) format.
-```
 
 ---
 
 ### Pps {#Pps}
-```
 Save presentation in PPS format.
-```
 
 ---
 
 ### Pot {#Pot}
-```
 Save presentation in POT format.
-```
 
 ---
 
 ### Fodp {#Fodp}
-```
 Save presentation in FODP format.
-```
 
 ---
 
 ### Gif {#Gif}
-```
 Save presentation in GIF format.
-```
 
 ---
 
 ### Html5 {#Html5}
-```
 Save presentation in HTML format using new HTML5 templating system.
-```
 
 ---
 
 ### Md {#Md}
-```
 Save presentation in Markdown format
-```
 
 ---
 

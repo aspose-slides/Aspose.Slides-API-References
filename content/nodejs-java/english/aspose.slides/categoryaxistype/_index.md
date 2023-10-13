@@ -24,16 +24,12 @@ url: /aspose.slides/categoryaxistype/
 
 
 ### Text {#Text}
-```
 Specifies category axis is a text axis.
-```
 
 ---
 
 ### Date {#Date}
-```
 Specifies category axis is a date axis.
-```
 
 ---
 

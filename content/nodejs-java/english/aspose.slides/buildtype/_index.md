@@ -29,51 +29,37 @@ url: /aspose.slides/buildtype/
 
 
 ### AsOneObject {#AsOneObject}
-```
 With containing shape.
-```
 
 ---
 
 ### AllParagraphsAtOnce {#AllParagraphsAtOnce}
-```
 All paragraph.
-```
 
 ---
 
 ### ByLevelParagraphs1 {#ByLevelParagraphs1}
-```
 By groups of paragraphs of depth 1.
-```
 
 ---
 
 ### ByLevelParagraphs2 {#ByLevelParagraphs2}
-```
 By groups of paragraphs of depth 2.
-```
 
 ---
 
 ### ByLevelParagraphs3 {#ByLevelParagraphs3}
-```
 By groups of paragraphs of depth 3.
-```
 
 ---
 
 ### ByLevelParagraphs4 {#ByLevelParagraphs4}
-```
 By groups of paragraphs of depth 4.
-```
 
 ---
 
 ### ByLevelParagraphs5 {#ByLevelParagraphs5}
-```
 By groups of paragraphs of depth 5.
-```
 
 ---
 

@@ -26,30 +26,22 @@ url: /aspose.slides/moderncommentstatus/
 
 
 ### NotDefined {#NotDefined}
-```
 Not Defined.
-```
 
 ---
 
 ### Active {#Active}
-```
 Active.
-```
 
 ---
 
 ### Resolved {#Resolved}
-```
 Resolved.
-```
 
 ---
 
 ### Closed {#Closed}
-```
 Closed.
-```
 
 ---
 

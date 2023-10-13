@@ -25,23 +25,17 @@ url: /aspose.slides/shapeelementstrokesource/
 
 
 ### NoStroke {#NoStroke}
-```
 Don't stroke primitive.
-```
 
 ---
 
 ### Shape {#Shape}
-```
 Use shape's LineFormat.
-```
 
 ---
 
 ### OwnStroke {#OwnStroke}
-```
 Use own stroke.
-```
 
 ---
 

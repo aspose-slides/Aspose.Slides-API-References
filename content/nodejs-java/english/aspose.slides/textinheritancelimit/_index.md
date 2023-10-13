@@ -25,23 +25,17 @@ url: /aspose.slides/textinheritancelimit/
 
 
 ### All {#All}
-```
 Inherit all text properties.
-```
 
 ---
 
 ### TextBox {#TextBox}
-```
 Inherit only from TextFrameEx's style.
-```
 
 ---
 
 ### ParagraphOnly {#ParagraphOnly}
-```
 Use only properties defined for paragraph.
-```
 
 ---
 

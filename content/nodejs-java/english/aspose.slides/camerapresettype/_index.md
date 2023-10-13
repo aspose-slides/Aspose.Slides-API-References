@@ -85,443 +85,317 @@ url: /aspose.slides/camerapresettype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### IsometricBottomDown {#IsometricBottomDown}
-```
 
-```
 
 ---
 
 ### IsometricBottomUp {#IsometricBottomUp}
-```
 
-```
 
 ---
 
 ### IsometricLeftDown {#IsometricLeftDown}
-```
 
-```
 
 ---
 
 ### IsometricLeftUp {#IsometricLeftUp}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis1Left {#IsometricOffAxis1Left}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis1Right {#IsometricOffAxis1Right}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis1Top {#IsometricOffAxis1Top}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis2Left {#IsometricOffAxis2Left}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis2Right {#IsometricOffAxis2Right}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis2Top {#IsometricOffAxis2Top}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis3Bottom {#IsometricOffAxis3Bottom}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis3Left {#IsometricOffAxis3Left}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis3Right {#IsometricOffAxis3Right}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis4Bottom {#IsometricOffAxis4Bottom}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis4Left {#IsometricOffAxis4Left}
-```
 
-```
 
 ---
 
 ### IsometricOffAxis4Right {#IsometricOffAxis4Right}
-```
 
-```
 
 ---
 
 ### IsometricRightDown {#IsometricRightDown}
-```
 
-```
 
 ---
 
 ### IsometricRightUp {#IsometricRightUp}
-```
 
-```
 
 ---
 
 ### IsometricTopDown {#IsometricTopDown}
-```
 
-```
 
 ---
 
 ### IsometricTopUp {#IsometricTopUp}
-```
 
-```
 
 ---
 
 ### LegacyObliqueBottom {#LegacyObliqueBottom}
-```
 
-```
 
 ---
 
 ### LegacyObliqueBottomLeft {#LegacyObliqueBottomLeft}
-```
 
-```
 
 ---
 
 ### LegacyObliqueBottomRight {#LegacyObliqueBottomRight}
-```
 
-```
 
 ---
 
 ### LegacyObliqueFront {#LegacyObliqueFront}
-```
 
-```
 
 ---
 
 ### LegacyObliqueLeft {#LegacyObliqueLeft}
-```
 
-```
 
 ---
 
 ### LegacyObliqueRight {#LegacyObliqueRight}
-```
 
-```
 
 ---
 
 ### LegacyObliqueTop {#LegacyObliqueTop}
-```
 
-```
 
 ---
 
 ### LegacyObliqueTopLeft {#LegacyObliqueTopLeft}
-```
 
-```
 
 ---
 
 ### LegacyObliqueTopRight {#LegacyObliqueTopRight}
-```
 
-```
 
 ---
 
 ### LegacyPerspectiveBottom {#LegacyPerspectiveBottom}
-```
 
-```
 
 ---
 
 ### LegacyPerspectiveBottomLeft {#LegacyPerspectiveBottomLeft}
-```
 
-```
 
 ---
 
 ### LegacyPerspectiveBottomRight {#LegacyPerspectiveBottomRight}
-```
 
-```
 
 ---
 
 ### LegacyPerspectiveFront {#LegacyPerspectiveFront}
-```
 
-```
 
 ---
 
 ### LegacyPerspectiveLeft {#LegacyPerspectiveLeft}
-```
 
-```
 
 ---
 
 ### LegacyPerspectiveRight {#LegacyPerspectiveRight}
-```
 
-```
 
 ---
 
 ### LegacyPerspectiveTop {#LegacyPerspectiveTop}
-```
 
-```
 
 ---
 
 ### LegacyPerspectiveTopLeft {#LegacyPerspectiveTopLeft}
-```
 
-```
 
 ---
 
 ### LegacyPerspectiveTopRight {#LegacyPerspectiveTopRight}
-```
 
-```
 
 ---
 
 ### ObliqueBottom {#ObliqueBottom}
-```
 
-```
 
 ---
 
 ### ObliqueBottomLeft {#ObliqueBottomLeft}
-```
 
-```
 
 ---
 
 ### ObliqueBottomRight {#ObliqueBottomRight}
-```
 
-```
 
 ---
 
 ### ObliqueLeft {#ObliqueLeft}
-```
 
-```
 
 ---
 
 ### ObliqueRight {#ObliqueRight}
-```
 
-```
 
 ---
 
 ### ObliqueTop {#ObliqueTop}
-```
 
-```
 
 ---
 
 ### ObliqueTopLeft {#ObliqueTopLeft}
-```
 
-```
 
 ---
 
 ### ObliqueTopRight {#ObliqueTopRight}
-```
 
-```
 
 ---
 
 ### OrthographicFront {#OrthographicFront}
-```
 
-```
 
 ---
 
 ### PerspectiveAbove {#PerspectiveAbove}
-```
 
-```
 
 ---
 
 ### PerspectiveAboveLeftFacing {#PerspectiveAboveLeftFacing}
-```
 
-```
 
 ---
 
 ### PerspectiveAboveRightFacing {#PerspectiveAboveRightFacing}
-```
 
-```
 
 ---
 
 ### PerspectiveBelow {#PerspectiveBelow}
-```
 
-```
 
 ---
 
 ### PerspectiveContrastingLeftFacing {#PerspectiveContrastingLeftFacing}
-```
 
-```
 
 ---
 
 ### PerspectiveContrastingRightFacing {#PerspectiveContrastingRightFacing}
-```
 
-```
 
 ---
 
 ### PerspectiveFront {#PerspectiveFront}
-```
 
-```
 
 ---
 
 ### PerspectiveHeroicExtremeLeftFacing {#PerspectiveHeroicExtremeLeftFacing}
-```
 
-```
 
 ---
 
 ### PerspectiveHeroicExtremeRightFacing {#PerspectiveHeroicExtremeRightFacing}
-```
 
-```
 
 ---
 
 ### PerspectiveHeroicLeftFacing {#PerspectiveHeroicLeftFacing}
-```
 
-```
 
 ---
 
 ### PerspectiveHeroicRightFacing {#PerspectiveHeroicRightFacing}
-```
 
-```
 
 ---
 
 ### PerspectiveLeft {#PerspectiveLeft}
-```
 
-```
 
 ---
 
 ### PerspectiveRelaxed {#PerspectiveRelaxed}
-```
 
-```
 
 ---
 
 ### PerspectiveRelaxedModerately {#PerspectiveRelaxedModerately}
-```
 
-```
 
 ---
 
 ### PerspectiveRight {#PerspectiveRight}
-```
 
-```
 
 ---
 

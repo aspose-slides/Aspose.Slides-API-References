@@ -50,198 +50,142 @@ url: /aspose.slides/lightrigpresettype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Balanced {#Balanced}
-```
 
-```
 
 ---
 
 ### BrightRoom {#BrightRoom}
-```
 
-```
 
 ---
 
 ### Chilly {#Chilly}
-```
 
-```
 
 ---
 
 ### Contrasting {#Contrasting}
-```
 
-```
 
 ---
 
 ### Flat {#Flat}
-```
 
-```
 
 ---
 
 ### Flood {#Flood}
-```
 
-```
 
 ---
 
 ### Freezing {#Freezing}
-```
 
-```
 
 ---
 
 ### Glow {#Glow}
-```
 
-```
 
 ---
 
 ### Harsh {#Harsh}
-```
 
-```
 
 ---
 
 ### LegacyFlat1 {#LegacyFlat1}
-```
 
-```
 
 ---
 
 ### LegacyFlat2 {#LegacyFlat2}
-```
 
-```
 
 ---
 
 ### LegacyFlat3 {#LegacyFlat3}
-```
 
-```
 
 ---
 
 ### LegacyFlat4 {#LegacyFlat4}
-```
 
-```
 
 ---
 
 ### LegacyHarsh1 {#LegacyHarsh1}
-```
 
-```
 
 ---
 
 ### LegacyHarsh2 {#LegacyHarsh2}
-```
 
-```
 
 ---
 
 ### LegacyHarsh3 {#LegacyHarsh3}
-```
 
-```
 
 ---
 
 ### LegacyHarsh4 {#LegacyHarsh4}
-```
 
-```
 
 ---
 
 ### LegacyNormal1 {#LegacyNormal1}
-```
 
-```
 
 ---
 
 ### LegacyNormal2 {#LegacyNormal2}
-```
 
-```
 
 ---
 
 ### LegacyNormal3 {#LegacyNormal3}
-```
 
-```
 
 ---
 
 ### LegacyNormal4 {#LegacyNormal4}
-```
 
-```
 
 ---
 
 ### Morning {#Morning}
-```
 
-```
 
 ---
 
 ### Soft {#Soft}
-```
 
-```
 
 ---
 
 ### Sunrise {#Sunrise}
-```
 
-```
 
 ---
 
 ### Sunset {#Sunset}
-```
 
-```
 
 ---
 
 ### ThreePt {#ThreePt}
-```
 
-```
 
 ---
 
 ### TwoPt {#TwoPt}
-```
 
-```
 
 ---
 

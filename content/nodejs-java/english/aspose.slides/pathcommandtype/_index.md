@@ -28,44 +28,32 @@ url: /aspose.slides/pathcommandtype/
 
 
 ### Close {#Close}
-```
 Closes geometry path
-```
 
 ---
 
 ### MoveTo {#MoveTo}
-```
 Sets next point position of the geometry path
-```
 
 ---
 
 ### LineTo {#LineTo}
-```
 Appends line to the geometry path
-```
 
 ---
 
 ### ArcTo {#ArcTo}
-```
 Appends the specified arc to the geometry path.
-```
 
 ---
 
 ### QuadBezierTo {#QuadBezierTo}
-```
 Appends quadratic Bezier curve to the geometry path
-```
 
 ---
 
 ### CubicBezierTo {#CubicBezierTo}
-```
 Appends cubic Bezier curve to the geometry path
-```
 
 ---
 

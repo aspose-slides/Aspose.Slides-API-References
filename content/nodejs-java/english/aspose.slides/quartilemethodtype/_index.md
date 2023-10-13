@@ -24,16 +24,12 @@ url: /aspose.slides/quartilemethodtype/
 
 
 ### Exclusive {#Exclusive}
-```
 Represents exclusive quartile method.
-```
 
 ---
 
 ### Inclusive {#Inclusive}
-```
 Represents inclusive quartile method.
-```
 
 ---
 

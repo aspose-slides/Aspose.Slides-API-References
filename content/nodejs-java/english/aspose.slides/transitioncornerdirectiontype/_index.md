@@ -26,30 +26,22 @@ url: /aspose.slides/transitioncornerdirectiontype/
 
 
 ### LeftDown {#LeftDown}
-```
 
-```
 
 ---
 
 ### LeftUp {#LeftUp}
-```
 
-```
 
 ---
 
 ### RightDown {#RightDown}
-```
 
-```
 
 ---
 
 ### RightUp {#RightUp}
-```
 
-```
 
 ---
 

@@ -28,44 +28,32 @@ url: /aspose.slides/mathintegraltypes/
 
 
 ### Simple {#Simple}
-```
 Integral: '?'
-```
 
 ---
 
 ### Double {#Double}
-```
 Double Integral: '?'
-```
 
 ---
 
 ### Triple {#Triple}
-```
 Triple Integral: '?'
-```
 
 ---
 
 ### Contour {#Contour}
-```
 Contour Integral: '?'
-```
 
 ---
 
 ### Surface {#Surface}
-```
 Surface Integral: '?'
-```
 
 ---
 
 ### Volume {#Volume}
-```
 VolumeIntegral: '?'
-```
 
 ---
 

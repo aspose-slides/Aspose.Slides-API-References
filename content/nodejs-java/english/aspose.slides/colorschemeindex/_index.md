@@ -34,86 +34,62 @@ url: /aspose.slides/colorschemeindex/
 
 
 ### Dark1 {#Dark1}
-```
 Dark 1.
-```
 
 ---
 
 ### Light1 {#Light1}
-```
 Light 1.
-```
 
 ---
 
 ### Dark2 {#Dark2}
-```
 Dark 2.
-```
 
 ---
 
 ### Light2 {#Light2}
-```
 Light 2.
-```
 
 ---
 
 ### Accent1 {#Accent1}
-```
 Accent 1.
-```
 
 ---
 
 ### Accent2 {#Accent2}
-```
 Accent 2.
-```
 
 ---
 
 ### Accent3 {#Accent3}
-```
 Accent 3.
-```
 
 ---
 
 ### Accent4 {#Accent4}
-```
 Accent 4.
-```
 
 ---
 
 ### Accent5 {#Accent5}
-```
 Accent 5.
-```
 
 ---
 
 ### Accent6 {#Accent6}
-```
 Accent 6.
-```
 
 ---
 
 ### Hyperlink {#Hyperlink}
-```
 Hyperlink.
-```
 
 ---
 
 ### FollowedHyperlink {#FollowedHyperlink}
-```
 Followed Hyperlink.
-```
 
 ---
 

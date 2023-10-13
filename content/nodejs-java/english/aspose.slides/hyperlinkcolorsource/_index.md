@@ -24,16 +24,12 @@ url: /aspose.slides/hyperlinkcolorsource/
 
 
 ### Styles {#Styles}
-```
 Styles.
-```
 
 ---
 
 ### PortionFormat {#PortionFormat}
-```
 Portion format.
-```
 
 ---
 

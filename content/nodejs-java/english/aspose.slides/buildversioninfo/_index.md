@@ -27,37 +27,27 @@ url: /aspose.slides/buildversioninfo/
 
 
 ### ProductMinor {#ProductMinor}
-```
 Minor version number.
-```
 
 ---
 
 ### ProductMajor {#ProductMajor}
-```
 Major version number.
-```
 
 ---
 
 ### AssemblyVersion {#AssemblyVersion}
-```
 Version of Aspose.Slides assembly.
-```
 
 ---
 
 ### FileVersion {#FileVersion}
-```
 Version of assembly file.
-```
 
 ---
 
 ### Product {#Product}
-```
 Product name of Aspose.Slides
-```
 
 ---
 

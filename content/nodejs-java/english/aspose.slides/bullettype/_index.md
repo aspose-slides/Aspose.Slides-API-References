@@ -27,37 +27,27 @@ url: /aspose.slides/bullettype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### None {#None}
-```
 
-```
 
 ---
 
 ### Symbol {#Symbol}
-```
 Sysmbol bullets.
-```
 
 ---
 
 ### Numbered {#Numbered}
-```
 Numbered bullets.
-```
 
 ---
 
 ### Picture {#Picture}
-```
 Picture bullets.
-```
 
 ---
 

@@ -32,72 +32,52 @@ url: /aspose.slides/rectanglealignment/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### TopLeft {#TopLeft}
-```
 
-```
 
 ---
 
 ### Top {#Top}
-```
 
-```
 
 ---
 
 ### TopRight {#TopRight}
-```
 
-```
 
 ---
 
 ### Left {#Left}
-```
 
-```
 
 ---
 
 ### Center {#Center}
-```
 
-```
 
 ---
 
 ### Right {#Right}
-```
 
-```
 
 ---
 
 ### BottomLeft {#BottomLeft}
-```
 
-```
 
 ---
 
 ### Bottom {#Bottom}
-```
 
-```
 
 ---
 
 ### BottomRight {#BottomRight}
-```
 
-```
 
 ---
 

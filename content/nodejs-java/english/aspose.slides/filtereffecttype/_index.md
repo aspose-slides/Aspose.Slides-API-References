@@ -41,135 +41,97 @@ url: /aspose.slides/filtereffecttype/
 
 
 ### None {#None}
-```
 
-```
 
 ---
 
 ### Barn {#Barn}
-```
 
-```
 
 ---
 
 ### Blinds {#Blinds}
-```
 
-```
 
 ---
 
 ### Box {#Box}
-```
 
-```
 
 ---
 
 ### Checkerboard {#Checkerboard}
-```
 
-```
 
 ---
 
 ### Circle {#Circle}
-```
 
-```
 
 ---
 
 ### Diamond {#Diamond}
-```
 
-```
 
 ---
 
 ### Dissolve {#Dissolve}
-```
 
-```
 
 ---
 
 ### Fade {#Fade}
-```
 
-```
 
 ---
 
 ### Image {#Image}
-```
 
-```
 
 ---
 
 ### Pixelate {#Pixelate}
-```
 
-```
 
 ---
 
 ### Plus {#Plus}
-```
 
-```
 
 ---
 
 ### RandomBar {#RandomBar}
-```
 
-```
 
 ---
 
 ### Slide {#Slide}
-```
 
-```
 
 ---
 
 ### Stretch {#Stretch}
-```
 
-```
 
 ---
 
 ### Strips {#Strips}
-```
 
-```
 
 ---
 
 ### Wedge {#Wedge}
-```
 
-```
 
 ---
 
 ### Wheel {#Wheel}
-```
 
-```
 
 ---
 
 ### Wipe {#Wipe}
-```
 
-```
 
 ---
 

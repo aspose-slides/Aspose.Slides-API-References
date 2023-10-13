@@ -25,23 +25,17 @@ url: /aspose.slides/parentlabellayouttype/
 
 
 ### Banner {#Banner}
-```
 Specifies that parent category labels are shown as banner
-```
 
 ---
 
 ### None {#None}
-```
 Specifies that parent category labels are not drawn
-```
 
 ---
 
 ### Overlapping {#Overlapping}
-```
 Specifies that parent category labels are shown as overlapping
-```
 
 ---
 

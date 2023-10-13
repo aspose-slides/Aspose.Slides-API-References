@@ -38,114 +38,82 @@ url: /aspose.slides/materialpresettype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Clear {#Clear}
-```
 
-```
 
 ---
 
 ### DkEdge {#DkEdge}
-```
 
-```
 
 ---
 
 ### Flat {#Flat}
-```
 
-```
 
 ---
 
 ### LegacyMatte {#LegacyMatte}
-```
 
-```
 
 ---
 
 ### LegacyMetal {#LegacyMetal}
-```
 
-```
 
 ---
 
 ### LegacyPlastic {#LegacyPlastic}
-```
 
-```
 
 ---
 
 ### LegacyWireframe {#LegacyWireframe}
-```
 
-```
 
 ---
 
 ### Matte {#Matte}
-```
 
-```
 
 ---
 
 ### Metal {#Metal}
-```
 
-```
 
 ---
 
 ### Plastic {#Plastic}
-```
 
-```
 
 ---
 
 ### Powder {#Powder}
-```
 
-```
 
 ---
 
 ### SoftEdge {#SoftEdge}
-```
 
-```
 
 ---
 
 ### Softmetal {#Softmetal}
-```
 
-```
 
 ---
 
 ### TranslucentPowder {#TranslucentPowder}
-```
 
-```
 
 ---
 
 ### WarmMatte {#WarmMatte}
-```
 
-```
 
 ---
 

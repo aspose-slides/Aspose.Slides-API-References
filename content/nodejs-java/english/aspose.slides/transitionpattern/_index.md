@@ -24,16 +24,12 @@ url: /aspose.slides/transitionpattern/
 
 
 ### Diamond {#Diamond}
-```
 Diamond tile pattern
-```
 
 ---
 
 ### Hexagon {#Hexagon}
-```
 Hexagon tile pattern
-```
 
 ---
 

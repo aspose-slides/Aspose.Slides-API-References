@@ -28,44 +28,32 @@ url: /aspose.slides/pathfillmodetype/
 
 
 ### None {#None}
-```
 No Path Fill This specifies that the corresponding path should have no fill.
-```
 
 ---
 
 ### Normal {#Normal}
-```
 Normal Path Fill This specifies that the corresponding path should have a normally shaded color applied to it’s fill.
-```
 
 ---
 
 ### Lighten {#Lighten}
-```
 Lighten Path Fill This specifies that the corresponding path should have a lightly shaded color applied to it’s fill.
-```
 
 ---
 
 ### LightenLess {#LightenLess}
-```
 Lighten Path Fill Less This specifies that the corresponding path should have a slightly lighter shaded color applied to it’s fill.
-```
 
 ---
 
 ### Darken {#Darken}
-```
 Darken Path Fill This specifies that the corresponding path should have a darker shaded color applied to it’s fill.
-```
 
 ---
 
 ### DarkenLess {#DarkenLess}
-```
 Darken Path Fill Less This specifies that the corresponding path should have a slightly darker shaded color applied to it’s fill.
-```
 
 ---
 

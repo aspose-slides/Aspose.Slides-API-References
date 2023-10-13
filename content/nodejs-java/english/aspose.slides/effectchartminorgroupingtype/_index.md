@@ -24,16 +24,12 @@ url: /aspose.slides/effectchartminorgroupingtype/
 
 
 ### ByElementInSeries {#ByElementInSeries}
-```
 Animate chart by element in series
-```
 
 ---
 
 ### ByElementInCategory {#ByElementInCategory}
-```
 Animate chart by element in category
-```
 
 ---
 

@@ -25,23 +25,17 @@ url: /aspose.slides/effecttriggertype/
 
 
 ### AfterPrevious {#AfterPrevious}
-```
 
-```
 
 ---
 
 ### OnClick {#OnClick}
-```
 
-```
 
 ---
 
 ### WithPrevious {#WithPrevious}
-```
 
-```
 
 ---
 

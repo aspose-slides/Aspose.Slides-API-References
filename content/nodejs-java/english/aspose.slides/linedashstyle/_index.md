@@ -35,93 +35,67 @@ url: /aspose.slides/linedashstyle/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Solid {#Solid}
-```
 
-```
 
 ---
 
 ### Dot {#Dot}
-```
 
-```
 
 ---
 
 ### Dash {#Dash}
-```
 
-```
 
 ---
 
 ### LargeDash {#LargeDash}
-```
 
-```
 
 ---
 
 ### DashDot {#DashDot}
-```
 
-```
 
 ---
 
 ### LargeDashDot {#LargeDashDot}
-```
 
-```
 
 ---
 
 ### LargeDashDotDot {#LargeDashDotDot}
-```
 
-```
 
 ---
 
 ### SystemDash {#SystemDash}
-```
 
-```
 
 ---
 
 ### SystemDot {#SystemDot}
-```
 
-```
 
 ---
 
 ### SystemDashDot {#SystemDashDot}
-```
 
-```
 
 ---
 
 ### SystemDashDotDot {#SystemDashDotDot}
-```
 
-```
 
 ---
 
 ### Custom {#Custom}
-```
 
-```
 
 ---
 

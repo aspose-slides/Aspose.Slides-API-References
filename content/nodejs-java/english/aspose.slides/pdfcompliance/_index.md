@@ -33,79 +33,57 @@ url: /aspose.slides/pdfcompliance/
 
 
 ### Pdf15 {#Pdf15}
-```
 The output file will comply with the PDF 1.5 standard.
-```
 
 ---
 
 ### Pdf16 {#Pdf16}
-```
 The output file will comply with the PDF 1.6 standard.
-```
 
 ---
 
 ### Pdf17 {#Pdf17}
-```
 The output file will comply with the PDF 1.7 standard.
-```
 
 ---
 
 ### PdfA1b {#PdfA1b}
-```
 The output file will comply with the PDF/A-1b standard.
-```
 
 ---
 
 ### PdfA1a {#PdfA1a}
-```
 The output file will comply with the PDF/A-1a standard.
-```
 
 ---
 
 ### PdfA2b {#PdfA2b}
-```
 The output file will comply with the PDF/A-2b standard.
-```
 
 ---
 
 ### PdfA2a {#PdfA2a}
-```
 The output file will comply with the PDF/A-2a standard.
-```
 
 ---
 
 ### PdfA3b {#PdfA3b}
-```
 The output file will comply with the PDF/A-3b standard.
-```
 
 ---
 
 ### PdfA3a {#PdfA3a}
-```
 The output file will comply with the PDF/A-3a standard.
-```
 
 ---
 
 ### PdfUa {#PdfUa}
-```
 The output file will comply with the PDF/UA standard.
-```
 
 ---
 
 ### PdfA2u {#PdfA2u}
-```
 The output file will comply with the PDF/A-2u standard.
-```
 
 ---
 

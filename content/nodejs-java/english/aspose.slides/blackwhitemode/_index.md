@@ -34,86 +34,62 @@ url: /aspose.slides/blackwhitemode/
 
 
 ### NotDefined {#NotDefined}
-```
 The property isn't set
-```
 
 ---
 
 ### Color {#Color}
-```
 The object is rendered with normal coloring
-```
 
 ---
 
 ### Automatic {#Automatic}
-```
 The object is rendered with automatic coloring
-```
 
 ---
 
 ### Gray {#Gray}
-```
 The object is rendered with gray coloring
-```
 
 ---
 
 ### LightGray {#LightGray}
-```
 The object is rendered with light gray coloring
-```
 
 ---
 
 ### InverseGray {#InverseGray}
-```
 The object is rendered with inverse gray coloring
-```
 
 ---
 
 ### GrayWhite {#GrayWhite}
-```
 The object is rendered with gray and white coloring
-```
 
 ---
 
 ### BlackGray {#BlackGray}
-```
 The object is rendered with black and gray coloring
-```
 
 ---
 
 ### BlackWhite {#BlackWhite}
-```
 The object is rendered with black and white coloring
-```
 
 ---
 
 ### Black {#Black}
-```
 The object is rendered only with black coloring
-```
 
 ---
 
 ### White {#White}
-```
 The object is rendered with white coloring
-```
 
 ---
 
 ### Hidden {#Hidden}
-```
 The object is not rendered
-```
 
 ---
 

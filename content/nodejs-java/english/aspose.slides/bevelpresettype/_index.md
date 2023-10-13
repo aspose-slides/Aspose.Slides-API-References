@@ -35,93 +35,67 @@ url: /aspose.slides/bevelpresettype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Angle {#Angle}
-```
 
-```
 
 ---
 
 ### ArtDeco {#ArtDeco}
-```
 
-```
 
 ---
 
 ### Circle {#Circle}
-```
 
-```
 
 ---
 
 ### Convex {#Convex}
-```
 
-```
 
 ---
 
 ### CoolSlant {#CoolSlant}
-```
 
-```
 
 ---
 
 ### Cross {#Cross}
-```
 
-```
 
 ---
 
 ### Divot {#Divot}
-```
 
-```
 
 ---
 
 ### HardEdge {#HardEdge}
-```
 
-```
 
 ---
 
 ### RelaxedInset {#RelaxedInset}
-```
 
-```
 
 ---
 
 ### Riblet {#Riblet}
-```
 
-```
 
 ---
 
 ### Slope {#Slope}
-```
 
-```
 
 ---
 
 ### SoftRound {#SoftRound}
-```
 
-```
 
 ---
 

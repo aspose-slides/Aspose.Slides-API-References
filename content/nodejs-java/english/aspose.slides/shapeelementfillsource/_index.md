@@ -28,44 +28,32 @@ url: /aspose.slides/shapeelementfillsource/
 
 
 ### NoFill {#NoFill}
-```
 Don't fill primitive.
-```
 
 ---
 
 ### Shape {#Shape}
-```
 Use shape's fill.
-```
 
 ---
 
 ### Lighten {#Lighten}
-```
 Use lighten shape's fill.
-```
 
 ---
 
 ### LightenLess {#LightenLess}
-```
 Use less lighten shape's fill.
-```
 
 ---
 
 ### Darken {#Darken}
-```
 Use darken shape's fill.
-```
 
 ---
 
 ### DarkenLess {#DarkenLess}
-```
 Use less darken shape's fill.
-```
 
 ---
 

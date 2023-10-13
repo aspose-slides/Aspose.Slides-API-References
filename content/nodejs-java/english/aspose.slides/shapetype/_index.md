@@ -211,1325 +211,947 @@ url: /aspose.slides/shapetype/
 
 
 ### NotDefined {#NotDefined}
-```
 Not defined.
-```
 
 ---
 
 ### Custom {#Custom}
-```
 Custom shape. This is return-only value.
-```
 
 ---
 
 ### Line {#Line}
-```
 Line Shape.
-```
 
 ---
 
 ### LineInverse {#LineInverse}
-```
 Line Inverse Shape.
-```
 
 ---
 
 ### Triangle {#Triangle}
-```
 Triangle Shape.
-```
 
 ---
 
 ### RightTriangle {#RightTriangle}
-```
 Right Triangle Shape.
-```
 
 ---
 
 ### Rectangle {#Rectangle}
-```
 Rectangle Shape.
-```
 
 ---
 
 ### Diamond {#Diamond}
-```
 Diamond Shape.
-```
 
 ---
 
 ### Parallelogram {#Parallelogram}
-```
 Parallelogram Shape.
-```
 
 ---
 
 ### Trapezoid {#Trapezoid}
-```
 Trapezoid Shape.
-```
 
 ---
 
 ### NonIsoscelesTrapezoid {#NonIsoscelesTrapezoid}
-```
 Non-Isosceles Trapezoid Shape.
-```
 
 ---
 
 ### Pentagon {#Pentagon}
-```
 Pentagon Shape.
-```
 
 ---
 
 ### Hexagon {#Hexagon}
-```
 Hexagon Shape.
-```
 
 ---
 
 ### Heptagon {#Heptagon}
-```
 Heptagon Shape.
-```
 
 ---
 
 ### Octagon {#Octagon}
-```
 Octagon Shape.
-```
 
 ---
 
 ### Decagon {#Decagon}
-```
 Decagon Shape.
-```
 
 ---
 
 ### Dodecagon {#Dodecagon}
-```
 Dodecagon Shape.
-```
 
 ---
 
 ### FourPointedStar {#FourPointedStar}
-```
 Four Pointed Star Shape.
-```
 
 ---
 
 ### FivePointedStar {#FivePointedStar}
-```
 Five Pointed Star Shape.
-```
 
 ---
 
 ### SixPointedStar {#SixPointedStar}
-```
 Six Pointed Star Shape.
-```
 
 ---
 
 ### SevenPointedStar {#SevenPointedStar}
-```
 Seven Pointed Star Shape.
-```
 
 ---
 
 ### EightPointedStar {#EightPointedStar}
-```
 Eight Pointed Star Shape.
-```
 
 ---
 
 ### TenPointedStar {#TenPointedStar}
-```
 Ten Pointed Star Shape.
-```
 
 ---
 
 ### TwelvePointedStar {#TwelvePointedStar}
-```
 Twelve Pointed Star Shape.
-```
 
 ---
 
 ### SixteenPointedStar {#SixteenPointedStar}
-```
 Sixteen Pointed Star Shape.
-```
 
 ---
 
 ### TwentyFourPointedStar {#TwentyFourPointedStar}
-```
 Twenty Four Pointed Star Shape.
-```
 
 ---
 
 ### ThirtyTwoPointedStar {#ThirtyTwoPointedStar}
-```
 Thirty Two Pointed Star Shape.
-```
 
 ---
 
 ### RoundCornerRectangle {#RoundCornerRectangle}
-```
 Round Corner Rectangle Shape.
-```
 
 ---
 
 ### OneRoundCornerRectangle {#OneRoundCornerRectangle}
-```
 One Round Corner Rectangle Shape.
-```
 
 ---
 
 ### TwoSamesideRoundCornerRectangle {#TwoSamesideRoundCornerRectangle}
-```
 Two Same-side Round Corner Rectangle Shape.
-```
 
 ---
 
 ### TwoDiagonalRoundCornerRectangle {#TwoDiagonalRoundCornerRectangle}
-```
 Two Diagonal Round Corner Rectangle Shape.
-```
 
 ---
 
 ### OneSnipOneRoundCornerRectangle {#OneSnipOneRoundCornerRectangle}
-```
 One Snip One Round Corner Rectangle Shape.
-```
 
 ---
 
 ### OneSnipCornerRectangle {#OneSnipCornerRectangle}
-```
 One Snip Corner Rectangle Shape.
-```
 
 ---
 
 ### TwoSamesideSnipCornerRectangle {#TwoSamesideSnipCornerRectangle}
-```
 Two Same-side Snip Corner Rectangle Shape.
-```
 
 ---
 
 ### TwoDiagonalSnipCornerRectangle {#TwoDiagonalSnipCornerRectangle}
-```
 Two Diagonal Snip Corner Rectangle Shape.
-```
 
 ---
 
 ### Plaque {#Plaque}
-```
 Plaque Shape.
-```
 
 ---
 
 ### Ellipse {#Ellipse}
-```
 Ellipse Shape.
-```
 
 ---
 
 ### Teardrop {#Teardrop}
-```
 Teardrop Shape.
-```
 
 ---
 
 ### HomePlate {#HomePlate}
-```
 Home Plate Shape.
-```
 
 ---
 
 ### Chevron {#Chevron}
-```
 Chevron Shape.
-```
 
 ---
 
 ### PieWedge {#PieWedge}
-```
 Pie Wedge Shape.
-```
 
 ---
 
 ### Pie {#Pie}
-```
 Pie Shape.
-```
 
 ---
 
 ### BlockArc {#BlockArc}
-```
 Block Arc Shape.
-```
 
 ---
 
 ### Donut {#Donut}
-```
 Donut Shape.
-```
 
 ---
 
 ### NoSmoking {#NoSmoking}
-```
 No Smoking Shape.
-```
 
 ---
 
 ### RightArrow {#RightArrow}
-```
 Right Arrow Shape.
-```
 
 ---
 
 ### LeftArrow {#LeftArrow}
-```
 Left Arrow Shape.
-```
 
 ---
 
 ### UpArrow {#UpArrow}
-```
 Up Arrow Shape.
-```
 
 ---
 
 ### DownArrow {#DownArrow}
-```
 Down Arrow Shape.
-```
 
 ---
 
 ### StripedRightArrow {#StripedRightArrow}
-```
 Striped Right Arrow Shape.
-```
 
 ---
 
 ### NotchedRightArrow {#NotchedRightArrow}
-```
 Notched Right Arrow Shape.
-```
 
 ---
 
 ### BentUpArrow {#BentUpArrow}
-```
 Bent Up Arrow Shape.
-```
 
 ---
 
 ### LeftRightArrow {#LeftRightArrow}
-```
 Left Right Arrow Shape.
-```
 
 ---
 
 ### UpDownArrow {#UpDownArrow}
-```
 Up Down Arrow Shape.
-```
 
 ---
 
 ### LeftUpArrow {#LeftUpArrow}
-```
 Left Up Arrow Shape.
-```
 
 ---
 
 ### LeftRightUpArrow {#LeftRightUpArrow}
-```
 Left Right Up Arrow Shape.
-```
 
 ---
 
 ### QuadArrow {#QuadArrow}
-```
 Quad-Arrow Shape.
-```
 
 ---
 
 ### CalloutLeftArrow {#CalloutLeftArrow}
-```
 Callout Left Arrow Shape.
-```
 
 ---
 
 ### CalloutRightArrow {#CalloutRightArrow}
-```
 Callout Right Arrow Shape.
-```
 
 ---
 
 ### CalloutUpArrow {#CalloutUpArrow}
-```
 Callout Up Arrow Shape.
-```
 
 ---
 
 ### CalloutDownArrow {#CalloutDownArrow}
-```
 Callout Down Arrow Shape.
-```
 
 ---
 
 ### CalloutLeftRightArrow {#CalloutLeftRightArrow}
-```
 Callout Left Right Arrow Shape.
-```
 
 ---
 
 ### CalloutUpDownArrow {#CalloutUpDownArrow}
-```
 Callout Up Down Arrow Shape.
-```
 
 ---
 
 ### CalloutQuadArrow {#CalloutQuadArrow}
-```
 Callout Quad-Arrow Shape.
-```
 
 ---
 
 ### BentArrow {#BentArrow}
-```
 Bent Arrow Shape.
-```
 
 ---
 
 ### UTurnArrow {#UTurnArrow}
-```
 U-Turn Arrow Shape.
-```
 
 ---
 
 ### CircularArrow {#CircularArrow}
-```
 Circular Arrow Shape.
-```
 
 ---
 
 ### LeftCircularArrow {#LeftCircularArrow}
-```
 Left Circular Arrow Shape.
-```
 
 ---
 
 ### LeftRightCircularArrow {#LeftRightCircularArrow}
-```
 Left Right Circular Arrow Shape.
-```
 
 ---
 
 ### CurvedRightArrow {#CurvedRightArrow}
-```
 Curved Right Arrow Shape.
-```
 
 ---
 
 ### CurvedLeftArrow {#CurvedLeftArrow}
-```
 Curved Left Arrow Shape.
-```
 
 ---
 
 ### CurvedUpArrow {#CurvedUpArrow}
-```
 Curved Up Arrow Shape.
-```
 
 ---
 
 ### CurvedDownArrow {#CurvedDownArrow}
-```
 Curved Down Arrow Shape.
-```
 
 ---
 
 ### SwooshArrow {#SwooshArrow}
-```
 Swoosh Arrow Shape.
-```
 
 ---
 
 ### Cube {#Cube}
-```
 Cube Shape.
-```
 
 ---
 
 ### Can {#Can}
-```
 Can Shape.
-```
 
 ---
 
 ### LightningBolt {#LightningBolt}
-```
 Lightning Bolt Shape.
-```
 
 ---
 
 ### Heart {#Heart}
-```
 Heart Shape.
-```
 
 ---
 
 ### Sun {#Sun}
-```
 Sun Shape.
-```
 
 ---
 
 ### Moon {#Moon}
-```
 Moon Shape.
-```
 
 ---
 
 ### SmileyFace {#SmileyFace}
-```
 Smiley Face Shape.
-```
 
 ---
 
 ### IrregularSeal1 {#IrregularSeal1}
-```
 Irregular Seal 1 Shape.
-```
 
 ---
 
 ### IrregularSeal2 {#IrregularSeal2}
-```
 Irregular Seal 2 Shape.
-```
 
 ---
 
 ### FoldedCorner {#FoldedCorner}
-```
 Folded Corner Shape.
-```
 
 ---
 
 ### Bevel {#Bevel}
-```
 Bevel Shape.
-```
 
 ---
 
 ### Frame {#Frame}
-```
 Frame Shape.
-```
 
 ---
 
 ### HalfFrame {#HalfFrame}
-```
 Half Frame Shape.
-```
 
 ---
 
 ### Corner {#Corner}
-```
 Corner Shape.
-```
 
 ---
 
 ### DiagonalStripe {#DiagonalStripe}
-```
 Diagonal Stripe Shape.
-```
 
 ---
 
 ### Chord {#Chord}
-```
 Chord Shape.
-```
 
 ---
 
 ### CurvedArc {#CurvedArc}
-```
 Curved Arc Shape.
-```
 
 ---
 
 ### LeftBracket {#LeftBracket}
-```
 Left Bracket Shape.
-```
 
 ---
 
 ### RightBracket {#RightBracket}
-```
 Right Bracket Shape.
-```
 
 ---
 
 ### LeftBrace {#LeftBrace}
-```
 Left Brace Shape.
-```
 
 ---
 
 ### RightBrace {#RightBrace}
-```
 Right Brace Shape.
-```
 
 ---
 
 ### BracketPair {#BracketPair}
-```
 Bracket Pair Shape.
-```
 
 ---
 
 ### BracePair {#BracePair}
-```
 Brace Pair Shape.
-```
 
 ---
 
 ### StraightConnector1 {#StraightConnector1}
-```
 Straight Connector 1 Shape.
-```
 
 ---
 
 ### BentConnector2 {#BentConnector2}
-```
 Bent Connector 2 Shape.
-```
 
 ---
 
 ### BentConnector3 {#BentConnector3}
-```
 Bent Connector 3 Shape.
-```
 
 ---
 
 ### BentConnector4 {#BentConnector4}
-```
 Bent Connector 4 Shape.
-```
 
 ---
 
 ### BentConnector5 {#BentConnector5}
-```
 Bent Connector 5 Shape.
-```
 
 ---
 
 ### CurvedConnector2 {#CurvedConnector2}
-```
 Curved Connector 2 Shape.
-```
 
 ---
 
 ### CurvedConnector3 {#CurvedConnector3}
-```
 Curved Connector 3 Shape.
-```
 
 ---
 
 ### CurvedConnector4 {#CurvedConnector4}
-```
 Curved Connector 4 Shape.
-```
 
 ---
 
 ### CurvedConnector5 {#CurvedConnector5}
-```
 Curved Connector 5 Shape.
-```
 
 ---
 
 ### Callout1 {#Callout1}
-```
 Callout 1 Shape.
-```
 
 ---
 
 ### Callout2 {#Callout2}
-```
 Callout 2 Shape.
-```
 
 ---
 
 ### Callout3 {#Callout3}
-```
 Callout 3 Shape.
-```
 
 ---
 
 ### Callout1WithAccent {#Callout1WithAccent}
-```
 Callout 1 with Accent Shape.
-```
 
 ---
 
 ### Callout2WithAccent {#Callout2WithAccent}
-```
 Callout 2 with Accent Shape.
-```
 
 ---
 
 ### Callout3WithAccent {#Callout3WithAccent}
-```
 Callout 3 with Accent Shape.
-```
 
 ---
 
 ### Callout1WithBorder {#Callout1WithBorder}
-```
 Callout 1 with Border Shape.
-```
 
 ---
 
 ### Callout2WithBorder {#Callout2WithBorder}
-```
 Callout 2 with Border Shape.
-```
 
 ---
 
 ### Callout3WithBorder {#Callout3WithBorder}
-```
 Callout 3 with Border Shape.
-```
 
 ---
 
 ### Callout1WithBorderAndAccent {#Callout1WithBorderAndAccent}
-```
 Callout 1 with Border and Accent Shape.
-```
 
 ---
 
 ### Callout2WithBorderAndAccent {#Callout2WithBorderAndAccent}
-```
 Callout 2 with Border and Accent Shape.
-```
 
 ---
 
 ### Callout3WithBorderAndAccent {#Callout3WithBorderAndAccent}
-```
 Callout 3 with Border and Accent Shape.
-```
 
 ---
 
 ### CalloutWedgeRectangle {#CalloutWedgeRectangle}
-```
 Callout Wedge Rectangle Shape.
-```
 
 ---
 
 ### CalloutWedgeRoundRectangle {#CalloutWedgeRoundRectangle}
-```
 Callout Wedge Round Rectangle Shape.
-```
 
 ---
 
 ### CalloutWedgeEllipse {#CalloutWedgeEllipse}
-```
 Callout Wedge Ellipse Shape.
-```
 
 ---
 
 ### CalloutCloud {#CalloutCloud}
-```
 Callout Cloud Shape.
-```
 
 ---
 
 ### Cloud {#Cloud}
-```
 Cloud Shape.
-```
 
 ---
 
 ### Ribbon {#Ribbon}
-```
 Ribbon Shape.
-```
 
 ---
 
 ### Ribbon2 {#Ribbon2}
-```
 Ribbon 2 Shape.
-```
 
 ---
 
 ### EllipseRibbon {#EllipseRibbon}
-```
 Ellipse Ribbon Shape.
-```
 
 ---
 
 ### EllipseRibbon2 {#EllipseRibbon2}
-```
 Ellipse Ribbon 2 Shape.
-```
 
 ---
 
 ### LeftRightRibbon {#LeftRightRibbon}
-```
 Left Right Ribbon Shape.
-```
 
 ---
 
 ### VerticalScroll {#VerticalScroll}
-```
 Vertical Scroll Shape.
-```
 
 ---
 
 ### HorizontalScroll {#HorizontalScroll}
-```
 Horizontal Scroll Shape.
-```
 
 ---
 
 ### Wave {#Wave}
-```
 Wave Shape.
-```
 
 ---
 
 ### DoubleWave {#DoubleWave}
-```
 Double Wave Shape.
-```
 
 ---
 
 ### Plus {#Plus}
-```
 Plus Shape.
-```
 
 ---
 
 ### ProcessFlow {#ProcessFlow}
-```
 Process Flow Shape.
-```
 
 ---
 
 ### DecisionFlow {#DecisionFlow}
-```
 Decision Flow Shape.
-```
 
 ---
 
 ### InputOutputFlow {#InputOutputFlow}
-```
 Input Output Flow Shape.
-```
 
 ---
 
 ### PredefinedProcessFlow {#PredefinedProcessFlow}
-```
 Predefined Process Flow Shape.
-```
 
 ---
 
 ### InternalStorageFlow {#InternalStorageFlow}
-```
 Internal Storage Flow Shape.
-```
 
 ---
 
 ### DocumentFlow {#DocumentFlow}
-```
 Document Flow Shape.
-```
 
 ---
 
 ### MultiDocumentFlow {#MultiDocumentFlow}
-```
 Multi-Document Flow Shape.
-```
 
 ---
 
 ### TerminatorFlow {#TerminatorFlow}
-```
 Terminator Flow Shape.
-```
 
 ---
 
 ### PreparationFlow {#PreparationFlow}
-```
 Preparation Flow Shape.
-```
 
 ---
 
 ### ManualInputFlow {#ManualInputFlow}
-```
 Manual Input Flow Shape.
-```
 
 ---
 
 ### ManualOperationFlow {#ManualOperationFlow}
-```
 Manual Operation Flow Shape.
-```
 
 ---
 
 ### ConnectorFlow {#ConnectorFlow}
-```
 Connector Flow Shape.
-```
 
 ---
 
 ### PunchedCardFlow {#PunchedCardFlow}
-```
 Punched Card Flow Shape.
-```
 
 ---
 
 ### PunchedTapeFlow {#PunchedTapeFlow}
-```
 Punched Tape Flow Shape.
-```
 
 ---
 
 ### SummingJunctionFlow {#SummingJunctionFlow}
-```
 Summing Junction Flow Shape.
-```
 
 ---
 
 ### OrFlow {#OrFlow}
-```
 Or Flow Shape.
-```
 
 ---
 
 ### CollateFlow {#CollateFlow}
-```
 Collate Flow Shape.
-```
 
 ---
 
 ### SortFlow {#SortFlow}
-```
 Sort Flow Shape.
-```
 
 ---
 
 ### ExtractFlow {#ExtractFlow}
-```
 Extract Flow Shape.
-```
 
 ---
 
 ### MergeFlow {#MergeFlow}
-```
 Merge Flow Shape.
-```
 
 ---
 
 ### OfflineStorageFlow {#OfflineStorageFlow}
-```
 Offline Storage Flow Shape.
-```
 
 ---
 
 ### OnlineStorageFlow {#OnlineStorageFlow}
-```
 Online Storage Flow Shape.
-```
 
 ---
 
 ### MagneticTapeFlow {#MagneticTapeFlow}
-```
 Magnetic Tape Flow Shape.
-```
 
 ---
 
 ### MagneticDiskFlow {#MagneticDiskFlow}
-```
 Magnetic Disk Flow Shape.
-```
 
 ---
 
 ### MagneticDrumFlow {#MagneticDrumFlow}
-```
 Magnetic Drum Flow Shape.
-```
 
 ---
 
 ### DisplayFlow {#DisplayFlow}
-```
 Display Flow Shape.
-```
 
 ---
 
 ### DelayFlow {#DelayFlow}
-```
 Delay Flow Shape.
-```
 
 ---
 
 ### AlternateProcessFlow {#AlternateProcessFlow}
-```
 Alternate Process Flow Shape.
-```
 
 ---
 
 ### OffPageConnectorFlow {#OffPageConnectorFlow}
-```
 Off-Page Connector Flow Shape.
-```
 
 ---
 
 ### BlankButton {#BlankButton}
-```
 Blank Button Shape.
-```
 
 ---
 
 ### HomeButton {#HomeButton}
-```
 Home Button Shape.
-```
 
 ---
 
 ### HelpButton {#HelpButton}
-```
 Help Button Shape.
-```
 
 ---
 
 ### InformationButton {#InformationButton}
-```
 Information Button Shape.
-```
 
 ---
 
 ### ForwardOrNextButton {#ForwardOrNextButton}
-```
 Forward or Next Button Shape.
-```
 
 ---
 
 ### BackOrPreviousButton {#BackOrPreviousButton}
-```
 Back or Previous Button Shape.
-```
 
 ---
 
 ### EndButton {#EndButton}
-```
 End Button Shape.
-```
 
 ---
 
 ### BeginningButton {#BeginningButton}
-```
 Beginning Button Shape.
-```
 
 ---
 
 ### ReturnButton {#ReturnButton}
-```
 Return Button Shape.
-```
 
 ---
 
 ### DocumentButton {#DocumentButton}
-```
 Document Button Shape.
-```
 
 ---
 
 ### SoundButton {#SoundButton}
-```
 Sound Button Shape.
-```
 
 ---
 
 ### MovieButton {#MovieButton}
-```
 Movie Button Shape.
-```
 
 ---
 
 ### Gear6 {#Gear6}
-```
 Gear 6 Shape.
-```
 
 ---
 
 ### Gear9 {#Gear9}
-```
 Gear 9 Shape.
-```
 
 ---
 
 ### Funnel {#Funnel}
-```
 Funnel Shape.
-```
 
 ---
 
 ### PlusMath {#PlusMath}
-```
 Plus Math Shape.
-```
 
 ---
 
 ### MinusMath {#MinusMath}
-```
 Minus Math Shape.
-```
 
 ---
 
 ### MultiplyMath {#MultiplyMath}
-```
 Multiply Math Shape.
-```
 
 ---
 
 ### DivideMath {#DivideMath}
-```
 Divide Math Shape.
-```
 
 ---
 
 ### EqualMath {#EqualMath}
-```
 Equal Math Shape.
-```
 
 ---
 
 ### NotEqualMath {#NotEqualMath}
-```
 Not Equal Math Shape.
-```
 
 ---
 
 ### CornerTabs {#CornerTabs}
-```
 Corner Tabs Shape.
-```
 
 ---
 
 ### SquareTabs {#SquareTabs}
-```
 Square Tabs Shape.
-```
 
 ---
 
 ### PlaqueTabs {#PlaqueTabs}
-```
 Plaque Tabs Shape.
-```
 
 ---
 
 ### ChartX {#ChartX}
-```
 Chart X Shape.
-```
 
 ---
 
 ### ChartStar {#ChartStar}
-```
 Chart Star Shape.
-```
 
 ---
 
 ### ChartPlus {#ChartPlus}
-```
 Chart Plus Shape.
-```
 
 ---
 

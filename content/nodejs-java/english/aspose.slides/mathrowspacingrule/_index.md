@@ -27,37 +27,27 @@ url: /aspose.slides/mathrowspacingrule/
 
 
 ### SingleLineGap {#SingleLineGap}
-```
 single line gap
-```
 
 ---
 
 ### OneAndAHalfLineGap {#OneAndAHalfLineGap}
-```
 One and a half line gap
-```
 
 ---
 
 ### TwoLineGap {#TwoLineGap}
-```
 Two lines gap
-```
 
 ---
 
 ### Exactly {#Exactly}
-```
 Exactly (rely on value of the RowSpacing property, measured in points)
-```
 
 ---
 
 ### Multiple {#Multiple}
-```
 Multiple (rely on value of the RowSpacing property, measured in lines)
-```
 
 ---
 

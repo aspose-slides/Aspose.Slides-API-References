@@ -27,37 +27,27 @@ url: /aspose.slides/gradientshape/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Linear {#Linear}
-```
 
-```
 
 ---
 
 ### Rectangle {#Rectangle}
-```
 
-```
 
 ---
 
 ### Radial {#Radial}
-```
 
-```
 
 ---
 
 ### Path {#Path}
-```
 
-```
 
 ---
 

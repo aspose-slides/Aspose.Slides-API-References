@@ -28,44 +28,32 @@ url: /aspose.slides/gradientdirection/
 
 
 ### NotDefined {#NotDefined}
-```
 Not defined
-```
 
 ---
 
 ### FromCorner1 {#FromCorner1}
-```
 From Top Left Corner
-```
 
 ---
 
 ### FromCorner2 {#FromCorner2}
-```
 From Top Right Corner
-```
 
 ---
 
 ### FromCorner3 {#FromCorner3}
-```
 From Bottom Left Corner
-```
 
 ---
 
 ### FromCorner4 {#FromCorner4}
-```
 From Bottom Right Corner
-```
 
 ---
 
 ### FromCenter {#FromCenter}
-```
 From Center
-```
 
 ---
 

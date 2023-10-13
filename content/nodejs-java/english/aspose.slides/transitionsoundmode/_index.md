@@ -25,23 +25,17 @@ url: /aspose.slides/transitionsoundmode/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### StartSound {#StartSound}
-```
 
-```
 
 ---
 
 ### StopPrevoiusSound {#StopPrevoiusSound}
-```
 
-```
 
 ---
 

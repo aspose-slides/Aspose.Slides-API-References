@@ -42,142 +42,102 @@ url: /aspose.slides/presetshadowtype/
 
 
 ### TopLeftDropShadow {#TopLeftDropShadow}
-```
 Represents Top Left Drop Shadow.
-```
 
 ---
 
 ### TopLeftLargeDropShadow {#TopLeftLargeDropShadow}
-```
 Represents Top Left Large Drop Shadow.
-```
 
 ---
 
 ### BackLeftLongPerspectiveShadow {#BackLeftLongPerspectiveShadow}
-```
 Represents Back Left Long Perspective Shadow
-```
 
 ---
 
 ### BackRightLongPerspectiveShadow {#BackRightLongPerspectiveShadow}
-```
 Represents Back Right Long Perspective Shadow
-```
 
 ---
 
 ### TopLeftDoubleDropShadow {#TopLeftDoubleDropShadow}
-```
 Represents Top Left Double Drop Shadow.
-```
 
 ---
 
 ### BottomRightSmallDropShadow {#BottomRightSmallDropShadow}
-```
 Represents Bottom Right Small Drop Shadow.
-```
 
 ---
 
 ### FrontLeftLongPerspectiveShadow {#FrontLeftLongPerspectiveShadow}
-```
 Represents Front Left Long Perspective Shadow.
-```
 
 ---
 
 ### FrontRightLongPerspectiveShadow {#FrontRightLongPerspectiveShadow}
-```
 Represents Front Right Long Perspective Shadow.
-```
 
 ---
 
 ### OuterBoxShadow3D {#OuterBoxShadow3D}
-```
 Represents Outer Box Shadow 3D.
-```
 
 ---
 
 ### InnerBoxShadow3D {#InnerBoxShadow3D}
-```
 Represents Inner Box Shadow 3D.
-```
 
 ---
 
 ### BackCenterPerspectiveShadow {#BackCenterPerspectiveShadow}
-```
 Represents Back Center Perspective Shadow.
-```
 
 ---
 
 ### TopRightDropShadow {#TopRightDropShadow}
-```
 Represents Top Right Drop Shadow.
-```
 
 ---
 
 ### FrontBottomShadow {#FrontBottomShadow}
-```
 Represents Front Bottom Shadow.
-```
 
 ---
 
 ### BackLeftPerspectiveShadow {#BackLeftPerspectiveShadow}
-```
 Represents Back Left Perspective Shadow.
-```
 
 ---
 
 ### BackRightPerspectiveShadow {#BackRightPerspectiveShadow}
-```
 Represents Back Right Perspective Shadow.
-```
 
 ---
 
 ### BottomLeftDropShadow {#BottomLeftDropShadow}
-```
 Represents Bottom Left Drop Shadow.
-```
 
 ---
 
 ### BottomRightDropShadow {#BottomRightDropShadow}
-```
 Represents Bottom Right Drop Shadow.
-```
 
 ---
 
 ### FrontLeftPerspectiveShadow {#FrontLeftPerspectiveShadow}
-```
 Represents Front Left Perspective Shadow.
-```
 
 ---
 
 ### FrontRightPerspectiveShadow {#FrontRightPerspectiveShadow}
-```
 Represents Front Right Perspective Shadow.
-```
 
 ---
 
 ### TopLeftSmallDropShadow {#TopLeftSmallDropShadow}
-```
 Represents Top Left Small Drop Shadow.
-```
 
 ---
 

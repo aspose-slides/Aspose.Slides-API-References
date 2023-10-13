@@ -25,23 +25,17 @@ url: /aspose.slides/datasourcetype/
 
 
 ### Worksheet {#Worksheet}
-```
 Use CellXls objects for storing XValue, YValue, Value or BubbleSize of data point in worksheet.
-```
 
 ---
 
 ### StringLiterals {#StringLiterals}
-```
 Use fast-access string variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values.
-```
 
 ---
 
 ### DoubleLiterals {#DoubleLiterals}
-```
 Use fast-access double variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values.
-```
 
 ---
 

@@ -27,37 +27,27 @@ url: /aspose.slides/organizationchartlayouttype/
 
 
 ### Initial {#Initial}
-```
 Initial layout type
-```
 
 ---
 
 ### Standart {#Standart}
-```
 Places child nodes horizontally below the parent node.
-```
 
 ---
 
 ### BothHanging {#BothHanging}
-```
 Places child nodes vertically below the parent node on both the left and the right side.
-```
 
 ---
 
 ### LeftHanging {#LeftHanging}
-```
 Places child nodes vertically below the parent node on the left side.
-```
 
 ---
 
 ### RightHanging {#RightHanging}
-```
 Places child nodes vertically below the parent node on the right side.
-```
 
 ---
 

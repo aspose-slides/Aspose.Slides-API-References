@@ -27,37 +27,27 @@ url: /aspose.slides/videoplaymodepreset/
 
 
 ### Mixed {#Mixed}
-```
 
-```
 
 ---
 
 ### Auto {#Auto}
-```
 Play automatically.
-```
 
 ---
 
 ### OnClick {#OnClick}
-```
 Play only when the video frame is clicked on.
-```
 
 ---
 
 ### AllSlides {#AllSlides}
-```
 Play on all slides.
-```
 
 ---
 
 ### InClickSequence {#InClickSequence}
-```
 Play automatically with a click.
-```
 
 ---
 

@@ -24,16 +24,12 @@ url: /aspose.slides/zoomlayout/
 
 
 ### GridLayout {#GridLayout}
-```
 Specifies the layout as a grid layout for a list of objects.
-```
 
 ---
 
 ### FixedLayout {#FixedLayout}
-```
 Specifies the layout with user-defined Zoom positioning.
-```
 
 ---
 

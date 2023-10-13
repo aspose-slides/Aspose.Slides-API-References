@@ -26,30 +26,22 @@ url: /aspose.slides/propertycalcmodetype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### Discrete {#Discrete}
-```
 
-```
 
 ---
 
 ### Linear {#Linear}
-```
 
-```
 
 ---
 
 ### Formula {#Formula}
-```
 
-```
 
 ---
 

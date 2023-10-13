@@ -41,135 +41,97 @@ url: /aspose.slides/textunderlinetype/
 
 
 ### NotDefined {#NotDefined}
-```
 
-```
 
 ---
 
 ### None {#None}
-```
 
-```
 
 ---
 
 ### Words {#Words}
-```
 
-```
 
 ---
 
 ### Single {#Single}
-```
 
-```
 
 ---
 
 ### Double {#Double}
-```
 
-```
 
 ---
 
 ### Heavy {#Heavy}
-```
 
-```
 
 ---
 
 ### Dotted {#Dotted}
-```
 
-```
 
 ---
 
 ### HeavyDotted {#HeavyDotted}
-```
 
-```
 
 ---
 
 ### Dashed {#Dashed}
-```
 
-```
 
 ---
 
 ### HeavyDashed {#HeavyDashed}
-```
 
-```
 
 ---
 
 ### LongDashed {#LongDashed}
-```
 
-```
 
 ---
 
 ### HeavyLongDashed {#HeavyLongDashed}
-```
 
-```
 
 ---
 
 ### DotDash {#DotDash}
-```
 
-```
 
 ---
 
 ### HeavyDotDash {#HeavyDotDash}
-```
 
-```
 
 ---
 
 ### DotDotDash {#DotDotDash}
-```
 
-```
 
 ---
 
 ### HeavyDotDotDash {#HeavyDotDotDash}
-```
 
-```
 
 ---
 
 ### Wavy {#Wavy}
-```
 
-```
 
 ---
 
 ### HeavyWavy {#HeavyWavy}
-```
 
-```
 
 ---
 
 ### DoubleWavy {#DoubleWavy}
-```
 
-```
 
 ---
 

@@ -38,114 +38,82 @@ url: /aspose.slides/hyperlinkactiontype/
 
 
 ### Unknown {#Unknown}
-```
 Unrecognized action type.
-```
 
 ---
 
 ### NoAction {#NoAction}
-```
 No action.
-```
 
 ---
 
 ### Hyperlink {#Hyperlink}
-```
 Usual hyperlink.
-```
 
 ---
 
 ### JumpFirstSlide {#JumpFirstSlide}
-```
 Jump to the first slide of the presentation.
-```
 
 ---
 
 ### JumpPreviousSlide {#JumpPreviousSlide}
-```
 Jump to the previous slide.
-```
 
 ---
 
 ### JumpNextSlide {#JumpNextSlide}
-```
 Jump to the next slide.
-```
 
 ---
 
 ### JumpLastSlide {#JumpLastSlide}
-```
 Jump to the last slide of the presentation.
-```
 
 ---
 
 ### JumpEndShow {#JumpEndShow}
-```
 Jump to the end of slideshow.
-```
 
 ---
 
 ### JumpLastViewedSlide {#JumpLastViewedSlide}
-```
 Jump to the last viewed slide.
-```
 
 ---
 
 ### JumpSpecificSlide {#JumpSpecificSlide}
-```
 Jump to the specific slide, referred by ( IHyperlink#getTargetSlide) property.
-```
 
 ---
 
 ### StartCustomSlideShow {#StartCustomSlideShow}
-```
 Start custom slideshow.
-```
 
 ---
 
 ### OpenFile {#OpenFile}
-```
 Open referenced file.
-```
 
 ---
 
 ### OpenPresentation {#OpenPresentation}
-```
 Open referenced presentation.
-```
 
 ---
 
 ### StartStopMedia {#StartStopMedia}
-```
 Start/stop playing mediafile.
-```
 
 ---
 
 ### StartMacro {#StartMacro}
-```
 Start executing macro script.
-```
 
 ---
 
 ### StartProgram {#StartProgram}
-```
 Start program.
-```
 
 ---
 
