@@ -13,15 +13,36 @@ url: /aspose.slides/mathmatrixfactory/
  
  For COM comparibility
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [MathMatrixFactory](mathmatrixfactory)() |  |
-
-## Methods
+### MathMatrixFactory {#MathMatrixFactory}
 
 | Name | Description |
 | --- | --- |
-| [createMathMatrix](createmathmatrix)(int, int) | Creates a math matrix |
+| MathMatrixFactory() |  |
+
+ **Result:**
+MathMatrixFactory
+
+
+---
+
+
+### createMathMatrix {#createMathMatrix}
+
+| Name | Description |
+| --- | --- |
+| createMathMatrix (int, int) | Creates a math matrix |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| rowCount | int | row count |
+| columnCount | int | column count |
+
+ **Returns:**
+[MathMatrix](../mathmatrix)
+
+
+---
+
+

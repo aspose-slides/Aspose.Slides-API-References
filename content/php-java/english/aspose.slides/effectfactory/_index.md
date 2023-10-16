@@ -13,21 +13,107 @@ url: /aspose.slides/effectfactory/
  
  For COM compatibility.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [EffectFactory](effectfactory)() |  |
-
-## Methods
+### EffectFactory {#EffectFactory}
 
 | Name | Description |
 | --- | --- |
-| [createGlow](createglow)() | Creates Glow effect. |
-| [createInnerShadow](createinnershadow)() | Creates Inner shafow effect. |
-| [createOuterShadow](createoutershadow)() | Creates Outer shadow effect. |
-| [createPresetShadow](createpresetshadow)() | Creates Preset shadow effect. |
-| [createReflection](createreflection)() | Creates Reflection effect. |
-| [createSoftEdge](createsoftedge)() | Creates Soft Edge effect. |
-| [getImageTransformOperationFactory](getimagetransformoperationfactory)() | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
+| EffectFactory() |  |
+
+ **Result:**
+EffectFactory
+
+
+---
+
+
+### createGlow {#createGlow}
+
+| Name | Description |
+| --- | --- |
+| createGlow () | Creates Glow effect. |
+
+ **Returns:**
+[Glow](../glow)
+
+
+---
+
+
+### createInnerShadow {#createInnerShadow}
+
+| Name | Description |
+| --- | --- |
+| createInnerShadow () | Creates Inner shafow effect. |
+
+ **Returns:**
+[InnerShadow](../innershadow)
+
+
+---
+
+
+### createOuterShadow {#createOuterShadow}
+
+| Name | Description |
+| --- | --- |
+| createOuterShadow () | Creates Outer shadow effect. |
+
+ **Returns:**
+[OuterShadow](../outershadow)
+
+
+---
+
+
+### createPresetShadow {#createPresetShadow}
+
+| Name | Description |
+| --- | --- |
+| createPresetShadow () | Creates Preset shadow effect. |
+
+ **Returns:**
+[PresetShadow](../presetshadow)
+
+
+---
+
+
+### createReflection {#createReflection}
+
+| Name | Description |
+| --- | --- |
+| createReflection () | Creates Reflection effect. |
+
+ **Returns:**
+[Reflection](../reflection)
+
+
+---
+
+
+### createSoftEdge {#createSoftEdge}
+
+| Name | Description |
+| --- | --- |
+| createSoftEdge () | Creates Soft Edge effect. |
+
+ **Returns:**
+[SoftEdge](../softedge)
+
+
+---
+
+
+### getImageTransformOperationFactory {#getImageTransformOperationFactory}
+
+| Name | Description |
+| --- | --- |
+| getImageTransformOperationFactory () | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
+
+ **Returns:**
+[ImageTransformOperationFactory](../imagetransformoperationfactory)
+
+
+---
+
+

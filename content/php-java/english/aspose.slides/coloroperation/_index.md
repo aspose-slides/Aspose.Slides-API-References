@@ -12,19 +12,100 @@ url: /aspose.slides/coloroperation/
  Represents different color operations used for color transformations.
  Immutable object.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [ColorOperation](coloroperation)(int) | Creates new color transform operation. |
-| [ColorOperation](coloroperation)(int, float) | Creates new color transform operation. |
-
-## Methods
+### ColorOperation {#ColorOperation}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the two ColorOperation instances are equal. |
-| [getOperationType](getoperationtype)() | Returns or sets the type of an operation. Read-only ColorTransformOperation. |
-| [getParameter](getparameter)() | Returns a parameter of an operation. Read-only float. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| ColorOperation(int) | Creates new color transform operation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| op | int | Operation type. |
+
+ **Result:**
+ColorOperation
+
+
+---
+
+
+### ColorOperation {#ColorOperation}
+
+| Name | Description |
+| --- | --- |
+| ColorOperation(int, float) | Creates new color transform operation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| op | int | Operation type. |
+| parameter | float | Operation parameter. |
+
+ **Result:**
+ColorOperation
+
+
+---
+
+
+### equals {#equals}
+
+| Name | Description |
+| --- | --- |
+| equals (Object) | Determines whether the two ColorOperation instances are equal. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The ColorOperation to compare with the current ColorOperation. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getOperationType {#getOperationType}
+
+| Name | Description |
+| --- | --- |
+| getOperationType () | Returns or sets the type of an operation. Read-only ColorTransformOperation. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getParameter {#getParameter}
+
+| Name | Description |
+| --- | --- |
+| getParameter () | Returns a parameter of an operation. Read-only float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### hashCode {#hashCode}
+
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+
+ **Returns:**
+int
+
+
+---
+
+

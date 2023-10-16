@@ -16,12 +16,57 @@ url: /aspose.slides/transitioneightdirectiontype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| LeftDown | 0 |  |
-| LeftUp | 1 |  |
-| RightDown | 2 |  |
-| RightUp | 3 |  |
-| Left | 4 |  |
-| Up | 5 |  |
-| Down | 6 |  |
-| Right | 7 |  |
+[LeftDown](#LeftDown) | 0 |  |
+[LeftUp](#LeftUp) | 1 |  |
+[RightDown](#RightDown) | 2 |  |
+[RightUp](#RightUp) | 3 |  |
+[Left](#Left) | 4 |  |
+[Up](#Up) | 5 |  |
+[Down](#Down) | 6 |  |
+[Right](#Right) | 7 |  |
+
+
+---
+
+
+### LeftDown {#LeftDown}
+
+
+---
+
+### LeftUp {#LeftUp}
+
+
+---
+
+### RightDown {#RightDown}
+
+
+---
+
+### RightUp {#RightUp}
+
+
+---
+
+### Left {#Left}
+
+
+---
+
+### Up {#Up}
+
+
+---
+
+### Down {#Down}
+
+
+---
+
+### Right {#Right}
+
+
+---
+
 

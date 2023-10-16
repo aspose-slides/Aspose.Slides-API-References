@@ -11,15 +11,36 @@ url: /aspose.slides/tabfactory/
 
  Allows to create ITab instances
  For COM compatibility.
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [TabFactory](tabfactory)() |  |
-
-## Methods
+### TabFactory {#TabFactory}
 
 | Name | Description |
 | --- | --- |
-| [createTab](createtab)(double, int) | Creates a new ITab instance. |
+| TabFactory() |  |
+
+ **Result:**
+TabFactory
+
+
+---
+
+
+### createTab {#createTab}
+
+| Name | Description |
+| --- | --- |
+| createTab (double, int) | Creates a new ITab instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| position | double | Tab position. |
+| align | int | Align. |
+
+ **Returns:**
+[Tab](../tab)
+
+
+---
+
+

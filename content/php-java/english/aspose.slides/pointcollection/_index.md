@@ -11,18 +11,74 @@ url: /aspose.slides/pointcollection/
 
  Represent collection of animation points.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PointCollection](pointcollection)() |  |
-
-## Methods
+### PointCollection {#PointCollection}
 
 | Name | Description |
 | --- | --- |
-| [getCount](getcount)() | Returns the number of points in the collection. Read-only int. |
-| [get_Item](get_item)(int) | Returns a point at the specified index. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
+| PointCollection() |  |
+
+ **Result:**
+PointCollection
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount () | Returns the number of points in the collection. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns a point at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of element. |
+
+ **Returns:**
+[Point](../point)
+
+
+---
+
+
+### iterator {#iterator}
+
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
+
+ **Returns:**
+
+
+
+---
+
+
+### iteratorJava {#iteratorJava}
+
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
+
+ **Returns:**
+
+
+
+---
+
+

@@ -11,17 +11,74 @@ url: /aspose.slides/storage/
 
  Represents a temporary data storage for  WebDocument.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [Storage](storage)() |  |
-
-## Methods
+### Storage {#Storage}
 
 | Name | Description |
 | --- | --- |
-| [containsKey](containskey)(String) | Determines whether the storage contains an element with the specified key. |
-| [get](get)(String) | Gets the data from the storage. |
-| [put](put)(String, TValue) | Puts the value into the storage. |
+| Storage() |  |
+
+ **Result:**
+Storage
+
+
+---
+
+
+### containsKey {#containsKey}
+
+| Name | Description |
+| --- | --- |
+| containsKey (String) | Determines whether the storage contains an element with the specified key. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| key | String | Key of the value. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### get {#get}
+
+| Name | Description |
+| --- | --- |
+| get (String) | Gets the data from the storage. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| key | String | Key of the value. |
+
+ **Returns:**
+TValue
+
+
+---
+
+
+### put {#put}
+
+| Name | Description |
+| --- | --- |
+| put (String, TValue) | Puts the value into the storage. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| key | String | Key for the value. |
+| value | TValue | Value. |
+
+ **Returns:**
+void
+
+
+---
+
+

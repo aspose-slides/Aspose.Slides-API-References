@@ -11,14 +11,87 @@ url: /aspose.slides/commentauthor/
 
  Represents an author of comments.
  
-
-## Methods
+### getComments {#getComments}
 
 | Name | Description |
 | --- | --- |
-| [getComments](getcomments)() | Returns the collection of comments made by this author. Read-only ICommentCollection. |
-| [getInitials](getinitials)() | Returns or sets the authors initials. Read/write String. |
-| [getName](getname)() | Returns or sets the author's name. Read/write String. |
-| [remove](remove)() | Removes the author from the parent collection. |
-| [setInitials](setinitials)(String) | Returns or sets the authors initials. Read/write String. |
-| [setName](setname)(String) | Returns or sets the author's name. Read/write String. |
+| getComments () | Returns the collection of comments made by this author. Read-only ICommentCollection. |
+
+ **Returns:**
+[CommentCollection](../commentcollection)
+
+
+---
+
+
+### getInitials {#getInitials}
+
+| Name | Description |
+| --- | --- |
+| getInitials () | Returns or sets the authors initials. Read/write String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getName {#getName}
+
+| Name | Description |
+| --- | --- |
+| getName () | Returns or sets the author's name. Read/write String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove () | Removes the author from the parent collection. |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | PptxEditException | Thrown if author is already removed. |
+
+
+---
+
+
+### setInitials {#setInitials}
+
+| Name | Description |
+| --- | --- |
+| setInitials (String) | Returns or sets the authors initials. Read/write String. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setName {#setName}
+
+| Name | Description |
+| --- | --- |
+| setName (String) | Returns or sets the author's name. Read/write String. |
+
+ **Returns:**
+void
+
+
+---
+
+

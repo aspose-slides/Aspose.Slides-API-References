@@ -11,16 +11,107 @@ url: /aspose.slides/motioncmdpath/
 
  Represent one command of a path.
  
-
-## Methods
+### getCommandType {#getCommandType}
 
 | Name | Description |
 | --- | --- |
-| [getCommandType](getcommandtype)() | Specifies command type. Read/write MotionCommandPathType. |
-| [getPoints](getpoints)() | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
-| [getPointsType](getpointstype)() | Specifies command points type Read/write MotionPathPointsType. |
-| [isRelative](isrelative)() | Determine command coordinates relative or not. Read/write boolean. |
-| [setCommandType](setcommandtype)(int) | Specifies command type. Read/write MotionCommandPathType. |
-| [setPoints](setpoints)(java.awt.geom.Point2D.Float[]) | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
-| [setPointsType](setpointstype)(int) | Specifies command points type Read/write MotionPathPointsType. |
-| [setRelative](setrelative)(boolean) | Determine command coordinates relative or not. Read/write boolean. |
+| getCommandType () | Specifies command type. Read/write MotionCommandPathType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getPoints {#getPoints}
+
+| Name | Description |
+| --- | --- |
+| getPoints () | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
+
+ **Returns:**
+Point2D.Float
+
+
+---
+
+
+### getPointsType {#getPointsType}
+
+| Name | Description |
+| --- | --- |
+| getPointsType () | Specifies command points type Read/write MotionPathPointsType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### isRelative {#isRelative}
+
+| Name | Description |
+| --- | --- |
+| isRelative () | Determine command coordinates relative or not. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### setCommandType {#setCommandType}
+
+| Name | Description |
+| --- | --- |
+| setCommandType (int) | Specifies command type. Read/write MotionCommandPathType. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setPoints {#setPoints}
+
+| Name | Description |
+| --- | --- |
+| setPoints (java.awt.geom.Point2D.Float[]) | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setPointsType {#setPointsType}
+
+| Name | Description |
+| --- | --- |
+| setPointsType (int) | Specifies command points type Read/write MotionPathPointsType. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setRelative {#setRelative}
+
+| Name | Description |
+| --- | --- |
+| setRelative (boolean) | Determine command coordinates relative or not. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+

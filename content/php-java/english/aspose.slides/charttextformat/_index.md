@@ -11,13 +11,80 @@ url: /aspose.slides/charttextformat/
 
  Specifies default text formatting for chart text elements.
  
-
-## Methods
+### copyFrom {#copyFrom}
 
 | Name | Description |
 | --- | --- |
-| [copyFrom](copyfrom)([TextFrame](../textframe)) | Copies text format from specified text frame. |
-| [copyTo](copyto)([TextFrame](../textframe)) | Copies text format to specified text frame. |
-| [getParagraphFormat](getparagraphformat)() | ParagraphFormat. Read-only IChartParagraphFormat. |
-| [getPortionFormat](getportionformat)() | PortionFormat. Read-only IChartPortionFormat. |
-| [getTextBlockFormat](gettextblockformat)() | TextBlockFormat. Read-only IChartTextBlockFormat. |
+| copyFrom ([TextFrame](../textframe)) | Copies text format from specified text frame. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceTextFrame | [TextFrame](../textframe) | Text frame to copy text format. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### copyTo {#copyTo}
+
+| Name | Description |
+| --- | --- |
+| copyTo ([TextFrame](../textframe)) | Copies text format to specified text frame. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| destTextFrame | [TextFrame](../textframe) | Text frame to copy text format to. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### getParagraphFormat {#getParagraphFormat}
+
+| Name | Description |
+| --- | --- |
+| getParagraphFormat () | ParagraphFormat. Read-only IChartParagraphFormat. |
+
+ **Returns:**
+[ParagraphFormat](../paragraphformat)
+
+
+---
+
+
+### getPortionFormat {#getPortionFormat}
+
+| Name | Description |
+| --- | --- |
+| getPortionFormat () | PortionFormat. Read-only IChartPortionFormat. |
+
+ **Returns:**
+[ChartPortionFormat](../chartportionformat)
+
+
+---
+
+
+### getTextBlockFormat {#getTextBlockFormat}
+
+| Name | Description |
+| --- | --- |
+| getTextBlockFormat () | TextBlockFormat. Read-only IChartTextBlockFormat. |
+
+ **Returns:**
+[TextFrameFormat](../textframeformat)
+
+
+---
+
+

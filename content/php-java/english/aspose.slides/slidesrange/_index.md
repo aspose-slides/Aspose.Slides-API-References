@@ -11,18 +11,68 @@ url: /aspose.slides/slidesrange/
 
  Slides range
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [SlidesRange](slidesrange)() |  |
-
-## Methods
+### SlidesRange {#SlidesRange}
 
 | Name | Description |
 | --- | --- |
-| [getEnd](getend)() | End |
-| [getStart](getstart)() | Start |
-| [setEnd](setend)(long) | End |
-| [setStart](setstart)(long) | Start |
+| SlidesRange() |  |
+
+ **Result:**
+SlidesRange
+
+
+---
+
+
+### getEnd {#getEnd}
+
+| Name | Description |
+| --- | --- |
+| getEnd () | End |
+
+ **Returns:**
+long
+
+
+---
+
+
+### getStart {#getStart}
+
+| Name | Description |
+| --- | --- |
+| getStart () | Start |
+
+ **Returns:**
+long
+
+
+---
+
+
+### setEnd {#setEnd}
+
+| Name | Description |
+| --- | --- |
+| setEnd (long) | End |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setStart {#setStart}
+
+| Name | Description |
+| --- | --- |
+| setStart (long) | Start |
+
+ **Returns:**
+void
+
+
+---
+
+

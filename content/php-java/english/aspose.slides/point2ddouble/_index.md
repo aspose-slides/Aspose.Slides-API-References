@@ -9,10 +9,29 @@ url: /aspose.slides/point2ddouble/
 
 ## Point2DDouble class
 
-
-## Constructors
+### Point2DDouble {#Point2DDouble}
 
 | Name | Description |
 | --- | --- |
-| [Point2DDouble](point2ddouble)() |  |
-| [Point2DDouble](point2ddouble)(double, double) |  |
+| Point2DDouble() |  |
+
+ **Result:**
+Point2DDouble
+
+
+---
+
+
+### Point2DDouble {#Point2DDouble}
+
+| Name | Description |
+| --- | --- |
+| Point2DDouble(double, double) |  |
+
+ **Result:**
+Point2DDouble
+
+
+---
+
+

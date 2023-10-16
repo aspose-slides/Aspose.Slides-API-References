@@ -16,9 +16,39 @@ url: /aspose.slides/transitioncornerandcenterdirectiontype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| LeftDown | 0 |  |
-| LeftUp | 1 |  |
-| RightDown | 2 |  |
-| RightUp | 3 |  |
-| Center | 4 |  |
+[LeftDown](#LeftDown) | 0 |  |
+[LeftUp](#LeftUp) | 1 |  |
+[RightDown](#RightDown) | 2 |  |
+[RightUp](#RightUp) | 3 |  |
+[Center](#Center) | 4 |  |
+
+
+---
+
+
+### LeftDown {#LeftDown}
+
+
+---
+
+### LeftUp {#LeftUp}
+
+
+---
+
+### RightDown {#RightDown}
+
+
+---
+
+### RightUp {#RightUp}
+
+
+---
+
+### Center {#Center}
+
+
+---
+
 

@@ -11,12 +11,55 @@ url: /aspose.slides/field/
 
  Represents a field.
  
-
-## Methods
+### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
-| [getPresentation](getpresentation)() | Returns the parent presentation of a paragraph. Read-only IPresentation. |
-| [getSlide](getslide)() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
-| [getType](gettype)() | Returns or sets field's type. Read/write IFieldType. |
-| [setType](settype)([FieldType](../fieldtype)) | Returns or sets field's type. Read/write IFieldType. |
+| getPresentation () | Returns the parent presentation of a paragraph. Read-only IPresentation. |
+
+ **Returns:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a paragraph. Read-only BaseSlide. |
+
+ **Returns:**
+[MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide)
+
+
+---
+
+
+### getType {#getType}
+
+| Name | Description |
+| --- | --- |
+| getType () | Returns or sets field's type. Read/write IFieldType. |
+
+ **Returns:**
+[FieldType](../fieldtype)
+
+
+---
+
+
+### setType {#setType}
+
+| Name | Description |
+| --- | --- |
+| setType ([FieldType](../fieldtype)) | Returns or sets field's type. Read/write IFieldType. |
+
+ **Returns:**
+void
+
+
+---
+
+

@@ -16,8 +16,33 @@ url: /aspose.slides/linearrowheadwidth/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Narrow | 0 |  |
-| Medium | 1 |  |
-| Wide | 2 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Narrow](#Narrow) | 0 |  |
+[Medium](#Medium) | 1 |  |
+[Wide](#Wide) | 2 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+
+
+---
+
+### Narrow {#Narrow}
+
+
+---
+
+### Medium {#Medium}
+
+
+---
+
+### Wide {#Wide}
+
+
+---
+
 

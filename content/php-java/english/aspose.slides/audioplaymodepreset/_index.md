@@ -16,9 +16,39 @@ url: /aspose.slides/audioplaymodepreset/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Mixed | -1 |  |
-| Auto | 0 | Play automatically. |
-| OnClick | 1 | Play only when the icon is clicked on. |
-| AllSlides | 2 | Play on all slides. Please use ( IAudioFrame#getPlayAcrossSlides/ IAudioFrame#setPlayAcrossSlides(boolean)) property instead. This element is out of date since PowerPoint 2013. |
-| InClickSequence | 3 | Play automatically with a click. |
+[Mixed](#Mixed) | -1 |  |
+[Auto](#Auto) | 0 | Play automatically. |
+[OnClick](#OnClick) | 1 | Play only when the icon is clicked on. |
+[AllSlides](#AllSlides) | 2 | Play on all slides. Please use ( IAudioFrame#getPlayAcrossSlides/ IAudioFrame#setPlayAcrossSlides(boolean)) property instead. This element is out of date since PowerPoint 2013. |
+[InClickSequence](#InClickSequence) | 3 | Play automatically with a click. |
+
+
+---
+
+
+### Mixed {#Mixed}
+
+
+---
+
+### Auto {#Auto}
+Play automatically.
+
+---
+
+### OnClick {#OnClick}
+Play only when the icon is clicked on.
+
+---
+
+### AllSlides {#AllSlides}
+Play on all slides. Please use ( IAudioFrame#getPlayAcrossSlides/ IAudioFrame#setPlayAcrossSlides(boolean)) property instead. This element is out of date since PowerPoint 2013.
+
+---
+
+### InClickSequence {#InClickSequence}
+Play automatically with a click.
+
+---
+
 

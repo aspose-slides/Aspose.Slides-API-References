@@ -11,13 +11,68 @@ url: /aspose.slides/axisformat/
 
  Represents chart format properties.
  
-
-## Methods
+### getEffect {#getEffect}
 
 | Name | Description |
 | --- | --- |
-| [getEffect](geteffect)() | Returns effects used for an axis. Read-only IEffectFormat. |
-| [getFill](getfill)() | Returns fill style properties of an axis. Read-only IFillFormat. |
-| [getLine](getline)() | Returns line style properties of an axis. Read-only ILineFormat. |
-| [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
-| [getVersion](getversion)() |  |
+| getEffect () | Returns effects used for an axis. Read-only IEffectFormat. |
+
+ **Returns:**
+[EffectFormat](../effectformat)
+
+
+---
+
+
+### getFill {#getFill}
+
+| Name | Description |
+| --- | --- |
+| getFill () | Returns fill style properties of an axis. Read-only IFillFormat. |
+
+ **Returns:**
+[FillFormat](../fillformat)
+
+
+---
+
+
+### getLine {#getLine}
+
+| Name | Description |
+| --- | --- |
+| getLine () | Returns line style properties of an axis. Read-only ILineFormat. |
+
+ **Returns:**
+[LineFormat](../lineformat)
+
+
+---
+
+
+### getParent_IPresentationComponent {#getParent_IPresentationComponent}
+
+| Name | Description |
+| --- | --- |
+| getParent_IPresentationComponent () |  |
+
+ **Returns:**
+[ImageTransformOperation](../imagetransformoperation), [DataTable](../datatable), [Backdrop3DScene](../backdrop3dscene), [CellFormat](../cellformat), [Trendline](../trendline), [LineFormat](../lineformat), [OverrideTheme](../overridetheme), [GroupShape](../groupshape), [Picture](../picture), [TextFrame](../textframe), [Portion](../portion), [GradientFormat](../gradientformat), [SmartArtShape](../smartartshape), [LayoutSlide](../layoutslide), [Background](../background), [ColorChange](../colorchange), [GrayScale](../grayscale), [PVIObject](../pviobject), [TextFrameFormat](../textframeformat), [SectionZoomFrame](../sectionzoomframe), [DataLabelCollection](../datalabelcollection), [Tint](../tint), [LegacyDiagram](../legacydiagram), [GraphicalObject](../graphicalobject), [Legend](../legend), [Shape](../shape), [ParagraphCollection](../paragraphcollection), [DataLabelFormat](../datalabelformat), [SummaryZoomFrame](../summaryzoomframe), [ChartSeries](../chartseries), [AlphaFloor](../alphafloor), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [Chart](../chart), [PictureFillFormat](../picturefillformat), [ParagraphFormat](../paragraphformat), [Table](../table), [ColorFormat](../colorformat), [EffectFormat](../effectformat), [GradientStop](../gradientstop), [Presentation](../presentation), [MathPortion](../mathportion), [SummaryZoomSection](../summaryzoomsection), [SketchFormat](../sketchformat), [FillFormat](../fillformat), [Duotone](../duotone), [Luminance](../luminance), [Tab](../tab), [Theme](../theme), [NotesSlide](../notesslide), [Hyperlink](../hyperlink), [ChartPortionFormat](../chartportionformat), [GeometryShape](../geometryshape), [AlphaModulateFixed](../alphamodulatefixed), [MasterHandoutSlide](../masterhandoutslide), [TextStyle](../textstyle), [Blur](../blur), [Camera](../camera), [ChartTitle](../charttitle), [Cell](../cell), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [FillOverlay](../filloverlay), [HSL](../hsl), [LegendEntryProperties](../legendentryproperties), [BulletFormat](../bulletformat), [ImageTransformOperationCollection](../imagetransformoperationcollection), [PatternFormat](../patternformat), [ShapeBevel](../shapebevel), [ErrorBarsFormat](../errorbarsformat), [ZoomFrame](../zoomframe), [ThreeDFormat](../threedformat), [BiLevel](../bilevel), [Row](../row), [PictureFrame](../pictureframe), [LineFillFormat](../linefillformat), [LightRig](../lightrig), [Connector](../connector), [BaseSlide](../baseslide), [Ink](../ink), [ColorScheme](../colorscheme), [MasterSlide](../masterslide), [VideoFrame](../videoframe), [Field](../field), [Control](../control), [BasePortionFormat](../baseportionformat), [Format](../format), [ChartPlotArea](../chartplotarea), [Column](../column), [AutoShape](../autoshape), [AlphaReplace](../alphareplace), [GradientStopCollection](../gradientstopcollection), [Axis](../axis), [AlphaBiLevel](../alphabilevel), [FormatScheme](../formatscheme), [PortionFormat](../portionformat), [AlphaModulate](../alphamodulate), [Paragraph](../paragraph), [OleObjectFrame](../oleobjectframe), [SmartArt](../smartart), [CellCollection](../cellcollection), [AlphaInverse](../alphainverse), [AlphaCeiling](../alphaceiling), [MasterTheme](../mastertheme), [ColorReplace](../colorreplace), [ChartSeriesGroup](../chartseriesgroup), [DataLabel](../datalabel)
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Returns:**
+long
+
+
+---
+
+

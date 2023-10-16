@@ -16,13 +16,63 @@ url: /aspose.slides/lightingdirection/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| TopLeft | 0 |  |
-| Top | 1 |  |
-| TopRight | 2 |  |
-| Right | 3 |  |
-| BottomRight | 4 |  |
-| Bottom | 5 |  |
-| BottomLeft | 6 |  |
-| Left | 7 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[TopLeft](#TopLeft) | 0 |  |
+[Top](#Top) | 1 |  |
+[TopRight](#TopRight) | 2 |  |
+[Right](#Right) | 3 |  |
+[BottomRight](#BottomRight) | 4 |  |
+[Bottom](#Bottom) | 5 |  |
+[BottomLeft](#BottomLeft) | 6 |  |
+[Left](#Left) | 7 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+
+
+---
+
+### TopLeft {#TopLeft}
+
+
+---
+
+### Top {#Top}
+
+
+---
+
+### TopRight {#TopRight}
+
+
+---
+
+### Right {#Right}
+
+
+---
+
+### BottomRight {#BottomRight}
+
+
+---
+
+### Bottom {#Bottom}
+
+
+---
+
+### BottomLeft {#BottomLeft}
+
+
+---
+
+### Left {#Left}
+
+
+---
+
 

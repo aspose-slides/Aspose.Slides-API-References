@@ -11,17 +11,55 @@ url: /aspose.slides/interruptiontokensource/
 
  Represents the source of  InterruptionToken.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [InterruptionTokenSource](interruptiontokensource)() | Creates a new InterruptionTokenSource. |
-
-## Methods
+### InterruptionTokenSource {#InterruptionTokenSource}
 
 | Name | Description |
 | --- | --- |
-| [getToken](gettoken)() | Returns new token binded to this InterruptionTokenSource. |
-| [interrupt](interrupt)() | Initialize request for interruption. |
-| [isInterruptionRequested](isinterruptionrequested)() | Returns true if interruption requested, false otherwise. |
+| InterruptionTokenSource() | Creates a new InterruptionTokenSource. |
+
+ **Result:**
+InterruptionTokenSource
+
+
+---
+
+
+### getToken {#getToken}
+
+| Name | Description |
+| --- | --- |
+| getToken () | Returns new token binded to this InterruptionTokenSource. |
+
+ **Returns:**
+InterruptionToken
+
+
+---
+
+
+### interrupt {#interrupt}
+
+| Name | Description |
+| --- | --- |
+| interrupt () | Initialize request for interruption. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### isInterruptionRequested {#isInterruptionRequested}
+
+| Name | Description |
+| --- | --- |
+| isInterruptionRequested () | Returns true if interruption requested, false otherwise. |
+
+ **Returns:**
+boolean
+
+
+---
+
+

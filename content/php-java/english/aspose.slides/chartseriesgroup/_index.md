@@ -17,42 +17,445 @@ url: /aspose.slides/chartseriesgroup/
  "Series group properties" in ChartSeriesGroup class is read/write.
  Each of "series group properties" can have a read-only projection in ChartSeries class.
  
-
-## Methods
+### getBubbleSizeRepresentation {#getBubbleSizeRepresentation}
 
 | Name | Description |
 | --- | --- |
-| [getBubbleSizeRepresentation](getbubblesizerepresentation)() | Specifies how the bubble size values are represented on the bubble chart. Read/write BubbleSizeRepresentationType. |
-| [getBubbleSizeScale](getbubblesizescale)() | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Read/write int. |
-| [getChart](getchart)() | Returns the parent chart. Read-only IChart. |
-| [getDoughnutHoleSize](getdoughnutholesize)() | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write byte. |
-| [getFirstSliceAngle](getfirstsliceangle)() | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write int. |
-| [getGapDepth](getgapdepth)() | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int. |
-| [getGapWidth](getgapwidth)() | Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int. |
-| [getHiLowLinesFormat](gethilowlinesformat)() | Specifies HiLowLines format. HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types. |
-| [getOverlap](getoverlap)() | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
-| [getPieSplitBy](getpiesplitby)() | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Read/write PieSplitType. |
-| [getPieSplitCustomPoints](getpiesplitcustompoints)() | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or bar-of-pie chart. Read-only PieSplitCustomPointCollection. |
-| [getPieSplitPosition](getpiesplitposition)() | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. Read/write double. |
-| [getPlotOnSecondAxis](getplotonsecondaxis)() | Indicates if series of this group is plotted on secondary axis. Read-only boolean. |
-| [getPresentation](getpresentation)() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
-| [getSecondPieSize](getsecondpiesize)() | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). Read/write int. |
-| [getSeries](getseries)() | Returns a collection of series. Read-only IChartSeriesReadonlyCollection. |
-| [getSlide](getslide)() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
-| [getType](gettype)() | Returns a type of this series group. Read-only CombinableSeriesTypesGroup. |
-| [getUpDownBars](getupdownbars)() | Provede access to up/down bars of Line- or Stock-chart. Read-only IUpDownBarsManager. |
-| [get_Item](get_item)(int) | Gets the element at the specified index. |
-| [hasSeriesLines](hasserieslines)() | True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write boolean. |
-| [isColorVaried](iscolorvaried)() | Specifies that each data marker in the series has a different color. Read/write boolean. |
-| [setBubbleSizeRepresentation](setbubblesizerepresentation)(int) | Specifies how the bubble size values are represented on the bubble chart. Read/write BubbleSizeRepresentationType. |
-| [setBubbleSizeScale](setbubblesizescale)(int) | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Read/write int. |
-| [setColorVaried](setcolorvaried)(boolean) | Specifies that each data marker in the series has a different color. Read/write boolean. |
-| [setDoughnutHoleSize](setdoughnutholesize)(byte) | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write byte. |
-| [setFirstSliceAngle](setfirstsliceangle)(int) | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write int. |
-| [setGapDepth](setgapdepth)(int) | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int. |
-| [setGapWidth](setgapwidth)(int) | Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int. |
-| [setOverlap](setoverlap)(byte) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
-| [setPieSplitBy](setpiesplitby)(int) | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Read/write PieSplitType. |
-| [setPieSplitPosition](setpiesplitposition)(double) | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. Read/write double. |
-| [setSecondPieSize](setsecondpiesize)(int) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). Read/write int. |
-| [setSeriesLines](setserieslines)(boolean) | True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write boolean. |
+| getBubbleSizeRepresentation () | Specifies how the bubble size values are represented on the bubble chart. Read/write BubbleSizeRepresentationType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getBubbleSizeScale {#getBubbleSizeScale}
+
+| Name | Description |
+| --- | --- |
+| getBubbleSizeScale () | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Read/write int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getChart {#getChart}
+
+| Name | Description |
+| --- | --- |
+| getChart () | Returns the parent chart. Read-only IChart. |
+
+ **Returns:**
+[Chart](../chart)
+
+
+---
+
+
+### getDoughnutHoleSize {#getDoughnutHoleSize}
+
+| Name | Description |
+| --- | --- |
+| getDoughnutHoleSize () | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write byte. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getFirstSliceAngle {#getFirstSliceAngle}
+
+| Name | Description |
+| --- | --- |
+| getFirstSliceAngle () | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getGapDepth {#getGapDepth}
+
+| Name | Description |
+| --- | --- |
+| getGapDepth () | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getGapWidth {#getGapWidth}
+
+| Name | Description |
+| --- | --- |
+| getGapWidth () | Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getHiLowLinesFormat {#getHiLowLinesFormat}
+
+| Name | Description |
+| --- | --- |
+| getHiLowLinesFormat () | Specifies HiLowLines format. HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types. |
+
+ **Returns:**
+[ChartLinesFormat](../chartlinesformat)
+
+
+---
+
+
+### getOverlap {#getOverlap}
+
+| Name | Description |
+| --- | --- |
+| getOverlap () | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getPieSplitBy {#getPieSplitBy}
+
+| Name | Description |
+| --- | --- |
+| getPieSplitBy () | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Read/write PieSplitType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getPieSplitCustomPoints {#getPieSplitCustomPoints}
+
+| Name | Description |
+| --- | --- |
+| getPieSplitCustomPoints () | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or bar-of-pie chart. Read-only PieSplitCustomPointCollection. |
+
+ **Returns:**
+[PieSplitCustomPointCollection](../piesplitcustompointcollection)
+
+
+---
+
+
+### getPieSplitPosition {#getPieSplitPosition}
+
+| Name | Description |
+| --- | --- |
+| getPieSplitPosition () | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. Read/write double. |
+
+ **Returns:**
+double
+
+
+---
+
+
+### getPlotOnSecondAxis {#getPlotOnSecondAxis}
+
+| Name | Description |
+| --- | --- |
+| getPlotOnSecondAxis () | Indicates if series of this group is plotted on secondary axis. Read-only boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+
+ **Returns:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getSecondPieSize {#getSecondPieSize}
+
+| Name | Description |
+| --- | --- |
+| getSecondPieSize () | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). Read/write int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getSeries {#getSeries}
+
+| Name | Description |
+| --- | --- |
+| getSeries () | Returns a collection of series. Read-only IChartSeriesReadonlyCollection. |
+
+ **Returns:**
+ChartSeriesReadonlyCollection
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+
+ **Returns:**
+[MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide)
+
+
+---
+
+
+### getType {#getType}
+
+| Name | Description |
+| --- | --- |
+| getType () | Returns a type of this series group. Read-only CombinableSeriesTypesGroup. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getUpDownBars {#getUpDownBars}
+
+| Name | Description |
+| --- | --- |
+| getUpDownBars () | Provede access to up/down bars of Line- or Stock-chart. Read-only IUpDownBarsManager. |
+
+ **Returns:**
+[UpDownBarsManager](../updownbarsmanager)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Gets the element at the specified index. |
+
+ **Returns:**
+[ChartSeries](../chartseries)
+
+
+---
+
+
+### hasSeriesLines {#hasSeriesLines}
+
+| Name | Description |
+| --- | --- |
+| hasSeriesLines () | True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### isColorVaried {#isColorVaried}
+
+| Name | Description |
+| --- | --- |
+| isColorVaried () | Specifies that each data marker in the series has a different color. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### setBubbleSizeRepresentation {#setBubbleSizeRepresentation}
+
+| Name | Description |
+| --- | --- |
+| setBubbleSizeRepresentation (int) | Specifies how the bubble size values are represented on the bubble chart. Read/write BubbleSizeRepresentationType. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setBubbleSizeScale {#setBubbleSizeScale}
+
+| Name | Description |
+| --- | --- |
+| setBubbleSizeScale (int) | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Read/write int. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setColorVaried {#setColorVaried}
+
+| Name | Description |
+| --- | --- |
+| setColorVaried (boolean) | Specifies that each data marker in the series has a different color. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setDoughnutHoleSize {#setDoughnutHoleSize}
+
+| Name | Description |
+| --- | --- |
+| setDoughnutHoleSize (byte) | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write byte. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setFirstSliceAngle {#setFirstSliceAngle}
+
+| Name | Description |
+| --- | --- |
+| setFirstSliceAngle (int) | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write int. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setGapDepth {#setGapDepth}
+
+| Name | Description |
+| --- | --- |
+| setGapDepth (int) | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setGapWidth {#setGapWidth}
+
+| Name | Description |
+| --- | --- |
+| setGapWidth (int) | Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setOverlap {#setOverlap}
+
+| Name | Description |
+| --- | --- |
+| setOverlap (byte) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setPieSplitBy {#setPieSplitBy}
+
+| Name | Description |
+| --- | --- |
+| setPieSplitBy (int) | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Read/write PieSplitType. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setPieSplitPosition {#setPieSplitPosition}
+
+| Name | Description |
+| --- | --- |
+| setPieSplitPosition (double) | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. Read/write double. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSecondPieSize {#setSecondPieSize}
+
+| Name | Description |
+| --- | --- |
+| setSecondPieSize (int) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). Read/write int. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSeriesLines {#setSeriesLines}
+
+| Name | Description |
+| --- | --- |
+| setSeriesLines (boolean) | True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+

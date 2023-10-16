@@ -11,26 +11,172 @@ url: /aspose.slides/propertyeffect/
 
  Represent property effect behavior.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PropertyEffect](propertyeffect)() |  |
-
-## Methods
+### PropertyEffect {#PropertyEffect}
 
 | Name | Description |
 | --- | --- |
-| [getBy](getby)() | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
-| [getCalcMode](getcalcmode)() | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
-| [getFrom](getfrom)() | Specifies the starting value of the animation. Read/write String. |
-| [getPoints](getpoints)() | Specifies the points of the animation. Read/write IPointCollection. |
-| [getTo](getto)() | Specifies the ending value for the animation. Read/write String. |
-| [getValueType](getvaluetype)() | Specifies the type of a property value. Read/write PropertyValueType. |
-| [setBy](setby)(String) | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
-| [setCalcMode](setcalcmode)(int) | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
-| [setFrom](setfrom)(String) | Specifies the starting value of the animation. Read/write String. |
-| [setPoints](setpoints)([PointCollection](../pointcollection)) | Specifies the points of the animation. Read/write IPointCollection. |
-| [setTo](setto)(String) | Specifies the ending value for the animation. Read/write String. |
-| [setValueType](setvaluetype)(int) | Specifies the type of a property value. Read/write PropertyValueType. |
+| PropertyEffect() |  |
+
+ **Result:**
+PropertyEffect
+
+
+---
+
+
+### getBy {#getBy}
+
+| Name | Description |
+| --- | --- |
+| getBy () | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getCalcMode {#getCalcMode}
+
+| Name | Description |
+| --- | --- |
+| getCalcMode () | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getFrom {#getFrom}
+
+| Name | Description |
+| --- | --- |
+| getFrom () | Specifies the starting value of the animation. Read/write String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getPoints {#getPoints}
+
+| Name | Description |
+| --- | --- |
+| getPoints () | Specifies the points of the animation. Read/write IPointCollection. |
+
+ **Returns:**
+[PointCollection](../pointcollection)
+
+
+---
+
+
+### getTo {#getTo}
+
+| Name | Description |
+| --- | --- |
+| getTo () | Specifies the ending value for the animation. Read/write String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getValueType {#getValueType}
+
+| Name | Description |
+| --- | --- |
+| getValueType () | Specifies the type of a property value. Read/write PropertyValueType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### setBy {#setBy}
+
+| Name | Description |
+| --- | --- |
+| setBy (String) | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setCalcMode {#setCalcMode}
+
+| Name | Description |
+| --- | --- |
+| setCalcMode (int) | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setFrom {#setFrom}
+
+| Name | Description |
+| --- | --- |
+| setFrom (String) | Specifies the starting value of the animation. Read/write String. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setPoints {#setPoints}
+
+| Name | Description |
+| --- | --- |
+| setPoints ([PointCollection](../pointcollection)) | Specifies the points of the animation. Read/write IPointCollection. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setTo {#setTo}
+
+| Name | Description |
+| --- | --- |
+| setTo (String) | Specifies the ending value for the animation. Read/write String. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setValueType {#setValueType}
+
+| Name | Description |
+| --- | --- |
+| setValueType (int) | Specifies the type of a property value. Read/write PropertyValueType. |
+
+ **Returns:**
+void
+
+
+---
+
+

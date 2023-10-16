@@ -12,11 +12,48 @@ url: /aspose.slides/tint/
  Represents a Tint effect.
  Shifts effect color values towards/away from hue by the specified amount.
  
-
-## Methods
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified Tint is equal to the current Tint. |
-| [getEffective](geteffective)() | Gets effective Tint effect data with the inheritance applied. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| equals (Object) | Determines whether the specified Tint is equal to the current Tint. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Tint to compare. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getEffective {#getEffective}
+
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Tint effect data with the inheritance applied. |
+
+ **Returns:**
+TintEffectiveData
+
+
+---
+
+
+### hashCode {#hashCode}
+
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
+
+ **Returns:**
+int
+
+
+---
+
+

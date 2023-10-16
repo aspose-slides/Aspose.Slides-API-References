@@ -11,12 +11,55 @@ url: /aspose.slides/summaryzoomsection/
 
  Represents a Summary Zoom Section object in a Summary Zoom frame.
  
-
-## Methods
+### getDescription {#getDescription}
 
 | Name | Description |
 | --- | --- |
-| [getDescription](getdescription)() | Returns the text description of the Summary Zoom Section object. |
-| [getTitle](gettitle)() | Returns the text title of the Summary Zoom Section object. |
-| [setDescription](setdescription)(String) | Returns the text description of the Summary Zoom Section object. |
-| [setTitle](settitle)(String) | Returns the text title of the Summary Zoom Section object. |
+| getDescription () | Returns the text description of the Summary Zoom Section object. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getTitle {#getTitle}
+
+| Name | Description |
+| --- | --- |
+| getTitle () | Returns the text title of the Summary Zoom Section object. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### setDescription {#setDescription}
+
+| Name | Description |
+| --- | --- |
+| setDescription (String) | Returns the text description of the Summary Zoom Section object. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setTitle {#setTitle}
+
+| Name | Description |
+| --- | --- |
+| setTitle (String) | Returns the text title of the Summary Zoom Section object. |
+
+ **Returns:**
+void
+
+
+---
+
+

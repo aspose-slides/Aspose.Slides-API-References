@@ -11,11 +11,42 @@ url: /aspose.slides/sketchformat/
 
  Represents properties for lines sketch format.
  
-
-## Methods
+### getSketchType {#getSketchType}
 
 | Name | Description |
 | --- | --- |
-| [getSketchType](getsketchtype)() | Returns or sets the sketch type. Read/write LineSketchType. |
-| [getVersion](getversion)() |  |
-| [setSketchType](setsketchtype)(int) | Returns or sets the sketch type. Read/write LineSketchType. |
+| getSketchType () | Returns or sets the sketch type. Read/write LineSketchType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Returns:**
+long
+
+
+---
+
+
+### setSketchType {#setSketchType}
+
+| Name | Description |
+| --- | --- |
+| setSketchType (int) | Returns or sets the sketch type. Read/write LineSketchType. |
+
+ **Returns:**
+void
+
+
+---
+
+

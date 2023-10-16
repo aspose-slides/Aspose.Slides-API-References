@@ -16,9 +16,39 @@ url: /aspose.slides/organizationchartlayouttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Initial | 0 | Initial layout type |
-| Standart | 1 | Places child nodes horizontally below the parent node. |
-| BothHanging | 2 | Places child nodes vertically below the parent node on both the left and the right side. |
-| LeftHanging | 3 | Places child nodes vertically below the parent node on the left side. |
-| RightHanging | 4 | Places child nodes vertically below the parent node on the right side. |
+[Initial](#Initial) | 0 | Initial layout type |
+[Standart](#Standart) | 1 | Places child nodes horizontally below the parent node. |
+[BothHanging](#BothHanging) | 2 | Places child nodes vertically below the parent node on both the left and the right side. |
+[LeftHanging](#LeftHanging) | 3 | Places child nodes vertically below the parent node on the left side. |
+[RightHanging](#RightHanging) | 4 | Places child nodes vertically below the parent node on the right side. |
+
+
+---
+
+
+### Initial {#Initial}
+Initial layout type
+
+---
+
+### Standart {#Standart}
+Places child nodes horizontally below the parent node.
+
+---
+
+### BothHanging {#BothHanging}
+Places child nodes vertically below the parent node on both the left and the right side.
+
+---
+
+### LeftHanging {#LeftHanging}
+Places child nodes vertically below the parent node on the left side.
+
+---
+
+### RightHanging {#RightHanging}
+Places child nodes vertically below the parent node on the right side.
+
+---
+
 

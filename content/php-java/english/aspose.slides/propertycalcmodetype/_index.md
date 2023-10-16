@@ -16,8 +16,33 @@ url: /aspose.slides/propertycalcmodetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Discrete | 0 |  |
-| Linear | 1 |  |
-| Formula | 2 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Discrete](#Discrete) | 0 |  |
+[Linear](#Linear) | 1 |  |
+[Formula](#Formula) | 2 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+
+
+---
+
+### Discrete {#Discrete}
+
+
+---
+
+### Linear {#Linear}
+
+
+---
+
+### Formula {#Formula}
+
+
+---
+
 

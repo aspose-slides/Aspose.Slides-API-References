@@ -11,21 +11,126 @@ url: /aspose.slides/mathematicaltext/
 
  Mathematical text
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [MathematicalText](mathematicaltext)() | Default constructor (create String.Empty Value) |
-| [MathematicalText](mathematicaltext)(char) | Create MathText with single symbol |
-| [MathematicalText](mathematicaltext)(String) | Create MathematicalText from text |
-| [MathematicalText](mathematicaltext)(String, [PortionFormat](../portionformat)) | Create MathematicalText from text and format settings |
-
-## Methods
+### MathematicalText {#MathematicalText}
 
 | Name | Description |
 | --- | --- |
-| [getChildren](getchildren)() | Get children elements |
-| [getFormat](getformat)() | Text formatting properties |
-| [getValue](getvalue)() | Text value |
-| [setValue](setvalue)(String) | Text value |
+| MathematicalText() | Default function (create String.Empty Value) |
+
+ **Result:**
+MathematicalText
+
+
+---
+
+
+### MathematicalText {#MathematicalText}
+
+| Name | Description |
+| --- | --- |
+| MathematicalText(char) | Create MathText with single symbol |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathSymbol | char | single symbol |
+
+ **Result:**
+MathematicalText
+
+
+---
+
+
+### MathematicalText {#MathematicalText}
+
+| Name | Description |
+| --- | --- |
+| MathematicalText(String) | Create MathematicalText from text |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+
+ **Result:**
+MathematicalText
+
+
+---
+
+
+### MathematicalText {#MathematicalText}
+
+| Name | Description |
+| --- | --- |
+| MathematicalText(String, [PortionFormat](../portionformat)) | Create MathematicalText from text and format settings |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+| portionFormat | [PortionFormat](../portionformat) | text format settings |
+
+ **Result:**
+MathematicalText
+
+
+---
+
+
+### getChildren {#getChildren}
+
+| Name | Description |
+| --- | --- |
+| getChildren () | Get children elements |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### getFormat {#getFormat}
+
+| Name | Description |
+| --- | --- |
+| getFormat () | Text formatting properties |
+
+ **Returns:**
+[PortionFormat](../portionformat)
+
+
+---
+
+
+### getValue {#getValue}
+
+| Name | Description |
+| --- | --- |
+| getValue () | Text value |
+
+ **Returns:**
+String
+
+
+---
+
+
+### setValue {#setValue}
+
+| Name | Description |
+| --- | --- |
+| setValue (String) | Text value |
+
+ **Returns:**
+void
+
+
+---
+
+

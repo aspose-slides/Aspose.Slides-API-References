@@ -11,22 +11,126 @@ url: /aspose.slides/shapebevel/
 
  Contains the properties of shape's main face relief.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [ShapeBevel](shapebevel)(boolean) | Creates new instance. |
-
-## Methods
+### ShapeBevel {#ShapeBevel}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) |  |
-| [getBevelType](getbeveltype)() | Bevel type. Read/write BevelPresetType. |
-| [getHeight](getheight)() | Bevel height. Read/write double. |
-| [getVersion](getversion)() |  |
-| [getWidth](getwidth)() | Bevel width. Read/write double. |
-| [setBevelType](setbeveltype)(int) | Bevel type. Read/write BevelPresetType. |
-| [setHeight](setheight)(double) | Bevel height. Read/write double. |
-| [setWidth](setwidth)(double) | Bevel width. Read/write double. |
+| ShapeBevel(boolean) | Creates new instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| bIsTopBevel | boolean | Is top bevel. |
+
+ **Result:**
+ShapeBevel
+
+
+---
+
+
+### equals {#equals}
+
+| Name | Description |
+| --- | --- |
+| equals (Object) |  |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getBevelType {#getBevelType}
+
+| Name | Description |
+| --- | --- |
+| getBevelType () | Bevel type. Read/write BevelPresetType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getHeight {#getHeight}
+
+| Name | Description |
+| --- | --- |
+| getHeight () | Bevel height. Read/write double. |
+
+ **Returns:**
+double
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Returns:**
+long
+
+
+---
+
+
+### getWidth {#getWidth}
+
+| Name | Description |
+| --- | --- |
+| getWidth () | Bevel width. Read/write double. |
+
+ **Returns:**
+double
+
+
+---
+
+
+### setBevelType {#setBevelType}
+
+| Name | Description |
+| --- | --- |
+| setBevelType (int) | Bevel type. Read/write BevelPresetType. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setHeight {#setHeight}
+
+| Name | Description |
+| --- | --- |
+| setHeight (double) | Bevel height. Read/write double. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setWidth {#setWidth}
+
+| Name | Description |
+| --- | --- |
+| setWidth (double) | Bevel width. Read/write double. |
+
+ **Returns:**
+void
+
+
+---
+
+

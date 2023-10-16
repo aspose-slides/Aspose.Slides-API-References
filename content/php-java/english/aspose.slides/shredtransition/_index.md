@@ -11,12 +11,55 @@ url: /aspose.slides/shredtransition/
 
  Shred slide transition effect.
  
-
-## Methods
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
-| [getDirection](getdirection)() | Direction of transition. Read/write TransitionInOutDirectionType. |
-| [getPattern](getpattern)() | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
-| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionInOutDirectionType. |
-| [setPattern](setpattern)(int) | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
+| getDirection () | Direction of transition. Read/write TransitionInOutDirectionType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getPattern {#getPattern}
+
+| Name | Description |
+| --- | --- |
+| getPattern () | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### setDirection {#setDirection}
+
+| Name | Description |
+| --- | --- |
+| setDirection (int) | Direction of transition. Read/write TransitionInOutDirectionType. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setPattern {#setPattern}
+
+| Name | Description |
+| --- | --- |
+| setPattern (int) | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
+
+ **Returns:**
+void
+
+
+---
+
+

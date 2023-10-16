@@ -11,24 +11,217 @@ url: /aspose.slides/datalabelcollection/
 
  Represents a series labels.
  
-
-## Methods
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
-| [getChart](getchart)() | Returns the parent chart. Read-only IChart. |
-| [getCount](getcount)() | Gets the number of all data labels in the collection. Read-only int. |
-| [getCountOfVisibleDataLabels](getcountofvisibledatalabels)() | Gets the number of visible data labels in the collection. Read-only int. |
-| [getDefaultDataLabelFormat](getdefaultdatalabelformat)() | Gets the default data label format. Read-only IDataLabelFormat. |
-| [getLeaderLinesColor](getleaderlinescolor)() | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
-| [getLeaderLinesFormat](getleaderlinesformat)() | Represents data labels leader lines format. Read-only IChartLinesFormat. |
-| [getParentSeries](getparentseries)() | Gets the parent series. Read-only IChartSeries. |
-| [getPresentation](getpresentation)() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
-| [getSlide](getslide)() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
-| [get_Item](get_item)(int) | Gets the data label for the data point with the specified index. Alternate way to access data label is: - series.getDataPoints().get_Item(i).getLabel() - manage label properties. |
-| [hide](hide)() | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this. If data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
-| [indexOf](indexof)([DataLabel](../datalabel)) | Returns an index of the specified DataLabel in the collection. |
-| [isVisible](isvisible)() | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only boolean. If data label is visible by default you can make it hidden by default with Hide() method. But if data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [setLeaderLinesColor](setleaderlinescolor)(Color) | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
+| getChart () | Returns the parent chart. Read-only IChart. |
+
+ **Returns:**
+[Chart](../chart)
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount () | Gets the number of all data labels in the collection. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCountOfVisibleDataLabels {#getCountOfVisibleDataLabels}
+
+| Name | Description |
+| --- | --- |
+| getCountOfVisibleDataLabels () | Gets the number of visible data labels in the collection. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getDefaultDataLabelFormat {#getDefaultDataLabelFormat}
+
+| Name | Description |
+| --- | --- |
+| getDefaultDataLabelFormat () | Gets the default data label format. Read-only IDataLabelFormat. |
+
+ **Returns:**
+[DataLabelFormat](../datalabelformat)
+
+
+---
+
+
+### getLeaderLinesColor {#getLeaderLinesColor}
+
+| Name | Description |
+| --- | --- |
+| getLeaderLinesColor () | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
+
+ **Returns:**
+Color
+
+
+---
+
+
+### getLeaderLinesFormat {#getLeaderLinesFormat}
+
+| Name | Description |
+| --- | --- |
+| getLeaderLinesFormat () | Represents data labels leader lines format. Read-only IChartLinesFormat. |
+
+ **Returns:**
+[ChartLinesFormat](../chartlinesformat)
+
+
+---
+
+
+### getParentSeries {#getParentSeries}
+
+| Name | Description |
+| --- | --- |
+| getParentSeries () | Gets the parent series. Read-only IChartSeries. |
+
+ **Returns:**
+[ChartSeries](../chartseries)
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+
+ **Returns:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+
+ **Returns:**
+[MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Gets the data label for the data point with the specified index. Alternate way to access data label is: - series.getDataPoints().get_Item(i).getLabel() - manage label properties. |
+
+ **Returns:**
+[DataLabel](../datalabel)
+
+
+---
+
+
+### hide {#hide}
+
+| Name | Description |
+| --- | --- |
+| hide () | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this. If data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([DataLabel](../datalabel)) | Returns an index of the specified DataLabel in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | [DataLabel](../datalabel) | DataLabel to find. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### isVisible {#isVisible}
+
+| Name | Description |
+| --- | --- |
+| isVisible () | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only boolean. If data label is visible by default you can make it hidden by default with Hide() method. But if data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### iterator {#iterator}
+
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
+
+ **Returns:**
+
+
+
+---
+
+
+### iteratorJava {#iteratorJava}
+
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
+
+ **Returns:**
+
+
+
+---
+
+
+### setLeaderLinesColor {#setLeaderLinesColor}
+
+| Name | Description |
+| --- | --- |
+| setLeaderLinesColor (Color) | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
+
+ **Returns:**
+void
+
+
+---
+
+

@@ -11,14 +11,81 @@ url: /aspose.slides/updownbarsmanager/
 
  Provide access to up/down bars of Line- or Stock-chart.
  
-
-## Methods
+### getDownBarsFormat {#getDownBarsFormat}
 
 | Name | Description |
 | --- | --- |
-| [getDownBarsFormat](getdownbarsformat)() | Returns the DownBars format. Read-only IFormat. |
-| [getGapWidth](getgapwidth)() | GapWidth. Read/write int. |
-| [getUpBarsFormat](getupbarsformat)() | Returns the UpBars format. Read-only IFormat. |
-| [hasUpDownBars](hasupdownbars)() | HasUpDownBars. Read/write boolean. |
-| [setGapWidth](setgapwidth)(int) | GapWidth. Read/write int. |
-| [setUpDownBars](setupdownbars)(boolean) | HasUpDownBars. Read/write boolean. |
+| getDownBarsFormat () | Returns the DownBars format. Read-only IFormat. |
+
+ **Returns:**
+[Format](../format)
+
+
+---
+
+
+### getGapWidth {#getGapWidth}
+
+| Name | Description |
+| --- | --- |
+| getGapWidth () | GapWidth. Read/write int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getUpBarsFormat {#getUpBarsFormat}
+
+| Name | Description |
+| --- | --- |
+| getUpBarsFormat () | Returns the UpBars format. Read-only IFormat. |
+
+ **Returns:**
+[Format](../format)
+
+
+---
+
+
+### hasUpDownBars {#hasUpDownBars}
+
+| Name | Description |
+| --- | --- |
+| hasUpDownBars () | HasUpDownBars. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### setGapWidth {#setGapWidth}
+
+| Name | Description |
+| --- | --- |
+| setGapWidth (int) | GapWidth. Read/write int. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setUpDownBars {#setUpDownBars}
+
+| Name | Description |
+| --- | --- |
+| setUpDownBars (boolean) | HasUpDownBars. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+

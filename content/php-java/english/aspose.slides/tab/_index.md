@@ -11,20 +11,107 @@ url: /aspose.slides/tab/
 
  Represents a tabulation for a text.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [Tab](tab)(double, int) | Creates new Tab |
-
-## Methods
+### Tab {#Tab}
 
 | Name | Description |
 | --- | --- |
-| [compareTo](compareto)(Object) | Compares the current instance with another object of the same type. |
-| [getAlignment](getalignment)() | Returns or sets align style of a tab. Read/write TabAlignment. |
-| [getPosition](getposition)() | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
-| [getVersion](getversion)() |  |
-| [setAlignment](setalignment)(int) | Returns or sets align style of a tab. Read/write TabAlignment. |
-| [setPosition](setposition)(double) | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
+| Tab(double, int) | Creates new Tab |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| position | double | Tab position. |
+| align | int | Align. |
+
+ **Result:**
+Tab
+
+
+---
+
+
+### compareTo {#compareTo}
+
+| Name | Description |
+| --- | --- |
+| compareTo (Object) | Compares the current instance with another object of the same type. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | An object to compare with this instance. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getAlignment {#getAlignment}
+
+| Name | Description |
+| --- | --- |
+| getAlignment () | Returns or sets align style of a tab. Read/write TabAlignment. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getPosition {#getPosition}
+
+| Name | Description |
+| --- | --- |
+| getPosition () | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
+
+ **Returns:**
+double
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Returns:**
+long
+
+
+---
+
+
+### setAlignment {#setAlignment}
+
+| Name | Description |
+| --- | --- |
+| setAlignment (int) | Returns or sets align style of a tab. Read/write TabAlignment. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setPosition {#setPosition}
+
+| Name | Description |
+| --- | --- |
+| setPosition (double) | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
+
+ **Returns:**
+void
+
+
+---
+
+

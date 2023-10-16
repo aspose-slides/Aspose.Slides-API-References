@@ -16,6 +16,21 @@ url: /aspose.slides/quartilemethodtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Exclusive | 0 | Represents exclusive quartile method. |
-| Inclusive | 1 | Represents inclusive quartile method. |
+[Exclusive](#Exclusive) | 0 | Represents exclusive quartile method. |
+[Inclusive](#Inclusive) | 1 | Represents inclusive quartile method. |
+
+
+---
+
+
+### Exclusive {#Exclusive}
+Represents exclusive quartile method.
+
+---
+
+### Inclusive {#Inclusive}
+Represents inclusive quartile method.
+
+---
+
 

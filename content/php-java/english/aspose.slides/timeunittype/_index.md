@@ -16,8 +16,33 @@ url: /aspose.slides/timeunittype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Values will displayed as is. |
-| Days | 1 | Specifies the chart data shall be shown in days. |
-| Months | 2 | Specifies the chart data shall be shown in months. |
-| Years | 3 | Specifies the chart data shall be shown in years. |
+[None](#None) | 0 | Values will displayed as is. |
+[Days](#Days) | 1 | Specifies the chart data shall be shown in days. |
+[Months](#Months) | 2 | Specifies the chart data shall be shown in months. |
+[Years](#Years) | 3 | Specifies the chart data shall be shown in years. |
+
+
+---
+
+
+### None {#None}
+Values will displayed as is.
+
+---
+
+### Days {#Days}
+Specifies the chart data shall be shown in days.
+
+---
+
+### Months {#Months}
+Specifies the chart data shall be shown in months.
+
+---
+
+### Years {#Years}
+Specifies the chart data shall be shown in years.
+
+---
+
 
