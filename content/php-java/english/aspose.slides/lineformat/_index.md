@@ -11,43 +11,464 @@ url: /aspose.slides/lineformat/
 
  Represents format of a line.
  
-
-## Methods
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) |  |
-| [equals](equals)([LineFormat](../lineformat)) | Determines whether the two LineFormat instances are equal. |
-| [getAlignment](getalignment)() | Returns or sets the line alignment. Read/write LineAlignment. |
-| [getBeginArrowheadLength](getbeginarrowheadlength)() | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
-| [getBeginArrowheadStyle](getbeginarrowheadstyle)() | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
-| [getBeginArrowheadWidth](getbeginarrowheadwidth)() | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
-| [getCapStyle](getcapstyle)() | Returns or sets the line cap style. Read/write LineCapStyle. |
-| [getCustomDashPattern](getcustomdashpattern)() | Returns or sets the custom dash pattern. Read/write float[]. |
-| [getDashStyle](getdashstyle)() | Returns or sets the line dash style. Read/write LineDashStyle. |
-| [getEffective](geteffective)() | Gets effective line formatting data with the inheritance applied. |
-| [getEndArrowheadLength](getendarrowheadlength)() | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
-| [getEndArrowheadStyle](getendarrowheadstyle)() | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
-| [getEndArrowheadWidth](getendarrowheadwidth)() | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
-| [getFillFormat](getfillformat)() | Returns the fill format of a line. Read-only ILineFillFormat. |
-| [getJoinStyle](getjoinstyle)() | Returns or sets the lines join style. Read/write LineJoinStyle. |
-| [getMiterLimit](getmiterlimit)() | Returns or sets the miter limit of a line. Read/write float. |
-| [getSketchFormat](getsketchformat)() | Returns the sketch format of a line. Read-only ILineFillFormat. |
-| [getStyle](getstyle)() | Returns or sets the line style. Read/write LineStyle. |
-| [getVersion](getversion)() |  |
-| [getWidth](getwidth)() | Returns or sets the width of a line. Read/write double. |
-| [isFormatNotDefined](isformatnotdefined)() | Returns true if line format is not defined (as just created, default). Read-only boolean. |
-| [setAlignment](setalignment)(byte) | Returns or sets the line alignment. Read/write LineAlignment. |
-| [setBeginArrowheadLength](setbeginarrowheadlength)(byte) | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
-| [setBeginArrowheadStyle](setbeginarrowheadstyle)(byte) | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
-| [setBeginArrowheadWidth](setbeginarrowheadwidth)(byte) | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
-| [setCapStyle](setcapstyle)(byte) | Returns or sets the line cap style. Read/write LineCapStyle. |
-| [setCustomDashPattern](setcustomdashpattern)(float[]) | Returns or sets the custom dash pattern. Read/write float[]. |
-| [setDashStyle](setdashstyle)(byte) | Returns or sets the line dash style. Read/write LineDashStyle. |
-| [setEndArrowheadLength](setendarrowheadlength)(byte) | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
-| [setEndArrowheadStyle](setendarrowheadstyle)(byte) | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
-| [setEndArrowheadWidth](setendarrowheadwidth)(byte) | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
-| [setJoinStyle](setjoinstyle)(byte) | Returns or sets the lines join style. Read/write LineJoinStyle. |
-| [setMiterLimit](setmiterlimit)(float) | Returns or sets the miter limit of a line. Read/write float. |
-| [setStyle](setstyle)(byte) | Returns or sets the line style. Read/write LineStyle. |
-| [setWidth](setwidth)(double) | Returns or sets the width of a line. Read/write double. |
+| equals (Object) |  |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### equals {#equals}
+
+| Name | Description |
+| --- | --- |
+| equals ([LineFormat](../lineformat)) | Determines whether the two LineFormat instances are equal. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| lineFormat | [LineFormat](../lineformat) | The LineFormat to compare with the current LineFormat. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getAlignment {#getAlignment}
+
+| Name | Description |
+| --- | --- |
+| getAlignment () | Returns or sets the line alignment. Read/write LineAlignment. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getBeginArrowheadLength {#getBeginArrowheadLength}
+
+| Name | Description |
+| --- | --- |
+| getBeginArrowheadLength () | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getBeginArrowheadStyle {#getBeginArrowheadStyle}
+
+| Name | Description |
+| --- | --- |
+| getBeginArrowheadStyle () | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getBeginArrowheadWidth {#getBeginArrowheadWidth}
+
+| Name | Description |
+| --- | --- |
+| getBeginArrowheadWidth () | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getCapStyle {#getCapStyle}
+
+| Name | Description |
+| --- | --- |
+| getCapStyle () | Returns or sets the line cap style. Read/write LineCapStyle. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getCustomDashPattern {#getCustomDashPattern}
+
+| Name | Description |
+| --- | --- |
+| getCustomDashPattern () | Returns or sets the custom dash pattern. Read/write float[]. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getDashStyle {#getDashStyle}
+
+| Name | Description |
+| --- | --- |
+| getDashStyle () | Returns or sets the line dash style. Read/write LineDashStyle. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getEffective {#getEffective}
+
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective line formatting data with the inheritance applied. |
+
+ **Returns:**
+LineFormatEffectiveData
+
+
+---
+
+
+### getEndArrowheadLength {#getEndArrowheadLength}
+
+| Name | Description |
+| --- | --- |
+| getEndArrowheadLength () | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getEndArrowheadStyle {#getEndArrowheadStyle}
+
+| Name | Description |
+| --- | --- |
+| getEndArrowheadStyle () | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getEndArrowheadWidth {#getEndArrowheadWidth}
+
+| Name | Description |
+| --- | --- |
+| getEndArrowheadWidth () | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getFillFormat {#getFillFormat}
+
+| Name | Description |
+| --- | --- |
+| getFillFormat () | Returns the fill format of a line. Read-only ILineFillFormat. |
+
+ **Returns:**
+[LineFillFormat](../linefillformat)
+
+
+---
+
+
+### getJoinStyle {#getJoinStyle}
+
+| Name | Description |
+| --- | --- |
+| getJoinStyle () | Returns or sets the lines join style. Read/write LineJoinStyle. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getMiterLimit {#getMiterLimit}
+
+| Name | Description |
+| --- | --- |
+| getMiterLimit () | Returns or sets the miter limit of a line. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getSketchFormat {#getSketchFormat}
+
+| Name | Description |
+| --- | --- |
+| getSketchFormat () | Returns the sketch format of a line. Read-only ILineFillFormat. |
+
+ **Returns:**
+[SketchFormat](../sketchformat)
+
+
+---
+
+
+### getStyle {#getStyle}
+
+| Name | Description |
+| --- | --- |
+| getStyle () | Returns or sets the line style. Read/write LineStyle. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Returns:**
+long
+
+
+---
+
+
+### getWidth {#getWidth}
+
+| Name | Description |
+| --- | --- |
+| getWidth () | Returns or sets the width of a line. Read/write double. |
+
+ **Returns:**
+double
+
+
+---
+
+
+### isFormatNotDefined {#isFormatNotDefined}
+
+| Name | Description |
+| --- | --- |
+| isFormatNotDefined () | Returns true if line format is not defined (as just created, default). Read-only boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### setAlignment {#setAlignment}
+
+| Name | Description |
+| --- | --- |
+| setAlignment (byte) | Returns or sets the line alignment. Read/write LineAlignment. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setBeginArrowheadLength {#setBeginArrowheadLength}
+
+| Name | Description |
+| --- | --- |
+| setBeginArrowheadLength (byte) | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setBeginArrowheadStyle {#setBeginArrowheadStyle}
+
+| Name | Description |
+| --- | --- |
+| setBeginArrowheadStyle (byte) | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setBeginArrowheadWidth {#setBeginArrowheadWidth}
+
+| Name | Description |
+| --- | --- |
+| setBeginArrowheadWidth (byte) | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setCapStyle {#setCapStyle}
+
+| Name | Description |
+| --- | --- |
+| setCapStyle (byte) | Returns or sets the line cap style. Read/write LineCapStyle. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setCustomDashPattern {#setCustomDashPattern}
+
+| Name | Description |
+| --- | --- |
+| setCustomDashPattern (float[]) | Returns or sets the custom dash pattern. Read/write float[]. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setDashStyle {#setDashStyle}
+
+| Name | Description |
+| --- | --- |
+| setDashStyle (byte) | Returns or sets the line dash style. Read/write LineDashStyle. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setEndArrowheadLength {#setEndArrowheadLength}
+
+| Name | Description |
+| --- | --- |
+| setEndArrowheadLength (byte) | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setEndArrowheadStyle {#setEndArrowheadStyle}
+
+| Name | Description |
+| --- | --- |
+| setEndArrowheadStyle (byte) | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setEndArrowheadWidth {#setEndArrowheadWidth}
+
+| Name | Description |
+| --- | --- |
+| setEndArrowheadWidth (byte) | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setJoinStyle {#setJoinStyle}
+
+| Name | Description |
+| --- | --- |
+| setJoinStyle (byte) | Returns or sets the lines join style. Read/write LineJoinStyle. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setMiterLimit {#setMiterLimit}
+
+| Name | Description |
+| --- | --- |
+| setMiterLimit (float) | Returns or sets the miter limit of a line. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setStyle {#setStyle}
+
+| Name | Description |
+| --- | --- |
+| setStyle (byte) | Returns or sets the line style. Read/write LineStyle. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setWidth {#setWidth}
+
+| Name | Description |
+| --- | --- |
+| setWidth (double) | Returns or sets the width of a line. Read/write double. |
+
+ **Returns:**
+void
+
+
+---
+
+

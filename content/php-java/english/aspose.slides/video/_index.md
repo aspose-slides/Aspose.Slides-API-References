@@ -11,11 +11,42 @@ url: /aspose.slides/video/
 
  Represents an image embedded into a presentation.
  
-
-## Methods
+### getBinaryData {#getBinaryData}
 
 | Name | Description |
 | --- | --- |
-| [getBinaryData](getbinarydata)() | Returns the copy of an audio's data. In case of large amount of data consider using of #getStream method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only byte[]. |
-| [getContentType](getcontenttype)() | Returns a MIME type of an video, encoded in ( #getBinaryData). Read-only String. |
-| [getStream](getstream)() | Returns Stream stream for reading. Use 'using' or close stream after using. |
+| getBinaryData () | Returns the copy of an audio's data. In case of large amount of data consider using of #getStream method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only byte[]. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getContentType {#getContentType}
+
+| Name | Description |
+| --- | --- |
+| getContentType () | Returns a MIME type of an video, encoded in ( #getBinaryData). Read-only String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getStream {#getStream}
+
+| Name | Description |
+| --- | --- |
+| getStream () | Returns Stream stream for reading. Use 'using' or close stream after using. |
+
+ **Returns:**
+InputStream
+
+
+---
+
+

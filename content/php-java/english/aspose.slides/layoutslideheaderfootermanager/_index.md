@@ -13,13 +13,98 @@ url: /aspose.slides/layoutslideheaderfootermanager/
  Child placeholders mean placeholders are contained on depending slides.
  Depending slides use and depend on layout slide.
  
-
-## Methods
+### setDateTimeAndChildDateTimesText {#setDateTimeAndChildDateTimesText}
 
 | Name | Description |
 | --- | --- |
-| [setDateTimeAndChildDateTimesText](setdatetimeandchilddatetimestext)(String) | Sets text to layout slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
-| [setDateTimeAndChildDateTimesVisibility](setdatetimeandchilddatetimesvisibility)(boolean) | Changes layout slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
-| [setFooterAndChildFootersText](setfooterandchildfooterstext)(String) | Sets text to layout slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
-| [setFooterAndChildFootersVisibility](setfooterandchildfootersvisibility)(boolean) | Changes layout slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on master slide. |
-| [setSlideNumberAndChildSlideNumbersVisibility](setslidenumberandchildslidenumbersvisibility)(boolean) | Changes layout slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+| setDateTimeAndChildDateTimesText (String) | Sets text to layout slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setDateTimeAndChildDateTimesVisibility {#setDateTimeAndChildDateTimesVisibility}
+
+| Name | Description |
+| --- | --- |
+| setDateTimeAndChildDateTimesVisibility (boolean) | Changes layout slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| isVisible | boolean | true - makes a date-time placeholders visible, otherwise - hides them. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setFooterAndChildFootersText {#setFooterAndChildFootersText}
+
+| Name | Description |
+| --- | --- |
+| setFooterAndChildFootersText (String) | Sets text to layout slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setFooterAndChildFootersVisibility {#setFooterAndChildFootersVisibility}
+
+| Name | Description |
+| --- | --- |
+| setFooterAndChildFootersVisibility (boolean) | Changes layout slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on master slide. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| isVisible | boolean | true - makes a footer placeholders visible, otherwise - hides them. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlideNumberAndChildSlideNumbersVisibility {#setSlideNumberAndChildSlideNumbersVisibility}
+
+| Name | Description |
+| --- | --- |
+| setSlideNumberAndChildSlideNumbersVisibility (boolean) | Changes layout slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| isVisible | boolean | true - makes a page number placeholders visible, otherwise - hides them. |
+
+ **Returns:**
+void
+
+
+---
+
+

@@ -16,7 +16,27 @@ url: /aspose.slides/linealignment/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Center | 0 |  |
-| Inset | 1 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Center](#Center) | 0 |  |
+[Inset](#Inset) | 1 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+
+
+---
+
+### Center {#Center}
+
+
+---
+
+### Inset {#Inset}
+
+
+---
+
 

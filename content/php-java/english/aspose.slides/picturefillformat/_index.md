@@ -11,30 +11,289 @@ url: /aspose.slides/picturefillformat/
 
  Represents a picture fill style.
  
-
-## Methods
+### getCropBottom {#getCropBottom}
 
 | Name | Description |
 | --- | --- |
-| [getCropBottom](getcropbottom)() | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write float. |
-| [getCropLeft](getcropleft)() | Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write float. |
-| [getCropRight](getcropright)() | Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write float. |
-| [getCropTop](getcroptop)() | Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write float. |
-| [getDpi](getdpi)() | Returns or sets the dpi which is used to fill a picture. Read/write int. |
-| [getPicture](getpicture)() | Returns the picture. Read-only ISlidesPicture. |
-| [getPictureFillMode](getpicturefillmode)() | Returns or sets the picture fill mode. Read/write PictureFillMode. |
-| [getStretchOffsetBottom](getstretchoffsetbottom)() | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
-| [getStretchOffsetLeft](getstretchoffsetleft)() | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
-| [getStretchOffsetRight](getstretchoffsetright)() | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
-| [getStretchOffsetTop](getstretchoffsettop)() | Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
-| [getVersion](getversion)() |  |
-| [setCropBottom](setcropbottom)(float) | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write float. |
-| [setCropLeft](setcropleft)(float) | Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write float. |
-| [setCropRight](setcropright)(float) | Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write float. |
-| [setCropTop](setcroptop)(float) | Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write float. |
-| [setDpi](setdpi)(int) | Returns or sets the dpi which is used to fill a picture. Read/write int. |
-| [setPictureFillMode](setpicturefillmode)(int) | Returns or sets the picture fill mode. Read/write PictureFillMode. |
-| [setStretchOffsetBottom](setstretchoffsetbottom)(float) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
-| [setStretchOffsetLeft](setstretchoffsetleft)(float) | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
-| [setStretchOffsetRight](setstretchoffsetright)(float) | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
-| [setStretchOffsetTop](setstretchoffsettop)(float) | Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+| getCropBottom () | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getCropLeft {#getCropLeft}
+
+| Name | Description |
+| --- | --- |
+| getCropLeft () | Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getCropRight {#getCropRight}
+
+| Name | Description |
+| --- | --- |
+| getCropRight () | Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getCropTop {#getCropTop}
+
+| Name | Description |
+| --- | --- |
+| getCropTop () | Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getDpi {#getDpi}
+
+| Name | Description |
+| --- | --- |
+| getDpi () | Returns or sets the dpi which is used to fill a picture. Read/write int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getPicture {#getPicture}
+
+| Name | Description |
+| --- | --- |
+| getPicture () | Returns the picture. Read-only ISlidesPicture. |
+
+ **Returns:**
+[Picture](../picture)
+
+
+---
+
+
+### getPictureFillMode {#getPictureFillMode}
+
+| Name | Description |
+| --- | --- |
+| getPictureFillMode () | Returns or sets the picture fill mode. Read/write PictureFillMode. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getStretchOffsetBottom {#getStretchOffsetBottom}
+
+| Name | Description |
+| --- | --- |
+| getStretchOffsetBottom () | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getStretchOffsetLeft {#getStretchOffsetLeft}
+
+| Name | Description |
+| --- | --- |
+| getStretchOffsetLeft () | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getStretchOffsetRight {#getStretchOffsetRight}
+
+| Name | Description |
+| --- | --- |
+| getStretchOffsetRight () | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getStretchOffsetTop {#getStretchOffsetTop}
+
+| Name | Description |
+| --- | --- |
+| getStretchOffsetTop () | Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Returns:**
+long
+
+
+---
+
+
+### setCropBottom {#setCropBottom}
+
+| Name | Description |
+| --- | --- |
+| setCropBottom (float) | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setCropLeft {#setCropLeft}
+
+| Name | Description |
+| --- | --- |
+| setCropLeft (float) | Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setCropRight {#setCropRight}
+
+| Name | Description |
+| --- | --- |
+| setCropRight (float) | Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setCropTop {#setCropTop}
+
+| Name | Description |
+| --- | --- |
+| setCropTop (float) | Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setDpi {#setDpi}
+
+| Name | Description |
+| --- | --- |
+| setDpi (int) | Returns or sets the dpi which is used to fill a picture. Read/write int. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setPictureFillMode {#setPictureFillMode}
+
+| Name | Description |
+| --- | --- |
+| setPictureFillMode (int) | Returns or sets the picture fill mode. Read/write PictureFillMode. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setStretchOffsetBottom {#setStretchOffsetBottom}
+
+| Name | Description |
+| --- | --- |
+| setStretchOffsetBottom (float) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setStretchOffsetLeft {#setStretchOffsetLeft}
+
+| Name | Description |
+| --- | --- |
+| setStretchOffsetLeft (float) | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setStretchOffsetRight {#setStretchOffsetRight}
+
+| Name | Description |
+| --- | --- |
+| setStretchOffsetRight (float) | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setStretchOffsetTop {#setStretchOffsetTop}
+
+| Name | Description |
+| --- | --- |
+| setStretchOffsetTop (float) | Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+

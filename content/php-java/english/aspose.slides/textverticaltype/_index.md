@@ -16,12 +16,57 @@ url: /aspose.slides/textverticaltype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 | Not defined. |
-| Horizontal | 0 | Horizontal text. |
-| Vertical | 1 | Vertical text. |
-| Vertical270 | 2 | Vertical 270 degrees text. |
-| WordArtVertical | 3 | WordArt vertical text. |
-| EastAsianVertical | 4 | East asian vertical text. |
-| MongolianVertical | 5 | Mongolian vertical text. |
-| WordArtVerticalRightToLeft | 6 | WordArt vertical right to left text. |
+[NotDefined](#NotDefined) | -1 | Not defined. |
+[Horizontal](#Horizontal) | 0 | Horizontal text. |
+[Vertical](#Vertical) | 1 | Vertical text. |
+[Vertical270](#Vertical270) | 2 | Vertical 270 degrees text. |
+[WordArtVertical](#WordArtVertical) | 3 | WordArt vertical text. |
+[EastAsianVertical](#EastAsianVertical) | 4 | East asian vertical text. |
+[MongolianVertical](#MongolianVertical) | 5 | Mongolian vertical text. |
+[WordArtVerticalRightToLeft](#WordArtVerticalRightToLeft) | 6 | WordArt vertical right to left text. |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+Not defined.
+
+---
+
+### Horizontal {#Horizontal}
+Horizontal text.
+
+---
+
+### Vertical {#Vertical}
+Vertical text.
+
+---
+
+### Vertical270 {#Vertical270}
+Vertical 270 degrees text.
+
+---
+
+### WordArtVertical {#WordArtVertical}
+WordArt vertical text.
+
+---
+
+### EastAsianVertical {#EastAsianVertical}
+East asian vertical text.
+
+---
+
+### MongolianVertical {#MongolianVertical}
+Mongolian vertical text.
+
+---
+
+### WordArtVerticalRightToLeft {#WordArtVerticalRightToLeft}
+WordArt vertical right to left text.
+
+---
+
 

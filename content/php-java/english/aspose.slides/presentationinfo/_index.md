@@ -11,18 +11,169 @@ url: /aspose.slides/presentationinfo/
 
  Information about presentation file
  
-
-## Methods
+### checkPassword {#checkPassword}
 
 | Name | Description |
 | --- | --- |
-| [checkPassword](checkpassword)(String) | Checks whether a password is correct for a presentation protected with open password. |
-| [checkWriteProtection](checkwriteprotection)(String) | Checks whether a password to modify is correct for a write protected presentation. |
-| [getLoadFormat](getloadformat)() | Gets format of the binded presentation. Read-only LoadFormat. |
-| [isEncrypted](isencrypted)() | Gets True if binded presentation is encrypted, otherwise False. Read-only boolean. |
-| [isPasswordProtected](ispasswordprotected)() | Gets a value that indicates whether a binded presentation is protected by a password to open. |
-| [isWriteProtected](iswriteprotected)() | Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
-| [readDocumentProperties](readdocumentproperties)() | Gets document properties of binded presentation. |
-| [updateDocumentProperties](updatedocumentproperties)([DocumentProperties](../documentproperties)) | Updates properties of binded presentation. |
-| [writeBindedPresentation](writebindedpresentation)(OutputStream) | Writes binded presentation to stream. |
-| [writeBindedPresentation](writebindedpresentation)(String) | Writes binded presentation to file. |
+| checkPassword (String) | Checks whether a password is correct for a presentation protected with open password. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| password | String | The password to check. When the password is null or empty, this method returns false. |
+
+ **Returns:**
+boolean
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | if format is not supported to check passwords. |
+
+
+---
+
+
+### checkWriteProtection {#checkWriteProtection}
+
+| Name | Description |
+| --- | --- |
+| checkWriteProtection (String) | Checks whether a password to modify is correct for a write protected presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| password | String | The password to check. 1. You should check the ( #isWriteProtected) property before calling this method. 2. When password is null or empty, this method returns false. |
+
+ **Returns:**
+boolean
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | If a presentation is protected by a password to open or format does not support write protection |
+
+
+---
+
+
+### getLoadFormat {#getLoadFormat}
+
+| Name | Description |
+| --- | --- |
+| getLoadFormat () | Gets format of the binded presentation. Read-only LoadFormat. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### isEncrypted {#isEncrypted}
+
+| Name | Description |
+| --- | --- |
+| isEncrypted () | Gets True if binded presentation is encrypted, otherwise False. Read-only boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### isPasswordProtected {#isPasswordProtected}
+
+| Name | Description |
+| --- | --- |
+| isPasswordProtected () | Gets a value that indicates whether a binded presentation is protected by a password to open. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### isWriteProtected {#isWriteProtected}
+
+| Name | Description |
+| --- | --- |
+| isWriteProtected () | Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### readDocumentProperties {#readDocumentProperties}
+
+| Name | Description |
+| --- | --- |
+| readDocumentProperties () | Gets document properties of binded presentation. |
+
+ **Returns:**
+[DocumentProperties](../documentproperties)
+
+
+---
+
+
+### updateDocumentProperties {#updateDocumentProperties}
+
+| Name | Description |
+| --- | --- |
+| updateDocumentProperties ([DocumentProperties](../documentproperties)) | Updates properties of binded presentation. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeBindedPresentation {#writeBindedPresentation}
+
+| Name | Description |
+| --- | --- |
+| writeBindedPresentation (OutputStream) | Writes binded presentation to stream. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | The stream must be seekable and writable. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeBindedPresentation {#writeBindedPresentation}
+
+| Name | Description |
+| --- | --- |
+| writeBindedPresentation (String) | Writes binded presentation to file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| file | String | Presentation file. |
+
+ **Returns:**
+void
+
+
+---
+
+

@@ -16,8 +16,33 @@ url: /aspose.slides/effectrestarttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Always | 0 |  |
-| WhenNotActive | 1 |  |
-| Never | 2 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Always](#Always) | 0 |  |
+[WhenNotActive](#WhenNotActive) | 1 |  |
+[Never](#Never) | 2 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+
+
+---
+
+### Always {#Always}
+
+
+---
+
+### WhenNotActive {#WhenNotActive}
+
+
+---
+
+### Never {#Never}
+
+
+---
+
 

@@ -11,13 +11,68 @@ url: /aspose.slides/format/
 
  Represents chart format properties.
  
-
-## Methods
+### getEffect {#getEffect}
 
 | Name | Description |
 | --- | --- |
-| [getEffect](geteffect)() | Returns effects used for a chart. Read-only IEffectFormat. |
-| [getEffect3D](geteffect3d)() | Returns 3D format of a chart. Read-only IThreeDFormat. |
-| [getFill](getfill)() | Returns fill style properties of a chart. Read-only IFillFormat. |
-| [getLine](getline)() | Returns line style properties of a chart. Read-only ILineFormat. |
-| [getVersion](getversion)() |  |
+| getEffect () | Returns effects used for a chart. Read-only IEffectFormat. |
+
+ **Returns:**
+[EffectFormat](../effectformat)
+
+
+---
+
+
+### getEffect3D {#getEffect3D}
+
+| Name | Description |
+| --- | --- |
+| getEffect3D () | Returns 3D format of a chart. Read-only IThreeDFormat. |
+
+ **Returns:**
+[ThreeDFormat](../threedformat)
+
+
+---
+
+
+### getFill {#getFill}
+
+| Name | Description |
+| --- | --- |
+| getFill () | Returns fill style properties of a chart. Read-only IFillFormat. |
+
+ **Returns:**
+[FillFormat](../fillformat)
+
+
+---
+
+
+### getLine {#getLine}
+
+| Name | Description |
+| --- | --- |
+| getLine () | Returns line style properties of a chart. Read-only ILineFormat. |
+
+ **Returns:**
+[LineFormat](../lineformat)
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Returns:**
+long
+
+
+---
+
+

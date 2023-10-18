@@ -11,20 +11,94 @@ url: /aspose.slides/rotationeffect/
 
  Represent rotation behavior of effect.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [RotationEffect](rotationeffect)() |  |
-
-## Methods
+### RotationEffect {#RotationEffect}
 
 | Name | Description |
 | --- | --- |
-| [getBy](getby)() | Describes the relative offset value for the animation. Read/write float. |
-| [getFrom](getfrom)() | Describes the starting value for the animation. Read/write float. |
-| [getTo](getto)() | Describes the ending value for the animation. Read/write float. |
-| [setBy](setby)(float) | Describes the relative offset value for the animation. Read/write float. |
-| [setFrom](setfrom)(float) | Describes the starting value for the animation. Read/write float. |
-| [setTo](setto)(float) | Describes the ending value for the animation. Read/write float. |
+| RotationEffect() |  |
+
+ **Result:**
+RotationEffect
+
+
+---
+
+
+### getBy {#getBy}
+
+| Name | Description |
+| --- | --- |
+| getBy () | Describes the relative offset value for the animation. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getFrom {#getFrom}
+
+| Name | Description |
+| --- | --- |
+| getFrom () | Describes the starting value for the animation. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getTo {#getTo}
+
+| Name | Description |
+| --- | --- |
+| getTo () | Describes the ending value for the animation. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### setBy {#setBy}
+
+| Name | Description |
+| --- | --- |
+| setBy (float) | Describes the relative offset value for the animation. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setFrom {#setFrom}
+
+| Name | Description |
+| --- | --- |
+| setFrom (float) | Describes the starting value for the animation. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setTo {#setTo}
+
+| Name | Description |
+| --- | --- |
+| setTo (float) | Describes the ending value for the animation. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+

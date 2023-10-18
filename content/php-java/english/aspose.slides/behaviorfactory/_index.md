@@ -13,22 +13,120 @@ url: /aspose.slides/behaviorfactory/
  
  For COM compatibility.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [BehaviorFactory](behaviorfactory)() |  |
-
-## Methods
+### BehaviorFactory {#BehaviorFactory}
 
 | Name | Description |
 | --- | --- |
-| [createColorEffect](createcoloreffect)() | Creates color effect. |
-| [createCommandEffect](createcommandeffect)() | Creates command effect. |
-| [createFilterEffect](createfiltereffect)() | Creates filter effect. |
-| [createMotionEffect](createmotioneffect)() | Creates motion effect. |
-| [createPropertyEffect](createpropertyeffect)() | Creates property effect. |
-| [createRotationEffect](createrotationeffect)() | Creates rotation effect. |
-| [createScaleEffect](createscaleeffect)() | Creates scale effect. |
-| [createSetEffect](createseteffect)() | Creates set effect. |
+| BehaviorFactory() |  |
+
+ **Result:**
+BehaviorFactory
+
+
+---
+
+
+### createColorEffect {#createColorEffect}
+
+| Name | Description |
+| --- | --- |
+| createColorEffect () | Creates color effect. |
+
+ **Returns:**
+[ColorEffect](../coloreffect)
+
+
+---
+
+
+### createCommandEffect {#createCommandEffect}
+
+| Name | Description |
+| --- | --- |
+| createCommandEffect () | Creates command effect. |
+
+ **Returns:**
+[CommandEffect](../commandeffect)
+
+
+---
+
+
+### createFilterEffect {#createFilterEffect}
+
+| Name | Description |
+| --- | --- |
+| createFilterEffect () | Creates filter effect. |
+
+ **Returns:**
+[FilterEffect](../filtereffect)
+
+
+---
+
+
+### createMotionEffect {#createMotionEffect}
+
+| Name | Description |
+| --- | --- |
+| createMotionEffect () | Creates motion effect. |
+
+ **Returns:**
+[MotionEffect](../motioneffect)
+
+
+---
+
+
+### createPropertyEffect {#createPropertyEffect}
+
+| Name | Description |
+| --- | --- |
+| createPropertyEffect () | Creates property effect. |
+
+ **Returns:**
+[PropertyEffect](../propertyeffect)
+
+
+---
+
+
+### createRotationEffect {#createRotationEffect}
+
+| Name | Description |
+| --- | --- |
+| createRotationEffect () | Creates rotation effect. |
+
+ **Returns:**
+[RotationEffect](../rotationeffect)
+
+
+---
+
+
+### createScaleEffect {#createScaleEffect}
+
+| Name | Description |
+| --- | --- |
+| createScaleEffect () | Creates scale effect. |
+
+ **Returns:**
+[ScaleEffect](../scaleeffect)
+
+
+---
+
+
+### createSetEffect {#createSetEffect}
+
+| Name | Description |
+| --- | --- |
+| createSetEffect () | Creates set effect. |
+
+ **Returns:**
+[SetEffect](../seteffect)
+
+
+---
+
+

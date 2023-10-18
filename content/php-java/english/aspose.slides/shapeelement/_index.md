@@ -11,12 +11,55 @@ url: /aspose.slides/shapeelement/
 
  Represents a part of shape with same outline and fill properties.
  
-
-## Methods
+### getFillSource {#getFillSource}
 
 | Name | Description |
 | --- | --- |
-| [getFillSource](getfillsource)() | Returns information about how to fill an element. Read-only ShapeElementFillSource. |
-| [getGraphicsPath](getgraphicspath)() | Returns an element's path. Read-only java.awt.geom.GeneralPath. |
-| [getParentShape](getparentshape)() | Returns a Shape_PPT for which element was created. Read-only Shape. |
-| [getStrokeSource](getstrokesource)() | Returns information about how to stroke an element. Read-only ShapeElementStrokeSource. |
+| getFillSource () | Returns information about how to fill an element. Read-only ShapeElementFillSource. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getGraphicsPath {#getGraphicsPath}
+
+| Name | Description |
+| --- | --- |
+| getGraphicsPath () | Returns an element's path. Read-only java.awt.geom.GeneralPath. |
+
+ **Returns:**
+Shape
+
+
+---
+
+
+### getParentShape {#getParentShape}
+
+| Name | Description |
+| --- | --- |
+| getParentShape () | Returns a Shape_PPT for which element was created. Read-only Shape. |
+
+ **Returns:**
+Shape
+
+
+---
+
+
+### getStrokeSource {#getStrokeSource}
+
+| Name | Description |
+| --- | --- |
+| getStrokeSource () | Returns information about how to stroke an element. Read-only ShapeElementStrokeSource. |
+
+ **Returns:**
+byte
+
+
+---
+
+

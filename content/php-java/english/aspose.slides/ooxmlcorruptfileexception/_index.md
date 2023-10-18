@@ -11,11 +11,55 @@ url: /aspose.slides/ooxmlcorruptfileexception/
 
  Exception which thrown when Office Open XML file format is corrupted.
  
-
-## Constructors
+### OOXMLCorruptFileException {#OOXMLCorruptFileException}
 
 | Name | Description |
 | --- | --- |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception)() | Default constructor. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception)(String) | Constructor allowing a message to be added to this exception. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| OOXMLCorruptFileException() | Default function. |
+
+ **Result:**
+OOXMLCorruptFileException
+
+
+---
+
+
+### OOXMLCorruptFileException {#OOXMLCorruptFileException}
+
+| Name | Description |
+| --- | --- |
+| OOXMLCorruptFileException(String) | Constructor allowing a message to be added to this exception. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
+ **Result:**
+OOXMLCorruptFileException
+
+
+---
+
+
+### OOXMLCorruptFileException {#OOXMLCorruptFileException}
+
+| Name | Description |
+| --- | --- |
+| OOXMLCorruptFileException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | RuntimeException | original exception |
+
+ **Result:**
+OOXMLCorruptFileException
+
+
+---
+
+

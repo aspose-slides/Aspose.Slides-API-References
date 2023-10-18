@@ -11,12 +11,55 @@ url: /aspose.slides/flythroughtransition/
 
  Fly-through slide transition effect.
  
-
-## Methods
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
-| [getDirection](getdirection)() | Direction of transition. Read/write TransitionInOutDirectionType. |
-| [hasBounce](hasbounce)() | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write boolean. |
-| [setBounce](setbounce)(boolean) | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write boolean. |
-| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionInOutDirectionType. |
+| getDirection () | Direction of transition. Read/write TransitionInOutDirectionType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### hasBounce {#hasBounce}
+
+| Name | Description |
+| --- | --- |
+| hasBounce () | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### setBounce {#setBounce}
+
+| Name | Description |
+| --- | --- |
+| setBounce (boolean) | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setDirection {#setDirection}
+
+| Name | Description |
+| --- | --- |
+| setDirection (int) | Direction of transition. Read/write TransitionInOutDirectionType. |
+
+ **Returns:**
+void
+
+
+---
+
+

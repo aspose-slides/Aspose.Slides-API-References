@@ -47,6 +47,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [BehaviorPropertyCollection](behaviorpropertycollection) | Represents timing properties for the effect behavior. |
 | [BevelPresetType](bevelpresettype) | Constants which define 3D bevel of shape. |
 | [BiLevel](bilevel) | Represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect. |
+| [BlackWhiteConversionMode](blackwhiteconversionmode) | Provides options that control how slides' images will be converted to bitonal images. |
 | [BlackWhiteMode](blackwhitemode) | Determines how colored shape should be transformed into black and white. |
 | [BlobManagementOptions](blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
 | [Blur](blur) | Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
@@ -244,6 +245,8 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [ImageTransformOperationFactory](imagetransformoperationfactory) | Allows to create image transform operations For COM compatibility. |
 | [InOutTransition](inouttransition) | In-Out slide transition effect. |
 | [Ink](ink) | Represents an ink object on a slide. |
+| [InkBrush](inkbrush) | Represents an inkBrush object. |
+| [InkTrace](inktrace) | Represents an Trace object. A Trace element is used to record the data captured by the digitizer. It contains a sequence of points encoded according to the specification given by the InkTraceFormat object. |
 | [InnerShadow](innershadow) | Represents a Inner Shadow effect. |
 | [Input](input) | Represents a collection of input elements (templates). |
 | [InterruptionToken](interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |

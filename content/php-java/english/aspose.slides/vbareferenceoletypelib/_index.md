@@ -11,18 +11,68 @@ url: /aspose.slides/vbareferenceoletypelib/
 
  Represents OLE Automation type library reference.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(String, String) | This constructor creates new OLE Automation type library reference. |
-
-## Methods
+### VbaReferenceOleTypeLib {#VbaReferenceOleTypeLib}
 
 | Name | Description |
 | --- | --- |
-| [getLibid](getlibid)() | Represents the identifier of an Automation type library. Read/write String. |
-| [getName](getname)() | Represents the name of the VBA project reference. Read/write String. |
-| [setLibid](setlibid)(String) | Represents the identifier of an Automation type library. Read/write String. |
-| [setName](setname)(String) | Represents the name of the VBA project reference. Read/write String. |
+| VbaReferenceOleTypeLib(String, String) | This function creates new OLE Automation type library reference. |
+
+ **Result:**
+VbaReferenceOleTypeLib
+
+
+---
+
+
+### getLibid {#getLibid}
+
+| Name | Description |
+| --- | --- |
+| getLibid () | Represents the identifier of an Automation type library. Read/write String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getName {#getName}
+
+| Name | Description |
+| --- | --- |
+| getName () | Represents the name of the VBA project reference. Read/write String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### setLibid {#setLibid}
+
+| Name | Description |
+| --- | --- |
+| setLibid (String) | Represents the identifier of an Automation type library. Read/write String. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setName {#setName}
+
+| Name | Description |
+| --- | --- |
+| setName (String) | Represents the name of the VBA project reference. Read/write String. |
+
+ **Returns:**
+void
+
+
+---
+
+

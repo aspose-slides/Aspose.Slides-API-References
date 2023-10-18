@@ -11,14 +11,81 @@ url: /aspose.slides/legendentryproperties/
 
  Represents legend properties of a chart.
  
-
-## Methods
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
-| [getChart](getchart)() | Returns the parent chart. Read-only IChart. |
-| [getHide](gethide)() | Determines whether the legend entry is hide. Read/write boolean. |
-| [getPresentation](getpresentation)() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
-| [getSlide](getslide)() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
-| [getTextFormat](gettextformat)() | Returns text format. Read-only IChartTextFormat. |
-| [setHide](sethide)(boolean) | Determines whether the legend entry is hide. Read/write boolean. |
+| getChart () | Returns the parent chart. Read-only IChart. |
+
+ **Returns:**
+[Chart](../chart)
+
+
+---
+
+
+### getHide {#getHide}
+
+| Name | Description |
+| --- | --- |
+| getHide () | Determines whether the legend entry is hide. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+
+ **Returns:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+
+ **Returns:**
+[MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide)
+
+
+---
+
+
+### getTextFormat {#getTextFormat}
+
+| Name | Description |
+| --- | --- |
+| getTextFormat () | Returns text format. Read-only IChartTextFormat. |
+
+ **Returns:**
+[ChartTextFormat](../charttextformat)
+
+
+---
+
+
+### setHide {#setHide}
+
+| Name | Description |
+| --- | --- |
+| setHide (boolean) | Determines whether the legend entry is hide. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+

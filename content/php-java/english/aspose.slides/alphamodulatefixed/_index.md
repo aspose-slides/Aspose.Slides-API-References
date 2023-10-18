@@ -12,13 +12,74 @@ url: /aspose.slides/alphamodulatefixed/
  Represents an Alpha Modulate Fixed effect.
  Effect alpha (opacity) values are multiplied by a fixed percentage.
  
-
-## Methods
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified AlphaModulateFixed is equal to the current AlphaModulateFixed. |
-| [getAmount](getamount)() | Returns an amount of effect in percents. Read/write float. |
-| [getEffective](geteffective)() | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
-| [setAmount](setamount)(float) | Returns an amount of effect in percents. Read/write float. |
+| equals (Object) | Determines whether the specified AlphaModulateFixed is equal to the current AlphaModulateFixed. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaModulateFixed to compare. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getAmount {#getAmount}
+
+| Name | Description |
+| --- | --- |
+| getAmount () | Returns an amount of effect in percents. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getEffective {#getEffective}
+
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
+
+ **Returns:**
+AlphaModulateFixedEffectiveData
+
+
+---
+
+
+### hashCode {#hashCode}
+
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### setAmount {#setAmount}
+
+| Name | Description |
+| --- | --- |
+| setAmount (float) | Returns an amount of effect in percents. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+

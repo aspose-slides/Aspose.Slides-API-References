@@ -16,7 +16,27 @@ url: /aspose.slides/displayblanksastype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Gap | 0 | Specifies that blank values shall be left as a gap. |
-| Span | 1 | Specifies that blank values shall be spanned with a line. |
-| Zero | 2 | Specifies that blank values shall be treated as zero. |
+[Gap](#Gap) | 0 | Specifies that blank values shall be left as a gap. |
+[Span](#Span) | 1 | Specifies that blank values shall be spanned with a line. |
+[Zero](#Zero) | 2 | Specifies that blank values shall be treated as zero. |
+
+
+---
+
+
+### Gap {#Gap}
+Specifies that blank values shall be left as a gap.
+
+---
+
+### Span {#Span}
+Specifies that blank values shall be spanned with a line.
+
+---
+
+### Zero {#Zero}
+Specifies that blank values shall be treated as zero.
+
+---
+
 

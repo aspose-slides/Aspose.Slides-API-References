@@ -11,10 +11,29 @@ url: /aspose.slides/rippletransition/
 
  Ripple slide transition effect.
  
-
-## Methods
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
-| [getDirection](getdirection)() | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
-| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
+| getDirection () | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### setDirection {#setDirection}
+
+| Name | Description |
+| --- | --- |
+| setDirection (int) | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
+
+ **Returns:**
+void
+
+
+---
+
+

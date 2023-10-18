@@ -11,10 +11,29 @@ url: /aspose.slides/sectionzoomframe/
 
  Represents a Section Zoom object in a slide.
  
-
-## Methods
+### getTargetSection {#getTargetSection}
 
 | Name | Description |
 | --- | --- |
-| [getTargetSection](gettargetsection)() | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
-| [setTargetSection](settargetsection)([Section](../section)) | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+| getTargetSection () | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+
+ **Returns:**
+[Section](../section)
+
+
+---
+
+
+### setTargetSection {#setTargetSection}
+
+| Name | Description |
+| --- | --- |
+| setTargetSection ([Section](../section)) | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+
+ **Returns:**
+void
+
+
+---
+
+

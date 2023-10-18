@@ -9,10 +9,29 @@ url: /aspose.slides/point2dfloat/
 
 ## Point2DFloat class
 
-
-## Constructors
+### Point2DFloat {#Point2DFloat}
 
 | Name | Description |
 | --- | --- |
-| [Point2DFloat](point2dfloat)() |  |
-| [Point2DFloat](point2dfloat)(float, float) |  |
+| Point2DFloat() |  |
+
+ **Result:**
+Point2DFloat
+
+
+---
+
+
+### Point2DFloat {#Point2DFloat}
+
+| Name | Description |
+| --- | --- |
+| Point2DFloat(float, float) |  |
+
+ **Result:**
+Point2DFloat
+
+
+---
+
+

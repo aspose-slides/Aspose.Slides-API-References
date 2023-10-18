@@ -11,14 +11,81 @@ url: /aspose.slides/gradientstopcollectioneffectivedata/
 
  Represents a collection of GradientStopData objects.
  
-
-## Methods
+### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns the gradient stop by index. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [size](size)() | Returns the number of gradient stops in a collection. Read-only int. |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+
+ **Returns:**
+Object
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns the gradient stop by index. |
+
+ **Returns:**
+[GradientStopEffectiveData](../gradientstopeffectivedata)
+
+
+---
+
+
+### isSynchronized {#isSynchronized}
+
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### iterator {#iterator}
+
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
+
+ **Returns:**
+
+
+
+---
+
+
+### iteratorJava {#iteratorJava}
+
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
+
+ **Returns:**
+
+
+
+---
+
+
+### size {#size}
+
+| Name | Description |
+| --- | --- |
+| size () | Returns the number of gradient stops in a collection. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+

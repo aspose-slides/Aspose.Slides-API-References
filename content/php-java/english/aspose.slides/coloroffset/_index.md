@@ -11,20 +11,94 @@ url: /aspose.slides/coloroffset/
 
  Represent color offset.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [ColorOffset](coloroffset)() |  |
-
-## Methods
+### ColorOffset {#ColorOffset}
 
 | Name | Description |
 | --- | --- |
-| [getValue0](getvalue0)() | Defines first value of offset. Read/write float. |
-| [getValue1](getvalue1)() | Defines second value of offset. Read/write float. |
-| [getValue2](getvalue2)() | Defines third value of offset. Read/write float. |
-| [setValue0](setvalue0)(float) | Defines first value of offset. Read/write float. |
-| [setValue1](setvalue1)(float) | Defines second value of offset. Read/write float. |
-| [setValue2](setvalue2)(float) | Defines third value of offset. Read/write float. |
+| ColorOffset() |  |
+
+ **Result:**
+ColorOffset
+
+
+---
+
+
+### getValue0 {#getValue0}
+
+| Name | Description |
+| --- | --- |
+| getValue0 () | Defines first value of offset. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getValue1 {#getValue1}
+
+| Name | Description |
+| --- | --- |
+| getValue1 () | Defines second value of offset. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getValue2 {#getValue2}
+
+| Name | Description |
+| --- | --- |
+| getValue2 () | Defines third value of offset. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### setValue0 {#setValue0}
+
+| Name | Description |
+| --- | --- |
+| setValue0 (float) | Defines first value of offset. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setValue1 {#setValue1}
+
+| Name | Description |
+| --- | --- |
+| setValue1 (float) | Defines second value of offset. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setValue2 {#setValue2}
+
+| Name | Description |
+| --- | --- |
+| setValue2 (float) | Defines third value of offset. Read/write float. |
+
+ **Returns:**
+void
+
+
+---
+
+

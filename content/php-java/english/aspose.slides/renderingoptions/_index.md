@@ -11,15 +11,29 @@ url: /aspose.slides/renderingoptions/
 
  Provides options that control how a presentation/slide is rendered.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [RenderingOptions](renderingoptions)() | Default constructor. |
-
-## Methods
+### RenderingOptions {#RenderingOptions}
 
 | Name | Description |
 | --- | --- |
-| [getNotesCommentsLayouting](getnotescommentslayouting)() | Provides options that control how notes and comments is placed in exported document. |
+| RenderingOptions() | Default function. |
+
+ **Result:**
+RenderingOptions
+
+
+---
+
+
+### getNotesCommentsLayouting {#getNotesCommentsLayouting}
+
+| Name | Description |
+| --- | --- |
+| getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
+
+ **Returns:**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
+
+
+---
+
+

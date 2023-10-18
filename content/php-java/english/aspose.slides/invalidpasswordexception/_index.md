@@ -11,11 +11,55 @@ url: /aspose.slides/invalidpasswordexception/
 
  Exception which thrown when presentation file format is unsupported.
  
-
-## Constructors
+### InvalidPasswordException {#InvalidPasswordException}
 
 | Name | Description |
 | --- | --- |
-| [InvalidPasswordException](invalidpasswordexception)() | Default constructor. |
-| [InvalidPasswordException](invalidpasswordexception)(String) | Constructor allowing a message to be added to this exception. |
-| [InvalidPasswordException](invalidpasswordexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| InvalidPasswordException() | Default function. |
+
+ **Result:**
+InvalidPasswordException
+
+
+---
+
+
+### InvalidPasswordException {#InvalidPasswordException}
+
+| Name | Description |
+| --- | --- |
+| InvalidPasswordException(String) | Constructor allowing a message to be added to this exception. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
+ **Result:**
+InvalidPasswordException
+
+
+---
+
+
+### InvalidPasswordException {#InvalidPasswordException}
+
+| Name | Description |
+| --- | --- |
+| InvalidPasswordException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | RuntimeException | original exception |
+
+ **Result:**
+InvalidPasswordException
+
+
+---
+
+

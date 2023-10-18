@@ -11,14 +11,81 @@ url: /aspose.slides/formatscheme/
 
  Stores theme-defined formats for the shapes.
  
-
-## Methods
+### getBackgroundFillStyles {#getBackgroundFillStyles}
 
 | Name | Description |
 | --- | --- |
-| [getBackgroundFillStyles](getbackgroundfillstyles)() | Returns a collection of theme defined background fill styles. Read-only IFillFormatCollection. |
-| [getEffectStyles](geteffectstyles)() | Returns a collection of theme defined effect styles. Read-only IEffectStyleCollection. |
-| [getFillStyles](getfillstyles)() | Returns a collection of theme defined fill styles. Read-only IFillFormatCollection. |
-| [getLineStyles](getlinestyles)() | Returns a collection of theme defined line styles. Read-only ILineFormatCollection. |
-| [getPresentation](getpresentation)() | Returns the parent presentation. Read-only IPresentation. |
-| [getSlide](getslide)() | Returns the parent slide. Read-only IBaseSlide. |
+| getBackgroundFillStyles () | Returns a collection of theme defined background fill styles. Read-only IFillFormatCollection. |
+
+ **Returns:**
+[FillFormatCollection](../fillformatcollection)
+
+
+---
+
+
+### getEffectStyles {#getEffectStyles}
+
+| Name | Description |
+| --- | --- |
+| getEffectStyles () | Returns a collection of theme defined effect styles. Read-only IEffectStyleCollection. |
+
+ **Returns:**
+[EffectStyleCollection](../effectstylecollection)
+
+
+---
+
+
+### getFillStyles {#getFillStyles}
+
+| Name | Description |
+| --- | --- |
+| getFillStyles () | Returns a collection of theme defined fill styles. Read-only IFillFormatCollection. |
+
+ **Returns:**
+[FillFormatCollection](../fillformatcollection)
+
+
+---
+
+
+### getLineStyles {#getLineStyles}
+
+| Name | Description |
+| --- | --- |
+| getLineStyles () | Returns a collection of theme defined line styles. Read-only ILineFormatCollection. |
+
+ **Returns:**
+[LineFormatCollection](../lineformatcollection)
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation. Read-only IPresentation. |
+
+ **Returns:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide. Read-only IBaseSlide. |
+
+ **Returns:**
+[MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide)
+
+
+---
+
+

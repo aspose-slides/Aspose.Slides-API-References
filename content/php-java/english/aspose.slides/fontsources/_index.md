@@ -11,18 +11,68 @@ url: /aspose.slides/fontsources/
 
  Provides file and memory sources for external fonts.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [FontSources](fontsources)() | Creates new default font options. |
-
-## Methods
+### FontSources {#FontSources}
 
 | Name | Description |
 | --- | --- |
-| [getFontFolders](getfontfolders)() | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
-| [getMemoryFonts](getmemoryfonts)() | A collection of fonts represented as byte arrays. |
-| [setFontFolders](setfontfolders)(java.lang.String[]) | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
-| [setMemoryFonts](setmemoryfonts)(byte[][]) | A collection of fonts represented as byte arrays. |
+| FontSources() | Creates new default font options. |
+
+ **Result:**
+FontSources
+
+
+---
+
+
+### getFontFolders {#getFontFolders}
+
+| Name | Description |
+| --- | --- |
+| getFontFolders () | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getMemoryFonts {#getMemoryFonts}
+
+| Name | Description |
+| --- | --- |
+| getMemoryFonts () | A collection of fonts represented as byte arrays. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### setFontFolders {#setFontFolders}
+
+| Name | Description |
+| --- | --- |
+| setFontFolders (java.lang.String[]) | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setMemoryFonts {#setMemoryFonts}
+
+| Name | Description |
+| --- | --- |
+| setMemoryFonts (byte[][]) | A collection of fonts represented as byte arrays. |
+
+ **Returns:**
+void
+
+
+---
+
+

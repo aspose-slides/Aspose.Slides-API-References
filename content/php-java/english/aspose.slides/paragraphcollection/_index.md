@@ -11,29 +11,375 @@ url: /aspose.slides/paragraphcollection/
 
  Represents a collection of a paragraphs.
  
-
-## Methods
+### add {#add}
 
 | Name | Description |
 | --- | --- |
-| [add](add)([Paragraph](../paragraph)) | Adds a Paragraph to the end of collection. |
-| [add](add)([ParagraphCollection](../paragraphcollection)) | Adds a content of ParagraphCollection to the end of collection. |
-| [addFromHtml](addfromhtml)(String) | Adds text from specified html string to the collection. |
-| [addFromHtml](addfromhtml)(String, [HtmlExternalResolver](../htmlexternalresolver), String) | Adds text from specified html string to the collection. |
-| [addFromHtml](addfromhtml)(String, [ExternalResourceResolver](../externalresourceresolver), String) | Adds text from specified html string to the collection. |
-| [clear](clear)() | Removes all elements from the collection. |
-| [contains](contains)([Paragraph](../paragraph)) | Determines whether the IGenericCollection contains a specific value. |
-| [copyTo](copyto)(com.aspose.slides.IParagraph[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
-| [exportToHtml](exporttohtml)(int, int, [TextToHtmlConversionOptions](../texttohtmlconversionoptions)) | Converts specifying paragraphs to the HTML and returns it as String object. |
-| [getCount](getcount)() | Gets the number of elements actually contained in the collection. Read-only int. |
-| [getPresentation](getpresentation)() | Returns the parent presentation of a paragraphs collection. Read-only IPresentation. |
-| [getSlide](getslide)() | Returns the parent slide of a paragraphs collection. Read-only BaseSlide. |
-| [get_Item](get_item)(int) | Gets the element at the specified index. |
-| [indexOf](indexof)([Paragraph](../paragraph)) | Determines the index of a specific item in the List. |
-| [insert](insert)(int, [Paragraph](../paragraph)) | Inserts a Paragraph into the collection at the specified index. |
-| [insert](insert)(int, [ParagraphCollection](../paragraphcollection)) | Inserts a content of ParagraphCollection into the collection at the specified index. |
-| [isReadOnly](isreadonly)() | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([Paragraph](../paragraph)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-| [removeAt](removeat)(int) | Removes the element at the specified index of the collection. |
+| add ([Paragraph](../paragraph)) | Adds a Paragraph to the end of collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | [Paragraph](../paragraph) | The Paragraph to be added to the end of the collection. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([ParagraphCollection](../paragraphcollection)) | Adds a content of ParagraphCollection to the end of collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | [ParagraphCollection](../paragraphcollection) | The ParagraphCollection to be added to the end of the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### addFromHtml {#addFromHtml}
+
+| Name | Description |
+| --- | --- |
+| addFromHtml (String) | Adds text from specified html string to the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | HTML text. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### addFromHtml {#addFromHtml}
+
+| Name | Description |
+| --- | --- |
+| addFromHtml (String, [HtmlExternalResolver](../htmlexternalresolver), String) | Adds text from specified html string to the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | HTML text. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | String | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### addFromHtml {#addFromHtml}
+
+| Name | Description |
+| --- | --- |
+| addFromHtml (String, [ExternalResourceResolver](../externalresourceresolver), String) | Adds text from specified html string to the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | HTML text. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | String | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### clear {#clear}
+
+| Name | Description |
+| --- | --- |
+| clear () | Removes all elements from the collection. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### contains {#contains}
+
+| Name | Description |
+| --- | --- |
+| contains ([Paragraph](../paragraph)) | Determines whether the IGenericCollection contains a specific value. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [Paragraph](../paragraph) | The object to locate in the IGenericCollection. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### copyTo {#copyTo}
+
+| Name | Description |
+| --- | --- |
+| copyTo (com.aspose.slides.IParagraph[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| array | com.aspose.slides.IParagraph[] | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
+| arrayIndex | int | The zero-based index in array at which copying begins. |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | The number of elements in the source IGenericCollection is greater than the available space from arrayIndex to the end of the destination array. |
+
+
+---
+
+
+### exportToHtml {#exportToHtml}
+
+| Name | Description |
+| --- | --- |
+| exportToHtml (int, int, [TextToHtmlConversionOptions](../texttohtmlconversionoptions)) | Converts specifying paragraphs to the HTML and returns it as String object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| firstParagraphIndex | int | First paragraph index int |
+| paragraphsCount | int | Paragraph count int |
+| options | [TextToHtmlConversionOptions](../texttohtmlconversionoptions) | Convert options ITextToHtmlConversionOptions |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount () | Gets the number of elements actually contained in the collection. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a paragraphs collection. Read-only IPresentation. |
+
+ **Returns:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a paragraphs collection. Read-only BaseSlide. |
+
+ **Returns:**
+[MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Gets the element at the specified index. |
+
+ **Returns:**
+[Paragraph](../paragraph)
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([Paragraph](../paragraph)) | Determines the index of a specific item in the List. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [Paragraph](../paragraph) | The object to locate in the List. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### insert {#insert}
+
+| Name | Description |
+| --- | --- |
+| insert (int, [Paragraph](../paragraph)) | Inserts a Paragraph into the collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which Paragraph should be inserted. |
+| value | [Paragraph](../paragraph) | The Paragraph to insert. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### insert {#insert}
+
+| Name | Description |
+| --- | --- |
+| insert (int, [ParagraphCollection](../paragraphcollection)) | Inserts a content of ParagraphCollection into the collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which paragraphs should be inserted. |
+| value | [ParagraphCollection](../paragraphcollection) | The paragraphs to insert. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### isReadOnly {#isReadOnly}
+
+| Name | Description |
+| --- | --- |
+| isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### iterator {#iterator}
+
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
+
+ **Returns:**
+
+
+
+---
+
+
+### iteratorJava {#iteratorJava}
+
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
+
+ **Returns:**
+
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([Paragraph](../paragraph)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [Paragraph](../paragraph) | The object to remove from the IGenericCollection. |
+
+ **Returns:**
+boolean
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | The IGenericCollection is read-only. |
+
+
+---
+
+
+### removeAt {#removeAt}
+
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes the element at the specified index of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the element to remove. |
+
+ **Returns:**
+void
+
+
+---
+
+

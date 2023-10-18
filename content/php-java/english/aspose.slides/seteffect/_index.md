@@ -11,16 +11,42 @@ url: /aspose.slides/seteffect/
 
  Represents a set effect for an animation behavior.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [SetEffect](seteffect)() |  |
-
-## Methods
+### SetEffect {#SetEffect}
 
 | Name | Description |
 | --- | --- |
-| [getTo](getto)() | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
-| [setTo](setto)(Object) | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+| SetEffect() |  |
+
+ **Result:**
+SetEffect
+
+
+---
+
+
+### getTo {#getTo}
+
+| Name | Description |
+| --- | --- |
+| getTo () | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+
+ **Returns:**
+Object
+
+
+---
+
+
+### setTo {#setTo}
+
+| Name | Description |
+| --- | --- |
+| setTo (Object) | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+
+ **Returns:**
+void
+
+
+---
+
+

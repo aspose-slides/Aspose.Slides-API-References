@@ -11,22 +11,120 @@ url: /aspose.slides/html5options/
 
  Represents a HTML5 exporting options.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [Html5Options](html5options)() | Default constructor. |
-
-## Methods
+### Html5Options {#Html5Options}
 
 | Name | Description |
 | --- | --- |
-| [getAnimateShapes](getanimateshapes)() | Returns or sets shapes animation option. Read/write boolean. |
-| [getAnimateTransitions](getanimatetransitions)() | Returns or sets transitions animation option. Read/write boolean. |
-| [getEmbedImages](getembedimages)() | Returns or sets images embedding option. Read/write boolean. |
-| [getOutputPath](getoutputpath)() | Determines where external resources should be stored. Read/write String. |
-| [setAnimateShapes](setanimateshapes)(boolean) | Returns or sets shapes animation option. Read/write boolean. |
-| [setAnimateTransitions](setanimatetransitions)(boolean) | Returns or sets transitions animation option. Read/write boolean. |
-| [setEmbedImages](setembedimages)(boolean) | Returns or sets images embedding option. Read/write boolean. |
-| [setOutputPath](setoutputpath)(String) | Determines where external resources should be stored. Read/write String. |
+| Html5Options() | Default function. |
+
+ **Result:**
+Html5Options
+
+
+---
+
+
+### getAnimateShapes {#getAnimateShapes}
+
+| Name | Description |
+| --- | --- |
+| getAnimateShapes () | Returns or sets shapes animation option. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getAnimateTransitions {#getAnimateTransitions}
+
+| Name | Description |
+| --- | --- |
+| getAnimateTransitions () | Returns or sets transitions animation option. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getEmbedImages {#getEmbedImages}
+
+| Name | Description |
+| --- | --- |
+| getEmbedImages () | Returns or sets images embedding option. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getOutputPath {#getOutputPath}
+
+| Name | Description |
+| --- | --- |
+| getOutputPath () | Determines where external resources should be stored. Read/write String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### setAnimateShapes {#setAnimateShapes}
+
+| Name | Description |
+| --- | --- |
+| setAnimateShapes (boolean) | Returns or sets shapes animation option. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setAnimateTransitions {#setAnimateTransitions}
+
+| Name | Description |
+| --- | --- |
+| setAnimateTransitions (boolean) | Returns or sets transitions animation option. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setEmbedImages {#setEmbedImages}
+
+| Name | Description |
+| --- | --- |
+| setEmbedImages (boolean) | Returns or sets images embedding option. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setOutputPath {#setOutputPath}
+
+| Name | Description |
+| --- | --- |
+| setOutputPath (String) | Determines where external resources should be stored. Read/write String. |
+
+ **Returns:**
+void
+
+
+---
+
+

@@ -11,22 +11,185 @@ url: /aspose.slides/groupshapelock/
 
  Determines which operations are disabled on the parent GroupShape.
  
-
-## Methods
+### getAspectRatioLocked {#getAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
-| [getAspectRatioLocked](getaspectratiolocked)() | Determines whether shape have to preserve aspect ratio on resizing. Read/write boolean. |
-| [getGroupingLocked](getgroupinglocked)() | Determines whether adding this shape to a group is forbidden. Read/write boolean. |
-| [getPositionLocked](getpositionlocked)() | Determines whether moving this shape is forbidden. Read/write boolean. |
-| [getRotationLocked](getrotationlocked)() | Determines whether changing rotation angle of this shape is forbidden. Read/write boolean. |
-| [getSelectLocked](getselectlocked)() | Determines whether selecting this shape is forbidden. Read/write boolean. |
-| [getSizeLocked](getsizelocked)() | Determines whether resizing this shape is forbidden. Read/write boolean. |
-| [getUngroupingLocked](getungroupinglocked)() | Determines whether splitting this groupshape is forbidden. Read/write boolean. |
-| [setAspectRatioLocked](setaspectratiolocked)(boolean) | Determines whether shape have to preserve aspect ratio on resizing. Read/write boolean. |
-| [setGroupingLocked](setgroupinglocked)(boolean) | Determines whether adding this shape to a group is forbidden. Read/write boolean. |
-| [setPositionLocked](setpositionlocked)(boolean) | Determines whether moving this shape is forbidden. Read/write boolean. |
-| [setRotationLocked](setrotationlocked)(boolean) | Determines whether changing rotation angle of this shape is forbidden. Read/write boolean. |
-| [setSelectLocked](setselectlocked)(boolean) | Determines whether selecting this shape is forbidden. Read/write boolean. |
-| [setSizeLocked](setsizelocked)(boolean) | Determines whether resizing this shape is forbidden. Read/write boolean. |
-| [setUngroupingLocked](setungroupinglocked)(boolean) | Determines whether splitting this groupshape is forbidden. Read/write boolean. |
+| getAspectRatioLocked () | Determines whether shape have to preserve aspect ratio on resizing. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getGroupingLocked {#getGroupingLocked}
+
+| Name | Description |
+| --- | --- |
+| getGroupingLocked () | Determines whether adding this shape to a group is forbidden. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getPositionLocked {#getPositionLocked}
+
+| Name | Description |
+| --- | --- |
+| getPositionLocked () | Determines whether moving this shape is forbidden. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getRotationLocked {#getRotationLocked}
+
+| Name | Description |
+| --- | --- |
+| getRotationLocked () | Determines whether changing rotation angle of this shape is forbidden. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getSelectLocked {#getSelectLocked}
+
+| Name | Description |
+| --- | --- |
+| getSelectLocked () | Determines whether selecting this shape is forbidden. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getSizeLocked {#getSizeLocked}
+
+| Name | Description |
+| --- | --- |
+| getSizeLocked () | Determines whether resizing this shape is forbidden. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getUngroupingLocked {#getUngroupingLocked}
+
+| Name | Description |
+| --- | --- |
+| getUngroupingLocked () | Determines whether splitting this groupshape is forbidden. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### setAspectRatioLocked {#setAspectRatioLocked}
+
+| Name | Description |
+| --- | --- |
+| setAspectRatioLocked (boolean) | Determines whether shape have to preserve aspect ratio on resizing. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setGroupingLocked {#setGroupingLocked}
+
+| Name | Description |
+| --- | --- |
+| setGroupingLocked (boolean) | Determines whether adding this shape to a group is forbidden. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setPositionLocked {#setPositionLocked}
+
+| Name | Description |
+| --- | --- |
+| setPositionLocked (boolean) | Determines whether moving this shape is forbidden. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setRotationLocked {#setRotationLocked}
+
+| Name | Description |
+| --- | --- |
+| setRotationLocked (boolean) | Determines whether changing rotation angle of this shape is forbidden. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSelectLocked {#setSelectLocked}
+
+| Name | Description |
+| --- | --- |
+| setSelectLocked (boolean) | Determines whether selecting this shape is forbidden. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSizeLocked {#setSizeLocked}
+
+| Name | Description |
+| --- | --- |
+| setSizeLocked (boolean) | Determines whether resizing this shape is forbidden. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setUngroupingLocked {#setUngroupingLocked}
+
+| Name | Description |
+| --- | --- |
+| setUngroupingLocked (boolean) | Determines whether splitting this groupshape is forbidden. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+

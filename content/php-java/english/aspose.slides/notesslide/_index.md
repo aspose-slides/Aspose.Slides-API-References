@@ -11,14 +11,81 @@ url: /aspose.slides/notesslide/
 
  Represents a notes slide in a presentation.
  
-
-## Methods
+### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
-| [getHeaderFooterManager](getheaderfootermanager)() | Returns HeaderFooter manager of the notes slide. Read-only INotesSlideHeaderFooterManager. |
-| [getNotesTextFrame](getnotestextframe)() | Returns a TextFrame with notes' text if there is one. Read-only ITextFrame. |
-| [getParentSlide](getparentslide)() | Returns the parent slide. Read-only ISlide. |
-| [getShowMasterShapes](getshowmastershapes)() | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
-| [getThemeManager](getthememanager)() | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
-| [setShowMasterShapes](setshowmastershapes)(boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+| getHeaderFooterManager () | Returns HeaderFooter manager of the notes slide. Read-only INotesSlideHeaderFooterManager. |
+
+ **Returns:**
+[NotesSlideHeaderFooterManager](../notesslideheaderfootermanager)
+
+
+---
+
+
+### getNotesTextFrame {#getNotesTextFrame}
+
+| Name | Description |
+| --- | --- |
+| getNotesTextFrame () | Returns a TextFrame with notes' text if there is one. Read-only ITextFrame. |
+
+ **Returns:**
+[TextFrame](../textframe)
+
+
+---
+
+
+### getParentSlide {#getParentSlide}
+
+| Name | Description |
+| --- | --- |
+| getParentSlide () | Returns the parent slide. Read-only ISlide. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### getShowMasterShapes {#getShowMasterShapes}
+
+| Name | Description |
+| --- | --- |
+| getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getThemeManager {#getThemeManager}
+
+| Name | Description |
+| --- | --- |
+| getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
+
+ **Returns:**
+[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager)
+
+
+---
+
+
+### setShowMasterShapes {#setShowMasterShapes}
+
+| Name | Description |
+| --- | --- |
+| setShowMasterShapes (boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+

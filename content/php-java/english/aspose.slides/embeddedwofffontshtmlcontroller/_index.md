@@ -11,63 +11,683 @@ url: /aspose.slides/embeddedwofffontshtmlcontroller/
 
  The formatting controller class to use for fonts embedding in WOFF format
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)() | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance. |
-
-## Methods
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
 
 | Name | Description |
 | --- | --- |
-| [writeDocumentEnd](writedocumentend)([HtmlGenerator](../htmlgenerator), [Presentation](../presentation)) |  |
-| [writeDocumentStart](writedocumentstart)([HtmlGenerator](../htmlgenerator), [Presentation](../presentation)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
-| [writeSlideEnd](writeslideend)([HtmlGenerator](../htmlgenerator), [Slide](../slide)) |  |
-| [writeSlideStart](writeslidestart)([HtmlGenerator](../htmlgenerator), [Slide](../slide)) |  |
+| EmbeddedWoffFontsHtmlController() | Creates new instance. |
+
+ **Result:**
+EmbeddedWoffFontsHtmlController
+
+
+---
+
+
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
+
+| Name | Description |
+| --- | --- |
+| EmbeddedWoffFontsHtmlController([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | HTML formatting controller. |
+
+ **Result:**
+EmbeddedWoffFontsHtmlController
+
+
+---
+
+
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
+
+| Name | Description |
+| --- | --- |
+| EmbeddedWoffFontsHtmlController([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | HTML formatting controller. |
+
+ **Result:**
+EmbeddedWoffFontsHtmlController
+
+
+---
+
+
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
+
+| Name | Description |
+| --- | --- |
+| EmbeddedWoffFontsHtmlController([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | HTML formatting controller. |
+
+ **Result:**
+EmbeddedWoffFontsHtmlController
+
+
+---
+
+
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
+
+| Name | Description |
+| --- | --- |
+| EmbeddedWoffFontsHtmlController([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [ResponsiveHtmlController](../responsivehtmlcontroller) | HTML formatting controller. |
+
+ **Result:**
+EmbeddedWoffFontsHtmlController
+
+
+---
+
+
+### EmbeddedWoffFontsHtmlController {#EmbeddedWoffFontsHtmlController}
+
+| Name | Description |
+| --- | --- |
+| EmbeddedWoffFontsHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | HTML formatting controller. |
+
+ **Result:**
+EmbeddedWoffFontsHtmlController
+
+
+---
+
+
+### writeDocumentEnd {#writeDocumentEnd}
+
+| Name | Description |
+| --- | --- |
+| writeDocumentEnd ([HtmlGenerator](../htmlgenerator), [Presentation](../presentation)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeDocumentStart {#writeDocumentStart}
+
+| Name | Description |
+| --- | --- |
+| writeDocumentStart ([HtmlGenerator](../htmlgenerator), [Presentation](../presentation)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeSlideEnd {#writeSlideEnd}
+
+| Name | Description |
+| --- | --- |
+| writeSlideEnd ([HtmlGenerator](../htmlgenerator), [Slide](../slide)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeSlideStart {#writeSlideStart}
+
+| Name | Description |
+| --- | --- |
+| writeSlideStart ([HtmlGenerator](../htmlgenerator), [Slide](../slide)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+

@@ -11,18 +11,68 @@ url: /aspose.slides/formatfactory/
 
  Allows to create formats via COM interface.
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [FormatFactory](formatfactory)() |  |
-
-## Methods
+### FormatFactory {#FormatFactory}
 
 | Name | Description |
 | --- | --- |
-| [createParagraphFormat](createparagraphformat)() | Creates new IParagraphFormat. |
-| [createPortionFormat](createportionformat)() | Creates new IPortionFormat. |
-| [createTextFrameFormat](createtextframeformat)() | Creates new ITextFrameFormat. |
-| [getInstance](getinstance)() | Format factory static instance. Read-only FormatFactory. |
+| FormatFactory() |  |
+
+ **Result:**
+FormatFactory
+
+
+---
+
+
+### createParagraphFormat {#createParagraphFormat}
+
+| Name | Description |
+| --- | --- |
+| createParagraphFormat () | Creates new IParagraphFormat. |
+
+ **Returns:**
+[ParagraphFormat](../paragraphformat)
+
+
+---
+
+
+### createPortionFormat {#createPortionFormat}
+
+| Name | Description |
+| --- | --- |
+| createPortionFormat () | Creates new IPortionFormat. |
+
+ **Returns:**
+[PortionFormat](../portionformat)
+
+
+---
+
+
+### createTextFrameFormat {#createTextFrameFormat}
+
+| Name | Description |
+| --- | --- |
+| createTextFrameFormat () | Creates new ITextFrameFormat. |
+
+ **Returns:**
+[TextFrameFormat](../textframeformat)
+
+
+---
+
+
+### getInstance {#getInstance}
+
+| Name | Description |
+| --- | --- |
+| getInstance () | Format factory static instance. Read-only FormatFactory. |
+
+ **Returns:**
+FormatFactory
+
+
+---
+
+

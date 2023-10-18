@@ -11,18 +11,83 @@ url: /aspose.slides/fontsubstrule/
 
  Represents font subtituition information
  
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [FontSubstRule](fontsubstrule)([FontData](../fontdata), [FontData](../fontdata)) | Creates new instance. |
-| [FontSubstRule](fontsubstrule)([FontData](../fontdata), [FontData](../fontdata), int) | Creates new instance. |
-
-## Methods
+### FontSubstRule {#FontSubstRule}
 
 | Name | Description |
 | --- | --- |
-| [getDestFont](getdestfont)() | Font to use for substitution. Read-only IFontData. |
-| [getReplaceFontCondition](getreplacefontcondition)() | Rule to apply for substitution. Read-only FontSubstCondition. |
-| [getSourceFont](getsourcefont)() | Font to substitute. Read-only IFontData. |
+| FontSubstRule([FontData](../fontdata), [FontData](../fontdata)) | Creates new instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceFont | [FontData](../fontdata) | Source font. |
+| destFont | [FontData](../fontdata) | Destination font. |
+
+ **Result:**
+FontSubstRule
+
+
+---
+
+
+### FontSubstRule {#FontSubstRule}
+
+| Name | Description |
+| --- | --- |
+| FontSubstRule([FontData](../fontdata), [FontData](../fontdata), int) | Creates new instance. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceFont | [FontData](../fontdata) | Source font. |
+| destFont | [FontData](../fontdata) | Destination font. |
+| fontSubstRule | int | Font subst rule. |
+
+ **Result:**
+FontSubstRule
+
+
+---
+
+
+### getDestFont {#getDestFont}
+
+| Name | Description |
+| --- | --- |
+| getDestFont () | Font to use for substitution. Read-only IFontData. |
+
+ **Returns:**
+[FontData](../fontdata)
+
+
+---
+
+
+### getReplaceFontCondition {#getReplaceFontCondition}
+
+| Name | Description |
+| --- | --- |
+| getReplaceFontCondition () | Rule to apply for substitution. Read-only FontSubstCondition. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getSourceFont {#getSourceFont}
+
+| Name | Description |
+| --- | --- |
+| getSourceFont () | Font to substitute. Read-only IFontData. |
+
+ **Returns:**
+[FontData](../fontdata)
+
+
+---
+
+

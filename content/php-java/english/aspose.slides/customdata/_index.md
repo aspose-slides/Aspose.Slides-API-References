@@ -11,10 +11,29 @@ url: /aspose.slides/customdata/
 
  Represents container for custom data.
  
-
-## Methods
+### getCustomXmlParts {#getCustomXmlParts}
 
 | Name | Description |
 | --- | --- |
-| [getCustomXmlParts](getcustomxmlparts)() | Returns the custom xml parts collection. Read-only ICustomXmlPartCollection. |
-| [getTags](gettags)() | Returns the Customer Data Tags collection. Read-only ITagCollection. |
+| getCustomXmlParts () | Returns the custom xml parts collection. Read-only ICustomXmlPartCollection. |
+
+ **Returns:**
+[CustomXmlPartCollection](../customxmlpartcollection)
+
+
+---
+
+
+### getTags {#getTags}
+
+| Name | Description |
+| --- | --- |
+| getTags () | Returns the Customer Data Tags collection. Read-only ITagCollection. |
+
+ **Returns:**
+[TagCollection](../tagcollection)
+
+
+---
+
+

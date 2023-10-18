@@ -11,17 +11,138 @@ url: /aspose.slides/layoutslidecollection/
 
  Represents a base class for collection of a layout slides.
  
-
-## Methods
+### getByType {#getByType}
 
 | Name | Description |
 | --- | --- |
-| [getByType](getbytype)(byte) | Returns the first layout slide of specified type. |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns the layout slide by index. Read-only LayoutSlide. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([LayoutSlide](../layoutslide)) | Removes a layout from the collection. |
-| [removeUnused](removeunused)() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
-| [size](size)() | Returns the number of layout slides in a collection. Read-only int. |
+| getByType (byte) | Returns the first layout slide of specified type. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | byte | A type of layout slide to find. |
+
+ **Returns:**
+[LayoutSlide](../layoutslide)
+
+
+---
+
+
+### getSyncRoot {#getSyncRoot}
+
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+
+ **Returns:**
+Object
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns the layout slide by index. Read-only LayoutSlide. |
+
+ **Returns:**
+[LayoutSlide](../layoutslide)
+
+
+---
+
+
+### isSynchronized {#isSynchronized}
+
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### iterator {#iterator}
+
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
+
+ **Returns:**
+
+
+
+---
+
+
+### iteratorJava {#iteratorJava}
+
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
+
+ **Returns:**
+
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([LayoutSlide](../layoutslide)) | Removes a layout from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | [LayoutSlide](../layoutslide) | The layout slide to remove from the collection. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove method to simplify code. |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | PptxEditException | Thrown if layout is used in presentation (its HasDependingSlides property is true). |
+
+
+---
+
+
+### removeUnused {#removeUnused}
+
+| Name | Description |
+| --- | --- |
+| removeUnused () | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+
+ **Returns:**
+void
+
+
+---
+
+
+### size {#size}
+
+| Name | Description |
+| --- | --- |
+| size () | Returns the number of layout slides in a collection. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
