@@ -29,6 +29,8 @@ Provides options that control how a presentation is saved in TIFF format.
 | [getPixelFormat()](#getPixelFormat--) | Specifies the pixel format for the generated images. |
 | [setPixelFormat(int value)](#setPixelFormat-int-) | Specifies the pixel format for the generated images. |
 | [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
+| [getBwConversionMode()](#getBwConversionMode--) | Specifies the algorithm for converting a color image into a black and white image. |
+| [setBwConversionMode(int value)](#setBwConversionMode-int-) | Specifies the algorithm for converting a color image into a black and white image. |
 ### getImageSize() {#getImageSize--}
 ```
 public abstract Dimension getImageSize()
@@ -177,3 +179,54 @@ Provides options that control how notes and comments is placed in exported docum
 
 **Returns:**
 [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+### getBwConversionMode() {#getBwConversionMode--}
+```
+public abstract int getBwConversionMode()
+```
+
+
+Specifies the algorithm for converting a color image into a black and white image. This option will applied only if  CompressionType (\#getCompressionType.getCompressionType/\#setCompressionType(int).setCompressionType(int)) is set to [TiffCompressionTypes.CCITT4](../../com.aspose.slides/tiffcompressiontypes\#CCITT4) or [TiffCompressionTypes.CCITT3](../../com.aspose.slides/tiffcompressiontypes\#CCITT3) Read/write [BlackWhiteConversionMode](../../com.aspose.slides/blackwhiteconversionmode). Default is [BlackWhiteConversionMode.Default](../../com.aspose.slides/blackwhiteconversionmode\#Default).
+
+--------------------
+
+> ```
+> TiffOptions tiffOptions = new TiffOptions();
+>  tiffOptions.setCompressionType(TiffCompressionTypes.CCITT4);
+>  tiffOptions.setBwConversionMode(BlackWhiteConversionMode.Dithering);
+>  Presentation presentation = new Presentation();
+>  try {
+>      presentation.save(tiffFilePath, SaveFormat.Tiff, tiffOptions);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+int
+### setBwConversionMode(int value) {#setBwConversionMode-int-}
+```
+public abstract void setBwConversionMode(int value)
+```
+
+
+Specifies the algorithm for converting a color image into a black and white image. This option will applied only if  CompressionType (\#getCompressionType.getCompressionType/\#setCompressionType(int).setCompressionType(int)) is set to [TiffCompressionTypes.CCITT4](../../com.aspose.slides/tiffcompressiontypes\#CCITT4) or [TiffCompressionTypes.CCITT3](../../com.aspose.slides/tiffcompressiontypes\#CCITT3) Read/write [BlackWhiteConversionMode](../../com.aspose.slides/blackwhiteconversionmode). Default is [BlackWhiteConversionMode.Default](../../com.aspose.slides/blackwhiteconversionmode\#Default).
+
+--------------------
+
+> ```
+> TiffOptions tiffOptions = new TiffOptions();
+>  tiffOptions.setCompressionType(TiffCompressionTypes.CCITT4);
+>  tiffOptions.setBwConversionMode(BlackWhiteConversionMode.Dithering);
+>  Presentation presentation = new Presentation();
+>  try {
+>      presentation.save(tiffFilePath, SaveFormat.Tiff, tiffOptions);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+

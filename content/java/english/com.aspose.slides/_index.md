@@ -58,6 +58,7 @@ url: /com.aspose.slides/
 | [BehaviorPropertyCollection](../com.aspose.slides/behaviorpropertycollection) | Represents timing properties for the effect behavior. |
 | [BevelPresetType](../com.aspose.slides/bevelpresettype) | Constants which define 3D bevel of shape. |
 | [BiLevel](../com.aspose.slides/bilevel) | Represents a Bi-Level (black/white) effect. |
+| [BlackWhiteConversionMode](../com.aspose.slides/blackwhiteconversionmode) | Provides options that control how slides' images will be converted to bitonal images. |
 | [BlackWhiteMode](../com.aspose.slides/blackwhitemode) | Determines how colored shape should be transformed into black and white. |
 | [BlobManagementOptions](../com.aspose.slides/blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
 | [Blur](../com.aspose.slides/blur) | Represents a Blur effect that is applied to the entire shape, including its fill. |
@@ -259,6 +260,8 @@ url: /com.aspose.slides/
 | [ImageTransformOperationFactory](../com.aspose.slides/imagetransformoperationfactory) | Allows to create image transform operations |
 | [InOutTransition](../com.aspose.slides/inouttransition) | In-Out slide transition effect. |
 | [Ink](../com.aspose.slides/ink) | Represents an ink object on a slide. |
+| [InkBrush](../com.aspose.slides/inkbrush) | Represents an inkBrush object. |
+| [InkTrace](../com.aspose.slides/inktrace) | Represents an Trace object. |
 | [InnerShadow](../com.aspose.slides/innershadow) | Represents a Inner Shadow effect. |
 | [Input](../com.aspose.slides/input) | Represents a collection of input elements (templates). |
 | [InterruptionToken](../com.aspose.slides/interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
@@ -850,6 +853,8 @@ url: /com.aspose.slides/
 | [IImageTransformOperationFactory](../com.aspose.slides/iimagetransformoperationfactory) | Allows to create image effects' instances |
 | [IInOutTransition](../com.aspose.slides/iinouttransition) | In-Out slide transition effect. |
 | [IInk](../com.aspose.slides/iink) | Represents an ink object on a slide. |
+| [IInkBrush](../com.aspose.slides/iinkbrush) | Represents trace brush. |
+| [IInkTrace](../com.aspose.slides/iinktrace) | Represents handwritten line in an Ink object. |
 | [IInnerShadow](../com.aspose.slides/iinnershadow) | Represents a inner shadow effect. |
 | [IInnerShadowEffectiveData](../com.aspose.slides/iinnershadoweffectivedata) | Immutable object which represents a inner shadow effect. |
 | [IInterruptionToken](../com.aspose.slides/iinterruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |

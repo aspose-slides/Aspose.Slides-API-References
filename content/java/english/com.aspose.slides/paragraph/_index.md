@@ -31,6 +31,7 @@ Represents a paragraph of text.
 | [getText()](#getText--) | Gets or sets the the plain text of a paragraph. |
 | [setText(String value)](#setText-java.lang.String-) | Gets or sets the the plain text of a paragraph. |
 | [getRect()](#getRect--) | Get coordinates of rect that bounds paragraph. |
+| [getLinesCount()](#getLinesCount--) | Get number of lines in a paragraph. |
 | [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
 | [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
@@ -128,6 +129,34 @@ Get coordinates of rect that bounds paragraph. The rect includes all the lines o
 
 **Returns:**
 java.awt.geom.Rectangle2D.Float
+### getLinesCount() {#getLinesCount--}
+```
+public final int getLinesCount()
+```
+
+
+Get number of lines in a paragraph.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      IAutoShape ashp = sld.getShapes().addAutoShape(ShapeType.Rectangle, 150, 75, 150, 50);
+>      IParagraph para = ashp.getTextFrame().getParagraphs().get_Item(0);
+>      IPortion portion = para.getPortions().get_Item(0);
+>      portion.setText("Aspose Paragraph GetLinesCount() Example");
+>      System.out.println("Lines Count = " + para.getLinesCount());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+int - Lines count in a paragraph
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public final IPortionFormat getEndParagraphPortionFormat()
