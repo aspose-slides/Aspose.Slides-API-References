@@ -11,11 +11,55 @@ url: /aspose.slides/pptexception/
 
  Represents a standard internal exception type.
  
-
-## Functions
+### PptException {#PptException}
 
 | Name | Description |
 | --- | --- |
-| [PptException](pptexception)() | Default function. |
-| [PptException](pptexception)(String) | Constructor allowing a message to be added to this exception. |
-| [PptException](pptexception)(String, Exception) | Constructor for an exception containing a message and an embedded exception. |
+| PptException() | Default function. |
+
+ **Result:**
+PptException
+
+
+---
+
+
+### PptException {#PptException}
+
+| Name | Description |
+| --- | --- |
+| PptException(String) | Constructor allowing a message to be added to this exception. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
+ **Result:**
+PptException
+
+
+---
+
+
+### PptException {#PptException}
+
+| Name | Description |
+| --- | --- |
+| PptException(String, Exception) | Constructor for an exception containing a message and an embedded exception. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | Exception | original exception |
+
+ **Result:**
+PptException
+
+
+---
+
+

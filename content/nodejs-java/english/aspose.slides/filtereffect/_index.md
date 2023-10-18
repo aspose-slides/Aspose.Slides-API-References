@@ -11,20 +11,85 @@ url: /aspose.slides/filtereffect/
 
  Represent filter effect of behavior.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [FilterEffect](filtereffect)() | Default function. |
-
-## Functions
+### FilterEffect {#FilterEffect}
 
 | Name | Description |
 | --- | --- |
-| [getReveal](getreveal)() | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
-| [getSubtype](getsubtype)() | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
-| [getType](gettype)() | Represents type of filter effect. Read/write FilterEffectType. |
-| [setReveal](setreveal)(int) | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
-| [setSubtype](setsubtype)(int) | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
-| [setType](settype)(int) | Represents type of filter effect. Read/write FilterEffectType. |
+| FilterEffect() | Default function. |
+
+ **Result:**
+FilterEffect
+
+
+---
+
+
+### getReveal {#getReveal}
+
+| Name | Description |
+| --- | --- |
+| getReveal () | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
+
+ **Result:**
+int
+
+
+---
+
+
+### getSubtype {#getSubtype}
+
+| Name | Description |
+| --- | --- |
+| getSubtype () | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
+
+ **Result:**
+int
+
+
+---
+
+
+### getType {#getType}
+
+| Name | Description |
+| --- | --- |
+| getType () | Represents type of filter effect. Read/write FilterEffectType. |
+
+ **Result:**
+int
+
+
+---
+
+
+### setReveal {#setReveal}
+
+| Name | Description |
+| --- | --- |
+| setReveal (int) | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
+
+
+---
+
+
+### setSubtype {#setSubtype}
+
+| Name | Description |
+| --- | --- |
+| setSubtype (int) | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
+
+
+---
+
+
+### setType {#setType}
+
+| Name | Description |
+| --- | --- |
+| setType (int) | Represents type of filter effect. Read/write FilterEffectType. |
+
+
+---
+
+

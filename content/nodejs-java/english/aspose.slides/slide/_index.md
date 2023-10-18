@@ -11,41 +11,601 @@ url: /aspose.slides/slide/
 
   Represents a slide in a presentation.
  
-
-## Functions
+### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
-| [getHeaderFooterManager](getheaderfootermanager)() | Returns HeaderFooter manager of the slide. Read-only ISlideHeaderFooterManager. |
-| [getHidden](gethidden)() | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
-| [getLayoutSlide](getlayoutslide)() | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
-| [getNotesSlideManager](getnotesslidemanager)() | Allow to access notes slide, add and remove it. Read-only INotesSlideManager. |
-| [getShowMasterShapes](getshowmastershapes)() | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
-| [getSlideComments](getslidecomments)([CommentAuthor](../commentauthor)) | Returns all slide comments added by specific author. |
-| [getSlideNumber](getslidenumber)() | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
-| [getThemeManager](getthememanager)() | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
-| [getThumbnail](getthumbnail)(float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [getThumbnail](getthumbnail)() | Returns a Thumbnail Image object (20% of real size). |
-| [getThumbnail](getthumbnail)(Dimension) | Returns a Thumbnail Bitmap object with specified size. |
-| [getThumbnail](getthumbnail)([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
-| [getThumbnail](getthumbnail)([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage object. |
-| [getThumbnail](getthumbnail)([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
-| [getThumbnail](getthumbnail)([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
-| [getThumbnail](getthumbnail)([RenderingOptions](../renderingoptions)) | Returns a Thumbnail BufferedImage object. |
-| [getThumbnail](getthumbnail)([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
-| [getThumbnail](getthumbnail)([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
-| [joinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [remove](remove)() | Removes slide from presentation. |
-| [renderToGraphics](rendertographics)([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, int, int) | Renders certain slide to a Graphics object using specified size. |
-| [renderToGraphics](rendertographics)([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, float) | Renders certain slide to a Graphics object using specified scale. |
-| [renderToGraphics](rendertographics)([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
-| [renderToGraphics](rendertographics)([RenderingOptions](../renderingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
-| [renderToGraphics](rendertographics)([RenderingOptions](../renderingoptions), Graphics2D, float, float) | Renders certain slide to a Graphics object with custom scaling. |
-| [renderToGraphics](rendertographics)([RenderingOptions](../renderingoptions), Graphics2D, Dimension) | Renders certain slide to a Graphics object using specified size. |
-| [reset](reset)() | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [setHidden](sethidden)(boolean) | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
-| [setLayoutSlide](setlayoutslide)([LayoutSlide](../layoutslide)) | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
-| [setShowMasterShapes](setshowmastershapes)(boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
-| [setSlideNumber](setslidenumber)(int) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
-| [writeAsSvgToStream ](writeassvg)(Slide, WriteStream) | Saves content of slide as SVG file. |
-| [writeAsSvgToStream ](writeassvg)(Slide, WriteStream, [SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |
+| getHeaderFooterManager () | Returns HeaderFooter manager of the slide. Read-only ISlideHeaderFooterManager. |
+
+ **Result:**
+[SlideHeaderFooterManager](../slideheaderfootermanager)
+
+
+---
+
+
+### getHidden {#getHidden}
+
+| Name | Description |
+| --- | --- |
+| getHidden () | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getLayoutSlide {#getLayoutSlide}
+
+| Name | Description |
+| --- | --- |
+| getLayoutSlide () | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
+
+ **Result:**
+[LayoutSlide](../layoutslide)
+
+
+---
+
+
+### getNotesSlideManager {#getNotesSlideManager}
+
+| Name | Description |
+| --- | --- |
+| getNotesSlideManager () | Allow to access notes slide, add and remove it. Read-only INotesSlideManager. |
+
+ **Result:**
+[NotesSlideManager](../notesslidemanager)
+
+
+---
+
+
+### getShowMasterShapes {#getShowMasterShapes}
+
+| Name | Description |
+| --- | --- |
+| getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getSlideComments {#getSlideComments}
+
+| Name | Description |
+| --- | --- |
+| getSlideComments ([CommentAuthor](../commentauthor)) | Returns all slide comments added by specific author. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| author | [CommentAuthor](../commentauthor) | Author of comments to find or null to return all comments. |
+
+ **Result:**
+[Comment](../comment), [ModernComment](../moderncomment)
+
+
+---
+
+
+### getSlideNumber {#getSlideNumber}
+
+| Name | Description |
+| --- | --- |
+| getSlideNumber () | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+
+ **Result:**
+int
+
+
+---
+
+
+### getThemeManager {#getThemeManager}
+
+| Name | Description |
+| --- | --- |
+| getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
+
+ **Result:**
+[SlideThemeManager](../slidethememanager), [ChartThemeManager](../chartthememanager), [NotesSlideThemeManager](../notesslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [LayoutSlideThemeManager](../layoutslidethememanager)
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail (float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Result:**
+BufferedImage
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail () | Returns a Thumbnail Image object (20% of real size). |
+
+ **Result:**
+BufferedImage
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail (Dimension) | Returns a Thumbnail Bitmap object with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Result:**
+BufferedImage
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail ([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [TiffOptions](../tiffoptions) | Tiff options. |
+
+ **Result:**
+BufferedImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
+
+ **Result:**
+BufferedImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Result:**
+BufferedImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Result:**
+BufferedImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail ([RenderingOptions](../renderingoptions)) | Returns a Thumbnail BufferedImage object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+
+ **Result:**
+BufferedImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Result:**
+BufferedImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail ([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Result:**
+BufferedImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### joinPortionsWithSameFormatting {#joinPortionsWithSameFormatting}
+
+| Name | Description |
+| --- | --- |
+| joinPortionsWithSameFormatting () | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove () | Removes slide from presentation. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | PptxEditException | Thrown if slide is already removed from presentation. |
+
+
+---
+
+
+### renderToGraphics {#renderToGraphics}
+
+| Name | Description |
+| --- | --- |
+| renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, int, int) | Renders certain slide to a Graphics object using specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
+| graphics | Graphics2D | The object where to render to. |
+| width | int | The maximum width (in pixels) that can be occupied by the rendered slide. |
+| height | int | The maximum height (in pixels) that can be occupied by the rendered slide. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### renderToGraphics {#renderToGraphics}
+
+| Name | Description |
+| --- | --- |
+| renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, float) | Renders certain slide to a Graphics object using specified scale. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
+| graphics | Graphics2D | The object where to render to. |
+| scale | float | The scale for rendering the slide (1.0 is 100%). |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### renderToGraphics {#renderToGraphics}
+
+| Name | Description |
+| --- | --- |
+| renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
+| graphics | Graphics2D | The object where to render to. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### renderToGraphics {#renderToGraphics}
+
+| Name | Description |
+| --- | --- |
+| renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+| graphics | Graphics2D | The object where to render to. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### renderToGraphics {#renderToGraphics}
+
+| Name | Description |
+| --- | --- |
+| renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D, float, float) | Renders certain slide to a Graphics object with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+| graphics | Graphics2D | The object where to render to. |
+| scaleX | float | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
+| scaleY | float | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### renderToGraphics {#renderToGraphics}
+
+| Name | Description |
+| --- | --- |
+| renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D, Dimension) | Renders certain slide to a Graphics object using specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+| graphics | Graphics2D | The object where to render to. |
+| renderingSize | Dimension | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### reset {#reset}
+
+| Name | Description |
+| --- | --- |
+| reset () | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
+
+
+---
+
+
+### setHidden {#setHidden}
+
+| Name | Description |
+| --- | --- |
+| setHidden (boolean) | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
+
+
+---
+
+
+### setLayoutSlide {#setLayoutSlide}
+
+| Name | Description |
+| --- | --- |
+| setLayoutSlide ([LayoutSlide](../layoutslide)) | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
+
+
+---
+
+
+### setShowMasterShapes {#setShowMasterShapes}
+
+| Name | Description |
+| --- | --- |
+| setShowMasterShapes (boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+
+
+---
+
+
+### setSlideNumber {#setSlideNumber}
+
+| Name | Description |
+| --- | --- |
+| setSlideNumber (int) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+
+
+---
+
+
+### writeAsSvgToStream  {#writeAsSvgToStream }
+
+| Name | Description |
+| --- | --- |
+| writeAsSvgToStream  (Slide, WriteStream) | Saves content of slide as SVG file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | Slide  | link to self |
+| stream | WriteStream | Target stream |
+
+
+---
+
+
+### writeAsSvgToStream  {#writeAsSvgToStream }
+
+| Name | Description |
+| --- | --- |
+| writeAsSvgToStream  (Slide, WriteStream, [SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | Slide  | link to self |
+| stream | WriteStream | Target stream |
+| svgOptions | [SVGOptions](../svgoptions) | SVG generation options |
+
+
+---
+
+

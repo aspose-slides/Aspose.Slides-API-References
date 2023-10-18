@@ -11,32 +11,294 @@ url: /aspose.slides/outershadow/
 
  Represents an Outer Shadow effect.
  
-
-## Functions
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified OuterShadow is equal to the current OuterShadow. |
-| [getBlurRadius](getblurradius)() | Blur radius. Read/write double. |
-| [getDirection](getdirection)() | Direction of shadow. Read/write float. |
-| [getDistance](getdistance)() | Distance of shadow. Read/write double. |
-| [getEffective](geteffective)() | Gets effective Outer Shadow effect data with the inheritance applied. |
-| [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
-| [getRectangleAlign](getrectanglealign)() | Rectangle alignment. Read/write RectangleAlignment. |
-| [getRotateShadowWithShape](getrotateshadowwithshape)() | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |
-| [getScaleHorizontal](getscalehorizontal)() | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write double. |
-| [getScaleVertical](getscalevertical)() | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write double. |
-| [getShadowColor](getshadowcolor)() | Color of shadow. Read-only IColorFormat. |
-| [getSkewHorizontal](getskewhorizontal)() | Specifies the horizontal skew angle (in degrees). Read/write double. |
-| [getSkewVertical](getskewvertical)() | Specifies the vertical skew angle (in degrees). Read/write double. |
-| [getVersion](getversion)() |  |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
-| [setBlurRadius](setblurradius)(double) | Blur radius. Read/write double. |
-| [setDirection](setdirection)(float) | Direction of shadow. Read/write float. |
-| [setDistance](setdistance)(double) | Distance of shadow. Read/write double. |
-| [setRectangleAlign](setrectanglealign)(byte) | Rectangle alignment. Read/write RectangleAlignment. |
-| [setRotateShadowWithShape](setrotateshadowwithshape)(boolean) | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |
-| [setScaleHorizontal](setscalehorizontal)(double) | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write double. |
-| [setScaleVertical](setscalevertical)(double) | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write double. |
-| [setSkewHorizontal](setskewhorizontal)(double) | Specifies the horizontal skew angle (in degrees). Read/write double. |
-| [setSkewVertical](setskewvertical)(double) | Specifies the vertical skew angle (in degrees). Read/write double. |
+| equals (Object) | Determines whether the specified OuterShadow is equal to the current OuterShadow. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The OuterShadow to compare. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getBlurRadius {#getBlurRadius}
+
+| Name | Description |
+| --- | --- |
+| getBlurRadius () | Blur radius. Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getDirection {#getDirection}
+
+| Name | Description |
+| --- | --- |
+| getDirection () | Direction of shadow. Read/write float. |
+
+ **Result:**
+float
+
+
+---
+
+
+### getDistance {#getDistance}
+
+| Name | Description |
+| --- | --- |
+| getDistance () | Distance of shadow. Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getEffective {#getEffective}
+
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Outer Shadow effect data with the inheritance applied. |
+
+ **Result:**
+OuterShadowEffectiveData
+
+
+---
+
+
+### getParent_IPresentationComponent {#getParent_IPresentationComponent}
+
+| Name | Description |
+| --- | --- |
+| getParent_IPresentationComponent () |  |
+
+ **Result:**
+[MasterSlide](../masterslide), [Legend](../legend), [Axis](../axis), [SketchFormat](../sketchformat), [NotesSlide](../notesslide), [ParagraphFormat](../paragraphformat), [AlphaModulate](../alphamodulate), [AlphaFloor](../alphafloor), [Ink](../ink), [BaseSlide](../baseslide), [FillOverlay](../filloverlay), [CellFormat](../cellformat), [BulletFormat](../bulletformat), [SummaryZoomSection](../summaryzoomsection), [SmartArtShape](../smartartshape), [ColorReplace](../colorreplace), [LegacyDiagram](../legacydiagram), [Portion](../portion), [Backdrop3DScene](../backdrop3dscene), [MasterHandoutSlide](../masterhandoutslide), [ParagraphCollection](../paragraphcollection), [AlphaBiLevel](../alphabilevel), [Slide](../slide), [ZoomObject](../zoomobject), [SummaryZoomFrame](../summaryzoomframe), [Blur](../blur), [Paragraph](../paragraph), [Picture](../picture), [DataLabelFormat](../datalabelformat), [BiLevel](../bilevel), [AlphaReplace](../alphareplace), [ColorFormat](../colorformat), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [ImageTransformOperation](../imagetransformoperation), [HSL](../hsl), [ShapeBevel](../shapebevel), [GroupShape](../groupshape), [TextFrame](../textframe), [GeometryShape](../geometryshape), [VideoFrame](../videoframe), [AlphaModulateFixed](../alphamodulatefixed), [ColorChange](../colorchange), [ChartSeriesGroup](../chartseriesgroup), [ChartPortionFormat](../chartportionformat), [PVIObject](../pviobject), [EffectFormat](../effectformat), [PictureFillFormat](../picturefillformat), [Cell](../cell), [PortionFormat](../portionformat), [SectionZoomFrame](../sectionzoomframe), [GradientFormat](../gradientformat), [AutoShape](../autoshape), [Camera](../camera), [LegendEntryProperties](../legendentryproperties), [DataLabel](../datalabel), [ChartPlotArea](../chartplotarea), [Column](../column), [Theme](../theme), [ChartTitle](../charttitle), [TextFrameFormat](../textframeformat), [LineFillFormat](../linefillformat), [GrayScale](../grayscale), [LightRig](../lightrig), [OverrideTheme](../overridetheme), [SmartArt](../smartart), [FormatScheme](../formatscheme), [Row](../row), [Hyperlink](../hyperlink), [Shape](../shape), [BasePortionFormat](../baseportionformat), [Duotone](../duotone), [MasterNotesSlide](../masternotesslide), [GradientStop](../gradientstop), [DataTable](../datatable), [Background](../background), [ImageTransformOperationCollection](../imagetransformoperationcollection), [ZoomFrame](../zoomframe), [FillFormat](../fillformat), [Tint](../tint), [OleObjectFrame](../oleobjectframe), [MasterTheme](../mastertheme), [DataLabelCollection](../datalabelcollection), [Format](../format), [PatternFormat](../patternformat), [Trendline](../trendline), [Presentation](../presentation), [LayoutSlide](../layoutslide), [ThreeDFormat](../threedformat), [Tab](../tab), [GradientStopCollection](../gradientstopcollection), [ColorScheme](../colorscheme), [Connector](../connector), [AlphaCeiling](../alphaceiling), [ChartSeries](../chartseries), [Field](../field), [AudioFrame](../audioframe), [LineFormat](../lineformat), [MathPortion](../mathportion), [AlphaInverse](../alphainverse), [PictureFrame](../pictureframe), [Luminance](../luminance), [CellCollection](../cellcollection), [Table](../table), [Chart](../chart), [Control](../control), [ErrorBarsFormat](../errorbarsformat)
+
+
+---
+
+
+### getRectangleAlign {#getRectangleAlign}
+
+| Name | Description |
+| --- | --- |
+| getRectangleAlign () | Rectangle alignment. Read/write RectangleAlignment. |
+
+ **Result:**
+byte
+
+
+---
+
+
+### getRotateShadowWithShape {#getRotateShadowWithShape}
+
+| Name | Description |
+| --- | --- |
+| getRotateShadowWithShape () | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getScaleHorizontal {#getScaleHorizontal}
+
+| Name | Description |
+| --- | --- |
+| getScaleHorizontal () | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getScaleVertical {#getScaleVertical}
+
+| Name | Description |
+| --- | --- |
+| getScaleVertical () | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getShadowColor {#getShadowColor}
+
+| Name | Description |
+| --- | --- |
+| getShadowColor () | Color of shadow. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getSkewHorizontal {#getSkewHorizontal}
+
+| Name | Description |
+| --- | --- |
+| getSkewHorizontal () | Specifies the horizontal skew angle (in degrees). Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getSkewVertical {#getSkewVertical}
+
+| Name | Description |
+| --- | --- |
+| getSkewVertical () | Specifies the vertical skew angle (in degrees). Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### hashCode {#hashCode}
+
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
+
+ **Result:**
+int
+
+
+---
+
+
+### setBlurRadius {#setBlurRadius}
+
+| Name | Description |
+| --- | --- |
+| setBlurRadius (double) | Blur radius. Read/write double. |
+
+
+---
+
+
+### setDirection {#setDirection}
+
+| Name | Description |
+| --- | --- |
+| setDirection (float) | Direction of shadow. Read/write float. |
+
+
+---
+
+
+### setDistance {#setDistance}
+
+| Name | Description |
+| --- | --- |
+| setDistance (double) | Distance of shadow. Read/write double. |
+
+
+---
+
+
+### setRectangleAlign {#setRectangleAlign}
+
+| Name | Description |
+| --- | --- |
+| setRectangleAlign (byte) | Rectangle alignment. Read/write RectangleAlignment. |
+
+
+---
+
+
+### setRotateShadowWithShape {#setRotateShadowWithShape}
+
+| Name | Description |
+| --- | --- |
+| setRotateShadowWithShape (boolean) | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |
+
+
+---
+
+
+### setScaleHorizontal {#setScaleHorizontal}
+
+| Name | Description |
+| --- | --- |
+| setScaleHorizontal (double) | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write double. |
+
+
+---
+
+
+### setScaleVertical {#setScaleVertical}
+
+| Name | Description |
+| --- | --- |
+| setScaleVertical (double) | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write double. |
+
+
+---
+
+
+### setSkewHorizontal {#setSkewHorizontal}
+
+| Name | Description |
+| --- | --- |
+| setSkewHorizontal (double) | Specifies the horizontal skew angle (in degrees). Read/write double. |
+
+
+---
+
+
+### setSkewVertical {#setSkewVertical}
+
+| Name | Description |
+| --- | --- |
+| setSkewVertical (double) | Specifies the vertical skew angle (in degrees). Read/write double. |
+
+
+---
+
+

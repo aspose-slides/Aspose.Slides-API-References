@@ -16,9 +16,39 @@ url: /aspose.slides/mathrowspacingrule/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| SingleLineGap | 0 | single line gap |
-| OneAndAHalfLineGap | 1 | One and a half line gap |
-| TwoLineGap | 2 | Two lines gap |
-| Exactly | 3 | Exactly (rely on value of the RowSpacing property, measured in points) |
-| Multiple | 4 | Multiple (rely on value of the RowSpacing property, measured in lines) |
+[SingleLineGap](#SingleLineGap) | 0 | single line gap |
+[OneAndAHalfLineGap](#OneAndAHalfLineGap) | 1 | One and a half line gap |
+[TwoLineGap](#TwoLineGap) | 2 | Two lines gap |
+[Exactly](#Exactly) | 3 | Exactly (rely on value of the RowSpacing property, measured in points) |
+[Multiple](#Multiple) | 4 | Multiple (rely on value of the RowSpacing property, measured in lines) |
+
+
+---
+
+
+### SingleLineGap {#SingleLineGap}
+single line gap
+
+---
+
+### OneAndAHalfLineGap {#OneAndAHalfLineGap}
+One and a half line gap
+
+---
+
+### TwoLineGap {#TwoLineGap}
+Two lines gap
+
+---
+
+### Exactly {#Exactly}
+Exactly (rely on value of the RowSpacing property, measured in points)
+
+---
+
+### Multiple {#Multiple}
+Multiple (rely on value of the RowSpacing property, measured in lines)
+
+---
+
 

@@ -11,17 +11,55 @@ url: /aspose.slides/vbaprojectfactory/
 
  Allows to create VBA project via COM interface
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [VbaProjectFactory](vbaprojectfactory)() |  |
-
-## Functions
+### VbaProjectFactory {#VbaProjectFactory}
 
 | Name | Description |
 | --- | --- |
-| [createVbaProject](createvbaproject)() | Creates new VBA project. |
-| [getInstance](getinstance)() | VBA project factory static instance. Read-only VbaProjectFactory. |
-| [readVbaProject](readvbaproject)(byte[]) | Reads VBA project from OLE container. |
+| VbaProjectFactory() |  |
+
+ **Result:**
+VbaProjectFactory
+
+
+---
+
+
+### createVbaProject {#createVbaProject}
+
+| Name | Description |
+| --- | --- |
+| createVbaProject () | Creates new VBA project. |
+
+ **Result:**
+[VbaProject](../vbaproject)
+
+
+---
+
+
+### getInstance {#getInstance}
+
+| Name | Description |
+| --- | --- |
+| getInstance () | VBA project factory static instance. Read-only VbaProjectFactory. |
+
+ **Result:**
+VbaProjectFactory
+
+
+---
+
+
+### readVbaProject {#readVbaProject}
+
+| Name | Description |
+| --- | --- |
+| readVbaProject (byte[]) | Reads VBA project from OLE container. |
+
+ **Result:**
+[VbaProject](../vbaproject)
+
+
+---
+
+

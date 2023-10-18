@@ -11,10 +11,29 @@ url: /aspose.slides/frametickeventargs/
 
  Represents arguments of the  PresentationPlayer.FrameTick event.
  
-
-## Functions
+### getFrame {#getFrame}
 
 | Name | Description |
 | --- | --- |
-| [getFrame](getframe)() | Get the current PresentationPlayer frame. |
-| [getPlayer](getplayer)() | Get the presentation player |
+| getFrame () | Get the current PresentationPlayer frame. |
+
+ **Result:**
+BufferedImage
+
+
+---
+
+
+### getPlayer {#getPlayer}
+
+| Name | Description |
+| --- | --- |
+| getPlayer () | Get the presentation player |
+
+ **Result:**
+PresentationPlayer
+
+
+---
+
+

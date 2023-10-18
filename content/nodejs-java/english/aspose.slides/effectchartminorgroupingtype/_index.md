@@ -16,6 +16,21 @@ url: /aspose.slides/effectchartminorgroupingtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ByElementInSeries | 0 | Animate chart by element in series |
-| ByElementInCategory | 1 | Animate chart by element in category |
+[ByElementInSeries](#ByElementInSeries) | 0 | Animate chart by element in series |
+[ByElementInCategory](#ByElementInCategory) | 1 | Animate chart by element in category |
+
+
+---
+
+
+### ByElementInSeries {#ByElementInSeries}
+Animate chart by element in series
+
+---
+
+### ByElementInCategory {#ByElementInCategory}
+Animate chart by element in category
+
+---
+
 

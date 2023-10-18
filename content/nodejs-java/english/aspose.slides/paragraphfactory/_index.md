@@ -13,16 +13,48 @@ url: /aspose.slides/paragraphfactory/
  
  For COM compatibility.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [ParagraphFactory](paragraphfactory)() |  |
-
-## Functions
+### ParagraphFactory {#ParagraphFactory}
 
 | Name | Description |
 | --- | --- |
-| [createParagraph](createparagraph)() | Creates a new empty paragraph. |
-| [createParagraph](createparagraph)([Paragraph](../paragraph)) | Creates a new paragraph with specified paragraph data using. |
+| ParagraphFactory() |  |
+
+ **Result:**
+ParagraphFactory
+
+
+---
+
+
+### createParagraph {#createParagraph}
+
+| Name | Description |
+| --- | --- |
+| createParagraph () | Creates a new empty paragraph. |
+
+ **Result:**
+[Paragraph](../paragraph)
+
+
+---
+
+
+### createParagraph {#createParagraph}
+
+| Name | Description |
+| --- | --- |
+| createParagraph ([Paragraph](../paragraph)) | Creates a new paragraph with specified paragraph data using. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| paragraph | [Paragraph](../paragraph) | A paragraph to use data. |
+
+ **Result:**
+[Paragraph](../paragraph)
+
+
+---
+
+

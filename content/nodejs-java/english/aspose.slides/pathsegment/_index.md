@@ -11,10 +11,29 @@ url: /aspose.slides/pathsegment/
 
  Represents segment of graphics path of GeometryShape
  
-
-## Functions
+### getPathCommand {#getPathCommand}
 
 | Name | Description |
 | --- | --- |
-| [getPathCommand](getpathcommand)() | Path type of the segment |
-| [getSegmentData](getsegmentdata)() | Path data of the segment |
+| getPathCommand () | Path type of the segment |
+
+ **Result:**
+byte
+
+
+---
+
+
+### getSegmentData {#getSegmentData}
+
+| Name | Description |
+| --- | --- |
+| getSegmentData () | Path data of the segment |
+
+ **Result:**
+float
+
+
+---
+
+

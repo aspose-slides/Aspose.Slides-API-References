@@ -11,22 +11,108 @@ url: /aspose.slides/texttohtmlconversionoptions/
 
  Options for extracting HTML from the Pptx text.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [TextToHtmlConversionOptions](texttohtmlconversionoptions)() |  |
-
-## Functions
+### TextToHtmlConversionOptions {#TextToHtmlConversionOptions}
 
 | Name | Description |
 | --- | --- |
-| [getAddClipboardFragmentHeader](getaddclipboardfragmentheader)() | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
-| [getEncodingName](getencodingname)() | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
-| [getLinkEmbedController](getlinkembedcontroller)() | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
-| [getTextInheritanceLimit](gettextinheritancelimit)() | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
-| [setAddClipboardFragmentHeader](setaddclipboardfragmentheader)(boolean) | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
-| [setEncodingName](setencodingname)(String) | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
-| [setLinkEmbedController](setlinkembedcontroller)([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
-| [setTextInheritanceLimit](settextinheritancelimit)(int) | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
+| TextToHtmlConversionOptions() |  |
+
+ **Result:**
+TextToHtmlConversionOptions
+
+
+---
+
+
+### getAddClipboardFragmentHeader {#getAddClipboardFragmentHeader}
+
+| Name | Description |
+| --- | --- |
+| getAddClipboardFragmentHeader () | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getEncodingName {#getEncodingName}
+
+| Name | Description |
+| --- | --- |
+| getEncodingName () | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
+
+ **Result:**
+String
+
+
+---
+
+
+### getLinkEmbedController {#getLinkEmbedController}
+
+| Name | Description |
+| --- | --- |
+| getLinkEmbedController () | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
+
+ **Result:**
+[VideoPlayerHtmlController](../videoplayerhtmlcontroller)
+
+
+---
+
+
+### getTextInheritanceLimit {#getTextInheritanceLimit}
+
+| Name | Description |
+| --- | --- |
+| getTextInheritanceLimit () | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
+
+ **Result:**
+int
+
+
+---
+
+
+### setAddClipboardFragmentHeader {#setAddClipboardFragmentHeader}
+
+| Name | Description |
+| --- | --- |
+| setAddClipboardFragmentHeader (boolean) | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
+
+
+---
+
+
+### setEncodingName {#setEncodingName}
+
+| Name | Description |
+| --- | --- |
+| setEncodingName (String) | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
+
+
+---
+
+
+### setLinkEmbedController {#setLinkEmbedController}
+
+| Name | Description |
+| --- | --- |
+| setLinkEmbedController ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
+
+
+---
+
+
+### setTextInheritanceLimit {#setTextInheritanceLimit}
+
+| Name | Description |
+| --- | --- |
+| setTextInheritanceLimit (int) | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
+
+
+---
+
+

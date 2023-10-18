@@ -13,11 +13,48 @@ url: /aspose.slides/alphaceiling/
  Alpha (opacity) values greater than zero are changed to 100%.
  In other words, anything partially opaque becomes fully opaque.
  
-
-## Functions
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified AlphaCeiling is equal to the current AlphaCeiling. |
-| [getEffective](geteffective)() | Gets effective Alpha Ceiling effect data with the inheritance applied. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| equals (Object) | Determines whether the specified AlphaCeiling is equal to the current AlphaCeiling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaCeiling to compare. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getEffective {#getEffective}
+
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Alpha Ceiling effect data with the inheritance applied. |
+
+ **Result:**
+AlphaCeilingEffectiveData
+
+
+---
+
+
+### hashCode {#hashCode}
+
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
+
+ **Result:**
+int
+
+
+---
+
+

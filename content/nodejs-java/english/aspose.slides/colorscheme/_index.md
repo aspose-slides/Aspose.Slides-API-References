@@ -11,23 +11,198 @@ url: /aspose.slides/colorscheme/
 
  Stores theme-defined colors.
  
-
-## Functions
+### getAccent1 {#getAccent1}
 
 | Name | Description |
 | --- | --- |
-| [getAccent1](getaccent1)() | First accent color in the scheme. Read-only IColorFormat. |
-| [getAccent2](getaccent2)() | Second accent color in the scheme. Read-only IColorFormat. |
-| [getAccent3](getaccent3)() | Third accent color in the scheme. Read-only IColorFormat. |
-| [getAccent4](getaccent4)() | Fourth accent color in the scheme. Read-only IColorFormat. |
-| [getAccent5](getaccent5)() | Fifth accent color in the scheme. Read-only IColorFormat. |
-| [getAccent6](getaccent6)() | Sixth accent color in the scheme. Read-only IColorFormat. |
-| [getByColorSchemeIndex](getbycolorschemeindex)(byte) | Gets the element at the specified index. Read-only IColorFormat. |
-| [getDark1](getdark1)() | First dark color in the scheme. Read-only IColorFormat. |
-| [getDark2](getdark2)() | Second dark color in the scheme. Read-only IColorFormat. |
-| [getFollowedHyperlink](getfollowedhyperlink)() | Color for the visited hyperlinks. Read-only IColorFormat. |
-| [getHyperlink](gethyperlink)() | Color for the hyperlinks. Read-only IColorFormat. |
-| [getLight1](getlight1)() | First light color in the scheme. Read-only IColorFormat. |
-| [getLight2](getlight2)() | Second light color in the scheme. Read-only IColorFormat. |
-| [getPresentation](getpresentation)() | Returns the parent presentation. Read-only IPresentation. |
-| [getSlide](getslide)() | Returns the parent slide. Read-only IBaseSlide. |
+| getAccent1 () | First accent color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getAccent2 {#getAccent2}
+
+| Name | Description |
+| --- | --- |
+| getAccent2 () | Second accent color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getAccent3 {#getAccent3}
+
+| Name | Description |
+| --- | --- |
+| getAccent3 () | Third accent color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getAccent4 {#getAccent4}
+
+| Name | Description |
+| --- | --- |
+| getAccent4 () | Fourth accent color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getAccent5 {#getAccent5}
+
+| Name | Description |
+| --- | --- |
+| getAccent5 () | Fifth accent color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getAccent6 {#getAccent6}
+
+| Name | Description |
+| --- | --- |
+| getAccent6 () | Sixth accent color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getByColorSchemeIndex {#getByColorSchemeIndex}
+
+| Name | Description |
+| --- | --- |
+| getByColorSchemeIndex (byte) | Gets the element at the specified index. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getDark1 {#getDark1}
+
+| Name | Description |
+| --- | --- |
+| getDark1 () | First dark color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getDark2 {#getDark2}
+
+| Name | Description |
+| --- | --- |
+| getDark2 () | Second dark color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getFollowedHyperlink {#getFollowedHyperlink}
+
+| Name | Description |
+| --- | --- |
+| getFollowedHyperlink () | Color for the visited hyperlinks. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getHyperlink {#getHyperlink}
+
+| Name | Description |
+| --- | --- |
+| getHyperlink () | Color for the hyperlinks. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getLight1 {#getLight1}
+
+| Name | Description |
+| --- | --- |
+| getLight1 () | First light color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getLight2 {#getLight2}
+
+| Name | Description |
+| --- | --- |
+| getLight2 () | Second light color in the scheme. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation. Read-only IPresentation. |
+
+ **Result:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide. Read-only IBaseSlide. |
+
+ **Result:**
+[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [BaseSlide](../baseslide)
+
+
+---
+
+

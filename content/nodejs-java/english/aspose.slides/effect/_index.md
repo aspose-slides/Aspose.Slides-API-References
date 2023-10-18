@@ -11,33 +11,295 @@ url: /aspose.slides/effect/
 
  Represents animation effect.
  
-
-## Functions
+### getAfterAnimationColor {#getAfterAnimationColor}
 
 | Name | Description |
 | --- | --- |
-| [getAfterAnimationColor](getafteranimationcolor)() | Defines an after animation color for effect. Read/write IColorFormat. |
-| [getAfterAnimationType](getafteranimationtype)() | Defines an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
-| [getAnimateTextType](getanimatetexttype)() | Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write AnimateTextType( #getAnimateTextType/ #setAnimateTextType(int)). |
-| [getBehaviors](getbehaviors)() | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
-| [getDelayBetweenTextParts](getdelaybetweentextparts)() | Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write float. |
-| [getPresetClassType](getpresetclasstype)() | Defines class of effect. Read/write EffectPresetClassType. |
-| [getSequence](getsequence)() | Returns a sequence for an effect. Read-only ISequence. |
-| [getSound](getsound)() | Defined embedded sound for effect. Read/write IAudio. |
-| [getStopPreviousSound](getstopprevioussound)() | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
-| [getSubtype](getsubtype)() | Defines subtype of effect. Read/write EffectSubtype. |
-| [getTargetShape](gettargetshape)() | Returns target shape for effect. Read-only IShape. |
-| [getTextAnimation](gettextanimation)() | TextAnimation Read-only ITextAnimation. |
-| [getTiming](gettiming)() | Defines timing value for effect. Read/write ITiming. |
-| [getType](gettype)() | Defines type of effect. Read/write EffectType. |
-| [setAfterAnimationColor](setafteranimationcolor)([ColorFormat](../colorformat)) | Defines an after animation color for effect. Read/write IColorFormat. |
-| [setAfterAnimationType](setafteranimationtype)(int) | Defines an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
-| [setAnimateTextType](setanimatetexttype)(int) | Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write AnimateTextType( #getAnimateTextType/ #setAnimateTextType(int)). |
-| [setBehaviors](setbehaviors)([BehaviorCollection](../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
-| [setDelayBetweenTextParts](setdelaybetweentextparts)(float) | Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write float. |
-| [setPresetClassType](setpresetclasstype)(int) | Defines class of effect. Read/write EffectPresetClassType. |
-| [setSound](setsound)([Audio](../audio)) | Defined embedded sound for effect. Read/write IAudio. |
-| [setStopPreviousSound](setstopprevioussound)(boolean) | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
-| [setSubtype](setsubtype)(int) | Defines subtype of effect. Read/write EffectSubtype. |
-| [setTiming](settiming)([Timing](../timing)) | Defines timing value for effect. Read/write ITiming. |
-| [setType](settype)(int) | Defines type of effect. Read/write EffectType. |
+| getAfterAnimationColor () | Defines an after animation color for effect. Read/write IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getAfterAnimationType {#getAfterAnimationType}
+
+| Name | Description |
+| --- | --- |
+| getAfterAnimationType () | Defines an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+
+ **Result:**
+int
+
+
+---
+
+
+### getAnimateTextType {#getAnimateTextType}
+
+| Name | Description |
+| --- | --- |
+| getAnimateTextType () | Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write AnimateTextType( #getAnimateTextType/ #setAnimateTextType(int)). |
+
+ **Result:**
+int
+
+
+---
+
+
+### getBehaviors {#getBehaviors}
+
+| Name | Description |
+| --- | --- |
+| getBehaviors () | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+
+ **Result:**
+[BehaviorCollection](../behaviorcollection)
+
+
+---
+
+
+### getDelayBetweenTextParts {#getDelayBetweenTextParts}
+
+| Name | Description |
+| --- | --- |
+| getDelayBetweenTextParts () | Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write float. |
+
+ **Result:**
+float
+
+
+---
+
+
+### getPresetClassType {#getPresetClassType}
+
+| Name | Description |
+| --- | --- |
+| getPresetClassType () | Defines class of effect. Read/write EffectPresetClassType. |
+
+ **Result:**
+int
+
+
+---
+
+
+### getSequence {#getSequence}
+
+| Name | Description |
+| --- | --- |
+| getSequence () | Returns a sequence for an effect. Read-only ISequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### getSound {#getSound}
+
+| Name | Description |
+| --- | --- |
+| getSound () | Defined embedded sound for effect. Read/write IAudio. |
+
+ **Result:**
+[Audio](../audio)
+
+
+---
+
+
+### getStopPreviousSound {#getStopPreviousSound}
+
+| Name | Description |
+| --- | --- |
+| getStopPreviousSound () | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getSubtype {#getSubtype}
+
+| Name | Description |
+| --- | --- |
+| getSubtype () | Defines subtype of effect. Read/write EffectSubtype. |
+
+ **Result:**
+int
+
+
+---
+
+
+### getTargetShape {#getTargetShape}
+
+| Name | Description |
+| --- | --- |
+| getTargetShape () | Returns target shape for effect. Read-only IShape. |
+
+ **Result:**
+[SectionZoomFrame](../sectionzoomframe), [GeometryShape](../geometryshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [SmartArtShape](../smartartshape), [AudioFrame](../audioframe), [Shape](../shape), [LegacyDiagram](../legacydiagram), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [Ink](../ink), [ZoomObject](../zoomobject), [SummaryZoomFrame](../summaryzoomframe), [Table](../table), [OleObjectFrame](../oleobjectframe), [Chart](../chart), [SmartArt](../smartart), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### getTextAnimation {#getTextAnimation}
+
+| Name | Description |
+| --- | --- |
+| getTextAnimation () | TextAnimation Read-only ITextAnimation. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### getTiming {#getTiming}
+
+| Name | Description |
+| --- | --- |
+| getTiming () | Defines timing value for effect. Read/write ITiming. |
+
+ **Result:**
+[Timing](../timing)
+
+
+---
+
+
+### getType {#getType}
+
+| Name | Description |
+| --- | --- |
+| getType () | Defines type of effect. Read/write EffectType. |
+
+ **Result:**
+int
+
+
+---
+
+
+### setAfterAnimationColor {#setAfterAnimationColor}
+
+| Name | Description |
+| --- | --- |
+| setAfterAnimationColor ([ColorFormat](../colorformat)) | Defines an after animation color for effect. Read/write IColorFormat. |
+
+
+---
+
+
+### setAfterAnimationType {#setAfterAnimationType}
+
+| Name | Description |
+| --- | --- |
+| setAfterAnimationType (int) | Defines an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+
+
+---
+
+
+### setAnimateTextType {#setAnimateTextType}
+
+| Name | Description |
+| --- | --- |
+| setAnimateTextType (int) | Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write AnimateTextType( #getAnimateTextType/ #setAnimateTextType(int)). |
+
+
+---
+
+
+### setBehaviors {#setBehaviors}
+
+| Name | Description |
+| --- | --- |
+| setBehaviors ([BehaviorCollection](../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+
+
+---
+
+
+### setDelayBetweenTextParts {#setDelayBetweenTextParts}
+
+| Name | Description |
+| --- | --- |
+| setDelayBetweenTextParts (float) | Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write float. |
+
+
+---
+
+
+### setPresetClassType {#setPresetClassType}
+
+| Name | Description |
+| --- | --- |
+| setPresetClassType (int) | Defines class of effect. Read/write EffectPresetClassType. |
+
+
+---
+
+
+### setSound {#setSound}
+
+| Name | Description |
+| --- | --- |
+| setSound ([Audio](../audio)) | Defined embedded sound for effect. Read/write IAudio. |
+
+
+---
+
+
+### setStopPreviousSound {#setStopPreviousSound}
+
+| Name | Description |
+| --- | --- |
+| setStopPreviousSound (boolean) | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
+
+
+---
+
+
+### setSubtype {#setSubtype}
+
+| Name | Description |
+| --- | --- |
+| setSubtype (int) | Defines subtype of effect. Read/write EffectSubtype. |
+
+
+---
+
+
+### setTiming {#setTiming}
+
+| Name | Description |
+| --- | --- |
+| setTiming ([Timing](../timing)) | Defines timing value for effect. Read/write ITiming. |
+
+
+---
+
+
+### setType {#setType}
+
+| Name | Description |
+| --- | --- |
+| setType (int) | Defines type of effect. Read/write EffectType. |
+
+
+---
+
+

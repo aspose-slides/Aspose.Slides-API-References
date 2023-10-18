@@ -16,7 +16,27 @@ url: /aspose.slides/motionpatheditmode/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Relative | 0 |  |
-| Fixed | 1 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Relative](#Relative) | 0 |  |
+[Fixed](#Fixed) | 1 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+
+
+---
+
+### Relative {#Relative}
+
+
+---
+
+### Fixed {#Fixed}
+
+
+---
+
 

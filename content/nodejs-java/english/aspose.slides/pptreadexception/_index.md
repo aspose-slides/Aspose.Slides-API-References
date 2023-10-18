@@ -11,11 +11,55 @@ url: /aspose.slides/pptreadexception/
 
  Represents an exception which thrown on presentation reading errors.
  
-
-## Functions
+### PptReadException {#PptReadException}
 
 | Name | Description |
 | --- | --- |
-| [PptReadException](pptreadexception)() | Default function. |
-| [PptReadException](pptreadexception)(String) | Constructor allowing a message to be added to this exception. |
-| [PptReadException](pptreadexception)(String, Exception) | Constructor for an exception containing a message and an embedded exception. |
+| PptReadException() | Default function. |
+
+ **Result:**
+PptReadException
+
+
+---
+
+
+### PptReadException {#PptReadException}
+
+| Name | Description |
+| --- | --- |
+| PptReadException(String) | Constructor allowing a message to be added to this exception. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
+ **Result:**
+PptReadException
+
+
+---
+
+
+### PptReadException {#PptReadException}
+
+| Name | Description |
+| --- | --- |
+| PptReadException(String, Exception) | Constructor for an exception containing a message and an embedded exception. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | Exception | original exception |
+
+ **Result:**
+PptReadException
+
+
+---
+
+

@@ -11,12 +11,52 @@ url: /aspose.slides/gradientstop/
 
  Represents a gradient format.
  
-
-## Functions
+### getColor {#getColor}
 
 | Name | Description |
 | --- | --- |
-| [getColor](getcolor)() | Returns the color of a gradient stop. Read-only IColorFormat. |
-| [getPosition](getposition)() | Returns or sets the position (0..1) of a gradient stop. Read/write float. |
-| [getVersion](getversion)() |  |
-| [setPosition](setposition)(float) | Returns or sets the position (0..1) of a gradient stop. Read/write float. |
+| getColor () | Returns the color of a gradient stop. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getPosition {#getPosition}
+
+| Name | Description |
+| --- | --- |
+| getPosition () | Returns or sets the position (0..1) of a gradient stop. Read/write float. |
+
+ **Result:**
+float
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### setPosition {#setPosition}
+
+| Name | Description |
+| --- | --- |
+| setPosition (float) | Returns or sets the position (0..1) of a gradient stop. Read/write float. |
+
+
+---
+
+

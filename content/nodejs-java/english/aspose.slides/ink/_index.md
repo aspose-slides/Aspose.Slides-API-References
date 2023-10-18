@@ -11,3 +11,16 @@ url: /aspose.slides/ink/
 
  Represents an ink object on a slide.
  
+### getTraces {#getTraces}
+
+| Name | Description |
+| --- | --- |
+| getTraces () | Gets all traces containing in the IInk element IInkTrace. Read-only. |
+
+ **Result:**
+[InkTrace](../inktrace)
+
+
+---
+
+

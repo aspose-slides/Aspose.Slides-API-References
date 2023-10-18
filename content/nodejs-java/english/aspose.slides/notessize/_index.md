@@ -11,16 +11,39 @@ url: /aspose.slides/notessize/
 
  Represents a size of notes slide.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [NotesSize](notessize)() |  |
-
-## Functions
+### NotesSize {#NotesSize}
 
 | Name | Description |
 | --- | --- |
-| [getSize](getsize)() | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
-| [setSize](setsize)(Dimension2D) | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
+| NotesSize() |  |
+
+ **Result:**
+NotesSize
+
+
+---
+
+
+### getSize {#getSize}
+
+| Name | Description |
+| --- | --- |
+| getSize () | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
+
+ **Result:**
+Dimension2D
+
+
+---
+
+
+### setSize {#setSize}
+
+| Name | Description |
+| --- | --- |
+| setSize (Dimension2D) | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
+
+
+---
+
+

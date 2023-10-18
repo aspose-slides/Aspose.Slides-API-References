@@ -11,13 +11,62 @@ url: /aspose.slides/chartwall/
 
  Represents walls on 3d charts.
  
-
-## Functions
+### getFormat {#getFormat}
 
 | Name | Description |
 | --- | --- |
-| [getFormat](getformat)() | Returns the wall fill, line, effect, 3d styles. Read-only IFormat. |
-| [getPictureType](getpicturetype)() | Return or sets the picture type. Read/write PictureType. |
-| [getThickness](getthickness)() | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
-| [setPictureType](setpicturetype)(int) | Return or sets the picture type. Read/write PictureType. |
-| [setThickness](setthickness)(int) | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
+| getFormat () | Returns the wall fill, line, effect, 3d styles. Read-only IFormat. |
+
+ **Result:**
+[Format](../format)
+
+
+---
+
+
+### getPictureType {#getPictureType}
+
+| Name | Description |
+| --- | --- |
+| getPictureType () | Return or sets the picture type. Read/write PictureType. |
+
+ **Result:**
+int
+
+
+---
+
+
+### getThickness {#getThickness}
+
+| Name | Description |
+| --- | --- |
+| getThickness () | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
+
+ **Result:**
+int
+
+
+---
+
+
+### setPictureType {#setPictureType}
+
+| Name | Description |
+| --- | --- |
+| setPictureType (int) | Return or sets the picture type. Read/write PictureType. |
+
+
+---
+
+
+### setThickness {#setThickness}
+
+| Name | Description |
+| --- | --- |
+| setThickness (int) | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
+
+
+---
+
+

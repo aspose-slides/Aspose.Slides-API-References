@@ -13,22 +13,132 @@ url: /aspose.slides/imagetransformocollectioneffectivedata/
  
  Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() |  |
-
-## Functions
+### ImageTransformOCollectionEffectiveData {#ImageTransformOCollectionEffectiveData}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified object is equal to the current object. |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns element by index. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [size](size)() | Returns the number of image effects in a collection. Read-only int. |
+| ImageTransformOCollectionEffectiveData() |  |
+
+ **Result:**
+ImageTransformOCollectionEffectiveData
+
+
+---
+
+
+### equals {#equals}
+
+| Name | Description |
+| --- | --- |
+| equals (Object) | Determines whether the specified object is equal to the current object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The object to compare with the current object. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getSyncRoot {#getSyncRoot}
+
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+
+ **Result:**
+Object
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns element by index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of element. |
+
+ **Result:**
+GrayScaleEffectiveData, FillOverlayEffectiveData, InnerShadowEffectiveData, DuotoneEffectiveData, AlphaReplaceEffectiveData, AlphaBiLevelEffectiveData, LuminanceEffectiveData, AlphaModulateFixedEffectiveData, AlphaFloorEffectiveData, SoftEdgeEffectiveData, PresetShadowEffectiveData, AlphaInverseEffectiveData, GlowEffectiveData, AlphaModulateEffectiveData, BlurEffectiveData, ReflectionEffectiveData, HSLEffectiveData, AlphaCeilingEffectiveData, EffectEffectiveData, ColorChangeEffectiveData, ColorReplaceEffectiveData, OuterShadowEffectiveData, BiLevelEffectiveData, TintEffectiveData
+
+
+---
+
+
+### hashCode {#hashCode}
+
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+
+ **Result:**
+int
+
+
+---
+
+
+### isSynchronized {#isSynchronized}
+
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### iterator {#iterator}
+
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
+
+ **Result:**
+
+
+
+---
+
+
+### iteratorJava {#iteratorJava}
+
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
+
+ **Result:**
+
+
+
+---
+
+
+### size {#size}
+
+| Name | Description |
+| --- | --- |
+| size () | Returns the number of image effects in a collection. Read-only int. |
+
+ **Result:**
+int
+
+
+---
+
+

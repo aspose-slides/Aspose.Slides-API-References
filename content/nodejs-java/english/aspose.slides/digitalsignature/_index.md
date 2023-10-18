@@ -11,20 +11,105 @@ url: /aspose.slides/digitalsignature/
 
  Digital signature in signed file.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [DigitalSignature](digitalsignature)(byte[], String) | Creates a new DigitalSignature object with the specified certificate. |
-| [DigitalSignature](digitalsignature)(String, String) | Creates a new DigitalSignature object with the specified certificate file path and password. |
-
-## Functions
+### DigitalSignature {#DigitalSignature}
 
 | Name | Description |
 | --- | --- |
-| [getCertificate](getcertificate)() | Certificate object that was used to sign the document. Read-only byte[]. |
-| [getComments](getcomments)() | The purpose of signature. Read/write String. |
-| [getSignTime](getsigntime)() | The time when the document was signed. Read-only java.util.Date. |
-| [isValid](isvalid)() | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
-| [setComments](setcomments)(String) | The purpose of signature. Read/write String. |
+| DigitalSignature(byte[], String) | Creates a new DigitalSignature object with the specified certificate. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| certData | byte[] | a byte array containing the certificate |
+| password | String | Password required to access certificate. |
+
+ **Result:**
+DigitalSignature
+
+
+---
+
+
+### DigitalSignature {#DigitalSignature}
+
+| Name | Description |
+| --- | --- |
+| DigitalSignature(String, String) | Creates a new DigitalSignature object with the specified certificate file path and password. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| filePath | String | Path to the file with certificate. |
+| password | String | Password required to access certificate. |
+
+ **Result:**
+DigitalSignature
+
+
+---
+
+
+### getCertificate {#getCertificate}
+
+| Name | Description |
+| --- | --- |
+| getCertificate () | Certificate object that was used to sign the document. Read-only byte[]. |
+
+ **Result:**
+byte
+
+
+---
+
+
+### getComments {#getComments}
+
+| Name | Description |
+| --- | --- |
+| getComments () | The purpose of signature. Read/write String. |
+
+ **Result:**
+String
+
+
+---
+
+
+### getSignTime {#getSignTime}
+
+| Name | Description |
+| --- | --- |
+| getSignTime () | The time when the document was signed. Read-only java.util.Date. |
+
+ **Result:**
+Date
+
+
+---
+
+
+### isValid {#isValid}
+
+| Name | Description |
+| --- | --- |
+| isValid () | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### setComments {#setComments}
+
+| Name | Description |
+| --- | --- |
+| setComments (String) | The purpose of signature. Read/write String. |
+
+
+---
+
+

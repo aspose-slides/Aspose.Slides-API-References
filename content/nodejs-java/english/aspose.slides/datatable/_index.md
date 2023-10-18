@@ -11,21 +11,160 @@ url: /aspose.slides/datatable/
 
  Represents data table properties.
  
-
-## Functions
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
-| [getChart](getchart)() | Returns chart. Read-only IChart. |
-| [getFormat](getformat)() | Returns the line, fill, and effect styles of an object. Read-only IFormat. |
-| [getPresentation](getpresentation)() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
-| [getShowLegendKey](getshowlegendkey)() | True if the data label legend key is visible. Read/write boolean. |
-| [getSlide](getslide)() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
-| [getTextFormat](gettextformat)() | Returns text format. Read-only IChartTextFormat. |
-| [hasBorderHorizontal](hasborderhorizontal)() | True if the chart data table has horizontal cell borders. Read/write boolean. |
-| [hasBorderOutline](hasborderoutline)() | True if the chart data table has outline borders. Read/write boolean. |
-| [hasBorderVertical](hasbordervertical)() | True if the chart data table has vertical cell borders. Read/write boolean. |
-| [setBorderHorizontal](setborderhorizontal)(boolean) | True if the chart data table has horizontal cell borders. Read/write boolean. |
-| [setBorderOutline](setborderoutline)(boolean) | True if the chart data table has outline borders. Read/write boolean. |
-| [setBorderVertical](setbordervertical)(boolean) | True if the chart data table has vertical cell borders. Read/write boolean. |
-| [setShowLegendKey](setshowlegendkey)(boolean) | True if the data label legend key is visible. Read/write boolean. |
+| getChart () | Returns chart. Read-only IChart. |
+
+ **Result:**
+[Chart](../chart)
+
+
+---
+
+
+### getFormat {#getFormat}
+
+| Name | Description |
+| --- | --- |
+| getFormat () | Returns the line, fill, and effect styles of an object. Read-only IFormat. |
+
+ **Result:**
+[Format](../format)
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+
+ **Result:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getShowLegendKey {#getShowLegendKey}
+
+| Name | Description |
+| --- | --- |
+| getShowLegendKey () | True if the data label legend key is visible. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+
+ **Result:**
+[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [BaseSlide](../baseslide)
+
+
+---
+
+
+### getTextFormat {#getTextFormat}
+
+| Name | Description |
+| --- | --- |
+| getTextFormat () | Returns text format. Read-only IChartTextFormat. |
+
+ **Result:**
+[ChartTextFormat](../charttextformat)
+
+
+---
+
+
+### hasBorderHorizontal {#hasBorderHorizontal}
+
+| Name | Description |
+| --- | --- |
+| hasBorderHorizontal () | True if the chart data table has horizontal cell borders. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### hasBorderOutline {#hasBorderOutline}
+
+| Name | Description |
+| --- | --- |
+| hasBorderOutline () | True if the chart data table has outline borders. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### hasBorderVertical {#hasBorderVertical}
+
+| Name | Description |
+| --- | --- |
+| hasBorderVertical () | True if the chart data table has vertical cell borders. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### setBorderHorizontal {#setBorderHorizontal}
+
+| Name | Description |
+| --- | --- |
+| setBorderHorizontal (boolean) | True if the chart data table has horizontal cell borders. Read/write boolean. |
+
+
+---
+
+
+### setBorderOutline {#setBorderOutline}
+
+| Name | Description |
+| --- | --- |
+| setBorderOutline (boolean) | True if the chart data table has outline borders. Read/write boolean. |
+
+
+---
+
+
+### setBorderVertical {#setBorderVertical}
+
+| Name | Description |
+| --- | --- |
+| setBorderVertical (boolean) | True if the chart data table has vertical cell borders. Read/write boolean. |
+
+
+---
+
+
+### setShowLegendKey {#setShowLegendKey}
+
+| Name | Description |
+| --- | --- |
+| setShowLegendKey (boolean) | True if the data label legend key is visible. Read/write boolean. |
+
+
+---
+
+

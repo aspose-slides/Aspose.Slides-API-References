@@ -11,13 +11,65 @@ url: /aspose.slides/section/
 
  Represents section of slides.
  
-
-## Functions
+### getName {#getName}
 
 | Name | Description |
 | --- | --- |
-| [getName](getname)() | Name of the section. |
-| [getSectionId](getsectionid)() | Section Id. |
-| [getSlidesListOfSection](getslideslistofsection)() | Returns list of slides in the section. |
-| [getStartedFromSlide](getstartedfromslide)() | Returns first slide of the section. |
-| [setName](setname)(String) | Name of the section. |
+| getName () | Name of the section. |
+
+ **Result:**
+String
+
+
+---
+
+
+### getSectionId {#getSectionId}
+
+| Name | Description |
+| --- | --- |
+| getSectionId () | Section Id. |
+
+ **Result:**
+UUID
+
+
+---
+
+
+### getSlidesListOfSection {#getSlidesListOfSection}
+
+| Name | Description |
+| --- | --- |
+| getSlidesListOfSection () | Returns list of slides in the section. |
+
+ **Result:**
+[SectionSlideCollection](../sectionslidecollection)
+
+
+---
+
+
+### getStartedFromSlide {#getStartedFromSlide}
+
+| Name | Description |
+| --- | --- |
+| getStartedFromSlide () | Returns first slide of the section. |
+
+ **Result:**
+[Slide](../slide)
+
+
+---
+
+
+### setName {#setName}
+
+| Name | Description |
+| --- | --- |
+| setName (String) | Name of the section. |
+
+
+---
+
+

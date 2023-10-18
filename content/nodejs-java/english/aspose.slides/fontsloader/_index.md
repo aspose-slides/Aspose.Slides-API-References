@@ -12,12 +12,58 @@ url: /aspose.slides/fontsloader/
  Class for loading custom fonts defined by user.
  Should be used before creating any presentation objects.
  
-
-## Functions
+### clearCache {#clearCache}
 
 | Name | Description |
 | --- | --- |
-| [clearCache](clearcache)() | Releases all custom fonts defined by user This function needs to clear cache with custom fonts defined by user. |
-| [getFontFolders](getfontfolders)() | Gets font folders. Returns folders that have been added with LoadExternalFonts function as well as system font folders |
-| [loadExternalFont](loadexternalfont)(byte[]) | Adds font from the binary data |
-| [loadExternalFonts](loadexternalfonts)(java.lang.String[]) | Adds additional folders to seek fonts. |
+| clearCache () | Releases all custom fonts defined by user This function needs to clear cache with custom fonts defined by user. |
+
+
+---
+
+
+### getFontFolders {#getFontFolders}
+
+| Name | Description |
+| --- | --- |
+| getFontFolders () | Gets font folders. Returns folders that have been added with LoadExternalFonts function as well as system font folders |
+
+ **Result:**
+String
+
+
+---
+
+
+### loadExternalFont {#loadExternalFont}
+
+| Name | Description |
+| --- | --- |
+| loadExternalFont (byte[]) | Adds font from the binary data |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| data | byte[] | Font's data |
+
+
+---
+
+
+### loadExternalFonts {#loadExternalFonts}
+
+| Name | Description |
+| --- | --- |
+| loadExternalFonts (java.lang.String[]) | Adds additional folders to seek fonts. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| directories | java.lang.String[] | Directories to read additional fonts. |
+
+
+---
+
+

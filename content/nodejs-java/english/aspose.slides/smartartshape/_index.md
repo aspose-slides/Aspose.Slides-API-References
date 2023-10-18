@@ -11,11 +11,51 @@ url: /aspose.slides/smartartshape/
 
  Represents SmartArt shape
  
-
-## Functions
+### getShapeType {#getShapeType}
 
 | Name | Description |
 | --- | --- |
-| [getShapeType](getshapetype)() | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
-| [getTextFrame](gettextframe)() | Returns text of the SmartArt shape. Read-only ITextFrame. |
-| [setShapeType](setshapetype)(int) | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
+| getShapeType () | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
+
+ **Result:**
+int
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when value is ShapeType.NotDefined or ShapeType.Custom |
+
+
+---
+
+
+### getTextFrame {#getTextFrame}
+
+| Name | Description |
+| --- | --- |
+| getTextFrame () | Returns text of the SmartArt shape. Read-only ITextFrame. |
+
+ **Result:**
+[TextFrame](../textframe)
+
+
+---
+
+
+### setShapeType {#setShapeType}
+
+| Name | Description |
+| --- | --- |
+| setShapeType (int) | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when value is ShapeType.NotDefined or ShapeType.Custom |
+
+
+---
+
+

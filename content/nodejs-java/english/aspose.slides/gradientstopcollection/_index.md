@@ -11,23 +11,234 @@ url: /aspose.slides/gradientstopcollection/
 
  Represnts a collection of gradient stops.
  
-
-## Functions
+### add {#add}
 
 | Name | Description |
 | --- | --- |
-| [add](add)(float, Color) | Creates the new gradient stop and adds it to the end of collection. |
-| [addPresetColor](addpresetcolor)(float, int) | Creates the new gradient stop and adds it to the end of collection. |
-| [addSchemeColor](addschemecolor)(float, int) | Creates the new gradient stop and adds it to the end of collection. |
-| [clear](clear)() | Removes all gradient stops from a collection. |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [getVersion](getversion)() |  |
-| [get_Item](get_item)(int) | Returns the gradient stop by index. |
-| [insert](insert)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [insertPresetColor](insertpresetcolor)(int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [insertSchemeColor](insertschemecolor)(int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [removeAt](removeat)(int) | Removes a gradient stop at the specified index. |
-| [size](size)() | Returns the number of gradient stops in a collection. Read-only int. |
+| add (float, Color) | Creates the new gradient stop and adds it to the end of collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| position | float | Position of the new gradient stop. |
+| color | Color | Color of the new radient stop. |
+
+ **Result:**
+[GradientStop](../gradientstop)
+
+
+---
+
+
+### addPresetColor {#addPresetColor}
+
+| Name | Description |
+| --- | --- |
+| addPresetColor (float, int) | Creates the new gradient stop and adds it to the end of collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| position | float | Position of the new gradient stop. |
+| presetColor | int | Color of the new radient stop. |
+
+ **Result:**
+[GradientStop](../gradientstop)
+
+
+---
+
+
+### addSchemeColor {#addSchemeColor}
+
+| Name | Description |
+| --- | --- |
+| addSchemeColor (float, int) | Creates the new gradient stop and adds it to the end of collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| position | float | Position of the new gradient stop. |
+| schemeColor | int | Color of the new radient stop. |
+
+ **Result:**
+[GradientStop](../gradientstop)
+
+
+---
+
+
+### clear {#clear}
+
+| Name | Description |
+| --- | --- |
+| clear () | Removes all gradient stops from a collection. |
+
+
+---
+
+
+### getSyncRoot {#getSyncRoot}
+
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+
+ **Result:**
+Object
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns the gradient stop by index. |
+
+ **Result:**
+[GradientStop](../gradientstop)
+
+
+---
+
+
+### insert {#insert}
+
+| Name | Description |
+| --- | --- |
+| insert (int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index in the collection where new gradient stop will be inserted. |
+| position | float | Position of the new gradient stop. |
+| color | Color | Color of the new radient stop. |
+
+
+---
+
+
+### insertPresetColor {#insertPresetColor}
+
+| Name | Description |
+| --- | --- |
+| insertPresetColor (int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index in the collection where new gradient stop will be inserted. |
+| position | float | Position of the new gradient stop. |
+| presetColor | int | Color of the new radient stop. |
+
+
+---
+
+
+### insertSchemeColor {#insertSchemeColor}
+
+| Name | Description |
+| --- | --- |
+| insertSchemeColor (int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index in the collection where new gradient stop will be inserted. |
+| position | float | Position of the new gradient stop. |
+| schemeColor | int | Color of the new radient stop. |
+
+
+---
+
+
+### isSynchronized {#isSynchronized}
+
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### iterator {#iterator}
+
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
+
+ **Result:**
+
+
+
+---
+
+
+### iteratorJava {#iteratorJava}
+
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
+
+ **Result:**
+
+
+
+---
+
+
+### removeAt {#removeAt}
+
+| Name | Description |
+| --- | --- |
+| removeAt (int) | Removes a gradient stop at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a gradient stop that should be deleted. |
+
+
+---
+
+
+### size {#size}
+
+| Name | Description |
+| --- | --- |
+| size () | Returns the number of gradient stops in a collection. Read-only int. |
+
+ **Result:**
+int
+
+
+---
+
+

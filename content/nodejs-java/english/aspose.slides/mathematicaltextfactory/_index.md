@@ -13,18 +13,87 @@ url: /aspose.slides/mathematicaltextfactory/
  
  For COM comparibility
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [MathematicalTextFactory](mathematicaltextfactory)() |  |
-
-## Functions
+### MathematicalTextFactory {#MathematicalTextFactory}
 
 | Name | Description |
 | --- | --- |
-| [createMathematicalText](createmathematicaltext)() | Create empty mathematical text element |
-| [createMathematicalText](createmathematicaltext)(char) | Create mathematical text element with the specified value |
-| [createMathematicalText](createmathematicaltext)(String) | Create empty mathematical text element with the specified value |
-| [createMathematicalText](createmathematicaltext)(String, [PortionFormat](../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
+| MathematicalTextFactory() |  |
+
+ **Result:**
+MathematicalTextFactory
+
+
+---
+
+
+### createMathematicalText {#createMathematicalText}
+
+| Name | Description |
+| --- | --- |
+| createMathematicalText () | Create empty mathematical text element |
+
+ **Result:**
+[MathematicalText](../mathematicaltext)
+
+
+---
+
+
+### createMathematicalText {#createMathematicalText}
+
+| Name | Description |
+| --- | --- |
+| createMathematicalText (char) | Create mathematical text element with the specified value |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathSymbol | char | single symbol to use as text value |
+
+ **Result:**
+[MathematicalText](../mathematicaltext)
+
+
+---
+
+
+### createMathematicalText {#createMathematicalText}
+
+| Name | Description |
+| --- | --- |
+| createMathematicalText (String) | Create empty mathematical text element with the specified value |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+
+ **Result:**
+[MathematicalText](../mathematicaltext)
+
+
+---
+
+
+### createMathematicalText {#createMathematicalText}
+
+| Name | Description |
+| --- | --- |
+| createMathematicalText (String, [PortionFormat](../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+| portionFormat | [PortionFormat](../portionformat) | text format settings |
+
+ **Result:**
+[MathematicalText](../mathematicaltext)
+
+
+---
+
+

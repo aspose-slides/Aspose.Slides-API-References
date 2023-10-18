@@ -16,10 +16,45 @@ url: /aspose.slides/textanchortype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Top | 0 |  |
-| Center | 1 |  |
-| Bottom | 2 |  |
-| Justified | 3 |  |
-| Distributed | 4 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Top](#Top) | 0 |  |
+[Center](#Center) | 1 |  |
+[Bottom](#Bottom) | 2 |  |
+[Justified](#Justified) | 3 |  |
+[Distributed](#Distributed) | 4 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+
+
+---
+
+### Top {#Top}
+
+
+---
+
+### Center {#Center}
+
+
+---
+
+### Bottom {#Bottom}
+
+
+---
+
+### Justified {#Justified}
+
+
+---
+
+### Distributed {#Distributed}
+
+
+---
+
 

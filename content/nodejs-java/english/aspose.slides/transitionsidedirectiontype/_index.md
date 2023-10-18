@@ -16,8 +16,33 @@ url: /aspose.slides/transitionsidedirectiontype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Left | 0 |  |
-| Up | 1 |  |
-| Down | 2 |  |
-| Right | 3 |  |
+[Left](#Left) | 0 |  |
+[Up](#Up) | 1 |  |
+[Down](#Down) | 2 |  |
+[Right](#Right) | 3 |  |
+
+
+---
+
+
+### Left {#Left}
+
+
+---
+
+### Up {#Up}
+
+
+---
+
+### Down {#Down}
+
+
+---
+
+### Right {#Right}
+
+
+---
+
 

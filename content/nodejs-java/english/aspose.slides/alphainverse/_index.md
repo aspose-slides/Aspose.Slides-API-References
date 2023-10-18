@@ -12,12 +12,61 @@ url: /aspose.slides/alphainverse/
  Represents an Alpha Inverse effect.
  Alpha (opacity) values are inverted by subtracting from 100%.
  
-
-## Functions
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
-| [getEffective](geteffective)() | Gets effective Alpha Inverse effect data with the inheritance applied. |
-| [getVersion](getversion)() |  |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| equals (Object) | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaInverse to compare. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getEffective {#getEffective}
+
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective Alpha Inverse effect data with the inheritance applied. |
+
+ **Result:**
+AlphaInverseEffectiveData
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### hashCode {#hashCode}
+
+| Name | Description |
+| --- | --- |
+| hashCode () | Serves as a hash function for a particular type. |
+
+ **Result:**
+int
+
+
+---
+
+

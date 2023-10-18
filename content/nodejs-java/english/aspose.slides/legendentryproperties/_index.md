@@ -11,14 +11,78 @@ url: /aspose.slides/legendentryproperties/
 
  Represents legend properties of a chart.
  
-
-## Functions
+### getChart {#getChart}
 
 | Name | Description |
 | --- | --- |
-| [getChart](getchart)() | Returns the parent chart. Read-only IChart. |
-| [getHide](gethide)() | Determines whether the legend entry is hide. Read/write boolean. |
-| [getPresentation](getpresentation)() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
-| [getSlide](getslide)() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
-| [getTextFormat](gettextformat)() | Returns text format. Read-only IChartTextFormat. |
-| [setHide](sethide)(boolean) | Determines whether the legend entry is hide. Read/write boolean. |
+| getChart () | Returns the parent chart. Read-only IChart. |
+
+ **Result:**
+[Chart](../chart)
+
+
+---
+
+
+### getHide {#getHide}
+
+| Name | Description |
+| --- | --- |
+| getHide () | Determines whether the legend entry is hide. Read/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+
+ **Result:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+
+ **Result:**
+[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [BaseSlide](../baseslide)
+
+
+---
+
+
+### getTextFormat {#getTextFormat}
+
+| Name | Description |
+| --- | --- |
+| getTextFormat () | Returns text format. Read-only IChartTextFormat. |
+
+ **Result:**
+[ChartTextFormat](../charttextformat)
+
+
+---
+
+
+### setHide {#setHide}
+
+| Name | Description |
+| --- | --- |
+| setHide (boolean) | Determines whether the legend entry is hide. Read/write boolean. |
+
+
+---
+
+

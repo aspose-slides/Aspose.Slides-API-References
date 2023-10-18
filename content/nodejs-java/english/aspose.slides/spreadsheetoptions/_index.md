@@ -11,18 +11,74 @@ url: /aspose.slides/spreadsheetoptions/
 
  Represents options which can be used to specify additional spreadsheets behavior.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | Initializes a new instance of the SpreadsheetOptions class. |
-
-## Functions
+### SpreadsheetOptions {#SpreadsheetOptions}
 
 | Name | Description |
 | --- | --- |
-| [getPreferredCulture](getpreferredculture)() | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
-| [getRecoverWorkbookFromChartCache](getrecoverworkbookfromchartcache)() | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
-| [setPreferredCulture](setpreferredculture)(Locale) | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
-| [setRecoverWorkbookFromChartCache](setrecoverworkbookfromchartcache)(boolean) | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
+| SpreadsheetOptions() | Initializes a new instance of the SpreadsheetOptions class. |
+
+ **Result:**
+SpreadsheetOptions
+
+
+---
+
+
+### getPreferredCulture {#getPreferredCulture}
+
+| Name | Description |
+| --- | --- |
+| getPreferredCulture () | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
+
+ **Result:**
+Locale
+
+
+---
+
+
+### getRecoverWorkbookFromChartCache {#getRecoverWorkbookFromChartCache}
+
+| Name | Description |
+| --- | --- |
+| getRecoverWorkbookFromChartCache () | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
+
+ **Result:**
+boolean
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when external workbook in unavailable and RecoverWorkbookFromChartCache property value is false. |
+
+
+---
+
+
+### setPreferredCulture {#setPreferredCulture}
+
+| Name | Description |
+| --- | --- |
+| setPreferredCulture (Locale) | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
+
+
+---
+
+
+### setRecoverWorkbookFromChartCache {#setRecoverWorkbookFromChartCache}
+
+| Name | Description |
+| --- | --- |
+| setRecoverWorkbookFromChartCache (boolean) | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when external workbook in unavailable and RecoverWorkbookFromChartCache property value is false. |
+
+
+---
+
+

@@ -11,15 +11,35 @@ url: /aspose.slides/fontdatafactory/
 
  FontData factory
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [FontDataFactory](fontdatafactory)() |  |
-
-## Functions
+### FontDataFactory {#FontDataFactory}
 
 | Name | Description |
 | --- | --- |
-| [createFontData](createfontdata)(String) | Creates FontData with specified font name. |
+| FontDataFactory() |  |
+
+ **Result:**
+FontDataFactory
+
+
+---
+
+
+### createFontData {#createFontData}
+
+| Name | Description |
+| --- | --- |
+| createFontData (String) | Creates FontData with specified font name. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fontName | String | Font name |
+
+ **Result:**
+[FontData](../fontdata)
+
+
+---
+
+

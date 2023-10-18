@@ -11,41 +11,487 @@ url: /aspose.slides/textanimationcollection/
 
  Represents collection of text animations.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [TextAnimationCollection](textanimationcollection)() |  |
-
-## Functions
+### TextAnimationCollection {#TextAnimationCollection}
 
 | Name | Description |
 | --- | --- |
-| [add](add)() | Adds new text animation to the collection. |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns element by index. |
-| [get_Item](get_item)([VideoFrame](../videoframe)) | Returns all elements |
-| [get_Item](get_item)([AudioFrame](../audioframe)) | Returns all elements |
-| [get_Item](get_item)([Chart](../chart)) | Returns all elements |
-| [get_Item](get_item)([Shape](../shape)) | Returns all elements |
-| [get_Item](get_item)([OleObjectFrame](../oleobjectframe)) | Returns all elements |
-| [get_Item](get_item)([Connector](../connector)) | Returns all elements |
-| [get_Item](get_item)([ZoomObject](../zoomobject)) | Returns all elements |
-| [get_Item](get_item)([SmartArtShape](../smartartshape)) | Returns all elements |
-| [get_Item](get_item)([SmartArt](../smartart)) | Returns all elements |
-| [get_Item](get_item)([Table](../table)) | Returns all elements |
-| [get_Item](get_item)([LegacyDiagram](../legacydiagram)) | Returns all elements |
-| [get_Item](get_item)([AutoShape](../autoshape)) | Returns all elements |
-| [get_Item](get_item)([GroupShape](../groupshape)) | Returns all elements |
-| [get_Item](get_item)([GraphicalObject](../graphicalobject)) | Returns all elements |
-| [get_Item](get_item)([PictureFrame](../pictureframe)) | Returns all elements |
-| [get_Item](get_item)([SectionZoomFrame](../sectionzoomframe)) | Returns all elements |
-| [get_Item](get_item)([Ink](../ink)) | Returns all elements |
-| [get_Item](get_item)([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
-| [get_Item](get_item)([SummaryZoomSection](../summaryzoomsection)) | Returns all elements |
-| [get_Item](get_item)([ZoomFrame](../zoomframe)) | Returns all elements |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [size](size)() | Returns a number of elements in the collection. Read-only int. |
+| TextAnimationCollection() |  |
+
+ **Result:**
+TextAnimationCollection
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add () | Adds new text animation to the collection. |
+
+ **Result:**
+TextAnimation
+
+
+---
+
+
+### getSyncRoot {#getSyncRoot}
+
+| Name | Description |
+| --- | --- |
+| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+
+ **Result:**
+Object
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item (int) | Returns element by index. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([SectionZoomFrame](../sectionzoomframe)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SectionZoomFrame](../sectionzoomframe) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([AutoShape](../autoshape)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AutoShape](../autoshape) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [VideoFrame](../videoframe) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([SmartArtShape](../smartartshape)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArtShape](../smartartshape) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AudioFrame](../audioframe) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([Shape](../shape)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Shape](../shape) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([LegacyDiagram](../legacydiagram)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../legacydiagram) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GraphicalObject](../graphicalobject) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([PictureFrame](../pictureframe)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [PictureFrame](../pictureframe) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([ZoomFrame](../zoomframe)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [ZoomFrame](../zoomframe) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([Ink](../ink)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Ink](../ink) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([ZoomObject](../zoomobject)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [ZoomObject](../zoomobject) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomFrame](../summaryzoomframe) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([Table](../table)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Table](../table) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([OleObjectFrame](../oleobjectframe)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../oleobjectframe) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([Chart](../chart)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Chart](../chart) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([SmartArt](../smartart)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArt](../smartart) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([GroupShape](../groupshape)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GroupShape](../groupshape) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([Connector](../connector)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Connector](../connector) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([SummaryZoomSection](../summaryzoomsection)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomSection](../summaryzoomsection) | IShape to remove. |
+
+ **Result:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### isSynchronized {#isSynchronized}
+
+| Name | Description |
+| --- | --- |
+| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### iterator {#iterator}
+
+| Name | Description |
+| --- | --- |
+| iterator () | Returns an enumerator that iterates through the collection. |
+
+ **Result:**
+
+
+
+---
+
+
+### iteratorJava {#iteratorJava}
+
+| Name | Description |
+| --- | --- |
+| iteratorJava () | Returns a java iterator for the entire collection. |
+
+ **Result:**
+
+
+
+---
+
+
+### size {#size}
+
+| Name | Description |
+| --- | --- |
+| size () | Returns a number of elements in the collection. Read-only int. |
+
+ **Result:**
+int
+
+
+---
+
+

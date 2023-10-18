@@ -11,17 +11,114 @@ url: /aspose.slides/chartcategory/
 
  Represents chart categories.
  
-
-## Functions
+### getAsCell {#getAsCell}
 
 | Name | Description |
 | --- | --- |
-| [getAsCell](getascell)() | Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level "0". Read/write IChartDataCell. |
-| [getAsLiteral](getasliteral)() | Returns or sets AsLiteral object. Read/write Object. |
-| [getGroupingLevels](getgroupinglevels)() | Managed container of the values of the chart category grouping levels. Multi-level category contain more then one grouping level. Grouping levels indexing is zero-based. Read-only IChartCategoryLevelsManager. |
-| [getUseCell](getusecell)() | If true then AsCell property is actual. In other words, worksheet is used for storing category (this case supports a multi-level category). If false then AsLiteral property is actual. In other words, worksheet is NOT used for storing category (and this case doesn't support a multi-level categories). Read-only boolean. For change value of this property (for all categories in collection) set new value to ChartCategoryCollection.UseCells property. |
-| [getValue](getvalue)() | If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Read/write Object. |
-| [remove](remove)() | Removes category from chart. |
-| [setAsCell](setascell)([ChartDataCell](../chartdatacell)) | Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level "0". Read/write IChartDataCell. |
-| [setAsLiteral](setasliteral)(Object) | Returns or sets AsLiteral object. Read/write Object. |
-| [setValue](setvalue)(Object) | If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Read/write Object. |
+| getAsCell () | Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level "0". Read/write IChartDataCell. |
+
+ **Result:**
+[ChartDataCell](../chartdatacell)
+
+
+---
+
+
+### getAsLiteral {#getAsLiteral}
+
+| Name | Description |
+| --- | --- |
+| getAsLiteral () | Returns or sets AsLiteral object. Read/write Object. |
+
+ **Result:**
+Object
+
+
+---
+
+
+### getGroupingLevels {#getGroupingLevels}
+
+| Name | Description |
+| --- | --- |
+| getGroupingLevels () | Managed container of the values of the chart category grouping levels. Multi-level category contain more then one grouping level. Grouping levels indexing is zero-based. Read-only IChartCategoryLevelsManager. |
+
+ **Result:**
+[ChartCategoryLevelsManager](../chartcategorylevelsmanager)
+
+
+---
+
+
+### getUseCell {#getUseCell}
+
+| Name | Description |
+| --- | --- |
+| getUseCell () | If true then AsCell property is actual. In other words, worksheet is used for storing category (this case supports a multi-level category). If false then AsLiteral property is actual. In other words, worksheet is NOT used for storing category (and this case doesn't support a multi-level categories). Read-only boolean. For change value of this property (for all categories in collection) set new value to ChartCategoryCollection.UseCells property. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getValue {#getValue}
+
+| Name | Description |
+| --- | --- |
+| getValue () | If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Read/write Object. |
+
+ **Result:**
+Object
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove () | Removes category from chart. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | PptxEditException | Thrown if category is already removed from chart. |
+
+
+---
+
+
+### setAsCell {#setAsCell}
+
+| Name | Description |
+| --- | --- |
+| setAsCell ([ChartDataCell](../chartdatacell)) | Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level "0". Read/write IChartDataCell. |
+
+
+---
+
+
+### setAsLiteral {#setAsLiteral}
+
+| Name | Description |
+| --- | --- |
+| setAsLiteral (Object) | Returns or sets AsLiteral object. Read/write Object. |
+
+
+---
+
+
+### setValue {#setValue}
+
+| Name | Description |
+| --- | --- |
+| setValue (Object) | If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Read/write Object. |
+
+
+---
+
+

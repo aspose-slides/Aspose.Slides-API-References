@@ -11,19 +11,146 @@ url: /aspose.slides/picture/
 
  Represents a picture in a presentation.
  
-
-## Functions
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Compares with specified object. |
-| [getImage](getimage)() | Returns or sets the embedded image. Read/write IPPImage. |
-| [getImageTransform](getimagetransform)() | Returns the collection of image transform effects. Read-only IImageTransformOperationCollection. |
-| [getLinkPathLong](getlinkpathlong)() | Returns of sets linked image's URL. Read/write String. |
-| [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
-| [getPresentation](getpresentation)() | Returns the presentation. Read-only IPresentation. |
-| [getSlide](getslide)() | Returns the parent slide of a picture. Read-only IBaseSlide. |
-| [getVersion](getversion)() |  |
-| [hashCode](hashcode)() | Returns hash. |
-| [setImage](setimage)([PPImage](../ppimage)) | Returns or sets the embedded image. Read/write IPPImage. |
-| [setLinkPathLong](setlinkpathlong)(String) | Returns of sets linked image's URL. Read/write String. |
+| equals (Object) | Compares with specified object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | Object to compare. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage () | Returns or sets the embedded image. Read/write IPPImage. |
+
+ **Result:**
+[PPImage](../ppimage)
+
+
+---
+
+
+### getImageTransform {#getImageTransform}
+
+| Name | Description |
+| --- | --- |
+| getImageTransform () | Returns the collection of image transform effects. Read-only IImageTransformOperationCollection. |
+
+ **Result:**
+[ImageTransformOperationCollection](../imagetransformoperationcollection)
+
+
+---
+
+
+### getLinkPathLong {#getLinkPathLong}
+
+| Name | Description |
+| --- | --- |
+| getLinkPathLong () | Returns of sets linked image's URL. Read/write String. |
+
+ **Result:**
+String
+
+
+---
+
+
+### getParent_IPresentationComponent {#getParent_IPresentationComponent}
+
+| Name | Description |
+| --- | --- |
+| getParent_IPresentationComponent () |  |
+
+ **Result:**
+[MasterSlide](../masterslide), [Legend](../legend), [Axis](../axis), [SketchFormat](../sketchformat), [NotesSlide](../notesslide), [ParagraphFormat](../paragraphformat), [AlphaModulate](../alphamodulate), [AlphaFloor](../alphafloor), [Ink](../ink), [BaseSlide](../baseslide), [FillOverlay](../filloverlay), [CellFormat](../cellformat), [BulletFormat](../bulletformat), [SummaryZoomSection](../summaryzoomsection), [SmartArtShape](../smartartshape), [ColorReplace](../colorreplace), [LegacyDiagram](../legacydiagram), [Portion](../portion), [Backdrop3DScene](../backdrop3dscene), [MasterHandoutSlide](../masterhandoutslide), [ParagraphCollection](../paragraphcollection), [AlphaBiLevel](../alphabilevel), [Slide](../slide), [ZoomObject](../zoomobject), [SummaryZoomFrame](../summaryzoomframe), [Blur](../blur), [Paragraph](../paragraph), [Picture](../picture), [DataLabelFormat](../datalabelformat), [BiLevel](../bilevel), [AlphaReplace](../alphareplace), [ColorFormat](../colorformat), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [ImageTransformOperation](../imagetransformoperation), [HSL](../hsl), [ShapeBevel](../shapebevel), [GroupShape](../groupshape), [TextFrame](../textframe), [GeometryShape](../geometryshape), [VideoFrame](../videoframe), [AlphaModulateFixed](../alphamodulatefixed), [ColorChange](../colorchange), [ChartSeriesGroup](../chartseriesgroup), [ChartPortionFormat](../chartportionformat), [PVIObject](../pviobject), [EffectFormat](../effectformat), [PictureFillFormat](../picturefillformat), [Cell](../cell), [PortionFormat](../portionformat), [SectionZoomFrame](../sectionzoomframe), [GradientFormat](../gradientformat), [AutoShape](../autoshape), [Camera](../camera), [LegendEntryProperties](../legendentryproperties), [DataLabel](../datalabel), [ChartPlotArea](../chartplotarea), [Column](../column), [Theme](../theme), [ChartTitle](../charttitle), [TextFrameFormat](../textframeformat), [LineFillFormat](../linefillformat), [GrayScale](../grayscale), [LightRig](../lightrig), [OverrideTheme](../overridetheme), [SmartArt](../smartart), [FormatScheme](../formatscheme), [Row](../row), [Hyperlink](../hyperlink), [Shape](../shape), [BasePortionFormat](../baseportionformat), [Duotone](../duotone), [MasterNotesSlide](../masternotesslide), [GradientStop](../gradientstop), [DataTable](../datatable), [Background](../background), [ImageTransformOperationCollection](../imagetransformoperationcollection), [ZoomFrame](../zoomframe), [FillFormat](../fillformat), [Tint](../tint), [OleObjectFrame](../oleobjectframe), [MasterTheme](../mastertheme), [DataLabelCollection](../datalabelcollection), [Format](../format), [PatternFormat](../patternformat), [Trendline](../trendline), [Presentation](../presentation), [LayoutSlide](../layoutslide), [ThreeDFormat](../threedformat), [Tab](../tab), [GradientStopCollection](../gradientstopcollection), [ColorScheme](../colorscheme), [Connector](../connector), [AlphaCeiling](../alphaceiling), [ChartSeries](../chartseries), [Field](../field), [AudioFrame](../audioframe), [LineFormat](../lineformat), [MathPortion](../mathportion), [AlphaInverse](../alphainverse), [PictureFrame](../pictureframe), [Luminance](../luminance), [CellCollection](../cellcollection), [Table](../table), [Chart](../chart), [Control](../control), [ErrorBarsFormat](../errorbarsformat)
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation () | Returns the presentation. Read-only IPresentation. |
+
+ **Result:**
+[Presentation](../presentation)
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide () | Returns the parent slide of a picture. Read-only IBaseSlide. |
+
+ **Result:**
+[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [BaseSlide](../baseslide)
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### hashCode {#hashCode}
+
+| Name | Description |
+| --- | --- |
+| hashCode () | Returns hash. |
+
+ **Result:**
+int
+
+
+---
+
+
+### setImage {#setImage}
+
+| Name | Description |
+| --- | --- |
+| setImage ([PPImage](../ppimage)) | Returns or sets the embedded image. Read/write IPPImage. |
+
+
+---
+
+
+### setLinkPathLong {#setLinkPathLong}
+
+| Name | Description |
+| --- | --- |
+| setLinkPathLong (String) | Returns of sets linked image's URL. Read/write String. |
+
+
+---
+
+

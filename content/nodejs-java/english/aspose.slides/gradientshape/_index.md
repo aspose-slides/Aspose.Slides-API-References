@@ -16,9 +16,39 @@ url: /aspose.slides/gradientshape/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Linear | 0 |  |
-| Rectangle | 1 |  |
-| Radial | 2 |  |
-| Path | 3 |  |
+[NotDefined](#NotDefined) | -1 |  |
+[Linear](#Linear) | 0 |  |
+[Rectangle](#Rectangle) | 1 |  |
+[Radial](#Radial) | 2 |  |
+[Path](#Path) | 3 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+
+
+---
+
+### Linear {#Linear}
+
+
+---
+
+### Rectangle {#Rectangle}
+
+
+---
+
+### Radial {#Radial}
+
+
+---
+
+### Path {#Path}
+
+
+---
+
 

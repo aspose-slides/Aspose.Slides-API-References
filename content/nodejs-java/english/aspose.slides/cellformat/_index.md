@@ -11,17 +11,120 @@ url: /aspose.slides/cellformat/
 
  Represents format of a table cell.
  
-
-## Functions
+### getBorderBottom {#getBorderBottom}
 
 | Name | Description |
 | --- | --- |
-| [getBorderBottom](getborderbottom)() | Returns a bottom border line properties object. Read-only ILineFormat. |
-| [getBorderDiagonalDown](getborderdiagonaldown)() | Returns a top-left to bottom-right diagonal line properties object. Read-only ILineFormat. |
-| [getBorderDiagonalUp](getborderdiagonalup)() | Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormat. |
-| [getBorderLeft](getborderleft)() | Returns a left border line properties object. Read-only ILineFormat. |
-| [getBorderRight](getborderright)() | Returns a right border line properties object. Read-only ILineFormat. |
-| [getBorderTop](getbordertop)() | Returns a top border line properties object. Read-only ILineFormat. |
-| [getEffective](geteffective)() | Gets effective table cell formatting properties with inheritance and table styles applied. |
-| [getFillFormat](getfillformat)() | Returns a cell fill properties object. Read-only IFillFormat. |
-| [getVersion](getversion)() |  |
+| getBorderBottom () | Returns a bottom border line properties object. Read-only ILineFormat. |
+
+ **Result:**
+[LineFormat](../lineformat)
+
+
+---
+
+
+### getBorderDiagonalDown {#getBorderDiagonalDown}
+
+| Name | Description |
+| --- | --- |
+| getBorderDiagonalDown () | Returns a top-left to bottom-right diagonal line properties object. Read-only ILineFormat. |
+
+ **Result:**
+[LineFormat](../lineformat)
+
+
+---
+
+
+### getBorderDiagonalUp {#getBorderDiagonalUp}
+
+| Name | Description |
+| --- | --- |
+| getBorderDiagonalUp () | Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormat. |
+
+ **Result:**
+[LineFormat](../lineformat)
+
+
+---
+
+
+### getBorderLeft {#getBorderLeft}
+
+| Name | Description |
+| --- | --- |
+| getBorderLeft () | Returns a left border line properties object. Read-only ILineFormat. |
+
+ **Result:**
+[LineFormat](../lineformat)
+
+
+---
+
+
+### getBorderRight {#getBorderRight}
+
+| Name | Description |
+| --- | --- |
+| getBorderRight () | Returns a right border line properties object. Read-only ILineFormat. |
+
+ **Result:**
+[LineFormat](../lineformat)
+
+
+---
+
+
+### getBorderTop {#getBorderTop}
+
+| Name | Description |
+| --- | --- |
+| getBorderTop () | Returns a top border line properties object. Read-only ILineFormat. |
+
+ **Result:**
+[LineFormat](../lineformat)
+
+
+---
+
+
+### getEffective {#getEffective}
+
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective table cell formatting properties with inheritance and table styles applied. |
+
+ **Result:**
+CellFormatEffectiveData
+
+
+---
+
+
+### getFillFormat {#getFillFormat}
+
+| Name | Description |
+| --- | --- |
+| getFillFormat () | Returns a cell fill properties object. Read-only IFillFormat. |
+
+ **Result:**
+[FillFormat](../fillformat)
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Result:**
+long
+
+
+---
+
+

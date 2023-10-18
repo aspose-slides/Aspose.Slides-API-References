@@ -9,11 +9,55 @@ url: /aspose.slides/asposelicenseexception/
 
 ## AsposeLicenseException class
 This exception is thrown if any errors with license are detected.
-
-## Functions
+### AsposeLicenseException {#AsposeLicenseException}
 
 | Name | Description |
 | --- | --- |
-| [AsposeLicenseException](asposelicenseexception)() | Creates a new AsposeLicenseException. |
-| [AsposeLicenseException](asposelicenseexception)(String) | Creates a new AsposeLicenseException with a message string. |
-| [AsposeLicenseException](asposelicenseexception)(String, Throwable) | Creates a new AsposeLicenseException with a message string and a reason. |
+| AsposeLicenseException() | Creates a new AsposeLicenseException. |
+
+ **Result:**
+AsposeLicenseException
+
+
+---
+
+
+### AsposeLicenseException {#AsposeLicenseException}
+
+| Name | Description |
+| --- | --- |
+| AsposeLicenseException(String) | Creates a new AsposeLicenseException with a message string. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | The message string. |
+
+ **Result:**
+AsposeLicenseException
+
+
+---
+
+
+### AsposeLicenseException {#AsposeLicenseException}
+
+| Name | Description |
+| --- | --- |
+| AsposeLicenseException(String, Throwable) | Creates a new AsposeLicenseException with a message string and a reason. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | The message string. |
+| cause | Throwable | The reason that indirectly caused this exception. |
+
+ **Result:**
+AsposeLicenseException
+
+
+---
+
+

@@ -11,10 +11,26 @@ url: /aspose.slides/eightdirectiontransition/
 
  Eight direction slide transition effect.
  
-
-## Functions
+### getDirection {#getDirection}
 
 | Name | Description |
 | --- | --- |
-| [getDirection](getdirection)() | Direction of transition. Read/write TransitionEightDirectionType. |
-| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionEightDirectionType. |
+| getDirection () | Direction of transition. Read/write TransitionEightDirectionType. |
+
+ **Result:**
+int
+
+
+---
+
+
+### setDirection {#setDirection}
+
+| Name | Description |
+| --- | --- |
+| setDirection (int) | Direction of transition. Read/write TransitionEightDirectionType. |
+
+
+---
+
+

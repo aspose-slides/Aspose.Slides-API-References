@@ -11,19 +11,81 @@ url: /aspose.slides/vbaproject/
 
  Represents VBA project with presentation macros.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [VbaProject](vbaproject)() | This function creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
-| [VbaProject](vbaproject)(byte[]) | This function loads VBA project from binary representation of OLE container. |
-
-## Functions
+### VbaProject {#VbaProject}
 
 | Name | Description |
 | --- | --- |
-| [getModules](getmodules)() | Returns the list of all modules that are contained in the VBA project. Read-only IVbaModuleCollection. |
-| [getName](getname)() | Returns the name of the VBA project. Read-only String. |
-| [getReferences](getreferences)() | Returns the list of all references that are contained in the VBA project. Read-only IVbaReferenceCollection. |
-| [toBinary](tobinary)() | Returns the binary representation of the VBA project as OLE container |
+| VbaProject() | This function creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
+
+ **Result:**
+VbaProject
+
+
+---
+
+
+### VbaProject {#VbaProject}
+
+| Name | Description |
+| --- | --- |
+| VbaProject(byte[]) | This function loads VBA project from binary representation of OLE container. |
+
+ **Result:**
+VbaProject
+
+
+---
+
+
+### getModules {#getModules}
+
+| Name | Description |
+| --- | --- |
+| getModules () | Returns the list of all modules that are contained in the VBA project. Read-only IVbaModuleCollection. |
+
+ **Result:**
+[VbaModuleCollection](../vbamodulecollection)
+
+
+---
+
+
+### getName {#getName}
+
+| Name | Description |
+| --- | --- |
+| getName () | Returns the name of the VBA project. Read-only String. |
+
+ **Result:**
+String
+
+
+---
+
+
+### getReferences {#getReferences}
+
+| Name | Description |
+| --- | --- |
+| getReferences () | Returns the list of all references that are contained in the VBA project. Read-only IVbaReferenceCollection. |
+
+ **Result:**
+[VbaReferenceCollection](../vbareferencecollection)
+
+
+---
+
+
+### toBinary {#toBinary}
+
+| Name | Description |
+| --- | --- |
+| toBinary () | Returns the binary representation of the VBA project as OLE container |
+
+ **Result:**
+byte
+
+
+---
+
+

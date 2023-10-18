@@ -16,7 +16,27 @@ url: /aspose.slides/animatetexttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AllAtOnce | 0 | Animate all text at once. |
-| ByWord | 1 | Animate text by word. |
-| ByLetter | 2 | Animate text by letter. |
+[AllAtOnce](#AllAtOnce) | 0 | Animate all text at once. |
+[ByWord](#ByWord) | 1 | Animate text by word. |
+[ByLetter](#ByLetter) | 2 | Animate text by letter. |
+
+
+---
+
+
+### AllAtOnce {#AllAtOnce}
+Animate all text at once.
+
+---
+
+### ByWord {#ByWord}
+Animate text by word.
+
+---
+
+### ByLetter {#ByLetter}
+Animate text by letter.
+
+---
+
 

@@ -11,12 +11,61 @@ url: /aspose.slides/gradientstopeffectivedata/
 
  Immutable object which represents a gradient stop.
  
-
-## Functions
+### equals {#equals}
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified GradientStopEffectiveData is equal to the current GradientStopEffectiveData. |
-| [getColor](getcolor)() | Returns the color of a gradient stop. Read-only java.awt.Color. |
-| [getPosition](getposition)() | Returns the position (0..1) of a gradient stop. Read-only float. |
-| [hashCode](hashcode)() |  |
+| equals (Object) | Determines whether the specified GradientStopEffectiveData is equal to the current GradientStopEffectiveData. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The GradientStopEffectiveData to compare. |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getColor {#getColor}
+
+| Name | Description |
+| --- | --- |
+| getColor () | Returns the color of a gradient stop. Read-only java.awt.Color. |
+
+ **Result:**
+Color
+
+
+---
+
+
+### getPosition {#getPosition}
+
+| Name | Description |
+| --- | --- |
+| getPosition () | Returns the position (0..1) of a gradient stop. Read-only float. |
+
+ **Result:**
+float
+
+
+---
+
+
+### hashCode {#hashCode}
+
+| Name | Description |
+| --- | --- |
+| hashCode () |  |
+
+ **Result:**
+int
+
+
+---
+
+

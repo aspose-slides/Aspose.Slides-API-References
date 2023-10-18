@@ -11,24 +11,199 @@ url: /aspose.slides/threedformat/
 
  Represents 3-D properties.
  
-
-## Functions
+### getBevelBottom {#getBevelBottom}
 
 | Name | Description |
 | --- | --- |
-| [getBevelBottom](getbevelbottom)() | Returns or sets the type of a bottom 3D bevel. Read-only IShapeBevel. |
-| [getBevelTop](getbeveltop)() | Returns or sets the type of a top 3D bevel. Read-only IShapeBevel. |
-| [getCamera](getcamera)() | Returns or sets the settings of a camera. Read-only ICamera. |
-| [getContourColor](getcontourcolor)() | Returns or sets the color of a contour. Read-only IColorFormat. |
-| [getContourWidth](getcontourwidth)() | Returns or sets the width of a 3D contour. Read/write double. |
-| [getDepth](getdepth)() | Returns or sets the depth of a 3D shape. Read/write double. |
-| [getEffective](geteffective)() | Gets effective 3-D formatting data with the inheritance applied. |
-| [getExtrusionColor](getextrusioncolor)() | Returns or sets the color of an extrusion. Read-only IColorFormat. |
-| [getExtrusionHeight](getextrusionheight)() | Returns or sets the height of an extrusion effect. Read/write double. |
-| [getLightRig](getlightrig)() | Returns or sets the type of a light. Read-only ILightRig. |
-| [getMaterial](getmaterial)() | Returns or sets the type of a material. Read/write MaterialPresetType. |
-| [getVersion](getversion)() |  |
-| [setContourWidth](setcontourwidth)(double) | Returns or sets the width of a 3D contour. Read/write double. |
-| [setDepth](setdepth)(double) | Returns or sets the depth of a 3D shape. Read/write double. |
-| [setExtrusionHeight](setextrusionheight)(double) | Returns or sets the height of an extrusion effect. Read/write double. |
-| [setMaterial](setmaterial)(int) | Returns or sets the type of a material. Read/write MaterialPresetType. |
+| getBevelBottom () | Returns or sets the type of a bottom 3D bevel. Read-only IShapeBevel. |
+
+ **Result:**
+[ShapeBevel](../shapebevel)
+
+
+---
+
+
+### getBevelTop {#getBevelTop}
+
+| Name | Description |
+| --- | --- |
+| getBevelTop () | Returns or sets the type of a top 3D bevel. Read-only IShapeBevel. |
+
+ **Result:**
+[ShapeBevel](../shapebevel)
+
+
+---
+
+
+### getCamera {#getCamera}
+
+| Name | Description |
+| --- | --- |
+| getCamera () | Returns or sets the settings of a camera. Read-only ICamera. |
+
+ **Result:**
+[Camera](../camera)
+
+
+---
+
+
+### getContourColor {#getContourColor}
+
+| Name | Description |
+| --- | --- |
+| getContourColor () | Returns or sets the color of a contour. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getContourWidth {#getContourWidth}
+
+| Name | Description |
+| --- | --- |
+| getContourWidth () | Returns or sets the width of a 3D contour. Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getDepth {#getDepth}
+
+| Name | Description |
+| --- | --- |
+| getDepth () | Returns or sets the depth of a 3D shape. Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getEffective {#getEffective}
+
+| Name | Description |
+| --- | --- |
+| getEffective () | Gets effective 3-D formatting data with the inheritance applied. |
+
+ **Result:**
+ThreeDFormatEffectiveData
+
+
+---
+
+
+### getExtrusionColor {#getExtrusionColor}
+
+| Name | Description |
+| --- | --- |
+| getExtrusionColor () | Returns or sets the color of an extrusion. Read-only IColorFormat. |
+
+ **Result:**
+[ColorFormat](../colorformat)
+
+
+---
+
+
+### getExtrusionHeight {#getExtrusionHeight}
+
+| Name | Description |
+| --- | --- |
+| getExtrusionHeight () | Returns or sets the height of an extrusion effect. Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getLightRig {#getLightRig}
+
+| Name | Description |
+| --- | --- |
+| getLightRig () | Returns or sets the type of a light. Read-only ILightRig. |
+
+ **Result:**
+[LightRig](../lightrig)
+
+
+---
+
+
+### getMaterial {#getMaterial}
+
+| Name | Description |
+| --- | --- |
+| getMaterial () | Returns or sets the type of a material. Read/write MaterialPresetType. |
+
+ **Result:**
+int
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion () |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### setContourWidth {#setContourWidth}
+
+| Name | Description |
+| --- | --- |
+| setContourWidth (double) | Returns or sets the width of a 3D contour. Read/write double. |
+
+
+---
+
+
+### setDepth {#setDepth}
+
+| Name | Description |
+| --- | --- |
+| setDepth (double) | Returns or sets the depth of a 3D shape. Read/write double. |
+
+
+---
+
+
+### setExtrusionHeight {#setExtrusionHeight}
+
+| Name | Description |
+| --- | --- |
+| setExtrusionHeight (double) | Returns or sets the height of an extrusion effect. Read/write double. |
+
+
+---
+
+
+### setMaterial {#setMaterial}
+
+| Name | Description |
+| --- | --- |
+| setMaterial (int) | Returns or sets the type of a material. Read/write MaterialPresetType. |
+
+
+---
+
+

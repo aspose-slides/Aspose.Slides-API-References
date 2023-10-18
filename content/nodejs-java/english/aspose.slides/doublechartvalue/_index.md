@@ -13,15 +13,85 @@ url: /aspose.slides/doublechartvalue/
  1) in cell/cells of workbook related to chart;
  2) as literal value.
  
-
-## Functions
+### getAsCell {#getAsCell}
 
 | Name | Description |
 | --- | --- |
-| [getAsCell](getascell)() | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [getAsLiteralDouble](getasliteraldouble)() | Returns or sets value as literal double. Read/write double. |
-| [getData](getdata)() | Returns or sets Data object. Read/write Object. |
-| [setAsCell](setascell)([ChartDataCell](../chartdatacell)) | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [setAsLiteralDouble](setasliteraldouble)(double) | Returns or sets value as literal double. Read/write double. |
-| [setData](setdata)(Object) | Returns or sets Data object. Read/write Object. |
-| [toDouble](todouble)() | Converts to double. |
+| getAsCell () | Returns or sets chart data cell. Read/write IChartDataCell. |
+
+ **Result:**
+[ChartDataCell](../chartdatacell)
+
+
+---
+
+
+### getAsLiteralDouble {#getAsLiteralDouble}
+
+| Name | Description |
+| --- | --- |
+| getAsLiteralDouble () | Returns or sets value as literal double. Read/write double. |
+
+ **Result:**
+double
+
+
+---
+
+
+### getData {#getData}
+
+| Name | Description |
+| --- | --- |
+| getData () | Returns or sets Data object. Read/write Object. |
+
+ **Result:**
+Object
+
+
+---
+
+
+### setAsCell {#setAsCell}
+
+| Name | Description |
+| --- | --- |
+| setAsCell ([ChartDataCell](../chartdatacell)) | Returns or sets chart data cell. Read/write IChartDataCell. |
+
+
+---
+
+
+### setAsLiteralDouble {#setAsLiteralDouble}
+
+| Name | Description |
+| --- | --- |
+| setAsLiteralDouble (double) | Returns or sets value as literal double. Read/write double. |
+
+
+---
+
+
+### setData {#setData}
+
+| Name | Description |
+| --- | --- |
+| setData (Object) | Returns or sets Data object. Read/write Object. |
+
+
+---
+
+
+### toDouble {#toDouble}
+
+| Name | Description |
+| --- | --- |
+| toDouble () | Converts to double. |
+
+ **Result:**
+double
+
+
+---
+
+
