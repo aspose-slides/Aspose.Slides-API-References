@@ -81,6 +81,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 
 | Enumeration | Description |
 | --- | --- |
+| [BlackWhiteConversionMode](./blackwhiteconversionmode) | Provides options that control how slides' images will be converted to bitonal images. |
 | [CommentsPositions](./commentspositions) | Represents the rule to render comments into exported document |
 | [Conformance](./conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [EmbedFontCharacters](./embedfontcharacters) | Represents the rule to use for adding new embedding font into [`IPresentation`](../aspose.slides/ipresentation) |

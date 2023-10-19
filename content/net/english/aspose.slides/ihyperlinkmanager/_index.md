@@ -3,7 +3,7 @@ title: IHyperlinkManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Provide hyperlinks management adding removing.
 type: docs
-weight: 5730
+weight: 5740
 url: /aspose.slides/ihyperlinkmanager/
 ---
 

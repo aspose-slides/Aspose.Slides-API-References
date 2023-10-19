@@ -3,7 +3,7 @@ title: ILineFormatCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object that represents a readonly collection of effective line formats.
 type: docs
-weight: 10660
+weight: 10710
 url: /aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 

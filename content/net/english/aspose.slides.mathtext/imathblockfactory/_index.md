@@ -3,7 +3,7 @@ title: IMathBlockFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math block
 type: docs
-weight: 7590
+weight: 7640
 url: /aspose.slides.mathtext/imathblockfactory/
 ---
 

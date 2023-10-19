@@ -3,7 +3,7 @@ title: LineFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents format of a line.
 type: docs
-weight: 7230
+weight: 7280
 url: /aspose.slides/lineformat/
 ---
 

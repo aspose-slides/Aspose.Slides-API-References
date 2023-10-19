@@ -3,7 +3,7 @@ title: ShapeElementStrokeSource
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents how shape element should be drawn.
 type: docs
-weight: 9250
+weight: 9300
 url: /aspose.slides/shapeelementstrokesource/
 ---
 

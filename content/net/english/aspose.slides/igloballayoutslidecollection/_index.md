@@ -3,7 +3,7 @@ title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of all layout slides in presentation. Extends ILayoutSlideCollection interface with methods for adding/cloning layout slides in context of uniting of the individual collections of masters layout slides.
 type: docs
-weight: 5600
+weight: 5610
 url: /aspose.slides/igloballayoutslidecollection/
 ---
 

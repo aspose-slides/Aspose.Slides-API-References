@@ -3,7 +3,7 @@ title: IParagraph
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a paragraph of a text.
 type: docs
-weight: 6140
+weight: 6150
 url: /aspose.slides/iparagraph/
 ---
 
@@ -29,6 +29,7 @@ public interface IParagraph : ISlideComponent
 
 | Name | Description |
 | --- | --- |
+| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Get number of lines in a paragraph. |
 | [GetRect](../../aspose.slides/iparagraph/getrect)() | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Joins runs with same formatting. |
 

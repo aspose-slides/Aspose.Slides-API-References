@@ -3,7 +3,7 @@ title: IPortionCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of a portions.
 type: docs
-weight: 6290
+weight: 6300
 url: /aspose.slides/iportioncollection/
 ---
 

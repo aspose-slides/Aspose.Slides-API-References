@@ -3,7 +3,7 @@ title: CompressionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the compression type. Read/write TiffCompressionTypesaspose.slides.export/tiffcompressiontypes.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides.export/itiffoptions/compressiontype/
 ---
 

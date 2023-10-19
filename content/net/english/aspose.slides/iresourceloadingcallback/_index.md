@@ -3,7 +3,7 @@ title: IResourceLoadingCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: Callback interface used to manage external resources loading.
 type: docs
-weight: 6420
+weight: 6430
 url: /aspose.slides/iresourceloadingcallback/
 ---
 

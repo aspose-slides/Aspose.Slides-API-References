@@ -3,7 +3,7 @@ title: IThreeDParamSource
 second_title: Aspose.Sildes for .NET API Reference
 description: 3D properties source auxiliary interface
 type: docs
-weight: 6910
+weight: 6920
 url: /aspose.slides/ithreedparamsource/
 ---
 

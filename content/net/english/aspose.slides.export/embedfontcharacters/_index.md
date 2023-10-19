@@ -3,7 +3,7 @@ title: EmbedFontCharacters
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the rule to use for adding new embedding font into IPresentation../aspose.slides/ipresentation
 type: docs
-weight: 3540
+weight: 3550
 url: /aspose.slides.export/embedfontcharacters/
 ---
 

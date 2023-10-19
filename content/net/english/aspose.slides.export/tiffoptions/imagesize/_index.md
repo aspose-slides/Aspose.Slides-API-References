@@ -3,7 +3,7 @@ title: ImageSize
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies size of a generated TIFF image. Default value is 0x0 what means that generated image sizes will be calculated based on presentation slide size value. Read/write Size.
 type: docs
-weight: 50
+weight: 60
 url: /aspose.slides.export/tiffoptions/imagesize/
 ---
 

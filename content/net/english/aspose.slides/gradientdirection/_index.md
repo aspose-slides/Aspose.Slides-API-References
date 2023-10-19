@@ -3,7 +3,7 @@ title: GradientDirection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the gradient style.
 type: docs
-weight: 4670
+weight: 4680
 url: /aspose.slides/gradientdirection/
 ---
 

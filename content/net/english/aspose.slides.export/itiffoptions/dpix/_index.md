@@ -3,7 +3,7 @@ title: DpiX
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the horizontal resolution in dots per inch. Read/write UInt32.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides.export/itiffoptions/dpix/
 ---
 

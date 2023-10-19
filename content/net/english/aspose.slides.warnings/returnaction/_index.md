@@ -3,7 +3,7 @@ title: ReturnAction
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents warning callback decision options.
 type: docs
-weight: 11180
+weight: 11230
 url: /aspose.slides.warnings/returnaction/
 ---
 

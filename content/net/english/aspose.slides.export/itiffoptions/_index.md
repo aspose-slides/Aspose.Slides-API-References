@@ -3,7 +3,7 @@ title: ITiffOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 3900
+weight: 3910
 url: /aspose.slides.export/itiffoptions/
 ---
 
@@ -20,6 +20,7 @@ public interface ITiffOptions : ISaveOptions
 | Name | Description |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Specifies the algorithm for converting a color image into a black and white image. This option will applied only if [`CompressionType`](./compressiontype) is set to CCITT4 or CCITT3 Read/write [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Default is Default. |
 | [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Specifies the compression type. Read/write [`TiffCompressionTypes`](../tiffcompressiontypes). |
 | [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Specifies the horizontal resolution in dots per inch. Read/write UInt32. |
 | [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Specifies the vertical resolution in dots per inch. Read/write UInt32. |
