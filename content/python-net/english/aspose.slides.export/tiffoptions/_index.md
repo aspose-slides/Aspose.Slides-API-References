@@ -28,6 +28,7 @@ The TiffOptions type exposes the following members:
 |dpi_y|Specifies the vertical resolution in dots per inch.<br/>            Read/write int.|
 |compression_type|Specifies the compression type.<br/>            Read/write [TiffCompressionTypes](/slides/python-net/aspose.slides.export/tiffcompressiontypes/).|
 |pixel_format|Specifies the pixel format for the generated images.<br/>            Read/write [ImagePixelFormat](/slides/python-net/aspose.slides.export/imagepixelformat/).|
+|bw_conversion_mode|Specifies the algorithm for converting a color image into a black and white image.<br/>            This option will applied only if [compression_type](/slides/python-net/aspose.slides.export/tiffoptions/) <br/>            is set to [CCITT4](/slides/python-net/aspose.slides.export/tiffcompressiontypes/) or [CCITT3](/slides/python-net/aspose.slides.export/tiffcompressiontypes/)<br/>            Read/write [BlackWhiteConversionMode](/slides/python-net/aspose.slides.export/blackwhiteconversionmode/).<br/>            Default is [DEFAULT](/slides/python-net/aspose.slides.export/blackwhiteconversionmode/).|
 |as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
 
 ### See Also

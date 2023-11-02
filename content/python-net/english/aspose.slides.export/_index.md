@@ -1,6 +1,6 @@
 ---
 title: aspose.slides.export
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/
@@ -75,6 +75,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
+|[BlackWhiteConversionMode](/slides/python-net/aspose.slides.export/blackwhiteconversionmode/)|Provides options that control how slides' images will be converted to bitonal images.|
 |[CommentsPositions](/slides/python-net/aspose.slides.export/commentspositions/)|Represents the rule to render comments into exported document|
 |[Conformance](/slides/python-net/aspose.slides.export/conformance/)|Specifies the conformance class to which the PresentationML document conforms.|
 |[EmbedFontCharacters](/slides/python-net/aspose.slides.export/embedfontcharacters/)|Represents the rule to use for adding new embedding font into [IPresentation](/slides/python-net/aspose.slides/ipresentation/)|

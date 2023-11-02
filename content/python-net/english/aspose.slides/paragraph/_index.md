@@ -32,6 +32,7 @@ The Paragraph type exposes the following members:
 | :- | :- |
 |join_portions_with_same_formatting()|Joins runs with same formatting.|
 |get_rect()|Get coordinates of rect that bounds paragraph. The rect includes all the lines of<br/>            text in paragraph, including empty ones.|
+|get_lines_count()|Get number of lines in a paragraph.|
 
 ### See Also
 
