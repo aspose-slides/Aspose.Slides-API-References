@@ -12,7 +12,6 @@ url: /
 |[aspose.slides](/slides/python-net/aspose.slides/)|Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.|
 |[aspose.slides.animation](/slides/python-net/aspose.slides.animation/)|Contains classes for work with animation in Microsoft PowerPoint presentations.|
 |[aspose.slides.charts](/slides/python-net/aspose.slides.charts/)|Contains classes for work with charts in Microsoft PowerPoint presentations.|
-|[aspose.slides.dom](/slides/python-net/aspose.slides.dom/)||
 |[aspose.slides.dom.ole](/slides/python-net/aspose.slides.dom.ole/)|Contains classes for work with OLE objects in Microsoft PowerPoint presentations.|
 |[aspose.slides.effects](/slides/python-net/aspose.slides.effects/)|Contains classes for work with various effects in Microsoft PowerPoint presentations.|
 |[aspose.slides.export](/slides/python-net/aspose.slides.export/)|Contains classes for exporting Microsoft PowerPoint presentations to different formats like HTML, PDF, SVG, XPS and others.|
