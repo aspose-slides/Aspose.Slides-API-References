@@ -3,8 +3,7 @@ title: IExternalResourceResolver
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 30
-url: /aspose.slides.import/iexternalresourceresolver/
+url: /aspose.slides.importing/iexternalresourceresolver/
 ---
 
 ## IExternalResourceResolver class
@@ -20,6 +19,6 @@ The IExternalResourceResolver type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.slides.import](/slides/python-net/aspose.slides.import/)
+* namespace [aspose.slides.importing](/slides/python-net/aspose.slides.importing/)
 * assembly [Aspose.Slides](/slides/python-net/)
 

@@ -3,7 +3,6 @@ title: aspose.slides.animation
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 20
 url: /aspose.slides.animation/
 ---
 
@@ -65,6 +64,8 @@ Contains classes for work with animation in Microsoft PowerPoint presentations.
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
+|[AfterAnimationType](/slides/python-net/aspose.slides.animation/afteranimationtype/)|Represents the after animation type of an animation effect.|
+|[AnimateTextType](/slides/python-net/aspose.slides.animation/animatetexttype/)|Represents the animate text type of an animation effect.|
 |[BehaviorAccumulateType](/slides/python-net/aspose.slides.animation/behavioraccumulatetype/)|Represents types of accumulation of effect behaviors.|
 |[BehaviorAdditiveType](/slides/python-net/aspose.slides.animation/behavioradditivetype/)|Represents additive type for effect behavior.|
 |[BuildType](/slides/python-net/aspose.slides.animation/buildtype/)|Determines how text will appear on a shape during animation.|

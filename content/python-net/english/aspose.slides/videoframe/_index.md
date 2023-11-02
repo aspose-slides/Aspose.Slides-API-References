@@ -3,7 +3,6 @@ title: VideoFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 4010
 url: /aspose.slides/videoframe/
 ---
 
@@ -61,6 +60,8 @@ The VideoFrame type exposes the following members:
 |full_screen_mode|Determines whether a video is shown in full screen mode.<br/>            Read/write bool.|
 |link_path_long|Returns or sets the name of an video file which is linked to a VideoFrame.<br/>            Read/write string.|
 |embedded_video|Returns or sets embedded video object.<br/>            Read/write [IVideo](/slides/python-net/aspose.slides/ivideo/).|
+|trim_from_start|Trim start [ms]|
+|trim_from_end|Trim end [ms]|
 |as_i_hyperlink_container|Allows to get base IHyperlinkContainer interface.<br/>            Read-only [IHyperlinkContainer](/slides/python-net/aspose.slides/ihyperlinkcontainer/).|
 |as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
 |as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|

@@ -3,7 +3,6 @@ title: AlphaReplace
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 70
 url: /aspose.slides.effects/alphareplace/
 ---
 

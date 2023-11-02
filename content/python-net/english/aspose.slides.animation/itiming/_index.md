@@ -3,7 +3,6 @@ title: ITiming
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 350
 url: /aspose.slides.animation/itiming/
 ---
 
@@ -27,6 +26,7 @@ The ITiming type exposes the following members:
 |speed|Specifies the percentage by which to speed up (or slow down) the timing.<br/>            Read/write|
 |trigger_delay_time|Describes delay time after trigger.<br/>            Read/write|
 |trigger_type|Describes trigger type.<br/>            Read/write [EffectTriggerType](/slides/python-net/aspose.slides.animation/effecttriggertype/).|
+|rewind|This attribute specifies if the effect will rewind when done playing.<br/>             Read/write bool.|
 
 ### See Also
 

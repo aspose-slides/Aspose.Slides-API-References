@@ -3,7 +3,6 @@ title: EffectStyleCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 60
 url: /aspose.slides.theme/effectstylecollection/
 ---
 

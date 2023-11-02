@@ -3,7 +3,6 @@ title: FontScheme
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 100
 url: /aspose.slides.theme/fontscheme/
 ---
 

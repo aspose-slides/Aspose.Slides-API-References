@@ -3,7 +3,6 @@ title: TileFlip
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 10060
 url: /aspose.slides/tileflip/
 ---
 

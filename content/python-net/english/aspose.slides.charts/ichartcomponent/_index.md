@@ -3,7 +3,6 @@ title: IChartComponent
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 500
 url: /aspose.slides.charts/ichartcomponent/
 ---
 

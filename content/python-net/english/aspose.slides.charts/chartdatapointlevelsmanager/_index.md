@@ -3,7 +3,6 @@ title: ChartDataPointLevelsManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 170
 url: /aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 

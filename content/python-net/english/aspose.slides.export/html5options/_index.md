@@ -3,7 +3,6 @@ title: Html5Options
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 60
 url: /aspose.slides.export/html5options/
 ---
 
@@ -15,7 +14,7 @@ The Html5Options type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Html5Options()|Initializes a new instance of the Html5Options class|
+|Html5Options()|Default constructor.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +23,8 @@ The Html5Options type exposes the following members:
 |default_regular_font|Returns or sets font used in case source font is not found.<br/>            Read-write string.|
 |animate_transitions|Returns or sets transitions animation option.<br/>            Read/write bool.|
 |animate_shapes|Returns or sets shapes animation option.<br/>            Read/write bool.|
+|embed_images|Returns or sets images embedding option. <br/>            Read/write bool.|
+|output_path|Determines where external resources should be stored. <br/>            Read/write string.|
 |as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
 
 ### See Also

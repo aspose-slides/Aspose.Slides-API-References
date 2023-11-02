@@ -3,7 +3,6 @@ title: ChartDataPoint
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 140
 url: /aspose.slides.charts/chartdatapoint/
 ---
 
@@ -30,6 +29,7 @@ The ChartDataPoint type exposes the following members:
 |set_as_total|Sets data point as total. Applied for Waterfall series type only.|
 |related_legend_entry|Properties of corresponding legend entry in case of chart type from this list:<br/>            ChartType.BarOfPie,<br/>            ChartType.ExplodedPie,<br/>            ChartType.ExplodedPie3D,<br/>            ChartType.Pie,<br/>            ChartType.Pie3D,<br/>            ChartType.PieOfPie.<br/>            Read-only [ILegendEntryProperties](/slides/python-net/aspose.slides.charts/ilegendentryproperties/).|
 |data_point_levels|Returns container of  data point levels. Applied for Treeamp and Sunburst series.<br/>            Data point levels indexing is zero-based.|
+|index|Determines which of the parent's children collection this data point applies to.<br/>            Read int.|
 |invert_if_negative|Specifies the data point shall invert its colors if the value is negative.<br/>            Read/write bool.|
 |actual_x|Specifies actual x location (left) of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read|
 |actual_y|Specifies actual top of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read|
@@ -40,7 +40,7 @@ The ChartDataPoint type exposes the following members:
 | Name | Description |
 | :- | :- |
 |remove()|Removes DataPoint from chart series.|
-|get_automatic_data_point_color()|Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. <br/>            This color is used by default if FillType equals NotDefined.|
+|get_automatic_data_point_color()|Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style.<br/>            This color is used by default if FillType equals NotDefined.|
 
 ### See Also
 

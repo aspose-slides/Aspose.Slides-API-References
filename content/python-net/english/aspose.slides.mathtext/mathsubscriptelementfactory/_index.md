@@ -3,7 +3,6 @@ title: MathSubscriptElementFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 820
 url: /aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 

@@ -3,7 +3,6 @@ title: IBaseSlide
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 940
 url: /aspose.slides/ibaseslide/
 ---
 

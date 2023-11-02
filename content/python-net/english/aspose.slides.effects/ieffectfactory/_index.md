@@ -3,7 +3,6 @@ title: IEffectFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 430
 url: /aspose.slides.effects/ieffectfactory/
 ---
 

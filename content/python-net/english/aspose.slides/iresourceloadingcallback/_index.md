@@ -3,7 +3,6 @@ title: IResourceLoadingCallback
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2340
 url: /aspose.slides/iresourceloadingcallback/
 ---
 

@@ -3,7 +3,6 @@ title: IMotionPath
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 240
 url: /aspose.slides.animation/imotionpath/
 ---
 

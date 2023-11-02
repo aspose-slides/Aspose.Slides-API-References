@@ -3,7 +3,6 @@ title: IBehaviorFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 140
 url: /aspose.slides.animation/ibehaviorfactory/
 ---
 

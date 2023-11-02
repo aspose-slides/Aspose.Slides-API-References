@@ -3,7 +3,6 @@ title: IDataLabelCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 740
 url: /aspose.slides.charts/idatalabelcollection/
 ---
 
@@ -16,6 +15,7 @@ The IDataLabelCollection type exposes the following members:
 | Name | Description |
 | :- | :- |
 |default_data_label_format|Returns default format of all data labels in the collection.<br/>            Read-only [IDataLabelFormat](/slides/python-net/aspose.slides.charts/idatalabelformat/).|
+|leader_lines_format|Represents data labels leader lines format.<br/>             Read-only [IChartLinesFormat](/slides/python-net/aspose.slides.charts/ichartlinesformat/).|
 |leader_lines_color|Gets or sets the color of all leader lines in the collection.<br/>            Read/write aspose.pydrawing.Color.|
 |is_visible|False means that data label is not visible by default (and so all <br/>            Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false).<br/>            Read-only bool.|
 |count_of_visible_data_labels|Gets the number of visible data labels in the collection.<br/>            Read-only|

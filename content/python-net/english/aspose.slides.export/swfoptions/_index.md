@@ -3,7 +3,6 @@ title: SwfOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 540
 url: /aspose.slides.export/swfoptions/
 ---
 

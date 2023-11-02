@@ -3,7 +3,6 @@ title: CommandEffectType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 550
 url: /aspose.slides.animation/commandeffecttype/
 ---
 

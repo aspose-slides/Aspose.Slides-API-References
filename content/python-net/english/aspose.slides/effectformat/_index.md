@@ -3,7 +3,6 @@ title: EffectFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 470
 url: /aspose.slides/effectformat/
 ---
 

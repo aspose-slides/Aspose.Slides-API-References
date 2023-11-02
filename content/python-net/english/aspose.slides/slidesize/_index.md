@@ -3,7 +3,6 @@ title: SlideSize
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3790
 url: /aspose.slides/slidesize/
 ---
 

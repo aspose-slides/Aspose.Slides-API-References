@@ -3,7 +3,6 @@ title: OleObjectFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3250
 url: /aspose.slides/oleobjectframe/
 ---
 

@@ -3,7 +3,6 @@ title: IPresentationText
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2300
 url: /aspose.slides/ipresentationtext/
 ---
 

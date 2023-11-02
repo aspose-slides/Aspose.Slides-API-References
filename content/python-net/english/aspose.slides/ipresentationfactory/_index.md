@@ -3,7 +3,6 @@ title: IPresentationFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2270
 url: /aspose.slides/ipresentationfactory/
 ---
 

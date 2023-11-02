@@ -3,7 +3,6 @@ title: Effect
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 100
 url: /aspose.slides.animation/effect/
 ---
 
@@ -25,6 +24,10 @@ The Effect type exposes the following members:
 |target_shape|Returns target shape for effect.<br/>            Read-only [IShape](/slides/python-net/aspose.slides/ishape/).|
 |sound|Defined embedded sound for effect.<br/>            Read/write [IAudio](/slides/python-net/aspose.slides/iaudio/).|
 |stop_previous_sound|This attribute specifies if the animation effect stops the previous sound.<br/>            Read/write bool.|
+|after_animation_type|Defines an after animation type for effect.<br/>            Read/write [after_animation_type](/slides/python-net/aspose.slides.animation/effect/).|
+|after_animation_color|Defines an after animation color for effect.<br/>            Read/write [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
+|animate_text_type|Defines an animate text type for effect. <br/>            The shape text can be animated by letter, by word or all at once.<br/>            Read/write [animate_text_type](/slides/python-net/aspose.slides.animation/effect/).|
+|delay_between_text_parts|Defines a delay between animated text parts (words or letters).<br/>            A positive value specifies the percentage of effect duration.<br/>            A negative value specifies the delay in seconds.<br/>            Read/write|
 
 ### See Also
 

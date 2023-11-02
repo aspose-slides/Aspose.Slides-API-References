@@ -3,7 +3,6 @@ title: aspose.slides.export
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 70
 url: /aspose.slides.export/
 ---
 
@@ -52,11 +51,12 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[IVideoPlayerHtmlController](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller/)|This class allows export of video and audio files into a HTML|
 |[IVideoPlayerHtmlControllerFactory](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/)|Allows to create VideoPlayerHtmlController.|
 |[IXpsOptions](/slides/python-net/aspose.slides.export/ixpsoptions/)|Provides options that control how a presentation is saved in XPS format.|
+|[MarkdownSaveOptions](/slides/python-net/aspose.slides.export/markdownsaveoptions/)|Represents options that control how presentation should be saved to markdown.|
 |[NotesCommentsLayoutingOptions](/slides/python-net/aspose.slides.export/notescommentslayoutingoptions/)|Provides options that control the look of layouting of notes and comments in exported document.|
 |[PdfOptions](/slides/python-net/aspose.slides.export/pdfoptions/)|Provides options that control how a presentation is saved in Pdf format.|
 |[PptOptions](/slides/python-net/aspose.slides.export/pptoptions/)|Provides options that control how a presentation is saved in PPT format.|
 |[PptxOptions](/slides/python-net/aspose.slides.export/pptxoptions/)|Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).|
-|[PresentationAnimationsGenerator](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/)||
+|[PresentationAnimationsGenerator](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/)|Represents a generator of the animations in the [Presentation](/slides/python-net/aspose.slides/presentation/).|
 |[PresentationPlayer](/slides/python-net/aspose.slides.export/presentationplayer/)|Represents the player of animations associated with the [Presentation](/slides/python-net/aspose.slides/presentation/).|
 |[RenderingOptions](/slides/python-net/aspose.slides.export/renderingoptions/)|Provides options that control how a presentation/slide is rendered.|
 |[ResponsiveHtmlController](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/)|Responsive HTML Controller|
@@ -78,8 +78,11 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[CommentsPositions](/slides/python-net/aspose.slides.export/commentspositions/)|Represents the rule to render comments into exported document|
 |[Conformance](/slides/python-net/aspose.slides.export/conformance/)|Specifies the conformance class to which the PresentationML document conforms.|
 |[EmbedFontCharacters](/slides/python-net/aspose.slides.export/embedfontcharacters/)|Represents the rule to use for adding new embedding font into [IPresentation](/slides/python-net/aspose.slides/ipresentation/)|
+|[Flavor](/slides/python-net/aspose.slides.export/flavor/)|All markdown specifications used in program.|
 |[ImagePixelFormat](/slides/python-net/aspose.slides.export/imagepixelformat/)|Specifies the pixel format for the generated images.|
 |[LinkEmbedDecision](/slides/python-net/aspose.slides.export/linkembeddecision/)|Determines how object will be processed during saving.|
+|[MarkdownExportType](/slides/python-net/aspose.slides.export/markdownexporttype/)|Type of rendering document.|
+|[NewLineType](/slides/python-net/aspose.slides.export/newlinetype/)|Type of new line that will be used in generated document.|
 |[NotesPositions](/slides/python-net/aspose.slides.export/notespositions/)|Represents the rule to render notes into exported document|
 |[PdfAccessPermissions](/slides/python-net/aspose.slides.export/pdfaccesspermissions/)|Contains a set of flags specifying which access permissions should be granted when the document is opened with <br/>            user access.|
 |[PdfCompliance](/slides/python-net/aspose.slides.export/pdfcompliance/)|Constants which define the PDF standards compliance level.|

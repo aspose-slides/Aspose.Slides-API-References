@@ -3,7 +3,6 @@ title: ParagraphFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3300
 url: /aspose.slides/paragraphfactory/
 ---
 

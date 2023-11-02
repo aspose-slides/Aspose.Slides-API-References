@@ -3,7 +3,6 @@ title: TextFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3940
 url: /aspose.slides/textframe/
 ---
 

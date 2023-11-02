@@ -3,7 +3,6 @@ title: IChartDataPoint
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 530
 url: /aspose.slides.charts/ichartdatapoint/
 ---
 
@@ -31,6 +30,7 @@ The IChartDataPoint type exposes the following members:
 |set_as_total|Sets data point as total. Applied for Waterfall series type only.|
 |invert_if_negative|Specifies the data point shall invert its colors if the value is negative.<br/>            Read/write bool.|
 |data_point_levels|Returns container of  data point levels. Applied for Treeamp and Sunburst series.<br/>            Data point levels indexing is zero-based.|
+|index|Determines which of the parent's children collection this data point applies to.<br/>            Read int.|
 |as_i_actual_layout|Returns IActualLayout interface.|
 |actual_x|Specifies actual x location (left) of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read|
 |actual_y|Specifies actual top of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read|

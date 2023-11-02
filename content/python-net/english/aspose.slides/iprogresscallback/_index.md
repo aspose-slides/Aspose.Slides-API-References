@@ -3,7 +3,6 @@ title: IProgressCallback
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2310
 url: /aspose.slides/iprogresscallback/
 ---
 

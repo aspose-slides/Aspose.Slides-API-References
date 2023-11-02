@@ -3,7 +3,6 @@ title: DigitalSignatureCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 450
 url: /aspose.slides/digitalsignaturecollection/
 ---
 

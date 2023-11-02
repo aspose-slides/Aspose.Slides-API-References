@@ -3,7 +3,6 @@ title: IColorChange
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 360
 url: /aspose.slides.effects/icolorchange/
 ---
 

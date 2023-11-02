@@ -3,7 +3,6 @@ title: BulletFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 200
 url: /aspose.slides/bulletformat/
 ---
 

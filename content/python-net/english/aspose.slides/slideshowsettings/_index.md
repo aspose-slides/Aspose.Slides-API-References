@@ -3,7 +3,6 @@ title: SlideShowSettings
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3770
 url: /aspose.slides/slideshowsettings/
 ---
 
@@ -22,6 +21,7 @@ The SlideShowSettings type exposes the following members:
 |pen_color|Pen Color for Slide Show|
 |slides|Slides range|
 |use_timings|Use Timings in Slide Show|
+|show_media_controls|Show Media Controls|
 
 ### See Also
 

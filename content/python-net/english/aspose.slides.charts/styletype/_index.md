@@ -3,7 +3,6 @@ title: StyleType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1310
 url: /aspose.slides.charts/styletype/
 ---
 

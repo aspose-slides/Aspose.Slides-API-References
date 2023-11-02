@@ -3,7 +3,6 @@ title: TextVerticalOverflowType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 10040
 url: /aspose.slides/textverticaloverflowtype/
 ---
 

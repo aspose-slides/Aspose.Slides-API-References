@@ -3,7 +3,6 @@ title: Convert
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 30
 url: /aspose.slides.lowcode/convert/
 ---
 
