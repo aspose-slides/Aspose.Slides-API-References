@@ -7,7 +7,7 @@ url: /aspose.slides.importing/
 ---
 
 
-
+Contains classes for importing data into Microsoft PowerPoint presentations.
 
 ## Classes
 | Class | Description |
