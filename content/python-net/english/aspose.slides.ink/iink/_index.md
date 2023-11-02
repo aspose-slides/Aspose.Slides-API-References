@@ -14,6 +14,7 @@ The IInk type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
+|traces|Gets all traces containing in the IInk element [IInkTrace](/slides/python-net/aspose.slides.ink/iinktrace/).<br/>            Read-only.|
 |as_i_graphical_object|Allows to get base IGraphicalObject interface.<br/>            Read-only [IGraphicalObject](/slides/python-net/aspose.slides/igraphicalobject/).|
 |shape_lock|Returns shape's locks.<br/>            Read-only [IBaseShapeLock](/slides/python-net/aspose.slides/ibaseshapelock/).|
 |graphical_object_lock|Returns shape's locks.<br/>            Read-only [IGraphicalObjectLock](/slides/python-net/aspose.slides/igraphicalobjectlock/).|

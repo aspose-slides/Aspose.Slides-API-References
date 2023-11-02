@@ -1,6 +1,6 @@
 ---
 title: aspose.slides.slideshow
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/
