@@ -73,7 +73,7 @@ Add new author at the end of a collection.
 | initials | java.lang.String | Initials of a new author. |
 
 **Returns:**
-[ICommentAuthor](../../com.aspose.slides/icommentauthor) - The [ICommentAuthor](../../com.aspose.slides/icommentauthor) object.
+[ICommentAuthor](../../com.aspose.slides/icommentauthor) - New [ICommentAuthor](../../com.aspose.slides/icommentauthor) object.
 ### toArray() {#toArray--}
 ```
 public final ICommentAuthor[] toArray()
