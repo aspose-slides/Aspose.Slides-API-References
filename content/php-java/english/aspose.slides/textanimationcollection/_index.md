@@ -67,13 +67,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
+| get_Item ([Connector](../connector)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [GraphicalObject](../graphicalobject) | IShape to remove. |
+| shape | [Connector](../connector) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -86,13 +86,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Connector](../connector)) | Returns all elements |
+| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Connector](../connector) | IShape to remove. |
+| shape | [GraphicalObject](../graphicalobject) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -124,13 +124,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([SmartArtShape](../smartartshape)) | Returns all elements |
+| get_Item ([Shape](../shape)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SmartArtShape](../smartartshape) | IShape to remove. |
+| shape | [Shape](../shape) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -143,13 +143,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Shape](../shape)) | Returns all elements |
+| get_Item ([SmartArtShape](../smartartshape)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Shape](../shape) | IShape to remove. |
+| shape | [SmartArtShape](../smartartshape) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -371,25 +371,6 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AudioFrame](../audioframe) | IShape to remove. |
-
- **Returns:**
-[TextAnimation](../textanimation)
-
-
----
-
-
-### get_Item {#get_Item}
-
-| Name | Description |
-| --- | --- |
 | get_Item ([Chart](../chart)) | Returns all elements |
 
  **Parameters:**
@@ -409,13 +390,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([LegacyDiagram](../legacydiagram)) | Returns all elements |
+| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [LegacyDiagram](../legacydiagram) | IShape to remove. |
+| shape | [AudioFrame](../audioframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -435,6 +416,25 @@ Object
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomObject](../zoomobject) | IShape to remove. |
+
+ **Returns:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([LegacyDiagram](../legacydiagram)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../legacydiagram) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)

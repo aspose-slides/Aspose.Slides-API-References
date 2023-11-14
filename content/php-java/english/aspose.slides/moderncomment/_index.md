@@ -18,7 +18,7 @@ url: /aspose.slides/moderncomment/
 | getShape () | Returns a shape associated with the comment. Read-only IShape. |
 
  **Returns:**
-[GraphicalObject](../graphicalobject), [Connector](../connector), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [OleObjectFrame](../oleobjectframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [Shape](../shape), [SmartArtShape](../smartartshape), [Ink](../ink), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [OleObjectFrame](../oleobjectframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
 
 
 ---

@@ -31,7 +31,7 @@ url: /aspose.slides/connector/
 | getEndShapeConnectedTo () | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Returns:**
-[GraphicalObject](../graphicalobject), [Connector](../connector), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [OleObjectFrame](../oleobjectframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [Shape](../shape), [SmartArtShape](../smartartshape), [Ink](../ink), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [OleObjectFrame](../oleobjectframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
 
  **Exception**
 
@@ -95,7 +95,7 @@ int
 | getStartShapeConnectedTo () | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Returns:**
-[GraphicalObject](../graphicalobject), [Connector](../connector), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [OleObjectFrame](../oleobjectframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [Shape](../shape), [SmartArtShape](../smartartshape), [Ink](../ink), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [OleObjectFrame](../oleobjectframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
 
  **Exception**
 
@@ -143,7 +143,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -162,7 +162,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo ([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -200,7 +200,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -219,7 +219,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -447,25 +447,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Returns:**
-void
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
 | setEndShapeConnectedTo ([Chart](../chart)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Returns:**
@@ -485,7 +466,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -505,6 +486,25 @@ void
 | Name | Description |
 | --- | --- |
 | setEndShapeConnectedTo ([ZoomObject](../zoomobject)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -555,7 +555,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -574,7 +574,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo ([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -612,7 +612,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -631,7 +631,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -859,25 +859,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Returns:**
-void
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
 | setStartShapeConnectedTo ([Chart](../chart)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Returns:**
@@ -897,7 +878,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Returns:**
 void
@@ -917,6 +898,25 @@ void
 | Name | Description |
 | --- | --- |
 | setStartShapeConnectedTo ([ZoomObject](../zoomobject)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Returns:**
 void

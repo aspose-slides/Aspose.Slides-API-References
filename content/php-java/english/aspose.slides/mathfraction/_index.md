@@ -164,27 +164,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -206,14 +185,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -235,6 +214,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -290,27 +290,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -332,14 +311,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -361,6 +340,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -563,27 +563,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathMatrix](../mathmatrix), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -605,14 +584,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathMatrix](../mathmatrix), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -634,6 +613,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -689,27 +689,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathMatrix](../mathmatrix), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -731,14 +710,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathMatrix](../mathmatrix), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -760,6 +739,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathMatrix](../mathmatrix), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -962,27 +962,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLimit](../mathlimit), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -1004,14 +983,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathLimit](../mathlimit), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1033,6 +1012,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1088,27 +1088,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathLimit](../mathlimit), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -1130,14 +1109,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLimit](../mathlimit), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1159,6 +1138,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathLimit](../mathlimit), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1361,27 +1361,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBlock](../mathblock), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -1403,14 +1382,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBlock](../mathblock), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathBlock](../mathblock), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1432,6 +1411,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBlock](../mathblock), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1487,27 +1487,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBlock](../mathblock), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -1529,14 +1508,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBlock](../mathblock), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1558,6 +1537,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBlock](../mathblock), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1760,27 +1760,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRadical](../mathradical), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -1802,14 +1781,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRadical](../mathradical), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathRadical](../mathradical), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1831,6 +1810,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathRadical](../mathradical), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1886,27 +1886,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathRadical](../mathradical), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -1928,14 +1907,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRadical](../mathradical), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -1957,6 +1936,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathRadical](../mathradical), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -2159,27 +2159,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathArray](../matharray), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -2201,14 +2180,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathArray](../matharray), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathArray](../matharray), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -2230,6 +2209,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathArray](../matharray), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -2285,27 +2285,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathArray](../matharray), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -2327,14 +2306,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathArray](../matharray), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -2356,6 +2335,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathArray](../matharray), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -2558,27 +2558,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -2600,14 +2579,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -2629,6 +2608,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -2684,27 +2684,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -2726,14 +2705,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -2755,6 +2734,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -2796,405 +2796,6 @@ MathFraction
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathMatrix](../mathmatrix), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathLimit](../mathlimit), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathBlock](../mathblock), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathRadical](../mathradical), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathArray](../matharray), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathBar](../mathbar), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathBox](../mathbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3356,27 +2957,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -3398,14 +2978,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -3427,6 +3007,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -3482,27 +3083,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -3524,14 +3104,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -3553,6 +3133,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -3608,13 +3209,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3629,13 +3230,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathMatrix](../mathmatrix), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathMatrix](../mathmatrix) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3650,13 +3251,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathLimit](../mathlimit), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathLimit](../mathlimit) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3671,13 +3272,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathBlock](../mathblock), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathBlock](../mathblock), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathBlock](../mathblock) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3692,13 +3293,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathRadical](../mathradical), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathRadical](../mathradical), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRadical](../mathradical) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3713,13 +3314,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathArray](../matharray), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathArray](../matharray), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathArray](../matharray) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3734,13 +3335,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathDelimiter](../mathdelimiter) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3755,34 +3356,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3797,14 +3377,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -3818,13 +3398,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3839,13 +3419,34 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathBar](../mathbar), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathAccent](../mathaccent), [MathBar](../mathbar), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathBar](../mathbar) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3860,13 +3461,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3881,34 +3482,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathFunction](../mathfunction) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3923,14 +3503,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -3944,13 +3524,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3965,13 +3545,34 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathBox](../mathbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathAccent](../mathaccent), [MathBox](../mathbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathBox](../mathbox) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3986,13 +3587,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -4154,27 +3755,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -4196,14 +3776,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -4225,6 +3805,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -4280,27 +3881,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -4322,14 +3902,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -4351,6 +3931,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -4392,6 +3993,405 @@ MathFraction
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathMatrix](../mathmatrix) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathLimit](../mathlimit) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathBlock](../mathblock), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathBlock](../mathblock) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathRadical](../mathradical), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathRadical](../mathradical) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathArray](../matharray), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathArray](../matharray) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathBar](../mathbar), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathBar](../mathbar) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathBox](../mathbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathBox](../mathbox) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -4553,27 +4553,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBar](../mathbar), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -4595,14 +4574,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBar](../mathbar), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathBar](../mathbar), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -4624,6 +4603,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBar](../mathbar), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -4679,27 +4679,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBar](../mathbar), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -4721,14 +4700,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBar](../mathbar), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -4750,6 +4729,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBar](../mathbar), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -4952,27 +4952,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -4994,14 +4973,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -5023,6 +5002,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -5078,27 +5078,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -5120,14 +5099,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -5149,6 +5128,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -5190,405 +5190,6 @@ MathFraction
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -5750,27 +5351,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFunction](../mathfunction), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -5792,14 +5372,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathFunction](../mathfunction), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -5821,6 +5401,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -5876,27 +5477,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathFunction](../mathfunction), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -5918,14 +5498,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFunction](../mathfunction), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -5947,6 +5527,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFunction](../mathfunction), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -6002,13 +5603,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6023,13 +5624,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathMatrix](../mathmatrix), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathMatrix](../mathmatrix) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6044,13 +5645,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathLimit](../mathlimit), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathLimit](../mathlimit) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6065,13 +5666,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathBlock](../mathblock), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathBlock](../mathblock) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6086,13 +5687,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathRadical](../mathradical), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathRadical](../mathradical) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6107,13 +5708,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathArray](../matharray), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathArray](../matharray) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6128,13 +5729,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathDelimiter](../mathdelimiter) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6149,34 +5750,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6191,14 +5771,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -6212,13 +5792,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6233,13 +5813,34 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathBar](../mathbar), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathBar](../mathbar) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6254,13 +5855,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6275,34 +5876,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathFunction](../mathfunction) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6317,14 +5897,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -6338,13 +5918,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6359,13 +5939,34 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathBox](../mathbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathBox](../mathbox) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6380,13 +5981,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6548,27 +6149,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -6590,14 +6170,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -6619,6 +6199,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -6674,27 +6275,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -6716,14 +6296,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -6745,6 +6325,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -6786,6 +6387,405 @@ MathFraction
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathMatrix](../mathmatrix), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathMatrix](../mathmatrix) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathLimit](../mathlimit), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathLimit](../mathlimit) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathBlock](../mathblock), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBlock](../mathblock) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathRadical](../mathradical), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathRadical](../mathradical) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathArray](../matharray), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathArray](../matharray) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathBar](../mathbar), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBar](../mathbar) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathBox](../mathbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBox](../mathbox) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6947,27 +6947,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBox](../mathbox), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -6989,14 +6968,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBox](../mathbox), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathBox](../mathbox), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -7018,6 +6997,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBox](../mathbox), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -7073,27 +7073,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBox](../mathbox), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -7115,14 +7094,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBox](../mathbox), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -7144,6 +7123,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBox](../mathbox), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -7346,27 +7346,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -7388,14 +7367,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -7417,6 +7396,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -7472,27 +7472,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
@@ -7514,14 +7493,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathFraction with the specified numerator, denominator and type |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -7543,6 +7522,27 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), int) | Initializes MathFraction with the specified numerator, denominator and type |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type |
 
  **Result:**
@@ -7738,26 +7738,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -7778,14 +7758,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -7806,6 +7786,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -7858,26 +7858,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -7898,14 +7878,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -7926,6 +7906,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -8118,26 +8118,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -8158,14 +8138,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -8186,6 +8166,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -8238,26 +8238,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -8278,14 +8258,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -8306,6 +8286,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -8498,26 +8498,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -8538,14 +8518,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -8566,6 +8546,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -8618,26 +8618,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -8658,14 +8638,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -8686,6 +8666,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -8878,26 +8878,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -8918,14 +8898,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -8946,6 +8926,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -8998,26 +8998,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -9038,14 +9018,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -9066,6 +9046,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -9258,26 +9258,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -9298,14 +9278,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -9326,6 +9306,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -9378,26 +9378,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -9418,14 +9398,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -9446,6 +9426,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -9638,26 +9638,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathArray](../matharray), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -9678,14 +9658,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathArray](../matharray), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -9706,6 +9686,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -9758,26 +9758,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathArray](../matharray), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -9798,14 +9778,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -9826,6 +9806,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -10018,26 +10018,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -10058,14 +10038,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -10086,6 +10066,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -10138,26 +10138,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -10178,14 +10158,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -10206,6 +10186,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -10245,386 +10245,6 @@ MathFraction
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathArray](../matharray)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathBar](../mathbar)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathBox](../mathbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 
  **Result:**
@@ -10778,26 +10398,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -10818,14 +10418,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -10846,6 +10446,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -10898,26 +10518,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -10938,14 +10538,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -10966,6 +10566,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -11018,13 +10638,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
 
  **Result:**
@@ -11038,13 +10658,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathMatrix](../mathmatrix) | Denominator |
 
  **Result:**
@@ -11058,13 +10678,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathLimit](../mathlimit) | Denominator |
 
  **Result:**
@@ -11078,13 +10698,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathBlock](../mathblock) | Denominator |
 
  **Result:**
@@ -11098,13 +10718,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRadical](../mathradical) | Denominator |
 
  **Result:**
@@ -11118,13 +10738,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathArray](../matharray)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathArray](../matharray) | Denominator |
 
  **Result:**
@@ -11138,13 +10758,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathDelimiter](../mathdelimiter) | Denominator |
 
  **Result:**
@@ -11158,33 +10778,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
 
  **Result:**
@@ -11198,14 +10798,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -11218,13 +10818,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 
  **Result:**
@@ -11238,13 +10838,33 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathAccent](../mathaccent), [MathBar](../mathbar)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathBar](../mathbar) | Denominator |
 
  **Result:**
@@ -11258,13 +10878,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
 
  **Result:**
@@ -11278,33 +10898,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathFunction](../mathfunction) | Denominator |
 
  **Result:**
@@ -11318,14 +10918,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -11338,13 +10938,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
 
  **Result:**
@@ -11358,13 +10958,33 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathAccent](../mathaccent), [MathBox](../mathbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathBox](../mathbox) | Denominator |
 
  **Result:**
@@ -11378,13 +10998,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 
  **Result:**
@@ -11538,26 +11158,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -11578,14 +11178,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -11606,6 +11206,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -11658,26 +11278,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -11698,14 +11298,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -11726,6 +11326,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -11765,6 +11385,386 @@ MathFraction
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathMatrix](../mathmatrix) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathLimit](../mathlimit) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathBlock](../mathblock) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathRadical](../mathradical) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathArray](../matharray) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathBar](../mathbar) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathBox](../mathbox) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 
  **Result:**
@@ -11918,26 +11918,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBar](../mathbar), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -11958,14 +11938,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathBar](../mathbar), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -11986,6 +11966,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -12038,26 +12038,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBar](../mathbar), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -12078,14 +12058,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -12106,6 +12086,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -12298,26 +12298,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -12338,14 +12318,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -12366,6 +12346,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -12418,26 +12418,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -12458,14 +12438,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -12486,6 +12466,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -12525,386 +12525,6 @@ MathFraction
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 
  **Result:**
@@ -13058,26 +12678,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -13098,14 +12698,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -13126,6 +12726,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -13178,26 +12798,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -13218,14 +12818,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -13246,6 +12846,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -13298,13 +12918,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
 
  **Result:**
@@ -13318,13 +12938,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathMatrix](../mathmatrix) | Denominator |
 
  **Result:**
@@ -13338,13 +12958,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathLimit](../mathlimit) | Denominator |
 
  **Result:**
@@ -13358,13 +12978,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathBlock](../mathblock) | Denominator |
 
  **Result:**
@@ -13378,13 +12998,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathRadical](../mathradical) | Denominator |
 
  **Result:**
@@ -13398,13 +13018,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathArray](../matharray)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathArray](../matharray) | Denominator |
 
  **Result:**
@@ -13418,13 +13038,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathDelimiter](../mathdelimiter) | Denominator |
 
  **Result:**
@@ -13438,33 +13058,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
 
  **Result:**
@@ -13478,14 +13078,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -13498,13 +13098,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 
  **Result:**
@@ -13518,13 +13118,33 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathBar](../mathbar)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathBar](../mathbar) | Denominator |
 
  **Result:**
@@ -13538,13 +13158,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
 
  **Result:**
@@ -13558,33 +13178,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathFunction](../mathfunction) | Denominator |
 
  **Result:**
@@ -13598,14 +13198,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -13618,13 +13218,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
 
  **Result:**
@@ -13638,13 +13238,33 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathBox](../mathbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathBox](../mathbox) | Denominator |
 
  **Result:**
@@ -13658,13 +13278,13 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 
  **Result:**
@@ -13818,26 +13438,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -13858,14 +13458,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -13886,6 +13486,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -13938,26 +13558,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -13978,14 +13578,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -14006,6 +13606,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -14045,6 +13665,386 @@ MathFraction
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathMatrix](../mathmatrix) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathLimit](../mathlimit) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBlock](../mathblock) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathRadical](../mathradical) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathArray](../matharray)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathArray](../matharray) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathBar](../mathbar)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBar](../mathbar) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathBox](../mathbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBox](../mathbox) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 
  **Result:**
@@ -14198,26 +14198,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBox](../mathbox), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -14238,14 +14218,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathBox](../mathbox), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -14266,6 +14246,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -14318,26 +14318,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathBox](../mathbox), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -14358,14 +14338,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -14386,6 +14366,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -14578,26 +14578,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -14618,14 +14598,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Result:**
 MathFraction
@@ -14646,6 +14626,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
 
  **Result:**
 MathFraction
@@ -14698,26 +14698,6 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-
- **Result:**
-MathFraction
-
-
----
-
-
-### MathFraction {#MathFraction}
-
-| Name | Description |
-| --- | --- |
 | MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
@@ -14738,14 +14718,14 @@ MathFraction
 
 | Name | Description |
 | --- | --- |
-| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
 
  **Result:**
 MathFraction
@@ -14766,6 +14746,26 @@ MathFraction
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
+
+ **Result:**
+MathFraction
+
+
+---
+
+
+### MathFraction {#MathFraction}
+
+| Name | Description |
+| --- | --- |
+| MathFraction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Result:**
 MathFraction
@@ -14821,7 +14821,7 @@ MathFraction
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
@@ -14834,7 +14834,7 @@ MathFraction
 | getDenominator () | Denominator |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
@@ -14860,7 +14860,7 @@ int
 | getNumerator () | Numerator |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---

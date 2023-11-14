@@ -36,7 +36,7 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [GraphicalObject](../graphicalobject)) |  |
+| formatShape ([SvgShape](../svgshape), [Connector](../connector)) |  |
 
  **Returns:**
 void
@@ -49,7 +49,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [Connector](../connector)) |  |
+| formatShape ([SvgShape](../svgshape), [GraphicalObject](../graphicalobject)) |  |
 
  **Returns:**
 void
@@ -75,7 +75,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [SmartArtShape](../smartartshape)) |  |
+| formatShape ([SvgShape](../svgshape), [Shape](../shape)) |  |
 
  **Returns:**
 void
@@ -88,7 +88,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [Shape](../shape)) |  |
+| formatShape ([SvgShape](../svgshape), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -244,19 +244,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [AudioFrame](../audioframe)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
 | formatShape ([SvgShape](../svgshape), [Chart](../chart)) |  |
 
  **Returns:**
@@ -270,7 +257,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [LegacyDiagram](../legacydiagram)) |  |
+| formatShape ([SvgShape](../svgshape), [AudioFrame](../audioframe)) |  |
 
  **Returns:**
 void
@@ -284,6 +271,19 @@ void
 | Name | Description |
 | --- | --- |
 | formatShape ([SvgShape](../svgshape), [ZoomObject](../zoomobject)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [LegacyDiagram](../legacydiagram)) |  |
 
  **Returns:**
 void
@@ -361,7 +361,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
 
  **Returns:**
 void
@@ -374,7 +374,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
  **Returns:**
 void
@@ -400,7 +400,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
  **Returns:**
 void
@@ -413,7 +413,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -569,19 +569,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
 
  **Returns:**
@@ -595,7 +582,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
 
  **Returns:**
 void
@@ -617,11 +604,11 @@ void
 ---
 
 
-### writeShapeStart {#writeShapeStart}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
 
  **Returns:**
 void
@@ -647,6 +634,19 @@ void
 
 | Name | Description |
 | --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
 
  **Returns:**
@@ -660,7 +660,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
  **Returns:**
 void
@@ -673,7 +673,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -829,19 +829,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
 
  **Returns:**
@@ -855,7 +842,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
 
  **Returns:**
 void
@@ -869,6 +856,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
 
  **Returns:**
 void
