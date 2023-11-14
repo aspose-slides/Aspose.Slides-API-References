@@ -20,6 +20,16 @@ public ICommentAuthor AddAuthor(string name, string initials)
 | name | String | Name of a new author. |
 | initials | String | Initials of a new author. |
 
+### Return Value
+
+New [`ICommentAuthor`](../../icommentauthor) object.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Thrown if author with the same name and initials is already added. |
+
 ### See Also
 
 * interface [ICommentAuthor](../../icommentauthor)
