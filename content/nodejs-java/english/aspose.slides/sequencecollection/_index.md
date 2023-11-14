@@ -15,7 +15,72 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([SectionZoomFrame](../sectionzoomframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([ZoomFrame](../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([Shape](../shape)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([OleObjectFrame](../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([Table](../table)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([PictureFrame](../pictureframe)) | Add new interactive sequence. Read/write Sequence. |
 
  **Result:**
 [Sequence](../sequence)
@@ -54,7 +119,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SectionZoomFrame](../sectionzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
  **Result:**
 [Sequence](../sequence)
@@ -80,150 +145,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([Shape](../shape)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
 | add ([GraphicalObject](../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([PictureFrame](../pictureframe)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([ZoomFrame](../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([Table](../table)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([OleObjectFrame](../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([Chart](../chart)) | Add new interactive sequence. Read/write Sequence. |
-
- **Result:**
-[Sequence](../sequence)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([SmartArt](../smartart)) | Add new interactive sequence. Read/write Sequence. |
 
  **Result:**
 [Sequence](../sequence)
@@ -249,7 +171,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SummaryZoomSection](../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
 
  **Result:**
 [Sequence](../sequence)
@@ -262,7 +184,85 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([SummaryZoomSection](../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([Chart](../chart)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([SmartArt](../smartart)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add ([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
 
  **Result:**
 [Sequence](../sequence)

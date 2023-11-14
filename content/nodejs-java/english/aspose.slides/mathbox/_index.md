@@ -18,89 +18,13 @@ url: /aspose.slides/mathbox/
 
 | Name | Description |
 | --- | --- |
-| MathBox([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathBox with the specified element as an argument |
+| MathBox([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathBox with the specified element as an argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the box is applied. Can be null. |
-
- **Result:**
-MathBox
-
-
----
-
-
-### MathBox {#MathBox}
-
-| Name | Description |
-| --- | --- |
-| MathBox([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the box is applied. Can be null. |
-
- **Result:**
-MathBox
-
-
----
-
-
-### MathBox {#MathBox}
-
-| Name | Description |
-| --- | --- |
-| MathBox([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the box is applied. Can be null. |
-
- **Result:**
-MathBox
-
-
----
-
-
-### MathBox {#MathBox}
-
-| Name | Description |
-| --- | --- |
-| MathBox([MathFunction](../mathfunction)) | Initializes MathBox with the specified element as an argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The base element to which the box is applied. Can be null. |
-
- **Result:**
-MathBox
-
-
----
-
-
-### MathBox {#MathBox}
-
-| Name | Description |
-| --- | --- |
-| MathBox([MathDelimiter](../mathdelimiter)) | Initializes MathBox with the specified element as an argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathDelimiter](../mathdelimiter) | The base element to which the box is applied. Can be null. |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the box is applied. Can be null. |
 
  **Result:**
 MathBox
@@ -132,32 +56,13 @@ MathBox
 
 | Name | Description |
 | --- | --- |
-| MathBox([MathBox](../mathbox)) | Initializes MathBox with the specified element as an argument |
+| MathBox([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | The base element to which the box is applied. Can be null. |
-
- **Result:**
-MathBox
-
-
----
-
-
-### MathBox {#MathBox}
-
-| Name | Description |
-| --- | --- |
-| MathBox([MathFraction](../mathfraction)) | Initializes MathBox with the specified element as an argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The base element to which the box is applied. Can be null. |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the box is applied. Can be null. |
 
  **Result:**
 MathBox
@@ -189,6 +94,63 @@ MathBox
 
 | Name | Description |
 | --- | --- |
+| MathBox([MathematicalText](../mathematicaltext)) | Initializes MathBox with the specified element as an argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../mathematicaltext) | The base element to which the box is applied. Can be null. |
+
+ **Result:**
+MathBox
+
+
+---
+
+
+### MathBox {#MathBox}
+
+| Name | Description |
+| --- | --- |
+| MathBox([MathBox](../mathbox)) | Initializes MathBox with the specified element as an argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | The base element to which the box is applied. Can be null. |
+
+ **Result:**
+MathBox
+
+
+---
+
+
+### MathBox {#MathBox}
+
+| Name | Description |
+| --- | --- |
+| MathBox([MathFunction](../mathfunction)) | Initializes MathBox with the specified element as an argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | The base element to which the box is applied. Can be null. |
+
+ **Result:**
+MathBox
+
+
+---
+
+
+### MathBox {#MathBox}
+
+| Name | Description |
+| --- | --- |
 | MathBox([MathArray](../matharray)) | Initializes MathBox with the specified element as an argument |
 
  **Parameters:**
@@ -208,13 +170,89 @@ MathBox
 
 | Name | Description |
 | --- | --- |
-| MathBox([MathNaryOperator](../mathnaryoperator)) | Initializes MathBox with the specified element as an argument |
+| MathBox([MathAccent](../mathaccent)) | Initializes MathBox with the specified element as an argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | The base element to which the box is applied. Can be null. |
+| element | [MathAccent](../mathaccent) | The base element to which the box is applied. Can be null. |
+
+ **Result:**
+MathBox
+
+
+---
+
+
+### MathBox {#MathBox}
+
+| Name | Description |
+| --- | --- |
+| MathBox([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the box is applied. Can be null. |
+
+ **Result:**
+MathBox
+
+
+---
+
+
+### MathBox {#MathBox}
+
+| Name | Description |
+| --- | --- |
+| MathBox([MathRadical](../mathradical)) | Initializes MathBox with the specified element as an argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRadical](../mathradical) | The base element to which the box is applied. Can be null. |
+
+ **Result:**
+MathBox
+
+
+---
+
+
+### MathBox {#MathBox}
+
+| Name | Description |
+| --- | --- |
+| MathBox([MathFraction](../mathfraction)) | Initializes MathBox with the specified element as an argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../mathfraction) | The base element to which the box is applied. Can be null. |
+
+ **Result:**
+MathBox
+
+
+---
+
+
+### MathBox {#MathBox}
+
+| Name | Description |
+| --- | --- |
+| MathBox([MathBorderBox](../mathborderbox)) | Initializes MathBox with the specified element as an argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | The base element to which the box is applied. Can be null. |
 
  **Result:**
 MathBox
@@ -265,70 +303,13 @@ MathBox
 
 | Name | Description |
 | --- | --- |
-| MathBox([MathBorderBox](../mathborderbox)) | Initializes MathBox with the specified element as an argument |
+| MathBox([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathBox with the specified element as an argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | The base element to which the box is applied. Can be null. |
-
- **Result:**
-MathBox
-
-
----
-
-
-### MathBox {#MathBox}
-
-| Name | Description |
-| --- | --- |
-| MathBox([MathAccent](../mathaccent)) | Initializes MathBox with the specified element as an argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base element to which the box is applied. Can be null. |
-
- **Result:**
-MathBox
-
-
----
-
-
-### MathBox {#MathBox}
-
-| Name | Description |
-| --- | --- |
-| MathBox([MathRadical](../mathradical)) | Initializes MathBox with the specified element as an argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRadical](../mathradical) | The base element to which the box is applied. Can be null. |
-
- **Result:**
-MathBox
-
-
----
-
-
-### MathBox {#MathBox}
-
-| Name | Description |
-| --- | --- |
-| MathBox([MathematicalText](../mathematicaltext)) | Initializes MathBox with the specified element as an argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | The base element to which the box is applied. Can be null. |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the box is applied. Can be null. |
 
  **Result:**
 MathBox
@@ -360,13 +341,32 @@ MathBox
 
 | Name | Description |
 | --- | --- |
-| MathBox([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathBox with the specified element as an argument |
+| MathBox([MathNaryOperator](../mathnaryoperator)) | Initializes MathBox with the specified element as an argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the box is applied. Can be null. |
+| element | [MathNaryOperator](../mathnaryoperator) | The base element to which the box is applied. Can be null. |
+
+ **Result:**
+MathBox
+
+
+---
+
+
+### MathBox {#MathBox}
+
+| Name | Description |
+| --- | --- |
+| MathBox([MathDelimiter](../mathdelimiter)) | Initializes MathBox with the specified element as an argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathDelimiter](../mathdelimiter) | The base element to which the box is applied. Can be null. |
 
  **Result:**
 MathBox
@@ -395,7 +395,7 @@ boolean
 | getBase () | Base argument |
 
  **Result:**
-[MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), [MathBar](../mathbar), [MathBox](../mathbox), [MathFraction](../mathfraction), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), [MathElementBase](../mathelementbase), [MathRadical](../mathradical), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)
+[MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathFunction](../mathfunction), [MathArray](../matharray), [MathElementBase](../mathelementbase), [MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical), [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript), [MathDelimiter](../mathdelimiter)
 
 
 ---
@@ -408,7 +408,7 @@ boolean
 | getChildren () | Get children elements |
 
  **Result:**
-[MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), [MathBar](../mathbar), [MathBox](../mathbox), [MathFraction](../mathfraction), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), [MathElementBase](../mathelementbase), [MathRadical](../mathradical), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)
+[MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathFunction](../mathfunction), [MathArray](../matharray), [MathElementBase](../mathelementbase), [MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical), [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript), [MathDelimiter](../mathdelimiter)
 
 
 ---

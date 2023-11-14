@@ -57,7 +57,7 @@ url: /aspose.slides/textframe/
 | getSlide () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
  **Result:**
-[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [BaseSlide](../baseslide)
+[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide)
 
 
 ---

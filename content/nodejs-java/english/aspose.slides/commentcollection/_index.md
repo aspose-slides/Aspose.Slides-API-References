@@ -27,7 +27,7 @@ url: /aspose.slides/commentcollection/
 | creationTime | Date | Time of a comment creation. |
 
  **Result:**
-[Comment](../comment), [ModernComment](../moderncomment)
+[ModernComment](../moderncomment), [Comment](../comment)
 
 
 ---
@@ -37,7 +37,7 @@ url: /aspose.slides/commentcollection/
 
 | Name | Description |
 | --- | --- |
-| addModernComment (String, [Slide](../slide), [SectionZoomFrame](../sectionzoomframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+| addModernComment (String, [Slide](../slide), [Connector](../connector), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 
  **Parameters:**
 
@@ -45,7 +45,122 @@ url: /aspose.slides/commentcollection/
 | --- | --- | --- |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SectionZoomFrame](../sectionzoomframe) | Shape on a slide to which a new modern comment is associated. |
+| shape | [Connector](../connector) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [ZoomFrame](../zoomframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [ZoomFrame](../zoomframe) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [Shape](../shape), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [Shape](../shape) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [OleObjectFrame](../oleobjectframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [OleObjectFrame](../oleobjectframe) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [Table](../table), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [Table](../table) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [PictureFrame](../pictureframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [PictureFrame](../pictureframe) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -106,7 +221,7 @@ url: /aspose.slides/commentcollection/
 
 | Name | Description |
 | --- | --- |
-| addModernComment (String, [Slide](../slide), [SmartArtShape](../smartartshape), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+| addModernComment (String, [Slide](../slide), [SectionZoomFrame](../sectionzoomframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 
  **Parameters:**
 
@@ -114,7 +229,7 @@ url: /aspose.slides/commentcollection/
 | --- | --- | --- |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SmartArtShape](../smartartshape) | Shape on a slide to which a new modern comment is associated. |
+| shape | [SectionZoomFrame](../sectionzoomframe) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -152,52 +267,6 @@ url: /aspose.slides/commentcollection/
 
 | Name | Description |
 | --- | --- |
-| addModernComment (String, [Slide](../slide), [Shape](../shape), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Shape](../shape) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [LegacyDiagram](../legacydiagram), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [LegacyDiagram](../legacydiagram) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
 | addModernComment (String, [Slide](../slide), [GraphicalObject](../graphicalobject), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 
  **Parameters:**
@@ -207,213 +276,6 @@ url: /aspose.slides/commentcollection/
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
 | shape | [GraphicalObject](../graphicalobject) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [PictureFrame](../pictureframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [PictureFrame](../pictureframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [ZoomFrame](../zoomframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [ZoomFrame](../zoomframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [Ink](../ink), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Ink](../ink) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [ZoomObject](../zoomobject), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [ZoomObject](../zoomobject) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [SummaryZoomFrame](../summaryzoomframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SummaryZoomFrame](../summaryzoomframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [Table](../table), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Table](../table) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [OleObjectFrame](../oleobjectframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [OleObjectFrame](../oleobjectframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [Chart](../chart), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Chart](../chart) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### addModernComment {#addModernComment}
-
-| Name | Description |
-| --- | --- |
-| addModernComment (String, [Slide](../slide), [SmartArt](../smartart), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SmartArt](../smartart) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -451,7 +313,7 @@ url: /aspose.slides/commentcollection/
 
 | Name | Description |
 | --- | --- |
-| addModernComment (String, [Slide](../slide), [Connector](../connector), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+| addModernComment (String, [Slide](../slide), [SummaryZoomSection](../summaryzoomsection), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 
  **Parameters:**
 
@@ -459,7 +321,7 @@ url: /aspose.slides/commentcollection/
 | --- | --- | --- |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Connector](../connector) | Shape on a slide to which a new modern comment is associated. |
+| shape | [SummaryZoomSection](../summaryzoomsection) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -474,7 +336,7 @@ url: /aspose.slides/commentcollection/
 
 | Name | Description |
 | --- | --- |
-| addModernComment (String, [Slide](../slide), [SummaryZoomSection](../summaryzoomsection), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+| addModernComment (String, [Slide](../slide), [SummaryZoomFrame](../summaryzoomframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 
  **Parameters:**
 
@@ -482,7 +344,145 @@ url: /aspose.slides/commentcollection/
 | --- | --- | --- |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SummaryZoomSection](../summaryzoomsection) | Shape on a slide to which a new modern comment is associated. |
+| shape | [SummaryZoomFrame](../summaryzoomframe) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [LegacyDiagram](../legacydiagram), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [LegacyDiagram](../legacydiagram) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [Chart](../chart), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [Chart](../chart) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [SmartArtShape](../smartartshape), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [SmartArtShape](../smartartshape) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [Ink](../ink), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [Ink](../ink) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [SmartArt](../smartart), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [SmartArt](../smartart) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### addModernComment {#addModernComment}
+
+| Name | Description |
+| --- | --- |
+| addModernComment (String, [Slide](../slide), [ZoomObject](../zoomobject), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [ZoomObject](../zoomobject) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -516,7 +516,7 @@ url: /aspose.slides/commentcollection/
 | idx | int | Unique index of a comment to find {@code int}. |
 
  **Result:**
-[Comment](../comment), [ModernComment](../moderncomment)
+[ModernComment](../moderncomment), [Comment](../comment)
 
 
 ---
@@ -542,7 +542,7 @@ Object
 | get_Item (int) | Gets the element at the specified index. Read-only Comment. |
 
  **Result:**
-[Comment](../comment), [ModernComment](../moderncomment)
+[ModernComment](../moderncomment), [Comment](../comment)
 
 
 ---
@@ -565,7 +565,7 @@ Object
 | creationTime | Date | Time of a comment creation. |
 
  **Result:**
-[Comment](../comment), [ModernComment](../moderncomment)
+[ModernComment](../moderncomment), [Comment](../comment)
 
 
 ---
@@ -575,7 +575,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [SectionZoomFrame](../sectionzoomframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+| insertModernComment (int, String, [Slide](../slide), [Connector](../connector), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 
  **Parameters:**
 
@@ -584,7 +584,127 @@ Object
 | index | int | Index of the element in a collection at which modern comment should be inserted. |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SectionZoomFrame](../sectionzoomframe) | Shape on a slide to which a new modern comment is associated. |
+| shape | [Connector](../connector) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [ZoomFrame](../zoomframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [ZoomFrame](../zoomframe) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [Shape](../shape), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [Shape](../shape) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [OleObjectFrame](../oleobjectframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [OleObjectFrame](../oleobjectframe) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [Table](../table), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [Table](../table) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [PictureFrame](../pictureframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [PictureFrame](../pictureframe) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -647,7 +767,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [SmartArtShape](../smartartshape), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+| insertModernComment (int, String, [Slide](../slide), [SectionZoomFrame](../sectionzoomframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 
  **Parameters:**
 
@@ -656,7 +776,7 @@ Object
 | index | int | Index of the element in a collection at which modern comment should be inserted. |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SmartArtShape](../smartartshape) | Shape on a slide to which a new modern comment is associated. |
+| shape | [SectionZoomFrame](../sectionzoomframe) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -695,54 +815,6 @@ Object
 
 | Name | Description |
 | --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [Shape](../shape), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Shape](../shape) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [LegacyDiagram](../legacydiagram), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [LegacyDiagram](../legacydiagram) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
 | insertModernComment (int, String, [Slide](../slide), [GraphicalObject](../graphicalobject), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 
  **Parameters:**
@@ -753,222 +825,6 @@ Object
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
 | shape | [GraphicalObject](../graphicalobject) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [PictureFrame](../pictureframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [PictureFrame](../pictureframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [ZoomFrame](../zoomframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [ZoomFrame](../zoomframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [Ink](../ink), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Ink](../ink) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [ZoomObject](../zoomobject), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [ZoomObject](../zoomobject) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [SummaryZoomFrame](../summaryzoomframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SummaryZoomFrame](../summaryzoomframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [Table](../table), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Table](../table) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [OleObjectFrame](../oleobjectframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [OleObjectFrame](../oleobjectframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [Chart](../chart), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Chart](../chart) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
- **Result:**
-[ModernComment](../moderncomment)
-
-
----
-
-
-### insertModernComment {#insertModernComment}
-
-| Name | Description |
-| --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [SmartArt](../smartart), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SmartArt](../smartart) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -1007,7 +863,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [Connector](../connector), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+| insertModernComment (int, String, [Slide](../slide), [SummaryZoomSection](../summaryzoomsection), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 
  **Parameters:**
 
@@ -1016,7 +872,7 @@ Object
 | index | int | Index of the element in a collection at which modern comment should be inserted. |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Connector](../connector) | Shape on a slide to which a new modern comment is associated. |
+| shape | [SummaryZoomSection](../summaryzoomsection) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -1031,7 +887,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| insertModernComment (int, String, [Slide](../slide), [SummaryZoomSection](../summaryzoomsection), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+| insertModernComment (int, String, [Slide](../slide), [SummaryZoomFrame](../summaryzoomframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 
  **Parameters:**
 
@@ -1040,7 +896,151 @@ Object
 | index | int | Index of the element in a collection at which modern comment should be inserted. |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SummaryZoomSection](../summaryzoomsection) | Shape on a slide to which a new modern comment is associated. |
+| shape | [SummaryZoomFrame](../summaryzoomframe) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [LegacyDiagram](../legacydiagram), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [LegacyDiagram](../legacydiagram) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [Chart](../chart), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [Chart](../chart) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [SmartArtShape](../smartartshape), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [SmartArtShape](../smartartshape) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [Ink](../ink), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [Ink](../ink) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [SmartArt](../smartart), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [SmartArt](../smartart) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+ **Result:**
+[ModernComment](../moderncomment)
+
+
+---
+
+
+### insertModernComment {#insertModernComment}
+
+| Name | Description |
+| --- | --- |
+| insertModernComment (int, String, [Slide](../slide), [ZoomObject](../zoomobject), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [ZoomObject](../zoomobject) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -1094,13 +1094,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([Comment](../comment)) | Removes the first occurrence of the specified comment in a collection. |
+| remove ([ModernComment](../moderncomment)) | Removes the first occurrence of the specified comment in a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| comment | [Comment](../comment) | The comment to remove from a collection. |
+| comment | [ModernComment](../moderncomment) | The comment to remove from a collection. |
 
  **Error**
 
@@ -1116,13 +1116,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([ModernComment](../moderncomment)) | Removes the first occurrence of the specified comment in a collection. |
+| remove ([Comment](../comment)) | Removes the first occurrence of the specified comment in a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| comment | [ModernComment](../moderncomment) | The comment to remove from a collection. |
+| comment | [Comment](../comment) | The comment to remove from a collection. |
 
  **Error**
 
@@ -1176,7 +1176,7 @@ int
 | toArray () | Creates and returns an array with all comments. |
 
  **Result:**
-[Comment](../comment), [ModernComment](../moderncomment)
+[ModernComment](../moderncomment), [Comment](../comment)
 
 
 ---
@@ -1196,7 +1196,7 @@ int
 | count | int | A number of comments to return. |
 
  **Result:**
-[Comment](../comment), [ModernComment](../moderncomment)
+[ModernComment](../moderncomment), [Comment](../comment)
 
 
 ---

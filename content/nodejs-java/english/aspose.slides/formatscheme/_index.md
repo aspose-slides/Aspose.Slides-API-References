@@ -83,7 +83,7 @@ url: /aspose.slides/formatscheme/
 | getSlide () | Returns the parent slide. Read-only IBaseSlide. |
 
  **Result:**
-[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [BaseSlide](../baseslide)
+[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide)
 
 
 ---

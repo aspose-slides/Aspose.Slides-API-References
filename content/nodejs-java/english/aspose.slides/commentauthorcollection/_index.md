@@ -27,6 +27,12 @@ url: /aspose.slides/commentauthorcollection/
  **Result:**
 [CommentAuthor](../commentauthor)
 
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | PptxEditException | Thrown if author with the same name and initials is already added. |
+
 
 ---
 
