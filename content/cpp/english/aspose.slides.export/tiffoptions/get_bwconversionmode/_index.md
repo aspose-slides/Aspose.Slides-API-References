@@ -18,7 +18,7 @@ BlackWhiteConversionMode Aspose::Slides::Export::TiffOptions::get_BwConversionMo
 ## Remarks
 
 
-
+The following example shows how to set conversion algorithm to Dithering. 
 ```cpp
 System::SharedPtr<TiffOptions> tiffOptions = System::MakeObject<TiffOptions>();
 tiffOptions->set_CompressionType(TiffCompressionTypes::CCITT4);
