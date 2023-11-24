@@ -19,7 +19,8 @@ ASPOSE.SLIDES POUR .NET est une API de gestion Microsoft PowerPoint® qui permet
 {{% /alert %}}
 
 Ce sont des liens vers certaines ressources utiles:
-- [Aspose.slissez-vous pour la référence de l'API .NET](/slides/net/fr/)
+- [Aspose.slissez-vous pour la référence de l'API .NET](/slides/fr/net/)
+- [Aspose.Slides pour les didacticiels de l'API .NET](/tutorials/slides/fr/net/)
 
 ## Aspose.Slides pour Java
 
@@ -34,6 +35,7 @@ ASPOSE.SLIDES POUR Java est une API Microsoft PowerPoint® qui permet aux applic
 Ce sont des liens vers des ressources utiles:
 
 - [Aspose.slissez-vous pour la référence de l'API Java](/slides/java/)
+- [Aspose.Slides pour les didacticiels de l'API Java](/tutorials/slides/fr/java/)
 
 ## Aspose.Slides pour C ++
 

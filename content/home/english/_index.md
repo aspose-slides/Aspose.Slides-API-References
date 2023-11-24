@@ -20,6 +20,7 @@ Aspose.Slides for .NET is a Microsoft PowerPoint® management API that enables .
 
 These are links to some useful resources:
 - [Aspose.Slides for .NET API Reference](/slides/net/)
+- [Aspose.Slides for .NET API Tutorials](/tutorials/slides/net/)
 
 ## Aspose.Slides for Java
 
@@ -34,6 +35,7 @@ Aspose.Slides for Java is a Microsoft PowerPoint® management API that enables J
 These are links to useful resources:
 
 - [Aspose.Slides for Java API Reference](/slides/java/)
+- [Aspose.Slides for Java API Tutorials](/tutorials/slides/java/)
 
 ## Aspose.Slides for C++
 
