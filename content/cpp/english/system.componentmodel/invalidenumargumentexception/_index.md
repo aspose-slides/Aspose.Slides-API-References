@@ -12,7 +12,7 @@ url: /system.componentmodel/invalidenumargumentexception/
 
 
 ```cpp
-using System::ComponentModel::InvalidEnumArgumentException = typedef System::ExceptionWrapper<Details_InvalidEnumArgumentException >
+using System::ComponentModel::InvalidEnumArgumentException = typedef System::ExceptionWrapper<Details_InvalidEnumArgumentException>
 ```
 
 ## See Also

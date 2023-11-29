@@ -3,7 +3,7 @@ title: FilterEffectSubtype
 second_title: Aspose.Slides for C++ API Reference
 description: Represents filter effect subtypes.
 type: docs
-weight: 846
+weight: 859
 url: /aspose.slides.animation/filtereffectsubtype/
 ---
 ## FilterEffectSubtype enum

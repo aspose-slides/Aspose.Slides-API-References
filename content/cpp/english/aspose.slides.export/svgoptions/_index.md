@@ -3,7 +3,7 @@ title: SVGOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an SVG options.
 type: docs
-weight: 651
+weight: 664
 url: /aspose.slides.export/svgoptions/
 ---
 ## SVGOptions class

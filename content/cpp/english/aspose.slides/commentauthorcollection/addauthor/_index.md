@@ -25,7 +25,7 @@ System::SharedPtr<ICommentAuthor> Aspose::Slides::CommentAuthorCollection::AddAu
 
 ### Return Value
 
-
+New [ICommentAuthor](../../icommentauthor/) object.
 
 ## See Also
 

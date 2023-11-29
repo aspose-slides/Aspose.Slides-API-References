@@ -1,7 +1,7 @@
 ---
 title: set_AfterAnimationType()
 second_title: Aspose.Slides for C++ API Reference
-description: Defined an after animation type for effect. Write AfterAnimationType.
+description: Defines an after animation type for effect. Write AfterAnimationType.
 type: docs
 weight: 235
 url: /aspose.slides.animation/effect/set_afteranimationtype/
@@ -9,7 +9,7 @@ url: /aspose.slides.animation/effect/set_afteranimationtype/
 ## Effect::set_AfterAnimationType(Aspose::Slides::Animation::AfterAnimationType) method
 
 
-Defined an after animation type for effect. Write [AfterAnimationType](../../afteranimationtype/).
+Defines an after animation type for effect. Write [AfterAnimationType](../../afteranimationtype/).
 
 ```cpp
 void Aspose::Slides::Animation::Effect::set_AfterAnimationType(Aspose::Slides::Animation::AfterAnimationType value) override

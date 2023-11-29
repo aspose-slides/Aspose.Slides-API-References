@@ -1,7 +1,7 @@
 ---
 title: Coalesce()
 second_title: Aspose.Slides for C++ API Reference
-description: Implementation of '?' operator translation for non-nullable types.
+description: Implementation of '??' operator translation for non-nullable types.
 type: docs
 weight: 170
 url: /system/objectext/coalesce/
@@ -9,7 +9,7 @@ url: /system/objectext/coalesce/
 ## ObjectExt::Coalesce(T0, T1) method
 
 
-Implementation of '?' operator translation for non-nullable types.
+Implementation of '??' operator translation for non-nullable types.
 
 ```cpp
 template<typename T0,typename T1> static auto System::ObjectExt::Coalesce(T0 value, T1 func)
@@ -37,7 +37,7 @@ If LHS value is not null, returns LHS, otherwise calculates RHS expression and r
 ## ObjectExt::Coalesce(System::Nullable\<T0\>, T1) method
 
 
-Implementation of '?' operator translation for nullable types.
+Implementation of '??' operator translation for nullable types.
 
 ```cpp
 template<typename T0,typename T1> static T0 System::ObjectExt::Coalesce(System::Nullable<T0> value, T1 func)

@@ -3,7 +3,7 @@ title: MotionOriginType
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies what the origin of the motion path is relative to. Such as the layout of the slide, or the parent.
 type: docs
-weight: 885
+weight: 898
 url: /aspose.slides.animation/motionorigintype/
 ---
 ## MotionOriginType enum

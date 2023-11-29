@@ -3,7 +3,7 @@ title: EffectFillType
 second_title: Aspose.Slides for C++ API Reference
 description: Represent fill types.
 type: docs
-weight: 755
+weight: 768
 url: /aspose.slides.animation/effectfilltype/
 ---
 ## EffectFillType enum

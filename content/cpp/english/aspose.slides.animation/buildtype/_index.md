@@ -3,7 +3,7 @@ title: BuildType
 second_title: Aspose.Slides for C++ API Reference
 description: Determines how text will appear on a shape during animation.
 type: docs
-weight: 677
+weight: 690
 url: /aspose.slides.animation/buildtype/
 ---
 ## BuildType enum

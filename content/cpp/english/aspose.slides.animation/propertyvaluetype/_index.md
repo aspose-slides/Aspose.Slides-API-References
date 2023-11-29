@@ -3,7 +3,7 @@ title: PropertyValueType
 second_title: Aspose.Slides for C++ API Reference
 description: Represent property value types.
 type: docs
-weight: 937
+weight: 950
 url: /aspose.slides.animation/propertyvaluetype/
 ---
 ## PropertyValueType enum

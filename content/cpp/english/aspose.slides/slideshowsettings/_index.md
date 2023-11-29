@@ -28,6 +28,7 @@ class SlideShowSettings : public System::Object
 | **bool** [get_Loop](./get_loop/)() | Loop [Slide](../slide/) Show |
 | [System::SharedPtr](../../system/sharedptr/)\<[IColorFormat](../icolorformat/)\> [get_PenColor](./get_pencolor/)() | Pen Color for [Slide](../slide/) Show |
 | **bool** [get_ShowAnimation](./get_showanimation/)() | Show [Animation](../../aspose.slides.animation/) in [Slide](../slide/) Show |
+| **bool** [get_ShowMediaControls](./get_showmediacontrols/)() const | Show Media Controls |
 | **bool** [get_ShowNarration](./get_shownarration/)() | Show Narration in [Slide](../slide/) Show |
 | [System::SharedPtr](../../system/sharedptr/)\<[SlidesRange](../slidesrange/)\> [get_Slides](./get_slides/)() const | [Slides](../) range |
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::SlideShowType](../slideshowtype/)\> [get_SlideShowType](./get_slideshowtype/)() | Gets the slide show type. Represented by the following [SlideShowType](../slideshowtype/) ancestors: [BrowsedAtKiosk](../browsedatkiosk/), [PresentedBySpeaker](../presentedbyspeaker/) and [BrowsedByIndividual](../browsedbyindividual/) |
@@ -49,6 +50,7 @@ class SlideShowSettings : public System::Object
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | void [set_Loop](./set_loop/)(**bool**) | Loop [Slide](../slide/) Show |
 | void [set_ShowAnimation](./set_showanimation/)(**bool**) | Show [Animation](../../aspose.slides.animation/) in [Slide](../slide/) Show |
+| void [set_ShowMediaControls](./set_showmediacontrols/)(**bool**) | Show Media Controls |
 | void [set_ShowNarration](./set_shownarration/)(**bool**) | Show Narration in [Slide](../slide/) Show |
 | void [set_Slides](./set_slides/)([System::SharedPtr](../../system/sharedptr/)\<[SlidesRange](../slidesrange/)\>) | [Slides](../) range |
 | void [set_SlideShowType](./set_slideshowtype/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::SlideShowType](../slideshowtype/)\>) | Sets the slide show type. Represented by the following [SlideShowType](../slideshowtype/) ancestors: [BrowsedAtKiosk](../browsedatkiosk/), [PresentedBySpeaker](../presentedbyspeaker/) and [BrowsedByIndividual](../browsedbyindividual/) |

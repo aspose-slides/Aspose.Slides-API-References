@@ -3,7 +3,7 @@ title: RenderingOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 586
+weight: 599
 url: /aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions class

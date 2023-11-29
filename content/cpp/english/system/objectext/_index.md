@@ -26,9 +26,9 @@ class ObjectExt : public System::ObjectType
 | static [SmartPtr](../smartptr/)\<[Object](../object/)\> [Box](./box/)(const [String](../string/)\&) | Boxes string values. |
 | static [SmartPtr](../smartptr/)\<[System::BoxedValueBase](../boxedvaluebase/)\> [BoxEnum](./boxenum/)(T) | Boxes enum types for being propagated as [Object](../object/). |
 | static [SmartPtr](../smartptr/)\<[System::Collections::IList](../../system.collections/ilist/)\> [CastToIList](./casttoilist/)(const [SmartPtr](../smartptr/)\<[Object](../object/)\>\&) |  |
-| static auto [Coalesce](./coalesce/)(T0, T1) | Implementation of '?' operator translation for non-nullable types. |
-| static T0 [Coalesce](./coalesce/)([System::Nullable](../nullable/)\<T0\>, T1) | Implementation of '?' operator translation for nullable types. |
-| static std::conditional\<std::is_convertible\<RT2, RT1\>::value, RT1, RT2\>::type [CoalesceInternal](./coalesceinternal/)(RT1, F) | Implementation of '?' operator translation for non-nullable types. Overload for case if RT2 is convertable to RT1. |
+| static auto [Coalesce](./coalesce/)(T0, T1) | Implementation of '??' operator translation for non-nullable types. |
+| static T0 [Coalesce](./coalesce/)([System::Nullable](../nullable/)\<T0\>, T1) | Implementation of '??' operator translation for nullable types. |
+| static std::conditional\<std::is_convertible\<RT2, RT1\>::value, RT1, RT2\>::type [CoalesceInternal](./coalesceinternal/)(RT1, F) | Implementation of '??' operator translation for non-nullable types. Overload for case if RT2 is convertable to RT1. |
 | static std::enable_if\<[IsExceptionWrapper](../isexceptionwrapper/)\<T\>::value, **bool**\>::type [Equals](./equals/)(const T\&, const T2\&) |  |
 | static std::enable_if\<[IsSmartPtr](../issmartptr/)\<T\>::value, **bool**\>::type [Equals](./equals/)(const T\&, const T2\&) | Substitution for C# [Object.Equals](../object/equals/) calls working for any type in C++. Overload for smart pointer types. |
 | static std::enable_if<\![IsExceptionWrapper](../isexceptionwrapper/)\<T\>::value\&&\![IsSmartPtr](../issmartptr/)\<T\>::value\&&\!std::is_scalar\<T\>::value, **bool**\>::type [Equals](./equals/)(T, const T2\&) | Substitution for C# [Object.Equals](../object/equals/) calls working for any type in C++. Overload for structure types. |

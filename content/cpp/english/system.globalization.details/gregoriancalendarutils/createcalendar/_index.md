@@ -12,7 +12,7 @@ url: /system.globalization.details/gregoriancalendarutils/createcalendar/
 Create gregorian ICU calendar.
 
 ```cpp
-static std::unique_ptr<icu::Calendar> System::Globalization::Details::GregorianCalendarUtils::CreateCalendar()
+static std::unique_ptr<codeporting_icu::Calendar> System::Globalization::Details::GregorianCalendarUtils::CreateCalendar()
 ```
 
 

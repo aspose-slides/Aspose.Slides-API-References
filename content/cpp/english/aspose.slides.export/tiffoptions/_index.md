@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 716
+weight: 729
 url: /aspose.slides.export/tiffoptions/
 ---
 ## TiffOptions class
@@ -26,6 +26,7 @@ class TiffOptions : public Aspose::Slides::Export::SaveOptions,
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| [BlackWhiteConversionMode](../blackwhiteconversionmode/) [get_BwConversionMode](./get_bwconversionmode/)() override | Specifies the algorithm for converting a color image into a black and white image. This option will applied only if [ITiffOptions::get_CompressionType()](../itiffoptions/get_compressiontype/) is set to [TiffCompressionTypes::CCITT4](../tiffcompressiontypes/) or [TiffCompressionTypes::CCITT3](../tiffcompressiontypes/) Read [BlackWhiteConversionMode](../blackwhiteconversionmode/). Default is [BlackWhiteConversionMode::Default](../blackwhiteconversionmode/). |
 | [TiffCompressionTypes](../tiffcompressiontypes/) [get_CompressionType](./get_compressiontype/)() override | Specifies the compression type. Read [TiffCompressionTypes](../tiffcompressiontypes/). |
 | [System::String](../../system/string/) [get_DefaultRegularFont](../saveoptions/get_defaultregularfont/)() override | Returns font used in case source font is not found. Reads [System::String](../../system/string/). |
 | **uint32_t** [get_DpiX](./get_dpix/)() override | Specifies the horizontal resolution in dots per inch. Read **uint32_t**. |
@@ -51,6 +52,7 @@ class TiffOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
+| void [set_BwConversionMode](./set_bwconversionmode/)([BlackWhiteConversionMode](../blackwhiteconversionmode/)) override | Specifies the algorithm for converting a color image into a black and white image. This option will applied only if [ITiffOptions::get_CompressionType()](../itiffoptions/get_compressiontype/) is set to [TiffCompressionTypes::CCITT4](../tiffcompressiontypes/) or [TiffCompressionTypes::CCITT3](../tiffcompressiontypes/) Write [BlackWhiteConversionMode](../blackwhiteconversionmode/). Default is [BlackWhiteConversionMode::Default](../blackwhiteconversionmode/). |
 | void [set_CompressionType](./set_compressiontype/)([TiffCompressionTypes](../tiffcompressiontypes/)) override | Specifies the compression type. Write [TiffCompressionTypes](../tiffcompressiontypes/). |
 | void [set_DefaultRegularFont](../saveoptions/set_defaultregularfont/)([System::String](../../system/string/)) override | Sets font used in case source font is not found. Writes [System::String](../../system/string/). |
 | void [set_DpiX](./set_dpix/)(**uint32_t**) override | Specifies the horizontal resolution in dots per inch. Write **uint32_t**. |

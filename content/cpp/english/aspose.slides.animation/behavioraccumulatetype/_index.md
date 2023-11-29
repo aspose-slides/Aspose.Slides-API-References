@@ -3,7 +3,7 @@ title: BehaviorAccumulateType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents types of accumulation of effect behaviors.
 type: docs
-weight: 651
+weight: 664
 url: /aspose.slides.animation/behavioraccumulatetype/
 ---
 ## BehaviorAccumulateType enum

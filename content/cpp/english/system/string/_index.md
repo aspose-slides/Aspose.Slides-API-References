@@ -167,8 +167,8 @@ class String
 |  [String](./string/)([String](./)\&&) | Move constructor. |
 |  [String](./string/)(const [ArrayPtr](../arrayptr/)\<char16_t\>\&) | Converts whole character array to string. |
 |  [String](./string/)(const [ArrayPtr](../arrayptr/)\<char16_t\>\&, int, int) | Converts character array subrange to string. If parameters are out of array bounds, empty string is constructed. |
-| explicit  [String](./string/)(const icu::UnicodeString\&) | Wraps UnicodeString into [String](./). |
-| explicit  [String](./string/)(icu::UnicodeString\&&) | Move constructor. |
+| explicit  [String](./string/)(const codeporting_icu::UnicodeString\&) | Wraps UnicodeString into [String](./). |
+| explicit  [String](./string/)(codeporting_icu::UnicodeString\&&) | Move constructor. |
 | explicit  [String](./string/)(const std::wstring\&) | Creates [String](./) from widestring. |
 | explicit  [String](./string/)(const std::u16string\&) | Creates [String](./) from utf16 string. |
 | explicit  [String](./string/)(const std::string\&) | Creates [String](./) from std::string string presented in format UTF-8. |

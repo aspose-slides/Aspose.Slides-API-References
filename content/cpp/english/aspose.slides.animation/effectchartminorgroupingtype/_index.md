@@ -3,7 +3,7 @@ title: EffectChartMinorGroupingType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of an animation effect for chart's element in series or category.
 type: docs
-weight: 742
+weight: 755
 url: /aspose.slides.animation/effectchartminorgroupingtype/
 ---
 ## EffectChartMinorGroupingType enum
