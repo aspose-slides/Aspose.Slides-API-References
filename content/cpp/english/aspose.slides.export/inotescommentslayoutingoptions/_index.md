@@ -3,7 +3,7 @@ title: INotesCommentsLayoutingOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control the look of layouting of notes and comments in exported document.
 type: docs
-weight: 235
+weight: 274
 url: /aspose.slides.export/inotescommentslayoutingoptions/
 ---
 ## INotesCommentsLayoutingOptions class
@@ -12,7 +12,7 @@ url: /aspose.slides.export/inotescommentslayoutingoptions/
 Provides options that control the look of layouting of notes and comments in exported document.
 
 ```cpp
-class INotesCommentsLayoutingOptions : public virtual System::Object
+class INotesCommentsLayoutingOptions : public Aspose::Slides::Export::ISlidesLayoutOptions
 ```
 
 ## Methods
@@ -62,6 +62,6 @@ class INotesCommentsLayoutingOptions : public virtual System::Object
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |
 ## See Also
 
-* Class [Object](../../system/object/)
+* Class [ISlidesLayoutOptions](../islideslayoutoptions/)
 * Namespace [Aspose::Slides::Export](../)
 * Library [Aspose.Slides](../../)

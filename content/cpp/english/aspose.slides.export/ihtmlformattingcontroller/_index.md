@@ -3,7 +3,7 @@ title: IHtmlFormattingController
 second_title: Aspose.Slides for C++ API Reference
 description: Controls a html file generation.
 type: docs
-weight: 183
+weight: 196
 url: /aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController class

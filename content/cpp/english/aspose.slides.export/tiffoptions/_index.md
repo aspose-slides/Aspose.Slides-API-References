@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 729
+weight: 781
 url: /aspose.slides.export/tiffoptions/
 ---
 ## TiffOptions class
@@ -32,10 +32,12 @@ class TiffOptions : public Aspose::Slides::Export::SaveOptions,
 | **uint32_t** [get_DpiX](./get_dpix/)() override | Specifies the horizontal resolution in dots per inch. Read **uint32_t**. |
 | **uint32_t** [get_DpiY](./get_dpiy/)() override | Specifies the vertical resolution in dots per inch. Read **uint32_t**. |
 | [System::Drawing::Size](../../system.drawing/size/) [get_ImageSize](./get_imagesize/)() override | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read [System::Drawing::Size](../../system.drawing/size/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() override | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | [System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\> [get_NotesCommentsLayouting](./get_notescommentslayouting/)() override | Provides options that control how notes and comments is placed in exported document. |
 | [ImagePixelFormat](../imagepixelformat/) [get_PixelFormat](./get_pixelformat/)() override | Specifies the pixel format for the generated images. Read [ImagePixelFormat](../imagepixelformat/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../saveoptions/get_progresscallback/)() override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | **bool** [get_ShowHiddenSlides](./get_showhiddenslides/)() override | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\> [get_SlidesLayoutOptions](./get_slideslayoutoptions/)() override | Gets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\> [get_WarningCallback](../saveoptions/get_warningcallback/)() override | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
@@ -61,6 +63,7 @@ class TiffOptions : public Aspose::Slides::Export::SaveOptions,
 | void [set_PixelFormat](./set_pixelformat/)([ImagePixelFormat](../imagepixelformat/)) override | Specifies the pixel format for the generated images. Write [ImagePixelFormat](../imagepixelformat/). |
 | void [set_ProgressCallback](../saveoptions/set_progresscallback/)([System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\>) override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | void [set_ShowHiddenSlides](./set_showhiddenslides/)(**bool**) override | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
+| void [set_SlidesLayoutOptions](./set_slideslayoutoptions/)([System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\>) override | Sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | void [set_WarningCallback](../saveoptions/set_warningcallback/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\>) override | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Write [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |

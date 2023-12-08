@@ -43,6 +43,7 @@ class SmartArt : public Aspose::Slides::GraphicalObject,
 | [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\> [get_HyperlinkClick](../../aspose.slides/shape/get_hyperlinkclick/)() override | Returns the hyperlink defined for mouse click. Read [IHyperlink](../../aspose.slides/ihyperlink/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IHyperlinkManager](../../aspose.slides/ihyperlinkmanager/)\> [get_HyperlinkManager](../../aspose.slides/shape/get_hyperlinkmanager/)() override | Returns the hyperlink manager. Read-only [IHyperlinkManager](../../aspose.slides/ihyperlinkmanager/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\> [get_HyperlinkMouseOver](../../aspose.slides/shape/get_hyperlinkmouseover/)() override | Returns the hyperlink defined for mouse over. Read [IHyperlink](../../aspose.slides/ihyperlink/). |
+| **bool** [get_IsDecorative](../../aspose.slides/shape/get_isdecorative/)() override | Gets 'Mark as decorative' option Reed/write **bool**. |
 | **bool** [get_IsGrouped](../../aspose.slides/shape/get_isgrouped/)() override | Determines whether the shape is grouped. Read-only **bool**. |
 | **bool** [get_IsReversed](./get_isreversed/)() override | Return or set the state of the [SmartArt](./) diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read **bool**. |
 | **bool** [get_IsTextHolder](../../aspose.slides/shape/get_istextholder/)() override | Determines whether the shape is TextHolder_PPT. Read-only **bool**. |
@@ -95,6 +96,7 @@ class SmartArt : public Aspose::Slides::GraphicalObject,
 | void [set_Hidden](../../aspose.slides/shape/set_hidden/)(**bool**) override | Determines whether the shape is hidden. Write **bool**. |
 | void [set_HyperlinkClick](../../aspose.slides/shape/set_hyperlinkclick/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\>) override | Sets the hyperlink defined for mouse click. Write [IHyperlink](../../aspose.slides/ihyperlink/). |
 | void [set_HyperlinkMouseOver](../../aspose.slides/shape/set_hyperlinkmouseover/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\>) override | Sets the hyperlink defined for mouse over. Write [IHyperlink](../../aspose.slides/ihyperlink/). |
+| void [set_IsDecorative](../../aspose.slides/shape/set_isdecorative/)(**bool**) override | Sets 'Mark as decorative' option Reed/write **bool**. |
 | void [set_IsReversed](./set_isreversed/)(**bool**) override | Return or set the state of the [SmartArt](./) diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Write **bool**. |
 | void [set_Layout](./set_layout/)([SmartArtLayoutType](../smartartlayouttype/)) override | Sets layout of the [SmartArt](./) object. Write [SmartArtLayoutType](../smartartlayouttype/). |
 | void [set_Name](../../aspose.slides/shape/set_name/)([System::String](../../system/string/)) override | Sets the name of a shape. Must be not null. Use empty string value if needed. Write [System::String](../../system/string/). |

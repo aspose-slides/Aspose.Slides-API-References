@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 534
+weight: 586
 url: /aspose.slides.export/pdfoptions/
 ---
 ## PdfOptions class
@@ -36,12 +36,14 @@ class PdfOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [get_EmbedFullFonts](./get_embedfullfonts/)() override | Determines if all characters of font should be embedded or only used subset. Read **bool**. |
 | **bool** [get_EmbedTrueTypeFontsForASCII](./get_embedtruetypefontsforascii/)() override | Determines if [Aspose.Slides](../../aspose.slides/) will embed common fonts for ASCII (33..127 code range) text. [Fonts](../../aspose.slides/fonts/) for character codes greater than 127 are always embedded. Common fonts list includes PDF's base 14 fonts and additional user specified fonts. Read **bool**. |
 | [System::Drawing::Color](../../system.drawing/color/) [get_ImageTransparentColor](./get_imagetransparentcolor/)() override | Gets the image transparent color. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() override | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | **uint8_t** [get_JpegQuality](./get_jpegquality/)() override | Returns a value determining the quality of the JPEG images inside PDF document. Read **uint8_t**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\> [get_NotesCommentsLayouting](./get_notescommentslayouting/)() override | Provides options that control how notes and comments is placed in exported document. |
 | [System::String](../../system/string/) [get_Password](./get_password/)() override | Setting user password to protect the PDF document. Read [System::String](../../system/string/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../saveoptions/get_progresscallback/)() override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | **bool** [get_SaveMetafilesAsPng](./get_savemetafilesaspng/)() override | True to convert all metafiles used in a presentation to the PNG images. Read **bool**. |
 | **bool** [get_ShowHiddenSlides](./get_showhiddenslides/)() override | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\> [get_SlidesLayoutOptions](./get_slideslayoutoptions/)() override | Gets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | **float** [get_SufficientResolution](./get_sufficientresolution/)() override | Returns a value determining resolution of images inside PDF document. |
 | [PdfTextCompression](../pdftextcompression/) [get_TextCompression](./get_textcompression/)() override | Specifies compression type to be used for all textual content in the document. Read [PdfTextCompression](../pdftextcompression/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\> [get_WarningCallback](../saveoptions/get_warningcallback/)() override | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
@@ -76,6 +78,7 @@ class PdfOptions : public Aspose::Slides::Export::SaveOptions,
 | void [set_ProgressCallback](../saveoptions/set_progresscallback/)([System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\>) override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | void [set_SaveMetafilesAsPng](./set_savemetafilesaspng/)(**bool**) override | True to convert all metafiles used in a presentation to the PNG images. Write **bool**. |
 | void [set_ShowHiddenSlides](./set_showhiddenslides/)(**bool**) override | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
+| void [set_SlidesLayoutOptions](./set_slideslayoutoptions/)([System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\>) override | Sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | void [set_SufficientResolution](./set_sufficientresolution/)(**float**) override | Sets a value determining resolution of images inside PDF document. |
 | void [set_TextCompression](./set_textcompression/)([PdfTextCompression](../pdftextcompression/)) override | Specifies compression type to be used for all textual content in the document. Write [PdfTextCompression](../pdftextcompression/). |
 | void [set_WarningCallback](../saveoptions/set_warningcallback/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\>) override | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Write [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |

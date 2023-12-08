@@ -3,7 +3,7 @@ title: get_IsGrouped()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the shape is grouped. Read-only bool.
 type: docs
-weight: 443
+weight: 469
 url: /aspose.slides/ishape/get_isgrouped/
 ---
 ## IShape::get_IsGrouped() method

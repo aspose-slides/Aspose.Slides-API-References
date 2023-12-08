@@ -3,7 +3,7 @@ title: set_EmbedFullFonts()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if all characters of font should be embedded or only used subset. Write bool.
 type: docs
-weight: 157
+weight: 196
 url: /aspose.slides.export/pdfoptions/set_embedfullfonts/
 ---
 ## PdfOptions::set_EmbedFullFonts(bool) method

@@ -3,7 +3,7 @@ title: IHtmlGenerator
 second_title: Aspose.Slides for C++ API Reference
 description: Html generator.
 type: docs
-weight: 196
+weight: 209
 url: /aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator class

@@ -3,7 +3,7 @@ title: set_ImageTransparentColor()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the image transparent color.
 type: docs
-weight: 365
+weight: 404
 url: /aspose.slides.export/pdfoptions/set_imagetransparentcolor/
 ---
 ## PdfOptions::set_ImageTransparentColor(System::Drawing::Color) method

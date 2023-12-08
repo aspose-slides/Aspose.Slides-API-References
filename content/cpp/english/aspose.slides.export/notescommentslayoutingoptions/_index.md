@@ -3,7 +3,7 @@ title: NotesCommentsLayoutingOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control the look of layouting of notes and comments in exported document.
 type: docs
-weight: 521
+weight: 573
 url: /aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions class

@@ -3,7 +3,7 @@ title: RemovePlaceholder()
 second_title: Aspose.Slides for C++ API Reference
 description: Defines that this shape isn't a placeholder.
 type: docs
-weight: 508
+weight: 534
 url: /aspose.slides/ishape/removeplaceholder/
 ---
 ## IShape::RemovePlaceholder() method

@@ -3,7 +3,7 @@ title: get_ShapeLock()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns shape's locks. Read-only IBaseShapeLock.
 type: docs
-weight: 404
+weight: 430
 url: /aspose.slides/ishape/get_shapelock/
 ---
 ## IShape::get_ShapeLock() method

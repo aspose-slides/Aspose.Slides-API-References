@@ -3,7 +3,7 @@ title: SVGOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Initializes a new instance of the SVGOptions class.
 type: docs
-weight: 313
+weight: 326
 url: /aspose.slides.export/svgoptions/svgoptions/
 ---
 ## SVGOptions::SVGOptions() constructor

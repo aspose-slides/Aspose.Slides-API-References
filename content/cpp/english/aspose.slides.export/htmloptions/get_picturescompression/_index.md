@@ -3,7 +3,7 @@ title: get_PicturesCompression()
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the pictures compression level
 type: docs
-weight: 118
+weight: 157
 url: /aspose.slides.export/htmloptions/get_picturescompression/
 ---
 ## HtmlOptions::get_PicturesCompression() method

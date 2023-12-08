@@ -3,7 +3,7 @@ title: SvgEvent
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options for SVG shape.
 type: docs
-weight: 1002
+weight: 1067
 url: /aspose.slides.export/svgevent/
 ---
 ## SvgEvent enum

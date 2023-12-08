@@ -3,7 +3,7 @@ title: get_Slide()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the parent slide of a shape. Read-only IBaseSlide.
 type: docs
-weight: 560
+weight: 586
 url: /aspose.slides/shape/get_slide/
 ---
 ## Shape::get_Slide() method

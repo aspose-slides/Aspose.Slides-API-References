@@ -3,7 +3,7 @@ title: set_DisableGradientSplit()
 second_title: Aspose.Slides for C++ API Reference
 description: Disables splitting FromCornerX and FromCenter gradients. Write bool.
 type: docs
-weight: 144
+weight: 157
 url: /aspose.slides.export/svgoptions/set_disablegradientsplit/
 ---
 ## SVGOptions::set_DisableGradientSplit(bool) method

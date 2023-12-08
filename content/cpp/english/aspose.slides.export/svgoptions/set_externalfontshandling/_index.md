@@ -3,7 +3,7 @@ title: set_ExternalFontsHandling()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines a way of handling externally loaded fonts. Write SvgExternalFontsHandling.
 type: docs
-weight: 300
+weight: 313
 url: /aspose.slides.export/svgoptions/set_externalfontshandling/
 ---
 ## SVGOptions::set_ExternalFontsHandling(SvgExternalFontsHandling) method

@@ -3,7 +3,7 @@ title: VideoPlayerHtmlControllerFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create VideoPlayerHtmlController.
 type: docs
-weight: 755
+weight: 807
 url: /aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
 ## VideoPlayerHtmlControllerFactory class

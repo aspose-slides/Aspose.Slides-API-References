@@ -18,7 +18,7 @@ uint64_t Aspose::Slides::BlobManagementOptions::get_MaxBlobsBytesInMemory() over
 ## Remarks
 
 
-This property will be ignored if [IBlobManagementOptions::get_IsTemporaryFilesAllowed()](../../iblobmanagementoptions/get_istemporaryfilesallowed/) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if [IBlobManagementOptions::get_IsTemporaryFilesAllowed()](../../iblobmanagementoptions/get_istemporaryfilesallowed/) is set to false, the memory is the only place where BLOBs can be stored. 
+This value will be ignored if [BlobManagementOptions::set_IsTemporaryFilesAllowed](../set_istemporaryfilesallowed/) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if [BlobManagementOptions::set_IsTemporaryFilesAllowed](../set_istemporaryfilesallowed/) is set to false, the memory is the only place where BLOBs can be stored. 
 
 Default value is 629,145,600 bytes (600Mb).
 ## See Also

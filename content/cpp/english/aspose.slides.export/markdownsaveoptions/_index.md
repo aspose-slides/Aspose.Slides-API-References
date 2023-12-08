@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options that control how presentation should be saved to markdown.
 type: docs
-weight: 508
+weight: 560
 url: /aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class

@@ -3,7 +3,7 @@ title: IHtmlOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a HTML exporting options.
 type: docs
-weight: 209
+weight: 222
 url: /aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions class
@@ -28,12 +28,14 @@ class IHtmlOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | virtual [System::String](../../system/string/) [get_DefaultRegularFont](../isaveoptions/get_defaultregularfont/)() | Returns font used in case source font is not found. Reads [System::String](../../system/string/). |
 | virtual **bool** [get_DeletePicturesCroppedAreas](./get_deletepicturescroppedareas/)() | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) Read **bool**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IHtmlFormatter](../ihtmlformatter/)\> [get_HtmlFormatter](./get_htmlformatter/)() | Returns HTML template. Read [IHtmlFormatter](../ihtmlformatter/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | virtual **uint8_t** [get_JpegQuality](./get_jpegquality/)() | Returns a value determining the quality of the JPEG images inside PDF document. Read **uint8_t**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\> [get_NotesCommentsLayouting](./get_notescommentslayouting/)() | Provides options that control how notes and comments is placed in exported document. |
 | virtual [Aspose::Slides::Export::PicturesCompression](../picturescompression/) [get_PicturesCompression](./get_picturescompression/)() | Represents the pictures compression level Read [PicturesCompression](../picturescompression/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../isaveoptions/get_progresscallback/)() | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | virtual **bool** [get_ShowHiddenSlides](./get_showhiddenslides/)() | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[ISlideImageFormat](../islideimageformat/)\> [get_SlideImageFormat](./get_slideimageformat/)() | Returns slide image format options. Read [ISlideImageFormat](../islideimageformat/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\> [get_SlidesLayoutOptions](./get_slideslayoutoptions/)() | Gets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | virtual **bool** [get_SvgResponsiveLayout](./get_svgresponsivelayout/)() | True to exclude width and height attributes from SVG container - that will make layout responsive. False - otherwise. Read **bool**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\> [get_WarningCallback](../isaveoptions/get_warningcallback/)() | Returns an object which receives warnings and decides whether loading process will continue or will be aborted. Read [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
@@ -59,6 +61,7 @@ class IHtmlOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | virtual void [set_ProgressCallback](../isaveoptions/set_progresscallback/)([System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\>) | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | virtual void [set_ShowHiddenSlides](./set_showhiddenslides/)(**bool**) | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
 | virtual void [set_SlideImageFormat](./set_slideimageformat/)([System::SharedPtr](../../system/sharedptr/)\<[ISlideImageFormat](../islideimageformat/)\>) | Sets slide image format options. Write [ISlideImageFormat](../islideimageformat/). |
+| virtual void [set_SlidesLayoutOptions](./set_slideslayoutoptions/)([System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\>) | Sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | virtual void [set_SvgResponsiveLayout](./set_svgresponsivelayout/)(**bool**) | True to exclude width and height attributes from SVG container - that will make layout responsive. False - otherwise. Write **bool**. |
 | virtual void [set_WarningCallback](../isaveoptions/set_warningcallback/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\>) | Sets an object which receives warnings and decides whether loading process will continue or will be aborted. Write [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |

@@ -3,7 +3,7 @@ title: IRenderingOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 300
+weight: 339
 url: /aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions class
@@ -26,8 +26,10 @@ class IRenderingOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | virtual [System::String](../../system/string/) [get_DefaultRegularFont](../isaveoptions/get_defaultregularfont/)() | Returns font used in case source font is not found. Reads [System::String](../../system/string/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\> [get_NotesCommentsLayouting](./get_notescommentslayouting/)() | Provides options that control how notes and comments is placed in exported document. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../isaveoptions/get_progresscallback/)() | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\> [get_SlidesLayoutOptions](./get_slideslayoutoptions/)() | Gets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\> [get_WarningCallback](../isaveoptions/get_warningcallback/)() | Returns an object which receives warnings and decides whether loading process will continue or will be aborted. Read [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
@@ -46,6 +48,7 @@ class IRenderingOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | virtual void [set_DefaultRegularFont](../isaveoptions/set_defaultregularfont/)([System::String](../../system/string/)) | Sets font used in case source font is not found. Writes [System::String](../../system/string/). |
 | virtual void [set_ProgressCallback](../isaveoptions/set_progresscallback/)([System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\>) | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
+| virtual void [set_SlidesLayoutOptions](./set_slideslayoutoptions/)([System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\>) | Sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | virtual void [set_WarningCallback](../isaveoptions/set_warningcallback/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\>) | Sets an object which receives warnings and decides whether loading process will continue or will be aborted. Write [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
@@ -62,20 +65,25 @@ class IRenderingOptions : public virtual Aspose::Slides::Export::ISaveOptions
 
 
 ```cpp
-using namespace System::Drawing::Imaging;
-using namespace Aspose::Slides::Export;
+using System::Drawing::Imaging::ImageFormat;
 
-auto pres = System::MakeObject<Presentation>(u"pres.pptx");
-auto renderingOpts = System::MakeObject<RenderingOptions>();
-renderingOpts->get_NotesCommentsLayouting()->set_NotesPosition(NotesPositions::BottomTruncated);
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
 
-pres->get_Slides()->idx_get(0)->GetThumbnail(renderingOpts)->Save(u"pres-Original.png", ImageFormat::get_Png());
+System::SharedPtr<NotesCommentsLayoutingOptions> notesCommentsLayoutingOptions = System::MakeObject<NotesCommentsLayoutingOptions>();
+notesCommentsLayoutingOptions->set_NotesPosition(NotesPositions::BottomTruncated);
+
+System::SharedPtr<IRenderingOptions> renderingOpts = System::MakeObject<RenderingOptions>();
+renderingOpts->set_SlidesLayoutOptions(notesCommentsLayoutingOptions);
+
+System::Shared_Ptr<ISlide> slide = pres->get_Slide(0);
+
+slide->GetThumbnail(renderingOpts)->Save(u"pres-Original.png", ImageFormat::get_Png());
 
 renderingOpts->set_DefaultRegularFont(u"Arial Black");
-pres->get_Slides()->idx_get(0)->GetThumbnail(renderingOpts)->Save(u"pres-ArialBlackDefault.png", ImageFormat::get_Png());
+slide->GetThumbnail(renderingOpts)->Save(u"pres-ArialBlackDefault.png", ImageFormat::get_Png());
 
 renderingOpts->set_DefaultRegularFont(u"Arial Narrow");
-pres->get_Slides()->idx_get(0)->GetThumbnail(renderingOpts)->Save(u"pres-ArialNarrowDefault.png", ImageFormat::get_Png());
+slide->GetThumbnail(renderingOpts)->Save(u"pres-ArialNarrowDefault.png", ImageFormat::get_Png());
 ```
 
 

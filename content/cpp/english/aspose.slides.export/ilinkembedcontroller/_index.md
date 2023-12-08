@@ -3,7 +3,7 @@ title: ILinkEmbedController
 second_title: Aspose.Slides for C++ API Reference
 description: Callback interface used to determine how object should be processed during saving.
 type: docs
-weight: 222
+weight: 248
 url: /aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController class

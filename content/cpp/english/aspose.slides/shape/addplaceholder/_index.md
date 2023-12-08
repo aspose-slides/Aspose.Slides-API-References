@@ -3,7 +3,7 @@ title: AddPlaceholder()
 second_title: Aspose.Slides for C++ API Reference
 description: Adds a new placeholder if there is no and sets placeholder properties to a specified one.
 type: docs
-weight: 599
+weight: 625
 url: /aspose.slides/shape/addplaceholder/
 ---
 ## Shape::AddPlaceholder(System::SharedPtr\<IPlaceholder\>) method

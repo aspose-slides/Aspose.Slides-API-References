@@ -3,7 +3,7 @@ title: set_Disable3DText()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the 3D text is disabled in SVG. Write bool.
 type: docs
-weight: 118
+weight: 131
 url: /aspose.slides.export/svgoptions/set_disable3dtext/
 ---
 ## SVGOptions::set_Disable3DText(bool) method

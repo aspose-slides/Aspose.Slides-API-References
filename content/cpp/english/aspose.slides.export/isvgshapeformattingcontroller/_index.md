@@ -3,7 +3,7 @@ title: ISvgShapeFormattingController
 second_title: Aspose.Slides for C++ API Reference
 description: Controls SVG shape generation.
 type: docs
-weight: 404
+weight: 456
 url: /aspose.slides.export/isvgshapeformattingcontroller/
 ---
 ## ISvgShapeFormattingController class

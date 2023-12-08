@@ -3,7 +3,7 @@ title: HtmlFormatter
 second_title: Aspose.Slides for C++ API Reference
 description: Represents HTML file template.
 type: docs
-weight: 79
+weight: 92
 url: /aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter class

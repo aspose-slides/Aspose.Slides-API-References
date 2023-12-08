@@ -3,7 +3,7 @@ title: IGifOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents GIF exporting options.
 type: docs
-weight: 144
+weight: 157
 url: /aspose.slides.export/igifoptions/
 ---
 ## IGifOptions class

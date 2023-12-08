@@ -3,7 +3,7 @@ title: IPdfOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 248
+weight: 287
 url: /aspose.slides.export/ipdfoptions/
 ---
 ## IPdfOptions class
@@ -35,12 +35,14 @@ class IPdfOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | virtual **bool** [get_EmbedFullFonts](./get_embedfullfonts/)() | Determines if all characters of font should be embedded or only used subset. Read **bool**. |
 | virtual **bool** [get_EmbedTrueTypeFontsForASCII](./get_embedtruetypefontsforascii/)() | True to embed true type fonts for ASCII characters 32-127. [Fonts](../../aspose.slides/fonts/) for character codes greater than 127 are always embedded. Read **bool**. |
 | virtual [System::Drawing::Color](../../system.drawing/color/) [get_ImageTransparentColor](./get_imagetransparentcolor/)() | Gets the image transparent color. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | virtual **uint8_t** [get_JpegQuality](./get_jpegquality/)() | Returns a value determining the quality of the JPEG images inside PDF document. Read **uint8_t**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\> [get_NotesCommentsLayouting](./get_notescommentslayouting/)() | Provides options that control how notes and comments is placed in exported document. |
 | virtual [System::String](../../system/string/) [get_Password](./get_password/)() | Setting user password to protect the PDF document. Read [System::String](../../system/string/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../isaveoptions/get_progresscallback/)() | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | virtual **bool** [get_SaveMetafilesAsPng](./get_savemetafilesaspng/)() | True to convert all metafiles used in a presentation to the PNG images. Read **bool**. |
 | virtual **bool** [get_ShowHiddenSlides](./get_showhiddenslides/)() | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\> [get_SlidesLayoutOptions](./get_slideslayoutoptions/)() | Gets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | virtual **float** [get_SufficientResolution](./get_sufficientresolution/)() | Returns a value determining resolution of images inside PDF document. |
 | virtual [PdfTextCompression](../pdftextcompression/) [get_TextCompression](./get_textcompression/)() | Specifies compression type to be used for all textual content in the document. Read [PdfTextCompression](../pdftextcompression/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\> [get_WarningCallback](../isaveoptions/get_warningcallback/)() | Returns an object which receives warnings and decides whether loading process will continue or will be aborted. Read [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
@@ -74,6 +76,7 @@ class IPdfOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | virtual void [set_ProgressCallback](../isaveoptions/set_progresscallback/)([System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\>) | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | virtual void [set_SaveMetafilesAsPng](./set_savemetafilesaspng/)(**bool**) | True to convert all metafiles used in a presentation to the PNG images. Write **bool**. |
 | virtual void [set_ShowHiddenSlides](./set_showhiddenslides/)(**bool**) | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
+| virtual void [set_SlidesLayoutOptions](./set_slideslayoutoptions/)([System::SharedPtr](../../system/sharedptr/)\<[ISlidesLayoutOptions](../islideslayoutoptions/)\>) | Sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../islideslayoutoptions/). |
 | virtual void [set_SufficientResolution](./set_sufficientresolution/)(**float**) | Sets a value determining resolution of images inside PDF document. |
 | virtual void [set_TextCompression](./set_textcompression/)([PdfTextCompression](../pdftextcompression/)) | Specifies compression type to be used for all textual content in the document. Write [PdfTextCompression](../pdftextcompression/). |
 | virtual void [set_WarningCallback](../isaveoptions/set_warningcallback/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\>) | Sets an object which receives warnings and decides whether loading process will continue or will be aborted. Write [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |

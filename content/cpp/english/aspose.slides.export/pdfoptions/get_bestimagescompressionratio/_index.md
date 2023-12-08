@@ -3,7 +3,7 @@ title: get_BestImagesCompressionRatio()
 second_title: Aspose.Slides for C++ API Reference
 description: Indicates if the most effective compression (instead of the default one) for each image must be selected automatically. If set to bool.true, for every image in presentation the most appropriate compression algorithm will be chosen, what will lead to the smaller size of the resulting PDF document.
 type: docs
-weight: 66
+weight: 105
 url: /aspose.slides.export/pdfoptions/get_bestimagescompressionratio/
 ---
 ## PdfOptions::get_BestImagesCompressionRatio() method

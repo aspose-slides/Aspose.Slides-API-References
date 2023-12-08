@@ -3,7 +3,7 @@ title: get_ParentGroup()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only IGroupShape.
 type: docs
-weight: 482
+weight: 508
 url: /aspose.slides/ishape/get_parentgroup/
 ---
 ## IShape::get_ParentGroup() method

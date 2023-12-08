@@ -3,7 +3,7 @@ title: MarkdownExportType
 second_title: Aspose.Slides for C++ API Reference
 description: Type of rendering document.
 type: docs
-weight: 885
+weight: 950
 url: /aspose.slides.export/markdownexporttype/
 ---
 ## MarkdownExportType enum

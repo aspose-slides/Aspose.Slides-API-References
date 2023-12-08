@@ -3,7 +3,7 @@ title: VideoPlayerHtmlController
 second_title: Aspose.Slides for C++ API Reference
 description: This class allows export of video and audio files into a HTML
 type: docs
-weight: 742
+weight: 794
 url: /aspose.slides.export/videoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlController class

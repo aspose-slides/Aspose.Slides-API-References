@@ -3,7 +3,7 @@ title: get_ShowHiddenSlides()
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies whether the generated document should include hidden slides or not. Default is false.
 type: docs
-weight: 14
+weight: 53
 url: /aspose.slides.export/htmloptions/get_showhiddenslides/
 ---
 ## HtmlOptions::get_ShowHiddenSlides() method

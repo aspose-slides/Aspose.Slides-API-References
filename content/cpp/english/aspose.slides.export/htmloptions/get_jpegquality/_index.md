@@ -3,7 +3,7 @@ title: get_JpegQuality()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a value determining the quality of the JPEG images inside PDF document. Read uint8_t.
 type: docs
-weight: 92
+weight: 131
 url: /aspose.slides.export/htmloptions/get_jpegquality/
 ---
 ## HtmlOptions::get_JpegQuality() method
