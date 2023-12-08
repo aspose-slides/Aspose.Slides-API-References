@@ -3,7 +3,7 @@ title: Orientation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the orientation of a shape.
 type: docs
-weight: 8700
+weight: 8750
 url: /aspose.slides/orientation/
 ---
 

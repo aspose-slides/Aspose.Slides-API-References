@@ -3,7 +3,7 @@ title: PictureFrameLock
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines which operations are disabled on the parent PictureFrame.
 type: docs
-weight: 8880
+weight: 8930
 url: /aspose.slides/pictureframelock/
 ---
 

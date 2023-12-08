@@ -3,7 +3,7 @@ title: IRenderingOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 3790
+weight: 3820
 url: /aspose.slides.export/irenderingoptions/
 ---
 
@@ -20,16 +20,17 @@ public interface IRenderingOptions : ISaveOptions
 | Name | Description |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
-| [NotesCommentsLayouting](../../aspose.slides.export/irenderingoptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Examples
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation("pres.pptx"))
-  {
+{
   IRenderingOptions renderingOpts = new RenderingOptions();
-  renderingOpts.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
+  renderingOpts.SlidesLayoutOptions = new NotesCommentsLayoutingOptions { NotesPosition = NotesPositions.BottomTruncated};
   
   pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);
   

@@ -3,7 +3,7 @@ title: PictureFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 8850
+weight: 8900
 url: /aspose.slides/picturefillformat/
 ---
 
@@ -36,6 +36,7 @@ public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
 
 | Name | Description |
 | --- | --- |
+| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | Delete cropped areas of the fill Picture. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 

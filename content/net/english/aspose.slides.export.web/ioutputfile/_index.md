@@ -3,7 +3,7 @@ title: IOutputFile
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an output file.
 type: docs
-weight: 4310
+weight: 4360
 url: /aspose.slides.export.web/ioutputfile/
 ---
 

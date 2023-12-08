@@ -3,7 +3,7 @@ title: SufficientResolution
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets a value determining resolution of images inside PDF document.
 type: docs
-weight: 160
+weight: 170
 url: /aspose.slides.export/ipdfoptions/sufficientresolution/
 ---
 

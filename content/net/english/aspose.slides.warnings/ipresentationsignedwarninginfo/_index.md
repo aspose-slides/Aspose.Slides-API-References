@@ -3,7 +3,7 @@ title: IPresentationSignedWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: This warning indicates that the presentation being read has the signature and this signature will be removed during processing.
 type: docs
-weight: 11200
+weight: 11250
 url: /aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 

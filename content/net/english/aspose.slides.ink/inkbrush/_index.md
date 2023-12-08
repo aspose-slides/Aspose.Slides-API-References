@@ -3,7 +3,7 @@ title: InkBrush
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an inkBrush object.
 type: docs
-weight: 7080
+weight: 7130
 url: /aspose.slides.ink/inkbrush/
 ---
 

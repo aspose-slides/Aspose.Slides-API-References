@@ -3,7 +3,7 @@ title: GetBasePlaceholder
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns a basic placeholder shape shape from the layout and/or master slide that the current shape is inherited from. A null is returned if the current shape is not inherited.
 type: docs
-weight: 300
+weight: 310
 url: /aspose.slides/ishape/getbaseplaceholder/
 ---
 

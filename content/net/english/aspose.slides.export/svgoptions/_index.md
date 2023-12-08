@@ -3,7 +3,7 @@ title: SVGOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an SVG options.
 type: docs
-weight: 4140
+weight: 4190
 url: /aspose.slides.export/svgoptions/
 ---
 
@@ -35,6 +35,7 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 | [DisableGradientSplit](../../aspose.slides.export/svgoptions/disablegradientsplit) { get; set; } | Disables splitting FromCornerX and FromCenter gradients. Read/write Boolean. |
 | [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read/write Boolean. |
 | [ExternalFontsHandling](../../aspose.slides.export/svgoptions/externalfontshandling) { get; set; } | Determines a way of handling externally loaded fonts. Read/write [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/svgoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/svgoptions/jpegquality) { get; set; } | Determines JPEG encoding quality. Read/write Int32. |
 | [MetafileRasterizationDpi](../../aspose.slides.export/svgoptions/metafilerasterizationdpi) { get; set; } | Returns or sets the lower resolution limit for metafile rasterization. Read/write Int32. |
 | [PicturesCompression](../../aspose.slides.export/svgoptions/picturescompression) { get; set; } | Represents the pictures compression level |

@@ -3,7 +3,7 @@ title: AddPlaceholder
 second_title: Aspose.Sildes for .NET API Reference
 description: Adds a new placeholder if there is no and sets placeholder properties to a specified one.
 type: docs
-weight: 290
+weight: 300
 url: /aspose.slides/ishape/addplaceholder/
 ---
 

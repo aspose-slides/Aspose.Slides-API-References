@@ -3,7 +3,7 @@ title: TransitionCornerDirectionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent corner direction transition types.
 type: docs
-weight: 9760
+weight: 9810
 url: /aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
 

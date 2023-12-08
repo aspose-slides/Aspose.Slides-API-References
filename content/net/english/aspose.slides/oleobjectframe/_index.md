@@ -3,7 +3,7 @@ title: OleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 8690
+weight: 8740
 url: /aspose.slides/oleobjectframe/
 ---
 
@@ -37,6 +37,7 @@ public class OleObjectFrame : GraphicalObject, IOleObjectFrame
 | [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../ihyperlink). |
 | [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Returns the hyperlink manager. Read-only [`IHyperlinkManager`](../ihyperlinkmanager). |
 | [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Returns or sets the hyperlink defined for mouse over. Read/write [`IHyperlink`](../ihyperlink). |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | Gets or sets 'Mark as decorative' option Reed/write Boolean. |
 | [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Determines whether the shape is grouped. Read-only Boolean. |
 | [IsObjectIcon](../../aspose.slides/oleobjectframe/isobjecticon) { get; set; } | Determines whether an object is visible as icon. Read/write Boolean. |
 | [IsObjectLink](../../aspose.slides/oleobjectframe/isobjectlink) { get; } | Determines whether an object is linked to external file. Read-only Boolean. |

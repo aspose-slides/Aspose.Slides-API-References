@@ -3,7 +3,7 @@ title: Compress
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a group of methods intended to compress Presentation../aspose.slides/presentation.
 type: docs
-weight: 7360
+weight: 7410
 url: /aspose.slides.lowcode/compress/
 ---
 

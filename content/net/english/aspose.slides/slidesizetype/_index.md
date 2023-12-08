@@ -3,7 +3,7 @@ title: SlideSizeType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the slide size preset.
 type: docs
-weight: 9930
+weight: 9980
 url: /aspose.slides/slidesizetype/
 ---
 

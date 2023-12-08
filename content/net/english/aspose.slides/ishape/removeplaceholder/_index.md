@@ -3,7 +3,7 @@ title: RemovePlaceholder
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines that this shape isnt a placeholder.
 type: docs
-weight: 320
+weight: 330
 url: /aspose.slides/ishape/removeplaceholder/
 ---
 

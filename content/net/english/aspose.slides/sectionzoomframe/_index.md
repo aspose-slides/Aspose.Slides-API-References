@@ -3,7 +3,7 @@ title: SectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Section Zoom object in a slide.
 type: docs
-weight: 9240
+weight: 9290
 url: /aspose.slides/sectionzoomframe/
 ---
 
@@ -35,6 +35,7 @@ public class SectionZoomFrame : ZoomObject, ISectionZoomFrame
 | [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Returns or sets the hyperlink defined for mouse over. Read/write [`IHyperlink`](../ihyperlink). |
 | [Image](../../aspose.slides/zoomobject/image) { get; set; } | Gets or sets image for zoom object. Read/write [`IPPImage`](../ippimage). |
 | [ImageType](../../aspose.slides/zoomobject/imagetype) { get; set; } | Gets or sets the image type of a zoom object. Read/write [`ZoomImageType`](../zoomimagetype). Default value: Preview |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | Gets or sets 'Mark as decorative' option Reed/write Boolean. |
 | [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Determines whether the shape is grouped. Read-only Boolean. |
 | [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Determines whether the shape is TextHolder_PPT. Read-only Boolean. |
 | virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Returns the LineFormat object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. Read-only [`ILineFormat`](../ilineformat). |

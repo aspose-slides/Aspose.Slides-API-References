@@ -3,7 +3,7 @@ title: MathNaryOperatorFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create IMathNaryOperator
 type: docs
-weight: 8350
+weight: 8400
 url: /aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 

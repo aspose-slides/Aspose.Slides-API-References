@@ -3,7 +3,7 @@ title: Y
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write Single.
 type: docs
-weight: 270
+weight: 280
 url: /aspose.slides/ishape/y/
 ---
 

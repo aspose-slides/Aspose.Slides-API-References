@@ -3,7 +3,7 @@ title: IHtmlOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a HTML exporting options.
 type: docs
-weight: 3720
+weight: 3740
 url: /aspose.slides.export/ihtmloptions/
 ---
 
@@ -22,11 +22,12 @@ public interface IHtmlOptions : ISaveOptions
 | [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) Read/write Boolean. |
 | [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Returns or sets HTML template. Read/write [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write Byte. |
-| [NotesCommentsLayouting](../../aspose.slides.export/ihtmloptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
 | [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Represents the pictures compression level Read/write [`PicturesCompression`](./picturescompression). |
 | [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
 | [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Returns or sets slide image format options. Read/write [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 | [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True to exclude width and height attributes from SVG container - that will make layout responsive. False - otherwise. Read/write Boolean. |
 
 ### See Also

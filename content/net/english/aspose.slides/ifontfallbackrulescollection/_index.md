@@ -3,7 +3,7 @@ title: IFontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of FontFallBack rules defined by user
 type: docs
-weight: 5480
+weight: 5530
 url: /aspose.slides/ifontfallbackrulescollection/
 ---
 

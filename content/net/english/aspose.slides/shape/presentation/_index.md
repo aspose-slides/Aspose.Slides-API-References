@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the parent presentation of a slide. Read-only IPresentationaspose.slides/ipresentation.
 type: docs
-weight: 210
+weight: 220
 url: /aspose.slides/shape/presentation/
 ---
 

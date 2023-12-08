@@ -3,7 +3,7 @@ title: NotesSlideManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Notes slide manager.
 type: docs
-weight: 8620
+weight: 8670
 url: /aspose.slides/notesslidemanager/
 ---
 

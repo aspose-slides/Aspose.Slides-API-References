@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 4280
+weight: 4330
 url: /aspose.slides.export/tiffoptions/
 ---
 
@@ -31,10 +31,11 @@ public class TiffOptions : SaveOptions, ITiffOptions
 | [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | Specifies the horizontal resolution in dots per inch. Read/write UInt32. |
 | [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Specifies the vertical resolution in dots per inch. Read/write UInt32. |
 | [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write Size. |
-| [NotesCommentsLayouting](../../aspose.slides.export/tiffoptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
+| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
 | [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Specifies the pixel format for the generated images. Read/write [`ImagePixelFormat`](../imagepixelformat). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Examples

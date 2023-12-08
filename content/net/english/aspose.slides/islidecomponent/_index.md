@@ -3,7 +3,7 @@ title: ISlideComponent
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a component of a slide.
 type: docs
-weight: 6630
+weight: 6680
 url: /aspose.slides/islidecomponent/
 ---
 

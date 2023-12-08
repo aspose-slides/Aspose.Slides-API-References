@@ -3,7 +3,7 @@ title: IsGrouped
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the shape is grouped. Read-only Boolean.
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides/shape/isgrouped/
 ---
 

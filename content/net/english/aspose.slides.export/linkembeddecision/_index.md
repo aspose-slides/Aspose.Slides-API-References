@@ -3,7 +3,7 @@ title: LinkEmbedDecision
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines how object will be processed during saving.
 type: docs
-weight: 3960
+weight: 4010
 url: /aspose.slides.export/linkembeddecision/
 ---
 

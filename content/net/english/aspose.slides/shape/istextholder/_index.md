@@ -3,7 +3,7 @@ title: IsTextHolder
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the shape is TextHolder_PPT. Read-only Boolean.
 type: docs
-weight: 150
+weight: 160
 url: /aspose.slides/shape/istextholder/
 ---
 

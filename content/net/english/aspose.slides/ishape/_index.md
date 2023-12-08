@@ -3,7 +3,7 @@ title: IShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 6520
+weight: 6570
 url: /aspose.slides/ishape/
 ---
 
@@ -31,6 +31,7 @@ public interface IShape : IHyperlinkContainer, ISlideComponent
 | [Frame](../../aspose.slides/ishape/frame) { get; set; } | Returns or sets the shape frame's properties. Read/write [`IShapeFrame`](../ishapeframe). |
 | [Height](../../aspose.slides/ishape/height) { get; set; } | Returns or sets the height of the shape. Read/write Single. |
 | [Hidden](../../aspose.slides/ishape/hidden) { get; set; } | Determines whether the shape is hidden. Read/write Boolean. |
+| [IsDecorative](../../aspose.slides/ishape/isdecorative) { get; set; } | Gets or sets 'Mark as decorative' option Reed/write Boolean. |
 | [IsGrouped](../../aspose.slides/ishape/isgrouped) { get; } | Determines whether the shape is grouped. Read-only Boolean. |
 | [IsTextHolder](../../aspose.slides/ishape/istextholder) { get; } | Determines whether the shape is TextHolder. Read-only Boolean. |
 | [LineFormat](../../aspose.slides/ishape/lineformat) { get; } | Returns the LineFormat object that contains line formatting properties for a shape. Read-only [`ILineFormat`](../ilineformat). |

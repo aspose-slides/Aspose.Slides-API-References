@@ -3,7 +3,7 @@ title: INotesCommentsLayoutingOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control the look of layouting of notes and comments in exported document.
 type: docs
-weight: 3740
+weight: 3770
 url: /aspose.slides.export/inotescommentslayoutingoptions/
 ---
 
@@ -12,7 +12,7 @@ url: /aspose.slides.export/inotescommentslayoutingoptions/
 Provides options that control the look of layouting of notes and comments in exported document.
 
 ```csharp
-public interface INotesCommentsLayoutingOptions
+public interface INotesCommentsLayoutingOptions : ISlidesLayoutOptions
 ```
 
 ## Properties
@@ -27,6 +27,7 @@ public interface INotesCommentsLayoutingOptions
 
 ### See Also
 
+* interface [ISlidesLayoutOptions](../islideslayoutoptions)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)
 
