@@ -69,6 +69,19 @@ boolean
 ---
 
 
+### getInkOptions {#getInkOptions}
+
+| Name | Description |
+| --- | --- |
+| getInkOptions () | Provides options that control the look of Ink objects in exported document. Read-only IInkOptions |
+
+ **Returns:**
+[InkOptions](../inkoptions)
+
+
+---
+
+
 ### getJpegQuality {#getJpegQuality}
 
 | Name | Description |
@@ -129,6 +142,19 @@ boolean
 
  **Returns:**
 [SlideImageFormat](../slideimageformat)
+
+
+---
+
+
+### getSlidesLayoutOptions {#getSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
 ---
@@ -217,6 +243,32 @@ void
 | Name | Description |
 | --- | --- |
 | setSlideImageFormat ([SlideImageFormat](../slideimageformat)) | Returns or sets slide image format options. Read/write ISlideImageFormat. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
  **Returns:**
 void

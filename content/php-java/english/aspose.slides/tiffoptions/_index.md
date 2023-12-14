@@ -89,6 +89,19 @@ Dimension
 ---
 
 
+### getInkOptions {#getInkOptions}
+
+| Name | Description |
+| --- | --- |
+| getInkOptions () | Provides options that control the look of Ink objects in exported document. Read-only IInkOptions |
+
+ **Returns:**
+[InkOptions](../inkoptions)
+
+
+---
+
+
 ### getNotesCommentsLayouting {#getNotesCommentsLayouting}
 
 | Name | Description |
@@ -123,6 +136,19 @@ int
 
  **Returns:**
 boolean
+
+
+---
+
+
+### getSlidesLayoutOptions {#getSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
 ---
@@ -211,6 +237,32 @@ void
 | Name | Description |
 | --- | --- |
 | setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
  **Returns:**
 void
