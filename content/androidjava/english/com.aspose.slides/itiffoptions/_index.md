@@ -29,8 +29,11 @@ Provides options that control how a presentation is saved in TIFF format.
 | [getPixelFormat()](#getPixelFormat--) | Specifies the pixel format for the generated images. |
 | [setPixelFormat(int value)](#setPixelFormat-int-) | Specifies the pixel format for the generated images. |
 | [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [getBwConversionMode()](#getBwConversionMode--) | Specifies the algorithm for converting a color image into a black and white image. |
 | [setBwConversionMode(int value)](#setBwConversionMode-int-) | Specifies the algorithm for converting a color image into a black and white image. |
+| [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
 ### getImageSize() {#getImageSize--}
 ```
 public abstract Size getImageSize()
@@ -179,6 +182,73 @@ Provides options that control how notes and comments is placed in exported docum
 
 **Returns:**
 [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
+```
+public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      TiffOptions options = new TiffOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.tiff", SaveFormat.Tiff, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default value is  **FullSlidesLayoutOptions** .
+
+**Returns:**
+[ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
+```
+public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      TiffOptions options = new TiffOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.tiff", SaveFormat.Tiff, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default value is  **FullSlidesLayoutOptions** .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
+
 ### getBwConversionMode() {#getBwConversionMode--}
 ```
 public abstract int getBwConversionMode()
@@ -230,3 +300,13 @@ Specifies the algorithm for converting a color image into a black and white imag
 | --- | --- | --- |
 | value | int |  |
 
+### getInkOptions() {#getInkOptions--}
+```
+public abstract IInkOptions getInkOptions()
+```
+
+
+Provides options that control the look of Ink objects in exported document. Read-only [IInkOptions](../../com.aspose.slides/iinkoptions)
+
+**Returns:**
+[IInkOptions](../../com.aspose.slides/iinkoptions)

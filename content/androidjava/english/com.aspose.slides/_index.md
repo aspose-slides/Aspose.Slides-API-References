@@ -242,6 +242,8 @@ url: /com.aspose.slides/
 | [GroupShape](../com.aspose.slides/groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](../com.aspose.slides/groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [HSL](../com.aspose.slides/hsl) | Represents a Hue/Saturation/Luminance effect. |
+| [HandoutLayoutingOptions](../com.aspose.slides/handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
+| [HandoutType](../com.aspose.slides/handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
 | [Html5Options](../com.aspose.slides/html5options) | Represents a HTML5 exporting options. |
 | [HtmlExternalResolver](../com.aspose.slides/htmlexternalresolver) | Callback object used by HTML import routine to obtain referrenced objects such as images. |
 | [HtmlFormatter](../com.aspose.slides/htmlformatter) | Represents HTML file template. |
@@ -261,6 +263,7 @@ url: /com.aspose.slides/
 | [InOutTransition](../com.aspose.slides/inouttransition) | In-Out slide transition effect. |
 | [Ink](../com.aspose.slides/ink) | Represents an ink object on a slide. |
 | [InkBrush](../com.aspose.slides/inkbrush) | Represents an inkBrush object. |
+| [InkOptions](../com.aspose.slides/inkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [InkTrace](../com.aspose.slides/inktrace) | Represents an Trace object. |
 | [InnerShadow](../com.aspose.slides/innershadow) | Represents a Inner Shadow effect. |
 | [Input](../com.aspose.slides/input) | Represents a collection of input elements (templates). |
@@ -854,6 +857,7 @@ url: /com.aspose.slides/
 | [IInOutTransition](../com.aspose.slides/iinouttransition) | In-Out slide transition effect. |
 | [IInk](../com.aspose.slides/iink) | Represents an ink object on a slide. |
 | [IInkBrush](../com.aspose.slides/iinkbrush) | Represents trace brush. |
+| [IInkOptions](../com.aspose.slides/iinkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [IInkTrace](../com.aspose.slides/iinktrace) | Represents handwritten line in an Ink object. |
 | [IInnerShadow](../com.aspose.slides/iinnershadow) | Represents a inner shadow effect. |
 | [IInnerShadowEffectiveData](../com.aspose.slides/iinnershadoweffectivedata) | Immutable object which represents a inner shadow effect. |
@@ -1053,6 +1057,7 @@ url: /com.aspose.slides/
 | [ISlideShowTransition](../com.aspose.slides/islideshowtransition) | Represents slide show transition. |
 | [ISlideSize](../com.aspose.slides/islidesize) | Represents a size of slide. |
 | [ISlideText](../com.aspose.slides/islidetext) | Represents the text extracted from the slide |
+| [ISlidesLayoutOptions](../com.aspose.slides/islideslayoutoptions) | Represents the presentation layout mode for export. |
 | [ISlidesPicture](../com.aspose.slides/islidespicture) | Represents a picture in a presentation. |
 | [ISmartArt](../com.aspose.slides/ismartart) | Represents a SmartArt diagram. |
 | [ISmartArtNode](../com.aspose.slides/ismartartnode) | Represents node of a SmartArt diagram. |

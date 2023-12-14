@@ -40,6 +40,7 @@ Represents an SVG options.
 | [setUseFrameRotation(boolean value)](#setUseFrameRotation-boolean-) | Determines whether to perform the specified rotation of the shape when rendering or not. |
 | [getExternalFontsHandling()](#getExternalFontsHandling--) | Determines a way of handling externally loaded fonts. |
 | [setExternalFontsHandling(int value)](#setExternalFontsHandling-int-) | Determines a way of handling externally loaded fonts. |
+| [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
 ### getVectorizeText() {#getVectorizeText--}
 ```
 public abstract boolean getVectorizeText()
@@ -316,3 +317,13 @@ Determines a way of handling externally loaded fonts. Read/write [SvgExternalFon
 | --- | --- | --- |
 | value | int |  |
 
+### getInkOptions() {#getInkOptions--}
+```
+public abstract IInkOptions getInkOptions()
+```
+
+
+Provides options that control the look of Ink objects in exported document. Read-only [IInkOptions](../../com.aspose.slides/iinkoptions)
+
+**Returns:**
+[IInkOptions](../../com.aspose.slides/iinkoptions)

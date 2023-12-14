@@ -4,8 +4,11 @@ second_title: Aspose.Slides for Android via Java API Reference
 description: Provides options that control the look of layouting of notes and comments in exported document.
 type: docs
 url: /com.aspose.slides/inotescommentslayoutingoptions/
----```
-public interface INotesCommentsLayoutingOptions
+---
+**All Implemented Interfaces:**
+[com.aspose.slides.ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+```
+public interface INotesCommentsLayoutingOptions extends ISlidesLayoutOptions
 ```
 
 Provides options that control the look of layouting of notes and comments in exported document.

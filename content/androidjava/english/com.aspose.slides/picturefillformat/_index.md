@@ -33,6 +33,7 @@ Represents a picture fill style.
 | [setCropRight(float value)](#setCropRight-float-) | Returns or sets the number of percents of real image width that are cropped off the right of the picture. |
 | [getCropBottom()](#getCropBottom--) | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. |
 | [setCropBottom(float value)](#setCropBottom-float-) | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. |
+| [deletePictureCroppedAreas()](#deletePictureCroppedAreas--) | Delete cropped areas of the fill Picture. |
 | [getStretchOffsetLeft()](#getStretchOffsetLeft--) | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. |
 | [setStretchOffsetLeft(float value)](#setStretchOffsetLeft-float-) | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. |
 | [getStretchOffsetTop()](#getStretchOffsetTop--) | Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. |
@@ -199,6 +200,35 @@ Returns or sets the number of percents of real image height that are cropped off
 | --- | --- | --- |
 | value | float |  |
 
+### deletePictureCroppedAreas() {#deletePictureCroppedAreas--}
+```
+public final IPPImage deletePictureCroppedAreas()
+```
+
+
+Delete cropped areas of the fill Picture.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the PictureFrame
+>      IPictureFrame picFrame = (IPictureFrame)slide.getShapes().get_Item(0);
+>      // Deletes cropped areas of the PictureFrame image
+>      IPPImage croppedImage = picFrame.getPictureFormat().deletePictureCroppedAreas();
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[IPPImage](../../com.aspose.slides/ippimage) - Cropped image or origin image if cropping is not necessary.
+
+--------------------
+
+This method converts WMF/EMF metafiles to raster PNG image while cropping.
 ### getStretchOffsetLeft() {#getStretchOffsetLeft--}
 ```
 public final float getStretchOffsetLeft()
