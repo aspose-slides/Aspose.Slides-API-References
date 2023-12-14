@@ -73,27 +73,6 @@ SvgImage
 
 | Name | Description |
 | --- | --- |
-| SvgImage(byte[], [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| data | byte[] | Svg data. |
-| externalResResolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
-
- **Result:**
-SvgImage
-
-
----
-
-
-### SvgImage {#SvgImage}
-
-| Name | Description |
-| --- | --- |
 | SvgImage(byte[], [ExternalResourceResolver](../externalresourceresolver), String) | Creates new SvgImage object. |
 
  **Parameters:**
@@ -115,13 +94,13 @@ SvgImage
 
 | Name | Description |
 | --- | --- |
-| SvgImage(String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
+| SvgImage(byte[], [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| svgContent | String | Svg content. |
+| data | byte[] | Svg data. |
 | externalResResolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 
@@ -153,20 +132,19 @@ SvgImage
 ---
 
 
-### createSvgImageFromStream  {#createSvgImageFromStream }
+### SvgImage {#SvgImage}
 
 | Name | Description |
 | --- | --- |
-| createSvgImageFromStream (ReadStream, [HtmlExternalResolver](../htmlexternalresolver), String, Function) | Creates new SvgImage object. |
+| SvgImage(String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| stream | ReadStream | Svg stream. |
+| svgContent | String | Svg content. |
 | externalResResolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
-| callback | Function | callback(error, item) - Callback to be called when the class is created, item is the new instance of the SvgImage |
 
  **Result:**
 SvgImage
@@ -197,6 +175,28 @@ SvgImage
 ---
 
 
+### createSvgImageFromStream  {#createSvgImageFromStream }
+
+| Name | Description |
+| --- | --- |
+| createSvgImageFromStream (ReadStream, [HtmlExternalResolver](../htmlexternalresolver), String, Function) | Creates new SvgImage object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | ReadStream | Svg stream. |
+| externalResResolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
+| callback | Function | callback(error, item) - Callback to be called when the class is created, item is the new instance of the SvgImage |
+
+ **Result:**
+SvgImage
+
+
+---
+
+
 ### getBaseUri {#getBaseUri}
 
 | Name | Description |
@@ -217,7 +217,7 @@ String
 | getExternalResourceResolver () | Return callback interface used to resolve external resources during Svg documents import. Read-only IExternalResourceResolver. |
 
  **Result:**
-[HtmlExternalResolver](../htmlexternalresolver), [ExternalResourceResolver](../externalresourceresolver)
+[ExternalResourceResolver](../externalresourceresolver), [HtmlExternalResolver](../htmlexternalresolver)
 
 
 ---

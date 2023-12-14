@@ -121,6 +121,19 @@ int
 ---
 
 
+### getInkOptions {#getInkOptions}
+
+| Name | Description |
+| --- | --- |
+| getInkOptions () | Provides options that control the look of Ink objects in exported document. Read-only IInkOptions |
+
+ **Result:**
+[InkOptions](../inkoptions)
+
+
+---
+
+
 ### getJpegQuality {#getJpegQuality}
 
 | Name | Description |

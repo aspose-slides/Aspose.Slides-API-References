@@ -200,7 +200,7 @@ url: /aspose.slides/colorscheme/
 | getSlide () | Returns the parent slide. Read-only IBaseSlide. |
 
  **Result:**
-[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide)
+[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide)
 
 
 ---

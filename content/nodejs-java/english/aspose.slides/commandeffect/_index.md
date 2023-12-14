@@ -44,7 +44,7 @@ String
 | getShapeTarget () | Defines shape target of command effect. Read/write IShape. |
 
  **Result:**
-[Connector](../connector), [ZoomFrame](../zoomframe), [Shape](../shape), [OleObjectFrame](../oleobjectframe), [Table](../table), [PictureFrame](../pictureframe), [AutoShape](../autoshape), [VideoFrame](../videoframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [GraphicalObject](../graphicalobject), [GroupShape](../groupshape), [GeometryShape](../geometryshape), [SummaryZoomSection](../summaryzoomsection), [SummaryZoomFrame](../summaryzoomframe), [LegacyDiagram](../legacydiagram), [Chart](../chart), [SmartArtShape](../smartartshape), [Ink](../ink), [SmartArt](../smartart), [ZoomObject](../zoomobject)
+[Shape](../shape), [ZoomFrame](../zoomframe), [SmartArtShape](../smartartshape), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [VideoFrame](../videoframe), [Chart](../chart), [PictureFrame](../pictureframe), [SmartArt](../smartart), [AutoShape](../autoshape), [Ink](../ink), [SummaryZoomSection](../summaryzoomsection), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [Table](../table), [Connector](../connector), [SectionZoomFrame](../sectionzoomframe)
 
 
 ---
@@ -77,7 +77,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget ([Connector](../connector)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget ([Shape](../shape)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -97,107 +97,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget ([Shape](../shape)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([OleObjectFrame](../oleobjectframe)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([Table](../table)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([PictureFrame](../pictureframe)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([AutoShape](../autoshape)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([VideoFrame](../videoframe)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([SectionZoomFrame](../sectionzoomframe)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([AudioFrame](../audioframe)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([GraphicalObject](../graphicalobject)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([GroupShape](../groupshape)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([SummaryZoomSection](../summaryzoomsection)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget ([SmartArtShape](../smartartshape)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -217,7 +117,17 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget ([LegacyDiagram](../legacydiagram)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget ([GraphicalObject](../graphicalobject)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([VideoFrame](../videoframe)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -237,17 +147,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget ([SmartArtShape](../smartartshape)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget ([Ink](../ink)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget ([PictureFrame](../pictureframe)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -267,7 +167,107 @@ byte
 
 | Name | Description |
 | --- | --- |
+| setShapeTarget ([AutoShape](../autoshape)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([Ink](../ink)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([SummaryZoomSection](../summaryzoomsection)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([GroupShape](../groupshape)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([LegacyDiagram](../legacydiagram)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([OleObjectFrame](../oleobjectframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([AudioFrame](../audioframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
 | setShapeTarget ([ZoomObject](../zoomobject)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([Table](../table)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([Connector](../connector)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([SectionZoomFrame](../sectionzoomframe)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---

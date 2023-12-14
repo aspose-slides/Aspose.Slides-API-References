@@ -11,6 +11,19 @@ url: /aspose.slides/picturefillformat/
 
  Represents a picture fill style.
  
+### deletePictureCroppedAreas {#deletePictureCroppedAreas}
+
+| Name | Description |
+| --- | --- |
+| deletePictureCroppedAreas () | Delete cropped areas of the fill Picture. |
+
+ **Result:**
+[PPImage](../ppimage)
+
+
+---
+
+
 ### getCropBottom {#getCropBottom}
 
 | Name | Description |

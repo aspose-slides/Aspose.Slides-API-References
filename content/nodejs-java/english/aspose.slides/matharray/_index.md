@@ -15,44 +15,6 @@ url: /aspose.slides/matharray/
 
 | Name | Description |
 | --- | --- |
-| MathArray([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a mathematical array and places the specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The element to place in the array |
-
- **Result:**
-MathArray
-
-
----
-
-
-### MathArray {#MathArray}
-
-| Name | Description |
-| --- | --- |
-| MathArray([MathBar](../mathbar)) | Creates a mathematical array and places the specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBar](../mathbar) | The element to place in the array |
-
- **Result:**
-MathArray
-
-
----
-
-
-### MathArray {#MathArray}
-
-| Name | Description |
-| --- | --- |
 | MathArray([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
 
  **Parameters:**
@@ -91,13 +53,13 @@ MathArray
 
 | Name | Description |
 | --- | --- |
-| MathArray([MathematicalText](../mathematicaltext)) | Creates a mathematical array and places the specified element in it |
+| MathArray([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | The element to place in the array |
+| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The element to place in the array |
 
  **Result:**
 MathArray
@@ -110,13 +72,13 @@ MathArray
 
 | Name | Description |
 | --- | --- |
-| MathArray([MathBox](../mathbox)) | Creates a mathematical array and places the specified element in it |
+| MathArray([MathFraction](../mathfraction)) | Creates a mathematical array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | The element to place in the array |
+| element | [MathFraction](../mathfraction) | The element to place in the array |
 
  **Result:**
 MathArray
@@ -129,13 +91,13 @@ MathArray
 
 | Name | Description |
 | --- | --- |
-| MathArray([MathFunction](../mathfunction)) | Creates a mathematical array and places the specified element in it |
+| MathArray([MathNaryOperator](../mathnaryoperator)) | Creates a mathematical array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The element to place in the array |
+| element | [MathNaryOperator](../mathnaryoperator) | The element to place in the array |
 
  **Result:**
 MathArray
@@ -186,25 +148,6 @@ MathArray
 
 | Name | Description |
 | --- | --- |
-| MathArray([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The element to place in the array |
-
- **Result:**
-MathArray
-
-
----
-
-
-### MathArray {#MathArray}
-
-| Name | Description |
-| --- | --- |
 | MathArray([MathRadical](../mathradical)) | Creates a mathematical array and places the specified element in it |
 
  **Parameters:**
@@ -212,25 +155,6 @@ MathArray
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathRadical](../mathradical) | The element to place in the array |
-
- **Result:**
-MathArray
-
-
----
-
-
-### MathArray {#MathArray}
-
-| Name | Description |
-| --- | --- |
-| MathArray([MathFraction](../mathfraction)) | Creates a mathematical array and places the specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The element to place in the array |
 
  **Result:**
 MathArray
@@ -281,6 +205,25 @@ MathArray
 
 | Name | Description |
 | --- | --- |
+| MathArray([MathBar](../mathbar)) | Creates a mathematical array and places the specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBar](../mathbar) | The element to place in the array |
+
+ **Result:**
+MathArray
+
+
+---
+
+
+### MathArray {#MathArray}
+
+| Name | Description |
+| --- | --- |
 | MathArray([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
 
  **Parameters:**
@@ -300,13 +243,32 @@ MathArray
 
 | Name | Description |
 | --- | --- |
-| MathArray([MathSubscriptElement](../mathsubscriptelement)) | Creates a mathematical array and places the specified element in it |
+| MathArray([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a mathematical array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The element to place in the array |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The element to place in the array |
+
+ **Result:**
+MathArray
+
+
+---
+
+
+### MathArray {#MathArray}
+
+| Name | Description |
+| --- | --- |
+| MathArray([MathDelimiter](../mathdelimiter)) | Creates a mathematical array and places the specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathDelimiter](../mathdelimiter) | The element to place in the array |
 
  **Result:**
 MathArray
@@ -338,13 +300,13 @@ MathArray
 
 | Name | Description |
 | --- | --- |
-| MathArray([MathNaryOperator](../mathnaryoperator)) | Creates a mathematical array and places the specified element in it |
+| MathArray([MathFunction](../mathfunction)) | Creates a mathematical array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | The element to place in the array |
+| element | [MathFunction](../mathfunction) | The element to place in the array |
 
  **Result:**
 MathArray
@@ -357,13 +319,51 @@ MathArray
 
 | Name | Description |
 | --- | --- |
-| MathArray([MathDelimiter](../mathdelimiter)) | Creates a mathematical array and places the specified element in it |
+| MathArray([MathSubscriptElement](../mathsubscriptelement)) | Creates a mathematical array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter](../mathdelimiter) | The element to place in the array |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The element to place in the array |
+
+ **Result:**
+MathArray
+
+
+---
+
+
+### MathArray {#MathArray}
+
+| Name | Description |
+| --- | --- |
+| MathArray([MathematicalText](../mathematicaltext)) | Creates a mathematical array and places the specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../mathematicaltext) | The element to place in the array |
+
+ **Result:**
+MathArray
+
+
+---
+
+
+### MathArray {#MathArray}
+
+| Name | Description |
+| --- | --- |
+| MathArray([MathBox](../mathbox)) | Creates a mathematical array and places the specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | The element to place in the array |
 
  **Result:**
 MathArray
@@ -424,7 +424,7 @@ int
 | getChildren () | Get children elements |
 
  **Result:**
-[MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), [MathBox](../mathbox), [MathFunction](../mathfunction), [MathArray](../matharray), [MathElementBase](../mathelementbase), [MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical), [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript), [MathDelimiter](../mathdelimiter)
+[MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), [MathAccent](../mathaccent), [MathElementBase](../mathelementbase), [MathRadical](../mathradical), [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), [MathBar](../mathbar), [BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), [MathBox](../mathbox)
 
 
 ---

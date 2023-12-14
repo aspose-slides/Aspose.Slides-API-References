@@ -228,6 +228,8 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [GroupShape](groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [HSL](hsl) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
+| [HandoutLayoutingOptions](handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
+| [HandoutType](handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
 | [Html5Options](html5options) | Represents a HTML5 exporting options. |
 | [HtmlExternalResolver](htmlexternalresolver) | Callback object used by HTML import routine to obtain referrenced objects such as images. Using this resolver could create a vulnurability when client provided HTML file will make server software to obtain local or network file. Use with caution. It is recommended not to specify HtmlExternalResolver at all (only embedded objects will be read) or create some subclass which checks if specified uri is valid. |
 | [HtmlFormatter](htmlformatter) | Represents HTML file template. |
@@ -246,6 +248,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [InOutTransition](inouttransition) | In-Out slide transition effect. |
 | [Ink](ink) | Represents an ink object on a slide. |
 | [InkBrush](inkbrush) | Represents an inkBrush object. |
+| [InkOptions](inkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [InkTrace](inktrace) | Represents an Trace object. A Trace element is used to record the data captured by the digitizer. It contains a sequence of points encoded according to the specification given by the InkTraceFormat object. |
 | [InnerShadow](innershadow) | Represents a Inner Shadow effect. |
 | [Input](input) | Represents a collection of input elements (templates). |

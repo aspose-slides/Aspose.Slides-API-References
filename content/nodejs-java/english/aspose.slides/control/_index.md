@@ -109,7 +109,7 @@ int
 | getSlide () |  |
 
  **Result:**
-[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide)
+[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide)
 
 
 ---

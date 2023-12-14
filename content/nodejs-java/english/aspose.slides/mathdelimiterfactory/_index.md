@@ -30,44 +30,6 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math delimiter by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply delimiter |
-
- **Result:**
-[MathDelimiter](../mathdelimiter)
-
-
----
-
-
-### createMathDelimiter {#createMathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| createMathDelimiter ([MathBar](../mathbar)) | Create a math delimiter by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBar](../mathbar) | math element to apply delimiter |
-
- **Result:**
-[MathDelimiter](../mathdelimiter)
-
-
----
-
-
-### createMathDelimiter {#createMathDelimiter}
-
-| Name | Description |
-| --- | --- |
 | createMathDelimiter ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
@@ -106,13 +68,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathematicalText](../mathematicaltext)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply delimiter |
+| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | math element to apply delimiter |
 
  **Result:**
 [MathDelimiter](../mathdelimiter)
@@ -125,13 +87,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathBox](../mathbox)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathFraction](../mathfraction)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | math element to apply delimiter |
+| element | [MathFraction](../mathfraction) | math element to apply delimiter |
 
  **Result:**
 [MathDelimiter](../mathdelimiter)
@@ -144,13 +106,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathFunction](../mathfunction)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathNaryOperator](../mathnaryoperator)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | math element to apply delimiter |
+| element | [MathNaryOperator](../mathnaryoperator) | math element to apply delimiter |
 
  **Result:**
 [MathDelimiter](../mathdelimiter)
@@ -201,25 +163,6 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Create a math delimiter by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | math element to apply delimiter |
-
- **Result:**
-[MathDelimiter](../mathdelimiter)
-
-
----
-
-
-### createMathDelimiter {#createMathDelimiter}
-
-| Name | Description |
-| --- | --- |
 | createMathDelimiter ([MathRadical](../mathradical)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
@@ -227,25 +170,6 @@ MathDelimiterFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathRadical](../mathradical) | math element to apply delimiter |
-
- **Result:**
-[MathDelimiter](../mathdelimiter)
-
-
----
-
-
-### createMathDelimiter {#createMathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| createMathDelimiter ([MathFraction](../mathfraction)) | Create a math delimiter by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply delimiter |
 
  **Result:**
 [MathDelimiter](../mathdelimiter)
@@ -296,6 +220,25 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
+| createMathDelimiter ([MathBar](../mathbar)) | Create a math delimiter by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBar](../mathbar) | math element to apply delimiter |
+
+ **Result:**
+[MathDelimiter](../mathdelimiter)
+
+
+---
+
+
+### createMathDelimiter {#createMathDelimiter}
+
+| Name | Description |
+| --- | --- |
 | createMathDelimiter ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
@@ -315,13 +258,32 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathSubscriptElement](../mathsubscriptelement)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply delimiter |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply delimiter |
+
+ **Result:**
+[MathDelimiter](../mathdelimiter)
+
+
+---
+
+
+### createMathDelimiter {#createMathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| createMathDelimiter ([MathDelimiter](../mathdelimiter)) | Create a math delimiter by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathDelimiter](../mathdelimiter) | math element to apply delimiter |
 
  **Result:**
 [MathDelimiter](../mathdelimiter)
@@ -353,13 +315,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathNaryOperator](../mathnaryoperator)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathFunction](../mathfunction)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | math element to apply delimiter |
+| element | [MathFunction](../mathfunction) | math element to apply delimiter |
 
  **Result:**
 [MathDelimiter](../mathdelimiter)
@@ -372,13 +334,51 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathDelimiter](../mathdelimiter)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathSubscriptElement](../mathsubscriptelement)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter](../mathdelimiter) | math element to apply delimiter |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply delimiter |
+
+ **Result:**
+[MathDelimiter](../mathdelimiter)
+
+
+---
+
+
+### createMathDelimiter {#createMathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| createMathDelimiter ([MathematicalText](../mathematicaltext)) | Create a math delimiter by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../mathematicaltext) | math element to apply delimiter |
+
+ **Result:**
+[MathDelimiter](../mathdelimiter)
+
+
+---
+
+
+### createMathDelimiter {#createMathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| createMathDelimiter ([MathBox](../mathbox)) | Create a math delimiter by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | math element to apply delimiter |
 
  **Result:**
 [MathDelimiter](../mathdelimiter)

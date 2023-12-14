@@ -63,7 +63,7 @@ String
 | getBasePlaceholder () | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 
  **Result:**
-[Connector](../connector), [ZoomFrame](../zoomframe), [Shape](../shape), [OleObjectFrame](../oleobjectframe), [Table](../table), [PictureFrame](../pictureframe), [AutoShape](../autoshape), [VideoFrame](../videoframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [GraphicalObject](../graphicalobject), [GroupShape](../groupshape), [GeometryShape](../geometryshape), [SummaryZoomSection](../summaryzoomsection), [SummaryZoomFrame](../summaryzoomframe), [LegacyDiagram](../legacydiagram), [Chart](../chart), [SmartArtShape](../smartartshape), [Ink](../ink), [SmartArt](../smartart), [ZoomObject](../zoomobject)
+[Shape](../shape), [ZoomFrame](../zoomframe), [SmartArtShape](../smartartshape), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [VideoFrame](../videoframe), [Chart](../chart), [PictureFrame](../pictureframe), [SmartArt](../smartart), [AutoShape](../autoshape), [Ink](../ink), [SummaryZoomSection](../summaryzoomsection), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [Table](../table), [Connector](../connector), [SectionZoomFrame](../sectionzoomframe)
 
 
 ---
@@ -323,7 +323,7 @@ float
 | getShapeLock () | Returns shape's locks. Read-only IBaseShapeLock. |
 
  **Result:**
-[ConnectorLock](../connectorlock), [GraphicalObjectLock](../graphicalobjectlock), [PictureFrameLock](../pictureframelock), [GroupShapeLock](../groupshapelock), [BaseShapeLock](../baseshapelock), [AutoShapeLock](../autoshapelock)
+[AutoShapeLock](../autoshapelock), [PictureFrameLock](../pictureframelock), [BaseShapeLock](../baseshapelock), [GroupShapeLock](../groupshapelock), [GraphicalObjectLock](../graphicalobjectlock), [ConnectorLock](../connectorlock)
 
 
 ---
@@ -336,7 +336,7 @@ float
 | getSlide () | Returns the parent slide of a shape. Read-only IBaseSlide. |
 
  **Result:**
-[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide)
+[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide)
 
 
 ---
@@ -454,6 +454,19 @@ int
 ---
 
 
+### isDecorative {#isDecorative}
+
+| Name | Description |
+| --- | --- |
+| isDecorative () | Gets or sets 'Mark as decorative' option Reed/write boolean. |
+
+ **Result:**
+boolean
+
+
+---
+
+
 ### isGrouped {#isGrouped}
 
 | Name | Description |
@@ -515,6 +528,16 @@ boolean
 | Name | Description |
 | --- | --- |
 | setBlackWhiteMode (byte) | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
+
+
+---
+
+
+### setDecorative {#setDecorative}
+
+| Name | Description |
+| --- | --- |
+| setDecorative (boolean) | Gets or sets 'Mark as decorative' option Reed/write boolean. |
 
 
 ---
