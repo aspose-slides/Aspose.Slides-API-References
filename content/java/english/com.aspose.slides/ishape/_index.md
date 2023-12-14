@@ -51,6 +51,8 @@ Represents a shape on a slide.
 | [setAlternativeTextTitle(String value)](#setAlternativeTextTitle-java.lang.String-) | Returns or sets the title of alternative text associated with a shape. |
 | [getName()](#getName--) | Returns or sets the name of a shape. |
 | [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of a shape. |
+| [isDecorative()](#isDecorative--) | Gets or sets 'Mark as decorative' option Reed/write  boolean . |
+| [setDecorative(boolean value)](#setDecorative-boolean-) | Gets or sets 'Mark as decorative' option Reed/write  boolean . |
 | [getShapeLock()](#getShapeLock--) | Returns shape's locks. |
 | [getUniqueId()](#getUniqueId--) | Gets unique shape identifier in presentation scope. |
 | [getOfficeInteropShapeId()](#getOfficeInteropShapeId--) | Gets unique shape identifier in slide scope. |
@@ -585,6 +587,51 @@ Returns or sets the name of a shape. Read/write String.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### isDecorative() {#isDecorative--}
+```
+public abstract boolean isDecorative()
+```
+
+
+Gets or sets 'Mark as decorative' option Reed/write  boolean .
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("sample.pptx");
+>  try {
+>     pres.getSlides().get_Item(0).getShapes().get_Item(0).setDecorative(true);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setDecorative(boolean value) {#setDecorative-boolean-}
+```
+public abstract void setDecorative(boolean value)
+```
+
+
+Gets or sets 'Mark as decorative' option Reed/write  boolean .
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("sample.pptx");
+>  try {
+>     pres.getSlides().get_Item(0).getShapes().get_Item(0).setDecorative(true);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getShapeLock() {#getShapeLock--}
 ```

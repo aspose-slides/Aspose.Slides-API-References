@@ -31,6 +31,9 @@ Represents a HTML exporting options.
 | [getSvgResponsiveLayout()](#getSvgResponsiveLayout--) | True to exclude width and height attributes from SVG container - that will make layout responsive. |
 | [setSvgResponsiveLayout(boolean value)](#setSvgResponsiveLayout-boolean-) | True to exclude width and height attributes from SVG container - that will make layout responsive. |
 | [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
 ### getHtmlFormatter() {#getHtmlFormatter--}
 ```
 public abstract IHtmlFormatter getHtmlFormatter()
@@ -218,3 +221,72 @@ Provides options that control how notes and comments is placed in exported docum
 
 **Returns:**
 [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
+```
+public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
+```
+public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
+
+### getInkOptions() {#getInkOptions--}
+```
+public abstract IInkOptions getInkOptions()
+```
+
+
+Provides options that control the look of Ink objects in exported document. Read-only [IInkOptions](../../com.aspose.slides/iinkoptions)
+
+**Returns:**
+[IInkOptions](../../com.aspose.slides/iinkoptions)

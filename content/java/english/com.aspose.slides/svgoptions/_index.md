@@ -25,6 +25,7 @@ Represents an SVG options.
 
 | Method | Description |
 | --- | --- |
+| [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
 | [getUseFrameSize()](#getUseFrameSize--) | Determines whether the text frame will be included in a rendering area or not. |
 | [setUseFrameSize(boolean value)](#setUseFrameSize-boolean-) | Determines whether the text frame will be included in a rendering area or not. |
 | [getUseFrameRotation()](#getUseFrameRotation--) | Determines whether to perform the specified rotation of the shape when rendering or not. |
@@ -77,6 +78,16 @@ Initializes a new instance of the SVGOptions class specifying the link embedding
 
 Link embedding controller is a delegate object that is responsible for making decisions if resources (such as images) need to be embedded or referenced as external resources. |
 
+### getInkOptions() {#getInkOptions--}
+```
+public final IInkOptions getInkOptions()
+```
+
+
+Provides options that control the look of Ink objects in exported document. Read-only [IInkOptions](../../com.aspose.slides/iinkoptions)
+
+**Returns:**
+[IInkOptions](../../com.aspose.slides/iinkoptions)
 ### getUseFrameSize() {#getUseFrameSize--}
 ```
 public final boolean getUseFrameSize()

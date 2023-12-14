@@ -37,6 +37,7 @@ Represents a picture fill style.
 | [setStretchOffsetRight(float value)](#setStretchOffsetRight-float-) | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. |
 | [getStretchOffsetBottom()](#getStretchOffsetBottom--) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
 | [setStretchOffsetBottom(float value)](#setStretchOffsetBottom-float-) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
+| [deletePictureCroppedAreas()](#deletePictureCroppedAreas--) | Delete cropped areas of the fill Picture. |
 ### getDpi() {#getDpi--}
 ```
 public abstract int getDpi()
@@ -277,3 +278,32 @@ Returns or sets bottom edge of the fill rectangle that is defined by a percentag
 | --- | --- | --- |
 | value | float |  |
 
+### deletePictureCroppedAreas() {#deletePictureCroppedAreas--}
+```
+public abstract IPPImage deletePictureCroppedAreas()
+```
+
+
+Delete cropped areas of the fill Picture.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the PictureFrame
+>      IPictureFrame picFrame = (IPictureFrame)slide.getShapes().get_Item(0);
+>      // Deletes cropped areas of the PictureFrame image
+>      IPPImage croppedImage = picFrame.getPictureFormat().deletePictureCroppedAreas();
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[IPPImage](../../com.aspose.slides/ippimage) - Cropped image or origin image if cropping is not necessary.
+
+--------------------
+
+This method converts WMF/EMF metafiles to raster PNG image while cropping.
