@@ -15,6 +15,10 @@ Provides options that control how notes and comments is placed in exported docum
 virtual System::SharedPtr<INotesCommentsLayoutingOptions> Aspose::Slides::Export::IPdfOptions::get_NotesCommentsLayouting()=0
 ```
 
+
+Deprecated
+:   Use SlidesLayoutOptions property instead. The property will be removed after release of version 24.3.
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

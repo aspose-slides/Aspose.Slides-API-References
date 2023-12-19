@@ -3,7 +3,7 @@ title: ISwfOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in SWF format.
 type: docs
-weight: 430
+weight: 482
 url: /aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions class

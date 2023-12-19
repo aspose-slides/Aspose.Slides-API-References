@@ -3,7 +3,7 @@ title: IHtml5Options
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a HTML5 exporting options.
 type: docs
-weight: 157
+weight: 170
 url: /aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options class

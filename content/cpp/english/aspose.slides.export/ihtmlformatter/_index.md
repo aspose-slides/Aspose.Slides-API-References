@@ -3,7 +3,7 @@ title: IHtmlFormatter
 second_title: Aspose.Slides for C++ API Reference
 description: Represents HTML file template.
 type: docs
-weight: 170
+weight: 183
 url: /aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter class

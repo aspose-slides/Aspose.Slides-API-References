@@ -3,7 +3,7 @@ title: IEmbeddedWoffFontsHtmlController
 second_title: Aspose.Slides for C++ API Reference
 description: Embedded woff fonts html controller.
 type: docs
-weight: 131
+weight: 144
 url: /aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController class

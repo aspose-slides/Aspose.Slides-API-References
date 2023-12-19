@@ -3,7 +3,7 @@ title: get_Default()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns default settings. Read-only SVGOptions.
 type: docs
-weight: 326
+weight: 339
 url: /aspose.slides.export/svgoptions/get_default/
 ---
 ## SVGOptions::get_Default() method

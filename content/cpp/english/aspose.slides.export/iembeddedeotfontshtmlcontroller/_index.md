@@ -3,7 +3,7 @@ title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Slides for C++ API Reference
 description: Embedded Eot fonts HTML controller.
 type: docs
-weight: 118
+weight: 131
 url: /aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController class

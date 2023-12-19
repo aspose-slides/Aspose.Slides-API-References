@@ -18,6 +18,7 @@ url: /aspose.slides.export/
 | [EmbeddedWoffFontsHtmlController](./embeddedwofffontshtmlcontroller/) | The formatting controller class to use for fonts embedding in WOFF format |
 | [FrameTickEventArgs](./frametickeventargs/) | Represents arguments of the **PresentationPlayer::FrameTick** event. |
 | [GifOptions](./gifoptions/) | Represents GIF exporting options. |
+| [HandoutLayoutingOptions](./handoutlayoutingoptions/) | Represents the handout presentation layout mode for export. |
 | [Html5Options](./html5options/) | Represents a HTML5 exporting options. |
 | [HtmlFormatter](./htmlformatter/) | Represents HTML file template. |
 | [HtmlGenerator](./htmlgenerator/) | Html generator. |
@@ -30,7 +31,9 @@ url: /aspose.slides.export/
 | [IHtmlFormattingController](./ihtmlformattingcontroller/) | Controls a html file generation. |
 | [IHtmlGenerator](./ihtmlgenerator/) | Html generator. |
 | [IHtmlOptions](./ihtmloptions/) | Represents a HTML exporting options. |
+| [IInkOptions](./iinkoptions/) | Provides options that control the look of [Ink](../aspose.slides.ink/) objects in exported document. |
 | [ILinkEmbedController](./ilinkembedcontroller/) | Callback interface used to determine how object should be processed during saving. |
+| [InkOptions](./inkoptions/) | Provides options that control the look of [Ink](../aspose.slides.ink/) objects in exported document. |
 | [INotesCommentsLayoutingOptions](./inotescommentslayoutingoptions/) | Provides options that control the look of layouting of notes and comments in exported document. |
 | [IPdfOptions](./ipdfoptions/) | Provides options that control how a presentation is saved in Pdf format. |
 | [IPptOptions](./ipptoptions/) | Provides options that control how a presentation is saved in PPT format. |
@@ -41,6 +44,7 @@ url: /aspose.slides.export/
 | [ISaveOptions](./isaveoptions/) | Options that control how a presentation is saved. |
 | [ISaveOptionsFactory](./isaveoptionsfactory/) | Allows to create save options' instances |
 | [ISlideImageFormat](./islideimageformat/) | Determines format in which slide image will be saved for presentation to HTML export. |
+| [ISlidesLayoutOptions](./islideslayoutoptions/) | Represents the presentation layout mode for export. |
 | [ISVGOptions](./isvgoptions/) | Represents an SVG options. |
 | [ISvgShape](./isvgshape/) | Represents options for SVG shape. |
 | [ISvgShapeAndTextFormattingController](./isvgshapeandtextformattingcontroller/) | Controls SVG shape and text generation. |
@@ -86,6 +90,7 @@ url: /aspose.slides.export/
 | [CommentsPositions](./commentspositions/) | Represents the rule to render comments into exported document |
 | [Conformance](./conformance/) | Specifies the conformance class to which the PresentationML document conforms. |
 | [EmbedFontCharacters](./embedfontcharacters/) | Represents the rule to use for adding new embedding font into [IPresentation](../aspose.slides/ipresentation/) |
+| [HandoutType](./handouttype/) | Specifies how many slides and in what sequence will be placed on the page. |
 | [ImagePixelFormat](./imagepixelformat/) | Specifies the pixel format for the generated images. |
 | [LinkEmbedDecision](./linkembeddecision/) | Determines how object will be processed during saving. |
 | [Flavor](./flavor/) | All markdown specifications used in program. |

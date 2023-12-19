@@ -3,7 +3,7 @@ title: set_UseFrameSize()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the text frame will be included in a rendering area or not. Write bool. Default value is false.
 type: docs
-weight: 14
+weight: 27
 url: /aspose.slides.export/svgoptions/set_useframesize/
 ---
 ## SVGOptions::set_UseFrameSize(bool) method

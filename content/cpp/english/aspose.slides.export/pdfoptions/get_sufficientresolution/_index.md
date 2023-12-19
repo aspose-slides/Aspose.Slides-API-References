@@ -3,7 +3,7 @@ title: get_SufficientResolution()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a value determining resolution of images inside PDF document.
 type: docs
-weight: 300
+weight: 339
 url: /aspose.slides.export/pdfoptions/get_sufficientresolution/
 ---
 ## PdfOptions::get_SufficientResolution() method

@@ -3,7 +3,7 @@ title: get_Presentation()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the parent presentation of a slide. Read-only IPresentation.
 type: docs
-weight: 573
+weight: 599
 url: /aspose.slides/shape/get_presentation/
 ---
 ## Shape::get_Presentation() method

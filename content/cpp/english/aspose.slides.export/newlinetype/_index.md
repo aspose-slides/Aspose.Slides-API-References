@@ -3,7 +3,7 @@ title: NewLineType
 second_title: Aspose.Slides for C++ API Reference
 description: Type of new line that will be used in generated document.
 type: docs
-weight: 898
+weight: 963
 url: /aspose.slides.export/newlinetype/
 ---
 ## NewLineType enum
@@ -19,8 +19,8 @@ enum class NewLineType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Windows | 0 | DOS & Windows OS new line - \r |
-| Unix | 1 | Unix & Mac OS X new line - |
+| Windows | 0 | DOS & Windows OS new line - \r\n |
+| Unix | 1 | Unix & Mac OS X new line - \n |
 | Mac | 2 | Mac (OS 9) new line - \r |
 
 ## Remarks

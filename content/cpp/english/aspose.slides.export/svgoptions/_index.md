@@ -3,7 +3,7 @@ title: SVGOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an SVG options.
 type: docs
-weight: 664
+weight: 716
 url: /aspose.slides.export/svgoptions/
 ---
 ## SVGOptions class
@@ -33,6 +33,7 @@ class SVGOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [get_DisableGradientSplit](./get_disablegradientsplit/)() override | Disables splitting FromCornerX and FromCenter gradients. Read **bool**. |
 | **bool** [get_DisableLineEndCropping](./get_disablelineendcropping/)() override | SVG 1.1 lacks ability to define insets for markers. [Aspose.Slides](../../aspose.slides/) SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read **bool**. |
 | [SvgExternalFontsHandling](../svgexternalfontshandling/) [get_ExternalFontsHandling](./get_externalfontshandling/)() override | Determines a way of handling externally loaded fonts. Read [SvgExternalFontsHandling](../svgexternalfontshandling/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() override | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | **int32_t** [get_JpegQuality](./get_jpegquality/)() override | Determines JPEG encoding quality. Read **int32_t**. |
 | **int32_t** [get_MetafileRasterizationDpi](./get_metafilerasterizationdpi/)() override | Returns the lower resolution limit for metafile rasterization. Read **int32_t**. |
 | [Aspose::Slides::Export::PicturesCompression](../picturescompression/) [get_PicturesCompression](./get_picturescompression/)() override | Represents the pictures compression level |

@@ -48,6 +48,7 @@ class HttpClientHandler : public System::Net::Http::HttpMessageHandler
 | void [set_CookieContainer](./set_cookiecontainer/)([System::SharedPtr](../../system/sharedptr/)\<[System::Net::CookieContainer](../../system.net/cookiecontainer/)\>) | Sets the cookie container that is used to store server cookies. |
 | void [set_Credentials](./set_credentials/)([System::SharedPtr](../../system/sharedptr/)\<[ICredentials](../../system.net/icredentials/)\>) | Sets the authentication information. |
 | void [set_Proxy](./set_proxy/)([System::SharedPtr](../../system/sharedptr/)\<[IWebProxy](../../system.net/iwebproxy/)\>) | Sets the proxy information. |
+| void [set_Timeout](./set_timeout/)(**int32_t**) | Gets an amount of time in milliseconds after which the request will be timed out. |
 | void [set_UseCookies](./set_usecookies/)(**bool**) | Sets the value that indicates if the current instance uses the cookie container to store server cookies and if the instance uses server cookies when sending requests. |
 | void [set_UseProxy](./set_useproxy/)(**bool**) | Sets the value that indicates if the current instance uses the proxy for sending requests. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |

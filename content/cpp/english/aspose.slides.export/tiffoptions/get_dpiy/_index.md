@@ -3,7 +3,7 @@ title: get_DpiY()
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the vertical resolution in dots per inch. Read uint32_t.
 type: docs
-weight: 92
+weight: 105
 url: /aspose.slides.export/tiffoptions/get_dpiy/
 ---
 ## TiffOptions::get_DpiY() method

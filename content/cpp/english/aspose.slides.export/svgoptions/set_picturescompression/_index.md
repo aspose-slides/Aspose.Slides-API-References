@@ -3,7 +3,7 @@ title: set_PicturesCompression()
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the pictures compression level
 type: docs
-weight: 248
+weight: 261
 url: /aspose.slides.export/svgoptions/set_picturescompression/
 ---
 ## SVGOptions::set_PicturesCompression(Aspose::Slides::Export::PicturesCompression) method

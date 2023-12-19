@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Options that control how a presentation is saved.
 type: docs
-weight: 326
+weight: 365
 url: /aspose.slides.export/isaveoptions/
 ---
 ## ISaveOptions class

@@ -42,6 +42,7 @@ class IZoomObject : public virtual Aspose::Slides::IGraphicalObject
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\> [get_HyperlinkMouseOver](../ihyperlinkcontainer/get_hyperlinkmouseover/)() | Returns the hyperlink defined for mouse over. Read [IHyperlink](../ihyperlink/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [get_Image](./get_image/)() | Gets image for zoom object. Read [IPPImage](../ippimage/). |
 | virtual [ZoomImageType](../zoomimagetype/) [get_ImageType](./get_imagetype/)() | Gets the image type of a zoom object. Read [ZoomImageType](../zoomimagetype/). Default value: Preview |
+| virtual **bool** [get_IsDecorative](../ishape/get_isdecorative/)() | Gets 'Mark as decorative' option Reed/write **bool**. |
 | virtual **bool** [get_IsGrouped](../ishape/get_isgrouped/)() | Determines whether the shape is grouped. Read-only **bool**. |
 | virtual **bool** [get_IsTextHolder](../ishape/get_istextholder/)() | Determines whether the shape is TextHolder. Read-only **bool**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../ilineformat/)\> [get_LineFormat](../ishape/get_lineformat/)() | Returns the [LineFormat](../lineformat/) object that contains line formatting properties for a shape. Read-only [ILineFormat](../ilineformat/). |
@@ -92,6 +93,7 @@ class IZoomObject : public virtual Aspose::Slides::IGraphicalObject
 | virtual void [set_HyperlinkMouseOver](../ihyperlinkcontainer/set_hyperlinkmouseover/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) | Sets the hyperlink defined for mouse over. Write [IHyperlink](../ihyperlink/). |
 | virtual void [set_Image](./set_image/)([System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\>) | Sets image for zoom object. Write [IPPImage](../ippimage/). |
 | virtual void [set_ImageType](./set_imagetype/)([ZoomImageType](../zoomimagetype/)) | Sets the image type of a zoom object. Write [ZoomImageType](../zoomimagetype/). Default value: Preview |
+| virtual void [set_IsDecorative](../ishape/set_isdecorative/)(**bool**) | Sets 'Mark as decorative' option Reed/write **bool**. |
 | virtual void [set_Name](../ishape/set_name/)([System::String](../../system/string/)) | Sets the name of a shape. Write [System::String](../../system/string/). |
 | virtual void [set_RawFrame](../ishape/set_rawframe/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\>) | Sets the raw shape frame's properties. Write [IShapeFrame](../ishapeframe/). |
 | virtual void [set_ReturnToParent](./set_returntoparent/)(**bool**) | Sets the navigation behavior in slideshow. Write **bool**. Default value: false |
