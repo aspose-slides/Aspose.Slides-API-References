@@ -22,6 +22,8 @@ The HtmlOptions type exposes the following members:
 |warning_callback|Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
 |progress_callback|Represents a callback object for saving progress updates in percentage.<br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|
 |default_regular_font|Returns or sets font used in case source font is not found.<br/>            Read-write string.|
+|slides_layout_options|Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](/slides/python-net/aspose.slides.export/islideslayoutoptions/).|
+|ink_options|Provides options that control the look of Ink objects in exported document.<br/>            Read-only [IInkOptions](/slides/python-net/aspose.slides.export/iinkoptions/)|
 |notes_comments_layouting|Provides options that control how notes and comments is placed in exported document.|
 |show_hidden_slides|Specifies whether the generated document should include hidden slides or not.<br/>            Default is|
 |html_formatter|Returns or sets HTML template.<br/>            Read/write [IHtmlFormatter](/slides/python-net/aspose.slides.export/ihtmlformatter/).|

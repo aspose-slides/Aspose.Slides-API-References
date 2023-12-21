@@ -29,6 +29,10 @@ The PictureFillFormat type exposes the following members:
 |slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
 |presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
 |as_i_fill_param_source|Allows to get base IFillParamSource interface.<br/>            Read-only [IFillParamSource](/slides/python-net/aspose.slides/ifillparamsource/).|
+## Methods
+| Name | Description |
+| :- | :- |
+|delete_picture_cropped_areas()|Delete cropped areas of the fill Picture.|
 
 ### See Also
 

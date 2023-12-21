@@ -26,6 +26,7 @@ The ISVGOptions type exposes the following members:
 |use_frame_size|Determines whether the text frame will be included in a rendering area or not.<br/>            Read/write bool.<br/>            Default value is false.|
 |use_frame_rotation|Determines whether to perform the specified rotation of the shape when rendering or not.<br/>            Read/write bool.<br/>            Default value is true.|
 |external_fonts_handling|Determines a way of handling externally loaded fonts.<br/>            Read/write [SvgExternalFontsHandling](/slides/python-net/aspose.slides.export/svgexternalfontshandling/).|
+|ink_options|Provides options that control the look of Ink objects in exported document.<br/>            Read-only [IInkOptions](/slides/python-net/aspose.slides.export/iinkoptions/)|
 |as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
 |warning_callback|Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
 |progress_callback|Represents a callback object for saving progress updates in percentage. <br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|

@@ -15,6 +15,8 @@ The IRenderingOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |notes_comments_layouting|Provides options that control how notes and comments is placed in exported document.|
+|slides_layout_options|Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](/slides/python-net/aspose.slides.export/islideslayoutoptions/).|
+|ink_options|Provides options that control the look of Ink objects in exported document.<br/>            Read-only [IInkOptions](/slides/python-net/aspose.slides.export/iinkoptions/)|
 |as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
 |warning_callback|Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
 |progress_callback|Represents a callback object for saving progress updates in percentage. <br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|

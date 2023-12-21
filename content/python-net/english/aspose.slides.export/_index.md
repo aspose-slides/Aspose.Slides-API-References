@@ -17,6 +17,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[EmbeddedWoffFontsHtmlController](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/)|The formatting controller class to use for fonts embedding in WOFF format|
 |[FrameTickEventArgs](/slides/python-net/aspose.slides.export/frametickeventargs/)|Represents arguments of the|
 |[GifOptions](/slides/python-net/aspose.slides.export/gifoptions/)|Represents GIF exporting options.|
+|[HandoutLayoutingOptions](/slides/python-net/aspose.slides.export/handoutlayoutingoptions/)|Represents the handout presentation layout mode for export.|
 |[Html5Options](/slides/python-net/aspose.slides.export/html5options/)|Represents a HTML5 exporting options.|
 |[HtmlFormatter](/slides/python-net/aspose.slides.export/htmlformatter/)|Represents HTML file template.|
 |[HtmlGenerator](/slides/python-net/aspose.slides.export/htmlgenerator/)|Html generator.|
@@ -29,6 +30,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[IHtmlFormattingController](/slides/python-net/aspose.slides.export/ihtmlformattingcontroller/)|Controls a html file generation.|
 |[IHtmlGenerator](/slides/python-net/aspose.slides.export/ihtmlgenerator/)|Html generator.|
 |[IHtmlOptions](/slides/python-net/aspose.slides.export/ihtmloptions/)|Represents a HTML exporting options.|
+|[IInkOptions](/slides/python-net/aspose.slides.export/iinkoptions/)|Provides options that control the look of Ink objects in exported document.|
 |[ILinkEmbedController](/slides/python-net/aspose.slides.export/ilinkembedcontroller/)|Callback interface used to determine how object should be processed during saving.|
 |[INotesCommentsLayoutingOptions](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions/)|Provides options that control the look of layouting of notes and comments in exported document.|
 |[IPdfOptions](/slides/python-net/aspose.slides.export/ipdfoptions/)|Provides options that control how a presentation is saved in Pdf format.|
@@ -41,6 +43,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/)|Options that control how a presentation is saved.|
 |[ISaveOptionsFactory](/slides/python-net/aspose.slides.export/isaveoptionsfactory/)|Allows to create save options' instances|
 |[ISlideImageFormat](/slides/python-net/aspose.slides.export/islideimageformat/)|Determines format in which slide image will be saved for presentation to HTML export.|
+|[ISlidesLayoutOptions](/slides/python-net/aspose.slides.export/islideslayoutoptions/)|Represents the presentation layout mode for export.|
 |[ISvgShape](/slides/python-net/aspose.slides.export/isvgshape/)|Represents options for SVG shape.|
 |[ISvgShapeAndTextFormattingController](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/)|Controls SVG shape and text generation.|
 |[ISvgShapeFormattingController](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller/)|Controls SVG shape generation.|
@@ -51,6 +54,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[IVideoPlayerHtmlController](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller/)|This class allows export of video and audio files into a HTML|
 |[IVideoPlayerHtmlControllerFactory](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/)|Allows to create VideoPlayerHtmlController.|
 |[IXpsOptions](/slides/python-net/aspose.slides.export/ixpsoptions/)|Provides options that control how a presentation is saved in XPS format.|
+|[InkOptions](/slides/python-net/aspose.slides.export/inkoptions/)|Provides options that control the look of Ink objects in exported document.|
 |[MarkdownSaveOptions](/slides/python-net/aspose.slides.export/markdownsaveoptions/)|Represents options that control how presentation should be saved to markdown.|
 |[NotesCommentsLayoutingOptions](/slides/python-net/aspose.slides.export/notescommentslayoutingoptions/)|Provides options that control the look of layouting of notes and comments in exported document.|
 |[PdfOptions](/slides/python-net/aspose.slides.export/pdfoptions/)|Provides options that control how a presentation is saved in Pdf format.|
@@ -80,6 +84,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[Conformance](/slides/python-net/aspose.slides.export/conformance/)|Specifies the conformance class to which the PresentationML document conforms.|
 |[EmbedFontCharacters](/slides/python-net/aspose.slides.export/embedfontcharacters/)|Represents the rule to use for adding new embedding font into [IPresentation](/slides/python-net/aspose.slides/ipresentation/)|
 |[Flavor](/slides/python-net/aspose.slides.export/flavor/)|All markdown specifications used in program.|
+|[HandoutType](/slides/python-net/aspose.slides.export/handouttype/)|Specifies how many slides and in what sequence will be placed on the page.|
 |[ImagePixelFormat](/slides/python-net/aspose.slides.export/imagepixelformat/)|Specifies the pixel format for the generated images.|
 |[LinkEmbedDecision](/slides/python-net/aspose.slides.export/linkembeddecision/)|Determines how object will be processed during saving.|
 |[MarkdownExportType](/slides/python-net/aspose.slides.export/markdownexporttype/)|Type of rendering document.|
