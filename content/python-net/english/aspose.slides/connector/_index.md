@@ -40,6 +40,7 @@ The Connector type exposes the following members:
 |alternative_text|Returns or sets the alternative text associated with a shape.<br/>            Read/write string.|
 |alternative_text_title|Returns or sets the title of alternative text associated with a shape.<br/>            Read/write string.|
 |name|Returns or sets the name of a shape.<br/>            Read/write string.|
+|is_decorative|Gets or sets 'Mark as decorative' option<br/>            Reed/write bool.|
 |shape_lock|Returns shape's locks.<br/>            Read-only [IConnectorLock](/slides/python-net/aspose.slides/iconnectorlock/).|
 |is_grouped|Determines whether the shape is grouped.<br/>            Read-only bool.|
 |parent_group|Returns parent GroupShape object if shape is grouped. Otherwise returns null.<br/>            Read-only [IGroupShape](/slides/python-net/aspose.slides/igroupshape/).|

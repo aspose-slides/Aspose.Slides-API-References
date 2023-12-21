@@ -28,8 +28,10 @@ The IPdfOptions type exposes the following members:
 |sufficient_resolution|Returns or sets a value determining resolution of images inside PDF document.|
 |draw_slides_frame|True to draw black frame around each slide.<br/>             Read/write bool.|
 |notes_comments_layouting|Provides options that control how notes and comments is placed in exported document.|
+|slides_layout_options|Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](/slides/python-net/aspose.slides.export/islideslayoutoptions/).|
 |image_transparent_color|Gets or sets the image transparent color.|
 |apply_image_transparent|Applies the specified transparent color to an image if|
+|ink_options|Provides options that control the look of Ink objects in exported document.<br/>            Read-only [IInkOptions](/slides/python-net/aspose.slides.export/iinkoptions/)|
 |as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
 |warning_callback|Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
 |progress_callback|Represents a callback object for saving progress updates in percentage. <br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|

@@ -34,6 +34,7 @@ The IShape type exposes the following members:
 |alternative_text|Returns or sets the alternative text associated with a shape.<br/>            Read/write string.|
 |alternative_text_title|Returns or sets the title of alternative text associated with a shape.<br/>            Read/write string.|
 |name|Returns or sets the name of a shape.<br/>            Read/write string.|
+|is_decorative|Gets or sets 'Mark as decorative' option<br/>            Reed/write bool.|
 |shape_lock|Returns shape's locks.<br/>            Read-only [IBaseShapeLock](/slides/python-net/aspose.slides/ibaseshapelock/).|
 |unique_id|Gets unique shape identifier in presentation scope.<br/>            Read-only int.<br/>            See also [office_interop_shape_id](/slides/python-net/aspose.slides/ishape/) for getting unique shape identifier in slide scope.|
 |office_interop_shape_id|Gets unique shape identifier in slide scope.<br/>            Read-only int.<br/>            See also [unique_id](/slides/python-net/aspose.slides/ishape/) for getting unique shape identifier in presentation scope.|
