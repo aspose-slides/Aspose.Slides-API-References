@@ -206,12 +206,12 @@ LinkAllFontsHtmlController::LinkAllFontsHtmlController(System::ArrayPtr<System::
     : EmbedAllFontsHtmlController(fontNameExcludeList), m_basePath(basePath)
 {}
 
-void RegressionTests_v14_1::LinkAllFontsHtmlController::WriteFont(System::SharedPtr<IHtmlGenerator> generator,
-                                                                  System::SharedPtr<IFontData> originalFont,
-                                                                  System::SharedPtr<IFontData> substitutedFont,
-                                                                  System::String fontStyle,
-                                                                  System::String fontWeight,
-                                                                  System::ArrayPtr<uint8_t> fontData)
+void LinkAllFontsHtmlController::WriteFont(System::SharedPtr<IHtmlGenerator> generator,
+                                           System::SharedPtr<IFontData> originalFont,
+                                           System::SharedPtr<IFontData> substitutedFont,
+                                           System::String fontStyle,
+                                           System::String fontWeight,
+                                           System::ArrayPtr<uint8_t> fontData)
 {
     try
     {

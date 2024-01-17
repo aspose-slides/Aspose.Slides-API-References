@@ -20,8 +20,8 @@ void Aspose::Slides::Shape::set_IsDecorative(bool value) override
 
 
 ```cpp
-Presentation pres = new Presentation("sample.pptx");
-pres.Slides[0].Shapes[0].IsDecorative = true;
+auto pres = System::MakeObject<Presentation>(u"sample.pptx")
+pres->get_Slide(0)->get_Shape(0)->set_IsDecorative(true);
 ```
 
 ## See Also

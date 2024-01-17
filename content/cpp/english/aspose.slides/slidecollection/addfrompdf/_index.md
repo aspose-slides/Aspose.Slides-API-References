@@ -36,6 +36,41 @@ pres->get_Slides()->AddFromPdf(u"document.pdf");
 pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
 ```
 
+## SlideCollection::AddFromPdf(System::String, System::SharedPtr\<Import::PdfImportOptions\>) method
+
+
+Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options.
+
+```cpp
+System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::AddFromPdf(System::String path, System::SharedPtr<Import::PdfImportOptions> pdfImportOptions) override
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | [System::String](../../../system/string/) | A path to the PDF document |
+| pdfImportOptions | [System::SharedPtr](../../../system/sharedptr/)\<[Import::PdfImportOptions](../../../aspose.slides.import/pdfimportoptions/)\> | Options for pdf import |
+
+### Return Value
+
+Added slides
+## Remarks
+
+
+
+Example: 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>();
+
+System::SharedPtr<PdfImportOptions> options = System::MakeObject<PdfImportOptions>();
+options->set_DetectTables(true);
+
+pres->get_Slides()->AddFromPdf(u"document.pdf", options);
+pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
+```
+
 ## SlideCollection::AddFromPdf(System::SharedPtr\<System::IO::Stream\>) method
 
 
@@ -70,6 +105,48 @@ pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
 
 
 
+## SlideCollection::AddFromPdf(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Import::PdfImportOptions\>) method
+
+
+Creates slides from the PDF document and adds them to the end of the collection.
+
+```cpp
+System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::AddFromPdf(System::SharedPtr<System::IO::Stream> pdfStream, System::SharedPtr<Import::PdfImportOptions> pdfImportOptions) override
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pdfStream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | A stream which will be used as a source of the PDF document |
+| pdfImportOptions | [System::SharedPtr](../../../system/sharedptr/)\<[Import::PdfImportOptions](../../../aspose.slides.import/pdfimportoptions/)\> | Options for pdf import |
+
+### Return Value
+
+Added slides
+## Remarks
+
+
+
+Example: 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>();
+
+System::SharedPtr<Stream> stream = System::MakeObject<FileStream>(u"document.pdf", System::IO::FileMode::Open, System::IO::FileAccess::Read, System::IO::FileShare::Read);
+
+System::SharedPtr<PdfImportOptions> options = System::MakeObject<PdfImportOptions>();
+options->set_DetectTables(true);
+
+// set detecting tables
+pres->get_Slides()->AddFromPdf(stream, options);
+
+pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
+```
+
+
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
@@ -77,6 +154,7 @@ pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
 * Class [ISlide](../../islide/)
 * Class [String](../../../system/string/)
 * Class [SlideCollection](../)
+* Class [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions/)
 * Class [Stream](../../../system.io/stream/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)
