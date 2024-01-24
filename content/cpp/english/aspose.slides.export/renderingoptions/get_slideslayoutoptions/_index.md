@@ -22,14 +22,19 @@ Example:
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
 
-System::SharedPtr<HandoutLayoutingOptions> handoutLayoutingOptions = System::MakeObject<HandoutLayoutingOptions>();
-handoutLayoutingOptions->set_Handout(HandoutType::Handouts4Horizontal);
+System::SharedPtr<HandoutLayoutingOptions> slidesLayoutOptions = System::MakeObject<HandoutLayoutingOptions>();
+slidesLayoutOptions->set_Handout(HandoutType::Handouts4Horizontal);
+slidesLayoutOptions->set_PrintSlideNumbers(false);
 
 System::SharedPtr<RenderingOptions> options = System::MakeObject<RenderingOptions>();
-options->set_SlidesLayoutOptions(handoutLayoutingOptions);
+options->set_SlidesLayoutOptions(slidesLayoutOptions);
 
-System::Drawing::Size size(1920, 1080);
-pres->get_Slide(0)->GetThumbnail(options, size)->Save(u"pres-handout.png");
+System::ArrayPtr<System::SharedPtr<System::Drawing::Bitmap>> handoutSlides = pres->GetThumbnails(options);
+for (int32_t index = 0; index < handoutSlides->get_Length(); index++)
+{
+    auto handoutSlide = handoutSlides[index];
+    handoutSlide->Save(System::String::Format(u"handout-{0}.png", index));
+}
 ```
 
 ## See Also
