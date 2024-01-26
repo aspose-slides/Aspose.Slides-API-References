@@ -163,13 +163,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathNaryOperator](../mathnaryoperator)) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathAccent](../mathaccent)) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | math element to apply border box |
+| element | [MathAccent](../mathaccent) | math element to apply border box |
 
  **Returns:**
 [MathBorderBox](../mathborderbox)
@@ -182,13 +182,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathAccent](../mathaccent)) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathNaryOperator](../mathnaryoperator)) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../mathaccent) | math element to apply border box |
+| element | [MathNaryOperator](../mathnaryoperator) | math element to apply border box |
 
  **Returns:**
 [MathBorderBox](../mathborderbox)
@@ -258,13 +258,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathFunction](../mathfunction)) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | math element to apply border box |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply border box |
 
  **Returns:**
 [MathBorderBox](../mathborderbox)
@@ -277,13 +277,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathFunction](../mathfunction)) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply border box |
+| element | [MathFunction](../mathfunction) | math element to apply border box |
 
  **Returns:**
 [MathBorderBox](../mathborderbox)
@@ -315,13 +315,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathFraction](../mathfraction)) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathematicalText](../mathematicaltext)) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply border box |
+| element | [MathematicalText](../mathematicaltext) | math element to apply border box |
 
  **Returns:**
 [MathBorderBox](../mathborderbox)
@@ -334,13 +334,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathematicalText](../mathematicaltext)) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathFraction](../mathfraction)) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply border box |
+| element | [MathFraction](../mathfraction) | math element to apply border box |
 
  **Returns:**
 [MathBorderBox](../mathborderbox)
@@ -580,13 +580,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathNaryOperator](../mathnaryoperator), boolean, boolean, boolean, boolean,  boolean, boolean, boolean, boolean) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathAccent](../mathaccent), boolean, boolean, boolean, boolean, boolean,  boolean, boolean, boolean) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | math element to apply border box |
+| element | [MathAccent](../mathaccent) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -607,13 +607,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathAccent](../mathaccent), boolean, boolean, boolean, boolean, boolean,  boolean, boolean, boolean) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathNaryOperator](../mathnaryoperator), boolean, boolean, boolean, boolean,  boolean, boolean, boolean, boolean) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../mathaccent) | math element to apply border box |
+| element | [MathNaryOperator](../mathnaryoperator) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -715,13 +715,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathFunction](../mathfunction), boolean, boolean, boolean, boolean, boolean,  boolean, boolean, boolean) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathSuperscriptElement](../mathsuperscriptelement), boolean, boolean, boolean, boolean,  boolean, boolean, boolean, boolean) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | math element to apply border box |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -742,13 +742,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathSuperscriptElement](../mathsuperscriptelement), boolean, boolean, boolean, boolean,  boolean, boolean, boolean, boolean) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathFunction](../mathfunction), boolean, boolean, boolean, boolean, boolean,  boolean, boolean, boolean) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply border box |
+| element | [MathFunction](../mathfunction) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -796,13 +796,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathFraction](../mathfraction), boolean, boolean, boolean, boolean, boolean,  boolean, boolean, boolean) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathematicalText](../mathematicaltext), boolean, boolean, boolean, boolean,  boolean, boolean, boolean, boolean) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply border box |
+| element | [MathematicalText](../mathematicaltext) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -823,13 +823,13 @@ MathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBorderBox ([MathematicalText](../mathematicaltext), boolean, boolean, boolean, boolean,  boolean, boolean, boolean, boolean) | Create a math border box by applying to the element |
+| createMathBorderBox ([MathFraction](../mathfraction), boolean, boolean, boolean, boolean, boolean,  boolean, boolean, boolean) | Create a math border box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply border box |
+| element | [MathFraction](../mathfraction) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |

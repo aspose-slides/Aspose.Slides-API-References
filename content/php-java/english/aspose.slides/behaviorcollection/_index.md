@@ -380,7 +380,7 @@ int
 | index | int | Index of a behavior to return. |
 
  **Returns:**
-[ScaleEffect](../scaleeffect), [ColorEffect](../coloreffect), [PropertyEffect](../propertyeffect), [SetEffect](../seteffect), [RotationEffect](../rotationeffect), [MotionEffect](../motioneffect), [Behavior](../behavior), [CommandEffect](../commandeffect), [FilterEffect](../filtereffect)
+[ScaleEffect](../scaleeffect), [ColorEffect](../coloreffect), [PropertyEffect](../propertyeffect), [SetEffect](../seteffect), [RotationEffect](../rotationeffect), [Behavior](../behavior), [MotionEffect](../motioneffect), [CommandEffect](../commandeffect), [FilterEffect](../filtereffect)
 
 
 ---
