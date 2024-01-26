@@ -54,8 +54,8 @@ Represents options that control how presentation should be saved to markdown.
 | [setBasePath(String value)](#setBasePath-java.lang.String-) | Specifies the base path where document with resources will be saved. |
 | [getImagesSaveFolderName()](#getImagesSaveFolderName--) | Specifies folder name to save images. |
 | [setImagesSaveFolderName(String value)](#setImagesSaveFolderName-java.lang.String-) | Specifies folder name to save images. |
-| [getNewLineType()](#getNewLineType--) | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). |
-| [setNewLineType(int value)](#setNewLineType-int-) | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). |
+| [getNewLineType()](#getNewLineType--) | Specifies whether the generated document should have new lines \\\\r(Macintosh) of \\\\n(Unix) or \\\\r\\\\n(Windows). |
+| [setNewLineType(int value)](#setNewLineType-int-) | Specifies whether the generated document should have new lines \\\\r(Macintosh) of \\\\n(Unix) or \\\\r\\\\n(Windows). |
 | [getShowComments()](#getShowComments--) | Specifies whether the generated document should show comments or not. |
 | [setShowComments(boolean value)](#setShowComments-boolean-) | Specifies whether the generated document should show comments or not. |
 | [getShowHiddenSlides()](#getShowHiddenSlides--) | Specifies whether the generated document should include hidden slides or not. |
@@ -147,7 +147,7 @@ public final int getNewLineType()
 ```
 
 
-Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is  Unix .
+Specifies whether the generated document should have new lines \\\\r(Macintosh) of \\\\n(Unix) or \\\\r\\\\n(Windows). Default is  Unix .
 
 **Returns:**
 int
@@ -157,7 +157,7 @@ public final void setNewLineType(int value)
 ```
 
 
-Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is  Unix .
+Specifies whether the generated document should have new lines \\\\r(Macintosh) of \\\\n(Unix) or \\\\r\\\\n(Windows). Default is  Unix .
 
 **Parameters:**
 | Parameter | Type | Description |

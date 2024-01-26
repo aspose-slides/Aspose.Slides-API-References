@@ -71,17 +71,25 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      RenderingOptions options = new RenderingOptions();
+> 
 >      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
 >      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      slidesLayoutOptions.setPrintSlideNumbers(false);
 >      options.setSlidesLayoutOptions(slidesLayoutOptions);
->      FileOutputStream out = new FileOutputStream("pres-handout.png);
->      pres.getSlides().get_Item(0).getThumbnail(options, new com.aspose.slides.android.Size(1920, 1080)).compress(android.graphics.Bitmap.CompressFormat.PNG, 100, out);
->      out.flush();
->      out.close();
+> 
+>      android.graphics.Bitmap[] handoutSlides = pres.getThumbnails(options);
+>      for (int index = 0; index < handoutSlides.length; index++)
+>      {
+>          FileOutputStream out = new FileOutputStream("handout-" + index + ".png");
+>          handoutSlides[index].compress(android.graphics.Bitmap.CompressFormat.PNG, 100, out);
+>          out.flush();
+>          out.close();
+>      }
+>  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -101,17 +109,26 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      RenderingOptions options = new RenderingOptions();
+> 
 >      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
 >      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      slidesLayoutOptions.setPrintSlideNumbers(false);
 >      options.setSlidesLayoutOptions(slidesLayoutOptions);
->      FileOutputStream out = new FileOutputStream("pres-handout.png);
->      pres.getSlides().get_Item(0).getThumbnail(options, new com.aspose.slides.android.Size(1920, 1080)).compress(android.graphics.Bitmap.CompressFormat.PNG, 100, out);
->      out.flush();
->      out.close();     * } finally {
+> 
+>      android.graphics.Bitmap[] handoutSlides = pres.getThumbnails(options);
+>      for (int index = 0; index < handoutSlides.length; index++)
+>      {
+>          FileOutputStream out = new FileOutputStream("handout-" + index + ".png");
+>          handoutSlides[index].compress(android.graphics.Bitmap.CompressFormat.PNG, 100, out);
+>          out.flush();
+>          out.close();
+>      }
+>  } catch (IOException e) {
+>  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```

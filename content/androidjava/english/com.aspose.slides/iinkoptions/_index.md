@@ -28,7 +28,7 @@ Shows or hides Ink elements in exported document.
 --------------------
 
 > ```
-> Next example demonstrates how to set using ROP for exporting Ink elements:
+> Next example demonstrates how to hide Ink elements in exported PDF document:
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -57,7 +57,7 @@ Shows or hides Ink elements in exported document.
 --------------------
 
 > ```
-> Next example demonstrates how to set using ROP for exporting Ink elements:
+> Next example demonstrates how to hide Ink elements in exported PDF document:
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -89,7 +89,7 @@ Uses ROP operation or Opacity for rendering brush.
 --------------------
 
 > ```
-> Next example demonstrates how to set using ROP for expotring Ink elements:
+> Next example demonstrates how to set using ROP for exporting Ink elements:
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -118,7 +118,7 @@ Uses ROP operation or Opacity for rendering brush.
 --------------------
 
 > ```
-> Next example demonstrates how to set using ROP for expotring Ink elements:
+> Next example demonstrates how to set using ROP for exporting Ink elements:
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {

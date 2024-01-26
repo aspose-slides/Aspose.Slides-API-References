@@ -233,7 +233,7 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      HtmlOptions options = new HtmlOptions();
@@ -261,7 +261,7 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      HtmlOptions options = new HtmlOptions();

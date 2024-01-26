@@ -423,6 +423,7 @@ url: /com.aspose.slides/
 | [PatternStyle](../com.aspose.slides/patternstyle) | Represents the pattern style. |
 | [PdfAccessPermissions](../com.aspose.slides/pdfaccesspermissions) | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. |
 | [PdfCompliance](../com.aspose.slides/pdfcompliance) | Constants which define the PDF standards compliance level. |
+| [PdfImportOptions](../com.aspose.slides/pdfimportoptions) | Represents the PDF import options |
 | [PdfOptions](../com.aspose.slides/pdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
 | [PdfTextCompression](../com.aspose.slides/pdftextcompression) | Constants which define the type of a compression applied to all content in the PDF file except images. |
 | [PersistenceType](../com.aspose.slides/persistencetype) | Specifies the method used to store properties of the ActiveX control. |
