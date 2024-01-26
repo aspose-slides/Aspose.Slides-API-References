@@ -173,7 +173,7 @@ int
 | getValue () | Slide show transition value. Read-only ITransitionValueBase. |
 
  **Result:**
-[RippleTransition](../rippletransition), [ShredTransition](../shredtransition), [LeftRightDirectionTransition](../leftrightdirectiontransition), [GlitterTransition](../glittertransition), [CornerDirectionTransition](../cornerdirectiontransition), [SideDirectionTransition](../sidedirectiontransition), [OrientationTransition](../orientationtransition), [TransitionValueBase](../transitionvaluebase), [MorphTransition](../morphtransition), [SplitTransition](../splittransition), [EightDirectionTransition](../eightdirectiontransition), [FlyThroughTransition](../flythroughtransition), [EmptyTransition](../emptytransition), [OptionalBlackTransition](../optionalblacktransition), [InOutTransition](../inouttransition), [RevealTransition](../revealtransition), [WheelTransition](../wheeltransition)
+[RippleTransition](../rippletransition), [GlitterTransition](../glittertransition), [WheelTransition](../wheeltransition), [OrientationTransition](../orientationtransition), [MorphTransition](../morphtransition), [EmptyTransition](../emptytransition), [SplitTransition](../splittransition), [InOutTransition](../inouttransition), [EightDirectionTransition](../eightdirectiontransition), [ShredTransition](../shredtransition), [LeftRightDirectionTransition](../leftrightdirectiontransition), [FlyThroughTransition](../flythroughtransition), [CornerDirectionTransition](../cornerdirectiontransition), [RevealTransition](../revealtransition), [OptionalBlackTransition](../optionalblacktransition), [TransitionValueBase](../transitionvaluebase), [SideDirectionTransition](../sidedirectiontransition)
 
 
 ---

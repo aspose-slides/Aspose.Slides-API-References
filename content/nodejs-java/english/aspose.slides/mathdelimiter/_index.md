@@ -17,13 +17,13 @@ url: /aspose.slides/mathdelimiter/
 
 | Name | Description |
 | --- | --- |
-| MathDelimiter([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| MathDelimiter([MathLimit](../mathlimit)) | Initializes MathDelimiter with the specified element as single base argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathLimit](../mathlimit) | The base element to which the delimiter is applied. Can be null. |
 
  **Result:**
 MathDelimiter
@@ -42,13 +42,13 @@ MathDelimiter
 
 | Name | Description |
 | --- | --- |
-| MathDelimiter([MathMatrix](../mathmatrix)) | Initializes MathDelimiter with the specified element as single base argument |
+| MathDelimiter([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the delimiter is applied. Can be null. |
 
  **Result:**
 MathDelimiter
@@ -67,13 +67,38 @@ MathDelimiter
 
 | Name | Description |
 | --- | --- |
-| MathDelimiter([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| MathDelimiter([MathAccent](../mathaccent)) | Initializes MathDelimiter with the specified element as single base argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathAccent](../mathaccent) | The base element to which the delimiter is applied. Can be null. |
+
+ **Result:**
+MathDelimiter
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
+### MathDelimiter {#MathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| MathDelimiter([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathDelimiter with the specified element as single base argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the delimiter is applied. Can be null. |
 
  **Result:**
 MathDelimiter
@@ -142,213 +167,13 @@ MathDelimiter
 
 | Name | Description |
 | --- | --- |
-| MathDelimiter([MathArray](../matharray)) | Initializes MathDelimiter with the specified element as single base argument |
+| MathDelimiter([MathBox](../mathbox)) | Initializes MathDelimiter with the specified element as single base argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray](../matharray) | The base element to which the delimiter is applied. Can be null. |
-
- **Result:**
-MathDelimiter
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
-### MathDelimiter {#MathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| MathDelimiter([MathAccent](../mathaccent)) | Initializes MathDelimiter with the specified element as single base argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base element to which the delimiter is applied. Can be null. |
-
- **Result:**
-MathDelimiter
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
-### MathDelimiter {#MathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| MathDelimiter([MathRadical](../mathradical)) | Initializes MathDelimiter with the specified element as single base argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRadical](../mathradical) | The base element to which the delimiter is applied. Can be null. |
-
- **Result:**
-MathDelimiter
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
-### MathDelimiter {#MathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| MathDelimiter([MathBorderBox](../mathborderbox)) | Initializes MathDelimiter with the specified element as single base argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | The base element to which the delimiter is applied. Can be null. |
-
- **Result:**
-MathDelimiter
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
-### MathDelimiter {#MathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| MathDelimiter([MathLimit](../mathlimit)) | Initializes MathDelimiter with the specified element as single base argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../mathlimit) | The base element to which the delimiter is applied. Can be null. |
-
- **Result:**
-MathDelimiter
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
-### MathDelimiter {#MathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| MathDelimiter([MathBar](../mathbar)) | Initializes MathDelimiter with the specified element as single base argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBar](../mathbar) | The base element to which the delimiter is applied. Can be null. |
-
- **Result:**
-MathDelimiter
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
-### MathDelimiter {#MathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| MathDelimiter([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
-
- **Result:**
-MathDelimiter
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
-### MathDelimiter {#MathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| MathDelimiter([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathDelimiter with the specified element as single base argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the delimiter is applied. Can be null. |
-
- **Result:**
-MathDelimiter
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
-### MathDelimiter {#MathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| MathDelimiter([MathDelimiter](../mathdelimiter)) | Initializes MathDelimiter with the specified element as single base argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathDelimiter](../mathdelimiter) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathBox](../mathbox) | The base element to which the delimiter is applied. Can be null. |
 
  **Result:**
 MathDelimiter
@@ -392,13 +217,13 @@ MathDelimiter
 
 | Name | Description |
 | --- | --- |
-| MathDelimiter([MathFunction](../mathfunction)) | Initializes MathDelimiter with the specified element as single base argument |
+| MathDelimiter([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
 
  **Result:**
 MathDelimiter
@@ -417,13 +242,38 @@ MathDelimiter
 
 | Name | Description |
 | --- | --- |
-| MathDelimiter([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| MathDelimiter([MathArray](../matharray)) | Initializes MathDelimiter with the specified element as single base argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathArray](../matharray) | The base element to which the delimiter is applied. Can be null. |
+
+ **Result:**
+MathDelimiter
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
+### MathDelimiter {#MathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| MathDelimiter([MathMatrix](../mathmatrix)) | Initializes MathDelimiter with the specified element as single base argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | The base element to which the delimiter is applied. Can be null. |
 
  **Result:**
 MathDelimiter
@@ -467,13 +317,163 @@ MathDelimiter
 
 | Name | Description |
 | --- | --- |
-| MathDelimiter([MathBox](../mathbox)) | Initializes MathDelimiter with the specified element as single base argument |
+| MathDelimiter([MathRadical](../mathradical)) | Initializes MathDelimiter with the specified element as single base argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathRadical](../mathradical) | The base element to which the delimiter is applied. Can be null. |
+
+ **Result:**
+MathDelimiter
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
+### MathDelimiter {#MathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| MathDelimiter([MathBar](../mathbar)) | Initializes MathDelimiter with the specified element as single base argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBar](../mathbar) | The base element to which the delimiter is applied. Can be null. |
+
+ **Result:**
+MathDelimiter
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
+### MathDelimiter {#MathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| MathDelimiter([MathFunction](../mathfunction)) | Initializes MathDelimiter with the specified element as single base argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | The base element to which the delimiter is applied. Can be null. |
+
+ **Result:**
+MathDelimiter
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
+### MathDelimiter {#MathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| MathDelimiter([MathDelimiter](../mathdelimiter)) | Initializes MathDelimiter with the specified element as single base argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathDelimiter](../mathdelimiter) | The base element to which the delimiter is applied. Can be null. |
+
+ **Result:**
+MathDelimiter
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
+### MathDelimiter {#MathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| MathDelimiter([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
+
+ **Result:**
+MathDelimiter
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
+### MathDelimiter {#MathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| MathDelimiter([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
+
+ **Result:**
+MathDelimiter
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
+### MathDelimiter {#MathDelimiter}
+
+| Name | Description |
+| --- | --- |
+| MathDelimiter([MathBorderBox](../mathborderbox)) | Initializes MathDelimiter with the specified element as single base argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | The base element to which the delimiter is applied. Can be null. |
 
  **Result:**
 MathDelimiter
@@ -560,7 +560,7 @@ char
 | getChildren () | Get children elements |
 
  **Result:**
-[MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), [MathAccent](../mathaccent), [MathElementBase](../mathelementbase), [MathRadical](../mathradical), [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), [MathBar](../mathbar), [BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), [MathBox](../mathbox)
+[MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase), [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), [MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray), [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), [MathRadical](../mathradical), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)
 
 
 ---

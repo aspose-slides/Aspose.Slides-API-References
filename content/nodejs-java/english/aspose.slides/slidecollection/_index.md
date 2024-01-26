@@ -269,6 +269,26 @@ url: /aspose.slides/slidecollection/
 ---
 
 
+### addFromPdf {#addFromPdf}
+
+| Name | Description |
+| --- | --- |
+| addFromPdf (String, [PdfImportOptions](../pdfimportoptions)) | Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | A path to the PDF document |
+| pdfImportOptions | [PdfImportOptions](../pdfimportoptions) | Options for pdf import |
+
+ **Result:**
+[Slide](../slide)
+
+
+---
+
+
 ### addFromPdfFromStream  {#addFromPdfFromStream }
 
 | Name | Description |
@@ -281,6 +301,28 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | slidecollection | SlideCollection  | link to self |
 | pdfStream | ReadStream | A stream which will be used as a source of the PDF document |
+| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+
+ **Result:**
+[Slide](../slide)
+
+
+---
+
+
+### addFromPdfFromStream  {#addFromPdfFromStream }
+
+| Name | Description |
+| --- | --- |
+| addFromPdfFromStream  (SlideCollection, ReadStream, [PdfImportOptions](../pdfimportoptions), Function) | Creates slides from the PDF document and adds them to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slidecollection | SlideCollection  | link to self |
+| pdfStream | ReadStream | A stream which will be used as a source of the PDF document |
+| pdfImportOptions | [PdfImportOptions](../pdfimportoptions) | Options for pdf import |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
  **Result:**

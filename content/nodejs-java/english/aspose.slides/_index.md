@@ -405,6 +405,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [PatternStyle](patternstyle) | Represents the pattern style. |
 | [PdfAccessPermissions](pdfaccesspermissions) | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. |
 | [PdfCompliance](pdfcompliance) | Constants which define the PDF standards compliance level. |
+| [PdfImportOptions](pdfimportoptions) | Represents the PDF import options |
 | [PdfOptions](pdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
 | [PdfTextCompression](pdftextcompression) | Constants which define the type of a compression applied to all content in the PDF file except images. |
 | [PersistenceType](persistencetype) | Specifies the method used to store properties of the ActiveX control. |

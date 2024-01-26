@@ -80,7 +80,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getNewLineType () | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+| getNewLineType () | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is Unix. |
 
  **Result:**
 int
@@ -172,7 +172,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setNewLineType (int) | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+| setNewLineType (int) | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is Unix. |
 
 
 ---

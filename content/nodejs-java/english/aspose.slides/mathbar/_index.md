@@ -15,13 +15,13 @@ url: /aspose.slides/mathbar/
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathBar with overbar (Top position) |
+| MathBar([MathLimit](../mathlimit)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the bar is applied |
+| element | [MathLimit](../mathlimit) | The base element to which the bar is applied |
 
  **Result:**
 MathBar
@@ -34,13 +34,13 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathMatrix](../mathmatrix)) | Initializes MathBar with overbar (Top position) |
+| MathBar([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | The base element to which the bar is applied |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
 
  **Result:**
 MathBar
@@ -53,13 +53,32 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathBar with overbar (Top position) |
+| MathBar([MathAccent](../mathaccent)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the bar is applied |
+| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathBar with overbar (Top position) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
 
  **Result:**
 MathBar
@@ -110,165 +129,13 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathArray](../matharray)) | Initializes MathBar with overbar (Top position) |
+| MathBar([MathBox](../mathbox)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray](../matharray) | The base element to which the bar is applied |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathAccent](../mathaccent)) | Initializes MathBar with overbar (Top position) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathRadical](../mathradical)) | Initializes MathBar with overbar (Top position) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRadical](../mathradical) | The base element to which the bar is applied |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathBorderBox](../mathborderbox)) | Initializes MathBar with overbar (Top position) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | The base element to which the bar is applied |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathLimit](../mathlimit)) | Initializes MathBar with overbar (Top position) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../mathlimit) | The base element to which the bar is applied |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathBar](../mathbar)) | Initializes MathBar with overbar (Top position) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBar](../mathbar) | The base element to which the bar is applied |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathBar with overbar (Top position) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the bar is applied |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathBar with overbar (Top position) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathDelimiter](../mathdelimiter)) | Initializes MathBar with overbar (Top position) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathDelimiter](../mathdelimiter) | The base element to which the bar is applied |
+| element | [MathBox](../mathbox) | The base element to which the bar is applied |
 
  **Result:**
 MathBar
@@ -300,13 +167,13 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathFunction](../mathfunction)) | Initializes MathBar with overbar (Top position) |
+| MathBar([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the bar is applied |
 
  **Result:**
 MathBar
@@ -319,13 +186,32 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathBar with overbar (Top position) |
+| MathBar([MathArray](../matharray)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
+| element | [MathArray](../matharray) | The base element to which the bar is applied |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathMatrix](../mathmatrix)) | Initializes MathBar with overbar (Top position) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | The base element to which the bar is applied |
 
  **Result:**
 MathBar
@@ -357,13 +243,13 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathBox](../mathbox)) | Initializes MathBar with overbar (Top position) |
+| MathBar([MathRadical](../mathradical)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | The base element to which the bar is applied |
+| element | [MathRadical](../mathradical) | The base element to which the bar is applied |
 
  **Result:**
 MathBar
@@ -376,14 +262,13 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathBar with specified position |
+| MathBar([MathBar](../mathbar)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
+| element | [MathBar](../mathbar) | The base element to which the bar is applied |
 
  **Result:**
 MathBar
@@ -396,14 +281,13 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathMatrix](../mathmatrix), int) | Initializes MathBar with specified position |
+| MathBar([MathFunction](../mathfunction)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
+| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
 
  **Result:**
 MathBar
@@ -416,13 +300,149 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathBar with specified position |
+| MathBar([MathDelimiter](../mathdelimiter)) | Initializes MathBar with overbar (Top position) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathDelimiter](../mathdelimiter) | The base element to which the bar is applied |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathBar with overbar (Top position) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the bar is applied |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathBar with overbar (Top position) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the bar is applied |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathBorderBox](../mathborderbox)) | Initializes MathBar with overbar (Top position) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | The base element to which the bar is applied |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathLimit](../mathlimit), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../mathlimit) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathAccent](../mathaccent), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
  **Result:**
@@ -476,173 +496,13 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathArray](../matharray), int) | Initializes MathBar with specified position |
+| MathBar([MathBox](../mathbox), int) | Initializes MathBar with specified position |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray](../matharray) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathAccent](../mathaccent), int) | Initializes MathBar with specified position |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathRadical](../mathradical), int) | Initializes MathBar with specified position |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRadical](../mathradical) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathBorderBox](../mathborderbox), int) | Initializes MathBar with specified position |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathLimit](../mathlimit), int) | Initializes MathBar with specified position |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../mathlimit) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathBar](../mathbar), int) | Initializes MathBar with specified position |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBar](../mathbar) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathBar with specified position |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathGroupingCharacter](../mathgroupingcharacter), int) | Initializes MathBar with specified position |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
- **Result:**
-MathBar
-
-
----
-
-
-### MathBar {#MathBar}
-
-| Name | Description |
-| --- | --- |
-| MathBar([MathDelimiter](../mathdelimiter), int) | Initializes MathBar with specified position |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathDelimiter](../mathdelimiter) | The base element to which the bar is applied |
+| element | [MathBox](../mathbox) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
  **Result:**
@@ -676,13 +536,13 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathFunction](../mathfunction), int) | Initializes MathBar with specified position |
+| MathBar([MathSuperscriptElement](../mathsuperscriptelement), int) | Initializes MathBar with specified position |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
  **Result:**
@@ -696,13 +556,33 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathBar with specified position |
+| MathBar([MathArray](../matharray), int) | Initializes MathBar with specified position |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
+| element | [MathArray](../matharray) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathMatrix](../mathmatrix), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
  **Result:**
@@ -736,13 +616,133 @@ MathBar
 
 | Name | Description |
 | --- | --- |
-| MathBar([MathBox](../mathbox), int) | Initializes MathBar with specified position |
+| MathBar([MathRadical](../mathradical), int) | Initializes MathBar with specified position |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | The base element to which the bar is applied |
+| element | [MathRadical](../mathradical) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathBar](../mathbar), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBar](../mathbar) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathFunction](../mathfunction), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathDelimiter](../mathdelimiter), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathDelimiter](../mathdelimiter) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+ **Result:**
+MathBar
+
+
+---
+
+
+### MathBar {#MathBar}
+
+| Name | Description |
+| --- | --- |
+| MathBar([MathBorderBox](../mathborderbox), int) | Initializes MathBar with specified position |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
  **Result:**
@@ -759,7 +759,7 @@ MathBar
 | getBase () | Base argument |
 
  **Result:**
-[MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), [MathAccent](../mathaccent), [MathElementBase](../mathelementbase), [MathRadical](../mathradical), [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), [MathBar](../mathbar), [BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), [MathBox](../mathbox)
+[MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase), [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), [MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray), [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), [MathRadical](../mathradical), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)
 
 
 ---
@@ -772,7 +772,7 @@ MathBar
 | getChildren () | Get children elements |
 
  **Result:**
-[MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), [MathAccent](../mathaccent), [MathElementBase](../mathelementbase), [MathRadical](../mathradical), [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), [MathBar](../mathbar), [BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), [MathBox](../mathbox)
+[MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase), [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), [MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray), [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), [MathRadical](../mathradical), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)
 
 
 ---
