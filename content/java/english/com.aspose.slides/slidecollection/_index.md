@@ -40,7 +40,9 @@ Represents a collection of a slides.
 | [reorder(int index, ISlide[] slides)](#reorder-int-com.aspose.slides.ISlide...-) | Moves slides from the collection to the specified position. |
 | [indexOf(ISlide slide)](#indexOf-com.aspose.slides.ISlide-) | Returns an index of the specified slide in the collection. |
 | [addFromPdf(String path)](#addFromPdf-java.lang.String-) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [addFromPdf(String path, PdfImportOptions pdfImportOptions)](#addFromPdf-java.lang.String-com.aspose.slides.PdfImportOptions-) | Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options. |
 | [addFromPdf(InputStream pdfStream)](#addFromPdf-java.io.InputStream-) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [addFromPdf(InputStream pdfStream, PdfImportOptions pdfImportOptions)](#addFromPdf-java.io.InputStream-com.aspose.slides.PdfImportOptions-) | Creates slides from the PDF document and adds them to the end of the collection. |
 | [addFromHtml(String htmlText, IExternalResourceResolver resolver, String uri)](#addFromHtml-java.lang.String-com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Creates slides from HTML text and adds them to the end of the collection. |
 | [addFromHtml(String htmlText)](#addFromHtml-java.lang.String-) | Creates slides from HTML text and adds them to the end of the collection. |
 | [addFromHtml(InputStream htmlStream, IExternalResourceResolver resolver, String uri)](#addFromHtml-java.io.InputStream-com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Creates slides from HTML text and adds them to the end of the collection. |
@@ -433,6 +435,38 @@ Creates slides from the PDF document and adds them to the end of the collection.
 
 **Returns:**
 com.aspose.slides.ISlide[] - Added slides
+### addFromPdf(String path, PdfImportOptions pdfImportOptions) {#addFromPdf-java.lang.String-com.aspose.slides.PdfImportOptions-}
+```
+public final ISlide[] addFromPdf(String path, PdfImportOptions pdfImportOptions)
+```
+
+
+Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      PdfImportOptions pdfImportOptions = new PdfImportOptions();
+>      pdfImportOptions.setDetectTables(true);
+>      pres.getSlides().addFromPdf("document.pdf", pdfImportOptions);
+>      pres.save("fromPdfDocument.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | A path to the PDF document |
+| pdfImportOptions | [PdfImportOptions](../../com.aspose.slides/pdfimportoptions) | Options for pdf import |
+
+**Returns:**
+com.aspose.slides.ISlide[] - Added slides
 ### addFromPdf(InputStream pdfStream) {#addFromPdf-java.io.InputStream-}
 ```
 public final ISlide[] addFromPdf(InputStream pdfStream)
@@ -449,9 +483,8 @@ Creates slides from the PDF document and adds them to the end of the collection.
 >  Presentation pres = new Presentation();
 >  try {
 >      FileInputStream stream = new FileInputStream("document.pdf");
->      {
->          pres.getSlides().addFromPdf(stream);
->      }
+>      pres.getSlides().addFromPdf(stream);
+> 
 >      pres.save("fromPdfDocument.pptx", SaveFormat.Pptx);
 >  } catch (IOException e) {
 >  } finally {
@@ -463,6 +496,42 @@ Creates slides from the PDF document and adds them to the end of the collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pdfStream | java.io.InputStream | A stream which will be used as a source of the PDF document |
+
+**Returns:**
+com.aspose.slides.ISlide[] - Added slides
+### addFromPdf(InputStream pdfStream, PdfImportOptions pdfImportOptions) {#addFromPdf-java.io.InputStream-com.aspose.slides.PdfImportOptions-}
+```
+public final ISlide[] addFromPdf(InputStream pdfStream, PdfImportOptions pdfImportOptions)
+```
+
+
+Creates slides from the PDF document and adds them to the end of the collection.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      PdfImportOptions pdfImportOptions = new PdfImportOptions();
+>      pdfImportOptions.setDetectTables(true);
+> 
+>      FileInputStream stream = new FileInputStream("document.pdf");
+>      pres.getSlides().addFromPdf(stream, pdfImportOptions);
+> 
+>      pres.save("fromPdfDocument.pptx", SaveFormat.Pptx);
+>  } catch (IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pdfStream | java.io.InputStream | A stream which will be used as a source of the PDF document |
+| pdfImportOptions | [PdfImportOptions](../../com.aspose.slides/pdfimportoptions) | Options for pdf import |
 
 **Returns:**
 com.aspose.slides.ISlide[] - Added slides

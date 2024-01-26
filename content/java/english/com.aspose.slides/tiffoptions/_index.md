@@ -49,7 +49,7 @@ Provides options that control how a presentation is saved in TIFF format.
 >      // LZW
 >      // RLE
 >      // Depth depends on the compression type and cannot be set manually.
->      // Resolution unit  is always equal to â\u20ac\u01532â\u20ac? (dots per inch)
+>      // Resolution unit  is always equal to 2 (dots per inch)
 >      // Setting image DPI
 >      opts.setDpiX(200);
 >      opts.setDpiY(100);
@@ -287,7 +287,7 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      TiffOptions options = new TiffOptions();
@@ -315,7 +315,7 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      TiffOptions options = new TiffOptions();

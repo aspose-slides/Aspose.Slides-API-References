@@ -79,15 +79,22 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      RenderingOptions options = new RenderingOptions();
+> 
 >      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
 >      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      slidesLayoutOptions.setPrintSlideNumbers(false);
 >      options.setSlidesLayoutOptions(slidesLayoutOptions);
 > 
->      ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(options, new Dimension(1920, 1080)), "PNG", new java.io.File("pres-handout.png"));
+>      BufferedImage[] handoutSlides = pres.getThumbnails(options);
+>      for (int index = 0; index < handoutSlides.length; index++)
+>      {
+>          ImageIO.write(handoutSlides[index], "PNG", new java.io.File("handout-" + index + ".png"));
+>      }
+>  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -107,15 +114,22 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      RenderingOptions options = new RenderingOptions();
+> 
 >      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
 >      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      slidesLayoutOptions.setPrintSlideNumbers(false);
 >      options.setSlidesLayoutOptions(slidesLayoutOptions);
 > 
->      ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(options, new Dimension(1920, 1080)), "PNG", new java.io.File("pres-handout.png"));
+>      BufferedImage[] handoutSlides = pres.getThumbnails(options);
+>      for (int index = 0; index < handoutSlides.length; index++)
+>      {
+>          ImageIO.write(handoutSlides[index], "PNG", new java.io.File("handout-" + index + ".png"));
+>      }
+>  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

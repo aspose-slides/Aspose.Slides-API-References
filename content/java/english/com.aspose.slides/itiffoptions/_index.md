@@ -194,7 +194,7 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      TiffOptions options = new TiffOptions();
@@ -207,10 +207,6 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
---------------------
-
-Default value is  **FullSlidesLayoutOptions** .
 
 **Returns:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
@@ -226,7 +222,7 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 
 > ```
 > Example:
->   
+>  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      TiffOptions options = new TiffOptions();
@@ -239,10 +235,6 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
---------------------
-
-Default value is  **FullSlidesLayoutOptions** .
 
 **Parameters:**
 | Parameter | Type | Description |
