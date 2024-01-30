@@ -15,7 +15,7 @@ Type of new line that will be used in generated document.
 | :- | :- |
 |WINDOWS||
 |UNIX||
-|MAC|Mac (OS 9) new line - \r|
+|MAC|Mac (OS 9) new line - \\r|
 
 ### See Also
 

@@ -35,7 +35,9 @@ The SlideCollection type exposes the following members:
 |reorder(index, slide)|Moves slide from the collection to the specified position.|
 |reorder(index, slides)|Moves slides from the collection to the specified position.<br/>            Slides will be placed starting from index in order they appear in list.|
 |add_from_pdf(path)|Creates slides from the PDF document and adds them to the end of the collection.|
+|add_from_pdf(path, pdf_import_options)|Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options.|
 |add_from_pdf(pdf_stream)|Creates slides from the PDF document and adds them to the end of the collection.|
+|add_from_pdf(pdf_stream, pdf_import_options)|Creates slides from the PDF document and adds them to the end of the collection.|
 |add_from_html(html_text, resolver, uri)|Creates slides from HTML text and adds them to the end of the collection.|
 |add_from_html(html_text)|Creates slides from HTML text and adds them to the end of the collection.|
 |add_from_html(html_stream, resolver, uri)|Creates slides from HTML text and adds them to the end of the collection.|
