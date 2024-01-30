@@ -24,7 +24,7 @@ The MarkdownSaveOptions type exposes the following members:
 |export_type|Specifies markdown specification to convert presentation.<br/>            Default is|
 |base_path|Specifies the base path where document with resources will be saved.<br/>            Default is the current directory of the application.|
 |images_save_folder_name|Specifies folder name to save images.<br/>            Default is|
-|new_line_type|Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows).<br/>            Default is|
+|new_line_type|Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows).<br/>            Default is|
 |show_comments|Specifies whether the generated document should show comments or not.<br/>            Default is|
 |show_hidden_slides|Specifies whether the generated document should include hidden slides or not.<br/>            Default is|
 |show_slide_number|Specifies whether the generated document should show number of each slide or not.<br/>            Default is|
