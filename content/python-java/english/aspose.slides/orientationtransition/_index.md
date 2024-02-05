@@ -15,7 +15,7 @@ url: /aspose.slides/orientationtransition/
 
 | Name | Description |
 | --- | --- |
-| getDirection () | Direction of transition. Read/write Orientation. |
+| getDirection() | Direction of transition. Read/write Orientation. |
 
  **Result:**
 byte
@@ -28,7 +28,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setDirection (byte) | Direction of transition. Read/write Orientation. |
+| setDirection(byte) | Direction of transition. Read/write Orientation. |
 
 
 ---

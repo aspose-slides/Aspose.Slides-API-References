@@ -15,7 +15,7 @@ url: /aspose.slides/templatecontext/
 
 | Name | Description |
 | --- | --- |
-| getGlobal () | Returns global storage of the host document. Read-only Storage. |
+| getGlobal() | Returns global storage of the host document. Read-only Storage. |
 
  **Result:**
 Storage
@@ -28,7 +28,7 @@ Storage
 
 | Name | Description |
 | --- | --- |
-| getLocal () | Returns local storage of the current template context. Read-only Storage. |
+| getLocal() | Returns local storage of the current template context. Read-only Storage. |
 
  **Result:**
 Storage
@@ -41,7 +41,7 @@ Storage
 
 | Name | Description |
 | --- | --- |
-| getObject () | Returns the model object. Read-only Object. |
+| getObject() | Returns the model object. Read-only Object. |
 
  **Result:**
 TObject
@@ -54,7 +54,7 @@ TObject
 
 | Name | Description |
 | --- | --- |
-| getOutput () | Returns collection of output elements of the host document. Read-only Output( #getOutput). |
+| getOutput() | Returns collection of output elements of the host document. Read-only Output( #getOutput). |
 
  **Result:**
 Output
@@ -67,7 +67,7 @@ Output
 
 | Name | Description |
 | --- | --- |
-| subModel (TSubModel) | Creates a child template context. |
+| subModel(TSubModel) | Creates a child template context. |
 
  **Parameters:**
 

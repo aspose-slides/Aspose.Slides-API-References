@@ -15,7 +15,7 @@ url: /aspose.slides/revealtransition/
 
 | Name | Description |
 | --- | --- |
-| getDirection () | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| getDirection() | Direction of transition. Read/write TransitionLeftRightDirectionType. |
 
  **Result:**
 int
@@ -28,7 +28,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getThroughBlack () | Specifies whether the transition fades through black. Read/write boolean. |
+| getThroughBlack() | Specifies whether the transition fades through black. Read/write boolean. |
 
  **Result:**
 boolean
@@ -41,7 +41,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setDirection (int) | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| setDirection(int) | Direction of transition. Read/write TransitionLeftRightDirectionType. |
 
 
 ---
@@ -51,7 +51,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setThroughBlack (boolean) | Specifies whether the transition fades through black. Read/write boolean. |
+| setThroughBlack(boolean) | Specifies whether the transition fades through black. Read/write boolean. |
 
 
 ---

@@ -65,7 +65,7 @@ AsposeLicenseException
 
 | Name | Description |
 | --- | --- |
-| addSuppressed (Throwable) |  |
+| addSuppressed(Throwable) |  |
 
 
 ---
@@ -75,7 +75,7 @@ AsposeLicenseException
 
 | Name | Description |
 | --- | --- |
-| fillInStackTrace () |  |
+| fillInStackTrace() |  |
 
  **Result:**
 Throwable
@@ -88,7 +88,7 @@ Throwable
 
 | Name | Description |
 | --- | --- |
-| getCause () |  |
+| getCause() |  |
 
  **Result:**
 Throwable
@@ -101,7 +101,7 @@ Throwable
 
 | Name | Description |
 | --- | --- |
-| getInnerException () |  |
+| getInnerException() |  |
 
  **Result:**
 Throwable
@@ -114,7 +114,7 @@ Throwable
 
 | Name | Description |
 | --- | --- |
-| getLocalizedMessage () |  |
+| getLocalizedMessage() |  |
 
  **Result:**
 String
@@ -127,7 +127,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getMessage () |  |
+| getMessage() |  |
 
  **Result:**
 String
@@ -140,7 +140,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getStackTrace () |  |
+| getStackTrace() |  |
 
  **Result:**
 StackTraceElement
@@ -153,7 +153,7 @@ StackTraceElement
 
 | Name | Description |
 | --- | --- |
-| getSuppressed () |  |
+| getSuppressed() |  |
 
  **Result:**
 Throwable
@@ -166,7 +166,7 @@ Throwable
 
 | Name | Description |
 | --- | --- |
-| getType () |  |
+| getType() |  |
 
  **Result:**
 Type
@@ -179,7 +179,7 @@ Type
 
 | Name | Description |
 | --- | --- |
-| initCause (Throwable) |  |
+| initCause(Throwable) |  |
 
  **Result:**
 Throwable
@@ -192,7 +192,7 @@ Throwable
 
 | Name | Description |
 | --- | --- |
-| printStackTrace () |  |
+| printStackTrace() |  |
 
 
 ---
@@ -202,7 +202,7 @@ Throwable
 
 | Name | Description |
 | --- | --- |
-| printStackTrace (PrintStream) |  |
+| printStackTrace(PrintStream) |  |
 
 
 ---
@@ -212,7 +212,7 @@ Throwable
 
 | Name | Description |
 | --- | --- |
-| printStackTrace (PrintWriter) |  |
+| printStackTrace(PrintWriter) |  |
 
 
 ---
@@ -222,7 +222,7 @@ Throwable
 
 | Name | Description |
 | --- | --- |
-| setStackTrace (java.lang.StackTraceElement[]) |  |
+| setStackTrace(java.lang.StackTraceElement[]) |  |
 
 
 ---

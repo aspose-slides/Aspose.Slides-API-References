@@ -15,7 +15,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| disableBlurEffect () | Disables blur effect. |
+| disableBlurEffect() | Disables blur effect. |
 
 
 ---
@@ -25,7 +25,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| disableFillOverlayEffect () | Disables fill overlay effect. |
+| disableFillOverlayEffect() | Disables fill overlay effect. |
 
 
 ---
@@ -35,7 +35,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| disableGlowEffect () | Disable glow effect. |
+| disableGlowEffect() | Disable glow effect. |
 
 
 ---
@@ -45,7 +45,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| disableInnerShadowEffect () | Disables inner shadow effect. |
+| disableInnerShadowEffect() | Disables inner shadow effect. |
 
 
 ---
@@ -55,7 +55,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| disableOuterShadowEffect () | Disables outer shadow effect. |
+| disableOuterShadowEffect() | Disables outer shadow effect. |
 
 
 ---
@@ -65,7 +65,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| disablePresetShadowEffect () | Disables preset shadow effect. |
+| disablePresetShadowEffect() | Disables preset shadow effect. |
 
 
 ---
@@ -75,7 +75,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| disableReflectionEffect () | Disables reflection effect. |
+| disableReflectionEffect() | Disables reflection effect. |
 
 
 ---
@@ -85,7 +85,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| disableSoftEdgeEffect () | Disables soft edge effect. |
+| disableSoftEdgeEffect() | Disables soft edge effect. |
 
 
 ---
@@ -95,7 +95,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| enableFillOverlayEffect () | Enables fill overlay effect. |
+| enableFillOverlayEffect() | Enables fill overlay effect. |
 
 
 ---
@@ -105,7 +105,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| enableGlowEffect () | Enables glow effect. |
+| enableGlowEffect() | Enables glow effect. |
 
 
 ---
@@ -115,7 +115,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| enableInnerShadowEffect () | Enables inner shadow effect. |
+| enableInnerShadowEffect() | Enables inner shadow effect. |
 
 
 ---
@@ -125,7 +125,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| enableOuterShadowEffect () | Enables outer shadow effect. |
+| enableOuterShadowEffect() | Enables outer shadow effect. |
 
 
 ---
@@ -135,7 +135,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| enablePresetShadowEffect () | Enables preset shadows effect. |
+| enablePresetShadowEffect() | Enables preset shadows effect. |
 
 
 ---
@@ -145,7 +145,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| enableReflectionEffect () | Enables reflection effect. |
+| enableReflectionEffect() | Enables reflection effect. |
 
 
 ---
@@ -155,7 +155,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| enableSoftEdgeEffect () | Enables soft edge effect. |
+| enableSoftEdgeEffect() | Enables soft edge effect. |
 
 
 ---
@@ -165,7 +165,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| getBlurEffect () | Blur effect. Read/write IBlur. |
+| getBlurEffect() | Blur effect. Read/write IBlur. |
 
  **Result:**
 [Blur](../blur)
@@ -178,7 +178,7 @@ url: /aspose.slides/effectformat/
 
 | Name | Description |
 | --- | --- |
-| getEffective () | Gets effective effect formatting data with the inheritance applied. |
+| getEffective() | Gets effective effect formatting data with the inheritance applied. |
 
  **Result:**
 EffectFormatEffectiveData
@@ -191,7 +191,7 @@ EffectFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getFillOverlayEffect () | Fill overlay effect. Read/write IFillOverlay. |
+| getFillOverlayEffect() | Fill overlay effect. Read/write IFillOverlay. |
 
  **Result:**
 [FillOverlay](../filloverlay)
@@ -204,7 +204,7 @@ EffectFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getGlowEffect () | Glow effect. Read/write IGlow. |
+| getGlowEffect() | Glow effect. Read/write IGlow. |
 
  **Result:**
 [Glow](../glow)
@@ -217,7 +217,7 @@ EffectFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getInnerShadowEffect () | Inner shadow. Read/write IInnerShadow. |
+| getInnerShadowEffect() | Inner shadow. Read/write IInnerShadow. |
 
  **Result:**
 [InnerShadow](../innershadow)
@@ -230,7 +230,7 @@ EffectFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getOuterShadowEffect () | Outer shadow. Read/write IOuterShadow. |
+| getOuterShadowEffect() | Outer shadow. Read/write IOuterShadow. |
 
  **Result:**
 [OuterShadow](../outershadow)
@@ -243,10 +243,7 @@ EffectFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getParent_IPresentationComponent () |  |
-
- **Result:**
-[ColorFormat](../colorformat), [Background](../background), [Blur](../blur), [MasterTheme](../mastertheme), [TextFrameFormat](../textframeformat), [FillFormat](../fillformat), [GroupShape](../groupshape), [LayoutSlide](../layoutslide), [Legend](../legend), [Axis](../axis), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [TextFrame](../textframe), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [ParagraphFormat](../paragraphformat), [SketchFormat](../sketchformat), [Duotone](../duotone), [LineFormat](../lineformat), [BulletFormat](../bulletformat), [AutoShape](../autoshape), [BiLevel](../bilevel), [AudioFrame](../audioframe), [Backdrop3DScene](../backdrop3dscene), [Picture](../picture), [Hyperlink](../hyperlink), [SummaryZoomFrame](../summaryzoomframe), [MasterNotesSlide](../masternotesslide), [ZoomObject](../zoomobject), [AlphaBiLevel](../alphabilevel), [AlphaInverse](../alphainverse), [Tab](../tab), [AlphaReplace](../alphareplace), [PatternFormat](../patternformat), [SectionZoomFrame](../sectionzoomframe), [FormatScheme](../formatscheme), [MathPortion](../mathportion), [Paragraph](../paragraph), [BaseSlide](../baseslide), [ErrorBarsFormat](../errorbarsformat), [DataLabel](../datalabel), [FillOverlay](../filloverlay), [OleObjectFrame](../oleobjectframe), [Column](../column), [Format](../format), [Control](../control), [ColorChange](../colorchange), [OverrideTheme](../overridetheme), [ChartSeriesGroup](../chartseriesgroup), [LegendEntryProperties](../legendentryproperties), [BasePortionFormat](../baseportionformat), [AlphaCeiling](../alphaceiling), [ShapeBevel](../shapebevel), [LegacyDiagram](../legacydiagram), [ColorReplace](../colorreplace), [Tint](../tint), [Presentation](../presentation), [ZoomFrame](../zoomframe), [Field](../field), [ParagraphCollection](../paragraphcollection), [PVIObject](../pviobject), [ChartPortionFormat](../chartportionformat), [Chart](../chart), [Portion](../portion), [DataLabelCollection](../datalabelcollection), [Camera](../camera), [Connector](../connector), [CellCollection](../cellcollection), [VideoFrame](../videoframe), [MasterSlide](../masterslide), [GeometryShape](../geometryshape), [AlphaModulate](../alphamodulate), [NotesSlide](../notesslide), [SmartArt](../smartart), [Cell](../cell), [ImageTransformOperationCollection](../imagetransformoperationcollection), [Trendline](../trendline), [Ink](../ink), [ChartPlotArea](../chartplotarea), [EffectFormat](../effectformat), [AlphaModulateFixed](../alphamodulatefixed), [Shape](../shape), [ThreeDFormat](../threedformat), [Row](../row), [HSL](../hsl), [SummaryZoomSection](../summaryzoomsection), [GradientStopCollection](../gradientstopcollection), [LineFillFormat](../linefillformat), [GradientStop](../gradientstop), [GradientFormat](../gradientformat), [SmartArtShape](../smartartshape), [GrayScale](../grayscale), [Slide](../slide), [LightRig](../lightrig), [CellFormat](../cellformat), [Table](../table), [Theme](../theme), [ChartSeries](../chartseries), [ChartTitle](../charttitle), [DataTable](../datatable), [PictureFillFormat](../picturefillformat), [PictureFrame](../pictureframe), [ColorScheme](../colorscheme), [DataLabelFormat](../datalabelformat), [AlphaFloor](../alphafloor), [MasterHandoutSlide](../masterhandoutslide), [PortionFormat](../portionformat)
+| getParent_IPresentationComponent() |  |
 
 
 ---
@@ -256,10 +253,7 @@ EffectFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getParent_ISlideComponent () |  |
-
- **Result:**
-[ColorFormat](../colorformat), [Background](../background), [Blur](../blur), [TextFrameFormat](../textframeformat), [FillFormat](../fillformat), [GroupShape](../groupshape), [LayoutSlide](../layoutslide), [Legend](../legend), [Axis](../axis), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [TextFrame](../textframe), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [ParagraphFormat](../paragraphformat), [SketchFormat](../sketchformat), [Duotone](../duotone), [LineFormat](../lineformat), [BulletFormat](../bulletformat), [AutoShape](../autoshape), [BiLevel](../bilevel), [AudioFrame](../audioframe), [Backdrop3DScene](../backdrop3dscene), [Picture](../picture), [Hyperlink](../hyperlink), [SummaryZoomFrame](../summaryzoomframe), [MasterNotesSlide](../masternotesslide), [ZoomObject](../zoomobject), [AlphaBiLevel](../alphabilevel), [AlphaInverse](../alphainverse), [Tab](../tab), [AlphaReplace](../alphareplace), [PatternFormat](../patternformat), [SectionZoomFrame](../sectionzoomframe), [FormatScheme](../formatscheme), [MathPortion](../mathportion), [Paragraph](../paragraph), [BaseSlide](../baseslide), [ErrorBarsFormat](../errorbarsformat), [DataLabel](../datalabel), [FillOverlay](../filloverlay), [OleObjectFrame](../oleobjectframe), [Column](../column), [Format](../format), [Control](../control), [ColorChange](../colorchange), [ChartSeriesGroup](../chartseriesgroup), [LegendEntryProperties](../legendentryproperties), [BasePortionFormat](../baseportionformat), [AlphaCeiling](../alphaceiling), [ShapeBevel](../shapebevel), [LegacyDiagram](../legacydiagram), [ColorReplace](../colorreplace), [Tint](../tint), [ZoomFrame](../zoomframe), [Field](../field), [ParagraphCollection](../paragraphcollection), [PVIObject](../pviobject), [ChartPortionFormat](../chartportionformat), [Chart](../chart), [Portion](../portion), [DataLabelCollection](../datalabelcollection), [Camera](../camera), [Connector](../connector), [CellCollection](../cellcollection), [VideoFrame](../videoframe), [MasterSlide](../masterslide), [GeometryShape](../geometryshape), [AlphaModulate](../alphamodulate), [NotesSlide](../notesslide), [SmartArt](../smartart), [Cell](../cell), [ImageTransformOperationCollection](../imagetransformoperationcollection), [Trendline](../trendline), [Ink](../ink), [ChartPlotArea](../chartplotarea), [EffectFormat](../effectformat), [AlphaModulateFixed](../alphamodulatefixed), [Shape](../shape), [ThreeDFormat](../threedformat), [Row](../row), [HSL](../hsl), [SummaryZoomSection](../summaryzoomsection), [GradientStopCollection](../gradientstopcollection), [LineFillFormat](../linefillformat), [GradientStop](../gradientstop), [GradientFormat](../gradientformat), [SmartArtShape](../smartartshape), [GrayScale](../grayscale), [Slide](../slide), [LightRig](../lightrig), [CellFormat](../cellformat), [Table](../table), [ChartSeries](../chartseries), [ChartTitle](../charttitle), [DataTable](../datatable), [PictureFillFormat](../picturefillformat), [PictureFrame](../pictureframe), [ColorScheme](../colorscheme), [DataLabelFormat](../datalabelformat), [AlphaFloor](../alphafloor), [MasterHandoutSlide](../masterhandoutslide), [PortionFormat](../portionformat)
+| getParent_ISlideComponent() |  |
 
 
 ---
@@ -269,10 +263,7 @@ EffectFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getParent_Immediate () |  |
-
- **Result:**
-DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](../rotationeffect), [ChartTitle](../charttitle), [MathBar](../mathbar), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartDataWorksheet](../chartdataworksheet), [SoftEdge](../softedge), [Audio](../audio), [ChartWall](../chartwall), [BaseOverrideThemeManager](../baseoverridethememanager), [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager), ThemeableLineFormat, [UpDownBarsManager](../updownbarsmanager), [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [Format](../format), [GradientFormat](../gradientformat), [ThreeDFormat](../threedformat), [Slide](../slide), [TabCollection](../tabcollection), [ColorScheme](../colorscheme), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [SlideHeaderFooterManager](../slideheaderfootermanager), [CommentAuthor](../commentauthor), [CellFormat](../cellformat), [SlideShowTransition](../slideshowtransition), [CustomXmlPartCollection](../customxmlpartcollection), [SlideCollection](../slidecollection), [ViewProperties](../viewproperties), [Shape](../shape), [ExtraColorScheme](../extracolorscheme), [Luminance](../luminance), [MasterThemeManager](../masterthememanager), [DataLabel](../datalabel), [GradientStop](../gradientstop), [CellCollection](../cellcollection), [MathematicalText](../mathematicaltext), [Row](../row), MasterNotesSlideManager, [MathNaryOperator](../mathnaryoperator), [BaseThemeManager](../basethememanager), ThemeableFillFormat, [RowCollection](../rowcollection), [GeometryShape](../geometryshape), TableStyle, [LightRig](../lightrig), [ChartPlotArea](../chartplotarea), [BulletFormat](../bulletformat), [MathSuperscriptElement](../mathsuperscriptelement), [VideoCollection](../videocollection), [Table](../table), [ChartDataPointLevel](../chartdatapointlevel), PresetTextShape, [MasterTheme](../mastertheme), [SectionSlideCollection](../sectionslidecollection), [OleObjectFrame](../oleobjectframe), [ChartData](../chartdata), [ChartDataPointCollection](../chartdatapointcollection), [ChartDataWorkbook](../chartdataworkbook), [NotesSlideHeaderFooterManager](../notesslideheaderfootermanager), [PresetShadow](../presetshadow), AggregatedDataPoint, [SketchFormat](../sketchformat), [MathParagraph](../mathparagraph), [SmartArt](../smartart), [AudioCollection](../audiocollection), [AxisFormat](../axisformat), [CommentCollection](../commentcollection), [ParagraphFormat](../paragraphformat), [ChartDataWorksheetCollection](../chartdataworksheetcollection), FormatOverrides, [TextStyle](../textstyle), [FillFormatCollection](../fillformatcollection), [NotesSlideManager](../notesslidemanager), [ColumnFormat](../columnformat), [Section](../section), [MathBlock](../mathblock), [TableFormat](../tableformat), [StringChartValue](../stringchartvalue), [Reflection](../reflection), [Ink](../ink), [Trendline](../trendline), [LayoutSlideCollection](../layoutslidecollection), [LineFormat](../lineformat), [BasePortionFormat](../baseportionformat), [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager), [MasterHandoutSlide](../masterhandoutslide), [DataLabelFormat](../datalabelformat), [Timing](../timing), [MathAccent](../mathaccent), [LegacyDiagram](../legacydiagram), FormatOverride, [ChartSeriesGroup](../chartseriesgroup), [Blur](../blur), [MathSubscriptElement](../mathsubscriptelement), [NotesSlideThemeManager](../notesslidethememanager), [Axis](../axis), [AlphaBiLevel](../alphabilevel), [Paragraph](../paragraph), [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), TableBackgroundStyle, [SetEffect](../seteffect), [StringOrDoubleChartValue](../stringordoublechartvalue), [Chart](../chart), [PictureFillFormat](../picturefillformat), [HyperlinkQueries](../hyperlinkqueries), [ZoomFrame](../zoomframe), [BaseScript](../basescript), [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager), [Rotation3D](../rotation3d), [FontScheme](../fontscheme), [PictureFrame](../pictureframe), [Effect](../effect), [OverrideTheme](../overridetheme), [ColorChange](../colorchange), [ColumnCollection](../columncollection), [TrendlineCollection](../trendlinecollection), [EffectStyleCollection](../effectstylecollection), [AlphaInverse](../alphainverse), [ErrorBarsCustomValues](../errorbarscustomvalues), PlaceholderCollection, [FillFormat](../fillformat), [ModernComment](../moderncomment), [ColorFormat](../colorformat), [AdjustValueCollection](../adjustvaluecollection), [MasterNotesSlide](../masternotesslide), [CommentAuthorCollection](../commentauthorcollection), [ImageTransformOperation](../imagetransformoperation), AggregatedDataPointCollection, [LayoutSlideHeaderFooterManager](../layoutslideheaderfootermanager), [Background](../background), [Control](../control), [GrayScale](../grayscale), [LineFillFormat](../linefillformat), [AnimationTimeLine](../animationtimeline), [SmartArtShape](../smartartshape), [Tab](../tab), [MotionEffect](../motioneffect), [GradientStopCollection](../gradientstopcollection), [ChartCellCollection](../chartcellcollection), [ColorEffect](../coloreffect), [ChartPortionFormat](../chartportionformat), [MathBox](../mathbox), [DigitalSignatureCollection](../digitalsignaturecollection), [AutoShape](../autoshape), [NotesSlide](../notesslide), [SectionCollection](../sectioncollection), [ScaleEffect](../scaleeffect), [MathFunction](../mathfunction), [ChartSeries](../chartseries), [Connector](../connector), [Picture](../picture), [CommandEffect](../commandeffect), [SlideThemeManager](../slidethememanager), [DoubleChartValue](../doublechartvalue), [Column](../column), [EffectStyle](../effectstyle), [SlideSize](../slidesize), [CustomData](../customdata), [SummaryZoomSection](../summaryzoomsection), [HSL](../hsl), [Tint](../tint), [DataLabelCollection](../datalabelcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), LayoutTree, [GraphicalObject](../graphicalobject), [Field](../field), [FormatScheme](../formatscheme), [Legend](../legend), [AlphaCeiling](../alphaceiling), [Hyperlink](../hyperlink), [Cell](../cell), [Portion](../portion), [BiLevel](../bilevel), [MathElementBase](../mathelementbase), [MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager), [MathFraction](../mathfraction), [DataTable](../datatable), [HyperlinkManager](../hyperlinkmanager), [BaseHeaderFooterManager](../baseheaderfootermanager), [ChartSeriesCollection](../chartseriescollection), [ChartTextFormat](../charttextformat), [LayoutSlide](../layoutslide), [ShapeBevel](../shapebevel), [ShapeStyle](../shapestyle), [Camera](../camera), ThemeableTableFormat, [RowFormat](../rowformat), [ChartCategoryCollection](../chartcategorycollection), ChartSeriesGroupCollection, [LayoutSlideThemeManager](../layoutslidethememanager), [ControlCollection](../controlcollection), [InnerShadow](../innershadow), [PortionFormat](../portionformat), [AlphaReplace](../alphareplace), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [MathPortion](../mathportion), [Duotone](../duotone), [Backdrop3DScene](../backdrop3dscene), MasterHandoutSlideManager, [Video](../video), [AlphaModulate](../alphamodulate), [Behavior](../behavior), [ImageCollection](../imagecollection), BaseStyles, [ChartDataPointLevelsManager](../chartdatapointlevelsmanager), [PVIObject](../pviobject), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [Comment](../comment), [PatternFormat](../patternformat), [ChartCategory](../chartcategory), [PortionCollection](../portioncollection), [ErrorBarsFormat](../errorbarsformat), [ColorReplace](../colorreplace), ThemeableCellFormat, [GroupShape](../groupshape), [PresentationHeaderFooterManager](../presentationheaderfootermanager), MathRunElement, [MasterSlideCollection](../masterslidecollection), [TextFrameFormat](../textframeformat), [SectionZoomFrame](../sectionzoomframe), [DomObject](../domobject), [AlphaFloor](../alphafloor), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [AudioFrame](../audioframe), [EffectFormat](../effectformat), [ShapeCollection](../shapecollection), [VideoFrame](../videoframe), [Theme](../theme), [ChartDataPoint](../chartdatapoint), [AxesManager](../axesmanager), [MathRadical](../mathradical), [FillOverlay](../filloverlay), [FilterEffect](../filtereffect), [TextFrame](../textframe), [Marker](../marker), [ParagraphCollection](../paragraphcollection), [Presentation](../presentation), [MathArray](../matharray), [ZoomObject](../zoomobject), [LineFormatCollection](../lineformatcollection), [MathDelimiter](../mathdelimiter), TableCellTextStyle, [OuterShadow](../outershadow), [ExtraColorSchemeCollection](../extracolorschemecollection), [MathBorderBox](../mathborderbox), [Glow](../glow), [BaseChartValue](../basechartvalue), [SummaryZoomFrame](../summaryzoomframe), [LegendEntryProperties](../legendentryproperties), TableStyleCollection, TablePartStyle, [AlphaModulateFixed](../alphamodulatefixed), ThemeableEffectFormat, [MasterSlideHeaderFooterManager](../masterslideheaderfootermanager), [ChartLinesFormat](../chartlinesformat)
+| getParent_Immediate() |  |
 
 
 ---
@@ -282,7 +273,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getPresentation () |  |
+| getPresentation() |  |
 
  **Result:**
 Presentation
@@ -295,7 +286,7 @@ Presentation
 
 | Name | Description |
 | --- | --- |
-| getPresetShadowEffect () | Preset shadow. Read/write IPresetShadow. |
+| getPresetShadowEffect() | Preset shadow. Read/write IPresetShadow. |
 
  **Result:**
 [PresetShadow](../presetshadow)
@@ -308,7 +299,7 @@ Presentation
 
 | Name | Description |
 | --- | --- |
-| getReflectionEffect () | Reflection. Read/write IReflection. |
+| getReflectionEffect() | Reflection. Read/write IReflection. |
 
  **Result:**
 [Reflection](../reflection)
@@ -321,7 +312,7 @@ Presentation
 
 | Name | Description |
 | --- | --- |
-| getSlide () |  |
+| getSlide() |  |
 
  **Result:**
 BaseSlide
@@ -334,7 +325,7 @@ BaseSlide
 
 | Name | Description |
 | --- | --- |
-| getSoftEdgeEffect () | Soft edge. Read/write ISoftEdge. |
+| getSoftEdgeEffect() | Soft edge. Read/write ISoftEdge. |
 
  **Result:**
 [SoftEdge](../softedge)
@@ -347,7 +338,7 @@ BaseSlide
 
 | Name | Description |
 | --- | --- |
-| getVersion () |  |
+| getVersion() |  |
 
  **Result:**
 long
@@ -360,7 +351,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getVersion () |  |
+| getVersion() |  |
 
  **Result:**
 long
@@ -373,7 +364,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| isNoEffects () | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
+| isNoEffects() | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
 
  **Result:**
 boolean
@@ -386,7 +377,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setBlurEffect ([Blur](../blur)) | Blur effect. Read/write IBlur. |
+| setBlurEffect([Blur](../blur)) | Blur effect. Read/write IBlur. |
 
 
 ---
@@ -396,7 +387,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setBlurEffect (double, boolean) | Sets blur effect. |
+| setBlurEffect(double, boolean) | Sets blur effect. |
 
  **Parameters:**
 
@@ -413,7 +404,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setFillOverlayEffect ([FillOverlay](../filloverlay)) | Fill overlay effect. Read/write IFillOverlay. |
+| setFillOverlayEffect([FillOverlay](../filloverlay)) | Fill overlay effect. Read/write IFillOverlay. |
 
 
 ---
@@ -423,7 +414,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setGlowEffect ([Glow](../glow)) | Glow effect. Read/write IGlow. |
+| setGlowEffect([Glow](../glow)) | Glow effect. Read/write IGlow. |
 
 
 ---
@@ -433,7 +424,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setInnerShadowEffect ([InnerShadow](../innershadow)) | Inner shadow. Read/write IInnerShadow. |
+| setInnerShadowEffect([InnerShadow](../innershadow)) | Inner shadow. Read/write IInnerShadow. |
 
 
 ---
@@ -443,7 +434,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setOuterShadowEffect ([OuterShadow](../outershadow)) | Outer shadow. Read/write IOuterShadow. |
+| setOuterShadowEffect([OuterShadow](../outershadow)) | Outer shadow. Read/write IOuterShadow. |
 
 
 ---
@@ -453,7 +444,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setPresetShadowEffect ([PresetShadow](../presetshadow)) | Preset shadow. Read/write IPresetShadow. |
+| setPresetShadowEffect([PresetShadow](../presetshadow)) | Preset shadow. Read/write IPresetShadow. |
 
 
 ---
@@ -463,7 +454,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setReflectionEffect ([Reflection](../reflection)) | Reflection. Read/write IReflection. |
+| setReflectionEffect([Reflection](../reflection)) | Reflection. Read/write IReflection. |
 
 
 ---
@@ -473,7 +464,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setSoftEdgeEffect ([SoftEdge](../softedge)) | Soft edge. Read/write ISoftEdge. |
+| setSoftEdgeEffect([SoftEdge](../softedge)) | Soft edge. Read/write ISoftEdge. |
 
 
 ---

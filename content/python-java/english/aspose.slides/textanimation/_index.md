@@ -28,7 +28,7 @@ TextAnimation
 
 | Name | Description |
 | --- | --- |
-| addEffect (int, int, int) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
+| addEffect(int, int, int) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ TextAnimation
 
 | Name | Description |
 | --- | --- |
-| getBuildType () | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
+| getBuildType() | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
 
  **Result:**
 int
@@ -62,7 +62,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectAnimateBackgroundShape () | Linked shape effect with group or not (null). Read/write IEffect. |
+| getEffectAnimateBackgroundShape() | Linked shape effect with group or not (null). Read/write IEffect. |
 
  **Result:**
 [Effect](../effect)
@@ -75,7 +75,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setBuildType (int) | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
+| setBuildType(int) | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
 
 
 ---
@@ -85,7 +85,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setEffectAnimateBackgroundShape ([Effect](../effect)) | Linked shape effect with group or not (null). Read/write IEffect. |
+| setEffectAnimateBackgroundShape([Effect](../effect)) | Linked shape effect with group or not (null). Read/write IEffect. |
 
 
 ---

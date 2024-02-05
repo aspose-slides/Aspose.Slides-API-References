@@ -15,7 +15,7 @@ url: /aspose.slides/splittransition/
 
 | Name | Description |
 | --- | --- |
-| getDirection () | Direction of transition split. Read/write TransitionInOutDirectionType. |
+| getDirection() | Direction of transition split. Read/write TransitionInOutDirectionType. |
 
  **Result:**
 int
@@ -28,7 +28,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getOrientation () | Orientation of transition split. Read/write Orientation. |
+| getOrientation() | Orientation of transition split. Read/write Orientation. |
 
  **Result:**
 byte
@@ -41,7 +41,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setDirection (int) | Direction of transition split. Read/write TransitionInOutDirectionType. |
+| setDirection(int) | Direction of transition split. Read/write TransitionInOutDirectionType. |
 
 
 ---
@@ -51,7 +51,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setOrientation (byte) | Orientation of transition split. Read/write Orientation. |
+| setOrientation(byte) | Orientation of transition split. Read/write Orientation. |
 
 
 ---

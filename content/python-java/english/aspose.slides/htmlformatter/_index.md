@@ -15,7 +15,7 @@ url: /aspose.slides/htmlformatter/
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
@@ -34,7 +34,7 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
@@ -53,7 +53,7 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
@@ -72,7 +72,7 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
@@ -91,7 +91,7 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
@@ -110,7 +110,7 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createDocumentFormatter (String, boolean) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
+| createDocumentFormatter(String, boolean) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
 
  **Parameters:**
 
@@ -130,7 +130,7 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createSlideShowFormatter (String, boolean) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
+| createSlideShowFormatter(String, boolean) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
 
  **Parameters:**
 

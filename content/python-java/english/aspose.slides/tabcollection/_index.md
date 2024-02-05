@@ -15,7 +15,7 @@ url: /aspose.slides/tabcollection/
 
 | Name | Description |
 | --- | --- |
-| add (double, int) | Adds a Tab to the collection. |
+| add(double, int) | Adds a Tab to the collection. |
 
  **Result:**
 [Tab](../tab)
@@ -28,7 +28,7 @@ url: /aspose.slides/tabcollection/
 
 | Name | Description |
 | --- | --- |
-| add ([Tab](../tab)) | Adds a Tab to the collection. |
+| add([Tab](../tab)) | Adds a Tab to the collection. |
 
  **Parameters:**
 
@@ -47,7 +47,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| clear () | Removes all elements from the collection. |
+| clear() | Removes all elements from the collection. |
 
 
 ---
@@ -57,7 +57,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| equals (Object) | Determines whether two TabsEx instances are equal. |
+| equals(Object) | Determines whether two TabsEx instances are equal. |
 
  **Parameters:**
 
@@ -76,7 +76,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+| getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
  **Result:**
 Object
@@ -89,7 +89,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Gets the element at the specified index. Read-only Tab. |
+| get_Item(int) | Gets the element at the specified index. Read-only Tab. |
 
  **Result:**
 [Tab](../tab)
@@ -102,7 +102,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
  **Result:**
 boolean
@@ -115,7 +115,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -128,7 +128,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeAt (int) | Removes the element at the specified index of the collection. |
+| removeAt(int) | Removes the element at the specified index of the collection. |
 
  **Parameters:**
 
@@ -157,7 +157,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| size () | Gets the number of elements actually contained in the collection. Read-only int. |
+| size() | Gets the number of elements actually contained in the collection. Read-only int. |
 
  **Result:**
 int

@@ -15,7 +15,7 @@ url: /aspose.slides/rippletransition/
 
 | Name | Description |
 | --- | --- |
-| getDirection () | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
+| getDirection() | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
 
  **Result:**
 int
@@ -28,7 +28,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setDirection (int) | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
+| setDirection(int) | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
 
 
 ---

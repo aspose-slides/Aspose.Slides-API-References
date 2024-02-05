@@ -15,7 +15,7 @@ url: /aspose.slides/fontscheme/
 
 | Name | Description |
 | --- | --- |
-| getMajor () | Returns the fonts collection for a "heading" part of the slide. Read-only IFonts. |
+| getMajor() | Returns the fonts collection for a "heading" part of the slide. Read-only IFonts. |
 
  **Result:**
 [Fonts](../fonts)
@@ -28,7 +28,7 @@ url: /aspose.slides/fontscheme/
 
 | Name | Description |
 | --- | --- |
-| getMinor () | Returns the fonts collection for a "body" part of the slide. Read-only IFonts. |
+| getMinor() | Returns the fonts collection for a "body" part of the slide. Read-only IFonts. |
 
  **Result:**
 [Fonts](../fonts)
@@ -41,7 +41,7 @@ url: /aspose.slides/fontscheme/
 
 | Name | Description |
 | --- | --- |
-| getName () | Returns the font scheme name. Read/write String. |
+| getName() | Returns the font scheme name. Read/write String. |
 
  **Result:**
 String
@@ -54,7 +54,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| setName (String) | Returns the font scheme name. Read/write String. |
+| setName(String) | Returns the font scheme name. Read/write String. |
 
 
 ---

@@ -28,7 +28,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| autoByExtension (String, String) | Converts Presentation using the passed output path extension to determine the required export format. |
+| autoByExtension(String, String) | Converts Presentation using the passed output path extension to determine the required export format. |
 
  **Parameters:**
 
@@ -51,7 +51,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| toPdf (String, String) | Converts Presentation to PDF. |
+| toPdf(String, String) | Converts Presentation to PDF. |
 
  **Parameters:**
 
@@ -68,7 +68,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| toPdf (String, String, [PdfOptions](../pdfoptions)) | Converts Presentation to PDF. |
+| toPdf(String, String, [PdfOptions](../pdfoptions)) | Converts Presentation to PDF. |
 
  **Parameters:**
 
@@ -86,7 +86,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| toPdf ([Presentation](../presentation), String) | Converts Presentation to PDF. |
+| toPdf([Presentation](../presentation), String) | Converts Presentation to PDF. |
 
  **Parameters:**
 
@@ -103,7 +103,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| toPdf ([Presentation](../presentation), String, [PdfOptions](../pdfoptions)) | Converts Presentation to PDF. |
+| toPdf([Presentation](../presentation), String, [PdfOptions](../pdfoptions)) | Converts Presentation to PDF. |
 
  **Parameters:**
 
@@ -121,7 +121,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| toSvg (String) | Converts Presentation to SVG. |
+| toSvg(String) | Converts Presentation to SVG. |
 
  **Parameters:**
 
@@ -137,7 +137,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| toSvg (String, [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
+| toSvg(String, [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
 
  **Parameters:**
 
@@ -154,7 +154,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| toSvg ([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
+| toSvg([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
 
  **Parameters:**
 
@@ -171,7 +171,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| toSvg ([Presentation](../presentation), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |
+| toSvg([Presentation](../presentation), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |
 
  **Parameters:**
 
@@ -188,7 +188,7 @@ Convert
 
 | Name | Description |
 | --- | --- |
-| toSvg ([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |
+| toSvg([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |
 
  **Parameters:**
 

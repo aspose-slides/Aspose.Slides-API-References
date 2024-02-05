@@ -15,7 +15,7 @@ url: /aspose.slides/extracolorschemecollection/
 
 | Name | Description |
 | --- | --- |
-| getSyncRoot () | Returns an object that can be used to synchronize access to the collection. Read-only Object. Returns a synchronization root. Read-only Object. |
+| getSyncRoot() | Returns an object that can be used to synchronize access to the collection. Read-only Object. Returns a synchronization root. Read-only Object. |
 
  **Result:**
 Object
@@ -28,7 +28,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns an color scheme by index. Read-only ExtraColorScheme. |
+| get_Item(int) | Returns an color scheme by index. Read-only ExtraColorScheme. |
 
  **Result:**
 [ExtraColorScheme](../extracolorscheme)
@@ -41,7 +41,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| isSynchronized () | Returns a value indicating whether access to the ArrayList is synchronized (thread safe). Read-only boolean. |
+| isSynchronized() | Returns a value indicating whether access to the ArrayList is synchronized (thread safe). Read-only boolean. |
 
  **Result:**
 boolean
@@ -54,7 +54,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -67,7 +67,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -80,7 +80,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| size () | Returns a number of elements int the collection. Read-only int. |
+| size() | Returns a number of elements int the collection. Read-only int. |
 
  **Result:**
 int

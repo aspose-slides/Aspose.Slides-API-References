@@ -28,7 +28,7 @@ TabFactory
 
 | Name | Description |
 | --- | --- |
-| createTab (double, int) | Creates a new ITab instance. |
+| createTab(double, int) | Creates a new ITab instance. |
 
  **Parameters:**
 

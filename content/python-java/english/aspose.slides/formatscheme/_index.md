@@ -15,7 +15,7 @@ url: /aspose.slides/formatscheme/
 
 | Name | Description |
 | --- | --- |
-| getBackgroundFillStyles () | Returns a collection of theme defined background fill styles. Read-only IFillFormatCollection. |
+| getBackgroundFillStyles() | Returns a collection of theme defined background fill styles. Read-only IFillFormatCollection. |
 
  **Result:**
 [FillFormatCollection](../fillformatcollection)
@@ -28,7 +28,7 @@ url: /aspose.slides/formatscheme/
 
 | Name | Description |
 | --- | --- |
-| getEffectStyles () | Returns a collection of theme defined effect styles. Read-only IEffectStyleCollection. |
+| getEffectStyles() | Returns a collection of theme defined effect styles. Read-only IEffectStyleCollection. |
 
  **Result:**
 [EffectStyleCollection](../effectstylecollection)
@@ -41,7 +41,7 @@ url: /aspose.slides/formatscheme/
 
 | Name | Description |
 | --- | --- |
-| getFillStyles () | Returns a collection of theme defined fill styles. Read-only IFillFormatCollection. |
+| getFillStyles() | Returns a collection of theme defined fill styles. Read-only IFillFormatCollection. |
 
  **Result:**
 [FillFormatCollection](../fillformatcollection)
@@ -54,7 +54,7 @@ url: /aspose.slides/formatscheme/
 
 | Name | Description |
 | --- | --- |
-| getLineStyles () | Returns a collection of theme defined line styles. Read-only ILineFormatCollection. |
+| getLineStyles() | Returns a collection of theme defined line styles. Read-only ILineFormatCollection. |
 
  **Result:**
 [LineFormatCollection](../lineformatcollection)
@@ -67,7 +67,7 @@ url: /aspose.slides/formatscheme/
 
 | Name | Description |
 | --- | --- |
-| getPresentation () | Returns the parent presentation. Read-only IPresentation. |
+| getPresentation() | Returns the parent presentation. Read-only IPresentation. |
 
  **Result:**
 [Presentation](../presentation)
@@ -80,7 +80,7 @@ url: /aspose.slides/formatscheme/
 
 | Name | Description |
 | --- | --- |
-| getSlide () | Returns the parent slide. Read-only IBaseSlide. |
+| getSlide() | Returns the parent slide. Read-only IBaseSlide. |
 
  **Result:**
 [Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)

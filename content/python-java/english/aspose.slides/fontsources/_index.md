@@ -28,7 +28,7 @@ FontSources
 
 | Name | Description |
 | --- | --- |
-| getFontFolders () | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| getFontFolders() | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
 
  **Result:**
 String
@@ -41,7 +41,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getMemoryFonts () | A collection of fonts represented as byte arrays. |
+| getMemoryFonts() | A collection of fonts represented as byte arrays. |
 
  **Result:**
 byte
@@ -54,7 +54,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setFontFolders (java.lang.String[]) | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| setFontFolders(java.lang.String[]) | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
 
 
 ---
@@ -64,7 +64,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setMemoryFonts (byte[][]) | A collection of fonts represented as byte arrays. |
+| setMemoryFonts(byte[][]) | A collection of fonts represented as byte arrays. |
 
 
 ---

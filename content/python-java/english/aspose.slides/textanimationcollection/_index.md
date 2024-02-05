@@ -28,7 +28,7 @@ TextAnimationCollection
 
 | Name | Description |
 | --- | --- |
-| add () | Adds new text animation to the collection. |
+| add() | Adds new text animation to the collection. |
 
  **Result:**
 TextAnimation
@@ -41,7 +41,7 @@ TextAnimation
 
 | Name | Description |
 | --- | --- |
-| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+| getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
  **Result:**
 Object
@@ -54,7 +54,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns element by index. |
+| get_Item(int) | Returns element by index. |
 
  **Result:**
 [TextAnimation](../textanimation)
@@ -67,7 +67,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([SummaryZoomSection](../summaryzoomsection)) | Returns all elements |
+| get_Item([SummaryZoomSection](../summaryzoomsection)) | Returns all elements |
 
  **Parameters:**
 
@@ -86,7 +86,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([AutoShape](../autoshape)) | Returns all elements |
+| get_Item([AutoShape](../autoshape)) | Returns all elements |
 
  **Parameters:**
 
@@ -105,7 +105,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
+| get_Item([AudioFrame](../audioframe)) | Returns all elements |
 
  **Parameters:**
 
@@ -124,7 +124,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([OleObjectFrame](../oleobjectframe)) | Returns all elements |
+| get_Item([OleObjectFrame](../oleobjectframe)) | Returns all elements |
 
  **Parameters:**
 
@@ -143,7 +143,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
+| get_Item([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
 
  **Parameters:**
 
@@ -162,7 +162,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([ZoomFrame](../zoomframe)) | Returns all elements |
+| get_Item([ZoomFrame](../zoomframe)) | Returns all elements |
 
  **Parameters:**
 
@@ -181,7 +181,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
+| get_Item([GraphicalObject](../graphicalobject)) | Returns all elements |
 
  **Parameters:**
 
@@ -200,7 +200,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([PictureFrame](../pictureframe)) | Returns all elements |
+| get_Item([PictureFrame](../pictureframe)) | Returns all elements |
 
  **Parameters:**
 
@@ -219,7 +219,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([ZoomObject](../zoomobject)) | Returns all elements |
+| get_Item([ZoomObject](../zoomobject)) | Returns all elements |
 
  **Parameters:**
 
@@ -238,7 +238,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
+| get_Item([VideoFrame](../videoframe)) | Returns all elements |
 
  **Parameters:**
 
@@ -257,7 +257,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([SmartArtShape](../smartartshape)) | Returns all elements |
+| get_Item([SmartArtShape](../smartartshape)) | Returns all elements |
 
  **Parameters:**
 
@@ -276,7 +276,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([SmartArt](../smartart)) | Returns all elements |
+| get_Item([SmartArt](../smartart)) | Returns all elements |
 
  **Parameters:**
 
@@ -295,7 +295,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Ink](../ink)) | Returns all elements |
+| get_Item([Ink](../ink)) | Returns all elements |
 
  **Parameters:**
 
@@ -314,7 +314,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Chart](../chart)) | Returns all elements |
+| get_Item([Chart](../chart)) | Returns all elements |
 
  **Parameters:**
 
@@ -333,7 +333,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([GroupShape](../groupshape)) | Returns all elements |
+| get_Item([GroupShape](../groupshape)) | Returns all elements |
 
  **Parameters:**
 
@@ -352,7 +352,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Table](../table)) | Returns all elements |
+| get_Item([Table](../table)) | Returns all elements |
 
  **Parameters:**
 
@@ -371,7 +371,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([SectionZoomFrame](../sectionzoomframe)) | Returns all elements |
+| get_Item([SectionZoomFrame](../sectionzoomframe)) | Returns all elements |
 
  **Parameters:**
 
@@ -390,7 +390,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Shape](../shape)) | Returns all elements |
+| get_Item([Shape](../shape)) | Returns all elements |
 
  **Parameters:**
 
@@ -409,7 +409,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([LegacyDiagram](../legacydiagram)) | Returns all elements |
+| get_Item([LegacyDiagram](../legacydiagram)) | Returns all elements |
 
  **Parameters:**
 
@@ -428,7 +428,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Connector](../connector)) | Returns all elements |
+| get_Item([Connector](../connector)) | Returns all elements |
 
  **Parameters:**
 
@@ -447,7 +447,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
  **Result:**
 boolean
@@ -460,7 +460,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -473,7 +473,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -486,7 +486,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| size () | Returns a number of elements in the collection. Read-only int. |
+| size() | Returns a number of elements in the collection. Read-only int. |
 
  **Result:**
 int

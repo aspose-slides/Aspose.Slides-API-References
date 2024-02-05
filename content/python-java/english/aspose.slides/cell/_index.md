@@ -15,7 +15,7 @@ url: /aspose.slides/cell/
 
 | Name | Description |
 | --- | --- |
-| getAnchorCenter () | Determines whether or not text box centered inside a cell. Read/write boolean. |
+| getAnchorCenter() | Determines whether or not text box centered inside a cell. Read/write boolean. |
 
  **Result:**
 boolean
@@ -28,7 +28,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getCellFormat () | Returns the CellFormat object that contains formatting properties for this cell. Read-only ICellFormat. |
+| getCellFormat() | Returns the CellFormat object that contains formatting properties for this cell. Read-only ICellFormat. |
 
  **Result:**
 [CellFormat](../cellformat)
@@ -41,7 +41,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getColSpan () | Returns the number of grid columns in the parent table's table grid which shall be spanned by the current cell. This property allows cells to have the appearance of being merged, as they span vertical boundaries of other cells in the table. Read-only int. |
+| getColSpan() | Returns the number of grid columns in the parent table's table grid which shall be spanned by the current cell. This property allows cells to have the appearance of being merged, as they span vertical boundaries of other cells in the table. Read-only int. |
 
  **Result:**
 int
@@ -54,7 +54,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getFirstColumn () | Gets first column of cell. Read-only IColumn. |
+| getFirstColumn() | Gets first column of cell. Read-only IColumn. |
 
  **Result:**
 [Column](../column)
@@ -67,7 +67,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getFirstColumnIndex () | Returns an index of first column, covered by the cell. Read-only int. |
+| getFirstColumnIndex() | Returns an index of first column, covered by the cell. Read-only int. |
 
  **Result:**
 int
@@ -80,7 +80,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getFirstRow () | Gets first row of cell. Read-only IRow. |
+| getFirstRow() | Gets first row of cell. Read-only IRow. |
 
  **Result:**
 [Row](../row)
@@ -93,7 +93,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getFirstRowIndex () | Returns an index of first row, covered by the cell. Read-only int. |
+| getFirstRowIndex() | Returns an index of first row, covered by the cell. Read-only int. |
 
  **Result:**
 int
@@ -106,7 +106,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getHeight () | Returns the height of the cell. Read-only double. |
+| getHeight() | Returns the height of the cell. Read-only double. |
 
  **Result:**
 double
@@ -119,7 +119,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMarginBottom () | Returns or sets the bottom margin in a TextFrame. Read/write double. |
+| getMarginBottom() | Returns or sets the bottom margin in a TextFrame. Read/write double. |
 
  **Result:**
 double
@@ -132,7 +132,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMarginLeft () | Returns or sets the left margin in a TextFrame. Read/write double. |
+| getMarginLeft() | Returns or sets the left margin in a TextFrame. Read/write double. |
 
  **Result:**
 double
@@ -145,7 +145,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMarginRight () | Returns or sets the right margin in a TextFrame. Read/write double. |
+| getMarginRight() | Returns or sets the right margin in a TextFrame. Read/write double. |
 
  **Result:**
 double
@@ -158,7 +158,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMarginTop () | Returns or sets the top margin in a TextFrame. Read/write double. |
+| getMarginTop() | Returns or sets the top margin in a TextFrame. Read/write double. |
 
  **Result:**
 double
@@ -171,7 +171,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMinimalHeight () | Returns the minimum height of a cell. This is a sum of minimal heights of all rows cowered by the cell. Read-only double. |
+| getMinimalHeight() | Returns the minimum height of a cell. This is a sum of minimal heights of all rows cowered by the cell. Read-only double. |
 
  **Result:**
 double
@@ -184,7 +184,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getOffsetX () | Returns a distance from left side of a table to left side of a cell. Read-only double. |
+| getOffsetX() | Returns a distance from left side of a table to left side of a cell. Read-only double. |
 
  **Result:**
 double
@@ -197,7 +197,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getOffsetY () | Returns a distance from top side of a table to top side of a cell. Read-only double. |
+| getOffsetY() | Returns a distance from top side of a table to top side of a cell. Read-only double. |
 
  **Result:**
 double
@@ -210,7 +210,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getPresentation () | Returns the parent presentation of a cell. Read-only IPresentation. |
+| getPresentation() | Returns the parent presentation of a cell. Read-only IPresentation. |
 
  **Result:**
 [Presentation](../presentation)
@@ -223,7 +223,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getRowSpan () | Returns the number of rows that a merged cell spans. This is used in combination with the vMerge attribute on other cells in order to specify the beginning cell of a horizontal merge. Read-only int. |
+| getRowSpan() | Returns the number of rows that a merged cell spans. This is used in combination with the vMerge attribute on other cells in order to specify the beginning cell of a horizontal merge. Read-only int. |
 
  **Result:**
 int
@@ -236,7 +236,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getSlide () | Returns the parent slide of a cell. Read-only IBaseSlide. |
+| getSlide() | Returns the parent slide of a cell. Read-only IBaseSlide. |
 
  **Result:**
 [Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)
@@ -249,7 +249,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getTable () | Returns the parent Table object for a cell. Read-only ITable. |
+| getTable() | Returns the parent Table object for a cell. Read-only ITable. |
 
  **Result:**
 [Table](../table)
@@ -262,7 +262,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getTextAnchorType () | Returns or sets the text anchor type. Read/write TextAnchorType. |
+| getTextAnchorType() | Returns or sets the text anchor type. Read/write TextAnchorType. |
 
  **Result:**
 byte
@@ -275,7 +275,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getTextFrame () | Returns the text frame of a cell. Read-only ITextFrame. |
+| getTextFrame() | Returns the text frame of a cell. Read-only ITextFrame. |
 
  **Result:**
 [TextFrame](../textframe)
@@ -288,7 +288,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getTextVerticalType () | Returns or sets the type of vertical text. Read/write TextVerticalType. |
+| getTextVerticalType() | Returns or sets the type of vertical text. Read/write TextVerticalType. |
 
  **Result:**
 byte
@@ -301,7 +301,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getWidth () | Returns the width of the cell. Read-only double. |
+| getWidth() | Returns the width of the cell. Read-only double. |
 
  **Result:**
 double
@@ -314,7 +314,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| isMergedCell () | Returns true if the cell is merged with any adjusted cell, false otherwise. Read-only boolean. |
+| isMergedCell() | Returns true if the cell is merged with any adjusted cell, false otherwise. Read-only boolean. |
 
  **Result:**
 boolean
@@ -327,7 +327,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAnchorCenter (boolean) | Determines whether or not text box centered inside a cell. Read/write boolean. |
+| setAnchorCenter(boolean) | Determines whether or not text box centered inside a cell. Read/write boolean. |
 
 
 ---
@@ -337,7 +337,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMarginBottom (double) | Returns or sets the bottom margin in a TextFrame. Read/write double. |
+| setMarginBottom(double) | Returns or sets the bottom margin in a TextFrame. Read/write double. |
 
 
 ---
@@ -347,7 +347,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMarginLeft (double) | Returns or sets the left margin in a TextFrame. Read/write double. |
+| setMarginLeft(double) | Returns or sets the left margin in a TextFrame. Read/write double. |
 
 
 ---
@@ -357,7 +357,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMarginRight (double) | Returns or sets the right margin in a TextFrame. Read/write double. |
+| setMarginRight(double) | Returns or sets the right margin in a TextFrame. Read/write double. |
 
 
 ---
@@ -367,7 +367,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMarginTop (double) | Returns or sets the top margin in a TextFrame. Read/write double. |
+| setMarginTop(double) | Returns or sets the top margin in a TextFrame. Read/write double. |
 
 
 ---
@@ -377,7 +377,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTextAnchorType (byte) | Returns or sets the text anchor type. Read/write TextAnchorType. |
+| setTextAnchorType(byte) | Returns or sets the text anchor type. Read/write TextAnchorType. |
 
 
 ---
@@ -387,7 +387,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTextVerticalType (byte) | Returns or sets the type of vertical text. Read/write TextVerticalType. |
+| setTextVerticalType(byte) | Returns or sets the type of vertical text. Read/write TextVerticalType. |
 
 
 ---
@@ -397,7 +397,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| splitByColSpan (int) | Splits the cell to two cells by index of column. |
+| splitByColSpan(int) | Splits the cell to two cells by index of column. |
 
  **Parameters:**
 
@@ -413,7 +413,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| splitByHeight (double) | Splits the cell by height. |
+| splitByHeight(double) | Splits the cell by height. |
 
  **Parameters:**
 
@@ -429,7 +429,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| splitByRowSpan (int) | Splits the cell to two cells by index of row. |
+| splitByRowSpan(int) | Splits the cell to two cells by index of row. |
 
  **Parameters:**
 
@@ -445,7 +445,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| splitByWidth (double) | Splits the cell by width. |
+| splitByWidth(double) | Splits the cell by width. |
 
  **Parameters:**
 

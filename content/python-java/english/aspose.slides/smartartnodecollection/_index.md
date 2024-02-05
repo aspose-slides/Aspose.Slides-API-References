@@ -15,7 +15,7 @@ url: /aspose.slides/smartartnodecollection/
 
 | Name | Description |
 | --- | --- |
-| addNode () | Add new smart art node or sub node. |
+| addNode() | Add new smart art node or sub node. |
 
  **Result:**
 [SmartArtNode](../smartartnode)
@@ -28,7 +28,7 @@ url: /aspose.slides/smartartnodecollection/
 
 | Name | Description |
 | --- | --- |
-| addNodeByPosition (int) | Add new node in the selected position of nodes collection |
+| addNodeByPosition(int) | Add new node in the selected position of nodes collection |
 
  **Parameters:**
 
@@ -53,7 +53,7 @@ url: /aspose.slides/smartartnodecollection/
 
 | Name | Description |
 | --- | --- |
-| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+| getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
  **Result:**
 Object
@@ -66,7 +66,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns node by index |
+| get_Item(int) | Returns node by index |
 
  **Parameters:**
 
@@ -85,7 +85,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
  **Result:**
 boolean
@@ -98,7 +98,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -111,7 +111,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -124,7 +124,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeNode (int) | Remove node or sub node by index |
+| removeNode(int) | Remove node or sub node by index |
 
  **Parameters:**
 
@@ -146,7 +146,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeNode ([SmartArtNode](../smartartnode)) | Remove node or sub node |
+| removeNode([SmartArtNode](../smartartnode)) | Remove node or sub node |
 
  **Parameters:**
 
@@ -162,7 +162,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| size () | Returns count of nodes in collection Read-only int Read-only int. |
+| size() | Returns count of nodes in collection Read-only int Read-only int. |
 
  **Result:**
 int

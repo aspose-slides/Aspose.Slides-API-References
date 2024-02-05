@@ -30,7 +30,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createAlphCeiling () | Creates Alpha Ceiling effect. |
+| createAlphCeiling() | Creates Alpha Ceiling effect. |
 
  **Result:**
 [AlphaCeiling](../alphaceiling)
@@ -43,7 +43,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createAlphaBiLevel (float) | Creates Alpha BiLevel effect. |
+| createAlphaBiLevel(float) | Creates Alpha BiLevel effect. |
 
  **Parameters:**
 
@@ -62,7 +62,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createAlphaFloor () | Creates Alpha floor effect. |
+| createAlphaFloor() | Creates Alpha floor effect. |
 
  **Result:**
 [AlphaFloor](../alphafloor)
@@ -75,7 +75,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createAlphaInverse () | Creates Alpha inverse effect. |
+| createAlphaInverse() | Creates Alpha inverse effect. |
 
  **Result:**
 [AlphaInverse](../alphainverse)
@@ -88,7 +88,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createAlphaModulate () | Creates Alpha modulate effect. |
+| createAlphaModulate() | Creates Alpha modulate effect. |
 
  **Result:**
 [AlphaModulate](../alphamodulate)
@@ -101,7 +101,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createAlphaModulateFixed (float) | Creates Alpha modulate fixed effect. |
+| createAlphaModulateFixed(float) | Creates Alpha modulate fixed effect. |
 
  **Parameters:**
 
@@ -120,7 +120,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createAlphaReplace (float) | Creates Alpha replace effect. |
+| createAlphaReplace(float) | Creates Alpha replace effect. |
 
  **Parameters:**
 
@@ -139,7 +139,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createBiLevel (float) | Creates BiLevel effect. |
+| createBiLevel(float) | Creates BiLevel effect. |
 
  **Parameters:**
 
@@ -158,7 +158,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createBlur (double, boolean) | Creates Blur effect. |
+| createBlur(double, boolean) | Creates Blur effect. |
 
  **Parameters:**
 
@@ -178,7 +178,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createColorChange () | Creates Color change effect. |
+| createColorChange() | Creates Color change effect. |
 
  **Result:**
 [ColorChange](../colorchange)
@@ -191,7 +191,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createColorReplace () | Creates Color replace effect. |
+| createColorReplace() | Creates Color replace effect. |
 
  **Result:**
 [ColorReplace](../colorreplace)
@@ -204,7 +204,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createDuotone () | Creates Duotone effect. |
+| createDuotone() | Creates Duotone effect. |
 
  **Result:**
 [Duotone](../duotone)
@@ -217,7 +217,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createFillOverlay () | Creates Fill overlay effect. |
+| createFillOverlay() | Creates Fill overlay effect. |
 
  **Result:**
 [FillOverlay](../filloverlay)
@@ -230,7 +230,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createGrayScale () | Creates Gray scale effect. |
+| createGrayScale() | Creates Gray scale effect. |
 
  **Result:**
 [GrayScale](../grayscale)
@@ -243,7 +243,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createHSL (float, float, float) | Creates Hue Saturation Luminance effect. |
+| createHSL(float, float, float) | Creates Hue Saturation Luminance effect. |
 
  **Parameters:**
 
@@ -264,7 +264,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createLuminance (float, float) | Createtes Luminance effect. |
+| createLuminance(float, float) | Createtes Luminance effect. |
 
  **Parameters:**
 
@@ -284,7 +284,7 @@ ImageTransformOperationFactory
 
 | Name | Description |
 | --- | --- |
-| createTint (float, float) | Creates Tint effect. |
+| createTint(float, float) | Creates Tint effect. |
 
  **Parameters:**
 

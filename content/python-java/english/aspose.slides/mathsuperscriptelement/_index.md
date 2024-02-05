@@ -2876,7 +2876,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result:**
 MathSuperscriptElement
@@ -2954,7 +2954,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result:**
 MathSuperscriptElement
@@ -4358,7 +4358,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result:**
 MathSuperscriptElement
@@ -4436,7 +4436,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
+| MathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathSuperscriptElement class. |
 
  **Result:**
 MathSuperscriptElement
@@ -4709,7 +4709,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| accent (char) | Sets an accent mark (a character on the top of this element) |
+| accent(char) | Sets an accent mark (a character on the top of this element) |
 
  **Parameters:**
 
@@ -4728,7 +4728,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathAccent](../mathaccent)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathAccent](../mathaccent)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4747,7 +4747,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathRadical](../mathradical)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathRadical](../mathradical)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4766,7 +4766,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathSubscriptElement](../mathsubscriptelement)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathSubscriptElement](../mathsubscriptelement)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4785,7 +4785,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathSuperscriptElement](../mathsuperscriptelement)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathSuperscriptElement](../mathsuperscriptelement)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4804,7 +4804,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathMatrix](../mathmatrix)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathMatrix](../mathmatrix)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4823,7 +4823,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathematicalText](../mathematicaltext)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathematicalText](../mathematicaltext)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4842,7 +4842,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathBorderBox](../mathborderbox)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathBorderBox](../mathborderbox)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4861,7 +4861,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathDelimiter](../mathdelimiter)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathDelimiter](../mathdelimiter)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4880,7 +4880,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathFraction](../mathfraction)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathFraction](../mathfraction)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4899,7 +4899,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathLimit](../mathlimit)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathLimit](../mathlimit)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4918,7 +4918,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathGroupingCharacter](../mathgroupingcharacter)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathGroupingCharacter](../mathgroupingcharacter)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4937,7 +4937,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4956,7 +4956,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathBlock](../mathblock)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathBlock](../mathblock)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4975,7 +4975,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathNaryOperator](../mathnaryoperator)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathNaryOperator](../mathnaryoperator)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -4994,7 +4994,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathArray](../matharray)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathArray](../matharray)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -5013,7 +5013,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathBar](../mathbar)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathBar](../mathbar)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -5032,7 +5032,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathBox](../mathbox)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathBox](../mathbox)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -5051,7 +5051,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -5070,7 +5070,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathFunction](../mathfunction)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction([MathFunction](../mathfunction)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -5089,7 +5089,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (String) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction(String) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -5108,7 +5108,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction(int) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
@@ -5127,7 +5127,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathAccent](../mathaccent)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathAccent](../mathaccent)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5147,7 +5147,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathRadical](../mathradical)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathRadical](../mathradical)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5167,7 +5167,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathSubscriptElement](../mathsubscriptelement)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathSubscriptElement](../mathsubscriptelement)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5187,7 +5187,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathSuperscriptElement](../mathsuperscriptelement)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathSuperscriptElement](../mathsuperscriptelement)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5207,7 +5207,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathMatrix](../mathmatrix)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathMatrix](../mathmatrix)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5227,7 +5227,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathematicalText](../mathematicaltext)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathematicalText](../mathematicaltext)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5247,7 +5247,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathBorderBox](../mathborderbox)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathBorderBox](../mathborderbox)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5267,7 +5267,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathDelimiter](../mathdelimiter)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathDelimiter](../mathdelimiter)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5287,7 +5287,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathFraction](../mathfraction)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathFraction](../mathfraction)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5307,7 +5307,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathLimit](../mathlimit)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathLimit](../mathlimit)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5327,7 +5327,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathGroupingCharacter](../mathgroupingcharacter)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathGroupingCharacter](../mathgroupingcharacter)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5347,7 +5347,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5367,7 +5367,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathBlock](../mathblock)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathBlock](../mathblock)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5387,7 +5387,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathNaryOperator](../mathnaryoperator)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathNaryOperator](../mathnaryoperator)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5407,7 +5407,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathArray](../matharray)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathArray](../matharray)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5427,7 +5427,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathBar](../mathbar)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathBar](../mathbar)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5447,7 +5447,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathBox](../mathbox)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathBox](../mathbox)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5467,7 +5467,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5487,7 +5487,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathFunction](../mathfunction)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, [MathFunction](../mathfunction)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5507,7 +5507,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, String) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction(int, String) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
@@ -5527,7 +5527,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathAccent](../mathaccent)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathAccent](../mathaccent)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5546,7 +5546,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathRadical](../mathradical)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathRadical](../mathradical)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5565,7 +5565,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathSubscriptElement](../mathsubscriptelement)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathSubscriptElement](../mathsubscriptelement)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5584,7 +5584,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5603,7 +5603,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathMatrix](../mathmatrix)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathMatrix](../mathmatrix)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5622,7 +5622,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathematicalText](../mathematicaltext)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathematicalText](../mathematicaltext)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5641,7 +5641,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathBorderBox](../mathborderbox)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathBorderBox](../mathborderbox)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5660,7 +5660,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathDelimiter](../mathdelimiter)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathDelimiter](../mathdelimiter)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5679,7 +5679,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathFraction](../mathfraction)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathFraction](../mathfraction)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5698,7 +5698,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathLimit](../mathlimit)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathLimit](../mathlimit)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5717,7 +5717,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5736,7 +5736,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5755,7 +5755,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathBlock](../mathblock)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathBlock](../mathblock)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5774,7 +5774,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathNaryOperator](../mathnaryoperator)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathNaryOperator](../mathnaryoperator)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5793,7 +5793,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathArray](../matharray)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathArray](../matharray)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5812,7 +5812,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathBar](../mathbar)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathBar](../mathbar)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5831,7 +5831,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathBox](../mathbox)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathBox](../mathbox)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5850,7 +5850,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5869,7 +5869,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathFunction](../mathfunction)) | Creates a fraction with this numerator and specified denominator |
+| divide([MathFunction](../mathfunction)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5888,7 +5888,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide (String) | Creates a fraction with this numerator and specified denominator |
+| divide(String) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5907,7 +5907,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathAccent](../mathaccent), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathAccent](../mathaccent), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5927,7 +5927,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathRadical](../mathradical), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathRadical](../mathradical), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5947,7 +5947,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathSubscriptElement](../mathsubscriptelement), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathSubscriptElement](../mathsubscriptelement), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5967,7 +5967,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -5987,7 +5987,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathMatrix](../mathmatrix), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathMatrix](../mathmatrix), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6007,7 +6007,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathematicalText](../mathematicaltext), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathematicalText](../mathematicaltext), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6027,7 +6027,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathBorderBox](../mathborderbox), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathBorderBox](../mathborderbox), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6047,7 +6047,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathDelimiter](../mathdelimiter), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathDelimiter](../mathdelimiter), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6067,7 +6067,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathFraction](../mathfraction), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathFraction](../mathfraction), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6087,7 +6087,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathLimit](../mathlimit), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathLimit](../mathlimit), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6107,7 +6107,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6127,7 +6127,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6147,7 +6147,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathBlock](../mathblock), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathBlock](../mathblock), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6167,7 +6167,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathNaryOperator](../mathnaryoperator), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathNaryOperator](../mathnaryoperator), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6187,7 +6187,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathArray](../matharray), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathArray](../matharray), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6207,7 +6207,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathBar](../mathbar), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathBar](../mathbar), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6227,7 +6227,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathBox](../mathbox), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathBox](../mathbox), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6247,7 +6247,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6267,7 +6267,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide ([MathFunction](../mathfunction), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide([MathFunction](../mathfunction), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6287,7 +6287,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| divide (String, int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide(String, int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
@@ -6307,7 +6307,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| enclose () | Encloses a math element in parenthesis |
+| enclose() | Encloses a math element in parenthesis |
 
  **Result:**
 [MathDelimiter](../mathdelimiter)
@@ -6320,7 +6320,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| enclose (char, char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
+| enclose(char, char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
 
  **Parameters:**
 
@@ -6340,7 +6340,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathAccent](../mathaccent)) | Takes a function of an argument using this instance as the function name |
+| function([MathAccent](../mathaccent)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6359,7 +6359,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathRadical](../mathradical)) | Takes a function of an argument using this instance as the function name |
+| function([MathRadical](../mathradical)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6378,7 +6378,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathSubscriptElement](../mathsubscriptelement)) | Takes a function of an argument using this instance as the function name |
+| function([MathSubscriptElement](../mathsubscriptelement)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6397,7 +6397,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathSuperscriptElement](../mathsuperscriptelement)) | Takes a function of an argument using this instance as the function name |
+| function([MathSuperscriptElement](../mathsuperscriptelement)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6416,7 +6416,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathMatrix](../mathmatrix)) | Takes a function of an argument using this instance as the function name |
+| function([MathMatrix](../mathmatrix)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6435,7 +6435,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathematicalText](../mathematicaltext)) | Takes a function of an argument using this instance as the function name |
+| function([MathematicalText](../mathematicaltext)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6454,7 +6454,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathBorderBox](../mathborderbox)) | Takes a function of an argument using this instance as the function name |
+| function([MathBorderBox](../mathborderbox)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6473,7 +6473,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathDelimiter](../mathdelimiter)) | Takes a function of an argument using this instance as the function name |
+| function([MathDelimiter](../mathdelimiter)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6492,7 +6492,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathFraction](../mathfraction)) | Takes a function of an argument using this instance as the function name |
+| function([MathFraction](../mathfraction)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6511,7 +6511,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathLimit](../mathlimit)) | Takes a function of an argument using this instance as the function name |
+| function([MathLimit](../mathlimit)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6530,7 +6530,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathGroupingCharacter](../mathgroupingcharacter)) | Takes a function of an argument using this instance as the function name |
+| function([MathGroupingCharacter](../mathgroupingcharacter)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6549,7 +6549,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes a function of an argument using this instance as the function name |
+| function([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6568,7 +6568,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathBlock](../mathblock)) | Takes a function of an argument using this instance as the function name |
+| function([MathBlock](../mathblock)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6587,7 +6587,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathNaryOperator](../mathnaryoperator)) | Takes a function of an argument using this instance as the function name |
+| function([MathNaryOperator](../mathnaryoperator)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6606,7 +6606,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathArray](../matharray)) | Takes a function of an argument using this instance as the function name |
+| function([MathArray](../matharray)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6625,7 +6625,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathBar](../mathbar)) | Takes a function of an argument using this instance as the function name |
+| function([MathBar](../mathbar)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6644,7 +6644,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathBox](../mathbox)) | Takes a function of an argument using this instance as the function name |
+| function([MathBox](../mathbox)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6663,7 +6663,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes a function of an argument using this instance as the function name |
+| function([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6682,7 +6682,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function ([MathFunction](../mathfunction)) | Takes a function of an argument using this instance as the function name |
+| function([MathFunction](../mathfunction)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6701,7 +6701,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| function (String) | Takes a function of an argument using this instance as the function name |
+| function(String) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
@@ -6720,7 +6720,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| getBase () | Base argument |
+| getBase() | Base argument |
 
  **Result:**
 [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [BaseScript](../basescript), [MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), [MathBar](../mathbar), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)
@@ -6733,7 +6733,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| getChildren () | Get children elements |
+| getChildren() | Get children elements |
 
  **Result:**
 [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [BaseScript](../basescript), [MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), [MathBar](../mathbar), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)
@@ -6746,7 +6746,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| getChildren () | Get children elements |
+| getChildren() | Get children elements |
 
  **Result:**
 [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [BaseScript](../basescript), [MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), [MathBar](../mathbar), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)
@@ -6759,7 +6759,7 @@ MathSuperscriptElement
 
 | Name | Description |
 | --- | --- |
-| getControlCharacterProperties () | Control Character Properties |
+| getControlCharacterProperties() | Control Character Properties |
 
  **Result:**
 OmmlControlCharacterPPTXUnsupportedProps
@@ -6772,10 +6772,7 @@ OmmlControlCharacterPPTXUnsupportedProps
 
 | Name | Description |
 | --- | --- |
-| getParent_Immediate () | Returns Parent_Immediate object. Read-only IDOMObject. |
-
- **Result:**
-DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](../rotationeffect), [ChartTitle](../charttitle), [MathBar](../mathbar), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartDataWorksheet](../chartdataworksheet), [SoftEdge](../softedge), [Audio](../audio), [ChartWall](../chartwall), [BaseOverrideThemeManager](../baseoverridethememanager), [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager), ThemeableLineFormat, [UpDownBarsManager](../updownbarsmanager), [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [Format](../format), [GradientFormat](../gradientformat), [ThreeDFormat](../threedformat), [Slide](../slide), [TabCollection](../tabcollection), [ColorScheme](../colorscheme), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [SlideHeaderFooterManager](../slideheaderfootermanager), [CommentAuthor](../commentauthor), [CellFormat](../cellformat), [SlideShowTransition](../slideshowtransition), [CustomXmlPartCollection](../customxmlpartcollection), [SlideCollection](../slidecollection), [ViewProperties](../viewproperties), [Shape](../shape), [ExtraColorScheme](../extracolorscheme), [Luminance](../luminance), [MasterThemeManager](../masterthememanager), [DataLabel](../datalabel), [GradientStop](../gradientstop), [CellCollection](../cellcollection), [MathematicalText](../mathematicaltext), [Row](../row), MasterNotesSlideManager, [MathNaryOperator](../mathnaryoperator), [BaseThemeManager](../basethememanager), ThemeableFillFormat, [RowCollection](../rowcollection), [GeometryShape](../geometryshape), TableStyle, [LightRig](../lightrig), [ChartPlotArea](../chartplotarea), [BulletFormat](../bulletformat), [MathSuperscriptElement](../mathsuperscriptelement), [VideoCollection](../videocollection), [Table](../table), [ChartDataPointLevel](../chartdatapointlevel), PresetTextShape, [MasterTheme](../mastertheme), [SectionSlideCollection](../sectionslidecollection), [OleObjectFrame](../oleobjectframe), [ChartData](../chartdata), [ChartDataPointCollection](../chartdatapointcollection), [ChartDataWorkbook](../chartdataworkbook), [NotesSlideHeaderFooterManager](../notesslideheaderfootermanager), [PresetShadow](../presetshadow), AggregatedDataPoint, [SketchFormat](../sketchformat), [MathParagraph](../mathparagraph), [SmartArt](../smartart), [AudioCollection](../audiocollection), [AxisFormat](../axisformat), [CommentCollection](../commentcollection), [ParagraphFormat](../paragraphformat), [ChartDataWorksheetCollection](../chartdataworksheetcollection), FormatOverrides, [TextStyle](../textstyle), [FillFormatCollection](../fillformatcollection), [NotesSlideManager](../notesslidemanager), [ColumnFormat](../columnformat), [Section](../section), [MathBlock](../mathblock), [TableFormat](../tableformat), [StringChartValue](../stringchartvalue), [Reflection](../reflection), [Ink](../ink), [Trendline](../trendline), [LayoutSlideCollection](../layoutslidecollection), [LineFormat](../lineformat), [BasePortionFormat](../baseportionformat), [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager), [MasterHandoutSlide](../masterhandoutslide), [DataLabelFormat](../datalabelformat), [Timing](../timing), [MathAccent](../mathaccent), [LegacyDiagram](../legacydiagram), FormatOverride, [ChartSeriesGroup](../chartseriesgroup), [Blur](../blur), [MathSubscriptElement](../mathsubscriptelement), [NotesSlideThemeManager](../notesslidethememanager), [Axis](../axis), [AlphaBiLevel](../alphabilevel), [Paragraph](../paragraph), [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), TableBackgroundStyle, [SetEffect](../seteffect), [StringOrDoubleChartValue](../stringordoublechartvalue), [Chart](../chart), [PictureFillFormat](../picturefillformat), [HyperlinkQueries](../hyperlinkqueries), [ZoomFrame](../zoomframe), [BaseScript](../basescript), [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager), [Rotation3D](../rotation3d), [FontScheme](../fontscheme), [PictureFrame](../pictureframe), [Effect](../effect), [OverrideTheme](../overridetheme), [ColorChange](../colorchange), [ColumnCollection](../columncollection), [TrendlineCollection](../trendlinecollection), [EffectStyleCollection](../effectstylecollection), [AlphaInverse](../alphainverse), [ErrorBarsCustomValues](../errorbarscustomvalues), PlaceholderCollection, [FillFormat](../fillformat), [ModernComment](../moderncomment), [ColorFormat](../colorformat), [AdjustValueCollection](../adjustvaluecollection), [MasterNotesSlide](../masternotesslide), [CommentAuthorCollection](../commentauthorcollection), [ImageTransformOperation](../imagetransformoperation), AggregatedDataPointCollection, [LayoutSlideHeaderFooterManager](../layoutslideheaderfootermanager), [Background](../background), [Control](../control), [GrayScale](../grayscale), [LineFillFormat](../linefillformat), [AnimationTimeLine](../animationtimeline), [SmartArtShape](../smartartshape), [Tab](../tab), [MotionEffect](../motioneffect), [GradientStopCollection](../gradientstopcollection), [ChartCellCollection](../chartcellcollection), [ColorEffect](../coloreffect), [ChartPortionFormat](../chartportionformat), [MathBox](../mathbox), [DigitalSignatureCollection](../digitalsignaturecollection), [AutoShape](../autoshape), [NotesSlide](../notesslide), [SectionCollection](../sectioncollection), [ScaleEffect](../scaleeffect), [MathFunction](../mathfunction), [ChartSeries](../chartseries), [Connector](../connector), [Picture](../picture), [CommandEffect](../commandeffect), [SlideThemeManager](../slidethememanager), [DoubleChartValue](../doublechartvalue), [Column](../column), [EffectStyle](../effectstyle), [SlideSize](../slidesize), [CustomData](../customdata), [SummaryZoomSection](../summaryzoomsection), [HSL](../hsl), [Tint](../tint), [DataLabelCollection](../datalabelcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), LayoutTree, [GraphicalObject](../graphicalobject), [Field](../field), [FormatScheme](../formatscheme), [Legend](../legend), [AlphaCeiling](../alphaceiling), [Hyperlink](../hyperlink), [Cell](../cell), [Portion](../portion), [BiLevel](../bilevel), [MathElementBase](../mathelementbase), [MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager), [MathFraction](../mathfraction), [DataTable](../datatable), [HyperlinkManager](../hyperlinkmanager), [BaseHeaderFooterManager](../baseheaderfootermanager), [ChartSeriesCollection](../chartseriescollection), [ChartTextFormat](../charttextformat), [LayoutSlide](../layoutslide), [ShapeBevel](../shapebevel), [ShapeStyle](../shapestyle), [Camera](../camera), ThemeableTableFormat, [RowFormat](../rowformat), [ChartCategoryCollection](../chartcategorycollection), ChartSeriesGroupCollection, [LayoutSlideThemeManager](../layoutslidethememanager), [ControlCollection](../controlcollection), [InnerShadow](../innershadow), [PortionFormat](../portionformat), [AlphaReplace](../alphareplace), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [MathPortion](../mathportion), [Duotone](../duotone), [Backdrop3DScene](../backdrop3dscene), MasterHandoutSlideManager, [Video](../video), [AlphaModulate](../alphamodulate), [Behavior](../behavior), [ImageCollection](../imagecollection), BaseStyles, [ChartDataPointLevelsManager](../chartdatapointlevelsmanager), [PVIObject](../pviobject), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [Comment](../comment), [PatternFormat](../patternformat), [ChartCategory](../chartcategory), [PortionCollection](../portioncollection), [ErrorBarsFormat](../errorbarsformat), [ColorReplace](../colorreplace), ThemeableCellFormat, [GroupShape](../groupshape), [PresentationHeaderFooterManager](../presentationheaderfootermanager), MathRunElement, [MasterSlideCollection](../masterslidecollection), [TextFrameFormat](../textframeformat), [SectionZoomFrame](../sectionzoomframe), [DomObject](../domobject), [AlphaFloor](../alphafloor), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [AudioFrame](../audioframe), [EffectFormat](../effectformat), [ShapeCollection](../shapecollection), [VideoFrame](../videoframe), [Theme](../theme), [ChartDataPoint](../chartdatapoint), [AxesManager](../axesmanager), [MathRadical](../mathradical), [FillOverlay](../filloverlay), [FilterEffect](../filtereffect), [TextFrame](../textframe), [Marker](../marker), [ParagraphCollection](../paragraphcollection), [Presentation](../presentation), [MathArray](../matharray), [ZoomObject](../zoomobject), [LineFormatCollection](../lineformatcollection), [MathDelimiter](../mathdelimiter), TableCellTextStyle, [OuterShadow](../outershadow), [ExtraColorSchemeCollection](../extracolorschemecollection), [MathBorderBox](../mathborderbox), [Glow](../glow), [BaseChartValue](../basechartvalue), [SummaryZoomFrame](../summaryzoomframe), [LegendEntryProperties](../legendentryproperties), TableStyleCollection, TablePartStyle, [AlphaModulateFixed](../alphamodulatefixed), ThemeableEffectFormat, [MasterSlideHeaderFooterManager](../masterslideheaderfootermanager), [ChartLinesFormat](../chartlinesformat)
+| getParent_Immediate() | Returns Parent_Immediate object. Read-only IDOMObject. |
 
 
 ---
@@ -6785,7 +6782,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getSuperscript () | Superscript |
+| getSuperscript() | Superscript |
 
  **Result:**
 [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [BaseScript](../basescript), [MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), [MathBar](../mathbar), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)
@@ -6798,7 +6795,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| group () | Places this element in a group using a bottom curly bracket |
+| group() | Places this element in a group using a bottom curly bracket |
 
  **Result:**
 [MathGroupingCharacter](../mathgroupingcharacter)
@@ -6811,7 +6808,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| group (char, int, int) | Places this element in a group using a grouping character such as bottom curly bracket or another |
+| group(char, int, int) | Places this element in a group using a grouping character such as bottom curly bracket or another |
 
  **Parameters:**
 
@@ -6832,7 +6829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6854,7 +6851,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6876,7 +6873,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6898,7 +6895,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6920,7 +6917,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6942,7 +6939,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6964,7 +6961,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6986,7 +6983,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7008,7 +7005,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7030,7 +7027,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7052,7 +7049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7074,7 +7071,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7096,7 +7093,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7118,7 +7115,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7140,7 +7137,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7162,7 +7159,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7184,7 +7181,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7206,7 +7203,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7228,7 +7225,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7250,7 +7247,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7272,7 +7269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7294,7 +7291,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7316,7 +7313,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7338,7 +7335,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7360,7 +7357,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7382,7 +7379,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7404,7 +7401,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7426,7 +7423,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7448,7 +7445,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7470,7 +7467,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7492,7 +7489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7514,7 +7511,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7536,7 +7533,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7558,7 +7555,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7580,7 +7577,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7602,7 +7599,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7624,7 +7621,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7646,7 +7643,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7668,7 +7665,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7690,7 +7687,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7712,7 +7709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement),  int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7734,7 +7731,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7756,7 +7753,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7778,7 +7775,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7800,7 +7797,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7822,7 +7819,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7844,7 +7841,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7866,7 +7863,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7888,7 +7885,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter),  int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7910,7 +7907,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7932,7 +7929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7954,7 +7951,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7976,7 +7973,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7998,7 +7995,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8020,7 +8017,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8042,7 +8039,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8064,7 +8061,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8086,7 +8083,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8108,7 +8105,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8130,7 +8127,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8152,7 +8149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8174,7 +8171,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8196,7 +8193,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext),  int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8218,7 +8215,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8240,7 +8237,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8262,7 +8259,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8284,7 +8281,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8306,7 +8303,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8328,7 +8325,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8350,7 +8347,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8372,7 +8369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator),  int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8394,7 +8391,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8416,7 +8413,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8438,7 +8435,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8460,7 +8457,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8482,7 +8479,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8504,7 +8501,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8526,7 +8523,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8548,7 +8545,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8570,7 +8567,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8592,7 +8589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8614,7 +8611,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8636,7 +8633,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8658,7 +8655,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8680,7 +8677,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8702,7 +8699,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8724,7 +8721,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8746,7 +8743,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8768,7 +8765,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8790,7 +8787,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8812,7 +8809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8834,7 +8831,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8856,7 +8853,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8878,7 +8875,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8900,7 +8897,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8922,7 +8919,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8944,7 +8941,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8966,7 +8963,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8988,7 +8985,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9010,7 +9007,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9032,7 +9029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9054,7 +9051,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9076,7 +9073,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9098,7 +9095,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9120,7 +9117,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9142,7 +9139,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter),  int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9164,7 +9161,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9186,7 +9183,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9208,7 +9205,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9230,7 +9227,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9252,7 +9249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9274,7 +9271,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9296,7 +9293,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9318,7 +9315,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9340,7 +9337,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9362,7 +9359,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9384,7 +9381,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9406,7 +9403,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9428,7 +9425,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9450,7 +9447,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9472,7 +9469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9494,7 +9491,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9516,7 +9513,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9538,7 +9535,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9560,7 +9557,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9582,7 +9579,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9604,7 +9601,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9626,7 +9623,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9648,7 +9645,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9670,7 +9667,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9692,7 +9689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9714,7 +9711,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9736,7 +9733,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9758,7 +9755,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9780,7 +9777,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9802,7 +9799,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9824,7 +9821,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9846,7 +9843,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9868,7 +9865,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9890,7 +9887,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9912,7 +9909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9934,7 +9931,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9956,7 +9953,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9978,7 +9975,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10000,7 +9997,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10022,7 +10019,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10044,7 +10041,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10066,7 +10063,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10088,7 +10085,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10110,7 +10107,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10132,7 +10129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10154,7 +10151,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10176,7 +10173,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10198,7 +10195,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10220,7 +10217,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10242,7 +10239,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10264,7 +10261,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10286,7 +10283,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10308,7 +10305,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10330,7 +10327,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10352,7 +10349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10374,7 +10371,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10396,7 +10393,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10418,7 +10415,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10440,7 +10437,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10462,7 +10459,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10484,7 +10481,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10506,7 +10503,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10528,7 +10525,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10550,7 +10547,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10572,7 +10569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10594,7 +10591,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10616,7 +10613,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10638,7 +10635,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10660,7 +10657,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10682,7 +10679,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10704,7 +10701,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10726,7 +10723,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10748,7 +10745,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10770,7 +10767,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10792,7 +10789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10814,7 +10811,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10836,7 +10833,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10858,7 +10855,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10880,7 +10877,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10902,7 +10899,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10924,7 +10921,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10946,7 +10943,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10968,7 +10965,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10990,7 +10987,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11012,7 +11009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11034,7 +11031,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11056,7 +11053,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement),  int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11078,7 +11075,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11100,7 +11097,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11122,7 +11119,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext),  int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11144,7 +11141,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11166,7 +11163,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11188,7 +11185,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11210,7 +11207,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11232,7 +11229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11254,7 +11251,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11276,7 +11273,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11298,7 +11295,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator),  int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11320,7 +11317,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11342,7 +11339,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11364,7 +11361,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11386,7 +11383,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11408,7 +11405,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11430,7 +11427,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent),  int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11452,7 +11449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical),  int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11474,7 +11471,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11496,7 +11493,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11518,7 +11515,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix),  int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11540,7 +11537,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11562,7 +11559,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11584,7 +11581,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11606,7 +11603,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction),  int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11628,7 +11625,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit),  int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11650,7 +11647,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11672,7 +11669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11694,7 +11691,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock),  int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11716,7 +11713,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11738,7 +11735,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray),  int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11760,7 +11757,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11782,7 +11779,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11804,7 +11801,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
 
  **Parameters:**
 
@@ -11826,7 +11823,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction),  int) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11848,7 +11845,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11870,7 +11867,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11892,7 +11889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11914,7 +11911,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11936,7 +11933,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11958,7 +11955,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11980,7 +11977,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12002,7 +11999,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12024,7 +12021,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12046,7 +12043,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12068,7 +12065,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12090,7 +12087,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12112,7 +12109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12134,7 +12131,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12156,7 +12153,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12178,7 +12175,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12200,7 +12197,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12222,7 +12219,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12244,7 +12241,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12266,7 +12263,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12288,7 +12285,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12310,7 +12307,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12332,7 +12329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12354,7 +12351,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12376,7 +12373,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12398,7 +12395,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12420,7 +12417,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12442,7 +12439,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12464,7 +12461,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12486,7 +12483,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter),  int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12508,7 +12505,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12530,7 +12527,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12552,7 +12549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12574,7 +12571,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12596,7 +12593,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12618,7 +12615,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12640,7 +12637,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12662,7 +12659,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12684,7 +12681,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12706,7 +12703,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12728,7 +12725,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12750,7 +12747,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12772,7 +12769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12794,7 +12791,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12816,7 +12813,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12838,7 +12835,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12860,7 +12857,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12882,7 +12879,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12904,7 +12901,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12926,7 +12923,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12948,7 +12945,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12970,7 +12967,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -12992,7 +12989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13014,7 +13011,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13036,7 +13033,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13058,7 +13055,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13080,7 +13077,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13102,7 +13099,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13124,7 +13121,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13146,7 +13143,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13168,7 +13165,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13190,7 +13187,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13212,7 +13209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13234,7 +13231,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13256,7 +13253,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13278,7 +13275,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13300,7 +13297,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13322,7 +13319,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13344,7 +13341,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13366,7 +13363,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13388,7 +13385,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13410,7 +13407,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13432,7 +13429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13454,7 +13451,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13476,7 +13473,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13498,7 +13495,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13520,7 +13517,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13542,7 +13539,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13564,7 +13561,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13586,7 +13583,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13608,7 +13605,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13630,7 +13627,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13652,7 +13649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13674,7 +13671,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13696,7 +13693,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13718,7 +13715,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13740,7 +13737,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13762,7 +13759,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13784,7 +13781,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13806,7 +13803,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13828,7 +13825,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13850,7 +13847,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13872,7 +13869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13894,7 +13891,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13916,7 +13913,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13938,7 +13935,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent),  int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13960,7 +13957,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical),  int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -13982,7 +13979,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14004,7 +14001,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14026,7 +14023,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix),  int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14048,7 +14045,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14070,7 +14067,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14092,7 +14089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14114,7 +14111,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14136,7 +14133,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit),  int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14158,7 +14155,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14180,7 +14177,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Takes the integral |
 
  **Parameters:**
 
@@ -14202,7 +14199,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock),  int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14224,7 +14221,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14246,7 +14243,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray),  int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14268,7 +14265,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar),  int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14290,7 +14287,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox),  int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14312,7 +14309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  int) | Takes the integral |
 
  **Parameters:**
 
@@ -14334,7 +14331,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14356,7 +14353,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14378,7 +14375,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathRadical](../mathradical), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathRadical](../mathradical), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14400,7 +14397,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14422,7 +14419,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14444,7 +14441,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14466,7 +14463,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14488,7 +14485,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14510,7 +14507,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14532,7 +14529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathFraction](../mathfraction), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathFraction](../mathfraction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14554,7 +14551,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathLimit](../mathlimit), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathLimit](../mathlimit), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14576,7 +14573,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14598,7 +14595,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14620,7 +14617,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBlock](../mathblock), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathBlock](../mathblock), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14642,7 +14639,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14664,7 +14661,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathArray](../matharray), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathArray](../matharray), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14686,7 +14683,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBar](../mathbar), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathBar](../mathbar), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14708,7 +14705,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBox](../mathbox), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathBox](../mathbox), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14730,7 +14727,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14752,7 +14749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathFunction](../mathfunction), int) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathFunction](../mathfunction), int) | Takes the integral |
 
  **Parameters:**
 
@@ -14774,7 +14771,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -14795,7 +14792,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -14816,7 +14813,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -14837,7 +14834,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -14858,7 +14855,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -14879,7 +14876,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -14900,7 +14897,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -14921,7 +14918,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -14942,7 +14939,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -14963,7 +14960,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -14984,7 +14981,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -15005,7 +15002,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15026,7 +15023,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -15047,7 +15044,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -15068,7 +15065,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -15089,7 +15086,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -15110,7 +15107,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -15131,7 +15128,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15152,7 +15149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -15173,7 +15170,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -15194,7 +15191,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -15215,7 +15212,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15236,7 +15233,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15257,7 +15254,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -15278,7 +15275,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -15299,7 +15296,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -15320,7 +15317,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -15341,7 +15338,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -15362,7 +15359,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -15383,7 +15380,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -15404,7 +15401,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15425,7 +15422,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -15446,7 +15443,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -15467,7 +15464,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -15488,7 +15485,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -15509,7 +15506,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -15530,7 +15527,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15551,7 +15548,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathRadical](../mathradical), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -15572,7 +15569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -15593,7 +15590,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -15614,7 +15611,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15635,7 +15632,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15656,7 +15653,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -15677,7 +15674,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -15698,7 +15695,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -15719,7 +15716,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -15740,7 +15737,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -15761,7 +15758,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -15782,7 +15779,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -15803,7 +15800,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15824,7 +15821,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -15845,7 +15842,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -15866,7 +15863,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -15887,7 +15884,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -15908,7 +15905,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -15929,7 +15926,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -15950,7 +15947,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -15971,7 +15968,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -15992,7 +15989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -16013,7 +16010,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16034,7 +16031,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16055,7 +16052,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -16076,7 +16073,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -16097,7 +16094,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -16118,7 +16115,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -16139,7 +16136,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -16160,7 +16157,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -16181,7 +16178,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -16202,7 +16199,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16223,7 +16220,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -16244,7 +16241,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -16265,7 +16262,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -16286,7 +16283,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -16307,7 +16304,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -16328,7 +16325,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16349,7 +16346,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -16370,7 +16367,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -16391,7 +16388,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -16412,7 +16409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16433,7 +16430,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16454,7 +16451,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -16475,7 +16472,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -16496,7 +16493,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -16517,7 +16514,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -16538,7 +16535,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -16559,7 +16556,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -16580,7 +16577,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -16601,7 +16598,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16622,7 +16619,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -16643,7 +16640,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -16664,7 +16661,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -16685,7 +16682,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -16706,7 +16703,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -16727,7 +16724,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16748,7 +16745,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -16769,7 +16766,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -16790,7 +16787,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -16811,7 +16808,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16832,7 +16829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -16853,7 +16850,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -16874,7 +16871,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -16895,7 +16892,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -16916,7 +16913,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -16937,7 +16934,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -16958,7 +16955,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -16979,7 +16976,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -17000,7 +16997,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17021,7 +17018,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -17042,7 +17039,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -17063,7 +17060,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -17084,7 +17081,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -17105,7 +17102,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -17126,7 +17123,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17147,7 +17144,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -17168,7 +17165,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -17189,7 +17186,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -17210,7 +17207,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17231,7 +17228,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17252,7 +17249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -17273,7 +17270,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -17294,7 +17291,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -17315,7 +17312,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -17336,7 +17333,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -17357,7 +17354,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -17378,7 +17375,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -17399,7 +17396,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17420,7 +17417,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -17441,7 +17438,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -17462,7 +17459,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -17483,7 +17480,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -17504,7 +17501,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -17525,7 +17522,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17546,7 +17543,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -17567,7 +17564,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -17588,7 +17585,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -17609,7 +17606,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17630,7 +17627,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17651,7 +17648,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -17672,7 +17669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -17693,7 +17690,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -17714,7 +17711,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -17735,7 +17732,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -17756,7 +17753,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -17777,7 +17774,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -17798,7 +17795,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17819,7 +17816,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -17840,7 +17837,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -17861,7 +17858,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -17882,7 +17879,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -17903,7 +17900,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -17924,7 +17921,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -17945,7 +17942,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -17966,7 +17963,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -17987,7 +17984,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -18008,7 +18005,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18029,7 +18026,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18050,7 +18047,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -18071,7 +18068,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -18092,7 +18089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -18113,7 +18110,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -18134,7 +18131,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -18155,7 +18152,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -18176,7 +18173,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -18197,7 +18194,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18218,7 +18215,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -18239,7 +18236,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -18260,7 +18257,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -18281,7 +18278,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -18302,7 +18299,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -18323,7 +18320,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18344,7 +18341,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -18365,7 +18362,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -18386,7 +18383,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -18407,7 +18404,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18428,7 +18425,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18449,7 +18446,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -18470,7 +18467,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -18491,7 +18488,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -18512,7 +18509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -18533,7 +18530,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -18554,7 +18551,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -18575,7 +18572,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -18596,7 +18593,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18617,7 +18614,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -18638,7 +18635,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -18659,7 +18656,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -18680,7 +18677,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -18701,7 +18698,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -18722,7 +18719,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18743,7 +18740,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -18764,7 +18761,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -18785,7 +18782,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -18806,7 +18803,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18827,7 +18824,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -18848,7 +18845,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -18869,7 +18866,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -18890,7 +18887,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -18911,7 +18908,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -18932,7 +18929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -18953,7 +18950,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -18974,7 +18971,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -18995,7 +18992,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19016,7 +19013,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -19037,7 +19034,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -19058,7 +19055,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -19079,7 +19076,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -19100,7 +19097,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -19121,7 +19118,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19142,7 +19139,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -19163,7 +19160,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -19184,7 +19181,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -19205,7 +19202,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19226,7 +19223,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19247,7 +19244,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -19268,7 +19265,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -19289,7 +19286,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -19310,7 +19307,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -19331,7 +19328,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -19352,7 +19349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -19373,7 +19370,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -19394,7 +19391,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19415,7 +19412,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -19436,7 +19433,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -19457,7 +19454,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -19478,7 +19475,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -19499,7 +19496,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -19520,7 +19517,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19541,7 +19538,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -19562,7 +19559,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -19583,7 +19580,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -19604,7 +19601,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19625,7 +19622,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19646,7 +19643,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -19667,7 +19664,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -19688,7 +19685,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -19709,7 +19706,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -19730,7 +19727,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -19751,7 +19748,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -19772,7 +19769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -19793,7 +19790,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19814,7 +19811,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -19835,7 +19832,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -19856,7 +19853,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -19877,7 +19874,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -19898,7 +19895,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -19919,7 +19916,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -19940,7 +19937,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathBlock](../mathblock), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -19961,7 +19958,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -19982,7 +19979,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -20003,7 +20000,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20024,7 +20021,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20045,7 +20042,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -20066,7 +20063,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -20087,7 +20084,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -20108,7 +20105,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -20129,7 +20126,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -20150,7 +20147,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -20171,7 +20168,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -20192,7 +20189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20213,7 +20210,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -20234,7 +20231,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -20255,7 +20252,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -20276,7 +20273,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -20297,7 +20294,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -20318,7 +20315,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20339,7 +20336,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -20360,7 +20357,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -20381,7 +20378,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -20402,7 +20399,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20423,7 +20420,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20444,7 +20441,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -20465,7 +20462,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -20486,7 +20483,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -20507,7 +20504,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -20528,7 +20525,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -20549,7 +20546,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -20570,7 +20567,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -20591,7 +20588,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20612,7 +20609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -20633,7 +20630,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -20654,7 +20651,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -20675,7 +20672,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -20696,7 +20693,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -20717,7 +20714,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20738,7 +20735,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathArray](../matharray), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -20759,7 +20756,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -20780,7 +20777,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -20801,7 +20798,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20822,7 +20819,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -20843,7 +20840,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -20864,7 +20861,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -20885,7 +20882,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -20906,7 +20903,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -20927,7 +20924,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -20948,7 +20945,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -20969,7 +20966,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -20990,7 +20987,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21011,7 +21008,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -21032,7 +21029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -21053,7 +21050,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -21074,7 +21071,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -21095,7 +21092,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -21116,7 +21113,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21137,7 +21134,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathBar](../mathbar), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -21158,7 +21155,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -21179,7 +21176,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -21200,7 +21197,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21221,7 +21218,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21242,7 +21239,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -21263,7 +21260,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -21284,7 +21281,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -21305,7 +21302,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -21326,7 +21323,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -21347,7 +21344,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -21368,7 +21365,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -21389,7 +21386,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21410,7 +21407,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -21431,7 +21428,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -21452,7 +21449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -21473,7 +21470,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -21494,7 +21491,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -21515,7 +21512,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21536,7 +21533,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathBox](../mathbox), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -21557,7 +21554,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -21578,7 +21575,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -21599,7 +21596,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21620,7 +21617,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21641,7 +21638,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -21662,7 +21659,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -21683,7 +21680,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -21704,7 +21701,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -21725,7 +21722,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -21746,7 +21743,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -21767,7 +21764,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -21788,7 +21785,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21809,7 +21806,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -21830,7 +21827,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -21851,7 +21848,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -21872,7 +21869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -21893,7 +21890,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -21914,7 +21911,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -21935,7 +21932,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -21956,7 +21953,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -21977,7 +21974,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathRadical](../mathradical)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathRadical](../mathradical)) | Takes the integral |
 
  **Parameters:**
 
@@ -21998,7 +21995,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -22019,7 +22016,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -22040,7 +22037,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Takes the integral |
 
  **Parameters:**
 
@@ -22061,7 +22058,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
 
@@ -22082,7 +22079,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -22103,7 +22100,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Takes the integral |
 
  **Parameters:**
 
@@ -22124,7 +22121,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Takes the integral |
 
  **Parameters:**
 
@@ -22145,7 +22142,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Takes the integral |
 
  **Parameters:**
 
@@ -22166,7 +22163,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
 
  **Parameters:**
 
@@ -22187,7 +22184,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -22208,7 +22205,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBlock](../mathblock)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathBlock](../mathblock)) | Takes the integral |
 
  **Parameters:**
 
@@ -22229,7 +22226,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -22250,7 +22247,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathArray](../matharray)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathArray](../matharray)) | Takes the integral |
 
  **Parameters:**
 
@@ -22271,7 +22268,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBar](../mathbar)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathBar](../mathbar)) | Takes the integral |
 
  **Parameters:**
 
@@ -22292,7 +22289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBox](../mathbox)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathBox](../mathbox)) | Takes the integral |
 
  **Parameters:**
 
@@ -22313,7 +22310,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
 
  **Parameters:**
 
@@ -22334,7 +22331,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Takes the integral |
+| integral(int, [MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Takes the integral |
 
  **Parameters:**
 
@@ -22355,7 +22352,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int) | Takes the integral without limits |
+| integral(int) | Takes the integral without limits |
 
  **Parameters:**
 
@@ -22374,7 +22371,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, String, String, int) | Takes the integral |
+| integral(int, String, String, int) | Takes the integral |
 
  **Parameters:**
 
@@ -22396,7 +22393,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| integral (int, String, String) | Takes the integral |
+| integral(int, String, String) | Takes the integral |
 
  **Parameters:**
 
@@ -22417,7 +22414,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathAccent](../mathaccent)) | Joins a mathematical element and forms a mathematical block |
+| join([MathAccent](../mathaccent)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22436,7 +22433,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathRadical](../mathradical)) | Joins a mathematical element and forms a mathematical block |
+| join([MathRadical](../mathradical)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22455,7 +22452,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathSubscriptElement](../mathsubscriptelement)) | Joins a mathematical element and forms a mathematical block |
+| join([MathSubscriptElement](../mathsubscriptelement)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22474,7 +22471,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathSuperscriptElement](../mathsuperscriptelement)) | Joins a mathematical element and forms a mathematical block |
+| join([MathSuperscriptElement](../mathsuperscriptelement)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22493,7 +22490,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathMatrix](../mathmatrix)) | Joins a mathematical element and forms a mathematical block |
+| join([MathMatrix](../mathmatrix)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22512,7 +22509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathematicalText](../mathematicaltext)) | Joins a mathematical element and forms a mathematical block |
+| join([MathematicalText](../mathematicaltext)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22531,7 +22528,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathBorderBox](../mathborderbox)) | Joins a mathematical element and forms a mathematical block |
+| join([MathBorderBox](../mathborderbox)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22550,7 +22547,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathDelimiter](../mathdelimiter)) | Joins a mathematical element and forms a mathematical block |
+| join([MathDelimiter](../mathdelimiter)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22569,7 +22566,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathFraction](../mathfraction)) | Joins a mathematical element and forms a mathematical block |
+| join([MathFraction](../mathfraction)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22588,7 +22585,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathLimit](../mathlimit)) | Joins a mathematical element and forms a mathematical block |
+| join([MathLimit](../mathlimit)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22607,7 +22604,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathGroupingCharacter](../mathgroupingcharacter)) | Joins a mathematical element and forms a mathematical block |
+| join([MathGroupingCharacter](../mathgroupingcharacter)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22626,7 +22623,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Joins a mathematical element and forms a mathematical block |
+| join([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22645,7 +22642,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathBlock](../mathblock)) | Joins a mathematical element and forms a mathematical block |
+| join([MathBlock](../mathblock)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22664,7 +22661,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathNaryOperator](../mathnaryoperator)) | Joins a mathematical element and forms a mathematical block |
+| join([MathNaryOperator](../mathnaryoperator)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22683,7 +22680,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathArray](../matharray)) | Joins a mathematical element and forms a mathematical block |
+| join([MathArray](../matharray)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22702,7 +22699,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathBar](../mathbar)) | Joins a mathematical element and forms a mathematical block |
+| join([MathBar](../mathbar)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22721,7 +22718,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathBox](../mathbox)) | Joins a mathematical element and forms a mathematical block |
+| join([MathBox](../mathbox)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22740,7 +22737,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Joins a mathematical element and forms a mathematical block |
+| join([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22759,7 +22756,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join ([MathFunction](../mathfunction)) | Joins a mathematical element and forms a mathematical block |
+| join([MathFunction](../mathfunction)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
@@ -22778,7 +22775,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| join (String) | Joins a mathematical text and forms a mathematical block |
+| join(String) | Joins a mathematical text and forms a mathematical block |
 
  **Parameters:**
 
@@ -22797,7 +22794,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22818,7 +22815,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22839,7 +22836,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22860,7 +22857,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22881,7 +22878,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22902,7 +22899,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22923,7 +22920,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22944,7 +22941,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22965,7 +22962,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22986,7 +22983,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23007,7 +23004,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23028,7 +23025,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23049,7 +23046,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23070,7 +23067,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23091,7 +23088,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23112,7 +23109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23133,7 +23130,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23154,7 +23151,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23175,7 +23172,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23196,7 +23193,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23217,7 +23214,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23238,7 +23235,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23259,7 +23256,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23280,7 +23277,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23301,7 +23298,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23322,7 +23319,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23343,7 +23340,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23364,7 +23361,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23385,7 +23382,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23406,7 +23403,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23427,7 +23424,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23448,7 +23445,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23469,7 +23466,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23490,7 +23487,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23511,7 +23508,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23532,7 +23529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23553,7 +23550,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23574,7 +23571,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23595,7 +23592,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23616,7 +23613,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23637,7 +23634,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23658,7 +23655,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23679,7 +23676,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23700,7 +23697,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23721,7 +23718,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23742,7 +23739,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23763,7 +23760,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23784,7 +23781,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23805,7 +23802,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23826,7 +23823,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23847,7 +23844,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23868,7 +23865,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23889,7 +23886,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23910,7 +23907,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23931,7 +23928,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23952,7 +23949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23973,7 +23970,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23994,7 +23991,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24015,7 +24012,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24036,7 +24033,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24057,7 +24054,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24078,7 +24075,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24099,7 +24096,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24120,7 +24117,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24141,7 +24138,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24162,7 +24159,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24183,7 +24180,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24204,7 +24201,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24225,7 +24222,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24246,7 +24243,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24267,7 +24264,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24288,7 +24285,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24309,7 +24306,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24330,7 +24327,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24351,7 +24348,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24372,7 +24369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24393,7 +24390,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24414,7 +24411,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24435,7 +24432,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24456,7 +24453,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24477,7 +24474,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24498,7 +24495,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24519,7 +24516,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24540,7 +24537,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24561,7 +24558,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24582,7 +24579,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24603,7 +24600,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24624,7 +24621,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24645,7 +24642,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24666,7 +24663,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24687,7 +24684,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24708,7 +24705,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24729,7 +24726,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24750,7 +24747,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24771,7 +24768,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24792,7 +24789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24813,7 +24810,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24834,7 +24831,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24855,7 +24852,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24876,7 +24873,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24897,7 +24894,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24918,7 +24915,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24939,7 +24936,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24960,7 +24957,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24981,7 +24978,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25002,7 +24999,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25023,7 +25020,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25044,7 +25041,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25065,7 +25062,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25086,7 +25083,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25107,7 +25104,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25128,7 +25125,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25149,7 +25146,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25170,7 +25167,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25191,7 +25188,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25212,7 +25209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25233,7 +25230,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25254,7 +25251,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25275,7 +25272,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25296,7 +25293,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25317,7 +25314,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25338,7 +25335,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25359,7 +25356,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25380,7 +25377,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25401,7 +25398,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25422,7 +25419,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25443,7 +25440,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25464,7 +25461,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25485,7 +25482,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25506,7 +25503,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25527,7 +25524,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25548,7 +25545,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25569,7 +25566,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25590,7 +25587,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25611,7 +25608,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25632,7 +25629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25653,7 +25650,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25674,7 +25671,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25695,7 +25692,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25716,7 +25713,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25737,7 +25734,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25758,7 +25755,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25779,7 +25776,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25800,7 +25797,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25821,7 +25818,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25842,7 +25839,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25863,7 +25860,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25884,7 +25881,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25905,7 +25902,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25926,7 +25923,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25947,7 +25944,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25968,7 +25965,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25989,7 +25986,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26010,7 +26007,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26031,7 +26028,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26052,7 +26049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26073,7 +26070,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26094,7 +26091,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26115,7 +26112,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26136,7 +26133,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26157,7 +26154,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26178,7 +26175,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26199,7 +26196,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26220,7 +26217,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26241,7 +26238,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26262,7 +26259,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26283,7 +26280,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26304,7 +26301,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26325,7 +26322,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26346,7 +26343,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26367,7 +26364,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26388,7 +26385,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26409,7 +26406,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26430,7 +26427,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26451,7 +26448,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26472,7 +26469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26493,7 +26490,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26514,7 +26511,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26535,7 +26532,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26556,7 +26553,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26577,7 +26574,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26598,7 +26595,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26619,7 +26616,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26640,7 +26637,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26661,7 +26658,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26682,7 +26679,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26703,7 +26700,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26724,7 +26721,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26745,7 +26742,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26766,7 +26763,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26787,7 +26784,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26808,7 +26805,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26829,7 +26826,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26850,7 +26847,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26871,7 +26868,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26892,7 +26889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26913,7 +26910,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26934,7 +26931,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26955,7 +26952,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26976,7 +26973,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26997,7 +26994,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27018,7 +27015,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27039,7 +27036,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27060,7 +27057,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27081,7 +27078,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27102,7 +27099,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27123,7 +27120,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27144,7 +27141,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27165,7 +27162,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27186,7 +27183,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27207,7 +27204,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27228,7 +27225,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27249,7 +27246,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27270,7 +27267,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27291,7 +27288,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27312,7 +27309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27333,7 +27330,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27354,7 +27351,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27375,7 +27372,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27396,7 +27393,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27417,7 +27414,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27438,7 +27435,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27459,7 +27456,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27480,7 +27477,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27501,7 +27498,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27522,7 +27519,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27543,7 +27540,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27564,7 +27561,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27585,7 +27582,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27606,7 +27603,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27627,7 +27624,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27648,7 +27645,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27669,7 +27666,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27690,7 +27687,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27711,7 +27708,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27732,7 +27729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27753,7 +27750,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27774,7 +27771,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27795,7 +27792,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27816,7 +27813,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27837,7 +27834,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27858,7 +27855,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27879,7 +27876,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27900,7 +27897,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27921,7 +27918,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27942,7 +27939,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27963,7 +27960,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27984,7 +27981,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28005,7 +28002,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28026,7 +28023,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28047,7 +28044,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28068,7 +28065,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28089,7 +28086,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28110,7 +28107,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28131,7 +28128,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28152,7 +28149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28173,7 +28170,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28194,7 +28191,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28215,7 +28212,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28236,7 +28233,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28257,7 +28254,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28278,7 +28275,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28299,7 +28296,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28320,7 +28317,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28341,7 +28338,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28362,7 +28359,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28383,7 +28380,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28404,7 +28401,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28425,7 +28422,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28446,7 +28443,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28467,7 +28464,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28488,7 +28485,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28509,7 +28506,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28530,7 +28527,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28551,7 +28548,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28572,7 +28569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28593,7 +28590,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28614,7 +28611,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28635,7 +28632,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28656,7 +28653,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28677,7 +28674,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28698,7 +28695,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28719,7 +28716,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28740,7 +28737,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28761,7 +28758,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathArray](../matharray), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28782,7 +28779,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28803,7 +28800,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28824,7 +28821,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28845,7 +28842,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28866,7 +28863,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28887,7 +28884,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28908,7 +28905,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28929,7 +28926,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28950,7 +28947,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28971,7 +28968,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28992,7 +28989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29013,7 +29010,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29034,7 +29031,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29055,7 +29052,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29076,7 +29073,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29097,7 +29094,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29118,7 +29115,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29139,7 +29136,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29160,7 +29157,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29181,7 +29178,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29202,7 +29199,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29223,7 +29220,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29244,7 +29241,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29265,7 +29262,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29286,7 +29283,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29307,7 +29304,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29328,7 +29325,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29349,7 +29346,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29370,7 +29367,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29391,7 +29388,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29412,7 +29409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29433,7 +29430,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29454,7 +29451,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29475,7 +29472,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29496,7 +29493,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29517,7 +29514,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29538,7 +29535,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29559,7 +29556,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29580,7 +29577,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29601,7 +29598,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29622,7 +29619,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29643,7 +29640,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29664,7 +29661,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29685,7 +29682,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29706,7 +29703,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29727,7 +29724,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29748,7 +29745,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29769,7 +29766,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29790,7 +29787,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29811,7 +29808,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29832,7 +29829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29853,7 +29850,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29874,7 +29871,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29895,7 +29892,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29916,7 +29913,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29937,7 +29934,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29958,7 +29955,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29979,7 +29976,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30000,7 +29997,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30021,7 +30018,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30042,7 +30039,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30063,7 +30060,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30084,7 +30081,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30105,7 +30102,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30126,7 +30123,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30147,7 +30144,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30168,7 +30165,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30189,7 +30186,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30210,7 +30207,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30231,7 +30228,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30252,7 +30249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30273,7 +30270,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathArray](../matharray)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathArray](../matharray)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30294,7 +30291,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30315,7 +30312,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30336,7 +30333,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30357,7 +30354,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+| nary(int, [MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30378,7 +30375,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| nary (int, String, String) | Creates a N-ary operator |
+| nary(int, String, String) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30399,7 +30396,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| overbar () | Sets a bar on the top of this element |
+| overbar() | Sets a bar on the top of this element |
 
  **Result:**
 [MathBar](../mathbar)
@@ -30412,7 +30409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathAccent](../mathaccent)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathAccent](../mathaccent)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30431,7 +30428,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathRadical](../mathradical)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathRadical](../mathradical)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30450,7 +30447,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathSubscriptElement](../mathsubscriptelement)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathSubscriptElement](../mathsubscriptelement)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30469,7 +30466,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathSuperscriptElement](../mathsuperscriptelement)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathSuperscriptElement](../mathsuperscriptelement)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30488,7 +30485,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathMatrix](../mathmatrix)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathMatrix](../mathmatrix)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30507,7 +30504,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathematicalText](../mathematicaltext)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathematicalText](../mathematicaltext)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30526,7 +30523,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathBorderBox](../mathborderbox)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathBorderBox](../mathborderbox)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30545,7 +30542,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathDelimiter](../mathdelimiter)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathDelimiter](../mathdelimiter)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30564,7 +30561,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathFraction](../mathfraction)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathFraction](../mathfraction)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30583,7 +30580,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathLimit](../mathlimit)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathLimit](../mathlimit)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30602,7 +30599,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathGroupingCharacter](../mathgroupingcharacter)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathGroupingCharacter](../mathgroupingcharacter)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30621,7 +30618,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30640,7 +30637,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathBlock](../mathblock)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathBlock](../mathblock)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30659,7 +30656,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathNaryOperator](../mathnaryoperator)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathNaryOperator](../mathnaryoperator)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30678,7 +30675,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathArray](../matharray)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathArray](../matharray)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30697,7 +30694,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathBar](../mathbar)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathBar](../mathbar)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30716,7 +30713,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathBox](../mathbox)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathBox](../mathbox)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30735,7 +30732,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30754,7 +30751,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical ([MathFunction](../mathfunction)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical([MathFunction](../mathfunction)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30773,7 +30770,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| radical (String) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical(String) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
@@ -30792,7 +30789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathAccent](../mathaccent)) | Takes lower limit |
+| setLowerLimit([MathAccent](../mathaccent)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30811,7 +30808,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathRadical](../mathradical)) | Takes lower limit |
+| setLowerLimit([MathRadical](../mathradical)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30830,7 +30827,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathSubscriptElement](../mathsubscriptelement)) | Takes lower limit |
+| setLowerLimit([MathSubscriptElement](../mathsubscriptelement)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30849,7 +30846,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathSuperscriptElement](../mathsuperscriptelement)) | Takes lower limit |
+| setLowerLimit([MathSuperscriptElement](../mathsuperscriptelement)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30868,7 +30865,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathMatrix](../mathmatrix)) | Takes lower limit |
+| setLowerLimit([MathMatrix](../mathmatrix)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30887,7 +30884,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathematicalText](../mathematicaltext)) | Takes lower limit |
+| setLowerLimit([MathematicalText](../mathematicaltext)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30906,7 +30903,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathBorderBox](../mathborderbox)) | Takes lower limit |
+| setLowerLimit([MathBorderBox](../mathborderbox)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30925,7 +30922,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathDelimiter](../mathdelimiter)) | Takes lower limit |
+| setLowerLimit([MathDelimiter](../mathdelimiter)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30944,7 +30941,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathFraction](../mathfraction)) | Takes lower limit |
+| setLowerLimit([MathFraction](../mathfraction)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30963,7 +30960,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathLimit](../mathlimit)) | Takes lower limit |
+| setLowerLimit([MathLimit](../mathlimit)) | Takes lower limit |
 
  **Parameters:**
 
@@ -30982,7 +30979,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathGroupingCharacter](../mathgroupingcharacter)) | Takes lower limit |
+| setLowerLimit([MathGroupingCharacter](../mathgroupingcharacter)) | Takes lower limit |
 
  **Parameters:**
 
@@ -31001,7 +30998,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes lower limit |
+| setLowerLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes lower limit |
 
  **Parameters:**
 
@@ -31020,7 +31017,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathBlock](../mathblock)) | Takes lower limit |
+| setLowerLimit([MathBlock](../mathblock)) | Takes lower limit |
 
  **Parameters:**
 
@@ -31039,7 +31036,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathNaryOperator](../mathnaryoperator)) | Takes lower limit |
+| setLowerLimit([MathNaryOperator](../mathnaryoperator)) | Takes lower limit |
 
  **Parameters:**
 
@@ -31058,7 +31055,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathArray](../matharray)) | Takes lower limit |
+| setLowerLimit([MathArray](../matharray)) | Takes lower limit |
 
  **Parameters:**
 
@@ -31077,7 +31074,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathBar](../mathbar)) | Takes lower limit |
+| setLowerLimit([MathBar](../mathbar)) | Takes lower limit |
 
  **Parameters:**
 
@@ -31096,7 +31093,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathBox](../mathbox)) | Takes lower limit |
+| setLowerLimit([MathBox](../mathbox)) | Takes lower limit |
 
  **Parameters:**
 
@@ -31115,7 +31112,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes lower limit |
+| setLowerLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes lower limit |
 
  **Parameters:**
 
@@ -31134,7 +31131,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathFunction](../mathfunction)) | Takes lower limit |
+| setLowerLimit([MathFunction](../mathfunction)) | Takes lower limit |
 
  **Parameters:**
 
@@ -31153,7 +31150,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit (String) | Takes lower limit |
+| setLowerLimit(String) | Takes lower limit |
 
  **Parameters:**
 
@@ -31172,7 +31169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31192,7 +31189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31212,7 +31209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31232,7 +31229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31252,7 +31249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31272,7 +31269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31292,7 +31289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31312,7 +31309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31332,7 +31329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31352,7 +31349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31372,7 +31369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31392,7 +31389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31412,7 +31409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31432,7 +31429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31452,7 +31449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31472,7 +31469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31492,7 +31489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31512,7 +31509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31532,7 +31529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31552,7 +31549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31572,7 +31569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31592,7 +31589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31612,7 +31609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31632,7 +31629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31652,7 +31649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31672,7 +31669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31692,7 +31689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31712,7 +31709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31732,7 +31729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31752,7 +31749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31772,7 +31769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31792,7 +31789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31812,7 +31809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31832,7 +31829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31852,7 +31849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31872,7 +31869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31892,7 +31889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31912,7 +31909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31932,7 +31929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31952,7 +31949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31972,7 +31969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -31992,7 +31989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32012,7 +32009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32032,7 +32029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32052,7 +32049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32072,7 +32069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32092,7 +32089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32112,7 +32109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32132,7 +32129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32152,7 +32149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32172,7 +32169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32192,7 +32189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32212,7 +32209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32232,7 +32229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32252,7 +32249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32272,7 +32269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32292,7 +32289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32312,7 +32309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32332,7 +32329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32352,7 +32349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32372,7 +32369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32392,7 +32389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32412,7 +32409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32432,7 +32429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32452,7 +32449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32472,7 +32469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32492,7 +32489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32512,7 +32509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32532,7 +32529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32552,7 +32549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32572,7 +32569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32592,7 +32589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32612,7 +32609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32632,7 +32629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32652,7 +32649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32672,7 +32669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32692,7 +32689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32712,7 +32709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32732,7 +32729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32752,7 +32749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32772,7 +32769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32792,7 +32789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32812,7 +32809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32832,7 +32829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32852,7 +32849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32872,7 +32869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32892,7 +32889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32912,7 +32909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32932,7 +32929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32952,7 +32949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32972,7 +32969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -32992,7 +32989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33012,7 +33009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33032,7 +33029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33052,7 +33049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33072,7 +33069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33092,7 +33089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33112,7 +33109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33132,7 +33129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33152,7 +33149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33172,7 +33169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33192,7 +33189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33212,7 +33209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33232,7 +33229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33252,7 +33249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33272,7 +33269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33292,7 +33289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33312,7 +33309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33332,7 +33329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33352,7 +33349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33372,7 +33369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33392,7 +33389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33412,7 +33409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33432,7 +33429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33452,7 +33449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33472,7 +33469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33492,7 +33489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33512,7 +33509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33532,7 +33529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33552,7 +33549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33572,7 +33569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33592,7 +33589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33612,7 +33609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33632,7 +33629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33652,7 +33649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33672,7 +33669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33692,7 +33689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33712,7 +33709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33732,7 +33729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33752,7 +33749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33772,7 +33769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33792,7 +33789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33812,7 +33809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33832,7 +33829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33852,7 +33849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33872,7 +33869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33892,7 +33889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33912,7 +33909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33932,7 +33929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33952,7 +33949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33972,7 +33969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -33992,7 +33989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34012,7 +34009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34032,7 +34029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34052,7 +34049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34072,7 +34069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34092,7 +34089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34112,7 +34109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34132,7 +34129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34152,7 +34149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34172,7 +34169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34192,7 +34189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34212,7 +34209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34232,7 +34229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34252,7 +34249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34272,7 +34269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34292,7 +34289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34312,7 +34309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34332,7 +34329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34352,7 +34349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34372,7 +34369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34392,7 +34389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34412,7 +34409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34432,7 +34429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34452,7 +34449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34472,7 +34469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34492,7 +34489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34512,7 +34509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34532,7 +34529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34552,7 +34549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34572,7 +34569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34592,7 +34589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34612,7 +34609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34632,7 +34629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34652,7 +34649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34672,7 +34669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34692,7 +34689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34712,7 +34709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34732,7 +34729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34752,7 +34749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34772,7 +34769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34792,7 +34789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34812,7 +34809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34832,7 +34829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34852,7 +34849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34872,7 +34869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34892,7 +34889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34912,7 +34909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34932,7 +34929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34952,7 +34949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34972,7 +34969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -34992,7 +34989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35012,7 +35009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35032,7 +35029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35052,7 +35049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35072,7 +35069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35092,7 +35089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35112,7 +35109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35132,7 +35129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35152,7 +35149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35172,7 +35169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35192,7 +35189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35212,7 +35209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35232,7 +35229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35252,7 +35249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35272,7 +35269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35292,7 +35289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35312,7 +35309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35332,7 +35329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35352,7 +35349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35372,7 +35369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35392,7 +35389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35412,7 +35409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35432,7 +35429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35452,7 +35449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35472,7 +35469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35492,7 +35489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35512,7 +35509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35532,7 +35529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35552,7 +35549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35572,7 +35569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35592,7 +35589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35612,7 +35609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35632,7 +35629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35652,7 +35649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35672,7 +35669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35692,7 +35689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35712,7 +35709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35732,7 +35729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35752,7 +35749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35772,7 +35769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35792,7 +35789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35812,7 +35809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35832,7 +35829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35852,7 +35849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35872,7 +35869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35892,7 +35889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35912,7 +35909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35932,7 +35929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35952,7 +35949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35972,7 +35969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -35992,7 +35989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36012,7 +36009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36032,7 +36029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36052,7 +36049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36072,7 +36069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36092,7 +36089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36112,7 +36109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36132,7 +36129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36152,7 +36149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36172,7 +36169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36192,7 +36189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36212,7 +36209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36232,7 +36229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36252,7 +36249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36272,7 +36269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36292,7 +36289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36312,7 +36309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36332,7 +36329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36352,7 +36349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36372,7 +36369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36392,7 +36389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36412,7 +36409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36432,7 +36429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36452,7 +36449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36472,7 +36469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36492,7 +36489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36512,7 +36509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36532,7 +36529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36552,7 +36549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36572,7 +36569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36592,7 +36589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36612,7 +36609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36632,7 +36629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36652,7 +36649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36672,7 +36669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36692,7 +36689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36712,7 +36709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36732,7 +36729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36752,7 +36749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36772,7 +36769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36792,7 +36789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36812,7 +36809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36832,7 +36829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36852,7 +36849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36872,7 +36869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36892,7 +36889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36912,7 +36909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36932,7 +36929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36952,7 +36949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36972,7 +36969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -36992,7 +36989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37012,7 +37009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37032,7 +37029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37052,7 +37049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37072,7 +37069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37092,7 +37089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37112,7 +37109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37132,7 +37129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37152,7 +37149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37172,7 +37169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37192,7 +37189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37212,7 +37209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37232,7 +37229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37252,7 +37249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37272,7 +37269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37292,7 +37289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37312,7 +37309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37332,7 +37329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37352,7 +37349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37372,7 +37369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37392,7 +37389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37412,7 +37409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37432,7 +37429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37452,7 +37449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37472,7 +37469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37492,7 +37489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37512,7 +37509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37532,7 +37529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37552,7 +37549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37572,7 +37569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37592,7 +37589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37612,7 +37609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37632,7 +37629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37652,7 +37649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37672,7 +37669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37692,7 +37689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37712,7 +37709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37732,7 +37729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37752,7 +37749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37772,7 +37769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37792,7 +37789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37812,7 +37809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37832,7 +37829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37852,7 +37849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37872,7 +37869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37892,7 +37889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37912,7 +37909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37932,7 +37929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37952,7 +37949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37972,7 +37969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -37992,7 +37989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38012,7 +38009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38032,7 +38029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38052,7 +38049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38072,7 +38069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38092,7 +38089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38112,7 +38109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38132,7 +38129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38152,7 +38149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38172,7 +38169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38192,7 +38189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38212,7 +38209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38232,7 +38229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38252,7 +38249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38272,7 +38269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38292,7 +38289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38312,7 +38309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38332,7 +38329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38352,7 +38349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38372,7 +38369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38392,7 +38389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft (String, String) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft(String, String) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
@@ -38412,7 +38409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38432,7 +38429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38452,7 +38449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38472,7 +38469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38492,7 +38489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38512,7 +38509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38532,7 +38529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38552,7 +38549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38572,7 +38569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38592,7 +38589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38612,7 +38609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38632,7 +38629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38652,7 +38649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38672,7 +38669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38692,7 +38689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38712,7 +38709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38732,7 +38729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38752,7 +38749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38772,7 +38769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38792,7 +38789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38812,7 +38809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38832,7 +38829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38852,7 +38849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38872,7 +38869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38892,7 +38889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38912,7 +38909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38932,7 +38929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38952,7 +38949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38972,7 +38969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -38992,7 +38989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39012,7 +39009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39032,7 +39029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39052,7 +39049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39072,7 +39069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39092,7 +39089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39112,7 +39109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39132,7 +39129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39152,7 +39149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39172,7 +39169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39192,7 +39189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39212,7 +39209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39232,7 +39229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39252,7 +39249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39272,7 +39269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39292,7 +39289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39312,7 +39309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39332,7 +39329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39352,7 +39349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39372,7 +39369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39392,7 +39389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39412,7 +39409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39432,7 +39429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39452,7 +39449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39472,7 +39469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39492,7 +39489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39512,7 +39509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39532,7 +39529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39552,7 +39549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39572,7 +39569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39592,7 +39589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39612,7 +39609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39632,7 +39629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39652,7 +39649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39672,7 +39669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39692,7 +39689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39712,7 +39709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39732,7 +39729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39752,7 +39749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39772,7 +39769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39792,7 +39789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39812,7 +39809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39832,7 +39829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39852,7 +39849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39872,7 +39869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39892,7 +39889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39912,7 +39909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39932,7 +39929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39952,7 +39949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39972,7 +39969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -39992,7 +39989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40012,7 +40009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40032,7 +40029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40052,7 +40049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40072,7 +40069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40092,7 +40089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40112,7 +40109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40132,7 +40129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40152,7 +40149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40172,7 +40169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40192,7 +40189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40212,7 +40209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40232,7 +40229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40252,7 +40249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40272,7 +40269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40292,7 +40289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40312,7 +40309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40332,7 +40329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40352,7 +40349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40372,7 +40369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40392,7 +40389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40412,7 +40409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40432,7 +40429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40452,7 +40449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40472,7 +40469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40492,7 +40489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40512,7 +40509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40532,7 +40529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40552,7 +40549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40572,7 +40569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40592,7 +40589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40612,7 +40609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40632,7 +40629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40652,7 +40649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40672,7 +40669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40692,7 +40689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40712,7 +40709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40732,7 +40729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40752,7 +40749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40772,7 +40769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40792,7 +40789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40812,7 +40809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40832,7 +40829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40852,7 +40849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40872,7 +40869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40892,7 +40889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40912,7 +40909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40932,7 +40929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40952,7 +40949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40972,7 +40969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -40992,7 +40989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41012,7 +41009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41032,7 +41029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41052,7 +41049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41072,7 +41069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41092,7 +41089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41112,7 +41109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41132,7 +41129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41152,7 +41149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41172,7 +41169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41192,7 +41189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41212,7 +41209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41232,7 +41229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41252,7 +41249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41272,7 +41269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41292,7 +41289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41312,7 +41309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41332,7 +41329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41352,7 +41349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41372,7 +41369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41392,7 +41389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41412,7 +41409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41432,7 +41429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41452,7 +41449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41472,7 +41469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41492,7 +41489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41512,7 +41509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41532,7 +41529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41552,7 +41549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41572,7 +41569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41592,7 +41589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41612,7 +41609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41632,7 +41629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41652,7 +41649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41672,7 +41669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41692,7 +41689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41712,7 +41709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41732,7 +41729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41752,7 +41749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41772,7 +41769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41792,7 +41789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41812,7 +41809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41832,7 +41829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41852,7 +41849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41872,7 +41869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41892,7 +41889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41912,7 +41909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41932,7 +41929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41952,7 +41949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41972,7 +41969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -41992,7 +41989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42012,7 +42009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42032,7 +42029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42052,7 +42049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42072,7 +42069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42092,7 +42089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42112,7 +42109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42132,7 +42129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42152,7 +42149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42172,7 +42169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42192,7 +42189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42212,7 +42209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42232,7 +42229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42252,7 +42249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42272,7 +42269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42292,7 +42289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42312,7 +42309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42332,7 +42329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42352,7 +42349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42372,7 +42369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42392,7 +42389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42412,7 +42409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42432,7 +42429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42452,7 +42449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42472,7 +42469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42492,7 +42489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42512,7 +42509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42532,7 +42529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42552,7 +42549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42572,7 +42569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42592,7 +42589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42612,7 +42609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42632,7 +42629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42652,7 +42649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42672,7 +42669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42692,7 +42689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42712,7 +42709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42732,7 +42729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42752,7 +42749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42772,7 +42769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42792,7 +42789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42812,7 +42809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42832,7 +42829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42852,7 +42849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42872,7 +42869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42892,7 +42889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42912,7 +42909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42932,7 +42929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42952,7 +42949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42972,7 +42969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -42992,7 +42989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43012,7 +43009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43032,7 +43029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43052,7 +43049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43072,7 +43069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43092,7 +43089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43112,7 +43109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43132,7 +43129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43152,7 +43149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43172,7 +43169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43192,7 +43189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43212,7 +43209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43232,7 +43229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43252,7 +43249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43272,7 +43269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43292,7 +43289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43312,7 +43309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43332,7 +43329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43352,7 +43349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43372,7 +43369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43392,7 +43389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43412,7 +43409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43432,7 +43429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43452,7 +43449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43472,7 +43469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43492,7 +43489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43512,7 +43509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43532,7 +43529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43552,7 +43549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43572,7 +43569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43592,7 +43589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43612,7 +43609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43632,7 +43629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43652,7 +43649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43672,7 +43669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43692,7 +43689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43712,7 +43709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43732,7 +43729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43752,7 +43749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43772,7 +43769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43792,7 +43789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43812,7 +43809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43832,7 +43829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43852,7 +43849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43872,7 +43869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43892,7 +43889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43912,7 +43909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43932,7 +43929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43952,7 +43949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43972,7 +43969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -43992,7 +43989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44012,7 +44009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44032,7 +44029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44052,7 +44049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44072,7 +44069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44092,7 +44089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44112,7 +44109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44132,7 +44129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44152,7 +44149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44172,7 +44169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44192,7 +44189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44212,7 +44209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44232,7 +44229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44252,7 +44249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44272,7 +44269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44292,7 +44289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44312,7 +44309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44332,7 +44329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44352,7 +44349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44372,7 +44369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44392,7 +44389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44412,7 +44409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44432,7 +44429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44452,7 +44449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44472,7 +44469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44492,7 +44489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44512,7 +44509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44532,7 +44529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44552,7 +44549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44572,7 +44569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44592,7 +44589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44612,7 +44609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44632,7 +44629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44652,7 +44649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44672,7 +44669,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44692,7 +44689,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44712,7 +44709,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44732,7 +44729,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44752,7 +44749,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44772,7 +44769,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44792,7 +44789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44812,7 +44809,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44832,7 +44829,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44852,7 +44849,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44872,7 +44869,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44892,7 +44889,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44912,7 +44909,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44932,7 +44929,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44952,7 +44949,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44972,7 +44969,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -44992,7 +44989,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45012,7 +45009,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45032,7 +45029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45052,7 +45049,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45072,7 +45069,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45092,7 +45089,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45112,7 +45109,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45132,7 +45129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45152,7 +45149,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45172,7 +45169,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45192,7 +45189,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45212,7 +45209,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45232,7 +45229,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45252,7 +45249,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45272,7 +45269,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45292,7 +45289,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45312,7 +45309,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45332,7 +45329,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45352,7 +45349,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction),  [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45372,7 +45369,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45392,7 +45389,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45412,7 +45409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45432,7 +45429,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45452,7 +45449,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45472,7 +45469,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45492,7 +45489,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45512,7 +45509,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction),  [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45532,7 +45529,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45552,7 +45549,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45572,7 +45569,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45592,7 +45589,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45612,7 +45609,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45632,7 +45629,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight (String, String) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight(String, String) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
@@ -45652,7 +45649,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathAccent](../mathaccent)) | Creates subscript |
+| setSubscript([MathAccent](../mathaccent)) | Creates subscript |
 
  **Parameters:**
 
@@ -45671,7 +45668,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathRadical](../mathradical)) | Creates subscript |
+| setSubscript([MathRadical](../mathradical)) | Creates subscript |
 
  **Parameters:**
 
@@ -45690,7 +45687,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathSubscriptElement](../mathsubscriptelement)) | Creates subscript |
+| setSubscript([MathSubscriptElement](../mathsubscriptelement)) | Creates subscript |
 
  **Parameters:**
 
@@ -45709,7 +45706,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript |
+| setSubscript([MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript |
 
  **Parameters:**
 
@@ -45728,7 +45725,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathMatrix](../mathmatrix)) | Creates subscript |
+| setSubscript([MathMatrix](../mathmatrix)) | Creates subscript |
 
  **Parameters:**
 
@@ -45747,7 +45744,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathematicalText](../mathematicaltext)) | Creates subscript |
+| setSubscript([MathematicalText](../mathematicaltext)) | Creates subscript |
 
  **Parameters:**
 
@@ -45766,7 +45763,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathBorderBox](../mathborderbox)) | Creates subscript |
+| setSubscript([MathBorderBox](../mathborderbox)) | Creates subscript |
 
  **Parameters:**
 
@@ -45785,7 +45782,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathDelimiter](../mathdelimiter)) | Creates subscript |
+| setSubscript([MathDelimiter](../mathdelimiter)) | Creates subscript |
 
  **Parameters:**
 
@@ -45804,7 +45801,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathFraction](../mathfraction)) | Creates subscript |
+| setSubscript([MathFraction](../mathfraction)) | Creates subscript |
 
  **Parameters:**
 
@@ -45823,7 +45820,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathLimit](../mathlimit)) | Creates subscript |
+| setSubscript([MathLimit](../mathlimit)) | Creates subscript |
 
  **Parameters:**
 
@@ -45842,7 +45839,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript |
+| setSubscript([MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript |
 
  **Parameters:**
 
@@ -45861,7 +45858,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript |
+| setSubscript([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript |
 
  **Parameters:**
 
@@ -45880,7 +45877,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathBlock](../mathblock)) | Creates subscript |
+| setSubscript([MathBlock](../mathblock)) | Creates subscript |
 
  **Parameters:**
 
@@ -45899,7 +45896,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathNaryOperator](../mathnaryoperator)) | Creates subscript |
+| setSubscript([MathNaryOperator](../mathnaryoperator)) | Creates subscript |
 
  **Parameters:**
 
@@ -45918,7 +45915,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathArray](../matharray)) | Creates subscript |
+| setSubscript([MathArray](../matharray)) | Creates subscript |
 
  **Parameters:**
 
@@ -45937,7 +45934,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathBar](../mathbar)) | Creates subscript |
+| setSubscript([MathBar](../mathbar)) | Creates subscript |
 
  **Parameters:**
 
@@ -45956,7 +45953,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathBox](../mathbox)) | Creates subscript |
+| setSubscript([MathBox](../mathbox)) | Creates subscript |
 
  **Parameters:**
 
@@ -45975,7 +45972,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript |
+| setSubscript([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript |
 
  **Parameters:**
 
@@ -45994,7 +45991,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathFunction](../mathfunction)) | Creates subscript |
+| setSubscript([MathFunction](../mathfunction)) | Creates subscript |
 
  **Parameters:**
 
@@ -46013,7 +46010,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSubscript (String) | Creates subscript |
+| setSubscript(String) | Creates subscript |
 
  **Parameters:**
 
@@ -46032,7 +46029,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathAccent](../mathaccent)) | Creates superscript |
+| setSuperscript([MathAccent](../mathaccent)) | Creates superscript |
 
  **Parameters:**
 
@@ -46051,7 +46048,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathRadical](../mathradical)) | Creates superscript |
+| setSuperscript([MathRadical](../mathradical)) | Creates superscript |
 
  **Parameters:**
 
@@ -46070,7 +46067,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathSubscriptElement](../mathsubscriptelement)) | Creates superscript |
+| setSuperscript([MathSubscriptElement](../mathsubscriptelement)) | Creates superscript |
 
  **Parameters:**
 
@@ -46089,7 +46086,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates superscript |
+| setSuperscript([MathSuperscriptElement](../mathsuperscriptelement)) | Creates superscript |
 
  **Parameters:**
 
@@ -46108,7 +46105,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathMatrix](../mathmatrix)) | Creates superscript |
+| setSuperscript([MathMatrix](../mathmatrix)) | Creates superscript |
 
  **Parameters:**
 
@@ -46127,7 +46124,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathematicalText](../mathematicaltext)) | Creates superscript |
+| setSuperscript([MathematicalText](../mathematicaltext)) | Creates superscript |
 
  **Parameters:**
 
@@ -46146,7 +46143,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathBorderBox](../mathborderbox)) | Creates superscript |
+| setSuperscript([MathBorderBox](../mathborderbox)) | Creates superscript |
 
  **Parameters:**
 
@@ -46165,7 +46162,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathDelimiter](../mathdelimiter)) | Creates superscript |
+| setSuperscript([MathDelimiter](../mathdelimiter)) | Creates superscript |
 
  **Parameters:**
 
@@ -46184,7 +46181,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathFraction](../mathfraction)) | Creates superscript |
+| setSuperscript([MathFraction](../mathfraction)) | Creates superscript |
 
  **Parameters:**
 
@@ -46203,7 +46200,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathLimit](../mathlimit)) | Creates superscript |
+| setSuperscript([MathLimit](../mathlimit)) | Creates superscript |
 
  **Parameters:**
 
@@ -46222,7 +46219,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathGroupingCharacter](../mathgroupingcharacter)) | Creates superscript |
+| setSuperscript([MathGroupingCharacter](../mathgroupingcharacter)) | Creates superscript |
 
  **Parameters:**
 
@@ -46241,7 +46238,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates superscript |
+| setSuperscript([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates superscript |
 
  **Parameters:**
 
@@ -46260,7 +46257,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathBlock](../mathblock)) | Creates superscript |
+| setSuperscript([MathBlock](../mathblock)) | Creates superscript |
 
  **Parameters:**
 
@@ -46279,7 +46276,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathNaryOperator](../mathnaryoperator)) | Creates superscript |
+| setSuperscript([MathNaryOperator](../mathnaryoperator)) | Creates superscript |
 
  **Parameters:**
 
@@ -46298,7 +46295,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathArray](../matharray)) | Creates superscript |
+| setSuperscript([MathArray](../matharray)) | Creates superscript |
 
  **Parameters:**
 
@@ -46317,7 +46314,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathBar](../mathbar)) | Creates superscript |
+| setSuperscript([MathBar](../mathbar)) | Creates superscript |
 
  **Parameters:**
 
@@ -46336,7 +46333,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathBox](../mathbox)) | Creates superscript |
+| setSuperscript([MathBox](../mathbox)) | Creates superscript |
 
  **Parameters:**
 
@@ -46355,7 +46352,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates superscript |
+| setSuperscript([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates superscript |
 
  **Parameters:**
 
@@ -46374,7 +46371,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathFunction](../mathfunction)) | Creates superscript |
+| setSuperscript([MathFunction](../mathfunction)) | Creates superscript |
 
  **Parameters:**
 
@@ -46393,7 +46390,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setSuperscript (String) | Creates superscript |
+| setSuperscript(String) | Creates superscript |
 
  **Parameters:**
 
@@ -46412,7 +46409,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathAccent](../mathaccent)) | Takes upper limit |
+| setUpperLimit([MathAccent](../mathaccent)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46431,7 +46428,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathRadical](../mathradical)) | Takes upper limit |
+| setUpperLimit([MathRadical](../mathradical)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46450,7 +46447,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathSubscriptElement](../mathsubscriptelement)) | Takes upper limit |
+| setUpperLimit([MathSubscriptElement](../mathsubscriptelement)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46469,7 +46466,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathSuperscriptElement](../mathsuperscriptelement)) | Takes upper limit |
+| setUpperLimit([MathSuperscriptElement](../mathsuperscriptelement)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46488,7 +46485,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathMatrix](../mathmatrix)) | Takes upper limit |
+| setUpperLimit([MathMatrix](../mathmatrix)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46507,7 +46504,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathematicalText](../mathematicaltext)) | Takes upper limit |
+| setUpperLimit([MathematicalText](../mathematicaltext)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46526,7 +46523,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathBorderBox](../mathborderbox)) | Takes upper limit |
+| setUpperLimit([MathBorderBox](../mathborderbox)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46545,7 +46542,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathDelimiter](../mathdelimiter)) | Takes upper limit |
+| setUpperLimit([MathDelimiter](../mathdelimiter)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46564,7 +46561,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathFraction](../mathfraction)) | Takes upper limit |
+| setUpperLimit([MathFraction](../mathfraction)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46583,7 +46580,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathLimit](../mathlimit)) | Takes upper limit |
+| setUpperLimit([MathLimit](../mathlimit)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46602,7 +46599,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathGroupingCharacter](../mathgroupingcharacter)) | Takes upper limit |
+| setUpperLimit([MathGroupingCharacter](../mathgroupingcharacter)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46621,7 +46618,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes upper limit |
+| setUpperLimit([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46640,7 +46637,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathBlock](../mathblock)) | Takes upper limit |
+| setUpperLimit([MathBlock](../mathblock)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46659,7 +46656,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathNaryOperator](../mathnaryoperator)) | Takes upper limit |
+| setUpperLimit([MathNaryOperator](../mathnaryoperator)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46678,7 +46675,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathArray](../matharray)) | Takes upper limit |
+| setUpperLimit([MathArray](../matharray)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46697,7 +46694,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathBar](../mathbar)) | Takes upper limit |
+| setUpperLimit([MathBar](../mathbar)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46716,7 +46713,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathBox](../mathbox)) | Takes upper limit |
+| setUpperLimit([MathBox](../mathbox)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46735,7 +46732,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes upper limit |
+| setUpperLimit([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46754,7 +46751,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathFunction](../mathfunction)) | Takes upper limit |
+| setUpperLimit([MathFunction](../mathfunction)) | Takes upper limit |
 
  **Parameters:**
 
@@ -46773,7 +46770,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit (String) | Takes upper limit |
+| setUpperLimit(String) | Takes upper limit |
 
  **Parameters:**
 
@@ -46792,7 +46789,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| toBorderBox () | Places this element in a border-box |
+| toBorderBox() | Places this element in a border-box |
 
  **Result:**
 [MathBorderBox](../mathborderbox)
@@ -46805,7 +46802,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| toBorderBox (boolean, boolean, boolean, boolean, boolean,  boolean, boolean, boolean) | Places this element in a border-box |
+| toBorderBox(boolean, boolean, boolean, boolean, boolean, boolean, boolean,  boolean) | Places this element in a border-box |
 
  **Parameters:**
 
@@ -46831,7 +46828,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| toBox () | Places this element in a non-visual box (logical grouping) which is used to group components of an equation or other instance of mathematical text. A boxed object can (for example) serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. |
+| toBox() | Places this element in a non-visual box (logical grouping) which is used to group components of an equation or other instance of mathematical text. A boxed object can (for example) serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. |
 
  **Result:**
 [MathBox](../mathbox)
@@ -46844,7 +46841,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| toMathArray () | Puts in a vertical array |
+| toMathArray() | Puts in a vertical array |
 
  **Result:**
 [MathArray](../matharray)
@@ -46857,7 +46854,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| underbar () | Sets a bar on the bottom of this element |
+| underbar() | Sets a bar on the bottom of this element |
 
  **Result:**
 [MathBar](../mathbar)

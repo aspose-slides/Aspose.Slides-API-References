@@ -15,7 +15,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| addEmbeddedFont ([FontData](../fontdata), int) | Adds the embedded font |
+| addEmbeddedFont([FontData](../fontdata), int) | Adds the embedded font |
 
  **Error**
 
@@ -31,7 +31,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| addEmbeddedFont (byte[], int) | Adds the embedded font |
+| addEmbeddedFont(byte[], int) | Adds the embedded font |
 
  **Error**
 
@@ -47,7 +47,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| getEmbeddedFonts () | Returns the fonts embedded in the presentation |
+| getEmbeddedFonts() | Returns the fonts embedded in the presentation |
 
  **Result:**
 [FontData](../fontdata)
@@ -60,7 +60,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| getFontFallBackRulesCollection () | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
+| getFontFallBackRulesCollection() | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
 
  **Result:**
 [FontFallBackRulesCollection](../fontfallbackrulescollection)
@@ -73,7 +73,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| getFontSubstRuleList () | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
+| getFontSubstRuleList() | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
 
  **Result:**
 [FontSubstRuleCollection](../fontsubstrulecollection)
@@ -86,7 +86,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| getFonts () | Returns the fonts used in the presentation |
+| getFonts() | Returns the fonts used in the presentation |
 
  **Result:**
 [FontData](../fontdata)
@@ -99,7 +99,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| getSubstitutions () | Gets the information about fonts that will be replaced on the presentation's rendering. |
+| getSubstitutions() | Gets the information about fonts that will be replaced on the presentation's rendering. |
 
  **Result:**
 [CustomXmlPartCollection](../customxmlpartcollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [VbaReferenceCollection](../vbareferencecollection), ReadOnlyCollection, Queue, [ColumnCollection](../columncollection), [ChartDataPointCollection](../chartdatapointcollection), [RowCollection](../rowcollection), [FillFormatCollection](../fillformatcollection), [ImageCollection](../imagecollection), [ParagraphCollection](../paragraphcollection), Stack, [CommentAuthorCollection](../commentauthorcollection), [ChartDataWorksheetCollection](../chartdataworksheetcollection), [TextAnimationCollection](../textanimationcollection), [ControlPropertiesCollection](../controlpropertiescollection), [SequenceCollection](../sequencecollection), [PointCollection](../pointcollection), [MathBlock](../mathblock), Collection, [DataLabelCollection](../datalabelcollection), [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [SmartArtShapeCollection](../smartartshapecollection), [ControlCollection](../controlcollection), [TrendlineCollection](../trendlinecollection), [CellCollection](../cellcollection), [ShapeCollection](../shapecollection), [ExtraColorSchemeCollection](../extracolorschemecollection), [AudioCollection](../audiocollection), SortedDictionary, [ColorOperationCollection](../coloroperationcollection), [MasterSlideCollection](../masterslidecollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), List, [PortionCollection](../portioncollection), [Row](../row), [EffectStyleCollection](../effectstylecollection), Dictionary, [BehaviorCollection](../behaviorcollection), [TagCollection](../tagcollection), [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [MotionPath](../motionpath), [LineFormatCollection](../lineformatcollection), [GradientStopCollection](../gradientstopcollection), [TabCollection](../tabcollection), [SectionCollection](../sectioncollection), [VideoCollection](../videocollection), [VbaModuleCollection](../vbamodulecollection), [BehaviorPropertyCollection](../behaviorpropertycollection), [Sequence](../sequence), [ChartCategoryCollection](../chartcategorycollection), [FontSubstRuleCollection](../fontsubstrulecollection), [DigitalSignatureCollection](../digitalsignaturecollection), SortedList, [SectionSlideCollection](../sectionslidecollection), LinkedList, [Column](../column), KeyedCollection, [MasterLayoutSlideCollection](../masterlayoutslidecollection), [CommentCollection](../commentcollection), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartSeriesCollection](../chartseriescollection), [MathParagraph](../mathparagraph), [FontFallBackRulesCollection](../fontfallbackrulescollection), [LayoutSlideCollection](../layoutslidecollection), [ChartCellCollection](../chartcellcollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [SlideCollection](../slidecollection), [SmartArtNodeCollection](../smartartnodecollection)
@@ -112,7 +112,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| removeEmbeddedFont ([FontData](../fontdata)) | Removes the embedded font |
+| removeEmbeddedFont([FontData](../fontdata)) | Removes the embedded font |
 
 
 ---
@@ -122,7 +122,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| replaceFont ([FontData](../fontdata), [FontData](../fontdata)) | Replace font in presentation |
+| replaceFont([FontData](../fontdata), [FontData](../fontdata)) | Replace font in presentation |
 
  **Parameters:**
 
@@ -139,7 +139,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| replaceFont ([FontSubstRule](../fontsubstrule)) | Replace font in presentation using information provided in FontSubstRule |
+| replaceFont([FontSubstRule](../fontsubstrule)) | Replace font in presentation using information provided in FontSubstRule |
 
  **Parameters:**
 
@@ -155,7 +155,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| replaceFont ([FontSubstRuleCollection](../fontsubstrulecollection)) | Replace font in presentation using information provided in collection of FontSubstRule |
+| replaceFont([FontSubstRuleCollection](../fontsubstrulecollection)) | Replace font in presentation using information provided in collection of FontSubstRule |
 
  **Parameters:**
 
@@ -171,7 +171,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| setFontFallBackRulesCollection ([FontFallBackRulesCollection](../fontfallbackrulescollection)) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
+| setFontFallBackRulesCollection([FontFallBackRulesCollection](../fontfallbackrulescollection)) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
 
 
 ---
@@ -181,7 +181,7 @@ url: /aspose.slides/fontsmanager/
 
 | Name | Description |
 | --- | --- |
-| setFontSubstRuleList ([FontSubstRuleCollection](../fontsubstrulecollection)) | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
+| setFontSubstRuleList([FontSubstRuleCollection](../fontsubstrulecollection)) | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
 
 
 ---

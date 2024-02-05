@@ -35,7 +35,7 @@ FontSubstitutionInfo
 
 | Name | Description |
 | --- | --- |
-| getOriginalFontName () | Indicates source font name in presentation. Read-only String |
+| getOriginalFontName() | Indicates source font name in presentation. Read-only String |
 
  **Result:**
 String
@@ -48,7 +48,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getSubstitutedFontName () | Indicates the replacement font name for the original font. Read-only String |
+| getSubstitutedFontName() | Indicates the replacement font name for the original font. Read-only String |
 
  **Result:**
 String

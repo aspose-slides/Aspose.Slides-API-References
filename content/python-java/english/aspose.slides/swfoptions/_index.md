@@ -28,7 +28,7 @@ SwfOptions
 
 | Name | Description |
 | --- | --- |
-| getCompressed () | Specifies whether the generated SWF document should be compressed or not. Default is true. |
+| getCompressed() | Specifies whether the generated SWF document should be compressed or not. Default is true. |
 
  **Result:**
 boolean
@@ -41,7 +41,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont () | Returns or sets font used in case source font is not found. Read-write String. |
+| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
 
  **Result:**
 String
@@ -54,7 +54,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getEnableContextMenu () | Enable/disable context menu. Default is true. |
+| getEnableContextMenu() | Enable/disable context menu. Default is true. |
 
  **Result:**
 boolean
@@ -67,7 +67,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getJpegQuality () | Specifies the quality of JPEG images. Default is 95. |
+| getJpegQuality() | Specifies the quality of JPEG images. Default is 95. |
 
  **Result:**
 int
@@ -80,7 +80,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getLogoImageBytes () | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
+| getLogoImageBytes() | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 
  **Result:**
 byte
@@ -93,7 +93,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getLogoLink () | Gets or sets the full hyperlink address for a logo. Has an effect only if a ( #getLogoImageBytes/ #setLogoImageBytes(byte[])) is specified. |
+| getLogoLink() | Gets or sets the full hyperlink address for a logo. Has an effect only if a ( #getLogoImageBytes/ #setLogoImageBytes(byte[])) is specified. |
 
  **Result:**
 String
@@ -106,7 +106,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
+| getNotesCommentsLayouting() | Provides options that control how notes and comments is placed in exported document. |
 
  **Result:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
@@ -119,7 +119,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getProgressCallback () | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
  **Result:**
 IProgressCallback
@@ -132,7 +132,7 @@ IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| getShowBottomPane () | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
+| getShowBottomPane() | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
 
  **Result:**
 boolean
@@ -145,7 +145,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowFullScreen () | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |
+| getShowFullScreen() | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |
 
  **Result:**
 boolean
@@ -158,7 +158,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| getShowHiddenSlides() | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
  **Result:**
 boolean
@@ -171,7 +171,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowLeftPane () | Show/hide left pane. Can be overridden in flashvars. Default is true. |
+| getShowLeftPane() | Show/hide left pane. Can be overridden in flashvars. Default is true. |
 
  **Result:**
 boolean
@@ -184,7 +184,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowPageBorder () | Specifies whether border around pages should be shown. Default is true. |
+| getShowPageBorder() | Specifies whether border around pages should be shown. Default is true. |
 
  **Result:**
 boolean
@@ -197,7 +197,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowPageStepper () | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
+| getShowPageStepper() | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
 
  **Result:**
 boolean
@@ -210,7 +210,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowSearch () | Show/hide search section. Can be overridden in flashvars. Default is true. |
+| getShowSearch() | Show/hide search section. Can be overridden in flashvars. Default is true. |
 
  **Result:**
 boolean
@@ -223,7 +223,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowTopPane () | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
+| getShowTopPane() | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
 
  **Result:**
 boolean
@@ -236,7 +236,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getStartOpenLeftPane () | Start with opened left pane. Can be overridden in flashvars. Default is false. |
+| getStartOpenLeftPane() | Start with opened left pane. Can be overridden in flashvars. Default is false. |
 
  **Result:**
 boolean
@@ -249,7 +249,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getViewerIncluded () | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is true. |
+| getViewerIncluded() | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is true. |
 
  **Result:**
 boolean
@@ -262,7 +262,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getWarningCallback () | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
  **Result:**
 IWarningCallback
@@ -275,7 +275,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setCompressed (boolean) | Specifies whether the generated SWF document should be compressed or not. Default is true. |
+| setCompressed(boolean) | Specifies whether the generated SWF document should be compressed or not. Default is true. |
 
 
 ---
@@ -285,7 +285,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont (String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -295,7 +295,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setEnableContextMenu (boolean) | Enable/disable context menu. Default is true. |
+| setEnableContextMenu(boolean) | Enable/disable context menu. Default is true. |
 
 
 ---
@@ -305,7 +305,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setJpegQuality (int) | Specifies the quality of JPEG images. Default is 95. |
+| setJpegQuality(int) | Specifies the quality of JPEG images. Default is 95. |
 
 
 ---
@@ -315,7 +315,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setLogoImageBytes (byte[]) | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
+| setLogoImageBytes(byte[]) | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 
 
 ---
@@ -325,7 +325,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setLogoLink (String) | Gets or sets the full hyperlink address for a logo. Has an effect only if a ( #getLogoImageBytes/ #setLogoImageBytes(byte[])) is specified. |
+| setLogoLink(String) | Gets or sets the full hyperlink address for a logo. Has an effect only if a ( #getLogoImageBytes/ #setLogoImageBytes(byte[])) is specified. |
 
 
 ---
@@ -335,7 +335,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setProgressCallback ([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
 
 ---
@@ -345,7 +345,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowBottomPane (boolean) | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
+| setShowBottomPane(boolean) | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
 
 
 ---
@@ -355,7 +355,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowFullScreen (boolean) | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |
+| setShowFullScreen(boolean) | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |
 
 
 ---
@@ -365,7 +365,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| setShowHiddenSlides(boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 
 ---
@@ -375,7 +375,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowLeftPane (boolean) | Show/hide left pane. Can be overridden in flashvars. Default is true. |
+| setShowLeftPane(boolean) | Show/hide left pane. Can be overridden in flashvars. Default is true. |
 
 
 ---
@@ -385,7 +385,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowPageBorder (boolean) | Specifies whether border around pages should be shown. Default is true. |
+| setShowPageBorder(boolean) | Specifies whether border around pages should be shown. Default is true. |
 
 
 ---
@@ -395,7 +395,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowPageStepper (boolean) | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
+| setShowPageStepper(boolean) | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
 
 
 ---
@@ -405,7 +405,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowSearch (boolean) | Show/hide search section. Can be overridden in flashvars. Default is true. |
+| setShowSearch(boolean) | Show/hide search section. Can be overridden in flashvars. Default is true. |
 
 
 ---
@@ -415,7 +415,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowTopPane (boolean) | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
+| setShowTopPane(boolean) | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
 
 
 ---
@@ -425,7 +425,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setStartOpenLeftPane (boolean) | Start with opened left pane. Can be overridden in flashvars. Default is false. |
+| setStartOpenLeftPane(boolean) | Start with opened left pane. Can be overridden in flashvars. Default is false. |
 
 
 ---
@@ -435,7 +435,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setViewerIncluded (boolean) | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is true. |
+| setViewerIncluded(boolean) | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is true. |
 
 
 ---
@@ -445,7 +445,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback ([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

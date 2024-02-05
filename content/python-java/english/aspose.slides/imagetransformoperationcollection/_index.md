@@ -15,7 +15,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addAlphaBiLevelEffect (float) | Adds the new Alpha Bi-Level effect to the end of a collection. |
+| addAlphaBiLevelEffect(float) | Adds the new Alpha Bi-Level effect to the end of a collection. |
 
  **Parameters:**
 
@@ -34,7 +34,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addAlphaCeilingEffect () | Adds the new Alpha Ceiling effect to the end of a collection. |
+| addAlphaCeilingEffect() | Adds the new Alpha Ceiling effect to the end of a collection. |
 
  **Result:**
 [AlphaCeiling](../alphaceiling)
@@ -47,7 +47,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addAlphaFloorEffect () | Adds the new Alpha Floor effect to the end of a collection. |
+| addAlphaFloorEffect() | Adds the new Alpha Floor effect to the end of a collection. |
 
  **Result:**
 [AlphaFloor](../alphafloor)
@@ -60,7 +60,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addAlphaInverseEffect () | Adds the new Alpha Inverse effect to the end of a collection. |
+| addAlphaInverseEffect() | Adds the new Alpha Inverse effect to the end of a collection. |
 
  **Result:**
 [AlphaInverse](../alphainverse)
@@ -73,7 +73,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addAlphaModulateEffect () | Adds the new Alpha Modulate effect to the end of a collection. |
+| addAlphaModulateEffect() | Adds the new Alpha Modulate effect to the end of a collection. |
 
  **Result:**
 [AlphaModulate](../alphamodulate)
@@ -86,7 +86,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addAlphaModulateFixedEffect (float) | Adds the new Alpha Modulate Fixed effect to the end of a collection. |
+| addAlphaModulateFixedEffect(float) | Adds the new Alpha Modulate Fixed effect to the end of a collection. |
 
  **Parameters:**
 
@@ -105,7 +105,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addAlphaReplaceEffect (float) | Adds the new Alpha Replace effect to the end of a collection. |
+| addAlphaReplaceEffect(float) | Adds the new Alpha Replace effect to the end of a collection. |
 
  **Parameters:**
 
@@ -124,7 +124,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addBiLevelEffect (float) | Adds the new Bi-Level (black/white) effect to the end of a collection. |
+| addBiLevelEffect(float) | Adds the new Bi-Level (black/white) effect to the end of a collection. |
 
  **Parameters:**
 
@@ -143,7 +143,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addBlurEffect (double, boolean) | Adds the new Blur effect to the end of a collection. |
+| addBlurEffect(double, boolean) | Adds the new Blur effect to the end of a collection. |
 
  **Parameters:**
 
@@ -163,7 +163,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addColorChangeEffect () | Adds the new Color Change effect to the end of a collection. |
+| addColorChangeEffect() | Adds the new Color Change effect to the end of a collection. |
 
  **Result:**
 [ColorChange](../colorchange)
@@ -176,7 +176,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addColorReplaceEffect () | Adds the new Color Replacement effect to the end of a collection. |
+| addColorReplaceEffect() | Adds the new Color Replacement effect to the end of a collection. |
 
  **Result:**
 [ColorReplace](../colorreplace)
@@ -189,7 +189,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addDuotoneEffect () | Adds the new Duotone effect to the end of a collection. |
+| addDuotoneEffect() | Adds the new Duotone effect to the end of a collection. |
 
  **Result:**
 [Duotone](../duotone)
@@ -202,7 +202,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addFillOverlayEffect () | Adds the new Fill Overlay effect to the end of a collection. |
+| addFillOverlayEffect() | Adds the new Fill Overlay effect to the end of a collection. |
 
  **Result:**
 [FillOverlay](../filloverlay)
@@ -215,7 +215,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addGrayScaleEffect () | Adds the new Gray Scale effect to the end of a collection. |
+| addGrayScaleEffect() | Adds the new Gray Scale effect to the end of a collection. |
 
  **Result:**
 [GrayScale](../grayscale)
@@ -228,7 +228,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addHSLEffect (float, float, float) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
+| addHSLEffect(float, float, float) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
 
  **Parameters:**
 
@@ -249,7 +249,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([Tint](../tint)) | Adds the new image effect to the end of a collection. |
+| addItem([Tint](../tint)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -265,7 +265,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([FillOverlay](../filloverlay)) | Adds the new image effect to the end of a collection. |
+| addItem([FillOverlay](../filloverlay)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -281,7 +281,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([InnerShadow](../innershadow)) | Adds the new image effect to the end of a collection. |
+| addItem([InnerShadow](../innershadow)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -297,7 +297,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([HSL](../hsl)) | Adds the new image effect to the end of a collection. |
+| addItem([HSL](../hsl)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -313,7 +313,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([BiLevel](../bilevel)) | Adds the new image effect to the end of a collection. |
+| addItem([BiLevel](../bilevel)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -329,7 +329,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([Blur](../blur)) | Adds the new image effect to the end of a collection. |
+| addItem([Blur](../blur)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -345,7 +345,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaModulate](../alphamodulate)) | Adds the new image effect to the end of a collection. |
+| addItem([AlphaModulate](../alphamodulate)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -361,7 +361,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaBiLevel](../alphabilevel)) | Adds the new image effect to the end of a collection. |
+| addItem([AlphaBiLevel](../alphabilevel)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -377,7 +377,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([ColorChange](../colorchange)) | Adds the new image effect to the end of a collection. |
+| addItem([ColorChange](../colorchange)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -393,7 +393,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaInverse](../alphainverse)) | Adds the new image effect to the end of a collection. |
+| addItem([AlphaInverse](../alphainverse)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -409,7 +409,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([GrayScale](../grayscale)) | Adds the new image effect to the end of a collection. |
+| addItem([GrayScale](../grayscale)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -425,7 +425,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaReplace](../alphareplace)) | Adds the new image effect to the end of a collection. |
+| addItem([AlphaReplace](../alphareplace)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -441,7 +441,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([OuterShadow](../outershadow)) | Adds the new image effect to the end of a collection. |
+| addItem([OuterShadow](../outershadow)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -457,7 +457,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([Luminance](../luminance)) | Adds the new image effect to the end of a collection. |
+| addItem([Luminance](../luminance)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -473,7 +473,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([SoftEdge](../softedge)) | Adds the new image effect to the end of a collection. |
+| addItem([SoftEdge](../softedge)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -489,7 +489,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([Glow](../glow)) | Adds the new image effect to the end of a collection. |
+| addItem([Glow](../glow)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -505,7 +505,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([Duotone](../duotone)) | Adds the new image effect to the end of a collection. |
+| addItem([Duotone](../duotone)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -521,7 +521,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaFloor](../alphafloor)) | Adds the new image effect to the end of a collection. |
+| addItem([AlphaFloor](../alphafloor)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -537,7 +537,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([Reflection](../reflection)) | Adds the new image effect to the end of a collection. |
+| addItem([Reflection](../reflection)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -553,7 +553,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaCeiling](../alphaceiling)) | Adds the new image effect to the end of a collection. |
+| addItem([AlphaCeiling](../alphaceiling)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -569,7 +569,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaModulateFixed](../alphamodulatefixed)) | Adds the new image effect to the end of a collection. |
+| addItem([AlphaModulateFixed](../alphamodulatefixed)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -585,7 +585,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([PresetShadow](../presetshadow)) | Adds the new image effect to the end of a collection. |
+| addItem([PresetShadow](../presetshadow)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -601,7 +601,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([ColorReplace](../colorreplace)) | Adds the new image effect to the end of a collection. |
+| addItem([ColorReplace](../colorreplace)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
@@ -617,7 +617,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addLuminanceEffect (float, float) | Adds the new Luminance effect to the end of a collection. |
+| addLuminanceEffect(float, float) | Adds the new Luminance effect to the end of a collection. |
 
  **Parameters:**
 
@@ -637,7 +637,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addTintEffect (float, float) | Adds the new Tint effect to the end of a collection. |
+| addTintEffect(float, float) | Adds the new Tint effect to the end of a collection. |
 
  **Parameters:**
 
@@ -657,7 +657,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| clear () | Removes all image effects from a collection. |
+| clear() | Removes all image effects from a collection. |
 
 
 ---
@@ -667,7 +667,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| containsItem ([Tint](../tint)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([Tint](../tint)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -686,7 +686,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([FillOverlay](../filloverlay)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([FillOverlay](../filloverlay)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -705,7 +705,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([InnerShadow](../innershadow)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([InnerShadow](../innershadow)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -724,7 +724,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([HSL](../hsl)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([HSL](../hsl)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -743,7 +743,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([BiLevel](../bilevel)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([BiLevel](../bilevel)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -762,7 +762,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([Blur](../blur)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([Blur](../blur)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -781,7 +781,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaModulate](../alphamodulate)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([AlphaModulate](../alphamodulate)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -800,7 +800,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaBiLevel](../alphabilevel)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([AlphaBiLevel](../alphabilevel)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -819,7 +819,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([ColorChange](../colorchange)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([ColorChange](../colorchange)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -838,7 +838,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaInverse](../alphainverse)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([AlphaInverse](../alphainverse)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -857,7 +857,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([GrayScale](../grayscale)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([GrayScale](../grayscale)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -876,7 +876,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaReplace](../alphareplace)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([AlphaReplace](../alphareplace)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -895,7 +895,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([OuterShadow](../outershadow)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([OuterShadow](../outershadow)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -914,7 +914,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([Luminance](../luminance)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([Luminance](../luminance)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -933,7 +933,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([SoftEdge](../softedge)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([SoftEdge](../softedge)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -952,7 +952,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([Glow](../glow)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([Glow](../glow)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -971,7 +971,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([Duotone](../duotone)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([Duotone](../duotone)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -990,7 +990,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaFloor](../alphafloor)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([AlphaFloor](../alphafloor)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -1009,7 +1009,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([Reflection](../reflection)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([Reflection](../reflection)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -1028,7 +1028,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaCeiling](../alphaceiling)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([AlphaCeiling](../alphaceiling)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -1047,7 +1047,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaModulateFixed](../alphamodulatefixed)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([AlphaModulateFixed](../alphamodulatefixed)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -1066,7 +1066,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([PresetShadow](../presetshadow)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([PresetShadow](../presetshadow)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -1085,7 +1085,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([ColorReplace](../colorreplace)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem([ColorReplace](../colorreplace)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -1104,7 +1104,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| copyToTArray (com.aspose.slides. IImageTransformOperation[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+| copyToTArray(com.aspose.slides.IImageTransformOperation[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
  **Parameters:**
 
@@ -1127,10 +1127,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getParent_IPresentationComponent () |  |
-
- **Result:**
-[ColorFormat](../colorformat), [Background](../background), [Blur](../blur), [MasterTheme](../mastertheme), [TextFrameFormat](../textframeformat), [FillFormat](../fillformat), [GroupShape](../groupshape), [LayoutSlide](../layoutslide), [Legend](../legend), [Axis](../axis), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [TextFrame](../textframe), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [ParagraphFormat](../paragraphformat), [SketchFormat](../sketchformat), [Duotone](../duotone), [LineFormat](../lineformat), [BulletFormat](../bulletformat), [AutoShape](../autoshape), [BiLevel](../bilevel), [AudioFrame](../audioframe), [Backdrop3DScene](../backdrop3dscene), [Picture](../picture), [Hyperlink](../hyperlink), [SummaryZoomFrame](../summaryzoomframe), [MasterNotesSlide](../masternotesslide), [ZoomObject](../zoomobject), [AlphaBiLevel](../alphabilevel), [AlphaInverse](../alphainverse), [Tab](../tab), [AlphaReplace](../alphareplace), [PatternFormat](../patternformat), [SectionZoomFrame](../sectionzoomframe), [FormatScheme](../formatscheme), [MathPortion](../mathportion), [Paragraph](../paragraph), [BaseSlide](../baseslide), [ErrorBarsFormat](../errorbarsformat), [DataLabel](../datalabel), [FillOverlay](../filloverlay), [OleObjectFrame](../oleobjectframe), [Column](../column), [Format](../format), [Control](../control), [ColorChange](../colorchange), [OverrideTheme](../overridetheme), [ChartSeriesGroup](../chartseriesgroup), [LegendEntryProperties](../legendentryproperties), [BasePortionFormat](../baseportionformat), [AlphaCeiling](../alphaceiling), [ShapeBevel](../shapebevel), [LegacyDiagram](../legacydiagram), [ColorReplace](../colorreplace), [Tint](../tint), [Presentation](../presentation), [ZoomFrame](../zoomframe), [Field](../field), [ParagraphCollection](../paragraphcollection), [PVIObject](../pviobject), [ChartPortionFormat](../chartportionformat), [Chart](../chart), [Portion](../portion), [DataLabelCollection](../datalabelcollection), [Camera](../camera), [Connector](../connector), [CellCollection](../cellcollection), [VideoFrame](../videoframe), [MasterSlide](../masterslide), [GeometryShape](../geometryshape), [AlphaModulate](../alphamodulate), [NotesSlide](../notesslide), [SmartArt](../smartart), [Cell](../cell), [ImageTransformOperationCollection](../imagetransformoperationcollection), [Trendline](../trendline), [Ink](../ink), [ChartPlotArea](../chartplotarea), [EffectFormat](../effectformat), [AlphaModulateFixed](../alphamodulatefixed), [Shape](../shape), [ThreeDFormat](../threedformat), [Row](../row), [HSL](../hsl), [SummaryZoomSection](../summaryzoomsection), [GradientStopCollection](../gradientstopcollection), [LineFillFormat](../linefillformat), [GradientStop](../gradientstop), [GradientFormat](../gradientformat), [SmartArtShape](../smartartshape), [GrayScale](../grayscale), [Slide](../slide), [LightRig](../lightrig), [CellFormat](../cellformat), [Table](../table), [Theme](../theme), [ChartSeries](../chartseries), [ChartTitle](../charttitle), [DataTable](../datatable), [PictureFillFormat](../picturefillformat), [PictureFrame](../pictureframe), [ColorScheme](../colorscheme), [DataLabelFormat](../datalabelformat), [AlphaFloor](../alphafloor), [MasterHandoutSlide](../masterhandoutslide), [PortionFormat](../portionformat)
+| getParent_IPresentationComponent() |  |
 
 
 ---
@@ -1140,10 +1137,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getParent_ISlideComponent () |  |
-
- **Result:**
-[ColorFormat](../colorformat), [Background](../background), [Blur](../blur), [TextFrameFormat](../textframeformat), [FillFormat](../fillformat), [GroupShape](../groupshape), [LayoutSlide](../layoutslide), [Legend](../legend), [Axis](../axis), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [TextFrame](../textframe), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [ParagraphFormat](../paragraphformat), [SketchFormat](../sketchformat), [Duotone](../duotone), [LineFormat](../lineformat), [BulletFormat](../bulletformat), [AutoShape](../autoshape), [BiLevel](../bilevel), [AudioFrame](../audioframe), [Backdrop3DScene](../backdrop3dscene), [Picture](../picture), [Hyperlink](../hyperlink), [SummaryZoomFrame](../summaryzoomframe), [MasterNotesSlide](../masternotesslide), [ZoomObject](../zoomobject), [AlphaBiLevel](../alphabilevel), [AlphaInverse](../alphainverse), [Tab](../tab), [AlphaReplace](../alphareplace), [PatternFormat](../patternformat), [SectionZoomFrame](../sectionzoomframe), [FormatScheme](../formatscheme), [MathPortion](../mathportion), [Paragraph](../paragraph), [BaseSlide](../baseslide), [ErrorBarsFormat](../errorbarsformat), [DataLabel](../datalabel), [FillOverlay](../filloverlay), [OleObjectFrame](../oleobjectframe), [Column](../column), [Format](../format), [Control](../control), [ColorChange](../colorchange), [ChartSeriesGroup](../chartseriesgroup), [LegendEntryProperties](../legendentryproperties), [BasePortionFormat](../baseportionformat), [AlphaCeiling](../alphaceiling), [ShapeBevel](../shapebevel), [LegacyDiagram](../legacydiagram), [ColorReplace](../colorreplace), [Tint](../tint), [ZoomFrame](../zoomframe), [Field](../field), [ParagraphCollection](../paragraphcollection), [PVIObject](../pviobject), [ChartPortionFormat](../chartportionformat), [Chart](../chart), [Portion](../portion), [DataLabelCollection](../datalabelcollection), [Camera](../camera), [Connector](../connector), [CellCollection](../cellcollection), [VideoFrame](../videoframe), [MasterSlide](../masterslide), [GeometryShape](../geometryshape), [AlphaModulate](../alphamodulate), [NotesSlide](../notesslide), [SmartArt](../smartart), [Cell](../cell), [ImageTransformOperationCollection](../imagetransformoperationcollection), [Trendline](../trendline), [Ink](../ink), [ChartPlotArea](../chartplotarea), [EffectFormat](../effectformat), [AlphaModulateFixed](../alphamodulatefixed), [Shape](../shape), [ThreeDFormat](../threedformat), [Row](../row), [HSL](../hsl), [SummaryZoomSection](../summaryzoomsection), [GradientStopCollection](../gradientstopcollection), [LineFillFormat](../linefillformat), [GradientStop](../gradientstop), [GradientFormat](../gradientformat), [SmartArtShape](../smartartshape), [GrayScale](../grayscale), [Slide](../slide), [LightRig](../lightrig), [CellFormat](../cellformat), [Table](../table), [ChartSeries](../chartseries), [ChartTitle](../charttitle), [DataTable](../datatable), [PictureFillFormat](../picturefillformat), [PictureFrame](../pictureframe), [ColorScheme](../colorscheme), [DataLabelFormat](../datalabelformat), [AlphaFloor](../alphafloor), [MasterHandoutSlide](../masterhandoutslide), [PortionFormat](../portionformat)
+| getParent_ISlideComponent() |  |
 
 
 ---
@@ -1153,10 +1147,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getParent_Immediate () |  |
-
- **Result:**
-DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](../rotationeffect), [ChartTitle](../charttitle), [MathBar](../mathbar), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartDataWorksheet](../chartdataworksheet), [SoftEdge](../softedge), [Audio](../audio), [ChartWall](../chartwall), [BaseOverrideThemeManager](../baseoverridethememanager), [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager), ThemeableLineFormat, [UpDownBarsManager](../updownbarsmanager), [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [Format](../format), [GradientFormat](../gradientformat), [ThreeDFormat](../threedformat), [Slide](../slide), [TabCollection](../tabcollection), [ColorScheme](../colorscheme), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [SlideHeaderFooterManager](../slideheaderfootermanager), [CommentAuthor](../commentauthor), [CellFormat](../cellformat), [SlideShowTransition](../slideshowtransition), [CustomXmlPartCollection](../customxmlpartcollection), [SlideCollection](../slidecollection), [ViewProperties](../viewproperties), [Shape](../shape), [ExtraColorScheme](../extracolorscheme), [Luminance](../luminance), [MasterThemeManager](../masterthememanager), [DataLabel](../datalabel), [GradientStop](../gradientstop), [CellCollection](../cellcollection), [MathematicalText](../mathematicaltext), [Row](../row), MasterNotesSlideManager, [MathNaryOperator](../mathnaryoperator), [BaseThemeManager](../basethememanager), ThemeableFillFormat, [RowCollection](../rowcollection), [GeometryShape](../geometryshape), TableStyle, [LightRig](../lightrig), [ChartPlotArea](../chartplotarea), [BulletFormat](../bulletformat), [MathSuperscriptElement](../mathsuperscriptelement), [VideoCollection](../videocollection), [Table](../table), [ChartDataPointLevel](../chartdatapointlevel), PresetTextShape, [MasterTheme](../mastertheme), [SectionSlideCollection](../sectionslidecollection), [OleObjectFrame](../oleobjectframe), [ChartData](../chartdata), [ChartDataPointCollection](../chartdatapointcollection), [ChartDataWorkbook](../chartdataworkbook), [NotesSlideHeaderFooterManager](../notesslideheaderfootermanager), [PresetShadow](../presetshadow), AggregatedDataPoint, [SketchFormat](../sketchformat), [MathParagraph](../mathparagraph), [SmartArt](../smartart), [AudioCollection](../audiocollection), [AxisFormat](../axisformat), [CommentCollection](../commentcollection), [ParagraphFormat](../paragraphformat), [ChartDataWorksheetCollection](../chartdataworksheetcollection), FormatOverrides, [TextStyle](../textstyle), [FillFormatCollection](../fillformatcollection), [NotesSlideManager](../notesslidemanager), [ColumnFormat](../columnformat), [Section](../section), [MathBlock](../mathblock), [TableFormat](../tableformat), [StringChartValue](../stringchartvalue), [Reflection](../reflection), [Ink](../ink), [Trendline](../trendline), [LayoutSlideCollection](../layoutslidecollection), [LineFormat](../lineformat), [BasePortionFormat](../baseportionformat), [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager), [MasterHandoutSlide](../masterhandoutslide), [DataLabelFormat](../datalabelformat), [Timing](../timing), [MathAccent](../mathaccent), [LegacyDiagram](../legacydiagram), FormatOverride, [ChartSeriesGroup](../chartseriesgroup), [Blur](../blur), [MathSubscriptElement](../mathsubscriptelement), [NotesSlideThemeManager](../notesslidethememanager), [Axis](../axis), [AlphaBiLevel](../alphabilevel), [Paragraph](../paragraph), [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), TableBackgroundStyle, [SetEffect](../seteffect), [StringOrDoubleChartValue](../stringordoublechartvalue), [Chart](../chart), [PictureFillFormat](../picturefillformat), [HyperlinkQueries](../hyperlinkqueries), [ZoomFrame](../zoomframe), [BaseScript](../basescript), [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager), [Rotation3D](../rotation3d), [FontScheme](../fontscheme), [PictureFrame](../pictureframe), [Effect](../effect), [OverrideTheme](../overridetheme), [ColorChange](../colorchange), [ColumnCollection](../columncollection), [TrendlineCollection](../trendlinecollection), [EffectStyleCollection](../effectstylecollection), [AlphaInverse](../alphainverse), [ErrorBarsCustomValues](../errorbarscustomvalues), PlaceholderCollection, [FillFormat](../fillformat), [ModernComment](../moderncomment), [ColorFormat](../colorformat), [AdjustValueCollection](../adjustvaluecollection), [MasterNotesSlide](../masternotesslide), [CommentAuthorCollection](../commentauthorcollection), [ImageTransformOperation](../imagetransformoperation), AggregatedDataPointCollection, [LayoutSlideHeaderFooterManager](../layoutslideheaderfootermanager), [Background](../background), [Control](../control), [GrayScale](../grayscale), [LineFillFormat](../linefillformat), [AnimationTimeLine](../animationtimeline), [SmartArtShape](../smartartshape), [Tab](../tab), [MotionEffect](../motioneffect), [GradientStopCollection](../gradientstopcollection), [ChartCellCollection](../chartcellcollection), [ColorEffect](../coloreffect), [ChartPortionFormat](../chartportionformat), [MathBox](../mathbox), [DigitalSignatureCollection](../digitalsignaturecollection), [AutoShape](../autoshape), [NotesSlide](../notesslide), [SectionCollection](../sectioncollection), [ScaleEffect](../scaleeffect), [MathFunction](../mathfunction), [ChartSeries](../chartseries), [Connector](../connector), [Picture](../picture), [CommandEffect](../commandeffect), [SlideThemeManager](../slidethememanager), [DoubleChartValue](../doublechartvalue), [Column](../column), [EffectStyle](../effectstyle), [SlideSize](../slidesize), [CustomData](../customdata), [SummaryZoomSection](../summaryzoomsection), [HSL](../hsl), [Tint](../tint), [DataLabelCollection](../datalabelcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), LayoutTree, [GraphicalObject](../graphicalobject), [Field](../field), [FormatScheme](../formatscheme), [Legend](../legend), [AlphaCeiling](../alphaceiling), [Hyperlink](../hyperlink), [Cell](../cell), [Portion](../portion), [BiLevel](../bilevel), [MathElementBase](../mathelementbase), [MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager), [MathFraction](../mathfraction), [DataTable](../datatable), [HyperlinkManager](../hyperlinkmanager), [BaseHeaderFooterManager](../baseheaderfootermanager), [ChartSeriesCollection](../chartseriescollection), [ChartTextFormat](../charttextformat), [LayoutSlide](../layoutslide), [ShapeBevel](../shapebevel), [ShapeStyle](../shapestyle), [Camera](../camera), ThemeableTableFormat, [RowFormat](../rowformat), [ChartCategoryCollection](../chartcategorycollection), ChartSeriesGroupCollection, [LayoutSlideThemeManager](../layoutslidethememanager), [ControlCollection](../controlcollection), [InnerShadow](../innershadow), [PortionFormat](../portionformat), [AlphaReplace](../alphareplace), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [MathPortion](../mathportion), [Duotone](../duotone), [Backdrop3DScene](../backdrop3dscene), MasterHandoutSlideManager, [Video](../video), [AlphaModulate](../alphamodulate), [Behavior](../behavior), [ImageCollection](../imagecollection), BaseStyles, [ChartDataPointLevelsManager](../chartdatapointlevelsmanager), [PVIObject](../pviobject), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [Comment](../comment), [PatternFormat](../patternformat), [ChartCategory](../chartcategory), [PortionCollection](../portioncollection), [ErrorBarsFormat](../errorbarsformat), [ColorReplace](../colorreplace), ThemeableCellFormat, [GroupShape](../groupshape), [PresentationHeaderFooterManager](../presentationheaderfootermanager), MathRunElement, [MasterSlideCollection](../masterslidecollection), [TextFrameFormat](../textframeformat), [SectionZoomFrame](../sectionzoomframe), [DomObject](../domobject), [AlphaFloor](../alphafloor), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [AudioFrame](../audioframe), [EffectFormat](../effectformat), [ShapeCollection](../shapecollection), [VideoFrame](../videoframe), [Theme](../theme), [ChartDataPoint](../chartdatapoint), [AxesManager](../axesmanager), [MathRadical](../mathradical), [FillOverlay](../filloverlay), [FilterEffect](../filtereffect), [TextFrame](../textframe), [Marker](../marker), [ParagraphCollection](../paragraphcollection), [Presentation](../presentation), [MathArray](../matharray), [ZoomObject](../zoomobject), [LineFormatCollection](../lineformatcollection), [MathDelimiter](../mathdelimiter), TableCellTextStyle, [OuterShadow](../outershadow), [ExtraColorSchemeCollection](../extracolorschemecollection), [MathBorderBox](../mathborderbox), [Glow](../glow), [BaseChartValue](../basechartvalue), [SummaryZoomFrame](../summaryzoomframe), [LegendEntryProperties](../legendentryproperties), TableStyleCollection, TablePartStyle, [AlphaModulateFixed](../alphamodulatefixed), ThemeableEffectFormat, [MasterSlideHeaderFooterManager](../masterslideheaderfootermanager), [ChartLinesFormat](../chartlinesformat)
+| getParent_Immediate() |  |
 
 
 ---
@@ -1166,7 +1157,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getPresentation () |  |
+| getPresentation() |  |
 
  **Result:**
 Presentation
@@ -1179,7 +1170,7 @@ Presentation
 
 | Name | Description |
 | --- | --- |
-| getSlide () |  |
+| getSlide() |  |
 
  **Result:**
 BaseSlide
@@ -1192,7 +1183,7 @@ BaseSlide
 
 | Name | Description |
 | --- | --- |
-| getVersion () |  |
+| getVersion() |  |
 
  **Result:**
 long
@@ -1205,7 +1196,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getVersion () |  |
+| getVersion() |  |
 
  **Result:**
 long
@@ -1218,7 +1209,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns an ImageTransformOperation from the collection by it's index. |
+| get_Item(int) | Returns an ImageTransformOperation from the collection by it's index. |
 
  **Parameters:**
 
@@ -1237,7 +1228,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+| isReadOnly() | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
  **Result:**
 boolean
@@ -1250,7 +1241,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -1263,7 +1254,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -1276,7 +1267,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeAt (int) | Removes an image effect from a collection at the specified index. |
+| removeAt(int) | Removes an image effect from a collection at the specified index. |
 
  **Parameters:**
 
@@ -1292,7 +1283,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([Tint](../tint)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([Tint](../tint)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1317,7 +1308,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([FillOverlay](../filloverlay)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([FillOverlay](../filloverlay)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1342,7 +1333,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([InnerShadow](../innershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([InnerShadow](../innershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1367,7 +1358,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([HSL](../hsl)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([HSL](../hsl)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1392,7 +1383,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([BiLevel](../bilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([BiLevel](../bilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1417,7 +1408,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([Blur](../blur)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([Blur](../blur)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1442,7 +1433,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaModulate](../alphamodulate)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([AlphaModulate](../alphamodulate)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1467,7 +1458,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaBiLevel](../alphabilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([AlphaBiLevel](../alphabilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1492,7 +1483,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([ColorChange](../colorchange)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([ColorChange](../colorchange)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1517,7 +1508,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaInverse](../alphainverse)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([AlphaInverse](../alphainverse)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1542,7 +1533,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([GrayScale](../grayscale)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([GrayScale](../grayscale)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1567,7 +1558,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaReplace](../alphareplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([AlphaReplace](../alphareplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1592,7 +1583,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([OuterShadow](../outershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([OuterShadow](../outershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1617,7 +1608,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([Luminance](../luminance)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([Luminance](../luminance)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1642,7 +1633,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([SoftEdge](../softedge)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([SoftEdge](../softedge)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1667,7 +1658,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([Glow](../glow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([Glow](../glow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1692,7 +1683,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([Duotone](../duotone)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([Duotone](../duotone)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1717,7 +1708,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaFloor](../alphafloor)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([AlphaFloor](../alphafloor)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1742,7 +1733,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([Reflection](../reflection)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([Reflection](../reflection)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1767,7 +1758,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaCeiling](../alphaceiling)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([AlphaCeiling](../alphaceiling)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1792,7 +1783,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaModulateFixed](../alphamodulatefixed)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([AlphaModulateFixed](../alphamodulatefixed)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1817,7 +1808,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([PresetShadow](../presetshadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([PresetShadow](../presetshadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1842,7 +1833,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([ColorReplace](../colorreplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem([ColorReplace](../colorreplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -1867,7 +1858,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| size () | Returns the number of image effects in a collection. Read-only int. |
+| size() | Returns the number of image effects in a collection. Read-only int. |
 
  **Result:**
 int

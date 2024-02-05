@@ -15,7 +15,7 @@ url: /aspose.slides/svgshape/
 
 | Name | Description |
 | --- | --- |
-| getId () | Gets shape id |
+| getId() | Gets shape id |
 
  **Result:**
 String
@@ -28,7 +28,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| setEventHandler (int, String) | Sets event handler for the shape |
+| setEventHandler(int, String) | Sets event handler for the shape |
 
  **Parameters:**
 
@@ -45,7 +45,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| setId (String) | Gets shape id |
+| setId(String) | Gets shape id |
 
 
 ---

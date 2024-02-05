@@ -34,7 +34,7 @@ WebDocument
 
 | Name | Description |
 | --- | --- |
-| getGlobal () | Returns global storage of the document. Read-only Storage. |
+| getGlobal() | Returns global storage of the document. Read-only Storage. |
 
  **Result:**
 Storage
@@ -47,7 +47,7 @@ Storage
 
 | Name | Description |
 | --- | --- |
-| getInput () | Returns collection of input elements (templates) of the document. Read-only Input( #getInput). |
+| getInput() | Returns collection of input elements (templates) of the document. Read-only Input( #getInput). |
 
  **Result:**
 Input
@@ -60,7 +60,7 @@ Input
 
 | Name | Description |
 | --- | --- |
-| getOutput () | Returns collection of output elements of the document. Read-only Output( #getOutput). |
+| getOutput() | Returns collection of output elements of the document. Read-only Output( #getOutput). |
 
  **Result:**
 Output
@@ -73,7 +73,7 @@ Output
 
 | Name | Description |
 | --- | --- |
-| save () | Saves the document output. |
+| save() | Saves the document output. |
 
 
 ---

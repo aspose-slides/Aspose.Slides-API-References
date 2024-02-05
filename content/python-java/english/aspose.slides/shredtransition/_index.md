@@ -15,7 +15,7 @@ url: /aspose.slides/shredtransition/
 
 | Name | Description |
 | --- | --- |
-| getDirection () | Direction of transition. Read/write TransitionInOutDirectionType. |
+| getDirection() | Direction of transition. Read/write TransitionInOutDirectionType. |
 
  **Result:**
 int
@@ -28,7 +28,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getPattern () | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
+| getPattern() | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
 
  **Result:**
 int
@@ -41,7 +41,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setDirection (int) | Direction of transition. Read/write TransitionInOutDirectionType. |
+| setDirection(int) | Direction of transition. Read/write TransitionInOutDirectionType. |
 
 
 ---
@@ -51,7 +51,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setPattern (int) | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
+| setPattern(int) | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
 
 
 ---

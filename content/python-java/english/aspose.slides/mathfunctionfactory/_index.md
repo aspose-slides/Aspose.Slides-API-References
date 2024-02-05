@@ -30,7 +30,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -50,7 +50,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -70,7 +70,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -90,7 +90,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -110,7 +110,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -130,7 +130,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -150,7 +150,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -170,7 +170,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -190,7 +190,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -210,7 +210,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -230,7 +230,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -250,7 +250,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -270,7 +270,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -290,7 +290,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -310,7 +310,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -330,7 +330,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -350,7 +350,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -370,7 +370,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -390,7 +390,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -410,7 +410,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -430,7 +430,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -450,7 +450,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -470,7 +470,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -490,7 +490,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -510,7 +510,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -530,7 +530,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -550,7 +550,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -570,7 +570,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -590,7 +590,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -610,7 +610,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -630,7 +630,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -650,7 +650,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -670,7 +670,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -690,7 +690,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -710,7 +710,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -730,7 +730,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -750,7 +750,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -770,7 +770,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -790,7 +790,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -810,7 +810,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -830,7 +830,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -850,7 +850,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -870,7 +870,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -890,7 +890,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -910,7 +910,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -930,7 +930,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -950,7 +950,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -970,7 +970,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -990,7 +990,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -1010,7 +1010,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1030,7 +1030,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -1050,7 +1050,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -1070,7 +1070,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -1090,7 +1090,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -1110,7 +1110,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -1130,7 +1130,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1150,7 +1150,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -1170,7 +1170,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -1190,7 +1190,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -1210,7 +1210,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1230,7 +1230,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1250,7 +1250,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -1270,7 +1270,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -1290,7 +1290,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -1310,7 +1310,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -1330,7 +1330,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -1350,7 +1350,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -1370,7 +1370,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -1390,7 +1390,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1410,7 +1410,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -1430,7 +1430,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -1450,7 +1450,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -1470,7 +1470,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -1490,7 +1490,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -1510,7 +1510,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1530,7 +1530,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -1550,7 +1550,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -1570,7 +1570,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -1590,7 +1590,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1610,7 +1610,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1630,7 +1630,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -1650,7 +1650,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -1670,7 +1670,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -1690,7 +1690,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -1710,7 +1710,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -1730,7 +1730,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -1750,7 +1750,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -1770,7 +1770,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1790,7 +1790,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -1810,7 +1810,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -1830,7 +1830,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -1850,7 +1850,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -1870,7 +1870,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -1890,7 +1890,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1910,7 +1910,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -1930,7 +1930,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -1950,7 +1950,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -1970,7 +1970,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -1990,7 +1990,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2010,7 +2010,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -2030,7 +2030,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -2050,7 +2050,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -2070,7 +2070,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -2090,7 +2090,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -2110,7 +2110,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -2130,7 +2130,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -2150,7 +2150,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2170,7 +2170,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -2190,7 +2190,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -2210,7 +2210,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -2230,7 +2230,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -2250,7 +2250,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -2270,7 +2270,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2290,7 +2290,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -2310,7 +2310,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -2330,7 +2330,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -2350,7 +2350,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2370,7 +2370,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2390,7 +2390,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -2410,7 +2410,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -2430,7 +2430,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -2450,7 +2450,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -2470,7 +2470,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -2490,7 +2490,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -2510,7 +2510,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -2530,7 +2530,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2550,7 +2550,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -2570,7 +2570,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -2590,7 +2590,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -2610,7 +2610,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -2630,7 +2630,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -2650,7 +2650,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2670,7 +2670,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -2690,7 +2690,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -2710,7 +2710,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -2730,7 +2730,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2750,7 +2750,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2770,7 +2770,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -2790,7 +2790,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -2810,7 +2810,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -2830,7 +2830,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -2850,7 +2850,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -2870,7 +2870,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -2890,7 +2890,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -2910,7 +2910,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -2930,7 +2930,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -2950,7 +2950,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -2970,7 +2970,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -2990,7 +2990,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -3010,7 +3010,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -3030,7 +3030,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3050,7 +3050,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -3070,7 +3070,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -3090,7 +3090,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -3110,7 +3110,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3130,7 +3130,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3150,7 +3150,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -3170,7 +3170,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -3190,7 +3190,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -3210,7 +3210,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -3230,7 +3230,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -3250,7 +3250,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -3270,7 +3270,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -3290,7 +3290,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3310,7 +3310,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -3330,7 +3330,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -3350,7 +3350,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -3370,7 +3370,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -3390,7 +3390,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -3410,7 +3410,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3430,7 +3430,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -3450,7 +3450,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -3470,7 +3470,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -3490,7 +3490,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3510,7 +3510,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3530,7 +3530,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -3550,7 +3550,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -3570,7 +3570,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -3590,7 +3590,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -3610,7 +3610,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -3630,7 +3630,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -3650,7 +3650,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -3670,7 +3670,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3690,7 +3690,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -3710,7 +3710,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -3730,7 +3730,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -3750,7 +3750,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -3770,7 +3770,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -3790,7 +3790,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3810,7 +3810,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -3830,7 +3830,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -3850,7 +3850,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -3870,7 +3870,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter),  [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3890,7 +3890,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -3910,7 +3910,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -3930,7 +3930,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -3950,7 +3950,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -3970,7 +3970,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -3990,7 +3990,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -4010,7 +4010,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -4030,7 +4030,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -4050,7 +4050,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4070,7 +4070,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -4090,7 +4090,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -4110,7 +4110,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -4130,7 +4130,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -4150,7 +4150,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -4170,7 +4170,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4190,7 +4190,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -4210,7 +4210,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -4230,7 +4230,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -4250,7 +4250,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4270,7 +4270,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4290,7 +4290,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -4310,7 +4310,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -4330,7 +4330,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -4350,7 +4350,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -4370,7 +4370,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -4390,7 +4390,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -4410,7 +4410,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -4430,7 +4430,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4450,7 +4450,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -4470,7 +4470,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -4490,7 +4490,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -4510,7 +4510,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -4530,7 +4530,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -4550,7 +4550,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4570,7 +4570,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -4590,7 +4590,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -4610,7 +4610,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -4630,7 +4630,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4650,7 +4650,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4670,7 +4670,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -4690,7 +4690,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -4710,7 +4710,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -4730,7 +4730,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -4750,7 +4750,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -4770,7 +4770,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -4790,7 +4790,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -4810,7 +4810,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4830,7 +4830,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -4850,7 +4850,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -4870,7 +4870,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -4890,7 +4890,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -4910,7 +4910,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -4930,7 +4930,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -4950,7 +4950,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -4970,7 +4970,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -4990,7 +4990,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -5010,7 +5010,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5030,7 +5030,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5050,7 +5050,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -5070,7 +5070,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -5090,7 +5090,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -5110,7 +5110,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -5130,7 +5130,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -5150,7 +5150,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -5170,7 +5170,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -5190,7 +5190,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5210,7 +5210,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -5230,7 +5230,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -5250,7 +5250,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -5270,7 +5270,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -5290,7 +5290,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -5310,7 +5310,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5330,7 +5330,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -5350,7 +5350,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -5370,7 +5370,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -5390,7 +5390,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5410,7 +5410,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5430,7 +5430,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -5450,7 +5450,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -5470,7 +5470,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -5490,7 +5490,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -5510,7 +5510,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -5530,7 +5530,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -5550,7 +5550,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -5570,7 +5570,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5590,7 +5590,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -5610,7 +5610,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -5630,7 +5630,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -5650,7 +5650,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -5670,7 +5670,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -5690,7 +5690,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5710,7 +5710,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -5730,7 +5730,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -5750,7 +5750,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -5770,7 +5770,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5790,7 +5790,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5810,7 +5810,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -5830,7 +5830,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -5850,7 +5850,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -5870,7 +5870,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -5890,7 +5890,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -5910,7 +5910,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -5930,7 +5930,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -5950,7 +5950,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -5970,7 +5970,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -5990,7 +5990,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -6010,7 +6010,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -6030,7 +6030,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -6050,7 +6050,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -6070,7 +6070,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6090,7 +6090,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -6110,7 +6110,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -6130,7 +6130,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -6150,7 +6150,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6170,7 +6170,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6190,7 +6190,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -6210,7 +6210,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -6230,7 +6230,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -6250,7 +6250,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -6270,7 +6270,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -6290,7 +6290,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -6310,7 +6310,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -6330,7 +6330,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6350,7 +6350,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -6370,7 +6370,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -6390,7 +6390,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -6410,7 +6410,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -6430,7 +6430,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -6450,7 +6450,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6470,7 +6470,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -6490,7 +6490,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -6510,7 +6510,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -6530,7 +6530,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6550,7 +6550,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6570,7 +6570,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -6590,7 +6590,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -6610,7 +6610,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -6630,7 +6630,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -6650,7 +6650,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -6670,7 +6670,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -6690,7 +6690,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -6710,7 +6710,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6730,7 +6730,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -6750,7 +6750,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -6770,7 +6770,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -6790,7 +6790,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -6810,7 +6810,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -6830,7 +6830,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6850,7 +6850,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -6870,7 +6870,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -6890,7 +6890,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -6910,7 +6910,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6930,7 +6930,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -6950,7 +6950,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -6970,7 +6970,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -6990,7 +6990,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -7010,7 +7010,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -7030,7 +7030,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -7050,7 +7050,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -7070,7 +7070,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -7090,7 +7090,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -7110,7 +7110,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -7130,7 +7130,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -7150,7 +7150,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -7170,7 +7170,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -7190,7 +7190,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -7210,7 +7210,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -7230,7 +7230,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 
@@ -7250,7 +7250,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathAccent](../mathaccent)) | Creates math function |
+| createMathFunction(String, [MathAccent](../mathaccent)) | Creates math function |
 
  **Parameters:**
 
@@ -7270,7 +7270,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathRadical](../mathradical)) | Creates math function |
+| createMathFunction(String, [MathRadical](../mathradical)) | Creates math function |
 
  **Parameters:**
 
@@ -7290,7 +7290,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+| createMathFunction(String, [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -7310,7 +7310,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+| createMathFunction(String, [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -7330,7 +7330,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathMatrix](../mathmatrix)) | Creates math function |
+| createMathFunction(String, [MathMatrix](../mathmatrix)) | Creates math function |
 
  **Parameters:**
 
@@ -7350,7 +7350,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction(String, [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
@@ -7370,7 +7370,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction(String, [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
@@ -7390,7 +7390,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathDelimiter](../mathdelimiter)) | Creates math function |
+| createMathFunction(String, [MathDelimiter](../mathdelimiter)) | Creates math function |
 
  **Parameters:**
 
@@ -7410,7 +7410,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathFraction](../mathfraction)) | Creates math function |
+| createMathFunction(String, [MathFraction](../mathfraction)) | Creates math function |
 
  **Parameters:**
 
@@ -7430,7 +7430,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathLimit](../mathlimit)) | Creates math function |
+| createMathFunction(String, [MathLimit](../mathlimit)) | Creates math function |
 
  **Parameters:**
 
@@ -7450,7 +7450,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction(String, [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
@@ -7470,7 +7470,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+| createMathFunction(String, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -7490,7 +7490,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathBlock](../mathblock)) | Creates math function |
+| createMathFunction(String, [MathBlock](../mathblock)) | Creates math function |
 
  **Parameters:**
 
@@ -7510,7 +7510,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+| createMathFunction(String, [MathNaryOperator](../mathnaryoperator)) | Creates math function |
 
  **Parameters:**
 
@@ -7530,7 +7530,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathArray](../matharray)) | Creates math function |
+| createMathFunction(String, [MathArray](../matharray)) | Creates math function |
 
  **Parameters:**
 
@@ -7550,7 +7550,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathBar](../mathbar)) | Creates math function |
+| createMathFunction(String, [MathBar](../mathbar)) | Creates math function |
 
  **Parameters:**
 
@@ -7570,7 +7570,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathBox](../mathbox)) | Creates math function |
+| createMathFunction(String, [MathBox](../mathbox)) | Creates math function |
 
  **Parameters:**
 
@@ -7590,7 +7590,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+| createMathFunction(String, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
 
  **Parameters:**
 
@@ -7610,7 +7610,7 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathFunction](../mathfunction)) | Creates math function |
+| createMathFunction(String, [MathFunction](../mathfunction)) | Creates math function |
 
  **Parameters:**
 

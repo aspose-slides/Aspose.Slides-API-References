@@ -15,7 +15,7 @@ url: /aspose.slides/leftrightdirectiontransition/
 
 | Name | Description |
 | --- | --- |
-| getDirection () | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| getDirection() | Direction of transition. Read/write TransitionLeftRightDirectionType. |
 
  **Result:**
 int
@@ -28,7 +28,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setDirection (int) | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| setDirection(int) | Direction of transition. Read/write TransitionLeftRightDirectionType. |
 
 
 ---

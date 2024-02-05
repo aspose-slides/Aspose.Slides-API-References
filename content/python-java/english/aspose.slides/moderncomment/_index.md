@@ -15,7 +15,7 @@ url: /aspose.slides/moderncomment/
 
 | Name | Description |
 | --- | --- |
-| getAuthor () | Returns the author of a comment. Read-only ICommentAuthor. |
+| getAuthor() | Returns the author of a comment. Read-only ICommentAuthor. |
 
  **Result:**
 [CommentAuthor](../commentauthor)
@@ -28,7 +28,7 @@ url: /aspose.slides/moderncomment/
 
 | Name | Description |
 | --- | --- |
-| getCreatedTime () | Returns or sets the time of a comment creation. Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set. Read/write java.util.Date. Comment time is an optional parameter. |
+| getCreatedTime() | Returns or sets the time of a comment creation. Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set. Read/write java.util.Date. Comment time is an optional parameter. |
 
  **Result:**
 Date
@@ -41,7 +41,7 @@ Date
 
 | Name | Description |
 | --- | --- |
-| getParentComment () | Gets or sets parent comment. Read/write IComment. |
+| getParentComment() | Gets or sets parent comment. Read/write IComment. |
 
  **Result:**
 [Comment](../comment), [ModernComment](../moderncomment)
@@ -60,7 +60,7 @@ Date
 
 | Name | Description |
 | --- | --- |
-| getPosition () | Returns or sets the position of a comment on a slide. Read/write java.awt.geom.Point2D.Float. |
+| getPosition() | Returns or sets the position of a comment on a slide. Read/write java.awt.geom.Point2D.Float. |
 
  **Result:**
 Point2D.Float
@@ -73,7 +73,7 @@ Point2D.Float
 
 | Name | Description |
 | --- | --- |
-| getShape () | Returns a shape associated with the comment. Read-only IShape. |
+| getShape() | Returns a shape associated with the comment. Read-only IShape. |
 
  **Result:**
 [SummaryZoomSection](../summaryzoomsection), [AutoShape](../autoshape), [AudioFrame](../audioframe), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [GeometryShape](../geometryshape), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Ink](../ink), [Chart](../chart), [GroupShape](../groupshape), [Table](../table), [SectionZoomFrame](../sectionzoomframe), [Shape](../shape), [LegacyDiagram](../legacydiagram), [Connector](../connector)
@@ -86,7 +86,7 @@ Point2D.Float
 
 | Name | Description |
 | --- | --- |
-| getSlide () | Returns or sets the parent slide of a comment. Read-only ISlide. |
+| getSlide() | Returns or sets the parent slide of a comment. Read-only ISlide. |
 
  **Result:**
 [Slide](../slide)
@@ -99,7 +99,7 @@ Point2D.Float
 
 | Name | Description |
 | --- | --- |
-| getStatus () | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+| getStatus() | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
 
  **Result:**
 byte
@@ -112,7 +112,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getText () | Returns or sets the plain text of a slide comment. Read/write String. |
+| getText() | Returns or sets the plain text of a slide comment. Read/write String. |
 
  **Result:**
 String
@@ -125,7 +125,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getTextSelectionLength () | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+| getTextSelectionLength() | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
 
  **Result:**
 int
@@ -138,7 +138,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getTextSelectionStart () | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+| getTextSelectionStart() | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
 
  **Result:**
 int
@@ -151,7 +151,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| remove () | Removes comment and all its replies from the parent collection. |
+| remove() | Removes comment and all its replies from the parent collection. |
 
  **Error**
 
@@ -167,7 +167,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setCreatedTime (Date) | Returns or sets the time of a comment creation. Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set. Read/write java.util.Date. Comment time is an optional parameter. |
+| setCreatedTime(Date) | Returns or sets the time of a comment creation. Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set. Read/write java.util.Date. Comment time is an optional parameter. |
 
 
 ---
@@ -177,7 +177,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setParentComment ([Comment](../comment)) | Gets or sets parent comment. Read/write IComment. |
+| setParentComment([Comment](../comment)) | Gets or sets parent comment. Read/write IComment. |
 
  **Error**
 
@@ -193,7 +193,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setParentComment ([ModernComment](../moderncomment)) | Gets or sets parent comment. Read/write IComment. |
+| setParentComment([ModernComment](../moderncomment)) | Gets or sets parent comment. Read/write IComment. |
 
  **Error**
 
@@ -209,7 +209,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setPosition (Point2D.Float) | Returns or sets the position of a comment on a slide. Read/write java.awt.geom.Point2D.Float. |
+| setPosition(Point2D.Float) | Returns or sets the position of a comment on a slide. Read/write java.awt.geom.Point2D.Float. |
 
 
 ---
@@ -219,7 +219,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setStatus (byte) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+| setStatus(byte) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
 
 
 ---
@@ -229,7 +229,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setText (String) | Returns or sets the plain text of a slide comment. Read/write String. |
+| setText(String) | Returns or sets the plain text of a slide comment. Read/write String. |
 
 
 ---
@@ -239,7 +239,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setTextSelectionLength (int) | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+| setTextSelectionLength(int) | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
 
 
 ---
@@ -249,7 +249,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setTextSelectionStart (int) | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+| setTextSelectionStart(int) | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
 
 
 ---

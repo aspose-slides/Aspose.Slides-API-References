@@ -15,7 +15,7 @@ url: /aspose.slides/interruptiontoken/
 
 | Name | Description |
 | --- | --- |
-| getNone () | Represents an empty interruption token. Long-running operations will never be interrupted via InterruptionTokenSource#interrupt when using this token. |
+| getNone() | Represents an empty interruption token. Long-running operations will never be interrupted via InterruptionTokenSource#interrupt when using this token. |
 
  **Result:**
 InterruptionToken
@@ -28,7 +28,7 @@ InterruptionToken
 
 | Name | Description |
 | --- | --- |
-| isInterruptionRequested () | Returns true if interruption was requested. |
+| isInterruptionRequested() | Returns true if interruption was requested. |
 
  **Result:**
 boolean
@@ -41,7 +41,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| throwIfInterruptionRequested () | Throws an if interruption was requested. |
+| throwIfInterruptionRequested() | Throws an if interruption was requested. |
 
  **Error**
 

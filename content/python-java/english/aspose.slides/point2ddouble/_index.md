@@ -39,7 +39,7 @@ Point2DDouble
 
 | Name | Description |
 | --- | --- |
-| distance (double, double, double, double) |  |
+| distance(double, double, double, double) |  |
 
  **Result:**
 double
@@ -52,7 +52,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| distance (double, double) |  |
+| distance(double, double) |  |
 
  **Result:**
 double
@@ -65,7 +65,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| distance (Point2D) |  |
+| distance(Point2D) |  |
 
  **Result:**
 double
@@ -78,7 +78,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| distanceSq (double, double, double, double) |  |
+| distanceSq(double, double, double, double) |  |
 
  **Result:**
 double
@@ -91,7 +91,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| distanceSq (double, double) |  |
+| distanceSq(double, double) |  |
 
  **Result:**
 double
@@ -104,7 +104,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| distanceSq (Point2D) |  |
+| distanceSq(Point2D) |  |
 
  **Result:**
 double
@@ -117,7 +117,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getX () |  |
+| getX() |  |
 
  **Result:**
 double
@@ -130,7 +130,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getY () |  |
+| getY() |  |
 
  **Result:**
 double
@@ -143,7 +143,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| setLocation (double, double) |  |
+| setLocation(double, double) |  |
 
 
 ---
@@ -153,7 +153,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| setLocation (Point2D) |  |
+| setLocation(Point2D) |  |
 
 
 ---

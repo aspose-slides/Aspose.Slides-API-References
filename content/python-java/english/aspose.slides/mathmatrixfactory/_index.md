@@ -30,7 +30,7 @@ MathMatrixFactory
 
 | Name | Description |
 | --- | --- |
-| createMathMatrix (int, int) | Creates a math matrix |
+| createMathMatrix(int, int) | Creates a math matrix |
 
  **Parameters:**
 

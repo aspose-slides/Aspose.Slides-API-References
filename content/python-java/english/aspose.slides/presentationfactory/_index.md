@@ -28,7 +28,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| createPresentation () | Creates new presentation. |
+| createPresentation() | Creates new presentation. |
 
  **Result:**
 [Presentation](../presentation)
@@ -41,7 +41,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| createPresentation ([LoadOptions](../loadoptions)) | Creates new presentation with additional load options |
+| createPresentation([LoadOptions](../loadoptions)) | Creates new presentation with additional load options |
 
  **Parameters:**
 
@@ -60,7 +60,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| getInstance () | Presentation factory static instance. Read-only PresentationFactory. |
+| getInstance() | Presentation factory static instance. Read-only PresentationFactory. |
 
  **Result:**
 PresentationFactory
@@ -73,7 +73,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| getPresentationInfo (String) | Creates new PresentationInfo object from file and binds presentation to it. |
+| getPresentationInfo(String) | Creates new PresentationInfo object from file and binds presentation to it. |
 
  **Parameters:**
 
@@ -92,7 +92,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| getPresentationInfoFromBytes  (Bytes[]) | Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream. |
+| getPresentationInfoFromBytes (Bytes[]) | Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream. |
 
  **Parameters:**
 
@@ -111,7 +111,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| getPresentationText (String, int) | Retrieves the raw text from the slides |
+| getPresentationText(String, int) | Retrieves the raw text from the slides |
 
  **Parameters:**
 
@@ -131,7 +131,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| getPresentationTextFromBytes  (Bytes[], int) | Retrieves the raw text from the slides |
+| getPresentationTextFromBytes (Bytes[], int) | Retrieves the raw text from the slides |
 
  **Parameters:**
 
@@ -151,7 +151,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| getPresentationTextFromBytes  (Bytes[], int, [LoadOptions](../loadoptions)) | Retrieves the raw text from the slides |
+| getPresentationTextFromBytes (Bytes[], int, [LoadOptions](../loadoptions)) | Retrieves the raw text from the slides |
 
  **Parameters:**
 
@@ -172,7 +172,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| readPresentation (byte[]) | Reads an existing presentation from array |
+| readPresentation(byte[]) | Reads an existing presentation from array |
 
  **Parameters:**
 
@@ -191,7 +191,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| readPresentation (byte[], [LoadOptions](../loadoptions)) | Reads an existing presentation from array with additional load options |
+| readPresentation(byte[], [LoadOptions](../loadoptions)) | Reads an existing presentation from array with additional load options |
 
  **Parameters:**
 
@@ -211,7 +211,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| readPresentationFromBytes  (Bytes[]) | Reads an existing presentation from stream |
+| readPresentationFromBytes (Bytes[]) | Reads an existing presentation from stream |
 
  **Parameters:**
 
@@ -230,7 +230,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| readPresentationFromBytes  (Bytes[], [LoadOptions](../loadoptions)) | Reads an existing presentation from stream with additional load options |
+| readPresentationFromBytes (Bytes[], [LoadOptions](../loadoptions)) | Reads an existing presentation from stream with additional load options |
 
  **Parameters:**
 
@@ -250,7 +250,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| readPresentation (String) | Reads an existing presentation from file |
+| readPresentation(String) | Reads an existing presentation from file |
 
  **Parameters:**
 
@@ -269,7 +269,7 @@ PresentationFactory
 
 | Name | Description |
 | --- | --- |
-| readPresentation (String, [LoadOptions](../loadoptions)) | Reads an existing presentation from stream with additional load options |
+| readPresentation(String, [LoadOptions](../loadoptions)) | Reads an existing presentation from stream with additional load options |
 
  **Parameters:**
 

@@ -57,7 +57,7 @@ FontFallBackRule
 
 | Name | Description |
 | --- | --- |
-| addFallBackFonts (String) | Adds a new font(s) to the list of FallBack fonts. |
+| addFallBackFonts(String) | Adds a new font(s) to the list of FallBack fonts. |
 
  **Parameters:**
 
@@ -73,7 +73,7 @@ FontFallBackRule
 
 | Name | Description |
 | --- | --- |
-| addFallBackFonts (java.lang.String[]) | Adds a new fonts to the list of FallBack fonts. |
+| addFallBackFonts(java.lang.String[]) | Adds a new fonts to the list of FallBack fonts. |
 
  **Parameters:**
 
@@ -89,7 +89,7 @@ FontFallBackRule
 
 | Name | Description |
 | --- | --- |
-| clear () | Removes all fonts from the list. |
+| clear() | Removes all fonts from the list. |
 
 
 ---
@@ -99,7 +99,7 @@ FontFallBackRule
 
 | Name | Description |
 | --- | --- |
-| getCount () | Gets the number of fonts actually defined for range. Read-only int. |
+| getCount() | Gets the number of fonts actually defined for range. Read-only int. |
 
  **Result:**
 int
@@ -112,7 +112,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getRangeEndIndex () | Get last index of continuous unicode range. |
+| getRangeEndIndex() | Get last index of continuous unicode range. |
 
  **Result:**
 long
@@ -125,7 +125,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getRangeStartIndex () | Get first index of continuous unicode range. |
+| getRangeStartIndex() | Get first index of continuous unicode range. |
 
  **Result:**
 long
@@ -138,7 +138,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Gets the font name at the specified index. Read-only IFontFallBackRule. |
+| get_Item(int) | Gets the font name at the specified index. Read-only IFontFallBackRule. |
 
  **Result:**
 String
@@ -151,7 +151,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| indexOf (String) | Returns an index of the specified rule in the collection. |
+| indexOf(String) | Returns an index of the specified rule in the collection. |
 
  **Parameters:**
 
@@ -170,7 +170,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| remove (String) | Removes the first occurrence of a specific FallBack font from the list. |
+| remove(String) | Removes the first occurrence of a specific FallBack font from the list. |
 
  **Parameters:**
 
@@ -186,7 +186,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| removeAt (int) | Removes the FallBack font at the specified index of the list. |
+| removeAt(int) | Removes the FallBack font at the specified index of the list. |
 
  **Parameters:**
 
@@ -202,7 +202,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setRangeEndIndex (long) | Get last index of continuous unicode range. |
+| setRangeEndIndex(long) | Get last index of continuous unicode range. |
 
 
 ---
@@ -212,7 +212,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setRangeStartIndex (long) | Get first index of continuous unicode range. |
+| setRangeStartIndex(long) | Get first index of continuous unicode range. |
 
 
 ---
@@ -222,7 +222,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| toArray () | Creates and returns an array with all FallBack fonts for this rule. |
+| toArray() | Creates and returns an array with all FallBack fonts for this rule. |
 
  **Result:**
 String
@@ -235,7 +235,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| toArray (int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. // Create a rule contains a list of fonts. IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman"); // Get a last two font names as array. String[] fontNames = newRule.toArray(2, 2); |
+| toArray(int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. // Create a rule contains a list of fonts. IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman"); // Get a last two font names as array. String[] fontNames = newRule.toArray(2, 2); |
 
  **Parameters:**
 

@@ -28,7 +28,7 @@ GifOptions
 
 | Name | Description |
 | --- | --- |
-| getDefaultDelay () | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
+| getDefaultDelay() | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
 
  **Result:**
 int
@@ -41,7 +41,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont () | Returns or sets font used in case source font is not found. Read-write String. |
+| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
 
  **Result:**
 String
@@ -54,7 +54,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getExportHiddenSlides () | Determines whether hidden slides will be exported. The default value is false. |
+| getExportHiddenSlides() | Determines whether hidden slides will be exported. The default value is false. |
 
  **Result:**
 boolean
@@ -67,7 +67,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getFrameSize () | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
+| getFrameSize() | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
 
  **Result:**
 Dimension
@@ -80,7 +80,7 @@ Dimension
 
 | Name | Description |
 | --- | --- |
-| getProgressCallback () | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
  **Result:**
 IProgressCallback
@@ -93,7 +93,7 @@ IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| getTransitionFps () | Gets or sets transition FPS [frames/sec] The default value is 25. |
+| getTransitionFps() | Gets or sets transition FPS [frames/sec] The default value is 25. |
 
  **Result:**
 int
@@ -106,7 +106,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getWarningCallback () | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
  **Result:**
 IWarningCallback
@@ -119,7 +119,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultDelay (int) | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
+| setDefaultDelay(int) | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
 
 
 ---
@@ -129,7 +129,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont (String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -139,7 +139,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setExportHiddenSlides (boolean) | Determines whether hidden slides will be exported. The default value is false. |
+| setExportHiddenSlides(boolean) | Determines whether hidden slides will be exported. The default value is false. |
 
 
 ---
@@ -149,7 +149,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setFrameSize (Dimension) | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
+| setFrameSize(Dimension) | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
 
 
 ---
@@ -159,7 +159,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setProgressCallback ([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
 
 ---
@@ -169,7 +169,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setTransitionFps (int) | Gets or sets transition FPS [frames/sec] The default value is 25. |
+| setTransitionFps(int) | Gets or sets transition FPS [frames/sec] The default value is 25. |
 
 
 ---
@@ -179,7 +179,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback ([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

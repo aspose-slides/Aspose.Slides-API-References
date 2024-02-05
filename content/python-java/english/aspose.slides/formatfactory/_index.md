@@ -28,7 +28,7 @@ FormatFactory
 
 | Name | Description |
 | --- | --- |
-| createParagraphFormat () | Creates new IParagraphFormat. |
+| createParagraphFormat() | Creates new IParagraphFormat. |
 
  **Result:**
 [ParagraphFormat](../paragraphformat)
@@ -41,7 +41,7 @@ FormatFactory
 
 | Name | Description |
 | --- | --- |
-| createPortionFormat () | Creates new IPortionFormat. |
+| createPortionFormat() | Creates new IPortionFormat. |
 
  **Result:**
 [PortionFormat](../portionformat)
@@ -54,7 +54,7 @@ FormatFactory
 
 | Name | Description |
 | --- | --- |
-| createTextFrameFormat () | Creates new ITextFrameFormat. |
+| createTextFrameFormat() | Creates new ITextFrameFormat. |
 
  **Result:**
 [TextFrameFormat](../textframeformat)
@@ -67,7 +67,7 @@ FormatFactory
 
 | Name | Description |
 | --- | --- |
-| getInstance () | Format factory static instance. Read-only FormatFactory. |
+| getInstance() | Format factory static instance. Read-only FormatFactory. |
 
  **Result:**
 FormatFactory

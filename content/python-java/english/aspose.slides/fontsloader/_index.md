@@ -16,7 +16,7 @@ url: /aspose.slides/fontsloader/
 
 | Name | Description |
 | --- | --- |
-| clearCache () | Releases all custom fonts defined by user This method needs to clear cache with custom fonts defined by user. |
+| clearCache() | Releases all custom fonts defined by user This method needs to clear cache with custom fonts defined by user. |
 
 
 ---
@@ -26,7 +26,7 @@ url: /aspose.slides/fontsloader/
 
 | Name | Description |
 | --- | --- |
-| getFontFolders () | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
+| getFontFolders() | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
 
  **Result:**
 String
@@ -39,7 +39,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| loadExternalFont (byte[]) | Adds font from the binary data |
+| loadExternalFont(byte[]) | Adds font from the binary data |
 
  **Parameters:**
 
@@ -55,7 +55,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| loadExternalFonts (java.lang.String[]) | Adds additional folders to seek fonts. |
+| loadExternalFonts(java.lang.String[]) | Adds additional folders to seek fonts. |
 
  **Parameters:**
 

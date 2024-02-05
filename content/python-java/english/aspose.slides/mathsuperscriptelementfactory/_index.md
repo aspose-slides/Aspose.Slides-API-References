@@ -30,7 +30,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -50,7 +50,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -70,7 +70,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -90,7 +90,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -110,7 +110,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -130,7 +130,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -150,7 +150,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -170,7 +170,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -190,7 +190,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -210,7 +210,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -230,7 +230,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -250,7 +250,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -270,7 +270,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -290,7 +290,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -310,7 +310,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -330,7 +330,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -350,7 +350,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -370,7 +370,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -390,7 +390,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathAccent](../mathaccent),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -410,7 +410,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -430,7 +430,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -450,7 +450,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -470,7 +470,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -490,7 +490,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -510,7 +510,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -530,7 +530,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -550,7 +550,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -570,7 +570,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -590,7 +590,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -610,7 +610,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -630,7 +630,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -650,7 +650,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -670,7 +670,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -690,7 +690,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -710,7 +710,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -730,7 +730,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -750,7 +750,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -770,7 +770,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathRadical](../mathradical),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -790,7 +790,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -810,7 +810,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -830,7 +830,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -850,7 +850,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -870,7 +870,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -890,7 +890,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -910,7 +910,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -930,7 +930,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -950,7 +950,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -970,7 +970,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -990,7 +990,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1010,7 +1010,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1030,7 +1030,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1050,7 +1050,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1070,7 +1070,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1090,7 +1090,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1110,7 +1110,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1130,7 +1130,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1150,7 +1150,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSubscriptElement](../mathsubscriptelement),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1170,7 +1170,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1190,7 +1190,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1210,7 +1210,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1230,7 +1230,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1250,7 +1250,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1270,7 +1270,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1290,7 +1290,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1310,7 +1310,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1330,7 +1330,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1350,7 +1350,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1370,7 +1370,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1390,7 +1390,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1410,7 +1410,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1430,7 +1430,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1450,7 +1450,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1470,7 +1470,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1490,7 +1490,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1510,7 +1510,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1530,7 +1530,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1550,7 +1550,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1570,7 +1570,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1590,7 +1590,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1610,7 +1610,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1630,7 +1630,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1650,7 +1650,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1670,7 +1670,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1690,7 +1690,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1710,7 +1710,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1730,7 +1730,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1750,7 +1750,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1770,7 +1770,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1790,7 +1790,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1810,7 +1810,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1830,7 +1830,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1850,7 +1850,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1870,7 +1870,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1890,7 +1890,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1910,7 +1910,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathMatrix](../mathmatrix),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1930,7 +1930,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1950,7 +1950,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1970,7 +1970,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -1990,7 +1990,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2010,7 +2010,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2030,7 +2030,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2050,7 +2050,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2070,7 +2070,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2090,7 +2090,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2110,7 +2110,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2130,7 +2130,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2150,7 +2150,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2170,7 +2170,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2190,7 +2190,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2210,7 +2210,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2230,7 +2230,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2250,7 +2250,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2270,7 +2270,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2290,7 +2290,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathematicalText](../mathematicaltext),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2310,7 +2310,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2330,7 +2330,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2350,7 +2350,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2370,7 +2370,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2390,7 +2390,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2410,7 +2410,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2430,7 +2430,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2450,7 +2450,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2470,7 +2470,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2490,7 +2490,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2510,7 +2510,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2530,7 +2530,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2550,7 +2550,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2570,7 +2570,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2590,7 +2590,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2610,7 +2610,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2630,7 +2630,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2650,7 +2650,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2670,7 +2670,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBorderBox](../mathborderbox),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2690,7 +2690,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2710,7 +2710,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2730,7 +2730,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2750,7 +2750,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2770,7 +2770,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2790,7 +2790,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2810,7 +2810,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2830,7 +2830,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2850,7 +2850,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2870,7 +2870,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2890,7 +2890,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2910,7 +2910,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2930,7 +2930,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2950,7 +2950,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2970,7 +2970,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -2990,7 +2990,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3010,7 +3010,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3030,7 +3030,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3050,7 +3050,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathDelimiter](../mathdelimiter),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3070,7 +3070,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3090,7 +3090,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3110,7 +3110,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3130,7 +3130,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3150,7 +3150,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3170,7 +3170,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3190,7 +3190,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3210,7 +3210,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3230,7 +3230,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3250,7 +3250,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3270,7 +3270,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3290,7 +3290,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3310,7 +3310,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3330,7 +3330,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3350,7 +3350,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3370,7 +3370,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3390,7 +3390,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3410,7 +3410,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3430,7 +3430,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFraction](../mathfraction),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3450,7 +3450,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3470,7 +3470,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3490,7 +3490,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3510,7 +3510,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3530,7 +3530,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3550,7 +3550,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3570,7 +3570,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3590,7 +3590,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3610,7 +3610,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3630,7 +3630,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3650,7 +3650,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3670,7 +3670,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3690,7 +3690,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3710,7 +3710,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3730,7 +3730,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3750,7 +3750,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3770,7 +3770,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3790,7 +3790,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3810,7 +3810,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathLimit](../mathlimit),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3830,7 +3830,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3850,7 +3850,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3870,7 +3870,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3890,7 +3890,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3910,7 +3910,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3930,7 +3930,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3950,7 +3950,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3970,7 +3970,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -3990,7 +3990,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4010,7 +4010,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4030,7 +4030,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4050,7 +4050,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4070,7 +4070,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4090,7 +4090,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4110,7 +4110,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4130,7 +4130,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4150,7 +4150,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4170,7 +4170,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4190,7 +4190,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathGroupingCharacter](../mathgroupingcharacter),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4210,7 +4210,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4230,7 +4230,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4250,7 +4250,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4270,7 +4270,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4290,7 +4290,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4310,7 +4310,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4330,7 +4330,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4350,7 +4350,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4370,7 +4370,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4390,7 +4390,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4410,7 +4410,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4430,7 +4430,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4450,7 +4450,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4470,7 +4470,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4490,7 +4490,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4510,7 +4510,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4530,7 +4530,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4550,7 +4550,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4570,7 +4570,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4590,7 +4590,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4610,7 +4610,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4630,7 +4630,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4650,7 +4650,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4670,7 +4670,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4690,7 +4690,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4710,7 +4710,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4730,7 +4730,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4750,7 +4750,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4770,7 +4770,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4790,7 +4790,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4810,7 +4810,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4830,7 +4830,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4850,7 +4850,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4870,7 +4870,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4890,7 +4890,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4910,7 +4910,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4930,7 +4930,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4950,7 +4950,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBlock](../mathblock),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4970,7 +4970,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -4990,7 +4990,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5010,7 +5010,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5030,7 +5030,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5050,7 +5050,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5070,7 +5070,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5090,7 +5090,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5110,7 +5110,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5130,7 +5130,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5150,7 +5150,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5170,7 +5170,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5190,7 +5190,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5210,7 +5210,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5230,7 +5230,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5250,7 +5250,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5270,7 +5270,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5290,7 +5290,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5310,7 +5310,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5330,7 +5330,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathNaryOperator](../mathnaryoperator),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5350,7 +5350,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5370,7 +5370,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5390,7 +5390,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5410,7 +5410,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5430,7 +5430,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5450,7 +5450,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5470,7 +5470,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5490,7 +5490,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5510,7 +5510,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5530,7 +5530,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5550,7 +5550,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5570,7 +5570,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5590,7 +5590,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5610,7 +5610,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5630,7 +5630,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5650,7 +5650,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5670,7 +5670,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5690,7 +5690,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5710,7 +5710,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathArray](../matharray),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5730,7 +5730,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5750,7 +5750,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5770,7 +5770,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5790,7 +5790,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5810,7 +5810,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5830,7 +5830,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5850,7 +5850,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5870,7 +5870,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5890,7 +5890,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5910,7 +5910,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5930,7 +5930,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5950,7 +5950,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5970,7 +5970,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -5990,7 +5990,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6010,7 +6010,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6030,7 +6030,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6050,7 +6050,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6070,7 +6070,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6090,7 +6090,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6110,7 +6110,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6130,7 +6130,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6150,7 +6150,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6170,7 +6170,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6190,7 +6190,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6210,7 +6210,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6230,7 +6230,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6250,7 +6250,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6270,7 +6270,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6290,7 +6290,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6310,7 +6310,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6330,7 +6330,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6350,7 +6350,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6370,7 +6370,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6390,7 +6390,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6410,7 +6410,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6430,7 +6430,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6450,7 +6450,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6470,7 +6470,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6490,7 +6490,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6510,7 +6510,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6530,7 +6530,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6550,7 +6550,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6570,7 +6570,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6590,7 +6590,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6610,7 +6610,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6630,7 +6630,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6650,7 +6650,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6670,7 +6670,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6690,7 +6690,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6710,7 +6710,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6730,7 +6730,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6750,7 +6750,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6770,7 +6770,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6790,7 +6790,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6810,7 +6810,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6830,7 +6830,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6850,7 +6850,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6870,7 +6870,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6890,7 +6890,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6910,7 +6910,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6930,7 +6930,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6950,7 +6950,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6970,7 +6970,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -6990,7 +6990,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7010,7 +7010,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7030,7 +7030,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7050,7 +7050,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7070,7 +7070,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7090,7 +7090,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7110,7 +7110,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7130,7 +7130,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7150,7 +7150,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7170,7 +7170,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7190,7 +7190,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7210,7 +7210,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 
@@ -7230,7 +7230,7 @@ MathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSuperscriptElement ([MathFunction](../mathfunction),  [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| createMathSuperscriptElement([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
 
  **Parameters:**
 

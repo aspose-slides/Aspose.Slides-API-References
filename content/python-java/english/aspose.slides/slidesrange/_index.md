@@ -28,7 +28,7 @@ SlidesRange
 
 | Name | Description |
 | --- | --- |
-| getEnd () | End |
+| getEnd() | End |
 
  **Result:**
 long
@@ -41,7 +41,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getStart () | Start |
+| getStart() | Start |
 
  **Result:**
 long
@@ -54,7 +54,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| setEnd (long) | End |
+| setEnd(long) | End |
 
 
 ---
@@ -64,7 +64,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| setStart (long) | Start |
+| setStart(long) | Start |
 
 
 ---

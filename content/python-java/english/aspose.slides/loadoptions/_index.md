@@ -47,7 +47,7 @@ LoadOptions
 
 | Name | Description |
 | --- | --- |
-| getBlobManagementOptions () | Represents the options which can be used to manage Binary Large Objects (BLOBs) handling behavior, such as using of temporary files or max BLOBs bytes in memory. These options intended to set up the best performance/memory consumption ratio for a perticular environment or requirements. A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. |
+| getBlobManagementOptions() | Represents the options which can be used to manage Binary Large Objects (BLOBs) handling behavior, such as using of temporary files or max BLOBs bytes in memory. These options intended to set up the best performance/memory consumption ratio for a perticular environment or requirements. A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. |
 
  **Result:**
 [BlobManagementOptions](../blobmanagementoptions)
@@ -60,7 +60,7 @@ LoadOptions
 
 | Name | Description |
 | --- | --- |
-| getDefaultAsianFont () | Returns or sets Asian font used in case source font is not found. Read/write String. |
+| getDefaultAsianFont() | Returns or sets Asian font used in case source font is not found. Read/write String. |
 
  **Result:**
 String
@@ -73,7 +73,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont () | Returns or sets Regular font used in case source font is not found. Read/write String. |
+| getDefaultRegularFont() | Returns or sets Regular font used in case source font is not found. Read/write String. |
 
  **Result:**
 String
@@ -86,7 +86,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getDefaultSymbolFont () | Returns or sets Symbol font used in case source font is not found. Read/write String. |
+| getDefaultSymbolFont() | Returns or sets Symbol font used in case source font is not found. Read/write String. |
 
  **Result:**
 String
@@ -99,7 +99,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getDefaultTextLanguage () | Returns or sets the default language for presentation text. Read/write String. |
+| getDefaultTextLanguage() | Returns or sets the default language for presentation text. Read/write String. |
 
  **Result:**
 String
@@ -112,7 +112,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getDocumentLevelFontSources () | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
+| getDocumentLevelFontSources() | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
 
  **Result:**
 [FontSources](../fontsources)
@@ -125,7 +125,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getInterruptionToken () | The token to monitor for interruption requests. This token manages the whole IPresentation instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the InterruptionTokenSource#interrupt method of the InterruptionTokenSource. |
+| getInterruptionToken() | The token to monitor for interruption requests. This token manages the whole IPresentation instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the InterruptionTokenSource#interrupt method of the InterruptionTokenSource. |
 
  **Result:**
 [InterruptionToken](../interruptiontoken)
@@ -138,7 +138,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getLoadFormat () | Returns or sets format of a presentation to load. Read/write LoadFormat. |
+| getLoadFormat() | Returns or sets format of a presentation to load. Read/write LoadFormat. |
 
  **Result:**
 int
@@ -151,7 +151,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getOnlyLoadDocumentProperties () | This property makes sense, if presentation file is password protected. Value of true means that only document properties must be loaded from an encrypted presentation file and password must be ignored. Value of false means that entire encrypted presentation must be loaded with use of right password. If presentation isn't encrypted then property value is always ignored. If document properties of an encrypted file aren't public and property value is true then document properties cannot be loaded and exception will be thrown. Read/write boolean. |
+| getOnlyLoadDocumentProperties() | This property makes sense, if presentation file is password protected. Value of true means that only document properties must be loaded from an encrypted presentation file and password must be ignored. Value of false means that entire encrypted presentation must be loaded with use of right password. If presentation isn't encrypted then property value is always ignored. If document properties of an encrypted file aren't public and property value is true then document properties cannot be loaded and exception will be thrown. Read/write boolean. |
 
  **Result:**
 boolean
@@ -164,7 +164,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getPassword () | Gets or sets the password. Read/write String. Value: The password. |
+| getPassword() | Gets or sets the password. Read/write String. Value: The password. |
 
  **Result:**
 String
@@ -177,7 +177,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getResourceLoadingCallback () | Returns or sets callback interface which manages external resources loading. Read/write IResourceLoadingCallback. |
+| getResourceLoadingCallback() | Returns or sets callback interface which manages external resources loading. Read/write IResourceLoadingCallback. |
 
  **Result:**
 ResourceLoadingAdapter, SvgResourceResolver
@@ -190,7 +190,7 @@ ResourceLoadingAdapter, SvgResourceResolver
 
 | Name | Description |
 | --- | --- |
-| getSpreadsheetOptions () | Gets options for spreadsheets. For example, these options affect calculating formulas for charts. |
+| getSpreadsheetOptions() | Gets options for spreadsheets. For example, these options affect calculating formulas for charts. |
 
  **Result:**
 [SpreadsheetOptions](../spreadsheetoptions)
@@ -203,7 +203,7 @@ ResourceLoadingAdapter, SvgResourceResolver
 
 | Name | Description |
 | --- | --- |
-| getWarningCallback () | Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| getWarningCallback() | Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
  **Result:**
 IWarningCallback
@@ -216,7 +216,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setBlobManagementOptions ([BlobManagementOptions](../blobmanagementoptions)) | Represents the options which can be used to manage Binary Large Objects (BLOBs) handling behavior, such as using of temporary files or max BLOBs bytes in memory. These options intended to set up the best performance/memory consumption ratio for a perticular environment or requirements. A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. |
+| setBlobManagementOptions([BlobManagementOptions](../blobmanagementoptions)) | Represents the options which can be used to manage Binary Large Objects (BLOBs) handling behavior, such as using of temporary files or max BLOBs bytes in memory. These options intended to set up the best performance/memory consumption ratio for a perticular environment or requirements. A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. |
 
 
 ---
@@ -226,7 +226,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultAsianFont (String) | Returns or sets Asian font used in case source font is not found. Read/write String. |
+| setDefaultAsianFont(String) | Returns or sets Asian font used in case source font is not found. Read/write String. |
 
 
 ---
@@ -236,7 +236,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont (String) | Returns or sets Regular font used in case source font is not found. Read/write String. |
+| setDefaultRegularFont(String) | Returns or sets Regular font used in case source font is not found. Read/write String. |
 
 
 ---
@@ -246,7 +246,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultSymbolFont (String) | Returns or sets Symbol font used in case source font is not found. Read/write String. |
+| setDefaultSymbolFont(String) | Returns or sets Symbol font used in case source font is not found. Read/write String. |
 
 
 ---
@@ -256,7 +256,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultTextLanguage (String) | Returns or sets the default language for presentation text. Read/write String. |
+| setDefaultTextLanguage(String) | Returns or sets the default language for presentation text. Read/write String. |
 
 
 ---
@@ -266,7 +266,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDocumentLevelFontSources ([FontSources](../fontsources)) | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
+| setDocumentLevelFontSources([FontSources](../fontsources)) | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
 
 
 ---
@@ -276,7 +276,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setInterruptionToken ([InterruptionToken](../interruptiontoken)) | The token to monitor for interruption requests. This token manages the whole IPresentation instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the InterruptionTokenSource#interrupt method of the InterruptionTokenSource. |
+| setInterruptionToken([InterruptionToken](../interruptiontoken)) | The token to monitor for interruption requests. This token manages the whole IPresentation instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the InterruptionTokenSource#interrupt method of the InterruptionTokenSource. |
 
 
 ---
@@ -286,7 +286,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setLoadFormat (int) | Returns or sets format of a presentation to load. Read/write LoadFormat. |
+| setLoadFormat(int) | Returns or sets format of a presentation to load. Read/write LoadFormat. |
 
 
 ---
@@ -296,7 +296,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setOnlyLoadDocumentProperties (boolean) | This property makes sense, if presentation file is password protected. Value of true means that only document properties must be loaded from an encrypted presentation file and password must be ignored. Value of false means that entire encrypted presentation must be loaded with use of right password. If presentation isn't encrypted then property value is always ignored. If document properties of an encrypted file aren't public and property value is true then document properties cannot be loaded and exception will be thrown. Read/write boolean. |
+| setOnlyLoadDocumentProperties(boolean) | This property makes sense, if presentation file is password protected. Value of true means that only document properties must be loaded from an encrypted presentation file and password must be ignored. Value of false means that entire encrypted presentation must be loaded with use of right password. If presentation isn't encrypted then property value is always ignored. If document properties of an encrypted file aren't public and property value is true then document properties cannot be loaded and exception will be thrown. Read/write boolean. |
 
 
 ---
@@ -306,7 +306,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setPassword (String) | Gets or sets the password. Read/write String. Value: The password. |
+| setPassword(String) | Gets or sets the password. Read/write String. Value: The password. |
 
 
 ---
@@ -316,7 +316,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setResourceLoadingCallback ([IResourceLoadingCallback](../iresourceloadingcallback)) | Returns or sets callback interface which manages external resources loading. Read/write IResourceLoadingCallback. |
+| setResourceLoadingCallback([IResourceLoadingCallback](../iresourceloadingcallback)) | Returns or sets callback interface which manages external resources loading. Read/write IResourceLoadingCallback. |
 
 
 ---
@@ -326,7 +326,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setSpreadsheetOptions ([SpreadsheetOptions](../spreadsheetoptions)) | Gets options for spreadsheets. For example, these options affect calculating formulas for charts. |
+| setSpreadsheetOptions([SpreadsheetOptions](../spreadsheetoptions)) | Gets options for spreadsheets. For example, these options affect calculating formulas for charts. |
 
 
 ---
@@ -336,7 +336,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback ([IWarningCallback](../iwarningcallback)) | Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

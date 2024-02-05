@@ -28,7 +28,7 @@ Collect
 
 | Name | Description |
 | --- | --- |
-| shapes ([Presentation](../presentation)) | Collects all instances of Shape in the Presentation. |
+| shapes([Presentation](../presentation)) | Collects all instances of Shape in the Presentation. |
 
  **Parameters:**
 

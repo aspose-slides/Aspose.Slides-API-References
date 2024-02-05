@@ -28,7 +28,7 @@ SpreadsheetOptions
 
 | Name | Description |
 | --- | --- |
-| getPreferredCulture () | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
+| getPreferredCulture() | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
 
  **Result:**
 Locale
@@ -41,7 +41,7 @@ Locale
 
 | Name | Description |
 | --- | --- |
-| getRecoverWorkbookFromChartCache () | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
+| getRecoverWorkbookFromChartCache() | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
 
  **Result:**
 boolean
@@ -60,7 +60,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setPreferredCulture (Locale) | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
+| setPreferredCulture(Locale) | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
 
 
 ---
@@ -70,7 +70,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setRecoverWorkbookFromChartCache (boolean) | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
+| setRecoverWorkbookFromChartCache(boolean) | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
 
  **Error**
 

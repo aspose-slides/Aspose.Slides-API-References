@@ -28,7 +28,7 @@ FontFallBackRulesCollection
 
 | Name | Description |
 | --- | --- |
-| add ([FontFallBackRule](../fontfallbackrule)) | Add a specified FallBack rule to the end of the collection. |
+| add([FontFallBackRule](../fontfallbackrule)) | Add a specified FallBack rule to the end of the collection. |
 
  **Parameters:**
 
@@ -44,7 +44,7 @@ FontFallBackRulesCollection
 
 | Name | Description |
 | --- | --- |
-| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+| getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
  **Result:**
 Object
@@ -57,7 +57,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Gets the rule at the specified index. Read-only IFontFallBackRule. |
+| get_Item(int) | Gets the rule at the specified index. Read-only IFontFallBackRule. |
 
  **Result:**
 [FontFallBackRule](../fontfallbackrule)
@@ -70,7 +70,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
  **Result:**
 boolean
@@ -83,7 +83,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -96,7 +96,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -109,7 +109,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([FontFallBackRule](../fontfallbackrule)) | Removes the first occurrence of a specific FallBack rule from the collection. |
+| remove([FontFallBackRule](../fontfallbackrule)) | Removes the first occurrence of a specific FallBack rule from the collection. |
 
  **Parameters:**
 
@@ -125,7 +125,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| size () | Gets the number of rules actually contained in the collection. Read-only int. |
+| size() | Gets the number of rules actually contained in the collection. Read-only int. |
 
  **Result:**
 int

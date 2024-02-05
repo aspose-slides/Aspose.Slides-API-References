@@ -28,7 +28,7 @@ PointCollection
 
 | Name | Description |
 | --- | --- |
-| getCount () | Returns the number of points in the collection. Read-only int. |
+| getCount() | Returns the number of points in the collection. Read-only int. |
 
  **Result:**
 int
@@ -41,7 +41,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns a point at the specified index. |
+| get_Item(int) | Returns a point at the specified index. |
 
  **Parameters:**
 
@@ -60,7 +60,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -73,7 +73,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 

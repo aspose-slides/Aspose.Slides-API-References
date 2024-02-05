@@ -15,7 +15,7 @@ url: /aspose.slides/hyperlinkmanager/
 
 | Name | Description |
 | --- | --- |
-| removeHyperlinkClick () | Removes hyperlink on click. |
+| removeHyperlinkClick() | Removes hyperlink on click. |
 
 
 ---
@@ -25,7 +25,7 @@ url: /aspose.slides/hyperlinkmanager/
 
 | Name | Description |
 | --- | --- |
-| removeHyperlinkMouseOver () | Removes hyperlink mouse over. |
+| removeHyperlinkMouseOver() | Removes hyperlink mouse over. |
 
 
 ---
@@ -35,7 +35,7 @@ url: /aspose.slides/hyperlinkmanager/
 
 | Name | Description |
 | --- | --- |
-| setExternalHyperlinkClick (String) | Set external hyperlink on click. |
+| setExternalHyperlinkClick(String) | Set external hyperlink on click. |
 
  **Parameters:**
 
@@ -54,7 +54,7 @@ url: /aspose.slides/hyperlinkmanager/
 
 | Name | Description |
 | --- | --- |
-| setExternalHyperlinkMouseOver (String) | Sets external hyperlink mouse over. |
+| setExternalHyperlinkMouseOver(String) | Sets external hyperlink mouse over. |
 
  **Parameters:**
 
@@ -73,7 +73,7 @@ url: /aspose.slides/hyperlinkmanager/
 
 | Name | Description |
 | --- | --- |
-| setInternalHyperlinkClick ([Slide](../slide)) | Sets internal hyperlink on click. |
+| setInternalHyperlinkClick([Slide](../slide)) | Sets internal hyperlink on click. |
 
  **Parameters:**
 
@@ -92,7 +92,7 @@ url: /aspose.slides/hyperlinkmanager/
 
 | Name | Description |
 | --- | --- |
-| setInternalHyperlinkMouseOver ([Slide](../slide)) | Sets internal hyperlink mouse over. |
+| setInternalHyperlinkMouseOver([Slide](../slide)) | Sets internal hyperlink mouse over. |
 
  **Parameters:**
 
@@ -111,7 +111,7 @@ url: /aspose.slides/hyperlinkmanager/
 
 | Name | Description |
 | --- | --- |
-| setMacroHyperlinkClick (String) | Set Macro hyperlink on a click. |
+| setMacroHyperlinkClick(String) | Set Macro hyperlink on a click. |
 
  **Parameters:**
 

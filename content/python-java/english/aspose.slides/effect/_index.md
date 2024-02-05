@@ -15,7 +15,7 @@ url: /aspose.slides/effect/
 
 | Name | Description |
 | --- | --- |
-| getAfterAnimationColor () | Defined an after animation color for effect. Read/write IColorFormat. |
+| getAfterAnimationColor() | Defined an after animation color for effect. Read/write IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -28,7 +28,7 @@ url: /aspose.slides/effect/
 
 | Name | Description |
 | --- | --- |
-| getAfterAnimationType () | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+| getAfterAnimationType() | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
 
  **Result:**
 int
@@ -41,7 +41,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getBehaviors () | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+| getBehaviors() | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 
  **Result:**
 [BehaviorCollection](../behaviorcollection)
@@ -54,7 +54,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getPresetClassType () | Defines class of effect. Read/write EffectPresetClassType. |
+| getPresetClassType() | Defines class of effect. Read/write EffectPresetClassType. |
 
  **Result:**
 int
@@ -67,7 +67,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getSequence () | Returns a sequence for an effect. Read-only ISequence. |
+| getSequence() | Returns a sequence for an effect. Read-only ISequence. |
 
  **Result:**
 [Sequence](../sequence)
@@ -80,7 +80,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getSound () | Defined embedded sound for effect. Read/write IAudio. |
+| getSound() | Defined embedded sound for effect. Read/write IAudio. |
 
  **Result:**
 [Audio](../audio)
@@ -93,7 +93,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getStopPreviousSound () | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
+| getStopPreviousSound() | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
 
  **Result:**
 boolean
@@ -106,7 +106,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSubtype () | Defines subtype of effect. Read/write EffectSubtype. |
+| getSubtype() | Defines subtype of effect. Read/write EffectSubtype. |
 
  **Result:**
 int
@@ -119,7 +119,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getTargetShape () | Returns target shape for effect. Read-only IShape. |
+| getTargetShape() | Returns target shape for effect. Read-only IShape. |
 
  **Result:**
 [SummaryZoomSection](../summaryzoomsection), [AutoShape](../autoshape), [AudioFrame](../audioframe), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [GeometryShape](../geometryshape), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Ink](../ink), [Chart](../chart), [GroupShape](../groupshape), [Table](../table), [SectionZoomFrame](../sectionzoomframe), [Shape](../shape), [LegacyDiagram](../legacydiagram), [Connector](../connector)
@@ -132,7 +132,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getTextAnimation () | TextAnimation Read-only ITextAnimation. |
+| getTextAnimation() | TextAnimation Read-only ITextAnimation. |
 
  **Result:**
 [TextAnimation](../textanimation)
@@ -145,7 +145,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getTiming () | Defines timing value for effect. Read/write ITiming. |
+| getTiming() | Defines timing value for effect. Read/write ITiming. |
 
  **Result:**
 [Timing](../timing)
@@ -158,7 +158,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getType () | Defines type of effect. Read/write EffectType. |
+| getType() | Defines type of effect. Read/write EffectType. |
 
  **Result:**
 int
@@ -171,7 +171,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setAfterAnimationColor ([ColorFormat](../colorformat)) | Defined an after animation color for effect. Read/write IColorFormat. |
+| setAfterAnimationColor([ColorFormat](../colorformat)) | Defined an after animation color for effect. Read/write IColorFormat. |
 
 
 ---
@@ -181,7 +181,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setAfterAnimationType (int) | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+| setAfterAnimationType(int) | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
 
 
 ---
@@ -191,7 +191,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setBehaviors ([BehaviorCollection](../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+| setBehaviors([BehaviorCollection](../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 
 
 ---
@@ -201,7 +201,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setPresetClassType (int) | Defines class of effect. Read/write EffectPresetClassType. |
+| setPresetClassType(int) | Defines class of effect. Read/write EffectPresetClassType. |
 
 
 ---
@@ -211,7 +211,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setSound ([Audio](../audio)) | Defined embedded sound for effect. Read/write IAudio. |
+| setSound([Audio](../audio)) | Defined embedded sound for effect. Read/write IAudio. |
 
 
 ---
@@ -221,7 +221,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setStopPreviousSound (boolean) | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
+| setStopPreviousSound(boolean) | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
 
 
 ---
@@ -231,7 +231,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setSubtype (int) | Defines subtype of effect. Read/write EffectSubtype. |
+| setSubtype(int) | Defines subtype of effect. Read/write EffectSubtype. |
 
 
 ---
@@ -241,7 +241,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setTiming ([Timing](../timing)) | Defines timing value for effect. Read/write ITiming. |
+| setTiming([Timing](../timing)) | Defines timing value for effect. Read/write ITiming. |
 
 
 ---
@@ -251,7 +251,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setType (int) | Defines type of effect. Read/write EffectType. |
+| setType(int) | Defines type of effect. Read/write EffectType. |
 
 
 ---

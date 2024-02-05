@@ -32,7 +32,7 @@ License
 
 | Name | Description |
 | --- | --- |
-| getVersion () | Returns version of Aspose.Slides for Java. |
+| getVersion() | Returns version of Aspose.Slides for Java. |
 
  **Result:**
 String
@@ -45,7 +45,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| isLicensed () |  |
+| isLicensed() |  |
 
  **Result:**
 boolean
@@ -58,7 +58,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| resetLicense () | Reset the license Use this method to reset license in component License license = new License(); license.resetLicense(); |
+| resetLicense() | Reset the license Use this method to reset license in component License license = new License(); license.resetLicense(); |
 
 
 ---
@@ -68,7 +68,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setLicenseFromBytes  (Bytes[]) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
+| setLicenseFromBytes (Bytes[]) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
 
  **Parameters:**
 
@@ -84,7 +84,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setLicense (String) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
+| setLicense(String) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
 
  **Parameters:**
 

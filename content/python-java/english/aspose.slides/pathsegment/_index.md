@@ -15,7 +15,7 @@ url: /aspose.slides/pathsegment/
 
 | Name | Description |
 | --- | --- |
-| getPathCommand () | Path type of the segment |
+| getPathCommand() | Path type of the segment |
 
  **Result:**
 byte
@@ -28,7 +28,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getSegmentData () | Path data of the segment |
+| getSegmentData() | Path data of the segment |
 
  **Result:**
 float

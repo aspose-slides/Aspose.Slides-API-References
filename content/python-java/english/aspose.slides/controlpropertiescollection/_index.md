@@ -15,7 +15,7 @@ url: /aspose.slides/controlpropertiescollection/
 
 | Name | Description |
 | --- | --- |
-| add (String, String) | Adds a property to the collection. |
+| add(String, String) | Adds a property to the collection. |
 
  **Parameters:**
 
@@ -32,7 +32,7 @@ url: /aspose.slides/controlpropertiescollection/
 
 | Name | Description |
 | --- | --- |
-| clear () | Removes all properties. |
+| clear() | Removes all properties. |
 
 
 ---
@@ -42,7 +42,7 @@ url: /aspose.slides/controlpropertiescollection/
 
 | Name | Description |
 | --- | --- |
-| getCount () | Returns a number of properties in the collection. Read-only int. |
+| getCount() | Returns a number of properties in the collection. Read-only int. |
 
  **Result:**
 int
@@ -55,7 +55,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getNamesOfProperties () | Returns the collection of properties names. Read-only IGenericCollection. |
+| getNamesOfProperties() | Returns the collection of properties names. Read-only IGenericCollection. |
 
  **Result:**
 [CustomXmlPartCollection](../customxmlpartcollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [VbaReferenceCollection](../vbareferencecollection), ReadOnlyCollection, [ColumnCollection](../columncollection), [ChartDataPointCollection](../chartdatapointcollection), [RowCollection](../rowcollection), [FillFormatCollection](../fillformatcollection), [ImageCollection](../imagecollection), [CommentAuthorCollection](../commentauthorcollection), [ChartDataWorksheetCollection](../chartdataworksheetcollection), [TextAnimationCollection](../textanimationcollection), Collection, [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [SmartArtShapeCollection](../smartartshapecollection), [ControlCollection](../controlcollection), [CellCollection](../cellcollection), [ShapeCollection](../shapecollection), [ExtraColorSchemeCollection](../extracolorschemecollection), [AudioCollection](../audiocollection), SortedDictionary, [ColorOperationCollection](../coloroperationcollection), [MasterSlideCollection](../masterslidecollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), List, [Row](../row), [EffectStyleCollection](../effectstylecollection), Dictionary, [TagCollection](../tagcollection), [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [LineFormatCollection](../lineformatcollection), [GradientStopCollection](../gradientstopcollection), [TabCollection](../tabcollection), [SectionCollection](../sectioncollection), [VideoCollection](../videocollection), [VbaModuleCollection](../vbamodulecollection), [BehaviorPropertyCollection](../behaviorpropertycollection), [ChartCategoryCollection](../chartcategorycollection), [FontSubstRuleCollection](../fontsubstrulecollection), [DigitalSignatureCollection](../digitalsignaturecollection), SortedList, [SectionSlideCollection](../sectionslidecollection), LinkedList, [Column](../column), KeyedCollection, [MasterLayoutSlideCollection](../masterlayoutslidecollection), [CommentCollection](../commentcollection), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartSeriesCollection](../chartseriescollection), [FontFallBackRulesCollection](../fontfallbackrulescollection), [LayoutSlideCollection](../layoutslidecollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [SlideCollection](../slidecollection), [SmartArtNodeCollection](../smartartnodecollection)
@@ -68,7 +68,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| get_Item (String) | Returns or sets property. |
+| get_Item(String) | Returns or sets property. |
 
  **Parameters:**
 
@@ -87,7 +87,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -100,7 +100,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -113,7 +113,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| remove (String) | Removes a property with the specified name. |
+| remove(String) | Removes a property with the specified name. |
 
  **Parameters:**
 
@@ -129,7 +129,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| set_Item (String, String) | Returns or sets property. |
+| set_Item(String, String) | Returns or sets property. |
 
  **Parameters:**
 

@@ -15,7 +15,7 @@ url: /aspose.slides/glittertransition/
 
 | Name | Description |
 | --- | --- |
-| getDirection () | Direction of transition. Read/write TransitionSideDirectionType. |
+| getDirection() | Direction of transition. Read/write TransitionSideDirectionType. |
 
  **Result:**
 int
@@ -28,7 +28,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getPattern () | Specifies the shape of the visuals used during the transition. Read/write TransitionPattern. |
+| getPattern() | Specifies the shape of the visuals used during the transition. Read/write TransitionPattern. |
 
  **Result:**
 int
@@ -41,7 +41,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setDirection (int) | Direction of transition. Read/write TransitionSideDirectionType. |
+| setDirection(int) | Direction of transition. Read/write TransitionSideDirectionType. |
 
 
 ---
@@ -51,7 +51,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setPattern (int) | Specifies the shape of the visuals used during the transition. Read/write TransitionPattern. |
+| setPattern(int) | Specifies the shape of the visuals used during the transition. Read/write TransitionPattern. |
 
 
 ---

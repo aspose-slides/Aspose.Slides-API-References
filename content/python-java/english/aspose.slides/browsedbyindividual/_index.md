@@ -28,7 +28,7 @@ BrowsedByIndividual
 
 | Name | Description |
 | --- | --- |
-| getShowScrollbar () | Show Scroll Bar in Window |
+| getShowScrollbar() | Show Scroll Bar in Window |
 
  **Result:**
 boolean
@@ -41,7 +41,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setShowScrollbar (boolean) | Show Scroll Bar in Window |
+| setShowScrollbar(boolean) | Show Scroll Bar in Window |
 
 
 ---

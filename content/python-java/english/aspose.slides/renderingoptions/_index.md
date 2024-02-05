@@ -28,7 +28,7 @@ RenderingOptions
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont () | Returns or sets font used in case source font is not found. Read-write String. |
+| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
 
  **Result:**
 String
@@ -41,7 +41,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
+| getNotesCommentsLayouting() | Provides options that control how notes and comments is placed in exported document. |
 
  **Result:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
@@ -54,7 +54,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getProgressCallback () | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
  **Result:**
 IProgressCallback
@@ -67,7 +67,7 @@ IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| getWarningCallback () | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
  **Result:**
 IWarningCallback
@@ -80,7 +80,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont (String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -90,7 +90,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setProgressCallback ([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
 
 ---
@@ -100,7 +100,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback ([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

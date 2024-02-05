@@ -28,7 +28,7 @@ Compress
 
 | Name | Description |
 | --- | --- |
-| compressEmbeddedFonts ([Presentation](../presentation)) | Makes compression of the Presentation by removing unused characters from embedded fonts. |
+| compressEmbeddedFonts([Presentation](../presentation)) | Makes compression of the Presentation by removing unused characters from embedded fonts. |
 
  **Parameters:**
 
@@ -44,7 +44,7 @@ Compress
 
 | Name | Description |
 | --- | --- |
-| removeUnusedLayoutSlides ([Presentation](../presentation)) | Makes compression of the Presentation by removing unused layout slides. |
+| removeUnusedLayoutSlides([Presentation](../presentation)) | Makes compression of the Presentation by removing unused layout slides. |
 
  **Parameters:**
 
@@ -60,7 +60,7 @@ Compress
 
 | Name | Description |
 | --- | --- |
-| removeUnusedMasterSlides ([Presentation](../presentation)) | Makes compression of the Presentation by removing unused master slides. |
+| removeUnusedMasterSlides([Presentation](../presentation)) | Makes compression of the Presentation by removing unused master slides. |
 
  **Parameters:**
 

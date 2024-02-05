@@ -15,7 +15,7 @@ url: /aspose.slides/slide/
 
 | Name | Description |
 | --- | --- |
-| createThemeEffective () | Returns an effective theme for this slide. |
+| createThemeEffective() | Returns an effective theme for this slide. |
 
  **Result:**
 ThemeEffectiveData
@@ -28,7 +28,7 @@ ThemeEffectiveData
 
 | Name | Description |
 | --- | --- |
-| equals ([Slide](../slide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals([Slide](../slide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
@@ -47,7 +47,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| equals ([MasterNotesSlide](../masternotesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals([MasterNotesSlide](../masternotesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
@@ -66,7 +66,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| equals ([MasterSlide](../masterslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals([MasterSlide](../masterslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
@@ -85,7 +85,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| equals ([LayoutSlide](../layoutslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals([LayoutSlide](../layoutslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
@@ -104,7 +104,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| equals ([MasterHandoutSlide](../masterhandoutslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals([MasterHandoutSlide](../masterhandoutslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
@@ -123,7 +123,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| equals ([NotesSlide](../notesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals([NotesSlide](../notesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
@@ -142,7 +142,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| findShapeByAltText (String) | Finds first occurrence of a shape with the specified alternative text. |
+| findShapeByAltText(String) | Finds first occurrence of a shape with the specified alternative text. |
 
  **Parameters:**
 
@@ -161,7 +161,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getBackground () | Returns slide's background. Read-only IBackground. |
+| getBackground() | Returns slide's background. Read-only IBackground. |
 
  **Result:**
 [Background](../background)
@@ -174,7 +174,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getControls () | Returns the collection of ActiveX controls on a slide. Read-only IControlCollection. |
+| getControls() | Returns the collection of ActiveX controls on a slide. Read-only IControlCollection. |
 
  **Result:**
 [ControlCollection](../controlcollection)
@@ -187,7 +187,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getCustomData () | Returns the slide's custom data. Read-only ICustomData. |
+| getCustomData() | Returns the slide's custom data. Read-only ICustomData. |
 
  **Result:**
 [CustomData](../customdata)
@@ -200,7 +200,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getHeaderFooterManager () | Returns HeaderFooter manager of the slide. Read-only ISlideHeaderFooterManager. |
+| getHeaderFooterManager() | Returns HeaderFooter manager of the slide. Read-only ISlideHeaderFooterManager. |
 
  **Result:**
 [SlideHeaderFooterManager](../slideheaderfootermanager)
@@ -213,7 +213,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getHidden () | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
+| getHidden() | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
 
  **Result:**
 boolean
@@ -226,7 +226,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getHyperlinkQueries () | Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
+| getHyperlinkQueries() | Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
 
  **Result:**
 [HyperlinkQueries](../hyperlinkqueries)
@@ -239,7 +239,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getLayoutSlide () | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
+| getLayoutSlide() | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
 
  **Result:**
 [LayoutSlide](../layoutslide)
@@ -252,7 +252,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getName () | Returns or sets the name of a slide. Read/write String. |
+| getName() | Returns or sets the name of a slide. Read/write String. |
 
  **Result:**
 String
@@ -265,7 +265,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getNotesSlideManager () | Allow to access notes slide, add and remove it. Read-only INotesSlideManager. |
+| getNotesSlideManager() | Allow to access notes slide, add and remove it. Read-only INotesSlideManager. |
 
  **Result:**
 [NotesSlideManager](../notesslidemanager)
@@ -278,10 +278,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getParent_Immediate () |  |
-
- **Result:**
-DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](../rotationeffect), [ChartTitle](../charttitle), [MathBar](../mathbar), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartDataWorksheet](../chartdataworksheet), [SoftEdge](../softedge), [Audio](../audio), [ChartWall](../chartwall), [BaseOverrideThemeManager](../baseoverridethememanager), [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager), ThemeableLineFormat, [UpDownBarsManager](../updownbarsmanager), [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [Format](../format), [GradientFormat](../gradientformat), [ThreeDFormat](../threedformat), [Slide](../slide), [TabCollection](../tabcollection), [ColorScheme](../colorscheme), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [SlideHeaderFooterManager](../slideheaderfootermanager), [CommentAuthor](../commentauthor), [CellFormat](../cellformat), [SlideShowTransition](../slideshowtransition), [CustomXmlPartCollection](../customxmlpartcollection), [SlideCollection](../slidecollection), [ViewProperties](../viewproperties), [Shape](../shape), [ExtraColorScheme](../extracolorscheme), [Luminance](../luminance), [MasterThemeManager](../masterthememanager), [DataLabel](../datalabel), [GradientStop](../gradientstop), [CellCollection](../cellcollection), [MathematicalText](../mathematicaltext), [Row](../row), MasterNotesSlideManager, [MathNaryOperator](../mathnaryoperator), [BaseThemeManager](../basethememanager), ThemeableFillFormat, [RowCollection](../rowcollection), [GeometryShape](../geometryshape), TableStyle, [LightRig](../lightrig), [ChartPlotArea](../chartplotarea), [BulletFormat](../bulletformat), [MathSuperscriptElement](../mathsuperscriptelement), [VideoCollection](../videocollection), [Table](../table), [ChartDataPointLevel](../chartdatapointlevel), PresetTextShape, [MasterTheme](../mastertheme), [SectionSlideCollection](../sectionslidecollection), [OleObjectFrame](../oleobjectframe), [ChartData](../chartdata), [ChartDataPointCollection](../chartdatapointcollection), [ChartDataWorkbook](../chartdataworkbook), [NotesSlideHeaderFooterManager](../notesslideheaderfootermanager), [PresetShadow](../presetshadow), AggregatedDataPoint, [SketchFormat](../sketchformat), [MathParagraph](../mathparagraph), [SmartArt](../smartart), [AudioCollection](../audiocollection), [AxisFormat](../axisformat), [CommentCollection](../commentcollection), [ParagraphFormat](../paragraphformat), [ChartDataWorksheetCollection](../chartdataworksheetcollection), FormatOverrides, [TextStyle](../textstyle), [FillFormatCollection](../fillformatcollection), [NotesSlideManager](../notesslidemanager), [ColumnFormat](../columnformat), [Section](../section), [MathBlock](../mathblock), [TableFormat](../tableformat), [StringChartValue](../stringchartvalue), [Reflection](../reflection), [Ink](../ink), [Trendline](../trendline), [LayoutSlideCollection](../layoutslidecollection), [LineFormat](../lineformat), [BasePortionFormat](../baseportionformat), [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager), [MasterHandoutSlide](../masterhandoutslide), [DataLabelFormat](../datalabelformat), [Timing](../timing), [MathAccent](../mathaccent), [LegacyDiagram](../legacydiagram), FormatOverride, [ChartSeriesGroup](../chartseriesgroup), [Blur](../blur), [MathSubscriptElement](../mathsubscriptelement), [NotesSlideThemeManager](../notesslidethememanager), [Axis](../axis), [AlphaBiLevel](../alphabilevel), [Paragraph](../paragraph), [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), TableBackgroundStyle, [SetEffect](../seteffect), [StringOrDoubleChartValue](../stringordoublechartvalue), [Chart](../chart), [PictureFillFormat](../picturefillformat), [HyperlinkQueries](../hyperlinkqueries), [ZoomFrame](../zoomframe), [BaseScript](../basescript), [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager), [Rotation3D](../rotation3d), [FontScheme](../fontscheme), [PictureFrame](../pictureframe), [Effect](../effect), [OverrideTheme](../overridetheme), [ColorChange](../colorchange), [ColumnCollection](../columncollection), [TrendlineCollection](../trendlinecollection), [EffectStyleCollection](../effectstylecollection), [AlphaInverse](../alphainverse), [ErrorBarsCustomValues](../errorbarscustomvalues), PlaceholderCollection, [FillFormat](../fillformat), [ModernComment](../moderncomment), [ColorFormat](../colorformat), [AdjustValueCollection](../adjustvaluecollection), [MasterNotesSlide](../masternotesslide), [CommentAuthorCollection](../commentauthorcollection), [ImageTransformOperation](../imagetransformoperation), AggregatedDataPointCollection, [LayoutSlideHeaderFooterManager](../layoutslideheaderfootermanager), [Background](../background), [Control](../control), [GrayScale](../grayscale), [LineFillFormat](../linefillformat), [AnimationTimeLine](../animationtimeline), [SmartArtShape](../smartartshape), [Tab](../tab), [MotionEffect](../motioneffect), [GradientStopCollection](../gradientstopcollection), [ChartCellCollection](../chartcellcollection), [ColorEffect](../coloreffect), [ChartPortionFormat](../chartportionformat), [MathBox](../mathbox), [DigitalSignatureCollection](../digitalsignaturecollection), [AutoShape](../autoshape), [NotesSlide](../notesslide), [SectionCollection](../sectioncollection), [ScaleEffect](../scaleeffect), [MathFunction](../mathfunction), [ChartSeries](../chartseries), [Connector](../connector), [Picture](../picture), [CommandEffect](../commandeffect), [SlideThemeManager](../slidethememanager), [DoubleChartValue](../doublechartvalue), [Column](../column), [EffectStyle](../effectstyle), [SlideSize](../slidesize), [CustomData](../customdata), [SummaryZoomSection](../summaryzoomsection), [HSL](../hsl), [Tint](../tint), [DataLabelCollection](../datalabelcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), LayoutTree, [GraphicalObject](../graphicalobject), [Field](../field), [FormatScheme](../formatscheme), [Legend](../legend), [AlphaCeiling](../alphaceiling), [Hyperlink](../hyperlink), [Cell](../cell), [Portion](../portion), [BiLevel](../bilevel), [MathElementBase](../mathelementbase), [MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager), [MathFraction](../mathfraction), [DataTable](../datatable), [HyperlinkManager](../hyperlinkmanager), [BaseHeaderFooterManager](../baseheaderfootermanager), [ChartSeriesCollection](../chartseriescollection), [ChartTextFormat](../charttextformat), [LayoutSlide](../layoutslide), [ShapeBevel](../shapebevel), [ShapeStyle](../shapestyle), [Camera](../camera), ThemeableTableFormat, [RowFormat](../rowformat), [ChartCategoryCollection](../chartcategorycollection), ChartSeriesGroupCollection, [LayoutSlideThemeManager](../layoutslidethememanager), [ControlCollection](../controlcollection), [InnerShadow](../innershadow), [PortionFormat](../portionformat), [AlphaReplace](../alphareplace), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [MathPortion](../mathportion), [Duotone](../duotone), [Backdrop3DScene](../backdrop3dscene), MasterHandoutSlideManager, [Video](../video), [AlphaModulate](../alphamodulate), [Behavior](../behavior), [ImageCollection](../imagecollection), BaseStyles, [ChartDataPointLevelsManager](../chartdatapointlevelsmanager), [PVIObject](../pviobject), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [Comment](../comment), [PatternFormat](../patternformat), [ChartCategory](../chartcategory), [PortionCollection](../portioncollection), [ErrorBarsFormat](../errorbarsformat), [ColorReplace](../colorreplace), ThemeableCellFormat, [GroupShape](../groupshape), [PresentationHeaderFooterManager](../presentationheaderfootermanager), MathRunElement, [MasterSlideCollection](../masterslidecollection), [TextFrameFormat](../textframeformat), [SectionZoomFrame](../sectionzoomframe), [DomObject](../domobject), [AlphaFloor](../alphafloor), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [AudioFrame](../audioframe), [EffectFormat](../effectformat), [ShapeCollection](../shapecollection), [VideoFrame](../videoframe), [Theme](../theme), [ChartDataPoint](../chartdatapoint), [AxesManager](../axesmanager), [MathRadical](../mathradical), [FillOverlay](../filloverlay), [FilterEffect](../filtereffect), [TextFrame](../textframe), [Marker](../marker), [ParagraphCollection](../paragraphcollection), [Presentation](../presentation), [MathArray](../matharray), [ZoomObject](../zoomobject), [LineFormatCollection](../lineformatcollection), [MathDelimiter](../mathdelimiter), TableCellTextStyle, [OuterShadow](../outershadow), [ExtraColorSchemeCollection](../extracolorschemecollection), [MathBorderBox](../mathborderbox), [Glow](../glow), [BaseChartValue](../basechartvalue), [SummaryZoomFrame](../summaryzoomframe), [LegendEntryProperties](../legendentryproperties), TableStyleCollection, TablePartStyle, [AlphaModulateFixed](../alphamodulatefixed), ThemeableEffectFormat, [MasterSlideHeaderFooterManager](../masterslideheaderfootermanager), [ChartLinesFormat](../chartlinesformat)
+| getParent_Immediate() |  |
 
 
 ---
@@ -291,7 +288,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getPresentation () | Returns IPresentation interface. Read-only IPresentation. |
+| getPresentation() | Returns IPresentation interface. Read-only IPresentation. |
 
  **Result:**
 [Presentation](../presentation)
@@ -304,7 +301,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getShapes () | Returns the shapes of a slide. Read-only IShapeCollection. |
+| getShapes() | Returns the shapes of a slide. Read-only IShapeCollection. |
 
  **Result:**
 [ShapeCollection](../shapecollection)
@@ -317,7 +314,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+| getShowMasterShapes() | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
  **Result:**
 boolean
@@ -330,7 +327,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
+| getShowMasterShapes() | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
 
  **Result:**
 boolean
@@ -349,7 +346,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSlide () |  |
+| getSlide() |  |
 
  **Result:**
 [Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)
@@ -362,7 +359,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSlideComments ([CommentAuthor](../commentauthor)) | Returns all slide comments added by specific author. |
+| getSlideComments([CommentAuthor](../commentauthor)) | Returns all slide comments added by specific author. |
 
  **Parameters:**
 
@@ -381,7 +378,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSlideId () | Returns the ID of a slide. Read-only long. |
+| getSlideId() | Returns the ID of a slide. Read-only long. |
 
  **Result:**
 long
@@ -394,7 +391,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getSlideNumber () | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| getSlideNumber() | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
  **Result:**
 int
@@ -407,7 +404,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getSlideShowTransition () | Returns the Transition object which contains information about how the specified slide advances during a slide show. Read-only ISlideShowTransition. |
+| getSlideShowTransition() | Returns the Transition object which contains information about how the specified slide advances during a slide show. Read-only ISlideShowTransition. |
 
  **Result:**
 [SlideShowTransition](../slideshowtransition)
@@ -420,7 +417,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
+| getThemeManager() | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Result:**
 [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager), [SlideThemeManager](../slidethememanager)
@@ -433,7 +430,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getThumbnail (float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
+| getThumbnail(float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
 
  **Parameters:**
 
@@ -453,7 +450,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail () | Returns a Thumbnail Image object (20% of real size). |
+| getThumbnail() | Returns a Thumbnail Image object (20% of real size). |
 
  **Result:**
 BufferedImage
@@ -466,7 +463,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail (Dimension) | Returns a Thumbnail Bitmap object with specified size. |
+| getThumbnail(Dimension) | Returns a Thumbnail Bitmap object with specified size. |
 
  **Parameters:**
 
@@ -485,7 +482,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
+| getThumbnail([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
 
  **Parameters:**
 
@@ -510,7 +507,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage object. |
+| getThumbnail([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage object. |
 
  **Parameters:**
 
@@ -535,7 +532,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
+| getThumbnail([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
 
  **Parameters:**
 
@@ -562,7 +559,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
+| getThumbnail([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
 
  **Parameters:**
 
@@ -588,7 +585,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([RenderingOptions](../renderingoptions)) | Returns a Thumbnail BufferedImage object. |
+| getThumbnail([RenderingOptions](../renderingoptions)) | Returns a Thumbnail BufferedImage object. |
 
  **Parameters:**
 
@@ -613,7 +610,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
+| getThumbnail([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
 
  **Parameters:**
 
@@ -640,7 +637,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
+| getThumbnail([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
 
  **Parameters:**
 
@@ -666,7 +663,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getTimeline () | Returns animation timeline object. Read-only IAnimationTimeLine. |
+| getTimeline() | Returns animation timeline object. Read-only IAnimationTimeLine. |
 
  **Result:**
 [AnimationTimeLine](../animationtimeline)
@@ -679,7 +676,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| joinPortionsWithSameFormatting () | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| joinPortionsWithSameFormatting() | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 
 
 ---
@@ -689,7 +686,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| joinPortionsWithSameFormatting () | Joins runs with same formatting in all paragraphs all acceptable shapes. |
+| joinPortionsWithSameFormatting() | Joins runs with same formatting in all paragraphs all acceptable shapes. |
 
 
 ---
@@ -699,7 +696,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| joinPortionsWithSameFormatting ([ShapeCollection](../shapecollection)) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| joinPortionsWithSameFormatting([ShapeCollection](../shapecollection)) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 
 
 ---
@@ -709,7 +706,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| remove () | Removes slide from presentation. |
+| remove() | Removes slide from presentation. |
 
  **Error**
 
@@ -725,7 +722,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, int, int) | Renders certain slide to a Graphics object using specified size. |
+| renderToGraphics([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, int, int) | Renders certain slide to a Graphics object using specified size. |
 
  **Parameters:**
 
@@ -750,7 +747,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, float) | Renders certain slide to a Graphics object using specified scale. |
+| renderToGraphics([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, float) | Renders certain slide to a Graphics object using specified scale. |
 
  **Parameters:**
 
@@ -774,7 +771,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
+| renderToGraphics([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
 
  **Parameters:**
 
@@ -797,7 +794,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
+| renderToGraphics([RenderingOptions](../renderingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
 
  **Parameters:**
 
@@ -820,7 +817,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D, float, float) | Renders certain slide to a Graphics object with custom scaling. |
+| renderToGraphics([RenderingOptions](../renderingoptions), Graphics2D, float, float) | Renders certain slide to a Graphics object with custom scaling. |
 
  **Parameters:**
 
@@ -845,7 +842,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D, Dimension) | Renders certain slide to a Graphics object using specified size. |
+| renderToGraphics([RenderingOptions](../renderingoptions), Graphics2D, Dimension) | Renders certain slide to a Graphics object using specified size. |
 
  **Parameters:**
 
@@ -869,7 +866,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| reset () | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
+| reset() | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
 
 
 ---
@@ -879,7 +876,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| setHidden (boolean) | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
+| setHidden(boolean) | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
 
 
 ---
@@ -889,7 +886,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| setLayoutSlide ([LayoutSlide](../layoutslide)) | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
+| setLayoutSlide([LayoutSlide](../layoutslide)) | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
 
 
 ---
@@ -899,7 +896,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| setName (String) | Returns or sets the name of a slide. Read/write String. |
+| setName(String) | Returns or sets the name of a slide. Read/write String. |
 
 
 ---
@@ -909,7 +906,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| setShowMasterShapes (boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+| setShowMasterShapes(boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
 
 ---
@@ -919,7 +916,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| setShowMasterShapes (boolean) | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
+| setShowMasterShapes(boolean) | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
 
  **Error**
 
@@ -935,7 +932,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| setSlideNumber (int) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| setSlideNumber(int) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
 
 ---
@@ -945,7 +942,10 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| writeAsSvgToBytes  () | Saves content of slide as SVG file. |
+| writeAsSvgToBytes () | Saves content of slide as SVG file. |
+
+ **Result:**
+Bytes[]
 
 
 ---
@@ -955,13 +955,16 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| writeAsSvgToBytes  ([SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |
+| writeAsSvgToBytes ([SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | svgOptions | [SVGOptions](../svgoptions) | SVG generation options |
+
+ **Result:**
+Bytes[]
 
 
 ---

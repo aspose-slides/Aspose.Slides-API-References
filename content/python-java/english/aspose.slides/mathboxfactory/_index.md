@@ -30,7 +30,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathAccent](../mathaccent)) | Create a math box by applying to the element |
+| createMathBox([MathAccent](../mathaccent)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathRadical](../mathradical)) | Create a math box by applying to the element |
+| createMathBox([MathRadical](../mathradical)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -68,7 +68,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathSubscriptElement](../mathsubscriptelement)) | Create a math box by applying to the element |
+| createMathBox([MathSubscriptElement](../mathsubscriptelement)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -87,7 +87,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math box by applying to the element |
+| createMathBox([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -106,7 +106,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathMatrix](../mathmatrix)) | Create a math box by applying to the element |
+| createMathBox([MathMatrix](../mathmatrix)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -125,7 +125,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathematicalText](../mathematicaltext)) | Create a math box by applying to the element |
+| createMathBox([MathematicalText](../mathematicaltext)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -144,7 +144,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathBorderBox](../mathborderbox)) | Create a math box by applying to the element |
+| createMathBox([MathBorderBox](../mathborderbox)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -163,7 +163,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathDelimiter](../mathdelimiter)) | Create a math box by applying to the element |
+| createMathBox([MathDelimiter](../mathdelimiter)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -182,7 +182,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathFraction](../mathfraction)) | Create a math box by applying to the element |
+| createMathBox([MathFraction](../mathfraction)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -201,7 +201,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathLimit](../mathlimit)) | Create a math box by applying to the element |
+| createMathBox([MathLimit](../mathlimit)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -220,7 +220,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math box by applying to the element |
+| createMathBox([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -239,7 +239,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Create a math box by applying to the element |
+| createMathBox([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -258,7 +258,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathBlock](../mathblock)) | Create a math box by applying to the element |
+| createMathBox([MathBlock](../mathblock)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -277,7 +277,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathNaryOperator](../mathnaryoperator)) | Create a math box by applying to the element |
+| createMathBox([MathNaryOperator](../mathnaryoperator)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -296,7 +296,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathArray](../matharray)) | Create a math box by applying to the element |
+| createMathBox([MathArray](../matharray)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -315,7 +315,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathBar](../mathbar)) | Create a math box by applying to the element |
+| createMathBox([MathBar](../mathbar)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -334,7 +334,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathBox](../mathbox)) | Create a math box by applying to the element |
+| createMathBox([MathBox](../mathbox)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -353,7 +353,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Create a math box by applying to the element |
+| createMathBox([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Create a math box by applying to the element |
 
  **Parameters:**
 
@@ -372,7 +372,7 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathFunction](../mathfunction)) | Create a math box by applying to the element |
+| createMathBox([MathFunction](../mathfunction)) | Create a math box by applying to the element |
 
  **Parameters:**
 

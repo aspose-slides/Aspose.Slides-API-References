@@ -28,7 +28,7 @@ MarkdownSaveOptions
 
 | Name | Description |
 | --- | --- |
-| getBasePath () | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
+| getBasePath() | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
 
  **Result:**
 String
@@ -41,7 +41,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont () | Returns or sets font used in case source font is not found. Read-write String. |
+| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
 
  **Result:**
 String
@@ -54,7 +54,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getExportType () | Specifies markdown specification to convert presentation. Default is TextOnly. |
+| getExportType() | Specifies markdown specification to convert presentation. Default is TextOnly. |
 
  **Result:**
 int
@@ -67,7 +67,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getFlavor () | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
+| getFlavor() | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
 
  **Result:**
 int
@@ -80,7 +80,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getImagesSaveFolderName () | Specifies folder name to save images. Default is Images. |
+| getImagesSaveFolderName() | Specifies folder name to save images. Default is Images. |
 
  **Result:**
 String
@@ -93,7 +93,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getNewLineType () | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+| getNewLineType() | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
 
  **Result:**
 int
@@ -106,7 +106,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getProgressCallback () | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
  **Result:**
 IProgressCallback
@@ -119,7 +119,7 @@ IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| getShowComments () | Specifies whether the generated document should show comments or not. Default is false. |
+| getShowComments() | Specifies whether the generated document should show comments or not. Default is false. |
 
  **Result:**
 boolean
@@ -132,7 +132,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| getShowHiddenSlides() | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
  **Result:**
 boolean
@@ -145,7 +145,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowSlideNumber () | Specifies whether the generated document should show number of each slide or not. Default is false. |
+| getShowSlideNumber() | Specifies whether the generated document should show number of each slide or not. Default is false. |
 
  **Result:**
 boolean
@@ -158,7 +158,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getWarningCallback () | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
  **Result:**
 IWarningCallback
@@ -171,7 +171,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setBasePath (String) | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
+| setBasePath(String) | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
 
 
 ---
@@ -181,7 +181,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont (String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -191,7 +191,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setExportType (int) | Specifies markdown specification to convert presentation. Default is TextOnly. |
+| setExportType(int) | Specifies markdown specification to convert presentation. Default is TextOnly. |
 
 
 ---
@@ -201,7 +201,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setFlavor (int) | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
+| setFlavor(int) | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
 
 
 ---
@@ -211,7 +211,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setImagesSaveFolderName (String) | Specifies folder name to save images. Default is Images. |
+| setImagesSaveFolderName(String) | Specifies folder name to save images. Default is Images. |
 
 
 ---
@@ -221,7 +221,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setNewLineType (int) | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+| setNewLineType(int) | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
 
 
 ---
@@ -231,7 +231,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setProgressCallback ([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
 
 ---
@@ -241,7 +241,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowComments (boolean) | Specifies whether the generated document should show comments or not. Default is false. |
+| setShowComments(boolean) | Specifies whether the generated document should show comments or not. Default is false. |
 
 
 ---
@@ -251,7 +251,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| setShowHiddenSlides(boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 
 ---
@@ -261,7 +261,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowSlideNumber (boolean) | Specifies whether the generated document should show number of each slide or not. Default is false. |
+| setShowSlideNumber(boolean) | Specifies whether the generated document should show number of each slide or not. Default is false. |
 
 
 ---
@@ -271,7 +271,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback ([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

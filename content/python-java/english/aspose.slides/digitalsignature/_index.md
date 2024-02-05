@@ -55,7 +55,7 @@ DigitalSignature
 
 | Name | Description |
 | --- | --- |
-| getCertificate () | Certificate object that was used to sign the document. Read-only byte[]. |
+| getCertificate() | Certificate object that was used to sign the document. Read-only byte[]. |
 
  **Result:**
 byte
@@ -68,7 +68,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getComments () | The purpose of signature. Read/write String. |
+| getComments() | The purpose of signature. Read/write String. |
 
  **Result:**
 String
@@ -81,7 +81,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getSignTime () | The time when the document was signed. Read-only java.util.Date. |
+| getSignTime() | The time when the document was signed. Read-only java.util.Date. |
 
  **Result:**
 Date
@@ -94,7 +94,7 @@ Date
 
 | Name | Description |
 | --- | --- |
-| isValid () | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
+| isValid() | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
 
  **Result:**
 boolean
@@ -107,7 +107,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setComments (String) | The purpose of signature. Read/write String. |
+| setComments(String) | The purpose of signature. Read/write String. |
 
 
 ---

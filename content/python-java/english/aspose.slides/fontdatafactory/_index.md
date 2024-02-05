@@ -28,7 +28,7 @@ FontDataFactory
 
 | Name | Description |
 | --- | --- |
-| createFontData (String) | Creates FontData with specified font name. |
+| createFontData(String) | Creates FontData with specified font name. |
 
  **Parameters:**
 

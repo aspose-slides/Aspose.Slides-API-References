@@ -15,7 +15,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getAccent1 () | First accent color in the scheme. Read-only IColorFormat. |
+| getAccent1() | First accent color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -28,7 +28,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getAccent2 () | Second accent color in the scheme. Read-only IColorFormat. |
+| getAccent2() | Second accent color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -41,7 +41,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getAccent3 () | Third accent color in the scheme. Read-only IColorFormat. |
+| getAccent3() | Third accent color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -54,7 +54,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getAccent4 () | Fourth accent color in the scheme. Read-only IColorFormat. |
+| getAccent4() | Fourth accent color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -67,7 +67,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getAccent5 () | Fifth accent color in the scheme. Read-only IColorFormat. |
+| getAccent5() | Fifth accent color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -80,7 +80,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getAccent6 () | Sixth accent color in the scheme. Read-only IColorFormat. |
+| getAccent6() | Sixth accent color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -93,7 +93,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getByColorSchemeIndex (byte) | Gets the element at the specified index. Read-only IColorFormat. |
+| getByColorSchemeIndex(byte) | Gets the element at the specified index. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -106,7 +106,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getDark1 () | First dark color in the scheme. Read-only IColorFormat. |
+| getDark1() | First dark color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -119,7 +119,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getDark2 () | Second dark color in the scheme. Read-only IColorFormat. |
+| getDark2() | Second dark color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -132,7 +132,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getFollowedHyperlink () | Color for the visited hyperlinks. Read-only IColorFormat. |
+| getFollowedHyperlink() | Color for the visited hyperlinks. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -145,7 +145,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getHyperlink () | Color for the hyperlinks. Read-only IColorFormat. |
+| getHyperlink() | Color for the hyperlinks. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -158,7 +158,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getLight1 () | First light color in the scheme. Read-only IColorFormat. |
+| getLight1() | First light color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -171,7 +171,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getLight2 () | Second light color in the scheme. Read-only IColorFormat. |
+| getLight2() | Second light color in the scheme. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -184,7 +184,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getPresentation () | Returns the parent presentation. Read-only IPresentation. |
+| getPresentation() | Returns the parent presentation. Read-only IPresentation. |
 
  **Result:**
 [Presentation](../presentation)
@@ -197,7 +197,7 @@ url: /aspose.slides/colorscheme/
 
 | Name | Description |
 | --- | --- |
-| getSlide () | Returns the parent slide. Read-only IBaseSlide. |
+| getSlide() | Returns the parent slide. Read-only IBaseSlide. |
 
  **Result:**
 [Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)

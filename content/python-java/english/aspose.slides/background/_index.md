@@ -15,7 +15,7 @@ url: /aspose.slides/background/
 
 | Name | Description |
 | --- | --- |
-| getEffectFormat () | Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only IEffectFormat. |
+| getEffectFormat() | Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only IEffectFormat. |
 
  **Result:**
 [EffectFormat](../effectformat)
@@ -28,7 +28,7 @@ url: /aspose.slides/background/
 
 | Name | Description |
 | --- | --- |
-| getEffective () | Gets effective background data with the inheritance applied. |
+| getEffective() | Gets effective background data with the inheritance applied. |
 
  **Result:**
 BackgroundEffectiveData
@@ -41,7 +41,7 @@ BackgroundEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getFillFormat () | Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only IFillFormat. |
+| getFillFormat() | Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only IFillFormat. |
 
  **Result:**
 [FillFormat](../fillformat)
@@ -54,10 +54,7 @@ BackgroundEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getParent_IPresentationComponent () |  |
-
- **Result:**
-[ColorFormat](../colorformat), [Background](../background), [Blur](../blur), [MasterTheme](../mastertheme), [TextFrameFormat](../textframeformat), [FillFormat](../fillformat), [GroupShape](../groupshape), [LayoutSlide](../layoutslide), [Legend](../legend), [Axis](../axis), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [TextFrame](../textframe), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [ParagraphFormat](../paragraphformat), [SketchFormat](../sketchformat), [Duotone](../duotone), [LineFormat](../lineformat), [BulletFormat](../bulletformat), [AutoShape](../autoshape), [BiLevel](../bilevel), [AudioFrame](../audioframe), [Backdrop3DScene](../backdrop3dscene), [Picture](../picture), [Hyperlink](../hyperlink), [SummaryZoomFrame](../summaryzoomframe), [MasterNotesSlide](../masternotesslide), [ZoomObject](../zoomobject), [AlphaBiLevel](../alphabilevel), [AlphaInverse](../alphainverse), [Tab](../tab), [AlphaReplace](../alphareplace), [PatternFormat](../patternformat), [SectionZoomFrame](../sectionzoomframe), [FormatScheme](../formatscheme), [MathPortion](../mathportion), [Paragraph](../paragraph), [BaseSlide](../baseslide), [ErrorBarsFormat](../errorbarsformat), [DataLabel](../datalabel), [FillOverlay](../filloverlay), [OleObjectFrame](../oleobjectframe), [Column](../column), [Format](../format), [Control](../control), [ColorChange](../colorchange), [OverrideTheme](../overridetheme), [ChartSeriesGroup](../chartseriesgroup), [LegendEntryProperties](../legendentryproperties), [BasePortionFormat](../baseportionformat), [AlphaCeiling](../alphaceiling), [ShapeBevel](../shapebevel), [LegacyDiagram](../legacydiagram), [ColorReplace](../colorreplace), [Tint](../tint), [Presentation](../presentation), [ZoomFrame](../zoomframe), [Field](../field), [ParagraphCollection](../paragraphcollection), [PVIObject](../pviobject), [ChartPortionFormat](../chartportionformat), [Chart](../chart), [Portion](../portion), [DataLabelCollection](../datalabelcollection), [Camera](../camera), [Connector](../connector), [CellCollection](../cellcollection), [VideoFrame](../videoframe), [MasterSlide](../masterslide), [GeometryShape](../geometryshape), [AlphaModulate](../alphamodulate), [NotesSlide](../notesslide), [SmartArt](../smartart), [Cell](../cell), [ImageTransformOperationCollection](../imagetransformoperationcollection), [Trendline](../trendline), [Ink](../ink), [ChartPlotArea](../chartplotarea), [EffectFormat](../effectformat), [AlphaModulateFixed](../alphamodulatefixed), [Shape](../shape), [ThreeDFormat](../threedformat), [Row](../row), [HSL](../hsl), [SummaryZoomSection](../summaryzoomsection), [GradientStopCollection](../gradientstopcollection), [LineFillFormat](../linefillformat), [GradientStop](../gradientstop), [GradientFormat](../gradientformat), [SmartArtShape](../smartartshape), [GrayScale](../grayscale), [Slide](../slide), [LightRig](../lightrig), [CellFormat](../cellformat), [Table](../table), [Theme](../theme), [ChartSeries](../chartseries), [ChartTitle](../charttitle), [DataTable](../datatable), [PictureFillFormat](../picturefillformat), [PictureFrame](../pictureframe), [ColorScheme](../colorscheme), [DataLabelFormat](../datalabelformat), [AlphaFloor](../alphafloor), [MasterHandoutSlide](../masterhandoutslide), [PortionFormat](../portionformat)
+| getParent_IPresentationComponent() |  |
 
 
 ---
@@ -67,10 +64,7 @@ BackgroundEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getParent_ISlideComponent () |  |
-
- **Result:**
-[ColorFormat](../colorformat), [Background](../background), [Blur](../blur), [TextFrameFormat](../textframeformat), [FillFormat](../fillformat), [GroupShape](../groupshape), [LayoutSlide](../layoutslide), [Legend](../legend), [Axis](../axis), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [TextFrame](../textframe), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [ParagraphFormat](../paragraphformat), [SketchFormat](../sketchformat), [Duotone](../duotone), [LineFormat](../lineformat), [BulletFormat](../bulletformat), [AutoShape](../autoshape), [BiLevel](../bilevel), [AudioFrame](../audioframe), [Backdrop3DScene](../backdrop3dscene), [Picture](../picture), [Hyperlink](../hyperlink), [SummaryZoomFrame](../summaryzoomframe), [MasterNotesSlide](../masternotesslide), [ZoomObject](../zoomobject), [AlphaBiLevel](../alphabilevel), [AlphaInverse](../alphainverse), [Tab](../tab), [AlphaReplace](../alphareplace), [PatternFormat](../patternformat), [SectionZoomFrame](../sectionzoomframe), [FormatScheme](../formatscheme), [MathPortion](../mathportion), [Paragraph](../paragraph), [BaseSlide](../baseslide), [ErrorBarsFormat](../errorbarsformat), [DataLabel](../datalabel), [FillOverlay](../filloverlay), [OleObjectFrame](../oleobjectframe), [Column](../column), [Format](../format), [Control](../control), [ColorChange](../colorchange), [ChartSeriesGroup](../chartseriesgroup), [LegendEntryProperties](../legendentryproperties), [BasePortionFormat](../baseportionformat), [AlphaCeiling](../alphaceiling), [ShapeBevel](../shapebevel), [LegacyDiagram](../legacydiagram), [ColorReplace](../colorreplace), [Tint](../tint), [ZoomFrame](../zoomframe), [Field](../field), [ParagraphCollection](../paragraphcollection), [PVIObject](../pviobject), [ChartPortionFormat](../chartportionformat), [Chart](../chart), [Portion](../portion), [DataLabelCollection](../datalabelcollection), [Camera](../camera), [Connector](../connector), [CellCollection](../cellcollection), [VideoFrame](../videoframe), [MasterSlide](../masterslide), [GeometryShape](../geometryshape), [AlphaModulate](../alphamodulate), [NotesSlide](../notesslide), [SmartArt](../smartart), [Cell](../cell), [ImageTransformOperationCollection](../imagetransformoperationcollection), [Trendline](../trendline), [Ink](../ink), [ChartPlotArea](../chartplotarea), [EffectFormat](../effectformat), [AlphaModulateFixed](../alphamodulatefixed), [Shape](../shape), [ThreeDFormat](../threedformat), [Row](../row), [HSL](../hsl), [SummaryZoomSection](../summaryzoomsection), [GradientStopCollection](../gradientstopcollection), [LineFillFormat](../linefillformat), [GradientStop](../gradientstop), [GradientFormat](../gradientformat), [SmartArtShape](../smartartshape), [GrayScale](../grayscale), [Slide](../slide), [LightRig](../lightrig), [CellFormat](../cellformat), [Table](../table), [ChartSeries](../chartseries), [ChartTitle](../charttitle), [DataTable](../datatable), [PictureFillFormat](../picturefillformat), [PictureFrame](../pictureframe), [ColorScheme](../colorscheme), [DataLabelFormat](../datalabelformat), [AlphaFloor](../alphafloor), [MasterHandoutSlide](../masterhandoutslide), [PortionFormat](../portionformat)
+| getParent_ISlideComponent() |  |
 
 
 ---
@@ -80,7 +74,7 @@ BackgroundEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getPresentation () | Returns the parent presentation of a slide. Read-only IPresentation. |
+| getPresentation() | Returns the parent presentation of a slide. Read-only IPresentation. |
 
  **Result:**
 Presentation
@@ -93,7 +87,7 @@ Presentation
 
 | Name | Description |
 | --- | --- |
-| getPresentation () |  |
+| getPresentation() |  |
 
  **Result:**
 Presentation
@@ -106,7 +100,7 @@ Presentation
 
 | Name | Description |
 | --- | --- |
-| getSlide () | Returns the parent slide of a shape. Read-only IBaseSlide. |
+| getSlide() | Returns the parent slide of a shape. Read-only IBaseSlide. |
 
  **Result:**
 BaseSlide
@@ -119,7 +113,7 @@ BaseSlide
 
 | Name | Description |
 | --- | --- |
-| getSlide () |  |
+| getSlide() |  |
 
  **Result:**
 BaseSlide
@@ -132,7 +126,7 @@ BaseSlide
 
 | Name | Description |
 | --- | --- |
-| getStyleColor () | Return a ColorFormat for a BackgroundType.Themed fill. Read-only IColorFormat. |
+| getStyleColor() | Return a ColorFormat for a BackgroundType.Themed fill. Read-only IColorFormat. |
 
  **Result:**
 [ColorFormat](../colorformat)
@@ -145,7 +139,7 @@ BaseSlide
 
 | Name | Description |
 | --- | --- |
-| getStyleIndex () | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
+| getStyleIndex() | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
 
  **Result:**
 int
@@ -158,7 +152,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getType () | Returns a type of background fill. Read/write BackgroundType. |
+| getType() | Returns a type of background fill. Read/write BackgroundType. |
 
  **Result:**
 byte
@@ -171,7 +165,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getVersion () |  |
+| getVersion() |  |
 
  **Result:**
 long
@@ -184,7 +178,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getVersion () |  |
+| getVersion() |  |
 
  **Result:**
 long
@@ -197,7 +191,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| setStyleIndex (int) | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
+| setStyleIndex(int) | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
 
 
 ---
@@ -207,7 +201,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| setType (byte) | Returns a type of background fill. Read/write BackgroundType. |
+| setType(byte) | Returns a type of background fill. Read/write BackgroundType. |
 
 
 ---

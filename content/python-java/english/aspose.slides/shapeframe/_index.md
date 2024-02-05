@@ -40,7 +40,7 @@ ShapeFrame
 
 | Name | Description |
 | --- | --- |
-| cloneT () | Clones. |
+| cloneT() | Clones. |
 
  **Result:**
 [ShapeFrame](../shapeframe)
@@ -53,7 +53,7 @@ ShapeFrame
 
 | Name | Description |
 | --- | --- |
-| deepClone () | Clones |
+| deepClone() | Clones |
 
  **Result:**
 Object
@@ -66,7 +66,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| equals (Object) | Returns a value indicating whether this instance is equal to a specified object. |
+| equals(Object) | Returns a value indicating whether this instance is equal to a specified object. |
 
  **Parameters:**
 
@@ -85,7 +85,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| equals ([ShapeFrame](../shapeframe)) | Returns a value indicating whether this instance is equal to a specified object. |
+| equals([ShapeFrame](../shapeframe)) | Returns a value indicating whether this instance is equal to a specified object. |
 
  **Parameters:**
 
@@ -104,7 +104,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getCenterX () | Returns the X coordinate of a frame's center. Read-only float. |
+| getCenterX() | Returns the X coordinate of a frame's center. Read-only float. |
 
  **Result:**
 float
@@ -117,7 +117,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getCenterY () | Returns the Y coordinate of a frame's center. Read-only float. |
+| getCenterY() | Returns the Y coordinate of a frame's center. Read-only float. |
 
  **Result:**
 float
@@ -130,7 +130,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getFlipH () | Determines whether a frame is flipped horizontally. Read-only NullableBool. |
+| getFlipH() | Determines whether a frame is flipped horizontally. Read-only NullableBool. |
 
  **Result:**
 byte
@@ -143,7 +143,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getFlipV () | Determines whether a frame is flipped vertically. Read-only NullableBool. |
+| getFlipV() | Determines whether a frame is flipped vertically. Read-only NullableBool. |
 
  **Result:**
 byte
@@ -156,7 +156,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getHeight () | Returns the height of a frame. Read-only float. |
+| getHeight() | Returns the height of a frame. Read-only float. |
 
  **Result:**
 float
@@ -169,7 +169,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getRectangle () | Returns the coordinates of a frame. Read-only java.awt.geom.Rectangle2D.Float. |
+| getRectangle() | Returns the coordinates of a frame. Read-only java.awt.geom.Rectangle2D.Float. |
 
  **Result:**
 Rectangle2D.Float
@@ -182,7 +182,7 @@ Rectangle2D.Float
 
 | Name | Description |
 | --- | --- |
-| getRotation () | Returns the number of degrees a frame is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read-only float. |
+| getRotation() | Returns the number of degrees a frame is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read-only float. |
 
  **Result:**
 float
@@ -195,7 +195,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getWidth () | Returns the width of a frame. Read-only float. |
+| getWidth() | Returns the width of a frame. Read-only float. |
 
  **Result:**
 float
@@ -208,7 +208,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getX () | Returns the X coordinate of the upper-left corner of a frame. Read-only float. |
+| getX() | Returns the X coordinate of the upper-left corner of a frame. Read-only float. |
 
  **Result:**
 float
@@ -221,7 +221,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getY () | Returns the Y coordinate of the upper-left corner of a frame. Read-only float. |
+| getY() | Returns the Y coordinate of the upper-left corner of a frame. Read-only float. |
 
  **Result:**
 float
@@ -234,7 +234,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| hashCode () |  |
+| hashCode() |  |
 
  **Result:**
 int

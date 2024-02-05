@@ -30,7 +30,7 @@ ParagraphFactory
 
 | Name | Description |
 | --- | --- |
-| createParagraph () | Creates a new empty paragraph. |
+| createParagraph() | Creates a new empty paragraph. |
 
  **Result:**
 [Paragraph](../paragraph)
@@ -43,7 +43,7 @@ ParagraphFactory
 
 | Name | Description |
 | --- | --- |
-| createParagraph ([Paragraph](../paragraph)) | Creates a new paragraph with specified paragraph data using. |
+| createParagraph([Paragraph](../paragraph)) | Creates a new paragraph with specified paragraph data using. |
 
  **Parameters:**
 

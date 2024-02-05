@@ -47,7 +47,7 @@ SVGOptions
 
 | Name | Description |
 | --- | --- |
-| getDefault () | Returns default settings. Read-only SVGOptions. |
+| getDefault() | Returns default settings. Read-only SVGOptions. |
 
  **Result:**
 SVGOptions
@@ -60,7 +60,7 @@ SVGOptions
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont () | Returns or sets font used in case source font is not found. Read-write String. |
+| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
 
  **Result:**
 String
@@ -73,7 +73,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getDeletePicturesCroppedAreas () | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
+| getDeletePicturesCroppedAreas() | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 
  **Result:**
 boolean
@@ -86,7 +86,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getDisable3DText () | Determines whether the 3D text is disabled in SVG. Read/write boolean. |
+| getDisable3DText() | Determines whether the 3D text is disabled in SVG. Read/write boolean. |
 
  **Result:**
 boolean
@@ -99,7 +99,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getDisableGradientSplit () | Disables splitting FromCornerX and FromCenter gradients. Read/write boolean. |
+| getDisableGradientSplit() | Disables splitting FromCornerX and FromCenter gradients. Read/write boolean. |
 
  **Result:**
 boolean
@@ -112,7 +112,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getDisableLineEndCropping () | SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read/write boolean. |
+| getDisableLineEndCropping() | SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read/write boolean. |
 
  **Result:**
 boolean
@@ -125,7 +125,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getExternalFontsHandling () | Determines a way of handling externally loaded fonts. Read/write SvgExternalFontsHandling. |
+| getExternalFontsHandling() | Determines a way of handling externally loaded fonts. Read/write SvgExternalFontsHandling. |
 
  **Result:**
 int
@@ -138,7 +138,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getJpegQuality () | Determines JPEG encoding quality. Read/write int. |
+| getJpegQuality() | Determines JPEG encoding quality. Read/write int. |
 
  **Result:**
 int
@@ -151,7 +151,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getMetafileRasterizationDpi () | Returns or sets the lower resolution limit for metafile rasterization. Read/write int. |
+| getMetafileRasterizationDpi() | Returns or sets the lower resolution limit for metafile rasterization. Read/write int. |
 
  **Result:**
 int
@@ -164,7 +164,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getPicturesCompression () | Represents the pictures compression level |
+| getPicturesCompression() | Represents the pictures compression level |
 
  **Result:**
 int
@@ -177,7 +177,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getProgressCallback () | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
  **Result:**
 IProgressCallback
@@ -190,7 +190,7 @@ IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| getShapeFormattingController () | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
+| getShapeFormattingController() | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
 
  **Result:**
 [VideoPlayerHtmlController](../videoplayerhtmlcontroller)
@@ -203,7 +203,7 @@ IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| getSimple () | Returns settings for simpliest and smallest SVG file generation. Read-only SVGOptions. |
+| getSimple() | Returns settings for simpliest and smallest SVG file generation. Read-only SVGOptions. |
 
  **Result:**
 SVGOptions
@@ -216,7 +216,7 @@ SVGOptions
 
 | Name | Description |
 | --- | --- |
-| getUseFrameRotation () | Determines whether to perform the specified rotation of the shape when rendering or not. Read/write boolean. Default value is true. |
+| getUseFrameRotation() | Determines whether to perform the specified rotation of the shape when rendering or not. Read/write boolean. Default value is true. |
 
  **Result:**
 boolean
@@ -229,7 +229,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getUseFrameSize () | Determines whether the text frame will be included in a rendering area or not. Read/write boolean. Default value is false. |
+| getUseFrameSize() | Determines whether the text frame will be included in a rendering area or not. Read/write boolean. Default value is false. |
 
  **Result:**
 boolean
@@ -242,7 +242,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getVectorizeText () | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |
+| getVectorizeText() | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |
 
  **Result:**
 boolean
@@ -255,7 +255,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getWYSIWYG () | Returns settings for most accurate SVG file generation. Read-only SVGOptions. |
+| getWYSIWYG() | Returns settings for most accurate SVG file generation. Read-only SVGOptions. |
 
  **Result:**
 SVGOptions
@@ -268,7 +268,7 @@ SVGOptions
 
 | Name | Description |
 | --- | --- |
-| getWarningCallback () | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
  **Result:**
 IWarningCallback
@@ -281,7 +281,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont (String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -291,7 +291,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDeletePicturesCroppedAreas (boolean) | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
+| setDeletePicturesCroppedAreas(boolean) | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 
 
 ---
@@ -301,7 +301,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDisable3DText (boolean) | Determines whether the 3D text is disabled in SVG. Read/write boolean. |
+| setDisable3DText(boolean) | Determines whether the 3D text is disabled in SVG. Read/write boolean. |
 
 
 ---
@@ -311,7 +311,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDisableGradientSplit (boolean) | Disables splitting FromCornerX and FromCenter gradients. Read/write boolean. |
+| setDisableGradientSplit(boolean) | Disables splitting FromCornerX and FromCenter gradients. Read/write boolean. |
 
 
 ---
@@ -321,7 +321,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDisableLineEndCropping (boolean) | SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read/write boolean. |
+| setDisableLineEndCropping(boolean) | SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read/write boolean. |
 
 
 ---
@@ -331,7 +331,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setExternalFontsHandling (int) | Determines a way of handling externally loaded fonts. Read/write SvgExternalFontsHandling. |
+| setExternalFontsHandling(int) | Determines a way of handling externally loaded fonts. Read/write SvgExternalFontsHandling. |
 
 
 ---
@@ -341,7 +341,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setJpegQuality (int) | Determines JPEG encoding quality. Read/write int. |
+| setJpegQuality(int) | Determines JPEG encoding quality. Read/write int. |
 
 
 ---
@@ -351,7 +351,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setMetafileRasterizationDpi (int) | Returns or sets the lower resolution limit for metafile rasterization. Read/write int. |
+| setMetafileRasterizationDpi(int) | Returns or sets the lower resolution limit for metafile rasterization. Read/write int. |
 
 
 ---
@@ -361,7 +361,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setPicturesCompression (int) | Represents the pictures compression level |
+| setPicturesCompression(int) | Represents the pictures compression level |
 
 
 ---
@@ -371,7 +371,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setProgressCallback ([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
 
 ---
@@ -381,7 +381,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShapeFormattingController ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
+| setShapeFormattingController([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
 
 
 ---
@@ -391,7 +391,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setUseFrameRotation (boolean) | Determines whether to perform the specified rotation of the shape when rendering or not. Read/write boolean. Default value is true. |
+| setUseFrameRotation(boolean) | Determines whether to perform the specified rotation of the shape when rendering or not. Read/write boolean. Default value is true. |
 
 
 ---
@@ -401,7 +401,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setUseFrameSize (boolean) | Determines whether the text frame will be included in a rendering area or not. Read/write boolean. Default value is false. |
+| setUseFrameSize(boolean) | Determines whether the text frame will be included in a rendering area or not. Read/write boolean. Default value is false. |
 
 
 ---
@@ -411,7 +411,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setVectorizeText (boolean) | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |
+| setVectorizeText(boolean) | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |
 
 
 ---
@@ -421,7 +421,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback ([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

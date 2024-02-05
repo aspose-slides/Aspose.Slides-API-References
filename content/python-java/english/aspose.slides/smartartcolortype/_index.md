@@ -254,7 +254,7 @@ TransparentGradientRangeAccent6
 
 | Name | Description |
 | --- | --- |
-| Clone () |  |
+| Clone() |  |
 
  **Result:**
 T
@@ -267,7 +267,7 @@ T
 
 | Name | Description |
 | --- | --- |
-| CloneTo (T) |  |
+| CloneTo(T) |  |
 
 
 ---
@@ -277,7 +277,7 @@ T
 
 | Name | Description |
 | --- | --- |
-| format (java.lang.Class<?>, long, String) |  |
+| format(java.lang.Class<?>, long, String) |  |
 
  **Result:**
 String
@@ -290,7 +290,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| format (Type, Object, String) |  |
+| format(Type, Object, String) |  |
 
  **Result:**
 String
@@ -303,7 +303,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getName (java.lang.Class<?>, long) |  |
+| getName(java.lang.Class<?>, long) |  |
 
  **Result:**
 String
@@ -316,7 +316,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getName (Type, Object) |  |
+| getName(Type, Object) |  |
 
  **Result:**
 String
@@ -329,7 +329,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getNames (java.lang.Class<?>) |  |
+| getNames(java.lang.Class<?>) |  |
 
  **Result:**
 List, ArrayList
@@ -342,7 +342,7 @@ List, ArrayList
 
 | Name | Description |
 | --- | --- |
-| getNames (Type) |  |
+| getNames(Type) |  |
 
  **Result:**
 String
@@ -355,7 +355,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getUnderlyingType (java.lang.Class<?>) |  |
+| getUnderlyingType(java.lang.Class<?>) |  |
 
  **Result:**
 Class
@@ -368,7 +368,7 @@ Class
 
 | Name | Description |
 | --- | --- |
-| getUnderlyingType (Type) |  |
+| getUnderlyingType(Type) |  |
 
  **Result:**
 Type
@@ -381,7 +381,7 @@ Type
 
 | Name | Description |
 | --- | --- |
-| getValue (java.lang.Class<?>, String) |  |
+| getValue(java.lang.Class<?>, String) |  |
 
  **Result:**
 long
@@ -394,7 +394,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getValues (Type) |  |
+| getValues(Type) |  |
 
  **Result:**
 Array
@@ -407,7 +407,7 @@ Array
 
 | Name | Description |
 | --- | --- |
-| get_Caption () |  |
+| get_Caption() |  |
 
  **Result:**
 String
@@ -420,7 +420,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| get_Value () |  |
+| get_Value() |  |
 
  **Result:**
 long
@@ -433,7 +433,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| isDefined (java.lang.Class<?>, long) |  |
+| isDefined(java.lang.Class<?>, long) |  |
 
  **Result:**
 boolean
@@ -446,7 +446,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isDefined (Type, long) |  |
+| isDefined(Type, long) |  |
 
  **Result:**
 boolean
@@ -459,7 +459,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isDefined (Type, String) |  |
+| isDefined(Type, String) |  |
 
  **Result:**
 boolean
@@ -472,7 +472,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isDefined (Type, Object) |  |
+| isDefined(Type, Object) |  |
 
  **Result:**
 boolean
@@ -485,7 +485,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| parse (java.lang.Class<?>, String) |  |
+| parse(java.lang.Class<?>, String) |  |
 
  **Result:**
 long
@@ -498,7 +498,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| parse (java.lang.Class<?>, String, Boolean) |  |
+| parse(java.lang.Class<?>, String, Boolean) |  |
 
  **Result:**
 long
@@ -511,7 +511,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| parse (Type, String) |  |
+| parse(Type, String) |  |
 
  **Result:**
 long
@@ -524,7 +524,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| parse (Type, String, Boolean) |  |
+| parse(Type, String, Boolean) |  |
 
  **Result:**
 long
@@ -537,7 +537,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| register (Enum.AbstractEnum) |  |
+| register(Enum.AbstractEnum) |  |
 
 
 ---
@@ -547,7 +547,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| toObject (Type, Object) |  |
+| toObject(Type, Object) |  |
 
  **Result:**
 Object
@@ -560,7 +560,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| toString (java.lang.Class<?>, long) |  |
+| toString(java.lang.Class<?>, long) |  |
 
  **Result:**
 String

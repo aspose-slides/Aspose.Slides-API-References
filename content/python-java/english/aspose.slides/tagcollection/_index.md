@@ -15,7 +15,7 @@ url: /aspose.slides/tagcollection/
 
 | Name | Description |
 | --- | --- |
-| add (String, String) | Adds a new tag to collection. |
+| add(String, String) | Adds a new tag to collection. |
 
  **Parameters:**
 
@@ -35,7 +35,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| clear () | Removes all tags from the collection. |
+| clear() | Removes all tags from the collection. |
 
 
 ---
@@ -45,7 +45,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| contains (String) | Determines whether the collection contains a specific name. |
+| contains(String) | Determines whether the collection contains a specific name. |
 
  **Parameters:**
 
@@ -64,7 +64,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getNameByIndex (int) | Returns key of a tag at the specified index. |
+| getNameByIndex(int) | Returns key of a tag at the specified index. |
 
  **Parameters:**
 
@@ -83,7 +83,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getNamesOfTags () | Returns names of tags. |
+| getNamesOfTags() | Returns names of tags. |
 
  **Result:**
 String
@@ -96,7 +96,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+| getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
  **Result:**
 Object
@@ -109,7 +109,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| getValueByIndex (int) | Returns value of a tag at the specified index. |
+| getValueByIndex(int) | Returns value of a tag at the specified index. |
 
  **Parameters:**
 
@@ -128,7 +128,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| get_Item (String) | Returns or sets a key and a value pair of a tag. |
+| get_Item(String) | Returns or sets a key and a value pair of a tag. |
 
  **Parameters:**
 
@@ -147,7 +147,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| indexOfName (String) | Returns the zero-based index of the specified key in the collection. |
+| indexOfName(String) | Returns the zero-based index of the specified key in the collection. |
 
  **Parameters:**
 
@@ -166,7 +166,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
  **Result:**
 boolean
@@ -179,7 +179,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove (String) | Removes the tag with a specified name from the collection. |
+| remove(String) | Removes the tag with a specified name from the collection. |
 
  **Parameters:**
 
@@ -221,7 +221,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeAt (int) | Removes the tag at the specified index. |
+| removeAt(int) | Removes the tag at the specified index. |
 
  **Parameters:**
 
@@ -237,7 +237,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item (String, String) | Returns or sets a key and a value pair of a tag. |
+| set_Item(String, String) | Returns or sets a key and a value pair of a tag. |
 
  **Parameters:**
 
@@ -253,7 +253,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| size () | Returns a number of tags in the collectoin. Read-only int. |
+| size() | Returns a number of tags in the collectoin. Read-only int. |
 
  **Result:**
 int

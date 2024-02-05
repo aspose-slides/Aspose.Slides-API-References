@@ -30,7 +30,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathAccent](../mathaccent), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathAccent](../mathaccent), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -52,7 +52,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathRadical](../mathradical), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathRadical](../mathradical), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -74,7 +74,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathSubscriptElement](../mathsubscriptelement),  char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathSubscriptElement](../mathsubscriptelement), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -96,7 +96,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathSuperscriptElement](../mathsuperscriptelement),  char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathSuperscriptElement](../mathsuperscriptelement), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -118,7 +118,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathMatrix](../mathmatrix), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathMatrix](../mathmatrix), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -140,7 +140,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathematicalText](../mathematicaltext), char,  int, int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathematicalText](../mathematicaltext), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -162,7 +162,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBorderBox](../mathborderbox), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathBorderBox](../mathborderbox), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -184,7 +184,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathDelimiter](../mathdelimiter), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathDelimiter](../mathdelimiter), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -206,7 +206,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathFraction](../mathfraction), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathFraction](../mathfraction), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -228,7 +228,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathLimit](../mathlimit), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathLimit](../mathlimit), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -250,7 +250,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathGroupingCharacter](../mathgroupingcharacter),  char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathGroupingCharacter](../mathgroupingcharacter), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -272,7 +272,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -294,7 +294,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBlock](../mathblock), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathBlock](../mathblock), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -316,7 +316,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathNaryOperator](../mathnaryoperator), char,  int, int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathNaryOperator](../mathnaryoperator), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -338,7 +338,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathArray](../matharray), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathArray](../matharray), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -360,7 +360,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBar](../mathbar), char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathBar](../mathbar), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -382,7 +382,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBox](../mathbox), char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathBox](../mathbox), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -404,7 +404,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), char, int, int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -426,7 +426,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathFunction](../mathfunction), char, int,  int) | Creates a math grouping character |
+| createMathGroupingCharacter([MathFunction](../mathfunction), char, int, int) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -448,7 +448,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathAccent](../mathaccent)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathAccent](../mathaccent)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -467,7 +467,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathRadical](../mathradical)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathRadical](../mathradical)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -486,7 +486,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathSubscriptElement](../mathsubscriptelement)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathSubscriptElement](../mathsubscriptelement)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -505,7 +505,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -524,7 +524,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathMatrix](../mathmatrix)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathMatrix](../mathmatrix)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -543,7 +543,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathematicalText](../mathematicaltext)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathematicalText](../mathematicaltext)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -562,7 +562,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBorderBox](../mathborderbox)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathBorderBox](../mathborderbox)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -581,7 +581,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathDelimiter](../mathdelimiter)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathDelimiter](../mathdelimiter)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -600,7 +600,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathFraction](../mathfraction)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathFraction](../mathfraction)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -619,7 +619,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathLimit](../mathlimit)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathLimit](../mathlimit)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -638,7 +638,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -657,7 +657,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ( [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -676,7 +676,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBlock](../mathblock)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathBlock](../mathblock)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -695,7 +695,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathNaryOperator](../mathnaryoperator)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathNaryOperator](../mathnaryoperator)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -714,7 +714,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathArray](../matharray)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathArray](../matharray)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -733,7 +733,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBar](../mathbar)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathBar](../mathbar)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -752,7 +752,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathBox](../mathbox)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathBox](../mathbox)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -771,7 +771,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ( [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math grouping character |
 
  **Parameters:**
 
@@ -790,7 +790,7 @@ MathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathGroupingCharacter ([MathFunction](../mathfunction)) | Creates a math grouping character |
+| createMathGroupingCharacter([MathFunction](../mathfunction)) | Creates a math grouping character |
 
  **Parameters:**
 

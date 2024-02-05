@@ -72,7 +72,7 @@ PresentationAnimationsGenerator
 
 | Name | Description |
 | --- | --- |
-| dispose () | Disposes the instance of the PresentationAnimationsGenerator. |
+| dispose() | Disposes the instance of the PresentationAnimationsGenerator. |
 
 
 ---
@@ -82,7 +82,7 @@ PresentationAnimationsGenerator
 
 | Name | Description |
 | --- | --- |
-| getDefaultDelay () | Gets or sets default delay time [ms]. |
+| getDefaultDelay() | Gets or sets default delay time [ms]. |
 
  **Result:**
 int
@@ -95,7 +95,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getExportedSlides () | Get the number of the exported slides count. |
+| getExportedSlides() | Get the number of the exported slides count. |
 
  **Result:**
 int
@@ -108,7 +108,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getFrameSize () | Gets the frame size. |
+| getFrameSize() | Gets the frame size. |
 
  **Result:**
 Dimension
@@ -121,7 +121,7 @@ Dimension
 
 | Name | Description |
 | --- | --- |
-| getIncludeHiddenSlides () | Get or sets if hidden slides should be included. |
+| getIncludeHiddenSlides() | Get or sets if hidden slides should be included. |
 
  **Result:**
 boolean
@@ -134,7 +134,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| run (com.aspose.ms.System.Collections.Generic. IGenericEnumerable<com.aspose.slides.ISlide>) | Run the animation events generation for each slide. |
+| run(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>) | Run the animation events generation for each slide. |
 
 
 ---
@@ -144,7 +144,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| run (com.aspose.ms.System.Collections.Generic. IGenericEnumerable<com.aspose.slides.ISlide>, int, [PresentationPlayer.FrameTick](../presentationplayer.frametick)) | Run the animation events generation for each slide. |
+| run(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>, int, [PresentationPlayer.FrameTick](../presentationplayer.frametick)) | Run the animation events generation for each slide. |
 
 
 ---
@@ -154,7 +154,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setDefaultDelay (int) | Gets or sets default delay time [ms]. |
+| setDefaultDelay(int) | Gets or sets default delay time [ms]. |
 
 
 ---
@@ -164,7 +164,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setIncludeHiddenSlides (boolean) | Get or sets if hidden slides should be included. |
+| setIncludeHiddenSlides(boolean) | Get or sets if hidden slides should be included. |
 
 
 ---
@@ -174,7 +174,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setNewAnimation ([PresentationAnimationsGenerator. NewAnimation](../presentationanimationsgenerator.newanimation)) | Set a new animation event. |
+| setNewAnimation([PresentationAnimationsGenerator.NewAnimation](../presentationanimationsgenerator.newanimation)) | Set a new animation event. |
 
  **Parameters:**
 

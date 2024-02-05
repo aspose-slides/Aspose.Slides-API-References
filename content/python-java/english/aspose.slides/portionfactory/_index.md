@@ -30,10 +30,10 @@ PortionFactory
 
 | Name | Description |
 | --- | --- |
-| createPortion () | Creates an empty text portion. |
+| createPortion() | Creates an empty text portion. |
 
  **Result:**
-[Portion](../portion), [MathPortion](../mathportion)
+[MathPortion](../mathportion), [Portion](../portion)
 
 
 ---
@@ -43,7 +43,7 @@ PortionFactory
 
 | Name | Description |
 | --- | --- |
-| createPortion (String) | Creates a text portion from specified string. |
+| createPortion(String) | Creates a text portion from specified string. |
 
  **Parameters:**
 
@@ -52,7 +52,7 @@ PortionFactory
 | str | String | String. |
 
  **Result:**
-[Portion](../portion), [MathPortion](../mathportion)
+[MathPortion](../mathportion), [Portion](../portion)
 
 
 ---
@@ -62,26 +62,7 @@ PortionFactory
 
 | Name | Description |
 | --- | --- |
-| createPortion ([Portion](../portion)) | Creates a portion with the using of a specified portion data. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| portion | [Portion](../portion) | A portion to use. |
-
- **Result:**
-[Portion](../portion), [MathPortion](../mathportion)
-
-
----
-
-
-### createPortion {#createPortion}
-
-| Name | Description |
-| --- | --- |
-| createPortion ([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |
+| createPortion([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |
 
  **Parameters:**
 
@@ -90,7 +71,26 @@ PortionFactory
 | portion | [MathPortion](../mathportion) | A portion to use. |
 
  **Result:**
-[Portion](../portion), [MathPortion](../mathportion)
+[MathPortion](../mathportion), [Portion](../portion)
+
+
+---
+
+
+### createPortion {#createPortion}
+
+| Name | Description |
+| --- | --- |
+| createPortion([Portion](../portion)) | Creates a portion with the using of a specified portion data. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| portion | [Portion](../portion) | A portion to use. |
+
+ **Result:**
+[MathPortion](../mathportion), [Portion](../portion)
 
 
 ---

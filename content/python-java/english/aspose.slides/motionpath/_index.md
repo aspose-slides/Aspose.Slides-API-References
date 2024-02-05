@@ -28,7 +28,7 @@ MotionPath
 
 | Name | Description |
 | --- | --- |
-| add (int, java.awt.geom.Point2D.Float[], int, boolean) | Add new command to path |
+| add(int, java.awt.geom.Point2D.Float[], int, boolean) | Add new command to path |
 
  **Parameters:**
 
@@ -50,7 +50,7 @@ MotionPath
 
 | Name | Description |
 | --- | --- |
-| clear () | Removes all commands from the collection. |
+| clear() | Removes all commands from the collection. |
 
 
 ---
@@ -60,7 +60,7 @@ MotionPath
 
 | Name | Description |
 | --- | --- |
-| getCount () | Returns the number of paths in the collection. Read-only int. |
+| getCount() | Returns the number of paths in the collection. Read-only int. |
 
  **Result:**
 int
@@ -73,7 +73,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns a command at the specified index. |
+| get_Item(int) | Returns a command at the specified index. |
 
  **Parameters:**
 
@@ -92,7 +92,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| insert (int, int, java.awt.geom.Point2D.Float[], int, boolean) | Insert new command to path |
+| insert(int, int, java.awt.geom.Point2D.Float[], int, boolean) | Insert new command to path |
 
  **Parameters:**
 
@@ -112,7 +112,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -125,7 +125,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -138,7 +138,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| remove ([MotionCmdPath](../motioncmdpath)) | Removes specified commans from the collection. |
+| remove([MotionCmdPath](../motioncmdpath)) | Removes specified commans from the collection. |
 
  **Parameters:**
 
@@ -154,7 +154,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| removeAt (int) | Removes a command at the specified index. |
+| removeAt(int) | Removes a command at the specified index. |
 
  **Parameters:**
 

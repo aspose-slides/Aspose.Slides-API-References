@@ -55,7 +55,7 @@ ColorOperation
 
 | Name | Description |
 | --- | --- |
-| equals (Object) | Determines whether the two ColorOperation instances are equal. |
+| equals(Object) | Determines whether the two ColorOperation instances are equal. |
 
  **Parameters:**
 
@@ -74,7 +74,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getOperationType () | Returns or sets the type of an operation. Read-only ColorTransformOperation. |
+| getOperationType() | Returns or sets the type of an operation. Read-only ColorTransformOperation. |
 
  **Result:**
 int
@@ -87,7 +87,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getParameter () | Returns a parameter of an operation. Read-only float. |
+| getParameter() | Returns a parameter of an operation. Read-only float. |
 
  **Result:**
 float
@@ -100,7 +100,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| hashCode() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
  **Result:**
 int

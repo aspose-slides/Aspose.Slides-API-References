@@ -28,7 +28,7 @@ XpsOptions
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont () | Returns or sets font used in case source font is not found. Read-write String. |
+| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
 
  **Result:**
 String
@@ -41,7 +41,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getDrawSlidesFrame () | True to draw black frame around each slide. Read/write boolean. Default is false. |
+| getDrawSlidesFrame() | True to draw black frame around each slide. Read/write boolean. Default is false. |
 
  **Result:**
 boolean
@@ -54,7 +54,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getProgressCallback () | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
  **Result:**
 IProgressCallback
@@ -67,7 +67,7 @@ IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| getSaveMetafilesAsPng () | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+| getSaveMetafilesAsPng() | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
 
  **Result:**
 boolean
@@ -80,7 +80,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| getShowHiddenSlides() | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
  **Result:**
 boolean
@@ -93,7 +93,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getWarningCallback () | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
  **Result:**
 IWarningCallback
@@ -106,7 +106,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont (String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -116,7 +116,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDrawSlidesFrame (boolean) | True to draw black frame around each slide. Read/write boolean. Default is false. |
+| setDrawSlidesFrame(boolean) | True to draw black frame around each slide. Read/write boolean. Default is false. |
 
 
 ---
@@ -126,7 +126,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setProgressCallback ([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
 
 ---
@@ -136,7 +136,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setSaveMetafilesAsPng (boolean) | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+| setSaveMetafilesAsPng(boolean) | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
 
 
 ---
@@ -146,7 +146,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| setShowHiddenSlides(boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 
 ---
@@ -156,7 +156,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback ([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

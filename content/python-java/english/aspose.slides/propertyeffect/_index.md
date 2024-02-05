@@ -28,7 +28,7 @@ PropertyEffect
 
 | Name | Description |
 | --- | --- |
-| getAccumulate () | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
+| getAccumulate() | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
 
  **Result:**
 byte
@@ -41,7 +41,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getAdditive () | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
+| getAdditive() | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
 
  **Result:**
 int
@@ -54,7 +54,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getBy () | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+| getBy() | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 
  **Result:**
 String
@@ -67,7 +67,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCalcMode () | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
+| getCalcMode() | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 
  **Result:**
 int
@@ -80,7 +80,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getFrom () | Specifies the starting value of the animation. Read/write String. |
+| getFrom() | Specifies the starting value of the animation. Read/write String. |
 
  **Result:**
 String
@@ -93,10 +93,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getParent_Immediate () |  |
-
- **Result:**
-DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](../rotationeffect), [ChartTitle](../charttitle), [MathBar](../mathbar), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartDataWorksheet](../chartdataworksheet), [SoftEdge](../softedge), [Audio](../audio), [ChartWall](../chartwall), [BaseOverrideThemeManager](../baseoverridethememanager), [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager), ThemeableLineFormat, [UpDownBarsManager](../updownbarsmanager), [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [Format](../format), [GradientFormat](../gradientformat), [ThreeDFormat](../threedformat), [Slide](../slide), [TabCollection](../tabcollection), [ColorScheme](../colorscheme), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [SlideHeaderFooterManager](../slideheaderfootermanager), [CommentAuthor](../commentauthor), [CellFormat](../cellformat), [SlideShowTransition](../slideshowtransition), [CustomXmlPartCollection](../customxmlpartcollection), [SlideCollection](../slidecollection), [ViewProperties](../viewproperties), [Shape](../shape), [ExtraColorScheme](../extracolorscheme), [Luminance](../luminance), [MasterThemeManager](../masterthememanager), [DataLabel](../datalabel), [GradientStop](../gradientstop), [CellCollection](../cellcollection), [MathematicalText](../mathematicaltext), [Row](../row), MasterNotesSlideManager, [MathNaryOperator](../mathnaryoperator), [BaseThemeManager](../basethememanager), ThemeableFillFormat, [RowCollection](../rowcollection), [GeometryShape](../geometryshape), TableStyle, [LightRig](../lightrig), [ChartPlotArea](../chartplotarea), [BulletFormat](../bulletformat), [MathSuperscriptElement](../mathsuperscriptelement), [VideoCollection](../videocollection), [Table](../table), [ChartDataPointLevel](../chartdatapointlevel), PresetTextShape, [MasterTheme](../mastertheme), [SectionSlideCollection](../sectionslidecollection), [OleObjectFrame](../oleobjectframe), [ChartData](../chartdata), [ChartDataPointCollection](../chartdatapointcollection), [ChartDataWorkbook](../chartdataworkbook), [NotesSlideHeaderFooterManager](../notesslideheaderfootermanager), [PresetShadow](../presetshadow), AggregatedDataPoint, [SketchFormat](../sketchformat), [MathParagraph](../mathparagraph), [SmartArt](../smartart), [AudioCollection](../audiocollection), [AxisFormat](../axisformat), [CommentCollection](../commentcollection), [ParagraphFormat](../paragraphformat), [ChartDataWorksheetCollection](../chartdataworksheetcollection), FormatOverrides, [TextStyle](../textstyle), [FillFormatCollection](../fillformatcollection), [NotesSlideManager](../notesslidemanager), [ColumnFormat](../columnformat), [Section](../section), [MathBlock](../mathblock), [TableFormat](../tableformat), [StringChartValue](../stringchartvalue), [Reflection](../reflection), [Ink](../ink), [Trendline](../trendline), [LayoutSlideCollection](../layoutslidecollection), [LineFormat](../lineformat), [BasePortionFormat](../baseportionformat), [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager), [MasterHandoutSlide](../masterhandoutslide), [DataLabelFormat](../datalabelformat), [Timing](../timing), [MathAccent](../mathaccent), [LegacyDiagram](../legacydiagram), FormatOverride, [ChartSeriesGroup](../chartseriesgroup), [Blur](../blur), [MathSubscriptElement](../mathsubscriptelement), [NotesSlideThemeManager](../notesslidethememanager), [Axis](../axis), [AlphaBiLevel](../alphabilevel), [Paragraph](../paragraph), [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), TableBackgroundStyle, [SetEffect](../seteffect), [StringOrDoubleChartValue](../stringordoublechartvalue), [Chart](../chart), [PictureFillFormat](../picturefillformat), [HyperlinkQueries](../hyperlinkqueries), [ZoomFrame](../zoomframe), [BaseScript](../basescript), [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager), [Rotation3D](../rotation3d), [FontScheme](../fontscheme), [PictureFrame](../pictureframe), [Effect](../effect), [OverrideTheme](../overridetheme), [ColorChange](../colorchange), [ColumnCollection](../columncollection), [TrendlineCollection](../trendlinecollection), [EffectStyleCollection](../effectstylecollection), [AlphaInverse](../alphainverse), [ErrorBarsCustomValues](../errorbarscustomvalues), PlaceholderCollection, [FillFormat](../fillformat), [ModernComment](../moderncomment), [ColorFormat](../colorformat), [AdjustValueCollection](../adjustvaluecollection), [MasterNotesSlide](../masternotesslide), [CommentAuthorCollection](../commentauthorcollection), [ImageTransformOperation](../imagetransformoperation), AggregatedDataPointCollection, [LayoutSlideHeaderFooterManager](../layoutslideheaderfootermanager), [Background](../background), [Control](../control), [GrayScale](../grayscale), [LineFillFormat](../linefillformat), [AnimationTimeLine](../animationtimeline), [SmartArtShape](../smartartshape), [Tab](../tab), [MotionEffect](../motioneffect), [GradientStopCollection](../gradientstopcollection), [ChartCellCollection](../chartcellcollection), [ColorEffect](../coloreffect), [ChartPortionFormat](../chartportionformat), [MathBox](../mathbox), [DigitalSignatureCollection](../digitalsignaturecollection), [AutoShape](../autoshape), [NotesSlide](../notesslide), [SectionCollection](../sectioncollection), [ScaleEffect](../scaleeffect), [MathFunction](../mathfunction), [ChartSeries](../chartseries), [Connector](../connector), [Picture](../picture), [CommandEffect](../commandeffect), [SlideThemeManager](../slidethememanager), [DoubleChartValue](../doublechartvalue), [Column](../column), [EffectStyle](../effectstyle), [SlideSize](../slidesize), [CustomData](../customdata), [SummaryZoomSection](../summaryzoomsection), [HSL](../hsl), [Tint](../tint), [DataLabelCollection](../datalabelcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), LayoutTree, [GraphicalObject](../graphicalobject), [Field](../field), [FormatScheme](../formatscheme), [Legend](../legend), [AlphaCeiling](../alphaceiling), [Hyperlink](../hyperlink), [Cell](../cell), [Portion](../portion), [BiLevel](../bilevel), [MathElementBase](../mathelementbase), [MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager), [MathFraction](../mathfraction), [DataTable](../datatable), [HyperlinkManager](../hyperlinkmanager), [BaseHeaderFooterManager](../baseheaderfootermanager), [ChartSeriesCollection](../chartseriescollection), [ChartTextFormat](../charttextformat), [LayoutSlide](../layoutslide), [ShapeBevel](../shapebevel), [ShapeStyle](../shapestyle), [Camera](../camera), ThemeableTableFormat, [RowFormat](../rowformat), [ChartCategoryCollection](../chartcategorycollection), ChartSeriesGroupCollection, [LayoutSlideThemeManager](../layoutslidethememanager), [ControlCollection](../controlcollection), [InnerShadow](../innershadow), [PortionFormat](../portionformat), [AlphaReplace](../alphareplace), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [MathPortion](../mathportion), [Duotone](../duotone), [Backdrop3DScene](../backdrop3dscene), MasterHandoutSlideManager, [Video](../video), [AlphaModulate](../alphamodulate), [Behavior](../behavior), [ImageCollection](../imagecollection), BaseStyles, [ChartDataPointLevelsManager](../chartdatapointlevelsmanager), [PVIObject](../pviobject), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [Comment](../comment), [PatternFormat](../patternformat), [ChartCategory](../chartcategory), [PortionCollection](../portioncollection), [ErrorBarsFormat](../errorbarsformat), [ColorReplace](../colorreplace), ThemeableCellFormat, [GroupShape](../groupshape), [PresentationHeaderFooterManager](../presentationheaderfootermanager), MathRunElement, [MasterSlideCollection](../masterslidecollection), [TextFrameFormat](../textframeformat), [SectionZoomFrame](../sectionzoomframe), [DomObject](../domobject), [AlphaFloor](../alphafloor), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [AudioFrame](../audioframe), [EffectFormat](../effectformat), [ShapeCollection](../shapecollection), [VideoFrame](../videoframe), [Theme](../theme), [ChartDataPoint](../chartdatapoint), [AxesManager](../axesmanager), [MathRadical](../mathradical), [FillOverlay](../filloverlay), [FilterEffect](../filtereffect), [TextFrame](../textframe), [Marker](../marker), [ParagraphCollection](../paragraphcollection), [Presentation](../presentation), [MathArray](../matharray), [ZoomObject](../zoomobject), [LineFormatCollection](../lineformatcollection), [MathDelimiter](../mathdelimiter), TableCellTextStyle, [OuterShadow](../outershadow), [ExtraColorSchemeCollection](../extracolorschemecollection), [MathBorderBox](../mathborderbox), [Glow](../glow), [BaseChartValue](../basechartvalue), [SummaryZoomFrame](../summaryzoomframe), [LegendEntryProperties](../legendentryproperties), TableStyleCollection, TablePartStyle, [AlphaModulateFixed](../alphamodulatefixed), ThemeableEffectFormat, [MasterSlideHeaderFooterManager](../masterslideheaderfootermanager), [ChartLinesFormat](../chartlinesformat)
+| getParent_Immediate() |  |
 
 
 ---
@@ -106,7 +103,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getPoints () | Specifies the points of the animation. Read/write IPointCollection. |
+| getPoints() | Specifies the points of the animation. Read/write IPointCollection. |
 
  **Result:**
 [PointCollection](../pointcollection)
@@ -119,7 +116,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getProperties () | Represents properties of behavior. Read-only IBehaviorPropertyCollection. |
+| getProperties() | Represents properties of behavior. Read-only IBehaviorPropertyCollection. |
 
  **Result:**
 [BehaviorPropertyCollection](../behaviorpropertycollection)
@@ -132,7 +129,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getTiming () | Represents timing properties for the effect behavior. Read/write ITiming. |
+| getTiming() | Represents timing properties for the effect behavior. Read/write ITiming. |
 
  **Result:**
 [Timing](../timing)
@@ -145,7 +142,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getTo () | Specifies the ending value for the animation. Read/write String. |
+| getTo() | Specifies the ending value for the animation. Read/write String. |
 
  **Result:**
 String
@@ -158,7 +155,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getValueType () | Specifies the type of a property value. Read/write PropertyValueType. |
+| getValueType() | Specifies the type of a property value. Read/write PropertyValueType. |
 
  **Result:**
 int
@@ -171,7 +168,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setAccumulate (byte) | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
+| setAccumulate(byte) | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
 
 
 ---
@@ -181,7 +178,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setAdditive (int) | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
+| setAdditive(int) | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
 
 
 ---
@@ -191,7 +188,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setBy (String) | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+| setBy(String) | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 
 
 ---
@@ -201,7 +198,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setCalcMode (int) | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
+| setCalcMode(int) | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 
 
 ---
@@ -211,7 +208,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setFrom (String) | Specifies the starting value of the animation. Read/write String. |
+| setFrom(String) | Specifies the starting value of the animation. Read/write String. |
 
 
 ---
@@ -221,7 +218,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setPoints ([PointCollection](../pointcollection)) | Specifies the points of the animation. Read/write IPointCollection. |
+| setPoints([PointCollection](../pointcollection)) | Specifies the points of the animation. Read/write IPointCollection. |
 
 
 ---
@@ -231,7 +228,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setTiming ([Timing](../timing)) | Represents timing properties for the effect behavior. Read/write ITiming. |
+| setTiming([Timing](../timing)) | Represents timing properties for the effect behavior. Read/write ITiming. |
 
 
 ---
@@ -241,7 +238,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setTo (String) | Specifies the ending value for the animation. Read/write String. |
+| setTo(String) | Specifies the ending value for the animation. Read/write String. |
 
 
 ---
@@ -251,7 +248,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setValueType (int) | Specifies the type of a property value. Read/write PropertyValueType. |
+| setValueType(int) | Specifies the type of a property value. Read/write PropertyValueType. |
 
 
 ---

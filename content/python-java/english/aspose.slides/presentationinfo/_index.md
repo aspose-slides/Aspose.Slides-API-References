@@ -15,7 +15,7 @@ url: /aspose.slides/presentationinfo/
 
 | Name | Description |
 | --- | --- |
-| checkPassword (String) | Checks whether a password is correct for a presentation protected with open password. |
+| checkPassword(String) | Checks whether a password is correct for a presentation protected with open password. |
 
  **Parameters:**
 
@@ -40,7 +40,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| checkWriteProtection (String) | Checks whether a password to modify is correct for a write protected presentation. |
+| checkWriteProtection(String) | Checks whether a password to modify is correct for a write protected presentation. |
 
  **Parameters:**
 
@@ -65,7 +65,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getLoadFormat () | Gets format of the binded presentation. Read-only LoadFormat. |
+| getLoadFormat() | Gets format of the binded presentation. Read-only LoadFormat. |
 
  **Result:**
 int
@@ -78,7 +78,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| isEncrypted () | Gets True if binded presentation is encrypted, otherwise False. Read-only boolean. |
+| isEncrypted() | Gets True if binded presentation is encrypted, otherwise False. Read-only boolean. |
 
  **Result:**
 boolean
@@ -91,7 +91,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isPasswordProtected () | Gets a value that indicates whether a binded presentation is protected by a password to open. |
+| isPasswordProtected() | Gets a value that indicates whether a binded presentation is protected by a password to open. |
 
  **Result:**
 boolean
@@ -104,7 +104,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isWriteProtected () | Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
+| isWriteProtected() | Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
 
  **Result:**
 byte
@@ -117,7 +117,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| readDocumentProperties () | Gets document properties of binded presentation. |
+| readDocumentProperties() | Gets document properties of binded presentation. |
 
  **Result:**
 [DocumentProperties](../documentproperties)
@@ -130,7 +130,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| updateDocumentProperties ([DocumentProperties](../documentproperties)) | Updates properties of binded presentation. |
+| updateDocumentProperties([DocumentProperties](../documentproperties)) | Updates properties of binded presentation. |
 
 
 ---
@@ -140,7 +140,10 @@ byte
 
 | Name | Description |
 | --- | --- |
-| writeBindedPresentationToBytes  () | Writes binded presentation to stream. |
+| writeBindedPresentationToBytes () | Writes binded presentation to stream. |
+
+ **Result:**
+Bytes[]
 
 
 ---
@@ -150,7 +153,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| writeBindedPresentation (String) | Writes binded presentation to file. |
+| writeBindedPresentation(String) | Writes binded presentation to file. |
 
  **Parameters:**
 

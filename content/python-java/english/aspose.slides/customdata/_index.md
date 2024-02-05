@@ -15,7 +15,7 @@ url: /aspose.slides/customdata/
 
 | Name | Description |
 | --- | --- |
-| getCustomXmlParts () | Returns the custom xml parts collection. Read-only ICustomXmlPartCollection. |
+| getCustomXmlParts() | Returns the custom xml parts collection. Read-only ICustomXmlPartCollection. |
 
  **Result:**
 [CustomXmlPartCollection](../customxmlpartcollection)
@@ -28,7 +28,7 @@ url: /aspose.slides/customdata/
 
 | Name | Description |
 | --- | --- |
-| getTags () | Returns the Customer Data Tags collection. Read-only ITagCollection. |
+| getTags() | Returns the Customer Data Tags collection. Read-only ITagCollection. |
 
  **Result:**
 [TagCollection](../tagcollection)

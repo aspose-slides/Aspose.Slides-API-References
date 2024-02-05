@@ -15,7 +15,7 @@ url: /aspose.slides/hyperlinkqueries/
 
 | Name | Description |
 | --- | --- |
-| getAnyHyperlinks () | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
+| getAnyHyperlinks() | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 
  **Result:**
 [BehaviorPropertyCollection](../behaviorpropertycollection), List, ReadOnlyCollection, Collection, KeyedCollection
@@ -28,7 +28,7 @@ url: /aspose.slides/hyperlinkqueries/
 
 | Name | Description |
 | --- | --- |
-| getHyperlinkClicks () | Get all IHyperlinkContainer subobjects that contain not null HyperlinkClick. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
+| getHyperlinkClicks() | Get all IHyperlinkContainer subobjects that contain not null HyperlinkClick. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 
  **Result:**
 [BehaviorPropertyCollection](../behaviorpropertycollection), List, ReadOnlyCollection, Collection, KeyedCollection
@@ -41,7 +41,7 @@ url: /aspose.slides/hyperlinkqueries/
 
 | Name | Description |
 | --- | --- |
-| getHyperlinkMouseOvers () | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
+| getHyperlinkMouseOvers() | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 
  **Result:**
 [BehaviorPropertyCollection](../behaviorpropertycollection), List, ReadOnlyCollection, Collection, KeyedCollection
@@ -54,7 +54,7 @@ url: /aspose.slides/hyperlinkqueries/
 
 | Name | Description |
 | --- | --- |
-| removeAllHyperlinks () | Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects). |
+| removeAllHyperlinks() | Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects). |
 
 
 ---

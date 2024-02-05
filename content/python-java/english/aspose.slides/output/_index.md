@@ -15,7 +15,7 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, String, TContextObject) | Adds an output element for the context object. |
+| add(String, String, TContextObject) | Adds an output element for the context object. |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, [PPImage](../ppimage)) | Adds an output element for the image. |
+| add(String, [PPImage](../ppimage)) | Adds an output element for the image. |
 
  **Parameters:**
 
@@ -56,7 +56,7 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, BufferedImage) | Adds an output element for the image. |
+| add(String, BufferedImage) | Adds an output element for the image. |
 
  **Parameters:**
 
@@ -76,7 +76,7 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, [Video](../video)) | Adds an output element for the video. |
+| add(String, [Video](../video)) | Adds an output element for the video. |
 
  **Parameters:**
 
@@ -96,7 +96,7 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, [FontData](../fontdata), int) | Adds an output element for the font. |
+| add(String, [FontData](../fontdata), int) | Adds an output element for the font. |
 
  **Parameters:**
 
@@ -117,7 +117,7 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, String) | Adds an output element for the text content. |
+| add(String, String) | Adds an output element for the text content. |
 
  **Parameters:**
 
@@ -137,7 +137,7 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| getResourcePath (Object) | Returns the path for a given resource. |
+| getResourcePath(Object) | Returns the path for a given resource. |
 
  **Parameters:**
 

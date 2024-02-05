@@ -15,7 +15,7 @@ url: /aspose.slides/connector/
 
 | Name | Description |
 | --- | --- |
-| addPlaceholder ([Placeholder](../placeholder)) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
+| addPlaceholder([Placeholder](../placeholder)) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 
  **Parameters:**
 
@@ -34,7 +34,7 @@ url: /aspose.slides/connector/
 
 | Name | Description |
 | --- | --- |
-| createShapeElements () | Creates and returns array of shape's elements. |
+| createShapeElements() | Creates and returns array of shape's elements. |
 
  **Result:**
 [ShapeElement](../shapeelement)
@@ -47,7 +47,7 @@ url: /aspose.slides/connector/
 
 | Name | Description |
 | --- | --- |
-| getAdjustments () | Returns a collection of shape's adjustment values. Read-only IAdjustValueCollection. |
+| getAdjustments() | Returns a collection of shape's adjustment values. Read-only IAdjustValueCollection. |
 
  **Result:**
 [AdjustValueCollection](../adjustvaluecollection)
@@ -60,7 +60,7 @@ url: /aspose.slides/connector/
 
 | Name | Description |
 | --- | --- |
-| getAlternativeText () | Returns or sets the alternative text associated with a shape. Read/write String. |
+| getAlternativeText() | Returns or sets the alternative text associated with a shape. Read/write String. |
 
  **Result:**
 String
@@ -73,7 +73,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getAlternativeTextTitle () | Returns or sets the title of alternative text associated with a shape. Read/write String. |
+| getAlternativeTextTitle() | Returns or sets the title of alternative text associated with a shape. Read/write String. |
 
  **Result:**
 String
@@ -86,7 +86,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getBasePlaceholder () | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
+| getBasePlaceholder() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 
  **Result:**
 [SummaryZoomSection](../summaryzoomsection), [AutoShape](../autoshape), [AudioFrame](../audioframe), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [GeometryShape](../geometryshape), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Ink](../ink), [Chart](../chart), [GroupShape](../groupshape), [Table](../table), [SectionZoomFrame](../sectionzoomframe), [Shape](../shape), [LegacyDiagram](../legacydiagram), [Connector](../connector)
@@ -99,7 +99,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getBlackWhiteMode () | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
+| getBlackWhiteMode() | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
 
  **Result:**
 byte
@@ -112,7 +112,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getConnectionSiteCount () | Returns the number of connection sites on the shape. Read-only int. |
+| getConnectionSiteCount() | Returns the number of connection sites on the shape. Read-only int. |
 
  **Result:**
 int
@@ -125,7 +125,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getConnectorLock () | Returns connector's locks. Read-only IConnectorLock. |
+| getConnectorLock() | Returns connector's locks. Read-only IConnectorLock. |
 
  **Result:**
 [ConnectorLock](../connectorlock)
@@ -138,7 +138,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCustomData () | Returns the shape's custom data. Read-only ICustomData. |
+| getCustomData() | Returns the shape's custom data. Read-only ICustomData. |
 
  **Result:**
 [CustomData](../customdata)
@@ -151,7 +151,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectFormat () | Returns the EffectFormat object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. Read-only IEffectFormat. |
+| getEffectFormat() | Returns the EffectFormat object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. Read-only IEffectFormat. |
 
  **Result:**
 [EffectFormat](../effectformat)
@@ -164,7 +164,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEndShapeConnectedTo () | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| getEndShapeConnectedTo() | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Result:**
 [SummaryZoomSection](../summaryzoomsection), [AutoShape](../autoshape), [AudioFrame](../audioframe), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [GeometryShape](../geometryshape), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Ink](../ink), [Chart](../chart), [GroupShape](../groupshape), [Table](../table), [SectionZoomFrame](../sectionzoomframe), [Shape](../shape), [LegacyDiagram](../legacydiagram), [Connector](../connector)
@@ -183,7 +183,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEndShapeConnectionSiteIndex () | Returns or sets the index of connection site for end shape. Read/write long. |
+| getEndShapeConnectionSiteIndex() | Returns or sets the index of connection site for end shape. Read/write long. |
 
  **Result:**
 long
@@ -202,7 +202,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getFillFormat () | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only IFillFormat. |
+| getFillFormat() | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only IFillFormat. |
 
  **Result:**
 [FillFormat](../fillformat)
@@ -215,7 +215,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getFrame () | Returns or sets the shape frame's properties. Read/write IShapeFrame. Value of each property of the returned IShapeFrame instance is not undefined (is not NaN or NotDefined). Value of each property of the assigned IShapeFrame instance must be not undefined (must be not NaN or NotDefined). You can set undefined values for RawFrame instance properties. |
+| getFrame() | Returns or sets the shape frame's properties. Read/write IShapeFrame. Value of each property of the returned IShapeFrame instance is not undefined (is not NaN or NotDefined). Value of each property of the assigned IShapeFrame instance must be not undefined (must be not NaN or NotDefined). You can set undefined values for RawFrame instance properties. |
 
  **Result:**
 [ShapeFrame](../shapeframe)
@@ -228,7 +228,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getGeometryPaths () | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
+| getGeometryPaths() | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
 
  **Result:**
 [GeometryPath](../geometrypath)
@@ -241,7 +241,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getHeight () | Returns or sets the height of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| getHeight() | Returns or sets the height of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
  **Result:**
 float
@@ -254,7 +254,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getHidden () | Determines whether the shape is hidden. Read/write boolean. |
+| getHidden() | Determines whether the shape is hidden. Read/write boolean. |
 
  **Result:**
 boolean
@@ -267,7 +267,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getHyperlinkClick () | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| getHyperlinkClick() | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
  **Result:**
 [Hyperlink](../hyperlink)
@@ -280,7 +280,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getHyperlinkManager () | Returns the hyperlink manager. Read-only IHyperlinkManager. |
+| getHyperlinkManager() | Returns the hyperlink manager. Read-only IHyperlinkManager. |
 
  **Result:**
 [HyperlinkManager](../hyperlinkmanager)
@@ -293,7 +293,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getHyperlinkMouseOver () | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| getHyperlinkMouseOver() | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
  **Result:**
 [Hyperlink](../hyperlink)
@@ -306,7 +306,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getLineFormat () | Returns the LineFormat object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. Read-only ILineFormat. |
+| getLineFormat() | Returns the LineFormat object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. Read-only ILineFormat. |
 
  **Result:**
 [LineFormat](../lineformat)
@@ -319,7 +319,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getName () | Returns or sets the name of a shape. Must be not null. Use empty string value if needed. Read/write String. |
+| getName() | Returns or sets the name of a shape. Must be not null. Use empty string value if needed. Read/write String. |
 
  **Result:**
 String
@@ -332,7 +332,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getOfficeInteropShapeId () | Gets unique shape identifier in slide scope. Read-only long. See also ( #getUniqueId) for getting unique shape identifier in presentation scope. |
+| getOfficeInteropShapeId() | Gets unique shape identifier in slide scope. Read-only long. See also ( #getUniqueId) for getting unique shape identifier in presentation scope. |
 
  **Result:**
 long
@@ -345,7 +345,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getParentGroup () | Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only IGroupShape. Property ( #isGrouped) determines whether the shape is grouped. |
+| getParentGroup() | Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only IGroupShape. Property ( #isGrouped) determines whether the shape is grouped. |
 
  **Result:**
 [GroupShape](../groupshape)
@@ -358,10 +358,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getParent_Immediate () |  |
-
- **Result:**
-DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](../rotationeffect), [ChartTitle](../charttitle), [MathBar](../mathbar), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartDataWorksheet](../chartdataworksheet), [SoftEdge](../softedge), [Audio](../audio), [ChartWall](../chartwall), [BaseOverrideThemeManager](../baseoverridethememanager), [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager), ThemeableLineFormat, [UpDownBarsManager](../updownbarsmanager), [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [Format](../format), [GradientFormat](../gradientformat), [ThreeDFormat](../threedformat), [Slide](../slide), [TabCollection](../tabcollection), [ColorScheme](../colorscheme), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [SlideHeaderFooterManager](../slideheaderfootermanager), [CommentAuthor](../commentauthor), [CellFormat](../cellformat), [SlideShowTransition](../slideshowtransition), [CustomXmlPartCollection](../customxmlpartcollection), [SlideCollection](../slidecollection), [ViewProperties](../viewproperties), [Shape](../shape), [ExtraColorScheme](../extracolorscheme), [Luminance](../luminance), [MasterThemeManager](../masterthememanager), [DataLabel](../datalabel), [GradientStop](../gradientstop), [CellCollection](../cellcollection), [MathematicalText](../mathematicaltext), [Row](../row), MasterNotesSlideManager, [MathNaryOperator](../mathnaryoperator), [BaseThemeManager](../basethememanager), ThemeableFillFormat, [RowCollection](../rowcollection), [GeometryShape](../geometryshape), TableStyle, [LightRig](../lightrig), [ChartPlotArea](../chartplotarea), [BulletFormat](../bulletformat), [MathSuperscriptElement](../mathsuperscriptelement), [VideoCollection](../videocollection), [Table](../table), [ChartDataPointLevel](../chartdatapointlevel), PresetTextShape, [MasterTheme](../mastertheme), [SectionSlideCollection](../sectionslidecollection), [OleObjectFrame](../oleobjectframe), [ChartData](../chartdata), [ChartDataPointCollection](../chartdatapointcollection), [ChartDataWorkbook](../chartdataworkbook), [NotesSlideHeaderFooterManager](../notesslideheaderfootermanager), [PresetShadow](../presetshadow), AggregatedDataPoint, [SketchFormat](../sketchformat), [MathParagraph](../mathparagraph), [SmartArt](../smartart), [AudioCollection](../audiocollection), [AxisFormat](../axisformat), [CommentCollection](../commentcollection), [ParagraphFormat](../paragraphformat), [ChartDataWorksheetCollection](../chartdataworksheetcollection), FormatOverrides, [TextStyle](../textstyle), [FillFormatCollection](../fillformatcollection), [NotesSlideManager](../notesslidemanager), [ColumnFormat](../columnformat), [Section](../section), [MathBlock](../mathblock), [TableFormat](../tableformat), [StringChartValue](../stringchartvalue), [Reflection](../reflection), [Ink](../ink), [Trendline](../trendline), [LayoutSlideCollection](../layoutslidecollection), [LineFormat](../lineformat), [BasePortionFormat](../baseportionformat), [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager), [MasterHandoutSlide](../masterhandoutslide), [DataLabelFormat](../datalabelformat), [Timing](../timing), [MathAccent](../mathaccent), [LegacyDiagram](../legacydiagram), FormatOverride, [ChartSeriesGroup](../chartseriesgroup), [Blur](../blur), [MathSubscriptElement](../mathsubscriptelement), [NotesSlideThemeManager](../notesslidethememanager), [Axis](../axis), [AlphaBiLevel](../alphabilevel), [Paragraph](../paragraph), [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), TableBackgroundStyle, [SetEffect](../seteffect), [StringOrDoubleChartValue](../stringordoublechartvalue), [Chart](../chart), [PictureFillFormat](../picturefillformat), [HyperlinkQueries](../hyperlinkqueries), [ZoomFrame](../zoomframe), [BaseScript](../basescript), [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager), [Rotation3D](../rotation3d), [FontScheme](../fontscheme), [PictureFrame](../pictureframe), [Effect](../effect), [OverrideTheme](../overridetheme), [ColorChange](../colorchange), [ColumnCollection](../columncollection), [TrendlineCollection](../trendlinecollection), [EffectStyleCollection](../effectstylecollection), [AlphaInverse](../alphainverse), [ErrorBarsCustomValues](../errorbarscustomvalues), PlaceholderCollection, [FillFormat](../fillformat), [ModernComment](../moderncomment), [ColorFormat](../colorformat), [AdjustValueCollection](../adjustvaluecollection), [MasterNotesSlide](../masternotesslide), [CommentAuthorCollection](../commentauthorcollection), [ImageTransformOperation](../imagetransformoperation), AggregatedDataPointCollection, [LayoutSlideHeaderFooterManager](../layoutslideheaderfootermanager), [Background](../background), [Control](../control), [GrayScale](../grayscale), [LineFillFormat](../linefillformat), [AnimationTimeLine](../animationtimeline), [SmartArtShape](../smartartshape), [Tab](../tab), [MotionEffect](../motioneffect), [GradientStopCollection](../gradientstopcollection), [ChartCellCollection](../chartcellcollection), [ColorEffect](../coloreffect), [ChartPortionFormat](../chartportionformat), [MathBox](../mathbox), [DigitalSignatureCollection](../digitalsignaturecollection), [AutoShape](../autoshape), [NotesSlide](../notesslide), [SectionCollection](../sectioncollection), [ScaleEffect](../scaleeffect), [MathFunction](../mathfunction), [ChartSeries](../chartseries), [Connector](../connector), [Picture](../picture), [CommandEffect](../commandeffect), [SlideThemeManager](../slidethememanager), [DoubleChartValue](../doublechartvalue), [Column](../column), [EffectStyle](../effectstyle), [SlideSize](../slidesize), [CustomData](../customdata), [SummaryZoomSection](../summaryzoomsection), [HSL](../hsl), [Tint](../tint), [DataLabelCollection](../datalabelcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), LayoutTree, [GraphicalObject](../graphicalobject), [Field](../field), [FormatScheme](../formatscheme), [Legend](../legend), [AlphaCeiling](../alphaceiling), [Hyperlink](../hyperlink), [Cell](../cell), [Portion](../portion), [BiLevel](../bilevel), [MathElementBase](../mathelementbase), [MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager), [MathFraction](../mathfraction), [DataTable](../datatable), [HyperlinkManager](../hyperlinkmanager), [BaseHeaderFooterManager](../baseheaderfootermanager), [ChartSeriesCollection](../chartseriescollection), [ChartTextFormat](../charttextformat), [LayoutSlide](../layoutslide), [ShapeBevel](../shapebevel), [ShapeStyle](../shapestyle), [Camera](../camera), ThemeableTableFormat, [RowFormat](../rowformat), [ChartCategoryCollection](../chartcategorycollection), ChartSeriesGroupCollection, [LayoutSlideThemeManager](../layoutslidethememanager), [ControlCollection](../controlcollection), [InnerShadow](../innershadow), [PortionFormat](../portionformat), [AlphaReplace](../alphareplace), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [MathPortion](../mathportion), [Duotone](../duotone), [Backdrop3DScene](../backdrop3dscene), MasterHandoutSlideManager, [Video](../video), [AlphaModulate](../alphamodulate), [Behavior](../behavior), [ImageCollection](../imagecollection), BaseStyles, [ChartDataPointLevelsManager](../chartdatapointlevelsmanager), [PVIObject](../pviobject), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [Comment](../comment), [PatternFormat](../patternformat), [ChartCategory](../chartcategory), [PortionCollection](../portioncollection), [ErrorBarsFormat](../errorbarsformat), [ColorReplace](../colorreplace), ThemeableCellFormat, [GroupShape](../groupshape), [PresentationHeaderFooterManager](../presentationheaderfootermanager), MathRunElement, [MasterSlideCollection](../masterslidecollection), [TextFrameFormat](../textframeformat), [SectionZoomFrame](../sectionzoomframe), [DomObject](../domobject), [AlphaFloor](../alphafloor), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [AudioFrame](../audioframe), [EffectFormat](../effectformat), [ShapeCollection](../shapecollection), [VideoFrame](../videoframe), [Theme](../theme), [ChartDataPoint](../chartdatapoint), [AxesManager](../axesmanager), [MathRadical](../mathradical), [FillOverlay](../filloverlay), [FilterEffect](../filtereffect), [TextFrame](../textframe), [Marker](../marker), [ParagraphCollection](../paragraphcollection), [Presentation](../presentation), [MathArray](../matharray), [ZoomObject](../zoomobject), [LineFormatCollection](../lineformatcollection), [MathDelimiter](../mathdelimiter), TableCellTextStyle, [OuterShadow](../outershadow), [ExtraColorSchemeCollection](../extracolorschemecollection), [MathBorderBox](../mathborderbox), [Glow](../glow), [BaseChartValue](../basechartvalue), [SummaryZoomFrame](../summaryzoomframe), [LegendEntryProperties](../legendentryproperties), TableStyleCollection, TablePartStyle, [AlphaModulateFixed](../alphamodulatefixed), ThemeableEffectFormat, [MasterSlideHeaderFooterManager](../masterslideheaderfootermanager), [ChartLinesFormat](../chartlinesformat)
+| getParent_Immediate() |  |
 
 
 ---
@@ -371,7 +368,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getPlaceholder () | Returns the placeholder for a shape. Returns null if the shape has no placeholder. Read-only IPlaceholder. |
+| getPlaceholder() | Returns the placeholder for a shape. Returns null if the shape has no placeholder. Read-only IPlaceholder. |
 
  **Result:**
 [Placeholder](../placeholder)
@@ -384,7 +381,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getPresentation () | Returns the parent presentation of a slide. Read-only IPresentation. |
+| getPresentation() | Returns the parent presentation of a slide. Read-only IPresentation. |
 
  **Result:**
 [Presentation](../presentation)
@@ -397,7 +394,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getRawFrame () | Returns or sets the raw shape frame's properties. Read/write IShapeFrame. |
+| getRawFrame() | Returns or sets the raw shape frame's properties. Read/write IShapeFrame. |
 
  **Result:**
 [ShapeFrame](../shapeframe)
@@ -410,7 +407,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getRotation () | Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| getRotation() | Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
  **Result:**
 float
@@ -423,7 +420,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getShapeLock () | Returns shape's locks. Read-only IConnectorLock. |
+| getShapeLock() | Returns shape's locks. Read-only IConnectorLock. |
 
  **Result:**
 [ConnectorLock](../connectorlock)
@@ -436,7 +433,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getShapeLock () | Returns shape's locks. Read-only IBaseShapeLock. |
+| getShapeLock() | Returns shape's locks. Read-only IBaseShapeLock. |
 
  **Result:**
 [BaseShapeLock](../baseshapelock), [PictureFrameLock](../pictureframelock), [AutoShapeLock](../autoshapelock), [GraphicalObjectLock](../graphicalobjectlock), [GroupShapeLock](../groupshapelock), [ConnectorLock](../connectorlock)
@@ -449,7 +446,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getShapeStyle () | Returns shape's style object. Read-only IShapeStyle. |
+| getShapeStyle() | Returns shape's style object. Read-only IShapeStyle. |
 
  **Result:**
 [ShapeStyle](../shapestyle)
@@ -462,7 +459,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getShapeType () | Returns or sets the AutoShape type. Read/write ShapeType. |
+| getShapeType() | Returns or sets the AutoShape type. Read/write ShapeType. |
 
  **Result:**
 int
@@ -475,7 +472,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getShapeType () | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
+| getShapeType() | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
 
  **Result:**
 int
@@ -488,7 +485,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getSlide () | Returns the parent slide of a shape. Read-only IBaseSlide. |
+| getSlide() | Returns the parent slide of a shape. Read-only IBaseSlide. |
 
  **Result:**
 [Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)
@@ -501,7 +498,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getStartShapeConnectedTo () | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| getStartShapeConnectedTo() | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Result:**
 [SummaryZoomSection](../summaryzoomsection), [AutoShape](../autoshape), [AudioFrame](../audioframe), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [GeometryShape](../geometryshape), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Ink](../ink), [Chart](../chart), [GroupShape](../groupshape), [Table](../table), [SectionZoomFrame](../sectionzoomframe), [Shape](../shape), [LegacyDiagram](../legacydiagram), [Connector](../connector)
@@ -520,7 +517,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getStartShapeConnectionSiteIndex () | Returns or sets the index of connection site for start shape. Read/write long. |
+| getStartShapeConnectionSiteIndex() | Returns or sets the index of connection site for start shape. Read/write long. |
 
  **Result:**
 long
@@ -539,7 +536,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getThreeDFormat () | Returns the ThreeDFormat object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only IThreeDFormat. |
+| getThreeDFormat() | Returns the ThreeDFormat object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only IThreeDFormat. |
 
  **Result:**
 [ThreeDFormat](../threedformat)
@@ -552,7 +549,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getThumbnail () | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| getThumbnail() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 
  **Result:**
 BufferedImage
@@ -565,7 +562,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail (int, float, float) | Returns shape thumbnail. |
+| getThumbnail(int, float, float) | Returns shape thumbnail. |
 
  **Parameters:**
 
@@ -586,7 +583,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getUniqueId () | Gets unique shape identifier in presentation scope. Read-only long. See also ( #getOfficeInteropShapeId) for getting unique shape identifier in slide scope. |
+| getUniqueId() | Gets unique shape identifier in presentation scope. Read-only long. See also ( #getOfficeInteropShapeId) for getting unique shape identifier in slide scope. |
 
  **Result:**
 long
@@ -599,7 +596,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getWidth () | Returns or sets the width of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| getWidth() | Returns or sets the width of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
  **Result:**
 float
@@ -612,7 +609,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getX () | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| getX() | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
  **Result:**
 float
@@ -625,7 +622,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getY () | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| getY() | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
  **Result:**
 float
@@ -638,7 +635,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getZOrderPosition () | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only int. |
+| getZOrderPosition() | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only int. |
 
  **Result:**
 int
@@ -651,7 +648,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| isGrouped () | Determines whether the shape is grouped. Read-only boolean. Property ( #getParentGroup) returns parent GroupShape object if shape is grouped. |
+| isGrouped() | Determines whether the shape is grouped. Read-only boolean. Property ( #getParentGroup) returns parent GroupShape object if shape is grouped. |
 
  **Result:**
 boolean
@@ -664,7 +661,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isTextHolder () | Determines whether the shape is TextHolder_PPT. Read-only boolean. |
+| isTextHolder() | Determines whether the shape is TextHolder_PPT. Read-only boolean. |
 
  **Result:**
 boolean
@@ -677,7 +674,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removePlaceholder () | Defines that this shape isn't a placeholder. |
+| removePlaceholder() | Defines that this shape isn't a placeholder. |
 
 
 ---
@@ -687,7 +684,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| reroute () | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
+| reroute() | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
 
 
 ---
@@ -697,7 +694,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAlternativeText (String) | Returns or sets the alternative text associated with a shape. Read/write String. |
+| setAlternativeText(String) | Returns or sets the alternative text associated with a shape. Read/write String. |
 
 
 ---
@@ -707,7 +704,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAlternativeTextTitle (String) | Returns or sets the title of alternative text associated with a shape. Read/write String. |
+| setAlternativeTextTitle(String) | Returns or sets the title of alternative text associated with a shape. Read/write String. |
 
 
 ---
@@ -717,7 +714,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setBlackWhiteMode (byte) | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
+| setBlackWhiteMode(byte) | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
 
 
 ---
@@ -727,7 +724,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -743,7 +740,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([AutoShape](../autoshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([AutoShape](../autoshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -759,7 +756,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([AudioFrame](../audioframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -775,7 +772,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([OleObjectFrame](../oleobjectframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([OleObjectFrame](../oleobjectframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -791,7 +788,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -807,7 +804,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -823,7 +820,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -839,7 +836,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -855,7 +852,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([ZoomObject](../zoomobject)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([ZoomObject](../zoomobject)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -871,7 +868,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([VideoFrame](../videoframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([VideoFrame](../videoframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -887,7 +884,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -903,7 +900,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([SmartArt](../smartart)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([SmartArt](../smartart)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -919,7 +916,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([Ink](../ink)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([Ink](../ink)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -935,7 +932,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([Chart](../chart)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([Chart](../chart)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -951,7 +948,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([GroupShape](../groupshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([GroupShape](../groupshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -967,7 +964,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([Table](../table)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([Table](../table)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -983,7 +980,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -999,7 +996,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([Shape](../shape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1015,7 +1012,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1031,7 +1028,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo([Connector](../connector)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1047,7 +1044,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectionSiteIndex (long) | Returns or sets the index of connection site for end shape. Read/write long. |
+| setEndShapeConnectionSiteIndex(long) | Returns or sets the index of connection site for end shape. Read/write long. |
 
  **Error**
 
@@ -1063,7 +1060,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setFrame ([ShapeFrame](../shapeframe)) | Returns or sets the shape frame's properties. Read/write IShapeFrame. Value of each property of the returned IShapeFrame instance is not undefined (is not NaN or NotDefined). Value of each property of the assigned IShapeFrame instance must be not undefined (must be not NaN or NotDefined). You can set undefined values for RawFrame instance properties. |
+| setFrame([ShapeFrame](../shapeframe)) | Returns or sets the shape frame's properties. Read/write IShapeFrame. Value of each property of the returned IShapeFrame instance is not undefined (is not NaN or NotDefined). Value of each property of the assigned IShapeFrame instance must be not undefined (must be not NaN or NotDefined). You can set undefined values for RawFrame instance properties. |
 
 
 ---
@@ -1073,7 +1070,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setGeometryPath ([GeometryPath](../geometrypath)) | Updates shape geometry from IGeometryPath object. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape (ShapeType( #getShapeType/ #setShapeType(int))) to ShapeType#Custom. |
+| setGeometryPath([GeometryPath](../geometrypath)) | Updates shape geometry from IGeometryPath object. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape (ShapeType( #getShapeType/ #setShapeType(int))) to ShapeType#Custom. |
 
  **Parameters:**
 
@@ -1095,7 +1092,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setGeometryPaths (com.aspose.slides.IGeometryPath[]) | Updates shape geometry from array of IGeometryPath. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape (ShapeType( #getShapeType/ #setShapeType(int))) to ShapeType#Custom. |
+| setGeometryPaths(com.aspose.slides.IGeometryPath[]) | Updates shape geometry from array of IGeometryPath. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape (ShapeType( #getShapeType/ #setShapeType(int))) to ShapeType#Custom. |
 
  **Parameters:**
 
@@ -1117,7 +1114,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setHeight (float) | Returns or sets the height of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| setHeight(float) | Returns or sets the height of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
 
 ---
@@ -1127,7 +1124,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setHidden (boolean) | Determines whether the shape is hidden. Read/write boolean. |
+| setHidden(boolean) | Determines whether the shape is hidden. Read/write boolean. |
 
 
 ---
@@ -1137,7 +1134,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setHyperlinkClick ([Hyperlink](../hyperlink)) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| setHyperlinkClick([Hyperlink](../hyperlink)) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
 
 ---
@@ -1147,7 +1144,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setHyperlinkMouseOver ([Hyperlink](../hyperlink)) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| setHyperlinkMouseOver([Hyperlink](../hyperlink)) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
 
 ---
@@ -1157,7 +1154,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setName (String) | Returns or sets the name of a shape. Must be not null. Use empty string value if needed. Read/write String. |
+| setName(String) | Returns or sets the name of a shape. Must be not null. Use empty string value if needed. Read/write String. |
 
 
 ---
@@ -1167,7 +1164,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setRawFrame ([ShapeFrame](../shapeframe)) | Returns or sets the raw shape frame's properties. Read/write IShapeFrame. |
+| setRawFrame([ShapeFrame](../shapeframe)) | Returns or sets the raw shape frame's properties. Read/write IShapeFrame. |
 
 
 ---
@@ -1177,7 +1174,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setRotation (float) | Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| setRotation(float) | Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
 
 ---
@@ -1187,7 +1184,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setShapeType (int) | Returns or sets the AutoShape type. Read/write ShapeType. |
+| setShapeType(int) | Returns or sets the AutoShape type. Read/write ShapeType. |
 
 
 ---
@@ -1197,7 +1194,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setShapeType (int) | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
+| setShapeType(int) | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
 
 
 ---
@@ -1207,7 +1204,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1223,7 +1220,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([AutoShape](../autoshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([AutoShape](../autoshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1239,7 +1236,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([AudioFrame](../audioframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1255,7 +1252,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([OleObjectFrame](../oleobjectframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([OleObjectFrame](../oleobjectframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1271,7 +1268,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1287,7 +1284,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1303,7 +1300,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1319,7 +1316,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1335,7 +1332,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([ZoomObject](../zoomobject)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([ZoomObject](../zoomobject)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1351,7 +1348,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([VideoFrame](../videoframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([VideoFrame](../videoframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1367,7 +1364,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1383,7 +1380,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([SmartArt](../smartart)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([SmartArt](../smartart)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1399,7 +1396,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([Ink](../ink)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([Ink](../ink)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1415,7 +1412,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([Chart](../chart)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([Chart](../chart)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1431,7 +1428,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([GroupShape](../groupshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([GroupShape](../groupshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1447,7 +1444,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([Table](../table)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([Table](../table)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1463,7 +1460,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1479,7 +1476,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([Shape](../shape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1495,7 +1492,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1511,7 +1508,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo([Connector](../connector)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -1527,7 +1524,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectionSiteIndex (long) | Returns or sets the index of connection site for start shape. Read/write long. |
+| setStartShapeConnectionSiteIndex(long) | Returns or sets the index of connection site for start shape. Read/write long. |
 
  **Error**
 
@@ -1543,7 +1540,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setWidth (float) | Returns or sets the width of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| setWidth(float) | Returns or sets the width of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
 
 ---
@@ -1553,7 +1550,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setX (float) | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| setX(float) | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
 
 ---
@@ -1563,7 +1560,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setY (float) | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| setY(float) | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
 
 ---
@@ -1573,7 +1570,10 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| writeAsSvgToBytes  () | Saves content of Shape as SVG file. |
+| writeAsSvgToBytes () | Saves content of Shape as SVG file. |
+
+ **Result:**
+Bytes[]
 
 
 ---
@@ -1583,13 +1583,16 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| writeAsSvgToBytes  ([SVGOptions](../svgoptions)) | Saves content of Shape as SVG file. |
+| writeAsSvgToBytes ([SVGOptions](../svgoptions)) | Saves content of Shape as SVG file. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | svgOptions | [SVGOptions](../svgoptions) | SVG generation options |
+
+ **Result:**
+Bytes[]
 
 
 ---

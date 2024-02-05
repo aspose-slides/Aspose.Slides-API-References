@@ -15,7 +15,7 @@ url: /aspose.slides/layoutslidecollection/
 
 | Name | Description |
 | --- | --- |
-| getByType (byte) | Returns the first layout slide of specified type. |
+| getByType(byte) | Returns the first layout slide of specified type. |
 
  **Parameters:**
 
@@ -34,7 +34,7 @@ url: /aspose.slides/layoutslidecollection/
 
 | Name | Description |
 | --- | --- |
-| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+| getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
  **Result:**
 Object
@@ -47,7 +47,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns the layout slide by index. Read-only LayoutSlide. |
+| get_Item(int) | Returns the layout slide by index. Read-only LayoutSlide. |
 
  **Result:**
 [LayoutSlide](../layoutslide)
@@ -60,7 +60,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
  **Result:**
 boolean
@@ -73,7 +73,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -86,7 +86,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -99,7 +99,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([LayoutSlide](../layoutslide)) | Removes a layout from the collection. |
+| remove([LayoutSlide](../layoutslide)) | Removes a layout from the collection. |
 
  **Parameters:**
 
@@ -121,7 +121,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeUnused () | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| removeUnused() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 
 
 ---
@@ -131,7 +131,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| size () | Returns the number of layout slides in a collection. Read-only int. |
+| size() | Returns the number of layout slides in a collection. Read-only int. |
 
  **Result:**
 int

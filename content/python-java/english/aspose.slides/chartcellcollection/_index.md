@@ -15,7 +15,7 @@ url: /aspose.slides/chartcellcollection/
 
 | Name | Description |
 | --- | --- |
-| add ([ChartDataCell](../chartdatacell)) | Add new cell to the collection. |
+| add([ChartDataCell](../chartdatacell)) | Add new cell to the collection. |
 
  **Parameters:**
 
@@ -31,7 +31,7 @@ url: /aspose.slides/chartcellcollection/
 
 | Name | Description |
 | --- | --- |
-| add (Object) | Creates ChartDataCell from specified value and adds it to the collection. |
+| add(Object) | Creates ChartDataCell from specified value and adds it to the collection. |
 
  **Parameters:**
 
@@ -53,7 +53,7 @@ url: /aspose.slides/chartcellcollection/
 
 | Name | Description |
 | --- | --- |
-| getCellsAddress () | Returns address of the set of cells in workbook. |
+| getCellsAddress() | Returns address of the set of cells in workbook. |
 
  **Result:**
 String
@@ -66,7 +66,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getConcatenatedValuesFromCells () | Concatenation string from all cells string values. |
+| getConcatenatedValuesFromCells() | Concatenation string from all cells string values. |
 
  **Result:**
 String
@@ -79,7 +79,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCount () | Gets the count of cells in collection. Read-only int. |
+| getCount() | Gets the count of cells in collection. Read-only int. |
 
  **Result:**
 int
@@ -92,7 +92,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns a cell (IChartDataCell) by index. |
+| get_Item(int) | Returns a cell (IChartDataCell) by index. |
 
  **Parameters:**
 
@@ -111,7 +111,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -124,7 +124,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -137,7 +137,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| removeAt (int) | Removes a cell from the collection by index. |
+| removeAt(int) | Removes a cell from the collection by index. |
 
  **Parameters:**
 

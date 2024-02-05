@@ -15,7 +15,7 @@ url: /aspose.slides/motioncmdpath/
 
 | Name | Description |
 | --- | --- |
-| getCommandType () | Specifies command type. Read/write MotionCommandPathType. |
+| getCommandType() | Specifies command type. Read/write MotionCommandPathType. |
 
  **Result:**
 int
@@ -28,7 +28,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getPoints () | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
+| getPoints() | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
 
  **Result:**
 Point2D.Float
@@ -41,7 +41,7 @@ Point2D.Float
 
 | Name | Description |
 | --- | --- |
-| getPointsType () | Specifies command points type Read/write MotionPathPointsType. |
+| getPointsType() | Specifies command points type Read/write MotionPathPointsType. |
 
  **Result:**
 int
@@ -54,7 +54,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| isRelative () | Determine command coordinates relative or not. Read/write boolean. |
+| isRelative() | Determine command coordinates relative or not. Read/write boolean. |
 
  **Result:**
 boolean
@@ -67,7 +67,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCommandType (int) | Specifies command type. Read/write MotionCommandPathType. |
+| setCommandType(int) | Specifies command type. Read/write MotionCommandPathType. |
 
 
 ---
@@ -77,7 +77,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setPoints (java.awt.geom.Point2D.Float[]) | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
+| setPoints(java.awt.geom.Point2D.Float[]) | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
 
 
 ---
@@ -87,7 +87,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setPointsType (int) | Specifies command points type Read/write MotionPathPointsType. |
+| setPointsType(int) | Specifies command points type Read/write MotionPathPointsType. |
 
 
 ---
@@ -97,7 +97,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setRelative (boolean) | Determine command coordinates relative or not. Read/write boolean. |
+| setRelative(boolean) | Determine command coordinates relative or not. Read/write boolean. |
 
 
 ---

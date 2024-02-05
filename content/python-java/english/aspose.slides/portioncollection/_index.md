@@ -15,23 +15,7 @@ url: /aspose.slides/portioncollection/
 
 | Name | Description |
 | --- | --- |
-| add ([Portion](../portion)) | Adds a Portion to the end of collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | [Portion](../portion) | The Portion to be added to the end of the collection. |
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([MathPortion](../mathportion)) | Adds a Portion to the end of collection. |
+| add([MathPortion](../mathportion)) | Adds a Portion to the end of collection. |
 
  **Parameters:**
 
@@ -43,30 +27,27 @@ url: /aspose.slides/portioncollection/
 ---
 
 
-### clear {#clear}
+### add {#add}
 
 | Name | Description |
 | --- | --- |
-| clear () | Removes all elements from the collection. |
-
-
----
-
-
-### contains {#contains}
-
-| Name | Description |
-| --- | --- |
-| contains ([Portion](../portion)) | Determines whether the IGenericCollection contains a specific value. |
+| add([Portion](../portion)) | Adds a Portion to the end of collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Portion](../portion) | The object to locate in the IGenericCollection. |
+| value | [Portion](../portion) | The Portion to be added to the end of the collection. |
 
- **Result:**
-boolean
+
+---
+
+
+### clear {#clear}
+
+| Name | Description |
+| --- | --- |
+| clear() | Removes all elements from the collection. |
 
 
 ---
@@ -76,7 +57,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| contains ([MathPortion](../mathportion)) | Determines whether the IGenericCollection contains a specific value. |
+| contains([MathPortion](../mathportion)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
@@ -91,11 +72,30 @@ boolean
 ---
 
 
+### contains {#contains}
+
+| Name | Description |
+| --- | --- |
+| contains([Portion](../portion)) | Determines whether the IGenericCollection contains a specific value. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [Portion](../portion) | The object to locate in the IGenericCollection. |
+
+ **Result:**
+boolean
+
+
+---
+
+
 ### copyTo {#copyTo}
 
 | Name | Description |
 | --- | --- |
-| copyTo (com.aspose.slides.IPortion[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+| copyTo(com.aspose.slides.IPortion[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
  **Parameters:**
 
@@ -118,7 +118,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getCount () | Gets the number of elements actually contained in the collection. Read-only int. |
+| getCount() | Gets the number of elements actually contained in the collection. Read-only int. |
 
  **Result:**
 int
@@ -131,10 +131,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getParent_Immediate () |  |
-
- **Result:**
-DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](../rotationeffect), [ChartTitle](../charttitle), [MathBar](../mathbar), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartDataWorksheet](../chartdataworksheet), [SoftEdge](../softedge), [Audio](../audio), [ChartWall](../chartwall), [BaseOverrideThemeManager](../baseoverridethememanager), [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager), ThemeableLineFormat, [UpDownBarsManager](../updownbarsmanager), [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [Format](../format), [GradientFormat](../gradientformat), [ThreeDFormat](../threedformat), [Slide](../slide), [TabCollection](../tabcollection), [ColorScheme](../colorscheme), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [SlideHeaderFooterManager](../slideheaderfootermanager), [CommentAuthor](../commentauthor), [CellFormat](../cellformat), [SlideShowTransition](../slideshowtransition), [CustomXmlPartCollection](../customxmlpartcollection), [SlideCollection](../slidecollection), [ViewProperties](../viewproperties), [Shape](../shape), [ExtraColorScheme](../extracolorscheme), [Luminance](../luminance), [MasterThemeManager](../masterthememanager), [DataLabel](../datalabel), [GradientStop](../gradientstop), [CellCollection](../cellcollection), [MathematicalText](../mathematicaltext), [Row](../row), MasterNotesSlideManager, [MathNaryOperator](../mathnaryoperator), [BaseThemeManager](../basethememanager), ThemeableFillFormat, [RowCollection](../rowcollection), [GeometryShape](../geometryshape), TableStyle, [LightRig](../lightrig), [ChartPlotArea](../chartplotarea), [BulletFormat](../bulletformat), [MathSuperscriptElement](../mathsuperscriptelement), [VideoCollection](../videocollection), [Table](../table), [ChartDataPointLevel](../chartdatapointlevel), PresetTextShape, [MasterTheme](../mastertheme), [SectionSlideCollection](../sectionslidecollection), [OleObjectFrame](../oleobjectframe), [ChartData](../chartdata), [ChartDataPointCollection](../chartdatapointcollection), [ChartDataWorkbook](../chartdataworkbook), [NotesSlideHeaderFooterManager](../notesslideheaderfootermanager), [PresetShadow](../presetshadow), AggregatedDataPoint, [SketchFormat](../sketchformat), [MathParagraph](../mathparagraph), [SmartArt](../smartart), [AudioCollection](../audiocollection), [AxisFormat](../axisformat), [CommentCollection](../commentcollection), [ParagraphFormat](../paragraphformat), [ChartDataWorksheetCollection](../chartdataworksheetcollection), FormatOverrides, [TextStyle](../textstyle), [FillFormatCollection](../fillformatcollection), [NotesSlideManager](../notesslidemanager), [ColumnFormat](../columnformat), [Section](../section), [MathBlock](../mathblock), [TableFormat](../tableformat), [StringChartValue](../stringchartvalue), [Reflection](../reflection), [Ink](../ink), [Trendline](../trendline), [LayoutSlideCollection](../layoutslidecollection), [LineFormat](../lineformat), [BasePortionFormat](../baseportionformat), [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager), [MasterHandoutSlide](../masterhandoutslide), [DataLabelFormat](../datalabelformat), [Timing](../timing), [MathAccent](../mathaccent), [LegacyDiagram](../legacydiagram), FormatOverride, [ChartSeriesGroup](../chartseriesgroup), [Blur](../blur), [MathSubscriptElement](../mathsubscriptelement), [NotesSlideThemeManager](../notesslidethememanager), [Axis](../axis), [AlphaBiLevel](../alphabilevel), [Paragraph](../paragraph), [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), TableBackgroundStyle, [SetEffect](../seteffect), [StringOrDoubleChartValue](../stringordoublechartvalue), [Chart](../chart), [PictureFillFormat](../picturefillformat), [HyperlinkQueries](../hyperlinkqueries), [ZoomFrame](../zoomframe), [BaseScript](../basescript), [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager), [Rotation3D](../rotation3d), [FontScheme](../fontscheme), [PictureFrame](../pictureframe), [Effect](../effect), [OverrideTheme](../overridetheme), [ColorChange](../colorchange), [ColumnCollection](../columncollection), [TrendlineCollection](../trendlinecollection), [EffectStyleCollection](../effectstylecollection), [AlphaInverse](../alphainverse), [ErrorBarsCustomValues](../errorbarscustomvalues), PlaceholderCollection, [FillFormat](../fillformat), [ModernComment](../moderncomment), [ColorFormat](../colorformat), [AdjustValueCollection](../adjustvaluecollection), [MasterNotesSlide](../masternotesslide), [CommentAuthorCollection](../commentauthorcollection), [ImageTransformOperation](../imagetransformoperation), AggregatedDataPointCollection, [LayoutSlideHeaderFooterManager](../layoutslideheaderfootermanager), [Background](../background), [Control](../control), [GrayScale](../grayscale), [LineFillFormat](../linefillformat), [AnimationTimeLine](../animationtimeline), [SmartArtShape](../smartartshape), [Tab](../tab), [MotionEffect](../motioneffect), [GradientStopCollection](../gradientstopcollection), [ChartCellCollection](../chartcellcollection), [ColorEffect](../coloreffect), [ChartPortionFormat](../chartportionformat), [MathBox](../mathbox), [DigitalSignatureCollection](../digitalsignaturecollection), [AutoShape](../autoshape), [NotesSlide](../notesslide), [SectionCollection](../sectioncollection), [ScaleEffect](../scaleeffect), [MathFunction](../mathfunction), [ChartSeries](../chartseries), [Connector](../connector), [Picture](../picture), [CommandEffect](../commandeffect), [SlideThemeManager](../slidethememanager), [DoubleChartValue](../doublechartvalue), [Column](../column), [EffectStyle](../effectstyle), [SlideSize](../slidesize), [CustomData](../customdata), [SummaryZoomSection](../summaryzoomsection), [HSL](../hsl), [Tint](../tint), [DataLabelCollection](../datalabelcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), LayoutTree, [GraphicalObject](../graphicalobject), [Field](../field), [FormatScheme](../formatscheme), [Legend](../legend), [AlphaCeiling](../alphaceiling), [Hyperlink](../hyperlink), [Cell](../cell), [Portion](../portion), [BiLevel](../bilevel), [MathElementBase](../mathelementbase), [MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager), [MathFraction](../mathfraction), [DataTable](../datatable), [HyperlinkManager](../hyperlinkmanager), [BaseHeaderFooterManager](../baseheaderfootermanager), [ChartSeriesCollection](../chartseriescollection), [ChartTextFormat](../charttextformat), [LayoutSlide](../layoutslide), [ShapeBevel](../shapebevel), [ShapeStyle](../shapestyle), [Camera](../camera), ThemeableTableFormat, [RowFormat](../rowformat), [ChartCategoryCollection](../chartcategorycollection), ChartSeriesGroupCollection, [LayoutSlideThemeManager](../layoutslidethememanager), [ControlCollection](../controlcollection), [InnerShadow](../innershadow), [PortionFormat](../portionformat), [AlphaReplace](../alphareplace), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [MathPortion](../mathportion), [Duotone](../duotone), [Backdrop3DScene](../backdrop3dscene), MasterHandoutSlideManager, [Video](../video), [AlphaModulate](../alphamodulate), [Behavior](../behavior), [ImageCollection](../imagecollection), BaseStyles, [ChartDataPointLevelsManager](../chartdatapointlevelsmanager), [PVIObject](../pviobject), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [Comment](../comment), [PatternFormat](../patternformat), [ChartCategory](../chartcategory), [PortionCollection](../portioncollection), [ErrorBarsFormat](../errorbarsformat), [ColorReplace](../colorreplace), ThemeableCellFormat, [GroupShape](../groupshape), [PresentationHeaderFooterManager](../presentationheaderfootermanager), MathRunElement, [MasterSlideCollection](../masterslidecollection), [TextFrameFormat](../textframeformat), [SectionZoomFrame](../sectionzoomframe), [DomObject](../domobject), [AlphaFloor](../alphafloor), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [AudioFrame](../audioframe), [EffectFormat](../effectformat), [ShapeCollection](../shapecollection), [VideoFrame](../videoframe), [Theme](../theme), [ChartDataPoint](../chartdatapoint), [AxesManager](../axesmanager), [MathRadical](../mathradical), [FillOverlay](../filloverlay), [FilterEffect](../filtereffect), [TextFrame](../textframe), [Marker](../marker), [ParagraphCollection](../paragraphcollection), [Presentation](../presentation), [MathArray](../matharray), [ZoomObject](../zoomobject), [LineFormatCollection](../lineformatcollection), [MathDelimiter](../mathdelimiter), TableCellTextStyle, [OuterShadow](../outershadow), [ExtraColorSchemeCollection](../extracolorschemecollection), [MathBorderBox](../mathborderbox), [Glow](../glow), [BaseChartValue](../basechartvalue), [SummaryZoomFrame](../summaryzoomframe), [LegendEntryProperties](../legendentryproperties), TableStyleCollection, TablePartStyle, [AlphaModulateFixed](../alphamodulatefixed), ThemeableEffectFormat, [MasterSlideHeaderFooterManager](../masterslideheaderfootermanager), [ChartLinesFormat](../chartlinesformat)
+| getParent_Immediate() |  |
 
 
 ---
@@ -144,10 +141,10 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Gets the element at the specified index. |
+| get_Item(int) | Gets the element at the specified index. |
 
  **Result:**
-[Portion](../portion), [MathPortion](../mathportion)
+[MathPortion](../mathportion), [Portion](../portion)
 
 
 ---
@@ -157,26 +154,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| indexOf ([Portion](../portion)) | Determines the index of a specific item in the List. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Portion](../portion) | The object to locate in the List. |
-
- **Result:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([MathPortion](../mathportion)) | Determines the index of a specific item in the List. |
+| indexOf([MathPortion](../mathportion)) | Determines the index of a specific item in the List. |
 
  **Parameters:**
 
@@ -191,18 +169,20 @@ int
 ---
 
 
-### insert {#insert}
+### indexOf {#indexOf}
 
 | Name | Description |
 | --- | --- |
-| insert (int, [Portion](../portion)) | Inserts a Portion into the collection at the specified index. |
+| indexOf([Portion](../portion)) | Determines the index of a specific item in the List. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which Portion should be inserted. |
-| value | [Portion](../portion) | The Portion to insert. |
+| item | [Portion](../portion) | The object to locate in the List. |
+
+ **Result:**
+int
 
 
 ---
@@ -212,7 +192,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| insert (int, [MathPortion](../mathportion)) | Inserts a Portion into the collection at the specified index. |
+| insert(int, [MathPortion](../mathportion)) | Inserts a Portion into the collection at the specified index. |
 
  **Parameters:**
 
@@ -225,11 +205,28 @@ int
 ---
 
 
+### insert {#insert}
+
+| Name | Description |
+| --- | --- |
+| insert(int, [Portion](../portion)) | Inserts a Portion into the collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which Portion should be inserted. |
+| value | [Portion](../portion) | The Portion to insert. |
+
+
+---
+
+
 ### isReadOnly {#isReadOnly}
 
 | Name | Description |
 | --- | --- |
-| isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+| isReadOnly() | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
  **Result:**
 boolean
@@ -242,7 +239,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -255,7 +252,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -268,32 +265,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([Portion](../portion)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Portion](../portion) | The object to remove from the IGenericCollection. |
-
- **Result:**
-boolean
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | com.aspose.ms.System.NotSupportedException | The IGenericCollection is read-only. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([MathPortion](../mathportion)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| remove([MathPortion](../mathportion)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
@@ -314,11 +286,36 @@ boolean
 ---
 
 
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove([Portion](../portion)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [Portion](../portion) | The object to remove from the IGenericCollection. |
+
+ **Result:**
+boolean
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.NotSupportedException | The IGenericCollection is read-only. |
+
+
+---
+
+
 ### removeAt {#removeAt}
 
 | Name | Description |
 | --- | --- |
-| removeAt (int) | Removes the element at the specified index of the collection. |
+| removeAt(int) | Removes the element at the specified index of the collection. |
 
  **Parameters:**
 
@@ -334,7 +331,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, [Portion](../portion)) | Gets the element at the specified index. |
+| set_Item(int, [MathPortion](../mathportion)) | Gets the element at the specified index. |
 
 
 ---
@@ -344,7 +341,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, [MathPortion](../mathportion)) | Gets the element at the specified index. |
+| set_Item(int, [Portion](../portion)) | Gets the element at the specified index. |
 
 
 ---

@@ -26,7 +26,7 @@ CurrentThreadSettings
 
 | Name | Description |
 | --- | --- |
-| getLocale () | Returns default Locale for current thread. |
+| getLocale() | Returns default Locale for current thread. |
 
  **Result:**
 Locale
@@ -39,7 +39,7 @@ Locale
 
 | Name | Description |
 | --- | --- |
-| setLocale (Locale) | Sets default Locale for current thread. |
+| setLocale(Locale) | Sets default Locale for current thread. |
 
  **Parameters:**
 
@@ -61,7 +61,7 @@ Locale
 
 | Name | Description |
 | --- | --- |
-| setLocale (String) | Sets default Locale for current thread. |
+| setLocale(String) | Sets default Locale for current thread. |
 
  **Parameters:**
 

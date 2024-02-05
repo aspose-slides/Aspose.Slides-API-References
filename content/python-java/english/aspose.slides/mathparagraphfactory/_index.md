@@ -30,7 +30,7 @@ MathParagraphFactory
 
 | Name | Description |
 | --- | --- |
-| createMathParagraph () | Create empty math paragraph |
+| createMathParagraph() | Create empty math paragraph |
 
  **Result:**
 [MathParagraph](../mathparagraph)
@@ -43,7 +43,7 @@ MathParagraphFactory
 
 | Name | Description |
 | --- | --- |
-| createMathParagraph ([MathBlock](../mathblock)) | Creates a math paragraph and places the specified math block in it |
+| createMathParagraph([MathBlock](../mathblock)) | Creates a math paragraph and places the specified math block in it |
 
  **Parameters:**
 

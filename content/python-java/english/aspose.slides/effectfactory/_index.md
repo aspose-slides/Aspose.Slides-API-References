@@ -30,7 +30,7 @@ EffectFactory
 
 | Name | Description |
 | --- | --- |
-| createGlow () | Creates Glow effect. |
+| createGlow() | Creates Glow effect. |
 
  **Result:**
 [Glow](../glow)
@@ -43,7 +43,7 @@ EffectFactory
 
 | Name | Description |
 | --- | --- |
-| createInnerShadow () | Creates Inner shafow effect. |
+| createInnerShadow() | Creates Inner shafow effect. |
 
  **Result:**
 [InnerShadow](../innershadow)
@@ -56,7 +56,7 @@ EffectFactory
 
 | Name | Description |
 | --- | --- |
-| createOuterShadow () | Creates Outer shadow effect. |
+| createOuterShadow() | Creates Outer shadow effect. |
 
  **Result:**
 [OuterShadow](../outershadow)
@@ -69,7 +69,7 @@ EffectFactory
 
 | Name | Description |
 | --- | --- |
-| createPresetShadow () | Creates Preset shadow effect. |
+| createPresetShadow() | Creates Preset shadow effect. |
 
  **Result:**
 [PresetShadow](../presetshadow)
@@ -82,7 +82,7 @@ EffectFactory
 
 | Name | Description |
 | --- | --- |
-| createReflection () | Creates Reflection effect. |
+| createReflection() | Creates Reflection effect. |
 
  **Result:**
 [Reflection](../reflection)
@@ -95,7 +95,7 @@ EffectFactory
 
 | Name | Description |
 | --- | --- |
-| createSoftEdge () | Creates Soft Edge effect. |
+| createSoftEdge() | Creates Soft Edge effect. |
 
  **Result:**
 [SoftEdge](../softedge)
@@ -108,7 +108,7 @@ EffectFactory
 
 | Name | Description |
 | --- | --- |
-| getImageTransformOperationFactory () | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
+| getImageTransformOperationFactory() | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
 
  **Result:**
 [ImageTransformOperationFactory](../imagetransformoperationfactory)

@@ -15,7 +15,7 @@ url: /aspose.slides/axis/
 
 | Name | Description |
 | --- | --- |
-| getActualMajorUnit () | Specifies actual major unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
+| getActualMajorUnit() | Specifies actual major unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
  **Result:**
 double
@@ -28,7 +28,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getActualMajorUnitScale () | Specifies actual major unit scale of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
+| getActualMajorUnitScale() | Specifies actual major unit scale of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
  **Result:**
 int
@@ -41,7 +41,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getActualMaxValue () | Specifies actual maximum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
+| getActualMaxValue() | Specifies actual maximum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
  **Result:**
 double
@@ -54,7 +54,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getActualMinValue () | Specifies actual minimum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
+| getActualMinValue() | Specifies actual minimum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
  **Result:**
 double
@@ -67,7 +67,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getActualMinorUnit () | Specifies actual minor unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
+| getActualMinorUnit() | Specifies actual minor unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
  **Result:**
 double
@@ -80,7 +80,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getActualMinorUnitScale () | Specifies actual minor unit scale of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
+| getActualMinorUnitScale() | Specifies actual minor unit scale of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
  **Result:**
 int
@@ -93,7 +93,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getAggregationType () | Represents aggregation type of category axis (binning). Applied to category. Used with Histogram or HistogramPareto series only. |
+| getAggregationType() | Represents aggregation type of category axis (binning). Applied to category. Used with Histogram or HistogramPareto series only. |
 
  **Result:**
 int
@@ -106,7 +106,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getAxisBetweenCategories () | Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts. Read/write boolean. |
+| getAxisBetweenCategories() | Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts. Read/write boolean. |
 
  **Result:**
 boolean
@@ -119,7 +119,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getBaseUnitScale () | Specifies the smallest time unit that is represented on the date axis. Read/write TimeUnitType. |
+| getBaseUnitScale() | Specifies the smallest time unit that is represented on the date axis. Read/write TimeUnitType. |
 
  **Result:**
 int
@@ -132,7 +132,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getBinWidth () | Specifies bin width when AggregationType property value setted to AxisAggregationType.ByBinWidth. Applied to category axes. Used with Histogram or HistogramPareto series only. |
+| getBinWidth() | Specifies bin width when AggregationType property value setted to AxisAggregationType.ByBinWidth. Applied to category axes. Used with Histogram or HistogramPareto series only. |
 
  **Result:**
 double
@@ -145,7 +145,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getCategoryAxisType () | Specifies the type of the category axis. Read/write CategoryAxisType. |
+| getCategoryAxisType() | Specifies the type of the category axis. Read/write CategoryAxisType. |
 
  **Result:**
 int
@@ -158,7 +158,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getChart () | Returns the parent chart. Read-only IChart. |
+| getChart() | Returns the parent chart. Read-only IChart. |
 
  **Result:**
 [Chart](../chart)
@@ -171,7 +171,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCrossAt () | Represents the point on the axis where the perpendicular axis crosses it. Read/write float. |
+| getCrossAt() | Represents the point on the axis where the perpendicular axis crosses it. Read/write float. |
 
  **Result:**
 float
@@ -184,7 +184,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getCrossType () | Represents the CrossType on the specified axis where the other axis crosses. Read/write CrossesType. |
+| getCrossType() | Represents the CrossType on the specified axis where the other axis crosses. Read/write CrossesType. |
 
  **Result:**
 int
@@ -197,7 +197,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getDisplayUnit () | Specifies the scaling value of the display units for the value axis. Read/write DisplayUnitType. |
+| getDisplayUnit() | Specifies the scaling value of the display units for the value axis. Read/write DisplayUnitType. |
 
  **Result:**
 int
@@ -210,7 +210,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getFormat () | Represents format of axis. Read-only IAxisFormat. |
+| getFormat() | Represents format of axis. Read-only IAxisFormat. |
 
  **Result:**
 [AxisFormat](../axisformat)
@@ -223,7 +223,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getLabelOffset () | Specifies the distance of labels from the axis. Applied to category or date axis. Value must be between 0% and 1000%. Read/write int. |
+| getLabelOffset() | Specifies the distance of labels from the axis. Applied to category or date axis. Value must be between 0% and 1000%. Read/write int. |
 
  **Result:**
 int
@@ -236,7 +236,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getLogBase () | Represents the logarithmic base. Default value is 10. Read/write double. |
+| getLogBase() | Represents the logarithmic base. Default value is 10. Read/write double. |
 
  **Result:**
 double
@@ -249,7 +249,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMajorGridLinesFormat () | Represents major gridlines format on a chart axis. Read-only IChartLinesFormat. |
+| getMajorGridLinesFormat() | Represents major gridlines format on a chart axis. Read-only IChartLinesFormat. |
 
  **Result:**
 [ChartLinesFormat](../chartlinesformat)
@@ -262,7 +262,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMajorTickMark () | Represents the type of major tick mark for the specified axis. Read/write TickMarkType. |
+| getMajorTickMark() | Represents the type of major tick mark for the specified axis. Read/write TickMarkType. |
 
  **Result:**
 int
@@ -275,7 +275,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getMajorUnit () | Represents the major units for the date or value axis. Read/write double. |
+| getMajorUnit() | Represents the major units for the date or value axis. Read/write double. |
 
  **Result:**
 double
@@ -288,7 +288,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMajorUnitScale () | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
+| getMajorUnitScale() | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
 
  **Result:**
 int
@@ -301,7 +301,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getMaxValue () | Represents the maximum value on the value axis. Read/write double. |
+| getMaxValue() | Represents the maximum value on the value axis. Read/write double. |
 
  **Result:**
 double
@@ -314,7 +314,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMinValue () | Represents the minimum value on the value axis. Read/write double. |
+| getMinValue() | Represents the minimum value on the value axis. Read/write double. |
 
  **Result:**
 double
@@ -327,7 +327,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMinorGridLinesFormat () | Represents minor gridlines format on a chart axis. Read-only IChartLinesFormat. |
+| getMinorGridLinesFormat() | Represents minor gridlines format on a chart axis. Read-only IChartLinesFormat. |
 
  **Result:**
 [ChartLinesFormat](../chartlinesformat)
@@ -340,7 +340,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMinorTickMark () | Represents the type of minor tick mark for the specified axis. Read/write TickMarkType. |
+| getMinorTickMark() | Represents the type of minor tick mark for the specified axis. Read/write TickMarkType. |
 
  **Result:**
 int
@@ -353,7 +353,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getMinorUnit () | Represents the minor units for the date or value axis. Read/write double. |
+| getMinorUnit() | Represents the minor units for the date or value axis. Read/write double. |
 
  **Result:**
 double
@@ -366,7 +366,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getMinorUnitScale () | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
+| getMinorUnitScale() | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
 
  **Result:**
 int
@@ -379,7 +379,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getNumberFormat () | Represents the format string for the Axis Labels. Read/write String. |
+| getNumberFormat() | Represents the format string for the Axis Labels. Read/write String. |
 
  **Result:**
 String
@@ -392,7 +392,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getNumberOfBins () | Specifies number of bins when AggregationType property value setted to AxisAggregationType.ByNumberOfBins. Applied to category axes. Used with Histogram or HistogramPareto series only. |
+| getNumberOfBins() | Specifies number of bins when AggregationType property value setted to AxisAggregationType.ByNumberOfBins. Applied to category axes. Used with Histogram or HistogramPareto series only. |
 
  **Result:**
 long
@@ -405,7 +405,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getOverflowBin () | Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true. |
+| getOverflowBin() | Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true. |
 
  **Result:**
 double
@@ -418,10 +418,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getParent_Immediate () |  |
-
- **Result:**
-DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](../rotationeffect), [ChartTitle](../charttitle), [MathBar](../mathbar), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartDataWorksheet](../chartdataworksheet), [SoftEdge](../softedge), [Audio](../audio), [ChartWall](../chartwall), [BaseOverrideThemeManager](../baseoverridethememanager), [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager), ThemeableLineFormat, [UpDownBarsManager](../updownbarsmanager), [MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [Format](../format), [GradientFormat](../gradientformat), [ThreeDFormat](../threedformat), [Slide](../slide), [TabCollection](../tabcollection), [ColorScheme](../colorscheme), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [SlideHeaderFooterManager](../slideheaderfootermanager), [CommentAuthor](../commentauthor), [CellFormat](../cellformat), [SlideShowTransition](../slideshowtransition), [CustomXmlPartCollection](../customxmlpartcollection), [SlideCollection](../slidecollection), [ViewProperties](../viewproperties), [Shape](../shape), [ExtraColorScheme](../extracolorscheme), [Luminance](../luminance), [MasterThemeManager](../masterthememanager), [DataLabel](../datalabel), [GradientStop](../gradientstop), [CellCollection](../cellcollection), [MathematicalText](../mathematicaltext), [Row](../row), MasterNotesSlideManager, [MathNaryOperator](../mathnaryoperator), [BaseThemeManager](../basethememanager), ThemeableFillFormat, [RowCollection](../rowcollection), [GeometryShape](../geometryshape), TableStyle, [LightRig](../lightrig), [ChartPlotArea](../chartplotarea), [BulletFormat](../bulletformat), [MathSuperscriptElement](../mathsuperscriptelement), [VideoCollection](../videocollection), [Table](../table), [ChartDataPointLevel](../chartdatapointlevel), PresetTextShape, [MasterTheme](../mastertheme), [SectionSlideCollection](../sectionslidecollection), [OleObjectFrame](../oleobjectframe), [ChartData](../chartdata), [ChartDataPointCollection](../chartdatapointcollection), [ChartDataWorkbook](../chartdataworkbook), [NotesSlideHeaderFooterManager](../notesslideheaderfootermanager), [PresetShadow](../presetshadow), AggregatedDataPoint, [SketchFormat](../sketchformat), [MathParagraph](../mathparagraph), [SmartArt](../smartart), [AudioCollection](../audiocollection), [AxisFormat](../axisformat), [CommentCollection](../commentcollection), [ParagraphFormat](../paragraphformat), [ChartDataWorksheetCollection](../chartdataworksheetcollection), FormatOverrides, [TextStyle](../textstyle), [FillFormatCollection](../fillformatcollection), [NotesSlideManager](../notesslidemanager), [ColumnFormat](../columnformat), [Section](../section), [MathBlock](../mathblock), [TableFormat](../tableformat), [StringChartValue](../stringchartvalue), [Reflection](../reflection), [Ink](../ink), [Trendline](../trendline), [LayoutSlideCollection](../layoutslidecollection), [LineFormat](../lineformat), [BasePortionFormat](../baseportionformat), [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager), [MasterHandoutSlide](../masterhandoutslide), [DataLabelFormat](../datalabelformat), [Timing](../timing), [MathAccent](../mathaccent), [LegacyDiagram](../legacydiagram), FormatOverride, [ChartSeriesGroup](../chartseriesgroup), [Blur](../blur), [MathSubscriptElement](../mathsubscriptelement), [NotesSlideThemeManager](../notesslidethememanager), [Axis](../axis), [AlphaBiLevel](../alphabilevel), [Paragraph](../paragraph), [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), TableBackgroundStyle, [SetEffect](../seteffect), [StringOrDoubleChartValue](../stringordoublechartvalue), [Chart](../chart), [PictureFillFormat](../picturefillformat), [HyperlinkQueries](../hyperlinkqueries), [ZoomFrame](../zoomframe), [BaseScript](../basescript), [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager), [Rotation3D](../rotation3d), [FontScheme](../fontscheme), [PictureFrame](../pictureframe), [Effect](../effect), [OverrideTheme](../overridetheme), [ColorChange](../colorchange), [ColumnCollection](../columncollection), [TrendlineCollection](../trendlinecollection), [EffectStyleCollection](../effectstylecollection), [AlphaInverse](../alphainverse), [ErrorBarsCustomValues](../errorbarscustomvalues), PlaceholderCollection, [FillFormat](../fillformat), [ModernComment](../moderncomment), [ColorFormat](../colorformat), [AdjustValueCollection](../adjustvaluecollection), [MasterNotesSlide](../masternotesslide), [CommentAuthorCollection](../commentauthorcollection), [ImageTransformOperation](../imagetransformoperation), AggregatedDataPointCollection, [LayoutSlideHeaderFooterManager](../layoutslideheaderfootermanager), [Background](../background), [Control](../control), [GrayScale](../grayscale), [LineFillFormat](../linefillformat), [AnimationTimeLine](../animationtimeline), [SmartArtShape](../smartartshape), [Tab](../tab), [MotionEffect](../motioneffect), [GradientStopCollection](../gradientstopcollection), [ChartCellCollection](../chartcellcollection), [ColorEffect](../coloreffect), [ChartPortionFormat](../chartportionformat), [MathBox](../mathbox), [DigitalSignatureCollection](../digitalsignaturecollection), [AutoShape](../autoshape), [NotesSlide](../notesslide), [SectionCollection](../sectioncollection), [ScaleEffect](../scaleeffect), [MathFunction](../mathfunction), [ChartSeries](../chartseries), [Connector](../connector), [Picture](../picture), [CommandEffect](../commandeffect), [SlideThemeManager](../slidethememanager), [DoubleChartValue](../doublechartvalue), [Column](../column), [EffectStyle](../effectstyle), [SlideSize](../slidesize), [CustomData](../customdata), [SummaryZoomSection](../summaryzoomsection), [HSL](../hsl), [Tint](../tint), [DataLabelCollection](../datalabelcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), LayoutTree, [GraphicalObject](../graphicalobject), [Field](../field), [FormatScheme](../formatscheme), [Legend](../legend), [AlphaCeiling](../alphaceiling), [Hyperlink](../hyperlink), [Cell](../cell), [Portion](../portion), [BiLevel](../bilevel), [MathElementBase](../mathelementbase), [MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager), [MathFraction](../mathfraction), [DataTable](../datatable), [HyperlinkManager](../hyperlinkmanager), [BaseHeaderFooterManager](../baseheaderfootermanager), [ChartSeriesCollection](../chartseriescollection), [ChartTextFormat](../charttextformat), [LayoutSlide](../layoutslide), [ShapeBevel](../shapebevel), [ShapeStyle](../shapestyle), [Camera](../camera), ThemeableTableFormat, [RowFormat](../rowformat), [ChartCategoryCollection](../chartcategorycollection), ChartSeriesGroupCollection, [LayoutSlideThemeManager](../layoutslidethememanager), [ControlCollection](../controlcollection), [InnerShadow](../innershadow), [PortionFormat](../portionformat), [AlphaReplace](../alphareplace), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [MathPortion](../mathportion), [Duotone](../duotone), [Backdrop3DScene](../backdrop3dscene), MasterHandoutSlideManager, [Video](../video), [AlphaModulate](../alphamodulate), [Behavior](../behavior), [ImageCollection](../imagecollection), BaseStyles, [ChartDataPointLevelsManager](../chartdatapointlevelsmanager), [PVIObject](../pviobject), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [Comment](../comment), [PatternFormat](../patternformat), [ChartCategory](../chartcategory), [PortionCollection](../portioncollection), [ErrorBarsFormat](../errorbarsformat), [ColorReplace](../colorreplace), ThemeableCellFormat, [GroupShape](../groupshape), [PresentationHeaderFooterManager](../presentationheaderfootermanager), MathRunElement, [MasterSlideCollection](../masterslidecollection), [TextFrameFormat](../textframeformat), [SectionZoomFrame](../sectionzoomframe), [DomObject](../domobject), [AlphaFloor](../alphafloor), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [AudioFrame](../audioframe), [EffectFormat](../effectformat), [ShapeCollection](../shapecollection), [VideoFrame](../videoframe), [Theme](../theme), [ChartDataPoint](../chartdatapoint), [AxesManager](../axesmanager), [MathRadical](../mathradical), [FillOverlay](../filloverlay), [FilterEffect](../filtereffect), [TextFrame](../textframe), [Marker](../marker), [ParagraphCollection](../paragraphcollection), [Presentation](../presentation), [MathArray](../matharray), [ZoomObject](../zoomobject), [LineFormatCollection](../lineformatcollection), [MathDelimiter](../mathdelimiter), TableCellTextStyle, [OuterShadow](../outershadow), [ExtraColorSchemeCollection](../extracolorschemecollection), [MathBorderBox](../mathborderbox), [Glow](../glow), [BaseChartValue](../basechartvalue), [SummaryZoomFrame](../summaryzoomframe), [LegendEntryProperties](../legendentryproperties), TableStyleCollection, TablePartStyle, [AlphaModulateFixed](../alphamodulatefixed), ThemeableEffectFormat, [MasterSlideHeaderFooterManager](../masterslideheaderfootermanager), [ChartLinesFormat](../chartlinesformat)
+| getParent_Immediate() |  |
 
 
 ---
@@ -431,7 +428,7 @@ DisplayUnitLabel, [ChartThemeManager](../chartthememanager), [RotationEffect](..
 
 | Name | Description |
 | --- | --- |
-| getPosition () | Represents position of axis. Read/write AxisPositionType. |
+| getPosition() | Represents position of axis. Read/write AxisPositionType. |
 
  **Result:**
 int
@@ -444,7 +441,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+| getPresentation() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
  **Result:**
 [Presentation](../presentation)
@@ -457,7 +454,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getShowMajorGridLines () | To hide major gridline set MajorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill. Read-only boolean. |
+| getShowMajorGridLines() | To hide major gridline set MajorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill. Read-only boolean. |
 
  **Result:**
 boolean
@@ -470,7 +467,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getShowMinorGridLines () | To hide minor gridline set MinorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill. Read-only boolean. |
+| getShowMinorGridLines() | To hide minor gridline set MinorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill. Read-only boolean. |
 
  **Result:**
 boolean
@@ -483,7 +480,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+| getSlide() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
  **Result:**
 [Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)
@@ -496,7 +493,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getTextFormat () | Represents format of text. Read-only IChartTextFormat. |
+| getTextFormat() | Represents format of text. Read-only IChartTextFormat. |
 
  **Result:**
 [ChartTextFormat](../charttextformat)
@@ -509,7 +506,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getTickLabelPosition () | Represents the position of tick-mark labels on the specified axis. Read/write TickLabelPositionType. |
+| getTickLabelPosition() | Represents the position of tick-mark labels on the specified axis. Read/write TickLabelPositionType. |
 
  **Result:**
 int
@@ -522,7 +519,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getTickLabelRotationAngle () | Represents the rotation angle of tick labels. Read/write float. |
+| getTickLabelRotationAngle() | Represents the rotation angle of tick labels. Read/write float. |
 
  **Result:**
 float
@@ -535,7 +532,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getTickLabelSpacing () | Specifies how many tick labels to skip between label that is drawn. Applied to category or series axis. Read/write long. |
+| getTickLabelSpacing() | Specifies how many tick labels to skip between label that is drawn. Applied to category or series axis. Read/write long. |
 
  **Result:**
 long
@@ -548,7 +545,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getTickMarksSpacing () | Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read/write int. |
+| getTickMarksSpacing() | Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read/write int. |
 
  **Result:**
 long
@@ -561,7 +558,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getTitle () | Gets the axis' title. Read-only IChartTitle. |
+| getTitle() | Gets the axis' title. Read-only IChartTitle. |
 
  **Result:**
 [ChartTitle](../charttitle)
@@ -574,7 +571,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getUnderflowBin () | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
+| getUnderflowBin() | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
 
  **Result:**
 double
@@ -587,7 +584,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| hasTitle () | Determines whether a axis has a visible title. Read/write boolean. |
+| hasTitle() | Determines whether a axis has a visible title. Read/write boolean. |
 
  **Result:**
 boolean
@@ -600,7 +597,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isAutomaticMajorUnit () | Indicates whether the major unit of the axis is automatically assigned. Read/write boolean. |
+| isAutomaticMajorUnit() | Indicates whether the major unit of the axis is automatically assigned. Read/write boolean. |
 
  **Result:**
 boolean
@@ -613,7 +610,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isAutomaticMaxValue () | Indicates whether the max value is automatically assigned. Read/write boolean. |
+| isAutomaticMaxValue() | Indicates whether the max value is automatically assigned. Read/write boolean. |
 
  **Result:**
 boolean
@@ -626,7 +623,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isAutomaticMinValue () | Indicates whether the min value is automatically assigned. Read/write boolean. |
+| isAutomaticMinValue() | Indicates whether the min value is automatically assigned. Read/write boolean. |
 
  **Result:**
 boolean
@@ -639,7 +636,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isAutomaticMinorUnit () | Indicates whether the minor unit of the axis is automatically assigned. Read/write boolean. |
+| isAutomaticMinorUnit() | Indicates whether the minor unit of the axis is automatically assigned. Read/write boolean. |
 
  **Result:**
 boolean
@@ -652,7 +649,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isAutomaticOverflowBin () | Specifies automatic overflow bin value. If false: use OverflowBin property. |
+| isAutomaticOverflowBin() | Specifies automatic overflow bin value. If false: use OverflowBin property. |
 
  **Result:**
 boolean
@@ -665,7 +662,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isAutomaticTickLabelSpacing () | Specifies automatic tick label spacing value. If false: use TickLabelSpacing property. Read/write boolean. |
+| isAutomaticTickLabelSpacing() | Specifies automatic tick label spacing value. If false: use TickLabelSpacing property. Read/write boolean. |
 
  **Result:**
 boolean
@@ -678,7 +675,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isAutomaticTickMarksSpacing () | Specifies automatic tick marks spacing value. If false: use TickMarksSpacing property. Read/write boolean. |
+| isAutomaticTickMarksSpacing() | Specifies automatic tick marks spacing value. If false: use TickMarksSpacing property. Read/write boolean. |
 
  **Result:**
 boolean
@@ -691,7 +688,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isAutomaticUnderflowBin () | Specifies automatic underflow bin value. If false: use UnderflowBin property. |
+| isAutomaticUnderflowBin() | Specifies automatic underflow bin value. If false: use UnderflowBin property. |
 
  **Result:**
 boolean
@@ -704,7 +701,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isLogarithmic () | Represents if the value axis scale type is logarithmic or not. Read/write boolean. |
+| isLogarithmic() | Represents if the value axis scale type is logarithmic or not. Read/write boolean. |
 
  **Result:**
 boolean
@@ -717,7 +714,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isNumberFormatLinkedToSource () | Indicates whether the format is linked source data. Read/write boolean. |
+| isNumberFormatLinkedToSource() | Indicates whether the format is linked source data. Read/write boolean. |
 
  **Result:**
 boolean
@@ -730,7 +727,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isOverflowBin () | Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value. |
+| isOverflowBin() | Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value. |
 
  **Result:**
 boolean
@@ -743,7 +740,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isPlotOrderReversed () | Represents if MS PowerPoint plots data points from last to first. Read/write boolean. |
+| isPlotOrderReversed() | Represents if MS PowerPoint plots data points from last to first. Read/write boolean. |
 
  **Result:**
 boolean
@@ -756,7 +753,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isUnderflowBin () | Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin to adjust underflow bin value. |
+| isUnderflowBin() | Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin to adjust underflow bin value. |
 
  **Result:**
 boolean
@@ -769,7 +766,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isVisible () | Represents if the axis is visible. Read/write boolean. |
+| isVisible() | Represents if the axis is visible. Read/write boolean. |
 
  **Result:**
 boolean
@@ -782,7 +779,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAggregationType (int) | Represents aggregation type of category axis (binning). Applied to category. Used with Histogram or HistogramPareto series only. |
+| setAggregationType(int) | Represents aggregation type of category axis (binning). Applied to category. Used with Histogram or HistogramPareto series only. |
 
 
 ---
@@ -792,7 +789,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAutomaticMajorUnit (boolean) | Indicates whether the major unit of the axis is automatically assigned. Read/write boolean. |
+| setAutomaticMajorUnit(boolean) | Indicates whether the major unit of the axis is automatically assigned. Read/write boolean. |
 
 
 ---
@@ -802,7 +799,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAutomaticMaxValue (boolean) | Indicates whether the max value is automatically assigned. Read/write boolean. |
+| setAutomaticMaxValue(boolean) | Indicates whether the max value is automatically assigned. Read/write boolean. |
 
 
 ---
@@ -812,7 +809,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAutomaticMinValue (boolean) | Indicates whether the min value is automatically assigned. Read/write boolean. |
+| setAutomaticMinValue(boolean) | Indicates whether the min value is automatically assigned. Read/write boolean. |
 
 
 ---
@@ -822,7 +819,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAutomaticMinorUnit (boolean) | Indicates whether the minor unit of the axis is automatically assigned. Read/write boolean. |
+| setAutomaticMinorUnit(boolean) | Indicates whether the minor unit of the axis is automatically assigned. Read/write boolean. |
 
 
 ---
@@ -832,7 +829,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAutomaticOverflowBin (boolean) | Specifies automatic overflow bin value. If false: use OverflowBin property. |
+| setAutomaticOverflowBin(boolean) | Specifies automatic overflow bin value. If false: use OverflowBin property. |
 
 
 ---
@@ -842,7 +839,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAutomaticTickLabelSpacing (boolean) | Specifies automatic tick label spacing value. If false: use TickLabelSpacing property. Read/write boolean. |
+| setAutomaticTickLabelSpacing(boolean) | Specifies automatic tick label spacing value. If false: use TickLabelSpacing property. Read/write boolean. |
 
 
 ---
@@ -852,7 +849,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAutomaticTickMarksSpacing (boolean) | Specifies automatic tick marks spacing value. If false: use TickMarksSpacing property. Read/write boolean. |
+| setAutomaticTickMarksSpacing(boolean) | Specifies automatic tick marks spacing value. If false: use TickMarksSpacing property. Read/write boolean. |
 
 
 ---
@@ -862,7 +859,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAutomaticUnderflowBin (boolean) | Specifies automatic underflow bin value. If false: use UnderflowBin property. |
+| setAutomaticUnderflowBin(boolean) | Specifies automatic underflow bin value. If false: use UnderflowBin property. |
 
 
 ---
@@ -872,7 +869,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAxisBetweenCategories (boolean) | Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts. Read/write boolean. |
+| setAxisBetweenCategories(boolean) | Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts. Read/write boolean. |
 
 
 ---
@@ -882,7 +879,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setBaseUnitScale (int) | Specifies the smallest time unit that is represented on the date axis. Read/write TimeUnitType. |
+| setBaseUnitScale(int) | Specifies the smallest time unit that is represented on the date axis. Read/write TimeUnitType. |
 
 
 ---
@@ -892,7 +889,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setBinWidth (double) | Specifies bin width when AggregationType property value setted to AxisAggregationType.ByBinWidth. Applied to category axes. Used with Histogram or HistogramPareto series only. |
+| setBinWidth(double) | Specifies bin width when AggregationType property value setted to AxisAggregationType.ByBinWidth. Applied to category axes. Used with Histogram or HistogramPareto series only. |
 
 
 ---
@@ -902,7 +899,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCategoryAxisType (int) | Specifies the type of the category axis. Read/write CategoryAxisType. |
+| setCategoryAxisType(int) | Specifies the type of the category axis. Read/write CategoryAxisType. |
 
 
 ---
@@ -912,7 +909,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCategoryAxisTypeAutomatically () | Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data. |
+| setCategoryAxisTypeAutomatically() | Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data. |
 
 
 ---
@@ -922,7 +919,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCrossAt (float) | Represents the point on the axis where the perpendicular axis crosses it. Read/write float. |
+| setCrossAt(float) | Represents the point on the axis where the perpendicular axis crosses it. Read/write float. |
 
 
 ---
@@ -932,7 +929,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCrossType (int) | Represents the CrossType on the specified axis where the other axis crosses. Read/write CrossesType. |
+| setCrossType(int) | Represents the CrossType on the specified axis where the other axis crosses. Read/write CrossesType. |
 
 
 ---
@@ -942,7 +939,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setDisplayUnit (int) | Specifies the scaling value of the display units for the value axis. Read/write DisplayUnitType. |
+| setDisplayUnit(int) | Specifies the scaling value of the display units for the value axis. Read/write DisplayUnitType. |
 
 
 ---
@@ -952,7 +949,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setLabelOffset (int) | Specifies the distance of labels from the axis. Applied to category or date axis. Value must be between 0% and 1000%. Read/write int. |
+| setLabelOffset(int) | Specifies the distance of labels from the axis. Applied to category or date axis. Value must be between 0% and 1000%. Read/write int. |
 
 
 ---
@@ -962,7 +959,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setLogBase (double) | Represents the logarithmic base. Default value is 10. Read/write double. |
+| setLogBase(double) | Represents the logarithmic base. Default value is 10. Read/write double. |
 
 
 ---
@@ -972,7 +969,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setLogarithmic (boolean) | Represents if the value axis scale type is logarithmic or not. Read/write boolean. |
+| setLogarithmic(boolean) | Represents if the value axis scale type is logarithmic or not. Read/write boolean. |
 
 
 ---
@@ -982,7 +979,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMajorTickMark (int) | Represents the type of major tick mark for the specified axis. Read/write TickMarkType. |
+| setMajorTickMark(int) | Represents the type of major tick mark for the specified axis. Read/write TickMarkType. |
 
 
 ---
@@ -992,7 +989,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMajorUnit (double) | Represents the major units for the date or value axis. Read/write double. |
+| setMajorUnit(double) | Represents the major units for the date or value axis. Read/write double. |
 
 
 ---
@@ -1002,7 +999,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMajorUnitScale (int) | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
+| setMajorUnitScale(int) | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
 
 
 ---
@@ -1012,7 +1009,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMaxValue (double) | Represents the maximum value on the value axis. Read/write double. |
+| setMaxValue(double) | Represents the maximum value on the value axis. Read/write double. |
 
 
 ---
@@ -1022,7 +1019,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMinValue (double) | Represents the minimum value on the value axis. Read/write double. |
+| setMinValue(double) | Represents the minimum value on the value axis. Read/write double. |
 
 
 ---
@@ -1032,7 +1029,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMinorTickMark (int) | Represents the type of minor tick mark for the specified axis. Read/write TickMarkType. |
+| setMinorTickMark(int) | Represents the type of minor tick mark for the specified axis. Read/write TickMarkType. |
 
 
 ---
@@ -1042,7 +1039,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMinorUnit (double) | Represents the minor units for the date or value axis. Read/write double. |
+| setMinorUnit(double) | Represents the minor units for the date or value axis. Read/write double. |
 
 
 ---
@@ -1052,7 +1049,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMinorUnitScale (int) | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
+| setMinorUnitScale(int) | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
 
 
 ---
@@ -1062,7 +1059,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setNumberFormat (String) | Represents the format string for the Axis Labels. Read/write String. |
+| setNumberFormat(String) | Represents the format string for the Axis Labels. Read/write String. |
 
 
 ---
@@ -1072,7 +1069,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setNumberFormatLinkedToSource (boolean) | Indicates whether the format is linked source data. Read/write boolean. |
+| setNumberFormatLinkedToSource(boolean) | Indicates whether the format is linked source data. Read/write boolean. |
 
 
 ---
@@ -1082,7 +1079,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setNumberOfBins (long) | Specifies number of bins when AggregationType property value setted to AxisAggregationType.ByNumberOfBins. Applied to category axes. Used with Histogram or HistogramPareto series only. |
+| setNumberOfBins(long) | Specifies number of bins when AggregationType property value setted to AxisAggregationType.ByNumberOfBins. Applied to category axes. Used with Histogram or HistogramPareto series only. |
 
 
 ---
@@ -1092,7 +1089,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setOverflowBin (boolean) | Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value. |
+| setOverflowBin(boolean) | Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value. |
 
 
 ---
@@ -1102,7 +1099,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setOverflowBin (double) | Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true. |
+| setOverflowBin(double) | Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true. |
 
 
 ---
@@ -1112,7 +1109,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setPlotOrderReversed (boolean) | Represents if MS PowerPoint plots data points from last to first. Read/write boolean. |
+| setPlotOrderReversed(boolean) | Represents if MS PowerPoint plots data points from last to first. Read/write boolean. |
 
 
 ---
@@ -1122,7 +1119,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setPosition (int) | Represents position of axis. Read/write AxisPositionType. |
+| setPosition(int) | Represents position of axis. Read/write AxisPositionType. |
 
 
 ---
@@ -1132,7 +1129,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTickLabelPosition (int) | Represents the position of tick-mark labels on the specified axis. Read/write TickLabelPositionType. |
+| setTickLabelPosition(int) | Represents the position of tick-mark labels on the specified axis. Read/write TickLabelPositionType. |
 
 
 ---
@@ -1142,7 +1139,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTickLabelRotationAngle (float) | Represents the rotation angle of tick labels. Read/write float. |
+| setTickLabelRotationAngle(float) | Represents the rotation angle of tick labels. Read/write float. |
 
 
 ---
@@ -1152,7 +1149,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTickLabelSpacing (long) | Specifies how many tick labels to skip between label that is drawn. Applied to category or series axis. Read/write long. |
+| setTickLabelSpacing(long) | Specifies how many tick labels to skip between label that is drawn. Applied to category or series axis. Read/write long. |
 
 
 ---
@@ -1162,7 +1159,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTickMarksSpacing (long) | Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read/write int. |
+| setTickMarksSpacing(long) | Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read/write int. |
 
 
 ---
@@ -1172,7 +1169,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTitle (boolean) | Determines whether a axis has a visible title. Read/write boolean. |
+| setTitle(boolean) | Determines whether a axis has a visible title. Read/write boolean. |
 
 
 ---
@@ -1182,7 +1179,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setUnderflowBin (boolean) | Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin to adjust underflow bin value. |
+| setUnderflowBin(boolean) | Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin to adjust underflow bin value. |
 
 
 ---
@@ -1192,7 +1189,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setUnderflowBin (double) | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
+| setUnderflowBin(double) | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
 
 
 ---
@@ -1202,7 +1199,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setVisible (boolean) | Represents if the axis is visible. Read/write boolean. |
+| setVisible(boolean) | Represents if the axis is visible. Read/write boolean. |
 
 
 ---

@@ -54,7 +54,7 @@ Portion
 
 | Name | Description |
 | --- | --- |
-| addField ([FieldType](../fieldtype)) | Converts this portion to the automaticaly updated field. |
+| addField([FieldType](../fieldtype)) | Converts this portion to the automaticaly updated field. |
 
 
 ---
@@ -64,7 +64,7 @@ Portion
 
 | Name | Description |
 | --- | --- |
-| addField (String) | Converts this portion to the automaticaly updated field. |
+| addField(String) | Converts this portion to the automaticaly updated field. |
 
  **Parameters:**
 
@@ -80,7 +80,7 @@ Portion
 
 | Name | Description |
 | --- | --- |
-| getCoordinates () | Get coordinates of the beginning of the portion. The X coordinate of point represents the portion beginning from the first character including left side bearing. The Y coordinate includes top side bearing. |
+| getCoordinates() | Get coordinates of the beginning of the portion. The X coordinate of point represents the portion beginning from the first character including left side bearing. The Y coordinate includes top side bearing. |
 
  **Result:**
 Point2D.Float
@@ -93,7 +93,7 @@ Point2D.Float
 
 | Name | Description |
 | --- | --- |
-| getField () | Returns a field of this portion. Read-only IField. |
+| getField() | Returns a field of this portion. Read-only IField. |
 
  **Result:**
 [Field](../field)
@@ -106,7 +106,7 @@ Point2D.Float
 
 | Name | Description |
 | --- | --- |
-| getPortionFormat () | Returns oformatting bject which contains explicitly set formatting properties of the text portion with no inheritance applied. Read-only IPortionFormat. The formatting object contains the formatting parameters defined for the current portion only, inherited data is not applied. In order to get the effective values including inherited ones use the PortionFormat#getEffective method. |
+| getPortionFormat() | Returns oformatting bject which contains explicitly set formatting properties of the text portion with no inheritance applied. Read-only IPortionFormat. The formatting object contains the formatting parameters defined for the current portion only, inherited data is not applied. In order to get the effective values including inherited ones use the PortionFormat#getEffective method. |
 
  **Result:**
 [PortionFormat](../portionformat)
@@ -119,7 +119,7 @@ Point2D.Float
 
 | Name | Description |
 | --- | --- |
-| getPresentation () | Returns the parent presentation of a text. Read-only IPresentation. |
+| getPresentation() | Returns the parent presentation of a text. Read-only IPresentation. |
 
  **Result:**
 [Presentation](../presentation)
@@ -132,7 +132,7 @@ Point2D.Float
 
 | Name | Description |
 | --- | --- |
-| getRect () | Get coordinates of rect that bounds portion. The rect includes all the lines of text in portion, including empty ones. |
+| getRect() | Get coordinates of rect that bounds portion. The rect includes all the lines of text in portion, including empty ones. |
 
  **Result:**
 Rectangle2D.Float
@@ -145,7 +145,7 @@ Rectangle2D.Float
 
 | Name | Description |
 | --- | --- |
-| getSlide () | Returns the parent slide of a text. Read-only BaseSlide. |
+| getSlide() | Returns the parent slide of a text. Read-only BaseSlide. |
 
  **Result:**
 [Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)
@@ -158,7 +158,7 @@ Rectangle2D.Float
 
 | Name | Description |
 | --- | --- |
-| getText () | Gets or sets the plain text of a portion. Read/write String. Value: The text. |
+| getText() | Gets or sets the plain text of a portion. Read/write String. Value: The text. |
 
  **Result:**
 String
@@ -171,7 +171,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| removeField () | Converts this field portion to the simple portion. |
+| removeField() | Converts this field portion to the simple portion. |
 
 
 ---
@@ -181,7 +181,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| setText (String) | Gets or sets the plain text of a portion. Read/write String. Value: The text. |
+| setText(String) | Gets or sets the plain text of a portion. Read/write String. Value: The text. |
 
 
 ---

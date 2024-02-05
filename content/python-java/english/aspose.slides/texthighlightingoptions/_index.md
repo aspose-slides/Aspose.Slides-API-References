@@ -28,7 +28,7 @@ TextHighlightingOptions
 
 | Name | Description |
 | --- | --- |
-| getCaseSensitive () | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
+| getCaseSensitive() | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
 
  **Result:**
 boolean
@@ -41,7 +41,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getWholeWordsOnly () | Set true to match only whole words, false - otherwise. Read/write boolean. |
+| getWholeWordsOnly() | Set true to match only whole words, false - otherwise. Read/write boolean. |
 
  **Result:**
 boolean
@@ -54,7 +54,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCaseSensitive (boolean) | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
+| setCaseSensitive(boolean) | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
 
 
 ---
@@ -64,7 +64,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setWholeWordsOnly (boolean) | Set true to match only whole words, false - otherwise. Read/write boolean. |
+| setWholeWordsOnly(boolean) | Set true to match only whole words, false - otherwise. Read/write boolean. |
 
 
 ---

@@ -28,7 +28,7 @@ DocumentProperties
 
 | Name | Description |
 | --- | --- |
-| clearBuiltInProperties () | Clears and sets default values for all builtIn properties. |
+| clearBuiltInProperties() | Clears and sets default values for all builtIn properties. |
 
 
 ---
@@ -38,7 +38,7 @@ DocumentProperties
 
 | Name | Description |
 | --- | --- |
-| clearCustomProperties () | Removes all custom properties. |
+| clearCustomProperties() | Removes all custom properties. |
 
 
 ---
@@ -48,7 +48,7 @@ DocumentProperties
 
 | Name | Description |
 | --- | --- |
-| cloneT () | Clones current object |
+| cloneT() | Clones current object |
 
  **Result:**
 [DocumentProperties](../documentproperties)
@@ -61,7 +61,7 @@ DocumentProperties
 
 | Name | Description |
 | --- | --- |
-| containsCustomProperty (String) | Check presents of a custom property with a specified name. |
+| containsCustomProperty(String) | Check presents of a custom property with a specified name. |
 
  **Parameters:**
 
@@ -80,7 +80,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| deepClone () | Clones current object |
+| deepClone() | Clones current object |
 
  **Result:**
 Object
@@ -93,7 +93,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| getAppVersion () | Returns the app version. Read-only String. |
+| getAppVersion() | Returns the app version. Read-only String. |
 
  **Result:**
 String
@@ -106,7 +106,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getApplicationTemplate () | Returns or sets the template of a application. Read/write String. |
+| getApplicationTemplate() | Returns or sets the template of a application. Read/write String. |
 
  **Result:**
 String
@@ -119,7 +119,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getAuthor () | Returns or sets the author of a presentation. Read/write String. |
+| getAuthor() | Returns or sets the author of a presentation. Read/write String. |
 
  **Result:**
 String
@@ -132,7 +132,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCategory () | Returns or sets the category of a presentation. Read/write String. |
+| getCategory() | Returns or sets the category of a presentation. Read/write String. |
 
  **Result:**
 String
@@ -145,7 +145,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getComments () | Returns or sets the comments of a presentation. Read/write String. |
+| getComments() | Returns or sets the comments of a presentation. Read/write String. |
 
  **Result:**
 String
@@ -158,7 +158,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCompany () | Returns or sets the company property. Read/write String. |
+| getCompany() | Returns or sets the company property. Read/write String. |
 
  **Result:**
 String
@@ -171,7 +171,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getContentStatus () | Returns or sets the content status of a presentation. Read/write String. |
+| getContentStatus() | Returns or sets the content status of a presentation. Read/write String. |
 
  **Result:**
 String
@@ -184,7 +184,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getContentType () | Returns or sets the content type of a presentation. Read/write String. |
+| getContentType() | Returns or sets the content type of a presentation. Read/write String. |
 
  **Result:**
 String
@@ -197,7 +197,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCountOfCustomProperties () | Returns the number of custom properties actually contained in a collection. Read-only int. |
+| getCountOfCustomProperties() | Returns the number of custom properties actually contained in a collection. Read-only int. |
 
  **Result:**
 int
@@ -210,7 +210,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCreatedTime () | Returns the date a presentation was created. Values are in UTC. Read/write java.util.Date. |
+| getCreatedTime() | Returns the date a presentation was created. Values are in UTC. Read/write java.util.Date. |
 
  **Result:**
 Date
@@ -223,7 +223,7 @@ Date
 
 | Name | Description |
 | --- | --- |
-| getCustomPropertyName (int) | Return a custom property name at the specified index. |
+| getCustomPropertyName(int) | Return a custom property name at the specified index. |
 
  **Parameters:**
 
@@ -248,7 +248,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCustomPropertyValue (String, boolean[]) | Gets a named boolean value from the custom properties. |
+| getCustomPropertyValue(String, boolean[]) | Gets a named boolean value from the custom properties. |
 
  **Parameters:**
 
@@ -265,7 +265,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCustomPropertyValue (String, int[]) | Gets a named integer value from the custom properties. |
+| getCustomPropertyValue(String, int[]) | Gets a named integer value from the custom properties. |
 
  **Parameters:**
 
@@ -282,7 +282,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCustomPropertyValue (String, java.util.Date[]) | Gets a named DateTime value from the custom properties. |
+| getCustomPropertyValue(String, java.util.Date[]) | Gets a named DateTime value from the custom properties. |
 
  **Parameters:**
 
@@ -299,7 +299,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCustomPropertyValue (String, java.lang.String[]) | Gets a named string value from the custom properties. |
+| getCustomPropertyValue(String, java.lang.String[]) | Gets a named string value from the custom properties. |
 
  **Parameters:**
 
@@ -316,7 +316,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCustomPropertyValue (String, float[]) | Gets a named float value from the custom properties. |
+| getCustomPropertyValue(String, float[]) | Gets a named float value from the custom properties. |
 
  **Parameters:**
 
@@ -333,7 +333,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getCustomPropertyValue (String, double[]) | Gets a named double value from the custom properties. |
+| getCustomPropertyValue(String, double[]) | Gets a named double value from the custom properties. |
 
  **Parameters:**
 
@@ -350,7 +350,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getHyperlinkBase () | Returns or sets the HyperlinkBase document property. Read/write String. |
+| getHyperlinkBase() | Returns or sets the HyperlinkBase document property. Read/write String. |
 
  **Result:**
 String
@@ -363,7 +363,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getKeywords () | Returns or sets the keywords of a presentation. Read/write String. |
+| getKeywords() | Returns or sets the keywords of a presentation. Read/write String. |
 
  **Result:**
 String
@@ -376,7 +376,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getLastPrinted () | Returns the date when a presentation was printed last time. Read/write java.util.Date. |
+| getLastPrinted() | Returns the date when a presentation was printed last time. Read/write java.util.Date. |
 
  **Result:**
 Date
@@ -389,7 +389,7 @@ Date
 
 | Name | Description |
 | --- | --- |
-| getLastSavedBy () | Returns or sets the name of a last person who modified a presentation. Read/write String. |
+| getLastSavedBy() | Returns or sets the name of a last person who modified a presentation. Read/write String. |
 
  **Result:**
 String
@@ -402,7 +402,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getLastSavedTime () | Returns the date a presentation was last modified. Values are in UTC. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method IPresentationInfo#readDocumentProperties Please see the example in IPresentationInfo#updateDocumentProperties(IDocumentProperties) method summary. |
+| getLastSavedTime() | Returns the date a presentation was last modified. Values are in UTC. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method IPresentationInfo#readDocumentProperties Please see the example in IPresentationInfo#updateDocumentProperties(IDocumentProperties) method summary. |
 
  **Result:**
 Date
@@ -415,7 +415,7 @@ Date
 
 | Name | Description |
 | --- | --- |
-| getManager () | Returns or sets the manager property. Read/write String. |
+| getManager() | Returns or sets the manager property. Read/write String. |
 
  **Result:**
 String
@@ -428,7 +428,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getNameOfApplication () | Returns or sets the name of the application. Read/write String. |
+| getNameOfApplication() | Returns or sets the name of the application. Read/write String. |
 
  **Result:**
 String
@@ -441,7 +441,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getPresentationFormat () | Returns or sets the intended format of a presentation. Read/write String. |
+| getPresentationFormat() | Returns or sets the intended format of a presentation. Read/write String. |
 
  **Result:**
 String
@@ -454,7 +454,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getRevisionNumber () | Returns or sets the presentation revision number. Read/write int. |
+| getRevisionNumber() | Returns or sets the presentation revision number. Read/write int. |
 
  **Result:**
 int
@@ -467,7 +467,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getSharedDoc () | Determines whether the presentation is shared between multiple people. Read/write boolean. |
+| getSharedDoc() | Determines whether the presentation is shared between multiple people. Read/write boolean. |
 
  **Result:**
 boolean
@@ -480,7 +480,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSubject () | Returns or sets the subject of a presentation. Read/write String. |
+| getSubject() | Returns or sets the subject of a presentation. Read/write String. |
 
  **Result:**
 String
@@ -493,7 +493,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getTitle () | Returns or sets the title of a presentation. Read/write String. |
+| getTitle() | Returns or sets the title of a presentation. Read/write String. |
 
  **Result:**
 String
@@ -506,7 +506,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getTotalEditingTime () | Total editing time of a presentation. Read/write double. |
+| getTotalEditingTime() | Total editing time of a presentation. Read/write double. |
 
  **Result:**
 double
@@ -519,7 +519,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| get_Item (String) | Returns or sets the custom property associated with a specified name. Read/write Object. Value can be int, float, String, boolean or Date. |
+| get_Item(String) | Returns or sets the custom property associated with a specified name. Read/write Object. Value can be int, float, String, boolean or Date. |
 
  **Result:**
 Object
@@ -532,7 +532,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| removeCustomProperty (String) | Remove a custom property associated with a specified name. |
+| removeCustomProperty(String) | Remove a custom property associated with a specified name. |
 
  **Parameters:**
 
@@ -551,7 +551,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setApplicationTemplate (String) | Returns or sets the template of a application. Read/write String. |
+| setApplicationTemplate(String) | Returns or sets the template of a application. Read/write String. |
 
 
 ---
@@ -561,7 +561,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setAuthor (String) | Returns or sets the author of a presentation. Read/write String. |
+| setAuthor(String) | Returns or sets the author of a presentation. Read/write String. |
 
 
 ---
@@ -571,7 +571,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCategory (String) | Returns or sets the category of a presentation. Read/write String. |
+| setCategory(String) | Returns or sets the category of a presentation. Read/write String. |
 
 
 ---
@@ -581,7 +581,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setComments (String) | Returns or sets the comments of a presentation. Read/write String. |
+| setComments(String) | Returns or sets the comments of a presentation. Read/write String. |
 
 
 ---
@@ -591,7 +591,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCompany (String) | Returns or sets the company property. Read/write String. |
+| setCompany(String) | Returns or sets the company property. Read/write String. |
 
 
 ---
@@ -601,7 +601,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setContentStatus (String) | Returns or sets the content status of a presentation. Read/write String. |
+| setContentStatus(String) | Returns or sets the content status of a presentation. Read/write String. |
 
 
 ---
@@ -611,7 +611,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setContentType (String) | Returns or sets the content type of a presentation. Read/write String. |
+| setContentType(String) | Returns or sets the content type of a presentation. Read/write String. |
 
 
 ---
@@ -621,7 +621,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCreatedTime (Date) | Returns the date a presentation was created. Values are in UTC. Read/write java.util.Date. |
+| setCreatedTime(Date) | Returns the date a presentation was created. Values are in UTC. Read/write java.util.Date. |
 
 
 ---
@@ -631,7 +631,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCustomPropertyValue (String, boolean) | Sets a named boolean custom property. |
+| setCustomPropertyValue(String, boolean) | Sets a named boolean custom property. |
 
  **Parameters:**
 
@@ -648,7 +648,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCustomPropertyValue (String, int) | Sets a named integer custom property. |
+| setCustomPropertyValue(String, int) | Sets a named integer custom property. |
 
  **Parameters:**
 
@@ -665,7 +665,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCustomPropertyValue (String, Date) | Sets a named DateTime custom property. |
+| setCustomPropertyValue(String, Date) | Sets a named DateTime custom property. |
 
  **Parameters:**
 
@@ -682,7 +682,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCustomPropertyValue (String, String) | Sets a named string custom property. |
+| setCustomPropertyValue(String, String) | Sets a named string custom property. |
 
  **Parameters:**
 
@@ -699,7 +699,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCustomPropertyValue (String, float) | Sets a named float custom property. |
+| setCustomPropertyValue(String, float) | Sets a named float custom property. |
 
  **Parameters:**
 
@@ -716,7 +716,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCustomPropertyValue (String, double) | Sets a named double custom property. |
+| setCustomPropertyValue(String, double) | Sets a named double custom property. |
 
  **Parameters:**
 
@@ -733,7 +733,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setHyperlinkBase (String) | Returns or sets the HyperlinkBase document property. Read/write String. |
+| setHyperlinkBase(String) | Returns or sets the HyperlinkBase document property. Read/write String. |
 
 
 ---
@@ -743,7 +743,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setKeywords (String) | Returns or sets the keywords of a presentation. Read/write String. |
+| setKeywords(String) | Returns or sets the keywords of a presentation. Read/write String. |
 
 
 ---
@@ -753,7 +753,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setLastPrinted (Date) | Returns the date when a presentation was printed last time. Read/write java.util.Date. |
+| setLastPrinted(Date) | Returns the date when a presentation was printed last time. Read/write java.util.Date. |
 
 
 ---
@@ -763,7 +763,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setLastSavedBy (String) | Returns or sets the name of a last person who modified a presentation. Read/write String. |
+| setLastSavedBy(String) | Returns or sets the name of a last person who modified a presentation. Read/write String. |
 
 
 ---
@@ -773,7 +773,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setLastSavedTime (Date) | Returns the date a presentation was last modified. Values are in UTC. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method IPresentationInfo#readDocumentProperties Please see the example in IPresentationInfo#updateDocumentProperties(IDocumentProperties) method summary. |
+| setLastSavedTime(Date) | Returns the date a presentation was last modified. Values are in UTC. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method IPresentationInfo#readDocumentProperties Please see the example in IPresentationInfo#updateDocumentProperties(IDocumentProperties) method summary. |
 
 
 ---
@@ -783,7 +783,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setManager (String) | Returns or sets the manager property. Read/write String. |
+| setManager(String) | Returns or sets the manager property. Read/write String. |
 
 
 ---
@@ -793,7 +793,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setNameOfApplication (String) | Returns or sets the name of the application. Read/write String. |
+| setNameOfApplication(String) | Returns or sets the name of the application. Read/write String. |
 
 
 ---
@@ -803,7 +803,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setPresentationFormat (String) | Returns or sets the intended format of a presentation. Read/write String. |
+| setPresentationFormat(String) | Returns or sets the intended format of a presentation. Read/write String. |
 
 
 ---
@@ -813,7 +813,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setRevisionNumber (int) | Returns or sets the presentation revision number. Read/write int. |
+| setRevisionNumber(int) | Returns or sets the presentation revision number. Read/write int. |
 
 
 ---
@@ -823,7 +823,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setSharedDoc (boolean) | Determines whether the presentation is shared between multiple people. Read/write boolean. |
+| setSharedDoc(boolean) | Determines whether the presentation is shared between multiple people. Read/write boolean. |
 
 
 ---
@@ -833,7 +833,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setSubject (String) | Returns or sets the subject of a presentation. Read/write String. |
+| setSubject(String) | Returns or sets the subject of a presentation. Read/write String. |
 
 
 ---
@@ -843,7 +843,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTitle (String) | Returns or sets the title of a presentation. Read/write String. |
+| setTitle(String) | Returns or sets the title of a presentation. Read/write String. |
 
 
 ---
@@ -853,7 +853,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTotalEditingTime (double) | Total editing time of a presentation. Read/write double. |
+| setTotalEditingTime(double) | Total editing time of a presentation. Read/write double. |
 
 
 ---
@@ -863,7 +863,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item (String, Object) | Returns or sets the custom property associated with a specified name. Read/write Object. Value can be int, float, String, boolean or Date. |
+| set_Item(String, Object) | Returns or sets the custom property associated with a specified name. Read/write Object. Value can be int, float, String, boolean or Date. |
 
 
 ---

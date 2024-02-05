@@ -77,7 +77,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| equals (Object) | Determines whether the two Hyperlink instances are equal. |
+| equals(Object) | Determines whether the two Hyperlink instances are equal. |
 
  **Parameters:**
 
@@ -96,7 +96,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| equals ([Hyperlink](../hyperlink)) | Determines whether the two Hyperlink instances are equal. |
+| equals([Hyperlink](../hyperlink)) | Determines whether the two Hyperlink instances are equal. |
 
  **Parameters:**
 
@@ -115,7 +115,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getActionType () | Returns type of Hyperlink's action. Read-only HyperlinkActionType. |
+| getActionType() | Returns type of Hyperlink's action. Read-only HyperlinkActionType. |
 
  **Result:**
 int
@@ -128,7 +128,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getColorSource () | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
+| getColorSource() | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
 
  **Result:**
 int
@@ -141,7 +141,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEndShow () | Returns a hyperlink which ends the show. Read-only Hyperlink. |
+| getEndShow() | Returns a hyperlink which ends the show. Read-only Hyperlink. |
 
  **Result:**
 Hyperlink
@@ -154,7 +154,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getExternalUrl () | Specifies the external URL. Read-only String. |
+| getExternalUrl() | Specifies the external URL. Read-only String. |
 
  **Result:**
 String
@@ -167,7 +167,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getFirstSlide () | Returns a hyperlink to the first slide of the presentation. Read-only Hyperlink. |
+| getFirstSlide() | Returns a hyperlink to the first slide of the presentation. Read-only Hyperlink. |
 
  **Result:**
 Hyperlink
@@ -180,7 +180,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getHighlightClick () | Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
+| getHighlightClick() | Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
 
  **Result:**
 boolean
@@ -193,7 +193,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getHistory () | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
+| getHistory() | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
 
  **Result:**
 boolean
@@ -206,7 +206,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getLastSlide () | Returns a hyperlink to the last slide of the presentation. Read-only Hyperlink. |
+| getLastSlide() | Returns a hyperlink to the last slide of the presentation. Read-only Hyperlink. |
 
  **Result:**
 Hyperlink
@@ -219,7 +219,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getLastVievedSlide () | Returns a hyperlink to the last viewed slide. Read-only Hyperlink. |
+| getLastVievedSlide() | Returns a hyperlink to the last viewed slide. Read-only Hyperlink. |
 
  **Result:**
 Hyperlink
@@ -232,7 +232,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getMedia () | Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame. Read-only Hyperlink. |
+| getMedia() | Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame. Read-only Hyperlink. |
 
  **Result:**
 Hyperlink
@@ -245,7 +245,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getNextSlide () | Returns a hyperlink to the next slide. Read-only Hyperlink. |
+| getNextSlide() | Returns a hyperlink to the next slide. Read-only Hyperlink. |
 
  **Result:**
 Hyperlink
@@ -258,7 +258,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getNoAction () | Returns a special "do nothing" hyperlink. Read-only Hyperlink. |
+| getNoAction() | Returns a special "do nothing" hyperlink. Read-only Hyperlink. |
 
  **Result:**
 Hyperlink
@@ -271,10 +271,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getParent_IPresentationComponent () |  |
-
- **Result:**
-[ColorFormat](../colorformat), [Background](../background), [Blur](../blur), [MasterTheme](../mastertheme), [TextFrameFormat](../textframeformat), [FillFormat](../fillformat), [GroupShape](../groupshape), [LayoutSlide](../layoutslide), [Legend](../legend), [Axis](../axis), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [TextFrame](../textframe), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [ParagraphFormat](../paragraphformat), [SketchFormat](../sketchformat), [Duotone](../duotone), [LineFormat](../lineformat), [BulletFormat](../bulletformat), [AutoShape](../autoshape), [BiLevel](../bilevel), [AudioFrame](../audioframe), [Backdrop3DScene](../backdrop3dscene), [Picture](../picture), [Hyperlink](../hyperlink), [SummaryZoomFrame](../summaryzoomframe), [MasterNotesSlide](../masternotesslide), [ZoomObject](../zoomobject), [AlphaBiLevel](../alphabilevel), [AlphaInverse](../alphainverse), [Tab](../tab), [AlphaReplace](../alphareplace), [PatternFormat](../patternformat), [SectionZoomFrame](../sectionzoomframe), [FormatScheme](../formatscheme), [MathPortion](../mathportion), [Paragraph](../paragraph), [BaseSlide](../baseslide), [ErrorBarsFormat](../errorbarsformat), [DataLabel](../datalabel), [FillOverlay](../filloverlay), [OleObjectFrame](../oleobjectframe), [Column](../column), [Format](../format), [Control](../control), [ColorChange](../colorchange), [OverrideTheme](../overridetheme), [ChartSeriesGroup](../chartseriesgroup), [LegendEntryProperties](../legendentryproperties), [BasePortionFormat](../baseportionformat), [AlphaCeiling](../alphaceiling), [ShapeBevel](../shapebevel), [LegacyDiagram](../legacydiagram), [ColorReplace](../colorreplace), [Tint](../tint), [Presentation](../presentation), [ZoomFrame](../zoomframe), [Field](../field), [ParagraphCollection](../paragraphcollection), [PVIObject](../pviobject), [ChartPortionFormat](../chartportionformat), [Chart](../chart), [Portion](../portion), [DataLabelCollection](../datalabelcollection), [Camera](../camera), [Connector](../connector), [CellCollection](../cellcollection), [VideoFrame](../videoframe), [MasterSlide](../masterslide), [GeometryShape](../geometryshape), [AlphaModulate](../alphamodulate), [NotesSlide](../notesslide), [SmartArt](../smartart), [Cell](../cell), [ImageTransformOperationCollection](../imagetransformoperationcollection), [Trendline](../trendline), [Ink](../ink), [ChartPlotArea](../chartplotarea), [EffectFormat](../effectformat), [AlphaModulateFixed](../alphamodulatefixed), [Shape](../shape), [ThreeDFormat](../threedformat), [Row](../row), [HSL](../hsl), [SummaryZoomSection](../summaryzoomsection), [GradientStopCollection](../gradientstopcollection), [LineFillFormat](../linefillformat), [GradientStop](../gradientstop), [GradientFormat](../gradientformat), [SmartArtShape](../smartartshape), [GrayScale](../grayscale), [Slide](../slide), [LightRig](../lightrig), [CellFormat](../cellformat), [Table](../table), [Theme](../theme), [ChartSeries](../chartseries), [ChartTitle](../charttitle), [DataTable](../datatable), [PictureFillFormat](../picturefillformat), [PictureFrame](../pictureframe), [ColorScheme](../colorscheme), [DataLabelFormat](../datalabelformat), [AlphaFloor](../alphafloor), [MasterHandoutSlide](../masterhandoutslide), [PortionFormat](../portionformat)
+| getParent_IPresentationComponent() |  |
 
 
 ---
@@ -284,10 +281,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getParent_ISlideComponent () |  |
-
- **Result:**
-[ColorFormat](../colorformat), [Background](../background), [Blur](../blur), [TextFrameFormat](../textframeformat), [FillFormat](../fillformat), [GroupShape](../groupshape), [LayoutSlide](../layoutslide), [Legend](../legend), [Axis](../axis), [GraphicalObject](../graphicalobject), [TextStyle](../textstyle), [TextFrame](../textframe), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [ParagraphFormat](../paragraphformat), [SketchFormat](../sketchformat), [Duotone](../duotone), [LineFormat](../lineformat), [BulletFormat](../bulletformat), [AutoShape](../autoshape), [BiLevel](../bilevel), [AudioFrame](../audioframe), [Backdrop3DScene](../backdrop3dscene), [Picture](../picture), [Hyperlink](../hyperlink), [SummaryZoomFrame](../summaryzoomframe), [MasterNotesSlide](../masternotesslide), [ZoomObject](../zoomobject), [AlphaBiLevel](../alphabilevel), [AlphaInverse](../alphainverse), [Tab](../tab), [AlphaReplace](../alphareplace), [PatternFormat](../patternformat), [SectionZoomFrame](../sectionzoomframe), [FormatScheme](../formatscheme), [MathPortion](../mathportion), [Paragraph](../paragraph), [BaseSlide](../baseslide), [ErrorBarsFormat](../errorbarsformat), [DataLabel](../datalabel), [FillOverlay](../filloverlay), [OleObjectFrame](../oleobjectframe), [Column](../column), [Format](../format), [Control](../control), [ColorChange](../colorchange), [ChartSeriesGroup](../chartseriesgroup), [LegendEntryProperties](../legendentryproperties), [BasePortionFormat](../baseportionformat), [AlphaCeiling](../alphaceiling), [ShapeBevel](../shapebevel), [LegacyDiagram](../legacydiagram), [ColorReplace](../colorreplace), [Tint](../tint), [ZoomFrame](../zoomframe), [Field](../field), [ParagraphCollection](../paragraphcollection), [PVIObject](../pviobject), [ChartPortionFormat](../chartportionformat), [Chart](../chart), [Portion](../portion), [DataLabelCollection](../datalabelcollection), [Camera](../camera), [Connector](../connector), [CellCollection](../cellcollection), [VideoFrame](../videoframe), [MasterSlide](../masterslide), [GeometryShape](../geometryshape), [AlphaModulate](../alphamodulate), [NotesSlide](../notesslide), [SmartArt](../smartart), [Cell](../cell), [ImageTransformOperationCollection](../imagetransformoperationcollection), [Trendline](../trendline), [Ink](../ink), [ChartPlotArea](../chartplotarea), [EffectFormat](../effectformat), [AlphaModulateFixed](../alphamodulatefixed), [Shape](../shape), [ThreeDFormat](../threedformat), [Row](../row), [HSL](../hsl), [SummaryZoomSection](../summaryzoomsection), [GradientStopCollection](../gradientstopcollection), [LineFillFormat](../linefillformat), [GradientStop](../gradientstop), [GradientFormat](../gradientformat), [SmartArtShape](../smartartshape), [GrayScale](../grayscale), [Slide](../slide), [LightRig](../lightrig), [CellFormat](../cellformat), [Table](../table), [ChartSeries](../chartseries), [ChartTitle](../charttitle), [DataTable](../datatable), [PictureFillFormat](../picturefillformat), [PictureFrame](../pictureframe), [ColorScheme](../colorscheme), [DataLabelFormat](../datalabelformat), [AlphaFloor](../alphafloor), [MasterHandoutSlide](../masterhandoutslide), [PortionFormat](../portionformat)
+| getParent_ISlideComponent() |  |
 
 
 ---
@@ -297,7 +291,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getPresentation () |  |
+| getPresentation() |  |
 
  **Result:**
 Presentation
@@ -310,7 +304,7 @@ Presentation
 
 | Name | Description |
 | --- | --- |
-| getPreviousSlide () | Returns a hyperlink to the previous slide. Read-only Hyperlink. |
+| getPreviousSlide() | Returns a hyperlink to the previous slide. Read-only Hyperlink. |
 
  **Result:**
 Hyperlink
@@ -323,7 +317,7 @@ Hyperlink
 
 | Name | Description |
 | --- | --- |
-| getSlide () |  |
+| getSlide() |  |
 
  **Result:**
 BaseSlide
@@ -336,7 +330,7 @@ BaseSlide
 
 | Name | Description |
 | --- | --- |
-| getSound () | Represents the playing sound of the hyperlink. Read/write IAudio. |
+| getSound() | Represents the playing sound of the hyperlink. Read/write IAudio. |
 
  **Result:**
 [Audio](../audio)
@@ -349,7 +343,7 @@ BaseSlide
 
 | Name | Description |
 | --- | --- |
-| getStopSoundOnClick () | Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
+| getStopSoundOnClick() | Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
 
  **Result:**
 boolean
@@ -362,7 +356,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getTargetFrame () | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
+| getTargetFrame() | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 
  **Result:**
 String
@@ -375,7 +369,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getTargetSlide () | If the Hyperlink targets specific slide returns this slide. Read-only ISlide. |
+| getTargetSlide() | If the Hyperlink targets specific slide returns this slide. Read-only ISlide. |
 
  **Result:**
 [Slide](../slide)
@@ -388,7 +382,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getTooltip () | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
+| getTooltip() | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
 
  **Result:**
 String
@@ -401,7 +395,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getVersion () |  |
+| getVersion() |  |
 
  **Result:**
 long
@@ -414,7 +408,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getVersion () |  |
+| getVersion() |  |
 
  **Result:**
 long
@@ -427,7 +421,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| hashCode() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
  **Result:**
 int
@@ -440,7 +434,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| op_Equality ([Hyperlink](../hyperlink), [Hyperlink](../hyperlink)) | Tests two hyperlinks for equality. |
+| op_Equality([Hyperlink](../hyperlink), [Hyperlink](../hyperlink)) | Tests two hyperlinks for equality. |
 
  **Parameters:**
 
@@ -460,7 +454,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| op_Inequality ([Hyperlink](../hyperlink), [Hyperlink](../hyperlink)) | Tests two hyperlinks for inequality. |
+| op_Inequality([Hyperlink](../hyperlink), [Hyperlink](../hyperlink)) | Tests two hyperlinks for inequality. |
 
  **Parameters:**
 
@@ -480,7 +474,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setColorSource (int) | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
+| setColorSource(int) | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
 
 
 ---
@@ -490,7 +484,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setHighlightClick (boolean) | Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
+| setHighlightClick(boolean) | Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
 
 
 ---
@@ -500,7 +494,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setHistory (boolean) | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
+| setHistory(boolean) | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
 
 
 ---
@@ -510,7 +504,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setSound ([Audio](../audio)) | Represents the playing sound of the hyperlink. Read/write IAudio. |
+| setSound([Audio](../audio)) | Represents the playing sound of the hyperlink. Read/write IAudio. |
 
 
 ---
@@ -520,7 +514,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setStopSoundOnClick (boolean) | Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
+| setStopSoundOnClick(boolean) | Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
 
 
 ---
@@ -530,7 +524,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTargetFrame (String) | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
+| setTargetFrame(String) | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 
 
 ---
@@ -540,7 +534,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setTooltip (String) | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
+| setTooltip(String) | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
 
 
 ---

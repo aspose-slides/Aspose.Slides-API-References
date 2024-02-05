@@ -28,7 +28,7 @@ InterruptionTokenSource
 
 | Name | Description |
 | --- | --- |
-| getToken () | Returns new token binded to this InterruptionTokenSource. |
+| getToken() | Returns new token binded to this InterruptionTokenSource. |
 
  **Result:**
 InterruptionToken
@@ -41,7 +41,7 @@ InterruptionToken
 
 | Name | Description |
 | --- | --- |
-| interrupt () | Initialize request for interruption. |
+| interrupt() | Initialize request for interruption. |
 
 
 ---
@@ -51,7 +51,7 @@ InterruptionToken
 
 | Name | Description |
 | --- | --- |
-| isInterruptionRequested () | Returns true if interruption requested, false otherwise. |
+| isInterruptionRequested() | Returns true if interruption requested, false otherwise. |
 
  **Result:**
 boolean

@@ -53,7 +53,7 @@ SvgImage
 
 | Name | Description |
 | --- | --- |
-| createSvgImageFromBytes (, Bytes[]) | Creates new SvgImage object. |
+| createSvgImageFromBytes (Bytes[]) | Creates new SvgImage object. |
 
  **Parameters:**
 
@@ -156,7 +156,7 @@ SvgImage
 
 | Name | Description |
 | --- | --- |
-| createSvgImageFromBytes (, Bytes[]) | Creates new SvgImage object. |
+| createSvgImageFromBytes (Bytes[], [ExternalResourceResolver](../externalresourceresolver), String) | Creates new SvgImage object. |
 
  **Parameters:**
 
@@ -177,7 +177,7 @@ SvgImage
 
 | Name | Description |
 | --- | --- |
-| createSvgImageFromBytes (, Bytes[]) | Creates new SvgImage object. |
+| createSvgImageFromBytes (Bytes[], [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
 
  **Parameters:**
 
@@ -198,7 +198,7 @@ SvgImage
 
 | Name | Description |
 | --- | --- |
-| getBaseUri () | Returns base URI of the specified Svg. Used to resolve relative links. Read-only String. |
+| getBaseUri() | Returns base URI of the specified Svg. Used to resolve relative links. Read-only String. |
 
  **Result:**
 String
@@ -211,7 +211,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getExternalResourceResolver () | Return callback interface used to resolve external resources during Svg documents import. Read-only IExternalResourceResolver. |
+| getExternalResourceResolver() | Return callback interface used to resolve external resources during Svg documents import. Read-only IExternalResourceResolver. |
 
  **Result:**
 [ExternalResourceResolver](../externalresourceresolver), [HtmlExternalResolver](../htmlexternalresolver)
@@ -224,7 +224,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getSvgContent () | Returns SVG content. Read-only String. |
+| getSvgContent() | Returns SVG content. Read-only String. |
 
  **Result:**
 String
@@ -237,7 +237,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getSvgData () | Returns SVG data. Read-only byte[]. |
+| getSvgData() | Returns SVG data. Read-only byte[]. |
 
  **Result:**
 byte

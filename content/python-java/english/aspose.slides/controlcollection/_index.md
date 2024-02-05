@@ -15,7 +15,7 @@ url: /aspose.slides/controlcollection/
 
 | Name | Description |
 | --- | --- |
-| addControl (int, float, float, float, float) | Creates and adds a new control to the collection. |
+| addControl(int, float, float, float, float) | Creates and adds a new control to the collection. |
 
  **Parameters:**
 
@@ -38,7 +38,7 @@ url: /aspose.slides/controlcollection/
 
 | Name | Description |
 | --- | --- |
-| clear () | Removes all controls from the collection. |
+| clear() | Removes all controls from the collection. |
 
 
 ---
@@ -48,7 +48,7 @@ url: /aspose.slides/controlcollection/
 
 | Name | Description |
 | --- | --- |
-| getSyncRoot () | Returns a synchronization root. Read-only Object. |
+| getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
  **Result:**
 Object
@@ -61,7 +61,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns a control at the specified position. |
+| get_Item(int) | Returns a control at the specified position. |
 
  **Parameters:**
 
@@ -80,7 +80,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
  **Result:**
 boolean
@@ -93,7 +93,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iterator () | Returns an enumerator that iterates through the collection. |
+| iterator() | Returns an enumerator that iterates through the collection. |
 
  **Result:**
 
@@ -106,7 +106,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| iteratorJava () | Returns a java iterator for the entire collection. |
+| iteratorJava() | Returns a java iterator for the entire collection. |
 
  **Result:**
 
@@ -119,7 +119,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([Control](../control)) | Removes an ActiveX control from the collection. |
+| remove([Control](../control)) | Removes an ActiveX control from the collection. |
 
  **Parameters:**
 
@@ -135,7 +135,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeAt (int) | Removes an ActiveX control stored at specified position from the collection. |
+| removeAt(int) | Removes an ActiveX control stored at specified position from the collection. |
 
  **Parameters:**
 
@@ -151,7 +151,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| size () | Returns a number of objects in the collection. Read-only int. |
+| size() | Returns a number of objects in the collection. Read-only int. |
 
  **Result:**
 int

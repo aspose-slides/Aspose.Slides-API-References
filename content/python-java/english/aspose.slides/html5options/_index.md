@@ -28,7 +28,7 @@ Html5Options
 
 | Name | Description |
 | --- | --- |
-| getAnimateShapes () | Returns or sets shapes animation option. Read/write boolean. |
+| getAnimateShapes() | Returns or sets shapes animation option. Read/write boolean. |
 
  **Result:**
 boolean
@@ -41,7 +41,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getAnimateTransitions () | Returns or sets transitions animation option. Read/write boolean. |
+| getAnimateTransitions() | Returns or sets transitions animation option. Read/write boolean. |
 
  **Result:**
 boolean
@@ -54,7 +54,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont () | Returns or sets font used in case source font is not found. Read-write String. |
+| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
 
  **Result:**
 String
@@ -67,7 +67,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getEmbedImages () | Returns or sets images embedding option. Read/write boolean. |
+| getEmbedImages() | Returns or sets images embedding option. Read/write boolean. |
 
  **Result:**
 boolean
@@ -80,7 +80,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getOutputPath () | Determines where external resources should be stored. Read/write String. |
+| getOutputPath() | Determines where external resources should be stored. Read/write String. |
 
  **Result:**
 String
@@ -93,7 +93,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getProgressCallback () | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
  **Result:**
 IProgressCallback
@@ -106,7 +106,7 @@ IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| getWarningCallback () | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
  **Result:**
 IWarningCallback
@@ -119,7 +119,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setAnimateShapes (boolean) | Returns or sets shapes animation option. Read/write boolean. |
+| setAnimateShapes(boolean) | Returns or sets shapes animation option. Read/write boolean. |
 
 
 ---
@@ -129,7 +129,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setAnimateTransitions (boolean) | Returns or sets transitions animation option. Read/write boolean. |
+| setAnimateTransitions(boolean) | Returns or sets transitions animation option. Read/write boolean. |
 
 
 ---
@@ -139,7 +139,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont (String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -149,7 +149,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setEmbedImages (boolean) | Returns or sets images embedding option. Read/write boolean. |
+| setEmbedImages(boolean) | Returns or sets images embedding option. Read/write boolean. |
 
 
 ---
@@ -159,7 +159,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setOutputPath (String) | Determines where external resources should be stored. Read/write String. |
+| setOutputPath(String) | Determines where external resources should be stored. Read/write String. |
 
 
 ---
@@ -169,7 +169,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setProgressCallback ([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
 
 ---
@@ -179,7 +179,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback ([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

@@ -30,7 +30,7 @@ MathematicalTextFactory
 
 | Name | Description |
 | --- | --- |
-| createMathematicalText () | Create empty mathematical text element |
+| createMathematicalText() | Create empty mathematical text element |
 
  **Result:**
 [MathematicalText](../mathematicaltext)
@@ -43,7 +43,7 @@ MathematicalTextFactory
 
 | Name | Description |
 | --- | --- |
-| createMathematicalText (char) | Create mathematical text element with the specified value |
+| createMathematicalText(char) | Create mathematical text element with the specified value |
 
  **Parameters:**
 
@@ -62,7 +62,7 @@ MathematicalTextFactory
 
 | Name | Description |
 | --- | --- |
-| createMathematicalText (String) | Create empty mathematical text element with the specified value |
+| createMathematicalText(String) | Create empty mathematical text element with the specified value |
 
  **Parameters:**
 
@@ -81,7 +81,7 @@ MathematicalTextFactory
 
 | Name | Description |
 | --- | --- |
-| createMathematicalText (String, [PortionFormat](../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
+| createMathematicalText(String, [PortionFormat](../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
 
  **Parameters:**
 
