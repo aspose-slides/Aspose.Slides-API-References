@@ -1,0 +1,65 @@
+---
+title: VbaProjectFactory
+second_title: Aspose.Sildes for Python via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/vbaprojectfactory/
+---
+
+## VbaProjectFactory class
+
+ Allows to create VBA project via COM interface
+ 
+### VbaProjectFactory {#VbaProjectFactory}
+
+| Name | Description |
+| --- | --- |
+| VbaProjectFactory() |  |
+
+ **Result:**
+VbaProjectFactory
+
+
+---
+
+
+### createVbaProject {#createVbaProject}
+
+| Name | Description |
+| --- | --- |
+| createVbaProject () | Creates new VBA project. |
+
+ **Result:**
+[VbaProject](../vbaproject)
+
+
+---
+
+
+### getInstance {#getInstance}
+
+| Name | Description |
+| --- | --- |
+| getInstance () | VBA project factory static instance. Read-only VbaProjectFactory. |
+
+ **Result:**
+VbaProjectFactory
+
+
+---
+
+
+### readVbaProject {#readVbaProject}
+
+| Name | Description |
+| --- | --- |
+| readVbaProject (byte[]) | Reads VBA project from OLE container. |
+
+ **Result:**
+[VbaProject](../vbaproject)
+
+
+---
+
+
