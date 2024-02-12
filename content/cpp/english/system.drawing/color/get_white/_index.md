@@ -3,7 +3,7 @@ title: get_White()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFFFFFF.
 type: docs
-weight: 2016
+weight: 2029
 url: /system.drawing/color/get_white/
 ---
 ## Color::get_White() method

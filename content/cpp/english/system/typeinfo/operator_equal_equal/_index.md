@@ -3,7 +3,7 @@ title: operator==()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the current and the specified TypeInfo objects are equal.
 type: docs
-weight: 404
+weight: 417
 url: /system/typeinfo/operator_equal_equal/
 ---
 ## TypeInfo::operator==(const TypeInfo\&) const method

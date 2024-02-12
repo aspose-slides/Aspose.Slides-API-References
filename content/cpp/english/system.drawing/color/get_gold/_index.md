@@ -3,7 +3,7 @@ title: get_Gold()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFFD700.
 type: docs
-weight: 872
+weight: 885
 url: /system.drawing/color/get_gold/
 ---
 ## Color::get_Gold() method

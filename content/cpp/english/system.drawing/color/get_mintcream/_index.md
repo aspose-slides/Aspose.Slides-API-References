@@ -3,7 +3,7 @@ title: get_MintCream()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFF5FFFA.
 type: docs
-weight: 1431
+weight: 1444
 url: /system.drawing/color/get_mintcream/
 ---
 ## Color::get_MintCream() method

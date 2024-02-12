@@ -3,7 +3,7 @@ title: Comparison
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a pointer to the method that compares two objects of the same type. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 144
+weight: 157
 url: /system/comparison/
 ---
 ## Comparison class

@@ -3,7 +3,7 @@ title: Details_ArgumentOutOfRangeException
 second_title: Aspose.Slides for C++ API Reference
 description: "ArgumentOutOfRangeException is thrown when a method being invoked is passed an argument that falls out of the expected range of values for that argument. Never create instances of this class manually. Use the ArgumentOutOfRangeException class instead. Never wrap the ArgumentOutOfRangeException class instances into System::SmartPtr."
 type: docs
-weight: 300
+weight: 313
 url: /system/details_argumentoutofrangeexception/
 ---
 ## Details_ArgumentOutOfRangeException class

@@ -3,7 +3,7 @@ title: Default()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the default-constructed instance of the specified type.
 type: docs
-weight: 2055
+weight: 2068
 url: /system/default/
 ---
 ## System::Default() function

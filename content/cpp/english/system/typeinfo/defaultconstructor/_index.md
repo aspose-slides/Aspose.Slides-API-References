@@ -3,7 +3,7 @@ title: DefaultConstructor
 second_title: Aspose.Slides for C++ API Reference
 description: Function pointer to construct type.
 type: docs
-weight: 651
+weight: 664
 url: /system/typeinfo/defaultconstructor/
 ---
 ## DefaultConstructor typedef

@@ -3,7 +3,7 @@ title: DecoderReplacementFallbackPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::Text::DecoderReplacementFallback class."
 type: docs
-weight: 2874
+weight: 2887
 url: /system/decoderreplacementfallbackptr/
 ---
 ## DecoderReplacementFallbackPtr typedef

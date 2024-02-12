@@ -3,7 +3,7 @@ title: CollectionAssertHelper
 second_title: Aspose.Slides for C++ API Reference
 description: Heler API for collection-related operations.
 type: docs
-weight: 1405
+weight: 1418
 url: /system/collectionasserthelper/
 ---
 ## CollectionAssertHelper struct

@@ -3,7 +3,7 @@ title: get_DodgerBlue()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF1E90FF.
 type: docs
-weight: 781
+weight: 794
 url: /system.drawing/color/get_dodgerblue/
 ---
 ## Color::get_DodgerBlue() method

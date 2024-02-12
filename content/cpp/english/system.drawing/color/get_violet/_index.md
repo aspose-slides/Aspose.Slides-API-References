@@ -3,7 +3,7 @@ title: get_Violet()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFEE82EE.
 type: docs
-weight: 1990
+weight: 2003
 url: /system.drawing/color/get_violet/
 ---
 ## Color::get_Violet() method

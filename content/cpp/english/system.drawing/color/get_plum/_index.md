@@ -3,7 +3,7 @@ title: get_Plum()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFDDA0DD.
 type: docs
-weight: 1678
+weight: 1691
 url: /system.drawing/color/get_plum/
 ---
 ## Color::get_Plum() method

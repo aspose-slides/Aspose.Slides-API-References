@@ -3,7 +3,7 @@ title: DayOfWeek
 second_title: Aspose.Slides for C++ API Reference
 description: Enumeration that represents a day of week.
 type: docs
-weight: 2666
+weight: 2679
 url: /system/dayofweek/
 ---
 ## DayOfWeek enum

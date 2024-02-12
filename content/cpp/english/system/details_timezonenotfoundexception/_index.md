@@ -3,7 +3,7 @@ title: Details_TimeZoneNotFoundException
 second_title: Aspose.Slides for C++ API Reference
 description: "TimeZoneNotFoundException is thrown when time zone information is not found. Never create instances of this class manually. Use the TimeZoneNotFoundException class instead. Never wrap the TimeZoneNotFoundException class instances into System::SmartPtr."
 type: docs
-weight: 677
+weight: 690
 url: /system/details_timezonenotfoundexception/
 ---
 ## Details_TimeZoneNotFoundException class

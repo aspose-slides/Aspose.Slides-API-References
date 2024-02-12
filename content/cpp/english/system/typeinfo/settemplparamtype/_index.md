@@ -3,7 +3,7 @@ title: SetTemplParamType()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets template parameter type descritor.
 type: docs
-weight: 573
+weight: 586
 url: /system/typeinfo/settemplparamtype/
 ---
 ## TypeInfo::SetTemplParamType(const TypeInfo\&) method

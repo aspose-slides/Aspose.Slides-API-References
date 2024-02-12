@@ -3,7 +3,7 @@ title: String
 second_title: Aspose.Slides for C++ API Reference
 description: "String class used across the library. Is a substitute for C# System.String when translating code. For optimization reasons, isn't considered an Object subclass. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 1145
+weight: 1158
 url: /system/string/
 ---
 ## String class

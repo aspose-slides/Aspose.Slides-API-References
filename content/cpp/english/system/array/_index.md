@@ -3,7 +3,7 @@ title: Array
 second_title: Aspose.Slides for C++ API Reference
 description: "Class that represents an array data structure. Objects of this class should only be allocated using System::MakeArray() and System::MakeObject() functions. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into System::SmartPtr pointer and use this pointer to pass it to functions as argument."
 type: docs
-weight: 1
+weight: 14
 url: /system/array/
 ---
 ## Array class

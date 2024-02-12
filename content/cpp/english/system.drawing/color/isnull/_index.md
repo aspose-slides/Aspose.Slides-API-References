@@ -3,7 +3,7 @@ title: IsNull()
 second_title: Aspose.Slides for C++ API Reference
 description: Always returns false.
 type: docs
-weight: 144
+weight: 157
 url: /system.drawing/color/isnull/
 ---
 ## Color::IsNull() const method

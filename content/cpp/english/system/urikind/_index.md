@@ -3,7 +3,7 @@ title: UriKind
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the kinds of URIs.
 type: docs
-weight: 2770
+weight: 2783
 url: /system/urikind/
 ---
 ## UriKind enum

@@ -3,7 +3,7 @@ title: cend()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets iterator pointing right after the last const-qualified element (if any) of the collection.
 type: docs
-weight: 222
+weight: 235
 url: /aspose.slides.mathtext/mathparagraph/cend/
 ---
 ## MathParagraph::cend() const method

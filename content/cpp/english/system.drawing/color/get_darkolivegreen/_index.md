@@ -3,7 +3,7 @@ title: get_DarkOliveGreen()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF556B2F.
 type: docs
-weight: 612
+weight: 625
 url: /system.drawing/color/get_darkolivegreen/
 ---
 ## Color::get_DarkOliveGreen() method

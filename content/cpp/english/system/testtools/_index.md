@@ -3,7 +3,7 @@ title: TestTools
 second_title: Aspose.Slides for C++ API Reference
 description: Provides a set of useful methods that check some basic properties of different types and functions.
 type: docs
-weight: 1769
+weight: 1782
 url: /system/testtools/
 ---
 ## TestTools struct

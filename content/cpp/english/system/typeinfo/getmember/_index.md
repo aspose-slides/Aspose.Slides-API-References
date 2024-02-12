@@ -3,7 +3,7 @@ title: GetMember()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets list of the members with specified name.
 type: docs
-weight: 456
+weight: 469
 url: /system/typeinfo/getmember/
 ---
 ## TypeInfo::GetMember(const String\&) const method

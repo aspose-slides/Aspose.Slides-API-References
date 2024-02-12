@@ -3,7 +3,7 @@ title: get_Purple()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF800080.
 type: docs
-weight: 1704
+weight: 1717
 url: /system.drawing/color/get_purple/
 ---
 ## Color::get_Purple() method

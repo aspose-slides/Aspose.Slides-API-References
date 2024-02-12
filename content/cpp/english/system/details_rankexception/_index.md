@@ -3,7 +3,7 @@ title: Details_RankException
 second_title: Aspose.Slides for C++ API Reference
 description: "RankException is thrown when an array argument with the number of dimensions different from the expected is passed to a method. Never create instances of this class manually. Use the RankException class instead. Never wrap the RankException class instances into System::SmartPtr."
 type: docs
-weight: 625
+weight: 638
 url: /system/details_rankexception/
 ---
 ## Details_RankException class

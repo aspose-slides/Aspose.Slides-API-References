@@ -3,7 +3,7 @@ title: SetBaseType()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets base type descritor.
 type: docs
-weight: 560
+weight: 573
 url: /system/typeinfo/setbasetype/
 ---
 ## TypeInfo::SetBaseType(GetTypeInfoFunPtr) method

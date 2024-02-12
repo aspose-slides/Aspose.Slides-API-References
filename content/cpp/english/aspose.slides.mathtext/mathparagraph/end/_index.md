@@ -3,7 +3,7 @@ title: end()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets iterator pointing right after the last element (if any) of the collection.
 type: docs
-weight: 196
+weight: 209
 url: /aspose.slides.mathtext/mathparagraph/end/
 ---
 ## MathParagraph::end() method

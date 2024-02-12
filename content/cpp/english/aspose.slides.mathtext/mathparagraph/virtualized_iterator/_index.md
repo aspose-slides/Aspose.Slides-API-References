@@ -3,7 +3,7 @@ title: virtualized_iterator
 second_title: Aspose.Slides for C++ API Reference
 description: Virtualized type.
 type: docs
-weight: 339
+weight: 352
 url: /aspose.slides.mathtext/mathparagraph/virtualized_iterator/
 ---
 ## virtualized_iterator typedef

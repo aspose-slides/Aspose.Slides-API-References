@@ -3,7 +3,7 @@ title: EnumValuesBase
 second_title: Aspose.Slides for C++ API Reference
 description: A base class for a class that represents meta information of enumeration type.
 type: docs
-weight: 755
+weight: 768
 url: /system/enumvaluesbase/
 ---
 ## EnumValuesBase class

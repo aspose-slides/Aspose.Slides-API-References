@@ -3,7 +3,7 @@ title: get_Fuchsia()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFF00FF.
 type: docs
-weight: 833
+weight: 846
 url: /system.drawing/color/get_fuchsia/
 ---
 ## Color::get_Fuchsia() method

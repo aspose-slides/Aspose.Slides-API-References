@@ -88,6 +88,7 @@ class Color
 | static [Color](./) [get_IndianRed](./get_indianred/)() | Returns a color whose ARGB value in hexadecimal notation is #FFCD5C5C. |
 | static [Color](./) [get_Indigo](./get_indigo/)() | Returns a color whose ARGB value in hexadecimal notation is #FF4B0082. |
 | **bool** [get_IsEmpty](./get_isempty/)() const | Returns a value that indicate if the current object is \"empty\" i.e. does not represent any color. |
+| **bool** [get_IsNamedColor](./get_isnamedcolor/)() const | Returns a value that determines whether the [Color](./) structure represents a named color or a member of the KnownColor enumeration. |
 | static [Color](./) [get_Ivory](./get_ivory/)() | Returns a color whose ARGB value in hexadecimal notation is #FFFFFFF0. |
 | static [Color](./) [get_Khaki](./get_khaki/)() | Returns a color whose ARGB value in hexadecimal notation is #FFF0E68C. |
 | static [Color](./) [get_Lavender](./get_lavender/)() | Returns a color whose ARGB value in hexadecimal notation is #FFE6E6FA. |

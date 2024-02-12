@@ -3,7 +3,7 @@ title: const_iterator
 second_title: Aspose.Slides for C++ API Reference
 description: Const iterator type.
 type: docs
-weight: 313
+weight: 326
 url: /aspose.slides.mathtext/mathparagraph/const_iterator/
 ---
 ## const_iterator typedef

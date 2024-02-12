@@ -3,7 +3,7 @@ title: RemoveShared
 second_title: Aspose.Slides for C++ API Reference
 description: Trait structs to remove SharedPtr/WeakPtr from argument type.
 type: docs
-weight: 1704
+weight: 1717
 url: /system/removeshared/
 ---
 ## RemoveShared struct

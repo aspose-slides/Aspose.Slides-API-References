@@ -3,7 +3,7 @@ title: get_MediumSpringGreen()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF00FA9A.
 type: docs
-weight: 1379
+weight: 1392
 url: /system.drawing/color/get_mediumspringgreen/
 ---
 ## Color::get_MediumSpringGreen() method

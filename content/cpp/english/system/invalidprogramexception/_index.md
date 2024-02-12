@@ -3,7 +3,7 @@ title: InvalidProgramException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3264
+weight: 3277
 url: /system/invalidprogramexception/
 ---
 ## InvalidProgramException typedef
