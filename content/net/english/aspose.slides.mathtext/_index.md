@@ -1,13 +1,13 @@
 ---
 title: Aspose.Slides.MathText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Contains classes for work with mathematical text in Microsoft PowerPoint presentations.
 type: docs
 weight: 120
 url: /aspose.slides.mathtext/
 ---
 
-
+Contains classes for work with mathematical text in Microsoft PowerPoint presentations.
 
 ## Classes
 

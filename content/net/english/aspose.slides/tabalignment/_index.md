@@ -3,7 +3,7 @@ title: TabAlignment
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the tab alignment.
 type: docs
-weight: 10290
+weight: 10300
 url: /aspose.slides/tabalignment/
 ---
 

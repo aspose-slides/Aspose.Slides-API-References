@@ -3,7 +3,7 @@ title: MathParagraph
 second_title: Aspose.Sildes for .NET API Reference
 description: Mathematical paragraph that is a container for mathematical blocks IMathBlock
 type: docs
-weight: 8420
+weight: 8430
 url: /aspose.slides.mathtext/mathparagraph/
 ---
 
@@ -41,6 +41,7 @@ public class MathParagraph : IMathParagraph
 | [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
 | [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Removes the first occurrence of a specific object from the collection/&gt;. |
 | [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Removes an item at the specified index of the collection. |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Gets mathematical equation in LaTeX format |
 | [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Saves content of this [`MathParagraph`](../mathparagraph) as MathML |
 
 ### Examples

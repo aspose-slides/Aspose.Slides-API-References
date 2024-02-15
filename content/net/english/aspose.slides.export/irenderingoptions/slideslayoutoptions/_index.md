@@ -27,11 +27,17 @@ using (Presentation pres = new Presentation("pres.pptx"))
     {
         SlidesLayoutOptions = new HandoutLayoutingOptions
         {
-            Handout = HandoutType.Handouts4Horizontal
+            Handout = HandoutType.Handouts4Horizontal,
+            PrintSlideNumbers = false
         }
     };
     
-    pres.Slides[0].GetThumbnail(options, new Size(1920, 1080)).Save("pres-handout.png");
+    Bitmap[] handoutSlides = pres.GetThumbnails(options);
+    for (var index = 0; index < handoutSlides.Length; index++)
+    {
+        var handoutSllide = handoutSlides[index];
+        handoutSllide.Save($"handout-{index}.png");
+    }
 }
 ```
 

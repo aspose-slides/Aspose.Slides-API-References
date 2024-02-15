@@ -3,7 +3,7 @@ title: PresentationFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create presentation via COM interface
 type: docs
-weight: 9110
+weight: 9120
 url: /aspose.slides/presentationfactory/
 ---
 

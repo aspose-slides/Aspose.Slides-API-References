@@ -3,7 +3,7 @@ title: SlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of a slides.
 type: docs
-weight: 9430
+weight: 9440
 url: /aspose.slides/slidecollection/
 ---
 
@@ -40,7 +40,9 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_5)(string, IExternalResourceResolver, string) | Creates slides from HTML text and adds them to the end of the collection. |
 | [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_3)(TextReader, IExternalResourceResolver, string) | Creates slides from HTML text and adds them to the end of the collection. |
 | [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf)(Stream) | Creates slides from the PDF document and adds them to the end of the collection. |
-| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_1)(string) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_2)(string) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_1)(Stream, PdfImportOptions) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_3)(string, PdfImportOptions) | Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options. |
 | [CopyTo](../../aspose.slides/slidecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](../../aspose.slides/slidecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 | [IndexOf](../../aspose.slides/slidecollection/indexof)(ISlide) | Returns an index of the specified slide in the collection. |

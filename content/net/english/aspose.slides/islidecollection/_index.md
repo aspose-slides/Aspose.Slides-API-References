@@ -37,7 +37,9 @@ public interface ISlideCollection : IGenericCollection<ISlide>
 | [AddFromHtml](../../aspose.slides/islidecollection/addfromhtml#addfromhtml_5)(string, IExternalResourceResolver, string) | Creates slides from HTML text and adds them to the end of the collection. |
 | [AddFromHtml](../../aspose.slides/islidecollection/addfromhtml#addfromhtml_3)(TextReader, IExternalResourceResolver, string) | Creates slides from HTML text and adds them to the end of the collection. |
 | [AddFromPdf](../../aspose.slides/islidecollection/addfrompdf#addfrompdf)(Stream) | Creates slides from the PDF document and adds them to the end of the collection. |
-| [AddFromPdf](../../aspose.slides/islidecollection/addfrompdf#addfrompdf_1)(string) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [AddFromPdf](../../aspose.slides/islidecollection/addfrompdf#addfrompdf_2)(string) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [AddFromPdf](../../aspose.slides/islidecollection/addfrompdf#addfrompdf_1)(Stream, PdfImportOptions) | Creates slides from the PDF document and adds them to the end of the collection. |
+| [AddFromPdf](../../aspose.slides/islidecollection/addfrompdf#addfrompdf_3)(string, PdfImportOptions) | Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options. |
 | [IndexOf](../../aspose.slides/islidecollection/indexof)(ISlide) | Returns an index of the specified slide in the collection. |
 | [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone)(int, ISlide) | Inserts a copy of a specified slide to specified position of the collection. |
 | [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone_1)(int, ISlide, ILayoutSlide) | Inserts a copy of a specified slide to specified position of the collection. |

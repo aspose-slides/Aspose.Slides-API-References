@@ -3,7 +3,7 @@ title: TextAutofitType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents text autofit mode.
 type: docs
-weight: 10380
+weight: 10390
 url: /aspose.slides/textautofittype/
 ---
 

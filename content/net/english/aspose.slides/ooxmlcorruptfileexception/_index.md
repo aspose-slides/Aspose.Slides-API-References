@@ -3,7 +3,7 @@ title: OOXMLCorruptFileException
 second_title: Aspose.Sildes for .NET API Reference
 description: Exception which thrown when Office Open XML file format is corrupted.
 type: docs
-weight: 8700
+weight: 8710
 url: /aspose.slides/ooxmlcorruptfileexception/
 ---
 

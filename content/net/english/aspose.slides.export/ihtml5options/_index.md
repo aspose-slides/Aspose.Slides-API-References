@@ -23,6 +23,7 @@ public interface IHtml5Options : ISaveOptions
 | [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
 | [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Returns or sets images embedding option. Read/write Boolean. |
+| [NotesCommentsLayouting](../../aspose.slides.export/ihtml5options/notescommentslayouting) { get; set; } | Provides options that control how notes and comments is placed in exported document. Read/write [`INotesCommentsLayoutingOptions`](../inotescommentslayoutingoptions). |
 | [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Determines where external resources should be stored. Read/write String. |
 
 ### Examples

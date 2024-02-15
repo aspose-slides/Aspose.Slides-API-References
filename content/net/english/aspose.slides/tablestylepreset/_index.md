@@ -3,7 +3,7 @@ title: TableStylePreset
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents builtin table styles.
 type: docs
-weight: 10340
+weight: 10350
 url: /aspose.slides/tablestylepreset/
 ---
 

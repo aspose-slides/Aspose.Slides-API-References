@@ -21,7 +21,7 @@ public enum NewLineType
 | --- | --- | --- |
 | Windows | `0` |  |
 | Unix | `1` |  |
-| Mac | `2` | Mac (OS 9) new line - \r |
+| Mac | `2` | Mac (OS 9) new line - \\r |
 
 ### Examples
 

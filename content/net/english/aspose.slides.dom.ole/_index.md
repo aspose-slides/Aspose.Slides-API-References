@@ -1,13 +1,13 @@
 ---
 title: Aspose.Slides.DOM.Ole
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Contains classes for work with OLE objects in Microsoft PowerPoint presentations.
 type: docs
 weight: 40
 url: /aspose.slides.dom.ole/
 ---
 
-
+Contains classes for work with OLE objects in Microsoft PowerPoint presentations.
 
 ## Classes
 
