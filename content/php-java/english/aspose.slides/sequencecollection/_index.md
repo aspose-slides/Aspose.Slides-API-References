@@ -15,7 +15,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
+| add ([GraphicalObject](../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -28,7 +28,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([GraphicalObject](../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
+| add ([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -132,7 +132,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([VideoFrame](../videoframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([OleObjectFrame](../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -145,7 +145,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([OleObjectFrame](../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([VideoFrame](../videoframe)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -249,7 +249,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
+| add ([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -262,7 +262,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
+| add ([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)

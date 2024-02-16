@@ -67,13 +67,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Connector](../connector)) | Returns all elements |
+| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Connector](../connector) | IShape to remove. |
+| shape | [GraphicalObject](../graphicalobject) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -86,13 +86,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
+| get_Item ([Connector](../connector)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [GraphicalObject](../graphicalobject) | IShape to remove. |
+| shape | [Connector](../connector) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -238,13 +238,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
+| get_Item ([OleObjectFrame](../oleobjectframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [VideoFrame](../videoframe) | IShape to remove. |
+| shape | [OleObjectFrame](../oleobjectframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -257,13 +257,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([OleObjectFrame](../oleobjectframe)) | Returns all elements |
+| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../oleobjectframe) | IShape to remove. |
+| shape | [VideoFrame](../videoframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -409,13 +409,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([ZoomObject](../zoomobject)) | Returns all elements |
+| get_Item ([LegacyDiagram](../legacydiagram)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomObject](../zoomobject) | IShape to remove. |
+| shape | [LegacyDiagram](../legacydiagram) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -428,13 +428,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([LegacyDiagram](../legacydiagram)) | Returns all elements |
+| get_Item ([ZoomObject](../zoomobject)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [LegacyDiagram](../legacydiagram) | IShape to remove. |
+| shape | [ZoomObject](../zoomobject) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)

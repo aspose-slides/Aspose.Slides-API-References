@@ -63,6 +63,19 @@ boolean
 ---
 
 
+### getNotesCommentsLayouting {#getNotesCommentsLayouting}
+
+| Name | Description |
+| --- | --- |
+| getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. Read/write INotesCommentsLayoutingOptions. |
+
+ **Returns:**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
+
+
+---
+
+
 ### getOutputPath {#getOutputPath}
 
 | Name | Description |
@@ -107,6 +120,19 @@ void
 | Name | Description |
 | --- | --- |
 | setEmbedImages (boolean) | Returns or sets images embedding option. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setNotesCommentsLayouting {#setNotesCommentsLayouting}
+
+| Name | Description |
+| --- | --- |
+| setNotesCommentsLayouting ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Provides options that control how notes and comments is placed in exported document. Read/write INotesCommentsLayoutingOptions. |
 
  **Returns:**
 void

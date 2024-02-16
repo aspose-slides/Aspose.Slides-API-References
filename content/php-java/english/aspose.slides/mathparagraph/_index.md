@@ -269,6 +269,19 @@ void
 ---
 
 
+### toLatex {#toLatex}
+
+| Name | Description |
+| --- | --- |
+| toLatex () | Gets mathematical equation in LaTeX format |
+
+ **Returns:**
+String
+
+
+---
+
+
 ### writeAsMathMl {#writeAsMathMl}
 
 | Name | Description |

@@ -249,13 +249,13 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([SoftEdge](../softedge)) | Adds the new image effect to the end of a collection. |
+| addItem ([HSL](../hsl)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [SoftEdge](../softedge) | The image effect to add to the end of a collection. |
+| operation | [HSL](../hsl) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -268,13 +268,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([HSL](../hsl)) | Adds the new image effect to the end of a collection. |
+| addItem ([SoftEdge](../softedge)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [HSL](../hsl) | The image effect to add to the end of a collection. |
+| operation | [SoftEdge](../softedge) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -572,25 +572,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([PresetShadow](../presetshadow)) | Adds the new image effect to the end of a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [PresetShadow](../presetshadow) | The image effect to add to the end of a collection. |
-
- **Returns:**
-void
-
-
----
-
-
-### addItem {#addItem}
-
-| Name | Description |
-| --- | --- |
 | addItem ([AlphaReplace](../alphareplace)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
@@ -610,13 +591,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([ColorReplace](../colorreplace)) | Adds the new image effect to the end of a collection. |
+| addItem ([PresetShadow](../presetshadow)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [ColorReplace](../colorreplace) | The image effect to add to the end of a collection. |
+| operation | [PresetShadow](../presetshadow) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -636,6 +617,25 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [BiLevel](../bilevel) | The image effect to add to the end of a collection. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### addItem {#addItem}
+
+| Name | Description |
+| --- | --- |
+| addItem ([ColorReplace](../colorreplace)) | Adds the new image effect to the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [ColorReplace](../colorreplace) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -739,13 +739,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| containsItem ([SoftEdge](../softedge)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([HSL](../hsl)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SoftEdge](../softedge) | The object to locate in the IGenericCollection. |
+| item | [HSL](../hsl) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -758,13 +758,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([HSL](../hsl)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([SoftEdge](../softedge)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [HSL](../hsl) | The object to locate in the IGenericCollection. |
+| item | [SoftEdge](../softedge) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1062,25 +1062,6 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([PresetShadow](../presetshadow)) | Determines whether the IGenericCollection contains a specific value. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [PresetShadow](../presetshadow) | The object to locate in the IGenericCollection. |
-
- **Returns:**
-boolean
-
-
----
-
-
-### containsItem {#containsItem}
-
-| Name | Description |
-| --- | --- |
 | containsItem ([AlphaReplace](../alphareplace)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
@@ -1100,13 +1081,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([ColorReplace](../colorreplace)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([PresetShadow](../presetshadow)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorReplace](../colorreplace) | The object to locate in the IGenericCollection. |
+| item | [PresetShadow](../presetshadow) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1126,6 +1107,25 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [BiLevel](../bilevel) | The object to locate in the IGenericCollection. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### containsItem {#containsItem}
+
+| Name | Description |
+| --- | --- |
+| containsItem ([ColorReplace](../colorreplace)) | Determines whether the IGenericCollection contains a specific value. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ColorReplace](../colorreplace) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1224,7 +1224,7 @@ long
 | index | int | Index of element. |
 
  **Returns:**
-[SoftEdge](../softedge), [HSL](../hsl), [ImageTransformOperation](../imagetransformoperation), [AlphaBiLevel](../alphabilevel), [InnerShadow](../innershadow), [ColorChange](../colorchange), [AlphaModulate](../alphamodulate), [Reflection](../reflection), [Glow](../glow), [AlphaModulateFixed](../alphamodulatefixed), [AlphaFloor](../alphafloor), [GrayScale](../grayscale), [Duotone](../duotone), [Luminance](../luminance), [AlphaInverse](../alphainverse), [AlphaCeiling](../alphaceiling), [OuterShadow](../outershadow), [Blur](../blur), [PresetShadow](../presetshadow), [AlphaReplace](../alphareplace), [ColorReplace](../colorreplace), [BiLevel](../bilevel), [Tint](../tint), [FillOverlay](../filloverlay)
+[HSL](../hsl), [ImageTransformOperation](../imagetransformoperation), [SoftEdge](../softedge), [AlphaBiLevel](../alphabilevel), [InnerShadow](../innershadow), [ColorChange](../colorchange), [AlphaModulate](../alphamodulate), [Reflection](../reflection), [Glow](../glow), [AlphaModulateFixed](../alphamodulatefixed), [AlphaFloor](../alphafloor), [GrayScale](../grayscale), [Duotone](../duotone), [Luminance](../luminance), [AlphaInverse](../alphainverse), [AlphaCeiling](../alphaceiling), [OuterShadow](../outershadow), [Blur](../blur), [AlphaReplace](../alphareplace), [PresetShadow](../presetshadow), [BiLevel](../bilevel), [ColorReplace](../colorreplace), [Tint](../tint), [FillOverlay](../filloverlay)
 
 
 ---
@@ -1292,13 +1292,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeItem ([SoftEdge](../softedge)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([HSL](../hsl)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SoftEdge](../softedge) | The object to remove from the IGenericCollection. |
+| item | [HSL](../hsl) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1317,13 +1317,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([HSL](../hsl)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([SoftEdge](../softedge)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [HSL](../hsl) | The object to remove from the IGenericCollection. |
+| item | [SoftEdge](../softedge) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1717,31 +1717,6 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([PresetShadow](../presetshadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [PresetShadow](../presetshadow) | The object to remove from the IGenericCollection. |
-
- **Returns:**
-boolean
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | The IGenericCollection is read-only. |
-
-
----
-
-
-### removeItem {#removeItem}
-
-| Name | Description |
-| --- | --- |
 | removeItem ([AlphaReplace](../alphareplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
@@ -1767,13 +1742,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([ColorReplace](../colorreplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([PresetShadow](../presetshadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorReplace](../colorreplace) | The object to remove from the IGenericCollection. |
+| item | [PresetShadow](../presetshadow) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1799,6 +1774,31 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [BiLevel](../bilevel) | The object to remove from the IGenericCollection. |
+
+ **Returns:**
+boolean
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | The IGenericCollection is read-only. |
+
+
+---
+
+
+### removeItem {#removeItem}
+
+| Name | Description |
+| --- | --- |
+| removeItem ([ColorReplace](../colorreplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ColorReplace](../colorreplace) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
