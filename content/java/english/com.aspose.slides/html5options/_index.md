@@ -49,6 +49,8 @@ Represents a HTML5 exporting options.
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
 | [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
+| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
+| [setNotesCommentsLayouting(INotesCommentsLayoutingOptions value)](#setNotesCommentsLayouting-com.aspose.slides.INotesCommentsLayoutingOptions-) | Provides options that control how notes and comments is placed in exported document. |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
@@ -274,4 +276,67 @@ Determines where external resources should be stored. Read/write String.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
+```
+public final INotesCommentsLayoutingOptions getNotesCommentsLayouting()
+```
+
+
+Provides options that control how notes and comments is placed in exported document. Read/write [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("test.pptx");
+>  try {
+>      NotesCommentsLayoutingOptions notesCommentsLayoutingOptions = new NotesCommentsLayoutingOptions();
+>      notesCommentsLayoutingOptions.setNotesPosition(NotesPositions.BottomTruncated);
+> 
+>      Html5Options html5Options = new Html5Options();
+>      html5Options.setOutputPath("test_pptx");
+>      html5Options.setNotesCommentsLayouting(notesCommentsLayoutingOptions);
+> 
+>      pres.save("index.html", SaveFormat.Html5, html5Options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+### setNotesCommentsLayouting(INotesCommentsLayoutingOptions value) {#setNotesCommentsLayouting-com.aspose.slides.INotesCommentsLayoutingOptions-}
+```
+public final void setNotesCommentsLayouting(INotesCommentsLayoutingOptions value)
+```
+
+
+Provides options that control how notes and comments is placed in exported document. Read/write [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("test.pptx");
+>  try {
+>      NotesCommentsLayoutingOptions notesCommentsLayoutingOptions = new NotesCommentsLayoutingOptions();
+>      notesCommentsLayoutingOptions.setNotesPosition(NotesPositions.BottomTruncated);
+> 
+>      Html5Options html5Options = new Html5Options();
+>      html5Options.setOutputPath("test_pptx");
+>      html5Options.setNotesCommentsLayouting(notesCommentsLayoutingOptions);
+> 
+>      pres.save("index.html", SaveFormat.Html5, html5Options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) |  |
 
