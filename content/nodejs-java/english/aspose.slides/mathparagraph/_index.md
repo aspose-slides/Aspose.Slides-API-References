@@ -251,6 +251,19 @@ boolean
 ---
 
 
+### toLatex {#toLatex}
+
+| Name | Description |
+| --- | --- |
+| toLatex () | Gets mathematical equation in LaTeX format |
+
+ **Result:**
+String
+
+
+---
+
+
 ### writeAsMathMlToStream  {#writeAsMathMlToStream }
 
 | Name | Description |

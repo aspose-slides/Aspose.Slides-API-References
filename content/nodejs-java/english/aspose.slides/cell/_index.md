@@ -239,7 +239,7 @@ int
 | getSlide () | Returns the parent slide of a cell. Read-only IBaseSlide. |
 
  **Result:**
-[NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide)
+[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [Slide](../slide)
 
 
 ---
