@@ -3,7 +3,7 @@ title: Details_SystemException
 second_title: Aspose.Slides for C++ API Reference
 description: "A base class for classes that represent system (rather than application) exceptions. Never create instances of this class manually. Use the SystemException class instead. Never wrap the SystemException class instances into System::SmartPtr."
 type: docs
-weight: 651
+weight: 664
 url: /system/details_systemexception/
 ---
 ## Details_SystemException class

@@ -3,7 +3,7 @@ title: get_Bisque()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFFE4C4.
 type: docs
-weight: 326
+weight: 339
 url: /system.drawing/color/get_bisque/
 ---
 ## Color::get_Bisque() method

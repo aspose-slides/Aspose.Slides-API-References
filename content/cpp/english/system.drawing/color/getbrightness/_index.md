@@ -3,7 +3,7 @@ title: GetBrightness()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the brightness component of the color reprsented by the current object.
 type: docs
-weight: 105
+weight: 118
 url: /system.drawing/color/getbrightness/
 ---
 ## Color::GetBrightness() method

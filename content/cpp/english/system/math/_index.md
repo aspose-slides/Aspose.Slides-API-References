@@ -3,7 +3,7 @@ title: Math
 second_title: Aspose.Slides for C++ API Reference
 description: Contains math functions. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 1639
+weight: 1652
 url: /system/math/
 ---
 ## Math struct

@@ -3,7 +3,7 @@ title: get_SlateGray()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF708090.
 type: docs
-weight: 1873
+weight: 1886
 url: /system.drawing/color/get_slategray/
 ---
 ## Color::get_SlateGray() method

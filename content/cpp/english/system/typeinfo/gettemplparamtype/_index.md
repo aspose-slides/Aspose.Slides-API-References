@@ -3,7 +3,7 @@ title: GetTemplParamType()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets template parameter type descritor.
 type: docs
-weight: 586
+weight: 599
 url: /system/typeinfo/gettemplparamtype/
 ---
 ## TypeInfo::GetTemplParamType() const method

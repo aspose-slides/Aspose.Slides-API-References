@@ -3,7 +3,7 @@ title: Environment
 second_title: Aspose.Slides for C++ API Reference
 description: Environment services. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 1483
+weight: 1496
 url: /system/environment/
 ---
 ## Environment struct

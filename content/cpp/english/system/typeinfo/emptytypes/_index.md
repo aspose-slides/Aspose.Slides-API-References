@@ -3,7 +3,7 @@ title: EmptyTypes
 second_title: Aspose.Slides for C++ API Reference
 description: Constant representing empty list of TypeInfo.
 type: docs
-weight: 638
+weight: 651
 url: /system/typeinfo/emptytypes/
 ---
 ## EmptyTypes field

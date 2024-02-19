@@ -3,7 +3,7 @@ title: begin()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets iterator pointing to the first element (if any) of the collection.
 type: docs
-weight: 183
+weight: 196
 url: /aspose.slides.mathtext/mathparagraph/begin/
 ---
 ## MathParagraph::begin() method

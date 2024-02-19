@@ -3,7 +3,7 @@ title: get_BlanchedAlmond()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFFEBCD.
 type: docs
-weight: 352
+weight: 365
 url: /system.drawing/color/get_blanchedalmond/
 ---
 ## Color::get_BlanchedAlmond() method

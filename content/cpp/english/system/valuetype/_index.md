@@ -3,7 +3,7 @@ title: ValueType
 second_title: Aspose.Slides for C++ API Reference
 description: "Baseclass for value types with Object inheritance being truncated for performance reasons. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 1314
+weight: 1327
 url: /system/valuetype/
 ---
 ## ValueType class

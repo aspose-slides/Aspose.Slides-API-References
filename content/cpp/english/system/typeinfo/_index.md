@@ -3,7 +3,7 @@ title: TypeInfo
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a particular type and provides information about it.
 type: docs
-weight: 1249
+weight: 1262
 url: /system/typeinfo/
 ---
 ## TypeInfo class
@@ -51,6 +51,7 @@ class TypeInfo
 | [ArrayPtr](../arrayptr/)\<[ObjectPtr](../smartptr/)\> [GetCustomAttributes](./getcustomattributes/)(const [TypeInfo](./)\&, **bool**) const | Returns an array containing objects that represent specific attributes applied to the type. |
 | [TypeInfo](./) [GetElementType](./getelementtype/)() const | NOT IMPLEMENTED. |
 | [ArrayPtr](../arrayptr/)\<[SharedPtr](../sharedptr/)\<[System::Reflection::FieldInfo](../../system.reflection/fieldinfo/)\>\> [GetFields](./getfields/)([System::Reflection::BindingFlags](../../system.reflection/bindingflags/)) const | Searches for the fields defined for the current Type, using the specified binding constraints. |
+| [ArrayPtr](../arrayptr/)\<[TypeInfo](./)\> [GetGenericArguments](./getgenericarguments/)() const | Gets an array of the generic type arguments for this type. |
 | int [GetHashCode](./gethashcode/)() const | Returns a hash code associated with this instance. |
 | [ArrayPtr](../arrayptr/)\<[TypeInfo](./)\> [GetInterfaces](./getinterfaces/)() const | Gets all the interfaces implemented or inherited by the current Type. |
 | [ArrayPtr](../arrayptr/)\<[SharedPtr](../sharedptr/)\<[System::Reflection::MemberInfo](../../system.reflection/memberinfo/)\>\> [GetMember](./getmember/)(const [String](../string/)\&) const | Gets list of the members with specified name. |

@@ -3,7 +3,7 @@ title: get_GreenYellow()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFADFF2F.
 type: docs
-weight: 924
+weight: 937
 url: /system.drawing/color/get_greenyellow/
 ---
 ## Color::get_GreenYellow() method

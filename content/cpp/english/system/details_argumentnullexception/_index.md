@@ -3,7 +3,7 @@ title: Details_ArgumentNullException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 287
+weight: 300
 url: /system/details_argumentnullexception/
 ---
 ## Details_ArgumentNullException class

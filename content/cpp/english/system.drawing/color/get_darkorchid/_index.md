@@ -3,7 +3,7 @@ title: get_DarkOrchid()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF9932CC.
 type: docs
-weight: 638
+weight: 651
 url: /system.drawing/color/get_darkorchid/
 ---
 ## Color::get_DarkOrchid() method

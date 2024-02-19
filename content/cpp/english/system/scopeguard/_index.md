@@ -3,7 +3,7 @@ title: ScopeGuard
 second_title: Aspose.Slides for C++ API Reference
 description: The service class that provides services for running a particular function object when an instance of the class goes out of scope.
 type: docs
-weight: 1730
+weight: 1743
 url: /system/scopeguard/
 ---
 ## ScopeGuard struct

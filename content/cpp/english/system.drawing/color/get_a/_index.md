@@ -3,7 +3,7 @@ title: get_A()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the value of the alpha component of the color represented by the current object.
 type: docs
-weight: 79
+weight: 92
 url: /system.drawing/color/get_a/
 ---
 ## Color::get_A() const method

@@ -3,7 +3,7 @@ title: get_DarkCyan()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF008B8B.
 type: docs
-weight: 534
+weight: 547
 url: /system.drawing/color/get_darkcyan/
 ---
 ## Color::get_DarkCyan() method

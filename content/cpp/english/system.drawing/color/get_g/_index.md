@@ -3,7 +3,7 @@ title: get_G()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the value of the green component of the color represented by the current object.
 type: docs
-weight: 53
+weight: 66
 url: /system.drawing/color/get_g/
 ---
 ## Color::get_G() const method

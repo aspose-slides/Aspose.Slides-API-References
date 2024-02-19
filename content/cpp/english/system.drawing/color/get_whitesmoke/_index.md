@@ -3,7 +3,7 @@ title: get_WhiteSmoke()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFF5F5F5.
 type: docs
-weight: 2029
+weight: 2042
 url: /system.drawing/color/get_whitesmoke/
 ---
 ## Color::get_WhiteSmoke() method

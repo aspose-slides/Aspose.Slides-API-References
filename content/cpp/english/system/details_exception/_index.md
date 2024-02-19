@@ -3,7 +3,7 @@ title: Details_Exception
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents an exception. Never create instances of this class manually. Use the Exception class instead. Never wrap the Exception class instances into System::SmartPtr."
 type: docs
-weight: 365
+weight: 378
 url: /system/details_exception/
 ---
 ## Details_Exception class

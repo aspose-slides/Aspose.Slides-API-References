@@ -3,7 +3,7 @@ title: WeakPtrFromTypeParameter
 second_title: Aspose.Slides for C++ API Reference
 description: Trait struct to convert argument type to a weak-pointer, if it is a pointer type.
 type: docs
-weight: 1847
+weight: 1860
 url: /system/weakptrfromtypeparameter/
 ---
 ## WeakPtrFromTypeParameter struct

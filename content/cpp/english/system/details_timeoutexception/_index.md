@@ -3,7 +3,7 @@ title: Details_TimeoutException
 second_title: Aspose.Slides for C++ API Reference
 description: "TimeoutException indicates if the time that is allotted for a process or operation is expired. Never create instances of this class manually. Use the TimeoutException class instead. Never wrap the TimeoutException class instances into System::SmartPtr."
 type: docs
-weight: 664
+weight: 677
 url: /system/details_timeoutexception/
 ---
 ## Details_TimeoutException class

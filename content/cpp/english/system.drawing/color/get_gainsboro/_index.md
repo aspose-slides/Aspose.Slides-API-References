@@ -3,7 +3,7 @@ title: get_Gainsboro()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFDCDCDC.
 type: docs
-weight: 846
+weight: 859
 url: /system.drawing/color/get_gainsboro/
 ---
 ## Color::get_Gainsboro() method

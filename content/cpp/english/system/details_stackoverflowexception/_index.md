@@ -3,7 +3,7 @@ title: Details_StackOverflowException
 second_title: Aspose.Slides for C++ API Reference
 description: "StackOverflowException is thrown when the thread's execution stack overflows. Never create instances of this class manually. Use the StackOverflowException class instead. Never wrap the StackOverflowException class instances into System::SmartPtr."
 type: docs
-weight: 638
+weight: 651
 url: /system/details_stackoverflowexception/
 ---
 ## Details_StackOverflowException class

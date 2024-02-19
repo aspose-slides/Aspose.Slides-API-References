@@ -3,7 +3,7 @@ title: Byte
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the unsigned 8-bit integer.
 type: docs
-weight: 118
+weight: 131
 url: /system/byte/
 ---
 ## Byte class

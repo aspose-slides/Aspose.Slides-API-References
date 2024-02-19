@@ -3,7 +3,7 @@ title: WeakReference<>
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a weak reference, which references an object while still allowing that object to be deleted.
 type: docs
-weight: 1379
+weight: 1392
 url: /system/weakreference_tmpl_end_tmpl/
 ---
 ## WeakReference<> class

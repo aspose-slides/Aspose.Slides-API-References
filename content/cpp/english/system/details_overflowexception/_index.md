@@ -3,7 +3,7 @@ title: Details_OverflowException
 second_title: Aspose.Slides for C++ API Reference
 description: "OverflowException is thrown when an operation results in an overflow. Never create instances of this class manually. Use the OverflowException class instead. Never wrap the OverflowException class instances into System::SmartPtr."
 type: docs
-weight: 599
+weight: 612
 url: /system/details_overflowexception/
 ---
 ## Details_OverflowException class

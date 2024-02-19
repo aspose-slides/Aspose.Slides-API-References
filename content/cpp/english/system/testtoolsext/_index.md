@@ -3,7 +3,7 @@ title: TestToolsExt
 second_title: Aspose.Slides for C++ API Reference
 description: Common functions to be used by testing translation.
 type: docs
-weight: 1782
+weight: 1795
 url: /system/testtoolsext/
 ---
 ## TestToolsExt struct

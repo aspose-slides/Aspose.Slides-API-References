@@ -13,6 +13,7 @@ url: /system/
 
 | Class | Description |
 | --- | --- |
+| [Activator](./activator/) | Contains methods to create types of objects. |
 | [Array](./array/) | Class that represents an array data structure. Objects of this class should only be allocated using [System::MakeArray()](./makearray/) and [System::MakeObject()](./makeobject/) functions. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [ArraySegment](./arraysegment/) | Represents a segment of the one-dimensional array. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Attribute](./attribute/) | A base class for custom attributes. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |

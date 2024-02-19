@@ -3,7 +3,7 @@ title: Details_UnauthorizedAccessException
 second_title: Aspose.Slides for C++ API Reference
 description: "UnauthorizedAccessException is thrown when access is denied by the operating system because of an I/O error or a security error. Never create instances of this class manually. Use the UnauthorizedAccessException class instead. Never wrap the UnauthorizedAccessException class instances into System::SmartPtr."
 type: docs
-weight: 703
+weight: 716
 url: /system/details_unauthorizedaccessexception/
 ---
 ## Details_UnauthorizedAccessException class

@@ -3,7 +3,7 @@ title: get_Silver()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFC0C0C0.
 type: docs
-weight: 1834
+weight: 1847
 url: /system.drawing/color/get_silver/
 ---
 ## Color::get_Silver() method

@@ -3,7 +3,7 @@ title: Details_IndexOutOfRangeException
 second_title: Aspose.Slides for C++ API Reference
 description: "IndexOutOfRangeException is thrown when an access to an element of a collection is attempted using an index that is outside its bounds. Never create instances of this class manually. Use the IndexOutOfRangeException class instead. Never wrap the IndexOutOfRangeException class instances into System::SmartPtr."
 type: docs
-weight: 430
+weight: 443
 url: /system/details_indexoutofrangeexception/
 ---
 ## Details_IndexOutOfRangeException class

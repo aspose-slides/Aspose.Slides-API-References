@@ -3,7 +3,7 @@ title: GetInterfaces()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets all the interfaces implemented or inherited by the current Type.
 type: docs
-weight: 313
+weight: 326
 url: /system/typeinfo/getinterfaces/
 ---
 ## TypeInfo::GetInterfaces() const method

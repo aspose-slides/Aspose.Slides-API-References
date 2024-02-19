@@ -3,7 +3,7 @@ title: get_DarkKhaki()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFBDB76B.
 type: docs
-weight: 586
+weight: 599
 url: /system.drawing/color/get_darkkhaki/
 ---
 ## Color::get_DarkKhaki() method

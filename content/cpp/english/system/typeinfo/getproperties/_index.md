@@ -3,7 +3,7 @@ title: GetProperties()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns all the public properties of the current Type.
 type: docs
-weight: 495
+weight: 508
 url: /system/typeinfo/getproperties/
 ---
 ## TypeInfo::GetProperties() const method

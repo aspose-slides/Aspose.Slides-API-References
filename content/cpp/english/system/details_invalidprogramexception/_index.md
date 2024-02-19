@@ -3,7 +3,7 @@ title: Details_InvalidProgramException
 second_title: Aspose.Slides for C++ API Reference
 description: "InvalidProgramException is present for compatibility reasons only. Never create instances of this class manually. Use the InvalidProgramException class instead. Never wrap the InvalidProgramException class instances into System::SmartPtr."
 type: docs
-weight: 469
+weight: 482
 url: /system/details_invalidprogramexception/
 ---
 ## Details_InvalidProgramException class

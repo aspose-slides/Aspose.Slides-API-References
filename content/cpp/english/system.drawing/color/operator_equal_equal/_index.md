@@ -3,7 +3,7 @@ title: operator==()
 second_title: Aspose.Slides for C++ API Reference
 description: Always returns false.
 type: docs
-weight: 157
+weight: 170
 url: /system.drawing/color/operator_equal_equal/
 ---
 ## Color::operator==(const std::nullptr_t\&) const method

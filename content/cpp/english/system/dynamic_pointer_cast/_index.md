@@ -3,7 +3,7 @@ title: dynamic_pointer_cast()
 second_title: Aspose.Slides for C++ API Reference
 description: Casts smart pointers using dynamic_cast.
 type: docs
-weight: 2523
+weight: 2536
 url: /system/dynamic_pointer_cast/
 ---
 ## System::dynamic_pointer_cast(SmartPtr\<X\> const\&) function

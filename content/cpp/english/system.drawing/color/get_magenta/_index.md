@@ -3,7 +3,7 @@ title: get_Magenta()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFF00FF.
 type: docs
-weight: 1275
+weight: 1288
 url: /system.drawing/color/get_magenta/
 ---
 ## Color::get_Magenta() method

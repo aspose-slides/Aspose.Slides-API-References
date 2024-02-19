@@ -3,7 +3,7 @@ title: get_LightCyan()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFE0FFFF.
 type: docs
-weight: 1093
+weight: 1106
 url: /system.drawing/color/get_lightcyan/
 ---
 ## Color::get_LightCyan() method
