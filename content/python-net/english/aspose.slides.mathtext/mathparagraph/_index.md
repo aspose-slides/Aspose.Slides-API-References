@@ -38,6 +38,7 @@ The MathParagraph type exposes the following members:
 |insert(index, math_block)|Inserts IMathBlock into the collection at the specified index.|
 |remove_at(index)|Removes an item at the specified index of the collection.|
 |write_as_math_ml(stream)|Saves content of this [MathParagraph](/slides/python-net/aspose.slides.mathtext/mathparagraph/) as MathML|
+|to_latex()|Gets mathematical equation in LaTeX format|
 
 ### See Also
 

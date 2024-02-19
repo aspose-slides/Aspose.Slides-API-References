@@ -26,6 +26,7 @@ The IMathParagraph type exposes the following members:
 | Name | Description |
 | :- | :- |
 |write_as_math_ml(stream)|Saves content of this [IMathParagraph](/slides/python-net/aspose.slides.mathtext/imathparagraph/) as MathML|
+|to_latex()|Gets mathematical equation in LaTeX format|
 |add(item)|Adds IMathBlock to the end of collection.|
 |insert(index, item)|Inserts IMathBlock into the collection at the specified index.|
 |remove(item)|Removes the first occurrence of a specific object from the collection/>.|

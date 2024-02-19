@@ -18,6 +18,7 @@ The IHtml5Options type exposes the following members:
 |animate_shapes|Returns or sets shapes animation option.<br/>            Read/write bool.|
 |embed_images|Returns or sets images embedding option. <br/>            Read/write bool.|
 |output_path|Determines where external resources should be stored. <br/>            Read/write string.|
+|notes_comments_layouting|Provides options that control how notes and comments is placed in exported document.<br/>            Read/write [INotesCommentsLayoutingOptions](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions/).|
 |as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
 |warning_callback|Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
 |progress_callback|Represents a callback object for saving progress updates in percentage. <br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|
