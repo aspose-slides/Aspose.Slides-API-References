@@ -28,6 +28,7 @@ class IHyperlink : public virtual System::Object
 | virtual [HyperlinkActionType](../hyperlinkactiontype/) [get_ActionType](./get_actiontype/)() | Returns type of HyperLinkEx's action. Read-only [HyperlinkActionType](../hyperlinkactiontype/). |
 | virtual [HyperlinkColorSource](../hyperlinkcolorsource/) [get_ColorSource](./get_colorsource/)() | Represents the source of hyperlink color - either styles or portion format. Read [HyperlinkColorSource](../hyperlinkcolorsource/). |
 | virtual [System::String](../../system/string/) [get_ExternalUrl](./get_externalurl/)() | Specifies the external URL If this property become not null then property TargetSlide become null. Read-only [System::String](../../system/string/). |
+| virtual [System::String](../../system/string/) [get_ExternalUrlOriginal](./get_externalurloriginal/)() | Represents a hyperlink that is set for this portion without regard to the actual content of the portion. |
 | virtual **bool** [get_HighlightClick](./get_highlightclick/)() | Determines whether the hyperlink should be highlighted on click. Read **bool**. |
 | virtual **bool** [get_History](./get_history/)() | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read **bool**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IAudio](../iaudio/)\> [get_Sound](./get_sound/)() | Represents the playing sound of the hyperlink. Read [IAudio](../iaudio/). |

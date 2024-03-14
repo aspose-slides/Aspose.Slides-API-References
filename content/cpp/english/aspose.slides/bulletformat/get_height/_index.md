@@ -15,6 +15,10 @@ Returns the bullet height of a paragraph with no inheritance. Value std::numeric
 float Aspose::Slides::BulletFormat::get_Height() override
 ```
 
+## Remarks
+
+
+A negative height value means that the height is given in points and a positive value means the height is a percentage of the surrounding text. 
 ## See Also
 
 * Class [BulletFormat](../)

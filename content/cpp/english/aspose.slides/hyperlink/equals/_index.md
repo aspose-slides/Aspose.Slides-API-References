@@ -3,7 +3,7 @@ title: Equals()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the two Hyperlink instances are equal.
 type: docs
-weight: 339
+weight: 352
 url: /aspose.slides/hyperlink/equals/
 ---
 ## Hyperlink::Equals(System::SharedPtr\<System::Object\>) method

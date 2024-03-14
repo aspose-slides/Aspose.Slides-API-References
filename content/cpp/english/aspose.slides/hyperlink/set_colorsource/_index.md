@@ -3,7 +3,7 @@ title: set_ColorSource()
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the source of hyperlink color - either styles or portion format. Write HyperlinkColorSource.
 type: docs
-weight: 313
+weight: 326
 url: /aspose.slides/hyperlink/set_colorsource/
 ---
 ## Hyperlink::set_ColorSource(HyperlinkColorSource) method
