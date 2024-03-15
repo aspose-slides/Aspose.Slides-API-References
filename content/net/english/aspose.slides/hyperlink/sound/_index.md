@@ -3,7 +3,7 @@ title: Sound
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the playing sound of the hyperlink. Read/write IAudioaspose.slides/iaudio.
 type: docs
-weight: 150
+weight: 160
 url: /aspose.slides/hyperlink/sound/
 ---
 

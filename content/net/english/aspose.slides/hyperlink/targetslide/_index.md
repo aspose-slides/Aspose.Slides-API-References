@@ -3,7 +3,7 @@ title: TargetSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: If the Hyperlink targets specific slide returns this slide. Read-only ISlideaspose.slides/islide.
 type: docs
-weight: 180
+weight: 190
 url: /aspose.slides/hyperlink/targetslide/
 ---
 

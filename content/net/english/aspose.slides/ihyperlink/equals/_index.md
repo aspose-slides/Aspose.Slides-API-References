@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the two Hyperlink instances are equal.
 type: docs
-weight: 110
+weight: 120
 url: /aspose.slides/ihyperlink/equals/
 ---
 

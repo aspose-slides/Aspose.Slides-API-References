@@ -15,6 +15,10 @@ Returns or sets the bullet height of a paragraph with no inheritance. Value floa
 public float Height { get; set; }
 ```
 
+### Remarks
+
+A negative height value means that the height is given in points and a positive value means the height is a percentage of the surrounding text.
+
 ### See Also
 
 * class [BulletFormat](../../bulletformat)

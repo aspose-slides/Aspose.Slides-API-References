@@ -3,7 +3,7 @@ title: TargetSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: If the HyperlinkEx targets specific slide returns this slide. If the property become not null then property ExternalUrl become null. Read-only ISlideaspose.slides/islide.
 type: docs
-weight: 90
+weight: 100
 url: /aspose.slides/ihyperlink/targetslide/
 ---
 
