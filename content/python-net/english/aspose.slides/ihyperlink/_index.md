@@ -16,6 +16,7 @@ The IHyperlink type exposes the following members:
 | :- | :- |
 |action_type|Returns type of HyperLinkEx's action.<br/>            Read-only [HyperlinkActionType](/slides/python-net/aspose.slides/hyperlinkactiontype/).|
 |external_url|Specifies the external URL<br/>            If this property become not null then property TargetSlide become null.<br/>            Read-only string.|
+|external_url_original|Represents a hyperlink that is set for this portion without regard to the actual content of the portion.|
 |target_slide|If the HyperlinkEx targets specific slide returns this slide.<br/>            If the property become not null then property ExternalUrl become null.<br/>            Read-only [ISlide](/slides/python-net/aspose.slides/islide/).|
 |target_frame|Returns the frame within the parent HTML frameset for the target<br/>            of the parent hyperlink when one exists.<br/>            Read/write string.|
 |tooltip|Returns the string which may be surfaced in a user interface<br/>            as associated with the parent hyperlink.<br/>            Read/write string.|
