@@ -83,7 +83,7 @@ BulletFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getHeight () | Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write float. |
+| getHeight () | Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write float. A negative height value means that the height is given in points and a positive value means the height is a percentage of the surrounding text. |
 
  **Result:**
 float
@@ -227,7 +227,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setHeight (float) | Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write float. |
+| setHeight (float) | Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write float. A negative height value means that the height is given in points and a positive value means the height is a percentage of the surrounding text. |
 
 
 ---
