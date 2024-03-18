@@ -15,6 +15,7 @@ Represents a hyperlink.
 | --- | --- |
 | [getActionType()](#getActionType--) | Returns type of HyperLinkEx's action. |
 | [getExternalUrl()](#getExternalUrl--) | Specifies the external URL If this property become not null then property TargetSlide become null. |
+| [getExternalUrlOriginal()](#getExternalUrlOriginal--) | Represents a hyperlink that is set for this portion without regard to the actual content of the portion. |
 | [getTargetSlide()](#getTargetSlide--) | If the HyperlinkEx targets specific slide returns this slide. |
 | [getTargetFrame()](#getTargetFrame--) | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. |
 | [setTargetFrame(String value)](#setTargetFrame-java.lang.String-) | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. |
@@ -48,6 +49,18 @@ public abstract String getExternalUrl()
 
 
 Specifies the external URL If this property become not null then property TargetSlide become null. Read-only String.
+
+**Returns:**
+java.lang.String
+### getExternalUrlOriginal() {#getExternalUrlOriginal--}
+```
+public abstract String getExternalUrlOriginal()
+```
+
+
+Represents a hyperlink that is set for this portion without regard to the actual content of the portion.
+
+PowerPoint behaves specifically for links and their corresponding text in a portion. It allows to create text for the hyperlink in the form of a valid URL, different from the real address of the link. In this case, when you view the link in the edit window, it will be changed to match the text portion. This property represents the original value of the hyperlink.
 
 **Returns:**
 java.lang.String
