@@ -49,13 +49,13 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathLimit](../mathlimit)) | Create a math box by applying to the element |
+| createMathBox ([MathMatrix](../mathmatrix)) | Create a math box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../mathlimit) | math element to apply box |
+| element | [MathMatrix](../mathmatrix) | math element to apply box |
 
  **Returns:**
 [MathBox](../mathbox)
@@ -68,13 +68,13 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathMatrix](../mathmatrix)) | Create a math box by applying to the element |
+| createMathBox ([MathLimit](../mathlimit)) | Create a math box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | math element to apply box |
+| element | [MathLimit](../mathlimit) | math element to apply box |
 
  **Returns:**
 [MathBox](../mathbox)
@@ -163,13 +163,13 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathAccent](../mathaccent)) | Create a math box by applying to the element |
+| createMathBox ([MathNaryOperator](../mathnaryoperator)) | Create a math box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../mathaccent) | math element to apply box |
+| element | [MathNaryOperator](../mathnaryoperator) | math element to apply box |
 
  **Returns:**
 [MathBox](../mathbox)
@@ -182,13 +182,13 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathNaryOperator](../mathnaryoperator)) | Create a math box by applying to the element |
+| createMathBox ([MathAccent](../mathaccent)) | Create a math box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | math element to apply box |
+| element | [MathAccent](../mathaccent) | math element to apply box |
 
  **Returns:**
 [MathBox](../mathbox)
