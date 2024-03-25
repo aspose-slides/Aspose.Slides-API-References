@@ -1,0 +1,164 @@
+---
+title: Backdrop3DScene
+second_title: Aspose.Sildes for Python via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/backdrop3dscene/
+---
+
+## Backdrop3DScene class
+
+ Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to.
+ 
+### getAnchorPoint {#getAnchorPoint}
+
+| Name | Description |
+| --- | --- |
+| getAnchorPoint() | Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+
+ **Result:**
+float
+
+
+---
+
+
+### getNormalVector {#getNormalVector}
+
+| Name | Description |
+| --- | --- |
+| getNormalVector() | Returns or sets a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+
+ **Result:**
+float
+
+
+---
+
+
+### getParent_IPresentationComponent {#getParent_IPresentationComponent}
+
+| Name | Description |
+| --- | --- |
+| getParent_IPresentationComponent() |  |
+
+
+---
+
+
+### getParent_ISlideComponent {#getParent_ISlideComponent}
+
+| Name | Description |
+| --- | --- |
+| getParent_ISlideComponent() |  |
+
+
+---
+
+
+### getParent_Immediate {#getParent_Immediate}
+
+| Name | Description |
+| --- | --- |
+| getParent_Immediate() |  |
+
+
+---
+
+
+### getPresentation {#getPresentation}
+
+| Name | Description |
+| --- | --- |
+| getPresentation() |  |
+
+ **Result:**
+Presentation
+
+
+---
+
+
+### getSlide {#getSlide}
+
+| Name | Description |
+| --- | --- |
+| getSlide() |  |
+
+ **Result:**
+BaseSlide
+
+
+---
+
+
+### getUpVector {#getUpVector}
+
+| Name | Description |
+| --- | --- |
+| getUpVector() | Returns or sets a vector representing up. To be more precise, this attribute defines a vector representing up in relation to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+
+ **Result:**
+float
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion() |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### getVersion {#getVersion}
+
+| Name | Description |
+| --- | --- |
+| getVersion() |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### setAnchorPoint {#setAnchorPoint}
+
+| Name | Description |
+| --- | --- |
+| setAnchorPoint(float[]) | Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+
+
+---
+
+
+### setNormalVector {#setNormalVector}
+
+| Name | Description |
+| --- | --- |
+| setNormalVector(float[]) | Returns or sets a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+
+
+---
+
+
+### setUpVector {#setUpVector}
+
+| Name | Description |
+| --- | --- |
+| setUpVector(float[]) | Returns or sets a vector representing up. To be more precise, this attribute defines a vector representing up in relation to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+
+
+---
+
+

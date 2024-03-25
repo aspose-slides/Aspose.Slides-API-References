@@ -1,0 +1,571 @@
+---
+title: SmartArtColorType
+second_title: Aspose.Sildes for Python via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/smartartcolortype/
+---
+
+## SmartArtColorType class
+
+ Represents color scheme of a SmartArt diagram.
+ 
+
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+[Dark1Outline](#Dark1Outline) | 0 | Dark1Outline |
+[Dark2Outline](#Dark2Outline) | 1 | Dark2Outline |
+[DarkFill](#DarkFill) | 2 | DarkFill |
+[ColorfulAccentColors](#ColorfulAccentColors) | 3 | ColorfulAccentColors |
+[ColorfulAccentColors2to3](#ColorfulAccentColors2to3) | 4 | ColorfulAccentColors2to3 |
+[ColorfulAccentColors3to4](#ColorfulAccentColors3to4) | 5 | ColorfulAccentColors3to4 |
+[ColorfulAccentColors4to5](#ColorfulAccentColors4to5) | 6 | ColorfulAccentColors4to5 |
+[ColorfulAccentColors5to6](#ColorfulAccentColors5to6) | 7 | ColorfulAccentColors5to6 |
+[ColoredOutlineAccent1](#ColoredOutlineAccent1) | 8 | ColoredOutlineAccent1 |
+[ColoredFillAccent1](#ColoredFillAccent1) | 9 | ColoredFillAccent1 |
+[GradientRangeAccent1](#GradientRangeAccent1) | 10 | GradientRangeAccent1 |
+[GradientLoopAccent1](#GradientLoopAccent1) | 11 | GradientLoopAccent1 |
+[TransparentGradientRangeAccent1](#TransparentGradientRangeAccent1) | 12 | TransparentGradientRangeAccent1 |
+[ColoredOutlineAccent2](#ColoredOutlineAccent2) | 13 | ColoredOutlineAccent2 |
+[ColoredFillAccent2](#ColoredFillAccent2) | 14 | ColoredFillAccent2 |
+[GradientRangeAccent2](#GradientRangeAccent2) | 15 | GradientRangeAccent2 |
+[GradientLoopAccent2](#GradientLoopAccent2) | 16 | GradientLoopAccent2 |
+[TransparentGradientRangeAccent2](#TransparentGradientRangeAccent2) | 17 | TransparentGradientRangeAccent2 |
+[ColoredOutlineAccent3](#ColoredOutlineAccent3) | 18 | ColoredOutlineAccent3 |
+[ColoredFillAccent3](#ColoredFillAccent3) | 19 | ColoredFillAccent3 |
+[GradientRangeAccent3](#GradientRangeAccent3) | 20 | GradientRangeAccent3 |
+[GradientLoopAccent3](#GradientLoopAccent3) | 21 | GradientLoopAccent3 |
+[TransparentGradientRangeAccent3](#TransparentGradientRangeAccent3) | 22 | TransparentGradientRangeAccent3 |
+[ColoredOutlineAccent4](#ColoredOutlineAccent4) | 23 | ColoredOutlineAccent4 |
+[ColoredFillAccent4](#ColoredFillAccent4) | 24 | ColoredFillAccent4 |
+[GradientRangeAccent4](#GradientRangeAccent4) | 25 | GradientRangeAccent4 |
+[GradientLoopAccent4](#GradientLoopAccent4) | 26 | GradientLoopAccent4 |
+[TransparentGradientRangeAccent4](#TransparentGradientRangeAccent4) | 27 | TransparentGradientRangeAccent4 |
+[ColoredOutlineAccent5](#ColoredOutlineAccent5) | 28 | ColoredOutlineAccent5 |
+[ColoredFillAccent5](#ColoredFillAccent5) | 29 | ColoredFillAccent5 |
+[GradientRangeAccent5](#GradientRangeAccent5) | 30 | GradientRangeAccent5 |
+[GradientLoopAccent5](#GradientLoopAccent5) | 31 | GradientLoopAccent5 |
+[TransparentGradientRangeAccent5](#TransparentGradientRangeAccent5) | 32 | TransparentGradientRangeAccent5 |
+[ColoredOutlineAccent6](#ColoredOutlineAccent6) | 33 | ColoredOutlineAccent6 |
+[ColoredFillAccent6](#ColoredFillAccent6) | 34 | ColoredFillAccent6 |
+[GradientRangeAccent6](#GradientRangeAccent6) | 35 | GradientRangeAccent6 |
+[GradientLoopAccent6](#GradientLoopAccent6) | 36 | GradientLoopAccent6 |
+[TransparentGradientRangeAccent6](#TransparentGradientRangeAccent6) | 37 | TransparentGradientRangeAccent6 |
+
+
+---
+
+
+### Dark1Outline {#Dark1Outline}
+Dark1Outline
+
+---
+
+### Dark2Outline {#Dark2Outline}
+Dark2Outline
+
+---
+
+### DarkFill {#DarkFill}
+DarkFill
+
+---
+
+### ColorfulAccentColors {#ColorfulAccentColors}
+ColorfulAccentColors
+
+---
+
+### ColorfulAccentColors2to3 {#ColorfulAccentColors2to3}
+ColorfulAccentColors2to3
+
+---
+
+### ColorfulAccentColors3to4 {#ColorfulAccentColors3to4}
+ColorfulAccentColors3to4
+
+---
+
+### ColorfulAccentColors4to5 {#ColorfulAccentColors4to5}
+ColorfulAccentColors4to5
+
+---
+
+### ColorfulAccentColors5to6 {#ColorfulAccentColors5to6}
+ColorfulAccentColors5to6
+
+---
+
+### ColoredOutlineAccent1 {#ColoredOutlineAccent1}
+ColoredOutlineAccent1
+
+---
+
+### ColoredFillAccent1 {#ColoredFillAccent1}
+ColoredFillAccent1
+
+---
+
+### GradientRangeAccent1 {#GradientRangeAccent1}
+GradientRangeAccent1
+
+---
+
+### GradientLoopAccent1 {#GradientLoopAccent1}
+GradientLoopAccent1
+
+---
+
+### TransparentGradientRangeAccent1 {#TransparentGradientRangeAccent1}
+TransparentGradientRangeAccent1
+
+---
+
+### ColoredOutlineAccent2 {#ColoredOutlineAccent2}
+ColoredOutlineAccent2
+
+---
+
+### ColoredFillAccent2 {#ColoredFillAccent2}
+ColoredFillAccent2
+
+---
+
+### GradientRangeAccent2 {#GradientRangeAccent2}
+GradientRangeAccent2
+
+---
+
+### GradientLoopAccent2 {#GradientLoopAccent2}
+GradientLoopAccent2
+
+---
+
+### TransparentGradientRangeAccent2 {#TransparentGradientRangeAccent2}
+TransparentGradientRangeAccent2
+
+---
+
+### ColoredOutlineAccent3 {#ColoredOutlineAccent3}
+ColoredOutlineAccent3
+
+---
+
+### ColoredFillAccent3 {#ColoredFillAccent3}
+ColoredFillAccent3
+
+---
+
+### GradientRangeAccent3 {#GradientRangeAccent3}
+GradientRangeAccent3
+
+---
+
+### GradientLoopAccent3 {#GradientLoopAccent3}
+GradientLoopAccent3
+
+---
+
+### TransparentGradientRangeAccent3 {#TransparentGradientRangeAccent3}
+TransparentGradientRangeAccent3
+
+---
+
+### ColoredOutlineAccent4 {#ColoredOutlineAccent4}
+ColoredOutlineAccent4
+
+---
+
+### ColoredFillAccent4 {#ColoredFillAccent4}
+ColoredFillAccent4
+
+---
+
+### GradientRangeAccent4 {#GradientRangeAccent4}
+GradientRangeAccent4
+
+---
+
+### GradientLoopAccent4 {#GradientLoopAccent4}
+GradientLoopAccent4
+
+---
+
+### TransparentGradientRangeAccent4 {#TransparentGradientRangeAccent4}
+TransparentGradientRangeAccent4
+
+---
+
+### ColoredOutlineAccent5 {#ColoredOutlineAccent5}
+ColoredOutlineAccent5
+
+---
+
+### ColoredFillAccent5 {#ColoredFillAccent5}
+ColoredFillAccent5
+
+---
+
+### GradientRangeAccent5 {#GradientRangeAccent5}
+GradientRangeAccent5
+
+---
+
+### GradientLoopAccent5 {#GradientLoopAccent5}
+GradientLoopAccent5
+
+---
+
+### TransparentGradientRangeAccent5 {#TransparentGradientRangeAccent5}
+TransparentGradientRangeAccent5
+
+---
+
+### ColoredOutlineAccent6 {#ColoredOutlineAccent6}
+ColoredOutlineAccent6
+
+---
+
+### ColoredFillAccent6 {#ColoredFillAccent6}
+ColoredFillAccent6
+
+---
+
+### GradientRangeAccent6 {#GradientRangeAccent6}
+GradientRangeAccent6
+
+---
+
+### GradientLoopAccent6 {#GradientLoopAccent6}
+GradientLoopAccent6
+
+---
+
+### TransparentGradientRangeAccent6 {#TransparentGradientRangeAccent6}
+TransparentGradientRangeAccent6
+
+---
+
+
+### Clone {#Clone}
+
+| Name | Description |
+| --- | --- |
+| Clone() |  |
+
+ **Result:**
+T
+
+
+---
+
+
+### CloneTo {#CloneTo}
+
+| Name | Description |
+| --- | --- |
+| CloneTo(T) |  |
+
+
+---
+
+
+### format {#format}
+
+| Name | Description |
+| --- | --- |
+| format(java.lang.Class<?>, long, String) |  |
+
+ **Result:**
+String
+
+
+---
+
+
+### format {#format}
+
+| Name | Description |
+| --- | --- |
+| format(Type, Object, String) |  |
+
+ **Result:**
+String
+
+
+---
+
+
+### getName {#getName}
+
+| Name | Description |
+| --- | --- |
+| getName(java.lang.Class<?>, long) |  |
+
+ **Result:**
+String
+
+
+---
+
+
+### getName {#getName}
+
+| Name | Description |
+| --- | --- |
+| getName(Type, Object) |  |
+
+ **Result:**
+String
+
+
+---
+
+
+### getNames {#getNames}
+
+| Name | Description |
+| --- | --- |
+| getNames(java.lang.Class<?>) |  |
+
+ **Result:**
+ArrayList, List
+
+
+---
+
+
+### getNames {#getNames}
+
+| Name | Description |
+| --- | --- |
+| getNames(Type) |  |
+
+ **Result:**
+String
+
+
+---
+
+
+### getUnderlyingType {#getUnderlyingType}
+
+| Name | Description |
+| --- | --- |
+| getUnderlyingType(java.lang.Class<?>) |  |
+
+ **Result:**
+Class
+
+
+---
+
+
+### getUnderlyingType {#getUnderlyingType}
+
+| Name | Description |
+| --- | --- |
+| getUnderlyingType(Type) |  |
+
+ **Result:**
+Type
+
+
+---
+
+
+### getValue {#getValue}
+
+| Name | Description |
+| --- | --- |
+| getValue(java.lang.Class<?>, String) |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### getValues {#getValues}
+
+| Name | Description |
+| --- | --- |
+| getValues(Type) |  |
+
+ **Result:**
+Array
+
+
+---
+
+
+### get_Caption {#get_Caption}
+
+| Name | Description |
+| --- | --- |
+| get_Caption() |  |
+
+ **Result:**
+String
+
+
+---
+
+
+### get_Value {#get_Value}
+
+| Name | Description |
+| --- | --- |
+| get_Value() |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### isDefined {#isDefined}
+
+| Name | Description |
+| --- | --- |
+| isDefined(java.lang.Class<?>, long) |  |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### isDefined {#isDefined}
+
+| Name | Description |
+| --- | --- |
+| isDefined(Type, long) |  |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### isDefined {#isDefined}
+
+| Name | Description |
+| --- | --- |
+| isDefined(Type, String) |  |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### isDefined {#isDefined}
+
+| Name | Description |
+| --- | --- |
+| isDefined(Type, Object) |  |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### parse {#parse}
+
+| Name | Description |
+| --- | --- |
+| parse(java.lang.Class<?>, String) |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### parse {#parse}
+
+| Name | Description |
+| --- | --- |
+| parse(java.lang.Class<?>, String, Boolean) |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### parse {#parse}
+
+| Name | Description |
+| --- | --- |
+| parse(Type, String) |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### parse {#parse}
+
+| Name | Description |
+| --- | --- |
+| parse(Type, String, Boolean) |  |
+
+ **Result:**
+long
+
+
+---
+
+
+### register {#register}
+
+| Name | Description |
+| --- | --- |
+| register(Enum.AbstractEnum) |  |
+
+
+---
+
+
+### toObject {#toObject}
+
+| Name | Description |
+| --- | --- |
+| toObject(Type, Object) |  |
+
+ **Result:**
+Object
+
+
+---
+
+
+### toString {#toString}
+
+| Name | Description |
+| --- | --- |
+| toString(java.lang.Class<?>, long) |  |
+
+ **Result:**
+String
+
+
+---
+
+

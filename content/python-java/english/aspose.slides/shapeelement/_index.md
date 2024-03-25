@@ -1,0 +1,65 @@
+---
+title: ShapeElement
+second_title: Aspose.Sildes for Python via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/shapeelement/
+---
+
+## ShapeElement class
+
+ Represents a part of shape with same outline and fill properties.
+ 
+### getFillSource {#getFillSource}
+
+| Name | Description |
+| --- | --- |
+| getFillSource() | Returns information about how to fill an element. Read-only ShapeElementFillSource. |
+
+ **Result:**
+byte
+
+
+---
+
+
+### getGraphicsPath {#getGraphicsPath}
+
+| Name | Description |
+| --- | --- |
+| getGraphicsPath() | Returns an element's path. Read-only java.awt.geom.GeneralPath. |
+
+ **Result:**
+Shape
+
+
+---
+
+
+### getParentShape {#getParentShape}
+
+| Name | Description |
+| --- | --- |
+| getParentShape() | Returns a Shape_PPT for which element was created. Read-only Shape. |
+
+ **Result:**
+Shape
+
+
+---
+
+
+### getStrokeSource {#getStrokeSource}
+
+| Name | Description |
+| --- | --- |
+| getStrokeSource() | Returns information about how to stroke an element. Read-only ShapeElementStrokeSource. |
+
+ **Result:**
+byte
+
+
+---
+
+

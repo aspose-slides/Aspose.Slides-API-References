@@ -1,0 +1,62 @@
+---
+title: AnimationTimeLine
+second_title: Aspose.Sildes for Python via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/animationtimeline/
+---
+
+## AnimationTimeLine class
+
+ Represents timeline of animation.
+ 
+### getInteractiveSequences {#getInteractiveSequences}
+
+| Name | Description |
+| --- | --- |
+| getInteractiveSequences() | Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only ISequenceCollection. |
+
+ **Result:**
+[SequenceCollection](../sequencecollection)
+
+
+---
+
+
+### getMainSequence {#getMainSequence}
+
+| Name | Description |
+| --- | --- |
+| getMainSequence() | Returns main sequence which may contain only main effects collection. Read-only ISequence. |
+
+ **Result:**
+[Sequence](../sequence)
+
+
+---
+
+
+### getParent_Immediate {#getParent_Immediate}
+
+| Name | Description |
+| --- | --- |
+| getParent_Immediate() |  |
+
+
+---
+
+
+### getTextAnimationCollection {#getTextAnimationCollection}
+
+| Name | Description |
+| --- | --- |
+| getTextAnimationCollection() | Returns collection of text animations. Read-only ITextAnimationCollection. |
+
+ **Result:**
+[TextAnimationCollection](../textanimationcollection)
+
+
+---
+
+
