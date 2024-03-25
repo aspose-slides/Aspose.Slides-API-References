@@ -1,0 +1,41 @@
+---
+title: InkTrace
+second_title: Aspose.Sildes for Python via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/inktrace/
+---
+
+## InkTrace class
+
+ Represents an Trace object.
+ A Trace element is used to record the data captured by the digitizer. 
+ It contains a sequence of points encoded according to the specification given by the InkTraceFormat object.
+ 
+### getBrush {#getBrush}
+
+| Name | Description |
+| --- | --- |
+| getBrush() | Gets Brush for the IInkLine IInkBrush Read-only. |
+
+ **Result:**
+[InkBrush](../inkbrush)
+
+
+---
+
+
+### getPoints {#getPoints}
+
+| Name | Description |
+| --- | --- |
+| getPoints() | Gets points for the IInkLine java.awt.geom.Point2D.Float Read-only. |
+
+ **Result:**
+Point2D.Float
+
+
+---
+
+

@@ -1,0 +1,36 @@
+---
+title: OrientationTransition
+second_title: Aspose.Sildes for Python via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/orientationtransition/
+---
+
+## OrientationTransition class
+
+ Orientation slide transition effect.
+ 
+### getDirection {#getDirection}
+
+| Name | Description |
+| --- | --- |
+| getDirection() | Direction of transition. Read/write Orientation. |
+
+ **Result:**
+byte
+
+
+---
+
+
+### setDirection {#setDirection}
+
+| Name | Description |
+| --- | --- |
+| setDirection(byte) | Direction of transition. Read/write Orientation. |
+
+
+---
+
+

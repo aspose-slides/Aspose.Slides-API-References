@@ -1,0 +1,182 @@
+---
+title: StringChartValue
+second_title: Aspose.Sildes for Python via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/stringchartvalue/
+---
+
+## StringChartValue class
+
+ Represent string value which can be stored in pptx presentation document in two ways:
+ 1) in cell/cells of workbook related to chart;
+ 2) as literal value.
+ 
+### getAsCells {#getAsCells}
+
+| Name | Description |
+| --- | --- |
+| getAsCells() | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
+
+ **Result:**
+[ChartCellCollection](../chartcellcollection)
+
+
+---
+
+
+### getAsLiteralString {#getAsLiteralString}
+
+| Name | Description |
+| --- | --- |
+| getAsLiteralString() | Returns or sets value as literal string. Read/write String. |
+
+ **Result:**
+String
+
+
+---
+
+
+### getCellsAddressInWorkbook {#getCellsAddressInWorkbook}
+
+| Name | Description |
+| --- | --- |
+| getCellsAddressInWorkbook() | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
+
+ **Result:**
+String
+
+
+---
+
+
+### getData {#getData}
+
+| Name | Description |
+| --- | --- |
+| getData() | Returns or sets Data object. Read/write Object. |
+
+ **Result:**
+Object
+
+
+---
+
+
+### getData {#getData}
+
+| Name | Description |
+| --- | --- |
+| getData() | Data. Read/write Object. |
+
+ **Result:**
+Object
+
+
+---
+
+
+### getDataSourceType {#getDataSourceType}
+
+| Name | Description |
+| --- | --- |
+| getDataSourceType() | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write DataSourceType. For points in ChartDataPointCollection this property is read-only. In this case for changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; properties. |
+
+ **Result:**
+int
+
+
+---
+
+
+### getParent_Immediate {#getParent_Immediate}
+
+| Name | Description |
+| --- | --- |
+| getParent_Immediate() |  |
+
+
+---
+
+
+### setAsCells {#setAsCells}
+
+| Name | Description |
+| --- | --- |
+| setAsCells([ChartCellCollection](../chartcellcollection)) | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
+
+
+---
+
+
+### setAsLiteralString {#setAsLiteralString}
+
+| Name | Description |
+| --- | --- |
+| setAsLiteralString(String) | Returns or sets value as literal string. Read/write String. |
+
+
+---
+
+
+### setData {#setData}
+
+| Name | Description |
+| --- | --- |
+| setData(Object) | Returns or sets Data object. Read/write Object. |
+
+
+---
+
+
+### setData {#setData}
+
+| Name | Description |
+| --- | --- |
+| setData(Object) | Data. Read/write Object. |
+
+
+---
+
+
+### setDataSourceType {#setDataSourceType}
+
+| Name | Description |
+| --- | --- |
+| setDataSourceType(int) | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write DataSourceType. For points in ChartDataPointCollection this property is read-only. In this case for changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; properties. |
+
+
+---
+
+
+### setFromOneCell {#setFromOneCell}
+
+| Name | Description |
+| --- | --- |
+| setFromOneCell([ChartDataCell](../chartdatacell)) | Sets value from specified cell. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| cell | [ChartDataCell](../chartdatacell) | Cell. |
+
+
+---
+
+
+### toString {#toString}
+
+| Name | Description |
+| --- | --- |
+| toString() | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
+
+ **Result:**
+String
+
+
+---
+
+
