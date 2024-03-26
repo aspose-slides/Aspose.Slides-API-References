@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: reference2.aspose.com(slides)(python-net)(Stage)
+name: reference2.aspose.com(slides)(python-java)(Stage)
 
 # Controls when the action will run. 
 on:
@@ -8,11 +8,11 @@ on:
   push:
     branches: [ staging ]
     paths:
-      - 'content/python-net/**'
+      - 'content/python-java/**'
   pull_request:
     branches: [ staging ]
     paths:
-      - 'content/python-net/**'
+      - 'content/python-java/**'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -51,10 +51,10 @@ jobs:
         run:  npm install -D --save postcss-cli
       # Also specifies the theme we want to use
       - name: Build
-        run: hugo --configDir config/python-net --environment staging --minify
+        run: hugo --configDir config/python-java --environment staging --minify
         
       - name: Deploy apireference2.aspose.com(slides)(family)(Stage) to S3
-        run: hugo --configDir config/python-net --environment staging deploy --target "Stage" --maxDeletes 0
+        run: hugo --configDir config/python-java --environment staging deploy --target "Stage" --maxDeletes 0
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS }}
@@ -63,7 +63,7 @@ jobs:
         uses: chetan/invalidate-cloudfront-action@v2
         env:
           DISTRIBUTION: ${{ secrets.AWS_DISTRIBUTION }}
-          PATHS: /slides/python-net/*
+          PATHS: /slides/python-java/*
           AWS_REGION: 'us-west-2'
           AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS }}
