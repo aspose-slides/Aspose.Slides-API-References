@@ -70,6 +70,10 @@ defaultContentLang = 'en'
      	  name = "Aspose.Slides for Node.js via Java"
 		  url = "/nodejs-java/"
 		  weight = 80
+    	[[languages.en.menu.main]]
+     	  name = "Aspose.Slides for Python via Java"
+		  url = "/python-java/"
+		  weight = 90	
   [languages.ru]
     contentDir = 'content/home/russian'
     languageName = 'Русский'
@@ -104,7 +108,12 @@ defaultContentLang = 'en'
     	[[languages.ru.menu.main]]
      	  name = "Aspose.Slides для NodeJS через Java"
 		  url = "../nodejs-java/"
-		  weight = 80	    
+		  weight = 80
+    	[[languages.ru.menu.main]]
+     	  name = "Aspose.Slides для Python через Java"
+		  url = "../python-java/"
+		  weight = 90	    
+    
   [languages.zh]
     contentDir = 'content/home/chinese'
     languageName = "简体中文"
@@ -139,7 +148,11 @@ defaultContentLang = 'en'
     	[[languages.zh.menu.main]]
      	  name = "Aspose.Slides for NodeJS 通过 Java"
 		  url = "../nodejs-java/"
-		  weight = 80    
+		  weight = 80
+        [[languages.zh.menu.main]]
+     	  name = "Aspose.Slides for Python 通过 Java"
+		  url = "../python-net/"
+		  weight = 90
   [languages.fr]
     contentDir = 'content/home/french'
     languageName = "Français"
@@ -174,7 +187,11 @@ defaultContentLang = 'en'
     	[[languages.fr.menu.main]]
      	  name = "Aspose.Slides pour NodeJS via Java"
 		  url = "../nodejs-java/"
-		  weight = 80	    
+		  weight = 80
+        [[languages.fr.menu.main]]
+     	  name = "Aspose.Slides pour Python via Java"
+		  url = "../python-java/"
+		  weight = 90
   [languages.de]
     contentDir = 'content/home/german'
     languageName = "Deutsch"
@@ -210,6 +227,10 @@ defaultContentLang = 'en'
      	  name = "Aspose.Slides für NodeJS über Java"
 		  url = "../nodejs-java/"
 		  weight = 80
+    	[[languages.de.menu.main]]
+     	  name = "Aspose.Slides für Python über Java"
+		  url = "../python-java/"
+		  weight = 90
   [languages.es]
     contentDir = 'content/home/spanish'
     languageName = "Español"
@@ -245,6 +266,10 @@ defaultContentLang = 'en'
      	  name = "Aspose.Slides para NodeJS a través de Java"
 		  url = "../nodejs-java/"
 		  weight = 80
+    	[[languages.es.menu.main]]
+     	  name = "Aspose.Slides para Python a través de Java"
+		  url = "../python-java/"
+		  weight = 90	
 ignoreFiles = ["(?i:readme.md)", '\.spin$']
 
 # Image processing configuration.
