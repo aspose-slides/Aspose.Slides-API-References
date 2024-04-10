@@ -1,39 +1,41 @@
----
+﻿---
 title: NotesSlideHeaderFooterManager
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/notesslideheaderfootermanager/
 ---
 
-## NotesSlideHeaderFooterManager class
+
+NotesSlideHeaderFooterManager class
 
 Represents manager which holds behavior of the notes slide placeholders, including header placeholder.
 
+**Inheritance:**[`NotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/notesslideheaderfootermanager) → [`BaseHandoutNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/basehandoutnotesslideheaderfootermanager) → [`BaseSlideHeaderFooterManager`](/slides/python-net/aspose.slides/baseslideheaderfootermanager) → [`BaseHeaderFooterManager`](/slides/python-net/aspose.slides/baseheaderfootermanager)
+
 The NotesSlideHeaderFooterManager type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|is_footer_visible|Gets value indicating that a footer placeholder is present.<br/>            Read bool.|
-|is_slide_number_visible|Gets value indicating that a page number placeholder is present.<br/>            Readbool.|
-|is_date_time_visible|Gets value indicating that a date-time placeholder is present.<br/>            Readbool.|
-|is_header_visible|Gets value indicating that a header placeholder is present.<br/>            Read bool.|
-|as_i_base_slide_header_footer_manager|Returns IBaseSlideHeaderFooterManager interface.|
-|as_i_base_header_footer_manager|Returns IBaseHeaderFooterManager interface.|
-|as_i_base_handout_notes_slide_header_footer_manag|Returns IBaseHandoutNotesSlideHeaderFooterManag interface.|
+| [is_footer_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_footer_visible/) | Gets value indicating that a footer placeholder is present.<br/>            Read :py:class:`bool`. |
+| [is_slide_number_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_slide_number_visible/) | Gets value indicating that a page number placeholder is present.<br/>            Read:py:class:`bool`. |
+| [is_date_time_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_date_time_visible/) | Gets value indicating that a date-time placeholder is present.<br/>            Read:py:class:`bool`. |
+| [is_header_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_header_visible/) | Gets value indicating that a header placeholder is present.<br/>            Read :py:class:`bool`. |
+| [as_i_base_slide_header_footer_manager](/slides/python-net/aspose.slides/notesslideheaderfootermanager/as_i_base_slide_header_footer_manager/) |  |
+| [as_i_base_header_footer_manager](/slides/python-net/aspose.slides/notesslideheaderfootermanager/as_i_base_header_footer_manager/) |  |
+| [as_i_base_handout_notes_slide_header_footer_manag](/slides/python-net/aspose.slides/notesslideheaderfootermanager/as_i_base_handout_notes_slide_header_footer_manag/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|set_footer_visibility(is_visible)|Changes slide footer placeholder visibility.|
-|set_slide_number_visibility(is_visible)|Changes slide page number placeholder visibility.|
-|set_date_time_visibility(is_visible)|Changes slide date-time placeholder visibility.|
-|set_footer_text(text)|Sets text to slide footer placeholder.|
-|set_date_time_text(text)|Sets text to slide date-time placeholder.|
-|set_header_visibility(is_visible)|Changes slide header placeholder visibility.|
-|set_header_text(text)|Sets text to slide header placeholder.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [set_footer_visibility](/slides/python-net/aspose.slides/notesslideheaderfootermanager/notesslideheaderfootermanager/#bool/) | Changes slide footer placeholder visibility. |
+| [set_slide_number_visibility](/slides/python-net/aspose.slides/notesslideheaderfootermanager/notesslideheaderfootermanager/#bool/) | Changes slide page number placeholder visibility. |
+| [set_date_time_visibility](/slides/python-net/aspose.slides/notesslideheaderfootermanager/notesslideheaderfootermanager/#bool/) | Changes slide date-time placeholder visibility. |
+| [set_footer_text](/slides/python-net/aspose.slides/notesslideheaderfootermanager/notesslideheaderfootermanager/#string/) | Sets text to slide footer placeholder. |
+| [set_date_time_text](/slides/python-net/aspose.slides/notesslideheaderfootermanager/notesslideheaderfootermanager/#string/) | Sets text to slide date-time placeholder. |
+| [set_header_visibility](/slides/python-net/aspose.slides/notesslideheaderfootermanager/notesslideheaderfootermanager/#bool/) | Changes slide header placeholder visibility. |
+| [set_header_text](/slides/python-net/aspose.slides/notesslideheaderfootermanager/notesslideheaderfootermanager/#string/) | Sets text to slide header placeholder. |
 

@@ -1,28 +1,36 @@
----
+﻿---
 title: IImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 
-## IImageTransformOCollectionEffectiveData class
+
+IImageTransformOCollectionEffectiveData class
 
 Immutable object that represents a readonly collection of effective image transform effects.
 
 The IImageTransformOCollectionEffectiveData type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides.effects/iimagetransformocollectioneffectivedata/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides.effects/iimagetransformocollectioneffectivedata/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns element by index.|
+| [index] |  |
 
-### See Also
 
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39.
+            
+
 

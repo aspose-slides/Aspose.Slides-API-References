@@ -1,27 +1,28 @@
----
+﻿---
 title: IAlphaInverse
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/ialphainverse/
 ---
 
-## IAlphaInverse class
 
-Represents an Alpha Inverse effect.<br/>            Alpha (opacity) values are inverted by subtracting from 100%.
+IAlphaInverse class
+
+Represents an Alpha Inverse effect.
+            Alpha (opacity) values are inverted by subtracting from 100%.
 
 The IAlphaInverse type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ialphainverse/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective object formatting data with the inheritance applied.|
-
-### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_effective](/slides/python-net/aspose.slides.effects/ialphainverse/ialphainverse/#/) |  |
 

@@ -1,25 +1,24 @@
----
+﻿---
 title: EffectRestartType
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/effectrestarttype/
 ---
 
-## EffectRestartType enumeration
+
+EffectRestartType enumeration
 
 Represent restart types for timing.
 
-## Members
-| Member name | Description |
+The EffectRestartType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|ALWAYS||
-|WHEN_NOT_ACTIVE||
-|NEVER||
-
-### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| NOT_DEFINED |  |
+| ALWAYS |  |
+| WHEN_NOT_ACTIVE |  |
+| NEVER |  |
 

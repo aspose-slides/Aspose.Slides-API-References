@@ -1,28 +1,36 @@
----
+﻿---
 title: MathGroupingCharacterFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 
-## MathGroupingCharacterFactory class
+
+MathGroupingCharacterFactory class
 
 Allows to create a math grouping character
 
 The MathGroupingCharacterFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|MathGroupingCharacterFactory()|Initializes a new instance of the MathGroupingCharacterFactory class|
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/mathgroupingcharacterfactory/#/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_grouping_character(element, character, position, vertical_justification)|Creates a math grouping character|
-|create_math_grouping_character(element)|Creates a math grouping character|
+| [create_math_grouping_character](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/mathgroupingcharacterfactory/#IMathElement-char-MathTopBotPositions-MathTopBotPositions/) | Creates a math grouping character |
+| [create_math_grouping_character](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/mathgroupingcharacterfactory/#IMathElement/) | Creates a math grouping character |
 
-### See Also
 
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            For COM compatibility
+            
+
 

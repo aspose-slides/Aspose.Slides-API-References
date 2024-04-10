@@ -1,26 +1,32 @@
----
+﻿---
 title: IMathematicalTextFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathematicaltextfactory/
 ---
 
-## IMathematicalTextFactory class
+
+IMathematicalTextFactory class
 
 Allows to create a MathematicalText element
 
 The IMathematicalTextFactory type exposes the following members:
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_mathematical_text()|Create empty mathematical text element|
-|create_mathematical_text(math_symbol)|Create mathematical text element with the specified value|
-|create_mathematical_text(math_text)|Create empty mathematical text element with the specified value|
-|create_mathematical_text(math_text, portion_format)|Create empty mathematical text element with the specified value and formatting properties|
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/imathematicaltextfactory/#/) | Create empty mathematical text element |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/imathematicaltextfactory/#char/) | Create mathematical text element with the specified value |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/imathematicaltextfactory/#string/) | Create empty mathematical text element with the specified value |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/imathematicaltextfactory/#string-IPortionFormat/) |  |
 
-### See Also
 
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            For COM comparibility
+            
+
 

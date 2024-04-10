@@ -1,28 +1,28 @@
----
+﻿---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/igradientstopcollectioneffectivedata/
 ---
 
-## IGradientStopCollectionEffectiveData class
+
+IGradientStopCollectionEffectiveData class
 
 Represents a collection of GradientStopDataEx objects.
 
 The IGradientStopCollectionEffectiveData type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/igradientstopcollectioneffectivedata/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/igradientstopcollectioneffectivedata/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns the gradient stop by index.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [index] |  |
 

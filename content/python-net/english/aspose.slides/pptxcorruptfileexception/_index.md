@@ -1,24 +1,22 @@
----
+﻿---
 title: PptxCorruptFileException
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/pptxcorruptfileexception/
 ---
 
-## PptxCorruptFileException class
 
+PptxCorruptFileException class
 
+**Inheritance:**[`PptxCorruptFileException`](/slides/python-net/aspose.slides/pptxcorruptfileexception) → [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception) → [`PptxException`](/slides/python-net/aspose.slides/pptxexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
 
 The PptxCorruptFileException type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|PptxCorruptFileException()|Initializes a new instance of the PptxCorruptFileException class|
-|PptxCorruptFileException(message)|Initializes a new instance of the PptxCorruptFileException class|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [__init__](/slides/python-net/aspose.slides/pptxcorruptfileexception/pptxcorruptfileexception/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides/pptxcorruptfileexception/pptxcorruptfileexception/#string/) | Constructor allowing a message to be added to this exception. |
 

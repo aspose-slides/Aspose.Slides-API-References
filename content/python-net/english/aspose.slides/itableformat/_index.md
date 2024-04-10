@@ -1,27 +1,27 @@
----
+﻿---
 title: ITableFormat
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/itableformat/
 ---
 
-## ITableFormat class
+
+ITableFormat class
 
 Represents format of a table.
 
 The ITableFormat type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|fill_format|Returns a table fill properties object.<br/>            Read-only [IFillFormat](/slides/python-net/aspose.slides/ifillformat/).|
+| [fill_format](/slides/python-net/aspose.slides/itableformat/fill_format/) | Returns a table fill properties object.<br/>            Read-only :py:class:`aspose.slides.IFillFormat`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective table formatting properties with inheritance and table styles applied.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_effective](/slides/python-net/aspose.slides/itableformat/itableformat/#/) | Gets effective table formatting properties with inheritance and table styles applied. |
 

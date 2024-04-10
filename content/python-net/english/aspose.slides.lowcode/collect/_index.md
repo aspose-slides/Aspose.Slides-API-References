@@ -1,23 +1,21 @@
----
+﻿---
 title: Collect
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.lowcode/collect/
 ---
 
-## Collect class
 
-Represents a group of methods intended to collect model objects of different types from [Presentation](/slides/python-net/aspose.slides/presentation/).
+Collect class
+
+Represents a group of methods intended to collect model objects of different types from :py:class:`aspose.slides.Presentation`.
 
 The Collect type exposes the following members:
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|shapes(pres)|Collects all instances of [Shape](/slides/python-net/aspose.slides/shape/) in the [Presentation](/slides/python-net/aspose.slides/presentation/).|
-
-### See Also
-
-* namespace [aspose.slides.lowcode](/slides/python-net/aspose.slides.lowcode/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [shapes](/slides/python-net/aspose.slides.lowcode/collect/collect/#Presentation/) |  |
 

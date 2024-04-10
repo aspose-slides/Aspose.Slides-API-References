@@ -1,24 +1,23 @@
----
+﻿---
 title: SourceFormat
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/sourceformat/
 ---
 
-## SourceFormat enumeration
+
+SourceFormat enumeration
 
 Represents source file format.
 
-## Members
-| Member name | Description |
+The SourceFormat type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|PPT|PPT format.|
-|PPTX|Pptx format.|
-|ODP|Odp format.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| PPT | PPT format. |
+| PPTX | Pptx format. |
+| ODP | Odp format. |
 

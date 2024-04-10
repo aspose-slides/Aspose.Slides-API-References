@@ -1,34 +1,33 @@
----
+﻿---
 title: LineDashStyle
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/linedashstyle/
 ---
 
-## LineDashStyle enumeration
+
+LineDashStyle enumeration
 
 Represents the line dash style.
 
-## Members
-| Member name | Description |
+The LineDashStyle type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|SOLID||
-|DOT||
-|DASH||
-|LARGE_DASH||
-|DASH_DOT||
-|LARGE_DASH_DOT||
-|LARGE_DASH_DOT_DOT||
-|SYSTEM_DASH||
-|SYSTEM_DOT||
-|SYSTEM_DASH_DOT||
-|SYSTEM_DASH_DOT_DOT||
-|CUSTOM||
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| NOT_DEFINED |  |
+| SOLID |  |
+| DOT |  |
+| DASH |  |
+| LARGE_DASH |  |
+| DASH_DOT |  |
+| LARGE_DASH_DOT |  |
+| LARGE_DASH_DOT_DOT |  |
+| SYSTEM_DASH |  |
+| SYSTEM_DOT |  |
+| SYSTEM_DASH_DOT |  |
+| SYSTEM_DASH_DOT_DOT |  |
+| CUSTOM |  |
 

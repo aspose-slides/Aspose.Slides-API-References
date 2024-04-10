@@ -1,30 +1,37 @@
----
+﻿---
 title: IRowFormatEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/irowformateffectivedata/
 ---
 
-## IRowFormatEffectiveData class
+
+IRowFormatEffectiveData class
 
 Immutable object which contains effective table row formatting properties.
 
 The IRowFormatEffectiveData type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_base_table_format_effective_data|Allows to get base IBaseTableFormatEffectiveData interface.<br/>            Read-only [IBaseTableFormatEffectiveData](/slides/python-net/aspose.slides/ibasetableformateffectivedata/).|
-|fill_format|Returns fill format effective value.<br/>            Read-only [IFillFormatEffectiveData](/slides/python-net/aspose.slides/ifillformateffectivedata/).|
-|border_left|Returns left border line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
-|border_top|Returns top border line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
-|border_right|Returns right border line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
-|border_bottom|Returns bottom border line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
-|border_diagonal_down|Returns down diagonal line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
-|border_diagonal_up|Returns up diagonal line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
+| [as_i_base_table_format_effective_data](/slides/python-net/aspose.slides/irowformateffectivedata/as_i_base_table_format_effective_data/) | Allows to get base IBaseTableFormatEffectiveData interface.<br/>            Read-only :py:class:`aspose.slides.IBaseTableFormatEffectiveData`. |
+| [fill_format](/slides/python-net/aspose.slides/irowformateffectivedata/fill_format/) |  |
+| [border_left](/slides/python-net/aspose.slides/irowformateffectivedata/border_left/) |  |
+| [border_top](/slides/python-net/aspose.slides/irowformateffectivedata/border_top/) |  |
+| [border_right](/slides/python-net/aspose.slides/irowformateffectivedata/border_right/) |  |
+| [border_bottom](/slides/python-net/aspose.slides/irowformateffectivedata/border_bottom/) |  |
+| [border_diagonal_down](/slides/python-net/aspose.slides/irowformateffectivedata/border_diagonal_down/) |  |
+| [border_diagonal_up](/slides/python-net/aspose.slides/irowformateffectivedata/border_diagonal_up/) |  |
 
-### See Also
 
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            This interface is used together with the 
+ interface to return effective formatting values with inheritance and table styles applied.
+            
+
 

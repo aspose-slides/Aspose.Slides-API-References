@@ -1,32 +1,34 @@
----
+﻿---
 title: WebDocument
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export.web/webdocument/
 ---
 
-## WebDocument class
+
+WebDocument class
 
 Represents a transition form of the presentation for saving into a web format.
 
 The WebDocument type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|WebDocument(options)|Initializes a new instance of the WebDocument class|
+| [__init__](/slides/python-net/aspose.slides.export.web/webdocument/webdocument/#WebDocumentOptions/) | :py:class:`aspose.slides.export.web.WebDocument` constructor. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|input|  |
-|output|Returns collection of output elements of the document.<br/>             Read-only [output](/slides/python-net/aspose.slides.export.web/webdocument/).|
+| [input](/slides/python-net/aspose.slides.export.web/webdocument/input/) |  |
+| [output](/slides/python-net/aspose.slides.export.web/webdocument/output/) | Returns collection of output elements of the document.<br/>             Read-only :py:attr:`aspose.slides.export.web.WebDocument.output`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|save()|Saves the document output.|
-
-### See Also
-
-* namespace [aspose.slides.export.web](/slides/python-net/aspose.slides.export.web/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [save](/slides/python-net/aspose.slides.export.web/webdocument/webdocument/#/) | Saves the document output. |
 

@@ -1,34 +1,36 @@
----
+﻿---
 title: ColumnCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/columncollection/
 ---
 
-## ColumnCollection class
+
+ColumnCollection class
 
 Represents collection of columns in a table.
 
 The ColumnCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/columncollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/columncollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns the column at the specified index.<br/>            Read-only [Column](/slides/python-net/aspose.slides/column/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_clone(templ, with_attached_columns)|Creates a copy of the specified template row and inserts it at the bottom of a table.|
-|insert_clone(index, templ, with_attached_columns)|Creates a copy of the specified template column and insert it at the specified position in a table.|
-|remove_at(first_column_index, with_attached_rows)|Removes a column at the specified position from a table.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add_clone](/slides/python-net/aspose.slides/columncollection/columncollection/#IColumn-bool/) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [insert_clone](/slides/python-net/aspose.slides/columncollection/columncollection/#int-IColumn-bool/) | Creates a copy of the specified template column and insert it at the specified position in a table. |
+| [remove_at](/slides/python-net/aspose.slides/columncollection/columncollection/#int-bool/) | Removes a column at the specified position from a table. |
 

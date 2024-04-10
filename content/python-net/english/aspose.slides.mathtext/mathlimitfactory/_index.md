@@ -1,28 +1,36 @@
----
+﻿---
 title: MathLimitFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathlimitfactory/
 ---
 
-## MathLimitFactory class
+
+MathLimitFactory class
 
 Allows to create IMathLimit
 
 The MathLimitFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|MathLimitFactory()|Initializes a new instance of the MathLimitFactory class|
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/mathlimitfactory/#/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_limit(base_arg, limit, upper_limit)|Creates IMathLimit|
-|create_math_limit(base_arg, limit)|Creates IMathLimit|
+| [create_math_limit](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/mathlimitfactory/#IMathElement-IMathElement-bool/) | Creates IMathLimit |
+| [create_math_limit](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/mathlimitfactory/#IMathElement-IMathElement/) | Creates IMathLimit with limit at the bottom |
 
-### See Also
 
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            For COM comparibility
+            
+
 

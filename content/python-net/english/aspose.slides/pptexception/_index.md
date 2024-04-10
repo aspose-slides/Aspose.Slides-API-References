@@ -1,24 +1,22 @@
----
+﻿---
 title: PptException
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/pptexception/
 ---
 
-## PptException class
+
+PptException class
 
 Represents a standard internal exception type.
 
 The PptException type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|PptException()|Default constructor.|
-|PptException(message)|Initializes a new instance of the PptException class|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [__init__](/slides/python-net/aspose.slides/pptexception/pptexception/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides/pptexception/pptexception/#string/) | Constructor allowing a message to be added to this exception. |
 

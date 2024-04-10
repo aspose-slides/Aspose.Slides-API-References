@@ -1,28 +1,28 @@
----
+﻿---
 title: IVideo
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ivideo/
 ---
 
-## IVideo class
+
+IVideo class
 
 Represents a video embedded into a presentation.
 
 The IVideo type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|content_type|Returns a MIME type of an video, encoded in [binary_data](/slides/python-net/aspose.slides/ivideo/).<br/>            Read-only string.|
-|binary_data|Returns the copy of an audio's data. In case of large amount of data consider using of <br/>            [None](/slides/python-net/aspose.slides/ivideo/) method to prevent unnecessary loading of video's data into memory <br/>            or even OutOfMemoryException.<br/>            Read-only int[].|
+| [content_type](/slides/python-net/aspose.slides/ivideo/content_type/) | Returns a MIME type of an video, encoded in :py:attr:`aspose.slides.IVideo.binary_data`.<br/>            Read-only :py:class:`System.String`. |
+| [binary_data](/slides/python-net/aspose.slides/ivideo/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider using of <br/>            :py:func:`aspose.slides.IVideo.get_stream` method to prevent unnecessary loading of video's data into memory <br/>            or even OutOfMemoryException.<br/>            Read-only :py:class:`int`[]. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_stream()|Returns Stream stream for reading.<br/>            Use 'using' or close stream after using.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_stream](/slides/python-net/aspose.slides/ivideo/ivideo/#/) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
 

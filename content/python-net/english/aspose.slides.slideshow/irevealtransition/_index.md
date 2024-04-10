@@ -1,25 +1,23 @@
----
+﻿---
 title: IRevealTransition
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/irevealtransition/
 ---
 
-## IRevealTransition class
+
+IRevealTransition class
 
 Reveal slide transition effect.
 
 The IRevealTransition type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|direction|Direction of transition.<br/>            Read/write [TransitionLeftRightDirectionType](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype/).|
-|through_black|Specifies whether the transition fades through black.<br/>            Read/write bool.|
-|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
-
-### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [direction](/slides/python-net/aspose.slides.slideshow/irevealtransition/direction/) | Direction of transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionLeftRightDirectionType`. |
+| [through_black](/slides/python-net/aspose.slides.slideshow/irevealtransition/through_black/) | Specifies whether the transition fades through black.<br/>            Read/write :py:class:`bool`. |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/irevealtransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only :py:class:`aspose.slides.slideshow.ITransitionValueBase`. |
 

@@ -1,29 +1,29 @@
----
+﻿---
 title: ILightRig
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ilightrig/
 ---
 
-## ILightRig class
+
+ILightRig class
 
 Represents LightRig.
 
 The ILightRig type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|direction|Light direction.<br/>            Read/write [LightingDirection](/slides/python-net/aspose.slides/lightingdirection/).|
-|light_type|Represents a preset light right that can be applied to a shape. <br/>            The light rig represents a group of lights oriented<br/>            in a specific way relative to a 3D scene.<br/>            Read/write [LightRigPresetType](/slides/python-net/aspose.slides/lightrigpresettype/).|
+| [direction](/slides/python-net/aspose.slides/ilightrig/direction/) | Light direction.<br/>            Read/write :py:enum:`aspose.slides.LightingDirection`. |
+| [light_type](/slides/python-net/aspose.slides/ilightrig/light_type/) | Represents a preset light right that can be applied to a shape. <br/>            The light rig represents a group of lights oriented<br/>            in a specific way relative to a 3D scene.<br/>            Read/write :py:enum:`aspose.slides.LightRigPresetType`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|set_rotation(latitude, longitude, revolution)|A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.|
-|get_rotation()|A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [set_rotation](/slides/python-net/aspose.slides/ilightrig/ilightrig/#float-float-float/) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates. |
+| [get_rotation](/slides/python-net/aspose.slides/ilightrig/ilightrig/#/) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution. |
 

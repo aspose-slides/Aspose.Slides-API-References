@@ -1,28 +1,28 @@
----
+﻿---
 title: IColorReplace
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/icolorreplace/
 ---
 
-## IColorReplace class
+
+IColorReplace class
 
 Represents a Color Replacement effect.
 
 The IColorReplace type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|color|Returns color format which will replace color of every pixel.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
-|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [color](/slides/python-net/aspose.slides.effects/icolorreplace/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/icolorreplace/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective object formatting data with the inheritance applied.|
-
-### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_effective](/slides/python-net/aspose.slides.effects/icolorreplace/icolorreplace/#/) |  |
 

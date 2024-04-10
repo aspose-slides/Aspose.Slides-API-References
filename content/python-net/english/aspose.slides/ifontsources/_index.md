@@ -1,24 +1,22 @@
----
+﻿---
 title: IFontSources
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ifontsources/
 ---
 
-## IFontSources class
+
+IFontSources class
 
 Provides file and memory sources for external fonts.
 
 The IFontSources type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|font_folders|Folders containing font files.<br/>            All font files located in these folders are included in the collection. Folders that are recursively searched.|
-|memory_fonts|A collection of fonts represented as byte arrays.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [font_folders](/slides/python-net/aspose.slides/ifontsources/font_folders/) | Folders containing font files.<br/>            All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| [memory_fonts](/slides/python-net/aspose.slides/ifontsources/memory_fonts/) | A collection of fonts represented as byte arrays. |
 

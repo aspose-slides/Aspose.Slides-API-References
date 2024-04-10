@@ -1,31 +1,31 @@
----
+﻿---
 title: WebDocumentOptions
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export.web/webdocumentoptions/
 ---
 
-## WebDocumentOptions class
 
-Represents an options set for [WebDocument](/slides/python-net/aspose.slides.export.web/webdocument/) saving.
+WebDocumentOptions class
+
+Represents an options set for :py:class:`aspose.slides.export.web.WebDocument` saving.
 
 The WebDocumentOptions type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|WebDocumentOptions()|Initializes a new instance of the WebDocumentOptions class|
+| [__init__](/slides/python-net/aspose.slides.export.web/webdocumentoptions/webdocumentoptions/#/) |  |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|template_engine|Returns or sets templates engine.<br/>            Read/write [ITemplateEngine](/slides/python-net/aspose.slides.export.web/itemplateengine/).|
-|output_saver|Returns or sets output saver.<br/>            Read/write [IOutputSaver](/slides/python-net/aspose.slides.export.web/ioutputsaver/).|
-|embed_images|Returns or sets images embedding option.<br/>            Read/write bool.|
-|animate_transitions|Returns or sets transitions animation option.<br/>            Read/write bool.|
-|animate_shapes|Returns or sets shapes animation option.<br/>            Read/write bool.|
-
-### See Also
-
-* namespace [aspose.slides.export.web](/slides/python-net/aspose.slides.export.web/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [template_engine](/slides/python-net/aspose.slides.export.web/webdocumentoptions/template_engine/) | Returns or sets templates engine.<br/>            Read/write :py:class:`aspose.slides.export.web.ITemplateEngine`. |
+| [output_saver](/slides/python-net/aspose.slides.export.web/webdocumentoptions/output_saver/) | Returns or sets output saver.<br/>            Read/write :py:class:`aspose.slides.export.web.IOutputSaver`. |
+| [embed_images](/slides/python-net/aspose.slides.export.web/webdocumentoptions/embed_images/) | Returns or sets images embedding option.<br/>            Read/write :py:class:`bool`. |
+| [animate_transitions](/slides/python-net/aspose.slides.export.web/webdocumentoptions/animate_transitions/) | Returns or sets transitions animation option.<br/>            Read/write :py:class:`bool`. |
+| [animate_shapes](/slides/python-net/aspose.slides.export.web/webdocumentoptions/animate_shapes/) | Returns or sets shapes animation option.<br/>            Read/write :py:class:`bool`. |
 

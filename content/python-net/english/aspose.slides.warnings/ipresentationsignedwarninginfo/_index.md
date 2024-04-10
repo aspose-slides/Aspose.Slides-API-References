@@ -1,29 +1,30 @@
----
+﻿---
 title: IPresentationSignedWarningInfo
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 
-## IPresentationSignedWarningInfo class
 
-This warning indicates that the presentation being read has the signature <br/>            and this signature will be removed during processing.
+IPresentationSignedWarningInfo class
+
+This warning indicates that the presentation being read has the signature 
+            and this signature will be removed during processing.
 
 The IPresentationSignedWarningInfo type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_warning_info|Returns IWarningInfo interface.<br/>            Read-only [IWarningInfo](/slides/python-net/aspose.slides.warnings/iwarninginfo/).|
-|warning_type|Returns a type of warning.<br/>            Read-only [warning_type](/slides/python-net/aspose.slides.warnings/iwarninginfo/).|
-|description|Returns a human readable description of this warning.<br/>            Read-only string.|
+| [as_i_warning_info](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/as_i_warning_info/) | Returns IWarningInfo interface.<br/>            Read-only :py:class:`aspose.slides.warnings.IWarningInfo`. |
+| [warning_type](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/warning_type/) |  |
+| [description](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/description/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|send_warning(receiver)|If receiver is not null ends warning to a specified receiver and throws the <br/>            AbortRequestedException if receiver decided to abort a operation.|
-
-### See Also
-
-* namespace [aspose.slides.warnings](/slides/python-net/aspose.slides.warnings/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [send_warning](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/ipresentationsignedwarninginfo/#IWarningCallback/) |  |
 

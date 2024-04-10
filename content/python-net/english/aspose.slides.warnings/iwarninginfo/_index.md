@@ -1,28 +1,28 @@
----
+﻿---
 title: IWarningInfo
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.warnings/iwarninginfo/
 ---
 
-## IWarningInfo class
+
+IWarningInfo class
 
 Represents a base interface for all warnings.
 
 The IWarningInfo type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|warning_type|Returns a type of warning.<br/>            Read-only [warning_type](/slides/python-net/aspose.slides.warnings/iwarninginfo/).|
-|description|Returns a human readable description of this warning.<br/>            Read-only string.|
+| [warning_type](/slides/python-net/aspose.slides.warnings/iwarninginfo/warning_type/) | Returns a type of warning.<br/>            Read-only :py:attr:`aspose.slides.warnings.IWarningInfo.warning_type`. |
+| [description](/slides/python-net/aspose.slides.warnings/iwarninginfo/description/) | Returns a human readable description of this warning.<br/>            Read-only :py:class:`System.String`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|send_warning(receiver)|If receiver is not null ends warning to a specified receiver and throws the <br/>            AbortRequestedException if receiver decided to abort a operation.|
-
-### See Also
-
-* namespace [aspose.slides.warnings](/slides/python-net/aspose.slides.warnings/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [send_warning](/slides/python-net/aspose.slides.warnings/iwarninginfo/iwarninginfo/#IWarningCallback/) | If receiver is not null ends warning to a specified receiver and throws the <br/>            AbortRequestedException if receiver decided to abort a operation. |
 

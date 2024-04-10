@@ -1,24 +1,22 @@
----
+﻿---
 title: IVbaModule
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.vba/ivbamodule/
 ---
 
-## IVbaModule class
+
+IVbaModule class
 
 Represents module that is contained in VBA project.
 
 The IVbaModule type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|name|Name of the module.<br/>            Read-only string.|
-|source_code|Source code of the module.<br/>            Read/write string.|
-
-### See Also
-
-* namespace [aspose.slides.vba](/slides/python-net/aspose.slides.vba/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [name](/slides/python-net/aspose.slides.vba/ivbamodule/name/) | Name of the module.<br/>            Read-only :py:class:`System.String`. |
+| [source_code](/slides/python-net/aspose.slides.vba/ivbamodule/source_code/) | Source code of the module.<br/>            Read/write :py:class:`System.String`. |
 

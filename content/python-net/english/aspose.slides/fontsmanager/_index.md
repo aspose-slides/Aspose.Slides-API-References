@@ -1,36 +1,36 @@
----
+﻿---
 title: FontsManager
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/fontsmanager/
 ---
 
-## FontsManager class
+
+FontsManager class
 
 Manages fonts across the presentation.
 
 The FontsManager type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|font_subst_rule_list|Font substitutions to use when rendering.<br/>            Read/write [IFontSubstRuleCollection](/slides/python-net/aspose.slides/ifontsubstrulecollection/).|
-|font_fall_back_rules_collection|Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality<br/>            Read/write [IFontFallBackRulesCollection](/slides/python-net/aspose.slides/ifontfallbackrulescollection/).|
+| [font_subst_rule_list](/slides/python-net/aspose.slides/fontsmanager/font_subst_rule_list/) | Font substitutions to use when rendering.<br/>            Read/write :py:class:`aspose.slides.IFontSubstRuleCollection`. |
+| [font_fall_back_rules_collection](/slides/python-net/aspose.slides/fontsmanager/font_fall_back_rules_collection/) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality<br/>            Read/write :py:class:`aspose.slides.IFontFallBackRulesCollection`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_embedded_font(font_data, embed_font_rule)|Adds the embedded font|
-|add_embedded_font(font_data, embed_font_rule)|Adds the embedded font|
-|replace_font(source_font, dest_font)|Replace font in presentation|
-|replace_font(subst_rule)|Replace font in presentation using information provided in|
-|replace_font(subst_rules)|Replace font in presentation using information provided in collection of|
-|get_fonts()|Returns the fonts used in the presentation|
-|get_substitutions()|Gets the information about fonts that will be replaced on the presentation's rendering.|
-|get_embedded_fonts()|Returns the fonts embedded in the presentation|
-|remove_embedded_font(font_data)|Removes the embedded font|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add_embedded_font](/slides/python-net/aspose.slides/fontsmanager/fontsmanager/#IFontData-aspose.slides.export.EmbedFontCharacters/) | Adds the embedded font |
+| [add_embedded_font](/slides/python-net/aspose.slides/fontsmanager/fontsmanager/#bytes-aspose.slides.export.EmbedFontCharacters/) | Adds the embedded font |
+| [replace_font](/slides/python-net/aspose.slides/fontsmanager/fontsmanager/#IFontData-IFontData/) | Replace font in presentation |
+| [replace_font](/slides/python-net/aspose.slides/fontsmanager/fontsmanager/#IFontSubstRule/) | Replace font in presentation using information provided in :py:class:`aspose.slides.FontSubstRule` |
+| [replace_font](/slides/python-net/aspose.slides/fontsmanager/fontsmanager/#IFontSubstRuleCollection/) | Replace font in presentation using information provided in collection of :py:class:`aspose.slides.FontSubstRule` |
+| [get_fonts](/slides/python-net/aspose.slides/fontsmanager/fontsmanager/#/) | Returns the fonts used in the presentation |
+| [get_substitutions](/slides/python-net/aspose.slides/fontsmanager/fontsmanager/#/) | Gets the information about fonts that will be replaced on the presentation's rendering. |
+| [get_embedded_fonts](/slides/python-net/aspose.slides/fontsmanager/fontsmanager/#/) | Returns the fonts embedded in the presentation |
+| [remove_embedded_font](/slides/python-net/aspose.slides/fontsmanager/fontsmanager/#IFontData/) | Removes the embedded font |
 

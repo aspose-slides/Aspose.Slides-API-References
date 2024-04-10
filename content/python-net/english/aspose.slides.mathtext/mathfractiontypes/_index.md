@@ -1,25 +1,24 @@
----
+﻿---
 title: MathFractionTypes
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathfractiontypes/
 ---
 
-## MathFractionTypes enumeration
+
+MathFractionTypes enumeration
 
 Fraction Types
 
-## Members
-| Member name | Description |
+The MathFractionTypes type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|BAR|Bar Fraction|
-|SKEWED|Skewed|
-|LINEAR|Linear Fraction|
-|NO_BAR|No-Bar Fraction (Stack)|
-
-### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| BAR | Bar Fraction |
+| SKEWED | Skewed |
+| LINEAR | Linear Fraction |
+| NO_BAR | No-Bar Fraction (Stack) |
 

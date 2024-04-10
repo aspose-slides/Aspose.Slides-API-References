@@ -1,29 +1,30 @@
----
+﻿---
 title: IGlow
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/iglow/
 ---
 
-## IGlow class
 
-Represents a Glow effect, in which a color blurred outline <br/>            is added outside the edges of the object.
+IGlow class
+
+Represents a Glow effect, in which a color blurred outline 
+            is added outside the edges of the object.
 
 The IGlow type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|radius|Radius.<br/>            Read/write float.|
-|color|Color format.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
-|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [radius](/slides/python-net/aspose.slides.effects/iglow/radius/) | Radius.<br/>            Read/write :py:class:`float`. |
+| [color](/slides/python-net/aspose.slides.effects/iglow/color/) | Color format.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/iglow/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective object formatting data with the inheritance applied.|
-
-### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_effective](/slides/python-net/aspose.slides.effects/iglow/iglow/#/) |  |
 

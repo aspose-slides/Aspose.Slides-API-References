@@ -1,25 +1,24 @@
----
+﻿---
 title: PropertyValueType
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/propertyvaluetype/
 ---
 
-## PropertyValueType enumeration
+
+PropertyValueType enumeration
 
 Represent property value types.
 
-## Members
-| Member name | Description |
+The PropertyValueType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|STRING||
-|NUMBER||
-|COLOR||
-
-### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| NOT_DEFINED |  |
+| STRING |  |
+| NUMBER |  |
+| COLOR |  |
 

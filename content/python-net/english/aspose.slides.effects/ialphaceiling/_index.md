@@ -1,27 +1,29 @@
----
+﻿---
 title: IAlphaCeiling
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/ialphaceiling/
 ---
 
-## IAlphaCeiling class
 
-Represents an Alpha Ceiling effect.<br/>            Alpha (opacity) values greater than zero are changed to 100%.<br/>            In other words, anything partially opaque becomes fully opaque.
+IAlphaCeiling class
+
+Represents an Alpha Ceiling effect.
+            Alpha (opacity) values greater than zero are changed to 100%.
+            In other words, anything partially opaque becomes fully opaque.
 
 The IAlphaCeiling type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_image_transform_operation|Allows to get base IImageTransformOperationEx interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ialphaceiling/as_i_image_transform_operation/) | Allows to get base IImageTransformOperationEx interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective object formatting data with the inheritance applied.|
-
-### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_effective](/slides/python-net/aspose.slides.effects/ialphaceiling/ialphaceiling/#/) |  |
 

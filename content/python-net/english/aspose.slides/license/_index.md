@@ -1,30 +1,30 @@
----
+﻿---
 title: License
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/license/
 ---
 
-## License class
+
+License class
 
 Provides methods to license the component.
 
 The License type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|License()|Initializes a new instance of this class.|
+| [__init__](/slides/python-net/aspose.slides/license/license/#/) | Initializes a new instance of this class. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|set_license(license_name)|Licenses the component.|
-|set_license(stream)|Licenses the component.|
-|reset_license()|Reset the license|
-|is_licensed()|Check if licence is applied to component|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [set_license](/slides/python-net/aspose.slides/license/license/#string/) | Licenses the component. |
+| [set_license](/slides/python-net/aspose.slides/license/license/#System.IO.Stream/) | Licenses the component. |
+| [reset_license](/slides/python-net/aspose.slides/license/license/#/) | Reset the license |
+| [is_licensed](/slides/python-net/aspose.slides/license/license/#/) | Check if licence is applied to component |
 

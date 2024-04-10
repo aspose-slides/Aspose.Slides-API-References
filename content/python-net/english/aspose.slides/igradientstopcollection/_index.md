@@ -1,39 +1,41 @@
----
+﻿---
 title: IGradientStopCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/igradientstopcollection/
 ---
 
-## IGradientStopCollection class
+
+IGradientStopCollection class
 
 Represnts a collection of gradient stops.
 
 The IGradientStopCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/igradientstopcollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/igradientstopcollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns the gradient stop by index.|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(position, color)|Creates the new gradient stop and adds it to the end of collection.|
-|add(position, preset_color)|Creates the new gradient stop and adds it to the end of collection.|
-|add(position, scheme_color)|Creates the new gradient stop and adds it to the end of collection.|
-|insert(index, position, color)|Creates the new gradient stop and inserts it at the specified index to the collection.|
-|insert(index, position, preset_color)|Creates the new gradient stop and inserts it at the specified index to the collection.|
-|insert(index, position, scheme_color)|Creates the new gradient stop and inserts it at the specified index to the collection.|
-|remove_at(index)|Removes a gradient stop at the specified index.|
-|clear()|Removes all gradient stops from a collection.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides/igradientstopcollection/igradientstopcollection/#float-aspose.pydrawing.Color/) | Creates the new gradient stop and adds it to the end of collection. |
+| [add](/slides/python-net/aspose.slides/igradientstopcollection/igradientstopcollection/#float-PresetColor/) | Creates the new gradient stop and adds it to the end of collection. |
+| [add](/slides/python-net/aspose.slides/igradientstopcollection/igradientstopcollection/#float-SchemeColor/) | Creates the new gradient stop and adds it to the end of collection. |
+| [insert](/slides/python-net/aspose.slides/igradientstopcollection/igradientstopcollection/#int-float-aspose.pydrawing.Color/) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [insert](/slides/python-net/aspose.slides/igradientstopcollection/igradientstopcollection/#int-float-PresetColor/) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [insert](/slides/python-net/aspose.slides/igradientstopcollection/igradientstopcollection/#int-float-SchemeColor/) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [remove_at](/slides/python-net/aspose.slides/igradientstopcollection/igradientstopcollection/#int/) | Removes a gradient stop at the specified index. |
+| [clear](/slides/python-net/aspose.slides/igradientstopcollection/igradientstopcollection/#/) | Removes all gradient stops from a collection. |
 

@@ -1,35 +1,37 @@
----
+﻿---
 title: ControlCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/controlcollection/
 ---
 
-## ControlCollection class
+
+ControlCollection class
 
 A collection of ActiveX controls.
 
 The ControlCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/controlcollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/controlcollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns a control at the specified position.|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_control(control_type, x, y, width, height)|Creates and adds a new control to the collection.|
-|remove(item)|Removes an ActiveX control from the collection.|
-|remove_at(index)|Removes an ActiveX control stored at specified position from the collection.|
-|clear()|Removes all controls from the collection.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add_control](/slides/python-net/aspose.slides/controlcollection/controlcollection/#ControlType-float-float-float-float/) | Creates and adds a new control to the collection. |
+| [remove](/slides/python-net/aspose.slides/controlcollection/controlcollection/#IControl/) | Removes an ActiveX control from the collection. |
+| [remove_at](/slides/python-net/aspose.slides/controlcollection/controlcollection/#int/) | Removes an ActiveX control stored at specified position from the collection. |
+| [clear](/slides/python-net/aspose.slides/controlcollection/controlcollection/#/) | Removes all controls from the collection. |
 

@@ -1,28 +1,36 @@
----
+﻿---
 title: MathArrayFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/matharrayfactory/
 ---
 
-## MathArrayFactory class
+
+MathArrayFactory class
 
 Allows to create a math array
 
 The MathArrayFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|MathArrayFactory()|Initializes a new instance of the MathArrayFactory class|
+| [__init__](/slides/python-net/aspose.slides.mathtext/matharrayfactory/matharrayfactory/#/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_array(element)|Creates a math array and places the specified element in it|
-|create_math_array(elements)|Creates a math array and places specified elements in it|
+| [create_math_array](/slides/python-net/aspose.slides.mathtext/matharrayfactory/matharrayfactory/#IMathElement/) | Creates a math array and places the specified element in it |
+| [create_math_array](/slides/python-net/aspose.slides.mathtext/matharrayfactory/matharrayfactory/#IMathElementCollection/) | Creates a math array and places specified elements in it |
 
-### See Also
 
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            For COM comparibility
+            
+
 

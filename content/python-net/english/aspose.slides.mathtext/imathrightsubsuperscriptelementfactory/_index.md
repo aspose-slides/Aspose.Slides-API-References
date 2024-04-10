@@ -1,23 +1,29 @@
----
+﻿---
 title: IMathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/
 ---
 
-## IMathRightSubSuperscriptElementFactory class
+
+IMathRightSubSuperscriptElementFactory class
 
 Allows to create IMathRightSubSuperscriptElementFactory
 
 The IMathRightSubSuperscriptElementFactory type exposes the following members:
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_right_sub_superscript_element(base_arg, sub_script, super_script)|Creates IMathRightSubSuperscriptElementFactory|
+| [create_math_right_sub_superscript_element](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/imathrightsubsuperscriptelementfactory/#IMathElement-IMathElement-IMathElement/) | Creates IMathRightSubSuperscriptElementFactory |
 
-### See Also
 
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            For COM comparibility
+            
+
 

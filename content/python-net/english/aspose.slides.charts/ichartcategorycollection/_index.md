@@ -1,39 +1,41 @@
----
+﻿---
 title: IChartCategoryCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartcategorycollection/
 ---
 
-## IChartCategoryCollection class
 
-Represents collection of [IChartCategory](/slides/python-net/aspose.slides.charts/ichartcategory/)
+IChartCategoryCollection class
+
+Represents collection of :py:class:`aspose.slides.charts.IChartCategory`
 
 The IChartCategoryCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|use_cells|If true then worksheet is used for storing categories (this case supports a multi-level categories).<br/>            If false then worksheet is NOT used for storing values (and this case doesn't support a <br/>            multi-level categories).<br/>            Read/write bool.|
-|grouping_level_count|Returns count of category grouping levels used.<br/>            Is more then one for multilevel categories.<br/>            Read-only|
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [use_cells](/slides/python-net/aspose.slides.charts/ichartcategorycollection/use_cells/) | If true then worksheet is used for storing categories (this case supports a multi-level categories).<br/>            If false then worksheet is NOT used for storing values (and this case doesn't support a <br/>            multi-level categories).<br/>            Read/write :py:class:`bool`. |
+| [grouping_level_count](/slides/python-net/aspose.slides.charts/ichartcategorycollection/grouping_level_count/) | Returns count of category grouping levels used.<br/>            Is more then one for multilevel categories.<br/>            Read-only :py:class:`int`. |
+| [as_i_collection](/slides/python-net/aspose.slides.charts/ichartcategorycollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides.charts/ichartcategorycollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(chart_data_cell)|If category exists in collection, return it. Else creates new chart category from <br/>            [IChartDataCell](/slides/python-net/aspose.slides.charts/ichartdatacell/) and adds it to the collection.|
-|add(value)|Creates new [IChartCategory](/slides/python-net/aspose.slides.charts/ichartcategory/) from value and adds it to the collection.|
-|index_of(value)|Searches for the specified [IChartCategory](/slides/python-net/aspose.slides.charts/ichartcategory/) and returns the zero-based index of the first occurrence within the entire Collection|
-|remove(value)|Removes the specified value.|
-|remove_at(index)|Removes the element at the given index.|
-|clear()|Removes all elements from the collection.|
-
-### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#IChartDataCell/) | If category exists in collection, return it. Else creates new chart category from <br/>            :py:class:`aspose.slides.charts.IChartDataCell` and adds it to the collection. |
+| [add](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#any/) | Creates new :py:class:`aspose.slides.charts.IChartCategory` from value and adds it to the collection. |
+| [index_of](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#IChartCategory/) | Searches for the specified :py:class:`aspose.slides.charts.IChartCategory` and returns the zero-based index of the first occurrence within the entire Collection |
+| [remove](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#IChartCategory/) | Removes the specified value. |
+| [remove_at](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#int/) | Removes the element at the given index. |
+| [clear](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#/) | Removes all elements from the collection. |
 

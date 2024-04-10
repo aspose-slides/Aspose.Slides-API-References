@@ -1,30 +1,33 @@
----
+﻿---
 title: HSL
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/hsl/
 ---
 
-## HSL class
 
-Represents a Hue/Saturation/Luminance effect.<br/>            The hue, saturation, and luminance may each be adjusted relative to its current value.
+HSL class
+
+Represents a Hue/Saturation/Luminance effect.
+            The hue, saturation, and luminance may each be adjusted relative to its current value.
+
+**Inheritance:**[`HSL`](/slides/python-net/aspose.slides.effects/hsl) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
 
 The HSL type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
-|as_i_image_transform_operation|Returns IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/hsl/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
+| [slide](/slides/python-net/aspose.slides.effects/hsl/slide/) |  |
+| [presentation](/slides/python-net/aspose.slides.effects/hsl/presentation/) |  |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/hsl/as_i_image_transform_operation/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective Hue/Saturation/Luminance effect data with the inheritance applied.|
-
-### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_effective](/slides/python-net/aspose.slides.effects/hsl/hsl/#/) | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
 

@@ -1,28 +1,28 @@
----
+﻿---
 title: ILineFormatCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/ilineformatcollection/
 ---
 
-## ILineFormatCollection class
+
+ILineFormatCollection class
 
 Represents the collection of line styles.
 
 The ILineFormatCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides.theme/ilineformatcollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides.theme/ilineformatcollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
-
-### See Also
-
-* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [index] |  |
 

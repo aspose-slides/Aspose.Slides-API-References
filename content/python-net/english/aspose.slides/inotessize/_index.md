@@ -1,23 +1,21 @@
----
+﻿---
 title: INotesSize
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/inotessize/
 ---
 
-## INotesSize class
+
+INotesSize class
 
 Represents a size of notes slide.
 
 The INotesSize type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|size|Returns or sets the size in points.<br/>            Read/write aspose.pydrawing.SizeF.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [size](/slides/python-net/aspose.slides/inotessize/size/) | Returns or sets the size in points.<br/>            Read/write :py:class:`aspose.pydrawing.SizeF`. |
 

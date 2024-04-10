@@ -1,29 +1,39 @@
----
+﻿---
 title: IPatternFormatEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipatternformateffectivedata/
 ---
 
-## IPatternFormatEffectiveData class
+
+IPatternFormatEffectiveData class
 
 Immutable object which contains effective pattern filling properties.
 
 The IPatternFormatEffectiveData type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|pattern_style|Returns the pattern style.<br/>            Read-only [PatternStyle](/slides/python-net/aspose.slides/patternstyle/).|
-|fore_color|Returns the foreground pattern color.<br/>            Read-only aspose.pydrawing.Color.|
-|back_color|Returns the background pattern color.<br/>            Read-only aspose.pydrawing.Color.|
+| [pattern_style](/slides/python-net/aspose.slides/ipatternformateffectivedata/pattern_style/) | Returns the pattern style.<br/>            Read-only :py:enum:`aspose.slides.PatternStyle`. |
+| [fore_color](/slides/python-net/aspose.slides/ipatternformateffectivedata/fore_color/) | Returns the foreground pattern color.<br/>            Read-only :py:class:`aspose.pydrawing.Color`. |
+| [back_color](/slides/python-net/aspose.slides/ipatternformateffectivedata/back_color/) | Returns the background pattern color.<br/>            Read-only :py:class:`aspose.pydrawing.Color`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_tile_image(background, foreground)|Creates a tile image for the pattern fill with a specified colors.|
+| [get_tile_image](/slides/python-net/aspose.slides/ipatternformateffectivedata/ipatternformateffectivedata/#aspose.pydrawing.Color-aspose.pydrawing.Color/) | Creates a tile image for the pattern fill with a specified colors. |
 
-### See Also
 
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            This interface is used as a part of 
+ and 
+.
+            
+
 

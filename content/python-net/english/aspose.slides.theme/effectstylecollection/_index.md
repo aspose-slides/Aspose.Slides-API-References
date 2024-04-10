@@ -1,28 +1,28 @@
----
+﻿---
 title: EffectStyleCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/effectstylecollection/
 ---
 
-## EffectStyleCollection class
+
+EffectStyleCollection class
 
 Represents a collection of effect styles.
 
 The EffectStyleCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides.theme/effectstylecollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides.theme/effectstylecollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns an element at specified position.<br/>            Read-only [EffectStyle](/slides/python-net/aspose.slides.theme/effectstyle/).|
-
-### See Also
-
-* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [index] |  |
 

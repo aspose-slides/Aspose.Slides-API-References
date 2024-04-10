@@ -1,29 +1,28 @@
----
+﻿---
 title: TransitionEightDirectionType
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/transitioneightdirectiontype/
 ---
 
-## TransitionEightDirectionType enumeration
+
+TransitionEightDirectionType enumeration
 
 Represent eight direction transition types.
 
-## Members
-| Member name | Description |
+The TransitionEightDirectionType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|LEFT_DOWN||
-|LEFT_UP||
-|RIGHT_DOWN||
-|RIGHT_UP||
-|LEFT||
-|UP||
-|DOWN||
-|RIGHT||
-
-### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| LEFT_DOWN |  |
+| LEFT_UP |  |
+| RIGHT_DOWN |  |
+| RIGHT_UP |  |
+| LEFT |  |
+| UP |  |
+| DOWN |  |
+| RIGHT |  |
 

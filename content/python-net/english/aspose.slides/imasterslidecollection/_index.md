@@ -1,36 +1,38 @@
----
+﻿---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/imasterslidecollection/
 ---
 
-## IMasterSlideCollection class
+
+IMasterSlideCollection class
 
 Represents a collection of master slides.
 
 The IMasterSlideCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/imasterslidecollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/imasterslidecollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [IMasterSlide](/slides/python-net/aspose.slides/imasterslide/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|remove(value)|Removes the first occurrence of a specific object from the collection.|
-|remove_at(index)|Removes the element at the specified index of the collection.|
-|remove_unused(ignore_preserve_field)|Removes unused master slides.|
-|add_clone(source_master)|Adds a copy of a specified master slide to the end of the collection.<br/>            Linked layout slides will be copied too.|
-|insert_clone(index, source_master)|Inserts a copy of a specified master slide to specified position of the collection.<br/>            Linked layout slides will be copied too.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [remove](/slides/python-net/aspose.slides/imasterslidecollection/imasterslidecollection/#IMasterSlide/) | Removes the first occurrence of a specific object from the collection. |
+| [remove_at](/slides/python-net/aspose.slides/imasterslidecollection/imasterslidecollection/#int/) | Removes the element at the specified index of the collection. |
+| [remove_unused](/slides/python-net/aspose.slides/imasterslidecollection/imasterslidecollection/#bool/) | Removes unused master slides. |
+| [add_clone](/slides/python-net/aspose.slides/imasterslidecollection/imasterslidecollection/#IMasterSlide/) | Adds a copy of a specified master slide to the end of the collection.<br/>            Linked layout slides will be copied too. |
+| [insert_clone](/slides/python-net/aspose.slides/imasterslidecollection/imasterslidecollection/#int-IMasterSlide/) | Inserts a copy of a specified master slide to specified position of the collection.<br/>            Linked layout slides will be copied too. |
 

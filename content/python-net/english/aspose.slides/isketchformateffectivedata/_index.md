@@ -1,23 +1,30 @@
----
+﻿---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/isketchformateffectivedata/
 ---
 
-## ISketchFormatEffectiveData class
+
+ISketchFormatEffectiveData class
 
 Immutable object which contains effective line sketch properties.
 
 The ISketchFormatEffectiveData type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|sketch_type|Returns the sketch type.<br/>            Read only [LineSketchType](/slides/python-net/aspose.slides/linesketchtype/).|
+| [sketch_type](/slides/python-net/aspose.slides/isketchformateffectivedata/sketch_type/) | Returns the sketch type.<br/>            Read only :py:enum:`aspose.slides.LineSketchType`. |
 
-### See Also
 
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            This interface is used as a part of 
+.
+            
+
 

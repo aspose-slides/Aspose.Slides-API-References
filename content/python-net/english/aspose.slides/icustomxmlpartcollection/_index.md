@@ -1,37 +1,39 @@
----
+﻿---
 title: ICustomXmlPartCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/icustomxmlpartcollection/
 ---
 
-## ICustomXmlPartCollection class
+
+ICustomXmlPartCollection class
 
 Represents collection of custom xml parts.
 
 The ICustomXmlPartCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/icustomxmlpartcollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/icustomxmlpartcollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns the element at the specified index.|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(xml_data)|Adds new custom xml part.|
-|add(xml_string)|Adds new custom xml part.|
-|add(input_stream)|Adds new custom xml part.|
-|remove_at(index)|Removes custom xml part at the specified index.|
-|remove(item)|Removes custom xml part at the specified index.|
-|clear()|Removes all items from the collection.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides/icustomxmlpartcollection/icustomxmlpartcollection/#bytes/) | Adds new custom xml part. |
+| [add](/slides/python-net/aspose.slides/icustomxmlpartcollection/icustomxmlpartcollection/#string/) | Adds new custom xml part. |
+| [add](/slides/python-net/aspose.slides/icustomxmlpartcollection/icustomxmlpartcollection/#System.IO.Stream/) | Adds new custom xml part. |
+| [remove_at](/slides/python-net/aspose.slides/icustomxmlpartcollection/icustomxmlpartcollection/#int/) | Removes custom xml part at the specified index. |
+| [remove](/slides/python-net/aspose.slides/icustomxmlpartcollection/icustomxmlpartcollection/#ICustomXmlPart/) | Removes the first occurrence of a specific object from the collection. |
+| [clear](/slides/python-net/aspose.slides/icustomxmlpartcollection/icustomxmlpartcollection/#/) | Removes all items from the collection. |
 

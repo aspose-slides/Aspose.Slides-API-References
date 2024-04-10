@@ -1,23 +1,21 @@
----
+﻿---
 title: IEmptyTransition
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/iemptytransition/
 ---
 
-## IEmptyTransition class
+
+IEmptyTransition class
 
 Empty slide transition effect.
 
 The IEmptyTransition type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
-
-### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/iemptytransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only :py:class:`aspose.slides.slideshow.ITransitionValueBase`. |
 

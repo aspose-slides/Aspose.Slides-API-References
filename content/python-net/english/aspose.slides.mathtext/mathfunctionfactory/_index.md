@@ -1,28 +1,36 @@
----
+﻿---
 title: MathFunctionFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathfunctionfactory/
 ---
 
-## MathFunctionFactory class
+
+MathFunctionFactory class
 
 Allows to create a math function
 
 The MathFunctionFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|MathFunctionFactory()|Initializes a new instance of the MathFunctionFactory class|
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/mathfunctionfactory/#/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_function(func_name, base_argument)|Creates math function|
-|create_math_function(func_name, base_argument)|Creates math function|
+| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/mathfunctionfactory/#IMathElement-IMathElement/) | Creates math function |
+| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/mathfunctionfactory/#string-IMathElement/) | Creates math function |
 
-### See Also
 
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            For COM comparibility
+            
+
 

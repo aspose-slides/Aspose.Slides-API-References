@@ -1,30 +1,28 @@
----
+﻿---
 title: IRotationEffect
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/irotationeffect/
 ---
 
-## IRotationEffect class
+
+IRotationEffect class
 
 Represent rotation behavior of effect.
 
 The IRotationEffect type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|from_address|Describes the starting value for the animation.<br/>            Read/write|
-|to|Describes the ending value for the animation.<br/>            Read/write|
-|by|Describes the relative offset value for the animation.<br/>            Read/write|
-|as_i_behavior|Allows to get base IBehavior interface.<br/>            Read-only [IBehavior](/slides/python-net/aspose.slides.animation/ibehavior/).|
-|accumulate|Represents whether animation behaviors are accumulated.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|additive|Represents whether the current animation behavior is combined with other running animations.<br/>            Read/write [BehaviorAdditiveType](/slides/python-net/aspose.slides.animation/behavioradditivetype/).|
-|properties|Represents properties of behavior.<br/>            Read-only [IBehaviorPropertyCollection](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/).|
-|timing|Represents timing properties for the effect behavior.<br/>            Read/write [ITiming](/slides/python-net/aspose.slides.animation/itiming/).|
-
-### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [from_address](/slides/python-net/aspose.slides.animation/irotationeffect/from_address/) | Describes the starting value for the animation.<br/>            Read/write :py:class:`float`. |
+| [to](/slides/python-net/aspose.slides.animation/irotationeffect/to/) | Describes the ending value for the animation.<br/>            Read/write :py:class:`float`. |
+| [by](/slides/python-net/aspose.slides.animation/irotationeffect/by/) | Describes the relative offset value for the animation.<br/>            Read/write :py:class:`float`. |
+| [as_i_behavior](/slides/python-net/aspose.slides.animation/irotationeffect/as_i_behavior/) | Allows to get base IBehavior interface.<br/>            Read-only :py:class:`aspose.slides.animation.IBehavior`. |
+| [accumulate](/slides/python-net/aspose.slides.animation/irotationeffect/accumulate/) |  |
+| [additive](/slides/python-net/aspose.slides.animation/irotationeffect/additive/) |  |
+| [properties](/slides/python-net/aspose.slides.animation/irotationeffect/properties/) |  |
+| [timing](/slides/python-net/aspose.slides.animation/irotationeffect/timing/) |  |
 

@@ -1,36 +1,36 @@
----
+﻿---
 title: IParagraph
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iparagraph/
 ---
 
-## IParagraph class
+
+IParagraph class
 
 Represents a paragraph of a text.
 
 The IParagraph type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|portions|Returns the collection of a text portions.<br/>            Read-only [IPortionCollection](/slides/python-net/aspose.slides/iportioncollection/).|
-|paragraph_format|Returns the formatting object for this paragraph.<br/>            Read-only [IParagraphFormat](/slides/python-net/aspose.slides/iparagraphformat/).|
-|text|Gets or sets the the plain text of a paragraph.<br/>            Read/write string.|
-|end_paragraph_portion_format|Specifies the portion properties that are to be used if another portion is inserted after <br/>            the last one.|
-|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+| [portions](/slides/python-net/aspose.slides/iparagraph/portions/) | Returns the collection of a text portions.<br/>            Read-only :py:class:`aspose.slides.IPortionCollection`. |
+| [paragraph_format](/slides/python-net/aspose.slides/iparagraph/paragraph_format/) | Returns the formatting object for this paragraph.<br/>            Read-only :py:class:`aspose.slides.IParagraphFormat`. |
+| [text](/slides/python-net/aspose.slides/iparagraph/text/) | Gets or sets the the plain text of a paragraph.<br/>            Read/write :py:class:`System.String`. |
+| [end_paragraph_portion_format](/slides/python-net/aspose.slides/iparagraph/end_paragraph_portion_format/) | Specifies the portion properties that are to be used if another portion is inserted after <br/>            the last one. |
+| [as_i_slide_component](/slides/python-net/aspose.slides/iparagraph/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only :py:class:`aspose.slides.ISlideComponent`. |
+| [slide](/slides/python-net/aspose.slides/iparagraph/slide/) |  |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/iparagraph/as_i_presentation_component/) |  |
+| [presentation](/slides/python-net/aspose.slides/iparagraph/presentation/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|join_portions_with_same_formatting()|Joins runs with same formatting.|
-|get_rect()|Get coordinates of rect that bounds paragraph. The rect includes all the lines of<br/>            text in paragraph, including empty ones.|
-|get_lines_count()|Get number of lines in a paragraph.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/iparagraph/iparagraph/#/) | Joins runs with same formatting. |
+| [get_rect](/slides/python-net/aspose.slides/iparagraph/iparagraph/#/) | Get coordinates of rect that bounds paragraph. The rect includes all the lines of<br/>            text in paragraph, including empty ones. |
+| [get_lines_count](/slides/python-net/aspose.slides/iparagraph/iparagraph/#/) | Get number of lines in a paragraph. |
 

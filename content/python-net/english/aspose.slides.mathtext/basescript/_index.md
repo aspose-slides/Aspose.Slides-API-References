@@ -1,72 +1,74 @@
----
+﻿---
 title: BaseScript
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/basescript/
 ---
 
-## BaseScript class
+
+BaseScript class
 
 Math script
 
+**Inheritance:**[`BaseScript`](/slides/python-net/aspose.slides.mathtext/basescript) → [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
+
 The BaseScript type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|base|Base argument|
+| [base](/slides/python-net/aspose.slides.mathtext/basescript/base/) | Base argument |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|join(math_element)|Joins a mathematical element and forms a mathematical block|
-|join(math_text)|Joins a mathematical text and forms a mathematical block|
-|divide(denominator)|Creates a fraction with this numerator and specified denominator|
-|divide(denominator)|Creates a fraction with this numerator and specified denominator|
-|divide(denominator, fraction_type)|Creates a fraction of the specified type with this numerator and specified denominator|
-|divide(denominator, fraction_type)|Creates a fraction of the specified type with this numerator and specified denominator|
-|enclose()|Encloses a math element in parenthesis|
-|enclose(beginning_character, ending_character)|Encloses a math element in specified characters such as parenthesis or another characters as framing|
-|function(function_argument)|Takes a function of an argument using this instance as the function name|
-|function(function_argument)|Takes a function of an argument using this instance as the function name|
-|as_argument_of_function(function_name)|Takes specified function using this instance as the argument|
-|as_argument_of_function(function_name)|Takes specified function using this instance as the argument|
-|as_argument_of_function(function_type)|Takes specified function using this instance as the argument|
-|as_argument_of_function(function_type, additional_argument)|Takes specified function using this instance as the argument and specified additional argument|
-|as_argument_of_function(function_type, additional_argument)|Takes specified function using this instance as the argument and specified additional argument|
-|set_subscript(subscript)|Creates subscript|
-|set_subscript(subscript)|Creates subscript|
-|set_superscript(superscript)|Creates superscript|
-|set_superscript(superscript)|Creates superscript|
-|set_sub_superscript_on_the_right(subscript, superscript)|Creates subscript and superscript on the right|
-|set_sub_superscript_on_the_right(subscript, superscript)|Creates subscript and superscript on the right|
-|set_sub_superscript_on_the_left(subscript, superscript)|Creates subscript and superscript on the left|
-|set_sub_superscript_on_the_left(subscript, superscript)|Creates subscript and superscript on the left|
-|radical(degree)|Specifies the mathematical root of the given degree from the specified argument.|
-|radical(degree)|Specifies the mathematical root of the given degree from the specified argument.|
-|set_upper_limit(limit)|Takes upper limit|
-|set_upper_limit(limit)|Takes upper limit|
-|set_lower_limit(limit)|Takes lower limit|
-|set_lower_limit(limit)|Takes lower limit|
-|nary(type, lower_limit, upper_limit)|Creates a N-ary operator|
-|nary(type, lower_limit, upper_limit)|Creates a N-ary operator|
-|integral(integral_type, lower_limit, upper_limit, limit_locations)|Takes the integral|
-|integral(integral_type, lower_limit, upper_limit)|Takes the integral|
-|integral(integral_type)|Takes the integral|
-|integral(integral_type, lower_limit, upper_limit, limit_locations)|Takes the integral|
-|integral(integral_type, lower_limit, upper_limit)|Takes the integral|
-|group()|Places this element in a group using a bottom curly bracket|
-|group(character, position, vertical_justification)|Places this element in a group using a grouping character such as bottom curly bracket or another|
-|to_border_box()|Places this element in a border-box|
-|to_border_box(hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right)|Places this element in a border-box|
-|to_math_array()|Puts in a vertical array|
-|accent(accent_character)|Sets an accent mark (a character on the top of this element)|
-|overbar()|Sets a bar on the top of this element|
-|underbar()|Sets a bar on the bottom of this element|
-|to_box()|Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within.|
-|get_children()|Get children elements|
-
-### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [join](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement/) | Joins a mathematical element and forms a mathematical block |
+| [join](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string/) | Joins a mathematical text and forms a mathematical block |
+| [divide](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement/) | Creates a fraction with this numerator and specified denominator |
+| [divide](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string/) | Creates a fraction with this numerator and specified denominator |
+| [divide](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement-MathFractionTypes/) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [divide](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string-MathFractionTypes/) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [enclose](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#/) | Encloses a math element in parenthesis |
+| [enclose](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#char-char/) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
+| [function](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement/) | Takes a function of an argument using this instance as the function name |
+| [function](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string/) | Takes a function of an argument using this instance as the function name |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement/) | Takes specified function using this instance as the argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string/) | Takes specified function using this instance as the argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathFunctionsOfOneArgument/) | Takes specified function using this instance as the argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathFunctionsOfTwoArguments-IMathElement/) | Takes specified function using this instance as the argument and specified additional argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathFunctionsOfTwoArguments-string/) | Takes specified function using this instance as the argument and specified additional argument |
+| [set_subscript](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement/) | Creates subscript |
+| [set_subscript](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string/) | Creates subscript |
+| [set_superscript](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement/) | Creates superscript |
+| [set_superscript](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string/) | Creates superscript |
+| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement-IMathElement/) | Creates subscript and superscript on the right |
+| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string-string/) | Creates subscript and superscript on the right |
+| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement-IMathElement/) | Creates subscript and superscript on the left |
+| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string-string/) | Creates subscript and superscript on the left |
+| [radical](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement/) | Specifies the mathematical root of the given degree from the specified argument. |
+| [radical](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string/) | Specifies the mathematical root of the given degree from the specified argument. |
+| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement/) | Takes upper limit |
+| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string/) | Takes upper limit |
+| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#IMathElement/) | Takes lower limit |
+| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#string/) | Takes lower limit |
+| [nary](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathNaryOperatorTypes-IMathElement-IMathElement/) | Creates a N-ary operator |
+| [nary](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathNaryOperatorTypes-string-string/) | Creates a N-ary operator |
+| [integral](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathIntegralTypes-IMathElement-IMathElement-MathLimitLocations/) | Takes the integral |
+| [integral](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathIntegralTypes-IMathElement-IMathElement/) | Takes the integral |
+| [integral](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathIntegralTypes/) | Takes the integral without limits |
+| [integral](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathIntegralTypes-string-string-MathLimitLocations/) | Takes the integral |
+| [integral](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#MathIntegralTypes-string-string/) | Takes the integral |
+| [group](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#/) | Places this element in a group using a bottom curly bracket |
+| [group](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#char-MathTopBotPositions-MathTopBotPositions/) | Places this element in a group using a grouping character such as bottom curly bracket or another |
+| [to_border_box](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#/) | Places this element in a border-box |
+| [to_border_box](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#bool-bool-bool-bool-bool-bool-bool-bool/) | Places this element in a border-box |
+| [to_math_array](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#/) | Puts in a vertical array |
+| [accent](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#char/) | Sets an accent mark (a character on the top of this element) |
+| [overbar](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#/) | Sets a bar on the top of this element |
+| [underbar](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#/) | Sets a bar on the bottom of this element |
+| [to_box](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#/) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
+| [get_children](/slides/python-net/aspose.slides.mathtext/basescript/basescript/#/) |  |
 

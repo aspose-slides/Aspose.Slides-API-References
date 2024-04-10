@@ -1,29 +1,31 @@
----
+﻿---
 title: CellInvalidFormulaException
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 
-## CellInvalidFormulaException class
+
+CellInvalidFormulaException class
 
 The exception that is thrown when a calculated formula is not correct or was not parsed.
 
+**Inheritance:**[`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception)
+
 The CellInvalidFormulaException type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|CellInvalidFormulaException()|Initializes a new instance of the [CellInvalidFormulaException](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/) class.|
-|CellInvalidFormulaException(message)|Initializes a new instance of the CellInvalidFormulaException class|
-|CellInvalidFormulaException(message, reference)|Initializes a new instance of the CellInvalidFormulaException class|
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/#/) | Initializes a new instance of the :py:class:`aspose.slides.spreadsheet.CellInvalidFormulaException` class. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/#string/) | Initializes a new instance of the :py:class:`aspose.slides.spreadsheet.CellInvalidFormulaException` class with a specified error message. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/#string-string/) | Initializes a new instance of the :py:class:`aspose.slides.spreadsheet.CellInvalidFormulaException` class with a specified error message<br/>            and a cell reference that contains the invalid formula. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|reference|Gets a cell reference that contains the invalid formula.|
-
-### See Also
-
-* namespace [aspose.slides.spreadsheet](/slides/python-net/aspose.slides.spreadsheet/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [reference](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/reference/) | Gets a cell reference that contains the invalid formula. |
 

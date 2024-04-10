@@ -1,30 +1,30 @@
----
+﻿---
 title: FontSubstRule
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/fontsubstrule/
 ---
 
-## FontSubstRule class
+
+FontSubstRule class
 
 Represents font subtituition information
 
 The FontSubstRule type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|FontSubstRule(source_font, dest_font)|Initializes a new instance of the FontSubstRule class|
-|FontSubstRule(source_font, dest_font, font_subst_rule)|Initializes a new instance of the FontSubstRule class|
+| [__init__](/slides/python-net/aspose.slides/fontsubstrule/fontsubstrule/#IFontData-IFontData/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides/fontsubstrule/fontsubstrule/#IFontData-IFontData-FontSubstCondition/) | Creates new instance. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|source_font|Font to substitute.<br/>            Read-only [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|dest_font|Font to use for substitution.<br/>            Read-only [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|replace_font_condition|Rule to apply for substitution.<br/>            Read-only [FontSubstCondition](/slides/python-net/aspose.slides/fontsubstcondition/).|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [source_font](/slides/python-net/aspose.slides/fontsubstrule/source_font/) | Font to substitute.<br/>            Read-only :py:class:`aspose.slides.IFontData`. |
+| [dest_font](/slides/python-net/aspose.slides/fontsubstrule/dest_font/) | Font to use for substitution.<br/>            Read-only :py:class:`aspose.slides.IFontData`. |
+| [replace_font_condition](/slides/python-net/aspose.slides/fontsubstrule/replace_font_condition/) | Rule to apply for substitution.<br/>            Read-only :py:enum:`aspose.slides.FontSubstCondition`. |
 

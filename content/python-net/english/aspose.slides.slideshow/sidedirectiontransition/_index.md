@@ -1,24 +1,24 @@
----
+﻿---
 title: SideDirectionTransition
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/sidedirectiontransition/
 ---
 
-## SideDirectionTransition class
+
+SideDirectionTransition class
 
 Side direction slide transition effect.
 
+**Inheritance:**[`SideDirectionTransition`](/slides/python-net/aspose.slides.slideshow/sidedirectiontransition) → [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+
 The SideDirectionTransition type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|direction|Direction of transition.<br/>            Read/write [TransitionSideDirectionType](/slides/python-net/aspose.slides.slideshow/transitionsidedirectiontype/).|
-|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
-
-### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [direction](/slides/python-net/aspose.slides.slideshow/sidedirectiontransition/direction/) | Direction of transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionSideDirectionType`. |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/sidedirectiontransition/as_i_transition_value_base/) |  |
 

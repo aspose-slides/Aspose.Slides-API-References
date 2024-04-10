@@ -1,23 +1,21 @@
----
+﻿---
 title: BaseShapeLock
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/baseshapelock/
 ---
 
-## BaseShapeLock class
+
+BaseShapeLock class
 
 Represents a base class for locks (disabled operation).
 
 The BaseShapeLock type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|no_locks|Return true if all lock-flags are disabled.<br/>            Read-only bool.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [no_locks](/slides/python-net/aspose.slides/baseshapelock/no_locks/) | Return true if all lock-flags are disabled.<br/>            Read-only :py:class:`bool`. |
 

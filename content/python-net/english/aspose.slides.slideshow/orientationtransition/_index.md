@@ -1,24 +1,24 @@
----
+﻿---
 title: OrientationTransition
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/orientationtransition/
 ---
 
-## OrientationTransition class
+
+OrientationTransition class
 
 Orientation slide transition effect.
 
+**Inheritance:**[`OrientationTransition`](/slides/python-net/aspose.slides.slideshow/orientationtransition) → [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+
 The OrientationTransition type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|direction|Direction of transition.<br/>            Read/write [Orientation](/slides/python-net/aspose.slides/orientation/).|
-|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
-
-### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [direction](/slides/python-net/aspose.slides.slideshow/orientationtransition/direction/) | Direction of transition.<br/>            Read/write :py:enum:`aspose.slides.Orientation`. |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/orientationtransition/as_i_transition_value_base/) |  |
 

@@ -1,23 +1,21 @@
----
+﻿---
 title: IRowFormat
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/irowformat/
 ---
 
-## IRowFormat class
+
+IRowFormat class
 
 Represents format of a table row.
 
 The IRowFormat type exposes the following members:
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective table row formatting properties with inheritance and table styles applied.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_effective](/slides/python-net/aspose.slides/irowformat/irowformat/#/) | Gets effective table row formatting properties with inheritance and table styles applied. |
 

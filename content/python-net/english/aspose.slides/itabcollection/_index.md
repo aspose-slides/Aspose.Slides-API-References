@@ -1,35 +1,37 @@
----
+﻿---
 title: ITabCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/itabcollection/
 ---
 
-## ITabCollection class
+
+ITabCollection class
 
 Represents a collection of tabs.
 
 The ITabCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/itabcollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/itabcollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [ITab](/slides/python-net/aspose.slides/itab/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(position, align)|Adds a Tab to the collection.|
-|add(value)|Adds a Tab to the collection.|
-|clear()|Removes all elements from the collection.|
-|remove_at(index)|Removes the element at the specified index of the collection.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides/itabcollection/itabcollection/#float-TabAlignment/) | Adds a Tab to the collection. |
+| [add](/slides/python-net/aspose.slides/itabcollection/itabcollection/#ITab/) | Adds a Tab to the collection. |
+| [clear](/slides/python-net/aspose.slides/itabcollection/itabcollection/#/) | Removes all elements from the collection. |
+| [remove_at](/slides/python-net/aspose.slides/itabcollection/itabcollection/#int/) | Removes the element at the specified index of the collection. |
 

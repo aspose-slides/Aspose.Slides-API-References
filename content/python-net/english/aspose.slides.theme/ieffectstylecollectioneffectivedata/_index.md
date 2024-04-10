@@ -1,28 +1,37 @@
----
+﻿---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 
-## IEffectStyleCollectionEffectiveData class
+
+IEffectStyleCollectionEffectiveData class
 
 Immutable object that represents a readonly collection of effective effect styles.
 
 The IEffectStyleCollectionEffectiveData type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides.theme/ieffectstylecollectioneffectivedata/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides.theme/ieffectstylecollectioneffectivedata/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [IEffectStyleEffectiveData](/slides/python-net/aspose.slides.theme/ieffectstyleeffectivedata/).|
+| [index] |  |
 
-### See Also
 
-* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            This interface is used as a part of 
+.
+            
+
 

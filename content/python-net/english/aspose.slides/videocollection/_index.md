@@ -1,35 +1,37 @@
----
+﻿---
 title: VideoCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/videocollection/
 ---
 
-## VideoCollection class
+
+VideoCollection class
 
 Represents a collection of Video objects.
 
 The VideoCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/videocollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/videocollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [IVideo](/slides/python-net/aspose.slides/ivideo/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_video(video)|Adds a copy of an video file from an another presentation.|
-|add_video(stream)|Creates and adds a video to a presentation from stream.|
-|add_video(stream, loading_stream_behavior)|Creates and adds a video to a presentation from stream.|
-|add_video(video_data)|Creates and adds a video to a presentation from byte array.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add_video](/slides/python-net/aspose.slides/videocollection/videocollection/#IVideo/) | Adds a copy of an video file from an another presentation. |
+| [add_video](/slides/python-net/aspose.slides/videocollection/videocollection/#System.IO.Stream/) | Creates and adds a video to a presentation from stream. |
+| [add_video](/slides/python-net/aspose.slides/videocollection/videocollection/#System.IO.Stream-LoadingStreamBehavior/) | Creates and adds a video to a presentation from stream. |
+| [add_video](/slides/python-net/aspose.slides/videocollection/videocollection/#bytes/) | Creates and adds a video to a presentation from byte array. |
 

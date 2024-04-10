@@ -1,83 +1,89 @@
----
+﻿---
 title: MathDelimiter
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathdelimiter/
 ---
 
-## MathDelimiter class
 
-Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, <br/>            braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character.<br/>            Examples: (𝑥2); [𝑥2|𝑦2]
+MathDelimiter class
+
+Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, 
+            braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character.
+            Examples: (𝑥2); [𝑥2|𝑦2]
+
+**Inheritance:**[`MathDelimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiter) → [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 
 The MathDelimiter type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|MathDelimiter(element)|Initializes a new instance of the MathDelimiter class|
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Initializes MathDelimiter with the specified element as single base argument |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|arguments|One or more mathematical elements separated by delimiter characters|
-|beginning_character|Delimiter Beginning Character specifies the beginning, or opening, delimiter character. <br/>            Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces.<br/>            The default: '('.|
-|separator_character|Delimiter Separator Character specifies the character that separates arguments in the delimiter object. <br/>            The default: '|'.|
-|ending_character|Delimiter Ending Character specifies the ending, or closing, delimiter character. <br/>            Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces.<br/>            The default: ')'.|
-|grow_to_match_operand_height|Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter<br/>            When true, the delimiters grows vertically to match its operand height.<br/>            The default value is true|
-|delimiter_shape|Specifies the shape of delimiters in the delimiter object. <br/>            When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text <br/>            and still be made to fit the entire height of their contents.<br/>            When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents.|
-|as_i_math_element|Allows to get base IMathElement interface<br/>            [IMathElement](/slides/python-net/aspose.slides.mathtext/imathelement/)|
+| [arguments](/slides/python-net/aspose.slides.mathtext/mathdelimiter/arguments/) | One or more mathematical elements separated by delimiter characters |
+| [beginning_character](/slides/python-net/aspose.slides.mathtext/mathdelimiter/beginning_character/) | Delimiter Beginning Character specifies the beginning, or opening, delimiter character. <br/>            Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces.<br/>            The default: '('. |
+| [separator_character](/slides/python-net/aspose.slides.mathtext/mathdelimiter/separator_character/) | Delimiter Separator Character specifies the character that separates arguments in the delimiter object. <br/>            The default: '\|'. |
+| [ending_character](/slides/python-net/aspose.slides.mathtext/mathdelimiter/ending_character/) | Delimiter Ending Character specifies the ending, or closing, delimiter character. <br/>            Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces.<br/>            The default: ')'. |
+| [grow_to_match_operand_height](/slides/python-net/aspose.slides.mathtext/mathdelimiter/grow_to_match_operand_height/) | Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter<br/>            When true, the delimiters grows vertically to match its operand height.<br/>            The default value is true |
+| [delimiter_shape](/slides/python-net/aspose.slides.mathtext/mathdelimiter/delimiter_shape/) | Specifies the shape of delimiters in the delimiter object. <br/>            When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text <br/>            and still be made to fit the entire height of their contents.<br/>            When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
+| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/mathdelimiter/as_i_math_element/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|join(math_element)|Joins a mathematical element and forms a mathematical block|
-|join(math_text)|Joins a mathematical text and forms a mathematical block|
-|divide(denominator)|Creates a fraction with this numerator and specified denominator|
-|divide(denominator)|Creates a fraction with this numerator and specified denominator|
-|divide(denominator, fraction_type)|Creates a fraction of the specified type with this numerator and specified denominator|
-|divide(denominator, fraction_type)|Creates a fraction of the specified type with this numerator and specified denominator|
-|enclose(beginning_character, ending_character)|Encloses a math element in specified characters such as parenthesis or another characters as framing|
-|enclose()|Encloses a math element in specified characters such as parenthesis or another characters as framing|
-|function(function_argument)|Takes a function of an argument using this instance as the function name|
-|function(function_argument)|Takes a function of an argument using this instance as the function name|
-|as_argument_of_function(function_name)|Takes specified function using this instance as the argument|
-|as_argument_of_function(function_name)|Takes specified function using this instance as the argument|
-|as_argument_of_function(function_type)|Takes specified function using this instance as the argument|
-|as_argument_of_function(function_type, additional_argument)|Takes specified function using this instance as the argument and specified additional argument|
-|as_argument_of_function(function_type, additional_argument)|Takes specified function using this instance as the argument and specified additional argument|
-|set_subscript(subscript)|Creates subscript|
-|set_subscript(subscript)|Creates subscript|
-|set_superscript(superscript)|Creates superscript|
-|set_superscript(superscript)|Creates superscript|
-|set_sub_superscript_on_the_right(subscript, superscript)|Creates subscript and superscript on the right|
-|set_sub_superscript_on_the_right(subscript, superscript)|Creates subscript and superscript on the right|
-|set_sub_superscript_on_the_left(subscript, superscript)|Creates subscript and superscript on the left|
-|set_sub_superscript_on_the_left(subscript, superscript)|Creates subscript and superscript on the left|
-|radical(degree)|Specifies the mathematical root of the given degree from the specified argument.|
-|radical(degree)|Specifies the mathematical root of the given degree from the specified argument.|
-|set_upper_limit(limit)|Takes upper limit|
-|set_upper_limit(limit)|Takes upper limit|
-|set_lower_limit(limit)|Takes lower limit|
-|set_lower_limit(limit)|Takes lower limit|
-|nary(type, lower_limit, upper_limit)|Creates a N-ary operator|
-|nary(type, lower_limit, upper_limit)|Creates a N-ary operator|
-|integral(integral_type, lower_limit, upper_limit, limit_locations)|Takes the integral|
-|integral(integral_type, lower_limit, upper_limit)|Takes the integral|
-|integral(integral_type)|Takes the integral|
-|integral(integral_type, lower_limit, upper_limit, limit_locations)|Takes the integral|
-|integral(integral_type, lower_limit, upper_limit)|Takes the integral|
-|group()|Places this element in a group using a bottom curly bracket|
-|group(character, position, vertical_justification)|Places this element in a group using a grouping character such as bottom curly bracket or another|
-|to_border_box()|Places this element in a border-box|
-|to_border_box(hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right)|Places this element in a border-box|
-|to_math_array()|Puts in a vertical array|
-|accent(accent_character)|Sets an accent mark (a character on the top of this element)|
-|overbar()|Sets a bar on the top of this element|
-|underbar()|Sets a bar on the bottom of this element|
-|to_box()|Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within.|
-|delimit(separator_character)|Delimits arguments using the specified delimiter character|
-|get_children()|Get children elements|
-
-### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [join](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Joins a mathematical element and forms a mathematical block |
+| [join](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string/) | Joins a mathematical text and forms a mathematical block |
+| [divide](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Creates a fraction with this numerator and specified denominator |
+| [divide](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string/) | Creates a fraction with this numerator and specified denominator |
+| [divide](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement-MathFractionTypes/) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [divide](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string-MathFractionTypes/) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [enclose](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#char-char/) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
+| [enclose](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#/) | Encloses a math element in parenthesis |
+| [function](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Takes a function of an argument using this instance as the function name |
+| [function](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string/) | Takes a function of an argument using this instance as the function name |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Takes specified function using this instance as the argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string/) | Takes specified function using this instance as the argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathFunctionsOfOneArgument/) | Takes specified function using this instance as the argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathFunctionsOfTwoArguments-IMathElement/) | Takes specified function using this instance as the argument and specified additional argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathFunctionsOfTwoArguments-string/) | Takes specified function using this instance as the argument and specified additional argument |
+| [set_subscript](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Creates subscript |
+| [set_subscript](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string/) | Creates subscript |
+| [set_superscript](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Creates superscript |
+| [set_superscript](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string/) | Creates superscript |
+| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement-IMathElement/) | Creates subscript and superscript on the right |
+| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string-string/) | Creates subscript and superscript on the right |
+| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement-IMathElement/) | Creates subscript and superscript on the left |
+| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string-string/) | Creates subscript and superscript on the left |
+| [radical](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Specifies the mathematical root of the given degree from the specified argument. |
+| [radical](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string/) | Specifies the mathematical root of the given degree from the specified argument. |
+| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Takes upper limit |
+| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string/) | Takes upper limit |
+| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#IMathElement/) | Takes lower limit |
+| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#string/) | Takes lower limit |
+| [nary](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathNaryOperatorTypes-IMathElement-IMathElement/) | Creates a N-ary operator |
+| [nary](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathNaryOperatorTypes-string-string/) | Creates a N-ary operator |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathIntegralTypes-IMathElement-IMathElement-MathLimitLocations/) | Takes the integral |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathIntegralTypes-IMathElement-IMathElement/) | Takes the integral |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathIntegralTypes/) | Takes the integral without limits |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathIntegralTypes-string-string-MathLimitLocations/) | Takes the integral |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#MathIntegralTypes-string-string/) | Takes the integral |
+| [group](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#/) | Places this element in a group using a bottom curly bracket |
+| [group](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#char-MathTopBotPositions-MathTopBotPositions/) | Places this element in a group using a grouping character such as bottom curly bracket or another |
+| [to_border_box](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#/) | Places this element in a border-box |
+| [to_border_box](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#bool-bool-bool-bool-bool-bool-bool-bool/) | Places this element in a border-box |
+| [to_math_array](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#/) | Puts in a vertical array |
+| [accent](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#char/) | Sets an accent mark (a character on the top of this element) |
+| [overbar](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#/) | Sets a bar on the top of this element |
+| [underbar](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#/) | Sets a bar on the bottom of this element |
+| [to_box](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#/) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
+| [delimit](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#char/) | Delimits arguments using the specified delimiter character |
+| [get_children](/slides/python-net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/#/) | Get children elements |
 

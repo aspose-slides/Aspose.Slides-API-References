@@ -1,29 +1,29 @@
----
+﻿---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 
-## OleEmbeddedDataInfo class
+
+OleEmbeddedDataInfo class
 
 Represents embedded data info for OLE object.
 
 The OleEmbeddedDataInfo type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|OleEmbeddedDataInfo()|Creates new embedded data info for OLE object.|
-|OleEmbeddedDataInfo(embedded_file_data, embedded_file_extension)|Initializes a new instance of the OleEmbeddedDataInfo class|
+| [__init__](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/#/) | Creates new embedded data info for OLE object. |
+| [__init__](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/#bytes-string/) | Creates a new instance of an embedded data info for OLE object. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|embedded_file_data|Returns the file data of an embedded OLE object<br/>            Read only int[].|
-|embedded_file_extension|Returns the file extension for the current embedded OLE object<br/>            Read only string.|
-
-### See Also
-
-* namespace [aspose.slides.dom.ole](/slides/python-net/aspose.slides.dom.ole/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [embedded_file_data](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/embedded_file_data/) | Returns the file data of an embedded OLE object<br/>            Read only :py:class:`int`[]. |
+| [embedded_file_extension](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/embedded_file_extension/) | Returns the file extension for the current embedded OLE object<br/>            Read only :py:class:`System.String`. |
 

@@ -1,39 +1,41 @@
----
+﻿---
 title: ColorOperationCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/coloroperationcollection/
 ---
 
-## ColorOperationCollection class
+
+ColorOperationCollection class
 
 Represents a collection of color transform operations.
 
 The ColorOperationCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/coloroperationcollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/coloroperationcollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns or sets the operation at the specified index.<br/>            Read/write [ColorOperation](/slides/python-net/aspose.slides/coloroperation/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(operation, parameter)|Adds a new operation to the end of collection.|
-|add(operation)|Adds a new operation to the end of collection.|
-|insert(position, operation, parameter)|Inserts the new operation to a collection.|
-|insert(position, operation)|Inserts the new operation to a collection.|
-|remove_at(index)|Removes the color operation from a collection.|
-|clear()|Removes all color operations.|
-|clone()|Creates a copy of a ColorOperationCollection collection.|
-|clone_t()|Clones current object|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides/coloroperationcollection/coloroperationcollection/#ColorTransformOperation-float/) | Adds a new operation to the end of collection. |
+| [add](/slides/python-net/aspose.slides/coloroperationcollection/coloroperationcollection/#ColorTransformOperation/) | Adds a new operation to the end of collection. |
+| [insert](/slides/python-net/aspose.slides/coloroperationcollection/coloroperationcollection/#int-ColorTransformOperation-float/) | Inserts the new operation to a collection. |
+| [insert](/slides/python-net/aspose.slides/coloroperationcollection/coloroperationcollection/#int-ColorTransformOperation/) | Inserts the new operation to a collection. |
+| [remove_at](/slides/python-net/aspose.slides/coloroperationcollection/coloroperationcollection/#int/) | Removes the color operation from a collection. |
+| [clear](/slides/python-net/aspose.slides/coloroperationcollection/coloroperationcollection/#/) | Removes all color operations. |
+| [clone](/slides/python-net/aspose.slides/coloroperationcollection/coloroperationcollection/#/) | Creates a copy of a ColorOperationCollection collection. |
+| [clone_t](/slides/python-net/aspose.slides/coloroperationcollection/coloroperationcollection/#/) | Clones current object |
 

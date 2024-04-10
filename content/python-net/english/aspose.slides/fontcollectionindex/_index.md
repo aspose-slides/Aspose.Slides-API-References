@@ -1,24 +1,23 @@
----
+﻿---
 title: FontCollectionIndex
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/fontcollectionindex/
 ---
 
-## FontCollectionIndex enumeration
+
+FontCollectionIndex enumeration
 
 Represents font's index in a collection.
 
-## Members
-| Member name | Description |
+The FontCollectionIndex type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NONE||
-|MINOR||
-|MAJOR||
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| NONE |  |
+| MINOR |  |
+| MAJOR |  |
 

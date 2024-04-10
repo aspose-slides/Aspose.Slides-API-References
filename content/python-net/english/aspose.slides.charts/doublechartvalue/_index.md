@@ -1,32 +1,36 @@
----
+﻿---
 title: DoubleChartValue
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/doublechartvalue/
 ---
 
-## DoubleChartValue class
 
-Represent double value which can be stored in pptx presentation document in two ways:<br/>            1) in cell/cells of workbook related to chart;<br/>            2) as literal value.
+DoubleChartValue class
+
+Represent double value which can be stored in pptx presentation document in two ways:
+            1) in cell/cells of workbook related to chart;
+            2) as literal value.
+
+**Inheritance:**[`DoubleChartValue`](/slides/python-net/aspose.slides.charts/doublechartvalue) → [`BaseChartValue`](/slides/python-net/aspose.slides.charts/basechartvalue)
 
 The DoubleChartValue type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|data_source_type|Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble <br/>            property is actual in descendants. In other words it specifies the type <br/>            of value of the Data property.<br/>            Read/write [DataSourceType](/slides/python-net/aspose.slides.charts/datasourcetype/).|
-|data|Returns or sets Data object.<br/>            Read/write object.|
-|as_cell|Returns or sets chart data cell.<br/>            Read/write [IChartDataCell](/slides/python-net/aspose.slides.charts/ichartdatacell/).|
-|as_literal_double|Returns or sets value as literal double.<br/>            Read/write float.|
-|as_i_single_cell_chart_value|Allows to get base ISingleCellChartValue interface.<br/>            Read-only [ISingleCellChartValue](/slides/python-net/aspose.slides.charts/isinglecellchartvalue/).|
-|as_i_base_chart_value|Allows to get base IBaseChartValue interface.<br/>            Read-only [IBaseChartValue](/slides/python-net/aspose.slides.charts/ibasechartvalue/).|
+| [data_source_type](/slides/python-net/aspose.slides.charts/doublechartvalue/data_source_type/) | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble <br/>            property is actual in descendants. In other words it specifies the type <br/>            of value of the Data property.<br/>            Read/write :py:enum:`aspose.slides.charts.DataSourceType`. |
+| [data](/slides/python-net/aspose.slides.charts/doublechartvalue/data/) | Returns or sets Data object.<br/>            Read/write :py:class:`any`. |
+| [as_cell](/slides/python-net/aspose.slides.charts/doublechartvalue/as_cell/) | Returns or sets chart data cell.<br/>            Read/write :py:class:`aspose.slides.charts.IChartDataCell`. |
+| [as_literal_double](/slides/python-net/aspose.slides.charts/doublechartvalue/as_literal_double/) | Returns or sets value as literal double.<br/>            Read/write :py:class:`float`. |
+| [as_i_single_cell_chart_value](/slides/python-net/aspose.slides.charts/doublechartvalue/as_i_single_cell_chart_value/) |  |
+| [as_i_base_chart_value](/slides/python-net/aspose.slides.charts/doublechartvalue/as_i_base_chart_value/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|to_double()|Converts to float.|
-
-### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [to_double](/slides/python-net/aspose.slides.charts/doublechartvalue/doublechartvalue/#/) | Converts to :py:class:`float`. |
 

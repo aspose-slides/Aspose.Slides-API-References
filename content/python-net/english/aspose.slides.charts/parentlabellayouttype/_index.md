@@ -1,24 +1,23 @@
----
+﻿---
 title: ParentLabelLayoutType
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/parentlabellayouttype/
 ---
 
-## ParentLabelLayoutType enumeration
+
+ParentLabelLayoutType enumeration
 
 Represents layout of category data labels. Used with Treemap series only.
 
-## Members
-| Member name | Description |
+The ParentLabelLayoutType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|BANNER|Specifies that parent category labels are shown as banner|
-|NONE|Specifies that parent category labels are not drawn|
-|OVERLAPPING|Specifies that parent category labels are shown as overlapping|
-
-### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| BANNER | Specifies that parent category labels are shown as banner |
+| NONE | Specifies that parent category labels are not drawn |
+| OVERLAPPING | Specifies that parent category labels are shown as overlapping |
 

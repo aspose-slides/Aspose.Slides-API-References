@@ -1,27 +1,36 @@
----
+﻿---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/itextstyleeffectivedata/
 ---
 
-## ITextStyleEffectiveData class
+
+ITextStyleEffectiveData class
 
 Immutable object which contains effective text style properties.
 
 The ITextStyleEffectiveData type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|default_paragraph_format|Returns effective default paragraph properties.<br/>            Read-only [IParagraphFormatEffectiveData](/slides/python-net/aspose.slides/iparagraphformateffectivedata/).|
+| [default_paragraph_format](/slides/python-net/aspose.slides/itextstyleeffectivedata/default_paragraph_format/) | Returns effective default paragraph properties.<br/>            Read-only :py:class:`aspose.slides.IParagraphFormatEffectiveData`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_level(index)|Returns level of effective style.|
+| [get_level](/slides/python-net/aspose.slides/itextstyleeffectivedata/itextstyleeffectivedata/#int/) | Returns level of effective style. |
 
-### See Also
 
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            This interface is used together with the 
+ interface to return effective formatting values with inheritance applied.
+            
+
 

@@ -1,34 +1,34 @@
----
+﻿---
 title: IMasterTheme
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/imastertheme/
 ---
 
-## IMasterTheme class
+
+IMasterTheme class
 
 Represents a master theme.
 
 The IMasterTheme type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|extra_color_schemes|Returns the collection of additional color schemes.<br/>            These schemes don't affect presentation's look, they can be selected as main color scheme for a slide.<br/>            Read-only [IExtraColorSchemeCollection](/slides/python-net/aspose.slides.theme/iextracolorschemecollection/).|
-|name|Returns the name of a theme.<br/>            Read/write string.|
-|as_i_theme|Allows to get base ITheme interface.<br/>            Read-only [ITheme](/slides/python-net/aspose.slides.theme/itheme/).|
-|color_scheme|Returns the color scheme.<br/>            Read-only [IColorScheme](/slides/python-net/aspose.slides.theme/icolorscheme/).|
-|font_scheme|Returns the font scheme.<br/>            Read-only [IFontScheme](/slides/python-net/aspose.slides.theme/ifontscheme/).|
-|format_scheme|Returns the shape format scheme.<br/>            Read-only [IFormatScheme](/slides/python-net/aspose.slides.theme/iformatscheme/).|
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+| [extra_color_schemes](/slides/python-net/aspose.slides.theme/imastertheme/extra_color_schemes/) | Returns the collection of additional color schemes.<br/>            These schemes don't affect presentation's look, they can be selected as main color scheme for a slide.<br/>            Read-only :py:class:`aspose.slides.theme.IExtraColorSchemeCollection`. |
+| [name](/slides/python-net/aspose.slides.theme/imastertheme/name/) | Returns the name of a theme.<br/>            Read/write :py:class:`System.String`. |
+| [as_i_theme](/slides/python-net/aspose.slides.theme/imastertheme/as_i_theme/) | Allows to get base ITheme interface.<br/>            Read-only :py:class:`aspose.slides.theme.ITheme`. |
+| [color_scheme](/slides/python-net/aspose.slides.theme/imastertheme/color_scheme/) |  |
+| [font_scheme](/slides/python-net/aspose.slides.theme/imastertheme/font_scheme/) |  |
+| [format_scheme](/slides/python-net/aspose.slides.theme/imastertheme/format_scheme/) |  |
+| [as_i_presentation_component](/slides/python-net/aspose.slides.theme/imastertheme/as_i_presentation_component/) |  |
+| [presentation](/slides/python-net/aspose.slides.theme/imastertheme/presentation/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective theme data with the inheritance applied.|
-
-### See Also
-
-* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_effective](/slides/python-net/aspose.slides.theme/imastertheme/imastertheme/#/) |  |
 

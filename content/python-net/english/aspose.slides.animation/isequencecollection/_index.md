@@ -1,35 +1,37 @@
----
+﻿---
 title: ISequenceCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/isequencecollection/
 ---
 
-## ISequenceCollection class
+
+ISequenceCollection class
 
 Represents collection of interactive sequences.
 
 The ISequenceCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Returns the number of elements in a collection<br/>            Read-only|
-|as_i_enumerable|Returns IEnumerable interface.<br/>            Read-only list.|
+| [count](/slides/python-net/aspose.slides.animation/isequencecollection/count/) | Returns the number of elements in a collection<br/>            Read-only :py:class:`int`. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.animation/isequencecollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns a sequense at the specified index.|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(shape_trigger)|Add new interactive sequence.|
-|remove(item)|Removes specified sequence from a collection.|
-|remove_at(index)|Removes sequence at the specified index.|
-|clear()|Removes all sequences from a collection.|
-
-### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides.animation/isequencecollection/isequencecollection/#IShape/) |  |
+| [remove](/slides/python-net/aspose.slides.animation/isequencecollection/isequencecollection/#ISequence/) | Removes specified sequence from a collection. |
+| [remove_at](/slides/python-net/aspose.slides.animation/isequencecollection/isequencecollection/#int/) | Removes sequence at the specified index. |
+| [clear](/slides/python-net/aspose.slides.animation/isequencecollection/isequencecollection/#/) | Removes all sequences from a collection. |
 

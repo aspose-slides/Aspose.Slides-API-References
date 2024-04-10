@@ -1,31 +1,31 @@
----
+﻿---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/icontrolpropertiescollection/
 ---
 
-## IControlPropertiesCollection class
+
+IControlPropertiesCollection class
 
 A collection of ActiveX controls.
 
 The IControlPropertiesCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Returns a number of properties in the collection.<br/>            Read-only|
-|names_of_properties|Returns a number of properties in the collection.<br/>            Read-only list.|
-|as_i_enumerable|Returns IEnumerable interface.<br/>            Read-only list.|
+| [count](/slides/python-net/aspose.slides/icontrolpropertiescollection/count/) | Returns a number of properties in the collection.<br/>            Read-only :py:class:`int`. |
+| [names_of_properties](/slides/python-net/aspose.slides/icontrolpropertiescollection/names_of_properties/) | Returns a number of properties in the collection.<br/>            Read-only :py:class:`list`. |
+| [as_i_enumerable](/slides/python-net/aspose.slides/icontrolpropertiescollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(name, value)|Adds a property to the collection.|
-|remove(name)|Removes a property with the specified name.|
-|clear()|Removes all properties.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides/icontrolpropertiescollection/icontrolpropertiescollection/#string-string/) | Adds a property to the collection. |
+| [remove](/slides/python-net/aspose.slides/icontrolpropertiescollection/icontrolpropertiescollection/#string/) | Removes a property with the specified name. |
+| [clear](/slides/python-net/aspose.slides/icontrolpropertiescollection/icontrolpropertiescollection/#/) | Removes all properties. |
 

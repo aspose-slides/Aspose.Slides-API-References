@@ -1,33 +1,35 @@
----
+﻿---
 title: ITrendlineCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/itrendlinecollection/
 ---
 
-## ITrendlineCollection class
+
+ITrendlineCollection class
 
 Represents a collection of TrendlineEx
 
 The ITrendlineCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Gets the number of elements actually contained in the collection.<br/>            Read-only|
-|as_i_enumerable|Allows to get base IEnumerable interface.<br/>            Read-only list.|
+| [count](/slides/python-net/aspose.slides.charts/itrendlinecollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only :py:class:`int`. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.charts/itrendlinecollection/as_i_enumerable/) | Allows to get base IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [ITrendline](/slides/python-net/aspose.slides.charts/itrendline/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(trendline_type)|Adds the new Trendline at the end of a collection and return it.|
-|remove(value)|Removes the specified value.|
-
-### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides.charts/itrendlinecollection/itrendlinecollection/#TrendlineType/) | Adds the new Trendline at the end of a collection and return it. |
+| [remove](/slides/python-net/aspose.slides.charts/itrendlinecollection/itrendlinecollection/#ITrendline/) | Removes the specified value. |
 

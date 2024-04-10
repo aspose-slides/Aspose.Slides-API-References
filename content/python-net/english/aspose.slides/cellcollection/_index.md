@@ -1,32 +1,32 @@
----
+﻿---
 title: CellCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/cellcollection/
 ---
 
-## CellCollection class
+
+CellCollection class
 
 Represents a collection of cells.
 
 The CellCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|slide|Returns the parent slide of a CellCollection.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|presentation|Returns the parent presentation of a CellCollection.<br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
-|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [slide](/slides/python-net/aspose.slides/cellcollection/slide/) | Returns the parent slide of a CellCollection.<br/>            Read-only :py:class:`aspose.slides.IBaseSlide`. |
+| [presentation](/slides/python-net/aspose.slides/cellcollection/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only :py:class:`aspose.slides.IPresentation`. |
+| [as_i_slide_component](/slides/python-net/aspose.slides/cellcollection/as_i_slide_component/) |  |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/cellcollection/as_i_presentation_component/) |  |
+| [as_i_collection](/slides/python-net/aspose.slides/cellcollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/cellcollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns a cell by it's position.<br/>            Read-only [Cell](/slides/python-net/aspose.slides/cell/).|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [index] |  |
 

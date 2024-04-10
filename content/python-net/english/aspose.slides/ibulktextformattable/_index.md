@@ -1,25 +1,23 @@
----
+﻿---
 title: IBulkTextFormattable
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ibulktextformattable/
 ---
 
-## IBulkTextFormattable class
+
+IBulkTextFormattable class
 
 Represents an object with possibility of bulk setting child text elements' formats.
 
 The IBulkTextFormattable type exposes the following members:
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|set_text_format(source)|Sets defined portion format properties to all element's portions.|
-|set_text_format(source)|Sets defined paragraph format properties to all element's paragraphs.|
-|set_text_format(source)|Sets defined text frame format properties to all element's text frames.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [set_text_format](/slides/python-net/aspose.slides/ibulktextformattable/ibulktextformattable/#IPortionFormat/) | Sets defined portion format properties to all element's portions. |
+| [set_text_format](/slides/python-net/aspose.slides/ibulktextformattable/ibulktextformattable/#IParagraphFormat/) | Sets defined paragraph format properties to all element's paragraphs. |
+| [set_text_format](/slides/python-net/aspose.slides/ibulktextformattable/ibulktextformattable/#ITextFrameFormat/) | Sets defined text frame format properties to all element's text frames. |
 

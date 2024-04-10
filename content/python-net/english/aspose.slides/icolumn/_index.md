@@ -1,42 +1,44 @@
----
+﻿---
 title: IColumn
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/icolumn/
 ---
 
-## IColumn class
+
+IColumn class
 
 Represents a column in a table.
 
 The IColumn type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|width|Returns or sets the width of a column.<br/>            Read/write float.|
-|column_format|Returns the ColumnFormat object that contains formatting properties for this column.<br/>            Read-only [IColumnFormat](/slides/python-net/aspose.slides/icolumnformat/).|
-|as_i_cell_collection|Allows to get base ICellCollection interface.<br/>            Read-only [ICellCollection](/slides/python-net/aspose.slides/icellcollection/).|
-|as_i_bulk_text_formattable|Allows to get base IBulkTextFormattable interface.<br/>            Read-only [IBulkTextFormattable](/slides/python-net/aspose.slides/ibulktextformattable/).|
-|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [width](/slides/python-net/aspose.slides/icolumn/width/) | Returns or sets the width of a column.<br/>            Read/write :py:class:`float`. |
+| [column_format](/slides/python-net/aspose.slides/icolumn/column_format/) | Returns the ColumnFormat object that contains formatting properties for this column.<br/>            Read-only :py:class:`aspose.slides.IColumnFormat`. |
+| [as_i_cell_collection](/slides/python-net/aspose.slides/icolumn/as_i_cell_collection/) | Allows to get base ICellCollection interface.<br/>            Read-only :py:class:`aspose.slides.ICellCollection`. |
+| [as_i_bulk_text_formattable](/slides/python-net/aspose.slides/icolumn/as_i_bulk_text_formattable/) | Allows to get base IBulkTextFormattable interface.<br/>            Read-only :py:class:`aspose.slides.IBulkTextFormattable`. |
+| [as_i_slide_component](/slides/python-net/aspose.slides/icolumn/as_i_slide_component/) |  |
+| [slide](/slides/python-net/aspose.slides/icolumn/slide/) |  |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/icolumn/as_i_presentation_component/) |  |
+| [presentation](/slides/python-net/aspose.slides/icolumn/presentation/) |  |
+| [as_i_collection](/slides/python-net/aspose.slides/icolumn/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/icolumn/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns a cell by it's position.<br/>            Read-only [ICell](/slides/python-net/aspose.slides/icell/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|set_text_format(source)|Sets defined portion format properties to all element's portions.|
-|set_text_format(source)|Sets defined paragraph format properties to all element's paragraphs.|
-|set_text_format(source)|Sets defined text frame format properties to all element's text frames.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [set_text_format](/slides/python-net/aspose.slides/icolumn/icolumn/#IPortionFormat/) |  |
+| [set_text_format](/slides/python-net/aspose.slides/icolumn/icolumn/#IParagraphFormat/) |  |
+| [set_text_format](/slides/python-net/aspose.slides/icolumn/icolumn/#ITextFrameFormat/) |  |
 

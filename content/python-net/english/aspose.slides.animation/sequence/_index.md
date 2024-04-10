@@ -1,43 +1,45 @@
----
+﻿---
 title: Sequence
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/sequence/
 ---
 
-## Sequence class
+
+Sequence class
 
 Represents sequence (collection of effects).
 
 The Sequence type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Returns the number of effects in a sequense.<br/>            Read-only|
-|trigger_shape|Returns or sets shape target for INTERACTIVE sequence.<br/>            If sequence is not interactive then returns null.<br/>            Read/write [IShape](/slides/python-net/aspose.slides/ishape/).|
-|as_i_enumerable|Allows to get base IEnumerable interface.<br/>            Read-only list.|
+| [count](/slides/python-net/aspose.slides.animation/sequence/count/) | Returns the number of effects in a sequense.<br/>            Read-only :py:class:`int`. |
+| [trigger_shape](/slides/python-net/aspose.slides.animation/sequence/trigger_shape/) | Returns or sets shape target for INTERACTIVE sequence.<br/>            If sequence is not interactive then returns null.<br/>            Read/write :py:class:`aspose.slides.IShape`. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.animation/sequence/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns an effect at the specified index.|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_effect(shape, effect_type, subtype, trigger_type)|Add new effect to the end of sequence.|
-|add_effect(paragraph, effect_type, subtype, trigger_type)|Add new animation effect for paragraph to the end of sequence.|
-|add_effect(chart, type, index, effect_type, subtype, trigger_type)|Adds the new chart animation effect for category or series to the end of sequence.|
-|add_effect(chart, type, series_index, categories_index, effect_type, subtype, trigger_type)|Adds the new chart animation effect for elements in category or series to the end of sequence.|
-|remove(item)|Removes specified effect from a collection.|
-|remove_at(index)|Removes an effect from a collection.|
-|clear()|Removes all effects from a collection.|
-|remove_by_shape(shape)|Remove effect for the specified shape.|
-|get_effects_by_shape(shape)|Returns array of effects for the specified shape.|
-|get_effects_by_paragraph(paragraph)|Returns array of effects for the specified paragraph.|
-|get_count(shape)|Returns count of effects for the specified shape.|
-
-### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add_effect](/slides/python-net/aspose.slides.animation/sequence/sequence/#IShape-EffectType-EffectSubtype-EffectTriggerType/) |  |
+| [add_effect](/slides/python-net/aspose.slides.animation/sequence/sequence/#IParagraph-EffectType-EffectSubtype-EffectTriggerType/) |  |
+| [add_effect](/slides/python-net/aspose.slides.animation/sequence/sequence/#aspose.slides.charts.IChart-EffectChartMajorGroupingType-int-EffectType-EffectSubtype-EffectTriggerType/) | Adds the new chart animation effect for category or series to the end of sequence. |
+| [add_effect](/slides/python-net/aspose.slides.animation/sequence/sequence/#aspose.slides.charts.IChart-EffectChartMinorGroupingType-int-int-EffectType-EffectSubtype-EffectTriggerType/) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
+| [remove](/slides/python-net/aspose.slides.animation/sequence/sequence/#IEffect/) | Removes specified effect from a collection. |
+| [remove_at](/slides/python-net/aspose.slides.animation/sequence/sequence/#int/) | Removes an effect from a collection. |
+| [clear](/slides/python-net/aspose.slides.animation/sequence/sequence/#/) | Removes all effects from a collection. |
+| [remove_by_shape](/slides/python-net/aspose.slides.animation/sequence/sequence/#IShape/) |  |
+| [get_effects_by_shape](/slides/python-net/aspose.slides.animation/sequence/sequence/#IShape/) |  |
+| [get_effects_by_paragraph](/slides/python-net/aspose.slides.animation/sequence/sequence/#IParagraph/) |  |
+| [get_count](/slides/python-net/aspose.slides.animation/sequence/sequence/#IShape/) |  |
 

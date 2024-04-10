@@ -1,27 +1,25 @@
----
+﻿---
 title: Field
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/field/
 ---
 
-## Field class
+
+Field class
 
 Represents a field.
 
 The Field type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|type|Returns or sets field's type.<br/>            Read/write [IFieldType](/slides/python-net/aspose.slides/ifieldtype/).|
-|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [type](/slides/python-net/aspose.slides/field/type/) | Returns or sets field's type.<br/>            Read/write :py:class:`aspose.slides.IFieldType`. |
+| [as_i_slide_component](/slides/python-net/aspose.slides/field/as_i_slide_component/) |  |
+| [slide](/slides/python-net/aspose.slides/field/slide/) |  |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/field/as_i_presentation_component/) |  |
+| [presentation](/slides/python-net/aspose.slides/field/presentation/) |  |
 

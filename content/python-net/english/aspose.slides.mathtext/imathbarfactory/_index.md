@@ -1,24 +1,30 @@
----
+﻿---
 title: IMathBarFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathbarfactory/
 ---
 
-## IMathBarFactory class
+
+IMathBarFactory class
 
 Allows to create a math bar
 
 The IMathBarFactory type exposes the following members:
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_bar(element)|Create a math bar by applying to the element|
-|create_math_bar(element, position)|Create a math bar by applying to the element|
+| [create_math_bar](/slides/python-net/aspose.slides.mathtext/imathbarfactory/imathbarfactory/#IMathElement/) | Create a math bar by applying to the element |
+| [create_math_bar](/slides/python-net/aspose.slides.mathtext/imathbarfactory/imathbarfactory/#IMathElement-MathTopBotPositions/) | Create a math bar by applying to the element |
 
-### See Also
 
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            For COM comparibility
+            
+
 

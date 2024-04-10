@@ -1,28 +1,28 @@
----
+﻿---
 title: IAudio
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iaudio/
 ---
 
-## IAudio class
+
+IAudio class
 
 Represents an embedded audio file.
 
 The IAudio type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|content_type|Returns a MIME type of an audio, encoded in [binary_data](/slides/python-net/aspose.slides/iaudio/).<br/>            Read-only string.|
-|binary_data|Returns the copy of an audio's data. In case of large amount of data consider <br/>            using of [None](/slides/python-net/aspose.slides/iaudio/) method to prevent unnecessary  loading of audio's<br/>            data into memory or even OutOfMemoryException.<br/>            Read-only int[].|
+| [content_type](/slides/python-net/aspose.slides/iaudio/content_type/) | Returns a MIME type of an audio, encoded in :py:attr:`aspose.slides.IAudio.binary_data`.<br/>            Read-only :py:class:`System.String`. |
+| [binary_data](/slides/python-net/aspose.slides/iaudio/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider <br/>            using of :py:func:`aspose.slides.IAudio.get_stream` method to prevent unnecessary  loading of audio's<br/>            data into memory or even OutOfMemoryException.<br/>            Read-only :py:class:`int`[]. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_stream()|Returns Stream stream for reading.<br/>            Use 'using' or close stream after using.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_stream](/slides/python-net/aspose.slides/iaudio/iaudio/#/) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
 

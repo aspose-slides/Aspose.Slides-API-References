@@ -1,26 +1,24 @@
----
+﻿---
 title: ShapeElement
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/shapeelement/
 ---
 
-## ShapeElement class
+
+ShapeElement class
 
 Represents a part of shape with same outline and fill properties.
 
 The ShapeElement type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|parent_shape|Returns a Shape_PPT for which element was created.<br/>            Read-only [Shape](/slides/python-net/aspose.slides/shape/).|
-|graphics_path|Returns an element's path.<br/>            Read-only aspose.pydrawing.drawing2d.GraphicsPath.|
-|fill_source|Returns information about how to fill an element.<br/>            Read-only [ShapeElementFillSource](/slides/python-net/aspose.slides/shapeelementfillsource/).|
-|stroke_source|Returns information about how to stroke an element.<br/>            Read-only [ShapeElementStrokeSource](/slides/python-net/aspose.slides/shapeelementstrokesource/).|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [parent_shape](/slides/python-net/aspose.slides/shapeelement/parent_shape/) | Returns a Shape_PPT for which element was created.<br/>            Read-only :py:class:`aspose.slides.Shape`. |
+| [graphics_path](/slides/python-net/aspose.slides/shapeelement/graphics_path/) | Returns an element's path.<br/>            Read-only :py:class:`aspose.pydrawing.Drawing2D.GraphicsPath`. |
+| [fill_source](/slides/python-net/aspose.slides/shapeelement/fill_source/) | Returns information about how to fill an element.<br/>            Read-only :py:enum:`aspose.slides.ShapeElementFillSource`. |
+| [stroke_source](/slides/python-net/aspose.slides/shapeelement/stroke_source/) | Returns information about how to stroke an element.<br/>            Read-only :py:enum:`aspose.slides.ShapeElementStrokeSource`. |
 

@@ -1,27 +1,35 @@
----
+﻿---
 title: MathMatrixFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathmatrixfactory/
 ---
 
-## MathMatrixFactory class
+
+MathMatrixFactory class
 
 Allows to create a math matrix
 
 The MathMatrixFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|MathMatrixFactory()|Initializes a new instance of the MathMatrixFactory class|
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathmatrixfactory/mathmatrixfactory/#/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_matrix(row_count, column_count)|Creates a math matrix|
+| [create_math_matrix](/slides/python-net/aspose.slides.mathtext/mathmatrixfactory/mathmatrixfactory/#int-int/) | Creates a math matrix |
 
-### See Also
 
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            For COM comparibility
+            
+
 

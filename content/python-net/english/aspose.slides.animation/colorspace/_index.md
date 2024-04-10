@@ -1,24 +1,23 @@
----
+﻿---
 title: ColorSpace
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/colorspace/
 ---
 
-## ColorSpace enumeration
+
+ColorSpace enumeration
 
 Represents color space for color effect behavior.
 
-## Members
-| Member name | Description |
+The ColorSpace type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|RGB||
-|HSL||
-
-### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| NOT_DEFINED |  |
+| RGB |  |
+| HSL |  |
 

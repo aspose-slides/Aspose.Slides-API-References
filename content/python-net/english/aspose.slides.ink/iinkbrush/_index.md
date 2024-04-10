@@ -1,24 +1,22 @@
----
+﻿---
 title: IInkBrush
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/iinkbrush/
 ---
 
-## IInkBrush class
+
+IInkBrush class
 
 Represents trace brush.
 
 The IInkBrush type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|color|Gets or sets the brush color for a line.|
-|size|Gets or sets the brush size for a line in points.|
-
-### See Also
-
-* namespace [aspose.slides.ink](/slides/python-net/aspose.slides.ink/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [color](/slides/python-net/aspose.slides.ink/iinkbrush/color/) | Gets or sets the brush color for a line. |
+| [size](/slides/python-net/aspose.slides.ink/iinkbrush/size/) | Gets or sets the brush size for a line in points. |
 

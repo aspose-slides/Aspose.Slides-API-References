@@ -1,24 +1,24 @@
----
+﻿---
 title: MotionOriginType
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/motionorigintype/
 ---
 
-## MotionOriginType enumeration
 
-Specifies what the origin of the motion path is relative to.<br/>            Such as the layout of the slide, or the parent.
+MotionOriginType enumeration
 
-## Members
-| Member name | Description |
+Specifies what the origin of the motion path is relative to.
+            Such as the layout of the slide, or the parent.
+
+The MotionOriginType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|PARENT||
-|LAYOUT||
-
-### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| NOT_DEFINED |  |
+| PARENT |  |
+| LAYOUT |  |
 

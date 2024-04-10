@@ -1,25 +1,24 @@
----
+﻿---
 title: LineJoinStyle
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/linejoinstyle/
 ---
 
-## LineJoinStyle enumeration
+
+LineJoinStyle enumeration
 
 Represents the lines join style.
 
-## Members
-| Member name | Description |
+The LineJoinStyle type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|ROUND||
-|BEVEL||
-|MITER||
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| NOT_DEFINED |  |
+| ROUND |  |
+| BEVEL |  |
+| MITER |  |
 

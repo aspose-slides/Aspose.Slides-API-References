@@ -1,28 +1,28 @@
----
+﻿---
 title: IChartSeriesReadonlyCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 
-## IChartSeriesReadonlyCollection class
 
-Represents a readonly collection of  [IChartSeries](/slides/python-net/aspose.slides.charts/ichartseries/)
+IChartSeriesReadonlyCollection class
+
+Represents a readonly collection of  :py:class:`aspose.slides.charts.IChartSeries`
 
 The IChartSeriesReadonlyCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides.charts/ichartseriesreadonlycollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides.charts/ichartseriesreadonlycollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.|
-
-### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [index] |  |
 

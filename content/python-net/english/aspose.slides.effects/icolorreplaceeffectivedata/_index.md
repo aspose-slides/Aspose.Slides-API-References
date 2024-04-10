@@ -1,24 +1,24 @@
----
+﻿---
 title: IColorReplaceEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 
-## IColorReplaceEffectiveData class
 
-Immutable object which represents a Color Replacement effect.<br/>            All effect colors are changed to a fixed color.<br/>            Alpha values are unaffected.
+IColorReplaceEffectiveData class
+
+Immutable object which represents a Color Replacement effect.
+            All effect colors are changed to a fixed color.
+            Alpha values are unaffected.
 
 The IColorReplaceEffectiveData type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|color|Returns color format which will replace color of every pixel.<br/>            Read-only aspose.pydrawing.Color.|
-|as_i_effect_effective_data|Allows to get base IEffectEffectiveData interface.<br/>            Read-only [IEffectEffectiveData](/slides/python-net/aspose.slides.effects/ieffecteffectivedata/).|
-
-### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [color](/slides/python-net/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only :py:class:`aspose.pydrawing.Color`. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/icolorreplaceeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only :py:class:`aspose.slides.effects.IEffectEffectiveData`. |
 

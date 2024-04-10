@@ -1,23 +1,22 @@
----
+﻿---
 title: PictureFillMode
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/picturefillmode/
 ---
 
-## PictureFillMode enumeration
+
+PictureFillMode enumeration
 
 Determines how picture will fill area.
 
-## Members
-| Member name | Description |
+The PictureFillMode type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|TILE||
-|STRETCH||
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| TILE |  |
+| STRETCH |  |
 

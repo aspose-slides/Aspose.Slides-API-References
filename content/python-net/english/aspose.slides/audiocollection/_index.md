@@ -1,35 +1,37 @@
----
+﻿---
 title: AudioCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/audiocollection/
 ---
 
-## AudioCollection class
+
+AudioCollection class
 
 Represents a collection of embedded audio files.
 
 The AudioCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/audiocollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/audiocollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [IAudio](/slides/python-net/aspose.slides/iaudio/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_audio(audio)|Adds a copy of an audio file from an another presentation.|
-|add_audio(stream)|Creates and adds a audio to a presentation from stream.|
-|add_audio(stream, loading_stream_behavior)|Creates and adds a audio to a presentation from stream.|
-|add_audio(audio_data)|Creates and adds a audio to a presentation from byte array.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add_audio](/slides/python-net/aspose.slides/audiocollection/audiocollection/#IAudio/) | Adds a copy of an audio file from an another presentation. |
+| [add_audio](/slides/python-net/aspose.slides/audiocollection/audiocollection/#System.IO.Stream/) | Creates and adds a audio to a presentation from stream. |
+| [add_audio](/slides/python-net/aspose.slides/audiocollection/audiocollection/#System.IO.Stream-LoadingStreamBehavior/) | Creates and adds a audio to a presentation from stream. |
+| [add_audio](/slides/python-net/aspose.slides/audiocollection/audiocollection/#bytes/) | Creates and adds a audio to a presentation from byte array. |
 

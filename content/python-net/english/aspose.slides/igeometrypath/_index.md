@@ -1,45 +1,45 @@
----
+﻿---
 title: IGeometryPath
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/igeometrypath/
 ---
 
-## IGeometryPath class
+
+IGeometryPath class
 
 Represents geometry path of GeometryShape
 
 The IGeometryPath type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|path_data|Returns geometry path of GeometryShape as an array of path segments.|
-|fill_mode|Sets fill mode|
-|stroke|Sets stroke appearance|
+| [path_data](/slides/python-net/aspose.slides/igeometrypath/path_data/) | Returns geometry path of GeometryShape as an array of path segments. |
+| [fill_mode](/slides/python-net/aspose.slides/igeometrypath/fill_mode/) | Sets fill mode |
+| [stroke](/slides/python-net/aspose.slides/igeometrypath/stroke/) | Sets stroke appearance |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|line_to(point)|Adds line to the end of the path|
-|line_to(x, y)|Adds line to the end of the path|
-|line_to(point, index)|Adds line to the specified place of the path|
-|line_to(x, y, index)|Adds line to the specified place of the path|
-|cubic_bezier_to(point1, point2, point3)|Adds cubic Bezier curve at the end the path|
-|cubic_bezier_to(x1, y1, x2, y2, x3, y3)|Adds cubic Bezier curve at the end the path|
-|cubic_bezier_to(point1, point2, point3, index)|Adds cubic Bezier curve to the specified place of the path|
-|cubic_bezier_to(x1, y1, x2, y2, x3, y3, index)|Adds cubic Bezier curve to the specified place of the path|
-|quadratic_bezier_to(point1, point2)|Adds quadratic Bezier curve at the end the path|
-|quadratic_bezier_to(x1, y1, x2, y2)|Adds quadratic Bezier curve at the end the path|
-|quadratic_bezier_to(point1, point2, index)|Adds quadratic Bezier curve to the specified place of the path|
-|quadratic_bezier_to(x1, y1, x2, y2, index)|Adds quadratic Bezier curve to the specified place of the path|
-|move_to(point)|Sets next point position.|
-|move_to(x, y)|Sets next point position.|
-|remove_at(index)|Removes segment at the specified index of the geometry path.|
-|close_figure()|Closes the current figure of this path|
-|arc_to(width, heigth, start_angle, sweep_angle)|Appends the specified arc to the path.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [line_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#aspose.pydrawing.PointF/) | Adds line to the end of the path |
+| [line_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#float-float/) | Adds line to the end of the path |
+| [line_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#aspose.pydrawing.PointF-int/) | Adds line to the specified place of the path |
+| [line_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#float-float-int/) | Adds line to the specified place of the path |
+| [cubic_bezier_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#aspose.pydrawing.PointF-aspose.pydrawing.PointF-aspose.pydrawing.PointF/) | Adds cubic Bezier curve at the end the path |
+| [cubic_bezier_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#float-float-float-float-float-float/) | Adds cubic Bezier curve at the end the path |
+| [cubic_bezier_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#aspose.pydrawing.PointF-aspose.pydrawing.PointF-aspose.pydrawing.PointF-int/) | Adds cubic Bezier curve to the specified place of the path |
+| [cubic_bezier_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#float-float-float-float-float-float-int/) | Adds cubic Bezier curve to the specified place of the path |
+| [quadratic_bezier_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#aspose.pydrawing.PointF-aspose.pydrawing.PointF/) | Adds quadratic Bezier curve at the end the path |
+| [quadratic_bezier_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#float-float-float-float/) | Adds quadratic Bezier curve at the end the path |
+| [quadratic_bezier_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#aspose.pydrawing.PointF-aspose.pydrawing.PointF-int/) | Adds quadratic Bezier curve to the specified place of the path |
+| [quadratic_bezier_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#float-float-float-float-int/) | Adds quadratic Bezier curve to the specified place of the path |
+| [move_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#aspose.pydrawing.PointF/) | Sets next point position. |
+| [move_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#float-float/) | Sets next point position. |
+| [remove_at](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#int/) | Removes segment at the specified index of the geometry path. |
+| [close_figure](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#/) | Closes the current figure of this path |
+| [arc_to](/slides/python-net/aspose.slides/igeometrypath/igeometrypath/#float-float-float-float/) | Appends the specified arc to the path. |
 

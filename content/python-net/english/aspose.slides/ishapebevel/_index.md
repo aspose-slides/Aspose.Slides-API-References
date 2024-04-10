@@ -1,25 +1,23 @@
----
+﻿---
 title: IShapeBevel
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ishapebevel/
 ---
 
-## IShapeBevel class
+
+IShapeBevel class
 
 Represents properties of shape's main face relief.
 
 The IShapeBevel type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|width|Bevel width.<br/>            Read/write float.|
-|height|Bevel height.<br/>            Read/write float.|
-|bevel_type|Bevel type.<br/>            Read/write [BevelPresetType](/slides/python-net/aspose.slides/bevelpresettype/).|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [width](/slides/python-net/aspose.slides/ishapebevel/width/) | Bevel width.<br/>            Read/write :py:class:`float`. |
+| [height](/slides/python-net/aspose.slides/ishapebevel/height/) | Bevel height.<br/>            Read/write :py:class:`float`. |
+| [bevel_type](/slides/python-net/aspose.slides/ishapebevel/bevel_type/) | Bevel type.<br/>            Read/write :py:enum:`aspose.slides.BevelPresetType`. |
 

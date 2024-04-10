@@ -1,31 +1,31 @@
----
+﻿---
 title: ImageWrapper
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/imagewrapper/
 ---
 
-## ImageWrapper class
+
+ImageWrapper class
 
 System.Drawing.Image wrapper for COM interface.
 
 The ImageWrapper type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|image|Gets Image.<br/>            Read-only [image](/slides/python-net/aspose.slides/imagewrapper/).|
-|size|Gets the width and height, in pixels, of the Image.<br/>            Read-only [size](/slides/python-net/aspose.slides/imagewrapper/).|
-|as_i_disposable|Returns IDisposable interface.<br/>            Read-only disposable.|
+| [image](/slides/python-net/aspose.slides/imagewrapper/image/) | Gets Image.<br/>            Read-only :py:attr:`aspose.slides.ImageWrapper.image`. |
+| [size](/slides/python-net/aspose.slides/imagewrapper/size/) | Gets the width and height, in pixels, of the Image.<br/>            Read-only :py:attr:`aspose.slides.ImageWrapper.size`. |
+| [as_i_disposable](/slides/python-net/aspose.slides/imagewrapper/as_i_disposable/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|save(file_name)|Saves Image to the specified file|
-|save(stream, image_format)|Saves the Image to the specified stream in the specified format.|
-|save(file_name, image_format)|Saves the Image to the specified file in the specified format.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [save](/slides/python-net/aspose.slides/imagewrapper/imagewrapper/#string/) | Saves Image to the specified file |
+| [save](/slides/python-net/aspose.slides/imagewrapper/imagewrapper/#System.IO.Stream-PPImageFormat/) | Saves the Image to the specified stream in the specified format. |
+| [save](/slides/python-net/aspose.slides/imagewrapper/imagewrapper/#string-PPImageFormat/) | Saves the Image to the specified file in the specified format. |
 

@@ -1,27 +1,35 @@
----
+﻿---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/saveoptionsfactory/
 ---
 
-## SaveOptionsFactory class
+
+SaveOptionsFactory class
 
 Allows to create save options' instances
 
 The SaveOptionsFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|SaveOptionsFactory()|Initializes a new instance of the SaveOptionsFactory class|
+| [__init__](/slides/python-net/aspose.slides.export/saveoptionsfactory/saveoptionsfactory/#/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_pptx_options()|Creates PPTX save options.|
+| [create_pptx_options](/slides/python-net/aspose.slides.export/saveoptionsfactory/saveoptionsfactory/#/) | Creates PPTX save options. |
 
-### See Also
 
-* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
-* assembly [Aspose.Slides](/slides/python-net/)
+### Remarks
+
+
+            For COM compatibility.
+            
+
 

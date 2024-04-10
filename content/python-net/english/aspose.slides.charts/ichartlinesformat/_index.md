@@ -1,24 +1,22 @@
----
+﻿---
 title: IChartLinesFormat
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartlinesformat/
 ---
 
-## IChartLinesFormat class
+
+IChartLinesFormat class
 
 Represents gridlines format properties.
 
 The IChartLinesFormat type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|line|Returns line style properties of a chart line.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
-|effect|Returns effects used for a chart line.<br/>            Read-only [IEffectFormat](/slides/python-net/aspose.slides/ieffectformat/).|
-
-### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [line](/slides/python-net/aspose.slides.charts/ichartlinesformat/line/) | Returns line style properties of a chart line.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
+| [effect](/slides/python-net/aspose.slides.charts/ichartlinesformat/effect/) | Returns effects used for a chart line.<br/>            Read-only :py:class:`aspose.slides.IEffectFormat`. |
 

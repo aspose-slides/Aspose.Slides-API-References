@@ -1,29 +1,29 @@
----
+﻿---
 title: Metered
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/metered/
 ---
 
-## Metered class
+
+Metered class
 
 Provides methods to set metered key.
 
 The Metered type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|Metered()|Initializes a new instance of this class.|
+| [__init__](/slides/python-net/aspose.slides/metered/metered/#/) | Initializes a new instance of this class. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|set_metered_key(public_key, private_key)|Sets metered public and private key|
-|get_consumption_quantity()|Gets consumption file size|
-|get_consumption_credit()|Gets consumption credit|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [set_metered_key](/slides/python-net/aspose.slides/metered/metered/#string-string/) | Sets metered public and private key |
+| [get_consumption_quantity](/slides/python-net/aspose.slides/metered/metered/#/) | Gets consumption file size |
+| [get_consumption_credit](/slides/python-net/aspose.slides/metered/metered/#/) | Gets consumption credit |
 

@@ -1,35 +1,35 @@
----
+﻿---
 title: TagCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/tagcollection/
 ---
 
-## TagCollection class
+
+TagCollection class
 
 Represents the collection of tags (user defined pairs of strings)
 
 The TagCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/tagcollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/tagcollection/as_i_enumerable/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(name, value)|Adds a new tag to collection.|
-|remove(name)|Removes the tag with a specified name from the collection.|
-|index_of_name(name)|Returns the zero-based index of the specified key in the collection.|
-|remove_at(index)|Removes the tag at the specified index.|
-|clear()|Removes all tags from the collection.|
-|get_value_by_index(index)|Returns value of a tag at the specified index.|
-|get_name_by_index(index)|Returns key of a tag at the specified index.|
-|get_names_of_tags()|Returns names of tags.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides/tagcollection/tagcollection/#string-string/) | Adds a new tag to collection. |
+| [remove](/slides/python-net/aspose.slides/tagcollection/tagcollection/#string/) | Removes the tag with a specified name from the collection. |
+| [index_of_name](/slides/python-net/aspose.slides/tagcollection/tagcollection/#string/) | Returns the zero-based index of the specified key in the collection. |
+| [remove_at](/slides/python-net/aspose.slides/tagcollection/tagcollection/#int/) | Removes the tag at the specified index. |
+| [clear](/slides/python-net/aspose.slides/tagcollection/tagcollection/#/) | Removes all tags from the collection. |
+| [get_value_by_index](/slides/python-net/aspose.slides/tagcollection/tagcollection/#int/) | Returns value of a tag at the specified index. |
+| [get_name_by_index](/slides/python-net/aspose.slides/tagcollection/tagcollection/#int/) | Returns key of a tag at the specified index. |
+| [get_names_of_tags](/slides/python-net/aspose.slides/tagcollection/tagcollection/#/) | Returns names of tags. |
 

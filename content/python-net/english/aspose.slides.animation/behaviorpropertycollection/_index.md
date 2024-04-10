@@ -1,28 +1,28 @@
----
+﻿---
 title: BehaviorPropertyCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorpropertycollection/
 ---
 
-## BehaviorPropertyCollection class
+
+BehaviorPropertyCollection class
 
 Represents timing properties for the effect behavior.
 
 The BehaviorPropertyCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_enumerable|Returns IEnumerable interfaces.<br/>            Read-only list.|
+| [as_i_enumerable](/slides/python-net/aspose.slides.animation/behaviorpropertycollection/as_i_enumerable/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(property_value)|Adds a new property to the collection.|
-|index_of(property_value)|Determines the index of a specific item by property value in the list.|
-
-### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides.animation/behaviorpropertycollection/behaviorpropertycollection/#string/) | Adds a new property to the collection. |
+| [index_of](/slides/python-net/aspose.slides.animation/behaviorpropertycollection/behaviorpropertycollection/#string/) | Determines the index of a specific item by property value in the :py:class:`System.Collections.Generic.IList`1`. |
 

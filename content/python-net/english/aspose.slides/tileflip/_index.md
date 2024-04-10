@@ -1,26 +1,25 @@
----
+﻿---
 title: TileFlip
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/tileflip/
 ---
 
-## TileFlip enumeration
+
+TileFlip enumeration
 
 Defines tile flipping mode.
 
-## Members
-| Member name | Description |
+The TileFlip type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|NO_FLIP||
-|FLIP_X||
-|FLIP_Y||
-|FLIP_BOTH||
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| NOT_DEFINED |  |
+| NO_FLIP |  |
+| FLIP_X |  |
+| FLIP_Y |  |
+| FLIP_BOTH |  |
 

@@ -1,24 +1,23 @@
----
+﻿---
 title: MathTopBotPositions
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathtopbotpositions/
 ---
 
-## MathTopBotPositions enumeration
+
+MathTopBotPositions enumeration
 
 Top/bottom positions enumeration
 
-## Members
-| Member name | Description |
+The MathTopBotPositions type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED|Not defined|
-|TOP|Top|
-|BOTTOM|Bottom|
-
-### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| NOT_DEFINED | Not defined |
+| TOP | Top |
+| BOTTOM | Bottom |
 

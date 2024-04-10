@@ -1,49 +1,51 @@
----
+﻿---
 title: ParagraphCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/paragraphcollection/
 ---
 
-## ParagraphCollection class
+
+ParagraphCollection class
 
 Represents a collection of a paragraphs.
 
 The ParagraphCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Gets the number of elements actually contained in the collection.<br/>            Read-only|
-|is_read_only|Gets a value indicating whether the list is read-only.<br/>            Read-only bool.|
-|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
-|as_i_enumerable|Returns IEnumerable interface.<br/>            Read-only list.|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+| [count](/slides/python-net/aspose.slides/paragraphcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only :py:class:`int`. |
+| [is_read_only](/slides/python-net/aspose.slides/paragraphcollection/is_read_only/) | Gets a value indicating whether the :py:class:`System.Collections.Generic.ICollection`1` is read-only.<br/>            Read-only :py:class:`bool`. |
+| [as_i_slide_component](/slides/python-net/aspose.slides/paragraphcollection/as_i_slide_component/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/paragraphcollection/as_i_enumerable/) |  |
+| [slide](/slides/python-net/aspose.slides/paragraphcollection/slide/) |  |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/paragraphcollection/as_i_presentation_component/) |  |
+| [presentation](/slides/python-net/aspose.slides/paragraphcollection/presentation/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(value)|Adds a Paragraph to the end of collection.|
-|add(value)|Adds a content of ParagraphCollection to the end of collection.|
-|insert(index, value)|Inserts a Paragraph into the collection at the specified index.|
-|insert(index, value)|Inserts a content of ParagraphCollection into the collection at the specified index.|
-|add_from_html(text)|Adds text from specified html string to the collection.|
-|add_from_html(text, resolver, uri)|Adds text from specified html string to the collection.|
-|index_of(item)|Determines the index of a specific item in the list.|
-|clear()|Removes all elements from the collection.|
-|contains(item)|Determines whether the list contains a specific value.|
-|copy_to(array, array_index)|Copies the elements of the list to an array, starting at a particular array index.|
-|remove_at(index)|Removes the element at the specified index of the collection.|
-|remove(item)|Removes the first occurrence of a specific object from the list.|
-|export_to_html(first_paragraph_index, paragraphs_count, options)|Converts specifying paragraphs to the HTML and returns it as String object.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#IParagraph/) | Adds a Paragraph to the end of collection. |
+| [add](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#IParagraphCollection/) | Adds a content of ParagraphCollection to the end of collection. |
+| [insert](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#int-IParagraph/) | Inserts a Paragraph into the collection at the specified index. |
+| [insert](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#int-IParagraphCollection/) | Inserts a content of ParagraphCollection into the collection at the specified index. |
+| [add_from_html](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#string/) | Adds text from specified html string to the collection. |
+| [add_from_html](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#string-aspose.slides.importing.IExternalResourceResolver-string/) | Adds text from specified html string to the collection. |
+| [index_of](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#IParagraph/) | Determines the index of a specific item in the :py:class:`System.Collections.Generic.IList`1`. |
+| [clear](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#/) | Removes all elements from the collection. |
+| [contains](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#IParagraph/) | Determines whether the :py:class:`System.Collections.Generic.ICollection`1` contains a specific value. |
+| [copy_to](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#List[IParagraph]-int/) | Copies the elements of the :py:class:`System.Collections.Generic.ICollection`1` to an :py:class:`System.Array`, starting at a particular :py:class:`System.Array` index. |
+| [remove_at](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#int/) | Removes the element at the specified index of the collection. |
+| [remove](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#IParagraph/) | Removes the first occurrence of a specific object from the :py:class:`System.Collections.Generic.ICollection`1`. |
+| [export_to_html](/slides/python-net/aspose.slides/paragraphcollection/paragraphcollection/#int-int-aspose.slides.export.ITextToHtmlConversionOptions/) | Converts specifying paragraphs to the HTML and returns it as String object. |
 

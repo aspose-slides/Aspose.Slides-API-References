@@ -1,34 +1,36 @@
----
+﻿---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ilayoutslidecollection/
 ---
 
-## ILayoutSlideCollection class
+
+ILayoutSlideCollection class
 
 Represents a base class for collection of a layout slides.
 
 The ILayoutSlideCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/ilayoutslidecollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/ilayoutslidecollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns the layout slide by index.<br/>            Read-only [ILayoutSlide](/slides/python-net/aspose.slides/ilayoutslide/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_by_type(type)|Returns the first layout slide of specified type.|
-|remove(value)|Removes a layout from the collection.|
-|remove_unused()|Removes unused layout slides (layout slides whose HasDependingSlides is false).|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_by_type](/slides/python-net/aspose.slides/ilayoutslidecollection/ilayoutslidecollection/#SlideLayoutType/) | Returns the first layout slide of specified type. |
+| [remove](/slides/python-net/aspose.slides/ilayoutslidecollection/ilayoutslidecollection/#ILayoutSlide/) | Removes a layout from the collection. |
+| [remove_unused](/slides/python-net/aspose.slides/ilayoutslidecollection/ilayoutslidecollection/#/) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 

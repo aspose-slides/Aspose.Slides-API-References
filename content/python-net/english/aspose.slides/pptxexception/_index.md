@@ -1,24 +1,24 @@
----
+﻿---
 title: PptxException
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/pptxexception/
 ---
 
-## PptxException class
+
+PptxException class
 
 Represents a standard internal exception type.
 
+**Inheritance:**[`PptxException`](/slides/python-net/aspose.slides/pptxexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
+
 The PptxException type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|PptxException()|Default constructor.|
-|PptxException(message)|Initializes a new instance of the PptxException class|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [__init__](/slides/python-net/aspose.slides/pptxexception/pptxexception/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides/pptxexception/pptxexception/#string/) | Constructor allowing a message to be added to this exception. |
 

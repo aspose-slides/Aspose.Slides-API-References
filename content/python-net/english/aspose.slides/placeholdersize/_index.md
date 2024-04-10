@@ -1,24 +1,23 @@
----
+﻿---
 title: PlaceholderSize
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/placeholdersize/
 ---
 
-## PlaceholderSize enumeration
+
+PlaceholderSize enumeration
 
 Represents the size of a placeholder.
 
-## Members
-| Member name | Description |
+The PlaceholderSize type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|FULL|Full.|
-|HALF|Half.|
-|QUARTER|Quarter.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| FULL | Full. |
+| HALF | Half. |
+| QUARTER | Quarter. |
 

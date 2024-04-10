@@ -1,32 +1,34 @@
----
+﻿---
 title: HtmlExternalResolver
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.importing/htmlexternalresolver/
 ---
 
-## HtmlExternalResolver class
+
+HtmlExternalResolver class
 
 Callback object used by HTML import routine to obtain referrenced objects such as images.
 
 The HtmlExternalResolver type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|HtmlExternalResolver()|Initializes a new instance of the HtmlExternalResolver class|
+| [__init__](/slides/python-net/aspose.slides.importing/htmlexternalresolver/htmlexternalresolver/#/) |  |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_external_resource_resolver|Returns IExternalResourceResolver interface.|
+| [as_i_external_resource_resolver](/slides/python-net/aspose.slides.importing/htmlexternalresolver/as_i_external_resource_resolver/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|resolve_uri(base_uri, relative_uri)|Resolves the absolute URI from the base and relative URIs.|
-|get_entity(absolute_uri)|Maps a URI to an object containing the actual resource.|
-
-### See Also
-
-* namespace [aspose.slides.importing](/slides/python-net/aspose.slides.importing/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [resolve_uri](/slides/python-net/aspose.slides.importing/htmlexternalresolver/htmlexternalresolver/#string-string/) | Resolves the absolute URI from the base and relative URIs. |
+| [get_entity](/slides/python-net/aspose.slides.importing/htmlexternalresolver/htmlexternalresolver/#string/) | Maps a URI to an object containing the actual resource. |
 

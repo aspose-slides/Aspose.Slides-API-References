@@ -1,26 +1,24 @@
----
+﻿---
 title: IStreamWrapperFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/istreamwrapperfactory/
 ---
 
-## IStreamWrapperFactory class
+
+IStreamWrapperFactory class
 
 Factory of StreamWrappers. For COM interface.
 
 The IStreamWrapperFactory type exposes the following members:
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_memory_stream_wrapper()|Creates MemoryStream wrapper.|
-|create_memory_stream_wrapper(buffer)|Creates MemoryStream wrapper based on the specified byte array.|
-|create_file_stream_wrapper(file_name, file_mode)|Creates FileStream with the specified path and creation mode.|
-|create_file_stream_wrapper(file_name, file_mode, file_access)|Creates FileStream with the specified path, creation mode, and read/write permission.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [create_memory_stream_wrapper](/slides/python-net/aspose.slides/istreamwrapperfactory/istreamwrapperfactory/#/) | Creates MemoryStream wrapper. |
+| [create_memory_stream_wrapper](/slides/python-net/aspose.slides/istreamwrapperfactory/istreamwrapperfactory/#bytes/) | Creates MemoryStream wrapper based on the specified byte array. |
+| [create_file_stream_wrapper](/slides/python-net/aspose.slides/istreamwrapperfactory/istreamwrapperfactory/#string-System.IO.FileMode/) | Creates FileStream with the specified path and creation mode. |
+| [create_file_stream_wrapper](/slides/python-net/aspose.slides/istreamwrapperfactory/istreamwrapperfactory/#string-System.IO.FileMode-System.IO.FileAccess/) | Creates FileStream with the specified path, creation mode, and read/write permission. |
 

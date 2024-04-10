@@ -1,36 +1,38 @@
----
+﻿---
 title: IMotionPath
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/imotionpath/
 ---
 
-## IMotionPath class
+
+IMotionPath class
 
 Represent motion path.
 
 The IMotionPath type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Returns the number of paths in the collection.<br/>            Read-only|
-|as_i_enumerable|Allows to get base IBehavior interface.<br/>            Read-only list.|
+| [count](/slides/python-net/aspose.slides.animation/imotionpath/count/) | Returns the number of paths in the collection.<br/>            Read-only :py:class:`int`. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.animation/imotionpath/as_i_enumerable/) | Allows to get base IBehavior interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns a command at the specified index.|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(type, pts, pts_type, b_relative_coord)|Add new command to path|
-|insert(index, type, pts, pts_type, b_relative_coord)|Insert new command to path|
-|clear()|Removes all commands from the collection.|
-|remove(item)|Removes specified commans from the collection.|
-|remove_at(index)|Removes a command at the specified index.|
-
-### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add](/slides/python-net/aspose.slides.animation/imotionpath/imotionpath/#MotionCommandPathType-List[aspose.pydrawing.PointF]-MotionPathPointsType-bool/) | Add new command to path |
+| [insert](/slides/python-net/aspose.slides.animation/imotionpath/imotionpath/#int-MotionCommandPathType-List[aspose.pydrawing.PointF]-MotionPathPointsType-bool/) | Insert new command to path |
+| [clear](/slides/python-net/aspose.slides.animation/imotionpath/imotionpath/#/) | Removes all commands from the collection. |
+| [remove](/slides/python-net/aspose.slides.animation/imotionpath/imotionpath/#IMotionCmdPath/) | Removes specified commans from the collection. |
+| [remove_at](/slides/python-net/aspose.slides.animation/imotionpath/imotionpath/#int/) | Removes a command at the specified index. |
 

@@ -1,28 +1,28 @@
----
+﻿---
 title: Video
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/video/
 ---
 
-## Video class
+
+Video class
 
 Represents an image embedded into a presentation.
 
 The Video type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|content_type|Returns a MIME type of an video, encoded in [binary_data](/slides/python-net/aspose.slides/video/).<br/>            Read-only string.|
-|binary_data|Returns the copy of an audio's data. In case of large amount of data consider using of <br/>            [None](/slides/python-net/aspose.slides/video/) method to prevent unnecessary loading of video's data into memory <br/>            or even OutOfMemoryException.<br/>            Read-only int[].|
+| [content_type](/slides/python-net/aspose.slides/video/content_type/) | Returns a MIME type of an video, encoded in :py:attr:`aspose.slides.Video.binary_data`.<br/>            Read-only :py:class:`System.String`. |
+| [binary_data](/slides/python-net/aspose.slides/video/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider using of <br/>            :py:func:`aspose.slides.Video.get_stream` method to prevent unnecessary loading of video's data into memory <br/>            or even OutOfMemoryException.<br/>            Read-only :py:class:`int`[]. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_stream()|Returns Stream stream for reading.<br/>            Use 'using' or close stream after using.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [get_stream](/slides/python-net/aspose.slides/video/video/#/) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
 

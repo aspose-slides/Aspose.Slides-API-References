@@ -1,37 +1,39 @@
----
+﻿---
 title: EmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 
-## EmbeddedWoffFontsHtmlController class
+
+EmbeddedWoffFontsHtmlController class
 
 The formatting controller class to use for fonts embedding in WOFF format
 
 The EmbeddedWoffFontsHtmlController type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|EmbeddedWoffFontsHtmlController()|Creates new instance.|
-|EmbeddedWoffFontsHtmlController(controller)|Initializes a new instance of the EmbeddedWoffFontsHtmlController class|
+| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlFormattingController/) | Creates new instance. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_html_formatting_controller|Returns IHtmlFormattingController interface.|
+| [as_i_html_formatting_controller](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/as_i_html_formatting_controller/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|write_document_start(generator, presentation)|Called to write html document header. Called once per presentation conversion.|
-|write_document_end(generator, presentation)|Called to write html document footer. Called once per presentation conversion.|
-|write_slide_start(generator, slide)|Called to write html slide header. Called once per each of slides.|
-|write_slide_end(generator, slide)|Called to write html slide footer. Called once per each of slides.|
-|write_shape_start(generator, shape)|Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.|
-|write_shape_end(generator, shape)|Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.|
-
-### See Also
-
-* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [write_document_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-IPresentation/) |  |
+| [write_document_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-IPresentation/) |  |
+| [write_slide_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-ISlide/) |  |
+| [write_slide_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-ISlide/) |  |
+| [write_shape_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-IShape/) |  |
+| [write_shape_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-IShape/) |  |
 

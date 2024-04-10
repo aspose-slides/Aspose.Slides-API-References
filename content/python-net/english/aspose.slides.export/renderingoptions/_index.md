@@ -1,33 +1,35 @@
----
+﻿---
 title: RenderingOptions
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/renderingoptions/
 ---
 
-## RenderingOptions class
+
+RenderingOptions class
 
 Provides options that control how a presentation/slide is rendered.
 
+**Inheritance:**[`RenderingOptions`](/slides/python-net/aspose.slides.export/renderingoptions) → [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
+
 The RenderingOptions type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|RenderingOptions()|Default constructor.|
+| [__init__](/slides/python-net/aspose.slides.export/renderingoptions/renderingoptions/#/) | Default constructor. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|warning_callback|Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
-|progress_callback|Represents a callback object for saving progress updates in percentage.<br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|
-|default_regular_font|Returns or sets font used in case source font is not found.<br/>            Read-write string.|
-|notes_comments_layouting|Provides options that control how notes and comments is placed in exported document.|
-|slides_layout_options|Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](/slides/python-net/aspose.slides.export/islideslayoutoptions/).|
-|ink_options|Provides options that control the look of Ink objects in exported document.<br/>            Read-only [IInkOptions](/slides/python-net/aspose.slides.export/iinkoptions/)|
-|as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
-
-### See Also
-
-* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [warning_callback](/slides/python-net/aspose.slides.export/renderingoptions/warning_callback/) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write :py:class:`aspose.slides.warnings.IWarningCallback`. |
+| [progress_callback](/slides/python-net/aspose.slides.export/renderingoptions/progress_callback/) | Represents a callback object for saving progress updates in percentage.<br/>            See :py:class:`aspose.slides.IProgressCallback`. |
+| [default_regular_font](/slides/python-net/aspose.slides.export/renderingoptions/default_regular_font/) | Returns or sets font used in case source font is not found.<br/>            Read-write :py:class:`System.String`. |
+| [notes_comments_layouting](/slides/python-net/aspose.slides.export/renderingoptions/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document. |
+| [slides_layout_options](/slides/python-net/aspose.slides.export/renderingoptions/slides_layout_options/) | Gets or sets the mode in which slides are placed on the page when exporting a presentation :py:class:`aspose.slides.export.ISlidesLayoutOptions`. |
+| [ink_options](/slides/python-net/aspose.slides.export/renderingoptions/ink_options/) | Provides options that control the look of Ink objects in exported document.<br/>            Read-only :py:class:`aspose.slides.export.IInkOptions` |
+| [as_i_save_options](/slides/python-net/aspose.slides.export/renderingoptions/as_i_save_options/) |  |
 

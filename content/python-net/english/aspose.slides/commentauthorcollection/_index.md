@@ -1,38 +1,40 @@
----
+﻿---
 title: CommentAuthorCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/commentauthorcollection/
 ---
 
-## CommentAuthorCollection class
+
+CommentAuthorCollection class
 
 Represents a collection of comment authors.
 
 The CommentAuthorCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+| [as_i_collection](/slides/python-net/aspose.slides/commentauthorcollection/as_i_collection/) |  |
+| [as_i_enumerable](/slides/python-net/aspose.slides/commentauthorcollection/as_i_enumerable/) |  |
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [ICommentAuthor](/slides/python-net/aspose.slides/icommentauthor/).|
+| [index] |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_author(name, initials)|Add new author at the end of a collection.|
-|to_array()|Creates and returns an array with all authors.|
-|find_by_name(name)|Find author in a collection by name.|
-|find_by_name_and_initials(name, initials)|Find author in a collection by name and initials.|
-|remove_at(index)|Removes the author at the specified index of the collection.|
-|remove(author)|Removes the first occurrence of the specified author in a collection.|
-|clear()|Removes all authors from a collection.|
-
-### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+| [add_author](/slides/python-net/aspose.slides/commentauthorcollection/commentauthorcollection/#string-string/) | Add new author at the end of a collection. |
+| [to_array](/slides/python-net/aspose.slides/commentauthorcollection/commentauthorcollection/#/) | Creates and returns an array with all authors. |
+| [find_by_name](/slides/python-net/aspose.slides/commentauthorcollection/commentauthorcollection/#string/) | Find author in a collection by name. |
+| [find_by_name_and_initials](/slides/python-net/aspose.slides/commentauthorcollection/commentauthorcollection/#string-string/) | Find author in a collection by name and initials. |
+| [remove_at](/slides/python-net/aspose.slides/commentauthorcollection/commentauthorcollection/#int/) | Removes the author at the specified index of the collection. |
+| [remove](/slides/python-net/aspose.slides/commentauthorcollection/commentauthorcollection/#ICommentAuthor/) | Removes the first occurrence of the specified author in a collection. |
+| [clear](/slides/python-net/aspose.slides/commentauthorcollection/commentauthorcollection/#/) | Removes all authors from a collection. |
 
