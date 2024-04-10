@@ -3,7 +3,7 @@ title: IEnumerable
 second_title: Aspose.Slides for C++ API Reference
 description: Interface of object providing enumerator on contained elements.
 type: docs
-weight: 261
+weight: 274
 url: /system.collections.generic/ienumerable/
 ---
 ## IEnumerable class

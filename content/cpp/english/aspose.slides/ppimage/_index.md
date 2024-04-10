@@ -3,7 +3,7 @@ title: PPImage
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 4590
+weight: 4616
 url: /aspose.slides/ppimage/
 ---
 ## PPImage class
@@ -30,6 +30,7 @@ class PPImage : public Aspose::Slides::IPPImage,
 | [System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\> [get_BinaryData](./get_binarydata/)() override | Returns the copy of an image's data. Read-only **uint8_t**[]. |
 | [System::String](../../system/string/) [get_ContentType](./get_contenttype/)() override | Returns a MIME type of an image, encoded in [PPImage::get_BinaryData](./get_binarydata/). Read-only [System::String](../../system/string/). |
 | **int32_t** [get_Height](./get_height/)() override | Returns a height of an image. Read-only **int32_t**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::IImage](../iimage/)\> [get_Image](./get_image/)() override | Returns the copy of an image. Read-only [IImage](../iimage/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::ISvgImage](../isvgimage/)\> [get_SvgImage](./get_svgimage/)() const override | Returns [ISvgImage](../isvgimage/) object [ISvgImage](../isvgimage/) |
 | [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Image](../../system.drawing/image/)\> [get_SystemImage](./get_systemimage/)() override | Returns the copy of an image. Read-only [System::Drawing::Image](../../system.drawing/image/). |
 | **int32_t** [get_Width](./get_width/)() override | Returns a width of an image. Read-only **int32_t**. |
@@ -52,7 +53,9 @@ class PPImage : public Aspose::Slides::IPPImage,
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | void [ReplaceImage](./replaceimage/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>) override | Replaces image data. |
 | void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Image](../../system.drawing/image/)\>) override | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead |
+| void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::IImage](../iimage/)\>) override | Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead |
 | void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::IPPImage](../ippimage/)\>) override | Replaces image data. |
+| virtual void [ReplaceImage](../ippimage/replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\>) | Replaces image. |
 | virtual void [ReplaceImage](../ippimage/replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\>) | Replaces image. |
 | void [set_SvgImage](./set_svgimage/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::ISvgImage](../isvgimage/)\>) override | Sets [ISvgImage](../isvgimage/) object [ISvgImage](../isvgimage/) |
 | virtual void [set_SvgImage](../ippimage/set_svgimage/)([System::SharedPtr](../../system/sharedptr/)\<[ISvgImage](../isvgimage/)\>) | Sets [ISvgImage](../isvgimage/) object [ISvgImage](../isvgimage/) |

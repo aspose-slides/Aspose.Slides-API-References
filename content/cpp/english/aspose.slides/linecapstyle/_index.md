@@ -3,7 +3,7 @@ title: LineCapStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the line cap style.
 type: docs
-weight: 5708
+weight: 5734
 url: /aspose.slides/linecapstyle/
 ---
 ## LineCapStyle enum

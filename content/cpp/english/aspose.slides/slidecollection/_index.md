@@ -3,7 +3,7 @@ title: SlideCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of a slides.
 type: docs
-weight: 4928
+weight: 4954
 url: /aspose.slides/slidecollection/
 ---
 ## SlideCollection class

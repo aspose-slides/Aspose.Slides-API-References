@@ -29,7 +29,7 @@ class MarkdownSaveOptions : public Aspose::Slides::Export::SaveOptions
 | [System::String](../../system/string/) [get_DefaultRegularFont](../saveoptions/get_defaultregularfont/)() override | Returns font used in case source font is not found. Reads [System::String](../../system/string/). |
 | [MarkdownExportType](../markdownexporttype/) [get_ExportType](./get_exporttype/)() const | Specifies markdown specification to convert presentation. Default is **TextOnly**. |
 | [Aspose::Slides::Export::Flavor](../flavor/) [get_Flavor](./get_flavor/)() const | Specifies markdown specification to convert presentation. Default is **Multi-markdown**. |
-| [System::String](../../system/string/) [get_ImagesSaveFolderName](./get_imagessavefoldername/)() const | Specifies folder name to save images. Default is **Images**. |
+| [System::String](../../system/string/) [get_ImagesSaveFolderName](./get_imagessavefoldername/)() const | Specifies folder name to save images. Default is **[Images](../../aspose.slides/images/)**. |
 | [Aspose::Slides::Export::NewLineType](../newlinetype/) [get_NewLineType](./get_newlinetype/)() const | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is **Unix**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../saveoptions/get_progresscallback/)() override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | **bool** [get_ShowComments](./get_showcomments/)() const | Specifies whether the generated document should show comments or not. Default is **false**. |
@@ -56,7 +56,7 @@ class MarkdownSaveOptions : public Aspose::Slides::Export::SaveOptions
 | void [set_DefaultRegularFont](../saveoptions/set_defaultregularfont/)([System::String](../../system/string/)) override | Sets font used in case source font is not found. Writes [System::String](../../system/string/). |
 | void [set_ExportType](./set_exporttype/)([MarkdownExportType](../markdownexporttype/)) | Specifies markdown specification to convert presentation. Default is **TextOnly**. |
 | void [set_Flavor](./set_flavor/)([Aspose::Slides::Export::Flavor](../flavor/)) | Specifies markdown specification to convert presentation. Default is **Multi-markdown**. |
-| void [set_ImagesSaveFolderName](./set_imagessavefoldername/)([System::String](../../system/string/)) | Specifies folder name to save images. Default is **Images**. |
+| void [set_ImagesSaveFolderName](./set_imagessavefoldername/)([System::String](../../system/string/)) | Specifies folder name to save images. Default is **[Images](../../aspose.slides/images/)**. |
 | void [set_NewLineType](./set_newlinetype/)([Aspose::Slides::Export::NewLineType](../newlinetype/)) | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is **Unix**. |
 | void [set_ProgressCallback](../saveoptions/set_progresscallback/)([System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\>) override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | void [set_ShowComments](./set_showcomments/)(**bool**) | Specifies whether the generated document should show comments or not. Default is **false**. |

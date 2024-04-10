@@ -3,7 +3,7 @@ title: LinkedList
 second_title: Aspose.Slides for C++ API Reference
 description: LinkedList forward declaration.
 type: docs
-weight: 378
+weight: 391
 url: /system.collections.generic/linkedlist/
 ---
 ## LinkedList class

@@ -3,7 +3,7 @@ title: SlideSizeType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the slide size preset.
 type: docs
-weight: 6098
+weight: 6124
 url: /aspose.slides/slidesizetype/
 ---
 ## SlideSizeType enum

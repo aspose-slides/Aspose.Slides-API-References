@@ -3,7 +3,7 @@ title: ILayoutSlide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a layout slide.
 type: docs
-weight: 2471
+weight: 2484
 url: /aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide class

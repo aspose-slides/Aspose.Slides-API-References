@@ -3,7 +3,7 @@ title: ListPtr
 second_title: Aspose.Slides for C++ API Reference
 description: List pointer with access operators. This type is a pointer to manage other object's deletion. It should be allocated on stack and passed to functions either by value or by const reference.
 type: docs
-weight: 430
+weight: 443
 url: /system.collections.generic/listptr/
 ---
 ## ListPtr class

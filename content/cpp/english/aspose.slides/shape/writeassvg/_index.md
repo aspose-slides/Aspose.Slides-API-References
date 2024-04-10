@@ -3,7 +3,7 @@ title: WriteAsSvg()
 second_title: Aspose.Slides for C++ API Reference
 description: Saves content of Shape as SVG file.
 type: docs
-weight: 664
+weight: 677
 url: /aspose.slides/shape/writeassvg/
 ---
 ## Shape::WriteAsSvg(System::SharedPtr\<System::IO::Stream\>) method

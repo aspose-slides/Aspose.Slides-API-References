@@ -3,7 +3,7 @@ title: SpreadsheetOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options which can be used to specify additional spreadsheets behavior.
 type: docs
-weight: 5006
+weight: 5032
 url: /aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions class

@@ -3,7 +3,7 @@ title: TextFrameFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Contains the TextFrame's formatTextFrameFormatting properties.
 type: docs
-weight: 5201
+weight: 5227
 url: /aspose.slides/textframeformat/
 ---
 ## TextFrameFormat class

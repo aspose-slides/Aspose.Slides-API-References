@@ -3,7 +3,7 @@ title: AudioVolumeMode
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define audio volume.
 type: docs
-weight: 5370
+weight: 5396
 url: /aspose.slides/audiovolumemode/
 ---
 ## AudioVolumeMode enum

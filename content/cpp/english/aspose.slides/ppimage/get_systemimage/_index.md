@@ -15,6 +15,10 @@ Returns the copy of an image. Read-only [System::Drawing::Image](../../../system
 System::SharedPtr<System::Drawing::Image> Aspose::Slides::PPImage::get_SystemImage() override
 ```
 
+
+Deprecated
+:   Use Image property instead. The property will be removed after release of version 24.7.
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

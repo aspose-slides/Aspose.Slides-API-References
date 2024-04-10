@@ -3,7 +3,7 @@ title: NullableBool
 second_title: Aspose.Slides for C++ API Reference
 description: Represents triple boolean values.
 type: docs
-weight: 5799
+weight: 5825
 url: /aspose.slides/nullablebool/
 ---
 ## NullableBool enum

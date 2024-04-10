@@ -21,6 +21,7 @@ class Char
 | --- | --- |
 | static [String](../string/) [ConvertFromUtf32](./convertfromutf32/)(**uint32_t**) | Converts UTF-32 code unit into an instance of [System::String](../string/) class. |
 | static int [ConvertToUtf32](./converttoutf32/)(char_t, char_t) | Converts the specified UTF-16 surrogate pair into UTF-32 code unit. |
+| static int [ConvertToUtf32](./converttoutf32/)(const [String](../string/)\&, int) | Converts the value of a UTF-16 encoded character or surrogate pair at a specified position in a string into UTF-32 code unit. |
 | static **double** [GetNumericValue](./getnumericvalue/)(char_t) | Converts the specified UTF-16 character into double-precision floating-point numerical value. |
 | static [Globalization::UnicodeCategory](../../system.globalization/unicodecategory/) [GetUnicodeCategory](./getunicodecategory/)(char_t) | Returns a value that represents a Unicode category of specified character. |
 | static constexpr **bool** [IsAsciiWhiteSpace](./isasciiwhitespace/)(char_t) | Determines whether the specified character is classified as a ASCII white space character. |

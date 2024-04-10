@@ -3,7 +3,7 @@ title: SlideSize
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a size of slide.
 type: docs
-weight: 4980
+weight: 5006
 url: /aspose.slides/slidesize/
 ---
 ## SlideSize class

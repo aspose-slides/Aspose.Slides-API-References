@@ -3,7 +3,7 @@ title: IPatternFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a pattern to fill a shape.
 type: docs
-weight: 3004
+weight: 3030
 url: /aspose.slides/ipatternformat/
 ---
 ## IPatternFormat class
@@ -30,6 +30,8 @@ class IPatternFormat : public virtual System::Object
 | virtual [Aspose::Slides::PatternStyle](../patternstyle/) [get_PatternStyle](./get_patternstyle/)() | Returns the pattern style. Read [Slides::PatternStyle](../patternstyle/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [GetTile](./gettile/)([System::Drawing::Color](../../system.drawing/color/), [System::Drawing::Color](../../system.drawing/color/)) | Creates a tile image for the pattern fill with a specified colors. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [GetTile](./gettile/)([System::Drawing::Color](../../system.drawing/color/)) | Creates a tile image for the pattern fill. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Bitmap](../../system.drawing/bitmap/)\> [GetTileImage](./gettileimage/)([System::Drawing::Color](../../system.drawing/color/), [System::Drawing::Color](../../system.drawing/color/)) | Creates a tile image for the pattern fill with a specified colors. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Bitmap](../../system.drawing/bitmap/)\> [GetTileImage](./gettileimage/)([System::Drawing::Color](../../system.drawing/color/)) | Creates a tile image for the pattern fill. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |

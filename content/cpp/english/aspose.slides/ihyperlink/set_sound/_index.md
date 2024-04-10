@@ -3,7 +3,7 @@ title: set_Sound()
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the playing sound of the hyperlink. Write IAudio.
 type: docs
-weight: 183
+weight: 196
 url: /aspose.slides/ihyperlink/set_sound/
 ---
 ## IHyperlink::set_Sound(System::SharedPtr\<IAudio\>) method

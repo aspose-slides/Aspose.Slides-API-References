@@ -3,7 +3,7 @@ title: set_StopSoundOnClick()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the sound should be stopped on hyperlink click. Write bool.
 type: docs
-weight: 157
+weight: 170
 url: /aspose.slides/ihyperlink/set_stopsoundonclick/
 ---
 ## IHyperlink::set_StopSoundOnClick(bool) method

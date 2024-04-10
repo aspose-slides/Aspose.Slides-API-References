@@ -3,7 +3,7 @@ title: Stack
 second_title: Aspose.Slides for C++ API Reference
 description: Stack class forward declaration.
 type: docs
-weight: 547
+weight: 586
 url: /system.collections.generic/stack/
 ---
 ## Stack class

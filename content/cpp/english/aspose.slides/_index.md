@@ -200,6 +200,7 @@ url: /aspose.slides/
 | [IHyperlinkContainer](./ihyperlinkcontainer/) | Represents hyperlink object. |
 | [IHyperlinkManager](./ihyperlinkmanager/) | Provide hyperlinks management (adding, removing). |
 | [IHyperlinkQueries](./ihyperlinkqueries/) | Provide easy access to contained hyperlinks. |
+| [IImage](./iimage/) | Represents the raster or vector image. |
 | [IImageCollection](./iimagecollection/) | Represents collection of [PPImage](./ppimage/). |
 | [IInterruptionToken](./iinterruptiontoken/) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [IInterruptionTokenSource](./iinterruptiontokensource/) | Represents the source of [IInterruptionToken](./iinterruptiontoken/). |
@@ -217,6 +218,7 @@ url: /aspose.slides/
 | [ILineParamSource](./ilineparamsource/) | Auxiliary line parameters interface. |
 | [ILoadOptions](./iloadoptions/) | Allows to specify additional options (such as format or default font) when loading a presentation. |
 | [ImageCollection](./imagecollection/) | Represents collection of [PPImage](./ppimage/). |
+| [Images](./images/) | Methods to instantiate and work with [IImage](./iimage/). |
 | [IMasterHandoutSlide](./imasterhandoutslide/) | Represents master slide for handouts. |
 | [IMasterHandoutSlideHeaderFooterManager](./imasterhandoutslideheaderfootermanager/) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |
 | [IMasterHandoutSlideManager](./imasterhandoutslidemanager/) | Master handout slide manager. |
@@ -512,6 +514,7 @@ url: /aspose.slides/
 | [VideoPlayModePreset](./videoplaymodepreset/) | Constants which define how a video is played. |
 | [ZoomImageType](./zoomimagetype/) | Defines whether the Zoom object is using the slide preview or a cover image. |
 | [ZoomLayout](./zoomlayout/) | Specifies the summary zoom layout. |
+| [ImageFormat](./imageformat/) | Represents the file format of the image. |
 | [LoadFormat](./loadformat/) | Indicates the format of the document that is to be loaded. |
 | [LoadingStreamBehavior](./loadingstreambehavior/) | The [System::IO::Stream](../system.io/stream/) passed to a method is considered as a Binary Large Object (BLOB) (see [IBlobManagementOptions](./iblobmanagementoptions/) description). Values of this enumeration identify how the [System::IO::Stream](../system.io/stream/) should be treated when it passed to the method. Depending on the requirements, different decisions could be made to provide the most efficient behavior. |
 | [PresentationLockingBehavior](./presentationlockingbehavior/) | Represents the behavior regarding treating the [IPresentation](./ipresentation/) source (file or [System::IO::Stream](../system.io/stream/)) while loading and working with an instance of [IPresentation](./ipresentation/). |

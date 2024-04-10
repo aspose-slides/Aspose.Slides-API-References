@@ -3,7 +3,7 @@ title: idx_get()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the cell at the specified column and row indexes. Read-only Cell.
 type: docs
-weight: 261
+weight: 248
 url: /aspose.slides/table/idx_get/
 ---
 ## Table::idx_get(int32_t, int32_t) method

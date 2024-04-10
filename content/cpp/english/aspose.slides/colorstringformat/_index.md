@@ -3,7 +3,7 @@ title: ColorStringFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a type of hyperlink action.
 type: docs
-weight: 5461
+weight: 5487
 url: /aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat enum

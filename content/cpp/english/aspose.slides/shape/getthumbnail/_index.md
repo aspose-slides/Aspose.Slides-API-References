@@ -20,6 +20,9 @@ System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::Shape::GetThumbnail()
 
 [Shape](../) thumbnail.
 
+Deprecated
+:   Use GetImage method instead. The method will be removed after release of version 24.7.
+
 ## Shape::GetThumbnail(ShapeThumbnailBounds, float, float) method
 
 
@@ -41,6 +44,9 @@ System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::Shape::GetThumbnail(S
 ### Return Value
 
 [Shape](../) thumbnail or null in case when [ShapeThumbnailBounds::Appearance](../../shapethumbnailbounds/) is used and a shape doesn't have visible elements.
+
+Deprecated
+:   Use [GetImage(ShapeThumbnailBounds bounds, float scaleX, float scaleY)](../getimage/) method instead. The method will be removed after release of version 24.7.
 
 ## See Also
 

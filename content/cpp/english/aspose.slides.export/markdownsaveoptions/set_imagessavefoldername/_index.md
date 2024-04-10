@@ -9,7 +9,7 @@ url: /aspose.slides.export/markdownsaveoptions/set_imagessavefoldername/
 ## MarkdownSaveOptions::set_ImagesSaveFolderName(System::String) method
 
 
-Specifies folder name to save images. Default is **Images**.
+Specifies folder name to save images. Default is **[Images](../../../aspose.slides/images/)**.
 
 ```cpp
 void Aspose::Slides::Export::MarkdownSaveOptions::set_ImagesSaveFolderName(System::String value)

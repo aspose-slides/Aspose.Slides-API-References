@@ -3,7 +3,7 @@ title: TabAlignment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the tab alignment.
 type: docs
-weight: 6150
+weight: 6176
 url: /aspose.slides/tabalignment/
 ---
 ## TabAlignment enum

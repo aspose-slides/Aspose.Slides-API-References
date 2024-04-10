@@ -3,7 +3,7 @@ title: ThisType
 second_title: Aspose.Slides for C++ API Reference
 description: Self type.
 type: docs
-weight: 248
+weight: 14
 url: /system.collections.generic/hashset/thistype/
 ---
 ## ThisType typedef

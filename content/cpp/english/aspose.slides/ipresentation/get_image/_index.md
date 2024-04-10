@@ -3,7 +3,7 @@ title: get_Image()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns image in the presentation at the specified index.
 type: docs
-weight: 521
+weight: 534
 url: /aspose.slides/ipresentation/get_image/
 ---
 ## IPresentation::get_Image(int32_t) method

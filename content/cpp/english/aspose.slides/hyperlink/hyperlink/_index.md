@@ -3,7 +3,7 @@ title: Hyperlink()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates an instance of a hyperlink.
 type: docs
-weight: 326
+weight: 339
 url: /aspose.slides/hyperlink/hyperlink/
 ---
 ## Hyperlink::Hyperlink(System::String) constructor

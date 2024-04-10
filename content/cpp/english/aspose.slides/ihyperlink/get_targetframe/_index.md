@@ -3,7 +3,7 @@ title: get_TargetFrame()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read System::String."
 type: docs
-weight: 40
+weight: 53
 url: /aspose.slides/ihyperlink/get_targetframe/
 ---
 ## IHyperlink::get_TargetFrame() method

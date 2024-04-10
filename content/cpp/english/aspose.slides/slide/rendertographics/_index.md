@@ -1,95 +1,11 @@
 ---
 title: RenderToGraphics()
 second_title: Aspose.Slides for C++ API Reference
-description: Renders certain slide to a Graphics object using specified size.
+description: Renders certain slide to a Graphics object.
 type: docs
-weight: 157
+weight: 170
 url: /aspose.slides/slide/rendertographics/
 ---
-## Slide::RenderToGraphics(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>, int32_t, int32_t) method
-
-
-Renders certain slide to a Graphics object using specified size.
-
-```cpp
-void Aspose::Slides::Slide::RenderToGraphics(System::SharedPtr<Export::INotesCommentsLayoutingOptions> notesCommentsLayouting, System::SharedPtr<System::Drawing::Graphics> graphics, int32_t width, int32_t height) override
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\> | Options for notes and comments layouting. |
-| graphics | [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\> | The object where to render to. |
-| width | **int32_t** | The maximum width (in pixels) that can be occupied by the rendered slide. |
-| height | **int32_t** | The maximum height (in pixels) that can be occupied by the rendered slide. |
-
-Deprecated
-:   Use Slide.RenderToGraphics(IRenderingOptions, Graphics, int, int) instead. The method will be removed after release of version 21.4.
-
-## Slide::RenderToGraphics(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>, float) method
-
-
-Renders certain slide to a Graphics object using specified scale.
-
-```cpp
-void Aspose::Slides::Slide::RenderToGraphics(System::SharedPtr<Export::INotesCommentsLayoutingOptions> notesCommentsLayouting, System::SharedPtr<System::Drawing::Graphics> graphics, float scale) override
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\> | Options for notes and comments layouting. |
-| graphics | [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\> | The object where to render to. |
-| scale | **float** | The scale for rendering the slide (1.0 is 100%). |
-
-Deprecated
-:   Use Slide.RenderToGraphics(IRenderingOptions, Graphics, float) instead. The method will be removed after release of version 21.4.
-
-## Slide::RenderToGraphics(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>) method
-
-
-Renders certain slide to a Graphics object.
-
-```cpp
-void Aspose::Slides::Slide::RenderToGraphics(System::SharedPtr<Export::INotesCommentsLayoutingOptions> notesCommentsLayouting, System::SharedPtr<System::Drawing::Graphics> graphics) override
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\> | Options for notes and comments layouting. |
-| graphics | [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\> | The object where to render to. |
-## Remarks
-
-
-Deprecated
-:   Use Slide.RenderToGraphics(IRenderingOptions, Graphics) instead. The method will be removed after release of version 21.4.
-
-
-The following example shows how to convert the first slide of a PowerPoint presentation to a bitmap object using the RenderToGraphics method. 
-```cpp
-auto pres = System::MakeObject<Presentation>(u"Presentation.pptx");
-
-// Gets the presentation slide size
-System::Drawing::Size slideSize = pres->get_SlideSize()->get_Size().ToSize();
-// Creates a Bitmap with the slide size
-auto slideImage = System::MakeObject<System::Drawing::Bitmap>(slideSize.get_Width(), slideSize.get_Height());
-
-{
-    // Renders the first slide to the Graphics object
-    System::SharedPtr<System::Drawing::Graphics> graphics = System::Drawing::Graphics::FromImage(slideImage);
-    pres->get_Slides()->idx_get(0)->RenderToGraphics(System::MakeObject<RenderingOptions>(), graphics);
-}
-
-slideImage->Save(u"Slide_0.png", System::Drawing::Imaging::ImageFormat::get_Png());
-```
-
 ## Slide::RenderToGraphics(System::SharedPtr\<Export::IRenderingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>) method
 
 
@@ -106,6 +22,9 @@ void Aspose::Slides::Slide::RenderToGraphics(System::SharedPtr<Export::IRenderin
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Rendering options. |
 | graphics | [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\> | The object where to render to. |
+
+Deprecated
+:   The method will be removed after release of version 24.7.
 
 ## Slide::RenderToGraphics(System::SharedPtr\<Export::IRenderingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>, float, float) method
 
@@ -126,6 +45,9 @@ void Aspose::Slides::Slide::RenderToGraphics(System::SharedPtr<Export::IRenderin
 | scaleX | **float** | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
 | scaleY | **float** | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
 
+Deprecated
+:   The method will be removed after release of version 24.7.
+
 ## Slide::RenderToGraphics(System::SharedPtr\<Export::IRenderingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>, System::Drawing::Size) method
 
 
@@ -145,6 +67,9 @@ void Aspose::Slides::Slide::RenderToGraphics(System::SharedPtr<Export::IRenderin
 | renderingSize | [System::Drawing::Size](../../../system.drawing/size/) | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
 ## Remarks
 
+
+Deprecated
+:   The method will be removed after release of version 24.7.
 
 
 The following example shows how to convert the first slide to the framed image with the RenderToGraphics method. 
@@ -193,10 +118,9 @@ slideImage->Save(u"Slide_Notes_0.png", System::Drawing::Imaging::ImageFormat::ge
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
+* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
 * Class [Graphics](../../../system.drawing/graphics/)
 * Class [Slide](../)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
 * Class [Size](../../../system.drawing/size/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

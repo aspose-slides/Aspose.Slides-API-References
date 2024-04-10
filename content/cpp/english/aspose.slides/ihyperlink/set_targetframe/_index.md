@@ -3,7 +3,7 @@ title: set_TargetFrame()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Write System::String."
 type: docs
-weight: 53
+weight: 66
 url: /aspose.slides/ihyperlink/set_targetframe/
 ---
 ## IHyperlink::set_TargetFrame(System::String) method

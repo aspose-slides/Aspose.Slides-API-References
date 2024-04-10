@@ -37,7 +37,6 @@ class DataLabelCollection : public Aspose::Slides::DomObject<System::SharedPtr<A
 | **int32_t** [get_CountOfVisibleDataLabels](./get_countofvisibledatalabels/)() override | Gets the number of visible data labels in the collection. Read-only **int32_t**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IDataLabelFormat](../idatalabelformat/)\> [get_DefaultDataLabelFormat](./get_defaultdatalabelformat/)() override | Gets the default data label format. Read-only [IDataLabelFormat](../idatalabelformat/). |
 | **bool** [get_IsVisible](./get_isvisible/)() override | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only **bool**. |
-| [System::Drawing::Color](../../system.drawing/color/) [get_LeaderLinesColor](./get_leaderlinescolor/)() override | Gets the color of all leader lines in the collection. Read [System::Drawing::Color](../../system.drawing/color/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IChartLinesFormat](../ichartlinesformat/)\> [get_LeaderLinesFormat](./get_leaderlinesformat/)() override | Represents data labels leader lines format. Read-only [IChartLinesFormat](../ichartlinesformat/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IChartSeries](../ichartseries/)\> [get_ParentSeries](./get_parentseries/)() override | Gets the parent series. Read-only [IChartSeries](../ichartseries/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
@@ -92,7 +91,6 @@ class DataLabelCollection : public Aspose::Slides::DomObject<System::SharedPtr<A
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
-| void [set_LeaderLinesColor](./set_leaderlinescolor/)([System::Drawing::Color](../../system.drawing/color/)) override | Sets the color of all leader lines in the collection. Write [System::Drawing::Color](../../system.drawing/color/). |
 | void [SetTemplateWeakPtr](./settemplateweakptr/)(**uint32_t**) override | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |

@@ -3,7 +3,7 @@ title: ParagraphFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create paragraphs
 type: docs
-weight: 4421
+weight: 4447
 url: /aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory class

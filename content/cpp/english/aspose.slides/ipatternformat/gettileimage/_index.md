@@ -27,6 +27,9 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::IPatternForma
 
 Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
 
+Deprecated
+:   Use GetTile(Color background, Color foreground) method instead. The method will be removed after release of version 24.7.
+
 ## IPatternFormat::GetTileImage(System::Drawing::Color) method
 
 
@@ -46,6 +49,9 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::IPatternForma
 ### Return Value
 
 Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+
+Deprecated
+:   Use GetTile(Color styleColor) method instead. The method will be removed after release of version 24.7.
 
 ## See Also
 

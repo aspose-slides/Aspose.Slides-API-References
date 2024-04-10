@@ -3,7 +3,7 @@ title: IndexOf()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns an index of the specified DataLabel in the collection.
 type: docs
-weight: 131
+weight: 105
 url: /aspose.slides.charts/idatalabelcollection/indexof/
 ---
 ## IDataLabelCollection::IndexOf(System::SharedPtr\<IDataLabel\>) method

@@ -20,9 +20,6 @@ virtual bool Aspose::Slides::ILicense::IsLicensed()=0
 
 **True** if component is licensed, otherwise **false**
 
-Deprecated
-:   The property is deprecated and will be removed after release of version 19.12.
-
 ## See Also
 
 * Class [ILicense](../)

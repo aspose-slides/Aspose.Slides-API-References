@@ -3,7 +3,7 @@ title: SortedDictionary
 second_title: Aspose.Slides for C++ API Reference
 description: Sorted dictionary type forward declaration.
 type: docs
-weight: 495
+weight: 508
 url: /system.collections.generic/sorteddictionary/
 ---
 ## SortedDictionary class

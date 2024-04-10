@@ -3,7 +3,7 @@ title: ListExt
 second_title: Aspose.Slides for C++ API Reference
 description: generic List class that implements IListWrapper interface
 type: docs
-weight: 417
+weight: 430
 url: /system.collections.generic/listext/
 ---
 ## ListExt class

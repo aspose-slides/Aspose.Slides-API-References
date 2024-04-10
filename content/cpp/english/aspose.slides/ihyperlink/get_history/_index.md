@@ -3,7 +3,7 @@ title: get_History()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read bool.
 type: docs
-weight: 92
+weight: 105
 url: /aspose.slides/ihyperlink/get_history/
 ---
 ## IHyperlink::get_History() method

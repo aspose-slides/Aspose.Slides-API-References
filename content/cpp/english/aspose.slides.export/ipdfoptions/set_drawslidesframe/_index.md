@@ -3,7 +3,7 @@ title: set_DrawSlidesFrame()
 second_title: Aspose.Slides for C++ API Reference
 description: True to draw black frame around each slide. Write bool.
 type: docs
-weight: 326
+weight: 352
 url: /aspose.slides.export/ipdfoptions/set_drawslidesframe/
 ---
 ## IPdfOptions::set_DrawSlidesFrame(bool) method

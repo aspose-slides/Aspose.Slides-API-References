@@ -3,7 +3,7 @@ title: Dictionary
 second_title: Aspose.Slides for C++ API Reference
 description: Forward declaration of Dictionary class.
 type: docs
-weight: 118
+weight: 131
 url: /system.collections.generic/dictionary/
 ---
 ## Dictionary class

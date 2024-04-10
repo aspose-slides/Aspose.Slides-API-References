@@ -3,7 +3,7 @@ title: IResourceLoadingCallback
 second_title: Aspose.Slides for C++ API Reference
 description: Callback interface used to manage external resources loading.
 type: docs
-weight: 3316
+weight: 3342
 url: /aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback class

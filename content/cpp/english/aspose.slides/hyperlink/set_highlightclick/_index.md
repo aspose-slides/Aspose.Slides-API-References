@@ -3,7 +3,7 @@ title: set_HighlightClick()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the hyperlink should be highlighted on click. Write bool.
 type: docs
-weight: 235
+weight: 248
 url: /aspose.slides/hyperlink/set_highlightclick/
 ---
 ## Hyperlink::set_HighlightClick(bool) method

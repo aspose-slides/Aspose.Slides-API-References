@@ -32,7 +32,7 @@ The specified character in lower case if the specified character is an upper cas
 Converts the specified character to lower case.
 
 ```cpp
-static char_t System::Char::ToLower(char_t c, const SharedPtr<Globalization::CultureInfo> &ci)
+static char_t System::Char::ToLower(char_t c, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
 
@@ -41,7 +41,7 @@ static char_t System::Char::ToLower(char_t c, const SharedPtr<Globalization::Cul
 | Parameter | Type | Description |
 | --- | --- | --- |
 | c | char_t | Character to convert |
-| ci | const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | IGNORED |
+| culture | const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | An object that supplies culture-specific casing rules. |
 
 ### Return Value
 

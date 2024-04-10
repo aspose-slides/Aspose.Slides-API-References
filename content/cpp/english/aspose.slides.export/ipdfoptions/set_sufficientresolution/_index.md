@@ -3,7 +3,7 @@ title: set_SufficientResolution()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets a value determining resolution of images inside PDF document.
 type: docs
-weight: 300
+weight: 326
 url: /aspose.slides.export/ipdfoptions/set_sufficientresolution/
 ---
 ## IPdfOptions::set_SufficientResolution(float) method

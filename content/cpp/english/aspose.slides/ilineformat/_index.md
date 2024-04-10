@@ -3,7 +3,7 @@ title: ILineFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents format of a line.
 type: docs
-weight: 2588
+weight: 2601
 url: /aspose.slides/ilineformat/
 ---
 ## ILineFormat class

@@ -3,7 +3,7 @@ title: Remove()
 second_title: Aspose.Slides for C++ API Reference
 description: Removes slide from presentation.
 type: docs
-weight: 157
+weight: 170
 url: /aspose.slides/islide/remove/
 ---
 ## ISlide::Remove() method

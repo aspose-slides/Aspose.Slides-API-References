@@ -27,6 +27,9 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetTh
 
 Bitmap object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
 
+Deprecated
+:   Use [GetImage(float scaleX, float scaleY)](../getimage/) method instead. The method will be removed after release of version 24.7.
+
 ## ISlide::GetThumbnail() method
 
 
@@ -40,6 +43,9 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetTh
 ### Return Value
 
 Bitmap object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+
+Deprecated
+:   Use GetImage method instead. The method will be removed after release of version 24.7.
 
 ## ISlide::GetThumbnail(System::Drawing::Size) method
 
@@ -61,6 +67,9 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetTh
 
 Bitmap object.
 
+Deprecated
+:   Use GetImage(Size imageSize) method instead. The method will be removed after release of version 24.7.
+
 ## ISlide::GetThumbnail(System::SharedPtr\<Export::ITiffOptions\>) method
 
 
@@ -81,77 +90,8 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetTh
 
 Bitmap object.
 
-## ISlide::GetThumbnail(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>) method
-
-
-Returns a Thumbnail Bitmap object.
-
-```cpp
-virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetThumbnail(System::SharedPtr<Export::INotesCommentsLayoutingOptions> notesCommentsLayouting)=0
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\> | Options for notes and comments layouting. |
-
-### Return Value
-
-Bitmap objects.
-
 Deprecated
-:   Use ISlide.GetThumbnail(IRenderingOptions) instead. The method will be removed after release of version 21.4.
-
-## ISlide::GetThumbnail(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, float, float) method
-
-
-Returns a Thumbnail Bitmap object with custom scaling.
-
-```cpp
-virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetThumbnail(System::SharedPtr<Export::INotesCommentsLayoutingOptions> notesCommentsLayouting, float scaleX, float scaleY)=0
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\> | Options for notes and comments layouting. |
-| scaleX | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
-
-### Return Value
-
-Bitmap objects.
-
-Deprecated
-:   Use ISlide.GetThumbnail(IRenderingOptions, float, float) instead. The method will be removed after release of version 21.4.
-
-## ISlide::GetThumbnail(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::Drawing::Size) method
-
-
-Returns a Thumbnail Bitmap object with specified size.
-
-```cpp
-virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetThumbnail(System::SharedPtr<Export::INotesCommentsLayoutingOptions> options, System::Drawing::Size imageSize)=0
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\> | Options for notes and comments layouting. |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | Size of the image to create. |
-
-### Return Value
-
-Bitmap objects.
-
-Deprecated
-:   Use ISlide.GetThumbnail(IRenderingOptions) instead. The method will be removed after release of version 21.4.
+:   Use GetImage(ITiffOptions options) method instead. The method will be removed after release of version 24.7.
 
 ## ISlide::GetThumbnail(System::SharedPtr\<Export::IRenderingOptions\>) method
 
@@ -172,6 +112,9 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetTh
 ### Return Value
 
 Bitmap objects.
+
+Deprecated
+:   Use GetImage(IRenderingOptions options) method instead. The method will be removed after release of version 24.7.
 
 ## ISlide::GetThumbnail(System::SharedPtr\<Export::IRenderingOptions\>, float, float) method
 
@@ -195,6 +138,9 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetTh
 
 Bitmap objects.
 
+Deprecated
+:   Use GetImage(IRenderingOptions options, float scaleX, float scaleY) method instead. The method will be removed after release of version 24.7.
+
 ## ISlide::GetThumbnail(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) method
 
 
@@ -216,6 +162,9 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::ISlide::GetTh
 
 Bitmap objects.
 
+Deprecated
+:   Use GetImage(IRenderingOptions options, Size imageSize) method instead. The method will be removed after release of version 24.7.
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
@@ -223,7 +172,6 @@ Bitmap objects.
 * Class [ISlide](../)
 * Class [Size](../../../system.drawing/size/)
 * Class [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
 * Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: get_ContentType()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns a MIME type of an image, encoded in PPImage::get_BinaryData. Read-only System::String."
 type: docs
-weight: 53
+weight: 66
 url: /aspose.slides/ppimage/get_contenttype/
 ---
 ## PPImage::get_ContentType() method

@@ -3,7 +3,7 @@ title: get_Master()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns a master slide defined in the presentation at the specified index. Read-only Aspose::Slides::IMasterSlide"
 type: docs
-weight: 508
+weight: 521
 url: /aspose.slides/presentation/get_master/
 ---
 ## Presentation::get_Master(int32_t) method

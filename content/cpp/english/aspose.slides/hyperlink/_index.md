@@ -30,6 +30,7 @@ class Hyperlink : public Aspose::Slides::PVIObject,
 | [HyperlinkColorSource](../hyperlinkcolorsource/) [get_ColorSource](./get_colorsource/)() override | Represents the source of hyperlink color - either styles or portion format. Read [HyperlinkColorSource](../hyperlinkcolorsource/). |
 | static [System::SharedPtr](../../system/sharedptr/)\<[Hyperlink](./)\> [get_EndShow](./get_endshow/)() | Returns a hyperlink which ends the show. Read-only [Hyperlink](./). |
 | [System::String](../../system/string/) [get_ExternalUrl](./get_externalurl/)() override | Specifies the external URL. Read-only [System::String](../../system/string/). |
+| [System::String](../../system/string/) [get_ExternalUrlOriginal](./get_externalurloriginal/)() override | Represents a hyperlink that is set for this portion without regard to the actual content of the portion. |
 | static [System::SharedPtr](../../system/sharedptr/)\<[Hyperlink](./)\> [get_FirstSlide](./get_firstslide/)() | Returns a hyperlink to the first slide of the presentation. Read-only [Hyperlink](./). |
 | **bool** [get_HighlightClick](./get_highlightclick/)() override | Determines whether the hyperlink should be highlighted on click. Read **bool**. |
 | **bool** [get_History](./get_history/)() override | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read **bool**. |

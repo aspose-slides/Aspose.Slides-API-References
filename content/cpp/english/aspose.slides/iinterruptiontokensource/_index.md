@@ -3,7 +3,7 @@ title: IInterruptionTokenSource
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the source of IInterruptionToken.
 type: docs
-weight: 2458
+weight: 2471
 url: /aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource class

@@ -18,7 +18,7 @@ System::SharedPtr<IMasterSlideCollection> Aspose::Slides::Presentation::get_Mast
 ## Remarks
 
 
-The following examples shows how to adding Images to Master [Slides](../../) of PowerPoint [Presentation](../). 
+The following examples shows how to adding [Images](../../images/) to Master [Slides](../../) of PowerPoint [Presentation](../). 
 ```cpp
 auto pres = System::MakeObject<Presentation>();
 auto slide = pres->get_Slides()->idx_get(0);

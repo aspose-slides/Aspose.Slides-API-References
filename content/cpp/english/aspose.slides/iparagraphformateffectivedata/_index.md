@@ -3,7 +3,7 @@ title: IParagraphFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective paragraph formatting properties.
 type: docs
-weight: 2978
+weight: 3004
 url: /aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData class
