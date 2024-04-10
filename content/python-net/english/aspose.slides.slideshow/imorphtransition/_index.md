@@ -1,0 +1,22 @@
+﻿---
+title: IMorphTransition class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.slideshow/
+---
+
+
+## IMorphTransition class
+
+Ripple slide transition effect.
+
+The IMorphTransition type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [morph_type](/slides/python-net/aspose.slides.slideshow/morph_type) | Type of morph transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionMorphType`. |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/as_i_transition_value_base) | Allows to get base ITransitionValueBase interface.<br/>            Read-only :py:class:`aspose.slides.slideshow.ITransitionValueBase`. |
+

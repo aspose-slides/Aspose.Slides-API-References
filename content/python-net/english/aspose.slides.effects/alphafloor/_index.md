@@ -1,0 +1,34 @@
+﻿---
+title: AlphaFloor class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.effects/
+---
+
+
+## AlphaFloor class
+
+Represents an Alpha Floor effect.
+            Alpha (opacity) values less than 100% are changed to zero.
+            In other words, anything partially transparent becomes fully transparent.
+
+**Inheritance:**[`AlphaFloor`](/slides/python-net/aspose.slides.effects/alphafloor) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+
+The AlphaFloor type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/as_i_presentation_component) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
+| [slide](/slides/python-net/aspose.slides.effects/slide) |  |
+| [presentation](/slides/python-net/aspose.slides.effects/presentation) |  |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/as_i_image_transform_operation) |  |
+
+## Methods
+
+| Method | Description |
+| :- | :- |
+| [__init__](/slides/python-net/aspose.slides.effects/alphafloor/#) | Gets effective Alpha Floor effect data with the inheritance applied. |
+

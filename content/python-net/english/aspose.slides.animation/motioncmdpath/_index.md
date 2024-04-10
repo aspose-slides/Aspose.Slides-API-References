@@ -1,0 +1,24 @@
+﻿---
+title: MotionCmdPath class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.animation/
+---
+
+
+## MotionCmdPath class
+
+Represent one command of a path.
+
+The MotionCmdPath type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [points](/slides/python-net/aspose.slides.animation/points) | Specifies points of command.<br/>            Read/write :py:class:`aspose.pydrawing.PointF`[]. |
+| [command_type](/slides/python-net/aspose.slides.animation/command_type) | Specifies command type.<br/>            Read/write :py:enum:`aspose.slides.animation.MotionCommandPathType`. |
+| [is_relative](/slides/python-net/aspose.slides.animation/is_relative) | Determine command coordinates relative or not.<br/>            Read/write :py:class:`bool`. |
+| [points_type](/slides/python-net/aspose.slides.animation/points_type) | Specifies command points type<br/>            Read/write :py:enum:`aspose.slides.animation.MotionPathPointsType`. |
+

@@ -1,0 +1,22 @@
+﻿---
+title: IFieldType class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/
+---
+
+
+## IFieldType class
+
+Represents a type of field. 
+            This value determines which text will be set to the field portion when it will be updated.
+
+The IFieldType type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [internal_string](/slides/python-net/aspose.slides/internal_string) | Returns the internal name of this FieldTypeEx object.<br/>            Read/write :py:class:`System.String`. |
+

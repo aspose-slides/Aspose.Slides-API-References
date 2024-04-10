@@ -1,0 +1,30 @@
+﻿---
+title: ICustomXmlPart class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/
+---
+
+
+## ICustomXmlPart class
+
+Represents custom xml part.
+
+The ICustomXmlPart type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [xml_as_string](/slides/python-net/aspose.slides/xml_as_string) | Returns or sets xml data as UTF-8 string.<br/>            Read/write :py:class:`System.String`. |
+| [xml_data](/slides/python-net/aspose.slides/xml_data) | Returns or sets xml data.<br/>            Read/write :py:class:`int`[]. |
+| [item_id](/slides/python-net/aspose.slides/item_id) | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML <br/>            part within an Office Open XML document.<br/>            Read-only :py:class:`System.Guid`. |
+| [namespace_schemas](/slides/python-net/aspose.slides/namespace_schemas) | Returns the collection XML schemas that are associated with the custom XML part.<br/>            Read-only :py:class:`System.String`[]. |
+
+## Methods
+
+| Method | Description |
+| :- | :- |
+| [__init__](/slides/python-net/aspose.slides/icustomxmlpart/#) | Removes the custom xml part from the presentation. |
+

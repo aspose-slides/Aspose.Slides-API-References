@@ -1,0 +1,24 @@
+﻿---
+title: ISingleCellChartValue class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.charts/
+---
+
+
+## ISingleCellChartValue class
+
+Represents a chart data cell.
+
+The ISingleCellChartValue type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [as_cell](/slides/python-net/aspose.slides.charts/as_cell) | Returns or sets chart data cell.<br/>            Read/write :py:class:`aspose.slides.charts.IChartDataCell`. |
+| [as_i_base_chart_value](/slides/python-net/aspose.slides.charts/as_i_base_chart_value) | Allows to get base IBaseChartValue interface.<br/>            Read-only :py:class:`aspose.slides.charts.IBaseChartValue`. |
+| [data_source_type](/slides/python-net/aspose.slides.charts/data_source_type) |  |
+| [data](/slides/python-net/aspose.slides.charts/data) |  |
+

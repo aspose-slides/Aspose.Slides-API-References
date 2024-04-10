@@ -1,0 +1,31 @@
+﻿---
+title: IControlPropertiesCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/
+---
+
+
+## IControlPropertiesCollection class
+
+A collection of ActiveX controls.
+
+The IControlPropertiesCollection type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [count](/slides/python-net/aspose.slides/count) | Returns a number of properties in the collection.<br/>            Read-only :py:class:`int`. |
+| [names_of_properties](/slides/python-net/aspose.slides/names_of_properties) | Returns a number of properties in the collection.<br/>            Read-only :py:class:`list`. |
+| [as_i_enumerable](/slides/python-net/aspose.slides/as_i_enumerable) | Returns IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+
+## Methods
+
+| Method | Description |
+| :- | :- |
+| [__init__](/slides/python-net/aspose.slides/icontrolpropertiescollection/#string-string) | Adds a property to the collection. |
+| [__init__](/slides/python-net/aspose.slides/icontrolpropertiescollection/#string) | Removes a property with the specified name. |
+| [__init__](/slides/python-net/aspose.slides/icontrolpropertiescollection/#) | Removes all properties. |
+

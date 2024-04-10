@@ -1,0 +1,23 @@
+﻿---
+title: AxesCompositionNotCombinableException class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.charts/
+---
+
+
+## AxesCompositionNotCombinableException class
+
+Exception which thrown when axes composition of the series is not combinable with present axes 
+            composition in chart.
+
+The AxesCompositionNotCombinableException type exposes the following members:
+
+## Constructors
+
+| Constructor | Description |
+| :- | :- |
+| [__init__](/slides/python-net/aspose.slides.charts/axescompositionnotcombinableexception/#) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides.charts/axescompositionnotcombinableexception/#string) | Constructor allowing a message to be added to this exception. |
+

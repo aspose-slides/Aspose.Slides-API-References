@@ -1,0 +1,38 @@
+﻿---
+title: CellFormat class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/
+---
+
+
+## CellFormat class
+
+Represents format of a table cell.
+
+**Inheritance:**[`CellFormat`](/slides/python-net/aspose.slides/cellformat) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+
+The CellFormat type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/as_i_presentation_component) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
+| [fill_format](/slides/python-net/aspose.slides/fill_format) | Returns a cell fill properties object.<br/>            Read-only :py:class:`aspose.slides.IFillFormat`. |
+| [border_left](/slides/python-net/aspose.slides/border_left) | Returns a left border line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
+| [border_top](/slides/python-net/aspose.slides/border_top) | Returns a top border line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
+| [border_right](/slides/python-net/aspose.slides/border_right) | Returns a right border line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
+| [border_bottom](/slides/python-net/aspose.slides/border_bottom) | Returns a bottom border line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
+| [border_diagonal_down](/slides/python-net/aspose.slides/border_diagonal_down) | Returns a top-left to bottom-right diagonal line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
+| [border_diagonal_up](/slides/python-net/aspose.slides/border_diagonal_up) | Returns a bottom-left to top-right diagonal line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
+| [slide](/slides/python-net/aspose.slides/slide) |  |
+| [presentation](/slides/python-net/aspose.slides/presentation) |  |
+
+## Methods
+
+| Method | Description |
+| :- | :- |
+| [__init__](/slides/python-net/aspose.slides/cellformat/#) | Gets effective table cell formatting properties with inheritance and table styles applied. |
+

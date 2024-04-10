@@ -1,0 +1,22 @@
+﻿---
+title: IChartDataPointLevel class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.charts/
+---
+
+
+## IChartDataPointLevel class
+
+Represents data point level. Applies for Treemap and Sunburst chart.
+
+The IChartDataPointLevel type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [format](/slides/python-net/aspose.slides.charts/format) | Represents formatting properties of data point level.<br/>            Read/write :py:class:`aspose.slides.charts.IFormat`. |
+| [label](/slides/python-net/aspose.slides.charts/label) | Represents data label of data point level. Applied for Treemap and  Sunburst sereis types.<br/>             Read-only :py:class:`aspose.slides.charts.IDataLabel`. |
+

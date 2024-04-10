@@ -1,0 +1,21 @@
+﻿---
+title: RowFormat class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/
+---
+
+
+## RowFormat class
+
+Represents format of a table row.
+
+The RowFormat type exposes the following members:
+
+## Methods
+
+| Method | Description |
+| :- | :- |
+| [__init__](/slides/python-net/aspose.slides/rowformat/#) | Gets effective table row formatting properties with inheritance and table styles applied. |
+

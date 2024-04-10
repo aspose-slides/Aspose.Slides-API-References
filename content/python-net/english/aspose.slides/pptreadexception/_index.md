@@ -1,0 +1,24 @@
+﻿---
+title: PptReadException class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/
+---
+
+
+## PptReadException class
+
+Represents an exception which thrown on presentation reading errors.
+
+**Inheritance:**[`PptReadException`](/slides/python-net/aspose.slides/pptreadexception) → [`PptException`](/slides/python-net/aspose.slides/pptexception)
+
+The PptReadException type exposes the following members:
+
+## Constructors
+
+| Constructor | Description |
+| :- | :- |
+| [__init__](/slides/python-net/aspose.slides/pptreadexception/#) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides/pptreadexception/#string) | Constructor allowing a message to be added to this exception. |
+

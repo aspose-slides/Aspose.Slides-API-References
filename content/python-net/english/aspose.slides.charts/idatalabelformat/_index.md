@@ -1,0 +1,42 @@
+﻿---
+title: IDataLabelFormat class
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.charts/
+---
+
+
+## IDataLabelFormat class
+
+Represents formatting options for DataLabel.
+
+The IDataLabelFormat type exposes the following members:
+
+## Properties
+
+| Property | Description |
+| :- | :- |
+| [is_number_format_linked_to_source](/slides/python-net/aspose.slides.charts/is_number_format_linked_to_source) | Read/write :py:class:`bool`. |
+| [number_format](/slides/python-net/aspose.slides.charts/number_format) | Represents the format string for the DataLabels object.<br/>            Read/write :py:class:`System.String`. |
+| [format](/slides/python-net/aspose.slides.charts/format) | Represents the format of the data label.<br/>            Read-only :py:class:`aspose.slides.charts.IFormat`. |
+| [position](/slides/python-net/aspose.slides.charts/position) | Represents the position of the data label.<br/>            Read/write :py:enum:`aspose.slides.charts.LegendDataLabelPosition`. |
+| [show_legend_key](/slides/python-net/aspose.slides.charts/show_legend_key) | Represents a specified chart's data label legend key display behavior. <br/>            True if the data label legend key is visible.<br/>            Read/write :py:class:`bool`. |
+| [show_value](/slides/python-net/aspose.slides.charts/show_value) | Represents a specified chart's data label percentage value display behavior. <br/>            True displays the percentage value. False to hide.<br/>            Read/write :py:class:`bool`. |
+| [show_category_name](/slides/python-net/aspose.slides.charts/show_category_name) | Represents a specified chart's data label category name display behavior.<br/>            True to display the category name for the data labels on a chart. False to hide.<br/>            Read/write :py:class:`bool`. |
+| [show_series_name](/slides/python-net/aspose.slides.charts/show_series_name) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. <br/>            True to show the series name. False to hide.<br/>            Read/write :py:class:`bool`. |
+| [show_percentage](/slides/python-net/aspose.slides.charts/show_percentage) | Represents a specified chart's data label percentage value display behavior. <br/>            True displays the percentage value. False to hide.<br/>            Read/write :py:class:`bool`. |
+| [show_bubble_size](/slides/python-net/aspose.slides.charts/show_bubble_size) | Represents a specified chart's data label bubble size value display behavior. <br/>            True displays the bubble size value. False to hide.<br/>            Read/write :py:class:`bool`. |
+| [show_leader_lines](/slides/python-net/aspose.slides.charts/show_leader_lines) | Represents a specified chart's data label leader lines display behavior. <br/>            True displays the leader lines. False to hide.<br/>            Read/write :py:class:`bool`. |
+| [show_label_as_data_callout](/slides/python-net/aspose.slides.charts/show_label_as_data_callout) | Determines either specified chart's data label will be displayed as data callout or as data label. |
+| [show_label_value_from_cell](/slides/python-net/aspose.slides.charts/show_label_value_from_cell) | Represents a specified chart's data label cell value display behavior. <br/>            True displays cell value. False to hide.<br/>            Read/write :py:class:`bool`. |
+| [separator](/slides/python-net/aspose.slides.charts/separator) | Sets or returns a Variant representing the separator used for the data labels on a chart.<br/>            Read/write :py:class:`System.String`. |
+| [as_i_formatted_text_container](/slides/python-net/aspose.slides.charts/as_i_formatted_text_container) | Allows to get base IFormattedTextContainer interface.<br/>            Read-only :py:class:`aspose.slides.charts.IFormattedTextContainer`. |
+| [text_format](/slides/python-net/aspose.slides.charts/text_format) |  |
+| [as_i_chart_component](/slides/python-net/aspose.slides.charts/as_i_chart_component) |  |
+| [chart](/slides/python-net/aspose.slides.charts/chart) |  |
+| [as_i_slide_component](/slides/python-net/aspose.slides.charts/as_i_slide_component) |  |
+| [slide](/slides/python-net/aspose.slides.charts/slide) |  |
+| [as_i_presentation_component](/slides/python-net/aspose.slides.charts/as_i_presentation_component) |  |
+| [presentation](/slides/python-net/aspose.slides.charts/presentation) |  |
+
