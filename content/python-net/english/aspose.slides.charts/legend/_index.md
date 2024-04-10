@@ -1,38 +1,40 @@
-﻿---
-title: Legend class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Legend
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/legend/
 ---
-
 
 ## Legend class
 
 Represents chart's legend properties.
 
 The Legend type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [x](/slides/python-net/aspose.slides.charts/x) | Returns or sets the x coordinate of a legend as a fraction of the width of the chart.<br/>            Read/write :py:class:`float`. |
-| [y](/slides/python-net/aspose.slides.charts/y) | Returns or sets the y coordinate of a legend as a fraction of the height of the chart.<br/>            Read/write :py:class:`float`. |
-| [width](/slides/python-net/aspose.slides.charts/width) | Returns or sets the width of a legend as a fraction of the width of the chart.<br/>            Read/write :py:class:`float`. |
-| [height](/slides/python-net/aspose.slides.charts/height) | Returns or sets the height of a legend as a fraction of the height of the chart.<br/>            Read/write :py:class:`float`. |
-| [right](/slides/python-net/aspose.slides.charts/right) | Right.<br/>            Read-only :py:class:`float`. |
-| [bottom](/slides/python-net/aspose.slides.charts/bottom) | Bottom.<br/>            Read-only :py:class:`float`. |
-| [overlay](/slides/python-net/aspose.slides.charts/overlay) | Determines whether other chart elements shall be allowed to overlap legend.<br/>            Read/write :py:class:`bool`. |
-| [text_format](/slides/python-net/aspose.slides.charts/text_format) | Text format.<br/>            Read-only :py:class:`aspose.slides.charts.IChartTextFormat`. |
-| [position](/slides/python-net/aspose.slides.charts/position) | Specifies the position of the legend on a chart.<br/>            Non-NaN values of X, Y, Width, Heigt properties override effect of this property.<br/>            Read/write :py:enum:`aspose.slides.charts.LegendPositionType`. |
-| [format](/slides/python-net/aspose.slides.charts/format) | Returns the format of a legend.<br/>            Read-only :py:class:`aspose.slides.charts.IFormat`. |
-| [chart](/slides/python-net/aspose.slides.charts/chart) | Returns the chart.<br/>            Read-only :py:class:`aspose.slides.charts.IChart`. |
-| [entries](/slides/python-net/aspose.slides.charts/entries) | Gets legend entries.<br/>            Read-only :py:class:`aspose.slides.charts.ILegendEntryCollection`. |
-| [as_i_layoutable](/slides/python-net/aspose.slides.charts/as_i_layoutable) |  |
-| [as_i_formatted_text_container](/slides/python-net/aspose.slides.charts/as_i_formatted_text_container) |  |
-| [as_i_slide_component](/slides/python-net/aspose.slides.charts/as_i_slide_component) |  |
-| [slide](/slides/python-net/aspose.slides.charts/slide) |  |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.charts/as_i_presentation_component) |  |
-| [presentation](/slides/python-net/aspose.slides.charts/presentation) |  |
+|x|Returns or sets the x coordinate of a legend as a fraction of the width of the chart.<br/>            Read/write|
+|y|Returns or sets the y coordinate of a legend as a fraction of the height of the chart.<br/>            Read/write|
+|width|Returns or sets the width of a legend as a fraction of the width of the chart.<br/>            Read/write|
+|height|Returns or sets the height of a legend as a fraction of the height of the chart.<br/>            Read/write|
+|right|Right.<br/>            Read-only|
+|bottom|Bottom.<br/>            Read-only|
+|overlay|Determines whether other chart elements shall be allowed to overlap legend.<br/>            Read/write bool.|
+|text_format|Text format.<br/>            Read-only [IChartTextFormat](/slides/python-net/aspose.slides.charts/icharttextformat/).|
+|position|Specifies the position of the legend on a chart.<br/>            Non-NaN values of X, Y, Width, Heigt properties override effect of this property.<br/>            Read/write [LegendPositionType](/slides/python-net/aspose.slides.charts/legendpositiontype/).|
+|format|Returns the format of a legend.<br/>            Read-only [IFormat](/slides/python-net/aspose.slides.charts/iformat/).|
+|chart|Returns the chart.<br/>            Read-only [IChart](/slides/python-net/aspose.slides.charts/ichart/).|
+|entries|Gets legend entries.<br/>            Read-only [ILegendEntryCollection](/slides/python-net/aspose.slides.charts/ilegendentrycollection/).|
+|as_i_layoutable|Allows to get base ILayoutable interface.<br/>            Read-only [ILayoutable](/slides/python-net/aspose.slides.charts/ilayoutable/).|
+|as_i_formatted_text_container|Allows to get base IFormattedTextContainer interface.<br/>            Read-only [IFormattedTextContainer](/slides/python-net/aspose.slides.charts/iformattedtextcontainer/).|
+|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,39 +1,35 @@
-﻿---
-title: Tab class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Tab
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/tab/
 ---
-
 
 ## Tab class
 
 Represents a tabulation for a text.
 
-**Inheritance:**[`Tab`](/slides/python-net/aspose.slides/tab) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
-
 The Tab type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/tab/#float-TabAlignment) | Creates new Tab |
-
+|Tab(position, align)|Initializes a new instance of the Tab class|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/as_i_presentation_component) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [position](/slides/python-net/aspose.slides/position) | Returns or sets position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read/write :py:class:`float`. |
-| [alignment](/slides/python-net/aspose.slides/alignment) | Returns or sets align style of a tab.<br/>            Read/write :py:enum:`aspose.slides.TabAlignment`. |
-| [slide](/slides/python-net/aspose.slides/slide) |  |
-| [presentation](/slides/python-net/aspose.slides/presentation) |  |
-
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|position|Returns or sets position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read/write float.|
+|alignment|Returns or sets align style of a tab.<br/>            Read/write [TabAlignment](/slides/python-net/aspose.slides/tabalignment/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/tab/#any) | Compares the current instance with another object of the same type. |
+|compare_to(obj)|Compares the current instance with another object of the same type.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

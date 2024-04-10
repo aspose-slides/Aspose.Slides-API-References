@@ -1,46 +1,36 @@
-﻿---
-title: EffectFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: EffectFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/effectfactory/
 ---
-
 
 ## EffectFactory class
 
 Allows to create effects
 
 The EffectFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/effectfactory/#) |  |
-
+|EffectFactory()|Initializes a new instance of the EffectFactory class|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [image_transform_operation_factory](/slides/python-net/aspose.slides.effects/image_transform_operation_factory) | Returns ImageTransformOperationFactory.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperationFactory`. |
-
+|image_transform_operation_factory|Returns ImageTransformOperationFactory.<br/>            Read-only [IImageTransformOperationFactory](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/effectfactory/#) | Creates Glow effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/effectfactory/#) | Creates Inner shafow effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/effectfactory/#) | Creates Outer shadow effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/effectfactory/#) | Creates Preset shadow effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/effectfactory/#) | Creates Reflection effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/effectfactory/#) | Creates Soft Edge effect. |
+|create_glow()|Creates Glow effect.|
+|create_inner_shadow()|Creates Inner shafow effect.|
+|create_outer_shadow()|Creates Outer shadow effect.|
+|create_preset_shadow()|Creates Preset shadow effect.|
+|create_reflection()|Creates Reflection effect.|
+|create_soft_edge()|Creates Soft Edge effect.|
 
+### See Also
 
-### Remarks
-
-
-            For COM compatibility.
-            
-
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

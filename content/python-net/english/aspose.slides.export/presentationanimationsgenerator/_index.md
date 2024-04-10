@@ -1,37 +1,35 @@
-﻿---
-title: PresentationAnimationsGenerator class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: PresentationAnimationsGenerator
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export/
+url: /aspose.slides.export/presentationanimationsgenerator/
 ---
-
 
 ## PresentationAnimationsGenerator class
 
-Represents a generator of the animations in the :py:class:`aspose.slides.Presentation`.
+Represents a generator of the animations in the [Presentation](/slides/python-net/aspose.slides/presentation/).
 
 The PresentationAnimationsGenerator type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/#Presentation) |  |
-| [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/#aspose.pydrawing.Size) | Creates a new instance of the :py:class:`aspose.slides.export.PresentationAnimationsGenerator`. |
-
+|PresentationAnimationsGenerator(presentation)|Initializes a new instance of the PresentationAnimationsGenerator class|
+|PresentationAnimationsGenerator(frame_size)|Initializes a new instance of the PresentationAnimationsGenerator class|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [default_delay](/slides/python-net/aspose.slides.export/default_delay) | Gets or sets default delay time [ms]. |
-| [include_hidden_slides](/slides/python-net/aspose.slides.export/include_hidden_slides) | Get or sets if hidden slides should be included. |
-| [exported_slides](/slides/python-net/aspose.slides.export/exported_slides) | Get the number of the exported slides count. |
-| [FRAME_SIZE](/slides/python-net/aspose.slides.export/frame_size) | Gets the frame size. |
-
+|default_delay|Gets or sets default delay time [ms].|
+|include_hidden_slides|Get or sets if hidden slides should be included.|
+|exported_slides|Get the number of the exported slides count.|
+|FRAME_SIZE|Gets the frame size.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/#Iterable[ISlide]) |  |
+|run(slides)|  |
+
+### See Also
+
+* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

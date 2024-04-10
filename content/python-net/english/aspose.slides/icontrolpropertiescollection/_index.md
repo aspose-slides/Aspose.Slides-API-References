@@ -1,31 +1,31 @@
-﻿---
-title: IControlPropertiesCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IControlPropertiesCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/icontrolpropertiescollection/
 ---
-
 
 ## IControlPropertiesCollection class
 
 A collection of ActiveX controls.
 
 The IControlPropertiesCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides/count) | Returns a number of properties in the collection.<br/>            Read-only :py:class:`int`. |
-| [names_of_properties](/slides/python-net/aspose.slides/names_of_properties) | Returns a number of properties in the collection.<br/>            Read-only :py:class:`list`. |
-| [as_i_enumerable](/slides/python-net/aspose.slides/as_i_enumerable) | Returns IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
-
+|count|Returns a number of properties in the collection.<br/>            Read-only|
+|names_of_properties|Returns a number of properties in the collection.<br/>            Read-only list.|
+|as_i_enumerable|Returns IEnumerable interface.<br/>            Read-only list.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/icontrolpropertiescollection/#string-string) | Adds a property to the collection. |
-| [__init__](/slides/python-net/aspose.slides/icontrolpropertiescollection/#string) | Removes a property with the specified name. |
-| [__init__](/slides/python-net/aspose.slides/icontrolpropertiescollection/#) | Removes all properties. |
+|add(name, value)|Adds a property to the collection.|
+|remove(name)|Removes a property with the specified name.|
+|clear()|Removes all properties.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,24 +1,25 @@
-﻿---
-title: LineArrowheadWidth enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: LineArrowheadWidth
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/linearrowheadwidth/
 ---
-
 
 ## LineArrowheadWidth enumeration
 
 Represents the width of an arrowhead.
 
-The LineArrowheadWidth type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| NOT_DEFINED |  |
-| NARROW |  |
-| MEDIUM |  |
-| WIDE |  |
+|NOT_DEFINED||
+|NARROW||
+|MEDIUM||
+|WIDE||
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

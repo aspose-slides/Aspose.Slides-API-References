@@ -1,35 +1,33 @@
-﻿---
-title: IFontFallBackRulesCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IFontFallBackRulesCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ifontfallbackrulescollection/
 ---
-
 
 ## IFontFallBackRulesCollection class
 
 Represents a collection of FontFallBack rules, defined by user
 
 The IFontFallBackRulesCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/as_i_collection) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|as_i_collection|Returns ICollection class.|
+|as_i_enumerable|Returns IEnumerable class.|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrulescollection/#IFontFallBackRule) | Add a new FallBack rule to the end of the collection. |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrulescollection/#IFontFallBackRule) | Removes the first occurrence of a specific FallBack rule from the collection. |
+|[index]|Gets the rule at the specified index.<br/>            Read-only [IFontFallBackRule](/slides/python-net/aspose.slides/ifontfallbackrule/).|
+## Methods
+| Name | Description |
+| :- | :- |
+|add(source_rule)|Add a new FallBack rule to the end of the collection.|
+|remove(target_rule)|Removes the first occurrence of a specific FallBack rule from the collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

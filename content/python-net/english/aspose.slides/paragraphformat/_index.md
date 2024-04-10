@@ -1,69 +1,50 @@
-﻿---
-title: ParagraphFormat class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ParagraphFormat
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/paragraphformat/
 ---
-
 
 ## ParagraphFormat class
 
-This class contains the paragraph formatting properties. Unlike :py:class:`aspose.slides.IParagraphFormatEffectiveData`, all properties of this class are writeable.
-
-**Inheritance:**[`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+This class contains the paragraph formatting properties. Unlike [IParagraphFormatEffectiveData](/slides/python-net/aspose.slides/iparagraphformateffectivedata/), all properties of this class are writeable.
 
 The ParagraphFormat type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/paragraphformat/#) | Initializes a new instance of :py:class:`aspose.slides.ParagraphFormat` class. |
-
+|ParagraphFormat()|Initializes a new instance of [ParagraphFormat](/slides/python-net/aspose.slides/paragraphformat/) class.|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/as_i_presentation_component) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [alignment](/slides/python-net/aspose.slides/alignment) | Returns or sets the text alignment in a paragraph with no inheritance.<br/>            Read/write :py:enum:`aspose.slides.TextAlignment`. |
-| [space_within](/slides/python-net/aspose.slides/space_within) | Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied.<br/>            Read/write :py:class:`float`. |
-| [space_before](/slides/python-net/aspose.slides/space_before) | Returns or sets the amount of space before the first line in a paragraph with no inheritance.<br/>            A positive value specifies the percentage of the font size that the white space should be.<br/>            A negative value specifies the size of the white space in point size.<br/>            Read/write :py:class:`float`. |
-| [space_after](/slides/python-net/aspose.slides/space_after) | Returns or sets the amount of space after the last line in a paragraph with no inheritance.<br/>            A positive value specifies the percentage of the font size that the white space should be.<br/>            A negative value specifies the size of the white space in point size.<br/>            Read/write :py:class:`float`. |
-| [east_asian_line_break](/slides/python-net/aspose.slides/east_asian_line_break) | Determines whether the East Asian line break is used in a paragraph. No inheritance applied.<br/>            Read/write :py:enum:`aspose.slides.NullableBool`. |
-| [right_to_left](/slides/python-net/aspose.slides/right_to_left) | Determines whether the Right to Left writing is used in a paragraph. No inheritance applied.<br/>            Read/write :py:enum:`aspose.slides.NullableBool`. |
-| [latin_line_break](/slides/python-net/aspose.slides/latin_line_break) | Determines whether the Latin line break is used in a paragraph. No inheritance applied.<br/>            Read/write :py:enum:`aspose.slides.NullableBool`. |
-| [hanging_punctuation](/slides/python-net/aspose.slides/hanging_punctuation) | Determines whether the hanging punctuation is used in a paragraph. No inheritance applied.<br/>            Read/write :py:enum:`aspose.slides.NullableBool`. |
-| [margin_left](/slides/python-net/aspose.slides/margin_left) | Returns or sets the left margin in a paragraph with no inheritance.<br/>            Read/write :py:class:`float`. |
-| [margin_right](/slides/python-net/aspose.slides/margin_right) | Returns or sets the right margin in a paragraph with no inheritance.<br/>            Read/write :py:class:`float`. |
-| [indent](/slides/python-net/aspose.slides/indent) | Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values.<br/>            Read/write :py:class:`float`. |
-| [default_tab_size](/slides/python-net/aspose.slides/default_tab_size) | Returns or sets default tabulation size with no inheritance.<br/>            Read/write :py:class:`float`. |
-| [tabs](/slides/python-net/aspose.slides/tabs) | Returns tabulations of a paragraph. No inheritance applied.<br/>            Read-only :py:class:`aspose.slides.ITabCollection`. |
-| [font_alignment](/slides/python-net/aspose.slides/font_alignment) | Returns or sets a font alignment in a paragraph with no inheritance.<br/>            Read/write :py:enum:`aspose.slides.FontAlignment`. |
-| [slide](/slides/python-net/aspose.slides/slide) |  |
-| [presentation](/slides/python-net/aspose.slides/presentation) |  |
-| [bullet](/slides/python-net/aspose.slides/bullet) |  |
-| [depth](/slides/python-net/aspose.slides/depth) |  |
-| [default_portion_format](/slides/python-net/aspose.slides/default_portion_format) |  |
-
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|alignment|Returns or sets the text alignment in a paragraph with no inheritance.<br/>            Read/write [TextAlignment](/slides/python-net/aspose.slides/textalignment/).|
+|space_within|Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied.<br/>            Read/write|
+|space_before|Returns or sets the amount of space before the first line in a paragraph with no inheritance.<br/>            A positive value specifies the percentage of the font size that the white space should be.<br/>            A negative value specifies the size of the white space in point size.<br/>            Read/write|
+|space_after|Returns or sets the amount of space after the last line in a paragraph with no inheritance.<br/>            A positive value specifies the percentage of the font size that the white space should be.<br/>            A negative value specifies the size of the white space in point size.<br/>            Read/write|
+|east_asian_line_break|Determines whether the East Asian line break is used in a paragraph. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
+|right_to_left|Determines whether the Right to Left writing is used in a paragraph. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
+|latin_line_break|Determines whether the Latin line break is used in a paragraph. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
+|hanging_punctuation|Determines whether the hanging punctuation is used in a paragraph. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
+|margin_left|Returns or sets the left margin in a paragraph with no inheritance.<br/>            Read/write|
+|margin_right|Returns or sets the right margin in a paragraph with no inheritance.<br/>            Read/write|
+|indent|Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values.<br/>            Read/write|
+|default_tab_size|Returns or sets default tabulation size with no inheritance.<br/>            Read/write|
+|tabs|Returns tabulations of a paragraph. No inheritance applied.<br/>            Read-only [ITabCollection](/slides/python-net/aspose.slides/itabcollection/).|
+|font_alignment|Returns or sets a font alignment in a paragraph with no inheritance.<br/>            Read/write [FontAlignment](/slides/python-net/aspose.slides/fontalignment/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+|bullet|Returns bullet format of the paragraph.<br/>            Read-only [IBulletFormat](/slides/python-net/aspose.slides/ibulletformat/).|
+|depth|Returns or sets depth of the paragraph.<br/>            Value 0 means undefined value.<br/>            Read/write int.|
+|default_portion_format|Returns default portion format of a paragraph. No inheritance applied.<br/>            Read-only [IPortionFormat](/slides/python-net/aspose.slides/iportionformat/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/paragraphformat/#) | Gets effective paragraph formatting data with the inheritance applied. |
+|get_effective()|Gets effective paragraph formatting data with the inheritance applied.|
 
+### See Also
 
-### Remarks
-
-
-This class is used to return and manipulate paragraph formatting properties defined for the particular paragraph. This means that
-            no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
-
-
-In order to get the effective formatting parameter values including inherited you need to use 
- method 
-            which returns a 
- instance.
-
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

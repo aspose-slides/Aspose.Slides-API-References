@@ -1,36 +1,30 @@
-﻿---
-title: IBehaviorFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IBehaviorFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.animation/
+url: /aspose.slides.animation/ibehaviorfactory/
 ---
-
 
 ## IBehaviorFactory class
 
 Allows to create animation effects
 
 The IBehaviorFactory type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/ibehaviorfactory/#) | Creates color effect. |
-| [__init__](/slides/python-net/aspose.slides.animation/ibehaviorfactory/#) | Creates command effect. |
-| [__init__](/slides/python-net/aspose.slides.animation/ibehaviorfactory/#) | Creates filter effect. |
-| [__init__](/slides/python-net/aspose.slides.animation/ibehaviorfactory/#) | Creates motion effect. |
-| [__init__](/slides/python-net/aspose.slides.animation/ibehaviorfactory/#) | Creates property effect. |
-| [__init__](/slides/python-net/aspose.slides.animation/ibehaviorfactory/#) | Creates rotation effect. |
-| [__init__](/slides/python-net/aspose.slides.animation/ibehaviorfactory/#) | Creates scale effect. |
-| [__init__](/slides/python-net/aspose.slides.animation/ibehaviorfactory/#) | Creates set effect. |
+|create_color_effect()|Creates color effect.|
+|create_command_effect()|Creates command effect.|
+|create_filter_effect()|Creates filter effect.|
+|create_motion_effect()|Creates motion effect.|
+|create_property_effect()|Creates property effect.|
+|create_rotation_effect()|Creates rotation effect.|
+|create_scale_effect()|Creates scale effect.|
+|create_set_effect()|Creates set effect.|
 
+### See Also
 
-### Remarks
-
-
-            For COM compatibility.
-            
-
+* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

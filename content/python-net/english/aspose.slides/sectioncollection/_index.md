@@ -1,41 +1,39 @@
-﻿---
-title: SectionCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: SectionCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/sectioncollection/
 ---
-
 
 ## SectionCollection class
 
 Represents a collection of sections.
 
 The SectionCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/as_i_collection) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|as_i_collection|Returns ICollection class.|
+|as_i_enumerable|Returns IEnumerable class.|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/sectioncollection/#string-ISlide) | Add slides section started form specific slide. |
-| [__init__](/slides/python-net/aspose.slides/sectioncollection/#string) | Add empty section to the end of the collection. |
-| [__init__](/slides/python-net/aspose.slides/sectioncollection/#string-int) | Add empty section to specified position of the collection. |
-| [__init__](/slides/python-net/aspose.slides/sectioncollection/#ISection) | Returns an index of the specified section in the collection. |
-| [__init__](/slides/python-net/aspose.slides/sectioncollection/#ISection) | Remove section and slides contained in the section. |
-| [__init__](/slides/python-net/aspose.slides/sectioncollection/#ISection) | Remove section. Slides contained in the section will be merged into previous section. |
-| [__init__](/slides/python-net/aspose.slides/sectioncollection/#ISection-int) | Moves section and its slides from the collection to the specified position. |
-| [__init__](/slides/python-net/aspose.slides/sectioncollection/#) | Removes all sections from the collection. |
+|[index]|Gets the element at the specified index.<br/>            Read-only [ISection](/slides/python-net/aspose.slides/isection/).|
+## Methods
+| Name | Description |
+| :- | :- |
+|add_section(name, started_from_slide)|Add slides section started form specific slide.|
+|append_empty_section(name)|Add empty section to the end of the collection.|
+|add_empty_section(name, index)|Add empty section to specified position of the collection.|
+|index_of(section)|Returns an index of the specified section in the collection.|
+|remove_section_with_slides(section)|Remove section and slides contained in the section.|
+|remove_section(section)|Remove section and slides contained in the section.|
+|reorder_section_with_slides(section, index)|Moves section and its slides from the collection to the specified position.|
+|clear()|Removes all sections from the collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

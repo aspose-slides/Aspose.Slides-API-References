@@ -1,31 +1,31 @@
-﻿---
-title: PresetShadow class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: PresetShadow
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/presetshadow/
 ---
-
 
 ## PresetShadow class
 
 Represents a Preset Shadow effect.
 
 The PresetShadow type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.effects/direction) | Direction of shadow.<br/>            Read/write :py:class:`float`. |
-| [distance](/slides/python-net/aspose.slides.effects/distance) | Distance of shadow.<br/>            Read/write :py:class:`float`. |
-| [shadow_color](/slides/python-net/aspose.slides.effects/shadow_color) | Color of shadow.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
-| [preset](/slides/python-net/aspose.slides.effects/preset) | Preset.<br/>            Read/write :py:enum:`aspose.slides.PresetShadowType`. |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/as_i_image_transform_operation) |  |
-
+|direction|Direction of shadow.<br/>            Read/write|
+|distance|Distance of shadow.<br/>            Read/write float.|
+|shadow_color|Color of shadow.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
+|preset|Preset.<br/>            Read/write [PresetShadowType](/slides/python-net/aspose.slides/presetshadowtype/).|
+|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/presetshadow/#) | Gets effective Preset Shadow effect data with the inheritance applied. |
+|get_effective()|Gets effective Preset Shadow effect data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

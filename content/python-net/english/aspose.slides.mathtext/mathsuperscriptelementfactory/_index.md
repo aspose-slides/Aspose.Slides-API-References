@@ -1,35 +1,27 @@
-﻿---
-title: MathSuperscriptElementFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathSuperscriptElementFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
-
 
 ## MathSuperscriptElementFactory class
 
 Allows to create IMathSuperscriptElement
 
 The MathSuperscriptElementFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelementfactory/#) |  |
-
+|MathSuperscriptElementFactory()|Initializes a new instance of the MathSuperscriptElementFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelementfactory/#IMathElement-IMathElement) | Creates IMathSuperscriptElement |
+|create_math_superscript_element(base_arg, super_script)|Creates IMathSuperscriptElement|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

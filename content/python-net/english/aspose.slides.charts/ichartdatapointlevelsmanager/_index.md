@@ -1,28 +1,27 @@
-﻿---
-title: IChartDataPointLevelsManager class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IChartDataPointLevelsManager
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
-
 
 ## IChartDataPointLevelsManager class
 
-Container of data point levels. Applied for Treeamp and Sunburst series.
-            Data point levels indexing is zero-based.
+Container of data point levels. Applied for Treeamp and Sunburst series.<br/>            Data point levels indexing is zero-based.
 
 The IChartDataPointLevelsManager type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [count](/slides/python-net/aspose.slides.charts/count) | Returns data point levels count. |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
+|count|Returns data point levels count.|
+## Indexer
+| Name | Description |
+| :- | :- |
+|[index]|Returns IChartDataPointLevel object for defined level.|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

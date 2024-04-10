@@ -1,33 +1,31 @@
-﻿---
-title: VbaReferenceFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: VbaReferenceFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.vba/
+url: /aspose.slides.vba/vbareferencefactory/
 ---
-
 
 ## VbaReferenceFactory class
 
 Allows to create VBA project references via COM interface
 
 The VbaReferenceFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.vba/vbareferencefactory/#) |  |
-
+|VbaReferenceFactory()|Initializes a new instance of the VbaReferenceFactory class|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [instance](/slides/python-net/aspose.slides.vba/instance) | VBA project references factory static instance.<br/>            Read-only :py:class:`aspose.slides.vba.VbaReferenceFactory`. |
-
+|instance|VBA project references factory static instance.<br/>            Read-only [VbaReferenceFactory](/slides/python-net/aspose.slides.vba/vbareferencefactory/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.vba/vbareferencefactory/#string-string) | Creates new OLE Automation type library reference. |
+|create_ole_type_lib_reference(name, libid)|Creates new OLE Automation type library reference.|
+
+### See Also
+
+* namespace [aspose.slides.vba](/slides/python-net/aspose.slides.vba/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

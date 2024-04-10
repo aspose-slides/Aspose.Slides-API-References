@@ -1,21 +1,23 @@
-﻿---
-title: IResourceLoadingCallback class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IResourceLoadingCallback
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/iresourceloadingcallback/
 ---
-
 
 ## IResourceLoadingCallback class
 
 Callback interface used to manage external resources loading.
 
 The IResourceLoadingCallback type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/iresourceloadingcallback/#IResourceLoadingArgs) | Callback method which regulates external resources loading. |
+|resource_loading(args)|Callback method which regulates external resources loading.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

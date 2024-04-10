@@ -1,29 +1,27 @@
-﻿---
-title: IAlphaModulate class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IAlphaModulate
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/ialphamodulate/
 ---
-
 
 ## IAlphaModulate class
 
-Represents an Alpha Modulate effect.
-            Effect alpha (opacity) values are multiplied by a fixed percentage.
-            The effect container specifies an effect containing alpha values to modulate.
+Represents an Alpha Modulate effect.<br/>            Effect alpha (opacity) values are multiplied by a fixed percentage.<br/>            The effect container specifies an effect containing alpha values to modulate.
 
 The IAlphaModulate type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/as_i_image_transform_operation) | Allows to get base IImageTransformOperation interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
-
+|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/ialphamodulate/#) |  |
+|get_effective()|Gets effective object formatting data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

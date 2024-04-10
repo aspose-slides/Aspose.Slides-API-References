@@ -1,40 +1,38 @@
-﻿---
-title: IMathBlockCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IMathBlockCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/imathblockcollection/
 ---
-
 
 ## IMathBlockCollection class
 
 Collection of math blocks (IMathBlock)
 
 The IMathBlockCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [count](/slides/python-net/aspose.slides.mathtext/count) | Gets the number of elements actually contained in the collection.<br/>            Read-only :py:class:`int`. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.mathtext/as_i_enumerable) | Allows to get base IEnumerable interface<br/>            :py:class:`collections.abc.Iterable` |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|count|Gets the number of elements actually contained in the collection.<br/>            Read-only|
+|as_i_enumerable|Allows to get base IEnumerable interface<br/>            list|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathblockcollection/#IMathBlock) | Adds IMathBlock to the end of collection. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathblockcollection/#int-IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathblockcollection/#IMathBlock) | Removes the first occurrence of a specific object from the collection/>. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathblockcollection/#int) | Removes an item at the specified index of the collection. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathblockcollection/#IMathBlock) | Determines whether the collection contains a specific value. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathblockcollection/#IMathBlock) | Determines the index of a specific IMathBlock in collection. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathblockcollection/#) | Removes all elements from the collection. |
+|[index]|Gets the item at the specified index.<br/>            Read-only [IMathBlock](/slides/python-net/aspose.slides.mathtext/imathblock/).|
+## Methods
+| Name | Description |
+| :- | :- |
+|add(item)|Adds IMathBlock to the end of collection.|
+|insert(index, item)|Inserts IMathBlock into the collection at the specified index.|
+|remove(item)|Removes the first occurrence of a specific object from the collection/>.|
+|remove_at(index)|Removes an item at the specified index of the collection.|
+|contains(item)|Determines whether the collection contains a specific value.|
+|index_of(item)|Determines the index of a specific IMathBlock in collection.|
+|clear()|Removes all elements from the collection.|
+
+### See Also
+
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

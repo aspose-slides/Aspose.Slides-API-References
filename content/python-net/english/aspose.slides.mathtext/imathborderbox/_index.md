@@ -1,81 +1,81 @@
-﻿---
-title: IMathBorderBox class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IMathBorderBox
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/imathborderbox/
 ---
-
 
 ## IMathBorderBox class
 
 Draws a rectangular or some other border around the IMathElement.
 
 The IMathBorderBox type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [base](/slides/python-net/aspose.slides.mathtext/base) | Base argument |
-| [hide_top](/slides/python-net/aspose.slides.mathtext/hide_top) | Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
-| [hide_bottom](/slides/python-net/aspose.slides.mathtext/hide_bottom) | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
-| [hide_left](/slides/python-net/aspose.slides.mathtext/hide_left) | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
-| [hide_right](/slides/python-net/aspose.slides.mathtext/hide_right) | Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
-| [strikethrough_horizontal](/slides/python-net/aspose.slides.mathtext/strikethrough_horizontal) | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
-| [strikethrough_vertical](/slides/python-net/aspose.slides.mathtext/strikethrough_vertical) | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
-| [strikethrough_bottom_left_to_top_right](/slides/python-net/aspose.slides.mathtext/strikethrough_bottom_left_to_top_right) | Strikethrough Bottom-Left to Top-Right (default is false).<br/>            Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
-| [strikethrough_top_left_to_bottom_right](/slides/python-net/aspose.slides.mathtext/strikethrough_top_left_to_bottom_right) | Strikethrough Top-Left to Bottom-Right (default is false).<br/>            Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
-| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/as_i_math_element) | Allows to get base IMathElement interface<br/>            :py:class:`aspose.slides.mathtext.IMathElement` |
-
+|base|Base argument|
+|hide_top|Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box.|
+|hide_bottom|Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box.|
+|hide_left|Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box.|
+|hide_right|Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box.|
+|strikethrough_horizontal|Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line.|
+|strikethrough_vertical|Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line.|
+|strikethrough_bottom_left_to_top_right|Strikethrough Bottom-Left to Top-Right (default is false).<br/>            Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box.|
+|strikethrough_top_left_to_bottom_right|Strikethrough Top-Left to Bottom-Right (default is false).<br/>            Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box.|
+|as_i_math_element|Allows to get base IMathElement interface<br/>            [IMathElement](/slides/python-net/aspose.slides.mathtext/imathelement/)|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement-MathFractionTypes) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string-MathFractionTypes) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#char-char) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathFunctionsOfOneArgument) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathFunctionsOfTwoArguments-IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathFunctionsOfTwoArguments-string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement-IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string-string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement-IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string-string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathNaryOperatorTypes-IMathElement-IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathNaryOperatorTypes-string-string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathIntegralTypes-IMathElement-IMathElement-MathLimitLocations) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathIntegralTypes-IMathElement-IMathElement) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathIntegralTypes) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathIntegralTypes-string-string-MathLimitLocations) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#MathIntegralTypes-string-string) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#char-MathTopBotPositions-MathTopBotPositions) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#bool-bool-bool-bool-bool-bool-bool-bool) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#char) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathborderbox/#) |  |
+|join(math_element)|Joins a mathematical element and forms a mathematical block|
+|join(math_text)|Joins a mathematical text and forms a mathematical block|
+|divide(denominator)|Creates a fraction with this numerator and specified denominator|
+|divide(denominator)|Creates a fraction with this numerator and specified denominator|
+|divide(denominator, fraction_type)|Creates a fraction of the specified type with this numerator and specified denominator|
+|divide(denominator, fraction_type)|Creates a fraction of the specified type with this numerator and specified denominator|
+|enclose()|Encloses a math element in parenthesis|
+|enclose(beginning_character, ending_character)|Encloses this element in specified characters such as parenthesis or another characters as framing|
+|function(function_argument)|Takes a function of an argument using this instance as the function name|
+|function(function_argument)|Takes a function of an argument using this instance as the function name|
+|as_argument_of_function(function_name)|Takes specified function using this instance as the argument|
+|as_argument_of_function(function_name)|Takes specified function using this instance as the argument|
+|as_argument_of_function(function_type)|Takes specified function using this instance as the argument|
+|as_argument_of_function(function_type, additional_argument)|Takes specified function using this instance as the argument and specified additional argument|
+|as_argument_of_function(function_type, additional_argument)|Takes specified function using this instance as the argument and specified additional argument|
+|set_subscript(subscript)|Creates subscript|
+|set_subscript(subscript)|Creates subscript|
+|set_superscript(superscript)|Creates superscript|
+|set_superscript(superscript)|Creates superscript|
+|set_sub_superscript_on_the_right(subscript, superscript)|Creates subscript and superscript on the right|
+|set_sub_superscript_on_the_right(subscript, superscript)|Creates subscript and superscript on the right|
+|set_sub_superscript_on_the_left(subscript, superscript)|Creates subscript and superscript on the left|
+|set_sub_superscript_on_the_left(subscript, superscript)|Creates subscript and superscript on the left|
+|radical(degree)|Specifies the mathematical root of the given degree from the specified argument.|
+|radical(degree)|Specifies the mathematical root of the given degree from the specified argument.|
+|set_upper_limit(limit)|Takes upper limit|
+|set_upper_limit(limit)|Takes upper limit|
+|set_lower_limit(limit)|Takes lower limit|
+|set_lower_limit(limit)|Takes lower limit|
+|nary(type, lower_limit, upper_limit)|Creates a N-ary operator|
+|nary(type, lower_limit, upper_limit)|Creates a N-ary operator|
+|integral(integral_type, lower_limit, upper_limit, limit_locations)|Takes the integral|
+|integral(integral_type, lower_limit, upper_limit)|Takes the integral|
+|integral(integral_type)|Takes the integral|
+|integral(integral_type, lower_limit, upper_limit, limit_locations)|Takes the integral|
+|integral(integral_type, lower_limit, upper_limit)|Takes the integral|
+|group()|Places this element in a group using a bottom curly bracket|
+|group(character, position, vertical_justification)|Places this element in a group using a grouping character such as bottom curly bracket or another|
+|to_border_box()|Places this element in a border-box|
+|to_border_box(hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right)|Places this element in a border-box|
+|get_children()|Get children elements|
+|to_math_array()|Puts in a vertical array|
+|accent(accent_character)|Sets an accent mark (a character on the top of this element)|
+|overbar()|Sets a bar on the top of this element|
+|underbar()|Sets a bar on the bottom of this element|
+|to_box()|Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within.|
+
+### See Also
+
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

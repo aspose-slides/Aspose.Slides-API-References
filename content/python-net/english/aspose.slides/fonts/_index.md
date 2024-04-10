@@ -1,23 +1,25 @@
-﻿---
-title: Fonts class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Fonts
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/fonts/
 ---
-
 
 ## Fonts class
 
 Fonts collection.
 
 The Fonts type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [latin_font](/slides/python-net/aspose.slides/latin_font) | Returns or sets the Latin font.<br/>            Read/write :py:class:`aspose.slides.IFontData`. |
-| [east_asian_font](/slides/python-net/aspose.slides/east_asian_font) | Returns or sets the East Asian font.<br/>            Read/write :py:class:`aspose.slides.IFontData`. |
-| [complex_script_font](/slides/python-net/aspose.slides/complex_script_font) | Returns or sets the complex script font.<br/>            Read/write :py:class:`aspose.slides.IFontData`. |
+|latin_font|Returns or sets the Latin font.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
+|east_asian_font|Returns or sets the East Asian font.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
+|complex_script_font|Returns or sets the complex script font.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

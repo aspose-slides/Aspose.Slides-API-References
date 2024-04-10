@@ -1,22 +1,24 @@
-﻿---
-title: ChartDataWorksheet class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ChartDataWorksheet
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/chartdataworksheet/
 ---
-
 
 ## ChartDataWorksheet class
 
-Represents worksheet associated with :py:class:`aspose.slides.charts.IChartDataCell`
+Represents worksheet associated with [IChartDataCell](/slides/python-net/aspose.slides.charts/ichartdatacell/)
 
 The ChartDataWorksheet type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [name](/slides/python-net/aspose.slides.charts/name) | Returns the name of the worksheet.<br/>            Read-only :py:class:`System.String`. |
-| [index](/slides/python-net/aspose.slides.charts/index) | Gets the index of the worksheet.<br/>            Read-only :py:class:`int`. |
+|name|Returns the name of the worksheet.<br/>            Read-only string.|
+|index|Gets the index of the worksheet.<br/>            Read-only|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

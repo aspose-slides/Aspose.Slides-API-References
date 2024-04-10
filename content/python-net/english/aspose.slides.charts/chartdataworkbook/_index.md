@@ -1,34 +1,34 @@
-﻿---
-title: ChartDataWorkbook class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ChartDataWorkbook
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/chartdataworkbook/
 ---
-
 
 ## ChartDataWorkbook class
 
 Provides access to embedded Excel workbook
 
 The ChartDataWorkbook type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [worksheets](/slides/python-net/aspose.slides.charts/worksheets) | Gets a collection of worksheets. |
-
+|worksheets|Gets a collection of worksheets.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.charts/chartdataworkbook/#string-int-int) | Gets the cell that can be used for chart series or categories |
-| [__init__](/slides/python-net/aspose.slides.charts/chartdataworkbook/#int-int-int) | Gets the cell that can be used for chart series or categories |
-| [__init__](/slides/python-net/aspose.slides.charts/chartdataworkbook/#int-string) | Gets the cell that can be used for chart series or categories |
-| [__init__](/slides/python-net/aspose.slides.charts/chartdataworkbook/#int-string-any) | Gets the cell that can be used for chart series or categories |
-| [__init__](/slides/python-net/aspose.slides.charts/chartdataworkbook/#int-int-int-any) | Gets the cell that can be used for chart series or categories |
-| [__init__](/slides/python-net/aspose.slides.charts/chartdataworkbook/#string-bool) | Gets the set of cells. |
-| [__init__](/slides/python-net/aspose.slides.charts/chartdataworkbook/#int) | Clear all cells values on sheet |
-| [__init__](/slides/python-net/aspose.slides.charts/chartdataworkbook/#) | Calculates all formulas in the workbook and updates corresponding cells values. |
+|get_cell(worksheet_name, row, column)|Gets the cell that can be used for chart series or categories|
+|get_cell(worksheet_index, row, column)|Gets the cell that can be used for chart series or categories|
+|get_cell(worksheet_index, cell_name)|Gets the cell that can be used for chart series or categories|
+|get_cell(worksheet_index, cell_name, value)|Gets the cell that can be used for chart series or categories|
+|get_cell(worksheet_index, row, column, value)|Gets the cell that can be used for chart series or categories|
+|get_cell_collection(formula, skip_hidden_cells)|Gets the set of cells.|
+|clear(sheet_index)|Clear all cells values on sheet|
+|calculate_formulas()|Calculates all formulas in the workbook and updates corresponding cells values.|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

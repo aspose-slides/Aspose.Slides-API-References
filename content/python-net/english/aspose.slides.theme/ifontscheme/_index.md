@@ -1,23 +1,25 @@
-﻿---
-title: IFontScheme class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IFontScheme
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.theme/
+url: /aspose.slides.theme/ifontscheme/
 ---
-
 
 ## IFontScheme class
 
 Stores theme-defined fonts.
 
 The IFontScheme type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [minor](/slides/python-net/aspose.slides.theme/minor) | Returns the fonts collection for a "body" part of the slide.<br/>            Read-only :py:class:`aspose.slides.IFonts`. |
-| [major](/slides/python-net/aspose.slides.theme/major) | Returns the fonts collection for a "heading" part of the slide.<br/>            Read-only :py:class:`aspose.slides.IFonts`. |
-| [name](/slides/python-net/aspose.slides.theme/name) | Returns the font scheme name.<br/>            Read/write :py:class:`System.String`. |
+|minor|Returns the fonts collection for a "body" part of the slide.<br/>            Read-only [IFonts](/slides/python-net/aspose.slides/ifonts/).|
+|major|Returns the fonts collection for a "heading" part of the slide.<br/>            Read-only [IFonts](/slides/python-net/aspose.slides/ifonts/).|
+|name|Returns the font scheme name.<br/>            Read/write string.|
+
+### See Also
+
+* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,22 +1,24 @@
-﻿---
-title: BaseChartValue class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: BaseChartValue
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/basechartvalue/
 ---
-
 
 ## BaseChartValue class
 
 Represents a value of a chart.
 
 The BaseChartValue type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [data_source_type](/slides/python-net/aspose.slides.charts/data_source_type) | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble <br/>            property is actual in descendants. In other words it specifies the type <br/>            of value of the Data property.<br/>            Read/write :py:enum:`aspose.slides.charts.DataSourceType`. |
-| [data](/slides/python-net/aspose.slides.charts/data) | Data.<br/>            Read/write :py:class:`any`. |
+|data_source_type|Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble <br/>            property is actual in descendants. In other words it specifies the type <br/>            of value of the Data property.<br/>            Read/write [DataSourceType](/slides/python-net/aspose.slides.charts/datasourcetype/).|
+|data|Data.<br/>            Read/write object.|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,27 +1,27 @@
-﻿---
-title: IGrayScale class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IGrayScale
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/igrayscale/
 ---
-
 
 ## IGrayScale class
 
 Represents IImageTransformOperation interface.
 
 The IGrayScale type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/as_i_image_transform_operation) | Returns IImageTransformOperation interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
-
+|as_i_image_transform_operation|Returns IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/igrayscale/#) |  |
+|get_effective()|Gets effective object formatting data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

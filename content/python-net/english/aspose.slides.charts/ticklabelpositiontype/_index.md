@@ -1,24 +1,25 @@
-﻿---
-title: TickLabelPositionType enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: TickLabelPositionType
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/ticklabelpositiontype/
 ---
-
 
 ## TickLabelPositionType enumeration
 
 Represents the position type of tick-mark labels on the specified axis.
 
-The TickLabelPositionType type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| HIGH | Specifies the axis labels shall be at the high end of the perpendicular axis. |
-| LOW | Specifies the axis labels shall be at the low end of the perpendicular axis. |
-| NEXT_TO | Specifies the axis labels shall be next to the axis. |
-| NONE | Specifies the axis labels are not drawn. |
+|HIGH|Specifies the axis labels shall be at the high end of the perpendicular axis.|
+|LOW|Specifies the axis labels shall be at the low end of the perpendicular axis.|
+|NEXT_TO|Specifies the axis labels shall be next to the axis.|
+|NONE|Specifies the axis labels are not drawn.|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

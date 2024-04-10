@@ -1,37 +1,28 @@
-﻿---
-title: IThemeEffectiveData class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IThemeEffectiveData
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.theme/
+url: /aspose.slides.theme/ithemeeffectivedata/
 ---
-
 
 ## IThemeEffectiveData class
 
 Immutable object which contains effective theme properties.
 
 The IThemeEffectiveData type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [font_scheme](/slides/python-net/aspose.slides.theme/font_scheme) | Returns the font scheme.<br/>            Read-only :py:class:`aspose.slides.theme.IFontSchemeEffectiveData`. |
-| [format_scheme](/slides/python-net/aspose.slides.theme/format_scheme) | Returns the shape format scheme.<br/>            Read-only :py:class:`aspose.slides.theme.IFormatSchemeEffectiveData`. |
-
+|font_scheme|Returns the font scheme.<br/>            Read-only [IFontSchemeEffectiveData](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata/).|
+|format_scheme|Returns the shape format scheme.<br/>            Read-only [IFormatSchemeEffectiveData](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.theme/ithemeeffectivedata/#aspose.pydrawing.Color) | Returns the color scheme. |
+|get_color_scheme(style_color)|Returns the color scheme.|
 
+### See Also
 
-### Remarks
-
-
-            This interface is used together with the 
- interface to return effective formatting values with inheritance applied.
-            
-
+* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

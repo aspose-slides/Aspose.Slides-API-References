@@ -1,41 +1,37 @@
-﻿---
-title: FontFallBackRulesCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: FontFallBackRulesCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/fontfallbackrulescollection/
 ---
-
 
 ## FontFallBackRulesCollection class
 
 Represents a collection of FontFallBack rules, defined by user
 
 The FontFallBackRulesCollection type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
-| :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontfallbackrulescollection/#) |  |
-
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/as_i_collection) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|FontFallBackRulesCollection()|Initializes a new instance of the FontFallBackRulesCollection class|
+## Properties
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontfallbackrulescollection/#IFontFallBackRule) | Add a specified FallBack rule to the end of the collection. |
-| [__init__](/slides/python-net/aspose.slides/fontfallbackrulescollection/#IFontFallBackRule) | Removes the first occurrence of a specific FallBack rule from the collection. |
+|as_i_collection|Returns ICollection class.|
+|as_i_enumerable|Returns IEnumerable class.|
+## Indexer
+| Name | Description |
+| :- | :- |
+|[index]|Gets the rule at the specified index.<br/>            Read-only [IFontFallBackRule](/slides/python-net/aspose.slides/ifontfallbackrule/).|
+## Methods
+| Name | Description |
+| :- | :- |
+|add(source_rule)|Add a specified FallBack rule to the end of the collection.|
+|remove(target_rule)|Removes the first occurrence of a specific FallBack rule from the collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

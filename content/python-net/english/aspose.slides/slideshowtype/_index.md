@@ -1,18 +1,19 @@
-﻿---
-title: SlideShowType class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: SlideShowType
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/slideshowtype/
 ---
-
 
 ## SlideShowType class
 
-Base slide show settings. Ancestors represent types of the slide show:
-             :py:class:`aspose.slides.PresentedBySpeaker` Presented by a speaker (full screen)
-             :py:class:`aspose.slides.BrowsedByIndividual` Browsed by individual (window)
-             :py:class:`aspose.slides.BrowsedAtKiosk` Browsed at a kiosk (full screen)
+Base slide show settings. Ancestors represent types of the slide show:<br/>             [PresentedBySpeaker](/slides/python-net/aspose.slides/presentedbyspeaker/) Presented by a speaker (full screen)<br/>             [BrowsedByIndividual](/slides/python-net/aspose.slides/browsedbyindividual/) Browsed by individual (window)<br/>             [BrowsedAtKiosk](/slides/python-net/aspose.slides/browsedatkiosk/) Browsed at a kiosk (full screen)
 
 The SlideShowType type exposes the following members:
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

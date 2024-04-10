@@ -1,31 +1,31 @@
-﻿---
-title: Theme class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Theme
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.theme/
+url: /aspose.slides.theme/theme/
 ---
-
 
 ## Theme class
 
 Represents a theme.
 
 The Theme type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [color_scheme](/slides/python-net/aspose.slides.theme/color_scheme) | Returns the color scheme.<br/>            Read-only :py:class:`aspose.slides.theme.IColorScheme`. |
-| [font_scheme](/slides/python-net/aspose.slides.theme/font_scheme) | Returns the font scheme.<br/>            Read-only :py:class:`aspose.slides.theme.IFontScheme`. |
-| [format_scheme](/slides/python-net/aspose.slides.theme/format_scheme) | Returns the shape format scheme.<br/>            Read-only :py:class:`aspose.slides.theme.IFormatScheme`. |
-| [presentation](/slides/python-net/aspose.slides.theme/presentation) | Returns the parent presentation.<br/>            Read-only :py:class:`aspose.slides.IPresentation`. |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.theme/as_i_presentation_component) |  |
-
+|color_scheme|Returns the color scheme.<br/>            Read-only [IColorScheme](/slides/python-net/aspose.slides.theme/icolorscheme/).|
+|font_scheme|Returns the font scheme.<br/>            Read-only [IFontScheme](/slides/python-net/aspose.slides.theme/ifontscheme/).|
+|format_scheme|Returns the shape format scheme.<br/>            Read-only [IFormatScheme](/slides/python-net/aspose.slides.theme/iformatscheme/).|
+|presentation|Returns the parent presentation.<br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.theme/theme/#) | Gets effective theme data with the inheritance applied. |
+|get_effective()|Gets effective theme data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,32 +1,30 @@
-﻿---
-title: MasterThemeManager class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MasterThemeManager
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.theme/
+url: /aspose.slides.theme/masterthememanager/
 ---
-
 
 ## MasterThemeManager class
 
 Provides access to presentation master theme.
 
-**Inheritance:**[`MasterThemeManager`](/slides/python-net/aspose.slides.theme/masterthememanager) → [`BaseThemeManager`](/slides/python-net/aspose.slides.theme/basethememanager)
-
 The MasterThemeManager type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [override_theme](/slides/python-net/aspose.slides.theme/override_theme) | Returns the overriding theme object.<br/>            Read/write :py:class:`aspose.slides.theme.IMasterTheme`. |
-| [is_override_theme_enabled](/slides/python-net/aspose.slides.theme/is_override_theme_enabled) | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not.<br/>            Read/write :py:class:`bool`. |
-| [as_i_theme_manager](/slides/python-net/aspose.slides.theme/as_i_theme_manager) |  |
-
+|override_theme|Returns the overriding theme object.<br/>            Read/write [IMasterTheme](/slides/python-net/aspose.slides.theme/imastertheme/).|
+|is_override_theme_enabled|Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not.<br/>            Read/write bool.|
+|as_i_theme_manager|Allows to get base IThemeManager interface.<br/>            Read-only [IThemeManager](/slides/python-net/aspose.slides.theme/ithememanager/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.theme/masterthememanager/#) | Returns the theme object. |
-| [__init__](/slides/python-net/aspose.slides.theme/masterthememanager/#IExtraColorScheme) | Applies extra color scheme to a slide. |
+|create_theme_effective()|Returns the theme object.|
+|apply_color_scheme(scheme)|Applies extra color scheme to a slide.|
+
+### See Also
+
+* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

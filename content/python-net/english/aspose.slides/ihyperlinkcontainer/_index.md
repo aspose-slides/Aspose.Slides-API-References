@@ -1,23 +1,25 @@
-﻿---
-title: IHyperlinkContainer class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IHyperlinkContainer
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ihyperlinkcontainer/
 ---
-
 
 ## IHyperlinkContainer class
 
 Represents hyperlink object.
 
 The IHyperlinkContainer type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [hyperlink_click](/slides/python-net/aspose.slides/hyperlink_click) | Returns or sets the hyperlink defined for mouse click.<br/>            Read/write :py:class:`aspose.slides.IHyperlink`. |
-| [hyperlink_mouse_over](/slides/python-net/aspose.slides/hyperlink_mouse_over) | Returns or sets the hyperlink defined for mouse over.<br/>            Read/write :py:class:`aspose.slides.IHyperlink`. |
-| [hyperlink_manager](/slides/python-net/aspose.slides/hyperlink_manager) | Hyperlinks manager<br/>            Read-only :py:class:`aspose.slides.IHyperlinkManager`. |
+|hyperlink_click|Returns or sets the hyperlink defined for mouse click.<br/>            Read/write [IHyperlink](/slides/python-net/aspose.slides/ihyperlink/).|
+|hyperlink_mouse_over|Returns or sets the hyperlink defined for mouse over.<br/>            Read/write [IHyperlink](/slides/python-net/aspose.slides/ihyperlink/).|
+|hyperlink_manager|Hyperlinks manager<br/>            Read-only [IHyperlinkManager](/slides/python-net/aspose.slides/ihyperlinkmanager/).|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

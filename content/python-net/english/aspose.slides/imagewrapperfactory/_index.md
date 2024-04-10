@@ -1,29 +1,29 @@
-﻿---
-title: ImageWrapperFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ImageWrapperFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/imagewrapperfactory/
 ---
-
 
 ## ImageWrapperFactory class
 
 This class allows to initialize IBitmapWrapper.
 
 The ImageWrapperFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/imagewrapperfactory/#) |  |
-
+|ImageWrapperFactory()|Initializes a new instance of the ImageWrapperFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/imagewrapperfactory/#aspose.pydrawing.Image) | Initializes a new instance of the BitmapWrapper class from the specified existing image. |
-| [__init__](/slides/python-net/aspose.slides/imagewrapperfactory/#System.IO.Stream) | Initializes a new instance of the BitmapWrapper class from the specified data stream. |
-| [__init__](/slides/python-net/aspose.slides/imagewrapperfactory/#string) | Initializes a new instance of the BitmapWrapper class from the specified file. |
+|create_image_wrapper(image)|Initializes a new instance of the BitmapWrapper class from the specified existing image.|
+|create_image_wrapper(stream)|Initializes a new instance of the BitmapWrapper class from the specified data stream.|
+|create_image_wrapper(file_name)|Initializes a new instance of the BitmapWrapper class from the specified file.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

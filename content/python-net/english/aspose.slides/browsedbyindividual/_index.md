@@ -1,29 +1,27 @@
-﻿---
-title: BrowsedByIndividual class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: BrowsedByIndividual
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/browsedbyindividual/
 ---
-
 
 ## BrowsedByIndividual class
 
 Browsed by individual (window)
 
-**Inheritance:**[`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual) → [`SlideShowType`](/slides/python-net/aspose.slides/slideshowtype)
-
 The BrowsedByIndividual type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/browsedbyindividual/#) | Initializes a new instance of the BrowsedByIndividual class. |
-
+|BrowsedByIndividual()|Initializes a new instance of the BrowsedByIndividual class.|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [show_scrollbar](/slides/python-net/aspose.slides/show_scrollbar) | Show Scroll Bar in Window |
+|show_scrollbar|Show Scroll Bar in Window|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

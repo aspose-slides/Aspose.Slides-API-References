@@ -1,22 +1,24 @@
-﻿---
-title: IGradientStopEffectiveData class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IGradientStopEffectiveData
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/igradientstopeffectivedata/
 ---
-
 
 ## IGradientStopEffectiveData class
 
 immutable object which represents a gradient stop.
 
 The IGradientStopEffectiveData type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [position](/slides/python-net/aspose.slides/position) | Returns the position (0..1) of a gradient stop.<br/>            Read-only :py:class:`float`. |
-| [color](/slides/python-net/aspose.slides/color) | Returns the color of a gradient stop.<br/>            Read-only :py:class:`aspose.pydrawing.Color`. |
+|position|Returns the position (0..1) of a gradient stop.<br/>            Read-only|
+|color|Returns the color of a gradient stop.<br/>            Read-only aspose.pydrawing.Color.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

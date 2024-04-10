@@ -1,42 +1,40 @@
-﻿---
-title: ICommentCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ICommentCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/icommentcollection/
 ---
-
 
 ## ICommentCollection class
 
 Represents a collection of comments of one author.
 
 The ICommentCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/as_i_collection) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|as_i_collection|Returns ICollection class.|
+|as_i_enumerable|Returns IEnumerable class.|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/icommentcollection/#) | Creates and returns an array with all comments. |
-| [__init__](/slides/python-net/aspose.slides/icommentcollection/#int-int) | Creates and returns an array with all comments from the specified range. |
-| [__init__](/slides/python-net/aspose.slides/icommentcollection/#string-ISlide-aspose.pydrawing.PointF-DateTime) | Add new comment at the end of a collection. |
-| [__init__](/slides/python-net/aspose.slides/icommentcollection/#string-ISlide-IShape-aspose.pydrawing.PointF-DateTime) | Add new modern comment at the end of a collection. |
-| [__init__](/slides/python-net/aspose.slides/icommentcollection/#int-string-ISlide-aspose.pydrawing.PointF-DateTime) | Insert new comment to a collection at the specified index. |
-| [__init__](/slides/python-net/aspose.slides/icommentcollection/#int-string-ISlide-IShape-aspose.pydrawing.PointF-DateTime) | Insert new modern comment to a collection at the specified index. |
-| [__init__](/slides/python-net/aspose.slides/icommentcollection/#int) | Removes the element at the specified index in a collection. |
-| [__init__](/slides/python-net/aspose.slides/icommentcollection/#IComment) | Removes the first occurrence of the specified comment in a collection. |
-| [__init__](/slides/python-net/aspose.slides/icommentcollection/#) | Removes all comments from a collection. |
+|[index]|Gets the element at the specified index.<br/>            Read-only [IComment](/slides/python-net/aspose.slides/icomment/).|
+## Methods
+| Name | Description |
+| :- | :- |
+|to_array()|Creates and returns an array with all comments.|
+|to_array(start_index, count)|Creates and returns an array with all comments from the specified range.|
+|add_comment(text, slide, position, creation_time)|Add new comment at the end of a collection.|
+|add_modern_comment(text, slide, shape, position, creation_time)|Add new modern comment at the end of a collection.|
+|insert_comment(index, text, slide, position, creation_time)|Insert new comment to a collection at the specified index.|
+|insert_modern_comment(index, text, slide, shape, position, creation_time)|Insert new modern comment to a collection at the specified index.|
+|remove_at(index)|Removes the element at the specified index in a collection.|
+|remove(comment)|Removes the element at the specified index in a collection.|
+|clear()|Removes all comments from a collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

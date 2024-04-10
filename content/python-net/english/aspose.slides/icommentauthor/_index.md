@@ -1,29 +1,29 @@
-﻿---
-title: ICommentAuthor class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ICommentAuthor
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/icommentauthor/
 ---
-
 
 ## ICommentAuthor class
 
 Represents an author of comments.
 
 The ICommentAuthor type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [name](/slides/python-net/aspose.slides/name) | Returns or sets the author's name.<br/>            Read/write :py:class:`System.String`. |
-| [initials](/slides/python-net/aspose.slides/initials) | Returns or sets the authors initials.<br/>            Read/write :py:class:`System.String`. |
-| [comments](/slides/python-net/aspose.slides/comments) | Returns the collection of comments made by this author.<br/>            Read-only :py:class:`aspose.slides.ICommentCollection`. |
-
+|name|Returns or sets the author's name.<br/>            Read/write string.|
+|initials|Returns or sets the authors initials.<br/>            Read/write string.|
+|comments|Returns the collection of comments made by this author.<br/>            Read-only [ICommentCollection](/slides/python-net/aspose.slides/icommentcollection/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/icommentauthor/#) | Removes the author from the parent collection. |
+|remove()|Removes the author from the parent collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

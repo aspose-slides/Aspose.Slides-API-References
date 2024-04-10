@@ -1,29 +1,29 @@
-﻿---
-title: IDuotone class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IDuotone
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/iduotone/
 ---
-
 
 ## IDuotone class
 
 Represents a Duotone effect.
 
 The IDuotone type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [color1](/slides/python-net/aspose.slides.effects/color1) | Returns target color format for dark pixels.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
-| [color2](/slides/python-net/aspose.slides.effects/color2) | Returns target color format for light pixels.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/as_i_image_transform_operation) | Allows to get base IImageTransformOperation interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
-
+|color1|Returns target color format for dark pixels.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
+|color2|Returns target color format for light pixels.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
+|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/iduotone/#) |  |
+|get_effective()|Gets effective object formatting data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

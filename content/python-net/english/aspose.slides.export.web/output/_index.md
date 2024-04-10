@@ -1,27 +1,29 @@
-﻿---
-title: Output class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Output
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export.web/
+url: /aspose.slides.export.web/output/
 ---
-
 
 ## Output class
 
-Represents a collection of output elements for :py:class:`IWebDocument`.
+Represents a collection of output elements for IWebDocument.
 
 The Output type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/output/#string-IPPImage) |  |
-| [__init__](/slides/python-net/aspose.slides.export.web/output/#string-aspose.pydrawing.Image) | Adds an output element for the image. |
-| [__init__](/slides/python-net/aspose.slides.export.web/output/#string-IVideo) |  |
-| [__init__](/slides/python-net/aspose.slides.export.web/output/#string-IFontData-aspose.pydrawing.FontStyle) |  |
-| [__init__](/slides/python-net/aspose.slides.export.web/output/#string-string) | Adds an output element for the text content. |
-| [__init__](/slides/python-net/aspose.slides.export.web/output/#IOutputFile-any) | Binds resource to output file. |
-| [__init__](/slides/python-net/aspose.slides.export.web/output/#any) | Returns the path for a given resource. |
+|add(path, image)|Adds an output element for the image.|
+|add(path, image)|Adds an output element for the image.|
+|add(path, video)|Adds an output element for the video.|
+|add(path, font_data, font_style)|Adds an output element for the font.|
+|add(path, text_content)|Adds an output element for the image.|
+|bind_resource(output_file, obj)|Binds resource to output file.|
+|get_resource_path(obj)|Returns the path for a given resource.|
+
+### See Also
+
+* namespace [aspose.slides.export.web](/slides/python-net/aspose.slides.export.web/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,24 +1,26 @@
-﻿---
-title: ILicense class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ILicense
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ilicense/
 ---
-
 
 ## ILicense class
 
 Provides methods to license the component.
 
 The ILicense type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/ilicense/#string) | Licenses the component. |
-| [__init__](/slides/python-net/aspose.slides/ilicense/#System.IO.Stream) | Licenses the component. |
-| [__init__](/slides/python-net/aspose.slides/ilicense/#) | Reset the license |
-| [__init__](/slides/python-net/aspose.slides/ilicense/#) | Check if licence is applied to component |
+|set_license(license_name)|Licenses the component.|
+|set_license(stream)|Licenses the component.|
+|reset_license()|Reset the license|
+|is_licensed()|Check if licence is applied to component|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

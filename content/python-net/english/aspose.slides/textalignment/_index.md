@@ -1,27 +1,28 @@
-﻿---
-title: TextAlignment enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: TextAlignment
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/textalignment/
 ---
-
 
 ## TextAlignment enumeration
 
 Represents different text alignment styles.
 
-The TextAlignment type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| NOT_DEFINED | Default aligment. |
-| LEFT | Left alignment. |
-| CENTER | Center alignment. |
-| RIGHT | Right alignment. |
-| JUSTIFY | Justify alignment. |
-| JUSTIFY_LOW | Kashida justify low. |
-| DISTRIBUTED | Distributed alignment. |
+|NOT_DEFINED|Default aligment.|
+|LEFT|Left alignment.|
+|CENTER|Center alignment.|
+|RIGHT|Right alignment.|
+|JUSTIFY|Justify alignment.|
+|JUSTIFY_LOW|Kashida justify low.|
+|DISTRIBUTED|Distributed alignment.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

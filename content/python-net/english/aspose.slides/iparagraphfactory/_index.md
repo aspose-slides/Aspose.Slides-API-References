@@ -1,30 +1,24 @@
-﻿---
-title: IParagraphFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IParagraphFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/iparagraphfactory/
 ---
-
 
 ## IParagraphFactory class
 
 Allows to create paragraphs
 
 The IParagraphFactory type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/iparagraphfactory/#) | Creates a new empty paragraph. |
-| [__init__](/slides/python-net/aspose.slides/iparagraphfactory/#IParagraph) | Creates a new paragraph with specified paragraph data using. |
+|create_paragraph()|Creates a new empty paragraph.|
+|create_paragraph(paragraph)|Creates a new empty paragraph.|
 
+### See Also
 
-### Remarks
-
-
-            For COM compatibility.
-            
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

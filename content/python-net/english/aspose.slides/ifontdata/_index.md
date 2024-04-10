@@ -1,27 +1,27 @@
-﻿---
-title: IFontData class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IFontData
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ifontdata/
 ---
-
 
 ## IFontData class
 
 Represents a font definition.
 
 The IFontData type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [font_name](/slides/python-net/aspose.slides/font_name) | Returns the font name. <br/>            Read-only :py:class:`System.String`. |
-
+|font_name|Returns the font name. <br/>            Read-only string.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/ifontdata/#aspose.slides.theme.IThemeEffectiveData) | Returns the font name, replacing theme referrence with an actual font used. |
+|get_font_name(theme)|Returns the font name, replacing theme referrence with an actual font used.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

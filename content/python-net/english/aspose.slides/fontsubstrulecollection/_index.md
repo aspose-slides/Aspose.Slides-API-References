@@ -1,41 +1,37 @@
-﻿---
-title: FontSubstRuleCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: FontSubstRuleCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/fontsubstrulecollection/
 ---
-
 
 ## FontSubstRuleCollection class
 
 Represents collection of fonts substitution.
 
 The FontSubstRuleCollection type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
-| :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontsubstrulecollection/#) |  |
-
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/as_i_collection) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|FontSubstRuleCollection()|Initializes a new instance of the FontSubstRuleCollection class|
+## Properties
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontsubstrulecollection/#IFontSubstRule) | Adds the new font substitution rule to the collection |
-| [__init__](/slides/python-net/aspose.slides/fontsubstrulecollection/#IFontSubstRule) | Removes the first occurrence of a specific object from the collection. |
+|as_i_collection|Returns ICollection class.|
+|as_i_enumerable|Returns IEnumerable class.|
+## Indexer
+| Name | Description |
+| :- | :- |
+|[index]|Gets the element at the specified index.|
+## Methods
+| Name | Description |
+| :- | :- |
+|add(value)|Adds the new font substitution rule to the collection|
+|remove(value)|Removes the first occurrence of a specific object from the collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

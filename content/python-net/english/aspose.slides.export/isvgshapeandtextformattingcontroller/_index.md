@@ -1,28 +1,28 @@
-﻿---
-title: ISvgShapeAndTextFormattingController class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ISvgShapeAndTextFormattingController
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export/
+url: /aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
-
 
 ## ISvgShapeAndTextFormattingController class
 
 Controls SVG shape and text generation.
 
 The ISvgShapeAndTextFormattingController type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_svg_shape_formatting_controller](/slides/python-net/aspose.slides.export/as_i_svg_shape_formatting_controller) | Returns ISvgShapeFormattingController interface. |
-
+|as_i_svg_shape_formatting_controller|Returns ISvgShapeFormattingController interface.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/#ISvgTSpan-IPortion-ITextFrame) |  |
-| [__init__](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/#ISvgShape-IShape) |  |
+|format_text(svg_t_span, portion, text_frame)|This function is called before rendering of text portion to SVG to allow user to control resulting SVG.|
+|format_shape(svg_shape, shape)|This function is called before rendering of shape to SVG to allow user to control resulting SVG.|
+
+### See Also
+
+* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

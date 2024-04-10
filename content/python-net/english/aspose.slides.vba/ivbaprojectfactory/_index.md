@@ -1,22 +1,24 @@
-﻿---
-title: IVbaProjectFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IVbaProjectFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.vba/
+url: /aspose.slides.vba/ivbaprojectfactory/
 ---
-
 
 ## IVbaProjectFactory class
 
 Allows to create VBA project via COM interface
 
 The IVbaProjectFactory type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.vba/ivbaprojectfactory/#) | Creates new VBA project. |
-| [__init__](/slides/python-net/aspose.slides.vba/ivbaprojectfactory/#bytes) | Reads VBA project from OLE container. |
+|create_vba_project()|Creates new VBA project.|
+|read_vba_project(data)|Reads VBA project from OLE container.|
+
+### See Also
+
+* namespace [aspose.slides.vba](/slides/python-net/aspose.slides.vba/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

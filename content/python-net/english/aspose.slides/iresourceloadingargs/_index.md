@@ -1,28 +1,28 @@
-﻿---
-title: IResourceLoadingArgs class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IResourceLoadingArgs
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/iresourceloadingargs/
 ---
-
 
 ## IResourceLoadingArgs class
 
 Interface for external resource loading arguments.
 
 The IResourceLoadingArgs type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [original_uri](/slides/python-net/aspose.slides/original_uri) | Original URI of the resource as specified in imported presentation. |
-| [uri](/slides/python-net/aspose.slides/uri) | URI of the resource which is used for downloading if :py:func:`Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide.` <br/>            returns :py:attr:`aspose.slides.ResourceLoadingAction.DEFAULT`. <br/>            Initially it's set to original URI of the resource, but can be redefined to any value. |
-
+|original_uri|Original URI of the resource as specified in imported presentation.|
+|uri|URI of the resource which is used for downloading if|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/iresourceloadingargs/#bytes) | Sets user provided data of the resource which used if :py:func:`Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide.` <br/>            returns :py:attr:`aspose.slides.ResourceLoadingAction.USER_PROVIDED`. |
+|set_data(data)|Sets user provided data of the resource which used if|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

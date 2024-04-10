@@ -1,27 +1,27 @@
-﻿---
-title: Storage class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Storage
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export.web/
+url: /aspose.slides.export.web/storage/
 ---
-
 
 ## Storage class
 
-Represents a temporary data storage for :py:class:`aspose.slides.export.web.WebDocument`.
+Represents a temporary data storage for [WebDocument](/slides/python-net/aspose.slides.export.web/webdocument/).
 
 The Storage type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/storage/#) |  |
-
+|Storage()|Initializes a new instance of the Storage class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/storage/#string) | Determines whether the storage contains an element with the specified key. |
+|contains_key(key)|Determines whether the storage contains an element with the specified key.|
+
+### See Also
+
+* namespace [aspose.slides.export.web](/slides/python-net/aspose.slides.export.web/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

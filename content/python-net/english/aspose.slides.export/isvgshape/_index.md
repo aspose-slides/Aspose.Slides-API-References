@@ -1,27 +1,27 @@
-﻿---
-title: ISvgShape class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ISvgShape
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export/
+url: /aspose.slides.export/isvgshape/
 ---
-
 
 ## ISvgShape class
 
 Represents options for SVG shape.
 
 The ISvgShape type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [id](/slides/python-net/aspose.slides.export/id) | Sets or gets id for the shape |
-
+|id|Sets or gets id for the shape|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/isvgshape/#SvgEvent-string) | Sets event handler for the shape |
+|set_event_handler(event_type, handler)|Sets event handler for the shape|
+
+### See Also
+
+* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,35 +1,33 @@
-﻿---
-title: IStringOrDoubleChartValue class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IStringOrDoubleChartValue
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/istringordoublechartvalue/
 ---
-
 
 ## IStringOrDoubleChartValue class
 
-Represent string or double value which can be stored in pptx presentation document in two ways:
-            1) in cell/cells of workbook related to chart;
-            2) as literal value.
+Represent string or double value which can be stored in pptx presentation document in two ways:<br/>            1) in cell/cells of workbook related to chart;<br/>            2) as literal value.
 
 The IStringOrDoubleChartValue type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_literal_string](/slides/python-net/aspose.slides.charts/as_literal_string) | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write :py:class:`System.String`. |
-| [as_literal_double](/slides/python-net/aspose.slides.charts/as_literal_double) | Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals.<br/>            Read/write :py:class:`float`. |
-| [as_i_single_cell_chart_value](/slides/python-net/aspose.slides.charts/as_i_single_cell_chart_value) | Allows to get base ISingleCellChartValue interface.<br/>            Read-only :py:class:`aspose.slides.charts.ISingleCellChartValue`. |
-| [as_cell](/slides/python-net/aspose.slides.charts/as_cell) |  |
-| [as_i_base_chart_value](/slides/python-net/aspose.slides.charts/as_i_base_chart_value) |  |
-| [data_source_type](/slides/python-net/aspose.slides.charts/data_source_type) |  |
-| [data](/slides/python-net/aspose.slides.charts/data) |  |
-
+|as_literal_string|Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write string.|
+|as_literal_double|Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals.<br/>            Read/write float.|
+|as_i_single_cell_chart_value|Allows to get base ISingleCellChartValue interface.<br/>            Read-only [ISingleCellChartValue](/slides/python-net/aspose.slides.charts/isinglecellchartvalue/).|
+|as_cell|Returns or sets chart data cell.<br/>            Read/write [IChartDataCell](/slides/python-net/aspose.slides.charts/ichartdatacell/).|
+|as_i_base_chart_value|Allows to get base IBaseChartValue interface.<br/>            Read-only [IBaseChartValue](/slides/python-net/aspose.slides.charts/ibasechartvalue/).|
+|data_source_type|Specifies whether AsCell or AsLiteralString or AsLiteralDouble property <br/>            is actual. In other words it specifies the type of value of the Data property.<br/>            This property is read-only. For changing value of this property you can use<br/>            one of the ChartDataPointCollection.DataSourceTypeFor<...> properties.<br/>            Read/write [data_source_type](/slides/python-net/aspose.slides.charts/ibasechartvalue/).|
+|data|Read/write object.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/#) | Converts value to double. |
+|to_double()|Converts value to double.|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

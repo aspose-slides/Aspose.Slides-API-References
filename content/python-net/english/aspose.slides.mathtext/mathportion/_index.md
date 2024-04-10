@@ -1,46 +1,42 @@
-﻿---
-title: MathPortion class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathPortion
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathportion/
 ---
-
 
 ## MathPortion class
 
 Represents a portion with mathematical context inside.
 
-**Inheritance:**[`MathPortion`](/slides/python-net/aspose.slides.mathtext/mathportion)
-
 The MathPortion type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathportion/#) | Initializes a new instance of the MathPortion class. |
-
+|MathPortion()|Initializes a new instance of the MathPortion class.|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [portion_format](/slides/python-net/aspose.slides.mathtext/portion_format) | Returns oformatting bject which contains explicitly set formatting properties of the text portion with no inheritance applied.<br/>            Read-only :py:class:`aspose.slides.IPortionFormat`. |
-| [text](/slides/python-net/aspose.slides.mathtext/text) | Gets or sets the plain text of a portion.<br/>            Read/write :py:class:`System.String`. |
-| [field](/slides/python-net/aspose.slides.mathtext/field) | Returns a field of this portion.<br/>            Read-only :py:class:`aspose.slides.IField`. |
-| [math_paragraph](/slides/python-net/aspose.slides.mathtext/math_paragraph) | Math paragraph |
-| [as_i_slide_component](/slides/python-net/aspose.slides.mathtext/as_i_slide_component) |  |
-| [slide](/slides/python-net/aspose.slides.mathtext/slide) |  |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.mathtext/as_i_presentation_component) |  |
-| [presentation](/slides/python-net/aspose.slides.mathtext/presentation) |  |
-
+|portion_format|Returns oformatting bject which contains explicitly set formatting properties of the text portion with no inheritance applied.<br/>            Read-only [IPortionFormat](/slides/python-net/aspose.slides/iportionformat/).|
+|text|Gets or sets the plain text of a portion.<br/>            Read/write string.|
+|field|Returns a field of this portion.<br/>            Read-only [IField](/slides/python-net/aspose.slides/ifield/).|
+|math_paragraph|Math paragraph|
+|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathportion/#IFieldType) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathportion/#string) | Converts this portion to the automaticaly updated field. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathportion/#) | Converts this field portion to the simple portion. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathportion/#) | Get coordinates of rect that bounds portion. The rect includes all the lines of<br/>             text in portion, including empty ones. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathportion/#) | Get coordinates of the beginning of the portion. The X coordinate of point represents the <br/>            portion beginning from the first character including left side bearing. The Y coordinate <br/>            includes top side bearing. |
+|add_field(field_type)|Converts this portion to the automaticaly updated field.|
+|add_field(internal_string)|Converts this portion to the automaticaly updated field.|
+|remove_field()|Converts this field portion to the simple portion.|
+|get_rect()|Get coordinates of rect that bounds portion. The rect includes all the lines of<br/>             text in portion, including empty ones.|
+|get_coordinates()|Get coordinates of the beginning of the portion. The X coordinate of point represents the <br/>            portion beginning from the first character including left side bearing. The Y coordinate <br/>            includes top side bearing.|
+
+### See Also
+
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

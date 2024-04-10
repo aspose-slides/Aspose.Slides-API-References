@@ -1,22 +1,24 @@
-﻿---
-title: IGradientStop class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IGradientStop
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/igradientstop/
 ---
-
 
 ## IGradientStop class
 
 Represents a gradient format.
 
 The IGradientStop type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [position](/slides/python-net/aspose.slides/position) | Returns or sets the position (0..1) of a gradient stop.<br/>            Read/write :py:class:`float`. |
-| [color](/slides/python-net/aspose.slides/color) | Returns the color of a gradient stop.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
+|position|Returns or sets the position (0..1) of a gradient stop.<br/>            Read/write|
+|color|Returns the color of a gradient stop.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,28 +1,28 @@
-﻿---
-title: ITextStyle class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ITextStyle
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/itextstyle/
 ---
-
 
 ## ITextStyle class
 
 Text style formatting properties.
 
 The ITextStyle type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [default_paragraph_format](/slides/python-net/aspose.slides/default_paragraph_format) | Default paragraph propertiies.<br/>            Read-only :py:class:`aspose.slides.IParagraphFormat`. |
-
+|default_paragraph_format|Default paragraph propertiies.<br/>            Read-only [IParagraphFormat](/slides/python-net/aspose.slides/iparagraphformat/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/itextstyle/#int) | If level of style exist returns it, otherwise returns null. |
-| [__init__](/slides/python-net/aspose.slides/itextstyle/#) | Gets effective text style formatting data with the inheritance applied. |
+|get_level(index)|If level of style exist returns it, otherwise returns null.|
+|get_effective()|Gets effective text style formatting data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

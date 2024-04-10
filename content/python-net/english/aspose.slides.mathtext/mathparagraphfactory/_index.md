@@ -1,36 +1,28 @@
-﻿---
-title: MathParagraphFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathParagraphFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathparagraphfactory/
 ---
-
 
 ## MathParagraphFactory class
 
 Allows to create a math paragraph
 
 The MathParagraphFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/#) |  |
-
+|MathParagraphFactory()|Initializes a new instance of the MathParagraphFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/#) | Create empty math paragraph |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/#IMathBlock) | Creates a math paragraph and places the specified math block in it |
+|create_math_paragraph()|Create empty math paragraph|
+|create_math_paragraph(math_block)|Creates a math paragraph and places the specified math block in it|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

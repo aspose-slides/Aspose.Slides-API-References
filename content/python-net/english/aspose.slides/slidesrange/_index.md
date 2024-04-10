@@ -1,28 +1,28 @@
-﻿---
-title: SlidesRange class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: SlidesRange
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/slidesrange/
 ---
-
 
 ## SlidesRange class
 
 Slides range
 
 The SlidesRange type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/slidesrange/#) |  |
-
+|SlidesRange()|Initializes a new instance of the SlidesRange class|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [start](/slides/python-net/aspose.slides/start) | Start |
-| [end](/slides/python-net/aspose.slides/end) | End |
+|start|Start|
+|end|End|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

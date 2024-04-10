@@ -1,23 +1,24 @@
-﻿---
-title: LineAlignment enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: LineAlignment
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/linealignment/
 ---
-
 
 ## LineAlignment enumeration
 
 Represents the lines alignment type.
 
-The LineAlignment type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| NOT_DEFINED |  |
-| CENTER |  |
-| INSET |  |
+|NOT_DEFINED||
+|CENTER||
+|INSET||
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

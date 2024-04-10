@@ -1,42 +1,40 @@
-﻿---
-title: IFontFallBackRule class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IFontFallBackRule
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ifontfallbackrule/
 ---
-
 
 ## IFontFallBackRule class
 
 Represents font fallback rule
 
 The IFontFallBackRule type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [range_start_index](/slides/python-net/aspose.slides/range_start_index) | Get first index of continuous unicode range. |
-| [range_end_index](/slides/python-net/aspose.slides/range_end_index) | Get last index of continuous unicode range. |
-| [count](/slides/python-net/aspose.slides/count) | Gets the number of fonts actually defined for range. |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|range_start_index|Get first index of continuous unicode range.|
+|range_end_index|Get last index of continuous unicode range.|
+|count|Gets the number of fonts actually defined for range.|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrule/#string) | Adds a new font(s) to the list of FallBack fonts. |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrule/#List[string]) | Adds a new fonts to the list of FallBack fonts. |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrule/#) | Creates and returns an array with all FallBack fonts for this rule. |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrule/#int-int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrule/#) | Removes all fonts from the list. |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrule/#string) | Removes the first occurrence of a specific FallBack font from the list. |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrule/#int) | Removes the FallBack font at the specified index of the list. |
-| [__init__](/slides/python-net/aspose.slides/ifontfallbackrule/#string) | Returns an index of the specified rule in the collection. |
+|[index]|Gets the font name at the specified index.|
+## Methods
+| Name | Description |
+| :- | :- |
+|add_fall_back_fonts(font_name)|Adds a new font(s) to the list of FallBack fonts.|
+|add_fall_back_fonts(font_names)|Adds a new fonts to the list of FallBack fonts.|
+|to_array()|Creates and returns an array with all FallBack fonts for this rule.|
+|to_array(start_index, count)|Creates and returns an array with all FallBack fonts from the specified range in list.|
+|clear()|Removes all fonts from the list.|
+|remove(font_name)|Removes the first occurrence of a specific FallBack font from the list.|
+|remove_at(index)|Removes the FallBack font at the specified index of the list.|
+|index_of(font_name)|Returns an index of the specified rule in the collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

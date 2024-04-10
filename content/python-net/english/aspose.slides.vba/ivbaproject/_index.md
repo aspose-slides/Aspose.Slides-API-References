@@ -1,29 +1,29 @@
-﻿---
-title: IVbaProject class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IVbaProject
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.vba/
+url: /aspose.slides.vba/ivbaproject/
 ---
-
 
 ## IVbaProject class
 
 Represents VBA project with presentation macros.
 
 The IVbaProject type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [name](/slides/python-net/aspose.slides.vba/name) | Returns the name of the VBA project.<br/>            Read-only :py:class:`System.String`. |
-| [modules](/slides/python-net/aspose.slides.vba/modules) | Returns the list of all modules that are contained in the VBA project.<br/>            Read-only :py:class:`aspose.slides.vba.IVbaModuleCollection`. |
-| [references](/slides/python-net/aspose.slides.vba/references) | Returns the list of all references that are contained in the VBA project.<br/>            Read-only :py:class:`aspose.slides.vba.IVbaReferenceCollection`. |
-
+|name|Returns the name of the VBA project.<br/>            Read-only string.|
+|modules|Returns the list of all modules that are contained in the VBA project.<br/>            Read-only [IVbaModuleCollection](/slides/python-net/aspose.slides.vba/ivbamodulecollection/).|
+|references|Returns the list of all references that are contained in the VBA project.<br/>            Read-only [IVbaReferenceCollection](/slides/python-net/aspose.slides.vba/ivbareferencecollection/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.vba/ivbaproject/#) | Returns the binary representation of the VBA project as OLE container.<br/>            Read-only :py:class:`int`[]. |
+|to_binary()|Returns the binary representation of the VBA project as OLE container.<br/>            Read-only int[].|
+
+### See Also
+
+* namespace [aspose.slides.vba](/slides/python-net/aspose.slides.vba/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

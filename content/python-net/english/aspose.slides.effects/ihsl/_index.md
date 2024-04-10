@@ -1,28 +1,27 @@
-﻿---
-title: IHSL class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IHSL
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/ihsl/
 ---
-
 
 ## IHSL class
 
-Represents a Hue/Saturation/Luminance effect.
-            The hue, saturation, and luminance may each be adjusted relative to its current value.
+Represents a Hue/Saturation/Luminance effect.<br/>            The hue, saturation, and luminance may each be adjusted relative to its current value.
 
 The IHSL type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/as_i_image_transform_operation) | Returns IImageTransformOperation interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
-
+|as_i_image_transform_operation|Returns IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/ihsl/#) |  |
+|get_effective()|Gets effective object formatting data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

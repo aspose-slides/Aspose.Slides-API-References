@@ -1,36 +1,34 @@
-﻿---
-title: IStringChartValue class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IStringChartValue
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/istringchartvalue/
 ---
-
 
 ## IStringChartValue class
 
-Represent string value which can be stored in pptx presentation document in two ways:
-            1) in cell/cells of workbook related to chart;
-            2) as literal value.
+Represent string value which can be stored in pptx presentation document in two ways:<br/>            1) in cell/cells of workbook related to chart;<br/>            2) as literal value.
 
 The IStringChartValue type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_literal_string](/slides/python-net/aspose.slides.charts/as_literal_string) | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write :py:class:`System.String`. |
-| [as_i_multiple_cell_chart_value](/slides/python-net/aspose.slides.charts/as_i_multiple_cell_chart_value) | Allows to get base IMultipleCellChartValue interface.<br/>            Read-only :py:class:`aspose.slides.charts.IMultipleCellChartValue`. |
-| [as_cells](/slides/python-net/aspose.slides.charts/as_cells) |  |
-| [as_i_base_chart_value](/slides/python-net/aspose.slides.charts/as_i_base_chart_value) |  |
-| [data_source_type](/slides/python-net/aspose.slides.charts/data_source_type) |  |
-| [data](/slides/python-net/aspose.slides.charts/data) |  |
-
+|as_literal_string|Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write string.|
+|as_i_multiple_cell_chart_value|Allows to get base IMultipleCellChartValue interface.<br/>            Read-only [IMultipleCellChartValue](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue/).|
+|as_cells|Returns or sets the collection of chart cells.<br/>            Read/write [IChartCellCollection](/slides/python-net/aspose.slides.charts/ichartcellcollection/).|
+|as_i_base_chart_value|Allows to get base IBaseChartValue interface.<br/>            Read-only [IBaseChartValue](/slides/python-net/aspose.slides.charts/ibasechartvalue/).|
+|data_source_type|Specifies whether AsCell or AsLiteralString or AsLiteralDouble property <br/>            is actual. In other words it specifies the type of value of the Data property.<br/>            This property is read-only. For changing value of this property you can use<br/>            one of the ChartDataPointCollection.DataSourceTypeFor<...> properties.<br/>            Read/write [data_source_type](/slides/python-net/aspose.slides.charts/ibasechartvalue/).|
+|data|Read/write object.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.charts/istringchartvalue/#) | Returns string representation. |
-| [__init__](/slides/python-net/aspose.slides.charts/istringchartvalue/#IChartDataCell) | Sets value from specified cell. |
-| [__init__](/slides/python-net/aspose.slides.charts/istringchartvalue/#) | If DataSourceType property is DataSourceType.Worksheet then this method returns address<br/>            of the cells in workbook which represent the string data. Otherwise return<br/>            empty string. |
+|to_string()|Returns string representation.|
+|set_from_one_cell(cell)|Sets value from specified cell.|
+|get_cells_address_in_workbook()|If DataSourceType property is DataSourceType.Worksheet then this method returns address<br/>            of the cells in workbook which represent the string data. Otherwise return<br/>            empty string.|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

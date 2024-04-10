@@ -1,23 +1,24 @@
-﻿---
-title: NewLineType enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: NewLineType
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export/
+url: /aspose.slides.export/newlinetype/
 ---
-
 
 ## NewLineType enumeration
 
 Type of new line that will be used in generated document.
 
-The NewLineType type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| WINDOWS |  |
-| UNIX |  |
-| MAC | Mac (OS 9) new line - \\r |
+|WINDOWS||
+|UNIX||
+|MAC|Mac (OS 9) new line - \\r|
+
+### See Also
+
+* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

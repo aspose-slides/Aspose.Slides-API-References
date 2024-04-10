@@ -1,24 +1,24 @@
-﻿---
-title: PptxUnsupportedFormatException class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: PptxUnsupportedFormatException
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/pptxunsupportedformatexception/
 ---
-
 
 ## PptxUnsupportedFormatException class
 
 Exception which thrown when presentation file format is unsupported.
 
-**Inheritance:**[`PptxUnsupportedFormatException`](/slides/python-net/aspose.slides/pptxunsupportedformatexception) → [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception) → [`PptxException`](/slides/python-net/aspose.slides/pptxexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
-
 The PptxUnsupportedFormatException type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/pptxunsupportedformatexception/#) | Default constructor. |
-| [__init__](/slides/python-net/aspose.slides/pptxunsupportedformatexception/#string) | Constructor allowing a message to be added to this exception. |
+|PptxUnsupportedFormatException()|Default constructor.|
+|PptxUnsupportedFormatException(message)|Initializes a new instance of the PptxUnsupportedFormatException class|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

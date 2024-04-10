@@ -1,37 +1,35 @@
-﻿---
-title: ControlCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ControlCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/controlcollection/
 ---
-
 
 ## ControlCollection class
 
 A collection of ActiveX controls.
 
 The ControlCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/as_i_collection) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|as_i_collection|Returns ICollection class.|
+|as_i_enumerable|Returns IEnumerable class.|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/controlcollection/#ControlType-float-float-float-float) | Creates and adds a new control to the collection. |
-| [__init__](/slides/python-net/aspose.slides/controlcollection/#IControl) | Removes an ActiveX control from the collection. |
-| [__init__](/slides/python-net/aspose.slides/controlcollection/#int) | Removes an ActiveX control stored at specified position from the collection. |
-| [__init__](/slides/python-net/aspose.slides/controlcollection/#) | Removes all controls from the collection. |
+|[index]|Returns a control at the specified position.|
+## Methods
+| Name | Description |
+| :- | :- |
+|add_control(control_type, x, y, width, height)|Creates and adds a new control to the collection.|
+|remove(item)|Removes an ActiveX control from the collection.|
+|remove_at(index)|Removes an ActiveX control stored at specified position from the collection.|
+|clear()|Removes all controls from the collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

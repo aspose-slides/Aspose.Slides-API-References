@@ -1,44 +1,42 @@
-﻿---
-title: IMathParagraph class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IMathParagraph
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/imathparagraph/
 ---
-
 
 ## IMathParagraph class
 
 Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 
 The IMathParagraph type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [justification](/slides/python-net/aspose.slides.mathtext/justification) | Paragraph Justification <br/>            Default value: CenteredAsGroup |
-| [as_i_math_block_collection](/slides/python-net/aspose.slides.mathtext/as_i_math_block_collection) | Allows to get base IMathBlockCollection interface<br/>            :py:class:`aspose.slides.mathtext.IMathBlockCollection` |
-| [count](/slides/python-net/aspose.slides.mathtext/count) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.mathtext/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|justification|Paragraph Justification <br/>            Default value: CenteredAsGroup|
+|as_i_math_block_collection|Allows to get base IMathBlockCollection interface<br/>            [IMathBlockCollection](/slides/python-net/aspose.slides.mathtext/imathblockcollection/)|
+|count|Gets the number of elements actually contained in the collection.<br/>            Read-only|
+|as_i_enumerable|Allows to get base IEnumerable interface<br/>            list|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathparagraph/#System.IO.Stream) | Saves content of this :py:class:`aspose.slides.mathtext.IMathParagraph` as MathML |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathparagraph/#) | Gets mathematical equation in LaTeX format |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathparagraph/#IMathBlock) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathparagraph/#int-IMathBlock) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathparagraph/#IMathBlock) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathparagraph/#int) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathparagraph/#IMathBlock) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathparagraph/#IMathBlock) |  |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathparagraph/#) |  |
+|[index]|Gets the item at the specified index.<br/>            Read-only [IMathBlock](/slides/python-net/aspose.slides.mathtext/imathblock/).|
+## Methods
+| Name | Description |
+| :- | :- |
+|write_as_math_ml(stream)|Saves content of this [IMathParagraph](/slides/python-net/aspose.slides.mathtext/imathparagraph/) as MathML|
+|to_latex()|Gets mathematical equation in LaTeX format|
+|add(item)|Adds IMathBlock to the end of collection.|
+|insert(index, item)|Inserts IMathBlock into the collection at the specified index.|
+|remove(item)|Removes the first occurrence of a specific object from the collection/>.|
+|remove_at(index)|Removes an item at the specified index of the collection.|
+|contains(item)|Determines whether the collection contains a specific value.|
+|index_of(item)|Determines the index of a specific IMathBlock in collection.|
+|clear()|Removes all elements from the collection.|
+
+### See Also
+
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

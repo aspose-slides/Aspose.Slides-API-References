@@ -1,23 +1,23 @@
-﻿---
-title: BrowsedAtKiosk class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: BrowsedAtKiosk
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/browsedatkiosk/
 ---
-
 
 ## BrowsedAtKiosk class
 
 Browsed at a kiosk (full screen)
 
-**Inheritance:**[`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk) → [`SlideShowType`](/slides/python-net/aspose.slides/slideshowtype)
-
 The BrowsedAtKiosk type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/browsedatkiosk/#) | Initializes a new instance of the BrowsedAtKiosk class. |
+|BrowsedAtKiosk()|Initializes a new instance of the BrowsedAtKiosk class.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

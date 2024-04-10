@@ -1,33 +1,31 @@
-﻿---
-title: TextStyle class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: TextStyle
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/textstyle/
 ---
-
 
 ## TextStyle class
 
 This class contains the text style formatting properties.
 
-**Inheritance:**[`TextStyle`](/slides/python-net/aspose.slides/textstyle) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
-
 The TextStyle type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/as_i_presentation_component) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [default_paragraph_format](/slides/python-net/aspose.slides/default_paragraph_format) | Default paragraph propertiies.<br/>            Read-only :py:class:`aspose.slides.IParagraphFormat`. |
-| [slide](/slides/python-net/aspose.slides/slide) |  |
-| [presentation](/slides/python-net/aspose.slides/presentation) |  |
-
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|default_paragraph_format|Default paragraph propertiies.<br/>            Read-only [IParagraphFormat](/slides/python-net/aspose.slides/iparagraphformat/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/textstyle/#int) | If level of style exist returns it, otherwise returns null. |
-| [__init__](/slides/python-net/aspose.slides/textstyle/#) | Gets effective text style formatting data with the inheritance applied. |
+|get_level(index)|If level of style exist returns it, otherwise returns null.|
+|get_effective()|Gets effective text style formatting data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

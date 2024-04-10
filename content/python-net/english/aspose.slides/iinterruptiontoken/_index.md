@@ -1,27 +1,27 @@
-﻿---
-title: IInterruptionToken class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IInterruptionToken
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/iinterruptiontoken/
 ---
-
 
 ## IInterruptionToken class
 
 This class represents the token to use for signaling long running tasks whether the interruption was requested.
 
 The IInterruptionToken type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [is_interruption_requested](/slides/python-net/aspose.slides/is_interruption_requested) | Returns :py:class:`bool`.true if interruption was requested. |
-
+|is_interruption_requested|Returns bool.true if interruption was requested.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/iinterruptiontoken/#) | Throws an  if<br/>            interruption was requested. |
+|throw_if_interruption_requested()|Throws an|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

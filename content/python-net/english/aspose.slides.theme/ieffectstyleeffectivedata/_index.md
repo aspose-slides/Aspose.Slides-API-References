@@ -1,31 +1,24 @@
-﻿---
-title: IEffectStyleEffectiveData class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IEffectStyleEffectiveData
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.theme/
+url: /aspose.slides.theme/ieffectstyleeffectivedata/
 ---
-
 
 ## IEffectStyleEffectiveData class
 
 Immutable object which contains effective effect style properties.
 
 The IEffectStyleEffectiveData type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [effect_format](/slides/python-net/aspose.slides.theme/effect_format) | Returns an effect format.<br/>            Read-only :py:class:`aspose.slides.IEffectFormatEffectiveData`. |
-| [three_d_format](/slides/python-net/aspose.slides.theme/three_d_format) | Returns a 3d format.<br/>            Read-only :py:class:`aspose.slides.IThreeDFormatEffectiveData`. |
+|effect_format|Returns an effect format.<br/>            Read-only [IEffectFormatEffectiveData](/slides/python-net/aspose.slides/ieffectformateffectivedata/).|
+|three_d_format|Returns a 3d format.<br/>            Read-only [IThreeDFormatEffectiveData](/slides/python-net/aspose.slides/ithreedformateffectivedata/).|
 
+### See Also
 
-### Remarks
-
-
-            This interface is used as a part of 
-.
-            
-
+* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

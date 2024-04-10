@@ -1,51 +1,43 @@
-﻿---
-title: ImageTransformOperationFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ImageTransformOperationFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/imagetransformoperationfactory/
 ---
-
 
 ## ImageTransformOperationFactory class
 
 Allows to create image transform operations
 
 The ImageTransformOperationFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) |  |
-
+|ImageTransformOperationFactory()|Initializes a new instance of the ImageTransformOperationFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#float) | Creates Alpha BiLevel effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) | Creates Alpha Ceiling effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) | Creates Alpha floor effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) | Creates Alpha inverse effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) | Creates Alpha modulate effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#float) | Creates Alpha modulate fixed effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#float) | Creates Alpha replace effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#float) | Creates BiLevel effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#float-bool) | Creates Blur effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) | Creates Color change effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) | Creates Color replace effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) | Creates Duotone effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) | Creates Fill overlay effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#) | Creates Gray scale effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#float-float-float) | Creates Hue Saturation Luminance effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#float-float) | Createtes Luminance effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory/#float-float) | Creates Tint effect. |
+|create_alpha_bi_level(threshold)|Creates Alpha BiLevel effect.|
+|create_alph_ceiling()|Creates Alpha Ceiling effect.|
+|create_alpha_floor()|Creates Alpha floor effect.|
+|create_alpha_inverse()|Creates Alpha inverse effect.|
+|create_alpha_modulate()|Creates Alpha modulate effect.|
+|create_alpha_modulate_fixed(amount)|Creates Alpha modulate fixed effect.|
+|create_alpha_replace(alpha)|Creates Alpha replace effect.|
+|create_bi_level(threshold)|Creates BiLevel effect.|
+|create_blur(radius, grow)|Creates Blur effect.|
+|create_color_change()|Creates Color change effect.|
+|create_color_replace()|Creates Color replace effect.|
+|create_duotone()|Creates Duotone effect.|
+|create_fill_overlay()|Creates Fill overlay effect.|
+|create_gray_scale()|Creates Gray scale effect.|
+|create_hsl(hue, saturation, luminance)|Creates Hue Saturation Luminance effect.|
+|create_luminance(brightness, contrast)|Createtes Luminance effect.|
+|create_tint(hue, amount)|Creates Tint effect.|
 
+### See Also
 
-### Remarks
-
-
-            For COM compatibility.
-            
-
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

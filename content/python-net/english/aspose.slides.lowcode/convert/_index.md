@@ -1,27 +1,29 @@
-﻿---
-title: Convert class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Convert
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.lowcode/
+url: /aspose.slides.lowcode/convert/
 ---
-
 
 ## Convert class
 
-Represents a group of methods intended to convert :py:class:`aspose.slides.Presentation`.
+Represents a group of methods intended to convert [Presentation](/slides/python-net/aspose.slides/presentation/).
 
 The Convert type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.lowcode/convert/#string-string) | Converts :py:class:`aspose.slides.Presentation` to PDF. |
-| [__init__](/slides/python-net/aspose.slides.lowcode/convert/#string-string-aspose.slides.export.IPdfOptions) | Converts :py:class:`aspose.slides.Presentation` to PDF. |
-| [__init__](/slides/python-net/aspose.slides.lowcode/convert/#Presentation-string) |  |
-| [__init__](/slides/python-net/aspose.slides.lowcode/convert/#Presentation-string-aspose.slides.export.IPdfOptions) |  |
-| [__init__](/slides/python-net/aspose.slides.lowcode/convert/#string) | Converts :py:class:`aspose.slides.Presentation` to SVG. |
-| [__init__](/slides/python-net/aspose.slides.lowcode/convert/#Presentation-aspose.slides.export.ISVGOptions) |  |
-| [__init__](/slides/python-net/aspose.slides.lowcode/convert/#string-string) | Converts :py:class:`aspose.slides.Presentation` using the passed output path extension to determine the required export format. |
+|to_pdf(pres_path, out_path)|Converts [Presentation](/slides/python-net/aspose.slides/presentation/) to PDF.|
+|to_pdf(pres_path, out_path, options)|Converts [Presentation](/slides/python-net/aspose.slides/presentation/) to PDF.|
+|to_pdf(pres, out_path)|Converts [Presentation](/slides/python-net/aspose.slides/presentation/) to PDF.|
+|to_pdf(pres, out_path, options)|Converts [Presentation](/slides/python-net/aspose.slides/presentation/) to PDF.|
+|to_svg(pres_path)|Converts [Presentation](/slides/python-net/aspose.slides/presentation/) to SVG.|
+|to_svg(pres, options)|Converts [Presentation](/slides/python-net/aspose.slides/presentation/) to SVG.|
+|auto_by_extension(pres_path, out_path)|Converts [Presentation](/slides/python-net/aspose.slides/presentation/) using the passed output path extension to determine the required export format.|
+
+### See Also
+
+* namespace [aspose.slides.lowcode](/slides/python-net/aspose.slides.lowcode/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

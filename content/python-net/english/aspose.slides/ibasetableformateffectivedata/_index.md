@@ -1,27 +1,29 @@
-﻿---
-title: IBaseTableFormatEffectiveData class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IBaseTableFormatEffectiveData
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ibasetableformateffectivedata/
 ---
-
 
 ## IBaseTableFormatEffectiveData class
 
 Base interface for immutable objects which contain effective table formatting properties.
 
 The IBaseTableFormatEffectiveData type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [fill_format](/slides/python-net/aspose.slides/fill_format) | Returns fill format effective value.<br/>            Read-only :py:class:`aspose.slides.IFillFormatEffectiveData`. |
-| [border_left](/slides/python-net/aspose.slides/border_left) | Returns left border line format effective value.<br/>            Read-only :py:class:`aspose.slides.ILineFormatEffectiveData`. |
-| [border_top](/slides/python-net/aspose.slides/border_top) | Returns top border line format effective value.<br/>            Read-only :py:class:`aspose.slides.ILineFormatEffectiveData`. |
-| [border_right](/slides/python-net/aspose.slides/border_right) | Returns right border line format effective value.<br/>            Read-only :py:class:`aspose.slides.ILineFormatEffectiveData`. |
-| [border_bottom](/slides/python-net/aspose.slides/border_bottom) | Returns bottom border line format effective value.<br/>            Read-only :py:class:`aspose.slides.ILineFormatEffectiveData`. |
-| [border_diagonal_down](/slides/python-net/aspose.slides/border_diagonal_down) | Returns down diagonal line format effective value.<br/>            Read-only :py:class:`aspose.slides.ILineFormatEffectiveData`. |
-| [border_diagonal_up](/slides/python-net/aspose.slides/border_diagonal_up) | Returns up diagonal line format effective value.<br/>            Read-only :py:class:`aspose.slides.ILineFormatEffectiveData`. |
+|fill_format|Returns fill format effective value.<br/>            Read-only [IFillFormatEffectiveData](/slides/python-net/aspose.slides/ifillformateffectivedata/).|
+|border_left|Returns left border line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
+|border_top|Returns top border line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
+|border_right|Returns right border line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
+|border_bottom|Returns bottom border line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
+|border_diagonal_down|Returns down diagonal line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
+|border_diagonal_up|Returns up diagonal line format effective value.<br/>            Read-only [ILineFormatEffectiveData](/slides/python-net/aspose.slides/ilineformateffectivedata/).|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

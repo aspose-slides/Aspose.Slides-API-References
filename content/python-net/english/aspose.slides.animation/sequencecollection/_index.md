@@ -1,37 +1,35 @@
-﻿---
-title: SequenceCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: SequenceCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.animation/
+url: /aspose.slides.animation/sequencecollection/
 ---
-
 
 ## SequenceCollection class
 
 Represents collection of interactive sequences.
 
 The SequenceCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [count](/slides/python-net/aspose.slides.animation/count) | Returns the number of elements in a collection<br/>            Read-only :py:class:`int`. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.animation/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|count|Returns the number of elements in a collection<br/>            Read-only|
+|as_i_enumerable|Returns IEnumerable interface.<br/>            Read-only list.|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/sequencecollection/#IShape) |  |
-| [__init__](/slides/python-net/aspose.slides.animation/sequencecollection/#ISequence) | Removes specified sequence from a collection. |
-| [__init__](/slides/python-net/aspose.slides.animation/sequencecollection/#int) | Removes sequence at the specified index. |
-| [__init__](/slides/python-net/aspose.slides.animation/sequencecollection/#) | Removes all sequences from a collection. |
+|[index]|Returns a sequense at the specified index.|
+## Methods
+| Name | Description |
+| :- | :- |
+|add(shape_trigger)|Add new interactive sequence.<br/>            Read/write [Sequence](/slides/python-net/aspose.slides.animation/sequence/).|
+|remove(item)|Removes specified sequence from a collection.|
+|remove_at(index)|Removes sequence at the specified index.|
+|clear()|Removes all sequences from a collection.|
+
+### See Also
+
+* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

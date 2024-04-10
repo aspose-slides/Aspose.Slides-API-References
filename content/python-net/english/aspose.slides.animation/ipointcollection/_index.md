@@ -1,28 +1,28 @@
-﻿---
-title: IPointCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IPointCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.animation/
+url: /aspose.slides.animation/ipointcollection/
 ---
-
 
 ## IPointCollection class
 
 Represents a collection of portions.
 
 The IPointCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [count](/slides/python-net/aspose.slides.animation/count) | Returns the number of points in the collection.<br/>            Read-only :py:class:`int`. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.animation/as_i_enumerable) | Allows to get base IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
+|count|Returns the number of points in the collection.<br/>            Read-only|
+|as_i_enumerable|Allows to get base IEnumerable interface.<br/>            Read-only list.|
+## Indexer
+| Name | Description |
+| :- | :- |
+|[index]|Returns a point at the specified index.|
+
+### See Also
+
+* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

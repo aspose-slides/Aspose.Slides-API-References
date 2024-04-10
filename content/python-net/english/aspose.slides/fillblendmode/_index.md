@@ -1,25 +1,26 @@
-﻿---
-title: FillBlendMode enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: FillBlendMode
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/fillblendmode/
 ---
-
 
 ## FillBlendMode enumeration
 
 Determines blend mode.
 
-The FillBlendMode type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| DARKEN | Darken blend mode. |
-| LIGHTEN | Lighten blend mode. |
-| MULTIPLY | Multiply blend mode. |
-| OVERLAY | Overlay blend mode. |
-| SCREEN | Screen blend mode. |
+|DARKEN|Darken blend mode.|
+|LIGHTEN|Lighten blend mode.|
+|MULTIPLY|Multiply blend mode.|
+|OVERLAY|Overlay blend mode.|
+|SCREEN|Screen blend mode.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

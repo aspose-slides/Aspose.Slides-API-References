@@ -1,38 +1,30 @@
-﻿---
-title: MathematicalTextFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathematicalTextFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathematicaltextfactory/
 ---
-
 
 ## MathematicalTextFactory class
 
 Allows to create a MathematicalText element
 
 The MathematicalTextFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/#) |  |
-
+|MathematicalTextFactory()|Initializes a new instance of the MathematicalTextFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/#) | Create empty mathematical text element |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/#char) | Create mathematical text element with the specified value |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/#string) | Create empty mathematical text element with the specified value |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/#string-IPortionFormat) |  |
+|create_mathematical_text()|Create empty mathematical text element|
+|create_mathematical_text(math_symbol)|Create mathematical text element with the specified value|
+|create_mathematical_text(math_text)|Create empty mathematical text element with the specified value|
+|create_mathematical_text(math_text, portion_format)|Create empty mathematical text element with the specified value and formatting properties|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

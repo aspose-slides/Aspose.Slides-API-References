@@ -1,32 +1,34 @@
-﻿---
-title: ILayoutable class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ILayoutable
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/ilayoutable/
 ---
-
 
 ## ILayoutable class
 
 Specifies the exact position of a chart element.
 
 The ILayoutable type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [x](/slides/python-net/aspose.slides.charts/x) | Specifies the x location (left) of the chart element as a fraction of the width of the chart.<br/>            Read/write :py:class:`float`. |
-| [y](/slides/python-net/aspose.slides.charts/y) | Specifies the top of the chart element as a fraction of the height of the chart.<br/>            Read/write :py:class:`float`. |
-| [width](/slides/python-net/aspose.slides.charts/width) | Specifies the width of the chart element as a fraction of the width of the chart.<br/>            Read/write :py:class:`float`. |
-| [height](/slides/python-net/aspose.slides.charts/height) | Specifies the height of the chart element as a fraction of the height of the chart.<br/>            Read/write :py:class:`float`. |
-| [right](/slides/python-net/aspose.slides.charts/right) | Gets the right of the chart element as a fraction of the width of the chart.<br/>            Read-only :py:class:`float`. |
-| [bottom](/slides/python-net/aspose.slides.charts/bottom) | Gets the top of the chart element as a fraction of the height of the chart.<br/>            Read-only :py:class:`float`. |
-| [as_i_chart_component](/slides/python-net/aspose.slides.charts/as_i_chart_component) | Allows to get base IChartComponent interface.<br/>            Read-only :py:class:`aspose.slides.charts.IChartComponent`. |
-| [chart](/slides/python-net/aspose.slides.charts/chart) |  |
-| [as_i_slide_component](/slides/python-net/aspose.slides.charts/as_i_slide_component) |  |
-| [slide](/slides/python-net/aspose.slides.charts/slide) |  |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.charts/as_i_presentation_component) |  |
-| [presentation](/slides/python-net/aspose.slides.charts/presentation) |  |
+|x|Specifies the x location (left) of the chart element as a fraction of the width of the chart.<br/>            Read/write|
+|y|Specifies the top of the chart element as a fraction of the height of the chart.<br/>            Read/write|
+|width|Specifies the width of the chart element as a fraction of the width of the chart.<br/>            Read/write|
+|height|Specifies the height of the chart element as a fraction of the height of the chart.<br/>            Read/write|
+|right|Gets the right of the chart element as a fraction of the width of the chart.<br/>            Read-only|
+|bottom|Gets the top of the chart element as a fraction of the height of the chart.<br/>            Read-only|
+|as_i_chart_component|Allows to get base IChartComponent interface.<br/>            Read-only [IChartComponent](/slides/python-net/aspose.slides.charts/ichartcomponent/).|
+|chart|Returns the chart.<br/>            Read-only [IChart](/slides/python-net/aspose.slides.charts/ichart/).|
+|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

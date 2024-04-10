@@ -1,40 +1,32 @@
-﻿---
-title: IEffectFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IEffectFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/ieffectfactory/
 ---
-
 
 ## IEffectFactory class
 
 Allows to create effects' instances
 
 The IEffectFactory type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [image_transform_operation_factory](/slides/python-net/aspose.slides.effects/image_transform_operation_factory) | Returns ImageTransformOperationFactory.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperationFactory`. |
-
+|image_transform_operation_factory|Returns ImageTransformOperationFactory.<br/>            Read-only [IImageTransformOperationFactory](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/ieffectfactory/#) | Creates Glow effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/ieffectfactory/#) | Creates Inner shafow effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/ieffectfactory/#) | Creates Outer shadow effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/ieffectfactory/#) | Creates Preset shadow effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/ieffectfactory/#) | Creates Reflection effect. |
-| [__init__](/slides/python-net/aspose.slides.effects/ieffectfactory/#) | Creates Soft Edge effect. |
+|create_glow()|Creates Glow effect.|
+|create_inner_shadow()|Creates Inner shafow effect.|
+|create_outer_shadow()|Creates Outer shadow effect.|
+|create_preset_shadow()|Creates Preset shadow effect.|
+|create_reflection()|Creates Reflection effect.|
+|create_soft_edge()|Creates Soft Edge effect.|
 
+### See Also
 
-### Remarks
-
-
-            For COM compatibility.
-            
-
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

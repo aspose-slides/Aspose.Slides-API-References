@@ -1,29 +1,28 @@
-﻿---
-title: SoftEdge class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: SoftEdge
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/softedge/
 ---
-
 
 ## SoftEdge class
 
-Represents a soft edge effect. 
-            The edges of the shape are blurred, while the fill is not affected.
+Represents a soft edge effect. <br/>            The edges of the shape are blurred, while the fill is not affected.
 
 The SoftEdge type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/radius) | Specifies the radius of blur to apply to the edges.<br/>            Read/write :py:class:`float`. |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/as_i_image_transform_operation) |  |
-
+|radius|Specifies the radius of blur to apply to the edges.<br/>            Read/write float.|
+|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/softedge/#) | Gets effective Soft Edge effect data with the inheritance applied. |
+|get_effective()|Gets effective Soft Edge effect data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

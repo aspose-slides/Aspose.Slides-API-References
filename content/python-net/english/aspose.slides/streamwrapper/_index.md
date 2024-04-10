@@ -1,39 +1,39 @@
-﻿---
-title: StreamWrapper class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: StreamWrapper
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/streamwrapper/
 ---
-
 
 ## StreamWrapper class
 
 Aspose.IO.Stream wrapper for COM interface.
 
 The StreamWrapper type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [stream](/slides/python-net/aspose.slides/stream) | Gets a stream.<br/>            Read-only :py:class:`System.IO.Stream`. |
-| [can_read](/slides/python-net/aspose.slides/can_read) | Gets a value indicating whether the current stream supports reading.<br/>            Read-only :py:class:`bool`. |
-| [can_seek](/slides/python-net/aspose.slides/can_seek) | Gets a value indicating whether the current stream supports seeking.<br/>            Read-only :py:class:`bool`. |
-| [can_write](/slides/python-net/aspose.slides/can_write) | Gets a value indicating whether the current stream supports writing.<br/>            Read-only :py:class:`bool`. |
-| [length](/slides/python-net/aspose.slides/length) | Gets the length in bytes of the stream.<br/>            Read-only :py:class:`int`. |
-| [position](/slides/python-net/aspose.slides/position) | Gets or sets the position within the current stream.<br/>            Read-only :py:class:`int`. |
-| [as_i_disposable](/slides/python-net/aspose.slides/as_i_disposable) | Allows to get base IDisposable interface.<br/>            Read-only :py:class:`System.IDisposable`. |
-
+|stream|Gets a stream.<br/>            Read-only stream.|
+|can_read|Gets a value indicating whether the current stream supports reading.<br/>            Read-only bool.|
+|can_seek|Gets a value indicating whether the current stream supports seeking.<br/>            Read-only bool.|
+|can_write|Gets a value indicating whether the current stream supports writing.<br/>            Read-only bool.|
+|length|Gets the length in bytes of the stream.<br/>            Read-only int.|
+|position|Gets or sets the position within the current stream.<br/>            Read-only int.|
+|as_i_disposable|Allows to get base IDisposable interface.<br/>            Read-only disposable.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/streamwrapper/#) | Closes the current stream and releases any resources. |
-| [__init__](/slides/python-net/aspose.slides/streamwrapper/#) | Clears all buffers for this stream and causes any buffered data to be written to the underlying device. |
-| [__init__](/slides/python-net/aspose.slides/streamwrapper/#bytes-int-int) | Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. |
-| [__init__](/slides/python-net/aspose.slides/streamwrapper/#) | Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream. |
-| [__init__](/slides/python-net/aspose.slides/streamwrapper/#int-System.IO.SeekOrigin) | Sets the position within the current stream |
-| [__init__](/slides/python-net/aspose.slides/streamwrapper/#bytes-int-int) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
-| [__init__](/slides/python-net/aspose.slides/streamwrapper/#int) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
+|close()|Closes the current stream and releases any resources.|
+|flush()|Clears all buffers for this stream and causes any buffered data to be written to the underlying device.|
+|read(buffer, offset, count)|Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.|
+|read_byte()|Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream.|
+|seek(offset, origin)|Sets the position within the current stream|
+|write(buffer, offset, count)|writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written.|
+|write_byte(value)|Writes a byte to the current position in the stream and advances the position within the stream by one byte.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

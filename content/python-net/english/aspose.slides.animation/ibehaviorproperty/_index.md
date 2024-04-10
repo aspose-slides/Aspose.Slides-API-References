@@ -1,24 +1,24 @@
-﻿---
-title: IBehaviorProperty class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IBehaviorProperty
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.animation/
+url: /aspose.slides.animation/ibehaviorproperty/
 ---
-
 
 ## IBehaviorProperty class
 
-Represent property types for animation behavior.
-            Follows the list of properties from https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx
-            and https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Represent property types for animation behavior.<br/>            Follows the list of properties from https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx<br/>            and https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 The IBehaviorProperty type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [value](/slides/python-net/aspose.slides.animation/value) | Value of the property |
-| [is_custom](/slides/python-net/aspose.slides.animation/is_custom) | Shows if this property does not belong to the predefined properties list in the specification:<br/>            https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+|value|Value of the property|
+|is_custom|Shows if this property does not belong to the predefined properties list in the specification:<br/>            https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx|
+
+### See Also
+
+* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

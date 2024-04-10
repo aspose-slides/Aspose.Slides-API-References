@@ -1,24 +1,25 @@
-﻿---
-title: MathHorizontalAlignment enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathHorizontalAlignment
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathhorizontalalignment/
 ---
-
 
 ## MathHorizontalAlignment enumeration
 
 Horizontal Alignment
 
-The MathHorizontalAlignment type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| NOT_DEFINED | Value is not defined |
-| LEFT | Left Justification |
-| CENTER | Center |
-| RIGHT | Right |
+|NOT_DEFINED|Value is not defined|
+|LEFT|Left Justification|
+|CENTER|Center|
+|RIGHT|Right|
+
+### See Also
+
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

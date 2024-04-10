@@ -1,24 +1,25 @@
-﻿---
-title: TextStrikethroughType enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: TextStrikethroughType
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/textstrikethroughtype/
 ---
-
 
 ## TextStrikethroughType enumeration
 
 Represents the type of text strikethrough.
 
-The TextStrikethroughType type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| NOT_DEFINED |  |
-| NONE |  |
-| SINGLE |  |
-| DOUBLE |  |
+|NOT_DEFINED||
+|NONE||
+|SINGLE||
+|DOUBLE||
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

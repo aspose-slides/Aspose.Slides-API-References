@@ -1,24 +1,24 @@
-﻿---
-title: OOXMLCorruptFileException class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: OOXMLCorruptFileException
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ooxmlcorruptfileexception/
 ---
-
 
 ## OOXMLCorruptFileException class
 
 Exception which thrown when Office Open XML file format is corrupted.
 
-**Inheritance:**[`OOXMLCorruptFileException`](/slides/python-net/aspose.slides/ooxmlcorruptfileexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
-
 The OOXMLCorruptFileException type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/ooxmlcorruptfileexception/#) | Default constructor. |
-| [__init__](/slides/python-net/aspose.slides/ooxmlcorruptfileexception/#string) | Constructor allowing a message to be added to this exception. |
+|OOXMLCorruptFileException()|Default constructor.|
+|OOXMLCorruptFileException(message)|Initializes a new instance of the OOXMLCorruptFileException class|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

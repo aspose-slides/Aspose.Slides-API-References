@@ -1,21 +1,23 @@
-﻿---
-title: IOutputSaver class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IOutputSaver
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export.web/
+url: /aspose.slides.export.web/ioutputsaver/
 ---
-
 
 ## IOutputSaver class
 
 Represents an output saving service.
 
 The IOutputSaver type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/ioutputsaver/#string-IOutputFile) | Saves the output file to the given path. |
+|save(path, output_file)|Saves the output file to the given path.|
+
+### See Also
+
+* namespace [aspose.slides.export.web](/slides/python-net/aspose.slides.export.web/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,34 +1,32 @@
-﻿---
-title: SetEffect class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: SetEffect
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.animation/
+url: /aspose.slides.animation/seteffect/
 ---
-
 
 ## SetEffect class
 
 Represents a set effect for an animation behavior.
 
-**Inheritance:**[`SetEffect`](/slides/python-net/aspose.slides.animation/seteffect) → [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
-
 The SetEffect type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/seteffect/#) |  |
-
+|SetEffect()|Initializes a new instance of the SetEffect class|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [accumulate](/slides/python-net/aspose.slides.animation/accumulate) | Represents whether animation behaviors are accumulated.<br/>            Read/write :py:enum:`aspose.slides.NullableBool`. |
-| [additive](/slides/python-net/aspose.slides.animation/additive) | Represents whether the current animation behavior is combined with other running animations.<br/>            Read/write :py:enum:`aspose.slides.animation.BehaviorAdditiveType`. |
-| [properties](/slides/python-net/aspose.slides.animation/properties) | Represents properties of behavior.<br/>            Read-only :py:class:`aspose.slides.animation.IBehaviorPropertyCollection`. |
-| [timing](/slides/python-net/aspose.slides.animation/timing) | Represents timing properties for the effect behavior.<br/>            Read/write :py:class:`aspose.slides.animation.ITiming`. |
-| [to](/slides/python-net/aspose.slides.animation/to) | Specifies the certain attribute of a effect after an animation effect.<br/>            Represents point value.<br/>            Only: bool, ColorFormat, float, int, string.<br/>            Read/write :py:class:`any`. |
-| [as_i_behavior](/slides/python-net/aspose.slides.animation/as_i_behavior) |  |
+|accumulate|Represents whether animation behaviors are accumulated.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
+|additive|Represents whether the current animation behavior is combined with other running animations.<br/>            Read/write [BehaviorAdditiveType](/slides/python-net/aspose.slides.animation/behavioradditivetype/).|
+|properties|Represents properties of behavior.<br/>            Read-only [IBehaviorPropertyCollection](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/).|
+|timing|Represents timing properties for the effect behavior.<br/>            Read/write [ITiming](/slides/python-net/aspose.slides.animation/itiming/).|
+|to|Specifies the certain attribute of a effect after an animation effect.<br/>            Represents point value.<br/>            Only: bool, ColorFormat, float, int, string.<br/>            Read/write object.|
+|as_i_behavior|Allows to get base IBehavior interface.<br/>            Read-only [IBehavior](/slides/python-net/aspose.slides.animation/ibehavior/).|
+
+### See Also
+
+* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

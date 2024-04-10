@@ -1,22 +1,23 @@
-﻿---
-title: HyperlinkColorSource enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: HyperlinkColorSource
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/hyperlinkcolorsource/
 ---
-
 
 ## HyperlinkColorSource enumeration
 
 Represents source of hyperlink color.
 
-The HyperlinkColorSource type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| STYLES | Styles. |
-| PORTION_FORMAT | Portion format. |
+|STYLES|Styles.|
+|PORTION_FORMAT|Portion format.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

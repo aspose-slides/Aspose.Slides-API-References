@@ -1,28 +1,28 @@
-﻿---
-title: IMasterHandoutSlideManager class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IMasterHandoutSlideManager
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/imasterhandoutslidemanager/
 ---
-
 
 ## IMasterHandoutSlideManager class
 
 Master handout slide manager.
 
 The IMasterHandoutSlideManager type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [master_handout_slide](/slides/python-net/aspose.slides/master_handout_slide) | Returns a master for all notes slides of this presentation if there is one, otherwise returns null.<br/>            Read-only :py:class:`aspose.slides.IMasterHandoutSlide`. |
-
+|master_handout_slide|Returns a master for all notes slides of this presentation if there is one, otherwise returns null.<br/>            Read-only [IMasterHandoutSlide](/slides/python-net/aspose.slides/imasterhandoutslide/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/imasterhandoutslidemanager/#) | Sets default master handout slide to related handout slide. |
-| [__init__](/slides/python-net/aspose.slides/imasterhandoutslidemanager/#) | Removes master handout slide. |
+|set_default_master_handout_slide()|Sets default master handout slide to related handout slide.|
+|remove_master_handout_slide()|Removes master handout slide.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,37 +1,29 @@
-﻿---
-title: MathNaryOperatorFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathNaryOperatorFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
-
 
 ## MathNaryOperatorFactory class
 
 Allows to create IMathNaryOperator
 
 The MathNaryOperatorFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperatorfactory/#) |  |
-
+|MathNaryOperatorFactory()|Initializes a new instance of the MathNaryOperatorFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperatorfactory/#char-IMathElement-IMathElement-IMathElement) | Creates IMathNaryOperator |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperatorfactory/#char-IMathElement-IMathElement) | Creates IMathNaryOperator |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperatorfactory/#char-IMathElement) | Creates IMathNaryOperator |
+|create_math_nary_operator(operator_symbol, base_argument, lower_limit, upper_limit)|Creates IMathNaryOperator|
+|create_math_nary_operator(operator_symbol, base_argument, lower_limit)|Creates IMathNaryOperator|
+|create_math_nary_operator(operator_symbol, base_argument)|Creates IMathNaryOperator|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

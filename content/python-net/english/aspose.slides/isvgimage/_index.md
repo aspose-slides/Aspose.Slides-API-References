@@ -1,24 +1,26 @@
-﻿---
-title: ISvgImage class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ISvgImage
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/isvgimage/
 ---
-
 
 ## ISvgImage class
 
 Represents an SVG image.
 
 The ISvgImage type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [svg_content](/slides/python-net/aspose.slides/svg_content) | Returns SVG content.<br/>            Read-only :py:class:`System.String`. |
-| [svg_data](/slides/python-net/aspose.slides/svg_data) | Returns SVG data.<br/>            Read-only :py:class:`int`[]. |
-| [external_resource_resolver](/slides/python-net/aspose.slides/external_resource_resolver) | Return callback interface used to resolve external resources during SVG documents import.<br/>            Read-only :py:class:`aspose.slides.importing.IExternalResourceResolver`. |
-| [base_uri](/slides/python-net/aspose.slides/base_uri) | Returns base URI of the specified SVG. Used to resolve relative links.<br/>            Read-only :py:class:`System.String`. |
+|svg_content|Returns SVG content.<br/>            Read-only string.|
+|svg_data|Returns SVG data.<br/>            Read-only int[].|
+|external_resource_resolver|Return callback interface used to resolve external resources during SVG documents import.<br/>            Read-only [IExternalResourceResolver](/slides/python-net/aspose.slides.import/iexternalresourceresolver/).|
+|base_uri|Returns base URI of the specified SVG. Used to resolve relative links.<br/>            Read-only string.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

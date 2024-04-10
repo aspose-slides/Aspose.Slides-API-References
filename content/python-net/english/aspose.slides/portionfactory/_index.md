@@ -1,37 +1,29 @@
-﻿---
-title: PortionFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: PortionFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/portionfactory/
 ---
-
 
 ## PortionFactory class
 
 Allows to create test portions
 
 The PortionFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/portionfactory/#) |  |
-
+|PortionFactory()|Initializes a new instance of the PortionFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/portionfactory/#) | Creates an empty text portion. |
-| [__init__](/slides/python-net/aspose.slides/portionfactory/#string) | Creates a text portion from specified string. |
-| [__init__](/slides/python-net/aspose.slides/portionfactory/#IPortion) | Creates a portion with the using of a specified portion data. |
+|create_portion()|Creates an empty text portion.|
+|create_portion(str)|Creates a text portion from specified string.|
+|create_portion(portion)|Creates a portion with the using of a specified portion data.|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

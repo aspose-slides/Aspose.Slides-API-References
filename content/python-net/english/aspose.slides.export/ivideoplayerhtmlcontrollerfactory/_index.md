@@ -1,29 +1,23 @@
-﻿---
-title: IVideoPlayerHtmlControllerFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IVideoPlayerHtmlControllerFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export/
+url: /aspose.slides.export/ivideoplayerhtmlcontrollerfactory/
 ---
-
 
 ## IVideoPlayerHtmlControllerFactory class
 
 Allows to create VideoPlayerHtmlController.
 
 The IVideoPlayerHtmlControllerFactory type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/#string-string-string) | Create video player HTML controller. |
+|create_video_player_html_controller(path, file_name, base_uri)|Create video player HTML controller.|
 
+### See Also
 
-### Remarks
-
-
-            For COM compatibility.
-            
-
+* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

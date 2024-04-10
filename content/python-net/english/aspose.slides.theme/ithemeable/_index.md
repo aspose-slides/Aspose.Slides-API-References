@@ -1,30 +1,30 @@
-﻿---
-title: IThemeable class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IThemeable
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.theme/
+url: /aspose.slides.theme/ithemeable/
 ---
-
 
 ## IThemeable class
 
-Represents objects that can be themed with :py:class:`aspose.slides.theme.ITheme`.
+Represents objects that can be themed with [ITheme](/slides/python-net/aspose.slides.theme/itheme/).
 
 The IThemeable type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_slide_component](/slides/python-net/aspose.slides.theme/as_i_slide_component) | Returns ISlideComponent interface.<br/>            Read-only :py:class:`aspose.slides.ISlideComponent`. |
-| [slide](/slides/python-net/aspose.slides.theme/slide) |  |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.theme/as_i_presentation_component) |  |
-| [presentation](/slides/python-net/aspose.slides.theme/presentation) |  |
-
+|as_i_slide_component|Returns ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.theme/ithemeable/#) | Returns an effective theme for this themeable object. |
+|create_theme_effective()|Returns an effective theme for this themeable object.|
+
+### See Also
+
+* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

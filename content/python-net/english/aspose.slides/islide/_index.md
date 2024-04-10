@@ -1,72 +1,72 @@
-﻿---
-title: ISlide class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ISlide
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/islide/
 ---
-
 
 ## ISlide class
 
 Represents a slide in a presentation.
 
 The ISlide type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [header_footer_manager](/slides/python-net/aspose.slides/header_footer_manager) | Returns HeaderFooter manager of the slide.<br/>            Read-only :py:class:`aspose.slides.ISlideHeaderFooterManager`. |
-| [slide_number](/slides/python-net/aspose.slides/slide_number) | Returns a number of slide.<br/>            Index of slide in :py:attr:`aspose.slides.IPresentation.slides` collection is always equal to SlideNumber - 1.<br/>            Read/write :py:class:`int`. |
-| [hidden](/slides/python-net/aspose.slides/hidden) | Determines whether the specified slide is hidden during a slide show.<br/>            Read/write :py:class:`bool`. |
-| [layout_slide](/slides/python-net/aspose.slides/layout_slide) | Returns or sets the layout slide for the current slide.<br/>            Read/write :py:class:`aspose.slides.ILayoutSlide`. |
-| [notes_slide_manager](/slides/python-net/aspose.slides/notes_slide_manager) | Allow to access notes slide, add and remove it.<br/>            Read-only :py:class:`aspose.slides.INotesSlideManager`. |
-| [as_i_base_slide](/slides/python-net/aspose.slides/as_i_base_slide) | Allows to get base IBaseSlide interface.<br/>            Read-only :py:class:`aspose.slides.IBaseSlide`. |
-| [as_i_override_themeable](/slides/python-net/aspose.slides/as_i_override_themeable) | Returns IOverrideThemeable interface.<br/>            Read-only :py:class:`aspose.slides.theme.IOverrideThemeable`. |
-| [shapes](/slides/python-net/aspose.slides/shapes) |  |
-| [controls](/slides/python-net/aspose.slides/controls) |  |
-| [name](/slides/python-net/aspose.slides/name) |  |
-| [slide_id](/slides/python-net/aspose.slides/slide_id) |  |
-| [custom_data](/slides/python-net/aspose.slides/custom_data) |  |
-| [timeline](/slides/python-net/aspose.slides/timeline) |  |
-| [slide_show_transition](/slides/python-net/aspose.slides/slide_show_transition) |  |
-| [background](/slides/python-net/aspose.slides/background) |  |
-| [hyperlink_queries](/slides/python-net/aspose.slides/hyperlink_queries) |  |
-| [show_master_shapes](/slides/python-net/aspose.slides/show_master_shapes) |  |
-| [as_i_slide_component](/slides/python-net/aspose.slides/as_i_slide_component) |  |
-| [slide](/slides/python-net/aspose.slides/slide) |  |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/as_i_presentation_component) |  |
-| [presentation](/slides/python-net/aspose.slides/presentation) |  |
-| [theme_manager](/slides/python-net/aspose.slides/theme_manager) |  |
-
+|header_footer_manager|Returns HeaderFooter manager of the slide.<br/>            Read-only [ISlideHeaderFooterManager](/slides/python-net/aspose.slides/islideheaderfootermanager/).|
+|slide_number|Returns a number of slide.<br/>            Index of slide in [slides](/slides/python-net/aspose.slides/ipresentation/) collection is always equal to SlideNumber - 1.<br/>            Read/write|
+|hidden|Determines whether the specified slide is hidden during a slide show.<br/>            Read/write bool.|
+|layout_slide|Returns or sets the layout slide for the current slide.<br/>            Read/write [ILayoutSlide](/slides/python-net/aspose.slides/ilayoutslide/).|
+|notes_slide_manager|Allow to access notes slide, add and remove it.<br/>            Read-only [INotesSlideManager](/slides/python-net/aspose.slides/inotesslidemanager/).|
+|as_i_base_slide|Allows to get base IBaseSlide interface.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|as_i_override_themeable|Returns IOverrideThemeable interface.<br/>            Read-only [IOverrideThemeable](/slides/python-net/aspose.slides.theme/ioverridethemeable/).|
+|shapes|Returns the shapes of a slide.<br/>            Read-only [IShapeCollection](/slides/python-net/aspose.slides/ishapecollection/).|
+|controls|Returns the collection of ActiveX controls on a slide.<br/>            Read-only [IControlCollection](/slides/python-net/aspose.slides/icontrolcollection/).|
+|name|Returns or sets the name of a slide.<br/>            Read/write string.|
+|slide_id|Returns the ID of a slide.<br/>            Read-only int.|
+|custom_data|Returns the slide's custom data.<br/>            Read-only [ICustomData](/slides/python-net/aspose.slides/icustomdata/).|
+|timeline|Returns animation timeline object.<br/>            Read-only [IAnimationTimeLine](/slides/python-net/aspose.slides/ianimationtimeline/).|
+|slide_show_transition|Returns the TransitionEx object which contains information about<br/>            how the specified slide advances during a slide show.<br/>            Read-only [ISlideShowTransition](/slides/python-net/aspose.slides/islideshowtransition/).|
+|background|Returns slide's background.<br/>            Read-only [IBackground](/slides/python-net/aspose.slides/ibackground/).|
+|hyperlink_queries|Provides easy access to contained hyperlinks.<br/>            Read-only [IHyperlinkQueries](/slides/python-net/aspose.slides/ihyperlinkqueries/).|
+|show_master_shapes|Specifies if shapes on the master slide should be shown on slides or not.<br/>            For master slide itself this property always returns|
+|as_i_slide_component|Returns ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+|theme_manager|Returns override theme manager.<br/>            Read-only [IOverrideThemeManager](/slides/python-net/aspose.slides.theme/ioverridethememanager/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/islide/#float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [__init__](/slides/python-net/aspose.slides/islide/#) | Returns a Thumbnail Image object (20% of real size). |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.pydrawing.Size) | Returns a Thumbnail Bitmap object with specified size. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.ITiffOptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.INotesCommentsLayoutingOptions) | Returns a Thumbnail Bitmap object. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Size) | Returns a Thumbnail Bitmap object with specified size. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.IRenderingOptions) | Returns a Thumbnail Bitmap object. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.IRenderingOptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Size) | Returns a Thumbnail Bitmap object with specified size. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-int-int) | Renders certain slide to a Graphics object. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-float) | Renders certain slide to a Graphics object. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics) | Renders certain slide to a Graphics object. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics) | Renders certain slide to a Graphics object. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-float-float) | Renders certain slide to a Graphics object with custom scaling. |
-| [__init__](/slides/python-net/aspose.slides/islide/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-aspose.pydrawing.Size) | Renders certain slide to a Graphics object using specified size. |
-| [__init__](/slides/python-net/aspose.slides/islide/#System.IO.Stream) | Saves content of slide as SVG file. |
-| [__init__](/slides/python-net/aspose.slides/islide/#System.IO.Stream-aspose.slides.export.ISVGOptions) | Saves content of slide as SVG file. |
-| [__init__](/slides/python-net/aspose.slides/islide/#ICommentAuthor) | Returns all slide comments added by specific author. |
-| [__init__](/slides/python-net/aspose.slides/islide/#) | Removes slide from presentation. |
-| [__init__](/slides/python-net/aspose.slides/islide/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [__init__](/slides/python-net/aspose.slides/islide/#string) |  |
-| [__init__](/slides/python-net/aspose.slides/islide/#) |  |
-| [__init__](/slides/python-net/aspose.slides/islide/#IBaseSlide) |  |
-| [__init__](/slides/python-net/aspose.slides/islide/#) |  |
+|get_thumbnail(scale_x, scale_y)|Returns a Thumbnail Bitmap object with custom scaling.|
+|get_thumbnail()|Returns a Thumbnail Bitmap object with custom scaling.|
+|get_thumbnail(image_size)|Returns a Thumbnail Bitmap object with specified size.|
+|get_thumbnail(options)|Returns a Thumbnail tiff bitmap object with specified parameters.|
+|get_thumbnail(notes_comments_layouting)|Returns a Thumbnail Bitmap object.|
+|get_thumbnail(notes_comments_layouting, scale_x, scale_y)|Returns a Thumbnail Bitmap object with custom scaling.|
+|get_thumbnail(options, image_size)|Returns a Thumbnail Bitmap object with specified size.|
+|get_thumbnail(options)|Returns a Thumbnail Bitmap object.|
+|get_thumbnail(options, scale_x, scale_y)|Returns a Thumbnail Bitmap object with custom scaling.|
+|get_thumbnail(options, image_size)|Returns a Thumbnail Bitmap object with specified size.|
+|render_to_graphics(notes_comments_layouting, graphics, width, height)|Renders certain slide to a Graphics object.|
+|render_to_graphics(notes_comments_layouting, graphics, scale)|Renders certain slide to a Graphics object.|
+|render_to_graphics(notes_comments_layouting, graphics)|Renders certain slide to a Graphics object.|
+|render_to_graphics(options, graphics)|Renders certain slide to a Graphics object.|
+|render_to_graphics(options, graphics, scale_x, scale_y)|Renders certain slide to a Graphics object with custom scaling.|
+|render_to_graphics(options, graphics, rendering_size)|Renders certain slide to a Graphics object using specified size.|
+|write_as_svg(stream)|Saves content of slide as SVG file.|
+|write_as_svg(stream, svg_options)|Saves content of slide as SVG file.|
+|get_slide_comments(author)|Returns all slide comments added by specific author.|
+|remove()|Removes slide from presentation.|
+|reset()|Resets position, size and formatting of every shape that has a prototype on LayoutSlide.|
+|find_shape_by_alt_text(alt_text)|Finds first occurrence of a shape with the specified alternative text.|
+|join_portions_with_same_formatting()|Joins runs with same formatting in all paragraphs in all acceptable shapes.|
+|equals(slide)|Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder.|
+|create_theme_effective()|Returns an effective theme for this themeable object.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

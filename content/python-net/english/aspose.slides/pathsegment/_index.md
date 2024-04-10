@@ -1,22 +1,24 @@
-﻿---
-title: PathSegment class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: PathSegment
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/pathsegment/
 ---
-
 
 ## PathSegment class
 
 Represents segment of graphics path of GeometryShape
 
 The PathSegment type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [segment_data](/slides/python-net/aspose.slides/segment_data) | Path data of the segment |
-| [path_command](/slides/python-net/aspose.slides/path_command) | Path type of the segment |
+|segment_data|Path data of the segment|
+|path_command|Path type of the segment|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

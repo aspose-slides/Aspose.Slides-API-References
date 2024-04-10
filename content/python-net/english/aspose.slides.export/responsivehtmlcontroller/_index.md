@@ -1,39 +1,37 @@
-﻿---
-title: ResponsiveHtmlController class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ResponsiveHtmlController
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export/
+url: /aspose.slides.export/responsivehtmlcontroller/
 ---
-
 
 ## ResponsiveHtmlController class
 
 Responsive HTML Controller
 
 The ResponsiveHtmlController type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/#) | Creates new instance |
-| [__init__](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/#IHtmlFormattingController) | Creates new instance |
-
+|ResponsiveHtmlController()|Creates new instance|
+|ResponsiveHtmlController(controller)|Initializes a new instance of the ResponsiveHtmlController class|
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_html_formatting_controller](/slides/python-net/aspose.slides.export/as_i_html_formatting_controller) |  |
-
+|as_i_html_formatting_controller|Returns IHtmlFormattingController interface.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/#IHtmlGenerator-IPresentation) |  |
-| [__init__](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/#IHtmlGenerator-IPresentation) |  |
-| [__init__](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/#IHtmlGenerator-ISlide) |  |
-| [__init__](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/#IHtmlGenerator-ISlide) |  |
-| [__init__](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/#IHtmlGenerator-IShape) |  |
-| [__init__](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/#IHtmlGenerator-IShape) |  |
+|write_document_start(generator, presentation)|Called to write html document header. Called once per presentation conversion.|
+|write_document_end(generator, presentation)|Called to write html document footer. Called once per presentation conversion.|
+|write_slide_start(generator, slide)|Called to write html slide header. Called once per each of slides.|
+|write_slide_end(generator, slide)|Called to write html slide footer. Called once per each of slides.|
+|write_shape_start(generator, shape)|Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.|
+|write_shape_end(generator, shape)|Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.|
+
+### See Also
+
+* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

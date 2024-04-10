@@ -1,27 +1,29 @@
-﻿---
-title: HyperlinkManager class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: HyperlinkManager
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/hyperlinkmanager/
 ---
-
 
 ## HyperlinkManager class
 
 Provide hyperlinks management (adding, removing).
 
 The HyperlinkManager type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/hyperlinkmanager/#string) | Set external hyperlink on click. |
-| [__init__](/slides/python-net/aspose.slides/hyperlinkmanager/#ISlide) | Sets internal hyperlink on click. |
-| [__init__](/slides/python-net/aspose.slides/hyperlinkmanager/#) | Removes hyperlink on click. |
-| [__init__](/slides/python-net/aspose.slides/hyperlinkmanager/#string) | Sets external hyperlink mouse over. |
-| [__init__](/slides/python-net/aspose.slides/hyperlinkmanager/#ISlide) | Sets internal hyperlink mouse over. |
-| [__init__](/slides/python-net/aspose.slides/hyperlinkmanager/#) | Removes hyperlink mouse over. |
-| [__init__](/slides/python-net/aspose.slides/hyperlinkmanager/#string) | Set Macro hyperlink on a click. |
+|set_external_hyperlink_click(url)|Set external hyperlink on click.|
+|set_internal_hyperlink_click(target_slide)|Sets internal hyperlink on click.|
+|remove_hyperlink_click()|Removes hyperlink on click.|
+|set_external_hyperlink_mouse_over(url)|Sets external hyperlink mouse over.|
+|set_internal_hyperlink_mouse_over(target_slide)|Sets internal hyperlink mouse over.|
+|remove_hyperlink_mouse_over()|Removes hyperlink mouse over.|
+|set_macro_hyperlink_click(macro_name)|Set Macro hyperlink on a click.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,37 +1,35 @@
-﻿---
-title: TabCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: TabCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/tabcollection/
 ---
-
 
 ## TabCollection class
 
 Represents a collection of tabs.
 
 The TabCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/as_i_collection) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|as_i_collection|Returns ICollection class.|
+|as_i_enumerable|Returns IEnumerable class.|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/tabcollection/#float-TabAlignment) | Adds a Tab to the collection. |
-| [__init__](/slides/python-net/aspose.slides/tabcollection/#ITab) | Adds a Tab to the collection. |
-| [__init__](/slides/python-net/aspose.slides/tabcollection/#) | Removes all elements from the collection. |
-| [__init__](/slides/python-net/aspose.slides/tabcollection/#int) | Removes the element at the specified index of the collection. |
+|[index]|Gets the element at the specified index.<br/>            Read-only [Tab](/slides/python-net/aspose.slides/tab/).|
+## Methods
+| Name | Description |
+| :- | :- |
+|add(position, align)|Adds a Tab to the collection.|
+|add(value)|Adds a Tab to the collection.|
+|clear()|Removes all elements from the collection.|
+|remove_at(index)|Removes the element at the specified index of the collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,35 +1,27 @@
-﻿---
-title: MathSubscriptElementFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathSubscriptElementFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
-
 
 ## MathSubscriptElementFactory class
 
 Allows to create IMathSubscriptElement
 
 The MathSubscriptElementFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/#) |  |
-
+|MathSubscriptElementFactory()|Initializes a new instance of the MathSubscriptElementFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/#IMathElement-IMathElement) | Creates IMathSubscriptElement |
+|create_math_subscript_element(base_arg, sub_script)|Creates IMathSubscriptElement|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

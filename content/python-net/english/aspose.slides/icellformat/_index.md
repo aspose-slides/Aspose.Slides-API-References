@@ -1,33 +1,33 @@
-﻿---
-title: ICellFormat class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ICellFormat
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/icellformat/
 ---
-
 
 ## ICellFormat class
 
 Represents format of a table cell.
 
 The ICellFormat type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [fill_format](/slides/python-net/aspose.slides/fill_format) | Returns a cell fill properties object.<br/>            Read-only :py:class:`aspose.slides.IFillFormat`. |
-| [border_left](/slides/python-net/aspose.slides/border_left) | Returns a left border line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
-| [border_top](/slides/python-net/aspose.slides/border_top) | Returns a top border line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
-| [border_right](/slides/python-net/aspose.slides/border_right) | Returns a right border line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
-| [border_bottom](/slides/python-net/aspose.slides/border_bottom) | Returns a bottom border line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
-| [border_diagonal_down](/slides/python-net/aspose.slides/border_diagonal_down) | Returns a top-left to bottom-right diagonal line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
-| [border_diagonal_up](/slides/python-net/aspose.slides/border_diagonal_up) | Returns a bottom-left to top-right diagonal line properties object.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
-
+|fill_format|Returns a cell fill properties object.<br/>            Read-only [IFillFormat](/slides/python-net/aspose.slides/ifillformat/).|
+|border_left|Returns a left border line properties object.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
+|border_top|Returns a top border line properties object.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
+|border_right|Returns a right border line properties object.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
+|border_bottom|Returns a bottom border line properties object.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
+|border_diagonal_down|Returns a top-left to bottom-right diagonal line properties object.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
+|border_diagonal_up|Returns a bottom-left to top-right diagonal line properties object.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/icellformat/#) | Gets effective table cell formatting properties with inheritance and table styles applied. |
+|get_effective()|Gets effective table cell formatting properties with inheritance and table styles applied.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

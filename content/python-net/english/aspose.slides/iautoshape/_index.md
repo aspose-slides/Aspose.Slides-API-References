@@ -1,81 +1,81 @@
-﻿---
-title: IAutoShape class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IAutoShape
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/iautoshape/
 ---
-
 
 ## IAutoShape class
 
 Represents an AutoShape.
 
 The IAutoShape type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [shape_lock](/slides/python-net/aspose.slides/shape_lock) | Returns shape's locks.<br/>            Read-only :py:class:`aspose.slides.IAutoShapeLock`. |
-| [auto_shape_lock](/slides/python-net/aspose.slides/auto_shape_lock) | Returns AutoShape's locks.<br/>            Read-only :py:class:`aspose.slides.IAutoShapeLock`. |
-| [text_frame](/slides/python-net/aspose.slides/text_frame) | Returns TextFrameEx object for the AutoShapeEx.<br/>            Read-only :py:class:`aspose.slides.ITextFrame`. |
-| [use_background_fill](/slides/python-net/aspose.slides/use_background_fill) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format.<br/>            Read/write :py:class:`bool`. |
-| [is_text_box](/slides/python-net/aspose.slides/is_text_box) | Specifies if the shape is a text box. |
-| [as_i_geometry_shape](/slides/python-net/aspose.slides/as_i_geometry_shape) | Allows to get base IGeometryShape interface.<br/>            Read-only :py:class:`aspose.slides.IGeometryShape`. |
-| [shape_style](/slides/python-net/aspose.slides/shape_style) |  |
-| [shape_type](/slides/python-net/aspose.slides/shape_type) |  |
-| [adjustments](/slides/python-net/aspose.slides/adjustments) |  |
-| [as_i_shape](/slides/python-net/aspose.slides/as_i_shape) |  |
-| [is_text_holder](/slides/python-net/aspose.slides/is_text_holder) |  |
-| [placeholder](/slides/python-net/aspose.slides/placeholder) |  |
-| [custom_data](/slides/python-net/aspose.slides/custom_data) |  |
-| [raw_frame](/slides/python-net/aspose.slides/raw_frame) |  |
-| [frame](/slides/python-net/aspose.slides/frame) |  |
-| [line_format](/slides/python-net/aspose.slides/line_format) |  |
-| [three_d_format](/slides/python-net/aspose.slides/three_d_format) |  |
-| [effect_format](/slides/python-net/aspose.slides/effect_format) |  |
-| [fill_format](/slides/python-net/aspose.slides/fill_format) |  |
-| [hidden](/slides/python-net/aspose.slides/hidden) |  |
-| [z_order_position](/slides/python-net/aspose.slides/z_order_position) |  |
-| [connection_site_count](/slides/python-net/aspose.slides/connection_site_count) |  |
-| [rotation](/slides/python-net/aspose.slides/rotation) |  |
-| [x](/slides/python-net/aspose.slides/x) |  |
-| [y](/slides/python-net/aspose.slides/y) |  |
-| [width](/slides/python-net/aspose.slides/width) |  |
-| [height](/slides/python-net/aspose.slides/height) |  |
-| [alternative_text](/slides/python-net/aspose.slides/alternative_text) |  |
-| [alternative_text_title](/slides/python-net/aspose.slides/alternative_text_title) |  |
-| [name](/slides/python-net/aspose.slides/name) |  |
-| [is_decorative](/slides/python-net/aspose.slides/is_decorative) |  |
-| [unique_id](/slides/python-net/aspose.slides/unique_id) |  |
-| [office_interop_shape_id](/slides/python-net/aspose.slides/office_interop_shape_id) |  |
-| [is_grouped](/slides/python-net/aspose.slides/is_grouped) |  |
-| [black_white_mode](/slides/python-net/aspose.slides/black_white_mode) |  |
-| [parent_group](/slides/python-net/aspose.slides/parent_group) |  |
-| [as_i_hyperlink_container](/slides/python-net/aspose.slides/as_i_hyperlink_container) |  |
-| [as_i_slide_component](/slides/python-net/aspose.slides/as_i_slide_component) |  |
-| [slide](/slides/python-net/aspose.slides/slide) |  |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/as_i_presentation_component) |  |
-| [presentation](/slides/python-net/aspose.slides/presentation) |  |
-| [hyperlink_click](/slides/python-net/aspose.slides/hyperlink_click) |  |
-| [hyperlink_mouse_over](/slides/python-net/aspose.slides/hyperlink_mouse_over) |  |
-| [hyperlink_manager](/slides/python-net/aspose.slides/hyperlink_manager) |  |
-
+|shape_lock|Returns shape's locks.<br/>            Read-only [IAutoShapeLock](/slides/python-net/aspose.slides/iautoshapelock/).|
+|auto_shape_lock|Returns AutoShape's locks.<br/>            Read-only [IAutoShapeLock](/slides/python-net/aspose.slides/iautoshapelock/).|
+|text_frame|Returns TextFrameEx object for the AutoShapeEx.<br/>            Read-only [ITextFrame](/slides/python-net/aspose.slides/itextframe/).|
+|use_background_fill|Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format.<br/>            Read/write bool.|
+|is_text_box|Specifies if the shape is a text box.|
+|as_i_geometry_shape|Allows to get base IGeometryShape interface.<br/>            Read-only [IGeometryShape](/slides/python-net/aspose.slides/igeometryshape/).|
+|shape_style|Returns shape's style object.<br/>            Read-only [IShapeStyle](/slides/python-net/aspose.slides/ishapestyle/).|
+|shape_type|Returns or sets the geometry preset type.<br/>            Note: on value changing all adjustment values will reset to their default values.<br/>            Read/write [ShapeType](/slides/python-net/aspose.slides/shapetype/).|
+|adjustments|Returns a collection of shape's adjustment values.<br/>            Read-only [IAdjustValueCollection](/slides/python-net/aspose.slides/iadjustvaluecollection/).|
+|as_i_shape|Allows to get base IShape interface.<br/>            Read-only [IShape](/slides/python-net/aspose.slides/ishape/).|
+|is_text_holder|Determines whether the shape is TextHolder.<br/>            Read-only bool.|
+|placeholder|Returns the placeholder for a shape.<br/>            Read-only [IPlaceholder](/slides/python-net/aspose.slides/iplaceholder/).|
+|custom_data|Returns the shape's custom data.<br/>            Read-only [ICustomData](/slides/python-net/aspose.slides/icustomdata/).|
+|raw_frame|Returns or sets the raw shape frame's properties.<br/>            Read/write [IShapeFrame](/slides/python-net/aspose.slides/ishapeframe/).|
+|frame|Returns or sets the shape frame's properties.<br/>            Read/write [IShapeFrame](/slides/python-net/aspose.slides/ishapeframe/).|
+|line_format|Returns the LineFormat object that contains line formatting properties for a shape.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
+|three_d_format|Returns the ThreeDFormat object that contains line formatting properties for a shape.<br/>            Read-only [IThreeDFormat](/slides/python-net/aspose.slides/ithreedformat/).|
+|effect_format|Returns the EffectFormat object which contains pixel effects applied to a shape.<br/>            Read-only [IEffectFormat](/slides/python-net/aspose.slides/ieffectformat/).|
+|fill_format|Returns the FillFormat object that contains fill formatting properties for a shape.<br/>            Read-only [IFillFormat](/slides/python-net/aspose.slides/ifillformat/).|
+|hidden|Determines whether the shape is hidden.<br/>            Read/write bool.|
+|z_order_position|Returns the position of a shape in the z-order.<br/>            Shapes[0] returns the shape at the back of the z-order,<br/>            and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order.<br/>            Read-only|
+|connection_site_count|Returns the number of connection sites on the shape.<br/>            Read-only|
+|rotation|Returns or sets the number of degrees the specified shape is rotated around<br/>            the z-axis. A positive value indicates clockwise rotation; a negative value<br/>            indicates counterclockwise rotation.<br/>            Read/write|
+|x|Returns or sets the x-coordinate of the upper-left corner of the shape.<br/>            Read/write|
+|y|Returns or sets the y-coordinate of the upper-left corner of the shape.<br/>            Read/write|
+|width|Returns or sets the width of the shape.<br/>            Read/write|
+|height|Returns or sets the height of the shape.<br/>            Read/write|
+|alternative_text|Returns or sets the alternative text associated with a shape.<br/>            Read/write string.|
+|alternative_text_title|Returns or sets the title of alternative text associated with a shape.<br/>            Read/write string.|
+|name|Returns or sets the name of a shape.<br/>            Read/write string.|
+|is_decorative|Gets or sets 'Mark as decorative' option<br/>            Reed/write bool.|
+|unique_id|Gets unique shape identifier in presentation scope.<br/>            Read-only int.<br/>            See also [office_interop_shape_id](/slides/python-net/aspose.slides/ishape/) for getting unique shape identifier in slide scope.|
+|office_interop_shape_id|Gets unique shape identifier in slide scope.<br/>            Read-only int.<br/>            See also [unique_id](/slides/python-net/aspose.slides/ishape/) for getting unique shape identifier in presentation scope.|
+|is_grouped|Determines whether the shape is grouped.<br/>            Read-only bool.|
+|black_white_mode|Property specifies how a shape will render in black-and-white display mode..<br/>            Read/write [BlackWhiteMode](/slides/python-net/aspose.slides/blackwhitemode/).|
+|parent_group|Returns parent GroupShape object if shape is grouped. Otherwise returns null.<br/>            Read-only [IGroupShape](/slides/python-net/aspose.slides/igroupshape/).|
+|as_i_hyperlink_container|Allows to get base IHyperlinkContainer interface.<br/>            Read-only [IHyperlinkContainer](/slides/python-net/aspose.slides/ihyperlinkcontainer/).|
+|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+|hyperlink_click|Returns or sets the hyperlink defined for mouse click.<br/>            Read/write [IHyperlink](/slides/python-net/aspose.slides/ihyperlink/).|
+|hyperlink_mouse_over|Returns or sets the hyperlink defined for mouse over.<br/>            Read/write [IHyperlink](/slides/python-net/aspose.slides/ihyperlink/).|
+|hyperlink_manager|Hyperlinks manager<br/>            Read-only [IHyperlinkManager](/slides/python-net/aspose.slides/ihyperlinkmanager/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#ShapeThumbnailBounds-float-float) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#System.IO.Stream) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#string) | Adds a new TextFrameEx to a shape.<br/>            If shape already has TextFrameEx then simply changes its text. |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#IGeometryPath) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#List[IGeometryPath]) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#IPlaceholder) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#) |  |
-| [__init__](/slides/python-net/aspose.slides/iautoshape/#) |  |
+|get_thumbnail()|Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.|
+|get_thumbnail(bounds, scale_x, scale_y)|Returns shape thumbnail.|
+|write_as_svg(stream)|Saves content of Shape as SVG file.|
+|write_as_svg(stream, svg_options)|Saves content of Shape as SVG file.|
+|add_text_frame(text)|Adds a new TextFrameEx to a shape.<br/>            If shape already has TextFrameEx then simply changes its text.|
+|get_geometry_paths()|Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape.|
+|set_geometry_path(geometry_path)|Updates shape geometry from [IGeometryPath](/slides/python-net/aspose.slides/igeometrypath/) object. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([shape_type](/slides/python-net/aspose.slides/igeometryshape/)) to [CUSTOM](/slides/python-net/aspose.slides/shapetype/).|
+|set_geometry_paths(geometry_paths)|Updates shape geometry from array of [IGeometryPath](/slides/python-net/aspose.slides/igeometrypath/). Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([shape_type](/slides/python-net/aspose.slides/igeometryshape/)) to [CUSTOM](/slides/python-net/aspose.slides/shapetype/).|
+|create_shape_elements()|Creates and returns array of shape's elements.|
+|add_placeholder(placeholder_to_copy_from)|Adds a new placeholder if there is no and sets placeholder properties to a specified one.|
+|remove_placeholder()|Defines that this shape isn't a placeholder.|
+|get_base_placeholder()|Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

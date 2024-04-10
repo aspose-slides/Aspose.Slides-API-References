@@ -1,31 +1,25 @@
-﻿---
-title: IPortionFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IPortionFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/iportionfactory/
 ---
-
 
 ## IPortionFactory class
 
 Allows to create test portions
 
 The IPortionFactory type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/iportionfactory/#) | Creates an empty text portion. |
-| [__init__](/slides/python-net/aspose.slides/iportionfactory/#string) | Creates a text portion from specified string. |
-| [__init__](/slides/python-net/aspose.slides/iportionfactory/#IPortion) | Creates a portion with the using of a specified portion data. |
+|create_portion()|Creates an empty text portion.|
+|create_portion(str)|Creates a text portion from specified string.|
+|create_portion(portion)|Creates an empty text portion.|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

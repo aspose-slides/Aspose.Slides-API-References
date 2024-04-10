@@ -1,24 +1,24 @@
-﻿---
-title: PptCorruptFileException class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: PptCorruptFileException
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/pptcorruptfileexception/
 ---
-
 
 ## PptCorruptFileException class
 
 Exception which thrown when presentation file is probably corrupt.
 
-**Inheritance:**[`PptCorruptFileException`](/slides/python-net/aspose.slides/pptcorruptfileexception) → [`PptReadException`](/slides/python-net/aspose.slides/pptreadexception) → [`PptException`](/slides/python-net/aspose.slides/pptexception)
-
 The PptCorruptFileException type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/pptcorruptfileexception/#) | Default constructor. |
-| [__init__](/slides/python-net/aspose.slides/pptcorruptfileexception/#string) | Constructor allowing a message to be added to this exception. |
+|PptCorruptFileException()|Default constructor.|
+|PptCorruptFileException(message)|Initializes a new instance of the PptCorruptFileException class|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

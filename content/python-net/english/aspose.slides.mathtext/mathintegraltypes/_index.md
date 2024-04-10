@@ -1,26 +1,27 @@
-﻿---
-title: MathIntegralTypes enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathIntegralTypes
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathintegraltypes/
 ---
-
 
 ## MathIntegralTypes enumeration
 
 Mathematical integral types
 
-The MathIntegralTypes type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| SIMPLE | Integral: '∫' |
-| DOUBLE | Double Integral: '∬' |
-| TRIPLE | Triple Integral: '∭' |
-| CONTOUR | Contour Integral: '∮' |
-| SURFACE | Surface Integral: '∯' |
-| VOLUME | VolumeIntegral: '∰' |
+|SIMPLE|Integral: '∫'|
+|DOUBLE|Double Integral: '∬'|
+|TRIPLE|Triple Integral: '∭'|
+|CONTOUR|Contour Integral: '∮'|
+|SURFACE|Surface Integral: '∯'|
+|VOLUME|VolumeIntegral: '∰'|
+
+### See Also
+
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

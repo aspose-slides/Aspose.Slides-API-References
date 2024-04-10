@@ -1,23 +1,25 @@
-﻿---
-title: IFontSubstRule class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IFontSubstRule
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ifontsubstrule/
 ---
-
 
 ## IFontSubstRule class
 
 Represents font subtituition information
 
 The IFontSubstRule type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [source_font](/slides/python-net/aspose.slides/source_font) | Font to substitute<br/>            Read-only :py:class:`aspose.slides.IFontData`. |
-| [dest_font](/slides/python-net/aspose.slides/dest_font) | Font to use for substitution<br/>            Read-only :py:class:`aspose.slides.IFontData`. |
-| [replace_font_condition](/slides/python-net/aspose.slides/replace_font_condition) | Rule to apply for substitution<br/>            Read-only :py:enum:`aspose.slides.FontSubstCondition`. |
+|source_font|Font to substitute<br/>            Read-only [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
+|dest_font|Font to use for substitution<br/>            Read-only [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
+|replace_font_condition|Rule to apply for substitution<br/>            Read-only [FontSubstCondition](/slides/python-net/aspose.slides/fontsubstcondition/).|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

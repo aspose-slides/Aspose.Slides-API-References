@@ -1,24 +1,26 @@
-﻿---
-title: Placeholder class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Placeholder
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/placeholder/
 ---
-
 
 ## Placeholder class
 
 Represents a placeholder on a slide.
 
 The Placeholder type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [orientation](/slides/python-net/aspose.slides/orientation) | Gets or sets the orientation of a placeholder.<br/>            Read-only :py:enum:`aspose.slides.Orientation`. |
-| [size](/slides/python-net/aspose.slides/size) | Gets or sets the size of a placeholder.<br/>            Read-only :py:enum:`aspose.slides.PlaceholderSize`. |
-| [type](/slides/python-net/aspose.slides/type) | Gets or sets the type of a placeholder.<br/>            Read-only :py:enum:`aspose.slides.PlaceholderType`. |
-| [index](/slides/python-net/aspose.slides/index) | Gets or sets the index of a placeholder.<br/>            Read-only :py:class:`int`. |
+|orientation|Gets or sets the orientation of a placeholder.<br/>            Read-only [Orientation](/slides/python-net/aspose.slides/orientation/).|
+|size|Gets or sets the size of a placeholder.<br/>            Read-only [PlaceholderSize](/slides/python-net/aspose.slides/placeholdersize/).|
+|type|Gets or sets the type of a placeholder.<br/>            Read-only [PlaceholderType](/slides/python-net/aspose.slides/placeholdertype/).|
+|index|Gets or sets the index of a placeholder.<br/>            Read-only int.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

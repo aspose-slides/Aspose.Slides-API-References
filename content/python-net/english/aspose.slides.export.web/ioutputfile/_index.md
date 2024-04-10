@@ -1,21 +1,23 @@
-﻿---
-title: IOutputFile class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IOutputFile
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export.web/
+url: /aspose.slides.export.web/ioutputfile/
 ---
-
 
 ## IOutputFile class
 
 Represents an output file.
 
 The IOutputFile type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/ioutputfile/#System.IO.Stream) | Writes the file content to the stream. |
+|write(stream)|Writes the file content to the stream.|
+
+### See Also
+
+* namespace [aspose.slides.export.web](/slides/python-net/aspose.slides.export.web/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

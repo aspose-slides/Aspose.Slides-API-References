@@ -1,33 +1,30 @@
-﻿---
-title: AlphaInverse class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: AlphaInverse
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/alphainverse/
 ---
-
 
 ## AlphaInverse class
 
-Represents an Alpha Inverse effect.
-            Alpha (opacity) values are inverted by subtracting from 100%.
-
-**Inheritance:**[`AlphaInverse`](/slides/python-net/aspose.slides.effects/alphainverse) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+Represents an Alpha Inverse effect.<br/>            Alpha (opacity) values are inverted by subtracting from 100%.
 
 The AlphaInverse type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/as_i_presentation_component) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [slide](/slides/python-net/aspose.slides.effects/slide) |  |
-| [presentation](/slides/python-net/aspose.slides.effects/presentation) |  |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/as_i_image_transform_operation) |  |
-
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/alphainverse/#) | Gets effective Alpha Inverse effect data with the inheritance applied. |
+|get_effective()|Gets effective Alpha Inverse effect data with the inheritance applied.|
+
+### See Also
+
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

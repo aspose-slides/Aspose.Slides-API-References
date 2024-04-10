@@ -1,25 +1,25 @@
-﻿---
-title: FlyThroughTransition class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: FlyThroughTransition
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.slideshow/
+url: /aspose.slides.slideshow/flythroughtransition/
 ---
-
 
 ## FlyThroughTransition class
 
 Fly-through slide transition effect.
 
-**Inheritance:**[`FlyThroughTransition`](/slides/python-net/aspose.slides.slideshow/flythroughtransition) → [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
-
 The FlyThroughTransition type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/direction) | Direction of transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionInOutDirectionType`. |
-| [has_bounce](/slides/python-net/aspose.slides.slideshow/has_bounce) | Specifies that the movement of the presentation slides during the transition includes a bounce.<br/>            Read/write :py:class:`bool`. |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/as_i_transition_value_base) |  |
+|direction|Direction of transition.<br/>            Read/write [TransitionInOutDirectionType](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype/).|
+|has_bounce|Specifies that the movement of the presentation slides during the transition includes a bounce.<br/>            Read/write bool.|
+|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
+
+### See Also
+
+* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

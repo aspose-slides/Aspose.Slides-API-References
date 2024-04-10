@@ -1,33 +1,35 @@
-﻿---
-title: IPresentationFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IPresentationFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ipresentationfactory/
 ---
-
 
 ## IPresentationFactory class
 
 Allows to create presentation via COM interface
 
 The IPresentationFactory type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#) | Creates new presentation. |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#ILoadOptions) | Creates new presentation with additional load options |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#string) | Gets info about presentation in specified file. |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#System.IO.Stream) | Gets info about presentation in specified stream. |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#bytes) | Reads an existing presentation from array |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#bytes-ILoadOptions) | Reads an existing presentation from array with additional load options |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#System.IO.Stream) | Reads an existing presentation from stream |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#System.IO.Stream-ILoadOptions) | Reads an existing presentation from stream with additional load options |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#string) | Reads an existing presentation from file |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#string-ILoadOptions) | Reads an existing presentation from stream with additional load options |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#string-TextExtractionArrangingMode) | Retrieves the raw text from the slides |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#System.IO.Stream-TextExtractionArrangingMode) | Retrieves the raw text from the slides |
-| [__init__](/slides/python-net/aspose.slides/ipresentationfactory/#System.IO.Stream-TextExtractionArrangingMode-ILoadOptions) | Retrieves the raw text from the slides |
+|create_presentation()|Creates new presentation.|
+|create_presentation(options)|Creates new presentation with additional load options|
+|get_presentation_info(file)|Gets info about presentation in specified file.|
+|get_presentation_info(stream)|Gets info about presentation in specified stream.|
+|read_presentation(data)|Reads an existing presentation from array|
+|read_presentation(data, options)|Reads an existing presentation from array with additional load options|
+|read_presentation(stream)|Reads an existing presentation from stream|
+|read_presentation(stream, options)|Reads an existing presentation from stream with additional load options|
+|read_presentation(file)|Reads an existing presentation from file|
+|read_presentation(file, options)|Reads an existing presentation from stream with additional load options|
+|get_presentation_text(file, mode)|Retrieves the raw text from the slides|
+|get_presentation_text(stream, mode)|Retrieves the raw text from the slides|
+|get_presentation_text(stream, mode, options)|Retrieves the raw text from the slides|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

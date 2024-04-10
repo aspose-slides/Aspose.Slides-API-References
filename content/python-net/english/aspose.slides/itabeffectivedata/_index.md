@@ -1,31 +1,24 @@
-﻿---
-title: ITabEffectiveData class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ITabEffectiveData
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/itabeffectivedata/
 ---
-
 
 ## ITabEffectiveData class
 
 Immutable object which contains effective text's tabulation stop properties.
 
 The ITabEffectiveData type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [position](/slides/python-net/aspose.slides/position) | Returns position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read-only :py:class:`float`. |
-| [alignment](/slides/python-net/aspose.slides/alignment) | Returns align style of a tab.<br/>            Read-only :py:enum:`aspose.slides.TabAlignment`. |
+|position|Returns position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read-only float.|
+|alignment|Returns align style of a tab.<br/>            Read-only [TabAlignment](/slides/python-net/aspose.slides/tabalignment/).|
 
+### See Also
 
-### Remarks
-
-
-            This interface is used as a part of 
-.
-            
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

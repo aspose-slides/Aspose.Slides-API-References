@@ -1,24 +1,25 @@
-﻿---
-title: MathFunctionsOfTwoArguments enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathFunctionsOfTwoArguments
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
-
 
 ## MathFunctionsOfTwoArguments enumeration
 
 Common mathematical functions of two arguments
 
-The MathFunctionsOfTwoArguments type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| LOG | Log |
-| LIM | Limit |
-| MIN | Minimum |
-| MAX | Maximum |
+|LOG|Log|
+|LIM|Limit|
+|MIN|Minimum|
+|MAX|Maximum|
+
+### See Also
+
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

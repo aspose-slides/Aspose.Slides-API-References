@@ -1,24 +1,24 @@
-﻿---
-title: WheelTransition class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: WheelTransition
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.slideshow/
+url: /aspose.slides.slideshow/wheeltransition/
 ---
-
 
 ## WheelTransition class
 
 Wheel slide transition effect.
 
-**Inheritance:**[`WheelTransition`](/slides/python-net/aspose.slides.slideshow/wheeltransition) → [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
-
 The WheelTransition type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [spokes](/slides/python-net/aspose.slides.slideshow/spokes) | Number spokes of wheel transition.<br/>            Read/write :py:class:`int`. |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/as_i_transition_value_base) |  |
+|spokes|Number spokes of wheel transition.<br/>            Read/write int.|
+|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
+
+### See Also
+
+* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

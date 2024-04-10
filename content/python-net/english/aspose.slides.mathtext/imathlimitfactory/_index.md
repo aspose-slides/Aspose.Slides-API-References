@@ -1,30 +1,24 @@
-﻿---
-title: IMathLimitFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IMathLimitFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/imathlimitfactory/
 ---
-
 
 ## IMathLimitFactory class
 
 Allows to create IMathLimit
 
 The IMathLimitFactory type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathlimitfactory/#IMathElement-IMathElement-bool) | Creates IMathLimit |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathlimitfactory/#IMathElement-IMathElement) | Creates IMathLimit with limit at the bottom |
+|create_math_limit(base_arg, limit, upper_limit)|Creates IMathLimit|
+|create_math_limit(base_arg, limit)|Creates IMathLimit|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

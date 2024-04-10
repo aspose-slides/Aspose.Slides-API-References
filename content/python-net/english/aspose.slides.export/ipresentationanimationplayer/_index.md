@@ -1,28 +1,28 @@
-﻿---
-title: IPresentationAnimationPlayer class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IPresentationAnimationPlayer
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export/
+url: /aspose.slides.export/ipresentationanimationplayer/
 ---
-
 
 ## IPresentationAnimationPlayer class
 
 Represents a player of the animation.
 
 The IPresentationAnimationPlayer type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [duration](/slides/python-net/aspose.slides.export/duration) | Get animation duration [ms] |
-
+|duration|Get animation duration [ms]|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/#float) | Set the animation time position within the :py:attr:`aspose.slides.export.IPresentationAnimationPlayer.duration`. |
-| [__init__](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/#) | Get the frame for the current time position previously set with the :py:func:`Aspose.Slides.Export.IPresentationAnimationPlayer.SetTimePosition(Syste.` method. |
+|set_time_position(time)|Set the animation time position within the [duration](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/).|
+|get_frame()|Get the frame for the current time position previously set with the|
+
+### See Also
+
+* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

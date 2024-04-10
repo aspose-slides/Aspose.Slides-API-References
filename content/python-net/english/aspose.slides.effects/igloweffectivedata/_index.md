@@ -1,24 +1,25 @@
-﻿---
-title: IGlowEffectiveData class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IGlowEffectiveData
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.effects/
+url: /aspose.slides.effects/igloweffectivedata/
 ---
-
 
 ## IGlowEffectiveData class
 
-Immutable object which represents a Glow effect, in which a color blurred outline 
-            is added outside the edges of the object.
+Immutable object which represents a Glow effect, in which a color blurred outline <br/>            is added outside the edges of the object.
 
 The IGlowEffectiveData type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/radius) | Radius.<br/>            Read-only :py:class:`float`. |
-| [color](/slides/python-net/aspose.slides.effects/color) | Color.<br/>            Read-only :py:class:`aspose.pydrawing.Color`. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/as_i_effect_effective_data) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only :py:class:`aspose.slides.effects.IEffectEffectiveData`. |
+|radius|Radius.<br/>            Read-only float.|
+|color|Color.<br/>            Read-only aspose.pydrawing.Color.|
+|as_i_effect_effective_data|Allows to get base IEffectEffectiveData interface.<br/>            Read-only [IEffectEffectiveData](/slides/python-net/aspose.slides.effects/ieffecteffectivedata/).|
+
+### See Also
+
+* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

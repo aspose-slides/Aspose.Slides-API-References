@@ -1,24 +1,26 @@
-﻿---
-title: Behavior class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Behavior
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.animation/
+url: /aspose.slides.animation/behavior/
 ---
-
 
 ## Behavior class
 
 Represent base class behavior of effect.
 
 The Behavior type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [accumulate](/slides/python-net/aspose.slides.animation/accumulate) | Represents whether animation behaviors are accumulated.<br/>            Read/write :py:enum:`aspose.slides.NullableBool`. |
-| [additive](/slides/python-net/aspose.slides.animation/additive) | Represents whether the current animation behavior is combined with other running animations.<br/>            Read/write :py:enum:`aspose.slides.animation.BehaviorAdditiveType`. |
-| [properties](/slides/python-net/aspose.slides.animation/properties) | Represents properties of behavior.<br/>            Read-only :py:class:`aspose.slides.animation.IBehaviorPropertyCollection`. |
-| [timing](/slides/python-net/aspose.slides.animation/timing) | Represents timing properties for the effect behavior.<br/>            Read/write :py:class:`aspose.slides.animation.ITiming`. |
+|accumulate|Represents whether animation behaviors are accumulated.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
+|additive|Represents whether the current animation behavior is combined with other running animations.<br/>            Read/write [BehaviorAdditiveType](/slides/python-net/aspose.slides.animation/behavioradditivetype/).|
+|properties|Represents properties of behavior.<br/>            Read-only [IBehaviorPropertyCollection](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/).|
+|timing|Represents timing properties for the effect behavior.<br/>            Read/write [ITiming](/slides/python-net/aspose.slides.animation/itiming/).|
+
+### See Also
+
+* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

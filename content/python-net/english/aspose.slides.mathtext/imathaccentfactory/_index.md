@@ -1,30 +1,24 @@
-﻿---
-title: IMathAccentFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IMathAccentFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/imathaccentfactory/
 ---
-
 
 ## IMathAccentFactory class
 
 Allows to create a math accent
 
 The IMathAccentFactory type exposes the following members:
-
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathaccentfactory/#IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
-| [__init__](/slides/python-net/aspose.slides.mathtext/imathaccentfactory/#IMathElement-char) | Creates a math accent applying to a specified math element |
+|create_math_accent(element)|Creates a math accent applying to a specified math element with the default accent character value|
+|create_math_accent(element, accent_character)|Creates a math accent applying to a specified math element|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

@@ -1,56 +1,57 @@
-﻿---
-title: SlideLayoutType enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: SlideLayoutType
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/slidelayouttype/
 ---
-
 
 ## SlideLayoutType enumeration
 
 Represents the slide layout type.
 
-The SlideLayoutType type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| CUSTOM | Custom |
-| TITLE | Title |
-| TEXT | Text |
-| TWO_COLUMN_TEXT | Two Column Text |
-| TABLE | Table |
-| TEXT_AND_CHART | Text and Chart |
-| CHART_AND_TEXT | Chart and Text |
-| DIAGRAM | Diagram |
-| CHART | Chart |
-| TEXT_AND_CLIP_ART | Text and Clip Art |
-| CLIP_ART_AND_TEXT | Clip Art and Text |
-| TITLE_ONLY | Title Only |
-| BLANK | Blank |
-| TEXT_AND_OBJECT | Text and Object |
-| OBJECT_AND_TEXT | Object and Text |
-| OBJECT | Object |
-| TITLE_AND_OBJECT | Title and Object |
-| TEXT_AND_MEDIA | Text and Media |
-| MEDIA_AND_TEXT | Media and Text |
-| OBJECT_OVER_TEXT | Object over Text |
-| TEXT_OVER_OBJECT | Text over Object |
-| TEXT_AND_TWO_OBJECTS | Text and Two Objects |
-| TWO_OBJECTS_AND_TEXT | Two Objects and Text |
-| TWO_OBJECTS_OVER_TEXT | Two Objects over Text |
-| FOUR_OBJECTS | Four Objects |
-| VERTICAL_TEXT | Vertical Text |
-| CLIP_ART_AND_VERTICAL_TEXT | Clip Art and Vertical Text |
-| VERTICAL_TITLE_AND_TEXT | Vertical Title and Text |
-| VERTICAL_TITLE_AND_TEXT_OVER_CHART | Vertical Title and Text Over Chart |
-| TWO_OBJECTS | Two Objects |
-| OBJECT_AND_TWO_OBJECT | Object and Two Object |
-| TWO_OBJECTS_AND_OBJECT | Two Objects and Object |
-| SECTION_HEADER | Section Header |
-| TWO_TEXT_AND_TWO_OBJECTS | Two Text and Two Objects |
-| TITLE_OBJECT_AND_CAPTION | Title, Object, and Caption |
-| PICTURE_AND_CAPTION | Picture and Caption |
+|CUSTOM|Custom|
+|TITLE|Title|
+|TEXT|Text|
+|TWO_COLUMN_TEXT|Two Column Text|
+|TABLE|Table|
+|TEXT_AND_CHART|Text and Chart|
+|CHART_AND_TEXT|Chart and Text|
+|DIAGRAM|Diagram|
+|CHART|Chart|
+|TEXT_AND_CLIP_ART|Text and Clip Art|
+|CLIP_ART_AND_TEXT|Clip Art and Text|
+|TITLE_ONLY|Title Only|
+|BLANK|Blank|
+|TEXT_AND_OBJECT|Text and Object|
+|OBJECT_AND_TEXT|Object and Text|
+|OBJECT|Object|
+|TITLE_AND_OBJECT|Title and Object|
+|TEXT_AND_MEDIA|Text and Media|
+|MEDIA_AND_TEXT|Media and Text|
+|OBJECT_OVER_TEXT|Object over Text|
+|TEXT_OVER_OBJECT|Text over Object|
+|TEXT_AND_TWO_OBJECTS|Text and Two Objects|
+|TWO_OBJECTS_AND_TEXT|Two Objects and Text|
+|TWO_OBJECTS_OVER_TEXT|Two Objects over Text|
+|FOUR_OBJECTS|Four Objects|
+|VERTICAL_TEXT|Vertical Text|
+|CLIP_ART_AND_VERTICAL_TEXT|Clip Art and Vertical Text|
+|VERTICAL_TITLE_AND_TEXT|Vertical Title and Text|
+|VERTICAL_TITLE_AND_TEXT_OVER_CHART|Vertical Title and Text Over Chart|
+|TWO_OBJECTS|Two Objects|
+|OBJECT_AND_TWO_OBJECT|Object and Two Object|
+|TWO_OBJECTS_AND_OBJECT|Two Objects and Object|
+|SECTION_HEADER|Section Header|
+|TWO_TEXT_AND_TWO_OBJECTS|Two Text and Two Objects|
+|TITLE_OBJECT_AND_CAPTION|Title, Object, and Caption|
+|PICTURE_AND_CAPTION|Picture and Caption|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

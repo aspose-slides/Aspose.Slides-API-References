@@ -1,25 +1,25 @@
-﻿---
-title: GlitterTransition class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: GlitterTransition
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.slideshow/
+url: /aspose.slides.slideshow/glittertransition/
 ---
-
 
 ## GlitterTransition class
 
 Glitter slide transition effect.
 
-**Inheritance:**[`GlitterTransition`](/slides/python-net/aspose.slides.slideshow/glittertransition) → [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
-
 The GlitterTransition type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/direction) | Direction of transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionSideDirectionType`. |
-| [pattern](/slides/python-net/aspose.slides.slideshow/pattern) | Specifies the shape of the visuals used during the transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionPattern`. |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/as_i_transition_value_base) |  |
+|direction|Direction of transition.<br/>            Read/write [TransitionSideDirectionType](/slides/python-net/aspose.slides.slideshow/transitionsidedirectiontype/).|
+|pattern|Specifies the shape of the visuals used during the transition.<br/>            Read/write [TransitionPattern](/slides/python-net/aspose.slides.slideshow/transitionpattern/).|
+|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
+
+### See Also
+
+* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

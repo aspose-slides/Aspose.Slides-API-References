@@ -1,42 +1,40 @@
-﻿---
-title: ChartSeriesCollection class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ChartSeriesCollection
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.charts/
+url: /aspose.slides.charts/chartseriescollection/
 ---
-
 
 ## ChartSeriesCollection class
 
-Represents collection of  :py:class:`aspose.slides.charts.ChartSeries`
+Represents collection of  [ChartSeries](/slides/python-net/aspose.slides.charts/chartseries/)
 
 The ChartSeriesCollection type exposes the following members:
-
 ## Properties
-
-| Property | Description |
-| :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides.charts/as_i_collection) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.charts/as_i_enumerable) |  |
-
-## Indexer
-
 | Name | Description |
 | :- | :- |
-| [index] |  |
-
-## Methods
-
-| Method | Description |
+|as_i_collection|Returns ICollection class.|
+|as_i_enumerable|Returns IEnumerable class.|
+## Indexer
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.charts/chartseriescollection/#ChartType) | Creates new chart series and adds it to the collection. |
-| [__init__](/slides/python-net/aspose.slides.charts/chartseriescollection/#IChartDataCell-ChartType) | Creates new chart series from :py:class:`aspose.slides.charts.ChartDataCell` and adds it to the collection. |
-| [__init__](/slides/python-net/aspose.slides.charts/chartseriescollection/#IChartCellCollection-ChartType) | Creates new chart series from :py:class:`aspose.slides.charts.ChartCellCollection` and adds it to the collection. |
-| [__init__](/slides/python-net/aspose.slides.charts/chartseriescollection/#string-ChartType) | Creates new chart series from value and adds it to the collection. |
-| [__init__](/slides/python-net/aspose.slides.charts/chartseriescollection/#int-ChartType) | Creates new chart series and inserts it into the collection. |
-| [__init__](/slides/python-net/aspose.slides.charts/chartseriescollection/#IChartSeries) | Searches for the specified :py:class:`aspose.slides.charts.ChartSeries` and returns the zero-based index of the first occurrence within the entire Collection |
-| [__init__](/slides/python-net/aspose.slides.charts/chartseriescollection/#IChartSeries) | Removes the specified value. |
-| [__init__](/slides/python-net/aspose.slides.charts/chartseriescollection/#int) | Removes an ActiveX control stored at specified position from the collection. |
-| [__init__](/slides/python-net/aspose.slides.charts/chartseriescollection/#) | Removes all controls from the collection. |
+|[index]|Gets the element at the specified index.|
+## Methods
+| Name | Description |
+| :- | :- |
+|add(type)|Creates new chart series and adds it to the collection.|
+|add(cell_with_series_name, type)|Creates new chart series from [ChartDataCell](/slides/python-net/aspose.slides.charts/chartdatacell/) and adds it to the collection.|
+|add(cells_with_series_name, type)|Creates new chart series from [ChartCellCollection](/slides/python-net/aspose.slides.charts/chartcellcollection/) and adds it to the collection.|
+|add(name, type)|Creates new chart series from value and adds it to the collection.|
+|insert(index, type)|Creates new chart series and inserts it into the collection.|
+|index_of(value)|Searches for the specified [ChartSeries](/slides/python-net/aspose.slides.charts/chartseries/) and returns the zero-based index of the first occurrence within the entire Collection|
+|remove(value)|Removes the specified value.|
+|remove_at(index)|Removes an ActiveX control stored at specified position from the collection.|
+|clear()|Removes all controls from the collection.|
+
+### See Also
+
+* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

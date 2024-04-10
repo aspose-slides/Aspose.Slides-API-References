@@ -1,44 +1,38 @@
-﻿---
-title: IBaseHandoutNotesSlideHeaderFooterManag class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IBaseHandoutNotesSlideHeaderFooterManag
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
-
 
 ## IBaseHandoutNotesSlideHeaderFooterManag class
 
 Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides.
 
 The IBaseHandoutNotesSlideHeaderFooterManag type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [is_header_visible](/slides/python-net/aspose.slides/is_header_visible) | Gets value indicating that a header placeholder is present.<br/>            Read :py:class:`bool`. |
-| [as_i_base_slide_header_footer_manager](/slides/python-net/aspose.slides/as_i_base_slide_header_footer_manager) | Returns IBaseSlideHeaderFooterManager interface. |
-| [is_footer_visible](/slides/python-net/aspose.slides/is_footer_visible) |  |
-| [is_slide_number_visible](/slides/python-net/aspose.slides/is_slide_number_visible) |  |
-| [is_date_time_visible](/slides/python-net/aspose.slides/is_date_time_visible) |  |
-| [as_i_base_header_footer_manager](/slides/python-net/aspose.slides/as_i_base_header_footer_manager) |  |
-
+|is_header_visible|Gets value indicating that a header placeholder is present.<br/>            Read bool.|
+|as_i_base_slide_header_footer_manager|Returns IBaseSlideHeaderFooterManager interface.|
+|is_footer_visible|Gets value indicating that a footer placeholder is present.<br/>            Read bool.|
+|is_slide_number_visible|Gets value indicating that a page number placeholder is present.<br/>            Readbool.|
+|is_date_time_visible|Gets value indicating that a date-time placeholder is present.<br/>            Readbool.|
+|as_i_base_header_footer_manager|Returns IBaseHeaderFooterManager interface.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/#bool) | Changes slide header placeholder visibility. |
-| [__init__](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/#string) | Sets text to slide header placeholder. |
-| [__init__](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/#bool) |  |
-| [__init__](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/#bool) |  |
-| [__init__](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/#bool) |  |
-| [__init__](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/#string) |  |
-| [__init__](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/#string) |  |
+|set_header_visibility(is_visible)|Changes slide header placeholder visibility.|
+|set_header_text(text)|Sets text to slide header placeholder.|
+|set_footer_visibility(is_visible)|Changes slide footer placeholder visibility.|
+|set_slide_number_visibility(is_visible)|Changes slide page number placeholder visibility.|
+|set_date_time_visibility(is_visible)|Changes slide date-time placeholder visibility.|
+|set_footer_text(text)|Sets text to slide footer placeholder.|
+|set_date_time_text(text)|Sets text to slide date-time placeholder.|
 
+### See Also
 
-### Remarks
-
-Original interface name "IBaseHandoutNotesSlideHeaderFooterManager" is trancuted to "IBaseHandoutNotesSlideHeaderFooterManag" for COM compatibility (type name length must be not more than 39).
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

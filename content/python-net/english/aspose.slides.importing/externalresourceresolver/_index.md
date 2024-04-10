@@ -1,28 +1,28 @@
-﻿---
-title: ExternalResourceResolver class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: ExternalResourceResolver
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.importing/
+url: /aspose.slides.importing/externalresourceresolver/
 ---
-
 
 ## ExternalResourceResolver class
 
 Callback class used to resolve external resources during Html, Svg documents import.
 
 The ExternalResourceResolver type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.importing/externalresourceresolver/#) |  |
-
+|ExternalResourceResolver()|Initializes a new instance of the ExternalResourceResolver class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.importing/externalresourceresolver/#string-string) | Resolves the absolute URI from the base and relative URIs. |
-| [__init__](/slides/python-net/aspose.slides.importing/externalresourceresolver/#string) | Maps a URI to an object containing the actual resource. |
+|resolve_uri(base_uri, relative_uri)|Resolves the absolute URI from the base and relative URIs.|
+|get_entity(absolute_uri)|Maps a URI to an object containing the actual resource.|
+
+### See Also
+
+* namespace [aspose.slides.importing](/slides/python-net/aspose.slides.importing/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

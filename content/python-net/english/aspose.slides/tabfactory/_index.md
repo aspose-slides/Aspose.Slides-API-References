@@ -1,33 +1,27 @@
-﻿---
-title: TabFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: TabFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/tabfactory/
 ---
-
 
 ## TabFactory class
 
 Allows to create ITab instances
 
 The TabFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/tabfactory/#) |  |
-
+|TabFactory()|Initializes a new instance of the TabFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/tabfactory/#float-TabAlignment) | Creates a new ITab instance. |
+|create_tab(position, align)|Creates a new ITab instance.|
 
+### See Also
 
-### Remarks
-
-For COM compatibility.
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

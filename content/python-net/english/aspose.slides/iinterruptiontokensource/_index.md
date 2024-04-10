@@ -1,28 +1,28 @@
-﻿---
-title: IInterruptionTokenSource class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IInterruptionTokenSource
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/iinterruptiontokensource/
 ---
-
 
 ## IInterruptionTokenSource class
 
-Represents the source of :py:class:`aspose.slides.IInterruptionToken`.
+Represents the source of [IInterruptionToken](/slides/python-net/aspose.slides/iinterruptiontoken/).
 
 The IInterruptionTokenSource type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [token](/slides/python-net/aspose.slides/token) | Returns new token binded to this :py:class:`aspose.slides.IInterruptionTokenSource`. |
-| [is_interruption_requested](/slides/python-net/aspose.slides/is_interruption_requested) | Returns true if interruption requested, false otherwise. |
-
+|token|Returns new token binded to this [IInterruptionTokenSource](/slides/python-net/aspose.slides/iinterruptiontokensource/).|
+|is_interruption_requested|Returns true if interruption requested, false otherwise.|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/iinterruptiontokensource/#) | Intialize request for interruption. |
+|interrupt()|Intialize request for interruption.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

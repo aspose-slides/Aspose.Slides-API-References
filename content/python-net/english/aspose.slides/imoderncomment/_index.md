@@ -1,37 +1,37 @@
-﻿---
-title: IModernComment class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IModernComment
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/imoderncomment/
 ---
-
 
 ## IModernComment class
 
 Represents a comment on a slide.
 
 The IModernComment type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [shape](/slides/python-net/aspose.slides/shape) | Returns a shape associated with the comment.<br/>            Read-only :py:class:`aspose.slides.IShape`. |
-| [text_selection_start](/slides/python-net/aspose.slides/text_selection_start) | Returns or sets starting position of text selection in text frame if the comment associated with AutoShape.<br/>            Read/write :py:class:`int`. |
-| [text_selection_length](/slides/python-net/aspose.slides/text_selection_length) | Returns or sets text selection length in text frame if the comment associated with AutoShape.<br/>            Read/write :py:class:`int`. |
-| [status](/slides/python-net/aspose.slides/status) | Returns or sets the status of the comment.<br/>            Read/write :py:enum:`aspose.slides.ModernCommentStatus`. |
-| [as_i_comment](/slides/python-net/aspose.slides/as_i_comment) | Allows to get base IComment interface.<br/>            Read-only :py:class:`aspose.slides.IComment`. |
-| [text](/slides/python-net/aspose.slides/text) |  |
-| [created_time](/slides/python-net/aspose.slides/created_time) |  |
-| [slide](/slides/python-net/aspose.slides/slide) |  |
-| [author](/slides/python-net/aspose.slides/author) |  |
-| [position](/slides/python-net/aspose.slides/position) |  |
-| [parent_comment](/slides/python-net/aspose.slides/parent_comment) |  |
-
+|shape|Returns a shape associated with the comment.<br/>            Read-only [IShape](/slides/python-net/aspose.slides/ishape/).|
+|text_selection_start|Returns or sets starting position of text selection in text frame if the comment associated with AutoShape.<br/>            Read/write|
+|text_selection_length|Returns or sets text selection length in text frame if the comment associated with AutoShape.<br/>            Read/write|
+|status|Returns or sets the status of the comment.<br/>            Read/write [ModernCommentStatus](/slides/python-net/aspose.slides/moderncommentstatus/).|
+|as_i_comment|Allows to get base IComment interface.<br/>            Read-only [IComment](/slides/python-net/aspose.slides/icomment/).|
+|text|Returns or sets the plain text of a slide comment.<br/>            Read/write string.|
+|created_time|Returns or sets the time of a comment creation.<br/>            Setting this property to min date value means no comment time is set.<br/>            Read/write datetime.|
+|slide|Returns or sets the parent slide of a comment.<br/>            Read-only [ISlide](/slides/python-net/aspose.slides/islide/).|
+|author|Returns the author of a comment.<br/>            Read-only [ICommentAuthor](/slides/python-net/aspose.slides/icommentauthor/).|
+|position|Returns or sets the position of a comment on a slide.<br/>            Read/write aspose.pydrawing.PointF.|
+|parent_comment|Gets or sets parent comment.<br/>            Read/write [IComment](/slides/python-net/aspose.slides/icomment/).|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/imoderncomment/#) |  |
+|remove()|Removes comment and all its replies from the parent collection.|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

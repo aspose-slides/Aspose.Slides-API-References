@@ -1,36 +1,28 @@
-﻿---
-title: MathFractionFactory class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: MathFractionFactory
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.mathtext/
+url: /aspose.slides.mathtext/mathfractionfactory/
 ---
-
 
 ## MathFractionFactory class
 
 Allows to create a math fraction
 
 The MathFractionFactory type exposes the following members:
-
 ## Constructors
-
-| Constructor | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/#) |  |
-
+|MathFractionFactory()|Initializes a new instance of the MathFractionFactory class|
 ## Methods
-
-| Method | Description |
+| Name | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/#IMathElement-IMathElement-MathFractionTypes) | Creates a math fraction |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/#IMathElement-IMathElement) | Creates a math fraction |
+|create_math_fraction(numerator, denominator, fraction_type)|Creates a math fraction|
+|create_math_fraction(numerator, denominator)|Creates a math fraction|
 
+### See Also
 
-### Remarks
-
-
-            For COM comparibility
-            
-
+* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

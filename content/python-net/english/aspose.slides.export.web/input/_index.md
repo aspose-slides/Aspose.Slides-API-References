@@ -1,15 +1,19 @@
-﻿---
-title: Input class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Input
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides.export.web/
+url: /aspose.slides.export.web/input/
 ---
-
 
 ## Input class
 
 Represents a collection of input elements (templates).
 
 The Input type exposes the following members:
+
+### See Also
+
+* namespace [aspose.slides.export.web](/slides/python-net/aspose.slides.export.web/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

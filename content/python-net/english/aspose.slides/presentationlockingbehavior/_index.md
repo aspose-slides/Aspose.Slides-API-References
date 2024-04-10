@@ -1,37 +1,23 @@
-﻿---
-title: PresentationLockingBehavior enumeration
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: PresentationLockingBehavior
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/presentationlockingbehavior/
 ---
-
 
 ## PresentationLockingBehavior enumeration
 
-Represents the behavior regarding treating the :py:class:`aspose.slides.IPresentation` source (file or 
-            :py:class:`System.IO.Stream`) while loading and working with an instance of :py:class:`aspose.slides.IPresentation`.
+Represents the behavior regarding treating the [IPresentation](/slides/python-net/aspose.slides/ipresentation/) source (file or <br/>            stream) while loading and working with an instance of [IPresentation](/slides/python-net/aspose.slides/ipresentation/).
 
-The PresentationLockingBehavior type exposes the following members:
-
-## Fields
-
-| Field | Description |
+## Members
+| Member name | Description |
 | :- | :- |
-| LOAD_AND_RELEASE | The source will be locked only for a time of :py:class:`aspose.slides.IPresentation` constructor execution. |
-| KEEP_LOCKED | The source will be locked for a whole lifetime of :py:class:`aspose.slides.IPresentation` instance, until it will <br/>            be disposed. |
+|LOAD_AND_RELEASE|The source will be locked only for a time of [IPresentation](/slides/python-net/aspose.slides/ipresentation/) constructor execution.|
+|KEEP_LOCKED|The source will be locked for a whole lifetime of [IPresentation](/slides/python-net/aspose.slides/ipresentation/) instance, until it will <br/>            be disposed.|
 
+### See Also
 
-### Remarks
-
-The source is the parameter passed to the 
- constructor. In the 
-            example below, the source is the "pres.pptx" file:
-            
-
-            For this example, the source ("pres.pptx" file) will be locked for a 
- 
-            instance lifetime, i.e. can't be changed or deleted by the other process.
-            
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

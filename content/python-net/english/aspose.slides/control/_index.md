@@ -1,31 +1,33 @@
-﻿---
-title: Control class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: Control
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/control/
 ---
-
 
 ## Control class
 
 Represents an ActiveX control.
 
 The Control type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [persistence](/slides/python-net/aspose.slides/persistence) | Gets the method used to store properties of the ActiveX control.<br/>            Read only :py:enum:`aspose.slides.PersistenceType`. |
-| [name](/slides/python-net/aspose.slides/name) | Gets or sets the name of this control.<br/>            Read/write :py:class:`System.String`. |
-| [class_id](/slides/python-net/aspose.slides/class_id) | Gets class id of this control.<br/>            Read-only :py:class:`System.Guid`. |
-| [substitute_picture_format](/slides/python-net/aspose.slides/substitute_picture_format) | Returns Control image fill properties object.<br/>            Read-only :py:class:`aspose.slides.IPictureFillFormat`. |
-| [frame](/slides/python-net/aspose.slides/frame) | Returns or sets control's frame.<br/>            Read/write :py:class:`aspose.slides.IShapeFrame`. |
-| [properties](/slides/python-net/aspose.slides/properties) | Returns a collection of ActiveX properties.<br/>            <br/>            Read-only :py:class:`aspose.slides.IControlPropertiesCollection`. |
-| [active_x_control_binary](/slides/python-net/aspose.slides/active_x_control_binary) | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
-| [as_i_slide_component](/slides/python-net/aspose.slides/as_i_slide_component) |  |
-| [slide](/slides/python-net/aspose.slides/slide) |  |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/as_i_presentation_component) |  |
-| [presentation](/slides/python-net/aspose.slides/presentation) |  |
+|persistence|Gets the method used to store properties of the ActiveX control.<br/>            Read only [PersistenceType](/slides/python-net/aspose.slides/persistencetype/).|
+|name|Gets or sets the name of this control.<br/>            Read/write string.|
+|class_id|Gets class id of this control.<br/>            Read-only string.|
+|substitute_picture_format|Returns Control image fill properties object.<br/>            Read-only [IPictureFillFormat](/slides/python-net/aspose.slides/ipicturefillformat/).|
+|frame|Returns or sets control's frame.<br/>            Read/write [IShapeFrame](/slides/python-net/aspose.slides/ishapeframe/).|
+|properties|Returns a collection of ActiveX properties.|
+|active_x_control_binary|Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage.|
+|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
+|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
+|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
+|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+
+### See Also
+
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

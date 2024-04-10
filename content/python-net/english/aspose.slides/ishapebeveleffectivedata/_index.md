@@ -1,32 +1,25 @@
-﻿---
-title: IShapeBevelEffectiveData class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IShapeBevelEffectiveData
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ishapebeveleffectivedata/
 ---
-
 
 ## IShapeBevelEffectiveData class
 
 Immutable object which contains effective shape's face relief properties.
 
 The IShapeBevelEffectiveData type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [width](/slides/python-net/aspose.slides/width) | Bevel width.<br/>            Read-only :py:class:`float`. |
-| [height](/slides/python-net/aspose.slides/height) | Bevel height.<br/>            Read-only :py:class:`float`. |
-| [bevel_type](/slides/python-net/aspose.slides/bevel_type) | Bevel type.<br/>            Read-only :py:enum:`aspose.slides.BevelPresetType`. |
+|width|Bevel width.<br/>            Read-only float.|
+|height|Bevel height.<br/>            Read-only float.|
+|bevel_type|Bevel type.<br/>            Read-only [BevelPresetType](/slides/python-net/aspose.slides/bevelpresettype/).|
 
+### See Also
 
-### Remarks
-
-
-            This interface is used as a part of 
-.
-            
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 

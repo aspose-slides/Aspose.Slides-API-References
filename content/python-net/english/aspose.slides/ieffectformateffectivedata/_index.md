@@ -1,39 +1,32 @@
-﻿---
-title: IEffectFormatEffectiveData class
-second_title: Aspose.Slides for Python via .NET API Reference
+---
+title: IEffectFormatEffectiveData
+second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.slides/
+url: /aspose.slides/ieffectformateffectivedata/
 ---
-
 
 ## IEffectFormatEffectiveData class
 
 Imutable object which contains effective effect formatting properties.
 
 The IEffectFormatEffectiveData type exposes the following members:
-
 ## Properties
-
-| Property | Description |
+| Name | Description |
 | :- | :- |
-| [is_no_effects](/slides/python-net/aspose.slides/is_no_effects) | Returns true if all effects are disabled (as just created, default EffectFormat object).<br/>            Read-only :py:class:`bool`. |
-| [blur_effect](/slides/python-net/aspose.slides/blur_effect) | Blur effect.<br/>            Read-only :py:class:`aspose.slides.effects.IBlurEffectiveData`. |
-| [fill_overlay_effect](/slides/python-net/aspose.slides/fill_overlay_effect) | Fill overlay effect.<br/>            Read-only :py:class:`aspose.slides.effects.IFillOverlayEffectiveData`. |
-| [glow_effect](/slides/python-net/aspose.slides/glow_effect) | Glow effect.<br/>            Read-only :py:class:`aspose.slides.effects.IGlowEffectiveData`. |
-| [inner_shadow_effect](/slides/python-net/aspose.slides/inner_shadow_effect) | Inner shadow.<br/>            Read-only :py:class:`aspose.slides.effects.IInnerShadowEffectiveData`. |
-| [outer_shadow_effect](/slides/python-net/aspose.slides/outer_shadow_effect) | Outer shadow.<br/>            Read-only :py:class:`aspose.slides.effects.IOuterShadowEffectiveData`. |
-| [preset_shadow_effect](/slides/python-net/aspose.slides/preset_shadow_effect) | Preset shadow.<br/>            Read-only :py:class:`aspose.slides.effects.IPresetShadowEffectiveData`. |
-| [reflection_effect](/slides/python-net/aspose.slides/reflection_effect) | Reflection. <br/>            Read-only :py:class:`aspose.slides.effects.IReflectionEffectiveData`. |
-| [soft_edge_effect](/slides/python-net/aspose.slides/soft_edge_effect) | Soft edge.<br/>            Read-only :py:class:`aspose.slides.effects.ISoftEdgeEffectiveData`. |
-| [as_i_effect_param_source](/slides/python-net/aspose.slides/as_i_effect_param_source) | Allows to get base IEffectParamSource interface.<br/>            Read-only :py:class:`aspose.slides.IEffectParamSource`. |
+|is_no_effects|Returns true if all effects are disabled (as just created, default EffectFormat object).<br/>            Read-only bool.|
+|blur_effect|Blur effect.<br/>            Read-only [IBlurEffectiveData](/slides/python-net/aspose.slides.effects/iblureffectivedata/).|
+|fill_overlay_effect|Fill overlay effect.<br/>            Read-only [IFillOverlayEffectiveData](/slides/python-net/aspose.slides.effects/ifilloverlayeffectivedata/).|
+|glow_effect|Glow effect.<br/>            Read-only [IGlowEffectiveData](/slides/python-net/aspose.slides.effects/igloweffectivedata/).|
+|inner_shadow_effect|Inner shadow.<br/>            Read-only [IInnerShadowEffectiveData](/slides/python-net/aspose.slides.effects/iinnershadoweffectivedata/).|
+|outer_shadow_effect|Outer shadow.<br/>            Read-only [IOuterShadowEffectiveData](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata/).|
+|preset_shadow_effect|Preset shadow.<br/>            Read-only [IPresetShadowEffectiveData](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/).|
+|reflection_effect|Reflection. <br/>            Read-only [IReflectionEffectiveData](/slides/python-net/aspose.slides.effects/ireflectioneffectivedata/).|
+|soft_edge_effect|Soft edge.<br/>            Read-only [ISoftEdgeEffectiveData](/slides/python-net/aspose.slides.effects/isoftedgeeffectivedata/).|
+|as_i_effect_param_source|Allows to get base IEffectParamSource interface.<br/>            Read-only [IEffectParamSource](/slides/python-net/aspose.slides/ieffectparamsource/).|
 
+### See Also
 
-### Remarks
-
-
-            This interface is used together with the 
- interface to return effective formatting values with inheritance applied.
-            
-
+* namespace [aspose.slides](/slides/python-net/aspose.slides/)
+* assembly [Aspose.Slides](/slides/python-net/)
 
