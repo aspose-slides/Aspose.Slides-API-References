@@ -19,8 +19,8 @@ The IStringChartValue type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_literal_string](/slides/python-net/aspose.slides.charts/istringchartvalue/as_literal_string/) | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write <br/>.NET type System.String. |
-| [as_i_multiple_cell_chart_value](/slides/python-net/aspose.slides.charts/istringchartvalue/as_i_multiple_cell_chart_value/) | Allows to get base IMultipleCellChartValue interface.<br/>            Read-only <br/>[`IMultipleCellChartValue`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue). |
+| [as_literal_string](/slides/python-net/aspose.slides.charts/istringchartvalue/as_literal_string/) | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write .NET type System.String. |
+| [as_i_multiple_cell_chart_value](/slides/python-net/aspose.slides.charts/istringchartvalue/as_i_multiple_cell_chart_value/) | Allows to get base IMultipleCellChartValue interface.<br/>            Read-only [`IMultipleCellChartValue`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue). |
 | [as_cells](/slides/python-net/aspose.slides.charts/istringchartvalue/as_cells/) |  |
 | [as_i_base_chart_value](/slides/python-net/aspose.slides.charts/istringchartvalue/as_i_base_chart_value/) |  |
 | [data_source_type](/slides/python-net/aspose.slides.charts/istringchartvalue/data_source_type/) |  |

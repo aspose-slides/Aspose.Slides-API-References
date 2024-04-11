@@ -17,7 +17,7 @@ The ILegacyDiagram type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_graphical_object](/slides/python-net/aspose.slides/ilegacydiagram/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only <br/>[`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
+| [as_i_graphical_object](/slides/python-net/aspose.slides/ilegacydiagram/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
 | [shape_lock](/slides/python-net/aspose.slides/ilegacydiagram/shape_lock/) |  |
 | [graphical_object_lock](/slides/python-net/aspose.slides/ilegacydiagram/graphical_object_lock/) |  |
 | [as_i_shape](/slides/python-net/aspose.slides/ilegacydiagram/as_i_shape/) |  |

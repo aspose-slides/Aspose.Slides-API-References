@@ -17,8 +17,8 @@ The ControlPropertiesCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [names_of_properties](/slides/python-net/aspose.slides/controlpropertiescollection/names_of_properties/) | Returns the collection of properties names.<br/>            Read-only <br/>.NET type System.Collections.ICollection. |
-| [count](/slides/python-net/aspose.slides/controlpropertiescollection/count/) | Returns a number of properties in the collection.<br/>            Read-only <br/>.NET type System.Int32. |
+| [names_of_properties](/slides/python-net/aspose.slides/controlpropertiescollection/names_of_properties/) | Returns the collection of properties names.<br/>            Read-only .NET type System.Collections.ICollection. |
+| [count](/slides/python-net/aspose.slides/controlpropertiescollection/count/) | Returns a number of properties in the collection.<br/>            Read-only .NET type System.Int32. |
 | [as_i_enumerable](/slides/python-net/aspose.slides/controlpropertiescollection/as_i_enumerable/) |  |
 
 ## Methods

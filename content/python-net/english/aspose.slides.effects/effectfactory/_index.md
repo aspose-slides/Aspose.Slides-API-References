@@ -23,7 +23,7 @@ The EffectFactory type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [image_transform_operation_factory](/slides/python-net/aspose.slides.effects/effectfactory/image_transform_operation_factory/) | Returns ImageTransformOperationFactory.<br/>            Read-only <br/>[`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory). |
+| [image_transform_operation_factory](/slides/python-net/aspose.slides.effects/effectfactory/image_transform_operation_factory/) | Returns ImageTransformOperationFactory.<br/>            Read-only [`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory). |
 
 ## Methods
 

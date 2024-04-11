@@ -17,8 +17,8 @@ The UpDownBarsManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [up_bars_format](/slides/python-net/aspose.slides.charts/updownbarsmanager/up_bars_format/) | Returns the UpBars format.<br/>            Read-only <br/>[`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
-| [down_bars_format](/slides/python-net/aspose.slides.charts/updownbarsmanager/down_bars_format/) | Returns the DownBars format.<br/>            Read-only <br/>[`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
-| [has_up_down_bars](/slides/python-net/aspose.slides.charts/updownbarsmanager/has_up_down_bars/) | HasUpDownBars.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [gap_width](/slides/python-net/aspose.slides.charts/updownbarsmanager/gap_width/) | GapWidth.<br/>            Read/write <br/>.NET type System.Int32. |
+| [up_bars_format](/slides/python-net/aspose.slides.charts/updownbarsmanager/up_bars_format/) | Returns the UpBars format.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
+| [down_bars_format](/slides/python-net/aspose.slides.charts/updownbarsmanager/down_bars_format/) | Returns the DownBars format.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
+| [has_up_down_bars](/slides/python-net/aspose.slides.charts/updownbarsmanager/has_up_down_bars/) | HasUpDownBars.<br/>            Read/write .NET type System.Boolean. |
+| [gap_width](/slides/python-net/aspose.slides.charts/updownbarsmanager/gap_width/) | GapWidth.<br/>            Read/write .NET type System.Int32. |
 

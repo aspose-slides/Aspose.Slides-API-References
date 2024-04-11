@@ -17,7 +17,7 @@ The IShapeCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [parent_group](/slides/python-net/aspose.slides/ishapecollection/parent_group/) | Returns parent GroupShape object for a shapes collection.<br/>            Read-only <br/>[`IGroupShape`](/slides/python-net/aspose.slides/igroupshape). |
+| [parent_group](/slides/python-net/aspose.slides/ishapecollection/parent_group/) | Returns parent GroupShape object for a shapes collection.<br/>            Read-only [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape). |
 | [as_i_collection](/slides/python-net/aspose.slides/ishapecollection/as_i_collection/) |  |
 | [as_i_enumerable](/slides/python-net/aspose.slides/ishapecollection/as_i_enumerable/) |  |
 
@@ -68,11 +68,11 @@ The IShapeCollection type exposes the following members:
 | [insert_connector](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#int-ShapeType-float-float-float-float/) | Creates a new Connector, tunes it from default template and inserts it to <br/>            the collection at the specified index. |
 | [insert_connector](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#int-ShapeType-float-float-float-float-bool/) | Creates a new Connector and inserts it to the collection at the specified index. |
 | [add_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#IShape-float-float-float-float/) | Adds a copy of a specified shape to the end of the collection. |
-| [add_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#IShape-float-float/) | Adds a copy of a specified shape to the end of the collection.<br/>            Width and Height of the new shape are equal to Width and Height of the <br/>`<br/>source_shape`<br/>. |
-| [add_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#IShape/) | Adds a copy of a specified shape to the end of the collection.<br/>            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the <br/>`<br/>source_shape`<br/>. |
+| [add_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#IShape-float-float/) | Adds a copy of a specified shape to the end of the collection.<br/>            Width and Height of the new shape are equal to Width and Height of the `<br/>source_shape`<br/>. |
+| [add_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#IShape/) | Adds a copy of a specified shape to the end of the collection.<br/>            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the `<br/>source_shape`<br/>. |
 | [insert_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#int-IShape-float-float-float-float/) | Inserts a copy of a specified shape to specified position of the collection. |
-| [insert_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#int-IShape-float-float/) | Inserts a copy of a specified shape to specified position of the collection.<br/>            Width and Height of the new shape are equal to Width and Height of the <br/>`<br/>source_shape`<br/>. |
-| [insert_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#int-IShape/) | Inserts a copy of a specified shape to specified position of the collection.<br/>            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the <br/>`<br/>source_shape`<br/>. |
+| [insert_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#int-IShape-float-float/) | Inserts a copy of a specified shape to specified position of the collection.<br/>            Width and Height of the new shape are equal to Width and Height of the `<br/>source_shape`<br/>. |
+| [insert_clone](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#int-IShape/) | Inserts a copy of a specified shape to specified position of the collection.<br/>            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the `<br/>source_shape`<br/>. |
 | [add_smart_art](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#float-float-float-float-aspose.slides.smartart.SmartArtLayoutType/) | Add SmartArt diagram. |
 | [add_summary_zoom_frame](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#float-float-float-float/) | Adds a new Summary Zoom object to the end of a collection. |
 | [insert_summary_zoom_frame](/slides/python-net/aspose.slides/ishapecollection/ishapecollection/#int-float-float-float-float/) | Creates a new Summary Zoom object and inserts it to a collection at the specified index. |

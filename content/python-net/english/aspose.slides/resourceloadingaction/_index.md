@@ -19,5 +19,5 @@ The ResourceLoadingAction type exposes the following members:
 | :- | :- |
 | DEFAULT | Aspose.Slides will load external resource as usual. |
 | SKIP | Aspose.Slides will skip loading of external resource. Only link without data will be stored for an image. |
-| USER_PROVIDED | Aspose.Slides will use byte array provided by user in <br/>Aspose.Slides.IResourceLoadingArgs.SetData(Syste. as image data. |
+| USER_PROVIDED | Aspose.Slides will use byte array provided by user in Aspose.Slides.IResourceLoadingArgs.SetData(Syste. as image data. |
 

@@ -23,5 +23,5 @@ The NotesSize type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [size](/slides/python-net/aspose.slides/notessize/size/) | Returns or sets the size in points.<br/>            Read/write <br/>.NET type System.Drawing.SizeF. |
+| [size](/slides/python-net/aspose.slides/notessize/size/) | Returns or sets the size in points.<br/>            Read/write .NET type System.Drawing.SizeF. |
 

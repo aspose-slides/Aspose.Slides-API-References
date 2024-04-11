@@ -9,8 +9,7 @@ url: /aspose.slides/iportionformat/
 
 IPortionFormat class
 
-This class contains the text portion formatting properties. Unlike 
-[`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata), all properties of this class are writeable.
+This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata), all properties of this class are writeable.
 
 The IPortionFormat type exposes the following members:
 
@@ -18,10 +17,10 @@ The IPortionFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [bookmark_id](/slides/python-net/aspose.slides/iportionformat/bookmark_id/) | Returns or sets bookmark identifier.<br/>            Read/write <br/>.NET type System.String. |
-| [smart_tag_clean](/slides/python-net/aspose.slides/iportionformat/smart_tag_clean/) | Determines whether the smart tag should be cleaned. No inheritance applied.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [as_i_base_portion_format](/slides/python-net/aspose.slides/iportionformat/as_i_base_portion_format/) | Returns IBasePortionFormat interface.<br/>            Read-only <br/>[`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat). |
-| [as_i_hyperlink_container](/slides/python-net/aspose.slides/iportionformat/as_i_hyperlink_container/) | Allows to get base IHyperlinkContainer interface.<br/>            Read-only <br/>[`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer). |
+| [bookmark_id](/slides/python-net/aspose.slides/iportionformat/bookmark_id/) | Returns or sets bookmark identifier.<br/>            Read/write .NET type System.String. |
+| [smart_tag_clean](/slides/python-net/aspose.slides/iportionformat/smart_tag_clean/) | Determines whether the smart tag should be cleaned. No inheritance applied.<br/>            Read/write .NET type System.Boolean. |
+| [as_i_base_portion_format](/slides/python-net/aspose.slides/iportionformat/as_i_base_portion_format/) | Returns IBasePortionFormat interface.<br/>            Read-only [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat). |
+| [as_i_hyperlink_container](/slides/python-net/aspose.slides/iportionformat/as_i_hyperlink_container/) | Allows to get base IHyperlinkContainer interface.<br/>            Read-only [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer). |
 | [line_format](/slides/python-net/aspose.slides/iportionformat/line_format/) |  |
 | [fill_format](/slides/python-net/aspose.slides/iportionformat/fill_format/) |  |
 | [effect_format](/slides/python-net/aspose.slides/iportionformat/effect_format/) |  |
@@ -65,9 +64,6 @@ This class is used to return and manipulate text portion formatting properties d
             no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 
 
-
-In order to get the effective formatting parameter values including inherited you need to use 
-[`IPortionFormat.get_effective`](/slides/python-net/aspose.slides/iportionformat/get_effective) method 
-            which returns a 
-[`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata) instance.
+In order to get the effective formatting parameter values including inherited you need to use [`IPortionFormat.get_effective`](/slides/python-net/aspose.slides/iportionformat/get_effective) method 
+            which returns a [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata) instance.
 

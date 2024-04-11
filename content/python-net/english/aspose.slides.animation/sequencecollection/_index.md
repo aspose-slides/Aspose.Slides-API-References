@@ -17,7 +17,7 @@ The SequenceCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.animation/sequencecollection/count/) | Returns the number of elements in a collection<br/>            Read-only <br/>.NET type System.Int32. |
+| [count](/slides/python-net/aspose.slides.animation/sequencecollection/count/) | Returns the number of elements in a collection<br/>            Read-only .NET type System.Int32. |
 | [as_i_enumerable](/slides/python-net/aspose.slides.animation/sequencecollection/as_i_enumerable/) |  |
 
 ## Indexer

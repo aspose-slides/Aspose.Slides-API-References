@@ -16,9 +16,9 @@ Contains classes for exporting Microsoft PowerPoint presentations to Html with e
 | [`IOutputSaver`](/slides/python-net/aspose.slides.export.web/ioutputsaver/) | Represents an output saving service. |
 | [`ITemplateEngine`](/slides/python-net/aspose.slides.export.web/itemplateengine/) | Represents a template engine that transforms template and data pair into resulting output (usually HTML). |
 | [`Input`](/slides/python-net/aspose.slides.export.web/input/) | Represents a collection of input elements (templates). |
-| [`Output`](/slides/python-net/aspose.slides.export.web/output/) | Represents a collection of output elements for <br/>IWebDocument. |
+| [`Output`](/slides/python-net/aspose.slides.export.web/output/) | Represents a collection of output elements for IWebDocument. |
 | [`OutputFile`](/slides/python-net/aspose.slides.export.web/outputfile/) | Represents an output file. |
-| [`Storage`](/slides/python-net/aspose.slides.export.web/storage/) | Represents a temporary data storage for <br/>[`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument). |
+| [`Storage`](/slides/python-net/aspose.slides.export.web/storage/) | Represents a temporary data storage for [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument). |
 | [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument/) | Represents a transition form of the presentation for saving into a web format. |
-| [`WebDocumentOptions`](/slides/python-net/aspose.slides.export.web/webdocumentoptions/) | Represents an options set for <br/>[`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument) saving. |
+| [`WebDocumentOptions`](/slides/python-net/aspose.slides.export.web/webdocumentoptions/) | Represents an options set for [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument) saving. |
 

@@ -21,8 +21,8 @@ The AlphaBiLevel type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/alphabilevel/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
-| [threshold](/slides/python-net/aspose.slides.effects/alphabilevel/threshold/) | Returns effect threshold.<br/>            Read/write <br/>.NET type System.Single. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/alphabilevel/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [threshold](/slides/python-net/aspose.slides.effects/alphabilevel/threshold/) | Returns effect threshold.<br/>            Read/write .NET type System.Single. |
 | [slide](/slides/python-net/aspose.slides.effects/alphabilevel/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides.effects/alphabilevel/presentation/) |  |
 | [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/alphabilevel/as_i_image_transform_operation/) |  |

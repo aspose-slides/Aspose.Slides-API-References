@@ -23,7 +23,7 @@ The VbaReferenceFactory type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [instance](/slides/python-net/aspose.slides.vba/vbareferencefactory/instance/) | VBA project references factory static instance.<br/>            Read-only <br/>[`VbaReferenceFactory`](/slides/python-net/aspose.slides.vba/vbareferencefactory). |
+| [instance](/slides/python-net/aspose.slides.vba/vbareferencefactory/instance/) | VBA project references factory static instance.<br/>            Read-only [`VbaReferenceFactory`](/slides/python-net/aspose.slides.vba/vbareferencefactory). |
 
 ## Methods
 

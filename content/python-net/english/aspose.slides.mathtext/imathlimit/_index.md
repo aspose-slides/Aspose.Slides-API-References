@@ -20,7 +20,7 @@ The IMathLimit type exposes the following members:
 | [base](/slides/python-net/aspose.slides.mathtext/imathlimit/base/) | Base argument |
 | [limit](/slides/python-net/aspose.slides.mathtext/imathlimit/limit/) | Limit argument |
 | [upper_limit](/slides/python-net/aspose.slides.mathtext/imathlimit/upper_limit/) | Specifies upper or lower limit |
-| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathlimit/as_i_math_element/) | Allows to get base IMathElement interface<br/>            <br/>[`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
+| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathlimit/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 

@@ -17,10 +17,10 @@ The IMasterNotesSlide type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [header_footer_manager](/slides/python-net/aspose.slides/imasternotesslide/header_footer_manager/) | Returns HeaderFooter manager of the master notes slide.<br/>            Read-only <br/>[`IMasterNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasternotesslideheaderfootermanager). |
-| [notes_style](/slides/python-net/aspose.slides/imasternotesslide/notes_style/) | Returns the style of a notes text.<br/>            Read-only <br/>[`ITextStyle`](/slides/python-net/aspose.slides/itextstyle). |
-| [as_i_base_slide](/slides/python-net/aspose.slides/imasternotesslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
-| [as_i_master_themeable](/slides/python-net/aspose.slides/imasternotesslide/as_i_master_themeable/) | Returns IMasterThemeable interface.<br/>            Read-only <br/>[`IMasterThemeable`](/slides/python-net/aspose.slides.theme/imasterthemeable). |
+| [header_footer_manager](/slides/python-net/aspose.slides/imasternotesslide/header_footer_manager/) | Returns HeaderFooter manager of the master notes slide.<br/>            Read-only [`IMasterNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasternotesslideheaderfootermanager). |
+| [notes_style](/slides/python-net/aspose.slides/imasternotesslide/notes_style/) | Returns the style of a notes text.<br/>            Read-only [`ITextStyle`](/slides/python-net/aspose.slides/itextstyle). |
+| [as_i_base_slide](/slides/python-net/aspose.slides/imasternotesslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
+| [as_i_master_themeable](/slides/python-net/aspose.slides/imasternotesslide/as_i_master_themeable/) | Returns IMasterThemeable interface.<br/>            Read-only [`IMasterThemeable`](/slides/python-net/aspose.slides.theme/imasterthemeable). |
 | [shapes](/slides/python-net/aspose.slides/imasternotesslide/shapes/) |  |
 | [controls](/slides/python-net/aspose.slides/imasternotesslide/controls/) |  |
 | [name](/slides/python-net/aspose.slides/imasternotesslide/name/) |  |

@@ -9,9 +9,7 @@ url: /aspose.slides/ppimageformat/
 
 PPImageFormat enumeration
 
-Image formats. This enum is replacement for 
-`System.Drawing.Imaging.ImageFormat
-` class.
+Image formats. This enum is replacement for `System.Drawing.Imaging.ImageFormat` class.
             It's needed for COM compatibility.
 
 The PPImageFormat type exposes the following members:

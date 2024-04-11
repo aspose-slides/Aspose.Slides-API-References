@@ -17,8 +17,8 @@ The ILightRig type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides/ilightrig/direction/) | Light direction.<br/>            Read/write <br/>[`LightingDirection`](/slides/python-net/aspose.slides/lightingdirection). |
-| [light_type](/slides/python-net/aspose.slides/ilightrig/light_type/) | Represents a preset light right that can be applied to a shape. <br/>            The light rig represents a group of lights oriented<br/>            in a specific way relative to a 3D scene.<br/>            Read/write <br/>[`LightRigPresetType`](/slides/python-net/aspose.slides/lightrigpresettype). |
+| [direction](/slides/python-net/aspose.slides/ilightrig/direction/) | Light direction.<br/>            Read/write [`LightingDirection`](/slides/python-net/aspose.slides/lightingdirection). |
+| [light_type](/slides/python-net/aspose.slides/ilightrig/light_type/) | Represents a preset light right that can be applied to a shape. <br/>            The light rig represents a group of lights oriented<br/>            in a specific way relative to a 3D scene.<br/>            Read/write [`LightRigPresetType`](/slides/python-net/aspose.slides/lightrigpresettype). |
 
 ## Methods
 

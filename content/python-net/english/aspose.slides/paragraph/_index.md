@@ -24,9 +24,9 @@ The Paragraph type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [portions](/slides/python-net/aspose.slides/paragraph/portions/) | Returns the collection of a text portions.<br/>            Read-only <br/>[`IPortionCollection`](/slides/python-net/aspose.slides/iportioncollection). |
-| [paragraph_format](/slides/python-net/aspose.slides/paragraph/paragraph_format/) | Returns the formatting object for this paragraph.<br/>            Read-only <br/>[`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat). |
-| [text](/slides/python-net/aspose.slides/paragraph/text/) | Gets or sets the the plain text of a paragraph.<br/>            Read/write <br/>.NET type System.String. |
+| [portions](/slides/python-net/aspose.slides/paragraph/portions/) | Returns the collection of a text portions.<br/>            Read-only [`IPortionCollection`](/slides/python-net/aspose.slides/iportioncollection). |
+| [paragraph_format](/slides/python-net/aspose.slides/paragraph/paragraph_format/) | Returns the formatting object for this paragraph.<br/>            Read-only [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat). |
+| [text](/slides/python-net/aspose.slides/paragraph/text/) | Gets or sets the the plain text of a paragraph.<br/>            Read/write .NET type System.String. |
 | [end_paragraph_portion_format](/slides/python-net/aspose.slides/paragraph/end_paragraph_portion_format/) | Specifies the portion properties that are to be used if another portion is inserted after <br/>            the last one. |
 | [as_i_slide_component](/slides/python-net/aspose.slides/paragraph/as_i_slide_component/) |  |
 | [slide](/slides/python-net/aspose.slides/paragraph/slide/) |  |

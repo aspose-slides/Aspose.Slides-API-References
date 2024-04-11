@@ -17,10 +17,10 @@ The CustomXmlPart type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [xml_data](/slides/python-net/aspose.slides/customxmlpart/xml_data/) | Returns or sets xml data.<br/>            Read/write <br/>.NET type System.Byte[].<br/>            <br/>value is <br/>`null<br/>`.<br/>value is empty or xml-data is invalid. |
-| [xml_as_string](/slides/python-net/aspose.slides/customxmlpart/xml_as_string/) | Returns or sets xml data as UTF-8 string.<br/>            Read/write <br/>.NET type System.String.<br/>            <br/>value is <br/>`null<br/>`.<br/>value is empty or xml-data is invalid. |
-| [item_id](/slides/python-net/aspose.slides/customxmlpart/item_id/) | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML <br/>            part within an Office Open XML document.<br/>            Read-only <br/>.NET type System.Guid. |
-| [namespace_schemas](/slides/python-net/aspose.slides/customxmlpart/namespace_schemas/) | Returns the collection XML schemas that are associated with the custom XML part.<br/>            Read-only <br/>.NET type System.String[]. |
+| [xml_data](/slides/python-net/aspose.slides/customxmlpart/xml_data/) | Returns or sets xml data.<br/>            Read/write .NET type System.Byte[].<br/>            value is `null`.value is empty or xml-data is invalid. |
+| [xml_as_string](/slides/python-net/aspose.slides/customxmlpart/xml_as_string/) | Returns or sets xml data as UTF-8 string.<br/>            Read/write .NET type System.String.<br/>            value is `null`.value is empty or xml-data is invalid. |
+| [item_id](/slides/python-net/aspose.slides/customxmlpart/item_id/) | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML <br/>            part within an Office Open XML document.<br/>            Read-only .NET type System.Guid. |
+| [namespace_schemas](/slides/python-net/aspose.slides/customxmlpart/namespace_schemas/) | Returns the collection XML schemas that are associated with the custom XML part.<br/>            Read-only .NET type System.String[]. |
 
 ## Methods
 

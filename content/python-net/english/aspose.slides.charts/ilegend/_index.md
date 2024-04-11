@@ -17,12 +17,12 @@ The ILegend type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [overlay](/slides/python-net/aspose.slides.charts/ilegend/overlay/) | Determines whether other chart elements shall be allowed to overlap legend.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [position](/slides/python-net/aspose.slides.charts/ilegend/position/) | Specifies the position of the legend on a chart.<br/>            Non-NaN values of X, Y, Width, Heigt properties override effect of this property.<br/>            Read/write <br/>[`LegendPositionType`](/slides/python-net/aspose.slides.charts/legendpositiontype). |
-| [format](/slides/python-net/aspose.slides.charts/ilegend/format/) | Returns the format of a legend.<br/>            Read-only <br/>[`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
-| [entries](/slides/python-net/aspose.slides.charts/ilegend/entries/) | Gets legend entries.<br/>            Read-only <br/>[`ILegendEntryCollection`](/slides/python-net/aspose.slides.charts/ilegendentrycollection). |
-| [as_i_layoutable](/slides/python-net/aspose.slides.charts/ilegend/as_i_layoutable/) | Allows to get base ILayoutable interface.<br/>            Read-only <br/>[`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable). |
-| [as_i_formatted_text_container](/slides/python-net/aspose.slides.charts/ilegend/as_i_formatted_text_container/) | Allows to get base IFormattedTextContainer interface.<br/>            Read-only <br/>[`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer). |
+| [overlay](/slides/python-net/aspose.slides.charts/ilegend/overlay/) | Determines whether other chart elements shall be allowed to overlap legend.<br/>            Read/write .NET type System.Boolean. |
+| [position](/slides/python-net/aspose.slides.charts/ilegend/position/) | Specifies the position of the legend on a chart.<br/>            Non-NaN values of X, Y, Width, Heigt properties override effect of this property.<br/>            Read/write [`LegendPositionType`](/slides/python-net/aspose.slides.charts/legendpositiontype). |
+| [format](/slides/python-net/aspose.slides.charts/ilegend/format/) | Returns the format of a legend.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
+| [entries](/slides/python-net/aspose.slides.charts/ilegend/entries/) | Gets legend entries.<br/>            Read-only [`ILegendEntryCollection`](/slides/python-net/aspose.slides.charts/ilegendentrycollection). |
+| [as_i_layoutable](/slides/python-net/aspose.slides.charts/ilegend/as_i_layoutable/) | Allows to get base ILayoutable interface.<br/>            Read-only [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable). |
+| [as_i_formatted_text_container](/slides/python-net/aspose.slides.charts/ilegend/as_i_formatted_text_container/) | Allows to get base IFormattedTextContainer interface.<br/>            Read-only [`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer). |
 | [x](/slides/python-net/aspose.slides.charts/ilegend/x/) |  |
 | [y](/slides/python-net/aspose.slides.charts/ilegend/y/) |  |
 | [width](/slides/python-net/aspose.slides.charts/ilegend/width/) |  |

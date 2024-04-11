@@ -19,6 +19,6 @@ The OrientationTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/orientationtransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`Orientation`](/slides/python-net/aspose.slides/orientation). |
+| [direction](/slides/python-net/aspose.slides.slideshow/orientationtransition/direction/) | Direction of transition.<br/>            Read/write [`Orientation`](/slides/python-net/aspose.slides/orientation). |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/orientationtransition/as_i_transition_value_base/) |  |
 

@@ -29,6 +29,5 @@ The IFillFormatCollectionEffectiveData type exposes the following members:
 
 ### Remarks
 
-This interface is used as a part of 
-[`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata).
+This interface is used as a part of [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata).
 

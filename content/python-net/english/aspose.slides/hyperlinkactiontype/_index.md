@@ -26,7 +26,7 @@ The HyperlinkActionType type exposes the following members:
 | JUMP_LAST_SLIDE | Jump to the last slide of the presentation. |
 | JUMP_END_SHOW | Jump to the end of slideshow. |
 | JUMP_LAST_VIEWED_SLIDE | Jump to the last viewed slide. |
-| JUMP_SPECIFIC_SLIDE | Jump to the specific slide, referred by <br/>[`IHyperlink.target_slide`](/slides/python-net/aspose.slides/ihyperlink#target_slide) property. |
+| JUMP_SPECIFIC_SLIDE | Jump to the specific slide, referred by [`IHyperlink.target_slide`](/slides/python-net/aspose.slides/ihyperlink#target_slide) property. |
 | START_CUSTOM_SLIDE_SHOW | Start custom slideshow. |
 | OPEN_FILE | Open referenced file. |
 | OPEN_PRESENTATION | Open referenced presentation. |

@@ -23,7 +23,7 @@ The VbaReferenceOleTypeLib type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [name](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/name/) | Represents the name of the VBA project reference.<br/>            Read/write <br/>.NET type System.String. |
-| [libid](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/libid/) | Represents the identifier of an Automation type library.<br/>            Read/write <br/>.NET type System.String. |
+| [name](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/name/) | Represents the name of the VBA project reference.<br/>            Read/write .NET type System.String. |
+| [libid](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/libid/) | Represents the identifier of an Automation type library.<br/>            Read/write .NET type System.String. |
 | [as_i_vba_reference](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/as_i_vba_reference/) |  |
 

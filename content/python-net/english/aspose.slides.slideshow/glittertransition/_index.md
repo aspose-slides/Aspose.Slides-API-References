@@ -19,7 +19,7 @@ The GlitterTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/glittertransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionSideDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionsidedirectiontype). |
-| [pattern](/slides/python-net/aspose.slides.slideshow/glittertransition/pattern/) | Specifies the shape of the visuals used during the transition.<br/>            Read/write <br/>[`TransitionPattern`](/slides/python-net/aspose.slides.slideshow/transitionpattern). |
+| [direction](/slides/python-net/aspose.slides.slideshow/glittertransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionSideDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionsidedirectiontype). |
+| [pattern](/slides/python-net/aspose.slides.slideshow/glittertransition/pattern/) | Specifies the shape of the visuals used during the transition.<br/>            Read/write [`TransitionPattern`](/slides/python-net/aspose.slides.slideshow/transitionpattern). |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/glittertransition/as_i_transition_value_base/) |  |
 

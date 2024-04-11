@@ -19,19 +19,19 @@ The MasterHandoutSlide type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [shapes](/slides/python-net/aspose.slides/masterhandoutslide/shapes/) | Returns the shapes of a slide.<br/>            Read-only <br/>[`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection). |
-| [controls](/slides/python-net/aspose.slides/masterhandoutslide/controls/) | Returns the collection of ActiveX controls on a slide.<br/>            Read-only <br/>[`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection). |
-| [name](/slides/python-net/aspose.slides/masterhandoutslide/name/) | Returns or sets the name of a slide.<br/>            Read/write <br/>.NET type System.String. |
-| [slide_id](/slides/python-net/aspose.slides/masterhandoutslide/slide_id/) | Returns the ID of a slide.<br/>            Read-only <br/>.NET type System.UInt32. |
-| [custom_data](/slides/python-net/aspose.slides/masterhandoutslide/custom_data/) | Returns the slide's custom data.<br/>            Read-only <br/>[`ICustomData`](/slides/python-net/aspose.slides/icustomdata). |
-| [timeline](/slides/python-net/aspose.slides/masterhandoutslide/timeline/) | Returns animation timeline object.<br/>            Read-only <br/>[`IAnimationTimeLine`](/slides/python-net/aspose.slides/ianimationtimeline). |
-| [slide_show_transition](/slides/python-net/aspose.slides/masterhandoutslide/slide_show_transition/) | Returns the Transition object which contains information about<br/>            how the specified slide advances during a slide show.<br/>            Read-only <br/>[`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition). |
-| [background](/slides/python-net/aspose.slides/masterhandoutslide/background/) | Returns slide's background.<br/>            Read-only <br/>[`IBackground`](/slides/python-net/aspose.slides/ibackground). |
-| [hyperlink_queries](/slides/python-net/aspose.slides/masterhandoutslide/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only <br/>[`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
-| [show_master_shapes](/slides/python-net/aspose.slides/masterhandoutslide/show_master_shapes/) | Specifies if shapes on the master slide should be shown on slides or not.<br/>            For master slide itself this property always returns <br/>`false<br/>`.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [presentation](/slides/python-net/aspose.slides/masterhandoutslide/presentation/) | Returns IPresentation interface.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [header_footer_manager](/slides/python-net/aspose.slides/masterhandoutslide/header_footer_manager/) | Returns HeaderFooter manager of the master handout slide.<br/>            Read-only <br/>[`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager). |
-| [theme_manager](/slides/python-net/aspose.slides/masterhandoutslide/theme_manager/) | Returns the theme manager.<br/>            Read-only <br/>[`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
+| [shapes](/slides/python-net/aspose.slides/masterhandoutslide/shapes/) | Returns the shapes of a slide.<br/>            Read-only [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection). |
+| [controls](/slides/python-net/aspose.slides/masterhandoutslide/controls/) | Returns the collection of ActiveX controls on a slide.<br/>            Read-only [`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection). |
+| [name](/slides/python-net/aspose.slides/masterhandoutslide/name/) | Returns or sets the name of a slide.<br/>            Read/write .NET type System.String. |
+| [slide_id](/slides/python-net/aspose.slides/masterhandoutslide/slide_id/) | Returns the ID of a slide.<br/>            Read-only .NET type System.UInt32. |
+| [custom_data](/slides/python-net/aspose.slides/masterhandoutslide/custom_data/) | Returns the slide's custom data.<br/>            Read-only [`ICustomData`](/slides/python-net/aspose.slides/icustomdata). |
+| [timeline](/slides/python-net/aspose.slides/masterhandoutslide/timeline/) | Returns animation timeline object.<br/>            Read-only [`IAnimationTimeLine`](/slides/python-net/aspose.slides/ianimationtimeline). |
+| [slide_show_transition](/slides/python-net/aspose.slides/masterhandoutslide/slide_show_transition/) | Returns the Transition object which contains information about<br/>            how the specified slide advances during a slide show.<br/>            Read-only [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition). |
+| [background](/slides/python-net/aspose.slides/masterhandoutslide/background/) | Returns slide's background.<br/>            Read-only [`IBackground`](/slides/python-net/aspose.slides/ibackground). |
+| [hyperlink_queries](/slides/python-net/aspose.slides/masterhandoutslide/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
+| [show_master_shapes](/slides/python-net/aspose.slides/masterhandoutslide/show_master_shapes/) | Specifies if shapes on the master slide should be shown on slides or not.<br/>            For master slide itself this property always returns `false`.<br/>            Read/write .NET type System.Boolean. |
+| [presentation](/slides/python-net/aspose.slides/masterhandoutslide/presentation/) | Returns IPresentation interface.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [header_footer_manager](/slides/python-net/aspose.slides/masterhandoutslide/header_footer_manager/) | Returns HeaderFooter manager of the master handout slide.<br/>            Read-only [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager). |
+| [theme_manager](/slides/python-net/aspose.slides/masterhandoutslide/theme_manager/) | Returns the theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
 | [as_i_slide_component](/slides/python-net/aspose.slides/masterhandoutslide/as_i_slide_component/) |  |
 | [slide](/slides/python-net/aspose.slides/masterhandoutslide/slide/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/masterhandoutslide/as_i_presentation_component/) |  |

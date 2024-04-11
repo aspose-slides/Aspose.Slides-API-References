@@ -19,10 +19,10 @@ The NotesSlideHeaderFooterManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_footer_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_footer_visible/) | Gets value indicating that a footer placeholder is present.<br/>            Read <br/>.NET type System.Boolean. |
-| [is_slide_number_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_slide_number_visible/) | Gets value indicating that a page number placeholder is present.<br/>            Read<br/>.NET type System.Boolean. |
-| [is_date_time_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_date_time_visible/) | Gets value indicating that a date-time placeholder is present.<br/>            Read<br/>.NET type System.Boolean. |
-| [is_header_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_header_visible/) | Gets value indicating that a header placeholder is present.<br/>            Read <br/>.NET type System.Boolean. |
+| [is_footer_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_footer_visible/) | Gets value indicating that a footer placeholder is present.<br/>            Read .NET type System.Boolean. |
+| [is_slide_number_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_slide_number_visible/) | Gets value indicating that a page number placeholder is present.<br/>            Read.NET type System.Boolean. |
+| [is_date_time_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_date_time_visible/) | Gets value indicating that a date-time placeholder is present.<br/>            Read.NET type System.Boolean. |
+| [is_header_visible](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_header_visible/) | Gets value indicating that a header placeholder is present.<br/>            Read .NET type System.Boolean. |
 | [as_i_base_slide_header_footer_manager](/slides/python-net/aspose.slides/notesslideheaderfootermanager/as_i_base_slide_header_footer_manager/) |  |
 | [as_i_base_header_footer_manager](/slides/python-net/aspose.slides/notesslideheaderfootermanager/as_i_base_header_footer_manager/) |  |
 | [as_i_base_handout_notes_slide_header_footer_manag](/slides/python-net/aspose.slides/notesslideheaderfootermanager/as_i_base_handout_notes_slide_header_footer_manag/) |  |

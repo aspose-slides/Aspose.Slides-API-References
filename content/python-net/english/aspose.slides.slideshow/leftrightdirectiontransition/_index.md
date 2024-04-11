@@ -19,6 +19,6 @@ The LeftRightDirectionTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
+| [direction](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition/as_i_transition_value_base/) |  |
 

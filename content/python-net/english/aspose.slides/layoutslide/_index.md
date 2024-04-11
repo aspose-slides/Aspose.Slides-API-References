@@ -19,22 +19,22 @@ The LayoutSlide type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [shapes](/slides/python-net/aspose.slides/layoutslide/shapes/) | Returns the shapes of a slide.<br/>            Read-only <br/>[`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection). |
-| [controls](/slides/python-net/aspose.slides/layoutslide/controls/) | Returns the collection of ActiveX controls on a slide.<br/>            Read-only <br/>[`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection). |
-| [name](/slides/python-net/aspose.slides/layoutslide/name/) | Returns or sets the name of a slide.<br/>            Read/write <br/>.NET type System.String. |
-| [slide_id](/slides/python-net/aspose.slides/layoutslide/slide_id/) | Returns the ID of a slide.<br/>            Read-only <br/>.NET type System.UInt32. |
-| [custom_data](/slides/python-net/aspose.slides/layoutslide/custom_data/) | Returns the slide's custom data.<br/>            Read-only <br/>[`ICustomData`](/slides/python-net/aspose.slides/icustomdata). |
-| [timeline](/slides/python-net/aspose.slides/layoutslide/timeline/) | Returns animation timeline object.<br/>            Read-only <br/>[`IAnimationTimeLine`](/slides/python-net/aspose.slides/ianimationtimeline). |
-| [slide_show_transition](/slides/python-net/aspose.slides/layoutslide/slide_show_transition/) | Returns the Transition object which contains information about<br/>            how the specified slide advances during a slide show.<br/>            Read-only <br/>[`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition). |
-| [background](/slides/python-net/aspose.slides/layoutslide/background/) | Returns slide's background.<br/>            Read-only <br/>[`IBackground`](/slides/python-net/aspose.slides/ibackground). |
-| [hyperlink_queries](/slides/python-net/aspose.slides/layoutslide/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only <br/>[`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
-| [show_master_shapes](/slides/python-net/aspose.slides/layoutslide/show_master_shapes/) | Specifies if shapes on the master slide should be shown on slides or not.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [presentation](/slides/python-net/aspose.slides/layoutslide/presentation/) | Returns IPresentation interface.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [header_footer_manager](/slides/python-net/aspose.slides/layoutslide/header_footer_manager/) | Returns HeaderFooter manager of the layout slide.<br/>            Read-only <br/>[`ILayoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/ilayoutslideheaderfootermanager). |
-| [master_slide](/slides/python-net/aspose.slides/layoutslide/master_slide/) | Returns or sets the master slide for a layout.<br/>            Read/write <br/>[`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide). |
-| [theme_manager](/slides/python-net/aspose.slides/layoutslide/theme_manager/) | Returns the overriding theme manager.<br/>            Read-only <br/>[`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager). |
-| [layout_type](/slides/python-net/aspose.slides/layoutslide/layout_type/) | Returns layout type of this layout slide.<br/>            Read-only <br/>[`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype). |
-| [has_depending_slides](/slides/python-net/aspose.slides/layoutslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this layout slide.<br/>            Read-only <br/>.NET type System.Boolean. |
+| [shapes](/slides/python-net/aspose.slides/layoutslide/shapes/) | Returns the shapes of a slide.<br/>            Read-only [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection). |
+| [controls](/slides/python-net/aspose.slides/layoutslide/controls/) | Returns the collection of ActiveX controls on a slide.<br/>            Read-only [`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection). |
+| [name](/slides/python-net/aspose.slides/layoutslide/name/) | Returns or sets the name of a slide.<br/>            Read/write .NET type System.String. |
+| [slide_id](/slides/python-net/aspose.slides/layoutslide/slide_id/) | Returns the ID of a slide.<br/>            Read-only .NET type System.UInt32. |
+| [custom_data](/slides/python-net/aspose.slides/layoutslide/custom_data/) | Returns the slide's custom data.<br/>            Read-only [`ICustomData`](/slides/python-net/aspose.slides/icustomdata). |
+| [timeline](/slides/python-net/aspose.slides/layoutslide/timeline/) | Returns animation timeline object.<br/>            Read-only [`IAnimationTimeLine`](/slides/python-net/aspose.slides/ianimationtimeline). |
+| [slide_show_transition](/slides/python-net/aspose.slides/layoutslide/slide_show_transition/) | Returns the Transition object which contains information about<br/>            how the specified slide advances during a slide show.<br/>            Read-only [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition). |
+| [background](/slides/python-net/aspose.slides/layoutslide/background/) | Returns slide's background.<br/>            Read-only [`IBackground`](/slides/python-net/aspose.slides/ibackground). |
+| [hyperlink_queries](/slides/python-net/aspose.slides/layoutslide/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
+| [show_master_shapes](/slides/python-net/aspose.slides/layoutslide/show_master_shapes/) | Specifies if shapes on the master slide should be shown on slides or not.<br/>            Read/write .NET type System.Boolean. |
+| [presentation](/slides/python-net/aspose.slides/layoutslide/presentation/) | Returns IPresentation interface.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [header_footer_manager](/slides/python-net/aspose.slides/layoutslide/header_footer_manager/) | Returns HeaderFooter manager of the layout slide.<br/>            Read-only [`ILayoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/ilayoutslideheaderfootermanager). |
+| [master_slide](/slides/python-net/aspose.slides/layoutslide/master_slide/) | Returns or sets the master slide for a layout.<br/>            Read/write [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide). |
+| [theme_manager](/slides/python-net/aspose.slides/layoutslide/theme_manager/) | Returns the overriding theme manager.<br/>            Read-only [`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager). |
+| [layout_type](/slides/python-net/aspose.slides/layoutslide/layout_type/) | Returns layout type of this layout slide.<br/>            Read-only [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype). |
+| [has_depending_slides](/slides/python-net/aspose.slides/layoutslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this layout slide.<br/>            Read-only .NET type System.Boolean. |
 | [as_i_slide_component](/slides/python-net/aspose.slides/layoutslide/as_i_slide_component/) |  |
 | [slide](/slides/python-net/aspose.slides/layoutslide/slide/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/layoutslide/as_i_presentation_component/) |  |

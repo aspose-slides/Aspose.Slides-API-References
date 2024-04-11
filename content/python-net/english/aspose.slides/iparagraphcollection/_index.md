@@ -17,9 +17,9 @@ The IParagraphCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides/iparagraphcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only <br/>.NET type System.Int32. |
-| [as_i_slide_component](/slides/python-net/aspose.slides/iparagraphcollection/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only <br/>[`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
-| [as_i_enumerable](/slides/python-net/aspose.slides/iparagraphcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable. |
+| [count](/slides/python-net/aspose.slides/iparagraphcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only .NET type System.Int32. |
+| [as_i_slide_component](/slides/python-net/aspose.slides/iparagraphcollection/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
+| [as_i_enumerable](/slides/python-net/aspose.slides/iparagraphcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only .NET type System.Collections.IEnumerable. |
 | [slide](/slides/python-net/aspose.slides/iparagraphcollection/slide/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/iparagraphcollection/as_i_presentation_component/) |  |
 | [presentation](/slides/python-net/aspose.slides/iparagraphcollection/presentation/) |  |

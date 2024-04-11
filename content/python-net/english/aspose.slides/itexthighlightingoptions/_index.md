@@ -17,6 +17,6 @@ The ITextHighlightingOptions type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [case_sensitive](/slides/python-net/aspose.slides/itexthighlightingoptions/case_sensitive/) | Set true to use case-sensitive search, false - otherwise.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [whole_words_only](/slides/python-net/aspose.slides/itexthighlightingoptions/whole_words_only/) | Set true to match only whole words, false - otherwise.<br/>            Read/write <br/>.NET type System.Boolean. |
+| [case_sensitive](/slides/python-net/aspose.slides/itexthighlightingoptions/case_sensitive/) | Set true to use case-sensitive search, false - otherwise.<br/>            Read/write .NET type System.Boolean. |
+| [whole_words_only](/slides/python-net/aspose.slides/itexthighlightingoptions/whole_words_only/) | Set true to match only whole words, false - otherwise.<br/>            Read/write .NET type System.Boolean. |
 

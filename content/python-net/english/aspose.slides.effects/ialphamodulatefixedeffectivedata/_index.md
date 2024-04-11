@@ -18,6 +18,6 @@ The IAlphaModulateFixedEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [amount](/slides/python-net/aspose.slides.effects/ialphamodulatefixedeffectivedata/amount/) | Returns an amount of effect in percents.<br/>            Read-only <br/>.NET type System.Single. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/ialphamodulatefixedeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
+| [amount](/slides/python-net/aspose.slides.effects/ialphamodulatefixedeffectivedata/amount/) | Returns an amount of effect in percents.<br/>            Read-only .NET type System.Single. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/ialphamodulatefixedeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
 

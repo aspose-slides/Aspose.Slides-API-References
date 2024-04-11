@@ -19,7 +19,7 @@ The ILuminanceEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [brightness](/slides/python-net/aspose.slides.effects/iluminanceeffectivedata/brightness/) | Brightness.<br/>            Read-only <br/>.NET type System.Single. |
-| [contrast](/slides/python-net/aspose.slides.effects/iluminanceeffectivedata/contrast/) | Contrast.<br/>            Read-only <br/>.NET type System.Single. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/iluminanceeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
+| [brightness](/slides/python-net/aspose.slides.effects/iluminanceeffectivedata/brightness/) | Brightness.<br/>            Read-only .NET type System.Single. |
+| [contrast](/slides/python-net/aspose.slides.effects/iluminanceeffectivedata/contrast/) | Contrast.<br/>            Read-only .NET type System.Single. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/iluminanceeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
 

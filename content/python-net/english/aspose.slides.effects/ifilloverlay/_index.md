@@ -18,9 +18,9 @@ The IFillOverlay type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [blend](/slides/python-net/aspose.slides.effects/ifilloverlay/blend/) | FillBlendMode.<br/>            Read/write <br/>[`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode). |
-| [fill_format](/slides/python-net/aspose.slides.effects/ifilloverlay/fill_format/) | Fill format.<br/>            Read-only <br/>[`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ifilloverlay/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
+| [blend](/slides/python-net/aspose.slides.effects/ifilloverlay/blend/) | FillBlendMode.<br/>            Read/write [`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode). |
+| [fill_format](/slides/python-net/aspose.slides.effects/ifilloverlay/fill_format/) | Fill format.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ifilloverlay/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
 
 ## Methods
 

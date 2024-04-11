@@ -20,7 +20,7 @@ The IMathSuperscriptElement type exposes the following members:
 | :- | :- |
 | [base](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelement/base/) | Base argument |
 | [superscript](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelement/superscript/) | Superscript |
-| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelement/as_i_math_element/) | Allows to get base IMathElement interface<br/>            <br/>[`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
+| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelement/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 

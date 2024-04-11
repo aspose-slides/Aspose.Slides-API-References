@@ -17,12 +17,12 @@ The FontSubstitutionInfo type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/#string-string/) | Creates an instance of <br/>[`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo) class. |
+| [__init__](/slides/python-net/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/#string-string/) | Creates an instance of [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo) class. |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [original_font_name](/slides/python-net/aspose.slides/fontsubstitutioninfo/original_font_name/) | Indicates source font name in presentation.<br/>            Read-only <br/>.NET type System.String |
-| [substituted_font_name](/slides/python-net/aspose.slides/fontsubstitutioninfo/substituted_font_name/) | Indicates the replacement font name for the original font.<br/>            Read-only <br/>.NET type System.String |
+| [original_font_name](/slides/python-net/aspose.slides/fontsubstitutioninfo/original_font_name/) | Indicates source font name in presentation.<br/>            Read-only .NET type System.String |
+| [substituted_font_name](/slides/python-net/aspose.slides/fontsubstitutioninfo/substituted_font_name/) | Indicates the replacement font name for the original font.<br/>            Read-only .NET type System.String |
 

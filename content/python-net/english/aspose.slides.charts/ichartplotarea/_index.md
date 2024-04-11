@@ -17,10 +17,10 @@ The IChartPlotArea type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [format](/slides/python-net/aspose.slides.charts/ichartplotarea/format/) | Returns the format of a plot area.<br/>            Read-only <br/>[`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
-| [as_i_layoutable](/slides/python-net/aspose.slides.charts/ichartplotarea/as_i_layoutable/) | Allows to get base ILayoutable interface.<br/>            Read-only <br/>[`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable). |
+| [format](/slides/python-net/aspose.slides.charts/ichartplotarea/format/) | Returns the format of a plot area.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
+| [as_i_layoutable](/slides/python-net/aspose.slides.charts/ichartplotarea/as_i_layoutable/) | Allows to get base ILayoutable interface.<br/>            Read-only [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable). |
 | [as_i_actual_layout](/slides/python-net/aspose.slides.charts/ichartplotarea/as_i_actual_layout/) | Returns IActualLayout interface. |
-| [layout_target_type](/slides/python-net/aspose.slides.charts/ichartplotarea/layout_target_type/) | If layout of the plot area defined manually this property specifies whether <br/>             to layout the plot area by its inside (not including axis and axis labels) or outside<br/>             (including axis and axis labels).<br/>             Read/write <br/>[`IChartPlotArea.layout_target_type`](/slides/python-net/aspose.slides.charts/ichartplotarea#layout_target_type). |
+| [layout_target_type](/slides/python-net/aspose.slides.charts/ichartplotarea/layout_target_type/) | If layout of the plot area defined manually this property specifies whether <br/>             to layout the plot area by its inside (not including axis and axis labels) or outside<br/>             (including axis and axis labels).<br/>             Read/write [`IChartPlotArea.layout_target_type`](/slides/python-net/aspose.slides.charts/ichartplotarea#layout_target_type). |
 | [x](/slides/python-net/aspose.slides.charts/ichartplotarea/x/) |  |
 | [y](/slides/python-net/aspose.slides.charts/ichartplotarea/y/) |  |
 | [width](/slides/python-net/aspose.slides.charts/ichartplotarea/width/) |  |

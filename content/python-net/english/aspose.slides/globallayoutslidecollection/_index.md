@@ -37,7 +37,7 @@ The GlobalLayoutSlideCollection type exposes the following members:
 | :- | :- |
 | [add_clone](/slides/python-net/aspose.slides/globallayoutslidecollection/globallayoutslidecollection/#ILayoutSlide/) | Adds a copy of a specified layout slide to the presentation. |
 | [add_clone](/slides/python-net/aspose.slides/globallayoutslidecollection/globallayoutslidecollection/#ILayoutSlide-IMasterSlide/) | Adds a copy of a specified layout slide to the presentation. |
-| [get_by_type](/slides/python-net/aspose.slides/globallayoutslidecollection/globallayoutslidecollection/#SlideLayoutType/) | Returns the first layout slide of specified type.<br/>            <br/>A type of layout slide to find.<br/>[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or null if no layouts found. |
+| [get_by_type](/slides/python-net/aspose.slides/globallayoutslidecollection/globallayoutslidecollection/#SlideLayoutType/) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or null if no layouts found. |
 | [remove](/slides/python-net/aspose.slides/globallayoutslidecollection/globallayoutslidecollection/#ILayoutSlide/) | Removes a layout from the collection. |
 | [remove_unused](/slides/python-net/aspose.slides/globallayoutslidecollection/globallayoutslidecollection/#/) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 | [add](/slides/python-net/aspose.slides/globallayoutslidecollection/globallayoutslidecollection/#IMasterSlide-SlideLayoutType-string/) | Adds a new layout slide to the presentation. |

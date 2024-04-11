@@ -20,7 +20,7 @@ The IMathAccent type exposes the following members:
 | :- | :- |
 | [base](/slides/python-net/aspose.slides.mathtext/imathaccent/base/) | The argument to which the accent was applied |
 | [character](/slides/python-net/aspose.slides.mathtext/imathaccent/character/) | Accent Character<br/>            The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF)<br/>            Default value: Combining Circumflex Accent (U+0302) |
-| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathaccent/as_i_math_element/) | Allows to get base IMathElement interface<br/>            <br/>[`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
+| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathaccent/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 

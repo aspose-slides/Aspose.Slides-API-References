@@ -19,11 +19,11 @@ The OverrideTheme type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [color_scheme](/slides/python-net/aspose.slides.theme/overridetheme/color_scheme/) | Returns the color scheme.<br/>            Read-only <br/>[`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme). |
-| [font_scheme](/slides/python-net/aspose.slides.theme/overridetheme/font_scheme/) | Returns the font scheme.<br/>            Read-only <br/>[`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme). |
-| [format_scheme](/slides/python-net/aspose.slides.theme/overridetheme/format_scheme/) | Returns the shape format scheme.<br/>            Read-only <br/>[`IFormatScheme`](/slides/python-net/aspose.slides.theme/iformatscheme). |
-| [presentation](/slides/python-net/aspose.slides.theme/overridetheme/presentation/) | Returns the parent presentation.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [is_empty](/slides/python-net/aspose.slides.theme/overridetheme/is_empty/) | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled.<br/>            Read-only <br/>.NET type System.Boolean. |
+| [color_scheme](/slides/python-net/aspose.slides.theme/overridetheme/color_scheme/) | Returns the color scheme.<br/>            Read-only [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme). |
+| [font_scheme](/slides/python-net/aspose.slides.theme/overridetheme/font_scheme/) | Returns the font scheme.<br/>            Read-only [`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme). |
+| [format_scheme](/slides/python-net/aspose.slides.theme/overridetheme/format_scheme/) | Returns the shape format scheme.<br/>            Read-only [`IFormatScheme`](/slides/python-net/aspose.slides.theme/iformatscheme). |
+| [presentation](/slides/python-net/aspose.slides.theme/overridetheme/presentation/) | Returns the parent presentation.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [is_empty](/slides/python-net/aspose.slides.theme/overridetheme/is_empty/) | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled.<br/>            Read-only .NET type System.Boolean. |
 | [as_i_presentation_component](/slides/python-net/aspose.slides.theme/overridetheme/as_i_presentation_component/) |  |
 | [as_i_theme](/slides/python-net/aspose.slides.theme/overridetheme/as_i_theme/) |  |
 

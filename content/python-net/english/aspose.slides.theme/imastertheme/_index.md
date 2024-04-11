@@ -17,9 +17,9 @@ The IMasterTheme type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [extra_color_schemes](/slides/python-net/aspose.slides.theme/imastertheme/extra_color_schemes/) | Returns the collection of additional color schemes.<br/>            These schemes don't affect presentation's look, they can be selected as main color scheme for a slide.<br/>            Read-only <br/>[`IExtraColorSchemeCollection`](/slides/python-net/aspose.slides.theme/iextracolorschemecollection). |
-| [name](/slides/python-net/aspose.slides.theme/imastertheme/name/) | Returns the name of a theme.<br/>            Read/write <br/>.NET type System.String. |
-| [as_i_theme](/slides/python-net/aspose.slides.theme/imastertheme/as_i_theme/) | Allows to get base ITheme interface.<br/>            Read-only <br/>[`ITheme`](/slides/python-net/aspose.slides.theme/itheme). |
+| [extra_color_schemes](/slides/python-net/aspose.slides.theme/imastertheme/extra_color_schemes/) | Returns the collection of additional color schemes.<br/>            These schemes don't affect presentation's look, they can be selected as main color scheme for a slide.<br/>            Read-only [`IExtraColorSchemeCollection`](/slides/python-net/aspose.slides.theme/iextracolorschemecollection). |
+| [name](/slides/python-net/aspose.slides.theme/imastertheme/name/) | Returns the name of a theme.<br/>            Read/write .NET type System.String. |
+| [as_i_theme](/slides/python-net/aspose.slides.theme/imastertheme/as_i_theme/) | Allows to get base ITheme interface.<br/>            Read-only [`ITheme`](/slides/python-net/aspose.slides.theme/itheme). |
 | [color_scheme](/slides/python-net/aspose.slides.theme/imastertheme/color_scheme/) |  |
 | [font_scheme](/slides/python-net/aspose.slides.theme/imastertheme/font_scheme/) |  |
 | [format_scheme](/slides/python-net/aspose.slides.theme/imastertheme/format_scheme/) |  |

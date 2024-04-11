@@ -17,11 +17,11 @@ The IDataLabel type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_visible](/slides/python-net/aspose.slides.charts/idatalabel/is_visible/) | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false).<br/>            Read-only <br/>.NET type System.Boolean. |
-| [data_label_format](/slides/python-net/aspose.slides.charts/idatalabel/data_label_format/) | Returns format of the data label.<br/>            Read-only <br/>[`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat). |
+| [is_visible](/slides/python-net/aspose.slides.charts/idatalabel/is_visible/) | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false).<br/>            Read-only .NET type System.Boolean. |
+| [data_label_format](/slides/python-net/aspose.slides.charts/idatalabel/data_label_format/) | Returns format of the data label.<br/>            Read-only [`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat). |
 | [value_from_cell](/slides/python-net/aspose.slides.charts/idatalabel/value_from_cell/) | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
-| [as_i_layoutable](/slides/python-net/aspose.slides.charts/idatalabel/as_i_layoutable/) | Returns ILayoutable interface.<br/>            Read-only <br/>[`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable). |
-| [as_i_overridable_text](/slides/python-net/aspose.slides.charts/idatalabel/as_i_overridable_text/) | Returns IOverridableText interface.<br/>            Read-only <br/>[`IOverridableText`](/slides/python-net/aspose.slides.charts/ioverridabletext). |
+| [as_i_layoutable](/slides/python-net/aspose.slides.charts/idatalabel/as_i_layoutable/) | Returns ILayoutable interface.<br/>            Read-only [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable). |
+| [as_i_overridable_text](/slides/python-net/aspose.slides.charts/idatalabel/as_i_overridable_text/) | Returns IOverridableText interface.<br/>            Read-only [`IOverridableText`](/slides/python-net/aspose.slides.charts/ioverridabletext). |
 | [as_i_actual_layout](/slides/python-net/aspose.slides.charts/idatalabel/as_i_actual_layout/) | Returns IActualLayout interface. |
 | [x](/slides/python-net/aspose.slides.charts/idatalabel/x/) |  |
 | [y](/slides/python-net/aspose.slides.charts/idatalabel/y/) |  |

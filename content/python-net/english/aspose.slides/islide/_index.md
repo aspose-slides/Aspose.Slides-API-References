@@ -17,13 +17,13 @@ The ISlide type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [header_footer_manager](/slides/python-net/aspose.slides/islide/header_footer_manager/) | Returns HeaderFooter manager of the slide.<br/>            Read-only <br/>[`ISlideHeaderFooterManager`](/slides/python-net/aspose.slides/islideheaderfootermanager). |
-| [slide_number](/slides/python-net/aspose.slides/islide/slide_number/) | Returns a number of slide.<br/>            Index of slide in <br/>[`IPresentation.slides`](/slides/python-net/aspose.slides/ipresentation#slides) collection is always equal to SlideNumber - 1.<br/>            Read/write <br/>.NET type System.Int32. |
-| [hidden](/slides/python-net/aspose.slides/islide/hidden/) | Determines whether the specified slide is hidden during a slide show.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [layout_slide](/slides/python-net/aspose.slides/islide/layout_slide/) | Returns or sets the layout slide for the current slide.<br/>            Read/write <br/>[`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide). |
-| [notes_slide_manager](/slides/python-net/aspose.slides/islide/notes_slide_manager/) | Allow to access notes slide, add and remove it.<br/>            Read-only <br/>[`INotesSlideManager`](/slides/python-net/aspose.slides/inotesslidemanager). |
-| [as_i_base_slide](/slides/python-net/aspose.slides/islide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
-| [as_i_override_themeable](/slides/python-net/aspose.slides/islide/as_i_override_themeable/) | Returns IOverrideThemeable interface.<br/>            Read-only <br/>[`IOverrideThemeable`](/slides/python-net/aspose.slides.theme/ioverridethemeable). |
+| [header_footer_manager](/slides/python-net/aspose.slides/islide/header_footer_manager/) | Returns HeaderFooter manager of the slide.<br/>            Read-only [`ISlideHeaderFooterManager`](/slides/python-net/aspose.slides/islideheaderfootermanager). |
+| [slide_number](/slides/python-net/aspose.slides/islide/slide_number/) | Returns a number of slide.<br/>            Index of slide in [`IPresentation.slides`](/slides/python-net/aspose.slides/ipresentation#slides) collection is always equal to SlideNumber - 1.<br/>            Read/write .NET type System.Int32. |
+| [hidden](/slides/python-net/aspose.slides/islide/hidden/) | Determines whether the specified slide is hidden during a slide show.<br/>            Read/write .NET type System.Boolean. |
+| [layout_slide](/slides/python-net/aspose.slides/islide/layout_slide/) | Returns or sets the layout slide for the current slide.<br/>            Read/write [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide). |
+| [notes_slide_manager](/slides/python-net/aspose.slides/islide/notes_slide_manager/) | Allow to access notes slide, add and remove it.<br/>            Read-only [`INotesSlideManager`](/slides/python-net/aspose.slides/inotesslidemanager). |
+| [as_i_base_slide](/slides/python-net/aspose.slides/islide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
+| [as_i_override_themeable](/slides/python-net/aspose.slides/islide/as_i_override_themeable/) | Returns IOverrideThemeable interface.<br/>            Read-only [`IOverrideThemeable`](/slides/python-net/aspose.slides.theme/ioverridethemeable). |
 | [shapes](/slides/python-net/aspose.slides/islide/shapes/) |  |
 | [controls](/slides/python-net/aspose.slides/islide/controls/) |  |
 | [name](/slides/python-net/aspose.slides/islide/name/) |  |

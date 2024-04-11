@@ -17,6 +17,6 @@ The CommonSlideViewProperties type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [scale](/slides/python-net/aspose.slides/commonslideviewproperties/scale/) | Specifies the view scaling ratio in percentages.<br/>            Read/write <br/>.NET type System.Int32. |
-| [variable_scale](/slides/python-net/aspose.slides/commonslideviewproperties/variable_scale/) | Specifies that the view content should automatically scale to best fit the current window size.<br/>            Read/write <br/>.NET type System.Boolean. |
+| [scale](/slides/python-net/aspose.slides/commonslideviewproperties/scale/) | Specifies the view scaling ratio in percentages.<br/>            Read/write .NET type System.Int32. |
+| [variable_scale](/slides/python-net/aspose.slides/commonslideviewproperties/variable_scale/) | Specifies that the view content should automatically scale to best fit the current window size.<br/>            Read/write .NET type System.Boolean. |
 

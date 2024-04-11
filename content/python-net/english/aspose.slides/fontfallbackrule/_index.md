@@ -26,7 +26,7 @@ The FontFallBackRule type exposes the following members:
 | :- | :- |
 | [range_start_index](/slides/python-net/aspose.slides/fontfallbackrule/range_start_index/) | Get first index of continuous unicode range. |
 | [range_end_index](/slides/python-net/aspose.slides/fontfallbackrule/range_end_index/) | Get last index of continuous unicode range. |
-| [count](/slides/python-net/aspose.slides/fontfallbackrule/count/) | Gets the number of fonts actually defined for range.<br/>            Read-only <br/>.NET type System.Int32. |
+| [count](/slides/python-net/aspose.slides/fontfallbackrule/count/) | Gets the number of fonts actually defined for range.<br/>            Read-only .NET type System.Int32. |
 
 ## Indexer
 

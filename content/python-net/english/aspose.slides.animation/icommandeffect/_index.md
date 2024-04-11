@@ -17,10 +17,10 @@ The ICommandEffect type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [type](/slides/python-net/aspose.slides.animation/icommandeffect/type/) | Defines command effect type of behavior.<br/>            Read/write <br/>[`CommandEffectType`](/slides/python-net/aspose.slides.animation/commandeffecttype). |
-| [command_string](/slides/python-net/aspose.slides.animation/icommandeffect/command_string/) | Defines command string.<br/>            Read/write <br/>.NET type System.String. |
-| [shape_target](/slides/python-net/aspose.slides.animation/icommandeffect/shape_target/) | Defines shape target of command effect.<br/>            Read/write <br/>[`IShape`](/slides/python-net/aspose.slides/ishape). |
-| [as_i_behavior](/slides/python-net/aspose.slides.animation/icommandeffect/as_i_behavior/) | Allows to get base IBehavior interface.<br/>            Read-only <br/>[`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior). |
+| [type](/slides/python-net/aspose.slides.animation/icommandeffect/type/) | Defines command effect type of behavior.<br/>            Read/write [`CommandEffectType`](/slides/python-net/aspose.slides.animation/commandeffecttype). |
+| [command_string](/slides/python-net/aspose.slides.animation/icommandeffect/command_string/) | Defines command string.<br/>            Read/write .NET type System.String. |
+| [shape_target](/slides/python-net/aspose.slides.animation/icommandeffect/shape_target/) | Defines shape target of command effect.<br/>            Read/write [`IShape`](/slides/python-net/aspose.slides/ishape). |
+| [as_i_behavior](/slides/python-net/aspose.slides.animation/icommandeffect/as_i_behavior/) | Allows to get base IBehavior interface.<br/>            Read-only [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior). |
 | [accumulate](/slides/python-net/aspose.slides.animation/icommandeffect/accumulate/) |  |
 | [additive](/slides/python-net/aspose.slides.animation/icommandeffect/additive/) |  |
 | [properties](/slides/python-net/aspose.slides.animation/icommandeffect/properties/) |  |

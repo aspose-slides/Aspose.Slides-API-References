@@ -19,7 +19,7 @@ The IMathematicalText type exposes the following members:
 | :- | :- |
 | [value](/slides/python-net/aspose.slides.mathtext/imathematicaltext/value/) | Text value |
 | [format](/slides/python-net/aspose.slides.mathtext/imathematicaltext/format/) | Text formatting properties |
-| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathematicaltext/as_i_math_element/) | Allows to get base IMathElement interface<br/>            <br/>[`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
+| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathematicaltext/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 

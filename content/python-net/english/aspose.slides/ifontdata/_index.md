@@ -17,7 +17,7 @@ The IFontData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [font_name](/slides/python-net/aspose.slides/ifontdata/font_name/) | Returns the font name. <br/>            Read-only <br/>.NET type System.String. |
+| [font_name](/slides/python-net/aspose.slides/ifontdata/font_name/) | Returns the font name. <br/>            Read-only .NET type System.String. |
 
 ## Methods
 

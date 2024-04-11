@@ -17,7 +17,7 @@ The IZoomFrame type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [target_slide](/slides/python-net/aspose.slides/izoomframe/target_slide/) | Gets or sets the slide object that the Slide Zoom object links to.<br/>            Read/write <br/>[`ISlide`](/slides/python-net/aspose.slides/islide). |
+| [target_slide](/slides/python-net/aspose.slides/izoomframe/target_slide/) | Gets or sets the slide object that the Slide Zoom object links to.<br/>            Read/write [`ISlide`](/slides/python-net/aspose.slides/islide). |
 | [as_i_zoom_object](/slides/python-net/aspose.slides/izoomframe/as_i_zoom_object/) | Returns IZoomObject interface. |
 | [image_type](/slides/python-net/aspose.slides/izoomframe/image_type/) |  |
 | [return_to_parent](/slides/python-net/aspose.slides/izoomframe/return_to_parent/) |  |

@@ -19,6 +19,6 @@ The WheelTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [spokes](/slides/python-net/aspose.slides.slideshow/wheeltransition/spokes/) | Number spokes of wheel transition.<br/>            Read/write <br/>.NET type System.UInt32. |
+| [spokes](/slides/python-net/aspose.slides.slideshow/wheeltransition/spokes/) | Number spokes of wheel transition.<br/>            Read/write .NET type System.UInt32. |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/wheeltransition/as_i_transition_value_base/) |  |
 

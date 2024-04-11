@@ -20,7 +20,7 @@ The Tint type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/tint/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/tint/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [slide](/slides/python-net/aspose.slides.effects/tint/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides.effects/tint/presentation/) |  |
 | [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/tint/as_i_image_transform_operation/) |  |

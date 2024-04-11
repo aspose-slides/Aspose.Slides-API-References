@@ -17,20 +17,20 @@ The IAudioFrame type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [audio_cd_start_track](/slides/python-net/aspose.slides/iaudioframe/audio_cd_start_track/) | Returns or sets a start track index.<br/>            Read/write <br/>.NET type System.Int32. |
-| [audio_cd_start_track_time](/slides/python-net/aspose.slides/iaudioframe/audio_cd_start_track_time/) | Returns or sets a start track time.<br/>            Read/write <br/>.NET type System.Int32. |
-| [audio_cd_end_track](/slides/python-net/aspose.slides/iaudioframe/audio_cd_end_track/) | Returns or sets a last track index<br/>            Read/write <br/>.NET type System.Int32. |
-| [audio_cd_end_track_time](/slides/python-net/aspose.slides/iaudioframe/audio_cd_end_track_time/) | Returns or sets a last track time.<br/>            Read/write <br/>.NET type System.Int32. |
-| [volume](/slides/python-net/aspose.slides/iaudioframe/volume/) | Returns or sets the audio volume.<br/>            Read/write <br/>[`AudioVolumeMode`](/slides/python-net/aspose.slides/audiovolumemode). |
-| [play_mode](/slides/python-net/aspose.slides/iaudioframe/play_mode/) | Returns or sets the audio play mode.<br/>            Read/write <br/>[`AudioPlayModePreset`](/slides/python-net/aspose.slides/audioplaymodepreset). |
-| [hide_at_showing](/slides/python-net/aspose.slides/iaudioframe/hide_at_showing/) | Determines whether an AudioFrame is hidden.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [play_loop_mode](/slides/python-net/aspose.slides/iaudioframe/play_loop_mode/) | Determines whether an audio is looped.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [play_across_slides](/slides/python-net/aspose.slides/iaudioframe/play_across_slides/) | Determines whether an audio is playing across the slides.<br/>             Read/write <br/>.NET type System.Boolean. |
-| [rewind_audio](/slides/python-net/aspose.slides/iaudioframe/rewind_audio/) | Determines whether an audio is automatically rewinded to start after playing.<br/>             Read/write <br/>.NET type System.Boolean. |
-| [embedded](/slides/python-net/aspose.slides/iaudioframe/embedded/) | Determines whether a sound is embedded to a presentation.<br/>            Read-only <br/>.NET type System.Boolean. |
-| [link_path_long](/slides/python-net/aspose.slides/iaudioframe/link_path_long/) | Returns or sets the name of an audio file which is linked to an AudioFrame.<br/>            Read/write <br/>.NET type System.String. |
-| [embedded_audio](/slides/python-net/aspose.slides/iaudioframe/embedded_audio/) | Returns or sets embedded audio object.<br/>            Read/write <br/>[`IAudio`](/slides/python-net/aspose.slides/iaudio). |
-| [as_i_picture_frame](/slides/python-net/aspose.slides/iaudioframe/as_i_picture_frame/) | Allows to get base IPictureFrame interface.<br/>            Read-only <br/>[`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe). |
+| [audio_cd_start_track](/slides/python-net/aspose.slides/iaudioframe/audio_cd_start_track/) | Returns or sets a start track index.<br/>            Read/write .NET type System.Int32. |
+| [audio_cd_start_track_time](/slides/python-net/aspose.slides/iaudioframe/audio_cd_start_track_time/) | Returns or sets a start track time.<br/>            Read/write .NET type System.Int32. |
+| [audio_cd_end_track](/slides/python-net/aspose.slides/iaudioframe/audio_cd_end_track/) | Returns or sets a last track index<br/>            Read/write .NET type System.Int32. |
+| [audio_cd_end_track_time](/slides/python-net/aspose.slides/iaudioframe/audio_cd_end_track_time/) | Returns or sets a last track time.<br/>            Read/write .NET type System.Int32. |
+| [volume](/slides/python-net/aspose.slides/iaudioframe/volume/) | Returns or sets the audio volume.<br/>            Read/write [`AudioVolumeMode`](/slides/python-net/aspose.slides/audiovolumemode). |
+| [play_mode](/slides/python-net/aspose.slides/iaudioframe/play_mode/) | Returns or sets the audio play mode.<br/>            Read/write [`AudioPlayModePreset`](/slides/python-net/aspose.slides/audioplaymodepreset). |
+| [hide_at_showing](/slides/python-net/aspose.slides/iaudioframe/hide_at_showing/) | Determines whether an AudioFrame is hidden.<br/>            Read/write .NET type System.Boolean. |
+| [play_loop_mode](/slides/python-net/aspose.slides/iaudioframe/play_loop_mode/) | Determines whether an audio is looped.<br/>            Read/write .NET type System.Boolean. |
+| [play_across_slides](/slides/python-net/aspose.slides/iaudioframe/play_across_slides/) | Determines whether an audio is playing across the slides.<br/>             Read/write .NET type System.Boolean. |
+| [rewind_audio](/slides/python-net/aspose.slides/iaudioframe/rewind_audio/) | Determines whether an audio is automatically rewinded to start after playing.<br/>             Read/write .NET type System.Boolean. |
+| [embedded](/slides/python-net/aspose.slides/iaudioframe/embedded/) | Determines whether a sound is embedded to a presentation.<br/>            Read-only .NET type System.Boolean. |
+| [link_path_long](/slides/python-net/aspose.slides/iaudioframe/link_path_long/) | Returns or sets the name of an audio file which is linked to an AudioFrame.<br/>            Read/write .NET type System.String. |
+| [embedded_audio](/slides/python-net/aspose.slides/iaudioframe/embedded_audio/) | Returns or sets embedded audio object.<br/>            Read/write [`IAudio`](/slides/python-net/aspose.slides/iaudio). |
+| [as_i_picture_frame](/slides/python-net/aspose.slides/iaudioframe/as_i_picture_frame/) | Allows to get base IPictureFrame interface.<br/>            Read-only [`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe). |
 | [shape_lock](/slides/python-net/aspose.slides/iaudioframe/shape_lock/) |  |
 | [picture_frame_lock](/slides/python-net/aspose.slides/iaudioframe/picture_frame_lock/) |  |
 | [picture_format](/slides/python-net/aspose.slides/iaudioframe/picture_format/) |  |

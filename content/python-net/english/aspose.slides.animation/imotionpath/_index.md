@@ -17,8 +17,8 @@ The IMotionPath type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.animation/imotionpath/count/) | Returns the number of paths in the collection.<br/>            Read-only <br/>.NET type System.Int32. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.animation/imotionpath/as_i_enumerable/) | Allows to get base IBehavior interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable. |
+| [count](/slides/python-net/aspose.slides.animation/imotionpath/count/) | Returns the number of paths in the collection.<br/>            Read-only .NET type System.Int32. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.animation/imotionpath/as_i_enumerable/) | Allows to get base IBehavior interface.<br/>            Read-only .NET type System.Collections.IEnumerable. |
 
 ## Indexer
 

@@ -18,8 +18,8 @@ The IMathBlock type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_math_element_collection](/slides/python-net/aspose.slides.mathtext/imathblock/as_i_math_element_collection/) | Allows to get base IMathElementCollection interface<br/>            <br/>[`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection) |
-| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathblock/as_i_math_element/) | Allows to get base IMathElement interface<br/>            <br/>[`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
+| [as_i_math_element_collection](/slides/python-net/aspose.slides.mathtext/imathblock/as_i_math_element_collection/) | Allows to get base IMathElementCollection interface<br/>            [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection) |
+| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathblock/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 | [count](/slides/python-net/aspose.slides.mathtext/imathblock/count/) |  |
 | [as_i_enumerable](/slides/python-net/aspose.slides.mathtext/imathblock/as_i_enumerable/) |  |
 
@@ -76,7 +76,7 @@ The IMathBlock type exposes the following members:
 | [to_border_box](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#bool-bool-bool-bool-bool-bool-bool-bool/) |  |
 | [delimit](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#char/) | Delimits all child elements with separator character (without the brackets) |
 | [join_block](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#IMathBlock/) | Joins another mathematical block with this one |
-| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#System.IO.Stream/) | Saves content of this <br/>[`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) as MathML |
+| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#System.IO.Stream/) | Saves content of this [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) as MathML |
 | [add](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#IMathElement/) |  |
 | [index_of](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#IMathElement/) |  |
 | [insert](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#int-IMathElement/) |  |

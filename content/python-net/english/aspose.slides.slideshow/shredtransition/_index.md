@@ -19,7 +19,7 @@ The ShredTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/shredtransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype). |
-| [pattern](/slides/python-net/aspose.slides.slideshow/shredtransition/pattern/) | Specifies the shape of the visuals used during the transition.<br/>            Read/write <br/>[`TransitionShredPattern`](/slides/python-net/aspose.slides.slideshow/transitionshredpattern). |
+| [direction](/slides/python-net/aspose.slides.slideshow/shredtransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype). |
+| [pattern](/slides/python-net/aspose.slides.slideshow/shredtransition/pattern/) | Specifies the shape of the visuals used during the transition.<br/>            Read/write [`TransitionShredPattern`](/slides/python-net/aspose.slides.slideshow/transitionshredpattern). |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/shredtransition/as_i_transition_value_base/) |  |
 

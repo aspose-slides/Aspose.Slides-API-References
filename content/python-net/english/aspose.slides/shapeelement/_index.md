@@ -17,8 +17,8 @@ The ShapeElement type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [parent_shape](/slides/python-net/aspose.slides/shapeelement/parent_shape/) | Returns a Shape_PPT for which element was created.<br/>            Read-only <br/>[`Shape`](/slides/python-net/aspose.slides/shape). |
-| [graphics_path](/slides/python-net/aspose.slides/shapeelement/graphics_path/) | Returns an element's path.<br/>            Read-only <br/>.NET type System.Drawing.Drawing2D.GraphicsPath. |
-| [fill_source](/slides/python-net/aspose.slides/shapeelement/fill_source/) | Returns information about how to fill an element.<br/>            Read-only <br/>[`ShapeElementFillSource`](/slides/python-net/aspose.slides/shapeelementfillsource). |
-| [stroke_source](/slides/python-net/aspose.slides/shapeelement/stroke_source/) | Returns information about how to stroke an element.<br/>            Read-only <br/>[`ShapeElementStrokeSource`](/slides/python-net/aspose.slides/shapeelementstrokesource). |
+| [parent_shape](/slides/python-net/aspose.slides/shapeelement/parent_shape/) | Returns a Shape_PPT for which element was created.<br/>            Read-only [`Shape`](/slides/python-net/aspose.slides/shape). |
+| [graphics_path](/slides/python-net/aspose.slides/shapeelement/graphics_path/) | Returns an element's path.<br/>            Read-only .NET type System.Drawing.Drawing2D.GraphicsPath. |
+| [fill_source](/slides/python-net/aspose.slides/shapeelement/fill_source/) | Returns information about how to fill an element.<br/>            Read-only [`ShapeElementFillSource`](/slides/python-net/aspose.slides/shapeelementfillsource). |
+| [stroke_source](/slides/python-net/aspose.slides/shapeelement/stroke_source/) | Returns information about how to stroke an element.<br/>            Read-only [`ShapeElementStrokeSource`](/slides/python-net/aspose.slides/shapeelementstrokesource). |
 

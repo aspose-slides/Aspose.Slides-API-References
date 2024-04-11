@@ -19,7 +19,7 @@ The IMasterLayoutSlideCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_layout_slide_collection](/slides/python-net/aspose.slides/imasterlayoutslidecollection/as_i_layout_slide_collection/) | Returns ILayoutSlideCollection interface.<br/>            Read-only <br/>[`ILayoutSlideCollection`](/slides/python-net/aspose.slides/ilayoutslidecollection). |
+| [as_i_layout_slide_collection](/slides/python-net/aspose.slides/imasterlayoutslidecollection/as_i_layout_slide_collection/) | Returns ILayoutSlideCollection interface.<br/>            Read-only [`ILayoutSlideCollection`](/slides/python-net/aspose.slides/ilayoutslidecollection). |
 | [as_i_collection](/slides/python-net/aspose.slides/imasterlayoutslidecollection/as_i_collection/) |  |
 | [as_i_enumerable](/slides/python-net/aspose.slides/imasterlayoutslidecollection/as_i_enumerable/) |  |
 

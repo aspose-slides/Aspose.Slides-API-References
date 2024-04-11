@@ -17,12 +17,12 @@ The IPictureFrame type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [shape_lock](/slides/python-net/aspose.slides/ipictureframe/shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IPictureFrameLock`](/slides/python-net/aspose.slides/ipictureframelock). |
-| [picture_frame_lock](/slides/python-net/aspose.slides/ipictureframe/picture_frame_lock/) | Returns PictureFrame's locks.<br/>            Read-only <br/>[`IPictureFrameLock`](/slides/python-net/aspose.slides/ipictureframelock). |
-| [picture_format](/slides/python-net/aspose.slides/ipictureframe/picture_format/) | Returns the PictureFillFormat object for a picture frame.<br/>            Read-only <br/>[`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
-| [relative_scale_height](/slides/python-net/aspose.slides/ipictureframe/relative_scale_height/) | Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write <br/>.NET type System.Single. |
-| [relative_scale_width](/slides/python-net/aspose.slides/ipictureframe/relative_scale_width/) | Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write <br/>.NET type System.Single. |
-| [as_i_geometry_shape](/slides/python-net/aspose.slides/ipictureframe/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only <br/>[`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape). |
+| [shape_lock](/slides/python-net/aspose.slides/ipictureframe/shape_lock/) | Returns shape's locks.<br/>            Read-only [`IPictureFrameLock`](/slides/python-net/aspose.slides/ipictureframelock). |
+| [picture_frame_lock](/slides/python-net/aspose.slides/ipictureframe/picture_frame_lock/) | Returns PictureFrame's locks.<br/>            Read-only [`IPictureFrameLock`](/slides/python-net/aspose.slides/ipictureframelock). |
+| [picture_format](/slides/python-net/aspose.slides/ipictureframe/picture_format/) | Returns the PictureFillFormat object for a picture frame.<br/>            Read-only [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
+| [relative_scale_height](/slides/python-net/aspose.slides/ipictureframe/relative_scale_height/) | Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write .NET type System.Single. |
+| [relative_scale_width](/slides/python-net/aspose.slides/ipictureframe/relative_scale_width/) | Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write .NET type System.Single. |
+| [as_i_geometry_shape](/slides/python-net/aspose.slides/ipictureframe/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only [`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape). |
 | [shape_style](/slides/python-net/aspose.slides/ipictureframe/shape_style/) |  |
 | [shape_type](/slides/python-net/aspose.slides/ipictureframe/shape_type/) |  |
 | [adjustments](/slides/python-net/aspose.slides/ipictureframe/adjustments/) |  |

@@ -17,9 +17,9 @@ The ICamera type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [camera_type](/slides/python-net/aspose.slides/icamera/camera_type/) | Camera type<br/>            Read/write <br/>[`CameraPresetType`](/slides/python-net/aspose.slides/camerapresettype). |
-| [field_of_view_angle](/slides/python-net/aspose.slides/icamera/field_of_view_angle/) | Camera FOV (0-180 deg, field of View)<br/>            Read/write <br/>.NET type System.Single. |
-| [zoom](/slides/python-net/aspose.slides/icamera/zoom/) | Camera zoom (positive value in percentage)<br/>            Read/write <br/>.NET type System.Single. |
+| [camera_type](/slides/python-net/aspose.slides/icamera/camera_type/) | Camera type<br/>            Read/write [`CameraPresetType`](/slides/python-net/aspose.slides/camerapresettype). |
+| [field_of_view_angle](/slides/python-net/aspose.slides/icamera/field_of_view_angle/) | Camera FOV (0-180 deg, field of View)<br/>            Read/write .NET type System.Single. |
+| [zoom](/slides/python-net/aspose.slides/icamera/zoom/) | Camera zoom (positive value in percentage)<br/>            Read/write .NET type System.Single. |
 
 ## Methods
 

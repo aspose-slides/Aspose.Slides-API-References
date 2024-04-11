@@ -18,8 +18,8 @@ The Glow type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/glow/radius/) | Radius.<br/>            Read/write <br/>.NET type System.Double. |
-| [color](/slides/python-net/aspose.slides.effects/glow/color/) | Color format.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [radius](/slides/python-net/aspose.slides.effects/glow/radius/) | Radius.<br/>            Read/write .NET type System.Double. |
+| [color](/slides/python-net/aspose.slides.effects/glow/color/) | Color format.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/glow/as_i_image_transform_operation/) |  |
 
 ## Methods

@@ -19,7 +19,7 @@ The IAlphaCeiling type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ialphaceiling/as_i_image_transform_operation/) | Allows to get base IImageTransformOperationEx interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ialphaceiling/as_i_image_transform_operation/) | Allows to get base IImageTransformOperationEx interface.<br/>            Read-only [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
 
 ## Methods
 

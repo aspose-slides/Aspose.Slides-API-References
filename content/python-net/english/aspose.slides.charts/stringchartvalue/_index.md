@@ -21,10 +21,10 @@ The StringChartValue type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [data_source_type](/slides/python-net/aspose.slides.charts/stringchartvalue/data_source_type/) | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble <br/>            property is actual in descendants. In other words it specifies the type <br/>            of value of the Data property.<br/>            Read/write <br/>[`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype). |
-| [data](/slides/python-net/aspose.slides.charts/stringchartvalue/data/) | Returns or sets Data object.<br/>            Read/write <br/>.NET type System.Object. |
-| [as_cells](/slides/python-net/aspose.slides.charts/stringchartvalue/as_cells/) | Null value assigning is not allowed.<br/>            Returning value always is not null.<br/>            Read/write <br/>[`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection). |
-| [as_literal_string](/slides/python-net/aspose.slides.charts/stringchartvalue/as_literal_string/) | Returns or sets value as literal string.<br/>            Read/write <br/>.NET type System.String. |
+| [data_source_type](/slides/python-net/aspose.slides.charts/stringchartvalue/data_source_type/) | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble <br/>            property is actual in descendants. In other words it specifies the type <br/>            of value of the Data property.<br/>            Read/write [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype). |
+| [data](/slides/python-net/aspose.slides.charts/stringchartvalue/data/) | Returns or sets Data object.<br/>            Read/write .NET type System.Object. |
+| [as_cells](/slides/python-net/aspose.slides.charts/stringchartvalue/as_cells/) | Null value assigning is not allowed.<br/>            Returning value always is not null.<br/>            Read/write [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection). |
+| [as_literal_string](/slides/python-net/aspose.slides.charts/stringchartvalue/as_literal_string/) | Returns or sets value as literal string.<br/>            Read/write .NET type System.String. |
 | [as_i_multiple_cell_chart_value](/slides/python-net/aspose.slides.charts/stringchartvalue/as_i_multiple_cell_chart_value/) |  |
 | [as_i_base_chart_value](/slides/python-net/aspose.slides.charts/stringchartvalue/as_i_base_chart_value/) |  |
 

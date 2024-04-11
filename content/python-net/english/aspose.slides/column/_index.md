@@ -19,10 +19,10 @@ The Column type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [slide](/slides/python-net/aspose.slides/column/slide/) | Returns the parent slide of a CellCollection.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
-| [presentation](/slides/python-net/aspose.slides/column/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [width](/slides/python-net/aspose.slides/column/width/) | Returns or sets the width of a column.<br/>            Read/write <br/>.NET type System.Double. |
-| [column_format](/slides/python-net/aspose.slides/column/column_format/) | Returns the ColumnFormat object that contains formatting properties for this column.<br/>            Read-only <br/>[`IColumnFormat`](/slides/python-net/aspose.slides/icolumnformat). |
+| [slide](/slides/python-net/aspose.slides/column/slide/) | Returns the parent slide of a CellCollection.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
+| [presentation](/slides/python-net/aspose.slides/column/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [width](/slides/python-net/aspose.slides/column/width/) | Returns or sets the width of a column.<br/>            Read/write .NET type System.Double. |
+| [column_format](/slides/python-net/aspose.slides/column/column_format/) | Returns the ColumnFormat object that contains formatting properties for this column.<br/>            Read-only [`IColumnFormat`](/slides/python-net/aspose.slides/icolumnformat). |
 | [as_i_slide_component](/slides/python-net/aspose.slides/column/as_i_slide_component/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/column/as_i_presentation_component/) |  |
 | [as_i_collection](/slides/python-net/aspose.slides/column/as_i_collection/) |  |

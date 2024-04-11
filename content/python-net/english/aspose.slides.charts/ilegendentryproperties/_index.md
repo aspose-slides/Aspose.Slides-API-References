@@ -17,8 +17,8 @@ The ILegendEntryProperties type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [hide](/slides/python-net/aspose.slides.charts/ilegendentryproperties/hide/) | Returns or sets the hide flag of legend entry.<br/>            Read/write <br/>.NET type System.Boolean. |
-| [as_i_formatted_text_container](/slides/python-net/aspose.slides.charts/ilegendentryproperties/as_i_formatted_text_container/) | Allows to get base IFormattedTextContainer interface.<br/>            Read-only <br/>[`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer). |
+| [hide](/slides/python-net/aspose.slides.charts/ilegendentryproperties/hide/) | Returns or sets the hide flag of legend entry.<br/>            Read/write .NET type System.Boolean. |
+| [as_i_formatted_text_container](/slides/python-net/aspose.slides.charts/ilegendentryproperties/as_i_formatted_text_container/) | Allows to get base IFormattedTextContainer interface.<br/>            Read-only [`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer). |
 | [text_format](/slides/python-net/aspose.slides.charts/ilegendentryproperties/text_format/) |  |
 | [as_i_chart_component](/slides/python-net/aspose.slides.charts/ilegendentryproperties/as_i_chart_component/) |  |
 | [chart](/slides/python-net/aspose.slides.charts/ilegendentryproperties/chart/) |  |
