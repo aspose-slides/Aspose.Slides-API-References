@@ -1,0 +1,42 @@
+﻿---
+title: check_write_protection method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/presentationinfo/check_write_protection/
+weight: 40
+---
+
+
+## check_write_protection {#string}
+Checks whether a password to modify is correct for a write protected presentation.
+
+### Returns
+
+True if the presentation is write protected and the password is correct. False otherwise.
+
+
+
+```python
+def check_write_protection(self, password):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| password | string | The password to check. |
+
+### Remarks
+
+1. You should check the [`PresentationInfo.is_write_protected`](/slides/python-net/aspose.slides/presentationinfo#is_write_protected) property before calling this method.
+            2. When password is null or empty, this method returns false.
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException |  |
+
+
+

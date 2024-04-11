@@ -30,5 +30,5 @@ The AlphaModulate type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/alphamodulate/alphamodulate/#/) | Gets effective Alpha Modulate effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/alphamodulate/get_effective/#/) | Gets effective Alpha Modulate effect data with the inheritance applied. |
 

@@ -18,12 +18,12 @@ The ExternalResourceResolver type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.importing/externalresourceresolver/externalresourceresolver/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.importing/externalresourceresolver/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [resolve_uri](/slides/python-net/aspose.slides.importing/externalresourceresolver/externalresourceresolver/#string-string/) | Resolves the absolute URI from the base and relative URIs. |
-| [get_entity](/slides/python-net/aspose.slides.importing/externalresourceresolver/externalresourceresolver/#string/) | Maps a URI to an object containing the actual resource. |
+| [resolve_uri](/slides/python-net/aspose.slides.importing/externalresourceresolver/resolve_uri/#string-string/) | Resolves the absolute URI from the base and relative URIs. |
+| [get_entity](/slides/python-net/aspose.slides.importing/externalresourceresolver/get_entity/#string/) | Maps a URI to an object containing the actual resource. |
 

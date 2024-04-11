@@ -19,7 +19,7 @@ The ParagraphFormat type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/paragraphformat/paragraphformat/#/) | Initializes a new instance of [`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat) class. |
+| [__init__](/slides/python-net/aspose.slides/paragraphformat/__init__/#/) | Initializes a new instance of [`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat) class. |
 
 ## Properties
 
@@ -50,7 +50,7 @@ The ParagraphFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/paragraphformat/paragraphformat/#/) | Gets effective paragraph formatting data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides/paragraphformat/get_effective/#/) | Gets effective paragraph formatting data with the inheritance applied. |
 
 
 ### Remarks

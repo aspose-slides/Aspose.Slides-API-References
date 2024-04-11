@@ -80,15 +80,15 @@ The IAudioFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [get_geometry_paths](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#/) |  |
-| [set_geometry_path](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#IGeometryPath/) |  |
-| [set_geometry_paths](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#List[IGeometryPath]/) |  |
-| [create_shape_elements](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/iaudioframe/iaudioframe/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/iaudioframe/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/iaudioframe/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/iaudioframe/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/iaudioframe/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [get_geometry_paths](/slides/python-net/aspose.slides/iaudioframe/get_geometry_paths/#/) |  |
+| [set_geometry_path](/slides/python-net/aspose.slides/iaudioframe/set_geometry_path/#IGeometryPath/) |  |
+| [set_geometry_paths](/slides/python-net/aspose.slides/iaudioframe/set_geometry_paths/#List[IGeometryPath]/) |  |
+| [create_shape_elements](/slides/python-net/aspose.slides/iaudioframe/create_shape_elements/#/) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/iaudioframe/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/iaudioframe/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/iaudioframe/get_base_placeholder/#/) |  |
 

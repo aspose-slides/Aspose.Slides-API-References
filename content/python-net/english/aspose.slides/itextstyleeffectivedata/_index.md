@@ -23,7 +23,7 @@ The ITextStyleEffectiveData type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_level](/slides/python-net/aspose.slides/itextstyleeffectivedata/itextstyleeffectivedata/#int/) | Returns level of effective style. |
+| [get_level](/slides/python-net/aspose.slides/itextstyleeffectivedata/get_level/#int/) | Returns level of effective style. |
 
 
 ### Remarks

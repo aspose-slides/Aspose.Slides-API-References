@@ -32,5 +32,5 @@ The IBackground type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/ibackground/ibackground/#/) | Gets effective background data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides/ibackground/get_effective/#/) | Gets effective background data with the inheritance applied. |
 

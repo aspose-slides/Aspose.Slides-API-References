@@ -24,5 +24,5 @@ The IVideo type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_stream](/slides/python-net/aspose.slides/ivideo/ivideo/#/) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
+| [get_stream](/slides/python-net/aspose.slides/ivideo/get_stream/#/) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
 

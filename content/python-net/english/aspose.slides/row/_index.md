@@ -41,7 +41,7 @@ The Row type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_text_format](/slides/python-net/aspose.slides/row/row/#IPortionFormat/) | Sets defined portion format properties to all row cells' portions. |
-| [set_text_format](/slides/python-net/aspose.slides/row/row/#IParagraphFormat/) | Sets defined paragraph format properties to all row cells' paragraphs. |
-| [set_text_format](/slides/python-net/aspose.slides/row/row/#ITextFrameFormat/) | Sets defined text frame format properties to all row cells' text frames. |
+| [set_text_format](/slides/python-net/aspose.slides/row/set_text_format/#IPortionFormat/) | Sets defined portion format properties to all row cells' portions. |
+| [set_text_format](/slides/python-net/aspose.slides/row/set_text_format/#IParagraphFormat/) | Sets defined paragraph format properties to all row cells' paragraphs. |
+| [set_text_format](/slides/python-net/aspose.slides/row/set_text_format/#ITextFrameFormat/) | Sets defined text frame format properties to all row cells' text frames. |
 

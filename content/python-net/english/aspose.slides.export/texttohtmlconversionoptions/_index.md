@@ -17,7 +17,7 @@ The TextToHtmlConversionOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/texttohtmlconversionoptions/texttohtmlconversionoptions/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.export/texttohtmlconversionoptions/__init__/#/) |  |
 
 ## Properties
 

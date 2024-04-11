@@ -27,5 +27,5 @@ The IPresetShadow type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ipresetshadow/ipresetshadow/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ipresetshadow/get_effective/#/) |  |
 

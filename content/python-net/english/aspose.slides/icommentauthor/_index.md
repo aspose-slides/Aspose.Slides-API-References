@@ -25,5 +25,5 @@ The ICommentAuthor type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove](/slides/python-net/aspose.slides/icommentauthor/icommentauthor/#/) | Removes the author from the parent collection. |
+| [remove](/slides/python-net/aspose.slides/icommentauthor/remove/#/) | Removes the author from the parent collection. |
 

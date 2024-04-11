@@ -71,5 +71,5 @@ The ChartSeries type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_automatic_series_color](/slides/python-net/aspose.slides.charts/chartseries/chartseries/#/) | Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined. |
+| [get_automatic_series_color](/slides/python-net/aspose.slides.charts/chartseries/get_automatic_series_color/#/) | Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined. |
 

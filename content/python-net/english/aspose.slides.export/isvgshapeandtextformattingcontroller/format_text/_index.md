@@ -1,0 +1,28 @@
+﻿---
+title: format_text method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.export/isvgshapeandtextformattingcontroller/format_text/
+weight: 20
+---
+
+
+## format_text {#ISvgTSpan-IPortion-ITextFrame}
+
+
+
+```python
+def format_text(self, svg_t_span, portion, text_frame):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| svg_t_span | ISvgTSpan |  |
+| portion | IPortion |  |
+| text_frame | ITextFrame |  |
+
+
+

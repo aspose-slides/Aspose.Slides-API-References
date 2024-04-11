@@ -17,6 +17,6 @@ The CannotCombine2DAnd3DChartsException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.charts/cannotcombine2dand3dchartsexception/cannotcombine2dand3dchartsexception/#/) | Default constructor. |
-| [__init__](/slides/python-net/aspose.slides.charts/cannotcombine2dand3dchartsexception/cannotcombine2dand3dchartsexception/#string/) | Constructor allowing a message to be added to this exception. |
+| [__init__](/slides/python-net/aspose.slides.charts/cannotcombine2dand3dchartsexception/__init__/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides.charts/cannotcombine2dand3dchartsexception/__init__/#string/) | Constructor allowing a message to be added to this exception. |
 

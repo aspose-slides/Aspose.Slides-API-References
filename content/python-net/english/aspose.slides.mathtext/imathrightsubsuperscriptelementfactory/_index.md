@@ -17,7 +17,7 @@ The IMathRightSubSuperscriptElementFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_right_sub_superscript_element](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/imathrightsubsuperscriptelementfactory/#IMathElement-IMathElement-IMathElement/) | Creates IMathRightSubSuperscriptElementFactory |
+| [create_math_right_sub_superscript_element](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/create_math_right_sub_superscript_element/#IMathElement-IMathElement-IMathElement/) | Creates IMathRightSubSuperscriptElementFactory |
 
 
 ### Remarks

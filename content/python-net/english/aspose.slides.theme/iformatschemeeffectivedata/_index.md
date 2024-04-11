@@ -17,10 +17,10 @@ The IFormatSchemeEffectiveData type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_fill_styles](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata/iformatschemeeffectivedata/#aspose.pydrawing.Color/) | Returns a collection of theme defined fill styles. |
-| [get_line_styles](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata/iformatschemeeffectivedata/#aspose.pydrawing.Color/) | Returns a collection of theme defined line styles. |
-| [get_effect_styles](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata/iformatschemeeffectivedata/#aspose.pydrawing.Color/) | Returns a collection of theme defined effect styles. |
-| [get_background_fill_styles](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata/iformatschemeeffectivedata/#aspose.pydrawing.Color/) | Returns a collection of theme defined background fill styles. |
+| [get_fill_styles](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/#aspose.pydrawing.Color/) | Returns a collection of theme defined fill styles. |
+| [get_line_styles](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/#aspose.pydrawing.Color/) | Returns a collection of theme defined line styles. |
+| [get_effect_styles](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/#aspose.pydrawing.Color/) | Returns a collection of theme defined effect styles. |
+| [get_background_fill_styles](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/#aspose.pydrawing.Color/) | Returns a collection of theme defined background fill styles. |
 
 
 ### Remarks

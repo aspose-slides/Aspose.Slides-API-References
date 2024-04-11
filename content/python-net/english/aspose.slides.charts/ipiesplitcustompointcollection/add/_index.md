@@ -1,0 +1,26 @@
+﻿---
+title: add method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.charts/ipiesplitcustompointcollection/add/
+weight: 20
+---
+
+
+## add {#int}
+Adds data point by its index in parent series points collection.
+
+
+```python
+def add(self, data_point_index):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data_point_index | int | Index of data point in parent series points collection. |
+
+
+

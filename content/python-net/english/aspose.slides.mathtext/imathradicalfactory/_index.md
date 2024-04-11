@@ -17,7 +17,7 @@ The IMathRadicalFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_radical](/slides/python-net/aspose.slides.mathtext/imathradicalfactory/imathradicalfactory/#IMathElement-IMathElement/) | Creates a math radical |
+| [create_math_radical](/slides/python-net/aspose.slides.mathtext/imathradicalfactory/create_math_radical/#IMathElement-IMathElement/) | Creates a math radical |
 
 
 ### Remarks

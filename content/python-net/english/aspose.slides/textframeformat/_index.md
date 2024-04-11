@@ -19,7 +19,7 @@ The TextFrameFormat type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/textframeformat/textframeformat/#/) | Initializes a new instance of [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat) class. |
+| [__init__](/slides/python-net/aspose.slides/textframeformat/__init__/#/) | Initializes a new instance of [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat) class. |
 
 ## Properties
 
@@ -49,5 +49,5 @@ The TextFrameFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/textframeformat/textframeformat/#/) | Gets effective text frame formatting data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides/textframeformat/get_effective/#/) | Gets effective text frame formatting data with the inheritance applied. |
 

@@ -17,8 +17,8 @@ The FontSubstRule type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontsubstrule/fontsubstrule/#IFontData-IFontData/) | Creates new instance. |
-| [__init__](/slides/python-net/aspose.slides/fontsubstrule/fontsubstrule/#IFontData-IFontData-FontSubstCondition/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides/fontsubstrule/__init__/#IFontData-IFontData/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides/fontsubstrule/__init__/#IFontData-IFontData-FontSubstCondition/) | Creates new instance. |
 
 ## Properties
 

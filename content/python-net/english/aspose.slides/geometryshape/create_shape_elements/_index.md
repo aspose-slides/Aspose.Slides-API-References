@@ -1,0 +1,27 @@
+﻿---
+title: create_shape_elements method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/geometryshape/create_shape_elements/
+weight: 100
+---
+
+
+## create_shape_elements {#}
+Creates and returns array of shape's elements.
+
+### Returns
+
+Array of [`ShapeElement`](/slides/python-net/aspose.slides/shapeelement)
+
+
+
+```python
+def create_shape_elements(self):
+    ...
+```
+
+
+
+

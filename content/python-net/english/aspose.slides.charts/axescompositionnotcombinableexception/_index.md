@@ -18,6 +18,6 @@ The AxesCompositionNotCombinableException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.charts/axescompositionnotcombinableexception/axescompositionnotcombinableexception/#/) | Default constructor. |
-| [__init__](/slides/python-net/aspose.slides.charts/axescompositionnotcombinableexception/axescompositionnotcombinableexception/#string/) | Constructor allowing a message to be added to this exception. |
+| [__init__](/slides/python-net/aspose.slides.charts/axescompositionnotcombinableexception/__init__/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides.charts/axescompositionnotcombinableexception/__init__/#string/) | Constructor allowing a message to be added to this exception. |
 

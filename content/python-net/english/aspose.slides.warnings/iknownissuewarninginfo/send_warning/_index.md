@@ -1,0 +1,26 @@
+﻿---
+title: send_warning method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.warnings/iknownissuewarninginfo/send_warning/
+weight: 20
+---
+
+
+## send_warning {#IWarningCallback}
+
+
+
+```python
+def send_warning(self, receiver):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| receiver | IWarningCallback |  |
+
+
+

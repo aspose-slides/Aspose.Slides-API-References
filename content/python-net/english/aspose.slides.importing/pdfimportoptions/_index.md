@@ -17,7 +17,7 @@ The PdfImportOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.importing/pdfimportoptions/pdfimportoptions/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.importing/pdfimportoptions/__init__/#/) |  |
 
 ## Properties
 

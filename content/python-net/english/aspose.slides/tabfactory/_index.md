@@ -17,13 +17,13 @@ The TabFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/tabfactory/tabfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides/tabfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_tab](/slides/python-net/aspose.slides/tabfactory/tabfactory/#float-TabAlignment/) | Creates a new ITab instance. |
+| [create_tab](/slides/python-net/aspose.slides/tabfactory/create_tab/#float-TabAlignment/) | Creates a new ITab instance. |
 
 
 ### Remarks

@@ -30,8 +30,8 @@ The ISequenceCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.animation/isequencecollection/isequencecollection/#IShape/) |  |
-| [remove](/slides/python-net/aspose.slides.animation/isequencecollection/isequencecollection/#ISequence/) | Removes specified sequence from a collection. |
-| [remove_at](/slides/python-net/aspose.slides.animation/isequencecollection/isequencecollection/#int/) | Removes sequence at the specified index. |
-| [clear](/slides/python-net/aspose.slides.animation/isequencecollection/isequencecollection/#/) | Removes all sequences from a collection. |
+| [add](/slides/python-net/aspose.slides.animation/isequencecollection/add/#IShape/) |  |
+| [remove](/slides/python-net/aspose.slides.animation/isequencecollection/remove/#ISequence/) | Removes specified sequence from a collection. |
+| [remove_at](/slides/python-net/aspose.slides.animation/isequencecollection/remove_at/#int/) | Removes sequence at the specified index. |
+| [clear](/slides/python-net/aspose.slides.animation/isequencecollection/clear/#/) | Removes all sequences from a collection. |
 

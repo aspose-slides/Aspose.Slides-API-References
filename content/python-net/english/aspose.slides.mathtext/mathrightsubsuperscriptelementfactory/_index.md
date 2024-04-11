@@ -17,13 +17,13 @@ The MathRightSubSuperscriptElementFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/mathrightsubsuperscriptelementfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_right_sub_superscript_element](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/mathrightsubsuperscriptelementfactory/#IMathElement-IMathElement-IMathElement/) | Creates an instance of IMathRightSubSuperscriptElementFactory |
+| [create_math_right_sub_superscript_element](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/create_math_right_sub_superscript_element/#IMathElement-IMathElement-IMathElement/) | Creates an instance of IMathRightSubSuperscriptElementFactory |
 
 
 ### Remarks

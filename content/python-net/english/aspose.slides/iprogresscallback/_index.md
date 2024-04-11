@@ -17,5 +17,5 @@ The IProgressCallback type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [reporting](/slides/python-net/aspose.slides/iprogresscallback/iprogresscallback/#float/) | Reports a progress update. |
+| [reporting](/slides/python-net/aspose.slides/iprogresscallback/reporting/#float/) | Reports a progress update. |
 

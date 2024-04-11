@@ -17,7 +17,7 @@ The NotesCommentsLayoutingOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/notescommentslayoutingoptions/notescommentslayoutingoptions/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides.export/notescommentslayoutingoptions/__init__/#/) | Default constructor. |
 
 ## Properties
 

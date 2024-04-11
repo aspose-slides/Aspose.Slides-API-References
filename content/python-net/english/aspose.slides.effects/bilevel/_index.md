@@ -31,5 +31,5 @@ The BiLevel type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/bilevel/bilevel/#/) | Gets effective Bi-Level effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/bilevel/get_effective/#/) | Gets effective Bi-Level effect data with the inheritance applied. |
 

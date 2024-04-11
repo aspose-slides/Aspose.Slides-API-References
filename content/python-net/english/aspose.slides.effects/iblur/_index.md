@@ -26,5 +26,5 @@ The IBlur type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/iblur/iblur/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/iblur/get_effective/#/) |  |
 

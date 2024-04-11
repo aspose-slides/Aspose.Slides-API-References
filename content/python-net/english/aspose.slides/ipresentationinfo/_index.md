@@ -26,10 +26,10 @@ The IPresentationInfo type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [write_binded_presentation](/slides/python-net/aspose.slides/ipresentationinfo/ipresentationinfo/#System.IO.Stream/) | Writes binded presentation to stream. |
-| [write_binded_presentation](/slides/python-net/aspose.slides/ipresentationinfo/ipresentationinfo/#string/) | Writes binded presentation to file. |
-| [check_password](/slides/python-net/aspose.slides/ipresentationinfo/ipresentationinfo/#string/) | Checks whether a password is correct for a presentation protected with open password. |
-| [check_write_protection](/slides/python-net/aspose.slides/ipresentationinfo/ipresentationinfo/#string/) | Checks whether a password to modify is correct for a write protected presentation. |
-| [read_document_properties](/slides/python-net/aspose.slides/ipresentationinfo/ipresentationinfo/#/) | Gets document properties of binded presentation. |
-| [update_document_properties](/slides/python-net/aspose.slides/ipresentationinfo/ipresentationinfo/#IDocumentProperties/) | Updates properties of binded presentation. |
+| [write_binded_presentation](/slides/python-net/aspose.slides/ipresentationinfo/write_binded_presentation/#System.IO.Stream/) | Writes binded presentation to stream. |
+| [write_binded_presentation](/slides/python-net/aspose.slides/ipresentationinfo/write_binded_presentation/#string/) | Writes binded presentation to file. |
+| [check_password](/slides/python-net/aspose.slides/ipresentationinfo/check_password/#string/) | Checks whether a password is correct for a presentation protected with open password. |
+| [check_write_protection](/slides/python-net/aspose.slides/ipresentationinfo/check_write_protection/#string/) | Checks whether a password to modify is correct for a write protected presentation. |
+| [read_document_properties](/slides/python-net/aspose.slides/ipresentationinfo/read_document_properties/#/) | Gets document properties of binded presentation. |
+| [update_document_properties](/slides/python-net/aspose.slides/ipresentationinfo/update_document_properties/#IDocumentProperties/) | Updates properties of binded presentation. |
 

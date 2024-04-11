@@ -17,7 +17,7 @@ The DocumentProperties type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/documentproperties/documentproperties/#/) | Initializes new instance of class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties). |
+| [__init__](/slides/python-net/aspose.slides/documentproperties/__init__/#/) | Initializes new instance of class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties). |
 
 ## Properties
 
@@ -51,23 +51,23 @@ The DocumentProperties type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-Any/) | Gets a named boolean value from the custom properties. |
-| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-Any/) | Gets a named integer value from the custom properties. |
-| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-Any/) | Gets a named DateTime value from the custom properties. |
-| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-Any/) |  |
-| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-Any/) |  |
-| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-Any/) |  |
-| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-bool/) | Sets a named boolean custom property. |
-| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-int/) | Sets a named integer custom property. |
-| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-DateTime/) | Sets a named DateTime custom property. |
-| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-string/) | Sets a named string custom property. |
-| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-float/) | Sets a named float custom property. |
-| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string-float/) | Sets a named double custom property. |
-| [get_custom_property_name](/slides/python-net/aspose.slides/documentproperties/documentproperties/#int/) | Return a custom property name at the specified index. |
-| [remove_custom_property](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string/) | Remove a custom property associated with a specified name. |
-| [contains_custom_property](/slides/python-net/aspose.slides/documentproperties/documentproperties/#string/) | Check presents of a custom property with a specified name. |
-| [clear_custom_properties](/slides/python-net/aspose.slides/documentproperties/documentproperties/#/) | Removes all custom properties. |
-| [clear_built_in_properties](/slides/python-net/aspose.slides/documentproperties/documentproperties/#/) | Clears and sets default values for all builtIn properties. |
-| [clone](/slides/python-net/aspose.slides/documentproperties/documentproperties/#/) | Clones current object |
-| [clone_t](/slides/python-net/aspose.slides/documentproperties/documentproperties/#/) | Clones current object |
+| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#string-Any/) | Gets a named boolean value from the custom properties. |
+| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#string-Any/) | Gets a named integer value from the custom properties. |
+| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#string-Any/) | Gets a named DateTime value from the custom properties. |
+| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#string-Any/) |  |
+| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#string-Any/) |  |
+| [get_custom_property_value](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#string-Any/) |  |
+| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#string-bool/) | Sets a named boolean custom property. |
+| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#string-int/) | Sets a named integer custom property. |
+| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#string-DateTime/) | Sets a named DateTime custom property. |
+| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#string-string/) | Sets a named string custom property. |
+| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#string-float/) | Sets a named float custom property. |
+| [set_custom_property_value](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#string-float/) | Sets a named double custom property. |
+| [get_custom_property_name](/slides/python-net/aspose.slides/documentproperties/get_custom_property_name/#int/) | Return a custom property name at the specified index. |
+| [remove_custom_property](/slides/python-net/aspose.slides/documentproperties/remove_custom_property/#string/) | Remove a custom property associated with a specified name. |
+| [contains_custom_property](/slides/python-net/aspose.slides/documentproperties/contains_custom_property/#string/) | Check presents of a custom property with a specified name. |
+| [clear_custom_properties](/slides/python-net/aspose.slides/documentproperties/clear_custom_properties/#/) | Removes all custom properties. |
+| [clear_built_in_properties](/slides/python-net/aspose.slides/documentproperties/clear_built_in_properties/#/) | Clears and sets default values for all builtIn properties. |
+| [clone](/slides/python-net/aspose.slides/documentproperties/clone/#/) | Clones current object |
+| [clone_t](/slides/python-net/aspose.slides/documentproperties/clone_t/#/) | Clones current object |
 

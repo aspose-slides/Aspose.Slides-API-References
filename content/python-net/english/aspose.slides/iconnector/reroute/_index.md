@@ -1,0 +1,22 @@
+﻿---
+title: reroute method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/iconnector/reroute/
+weight: 40
+---
+
+
+## reroute {#}
+Reroutes connector so that it take the shortest possible path between the shapes it connect.
+
+
+```python
+def reroute(self):
+    ...
+```
+
+
+
+

@@ -25,5 +25,5 @@ The IAlphaFloor type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ialphafloor/ialphafloor/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ialphafloor/get_effective/#/) |  |
 

@@ -38,6 +38,6 @@ The IColorFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [to_string](/slides/python-net/aspose.slides/icolorformat/icolorformat/#ColorStringFormat/) | Returns a .NET type System.String that represents the current color format. |
-| [copy_from](/slides/python-net/aspose.slides/icolorformat/icolorformat/#IColorFormat/) | Copy color format from "color". |
+| [to_string](/slides/python-net/aspose.slides/icolorformat/to_string/#ColorStringFormat/) | Returns a .NET type System.String that represents the current color format. |
+| [copy_from](/slides/python-net/aspose.slides/icolorformat/copy_from/#IColorFormat/) | Copy color format from "color". |
 

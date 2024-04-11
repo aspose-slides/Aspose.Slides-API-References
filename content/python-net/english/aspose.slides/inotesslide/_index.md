@@ -42,8 +42,8 @@ The INotesSlide type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [find_shape_by_alt_text](/slides/python-net/aspose.slides/inotesslide/inotesslide/#string/) |  |
-| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/inotesslide/inotesslide/#/) |  |
-| [equals](/slides/python-net/aspose.slides/inotesslide/inotesslide/#IBaseSlide/) |  |
-| [create_theme_effective](/slides/python-net/aspose.slides/inotesslide/inotesslide/#/) |  |
+| [find_shape_by_alt_text](/slides/python-net/aspose.slides/inotesslide/find_shape_by_alt_text/#string/) |  |
+| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/inotesslide/join_portions_with_same_formatting/#/) |  |
+| [equals](/slides/python-net/aspose.slides/inotesslide/equals/#IBaseSlide/) |  |
+| [create_theme_effective](/slides/python-net/aspose.slides/inotesslide/create_theme_effective/#/) |  |
 

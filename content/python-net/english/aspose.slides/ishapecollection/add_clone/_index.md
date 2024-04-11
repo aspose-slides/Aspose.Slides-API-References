@@ -1,0 +1,79 @@
+﻿---
+title: add_clone method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/ishapecollection/add_clone/
+weight: 200
+---
+
+
+## add_clone {#IShape}
+Adds a copy of a specified shape to the end of the collection.
+
+### Returns
+
+New shape.
+
+
+
+```python
+def add_clone(self, source_shape):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| source_shape | IShape | Shape to clone. |
+
+
+
+## add_clone {#IShape-float-float}
+Adds a copy of a specified shape to the end of the collection.
+
+### Returns
+
+New shape.
+
+
+
+```python
+def add_clone(self, source_shape, x, y):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| source_shape | IShape | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+
+
+## add_clone {#IShape-float-float-float-float}
+Adds a copy of a specified shape to the end of the collection.
+
+### Returns
+
+New shape.
+
+
+
+```python
+def add_clone(self, source_shape, x, y, width, height):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| source_shape | IShape | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+
+

@@ -17,14 +17,14 @@ The MathGroupingCharacterFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/mathgroupingcharacterfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_grouping_character](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/mathgroupingcharacterfactory/#IMathElement-char-MathTopBotPositions-MathTopBotPositions/) | Creates a math grouping character |
-| [create_math_grouping_character](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/mathgroupingcharacterfactory/#IMathElement/) | Creates a math grouping character |
+| [create_math_grouping_character](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/create_math_grouping_character/#IMathElement-char-MathTopBotPositions-MathTopBotPositions/) | Creates a math grouping character |
+| [create_math_grouping_character](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/create_math_grouping_character/#IMathElement/) | Creates a math grouping character |
 
 
 ### Remarks

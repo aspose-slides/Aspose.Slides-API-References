@@ -26,5 +26,5 @@ The ICustomXmlPart type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove](/slides/python-net/aspose.slides/icustomxmlpart/icustomxmlpart/#/) | Removes the custom xml part from the presentation. |
+| [remove](/slides/python-net/aspose.slides/icustomxmlpart/remove/#/) | Removes the custom xml part from the presentation. |
 

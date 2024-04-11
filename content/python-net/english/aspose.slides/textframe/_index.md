@@ -30,8 +30,8 @@ The TextFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [highlight_text](/slides/python-net/aspose.slides/textframe/textframe/#string-aspose.pydrawing.Color/) | Highlight all matches of sample in text frame text using specified color. |
-| [highlight_text](/slides/python-net/aspose.slides/textframe/textframe/#string-aspose.pydrawing.Color-ITextHighlightingOptions/) | Highlight all matches of sample in text frame text using specified color. |
-| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/textframe/textframe/#/) | Joins runs with same formatting in all paragraphs. |
-| [highlight_regex](/slides/python-net/aspose.slides/textframe/textframe/#string-aspose.pydrawing.Color-ITextHighlightingOptions/) | Highlight all matches of regular expression in text frame text using specified color. |
+| [highlight_text](/slides/python-net/aspose.slides/textframe/highlight_text/#string-aspose.pydrawing.Color/) | Highlight all matches of sample in text frame text using specified color. |
+| [highlight_text](/slides/python-net/aspose.slides/textframe/highlight_text/#string-aspose.pydrawing.Color-ITextHighlightingOptions/) | Highlight all matches of sample in text frame text using specified color. |
+| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/textframe/join_portions_with_same_formatting/#/) | Joins runs with same formatting in all paragraphs. |
+| [highlight_regex](/slides/python-net/aspose.slides/textframe/highlight_regex/#string-aspose.pydrawing.Color-ITextHighlightingOptions/) | Highlight all matches of regular expression in text frame text using specified color. |
 

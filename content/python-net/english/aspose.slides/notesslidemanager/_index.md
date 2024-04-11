@@ -23,6 +23,6 @@ The NotesSlideManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_notes_slide](/slides/python-net/aspose.slides/notesslidemanager/notesslidemanager/#/) | Returns the notes slide for the current slide, creating one if there isn't. |
-| [remove_notes_slide](/slides/python-net/aspose.slides/notesslidemanager/notesslidemanager/#/) | Removes notes slide of the current slide. |
+| [add_notes_slide](/slides/python-net/aspose.slides/notesslidemanager/add_notes_slide/#/) | Returns the notes slide for the current slide, creating one if there isn't. |
+| [remove_notes_slide](/slides/python-net/aspose.slides/notesslidemanager/remove_notes_slide/#/) | Removes notes slide of the current slide. |
 

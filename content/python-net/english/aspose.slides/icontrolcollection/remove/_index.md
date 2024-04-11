@@ -1,0 +1,26 @@
+﻿---
+title: remove method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/icontrolcollection/remove/
+weight: 20
+---
+
+
+## remove {#IControl}
+Removes an ActiveX control from the collection.
+
+
+```python
+def remove(self, item):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| item | IControl | A control to remove. |
+
+
+

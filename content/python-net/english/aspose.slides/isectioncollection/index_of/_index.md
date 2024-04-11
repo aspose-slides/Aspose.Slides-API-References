@@ -1,0 +1,31 @@
+﻿---
+title: index_of method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/isectioncollection/index_of/
+weight: 80
+---
+
+
+## index_of {#ISection}
+Returns an index of the specified section in the collection.
+
+### Returns
+
+Index of a section or -1 if section not from this collection.
+
+
+
+```python
+def index_of(self, section):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| section | ISection | Section to find. |
+
+
+

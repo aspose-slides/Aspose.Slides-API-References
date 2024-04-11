@@ -37,8 +37,8 @@ The IBaseSlide type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [find_shape_by_alt_text](/slides/python-net/aspose.slides/ibaseslide/ibaseslide/#string/) | Finds first occurrence of a shape with the specified alternative text. |
-| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/ibaseslide/ibaseslide/#/) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [equals](/slides/python-net/aspose.slides/ibaseslide/ibaseslide/#IBaseSlide/) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-| [create_theme_effective](/slides/python-net/aspose.slides/ibaseslide/ibaseslide/#/) |  |
+| [find_shape_by_alt_text](/slides/python-net/aspose.slides/ibaseslide/find_shape_by_alt_text/#string/) | Finds first occurrence of a shape with the specified alternative text. |
+| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/ibaseslide/join_portions_with_same_formatting/#/) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [equals](/slides/python-net/aspose.slides/ibaseslide/equals/#IBaseSlide/) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [create_theme_effective](/slides/python-net/aspose.slides/ibaseslide/create_theme_effective/#/) |  |
 

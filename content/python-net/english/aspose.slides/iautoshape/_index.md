@@ -66,16 +66,16 @@ The IAutoShape type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/iautoshape/iautoshape/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/iautoshape/iautoshape/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/iautoshape/iautoshape/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/iautoshape/iautoshape/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [add_text_frame](/slides/python-net/aspose.slides/iautoshape/iautoshape/#string/) | Adds a new TextFrameEx to a shape.<br/>            If shape already has TextFrameEx then simply changes its text. |
-| [get_geometry_paths](/slides/python-net/aspose.slides/iautoshape/iautoshape/#/) |  |
-| [set_geometry_path](/slides/python-net/aspose.slides/iautoshape/iautoshape/#IGeometryPath/) |  |
-| [set_geometry_paths](/slides/python-net/aspose.slides/iautoshape/iautoshape/#List[IGeometryPath]/) |  |
-| [create_shape_elements](/slides/python-net/aspose.slides/iautoshape/iautoshape/#/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/iautoshape/iautoshape/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/iautoshape/iautoshape/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/iautoshape/iautoshape/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/iautoshape/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/iautoshape/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [add_text_frame](/slides/python-net/aspose.slides/iautoshape/add_text_frame/#string/) | Adds a new TextFrameEx to a shape.<br/>            If shape already has TextFrameEx then simply changes its text. |
+| [get_geometry_paths](/slides/python-net/aspose.slides/iautoshape/get_geometry_paths/#/) |  |
+| [set_geometry_path](/slides/python-net/aspose.slides/iautoshape/set_geometry_path/#IGeometryPath/) |  |
+| [set_geometry_paths](/slides/python-net/aspose.slides/iautoshape/set_geometry_paths/#List[IGeometryPath]/) |  |
+| [create_shape_elements](/slides/python-net/aspose.slides/iautoshape/create_shape_elements/#/) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/iautoshape/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/iautoshape/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/iautoshape/get_base_placeholder/#/) |  |
 

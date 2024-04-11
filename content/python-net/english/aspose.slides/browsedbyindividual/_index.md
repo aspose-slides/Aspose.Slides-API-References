@@ -19,7 +19,7 @@ The BrowsedByIndividual type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/browsedbyindividual/browsedbyindividual/#/) | Initializes a new instance of the BrowsedByIndividual class. |
+| [__init__](/slides/python-net/aspose.slides/browsedbyindividual/__init__/#/) | Initializes a new instance of the BrowsedByIndividual class. |
 
 ## Properties
 

@@ -30,7 +30,7 @@ The IStringChartValue type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [to_string](/slides/python-net/aspose.slides.charts/istringchartvalue/istringchartvalue/#/) | Returns string representation. |
-| [set_from_one_cell](/slides/python-net/aspose.slides.charts/istringchartvalue/istringchartvalue/#IChartDataCell/) | Sets value from specified cell. |
-| [get_cells_address_in_workbook](/slides/python-net/aspose.slides.charts/istringchartvalue/istringchartvalue/#/) | If DataSourceType property is DataSourceType.Worksheet then this method returns address<br/>            of the cells in workbook which represent the string data. Otherwise return<br/>            empty string. |
+| [to_string](/slides/python-net/aspose.slides.charts/istringchartvalue/to_string/#/) | Returns string representation. |
+| [set_from_one_cell](/slides/python-net/aspose.slides.charts/istringchartvalue/set_from_one_cell/#IChartDataCell/) | Sets value from specified cell. |
+| [get_cells_address_in_workbook](/slides/python-net/aspose.slides.charts/istringchartvalue/get_cells_address_in_workbook/#/) | If DataSourceType property is DataSourceType.Worksheet then this method returns address<br/>            of the cells in workbook which represent the string data. Otherwise return<br/>            empty string. |
 

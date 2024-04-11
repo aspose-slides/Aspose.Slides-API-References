@@ -19,7 +19,7 @@ The TiffOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/tiffoptions/tiffoptions/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides.export/tiffoptions/__init__/#/) | Default constructor. |
 
 ## Properties
 

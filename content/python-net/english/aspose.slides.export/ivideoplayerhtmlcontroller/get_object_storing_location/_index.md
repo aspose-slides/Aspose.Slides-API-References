@@ -1,0 +1,30 @@
+﻿---
+title: get_object_storing_location method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.export/ivideoplayerhtmlcontroller/get_object_storing_location/
+weight: 90
+---
+
+
+## get_object_storing_location {#int-bytes-string-string-string}
+
+
+
+```python
+def get_object_storing_location(self, id, entity_data, semantic_name, content_type, recomended_extension):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| id | int |  |
+| entity_data | bytes |  |
+| semantic_name | string |  |
+| content_type | string |  |
+| recomended_extension | string |  |
+
+
+

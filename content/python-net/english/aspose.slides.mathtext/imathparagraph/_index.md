@@ -32,13 +32,13 @@ The IMathParagraph type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#System.IO.Stream/) | Saves content of this [`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph) as MathML |
-| [to_latex](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#/) | Gets mathematical equation in LaTeX format |
-| [add](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#IMathBlock/) |  |
-| [insert](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#int-IMathBlock/) |  |
-| [remove](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#IMathBlock/) |  |
-| [remove_at](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#int/) |  |
-| [contains](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#IMathBlock/) |  |
-| [index_of](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#IMathBlock/) |  |
-| [clear](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#/) |  |
+| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/imathparagraph/write_as_math_ml/#System.IO.Stream/) | Saves content of this [`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph) as MathML |
+| [to_latex](/slides/python-net/aspose.slides.mathtext/imathparagraph/to_latex/#/) | Gets mathematical equation in LaTeX format |
+| [add](/slides/python-net/aspose.slides.mathtext/imathparagraph/add/#IMathBlock/) |  |
+| [insert](/slides/python-net/aspose.slides.mathtext/imathparagraph/insert/#int-IMathBlock/) |  |
+| [remove](/slides/python-net/aspose.slides.mathtext/imathparagraph/remove/#IMathBlock/) |  |
+| [remove_at](/slides/python-net/aspose.slides.mathtext/imathparagraph/remove_at/#int/) |  |
+| [contains](/slides/python-net/aspose.slides.mathtext/imathparagraph/contains/#IMathBlock/) |  |
+| [index_of](/slides/python-net/aspose.slides.mathtext/imathparagraph/index_of/#IMathBlock/) |  |
+| [clear](/slides/python-net/aspose.slides.mathtext/imathparagraph/clear/#/) |  |
 

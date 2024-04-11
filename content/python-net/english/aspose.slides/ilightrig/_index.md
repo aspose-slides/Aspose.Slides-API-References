@@ -24,6 +24,6 @@ The ILightRig type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_rotation](/slides/python-net/aspose.slides/ilightrig/ilightrig/#float-float-float/) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates. |
-| [get_rotation](/slides/python-net/aspose.slides/ilightrig/ilightrig/#/) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution. |
+| [set_rotation](/slides/python-net/aspose.slides/ilightrig/set_rotation/#float-float-float/) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates. |
+| [get_rotation](/slides/python-net/aspose.slides/ilightrig/get_rotation/#/) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution. |
 

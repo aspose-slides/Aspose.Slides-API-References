@@ -17,14 +17,14 @@ The StreamWrapperFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/streamwrapperfactory/streamwrapperfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides/streamwrapperfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_memory_stream_wrapper](/slides/python-net/aspose.slides/streamwrapperfactory/streamwrapperfactory/#/) | Creates MemoryStream wrapper. |
-| [create_memory_stream_wrapper](/slides/python-net/aspose.slides/streamwrapperfactory/streamwrapperfactory/#bytes/) | Creates MemoryStream wrapper based on the specified byte array. |
-| [create_file_stream_wrapper](/slides/python-net/aspose.slides/streamwrapperfactory/streamwrapperfactory/#string-System.IO.FileMode/) | Creates FileStream with the specified path and creation mode. |
-| [create_file_stream_wrapper](/slides/python-net/aspose.slides/streamwrapperfactory/streamwrapperfactory/#string-System.IO.FileMode-System.IO.FileAccess/) | Creates FileStream with the specified path, creation mode, and read/write permission. |
+| [create_memory_stream_wrapper](/slides/python-net/aspose.slides/streamwrapperfactory/create_memory_stream_wrapper/#/) | Creates MemoryStream wrapper. |
+| [create_memory_stream_wrapper](/slides/python-net/aspose.slides/streamwrapperfactory/create_memory_stream_wrapper/#bytes/) | Creates MemoryStream wrapper based on the specified byte array. |
+| [create_file_stream_wrapper](/slides/python-net/aspose.slides/streamwrapperfactory/create_file_stream_wrapper/#string-System.IO.FileMode/) | Creates FileStream with the specified path and creation mode. |
+| [create_file_stream_wrapper](/slides/python-net/aspose.slides/streamwrapperfactory/create_file_stream_wrapper/#string-System.IO.FileMode-System.IO.FileAccess/) | Creates FileStream with the specified path, creation mode, and read/write permission. |
 

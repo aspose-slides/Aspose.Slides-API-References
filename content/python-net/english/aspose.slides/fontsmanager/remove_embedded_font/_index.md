@@ -1,0 +1,26 @@
+﻿---
+title: remove_embedded_font method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/fontsmanager/remove_embedded_font/
+weight: 70
+---
+
+
+## remove_embedded_font {#IFontData}
+Removes the embedded font
+
+
+```python
+def remove_embedded_font(self, font_data):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| font_data | IFontData |  |
+
+
+

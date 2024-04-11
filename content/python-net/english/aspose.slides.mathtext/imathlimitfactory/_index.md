@@ -17,8 +17,8 @@ The IMathLimitFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_limit](/slides/python-net/aspose.slides.mathtext/imathlimitfactory/imathlimitfactory/#IMathElement-IMathElement-bool/) | Creates IMathLimit |
-| [create_math_limit](/slides/python-net/aspose.slides.mathtext/imathlimitfactory/imathlimitfactory/#IMathElement-IMathElement/) | Creates IMathLimit with limit at the bottom |
+| [create_math_limit](/slides/python-net/aspose.slides.mathtext/imathlimitfactory/create_math_limit/#IMathElement-IMathElement-bool/) | Creates IMathLimit |
+| [create_math_limit](/slides/python-net/aspose.slides.mathtext/imathlimitfactory/create_math_limit/#IMathElement-IMathElement/) | Creates IMathLimit with limit at the bottom |
 
 
 ### Remarks

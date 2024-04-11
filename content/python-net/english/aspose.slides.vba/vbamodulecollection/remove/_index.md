@@ -1,0 +1,26 @@
+﻿---
+title: remove method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.vba/vbamodulecollection/remove/
+weight: 20
+---
+
+
+## remove {#IVbaModule}
+Removes the first occurrence of a specific object from the collection.
+
+
+```python
+def remove(self, value):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| value | IVbaModule | The module to remove from the collection. |
+
+
+

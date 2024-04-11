@@ -34,5 +34,5 @@ The FillFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/fillformat/fillformat/#/) | Gets effective fill formatting data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides/fillformat/get_effective/#/) | Gets effective fill formatting data with the inheritance applied. |
 

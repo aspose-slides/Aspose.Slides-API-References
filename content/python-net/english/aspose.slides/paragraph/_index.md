@@ -17,8 +17,8 @@ The Paragraph type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/paragraph/paragraph/#/) | Initializes a new instance of the Paragraph class with default properties. |
-| [__init__](/slides/python-net/aspose.slides/paragraph/paragraph/#Paragraph/) | Copy constructor that initializes a new instance of a Paragraph class. |
+| [__init__](/slides/python-net/aspose.slides/paragraph/__init__/#/) | Initializes a new instance of the Paragraph class with default properties. |
+| [__init__](/slides/python-net/aspose.slides/paragraph/__init__/#Paragraph/) | Copy constructor that initializes a new instance of a Paragraph class. |
 
 ## Properties
 
@@ -37,7 +37,7 @@ The Paragraph type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/paragraph/paragraph/#/) | Joins runs with same formatting. |
-| [get_rect](/slides/python-net/aspose.slides/paragraph/paragraph/#/) | Get coordinates of rect that bounds paragraph. The rect includes all the lines of<br/>            text in paragraph, including empty ones. |
-| [get_lines_count](/slides/python-net/aspose.slides/paragraph/paragraph/#/) | Get number of lines in a paragraph. |
+| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/paragraph/join_portions_with_same_formatting/#/) | Joins runs with same formatting. |
+| [get_rect](/slides/python-net/aspose.slides/paragraph/get_rect/#/) | Get coordinates of rect that bounds paragraph. The rect includes all the lines of<br/>            text in paragraph, including empty ones. |
+| [get_lines_count](/slides/python-net/aspose.slides/paragraph/get_lines_count/#/) | Get number of lines in a paragraph. |
 

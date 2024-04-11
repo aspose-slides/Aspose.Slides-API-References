@@ -17,13 +17,13 @@ The MathSubscriptElementFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/mathsubscriptelementfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_subscript_element](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/mathsubscriptelementfactory/#IMathElement-IMathElement/) | Creates IMathSubscriptElement |
+| [create_math_subscript_element](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/create_math_subscript_element/#IMathElement-IMathElement/) | Creates IMathSubscriptElement |
 
 
 ### Remarks

@@ -30,12 +30,12 @@ The IMathElementCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.mathtext/imathelementcollection/imathelementcollection/#IMathElement/) | Adds a math element to the end of the collection. |
-| [index_of](/slides/python-net/aspose.slides.mathtext/imathelementcollection/imathelementcollection/#IMathElement/) | Determines the index of a specific math element in collection. |
-| [insert](/slides/python-net/aspose.slides.mathtext/imathelementcollection/imathelementcollection/#int-IMathElement/) | Inserts a math element into the collection at the specified index. |
-| [clear](/slides/python-net/aspose.slides.mathtext/imathelementcollection/imathelementcollection/#/) | Removes all elements from the collection. |
-| [contains](/slides/python-net/aspose.slides.mathtext/imathelementcollection/imathelementcollection/#IMathElement/) | Determines whether the collection contains a specific value. |
-| [remove](/slides/python-net/aspose.slides.mathtext/imathelementcollection/imathelementcollection/#IMathElement/) | Removes the first occurrence of a specific object from the collection. |
-| [remove_at](/slides/python-net/aspose.slides.mathtext/imathelementcollection/imathelementcollection/#int/) | Removes the element at the specified index of the collection. |
-| [copy_to](/slides/python-net/aspose.slides.mathtext/imathelementcollection/imathelementcollection/#List[IMathElement]-int/) | Copy to specified array. |
+| [add](/slides/python-net/aspose.slides.mathtext/imathelementcollection/add/#IMathElement/) | Adds a math element to the end of the collection. |
+| [index_of](/slides/python-net/aspose.slides.mathtext/imathelementcollection/index_of/#IMathElement/) | Determines the index of a specific math element in collection. |
+| [insert](/slides/python-net/aspose.slides.mathtext/imathelementcollection/insert/#int-IMathElement/) | Inserts a math element into the collection at the specified index. |
+| [clear](/slides/python-net/aspose.slides.mathtext/imathelementcollection/clear/#/) | Removes all elements from the collection. |
+| [contains](/slides/python-net/aspose.slides.mathtext/imathelementcollection/contains/#IMathElement/) | Determines whether the collection contains a specific value. |
+| [remove](/slides/python-net/aspose.slides.mathtext/imathelementcollection/remove/#IMathElement/) | Removes the first occurrence of a specific object from the collection. |
+| [remove_at](/slides/python-net/aspose.slides.mathtext/imathelementcollection/remove_at/#int/) | Removes the element at the specified index of the collection. |
+| [copy_to](/slides/python-net/aspose.slides.mathtext/imathelementcollection/copy_to/#List[IMathElement]-int/) | Copy to specified array. |
 

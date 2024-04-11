@@ -30,6 +30,6 @@ The IFontSubstRuleCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/ifontsubstrulecollection/ifontsubstrulecollection/#IFontSubstRule/) | Adds the new font substitution rule to the collection |
-| [remove](/slides/python-net/aspose.slides/ifontsubstrulecollection/ifontsubstrulecollection/#IFontSubstRule/) | Removes the first occurrence of a specific object from the collection. |
+| [add](/slides/python-net/aspose.slides/ifontsubstrulecollection/add/#IFontSubstRule/) | Adds the new font substitution rule to the collection |
+| [remove](/slides/python-net/aspose.slides/ifontsubstrulecollection/remove/#IFontSubstRule/) | Removes the first occurrence of a specific object from the collection. |
 

@@ -19,7 +19,7 @@ The ScaleEffect type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/scaleeffect/scaleeffect/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.animation/scaleeffect/__init__/#/) |  |
 
 ## Properties
 

@@ -19,7 +19,7 @@ The SetEffect type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/seteffect/seteffect/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.animation/seteffect/__init__/#/) |  |
 
 ## Properties
 

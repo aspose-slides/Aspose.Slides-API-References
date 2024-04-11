@@ -29,5 +29,5 @@ The GrayScale type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/grayscale/grayscale/#/) | Gets effective Gray Scale effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/grayscale/get_effective/#/) | Gets effective Gray Scale effect data with the inheritance applied. |
 

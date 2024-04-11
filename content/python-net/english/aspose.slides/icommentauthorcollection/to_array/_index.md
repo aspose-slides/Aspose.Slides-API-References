@@ -1,0 +1,27 @@
+﻿---
+title: to_array method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/icommentauthorcollection/to_array/
+weight: 30
+---
+
+
+## to_array {#}
+Creates and returns an array with all authors.
+
+### Returns
+
+Array of [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor)
+
+
+
+```python
+def to_array(self):
+    ...
+```
+
+
+
+

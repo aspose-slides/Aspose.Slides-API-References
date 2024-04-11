@@ -17,7 +17,7 @@ The ShapeFrame type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/shapeframe/shapeframe/#float-float-float-float-NullableBool-NullableBool-float/) | Creates new shape frame's properties. |
+| [__init__](/slides/python-net/aspose.slides/shapeframe/__init__/#float-float-float-float-NullableBool-NullableBool-float/) | Creates new shape frame's properties. |
 
 ## Properties
 
@@ -38,7 +38,7 @@ The ShapeFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [clone](/slides/python-net/aspose.slides/shapeframe/shapeframe/#/) | Clones |
-| [clone_t](/slides/python-net/aspose.slides/shapeframe/shapeframe/#/) | Clones. |
-| [equals](/slides/python-net/aspose.slides/shapeframe/shapeframe/#ShapeFrame/) | Returns a value indicating whether this instance is equal to a specified object. |
+| [clone](/slides/python-net/aspose.slides/shapeframe/clone/#/) | Clones |
+| [clone_t](/slides/python-net/aspose.slides/shapeframe/clone_t/#/) | Clones. |
+| [equals](/slides/python-net/aspose.slides/shapeframe/equals/#ShapeFrame/) | Returns a value indicating whether this instance is equal to a specified object. |
 

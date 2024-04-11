@@ -1,0 +1,31 @@
+﻿---
+title: get_entity method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.importing/htmlexternalresolver/get_entity/
+weight: 30
+---
+
+
+## get_entity {#string}
+Maps a URI to an object containing the actual resource.
+
+### Returns
+
+A .NET type System.IO.Stream object or null if resource cannot be streamed.
+
+
+
+```python
+def get_entity(self, absolute_uri):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| absolute_uri | string | Absolute URI to the object. |
+
+
+

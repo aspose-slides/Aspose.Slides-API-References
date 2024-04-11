@@ -25,6 +25,6 @@ The ChartTextFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [copy_to](/slides/python-net/aspose.slides.charts/charttextformat/charttextformat/#ITextFrame/) |  |
-| [copy_from](/slides/python-net/aspose.slides.charts/charttextformat/charttextformat/#ITextFrame/) |  |
+| [copy_to](/slides/python-net/aspose.slides.charts/charttextformat/copy_to/#ITextFrame/) |  |
+| [copy_from](/slides/python-net/aspose.slides.charts/charttextformat/copy_from/#ITextFrame/) |  |
 

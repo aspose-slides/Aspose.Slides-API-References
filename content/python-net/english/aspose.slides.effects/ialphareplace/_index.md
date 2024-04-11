@@ -23,5 +23,5 @@ The IAlphaReplace type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ialphareplace/ialphareplace/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ialphareplace/get_effective/#/) |  |
 

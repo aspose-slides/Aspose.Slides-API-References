@@ -1,0 +1,27 @@
+﻿---
+title: add_duotone_effect method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.effects/imagetransformoperationcollection/add_duotone_effect/
+weight: 140
+---
+
+
+## add_duotone_effect {#}
+Adds the new Duotone effect to the end of a collection.
+
+### Returns
+
+Index of the new image effect in a collection.
+
+
+
+```python
+def add_duotone_effect(self):
+    ...
+```
+
+
+
+

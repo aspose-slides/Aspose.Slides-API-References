@@ -17,7 +17,7 @@ The VbaReferenceFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.vba/vbareferencefactory/vbareferencefactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.vba/vbareferencefactory/__init__/#/) |  |
 
 ## Properties
 
@@ -29,5 +29,5 @@ The VbaReferenceFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_ole_type_lib_reference](/slides/python-net/aspose.slides.vba/vbareferencefactory/vbareferencefactory/#string-string/) | Creates new OLE Automation type library reference. |
+| [create_ole_type_lib_reference](/slides/python-net/aspose.slides.vba/vbareferencefactory/create_ole_type_lib_reference/#string-string/) | Creates new OLE Automation type library reference. |
 

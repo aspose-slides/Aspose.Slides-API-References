@@ -25,6 +25,6 @@ The IOverrideThemeManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_theme_effective](/slides/python-net/aspose.slides.theme/ioverridethememanager/ioverridethememanager/#/) |  |
-| [apply_color_scheme](/slides/python-net/aspose.slides.theme/ioverridethememanager/ioverridethememanager/#IExtraColorScheme/) |  |
+| [create_theme_effective](/slides/python-net/aspose.slides.theme/ioverridethememanager/create_theme_effective/#/) |  |
+| [apply_color_scheme](/slides/python-net/aspose.slides.theme/ioverridethememanager/apply_color_scheme/#IExtraColorScheme/) |  |
 

@@ -19,7 +19,7 @@ The GifOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/gifoptions/gifoptions/#/) | Initializes a new instance of the GifOptions class. |
+| [__init__](/slides/python-net/aspose.slides.export/gifoptions/__init__/#/) | Initializes a new instance of the GifOptions class. |
 
 ## Properties
 

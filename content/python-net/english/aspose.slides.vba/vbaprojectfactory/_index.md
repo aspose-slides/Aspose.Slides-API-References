@@ -17,7 +17,7 @@ The VbaProjectFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.vba/vbaprojectfactory/vbaprojectfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.vba/vbaprojectfactory/__init__/#/) |  |
 
 ## Properties
 
@@ -29,6 +29,6 @@ The VbaProjectFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_vba_project](/slides/python-net/aspose.slides.vba/vbaprojectfactory/vbaprojectfactory/#/) | Creates new VBA project. |
-| [read_vba_project](/slides/python-net/aspose.slides.vba/vbaprojectfactory/vbaprojectfactory/#bytes/) | Reads VBA project from OLE container. |
+| [create_vba_project](/slides/python-net/aspose.slides.vba/vbaprojectfactory/create_vba_project/#/) | Creates new VBA project. |
+| [read_vba_project](/slides/python-net/aspose.slides.vba/vbaprojectfactory/read_vba_project/#bytes/) | Reads VBA project from OLE container. |
 

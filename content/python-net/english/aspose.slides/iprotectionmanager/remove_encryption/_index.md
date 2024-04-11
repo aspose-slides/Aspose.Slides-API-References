@@ -1,0 +1,22 @@
+﻿---
+title: remove_encryption method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/iprotectionmanager/remove_encryption/
+weight: 30
+---
+
+
+## remove_encryption {#}
+Removes the encryption.
+
+
+```python
+def remove_encryption(self):
+    ...
+```
+
+
+
+

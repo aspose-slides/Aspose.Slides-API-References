@@ -17,7 +17,7 @@ The TextAnimationCollection type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/textanimationcollection/textanimationcollection/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.animation/textanimationcollection/__init__/#/) |  |
 
 ## Properties
 
@@ -36,5 +36,5 @@ The TextAnimationCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.animation/textanimationcollection/textanimationcollection/#/) | Adds new text animation to the collection. |
+| [add](/slides/python-net/aspose.slides.animation/textanimationcollection/add/#/) | Adds new text animation to the collection. |
 

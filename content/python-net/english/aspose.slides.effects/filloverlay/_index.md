@@ -31,5 +31,5 @@ The FillOverlay type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/filloverlay/filloverlay/#/) | Gets effective Fill Overlay effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/filloverlay/get_effective/#/) | Gets effective Fill Overlay effect data with the inheritance applied. |
 

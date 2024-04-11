@@ -1,0 +1,32 @@
+﻿---
+title: compile method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.export.web/itemplateengine/compile/
+weight: 30
+---
+
+
+## compile {#string-any}
+Transforms the template with the given key and model object to output.
+
+### Returns
+
+Resulting output as a .NET type System.String.
+
+
+
+```python
+def compile(self, key, model):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | Key for the template in the template collection. |
+| model | any | Model object with data for transformation. |
+
+
+

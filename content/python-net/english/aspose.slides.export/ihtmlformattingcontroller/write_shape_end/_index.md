@@ -1,0 +1,27 @@
+﻿---
+title: write_shape_end method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.export/ihtmlformattingcontroller/write_shape_end/
+weight: 70
+---
+
+
+## write_shape_end {#IHtmlGenerator-IShape}
+
+
+
+```python
+def write_shape_end(self, generator, shape):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| generator | IHtmlGenerator |  |
+| shape | IShape |  |
+
+
+

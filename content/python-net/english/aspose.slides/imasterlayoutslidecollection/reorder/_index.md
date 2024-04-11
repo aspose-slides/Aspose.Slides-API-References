@@ -1,0 +1,27 @@
+﻿---
+title: reorder method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/imasterlayoutslidecollection/reorder/
+weight: 70
+---
+
+
+## reorder {#int-ILayoutSlide}
+Moves layout slide from the collection to the specified position.
+
+
+```python
+def reorder(self, index, layout_slide):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| index | int | Target index. |
+| layout_slide | ILayoutSlide | Slide to move. |
+
+
+

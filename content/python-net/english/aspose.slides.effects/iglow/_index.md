@@ -26,5 +26,5 @@ The IGlow type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/iglow/iglow/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/iglow/get_effective/#/) |  |
 

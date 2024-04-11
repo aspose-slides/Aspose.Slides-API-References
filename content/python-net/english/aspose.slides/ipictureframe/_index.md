@@ -66,15 +66,15 @@ The IPictureFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [get_geometry_paths](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#/) |  |
-| [set_geometry_path](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#IGeometryPath/) |  |
-| [set_geometry_paths](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#List[IGeometryPath]/) |  |
-| [create_shape_elements](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/ipictureframe/ipictureframe/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/ipictureframe/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/ipictureframe/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/ipictureframe/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/ipictureframe/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [get_geometry_paths](/slides/python-net/aspose.slides/ipictureframe/get_geometry_paths/#/) |  |
+| [set_geometry_path](/slides/python-net/aspose.slides/ipictureframe/set_geometry_path/#IGeometryPath/) |  |
+| [set_geometry_paths](/slides/python-net/aspose.slides/ipictureframe/set_geometry_paths/#List[IGeometryPath]/) |  |
+| [create_shape_elements](/slides/python-net/aspose.slides/ipictureframe/create_shape_elements/#/) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/ipictureframe/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/ipictureframe/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/ipictureframe/get_base_placeholder/#/) |  |
 

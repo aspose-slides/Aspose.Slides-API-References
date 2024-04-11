@@ -25,7 +25,7 @@ The IControlPropertiesCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/icontrolpropertiescollection/icontrolpropertiescollection/#string-string/) | Adds a property to the collection. |
-| [remove](/slides/python-net/aspose.slides/icontrolpropertiescollection/icontrolpropertiescollection/#string/) | Removes a property with the specified name. |
-| [clear](/slides/python-net/aspose.slides/icontrolpropertiescollection/icontrolpropertiescollection/#/) | Removes all properties. |
+| [add](/slides/python-net/aspose.slides/icontrolpropertiescollection/add/#string-string/) | Adds a property to the collection. |
+| [remove](/slides/python-net/aspose.slides/icontrolpropertiescollection/remove/#string/) | Removes a property with the specified name. |
+| [clear](/slides/python-net/aspose.slides/icontrolpropertiescollection/clear/#/) | Removes all properties. |
 

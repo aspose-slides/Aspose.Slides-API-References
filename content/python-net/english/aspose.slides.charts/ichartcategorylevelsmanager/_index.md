@@ -23,6 +23,6 @@ The IChartCategoryLevelsManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_grouping_item](/slides/python-net/aspose.slides.charts/ichartcategorylevelsmanager/ichartcategorylevelsmanager/#int-any/) | Sets grouping item for defined level. |
-| [delete_grouping_item](/slides/python-net/aspose.slides.charts/ichartcategorylevelsmanager/ichartcategorylevelsmanager/#int/) | Delete grouping item for defined level. |
+| [set_grouping_item](/slides/python-net/aspose.slides.charts/ichartcategorylevelsmanager/set_grouping_item/#int-any/) | Sets grouping item for defined level. |
+| [delete_grouping_item](/slides/python-net/aspose.slides.charts/ichartcategorylevelsmanager/delete_grouping_item/#int/) | Delete grouping item for defined level. |
 

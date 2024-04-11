@@ -43,10 +43,10 @@ The ILayoutSlide type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_depending_slides](/slides/python-net/aspose.slides/ilayoutslide/ilayoutslide/#/) | Returns an array with all slides, which depend on this layout slide. |
-| [remove](/slides/python-net/aspose.slides/ilayoutslide/ilayoutslide/#/) | Removes layout from presentation. |
-| [find_shape_by_alt_text](/slides/python-net/aspose.slides/ilayoutslide/ilayoutslide/#string/) |  |
-| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/ilayoutslide/ilayoutslide/#/) |  |
-| [equals](/slides/python-net/aspose.slides/ilayoutslide/ilayoutslide/#IBaseSlide/) |  |
-| [create_theme_effective](/slides/python-net/aspose.slides/ilayoutslide/ilayoutslide/#/) |  |
+| [get_depending_slides](/slides/python-net/aspose.slides/ilayoutslide/get_depending_slides/#/) | Returns an array with all slides, which depend on this layout slide. |
+| [remove](/slides/python-net/aspose.slides/ilayoutslide/remove/#/) | Removes layout from presentation. |
+| [find_shape_by_alt_text](/slides/python-net/aspose.slides/ilayoutslide/find_shape_by_alt_text/#string/) |  |
+| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/ilayoutslide/join_portions_with_same_formatting/#/) |  |
+| [equals](/slides/python-net/aspose.slides/ilayoutslide/equals/#IBaseSlide/) |  |
+| [create_theme_effective](/slides/python-net/aspose.slides/ilayoutslide/create_theme_effective/#/) |  |
 

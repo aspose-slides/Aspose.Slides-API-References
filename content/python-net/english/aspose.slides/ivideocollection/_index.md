@@ -30,8 +30,8 @@ The IVideoCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_video](/slides/python-net/aspose.slides/ivideocollection/ivideocollection/#IVideo/) | Adds a copy of an video file from an another presentation. |
-| [add_video](/slides/python-net/aspose.slides/ivideocollection/ivideocollection/#System.IO.Stream/) | Creates and adds a video to a presentation from stream. |
-| [add_video](/slides/python-net/aspose.slides/ivideocollection/ivideocollection/#System.IO.Stream-LoadingStreamBehavior/) | Creates and adds a video to a presentation from stream. |
-| [add_video](/slides/python-net/aspose.slides/ivideocollection/ivideocollection/#bytes/) | Creates and adds a video to a presentation from byte array. |
+| [add_video](/slides/python-net/aspose.slides/ivideocollection/add_video/#IVideo/) | Adds a copy of an video file from an another presentation. |
+| [add_video](/slides/python-net/aspose.slides/ivideocollection/add_video/#System.IO.Stream/) | Creates and adds a video to a presentation from stream. |
+| [add_video](/slides/python-net/aspose.slides/ivideocollection/add_video/#System.IO.Stream-LoadingStreamBehavior/) | Creates and adds a video to a presentation from stream. |
+| [add_video](/slides/python-net/aspose.slides/ivideocollection/add_video/#bytes/) | Creates and adds a video to a presentation from byte array. |
 

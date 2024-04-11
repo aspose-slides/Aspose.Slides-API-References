@@ -25,5 +25,5 @@ The SoftEdge type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/softedge/softedge/#/) | Gets effective Soft Edge effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/softedge/get_effective/#/) | Gets effective Soft Edge effect data with the inheritance applied. |
 

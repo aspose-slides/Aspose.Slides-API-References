@@ -17,13 +17,13 @@ The SaveOptionsFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/saveoptionsfactory/saveoptionsfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.export/saveoptionsfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_pptx_options](/slides/python-net/aspose.slides.export/saveoptionsfactory/saveoptionsfactory/#/) | Creates PPTX save options. |
+| [create_pptx_options](/slides/python-net/aspose.slides.export/saveoptionsfactory/create_pptx_options/#/) | Creates PPTX save options. |
 
 
 ### Remarks

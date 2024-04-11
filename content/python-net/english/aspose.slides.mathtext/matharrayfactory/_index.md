@@ -17,14 +17,14 @@ The MathArrayFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/matharrayfactory/matharrayfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/matharrayfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_array](/slides/python-net/aspose.slides.mathtext/matharrayfactory/matharrayfactory/#IMathElement/) | Creates a math array and places the specified element in it |
-| [create_math_array](/slides/python-net/aspose.slides.mathtext/matharrayfactory/matharrayfactory/#IMathElementCollection/) | Creates a math array and places specified elements in it |
+| [create_math_array](/slides/python-net/aspose.slides.mathtext/matharrayfactory/create_math_array/#IMathElement/) | Creates a math array and places the specified element in it |
+| [create_math_array](/slides/python-net/aspose.slides.mathtext/matharrayfactory/create_math_array/#IMathElementCollection/) | Creates a math array and places specified elements in it |
 
 
 ### Remarks

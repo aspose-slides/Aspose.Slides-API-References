@@ -17,6 +17,6 @@ The PptException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/pptexception/pptexception/#/) | Default constructor. |
-| [__init__](/slides/python-net/aspose.slides/pptexception/pptexception/#string/) | Constructor allowing a message to be added to this exception. |
+| [__init__](/slides/python-net/aspose.slides/pptexception/__init__/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides/pptexception/__init__/#string/) | Constructor allowing a message to be added to this exception. |
 

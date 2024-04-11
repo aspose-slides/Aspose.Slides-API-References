@@ -17,8 +17,8 @@ The IMathDelimiterFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_delimiter](/slides/python-net/aspose.slides.mathtext/imathdelimiterfactory/imathdelimiterfactory/#IMathElement/) | Create a math delimiter by applying to the element |
-| [create_math_delimiter](/slides/python-net/aspose.slides.mathtext/imathdelimiterfactory/imathdelimiterfactory/#IMathElementCollection/) | Create a math delimiter by applying to the element |
+| [create_math_delimiter](/slides/python-net/aspose.slides.mathtext/imathdelimiterfactory/create_math_delimiter/#IMathElement/) | Create a math delimiter by applying to the element |
+| [create_math_delimiter](/slides/python-net/aspose.slides.mathtext/imathdelimiterfactory/create_math_delimiter/#IMathElementCollection/) | Create a math delimiter by applying to the element |
 
 
 ### Remarks

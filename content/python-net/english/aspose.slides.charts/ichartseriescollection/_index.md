@@ -30,13 +30,13 @@ The IChartSeriesCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.charts/ichartseriescollection/ichartseriescollection/#ChartType/) | Creates new chart series and adds it to the collection. |
-| [add](/slides/python-net/aspose.slides.charts/ichartseriescollection/ichartseriescollection/#IChartDataCell-ChartType/) | Creates new chart series from [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection. |
-| [add](/slides/python-net/aspose.slides.charts/ichartseriescollection/ichartseriescollection/#IChartCellCollection-ChartType/) | Creates new chart series from [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection) and adds it to the collection. |
-| [add](/slides/python-net/aspose.slides.charts/ichartseriescollection/ichartseriescollection/#string-ChartType/) | Creates new chart series from value and adds it to the collection. |
-| [insert](/slides/python-net/aspose.slides.charts/ichartseriescollection/ichartseriescollection/#int-ChartType/) | Creates new chart series and inserts it into the collection. |
-| [index_of](/slides/python-net/aspose.slides.charts/ichartseriescollection/ichartseriescollection/#IChartSeries/) | Searches for the specified [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries) and returns the zero-based index of the first occurrence within the entire Collection |
-| [remove](/slides/python-net/aspose.slides.charts/ichartseriescollection/ichartseriescollection/#IChartSeries/) | Removes the specified value. |
-| [remove_at](/slides/python-net/aspose.slides.charts/ichartseriescollection/ichartseriescollection/#int/) | Removes the element at the specified index |
-| [clear](/slides/python-net/aspose.slides.charts/ichartseriescollection/ichartseriescollection/#/) | Removes all elements (including the chart style) from the collection. |
+| [add](/slides/python-net/aspose.slides.charts/ichartseriescollection/add/#ChartType/) | Creates new chart series and adds it to the collection. |
+| [add](/slides/python-net/aspose.slides.charts/ichartseriescollection/add/#IChartDataCell-ChartType/) | Creates new chart series from [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection. |
+| [add](/slides/python-net/aspose.slides.charts/ichartseriescollection/add/#IChartCellCollection-ChartType/) | Creates new chart series from [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection) and adds it to the collection. |
+| [add](/slides/python-net/aspose.slides.charts/ichartseriescollection/add/#string-ChartType/) | Creates new chart series from value and adds it to the collection. |
+| [insert](/slides/python-net/aspose.slides.charts/ichartseriescollection/insert/#int-ChartType/) | Creates new chart series and inserts it into the collection. |
+| [index_of](/slides/python-net/aspose.slides.charts/ichartseriescollection/index_of/#IChartSeries/) | Searches for the specified [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries) and returns the zero-based index of the first occurrence within the entire Collection |
+| [remove](/slides/python-net/aspose.slides.charts/ichartseriescollection/remove/#IChartSeries/) | Removes the specified value. |
+| [remove_at](/slides/python-net/aspose.slides.charts/ichartseriescollection/remove_at/#int/) | Removes the element at the specified index |
+| [clear](/slides/python-net/aspose.slides.charts/ichartseriescollection/clear/#/) | Removes all elements (including the chart style) from the collection. |
 

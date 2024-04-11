@@ -17,7 +17,7 @@ The ISaveOptionsFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_pptx_options](/slides/python-net/aspose.slides.export/isaveoptionsfactory/isaveoptionsfactory/#/) | Creates PPTX save options. |
+| [create_pptx_options](/slides/python-net/aspose.slides.export/isaveoptionsfactory/create_pptx_options/#/) | Creates PPTX save options. |
 
 
 ### Remarks

@@ -17,14 +17,14 @@ The ParagraphFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/paragraphfactory/paragraphfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides/paragraphfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_paragraph](/slides/python-net/aspose.slides/paragraphfactory/paragraphfactory/#/) | Creates a new empty paragraph. |
-| [create_paragraph](/slides/python-net/aspose.slides/paragraphfactory/paragraphfactory/#IParagraph/) | Creates a new paragraph with specified paragraph data using. |
+| [create_paragraph](/slides/python-net/aspose.slides/paragraphfactory/create_paragraph/#/) | Creates a new empty paragraph. |
+| [create_paragraph](/slides/python-net/aspose.slides/paragraphfactory/create_paragraph/#IParagraph/) | Creates a new paragraph with specified paragraph data using. |
 
 
 ### Remarks

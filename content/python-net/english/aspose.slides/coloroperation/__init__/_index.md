@@ -1,0 +1,43 @@
+﻿---
+title: ColorOperation constructor
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/coloroperation/__init__/
+weight: 10
+---
+
+
+## __init__ {#ColorTransformOperation}
+Creates new color transform operation.
+
+
+```python
+def __init__(self, op):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| op | ColorTransformOperation | Operation type. |
+
+
+
+## __init__ {#ColorTransformOperation-float}
+Creates new color transform operation.
+
+
+```python
+def __init__(self, op, parameter):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| op | ColorTransformOperation | Operation type. |
+| parameter | float |  |
+
+
+

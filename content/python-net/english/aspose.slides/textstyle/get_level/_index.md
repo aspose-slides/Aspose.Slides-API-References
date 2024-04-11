@@ -1,0 +1,31 @@
+﻿---
+title: get_level method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/textstyle/get_level/
+weight: 20
+---
+
+
+## get_level {#int}
+If level of style exist returns it, otherwise returns null.
+
+### Returns
+
+Formatting of level [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat).
+
+
+
+```python
+def get_level(self, index):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| index | int | Zero-based index of level. Must lay in 0..8 interval. |
+
+
+

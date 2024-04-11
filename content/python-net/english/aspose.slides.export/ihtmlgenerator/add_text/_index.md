@@ -1,0 +1,63 @@
+﻿---
+title: add_text method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.export/ihtmlgenerator/add_text/
+weight: 30
+---
+
+
+## add_text {#string}
+Adds plain text to the html files, replacing special characters with html entities.
+            Linebreaks and whitespaces aren't replaced.
+
+
+```python
+def add_text(self, text):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| text | string | Text to add. |
+
+
+
+## add_text {#List[char]}
+Adds plain text to the html files, replacing special characters with html entities.
+            Linebreaks and whitespaces aren't replaced.
+
+
+```python
+def add_text(self, text):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| text | List[char] | Text to add. |
+
+
+
+## add_text {#List[char]-int-int}
+Adds plain text to the html files, replacing special characters with html entities.
+            Linebreaks and whitespaces aren't replaced.
+
+
+```python
+def add_text(self, text, start_index, length):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| text | List[char] | Text to add. |
+| start_index | int |  |
+| length | int |  |
+
+
+

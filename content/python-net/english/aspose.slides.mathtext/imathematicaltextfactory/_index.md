@@ -17,10 +17,10 @@ The IMathematicalTextFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/imathematicaltextfactory/#/) | Create empty mathematical text element |
-| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/imathematicaltextfactory/#char/) | Create mathematical text element with the specified value |
-| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/imathematicaltextfactory/#string/) | Create empty mathematical text element with the specified value |
-| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/imathematicaltextfactory/#string-IPortionFormat/) |  |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/create_mathematical_text/#/) | Create empty mathematical text element |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/create_mathematical_text/#char/) | Create mathematical text element with the specified value |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/create_mathematical_text/#string/) | Create empty mathematical text element with the specified value |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/create_mathematical_text/#string-IPortionFormat/) |  |
 
 
 ### Remarks

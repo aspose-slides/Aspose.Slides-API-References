@@ -17,7 +17,7 @@ The BlobManagementOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/blobmanagementoptions/blobmanagementoptions/#/) | Creates new default blob management options. |
+| [__init__](/slides/python-net/aspose.slides/blobmanagementoptions/__init__/#/) | Creates new default blob management options. |
 
 ## Properties
 

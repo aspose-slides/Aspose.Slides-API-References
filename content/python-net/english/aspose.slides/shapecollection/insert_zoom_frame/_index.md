@@ -1,0 +1,75 @@
+﻿---
+title: insert_zoom_frame method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/shapecollection/insert_zoom_frame/
+weight: 50
+---
+
+
+## insert_zoom_frame {#int-float-float-float-float-ISlide}
+Creates a new Zoom object and inserts it to a collection at the specified index.
+
+### Returns
+
+Created Zoom object [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe).
+
+
+
+```python
+def insert_zoom_frame(self, index, x, y, width, height, slide):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| index | int | The zero-based index at which Zoom frame should be inserted. |
+| x | float | X coordinate of a new Zoom frame .NET type System.Single. |
+| y | float | Y coordinate of a new Zoom frame .NET type System.Single. |
+| width | float | Width of a new Zoom frame .NET type System.Single. |
+| height | float | Height of a new Zoom frame .NET type System.Single. |
+| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentException | Referenced slide does not belong to the current presentation. |
+
+
+
+## insert_zoom_frame {#int-float-float-float-float-ISlide-IPPImage}
+Creates a new Zoom object and inserts it to a collection at the specified index.
+
+### Returns
+
+Created Zoom object [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe).
+
+
+
+```python
+def insert_zoom_frame(self, index, x, y, width, height, slide, image):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| index | int | The zero-based index at which Zoom frame should be inserted. |
+| x | float | X coordinate of a new Zoom frame .NET type System.Single. |
+| y | float | Y coordinate of a new Zoom frame .NET type System.Single. |
+| width | float | Width of a new Zoom frame .NET type System.Single. |
+| height | float | Height of a new Zoom frame .NET type System.Single. |
+| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
+| image | IPPImage |  |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentException | Referenced slide does not belong to the current presentation. |
+
+
+

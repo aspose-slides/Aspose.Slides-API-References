@@ -19,7 +19,7 @@ The XpsOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/xpsoptions/xpsoptions/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides.export/xpsoptions/__init__/#/) | Default constructor. |
 
 ## Properties
 

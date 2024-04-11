@@ -17,14 +17,14 @@ The MathFractionFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/mathfractionfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_fraction](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/mathfractionfactory/#IMathElement-IMathElement-MathFractionTypes/) | Creates a math fraction |
-| [create_math_fraction](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/mathfractionfactory/#IMathElement-IMathElement/) | Creates a math fraction |
+| [create_math_fraction](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/create_math_fraction/#IMathElement-IMathElement-MathFractionTypes/) | Creates a math fraction |
+| [create_math_fraction](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/create_math_fraction/#IMathElement-IMathElement/) | Creates a math fraction |
 
 
 ### Remarks

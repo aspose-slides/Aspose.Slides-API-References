@@ -17,14 +17,14 @@ The MathFunctionFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/mathfunctionfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/mathfunctionfactory/#IMathElement-IMathElement/) | Creates math function |
-| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/mathfunctionfactory/#string-IMathElement/) | Creates math function |
+| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/create_math_function/#IMathElement-IMathElement/) | Creates math function |
+| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/create_math_function/#string-IMathElement/) | Creates math function |
 
 
 ### Remarks

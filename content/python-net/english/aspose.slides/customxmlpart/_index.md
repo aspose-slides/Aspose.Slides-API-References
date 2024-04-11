@@ -26,5 +26,5 @@ The CustomXmlPart type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove](/slides/python-net/aspose.slides/customxmlpart/customxmlpart/#/) | Removes the custom xml part from the presentation. |
+| [remove](/slides/python-net/aspose.slides/customxmlpart/remove/#/) | Removes the custom xml part from the presentation. |
 

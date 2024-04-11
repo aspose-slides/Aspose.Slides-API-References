@@ -17,14 +17,14 @@ The MathBarFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathbarfactory/mathbarfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathbarfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_bar](/slides/python-net/aspose.slides.mathtext/mathbarfactory/mathbarfactory/#IMathElement/) | Create a math bar by applying to the element |
-| [create_math_bar](/slides/python-net/aspose.slides.mathtext/mathbarfactory/mathbarfactory/#IMathElement-MathTopBotPositions/) | Create a math bar by applying to the element |
+| [create_math_bar](/slides/python-net/aspose.slides.mathtext/mathbarfactory/create_math_bar/#IMathElement/) | Create a math bar by applying to the element |
+| [create_math_bar](/slides/python-net/aspose.slides.mathtext/mathbarfactory/create_math_bar/#IMathElement-MathTopBotPositions/) | Create a math bar by applying to the element |
 
 
 ### Remarks

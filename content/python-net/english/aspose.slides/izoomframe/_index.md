@@ -67,11 +67,11 @@ The IZoomFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/izoomframe/izoomframe/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/izoomframe/izoomframe/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/izoomframe/izoomframe/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/izoomframe/izoomframe/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/izoomframe/izoomframe/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/izoomframe/izoomframe/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/izoomframe/izoomframe/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/izoomframe/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/izoomframe/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/izoomframe/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/izoomframe/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/izoomframe/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/izoomframe/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/izoomframe/get_base_placeholder/#/) |  |
 

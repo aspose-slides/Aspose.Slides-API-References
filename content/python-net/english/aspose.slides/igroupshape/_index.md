@@ -60,11 +60,11 @@ The IGroupShape type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/igroupshape/igroupshape/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/igroupshape/igroupshape/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/igroupshape/igroupshape/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/igroupshape/igroupshape/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/igroupshape/igroupshape/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/igroupshape/igroupshape/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/igroupshape/igroupshape/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/igroupshape/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/igroupshape/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/igroupshape/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/igroupshape/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/igroupshape/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/igroupshape/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/igroupshape/get_base_placeholder/#/) |  |
 

@@ -25,5 +25,5 @@ The IAlphaModulateFixed type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ialphamodulatefixed/ialphamodulatefixed/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ialphamodulatefixed/get_effective/#/) |  |
 

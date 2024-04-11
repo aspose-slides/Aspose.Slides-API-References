@@ -30,8 +30,8 @@ The ISmartArtNodeCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove_node](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/ismartartnodecollection/#int/) | Remove node or sub node by index. |
-| [remove_node](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/ismartartnodecollection/#ISmartArtNode/) | Remove node or sub node. |
-| [add_node](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/ismartartnodecollection/#/) | Add new node or sub node. |
-| [add_node_by_position](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/ismartartnodecollection/#int/) | Add new node in the selected position of nodes collection. |
+| [remove_node](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/remove_node/#int/) | Remove node or sub node by index. |
+| [remove_node](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/remove_node/#ISmartArtNode/) | Remove node or sub node. |
+| [add_node](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/add_node/#/) | Add new node or sub node. |
+| [add_node_by_position](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/add_node_by_position/#int/) | Add new node in the selected position of nodes collection. |
 

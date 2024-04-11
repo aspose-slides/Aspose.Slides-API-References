@@ -33,5 +33,5 @@ The StringOrDoubleChartValue type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [to_double](/slides/python-net/aspose.slides.charts/stringordoublechartvalue/stringordoublechartvalue/#/) | Converts to double. |
+| [to_double](/slides/python-net/aspose.slides.charts/stringordoublechartvalue/to_double/#/) | Converts to double. |
 

@@ -1,0 +1,22 @@
+﻿---
+title: join_portions_with_same_formatting method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/imasterslide/join_portions_with_same_formatting/
+weight: 50
+---
+
+
+## join_portions_with_same_formatting {#}
+
+
+
+```python
+def join_portions_with_same_formatting(self):
+    ...
+```
+
+
+
+

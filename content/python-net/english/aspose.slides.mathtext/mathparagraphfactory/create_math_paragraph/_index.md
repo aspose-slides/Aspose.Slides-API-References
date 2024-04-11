@@ -1,0 +1,48 @@
+﻿---
+title: create_math_paragraph method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.mathtext/mathparagraphfactory/create_math_paragraph/
+weight: 20
+---
+
+
+## create_math_paragraph {#}
+Create empty math paragraph
+
+### Returns
+
+new math paragraph
+
+
+
+```python
+def create_math_paragraph(self):
+    ...
+```
+
+
+
+
+## create_math_paragraph {#IMathBlock}
+Create empty math paragraph
+
+### Returns
+
+new math paragraph
+
+
+
+```python
+def create_math_paragraph(self, math_block):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| math_block | IMathBlock |  |
+
+
+

@@ -67,11 +67,11 @@ The ISectionZoomFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/isectionzoomframe/isectionzoomframe/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/isectionzoomframe/isectionzoomframe/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/isectionzoomframe/isectionzoomframe/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/isectionzoomframe/isectionzoomframe/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/isectionzoomframe/isectionzoomframe/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/isectionzoomframe/isectionzoomframe/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/isectionzoomframe/isectionzoomframe/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/isectionzoomframe/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/isectionzoomframe/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/isectionzoomframe/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/isectionzoomframe/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/isectionzoomframe/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/isectionzoomframe/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/isectionzoomframe/get_base_placeholder/#/) |  |
 

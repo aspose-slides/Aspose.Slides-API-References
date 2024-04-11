@@ -35,13 +35,13 @@ The MasterLayoutSlideCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_by_type](/slides/python-net/aspose.slides/masterlayoutslidecollection/masterlayoutslidecollection/#SlideLayoutType/) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or null if no layouts found. |
-| [remove](/slides/python-net/aspose.slides/masterlayoutslidecollection/masterlayoutslidecollection/#ILayoutSlide/) | Removes a layout from the collection. |
-| [remove_unused](/slides/python-net/aspose.slides/masterlayoutslidecollection/masterlayoutslidecollection/#/) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
-| [add_clone](/slides/python-net/aspose.slides/masterlayoutslidecollection/masterlayoutslidecollection/#ILayoutSlide/) | Adds a copy of a specified layout slide to the end of the collection. |
-| [insert_clone](/slides/python-net/aspose.slides/masterlayoutslidecollection/masterlayoutslidecollection/#int-ILayoutSlide/) | Inserts a copy of a specified layout slide to specified position of the collection. |
-| [add](/slides/python-net/aspose.slides/masterlayoutslidecollection/masterlayoutslidecollection/#SlideLayoutType-string/) | Adds a new layout slide to the end of the collection. |
-| [insert](/slides/python-net/aspose.slides/masterlayoutslidecollection/masterlayoutslidecollection/#int-SlideLayoutType-string/) | Inserts a new layout slide to specified position of the collection. |
-| [remove_at](/slides/python-net/aspose.slides/masterlayoutslidecollection/masterlayoutslidecollection/#int/) | Removes the element at the specified index of the collection. |
-| [reorder](/slides/python-net/aspose.slides/masterlayoutslidecollection/masterlayoutslidecollection/#int-ILayoutSlide/) | Moves layout slide from the collection to the specified position. |
+| [get_by_type](/slides/python-net/aspose.slides/masterlayoutslidecollection/get_by_type/#SlideLayoutType/) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or null if no layouts found. |
+| [remove](/slides/python-net/aspose.slides/masterlayoutslidecollection/remove/#ILayoutSlide/) | Removes a layout from the collection. |
+| [remove_unused](/slides/python-net/aspose.slides/masterlayoutslidecollection/remove_unused/#/) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [add_clone](/slides/python-net/aspose.slides/masterlayoutslidecollection/add_clone/#ILayoutSlide/) | Adds a copy of a specified layout slide to the end of the collection. |
+| [insert_clone](/slides/python-net/aspose.slides/masterlayoutslidecollection/insert_clone/#int-ILayoutSlide/) | Inserts a copy of a specified layout slide to specified position of the collection. |
+| [add](/slides/python-net/aspose.slides/masterlayoutslidecollection/add/#SlideLayoutType-string/) | Adds a new layout slide to the end of the collection. |
+| [insert](/slides/python-net/aspose.slides/masterlayoutslidecollection/insert/#int-SlideLayoutType-string/) | Inserts a new layout slide to specified position of the collection. |
+| [remove_at](/slides/python-net/aspose.slides/masterlayoutslidecollection/remove_at/#int/) | Removes the element at the specified index of the collection. |
+| [reorder](/slides/python-net/aspose.slides/masterlayoutslidecollection/reorder/#int-ILayoutSlide/) | Moves layout slide from the collection to the specified position. |
 

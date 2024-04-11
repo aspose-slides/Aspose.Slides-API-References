@@ -23,6 +23,6 @@ The ISvgShapeAndTextFormattingController type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [format_text](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/isvgshapeandtextformattingcontroller/#ISvgTSpan-IPortion-ITextFrame/) |  |
-| [format_shape](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/isvgshapeandtextformattingcontroller/#ISvgShape-IShape/) |  |
+| [format_text](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/format_text/#ISvgTSpan-IPortion-ITextFrame/) |  |
+| [format_shape](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/format_shape/#ISvgShape-IShape/) |  |
 

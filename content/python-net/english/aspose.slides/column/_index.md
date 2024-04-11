@@ -40,7 +40,7 @@ The Column type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_text_format](/slides/python-net/aspose.slides/column/column/#IPortionFormat/) | Sets defined portion format properties to all column cells' portions. |
-| [set_text_format](/slides/python-net/aspose.slides/column/column/#IParagraphFormat/) | Sets defined paragraph format properties to all column cells' paragraphs. |
-| [set_text_format](/slides/python-net/aspose.slides/column/column/#ITextFrameFormat/) | Sets defined text frame format properties to all column cells' text frames. |
+| [set_text_format](/slides/python-net/aspose.slides/column/set_text_format/#IPortionFormat/) | Sets defined portion format properties to all column cells' portions. |
+| [set_text_format](/slides/python-net/aspose.slides/column/set_text_format/#IParagraphFormat/) | Sets defined paragraph format properties to all column cells' paragraphs. |
+| [set_text_format](/slides/python-net/aspose.slides/column/set_text_format/#ITextFrameFormat/) | Sets defined text frame format properties to all column cells' text frames. |
 

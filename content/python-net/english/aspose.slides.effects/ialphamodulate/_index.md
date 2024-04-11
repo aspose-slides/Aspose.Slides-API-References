@@ -25,5 +25,5 @@ The IAlphaModulate type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ialphamodulate/ialphamodulate/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ialphamodulate/get_effective/#/) |  |
 

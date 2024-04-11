@@ -1,0 +1,31 @@
+﻿---
+title: get_color_scheme method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.theme/ithemeeffectivedata/get_color_scheme/
+weight: 20
+---
+
+
+## get_color_scheme {#aspose.pydrawing.Color}
+Returns the color scheme.
+
+### Returns
+
+Color scheme [`IColorSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/icolorschemeeffectivedata)
+
+
+
+```python
+def get_color_scheme(self, style_color):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| style_color | aspose.pydrawing.Color | Color .NET type System.Drawing.Color |
+
+
+

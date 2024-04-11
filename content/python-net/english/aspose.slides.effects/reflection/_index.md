@@ -37,5 +37,5 @@ The Reflection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/reflection/reflection/#/) | Gets effective Reflection effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/reflection/get_effective/#/) | Gets effective Reflection effect data with the inheritance applied. |
 

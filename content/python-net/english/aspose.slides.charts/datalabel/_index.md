@@ -17,7 +17,7 @@ The DataLabel type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.charts/datalabel/datalabel/#IChartDataPoint/) | Creates a new instance of DataLabel class. |
+| [__init__](/slides/python-net/aspose.slides.charts/datalabel/__init__/#IChartDataPoint/) | Creates a new instance of DataLabel class. |
 
 ## Properties
 
@@ -52,7 +52,7 @@ The DataLabel type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [hide](/slides/python-net/aspose.slides.charts/datalabel/datalabel/#/) | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state.<br/>            IsVisible will be false after this. |
-| [get_actual_label_text](/slides/python-net/aspose.slides.charts/datalabel/datalabel/#/) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
-| [add_text_frame_for_overriding](/slides/python-net/aspose.slides.charts/datalabel/datalabel/#string/) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
+| [hide](/slides/python-net/aspose.slides.charts/datalabel/hide/#/) | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state.<br/>            IsVisible will be false after this. |
+| [get_actual_label_text](/slides/python-net/aspose.slides.charts/datalabel/get_actual_label_text/#/) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
+| [add_text_frame_for_overriding](/slides/python-net/aspose.slides.charts/datalabel/add_text_frame_for_overriding/#string/) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
 

@@ -65,15 +65,15 @@ The SmartArtShape type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#/) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
-| [get_thumbnail](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#System.IO.Stream/) | Saves content of Shape as SVG file. |
-| [write_as_svg](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#System.IO.Stream-aspose.slides.export.ISVGOptions/) | Saves content of Shape as SVG file. |
-| [remove_placeholder](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#/) | Defines that this shape isn't a placeholder. |
-| [add_placeholder](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#IPlaceholder/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#/) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
-| [get_geometry_paths](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#/) | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
-| [set_geometry_path](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#IGeometryPath/) |  |
-| [set_geometry_paths](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#List[IGeometryPath]/) |  |
-| [create_shape_elements](/slides/python-net/aspose.slides.smartart/smartartshape/smartartshape/#/) | Creates and returns array of shape's elements. |
+| [get_thumbnail](/slides/python-net/aspose.slides.smartart/smartartshape/get_thumbnail/#/) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [get_thumbnail](/slides/python-net/aspose.slides.smartart/smartartshape/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides.smartart/smartartshape/write_as_svg/#System.IO.Stream/) | Saves content of Shape as SVG file. |
+| [write_as_svg](/slides/python-net/aspose.slides.smartart/smartartshape/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) | Saves content of Shape as SVG file. |
+| [remove_placeholder](/slides/python-net/aspose.slides.smartart/smartartshape/remove_placeholder/#/) | Defines that this shape isn't a placeholder. |
+| [add_placeholder](/slides/python-net/aspose.slides.smartart/smartartshape/add_placeholder/#IPlaceholder/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides.smartart/smartartshape/get_base_placeholder/#/) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
+| [get_geometry_paths](/slides/python-net/aspose.slides.smartart/smartartshape/get_geometry_paths/#/) | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
+| [set_geometry_path](/slides/python-net/aspose.slides.smartart/smartartshape/set_geometry_path/#IGeometryPath/) |  |
+| [set_geometry_paths](/slides/python-net/aspose.slides.smartart/smartartshape/set_geometry_paths/#List[IGeometryPath]/) |  |
+| [create_shape_elements](/slides/python-net/aspose.slides.smartart/smartartshape/create_shape_elements/#/) | Creates and returns array of shape's elements. |
 

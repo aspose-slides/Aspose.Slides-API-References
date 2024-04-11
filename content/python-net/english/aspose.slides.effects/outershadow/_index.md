@@ -33,5 +33,5 @@ The OuterShadow type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/outershadow/outershadow/#/) | Gets effective Outer Shadow effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/outershadow/get_effective/#/) | Gets effective Outer Shadow effect data with the inheritance applied. |
 

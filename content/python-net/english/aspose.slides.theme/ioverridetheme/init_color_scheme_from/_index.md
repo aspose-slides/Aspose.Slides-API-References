@@ -1,0 +1,33 @@
+﻿---
+title: init_color_scheme_from method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.theme/ioverridetheme/init_color_scheme_from/
+weight: 30
+---
+
+
+## init_color_scheme_from {#IColorScheme}
+Init ColorScheme with new object for overriding ColorScheme of InheritedTheme.
+
+
+```python
+def init_color_scheme_from(self, color_scheme):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| color_scheme | IColorScheme | Data to initialize from. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException | Thrown if the ColorScheme is already initialized (not null). |
+| .NET type System.ArgumentNullException | Thrown if the colorScheme parameter is null. |
+
+
+

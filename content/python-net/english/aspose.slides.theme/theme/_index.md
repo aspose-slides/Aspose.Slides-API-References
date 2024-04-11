@@ -27,5 +27,5 @@ The Theme type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.theme/theme/theme/#/) | Gets effective theme data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.theme/theme/get_effective/#/) | Gets effective theme data with the inheritance applied. |
 

@@ -23,5 +23,5 @@ The IBiLevel type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ibilevel/ibilevel/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ibilevel/get_effective/#/) |  |
 

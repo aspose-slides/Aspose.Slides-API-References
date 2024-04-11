@@ -25,5 +25,5 @@ The ILuminance type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/iluminance/iluminance/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/iluminance/get_effective/#/) |  |
 

@@ -17,13 +17,13 @@ The MathBoxFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathboxfactory/mathboxfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathboxfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_box](/slides/python-net/aspose.slides.mathtext/mathboxfactory/mathboxfactory/#IMathElement/) | Create a math box by applying to the element |
+| [create_math_box](/slides/python-net/aspose.slides.mathtext/mathboxfactory/create_math_box/#IMathElement/) | Create a math box by applying to the element |
 
 
 ### Remarks

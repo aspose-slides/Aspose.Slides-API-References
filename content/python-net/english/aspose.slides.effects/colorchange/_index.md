@@ -31,5 +31,5 @@ The ColorChange type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/colorchange/colorchange/#/) | Gets effective Color Change effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/colorchange/get_effective/#/) | Gets effective Color Change effect data with the inheritance applied. |
 

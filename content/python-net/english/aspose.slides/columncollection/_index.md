@@ -30,7 +30,7 @@ The ColumnCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_clone](/slides/python-net/aspose.slides/columncollection/columncollection/#IColumn-bool/) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [insert_clone](/slides/python-net/aspose.slides/columncollection/columncollection/#int-IColumn-bool/) | Creates a copy of the specified template column and insert it at the specified position in a table. |
-| [remove_at](/slides/python-net/aspose.slides/columncollection/columncollection/#int-bool/) | Removes a column at the specified position from a table. |
+| [add_clone](/slides/python-net/aspose.slides/columncollection/add_clone/#IColumn-bool/) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [insert_clone](/slides/python-net/aspose.slides/columncollection/insert_clone/#int-IColumn-bool/) | Creates a copy of the specified template column and insert it at the specified position in a table. |
+| [remove_at](/slides/python-net/aspose.slides/columncollection/remove_at/#int-bool/) | Removes a column at the specified position from a table. |
 

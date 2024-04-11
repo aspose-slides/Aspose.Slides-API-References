@@ -26,7 +26,7 @@ The IAlphaBiLevel type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ialphabilevel/ialphabilevel/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ialphabilevel/get_effective/#/) |  |
 
 
 ### Remarks

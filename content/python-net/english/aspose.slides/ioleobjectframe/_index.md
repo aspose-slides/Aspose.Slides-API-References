@@ -73,12 +73,12 @@ The IOleObjectFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/ioleobjectframe/ioleobjectframe/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/ioleobjectframe/ioleobjectframe/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/ioleobjectframe/ioleobjectframe/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/ioleobjectframe/ioleobjectframe/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [set_embedded_data](/slides/python-net/aspose.slides/ioleobjectframe/ioleobjectframe/#IOleEmbeddedDataInfo/) | Sets information about OLE embedded data. |
-| [add_placeholder](/slides/python-net/aspose.slides/ioleobjectframe/ioleobjectframe/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/ioleobjectframe/ioleobjectframe/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/ioleobjectframe/ioleobjectframe/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/ioleobjectframe/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/ioleobjectframe/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/ioleobjectframe/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/ioleobjectframe/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [set_embedded_data](/slides/python-net/aspose.slides/ioleobjectframe/set_embedded_data/#IOleEmbeddedDataInfo/) | Sets information about OLE embedded data. |
+| [add_placeholder](/slides/python-net/aspose.slides/ioleobjectframe/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/ioleobjectframe/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/ioleobjectframe/get_base_placeholder/#/) |  |
 

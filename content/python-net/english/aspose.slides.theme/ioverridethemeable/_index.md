@@ -28,5 +28,5 @@ The IOverrideThemeable type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_theme_effective](/slides/python-net/aspose.slides.theme/ioverridethemeable/ioverridethemeable/#/) |  |
+| [create_theme_effective](/slides/python-net/aspose.slides.theme/ioverridethemeable/create_theme_effective/#/) |  |
 

@@ -75,12 +75,12 @@ The OleObjectFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/oleobjectframe/oleobjectframe/#/) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
-| [get_thumbnail](/slides/python-net/aspose.slides/oleobjectframe/oleobjectframe/#ShapeThumbnailBounds-float-float/) | Returns shape thumbnail. |
-| [write_as_svg](/slides/python-net/aspose.slides/oleobjectframe/oleobjectframe/#System.IO.Stream/) | Saves content of Shape as SVG file. |
-| [write_as_svg](/slides/python-net/aspose.slides/oleobjectframe/oleobjectframe/#System.IO.Stream-aspose.slides.export.ISVGOptions/) | Saves content of Shape as SVG file. |
-| [remove_placeholder](/slides/python-net/aspose.slides/oleobjectframe/oleobjectframe/#/) | Defines that this shape isn't a placeholder. |
-| [add_placeholder](/slides/python-net/aspose.slides/oleobjectframe/oleobjectframe/#IPlaceholder/) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
-| [get_base_placeholder](/slides/python-net/aspose.slides/oleobjectframe/oleobjectframe/#/) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
-| [set_embedded_data](/slides/python-net/aspose.slides/oleobjectframe/oleobjectframe/#IOleEmbeddedDataInfo/) | Sets information about OLE embedded data.<br/>            <br/>            This method changes the properties of the object to reflect the new data and <br/>            sets the IsObjectLink flag to false, indicating that the OLE object is embedded. |
+| [get_thumbnail](/slides/python-net/aspose.slides/oleobjectframe/get_thumbnail/#/) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [get_thumbnail](/slides/python-net/aspose.slides/oleobjectframe/get_thumbnail/#ShapeThumbnailBounds-float-float/) | Returns shape thumbnail. |
+| [write_as_svg](/slides/python-net/aspose.slides/oleobjectframe/write_as_svg/#System.IO.Stream/) | Saves content of Shape as SVG file. |
+| [write_as_svg](/slides/python-net/aspose.slides/oleobjectframe/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) | Saves content of Shape as SVG file. |
+| [remove_placeholder](/slides/python-net/aspose.slides/oleobjectframe/remove_placeholder/#/) | Defines that this shape isn't a placeholder. |
+| [add_placeholder](/slides/python-net/aspose.slides/oleobjectframe/add_placeholder/#IPlaceholder/) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
+| [get_base_placeholder](/slides/python-net/aspose.slides/oleobjectframe/get_base_placeholder/#/) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
+| [set_embedded_data](/slides/python-net/aspose.slides/oleobjectframe/set_embedded_data/#IOleEmbeddedDataInfo/) | Sets information about OLE embedded data.<br/>            <br/>            This method changes the properties of the object to reflect the new data and <br/>            sets the IsObjectLink flag to false, indicating that the OLE object is embedded. |
 

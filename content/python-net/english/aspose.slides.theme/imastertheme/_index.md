@@ -30,5 +30,5 @@ The IMasterTheme type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.theme/imastertheme/imastertheme/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.theme/imastertheme/get_effective/#/) |  |
 

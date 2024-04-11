@@ -86,13 +86,13 @@ The IChart type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides.charts/ichart/ichart/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides.charts/ichart/ichart/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides.charts/ichart/ichart/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides.charts/ichart/ichart/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [validate_chart_layout](/slides/python-net/aspose.slides.charts/ichart/ichart/#/) | Calculates actual values of chart elements. Actual values inlude position of elements that implement IActualLayout interface <br/>            (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)<br/>            and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, <br/>            IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
-| [add_placeholder](/slides/python-net/aspose.slides.charts/ichart/ichart/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides.charts/ichart/ichart/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides.charts/ichart/ichart/#/) |  |
-| [create_theme_effective](/slides/python-net/aspose.slides.charts/ichart/ichart/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides.charts/ichart/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides.charts/ichart/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [validate_chart_layout](/slides/python-net/aspose.slides.charts/ichart/validate_chart_layout/#/) | Calculates actual values of chart elements. Actual values inlude position of elements that implement IActualLayout interface <br/>            (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)<br/>            and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, <br/>            IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
+| [add_placeholder](/slides/python-net/aspose.slides.charts/ichart/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides.charts/ichart/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides.charts/ichart/get_base_placeholder/#/) |  |
+| [create_theme_effective](/slides/python-net/aspose.slides.charts/ichart/create_theme_effective/#/) |  |
 

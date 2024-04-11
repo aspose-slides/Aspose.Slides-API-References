@@ -17,8 +17,8 @@ The EmbeddedWoffFontsHtmlController type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#/) | Creates new instance. |
-| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlFormattingController/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#IHtmlFormattingController/) | Creates new instance. |
 
 ## Properties
 
@@ -30,10 +30,10 @@ The EmbeddedWoffFontsHtmlController type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [write_document_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-IPresentation/) |  |
-| [write_document_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-IPresentation/) |  |
-| [write_slide_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-ISlide/) |  |
-| [write_slide_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-ISlide/) |  |
-| [write_shape_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-IShape/) |  |
-| [write_shape_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/#IHtmlGenerator-IShape/) |  |
+| [write_document_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_document_start/#IHtmlGenerator-IPresentation/) |  |
+| [write_document_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_document_end/#IHtmlGenerator-IPresentation/) |  |
+| [write_slide_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_slide_start/#IHtmlGenerator-ISlide/) |  |
+| [write_slide_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_slide_end/#IHtmlGenerator-ISlide/) |  |
+| [write_shape_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_shape_start/#IHtmlGenerator-IShape/) |  |
+| [write_shape_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_shape_end/#IHtmlGenerator-IShape/) |  |
 

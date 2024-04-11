@@ -30,5 +30,5 @@ The IDoubleChartValue type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [to_double](/slides/python-net/aspose.slides.charts/idoublechartvalue/idoublechartvalue/#/) | Converst to double. |
+| [to_double](/slides/python-net/aspose.slides.charts/idoublechartvalue/to_double/#/) | Converst to double. |
 

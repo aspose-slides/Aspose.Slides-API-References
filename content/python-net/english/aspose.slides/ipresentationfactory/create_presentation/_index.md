@@ -1,0 +1,48 @@
+﻿---
+title: create_presentation method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/ipresentationfactory/create_presentation/
+weight: 20
+---
+
+
+## create_presentation {#}
+Creates new presentation.
+
+### Returns
+
+New presentation
+
+
+
+```python
+def create_presentation(self):
+    ...
+```
+
+
+
+
+## create_presentation {#ILoadOptions}
+Creates new presentation.
+
+### Returns
+
+New presentation
+
+
+
+```python
+def create_presentation(self, options):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| options | ILoadOptions |  |
+
+
+

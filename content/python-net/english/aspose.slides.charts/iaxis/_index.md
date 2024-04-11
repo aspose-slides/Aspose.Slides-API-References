@@ -84,5 +84,5 @@ The IAxis type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_category_axis_type_automatically](/slides/python-net/aspose.slides.charts/iaxis/iaxis/#/) | Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data. |
+| [set_category_axis_type_automatically](/slides/python-net/aspose.slides.charts/iaxis/set_category_axis_type_automatically/#/) | Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data. |
 

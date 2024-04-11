@@ -25,7 +25,7 @@ The IImageWrapper type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [save](/slides/python-net/aspose.slides/iimagewrapper/iimagewrapper/#string/) | Saves Image to the specified file |
-| [save](/slides/python-net/aspose.slides/iimagewrapper/iimagewrapper/#System.IO.Stream-PPImageFormat/) | Saves the Image to the specified stream in the specified format. |
-| [save](/slides/python-net/aspose.slides/iimagewrapper/iimagewrapper/#string-PPImageFormat/) | Saves the Image to the specified file in the specified format. |
+| [save](/slides/python-net/aspose.slides/iimagewrapper/save/#string/) | Saves Image to the specified file |
+| [save](/slides/python-net/aspose.slides/iimagewrapper/save/#System.IO.Stream-PPImageFormat/) | Saves the Image to the specified stream in the specified format. |
+| [save](/slides/python-net/aspose.slides/iimagewrapper/save/#string-PPImageFormat/) | Saves the Image to the specified file in the specified format. |
 

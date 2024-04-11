@@ -24,5 +24,5 @@ The IResourceLoadingArgs type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_data](/slides/python-net/aspose.slides/iresourceloadingargs/iresourceloadingargs/#bytes/) | Sets user provided data of the resource which used if Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide. <br/>            returns [`ResourceLoadingAction.USER_PROVIDED`](/slides/python-net/aspose.slides/resourceloadingaction#USER_PROVIDED). |
+| [set_data](/slides/python-net/aspose.slides/iresourceloadingargs/set_data/#bytes/) | Sets user provided data of the resource which used if Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide. <br/>            returns [`ResourceLoadingAction.USER_PROVIDED`](/slides/python-net/aspose.slides/resourceloadingaction#USER_PROVIDED). |
 

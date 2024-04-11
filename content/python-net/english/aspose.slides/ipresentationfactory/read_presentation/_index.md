@@ -1,0 +1,139 @@
+﻿---
+title: read_presentation method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/ipresentationfactory/read_presentation/
+weight: 40
+---
+
+
+## read_presentation {#bytes}
+Reads an existing presentation from array
+
+### Returns
+
+Read presentation
+
+
+
+```python
+def read_presentation(self, data):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | bytes | Array to read |
+
+
+
+## read_presentation {#System.IO.Stream}
+Reads an existing presentation from array
+
+### Returns
+
+Read presentation
+
+
+
+```python
+def read_presentation(self, stream):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| stream | System.IO.Stream |  |
+
+
+
+## read_presentation {#string}
+Reads an existing presentation from array
+
+### Returns
+
+Read presentation
+
+
+
+```python
+def read_presentation(self, file):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| file | string |  |
+
+
+
+## read_presentation {#bytes-ILoadOptions}
+Reads an existing presentation from array
+
+### Returns
+
+Read presentation
+
+
+
+```python
+def read_presentation(self, data, options):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | bytes | Array to read |
+| options | ILoadOptions |  |
+
+
+
+## read_presentation {#System.IO.Stream-ILoadOptions}
+Reads an existing presentation from array
+
+### Returns
+
+Read presentation
+
+
+
+```python
+def read_presentation(self, stream, options):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| stream | System.IO.Stream |  |
+| options | ILoadOptions |  |
+
+
+
+## read_presentation {#string-ILoadOptions}
+Reads an existing presentation from array
+
+### Returns
+
+Read presentation
+
+
+
+```python
+def read_presentation(self, file, options):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| file | string |  |
+| options | ILoadOptions |  |
+
+
+

@@ -59,11 +59,11 @@ The IGraphicalObject type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/igraphicalobject/igraphicalobject/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/igraphicalobject/igraphicalobject/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/igraphicalobject/igraphicalobject/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/igraphicalobject/igraphicalobject/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/igraphicalobject/igraphicalobject/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/igraphicalobject/igraphicalobject/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/igraphicalobject/igraphicalobject/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/igraphicalobject/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/igraphicalobject/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/igraphicalobject/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/igraphicalobject/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/igraphicalobject/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/igraphicalobject/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/igraphicalobject/get_base_placeholder/#/) |  |
 

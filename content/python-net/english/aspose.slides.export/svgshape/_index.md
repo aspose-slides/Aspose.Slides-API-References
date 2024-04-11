@@ -23,5 +23,5 @@ The SvgShape type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_event_handler](/slides/python-net/aspose.slides.export/svgshape/svgshape/#SvgEvent-string/) | Sets event handler for the shape |
+| [set_event_handler](/slides/python-net/aspose.slides.export/svgshape/set_event_handler/#SvgEvent-string/) | Sets event handler for the shape |
 

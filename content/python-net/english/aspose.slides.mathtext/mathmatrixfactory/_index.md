@@ -17,13 +17,13 @@ The MathMatrixFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathmatrixfactory/mathmatrixfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathmatrixfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_matrix](/slides/python-net/aspose.slides.mathtext/mathmatrixfactory/mathmatrixfactory/#int-int/) | Creates a math matrix |
+| [create_math_matrix](/slides/python-net/aspose.slides.mathtext/mathmatrixfactory/create_math_matrix/#int-int/) | Creates a math matrix |
 
 
 ### Remarks

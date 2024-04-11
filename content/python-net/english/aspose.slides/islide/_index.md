@@ -44,29 +44,29 @@ The ISlide type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#float-float/) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#/) | Returns a Thumbnail Image object (20% of real size). |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#aspose.pydrawing.Size/) | Returns a Thumbnail Bitmap object with specified size. |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.ITiffOptions/) | Returns a Thumbnail tiff bitmap object with specified parameters. |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.INotesCommentsLayoutingOptions/) | Returns a Thumbnail Bitmap object. |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-float-float/) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Size/) | Returns a Thumbnail Bitmap object with specified size. |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.IRenderingOptions/) | Returns a Thumbnail Bitmap object. |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.IRenderingOptions-float-float/) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [get_thumbnail](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Size/) | Returns a Thumbnail Bitmap object with specified size. |
-| [render_to_graphics](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-int-int/) | Renders certain slide to a Graphics object. |
-| [render_to_graphics](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-float/) | Renders certain slide to a Graphics object. |
-| [render_to_graphics](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics/) | Renders certain slide to a Graphics object. |
-| [render_to_graphics](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics/) | Renders certain slide to a Graphics object. |
-| [render_to_graphics](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-float-float/) | Renders certain slide to a Graphics object with custom scaling. |
-| [render_to_graphics](/slides/python-net/aspose.slides/islide/islide/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-aspose.pydrawing.Size/) | Renders certain slide to a Graphics object using specified size. |
-| [write_as_svg](/slides/python-net/aspose.slides/islide/islide/#System.IO.Stream/) | Saves content of slide as SVG file. |
-| [write_as_svg](/slides/python-net/aspose.slides/islide/islide/#System.IO.Stream-aspose.slides.export.ISVGOptions/) | Saves content of slide as SVG file. |
-| [get_slide_comments](/slides/python-net/aspose.slides/islide/islide/#ICommentAuthor/) | Returns all slide comments added by specific author. |
-| [remove](/slides/python-net/aspose.slides/islide/islide/#/) | Removes slide from presentation. |
-| [reset](/slides/python-net/aspose.slides/islide/islide/#/) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [find_shape_by_alt_text](/slides/python-net/aspose.slides/islide/islide/#string/) |  |
-| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/islide/islide/#/) |  |
-| [equals](/slides/python-net/aspose.slides/islide/islide/#IBaseSlide/) |  |
-| [create_theme_effective](/slides/python-net/aspose.slides/islide/islide/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#float-float/) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#/) | Returns a Thumbnail Image object (20% of real size). |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#aspose.pydrawing.Size/) | Returns a Thumbnail Bitmap object with specified size. |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#aspose.slides.export.ITiffOptions/) | Returns a Thumbnail tiff bitmap object with specified parameters. |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#aspose.slides.export.INotesCommentsLayoutingOptions/) | Returns a Thumbnail Bitmap object. |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#aspose.slides.export.INotesCommentsLayoutingOptions-float-float/) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Size/) | Returns a Thumbnail Bitmap object with specified size. |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#aspose.slides.export.IRenderingOptions/) | Returns a Thumbnail Bitmap object. |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#aspose.slides.export.IRenderingOptions-float-float/) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [get_thumbnail](/slides/python-net/aspose.slides/islide/get_thumbnail/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Size/) | Returns a Thumbnail Bitmap object with specified size. |
+| [render_to_graphics](/slides/python-net/aspose.slides/islide/render_to_graphics/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-int-int/) | Renders certain slide to a Graphics object. |
+| [render_to_graphics](/slides/python-net/aspose.slides/islide/render_to_graphics/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-float/) | Renders certain slide to a Graphics object. |
+| [render_to_graphics](/slides/python-net/aspose.slides/islide/render_to_graphics/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics/) | Renders certain slide to a Graphics object. |
+| [render_to_graphics](/slides/python-net/aspose.slides/islide/render_to_graphics/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics/) | Renders certain slide to a Graphics object. |
+| [render_to_graphics](/slides/python-net/aspose.slides/islide/render_to_graphics/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-float-float/) | Renders certain slide to a Graphics object with custom scaling. |
+| [render_to_graphics](/slides/python-net/aspose.slides/islide/render_to_graphics/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-aspose.pydrawing.Size/) | Renders certain slide to a Graphics object using specified size. |
+| [write_as_svg](/slides/python-net/aspose.slides/islide/write_as_svg/#System.IO.Stream/) | Saves content of slide as SVG file. |
+| [write_as_svg](/slides/python-net/aspose.slides/islide/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) | Saves content of slide as SVG file. |
+| [get_slide_comments](/slides/python-net/aspose.slides/islide/get_slide_comments/#ICommentAuthor/) | Returns all slide comments added by specific author. |
+| [remove](/slides/python-net/aspose.slides/islide/remove/#/) | Removes slide from presentation. |
+| [reset](/slides/python-net/aspose.slides/islide/reset/#/) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
+| [find_shape_by_alt_text](/slides/python-net/aspose.slides/islide/find_shape_by_alt_text/#string/) |  |
+| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/islide/join_portions_with_same_formatting/#/) |  |
+| [equals](/slides/python-net/aspose.slides/islide/equals/#IBaseSlide/) |  |
+| [create_theme_effective](/slides/python-net/aspose.slides/islide/create_theme_effective/#/) |  |
 

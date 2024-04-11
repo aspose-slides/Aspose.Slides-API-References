@@ -1,0 +1,69 @@
+﻿---
+title: create_portion method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/portionfactory/create_portion/
+weight: 20
+---
+
+
+## create_portion {#}
+Creates an empty text portion.
+
+### Returns
+
+Portion.
+
+
+
+```python
+def create_portion(self):
+    ...
+```
+
+
+
+
+## create_portion {#string}
+Creates an empty text portion.
+
+### Returns
+
+Portion.
+
+
+
+```python
+def create_portion(self, str):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| str | string |  |
+
+
+
+## create_portion {#IPortion}
+Creates an empty text portion.
+
+### Returns
+
+Portion.
+
+
+
+```python
+def create_portion(self, portion):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| portion | IPortion |  |
+
+
+

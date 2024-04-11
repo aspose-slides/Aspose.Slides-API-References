@@ -1,0 +1,26 @@
+﻿---
+title: FieldType constructor
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/fieldtype/__init__/
+weight: 10
+---
+
+
+## __init__ {#string}
+Initializes a new instance of FieldType class.
+
+
+```python
+def __init__(self, str):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| str | string |  |
+
+
+

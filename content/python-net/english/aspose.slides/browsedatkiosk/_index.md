@@ -19,5 +19,5 @@ The BrowsedAtKiosk type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/browsedatkiosk/browsedatkiosk/#/) | Initializes a new instance of the BrowsedAtKiosk class. |
+| [__init__](/slides/python-net/aspose.slides/browsedatkiosk/__init__/#/) | Initializes a new instance of the BrowsedAtKiosk class. |
 

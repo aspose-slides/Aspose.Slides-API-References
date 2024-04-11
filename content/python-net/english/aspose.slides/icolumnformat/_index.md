@@ -17,5 +17,5 @@ The IColumnFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/icolumnformat/icolumnformat/#/) | Gets effective table column formatting properties with inheritance and table styles applied. |
+| [get_effective](/slides/python-net/aspose.slides/icolumnformat/get_effective/#/) | Gets effective table column formatting properties with inheritance and table styles applied. |
 

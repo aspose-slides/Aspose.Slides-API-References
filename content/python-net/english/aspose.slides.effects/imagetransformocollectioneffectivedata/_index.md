@@ -17,7 +17,7 @@ The ImageTransformOCollectionEffectiveData type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformocollectioneffectivedata/imagetransformocollectioneffectivedata/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.effects/imagetransformocollectioneffectivedata/__init__/#/) |  |
 
 ## Properties
 

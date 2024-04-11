@@ -39,5 +39,5 @@ The PictureFillFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [delete_picture_cropped_areas](/slides/python-net/aspose.slides/picturefillformat/picturefillformat/#/) | Delete cropped areas of the fill Picture. |
+| [delete_picture_cropped_areas](/slides/python-net/aspose.slides/picturefillformat/delete_picture_cropped_areas/#/) | Delete cropped areas of the fill Picture. |
 

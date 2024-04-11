@@ -1,0 +1,27 @@
+﻿---
+title: create_color_effect method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.animation/ibehaviorfactory/create_color_effect/
+weight: 20
+---
+
+
+## create_color_effect {#}
+Creates color effect.
+
+### Returns
+
+Color effect.
+
+
+
+```python
+def create_color_effect(self):
+    ...
+```
+
+
+
+

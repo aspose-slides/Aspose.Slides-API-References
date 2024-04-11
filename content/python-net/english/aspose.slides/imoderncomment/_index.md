@@ -33,5 +33,5 @@ The IModernComment type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove](/slides/python-net/aspose.slides/imoderncomment/imoderncomment/#/) |  |
+| [remove](/slides/python-net/aspose.slides/imoderncomment/remove/#/) |  |
 

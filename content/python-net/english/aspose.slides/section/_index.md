@@ -25,5 +25,5 @@ The Section type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_slides_list_of_section](/slides/python-net/aspose.slides/section/section/#/) | Returns list of slides in the section. |
+| [get_slides_list_of_section](/slides/python-net/aspose.slides/section/get_slides_list_of_section/#/) | Returns list of slides in the section. |
 

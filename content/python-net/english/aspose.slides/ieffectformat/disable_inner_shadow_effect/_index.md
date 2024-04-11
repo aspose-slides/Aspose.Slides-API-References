@@ -1,0 +1,22 @@
+﻿---
+title: disable_inner_shadow_effect method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/ieffectformat/disable_inner_shadow_effect/
+weight: 130
+---
+
+
+## disable_inner_shadow_effect {#}
+Disables inner shadow effect.
+
+
+```python
+def disable_inner_shadow_effect(self):
+    ...
+```
+
+
+
+

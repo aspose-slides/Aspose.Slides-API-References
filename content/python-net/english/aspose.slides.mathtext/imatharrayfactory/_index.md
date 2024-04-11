@@ -17,8 +17,8 @@ The IMathArrayFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_array](/slides/python-net/aspose.slides.mathtext/imatharrayfactory/imatharrayfactory/#IMathElement/) | Creates a math array and places the specified element in it |
-| [create_math_array](/slides/python-net/aspose.slides.mathtext/imatharrayfactory/imatharrayfactory/#IMathElementCollection/) | Creates a math array and places specified elements in it |
+| [create_math_array](/slides/python-net/aspose.slides.mathtext/imatharrayfactory/create_math_array/#IMathElement/) | Creates a math array and places the specified element in it |
+| [create_math_array](/slides/python-net/aspose.slides.mathtext/imatharrayfactory/create_math_array/#IMathElementCollection/) | Creates a math array and places specified elements in it |
 
 
 ### Remarks

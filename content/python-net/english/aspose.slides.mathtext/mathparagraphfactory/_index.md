@@ -17,14 +17,14 @@ The MathParagraphFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/mathparagraphfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_paragraph](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/mathparagraphfactory/#/) | Create empty math paragraph |
-| [create_math_paragraph](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/mathparagraphfactory/#IMathBlock/) | Creates a math paragraph and places the specified math block in it |
+| [create_math_paragraph](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/create_math_paragraph/#/) | Create empty math paragraph |
+| [create_math_paragraph](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/create_math_paragraph/#IMathBlock/) | Creates a math paragraph and places the specified math block in it |
 
 
 ### Remarks

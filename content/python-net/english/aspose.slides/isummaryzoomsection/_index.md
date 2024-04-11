@@ -70,11 +70,11 @@ The ISummaryZoomSection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/isummaryzoomsection/isummaryzoomsection/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/isummaryzoomsection/isummaryzoomsection/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/isummaryzoomsection/isummaryzoomsection/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/isummaryzoomsection/isummaryzoomsection/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/isummaryzoomsection/isummaryzoomsection/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/isummaryzoomsection/isummaryzoomsection/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/isummaryzoomsection/isummaryzoomsection/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/isummaryzoomsection/get_thumbnail/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/isummaryzoomsection/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/isummaryzoomsection/write_as_svg/#System.IO.Stream/) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/isummaryzoomsection/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/isummaryzoomsection/add_placeholder/#IPlaceholder/) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/isummaryzoomsection/remove_placeholder/#/) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/isummaryzoomsection/get_base_placeholder/#/) |  |
 

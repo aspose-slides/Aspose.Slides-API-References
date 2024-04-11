@@ -32,5 +32,5 @@ The DoubleChartValue type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [to_double](/slides/python-net/aspose.slides.charts/doublechartvalue/doublechartvalue/#/) | Converts to .NET type System.Double. |
+| [to_double](/slides/python-net/aspose.slides.charts/doublechartvalue/to_double/#/) | Converts to .NET type System.Double. |
 

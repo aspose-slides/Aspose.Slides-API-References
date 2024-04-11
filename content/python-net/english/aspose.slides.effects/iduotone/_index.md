@@ -25,5 +25,5 @@ The IDuotone type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/iduotone/iduotone/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/iduotone/get_effective/#/) |  |
 

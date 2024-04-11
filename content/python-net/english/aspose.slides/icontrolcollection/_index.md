@@ -30,8 +30,8 @@ The IControlCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove](/slides/python-net/aspose.slides/icontrolcollection/icontrolcollection/#IControl/) | Removes an ActiveX control from the collection. |
-| [remove_at](/slides/python-net/aspose.slides/icontrolcollection/icontrolcollection/#int/) | Removes an ActiveX control stored at specified position from the collection. |
-| [clear](/slides/python-net/aspose.slides/icontrolcollection/icontrolcollection/#/) | Removes all controls from the collection. |
-| [add_control](/slides/python-net/aspose.slides/icontrolcollection/icontrolcollection/#ControlType-float-float-float-float/) | Creates and adds a new control to the collection. |
+| [remove](/slides/python-net/aspose.slides/icontrolcollection/remove/#IControl/) | Removes an ActiveX control from the collection. |
+| [remove_at](/slides/python-net/aspose.slides/icontrolcollection/remove_at/#int/) | Removes an ActiveX control stored at specified position from the collection. |
+| [clear](/slides/python-net/aspose.slides/icontrolcollection/clear/#/) | Removes all controls from the collection. |
+| [add_control](/slides/python-net/aspose.slides/icontrolcollection/add_control/#ControlType-float-float-float-float/) | Creates and adds a new control to the collection. |
 

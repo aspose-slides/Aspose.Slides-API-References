@@ -19,7 +19,7 @@ The CommandEffect type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/commandeffect/commandeffect/#/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides.animation/commandeffect/__init__/#/) | Creates new instance. |
 
 ## Properties
 

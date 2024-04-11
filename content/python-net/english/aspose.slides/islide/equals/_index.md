@@ -1,0 +1,26 @@
+﻿---
+title: equals method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides/islide/equals/
+weight: 100
+---
+
+
+## equals {#IBaseSlide}
+
+
+
+```python
+def equals(self, slide):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| slide | IBaseSlide |  |
+
+
+

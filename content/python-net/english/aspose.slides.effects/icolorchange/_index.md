@@ -26,5 +26,5 @@ The IColorChange type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/icolorchange/icolorchange/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/icolorchange/get_effective/#/) |  |
 

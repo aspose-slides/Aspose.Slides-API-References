@@ -33,5 +33,5 @@ The IOuterShadow type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ioutershadow/ioutershadow/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ioutershadow/get_effective/#/) |  |
 

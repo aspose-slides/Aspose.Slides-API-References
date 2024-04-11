@@ -17,8 +17,8 @@ The Point type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/point/point/#/) | Default constructor. |
-| [__init__](/slides/python-net/aspose.slides.animation/point/point/#float-any-string/) | Create animation point with time, value and formula. |
+| [__init__](/slides/python-net/aspose.slides.animation/point/__init__/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides.animation/point/__init__/#float-any-string/) | Create animation point with time, value and formula. |
 
 ## Properties
 

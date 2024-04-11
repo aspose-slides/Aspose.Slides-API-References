@@ -32,5 +32,5 @@ The Duotone type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/duotone/duotone/#/) | Gets effective Duotone effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/duotone/get_effective/#/) | Gets effective Duotone effect data with the inheritance applied. |
 

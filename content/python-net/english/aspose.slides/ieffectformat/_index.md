@@ -32,21 +32,21 @@ The IEffectFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_blur_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#float-bool/) | Sets blur effect. |
-| [enable_fill_overlay_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Enables fill overlay effect. |
-| [enable_glow_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Enables glow effect. |
-| [enable_inner_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Enables inner shadow effect. |
-| [enable_outer_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Enables outer shadow effect. |
-| [enable_preset_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Enables preset shadows effect. |
-| [enable_reflection_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Enables reflection effect. |
-| [enable_soft_edge_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Enables soft edge effect. |
-| [disable_blur_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Disables blur effect. |
-| [disable_fill_overlay_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Disables fill overlay effect. |
-| [disable_glow_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Disable glow effect. |
-| [disable_inner_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Disables inner shadow effect. |
-| [disable_outer_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Disables outer shadow effect. |
-| [disable_preset_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Disables preset shadow effect. |
-| [disable_reflection_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Disables reflection effect. |
-| [disable_soft_edge_effect](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Disables soft edge effect. |
-| [get_effective](/slides/python-net/aspose.slides/ieffectformat/ieffectformat/#/) | Gets effective effect formatting data with the inheritance applied. |
+| [set_blur_effect](/slides/python-net/aspose.slides/ieffectformat/set_blur_effect/#float-bool/) | Sets blur effect. |
+| [enable_fill_overlay_effect](/slides/python-net/aspose.slides/ieffectformat/enable_fill_overlay_effect/#/) | Enables fill overlay effect. |
+| [enable_glow_effect](/slides/python-net/aspose.slides/ieffectformat/enable_glow_effect/#/) | Enables glow effect. |
+| [enable_inner_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/enable_inner_shadow_effect/#/) | Enables inner shadow effect. |
+| [enable_outer_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/enable_outer_shadow_effect/#/) | Enables outer shadow effect. |
+| [enable_preset_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/enable_preset_shadow_effect/#/) | Enables preset shadows effect. |
+| [enable_reflection_effect](/slides/python-net/aspose.slides/ieffectformat/enable_reflection_effect/#/) | Enables reflection effect. |
+| [enable_soft_edge_effect](/slides/python-net/aspose.slides/ieffectformat/enable_soft_edge_effect/#/) | Enables soft edge effect. |
+| [disable_blur_effect](/slides/python-net/aspose.slides/ieffectformat/disable_blur_effect/#/) | Disables blur effect. |
+| [disable_fill_overlay_effect](/slides/python-net/aspose.slides/ieffectformat/disable_fill_overlay_effect/#/) | Disables fill overlay effect. |
+| [disable_glow_effect](/slides/python-net/aspose.slides/ieffectformat/disable_glow_effect/#/) | Disable glow effect. |
+| [disable_inner_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/disable_inner_shadow_effect/#/) | Disables inner shadow effect. |
+| [disable_outer_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/disable_outer_shadow_effect/#/) | Disables outer shadow effect. |
+| [disable_preset_shadow_effect](/slides/python-net/aspose.slides/ieffectformat/disable_preset_shadow_effect/#/) | Disables preset shadow effect. |
+| [disable_reflection_effect](/slides/python-net/aspose.slides/ieffectformat/disable_reflection_effect/#/) | Disables reflection effect. |
+| [disable_soft_edge_effect](/slides/python-net/aspose.slides/ieffectformat/disable_soft_edge_effect/#/) | Disables soft edge effect. |
+| [get_effective](/slides/python-net/aspose.slides/ieffectformat/get_effective/#/) | Gets effective effect formatting data with the inheritance applied. |
 

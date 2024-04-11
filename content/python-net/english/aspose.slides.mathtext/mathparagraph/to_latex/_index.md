@@ -1,0 +1,22 @@
+﻿---
+title: to_latex method
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docS
+url: /aspose.slides.mathtext/mathparagraph/to_latex/
+weight: 100
+---
+
+
+## to_latex {#}
+Gets mathematical equation in LaTeX format
+
+
+```python
+def to_latex(self):
+    ...
+```
+
+
+
+

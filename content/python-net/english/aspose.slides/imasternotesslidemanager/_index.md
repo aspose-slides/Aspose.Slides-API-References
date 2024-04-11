@@ -23,6 +23,6 @@ The IMasterNotesSlideManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_default_master_notes_slide](/slides/python-net/aspose.slides/imasternotesslidemanager/imasternotesslidemanager/#/) | Sets defalut master notes slide for related notes slide. |
-| [remove_master_notes_slide](/slides/python-net/aspose.slides/imasternotesslidemanager/imasternotesslidemanager/#/) | Removes master notes slide. |
+| [set_default_master_notes_slide](/slides/python-net/aspose.slides/imasternotesslidemanager/set_default_master_notes_slide/#/) | Sets defalut master notes slide for related notes slide. |
+| [remove_master_notes_slide](/slides/python-net/aspose.slides/imasternotesslidemanager/remove_master_notes_slide/#/) | Removes master notes slide. |
 

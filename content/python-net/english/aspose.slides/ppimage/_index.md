@@ -30,7 +30,7 @@ The PPImage type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [replace_image](/slides/python-net/aspose.slides/ppimage/ppimage/#bytes/) | Replaces image data.<br/>            The new image's data.When newImageData parameter is null. |
-| [replace_image](/slides/python-net/aspose.slides/ppimage/ppimage/#aspose.pydrawing.Image/) | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead<br/>            The new image.When newImage parameter is null. |
-| [replace_image](/slides/python-net/aspose.slides/ppimage/ppimage/#IPPImage/) | Replaces image data.<br/>            The new IPPImage.When newImage parameter is null. |
+| [replace_image](/slides/python-net/aspose.slides/ppimage/replace_image/#bytes/) | Replaces image data.<br/>            The new image's data.When newImageData parameter is null. |
+| [replace_image](/slides/python-net/aspose.slides/ppimage/replace_image/#aspose.pydrawing.Image/) | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead<br/>            The new image.When newImage parameter is null. |
+| [replace_image](/slides/python-net/aspose.slides/ppimage/replace_image/#IPPImage/) | Replaces image data.<br/>            The new IPPImage.When newImage parameter is null. |
 

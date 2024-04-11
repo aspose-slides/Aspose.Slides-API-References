@@ -17,16 +17,16 @@ The MathematicalTextFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/mathematicaltextfactory/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/__init__/#/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/mathematicaltextfactory/#/) | Create empty mathematical text element |
-| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/mathematicaltextfactory/#char/) | Create mathematical text element with the specified value |
-| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/mathematicaltextfactory/#string/) | Create empty mathematical text element with the specified value |
-| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/mathematicaltextfactory/#string-IPortionFormat/) |  |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#/) | Create empty mathematical text element |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#char/) | Create mathematical text element with the specified value |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#string/) | Create empty mathematical text element with the specified value |
+| [create_mathematical_text](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#string-IPortionFormat/) |  |
 
 
 ### Remarks
