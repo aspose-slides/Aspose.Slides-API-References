@@ -92,6 +92,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [HyperlinkManager](./hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [HyperlinkQueries](./hyperlinkqueries) | Provide easy access to contained hyperlinks. |
 | [ImageCollection](./imagecollection) | Represents collection of PPImage. |
+| [Images](./images) | Methods to instantiate and work with [`IImage`](../aspose.slides/iimage). |
 | [ImageWrapper](./imagewrapper) | System.Drawing.Image wrapper for COM interface. |
 | [ImageWrapperFactory](./imagewrapperfactory) | This class allows to initialize IBitmapWrapper. |
 | [InterruptionToken](./interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
@@ -301,6 +302,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IHyperlinkContainer](./ihyperlinkcontainer) | Represents hyperlink object. |
 | [IHyperlinkManager](./ihyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [IHyperlinkQueries](./ihyperlinkqueries) | Provide easy access to contained hyperlinks. |
+| [IImage](./iimage) | Represents the raster or vector image. |
 | [IImageCollection](./iimagecollection) | Represents collection of PPImage. |
 | [IImageWrapper](./iimagewrapper) | System.Drawing.Image wrapper for COM interface. |
 | [IImageWrapperFactory](./iimagewrapperfactory) | This interface allows to initialize IBitmapWrapper. |
@@ -449,6 +451,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [GradientShape](./gradientshape) | Represents the shape of gradient fill. |
 | [HyperlinkActionType](./hyperlinkactiontype) | Represents a type of hyperlink action. |
 | [HyperlinkColorSource](./hyperlinkcolorsource) | Represents source of hyperlink color. |
+| [ImageFormat](./imageformat) | Represents the file format of the image. |
 | [LightingDirection](./lightingdirection) | Constants which define light directions. |
 | [LightRigPresetType](./lightrigpresettype) | Constants which define light preset types. |
 | [LineAlignment](./linealignment) | Represents the lines alignment type. |

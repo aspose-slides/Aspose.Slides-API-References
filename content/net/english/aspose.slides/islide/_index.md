@@ -3,7 +3,7 @@ title: ISlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a slide in a presentation.
 type: docs
-weight: 6660
+weight: 6680
 url: /aspose.slides/islide/
 ---
 
@@ -31,18 +31,15 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | Name | Description |
 | --- | --- |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Returns a Thumbnail Image object (20% of real size). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Returns a Thumbnail Bitmap object. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Returns an image object with specified size. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Returns an image object with custom scaling. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Returns a Thumbnail Bitmap object with specified size. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Returns all slide comments added by specific author. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail)() | Returns a Thumbnail Image object (20% of real size). |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_4)(IRenderingOptions) | Returns a Thumbnail Bitmap object. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_7)(ITiffOptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_9)(Size) | Returns a Thumbnail Bitmap object with specified size. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_8)(float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_6)(IRenderingOptions, Size) | Returns a Thumbnail Bitmap object with specified size. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_5)(IRenderingOptions, float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [Remove](../../aspose.slides/islide/remove)() | Removes slide from presentation. |
-| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_3)(IRenderingOptions, Graphics) | Renders certain slide to a Graphics object. |
-| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_5)(IRenderingOptions, Graphics, Size) | Renders certain slide to a Graphics object using specified size. |
-| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_4)(IRenderingOptions, Graphics, float, float) | Renders certain slide to a Graphics object with custom scaling. |
 | [Reset](../../aspose.slides/islide/reset)() | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Saves content of slide as SVG file. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Saves content of slide as SVG file. |

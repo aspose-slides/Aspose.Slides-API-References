@@ -3,7 +3,7 @@ title: ISmartArtNodeCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of SmartArt nodes.
 type: docs
-weight: 10030
+weight: 10070
 url: /aspose.slides.smartart/ismartartnodecollection/
 ---
 

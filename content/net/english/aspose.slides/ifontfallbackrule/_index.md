@@ -3,7 +3,7 @@ title: IFontFallBackRule
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents font fallback rule
 type: docs
-weight: 5520
+weight: 5530
 url: /aspose.slides/ifontfallbackrule/
 ---
 

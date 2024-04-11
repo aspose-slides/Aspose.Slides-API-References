@@ -3,7 +3,7 @@ title: MathTopBotPositions
 second_title: Aspose.Sildes for .NET API Reference
 description: Top/bottom positions enumeration
 type: docs
-weight: 8560
+weight: 8600
 url: /aspose.slides.mathtext/mathtopbotpositions/
 ---
 

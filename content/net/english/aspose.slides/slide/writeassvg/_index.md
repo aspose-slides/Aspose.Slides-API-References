@@ -3,7 +3,7 @@ title: WriteAsSvg
 second_title: Aspose.Sildes for .NET API Reference
 description: Saves content of slide as SVG file.
 type: docs
-weight: 140
+weight: 130
 url: /aspose.slides/slide/writeassvg/
 ---
 

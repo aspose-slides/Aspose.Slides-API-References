@@ -3,7 +3,7 @@ title: Modules
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the list of all modules that are contained in the VBA project. Read-only IVbaModuleCollectionaspose.slides.vba/ivbamodulecollection.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides.vba/vbaproject/modules/
 ---
 

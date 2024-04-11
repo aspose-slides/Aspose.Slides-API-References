@@ -3,7 +3,7 @@ title: IOptionalBlackTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Optional black slide transition effect.
 type: docs
-weight: 9610
+weight: 9650
 url: /aspose.slides.slideshow/ioptionalblacktransition/
 ---
 

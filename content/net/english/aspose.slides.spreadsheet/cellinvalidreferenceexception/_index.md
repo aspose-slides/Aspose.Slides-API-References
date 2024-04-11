@@ -3,7 +3,7 @@ title: CellInvalidReferenceException
 second_title: Aspose.Sildes for .NET API Reference
 description: The exception that is thrown when an invalid cell reference is encountered.
 type: docs
-weight: 10190
+weight: 10230
 url: /aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 

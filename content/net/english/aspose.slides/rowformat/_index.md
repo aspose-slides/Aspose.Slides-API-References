@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents format of a table row.
 type: docs
-weight: 9250
+weight: 9290
 url: /aspose.slides/rowformat/
 ---
 

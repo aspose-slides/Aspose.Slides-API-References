@@ -7,7 +7,7 @@ weight: 90
 url: /aspose.slides/ippimage/replaceimage/
 ---
 
-## ReplaceImage(byte[]) {#replaceimage_1}
+## ReplaceImage(byte[]) {#replaceimage_2}
 
 Replaces image data.
 
@@ -27,27 +27,28 @@ public void ReplaceImage(byte[] newImageData)
 
 ---
 
-## ReplaceImage(Image) {#replaceimage_2}
+## ReplaceImage(IImage) {#replaceimage}
 
 Replaces image.
 
 ```csharp
-public void ReplaceImage(Image newImage)
+public void ReplaceImage(IImage newImage)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newImage | Image | The new image. |
+| newImage | IImage | The new image. |
 
 ### See Also
 
+* interface [IImage](../../iimage)
 * interface [IPPImage](../../ippimage)
 * namespace [Aspose.Slides](../../ippimage)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## ReplaceImage(IPPImage) {#replaceimage}
+## ReplaceImage(IPPImage) {#replaceimage_1}
 
 Replaces image.
 

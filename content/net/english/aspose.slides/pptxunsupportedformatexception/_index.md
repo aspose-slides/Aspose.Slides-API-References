@@ -3,7 +3,7 @@ title: PptxUnsupportedFormatException
 second_title: Aspose.Sildes for .NET API Reference
 description: Exception which thrown when presentation file format is unsupported.
 type: docs
-weight: 9100
+weight: 9140
 url: /aspose.slides/pptxunsupportedformatexception/
 ---
 

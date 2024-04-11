@@ -3,7 +3,7 @@ title: ToBinary
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the binary representation of the VBA project as OLE container
 type: docs
-weight: 50
+weight: 60
 url: /aspose.slides.vba/vbaproject/tobinary/
 ---
 

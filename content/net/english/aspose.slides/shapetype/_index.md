@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents preset geometry of geometry shapes.
 type: docs
-weight: 9400
+weight: 9440
 url: /aspose.slides/shapetype/
 ---
 

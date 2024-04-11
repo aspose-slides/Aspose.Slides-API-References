@@ -19,12 +19,12 @@ public sealed class Output
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, Image) | Adds an output element for the image. |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IPPImage) | Adds an output element for the image. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IVideo) | Adds an output element for the video. |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Adds an output element for the text content. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Adds an output element for the image. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Adds an output element for the image. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Adds an output element for the video. |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Adds an output element for the text content. |
 | [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyle) | Adds an output element for the font. |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) |  |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) |  |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Binds resource to output file. |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Returns the path for a given resource. |
 

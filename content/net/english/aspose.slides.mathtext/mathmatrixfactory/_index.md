@@ -3,7 +3,7 @@ title: MathMatrixFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math matrix
 type: docs
-weight: 8390
+weight: 8430
 url: /aspose.slides.mathtext/mathmatrixfactory/
 ---
 

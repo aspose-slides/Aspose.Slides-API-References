@@ -3,7 +3,7 @@ title: ImageWrapper
 second_title: Aspose.Sildes for .NET API Reference
 description: System.Drawing.Image wrapper for COM interface.
 type: docs
-weight: 7050
+weight: 7080
 url: /aspose.slides/imagewrapper/
 ---
 
@@ -19,7 +19,7 @@ public class ImageWrapper : IImageWrapper
 
 | Name | Description |
 | --- | --- |
-| [Image](../../aspose.slides/imagewrapper/image) { get; } | Gets Image. Read-only [`Image`](./image). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Gets Image. Read-only [`IImage`](../iimage). |
 | [Size](../../aspose.slides/imagewrapper/size) { get; } | Gets the width and height, in pixels, of the Image. Read-only [`Size`](./size). |
 
 ## Methods

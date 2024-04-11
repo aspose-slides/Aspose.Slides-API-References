@@ -3,7 +3,7 @@ title: IAudio
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an embedded audio file.
 type: docs
-weight: 4930
+weight: 4940
 url: /aspose.slides/iaudio/
 ---
 

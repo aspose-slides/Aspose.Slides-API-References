@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents VBA project with presentation macros.
 type: docs
-weight: 11120
+weight: 11160
 url: /aspose.slides.vba/vbaproject/
 ---
 
@@ -26,6 +26,7 @@ public sealed class VbaProject : IVbaProject
 
 | Name | Description |
 | --- | --- |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Indicates whether the VBAProject is protected by a password to view project properties. Read-only Boolean. |
 | [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Returns the list of all modules that are contained in the VBA project. Read-only [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Returns the name of the VBA project. Read-only String. |
 | [References](../../aspose.slides.vba/vbaproject/references) { get; } | Returns the list of all references that are contained in the VBA project. Read-only [`IVbaReferenceCollection`](../ivbareferencecollection). |

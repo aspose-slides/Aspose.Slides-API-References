@@ -3,7 +3,7 @@ title: SplitTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Split slide transition effect.
 type: docs
-weight: 9800
+weight: 9840
 url: /aspose.slides.slideshow/splittransition/
 ---
 

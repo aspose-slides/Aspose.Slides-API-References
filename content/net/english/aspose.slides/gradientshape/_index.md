@@ -3,7 +3,7 @@ title: GradientShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the shape of gradient fill.
 type: docs
-weight: 4750
+weight: 4760
 url: /aspose.slides/gradientshape/
 ---
 

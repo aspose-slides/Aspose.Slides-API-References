@@ -3,7 +3,7 @@ title: ReturnToParent
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets or sets the navigation behavior in slideshow. Read/write Boolean. Default value false
 type: docs
-weight: 30
+weight: 20
 url: /aspose.slides/zoomobject/returntoparent/
 ---
 

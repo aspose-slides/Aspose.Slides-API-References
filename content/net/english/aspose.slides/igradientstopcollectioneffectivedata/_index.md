@@ -3,7 +3,7 @@ title: IGradientStopCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of GradientStopDataEx objects.
 type: docs
-weight: 5710
+weight: 5720
 url: /aspose.slides/igradientstopcollectioneffectivedata/
 ---
 
