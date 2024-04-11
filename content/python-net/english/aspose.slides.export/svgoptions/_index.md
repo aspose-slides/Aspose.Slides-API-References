@@ -19,8 +19,8 @@ The SVGOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/svgoptions/__init__/#/) | Initializes a new instance of the SVGOptions class. |
-| [__init__](/slides/python-net/aspose.slides.export/svgoptions/__init__/#ILinkEmbedController/) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
+| [__init__](/slides/python-net/aspose.slides.export/svgoptions/__init__/#) | Initializes a new instance of the SVGOptions class. |
+| [__init__](/slides/python-net/aspose.slides.export/svgoptions/__init__/#ILinkEmbedController) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
 
 ## Properties
 

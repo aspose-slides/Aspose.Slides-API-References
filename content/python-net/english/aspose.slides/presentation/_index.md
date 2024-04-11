@@ -17,12 +17,12 @@ The Presentation type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#/) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#LoadOptions/) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#System.IO.Stream/) | This constructor is the primary mechanism for reading an existing Presentation. |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#System.IO.Stream-LoadOptions/) | This constructor is the primary mechanism for reading an existing Presentation. |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#string/) | This constructor gets a source file path from which<br/>             the contents of the Presentation are read. |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#string-LoadOptions/) | This constructor gets a source file path from which<br/>            the contents of the Presentation are read. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#LoadOptions) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#System.IO.Stream) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#System.IO.Stream-LoadOptions) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#string) | This constructor gets a source file path from which<br/>             the contents of the Presentation are read. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#string-LoadOptions) | This constructor gets a source file path from which<br/>            the contents of the Presentation are read. |
 
 ## Properties
 

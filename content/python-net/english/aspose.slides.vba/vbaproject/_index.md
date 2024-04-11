@@ -17,8 +17,8 @@ The VbaProject type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.vba/vbaproject/__init__/#/) | This constructor creates new VBA project from scratch.<br/>            Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
-| [__init__](/slides/python-net/aspose.slides.vba/vbaproject/__init__/#bytes/) | This constructor loads VBA project from binary representation of OLE container. |
+| [__init__](/slides/python-net/aspose.slides.vba/vbaproject/__init__/#) | This constructor creates new VBA project from scratch.<br/>            Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
+| [__init__](/slides/python-net/aspose.slides.vba/vbaproject/__init__/#bytes) | This constructor loads VBA project from binary representation of OLE container. |
 
 ## Properties
 

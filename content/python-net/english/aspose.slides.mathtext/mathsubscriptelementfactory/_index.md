@@ -17,7 +17,7 @@ The MathSubscriptElementFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/__init__/#) |  |
 
 ## Methods
 

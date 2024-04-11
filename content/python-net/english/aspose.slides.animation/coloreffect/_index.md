@@ -19,7 +19,7 @@ The ColorEffect type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/coloreffect/__init__/#/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides.animation/coloreffect/__init__/#) | Creates new instance. |
 
 ## Properties
 

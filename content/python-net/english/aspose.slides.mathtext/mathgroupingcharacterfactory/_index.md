@@ -17,7 +17,7 @@ The MathGroupingCharacterFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacterfactory/__init__/#) |  |
 
 ## Methods
 

@@ -19,8 +19,8 @@ The MathBorderBox type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathborderbox/__init__/#IMathElement/) | Creates MathBorderBox element with rectangular border |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathborderbox/__init__/#IMathElement-bool-bool-bool-bool-bool-bool-bool-bool/) | Creates MathBorderBox element |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathborderbox/__init__/#IMathElement) | Creates MathBorderBox element with rectangular border |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathborderbox/__init__/#IMathElement-bool-bool-bool-bool-bool-bool-bool-bool) | Creates MathBorderBox element |
 
 ## Properties
 

@@ -19,7 +19,7 @@ The XamlOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.xaml/xamloptions/__init__/#/) | Creates the XamlOptions instance. |
+| [__init__](/slides/python-net/aspose.slides.export.xaml/xamloptions/__init__/#) | Creates the XamlOptions instance. |
 
 ## Properties
 

@@ -17,7 +17,7 @@ The FontSources type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontsources/__init__/#/) | Creates new default font options. |
+| [__init__](/slides/python-net/aspose.slides/fontsources/__init__/#) | Creates new default font options. |
 
 ## Properties
 

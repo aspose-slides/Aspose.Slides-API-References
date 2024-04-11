@@ -19,7 +19,7 @@ The RenderingOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/renderingoptions/__init__/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides.export/renderingoptions/__init__/#) | Default constructor. |
 
 ## Properties
 

@@ -68,7 +68,7 @@ def add_from_html(self, html_text, resolver, uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | html_text | string | Html to add. |
-| resolver | [`IExternalResourceResolver`]/slides/python-net/aspose.slides.importing/iexternalresourceresolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | string | An URI of the specified HTML. Used to resolve relative links. |
 
 
@@ -91,7 +91,7 @@ def add_from_html(self, html_stream, resolver, uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | html_stream | System.IO.Stream |  |
-| resolver | [`IExternalResourceResolver`]/slides/python-net/aspose.slides.importing/iexternalresourceresolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | string | An URI of the specified HTML. Used to resolve relative links. |
 
 

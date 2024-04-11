@@ -19,7 +19,7 @@ The MathPortion type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathportion/__init__/#/) | Initializes a new instance of the MathPortion class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathportion/__init__/#) | Initializes a new instance of the MathPortion class. |
 
 ## Properties
 

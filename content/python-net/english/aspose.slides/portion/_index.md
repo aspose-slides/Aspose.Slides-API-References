@@ -17,9 +17,9 @@ The Portion type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/portion/__init__/#/) | Initializes a new instance of the Portion class. |
-| [__init__](/slides/python-net/aspose.slides/portion/__init__/#string/) | Initializes a new instance of the Portion class. |
-| [__init__](/slides/python-net/aspose.slides/portion/__init__/#Portion/) | Initializes a new instance of the Portion class. |
+| [__init__](/slides/python-net/aspose.slides/portion/__init__/#) | Initializes a new instance of the Portion class. |
+| [__init__](/slides/python-net/aspose.slides/portion/__init__/#string) | Initializes a new instance of the Portion class. |
+| [__init__](/slides/python-net/aspose.slides/portion/__init__/#Portion) | Initializes a new instance of the Portion class. |
 
 ## Properties
 

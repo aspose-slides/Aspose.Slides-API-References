@@ -17,7 +17,7 @@ The MathFractionFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/__init__/#) |  |
 
 ## Methods
 

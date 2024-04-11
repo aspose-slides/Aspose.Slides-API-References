@@ -19,8 +19,8 @@ The MathGroupingCharacter type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/__init__/#IMathElement/) | Initializes a new instance of the MathGroupingCharacter class <br/>            with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/__init__/#IMathElement-char-MathTopBotPositions-MathTopBotPositions/) | Initializes a new instance of the MathGroupingCharacter class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/__init__/#IMathElement) | Initializes a new instance of the MathGroupingCharacter class <br/>            with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/__init__/#IMathElement-char-MathTopBotPositions-MathTopBotPositions) | Initializes a new instance of the MathGroupingCharacter class. |
 
 ## Properties
 

@@ -17,7 +17,7 @@ The GeometryPath type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/geometrypath/__init__/#/) | Creates instance of GeometryPath |
+| [__init__](/slides/python-net/aspose.slides/geometrypath/__init__/#) | Creates instance of GeometryPath |
 
 ## Properties
 

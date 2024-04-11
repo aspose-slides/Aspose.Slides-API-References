@@ -19,8 +19,8 @@ The MathLimit type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathlimit/__init__/#IMathElement-IMathElement-bool/) | Initializes a new instance of the MathLimit class. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathlimit/__init__/#IMathElement-IMathElement/) | Initializes a new instance of the MathLimit class with lower limit |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathlimit/__init__/#IMathElement-IMathElement-bool) | Initializes a new instance of the MathLimit class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathlimit/__init__/#IMathElement-IMathElement) | Initializes a new instance of the MathLimit class with lower limit |
 
 ## Properties
 

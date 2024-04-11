@@ -20,8 +20,8 @@ The MathAccent type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathaccent/__init__/#IMathElement/) | Creates a math accent applying to a specified math element with the default accent character value |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathaccent/__init__/#IMathElement-char/) | Creates a math accent applying to a specified math element |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathaccent/__init__/#IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathaccent/__init__/#IMathElement-char) | Creates a math accent applying to a specified math element |
 
 ## Properties
 

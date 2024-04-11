@@ -17,8 +17,8 @@ The PresentationAnimationsGenerator type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/__init__/#Presentation/) |  |
-| [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/__init__/#aspose.pydrawing.Size/) | Creates a new instance of the [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator). |
+| [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/__init__/#Presentation) |  |
+| [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/__init__/#aspose.pydrawing.Size) | Creates a new instance of the [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator). |
 
 ## Properties
 

@@ -17,7 +17,7 @@ The VideoPlayerHtmlController type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/__init__/#string-string-string/) | Creates a new instance of controller |
+| [__init__](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/__init__/#string-string-string) | Creates a new instance of controller |
 
 ## Properties
 

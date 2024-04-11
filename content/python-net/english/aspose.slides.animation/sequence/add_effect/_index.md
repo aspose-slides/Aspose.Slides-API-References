@@ -58,7 +58,7 @@ def add_effect(self, chart, type, index, effect_type, subtype, trigger_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| chart | [`IChart`]/slides/python-net/aspose.slides.charts/ichart |  |
+| chart | [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |  |
 | type | EffectChartMajorGroupingType |  |
 | index | int |  |
 | effect_type | EffectType |  |
@@ -79,7 +79,7 @@ def add_effect(self, chart, type, series_index, categories_index, effect_type, s
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| chart | [`IChart`]/slides/python-net/aspose.slides.charts/ichart |  |
+| chart | [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |  |
 | type | EffectChartMinorGroupingType |  |
 | series_index | int |  |
 | categories_index | int |  |

@@ -37,7 +37,7 @@ def add_from_html(self, text, resolver, uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | string | HTML text. |
-| resolver | [`IExternalResourceResolver`]/slides/python-net/aspose.slides.importing/iexternalresourceresolver |  |
+| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) |  |
 | uri | string |  |
 
 

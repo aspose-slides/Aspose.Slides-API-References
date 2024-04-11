@@ -17,7 +17,7 @@ The MathAccentFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathaccentfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathaccentfactory/__init__/#) |  |
 
 ## Methods
 

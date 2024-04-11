@@ -19,8 +19,8 @@ The MathArray type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/matharray/__init__/#IMathElement/) | Creates a mathematical array and places the specified element in it |
-| [__init__](/slides/python-net/aspose.slides.mathtext/matharray/__init__/#Iterable[IMathElement]/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/matharray/__init__/#IMathElement) | Creates a mathematical array and places the specified element in it |
+| [__init__](/slides/python-net/aspose.slides.mathtext/matharray/__init__/#Iterable[IMathElement]) |  |
 
 ## Properties
 

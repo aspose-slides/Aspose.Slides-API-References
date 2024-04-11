@@ -20,7 +20,7 @@ The MathLeftSubSuperscriptElement type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathleftsubsuperscriptelement/__init__/#IMathElement-IMathElement-IMathElement/) | Initializes a new instance of the MathLeftSubSuperscriptElement class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathleftsubsuperscriptelement/__init__/#IMathElement-IMathElement-IMathElement) | Initializes a new instance of the MathLeftSubSuperscriptElement class. |
 
 ## Properties
 

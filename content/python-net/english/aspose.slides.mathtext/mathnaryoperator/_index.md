@@ -21,9 +21,9 @@ The MathNaryOperator type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/__init__/#char-IMathElement-IMathElement-IMathElement/) | Initializes a new instance of the MathNaryOperator class. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/__init__/#char-IMathElement-IMathElement/) | Initializes a new instance of the MathNaryOperator class. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/__init__/#char-IMathElement/) | Initializes a new instance of the MathNaryOperator class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/__init__/#char-IMathElement-IMathElement-IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/__init__/#char-IMathElement-IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/__init__/#char-IMathElement) | Initializes a new instance of the MathNaryOperator class. |
 
 ## Properties
 

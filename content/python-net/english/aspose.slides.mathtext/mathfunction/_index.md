@@ -19,8 +19,8 @@ The MathFunction type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfunction/__init__/#IMathElement-IMathElement/) | Initializes a new instance of the MathFunction class. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfunction/__init__/#string-IMathElement/) | Initializes a new instance of the MathFunction class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathfunction/__init__/#IMathElement-IMathElement) | Initializes a new instance of the MathFunction class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathfunction/__init__/#string-IMathElement) | Initializes a new instance of the MathFunction class. |
 
 ## Properties
 

@@ -37,7 +37,7 @@ def write_as_svg(self, stream, svg_options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | System.IO.Stream | Target stream |
-| svg_options | [`ISVGOptions`]/slides/python-net/aspose.slides.export/isvgoptions |  |
+| svg_options | [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions) |  |
 
 
 

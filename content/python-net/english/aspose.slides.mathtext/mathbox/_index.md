@@ -22,7 +22,7 @@ The MathBox type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathbox/__init__/#IMathElement/) | Initializes MathBox with the specified element as an argument |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathbox/__init__/#IMathElement) | Initializes MathBox with the specified element as an argument |
 
 ## Properties
 

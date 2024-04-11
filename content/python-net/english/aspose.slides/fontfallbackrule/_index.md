@@ -17,8 +17,8 @@ The FontFallBackRule type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontfallbackrule/__init__/#int-int-string/) | Creates new instance. |
-| [__init__](/slides/python-net/aspose.slides/fontfallbackrule/__init__/#int-int-List[string]/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides/fontfallbackrule/__init__/#int-int-string) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides/fontfallbackrule/__init__/#int-int-List[string]) | Creates new instance. |
 
 ## Properties
 

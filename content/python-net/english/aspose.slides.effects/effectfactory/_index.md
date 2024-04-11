@@ -17,7 +17,7 @@ The EffectFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/effectfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.effects/effectfactory/__init__/#) |  |
 
 ## Properties
 

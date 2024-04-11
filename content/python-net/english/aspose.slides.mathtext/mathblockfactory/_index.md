@@ -17,7 +17,7 @@ The MathBlockFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathblockfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathblockfactory/__init__/#) |  |
 
 ## Methods
 

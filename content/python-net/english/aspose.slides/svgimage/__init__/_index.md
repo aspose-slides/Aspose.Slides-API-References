@@ -69,7 +69,7 @@ def __init__(self, data, external_res_resolver, base_uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | data | bytes | Svg data. |
-| external_res_resolver | [`IExternalResourceResolver`]/slides/python-net/aspose.slides.importing/iexternalresourceresolver |  |
+| external_res_resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) |  |
 | base_uri | string |  |
 
 
@@ -87,7 +87,7 @@ def __init__(self, svg_content, external_res_resolver, base_uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | svg_content | string |  |
-| external_res_resolver | [`IExternalResourceResolver`]/slides/python-net/aspose.slides.importing/iexternalresourceresolver |  |
+| external_res_resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) |  |
 | base_uri | string |  |
 
 
@@ -105,7 +105,7 @@ def __init__(self, stream, external_res_resolver, base_uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | System.IO.Stream |  |
-| external_res_resolver | [`IExternalResourceResolver`]/slides/python-net/aspose.slides.importing/iexternalresourceresolver |  |
+| external_res_resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) |  |
 | base_uri | string |  |
 
 

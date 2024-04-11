@@ -17,7 +17,7 @@ The TabFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/tabfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides/tabfactory/__init__/#) |  |
 
 ## Methods
 

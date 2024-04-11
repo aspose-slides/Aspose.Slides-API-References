@@ -21,8 +21,8 @@ The MathFraction type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfraction/__init__/#IMathElement-IMathElement-MathFractionTypes/) | Initializes MathFraction with the specified numerator, denominator and type |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathfraction/__init__/#IMathElement-IMathElement/) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathfraction/__init__/#IMathElement-IMathElement-MathFractionTypes) | Initializes MathFraction with the specified numerator, denominator and type |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathfraction/__init__/#IMathElement-IMathElement) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
 ## Properties
 

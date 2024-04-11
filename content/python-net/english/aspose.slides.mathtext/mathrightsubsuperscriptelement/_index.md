@@ -20,7 +20,7 @@ The MathRightSubSuperscriptElement type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement/__init__/#IMathElement-IMathElement-IMathElement/) | Initializes a new instance of the MathRightSubSuperscriptElement class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement/__init__/#IMathElement-IMathElement-IMathElement) | Initializes a new instance of the MathRightSubSuperscriptElement class. |
 
 ## Properties
 

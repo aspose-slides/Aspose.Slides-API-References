@@ -17,7 +17,7 @@ The ShapeFrame type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/shapeframe/__init__/#float-float-float-float-NullableBool-NullableBool-float/) | Creates new shape frame's properties. |
+| [__init__](/slides/python-net/aspose.slides/shapeframe/__init__/#float-float-float-float-NullableBool-NullableBool-float) | Creates new shape frame's properties. |
 
 ## Properties
 

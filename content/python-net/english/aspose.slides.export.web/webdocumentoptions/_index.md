@@ -17,7 +17,7 @@ The WebDocumentOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/webdocumentoptions/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.export.web/webdocumentoptions/__init__/#) |  |
 
 ## Properties
 

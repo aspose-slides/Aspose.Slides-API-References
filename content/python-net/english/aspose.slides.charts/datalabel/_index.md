@@ -17,7 +17,7 @@ The DataLabel type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.charts/datalabel/__init__/#IChartDataPoint/) | Creates a new instance of DataLabel class. |
+| [__init__](/slides/python-net/aspose.slides.charts/datalabel/__init__/#IChartDataPoint) | Creates a new instance of DataLabel class. |
 
 ## Properties
 

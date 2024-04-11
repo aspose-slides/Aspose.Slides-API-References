@@ -17,7 +17,7 @@ The WebDocument type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/webdocument/__init__/#WebDocumentOptions/) | [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument) constructor. |
+| [__init__](/slides/python-net/aspose.slides.export.web/webdocument/__init__/#WebDocumentOptions) | [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument) constructor. |
 
 ## Properties
 

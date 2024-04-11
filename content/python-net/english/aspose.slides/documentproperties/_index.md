@@ -17,7 +17,7 @@ The DocumentProperties type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/documentproperties/__init__/#/) | Initializes new instance of class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties). |
+| [__init__](/slides/python-net/aspose.slides/documentproperties/__init__/#) | Initializes new instance of class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties). |
 
 ## Properties
 

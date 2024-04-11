@@ -19,7 +19,7 @@ The PptxOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/pptxoptions/__init__/#/) | Creates new instance of PptxOptions |
+| [__init__](/slides/python-net/aspose.slides.export/pptxoptions/__init__/#) | Creates new instance of PptxOptions |
 
 ## Properties
 

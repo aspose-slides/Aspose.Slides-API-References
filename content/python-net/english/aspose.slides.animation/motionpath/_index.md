@@ -17,7 +17,7 @@ The MotionPath type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/motionpath/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.animation/motionpath/__init__/#) |  |
 
 ## Properties
 

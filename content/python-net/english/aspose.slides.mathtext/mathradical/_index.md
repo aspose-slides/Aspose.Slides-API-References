@@ -20,7 +20,7 @@ The MathRadical type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathradical/__init__/#IMathElement-IMathElement/) | Initializes a new instance of the MathRadical class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathradical/__init__/#IMathElement-IMathElement) | Initializes a new instance of the MathRadical class. |
 
 ## Properties
 

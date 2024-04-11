@@ -27,7 +27,7 @@ def export_to_html(self, first_paragraph_index, paragraphs_count, options):
 | :- | :- | :- |
 | first_paragraph_index | int | First paragraph index .NET type System.Int32 |
 | paragraphs_count | int | Paragraph count .NET type System.Int32 |
-| options | [`ITextToHtmlConversionOptions`]/slides/python-net/aspose.slides.export/itexttohtmlconversionoptions | Convert options [`ITextToHtmlConversionOptions`](/slides/python-net/aspose.slides.export/itexttohtmlconversionoptions) |
+| options | [`ITextToHtmlConversionOptions`](/slides/python-net/aspose.slides.export/itexttohtmlconversionoptions) | Convert options [`ITextToHtmlConversionOptions`](/slides/python-net/aspose.slides.export/itexttohtmlconversionoptions) |
 
 
 

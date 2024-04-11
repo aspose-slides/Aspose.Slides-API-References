@@ -19,7 +19,7 @@ The ShapeBevel type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/shapebevel/__init__/#bool/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides/shapebevel/__init__/#bool) | Creates new instance. |
 
 ## Properties
 

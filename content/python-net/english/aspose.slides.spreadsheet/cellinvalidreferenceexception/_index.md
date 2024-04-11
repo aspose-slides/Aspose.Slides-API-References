@@ -19,9 +19,9 @@ The CellInvalidReferenceException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/__init__/#/) | Initializes a new instance of the [`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) class. |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/__init__/#string/) | Initializes a new instance of the [`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) class with a specified error message. |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/__init__/#string-string/) | Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message<br/>            and an invalid cell reference. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/__init__/#) | Initializes a new instance of the [`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) class. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/__init__/#string) | Initializes a new instance of the [`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) class with a specified error message. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/__init__/#string-string) | Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message<br/>            and an invalid cell reference. |
 
 ## Properties
 

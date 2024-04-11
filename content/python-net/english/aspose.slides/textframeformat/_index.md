@@ -19,7 +19,7 @@ The TextFrameFormat type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/textframeformat/__init__/#/) | Initializes a new instance of [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat) class. |
+| [__init__](/slides/python-net/aspose.slides/textframeformat/__init__/#) | Initializes a new instance of [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat) class. |
 
 ## Properties
 

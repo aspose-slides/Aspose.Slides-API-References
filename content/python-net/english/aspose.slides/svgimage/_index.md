@@ -17,12 +17,12 @@ The SvgImage type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#bytes/) | Creates new SvgImage object. |
-| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#string/) | Creates new SvgImage object. |
-| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#System.IO.Stream/) | Creates new SvgImage object. |
-| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#bytes-aspose.slides.importing.IExternalResourceResolver-string/) | Creates new SvgImage object. |
-| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#string-aspose.slides.importing.IExternalResourceResolver-string/) | Creates new SvgImage object. |
-| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#System.IO.Stream-aspose.slides.importing.IExternalResourceResolver-string/) | Creates new SvgImage object. |
+| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#bytes) | Creates new SvgImage object. |
+| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#string) | Creates new SvgImage object. |
+| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#System.IO.Stream) | Creates new SvgImage object. |
+| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#bytes-aspose.slides.importing.IExternalResourceResolver-string) | Creates new SvgImage object. |
+| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#string-aspose.slides.importing.IExternalResourceResolver-string) | Creates new SvgImage object. |
+| [__init__](/slides/python-net/aspose.slides/svgimage/__init__/#System.IO.Stream-aspose.slides.importing.IExternalResourceResolver-string) | Creates new SvgImage object. |
 
 ## Properties
 

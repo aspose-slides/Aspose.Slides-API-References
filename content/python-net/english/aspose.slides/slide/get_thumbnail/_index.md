@@ -63,7 +63,7 @@ def get_thumbnail(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`ITiffOptions`]/slides/python-net/aspose.slides.export/itiffoptions |  |
+| options | [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions) |  |
 
 
 
@@ -84,7 +84,7 @@ def get_thumbnail(self, notes_comments_layouting):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`]/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions |  |
+| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) |  |
 
 
 
@@ -105,7 +105,7 @@ def get_thumbnail(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`]/slides/python-net/aspose.slides.export/irenderingoptions |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
 
 
 
@@ -148,7 +148,7 @@ def get_thumbnail(self, notes_comments_layouting, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`]/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions |  |
+| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) |  |
 | image_size | aspose.pydrawing.Size |  |
 
 
@@ -170,7 +170,7 @@ def get_thumbnail(self, options, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`]/slides/python-net/aspose.slides.export/irenderingoptions |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
 | image_size | aspose.pydrawing.Size |  |
 
 
@@ -192,7 +192,7 @@ def get_thumbnail(self, notes_comments_layouting, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`]/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions |  |
+| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) |  |
 | scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
@@ -215,7 +215,7 @@ def get_thumbnail(self, options, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`]/slides/python-net/aspose.slides.export/irenderingoptions |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
 | scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
 

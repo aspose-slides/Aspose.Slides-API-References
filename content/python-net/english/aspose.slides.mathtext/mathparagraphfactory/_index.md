@@ -17,7 +17,7 @@ The MathParagraphFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/__init__/#) |  |
 
 ## Methods
 

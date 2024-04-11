@@ -68,7 +68,7 @@ def add_from_pdf(self, path, pdf_import_options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | path | string | A path to the PDF document |
-| pdf_import_options | [`PdfImportOptions`]/slides/python-net/aspose.slides.importing/pdfimportoptions |  |
+| pdf_import_options | [`PdfImportOptions`](/slides/python-net/aspose.slides.importing/pdfimportoptions) |  |
 
 
 
@@ -90,7 +90,7 @@ def add_from_pdf(self, pdf_stream, pdf_import_options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | pdf_stream | System.IO.Stream |  |
-| pdf_import_options | [`PdfImportOptions`]/slides/python-net/aspose.slides.importing/pdfimportoptions |  |
+| pdf_import_options | [`PdfImportOptions`](/slides/python-net/aspose.slides.importing/pdfimportoptions) |  |
 
 
 

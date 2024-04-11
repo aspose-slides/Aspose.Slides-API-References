@@ -17,8 +17,8 @@ The MathParagraph type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraph/__init__/#/) | Initializes a new instance of the MathParagraph class. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraph/__init__/#IMathBlock/) | Initializes a new instance of the MathParagraph class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraph/__init__/#) | Initializes a new instance of the MathParagraph class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathparagraph/__init__/#IMathBlock) | Initializes a new instance of the MathParagraph class. |
 
 ## Properties
 

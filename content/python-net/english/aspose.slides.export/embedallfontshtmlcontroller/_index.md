@@ -17,8 +17,8 @@ The EmbedAllFontsHtmlController type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/__init__/#/) | Creates new instance |
-| [__init__](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/__init__/#List[string]/) | Creates new instance |
+| [__init__](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/__init__/#) | Creates new instance |
+| [__init__](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/__init__/#List[string]) | Creates new instance |
 
 ## Methods
 

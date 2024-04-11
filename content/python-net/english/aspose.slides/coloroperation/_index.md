@@ -18,8 +18,8 @@ The ColorOperation type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/coloroperation/__init__/#ColorTransformOperation/) | Creates new color transform operation. |
-| [__init__](/slides/python-net/aspose.slides/coloroperation/__init__/#ColorTransformOperation-float/) | Creates new color transform operation. |
+| [__init__](/slides/python-net/aspose.slides/coloroperation/__init__/#ColorTransformOperation) | Creates new color transform operation. |
+| [__init__](/slides/python-net/aspose.slides/coloroperation/__init__/#ColorTransformOperation-float) | Creates new color transform operation. |
 
 ## Properties
 

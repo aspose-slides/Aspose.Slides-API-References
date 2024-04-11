@@ -17,7 +17,7 @@ The MathBoxFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathboxfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathboxfactory/__init__/#) |  |
 
 ## Methods
 

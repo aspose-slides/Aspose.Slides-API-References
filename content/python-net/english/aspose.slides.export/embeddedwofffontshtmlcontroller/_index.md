@@ -17,8 +17,8 @@ The EmbeddedWoffFontsHtmlController type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#/) | Creates new instance. |
-| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#IHtmlFormattingController/) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#) | Creates new instance. |
+| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#IHtmlFormattingController) | Creates new instance. |
 
 ## Properties
 

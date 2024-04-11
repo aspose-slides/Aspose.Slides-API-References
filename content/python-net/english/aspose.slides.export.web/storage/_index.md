@@ -17,7 +17,7 @@ The Storage type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/storage/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.export.web/storage/__init__/#) |  |
 
 ## Methods
 

@@ -17,7 +17,7 @@ The TextHighlightingOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/texthighlightingoptions/__init__/#/) | Creates new default text highlighting options. |
+| [__init__](/slides/python-net/aspose.slides/texthighlightingoptions/__init__/#) | Creates new default text highlighting options. |
 
 ## Properties
 

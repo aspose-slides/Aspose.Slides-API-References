@@ -19,7 +19,7 @@ The Html5Options type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/html5options/__init__/#/) | Default constructor. |
+| [__init__](/slides/python-net/aspose.slides.export/html5options/__init__/#) | Default constructor. |
 
 ## Properties
 

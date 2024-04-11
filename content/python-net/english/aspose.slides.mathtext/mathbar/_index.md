@@ -19,8 +19,8 @@ The MathBar type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathbar/__init__/#IMathElement/) | Initializes MathBar with overbar (Top position) |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathbar/__init__/#IMathElement-MathTopBotPositions/) | Initializes MathBar with specified position |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathbar/__init__/#IMathElement) | Initializes MathBar with overbar (Top position) |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathbar/__init__/#IMathElement-MathTopBotPositions) | Initializes MathBar with specified position |
 
 ## Properties
 

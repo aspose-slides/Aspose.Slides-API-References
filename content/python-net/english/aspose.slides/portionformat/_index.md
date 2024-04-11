@@ -19,7 +19,7 @@ The PortionFormat type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/portionformat/__init__/#/) | Initializes a new instance of [`PortionFormat`](/slides/python-net/aspose.slides/portionformat) class. |
+| [__init__](/slides/python-net/aspose.slides/portionformat/__init__/#) | Initializes a new instance of [`PortionFormat`](/slides/python-net/aspose.slides/portionformat) class. |
 
 ## Properties
 

@@ -20,9 +20,9 @@ The MathBlock type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#/) | Initializes a new instance of the MathBlock class. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#IMathElement/) | Creates a new mathematical block and puts specified element in it |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#Iterable[IMathElement]/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#) | Initializes a new instance of the MathBlock class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#IMathElement) | Creates a new mathematical block and puts specified element in it |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#Iterable[IMathElement]) |  |
 
 ## Properties
 

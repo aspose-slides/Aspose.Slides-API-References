@@ -20,7 +20,7 @@ def save(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IXamlOptions`]/slides/python-net/aspose.slides.export.xaml/ixamloptions |  |
+| options | [`IXamlOptions`](/slides/python-net/aspose.slides.export.xaml/ixamloptions) |  |
 
 
 
@@ -72,7 +72,7 @@ def save(self, fname, format, options):
 | :- | :- | :- |
 | fname | string | Path to the created file. |
 | format | aspose.slides.export.SaveFormat | Format of the exported data. |
-| options | [`ISaveOptions`]/slides/python-net/aspose.slides.export/isaveoptions |  |
+| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) |  |
 
 
 
@@ -90,7 +90,7 @@ def save(self, stream, format, options):
 | :- | :- | :- |
 | stream | System.IO.Stream |  |
 | format | aspose.slides.export.SaveFormat | Format of the exported data. |
-| options | [`ISaveOptions`]/slides/python-net/aspose.slides.export/isaveoptions |  |
+| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) |  |
 
 
 
@@ -145,7 +145,7 @@ def save(self, fname, slides, format, options):
 | fname | string | Path to the created file. |
 | slides | List[int] |  |
 | format | aspose.slides.export.SaveFormat | Format of the exported data. |
-| options | [`ISaveOptions`]/slides/python-net/aspose.slides.export/isaveoptions |  |
+| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) |  |
 
 
 
@@ -164,7 +164,7 @@ def save(self, stream, slides, format, options):
 | stream | System.IO.Stream |  |
 | slides | List[int] |  |
 | format | aspose.slides.export.SaveFormat | Format of the exported data. |
-| options | [`ISaveOptions`]/slides/python-net/aspose.slides.export/isaveoptions |  |
+| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) |  |
 
 
 

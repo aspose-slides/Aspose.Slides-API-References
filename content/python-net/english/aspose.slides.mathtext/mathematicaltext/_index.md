@@ -19,10 +19,10 @@ The MathematicalText type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#/) | Default constructor (create String.Empty Value) |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#char/) | Create MathText with single symbol |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#string/) | Create MathematicalText from text |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#string-IPortionFormat/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#) | Default constructor (create String.Empty Value) |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#char) | Create MathText with single symbol |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#string) | Create MathematicalText from text |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#string-IPortionFormat) |  |
 
 ## Properties
 

@@ -20,7 +20,7 @@ The MathSubscriptElement type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathsubscriptelement/__init__/#IMathElement-IMathElement/) | Initializes a new instance of the MathSubscriptElement class. |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathsubscriptelement/__init__/#IMathElement-IMathElement) | Initializes a new instance of the MathSubscriptElement class. |
 
 ## Properties
 

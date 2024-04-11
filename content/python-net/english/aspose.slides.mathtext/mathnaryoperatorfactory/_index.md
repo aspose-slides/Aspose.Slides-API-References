@@ -17,7 +17,7 @@ The MathNaryOperatorFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperatorfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathnaryoperatorfactory/__init__/#) |  |
 
 ## Methods
 

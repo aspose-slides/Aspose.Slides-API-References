@@ -17,7 +17,7 @@ The FontFallBackRulesCollection type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontfallbackrulescollection/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides/fontfallbackrulescollection/__init__/#) |  |
 
 ## Properties
 

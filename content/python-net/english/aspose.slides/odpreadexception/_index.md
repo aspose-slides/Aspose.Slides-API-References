@@ -19,6 +19,6 @@ The OdpReadException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/odpreadexception/__init__/#/) | Default constructor |
-| [__init__](/slides/python-net/aspose.slides/odpreadexception/__init__/#string/) | Constructor allowing a message to be added to this exception. |
+| [__init__](/slides/python-net/aspose.slides/odpreadexception/__init__/#) | Default constructor |
+| [__init__](/slides/python-net/aspose.slides/odpreadexception/__init__/#string) | Constructor allowing a message to be added to this exception. |
 

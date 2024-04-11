@@ -21,7 +21,7 @@ The MathDelimiter type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathdelimiter/__init__/#IMathElement/) | Initializes MathDelimiter with the specified element as single base argument |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathdelimiter/__init__/#IMathElement) | Initializes MathDelimiter with the specified element as single base argument |
 
 ## Properties
 

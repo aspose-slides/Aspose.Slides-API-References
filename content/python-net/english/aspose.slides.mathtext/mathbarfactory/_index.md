@@ -17,7 +17,7 @@ The MathBarFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathbarfactory/__init__/#/) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathbarfactory/__init__/#) |  |
 
 ## Methods
 
