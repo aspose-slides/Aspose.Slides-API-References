@@ -35,59 +35,59 @@ The IMathMatrix type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [join](/slides/python-net/aspose.slides.mathtext/imathmatrix/join/#IMathElement/) |  |
-| [join](/slides/python-net/aspose.slides.mathtext/imathmatrix/join/#string/) |  |
-| [divide](/slides/python-net/aspose.slides.mathtext/imathmatrix/divide/#IMathElement/) |  |
-| [divide](/slides/python-net/aspose.slides.mathtext/imathmatrix/divide/#string/) |  |
-| [divide](/slides/python-net/aspose.slides.mathtext/imathmatrix/divide/#IMathElement-MathFractionTypes/) |  |
-| [divide](/slides/python-net/aspose.slides.mathtext/imathmatrix/divide/#string-MathFractionTypes/) |  |
-| [enclose](/slides/python-net/aspose.slides.mathtext/imathmatrix/enclose/#/) |  |
-| [enclose](/slides/python-net/aspose.slides.mathtext/imathmatrix/enclose/#char-char/) |  |
-| [function](/slides/python-net/aspose.slides.mathtext/imathmatrix/function/#IMathElement/) |  |
-| [function](/slides/python-net/aspose.slides.mathtext/imathmatrix/function/#string/) |  |
-| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#IMathElement/) |  |
-| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#string/) |  |
-| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#MathFunctionsOfOneArgument/) |  |
-| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#MathFunctionsOfTwoArguments-IMathElement/) |  |
-| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#MathFunctionsOfTwoArguments-string/) |  |
-| [set_subscript](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_subscript/#IMathElement/) |  |
-| [set_subscript](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_subscript/#string/) |  |
-| [set_superscript](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_superscript/#IMathElement/) |  |
-| [set_superscript](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_superscript/#string/) |  |
-| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_sub_superscript_on_the_right/#IMathElement-IMathElement/) |  |
-| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_sub_superscript_on_the_right/#string-string/) |  |
-| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_sub_superscript_on_the_left/#IMathElement-IMathElement/) |  |
-| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_sub_superscript_on_the_left/#string-string/) |  |
-| [radical](/slides/python-net/aspose.slides.mathtext/imathmatrix/radical/#IMathElement/) |  |
-| [radical](/slides/python-net/aspose.slides.mathtext/imathmatrix/radical/#string/) |  |
-| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_upper_limit/#IMathElement/) |  |
-| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_upper_limit/#string/) |  |
-| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_lower_limit/#IMathElement/) |  |
-| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_lower_limit/#string/) |  |
-| [nary](/slides/python-net/aspose.slides.mathtext/imathmatrix/nary/#MathNaryOperatorTypes-IMathElement-IMathElement/) |  |
-| [nary](/slides/python-net/aspose.slides.mathtext/imathmatrix/nary/#MathNaryOperatorTypes-string-string/) |  |
-| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes-IMathElement-IMathElement-MathLimitLocations/) |  |
-| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes-IMathElement-IMathElement/) |  |
-| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes/) |  |
-| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes-string-string-MathLimitLocations/) |  |
-| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes-string-string/) |  |
-| [group](/slides/python-net/aspose.slides.mathtext/imathmatrix/group/#/) |  |
-| [group](/slides/python-net/aspose.slides.mathtext/imathmatrix/group/#char-MathTopBotPositions-MathTopBotPositions/) |  |
-| [to_border_box](/slides/python-net/aspose.slides.mathtext/imathmatrix/to_border_box/#/) |  |
-| [to_border_box](/slides/python-net/aspose.slides.mathtext/imathmatrix/to_border_box/#bool-bool-bool-bool-bool-bool-bool-bool/) |  |
-| [get_column_alignment](/slides/python-net/aspose.slides.mathtext/imathmatrix/get_column_alignment/#int/) | Get the horizontal alignment of the specified column |
-| [set_column_alignment](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_column_alignment/#int-MathHorizontalAlignment/) | Set the horizontal alignment of the specified column |
-| [set_columns_alignment](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_columns_alignment/#int-int-MathHorizontalAlignment/) | Set the horizontal alignment of the specified columns |
-| [insert_row_before](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_row_before/#int/) | Insert a new row before the specified one<br/>            Initially all elements in the new row are null. |
-| [insert_row_after](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_row_after/#int/) | Insert a new row after the specified one<br/>            Initially all elements in the new row are null. |
-| [delete_row](/slides/python-net/aspose.slides.mathtext/imathmatrix/delete_row/#int/) | Deletes the specified row |
-| [insert_column_before](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_column_before/#int/) | Insert a new column before the specified one<br/>            Initially all elements in the new column are null. |
-| [insert_column_after](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_column_after/#int/) | Insert a new column after the specified one<br/>            Initially all elements in the new column are null. |
-| [delete_column](/slides/python-net/aspose.slides.mathtext/imathmatrix/delete_column/#int/) | Deletes the specified column |
-| [get_children](/slides/python-net/aspose.slides.mathtext/imathmatrix/get_children/#/) |  |
-| [to_math_array](/slides/python-net/aspose.slides.mathtext/imathmatrix/to_math_array/#/) |  |
-| [accent](/slides/python-net/aspose.slides.mathtext/imathmatrix/accent/#char/) |  |
-| [overbar](/slides/python-net/aspose.slides.mathtext/imathmatrix/overbar/#/) |  |
-| [underbar](/slides/python-net/aspose.slides.mathtext/imathmatrix/underbar/#/) |  |
-| [to_box](/slides/python-net/aspose.slides.mathtext/imathmatrix/to_box/#/) |  |
+| [join](/slides/python-net/aspose.slides.mathtext/imathmatrix/join/#IMathElement) |  |
+| [join](/slides/python-net/aspose.slides.mathtext/imathmatrix/join/#string) |  |
+| [divide](/slides/python-net/aspose.slides.mathtext/imathmatrix/divide/#IMathElement) |  |
+| [divide](/slides/python-net/aspose.slides.mathtext/imathmatrix/divide/#string) |  |
+| [divide](/slides/python-net/aspose.slides.mathtext/imathmatrix/divide/#IMathElement-MathFractionTypes) |  |
+| [divide](/slides/python-net/aspose.slides.mathtext/imathmatrix/divide/#string-MathFractionTypes) |  |
+| [enclose](/slides/python-net/aspose.slides.mathtext/imathmatrix/enclose/#) |  |
+| [enclose](/slides/python-net/aspose.slides.mathtext/imathmatrix/enclose/#char-char) |  |
+| [function](/slides/python-net/aspose.slides.mathtext/imathmatrix/function/#IMathElement) |  |
+| [function](/slides/python-net/aspose.slides.mathtext/imathmatrix/function/#string) |  |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#IMathElement) |  |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#string) |  |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#MathFunctionsOfOneArgument) |  |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#MathFunctionsOfTwoArguments-IMathElement) |  |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_argument_of_function/#MathFunctionsOfTwoArguments-string) |  |
+| [set_subscript](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_subscript/#IMathElement) |  |
+| [set_subscript](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_subscript/#string) |  |
+| [set_superscript](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_superscript/#IMathElement) |  |
+| [set_superscript](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_superscript/#string) |  |
+| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_sub_superscript_on_the_right/#IMathElement-IMathElement) |  |
+| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_sub_superscript_on_the_right/#string-string) |  |
+| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_sub_superscript_on_the_left/#IMathElement-IMathElement) |  |
+| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_sub_superscript_on_the_left/#string-string) |  |
+| [radical](/slides/python-net/aspose.slides.mathtext/imathmatrix/radical/#IMathElement) |  |
+| [radical](/slides/python-net/aspose.slides.mathtext/imathmatrix/radical/#string) |  |
+| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_upper_limit/#IMathElement) |  |
+| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_upper_limit/#string) |  |
+| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_lower_limit/#IMathElement) |  |
+| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_lower_limit/#string) |  |
+| [nary](/slides/python-net/aspose.slides.mathtext/imathmatrix/nary/#MathNaryOperatorTypes-IMathElement-IMathElement) |  |
+| [nary](/slides/python-net/aspose.slides.mathtext/imathmatrix/nary/#MathNaryOperatorTypes-string-string) |  |
+| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes-IMathElement-IMathElement-MathLimitLocations) |  |
+| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes-IMathElement-IMathElement) |  |
+| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes) |  |
+| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes-string-string-MathLimitLocations) |  |
+| [integral](/slides/python-net/aspose.slides.mathtext/imathmatrix/integral/#MathIntegralTypes-string-string) |  |
+| [group](/slides/python-net/aspose.slides.mathtext/imathmatrix/group/#) |  |
+| [group](/slides/python-net/aspose.slides.mathtext/imathmatrix/group/#char-MathTopBotPositions-MathTopBotPositions) |  |
+| [to_border_box](/slides/python-net/aspose.slides.mathtext/imathmatrix/to_border_box/#) |  |
+| [to_border_box](/slides/python-net/aspose.slides.mathtext/imathmatrix/to_border_box/#bool-bool-bool-bool-bool-bool-bool-bool) |  |
+| [get_column_alignment](/slides/python-net/aspose.slides.mathtext/imathmatrix/get_column_alignment/#int) | Get the horizontal alignment of the specified column |
+| [set_column_alignment](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_column_alignment/#int-MathHorizontalAlignment) | Set the horizontal alignment of the specified column |
+| [set_columns_alignment](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_columns_alignment/#int-int-MathHorizontalAlignment) | Set the horizontal alignment of the specified columns |
+| [insert_row_before](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_row_before/#int) | Insert a new row before the specified one<br/>            Initially all elements in the new row are null. |
+| [insert_row_after](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_row_after/#int) | Insert a new row after the specified one<br/>            Initially all elements in the new row are null. |
+| [delete_row](/slides/python-net/aspose.slides.mathtext/imathmatrix/delete_row/#int) | Deletes the specified row |
+| [insert_column_before](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_column_before/#int) | Insert a new column before the specified one<br/>            Initially all elements in the new column are null. |
+| [insert_column_after](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_column_after/#int) | Insert a new column after the specified one<br/>            Initially all elements in the new column are null. |
+| [delete_column](/slides/python-net/aspose.slides.mathtext/imathmatrix/delete_column/#int) | Deletes the specified column |
+| [get_children](/slides/python-net/aspose.slides.mathtext/imathmatrix/get_children/#) |  |
+| [to_math_array](/slides/python-net/aspose.slides.mathtext/imathmatrix/to_math_array/#) |  |
+| [accent](/slides/python-net/aspose.slides.mathtext/imathmatrix/accent/#char) |  |
+| [overbar](/slides/python-net/aspose.slides.mathtext/imathmatrix/overbar/#) |  |
+| [underbar](/slides/python-net/aspose.slides.mathtext/imathmatrix/underbar/#) |  |
+| [to_box](/slides/python-net/aspose.slides.mathtext/imathmatrix/to_box/#) |  |
 

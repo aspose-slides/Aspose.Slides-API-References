@@ -25,5 +25,5 @@ The IAlphaCeiling type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ialphaceiling/get_effective/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ialphaceiling/get_effective/#) |  |
 

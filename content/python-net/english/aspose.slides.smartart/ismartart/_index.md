@@ -66,11 +66,11 @@ The ISmartArt type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides.smartart/ismartart/get_thumbnail/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides.smartart/ismartart/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides.smartart/ismartart/write_as_svg/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides.smartart/ismartart/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides.smartart/ismartart/add_placeholder/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides.smartart/ismartart/remove_placeholder/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides.smartart/ismartart/get_base_placeholder/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides.smartart/ismartart/get_thumbnail/#) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides.smartart/ismartart/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides.smartart/ismartart/write_as_svg/#System.IO.Stream) |  |
+| [write_as_svg](/slides/python-net/aspose.slides.smartart/ismartart/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
+| [add_placeholder](/slides/python-net/aspose.slides.smartart/ismartart/add_placeholder/#IPlaceholder) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides.smartart/ismartart/remove_placeholder/#) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides.smartart/ismartart/get_base_placeholder/#) |  |
 

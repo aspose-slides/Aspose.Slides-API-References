@@ -23,7 +23,7 @@ The Metered type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_metered_key](/slides/python-net/aspose.slides/metered/set_metered_key/#string-string/) | Sets metered public and private key |
-| [get_consumption_quantity](/slides/python-net/aspose.slides/metered/get_consumption_quantity/#/) | Gets consumption file size |
-| [get_consumption_credit](/slides/python-net/aspose.slides/metered/get_consumption_credit/#/) | Gets consumption credit |
+| [set_metered_key](/slides/python-net/aspose.slides/metered/set_metered_key/#string-string) | Sets metered public and private key |
+| [get_consumption_quantity](/slides/python-net/aspose.slides/metered/get_consumption_quantity/#) | Gets consumption file size |
+| [get_consumption_credit](/slides/python-net/aspose.slides/metered/get_consumption_credit/#) | Gets consumption credit |
 

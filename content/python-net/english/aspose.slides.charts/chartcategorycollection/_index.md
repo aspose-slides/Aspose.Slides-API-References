@@ -32,10 +32,10 @@ The ChartCategoryCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.charts/chartcategorycollection/add/#IChartDataCell/) | If category exists in collection, return it. Else creates new chart category from <br/>            [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection. |
-| [add](/slides/python-net/aspose.slides.charts/chartcategorycollection/add/#any/) | Creates new [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory) from value and adds it to the collection. |
-| [index_of](/slides/python-net/aspose.slides.charts/chartcategorycollection/index_of/#IChartCategory/) | Searches for the specified [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory) and returns the zero-based index of the first occurrence within the entire Collection. |
-| [remove](/slides/python-net/aspose.slides.charts/chartcategorycollection/remove/#IChartCategory/) | Removes the specified value. |
-| [remove_at](/slides/python-net/aspose.slides.charts/chartcategorycollection/remove_at/#int/) | Removes the element at the given index. |
-| [clear](/slides/python-net/aspose.slides.charts/chartcategorycollection/clear/#/) | Removes all elements from the collection. |
+| [add](/slides/python-net/aspose.slides.charts/chartcategorycollection/add/#IChartDataCell) | If category exists in collection, return it. Else creates new chart category from <br/>            [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection. |
+| [add](/slides/python-net/aspose.slides.charts/chartcategorycollection/add/#any) | Creates new [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory) from value and adds it to the collection. |
+| [index_of](/slides/python-net/aspose.slides.charts/chartcategorycollection/index_of/#IChartCategory) | Searches for the specified [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory) and returns the zero-based index of the first occurrence within the entire Collection. |
+| [remove](/slides/python-net/aspose.slides.charts/chartcategorycollection/remove/#IChartCategory) | Removes the specified value. |
+| [remove_at](/slides/python-net/aspose.slides.charts/chartcategorycollection/remove_at/#int) | Removes the element at the given index. |
+| [clear](/slides/python-net/aspose.slides.charts/chartcategorycollection/clear/#) | Removes all elements from the collection. |
 

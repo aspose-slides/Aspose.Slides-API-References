@@ -49,5 +49,5 @@ The TextFrameFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/textframeformat/get_effective/#/) | Gets effective text frame formatting data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides/textframeformat/get_effective/#) | Gets effective text frame formatting data with the inheritance applied. |
 

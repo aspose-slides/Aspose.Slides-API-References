@@ -23,8 +23,8 @@ The MathBorderBoxFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_border_box](/slides/python-net/aspose.slides.mathtext/mathborderboxfactory/create_math_border_box/#IMathElement/) | Create a math border box by applying to the element |
-| [create_math_border_box](/slides/python-net/aspose.slides.mathtext/mathborderboxfactory/create_math_border_box/#IMathElement-bool-bool-bool-bool-bool-bool-bool-bool/) | Create a math border box by applying to the element |
+| [create_math_border_box](/slides/python-net/aspose.slides.mathtext/mathborderboxfactory/create_math_border_box/#IMathElement) | Create a math border box by applying to the element |
+| [create_math_border_box](/slides/python-net/aspose.slides.mathtext/mathborderboxfactory/create_math_border_box/#IMathElement-bool-bool-bool-bool-bool-bool-bool-bool) | Create a math border box by applying to the element |
 
 
 ### Remarks

@@ -17,8 +17,8 @@ The IMathBarFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_bar](/slides/python-net/aspose.slides.mathtext/imathbarfactory/create_math_bar/#IMathElement/) | Create a math bar by applying to the element |
-| [create_math_bar](/slides/python-net/aspose.slides.mathtext/imathbarfactory/create_math_bar/#IMathElement-MathTopBotPositions/) | Create a math bar by applying to the element |
+| [create_math_bar](/slides/python-net/aspose.slides.mathtext/imathbarfactory/create_math_bar/#IMathElement) | Create a math bar by applying to the element |
+| [create_math_bar](/slides/python-net/aspose.slides.mathtext/imathbarfactory/create_math_bar/#IMathElement-MathTopBotPositions) | Create a math bar by applying to the element |
 
 
 ### Remarks

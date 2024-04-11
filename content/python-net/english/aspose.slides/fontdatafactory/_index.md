@@ -23,5 +23,5 @@ The FontDataFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_font_data](/slides/python-net/aspose.slides/fontdatafactory/create_font_data/#string/) | Creates FontData with specified font name. |
+| [create_font_data](/slides/python-net/aspose.slides/fontdatafactory/create_font_data/#string) | Creates FontData with specified font name. |
 

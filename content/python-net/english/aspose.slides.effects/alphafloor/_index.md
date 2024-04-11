@@ -30,5 +30,5 @@ The AlphaFloor type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/alphafloor/get_effective/#/) | Gets effective Alpha Floor effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/alphafloor/get_effective/#) | Gets effective Alpha Floor effect data with the inheritance applied. |
 

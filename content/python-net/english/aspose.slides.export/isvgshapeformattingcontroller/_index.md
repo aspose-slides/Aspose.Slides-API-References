@@ -17,5 +17,5 @@ The ISvgShapeFormattingController type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [format_shape](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller/format_shape/#ISvgShape-IShape/) |  |
+| [format_shape](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller/format_shape/#ISvgShape-IShape) |  |
 

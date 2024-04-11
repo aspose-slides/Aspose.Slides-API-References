@@ -23,7 +23,7 @@ The MathSuperscriptElementFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_superscript_element](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelementfactory/create_math_superscript_element/#IMathElement-IMathElement/) | Creates IMathSuperscriptElement |
+| [create_math_superscript_element](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelementfactory/create_math_superscript_element/#IMathElement-IMathElement) | Creates IMathSuperscriptElement |
 
 
 ### Remarks

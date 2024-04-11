@@ -23,5 +23,5 @@ The ITableFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/itableformat/get_effective/#/) | Gets effective table formatting properties with inheritance and table styles applied. |
+| [get_effective](/slides/python-net/aspose.slides/itableformat/get_effective/#) | Gets effective table formatting properties with inheritance and table styles applied. |
 

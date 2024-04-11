@@ -33,5 +33,5 @@ The IThreeDFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/ithreedformat/get_effective/#/) | Gets effective 3-D formatting data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides/ithreedformat/get_effective/#) | Gets effective 3-D formatting data with the inheritance applied. |
 

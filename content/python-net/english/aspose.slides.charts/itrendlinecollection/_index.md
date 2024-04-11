@@ -30,6 +30,6 @@ The ITrendlineCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.charts/itrendlinecollection/add/#TrendlineType/) | Adds the new Trendline at the end of a collection and return it. |
-| [remove](/slides/python-net/aspose.slides.charts/itrendlinecollection/remove/#ITrendline/) | Removes the specified value. |
+| [add](/slides/python-net/aspose.slides.charts/itrendlinecollection/add/#TrendlineType) | Adds the new Trendline at the end of a collection and return it. |
+| [remove](/slides/python-net/aspose.slides.charts/itrendlinecollection/remove/#ITrendline) | Removes the specified value. |
 

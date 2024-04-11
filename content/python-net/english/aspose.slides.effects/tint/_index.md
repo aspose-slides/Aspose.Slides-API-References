@@ -29,5 +29,5 @@ The Tint type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/tint/get_effective/#/) | Gets effective Tint effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/tint/get_effective/#) | Gets effective Tint effect data with the inheritance applied. |
 

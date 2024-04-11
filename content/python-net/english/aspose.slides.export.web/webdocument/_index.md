@@ -30,5 +30,5 @@ The WebDocument type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [save](/slides/python-net/aspose.slides.export.web/webdocument/save/#/) | Saves the document output. |
+| [save](/slides/python-net/aspose.slides.export.web/webdocument/save/#) | Saves the document output. |
 

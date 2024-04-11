@@ -24,5 +24,5 @@ The IHSL type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ihsl/get_effective/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ihsl/get_effective/#) |  |
 

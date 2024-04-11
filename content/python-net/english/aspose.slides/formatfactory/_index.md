@@ -29,7 +29,7 @@ The FormatFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_portion_format](/slides/python-net/aspose.slides/formatfactory/create_portion_format/#/) | Creates new [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat). |
-| [create_paragraph_format](/slides/python-net/aspose.slides/formatfactory/create_paragraph_format/#/) | Creates new [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat). |
-| [create_text_frame_format](/slides/python-net/aspose.slides/formatfactory/create_text_frame_format/#/) | Creates new [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat). |
+| [create_portion_format](/slides/python-net/aspose.slides/formatfactory/create_portion_format/#) | Creates new [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat). |
+| [create_paragraph_format](/slides/python-net/aspose.slides/formatfactory/create_paragraph_format/#) | Creates new [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat). |
+| [create_text_frame_format](/slides/python-net/aspose.slides/formatfactory/create_text_frame_format/#) | Creates new [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat). |
 

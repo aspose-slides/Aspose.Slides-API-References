@@ -72,15 +72,15 @@ The ITable type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/itable/get_thumbnail/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/itable/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/itable/write_as_svg/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/itable/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [set_text_format](/slides/python-net/aspose.slides/itable/set_text_format/#IPortionFormat/) |  |
-| [set_text_format](/slides/python-net/aspose.slides/itable/set_text_format/#IParagraphFormat/) |  |
-| [set_text_format](/slides/python-net/aspose.slides/itable/set_text_format/#ITextFrameFormat/) |  |
-| [merge_cells](/slides/python-net/aspose.slides/itable/merge_cells/#ICell-ICell-bool/) | Merges neighbour cells. |
-| [add_placeholder](/slides/python-net/aspose.slides/itable/add_placeholder/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/itable/remove_placeholder/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/itable/get_base_placeholder/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/itable/get_thumbnail/#) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/itable/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/itable/write_as_svg/#System.IO.Stream) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/itable/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
+| [set_text_format](/slides/python-net/aspose.slides/itable/set_text_format/#IPortionFormat) |  |
+| [set_text_format](/slides/python-net/aspose.slides/itable/set_text_format/#IParagraphFormat) |  |
+| [set_text_format](/slides/python-net/aspose.slides/itable/set_text_format/#ITextFrameFormat) |  |
+| [merge_cells](/slides/python-net/aspose.slides/itable/merge_cells/#ICell-ICell-bool) | Merges neighbour cells. |
+| [add_placeholder](/slides/python-net/aspose.slides/itable/add_placeholder/#IPlaceholder) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/itable/remove_placeholder/#) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/itable/get_base_placeholder/#) |  |
 

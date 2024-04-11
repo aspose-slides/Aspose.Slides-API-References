@@ -36,6 +36,6 @@ The FontFallBackRulesCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/fontfallbackrulescollection/add/#IFontFallBackRule/) | Add a specified FallBack rule to the end of the collection. |
-| [remove](/slides/python-net/aspose.slides/fontfallbackrulescollection/remove/#IFontFallBackRule/) | Removes the first occurrence of a specific FallBack rule from the collection. |
+| [add](/slides/python-net/aspose.slides/fontfallbackrulescollection/add/#IFontFallBackRule) | Add a specified FallBack rule to the end of the collection. |
+| [remove](/slides/python-net/aspose.slides/fontfallbackrulescollection/remove/#IFontFallBackRule) | Removes the first occurrence of a specific FallBack rule from the collection. |
 

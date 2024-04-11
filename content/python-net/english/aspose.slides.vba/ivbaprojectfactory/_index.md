@@ -17,6 +17,6 @@ The IVbaProjectFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_vba_project](/slides/python-net/aspose.slides.vba/ivbaprojectfactory/create_vba_project/#/) | Creates new VBA project. |
-| [read_vba_project](/slides/python-net/aspose.slides.vba/ivbaprojectfactory/read_vba_project/#bytes/) | Reads VBA project from OLE container. |
+| [create_vba_project](/slides/python-net/aspose.slides.vba/ivbaprojectfactory/create_vba_project/#) | Creates new VBA project. |
+| [read_vba_project](/slides/python-net/aspose.slides.vba/ivbaprojectfactory/read_vba_project/#bytes) | Reads VBA project from OLE container. |
 

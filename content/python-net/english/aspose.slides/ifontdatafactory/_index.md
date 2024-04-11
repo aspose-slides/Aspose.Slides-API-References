@@ -17,5 +17,5 @@ The IFontDataFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_font_data](/slides/python-net/aspose.slides/ifontdatafactory/create_font_data/#string/) | Creates FontData with specified font name. |
+| [create_font_data](/slides/python-net/aspose.slides/ifontdatafactory/create_font_data/#string) | Creates FontData with specified font name. |
 

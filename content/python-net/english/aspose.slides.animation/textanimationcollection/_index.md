@@ -36,5 +36,5 @@ The TextAnimationCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.animation/textanimationcollection/add/#/) | Adds new text animation to the collection. |
+| [add](/slides/python-net/aspose.slides.animation/textanimationcollection/add/#) | Adds new text animation to the collection. |
 

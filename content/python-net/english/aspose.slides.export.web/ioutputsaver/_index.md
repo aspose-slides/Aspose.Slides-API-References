@@ -17,5 +17,5 @@ The IOutputSaver type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [save](/slides/python-net/aspose.slides.export.web/ioutputsaver/save/#string-IOutputFile/) | Saves the output file to the given path. |
+| [save](/slides/python-net/aspose.slides.export.web/ioutputsaver/save/#string-IOutputFile) | Saves the output file to the given path. |
 

@@ -17,9 +17,9 @@ The IPortionFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_portion](/slides/python-net/aspose.slides/iportionfactory/create_portion/#/) | Creates an empty text portion. |
-| [create_portion](/slides/python-net/aspose.slides/iportionfactory/create_portion/#string/) | Creates a text portion from specified string. |
-| [create_portion](/slides/python-net/aspose.slides/iportionfactory/create_portion/#IPortion/) | Creates a portion with the using of a specified portion data. |
+| [create_portion](/slides/python-net/aspose.slides/iportionfactory/create_portion/#) | Creates an empty text portion. |
+| [create_portion](/slides/python-net/aspose.slides/iportionfactory/create_portion/#string) | Creates a text portion from specified string. |
+| [create_portion](/slides/python-net/aspose.slides/iportionfactory/create_portion/#IPortion) | Creates a portion with the using of a specified portion data. |
 
 
 ### Remarks

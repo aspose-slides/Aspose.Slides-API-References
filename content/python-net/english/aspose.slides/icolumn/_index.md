@@ -38,7 +38,7 @@ The IColumn type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_text_format](/slides/python-net/aspose.slides/icolumn/set_text_format/#IPortionFormat/) |  |
-| [set_text_format](/slides/python-net/aspose.slides/icolumn/set_text_format/#IParagraphFormat/) |  |
-| [set_text_format](/slides/python-net/aspose.slides/icolumn/set_text_format/#ITextFrameFormat/) |  |
+| [set_text_format](/slides/python-net/aspose.slides/icolumn/set_text_format/#IPortionFormat) |  |
+| [set_text_format](/slides/python-net/aspose.slides/icolumn/set_text_format/#IParagraphFormat) |  |
+| [set_text_format](/slides/python-net/aspose.slides/icolumn/set_text_format/#ITextFrameFormat) |  |
 

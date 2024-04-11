@@ -17,5 +17,5 @@ The IXamlOutputSaver type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [save](/slides/python-net/aspose.slides.export.xaml/ixamloutputsaver/save/#string-bytes/) | Saves a bytes array to a destination location. |
+| [save](/slides/python-net/aspose.slides.export.xaml/ixamloutputsaver/save/#string-bytes) | Saves a bytes array to a destination location. |
 

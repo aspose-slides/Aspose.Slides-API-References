@@ -23,12 +23,12 @@ The IEffectFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_glow](/slides/python-net/aspose.slides.effects/ieffectfactory/create_glow/#/) | Creates Glow effect. |
-| [create_inner_shadow](/slides/python-net/aspose.slides.effects/ieffectfactory/create_inner_shadow/#/) | Creates Inner shafow effect. |
-| [create_outer_shadow](/slides/python-net/aspose.slides.effects/ieffectfactory/create_outer_shadow/#/) | Creates Outer shadow effect. |
-| [create_preset_shadow](/slides/python-net/aspose.slides.effects/ieffectfactory/create_preset_shadow/#/) | Creates Preset shadow effect. |
-| [create_reflection](/slides/python-net/aspose.slides.effects/ieffectfactory/create_reflection/#/) | Creates Reflection effect. |
-| [create_soft_edge](/slides/python-net/aspose.slides.effects/ieffectfactory/create_soft_edge/#/) | Creates Soft Edge effect. |
+| [create_glow](/slides/python-net/aspose.slides.effects/ieffectfactory/create_glow/#) | Creates Glow effect. |
+| [create_inner_shadow](/slides/python-net/aspose.slides.effects/ieffectfactory/create_inner_shadow/#) | Creates Inner shafow effect. |
+| [create_outer_shadow](/slides/python-net/aspose.slides.effects/ieffectfactory/create_outer_shadow/#) | Creates Outer shadow effect. |
+| [create_preset_shadow](/slides/python-net/aspose.slides.effects/ieffectfactory/create_preset_shadow/#) | Creates Preset shadow effect. |
+| [create_reflection](/slides/python-net/aspose.slides.effects/ieffectfactory/create_reflection/#) | Creates Reflection effect. |
+| [create_soft_edge](/slides/python-net/aspose.slides.effects/ieffectfactory/create_soft_edge/#) | Creates Soft Edge effect. |
 
 
 ### Remarks

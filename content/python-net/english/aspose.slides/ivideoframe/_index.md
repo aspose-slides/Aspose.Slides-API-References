@@ -77,15 +77,15 @@ The IVideoFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/ivideoframe/get_thumbnail/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/ivideoframe/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [get_geometry_paths](/slides/python-net/aspose.slides/ivideoframe/get_geometry_paths/#/) |  |
-| [set_geometry_path](/slides/python-net/aspose.slides/ivideoframe/set_geometry_path/#IGeometryPath/) |  |
-| [set_geometry_paths](/slides/python-net/aspose.slides/ivideoframe/set_geometry_paths/#List[IGeometryPath]/) |  |
-| [create_shape_elements](/slides/python-net/aspose.slides/ivideoframe/create_shape_elements/#/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/ivideoframe/add_placeholder/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/ivideoframe/remove_placeholder/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/ivideoframe/get_base_placeholder/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/ivideoframe/get_thumbnail/#) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/ivideoframe/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#System.IO.Stream) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
+| [get_geometry_paths](/slides/python-net/aspose.slides/ivideoframe/get_geometry_paths/#) |  |
+| [set_geometry_path](/slides/python-net/aspose.slides/ivideoframe/set_geometry_path/#IGeometryPath) |  |
+| [set_geometry_paths](/slides/python-net/aspose.slides/ivideoframe/set_geometry_paths/#List[IGeometryPath]) |  |
+| [create_shape_elements](/slides/python-net/aspose.slides/ivideoframe/create_shape_elements/#) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/ivideoframe/add_placeholder/#IPlaceholder) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/ivideoframe/remove_placeholder/#) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
 

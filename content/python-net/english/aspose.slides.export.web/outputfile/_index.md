@@ -17,5 +17,5 @@ The OutputFile type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [write](/slides/python-net/aspose.slides.export.web/outputfile/write/#System.IO.Stream/) | Writes the file content to the stream. |
+| [write](/slides/python-net/aspose.slides.export.web/outputfile/write/#System.IO.Stream) | Writes the file content to the stream. |
 

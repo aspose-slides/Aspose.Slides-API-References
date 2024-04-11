@@ -30,7 +30,7 @@ The IDigitalSignatureCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/idigitalsignaturecollection/add/#IDigitalSignature/) | Adds the signature at the end of collection. |
-| [remove_at](/slides/python-net/aspose.slides/idigitalsignaturecollection/remove_at/#int/) | Removes the signature at the specified index. |
-| [clear](/slides/python-net/aspose.slides/idigitalsignaturecollection/clear/#/) | Removes all signatures from collection. |
+| [add](/slides/python-net/aspose.slides/idigitalsignaturecollection/add/#IDigitalSignature) | Adds the signature at the end of collection. |
+| [remove_at](/slides/python-net/aspose.slides/idigitalsignaturecollection/remove_at/#int) | Removes the signature at the specified index. |
+| [clear](/slides/python-net/aspose.slides/idigitalsignaturecollection/clear/#) | Removes all signatures from collection. |
 

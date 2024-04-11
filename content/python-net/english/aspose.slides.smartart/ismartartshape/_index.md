@@ -63,15 +63,15 @@ The ISmartArtShape type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides.smartart/ismartartshape/get_thumbnail/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides.smartart/ismartartshape/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides.smartart/ismartartshape/write_as_svg/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides.smartart/ismartartshape/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [get_geometry_paths](/slides/python-net/aspose.slides.smartart/ismartartshape/get_geometry_paths/#/) |  |
-| [set_geometry_path](/slides/python-net/aspose.slides.smartart/ismartartshape/set_geometry_path/#IGeometryPath/) |  |
-| [set_geometry_paths](/slides/python-net/aspose.slides.smartart/ismartartshape/set_geometry_paths/#List[IGeometryPath]/) |  |
-| [create_shape_elements](/slides/python-net/aspose.slides.smartart/ismartartshape/create_shape_elements/#/) |  |
-| [add_placeholder](/slides/python-net/aspose.slides.smartart/ismartartshape/add_placeholder/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides.smartart/ismartartshape/remove_placeholder/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides.smartart/ismartartshape/get_base_placeholder/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides.smartart/ismartartshape/get_thumbnail/#) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides.smartart/ismartartshape/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides.smartart/ismartartshape/write_as_svg/#System.IO.Stream) |  |
+| [write_as_svg](/slides/python-net/aspose.slides.smartart/ismartartshape/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
+| [get_geometry_paths](/slides/python-net/aspose.slides.smartart/ismartartshape/get_geometry_paths/#) |  |
+| [set_geometry_path](/slides/python-net/aspose.slides.smartart/ismartartshape/set_geometry_path/#IGeometryPath) |  |
+| [set_geometry_paths](/slides/python-net/aspose.slides.smartart/ismartartshape/set_geometry_paths/#List[IGeometryPath]) |  |
+| [create_shape_elements](/slides/python-net/aspose.slides.smartart/ismartartshape/create_shape_elements/#) |  |
+| [add_placeholder](/slides/python-net/aspose.slides.smartart/ismartartshape/add_placeholder/#IPlaceholder) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides.smartart/ismartartshape/remove_placeholder/#) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides.smartart/ismartartshape/get_base_placeholder/#) |  |
 

@@ -30,6 +30,6 @@ The VbaModuleCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove](/slides/python-net/aspose.slides.vba/vbamodulecollection/remove/#IVbaModule/) | Removes the first occurrence of a specific object from the collection. |
-| [add_empty_module](/slides/python-net/aspose.slides.vba/vbamodulecollection/add_empty_module/#string/) | Adds a new empty module to the VBA Project. |
+| [remove](/slides/python-net/aspose.slides.vba/vbamodulecollection/remove/#IVbaModule) | Removes the first occurrence of a specific object from the collection. |
+| [add_empty_module](/slides/python-net/aspose.slides.vba/vbamodulecollection/add_empty_module/#string) | Adds a new empty module to the VBA Project. |
 

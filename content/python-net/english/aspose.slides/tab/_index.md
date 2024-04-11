@@ -35,5 +35,5 @@ The Tab type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [compare_to](/slides/python-net/aspose.slides/tab/compare_to/#any/) | Compares the current instance with another object of the same type. |
+| [compare_to](/slides/python-net/aspose.slides/tab/compare_to/#any) | Compares the current instance with another object of the same type. |
 

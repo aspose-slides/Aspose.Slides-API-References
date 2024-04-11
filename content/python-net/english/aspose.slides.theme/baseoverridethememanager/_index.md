@@ -27,6 +27,6 @@ The BaseOverrideThemeManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_theme_effective](/slides/python-net/aspose.slides.theme/baseoverridethememanager/create_theme_effective/#/) | Returns the theme object. |
-| [apply_color_scheme](/slides/python-net/aspose.slides.theme/baseoverridethememanager/apply_color_scheme/#IExtraColorScheme/) | Applies extra color scheme to a slide. |
+| [create_theme_effective](/slides/python-net/aspose.slides.theme/baseoverridethememanager/create_theme_effective/#) | Returns the theme object. |
+| [apply_color_scheme](/slides/python-net/aspose.slides.theme/baseoverridethememanager/apply_color_scheme/#IExtraColorScheme) | Applies extra color scheme to a slide. |
 

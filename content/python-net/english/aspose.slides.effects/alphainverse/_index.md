@@ -29,5 +29,5 @@ The AlphaInverse type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/alphainverse/get_effective/#/) | Gets effective Alpha Inverse effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/alphainverse/get_effective/#) | Gets effective Alpha Inverse effect data with the inheritance applied. |
 

@@ -23,7 +23,7 @@ The MathSubscriptElementFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_subscript_element](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/create_math_subscript_element/#IMathElement-IMathElement/) | Creates IMathSubscriptElement |
+| [create_math_subscript_element](/slides/python-net/aspose.slides.mathtext/mathsubscriptelementfactory/create_math_subscript_element/#IMathElement-IMathElement) | Creates IMathSubscriptElement |
 
 
 ### Remarks

@@ -25,7 +25,7 @@ The ICameraEffectiveData type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_rotation](/slides/python-net/aspose.slides/icameraeffectivedata/get_rotation/#/) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution.<br/>            Returns null if no rotation defined. |
+| [get_rotation](/slides/python-net/aspose.slides/icameraeffectivedata/get_rotation/#) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution.<br/>            Returns null if no rotation defined. |
 
 
 ### Remarks

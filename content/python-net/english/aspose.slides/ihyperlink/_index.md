@@ -33,5 +33,5 @@ The IHyperlink type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [equals](/slides/python-net/aspose.slides/ihyperlink/equals/#IHyperlink/) | Determines whether the two Hyperlink instances are equal. |
+| [equals](/slides/python-net/aspose.slides/ihyperlink/equals/#IHyperlink) | Determines whether the two Hyperlink instances are equal. |
 

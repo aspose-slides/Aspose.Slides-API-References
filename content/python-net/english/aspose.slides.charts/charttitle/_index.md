@@ -40,5 +40,5 @@ The ChartTitle type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_text_frame_for_overriding](/slides/python-net/aspose.slides.charts/charttitle/add_text_frame_for_overriding/#string/) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
+| [add_text_frame_for_overriding](/slides/python-net/aspose.slides.charts/charttitle/add_text_frame_for_overriding/#string) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
 

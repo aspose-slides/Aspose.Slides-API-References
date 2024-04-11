@@ -31,14 +31,14 @@ The VideoPlayerHtmlController type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [write_document_start](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_document_start/#IHtmlGenerator-IPresentation/) |  |
-| [write_document_end](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_document_end/#IHtmlGenerator-IPresentation/) |  |
-| [write_slide_start](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_slide_start/#IHtmlGenerator-ISlide/) |  |
-| [write_slide_end](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_slide_end/#IHtmlGenerator-ISlide/) |  |
-| [write_shape_start](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_shape_start/#IHtmlGenerator-IShape/) |  |
-| [write_shape_end](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_shape_end/#IHtmlGenerator-IShape/) |  |
-| [format_shape](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/format_shape/#ISvgShape-IShape/) |  |
-| [get_object_storing_location](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/get_object_storing_location/#int-bytes-string-string-string/) |  |
-| [get_url](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/get_url/#int-int/) |  |
-| [save_external](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/save_external/#int-bytes/) |  |
+| [write_document_start](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_document_start/#IHtmlGenerator-IPresentation) |  |
+| [write_document_end](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_document_end/#IHtmlGenerator-IPresentation) |  |
+| [write_slide_start](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_slide_start/#IHtmlGenerator-ISlide) |  |
+| [write_slide_end](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_slide_end/#IHtmlGenerator-ISlide) |  |
+| [write_shape_start](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_shape_start/#IHtmlGenerator-IShape) |  |
+| [write_shape_end](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_shape_end/#IHtmlGenerator-IShape) |  |
+| [format_shape](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/format_shape/#ISvgShape-IShape) |  |
+| [get_object_storing_location](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/get_object_storing_location/#int-bytes-string-string-string) |  |
+| [get_url](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/get_url/#int-int) |  |
+| [save_external](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/save_external/#int-bytes) |  |
 

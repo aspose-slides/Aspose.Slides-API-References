@@ -30,5 +30,5 @@ The IVbaReferenceCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.vba/ivbareferencecollection/add/#IVbaReference/) | Adds the new reference to references collection |
+| [add](/slides/python-net/aspose.slides.vba/ivbareferencecollection/add/#IVbaReference) | Adds the new reference to references collection |
 

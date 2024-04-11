@@ -30,10 +30,10 @@ The CustomXmlPartCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/customxmlpartcollection/add/#string/) | Adds new custom xml part. |
-| [add](/slides/python-net/aspose.slides/customxmlpartcollection/add/#bytes/) | Adds new custom xml part. |
-| [add](/slides/python-net/aspose.slides/customxmlpartcollection/add/#System.IO.Stream/) | Adds new custom xml part. |
-| [remove_at](/slides/python-net/aspose.slides/customxmlpartcollection/remove_at/#int/) | Removes custom xml part at the specified index. |
-| [remove](/slides/python-net/aspose.slides/customxmlpartcollection/remove/#ICustomXmlPart/) | Removes the first occurrence of a specific object from the collection. |
-| [clear](/slides/python-net/aspose.slides/customxmlpartcollection/clear/#/) | Removes all items from the collection. |
+| [add](/slides/python-net/aspose.slides/customxmlpartcollection/add/#string) | Adds new custom xml part. |
+| [add](/slides/python-net/aspose.slides/customxmlpartcollection/add/#bytes) | Adds new custom xml part. |
+| [add](/slides/python-net/aspose.slides/customxmlpartcollection/add/#System.IO.Stream) | Adds new custom xml part. |
+| [remove_at](/slides/python-net/aspose.slides/customxmlpartcollection/remove_at/#int) | Removes custom xml part at the specified index. |
+| [remove](/slides/python-net/aspose.slides/customxmlpartcollection/remove/#ICustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
+| [clear](/slides/python-net/aspose.slides/customxmlpartcollection/clear/#) | Removes all items from the collection. |
 

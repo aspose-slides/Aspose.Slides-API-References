@@ -26,5 +26,5 @@ The IThemeable type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_theme_effective](/slides/python-net/aspose.slides.theme/ithemeable/create_theme_effective/#/) | Returns an effective theme for this themeable object. |
+| [create_theme_effective](/slides/python-net/aspose.slides.theme/ithemeable/create_theme_effective/#) | Returns an effective theme for this themeable object. |
 

@@ -31,15 +31,15 @@ The ISequence type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_effect](/slides/python-net/aspose.slides.animation/isequence/add_effect/#IShape-EffectType-EffectSubtype-EffectTriggerType/) |  |
-| [add_effect](/slides/python-net/aspose.slides.animation/isequence/add_effect/#IParagraph-EffectType-EffectSubtype-EffectTriggerType/) |  |
-| [add_effect](/slides/python-net/aspose.slides.animation/isequence/add_effect/#aspose.slides.charts.IChart-EffectChartMajorGroupingType-int-EffectType-EffectSubtype-EffectTriggerType/) | Adds the new chart animation effect for category or series to the end of sequence. |
-| [add_effect](/slides/python-net/aspose.slides.animation/isequence/add_effect/#aspose.slides.charts.IChart-EffectChartMinorGroupingType-int-int-EffectType-EffectSubtype-EffectTriggerType/) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
-| [remove](/slides/python-net/aspose.slides.animation/isequence/remove/#IEffect/) | Removes specified effect from a collection. |
-| [remove_at](/slides/python-net/aspose.slides.animation/isequence/remove_at/#int/) | Removes an effect from a collection. |
-| [clear](/slides/python-net/aspose.slides.animation/isequence/clear/#/) | Removes all effects from a collection. |
-| [remove_by_shape](/slides/python-net/aspose.slides.animation/isequence/remove_by_shape/#IShape/) |  |
-| [get_effects_by_shape](/slides/python-net/aspose.slides.animation/isequence/get_effects_by_shape/#IShape/) |  |
-| [get_effects_by_paragraph](/slides/python-net/aspose.slides.animation/isequence/get_effects_by_paragraph/#IParagraph/) |  |
-| [get_count](/slides/python-net/aspose.slides.animation/isequence/get_count/#IShape/) |  |
+| [add_effect](/slides/python-net/aspose.slides.animation/isequence/add_effect/#IShape-EffectType-EffectSubtype-EffectTriggerType) |  |
+| [add_effect](/slides/python-net/aspose.slides.animation/isequence/add_effect/#IParagraph-EffectType-EffectSubtype-EffectTriggerType) |  |
+| [add_effect](/slides/python-net/aspose.slides.animation/isequence/add_effect/#aspose.slides.charts.IChart-EffectChartMajorGroupingType-int-EffectType-EffectSubtype-EffectTriggerType) | Adds the new chart animation effect for category or series to the end of sequence. |
+| [add_effect](/slides/python-net/aspose.slides.animation/isequence/add_effect/#aspose.slides.charts.IChart-EffectChartMinorGroupingType-int-int-EffectType-EffectSubtype-EffectTriggerType) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
+| [remove](/slides/python-net/aspose.slides.animation/isequence/remove/#IEffect) | Removes specified effect from a collection. |
+| [remove_at](/slides/python-net/aspose.slides.animation/isequence/remove_at/#int) | Removes an effect from a collection. |
+| [clear](/slides/python-net/aspose.slides.animation/isequence/clear/#) | Removes all effects from a collection. |
+| [remove_by_shape](/slides/python-net/aspose.slides.animation/isequence/remove_by_shape/#IShape) |  |
+| [get_effects_by_shape](/slides/python-net/aspose.slides.animation/isequence/get_effects_by_shape/#IShape) |  |
+| [get_effects_by_paragraph](/slides/python-net/aspose.slides.animation/isequence/get_effects_by_paragraph/#IParagraph) |  |
+| [get_count](/slides/python-net/aspose.slides.animation/isequence/get_count/#IShape) |  |
 

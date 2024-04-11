@@ -29,5 +29,5 @@ The HSL type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/hsl/get_effective/#/) | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides.effects/hsl/get_effective/#) | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
 

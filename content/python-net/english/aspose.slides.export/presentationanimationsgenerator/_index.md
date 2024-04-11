@@ -33,5 +33,5 @@ The PresentationAnimationsGenerator type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [run](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/run/#Iterable[ISlide]/) |  |
+| [run](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/run/#Iterable[ISlide]) |  |
 

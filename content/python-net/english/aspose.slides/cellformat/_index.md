@@ -34,5 +34,5 @@ The CellFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/cellformat/get_effective/#/) | Gets effective table cell formatting properties with inheritance and table styles applied. |
+| [get_effective](/slides/python-net/aspose.slides/cellformat/get_effective/#) | Gets effective table cell formatting properties with inheritance and table styles applied. |
 

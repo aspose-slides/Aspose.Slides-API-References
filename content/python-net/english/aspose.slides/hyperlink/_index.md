@@ -54,5 +54,5 @@ The Hyperlink type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [equals](/slides/python-net/aspose.slides/hyperlink/equals/#IHyperlink/) | Determines whether the two Hyperlink instances are equal. |
+| [equals](/slides/python-net/aspose.slides/hyperlink/equals/#IHyperlink) | Determines whether the two Hyperlink instances are equal. |
 

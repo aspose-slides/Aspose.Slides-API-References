@@ -23,5 +23,5 @@ The IInterruptionToken type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [throw_if_interruption_requested](/slides/python-net/aspose.slides/iinterruptiontoken/throw_if_interruption_requested/#/) | Throws an OperationCanceledException if<br/>            interruption was requested.<br/>            Thrown when interruption was requested. |
+| [throw_if_interruption_requested](/slides/python-net/aspose.slides/iinterruptiontoken/throw_if_interruption_requested/#) | Throws an OperationCanceledException if<br/>            interruption was requested.<br/>            Thrown when interruption was requested. |
 

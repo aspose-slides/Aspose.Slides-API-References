@@ -25,6 +25,6 @@ The IPresentationAnimationPlayer type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_time_position](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/set_time_position/#float/) | Set the animation time position within the [`IPresentationAnimationPlayer.duration`](/slides/python-net/aspose.slides.export/ipresentationanimationplayer#duration). |
-| [get_frame](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/get_frame/#/) | Get the frame for the current time position previously set with the Aspose.Slides.Export.IPresentationAnimationPlayer.SetTimePosition(Syste. method. |
+| [set_time_position](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/set_time_position/#float) | Set the animation time position within the [`IPresentationAnimationPlayer.duration`](/slides/python-net/aspose.slides.export/ipresentationanimationplayer#duration). |
+| [get_frame](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/get_frame/#) | Get the frame for the current time position previously set with the Aspose.Slides.Export.IPresentationAnimationPlayer.SetTimePosition(Syste. method. |
 

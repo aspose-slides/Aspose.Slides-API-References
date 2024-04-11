@@ -29,11 +29,11 @@ The IStreamWrapper type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [close](/slides/python-net/aspose.slides/istreamwrapper/close/#/) | Closes the current stream and releases any resources. |
-| [flush](/slides/python-net/aspose.slides/istreamwrapper/flush/#/) | Clears all buffers for this stream and causes any buffered data to be written to the underlying device. |
-| [read](/slides/python-net/aspose.slides/istreamwrapper/read/#bytes-int-int/) | Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. |
-| [read_byte](/slides/python-net/aspose.slides/istreamwrapper/read_byte/#/) | Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream. |
-| [seek](/slides/python-net/aspose.slides/istreamwrapper/seek/#int-System.IO.SeekOrigin/) | Sets the position within the current stream |
-| [write](/slides/python-net/aspose.slides/istreamwrapper/write/#bytes-int-int/) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
-| [write_byte](/slides/python-net/aspose.slides/istreamwrapper/write_byte/#int/) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
+| [close](/slides/python-net/aspose.slides/istreamwrapper/close/#) | Closes the current stream and releases any resources. |
+| [flush](/slides/python-net/aspose.slides/istreamwrapper/flush/#) | Clears all buffers for this stream and causes any buffered data to be written to the underlying device. |
+| [read](/slides/python-net/aspose.slides/istreamwrapper/read/#bytes-int-int) | Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. |
+| [read_byte](/slides/python-net/aspose.slides/istreamwrapper/read_byte/#) | Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream. |
+| [seek](/slides/python-net/aspose.slides/istreamwrapper/seek/#int-System.IO.SeekOrigin) | Sets the position within the current stream |
+| [write](/slides/python-net/aspose.slides/istreamwrapper/write/#bytes-int-int) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
+| [write_byte](/slides/python-net/aspose.slides/istreamwrapper/write_byte/#int) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
 

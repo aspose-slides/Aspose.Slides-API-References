@@ -28,5 +28,5 @@ The IMasterThemeable type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_theme_effective](/slides/python-net/aspose.slides.theme/imasterthemeable/create_theme_effective/#/) |  |
+| [create_theme_effective](/slides/python-net/aspose.slides.theme/imasterthemeable/create_theme_effective/#) |  |
 

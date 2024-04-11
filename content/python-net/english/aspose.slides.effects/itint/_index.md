@@ -24,5 +24,5 @@ The ITint type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/itint/get_effective/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/itint/get_effective/#) |  |
 

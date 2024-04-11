@@ -145,5 +145,5 @@ The BehaviorProperty type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_or_create_by_value](/slides/python-net/aspose.slides.animation/behaviorproperty/get_or_create_by_value/#string/) | Looks for existing behavior property by value or creates new custom one with the specified value |
+| [get_or_create_by_value](/slides/python-net/aspose.slides.animation/behaviorproperty/get_or_create_by_value/#string) | Looks for existing behavior property by value or creates new custom one with the specified value |
 

@@ -50,7 +50,7 @@ The ParagraphFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/paragraphformat/get_effective/#/) | Gets effective paragraph formatting data with the inheritance applied. |
+| [get_effective](/slides/python-net/aspose.slides/paragraphformat/get_effective/#) | Gets effective paragraph formatting data with the inheritance applied. |
 
 
 ### Remarks

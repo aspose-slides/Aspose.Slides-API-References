@@ -24,7 +24,7 @@ The ILightRigEffectiveData type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_rotation](/slides/python-net/aspose.slides/ilightrigeffectivedata/get_rotation/#/) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates.<br/>            First element in return array - latitude, second - longitude, third - revolution. |
+| [get_rotation](/slides/python-net/aspose.slides/ilightrigeffectivedata/get_rotation/#) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates.<br/>            First element in return array - latitude, second - longitude, third - revolution. |
 
 
 ### Remarks

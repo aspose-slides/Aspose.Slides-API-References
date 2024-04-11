@@ -24,5 +24,5 @@ The IAudio type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_stream](/slides/python-net/aspose.slides/iaudio/get_stream/#/) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
+| [get_stream](/slides/python-net/aspose.slides/iaudio/get_stream/#) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
 

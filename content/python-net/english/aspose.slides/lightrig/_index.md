@@ -29,6 +29,6 @@ The LightRig type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_rotation](/slides/python-net/aspose.slides/lightrig/set_rotation/#float-float-float/) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            If any of coordinate value is float.NaN, all rotation is undefined. |
-| [get_rotation](/slides/python-net/aspose.slides/lightrig/get_rotation/#/) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution.<br/>            Returns null if no rotation defined. |
+| [set_rotation](/slides/python-net/aspose.slides/lightrig/set_rotation/#float-float-float) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            If any of coordinate value is float.NaN, all rotation is undefined. |
+| [get_rotation](/slides/python-net/aspose.slides/lightrig/get_rotation/#) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution.<br/>            Returns null if no rotation defined. |
 

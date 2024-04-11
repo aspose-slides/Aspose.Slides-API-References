@@ -31,5 +31,5 @@ The PieSplitCustomPointCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/add/#int/) | Adds data point by its index in parent series points collection. |
+| [add](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/add/#int) | Adds data point by its index in parent series points collection. |
 

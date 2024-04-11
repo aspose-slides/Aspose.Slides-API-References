@@ -48,8 +48,8 @@ The Cell type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [split_by_col_span](/slides/python-net/aspose.slides/cell/split_by_col_span/#int/) | Splits the cell to two cells by index of column. |
-| [split_by_row_span](/slides/python-net/aspose.slides/cell/split_by_row_span/#int/) | Splits the cell to two cells by index of row. |
-| [split_by_height](/slides/python-net/aspose.slides/cell/split_by_height/#float/) | Splits the cell by height. |
-| [split_by_width](/slides/python-net/aspose.slides/cell/split_by_width/#float/) | Splits the cell by width. |
+| [split_by_col_span](/slides/python-net/aspose.slides/cell/split_by_col_span/#int) | Splits the cell to two cells by index of column. |
+| [split_by_row_span](/slides/python-net/aspose.slides/cell/split_by_row_span/#int) | Splits the cell to two cells by index of row. |
+| [split_by_height](/slides/python-net/aspose.slides/cell/split_by_height/#float) | Splits the cell by height. |
+| [split_by_width](/slides/python-net/aspose.slides/cell/split_by_width/#float) | Splits the cell by width. |
 

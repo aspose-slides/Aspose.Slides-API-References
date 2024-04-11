@@ -38,7 +38,7 @@ The ShapeFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [clone](/slides/python-net/aspose.slides/shapeframe/clone/#/) | Clones |
-| [clone_t](/slides/python-net/aspose.slides/shapeframe/clone_t/#/) | Clones. |
-| [equals](/slides/python-net/aspose.slides/shapeframe/equals/#ShapeFrame/) | Returns a value indicating whether this instance is equal to a specified object. |
+| [clone](/slides/python-net/aspose.slides/shapeframe/clone/#) | Clones |
+| [clone_t](/slides/python-net/aspose.slides/shapeframe/clone_t/#) | Clones. |
+| [equals](/slides/python-net/aspose.slides/shapeframe/equals/#ShapeFrame) | Returns a value indicating whether this instance is equal to a specified object. |
 

@@ -17,7 +17,7 @@ The Compress type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove_unused_master_slides](/slides/python-net/aspose.slides.lowcode/compress/remove_unused_master_slides/#Presentation/) |  |
-| [remove_unused_layout_slides](/slides/python-net/aspose.slides.lowcode/compress/remove_unused_layout_slides/#Presentation/) |  |
-| [compress_embedded_fonts](/slides/python-net/aspose.slides.lowcode/compress/compress_embedded_fonts/#Presentation/) |  |
+| [remove_unused_master_slides](/slides/python-net/aspose.slides.lowcode/compress/remove_unused_master_slides/#Presentation) |  |
+| [remove_unused_layout_slides](/slides/python-net/aspose.slides.lowcode/compress/remove_unused_layout_slides/#Presentation) |  |
+| [compress_embedded_fonts](/slides/python-net/aspose.slides.lowcode/compress/compress_embedded_fonts/#Presentation) |  |
 

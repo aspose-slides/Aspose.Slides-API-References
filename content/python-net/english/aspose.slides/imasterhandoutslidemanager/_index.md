@@ -23,6 +23,6 @@ The IMasterHandoutSlideManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_default_master_handout_slide](/slides/python-net/aspose.slides/imasterhandoutslidemanager/set_default_master_handout_slide/#/) | Sets default master handout slide to related handout slide. |
-| [remove_master_handout_slide](/slides/python-net/aspose.slides/imasterhandoutslidemanager/remove_master_handout_slide/#/) | Removes master handout slide. |
+| [set_default_master_handout_slide](/slides/python-net/aspose.slides/imasterhandoutslidemanager/set_default_master_handout_slide/#) | Sets default master handout slide to related handout slide. |
+| [remove_master_handout_slide](/slides/python-net/aspose.slides/imasterhandoutslidemanager/remove_master_handout_slide/#) | Removes master handout slide. |
 

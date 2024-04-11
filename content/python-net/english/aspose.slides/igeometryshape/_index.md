@@ -61,15 +61,15 @@ The IGeometryShape type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides/igeometryshape/get_thumbnail/#/) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/igeometryshape/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/igeometryshape/write_as_svg/#System.IO.Stream/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/igeometryshape/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
-| [get_geometry_paths](/slides/python-net/aspose.slides/igeometryshape/get_geometry_paths/#/) | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
-| [set_geometry_path](/slides/python-net/aspose.slides/igeometryshape/set_geometry_path/#IGeometryPath/) | Updates shape geometry from [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) object. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`IGeometryShape.shape_type`](/slides/python-net/aspose.slides/igeometryshape#shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM). |
-| [set_geometry_paths](/slides/python-net/aspose.slides/igeometryshape/set_geometry_paths/#List[IGeometryPath]/) | Updates shape geometry from array of [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath). Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`IGeometryShape.shape_type`](/slides/python-net/aspose.slides/igeometryshape#shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM). |
-| [create_shape_elements](/slides/python-net/aspose.slides/igeometryshape/create_shape_elements/#/) | Creates and returns array of shape's elements. |
-| [add_placeholder](/slides/python-net/aspose.slides/igeometryshape/add_placeholder/#IPlaceholder/) |  |
-| [remove_placeholder](/slides/python-net/aspose.slides/igeometryshape/remove_placeholder/#/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides/igeometryshape/get_base_placeholder/#/) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/igeometryshape/get_thumbnail/#) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/igeometryshape/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/igeometryshape/write_as_svg/#System.IO.Stream) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/igeometryshape/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
+| [get_geometry_paths](/slides/python-net/aspose.slides/igeometryshape/get_geometry_paths/#) | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
+| [set_geometry_path](/slides/python-net/aspose.slides/igeometryshape/set_geometry_path/#IGeometryPath) | Updates shape geometry from [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) object. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`IGeometryShape.shape_type`](/slides/python-net/aspose.slides/igeometryshape#shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM). |
+| [set_geometry_paths](/slides/python-net/aspose.slides/igeometryshape/set_geometry_paths/#List[IGeometryPath]) | Updates shape geometry from array of [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath). Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`IGeometryShape.shape_type`](/slides/python-net/aspose.slides/igeometryshape#shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM). |
+| [create_shape_elements](/slides/python-net/aspose.slides/igeometryshape/create_shape_elements/#) | Creates and returns array of shape's elements. |
+| [add_placeholder](/slides/python-net/aspose.slides/igeometryshape/add_placeholder/#IPlaceholder) |  |
+| [remove_placeholder](/slides/python-net/aspose.slides/igeometryshape/remove_placeholder/#) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides/igeometryshape/get_base_placeholder/#) |  |
 

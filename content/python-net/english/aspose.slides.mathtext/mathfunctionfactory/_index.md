@@ -23,8 +23,8 @@ The MathFunctionFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/create_math_function/#IMathElement-IMathElement/) | Creates math function |
-| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/create_math_function/#string-IMathElement/) | Creates math function |
+| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/create_math_function/#IMathElement-IMathElement) | Creates math function |
+| [create_math_function](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory/create_math_function/#string-IMathElement) | Creates math function |
 
 
 ### Remarks

@@ -37,7 +37,7 @@ The Paragraph type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/paragraph/join_portions_with_same_formatting/#/) | Joins runs with same formatting. |
-| [get_rect](/slides/python-net/aspose.slides/paragraph/get_rect/#/) | Get coordinates of rect that bounds paragraph. The rect includes all the lines of<br/>            text in paragraph, including empty ones. |
-| [get_lines_count](/slides/python-net/aspose.slides/paragraph/get_lines_count/#/) | Get number of lines in a paragraph. |
+| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/paragraph/join_portions_with_same_formatting/#) | Joins runs with same formatting. |
+| [get_rect](/slides/python-net/aspose.slides/paragraph/get_rect/#) | Get coordinates of rect that bounds paragraph. The rect includes all the lines of<br/>            text in paragraph, including empty ones. |
+| [get_lines_count](/slides/python-net/aspose.slides/paragraph/get_lines_count/#) | Get number of lines in a paragraph. |
 

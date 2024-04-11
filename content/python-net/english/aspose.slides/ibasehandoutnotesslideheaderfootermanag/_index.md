@@ -28,13 +28,13 @@ The IBaseHandoutNotesSlideHeaderFooterManag type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_header_visibility](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_header_visibility/#bool/) | Changes slide header placeholder visibility. |
-| [set_header_text](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_header_text/#string/) | Sets text to slide header placeholder. |
-| [set_footer_visibility](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_footer_visibility/#bool/) |  |
-| [set_slide_number_visibility](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_slide_number_visibility/#bool/) |  |
-| [set_date_time_visibility](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_date_time_visibility/#bool/) |  |
-| [set_footer_text](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_footer_text/#string/) |  |
-| [set_date_time_text](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_date_time_text/#string/) |  |
+| [set_header_visibility](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_header_visibility/#bool) | Changes slide header placeholder visibility. |
+| [set_header_text](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_header_text/#string) | Sets text to slide header placeholder. |
+| [set_footer_visibility](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_footer_visibility/#bool) |  |
+| [set_slide_number_visibility](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_slide_number_visibility/#bool) |  |
+| [set_date_time_visibility](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_date_time_visibility/#bool) |  |
+| [set_footer_text](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_footer_text/#string) |  |
+| [set_date_time_text](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_date_time_text/#string) |  |
 
 
 ### Remarks

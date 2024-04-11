@@ -17,7 +17,7 @@ The IVideoPlayerHtmlControllerFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_video_player_html_controller](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/create_video_player_html_controller/#string-string-string/) | Create video player HTML controller. |
+| [create_video_player_html_controller](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/create_video_player_html_controller/#string-string-string) | Create video player HTML controller. |
 
 
 ### Remarks

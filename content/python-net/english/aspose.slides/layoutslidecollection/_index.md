@@ -30,7 +30,7 @@ The LayoutSlideCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_by_type](/slides/python-net/aspose.slides/layoutslidecollection/get_by_type/#SlideLayoutType/) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or null if no layouts found. |
-| [remove](/slides/python-net/aspose.slides/layoutslidecollection/remove/#ILayoutSlide/) | Removes a layout from the collection. |
-| [remove_unused](/slides/python-net/aspose.slides/layoutslidecollection/remove_unused/#/) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [get_by_type](/slides/python-net/aspose.slides/layoutslidecollection/get_by_type/#SlideLayoutType) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or null if no layouts found. |
+| [remove](/slides/python-net/aspose.slides/layoutslidecollection/remove/#ILayoutSlide) | Removes a layout from the collection. |
+| [remove_unused](/slides/python-net/aspose.slides/layoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 

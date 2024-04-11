@@ -35,17 +35,17 @@ The ParagraphCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/paragraphcollection/add/#IParagraph/) | Adds a Paragraph to the end of collection. |
-| [add](/slides/python-net/aspose.slides/paragraphcollection/add/#IParagraphCollection/) | Adds a content of ParagraphCollection to the end of collection. |
-| [insert](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-IParagraph/) | Inserts a Paragraph into the collection at the specified index. |
-| [insert](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-IParagraphCollection/) | Inserts a content of ParagraphCollection into the collection at the specified index. |
-| [add_from_html](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#string/) | Adds text from specified html string to the collection. |
-| [add_from_html](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#string-aspose.slides.importing.IExternalResourceResolver-string/) | Adds text from specified html string to the collection. |
-| [index_of](/slides/python-net/aspose.slides/paragraphcollection/index_of/#IParagraph/) | Determines the index of a specific item in the .NET type System.Collections.Generic.IList`1. |
-| [clear](/slides/python-net/aspose.slides/paragraphcollection/clear/#/) | Removes all elements from the collection. |
-| [contains](/slides/python-net/aspose.slides/paragraphcollection/contains/#IParagraph/) | Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value. |
-| [copy_to](/slides/python-net/aspose.slides/paragraphcollection/copy_to/#List[IParagraph]-int/) | Copies the elements of the .NET type System.Collections.Generic.ICollection`1 to an .NET type System.Array, starting at a particular .NET type System.Array index. |
-| [remove_at](/slides/python-net/aspose.slides/paragraphcollection/remove_at/#int/) | Removes the element at the specified index of the collection. |
-| [remove](/slides/python-net/aspose.slides/paragraphcollection/remove/#IParagraph/) | Removes the first occurrence of a specific object from the .NET type System.Collections.Generic.ICollection`1. |
-| [export_to_html](/slides/python-net/aspose.slides/paragraphcollection/export_to_html/#int-int-aspose.slides.export.ITextToHtmlConversionOptions/) | Converts specifying paragraphs to the HTML and returns it as String object. |
+| [add](/slides/python-net/aspose.slides/paragraphcollection/add/#IParagraph) | Adds a Paragraph to the end of collection. |
+| [add](/slides/python-net/aspose.slides/paragraphcollection/add/#IParagraphCollection) | Adds a content of ParagraphCollection to the end of collection. |
+| [insert](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-IParagraph) | Inserts a Paragraph into the collection at the specified index. |
+| [insert](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-IParagraphCollection) | Inserts a content of ParagraphCollection into the collection at the specified index. |
+| [add_from_html](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#string) | Adds text from specified html string to the collection. |
+| [add_from_html](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#string-aspose.slides.importing.IExternalResourceResolver-string) | Adds text from specified html string to the collection. |
+| [index_of](/slides/python-net/aspose.slides/paragraphcollection/index_of/#IParagraph) | Determines the index of a specific item in the .NET type System.Collections.Generic.IList`1. |
+| [clear](/slides/python-net/aspose.slides/paragraphcollection/clear/#) | Removes all elements from the collection. |
+| [contains](/slides/python-net/aspose.slides/paragraphcollection/contains/#IParagraph) | Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value. |
+| [copy_to](/slides/python-net/aspose.slides/paragraphcollection/copy_to/#List[IParagraph]-int) | Copies the elements of the .NET type System.Collections.Generic.ICollection`1 to an .NET type System.Array, starting at a particular .NET type System.Array index. |
+| [remove_at](/slides/python-net/aspose.slides/paragraphcollection/remove_at/#int) | Removes the element at the specified index of the collection. |
+| [remove](/slides/python-net/aspose.slides/paragraphcollection/remove/#IParagraph) | Removes the first occurrence of a specific object from the .NET type System.Collections.Generic.ICollection`1. |
+| [export_to_html](/slides/python-net/aspose.slides/paragraphcollection/export_to_html/#int-int-aspose.slides.export.ITextToHtmlConversionOptions) | Converts specifying paragraphs to the HTML and returns it as String object. |
 

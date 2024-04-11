@@ -26,5 +26,5 @@ The IFillOverlay type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ifilloverlay/get_effective/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ifilloverlay/get_effective/#) |  |
 

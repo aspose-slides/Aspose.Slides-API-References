@@ -27,5 +27,5 @@ The IChartCategory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove](/slides/python-net/aspose.slides.charts/ichartcategory/remove/#/) | Removes category from chart. |
+| [remove](/slides/python-net/aspose.slides.charts/ichartcategory/remove/#) | Removes category from chart. |
 

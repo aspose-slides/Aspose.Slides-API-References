@@ -24,5 +24,5 @@ The IAlphaInverse type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ialphainverse/get_effective/#/) |  |
+| [get_effective](/slides/python-net/aspose.slides.effects/ialphainverse/get_effective/#) |  |
 

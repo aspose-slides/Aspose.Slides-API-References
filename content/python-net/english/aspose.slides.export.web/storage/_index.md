@@ -23,5 +23,5 @@ The Storage type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [contains_key](/slides/python-net/aspose.slides.export.web/storage/contains_key/#string/) | Determines whether the storage contains an element with the specified key. |
+| [contains_key](/slides/python-net/aspose.slides.export.web/storage/contains_key/#string) | Determines whether the storage contains an element with the specified key. |
 

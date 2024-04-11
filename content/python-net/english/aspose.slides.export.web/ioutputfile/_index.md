@@ -17,5 +17,5 @@ The IOutputFile type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [write](/slides/python-net/aspose.slides.export.web/ioutputfile/write/#System.IO.Stream/) | Writes the file content to the stream. |
+| [write](/slides/python-net/aspose.slides.export.web/ioutputfile/write/#System.IO.Stream) | Writes the file content to the stream. |
 

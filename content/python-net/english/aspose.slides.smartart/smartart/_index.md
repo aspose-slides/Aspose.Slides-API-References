@@ -68,11 +68,11 @@ The SmartArt type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_thumbnail](/slides/python-net/aspose.slides.smartart/smartart/get_thumbnail/#/) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
-| [get_thumbnail](/slides/python-net/aspose.slides.smartart/smartart/get_thumbnail/#ShapeThumbnailBounds-float-float/) |  |
-| [write_as_svg](/slides/python-net/aspose.slides.smartart/smartart/write_as_svg/#System.IO.Stream/) | Saves content of Shape as SVG file. |
-| [write_as_svg](/slides/python-net/aspose.slides.smartart/smartart/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions/) | Saves content of Shape as SVG file. |
-| [remove_placeholder](/slides/python-net/aspose.slides.smartart/smartart/remove_placeholder/#/) | Defines that this shape isn't a placeholder. |
-| [add_placeholder](/slides/python-net/aspose.slides.smartart/smartart/add_placeholder/#IPlaceholder/) |  |
-| [get_base_placeholder](/slides/python-net/aspose.slides.smartart/smartart/get_base_placeholder/#/) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
+| [get_thumbnail](/slides/python-net/aspose.slides.smartart/smartart/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [get_thumbnail](/slides/python-net/aspose.slides.smartart/smartart/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides.smartart/smartart/write_as_svg/#System.IO.Stream) | Saves content of Shape as SVG file. |
+| [write_as_svg](/slides/python-net/aspose.slides.smartart/smartart/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) | Saves content of Shape as SVG file. |
+| [remove_placeholder](/slides/python-net/aspose.slides.smartart/smartart/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
+| [add_placeholder](/slides/python-net/aspose.slides.smartart/smartart/add_placeholder/#IPlaceholder) |  |
+| [get_base_placeholder](/slides/python-net/aspose.slides.smartart/smartart/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
 

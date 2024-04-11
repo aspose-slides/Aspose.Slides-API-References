@@ -32,5 +32,5 @@ The VbaProject type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [to_binary](/slides/python-net/aspose.slides.vba/vbaproject/to_binary/#/) | Returns the binary representation of the VBA project as OLE container |
+| [to_binary](/slides/python-net/aspose.slides.vba/vbaproject/to_binary/#) | Returns the binary representation of the VBA project as OLE container |
 

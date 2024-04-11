@@ -23,7 +23,7 @@ The MathMatrixFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_matrix](/slides/python-net/aspose.slides.mathtext/mathmatrixfactory/create_math_matrix/#int-int/) | Creates a math matrix |
+| [create_math_matrix](/slides/python-net/aspose.slides.mathtext/mathmatrixfactory/create_math_matrix/#int-int) | Creates a math matrix |
 
 
 ### Remarks
