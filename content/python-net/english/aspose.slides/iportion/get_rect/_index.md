@@ -2,7 +2,7 @@
 title: get_rect method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/iportion/get_rect/
 weight: 40
 ---

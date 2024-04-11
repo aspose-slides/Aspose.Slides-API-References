@@ -2,7 +2,7 @@
 title: save_external method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/videoplayerhtmlcontroller/save_external/
 weight: 110
 ---

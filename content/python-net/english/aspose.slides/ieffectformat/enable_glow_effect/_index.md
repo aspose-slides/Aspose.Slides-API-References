@@ -2,7 +2,7 @@
 title: enable_glow_effect method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ieffectformat/enable_glow_effect/
 weight: 40
 ---

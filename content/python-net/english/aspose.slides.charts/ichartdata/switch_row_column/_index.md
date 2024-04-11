@@ -2,7 +2,7 @@
 title: switch_row_column method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/ichartdata/switch_row_column/
 weight: 50
 ---

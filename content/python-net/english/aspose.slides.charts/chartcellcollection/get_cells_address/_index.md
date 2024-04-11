@@ -2,7 +2,7 @@
 title: get_cells_address method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/chartcellcollection/get_cells_address/
 weight: 30
 ---

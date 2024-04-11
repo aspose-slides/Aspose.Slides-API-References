@@ -2,7 +2,7 @@
 title: write_as_svg method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/graphicalobject/write_as_svg/
 weight: 30
 ---

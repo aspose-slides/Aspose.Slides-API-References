@@ -2,7 +2,7 @@
 title: get_all_text_frames method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.util/slideutil/get_all_text_frames/
 weight: 60
 ---

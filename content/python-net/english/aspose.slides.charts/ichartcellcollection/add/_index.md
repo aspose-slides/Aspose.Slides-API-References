@@ -2,7 +2,7 @@
 title: add method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/ichartcellcollection/add/
 weight: 20
 ---

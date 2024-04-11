@@ -2,7 +2,7 @@
 title: overbar method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathgroupingcharacter/overbar/
 weight: 210
 ---

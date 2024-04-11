@@ -2,7 +2,7 @@
 title: throw_if_interruption_requested method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/interruptiontoken/throw_if_interruption_requested/
 weight: 20
 ---

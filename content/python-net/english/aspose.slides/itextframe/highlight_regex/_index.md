@@ -2,7 +2,7 @@
 title: highlight_regex method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/itextframe/highlight_regex/
 weight: 40
 ---

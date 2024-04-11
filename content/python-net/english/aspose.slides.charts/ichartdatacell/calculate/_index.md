@@ -2,7 +2,7 @@
 title: calculate method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/ichartdatacell/calculate/
 weight: 20
 ---

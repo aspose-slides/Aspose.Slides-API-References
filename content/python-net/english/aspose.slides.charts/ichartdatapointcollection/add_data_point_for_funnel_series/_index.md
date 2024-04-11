@@ -2,7 +2,7 @@
 title: add_data_point_for_funnel_series method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/ichartdatapointcollection/add_data_point_for_funnel_series/
 weight: 180
 ---

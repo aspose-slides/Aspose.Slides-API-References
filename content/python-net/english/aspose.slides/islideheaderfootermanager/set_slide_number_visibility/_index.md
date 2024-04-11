@@ -2,7 +2,7 @@
 title: set_slide_number_visibility method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/islideheaderfootermanager/set_slide_number_visibility/
 weight: 30
 ---

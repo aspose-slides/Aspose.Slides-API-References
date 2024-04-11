@@ -2,7 +2,7 @@
 title: validate_chart_layout method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/ichart/validate_chart_layout/
 weight: 40
 ---

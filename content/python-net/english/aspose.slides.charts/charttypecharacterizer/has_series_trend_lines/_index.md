@@ -2,7 +2,7 @@
 title: has_series_trend_lines method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/charttypecharacterizer/has_series_trend_lines/
 weight: 200
 ---

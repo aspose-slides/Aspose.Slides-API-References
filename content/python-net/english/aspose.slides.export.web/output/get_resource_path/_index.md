@@ -2,7 +2,7 @@
 title: get_resource_path method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export.web/output/get_resource_path/
 weight: 40
 ---

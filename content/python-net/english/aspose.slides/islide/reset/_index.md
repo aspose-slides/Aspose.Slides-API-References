@@ -2,7 +2,7 @@
 title: reset method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/islide/reset/
 weight: 70
 ---

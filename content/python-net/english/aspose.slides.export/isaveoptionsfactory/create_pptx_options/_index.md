@@ -2,7 +2,7 @@
 title: create_pptx_options method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/isaveoptionsfactory/create_pptx_options/
 weight: 20
 ---

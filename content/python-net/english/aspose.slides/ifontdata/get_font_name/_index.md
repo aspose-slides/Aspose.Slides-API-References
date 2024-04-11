@@ -2,7 +2,7 @@
 title: get_font_name method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ifontdata/get_font_name/
 weight: 20
 ---

@@ -2,7 +2,7 @@
 title: MathBoxFactory constructor
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/mathboxfactory/__init__/
 weight: 10
 ---

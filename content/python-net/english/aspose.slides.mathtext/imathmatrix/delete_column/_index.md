@@ -2,7 +2,7 @@
 title: delete_column method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathmatrix/delete_column/
 weight: 260
 ---

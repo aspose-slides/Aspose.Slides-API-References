@@ -2,7 +2,7 @@
 title: get_slide_comments method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/slide/get_slide_comments/
 weight: 110
 ---

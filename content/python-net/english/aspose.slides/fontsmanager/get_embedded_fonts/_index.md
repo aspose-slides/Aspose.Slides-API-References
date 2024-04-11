@@ -2,7 +2,7 @@
 title: get_embedded_fonts method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/fontsmanager/get_embedded_fonts/
 weight: 60
 ---

@@ -2,7 +2,7 @@
 title: init_format_scheme_from method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.theme/ioverridetheme/init_format_scheme_from/
 weight: 90
 ---

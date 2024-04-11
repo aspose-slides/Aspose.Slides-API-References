@@ -2,7 +2,7 @@
 title: create_preset_shadow method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.effects/ieffectfactory/create_preset_shadow/
 weight: 50
 ---

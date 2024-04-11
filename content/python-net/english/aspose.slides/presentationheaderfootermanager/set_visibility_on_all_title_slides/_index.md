@@ -2,7 +2,7 @@
 title: set_visibility_on_all_title_slides method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/presentationheaderfootermanager/set_visibility_on_all_title_slides/
 weight: 90
 ---

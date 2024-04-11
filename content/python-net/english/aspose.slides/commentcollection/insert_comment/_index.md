@@ -2,7 +2,7 @@
 title: insert_comment method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/commentcollection/insert_comment/
 weight: 50
 ---

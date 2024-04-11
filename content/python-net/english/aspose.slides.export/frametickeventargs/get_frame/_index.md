@@ -2,7 +2,7 @@
 title: get_frame method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/frametickeventargs/get_frame/
 weight: 20
 ---

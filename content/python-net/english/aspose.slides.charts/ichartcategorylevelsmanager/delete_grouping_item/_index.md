@@ -2,7 +2,7 @@
 title: delete_grouping_item method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/ichartcategorylevelsmanager/delete_grouping_item/
 weight: 30
 ---

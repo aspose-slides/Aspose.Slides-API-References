@@ -2,7 +2,7 @@
 title: contains method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/paragraphcollection/contains/
 weight: 70
 ---

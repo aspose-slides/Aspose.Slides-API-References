@@ -2,7 +2,7 @@
 title: to_box method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/mathlimit/to_box/
 weight: 220
 ---

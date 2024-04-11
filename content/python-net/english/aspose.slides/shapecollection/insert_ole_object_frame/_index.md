@@ -2,7 +2,7 @@
 title: insert_ole_object_frame method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/shapecollection/insert_ole_object_frame/
 weight: 90
 ---

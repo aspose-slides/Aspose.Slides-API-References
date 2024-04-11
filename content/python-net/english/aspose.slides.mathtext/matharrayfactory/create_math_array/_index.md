@@ -2,7 +2,7 @@
 title: create_math_array method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/matharrayfactory/create_math_array/
 weight: 20
 ---

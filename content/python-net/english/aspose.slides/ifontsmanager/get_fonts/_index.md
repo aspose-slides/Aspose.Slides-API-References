@@ -2,7 +2,7 @@
 title: get_fonts method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ifontsmanager/get_fonts/
 weight: 40
 ---

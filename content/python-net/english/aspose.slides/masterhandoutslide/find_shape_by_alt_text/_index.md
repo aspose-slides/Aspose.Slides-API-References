@@ -2,7 +2,7 @@
 title: find_shape_by_alt_text method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/masterhandoutslide/find_shape_by_alt_text/
 weight: 50
 ---

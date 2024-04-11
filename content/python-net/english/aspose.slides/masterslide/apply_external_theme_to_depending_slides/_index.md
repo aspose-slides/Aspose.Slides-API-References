@@ -2,7 +2,7 @@
 title: apply_external_theme_to_depending_slides method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/masterslide/apply_external_theme_to_depending_slides/
 weight: 60
 ---

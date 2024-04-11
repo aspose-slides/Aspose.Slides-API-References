@@ -2,7 +2,7 @@
 title: write_slide_end method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/videoplayerhtmlcontroller/write_slide_end/
 weight: 50
 ---

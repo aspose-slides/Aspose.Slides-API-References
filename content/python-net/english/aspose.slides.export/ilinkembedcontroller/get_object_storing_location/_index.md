@@ -2,7 +2,7 @@
 title: get_object_storing_location method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/ilinkembedcontroller/get_object_storing_location/
 weight: 20
 ---

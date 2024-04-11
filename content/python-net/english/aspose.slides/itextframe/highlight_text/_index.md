@@ -2,7 +2,7 @@
 title: highlight_text method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/itextframe/highlight_text/
 weight: 20
 ---

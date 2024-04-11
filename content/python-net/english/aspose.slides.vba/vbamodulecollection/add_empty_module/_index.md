@@ -2,7 +2,7 @@
 title: add_empty_module method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.vba/vbamodulecollection/add_empty_module/
 weight: 30
 ---

@@ -2,7 +2,7 @@
 title: get_consumption_quantity method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/metered/get_consumption_quantity/
 weight: 30
 ---

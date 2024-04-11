@@ -2,7 +2,7 @@
 title: send_warning method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.warnings/inotimplementedwarninginfo/send_warning/
 weight: 20
 ---

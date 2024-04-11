@@ -2,7 +2,7 @@
 title: init_font_scheme method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.theme/overridetheme/init_font_scheme/
 weight: 60
 ---

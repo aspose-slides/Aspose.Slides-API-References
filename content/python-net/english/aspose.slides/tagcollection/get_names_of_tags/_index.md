@@ -2,7 +2,7 @@
 title: get_names_of_tags method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/tagcollection/get_names_of_tags/
 weight: 90
 ---

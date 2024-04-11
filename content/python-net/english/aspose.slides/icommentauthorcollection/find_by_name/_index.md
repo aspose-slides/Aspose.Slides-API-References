@@ -2,7 +2,7 @@
 title: find_by_name method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/icommentauthorcollection/find_by_name/
 weight: 40
 ---

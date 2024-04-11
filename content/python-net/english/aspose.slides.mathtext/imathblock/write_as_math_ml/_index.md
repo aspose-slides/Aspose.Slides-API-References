@@ -2,7 +2,7 @@
 title: write_as_math_ml method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathblock/write_as_math_ml/
 weight: 200
 ---

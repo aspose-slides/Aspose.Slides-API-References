@@ -2,7 +2,7 @@
 title: save method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export.xaml/ixamloutputsaver/save/
 weight: 20
 ---

@@ -2,7 +2,7 @@
 title: append_empty_section method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/isectioncollection/append_empty_section/
 weight: 70
 ---

@@ -2,7 +2,7 @@
 title: set_upper_limit method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathrightsubsuperscriptelement/set_upper_limit/
 weight: 120
 ---

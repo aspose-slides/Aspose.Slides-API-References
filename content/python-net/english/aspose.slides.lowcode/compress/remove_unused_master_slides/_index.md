@@ -2,7 +2,7 @@
 title: remove_unused_master_slides method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.lowcode/compress/remove_unused_master_slides/
 weight: 20
 ---

@@ -2,7 +2,7 @@
 title: create_bi_level method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.effects/iimagetransformoperationfactory/create_bi_level/
 weight: 90
 ---

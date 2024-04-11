@@ -2,7 +2,7 @@
 title: create_math_subscript_element method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/mathsubscriptelementfactory/create_math_subscript_element/
 weight: 20
 ---

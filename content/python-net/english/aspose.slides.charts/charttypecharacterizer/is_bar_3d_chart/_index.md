@@ -2,7 +2,7 @@
 title: is_bar_3d_chart method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/charttypecharacterizer/is_bar_3d_chart/
 weight: 20
 ---

@@ -2,7 +2,7 @@
 title: set_event_handler method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/svgshape/set_event_handler/
 weight: 20
 ---

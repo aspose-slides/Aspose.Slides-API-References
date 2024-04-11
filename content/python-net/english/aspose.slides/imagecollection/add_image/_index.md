@@ -2,7 +2,7 @@
 title: add_image method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/imagecollection/add_image/
 weight: 20
 ---

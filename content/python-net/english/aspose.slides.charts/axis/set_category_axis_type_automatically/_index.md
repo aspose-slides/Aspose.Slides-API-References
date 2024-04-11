@@ -2,7 +2,7 @@
 title: set_category_axis_type_automatically method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/axis/set_category_axis_type_automatically/
 weight: 20
 ---

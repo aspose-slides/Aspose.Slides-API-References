@@ -2,7 +2,7 @@
 title: load_external_font method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/fontsloader/load_external_font/
 weight: 30
 ---

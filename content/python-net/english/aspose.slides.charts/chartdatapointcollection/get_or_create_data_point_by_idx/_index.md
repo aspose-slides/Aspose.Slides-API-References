@@ -2,7 +2,7 @@
 title: get_or_create_data_point_by_idx method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/chartdatapointcollection/get_or_create_data_point_by_idx/
 weight: 120
 ---

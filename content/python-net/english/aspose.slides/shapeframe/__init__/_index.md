@@ -2,7 +2,7 @@
 title: ShapeFrame constructor
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/shapeframe/__init__/
 weight: 10
 ---

@@ -2,7 +2,7 @@
 title: clear_custom_properties method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/documentproperties/clear_custom_properties/
 weight: 70
 ---

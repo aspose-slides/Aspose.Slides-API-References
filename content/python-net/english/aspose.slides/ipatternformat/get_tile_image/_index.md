@@ -2,7 +2,7 @@
 title: get_tile_image method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ipatternformat/get_tile_image/
 weight: 20
 ---

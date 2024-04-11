@@ -2,7 +2,7 @@
 title: auto_by_extension method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.lowcode/convert/auto_by_extension/
 weight: 40
 ---

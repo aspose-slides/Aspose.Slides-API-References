@@ -2,7 +2,7 @@
 title: compress_embedded_fonts method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.lowcode/compress/compress_embedded_fonts/
 weight: 40
 ---

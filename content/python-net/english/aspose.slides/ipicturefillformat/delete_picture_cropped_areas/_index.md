@@ -2,7 +2,7 @@
 title: delete_picture_cropped_areas method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ipicturefillformat/delete_picture_cropped_areas/
 weight: 20
 ---

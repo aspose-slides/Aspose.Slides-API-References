@@ -2,7 +2,7 @@
 title: is_series_uses_value_coordinate method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/charttypecharacterizer/is_series_uses_value_coordinate/
 weight: 180
 ---

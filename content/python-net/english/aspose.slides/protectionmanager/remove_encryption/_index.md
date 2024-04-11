@@ -2,7 +2,7 @@
 title: remove_encryption method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/protectionmanager/remove_encryption/
 weight: 30
 ---

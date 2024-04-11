@@ -2,7 +2,7 @@
 title: create_font_data method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ifontdatafactory/create_font_data/
 weight: 20
 ---

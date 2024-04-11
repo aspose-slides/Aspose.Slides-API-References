@@ -2,7 +2,7 @@
 title: get_presentation_text method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/presentationfactory/get_presentation_text/
 weight: 50
 ---

@@ -2,7 +2,7 @@
 title: get_summary_section method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/summaryzoomsectioncollection/get_summary_section/
 weight: 50
 ---

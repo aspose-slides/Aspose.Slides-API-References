@@ -2,7 +2,7 @@
 title: set_date_time_and_child_date_times_text method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ilayoutslideheaderfootermanager/set_date_time_and_child_date_times_text/
 weight: 60
 ---

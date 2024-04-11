@@ -2,7 +2,7 @@
 title: join_block method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/mathblock/join_block/
 weight: 320
 ---

@@ -2,7 +2,7 @@
 title: set_macro_hyperlink_click method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ihyperlinkmanager/set_macro_hyperlink_click/
 weight: 80
 ---

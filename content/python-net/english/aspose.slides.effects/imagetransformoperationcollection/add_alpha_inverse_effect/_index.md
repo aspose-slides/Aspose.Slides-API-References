@@ -2,7 +2,7 @@
 title: add_alpha_inverse_effect method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.effects/imagetransformoperationcollection/add_alpha_inverse_effect/
 weight: 60
 ---

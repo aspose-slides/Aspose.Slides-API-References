@@ -2,7 +2,7 @@
 title: add_from_html method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/islidecollection/add_from_html/
 weight: 70
 ---

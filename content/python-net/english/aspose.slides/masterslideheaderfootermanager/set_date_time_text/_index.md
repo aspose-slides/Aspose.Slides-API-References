@@ -2,7 +2,7 @@
 title: set_date_time_text method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/masterslideheaderfootermanager/set_date_time_text/
 weight: 60
 ---

@@ -2,7 +2,7 @@
 title: get_slide_by_id method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/presentation/get_slide_by_id/
 weight: 50
 ---

@@ -2,7 +2,7 @@
 title: enclose method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathsubscriptelement/enclose/
 weight: 40
 ---

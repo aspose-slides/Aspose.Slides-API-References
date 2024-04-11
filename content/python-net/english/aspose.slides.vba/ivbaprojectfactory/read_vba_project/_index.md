@@ -2,7 +2,7 @@
 title: read_vba_project method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.vba/ivbaprojectfactory/read_vba_project/
 weight: 30
 ---

@@ -2,7 +2,7 @@
 title: set_size method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/islidesize/set_size/
 weight: 20
 ---

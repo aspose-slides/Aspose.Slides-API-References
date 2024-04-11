@@ -2,7 +2,7 @@
 title: reorder_section_with_slides method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/sectioncollection/reorder_section_with_slides/
 weight: 80
 ---

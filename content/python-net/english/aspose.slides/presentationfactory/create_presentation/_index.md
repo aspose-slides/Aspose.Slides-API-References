@@ -2,7 +2,7 @@
 title: create_presentation method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/presentationfactory/create_presentation/
 weight: 20
 ---

@@ -2,7 +2,7 @@
 title: add_fall_back_fonts method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/fontfallbackrule/add_fall_back_fonts/
 weight: 20
 ---

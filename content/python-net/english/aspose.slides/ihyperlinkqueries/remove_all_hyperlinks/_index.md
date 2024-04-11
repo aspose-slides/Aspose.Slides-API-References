@@ -2,7 +2,7 @@
 title: remove_all_hyperlinks method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ihyperlinkqueries/remove_all_hyperlinks/
 weight: 50
 ---

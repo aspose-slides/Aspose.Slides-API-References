@@ -2,7 +2,7 @@
 title: add_bi_level_effect method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.effects/imagetransformoperationcollection/add_bi_level_effect/
 weight: 100
 ---

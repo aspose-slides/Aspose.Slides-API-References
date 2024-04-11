@@ -2,7 +2,7 @@
 title: geometry_path_to_graphics_path method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.util/shapeutil/geometry_path_to_graphics_path/
 weight: 30
 ---

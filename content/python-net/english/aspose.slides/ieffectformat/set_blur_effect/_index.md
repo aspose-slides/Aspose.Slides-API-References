@@ -2,7 +2,7 @@
 title: set_blur_effect method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ieffectformat/set_blur_effect/
 weight: 20
 ---

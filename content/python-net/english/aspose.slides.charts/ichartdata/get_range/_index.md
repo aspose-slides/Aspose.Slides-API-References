@@ -2,7 +2,7 @@
 title: get_range method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/ichartdata/get_range/
 weight: 40
 ---

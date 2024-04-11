@@ -2,7 +2,7 @@
 title: resource_loading method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/iresourceloadingcallback/resource_loading/
 weight: 20
 ---

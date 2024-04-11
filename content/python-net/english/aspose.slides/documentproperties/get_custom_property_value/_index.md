@@ -2,7 +2,7 @@
 title: get_custom_property_value method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/documentproperties/get_custom_property_value/
 weight: 20
 ---

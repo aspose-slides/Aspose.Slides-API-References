@@ -2,7 +2,7 @@
 title: get_name_by_index method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/itagcollection/get_name_by_index/
 weight: 80
 ---

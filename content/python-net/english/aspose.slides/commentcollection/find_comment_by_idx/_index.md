@@ -2,7 +2,7 @@
 title: find_comment_by_idx method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/commentcollection/find_comment_by_idx/
 weight: 100
 ---

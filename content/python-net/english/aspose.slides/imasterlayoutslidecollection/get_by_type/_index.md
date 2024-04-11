@@ -2,7 +2,7 @@
 title: get_by_type method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/imasterlayoutslidecollection/get_by_type/
 weight: 80
 ---

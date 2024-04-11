@@ -2,7 +2,7 @@
 title: create_paragraph method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/iparagraphfactory/create_paragraph/
 weight: 20
 ---

@@ -2,7 +2,7 @@
 title: split_by_width method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/cell/split_by_width/
 weight: 50
 ---

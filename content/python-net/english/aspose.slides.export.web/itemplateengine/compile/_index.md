@@ -2,7 +2,7 @@
 title: compile method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export.web/itemplateengine/compile/
 weight: 30
 ---

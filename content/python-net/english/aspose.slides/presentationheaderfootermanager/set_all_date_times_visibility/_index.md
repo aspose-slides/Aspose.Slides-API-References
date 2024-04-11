@@ -2,7 +2,7 @@
 title: set_all_date_times_visibility method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/presentationheaderfootermanager/set_all_date_times_visibility/
 weight: 50
 ---

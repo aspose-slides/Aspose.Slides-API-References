@@ -2,7 +2,7 @@
 title: create_color_replace method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.effects/iimagetransformoperationfactory/create_color_replace/
 weight: 120
 ---

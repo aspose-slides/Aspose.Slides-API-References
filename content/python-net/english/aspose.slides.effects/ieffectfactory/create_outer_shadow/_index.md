@@ -2,7 +2,7 @@
 title: create_outer_shadow method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.effects/ieffectfactory/create_outer_shadow/
 weight: 40
 ---

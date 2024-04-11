@@ -2,7 +2,7 @@
 title: quadratic_bezier_to method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/geometrypath/quadratic_bezier_to/
 weight: 40
 ---

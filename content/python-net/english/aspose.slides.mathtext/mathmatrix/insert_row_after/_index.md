@@ -2,7 +2,7 @@
 title: insert_row_after method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/mathmatrix/insert_row_after/
 weight: 270
 ---

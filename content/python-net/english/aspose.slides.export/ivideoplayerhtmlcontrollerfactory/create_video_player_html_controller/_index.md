@@ -2,7 +2,7 @@
 title: create_video_player_html_controller method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/ivideoplayerhtmlcontrollerfactory/create_video_player_html_controller/
 weight: 20
 ---

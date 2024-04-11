@@ -2,7 +2,7 @@
 title: add_notes_slide method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/notesslidemanager/add_notes_slide/
 weight: 20
 ---

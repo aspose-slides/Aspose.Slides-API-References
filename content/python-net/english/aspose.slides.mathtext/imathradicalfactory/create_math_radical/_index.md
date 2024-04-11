@@ -2,7 +2,7 @@
 title: create_math_radical method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathradicalfactory/create_math_radical/
 weight: 20
 ---

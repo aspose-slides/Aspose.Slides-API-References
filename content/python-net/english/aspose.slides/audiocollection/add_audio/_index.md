@@ -2,7 +2,7 @@
 title: add_audio method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/audiocollection/add_audio/
 weight: 20
 ---

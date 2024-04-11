@@ -2,7 +2,7 @@
 title: remove method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/commentcollection/remove/
 weight: 80
 ---

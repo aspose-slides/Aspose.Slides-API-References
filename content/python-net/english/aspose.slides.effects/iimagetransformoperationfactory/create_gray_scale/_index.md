@@ -2,7 +2,7 @@
 title: create_gray_scale method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.effects/iimagetransformoperationfactory/create_gray_scale/
 weight: 150
 ---

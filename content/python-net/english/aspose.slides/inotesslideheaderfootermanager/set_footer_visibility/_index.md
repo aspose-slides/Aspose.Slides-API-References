@@ -2,7 +2,7 @@
 title: set_footer_visibility method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/inotesslideheaderfootermanager/set_footer_visibility/
 weight: 40
 ---

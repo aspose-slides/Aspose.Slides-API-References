@@ -2,7 +2,7 @@
 title: remove_custom_property method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/idocumentproperties/remove_custom_property/
 weight: 50
 ---

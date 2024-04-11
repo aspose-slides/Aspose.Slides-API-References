@@ -2,7 +2,7 @@
 title: insert_picture_frame method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/shapecollection/insert_picture_frame/
 weight: 340
 ---

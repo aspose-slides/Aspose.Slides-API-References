@@ -2,7 +2,7 @@
 title: set_default_master_notes_slide method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/imasternotesslidemanager/set_default_master_notes_slide/
 weight: 20
 ---

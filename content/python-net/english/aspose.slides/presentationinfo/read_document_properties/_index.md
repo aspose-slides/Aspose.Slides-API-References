@@ -2,7 +2,7 @@
 title: read_document_properties method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/presentationinfo/read_document_properties/
 weight: 50
 ---

@@ -2,7 +2,7 @@
 title: create_shape_elements method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/iaudioframe/create_shape_elements/
 weight: 70
 ---

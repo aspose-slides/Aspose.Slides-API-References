@@ -2,7 +2,7 @@
 title: create_image_wrapper method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/imagewrapperfactory/create_image_wrapper/
 weight: 20
 ---

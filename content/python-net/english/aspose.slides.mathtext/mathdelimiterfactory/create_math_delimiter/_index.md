@@ -2,7 +2,7 @@
 title: create_math_delimiter method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/
 weight: 20
 ---

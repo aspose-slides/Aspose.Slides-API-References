@@ -2,7 +2,7 @@
 title: set_footer_and_child_footers_text method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/imasterslideheaderfootermanager/set_footer_and_child_footers_text/
 weight: 50
 ---

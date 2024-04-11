@@ -2,7 +2,7 @@
 title: create_text_frame_format method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/formatfactory/create_text_frame_format/
 weight: 40
 ---

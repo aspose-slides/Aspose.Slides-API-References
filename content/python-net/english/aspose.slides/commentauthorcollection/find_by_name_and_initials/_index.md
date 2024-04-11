@@ -2,7 +2,7 @@
 title: find_by_name_and_initials method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/commentauthorcollection/find_by_name_and_initials/
 weight: 50
 ---

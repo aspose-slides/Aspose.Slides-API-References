@@ -2,7 +2,7 @@
 title: is_chart_type_column method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/charttypecharacterizer/is_chart_type_column/
 weight: 50
 ---

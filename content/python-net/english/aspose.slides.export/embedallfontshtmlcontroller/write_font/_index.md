@@ -2,7 +2,7 @@
 title: write_font method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/embedallfontshtmlcontroller/write_font/
 weight: 90
 ---

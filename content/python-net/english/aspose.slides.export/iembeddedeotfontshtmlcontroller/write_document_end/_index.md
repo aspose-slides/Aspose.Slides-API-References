@@ -2,7 +2,7 @@
 title: write_document_end method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/iembeddedeotfontshtmlcontroller/write_document_end/
 weight: 30
 ---

@@ -2,7 +2,7 @@
 title: set_time_position method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/ipresentationanimationplayer/set_time_position/
 weight: 20
 ---

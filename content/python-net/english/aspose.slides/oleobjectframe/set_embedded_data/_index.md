@@ -2,7 +2,7 @@
 title: set_embedded_data method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/oleobjectframe/set_embedded_data/
 weight: 70
 ---

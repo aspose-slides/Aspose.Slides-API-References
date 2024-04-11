@@ -2,7 +2,7 @@
 title: get_cell_collection method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/chartdataworkbook/get_cell_collection/
 weight: 30
 ---

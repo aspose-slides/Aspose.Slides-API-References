@@ -2,7 +2,7 @@
 title: get_column_alignment method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathmatrix/get_column_alignment/
 weight: 180
 ---

@@ -2,7 +2,7 @@
 title: insert_empty_slide method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/islidecollection/insert_empty_slide/
 weight: 100
 ---

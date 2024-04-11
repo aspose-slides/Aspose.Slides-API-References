@@ -2,7 +2,7 @@
 title: get_consumption_credit method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/metered/get_consumption_credit/
 weight: 40
 ---

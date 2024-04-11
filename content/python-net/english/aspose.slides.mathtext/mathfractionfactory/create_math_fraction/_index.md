@@ -2,7 +2,7 @@
 title: create_math_fraction method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/mathfractionfactory/create_math_fraction/
 weight: 20
 ---

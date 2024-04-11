@@ -2,7 +2,7 @@
 title: set_internal_hyperlink_click method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ihyperlinkmanager/set_internal_hyperlink_click/
 weight: 30
 ---

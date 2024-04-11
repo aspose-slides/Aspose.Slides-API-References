@@ -2,7 +2,7 @@
 title: set_geometry_path method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/iaudioframe/set_geometry_path/
 weight: 50
 ---

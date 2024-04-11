@@ -2,7 +2,7 @@
 title: copy_to method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathblock/copy_to/
 weight: 280
 ---

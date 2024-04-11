@@ -2,7 +2,7 @@
 title: get_hyperlink_mouse_overs method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/ihyperlinkqueries/get_hyperlink_mouse_overs/
 weight: 30
 ---

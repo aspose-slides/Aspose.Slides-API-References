@@ -2,7 +2,7 @@
 title: create_motion_effect method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.animation/ibehaviorfactory/create_motion_effect/
 weight: 50
 ---

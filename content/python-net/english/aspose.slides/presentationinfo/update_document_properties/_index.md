@@ -2,7 +2,7 @@
 title: update_document_properties method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/presentationinfo/update_document_properties/
 weight: 60
 ---

@@ -2,7 +2,7 @@
 title: convert_to_smart_art method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/legacydiagram/convert_to_smart_art/
 weight: 70
 ---

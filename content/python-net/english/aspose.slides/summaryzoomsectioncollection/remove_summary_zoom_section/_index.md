@@ -2,7 +2,7 @@
 title: remove_summary_zoom_section method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/summaryzoomsectioncollection/remove_summary_zoom_section/
 weight: 40
 ---

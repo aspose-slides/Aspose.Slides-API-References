@@ -2,7 +2,7 @@
 title: create_inner_shadow method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.effects/ieffectfactory/create_inner_shadow/
 weight: 30
 ---

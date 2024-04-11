@@ -2,7 +2,7 @@
 title: create_math_right_sub_superscript_element method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/create_math_right_sub_superscript_element/
 weight: 20
 ---

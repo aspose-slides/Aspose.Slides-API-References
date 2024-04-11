@@ -2,7 +2,7 @@
 title: calculate_formulas method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/chartdataworkbook/calculate_formulas/
 weight: 50
 ---

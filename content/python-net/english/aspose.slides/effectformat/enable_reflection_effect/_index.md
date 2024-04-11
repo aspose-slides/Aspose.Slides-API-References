@@ -2,7 +2,7 @@
 title: enable_reflection_effect method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/effectformat/enable_reflection_effect/
 weight: 80
 ---

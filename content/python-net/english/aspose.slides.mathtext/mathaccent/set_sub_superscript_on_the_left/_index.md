@@ -2,7 +2,7 @@
 title: set_sub_superscript_on_the_left method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/mathaccent/set_sub_superscript_on_the_left/
 weight: 100
 ---

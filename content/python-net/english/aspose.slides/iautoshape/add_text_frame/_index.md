@@ -2,7 +2,7 @@
 title: add_text_frame method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/iautoshape/add_text_frame/
 weight: 40
 ---

@@ -2,7 +2,7 @@
 title: CannotCombine2DAnd3DChartsException constructor
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.charts/cannotcombine2dand3dchartsexception/__init__/
 weight: 10
 ---

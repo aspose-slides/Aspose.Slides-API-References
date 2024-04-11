@@ -2,7 +2,7 @@
 title: get_effective method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/icellformat/get_effective/
 weight: 20
 ---

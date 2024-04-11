@@ -2,7 +2,7 @@
 title: create_alpha_modulate method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.effects/imagetransformoperationfactory/create_alpha_modulate/
 weight: 60
 ---

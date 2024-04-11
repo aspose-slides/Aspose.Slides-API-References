@@ -2,7 +2,7 @@
 title: create_ole_type_lib_reference method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.vba/vbareferencefactory/create_ole_type_lib_reference/
 weight: 20
 ---

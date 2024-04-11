@@ -2,7 +2,7 @@
 title: add_control method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/controlcollection/add_control/
 weight: 20
 ---

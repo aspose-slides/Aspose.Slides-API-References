@@ -2,7 +2,7 @@
 title: create_file_stream_wrapper method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/streamwrapperfactory/create_file_stream_wrapper/
 weight: 30
 ---

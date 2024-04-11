@@ -2,7 +2,7 @@
 title: create_scale_effect method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.animation/ibehaviorfactory/create_scale_effect/
 weight: 80
 ---

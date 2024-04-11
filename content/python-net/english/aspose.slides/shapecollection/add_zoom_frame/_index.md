@@ -2,7 +2,7 @@
 title: add_zoom_frame method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/shapecollection/add_zoom_frame/
 weight: 40
 ---

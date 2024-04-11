@@ -2,7 +2,7 @@
 title: get_hyperlink_clicks method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/hyperlinkqueries/get_hyperlink_clicks/
 weight: 20
 ---

@@ -2,7 +2,7 @@
 title: write_slide_start method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/ihtmlformattingcontroller/write_slide_start/
 weight: 40
 ---

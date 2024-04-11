@@ -2,7 +2,7 @@
 title: write_document_start method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.export/embeddedeotfontshtmlcontroller/write_document_start/
 weight: 20
 ---

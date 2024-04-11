@@ -2,7 +2,7 @@
 title: set_license method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/license/set_license/
 weight: 20
 ---

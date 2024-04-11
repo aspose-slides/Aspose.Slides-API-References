@@ -2,7 +2,7 @@
 title: insert_table method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/shapecollection/insert_table/
 weight: 360
 ---

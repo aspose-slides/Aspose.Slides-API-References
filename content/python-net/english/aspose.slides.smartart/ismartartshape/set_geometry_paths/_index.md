@@ -2,7 +2,7 @@
 title: set_geometry_paths method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.smartart/ismartartshape/set_geometry_paths/
 weight: 60
 ---

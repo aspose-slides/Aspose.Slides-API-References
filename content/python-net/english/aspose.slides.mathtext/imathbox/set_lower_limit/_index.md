@@ -2,7 +2,7 @@
 title: set_lower_limit method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.mathtext/imathbox/set_lower_limit/
 weight: 130
 ---

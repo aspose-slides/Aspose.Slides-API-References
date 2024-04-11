@@ -2,7 +2,7 @@
 title: write_binded_presentation method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/presentationinfo/write_binded_presentation/
 weight: 20
 ---

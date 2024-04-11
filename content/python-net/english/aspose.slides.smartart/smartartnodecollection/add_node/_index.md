@@ -2,7 +2,7 @@
 title: add_node method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides.smartart/smartartnodecollection/add_node/
 weight: 30
 ---

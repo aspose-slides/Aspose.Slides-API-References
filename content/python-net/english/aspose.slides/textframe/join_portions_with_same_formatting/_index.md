@@ -2,7 +2,7 @@
 title: join_portions_with_same_formatting method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/textframe/join_portions_with_same_formatting/
 weight: 30
 ---

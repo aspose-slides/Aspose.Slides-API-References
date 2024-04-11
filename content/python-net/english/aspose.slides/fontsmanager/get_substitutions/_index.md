@@ -2,7 +2,7 @@
 title: get_substitutions method
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
-type: docS
+type: docs
 url: /aspose.slides/fontsmanager/get_substitutions/
 weight: 50
 ---
