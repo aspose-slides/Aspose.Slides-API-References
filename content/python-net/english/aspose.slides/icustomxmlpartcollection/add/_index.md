@@ -64,7 +64,7 @@ def add(self, xml_string):
 
 
 
-## add {#System.IO.Stream}
+## add {#systemiostream}
 Adds new custom xml part.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#IVbaReference}
+## add {#ivbareference}
 Adds the new reference to references collection
 
 

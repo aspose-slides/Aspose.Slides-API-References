@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## insert_section_zoom_frame {#int-float-float-float-float-ISection}
+## insert_section_zoom_frame {#int-float-float-float-float-isection}
 Creates a new Section Zoom object and inserts into to a collection at the specified index.
 
 ### Returns
@@ -40,7 +40,7 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section):
 
 
 
-## insert_section_zoom_frame {#int-float-float-float-float-ISection-IPPImage}
+## insert_section_zoom_frame {#int-float-float-float-float-isection-ippimage}
 Creates a new Section Zoom object and inserts into to a collection at the specified index.
 
 ### Returns

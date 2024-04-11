@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement}
+## __init__ {#imathelement}
 Initializes a new instance of the MathGroupingCharacter class 
             with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
 
@@ -25,7 +25,7 @@ def __init__(self, element):
 
 
 
-## __init__ {#IMathElement-char-MathTopBotPositions-MathTopBotPositions}
+## __init__ {#imathelement-char-mathtopbotpositions-mathtopbotpositions}
 Initializes a new instance of the MathGroupingCharacter class 
             with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
 

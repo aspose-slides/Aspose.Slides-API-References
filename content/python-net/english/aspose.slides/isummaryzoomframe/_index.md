@@ -63,10 +63,10 @@ The ISummaryZoomFrame type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [get_thumbnail](/slides/python-net/aspose.slides/isummaryzoomframe/get_thumbnail/#) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/isummaryzoomframe/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/isummaryzoomframe/write_as_svg/#System.IO.Stream) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/isummaryzoomframe/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/isummaryzoomframe/add_placeholder/#IPlaceholder) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/isummaryzoomframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/isummaryzoomframe/write_as_svg/#systemiostream) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/isummaryzoomframe/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/isummaryzoomframe/add_placeholder/#iplaceholder) |  |
 | [remove_placeholder](/slides/python-net/aspose.slides/isummaryzoomframe/remove_placeholder/#) |  |
 | [get_base_placeholder](/slides/python-net/aspose.slides/isummaryzoomframe/get_base_placeholder/#) |  |
 

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## index_of {#IBehavior}
+## index_of {#ibehavior}
 Determines the index of a specific item in the .NET type System.Collections.Generic.IList`1.
 
 ### Returns

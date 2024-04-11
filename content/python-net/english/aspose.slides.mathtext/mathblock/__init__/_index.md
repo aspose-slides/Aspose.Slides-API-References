@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#IMathElement}
+## __init__ {#imathelement}
 Initializes a new instance of the MathBlock class.
 
 
@@ -36,7 +36,7 @@ def __init__(self, math_element):
 
 
 
-## __init__ {#Iterable[IMathElement]}
+## __init__ {#iterableimathelement}
 Initializes a new instance of the MathBlock class.
 
 

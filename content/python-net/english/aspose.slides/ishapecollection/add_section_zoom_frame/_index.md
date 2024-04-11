@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## add_section_zoom_frame {#float-float-float-float-ISection}
+## add_section_zoom_frame {#float-float-float-float-isection}
 Adds a new Section Zoom object to the end of a collection.
 
 ### Returns
@@ -39,7 +39,7 @@ def add_section_zoom_frame(self, x, y, width, height, section):
 
 
 
-## add_section_zoom_frame {#float-float-float-float-ISection-IPPImage}
+## add_section_zoom_frame {#float-float-float-float-isection-ippimage}
 Adds a new Section Zoom object to the end of a collection.
 
 ### Returns

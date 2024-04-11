@@ -26,7 +26,7 @@ def add_group_shape(self):
 
 
 
-## add_group_shape {#ISvgImage-float-float-float-float}
+## add_group_shape {#isvgimage-float-float-float-float}
 Creates a new GroupShape and adds it to the end of the collection.
             GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
 

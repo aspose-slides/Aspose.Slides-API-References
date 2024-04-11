@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_line_styles {#aspose.pydrawing.Color}
+## get_line_styles {#asposepydrawingcolor}
 Returns a collection of theme defined line styles.
 
 ### Returns

@@ -30,10 +30,10 @@ The IImageCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#aspose.pydrawing.Image) | Add an image to a presentation. |
-| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#System.IO.Stream) | Add an image to a presentation from stream. |
-| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#System.IO.Stream-LoadingStreamBehavior) | Creates and adds an image to a presentation from stream. |
+| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#asposepydrawingimage) | Add an image to a presentation. |
+| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#systemiostream) | Add an image to a presentation from stream. |
+| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#systemiostream-loadingstreambehavior) | Creates and adds an image to a presentation from stream. |
 | [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#bytes) | Adds an image to a presentation from specified buffer. |
-| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#IPPImage) | Adds a copy of an image from an another presentation. |
-| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#ISvgImage) | Add an image to a presentation from SVG object. |
+| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#ippimage) | Adds a copy of an image from an another presentation. |
+| [add_image](/slides/python-net/aspose.slides/iimagecollection/add_image/#isvgimage) | Add an image to a presentation from SVG object. |
 

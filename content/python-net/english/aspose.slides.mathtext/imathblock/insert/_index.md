@@ -8,7 +8,7 @@ weight: 230
 ---
 
 
-## insert {#int-IMathElement}
+## insert {#int-imathelement}
 
 
 

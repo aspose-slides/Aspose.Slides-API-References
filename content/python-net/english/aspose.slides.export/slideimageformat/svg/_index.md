@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## svg {#SVGOptions}
+## svg {#svgoptions}
 Slides should converted to a SVG format.
 
 ### Returns

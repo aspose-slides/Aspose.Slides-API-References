@@ -8,7 +8,7 @@ weight: 190
 ---
 
 
-## is_series_uses_bubble_size_coordinate {#ChartType}
+## is_series_uses_bubble_size_coordinate {#charttype}
 Returns if bubble size coordinates can be used for specified series type.
 
 ### Returns

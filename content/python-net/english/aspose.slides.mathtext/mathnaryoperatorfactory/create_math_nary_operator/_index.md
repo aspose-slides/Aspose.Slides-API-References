@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_nary_operator {#char-IMathElement}
+## create_math_nary_operator {#char-imathelement}
 Creates IMathNaryOperator
 
 ### Returns
@@ -30,7 +30,7 @@ def create_math_nary_operator(self, operator_symbol, base_argument):
 
 
 
-## create_math_nary_operator {#char-IMathElement-IMathElement}
+## create_math_nary_operator {#char-imathelement-imathelement}
 Creates IMathNaryOperator
 
 ### Returns
@@ -53,7 +53,7 @@ def create_math_nary_operator(self, operator_symbol, base_argument, lower_limit)
 
 
 
-## create_math_nary_operator {#char-IMathElement-IMathElement-IMathElement}
+## create_math_nary_operator {#char-imathelement-imathelement-imathelement}
 Creates IMathNaryOperator
 
 ### Returns

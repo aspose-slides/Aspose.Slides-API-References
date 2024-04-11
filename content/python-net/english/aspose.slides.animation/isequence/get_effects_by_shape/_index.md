@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## get_effects_by_shape {#IShape}
+## get_effects_by_shape {#ishape}
 
 
 

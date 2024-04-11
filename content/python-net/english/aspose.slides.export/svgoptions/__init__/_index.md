@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#ILinkEmbedController}
+## __init__ {#ilinkembedcontroller}
 Initializes a new instance of the SVGOptions class.
 
 

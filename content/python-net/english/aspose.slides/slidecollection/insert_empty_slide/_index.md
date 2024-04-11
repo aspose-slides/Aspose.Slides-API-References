@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## insert_empty_slide {#int-ILayoutSlide}
+## insert_empty_slide {#int-ilayoutslide}
 Inserts a copy of a specified slide to specified position of the collection.
 
 ### Returns

@@ -21,8 +21,8 @@ The MathBlock type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#) | Initializes a new instance of the MathBlock class. |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#IMathElement) | Creates a new mathematical block and puts specified element in it |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#Iterable[IMathElement]) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#imathelement) | Creates a new mathematical block and puts specified element in it |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathblock/__init__/#iterableimathelement) |  |
 
 ## Properties
 
@@ -44,45 +44,45 @@ The MathBlock type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [join](/slides/python-net/aspose.slides.mathtext/mathblock/join/#IMathElement) | Joins a mathematical element with this mathematical block |
+| [join](/slides/python-net/aspose.slides.mathtext/mathblock/join/#imathelement) | Joins a mathematical element with this mathematical block |
 | [join](/slides/python-net/aspose.slides.mathtext/mathblock/join/#string) | Joins a mathematical text with this mathematical block |
-| [divide](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#IMathElement) | Creates a fraction with this numerator and specified denominator |
+| [divide](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#imathelement) | Creates a fraction with this numerator and specified denominator |
 | [divide](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#string) | Creates a fraction with this numerator and specified denominator |
-| [divide](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#IMathElement-MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
-| [divide](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#string-MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [divide](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#imathelement-mathfractiontypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [divide](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#string-mathfractiontypes) | Creates a fraction of the specified type with this numerator and specified denominator |
 | [enclose](/slides/python-net/aspose.slides.mathtext/mathblock/enclose/#char-char) | Encloses child elements of this block in specified characters such as parenthesis or another characters as framing |
 | [enclose](/slides/python-net/aspose.slides.mathtext/mathblock/enclose/#char-char-char) | Encloses child elements of this block in specified characters such as parenthesis or another as framing<br/>            and delimit with a separator character |
 | [enclose](/slides/python-net/aspose.slides.mathtext/mathblock/enclose/#) | Encloses a math element in parenthesis |
-| [function](/slides/python-net/aspose.slides.mathtext/mathblock/function/#IMathElement) | Takes a function of an argument using this instance as the function name |
+| [function](/slides/python-net/aspose.slides.mathtext/mathblock/function/#imathelement) | Takes a function of an argument using this instance as the function name |
 | [function](/slides/python-net/aspose.slides.mathtext/mathblock/function/#string) | Takes a function of an argument using this instance as the function name |
-| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#IMathElement) | Takes specified function using this instance as the argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#imathelement) | Takes specified function using this instance as the argument |
 | [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#string) | Takes specified function using this instance as the argument |
-| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#MathFunctionsOfOneArgument) | Takes specified function using this instance as the argument |
-| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#MathFunctionsOfTwoArguments-IMathElement) | Takes specified function using this instance as the argument and specified additional argument |
-| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#MathFunctionsOfTwoArguments-string) | Takes specified function using this instance as the argument and specified additional argument |
-| [set_subscript](/slides/python-net/aspose.slides.mathtext/mathblock/set_subscript/#IMathElement) | Creates subscript |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#mathfunctionsofoneargument) | Takes specified function using this instance as the argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#mathfunctionsoftwoarguments-imathelement) | Takes specified function using this instance as the argument and specified additional argument |
+| [as_argument_of_function](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#mathfunctionsoftwoarguments-string) | Takes specified function using this instance as the argument and specified additional argument |
+| [set_subscript](/slides/python-net/aspose.slides.mathtext/mathblock/set_subscript/#imathelement) | Creates subscript |
 | [set_subscript](/slides/python-net/aspose.slides.mathtext/mathblock/set_subscript/#string) | Creates subscript |
-| [set_superscript](/slides/python-net/aspose.slides.mathtext/mathblock/set_superscript/#IMathElement) | Creates superscript |
+| [set_superscript](/slides/python-net/aspose.slides.mathtext/mathblock/set_superscript/#imathelement) | Creates superscript |
 | [set_superscript](/slides/python-net/aspose.slides.mathtext/mathblock/set_superscript/#string) | Creates superscript |
-| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/mathblock/set_sub_superscript_on_the_right/#IMathElement-IMathElement) | Creates subscript and superscript on the right |
+| [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/mathblock/set_sub_superscript_on_the_right/#imathelement-imathelement) | Creates subscript and superscript on the right |
 | [set_sub_superscript_on_the_right](/slides/python-net/aspose.slides.mathtext/mathblock/set_sub_superscript_on_the_right/#string-string) | Creates subscript and superscript on the right |
-| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/mathblock/set_sub_superscript_on_the_left/#IMathElement-IMathElement) | Creates subscript and superscript on the left |
+| [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/mathblock/set_sub_superscript_on_the_left/#imathelement-imathelement) | Creates subscript and superscript on the left |
 | [set_sub_superscript_on_the_left](/slides/python-net/aspose.slides.mathtext/mathblock/set_sub_superscript_on_the_left/#string-string) | Creates subscript and superscript on the left |
-| [radical](/slides/python-net/aspose.slides.mathtext/mathblock/radical/#IMathElement) | Specifies the mathematical root of the given degree from the specified argument. |
+| [radical](/slides/python-net/aspose.slides.mathtext/mathblock/radical/#imathelement) | Specifies the mathematical root of the given degree from the specified argument. |
 | [radical](/slides/python-net/aspose.slides.mathtext/mathblock/radical/#string) | Specifies the mathematical root of the given degree from the specified argument. |
-| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/mathblock/set_upper_limit/#IMathElement) | Takes upper limit |
+| [set_upper_limit](/slides/python-net/aspose.slides.mathtext/mathblock/set_upper_limit/#imathelement) | Takes upper limit |
 | [set_upper_limit](/slides/python-net/aspose.slides.mathtext/mathblock/set_upper_limit/#string) | Takes upper limit |
-| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/mathblock/set_lower_limit/#IMathElement) | Takes lower limit |
+| [set_lower_limit](/slides/python-net/aspose.slides.mathtext/mathblock/set_lower_limit/#imathelement) | Takes lower limit |
 | [set_lower_limit](/slides/python-net/aspose.slides.mathtext/mathblock/set_lower_limit/#string) | Takes lower limit |
-| [nary](/slides/python-net/aspose.slides.mathtext/mathblock/nary/#MathNaryOperatorTypes-IMathElement-IMathElement) | Creates a N-ary operator |
-| [nary](/slides/python-net/aspose.slides.mathtext/mathblock/nary/#MathNaryOperatorTypes-string-string) | Creates a N-ary operator |
-| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#MathIntegralTypes-IMathElement-IMathElement-MathLimitLocations) | Takes the integral |
-| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#MathIntegralTypes-IMathElement-IMathElement) | Takes the integral |
-| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#MathIntegralTypes) | Takes the integral without limits |
-| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#MathIntegralTypes-string-string-MathLimitLocations) | Takes the integral |
-| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#MathIntegralTypes-string-string) | Takes the integral |
+| [nary](/slides/python-net/aspose.slides.mathtext/mathblock/nary/#mathnaryoperatortypes-imathelement-imathelement) | Creates a N-ary operator |
+| [nary](/slides/python-net/aspose.slides.mathtext/mathblock/nary/#mathnaryoperatortypes-string-string) | Creates a N-ary operator |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#mathintegraltypes-imathelement-imathelement-mathlimitlocations) | Takes the integral |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#mathintegraltypes-imathelement-imathelement) | Takes the integral |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#mathintegraltypes) | Takes the integral without limits |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#mathintegraltypes-string-string-mathlimitlocations) | Takes the integral |
+| [integral](/slides/python-net/aspose.slides.mathtext/mathblock/integral/#mathintegraltypes-string-string) | Takes the integral |
 | [group](/slides/python-net/aspose.slides.mathtext/mathblock/group/#) | Places this element in a group using a bottom curly bracket |
-| [group](/slides/python-net/aspose.slides.mathtext/mathblock/group/#char-MathTopBotPositions-MathTopBotPositions) | Places this element in a group using a grouping character such as bottom curly bracket or another |
+| [group](/slides/python-net/aspose.slides.mathtext/mathblock/group/#char-mathtopbotpositions-mathtopbotpositions) | Places this element in a group using a grouping character such as bottom curly bracket or another |
 | [to_border_box](/slides/python-net/aspose.slides.mathtext/mathblock/to_border_box/#) | Places this element in a border-box |
 | [to_border_box](/slides/python-net/aspose.slides.mathtext/mathblock/to_border_box/#bool-bool-bool-bool-bool-bool-bool-bool) | Places this element in a border-box |
 | [to_math_array](/slides/python-net/aspose.slides.mathtext/mathblock/to_math_array/#) | Puts child elements in a vertical array |
@@ -91,15 +91,15 @@ The MathBlock type exposes the following members:
 | [underbar](/slides/python-net/aspose.slides.mathtext/mathblock/underbar/#) | Sets a bar on the bottom of this element |
 | [to_box](/slides/python-net/aspose.slides.mathtext/mathblock/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
 | [get_children](/slides/python-net/aspose.slides.mathtext/mathblock/get_children/#) | Get children elements |
-| [add](/slides/python-net/aspose.slides.mathtext/mathblock/add/#IMathElement) | Adds a math element to the end of the collection. |
+| [add](/slides/python-net/aspose.slides.mathtext/mathblock/add/#imathelement) | Adds a math element to the end of the collection. |
 | [clear](/slides/python-net/aspose.slides.mathtext/mathblock/clear/#) | Removes all elements from the collection. |
-| [contains](/slides/python-net/aspose.slides.mathtext/mathblock/contains/#IMathElement) | Determines whether the collection contains a specific value. |
-| [copy_to](/slides/python-net/aspose.slides.mathtext/mathblock/copy_to/#List[IMathElement]-int) | Copy to specified array. |
-| [remove](/slides/python-net/aspose.slides.mathtext/mathblock/remove/#IMathElement) | Removes the first occurrence of a specific object from the collection. |
-| [index_of](/slides/python-net/aspose.slides.mathtext/mathblock/index_of/#IMathElement) | Determines the index of a specific math element in collection. |
-| [insert](/slides/python-net/aspose.slides.mathtext/mathblock/insert/#int-IMathElement) | Inserts a MathElement into the collection at the specified index. |
+| [contains](/slides/python-net/aspose.slides.mathtext/mathblock/contains/#imathelement) | Determines whether the collection contains a specific value. |
+| [copy_to](/slides/python-net/aspose.slides.mathtext/mathblock/copy_to/#listimathelement-int) | Copy to specified array. |
+| [remove](/slides/python-net/aspose.slides.mathtext/mathblock/remove/#imathelement) | Removes the first occurrence of a specific object from the collection. |
+| [index_of](/slides/python-net/aspose.slides.mathtext/mathblock/index_of/#imathelement) | Determines the index of a specific math element in collection. |
+| [insert](/slides/python-net/aspose.slides.mathtext/mathblock/insert/#int-imathelement) | Inserts a MathElement into the collection at the specified index. |
 | [remove_at](/slides/python-net/aspose.slides.mathtext/mathblock/remove_at/#int) | Removes the element at the specified index of the collection. |
-| [join_block](/slides/python-net/aspose.slides.mathtext/mathblock/join_block/#IMathBlock) | Joins another mathematical block with this one |
+| [join_block](/slides/python-net/aspose.slides.mathtext/mathblock/join_block/#imathblock) | Joins another mathematical block with this one |
 | [delimit](/slides/python-net/aspose.slides.mathtext/mathblock/delimit/#char) | Delimits child elements with separator character (without the brackets) |
-| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/mathblock/write_as_math_ml/#System.IO.Stream) | Saves content of this [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock) as MathML |
+| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/mathblock/write_as_math_ml/#systemiostream) | Saves content of this [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock) as MathML |
 

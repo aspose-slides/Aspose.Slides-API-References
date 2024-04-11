@@ -31,12 +31,12 @@ The PortionCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/portioncollection/add/#IPortion) | Adds a Portion to the end of collection. |
-| [index_of](/slides/python-net/aspose.slides/portioncollection/index_of/#IPortion) | Determines the index of a specific item in the .NET type System.Collections.Generic.IList`1. |
-| [insert](/slides/python-net/aspose.slides/portioncollection/insert/#int-IPortion) | Inserts a Portion into the collection at the specified index. |
+| [add](/slides/python-net/aspose.slides/portioncollection/add/#iportion) | Adds a Portion to the end of collection. |
+| [index_of](/slides/python-net/aspose.slides/portioncollection/index_of/#iportion) | Determines the index of a specific item in the .NET type System.Collections.Generic.IList`1. |
+| [insert](/slides/python-net/aspose.slides/portioncollection/insert/#int-iportion) | Inserts a Portion into the collection at the specified index. |
 | [clear](/slides/python-net/aspose.slides/portioncollection/clear/#) | Removes all elements from the collection. |
-| [contains](/slides/python-net/aspose.slides/portioncollection/contains/#IPortion) | Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value. |
-| [copy_to](/slides/python-net/aspose.slides/portioncollection/copy_to/#List[IPortion]-int) | Copies the elements of the .NET type System.Collections.Generic.ICollection`1 to an .NET type System.Array, starting at a particular .NET type System.Array index. |
-| [remove](/slides/python-net/aspose.slides/portioncollection/remove/#IPortion) | Removes the first occurrence of a specific object from the .NET type System.Collections.Generic.ICollection`1. |
+| [contains](/slides/python-net/aspose.slides/portioncollection/contains/#iportion) | Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value. |
+| [copy_to](/slides/python-net/aspose.slides/portioncollection/copy_to/#listiportion-int) | Copies the elements of the .NET type System.Collections.Generic.ICollection`1 to an .NET type System.Array, starting at a particular .NET type System.Array index. |
+| [remove](/slides/python-net/aspose.slides/portioncollection/remove/#iportion) | Removes the first occurrence of a specific object from the .NET type System.Collections.Generic.ICollection`1. |
 | [remove_at](/slides/python-net/aspose.slides/portioncollection/remove_at/#int) | Removes the element at the specified index of the collection. |
 

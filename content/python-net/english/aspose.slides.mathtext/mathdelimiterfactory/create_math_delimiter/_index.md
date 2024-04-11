@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_delimiter {#IMathElement}
+## create_math_delimiter {#imathelement}
 Create a math delimiter by applying to the element
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_delimiter(self, element):
 
 
 
-## create_math_delimiter {#IMathElementCollection}
+## create_math_delimiter {#imathelementcollection}
 Create a math delimiter by applying to the element
 
 ### Returns

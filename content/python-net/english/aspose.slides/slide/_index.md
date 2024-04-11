@@ -47,29 +47,29 @@ The Slide type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [join_portions_with_same_formatting](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#IShapeCollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [join_portions_with_same_formatting](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 | [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#) | Returns a Thumbnail Image object (20% of real size). |
-| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#aspose.pydrawing.Size) | Returns a Thumbnail Bitmap object with specified size. |
-| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#aspose.slides.export.ITiffOptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
-| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#aspose.slides.export.INotesCommentsLayoutingOptions) | Returns a Thumbnail Bitmap object. |
-| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#aspose.slides.export.INotesCommentsLayoutingOptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Size) | Returns a Thumbnail Bitmap object with specified size. |
-| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#aspose.slides.export.IRenderingOptions) | Returns a Thumbnail Bitmap object. |
-| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#aspose.slides.export.IRenderingOptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Size) | Returns a Thumbnail Bitmap object with specified size. |
-| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-int-int) | Renders certain slide to a Graphics object using specified size. |
-| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-float) | Renders certain slide to a Graphics object using specified scale. |
-| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics) | Renders certain slide to a Graphics object. |
-| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics) | Renders certain slide to a Graphics object. |
-| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-float-float) | Renders certain slide to a Graphics object with custom scaling. |
-| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-aspose.pydrawing.Size) | Renders certain slide to a Graphics object using specified size. |
-| [write_as_svg](/slides/python-net/aspose.slides/slide/write_as_svg/#System.IO.Stream) | Saves content of slide as SVG file. |
-| [write_as_svg](/slides/python-net/aspose.slides/slide/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) | Saves content of slide as SVG file. |
-| [equals](/slides/python-net/aspose.slides/slide/equals/#IBaseSlide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
+| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportitiffoptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
+| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportinotescommentslayoutingoptions) | Returns a Thumbnail Bitmap object. |
+| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportinotescommentslayoutingoptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
+| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Bitmap object. |
+| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [get_thumbnail](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
+| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics-int-int) | Renders certain slide to a Graphics object using specified size. |
+| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics-float) | Renders certain slide to a Graphics object using specified scale. |
+| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics) | Renders certain slide to a Graphics object. |
+| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics) | Renders certain slide to a Graphics object. |
+| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-float-float) | Renders certain slide to a Graphics object with custom scaling. |
+| [render_to_graphics](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-asposepydrawingsize) | Renders certain slide to a Graphics object using specified size. |
+| [write_as_svg](/slides/python-net/aspose.slides/slide/write_as_svg/#systemiostream) | Saves content of slide as SVG file. |
+| [write_as_svg](/slides/python-net/aspose.slides/slide/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) | Saves content of slide as SVG file. |
+| [equals](/slides/python-net/aspose.slides/slide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 | [create_theme_effective](/slides/python-net/aspose.slides/slide/create_theme_effective/#) | Returns an effective theme for this slide. |
 | [find_shape_by_alt_text](/slides/python-net/aspose.slides/slide/find_shape_by_alt_text/#string) | Finds first occurrence of a shape with the specified alternative text. |
 | [remove](/slides/python-net/aspose.slides/slide/remove/#) | Removes slide from presentation. |
 | [reset](/slides/python-net/aspose.slides/slide/reset/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [get_slide_comments](/slides/python-net/aspose.slides/slide/get_slide_comments/#ICommentAuthor) | Returns all slide comments added by specific author. |
+| [get_slide_comments](/slides/python-net/aspose.slides/slide/get_slide_comments/#icommentauthor) | Returns all slide comments added by specific author. |
 

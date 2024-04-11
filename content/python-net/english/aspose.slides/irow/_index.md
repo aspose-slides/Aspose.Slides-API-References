@@ -39,7 +39,7 @@ The IRow type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_text_format](/slides/python-net/aspose.slides/irow/set_text_format/#IPortionFormat) |  |
-| [set_text_format](/slides/python-net/aspose.slides/irow/set_text_format/#IParagraphFormat) |  |
-| [set_text_format](/slides/python-net/aspose.slides/irow/set_text_format/#ITextFrameFormat) |  |
+| [set_text_format](/slides/python-net/aspose.slides/irow/set_text_format/#iportionformat) |  |
+| [set_text_format](/slides/python-net/aspose.slides/irow/set_text_format/#iparagraphformat) |  |
+| [set_text_format](/slides/python-net/aspose.slides/irow/set_text_format/#itextframeformat) |  |
 

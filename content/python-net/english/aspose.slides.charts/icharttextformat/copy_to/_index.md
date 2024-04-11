@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## copy_to {#ITextFrame}
+## copy_to {#itextframe}
 
 
 

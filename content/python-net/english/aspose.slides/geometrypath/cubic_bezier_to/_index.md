@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## cubic_bezier_to {#aspose.pydrawing.PointF-aspose.pydrawing.PointF-aspose.pydrawing.PointF}
+## cubic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
 Adds cubic Bezier curve at the end the path
 
 
@@ -26,7 +26,7 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 
 
-## cubic_bezier_to {#aspose.pydrawing.PointF-aspose.pydrawing.PointF-aspose.pydrawing.PointF-int}
+## cubic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
 Adds cubic Bezier curve at the end the path
 
 

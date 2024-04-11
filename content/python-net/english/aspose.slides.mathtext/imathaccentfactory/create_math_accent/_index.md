@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_accent {#IMathElement}
+## create_math_accent {#imathelement}
 Creates a math accent applying to a specified math element with the default accent character value
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_accent(self, element):
 
 
 
-## create_math_accent {#IMathElement-char}
+## create_math_accent {#imathelement-char}
 Creates a math accent applying to a specified math element with the default accent character value
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement-IMathElement}
+## __init__ {#imathelement-imathelement}
 Initializes a new instance of the MathLimit class.
 
 
@@ -25,7 +25,7 @@ def __init__(self, base_arg, limit):
 
 
 
-## __init__ {#IMathElement-IMathElement-bool}
+## __init__ {#imathelement-imathelement-bool}
 Initializes a new instance of the MathLimit class.
 
 

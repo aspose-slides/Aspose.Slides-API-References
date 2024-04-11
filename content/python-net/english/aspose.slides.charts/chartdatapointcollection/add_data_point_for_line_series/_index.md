@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add_data_point_for_line_series {#IChartDataCell}
+## add_data_point_for_line_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Line subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeLine(Aspose.Slides.Chart. method).
 

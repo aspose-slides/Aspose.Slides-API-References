@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement-IMathElement-IMathElement}
+## __init__ {#imathelement-imathelement-imathelement}
 Initializes a new instance of the MathRightSubSuperscriptElement class.
 
 

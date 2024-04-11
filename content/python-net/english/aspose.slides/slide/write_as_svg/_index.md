@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## write_as_svg {#System.IO.Stream}
+## write_as_svg {#systemiostream}
 Saves content of slide as SVG file.
 
 
@@ -24,7 +24,7 @@ def write_as_svg(self, stream):
 
 
 
-## write_as_svg {#System.IO.Stream-aspose.slides.export.ISVGOptions}
+## write_as_svg {#systemiostream-asposeslidesexportisvgoptions}
 Saves content of slide as SVG file.
 
 

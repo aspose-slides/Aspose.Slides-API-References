@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#IDigitalSignature}
+## add {#idigitalsignature}
 Adds the signature at the end of collection.
 
 

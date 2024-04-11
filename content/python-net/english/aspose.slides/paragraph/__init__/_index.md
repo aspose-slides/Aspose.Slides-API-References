@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#Paragraph}
+## __init__ {#paragraph}
 Initializes a new instance of the Paragraph class with default properties.
 
 

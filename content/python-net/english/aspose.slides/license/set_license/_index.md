@@ -52,7 +52,7 @@ Tries to find the license in the following locations:
 
 
 
-## set_license {#System.IO.Stream}
+## set_license {#systemiostream}
 Licenses the component.
 
 

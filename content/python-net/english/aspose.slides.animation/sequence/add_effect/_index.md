@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_effect {#IShape-EffectType-EffectSubtype-EffectTriggerType}
+## add_effect {#ishape-effecttype-effectsubtype-effecttriggertype}
 
 
 
@@ -27,7 +27,7 @@ def add_effect(self, shape, effect_type, subtype, trigger_type):
 
 
 
-## add_effect {#IParagraph-EffectType-EffectSubtype-EffectTriggerType}
+## add_effect {#iparagraph-effecttype-effectsubtype-effecttriggertype}
 
 
 
@@ -46,7 +46,7 @@ def add_effect(self, paragraph, effect_type, subtype, trigger_type):
 
 
 
-## add_effect {#aspose.slides.charts.IChart-EffectChartMajorGroupingType-int-EffectType-EffectSubtype-EffectTriggerType}
+## add_effect {#asposeslideschartsichart-effectchartmajorgroupingtype-int-effecttype-effectsubtype-effecttriggertype}
 
 
 
@@ -67,7 +67,7 @@ def add_effect(self, chart, type, index, effect_type, subtype, trigger_type):
 
 
 
-## add_effect {#aspose.slides.charts.IChart-EffectChartMinorGroupingType-int-int-EffectType-EffectSubtype-EffectTriggerType}
+## add_effect {#asposeslideschartsichart-effectchartminorgroupingtype-int-int-effecttype-effectsubtype-effecttriggertype}
 
 
 

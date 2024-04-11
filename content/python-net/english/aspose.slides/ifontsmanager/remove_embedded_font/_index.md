@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove_embedded_font {#IFontData}
+## remove_embedded_font {#ifontdata}
 Removes the embedded font
 
 

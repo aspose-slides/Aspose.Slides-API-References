@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#IFontSubstRule}
+## remove {#ifontsubstrule}
 Removes the first occurrence of a specific object from the collection.
 
 

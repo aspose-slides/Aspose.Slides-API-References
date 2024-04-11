@@ -24,7 +24,7 @@ def add_from_html(self, text):
 
 
 
-## add_from_html {#string-aspose.slides.importing.IExternalResourceResolver-string}
+## add_from_html {#string-asposeslidesimportingiexternalresourceresolver-string}
 Adds text from specified html string to the collection.
 
 

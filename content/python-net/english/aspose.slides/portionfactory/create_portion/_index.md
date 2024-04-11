@@ -46,7 +46,7 @@ def create_portion(self, str):
 
 
 
-## create_portion {#IPortion}
+## create_portion {#iportion}
 Creates an empty text portion.
 
 ### Returns

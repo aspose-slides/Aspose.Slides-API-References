@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_limit {#IMathElement-IMathElement}
+## create_math_limit {#imathelement-imathelement}
 Creates IMathLimit
 
 ### Returns
@@ -30,7 +30,7 @@ def create_math_limit(self, base_arg, limit):
 
 
 
-## create_math_limit {#IMathElement-IMathElement-bool}
+## create_math_limit {#imathelement-imathelement-bool}
 Creates IMathLimit
 
 ### Returns

@@ -45,15 +45,15 @@ The IDocumentProperties type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-Any) | Gets a named boolean value from the custom properties. |
-| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-Any) | Gets a named integer value from the custom properties. |
-| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-Any) | Gets a named DateTime value from the custom properties. |
-| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-Any) |  |
-| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-Any) |  |
-| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-Any) |  |
+| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-any) | Gets a named boolean value from the custom properties. |
+| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-any) | Gets a named integer value from the custom properties. |
+| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-any) | Gets a named DateTime value from the custom properties. |
+| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-any) |  |
+| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-any) |  |
+| [get_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#string-any) |  |
 | [set_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#string-bool) | Sets a named boolean custom property. |
 | [set_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#string-int) | Sets a named integer custom property. |
-| [set_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#string-DateTime) | Sets a named DateTime custom property. |
+| [set_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#string-datetime) | Sets a named DateTime custom property. |
 | [set_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#string-string) | Sets a named string custom property. |
 | [set_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#string-float) | Sets a named float custom property. |
 | [set_custom_property_value](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#string-float) | Sets a named double custom property. |

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_thumbnails {#aspose.slides.export.INotesCommentsLayoutingOptions}
+## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -29,7 +29,7 @@ def get_thumbnails(self, notes_comments_layouting):
 
 
 
-## get_thumbnails {#aspose.slides.export.IRenderingOptions}
+## get_thumbnails {#asposeslidesexportirenderingoptions}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -50,7 +50,7 @@ def get_thumbnails(self, options):
 
 
 
-## get_thumbnails {#aspose.slides.export.INotesCommentsLayoutingOptions-List[int]}
+## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-listint}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -72,7 +72,7 @@ def get_thumbnails(self, notes_comments_layouting, slides):
 
 
 
-## get_thumbnails {#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Size}
+## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-asposepydrawingsize}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -94,7 +94,7 @@ def get_thumbnails(self, notes_comments_layouting, image_size):
 
 
 
-## get_thumbnails {#aspose.slides.export.IRenderingOptions-List[int]}
+## get_thumbnails {#asposeslidesexportirenderingoptions-listint}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -116,7 +116,7 @@ def get_thumbnails(self, options, slides):
 
 
 
-## get_thumbnails {#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Size}
+## get_thumbnails {#asposeslidesexportirenderingoptions-asposepydrawingsize}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -138,7 +138,7 @@ def get_thumbnails(self, options, image_size):
 
 
 
-## get_thumbnails {#aspose.slides.export.INotesCommentsLayoutingOptions-float-float}
+## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-float-float}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -161,7 +161,7 @@ def get_thumbnails(self, notes_comments_layouting, scale_x, scale_y):
 
 
 
-## get_thumbnails {#aspose.slides.export.INotesCommentsLayoutingOptions-List[int]-aspose.pydrawing.Size}
+## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-listint-asposepydrawingsize}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -184,7 +184,7 @@ def get_thumbnails(self, notes_comments_layouting, slides, image_size):
 
 
 
-## get_thumbnails {#aspose.slides.export.IRenderingOptions-float-float}
+## get_thumbnails {#asposeslidesexportirenderingoptions-float-float}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -207,7 +207,7 @@ def get_thumbnails(self, options, scale_x, scale_y):
 
 
 
-## get_thumbnails {#aspose.slides.export.IRenderingOptions-List[int]-aspose.pydrawing.Size}
+## get_thumbnails {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -230,7 +230,7 @@ def get_thumbnails(self, options, slides, image_size):
 
 
 
-## get_thumbnails {#aspose.slides.export.INotesCommentsLayoutingOptions-List[int]-float-float}
+## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-listint-float-float}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns
@@ -254,7 +254,7 @@ def get_thumbnails(self, notes_comments_layouting, slides, scale_x, scale_y):
 
 
 
-## get_thumbnails {#aspose.slides.export.IRenderingOptions-List[int]-float-float}
+## get_thumbnails {#asposeslidesexportirenderingoptions-listint-float-float}
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
 ### Returns

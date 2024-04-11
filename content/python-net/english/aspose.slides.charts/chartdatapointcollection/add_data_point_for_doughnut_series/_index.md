@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## add_data_point_for_doughnut_series {#IChartDataCell}
+## add_data_point_for_doughnut_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Doughnut subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeDoughnut(Aspose.Slides.Chart. method).
 

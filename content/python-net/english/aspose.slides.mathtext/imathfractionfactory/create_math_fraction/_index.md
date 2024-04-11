@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_fraction {#IMathElement-IMathElement}
+## create_math_fraction {#imathelement-imathelement}
 Creates a math fraction
 
 ### Returns
@@ -30,7 +30,7 @@ def create_math_fraction(self, numerator, denominator):
 
 
 
-## create_math_fraction {#IMathElement-IMathElement-MathFractionTypes}
+## create_math_fraction {#imathelement-imathelement-mathfractiontypes}
 Creates a math fraction
 
 ### Returns

@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#ILinkEmbedController}
+## __init__ {#ilinkembedcontroller}
 Creates a new HtmlOptions object specifiing callback.
 
 

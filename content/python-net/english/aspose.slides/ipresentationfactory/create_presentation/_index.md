@@ -25,7 +25,7 @@ def create_presentation(self):
 
 
 
-## create_presentation {#ILoadOptions}
+## create_presentation {#iloadoptions}
 Creates new presentation.
 
 ### Returns

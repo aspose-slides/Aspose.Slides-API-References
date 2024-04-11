@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## add_clone {#IMasterSlide}
+## add_clone {#imasterslide}
 Adds a copy of a specified master slide to the end of the collection.
             Linked layout slides will be copied too.
 

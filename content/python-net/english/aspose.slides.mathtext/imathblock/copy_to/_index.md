@@ -8,7 +8,7 @@ weight: 280
 ---
 
 
-## copy_to {#List[IMathElement]-int}
+## copy_to {#listimathelement-int}
 
 
 

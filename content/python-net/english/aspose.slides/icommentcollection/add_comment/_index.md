@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add_comment {#string-ISlide-aspose.pydrawing.PointF-DateTime}
+## add_comment {#string-islide-asposepydrawingpointf-datetime}
 Add new comment at the end of a collection.
 
 ### Returns

@@ -18,11 +18,11 @@ The Presentation type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/slides/python-net/aspose.slides/presentation/__init__/#) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#LoadOptions) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#System.IO.Stream) | This constructor is the primary mechanism for reading an existing Presentation. |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#System.IO.Stream-LoadOptions) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#loadoptions) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#systemiostream) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#systemiostream-loadoptions) | This constructor is the primary mechanism for reading an existing Presentation. |
 | [__init__](/slides/python-net/aspose.slides/presentation/__init__/#string) | This constructor gets a source file path from which<br/>             the contents of the Presentation are read. |
-| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#string-LoadOptions) | This constructor gets a source file path from which<br/>            the contents of the Presentation are read. |
+| [__init__](/slides/python-net/aspose.slides/presentation/__init__/#string-loadoptions) | This constructor gets a source file path from which<br/>            the contents of the Presentation are read. |
 
 ## Properties
 
@@ -64,31 +64,31 @@ The Presentation type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [save](/slides/python-net/aspose.slides/presentation/save/#string-aspose.slides.export.SaveFormat) | Saves all slides of a presentation to a file with the specified format. |
-| [save](/slides/python-net/aspose.slides/presentation/save/#System.IO.Stream-aspose.slides.export.SaveFormat) | Saves all slides of a presentation to a stream in the specified format. |
-| [save](/slides/python-net/aspose.slides/presentation/save/#string-aspose.slides.export.SaveFormat-aspose.slides.export.ISaveOptions) |  |
-| [save](/slides/python-net/aspose.slides/presentation/save/#System.IO.Stream-aspose.slides.export.SaveFormat-aspose.slides.export.ISaveOptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-| [save](/slides/python-net/aspose.slides/presentation/save/#aspose.slides.export.xaml.IXamlOptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
-| [save](/slides/python-net/aspose.slides/presentation/save/#string-List[int]-aspose.slides.export.SaveFormat) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-| [save](/slides/python-net/aspose.slides/presentation/save/#string-List[int]-aspose.slides.export.SaveFormat-aspose.slides.export.ISaveOptions) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-| [save](/slides/python-net/aspose.slides/presentation/save/#System.IO.Stream-List[int]-aspose.slides.export.SaveFormat) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-| [save](/slides/python-net/aspose.slides/presentation/save/#System.IO.Stream-List[int]-aspose.slides.export.SaveFormat-aspose.slides.export.ISaveOptions) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.INotesCommentsLayoutingOptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.INotesCommentsLayoutingOptions-List[int]) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.INotesCommentsLayoutingOptions-float-float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.INotesCommentsLayoutingOptions-List[int]-float-float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Size) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.INotesCommentsLayoutingOptions-List[int]-aspose.pydrawing.Size) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.IRenderingOptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.IRenderingOptions-List[int]) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.IRenderingOptions-float-float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.IRenderingOptions-List[int]-float-float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Size) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
-| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#aspose.slides.export.IRenderingOptions-List[int]-aspose.pydrawing.Size) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
+| [save](/slides/python-net/aspose.slides/presentation/save/#string-asposeslidesexportsaveformat) | Saves all slides of a presentation to a file with the specified format. |
+| [save](/slides/python-net/aspose.slides/presentation/save/#systemiostream-asposeslidesexportsaveformat) | Saves all slides of a presentation to a stream in the specified format. |
+| [save](/slides/python-net/aspose.slides/presentation/save/#string-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) |  |
+| [save](/slides/python-net/aspose.slides/presentation/save/#systemiostream-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [save](/slides/python-net/aspose.slides/presentation/save/#asposeslidesexportxamlixamloptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
+| [save](/slides/python-net/aspose.slides/presentation/save/#string-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save](/slides/python-net/aspose.slides/presentation/save/#string-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save](/slides/python-net/aspose.slides/presentation/save/#systemiostream-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [save](/slides/python-net/aspose.slides/presentation/save/#systemiostream-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-listint) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-float-float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-listint-float-float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-listint-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportirenderingoptions-listint) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportirenderingoptions-listint-float-float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
+| [get_thumbnails](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportirenderingoptions-listint-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
 | [print](/slides/python-net/aspose.slides/presentation/print/#) | Prints the whole presentation to the default printer. |
-| [print](/slides/python-net/aspose.slides/presentation/print/#aspose.pydrawing.Printing.PrinterSettings) | Prints the presentation according to the specified printer settings,<br/>            using the standard (no User Interface) print controller. |
+| [print](/slides/python-net/aspose.slides/presentation/print/#asposepydrawingprintingprintersettings) | Prints the presentation according to the specified printer settings,<br/>            using the standard (no User Interface) print controller. |
 | [print](/slides/python-net/aspose.slides/presentation/print/#string) | Print the whole presentation to the specified printer,<br/>            using the standard (no User Interface) print controller. |
-| [print](/slides/python-net/aspose.slides/presentation/print/#aspose.pydrawing.Printing.PrinterSettings-string) | Prints the document according to the specified printer settings, using<br/>            the standard (no User Interface) print controller and a presentation name. |
+| [print](/slides/python-net/aspose.slides/presentation/print/#asposepydrawingprintingprintersettings-string) | Prints the document according to the specified printer settings, using<br/>            the standard (no User Interface) print controller and a presentation name. |
 | [get_slide_by_id](/slides/python-net/aspose.slides/presentation/get_slide_by_id/#int) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [join_portions_with_same_formatting](/slides/python-net/aspose.slides/presentation/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
 

@@ -42,7 +42,7 @@ def set_custom_property_value(self, name, value):
 
 
 
-## set_custom_property_value {#string-DateTime}
+## set_custom_property_value {#string-datetime}
 Sets a named boolean custom property.
 
 

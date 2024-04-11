@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## add_ole_object_frame {#float-float-float-float-IOleEmbeddedDataInfo}
+## add_ole_object_frame {#float-float-float-float-ioleembeddeddatainfo}
 Adds a new OLE object to the end of a collection.
 
 ### Returns

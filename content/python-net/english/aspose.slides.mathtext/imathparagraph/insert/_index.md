@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## insert {#int-IMathBlock}
+## insert {#int-imathblock}
 
 
 

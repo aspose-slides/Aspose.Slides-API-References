@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#char-IMathElement}
+## __init__ {#char-imathelement}
 Initializes a new instance of the MathNaryOperator class.
 
 
@@ -25,7 +25,7 @@ def __init__(self, operator_symbol, base_argument):
 
 
 
-## __init__ {#char-IMathElement-IMathElement}
+## __init__ {#char-imathelement-imathelement}
 Initializes a new instance of the MathNaryOperator class.
 
 
@@ -43,7 +43,7 @@ def __init__(self, operator_symbol, base_argument, lower_limit):
 
 
 
-## __init__ {#char-IMathElement-IMathElement-IMathElement}
+## __init__ {#char-imathelement-imathelement-imathelement}
 Initializes a new instance of the MathNaryOperator class.
 
 

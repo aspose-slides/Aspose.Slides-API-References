@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove_by_shape {#IShape}
+## remove_by_shape {#ishape}
 
 
 

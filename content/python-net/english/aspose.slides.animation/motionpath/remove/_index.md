@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove {#IMotionCmdPath}
+## remove {#imotioncmdpath}
 Removes specified commans from the collection.
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#string-IPPImage}
+## add {#string-ippimage}
 
 
 
@@ -25,7 +25,7 @@ def add(self, path, image):
 
 
 
-## add {#string-aspose.pydrawing.Image}
+## add {#string-asposepydrawingimage}
 
 
 
@@ -42,7 +42,7 @@ def add(self, path, image):
 
 
 
-## add {#string-IVideo}
+## add {#string-ivideo}
 
 
 
@@ -76,7 +76,7 @@ def add(self, path, text_content):
 
 
 
-## add {#string-IFontData-aspose.pydrawing.FontStyle}
+## add {#string-ifontdata-asposepydrawingfontstyle}
 
 
 

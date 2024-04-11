@@ -52,7 +52,7 @@ def __init__(self, math_text):
 
 
 
-## __init__ {#string-IPortionFormat}
+## __init__ {#string-iportionformat}
 Default constructor (create String.Empty Value)
 
 

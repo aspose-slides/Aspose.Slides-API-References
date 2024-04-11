@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_font_name {#aspose.slides.theme.IThemeEffectiveData}
+## get_font_name {#asposeslidesthemeithemeeffectivedata}
 Returns the font name, replacing theme referrence with an actual font used.
 
 ### Returns

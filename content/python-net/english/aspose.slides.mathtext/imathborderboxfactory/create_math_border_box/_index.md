@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_border_box {#IMathElement}
+## create_math_border_box {#imathelement}
 Create a math border box by applying to the element
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_border_box(self, element):
 
 
 
-## create_math_border_box {#IMathElement-bool-bool-bool-bool-bool-bool-bool-bool}
+## create_math_border_box {#imathelement-bool-bool-bool-bool-bool-bool-bool-bool}
 Create a math border box by applying to the element
 
 ### Returns

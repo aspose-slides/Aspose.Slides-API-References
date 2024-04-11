@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_subscript_element {#IMathElement-IMathElement}
+## create_math_subscript_element {#imathelement-imathelement}
 Creates IMathSubscriptElement
 
 ### Returns

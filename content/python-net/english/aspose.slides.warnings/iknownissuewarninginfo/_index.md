@@ -25,5 +25,5 @@ The IKnownIssueWarningInfo type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [send_warning](/slides/python-net/aspose.slides.warnings/iknownissuewarninginfo/send_warning/#IWarningCallback) |  |
+| [send_warning](/slides/python-net/aspose.slides.warnings/iknownissuewarninginfo/send_warning/#iwarningcallback) |  |
 

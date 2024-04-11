@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## write {#System.IO.Stream}
+## write {#systemiostream}
 Writes the file content to the stream.
 
 

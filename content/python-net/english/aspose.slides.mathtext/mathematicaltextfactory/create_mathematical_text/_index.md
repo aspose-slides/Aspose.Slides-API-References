@@ -67,7 +67,7 @@ def create_mathematical_text(self, math_text):
 
 
 
-## create_mathematical_text {#string-IPortionFormat}
+## create_mathematical_text {#string-iportionformat}
 Create empty mathematical text element
 
 ### Returns

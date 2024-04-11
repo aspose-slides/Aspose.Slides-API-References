@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## add_data_point_for_radar_series {#IChartDataCell}
+## add_data_point_for_radar_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Radar subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeRadar(Aspose.Slides.Chart. method).
 

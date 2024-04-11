@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## reorder {#int-ISlide}
+## reorder {#int-islide}
 Moves slide from the collection to the specified position.
 
 
@@ -25,7 +25,7 @@ def reorder(self, index, slide):
 
 
 
-## reorder {#int-List[ISlide]}
+## reorder {#int-listislide}
 Moves slide from the collection to the specified position.
 
 

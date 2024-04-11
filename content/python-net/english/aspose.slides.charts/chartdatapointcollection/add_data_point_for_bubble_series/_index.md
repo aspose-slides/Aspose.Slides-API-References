@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## add_data_point_for_bubble_series {#IChartDataCell-IChartDataCell-IChartDataCell}
+## add_data_point_for_bubble_series {#ichartdatacell-ichartdatacell-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 
@@ -32,7 +32,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 
 
-## add_data_point_for_bubble_series {#float-IChartDataCell-IChartDataCell}
+## add_data_point_for_bubble_series {#float-ichartdatacell-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 
@@ -56,7 +56,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 
 
-## add_data_point_for_bubble_series {#string-IChartDataCell-IChartDataCell}
+## add_data_point_for_bubble_series {#string-ichartdatacell-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 
@@ -80,7 +80,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 
 
-## add_data_point_for_bubble_series {#IChartDataCell-float-IChartDataCell}
+## add_data_point_for_bubble_series {#ichartdatacell-float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 
@@ -104,7 +104,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 
 
-## add_data_point_for_bubble_series {#float-float-IChartDataCell}
+## add_data_point_for_bubble_series {#float-float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 
@@ -128,7 +128,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 
 
-## add_data_point_for_bubble_series {#string-float-IChartDataCell}
+## add_data_point_for_bubble_series {#string-float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 
@@ -152,7 +152,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 
 
-## add_data_point_for_bubble_series {#IChartDataCell-IChartDataCell-float}
+## add_data_point_for_bubble_series {#ichartdatacell-ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 
@@ -176,7 +176,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 
 
-## add_data_point_for_bubble_series {#float-IChartDataCell-float}
+## add_data_point_for_bubble_series {#float-ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 
@@ -200,7 +200,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 
 
-## add_data_point_for_bubble_series {#string-IChartDataCell-float}
+## add_data_point_for_bubble_series {#string-ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 
@@ -224,7 +224,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 
 
-## add_data_point_for_bubble_series {#IChartDataCell-float-float}
+## add_data_point_for_bubble_series {#ichartdatacell-float-float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Bubble subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart. method).
 

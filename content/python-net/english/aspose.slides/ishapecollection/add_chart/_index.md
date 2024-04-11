@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_chart {#aspose.slides.charts.ChartType-float-float-float-float}
+## add_chart {#asposeslideschartscharttype-float-float-float-float}
 Creates a new Chart, initialize it with sample series data and settings and adds 
             it to the end of the collection.
 
@@ -34,7 +34,7 @@ def add_chart(self, type, x, y, width, height):
 
 
 
-## add_chart {#aspose.slides.charts.ChartType-float-float-float-float-bool}
+## add_chart {#asposeslideschartscharttype-float-float-float-float-bool}
 Creates a new Chart, initialize it with sample series data and settings and adds 
             it to the end of the collection.
 

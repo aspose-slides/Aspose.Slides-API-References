@@ -29,7 +29,7 @@ def add_from_html(self, html_text):
 
 
 
-## add_from_html {#System.IO.Stream}
+## add_from_html {#systemiostream}
 Creates slides from HTML text and adds them to the end of the collection.
 
 ### Returns
@@ -50,7 +50,7 @@ def add_from_html(self, html_stream):
 
 
 
-## add_from_html {#string-aspose.slides.importing.IExternalResourceResolver-string}
+## add_from_html {#string-asposeslidesimportingiexternalresourceresolver-string}
 Creates slides from HTML text and adds them to the end of the collection.
 
 ### Returns
@@ -73,7 +73,7 @@ def add_from_html(self, html_text, resolver, uri):
 
 
 
-## add_from_html {#System.IO.Stream-aspose.slides.importing.IExternalResourceResolver-string}
+## add_from_html {#systemiostream-asposeslidesimportingiexternalresourceresolver-string}
 Creates slides from HTML text and adds them to the end of the collection.
 
 ### Returns

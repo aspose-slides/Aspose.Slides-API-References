@@ -8,7 +8,7 @@ weight: 380
 ---
 
 
-## remove {#IShape}
+## remove {#ishape}
 Removes the first occurrence of a specific shape from the collection.
 
 

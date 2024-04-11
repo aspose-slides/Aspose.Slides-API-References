@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove {#ICustomXmlPart}
+## remove {#icustomxmlpart}
 Removes the first occurrence of a specific object from the collection.
 
 ### Returns

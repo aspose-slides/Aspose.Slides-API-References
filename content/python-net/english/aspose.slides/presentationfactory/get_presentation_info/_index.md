@@ -29,7 +29,7 @@ def get_presentation_info(self, file):
 
 
 
-## get_presentation_info {#System.IO.Stream}
+## get_presentation_info {#systemiostream}
 Creates new PresentationInfo object from file and binds presentation to it.
 
 ### Returns

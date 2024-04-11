@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add {#IMathBlock}
+## add {#imathblock}
 Adds IMathBlock to the end of collection.
 
 

@@ -66,10 +66,10 @@ The IZoomObject type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [get_thumbnail](/slides/python-net/aspose.slides/izoomobject/get_thumbnail/#) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/izoomobject/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/izoomobject/write_as_svg/#System.IO.Stream) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/izoomobject/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/izoomobject/add_placeholder/#IPlaceholder) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/izoomobject/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/izoomobject/write_as_svg/#systemiostream) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/izoomobject/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/izoomobject/add_placeholder/#iplaceholder) |  |
 | [remove_placeholder](/slides/python-net/aspose.slides/izoomobject/remove_placeholder/#) |  |
 | [get_base_placeholder](/slides/python-net/aspose.slides/izoomobject/get_base_placeholder/#) |  |
 

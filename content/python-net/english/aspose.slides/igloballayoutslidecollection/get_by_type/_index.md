@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_by_type {#SlideLayoutType}
+## get_by_type {#slidelayouttype}
 
 
 

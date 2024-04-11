@@ -8,7 +8,7 @@ weight: 210
 ---
 
 
-## remove {#IChartDataPoint}
+## remove {#ichartdatapoint}
 Removes the specified value.
 
 

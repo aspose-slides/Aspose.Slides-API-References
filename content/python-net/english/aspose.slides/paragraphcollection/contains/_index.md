@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## contains {#IParagraph}
+## contains {#iparagraph}
 Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value.
 
 ### Returns

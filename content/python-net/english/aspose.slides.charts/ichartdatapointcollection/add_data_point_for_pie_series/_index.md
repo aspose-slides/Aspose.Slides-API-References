@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## add_data_point_for_pie_series {#IChartDataCell}
+## add_data_point_for_pie_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer.IsChartTypePie(ChartType) method).
 

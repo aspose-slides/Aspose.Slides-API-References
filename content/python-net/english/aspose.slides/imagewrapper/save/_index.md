@@ -24,7 +24,7 @@ def save(self, file_name):
 
 
 
-## save {#System.IO.Stream-PPImageFormat}
+## save {#systemiostream-ppimageformat}
 Saves Image to the specified file
 
 
@@ -41,7 +41,7 @@ def save(self, stream, image_format):
 
 
 
-## save {#string-PPImageFormat}
+## save {#string-ppimageformat}
 Saves Image to the specified file
 
 

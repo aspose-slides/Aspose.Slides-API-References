@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove {#IChartCategory}
+## remove {#ichartcategory}
 Removes the specified value.
 
 

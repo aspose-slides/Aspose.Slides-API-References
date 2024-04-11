@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_fill_styles {#aspose.pydrawing.Color}
+## get_fill_styles {#asposepydrawingcolor}
 Returns a collection of theme defined fill styles.
 
 ### Returns

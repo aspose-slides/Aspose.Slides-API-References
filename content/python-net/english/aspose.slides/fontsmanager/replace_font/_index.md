@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## replace_font {#IFontSubstRule}
+## replace_font {#ifontsubstrule}
 Replace font in presentation
 
 
@@ -24,7 +24,7 @@ def replace_font(self, subst_rule):
 
 
 
-## replace_font {#IFontSubstRuleCollection}
+## replace_font {#ifontsubstrulecollection}
 Replace font in presentation
 
 
@@ -40,7 +40,7 @@ def replace_font(self, subst_rules):
 
 
 
-## replace_font {#IFontData-IFontData}
+## replace_font {#ifontdata-ifontdata}
 Replace font in presentation
 
 

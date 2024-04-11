@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## seek {#int-System.IO.SeekOrigin}
+## seek {#int-systemioseekorigin}
 Sets the position within the current stream
 
 

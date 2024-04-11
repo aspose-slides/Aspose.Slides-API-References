@@ -20,7 +20,7 @@ def group(self):
 
 
 
-## group {#char-MathTopBotPositions-MathTopBotPositions}
+## group {#char-mathtopbotpositions-mathtopbotpositions}
 
 
 

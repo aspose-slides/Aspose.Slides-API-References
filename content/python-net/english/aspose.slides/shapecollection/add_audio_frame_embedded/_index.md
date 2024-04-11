@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## add_audio_frame_embedded {#float-float-float-float-System.IO.Stream}
+## add_audio_frame_embedded {#float-float-float-float-systemiostream}
 Adds a new audio frame with embedded audio file to the end of a collection.
             Embedded audio file can be a WAV only.
             It adds new audio into Presentation.Audios list.
@@ -35,7 +35,7 @@ def add_audio_frame_embedded(self, x, y, width, height, audio_stream):
 
 
 
-## add_audio_frame_embedded {#float-float-float-float-IAudio}
+## add_audio_frame_embedded {#float-float-float-float-iaudio}
 Adds a new audio frame with embedded audio file to the end of a collection.
             Embedded audio file can be a WAV only.
             It adds new audio into Presentation.Audios list.

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement-IMathElement}
+## __init__ {#imathelement-imathelement}
 Initializes a new instance of the MathRadical class.
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#float-TabAlignment}
+## __init__ {#float-tabalignment}
 Creates new Tab
 
 

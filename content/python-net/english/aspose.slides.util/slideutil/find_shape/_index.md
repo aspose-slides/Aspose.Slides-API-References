@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## find_shape {#IPresentation-string}
+## find_shape {#ipresentation-string}
 
 
 
@@ -25,7 +25,7 @@ def find_shape(self, pres, alt_text):
 
 
 
-## find_shape {#IBaseSlide-string}
+## find_shape {#ibaseslide-string}
 
 
 

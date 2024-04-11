@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## to_string {#ColorStringFormat}
+## to_string {#colorstringformat}
 Returns a .NET type System.String that represents the current color format.
 
 ### Returns

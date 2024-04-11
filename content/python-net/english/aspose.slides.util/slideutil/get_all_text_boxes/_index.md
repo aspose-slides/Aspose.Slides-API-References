@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## get_all_text_boxes {#IBaseSlide}
+## get_all_text_boxes {#ibaseslide}
 
 
 

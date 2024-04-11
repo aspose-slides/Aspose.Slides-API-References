@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## insert {#int-ColorTransformOperation}
+## insert {#int-colortransformoperation}
 Inserts the new operation to a collection.
 
 ### Returns
@@ -30,7 +30,7 @@ def insert(self, position, operation):
 
 
 
-## insert {#int-ColorTransformOperation-float}
+## insert {#int-colortransformoperation-float}
 Inserts the new operation to a collection.
 
 ### Returns

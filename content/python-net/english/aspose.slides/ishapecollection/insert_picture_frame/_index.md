@@ -8,7 +8,7 @@ weight: 340
 ---
 
 
-## insert_picture_frame {#int-ShapeType-float-float-float-float-IPPImage}
+## insert_picture_frame {#int-shapetype-float-float-float-float-ippimage}
 Creates a new PictureFrame and inserts it to the collection at the specified index.
 
 ### Returns

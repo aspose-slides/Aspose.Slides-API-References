@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## geometry_path_to_graphics_path {#IGeometryPath}
+## geometry_path_to_graphics_path {#igeometrypath}
 
 
 

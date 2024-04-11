@@ -50,6 +50,6 @@ The IMasterSlide type exposes the following members:
 | [get_depending_slides](/slides/python-net/aspose.slides/imasterslide/get_depending_slides/#) | Returns an array with all slides, which depend on this master slide. |
 | [find_shape_by_alt_text](/slides/python-net/aspose.slides/imasterslide/find_shape_by_alt_text/#string) |  |
 | [join_portions_with_same_formatting](/slides/python-net/aspose.slides/imasterslide/join_portions_with_same_formatting/#) |  |
-| [equals](/slides/python-net/aspose.slides/imasterslide/equals/#IBaseSlide) |  |
+| [equals](/slides/python-net/aspose.slides/imasterslide/equals/#ibaseslide) |  |
 | [create_theme_effective](/slides/python-net/aspose.slides/imasterslide/create_theme_effective/#) |  |
 

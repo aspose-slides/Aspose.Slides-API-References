@@ -25,7 +25,7 @@ def create_math_paragraph(self):
 
 
 
-## create_math_paragraph {#IMathBlock}
+## create_math_paragraph {#imathblock}
 Create empty math paragraph
 
 ### Returns

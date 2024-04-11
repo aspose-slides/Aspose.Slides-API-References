@@ -26,7 +26,7 @@ def __init__(self, start_index, end_index, font_names):
 
 
 
-## __init__ {#int-int-List[string]}
+## __init__ {#int-int-liststring}
 Creates new instance.
 
 

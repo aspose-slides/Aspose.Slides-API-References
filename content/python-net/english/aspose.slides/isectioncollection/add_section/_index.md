@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_section {#string-ISlide}
+## add_section {#string-islide}
 Add new section started form specific slide.
 
 ### Returns

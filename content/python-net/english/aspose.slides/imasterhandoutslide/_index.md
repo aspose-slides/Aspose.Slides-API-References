@@ -42,6 +42,6 @@ The IMasterHandoutSlide type exposes the following members:
 | :- | :- |
 | [find_shape_by_alt_text](/slides/python-net/aspose.slides/imasterhandoutslide/find_shape_by_alt_text/#string) |  |
 | [join_portions_with_same_formatting](/slides/python-net/aspose.slides/imasterhandoutslide/join_portions_with_same_formatting/#) |  |
-| [equals](/slides/python-net/aspose.slides/imasterhandoutslide/equals/#IBaseSlide) |  |
+| [equals](/slides/python-net/aspose.slides/imasterhandoutslide/equals/#ibaseslide) |  |
 | [create_theme_effective](/slides/python-net/aspose.slides/imasterhandoutslide/create_theme_effective/#) |  |
 

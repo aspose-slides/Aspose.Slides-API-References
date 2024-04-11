@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement}
+## __init__ {#imathelement}
 Creates MathBorderBox element with rectangular border
 
 
@@ -24,7 +24,7 @@ def __init__(self, element):
 
 
 
-## __init__ {#IMathElement-bool-bool-bool-bool-bool-bool-bool-bool}
+## __init__ {#imathelement-bool-bool-bool-bool-bool-bool-bool-bool}
 Creates MathBorderBox element with rectangular border
 
 

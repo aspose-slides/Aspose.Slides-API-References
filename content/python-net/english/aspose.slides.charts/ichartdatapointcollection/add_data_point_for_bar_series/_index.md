@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## add_data_point_for_bar_series {#IChartDataCell}
+## add_data_point_for_bar_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer.IsChartTypeColumn(ChartType) and ChartTypeCharacterizer.IsChartTypeBar(ChartType) method).
 

@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## function {#IMathElement}
+## function {#imathelement}
 Takes a function of an argument using this instance as the function name
 
 ### Returns

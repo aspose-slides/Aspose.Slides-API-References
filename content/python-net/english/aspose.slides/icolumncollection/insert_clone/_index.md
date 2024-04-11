@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## insert_clone {#int-IColumn-bool}
+## insert_clone {#int-icolumn-bool}
 Creates a copy of the specified template column and insert it at the specified position in a table.
 
 ### Returns

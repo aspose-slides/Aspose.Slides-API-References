@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## insert_zoom_frame {#int-float-float-float-float-ISlide}
+## insert_zoom_frame {#int-float-float-float-float-islide}
 Creates a new Zoom object and inserts it to a collection at the specified index.
 
 ### Returns
@@ -40,7 +40,7 @@ def insert_zoom_frame(self, index, x, y, width, height, slide):
 
 
 
-## insert_zoom_frame {#int-float-float-float-float-ISlide-IPPImage}
+## insert_zoom_frame {#int-float-float-float-float-islide-ippimage}
 Creates a new Zoom object and inserts it to a collection at the specified index.
 
 ### Returns

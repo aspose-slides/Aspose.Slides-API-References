@@ -8,7 +8,7 @@ weight: 220
 ---
 
 
-## index_of {#IMathElement}
+## index_of {#imathelement}
 
 
 

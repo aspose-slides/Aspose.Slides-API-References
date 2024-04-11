@@ -8,7 +8,7 @@ weight: 190
 ---
 
 
-## join_block {#IMathBlock}
+## join_block {#imathblock}
 Joins another mathematical block with this one
 
 ### Returns

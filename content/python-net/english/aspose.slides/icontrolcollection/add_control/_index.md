@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## add_control {#ControlType-float-float-float-float}
+## add_control {#controltype-float-float-float-float}
 Creates and adds a new control to the collection.
 
 ### Returns

@@ -30,7 +30,7 @@ The ILayoutSlideCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_by_type](/slides/python-net/aspose.slides/ilayoutslidecollection/get_by_type/#SlideLayoutType) | Returns the first layout slide of specified type. |
-| [remove](/slides/python-net/aspose.slides/ilayoutslidecollection/remove/#ILayoutSlide) | Removes a layout from the collection. |
+| [get_by_type](/slides/python-net/aspose.slides/ilayoutslidecollection/get_by_type/#slidelayouttype) | Returns the first layout slide of specified type. |
+| [remove](/slides/python-net/aspose.slides/ilayoutslidecollection/remove/#ilayoutslide) | Removes a layout from the collection. |
 | [remove_unused](/slides/python-net/aspose.slides/ilayoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 

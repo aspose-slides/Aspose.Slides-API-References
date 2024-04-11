@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## save {#string-IOutputFile}
+## save {#string-ioutputfile}
 Saves the output file to the given path.
 
 

@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## index_of {#IParagraph}
+## index_of {#iparagraph}
 Determines the index of a specific item in the .NET type System.Collections.Generic.IList`1.
 
 ### Returns

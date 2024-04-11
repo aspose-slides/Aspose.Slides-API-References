@@ -29,7 +29,7 @@ def read_presentation(self, data):
 
 
 
-## read_presentation {#System.IO.Stream}
+## read_presentation {#systemiostream}
 Reads an existing presentation from array
 
 ### Returns
@@ -71,7 +71,7 @@ def read_presentation(self, file):
 
 
 
-## read_presentation {#bytes-ILoadOptions}
+## read_presentation {#bytes-iloadoptions}
 Reads an existing presentation from array
 
 ### Returns
@@ -93,7 +93,7 @@ def read_presentation(self, data, options):
 
 
 
-## read_presentation {#System.IO.Stream-ILoadOptions}
+## read_presentation {#systemiostream-iloadoptions}
 Reads an existing presentation from array
 
 ### Returns
@@ -115,7 +115,7 @@ def read_presentation(self, stream, options):
 
 
 
-## read_presentation {#string-ILoadOptions}
+## read_presentation {#string-iloadoptions}
 Reads an existing presentation from array
 
 ### Returns

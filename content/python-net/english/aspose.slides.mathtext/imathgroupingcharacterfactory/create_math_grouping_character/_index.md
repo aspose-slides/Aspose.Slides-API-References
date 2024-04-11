@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_grouping_character {#IMathElement}
+## create_math_grouping_character {#imathelement}
 Creates a math grouping character
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_grouping_character(self, element):
 
 
 
-## create_math_grouping_character {#IMathElement-char-MathTopBotPositions-MathTopBotPositions}
+## create_math_grouping_character {#imathelement-char-mathtopbotpositions-mathtopbotpositions}
 Creates a math grouping character
 
 ### Returns

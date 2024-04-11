@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## function {#IMathElement}
+## function {#imathelement}
 
 
 

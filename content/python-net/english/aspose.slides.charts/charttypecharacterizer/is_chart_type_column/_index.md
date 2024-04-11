@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## is_chart_type_column {#ChartType}
+## is_chart_type_column {#charttype}
 Return true if chartType is one of Column subtypes.
             Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
             [`ChartType.CLUSTERED_COLUMN`](/slides/python-net/aspose.slides.charts/charttype#CLUSTERED_COLUMN),

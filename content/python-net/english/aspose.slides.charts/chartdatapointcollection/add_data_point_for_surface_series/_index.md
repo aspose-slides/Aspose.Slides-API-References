@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## add_data_point_for_surface_series {#IChartDataCell}
+## add_data_point_for_surface_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Surface subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeSurface(Aspose.Slides.Chart. method).
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#ITab}
+## add {#itab}
 Adds a Tab to the collection.
 
 ### Returns
@@ -29,7 +29,7 @@ def add(self, value):
 
 
 
-## add {#float-TabAlignment}
+## add {#float-tabalignment}
 Adds a Tab to the collection.
 
 ### Returns

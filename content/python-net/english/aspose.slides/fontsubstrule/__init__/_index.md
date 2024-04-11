@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IFontData-IFontData}
+## __init__ {#ifontdata-ifontdata}
 Creates new instance.
 
 
@@ -25,7 +25,7 @@ def __init__(self, source_font, dest_font):
 
 
 
-## __init__ {#IFontData-IFontData-FontSubstCondition}
+## __init__ {#ifontdata-ifontdata-fontsubstcondition}
 Creates new instance.
 
 

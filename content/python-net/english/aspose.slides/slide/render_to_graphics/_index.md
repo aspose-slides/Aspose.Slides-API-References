@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## render_to_graphics {#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics}
+## render_to_graphics {#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics}
 Renders certain slide to a Graphics object using specified size.
 
 
@@ -31,7 +31,7 @@ def render_to_graphics(self, notes_comments_layouting, graphics):
 
 
 
-## render_to_graphics {#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics}
+## render_to_graphics {#asposeslidesexportirenderingoptions-asposepydrawinggraphics}
 Renders certain slide to a Graphics object using specified size.
 
 
@@ -54,7 +54,7 @@ def render_to_graphics(self, options, graphics):
 
 
 
-## render_to_graphics {#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-float}
+## render_to_graphics {#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics-float}
 Renders certain slide to a Graphics object using specified size.
 
 
@@ -78,7 +78,7 @@ def render_to_graphics(self, notes_comments_layouting, graphics, scale):
 
 
 
-## render_to_graphics {#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-aspose.pydrawing.Size}
+## render_to_graphics {#asposeslidesexportirenderingoptions-asposepydrawinggraphics-asposepydrawingsize}
 Renders certain slide to a Graphics object using specified size.
 
 
@@ -102,7 +102,7 @@ def render_to_graphics(self, options, graphics, rendering_size):
 
 
 
-## render_to_graphics {#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Graphics-int-int}
+## render_to_graphics {#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics-int-int}
 Renders certain slide to a Graphics object using specified size.
 
 
@@ -127,7 +127,7 @@ def render_to_graphics(self, notes_comments_layouting, graphics, width, height):
 
 
 
-## render_to_graphics {#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Graphics-float-float}
+## render_to_graphics {#asposeslidesexportirenderingoptions-asposepydrawinggraphics-float-float}
 Renders certain slide to a Graphics object using specified size.
 
 

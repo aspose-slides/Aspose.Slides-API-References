@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## highlight_text {#string-aspose.pydrawing.Color}
+## highlight_text {#string-asposepydrawingcolor}
 Highlight all matches of sample in text frame text using specified color.
 
 
@@ -25,7 +25,7 @@ def highlight_text(self, text, highlight_color):
 
 
 
-## highlight_text {#string-aspose.pydrawing.Color-ITextHighlightingOptions}
+## highlight_text {#string-asposepydrawingcolor-itexthighlightingoptions}
 Highlight all matches of sample in text frame text using specified color.
 
 

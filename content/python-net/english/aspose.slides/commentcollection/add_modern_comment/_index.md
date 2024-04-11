@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## add_modern_comment {#string-ISlide-IShape-aspose.pydrawing.PointF-DateTime}
+## add_modern_comment {#string-islide-ishape-asposepydrawingpointf-datetime}
 Add new modern comment at the end of a collection.
 
 ### Returns

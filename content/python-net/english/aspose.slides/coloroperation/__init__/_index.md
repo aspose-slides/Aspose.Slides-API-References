@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#ColorTransformOperation}
+## __init__ {#colortransformoperation}
 Creates new color transform operation.
 
 
@@ -24,7 +24,7 @@ def __init__(self, op):
 
 
 
-## __init__ {#ColorTransformOperation-float}
+## __init__ {#colortransformoperation-float}
 Creates new color transform operation.
 
 

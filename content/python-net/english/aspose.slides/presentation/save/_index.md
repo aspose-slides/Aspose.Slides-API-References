@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## save {#aspose.slides.export.xaml.IXamlOptions}
+## save {#asposeslidesexportxamlixamloptions}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -24,7 +24,7 @@ def save(self, options):
 
 
 
-## save {#string-aspose.slides.export.SaveFormat}
+## save {#string-asposeslidesexportsaveformat}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -41,7 +41,7 @@ def save(self, fname, format):
 
 
 
-## save {#System.IO.Stream-aspose.slides.export.SaveFormat}
+## save {#systemiostream-asposeslidesexportsaveformat}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -58,7 +58,7 @@ def save(self, stream, format):
 
 
 
-## save {#string-aspose.slides.export.SaveFormat-aspose.slides.export.ISaveOptions}
+## save {#string-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -76,7 +76,7 @@ def save(self, fname, format, options):
 
 
 
-## save {#System.IO.Stream-aspose.slides.export.SaveFormat-aspose.slides.export.ISaveOptions}
+## save {#systemiostream-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -94,7 +94,7 @@ def save(self, stream, format, options):
 
 
 
-## save {#string-List[int]-aspose.slides.export.SaveFormat}
+## save {#string-listint-asposeslidesexportsaveformat}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -112,7 +112,7 @@ def save(self, fname, slides, format):
 
 
 
-## save {#System.IO.Stream-List[int]-aspose.slides.export.SaveFormat}
+## save {#systemiostream-listint-asposeslidesexportsaveformat}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -130,7 +130,7 @@ def save(self, stream, slides, format):
 
 
 
-## save {#string-List[int]-aspose.slides.export.SaveFormat-aspose.slides.export.ISaveOptions}
+## save {#string-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -149,7 +149,7 @@ def save(self, fname, slides, format, options):
 
 
 
-## save {#System.IO.Stream-List[int]-aspose.slides.export.SaveFormat-aspose.slides.export.ISaveOptions}
+## save {#systemiostream-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves all slides of a presentation to a file with the specified format.
 
 

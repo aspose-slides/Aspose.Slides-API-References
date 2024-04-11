@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## nary {#MathNaryOperatorTypes-IMathElement-IMathElement}
+## nary {#mathnaryoperatortypes-imathelement-imathelement}
 
 
 
@@ -26,7 +26,7 @@ def nary(self, type, lower_limit, upper_limit):
 
 
 
-## nary {#MathNaryOperatorTypes-string-string}
+## nary {#mathnaryoperatortypes-string-string}
 
 
 

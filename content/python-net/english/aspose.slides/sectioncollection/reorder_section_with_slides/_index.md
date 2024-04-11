@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## reorder_section_with_slides {#ISection-int}
+## reorder_section_with_slides {#isection-int}
 Moves section and its slides from the collection to the specified position.
 
 

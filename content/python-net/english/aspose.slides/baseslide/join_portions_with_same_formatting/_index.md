@@ -20,7 +20,7 @@ def join_portions_with_same_formatting(self):
 
 
 
-## join_portions_with_same_formatting {#IShapeCollection}
+## join_portions_with_same_formatting {#ishapecollection}
 Joins runs with same formatting in all paragraphs all acceptable shapes.
 
 

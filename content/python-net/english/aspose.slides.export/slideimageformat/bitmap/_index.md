@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## bitmap {#float-aspose.pydrawing.Imaging.ImageFormat}
+## bitmap {#float-asposepydrawingimagingimageformat}
 Slides should be converted to a raster image.
 
 ### Returns

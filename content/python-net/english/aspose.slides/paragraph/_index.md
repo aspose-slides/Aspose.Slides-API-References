@@ -18,7 +18,7 @@ The Paragraph type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/slides/python-net/aspose.slides/paragraph/__init__/#) | Initializes a new instance of the Paragraph class with default properties. |
-| [__init__](/slides/python-net/aspose.slides/paragraph/__init__/#Paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
+| [__init__](/slides/python-net/aspose.slides/paragraph/__init__/#paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
 
 ## Properties
 

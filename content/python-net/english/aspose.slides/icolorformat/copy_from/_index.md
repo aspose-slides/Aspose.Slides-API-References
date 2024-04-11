@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## copy_from {#IColorFormat}
+## copy_from {#icolorformat}
 Copy color format from "color".
 
 

@@ -40,7 +40,7 @@ def __init__(self, svg_content):
 
 
 
-## __init__ {#System.IO.Stream}
+## __init__ {#systemiostream}
 Creates new SvgImage object.
 
 
@@ -56,7 +56,7 @@ def __init__(self, stream):
 
 
 
-## __init__ {#bytes-aspose.slides.importing.IExternalResourceResolver-string}
+## __init__ {#bytes-asposeslidesimportingiexternalresourceresolver-string}
 Creates new SvgImage object.
 
 
@@ -74,7 +74,7 @@ def __init__(self, data, external_res_resolver, base_uri):
 
 
 
-## __init__ {#string-aspose.slides.importing.IExternalResourceResolver-string}
+## __init__ {#string-asposeslidesimportingiexternalresourceresolver-string}
 Creates new SvgImage object.
 
 
@@ -92,7 +92,7 @@ def __init__(self, svg_content, external_res_resolver, base_uri):
 
 
 
-## __init__ {#System.IO.Stream-aspose.slides.importing.IExternalResourceResolver-string}
+## __init__ {#systemiostream-asposeslidesimportingiexternalresourceresolver-string}
 Creates new SvgImage object.
 
 

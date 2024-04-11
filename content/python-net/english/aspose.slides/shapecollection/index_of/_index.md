@@ -8,7 +8,7 @@ weight: 300
 ---
 
 
-## index_of {#IShape}
+## index_of {#ishape}
 Returns the zero-based index of the first occurrence of a shape in the collection.
 
 ### Returns

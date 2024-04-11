@@ -29,7 +29,7 @@ def add_from_pdf(self, path):
 
 
 
-## add_from_pdf {#System.IO.Stream}
+## add_from_pdf {#systemiostream}
 Creates slides from the PDF document and adds them to the end of the collection.
 
 ### Returns
@@ -50,7 +50,7 @@ def add_from_pdf(self, pdf_stream):
 
 
 
-## add_from_pdf {#string-aspose.slides.importing.PdfImportOptions}
+## add_from_pdf {#string-asposeslidesimportingpdfimportoptions}
 Creates slides from the PDF document and adds them to the end of the collection.
 
 ### Returns
@@ -72,7 +72,7 @@ def add_from_pdf(self, path, pdf_import_options):
 
 
 
-## add_from_pdf {#System.IO.Stream-aspose.slides.importing.PdfImportOptions}
+## add_from_pdf {#systemiostream-asposeslidesimportingpdfimportoptions}
 Creates slides from the PDF document and adds them to the end of the collection.
 
 ### Returns

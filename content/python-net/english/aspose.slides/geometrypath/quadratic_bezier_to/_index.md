@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## quadratic_bezier_to {#aspose.pydrawing.PointF-aspose.pydrawing.PointF}
+## quadratic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf}
 Adds quadratic Bezier curve at the end the path
 
 
@@ -25,7 +25,7 @@ def quadratic_bezier_to(self, point1, point2):
 
 
 
-## quadratic_bezier_to {#aspose.pydrawing.PointF-aspose.pydrawing.PointF-int}
+## quadratic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-int}
 Adds quadratic Bezier curve at the end the path
 
 

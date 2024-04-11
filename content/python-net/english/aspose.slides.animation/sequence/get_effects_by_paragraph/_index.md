@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## get_effects_by_paragraph {#IParagraph}
+## get_effects_by_paragraph {#iparagraph}
 
 
 

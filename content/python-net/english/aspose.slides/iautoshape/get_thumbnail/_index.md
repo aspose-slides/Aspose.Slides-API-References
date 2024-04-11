@@ -20,7 +20,7 @@ def get_thumbnail(self):
 
 
 
-## get_thumbnail {#ShapeThumbnailBounds-float-float}
+## get_thumbnail {#shapethumbnailbounds-float-float}
 
 
 

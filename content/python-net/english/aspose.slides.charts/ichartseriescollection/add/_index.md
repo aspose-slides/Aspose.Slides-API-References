@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#ChartType}
+## add {#charttype}
 Creates new chart series and adds it to the collection.
 
 ### Returns
@@ -29,7 +29,7 @@ def add(self, type):
 
 
 
-## add {#IChartDataCell-ChartType}
+## add {#ichartdatacell-charttype}
 Creates new chart series and adds it to the collection.
 
 ### Returns
@@ -51,7 +51,7 @@ def add(self, cell_with_series_name, type):
 
 
 
-## add {#IChartCellCollection-ChartType}
+## add {#ichartcellcollection-charttype}
 Creates new chart series and adds it to the collection.
 
 ### Returns
@@ -73,7 +73,7 @@ def add(self, cells_with_series_name, type):
 
 
 
-## add {#string-ChartType}
+## add {#string-charttype}
 Creates new chart series and adds it to the collection.
 
 ### Returns

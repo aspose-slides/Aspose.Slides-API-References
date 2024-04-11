@@ -21,7 +21,7 @@ def __init__(self):
 
 
 
-## __init__ {#LoadOptions}
+## __init__ {#loadoptions}
 This constructor creates new presentation from scratch.
             Created presentation has one empty slide.
 
@@ -38,7 +38,7 @@ def __init__(self, load_options):
 
 
 
-## __init__ {#System.IO.Stream}
+## __init__ {#systemiostream}
 This constructor creates new presentation from scratch.
             Created presentation has one empty slide.
 
@@ -72,7 +72,7 @@ def __init__(self, file):
 
 
 
-## __init__ {#System.IO.Stream-LoadOptions}
+## __init__ {#systemiostream-loadoptions}
 This constructor creates new presentation from scratch.
             Created presentation has one empty slide.
 
@@ -90,7 +90,7 @@ def __init__(self, stream, load_options):
 
 
 
-## __init__ {#string-LoadOptions}
+## __init__ {#string-loadoptions}
 This constructor creates new presentation from scratch.
             Created presentation has one empty slide.
 

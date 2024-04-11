@@ -8,7 +8,7 @@ weight: 200
 ---
 
 
-## add_clone {#IShape}
+## add_clone {#ishape}
 Adds a copy of a specified shape to the end of the collection.
 
 ### Returns
@@ -29,7 +29,7 @@ def add_clone(self, source_shape):
 
 
 
-## add_clone {#IShape-float-float}
+## add_clone {#ishape-float-float}
 Adds a copy of a specified shape to the end of the collection.
 
 ### Returns
@@ -52,7 +52,7 @@ def add_clone(self, source_shape, x, y):
 
 
 
-## add_clone {#IShape-float-float-float-float}
+## add_clone {#ishape-float-float-float-float}
 Adds a copy of a specified shape to the end of the collection.
 
 ### Returns

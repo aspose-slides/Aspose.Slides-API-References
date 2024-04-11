@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## write_all_fonts {#IHtmlGenerator-IPresentation}
+## write_all_fonts {#ihtmlgenerator-ipresentation}
 
 
 

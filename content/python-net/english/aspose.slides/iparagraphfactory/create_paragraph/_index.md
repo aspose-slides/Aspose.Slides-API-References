@@ -25,7 +25,7 @@ def create_paragraph(self):
 
 
 
-## create_paragraph {#IParagraph}
+## create_paragraph {#iparagraph}
 Creates a new empty paragraph.
 
 ### Returns

@@ -32,7 +32,7 @@ The IFontFallBackRule type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [add_fall_back_fonts](/slides/python-net/aspose.slides/ifontfallbackrule/add_fall_back_fonts/#string) | Adds a new font(s) to the list of FallBack fonts. |
-| [add_fall_back_fonts](/slides/python-net/aspose.slides/ifontfallbackrule/add_fall_back_fonts/#List[string]) | Adds a new fonts to the list of FallBack fonts. |
+| [add_fall_back_fonts](/slides/python-net/aspose.slides/ifontfallbackrule/add_fall_back_fonts/#liststring) | Adds a new fonts to the list of FallBack fonts. |
 | [to_array](/slides/python-net/aspose.slides/ifontfallbackrule/to_array/#) | Creates and returns an array with all FallBack fonts for this rule. |
 | [to_array](/slides/python-net/aspose.slides/ifontfallbackrule/to_array/#int-int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
 | [clear](/slides/python-net/aspose.slides/ifontfallbackrule/clear/#) | Removes all fonts from the list. |

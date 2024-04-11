@@ -8,7 +8,7 @@ weight: 190
 ---
 
 
-## insert_connector {#int-ShapeType-float-float-float-float}
+## insert_connector {#int-shapetype-float-float-float-float}
 Creates a new Connector, tunes it from default template and inserts it to 
             the collection at the specified index.
 
@@ -35,7 +35,7 @@ def insert_connector(self, index, shape_type, x, y, width, height):
 
 
 
-## insert_connector {#int-ShapeType-float-float-float-float-bool}
+## insert_connector {#int-shapetype-float-float-float-float-bool}
 Creates a new Connector, tunes it from default template and inserts it to 
             the collection at the specified index.
 

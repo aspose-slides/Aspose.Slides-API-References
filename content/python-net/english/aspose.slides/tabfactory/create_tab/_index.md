@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_tab {#float-TabAlignment}
+## create_tab {#float-tabalignment}
 Creates a new ITab instance.
 
 ### Returns

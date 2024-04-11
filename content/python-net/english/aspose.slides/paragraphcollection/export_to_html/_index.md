@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## export_to_html {#int-int-aspose.slides.export.ITextToHtmlConversionOptions}
+## export_to_html {#int-int-asposeslidesexportitexttohtmlconversionoptions}
 Converts specifying paragraphs to the HTML and returns it as String object.
 
 ### Returns

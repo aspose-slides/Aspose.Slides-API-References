@@ -24,7 +24,7 @@ def add_attribute_value(self, value):
 
 
 
-## add_attribute_value {#List[char]}
+## add_attribute_value {#listchar}
 Quotes attribute value and adds it to the html file.
 
 
@@ -40,7 +40,7 @@ def add_attribute_value(self, value):
 
 
 
-## add_attribute_value {#List[char]-int-int}
+## add_attribute_value {#listchar-int-int}
 Quotes attribute value and adds it to the html file.
 
 

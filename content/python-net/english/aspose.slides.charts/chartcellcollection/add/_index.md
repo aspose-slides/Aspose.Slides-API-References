@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#IChartDataCell}
+## add {#ichartdatacell}
 Add new cell to the collection.
 
 

@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## add_zoom_frame {#float-float-float-float-ISlide}
+## add_zoom_frame {#float-float-float-float-islide}
 Adds a new Zoom object to the end of a collection.
 
 ### Returns
@@ -39,7 +39,7 @@ def add_zoom_frame(self, x, y, width, height, slide):
 
 
 
-## add_zoom_frame {#float-float-float-float-ISlide-IPPImage}
+## add_zoom_frame {#float-float-float-float-islide-ippimage}
 Adds a new Zoom object to the end of a collection.
 
 ### Returns

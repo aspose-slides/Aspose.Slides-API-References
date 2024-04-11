@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove {#IMasterSlide}
+## remove {#imasterslide}
 Removes the first occurrence of a specific object from the collection.
 
 

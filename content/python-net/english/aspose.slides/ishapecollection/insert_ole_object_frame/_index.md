@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## insert_ole_object_frame {#int-float-float-float-float-IOleEmbeddedDataInfo}
+## insert_ole_object_frame {#int-float-float-float-float-ioleembeddeddatainfo}
 Creates a new OLE object and inserts it to a collection at the specified index.
 
 ### Returns

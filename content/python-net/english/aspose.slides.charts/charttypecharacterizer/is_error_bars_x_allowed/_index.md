@@ -8,7 +8,7 @@ weight: 210
 ---
 
 
-## is_error_bars_x_allowed {#ChartType}
+## is_error_bars_x_allowed {#charttype}
 Returns if error bars X allowed for specified series type.
 
 ### Returns

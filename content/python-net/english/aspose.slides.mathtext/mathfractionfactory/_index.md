@@ -23,8 +23,8 @@ The MathFractionFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_fraction](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/create_math_fraction/#IMathElement-IMathElement-MathFractionTypes) | Creates a math fraction |
-| [create_math_fraction](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/create_math_fraction/#IMathElement-IMathElement) | Creates a math fraction |
+| [create_math_fraction](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/create_math_fraction/#imathelement-imathelement-mathfractiontypes) | Creates a math fraction |
+| [create_math_fraction](/slides/python-net/aspose.slides.mathtext/mathfractionfactory/create_math_fraction/#imathelement-imathelement) | Creates a math fraction |
 
 
 ### Remarks

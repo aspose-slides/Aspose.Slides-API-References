@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#IFontFallBackRule}
+## add {#ifontfallbackrule}
 Add a new FallBack rule to the end of the collection.
 
 

@@ -24,7 +24,7 @@ The IThemeEffectiveData type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_color_scheme](/slides/python-net/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#aspose.pydrawing.Color) | Returns the color scheme. |
+| [get_color_scheme](/slides/python-net/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposepydrawingcolor) | Returns the color scheme. |
 
 
 ### Remarks

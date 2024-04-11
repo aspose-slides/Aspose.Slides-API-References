@@ -30,7 +30,7 @@ def remove_node(self, index):
 
 
 
-## remove_node {#ISmartArtNode}
+## remove_node {#ismartartnode}
 Remove node or sub node by index.
 
 

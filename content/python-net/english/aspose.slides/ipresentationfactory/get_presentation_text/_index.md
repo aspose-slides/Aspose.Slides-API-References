@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## get_presentation_text {#string-TextExtractionArrangingMode}
+## get_presentation_text {#string-textextractionarrangingmode}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -30,7 +30,7 @@ def get_presentation_text(self, file, mode):
 
 
 
-## get_presentation_text {#System.IO.Stream-TextExtractionArrangingMode}
+## get_presentation_text {#systemiostream-textextractionarrangingmode}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -52,7 +52,7 @@ def get_presentation_text(self, stream, mode):
 
 
 
-## get_presentation_text {#System.IO.Stream-TextExtractionArrangingMode-ILoadOptions}
+## get_presentation_text {#systemiostream-textextractionarrangingmode-iloadoptions}
 Retrieves the raw text from the slides
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## insert_audio_frame_embedded {#int-float-float-float-float-System.IO.Stream}
+## insert_audio_frame_embedded {#int-float-float-float-float-systemiostream}
 Insert an AudioFrame with embedded audio file.
             Embedded audio file sound can be a WAV only.
 
@@ -35,7 +35,7 @@ def insert_audio_frame_embedded(self, index, x, y, width, height, audio_stream):
 
 
 
-## insert_audio_frame_embedded {#int-float-float-float-float-IAudio}
+## insert_audio_frame_embedded {#int-float-float-float-float-iaudio}
 Insert an AudioFrame with embedded audio file.
             Embedded audio file sound can be a WAV only.
 

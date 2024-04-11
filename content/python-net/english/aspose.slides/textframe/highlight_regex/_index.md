@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## highlight_regex {#string-aspose.pydrawing.Color-ITextHighlightingOptions}
+## highlight_regex {#string-asposepydrawingcolor-itexthighlightingoptions}
 Highlight all matches of regular expression in text frame text using specified color.
 
 

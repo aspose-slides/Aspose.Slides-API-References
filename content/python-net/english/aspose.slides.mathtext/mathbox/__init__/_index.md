@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement}
+## __init__ {#imathelement}
 Initializes MathBox with the specified element as an argument
 
 

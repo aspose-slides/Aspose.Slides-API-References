@@ -30,11 +30,11 @@ The IPortionCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/iportioncollection/add/#IPortion) | Adds a Portion to the end of collection. |
-| [index_of](/slides/python-net/aspose.slides/iportioncollection/index_of/#IPortion) | Determines the index of a specific portion in collection. |
-| [insert](/slides/python-net/aspose.slides/iportioncollection/insert/#int-IPortion) | Inserts a Portion into the collection at the specified index. |
+| [add](/slides/python-net/aspose.slides/iportioncollection/add/#iportion) | Adds a Portion to the end of collection. |
+| [index_of](/slides/python-net/aspose.slides/iportioncollection/index_of/#iportion) | Determines the index of a specific portion in collection. |
+| [insert](/slides/python-net/aspose.slides/iportioncollection/insert/#int-iportion) | Inserts a Portion into the collection at the specified index. |
 | [clear](/slides/python-net/aspose.slides/iportioncollection/clear/#) | Removes all elements from the collection. |
-| [contains](/slides/python-net/aspose.slides/iportioncollection/contains/#IPortion) | Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value. |
-| [remove](/slides/python-net/aspose.slides/iportioncollection/remove/#IPortion) | Removes the first occurrence of a specific object from the .NET type System.Collections.Generic.ICollection`1. |
+| [contains](/slides/python-net/aspose.slides/iportioncollection/contains/#iportion) | Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value. |
+| [remove](/slides/python-net/aspose.slides/iportioncollection/remove/#iportion) | Removes the first occurrence of a specific object from the .NET type System.Collections.Generic.ICollection`1. |
 | [remove_at](/slides/python-net/aspose.slides/iportioncollection/remove_at/#int) | Removes the element at the specified index of the collection. |
 

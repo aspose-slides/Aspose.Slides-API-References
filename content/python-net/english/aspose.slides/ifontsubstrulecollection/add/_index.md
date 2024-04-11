@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#IFontSubstRule}
+## add {#ifontsubstrule}
 Adds the new font substitution rule to the collection
 
 

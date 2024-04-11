@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_audio {#IAudio}
+## add_audio {#iaudio}
 Adds a copy of an audio file from an another presentation.
 
 ### Returns
@@ -29,7 +29,7 @@ def add_audio(self, audio):
 
 
 
-## add_audio {#System.IO.Stream}
+## add_audio {#systemiostream}
 Adds a copy of an audio file from an another presentation.
 
 ### Returns
@@ -71,7 +71,7 @@ def add_audio(self, audio_data):
 
 
 
-## add_audio {#System.IO.Stream-LoadingStreamBehavior}
+## add_audio {#systemiostream-loadingstreambehavior}
 Adds a copy of an audio file from an another presentation.
 
 ### Returns

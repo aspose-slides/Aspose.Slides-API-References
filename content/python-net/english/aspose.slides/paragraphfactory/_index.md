@@ -24,7 +24,7 @@ The ParagraphFactory type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [create_paragraph](/slides/python-net/aspose.slides/paragraphfactory/create_paragraph/#) | Creates a new empty paragraph. |
-| [create_paragraph](/slides/python-net/aspose.slides/paragraphfactory/create_paragraph/#IParagraph) | Creates a new paragraph with specified paragraph data using. |
+| [create_paragraph](/slides/python-net/aspose.slides/paragraphfactory/create_paragraph/#iparagraph) | Creates a new paragraph with specified paragraph data using. |
 
 
 ### Remarks

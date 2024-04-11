@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## add {#IMathBlock}
+## add {#imathblock}
 
 
 

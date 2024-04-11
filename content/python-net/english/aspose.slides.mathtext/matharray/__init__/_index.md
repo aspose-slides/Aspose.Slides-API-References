@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement}
+## __init__ {#imathelement}
 Creates a mathematical array and places the specified element in it
 
 
@@ -24,7 +24,7 @@ def __init__(self, element):
 
 
 
-## __init__ {#Iterable[IMathElement]}
+## __init__ {#iterableimathelement}
 Creates a mathematical array and places the specified element in it
 
 

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## apply_color_scheme {#IExtraColorScheme}
+## apply_color_scheme {#iextracolorscheme}
 Applies extra color scheme to a slide.
 
 

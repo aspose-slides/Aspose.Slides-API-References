@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#List[string]}
+## __init__ {#liststring}
 Creates new instance
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## join {#IMathElement}
+## join {#imathelement}
 Joins a mathematical element and forms a mathematical block
 
 ### Returns

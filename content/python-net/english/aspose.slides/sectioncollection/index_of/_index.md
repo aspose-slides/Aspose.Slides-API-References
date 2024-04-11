@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## index_of {#ISection}
+## index_of {#isection}
 Returns an index of the specified section in the collection.
 
 ### Returns

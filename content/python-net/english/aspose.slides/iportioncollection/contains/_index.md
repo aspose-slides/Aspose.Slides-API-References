@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## contains {#IPortion}
+## contains {#iportion}
 Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## insert_clone {#int-ISlide}
+## insert_clone {#int-islide}
 Inserts a copy of a specified slide to specified position of the collection.
 
 ### Returns
@@ -40,7 +40,7 @@ When cloning a slide between different presentations slide's master can be clone
 
 
 
-## insert_clone {#int-ISlide-ILayoutSlide}
+## insert_clone {#int-islide-ilayoutslide}
 Inserts a copy of a specified slide to specified position of the collection.
 
 ### Returns
@@ -73,7 +73,7 @@ When cloning a slide between different presentations slide's master can be clone
 
 
 
-## insert_clone {#int-ISlide-IMasterSlide-bool}
+## insert_clone {#int-islide-imasterslide-bool}
 Inserts a copy of a specified slide to specified position of the collection.
 
 ### Returns

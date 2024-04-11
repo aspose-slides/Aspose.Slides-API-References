@@ -29,5 +29,5 @@ The FontData type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_font_name](/slides/python-net/aspose.slides/fontdata/get_font_name/#aspose.slides.theme.IThemeEffectiveData) | Returns the font name, replacing theme referrence with an actual font used. |
+| [get_font_name](/slides/python-net/aspose.slides/fontdata/get_font_name/#asposeslidesthemeithemeeffectivedata) | Returns the font name, replacing theme referrence with an actual font used. |
 

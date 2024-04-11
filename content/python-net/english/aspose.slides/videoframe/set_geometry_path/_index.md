@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## set_geometry_path {#IGeometryPath}
+## set_geometry_path {#igeometrypath}
 Updates shape geometry from [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) object. Coordinates must be relative to the left
              top corner of the shape.
              Changes the type of the shape ([`GeometryShape.shape_type`](/slides/python-net/aspose.slides/geometryshape#shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM).

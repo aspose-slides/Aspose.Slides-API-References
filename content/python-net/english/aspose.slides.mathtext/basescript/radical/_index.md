@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## radical {#IMathElement}
+## radical {#imathelement}
 Specifies the mathematical root of the given degree from the specified argument.
 
 ### Returns

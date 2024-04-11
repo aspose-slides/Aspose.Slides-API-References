@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## index_of {#IPortion}
+## index_of {#iportion}
 Determines the index of a specific item in the .NET type System.Collections.Generic.IList`1.
 
 ### Returns

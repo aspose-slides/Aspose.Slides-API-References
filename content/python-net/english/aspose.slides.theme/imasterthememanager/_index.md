@@ -26,5 +26,5 @@ The IMasterThemeManager type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [create_theme_effective](/slides/python-net/aspose.slides.theme/imasterthememanager/create_theme_effective/#) |  |
-| [apply_color_scheme](/slides/python-net/aspose.slides.theme/imasterthememanager/apply_color_scheme/#IExtraColorScheme) |  |
+| [apply_color_scheme](/slides/python-net/aspose.slides.theme/imasterthememanager/apply_color_scheme/#iextracolorscheme) |  |
 

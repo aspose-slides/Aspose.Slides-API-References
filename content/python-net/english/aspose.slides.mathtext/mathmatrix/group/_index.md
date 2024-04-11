@@ -25,7 +25,7 @@ def group(self):
 
 
 
-## group {#char-MathTopBotPositions-MathTopBotPositions}
+## group {#char-mathtopbotpositions-mathtopbotpositions}
 Places this element in a group using a bottom curly bracket
 
 ### Returns

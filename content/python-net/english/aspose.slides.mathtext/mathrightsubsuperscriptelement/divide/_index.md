@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## divide {#IMathElement}
+## divide {#imathelement}
 Creates a fraction with this numerator and specified denominator
 
 ### Returns
@@ -50,7 +50,7 @@ def divide(self, denominator):
 
 
 
-## divide {#IMathElement-MathFractionTypes}
+## divide {#imathelement-mathfractiontypes}
 Creates a fraction with this numerator and specified denominator
 
 ### Returns
@@ -72,7 +72,7 @@ def divide(self, denominator, fraction_type):
 
 
 
-## divide {#string-MathFractionTypes}
+## divide {#string-mathfractiontypes}
 Creates a fraction with this numerator and specified denominator
 
 ### Returns

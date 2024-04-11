@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## insert {#int-ChartType}
+## insert {#int-charttype}
 Creates new chart series and inserts it into the collection.
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_superscript_element {#IMathElement-IMathElement}
+## create_math_superscript_element {#imathelement-imathelement}
 Creates IMathSuperscriptElement
 
 ### Returns

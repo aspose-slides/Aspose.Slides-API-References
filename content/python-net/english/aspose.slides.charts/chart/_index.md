@@ -89,11 +89,11 @@ The Chart type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [get_thumbnail](/slides/python-net/aspose.slides.charts/chart/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
-| [get_thumbnail](/slides/python-net/aspose.slides.charts/chart/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
-| [write_as_svg](/slides/python-net/aspose.slides.charts/chart/write_as_svg/#System.IO.Stream) | Saves content of Shape as SVG file. |
-| [write_as_svg](/slides/python-net/aspose.slides.charts/chart/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) | Saves content of Shape as SVG file. |
+| [get_thumbnail](/slides/python-net/aspose.slides.charts/chart/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides.charts/chart/write_as_svg/#systemiostream) | Saves content of Shape as SVG file. |
+| [write_as_svg](/slides/python-net/aspose.slides.charts/chart/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [remove_placeholder](/slides/python-net/aspose.slides.charts/chart/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
-| [add_placeholder](/slides/python-net/aspose.slides.charts/chart/add_placeholder/#IPlaceholder) |  |
+| [add_placeholder](/slides/python-net/aspose.slides.charts/chart/add_placeholder/#iplaceholder) |  |
 | [get_base_placeholder](/slides/python-net/aspose.slides.charts/chart/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
 | [validate_chart_layout](/slides/python-net/aspose.slides.charts/chart/validate_chart_layout/#) | Calculates actual values of chart elements. The actual values include position of elements that implement IActualLayout interface <br/>            (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)<br/>            and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, <br/>            IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
 | [create_theme_effective](/slides/python-net/aspose.slides.charts/chart/create_theme_effective/#) | Returns an effective theme for this chart. |

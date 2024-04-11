@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement}
+## __init__ {#imathelement}
 Creates a math accent applying to a specified math element with the default accent character value
 
 
@@ -24,7 +24,7 @@ def __init__(self, element):
 
 
 
-## __init__ {#IMathElement-char}
+## __init__ {#imathelement-char}
 Creates a math accent applying to a specified math element with the default accent character value
 
 

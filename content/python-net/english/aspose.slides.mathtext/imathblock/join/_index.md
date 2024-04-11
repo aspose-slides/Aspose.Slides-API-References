@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## join {#IMathElement}
+## join {#imathelement}
 
 
 

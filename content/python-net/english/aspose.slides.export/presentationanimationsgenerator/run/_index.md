@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## run {#Iterable[ISlide]}
+## run {#iterableislide}
 
 
 

@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## contains {#IBehavior}
+## contains {#ibehavior}
 Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value.
 
 ### Returns

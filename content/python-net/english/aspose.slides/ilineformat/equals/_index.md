@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## equals {#ILineFormat}
+## equals {#ilineformat}
 Determines whether the two LineFormat instances are equal.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## set_subscript {#IMathElement}
+## set_subscript {#imathelement}
 
 
 

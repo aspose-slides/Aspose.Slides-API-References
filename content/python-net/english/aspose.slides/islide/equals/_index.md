@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## equals {#IBaseSlide}
+## equals {#ibaseslide}
 
 
 

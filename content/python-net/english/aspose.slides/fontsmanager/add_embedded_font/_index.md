@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_embedded_font {#IFontData-aspose.slides.export.EmbedFontCharacters}
+## add_embedded_font {#ifontdata-asposeslidesexportembedfontcharacters}
 Adds the embedded font
             Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of 
             a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded
@@ -27,7 +27,7 @@ def add_embedded_font(self, font_data, embed_font_rule):
 
 
 
-## add_embedded_font {#bytes-aspose.slides.export.EmbedFontCharacters}
+## add_embedded_font {#bytes-asposeslidesexportembedfontcharacters}
 Adds the embedded font
             Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of 
             a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded

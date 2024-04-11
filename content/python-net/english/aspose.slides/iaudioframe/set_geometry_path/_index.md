@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_geometry_path {#IGeometryPath}
+## set_geometry_path {#igeometrypath}
 
 
 

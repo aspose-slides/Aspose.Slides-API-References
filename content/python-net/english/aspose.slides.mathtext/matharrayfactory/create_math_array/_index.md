@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_array {#IMathElement}
+## create_math_array {#imathelement}
 Creates a math array and places the specified element in it
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_array(self, element):
 
 
 
-## create_math_array {#IMathElementCollection}
+## create_math_array {#imathelementcollection}
 Creates a math array and places the specified element in it
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## set_geometry_paths {#List[IGeometryPath]}
+## set_geometry_paths {#listigeometrypath}
 
 
 

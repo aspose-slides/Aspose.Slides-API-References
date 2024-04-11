@@ -23,10 +23,10 @@ The IResponsiveHtmlController type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [write_document_start](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_document_start/#IHtmlGenerator-IPresentation) |  |
-| [write_document_end](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_document_end/#IHtmlGenerator-IPresentation) |  |
-| [write_slide_start](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_slide_start/#IHtmlGenerator-ISlide) |  |
-| [write_slide_end](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_slide_end/#IHtmlGenerator-ISlide) |  |
-| [write_shape_start](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_shape_start/#IHtmlGenerator-IShape) |  |
-| [write_shape_end](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_shape_end/#IHtmlGenerator-IShape) |  |
+| [write_document_start](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_document_start/#ihtmlgenerator-ipresentation) |  |
+| [write_document_end](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_document_end/#ihtmlgenerator-ipresentation) |  |
+| [write_slide_start](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_slide_start/#ihtmlgenerator-islide) |  |
+| [write_slide_end](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_slide_end/#ihtmlgenerator-islide) |  |
+| [write_shape_start](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_shape_start/#ihtmlgenerator-ishape) |  |
+| [write_shape_end](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/write_shape_end/#ihtmlgenerator-ishape) |  |
 

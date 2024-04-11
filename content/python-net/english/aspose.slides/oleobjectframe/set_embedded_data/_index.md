@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## set_embedded_data {#IOleEmbeddedDataInfo}
+## set_embedded_data {#ioleembeddeddatainfo}
 Sets information about OLE embedded data.
             
             This method changes the properties of the object to reflect the new data and 

@@ -8,7 +8,7 @@ weight: 220
 ---
 
 
-## add_smart_art {#float-float-float-float-aspose.slides.smartart.SmartArtLayoutType}
+## add_smart_art {#float-float-float-float-asposeslidessmartartsmartartlayouttype}
 Add SmartArt diagram.
 
 ### Returns

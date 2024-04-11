@@ -30,9 +30,9 @@ The IMotionPath type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.animation/imotionpath/add/#MotionCommandPathType-List[aspose.pydrawing.PointF]-MotionPathPointsType-bool) | Add new command to path |
-| [insert](/slides/python-net/aspose.slides.animation/imotionpath/insert/#int-MotionCommandPathType-List[aspose.pydrawing.PointF]-MotionPathPointsType-bool) | Insert new command to path |
+| [add](/slides/python-net/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Add new command to path |
+| [insert](/slides/python-net/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Insert new command to path |
 | [clear](/slides/python-net/aspose.slides.animation/imotionpath/clear/#) | Removes all commands from the collection. |
-| [remove](/slides/python-net/aspose.slides.animation/imotionpath/remove/#IMotionCmdPath) | Removes specified commans from the collection. |
+| [remove](/slides/python-net/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Removes specified commans from the collection. |
 | [remove_at](/slides/python-net/aspose.slides.animation/imotionpath/remove_at/#int) | Removes a command at the specified index. |
 

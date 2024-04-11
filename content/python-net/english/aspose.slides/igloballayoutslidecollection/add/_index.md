@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add {#IMasterSlide-SlideLayoutType-string}
+## add {#imasterslide-slidelayouttype-string}
 Adds a new layout slide to the presentation.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## index_of {#IMathBlock}
+## index_of {#imathblock}
 Determines the index of a specific IMathBlock in collection.
 
 ### Returns

@@ -45,6 +45,6 @@ The LineFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [equals](/slides/python-net/aspose.slides/lineformat/equals/#ILineFormat) | Determines whether the two LineFormat instances are equal. |
+| [equals](/slides/python-net/aspose.slides/lineformat/equals/#ilineformat) | Determines whether the two LineFormat instances are equal. |
 | [get_effective](/slides/python-net/aspose.slides/lineformat/get_effective/#) | Gets effective line formatting data with the inheritance applied. |
 

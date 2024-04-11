@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## add_placeholder {#IPlaceholder}
+## add_placeholder {#iplaceholder}
 Adds a new placeholder if there is no and sets placeholder properties to a specified one.
 
 ### Returns

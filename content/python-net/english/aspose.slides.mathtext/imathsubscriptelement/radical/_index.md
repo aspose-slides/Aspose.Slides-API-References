@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## radical {#IMathElement}
+## radical {#imathelement}
 
 
 

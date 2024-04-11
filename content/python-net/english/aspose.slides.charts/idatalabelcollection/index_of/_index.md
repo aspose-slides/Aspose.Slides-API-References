@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## index_of {#IDataLabel}
+## index_of {#idatalabel}
 Returns an index of the specified DataLabel in the collection.
 
 ### Returns

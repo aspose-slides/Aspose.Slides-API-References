@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## insert {#int-IParagraph}
+## insert {#int-iparagraph}
 Inserts a Paragraph into the collection at the specified index.
 
 
@@ -25,7 +25,7 @@ def insert(self, index, value):
 
 
 
-## insert {#int-IParagraphCollection}
+## insert {#int-iparagraphcollection}
 Inserts a Paragraph into the collection at the specified index.
 
 

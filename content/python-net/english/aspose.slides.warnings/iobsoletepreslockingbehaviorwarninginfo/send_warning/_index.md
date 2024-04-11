@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## send_warning {#IWarningCallback}
+## send_warning {#iwarningcallback}
 
 
 

@@ -8,7 +8,7 @@ weight: 150
 ---
 
 
-## add_auto_shape {#ShapeType-float-float-float-float}
+## add_auto_shape {#shapetype-float-float-float-float}
 Creates a new AutoShape, tunes it from default template and adds it to the end of the collection.
 
 ### Returns
@@ -33,7 +33,7 @@ def add_auto_shape(self, shape_type, x, y, width, height):
 
 
 
-## add_auto_shape {#ShapeType-float-float-float-float-bool}
+## add_auto_shape {#shapetype-float-float-float-float-bool}
 Creates a new AutoShape, tunes it from default template and adds it to the end of the collection.
 
 ### Returns

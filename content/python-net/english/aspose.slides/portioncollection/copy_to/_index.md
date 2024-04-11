@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## copy_to {#List[IPortion]-int}
+## copy_to {#listiportion-int}
 Copies the elements of the .NET type System.Collections.Generic.ICollection`1 to an .NET type System.Array, starting at a particular .NET type System.Array index.
 
 

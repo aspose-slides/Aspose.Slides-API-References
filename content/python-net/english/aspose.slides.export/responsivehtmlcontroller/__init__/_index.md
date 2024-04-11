@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#IHtmlFormattingController}
+## __init__ {#ihtmlformattingcontroller}
 Creates new instance
 
 

@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## remove {#IParagraph}
+## remove {#iparagraph}
 Removes the first occurrence of a specific object from the .NET type System.Collections.Generic.ICollection`1.
 
 ### Returns

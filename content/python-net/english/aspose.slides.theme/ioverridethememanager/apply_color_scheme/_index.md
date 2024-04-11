@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## apply_color_scheme {#IExtraColorScheme}
+## apply_color_scheme {#iextracolorscheme}
 
 
 

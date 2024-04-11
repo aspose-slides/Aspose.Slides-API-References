@@ -23,7 +23,7 @@ The MathBoxFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_box](/slides/python-net/aspose.slides.mathtext/mathboxfactory/create_math_box/#IMathElement) | Create a math box by applying to the element |
+| [create_math_box](/slides/python-net/aspose.slides.mathtext/mathboxfactory/create_math_box/#imathelement) | Create a math box by applying to the element |
 
 
 ### Remarks

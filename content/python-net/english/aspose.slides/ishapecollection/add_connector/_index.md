@@ -8,7 +8,7 @@ weight: 180
 ---
 
 
-## add_connector {#ShapeType-float-float-float-float}
+## add_connector {#shapetype-float-float-float-float}
 Creates a new Connector, tunes it from default template and adds it to the end of the collection.
 
 ### Returns
@@ -33,7 +33,7 @@ def add_connector(self, shape_type, x, y, width, height):
 
 
 
-## add_connector {#ShapeType-float-float-float-float-bool}
+## add_connector {#shapetype-float-float-float-float-bool}
 Creates a new Connector, tunes it from default template and adds it to the end of the collection.
 
 ### Returns

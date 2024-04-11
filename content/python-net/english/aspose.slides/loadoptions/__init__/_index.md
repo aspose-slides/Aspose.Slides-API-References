@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#LoadFormat}
+## __init__ {#loadformat}
 Creates new default load options.
 
 

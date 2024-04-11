@@ -30,8 +30,8 @@ The SequenceCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.animation/sequencecollection/add/#IShape) |  |
-| [remove](/slides/python-net/aspose.slides.animation/sequencecollection/remove/#ISequence) | Removes specified sequence from a collection. |
+| [add](/slides/python-net/aspose.slides.animation/sequencecollection/add/#ishape) |  |
+| [remove](/slides/python-net/aspose.slides.animation/sequencecollection/remove/#isequence) | Removes specified sequence from a collection. |
 | [remove_at](/slides/python-net/aspose.slides.animation/sequencecollection/remove_at/#int) | Removes sequence at the specified index. |
 | [clear](/slides/python-net/aspose.slides.animation/sequencecollection/clear/#) | Removes all sequences from a collection. |
 

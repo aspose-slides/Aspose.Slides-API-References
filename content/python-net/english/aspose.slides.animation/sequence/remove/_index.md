@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#IEffect}
+## remove {#ieffect}
 Removes specified effect from a collection.
 
 

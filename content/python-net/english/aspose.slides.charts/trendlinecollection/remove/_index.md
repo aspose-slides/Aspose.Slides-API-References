@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#ITrendline}
+## remove {#itrendline}
 Removes the specified value.
 
 

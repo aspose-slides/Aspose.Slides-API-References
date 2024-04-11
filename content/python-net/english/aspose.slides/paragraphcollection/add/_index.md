@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#IParagraph}
+## add {#iparagraph}
 Adds a Paragraph to the end of collection.
 
 
@@ -24,7 +24,7 @@ def add(self, value):
 
 
 
-## add {#IParagraphCollection}
+## add {#iparagraphcollection}
 Adds a Paragraph to the end of collection.
 
 

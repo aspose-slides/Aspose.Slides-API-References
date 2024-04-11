@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## format_text {#ISvgTSpan-IPortion-ITextFrame}
+## format_text {#isvgtspan-iportion-itextframe}
 
 
 

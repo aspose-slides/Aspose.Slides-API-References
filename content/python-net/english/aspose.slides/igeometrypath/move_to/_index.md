@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## move_to {#aspose.pydrawing.PointF}
+## move_to {#asposepydrawingpointf}
 Sets next point position.
 
 

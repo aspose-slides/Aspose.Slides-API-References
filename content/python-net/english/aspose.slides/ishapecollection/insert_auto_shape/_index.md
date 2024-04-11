@@ -8,7 +8,7 @@ weight: 160
 ---
 
 
-## insert_auto_shape {#int-ShapeType-float-float-float-float}
+## insert_auto_shape {#int-shapetype-float-float-float-float}
 Creates a new AutoShape, tunes it from default template and inserts it to 
             the collection at the specified index.
             Note: the type of the shape will be determined by the shapeType parameter.
@@ -36,7 +36,7 @@ def insert_auto_shape(self, index, shape_type, x, y, width, height):
 
 
 
-## insert_auto_shape {#int-ShapeType-float-float-float-float-bool}
+## insert_auto_shape {#int-shapetype-float-float-float-float-bool}
 Creates a new AutoShape, tunes it from default template and inserts it to 
             the collection at the specified index.
             Note: the type of the shape will be determined by the shapeType parameter.

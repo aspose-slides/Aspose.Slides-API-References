@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_custom_property_value {#string-Any}
+## get_custom_property_value {#string-any}
 Gets a named boolean value from the custom properties.
 
 
@@ -25,7 +25,7 @@ def get_custom_property_value(self, name, value):
 
 
 
-## get_custom_property_value {#string-Any}
+## get_custom_property_value {#string-any}
 Gets a named boolean value from the custom properties.
 
 
@@ -42,7 +42,7 @@ def get_custom_property_value(self, name, value):
 
 
 
-## get_custom_property_value {#string-Any}
+## get_custom_property_value {#string-any}
 Gets a named boolean value from the custom properties.
 
 
@@ -59,7 +59,7 @@ def get_custom_property_value(self, name, value):
 
 
 
-## get_custom_property_value {#string-Any}
+## get_custom_property_value {#string-any}
 Gets a named boolean value from the custom properties.
 
 
@@ -76,7 +76,7 @@ def get_custom_property_value(self, name, value):
 
 
 
-## get_custom_property_value {#string-Any}
+## get_custom_property_value {#string-any}
 Gets a named boolean value from the custom properties.
 
 
@@ -93,7 +93,7 @@ def get_custom_property_value(self, name, value):
 
 
 
-## get_custom_property_value {#string-Any}
+## get_custom_property_value {#string-any}
 Gets a named boolean value from the custom properties.
 
 

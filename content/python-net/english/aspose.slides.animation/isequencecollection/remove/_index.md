@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#ISequence}
+## remove {#isequence}
 Removes specified sequence from a collection.
 
 

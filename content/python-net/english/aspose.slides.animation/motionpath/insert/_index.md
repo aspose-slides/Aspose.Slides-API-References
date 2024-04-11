@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## insert {#int-MotionCommandPathType-List[aspose.pydrawing.PointF]-MotionPathPointsType-bool}
+## insert {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
 Insert new command to path
 
 

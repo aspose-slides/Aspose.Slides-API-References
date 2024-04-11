@@ -8,7 +8,7 @@ weight: 350
 ---
 
 
-## add_table {#float-float-List[float]-List[float]}
+## add_table {#float-float-listfloat-listfloat}
 Creates a new Table and adds it to the end of the collection.
 
 ### Returns

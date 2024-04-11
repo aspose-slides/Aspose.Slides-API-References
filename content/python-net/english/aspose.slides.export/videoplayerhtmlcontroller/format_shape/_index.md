@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## format_shape {#ISvgShape-IShape}
+## format_shape {#isvgshape-ishape}
 
 
 

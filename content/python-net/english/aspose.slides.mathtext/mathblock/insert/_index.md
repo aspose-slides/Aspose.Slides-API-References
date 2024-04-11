@@ -8,7 +8,7 @@ weight: 300
 ---
 
 
-## insert {#int-IMathElement}
+## insert {#int-imathelement}
 Inserts a MathElement into the collection at the specified index.
 
 

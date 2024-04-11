@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement-IMathElement}
+## __init__ {#imathelement-imathelement}
 Initializes MathFraction with the specified numerator, denominator and type
 
 
@@ -25,7 +25,7 @@ def __init__(self, numerator, denominator):
 
 
 
-## __init__ {#IMathElement-IMathElement-MathFractionTypes}
+## __init__ {#imathelement-imathelement-mathfractiontypes}
 Initializes MathFraction with the specified numerator, denominator and type
 
 

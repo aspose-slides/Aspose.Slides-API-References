@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_clone {#ISlide}
+## add_clone {#islide}
 Adds a copy of a specified slide to the end of the collection.
 
 ### Returns
@@ -42,7 +42,7 @@ When cloning a slide between different presentations slide's master can be clone
 
 
 
-## add_clone {#ISlide-ISection}
+## add_clone {#islide-isection}
 Adds a copy of a specified slide to the end of the collection.
 
 ### Returns
@@ -77,7 +77,7 @@ When cloning a slide between different presentations slide's master can be clone
 
 
 
-## add_clone {#ISlide-ILayoutSlide}
+## add_clone {#islide-ilayoutslide}
 Adds a copy of a specified slide to the end of the collection.
 
 ### Returns
@@ -112,7 +112,7 @@ When cloning a slide between different presentations slide's master can be clone
 
 
 
-## add_clone {#ISlide-IMasterSlide-bool}
+## add_clone {#islide-imasterslide-bool}
 Adds a copy of a specified slide to the end of the collection.
 
 ### Returns

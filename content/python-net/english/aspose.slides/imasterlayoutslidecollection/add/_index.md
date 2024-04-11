@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## add {#SlideLayoutType-string}
+## add {#slidelayouttype-string}
 Adds a new layout slide to the end of the collection.
 
 ### Returns

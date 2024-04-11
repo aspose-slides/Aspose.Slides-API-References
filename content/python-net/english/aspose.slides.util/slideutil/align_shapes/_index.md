@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## align_shapes {#ShapesAlignmentType-bool-IShapeCollection}
+## align_shapes {#shapesalignmenttype-bool-ishapecollection}
 
 
 
@@ -26,7 +26,7 @@ def align_shapes(self, alignment_type, align_to_slide, shapes):
 
 
 
-## align_shapes {#ShapesAlignmentType-bool-IBaseSlide}
+## align_shapes {#shapesalignmenttype-bool-ibaseslide}
 
 
 
@@ -44,7 +44,7 @@ def align_shapes(self, alignment_type, align_to_slide, slide):
 
 
 
-## align_shapes {#ShapesAlignmentType-bool-IGroupShape}
+## align_shapes {#shapesalignmenttype-bool-igroupshape}
 
 
 
@@ -62,7 +62,7 @@ def align_shapes(self, alignment_type, align_to_slide, group_shape):
 
 
 
-## align_shapes {#ShapesAlignmentType-bool-IBaseSlide-List[int]}
+## align_shapes {#shapesalignmenttype-bool-ibaseslide-listint}
 
 
 
@@ -81,7 +81,7 @@ def align_shapes(self, alignment_type, align_to_slide, slide, shape_indexes):
 
 
 
-## align_shapes {#ShapesAlignmentType-bool-IGroupShape-List[int]}
+## align_shapes {#shapesalignmenttype-bool-igroupshape-listint}
 
 
 

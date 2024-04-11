@@ -43,5 +43,5 @@ The DataLabelCollection type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [hide](/slides/python-net/aspose.slides.charts/datalabelcollection/hide/#) | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the <br/>            DefaultDataLabelFormat property to false state.<br/>            IsVisible will be false after this. |
-| [index_of](/slides/python-net/aspose.slides.charts/datalabelcollection/index_of/#IDataLabel) | Returns an index of the specified DataLabel in the collection. |
+| [index_of](/slides/python-net/aspose.slides.charts/datalabelcollection/index_of/#idatalabel) | Returns an index of the specified DataLabel in the collection. |
 

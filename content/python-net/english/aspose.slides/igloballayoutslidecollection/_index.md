@@ -33,10 +33,10 @@ The IGlobalLayoutSlideCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_clone](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone/#ILayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
-| [add_clone](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone/#ILayoutSlide-IMasterSlide) | Adds a copy of a specified layout slide to the presentation. |
-| [add](/slides/python-net/aspose.slides/igloballayoutslidecollection/add/#IMasterSlide-SlideLayoutType-string) | Adds a new layout slide to the presentation. |
-| [get_by_type](/slides/python-net/aspose.slides/igloballayoutslidecollection/get_by_type/#SlideLayoutType) |  |
-| [remove](/slides/python-net/aspose.slides/igloballayoutslidecollection/remove/#ILayoutSlide) |  |
+| [add_clone](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone/#ilayoutslide) | Adds a copy of a specified layout slide to the presentation. |
+| [add_clone](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone/#ilayoutslide-imasterslide) | Adds a copy of a specified layout slide to the presentation. |
+| [add](/slides/python-net/aspose.slides/igloballayoutslidecollection/add/#imasterslide-slidelayouttype-string) | Adds a new layout slide to the presentation. |
+| [get_by_type](/slides/python-net/aspose.slides/igloballayoutslidecollection/get_by_type/#slidelayouttype) |  |
+| [remove](/slides/python-net/aspose.slides/igloballayoutslidecollection/remove/#ilayoutslide) |  |
 | [remove_unused](/slides/python-net/aspose.slides/igloballayoutslidecollection/remove_unused/#) |  |
 

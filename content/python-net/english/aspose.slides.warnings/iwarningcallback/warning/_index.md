@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## warning {#IWarningInfo}
+## warning {#iwarninginfo}
 Callback method which receives warning and decides whether operation should be aborted.
 
 ### Returns

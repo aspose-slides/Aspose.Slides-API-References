@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## find_and_replace_text {#IPresentation-bool-string-string-PortionFormat}
+## find_and_replace_text {#ipresentation-bool-string-string-portionformat}
 
 
 

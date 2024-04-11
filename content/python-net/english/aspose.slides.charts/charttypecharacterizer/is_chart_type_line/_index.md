@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## is_chart_type_line {#ChartType}
+## is_chart_type_line {#charttype}
 Return true if chartType is one of Line subtypes.
             Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
             [`ChartType.LINE`](/slides/python-net/aspose.slides.charts/charttype#LINE),

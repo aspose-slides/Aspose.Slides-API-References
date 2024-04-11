@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IChartDataPoint}
+## __init__ {#ichartdatapoint}
 Creates a new instance of DataLabel class.
 
 

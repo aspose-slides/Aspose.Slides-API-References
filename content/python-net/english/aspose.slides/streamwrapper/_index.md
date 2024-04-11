@@ -33,7 +33,7 @@ The StreamWrapper type exposes the following members:
 | [flush](/slides/python-net/aspose.slides/streamwrapper/flush/#) | Clears all buffers for this stream and causes any buffered data to be written to the underlying device. |
 | [read](/slides/python-net/aspose.slides/streamwrapper/read/#bytes-int-int) | Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. |
 | [read_byte](/slides/python-net/aspose.slides/streamwrapper/read_byte/#) | Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream. |
-| [seek](/slides/python-net/aspose.slides/streamwrapper/seek/#int-System.IO.SeekOrigin) | Sets the position within the current stream |
+| [seek](/slides/python-net/aspose.slides/streamwrapper/seek/#int-systemioseekorigin) | Sets the position within the current stream |
 | [write](/slides/python-net/aspose.slides/streamwrapper/write/#bytes-int-int) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
 | [write_byte](/slides/python-net/aspose.slides/streamwrapper/write_byte/#int) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
 

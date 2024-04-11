@@ -29,7 +29,7 @@ The IPortion type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_field](/slides/python-net/aspose.slides/iportion/add_field/#IFieldType) | Converts this portion to the automaticaly updated field. |
+| [add_field](/slides/python-net/aspose.slides/iportion/add_field/#ifieldtype) | Converts this portion to the automaticaly updated field. |
 | [add_field](/slides/python-net/aspose.slides/iportion/add_field/#string) | Converts this portion to the automaticaly updated field. |
 | [remove_field](/slides/python-net/aspose.slides/iportion/remove_field/#) | Converts this field portion to the simple portion. |
 | [get_rect](/slides/python-net/aspose.slides/iportion/get_rect/#) | Get coordinates of rect that bounds portion. The rect includes all the lines of<br/>             text in portion, including empty ones. |

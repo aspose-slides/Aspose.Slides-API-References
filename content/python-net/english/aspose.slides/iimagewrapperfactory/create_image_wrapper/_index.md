@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_image_wrapper {#aspose.pydrawing.Image}
+## create_image_wrapper {#asposepydrawingimage}
 Initializes a new instance of the BitmapWrapper class from the specified existing image.
 
 ### Returns
@@ -29,7 +29,7 @@ def create_image_wrapper(self, image):
 
 
 
-## create_image_wrapper {#System.IO.Stream}
+## create_image_wrapper {#systemiostream}
 Initializes a new instance of the BitmapWrapper class from the specified existing image.
 
 ### Returns

@@ -33,7 +33,7 @@ def add_video_frame(self, x, y, width, height, fname):
 
 
 
-## add_video_frame {#float-float-float-float-IVideo}
+## add_video_frame {#float-float-float-float-ivideo}
 Adds a new video frame to the end of a collection.
 
 ### Returns

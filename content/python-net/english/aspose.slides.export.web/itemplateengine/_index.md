@@ -17,6 +17,6 @@ The ITemplateEngine type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_template](/slides/python-net/aspose.slides.export.web/itemplateengine/add_template/#string-string-Type) |  |
+| [add_template](/slides/python-net/aspose.slides.export.web/itemplateengine/add_template/#string-string-type) |  |
 | [compile](/slides/python-net/aspose.slides.export.web/itemplateengine/compile/#string-any) | Transforms the template with the given key and model object to output. |
 

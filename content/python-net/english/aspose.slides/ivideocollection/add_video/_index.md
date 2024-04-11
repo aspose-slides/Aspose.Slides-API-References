@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_video {#IVideo}
+## add_video {#ivideo}
 Adds a copy of an video file from an another presentation.
 
 ### Returns
@@ -29,7 +29,7 @@ def add_video(self, video):
 
 
 
-## add_video {#System.IO.Stream}
+## add_video {#systemiostream}
 Adds a copy of an video file from an another presentation.
 
 ### Returns
@@ -71,7 +71,7 @@ def add_video(self, video_data):
 
 
 
-## add_video {#System.IO.Stream-LoadingStreamBehavior}
+## add_video {#systemiostream-loadingstreambehavior}
 Adds a copy of an video file from an another presentation.
 
 ### Returns

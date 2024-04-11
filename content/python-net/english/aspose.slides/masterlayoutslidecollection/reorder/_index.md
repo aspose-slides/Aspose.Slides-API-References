@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## reorder {#int-ILayoutSlide}
+## reorder {#int-ilayoutslide}
 Moves layout slide from the collection to the specified position.
 
 

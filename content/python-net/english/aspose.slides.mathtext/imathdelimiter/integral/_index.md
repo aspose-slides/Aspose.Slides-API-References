@@ -8,7 +8,7 @@ weight: 150
 ---
 
 
-## integral {#MathIntegralTypes}
+## integral {#mathintegraltypes}
 
 
 
@@ -24,7 +24,7 @@ def integral(self, integral_type):
 
 
 
-## integral {#MathIntegralTypes-IMathElement-IMathElement}
+## integral {#mathintegraltypes-imathelement-imathelement}
 
 
 
@@ -42,7 +42,7 @@ def integral(self, integral_type, lower_limit, upper_limit):
 
 
 
-## integral {#MathIntegralTypes-string-string}
+## integral {#mathintegraltypes-string-string}
 
 
 
@@ -60,7 +60,7 @@ def integral(self, integral_type, lower_limit, upper_limit):
 
 
 
-## integral {#MathIntegralTypes-IMathElement-IMathElement-MathLimitLocations}
+## integral {#mathintegraltypes-imathelement-imathelement-mathlimitlocations}
 
 
 
@@ -79,7 +79,7 @@ def integral(self, integral_type, lower_limit, upper_limit, limit_locations):
 
 
 
-## integral {#MathIntegralTypes-string-string-MathLimitLocations}
+## integral {#mathintegraltypes-string-string-mathlimitlocations}
 
 
 

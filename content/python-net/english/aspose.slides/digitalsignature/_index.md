@@ -17,7 +17,7 @@ The DigitalSignature type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/digitalsignature/__init__/#System.Security.Cryptography.X509Certificates.X509Certificate2) | Creates a new DigitalSignature object with the specified certificate. |
+| [__init__](/slides/python-net/aspose.slides/digitalsignature/__init__/#systemsecuritycryptographyx509certificatesx509certificate2) | Creates a new DigitalSignature object with the specified certificate. |
 | [__init__](/slides/python-net/aspose.slides/digitalsignature/__init__/#string-string) | Creates a new DigitalSignature object with the specified certificate file path and password. |
 
 ## Properties

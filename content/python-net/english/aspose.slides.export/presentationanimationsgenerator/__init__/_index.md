@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#Presentation}
+## __init__ {#presentation}
 
 
 
@@ -24,7 +24,7 @@ def __init__(self, presentation):
 
 
 
-## __init__ {#aspose.pydrawing.Size}
+## __init__ {#asposepydrawingsize}
 
 
 

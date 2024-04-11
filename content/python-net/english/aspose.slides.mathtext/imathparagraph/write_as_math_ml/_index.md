@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## write_as_math_ml {#System.IO.Stream}
+## write_as_math_ml {#systemiostream}
 Saves content of this [`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph) as MathML
 
 

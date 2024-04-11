@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_text_format {#IPortionFormat}
+## set_text_format {#iportionformat}
 Sets defined portion format properties to all element's portions.
 
 
@@ -24,7 +24,7 @@ def set_text_format(self, source):
 
 
 
-## set_text_format {#IParagraphFormat}
+## set_text_format {#iparagraphformat}
 Sets defined portion format properties to all element's portions.
 
 
@@ -40,7 +40,7 @@ def set_text_format(self, source):
 
 
 
-## set_text_format {#ITextFrameFormat}
+## set_text_format {#itextframeformat}
 Sets defined portion format properties to all element's portions.
 
 

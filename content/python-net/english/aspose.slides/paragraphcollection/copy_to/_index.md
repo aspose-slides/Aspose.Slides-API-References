@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## copy_to {#List[IParagraph]-int}
+## copy_to {#listiparagraph-int}
 Copies the elements of the .NET type System.Collections.Generic.ICollection`1 to an .NET type System.Array, starting at a particular .NET type System.Array index.
 
 

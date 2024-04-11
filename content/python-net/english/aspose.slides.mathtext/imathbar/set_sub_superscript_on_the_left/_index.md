@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## set_sub_superscript_on_the_left {#IMathElement-IMathElement}
+## set_sub_superscript_on_the_left {#imathelement-imathelement}
 
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_radical {#IMathElement-IMathElement}
+## create_math_radical {#imathelement-imathelement}
 Creates a math radical
 
 ### Returns

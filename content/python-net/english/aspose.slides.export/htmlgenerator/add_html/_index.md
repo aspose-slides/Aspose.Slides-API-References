@@ -24,7 +24,7 @@ def add_html(self, html):
 
 
 
-## add_html {#List[char]}
+## add_html {#listchar}
 Adds formatted HTML text.
 
 
@@ -40,7 +40,7 @@ def add_html(self, html):
 
 
 
-## add_html {#List[char]-int-int}
+## add_html {#listchar-int-int}
 Adds formatted HTML text.
 
 

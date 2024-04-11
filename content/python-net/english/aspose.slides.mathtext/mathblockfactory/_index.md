@@ -24,8 +24,8 @@ The MathBlockFactory type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [create_math_block](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#) | Create a math block |
-| [create_math_block](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#IMathElement) | Create a math block and place the element in it |
-| [create_math_block](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#IMathElementCollection) | Create a math block and place elements in it |
+| [create_math_block](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#imathelement) | Create a math block and place the element in it |
+| [create_math_block](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#imathelementcollection) | Create a math block and place elements in it |
 
 
 ### Remarks

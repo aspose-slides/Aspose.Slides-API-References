@@ -8,7 +8,7 @@ weight: 330
 ---
 
 
-## add_picture_frame {#ShapeType-float-float-float-float-IPPImage}
+## add_picture_frame {#shapetype-float-float-float-float-ippimage}
 Creates a new PictureFrame and adds it to the end of the collection.
 
 ### Returns

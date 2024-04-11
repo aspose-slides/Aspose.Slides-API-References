@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## index_of {#ISummaryZoomSection}
+## index_of {#isummaryzoomsection}
 Returns an index of the specified SummaryZoomSection object.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## index_of {#IMathBlock}
+## index_of {#imathblock}
 
 
 

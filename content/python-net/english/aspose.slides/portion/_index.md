@@ -19,7 +19,7 @@ The Portion type exposes the following members:
 | :- | :- |
 | [__init__](/slides/python-net/aspose.slides/portion/__init__/#) | Initializes a new instance of the Portion class. |
 | [__init__](/slides/python-net/aspose.slides/portion/__init__/#string) | Initializes a new instance of the Portion class. |
-| [__init__](/slides/python-net/aspose.slides/portion/__init__/#Portion) | Initializes a new instance of the Portion class. |
+| [__init__](/slides/python-net/aspose.slides/portion/__init__/#portion) | Initializes a new instance of the Portion class. |
 
 ## Properties
 
@@ -37,7 +37,7 @@ The Portion type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_field](/slides/python-net/aspose.slides/portion/add_field/#IFieldType) | Converts this portion to the automaticaly updated field. |
+| [add_field](/slides/python-net/aspose.slides/portion/add_field/#ifieldtype) | Converts this portion to the automaticaly updated field. |
 | [add_field](/slides/python-net/aspose.slides/portion/add_field/#string) | Converts this portion to the automaticaly updated field. |
 | [remove_field](/slides/python-net/aspose.slides/portion/remove_field/#) | Converts this field portion to the simple portion. |
 | [get_rect](/slides/python-net/aspose.slides/portion/get_rect/#) | Get coordinates of rect that bounds portion. The rect includes all the lines of<br/>             text in portion, including empty ones. |

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_image {#IPPImage}
+## add_image {#ippimage}
 Adds a copy of an image from an another presentation.
 
 ### Returns
@@ -29,7 +29,7 @@ def add_image(self, image_source):
 
 
 
-## add_image {#aspose.pydrawing.Image}
+## add_image {#asposepydrawingimage}
 Adds a copy of an image from an another presentation.
 
 ### Returns
@@ -50,7 +50,7 @@ def add_image(self, image):
 
 
 
-## add_image {#System.IO.Stream}
+## add_image {#systemiostream}
 Adds a copy of an image from an another presentation.
 
 ### Returns
@@ -92,7 +92,7 @@ def add_image(self, buffer):
 
 
 
-## add_image {#ISvgImage}
+## add_image {#isvgimage}
 Adds a copy of an image from an another presentation.
 
 ### Returns
@@ -113,7 +113,7 @@ def add_image(self, svg_image):
 
 
 
-## add_image {#System.IO.Stream-LoadingStreamBehavior}
+## add_image {#systemiostream-loadingstreambehavior}
 Adds a copy of an image from an another presentation.
 
 ### Returns

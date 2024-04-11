@@ -20,8 +20,8 @@ The Hyperlink type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/slides/python-net/aspose.slides/hyperlink/__init__/#string) | Creates an instance of a hyperlink. |
-| [__init__](/slides/python-net/aspose.slides/hyperlink/__init__/#ISlide) | Creates an instance of a hyperlink which points to specific slide.<br/>            Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
-| [__init__](/slides/python-net/aspose.slides/hyperlink/__init__/#Hyperlink-string-string-bool-bool-bool) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
+| [__init__](/slides/python-net/aspose.slides/hyperlink/__init__/#islide) | Creates an instance of a hyperlink which points to specific slide.<br/>            Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
+| [__init__](/slides/python-net/aspose.slides/hyperlink/__init__/#hyperlink-string-string-bool-bool-bool) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
 
 ## Properties
 
@@ -54,5 +54,5 @@ The Hyperlink type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [equals](/slides/python-net/aspose.slides/hyperlink/equals/#IHyperlink) | Determines whether the two Hyperlink instances are equal. |
+| [equals](/slides/python-net/aspose.slides/hyperlink/equals/#ihyperlink) | Determines whether the two Hyperlink instances are equal. |
 

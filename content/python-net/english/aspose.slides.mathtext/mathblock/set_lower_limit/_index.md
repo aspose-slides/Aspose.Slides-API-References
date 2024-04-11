@@ -8,7 +8,7 @@ weight: 130
 ---
 
 
-## set_lower_limit {#IMathElement}
+## set_lower_limit {#imathelement}
 Takes lower limit
 
 ### Returns

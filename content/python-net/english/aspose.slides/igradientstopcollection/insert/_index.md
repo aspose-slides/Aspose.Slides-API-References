@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## insert {#int-float-aspose.pydrawing.Color}
+## insert {#int-float-asposepydrawingcolor}
 Creates the new gradient stop and inserts it at the specified index to the collection.
 
 
@@ -26,7 +26,7 @@ def insert(self, index, position, color):
 
 
 
-## insert {#int-float-PresetColor}
+## insert {#int-float-presetcolor}
 Creates the new gradient stop and inserts it at the specified index to the collection.
 
 
@@ -44,7 +44,7 @@ def insert(self, index, position, preset_color):
 
 
 
-## insert {#int-float-SchemeColor}
+## insert {#int-float-schemecolor}
 Creates the new gradient stop and inserts it at the specified index to the collection.
 
 

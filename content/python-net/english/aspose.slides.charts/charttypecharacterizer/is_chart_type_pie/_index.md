@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## is_chart_type_pie {#ChartType}
+## is_chart_type_pie {#charttype}
 Return true if chartType is one of Pie subtypes.
             Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
             [`ChartType.BAR_OF_PIE`](/slides/python-net/aspose.slides.charts/charttype#BAR_OF_PIE),

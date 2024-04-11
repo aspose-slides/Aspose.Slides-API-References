@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## add_data_point_for_treemap_series {#IChartDataCell}
+## add_data_point_for_treemap_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chart type is Treemap.
 

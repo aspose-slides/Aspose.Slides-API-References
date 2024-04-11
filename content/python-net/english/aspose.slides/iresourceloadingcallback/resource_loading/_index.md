@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## resource_loading {#IResourceLoadingArgs}
+## resource_loading {#iresourceloadingargs}
 Callback method which regulates external resources loading.
 
 ### Returns

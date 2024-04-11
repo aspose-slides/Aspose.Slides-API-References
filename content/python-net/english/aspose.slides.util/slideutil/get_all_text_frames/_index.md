@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## get_all_text_frames {#IPresentation-bool}
+## get_all_text_frames {#ipresentation-bool}
 
 
 

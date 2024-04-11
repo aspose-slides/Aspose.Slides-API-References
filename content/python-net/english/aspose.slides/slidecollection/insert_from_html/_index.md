@@ -30,7 +30,7 @@ def insert_from_html(self, index, html_text):
 
 
 
-## insert_from_html {#int-System.IO.Stream}
+## insert_from_html {#int-systemiostream}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -52,7 +52,7 @@ def insert_from_html(self, index, html_stream):
 
 
 
-## insert_from_html {#int-string-aspose.slides.importing.IExternalResourceResolver-string}
+## insert_from_html {#int-string-asposeslidesimportingiexternalresourceresolver-string}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -76,7 +76,7 @@ def insert_from_html(self, index, html_text, resolver, uri):
 
 
 
-## insert_from_html {#int-System.IO.Stream-aspose.slides.importing.IExternalResourceResolver-string}
+## insert_from_html {#int-systemiostream-asposeslidesimportingiexternalresourceresolver-string}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns

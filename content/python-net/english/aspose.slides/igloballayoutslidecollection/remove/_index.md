@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove {#ILayoutSlide}
+## remove {#ilayoutslide}
 
 
 

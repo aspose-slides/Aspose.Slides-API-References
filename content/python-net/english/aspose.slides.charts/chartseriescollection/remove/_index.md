@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove {#IChartSeries}
+## remove {#ichartseries}
 Removes the specified value.
 
 

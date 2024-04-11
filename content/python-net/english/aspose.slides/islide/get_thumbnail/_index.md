@@ -25,7 +25,7 @@ def get_thumbnail(self):
 
 
 
-## get_thumbnail {#aspose.pydrawing.Size}
+## get_thumbnail {#asposepydrawingsize}
 Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
@@ -46,7 +46,7 @@ def get_thumbnail(self, image_size):
 
 
 
-## get_thumbnail {#aspose.slides.export.ITiffOptions}
+## get_thumbnail {#asposeslidesexportitiffoptions}
 Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
@@ -67,7 +67,7 @@ def get_thumbnail(self, options):
 
 
 
-## get_thumbnail {#aspose.slides.export.INotesCommentsLayoutingOptions}
+## get_thumbnail {#asposeslidesexportinotescommentslayoutingoptions}
 Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
@@ -88,7 +88,7 @@ def get_thumbnail(self, notes_comments_layouting):
 
 
 
-## get_thumbnail {#aspose.slides.export.IRenderingOptions}
+## get_thumbnail {#asposeslidesexportirenderingoptions}
 Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
@@ -131,7 +131,7 @@ def get_thumbnail(self, scale_x, scale_y):
 
 
 
-## get_thumbnail {#aspose.slides.export.INotesCommentsLayoutingOptions-aspose.pydrawing.Size}
+## get_thumbnail {#asposeslidesexportinotescommentslayoutingoptions-asposepydrawingsize}
 Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
@@ -153,7 +153,7 @@ def get_thumbnail(self, options, image_size):
 
 
 
-## get_thumbnail {#aspose.slides.export.IRenderingOptions-aspose.pydrawing.Size}
+## get_thumbnail {#asposeslidesexportirenderingoptions-asposepydrawingsize}
 Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
@@ -175,7 +175,7 @@ def get_thumbnail(self, options, image_size):
 
 
 
-## get_thumbnail {#aspose.slides.export.INotesCommentsLayoutingOptions-float-float}
+## get_thumbnail {#asposeslidesexportinotescommentslayoutingoptions-float-float}
 Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
@@ -198,7 +198,7 @@ def get_thumbnail(self, notes_comments_layouting, scale_x, scale_y):
 
 
 
-## get_thumbnail {#aspose.slides.export.IRenderingOptions-float-float}
+## get_thumbnail {#asposeslidesexportirenderingoptions-float-float}
 Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns

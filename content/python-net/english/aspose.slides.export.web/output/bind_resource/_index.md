@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## bind_resource {#IOutputFile-any}
+## bind_resource {#ioutputfile-any}
 Binds resource to output file.
 
 

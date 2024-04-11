@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## update_document_properties {#IDocumentProperties}
+## update_document_properties {#idocumentproperties}
 Updates properties of binded presentation.
 
 

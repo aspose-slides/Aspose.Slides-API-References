@@ -18,5 +18,5 @@ The IThemeManager type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [create_theme_effective](/slides/python-net/aspose.slides.theme/ithememanager/create_theme_effective/#) | Returns the theme object. |
-| [apply_color_scheme](/slides/python-net/aspose.slides.theme/ithememanager/apply_color_scheme/#IExtraColorScheme) | Applies extra color scheme to a slide. |
+| [apply_color_scheme](/slides/python-net/aspose.slides.theme/ithememanager/apply_color_scheme/#iextracolorscheme) | Applies extra color scheme to a slide. |
 

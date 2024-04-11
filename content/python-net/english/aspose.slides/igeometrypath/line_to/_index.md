@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## line_to {#aspose.pydrawing.PointF}
+## line_to {#asposepydrawingpointf}
 Adds line to the end of the path
 
 
@@ -41,7 +41,7 @@ def line_to(self, x, y):
 
 
 
-## line_to {#aspose.pydrawing.PointF-int}
+## line_to {#asposepydrawingpointf-int}
 Adds line to the end of the path
 
 

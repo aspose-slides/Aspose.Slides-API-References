@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## add_data_point_for_scatter_series {#IChartDataCell-IChartDataCell}
+## add_data_point_for_scatter_series {#ichartdatacell-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart. method).
 
@@ -31,7 +31,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 
 
-## add_data_point_for_scatter_series {#float-IChartDataCell}
+## add_data_point_for_scatter_series {#float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart. method).
 
@@ -54,7 +54,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 
 
-## add_data_point_for_scatter_series {#string-IChartDataCell}
+## add_data_point_for_scatter_series {#string-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart. method).
 
@@ -77,7 +77,7 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 
 
-## add_data_point_for_scatter_series {#IChartDataCell-float}
+## add_data_point_for_scatter_series {#ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeScatter(Aspose.Slides.Chart. method).
 

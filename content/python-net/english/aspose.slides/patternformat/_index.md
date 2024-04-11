@@ -30,6 +30,6 @@ The PatternFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_tile_image](/slides/python-net/aspose.slides/patternformat/get_tile_image/#aspose.pydrawing.Color-aspose.pydrawing.Color) | Creates a tile image for the pattern fill with a specified colors. |
-| [get_tile_image](/slides/python-net/aspose.slides/patternformat/get_tile_image/#aspose.pydrawing.Color) | Creates a tile image for the pattern fill. |
+| [get_tile_image](/slides/python-net/aspose.slides/patternformat/get_tile_image/#asposepydrawingcolor-asposepydrawingcolor) | Creates a tile image for the pattern fill with a specified colors. |
+| [get_tile_image](/slides/python-net/aspose.slides/patternformat/get_tile_image/#asposepydrawingcolor) | Creates a tile image for the pattern fill. |
 

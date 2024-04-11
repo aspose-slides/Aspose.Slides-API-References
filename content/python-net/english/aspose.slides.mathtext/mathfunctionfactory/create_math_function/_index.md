@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_function {#IMathElement-IMathElement}
+## create_math_function {#imathelement-imathelement}
 Creates math function
 
 ### Returns
@@ -30,7 +30,7 @@ def create_math_function(self, func_name, base_argument):
 
 
 
-## create_math_function {#string-IMathElement}
+## create_math_function {#string-imathelement}
 Creates math function
 
 ### Returns

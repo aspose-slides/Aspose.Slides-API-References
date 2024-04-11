@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## set_text_format {#IPortionFormat}
+## set_text_format {#iportionformat}
 
 
 
@@ -24,7 +24,7 @@ def set_text_format(self, source):
 
 
 
-## set_text_format {#IParagraphFormat}
+## set_text_format {#iparagraphformat}
 
 
 
@@ -40,7 +40,7 @@ def set_text_format(self, source):
 
 
 
-## set_text_format {#ITextFrameFormat}
+## set_text_format {#itextframeformat}
 
 
 

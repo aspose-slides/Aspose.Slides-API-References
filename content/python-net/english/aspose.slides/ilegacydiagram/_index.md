@@ -61,12 +61,12 @@ The ILegacyDiagram type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [get_thumbnail](/slides/python-net/aspose.slides/ilegacydiagram/get_thumbnail/#) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/ilegacydiagram/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/ilegacydiagram/write_as_svg/#System.IO.Stream) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/ilegacydiagram/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/ilegacydiagram/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/ilegacydiagram/write_as_svg/#systemiostream) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/ilegacydiagram/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
 | [convert_to_smart_art](/slides/python-net/aspose.slides/ilegacydiagram/convert_to_smart_art/#) | Converts legacy digram to editable SmartArt object. <br/>            Created SmartArt object adds to parent group shape at the same position. |
 | [convert_to_group_shape](/slides/python-net/aspose.slides/ilegacydiagram/convert_to_group_shape/#) | Converts legacy digram to editable group shape. <br/>            Created GroupShape object adds to parent group shape at the same position. |
-| [add_placeholder](/slides/python-net/aspose.slides/ilegacydiagram/add_placeholder/#IPlaceholder) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/ilegacydiagram/add_placeholder/#iplaceholder) |  |
 | [remove_placeholder](/slides/python-net/aspose.slides/ilegacydiagram/remove_placeholder/#) |  |
 | [get_base_placeholder](/slides/python-net/aspose.slides/ilegacydiagram/get_base_placeholder/#) |  |
 

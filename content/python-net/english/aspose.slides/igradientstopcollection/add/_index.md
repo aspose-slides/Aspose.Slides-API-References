@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#float-aspose.pydrawing.Color}
+## add {#float-asposepydrawingcolor}
 Creates the new gradient stop and adds it to the end of collection.
 
 ### Returns
@@ -30,7 +30,7 @@ def add(self, position, color):
 
 
 
-## add {#float-PresetColor}
+## add {#float-presetcolor}
 Creates the new gradient stop and adds it to the end of collection.
 
 ### Returns
@@ -52,7 +52,7 @@ def add(self, position, preset_color):
 
 
 
-## add {#float-SchemeColor}
+## add {#float-schemecolor}
 Creates the new gradient stop and adds it to the end of collection.
 
 ### Returns

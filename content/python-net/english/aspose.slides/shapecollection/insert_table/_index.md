@@ -8,7 +8,7 @@ weight: 360
 ---
 
 
-## insert_table {#int-float-float-List[float]-List[float]}
+## insert_table {#int-float-float-listfloat-listfloat}
 Creates a new Table and inserts it to the collection at the specified index.
 
 ### Returns

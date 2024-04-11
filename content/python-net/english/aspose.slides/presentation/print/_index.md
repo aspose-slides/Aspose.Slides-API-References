@@ -20,7 +20,7 @@ def print(self):
 
 
 
-## print {#aspose.pydrawing.Printing.PrinterSettings}
+## print {#asposepydrawingprintingprintersettings}
 Prints the whole presentation to the default printer.
 
 
@@ -52,7 +52,7 @@ def print(self, printer_name):
 
 
 
-## print {#aspose.pydrawing.Printing.PrinterSettings-string}
+## print {#asposepydrawingprintingprintersettings-string}
 Prints the whole presentation to the default printer.
 
 

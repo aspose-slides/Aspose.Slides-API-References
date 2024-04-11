@@ -8,7 +8,7 @@ weight: 200
 ---
 
 
-## has_series_trend_lines {#ChartType}
+## has_series_trend_lines {#charttype}
 Returns if there are series trend lines for specified series type.
 
 ### Returns

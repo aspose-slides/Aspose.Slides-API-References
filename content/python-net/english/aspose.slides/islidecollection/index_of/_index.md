@@ -8,7 +8,7 @@ weight: 130
 ---
 
 
-## index_of {#ISlide}
+## index_of {#islide}
 Returns an index of the specified slide in the collection.
 
 ### Returns

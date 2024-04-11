@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_from_one_cell {#IChartDataCell}
+## set_from_one_cell {#ichartdatacell}
 Sets value from specified cell.
 
 

@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#IMathBlock}
+## __init__ {#imathblock}
 Initializes a new instance of the MathParagraph class.
 
 

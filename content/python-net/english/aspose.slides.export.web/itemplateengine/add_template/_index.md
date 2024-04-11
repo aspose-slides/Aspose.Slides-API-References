@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_template {#string-string-Type}
+## add_template {#string-string-type}
 
 
 

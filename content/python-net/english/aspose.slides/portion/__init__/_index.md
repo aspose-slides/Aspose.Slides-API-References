@@ -36,7 +36,7 @@ def __init__(self, str):
 
 
 
-## __init__ {#Portion}
+## __init__ {#portion}
 Initializes a new instance of the Portion class.
 
 

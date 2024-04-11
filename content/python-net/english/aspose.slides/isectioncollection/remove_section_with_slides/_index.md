@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove_section_with_slides {#ISection}
+## remove_section_with_slides {#isection}
 Remove section and slides contained in the section.
 
 

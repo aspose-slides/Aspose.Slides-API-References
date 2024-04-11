@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_bar {#IMathElement}
+## create_math_bar {#imathelement}
 Create a math bar by applying to the element
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_bar(self, element):
 
 
 
-## create_math_bar {#IMathElement-MathTopBotPositions}
+## create_math_bar {#imathelement-mathtopbotpositions}
 Create a math bar by applying to the element
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_event_handler {#SvgEvent-string}
+## set_event_handler {#svgevent-string}
 Sets event handler for the shape
 
 

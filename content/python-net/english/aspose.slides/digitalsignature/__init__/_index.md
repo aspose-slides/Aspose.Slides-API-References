@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#System.Security.Cryptography.X509Certificates.X509Certificate2}
+## __init__ {#systemsecuritycryptographyx509certificatesx509certificate2}
 Creates a new DigitalSignature object with the specified certificate.
 
 

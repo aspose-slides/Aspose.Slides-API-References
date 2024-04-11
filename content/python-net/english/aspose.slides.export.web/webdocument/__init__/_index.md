@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#WebDocumentOptions}
+## __init__ {#webdocumentoptions}
 [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument) constructor.
 
 ### Returns

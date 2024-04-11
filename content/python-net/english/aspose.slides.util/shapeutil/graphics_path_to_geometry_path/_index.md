@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## graphics_path_to_geometry_path {#aspose.pydrawing.Drawing2D.GraphicsPath}
+## graphics_path_to_geometry_path {#asposepydrawingdrawing2dgraphicspath}
 Converts a .NET type System.Drawing.Drawing2D.GraphicsPath to the [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
             Return value of the method call can be used to change the geometry of a IGeometryShape object with
             IGeometryShape.SetGeometryPaths method.

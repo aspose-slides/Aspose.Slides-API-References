@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## write_font {#IHtmlGenerator-IFontData-IFontData-string-string-bytes}
+## write_font {#ihtmlgenerator-ifontdata-ifontdata-string-string-bytes}
 
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## write_binded_presentation {#System.IO.Stream}
+## write_binded_presentation {#systemiostream}
 Writes binded presentation to stream.
 
 

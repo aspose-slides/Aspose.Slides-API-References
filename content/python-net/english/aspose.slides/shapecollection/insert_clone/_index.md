@@ -8,7 +8,7 @@ weight: 210
 ---
 
 
-## insert_clone {#int-IShape}
+## insert_clone {#int-ishape}
 Inserts a copy of a specified shape to specified position of the collection.
 
 ### Returns
@@ -30,7 +30,7 @@ def insert_clone(self, index, source_shape):
 
 
 
-## insert_clone {#int-IShape-float-float}
+## insert_clone {#int-ishape-float-float}
 Inserts a copy of a specified shape to specified position of the collection.
 
 ### Returns
@@ -54,7 +54,7 @@ def insert_clone(self, index, source_shape, x, y):
 
 
 
-## insert_clone {#int-IShape-float-float-float-float}
+## insert_clone {#int-ishape-float-float-float-float}
 Inserts a copy of a specified shape to specified position of the collection.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## as_argument_of_function {#IMathElement}
+## as_argument_of_function {#imathelement}
 Takes specified function using this instance as the argument
 
 ### Returns
@@ -50,7 +50,7 @@ def as_argument_of_function(self, function_name):
 
 
 
-## as_argument_of_function {#MathFunctionsOfOneArgument}
+## as_argument_of_function {#mathfunctionsofoneargument}
 Takes specified function using this instance as the argument
 
 ### Returns
@@ -71,7 +71,7 @@ def as_argument_of_function(self, function_type):
 
 
 
-## as_argument_of_function {#MathFunctionsOfTwoArguments-IMathElement}
+## as_argument_of_function {#mathfunctionsoftwoarguments-imathelement}
 Takes specified function using this instance as the argument
 
 ### Returns
@@ -93,7 +93,7 @@ def as_argument_of_function(self, function_type, additional_argument):
 
 
 
-## as_argument_of_function {#MathFunctionsOfTwoArguments-string}
+## as_argument_of_function {#mathfunctionsoftwoarguments-string}
 Takes specified function using this instance as the argument
 
 ### Returns

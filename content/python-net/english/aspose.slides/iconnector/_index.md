@@ -68,15 +68,15 @@ The IConnector type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [get_thumbnail](/slides/python-net/aspose.slides/iconnector/get_thumbnail/#) |  |
-| [get_thumbnail](/slides/python-net/aspose.slides/iconnector/get_thumbnail/#ShapeThumbnailBounds-float-float) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/iconnector/write_as_svg/#System.IO.Stream) |  |
-| [write_as_svg](/slides/python-net/aspose.slides/iconnector/write_as_svg/#System.IO.Stream-aspose.slides.export.ISVGOptions) |  |
+| [get_thumbnail](/slides/python-net/aspose.slides/iconnector/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/iconnector/write_as_svg/#systemiostream) |  |
+| [write_as_svg](/slides/python-net/aspose.slides/iconnector/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
 | [reroute](/slides/python-net/aspose.slides/iconnector/reroute/#) | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
 | [get_geometry_paths](/slides/python-net/aspose.slides/iconnector/get_geometry_paths/#) |  |
-| [set_geometry_path](/slides/python-net/aspose.slides/iconnector/set_geometry_path/#IGeometryPath) |  |
-| [set_geometry_paths](/slides/python-net/aspose.slides/iconnector/set_geometry_paths/#List[IGeometryPath]) |  |
+| [set_geometry_path](/slides/python-net/aspose.slides/iconnector/set_geometry_path/#igeometrypath) |  |
+| [set_geometry_paths](/slides/python-net/aspose.slides/iconnector/set_geometry_paths/#listigeometrypath) |  |
 | [create_shape_elements](/slides/python-net/aspose.slides/iconnector/create_shape_elements/#) |  |
-| [add_placeholder](/slides/python-net/aspose.slides/iconnector/add_placeholder/#IPlaceholder) |  |
+| [add_placeholder](/slides/python-net/aspose.slides/iconnector/add_placeholder/#iplaceholder) |  |
 | [remove_placeholder](/slides/python-net/aspose.slides/iconnector/remove_placeholder/#) |  |
 | [get_base_placeholder](/slides/python-net/aspose.slides/iconnector/get_base_placeholder/#) |  |
 

@@ -30,8 +30,8 @@ The ControlCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_control](/slides/python-net/aspose.slides/controlcollection/add_control/#ControlType-float-float-float-float) | Creates and adds a new control to the collection. |
-| [remove](/slides/python-net/aspose.slides/controlcollection/remove/#IControl) | Removes an ActiveX control from the collection. |
+| [add_control](/slides/python-net/aspose.slides/controlcollection/add_control/#controltype-float-float-float-float) | Creates and adds a new control to the collection. |
+| [remove](/slides/python-net/aspose.slides/controlcollection/remove/#icontrol) | Removes an ActiveX control from the collection. |
 | [remove_at](/slides/python-net/aspose.slides/controlcollection/remove_at/#int) | Removes an ActiveX control stored at specified position from the collection. |
 | [clear](/slides/python-net/aspose.slides/controlcollection/clear/#) | Removes all controls from the collection. |
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#ColorTransformOperation}
+## add {#colortransformoperation}
 Adds a new operation to the end of collection.
 
 ### Returns
@@ -29,7 +29,7 @@ def add(self, operation):
 
 
 
-## add {#ColorTransformOperation-float}
+## add {#colortransformoperation-float}
 Adds a new operation to the end of collection.
 
 ### Returns

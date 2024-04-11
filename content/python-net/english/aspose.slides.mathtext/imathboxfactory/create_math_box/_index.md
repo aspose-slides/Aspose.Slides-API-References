@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_box {#IMathElement}
+## create_math_box {#imathelement}
 Create a math box by applying to the element
 
 ### Returns

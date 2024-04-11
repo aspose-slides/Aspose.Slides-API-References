@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_image {#aspose.pydrawing.Image}
+## add_image {#asposepydrawingimage}
 Add an image to a presentation.
 
 ### Returns
@@ -33,7 +33,7 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 
 
 
-## add_image {#System.IO.Stream}
+## add_image {#systemiostream}
 Add an image to a presentation.
 
 ### Returns
@@ -83,7 +83,7 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 
 
 
-## add_image {#IPPImage}
+## add_image {#ippimage}
 Add an image to a presentation.
 
 ### Returns
@@ -108,7 +108,7 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 
 
 
-## add_image {#ISvgImage}
+## add_image {#isvgimage}
 Add an image to a presentation.
 
 ### Returns
@@ -133,7 +133,7 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 
 
 
-## add_image {#System.IO.Stream-LoadingStreamBehavior}
+## add_image {#systemiostream-loadingstreambehavior}
 Add an image to a presentation.
 
 ### Returns

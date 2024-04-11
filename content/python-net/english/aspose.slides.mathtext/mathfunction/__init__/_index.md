@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#IMathElement-IMathElement}
+## __init__ {#imathelement-imathelement}
 Initializes a new instance of the MathFunction class.
 
 
@@ -25,7 +25,7 @@ def __init__(self, func_name, base_argument):
 
 
 
-## __init__ {#string-IMathElement}
+## __init__ {#string-imathelement}
 Initializes a new instance of the MathFunction class.
 
 

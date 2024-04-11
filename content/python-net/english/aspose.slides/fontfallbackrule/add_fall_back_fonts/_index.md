@@ -24,7 +24,7 @@ def add_fall_back_fonts(self, font_name):
 
 
 
-## add_fall_back_fonts {#List[string]}
+## add_fall_back_fonts {#liststring}
 Adds a new font(s) to the list of FallBack fonts.
 
 

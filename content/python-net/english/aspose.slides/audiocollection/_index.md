@@ -30,8 +30,8 @@ The AudioCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_audio](/slides/python-net/aspose.slides/audiocollection/add_audio/#IAudio) | Adds a copy of an audio file from an another presentation. |
-| [add_audio](/slides/python-net/aspose.slides/audiocollection/add_audio/#System.IO.Stream) | Creates and adds a audio to a presentation from stream. |
-| [add_audio](/slides/python-net/aspose.slides/audiocollection/add_audio/#System.IO.Stream-LoadingStreamBehavior) | Creates and adds a audio to a presentation from stream. |
+| [add_audio](/slides/python-net/aspose.slides/audiocollection/add_audio/#iaudio) | Adds a copy of an audio file from an another presentation. |
+| [add_audio](/slides/python-net/aspose.slides/audiocollection/add_audio/#systemiostream) | Creates and adds a audio to a presentation from stream. |
+| [add_audio](/slides/python-net/aspose.slides/audiocollection/add_audio/#systemiostream-loadingstreambehavior) | Creates and adds a audio to a presentation from stream. |
 | [add_audio](/slides/python-net/aspose.slides/audiocollection/add_audio/#bytes) | Creates and adds a audio to a presentation from byte array. |
 

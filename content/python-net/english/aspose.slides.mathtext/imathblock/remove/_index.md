@@ -8,7 +8,7 @@ weight: 260
 ---
 
 
-## remove {#IMathElement}
+## remove {#imathelement}
 
 
 

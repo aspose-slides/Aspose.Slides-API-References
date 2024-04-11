@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## set_sub_superscript_on_the_right {#IMathElement-IMathElement}
+## set_sub_superscript_on_the_right {#imathelement-imathelement}
 Creates subscript and superscript on the right
 
 ### Returns

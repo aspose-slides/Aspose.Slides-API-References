@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## contains {#IMathElement}
+## contains {#imathelement}
 Determines whether the collection contains a specific value.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove {#IPortion}
+## remove {#iportion}
 Removes the first occurrence of a specific object from the .NET type System.Collections.Generic.ICollection`1.
 
 ### Returns

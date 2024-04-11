@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## insert {#int-IPortion}
+## insert {#int-iportion}
 Inserts a Portion into the collection at the specified index.
 
 

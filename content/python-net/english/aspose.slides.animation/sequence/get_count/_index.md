@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## get_count {#IShape}
+## get_count {#ishape}
 
 
 

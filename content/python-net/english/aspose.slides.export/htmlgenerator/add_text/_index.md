@@ -25,7 +25,7 @@ def add_text(self, text):
 
 
 
-## add_text {#List[char]}
+## add_text {#listchar}
 Adds plain text to the html files, replacing special characters with html entities.
             Linebreaks and whitespaces aren't replaced.
 
@@ -42,7 +42,7 @@ def add_text(self, text):
 
 
 
-## add_text {#List[char]-int-int}
+## add_text {#listchar-int-int}
 Adds plain text to the html files, replacing special characters with html entities.
             Linebreaks and whitespaces aren't replaced.
 

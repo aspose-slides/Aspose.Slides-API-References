@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove {#IControl}
+## remove {#icontrol}
 Removes an ActiveX control from the collection.
 
 

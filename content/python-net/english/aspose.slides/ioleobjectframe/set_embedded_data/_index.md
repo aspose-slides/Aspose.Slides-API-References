@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## set_embedded_data {#IOleEmbeddedDataInfo}
+## set_embedded_data {#ioleembeddeddatainfo}
 Sets information about OLE embedded data.
 
 

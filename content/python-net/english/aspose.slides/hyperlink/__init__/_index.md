@@ -24,7 +24,7 @@ def __init__(self, url):
 
 
 
-## __init__ {#ISlide}
+## __init__ {#islide}
 Creates an instance of a hyperlink.
 
 
@@ -40,7 +40,7 @@ def __init__(self, slide):
 
 
 
-## __init__ {#Hyperlink-string-string-bool-bool-bool}
+## __init__ {#hyperlink-string-string-bool-bool-bool}
 Creates an instance of a hyperlink.
 
 

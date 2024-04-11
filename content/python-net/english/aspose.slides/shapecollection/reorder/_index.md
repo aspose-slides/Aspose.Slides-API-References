@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## reorder {#int-IShape}
+## reorder {#int-ishape}
 Moves a shape from the collection to the specified position.
 
 
@@ -25,7 +25,7 @@ def reorder(self, index, shape):
 
 
 
-## reorder {#int-List[IShape]}
+## reorder {#int-listishape}
 Moves a shape from the collection to the specified position.
 
 

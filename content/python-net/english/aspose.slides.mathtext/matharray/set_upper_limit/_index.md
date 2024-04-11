@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## set_upper_limit {#IMathElement}
+## set_upper_limit {#imathelement}
 Takes upper limit
 
 ### Returns

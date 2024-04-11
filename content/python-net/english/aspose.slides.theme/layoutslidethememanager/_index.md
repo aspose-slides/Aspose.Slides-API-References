@@ -28,5 +28,5 @@ The LayoutSlideThemeManager type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [create_theme_effective](/slides/python-net/aspose.slides.theme/layoutslidethememanager/create_theme_effective/#) | Returns the theme object. |
-| [apply_color_scheme](/slides/python-net/aspose.slides.theme/layoutslidethememanager/apply_color_scheme/#IExtraColorScheme) | Applies extra color scheme to a slide. |
+| [apply_color_scheme](/slides/python-net/aspose.slides.theme/layoutslidethememanager/apply_color_scheme/#iextracolorscheme) | Applies extra color scheme to a slide. |
 

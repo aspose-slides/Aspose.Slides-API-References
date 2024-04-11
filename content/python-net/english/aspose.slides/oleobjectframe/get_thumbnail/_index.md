@@ -26,7 +26,7 @@ def get_thumbnail(self):
 
 
 
-## get_thumbnail {#ShapeThumbnailBounds-float-float}
+## get_thumbnail {#shapethumbnailbounds-float-float}
 Returns shape thumbnail.
             ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
 

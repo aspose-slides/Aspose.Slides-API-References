@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_effect_styles {#aspose.pydrawing.Color}
+## get_effect_styles {#asposepydrawingcolor}
 Returns a collection of theme defined effect styles.
 
 ### Returns
