@@ -17,5 +17,5 @@ The INotesSize type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [size](/slides/python-net/aspose.slides/inotessize/size/) | Returns or sets the size in points.<br/>            Read/write <br/>.NET type System.Drawing.SizeF<br/>. |
+| [size](/slides/python-net/aspose.slides/inotessize/size/) | Returns or sets the size in points.<br/>            Read/write <br/>.NET type System.Drawing.SizeF. |
 

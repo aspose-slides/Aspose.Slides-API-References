@@ -19,6 +19,6 @@ The InkTrace type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [brush](/slides/python-net/aspose.slides.ink/inktrace/brush/) | Gets Brush for the IInkLine <br/>[`IInkBrush`](/slides/python-net/aspose.slides.ink/iinkbrush)<br/><br/>            Read-only. |
-| [points](/slides/python-net/aspose.slides.ink/inktrace/points/) | Gets points for the IInkLine <br/>.NET type System.Drawing.PointF<br/><br/>            Read-only. |
+| [brush](/slides/python-net/aspose.slides.ink/inktrace/brush/) | Gets Brush for the IInkLine <br/>[`IInkBrush`](/slides/python-net/aspose.slides.ink/iinkbrush)<br/>            Read-only. |
+| [points](/slides/python-net/aspose.slides.ink/inktrace/points/) | Gets points for the IInkLine <br/>.NET type System.Drawing.PointF<br/>            Read-only. |
 

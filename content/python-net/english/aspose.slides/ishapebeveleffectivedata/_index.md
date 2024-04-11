@@ -17,14 +17,13 @@ The IShapeBevelEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [width](/slides/python-net/aspose.slides/ishapebeveleffectivedata/width/) | Bevel width.<br/>            Read-only <br/>.NET type System.Double<br/>. |
-| [height](/slides/python-net/aspose.slides/ishapebeveleffectivedata/height/) | Bevel height.<br/>            Read-only <br/>.NET type System.Double<br/>. |
-| [bevel_type](/slides/python-net/aspose.slides/ishapebeveleffectivedata/bevel_type/) | Bevel type.<br/>            Read-only <br/>[`BevelPresetType`](/slides/python-net/aspose.slides/bevelpresettype)<br/>. |
+| [width](/slides/python-net/aspose.slides/ishapebeveleffectivedata/width/) | Bevel width.<br/>            Read-only <br/>.NET type System.Double. |
+| [height](/slides/python-net/aspose.slides/ishapebeveleffectivedata/height/) | Bevel height.<br/>            Read-only <br/>.NET type System.Double. |
+| [bevel_type](/slides/python-net/aspose.slides/ishapebeveleffectivedata/bevel_type/) | Bevel type.<br/>            Read-only <br/>[`BevelPresetType`](/slides/python-net/aspose.slides/bevelpresettype). |
 
 
 ### Remarks
 
 This interface is used as a part of 
-[`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata)
-.
+[`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata).
 

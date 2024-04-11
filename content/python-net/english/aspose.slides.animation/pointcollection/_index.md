@@ -23,7 +23,7 @@ The PointCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.animation/pointcollection/count/) | Returns the number of points in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [count](/slides/python-net/aspose.slides.animation/pointcollection/count/) | Returns the number of points in the collection.<br/>            Read-only <br/>.NET type System.Int32. |
 | [as_i_enumerable](/slides/python-net/aspose.slides.animation/pointcollection/as_i_enumerable/) |  |
 
 ## Indexer

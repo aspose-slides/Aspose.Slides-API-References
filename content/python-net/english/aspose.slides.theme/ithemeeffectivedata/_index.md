@@ -17,8 +17,8 @@ The IThemeEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [font_scheme](/slides/python-net/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | Returns the font scheme.<br/>            Read-only <br/>[`IFontSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata)<br/>. |
-| [format_scheme](/slides/python-net/aspose.slides.theme/ithemeeffectivedata/format_scheme/) | Returns the shape format scheme.<br/>            Read-only <br/>[`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)<br/>. |
+| [font_scheme](/slides/python-net/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | Returns the font scheme.<br/>            Read-only <br/>[`IFontSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata). |
+| [format_scheme](/slides/python-net/aspose.slides.theme/ithemeeffectivedata/format_scheme/) | Returns the shape format scheme.<br/>            Read-only <br/>[`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata). |
 
 ## Methods
 
@@ -30,6 +30,5 @@ The IThemeEffectiveData type exposes the following members:
 ### Remarks
 
 This interface is used together with the 
-[`ITheme`](/slides/python-net/aspose.slides.theme/itheme)
- interface to return effective formatting values with inheritance applied.
+[`ITheme`](/slides/python-net/aspose.slides.theme/itheme) interface to return effective formatting values with inheritance applied.
 

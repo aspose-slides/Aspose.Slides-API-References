@@ -10,8 +10,7 @@ url: /aspose.slides.export/presentationanimationsgenerator/
 PresentationAnimationsGenerator class
 
 Represents a generator of the animations in the 
-[`Presentation`](/slides/python-net/aspose.slides/presentation)
-.
+[`Presentation`](/slides/python-net/aspose.slides/presentation).
 
 The PresentationAnimationsGenerator type exposes the following members:
 
@@ -20,7 +19,7 @@ The PresentationAnimationsGenerator type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/presentationanimationsgenerator/#Presentation/) |  |
-| [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/presentationanimationsgenerator/#aspose.pydrawing.Size/) | Creates a new instance of the <br/>[`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator)<br/>. |
+| [__init__](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/presentationanimationsgenerator/#aspose.pydrawing.Size/) | Creates a new instance of the <br/>[`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator). |
 
 ## Properties
 

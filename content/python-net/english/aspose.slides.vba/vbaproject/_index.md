@@ -24,9 +24,9 @@ The VbaProject type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [name](/slides/python-net/aspose.slides.vba/vbaproject/name/) | Returns the name of the VBA project.<br/>            Read-only <br/>.NET type System.String<br/>. |
-| [modules](/slides/python-net/aspose.slides.vba/vbaproject/modules/) | Returns the list of all modules that are contained in the VBA project.<br/>            Read-only <br/>[`IVbaModuleCollection`](/slides/python-net/aspose.slides.vba/ivbamodulecollection)<br/>. |
-| [references](/slides/python-net/aspose.slides.vba/vbaproject/references/) | Returns the list of all references that are contained in the VBA project.<br/>            Read-only <br/>[`IVbaReferenceCollection`](/slides/python-net/aspose.slides.vba/ivbareferencecollection)<br/>. |
+| [name](/slides/python-net/aspose.slides.vba/vbaproject/name/) | Returns the name of the VBA project.<br/>            Read-only <br/>.NET type System.String. |
+| [modules](/slides/python-net/aspose.slides.vba/vbaproject/modules/) | Returns the list of all modules that are contained in the VBA project.<br/>            Read-only <br/>[`IVbaModuleCollection`](/slides/python-net/aspose.slides.vba/ivbamodulecollection). |
+| [references](/slides/python-net/aspose.slides.vba/vbaproject/references/) | Returns the list of all references that are contained in the VBA project.<br/>            Read-only <br/>[`IVbaReferenceCollection`](/slides/python-net/aspose.slides.vba/ivbareferencecollection). |
 
 ## Methods
 

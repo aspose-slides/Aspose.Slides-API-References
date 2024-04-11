@@ -17,11 +17,11 @@ The INotesSlide type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [header_footer_manager](/slides/python-net/aspose.slides/inotesslide/header_footer_manager/) | Returns HeaderFooter manager of the notes slide.<br/>            Read-only <br/>[`INotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/inotesslideheaderfootermanager)<br/>. |
-| [notes_text_frame](/slides/python-net/aspose.slides/inotesslide/notes_text_frame/) | Returns a TextFrame with notes' text if there is one.<br/>            Read-only <br/>[`ITextFrame`](/slides/python-net/aspose.slides/itextframe)<br/>. |
-| [parent_slide](/slides/python-net/aspose.slides/inotesslide/parent_slide/) | Returns a ParentSlide<br/>            Read-only <br/>[`ISlide`](/slides/python-net/aspose.slides/islide)<br/>. |
-| [as_i_base_slide](/slides/python-net/aspose.slides/inotesslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)<br/>. |
-| [as_i_override_themeable](/slides/python-net/aspose.slides/inotesslide/as_i_override_themeable/) | Returns IOverrideThemeable interface.<br/>            Read-only <br/>[`IOverrideThemeable`](/slides/python-net/aspose.slides.theme/ioverridethemeable)<br/>. |
+| [header_footer_manager](/slides/python-net/aspose.slides/inotesslide/header_footer_manager/) | Returns HeaderFooter manager of the notes slide.<br/>            Read-only <br/>[`INotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/inotesslideheaderfootermanager). |
+| [notes_text_frame](/slides/python-net/aspose.slides/inotesslide/notes_text_frame/) | Returns a TextFrame with notes' text if there is one.<br/>            Read-only <br/>[`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
+| [parent_slide](/slides/python-net/aspose.slides/inotesslide/parent_slide/) | Returns a ParentSlide<br/>            Read-only <br/>[`ISlide`](/slides/python-net/aspose.slides/islide). |
+| [as_i_base_slide](/slides/python-net/aspose.slides/inotesslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
+| [as_i_override_themeable](/slides/python-net/aspose.slides/inotesslide/as_i_override_themeable/) | Returns IOverrideThemeable interface.<br/>            Read-only <br/>[`IOverrideThemeable`](/slides/python-net/aspose.slides.theme/ioverridethemeable). |
 | [shapes](/slides/python-net/aspose.slides/inotesslide/shapes/) |  |
 | [controls](/slides/python-net/aspose.slides/inotesslide/controls/) |  |
 | [name](/slides/python-net/aspose.slides/inotesslide/name/) |  |

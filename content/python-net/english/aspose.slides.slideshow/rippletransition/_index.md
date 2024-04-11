@@ -19,6 +19,6 @@ The RippleTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/rippletransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionCornerAndCenterDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioncornerandcenterdirectiontype)<br/>. |
+| [direction](/slides/python-net/aspose.slides.slideshow/rippletransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionCornerAndCenterDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioncornerandcenterdirectiontype). |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/rippletransition/as_i_transition_value_base/) |  |
 

@@ -18,11 +18,11 @@ The IResourceLoadingArgs type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [original_uri](/slides/python-net/aspose.slides/iresourceloadingargs/original_uri/) | Original URI of the resource as specified in imported presentation. |
-| [uri](/slides/python-net/aspose.slides/iresourceloadingargs/uri/) | URI of the resource which is used for downloading if <br/>Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide.<br/> <br/>            returns <br/>[`ResourceLoadingAction.DEFAULT`](/slides/python-net/aspose.slides/resourceloadingaction#DEFAULT)<br/>. <br/>            Initially it's set to original URI of the resource, but can be redefined to any value. |
+| [uri](/slides/python-net/aspose.slides/iresourceloadingargs/uri/) | URI of the resource which is used for downloading if <br/>Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide. <br/>            returns <br/>[`ResourceLoadingAction.DEFAULT`](/slides/python-net/aspose.slides/resourceloadingaction#DEFAULT). <br/>            Initially it's set to original URI of the resource, but can be redefined to any value. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [set_data](/slides/python-net/aspose.slides/iresourceloadingargs/iresourceloadingargs/#bytes/) | Sets user provided data of the resource which used if <br/>Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide.<br/> <br/>            returns <br/>[`ResourceLoadingAction.USER_PROVIDED`](/slides/python-net/aspose.slides/resourceloadingaction#USER_PROVIDED)<br/>. |
+| [set_data](/slides/python-net/aspose.slides/iresourceloadingargs/iresourceloadingargs/#bytes/) | Sets user provided data of the resource which used if <br/>Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide. <br/>            returns <br/>[`ResourceLoadingAction.USER_PROVIDED`](/slides/python-net/aspose.slides/resourceloadingaction#USER_PROVIDED). |
 

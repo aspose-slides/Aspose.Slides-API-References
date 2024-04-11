@@ -17,9 +17,9 @@ The ChartTextFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [text_block_format](/slides/python-net/aspose.slides.charts/charttextformat/text_block_format/) | TextBlockFormat.<br/>            Read-only <br/>[`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)<br/>. |
-| [paragraph_format](/slides/python-net/aspose.slides.charts/charttextformat/paragraph_format/) | ParagraphFormat.<br/>            Read-only <br/>[`IChartParagraphFormat`](/slides/python-net/aspose.slides.charts/ichartparagraphformat)<br/>. |
-| [portion_format](/slides/python-net/aspose.slides.charts/charttextformat/portion_format/) | PortionFormat.<br/>            Read-only <br/>[`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)<br/>. |
+| [text_block_format](/slides/python-net/aspose.slides.charts/charttextformat/text_block_format/) | TextBlockFormat.<br/>            Read-only <br/>[`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat). |
+| [paragraph_format](/slides/python-net/aspose.slides.charts/charttextformat/paragraph_format/) | ParagraphFormat.<br/>            Read-only <br/>[`IChartParagraphFormat`](/slides/python-net/aspose.slides.charts/ichartparagraphformat). |
+| [portion_format](/slides/python-net/aspose.slides.charts/charttextformat/portion_format/) | PortionFormat.<br/>            Read-only <br/>[`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat). |
 
 ## Methods
 

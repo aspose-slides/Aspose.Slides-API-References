@@ -17,13 +17,13 @@ The IConnector type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [shape_lock](/slides/python-net/aspose.slides/iconnector/shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IConnectorLock`](/slides/python-net/aspose.slides/iconnectorlock)<br/>. |
-| [connector_lock](/slides/python-net/aspose.slides/iconnector/connector_lock/) | Returns Connector's locks.<br/>            Read-only <br/>[`IConnectorLock`](/slides/python-net/aspose.slides/iconnectorlock)<br/>. |
-| [start_shape_connected_to](/slides/python-net/aspose.slides/iconnector/start_shape_connected_to/) | Returns or sets the shape to attach the beginning of the connector to.<br/>            Read/write <br/>[`IShape`](/slides/python-net/aspose.slides/ishape)<br/>. |
-| [end_shape_connected_to](/slides/python-net/aspose.slides/iconnector/end_shape_connected_to/) | Returns or sets the shape to attach the end of the connector to.<br/>            Read/write <br/>[`IShape`](/slides/python-net/aspose.slides/ishape)<br/>. |
-| [start_shape_connection_site_index](/slides/python-net/aspose.slides/iconnector/start_shape_connection_site_index/) | Returns or sets the index of connection site for start shape.<br/>            Read/write <br/>.NET type System.UInt32<br/>. |
-| [end_shape_connection_site_index](/slides/python-net/aspose.slides/iconnector/end_shape_connection_site_index/) | Returns or sets the index of connection site for end shape.<br/>            Read/write <br/>.NET type System.UInt32<br/>. |
-| [as_i_geometry_shape](/slides/python-net/aspose.slides/iconnector/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only <br/>[`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape)<br/>. |
+| [shape_lock](/slides/python-net/aspose.slides/iconnector/shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IConnectorLock`](/slides/python-net/aspose.slides/iconnectorlock). |
+| [connector_lock](/slides/python-net/aspose.slides/iconnector/connector_lock/) | Returns Connector's locks.<br/>            Read-only <br/>[`IConnectorLock`](/slides/python-net/aspose.slides/iconnectorlock). |
+| [start_shape_connected_to](/slides/python-net/aspose.slides/iconnector/start_shape_connected_to/) | Returns or sets the shape to attach the beginning of the connector to.<br/>            Read/write <br/>[`IShape`](/slides/python-net/aspose.slides/ishape). |
+| [end_shape_connected_to](/slides/python-net/aspose.slides/iconnector/end_shape_connected_to/) | Returns or sets the shape to attach the end of the connector to.<br/>            Read/write <br/>[`IShape`](/slides/python-net/aspose.slides/ishape). |
+| [start_shape_connection_site_index](/slides/python-net/aspose.slides/iconnector/start_shape_connection_site_index/) | Returns or sets the index of connection site for start shape.<br/>            Read/write <br/>.NET type System.UInt32. |
+| [end_shape_connection_site_index](/slides/python-net/aspose.slides/iconnector/end_shape_connection_site_index/) | Returns or sets the index of connection site for end shape.<br/>            Read/write <br/>.NET type System.UInt32. |
+| [as_i_geometry_shape](/slides/python-net/aspose.slides/iconnector/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only <br/>[`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape). |
 | [shape_style](/slides/python-net/aspose.slides/iconnector/shape_style/) |  |
 | [shape_type](/slides/python-net/aspose.slides/iconnector/shape_type/) |  |
 | [adjustments](/slides/python-net/aspose.slides/iconnector/adjustments/) |  |

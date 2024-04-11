@@ -17,9 +17,9 @@ The IVideoPlayerHtmlController type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_html_formatting_controller](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller/as_i_html_formatting_controller/) | Allows to get base IHtmlFormattingController interface.<br/>            Read-only <br/>[`IHtmlFormattingController`](/slides/python-net/aspose.slides.export/ihtmlformattingcontroller)<br/>. |
-| [as_i_svg_shape_formatting_controller](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller/as_i_svg_shape_formatting_controller/) | Allows to get base ISvgShapeFormattingController interface.<br/>            Read-only <br/>[`ISvgShapeFormattingController`](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller)<br/>. |
-| [as_i_link_embed_controller](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller/as_i_link_embed_controller/) | Allows to get base ILinkEmbedController interface.<br/>            Read-only <br/>[`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller)<br/>. |
+| [as_i_html_formatting_controller](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller/as_i_html_formatting_controller/) | Allows to get base IHtmlFormattingController interface.<br/>            Read-only <br/>[`IHtmlFormattingController`](/slides/python-net/aspose.slides.export/ihtmlformattingcontroller). |
+| [as_i_svg_shape_formatting_controller](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller/as_i_svg_shape_formatting_controller/) | Allows to get base ISvgShapeFormattingController interface.<br/>            Read-only <br/>[`ISvgShapeFormattingController`](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller). |
+| [as_i_link_embed_controller](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller/as_i_link_embed_controller/) | Allows to get base ILinkEmbedController interface.<br/>            Read-only <br/>[`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller). |
 
 ## Methods
 

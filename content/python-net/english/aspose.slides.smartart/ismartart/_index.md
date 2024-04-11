@@ -17,13 +17,13 @@ The ISmartArt type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [all_nodes](/slides/python-net/aspose.slides.smartart/ismartart/all_nodes/) | Returns collections of all nodes in SmartArt object.<br/>            Read-only <br/>[`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection)<br/>. |
-| [nodes](/slides/python-net/aspose.slides.smartart/ismartart/nodes/) | Returns collections of root nodes in SmartArt object.<br/>            Read-only <br/>[`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection)<br/>. |
-| [layout](/slides/python-net/aspose.slides.smartart/ismartart/layout/) | Return or set layout of the SmartArt object.<br/>            Read/write <br/>[`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype)<br/>. |
-| [quick_style](/slides/python-net/aspose.slides.smartart/ismartart/quick_style/) | Return or set quick style of the SmartArt object.<br/>            Read/write <br/>[`SmartArtQuickStyleType`](/slides/python-net/aspose.slides.smartart/smartartquickstyletype)<br/>. |
-| [color_style](/slides/python-net/aspose.slides.smartart/ismartart/color_style/) | Return or set color style of the SmartArt object.<br/>            Read/write <br/>[`SmartArtColorType`](/slides/python-net/aspose.slides.smartart/smartartcolortype)<br/>. |
-| [is_reversed](/slides/python-net/aspose.slides.smartart/ismartart/is_reversed/) | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
-| [as_i_graphical_object](/slides/python-net/aspose.slides.smartart/ismartart/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only <br/>[`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject)<br/>. |
+| [all_nodes](/slides/python-net/aspose.slides.smartart/ismartart/all_nodes/) | Returns collections of all nodes in SmartArt object.<br/>            Read-only <br/>[`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection). |
+| [nodes](/slides/python-net/aspose.slides.smartart/ismartart/nodes/) | Returns collections of root nodes in SmartArt object.<br/>            Read-only <br/>[`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection). |
+| [layout](/slides/python-net/aspose.slides.smartart/ismartart/layout/) | Return or set layout of the SmartArt object.<br/>            Read/write <br/>[`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype). |
+| [quick_style](/slides/python-net/aspose.slides.smartart/ismartart/quick_style/) | Return or set quick style of the SmartArt object.<br/>            Read/write <br/>[`SmartArtQuickStyleType`](/slides/python-net/aspose.slides.smartart/smartartquickstyletype). |
+| [color_style](/slides/python-net/aspose.slides.smartart/ismartart/color_style/) | Return or set color style of the SmartArt object.<br/>            Read/write <br/>[`SmartArtColorType`](/slides/python-net/aspose.slides.smartart/smartartcolortype). |
+| [is_reversed](/slides/python-net/aspose.slides.smartart/ismartart/is_reversed/) | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal.<br/>            Read/write <br/>.NET type System.Boolean. |
+| [as_i_graphical_object](/slides/python-net/aspose.slides.smartart/ismartart/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only <br/>[`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
 | [shape_lock](/slides/python-net/aspose.slides.smartart/ismartart/shape_lock/) |  |
 | [graphical_object_lock](/slides/python-net/aspose.slides.smartart/ismartart/graphical_object_lock/) |  |
 | [as_i_shape](/slides/python-net/aspose.slides.smartart/ismartart/as_i_shape/) |  |

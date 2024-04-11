@@ -76,7 +76,7 @@ The IMathBlock type exposes the following members:
 | [to_border_box](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#bool-bool-bool-bool-bool-bool-bool-bool/) |  |
 | [delimit](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#char/) | Delimits all child elements with separator character (without the brackets) |
 | [join_block](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#IMathBlock/) | Joins another mathematical block with this one |
-| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#System.IO.Stream/) | Saves content of this <br/>[`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)<br/> as MathML |
+| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#System.IO.Stream/) | Saves content of this <br/>[`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) as MathML |
 | [add](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#IMathElement/) |  |
 | [index_of](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#IMathElement/) |  |
 | [insert](/slides/python-net/aspose.slides.mathtext/imathblock/imathblock/#int-IMathElement/) |  |

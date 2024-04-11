@@ -17,10 +17,10 @@ The PresentationInfo type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_encrypted](/slides/python-net/aspose.slides/presentationinfo/is_encrypted/) | Gets True if binded presentation is encrypted, otherwise False.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
+| [is_encrypted](/slides/python-net/aspose.slides/presentationinfo/is_encrypted/) | Gets True if binded presentation is encrypted, otherwise False.<br/>            Read-only <br/>.NET type System.Boolean. |
 | [is_password_protected](/slides/python-net/aspose.slides/presentationinfo/is_password_protected/) | Gets a value that indicates whether a binded presentation is protected by a password to open. |
 | [is_write_protected](/slides/python-net/aspose.slides/presentationinfo/is_write_protected/) | Gets a value that indicates whether a binded presentation is write protected. |
-| [load_format](/slides/python-net/aspose.slides/presentationinfo/load_format/) | Gets format of the binded presentation.<br/>            Read-only <br/>[`LoadFormat`](/slides/python-net/aspose.slides/loadformat)<br/>. |
+| [load_format](/slides/python-net/aspose.slides/presentationinfo/load_format/) | Gets format of the binded presentation.<br/>            Read-only <br/>[`LoadFormat`](/slides/python-net/aspose.slides/loadformat). |
 
 ## Methods
 

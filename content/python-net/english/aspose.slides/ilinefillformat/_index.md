@@ -17,10 +17,10 @@ The ILineFillFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [fill_type](/slides/python-net/aspose.slides/ilinefillformat/fill_type/) | Returns or sets the fill type.<br/>            Read/write <br/>[`FillType`](/slides/python-net/aspose.slides/filltype)<br/>. |
-| [solid_fill_color](/slides/python-net/aspose.slides/ilinefillformat/solid_fill_color/) | Returns the color of a solid fill.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
-| [gradient_format](/slides/python-net/aspose.slides/ilinefillformat/gradient_format/) | Returns the gradient fill format.<br/>            Read-only <br/>[`IGradientFormat`](/slides/python-net/aspose.slides/igradientformat)<br/>. |
-| [pattern_format](/slides/python-net/aspose.slides/ilinefillformat/pattern_format/) | Returns the pattern fill format.<br/>            Read-only <br/>[`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat)<br/>. |
-| [rotate_with_shape](/slides/python-net/aspose.slides/ilinefillformat/rotate_with_shape/) | Determines whether the fill should be rotated with a shape.<br/>            Read/write <br/>[`NullableBool`](/slides/python-net/aspose.slides/nullablebool)<br/>. |
-| [as_i_fill_param_source](/slides/python-net/aspose.slides/ilinefillformat/as_i_fill_param_source/) | Allows to get base IFillParamSource interface.<br/>            Read-only <br/>[`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource)<br/>. |
+| [fill_type](/slides/python-net/aspose.slides/ilinefillformat/fill_type/) | Returns or sets the fill type.<br/>            Read/write <br/>[`FillType`](/slides/python-net/aspose.slides/filltype). |
+| [solid_fill_color](/slides/python-net/aspose.slides/ilinefillformat/solid_fill_color/) | Returns the color of a solid fill.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [gradient_format](/slides/python-net/aspose.slides/ilinefillformat/gradient_format/) | Returns the gradient fill format.<br/>            Read-only <br/>[`IGradientFormat`](/slides/python-net/aspose.slides/igradientformat). |
+| [pattern_format](/slides/python-net/aspose.slides/ilinefillformat/pattern_format/) | Returns the pattern fill format.<br/>            Read-only <br/>[`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat). |
+| [rotate_with_shape](/slides/python-net/aspose.slides/ilinefillformat/rotate_with_shape/) | Determines whether the fill should be rotated with a shape.<br/>            Read/write <br/>[`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
+| [as_i_fill_param_source](/slides/python-net/aspose.slides/ilinefillformat/as_i_fill_param_source/) | Allows to get base IFillParamSource interface.<br/>            Read-only <br/>[`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource). |
 

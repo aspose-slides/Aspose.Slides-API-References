@@ -18,9 +18,9 @@ The IBlur type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/iblur/radius/) | Returns or sets blur radius.<br/>            Read/write <br/>.NET type System.Double<br/>. |
-| [grow](/slides/python-net/aspose.slides.effects/iblur/grow/) | Determines whether the bounds of the object should be grown as a result of the blurring.<br/>            True indicates the bounds are grown while false indicates that they are not.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/iblur/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation)<br/>. |
+| [radius](/slides/python-net/aspose.slides.effects/iblur/radius/) | Returns or sets blur radius.<br/>            Read/write <br/>.NET type System.Double. |
+| [grow](/slides/python-net/aspose.slides.effects/iblur/grow/) | Determines whether the bounds of the object should be grown as a result of the blurring.<br/>            True indicates the bounds are grown while false indicates that they are not.<br/>            Read/write <br/>.NET type System.Boolean. |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/iblur/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
 
 ## Methods
 

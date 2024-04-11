@@ -10,8 +10,7 @@ url: /aspose.slides.lowcode/collect/
 Collect class
 
 Represents a group of methods intended to collect model objects of different types from 
-[`Presentation`](/slides/python-net/aspose.slides/presentation)
-.
+[`Presentation`](/slides/python-net/aspose.slides/presentation).
 
 The Collect type exposes the following members:
 

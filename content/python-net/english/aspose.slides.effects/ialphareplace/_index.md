@@ -17,7 +17,7 @@ The IAlphaReplace type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ialphareplace/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation)<br/>. |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ialphareplace/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
 
 ## Methods
 

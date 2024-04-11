@@ -25,12 +25,12 @@ The FilterEffect type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [accumulate](/slides/python-net/aspose.slides.animation/filtereffect/accumulate/) | Represents whether animation behaviors are accumulated.<br/>            Read/write <br/>[`NullableBool`](/slides/python-net/aspose.slides/nullablebool)<br/>. |
-| [additive](/slides/python-net/aspose.slides.animation/filtereffect/additive/) | Represents whether the current animation behavior is combined with other running animations.<br/>            Read/write <br/>[`BehaviorAdditiveType`](/slides/python-net/aspose.slides.animation/behavioradditivetype)<br/>. |
-| [properties](/slides/python-net/aspose.slides.animation/filtereffect/properties/) | Represents properties of behavior.<br/>            Read-only <br/>[`IBehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection)<br/>. |
-| [timing](/slides/python-net/aspose.slides.animation/filtereffect/timing/) | Represents timing properties for the effect behavior.<br/>            Read/write <br/>[`ITiming`](/slides/python-net/aspose.slides.animation/itiming)<br/>. |
-| [reveal](/slides/python-net/aspose.slides.animation/filtereffect/reveal/) | Represents that effect with behavior must reveal (in/out)<br/>            Read/write <br/>[`FilterEffectRevealType`](/slides/python-net/aspose.slides.animation/filtereffectrevealtype)<br/>. |
-| [type](/slides/python-net/aspose.slides.animation/filtereffect/type/) | Represents type of filter effect.<br/>            Read/write <br/>[`FilterEffectType`](/slides/python-net/aspose.slides.animation/filtereffecttype)<br/>. |
-| [subtype](/slides/python-net/aspose.slides.animation/filtereffect/subtype/) | Represents subtype of filter effect.<br/>            Read/write <br/>[`FilterEffectSubtype`](/slides/python-net/aspose.slides.animation/filtereffectsubtype)<br/>. |
+| [accumulate](/slides/python-net/aspose.slides.animation/filtereffect/accumulate/) | Represents whether animation behaviors are accumulated.<br/>            Read/write <br/>[`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
+| [additive](/slides/python-net/aspose.slides.animation/filtereffect/additive/) | Represents whether the current animation behavior is combined with other running animations.<br/>            Read/write <br/>[`BehaviorAdditiveType`](/slides/python-net/aspose.slides.animation/behavioradditivetype). |
+| [properties](/slides/python-net/aspose.slides.animation/filtereffect/properties/) | Represents properties of behavior.<br/>            Read-only <br/>[`IBehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection). |
+| [timing](/slides/python-net/aspose.slides.animation/filtereffect/timing/) | Represents timing properties for the effect behavior.<br/>            Read/write <br/>[`ITiming`](/slides/python-net/aspose.slides.animation/itiming). |
+| [reveal](/slides/python-net/aspose.slides.animation/filtereffect/reveal/) | Represents that effect with behavior must reveal (in/out)<br/>            Read/write <br/>[`FilterEffectRevealType`](/slides/python-net/aspose.slides.animation/filtereffectrevealtype). |
+| [type](/slides/python-net/aspose.slides.animation/filtereffect/type/) | Represents type of filter effect.<br/>            Read/write <br/>[`FilterEffectType`](/slides/python-net/aspose.slides.animation/filtereffecttype). |
+| [subtype](/slides/python-net/aspose.slides.animation/filtereffect/subtype/) | Represents subtype of filter effect.<br/>            Read/write <br/>[`FilterEffectSubtype`](/slides/python-net/aspose.slides.animation/filtereffectsubtype). |
 | [as_i_behavior](/slides/python-net/aspose.slides.animation/filtereffect/as_i_behavior/) |  |
 

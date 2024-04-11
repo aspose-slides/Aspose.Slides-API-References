@@ -17,7 +17,7 @@ The FontSubstitutionInfo type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/#string-string/) | Creates an instance of <br/>[`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)<br/> class. |
+| [__init__](/slides/python-net/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/#string-string/) | Creates an instance of <br/>[`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo) class. |
 
 ## Properties
 

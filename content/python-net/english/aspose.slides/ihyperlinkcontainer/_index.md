@@ -17,7 +17,7 @@ The IHyperlinkContainer type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [hyperlink_click](/slides/python-net/aspose.slides/ihyperlinkcontainer/hyperlink_click/) | Returns or sets the hyperlink defined for mouse click.<br/>            Read/write <br/>[`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)<br/>. |
-| [hyperlink_mouse_over](/slides/python-net/aspose.slides/ihyperlinkcontainer/hyperlink_mouse_over/) | Returns or sets the hyperlink defined for mouse over.<br/>            Read/write <br/>[`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)<br/>. |
-| [hyperlink_manager](/slides/python-net/aspose.slides/ihyperlinkcontainer/hyperlink_manager/) | Hyperlinks manager<br/>            Read-only <br/>[`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager)<br/>. |
+| [hyperlink_click](/slides/python-net/aspose.slides/ihyperlinkcontainer/hyperlink_click/) | Returns or sets the hyperlink defined for mouse click.<br/>            Read/write <br/>[`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink). |
+| [hyperlink_mouse_over](/slides/python-net/aspose.slides/ihyperlinkcontainer/hyperlink_mouse_over/) | Returns or sets the hyperlink defined for mouse over.<br/>            Read/write <br/>[`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink). |
+| [hyperlink_manager](/slides/python-net/aspose.slides/ihyperlinkcontainer/hyperlink_manager/) | Hyperlinks manager<br/>            Read-only <br/>[`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager). |
 

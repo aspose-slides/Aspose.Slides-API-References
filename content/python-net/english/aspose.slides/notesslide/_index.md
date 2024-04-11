@@ -19,21 +19,21 @@ The NotesSlide type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [shapes](/slides/python-net/aspose.slides/notesslide/shapes/) | Returns the shapes of a slide.<br/>            Read-only <br/>[`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)<br/>. |
-| [controls](/slides/python-net/aspose.slides/notesslide/controls/) | Returns the collection of ActiveX controls on a slide.<br/>            Read-only <br/>[`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection)<br/>. |
-| [name](/slides/python-net/aspose.slides/notesslide/name/) | Returns or sets the name of a slide.<br/>            Read/write <br/>.NET type System.String<br/>. |
-| [slide_id](/slides/python-net/aspose.slides/notesslide/slide_id/) | Returns the ID of a slide.<br/>            Read-only <br/>.NET type System.UInt32<br/>. |
-| [custom_data](/slides/python-net/aspose.slides/notesslide/custom_data/) | Returns the slide's custom data.<br/>            Read-only <br/>[`ICustomData`](/slides/python-net/aspose.slides/icustomdata)<br/>. |
-| [timeline](/slides/python-net/aspose.slides/notesslide/timeline/) | Returns animation timeline object.<br/>            Read-only <br/>[`IAnimationTimeLine`](/slides/python-net/aspose.slides/ianimationtimeline)<br/>. |
-| [slide_show_transition](/slides/python-net/aspose.slides/notesslide/slide_show_transition/) | Returns the Transition object which contains information about<br/>            how the specified slide advances during a slide show.<br/>            Read-only <br/>[`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)<br/>. |
-| [background](/slides/python-net/aspose.slides/notesslide/background/) | Returns slide's background.<br/>            Read-only <br/>[`IBackground`](/slides/python-net/aspose.slides/ibackground)<br/>. |
-| [hyperlink_queries](/slides/python-net/aspose.slides/notesslide/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only <br/>[`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries)<br/>. |
-| [show_master_shapes](/slides/python-net/aspose.slides/notesslide/show_master_shapes/) | Specifies if shapes on the master slide should be shown on slides or not.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
-| [presentation](/slides/python-net/aspose.slides/notesslide/presentation/) | Returns IPresentation interface.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation)<br/>. |
-| [header_footer_manager](/slides/python-net/aspose.slides/notesslide/header_footer_manager/) | Returns HeaderFooter manager of the notes slide.<br/>            Read-only <br/>[`INotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/inotesslideheaderfootermanager)<br/>. |
-| [notes_text_frame](/slides/python-net/aspose.slides/notesslide/notes_text_frame/) | Returns a TextFrame with notes' text if there is one.<br/>            Read-only <br/>[`ITextFrame`](/slides/python-net/aspose.slides/itextframe)<br/>. |
-| [theme_manager](/slides/python-net/aspose.slides/notesslide/theme_manager/) | Returns the overriding theme manager.<br/>            Read-only <br/>[`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager)<br/>. |
-| [parent_slide](/slides/python-net/aspose.slides/notesslide/parent_slide/) | Returns the parent slide.<br/>            Read-only <br/>[`ISlide`](/slides/python-net/aspose.slides/islide)<br/>. |
+| [shapes](/slides/python-net/aspose.slides/notesslide/shapes/) | Returns the shapes of a slide.<br/>            Read-only <br/>[`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection). |
+| [controls](/slides/python-net/aspose.slides/notesslide/controls/) | Returns the collection of ActiveX controls on a slide.<br/>            Read-only <br/>[`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection). |
+| [name](/slides/python-net/aspose.slides/notesslide/name/) | Returns or sets the name of a slide.<br/>            Read/write <br/>.NET type System.String. |
+| [slide_id](/slides/python-net/aspose.slides/notesslide/slide_id/) | Returns the ID of a slide.<br/>            Read-only <br/>.NET type System.UInt32. |
+| [custom_data](/slides/python-net/aspose.slides/notesslide/custom_data/) | Returns the slide's custom data.<br/>            Read-only <br/>[`ICustomData`](/slides/python-net/aspose.slides/icustomdata). |
+| [timeline](/slides/python-net/aspose.slides/notesslide/timeline/) | Returns animation timeline object.<br/>            Read-only <br/>[`IAnimationTimeLine`](/slides/python-net/aspose.slides/ianimationtimeline). |
+| [slide_show_transition](/slides/python-net/aspose.slides/notesslide/slide_show_transition/) | Returns the Transition object which contains information about<br/>            how the specified slide advances during a slide show.<br/>            Read-only <br/>[`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition). |
+| [background](/slides/python-net/aspose.slides/notesslide/background/) | Returns slide's background.<br/>            Read-only <br/>[`IBackground`](/slides/python-net/aspose.slides/ibackground). |
+| [hyperlink_queries](/slides/python-net/aspose.slides/notesslide/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only <br/>[`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
+| [show_master_shapes](/slides/python-net/aspose.slides/notesslide/show_master_shapes/) | Specifies if shapes on the master slide should be shown on slides or not.<br/>            Read/write <br/>.NET type System.Boolean. |
+| [presentation](/slides/python-net/aspose.slides/notesslide/presentation/) | Returns IPresentation interface.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [header_footer_manager](/slides/python-net/aspose.slides/notesslide/header_footer_manager/) | Returns HeaderFooter manager of the notes slide.<br/>            Read-only <br/>[`INotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/inotesslideheaderfootermanager). |
+| [notes_text_frame](/slides/python-net/aspose.slides/notesslide/notes_text_frame/) | Returns a TextFrame with notes' text if there is one.<br/>            Read-only <br/>[`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
+| [theme_manager](/slides/python-net/aspose.slides/notesslide/theme_manager/) | Returns the overriding theme manager.<br/>            Read-only <br/>[`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager). |
+| [parent_slide](/slides/python-net/aspose.slides/notesslide/parent_slide/) | Returns the parent slide.<br/>            Read-only <br/>[`ISlide`](/slides/python-net/aspose.slides/islide). |
 | [as_i_slide_component](/slides/python-net/aspose.slides/notesslide/as_i_slide_component/) |  |
 | [slide](/slides/python-net/aspose.slides/notesslide/slide/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/notesslide/as_i_presentation_component/) |  |

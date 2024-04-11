@@ -21,8 +21,8 @@ The ColorReplace type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/colorreplace/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
-| [color](/slides/python-net/aspose.slides.effects/colorreplace/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/colorreplace/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [color](/slides/python-net/aspose.slides.effects/colorreplace/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [slide](/slides/python-net/aspose.slides.effects/colorreplace/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides.effects/colorreplace/presentation/) |  |
 | [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/colorreplace/as_i_image_transform_operation/) |  |

@@ -17,14 +17,14 @@ The WebDocument type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/webdocument/webdocument/#WebDocumentOptions/) | [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument)<br/> constructor. |
+| [__init__](/slides/python-net/aspose.slides.export.web/webdocument/webdocument/#WebDocumentOptions/) | [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument) constructor. |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
 | [input](/slides/python-net/aspose.slides.export.web/webdocument/input/) |  |
-| [output](/slides/python-net/aspose.slides.export.web/webdocument/output/) | Returns collection of output elements of the document.<br/>             Read-only <br/>[`WebDocument.output`](/slides/python-net/aspose.slides.export.web/webdocument#output)<br/>. |
+| [output](/slides/python-net/aspose.slides.export.web/webdocument/output/) | Returns collection of output elements of the document.<br/>             Read-only <br/>[`WebDocument.output`](/slides/python-net/aspose.slides.export.web/webdocument#output). |
 
 ## Methods
 

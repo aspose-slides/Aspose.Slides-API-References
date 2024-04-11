@@ -17,10 +17,10 @@ The IGroupShape type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [shape_lock](/slides/python-net/aspose.slides/igroupshape/shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock)<br/>. |
-| [group_shape_lock](/slides/python-net/aspose.slides/igroupshape/group_shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock)<br/>. |
-| [shapes](/slides/python-net/aspose.slides/igroupshape/shapes/) | Returns the collection of shapes inside the group.<br/>            Read-only <br/>[`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)<br/>. |
-| [as_i_shape](/slides/python-net/aspose.slides/igroupshape/as_i_shape/) | Allows to get base IShape interface.<br/>            Read-only <br/>[`IShape`](/slides/python-net/aspose.slides/ishape)<br/>. |
+| [shape_lock](/slides/python-net/aspose.slides/igroupshape/shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock). |
+| [group_shape_lock](/slides/python-net/aspose.slides/igroupshape/group_shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock). |
+| [shapes](/slides/python-net/aspose.slides/igroupshape/shapes/) | Returns the collection of shapes inside the group.<br/>            Read-only <br/>[`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection). |
+| [as_i_shape](/slides/python-net/aspose.slides/igroupshape/as_i_shape/) | Allows to get base IShape interface.<br/>            Read-only <br/>[`IShape`](/slides/python-net/aspose.slides/ishape). |
 | [is_text_holder](/slides/python-net/aspose.slides/igroupshape/is_text_holder/) |  |
 | [placeholder](/slides/python-net/aspose.slides/igroupshape/placeholder/) |  |
 | [custom_data](/slides/python-net/aspose.slides/igroupshape/custom_data/) |  |

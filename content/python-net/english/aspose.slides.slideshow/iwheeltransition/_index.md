@@ -17,6 +17,6 @@ The IWheelTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [spokes](/slides/python-net/aspose.slides.slideshow/iwheeltransition/spokes/) | Number spokes of wheel transition.<br/>            Read/write <br/>.NET type System.UInt32<br/>. |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/iwheeltransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)<br/>. |
+| [spokes](/slides/python-net/aspose.slides.slideshow/iwheeltransition/spokes/) | Number spokes of wheel transition.<br/>            Read/write <br/>.NET type System.UInt32. |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/iwheeltransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase). |
 

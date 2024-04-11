@@ -17,5 +17,5 @@ The IPresentationComponent type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [presentation](/slides/python-net/aspose.slides/ipresentationcomponent/presentation/) | Returns the presentation. <br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation)<br/>. |
+| [presentation](/slides/python-net/aspose.slides/ipresentationcomponent/presentation/) | Returns the presentation. <br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 

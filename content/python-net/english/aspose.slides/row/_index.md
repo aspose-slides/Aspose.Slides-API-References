@@ -19,11 +19,11 @@ The Row type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [slide](/slides/python-net/aspose.slides/row/slide/) | Returns the parent slide of a CellCollection.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)<br/>. |
-| [presentation](/slides/python-net/aspose.slides/row/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation)<br/>. |
-| [height](/slides/python-net/aspose.slides/row/height/) | Returns the height of a row.<br/>            Read-only <br/>.NET type System.Double<br/>. |
-| [minimal_height](/slides/python-net/aspose.slides/row/minimal_height/) | Returns or sets the minimal possible height of a row.<br/>            Read/write <br/>.NET type System.Double<br/>. |
-| [row_format](/slides/python-net/aspose.slides/row/row_format/) | Returns the RowFormat object that contains formatting properties for this row.<br/>            Read-only <br/>[`IRowFormat`](/slides/python-net/aspose.slides/irowformat)<br/>. |
+| [slide](/slides/python-net/aspose.slides/row/slide/) | Returns the parent slide of a CellCollection.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
+| [presentation](/slides/python-net/aspose.slides/row/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [height](/slides/python-net/aspose.slides/row/height/) | Returns the height of a row.<br/>            Read-only <br/>.NET type System.Double. |
+| [minimal_height](/slides/python-net/aspose.slides/row/minimal_height/) | Returns or sets the minimal possible height of a row.<br/>            Read/write <br/>.NET type System.Double. |
+| [row_format](/slides/python-net/aspose.slides/row/row_format/) | Returns the RowFormat object that contains formatting properties for this row.<br/>            Read-only <br/>[`IRowFormat`](/slides/python-net/aspose.slides/irowformat). |
 | [as_i_slide_component](/slides/python-net/aspose.slides/row/as_i_slide_component/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/row/as_i_presentation_component/) |  |
 | [as_i_collection](/slides/python-net/aspose.slides/row/as_i_collection/) |  |

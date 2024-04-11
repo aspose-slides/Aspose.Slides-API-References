@@ -17,6 +17,6 @@ The IInOutTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/iinouttransition/direction/) | Direction of a transition effect.<br/>            Read/write <br/>[`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype)<br/>. |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/iinouttransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)<br/>. |
+| [direction](/slides/python-net/aspose.slides.slideshow/iinouttransition/direction/) | Direction of a transition effect.<br/>            Read/write <br/>[`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype). |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/iinouttransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase). |
 

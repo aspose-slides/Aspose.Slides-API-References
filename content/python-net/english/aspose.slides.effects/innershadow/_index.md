@@ -17,10 +17,10 @@ The InnerShadow type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [blur_radius](/slides/python-net/aspose.slides.effects/innershadow/blur_radius/) | Blur radius.<br/>            Read/write <br/>.NET type System.Double<br/>. |
-| [direction](/slides/python-net/aspose.slides.effects/innershadow/direction/) | Direction of shadow.<br/>            Read/write <br/>.NET type System.Single<br/>. |
-| [distance](/slides/python-net/aspose.slides.effects/innershadow/distance/) | Distance of shadow.<br/>            Read/write <br/>.NET type System.Double<br/>. |
-| [shadow_color](/slides/python-net/aspose.slides.effects/innershadow/shadow_color/) | Color of shadow.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
+| [blur_radius](/slides/python-net/aspose.slides.effects/innershadow/blur_radius/) | Blur radius.<br/>            Read/write <br/>.NET type System.Double. |
+| [direction](/slides/python-net/aspose.slides.effects/innershadow/direction/) | Direction of shadow.<br/>            Read/write <br/>.NET type System.Single. |
+| [distance](/slides/python-net/aspose.slides.effects/innershadow/distance/) | Distance of shadow.<br/>            Read/write <br/>.NET type System.Double. |
+| [shadow_color](/slides/python-net/aspose.slides.effects/innershadow/shadow_color/) | Color of shadow.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/innershadow/as_i_image_transform_operation/) |  |
 
 ## Methods

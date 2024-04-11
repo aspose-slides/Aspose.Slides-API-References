@@ -17,8 +17,8 @@ The IOverrideTheme type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_empty](/slides/python-net/aspose.slides.theme/ioverridetheme/is_empty/) | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
-| [as_i_theme](/slides/python-net/aspose.slides.theme/ioverridetheme/as_i_theme/) | Allows to get base ITheme interface.<br/>            Read-only <br/>[`ITheme`](/slides/python-net/aspose.slides.theme/itheme)<br/>. |
+| [is_empty](/slides/python-net/aspose.slides.theme/ioverridetheme/is_empty/) | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled.<br/>            Read-only <br/>.NET type System.Boolean. |
+| [as_i_theme](/slides/python-net/aspose.slides.theme/ioverridetheme/as_i_theme/) | Allows to get base ITheme interface.<br/>            Read-only <br/>[`ITheme`](/slides/python-net/aspose.slides.theme/itheme). |
 | [color_scheme](/slides/python-net/aspose.slides.theme/ioverridetheme/color_scheme/) |  |
 | [font_scheme](/slides/python-net/aspose.slides.theme/ioverridetheme/font_scheme/) |  |
 | [format_scheme](/slides/python-net/aspose.slides.theme/ioverridetheme/format_scheme/) |  |

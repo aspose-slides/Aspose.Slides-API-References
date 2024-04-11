@@ -17,12 +17,12 @@ The IAutoShape type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [shape_lock](/slides/python-net/aspose.slides/iautoshape/shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IAutoShapeLock`](/slides/python-net/aspose.slides/iautoshapelock)<br/>. |
-| [auto_shape_lock](/slides/python-net/aspose.slides/iautoshape/auto_shape_lock/) | Returns AutoShape's locks.<br/>            Read-only <br/>[`IAutoShapeLock`](/slides/python-net/aspose.slides/iautoshapelock)<br/>. |
-| [text_frame](/slides/python-net/aspose.slides/iautoshape/text_frame/) | Returns TextFrameEx object for the AutoShapeEx.<br/>            Read-only <br/>[`ITextFrame`](/slides/python-net/aspose.slides/itextframe)<br/>. |
-| [use_background_fill](/slides/python-net/aspose.slides/iautoshape/use_background_fill/) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [shape_lock](/slides/python-net/aspose.slides/iautoshape/shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IAutoShapeLock`](/slides/python-net/aspose.slides/iautoshapelock). |
+| [auto_shape_lock](/slides/python-net/aspose.slides/iautoshape/auto_shape_lock/) | Returns AutoShape's locks.<br/>            Read-only <br/>[`IAutoShapeLock`](/slides/python-net/aspose.slides/iautoshapelock). |
+| [text_frame](/slides/python-net/aspose.slides/iautoshape/text_frame/) | Returns TextFrameEx object for the AutoShapeEx.<br/>            Read-only <br/>[`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
+| [use_background_fill](/slides/python-net/aspose.slides/iautoshape/use_background_fill/) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format.<br/>            Read/write <br/>.NET type System.Boolean. |
 | [is_text_box](/slides/python-net/aspose.slides/iautoshape/is_text_box/) | Specifies if the shape is a text box. |
-| [as_i_geometry_shape](/slides/python-net/aspose.slides/iautoshape/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only <br/>[`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape)<br/>. |
+| [as_i_geometry_shape](/slides/python-net/aspose.slides/iautoshape/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only <br/>[`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape). |
 | [shape_style](/slides/python-net/aspose.slides/iautoshape/shape_style/) |  |
 | [shape_type](/slides/python-net/aspose.slides/iautoshape/shape_type/) |  |
 | [adjustments](/slides/python-net/aspose.slides/iautoshape/adjustments/) |  |

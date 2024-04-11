@@ -19,10 +19,10 @@ The Camera type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/camera/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
-| [camera_type](/slides/python-net/aspose.slides/camera/camera_type/) | Camera type.<br/>            Read/write <br/>[`CameraPresetType`](/slides/python-net/aspose.slides/camerapresettype)<br/>. |
-| [field_of_view_angle](/slides/python-net/aspose.slides/camera/field_of_view_angle/) | Camera FOV (0-180 deg, field of View).<br/>            Read/write <br/>.NET type System.Single<br/>. |
-| [zoom](/slides/python-net/aspose.slides/camera/zoom/) | Camera zoom (positive value in percentage).<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/camera/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [camera_type](/slides/python-net/aspose.slides/camera/camera_type/) | Camera type.<br/>            Read/write <br/>[`CameraPresetType`](/slides/python-net/aspose.slides/camerapresettype). |
+| [field_of_view_angle](/slides/python-net/aspose.slides/camera/field_of_view_angle/) | Camera FOV (0-180 deg, field of View).<br/>            Read/write <br/>.NET type System.Single. |
+| [zoom](/slides/python-net/aspose.slides/camera/zoom/) | Camera zoom (positive value in percentage).<br/>            Read/write <br/>.NET type System.Single. |
 | [slide](/slides/python-net/aspose.slides/camera/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides/camera/presentation/) |  |
 

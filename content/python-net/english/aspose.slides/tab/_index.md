@@ -25,9 +25,9 @@ The Tab type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/tab/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
-| [position](/slides/python-net/aspose.slides/tab/position/) | Returns or sets position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read/write <br/>.NET type System.Double<br/>. |
-| [alignment](/slides/python-net/aspose.slides/tab/alignment/) | Returns or sets align style of a tab.<br/>            Read/write <br/>[`TabAlignment`](/slides/python-net/aspose.slides/tabalignment)<br/>. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/tab/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [position](/slides/python-net/aspose.slides/tab/position/) | Returns or sets position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read/write <br/>.NET type System.Double. |
+| [alignment](/slides/python-net/aspose.slides/tab/alignment/) | Returns or sets align style of a tab.<br/>            Read/write <br/>[`TabAlignment`](/slides/python-net/aspose.slides/tabalignment). |
 | [slide](/slides/python-net/aspose.slides/tab/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides/tab/presentation/) |  |
 

@@ -18,8 +18,8 @@ The ISoftEdge type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/isoftedge/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read/write <br/>.NET type System.Double<br/>. |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/isoftedge/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation)<br/>. |
+| [radius](/slides/python-net/aspose.slides.effects/isoftedge/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read/write <br/>.NET type System.Double. |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/isoftedge/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
 
 ## Methods
 

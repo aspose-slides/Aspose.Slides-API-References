@@ -17,8 +17,8 @@ The IInk type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [traces](/slides/python-net/aspose.slides.ink/iink/traces/) | Gets all traces containing in the IInk element <br/>[`IInkTrace`](/slides/python-net/aspose.slides.ink/iinktrace)<br/>.<br/>            Read-only. |
-| [as_i_graphical_object](/slides/python-net/aspose.slides.ink/iink/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only <br/>[`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject)<br/>. |
+| [traces](/slides/python-net/aspose.slides.ink/iink/traces/) | Gets all traces containing in the IInk element <br/>[`IInkTrace`](/slides/python-net/aspose.slides.ink/iinktrace).<br/>            Read-only. |
+| [as_i_graphical_object](/slides/python-net/aspose.slides.ink/iink/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only <br/>[`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
 | [shape_lock](/slides/python-net/aspose.slides.ink/iink/shape_lock/) |  |
 | [graphical_object_lock](/slides/python-net/aspose.slides.ink/iink/graphical_object_lock/) |  |
 | [as_i_shape](/slides/python-net/aspose.slides.ink/iink/as_i_shape/) |  |

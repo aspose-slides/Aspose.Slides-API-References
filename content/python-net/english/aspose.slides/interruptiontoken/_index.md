@@ -17,8 +17,8 @@ The InterruptionToken type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [none](/slides/python-net/aspose.slides/interruptiontoken/none/) | Represents an empty interruption token.<br/>            <br/>Long-running operations will never be interrupted via <br/>[`InterruptionTokenSource.interrupt`](/slides/python-net/aspose.slides/interruptiontokensource/interrupt)<br/><br/>            when using this token. |
-| [is_interruption_requested](/slides/python-net/aspose.slides/interruptiontoken/is_interruption_requested/) | Returns <br/>.NET type System.Boolean<br/>.true if interruption was requested. |
+| [none](/slides/python-net/aspose.slides/interruptiontoken/none/) | Represents an empty interruption token.<br/>            <br/>Long-running operations will never be interrupted via <br/>[`InterruptionTokenSource.interrupt`](/slides/python-net/aspose.slides/interruptiontokensource/interrupt)<br/>            when using this token. |
+| [is_interruption_requested](/slides/python-net/aspose.slides/interruptiontoken/is_interruption_requested/) | Returns <br/>.NET type System.Boolean.true if interruption was requested. |
 
 ## Methods
 

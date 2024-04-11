@@ -17,7 +17,7 @@ The FontScheme type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [minor](/slides/python-net/aspose.slides.theme/fontscheme/minor/) | Returns the fonts collection for a "body" part of the slide.<br/>            Read-only <br/>[`IFonts`](/slides/python-net/aspose.slides/ifonts)<br/>. |
-| [major](/slides/python-net/aspose.slides.theme/fontscheme/major/) | Returns the fonts collection for a "heading" part of the slide.<br/>            Read-only <br/>[`IFonts`](/slides/python-net/aspose.slides/ifonts)<br/>. |
-| [name](/slides/python-net/aspose.slides.theme/fontscheme/name/) | Returns the font scheme name.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [minor](/slides/python-net/aspose.slides.theme/fontscheme/minor/) | Returns the fonts collection for a "body" part of the slide.<br/>            Read-only <br/>[`IFonts`](/slides/python-net/aspose.slides/ifonts). |
+| [major](/slides/python-net/aspose.slides.theme/fontscheme/major/) | Returns the fonts collection for a "heading" part of the slide.<br/>            Read-only <br/>[`IFonts`](/slides/python-net/aspose.slides/ifonts). |
+| [name](/slides/python-net/aspose.slides.theme/fontscheme/name/) | Returns the font scheme name.<br/>            Read/write <br/>.NET type System.String. |
 

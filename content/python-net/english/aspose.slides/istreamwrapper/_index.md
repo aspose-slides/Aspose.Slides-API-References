@@ -17,13 +17,13 @@ The IStreamWrapper type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [stream](/slides/python-net/aspose.slides/istreamwrapper/stream/) | Gets a stream.<br/>            Read-only <br/>.NET type System.IO.Stream<br/>. |
-| [can_read](/slides/python-net/aspose.slides/istreamwrapper/can_read/) | Gets a value indicating whether the current stream supports reading.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
-| [can_seek](/slides/python-net/aspose.slides/istreamwrapper/can_seek/) | Gets a value indicating whether the current stream supports seeking.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
-| [can_write](/slides/python-net/aspose.slides/istreamwrapper/can_write/) | Gets a value indicating whether the current stream supports writing.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
-| [length](/slides/python-net/aspose.slides/istreamwrapper/length/) | Gets the length in bytes of the stream.<br/>            Read-only <br/>.NET type System.Int64<br/>. |
-| [position](/slides/python-net/aspose.slides/istreamwrapper/position/) | Gets the position within the current stream.<br/>            Read-only <br/>.NET type System.Int64<br/>. |
-| [as_i_disposable](/slides/python-net/aspose.slides/istreamwrapper/as_i_disposable/) | Allows to get base IDisposable interface.<br/>            Read-only <br/>.NET type System.IDisposable<br/>. |
+| [stream](/slides/python-net/aspose.slides/istreamwrapper/stream/) | Gets a stream.<br/>            Read-only <br/>.NET type System.IO.Stream. |
+| [can_read](/slides/python-net/aspose.slides/istreamwrapper/can_read/) | Gets a value indicating whether the current stream supports reading.<br/>            Read-only <br/>.NET type System.Boolean. |
+| [can_seek](/slides/python-net/aspose.slides/istreamwrapper/can_seek/) | Gets a value indicating whether the current stream supports seeking.<br/>            Read-only <br/>.NET type System.Boolean. |
+| [can_write](/slides/python-net/aspose.slides/istreamwrapper/can_write/) | Gets a value indicating whether the current stream supports writing.<br/>            Read-only <br/>.NET type System.Boolean. |
+| [length](/slides/python-net/aspose.slides/istreamwrapper/length/) | Gets the length in bytes of the stream.<br/>            Read-only <br/>.NET type System.Int64. |
+| [position](/slides/python-net/aspose.slides/istreamwrapper/position/) | Gets the position within the current stream.<br/>            Read-only <br/>.NET type System.Int64. |
+| [as_i_disposable](/slides/python-net/aspose.slides/istreamwrapper/as_i_disposable/) | Allows to get base IDisposable interface.<br/>            Read-only <br/>.NET type System.IDisposable. |
 
 ## Methods
 

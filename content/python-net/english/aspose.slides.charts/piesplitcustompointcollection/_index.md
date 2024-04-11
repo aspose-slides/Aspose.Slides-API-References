@@ -17,8 +17,8 @@ The PieSplitCustomPointCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_synchronized](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/is_synchronized/) | Returns a value indicating whether access to the collection is synchronized (thread-safe).<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
-| [sync_root](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/sync_root/) | Returns a synchronization root.<br/>            Read-only <br/>.NET type System.Object<br/>. |
+| [is_synchronized](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/is_synchronized/) | Returns a value indicating whether access to the collection is synchronized (thread-safe).<br/>            Read-only <br/>.NET type System.Boolean. |
+| [sync_root](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/sync_root/) | Returns a synchronization root.<br/>            Read-only <br/>.NET type System.Object. |
 | [as_i_enumerable](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/as_i_enumerable/) |  |
 
 ## Indexer

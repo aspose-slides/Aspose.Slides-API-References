@@ -24,8 +24,8 @@ The DigitalSignature type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [certificate](/slides/python-net/aspose.slides/digitalsignature/certificate/) | Certificate object that was used to sign the document.<br/>            Read-only <br/>.NET type System.Security.Cryptography.X509Certificates.X509Certificate2<br/>. |
-| [is_valid](/slides/python-net/aspose.slides/digitalsignature/is_valid/) | If this digital signature is valid and the document has not been tampered with, this value will be true.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
-| [sign_time](/slides/python-net/aspose.slides/digitalsignature/sign_time/) | The time when the document was signed.<br/>            Read-only <br/>.NET type System.DateTime<br/>. |
-| [comments](/slides/python-net/aspose.slides/digitalsignature/comments/) | The purpose of signature.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [certificate](/slides/python-net/aspose.slides/digitalsignature/certificate/) | Certificate object that was used to sign the document.<br/>            Read-only <br/>.NET type System.Security.Cryptography.X509Certificates.X509Certificate2. |
+| [is_valid](/slides/python-net/aspose.slides/digitalsignature/is_valid/) | If this digital signature is valid and the document has not been tampered with, this value will be true.<br/>            Read-only <br/>.NET type System.Boolean. |
+| [sign_time](/slides/python-net/aspose.slides/digitalsignature/sign_time/) | The time when the document was signed.<br/>            Read-only <br/>.NET type System.DateTime. |
+| [comments](/slides/python-net/aspose.slides/digitalsignature/comments/) | The purpose of signature.<br/>            Read/write <br/>.NET type System.String. |
 

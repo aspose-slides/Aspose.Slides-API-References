@@ -18,8 +18,8 @@ The IChartCategoryCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [use_cells](/slides/python-net/aspose.slides.charts/ichartcategorycollection/use_cells/) | If true then worksheet is used for storing categories (this case supports a multi-level categories).<br/>            If false then worksheet is NOT used for storing values (and this case doesn't support a <br/>            multi-level categories).<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
-| [grouping_level_count](/slides/python-net/aspose.slides.charts/ichartcategorycollection/grouping_level_count/) | Returns count of category grouping levels used.<br/>            Is more then one for multilevel categories.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [use_cells](/slides/python-net/aspose.slides.charts/ichartcategorycollection/use_cells/) | If true then worksheet is used for storing categories (this case supports a multi-level categories).<br/>            If false then worksheet is NOT used for storing values (and this case doesn't support a <br/>            multi-level categories).<br/>            Read/write <br/>.NET type System.Boolean. |
+| [grouping_level_count](/slides/python-net/aspose.slides.charts/ichartcategorycollection/grouping_level_count/) | Returns count of category grouping levels used.<br/>            Is more then one for multilevel categories.<br/>            Read-only <br/>.NET type System.Int32. |
 | [as_i_collection](/slides/python-net/aspose.slides.charts/ichartcategorycollection/as_i_collection/) |  |
 | [as_i_enumerable](/slides/python-net/aspose.slides.charts/ichartcategorycollection/as_i_enumerable/) |  |
 
@@ -33,9 +33,9 @@ The IChartCategoryCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#IChartDataCell/) | If category exists in collection, return it. Else creates new chart category from <br/>            <br/>[`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)<br/> and adds it to the collection. |
-| [add](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#any/) | Creates new <br/>[`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory)<br/> from value and adds it to the collection. |
-| [index_of](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#IChartCategory/) | Searches for the specified <br/>[`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory)<br/> and returns the zero-based index of the first occurrence within the entire Collection |
+| [add](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#IChartDataCell/) | If category exists in collection, return it. Else creates new chart category from <br/>            <br/>[`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection. |
+| [add](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#any/) | Creates new <br/>[`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory) from value and adds it to the collection. |
+| [index_of](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#IChartCategory/) | Searches for the specified <br/>[`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory) and returns the zero-based index of the first occurrence within the entire Collection |
 | [remove](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#IChartCategory/) | Removes the specified value. |
 | [remove_at](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#int/) | Removes the element at the given index. |
 | [clear](/slides/python-net/aspose.slides.charts/ichartcategorycollection/ichartcategorycollection/#/) | Removes all elements from the collection. |

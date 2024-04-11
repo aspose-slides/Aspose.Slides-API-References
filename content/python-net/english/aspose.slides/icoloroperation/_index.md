@@ -17,6 +17,6 @@ The IColorOperation type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [operation_type](/slides/python-net/aspose.slides/icoloroperation/operation_type/) | Returns or sets the type of an operation.<br/>            Read-only <br/>[`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation)<br/>. |
-| [parameter](/slides/python-net/aspose.slides/icoloroperation/parameter/) | Returns a parameter of an operation.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [operation_type](/slides/python-net/aspose.slides/icoloroperation/operation_type/) | Returns or sets the type of an operation.<br/>            Read-only <br/>[`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation). |
+| [parameter](/slides/python-net/aspose.slides/icoloroperation/parameter/) | Returns a parameter of an operation.<br/>            Read-only <br/>.NET type System.Single. |
 

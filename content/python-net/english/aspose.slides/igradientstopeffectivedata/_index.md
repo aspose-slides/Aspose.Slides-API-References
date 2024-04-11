@@ -17,6 +17,6 @@ The IGradientStopEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [position](/slides/python-net/aspose.slides/igradientstopeffectivedata/position/) | Returns the position (0..1) of a gradient stop.<br/>            Read-only <br/>.NET type System.Single<br/>. |
-| [color](/slides/python-net/aspose.slides/igradientstopeffectivedata/color/) | Returns the color of a gradient stop.<br/>            Read-only <br/>.NET type System.Drawing.Color<br/>. |
+| [position](/slides/python-net/aspose.slides/igradientstopeffectivedata/position/) | Returns the position (0..1) of a gradient stop.<br/>            Read-only <br/>.NET type System.Single. |
+| [color](/slides/python-net/aspose.slides/igradientstopeffectivedata/color/) | Returns the color of a gradient stop.<br/>            Read-only <br/>.NET type System.Drawing.Color. |
 

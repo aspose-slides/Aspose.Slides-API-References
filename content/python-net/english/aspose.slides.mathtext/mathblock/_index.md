@@ -28,7 +28,7 @@ The MathBlock type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.mathtext/mathblock/count/) | Gets the number of child math elements actually contained in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [count](/slides/python-net/aspose.slides.mathtext/mathblock/count/) | Gets the number of child math elements actually contained in the collection.<br/>            Read-only <br/>.NET type System.Int32. |
 | [is_read_only](/slides/python-net/aspose.slides.mathtext/mathblock/is_read_only/) | Returns false because child elements collection can be modified. |
 | [as_i_math_element_collection](/slides/python-net/aspose.slides.mathtext/mathblock/as_i_math_element_collection/) |  |
 | [as_i_math_element](/slides/python-net/aspose.slides.mathtext/mathblock/as_i_math_element/) |  |
@@ -101,5 +101,5 @@ The MathBlock type exposes the following members:
 | [remove_at](/slides/python-net/aspose.slides.mathtext/mathblock/mathblock/#int/) | Removes the element at the specified index of the collection. |
 | [join_block](/slides/python-net/aspose.slides.mathtext/mathblock/mathblock/#IMathBlock/) | Joins another mathematical block with this one |
 | [delimit](/slides/python-net/aspose.slides.mathtext/mathblock/mathblock/#char/) | Delimits child elements with separator character (without the brackets) |
-| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/mathblock/mathblock/#System.IO.Stream/) | Saves content of this <br/>[`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock)<br/> as MathML |
+| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/mathblock/mathblock/#System.IO.Stream/) | Saves content of this <br/>[`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock) as MathML |
 

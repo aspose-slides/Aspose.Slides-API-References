@@ -17,6 +17,6 @@ The BaseChartValue type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [data_source_type](/slides/python-net/aspose.slides.charts/basechartvalue/data_source_type/) | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble <br/>            property is actual in descendants. In other words it specifies the type <br/>            of value of the Data property.<br/>            Read/write <br/>[`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype)<br/>. |
-| [data](/slides/python-net/aspose.slides.charts/basechartvalue/data/) | Data.<br/>            Read/write <br/>.NET type System.Object<br/>. |
+| [data_source_type](/slides/python-net/aspose.slides.charts/basechartvalue/data_source_type/) | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble <br/>            property is actual in descendants. In other words it specifies the type <br/>            of value of the Data property.<br/>            Read/write <br/>[`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype). |
+| [data](/slides/python-net/aspose.slides.charts/basechartvalue/data/) | Data.<br/>            Read/write <br/>.NET type System.Object. |
 

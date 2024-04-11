@@ -17,7 +17,7 @@ The IKnownIssueWarningInfo type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_warning_info](/slides/python-net/aspose.slides.warnings/iknownissuewarninginfo/as_i_warning_info/) | Returns IWarningInfo interface.<br/>            Read-only <br/>[`IWarningInfo`](/slides/python-net/aspose.slides.warnings/iwarninginfo)<br/>. |
+| [as_i_warning_info](/slides/python-net/aspose.slides.warnings/iknownissuewarninginfo/as_i_warning_info/) | Returns IWarningInfo interface.<br/>            Read-only <br/>[`IWarningInfo`](/slides/python-net/aspose.slides.warnings/iwarninginfo). |
 | [warning_type](/slides/python-net/aspose.slides.warnings/iknownissuewarninginfo/warning_type/) |  |
 | [description](/slides/python-net/aspose.slides.warnings/iknownissuewarninginfo/description/) |  |
 

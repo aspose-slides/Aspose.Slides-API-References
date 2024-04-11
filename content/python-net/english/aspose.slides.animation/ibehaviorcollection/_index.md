@@ -17,8 +17,8 @@ The IBehaviorCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.animation/ibehaviorcollection/count/) | Returns the number of behaviors in a collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.animation/ibehaviorcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable<br/>. |
+| [count](/slides/python-net/aspose.slides.animation/ibehaviorcollection/count/) | Returns the number of behaviors in a collection.<br/>            Read-only <br/>.NET type System.Int32. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.animation/ibehaviorcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable. |
 
 ## Indexer
 
@@ -31,10 +31,10 @@ The IBehaviorCollection type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [add](/slides/python-net/aspose.slides.animation/ibehaviorcollection/ibehaviorcollection/#IBehavior/) | Add new behavior to a collection. |
-| [index_of](/slides/python-net/aspose.slides.animation/ibehaviorcollection/ibehaviorcollection/#IBehavior/) | Determines the index of a specific item in the <br/>.NET type System.Collections.Generic.IList`1<br/>. |
+| [index_of](/slides/python-net/aspose.slides.animation/ibehaviorcollection/ibehaviorcollection/#IBehavior/) | Determines the index of a specific item in the <br/>.NET type System.Collections.Generic.IList`1. |
 | [insert](/slides/python-net/aspose.slides.animation/ibehaviorcollection/ibehaviorcollection/#int-IBehavior/) | Inserts new behavior to a collection at the specified index. |
 | [remove](/slides/python-net/aspose.slides.animation/ibehaviorcollection/ibehaviorcollection/#IBehavior/) | Removes specified behavior from a collection. |
 | [remove_at](/slides/python-net/aspose.slides.animation/ibehaviorcollection/ibehaviorcollection/#int/) | Removes behavior from a collection at the specified index. |
 | [clear](/slides/python-net/aspose.slides.animation/ibehaviorcollection/ibehaviorcollection/#/) | Removes all behaviors from a collection. |
-| [contains](/slides/python-net/aspose.slides.animation/ibehaviorcollection/ibehaviorcollection/#IBehavior/) | Determines whether the <br/>.NET type System.Collections.Generic.ICollection`1<br/> contains a specific value. |
+| [contains](/slides/python-net/aspose.slides.animation/ibehaviorcollection/ibehaviorcollection/#IBehavior/) | Determines whether the <br/>.NET type System.Collections.Generic.ICollection`1 contains a specific value. |
 

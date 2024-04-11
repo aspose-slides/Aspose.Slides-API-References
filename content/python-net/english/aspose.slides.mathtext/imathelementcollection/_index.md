@@ -17,8 +17,8 @@ The IMathElementCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.mathtext/imathelementcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.mathtext/imathelementcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable<br/>. |
+| [count](/slides/python-net/aspose.slides.mathtext/imathelementcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only <br/>.NET type System.Int32. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.mathtext/imathelementcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable. |
 
 ## Indexer
 

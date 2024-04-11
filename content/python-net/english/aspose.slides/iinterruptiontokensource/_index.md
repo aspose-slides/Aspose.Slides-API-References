@@ -10,8 +10,7 @@ url: /aspose.slides/iinterruptiontokensource/
 IInterruptionTokenSource class
 
 Represents the source of 
-[`IInterruptionToken`](/slides/python-net/aspose.slides/iinterruptiontoken)
-.
+[`IInterruptionToken`](/slides/python-net/aspose.slides/iinterruptiontoken).
 
 The IInterruptionTokenSource type exposes the following members:
 
@@ -19,7 +18,7 @@ The IInterruptionTokenSource type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [token](/slides/python-net/aspose.slides/iinterruptiontokensource/token/) | Returns new token binded to this <br/>[`IInterruptionTokenSource`](/slides/python-net/aspose.slides/iinterruptiontokensource)<br/>. |
+| [token](/slides/python-net/aspose.slides/iinterruptiontokensource/token/) | Returns new token binded to this <br/>[`IInterruptionTokenSource`](/slides/python-net/aspose.slides/iinterruptiontokensource). |
 | [is_interruption_requested](/slides/python-net/aspose.slides/iinterruptiontokensource/is_interruption_requested/) | Returns true if interruption requested, false otherwise. |
 
 ## Methods

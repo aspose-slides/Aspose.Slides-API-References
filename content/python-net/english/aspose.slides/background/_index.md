@@ -19,14 +19,14 @@ The Background type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/background/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
-| [type](/slides/python-net/aspose.slides/background/type/) | Returns a type of background fill.<br/>            Read/write <br/>[`BackgroundType`](/slides/python-net/aspose.slides/backgroundtype)<br/>. |
-| [fill_format](/slides/python-net/aspose.slides/background/fill_format/) | Returns a FillFormat for BackgroundType.OwnBackground fill.<br/>            Read-only <br/>[`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)<br/>. |
-| [effect_format](/slides/python-net/aspose.slides/background/effect_format/) | Returns a EffectFormat for BackgroundType.OwnBackground fill.<br/>            Read-only <br/>[`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)<br/>. |
-| [style_color](/slides/python-net/aspose.slides/background/style_color/) | Return a ColorFormat for a BackgroundType.Themed fill.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
-| [style_index](/slides/python-net/aspose.slides/background/style_index/) | Returns an index of BackgroundType.Themed fill in background theme collection.<br/>            0 means no fill.<br/>            1..999 - index.<br/>            Read/write <br/>.NET type System.UInt16<br/>. |
-| [slide](/slides/python-net/aspose.slides/background/slide/) | Returns the parent slide of a shape.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)<br/>. |
-| [presentation](/slides/python-net/aspose.slides/background/presentation/) | Returns the parent presentation of a slide.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation)<br/>. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/background/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [type](/slides/python-net/aspose.slides/background/type/) | Returns a type of background fill.<br/>            Read/write <br/>[`BackgroundType`](/slides/python-net/aspose.slides/backgroundtype). |
+| [fill_format](/slides/python-net/aspose.slides/background/fill_format/) | Returns a FillFormat for BackgroundType.OwnBackground fill.<br/>            Read-only <br/>[`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
+| [effect_format](/slides/python-net/aspose.slides/background/effect_format/) | Returns a EffectFormat for BackgroundType.OwnBackground fill.<br/>            Read-only <br/>[`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat). |
+| [style_color](/slides/python-net/aspose.slides/background/style_color/) | Return a ColorFormat for a BackgroundType.Themed fill.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [style_index](/slides/python-net/aspose.slides/background/style_index/) | Returns an index of BackgroundType.Themed fill in background theme collection.<br/>            0 means no fill.<br/>            1..999 - index.<br/>            Read/write <br/>.NET type System.UInt16. |
+| [slide](/slides/python-net/aspose.slides/background/slide/) | Returns the parent slide of a shape.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
+| [presentation](/slides/python-net/aspose.slides/background/presentation/) | Returns the parent presentation of a slide.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [as_i_slide_component](/slides/python-net/aspose.slides/background/as_i_slide_component/) |  |
 | [as_i_fill_param_source](/slides/python-net/aspose.slides/background/as_i_fill_param_source/) |  |
 

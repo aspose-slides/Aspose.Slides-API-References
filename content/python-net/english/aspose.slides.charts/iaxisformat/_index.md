@@ -17,7 +17,7 @@ The IAxisFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [fill](/slides/python-net/aspose.slides.charts/iaxisformat/fill/) | Returns fill style properties of an axis.<br/>            Read-only <br/>[`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)<br/>. |
-| [line](/slides/python-net/aspose.slides.charts/iaxisformat/line/) | Returns line style properties of an axis.<br/>            Read-only <br/>[`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)<br/>. |
-| [effect](/slides/python-net/aspose.slides.charts/iaxisformat/effect/) | Returns effects used for an axis.<br/>            Read-only <br/>[`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)<br/>. |
+| [fill](/slides/python-net/aspose.slides.charts/iaxisformat/fill/) | Returns fill style properties of an axis.<br/>            Read-only <br/>[`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
+| [line](/slides/python-net/aspose.slides.charts/iaxisformat/line/) | Returns line style properties of an axis.<br/>            Read-only <br/>[`ILineFormat`](/slides/python-net/aspose.slides/ilineformat). |
+| [effect](/slides/python-net/aspose.slides.charts/iaxisformat/effect/) | Returns effects used for an axis.<br/>            Read-only <br/>[`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat). |
 

@@ -19,9 +19,9 @@ The CellInvalidReferenceException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/#/) | Initializes a new instance of the <br/>[`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception)<br/> class. |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/#string/) | Initializes a new instance of the <br/>[`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception)<br/> class with a specified error message. |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/#string-string/) | Initializes a new instance of the <br/>[`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception)<br/> class with a specified error message<br/>            and an invalid cell reference. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/#/) | Initializes a new instance of the <br/>[`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) class. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/#string/) | Initializes a new instance of the <br/>[`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) class with a specified error message. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/#string-string/) | Initializes a new instance of the <br/>[`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message<br/>            and an invalid cell reference. |
 
 ## Properties
 

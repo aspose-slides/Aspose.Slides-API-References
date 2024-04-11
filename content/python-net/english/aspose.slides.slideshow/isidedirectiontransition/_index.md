@@ -17,6 +17,6 @@ The ISideDirectionTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/isidedirectiontransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionSideDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionsidedirectiontype)<br/>. |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/isidedirectiontransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)<br/>. |
+| [direction](/slides/python-net/aspose.slides.slideshow/isidedirectiontransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionSideDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionsidedirectiontype). |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/isidedirectiontransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase). |
 

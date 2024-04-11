@@ -17,6 +17,6 @@ The IEffectStyle type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [effect_format](/slides/python-net/aspose.slides.theme/ieffectstyle/effect_format/) | Returns an effect format.<br/>            Read-only <br/>[`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)<br/>. |
-| [three_d_format](/slides/python-net/aspose.slides.theme/ieffectstyle/three_d_format/) | Returns an 3d format.<br/>            Read-only <br/>[`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)<br/>. |
+| [effect_format](/slides/python-net/aspose.slides.theme/ieffectstyle/effect_format/) | Returns an effect format.<br/>            Read-only <br/>[`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat). |
+| [three_d_format](/slides/python-net/aspose.slides.theme/ieffectstyle/three_d_format/) | Returns an 3d format.<br/>            Read-only <br/>[`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat). |
 

@@ -17,8 +17,8 @@ The ISmartArtShape type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [text_frame](/slides/python-net/aspose.slides.smartart/ismartartshape/text_frame/) | Returns text of the SmartArt shape.<br/>            Read-only <br/>[`ITextFrame`](/slides/python-net/aspose.slides/itextframe)<br/>. |
-| [as_i_geometry_shape](/slides/python-net/aspose.slides.smartart/ismartartshape/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only <br/>[`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape)<br/>. |
+| [text_frame](/slides/python-net/aspose.slides.smartart/ismartartshape/text_frame/) | Returns text of the SmartArt shape.<br/>            Read-only <br/>[`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
+| [as_i_geometry_shape](/slides/python-net/aspose.slides.smartart/ismartartshape/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only <br/>[`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape). |
 | [shape_style](/slides/python-net/aspose.slides.smartart/ismartartshape/shape_style/) |  |
 | [shape_type](/slides/python-net/aspose.slides.smartart/ismartartshape/shape_type/) |  |
 | [adjustments](/slides/python-net/aspose.slides.smartart/ismartartshape/adjustments/) |  |

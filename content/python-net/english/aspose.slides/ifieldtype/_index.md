@@ -18,5 +18,5 @@ The IFieldType type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [internal_string](/slides/python-net/aspose.slides/ifieldtype/internal_string/) | Returns the internal name of this FieldTypeEx object.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [internal_string](/slides/python-net/aspose.slides/ifieldtype/internal_string/) | Returns the internal name of this FieldTypeEx object.<br/>            Read/write <br/>.NET type System.String. |
 

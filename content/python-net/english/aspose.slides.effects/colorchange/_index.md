@@ -20,9 +20,9 @@ The ColorChange type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/colorchange/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
-| [from_color](/slides/python-net/aspose.slides.effects/colorchange/from_color/) | Color which will be replaced.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
-| [to_color](/slides/python-net/aspose.slides.effects/colorchange/to_color/) | Color which will replace.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/colorchange/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [from_color](/slides/python-net/aspose.slides.effects/colorchange/from_color/) | Color which will be replaced.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [to_color](/slides/python-net/aspose.slides.effects/colorchange/to_color/) | Color which will replace.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [slide](/slides/python-net/aspose.slides.effects/colorchange/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides.effects/colorchange/presentation/) |  |
 | [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/colorchange/as_i_image_transform_operation/) |  |

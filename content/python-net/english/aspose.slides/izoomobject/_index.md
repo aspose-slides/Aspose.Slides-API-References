@@ -17,12 +17,12 @@ The IZoomObject type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [image_type](/slides/python-net/aspose.slides/izoomobject/image_type/) | Gets or sets the image type of a zoom object.<br/>            Read/write <br/>[`ZoomImageType`](/slides/python-net/aspose.slides/zoomimagetype)<br/>.<br/>            Default value: Preview |
-| [return_to_parent](/slides/python-net/aspose.slides/izoomobject/return_to_parent/) | Gets or sets the navigation behavior in slideshow.<br/>            Read/write <br/>.NET type System.Boolean<br/>.<br/>            Default value: false |
-| [show_background](/slides/python-net/aspose.slides/izoomobject/show_background/) | Gets or sets value that specifies whether the Zoom will use the background of the destination slide.<br/>            Read/write <br/>.NET type System.Boolean<br/>.<br/>            Default value: true |
-| [image](/slides/python-net/aspose.slides/izoomobject/image/) | Gets or sets image for zoom object.<br/>            Read/write <br/>[`IPPImage`](/slides/python-net/aspose.slides/ippimage)<br/>. |
-| [transition_duration](/slides/python-net/aspose.slides/izoomobject/transition_duration/) | Gets or sets the duration of the transition between Zoom and slide.<br/>            Read/write <br/>.NET type System.Single<br/>.<br/>            Default value: 1.0f |
-| [as_i_graphical_object](/slides/python-net/aspose.slides/izoomobject/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only <br/>[`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject)<br/>. |
+| [image_type](/slides/python-net/aspose.slides/izoomobject/image_type/) | Gets or sets the image type of a zoom object.<br/>            Read/write <br/>[`ZoomImageType`](/slides/python-net/aspose.slides/zoomimagetype).<br/>            Default value: Preview |
+| [return_to_parent](/slides/python-net/aspose.slides/izoomobject/return_to_parent/) | Gets or sets the navigation behavior in slideshow.<br/>            Read/write <br/>.NET type System.Boolean.<br/>            Default value: false |
+| [show_background](/slides/python-net/aspose.slides/izoomobject/show_background/) | Gets or sets value that specifies whether the Zoom will use the background of the destination slide.<br/>            Read/write <br/>.NET type System.Boolean.<br/>            Default value: true |
+| [image](/slides/python-net/aspose.slides/izoomobject/image/) | Gets or sets image for zoom object.<br/>            Read/write <br/>[`IPPImage`](/slides/python-net/aspose.slides/ippimage). |
+| [transition_duration](/slides/python-net/aspose.slides/izoomobject/transition_duration/) | Gets or sets the duration of the transition between Zoom and slide.<br/>            Read/write <br/>.NET type System.Single.<br/>            Default value: 1.0f |
+| [as_i_graphical_object](/slides/python-net/aspose.slides/izoomobject/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only <br/>[`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
 | [shape_lock](/slides/python-net/aspose.slides/izoomobject/shape_lock/) |  |
 | [graphical_object_lock](/slides/python-net/aspose.slides/izoomobject/graphical_object_lock/) |  |
 | [as_i_shape](/slides/python-net/aspose.slides/izoomobject/as_i_shape/) |  |

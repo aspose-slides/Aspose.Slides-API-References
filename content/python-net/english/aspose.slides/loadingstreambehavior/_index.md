@@ -10,14 +10,11 @@ url: /aspose.slides/loadingstreambehavior/
 LoadingStreamBehavior enumeration
 
 The 
-.NET type System.IO.Stream
- passed to a method is considered as a Binary Large Object (BLOB) (see 
+.NET type System.IO.Stream passed to a method is considered as a Binary Large Object (BLOB) (see 
             
-[`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions)
- description). Values of this enumeration identify how 
+[`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how 
             the 
-.NET type System.IO.Stream
- should be treated when it passed to the method. Depending on the 
+.NET type System.IO.Stream should be treated when it passed to the method. Depending on the 
             requirements, different decisions could be made to provide the most efficient behavior.
 
 The LoadingStreamBehavior type exposes the following members:
@@ -26,6 +23,6 @@ The LoadingStreamBehavior type exposes the following members:
 
 | Field | Description |
 | :- | :- |
-| READ_STREAM_AND_RELEASE | The stream will be read to the end and then released - i.e. it will be guaranteed that this stream <br/>            will not be used by <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation)<br/> instance in the future. It can be closed by the client <br/>            code or used in any other way. |
-| KEEP_LOCKED | The stream will be locked inside the <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation)<br/> object, i.e. the ownership of <br/>            the stream will be transferred. The <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation)<br/> object will be responsible to <br/>            correctly dispose the stream when this object will be disposed itself. <br/>            This behavior is extremely useful when you need to serialize a large BLOB file (such as a large <br/>            video or audio -see <br/>[`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions)<br/> description) and want to prevent loading <br/>            this file into memory or other performance issues. You may just open the <br/>.NET type System.IO.FileStream<br/> <br/>            for this file and pass to a method, choosing <br/>[`LoadingStreamBehavior.KEEP_LOCKED`](/slides/python-net/aspose.slides/loadingstreambehavior#KEEP_LOCKED)<br/> LoadingStreamBehavior. |
+| READ_STREAM_AND_RELEASE | The stream will be read to the end and then released - i.e. it will be guaranteed that this stream <br/>            will not be used by <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation) instance in the future. It can be closed by the client <br/>            code or used in any other way. |
+| KEEP_LOCKED | The stream will be locked inside the <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation) object, i.e. the ownership of <br/>            the stream will be transferred. The <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation) object will be responsible to <br/>            correctly dispose the stream when this object will be disposed itself. <br/>            This behavior is extremely useful when you need to serialize a large BLOB file (such as a large <br/>            video or audio -see <br/>[`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description) and want to prevent loading <br/>            this file into memory or other performance issues. You may just open the <br/>.NET type System.IO.FileStream <br/>            for this file and pass to a method, choosing <br/>[`LoadingStreamBehavior.KEEP_LOCKED`](/slides/python-net/aspose.slides/loadingstreambehavior#KEEP_LOCKED) LoadingStreamBehavior. |
 

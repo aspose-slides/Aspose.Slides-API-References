@@ -23,8 +23,8 @@ The TextAnimation type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [build_type](/slides/python-net/aspose.slides.animation/textanimation/build_type/) | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation.<br/>            Read/write <br/>[`BuildType`](/slides/python-net/aspose.slides.animation/buildtype)<br/>. |
-| [effect_animate_background_shape](/slides/python-net/aspose.slides.animation/textanimation/effect_animate_background_shape/) | Linked shape effect with group or not (null).<br/>            Read/write <br/>[`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)<br/>. |
+| [build_type](/slides/python-net/aspose.slides.animation/textanimation/build_type/) | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation.<br/>            Read/write <br/>[`BuildType`](/slides/python-net/aspose.slides.animation/buildtype). |
+| [effect_animate_background_shape](/slides/python-net/aspose.slides.animation/textanimation/effect_animate_background_shape/) | Linked shape effect with group or not (null).<br/>            Read/write <br/>[`IEffect`](/slides/python-net/aspose.slides.animation/ieffect). |
 
 ## Methods
 

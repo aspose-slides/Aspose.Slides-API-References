@@ -17,8 +17,8 @@ The FontsManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [font_subst_rule_list](/slides/python-net/aspose.slides/fontsmanager/font_subst_rule_list/) | Font substitutions to use when rendering.<br/>            Read/write <br/>[`IFontSubstRuleCollection`](/slides/python-net/aspose.slides/ifontsubstrulecollection)<br/>. |
-| [font_fall_back_rules_collection](/slides/python-net/aspose.slides/fontsmanager/font_fall_back_rules_collection/) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality<br/>            Read/write <br/>[`IFontFallBackRulesCollection`](/slides/python-net/aspose.slides/ifontfallbackrulescollection)<br/>. |
+| [font_subst_rule_list](/slides/python-net/aspose.slides/fontsmanager/font_subst_rule_list/) | Font substitutions to use when rendering.<br/>            Read/write <br/>[`IFontSubstRuleCollection`](/slides/python-net/aspose.slides/ifontsubstrulecollection). |
+| [font_fall_back_rules_collection](/slides/python-net/aspose.slides/fontsmanager/font_fall_back_rules_collection/) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality<br/>            Read/write <br/>[`IFontFallBackRulesCollection`](/slides/python-net/aspose.slides/ifontfallbackrulescollection). |
 
 ## Methods
 

@@ -17,8 +17,8 @@ The ILightRigEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides/ilightrigeffectivedata/direction/) | Light direction.<br/>            Read-only <br/>[`LightingDirection`](/slides/python-net/aspose.slides/lightingdirection)<br/>. |
-| [light_type](/slides/python-net/aspose.slides/ilightrigeffectivedata/light_type/) | Represents a preset light right that can be applied to a shape. <br/>            The light rig represents a group of lights oriented in a specific way relative to a 3D scene.<br/>            Read-only <br/>[`LightRigPresetType`](/slides/python-net/aspose.slides/lightrigpresettype)<br/>. |
+| [direction](/slides/python-net/aspose.slides/ilightrigeffectivedata/direction/) | Light direction.<br/>            Read-only <br/>[`LightingDirection`](/slides/python-net/aspose.slides/lightingdirection). |
+| [light_type](/slides/python-net/aspose.slides/ilightrigeffectivedata/light_type/) | Represents a preset light right that can be applied to a shape. <br/>            The light rig represents a group of lights oriented in a specific way relative to a 3D scene.<br/>            Read-only <br/>[`LightRigPresetType`](/slides/python-net/aspose.slides/lightrigpresettype). |
 
 ## Methods
 
@@ -30,6 +30,5 @@ The ILightRigEffectiveData type exposes the following members:
 ### Remarks
 
 This interface is used as a part of 
-[`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata)
-.
+[`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata).
 

@@ -18,7 +18,7 @@ The ISummaryZoomFrame type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [layout](/slides/python-net/aspose.slides/isummaryzoomframe/layout/) | Gets layout of Summary Zoom Sections in the frame.<br/>            Default value is GridLayout. |
-| [summary_zoom_collection](/slides/python-net/aspose.slides/isummaryzoomframe/summary_zoom_collection/) | Gets <br/>[`ISummaryZoomSectionCollection`](/slides/python-net/aspose.slides/isummaryzoomsectioncollection)<br/> for the Summary Zoom Frame object. |
+| [summary_zoom_collection](/slides/python-net/aspose.slides/isummaryzoomframe/summary_zoom_collection/) | Gets <br/>[`ISummaryZoomSectionCollection`](/slides/python-net/aspose.slides/isummaryzoomsectioncollection) for the Summary Zoom Frame object. |
 | [as_i_graphical_object](/slides/python-net/aspose.slides/isummaryzoomframe/as_i_graphical_object/) | Returns IGraphicalObject interface. |
 | [shape_lock](/slides/python-net/aspose.slides/isummaryzoomframe/shape_lock/) |  |
 | [graphical_object_lock](/slides/python-net/aspose.slides/isummaryzoomframe/graphical_object_lock/) |  |

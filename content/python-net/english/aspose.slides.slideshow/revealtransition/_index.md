@@ -19,7 +19,7 @@ The RevealTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/revealtransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype)<br/>. |
-| [through_black](/slides/python-net/aspose.slides.slideshow/revealtransition/through_black/) | Specifies whether the transition fades through black.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [direction](/slides/python-net/aspose.slides.slideshow/revealtransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
+| [through_black](/slides/python-net/aspose.slides.slideshow/revealtransition/through_black/) | Specifies whether the transition fades through black.<br/>            Read/write <br/>.NET type System.Boolean. |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/revealtransition/as_i_transition_value_base/) |  |
 

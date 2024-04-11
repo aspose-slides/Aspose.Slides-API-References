@@ -18,6 +18,6 @@ The INormalViewRestoredProperties type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [dimension_size](/slides/python-net/aspose.slides/inormalviewrestoredproperties/dimension_size/) | Specifies the size of the slide region (width when a child of RestoredTop, height when a<br/>            child of RestoredLeft).<br/>            Read/write <br/>.NET type System.Single<br/>.<br/>            <br/>Throws when value less than 0 ar greater than 100. |
-| [auto_adjust](/slides/python-net/aspose.slides/inormalviewrestoredproperties/auto_adjust/) | Specifies whether the size of the side content region should compensate for the new size<br/>            when resizing the window containing the view within the application<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [dimension_size](/slides/python-net/aspose.slides/inormalviewrestoredproperties/dimension_size/) | Specifies the size of the slide region (width when a child of RestoredTop, height when a<br/>            child of RestoredLeft).<br/>            Read/write <br/>.NET type System.Single.<br/>            <br/>Throws when value less than 0 ar greater than 100. |
+| [auto_adjust](/slides/python-net/aspose.slides/inormalviewrestoredproperties/auto_adjust/) | Specifies whether the size of the side content region should compensate for the new size<br/>            when resizing the window containing the view within the application<br/>            Read/write <br/>.NET type System.Boolean. |
 

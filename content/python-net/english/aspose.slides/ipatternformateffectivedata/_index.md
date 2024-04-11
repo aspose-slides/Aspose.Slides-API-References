@@ -17,9 +17,9 @@ The IPatternFormatEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [pattern_style](/slides/python-net/aspose.slides/ipatternformateffectivedata/pattern_style/) | Returns the pattern style.<br/>            Read-only <br/>[`PatternStyle`](/slides/python-net/aspose.slides/patternstyle)<br/>. |
-| [fore_color](/slides/python-net/aspose.slides/ipatternformateffectivedata/fore_color/) | Returns the foreground pattern color.<br/>            Read-only <br/>.NET type System.Drawing.Color<br/>. |
-| [back_color](/slides/python-net/aspose.slides/ipatternformateffectivedata/back_color/) | Returns the background pattern color.<br/>            Read-only <br/>.NET type System.Drawing.Color<br/>. |
+| [pattern_style](/slides/python-net/aspose.slides/ipatternformateffectivedata/pattern_style/) | Returns the pattern style.<br/>            Read-only <br/>[`PatternStyle`](/slides/python-net/aspose.slides/patternstyle). |
+| [fore_color](/slides/python-net/aspose.slides/ipatternformateffectivedata/fore_color/) | Returns the foreground pattern color.<br/>            Read-only <br/>.NET type System.Drawing.Color. |
+| [back_color](/slides/python-net/aspose.slides/ipatternformateffectivedata/back_color/) | Returns the background pattern color.<br/>            Read-only <br/>.NET type System.Drawing.Color. |
 
 ## Methods
 
@@ -31,8 +31,6 @@ The IPatternFormatEffectiveData type exposes the following members:
 ### Remarks
 
 This interface is used as a part of 
-[`IFillFormatEffectiveData`](/slides/python-net/aspose.slides/ifillformateffectivedata)
- and 
-[`ILineFillFormatEffectiveData`](/slides/python-net/aspose.slides/ilinefillformateffectivedata)
-.
+[`IFillFormatEffectiveData`](/slides/python-net/aspose.slides/ifillformateffectivedata) and 
+[`ILineFillFormatEffectiveData`](/slides/python-net/aspose.slides/ilinefillformateffectivedata).
 

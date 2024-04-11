@@ -17,6 +17,6 @@ The ILeftRightDirectionTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/ileftrightdirectiontransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype)<br/>. |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/ileftrightdirectiontransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)<br/>. |
+| [direction](/slides/python-net/aspose.slides.slideshow/ileftrightdirectiontransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/ileftrightdirectiontransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase). |
 

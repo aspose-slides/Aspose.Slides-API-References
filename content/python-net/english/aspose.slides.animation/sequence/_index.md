@@ -17,8 +17,8 @@ The Sequence type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.animation/sequence/count/) | Returns the number of effects in a sequense.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
-| [trigger_shape](/slides/python-net/aspose.slides.animation/sequence/trigger_shape/) | Returns or sets shape target for INTERACTIVE sequence.<br/>            If sequence is not interactive then returns null.<br/>            Read/write <br/>[`IShape`](/slides/python-net/aspose.slides/ishape)<br/>. |
+| [count](/slides/python-net/aspose.slides.animation/sequence/count/) | Returns the number of effects in a sequense.<br/>            Read-only <br/>.NET type System.Int32. |
+| [trigger_shape](/slides/python-net/aspose.slides.animation/sequence/trigger_shape/) | Returns or sets shape target for INTERACTIVE sequence.<br/>            If sequence is not interactive then returns null.<br/>            Read/write <br/>[`IShape`](/slides/python-net/aspose.slides/ishape). |
 | [as_i_enumerable](/slides/python-net/aspose.slides.animation/sequence/as_i_enumerable/) |  |
 
 ## Indexer

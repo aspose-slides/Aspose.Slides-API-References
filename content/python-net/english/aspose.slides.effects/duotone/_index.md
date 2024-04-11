@@ -21,9 +21,9 @@ The Duotone type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/duotone/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
-| [color1](/slides/python-net/aspose.slides.effects/duotone/color1/) | Returns target color format for dark pixels.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
-| [color2](/slides/python-net/aspose.slides.effects/duotone/color2/) | Returns target color format for light pixels.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/duotone/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [color1](/slides/python-net/aspose.slides.effects/duotone/color1/) | Returns target color format for dark pixels.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [color2](/slides/python-net/aspose.slides.effects/duotone/color2/) | Returns target color format for light pixels.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [slide](/slides/python-net/aspose.slides.effects/duotone/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides.effects/duotone/presentation/) |  |
 | [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/duotone/as_i_image_transform_operation/) |  |

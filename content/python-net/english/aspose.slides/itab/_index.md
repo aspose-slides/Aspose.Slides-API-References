@@ -17,6 +17,6 @@ The ITab type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [position](/slides/python-net/aspose.slides/itab/position/) | Returns or sets position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read/write <br/>.NET type System.Double<br/>. |
-| [alignment](/slides/python-net/aspose.slides/itab/alignment/) | Returns or sets align style of a tab.<br/>            Read/write <br/>[`TabAlignment`](/slides/python-net/aspose.slides/tabalignment)<br/>. |
+| [position](/slides/python-net/aspose.slides/itab/position/) | Returns or sets position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read/write <br/>.NET type System.Double. |
+| [alignment](/slides/python-net/aspose.slides/itab/alignment/) | Returns or sets align style of a tab.<br/>            Read/write <br/>[`TabAlignment`](/slides/python-net/aspose.slides/tabalignment). |
 

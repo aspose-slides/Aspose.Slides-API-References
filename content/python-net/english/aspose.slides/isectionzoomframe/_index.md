@@ -17,7 +17,7 @@ The ISectionZoomFrame type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [target_section](/slides/python-net/aspose.slides/isectionzoomframe/target_section/) | Gets or sets the section object that the Section Zoom object is linked to.<br/>            Read/write <br/>[`ISection`](/slides/python-net/aspose.slides/isection)<br/>. |
+| [target_section](/slides/python-net/aspose.slides/isectionzoomframe/target_section/) | Gets or sets the section object that the Section Zoom object is linked to.<br/>            Read/write <br/>[`ISection`](/slides/python-net/aspose.slides/isection). |
 | [as_i_zoom_object](/slides/python-net/aspose.slides/isectionzoomframe/as_i_zoom_object/) | Returns IZoomObject interface. |
 | [image_type](/slides/python-net/aspose.slides/isectionzoomframe/image_type/) |  |
 | [return_to_parent](/slides/python-net/aspose.slides/isectionzoomframe/return_to_parent/) |  |

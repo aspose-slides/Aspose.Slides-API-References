@@ -17,13 +17,13 @@ The IPropertyEffect type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [from_address](/slides/python-net/aspose.slides.animation/ipropertyeffect/from_address/) | Specifies the starting value of the animation.<br/>            Read/write <br/>.NET type System.String<br/>. |
-| [to](/slides/python-net/aspose.slides.animation/ipropertyeffect/to/) | Specifies the ending value for the animation.<br/>            Read/write <br/>.NET type System.String<br/>. |
-| [by](/slides/python-net/aspose.slides.animation/ipropertyeffect/by/) | Specifies a relative offset value for the animation with respect to its<br/>            position before the start of the animation.<br/>            Read/write <br/>.NET type System.String<br/>. |
-| [value_type](/slides/python-net/aspose.slides.animation/ipropertyeffect/value_type/) | Specifies the type of a property value.<br/>            Read/write <br/>[`PropertyValueType`](/slides/python-net/aspose.slides.animation/propertyvaluetype)<br/>. |
-| [calc_mode](/slides/python-net/aspose.slides.animation/ipropertyeffect/calc_mode/) | Specifies the interpolation mode for the animation<br/>            Read/write <br/>[`PropertyCalcModeType`](/slides/python-net/aspose.slides.animation/propertycalcmodetype)<br/>. |
-| [points](/slides/python-net/aspose.slides.animation/ipropertyeffect/points/) | Specifies the points of the animation.<br/>            Read/write <br/>[`IPointCollection`](/slides/python-net/aspose.slides.animation/ipointcollection)<br/>. |
-| [as_i_behavior](/slides/python-net/aspose.slides.animation/ipropertyeffect/as_i_behavior/) | Allows to get base IBehavior interface.<br/>            Read-only <br/>[`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior)<br/>. |
+| [from_address](/slides/python-net/aspose.slides.animation/ipropertyeffect/from_address/) | Specifies the starting value of the animation.<br/>            Read/write <br/>.NET type System.String. |
+| [to](/slides/python-net/aspose.slides.animation/ipropertyeffect/to/) | Specifies the ending value for the animation.<br/>            Read/write <br/>.NET type System.String. |
+| [by](/slides/python-net/aspose.slides.animation/ipropertyeffect/by/) | Specifies a relative offset value for the animation with respect to its<br/>            position before the start of the animation.<br/>            Read/write <br/>.NET type System.String. |
+| [value_type](/slides/python-net/aspose.slides.animation/ipropertyeffect/value_type/) | Specifies the type of a property value.<br/>            Read/write <br/>[`PropertyValueType`](/slides/python-net/aspose.slides.animation/propertyvaluetype). |
+| [calc_mode](/slides/python-net/aspose.slides.animation/ipropertyeffect/calc_mode/) | Specifies the interpolation mode for the animation<br/>            Read/write <br/>[`PropertyCalcModeType`](/slides/python-net/aspose.slides.animation/propertycalcmodetype). |
+| [points](/slides/python-net/aspose.slides.animation/ipropertyeffect/points/) | Specifies the points of the animation.<br/>            Read/write <br/>[`IPointCollection`](/slides/python-net/aspose.slides.animation/ipointcollection). |
+| [as_i_behavior](/slides/python-net/aspose.slides.animation/ipropertyeffect/as_i_behavior/) | Allows to get base IBehavior interface.<br/>            Read-only <br/>[`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior). |
 | [accumulate](/slides/python-net/aspose.slides.animation/ipropertyeffect/accumulate/) |  |
 | [additive](/slides/python-net/aspose.slides.animation/ipropertyeffect/additive/) |  |
 | [properties](/slides/python-net/aspose.slides.animation/ipropertyeffect/properties/) |  |

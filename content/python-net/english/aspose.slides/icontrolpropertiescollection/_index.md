@@ -17,9 +17,9 @@ The IControlPropertiesCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides/icontrolpropertiescollection/count/) | Returns a number of properties in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
-| [names_of_properties](/slides/python-net/aspose.slides/icontrolpropertiescollection/names_of_properties/) | Returns a number of properties in the collection.<br/>            Read-only <br/>.NET type System.Collections.ICollection<br/>. |
-| [as_i_enumerable](/slides/python-net/aspose.slides/icontrolpropertiescollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable<br/>. |
+| [count](/slides/python-net/aspose.slides/icontrolpropertiescollection/count/) | Returns a number of properties in the collection.<br/>            Read-only <br/>.NET type System.Int32. |
+| [names_of_properties](/slides/python-net/aspose.slides/icontrolpropertiescollection/names_of_properties/) | Returns a number of properties in the collection.<br/>            Read-only <br/>.NET type System.Collections.ICollection. |
+| [as_i_enumerable](/slides/python-net/aspose.slides/icontrolpropertiescollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable. |
 
 ## Methods
 

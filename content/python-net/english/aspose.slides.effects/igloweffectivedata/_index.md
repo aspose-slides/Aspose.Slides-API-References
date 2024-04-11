@@ -18,7 +18,7 @@ The IGlowEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            Read-only <br/>.NET type System.Double<br/>. |
-| [color](/slides/python-net/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            Read-only <br/>.NET type System.Drawing.Color<br/>. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/igloweffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata)<br/>. |
+| [radius](/slides/python-net/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            Read-only <br/>.NET type System.Double. |
+| [color](/slides/python-net/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            Read-only <br/>.NET type System.Drawing.Color. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/igloweffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
 

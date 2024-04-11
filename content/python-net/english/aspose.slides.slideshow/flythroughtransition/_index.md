@@ -19,7 +19,7 @@ The FlyThroughTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/flythroughtransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype)<br/>. |
-| [has_bounce](/slides/python-net/aspose.slides.slideshow/flythroughtransition/has_bounce/) | Specifies that the movement of the presentation slides during the transition includes a bounce.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [direction](/slides/python-net/aspose.slides.slideshow/flythroughtransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype). |
+| [has_bounce](/slides/python-net/aspose.slides.slideshow/flythroughtransition/has_bounce/) | Specifies that the movement of the presentation slides during the transition includes a bounce.<br/>            Read/write <br/>.NET type System.Boolean. |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/flythroughtransition/as_i_transition_value_base/) |  |
 

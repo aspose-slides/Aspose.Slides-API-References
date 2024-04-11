@@ -19,9 +19,9 @@ The CellInvalidFormulaException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/#/) | Initializes a new instance of the <br/>[`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception)<br/> class. |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/#string/) | Initializes a new instance of the <br/>[`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception)<br/> class with a specified error message. |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/#string-string/) | Initializes a new instance of the <br/>[`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception)<br/> class with a specified error message<br/>            and a cell reference that contains the invalid formula. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/#/) | Initializes a new instance of the <br/>[`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/#string/) | Initializes a new instance of the <br/>[`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class with a specified error message. |
+| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/#string-string/) | Initializes a new instance of the <br/>[`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class with a specified error message<br/>            and a cell reference that contains the invalid formula. |
 
 ## Properties
 

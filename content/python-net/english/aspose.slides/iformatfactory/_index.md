@@ -17,7 +17,7 @@ The IFormatFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_portion_format](/slides/python-net/aspose.slides/iformatfactory/iformatfactory/#/) | Creates new <br/>[`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)<br/>. |
-| [create_paragraph_format](/slides/python-net/aspose.slides/iformatfactory/iformatfactory/#/) | Creates new <br/>[`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)<br/>. |
-| [create_text_frame_format](/slides/python-net/aspose.slides/iformatfactory/iformatfactory/#/) | Creates new <br/>[`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)<br/>. |
+| [create_portion_format](/slides/python-net/aspose.slides/iformatfactory/iformatfactory/#/) | Creates new <br/>[`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat). |
+| [create_paragraph_format](/slides/python-net/aspose.slides/iformatfactory/iformatfactory/#/) | Creates new <br/>[`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat). |
+| [create_text_frame_format](/slides/python-net/aspose.slides/iformatfactory/iformatfactory/#/) | Creates new <br/>[`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat). |
 

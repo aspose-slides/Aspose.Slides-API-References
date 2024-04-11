@@ -10,8 +10,7 @@ url: /aspose.slides/controltype/
 ControlType enumeration
 
 Defines a control type which should be embedded by 
-Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste.
-.
+Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste..
 
 The ControlType type exposes the following members:
 

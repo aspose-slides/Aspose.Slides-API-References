@@ -17,7 +17,7 @@ The IInterruptionToken type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_interruption_requested](/slides/python-net/aspose.slides/iinterruptiontoken/is_interruption_requested/) | Returns <br/>.NET type System.Boolean<br/>.true if interruption was requested. |
+| [is_interruption_requested](/slides/python-net/aspose.slides/iinterruptiontoken/is_interruption_requested/) | Returns <br/>.NET type System.Boolean.true if interruption was requested. |
 
 ## Methods
 

@@ -23,7 +23,7 @@ The FontData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [font_name](/slides/python-net/aspose.slides/fontdata/font_name/) | Returns the font name.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [font_name](/slides/python-net/aspose.slides/fontdata/font_name/) | Returns the font name.<br/>            Read/write <br/>.NET type System.String. |
 
 ## Methods
 

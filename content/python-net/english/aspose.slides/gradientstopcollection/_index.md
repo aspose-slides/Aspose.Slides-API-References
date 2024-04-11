@@ -19,7 +19,7 @@ The GradientStopCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/gradientstopcollection/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/gradientstopcollection/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [slide](/slides/python-net/aspose.slides/gradientstopcollection/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides/gradientstopcollection/presentation/) |  |
 | [as_i_collection](/slides/python-net/aspose.slides/gradientstopcollection/as_i_collection/) |  |

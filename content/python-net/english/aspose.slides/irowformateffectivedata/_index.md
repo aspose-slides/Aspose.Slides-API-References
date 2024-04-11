@@ -17,7 +17,7 @@ The IRowFormatEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_base_table_format_effective_data](/slides/python-net/aspose.slides/irowformateffectivedata/as_i_base_table_format_effective_data/) | Allows to get base IBaseTableFormatEffectiveData interface.<br/>            Read-only <br/>[`IBaseTableFormatEffectiveData`](/slides/python-net/aspose.slides/ibasetableformateffectivedata)<br/>. |
+| [as_i_base_table_format_effective_data](/slides/python-net/aspose.slides/irowformateffectivedata/as_i_base_table_format_effective_data/) | Allows to get base IBaseTableFormatEffectiveData interface.<br/>            Read-only <br/>[`IBaseTableFormatEffectiveData`](/slides/python-net/aspose.slides/ibasetableformateffectivedata). |
 | [fill_format](/slides/python-net/aspose.slides/irowformateffectivedata/fill_format/) |  |
 | [border_left](/slides/python-net/aspose.slides/irowformateffectivedata/border_left/) |  |
 | [border_top](/slides/python-net/aspose.slides/irowformateffectivedata/border_top/) |  |
@@ -30,6 +30,5 @@ The IRowFormatEffectiveData type exposes the following members:
 ### Remarks
 
 This interface is used together with the 
-[`IRowFormat`](/slides/python-net/aspose.slides/irowformat)
- interface to return effective formatting values with inheritance and table styles applied.
+[`IRowFormat`](/slides/python-net/aspose.slides/irowformat) interface to return effective formatting values with inheritance and table styles applied.
 

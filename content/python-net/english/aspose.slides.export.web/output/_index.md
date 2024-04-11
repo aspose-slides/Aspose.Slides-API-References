@@ -10,8 +10,7 @@ url: /aspose.slides.export.web/output/
 Output class
 
 Represents a collection of output elements for 
-IWebDocument
-.
+IWebDocument.
 
 The Output type exposes the following members:
 

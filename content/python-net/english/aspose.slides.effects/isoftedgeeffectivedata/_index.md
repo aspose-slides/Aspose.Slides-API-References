@@ -18,6 +18,6 @@ The ISoftEdgeEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/isoftedgeeffectivedata/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read-only <br/>.NET type System.Double<br/>. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/isoftedgeeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata)<br/>. |
+| [radius](/slides/python-net/aspose.slides.effects/isoftedgeeffectivedata/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read-only <br/>.NET type System.Double. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/isoftedgeeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
 
