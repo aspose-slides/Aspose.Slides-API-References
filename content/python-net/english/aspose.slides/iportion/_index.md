@@ -17,10 +17,10 @@ The IPortion type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [portion_format](/slides/python-net/aspose.slides/iportion/portion_format/) | Returns formatting object which contains explicitly set formatting properties of the text portion with no inheritance applied.<br/>            Read-only :py:class:`aspose.slides.IPortionFormat`. |
-| [text](/slides/python-net/aspose.slides/iportion/text/) | Gets or sets the plain text of a portion.<br/>            Read/write :py:class:`System.String`. |
-| [field](/slides/python-net/aspose.slides/iportion/field/) | Returns a field of this portion.<br/>            Read-only :py:class:`aspose.slides.IField`. |
-| [as_i_slide_component](/slides/python-net/aspose.slides/iportion/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only :py:class:`aspose.slides.ISlideComponent`. |
+| [portion_format](/slides/python-net/aspose.slides/iportion/portion_format/) | Returns formatting object which contains explicitly set formatting properties of the text portion with no inheritance applied.<br/>            Read-only <br/>[`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)<br/>. |
+| [text](/slides/python-net/aspose.slides/iportion/text/) | Gets or sets the plain text of a portion.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [field](/slides/python-net/aspose.slides/iportion/field/) | Returns a field of this portion.<br/>            Read-only <br/>[`IField`](/slides/python-net/aspose.slides/ifield)<br/>. |
+| [as_i_slide_component](/slides/python-net/aspose.slides/iportion/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only <br/>[`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent)<br/>. |
 | [slide](/slides/python-net/aspose.slides/iportion/slide/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/iportion/as_i_presentation_component/) |  |
 | [presentation](/slides/python-net/aspose.slides/iportion/presentation/) |  |

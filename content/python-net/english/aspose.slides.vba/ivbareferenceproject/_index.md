@@ -17,6 +17,6 @@ The IVbaReferenceProject type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_vba_reference](/slides/python-net/aspose.slides.vba/ivbareferenceproject/as_i_vba_reference/) | Returns IVbaReference interface.<br/>            Read-only :py:class:`aspose.slides.vba.IVbaReference`. |
+| [as_i_vba_reference](/slides/python-net/aspose.slides.vba/ivbareferenceproject/as_i_vba_reference/) | Returns IVbaReference interface.<br/>            Read-only <br/>[`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference)<br/>. |
 | [name](/slides/python-net/aspose.slides.vba/ivbareferenceproject/name/) |  |
 

@@ -17,8 +17,8 @@ The ITrendlineCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.charts/itrendlinecollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only :py:class:`int`. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.charts/itrendlinecollection/as_i_enumerable/) | Allows to get base IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+| [count](/slides/python-net/aspose.slides.charts/itrendlinecollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.charts/itrendlinecollection/as_i_enumerable/) | Allows to get base IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable<br/>. |
 
 ## Indexer
 

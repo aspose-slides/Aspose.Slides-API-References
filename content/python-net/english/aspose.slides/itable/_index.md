@@ -17,19 +17,19 @@ The ITable type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [rows](/slides/python-net/aspose.slides/itable/rows/) | Returns the collectoin of rows.<br/>            Read-only :py:class:`aspose.slides.IRowCollection`. |
-| [columns](/slides/python-net/aspose.slides/itable/columns/) | Returns the collectoin of columns.<br/>            Read-only :py:class:`aspose.slides.IColumnCollection`. |
-| [table_format](/slides/python-net/aspose.slides/itable/table_format/) | Returns the TableFormat object that contains formatting properties for this table.<br/>            Read-only :py:class:`aspose.slides.ITableFormat`. |
-| [style_preset](/slides/python-net/aspose.slides/itable/style_preset/) | Get's or sets builtin table style.<br/>            Read/write :py:enum:`aspose.slides.TableStylePreset`. |
-| [right_to_left](/slides/python-net/aspose.slides/itable/right_to_left/) | Determines whether the table has right to left reading order.<br/>            Read-write :py:class:`bool`. |
-| [first_row](/slides/python-net/aspose.slides/itable/first_row/) | Determines whether the first row of a table has to be drawn with a special formatting.<br/>            Read/write :py:class:`bool`. |
-| [first_col](/slides/python-net/aspose.slides/itable/first_col/) | Determines whether the first column of a table has to be drawn with a special formatting.<br/>            Read/write :py:class:`bool`. |
-| [last_row](/slides/python-net/aspose.slides/itable/last_row/) | Determines whether the last row of a table has to be drawn with a special formatting.<br/>            Read/write :py:class:`bool`. |
-| [last_col](/slides/python-net/aspose.slides/itable/last_col/) | Determines whether the last column of a table has to be drawn with a special formatting.<br/>            Read/write :py:class:`bool`. |
-| [horizontal_banding](/slides/python-net/aspose.slides/itable/horizontal_banding/) | Determines whether the even rows has to be drawn with a different formatting.<br/>            Read/write :py:class:`bool`. |
-| [vertical_banding](/slides/python-net/aspose.slides/itable/vertical_banding/) | Determines whether the even columns has to be drawn with a different formatting.<br/>            Read/write :py:class:`bool`. |
-| [as_i_graphical_object](/slides/python-net/aspose.slides/itable/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only :py:class:`aspose.slides.IGraphicalObject`. |
-| [as_i_bulk_text_formattable](/slides/python-net/aspose.slides/itable/as_i_bulk_text_formattable/) | Allows to get base IBulkTextFormattable interface.<br/>            Read-only :py:class:`aspose.slides.IBulkTextFormattable`. |
+| [rows](/slides/python-net/aspose.slides/itable/rows/) | Returns the collectoin of rows.<br/>            Read-only <br/>[`IRowCollection`](/slides/python-net/aspose.slides/irowcollection)<br/>. |
+| [columns](/slides/python-net/aspose.slides/itable/columns/) | Returns the collectoin of columns.<br/>            Read-only <br/>[`IColumnCollection`](/slides/python-net/aspose.slides/icolumncollection)<br/>. |
+| [table_format](/slides/python-net/aspose.slides/itable/table_format/) | Returns the TableFormat object that contains formatting properties for this table.<br/>            Read-only <br/>[`ITableFormat`](/slides/python-net/aspose.slides/itableformat)<br/>. |
+| [style_preset](/slides/python-net/aspose.slides/itable/style_preset/) | Get's or sets builtin table style.<br/>            Read/write <br/>[`TableStylePreset`](/slides/python-net/aspose.slides/tablestylepreset)<br/>. |
+| [right_to_left](/slides/python-net/aspose.slides/itable/right_to_left/) | Determines whether the table has right to left reading order.<br/>            Read-write <br/>.NET type System.Boolean<br/>. |
+| [first_row](/slides/python-net/aspose.slides/itable/first_row/) | Determines whether the first row of a table has to be drawn with a special formatting.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [first_col](/slides/python-net/aspose.slides/itable/first_col/) | Determines whether the first column of a table has to be drawn with a special formatting.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [last_row](/slides/python-net/aspose.slides/itable/last_row/) | Determines whether the last row of a table has to be drawn with a special formatting.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [last_col](/slides/python-net/aspose.slides/itable/last_col/) | Determines whether the last column of a table has to be drawn with a special formatting.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [horizontal_banding](/slides/python-net/aspose.slides/itable/horizontal_banding/) | Determines whether the even rows has to be drawn with a different formatting.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [vertical_banding](/slides/python-net/aspose.slides/itable/vertical_banding/) | Determines whether the even columns has to be drawn with a different formatting.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [as_i_graphical_object](/slides/python-net/aspose.slides/itable/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only <br/>[`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject)<br/>. |
+| [as_i_bulk_text_formattable](/slides/python-net/aspose.slides/itable/as_i_bulk_text_formattable/) | Allows to get base IBulkTextFormattable interface.<br/>            Read-only <br/>[`IBulkTextFormattable`](/slides/python-net/aspose.slides/ibulktextformattable)<br/>. |
 | [shape_lock](/slides/python-net/aspose.slides/itable/shape_lock/) |  |
 | [graphical_object_lock](/slides/python-net/aspose.slides/itable/graphical_object_lock/) |  |
 | [as_i_shape](/slides/python-net/aspose.slides/itable/as_i_shape/) |  |

@@ -9,7 +9,9 @@ url: /aspose.slides.lowcode/compress/
 
 Compress class
 
-Represents a group of methods intended to compress :py:class:`aspose.slides.Presentation`.
+Represents a group of methods intended to compress 
+[`Presentation`](/slides/python-net/aspose.slides/presentation)
+.
 
 The Compress type exposes the following members:
 

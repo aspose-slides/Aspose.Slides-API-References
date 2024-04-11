@@ -17,7 +17,7 @@ The ShapeCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [parent_group](/slides/python-net/aspose.slides/shapecollection/parent_group/) | Returns parent GroupShape object for a shapes collection.<br/>            Read-only :py:class:`aspose.slides.IGroupShape`. |
+| [parent_group](/slides/python-net/aspose.slides/shapecollection/parent_group/) | Returns parent GroupShape object for a shapes collection.<br/>            Read-only <br/>[`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)<br/>. |
 | [as_i_collection](/slides/python-net/aspose.slides/shapecollection/as_i_collection/) |  |
 | [as_i_enumerable](/slides/python-net/aspose.slides/shapecollection/as_i_enumerable/) |  |
 
@@ -54,7 +54,7 @@ The ShapeCollection type exposes the following members:
 | [insert_audio_frame_embedded](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-float-float-float-float-System.IO.Stream/) | Insert an AudioFrame with embedded audio file.<br/>            Embedded audio file sound can be a WAV only. |
 | [insert_audio_frame_embedded](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-float-float-float-float-IAudio/) | Insert an AudioFrame with embedded audio file.<br/>            It uses audio file from Presentation.Audios list. |
 | [to_array](/slides/python-net/aspose.slides/shapecollection/shapecollection/#/) | Creates and returns an array with all shapse in it. |
-| [to_array](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-int/) | Creates and returns an array with all shapes from the specified range in it. |
+| [to_array](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-int/) | Creates and returns an array with all shapes from the specified range in it.<br/>            <br/>An index of a first shape to return.<br/>A number of shapes to return. |
 | [reorder](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-IShape/) | Moves a shape from the collection to the specified position. |
 | [reorder](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-List[IShape]/) | Moves shapes from the collection to the specified position.<br/>            Shapes will be placed starting from index in order they appear in list. |
 | [add_auto_shape](/slides/python-net/aspose.slides/shapecollection/shapecollection/#ShapeType-float-float-float-float/) | Creates a new AutoShape, tunes it from default template and adds it to the end of the collection. |
@@ -68,11 +68,11 @@ The ShapeCollection type exposes the following members:
 | [insert_connector](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-ShapeType-float-float-float-float/) | Creates a new Connector, tunes it from default template and inserts it to <br/>            the collection at the specified index. |
 | [insert_connector](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-ShapeType-float-float-float-float-bool/) | Creates a new Connector and inserts it to the collection at the specified index. |
 | [add_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#IShape-float-float-float-float/) | Adds a copy of a specified shape to the end of the collection. |
-| [add_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#IShape-float-float/) | Adds a copy of a specified shape to the end of the collection.<br/>            Width and Height of the new shape are equal to Width and Height of the ``sourceShape``. |
-| [add_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#IShape/) | Adds a copy of a specified shape to the end of the collection.<br/>            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the ``sourceShape``. |
+| [add_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#IShape-float-float/) | Adds a copy of a specified shape to the end of the collection.<br/>            Width and Height of the new shape are equal to Width and Height of the <br/>`<br/>source_shape`<br/>. |
+| [add_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#IShape/) | Adds a copy of a specified shape to the end of the collection.<br/>            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the <br/>`<br/>source_shape`<br/>. |
 | [insert_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-IShape-float-float-float-float/) | Inserts a copy of a specified shape to specified position of the collection. |
-| [insert_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-IShape-float-float/) | Inserts a copy of a specified shape to specified position of the collection.<br/>            Width and Height of the new shape are equal to Width and Height of the ``sourceShape``. |
-| [insert_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-IShape/) | Inserts a copy of a specified shape to specified position of the collection.<br/>            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the ``sourceShape``. |
+| [insert_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-IShape-float-float/) | Inserts a copy of a specified shape to specified position of the collection.<br/>            Width and Height of the new shape are equal to Width and Height of the <br/>`<br/>source_shape`<br/>. |
+| [insert_clone](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-IShape/) | Inserts a copy of a specified shape to specified position of the collection.<br/>            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the <br/>`<br/>source_shape`<br/>. |
 | [add_smart_art](/slides/python-net/aspose.slides/shapecollection/shapecollection/#float-float-float-float-aspose.slides.smartart.SmartArtLayoutType/) | Add SmartArt diagram. |
 | [add_summary_zoom_frame](/slides/python-net/aspose.slides/shapecollection/shapecollection/#float-float-float-float/) | Adds a new Summary Zoom object to the end of a collection. |
 | [insert_summary_zoom_frame](/slides/python-net/aspose.slides/shapecollection/shapecollection/#int-float-float-float-float/) | Creates a new Summary Zoom object and inserts it to a collection at the specified index. |

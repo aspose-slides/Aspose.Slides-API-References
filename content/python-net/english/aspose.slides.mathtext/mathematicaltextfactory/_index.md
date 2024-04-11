@@ -31,8 +31,5 @@ The MathematicalTextFactory type exposes the following members:
 
 ### Remarks
 
-
-            For COM comparibility
-            
-
+For COM comparibility
 

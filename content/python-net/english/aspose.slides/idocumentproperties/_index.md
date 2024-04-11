@@ -17,29 +17,29 @@ The IDocumentProperties type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [app_version](/slides/python-net/aspose.slides/idocumentproperties/app_version/) | Returns the app version.<br/>            Read-only :py:class:`System.String`. |
-| [name_of_application](/slides/python-net/aspose.slides/idocumentproperties/name_of_application/) | Returns or sets the name of the application.<br/>            Read/write :py:class:`System.String`. |
-| [company](/slides/python-net/aspose.slides/idocumentproperties/company/) | Returns or sets the company property.<br/>            Read/write :py:class:`System.String`. |
-| [manager](/slides/python-net/aspose.slides/idocumentproperties/manager/) | Returns or sets the manager property.<br/>            Read/write :py:class:`System.String`. |
-| [presentation_format](/slides/python-net/aspose.slides/idocumentproperties/presentation_format/) | Returns or sets the intended format of a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [shared_doc](/slides/python-net/aspose.slides/idocumentproperties/shared_doc/) | Determines whether the presentation is shared between multiple people.<br/>            Read/write :py:class:`bool`. |
-| [application_template](/slides/python-net/aspose.slides/idocumentproperties/application_template/) | Returns or sets the template of a application.<br/>            Read/write :py:class:`System.String`. |
-| [total_editing_time](/slides/python-net/aspose.slides/idocumentproperties/total_editing_time/) | Total editing time of a presentation.<br/>            Read/write :py:class:`System.TimeSpan`. |
-| [title](/slides/python-net/aspose.slides/idocumentproperties/title/) | Returns or sets the title of a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [subject](/slides/python-net/aspose.slides/idocumentproperties/subject/) | Returns or sets the subject of a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [author](/slides/python-net/aspose.slides/idocumentproperties/author/) | Returns or sets the author of a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [keywords](/slides/python-net/aspose.slides/idocumentproperties/keywords/) | Returns or sets the keywords of a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [comments](/slides/python-net/aspose.slides/idocumentproperties/comments/) | Returns or sets the comments of a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [category](/slides/python-net/aspose.slides/idocumentproperties/category/) | Returns or sets the category of a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [created_time](/slides/python-net/aspose.slides/idocumentproperties/created_time/) | Returns the date a presentation was created. <br/>            Values are in UTC.<br/>            Read/write :py:class:`System.DateTime`. |
-| [last_saved_time](/slides/python-net/aspose.slides/idocumentproperties/last_saved_time/) | Returns the date a presentation was last modified.<br/>            Values are in UTC.P<br/>            Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). <br/>            Can be changed via DocumentProperties instance returning by method :py:func:`aspose.slides.IPresentationInfo.read_document_properties`<br/>            Please see the example in :py:func:`Aspose.Slides.IPresentationInfo.UpdateDocumentProperties(Aspose.Slide.` method summary. |
-| [last_printed](/slides/python-net/aspose.slides/idocumentproperties/last_printed/) | Returns the date when a presentation was printed last time.<br/>            Read/write :py:class:`System.DateTime`. |
-| [last_saved_by](/slides/python-net/aspose.slides/idocumentproperties/last_saved_by/) | Returns or sets the name of a last person who modified a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [revision_number](/slides/python-net/aspose.slides/idocumentproperties/revision_number/) | Returns or sets the presentation revision number.<br/>            Read/write :py:class:`int`. |
-| [content_status](/slides/python-net/aspose.slides/idocumentproperties/content_status/) | Returns or sets the content status of a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [content_type](/slides/python-net/aspose.slides/idocumentproperties/content_type/) | Returns or sets the content type of a presentation.<br/>            Read/write :py:class:`System.String`. |
-| [hyperlink_base](/slides/python-net/aspose.slides/idocumentproperties/hyperlink_base/) | Returns or sets the HyperlinkBase document property.<br/>            Read/write :py:class:`System.String`. |
-| [count_of_custom_properties](/slides/python-net/aspose.slides/idocumentproperties/count_of_custom_properties/) | Returns the number of custom properties actually contained in a collection.<br/>            Read-only :py:class:`int`. |
+| [app_version](/slides/python-net/aspose.slides/idocumentproperties/app_version/) | Returns the app version.<br/>            Read-only <br/>.NET type System.String<br/>. |
+| [name_of_application](/slides/python-net/aspose.slides/idocumentproperties/name_of_application/) | Returns or sets the name of the application.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [company](/slides/python-net/aspose.slides/idocumentproperties/company/) | Returns or sets the company property.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [manager](/slides/python-net/aspose.slides/idocumentproperties/manager/) | Returns or sets the manager property.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [presentation_format](/slides/python-net/aspose.slides/idocumentproperties/presentation_format/) | Returns or sets the intended format of a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [shared_doc](/slides/python-net/aspose.slides/idocumentproperties/shared_doc/) | Determines whether the presentation is shared between multiple people.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [application_template](/slides/python-net/aspose.slides/idocumentproperties/application_template/) | Returns or sets the template of a application.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [total_editing_time](/slides/python-net/aspose.slides/idocumentproperties/total_editing_time/) | Total editing time of a presentation.<br/>            Read/write <br/>.NET type System.TimeSpan<br/>. |
+| [title](/slides/python-net/aspose.slides/idocumentproperties/title/) | Returns or sets the title of a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [subject](/slides/python-net/aspose.slides/idocumentproperties/subject/) | Returns or sets the subject of a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [author](/slides/python-net/aspose.slides/idocumentproperties/author/) | Returns or sets the author of a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [keywords](/slides/python-net/aspose.slides/idocumentproperties/keywords/) | Returns or sets the keywords of a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [comments](/slides/python-net/aspose.slides/idocumentproperties/comments/) | Returns or sets the comments of a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [category](/slides/python-net/aspose.slides/idocumentproperties/category/) | Returns or sets the category of a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [created_time](/slides/python-net/aspose.slides/idocumentproperties/created_time/) | Returns the date a presentation was created. <br/>            Values are in UTC.<br/>            Read/write <br/>.NET type System.DateTime<br/>. |
+| [last_saved_time](/slides/python-net/aspose.slides/idocumentproperties/last_saved_time/) | Returns the date a presentation was last modified.<br/>            Values are in UTC.P<br/>            Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). <br/>            Can be changed via DocumentProperties instance returning by method <br/>[`IPresentationInfo.read_document_properties`](/slides/python-net/aspose.slides/ipresentationinfo/read_document_properties)<br/><br/>            Please see the example in <br/>Aspose.Slides.IPresentationInfo.UpdateDocumentProperties(Aspose.Slide.<br/> method summary. |
+| [last_printed](/slides/python-net/aspose.slides/idocumentproperties/last_printed/) | Returns the date when a presentation was printed last time.<br/>            Read/write <br/>.NET type System.DateTime<br/>. |
+| [last_saved_by](/slides/python-net/aspose.slides/idocumentproperties/last_saved_by/) | Returns or sets the name of a last person who modified a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [revision_number](/slides/python-net/aspose.slides/idocumentproperties/revision_number/) | Returns or sets the presentation revision number.<br/>            Read/write <br/>.NET type System.Int32<br/>. |
+| [content_status](/slides/python-net/aspose.slides/idocumentproperties/content_status/) | Returns or sets the content status of a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [content_type](/slides/python-net/aspose.slides/idocumentproperties/content_type/) | Returns or sets the content type of a presentation.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [hyperlink_base](/slides/python-net/aspose.slides/idocumentproperties/hyperlink_base/) | Returns or sets the HyperlinkBase document property.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [count_of_custom_properties](/slides/python-net/aspose.slides/idocumentproperties/count_of_custom_properties/) | Returns the number of custom properties actually contained in a collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
 
 ## Methods
 

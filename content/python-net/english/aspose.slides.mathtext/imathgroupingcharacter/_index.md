@@ -21,7 +21,7 @@ The IMathGroupingCharacter type exposes the following members:
 | [character](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter/character/) | Grouping Character<br/>            Default value: U+23DF (BOTTOM CURLY BRACKET) |
 | [position](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter/position/) | Position of grouping character.<br/>            Default: Bottom |
 | [vertical_justification](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter/vertical_justification/) | Vertical justification of group character.<br/>            Specifies the alignment of the object with respect to the baseline.<br/>            For example, when the group character is above the object, <br/>            VerticalJustification of Top signifies that the top of the object falls on the baseline;<br/>            when VerticalJustification is set to Bottom, the bottom of the object is on the baseline<br/>            Default: Bottom for Position=Top, and Top for Position=Bottom |
-| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter/as_i_math_element/) | Allows to get base IMathElement interface<br/>            :py:class:`aspose.slides.mathtext.IMathElement` |
+| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter/as_i_math_element/) | Allows to get base IMathElement interface<br/>            <br/>[`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 

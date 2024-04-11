@@ -17,15 +17,13 @@ The ITabEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [position](/slides/python-net/aspose.slides/itabeffectivedata/position/) | Returns position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read-only :py:class:`float`. |
-| [alignment](/slides/python-net/aspose.slides/itabeffectivedata/alignment/) | Returns align style of a tab.<br/>            Read-only :py:enum:`aspose.slides.TabAlignment`. |
+| [position](/slides/python-net/aspose.slides/itabeffectivedata/position/) | Returns position of a tab.<br/>            Assigning this property can change tab's index in collection and invalidate Enumerator.<br/>            Read-only <br/>.NET type System.Double<br/>. |
+| [alignment](/slides/python-net/aspose.slides/itabeffectivedata/alignment/) | Returns align style of a tab.<br/>            Read-only <br/>[`TabAlignment`](/slides/python-net/aspose.slides/tabalignment)<br/>. |
 
 
 ### Remarks
 
-
-            This interface is used as a part of 
+This interface is used as a part of 
+[`IParagraphFormatEffectiveData`](/slides/python-net/aspose.slides/iparagraphformateffectivedata)
 .
-            
-
 

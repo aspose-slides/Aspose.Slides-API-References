@@ -17,7 +17,7 @@ The ChartWall type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [thickness](/slides/python-net/aspose.slides.charts/chartwall/thickness/) | Returns or sets the walls thickness as a percentage of the largest <br/>            dimension of the plot volume.<br/>            Read/write :py:class:`int`. |
-| [format](/slides/python-net/aspose.slides.charts/chartwall/format/) | Returns the wall fill, line, effect, 3d styles.<br/>            Read-only :py:class:`aspose.slides.charts.IFormat`. |
-| [picture_type](/slides/python-net/aspose.slides.charts/chartwall/picture_type/) | Return or sets the picture type.<br/>            Read/write :py:enum:`aspose.slides.charts.PictureType`. |
+| [thickness](/slides/python-net/aspose.slides.charts/chartwall/thickness/) | Returns or sets the walls thickness as a percentage of the largest <br/>            dimension of the plot volume.<br/>            Read/write <br/>.NET type System.Int32<br/>. |
+| [format](/slides/python-net/aspose.slides.charts/chartwall/format/) | Returns the wall fill, line, effect, 3d styles.<br/>            Read-only <br/>[`IFormat`](/slides/python-net/aspose.slides.charts/iformat)<br/>. |
+| [picture_type](/slides/python-net/aspose.slides.charts/chartwall/picture_type/) | Return or sets the picture type.<br/>            Read/write <br/>[`PictureType`](/slides/python-net/aspose.slides.charts/picturetype)<br/>. |
 

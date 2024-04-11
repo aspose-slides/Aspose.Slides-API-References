@@ -29,8 +29,7 @@ The IChartSeriesGroupCollection type exposes the following members:
 
 ### Remarks
 
-
-            1) Each group of series contains series with combinable types. Groups of 
+1) Each group of series contains series with combinable types. Groups of 
             combinable series types defined and described with CombinableSeriesTypesGroup 
             enum.
             Also each group of series contains series witch is plotted whether 
@@ -42,6 +41,4 @@ The IChartSeriesGroupCollection type exposes the following members:
             each series in group ("series group properties").
             "Series group properties" in ChartSeriesGroup class is read/write.
             Each of "series group properties" can have a read-only projection in ChartSeries class.
-            
-
 

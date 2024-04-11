@@ -17,7 +17,7 @@ The ITextStyle type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [default_paragraph_format](/slides/python-net/aspose.slides/itextstyle/default_paragraph_format/) | Default paragraph propertiies.<br/>            Read-only :py:class:`aspose.slides.IParagraphFormat`. |
+| [default_paragraph_format](/slides/python-net/aspose.slides/itextstyle/default_paragraph_format/) | Default paragraph propertiies.<br/>            Read-only <br/>[`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)<br/>. |
 
 ## Methods
 

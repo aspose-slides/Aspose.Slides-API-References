@@ -9,7 +9,9 @@ url: /aspose.slides.export/presentationplayer/
 
 PresentationPlayer class
 
-Represents the player of animations associated with the :py:class:`aspose.slides.Presentation`.
+Represents the player of animations associated with the 
+[`Presentation`](/slides/python-net/aspose.slides/presentation)
+.
 
 The PresentationPlayer type exposes the following members:
 
@@ -17,7 +19,7 @@ The PresentationPlayer type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/presentationplayer/presentationplayer/#PresentationAnimationsGenerator-float/) | Creates new instance of the :py:class:`aspose.slides.export.PresentationPlayer`. |
+| [__init__](/slides/python-net/aspose.slides.export/presentationplayer/presentationplayer/#PresentationAnimationsGenerator-float/) | Creates new instance of the <br/>[`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer)<br/>. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ The IMathParagraph type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [justification](/slides/python-net/aspose.slides.mathtext/imathparagraph/justification/) | Paragraph Justification <br/>            Default value: CenteredAsGroup |
-| [as_i_math_block_collection](/slides/python-net/aspose.slides.mathtext/imathparagraph/as_i_math_block_collection/) | Allows to get base IMathBlockCollection interface<br/>            :py:class:`aspose.slides.mathtext.IMathBlockCollection` |
+| [as_i_math_block_collection](/slides/python-net/aspose.slides.mathtext/imathparagraph/as_i_math_block_collection/) | Allows to get base IMathBlockCollection interface<br/>            <br/>[`IMathBlockCollection`](/slides/python-net/aspose.slides.mathtext/imathblockcollection) |
 | [count](/slides/python-net/aspose.slides.mathtext/imathparagraph/count/) |  |
 | [as_i_enumerable](/slides/python-net/aspose.slides.mathtext/imathparagraph/as_i_enumerable/) |  |
 
@@ -32,7 +32,7 @@ The IMathParagraph type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#System.IO.Stream/) | Saves content of this :py:class:`aspose.slides.mathtext.IMathParagraph` as MathML |
+| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#System.IO.Stream/) | Saves content of this <br/>[`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph)<br/> as MathML |
 | [to_latex](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#/) | Gets mathematical equation in LaTeX format |
 | [add](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#IMathBlock/) |  |
 | [insert](/slides/python-net/aspose.slides.mathtext/imathparagraph/imathparagraph/#int-IMathBlock/) |  |

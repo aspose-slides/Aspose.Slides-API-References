@@ -17,12 +17,12 @@ The ILayoutSlide type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [header_footer_manager](/slides/python-net/aspose.slides/ilayoutslide/header_footer_manager/) | Returns HeaderFooter manager of the layout slide.<br/>            Read-only :py:class:`aspose.slides.ILayoutSlideHeaderFooterManager`. |
-| [master_slide](/slides/python-net/aspose.slides/ilayoutslide/master_slide/) | Returns or sets the master slide for a layout.<br/>            Read/write :py:class:`aspose.slides.IMasterSlide`. |
-| [layout_type](/slides/python-net/aspose.slides/ilayoutslide/layout_type/) | Returns layout type of this layout slide.<br/>            Read-only :py:enum:`aspose.slides.SlideLayoutType`. |
-| [has_depending_slides](/slides/python-net/aspose.slides/ilayoutslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this layout slide.<br/>            Read-only :py:class:`bool`. |
-| [as_i_base_slide](/slides/python-net/aspose.slides/ilayoutslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only :py:class:`aspose.slides.IBaseSlide`. |
-| [as_i_override_themeable](/slides/python-net/aspose.slides/ilayoutslide/as_i_override_themeable/) | Returns IOverrideThemeable interface.<br/>            Read-only :py:class:`aspose.slides.theme.IOverrideThemeable`. |
+| [header_footer_manager](/slides/python-net/aspose.slides/ilayoutslide/header_footer_manager/) | Returns HeaderFooter manager of the layout slide.<br/>            Read-only <br/>[`ILayoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/ilayoutslideheaderfootermanager)<br/>. |
+| [master_slide](/slides/python-net/aspose.slides/ilayoutslide/master_slide/) | Returns or sets the master slide for a layout.<br/>            Read/write <br/>[`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)<br/>. |
+| [layout_type](/slides/python-net/aspose.slides/ilayoutslide/layout_type/) | Returns layout type of this layout slide.<br/>            Read-only <br/>[`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)<br/>. |
+| [has_depending_slides](/slides/python-net/aspose.slides/ilayoutslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this layout slide.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
+| [as_i_base_slide](/slides/python-net/aspose.slides/ilayoutslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)<br/>. |
+| [as_i_override_themeable](/slides/python-net/aspose.slides/ilayoutslide/as_i_override_themeable/) | Returns IOverrideThemeable interface.<br/>            Read-only <br/>[`IOverrideThemeable`](/slides/python-net/aspose.slides.theme/ioverridethemeable)<br/>. |
 | [shapes](/slides/python-net/aspose.slides/ilayoutslide/shapes/) |  |
 | [controls](/slides/python-net/aspose.slides/ilayoutslide/controls/) |  |
 | [name](/slides/python-net/aspose.slides/ilayoutslide/name/) |  |

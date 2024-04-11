@@ -17,7 +17,7 @@ The IBaseHandoutNotesSlideHeaderFooterManag type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_header_visible](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/is_header_visible/) | Gets value indicating that a header placeholder is present.<br/>            Read :py:class:`bool`. |
+| [is_header_visible](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/is_header_visible/) | Gets value indicating that a header placeholder is present.<br/>            Read <br/>.NET type System.Boolean<br/>. |
 | [as_i_base_slide_header_footer_manager](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/as_i_base_slide_header_footer_manager/) | Returns IBaseSlideHeaderFooterManager interface. |
 | [is_footer_visible](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/is_footer_visible/) |  |
 | [is_slide_number_visible](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/is_slide_number_visible/) |  |
@@ -40,5 +40,4 @@ The IBaseHandoutNotesSlideHeaderFooterManag type exposes the following members:
 ### Remarks
 
 Original interface name "IBaseHandoutNotesSlideHeaderFooterManager" is trancuted to "IBaseHandoutNotesSlideHeaderFooterManag" for COM compatibility (type name length must be not more than 39).
-
 

@@ -17,13 +17,13 @@ The DataTable type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [format](/slides/python-net/aspose.slides.charts/datatable/format/) | Returns the line, fill, and effect styles of an object.<br/>            Read-only :py:class:`aspose.slides.charts.IFormat`. |
-| [has_border_horizontal](/slides/python-net/aspose.slides.charts/datatable/has_border_horizontal/) | True if the chart data table has horizontal cell borders.<br/>            Read/write :py:class:`bool`. |
-| [has_border_outline](/slides/python-net/aspose.slides.charts/datatable/has_border_outline/) | True if the chart data table has outline borders.<br/>            Read/write :py:class:`bool`. |
-| [has_border_vertical](/slides/python-net/aspose.slides.charts/datatable/has_border_vertical/) | True if the chart data table has vertical cell borders.<br/>            Read/write :py:class:`bool`. |
-| [show_legend_key](/slides/python-net/aspose.slides.charts/datatable/show_legend_key/) | True if the data label legend key is visible.<br/>            Read/write :py:class:`bool`. |
-| [chart](/slides/python-net/aspose.slides.charts/datatable/chart/) | Returns chart.<br/>            Read-only :py:class:`aspose.slides.charts.IChart`. |
-| [text_format](/slides/python-net/aspose.slides.charts/datatable/text_format/) | Returns text format.<br/>            Read-only :py:class:`aspose.slides.charts.IChartTextFormat`. |
+| [format](/slides/python-net/aspose.slides.charts/datatable/format/) | Returns the line, fill, and effect styles of an object.<br/>            Read-only <br/>[`IFormat`](/slides/python-net/aspose.slides.charts/iformat)<br/>. |
+| [has_border_horizontal](/slides/python-net/aspose.slides.charts/datatable/has_border_horizontal/) | True if the chart data table has horizontal cell borders.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [has_border_outline](/slides/python-net/aspose.slides.charts/datatable/has_border_outline/) | True if the chart data table has outline borders.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [has_border_vertical](/slides/python-net/aspose.slides.charts/datatable/has_border_vertical/) | True if the chart data table has vertical cell borders.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [show_legend_key](/slides/python-net/aspose.slides.charts/datatable/show_legend_key/) | True if the data label legend key is visible.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [chart](/slides/python-net/aspose.slides.charts/datatable/chart/) | Returns chart.<br/>            Read-only <br/>[`IChart`](/slides/python-net/aspose.slides.charts/ichart)<br/>. |
+| [text_format](/slides/python-net/aspose.slides.charts/datatable/text_format/) | Returns text format.<br/>            Read-only <br/>[`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat)<br/>. |
 | [as_i_formatted_text_container](/slides/python-net/aspose.slides.charts/datatable/as_i_formatted_text_container/) |  |
 | [as_i_chart_component](/slides/python-net/aspose.slides.charts/datatable/as_i_chart_component/) |  |
 | [as_i_slide_component](/slides/python-net/aspose.slides.charts/datatable/as_i_slide_component/) |  |

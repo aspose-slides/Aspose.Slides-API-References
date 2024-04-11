@@ -10,7 +10,9 @@ url: /aspose.slides.charts/ierrorbarsformat/
 IErrorBarsFormat class
 
 Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection
-            (in :py:attr:`aspose.slides.charts.IChartDataPoint.error_bars_custom_values` property).
+            (in 
+[`IChartDataPoint.error_bars_custom_values`](/slides/python-net/aspose.slides.charts/ichartdatapoint#error_bars_custom_values)
+ property).
 
 The IErrorBarsFormat type exposes the following members:
 
@@ -18,13 +20,13 @@ The IErrorBarsFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [type](/slides/python-net/aspose.slides.charts/ierrorbarsformat/type/) | Gets or sets type of error bars. <br/>            Read/write :py:enum:`aspose.slides.charts.ErrorBarType`. |
-| [value_type](/slides/python-net/aspose.slides.charts/ierrorbarsformat/value_type/) | Represents possible ways to determine the length of the error bars. <br/>            In case of custom value type to specify value use :py:attr:`aspose.slides.charts.IChartDataPoint.error_bars_custom_values` property of specific data point in DataPoints collection of series.  <br/>            Read/write :py:enum:`aspose.slides.charts.ErrorBarValueType`. |
-| [has_end_cap](/slides/python-net/aspose.slides.charts/ierrorbarsformat/has_end_cap/) | Specifies an end cap is not drawn on the error bars.<br/>            Read/write :py:class:`bool`. |
-| [value](/slides/python-net/aspose.slides.charts/ierrorbarsformat/value/) | Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. <br/>            Read/write :py:class:`float`. |
-| [format](/slides/python-net/aspose.slides.charts/ierrorbarsformat/format/) | Represents the format of the error bars.<br/>            Read/write :py:class:`aspose.slides.charts.IFormat`. |
-| [is_visible](/slides/python-net/aspose.slides.charts/ierrorbarsformat/is_visible/) | Gets or sets Error Bars visibility.<br/>            Read/write :py:class:`bool`. |
-| [as_i_chart_component](/slides/python-net/aspose.slides.charts/ierrorbarsformat/as_i_chart_component/) | Returns IChartComponent interface.<br/>            Read-only :py:class:`aspose.slides.charts.IChartComponent`. |
+| [type](/slides/python-net/aspose.slides.charts/ierrorbarsformat/type/) | Gets or sets type of error bars. <br/>            Read/write <br/>[`ErrorBarType`](/slides/python-net/aspose.slides.charts/errorbartype)<br/>. |
+| [value_type](/slides/python-net/aspose.slides.charts/ierrorbarsformat/value_type/) | Represents possible ways to determine the length of the error bars. <br/>            In case of custom value type to specify value use <br/>[`IChartDataPoint.error_bars_custom_values`](/slides/python-net/aspose.slides.charts/ichartdatapoint#error_bars_custom_values)<br/> property of specific data point in DataPoints collection of series.  <br/>            Read/write <br/>[`ErrorBarValueType`](/slides/python-net/aspose.slides.charts/errorbarvaluetype)<br/>. |
+| [has_end_cap](/slides/python-net/aspose.slides.charts/ierrorbarsformat/has_end_cap/) | Specifies an end cap is not drawn on the error bars.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [value](/slides/python-net/aspose.slides.charts/ierrorbarsformat/value/) | Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. <br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [format](/slides/python-net/aspose.slides.charts/ierrorbarsformat/format/) | Represents the format of the error bars.<br/>            Read/write <br/>[`IFormat`](/slides/python-net/aspose.slides.charts/iformat)<br/>. |
+| [is_visible](/slides/python-net/aspose.slides.charts/ierrorbarsformat/is_visible/) | Gets or sets Error Bars visibility.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [as_i_chart_component](/slides/python-net/aspose.slides.charts/ierrorbarsformat/as_i_chart_component/) | Returns IChartComponent interface.<br/>            Read-only <br/>[`IChartComponent`](/slides/python-net/aspose.slides.charts/ichartcomponent)<br/>. |
 | [chart](/slides/python-net/aspose.slides.charts/ierrorbarsformat/chart/) |  |
 | [as_i_slide_component](/slides/python-net/aspose.slides.charts/ierrorbarsformat/as_i_slide_component/) |  |
 | [slide](/slides/python-net/aspose.slides.charts/ierrorbarsformat/slide/) |  |

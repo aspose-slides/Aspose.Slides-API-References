@@ -111,7 +111,7 @@ Contains classes for work with mathematical text in Microsoft PowerPoint present
 | [`MathIntegralTypes`](/slides/python-net/aspose.slides.mathtext/mathintegraltypes/) | Mathematical integral types |
 | [`MathJustification`](/slides/python-net/aspose.slides.mathtext/mathjustification/) | Specifies justification of the math paragraph (a series of adjacent instances of mathematical text within the same paragraph) |
 | [`MathLimitLocations`](/slides/python-net/aspose.slides.mathtext/mathlimitlocations/) | Location of limits (subscript/superscript) in n-ary operators. |
-| [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes/) | Nary operator IMathNaryOperator types (excluding integrals)<br/>            For integrals :py:enum:`aspose.slides.mathtext.MathIntegralTypes` |
+| [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes/) | Nary operator IMathNaryOperator types (excluding integrals)<br/>            For integrals <br/>[`MathIntegralTypes`](/slides/python-net/aspose.slides.mathtext/mathintegraltypes) |
 | [`MathRowSpacingRule`](/slides/python-net/aspose.slides.mathtext/mathrowspacingrule/) | The type of vertical spacing between columns in a matrix or array |
 | [`MathSpacingRules`](/slides/python-net/aspose.slides.mathtext/mathspacingrules/) | Types of gap (horizontal spacing) between columns of a matrix |
 | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions/) | Top/bottom positions enumeration |

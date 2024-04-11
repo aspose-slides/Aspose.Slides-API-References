@@ -17,7 +17,7 @@ The SpreadsheetOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/spreadsheetoptions/spreadsheetoptions/#/) | Initializes a new instance of the :py:class:`aspose.slides.SpreadsheetOptions` class. |
+| [__init__](/slides/python-net/aspose.slides/spreadsheetoptions/spreadsheetoptions/#/) | Initializes a new instance of the <br/>[`SpreadsheetOptions`](/slides/python-net/aspose.slides/spreadsheetoptions)<br/> class. |
 
 ## Properties
 

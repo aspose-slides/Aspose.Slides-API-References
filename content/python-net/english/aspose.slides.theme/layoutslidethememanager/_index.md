@@ -19,8 +19,8 @@ The LayoutSlideThemeManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [override_theme](/slides/python-net/aspose.slides.theme/layoutslidethememanager/override_theme/) | Returns the overriding theme object.<br/>            Read/write :py:class:`aspose.slides.theme.IOverrideTheme`. |
-| [is_override_theme_enabled](/slides/python-net/aspose.slides.theme/layoutslidethememanager/is_override_theme_enabled/) | Determines whether OverrideTheme overrides inherited effective theme or not.<br/>            To enable OverrideTheme for overriding use OverrideTheme.Init*() methods.<br/>            To disable OverrideTheme from overriding use OverrideTheme.Clear() method.<br/>            Read-only :py:class:`bool`. |
+| [override_theme](/slides/python-net/aspose.slides.theme/layoutslidethememanager/override_theme/) | Returns the overriding theme object.<br/>            Read/write <br/>[`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme)<br/>. |
+| [is_override_theme_enabled](/slides/python-net/aspose.slides.theme/layoutslidethememanager/is_override_theme_enabled/) | Determines whether OverrideTheme overrides inherited effective theme or not.<br/>            To enable OverrideTheme for overriding use OverrideTheme.Init*() methods.<br/>            To disable OverrideTheme from overriding use OverrideTheme.Clear() method.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
 | [as_i_theme_manager](/slides/python-net/aspose.slides.theme/layoutslidethememanager/as_i_theme_manager/) |  |
 
 ## Methods

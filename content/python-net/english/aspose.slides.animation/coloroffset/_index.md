@@ -23,7 +23,7 @@ The ColorOffset type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [value0](/slides/python-net/aspose.slides.animation/coloroffset/value0/) | Defines first value of offset.<br/>            Read/write :py:class:`float`. |
-| [value1](/slides/python-net/aspose.slides.animation/coloroffset/value1/) | Defines second value of offset.<br/>            Read/write :py:class:`float`. |
-| [value2](/slides/python-net/aspose.slides.animation/coloroffset/value2/) | Defines third value of offset.<br/>            Read/write :py:class:`float`. |
+| [value0](/slides/python-net/aspose.slides.animation/coloroffset/value0/) | Defines first value of offset.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [value1](/slides/python-net/aspose.slides.animation/coloroffset/value1/) | Defines second value of offset.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [value2](/slides/python-net/aspose.slides.animation/coloroffset/value2/) | Defines third value of offset.<br/>            Read/write <br/>.NET type System.Single<br/>. |
 

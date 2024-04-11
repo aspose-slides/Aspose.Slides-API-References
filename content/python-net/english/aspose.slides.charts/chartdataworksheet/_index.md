@@ -9,7 +9,8 @@ url: /aspose.slides.charts/chartdataworksheet/
 
 ChartDataWorksheet class
 
-Represents worksheet associated with :py:class:`aspose.slides.charts.IChartDataCell`
+Represents worksheet associated with 
+[`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 
 The ChartDataWorksheet type exposes the following members:
 
@@ -17,6 +18,6 @@ The ChartDataWorksheet type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [name](/slides/python-net/aspose.slides.charts/chartdataworksheet/name/) | Returns the name of the worksheet.<br/>            Read-only :py:class:`System.String`. |
-| [index](/slides/python-net/aspose.slides.charts/chartdataworksheet/index/) | Gets the index of the worksheet.<br/>            Read-only :py:class:`int`. |
+| [name](/slides/python-net/aspose.slides.charts/chartdataworksheet/name/) | Returns the name of the worksheet.<br/>            Read-only <br/>.NET type System.String<br/>. |
+| [index](/slides/python-net/aspose.slides.charts/chartdataworksheet/index/) | Gets the index of the worksheet.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
 

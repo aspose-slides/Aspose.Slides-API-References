@@ -17,6 +17,6 @@ The ChartLinesFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [line](/slides/python-net/aspose.slides.charts/chartlinesformat/line/) | Returns line style properties of a chart line.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
-| [effect](/slides/python-net/aspose.slides.charts/chartlinesformat/effect/) | Returns effects used for a chart line.<br/>            Read-only :py:class:`aspose.slides.IEffectFormat`. |
+| [line](/slides/python-net/aspose.slides.charts/chartlinesformat/line/) | Returns line style properties of a chart line.<br/>            Read-only <br/>[`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)<br/>. |
+| [effect](/slides/python-net/aspose.slides.charts/chartlinesformat/effect/) | Returns effects used for a chart line.<br/>            Read-only <br/>[`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)<br/>. |
 

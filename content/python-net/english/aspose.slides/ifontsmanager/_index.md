@@ -17,18 +17,18 @@ The IFontsManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [font_subst_rule_list](/slides/python-net/aspose.slides/ifontsmanager/font_subst_rule_list/) | Font substitutions to use when rendering<br/>            Read/write :py:class:`aspose.slides.IFontSubstRuleCollection`. |
-| [font_fall_back_rules_collection](/slides/python-net/aspose.slides/ifontsmanager/font_fall_back_rules_collection/) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality<br/>            Read/write :py:class:`aspose.slides.IFontFallBackRulesCollection`. |
+| [font_subst_rule_list](/slides/python-net/aspose.slides/ifontsmanager/font_subst_rule_list/) | Font substitutions to use when rendering<br/>            Read/write <br/>[`IFontSubstRuleCollection`](/slides/python-net/aspose.slides/ifontsubstrulecollection)<br/>. |
+| [font_fall_back_rules_collection](/slides/python-net/aspose.slides/ifontsmanager/font_fall_back_rules_collection/) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality<br/>            Read/write <br/>[`IFontFallBackRulesCollection`](/slides/python-net/aspose.slides/ifontfallbackrulescollection)<br/>. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [add_embedded_font](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#IFontData-aspose.slides.export.EmbedFontCharacters/) | Adds the embedded font. |
-| [add_embedded_font](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#bytes-aspose.slides.export.EmbedFontCharacters/) | Adds the embedded font |
+| [add_embedded_font](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#IFontData-aspose.slides.export.EmbedFontCharacters/) | Adds the embedded font.<br/>            <br/>Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of <br/>            a font before hand and verify they can be freely transferred to another machine.<br/>An ArgumentException can be thrown if font data is null or this font is already embedded |
+| [add_embedded_font](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#bytes-aspose.slides.export.EmbedFontCharacters/) | Adds the embedded font<br/>            <br/>Keep in mind when adding any fonts that most fonts are copyrighted. First locate the license of <br/>            a font before hand and verify they can be freely transferred to another machine.<br/>An ArgumentException can be thrown if font data is null or this font is already embedded |
 | [replace_font](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#IFontData-IFontData/) | Replace font in presentation |
-| [replace_font](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#IFontSubstRule/) | Replace font in presentation using information provided in :py:class:`aspose.slides.IFontSubstRule` |
-| [replace_font](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#IFontSubstRuleCollection/) | Replace font in presentation using information provided in collection of :py:class:`aspose.slides.IFontSubstRule` |
+| [replace_font](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#IFontSubstRule/) | Replace font in presentation using information provided in <br/>[`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) |
+| [replace_font](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#IFontSubstRuleCollection/) | Replace font in presentation using information provided in collection of <br/>[`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) |
 | [get_fonts](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#/) | Returns the fonts used in the presentation |
 | [get_substitutions](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#/) | Gets the information about fonts that will be replaced on the presentation's rendering. |
 | [get_embedded_fonts](/slides/python-net/aspose.slides/ifontsmanager/ifontsmanager/#/) | Returns the fonts embedded in the presentation |

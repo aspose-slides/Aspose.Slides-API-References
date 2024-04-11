@@ -17,7 +17,7 @@ The IFonts type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [latin_font](/slides/python-net/aspose.slides/ifonts/latin_font/) | Returns or sets the Latin font.<br/>            Read/write :py:class:`aspose.slides.IFontData`. |
-| [east_asian_font](/slides/python-net/aspose.slides/ifonts/east_asian_font/) | Returns or sets the East Asian font.<br/>            Read/write :py:class:`aspose.slides.IFontData`. |
-| [complex_script_font](/slides/python-net/aspose.slides/ifonts/complex_script_font/) | Returns or sets the complex script font.<br/>            Read/write :py:class:`aspose.slides.IFontData`. |
+| [latin_font](/slides/python-net/aspose.slides/ifonts/latin_font/) | Returns or sets the Latin font.<br/>            Read/write <br/>[`IFontData`](/slides/python-net/aspose.slides/ifontdata)<br/>. |
+| [east_asian_font](/slides/python-net/aspose.slides/ifonts/east_asian_font/) | Returns or sets the East Asian font.<br/>            Read/write <br/>[`IFontData`](/slides/python-net/aspose.slides/ifontdata)<br/>. |
+| [complex_script_font](/slides/python-net/aspose.slides/ifonts/complex_script_font/) | Returns or sets the complex script font.<br/>            Read/write <br/>[`IFontData`](/slides/python-net/aspose.slides/ifontdata)<br/>. |
 

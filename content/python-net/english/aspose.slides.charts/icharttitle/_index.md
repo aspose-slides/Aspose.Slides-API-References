@@ -17,10 +17,10 @@ The IChartTitle type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [overlay](/slides/python-net/aspose.slides.charts/icharttitle/overlay/) | Determines whether other chart elements shall be allowed to overlap title.<br/>            Read/write :py:class:`bool`. |
-| [format](/slides/python-net/aspose.slides.charts/icharttitle/format/) | Returns the fill, line, effect styles of a title.<br/>            Read-only :py:class:`aspose.slides.charts.IFormat`. |
-| [as_i_layoutable](/slides/python-net/aspose.slides.charts/icharttitle/as_i_layoutable/) | Allows to get base ILayoutable interface.<br/>            Read-only :py:class:`aspose.slides.charts.ILayoutable`. |
-| [as_i_overridable_text](/slides/python-net/aspose.slides.charts/icharttitle/as_i_overridable_text/) | Allows to get base IOverridableText interface.<br/>            Read-only :py:class:`aspose.slides.charts.IOverridableText`. |
+| [overlay](/slides/python-net/aspose.slides.charts/icharttitle/overlay/) | Determines whether other chart elements shall be allowed to overlap title.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [format](/slides/python-net/aspose.slides.charts/icharttitle/format/) | Returns the fill, line, effect styles of a title.<br/>            Read-only <br/>[`IFormat`](/slides/python-net/aspose.slides.charts/iformat)<br/>. |
+| [as_i_layoutable](/slides/python-net/aspose.slides.charts/icharttitle/as_i_layoutable/) | Allows to get base ILayoutable interface.<br/>            Read-only <br/>[`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable)<br/>. |
+| [as_i_overridable_text](/slides/python-net/aspose.slides.charts/icharttitle/as_i_overridable_text/) | Allows to get base IOverridableText interface.<br/>            Read-only <br/>[`IOverridableText`](/slides/python-net/aspose.slides.charts/ioverridabletext)<br/>. |
 | [x](/slides/python-net/aspose.slides.charts/icharttitle/x/) |  |
 | [y](/slides/python-net/aspose.slides.charts/icharttitle/y/) |  |
 | [width](/slides/python-net/aspose.slides.charts/icharttitle/width/) |  |

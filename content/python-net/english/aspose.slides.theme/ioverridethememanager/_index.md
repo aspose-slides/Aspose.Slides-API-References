@@ -17,9 +17,9 @@ The IOverrideThemeManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_override_theme_enabled](/slides/python-net/aspose.slides.theme/ioverridethememanager/is_override_theme_enabled/) | Determines whether OverrideTheme overrides inherited effective theme or not.<br/>            To enable OverrideTheme for overriding use OverrideTheme.Init*() methods.<br/>            To disable OverrideTheme from overriding use OverrideTheme.Clear() method.<br/>            Read-only :py:class:`bool`. |
-| [override_theme](/slides/python-net/aspose.slides.theme/ioverridethememanager/override_theme/) | Returns the overriding theme object.<br/>            Read/write :py:class:`aspose.slides.theme.IOverrideTheme`. |
-| [as_i_theme_manager](/slides/python-net/aspose.slides.theme/ioverridethememanager/as_i_theme_manager/) | Allows to get base IThemeManager interface.<br/>            Read-only :py:class:`aspose.slides.theme.IThemeManager`. |
+| [is_override_theme_enabled](/slides/python-net/aspose.slides.theme/ioverridethememanager/is_override_theme_enabled/) | Determines whether OverrideTheme overrides inherited effective theme or not.<br/>            To enable OverrideTheme for overriding use OverrideTheme.Init*() methods.<br/>            To disable OverrideTheme from overriding use OverrideTheme.Clear() method.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
+| [override_theme](/slides/python-net/aspose.slides.theme/ioverridethememanager/override_theme/) | Returns the overriding theme object.<br/>            Read/write <br/>[`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme)<br/>. |
+| [as_i_theme_manager](/slides/python-net/aspose.slides.theme/ioverridethememanager/as_i_theme_manager/) | Allows to get base IThemeManager interface.<br/>            Read-only <br/>[`IThemeManager`](/slides/python-net/aspose.slides.theme/ithememanager)<br/>. |
 
 ## Methods
 

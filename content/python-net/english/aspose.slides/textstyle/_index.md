@@ -19,8 +19,8 @@ The TextStyle type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/textstyle/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [default_paragraph_format](/slides/python-net/aspose.slides/textstyle/default_paragraph_format/) | Default paragraph propertiies.<br/>            Read-only :py:class:`aspose.slides.IParagraphFormat`. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/textstyle/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
+| [default_paragraph_format](/slides/python-net/aspose.slides/textstyle/default_paragraph_format/) | Default paragraph propertiies.<br/>            Read-only <br/>[`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)<br/>. |
 | [slide](/slides/python-net/aspose.slides/textstyle/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides/textstyle/presentation/) |  |
 

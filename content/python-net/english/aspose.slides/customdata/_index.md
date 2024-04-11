@@ -17,6 +17,6 @@ The CustomData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [tags](/slides/python-net/aspose.slides/customdata/tags/) | Returns the Customer Data Tags collection.<br/>            Read-only :py:class:`aspose.slides.ITagCollection`. |
-| [custom_xml_parts](/slides/python-net/aspose.slides/customdata/custom_xml_parts/) | Returns the custom xml parts collection.<br/>            Read-only :py:class:`aspose.slides.ICustomXmlPartCollection`. |
+| [tags](/slides/python-net/aspose.slides/customdata/tags/) | Returns the Customer Data Tags collection.<br/>            Read-only <br/>[`ITagCollection`](/slides/python-net/aspose.slides/itagcollection)<br/>. |
+| [custom_xml_parts](/slides/python-net/aspose.slides/customdata/custom_xml_parts/) | Returns the custom xml parts collection.<br/>            Read-only <br/>[`ICustomXmlPartCollection`](/slides/python-net/aspose.slides/icustomxmlpartcollection)<br/>. |
 

@@ -18,7 +18,7 @@ The SoftEdge type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/softedge/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read/write :py:class:`float`. |
+| [radius](/slides/python-net/aspose.slides.effects/softedge/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read/write <br/>.NET type System.Double<br/>. |
 | [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/softedge/as_i_image_transform_operation/) |  |
 
 ## Methods

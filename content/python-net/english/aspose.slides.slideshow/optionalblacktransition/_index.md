@@ -19,6 +19,6 @@ The OptionalBlackTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [from_black](/slides/python-net/aspose.slides.slideshow/optionalblacktransition/from_black/) | This attribute specifies if the transition will start from a black screen<br/>            (and then transition the new slide over black).<br/>            Read/write :py:class:`bool`. |
+| [from_black](/slides/python-net/aspose.slides.slideshow/optionalblacktransition/from_black/) | This attribute specifies if the transition will start from a black screen<br/>            (and then transition the new slide over black).<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/optionalblacktransition/as_i_transition_value_base/) |  |
 

@@ -17,8 +17,8 @@ The ISequenceCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.animation/isequencecollection/count/) | Returns the number of elements in a collection<br/>            Read-only :py:class:`int`. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.animation/isequencecollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+| [count](/slides/python-net/aspose.slides.animation/isequencecollection/count/) | Returns the number of elements in a collection<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.animation/isequencecollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable<br/>. |
 
 ## Indexer
 

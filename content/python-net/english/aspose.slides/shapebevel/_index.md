@@ -25,10 +25,10 @@ The ShapeBevel type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/shapebevel/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [width](/slides/python-net/aspose.slides/shapebevel/width/) | Bevel width.<br/>            Read/write :py:class:`float`. |
-| [height](/slides/python-net/aspose.slides/shapebevel/height/) | Bevel height.<br/>            Read/write :py:class:`float`. |
-| [bevel_type](/slides/python-net/aspose.slides/shapebevel/bevel_type/) | Bevel type.<br/>            Read/write :py:enum:`aspose.slides.BevelPresetType`. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/shapebevel/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
+| [width](/slides/python-net/aspose.slides/shapebevel/width/) | Bevel width.<br/>            Read/write <br/>.NET type System.Double<br/>. |
+| [height](/slides/python-net/aspose.slides/shapebevel/height/) | Bevel height.<br/>            Read/write <br/>.NET type System.Double<br/>. |
+| [bevel_type](/slides/python-net/aspose.slides/shapebevel/bevel_type/) | Bevel type.<br/>            Read/write <br/>[`BevelPresetType`](/slides/python-net/aspose.slides/bevelpresettype)<br/>. |
 | [slide](/slides/python-net/aspose.slides/shapebevel/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides/shapebevel/presentation/) |  |
 

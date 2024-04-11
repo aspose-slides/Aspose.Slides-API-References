@@ -17,6 +17,6 @@ The ExtraColorScheme type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [name](/slides/python-net/aspose.slides.theme/extracolorscheme/name/) | Returns a name of this scheme.<br/>            Read-only :py:class:`System.String`. |
-| [color_scheme](/slides/python-net/aspose.slides.theme/extracolorscheme/color_scheme/) | Returns a color scheme.<br/>            Read-only :py:class:`aspose.slides.theme.IColorScheme`. |
+| [name](/slides/python-net/aspose.slides.theme/extracolorscheme/name/) | Returns a name of this scheme.<br/>            Read-only <br/>.NET type System.String<br/>. |
+| [color_scheme](/slides/python-net/aspose.slides.theme/extracolorscheme/color_scheme/) | Returns a color scheme.<br/>            Read-only <br/>[`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme)<br/>. |
 

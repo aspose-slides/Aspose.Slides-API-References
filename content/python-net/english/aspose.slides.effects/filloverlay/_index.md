@@ -20,9 +20,9 @@ The FillOverlay type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/filloverlay/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [fill_format](/slides/python-net/aspose.slides.effects/filloverlay/fill_format/) | Fill format.<br/>            Read-only :py:class:`aspose.slides.IFillFormat`. |
-| [blend](/slides/python-net/aspose.slides.effects/filloverlay/blend/) | FillBlendMode.<br/>            Read/write :py:enum:`aspose.slides.FillBlendMode`. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/filloverlay/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
+| [fill_format](/slides/python-net/aspose.slides.effects/filloverlay/fill_format/) | Fill format.<br/>            Read-only <br/>[`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)<br/>. |
+| [blend](/slides/python-net/aspose.slides.effects/filloverlay/blend/) | FillBlendMode.<br/>            Read/write <br/>[`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode)<br/>. |
 | [slide](/slides/python-net/aspose.slides.effects/filloverlay/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides.effects/filloverlay/presentation/) |  |
 | [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/filloverlay/as_i_image_transform_operation/) |  |

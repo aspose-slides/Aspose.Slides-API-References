@@ -17,8 +17,8 @@ The IAdjustValueCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/iadjustvaluecollection/as_i_collection/) | Allows to get base ICollection interface.<br/>            Read-only :py:class:`list`. |
-| [as_i_enumerable](/slides/python-net/aspose.slides/iadjustvaluecollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+| [as_i_collection](/slides/python-net/aspose.slides/iadjustvaluecollection/as_i_collection/) | Allows to get base ICollection interface.<br/>            Read-only <br/>.NET type System.Collections.ICollection<br/>. |
+| [as_i_enumerable](/slides/python-net/aspose.slides/iadjustvaluecollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable<br/>. |
 
 ## Indexer
 

@@ -21,7 +21,7 @@ The IMathRadical type exposes the following members:
 | [base](/slides/python-net/aspose.slides.mathtext/imathradical/base/) | Base argument |
 | [degree](/slides/python-net/aspose.slides.mathtext/imathradical/degree/) | Degree argument |
 | [hide_degree](/slides/python-net/aspose.slides.mathtext/imathradical/hide_degree/) | Hide degree<br/>            When is true, the degree is not shown, as in √𝑥 |
-| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathradical/as_i_math_element/) | Allows to get base IMathElement interface<br/>            :py:class:`aspose.slides.mathtext.IMathElement` |
+| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathradical/as_i_math_element/) | Allows to get base IMathElement interface<br/>            <br/>[`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 

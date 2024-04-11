@@ -17,17 +17,17 @@ The ChartTitle type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [x](/slides/python-net/aspose.slides.charts/charttitle/x/) | Returns or sets the x coordinate of a title as a fraction of the width of the chart.<br/>            Read/write :py:class:`float`. |
-| [y](/slides/python-net/aspose.slides.charts/charttitle/y/) | Returns or sets the y coordinate of a title as a fraction of the height of the chart.<br/>            Read/write :py:class:`float`. |
-| [width](/slides/python-net/aspose.slides.charts/charttitle/width/) | Returns or sets the width of a title as a fraction of the width of the chart.<br/>            Read/write :py:class:`float`. |
-| [height](/slides/python-net/aspose.slides.charts/charttitle/height/) | Returns or sets the height of a title as a fraction of the height of the chart.<br/>            Read/write :py:class:`float`. |
-| [right](/slides/python-net/aspose.slides.charts/charttitle/right/) | Right.<br/>            Read-only :py:class:`float`. |
-| [bottom](/slides/python-net/aspose.slides.charts/charttitle/bottom/) | Bottom.<br/>            Read-only :py:class:`float`. |
-| [overlay](/slides/python-net/aspose.slides.charts/charttitle/overlay/) | Determines whether other chart elements shall be allowed to overlap title.<br/>            Read/write :py:class:`bool`. |
-| [format](/slides/python-net/aspose.slides.charts/charttitle/format/) | Returns the fill, line, effect styles of a title.<br/>            Read-only :py:class:`aspose.slides.charts.IFormat`. |
-| [text_frame_for_overriding](/slides/python-net/aspose.slides.charts/charttitle/text_frame_for_overriding/) | Can contain a rich formatted text. If this property is not null then this <br/>            formatted text value overrides auto-generated text.<br/>            Auto-generated text is an implicit property of the data label, the display <br/>            unit label of the value axis, the axis title, the chart title, the label of the trendline.<br/>            Auto-generated text is formatted with the IFormattedTextContainer.TextFormat property.<br/>            Read-only :py:class:`aspose.slides.ITextFrame`. |
-| [text_format](/slides/python-net/aspose.slides.charts/charttitle/text_format/) | Returns text format.<br/>            Read-only :py:class:`aspose.slides.charts.IChartTextFormat`. |
-| [chart](/slides/python-net/aspose.slides.charts/charttitle/chart/) | Returns the parent chart.<br/>            Read-only :py:class:`aspose.slides.charts.IChart`. |
+| [x](/slides/python-net/aspose.slides.charts/charttitle/x/) | Returns or sets the x coordinate of a title as a fraction of the width of the chart.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [y](/slides/python-net/aspose.slides.charts/charttitle/y/) | Returns or sets the y coordinate of a title as a fraction of the height of the chart.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [width](/slides/python-net/aspose.slides.charts/charttitle/width/) | Returns or sets the width of a title as a fraction of the width of the chart.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [height](/slides/python-net/aspose.slides.charts/charttitle/height/) | Returns or sets the height of a title as a fraction of the height of the chart.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [right](/slides/python-net/aspose.slides.charts/charttitle/right/) | Right.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [bottom](/slides/python-net/aspose.slides.charts/charttitle/bottom/) | Bottom.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [overlay](/slides/python-net/aspose.slides.charts/charttitle/overlay/) | Determines whether other chart elements shall be allowed to overlap title.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [format](/slides/python-net/aspose.slides.charts/charttitle/format/) | Returns the fill, line, effect styles of a title.<br/>            Read-only <br/>[`IFormat`](/slides/python-net/aspose.slides.charts/iformat)<br/>. |
+| [text_frame_for_overriding](/slides/python-net/aspose.slides.charts/charttitle/text_frame_for_overriding/) | Can contain a rich formatted text. If this property is not null then this <br/>            formatted text value overrides auto-generated text.<br/>            Auto-generated text is an implicit property of the data label, the display <br/>            unit label of the value axis, the axis title, the chart title, the label of the trendline.<br/>            Auto-generated text is formatted with the IFormattedTextContainer.TextFormat property.<br/>            Read-only <br/>[`ITextFrame`](/slides/python-net/aspose.slides/itextframe)<br/>. |
+| [text_format](/slides/python-net/aspose.slides.charts/charttitle/text_format/) | Returns text format.<br/>            Read-only <br/>[`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat)<br/>. |
+| [chart](/slides/python-net/aspose.slides.charts/charttitle/chart/) | Returns the parent chart.<br/>            Read-only <br/>[`IChart`](/slides/python-net/aspose.slides.charts/ichart)<br/>. |
 | [as_i_layoutable](/slides/python-net/aspose.slides.charts/charttitle/as_i_layoutable/) |  |
 | [as_i_overridable_text](/slides/python-net/aspose.slides.charts/charttitle/as_i_overridable_text/) |  |
 | [as_i_slide_component](/slides/python-net/aspose.slides.charts/charttitle/as_i_slide_component/) |  |

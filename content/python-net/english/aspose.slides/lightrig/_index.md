@@ -19,9 +19,9 @@ The LightRig type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/lightrig/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [direction](/slides/python-net/aspose.slides/lightrig/direction/) | Light direction.<br/>            Read/write :py:enum:`aspose.slides.LightingDirection`. |
-| [light_type](/slides/python-net/aspose.slides/lightrig/light_type/) | Represents a preset light right that can be applied to a shape. <br/>            The light rig represents a group of lights oriented<br/>            in a specific way relative to a 3D scene.<br/>            Read/write :py:enum:`aspose.slides.LightRigPresetType`. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/lightrig/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
+| [direction](/slides/python-net/aspose.slides/lightrig/direction/) | Light direction.<br/>            Read/write <br/>[`LightingDirection`](/slides/python-net/aspose.slides/lightingdirection)<br/>. |
+| [light_type](/slides/python-net/aspose.slides/lightrig/light_type/) | Represents a preset light right that can be applied to a shape. <br/>            The light rig represents a group of lights oriented<br/>            in a specific way relative to a 3D scene.<br/>            Read/write <br/>[`LightRigPresetType`](/slides/python-net/aspose.slides/lightrigpresettype)<br/>. |
 | [slide](/slides/python-net/aspose.slides/lightrig/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides/lightrig/presentation/) |  |
 

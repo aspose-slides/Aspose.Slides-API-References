@@ -17,11 +17,11 @@ The IParagraph type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [portions](/slides/python-net/aspose.slides/iparagraph/portions/) | Returns the collection of a text portions.<br/>            Read-only :py:class:`aspose.slides.IPortionCollection`. |
-| [paragraph_format](/slides/python-net/aspose.slides/iparagraph/paragraph_format/) | Returns the formatting object for this paragraph.<br/>            Read-only :py:class:`aspose.slides.IParagraphFormat`. |
-| [text](/slides/python-net/aspose.slides/iparagraph/text/) | Gets or sets the the plain text of a paragraph.<br/>            Read/write :py:class:`System.String`. |
+| [portions](/slides/python-net/aspose.slides/iparagraph/portions/) | Returns the collection of a text portions.<br/>            Read-only <br/>[`IPortionCollection`](/slides/python-net/aspose.slides/iportioncollection)<br/>. |
+| [paragraph_format](/slides/python-net/aspose.slides/iparagraph/paragraph_format/) | Returns the formatting object for this paragraph.<br/>            Read-only <br/>[`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)<br/>. |
+| [text](/slides/python-net/aspose.slides/iparagraph/text/) | Gets or sets the the plain text of a paragraph.<br/>            Read/write <br/>.NET type System.String<br/>. |
 | [end_paragraph_portion_format](/slides/python-net/aspose.slides/iparagraph/end_paragraph_portion_format/) | Specifies the portion properties that are to be used if another portion is inserted after <br/>            the last one. |
-| [as_i_slide_component](/slides/python-net/aspose.slides/iparagraph/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only :py:class:`aspose.slides.ISlideComponent`. |
+| [as_i_slide_component](/slides/python-net/aspose.slides/iparagraph/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only <br/>[`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent)<br/>. |
 | [slide](/slides/python-net/aspose.slides/iparagraph/slide/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/iparagraph/as_i_presentation_component/) |  |
 | [presentation](/slides/python-net/aspose.slides/iparagraph/presentation/) |  |

@@ -19,6 +19,6 @@ The CornerDirectionTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/cornerdirectiontransition/direction/) | Direction of transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionCornerDirectionType`. |
+| [direction](/slides/python-net/aspose.slides.slideshow/cornerdirectiontransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionCornerDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioncornerdirectiontype)<br/>. |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/cornerdirectiontransition/as_i_transition_value_base/) |  |
 

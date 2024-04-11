@@ -23,7 +23,7 @@ The PresentationFactory type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [instance](/slides/python-net/aspose.slides/presentationfactory/instance/) | Presentation factory static instance.<br/>            Read-only :py:class:`aspose.slides.PresentationFactory`. |
+| [instance](/slides/python-net/aspose.slides/presentationfactory/instance/) | Presentation factory static instance.<br/>            Read-only <br/>[`PresentationFactory`](/slides/python-net/aspose.slides/presentationfactory)<br/>. |
 
 ## Methods
 

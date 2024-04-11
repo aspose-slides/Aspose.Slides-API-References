@@ -18,7 +18,7 @@ The ITintEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [hue](/slides/python-net/aspose.slides.effects/itinteffectivedata/hue/) | Returns hue.<br/>            Read-only :py:class:`float`. |
-| [amount](/slides/python-net/aspose.slides.effects/itinteffectivedata/amount/) | Returns effect amount.<br/>            Read-only :py:class:`float`. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/itinteffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only :py:class:`aspose.slides.effects.IEffectEffectiveData`. |
+| [hue](/slides/python-net/aspose.slides.effects/itinteffectivedata/hue/) | Returns hue.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [amount](/slides/python-net/aspose.slides.effects/itinteffectivedata/amount/) | Returns effect amount.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/itinteffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata)<br/>. |
 

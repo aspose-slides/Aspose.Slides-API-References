@@ -29,7 +29,7 @@ The IMathMatrix type exposes the following members:
 | [column_gap](/slides/python-net/aspose.slides.mathtext/imathmatrix/column_gap/) | The value of horizontal spacing between columns of a matrix;<br/>            If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point)<br/>            If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments.<br/>            In other cases ignored.<br/>            Default: 0 |
 | [row_gap_rule](/slides/python-net/aspose.slides.mathtext/imathmatrix/row_gap_rule/) | The type of vertical spacing between rows of a matrix; <br/>            Vertical spacing units can be lines or points (stored as twips).<br/>            Default: SingleSpacingGap (0) |
 | [row_gap](/slides/python-net/aspose.slides.mathtext/imathmatrix/row_gap/) | The value of vertical spacing between rows of a matrix;<br/>            If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point)<br/>            If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines.<br/>            Default: 0 |
-| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_i_math_element/) | Allows to get base IMathElement interface<br/>            :py:class:`aspose.slides.mathtext.IMathElement` |
+| [as_i_math_element](/slides/python-net/aspose.slides.mathtext/imathmatrix/as_i_math_element/) | Allows to get base IMathElement interface<br/>            <br/>[`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 

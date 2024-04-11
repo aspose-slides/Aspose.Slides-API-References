@@ -17,5 +17,5 @@ The IEmptyTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/iemptytransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only :py:class:`aspose.slides.slideshow.ITransitionValueBase`. |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/iemptytransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)<br/>. |
 

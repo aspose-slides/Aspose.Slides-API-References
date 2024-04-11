@@ -17,7 +17,7 @@ The IImageTransformOperationCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_enumerable](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable<br/>. |
 
 ## Indexer
 

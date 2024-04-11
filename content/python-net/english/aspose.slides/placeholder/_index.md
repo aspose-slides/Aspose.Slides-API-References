@@ -17,8 +17,8 @@ The Placeholder type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [orientation](/slides/python-net/aspose.slides/placeholder/orientation/) | Gets or sets the orientation of a placeholder.<br/>            Read-only :py:enum:`aspose.slides.Orientation`. |
-| [size](/slides/python-net/aspose.slides/placeholder/size/) | Gets or sets the size of a placeholder.<br/>            Read-only :py:enum:`aspose.slides.PlaceholderSize`. |
-| [type](/slides/python-net/aspose.slides/placeholder/type/) | Gets or sets the type of a placeholder.<br/>            Read-only :py:enum:`aspose.slides.PlaceholderType`. |
-| [index](/slides/python-net/aspose.slides/placeholder/index/) | Gets or sets the index of a placeholder.<br/>            Read-only :py:class:`int`. |
+| [orientation](/slides/python-net/aspose.slides/placeholder/orientation/) | Gets or sets the orientation of a placeholder.<br/>            Read-only <br/>[`Orientation`](/slides/python-net/aspose.slides/orientation)<br/>. |
+| [size](/slides/python-net/aspose.slides/placeholder/size/) | Gets or sets the size of a placeholder.<br/>            Read-only <br/>[`PlaceholderSize`](/slides/python-net/aspose.slides/placeholdersize)<br/>. |
+| [type](/slides/python-net/aspose.slides/placeholder/type/) | Gets or sets the type of a placeholder.<br/>            Read-only <br/>[`PlaceholderType`](/slides/python-net/aspose.slides/placeholdertype)<br/>. |
+| [index](/slides/python-net/aspose.slides/placeholder/index/) | Gets or sets the index of a placeholder.<br/>            Read-only <br/>.NET type System.UInt32<br/>. |
 

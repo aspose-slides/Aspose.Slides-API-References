@@ -19,10 +19,10 @@ The Column type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [slide](/slides/python-net/aspose.slides/column/slide/) | Returns the parent slide of a CellCollection.<br/>            Read-only :py:class:`aspose.slides.IBaseSlide`. |
-| [presentation](/slides/python-net/aspose.slides/column/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only :py:class:`aspose.slides.IPresentation`. |
-| [width](/slides/python-net/aspose.slides/column/width/) | Returns or sets the width of a column.<br/>            Read/write :py:class:`float`. |
-| [column_format](/slides/python-net/aspose.slides/column/column_format/) | Returns the ColumnFormat object that contains formatting properties for this column.<br/>            Read-only :py:class:`aspose.slides.IColumnFormat`. |
+| [slide](/slides/python-net/aspose.slides/column/slide/) | Returns the parent slide of a CellCollection.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)<br/>. |
+| [presentation](/slides/python-net/aspose.slides/column/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation)<br/>. |
+| [width](/slides/python-net/aspose.slides/column/width/) | Returns or sets the width of a column.<br/>            Read/write <br/>.NET type System.Double<br/>. |
+| [column_format](/slides/python-net/aspose.slides/column/column_format/) | Returns the ColumnFormat object that contains formatting properties for this column.<br/>            Read-only <br/>[`IColumnFormat`](/slides/python-net/aspose.slides/icolumnformat)<br/>. |
 | [as_i_slide_component](/slides/python-net/aspose.slides/column/as_i_slide_component/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/column/as_i_presentation_component/) |  |
 | [as_i_collection](/slides/python-net/aspose.slides/column/as_i_collection/) |  |

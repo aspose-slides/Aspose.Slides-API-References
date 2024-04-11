@@ -17,9 +17,9 @@ The ICameraEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [camera_type](/slides/python-net/aspose.slides/icameraeffectivedata/camera_type/) | Camera type.<br/>            Read-only :py:enum:`aspose.slides.CameraPresetType`. |
-| [field_of_view_angle](/slides/python-net/aspose.slides/icameraeffectivedata/field_of_view_angle/) | Camera FOV (0-180 deg, field of View).<br/>            Read-only :py:class:`float`. |
-| [zoom](/slides/python-net/aspose.slides/icameraeffectivedata/zoom/) | Camera zoom (positive value in percentage).<br/>            Read-only :py:class:`float`. |
+| [camera_type](/slides/python-net/aspose.slides/icameraeffectivedata/camera_type/) | Camera type.<br/>            Read-only <br/>[`CameraPresetType`](/slides/python-net/aspose.slides/camerapresettype)<br/>. |
+| [field_of_view_angle](/slides/python-net/aspose.slides/icameraeffectivedata/field_of_view_angle/) | Camera FOV (0-180 deg, field of View).<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [zoom](/slides/python-net/aspose.slides/icameraeffectivedata/zoom/) | Camera zoom (positive value in percentage).<br/>            Read-only <br/>.NET type System.Single<br/>. |
 
 ## Methods
 
@@ -30,9 +30,7 @@ The ICameraEffectiveData type exposes the following members:
 
 ### Remarks
 
-
-            This interface is used as a part of 
+This interface is used as a part of 
+[`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata)
 .
-            
-
 

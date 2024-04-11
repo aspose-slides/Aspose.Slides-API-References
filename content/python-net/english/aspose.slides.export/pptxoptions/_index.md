@@ -25,9 +25,9 @@ The PptxOptions type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [warning_callback](/slides/python-net/aspose.slides.export/pptxoptions/warning_callback/) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write :py:class:`aspose.slides.warnings.IWarningCallback`. |
-| [progress_callback](/slides/python-net/aspose.slides.export/pptxoptions/progress_callback/) | Represents a callback object for saving progress updates in percentage.<br/>            See :py:class:`aspose.slides.IProgressCallback`. |
-| [default_regular_font](/slides/python-net/aspose.slides.export/pptxoptions/default_regular_font/) | Returns or sets font used in case source font is not found.<br/>            Read-write :py:class:`System.String`. |
-| [conformance](/slides/python-net/aspose.slides.export/pptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is :py:attr:`aspose.slides.export.Conformance.ECMA_376_2006` |
+| [warning_callback](/slides/python-net/aspose.slides.export/pptxoptions/warning_callback/) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write <br/>[`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback)<br/>. |
+| [progress_callback](/slides/python-net/aspose.slides.export/pptxoptions/progress_callback/) | Represents a callback object for saving progress updates in percentage.<br/>            See <br/>[`IProgressCallback`](/slides/python-net/aspose.slides/iprogresscallback)<br/>. |
+| [default_regular_font](/slides/python-net/aspose.slides.export/pptxoptions/default_regular_font/) | Returns or sets font used in case source font is not found.<br/>            Read-write <br/>.NET type System.String<br/>. |
+| [conformance](/slides/python-net/aspose.slides.export/pptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is <br/>[`Conformance.ECMA_376_2006`](/slides/python-net/aspose.slides.export/conformance#ECMA_376_2006) |
 | [as_i_save_options](/slides/python-net/aspose.slides.export/pptxoptions/as_i_save_options/) |  |
 

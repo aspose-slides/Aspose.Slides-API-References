@@ -17,9 +17,9 @@ The IPortionFormatEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [bookmark_id](/slides/python-net/aspose.slides/iportionformateffectivedata/bookmark_id/) | Returns bookmark identifier.<br/>            Read-only :py:class:`System.String`. |
-| [hyperlink_click](/slides/python-net/aspose.slides/iportionformateffectivedata/hyperlink_click/) | Returns the hyperlink defined for mouse click.<br/>            Read-only :py:class:`aspose.slides.IHyperlink`. |
-| [hyperlink_mouse_over](/slides/python-net/aspose.slides/iportionformateffectivedata/hyperlink_mouse_over/) | Returns the hyperlink defined for mouse over.<br/>            Read-only :py:class:`aspose.slides.IHyperlink`. |
+| [bookmark_id](/slides/python-net/aspose.slides/iportionformateffectivedata/bookmark_id/) | Returns bookmark identifier.<br/>            Read-only <br/>.NET type System.String<br/>. |
+| [hyperlink_click](/slides/python-net/aspose.slides/iportionformateffectivedata/hyperlink_click/) | Returns the hyperlink defined for mouse click.<br/>            Read-only <br/>[`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)<br/>. |
+| [hyperlink_mouse_over](/slides/python-net/aspose.slides/iportionformateffectivedata/hyperlink_mouse_over/) | Returns the hyperlink defined for mouse over.<br/>            Read-only <br/>[`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)<br/>. |
 | [as_i_base_portion_format_effective_data](/slides/python-net/aspose.slides/iportionformateffectivedata/as_i_base_portion_format_effective_data/) | Returns IBasePortionFormatEffectiveData interface. |
 | [line_format](/slides/python-net/aspose.slides/iportionformateffectivedata/line_format/) |  |
 | [fill_format](/slides/python-net/aspose.slides/iportionformateffectivedata/fill_format/) |  |
@@ -52,9 +52,7 @@ The IPortionFormatEffectiveData type exposes the following members:
 
 ### Remarks
 
-
-            This interface is used together with the 
+This interface is used together with the 
+[`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
  interface to return effective formatting values with inheritance applied.
-            
-
 

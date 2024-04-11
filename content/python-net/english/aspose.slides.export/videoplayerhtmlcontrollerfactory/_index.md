@@ -23,13 +23,10 @@ The VideoPlayerHtmlControllerFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_video_player_html_controller](/slides/python-net/aspose.slides.export/videoplayerhtmlcontrollerfactory/videoplayerhtmlcontrollerfactory/#string-string-string/) | Creates new ``VideoPlayerHtmlController``. |
+| [create_video_player_html_controller](/slides/python-net/aspose.slides.export/videoplayerhtmlcontrollerfactory/videoplayerhtmlcontrollerfactory/#string-string-string/) | Creates new <br/>`<br/>VideoPlayerHtmlController<br/>`<br/>. |
 
 
 ### Remarks
 
-
-            For COM compatibility.
-            
-
+For COM compatibility.
 

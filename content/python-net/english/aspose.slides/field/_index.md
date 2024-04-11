@@ -17,7 +17,7 @@ The Field type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [type](/slides/python-net/aspose.slides/field/type/) | Returns or sets field's type.<br/>            Read/write :py:class:`aspose.slides.IFieldType`. |
+| [type](/slides/python-net/aspose.slides/field/type/) | Returns or sets field's type.<br/>            Read/write <br/>[`IFieldType`](/slides/python-net/aspose.slides/ifieldtype)<br/>. |
 | [as_i_slide_component](/slides/python-net/aspose.slides/field/as_i_slide_component/) |  |
 | [slide](/slides/python-net/aspose.slides/field/slide/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/field/as_i_presentation_component/) |  |

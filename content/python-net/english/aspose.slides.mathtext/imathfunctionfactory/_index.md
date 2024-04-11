@@ -23,8 +23,5 @@ The IMathFunctionFactory type exposes the following members:
 
 ### Remarks
 
-
-            For COM comparibility
-            
-
+For COM comparibility
 

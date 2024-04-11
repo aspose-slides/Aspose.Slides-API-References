@@ -17,8 +17,8 @@ The Audio type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [content_type](/slides/python-net/aspose.slides/audio/content_type/) | Returns a MIME type of an audio, encoded in :py:attr:`aspose.slides.Audio.binary_data`.<br/>            Read-only :py:class:`System.String`. |
-| [binary_data](/slides/python-net/aspose.slides/audio/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider <br/>            using of :py:func:`aspose.slides.Audio.get_stream` method to prevent unnecessary  loading of audio's<br/>            data into memory or even OutOfMemoryException.<br/>            Read-only :py:class:`int`[]. |
+| [content_type](/slides/python-net/aspose.slides/audio/content_type/) | Returns a MIME type of an audio, encoded in <br/>[`Audio.binary_data`](/slides/python-net/aspose.slides/audio#binary_data)<br/>.<br/>            Read-only <br/>.NET type System.String<br/>. |
+| [binary_data](/slides/python-net/aspose.slides/audio/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider <br/>            using of <br/>[`Audio.get_stream`](/slides/python-net/aspose.slides/audio/get_stream)<br/> method to prevent unnecessary  loading of audio's<br/>            data into memory or even OutOfMemoryException.<br/>            Read-only <br/>.NET type System.Byte<br/>[]. |
 
 ## Methods
 

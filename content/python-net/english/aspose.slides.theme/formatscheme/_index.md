@@ -17,12 +17,12 @@ The FormatScheme type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [fill_styles](/slides/python-net/aspose.slides.theme/formatscheme/fill_styles/) | Returns a collection of theme defined fill styles.<br/>            Read-only :py:class:`aspose.slides.theme.IFillFormatCollection`. |
-| [line_styles](/slides/python-net/aspose.slides.theme/formatscheme/line_styles/) | Returns a collection of theme defined line styles.<br/>            Read-only :py:class:`aspose.slides.theme.ILineFormatCollection`. |
-| [effect_styles](/slides/python-net/aspose.slides.theme/formatscheme/effect_styles/) | Returns a collection of theme defined effect styles.<br/>            Read-only :py:class:`aspose.slides.theme.IEffectStyleCollection`. |
-| [background_fill_styles](/slides/python-net/aspose.slides.theme/formatscheme/background_fill_styles/) | Returns a collection of theme defined background fill styles.<br/>            Read-only :py:class:`aspose.slides.theme.IFillFormatCollection`. |
-| [slide](/slides/python-net/aspose.slides.theme/formatscheme/slide/) | Returns the parent slide.<br/>            Read-only :py:class:`aspose.slides.IBaseSlide`. |
-| [presentation](/slides/python-net/aspose.slides.theme/formatscheme/presentation/) | Returns the parent presentation.<br/>            Read-only :py:class:`aspose.slides.IPresentation`. |
+| [fill_styles](/slides/python-net/aspose.slides.theme/formatscheme/fill_styles/) | Returns a collection of theme defined fill styles.<br/>            Read-only <br/>[`IFillFormatCollection`](/slides/python-net/aspose.slides.theme/ifillformatcollection)<br/>. |
+| [line_styles](/slides/python-net/aspose.slides.theme/formatscheme/line_styles/) | Returns a collection of theme defined line styles.<br/>            Read-only <br/>[`ILineFormatCollection`](/slides/python-net/aspose.slides.theme/ilineformatcollection)<br/>. |
+| [effect_styles](/slides/python-net/aspose.slides.theme/formatscheme/effect_styles/) | Returns a collection of theme defined effect styles.<br/>            Read-only <br/>[`IEffectStyleCollection`](/slides/python-net/aspose.slides.theme/ieffectstylecollection)<br/>. |
+| [background_fill_styles](/slides/python-net/aspose.slides.theme/formatscheme/background_fill_styles/) | Returns a collection of theme defined background fill styles.<br/>            Read-only <br/>[`IFillFormatCollection`](/slides/python-net/aspose.slides.theme/ifillformatcollection)<br/>. |
+| [slide](/slides/python-net/aspose.slides.theme/formatscheme/slide/) | Returns the parent slide.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)<br/>. |
+| [presentation](/slides/python-net/aspose.slides.theme/formatscheme/presentation/) | Returns the parent presentation.<br/>            Read-only <br/>[`IPresentation`](/slides/python-net/aspose.slides/ipresentation)<br/>. |
 | [as_i_slide_component](/slides/python-net/aspose.slides.theme/formatscheme/as_i_slide_component/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides.theme/formatscheme/as_i_presentation_component/) |  |
 

@@ -38,7 +38,7 @@ The TransitionType type exposes the following members:
 | WEDGE | Relates to transition Clock (with option Wedge) in PowerPoint 2010. |
 | WHEEL | Relates to transition Clock (with option Clockwise) in PowerPoint 2010. |
 | WIPE |  |
-| ZOOM | Relates to transition Shape (with options In/Out) in PowerPoint 2010.<br/>            See also :py:attr:`aspose.slides.slideshow.TransitionType.WARP` that relates to transition Zoom in PowerPoint 2010. |
+| ZOOM | Relates to transition Shape (with options In/Out) in PowerPoint 2010.<br/>            See also <br/>[`TransitionType.WARP`](/slides/python-net/aspose.slides.slideshow/transitiontype#WARP)<br/> that relates to transition Zoom in PowerPoint 2010. |
 | VORTEX | Available in PowerPoint 2010. |
 | SWITCH | Available in PowerPoint 2010. |
 | FLIP | Available in PowerPoint 2010. |

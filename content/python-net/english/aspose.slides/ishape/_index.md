@@ -17,35 +17,35 @@ The IShape type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_text_holder](/slides/python-net/aspose.slides/ishape/is_text_holder/) | Determines whether the shape is TextHolder.<br/>            Read-only :py:class:`bool`. |
-| [placeholder](/slides/python-net/aspose.slides/ishape/placeholder/) | Returns the placeholder for a shape.<br/>            Read-only :py:class:`aspose.slides.IPlaceholder`. |
-| [custom_data](/slides/python-net/aspose.slides/ishape/custom_data/) | Returns the shape's custom data.<br/>            Read-only :py:class:`aspose.slides.ICustomData`. |
-| [raw_frame](/slides/python-net/aspose.slides/ishape/raw_frame/) | Returns or sets the raw shape frame's properties.<br/>            Read/write :py:class:`aspose.slides.IShapeFrame`. |
-| [frame](/slides/python-net/aspose.slides/ishape/frame/) | Returns or sets the shape frame's properties.<br/>            Read/write :py:class:`aspose.slides.IShapeFrame`. |
-| [line_format](/slides/python-net/aspose.slides/ishape/line_format/) | Returns the LineFormat object that contains line formatting properties for a shape.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
-| [three_d_format](/slides/python-net/aspose.slides/ishape/three_d_format/) | Returns the ThreeDFormat object that contains line formatting properties for a shape.<br/>            Read-only :py:class:`aspose.slides.IThreeDFormat`. |
-| [effect_format](/slides/python-net/aspose.slides/ishape/effect_format/) | Returns the EffectFormat object which contains pixel effects applied to a shape.<br/>            Read-only :py:class:`aspose.slides.IEffectFormat`. |
-| [fill_format](/slides/python-net/aspose.slides/ishape/fill_format/) | Returns the FillFormat object that contains fill formatting properties for a shape.<br/>            Read-only :py:class:`aspose.slides.IFillFormat`. |
-| [hidden](/slides/python-net/aspose.slides/ishape/hidden/) | Determines whether the shape is hidden.<br/>            Read/write :py:class:`bool`. |
-| [z_order_position](/slides/python-net/aspose.slides/ishape/z_order_position/) | Returns the position of a shape in the z-order.<br/>            Shapes[0] returns the shape at the back of the z-order,<br/>            and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order.<br/>            Read-only :py:class:`int`. |
-| [connection_site_count](/slides/python-net/aspose.slides/ishape/connection_site_count/) | Returns the number of connection sites on the shape.<br/>            Read-only :py:class:`int`. |
-| [rotation](/slides/python-net/aspose.slides/ishape/rotation/) | Returns or sets the number of degrees the specified shape is rotated around<br/>            the z-axis. A positive value indicates clockwise rotation; a negative value<br/>            indicates counterclockwise rotation.<br/>            Read/write :py:class:`float`. |
-| [x](/slides/python-net/aspose.slides/ishape/x/) | Returns or sets the x-coordinate of the upper-left corner of the shape.<br/>            Read/write :py:class:`float`. |
-| [y](/slides/python-net/aspose.slides/ishape/y/) | Returns or sets the y-coordinate of the upper-left corner of the shape.<br/>            Read/write :py:class:`float`. |
-| [width](/slides/python-net/aspose.slides/ishape/width/) | Returns or sets the width of the shape.<br/>            Read/write :py:class:`float`. |
-| [height](/slides/python-net/aspose.slides/ishape/height/) | Returns or sets the height of the shape.<br/>            Read/write :py:class:`float`. |
-| [alternative_text](/slides/python-net/aspose.slides/ishape/alternative_text/) | Returns or sets the alternative text associated with a shape.<br/>            Read/write :py:class:`System.String`. |
-| [alternative_text_title](/slides/python-net/aspose.slides/ishape/alternative_text_title/) | Returns or sets the title of alternative text associated with a shape.<br/>            Read/write :py:class:`System.String`. |
-| [name](/slides/python-net/aspose.slides/ishape/name/) | Returns or sets the name of a shape.<br/>            Read/write :py:class:`System.String`. |
-| [is_decorative](/slides/python-net/aspose.slides/ishape/is_decorative/) | Gets or sets 'Mark as decorative' option<br/>            Reed/write :py:class:`bool`. |
-| [shape_lock](/slides/python-net/aspose.slides/ishape/shape_lock/) | Returns shape's locks.<br/>            Read-only :py:class:`aspose.slides.IBaseShapeLock`. |
-| [unique_id](/slides/python-net/aspose.slides/ishape/unique_id/) | Gets unique shape identifier in presentation scope.<br/>            Read-only :py:class:`int`.<br/>            See also :py:attr:`aspose.slides.IShape.office_interop_shape_id` for getting unique shape identifier in slide scope. |
-| [office_interop_shape_id](/slides/python-net/aspose.slides/ishape/office_interop_shape_id/) | Gets unique shape identifier in slide scope.<br/>            Read-only :py:class:`int`.<br/>            See also :py:attr:`aspose.slides.IShape.unique_id` for getting unique shape identifier in presentation scope. |
-| [is_grouped](/slides/python-net/aspose.slides/ishape/is_grouped/) | Determines whether the shape is grouped.<br/>            Read-only :py:class:`bool`. |
-| [black_white_mode](/slides/python-net/aspose.slides/ishape/black_white_mode/) | Property specifies how a shape will render in black-and-white display mode..<br/>            Read/write :py:enum:`aspose.slides.BlackWhiteMode`. |
-| [parent_group](/slides/python-net/aspose.slides/ishape/parent_group/) | Returns parent GroupShape object if shape is grouped. Otherwise returns null.<br/>            Read-only :py:class:`aspose.slides.IGroupShape`. |
-| [as_i_hyperlink_container](/slides/python-net/aspose.slides/ishape/as_i_hyperlink_container/) | Allows to get base IHyperlinkContainer interface.<br/>            Read-only :py:class:`aspose.slides.IHyperlinkContainer`. |
-| [as_i_slide_component](/slides/python-net/aspose.slides/ishape/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only :py:class:`aspose.slides.ISlideComponent`. |
+| [is_text_holder](/slides/python-net/aspose.slides/ishape/is_text_holder/) | Determines whether the shape is TextHolder.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
+| [placeholder](/slides/python-net/aspose.slides/ishape/placeholder/) | Returns the placeholder for a shape.<br/>            Read-only <br/>[`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)<br/>. |
+| [custom_data](/slides/python-net/aspose.slides/ishape/custom_data/) | Returns the shape's custom data.<br/>            Read-only <br/>[`ICustomData`](/slides/python-net/aspose.slides/icustomdata)<br/>. |
+| [raw_frame](/slides/python-net/aspose.slides/ishape/raw_frame/) | Returns or sets the raw shape frame's properties.<br/>            Read/write <br/>[`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe)<br/>. |
+| [frame](/slides/python-net/aspose.slides/ishape/frame/) | Returns or sets the shape frame's properties.<br/>            Read/write <br/>[`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe)<br/>. |
+| [line_format](/slides/python-net/aspose.slides/ishape/line_format/) | Returns the LineFormat object that contains line formatting properties for a shape.<br/>            Read-only <br/>[`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)<br/>. |
+| [three_d_format](/slides/python-net/aspose.slides/ishape/three_d_format/) | Returns the ThreeDFormat object that contains line formatting properties for a shape.<br/>            Read-only <br/>[`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)<br/>. |
+| [effect_format](/slides/python-net/aspose.slides/ishape/effect_format/) | Returns the EffectFormat object which contains pixel effects applied to a shape.<br/>            Read-only <br/>[`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)<br/>. |
+| [fill_format](/slides/python-net/aspose.slides/ishape/fill_format/) | Returns the FillFormat object that contains fill formatting properties for a shape.<br/>            Read-only <br/>[`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)<br/>. |
+| [hidden](/slides/python-net/aspose.slides/ishape/hidden/) | Determines whether the shape is hidden.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [z_order_position](/slides/python-net/aspose.slides/ishape/z_order_position/) | Returns the position of a shape in the z-order.<br/>            Shapes[0] returns the shape at the back of the z-order,<br/>            and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [connection_site_count](/slides/python-net/aspose.slides/ishape/connection_site_count/) | Returns the number of connection sites on the shape.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [rotation](/slides/python-net/aspose.slides/ishape/rotation/) | Returns or sets the number of degrees the specified shape is rotated around<br/>            the z-axis. A positive value indicates clockwise rotation; a negative value<br/>            indicates counterclockwise rotation.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [x](/slides/python-net/aspose.slides/ishape/x/) | Returns or sets the x-coordinate of the upper-left corner of the shape.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [y](/slides/python-net/aspose.slides/ishape/y/) | Returns or sets the y-coordinate of the upper-left corner of the shape.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [width](/slides/python-net/aspose.slides/ishape/width/) | Returns or sets the width of the shape.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [height](/slides/python-net/aspose.slides/ishape/height/) | Returns or sets the height of the shape.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [alternative_text](/slides/python-net/aspose.slides/ishape/alternative_text/) | Returns or sets the alternative text associated with a shape.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [alternative_text_title](/slides/python-net/aspose.slides/ishape/alternative_text_title/) | Returns or sets the title of alternative text associated with a shape.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [name](/slides/python-net/aspose.slides/ishape/name/) | Returns or sets the name of a shape.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [is_decorative](/slides/python-net/aspose.slides/ishape/is_decorative/) | Gets or sets 'Mark as decorative' option<br/>            Reed/write <br/>.NET type System.Boolean<br/>. |
+| [shape_lock](/slides/python-net/aspose.slides/ishape/shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock)<br/>. |
+| [unique_id](/slides/python-net/aspose.slides/ishape/unique_id/) | Gets unique shape identifier in presentation scope.<br/>            Read-only <br/>.NET type System.UInt32<br/>.<br/>            See also <br/>[`IShape.office_interop_shape_id`](/slides/python-net/aspose.slides/ishape#office_interop_shape_id)<br/> for getting unique shape identifier in slide scope. |
+| [office_interop_shape_id](/slides/python-net/aspose.slides/ishape/office_interop_shape_id/) | Gets unique shape identifier in slide scope.<br/>            Read-only <br/>.NET type System.UInt32<br/>.<br/>            See also <br/>[`IShape.unique_id`](/slides/python-net/aspose.slides/ishape#unique_id)<br/> for getting unique shape identifier in presentation scope. |
+| [is_grouped](/slides/python-net/aspose.slides/ishape/is_grouped/) | Determines whether the shape is grouped.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
+| [black_white_mode](/slides/python-net/aspose.slides/ishape/black_white_mode/) | Property specifies how a shape will render in black-and-white display mode..<br/>            Read/write <br/>[`BlackWhiteMode`](/slides/python-net/aspose.slides/blackwhitemode)<br/>. |
+| [parent_group](/slides/python-net/aspose.slides/ishape/parent_group/) | Returns parent GroupShape object if shape is grouped. Otherwise returns null.<br/>            Read-only <br/>[`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)<br/>. |
+| [as_i_hyperlink_container](/slides/python-net/aspose.slides/ishape/as_i_hyperlink_container/) | Allows to get base IHyperlinkContainer interface.<br/>            Read-only <br/>[`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer)<br/>. |
+| [as_i_slide_component](/slides/python-net/aspose.slides/ishape/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only <br/>[`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent)<br/>. |
 | [slide](/slides/python-net/aspose.slides/ishape/slide/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides/ishape/as_i_presentation_component/) |  |
 | [presentation](/slides/python-net/aspose.slides/ishape/presentation/) |  |
@@ -63,5 +63,5 @@ The IShape type exposes the following members:
 | [write_as_svg](/slides/python-net/aspose.slides/ishape/ishape/#System.IO.Stream-aspose.slides.export.ISVGOptions/) | Saves content of Shape as SVG file. |
 | [add_placeholder](/slides/python-net/aspose.slides/ishape/ishape/#IPlaceholder/) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [remove_placeholder](/slides/python-net/aspose.slides/ishape/ishape/#/) | Defines that this shape isn't a placeholder. |
-| [get_base_placeholder](/slides/python-net/aspose.slides/ishape/ishape/#/) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). |
+| [get_base_placeholder](/slides/python-net/aspose.slides/ishape/ishape/#/) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            <br/>A null is returned if the current shape is not inherited. |
 

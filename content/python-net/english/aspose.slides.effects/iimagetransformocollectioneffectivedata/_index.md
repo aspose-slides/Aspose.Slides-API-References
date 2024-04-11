@@ -29,8 +29,5 @@ The IImageTransformOCollectionEffectiveData type exposes the following members:
 
 ### Remarks
 
-
-            Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39.
-            
-
+Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39.
 

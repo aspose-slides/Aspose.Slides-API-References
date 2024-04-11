@@ -17,14 +17,14 @@ The DataLabelCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [chart](/slides/python-net/aspose.slides.charts/datalabelcollection/chart/) | Returns the parent chart.<br/>            Read-only :py:class:`aspose.slides.charts.IChart`. |
-| [is_visible](/slides/python-net/aspose.slides.charts/datalabelcollection/is_visible/) | False means that data label is not visible by default (and so all <br/>            Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false).<br/>            Read-only :py:class:`bool`. |
-| [count_of_visible_data_labels](/slides/python-net/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | Gets the number of visible data labels in the collection.<br/>            Read-only :py:class:`int`. |
-| [count](/slides/python-net/aspose.slides.charts/datalabelcollection/count/) | Gets the number of all data labels in the collection.<br/>            Read-only :py:class:`int`. |
-| [default_data_label_format](/slides/python-net/aspose.slides.charts/datalabelcollection/default_data_label_format/) | Gets the default data label format.<br/>            Read-only :py:class:`aspose.slides.charts.IDataLabelFormat`. |
-| [leader_lines_format](/slides/python-net/aspose.slides.charts/datalabelcollection/leader_lines_format/) | Represents data labels leader lines format.<br/>             Read-only :py:class:`aspose.slides.charts.IChartLinesFormat`. |
-| [leader_lines_color](/slides/python-net/aspose.slides.charts/datalabelcollection/leader_lines_color/) | Gets or sets the color of all leader lines in the collection.<br/>            Read/write :py:class:`aspose.pydrawing.Color`. |
-| [parent_series](/slides/python-net/aspose.slides.charts/datalabelcollection/parent_series/) | Gets the parent series.<br/>            Read-only :py:class:`aspose.slides.charts.IChartSeries`. |
+| [chart](/slides/python-net/aspose.slides.charts/datalabelcollection/chart/) | Returns the parent chart.<br/>            Read-only <br/>[`IChart`](/slides/python-net/aspose.slides.charts/ichart)<br/>. |
+| [is_visible](/slides/python-net/aspose.slides.charts/datalabelcollection/is_visible/) | False means that data label is not visible by default (and so all <br/>            Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false).<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
+| [count_of_visible_data_labels](/slides/python-net/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | Gets the number of visible data labels in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [count](/slides/python-net/aspose.slides.charts/datalabelcollection/count/) | Gets the number of all data labels in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [default_data_label_format](/slides/python-net/aspose.slides.charts/datalabelcollection/default_data_label_format/) | Gets the default data label format.<br/>            Read-only <br/>[`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat)<br/>. |
+| [leader_lines_format](/slides/python-net/aspose.slides.charts/datalabelcollection/leader_lines_format/) | Represents data labels leader lines format.<br/>             Read-only <br/>[`IChartLinesFormat`](/slides/python-net/aspose.slides.charts/ichartlinesformat)<br/>. |
+| [leader_lines_color](/slides/python-net/aspose.slides.charts/datalabelcollection/leader_lines_color/) | Gets or sets the color of all leader lines in the collection.<br/>            Read/write <br/>.NET type System.Drawing.Color<br/>. |
+| [parent_series](/slides/python-net/aspose.slides.charts/datalabelcollection/parent_series/) | Gets the parent series.<br/>            Read-only <br/>[`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)<br/>. |
 | [as_i_chart_component](/slides/python-net/aspose.slides.charts/datalabelcollection/as_i_chart_component/) |  |
 | [as_i_enumerable](/slides/python-net/aspose.slides.charts/datalabelcollection/as_i_enumerable/) |  |
 | [as_i_slide_component](/slides/python-net/aspose.slides.charts/datalabelcollection/as_i_slide_component/) |  |

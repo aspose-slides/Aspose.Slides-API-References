@@ -27,26 +27,26 @@ The Hyperlink type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/hyperlink/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [no_action](/slides/python-net/aspose.slides/hyperlink/no_action/) | Returns a special "do nothing" hyperlink.<br/>            Read-only :py:class:`aspose.slides.Hyperlink`. |
-| [media](/slides/python-net/aspose.slides/hyperlink/media/) | Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame.<br/>            Read-only :py:class:`aspose.slides.Hyperlink`. |
-| [next_slide](/slides/python-net/aspose.slides/hyperlink/next_slide/) | Returns a hyperlink to the next slide.<br/>            Read-only :py:class:`aspose.slides.Hyperlink`. |
-| [previous_slide](/slides/python-net/aspose.slides/hyperlink/previous_slide/) | Returns a hyperlink to the previous slide.<br/>            Read-only :py:class:`aspose.slides.Hyperlink`. |
-| [first_slide](/slides/python-net/aspose.slides/hyperlink/first_slide/) | Returns a hyperlink to the first slide of the presentation.<br/>            Read-only :py:class:`aspose.slides.Hyperlink`. |
-| [last_slide](/slides/python-net/aspose.slides/hyperlink/last_slide/) | Returns a hyperlink to the last slide of the presentation.<br/>            Read-only :py:class:`aspose.slides.Hyperlink`. |
-| [last_vieved_slide](/slides/python-net/aspose.slides/hyperlink/last_vieved_slide/) | Returns a hyperlink to the last viewed slide.<br/>            Read-only :py:class:`aspose.slides.Hyperlink`. |
-| [end_show](/slides/python-net/aspose.slides/hyperlink/end_show/) | Returns a hyperlink which ends the show.<br/>            Read-only :py:class:`aspose.slides.Hyperlink`. |
-| [action_type](/slides/python-net/aspose.slides/hyperlink/action_type/) | Returns type of Hyperlink's action.<br/>            Read-only :py:enum:`aspose.slides.HyperlinkActionType`. |
-| [external_url](/slides/python-net/aspose.slides/hyperlink/external_url/) | Specifies the external URL.<br/>            Read-only :py:class:`System.String`. |
-| [target_slide](/slides/python-net/aspose.slides/hyperlink/target_slide/) | If the Hyperlink targets specific slide returns this slide.<br/>            Read-only :py:class:`aspose.slides.ISlide`. |
-| [external_url_original](/slides/python-net/aspose.slides/hyperlink/external_url_original/) | Represents a hyperlink that is set for this portion without regard to the actual content of the portion. |
-| [target_frame](/slides/python-net/aspose.slides/hyperlink/target_frame/) | Returns the frame within the parent HTML frameset for the target<br/>            of the parent hyperlink when one exists.<br/>            Read/wite :py:class:`System.String`. |
-| [tooltip](/slides/python-net/aspose.slides/hyperlink/tooltip/) | Returns the string which may be surfaced in a user interface<br/>            as associated with the parent hyperlink.<br/>            Read/write :py:class:`System.String`. |
-| [history](/slides/python-net/aspose.slides/hyperlink/history/) | Determines whether the target of the parent hyperlink shall be added<br/>            to a list of viewed hyperlinks when it is invoked.<br/>            Read/write :py:class:`bool`. |
-| [highlight_click](/slides/python-net/aspose.slides/hyperlink/highlight_click/) | Determines whether the hyperlink should be highlighted on click.<br/>            Read/write :py:class:`bool`. |
-| [stop_sound_on_click](/slides/python-net/aspose.slides/hyperlink/stop_sound_on_click/) | Determines whether the sound should be stopped on hyperlink click.<br/>            Read/write :py:class:`bool`. |
-| [sound](/slides/python-net/aspose.slides/hyperlink/sound/) | Represents the playing sound of the hyperlink.<br/>            Read/write :py:class:`aspose.slides.IAudio`. |
-| [color_source](/slides/python-net/aspose.slides/hyperlink/color_source/) | Represents the source of hyperlink color - either styles or portion format.<br/>            Read/write :py:enum:`aspose.slides.HyperlinkColorSource`. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/hyperlink/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
+| [no_action](/slides/python-net/aspose.slides/hyperlink/no_action/) | Returns a special "do nothing" hyperlink.<br/>            Read-only <br/>[`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)<br/>. |
+| [media](/slides/python-net/aspose.slides/hyperlink/media/) | Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame.<br/>            Read-only <br/>[`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)<br/>. |
+| [next_slide](/slides/python-net/aspose.slides/hyperlink/next_slide/) | Returns a hyperlink to the next slide.<br/>            Read-only <br/>[`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)<br/>. |
+| [previous_slide](/slides/python-net/aspose.slides/hyperlink/previous_slide/) | Returns a hyperlink to the previous slide.<br/>            Read-only <br/>[`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)<br/>. |
+| [first_slide](/slides/python-net/aspose.slides/hyperlink/first_slide/) | Returns a hyperlink to the first slide of the presentation.<br/>            Read-only <br/>[`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)<br/>. |
+| [last_slide](/slides/python-net/aspose.slides/hyperlink/last_slide/) | Returns a hyperlink to the last slide of the presentation.<br/>            Read-only <br/>[`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)<br/>. |
+| [last_vieved_slide](/slides/python-net/aspose.slides/hyperlink/last_vieved_slide/) | Returns a hyperlink to the last viewed slide.<br/>            Read-only <br/>[`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)<br/>. |
+| [end_show](/slides/python-net/aspose.slides/hyperlink/end_show/) | Returns a hyperlink which ends the show.<br/>            Read-only <br/>[`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)<br/>. |
+| [action_type](/slides/python-net/aspose.slides/hyperlink/action_type/) | Returns type of Hyperlink's action.<br/>            Read-only <br/>[`HyperlinkActionType`](/slides/python-net/aspose.slides/hyperlinkactiontype)<br/>. |
+| [external_url](/slides/python-net/aspose.slides/hyperlink/external_url/) | Specifies the external URL.<br/>            Read-only <br/>.NET type System.String<br/>. |
+| [target_slide](/slides/python-net/aspose.slides/hyperlink/target_slide/) | If the Hyperlink targets specific slide returns this slide.<br/>            Read-only <br/>[`ISlide`](/slides/python-net/aspose.slides/islide)<br/>. |
+| [external_url_original](/slides/python-net/aspose.slides/hyperlink/external_url_original/) | Represents a hyperlink that is set for this portion without regard to the actual content of the portion.<br/>            <br/><br/>            PowerPoint behaves specifically for links and their corresponding text in a portion. It allows to create text for the hyperlink in<br/>            the form of a valid URL, different from the real address of the link. In this case, when you view the link in the edit window, it will be<br/>            changed to match the text portion. This property represents the original value of the hyperlink. |
+| [target_frame](/slides/python-net/aspose.slides/hyperlink/target_frame/) | Returns the frame within the parent HTML frameset for the target<br/>            of the parent hyperlink when one exists.<br/>            Read/wite <br/>.NET type System.String<br/>. |
+| [tooltip](/slides/python-net/aspose.slides/hyperlink/tooltip/) | Returns the string which may be surfaced in a user interface<br/>            as associated with the parent hyperlink.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [history](/slides/python-net/aspose.slides/hyperlink/history/) | Determines whether the target of the parent hyperlink shall be added<br/>            to a list of viewed hyperlinks when it is invoked.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [highlight_click](/slides/python-net/aspose.slides/hyperlink/highlight_click/) | Determines whether the hyperlink should be highlighted on click.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [stop_sound_on_click](/slides/python-net/aspose.slides/hyperlink/stop_sound_on_click/) | Determines whether the sound should be stopped on hyperlink click.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [sound](/slides/python-net/aspose.slides/hyperlink/sound/) | Represents the playing sound of the hyperlink.<br/>            Read/write <br/>[`IAudio`](/slides/python-net/aspose.slides/iaudio)<br/>. |
+| [color_source](/slides/python-net/aspose.slides/hyperlink/color_source/) | Represents the source of hyperlink color - either styles or portion format.<br/>            Read/write <br/>[`HyperlinkColorSource`](/slides/python-net/aspose.slides/hyperlinkcolorsource)<br/>. |
 | [slide](/slides/python-net/aspose.slides/hyperlink/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides/hyperlink/presentation/) |  |
 

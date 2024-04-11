@@ -17,16 +17,14 @@ The IFontSchemeEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [minor](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata/minor/) | Returns the fonts collection for a "body" part of the slide.<br/>            Read-only :py:class:`aspose.slides.IFontsEffectiveData`. |
-| [major](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata/major/) | Returns the fonts collection for a "heading" part of the slide.<br/>            Read-only :py:class:`aspose.slides.IFontsEffectiveData`. |
-| [name](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata/name/) | Returns the font scheme name.<br/>            Read-only :py:class:`System.String`. |
+| [minor](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata/minor/) | Returns the fonts collection for a "body" part of the slide.<br/>            Read-only <br/>[`IFontsEffectiveData`](/slides/python-net/aspose.slides/ifontseffectivedata)<br/>. |
+| [major](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata/major/) | Returns the fonts collection for a "heading" part of the slide.<br/>            Read-only <br/>[`IFontsEffectiveData`](/slides/python-net/aspose.slides/ifontseffectivedata)<br/>. |
+| [name](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata/name/) | Returns the font scheme name.<br/>            Read-only <br/>.NET type System.String<br/>. |
 
 
 ### Remarks
 
-
-            This interface is used as a part of 
+This interface is used as a part of 
+[`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
 .
-            
-
 

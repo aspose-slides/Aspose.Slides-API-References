@@ -19,6 +19,6 @@ The IAlphaBiLevelEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [threshold](/slides/python-net/aspose.slides.effects/ialphabileveleffectivedata/threshold/) | Returns effect threshold.<br/>            Read-only :py:class:`float`. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/ialphabileveleffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only :py:class:`aspose.slides.effects.IEffectEffectiveData`. |
+| [threshold](/slides/python-net/aspose.slides.effects/ialphabileveleffectivedata/threshold/) | Returns effect threshold.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/ialphabileveleffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata)<br/>. |
 

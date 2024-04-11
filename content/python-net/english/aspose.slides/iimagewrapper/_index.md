@@ -17,9 +17,9 @@ The IImageWrapper type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [image](/slides/python-net/aspose.slides/iimagewrapper/image/) | Gets the Syste.Drawing.Image<br/>            Read-only :py:attr:`aspose.slides.IImageWrapper.image`. |
-| [size](/slides/python-net/aspose.slides/iimagewrapper/size/) | Gets the width and height, in pixels, of the Image<br/>            Read-only :py:attr:`aspose.slides.IImageWrapper.size`. |
-| [as_i_disposable](/slides/python-net/aspose.slides/iimagewrapper/as_i_disposable/) | Returns IDisposable interface.<br/>            Read-only :py:class:`System.IDisposable`. |
+| [image](/slides/python-net/aspose.slides/iimagewrapper/image/) | Gets the Syste.Drawing.Image<br/>            Read-only <br/>[`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper#image)<br/>. |
+| [size](/slides/python-net/aspose.slides/iimagewrapper/size/) | Gets the width and height, in pixels, of the Image<br/>            Read-only <br/>[`IImageWrapper.size`](/slides/python-net/aspose.slides/iimagewrapper#size)<br/>. |
+| [as_i_disposable](/slides/python-net/aspose.slides/iimagewrapper/as_i_disposable/) | Returns IDisposable interface.<br/>            Read-only <br/>.NET type System.IDisposable<br/>. |
 
 ## Methods
 

@@ -17,12 +17,12 @@ The IBehaviorPropertyCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_enumerable](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/as_i_enumerable/) | Returns IEnumerable interfaces.<br/>            Read-only :py:class:`collections.abc.Iterable`. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/as_i_enumerable/) | Returns IEnumerable interfaces.<br/>            Read-only <br/>.NET type System.Collections.IEnumerable<br/>. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
 | [add](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/ibehaviorpropertycollection/#string/) | Adds a new property to the collection. |
-| [index_of](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/ibehaviorpropertycollection/#string/) | Determines the index of a specific item by property value in the :py:class:`System.Collections.Generic.IList`1`. |
+| [index_of](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/ibehaviorpropertycollection/#string/) | Determines the index of a specific item by property value in the <br/>.NET type System.Collections.Generic.IList`1<br/>. |
 

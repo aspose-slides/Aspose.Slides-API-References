@@ -17,21 +17,20 @@ The IGradientFormatEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [tile_flip](/slides/python-net/aspose.slides/igradientformateffectivedata/tile_flip/) | Returns the flipping mode for a gradient.<br/>            Read-only :py:enum:`aspose.slides.TileFlip`. |
-| [gradient_direction](/slides/python-net/aspose.slides/igradientformateffectivedata/gradient_direction/) | Returns the style of a gradient.<br/>            Read-only :py:enum:`aspose.slides.GradientDirection`. |
-| [linear_gradient_angle](/slides/python-net/aspose.slides/igradientformateffectivedata/linear_gradient_angle/) | Returns the angle of a gradient.<br/>            Read-only :py:class:`float`. |
-| [linear_gradient_scaled](/slides/python-net/aspose.slides/igradientformateffectivedata/linear_gradient_scaled/) | Determines whether a gradient is scaled.<br/>            Read-only :py:class:`bool`. |
-| [gradient_shape](/slides/python-net/aspose.slides/igradientformateffectivedata/gradient_shape/) | Returns the shape of a gradient.<br/>            Read-only :py:enum:`aspose.slides.GradientShape`. |
-| [gradient_stops](/slides/python-net/aspose.slides/igradientformateffectivedata/gradient_stops/) | Returns the collection of gradient stops.<br/>            Read-only :py:class:`aspose.slides.IGradientStopCollectionEffectiveData`. |
-| [as_i_fill_param_source](/slides/python-net/aspose.slides/igradientformateffectivedata/as_i_fill_param_source/) | Allows to get base IFillParamSource interface.<br/>            Read-only :py:class:`aspose.slides.IFillParamSource`. |
+| [tile_flip](/slides/python-net/aspose.slides/igradientformateffectivedata/tile_flip/) | Returns the flipping mode for a gradient.<br/>            Read-only <br/>[`TileFlip`](/slides/python-net/aspose.slides/tileflip)<br/>. |
+| [gradient_direction](/slides/python-net/aspose.slides/igradientformateffectivedata/gradient_direction/) | Returns the style of a gradient.<br/>            Read-only <br/>[`GradientDirection`](/slides/python-net/aspose.slides/gradientdirection)<br/>. |
+| [linear_gradient_angle](/slides/python-net/aspose.slides/igradientformateffectivedata/linear_gradient_angle/) | Returns the angle of a gradient.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [linear_gradient_scaled](/slides/python-net/aspose.slides/igradientformateffectivedata/linear_gradient_scaled/) | Determines whether a gradient is scaled.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
+| [gradient_shape](/slides/python-net/aspose.slides/igradientformateffectivedata/gradient_shape/) | Returns the shape of a gradient.<br/>            Read-only <br/>[`GradientShape`](/slides/python-net/aspose.slides/gradientshape)<br/>. |
+| [gradient_stops](/slides/python-net/aspose.slides/igradientformateffectivedata/gradient_stops/) | Returns the collection of gradient stops.<br/>            Read-only <br/>[`IGradientStopCollectionEffectiveData`](/slides/python-net/aspose.slides/igradientstopcollectioneffectivedata)<br/>. |
+| [as_i_fill_param_source](/slides/python-net/aspose.slides/igradientformateffectivedata/as_i_fill_param_source/) | Allows to get base IFillParamSource interface.<br/>            Read-only <br/>[`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource)<br/>. |
 
 
 ### Remarks
 
-
-            This interface is used as a part of 
+This interface is used as a part of 
+[`IFillFormatEffectiveData`](/slides/python-net/aspose.slides/ifillformateffectivedata)
  and 
+[`ILineFillFormatEffectiveData`](/slides/python-net/aspose.slides/ilinefillformateffectivedata)
 .
-            
-
 

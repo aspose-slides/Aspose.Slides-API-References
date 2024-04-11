@@ -17,9 +17,9 @@ The IMasterHandoutSlide type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [header_footer_manager](/slides/python-net/aspose.slides/imasterhandoutslide/header_footer_manager/) | Returns HeaderFooter manager of the master handout slide.<br/>            Read-only :py:class:`aspose.slides.IMasterHandoutSlideHeaderFooterManager`. |
-| [as_i_base_slide](/slides/python-net/aspose.slides/imasterhandoutslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only :py:class:`aspose.slides.IBaseSlide`. |
-| [as_i_master_themeable](/slides/python-net/aspose.slides/imasterhandoutslide/as_i_master_themeable/) | Returns IMasterThemeable interface.<br/>            Read-only :py:class:`aspose.slides.theme.IMasterThemeable`. |
+| [header_footer_manager](/slides/python-net/aspose.slides/imasterhandoutslide/header_footer_manager/) | Returns HeaderFooter manager of the master handout slide.<br/>            Read-only <br/>[`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager)<br/>. |
+| [as_i_base_slide](/slides/python-net/aspose.slides/imasterhandoutslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only <br/>[`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)<br/>. |
+| [as_i_master_themeable](/slides/python-net/aspose.slides/imasterhandoutslide/as_i_master_themeable/) | Returns IMasterThemeable interface.<br/>            Read-only <br/>[`IMasterThemeable`](/slides/python-net/aspose.slides.theme/imasterthemeable)<br/>. |
 | [shapes](/slides/python-net/aspose.slides/imasterhandoutslide/shapes/) |  |
 | [controls](/slides/python-net/aspose.slides/imasterhandoutslide/controls/) |  |
 | [name](/slides/python-net/aspose.slides/imasterhandoutslide/name/) |  |

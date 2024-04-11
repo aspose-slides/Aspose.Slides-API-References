@@ -17,12 +17,12 @@ The IColorEffect type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [from_address](/slides/python-net/aspose.slides.animation/icoloreffect/from_address/) | This value is used to specify the starting color of behavior.<br/>            Read/write :py:class:`aspose.slides.IColorFormat`. |
-| [to](/slides/python-net/aspose.slides.animation/icoloreffect/to/) | Describes resulting color for the animation color change.<br/>            Read/write :py:class:`aspose.slides.IColorFormat`. |
-| [by](/slides/python-net/aspose.slides.animation/icoloreffect/by/) | Describes the relative offset value for the color animation.<br/>            Read/write :py:class:`aspose.slides.animation.IColorOffset`. |
-| [color_space](/slides/python-net/aspose.slides.animation/icoloreffect/color_space/) | Represent color space of behavior.<br/>            Read/write :py:attr:`aspose.slides.animation.IColorEffect.color_space`. |
-| [direction](/slides/python-net/aspose.slides.animation/icoloreffect/direction/) | Specifies which direction to cycle the hue around the color wheel.<br/>            Read/write :py:enum:`aspose.slides.animation.ColorDirection`. |
-| [as_i_behavior](/slides/python-net/aspose.slides.animation/icoloreffect/as_i_behavior/) | Allows to get base IBehavior interface.<br/>            Read-only :py:class:`aspose.slides.animation.IBehavior`. |
+| [from_address](/slides/python-net/aspose.slides.animation/icoloreffect/from_address/) | This value is used to specify the starting color of behavior.<br/>            Read/write <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
+| [to](/slides/python-net/aspose.slides.animation/icoloreffect/to/) | Describes resulting color for the animation color change.<br/>            Read/write <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
+| [by](/slides/python-net/aspose.slides.animation/icoloreffect/by/) | Describes the relative offset value for the color animation.<br/>            Read/write <br/>[`IColorOffset`](/slides/python-net/aspose.slides.animation/icoloroffset)<br/>. |
+| [color_space](/slides/python-net/aspose.slides.animation/icoloreffect/color_space/) | Represent color space of behavior.<br/>            Read/write <br/>[`IColorEffect.color_space`](/slides/python-net/aspose.slides.animation/icoloreffect#color_space)<br/>. |
+| [direction](/slides/python-net/aspose.slides.animation/icoloreffect/direction/) | Specifies which direction to cycle the hue around the color wheel.<br/>            Read/write <br/>[`ColorDirection`](/slides/python-net/aspose.slides.animation/colordirection)<br/>. |
+| [as_i_behavior](/slides/python-net/aspose.slides.animation/icoloreffect/as_i_behavior/) | Allows to get base IBehavior interface.<br/>            Read-only <br/>[`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior)<br/>. |
 | [accumulate](/slides/python-net/aspose.slides.animation/icoloreffect/accumulate/) |  |
 | [additive](/slides/python-net/aspose.slides.animation/icoloreffect/additive/) |  |
 | [properties](/slides/python-net/aspose.slides.animation/icoloreffect/properties/) |  |

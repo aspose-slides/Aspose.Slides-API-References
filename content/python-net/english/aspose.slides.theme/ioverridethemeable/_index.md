@@ -17,8 +17,8 @@ The IOverrideThemeable type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [theme_manager](/slides/python-net/aspose.slides.theme/ioverridethemeable/theme_manager/) | Returns override theme manager.<br/>            Read-only :py:class:`aspose.slides.theme.IOverrideThemeManager`. |
-| [as_i_themeable](/slides/python-net/aspose.slides.theme/ioverridethemeable/as_i_themeable/) | Returns IThemeable interface.<br/>            Read-only :py:class:`aspose.slides.theme.IThemeable`. |
+| [theme_manager](/slides/python-net/aspose.slides.theme/ioverridethemeable/theme_manager/) | Returns override theme manager.<br/>            Read-only <br/>[`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager)<br/>. |
+| [as_i_themeable](/slides/python-net/aspose.slides.theme/ioverridethemeable/as_i_themeable/) | Returns IThemeable interface.<br/>            Read-only <br/>[`IThemeable`](/slides/python-net/aspose.slides.theme/ithemeable)<br/>. |
 | [as_i_slide_component](/slides/python-net/aspose.slides.theme/ioverridethemeable/as_i_slide_component/) |  |
 | [slide](/slides/python-net/aspose.slides.theme/ioverridethemeable/slide/) |  |
 | [as_i_presentation_component](/slides/python-net/aspose.slides.theme/ioverridethemeable/as_i_presentation_component/) |  |

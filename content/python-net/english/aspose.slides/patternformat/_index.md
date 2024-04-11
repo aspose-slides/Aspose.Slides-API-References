@@ -19,10 +19,10 @@ The PatternFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/patternformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [pattern_style](/slides/python-net/aspose.slides/patternformat/pattern_style/) | Returns or sets the pattern style.<br/>            Read/write :py:enum:`aspose.slides.PatternStyle`. |
-| [fore_color](/slides/python-net/aspose.slides/patternformat/fore_color/) | Returns the foreground pattern color.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
-| [back_color](/slides/python-net/aspose.slides/patternformat/back_color/) | Returns the background pattern color.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/patternformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
+| [pattern_style](/slides/python-net/aspose.slides/patternformat/pattern_style/) | Returns or sets the pattern style.<br/>            Read/write <br/>[`PatternStyle`](/slides/python-net/aspose.slides/patternstyle)<br/>. |
+| [fore_color](/slides/python-net/aspose.slides/patternformat/fore_color/) | Returns the foreground pattern color.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
+| [back_color](/slides/python-net/aspose.slides/patternformat/back_color/) | Returns the background pattern color.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
 | [slide](/slides/python-net/aspose.slides/patternformat/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides/patternformat/presentation/) |  |
 

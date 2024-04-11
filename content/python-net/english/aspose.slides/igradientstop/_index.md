@@ -17,6 +17,6 @@ The IGradientStop type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [position](/slides/python-net/aspose.slides/igradientstop/position/) | Returns or sets the position (0..1) of a gradient stop.<br/>            Read/write :py:class:`float`. |
-| [color](/slides/python-net/aspose.slides/igradientstop/color/) | Returns the color of a gradient stop.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
+| [position](/slides/python-net/aspose.slides/igradientstop/position/) | Returns or sets the position (0..1) of a gradient stop.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [color](/slides/python-net/aspose.slides/igradientstop/color/) | Returns the color of a gradient stop.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
 

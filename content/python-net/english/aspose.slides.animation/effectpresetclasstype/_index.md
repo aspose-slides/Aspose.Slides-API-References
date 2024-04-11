@@ -17,10 +17,10 @@ The EffectPresetClassType type exposes the following members:
 
 | Field | Description |
 | :- | :- |
-| ENTRANCE | Entrance effects class.<br/><br/>Target shape types: All |
-| EXIT | Exit effects class.<br/><br/>Target shape types: All |
-| EMPHASIS | Emphasis effects class.<br/><br/>Target shape types: All |
-| PATH | Motion Paths class.<br/><br/>Target shape types: All |
-| MEDIA_CALL | Media effects class.<br/><br/>Target shape types: :py:class:`aspose.slides.IVideoFrame`, :py:class:`aspose.slides.IAudioFrame` |
-| OLE_ACTION_VERBS | OLE Action Verbs class.<br/><br/>Target shape types: :py:class:`aspose.slides.IOleObjectFrame` |
+| ENTRANCE | Entrance effects class.<br/><br/><br/>Target shape types: All |
+| EXIT | Exit effects class.<br/><br/><br/>Target shape types: All |
+| EMPHASIS | Emphasis effects class.<br/><br/><br/>Target shape types: All |
+| PATH | Motion Paths class.<br/><br/><br/>Target shape types: All |
+| MEDIA_CALL | Media effects class.<br/><br/><br/>Target shape types: <br/>[`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)<br/>, <br/>[`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe) |
+| OLE_ACTION_VERBS | OLE Action Verbs class.<br/><br/><br/>Target shape types: <br/>[`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe) |
 

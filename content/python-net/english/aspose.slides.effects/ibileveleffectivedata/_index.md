@@ -20,6 +20,6 @@ The IBiLevelEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [threshold](/slides/python-net/aspose.slides.effects/ibileveleffectivedata/threshold/) | Returns the threshold value.<br/>            Read-only :py:class:`float`. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/ibileveleffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only :py:class:`aspose.slides.effects.IEffectEffectiveData`. |
+| [threshold](/slides/python-net/aspose.slides.effects/ibileveleffectivedata/threshold/) | Returns the threshold value.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/ibileveleffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata)<br/>. |
 

@@ -18,9 +18,9 @@ The IGlow type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/iglow/radius/) | Radius.<br/>            Read/write :py:class:`float`. |
-| [color](/slides/python-net/aspose.slides.effects/iglow/color/) | Color format.<br/>            Read-only :py:class:`aspose.slides.IColorFormat`. |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/iglow/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
+| [radius](/slides/python-net/aspose.slides.effects/iglow/radius/) | Radius.<br/>            Read/write <br/>.NET type System.Double<br/>. |
+| [color](/slides/python-net/aspose.slides.effects/iglow/color/) | Color format.<br/>            Read-only <br/>[`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)<br/>. |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/iglow/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation)<br/>. |
 
 ## Methods
 

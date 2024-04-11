@@ -17,9 +17,9 @@ The IGraphicalObject type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [shape_lock](/slides/python-net/aspose.slides/igraphicalobject/shape_lock/) | Returns shape's locks.<br/>            Read-only :py:class:`aspose.slides.IGraphicalObjectLock`. |
-| [graphical_object_lock](/slides/python-net/aspose.slides/igraphicalobject/graphical_object_lock/) | Returns shape's locks.<br/>            Read-only :py:class:`aspose.slides.IGraphicalObjectLock`. |
-| [as_i_shape](/slides/python-net/aspose.slides/igraphicalobject/as_i_shape/) | Allows to get base IShape interface.<br/>            Read-only :py:class:`aspose.slides.IShape`. |
+| [shape_lock](/slides/python-net/aspose.slides/igraphicalobject/shape_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock)<br/>. |
+| [graphical_object_lock](/slides/python-net/aspose.slides/igraphicalobject/graphical_object_lock/) | Returns shape's locks.<br/>            Read-only <br/>[`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock)<br/>. |
+| [as_i_shape](/slides/python-net/aspose.slides/igraphicalobject/as_i_shape/) | Allows to get base IShape interface.<br/>            Read-only <br/>[`IShape`](/slides/python-net/aspose.slides/ishape)<br/>. |
 | [is_text_holder](/slides/python-net/aspose.slides/igraphicalobject/is_text_holder/) |  |
 | [placeholder](/slides/python-net/aspose.slides/igraphicalobject/placeholder/) |  |
 | [custom_data](/slides/python-net/aspose.slides/igraphicalobject/custom_data/) |  |

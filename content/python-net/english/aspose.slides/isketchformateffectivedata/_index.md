@@ -17,14 +17,12 @@ The ISketchFormatEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [sketch_type](/slides/python-net/aspose.slides/isketchformateffectivedata/sketch_type/) | Returns the sketch type.<br/>            Read only :py:enum:`aspose.slides.LineSketchType`. |
+| [sketch_type](/slides/python-net/aspose.slides/isketchformateffectivedata/sketch_type/) | Returns the sketch type.<br/>            Read only <br/>[`LineSketchType`](/slides/python-net/aspose.slides/linesketchtype)<br/>. |
 
 
 ### Remarks
 
-
-            This interface is used as a part of 
+This interface is used as a part of 
+[`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
 .
-            
-
 

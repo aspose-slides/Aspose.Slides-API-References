@@ -17,10 +17,10 @@ The IGeometryShape type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [shape_style](/slides/python-net/aspose.slides/igeometryshape/shape_style/) | Returns shape's style object.<br/>            Read-only :py:class:`aspose.slides.IShapeStyle`. |
-| [shape_type](/slides/python-net/aspose.slides/igeometryshape/shape_type/) | Returns or sets the geometry preset type.<br/>            Note: on value changing all adjustment values will reset to their default values.<br/>            Read/write :py:enum:`aspose.slides.ShapeType`. |
-| [adjustments](/slides/python-net/aspose.slides/igeometryshape/adjustments/) | Returns a collection of shape's adjustment values.<br/>            Read-only :py:class:`aspose.slides.IAdjustValueCollection`. |
-| [as_i_shape](/slides/python-net/aspose.slides/igeometryshape/as_i_shape/) | Allows to get base IShape interface.<br/>            Read-only :py:class:`aspose.slides.IShape`. |
+| [shape_style](/slides/python-net/aspose.slides/igeometryshape/shape_style/) | Returns shape's style object.<br/>            Read-only <br/>[`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle)<br/>. |
+| [shape_type](/slides/python-net/aspose.slides/igeometryshape/shape_type/) | Returns or sets the geometry preset type.<br/>            Note: on value changing all adjustment values will reset to their default values.<br/>            Read/write <br/>[`ShapeType`](/slides/python-net/aspose.slides/shapetype)<br/>. |
+| [adjustments](/slides/python-net/aspose.slides/igeometryshape/adjustments/) | Returns a collection of shape's adjustment values.<br/>            Read-only <br/>[`IAdjustValueCollection`](/slides/python-net/aspose.slides/iadjustvaluecollection)<br/>. |
+| [as_i_shape](/slides/python-net/aspose.slides/igeometryshape/as_i_shape/) | Allows to get base IShape interface.<br/>            Read-only <br/>[`IShape`](/slides/python-net/aspose.slides/ishape)<br/>. |
 | [is_text_holder](/slides/python-net/aspose.slides/igeometryshape/is_text_holder/) |  |
 | [placeholder](/slides/python-net/aspose.slides/igeometryshape/placeholder/) |  |
 | [custom_data](/slides/python-net/aspose.slides/igeometryshape/custom_data/) |  |
@@ -66,8 +66,8 @@ The IGeometryShape type exposes the following members:
 | [write_as_svg](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#System.IO.Stream/) |  |
 | [write_as_svg](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#System.IO.Stream-aspose.slides.export.ISVGOptions/) |  |
 | [get_geometry_paths](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#/) | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
-| [set_geometry_path](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#IGeometryPath/) | Updates shape geometry from :py:class:`aspose.slides.IGeometryPath` object. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape (:py:attr:`aspose.slides.IGeometryShape.shape_type`) to :py:attr:`aspose.slides.ShapeType.CUSTOM`. |
-| [set_geometry_paths](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#List[IGeometryPath]/) | Updates shape geometry from array of :py:class:`aspose.slides.IGeometryPath`. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape (:py:attr:`aspose.slides.IGeometryShape.shape_type`) to :py:attr:`aspose.slides.ShapeType.CUSTOM`. |
+| [set_geometry_path](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#IGeometryPath/) | Updates shape geometry from <br/>[`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)<br/> object. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape (<br/>[`IGeometryShape.shape_type`](/slides/python-net/aspose.slides/igeometryshape#shape_type)<br/>) to <br/>[`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM)<br/>. |
+| [set_geometry_paths](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#List[IGeometryPath]/) | Updates shape geometry from array of <br/>[`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)<br/>. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape (<br/>[`IGeometryShape.shape_type`](/slides/python-net/aspose.slides/igeometryshape#shape_type)<br/>) to <br/>[`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM)<br/>. |
 | [create_shape_elements](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#/) | Creates and returns array of shape's elements. |
 | [add_placeholder](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#IPlaceholder/) |  |
 | [remove_placeholder](/slides/python-net/aspose.slides/igeometryshape/igeometryshape/#/) |  |

@@ -17,14 +17,14 @@ The IPPImage type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [binary_data](/slides/python-net/aspose.slides/ippimage/binary_data/) | Returns the copy of an image's data.<br/>            Read-only :py:class:`int`[]. |
-| [system_image](/slides/python-net/aspose.slides/ippimage/system_image/) | Returns the copy of an image of the System.Drawing.Image type.<br/>            Read-only :py:class:`aspose.pydrawing.Image`. |
-| [svg_image](/slides/python-net/aspose.slides/ippimage/svg_image/) | Returns or sets ISvgImage object :py:class:`aspose.slides.ISvgImage` |
-| [content_type](/slides/python-net/aspose.slides/ippimage/content_type/) | Returns a MIME type of an image, encoded in :py:attr:`aspose.slides.IPPImage.binary_data`.<br/>            Read-only :py:class:`System.String`. |
-| [width](/slides/python-net/aspose.slides/ippimage/width/) | Returns a width of an image.<br/>            Read-only :py:class:`int`. |
-| [height](/slides/python-net/aspose.slides/ippimage/height/) | Returns a height of an image.<br/>            Read-only :py:class:`int`. |
-| [x](/slides/python-net/aspose.slides/ippimage/x/) | Returns a X-offset of an image.<br/>            Read-only :py:class:`int`. |
-| [y](/slides/python-net/aspose.slides/ippimage/y/) | Returns a Y-offset of an image.<br/>            Read-only :py:class:`int`. |
+| [binary_data](/slides/python-net/aspose.slides/ippimage/binary_data/) | Returns the copy of an image's data.<br/>            Read-only <br/>.NET type System.Byte<br/>[]. |
+| [system_image](/slides/python-net/aspose.slides/ippimage/system_image/) | Returns the copy of an image of the System.Drawing.Image type.<br/>            Read-only <br/>.NET type System.Drawing.Image<br/>. |
+| [svg_image](/slides/python-net/aspose.slides/ippimage/svg_image/) | Returns or sets ISvgImage object <br/>[`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
+| [content_type](/slides/python-net/aspose.slides/ippimage/content_type/) | Returns a MIME type of an image, encoded in <br/>[`IPPImage.binary_data`](/slides/python-net/aspose.slides/ippimage#binary_data)<br/>.<br/>            Read-only <br/>.NET type System.String<br/>. |
+| [width](/slides/python-net/aspose.slides/ippimage/width/) | Returns a width of an image.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [height](/slides/python-net/aspose.slides/ippimage/height/) | Returns a height of an image.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [x](/slides/python-net/aspose.slides/ippimage/x/) | Returns a X-offset of an image.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [y](/slides/python-net/aspose.slides/ippimage/y/) | Returns a Y-offset of an image.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
 
 ## Methods
 

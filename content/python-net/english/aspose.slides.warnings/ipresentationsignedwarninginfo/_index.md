@@ -18,7 +18,7 @@ The IPresentationSignedWarningInfo type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_warning_info](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/as_i_warning_info/) | Returns IWarningInfo interface.<br/>            Read-only :py:class:`aspose.slides.warnings.IWarningInfo`. |
+| [as_i_warning_info](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/as_i_warning_info/) | Returns IWarningInfo interface.<br/>            Read-only <br/>[`IWarningInfo`](/slides/python-net/aspose.slides.warnings/iwarninginfo)<br/>. |
 | [warning_type](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/warning_type/) |  |
 | [description](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/description/) |  |
 

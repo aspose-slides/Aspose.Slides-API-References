@@ -17,7 +17,7 @@ The ITextStyleEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [default_paragraph_format](/slides/python-net/aspose.slides/itextstyleeffectivedata/default_paragraph_format/) | Returns effective default paragraph properties.<br/>            Read-only :py:class:`aspose.slides.IParagraphFormatEffectiveData`. |
+| [default_paragraph_format](/slides/python-net/aspose.slides/itextstyleeffectivedata/default_paragraph_format/) | Returns effective default paragraph properties.<br/>            Read-only <br/>[`IParagraphFormatEffectiveData`](/slides/python-net/aspose.slides/iparagraphformateffectivedata)<br/>. |
 
 ## Methods
 
@@ -28,9 +28,7 @@ The ITextStyleEffectiveData type exposes the following members:
 
 ### Remarks
 
-
-            This interface is used together with the 
+This interface is used together with the 
+[`ITextStyle`](/slides/python-net/aspose.slides/itextstyle)
  interface to return effective formatting values with inheritance applied.
-            
-
 

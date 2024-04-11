@@ -17,11 +17,11 @@ The IGradientFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [tile_flip](/slides/python-net/aspose.slides/igradientformat/tile_flip/) | Returns or sets the flipping mode for a gradient.<br/>            Read/write :py:enum:`aspose.slides.TileFlip`. |
-| [gradient_direction](/slides/python-net/aspose.slides/igradientformat/gradient_direction/) | Returns or sets the style of a gradient.<br/>            Read/write :py:enum:`aspose.slides.GradientDirection`. |
-| [linear_gradient_angle](/slides/python-net/aspose.slides/igradientformat/linear_gradient_angle/) | Returns or sets the angle of a gradient.<br/>            Read/write :py:class:`float`. |
-| [linear_gradient_scaled](/slides/python-net/aspose.slides/igradientformat/linear_gradient_scaled/) | Determines whether a gradient is scaled.<br/>            Read/write :py:enum:`aspose.slides.NullableBool`. |
-| [gradient_shape](/slides/python-net/aspose.slides/igradientformat/gradient_shape/) | Returns or sets the shape of a gradient.<br/>            Read/write :py:enum:`aspose.slides.GradientShape`. |
-| [gradient_stops](/slides/python-net/aspose.slides/igradientformat/gradient_stops/) | Returns the collection of gradient stops.<br/>            Read-only :py:class:`aspose.slides.IGradientStopCollection`. |
-| [as_i_fill_param_source](/slides/python-net/aspose.slides/igradientformat/as_i_fill_param_source/) | Allows to get base IFillParamSource interface.<br/>            Read-only :py:class:`aspose.slides.IFillParamSource`. |
+| [tile_flip](/slides/python-net/aspose.slides/igradientformat/tile_flip/) | Returns or sets the flipping mode for a gradient.<br/>            Read/write <br/>[`TileFlip`](/slides/python-net/aspose.slides/tileflip)<br/>. |
+| [gradient_direction](/slides/python-net/aspose.slides/igradientformat/gradient_direction/) | Returns or sets the style of a gradient.<br/>            Read/write <br/>[`GradientDirection`](/slides/python-net/aspose.slides/gradientdirection)<br/>. |
+| [linear_gradient_angle](/slides/python-net/aspose.slides/igradientformat/linear_gradient_angle/) | Returns or sets the angle of a gradient.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [linear_gradient_scaled](/slides/python-net/aspose.slides/igradientformat/linear_gradient_scaled/) | Determines whether a gradient is scaled.<br/>            Read/write <br/>[`NullableBool`](/slides/python-net/aspose.slides/nullablebool)<br/>. |
+| [gradient_shape](/slides/python-net/aspose.slides/igradientformat/gradient_shape/) | Returns or sets the shape of a gradient.<br/>            Read/write <br/>[`GradientShape`](/slides/python-net/aspose.slides/gradientshape)<br/>. |
+| [gradient_stops](/slides/python-net/aspose.slides/igradientformat/gradient_stops/) | Returns the collection of gradient stops.<br/>            Read-only <br/>[`IGradientStopCollection`](/slides/python-net/aspose.slides/igradientstopcollection)<br/>. |
+| [as_i_fill_param_source](/slides/python-net/aspose.slides/igradientformat/as_i_fill_param_source/) | Allows to get base IFillParamSource interface.<br/>            Read-only <br/>[`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource)<br/>. |
 

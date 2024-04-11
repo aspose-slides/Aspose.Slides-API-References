@@ -25,7 +25,7 @@ The MathParagraph type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [justification](/slides/python-net/aspose.slides.mathtext/mathparagraph/justification/) | Paragraph Justification <br/>            Default value: CenteredAsGroup |
-| [count](/slides/python-net/aspose.slides.mathtext/mathparagraph/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only :py:class:`int`. |
+| [count](/slides/python-net/aspose.slides.mathtext/mathparagraph/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
 | [as_i_math_block_collection](/slides/python-net/aspose.slides.mathtext/mathparagraph/as_i_math_block_collection/) |  |
 | [as_i_enumerable](/slides/python-net/aspose.slides.mathtext/mathparagraph/as_i_enumerable/) |  |
 
@@ -46,6 +46,6 @@ The MathParagraph type exposes the following members:
 | [index_of](/slides/python-net/aspose.slides.mathtext/mathparagraph/mathparagraph/#IMathBlock/) | Determines the index of a specific IMathBlock in collection. |
 | [insert](/slides/python-net/aspose.slides.mathtext/mathparagraph/mathparagraph/#int-IMathBlock/) | Inserts IMathBlock into the collection at the specified index. |
 | [remove_at](/slides/python-net/aspose.slides.mathtext/mathparagraph/mathparagraph/#int/) | Removes an item at the specified index of the collection. |
-| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/mathparagraph/mathparagraph/#System.IO.Stream/) | Saves content of this :py:class:`aspose.slides.mathtext.MathParagraph` as MathML |
+| [write_as_math_ml](/slides/python-net/aspose.slides.mathtext/mathparagraph/mathparagraph/#System.IO.Stream/) | Saves content of this <br/>[`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph)<br/> as MathML |
 | [to_latex](/slides/python-net/aspose.slides.mathtext/mathparagraph/mathparagraph/#/) | Gets mathematical equation in LaTeX format |
 

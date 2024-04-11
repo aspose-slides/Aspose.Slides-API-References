@@ -19,6 +19,6 @@ The MorphTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [morph_type](/slides/python-net/aspose.slides.slideshow/morphtransition/morph_type/) | Type of morph transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionMorphType`. |
+| [morph_type](/slides/python-net/aspose.slides.slideshow/morphtransition/morph_type/) | Type of morph transition.<br/>            Read/write <br/>[`TransitionMorphType`](/slides/python-net/aspose.slides.slideshow/transitionmorphtype)<br/>. |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/morphtransition/as_i_transition_value_base/) |  |
 

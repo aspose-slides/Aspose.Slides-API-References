@@ -17,12 +17,12 @@ The IGraphicalObjectLock type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [grouping_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/grouping_locked/) | Determines whether adding this shape to a group is forbidden.<br/>            Read/write :py:class:`bool`. |
-| [drilldown_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/drilldown_locked/) | Determines whether selecting subshapes of this object is forbidden.<br/>            Read/write :py:class:`bool`. |
-| [select_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/select_locked/) | Determines whether selecting this shape is forbidden.<br/>            Read/write :py:class:`bool`. |
-| [aspect_ratio_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/aspect_ratio_locked/) | Determines whether shape have to preserve aspect ratio on resizing.<br/>            Read/write :py:class:`bool`. |
-| [position_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/position_locked/) | Determines whether moving this shape is forbidden.<br/>            Read/write :py:class:`bool`. |
-| [size_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/size_locked/) | Determines whether resizing this shape is forbidden.<br/>            Read/write :py:class:`bool`. |
-| [as_i_base_shape_lock](/slides/python-net/aspose.slides/igraphicalobjectlock/as_i_base_shape_lock/) | Allows to get base IBaseShapeLock interface.<br/>            Read-only :py:class:`aspose.slides.IBaseShapeLock`. |
+| [grouping_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/grouping_locked/) | Determines whether adding this shape to a group is forbidden.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [drilldown_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/drilldown_locked/) | Determines whether selecting subshapes of this object is forbidden.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [select_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/select_locked/) | Determines whether selecting this shape is forbidden.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [aspect_ratio_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/aspect_ratio_locked/) | Determines whether shape have to preserve aspect ratio on resizing.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [position_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/position_locked/) | Determines whether moving this shape is forbidden.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [size_locked](/slides/python-net/aspose.slides/igraphicalobjectlock/size_locked/) | Determines whether resizing this shape is forbidden.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [as_i_base_shape_lock](/slides/python-net/aspose.slides/igraphicalobjectlock/as_i_base_shape_lock/) | Allows to get base IBaseShapeLock interface.<br/>            Read-only <br/>[`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock)<br/>. |
 | [no_locks](/slides/python-net/aspose.slides/igraphicalobjectlock/no_locks/) |  |
 

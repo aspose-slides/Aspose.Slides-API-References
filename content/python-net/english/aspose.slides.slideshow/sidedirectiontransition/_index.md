@@ -19,6 +19,6 @@ The SideDirectionTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/sidedirectiontransition/direction/) | Direction of transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionSideDirectionType`. |
+| [direction](/slides/python-net/aspose.slides.slideshow/sidedirectiontransition/direction/) | Direction of transition.<br/>            Read/write <br/>[`TransitionSideDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionsidedirectiontype)<br/>. |
 | [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/sidedirectiontransition/as_i_transition_value_base/) |  |
 

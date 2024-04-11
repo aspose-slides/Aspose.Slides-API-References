@@ -17,12 +17,12 @@ The HtmlGenerator type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [slide_image_size](/slides/python-net/aspose.slides.export/htmlgenerator/slide_image_size/) | Returns slide image size.<br/>            Read-only :py:class:`aspose.pydrawing.SizeF`. |
-| [slide_image_size_unit](/slides/python-net/aspose.slides.export/htmlgenerator/slide_image_size_unit/) | Returns a unit in which slide image size is specified.<br/>            Read-only :py:enum:`aspose.slides.export.SvgCoordinateUnit`. |
-| [slide_image_size_unit_code](/slides/python-net/aspose.slides.export/htmlgenerator/slide_image_size_unit_code/) | Returns a css code of unit in which slide image size is specified.<br/>            Read-only :py:class:`System.String`. |
-| [previous_slide_index](/slides/python-net/aspose.slides.export/htmlgenerator/previous_slide_index/) | Returns index of previously rendered slide or -1 if first slide is rendering.<br/>            Read-only :py:class:`int`. |
-| [slide_index](/slides/python-net/aspose.slides.export/htmlgenerator/slide_index/) | Returns index of currently rendering slide.<br/>            Read-only :py:class:`int`. |
-| [next_slide_index](/slides/python-net/aspose.slides.export/htmlgenerator/next_slide_index/) | Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide.<br/>            Read-only :py:class:`int`. |
+| [slide_image_size](/slides/python-net/aspose.slides.export/htmlgenerator/slide_image_size/) | Returns slide image size.<br/>            Read-only <br/>.NET type System.Drawing.SizeF<br/>. |
+| [slide_image_size_unit](/slides/python-net/aspose.slides.export/htmlgenerator/slide_image_size_unit/) | Returns a unit in which slide image size is specified.<br/>            Read-only <br/>[`SvgCoordinateUnit`](/slides/python-net/aspose.slides.export/svgcoordinateunit)<br/>. |
+| [slide_image_size_unit_code](/slides/python-net/aspose.slides.export/htmlgenerator/slide_image_size_unit_code/) | Returns a css code of unit in which slide image size is specified.<br/>            Read-only <br/>.NET type System.String<br/>. |
+| [previous_slide_index](/slides/python-net/aspose.slides.export/htmlgenerator/previous_slide_index/) | Returns index of previously rendered slide or -1 if first slide is rendering.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [slide_index](/slides/python-net/aspose.slides.export/htmlgenerator/slide_index/) | Returns index of currently rendering slide.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [next_slide_index](/slides/python-net/aspose.slides.export/htmlgenerator/next_slide_index/) | Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
 
 ## Methods
 

@@ -17,17 +17,17 @@ The IVideoFrame type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [rewind_video](/slides/python-net/aspose.slides/ivideoframe/rewind_video/) | Determines whether a video is automatically rewinded to start<br/>            as soon as the movie has finished playing.<br/>            Read/write :py:class:`bool`. |
-| [play_loop_mode](/slides/python-net/aspose.slides/ivideoframe/play_loop_mode/) | Determines whether a video is looped.<br/>            Read/write :py:class:`bool`. |
-| [hide_at_showing](/slides/python-net/aspose.slides/ivideoframe/hide_at_showing/) | Determines whether a VideoFrame is hidden.<br/>            Read/write :py:class:`bool`. |
-| [volume](/slides/python-net/aspose.slides/ivideoframe/volume/) | Returns or sets the audio volume.<br/>            Read/write :py:enum:`aspose.slides.AudioVolumeMode`. |
-| [play_mode](/slides/python-net/aspose.slides/ivideoframe/play_mode/) | Returns or sets the video play mode.<br/>            Read/write :py:enum:`aspose.slides.VideoPlayModePreset`. |
-| [full_screen_mode](/slides/python-net/aspose.slides/ivideoframe/full_screen_mode/) | Determines whether a video is shown in full screen mode.<br/>            Read/write :py:class:`bool`. |
-| [link_path_long](/slides/python-net/aspose.slides/ivideoframe/link_path_long/) | Returns or sets the name of an video file which is linked to a VideoFrame.<br/>            Read/write :py:class:`System.String`. |
-| [embedded_video](/slides/python-net/aspose.slides/ivideoframe/embedded_video/) | Returns or sets embedded video object.<br/>            Read/write :py:class:`aspose.slides.IVideo`. |
+| [rewind_video](/slides/python-net/aspose.slides/ivideoframe/rewind_video/) | Determines whether a video is automatically rewinded to start<br/>            as soon as the movie has finished playing.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [play_loop_mode](/slides/python-net/aspose.slides/ivideoframe/play_loop_mode/) | Determines whether a video is looped.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [hide_at_showing](/slides/python-net/aspose.slides/ivideoframe/hide_at_showing/) | Determines whether a VideoFrame is hidden.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [volume](/slides/python-net/aspose.slides/ivideoframe/volume/) | Returns or sets the audio volume.<br/>            Read/write <br/>[`AudioVolumeMode`](/slides/python-net/aspose.slides/audiovolumemode)<br/>. |
+| [play_mode](/slides/python-net/aspose.slides/ivideoframe/play_mode/) | Returns or sets the video play mode.<br/>            Read/write <br/>[`VideoPlayModePreset`](/slides/python-net/aspose.slides/videoplaymodepreset)<br/>. |
+| [full_screen_mode](/slides/python-net/aspose.slides/ivideoframe/full_screen_mode/) | Determines whether a video is shown in full screen mode.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [link_path_long](/slides/python-net/aspose.slides/ivideoframe/link_path_long/) | Returns or sets the name of an video file which is linked to a VideoFrame.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [embedded_video](/slides/python-net/aspose.slides/ivideoframe/embedded_video/) | Returns or sets embedded video object.<br/>            Read/write <br/>[`IVideo`](/slides/python-net/aspose.slides/ivideo)<br/>. |
 | [trim_from_start](/slides/python-net/aspose.slides/ivideoframe/trim_from_start/) | Trim start [ms] |
 | [trim_from_end](/slides/python-net/aspose.slides/ivideoframe/trim_from_end/) | Trim end [ms] |
-| [as_i_picture_frame](/slides/python-net/aspose.slides/ivideoframe/as_i_picture_frame/) | Allows to get base IPictureFrame interface.<br/>            Read-only :py:class:`aspose.slides.IPictureFrame`. |
+| [as_i_picture_frame](/slides/python-net/aspose.slides/ivideoframe/as_i_picture_frame/) | Allows to get base IPictureFrame interface.<br/>            Read-only <br/>[`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe)<br/>. |
 | [shape_lock](/slides/python-net/aspose.slides/ivideoframe/shape_lock/) |  |
 | [picture_frame_lock](/slides/python-net/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [picture_format](/slides/python-net/aspose.slides/ivideoframe/picture_format/) |  |

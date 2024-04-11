@@ -10,7 +10,8 @@ url: /aspose.slides.mathtext/mathnaryoperatortypes/
 MathNaryOperatorTypes enumeration
 
 Nary operator IMathNaryOperator types (excluding integrals)
-            For integrals :py:enum:`aspose.slides.mathtext.MathIntegralTypes`
+            For integrals 
+[`MathIntegralTypes`](/slides/python-net/aspose.slides.mathtext/mathintegraltypes)
 
 The MathNaryOperatorTypes type exposes the following members:
 

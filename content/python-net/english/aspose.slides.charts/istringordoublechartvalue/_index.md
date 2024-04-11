@@ -19,9 +19,9 @@ The IStringOrDoubleChartValue type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_literal_string](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_literal_string/) | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write :py:class:`System.String`. |
-| [as_literal_double](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_literal_double/) | Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals.<br/>            Read/write :py:class:`float`. |
-| [as_i_single_cell_chart_value](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_i_single_cell_chart_value/) | Allows to get base ISingleCellChartValue interface.<br/>            Read-only :py:class:`aspose.slides.charts.ISingleCellChartValue`. |
+| [as_literal_string](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_literal_string/) | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write <br/>.NET type System.String<br/>. |
+| [as_literal_double](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_literal_double/) | Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals.<br/>            Read/write <br/>.NET type System.Double<br/>. |
+| [as_i_single_cell_chart_value](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_i_single_cell_chart_value/) | Allows to get base ISingleCellChartValue interface.<br/>            Read-only <br/>[`ISingleCellChartValue`](/slides/python-net/aspose.slides.charts/isinglecellchartvalue)<br/>. |
 | [as_cell](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_cell/) |  |
 | [as_i_base_chart_value](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_i_base_chart_value/) |  |
 | [data_source_type](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/data_source_type/) |  |

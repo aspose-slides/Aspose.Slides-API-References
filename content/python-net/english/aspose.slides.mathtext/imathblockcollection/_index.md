@@ -17,8 +17,8 @@ The IMathBlockCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.mathtext/imathblockcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only :py:class:`int`. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.mathtext/imathblockcollection/as_i_enumerable/) | Allows to get base IEnumerable interface<br/>            :py:class:`collections.abc.Iterable` |
+| [count](/slides/python-net/aspose.slides.mathtext/imathblockcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
+| [as_i_enumerable](/slides/python-net/aspose.slides.mathtext/imathblockcollection/as_i_enumerable/) | Allows to get base IEnumerable interface<br/>            <br/>.NET type System.Collections.IEnumerable |
 
 ## Indexer
 

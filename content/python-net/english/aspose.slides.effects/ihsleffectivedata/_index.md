@@ -18,8 +18,8 @@ The IHSLEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [hue](/slides/python-net/aspose.slides.effects/ihsleffectivedata/hue/) | Returns hue percentage.<br/>            Read-only :py:class:`float`. |
-| [saturation](/slides/python-net/aspose.slides.effects/ihsleffectivedata/saturation/) | Returns saturation percentage.<br/>            Read-only :py:class:`float`. |
-| [luminance](/slides/python-net/aspose.slides.effects/ihsleffectivedata/luminance/) | Returns luminance percentage.<br/>            Read-only :py:class:`float`. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/ihsleffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only :py:class:`aspose.slides.effects.IEffectEffectiveData`. |
+| [hue](/slides/python-net/aspose.slides.effects/ihsleffectivedata/hue/) | Returns hue percentage.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [saturation](/slides/python-net/aspose.slides.effects/ihsleffectivedata/saturation/) | Returns saturation percentage.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [luminance](/slides/python-net/aspose.slides.effects/ihsleffectivedata/luminance/) | Returns luminance percentage.<br/>            Read-only <br/>.NET type System.Single<br/>. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/ihsleffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata)<br/>. |
 

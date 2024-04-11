@@ -19,16 +19,16 @@ The EffectFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/effectformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only :py:class:`aspose.slides.IPresentationComponent`. |
-| [is_no_effects](/slides/python-net/aspose.slides/effectformat/is_no_effects/) | Returns true if all effects are disabled (as just created, default EffectFormat object).<br/>            Read-only :py:class:`bool`. |
-| [blur_effect](/slides/python-net/aspose.slides/effectformat/blur_effect/) | Blur effect.<br/>            Read/write :py:class:`aspose.slides.effects.IBlur`. |
-| [fill_overlay_effect](/slides/python-net/aspose.slides/effectformat/fill_overlay_effect/) | Fill overlay effect.<br/>            Read/write :py:class:`aspose.slides.effects.IFillOverlay`. |
-| [glow_effect](/slides/python-net/aspose.slides/effectformat/glow_effect/) | Glow effect.<br/>            Read/write :py:class:`aspose.slides.effects.IGlow`. |
-| [inner_shadow_effect](/slides/python-net/aspose.slides/effectformat/inner_shadow_effect/) | Inner shadow.<br/>            Read/write :py:class:`aspose.slides.effects.IInnerShadow`. |
-| [outer_shadow_effect](/slides/python-net/aspose.slides/effectformat/outer_shadow_effect/) | Outer shadow.<br/>            Read/write :py:class:`aspose.slides.effects.IOuterShadow`. |
-| [preset_shadow_effect](/slides/python-net/aspose.slides/effectformat/preset_shadow_effect/) | Preset shadow.<br/>            Read/write :py:class:`aspose.slides.effects.IPresetShadow`. |
-| [reflection_effect](/slides/python-net/aspose.slides/effectformat/reflection_effect/) | Reflection. <br/>            Read/write :py:class:`aspose.slides.effects.IReflection`. |
-| [soft_edge_effect](/slides/python-net/aspose.slides/effectformat/soft_edge_effect/) | Soft edge.<br/>            Read/write :py:class:`aspose.slides.effects.ISoftEdge`. |
+| [as_i_presentation_component](/slides/python-net/aspose.slides/effectformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only <br/>[`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)<br/>. |
+| [is_no_effects](/slides/python-net/aspose.slides/effectformat/is_no_effects/) | Returns true if all effects are disabled (as just created, default EffectFormat object).<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
+| [blur_effect](/slides/python-net/aspose.slides/effectformat/blur_effect/) | Blur effect.<br/>            Read/write <br/>[`IBlur`](/slides/python-net/aspose.slides.effects/iblur)<br/>. |
+| [fill_overlay_effect](/slides/python-net/aspose.slides/effectformat/fill_overlay_effect/) | Fill overlay effect.<br/>            Read/write <br/>[`IFillOverlay`](/slides/python-net/aspose.slides.effects/ifilloverlay)<br/>. |
+| [glow_effect](/slides/python-net/aspose.slides/effectformat/glow_effect/) | Glow effect.<br/>            Read/write <br/>[`IGlow`](/slides/python-net/aspose.slides.effects/iglow)<br/>. |
+| [inner_shadow_effect](/slides/python-net/aspose.slides/effectformat/inner_shadow_effect/) | Inner shadow.<br/>            Read/write <br/>[`IInnerShadow`](/slides/python-net/aspose.slides.effects/iinnershadow)<br/>. |
+| [outer_shadow_effect](/slides/python-net/aspose.slides/effectformat/outer_shadow_effect/) | Outer shadow.<br/>            Read/write <br/>[`IOuterShadow`](/slides/python-net/aspose.slides.effects/ioutershadow)<br/>. |
+| [preset_shadow_effect](/slides/python-net/aspose.slides/effectformat/preset_shadow_effect/) | Preset shadow.<br/>            Read/write <br/>[`IPresetShadow`](/slides/python-net/aspose.slides.effects/ipresetshadow)<br/>. |
+| [reflection_effect](/slides/python-net/aspose.slides/effectformat/reflection_effect/) | Reflection. <br/>            Read/write <br/>[`IReflection`](/slides/python-net/aspose.slides.effects/ireflection)<br/>. |
+| [soft_edge_effect](/slides/python-net/aspose.slides/effectformat/soft_edge_effect/) | Soft edge.<br/>            Read/write <br/>[`ISoftEdge`](/slides/python-net/aspose.slides.effects/isoftedge)<br/>. |
 | [slide](/slides/python-net/aspose.slides/effectformat/slide/) |  |
 | [presentation](/slides/python-net/aspose.slides/effectformat/presentation/) |  |
 | [as_i_effect_param_source](/slides/python-net/aspose.slides/effectformat/as_i_effect_param_source/) |  |

@@ -17,8 +17,8 @@ The IFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [fill](/slides/python-net/aspose.slides.charts/iformat/fill/) | Returns fill style properties of a chart.<br/>            Read-only :py:class:`aspose.slides.IFillFormat`. |
-| [line](/slides/python-net/aspose.slides.charts/iformat/line/) | Returns line style properties of a chart.<br/>            Read-only :py:class:`aspose.slides.ILineFormat`. |
-| [effect](/slides/python-net/aspose.slides.charts/iformat/effect/) | Returns effects used for a chart.<br/>            Read-only :py:class:`aspose.slides.IEffectFormat`. |
-| [effect_3d](/slides/python-net/aspose.slides.charts/iformat/effect_3d/) | Returns 3D format of a chart.<br/>            Read-only :py:class:`aspose.slides.IThreeDFormat`. |
+| [fill](/slides/python-net/aspose.slides.charts/iformat/fill/) | Returns fill style properties of a chart.<br/>            Read-only <br/>[`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)<br/>. |
+| [line](/slides/python-net/aspose.slides.charts/iformat/line/) | Returns line style properties of a chart.<br/>            Read-only <br/>[`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)<br/>. |
+| [effect](/slides/python-net/aspose.slides.charts/iformat/effect/) | Returns effects used for a chart.<br/>            Read-only <br/>[`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)<br/>. |
+| [effect_3d](/slides/python-net/aspose.slides.charts/iformat/effect_3d/) | Returns 3D format of a chart.<br/>            Read-only <br/>[`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)<br/>. |
 

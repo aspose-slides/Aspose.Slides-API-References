@@ -17,7 +17,7 @@ The SlideShowSettings type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [slide_show_type](/slides/python-net/aspose.slides/slideshowsettings/slide_show_type/) | Gets or sets the slide show type. Represented by the following :py:attr:`aspose.slides.SlideShowSettings.slide_show_type` ancestors: :py:class:`aspose.slides.BrowsedAtKiosk`, :py:class:`aspose.slides.PresentedBySpeaker` and :py:class:`aspose.slides.BrowsedByIndividual` |
+| [slide_show_type](/slides/python-net/aspose.slides/slideshowsettings/slide_show_type/) | Gets or sets the slide show type. Represented by the following <br/>[`SlideShowSettings.slide_show_type`](/slides/python-net/aspose.slides/slideshowsettings#slide_show_type)<br/> ancestors: <br/>[`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk)<br/>, <br/>[`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker)<br/> and <br/>[`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual) |
 | [loop](/slides/python-net/aspose.slides/slideshowsettings/loop/) | Loop Slide Show |
 | [show_narration](/slides/python-net/aspose.slides/slideshowsettings/show_narration/) | Show Narration in Slide Show |
 | [show_animation](/slides/python-net/aspose.slides/slideshowsettings/show_animation/) | Show Animation in Slide Show |

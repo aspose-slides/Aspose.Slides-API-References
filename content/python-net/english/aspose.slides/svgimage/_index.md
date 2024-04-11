@@ -28,8 +28,8 @@ The SvgImage type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [svg_data](/slides/python-net/aspose.slides/svgimage/svg_data/) | Returns SVG data.<br/>            Read-only :py:class:`int`[]. |
-| [external_resource_resolver](/slides/python-net/aspose.slides/svgimage/external_resource_resolver/) | Return callback interface used to resolve external resources during Svg documents import.<br/>            Read-only :py:class:`aspose.slides.importing.IExternalResourceResolver`. |
-| [base_uri](/slides/python-net/aspose.slides/svgimage/base_uri/) | Returns base URI of the specified Svg. Used to resolve relative links.<br/>            Read-only :py:class:`System.String`. |
-| [svg_content](/slides/python-net/aspose.slides/svgimage/svg_content/) | Returns SVG content.<br/>            Read-only :py:class:`System.String`. |
+| [svg_data](/slides/python-net/aspose.slides/svgimage/svg_data/) | Returns SVG data.<br/>            Read-only <br/>.NET type System.Byte<br/>[]. |
+| [external_resource_resolver](/slides/python-net/aspose.slides/svgimage/external_resource_resolver/) | Return callback interface used to resolve external resources during Svg documents import.<br/>            Read-only <br/>IExternalResourceResolver<br/>. |
+| [base_uri](/slides/python-net/aspose.slides/svgimage/base_uri/) | Returns base URI of the specified Svg. Used to resolve relative links.<br/>            Read-only <br/>.NET type System.String<br/>. |
+| [svg_content](/slides/python-net/aspose.slides/svgimage/svg_content/) | Returns SVG content.<br/>            Read-only <br/>.NET type System.String<br/>. |
 

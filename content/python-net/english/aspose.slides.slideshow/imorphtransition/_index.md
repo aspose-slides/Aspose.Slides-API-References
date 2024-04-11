@@ -17,6 +17,6 @@ The IMorphTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [morph_type](/slides/python-net/aspose.slides.slideshow/imorphtransition/morph_type/) | Type of morph transition.<br/>            Read/write :py:enum:`aspose.slides.slideshow.TransitionMorphType`. |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/imorphtransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only :py:class:`aspose.slides.slideshow.ITransitionValueBase`. |
+| [morph_type](/slides/python-net/aspose.slides.slideshow/imorphtransition/morph_type/) | Type of morph transition.<br/>            Read/write <br/>[`TransitionMorphType`](/slides/python-net/aspose.slides.slideshow/transitionmorphtype)<br/>. |
+| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/imorphtransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only <br/>[`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)<br/>. |
 

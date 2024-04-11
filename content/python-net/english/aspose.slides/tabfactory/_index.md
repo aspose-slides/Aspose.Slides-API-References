@@ -30,4 +30,3 @@ The TabFactory type exposes the following members:
 
 For COM compatibility.
 
-

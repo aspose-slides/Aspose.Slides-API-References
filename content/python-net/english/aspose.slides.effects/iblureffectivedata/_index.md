@@ -18,7 +18,7 @@ The IBlurEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/iblureffectivedata/radius/) | Returns or sets blur radius.<br/>            Read-only :py:class:`float`. |
-| [grow](/slides/python-net/aspose.slides.effects/iblureffectivedata/grow/) | Determines whether the bounds of the object should be grown as a result of the blurring.<br/>            True indicates the bounds are grown while false indicates that they are not.<br/>            Read-only :py:class:`bool`. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/iblureffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only :py:class:`aspose.slides.effects.IEffectEffectiveData`. |
+| [radius](/slides/python-net/aspose.slides.effects/iblureffectivedata/radius/) | Returns or sets blur radius.<br/>            Read-only <br/>.NET type System.Double<br/>. |
+| [grow](/slides/python-net/aspose.slides.effects/iblureffectivedata/grow/) | Determines whether the bounds of the object should be grown as a result of the blurring.<br/>            True indicates the bounds are grown while false indicates that they are not.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
+| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/iblureffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only <br/>[`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata)<br/>. |
 

@@ -9,7 +9,9 @@ url: /aspose.slides.export/frametickeventargs/
 
 FrameTickEventArgs class
 
-Represents arguments of the  event.
+Represents arguments of the 
+FrameTick
+ event.
 
 The FrameTickEventArgs type exposes the following members:
 
@@ -23,5 +25,5 @@ The FrameTickEventArgs type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_frame](/slides/python-net/aspose.slides.export/frametickeventargs/frametickeventargs/#/) | Get the current :py:class:`aspose.slides.export.PresentationPlayer` frame. |
+| [get_frame](/slides/python-net/aspose.slides.export/frametickeventargs/frametickeventargs/#/) | Get the current <br/>[`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer)<br/> frame. |
 

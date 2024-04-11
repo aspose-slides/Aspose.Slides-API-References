@@ -29,8 +29,5 @@ The ParagraphFactory type exposes the following members:
 
 ### Remarks
 
-
-            For COM compatibility.
-            
-
+For COM compatibility.
 

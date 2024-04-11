@@ -17,5 +17,5 @@ The IBaseShapeLock type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [no_locks](/slides/python-net/aspose.slides/ibaseshapelock/no_locks/) | Return true if all lock-flags are disabled.<br/>            Read-only :py:class:`bool`. |
+| [no_locks](/slides/python-net/aspose.slides/ibaseshapelock/no_locks/) | Return true if all lock-flags are disabled.<br/>            Read-only <br/>.NET type System.Boolean<br/>. |
 

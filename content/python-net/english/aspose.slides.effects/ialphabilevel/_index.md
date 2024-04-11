@@ -19,8 +19,8 @@ The IAlphaBiLevel type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [threshold](/slides/python-net/aspose.slides.effects/ialphabilevel/threshold/) | Returns effect threshold.<br/>            Read/write :py:class:`float`. |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ialphabilevel/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only :py:class:`aspose.slides.effects.IImageTransformOperation`. |
+| [threshold](/slides/python-net/aspose.slides.effects/ialphabilevel/threshold/) | Returns effect threshold.<br/>            Read/write <br/>.NET type System.Single<br/>. |
+| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ialphabilevel/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only <br/>[`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation)<br/>. |
 
 ## Methods
 
@@ -31,8 +31,5 @@ The IAlphaBiLevel type exposes the following members:
 
 ### Remarks
 
-
-            Use ImageTransformOperationFactory to create instaces in COM.
-            
-
+Use ImageTransformOperationFactory to create instaces in COM.
 

@@ -17,7 +17,7 @@ The TrendlineCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.charts/trendlinecollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only :py:class:`int`. |
+| [count](/slides/python-net/aspose.slides.charts/trendlinecollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only <br/>.NET type System.Int32<br/>. |
 | [as_i_enumerable](/slides/python-net/aspose.slides.charts/trendlinecollection/as_i_enumerable/) |  |
 
 ## Indexer

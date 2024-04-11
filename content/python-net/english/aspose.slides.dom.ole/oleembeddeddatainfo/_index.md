@@ -18,12 +18,12 @@ The OleEmbeddedDataInfo type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/#/) | Creates new embedded data info for OLE object. |
-| [__init__](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/#bytes-string/) | Creates a new instance of an embedded data info for OLE object. |
+| [__init__](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/#bytes-string/) | Creates a new instance of an embedded data info for OLE object.<br/>            <br/>File data of an embedded OLE object <br/>.NET type System.Byte<br/>[].<br/>File extension for the current embedded OLE object <br/>.NET type System.String<br/>. |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [embedded_file_data](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/embedded_file_data/) | Returns the file data of an embedded OLE object<br/>            Read only :py:class:`int`[]. |
-| [embedded_file_extension](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/embedded_file_extension/) | Returns the file extension for the current embedded OLE object<br/>            Read only :py:class:`System.String`. |
+| [embedded_file_data](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/embedded_file_data/) | Returns the file data of an embedded OLE object<br/>            Read only <br/>.NET type System.Byte<br/>[]. |
+| [embedded_file_extension](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/embedded_file_extension/) | Returns the file extension for the current embedded OLE object<br/>            Read only <br/>.NET type System.String<br/>. |
 

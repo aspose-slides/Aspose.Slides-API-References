@@ -25,13 +25,13 @@ The Html5Options type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [warning_callback](/slides/python-net/aspose.slides.export/html5options/warning_callback/) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write :py:class:`aspose.slides.warnings.IWarningCallback`. |
-| [progress_callback](/slides/python-net/aspose.slides.export/html5options/progress_callback/) | Represents a callback object for saving progress updates in percentage.<br/>            See :py:class:`aspose.slides.IProgressCallback`. |
-| [default_regular_font](/slides/python-net/aspose.slides.export/html5options/default_regular_font/) | Returns or sets font used in case source font is not found.<br/>            Read-write :py:class:`System.String`. |
-| [animate_transitions](/slides/python-net/aspose.slides.export/html5options/animate_transitions/) | Returns or sets transitions animation option.<br/>            Read/write :py:class:`bool`. |
-| [animate_shapes](/slides/python-net/aspose.slides.export/html5options/animate_shapes/) | Returns or sets shapes animation option.<br/>            Read/write :py:class:`bool`. |
-| [embed_images](/slides/python-net/aspose.slides.export/html5options/embed_images/) | Returns or sets images embedding option. <br/>            Read/write :py:class:`bool`. |
-| [output_path](/slides/python-net/aspose.slides.export/html5options/output_path/) | Determines where external resources should be stored. <br/>            Read/write :py:class:`System.String`. |
-| [notes_comments_layouting](/slides/python-net/aspose.slides.export/html5options/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document.<br/>            Read/write :py:class:`aspose.slides.export.INotesCommentsLayoutingOptions`. |
+| [warning_callback](/slides/python-net/aspose.slides.export/html5options/warning_callback/) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write <br/>[`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback)<br/>. |
+| [progress_callback](/slides/python-net/aspose.slides.export/html5options/progress_callback/) | Represents a callback object for saving progress updates in percentage.<br/>            See <br/>[`IProgressCallback`](/slides/python-net/aspose.slides/iprogresscallback)<br/>. |
+| [default_regular_font](/slides/python-net/aspose.slides.export/html5options/default_regular_font/) | Returns or sets font used in case source font is not found.<br/>            Read-write <br/>.NET type System.String<br/>. |
+| [animate_transitions](/slides/python-net/aspose.slides.export/html5options/animate_transitions/) | Returns or sets transitions animation option.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [animate_shapes](/slides/python-net/aspose.slides.export/html5options/animate_shapes/) | Returns or sets shapes animation option.<br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [embed_images](/slides/python-net/aspose.slides.export/html5options/embed_images/) | Returns or sets images embedding option. <br/>            Read/write <br/>.NET type System.Boolean<br/>. |
+| [output_path](/slides/python-net/aspose.slides.export/html5options/output_path/) | Determines where external resources should be stored. <br/>            Read/write <br/>.NET type System.String<br/>. |
+| [notes_comments_layouting](/slides/python-net/aspose.slides.export/html5options/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document.<br/>            Read/write <br/>[`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions)<br/>. |
 | [as_i_save_options](/slides/python-net/aspose.slides.export/html5options/as_i_save_options/) |  |
 

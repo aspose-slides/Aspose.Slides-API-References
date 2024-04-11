@@ -9,7 +9,9 @@ url: /aspose.slides.export.web/storage/
 
 Storage class
 
-Represents a temporary data storage for :py:class:`aspose.slides.export.web.WebDocument`.
+Represents a temporary data storage for 
+[`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument)
+.
 
 The Storage type exposes the following members:
 

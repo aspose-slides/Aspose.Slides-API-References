@@ -17,7 +17,7 @@ The TableFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [fill_format](/slides/python-net/aspose.slides/tableformat/fill_format/) | Returns a table fill properties object.<br/>            Read-only :py:class:`aspose.slides.IFillFormat`. |
+| [fill_format](/slides/python-net/aspose.slides/tableformat/fill_format/) | Returns a table fill properties object.<br/>            Read-only <br/>[`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)<br/>. |
 
 ## Methods
 
