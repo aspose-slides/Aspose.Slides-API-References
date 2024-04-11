@@ -1,5 +1,5 @@
 ﻿---
-title: LineFillFormat
+title: LineFillFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/linefillformat/
 ---
 
 
-LineFillFormat class
+## LineFillFormat class
 
 Represents properties for lines filling.
 

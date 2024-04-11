@@ -1,5 +1,5 @@
 ﻿---
-title: BehaviorAdditiveType
+title: BehaviorAdditiveType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/behavioradditivetype/
 ---
 
 
-BehaviorAdditiveType enumeration
+## BehaviorAdditiveType class
 
 Represents additive type for effect behavior.
 

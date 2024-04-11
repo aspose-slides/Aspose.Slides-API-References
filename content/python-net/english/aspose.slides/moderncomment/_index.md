@@ -1,5 +1,5 @@
 ﻿---
-title: ModernComment
+title: ModernComment class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/moderncomment/
 ---
 
 
-ModernComment class
+## ModernComment class
 
 Represents a comment on a slide.
 

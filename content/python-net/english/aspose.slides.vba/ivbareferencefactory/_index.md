@@ -1,5 +1,5 @@
 ﻿---
-title: IVbaReferenceFactory
+title: IVbaReferenceFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.vba/ivbareferencefactory/
 ---
 
 
-IVbaReferenceFactory class
+## IVbaReferenceFactory class
 
 Allows to create VBA project references via COM interface
 

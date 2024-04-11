@@ -1,5 +1,5 @@
 ﻿---
-title: ISoftEdge
+title: ISoftEdge class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/isoftedge/
 ---
 
 
-ISoftEdge class
+## ISoftEdge class
 
 Represents a Soft Edge effect. 
             The edges of the shape are blurred, while the fill is not affected.

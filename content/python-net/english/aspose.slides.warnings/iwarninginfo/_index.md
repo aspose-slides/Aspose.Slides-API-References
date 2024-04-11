@@ -1,5 +1,5 @@
 ﻿---
-title: IWarningInfo
+title: IWarningInfo class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.warnings/iwarninginfo/
 ---
 
 
-IWarningInfo class
+## IWarningInfo class
 
 Represents a base interface for all warnings.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: SvgExternalFontsHandling
+title: SvgExternalFontsHandling enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/svgexternalfontshandling/
 ---
 
 
-SvgExternalFontsHandling enumeration
+## SvgExternalFontsHandling class
 
 Represents a way to handle external fonts used for text drawing.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: InvalidPasswordException
+title: InvalidPasswordException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/invalidpasswordexception/
 ---
 
 
-InvalidPasswordException class
+## InvalidPasswordException class
 
 Exception which thrown when presentation file format is unsupported.
 

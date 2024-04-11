@@ -1,5 +1,5 @@
 ﻿---
-title: ISvgTSpan
+title: ISvgTSpan class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/isvgtspan/
 ---
 
 
-ISvgTSpan class
+## ISvgTSpan class
 
 Represents options for SVG text portion ("tspan").
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IGlitterTransition
+title: IGlitterTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/iglittertransition/
 ---
 
 
-IGlitterTransition class
+## IGlitterTransition class
 
 Glitter slide transition effect.
 

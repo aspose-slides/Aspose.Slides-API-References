@@ -1,5 +1,5 @@
 ﻿---
-title: IBasePortionFormatEffectiveData
+title: IBasePortionFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ibaseportionformateffectivedata/
 ---
 
 
-IBasePortionFormatEffectiveData class
+## IBasePortionFormatEffectiveData class
 
 Base interface for immutable objects which contain effective text portion formatting properties.
 

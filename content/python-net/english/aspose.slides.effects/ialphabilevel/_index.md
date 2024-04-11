@@ -1,5 +1,5 @@
 ﻿---
-title: IAlphaBiLevel
+title: IAlphaBiLevel class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ialphabilevel/
 ---
 
 
-IAlphaBiLevel class
+## IAlphaBiLevel class
 
 Represents an Alpha Bi-Level effect.
             Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and

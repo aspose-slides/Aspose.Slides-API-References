@@ -1,5 +1,5 @@
 ﻿---
-title: IWheelTransition
+title: IWheelTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/iwheeltransition/
 ---
 
 
-IWheelTransition class
+## IWheelTransition class
 
 Wheel slide transition effect.
 

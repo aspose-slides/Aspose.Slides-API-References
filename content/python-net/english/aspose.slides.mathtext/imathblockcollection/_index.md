@@ -1,5 +1,5 @@
 ﻿---
-title: IMathBlockCollection
+title: IMathBlockCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathblockcollection/
 ---
 
 
-IMathBlockCollection class
+## IMathBlockCollection class
 
 Collection of math blocks (IMathBlock)
 

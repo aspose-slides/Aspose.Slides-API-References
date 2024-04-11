@@ -1,5 +1,5 @@
 ﻿---
-title: LoadFormat
+title: LoadFormat enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/loadformat/
 ---
 
 
-LoadFormat enumeration
+## LoadFormat class
 
 Indicates the format of the document that is to be loaded.
 

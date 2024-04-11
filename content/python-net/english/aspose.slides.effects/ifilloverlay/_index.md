@@ -1,5 +1,5 @@
 ﻿---
-title: IFillOverlay
+title: IFillOverlay class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ifilloverlay/
 ---
 
 
-IFillOverlay class
+## IFillOverlay class
 
 Represents a Fill Overlay effect. A fill overlay may be used to specify
             an additional fill for an object and blend the two fills together.

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/sequence/remove_by_shape/
-weight: 60
+weight: 80
 ---
 
 

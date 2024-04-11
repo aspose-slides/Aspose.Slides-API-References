@@ -1,5 +1,5 @@
 ﻿---
-title: IChart
+title: IChart class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichart/
 ---
 
 
-IChart class
+## IChart class
 
 Represents an graphic chart on a slide.
 

@@ -1,0 +1,20 @@
+﻿---
+title: as_i_layoutable property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.charts/ichartplotarea/as_i_layoutable/
+weight: 70
+---
+
+
+## as_i_layoutable property
+Allows to get base ILayoutable interface.
+            Read-only [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable).
+
+### Definition:
+```python
+@property
+def as_i_layoutable(self):
+    ...
+```

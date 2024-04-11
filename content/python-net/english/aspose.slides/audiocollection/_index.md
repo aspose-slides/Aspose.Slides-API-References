@@ -1,5 +1,5 @@
 ﻿---
-title: AudioCollection
+title: AudioCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/audiocollection/
 ---
 
 
-AudioCollection class
+## AudioCollection class
 
 Represents a collection of embedded audio files.
 

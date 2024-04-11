@@ -1,5 +1,5 @@
 ﻿---
-title: IFontFallBackRulesCollection
+title: IFontFallBackRulesCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ifontfallbackrulescollection/
 ---
 
 
-IFontFallBackRulesCollection class
+## IFontFallBackRulesCollection class
 
 Represents a collection of FontFallBack rules, defined by user
 

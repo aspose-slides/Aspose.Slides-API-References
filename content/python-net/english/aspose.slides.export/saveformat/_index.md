@@ -1,5 +1,5 @@
 ﻿---
-title: SaveFormat
+title: SaveFormat enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/saveformat/
 ---
 
 
-SaveFormat enumeration
+## SaveFormat class
 
 Constants which define the format of a saved presentation.
 

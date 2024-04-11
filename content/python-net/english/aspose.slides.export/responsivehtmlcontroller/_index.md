@@ -1,5 +1,5 @@
 ﻿---
-title: ResponsiveHtmlController
+title: ResponsiveHtmlController class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/responsivehtmlcontroller/
 ---
 
 
-ResponsiveHtmlController class
+## ResponsiveHtmlController class
 
 Responsive HTML Controller
 

@@ -1,5 +1,5 @@
 ﻿---
-title: BaseSlide
+title: BaseSlide class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/baseslide/
 ---
 
 
-BaseSlide class
+## BaseSlide class
 
 Represents common data for all slide types.
 

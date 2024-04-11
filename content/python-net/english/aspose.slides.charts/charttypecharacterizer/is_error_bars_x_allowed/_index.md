@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/charttypecharacterizer/is_error_bars_x_allowed/
-weight: 210
+weight: 160
 ---
 
 

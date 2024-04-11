@@ -1,5 +1,5 @@
 ﻿---
-title: EffectFormat
+title: EffectFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-EffectFormat class
+## EffectFormat class
 
 Represents effect properties of shape.
 

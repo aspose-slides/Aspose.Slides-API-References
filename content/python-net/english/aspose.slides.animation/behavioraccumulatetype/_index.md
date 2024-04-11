@@ -1,5 +1,5 @@
 ﻿---
-title: BehaviorAccumulateType
+title: BehaviorAccumulateType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/behavioraccumulatetype/
 ---
 
 
-BehaviorAccumulateType enumeration
+## BehaviorAccumulateType class
 
 Represents types of accumulation of effect behaviors.
 

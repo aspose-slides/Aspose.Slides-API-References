@@ -1,5 +1,5 @@
 ﻿---
-title: MathDelimiterShape
+title: MathDelimiterShape enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathdelimitershape/
 ---
 
 
-MathDelimiterShape enumeration
+## MathDelimiterShape class
 
 The location and size of the delimiters relative to the content of the operands
 

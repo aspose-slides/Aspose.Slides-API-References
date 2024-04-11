@@ -1,0 +1,23 @@
+﻿---
+title: has_data_table property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.charts/ichart/has_data_table/
+weight: 330
+---
+
+
+## has_data_table property
+Determines whether a chart has a data table.
+            Read/write .NET type System.Boolean.
+
+### Definition:
+```python
+@property
+def has_data_table(self):
+    ...
+@has_data_table.setter
+def has_data_table(self, value):
+    ...
+```

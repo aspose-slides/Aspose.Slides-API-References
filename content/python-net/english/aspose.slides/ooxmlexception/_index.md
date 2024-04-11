@@ -1,5 +1,5 @@
 ﻿---
-title: OOXMLException
+title: OOXMLException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ooxmlexception/
 ---
 
 
-OOXMLException class
+## OOXMLException class
 
 Represents a standard internal exception type related to Office Open XML file format.
 

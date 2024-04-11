@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/shape/get_base_placeholder/
-weight: 60
+weight: 20
 ---
 
 

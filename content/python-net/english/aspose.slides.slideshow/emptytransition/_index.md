@@ -1,5 +1,5 @@
 ﻿---
-title: EmptyTransition
+title: EmptyTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/emptytransition/
 ---
 
 
-EmptyTransition class
+## EmptyTransition class
 
 Empty slide transition effect.
 

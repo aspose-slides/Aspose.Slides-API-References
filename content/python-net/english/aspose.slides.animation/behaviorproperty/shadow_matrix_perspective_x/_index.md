@@ -1,0 +1,19 @@
+﻿---
+title: shadow_matrix_perspective_x property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.animation/behaviorproperty/shadow_matrix_perspective_x/
+weight: 620
+---
+
+
+## shadow_matrix_perspective_x property
+Represents 'shadow.matrix.perspectiveX' property
+
+### Definition:
+```python
+@property
+def shadow_matrix_perspective_x(self):
+    ...
+```

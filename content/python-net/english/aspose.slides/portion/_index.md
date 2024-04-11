@@ -1,5 +1,5 @@
 ﻿---
-title: Portion
+title: Portion class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/portion/
 ---
 
 
-Portion class
+## Portion class
 
 Represents a portion of text inside a text paragraph.
 

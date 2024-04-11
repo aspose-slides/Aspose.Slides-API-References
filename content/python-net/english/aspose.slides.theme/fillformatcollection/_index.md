@@ -1,5 +1,5 @@
 ﻿---
-title: FillFormatCollection
+title: FillFormatCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/fillformatcollection/
 ---
 
 
-FillFormatCollection class
+## FillFormatCollection class
 
 Represents the collection of fill styles.
 

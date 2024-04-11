@@ -1,5 +1,5 @@
 ﻿---
-title: EffectFillType
+title: EffectFillType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effectfilltype/
 ---
 
 
-EffectFillType enumeration
+## EffectFillType class
 
 Represent fill types.
 

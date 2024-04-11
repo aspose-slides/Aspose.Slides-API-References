@@ -1,5 +1,5 @@
 ﻿---
-title: IOleEmbeddedDataInfo
+title: IOleEmbeddedDataInfo class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ioleembeddeddatainfo/
 ---
 
 
-IOleEmbeddedDataInfo class
+## IOleEmbeddedDataInfo class
 
 Represents embedded data info for OLE object.
 

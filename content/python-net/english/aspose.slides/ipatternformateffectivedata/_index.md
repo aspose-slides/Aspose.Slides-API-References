@@ -1,5 +1,5 @@
 ﻿---
-title: IPatternFormatEffectiveData
+title: IPatternFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ipatternformateffectivedata/
 ---
 
 
-IPatternFormatEffectiveData class
+## IPatternFormatEffectiveData class
 
 Immutable object which contains effective pattern filling properties.
 

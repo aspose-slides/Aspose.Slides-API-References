@@ -1,5 +1,5 @@
 ﻿---
-title: Compress
+title: Compress class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.lowcode/compress/
 ---
 
 
-Compress class
+## Compress class
 
 Represents a group of methods intended to compress [`Presentation`](/slides/python-net/aspose.slides/presentation).
 

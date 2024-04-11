@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/masternotesslideheaderfootermanager/set_date_time_and_child_date_times_visibility/
-weight: 130
+weight: 20
 ---
 
 

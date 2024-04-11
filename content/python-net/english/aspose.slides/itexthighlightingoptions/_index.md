@@ -1,5 +1,5 @@
 ﻿---
-title: ITextHighlightingOptions
+title: ITextHighlightingOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itexthighlightingoptions/
 ---
 
 
-ITextHighlightingOptions class
+## ITextHighlightingOptions class
 
 Represents options which can be used to highlight text in text frame.
 

@@ -1,0 +1,19 @@
+﻿---
+title: is_read_only property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.mathtext/mathblock/is_read_only/
+weight: 400
+---
+
+
+## is_read_only property
+Returns false because child elements collection can be modified.
+
+### Definition:
+```python
+@property
+def is_read_only(self):
+    ...
+```

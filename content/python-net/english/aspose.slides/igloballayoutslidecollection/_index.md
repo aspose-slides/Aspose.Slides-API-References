@@ -1,5 +1,5 @@
 ﻿---
-title: IGlobalLayoutSlideCollection
+title: IGlobalLayoutSlideCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/igloballayoutslidecollection/
 ---
 
 
-IGlobalLayoutSlideCollection class
+## IGlobalLayoutSlideCollection class
 
 Represents a collection of all layout slides in presentation.
             Extends ILayoutSlideCollection interface with methods for adding/cloning 

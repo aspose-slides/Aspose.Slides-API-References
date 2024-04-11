@@ -1,5 +1,5 @@
 ﻿---
-title: NewLineType
+title: NewLineType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/newlinetype/
 ---
 
 
-NewLineType enumeration
+## NewLineType class
 
 Type of new line that will be used in generated document.
 

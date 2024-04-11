@@ -1,5 +1,5 @@
 ﻿---
-title: IChartDataPointCollection
+title: IChartDataPointCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartdatapointcollection/
 ---
 
 
-IChartDataPointCollection class
+## IChartDataPointCollection class
 
 Represents collection of a series data point.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ISmartArtNodeCollection
+title: ISmartArtNodeCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.smartart/ismartartnodecollection/
 ---
 
 
-ISmartArtNodeCollection class
+## ISmartArtNodeCollection class
 
 Represents a collection of SmartArt nodes.
 

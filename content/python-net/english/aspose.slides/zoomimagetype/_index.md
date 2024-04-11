@@ -1,5 +1,5 @@
 ﻿---
-title: ZoomImageType
+title: ZoomImageType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/zoomimagetype/
 ---
 
 
-ZoomImageType enumeration
+## ZoomImageType class
 
 Defines whether the Zoom object is using the slide preview or a cover image.
 

@@ -1,0 +1,23 @@
+﻿---
+title: position property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.mathtext/imathgroupingcharacter/position/
+weight: 260
+---
+
+
+## position property
+Position of grouping character.
+            Default: Bottom
+
+### Definition:
+```python
+@property
+def position(self):
+    ...
+@position.setter
+def position(self, value):
+    ...
+```

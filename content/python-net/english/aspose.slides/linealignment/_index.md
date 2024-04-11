@@ -1,5 +1,5 @@
 ﻿---
-title: LineAlignment
+title: LineAlignment enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/linealignment/
 ---
 
 
-LineAlignment enumeration
+## LineAlignment class
 
 Represents the lines alignment type.
 

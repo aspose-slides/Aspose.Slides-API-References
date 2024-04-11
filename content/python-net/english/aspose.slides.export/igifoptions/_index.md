@@ -1,5 +1,5 @@
 ﻿---
-title: IGifOptions
+title: IGifOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/igifoptions/
 ---
 
 
-IGifOptions class
+## IGifOptions class
 
 Represents GIF exporting options.
 

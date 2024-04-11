@@ -1,5 +1,5 @@
 ﻿---
-title: ColorEffect
+title: ColorEffect class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/coloreffect/
 ---
 
 
-ColorEffect class
+## ColorEffect class
 
 Represents a color effect for an animation behavior.
 

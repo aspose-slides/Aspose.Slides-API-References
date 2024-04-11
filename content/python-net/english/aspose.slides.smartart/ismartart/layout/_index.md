@@ -1,0 +1,23 @@
+﻿---
+title: layout property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.smartart/ismartart/layout/
+weight: 310
+---
+
+
+## layout property
+Return or set layout of the SmartArt object.
+            Read/write [`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype).
+
+### Definition:
+```python
+@property
+def layout(self):
+    ...
+@layout.setter
+def layout(self, value):
+    ...
+```

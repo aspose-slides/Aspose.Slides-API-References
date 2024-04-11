@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/istringchartvalue/set_from_one_cell/
-weight: 30
+weight: 20
 ---
 
 

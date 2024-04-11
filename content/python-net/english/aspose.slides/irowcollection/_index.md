@@ -1,5 +1,5 @@
 ﻿---
-title: IRowCollection
+title: IRowCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/irowcollection/
 ---
 
 
-IRowCollection class
+## IRowCollection class
 
 Represents table row collection.
 

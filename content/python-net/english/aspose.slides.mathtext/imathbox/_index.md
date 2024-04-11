@@ -1,5 +1,5 @@
 ﻿---
-title: IMathBox
+title: IMathBox class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathbox/
 ---
 
 
-IMathBox class
+## IMathBox class
 
 Specifies the logical boxing (packaging) of mathematical element.
             For example, a boxed object can serve as an operator emulator with or without an alignment point, 

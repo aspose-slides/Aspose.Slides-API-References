@@ -1,5 +1,5 @@
 ﻿---
-title: NotesPositions
+title: NotesPositions enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/notespositions/
 ---
 
 
-NotesPositions enumeration
+## NotesPositions class
 
 Represents the rule to render notes into exported document
 

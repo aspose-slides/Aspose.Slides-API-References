@@ -1,5 +1,5 @@
 ﻿---
-title: ISvgImage
+title: ISvgImage class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/isvgimage/
 ---
 
 
-ISvgImage class
+## ISvgImage class
 
 Represents an SVG image.
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/charttypecharacterizer/is_chart_type_area/
-weight: 90
+weight: 50
 ---
 
 

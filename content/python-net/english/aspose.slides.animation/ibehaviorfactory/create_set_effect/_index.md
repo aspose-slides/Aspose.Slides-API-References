@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/ibehaviorfactory/create_set_effect/
-weight: 90
+weight: 80
 ---
 
 

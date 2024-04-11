@@ -1,5 +1,5 @@
 ﻿---
-title: Cell
+title: Cell class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/cell/
 ---
 
 
-Cell class
+## Cell class
 
 Represents a cell of a table.
 

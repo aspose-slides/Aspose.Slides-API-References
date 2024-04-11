@@ -1,5 +1,5 @@
 ﻿---
-title: EffectSubtype
+title: EffectSubtype enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effectsubtype/
 ---
 
 
-EffectSubtype enumeration
+## EffectSubtype class
 
 Represents subtypes of animation effect.
 

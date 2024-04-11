@@ -1,5 +1,5 @@
 ﻿---
-title: SplitTransition
+title: SplitTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/splittransition/
 ---
 
 
-SplitTransition class
+## SplitTransition class
 
 Split slide transition effect.
 

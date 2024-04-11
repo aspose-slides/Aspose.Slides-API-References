@@ -1,5 +1,5 @@
 ﻿---
-title: LineCapStyle
+title: LineCapStyle enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/linecapstyle/
 ---
 
 
-LineCapStyle enumeration
+## LineCapStyle class
 
 Represents the line cap style.
 

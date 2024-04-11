@@ -1,5 +1,5 @@
 ﻿---
-title: MasterHandoutSlideHeaderFooterManager
+title: MasterHandoutSlideHeaderFooterManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/masterhandoutslideheaderfootermanager/
 ---
 
 
-MasterHandoutSlideHeaderFooterManager class
+## MasterHandoutSlideHeaderFooterManager class
 
 Represents manager which holds behavior of the master handout slide placeholders, including header placeholder.
 

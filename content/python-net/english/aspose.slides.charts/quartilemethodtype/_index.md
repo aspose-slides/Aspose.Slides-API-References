@@ -1,5 +1,5 @@
 ﻿---
-title: QuartileMethodType
+title: QuartileMethodType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/quartilemethodtype/
 ---
 
 
-QuartileMethodType enumeration
+## QuartileMethodType class
 
 Returns type of quartile method
 

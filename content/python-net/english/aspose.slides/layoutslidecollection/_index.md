@@ -1,5 +1,5 @@
 ﻿---
-title: LayoutSlideCollection
+title: LayoutSlideCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/layoutslidecollection/
 ---
 
 
-LayoutSlideCollection class
+## LayoutSlideCollection class
 
 Represents a base class for collection of a layout slides.
 

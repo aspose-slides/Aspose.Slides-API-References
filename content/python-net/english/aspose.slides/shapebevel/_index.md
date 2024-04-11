@@ -1,5 +1,5 @@
 ﻿---
-title: ShapeBevel
+title: ShapeBevel class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/shapebevel/
 ---
 
 
-ShapeBevel class
+## ShapeBevel class
 
 Contains the properties of shape's main face relief.
 

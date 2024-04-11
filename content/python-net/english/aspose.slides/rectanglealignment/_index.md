@@ -1,5 +1,5 @@
 ﻿---
-title: RectangleAlignment
+title: RectangleAlignment enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/rectanglealignment/
 ---
 
 
-RectangleAlignment enumeration
+## RectangleAlignment class
 
 Defines 2-dimension allignment.
 

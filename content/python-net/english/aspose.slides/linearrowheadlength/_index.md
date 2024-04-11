@@ -1,5 +1,5 @@
 ﻿---
-title: LineArrowheadLength
+title: LineArrowheadLength enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/linearrowheadlength/
 ---
 
 
-LineArrowheadLength enumeration
+## LineArrowheadLength class
 
 Represents the length of an arrowhead.
 

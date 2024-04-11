@@ -1,5 +1,5 @@
 ﻿---
-title: CellInvalidFormulaException
+title: CellInvalidFormulaException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 
 
-CellInvalidFormulaException class
+## CellInvalidFormulaException class
 
 The exception that is thrown when a calculated formula is not correct or was not parsed.
 

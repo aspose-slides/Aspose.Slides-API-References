@@ -1,5 +1,5 @@
 ﻿---
-title: MathBoxFactory
+title: MathBoxFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathboxfactory/
 ---
 
 
-MathBoxFactory class
+## MathBoxFactory class
 
 Allows to create a math box
 

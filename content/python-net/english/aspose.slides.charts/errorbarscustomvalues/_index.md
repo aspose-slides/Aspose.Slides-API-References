@@ -1,5 +1,5 @@
 ﻿---
-title: ErrorBarsCustomValues
+title: ErrorBarsCustomValues class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/errorbarscustomvalues/
 ---
 
 
-ErrorBarsCustomValues class
+## ErrorBarsCustomValues class
 
 Specifies the errors bar values. It shall be used only when the Error bars value type is Custom.
 

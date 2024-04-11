@@ -1,5 +1,5 @@
 ﻿---
-title: OrganizationChartLayoutType
+title: OrganizationChartLayoutType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.smartart/organizationchartlayouttype/
 ---
 
 
-OrganizationChartLayoutType enumeration
+## OrganizationChartLayoutType class
 
 Represents formatting type the child nodes in an organization chart
 

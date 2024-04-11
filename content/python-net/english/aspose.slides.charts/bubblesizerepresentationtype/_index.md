@@ -1,5 +1,5 @@
 ﻿---
-title: BubbleSizeRepresentationType
+title: BubbleSizeRepresentationType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/bubblesizerepresentationtype/
 ---
 
 
-BubbleSizeRepresentationType enumeration
+## BubbleSizeRepresentationType class
 
 Specifies the possible ways to represent data as bubble chart sizes.
 

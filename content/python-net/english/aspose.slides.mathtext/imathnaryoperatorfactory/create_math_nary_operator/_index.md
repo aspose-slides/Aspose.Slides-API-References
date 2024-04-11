@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathnaryoperatorfactory/create_math_nary_operator/
-weight: 20
+weight: 10
 ---
 
 

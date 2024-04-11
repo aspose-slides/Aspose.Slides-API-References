@@ -1,5 +1,5 @@
 ﻿---
-title: IRowFormat
+title: IRowFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/irowformat/
 ---
 
 
-IRowFormat class
+## IRowFormat class
 
 Represents format of a table row.
 

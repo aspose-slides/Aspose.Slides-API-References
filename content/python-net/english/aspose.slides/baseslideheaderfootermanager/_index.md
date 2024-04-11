@@ -1,5 +1,5 @@
 ﻿---
-title: BaseSlideHeaderFooterManager
+title: BaseSlideHeaderFooterManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/baseslideheaderfootermanager/
 ---
 
 
-BaseSlideHeaderFooterManager class
+## BaseSlideHeaderFooterManager class
 
 Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types.
 

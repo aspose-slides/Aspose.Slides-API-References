@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/embeddedeotfontshtmlcontroller/write_shape_start/
-weight: 60
+weight: 50
 ---
 
 

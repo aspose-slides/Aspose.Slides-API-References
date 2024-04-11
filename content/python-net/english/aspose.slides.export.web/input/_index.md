@@ -1,5 +1,5 @@
 ﻿---
-title: Input
+title: Input class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export.web/input/
 ---
 
 
-Input class
+## Input class
 
 Represents a collection of input elements (templates).
 

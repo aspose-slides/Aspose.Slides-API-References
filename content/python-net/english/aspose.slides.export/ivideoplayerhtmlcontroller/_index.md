@@ -1,5 +1,5 @@
 ﻿---
-title: IVideoPlayerHtmlController
+title: IVideoPlayerHtmlController class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 
 
-IVideoPlayerHtmlController class
+## IVideoPlayerHtmlController class
 
 This class allows export of video and audio files into a HTML
 

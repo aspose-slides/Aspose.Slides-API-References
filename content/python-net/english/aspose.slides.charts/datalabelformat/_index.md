@@ -1,5 +1,5 @@
 ﻿---
-title: DataLabelFormat
+title: DataLabelFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/datalabelformat/
 ---
 
 
-DataLabelFormat class
+## DataLabelFormat class
 
 Represents formatting options for DataLabel.
 

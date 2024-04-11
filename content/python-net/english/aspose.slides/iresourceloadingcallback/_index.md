@@ -1,5 +1,5 @@
 ﻿---
-title: IResourceLoadingCallback
+title: IResourceLoadingCallback class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iresourceloadingcallback/
 ---
 
 
-IResourceLoadingCallback class
+## IResourceLoadingCallback class
 
 Callback interface used to manage external resources loading.
 

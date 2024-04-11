@@ -1,5 +1,5 @@
 ﻿---
-title: TextStyle
+title: TextStyle class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/textstyle/
 ---
 
 
-TextStyle class
+## TextStyle class
 
 This class contains the text style formatting properties.
 

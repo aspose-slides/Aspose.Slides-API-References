@@ -1,5 +1,5 @@
 ﻿---
-title: PdfOptions
+title: PdfOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/pdfoptions/
 ---
 
 
-PdfOptions class
+## PdfOptions class
 
 Provides options that control how a presentation is saved in Pdf format.
 

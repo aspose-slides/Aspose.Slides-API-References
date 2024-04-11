@@ -1,0 +1,20 @@
+﻿---
+title: all_custom_xml_parts property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/ipresentation/all_custom_xml_parts/
+weight: 60
+---
+
+
+## all_custom_xml_parts property
+Returns all custom data parts in the presentaion.
+            Read-only [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart)[].
+
+### Definition:
+```python
+@property
+def all_custom_xml_parts(self):
+    ...
+```

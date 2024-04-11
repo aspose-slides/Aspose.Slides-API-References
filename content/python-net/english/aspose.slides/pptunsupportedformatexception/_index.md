@@ -1,5 +1,5 @@
 ﻿---
-title: PptUnsupportedFormatException
+title: PptUnsupportedFormatException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/pptunsupportedformatexception/
 ---
 
 
-PptUnsupportedFormatException class
+## PptUnsupportedFormatException class
 
 Exception which thrown when presentation file format is unsupported.
 

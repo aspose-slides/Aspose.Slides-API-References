@@ -1,5 +1,5 @@
 ﻿---
-title: FormatFactory
+title: FormatFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/formatfactory/
 ---
 
 
-FormatFactory class
+## FormatFactory class
 
 Allows to create formats via COM interface.
 

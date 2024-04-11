@@ -1,5 +1,5 @@
 ﻿---
-title: Theme
+title: Theme class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/theme/
 ---
 
 
-Theme class
+## Theme class
 
 Represents a theme.
 

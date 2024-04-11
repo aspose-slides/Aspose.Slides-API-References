@@ -1,0 +1,28 @@
+﻿---
+title: portion_format property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/iportion/portion_format/
+weight: 80
+---
+
+
+## portion_format property
+Returns formatting object which contains explicitly set formatting properties of the text portion with no inheritance applied.
+            Read-only [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat).
+
+
+### Remarks
+
+The formatting object contains the formatting parameters defined for the current portion only, inherited data is not applied.
+
+
+In order to get the effective values including inherited ones use [`IPortionFormat.get_effective`](/slides/python-net/aspose.slides/iportionformat/get_effective) method.
+
+### Definition:
+```python
+@property
+def portion_format(self):
+    ...
+```

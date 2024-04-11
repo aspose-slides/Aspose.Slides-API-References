@@ -1,0 +1,20 @@
+﻿---
+title: legend property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.charts/ichart/legend/
+weight: 450
+---
+
+
+## legend property
+Returns or sets a legend for a chart.
+            Read-only [`ILegend`](/slides/python-net/aspose.slides.charts/ilegend).
+
+### Definition:
+```python
+@property
+def legend(self):
+    ...
+```

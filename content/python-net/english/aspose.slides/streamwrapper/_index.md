@@ -1,5 +1,5 @@
 ﻿---
-title: StreamWrapper
+title: StreamWrapper class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/streamwrapper/
 ---
 
 
-StreamWrapper class
+## StreamWrapper class
 
 Aspose.IO.Stream wrapper for COM interface.
 

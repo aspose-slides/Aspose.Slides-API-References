@@ -1,5 +1,5 @@
 ﻿---
-title: MathElementBase
+title: MathElementBase class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathelementbase/
 ---
 
 
-MathElementBase class
+## MathElementBase class
 
 Base class for IMathElement with the implementation of some methods that are common to all inherited classes
             For internal use only. Inherited class must be IMathElement.

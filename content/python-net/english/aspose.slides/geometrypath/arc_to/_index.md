@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/geometrypath/arc_to/
-weight: 80
+weight: 20
 ---
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ImageTransformOCollectionEffectiveData
+title: ImageTransformOCollectionEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 
 
-ImageTransformOCollectionEffectiveData class
+## ImageTransformOCollectionEffectiveData class
 
 Immutable object that represents a readonly collection of effective image transform effects.
 

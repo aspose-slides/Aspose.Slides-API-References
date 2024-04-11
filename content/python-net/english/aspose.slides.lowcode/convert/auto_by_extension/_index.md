@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.lowcode/convert/auto_by_extension/
-weight: 40
+weight: 10
 ---
 
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathblock/remove/
-weight: 280
+weight: 220
 ---
 
 

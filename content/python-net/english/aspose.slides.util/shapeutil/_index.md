@@ -1,5 +1,5 @@
 ﻿---
-title: ShapeUtil
+title: ShapeUtil class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.util/shapeutil/
 ---
 
 
-ShapeUtil class
+## ShapeUtil class
 
 Offer methods which helps to process shapes objects.
 

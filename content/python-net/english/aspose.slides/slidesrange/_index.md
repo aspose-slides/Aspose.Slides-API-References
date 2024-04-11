@@ -1,5 +1,5 @@
 ﻿---
-title: SlidesRange
+title: SlidesRange class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/slidesrange/
 ---
 
 
-SlidesRange class
+## SlidesRange class
 
 Slides range
 

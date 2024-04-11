@@ -1,5 +1,5 @@
 ﻿---
-title: VideoFrame
+title: VideoFrame class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/videoframe/
 ---
 
 
-VideoFrame class
+## VideoFrame class
 
 Represents a video clip on a slide.
 

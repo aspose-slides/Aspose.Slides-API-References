@@ -1,5 +1,5 @@
 ﻿---
-title: IMathParagraphFactory
+title: IMathParagraphFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathparagraphfactory/
 ---
 
 
-IMathParagraphFactory class
+## IMathParagraphFactory class
 
 Allows to create a math paragraph
 

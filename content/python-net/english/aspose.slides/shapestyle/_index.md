@@ -1,5 +1,5 @@
 ﻿---
-title: ShapeStyle
+title: ShapeStyle class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/shapestyle/
 ---
 
 
-ShapeStyle class
+## ShapeStyle class
 
 Represent shape's style reference.
 

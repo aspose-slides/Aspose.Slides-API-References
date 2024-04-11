@@ -1,5 +1,5 @@
 ﻿---
-title: StringOrDoubleChartValue
+title: StringOrDoubleChartValue class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/stringordoublechartvalue/
 ---
 
 
-StringOrDoubleChartValue class
+## StringOrDoubleChartValue class
 
 Represent string or double value which can be stored in pptx presentation document in two ways:
             1) in cell/cells of workbook related to chart;

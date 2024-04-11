@@ -1,5 +1,5 @@
 ﻿---
-title: IFonts
+title: IFonts class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ifonts/
 ---
 
 
-IFonts class
+## IFonts class
 
 Represents fonts collection.
 

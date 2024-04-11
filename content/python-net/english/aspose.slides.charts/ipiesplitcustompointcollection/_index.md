@@ -1,5 +1,5 @@
 ﻿---
-title: IPieSplitCustomPointCollection
+title: IPieSplitCustomPointCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 
 
-IPieSplitCustomPointCollection class
+## IPieSplitCustomPointCollection class
 
 Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split.
 

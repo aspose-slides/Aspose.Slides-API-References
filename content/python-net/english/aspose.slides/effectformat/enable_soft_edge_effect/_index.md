@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/effectformat/enable_soft_edge_effect/
-weight: 90
+weight: 150
 ---
 
 

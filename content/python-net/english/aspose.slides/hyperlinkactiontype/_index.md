@@ -1,5 +1,5 @@
 ﻿---
-title: HyperlinkActionType
+title: HyperlinkActionType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/hyperlinkactiontype/
 ---
 
 
-HyperlinkActionType enumeration
+## HyperlinkActionType class
 
 Represents a type of hyperlink action.
 

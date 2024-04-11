@@ -1,5 +1,5 @@
 ﻿---
-title: SlideThemeManager
+title: SlideThemeManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/slidethememanager/
 ---
 
 
-SlideThemeManager class
+## SlideThemeManager class
 
 Provides access to slide theme overriden.
 

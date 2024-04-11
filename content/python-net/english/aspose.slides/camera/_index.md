@@ -1,5 +1,5 @@
 ﻿---
-title: Camera
+title: Camera class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/camera/
 ---
 
 
-Camera class
+## Camera class
 
 Represents Camera.
 

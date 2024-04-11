@@ -1,5 +1,5 @@
 ﻿---
-title: CommentAuthorCollection
+title: CommentAuthorCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/commentauthorcollection/
 ---
 
 
-CommentAuthorCollection class
+## CommentAuthorCollection class
 
 Represents a collection of comment authors.
 

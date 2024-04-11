@@ -1,5 +1,5 @@
 ﻿---
-title: ITableFormat
+title: ITableFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itableformat/
 ---
 
 
-ITableFormat class
+## ITableFormat class
 
 Represents format of a table.
 

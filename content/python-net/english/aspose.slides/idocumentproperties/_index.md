@@ -1,5 +1,5 @@
 ﻿---
-title: IDocumentProperties
+title: IDocumentProperties class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/idocumentproperties/
 ---
 
 
-IDocumentProperties class
+## IDocumentProperties class
 
 Represents properties of a presentation.
 

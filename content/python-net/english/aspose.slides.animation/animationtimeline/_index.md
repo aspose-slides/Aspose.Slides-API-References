@@ -1,5 +1,5 @@
 ﻿---
-title: AnimationTimeLine
+title: AnimationTimeLine class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/animationtimeline/
 ---
 
 
-AnimationTimeLine class
+## AnimationTimeLine class
 
 Represents timeline of animation.
 

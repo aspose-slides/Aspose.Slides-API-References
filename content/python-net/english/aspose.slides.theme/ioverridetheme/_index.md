@@ -1,5 +1,5 @@
 ﻿---
-title: IOverrideTheme
+title: IOverrideTheme class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/ioverridetheme/
 ---
 
 
-IOverrideTheme class
+## IOverrideTheme class
 
 Represents a overriding theme.
 

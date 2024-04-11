@@ -1,5 +1,5 @@
 ﻿---
-title: PropertyEffect
+title: PropertyEffect class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/propertyeffect/
 ---
 
 
-PropertyEffect class
+## PropertyEffect class
 
 Represent property effect behavior.
 

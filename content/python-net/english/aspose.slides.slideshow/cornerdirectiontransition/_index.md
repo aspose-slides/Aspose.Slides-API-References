@@ -1,5 +1,5 @@
 ﻿---
-title: CornerDirectionTransition
+title: CornerDirectionTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/cornerdirectiontransition/
 ---
 
 
-CornerDirectionTransition class
+## CornerDirectionTransition class
 
 Corner direction slide transition effect.
 

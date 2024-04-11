@@ -1,5 +1,5 @@
 ﻿---
-title: IEffectParamSource
+title: IEffectParamSource class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ieffectparamsource/
 ---
 
 
-IEffectParamSource class
+## IEffectParamSource class
 
 Auxiliary effect parameters interface.
 

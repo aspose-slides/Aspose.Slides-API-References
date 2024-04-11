@@ -1,5 +1,5 @@
 ﻿---
-title: VbaProject
+title: VbaProject class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.vba/vbaproject/
 ---
 
 
-VbaProject class
+## VbaProject class
 
 Represents VBA project with presentation macros.
 

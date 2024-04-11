@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/idatalabel/get_actual_label_text/
-weight: 30
+weight: 20
 ---
 
 

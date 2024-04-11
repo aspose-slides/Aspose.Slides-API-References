@@ -1,5 +1,5 @@
 ﻿---
-title: TileFlip
+title: TileFlip enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/tileflip/
 ---
 
 
-TileFlip enumeration
+## TileFlip class
 
 Defines tile flipping mode.
 

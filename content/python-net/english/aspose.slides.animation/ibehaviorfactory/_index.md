@@ -1,5 +1,5 @@
 ﻿---
-title: IBehaviorFactory
+title: IBehaviorFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/ibehaviorfactory/
 ---
 
 
-IBehaviorFactory class
+## IBehaviorFactory class
 
 Allows to create animation effects
 

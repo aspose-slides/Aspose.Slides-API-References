@@ -1,5 +1,5 @@
 ﻿---
-title: IMotionPath
+title: IMotionPath class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/imotionpath/
 ---
 
 
-IMotionPath class
+## IMotionPath class
 
 Represent motion path.
 

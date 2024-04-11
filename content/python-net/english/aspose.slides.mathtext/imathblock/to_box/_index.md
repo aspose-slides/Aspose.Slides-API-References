@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathblock/to_box/
-weight: 340
+weight: 300
 ---
 
 

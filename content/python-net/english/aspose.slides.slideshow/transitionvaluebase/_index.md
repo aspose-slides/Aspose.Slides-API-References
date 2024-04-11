@@ -1,5 +1,5 @@
 ﻿---
-title: TransitionValueBase
+title: TransitionValueBase class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionvaluebase/
 ---
 
 
-TransitionValueBase class
+## TransitionValueBase class
 
 Base class for slide transition effects.
 

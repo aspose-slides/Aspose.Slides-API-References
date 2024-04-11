@@ -1,5 +1,5 @@
 ﻿---
-title: ControlType
+title: ControlType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/controltype/
 ---
 
 
-ControlType enumeration
+## ControlType class
 
 Defines a control type which should be embedded by Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste..
 

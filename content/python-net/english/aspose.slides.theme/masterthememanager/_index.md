@@ -1,5 +1,5 @@
 ﻿---
-title: MasterThemeManager
+title: MasterThemeManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/masterthememanager/
 ---
 
 
-MasterThemeManager class
+## MasterThemeManager class
 
 Provides access to presentation master theme.
 

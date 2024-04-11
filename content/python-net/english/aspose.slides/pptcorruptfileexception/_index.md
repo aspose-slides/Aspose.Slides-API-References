@@ -1,5 +1,5 @@
 ﻿---
-title: PptCorruptFileException
+title: PptCorruptFileException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/pptcorruptfileexception/
 ---
 
 
-PptCorruptFileException class
+## PptCorruptFileException class
 
 Exception which thrown when presentation file is probably corrupt.
 

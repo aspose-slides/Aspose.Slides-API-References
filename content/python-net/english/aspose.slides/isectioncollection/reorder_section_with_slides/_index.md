@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/isectioncollection/reorder_section_with_slides/
-weight: 60
+weight: 80
 ---
 
 

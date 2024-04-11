@@ -1,5 +1,5 @@
 ﻿---
-title: IComment
+title: IComment class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/icomment/
 ---
 
 
-IComment class
+## IComment class
 
 Represents a comment on a slide.
 

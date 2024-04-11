@@ -1,0 +1,17 @@
+﻿---
+title: theme_manager property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/imasterslide/theme_manager/
+weight: 280
+---
+
+
+## theme_manager property
+### Definition:
+```python
+@property
+def theme_manager(self):
+    ...
+```

@@ -1,5 +1,5 @@
 ﻿---
-title: FillType
+title: FillType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/filltype/
 ---
 
 
-FillType enumeration
+## FillType class
 
 Specifies the interior fill type of various visual objects.
 

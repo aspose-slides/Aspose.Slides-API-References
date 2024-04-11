@@ -1,5 +1,5 @@
 ﻿---
-title: TrendlineCollection
+title: TrendlineCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/trendlinecollection/
 ---
 
 
-TrendlineCollection class
+## TrendlineCollection class
 
 Represents a collection of Trendline
 

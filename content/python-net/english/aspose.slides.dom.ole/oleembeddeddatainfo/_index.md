@@ -1,5 +1,5 @@
 ﻿---
-title: OleEmbeddedDataInfo
+title: OleEmbeddedDataInfo class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 
 
-OleEmbeddedDataInfo class
+## OleEmbeddedDataInfo class
 
 Represents embedded data info for OLE object.
 

@@ -1,0 +1,23 @@
+﻿---
+title: width property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/icolumn/width/
+weight: 120
+---
+
+
+## width property
+Returns or sets the width of a column.
+            Read/write .NET type System.Double.
+
+### Definition:
+```python
+@property
+def width(self):
+    ...
+@width.setter
+def width(self, value):
+    ...
+```

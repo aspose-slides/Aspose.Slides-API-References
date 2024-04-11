@@ -1,5 +1,5 @@
 ﻿---
-title: Storage
+title: Storage class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export.web/storage/
 ---
 
 
-Storage class
+## Storage class
 
 Represents a temporary data storage for [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument).
 

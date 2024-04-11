@@ -1,5 +1,5 @@
 ﻿---
-title: IStringChartValue
+title: IStringChartValue class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/istringchartvalue/
 ---
 
 
-IStringChartValue class
+## IStringChartValue class
 
 Represent string value which can be stored in pptx presentation document in two ways:
             1) in cell/cells of workbook related to chart;

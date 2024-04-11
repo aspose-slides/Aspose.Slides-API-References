@@ -1,5 +1,5 @@
 ﻿---
-title: IGradientFormatEffectiveData
+title: IGradientFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/igradientformateffectivedata/
 ---
 
 
-IGradientFormatEffectiveData class
+## IGradientFormatEffectiveData class
 
 Imutable object which contains effective gradient filling properties.
 

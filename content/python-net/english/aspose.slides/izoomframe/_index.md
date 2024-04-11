@@ -1,5 +1,5 @@
 ﻿---
-title: IZoomFrame
+title: IZoomFrame class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/izoomframe/
 ---
 
 
-IZoomFrame class
+## IZoomFrame class
 
 Represents a Slide Zoom object in a slide.
 

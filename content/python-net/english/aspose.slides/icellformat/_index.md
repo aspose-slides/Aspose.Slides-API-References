@@ -1,5 +1,5 @@
 ﻿---
-title: ICellFormat
+title: ICellFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/icellformat/
 ---
 
 
-ICellFormat class
+## ICellFormat class
 
 Represents format of a table cell.
 

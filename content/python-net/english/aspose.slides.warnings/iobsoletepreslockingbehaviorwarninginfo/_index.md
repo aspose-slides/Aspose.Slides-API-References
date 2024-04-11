@@ -1,5 +1,5 @@
 ﻿---
-title: IObsoletePresLockingBehaviorWarningInfo
+title: IObsoletePresLockingBehaviorWarningInfo class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 
 
-IObsoletePresLockingBehaviorWarningInfo class
+## IObsoletePresLockingBehaviorWarningInfo class
 
 This warning indicates that an obsolete presentation locking behavior is used.
 

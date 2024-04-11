@@ -1,5 +1,5 @@
 ﻿---
-title: ITableFormatEffectiveData
+title: ITableFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itableformateffectivedata/
 ---
 
 
-ITableFormatEffectiveData class
+## ITableFormatEffectiveData class
 
 Immutable object which contains effective table formatting properties.
 

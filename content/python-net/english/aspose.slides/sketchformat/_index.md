@@ -1,5 +1,5 @@
 ﻿---
-title: SketchFormat
+title: SketchFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/sketchformat/
 ---
 
 
-SketchFormat class
+## SketchFormat class
 
 Represents properties for lines sketch format.
 

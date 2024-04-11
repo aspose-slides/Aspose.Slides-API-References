@@ -1,5 +1,5 @@
 ﻿---
-title: OdpException
+title: OdpException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/odpexception/
 ---
 
 
-OdpException class
+## OdpException class
 
 Represents a standard internal exception type.
 

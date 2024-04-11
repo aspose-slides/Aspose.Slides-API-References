@@ -1,5 +1,5 @@
 ﻿---
-title: AfterAnimationType
+title: AfterAnimationType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/afteranimationtype/
 ---
 
 
-AfterAnimationType enumeration
+## AfterAnimationType class
 
 Represents the after animation type of an animation effect.
 

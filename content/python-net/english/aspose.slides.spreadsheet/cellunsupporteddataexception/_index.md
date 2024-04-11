@@ -1,5 +1,5 @@
 ﻿---
-title: CellUnsupportedDataException
+title: CellUnsupportedDataException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 
 
-CellUnsupportedDataException class
+## CellUnsupportedDataException class
 
 The exception that is thrown when an unsupported data is encountered in a spreadsheet cell.
 

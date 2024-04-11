@@ -1,5 +1,5 @@
 ﻿---
-title: MathJustification
+title: MathJustification enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathjustification/
 ---
 
 
-MathJustification enumeration
+## MathJustification class
 
 Specifies justification of the math paragraph (a series of adjacent instances of mathematical text within the same paragraph)
 

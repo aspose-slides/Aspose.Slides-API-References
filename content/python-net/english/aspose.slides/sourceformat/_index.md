@@ -1,5 +1,5 @@
 ﻿---
-title: SourceFormat
+title: SourceFormat enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/sourceformat/
 ---
 
 
-SourceFormat enumeration
+## SourceFormat class
 
 Represents source file format.
 

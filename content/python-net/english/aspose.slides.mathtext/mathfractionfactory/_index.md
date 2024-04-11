@@ -1,5 +1,5 @@
 ﻿---
-title: MathFractionFactory
+title: MathFractionFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathfractionfactory/
 ---
 
 
-MathFractionFactory class
+## MathFractionFactory class
 
 Allows to create a math fraction
 

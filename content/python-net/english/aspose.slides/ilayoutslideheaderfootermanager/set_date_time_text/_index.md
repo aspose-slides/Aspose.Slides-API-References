@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ilayoutslideheaderfootermanager/set_date_time_text/
-weight: 110
+weight: 30
 ---
 
 

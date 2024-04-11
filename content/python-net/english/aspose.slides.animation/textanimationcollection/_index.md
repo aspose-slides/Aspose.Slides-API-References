@@ -1,5 +1,5 @@
 ﻿---
-title: TextAnimationCollection
+title: TextAnimationCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/textanimationcollection/
 ---
 
 
-TextAnimationCollection class
+## TextAnimationCollection class
 
 Represents collection of text animations.
 

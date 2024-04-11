@@ -1,5 +1,5 @@
 ﻿---
-title: IBlobManagementOptions
+title: IBlobManagementOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iblobmanagementoptions/
 ---
 
 
-IBlobManagementOptions class
+## IBlobManagementOptions class
 
 A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an 
             audio, video or presentation itself. A number of techniques are used to optimize memory consumption 

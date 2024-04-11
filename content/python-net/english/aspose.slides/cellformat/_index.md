@@ -1,5 +1,5 @@
 ﻿---
-title: CellFormat
+title: CellFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-CellFormat class
+## CellFormat class
 
 Represents format of a table cell.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Axis
+title: Axis class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/axis/
 ---
 
 
-Axis class
+## Axis class
 
 Encapsulates the object that represents a chart's axis.
 

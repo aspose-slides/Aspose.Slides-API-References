@@ -1,5 +1,5 @@
 ﻿---
-title: TabCollection
+title: TabCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/tabcollection/
 ---
 
 
-TabCollection class
+## TabCollection class
 
 Represents a collection of tabs.
 

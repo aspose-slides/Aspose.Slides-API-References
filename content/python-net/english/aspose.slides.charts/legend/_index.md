@@ -1,5 +1,5 @@
 ﻿---
-title: Legend
+title: Legend class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/legend/
 ---
 
 
-Legend class
+## Legend class
 
 Represents chart's legend properties.
 

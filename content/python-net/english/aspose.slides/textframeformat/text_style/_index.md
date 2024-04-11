@@ -1,0 +1,17 @@
+﻿---
+title: text_style property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/textframeformat/text_style/
+weight: 170
+---
+
+
+## text_style property
+### Definition:
+```python
+@property
+def text_style(self):
+    ...
+```

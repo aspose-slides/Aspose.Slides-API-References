@@ -1,5 +1,5 @@
 ﻿---
-title: IShape
+title: IShape class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ishape/
 ---
 
 
-IShape class
+## IShape class
 
 Represents a shape on a slide.
 

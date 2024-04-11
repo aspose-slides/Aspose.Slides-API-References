@@ -1,5 +1,5 @@
 ﻿---
-title: IOutputSaver
+title: IOutputSaver class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export.web/ioutputsaver/
 ---
 
 
-IOutputSaver class
+## IOutputSaver class
 
 Represents an output saving service.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ChartCategory
+title: ChartCategory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/chartcategory/
 ---
 
 
-ChartCategory class
+## ChartCategory class
 
 Represents chart categories.
 

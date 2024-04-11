@@ -1,5 +1,5 @@
 ﻿---
-title: IBaseSlide
+title: IBaseSlide class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ibaseslide/
 ---
 
 
-IBaseSlide class
+## IBaseSlide class
 
 Represents common data for all slide types.
 

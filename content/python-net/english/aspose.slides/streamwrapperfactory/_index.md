@@ -1,5 +1,5 @@
 ﻿---
-title: StreamWrapperFactory
+title: StreamWrapperFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/streamwrapperfactory/
 ---
 
 
-StreamWrapperFactory class
+## StreamWrapperFactory class
 
 Factory of StreamWrappers. For COM interface.
 

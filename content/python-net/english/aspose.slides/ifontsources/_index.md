@@ -1,5 +1,5 @@
 ﻿---
-title: IFontSources
+title: IFontSources class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ifontsources/
 ---
 
 
-IFontSources class
+## IFontSources class
 
 Provides file and memory sources for external fonts.
 

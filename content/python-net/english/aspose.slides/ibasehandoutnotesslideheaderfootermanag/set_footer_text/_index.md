@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ibasehandoutnotesslideheaderfootermanag/set_footer_text/
-weight: 70
+weight: 30
 ---
 
 

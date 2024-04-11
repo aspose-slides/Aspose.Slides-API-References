@@ -1,5 +1,5 @@
 ﻿---
-title: MasterNotesSlide
+title: MasterNotesSlide class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/masternotesslide/
 ---
 
 
-MasterNotesSlide class
+## MasterNotesSlide class
 
 Represents master slide for notes.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: NormalViewProperties
+title: NormalViewProperties class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/normalviewproperties/
 ---
 
 
-NormalViewProperties class
+## NormalViewProperties class
 
 Represents normal view properties. The normal view consists of
             three content regions: the slide itself, a side content region, and a bottom content region.

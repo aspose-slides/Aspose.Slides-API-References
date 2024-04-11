@@ -1,5 +1,5 @@
 ﻿---
-title: IMorphTransition
+title: IMorphTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/imorphtransition/
 ---
 
 
-IMorphTransition class
+## IMorphTransition class
 
 Ripple slide transition effect.
 

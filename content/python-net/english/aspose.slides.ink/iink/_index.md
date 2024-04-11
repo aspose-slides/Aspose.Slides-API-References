@@ -1,5 +1,5 @@
 ﻿---
-title: IInk
+title: IInk class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.ink/iink/
 ---
 
 
-IInk class
+## IInk class
 
 Represents an ink object on a slide.
 

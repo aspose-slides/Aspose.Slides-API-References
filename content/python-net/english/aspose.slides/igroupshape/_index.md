@@ -1,5 +1,5 @@
 ﻿---
-title: IGroupShape
+title: IGroupShape class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/igroupshape/
 ---
 
 
-IGroupShape class
+## IGroupShape class
 
 Represents a group of shapes on a slide.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IParagraphCollection
+title: IParagraphCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iparagraphcollection/
 ---
 
 
-IParagraphCollection class
+## IParagraphCollection class
 
 Represents a collection of a paragraphs.
 

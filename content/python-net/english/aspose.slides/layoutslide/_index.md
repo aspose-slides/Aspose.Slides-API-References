@@ -1,5 +1,5 @@
 ﻿---
-title: LayoutSlide
+title: LayoutSlide class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/layoutslide/
 ---
 
 
-LayoutSlide class
+## LayoutSlide class
 
 Represents a layout slide.
 

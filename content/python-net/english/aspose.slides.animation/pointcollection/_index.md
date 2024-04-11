@@ -1,5 +1,5 @@
 ﻿---
-title: PointCollection
+title: PointCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/pointcollection/
 ---
 
 
-PointCollection class
+## PointCollection class
 
 Represent collection of animation points.
 

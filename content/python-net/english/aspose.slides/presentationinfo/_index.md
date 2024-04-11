@@ -1,5 +1,5 @@
 ﻿---
-title: PresentationInfo
+title: PresentationInfo class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/presentationinfo/
 ---
 
 
-PresentationInfo class
+## PresentationInfo class
 
 Information about presentation file
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IChartDataPointLevel
+title: IChartDataPointLevel class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartdatapointlevel/
 ---
 
 
-IChartDataPointLevel class
+## IChartDataPointLevel class
 
 Represents data point level. Applies for Treemap and Sunburst chart.
 

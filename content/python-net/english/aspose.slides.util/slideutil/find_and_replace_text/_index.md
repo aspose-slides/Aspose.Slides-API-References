@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.util/slideutil/find_and_replace_text/
-weight: 40
+weight: 20
 ---
 
 

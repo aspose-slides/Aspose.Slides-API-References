@@ -1,5 +1,5 @@
 ﻿---
-title: IPictureFillFormat
+title: IPictureFillFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ipicturefillformat/
 ---
 
 
-IPictureFillFormat class
+## IPictureFillFormat class
 
 Represents a picture fill style.
 

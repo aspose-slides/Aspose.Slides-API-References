@@ -1,5 +1,5 @@
 ﻿---
-title: IChartCategoryLevelsManager
+title: IChartCategoryLevelsManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 
 
-IChartCategoryLevelsManager class
+## IChartCategoryLevelsManager class
 
 Managed container of the values of the chart category levels.
 

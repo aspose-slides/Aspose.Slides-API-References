@@ -1,5 +1,5 @@
 ﻿---
-title: IChartSeries
+title: IChartSeries class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartseries/
 ---
 
 
-IChartSeries class
+## IChartSeries class
 
 Represents a chart series.
 

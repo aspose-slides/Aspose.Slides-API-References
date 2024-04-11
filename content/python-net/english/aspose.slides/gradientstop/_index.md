@@ -1,5 +1,5 @@
 ﻿---
-title: GradientStop
+title: GradientStop class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/gradientstop/
 ---
 
 
-GradientStop class
+## GradientStop class
 
 Represents a gradient format.
 

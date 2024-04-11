@@ -1,5 +1,5 @@
 ﻿---
-title: IExternalResourceResolver
+title: IExternalResourceResolver class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.importing/iexternalresourceresolver/
 ---
 
 
-IExternalResourceResolver class
+## IExternalResourceResolver class
 
 Callback interface used to resolve external resources during Html, Svg documents import.
 

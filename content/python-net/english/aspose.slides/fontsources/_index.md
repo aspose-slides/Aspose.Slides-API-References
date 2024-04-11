@@ -1,5 +1,5 @@
 ﻿---
-title: FontSources
+title: FontSources class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/fontsources/
 ---
 
 
-FontSources class
+## FontSources class
 
 Provides file and memory sources for external fonts.
 

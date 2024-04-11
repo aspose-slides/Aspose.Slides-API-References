@@ -1,5 +1,5 @@
 ﻿---
-title: ICellFormatEffectiveData
+title: ICellFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/icellformateffectivedata/
 ---
 
 
-ICellFormatEffectiveData class
+## ICellFormatEffectiveData class
 
 Immutable object which contains effective table cell formatting properties.
 

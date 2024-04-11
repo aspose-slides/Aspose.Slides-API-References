@@ -1,0 +1,20 @@
+﻿---
+title: content_type property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/ppimage/content_type/
+weight: 30
+---
+
+
+## content_type property
+Returns a MIME type of an image, encoded in [`PPImage.binary_data`](/slides/python-net/aspose.slides/ppimage#binary_data).
+            Read-only .NET type System.String.
+
+### Definition:
+```python
+@property
+def content_type(self):
+    ...
+```

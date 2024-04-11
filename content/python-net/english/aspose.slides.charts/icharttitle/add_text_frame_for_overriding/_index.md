@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/icharttitle/add_text_frame_for_overriding/
-weight: 20
+weight: 10
 ---
 
 

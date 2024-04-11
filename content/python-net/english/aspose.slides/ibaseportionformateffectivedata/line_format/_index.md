@@ -1,0 +1,20 @@
+﻿---
+title: line_format property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/ibaseportionformateffectivedata/line_format/
+weight: 180
+---
+
+
+## line_format property
+Returns the LineFormat properties for text outlining.
+            Read-only [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata).
+
+### Definition:
+```python
+@property
+def line_format(self):
+    ...
+```

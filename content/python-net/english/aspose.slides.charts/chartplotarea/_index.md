@@ -1,5 +1,5 @@
 ﻿---
-title: ChartPlotArea
+title: ChartPlotArea class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/chartplotarea/
 ---
 
 
-ChartPlotArea class
+## ChartPlotArea class
 
 Represents rectangle where chart should be plotted.
 

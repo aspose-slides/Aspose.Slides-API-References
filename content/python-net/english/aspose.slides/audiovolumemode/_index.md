@@ -1,5 +1,5 @@
 ﻿---
-title: AudioVolumeMode
+title: AudioVolumeMode enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/audiovolumemode/
 ---
 
 
-AudioVolumeMode enumeration
+## AudioVolumeMode class
 
 Constants which define audio volume.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: TextVerticalType
+title: TextVerticalType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/textverticaltype/
 ---
 
 
-TextVerticalType enumeration
+## TextVerticalType class
 
 Determines vertical writing mode for a text.
 

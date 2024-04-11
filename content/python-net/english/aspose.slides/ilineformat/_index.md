@@ -1,5 +1,5 @@
 ﻿---
-title: ILineFormat
+title: ILineFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ilineformat/
 ---
 
 
-ILineFormat class
+## ILineFormat class
 
 Represents format of a line.
 

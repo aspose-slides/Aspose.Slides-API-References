@@ -1,0 +1,20 @@
+﻿---
+title: to_color property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.effects/colorchange/to_color/
+weight: 70
+---
+
+
+## to_color property
+Color which will replace.
+            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat).
+
+### Definition:
+```python
+@property
+def to_color(self):
+    ...
+```

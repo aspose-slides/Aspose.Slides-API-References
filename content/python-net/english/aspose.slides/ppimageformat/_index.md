@@ -1,5 +1,5 @@
 ﻿---
-title: PPImageFormat
+title: PPImageFormat enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ppimageformat/
 ---
 
 
-PPImageFormat enumeration
+## PPImageFormat class
 
 Image formats. This enum is replacement for `System.Drawing.Imaging.ImageFormat` class.
             It's needed for COM compatibility.

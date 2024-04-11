@@ -1,5 +1,5 @@
 ﻿---
-title: ISvgShapeFormattingController
+title: ISvgShapeFormattingController class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/isvgshapeformattingcontroller/
 ---
 
 
-ISvgShapeFormattingController class
+## ISvgShapeFormattingController class
 
 Controls SVG shape generation.
 

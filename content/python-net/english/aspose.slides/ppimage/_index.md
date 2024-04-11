@@ -1,5 +1,5 @@
 ﻿---
-title: PPImage
+title: PPImage class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ppimage/
 ---
 
 
-PPImage class
+## PPImage class
 
 Represents an image in a presentation.
 

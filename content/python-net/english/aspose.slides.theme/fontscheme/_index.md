@@ -1,5 +1,5 @@
 ﻿---
-title: FontScheme
+title: FontScheme class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/fontscheme/
 ---
 
 
-FontScheme class
+## FontScheme class
 
 Stores theme-defined fonts.
 

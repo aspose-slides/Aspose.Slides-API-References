@@ -1,5 +1,5 @@
 ﻿---
-title: LoadingStreamBehavior
+title: LoadingStreamBehavior enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/loadingstreambehavior/
 ---
 
 
-LoadingStreamBehavior enumeration
+## LoadingStreamBehavior class
 
 The .NET type System.IO.Stream passed to a method is considered as a Binary Large Object (BLOB) (see 
             [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how 

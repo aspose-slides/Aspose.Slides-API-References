@@ -1,5 +1,5 @@
 ﻿---
-title: SvgShape
+title: SvgShape class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/svgshape/
 ---
 
 
-SvgShape class
+## SvgShape class
 
 Represents options for SVG shape.
 

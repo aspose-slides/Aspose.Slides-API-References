@@ -1,5 +1,5 @@
 ﻿---
-title: EmbeddedWoffFontsHtmlController
+title: EmbeddedWoffFontsHtmlController class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 
 
-EmbeddedWoffFontsHtmlController class
+## EmbeddedWoffFontsHtmlController class
 
 The formatting controller class to use for fonts embedding in WOFF format
 

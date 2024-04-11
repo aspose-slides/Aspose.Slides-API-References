@@ -1,5 +1,5 @@
 ﻿---
-title: MathDelimiterFactory
+title: MathDelimiterFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathdelimiterfactory/
 ---
 
 
-MathDelimiterFactory class
+## MathDelimiterFactory class
 
 Allows to create a math delimiter
 

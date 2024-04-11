@@ -1,5 +1,5 @@
 ﻿---
-title: PresentationPlayer
+title: PresentationPlayer class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/presentationplayer/
 ---
 
 
-PresentationPlayer class
+## PresentationPlayer class
 
 Represents the player of animations associated with the [`Presentation`](/slides/python-net/aspose.slides/presentation).
 

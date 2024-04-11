@@ -1,5 +1,5 @@
 ﻿---
-title: EffectTriggerType
+title: EffectTriggerType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effecttriggertype/
 ---
 
 
-EffectTriggerType enumeration
+## EffectTriggerType class
 
 Represent trigger type of effect.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: MarkdownSaveOptions
+title: MarkdownSaveOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/markdownsaveoptions/
 ---
 
 
-MarkdownSaveOptions class
+## MarkdownSaveOptions class
 
 Represents options that control how presentation should be saved to markdown.
 

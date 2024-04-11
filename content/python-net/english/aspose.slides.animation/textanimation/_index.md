@@ -1,5 +1,5 @@
 ﻿---
-title: TextAnimation
+title: TextAnimation class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/textanimation/
 ---
 
 
-TextAnimation class
+## TextAnimation class
 
 Represent text animation.
 

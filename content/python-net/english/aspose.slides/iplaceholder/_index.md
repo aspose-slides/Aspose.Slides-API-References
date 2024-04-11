@@ -1,5 +1,5 @@
 ﻿---
-title: IPlaceholder
+title: IPlaceholder class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iplaceholder/
 ---
 
 
-IPlaceholder class
+## IPlaceholder class
 
 Represents a placeholder on a slide.
 

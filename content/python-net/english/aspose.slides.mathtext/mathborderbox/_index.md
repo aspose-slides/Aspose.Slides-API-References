@@ -1,5 +1,5 @@
 ﻿---
-title: MathBorderBox
+title: MathBorderBox class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathborderbox/
 ---
 
 
-MathBorderBox class
+## MathBorderBox class
 
 Draws a rectangular or some other border around the IMathElement.
 

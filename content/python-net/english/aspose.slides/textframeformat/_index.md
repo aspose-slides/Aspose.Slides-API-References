@@ -1,5 +1,5 @@
 ﻿---
-title: TextFrameFormat
+title: TextFrameFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/textframeformat/
 ---
 
 
-TextFrameFormat class
+## TextFrameFormat class
 
 Contains the TextFrame's formatTextFrameFormatting properties.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ColorReplace
+title: ColorReplace class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/colorreplace/
 ---
 
 
-ColorReplace class
+## ColorReplace class
 
 Represents a Color Replacement effect.
             All effect colors are changed to a fixed color.

@@ -1,5 +1,5 @@
 ﻿---
-title: IChartCategory
+title: IChartCategory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartcategory/
 ---
 
 
-IChartCategory class
+## IChartCategory class
 
 Represents chart categories.
 

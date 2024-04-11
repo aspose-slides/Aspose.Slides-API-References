@@ -1,5 +1,5 @@
 ﻿---
-title: IPortionFactory
+title: IPortionFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iportionfactory/
 ---
 
 
-IPortionFactory class
+## IPortionFactory class
 
 Allows to create test portions
 

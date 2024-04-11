@@ -1,5 +1,5 @@
 ﻿---
-title: SlideImageFormat
+title: SlideImageFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/slideimageformat/
 ---
 
 
-SlideImageFormat class
+## SlideImageFormat class
 
 Determines format in which slide image will be saved for presentation to HTML export.
 

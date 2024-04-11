@@ -1,5 +1,5 @@
 ﻿---
-title: BaseChartValue
+title: BaseChartValue class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/basechartvalue/
 ---
 
 
-BaseChartValue class
+## BaseChartValue class
 
 Represents a value of a chart.
 

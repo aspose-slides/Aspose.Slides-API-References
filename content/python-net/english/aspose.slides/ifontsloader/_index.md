@@ -1,5 +1,5 @@
 ﻿---
-title: IFontsLoader
+title: IFontsLoader class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ifontsloader/
 ---
 
 
-IFontsLoader class
+## IFontsLoader class
 
 Class for loading custom fonts defined by user.
             Should be used before creating any presentation objects.

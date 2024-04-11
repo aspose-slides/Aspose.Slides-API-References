@@ -1,5 +1,5 @@
 ﻿---
-title: PresentationAnimationsGenerator
+title: PresentationAnimationsGenerator class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/presentationanimationsgenerator/
 ---
 
 
-PresentationAnimationsGenerator class
+## PresentationAnimationsGenerator class
 
 Represents a generator of the animations in the [`Presentation`](/slides/python-net/aspose.slides/presentation).
 

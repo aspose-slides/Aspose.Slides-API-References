@@ -1,5 +1,5 @@
 ﻿---
-title: ConnectorLock
+title: ConnectorLock class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/connectorlock/
 ---
 
 
-ConnectorLock class
+## ConnectorLock class
 
 Determines which operations are disabled on the parent Connector.
 

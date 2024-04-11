@@ -1,5 +1,5 @@
 ﻿---
-title: ISlideComponent
+title: ISlideComponent class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/islidecomponent/
 ---
 
 
-ISlideComponent class
+## ISlideComponent class
 
 Represents a component of a slide.
 

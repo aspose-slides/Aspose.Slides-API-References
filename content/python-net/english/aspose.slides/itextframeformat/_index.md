@@ -1,5 +1,5 @@
 ﻿---
-title: ITextFrameFormat
+title: ITextFrameFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itextframeformat/
 ---
 
 
-ITextFrameFormat class
+## ITextFrameFormat class
 
 Contains the TextFrame's formatting properties.
 

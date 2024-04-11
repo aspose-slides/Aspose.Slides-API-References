@@ -1,5 +1,5 @@
 ﻿---
-title: IMathLeftSubSuperscriptElement
+title: IMathLeftSubSuperscriptElement class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 
 
-IMathLeftSubSuperscriptElement class
+## IMathLeftSubSuperscriptElement class
 
 Specifies the Sub-Superscript object, which consists of a base 
             and a subscript and superscript placed to the left of the base.

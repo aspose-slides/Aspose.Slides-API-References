@@ -1,5 +1,5 @@
 ﻿---
-title: ISlideSize
+title: ISlideSize class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/islidesize/
 ---
 
 
-ISlideSize class
+## ISlideSize class
 
 Represents a size of slide.
 

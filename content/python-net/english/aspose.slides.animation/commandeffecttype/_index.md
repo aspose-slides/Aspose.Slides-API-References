@@ -1,5 +1,5 @@
 ﻿---
-title: CommandEffectType
+title: CommandEffectType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/commandeffecttype/
 ---
 
 
-CommandEffectType enumeration
+## CommandEffectType class
 
 Represents command effect type for command effect behavior.
 

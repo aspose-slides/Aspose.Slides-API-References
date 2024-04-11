@@ -1,5 +1,5 @@
 ﻿---
-title: TagCollection
+title: TagCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/tagcollection/
 ---
 
 
-TagCollection class
+## TagCollection class
 
 Represents the collection of tags (user defined pairs of strings)
 

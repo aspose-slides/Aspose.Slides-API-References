@@ -1,5 +1,5 @@
 ﻿---
-title: ZoomLayout
+title: ZoomLayout enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/zoomlayout/
 ---
 
 
-ZoomLayout enumeration
+## ZoomLayout class
 
 Specifies the summary zoom layout.
 

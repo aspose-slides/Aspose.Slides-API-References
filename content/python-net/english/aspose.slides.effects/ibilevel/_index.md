@@ -1,5 +1,5 @@
 ﻿---
-title: IBiLevel
+title: IBiLevel class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ibilevel/
 ---
 
 
-IBiLevel class
+## IBiLevel class
 
 Represents base IImageTransformOperation interface.
 

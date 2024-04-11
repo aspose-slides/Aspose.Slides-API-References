@@ -1,5 +1,5 @@
 ﻿---
-title: IFormat
+title: IFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/iformat/
 ---
 
 
-IFormat class
+## IFormat class
 
 Represents chart format properties.
 

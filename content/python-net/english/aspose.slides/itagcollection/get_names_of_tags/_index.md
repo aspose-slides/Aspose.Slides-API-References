@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/itagcollection/get_names_of_tags/
-weight: 90
+weight: 40
 ---
 
 

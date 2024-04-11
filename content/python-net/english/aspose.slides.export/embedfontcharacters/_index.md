@@ -1,5 +1,5 @@
 ﻿---
-title: EmbedFontCharacters
+title: EmbedFontCharacters enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/embedfontcharacters/
 ---
 
 
-EmbedFontCharacters enumeration
+## EmbedFontCharacters class
 
 Represents the rule to use for adding new embedding font into [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 

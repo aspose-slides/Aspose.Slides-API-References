@@ -1,5 +1,5 @@
 ﻿---
-title: IColorReplace
+title: IColorReplace class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/icolorreplace/
 ---
 
 
-IColorReplace class
+## IColorReplace class
 
 Represents a Color Replacement effect.
 

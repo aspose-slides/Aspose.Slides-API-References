@@ -1,5 +1,5 @@
 ﻿---
-title: SaveOptionsFactory
+title: SaveOptionsFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/saveoptionsfactory/
 ---
 
 
-SaveOptionsFactory class
+## SaveOptionsFactory class
 
 Allows to create save options' instances
 

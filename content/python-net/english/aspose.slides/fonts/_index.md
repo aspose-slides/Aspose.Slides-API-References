@@ -1,5 +1,5 @@
 ﻿---
-title: Fonts
+title: Fonts class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/fonts/
 ---
 
 
-Fonts class
+## Fonts class
 
 Fonts collection.
 

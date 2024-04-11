@@ -1,5 +1,5 @@
 ﻿---
-title: IBulletFormat
+title: IBulletFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ibulletformat/
 ---
 
 
-IBulletFormat class
+## IBulletFormat class
 
 Represents paragraph bullet formatting properties.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: FontAlignment
+title: FontAlignment enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/fontalignment/
 ---
 
 
-FontAlignment enumeration
+## FontAlignment class
 
 Represents vertical font alignment.
 

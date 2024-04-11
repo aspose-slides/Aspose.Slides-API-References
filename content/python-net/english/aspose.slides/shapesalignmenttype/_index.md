@@ -1,5 +1,5 @@
 ﻿---
-title: ShapesAlignmentType
+title: ShapesAlignmentType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/shapesalignmenttype/
 ---
 
 
-ShapesAlignmentType enumeration
+## ShapesAlignmentType class
 
 Defines a way to change the placement of selected shapes on the slide.
 

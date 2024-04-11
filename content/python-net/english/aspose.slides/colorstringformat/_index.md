@@ -1,5 +1,5 @@
 ﻿---
-title: ColorStringFormat
+title: ColorStringFormat enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/colorstringformat/
 ---
 
 
-ColorStringFormat enumeration
+## ColorStringFormat class
 
 Represents a type of hyperlink action.
 

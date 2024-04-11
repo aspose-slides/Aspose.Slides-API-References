@@ -1,5 +1,5 @@
 ﻿---
-title: AudioFrame
+title: AudioFrame class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/audioframe/
 ---
 
 
-AudioFrame class
+## AudioFrame class
 
 Represents an audio clip on a slide.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IRenderingOptions
+title: IRenderingOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/irenderingoptions/
 ---
 
 
-IRenderingOptions class
+## IRenderingOptions class
 
 Provides options that control how a presentation/slide is rendered.
 

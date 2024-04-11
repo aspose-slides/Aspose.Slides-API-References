@@ -1,5 +1,5 @@
 ﻿---
-title: IAlphaModulate
+title: IAlphaModulate class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ialphamodulate/
 ---
 
 
-IAlphaModulate class
+## IAlphaModulate class
 
 Represents an Alpha Modulate effect.
             Effect alpha (opacity) values are multiplied by a fixed percentage.

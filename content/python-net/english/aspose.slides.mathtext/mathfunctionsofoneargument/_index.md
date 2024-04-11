@@ -1,5 +1,5 @@
 ﻿---
-title: MathFunctionsOfOneArgument
+title: MathFunctionsOfOneArgument enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 
 
-MathFunctionsOfOneArgument enumeration
+## MathFunctionsOfOneArgument class
 
 Common mathematical functions of one argument
 

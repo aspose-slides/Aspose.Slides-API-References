@@ -1,5 +1,5 @@
 ﻿---
-title: MotionPathPointsType
+title: MotionPathPointsType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/motionpathpointstype/
 ---
 
 
-MotionPathPointsType enumeration
+## MotionPathPointsType class
 
 Represent types of points in animation motion path.
 

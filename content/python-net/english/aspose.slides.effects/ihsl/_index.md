@@ -1,5 +1,5 @@
 ﻿---
-title: IHSL
+title: IHSL class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ihsl/
 ---
 
 
-IHSL class
+## IHSL class
 
 Represents a Hue/Saturation/Luminance effect.
             The hue, saturation, and luminance may each be adjusted relative to its current value.

@@ -1,5 +1,5 @@
 ﻿---
-title: TextInheritanceLimit
+title: TextInheritanceLimit enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/textinheritancelimit/
 ---
 
 
-TextInheritanceLimit enumeration
+## TextInheritanceLimit class
 
 Controls the depth of the text properties inheritance.
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/cell/split_by_col_span/
-weight: 20
+weight: 10
 ---
 
 

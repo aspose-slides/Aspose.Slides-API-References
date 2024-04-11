@@ -1,5 +1,5 @@
 ﻿---
-title: MathFunction
+title: MathFunction class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathfunction/
 ---
 
 
-MathFunction class
+## MathFunction class
 
 Specifies a function of an argument.
 

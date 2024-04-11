@@ -1,5 +1,5 @@
 ﻿---
-title: LegendDataLabelPosition
+title: LegendDataLabelPosition enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/legenddatalabelposition/
 ---
 
 
-LegendDataLabelPosition enumeration
+## LegendDataLabelPosition class
 
 Determines position of data labels.
 

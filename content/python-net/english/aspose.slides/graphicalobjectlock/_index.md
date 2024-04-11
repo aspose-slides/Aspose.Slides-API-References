@@ -1,5 +1,5 @@
 ﻿---
-title: GraphicalObjectLock
+title: GraphicalObjectLock class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/graphicalobjectlock/
 ---
 
 
-GraphicalObjectLock class
+## GraphicalObjectLock class
 
 Determines which operations are disabled on the parent GraphicalObject.
 

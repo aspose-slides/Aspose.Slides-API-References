@@ -1,5 +1,5 @@
 ﻿---
-title: ControlCollection
+title: ControlCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/controlcollection/
 ---
 
 
-ControlCollection class
+## ControlCollection class
 
 A collection of ActiveX controls.
 

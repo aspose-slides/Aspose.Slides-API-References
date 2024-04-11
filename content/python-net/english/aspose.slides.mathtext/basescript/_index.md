@@ -1,5 +1,5 @@
 ﻿---
-title: BaseScript
+title: BaseScript class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/basescript/
 ---
 
 
-BaseScript class
+## BaseScript class
 
 Math script
 

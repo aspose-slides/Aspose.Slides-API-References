@@ -1,5 +1,5 @@
 ﻿---
-title: ColorSchemeIndex
+title: ColorSchemeIndex enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/colorschemeindex/
 ---
 
 
-ColorSchemeIndex enumeration
+## ColorSchemeIndex class
 
 Represents an index in a colorscheme.
 

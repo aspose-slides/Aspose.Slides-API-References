@@ -1,5 +1,5 @@
 ﻿---
-title: BuildType
+title: BuildType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/buildtype/
 ---
 
 
-BuildType enumeration
+## BuildType class
 
 Determines how text will appear on a shape during animation.
 

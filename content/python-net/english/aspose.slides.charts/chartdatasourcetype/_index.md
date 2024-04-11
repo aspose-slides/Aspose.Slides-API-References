@@ -1,5 +1,5 @@
 ﻿---
-title: ChartDataSourceType
+title: ChartDataSourceType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/chartdatasourcetype/
 ---
 
 
-ChartDataSourceType enumeration
+## ChartDataSourceType class
 
 Represents a type of data source of the chart
 

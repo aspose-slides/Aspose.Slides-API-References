@@ -1,5 +1,5 @@
 ﻿---
-title: ILoadOptions
+title: ILoadOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iloadoptions/
 ---
 
 
-ILoadOptions class
+## ILoadOptions class
 
 Allows to specify additional options (such as format or default font) when loading a presentation.
 

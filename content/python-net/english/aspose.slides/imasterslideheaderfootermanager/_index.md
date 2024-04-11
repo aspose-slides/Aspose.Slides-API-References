@@ -1,5 +1,5 @@
 ﻿---
-title: IMasterSlideHeaderFooterManager
+title: IMasterSlideHeaderFooterManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/imasterslideheaderfootermanager/
 ---
 
 
-IMasterSlideHeaderFooterManager class
+## IMasterSlideHeaderFooterManager class
 
 Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders.
             Child placeholders mean placeholders are contained on depending layout slides and depending slides.

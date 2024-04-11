@@ -1,5 +1,5 @@
 ﻿---
-title: ITextStyleEffectiveData
+title: ITextStyleEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itextstyleeffectivedata/
 ---
 
 
-ITextStyleEffectiveData class
+## ITextStyleEffectiveData class
 
 Immutable object which contains effective text style properties.
 

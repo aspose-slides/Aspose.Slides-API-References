@@ -1,5 +1,5 @@
 ﻿---
-title: WarningType
+title: WarningType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.warnings/warningtype/
 ---
 
 
-WarningType enumeration
+## WarningType class
 
 Represents a type of warning.
 

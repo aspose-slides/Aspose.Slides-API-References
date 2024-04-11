@@ -1,5 +1,5 @@
 ﻿---
-title: IAlphaInverseEffectiveData
+title: IAlphaInverseEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ialphainverseeffectivedata/
 ---
 
 
-IAlphaInverseEffectiveData class
+## IAlphaInverseEffectiveData class
 
 Immutable object which represents an Alpha Inverse effect.
             Alpha (opacity) values are inverted by subtracting from 100%.

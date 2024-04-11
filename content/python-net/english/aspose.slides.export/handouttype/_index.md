@@ -1,5 +1,5 @@
 ﻿---
-title: HandoutType
+title: HandoutType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/handouttype/
 ---
 
 
-HandoutType enumeration
+## HandoutType class
 
 Specifies how many slides and in what sequence will be placed on the page.
 

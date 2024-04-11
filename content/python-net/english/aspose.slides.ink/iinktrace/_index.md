@@ -1,5 +1,5 @@
 ﻿---
-title: IInkTrace
+title: IInkTrace class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.ink/iinktrace/
 ---
 
 
-IInkTrace class
+## IInkTrace class
 
 Represents handwritten line in an Ink object.
 

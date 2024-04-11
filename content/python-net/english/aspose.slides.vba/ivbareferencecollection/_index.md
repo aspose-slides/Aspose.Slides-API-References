@@ -1,5 +1,5 @@
 ﻿---
-title: IVbaReferenceCollection
+title: IVbaReferenceCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.vba/ivbareferencecollection/
 ---
 
 
-IVbaReferenceCollection class
+## IVbaReferenceCollection class
 
 Represents a collection of a VBA Project references.
 

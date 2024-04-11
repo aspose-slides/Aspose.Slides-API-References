@@ -1,5 +1,5 @@
 ﻿---
-title: IMathFractionFactory
+title: IMathFractionFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathfractionfactory/
 ---
 
 
-IMathFractionFactory class
+## IMathFractionFactory class
 
 Allows to create a math fraction
 

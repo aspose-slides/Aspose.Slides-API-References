@@ -1,5 +1,5 @@
 ﻿---
-title: ISequenceCollection
+title: ISequenceCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/isequencecollection/
 ---
 
 
-ISequenceCollection class
+## ISequenceCollection class
 
 Represents collection of interactive sequences.
 

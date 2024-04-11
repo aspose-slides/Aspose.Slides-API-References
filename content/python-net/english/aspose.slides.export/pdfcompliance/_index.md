@@ -1,5 +1,5 @@
 ﻿---
-title: PdfCompliance
+title: PdfCompliance enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/pdfcompliance/
 ---
 
 
-PdfCompliance enumeration
+## PdfCompliance class
 
 Constants which define the PDF standards compliance level.
 

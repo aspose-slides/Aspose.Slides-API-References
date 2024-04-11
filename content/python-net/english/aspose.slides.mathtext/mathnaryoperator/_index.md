@@ -1,5 +1,5 @@
 ﻿---
-title: MathNaryOperator
+title: MathNaryOperator class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathnaryoperator/
 ---
 
 
-MathNaryOperator class
+## MathNaryOperator class
 
 Specifies an N-ary mathematical object, such as Summation and Integral.
             It consists of an operator, a base (or operand), and optional upper and lower limits. 

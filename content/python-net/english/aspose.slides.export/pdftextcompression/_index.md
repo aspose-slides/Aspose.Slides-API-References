@@ -1,5 +1,5 @@
 ﻿---
-title: PdfTextCompression
+title: PdfTextCompression enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/pdftextcompression/
 ---
 
 
-PdfTextCompression enumeration
+## PdfTextCompression class
 
 Constants which define the type of a compression applied to all content in the PDF file except images.
 

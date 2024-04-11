@@ -1,5 +1,5 @@
 ﻿---
-title: PptxOptions
+title: PptxOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/pptxoptions/
 ---
 
 
-PptxOptions class
+## PptxOptions class
 
 Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 

@@ -1,5 +1,5 @@
 ﻿---
-title: PresentationLockingBehavior
+title: PresentationLockingBehavior enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/presentationlockingbehavior/
 ---
 
 
-PresentationLockingBehavior enumeration
+## PresentationLockingBehavior class
 
 Represents the behavior regarding treating the [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) source (file or 
             .NET type System.IO.Stream) while loading and working with an instance of [`IPresentation`](/slides/python-net/aspose.slides/ipresentation).

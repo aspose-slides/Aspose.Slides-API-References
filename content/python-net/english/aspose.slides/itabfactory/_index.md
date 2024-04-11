@@ -1,5 +1,5 @@
 ﻿---
-title: ITabFactory
+title: ITabFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itabfactory/
 ---
 
 
-ITabFactory class
+## ITabFactory class
 
 Allow to create ITab instances
 

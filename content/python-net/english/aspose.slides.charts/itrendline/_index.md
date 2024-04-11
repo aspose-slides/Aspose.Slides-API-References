@@ -1,5 +1,5 @@
 ﻿---
-title: ITrendline
+title: ITrendline class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/itrendline/
 ---
 
 
-ITrendline class
+## ITrendline class
 
 Class represents trend line of chart series
 

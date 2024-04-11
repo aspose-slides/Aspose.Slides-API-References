@@ -1,5 +1,5 @@
 ﻿---
-title: BaseShapeLock
+title: BaseShapeLock class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/baseshapelock/
 ---
 
 
-BaseShapeLock class
+## BaseShapeLock class
 
 Represents a base class for locks (disabled operation).
 

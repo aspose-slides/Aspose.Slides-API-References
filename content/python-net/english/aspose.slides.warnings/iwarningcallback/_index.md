@@ -1,5 +1,5 @@
 ﻿---
-title: IWarningCallback
+title: IWarningCallback class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.warnings/iwarningcallback/
 ---
 
 
-IWarningCallback class
+## IWarningCallback class
 
 Interface for classes which receive warning
 

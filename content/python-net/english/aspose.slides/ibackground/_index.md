@@ -1,5 +1,5 @@
 ﻿---
-title: IBackground
+title: IBackground class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ibackground/
 ---
 
 
-IBackground class
+## IBackground class
 
 Represents background of a slide.
 

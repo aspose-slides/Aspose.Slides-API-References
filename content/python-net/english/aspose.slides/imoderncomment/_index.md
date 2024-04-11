@@ -1,5 +1,5 @@
 ﻿---
-title: IModernComment
+title: IModernComment class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/imoderncomment/
 ---
 
 
-IModernComment class
+## IModernComment class
 
 Represents a comment on a slide.
 

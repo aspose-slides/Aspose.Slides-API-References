@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathleftsubsuperscriptelement/get_children/
-weight: 180
+weight: 60
 ---
 
 

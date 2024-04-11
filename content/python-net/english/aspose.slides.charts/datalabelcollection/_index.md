@@ -1,5 +1,5 @@
 ﻿---
-title: DataLabelCollection
+title: DataLabelCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/datalabelcollection/
 ---
 
 
-DataLabelCollection class
+## DataLabelCollection class
 
 Represents a series labels.
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iparagraph/get_lines_count/
-weight: 40
+weight: 10
 ---
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: INotesCommentsLayoutingOptions
+title: INotesCommentsLayoutingOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/inotescommentslayoutingoptions/
 ---
 
 
-INotesCommentsLayoutingOptions class
+## INotesCommentsLayoutingOptions class
 
 Provides options that control the look of layouting of notes and comments in exported document.
 

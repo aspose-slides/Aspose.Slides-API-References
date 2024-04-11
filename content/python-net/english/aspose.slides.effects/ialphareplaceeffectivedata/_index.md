@@ -1,5 +1,5 @@
 ﻿---
-title: IAlphaReplaceEffectiveData
+title: IAlphaReplaceEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 
 
-IAlphaReplaceEffectiveData class
+## IAlphaReplaceEffectiveData class
 
 Immutable object which represents and Alpha Replace effect.
             Effect alpha (opacity) values are replaced by a fixed alpha.

@@ -1,5 +1,5 @@
 ﻿---
-title: IColumnCollection
+title: IColumnCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/icolumncollection/
 ---
 
 
-IColumnCollection class
+## IColumnCollection class
 
 Represents collection of columns in a table.
 

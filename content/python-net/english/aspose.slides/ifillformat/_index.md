@@ -1,5 +1,5 @@
 ﻿---
-title: IFillFormat
+title: IFillFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ifillformat/
 ---
 
 
-IFillFormat class
+## IFillFormat class
 
 Represents a fill formatting options.
 

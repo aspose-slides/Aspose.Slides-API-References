@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/legacydiagram/convert_to_group_shape/
-weight: 80
+weight: 20
 ---
 
 

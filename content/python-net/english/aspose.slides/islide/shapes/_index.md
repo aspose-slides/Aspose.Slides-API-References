@@ -1,0 +1,17 @@
+﻿---
+title: shapes property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/islide/shapes/
+weight: 250
+---
+
+
+## shapes property
+### Definition:
+```python
+@property
+def shapes(self):
+    ...
+```

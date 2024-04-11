@@ -1,5 +1,5 @@
 ﻿---
-title: IAlphaFloorEffectiveData
+title: IAlphaFloorEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ialphaflooreffectivedata/
 ---
 
 
-IAlphaFloorEffectiveData class
+## IAlphaFloorEffectiveData class
 
 Immutable object which represents an Alpha Floor effect.
             Alpha (opacity) values less than 100% are changed to zero.

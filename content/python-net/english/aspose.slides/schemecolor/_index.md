@@ -1,5 +1,5 @@
 ﻿---
-title: SchemeColor
+title: SchemeColor enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/schemecolor/
 ---
 
 
-SchemeColor enumeration
+## SchemeColor class
 
 Represents colors in a color scheme.
 

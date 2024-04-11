@@ -1,5 +1,5 @@
 ﻿---
-title: PresetShadowType
+title: PresetShadowType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/presetshadowtype/
 ---
 
 
-PresetShadowType enumeration
+## PresetShadowType class
 
 Represents a preset for a shadow effect.
 

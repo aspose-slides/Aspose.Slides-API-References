@@ -1,5 +1,5 @@
 ﻿---
-title: Metered
+title: Metered class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/metered/
 ---
 
 
-Metered class
+## Metered class
 
 Provides methods to set metered key.
 

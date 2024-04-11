@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/htmlgenerator/add_attribute_value/
-weight: 40
+weight: 10
 ---
 
 

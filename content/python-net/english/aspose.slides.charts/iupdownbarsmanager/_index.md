@@ -1,5 +1,5 @@
 ﻿---
-title: IUpDownBarsManager
+title: IUpDownBarsManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/iupdownbarsmanager/
 ---
 
 
-IUpDownBarsManager class
+## IUpDownBarsManager class
 
 Provide access to up/down bars of Line- or Stock-chart.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ColorDirection
+title: ColorDirection enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/colordirection/
 ---
 
 
-ColorDirection enumeration
+## ColorDirection class
 
 Represents color direction for color effect behavior.
 

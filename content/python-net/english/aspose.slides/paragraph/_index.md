@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph
+title: Paragraph class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/paragraph/
 ---
 
 
-Paragraph class
+## Paragraph class
 
 Represents a paragraph of text.
 

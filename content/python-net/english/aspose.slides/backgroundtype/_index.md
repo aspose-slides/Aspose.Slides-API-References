@@ -1,5 +1,5 @@
 ﻿---
-title: BackgroundType
+title: BackgroundType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/backgroundtype/
 ---
 
 
-BackgroundType enumeration
+## BackgroundType class
 
 Defines the slide background fill source.
 

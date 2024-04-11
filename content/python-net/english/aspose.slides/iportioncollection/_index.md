@@ -1,5 +1,5 @@
 ﻿---
-title: IPortionCollection
+title: IPortionCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iportioncollection/
 ---
 
 
-IPortionCollection class
+## IPortionCollection class
 
 Represents a collection of a portions.
 

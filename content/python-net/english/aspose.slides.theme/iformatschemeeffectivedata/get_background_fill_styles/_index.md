@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/
-weight: 50
+weight: 10
 ---
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: MathAccentFactory
+title: MathAccentFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathaccentfactory/
 ---
 
 
-MathAccentFactory class
+## MathAccentFactory class
 
 Allows to create a math accent
 

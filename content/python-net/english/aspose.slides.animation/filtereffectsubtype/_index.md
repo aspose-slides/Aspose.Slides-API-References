@@ -1,5 +1,5 @@
 ﻿---
-title: FilterEffectSubtype
+title: FilterEffectSubtype enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/filtereffectsubtype/
 ---
 
 
-FilterEffectSubtype enumeration
+## FilterEffectSubtype class
 
 Represents filter effect subtypes.
 

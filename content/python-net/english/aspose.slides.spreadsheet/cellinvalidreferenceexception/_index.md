@@ -1,5 +1,5 @@
 ﻿---
-title: CellInvalidReferenceException
+title: CellInvalidReferenceException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 
 
-CellInvalidReferenceException class
+## CellInvalidReferenceException class
 
 The exception that is thrown when an invalid cell reference is encountered.
 

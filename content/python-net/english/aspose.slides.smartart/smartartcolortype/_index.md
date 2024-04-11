@@ -1,5 +1,5 @@
 ﻿---
-title: SmartArtColorType
+title: SmartArtColorType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.smartart/smartartcolortype/
 ---
 
 
-SmartArtColorType enumeration
+## SmartArtColorType class
 
 Represents color scheme of a SmartArt diagram.
 

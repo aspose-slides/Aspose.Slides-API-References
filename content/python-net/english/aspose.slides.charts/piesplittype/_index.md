@@ -1,5 +1,5 @@
 ﻿---
-title: PieSplitType
+title: PieSplitType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/piesplittype/
 ---
 
 
-PieSplitType enumeration
+## PieSplitType class
 
 Represents a type of splitting points in the second pie or bar 
             on a pie-of-pie or bar-of-pie chart.

@@ -1,5 +1,5 @@
 ﻿---
-title: IFlyThroughTransition
+title: IFlyThroughTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/iflythroughtransition/
 ---
 
 
-IFlyThroughTransition class
+## IFlyThroughTransition class
 
 Fly-through slide transition effect.
 

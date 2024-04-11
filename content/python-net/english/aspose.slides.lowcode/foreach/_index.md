@@ -1,5 +1,5 @@
 ﻿---
-title: ForEach
+title: ForEach class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.lowcode/foreach/
 ---
 
 
-ForEach class
+## ForEach class
 
 Represents a group of methods intended to iterate over different [`Presentation`](/slides/python-net/aspose.slides/presentation) model objects.
             These methods can be useful if you need to iterate and change some Presentation' elements formatting or content,

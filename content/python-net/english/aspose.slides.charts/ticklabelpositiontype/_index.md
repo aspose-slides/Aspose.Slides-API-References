@@ -1,5 +1,5 @@
 ﻿---
-title: TickLabelPositionType
+title: TickLabelPositionType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ticklabelpositiontype/
 ---
 
 
-TickLabelPositionType enumeration
+## TickLabelPositionType class
 
 Represents the position type of tick-mark labels on the specified axis.
 

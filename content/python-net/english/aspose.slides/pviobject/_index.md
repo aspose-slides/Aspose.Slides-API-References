@@ -1,5 +1,5 @@
 ﻿---
-title: PVIObject
+title: PVIObject class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/pviobject/
 ---
 
 
-PVIObject class
+## PVIObject class
 
 Encapsulates basic service infrastructure for objects can be a subject of property value inheritance.
 

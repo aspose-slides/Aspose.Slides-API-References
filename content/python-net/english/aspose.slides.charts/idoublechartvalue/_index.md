@@ -1,5 +1,5 @@
 ﻿---
-title: IDoubleChartValue
+title: IDoubleChartValue class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/idoublechartvalue/
 ---
 
 
-IDoubleChartValue class
+## IDoubleChartValue class
 
 Represent double value which can be stored in pptx presentation document in two ways:
             1) in cell/cells of workbook related to chart;

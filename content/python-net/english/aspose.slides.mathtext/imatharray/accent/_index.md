@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imatharray/accent/
-weight: 200
+weight: 10
 ---
 
 

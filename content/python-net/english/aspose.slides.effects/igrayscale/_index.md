@@ -1,5 +1,5 @@
 ﻿---
-title: IGrayScale
+title: IGrayScale class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/igrayscale/
 ---
 
 
-IGrayScale class
+## IGrayScale class
 
 Represents IImageTransformOperation interface.
 

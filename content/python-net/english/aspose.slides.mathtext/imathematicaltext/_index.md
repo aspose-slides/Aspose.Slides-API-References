@@ -1,5 +1,5 @@
 ﻿---
-title: IMathematicalText
+title: IMathematicalText class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathematicaltext/
 ---
 
 
-IMathematicalText class
+## IMathematicalText class
 
 Mathematical text
 

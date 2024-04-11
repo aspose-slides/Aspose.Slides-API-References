@@ -1,5 +1,5 @@
 ﻿---
-title: IChartDataPoint
+title: IChartDataPoint class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartdatapoint/
 ---
 
 
-IChartDataPoint class
+## IChartDataPoint class
 
 Represents series data point.
 

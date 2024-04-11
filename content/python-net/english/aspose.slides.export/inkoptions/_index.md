@@ -1,5 +1,5 @@
 ﻿---
-title: InkOptions
+title: InkOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/inkoptions/
 ---
 
 
-InkOptions class
+## InkOptions class
 
 Provides options that control the look of Ink objects in exported document.
 

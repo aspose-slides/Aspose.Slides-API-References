@@ -1,5 +1,5 @@
 ﻿---
-title: BuildVersionInfo
+title: BuildVersionInfo class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/buildversioninfo/
 ---
 
 
-BuildVersionInfo class
+## BuildVersionInfo class
 
 Contains information about version of Aspose.Slides.
 

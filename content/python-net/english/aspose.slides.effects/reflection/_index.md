@@ -1,5 +1,5 @@
 ﻿---
-title: Reflection
+title: Reflection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/reflection/
 ---
 
 
-Reflection class
+## Reflection class
 
 Represents a Reflection effect.
 

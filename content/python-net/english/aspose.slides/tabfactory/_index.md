@@ -1,5 +1,5 @@
 ﻿---
-title: TabFactory
+title: TabFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/tabfactory/
 ---
 
 
-TabFactory class
+## TabFactory class
 
 Allows to create ITab instances
 

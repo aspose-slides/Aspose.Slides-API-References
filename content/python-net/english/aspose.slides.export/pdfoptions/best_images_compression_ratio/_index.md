@@ -1,0 +1,31 @@
+﻿---
+title: best_images_compression_ratio property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.export/pdfoptions/best_images_compression_ratio/
+weight: 60
+---
+
+
+## best_images_compression_ratio property
+Indicates if the most effective compression (instead of the default one) for each image must be selected 
+            automatically. If set to .NET type System.Boolean.true, for every image in presentation the most appropriate compression 
+            algorithm will be chosen, what will lead to the smaller size of the resulting PDF document. 
+            Best image compression ratio selection is computationally expensive and takes 
+            an additional amount of RAM, and this option is .NET type System.Boolean.false by default.
+
+
+### Remarks
+
+Default is .NET type System.Boolean.false.
+
+### Definition:
+```python
+@property
+def best_images_compression_ratio(self):
+    ...
+@best_images_compression_ratio.setter
+def best_images_compression_ratio(self, value):
+    ...
+```

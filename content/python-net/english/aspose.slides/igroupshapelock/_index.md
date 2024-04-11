@@ -1,5 +1,5 @@
 ﻿---
-title: IGroupShapeLock
+title: IGroupShapeLock class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/igroupshapelock/
 ---
 
 
-IGroupShapeLock class
+## IGroupShapeLock class
 
 Determines which operations are disabled on the parent GroupShape.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: MotionCommandPathType
+title: MotionCommandPathType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/motioncommandpathtype/
 ---
 
 
-MotionCommandPathType enumeration
+## MotionCommandPathType class
 
 Represent types of command for animation motion effect behavior.
 

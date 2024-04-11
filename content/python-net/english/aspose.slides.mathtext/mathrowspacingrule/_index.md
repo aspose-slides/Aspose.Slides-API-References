@@ -1,5 +1,5 @@
 ﻿---
-title: MathRowSpacingRule
+title: MathRowSpacingRule enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathrowspacingrule/
 ---
 
 
-MathRowSpacingRule enumeration
+## MathRowSpacingRule class
 
 The type of vertical spacing between columns in a matrix or array
 

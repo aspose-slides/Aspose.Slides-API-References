@@ -1,5 +1,5 @@
 ﻿---
-title: IGeometryPath
+title: IGeometryPath class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/igeometrypath/
 ---
 
 
-IGeometryPath class
+## IGeometryPath class
 
 Represents geometry path of GeometryShape
 

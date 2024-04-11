@@ -1,5 +1,5 @@
 ﻿---
-title: IFillFormatEffectiveData
+title: IFillFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ifillformateffectivedata/
 ---
 
 
-IFillFormatEffectiveData class
+## IFillFormatEffectiveData class
 
 Immutable object which contains effective fill formatting properties.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: CommentAuthor
+title: CommentAuthor class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/commentauthor/
 ---
 
 
-CommentAuthor class
+## CommentAuthor class
 
 Represents an author of comments.
 

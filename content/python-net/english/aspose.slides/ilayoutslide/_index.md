@@ -1,5 +1,5 @@
 ﻿---
-title: ILayoutSlide
+title: ILayoutSlide class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ilayoutslide/
 ---
 
 
-ILayoutSlide class
+## ILayoutSlide class
 
 Represents a layout slide.
 

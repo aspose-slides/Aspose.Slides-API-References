@@ -1,5 +1,5 @@
 ﻿---
-title: BlobManagementOptions
+title: BlobManagementOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/blobmanagementoptions/
 ---
 
 
-BlobManagementOptions class
+## BlobManagementOptions class
 
 Represents options which can be used to manage BLOB handling rules and other BLOB settings.
 

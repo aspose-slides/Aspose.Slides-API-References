@@ -1,5 +1,5 @@
 ﻿---
-title: CombinableSeriesTypesGroup
+title: CombinableSeriesTypesGroup enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/combinableseriestypesgroup/
 ---
 
 
-CombinableSeriesTypesGroup enumeration
+## CombinableSeriesTypesGroup class
 
 Enumeration of groups of combinable series types.
             Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup.

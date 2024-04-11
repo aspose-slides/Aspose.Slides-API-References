@@ -1,5 +1,5 @@
 ﻿---
-title: GradientFormat
+title: GradientFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/gradientformat/
 ---
 
 
-GradientFormat class
+## GradientFormat class
 
 Represent a gradient format.
 

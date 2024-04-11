@@ -1,5 +1,5 @@
 ﻿---
-title: IMasterLayoutSlideCollection
+title: IMasterLayoutSlideCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/imasterlayoutslidecollection/
 ---
 
 
-IMasterLayoutSlideCollection class
+## IMasterLayoutSlideCollection class
 
 Represents a collections of all layout slides of defined master slide.
             Extends ILayoutSlideCollection interface with methods for adding/inserting/removing/cloning 

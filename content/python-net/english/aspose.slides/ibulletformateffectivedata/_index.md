@@ -1,5 +1,5 @@
 ﻿---
-title: IBulletFormatEffectiveData
+title: IBulletFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ibulletformateffectivedata/
 ---
 
 
-IBulletFormatEffectiveData class
+## IBulletFormatEffectiveData class
 
 Immutable object which contains effective paragraph bullet formatting properties.
 

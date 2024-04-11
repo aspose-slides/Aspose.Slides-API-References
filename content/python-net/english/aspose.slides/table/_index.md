@@ -1,5 +1,5 @@
 ﻿---
-title: Table
+title: Table class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/table/
 ---
 
 
-Table class
+## Table class
 
 Represents a table on a slide.
 

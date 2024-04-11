@@ -1,5 +1,5 @@
 ﻿---
-title: IColorFormat
+title: IColorFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/icolorformat/
 ---
 
 
-IColorFormat class
+## IColorFormat class
 
 Represents a color used in a presentation.
 

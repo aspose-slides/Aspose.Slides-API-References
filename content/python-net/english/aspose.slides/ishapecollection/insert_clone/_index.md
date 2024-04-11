@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ishapecollection/insert_clone/
-weight: 210
+weight: 250
 ---
 
 

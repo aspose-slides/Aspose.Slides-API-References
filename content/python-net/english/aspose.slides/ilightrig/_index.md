@@ -1,5 +1,5 @@
 ﻿---
-title: ILightRig
+title: ILightRig class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ilightrig/
 ---
 
 
-ILightRig class
+## ILightRig class
 
 Represents LightRig.
 

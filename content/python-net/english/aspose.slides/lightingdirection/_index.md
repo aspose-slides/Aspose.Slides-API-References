@@ -1,5 +1,5 @@
 ﻿---
-title: LightingDirection
+title: LightingDirection enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/lightingdirection/
 ---
 
 
-LightingDirection enumeration
+## LightingDirection class
 
 Constants which define light directions.
 

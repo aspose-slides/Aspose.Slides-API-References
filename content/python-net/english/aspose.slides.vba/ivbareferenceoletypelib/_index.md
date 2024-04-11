@@ -1,5 +1,5 @@
 ﻿---
-title: IVbaReferenceOleTypeLib
+title: IVbaReferenceOleTypeLib class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.vba/ivbareferenceoletypelib/
 ---
 
 
-IVbaReferenceOleTypeLib class
+## IVbaReferenceOleTypeLib class
 
 Represents OLE Automation type library reference.
 

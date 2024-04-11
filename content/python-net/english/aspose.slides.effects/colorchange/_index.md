@@ -1,5 +1,5 @@
 ﻿---
-title: ColorChange
+title: ColorChange class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/colorchange/
 ---
 
 
-ColorChange class
+## ColorChange class
 
 Represents a Color Change effect.
             Instances of FromColor are replaced with instances of ToColor.

@@ -1,5 +1,5 @@
 ﻿---
-title: IDuotoneEffectiveData
+title: IDuotoneEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/iduotoneeffectivedata/
 ---
 
 
-IDuotoneEffectiveData class
+## IDuotoneEffectiveData class
 
 Immutable object which represents a Duotone effect.
             For each pixel, combines clr1 and clr2 through a linear interpolation

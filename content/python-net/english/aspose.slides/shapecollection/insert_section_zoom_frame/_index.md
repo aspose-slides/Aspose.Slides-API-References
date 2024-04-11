@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/shapecollection/insert_section_zoom_frame/
-weight: 70
+weight: 300
 ---
 
 

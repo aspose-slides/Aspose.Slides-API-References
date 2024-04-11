@@ -1,0 +1,17 @@
+﻿---
+title: as_i_base_handout_notes_slide_header_footer_manag property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/notesslideheaderfootermanager/as_i_base_handout_notes_slide_header_footer_manag/
+weight: 80
+---
+
+
+## as_i_base_handout_notes_slide_header_footer_manag property
+### Definition:
+```python
+@property
+def as_i_base_handout_notes_slide_header_footer_manag(self):
+    ...
+```

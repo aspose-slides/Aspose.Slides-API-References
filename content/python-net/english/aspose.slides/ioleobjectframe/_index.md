@@ -1,5 +1,5 @@
 ﻿---
-title: IOleObjectFrame
+title: IOleObjectFrame class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ioleobjectframe/
 ---
 
 
-IOleObjectFrame class
+## IOleObjectFrame class
 
 Represents an OLE object on a slide.
 

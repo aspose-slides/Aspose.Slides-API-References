@@ -1,5 +1,5 @@
 ﻿---
-title: Tab
+title: Tab class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/tab/
 ---
 
 
-Tab class
+## Tab class
 
 Represents a tabulation for a text.
 

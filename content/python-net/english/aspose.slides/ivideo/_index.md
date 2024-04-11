@@ -1,5 +1,5 @@
 ﻿---
-title: IVideo
+title: IVideo class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ivideo/
 ---
 
 
-IVideo class
+## IVideo class
 
 Represents a video embedded into a presentation.
 

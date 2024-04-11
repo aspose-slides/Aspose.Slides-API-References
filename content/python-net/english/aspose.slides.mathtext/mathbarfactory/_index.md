@@ -1,5 +1,5 @@
 ﻿---
-title: MathBarFactory
+title: MathBarFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathbarfactory/
 ---
 
 
-MathBarFactory class
+## MathBarFactory class
 
 Allows to create a math bar
 

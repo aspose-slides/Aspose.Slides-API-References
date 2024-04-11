@@ -1,5 +1,5 @@
 ﻿---
-title: ChartThemeManager
+title: ChartThemeManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/chartthememanager/
 ---
 
 
-ChartThemeManager class
+## ChartThemeManager class
 
 Provides access to chart theme overriden.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IDigitalSignature
+title: IDigitalSignature class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/idigitalsignature/
 ---
 
 
-IDigitalSignature class
+## IDigitalSignature class
 
 Digital signature in signed file.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ColorOperationCollection
+title: ColorOperationCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/coloroperationcollection/
 ---
 
 
-ColorOperationCollection class
+## ColorOperationCollection class
 
 Represents a collection of color transform operations.
 

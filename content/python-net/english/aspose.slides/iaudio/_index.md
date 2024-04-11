@@ -1,5 +1,5 @@
 ﻿---
-title: IAudio
+title: IAudio class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iaudio/
 ---
 
 
-IAudio class
+## IAudio class
 
 Represents an embedded audio file.
 

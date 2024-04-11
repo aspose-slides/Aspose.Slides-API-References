@@ -1,5 +1,5 @@
 ﻿---
-title: VideoPlayerHtmlControllerFactory
+title: VideoPlayerHtmlControllerFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
 
 
-VideoPlayerHtmlControllerFactory class
+## VideoPlayerHtmlControllerFactory class
 
 Allows to create VideoPlayerHtmlController.
 

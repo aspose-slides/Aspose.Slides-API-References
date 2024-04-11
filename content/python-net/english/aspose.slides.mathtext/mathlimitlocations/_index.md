@@ -1,5 +1,5 @@
 ﻿---
-title: MathLimitLocations
+title: MathLimitLocations enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathlimitlocations/
 ---
 
 
-MathLimitLocations enumeration
+## MathLimitLocations class
 
 Location of limits (subscript/superscript) in n-ary operators.
 

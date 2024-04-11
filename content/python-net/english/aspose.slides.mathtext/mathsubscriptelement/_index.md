@@ -1,5 +1,5 @@
 ﻿---
-title: MathSubscriptElement
+title: MathSubscriptElement class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathsubscriptelement/
 ---
 
 
-MathSubscriptElement class
+## MathSubscriptElement class
 
 Specifies the subscript object, which consists of a base 
             and a reduced-size subscript placed below and to the right.

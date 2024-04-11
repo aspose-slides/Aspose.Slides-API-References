@@ -1,5 +1,5 @@
 ﻿---
-title: TextStrikethroughType
+title: TextStrikethroughType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/textstrikethroughtype/
 ---
 
 
-TextStrikethroughType enumeration
+## TextStrikethroughType class
 
 Represents the type of text strikethrough.
 

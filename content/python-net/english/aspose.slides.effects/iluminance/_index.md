@@ -1,5 +1,5 @@
 ﻿---
-title: ILuminance
+title: ILuminance class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/iluminance/
 ---
 
 
-ILuminance class
+## ILuminance class
 
 Represents a Luminance effect.
             Brightness linearly shifts all colors closer to white or black.

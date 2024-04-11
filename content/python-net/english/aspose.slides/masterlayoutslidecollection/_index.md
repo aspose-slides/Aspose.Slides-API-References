@@ -1,5 +1,5 @@
 ﻿---
-title: MasterLayoutSlideCollection
+title: MasterLayoutSlideCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-MasterLayoutSlideCollection class
+## MasterLayoutSlideCollection class
 
 Represents a collections of all layout slides of defined master slide.
             Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering 

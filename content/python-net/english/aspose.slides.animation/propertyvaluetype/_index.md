@@ -1,5 +1,5 @@
 ﻿---
-title: PropertyValueType
+title: PropertyValueType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/propertyvaluetype/
 ---
 
 
-PropertyValueType enumeration
+## PropertyValueType class
 
 Represent property value types.
 

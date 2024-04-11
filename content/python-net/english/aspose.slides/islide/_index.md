@@ -1,5 +1,5 @@
 ﻿---
-title: ISlide
+title: ISlide class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/islide/
 ---
 
 
-ISlide class
+## ISlide class
 
 Represents a slide in a presentation.
 

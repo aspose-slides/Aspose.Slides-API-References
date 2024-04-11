@@ -1,5 +1,5 @@
 ﻿---
-title: IHtmlGenerator
+title: IHtmlGenerator class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/ihtmlgenerator/
 ---
 
 
-IHtmlGenerator class
+## IHtmlGenerator class
 
 Html generator.
 

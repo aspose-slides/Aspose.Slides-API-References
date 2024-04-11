@@ -1,5 +1,5 @@
 ﻿---
-title: ITabEffectiveData
+title: ITabEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itabeffectivedata/
 ---
 
 
-ITabEffectiveData class
+## ITabEffectiveData class
 
 Immutable object which contains effective text's tabulation stop properties.
 

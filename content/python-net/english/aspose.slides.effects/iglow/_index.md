@@ -1,5 +1,5 @@
 ﻿---
-title: IGlow
+title: IGlow class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/iglow/
 ---
 
 
-IGlow class
+## IGlow class
 
 Represents a Glow effect, in which a color blurred outline 
             is added outside the edges of the object.

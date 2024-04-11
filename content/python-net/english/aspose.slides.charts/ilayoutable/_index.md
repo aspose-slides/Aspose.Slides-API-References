@@ -1,5 +1,5 @@
 ﻿---
-title: ILayoutable
+title: ILayoutable class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ilayoutable/
 ---
 
 
-ILayoutable class
+## ILayoutable class
 
 Specifies the exact position of a chart element.
 

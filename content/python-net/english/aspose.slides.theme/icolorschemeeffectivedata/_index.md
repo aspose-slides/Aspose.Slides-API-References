@@ -1,5 +1,5 @@
 ﻿---
-title: IColorSchemeEffectiveData
+title: IColorSchemeEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/icolorschemeeffectivedata/
 ---
 
 
-IColorSchemeEffectiveData class
+## IColorSchemeEffectiveData class
 
 Immutable object which contains effective color scheme properties.
 

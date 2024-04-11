@@ -1,5 +1,5 @@
 ﻿---
-title: ExternalResourceResolver
+title: ExternalResourceResolver class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.importing/externalresourceresolver/
 ---
 
 
-ExternalResourceResolver class
+## ExternalResourceResolver class
 
 Callback class used to resolve external resources during Html, Svg documents import.
             Using this resolver could create a vulnerability when client provided HTML or SVG file will make server software to obtain local or network file. Use with caution. It is recommended not to specify ExternalResourceResolver at all (only embedded objects will be read) or create some subclass which checks if specified uri is valid.

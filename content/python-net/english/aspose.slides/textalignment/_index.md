@@ -1,5 +1,5 @@
 ﻿---
-title: TextAlignment
+title: TextAlignment enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/textalignment/
 ---
 
 
-TextAlignment enumeration
+## TextAlignment class
 
 Represents different text alignment styles.
 

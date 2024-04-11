@@ -1,5 +1,5 @@
 ﻿---
-title: IVbaReference
+title: IVbaReference class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.vba/ivbareference/
 ---
 
 
-IVbaReference class
+## IVbaReference class
 
 Represents the name of the VBA project reference.
 

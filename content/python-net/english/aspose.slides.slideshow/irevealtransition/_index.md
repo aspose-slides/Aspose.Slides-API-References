@@ -1,5 +1,5 @@
 ﻿---
-title: IRevealTransition
+title: IRevealTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/irevealtransition/
 ---
 
 
-IRevealTransition class
+## IRevealTransition class
 
 Reveal slide transition effect.
 

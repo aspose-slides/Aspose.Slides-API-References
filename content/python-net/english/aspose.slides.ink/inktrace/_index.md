@@ -1,5 +1,5 @@
 ﻿---
-title: InkTrace
+title: InkTrace class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.ink/inktrace/
 ---
 
 
-InkTrace class
+## InkTrace class
 
 Represents an Trace object.
             A Trace element is used to record the data captured by the digitizer. 

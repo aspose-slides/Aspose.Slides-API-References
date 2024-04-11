@@ -1,5 +1,5 @@
 ﻿---
-title: TransitionMorphType
+title: TransitionMorphType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionmorphtype/
 ---
 
 
-TransitionMorphType enumeration
+## TransitionMorphType class
 
 Represent a type of morph transition.
 

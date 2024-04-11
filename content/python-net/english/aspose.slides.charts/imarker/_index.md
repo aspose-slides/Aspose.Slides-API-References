@@ -1,5 +1,5 @@
 ﻿---
-title: IMarker
+title: IMarker class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/imarker/
 ---
 
 
-IMarker class
+## IMarker class
 
 Represents marker of a chert.
 

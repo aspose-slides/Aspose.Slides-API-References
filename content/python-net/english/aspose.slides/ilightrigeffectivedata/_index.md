@@ -1,5 +1,5 @@
 ﻿---
-title: ILightRigEffectiveData
+title: ILightRigEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ilightrigeffectivedata/
 ---
 
 
-ILightRigEffectiveData class
+## ILightRigEffectiveData class
 
 Immutable object which contains effective light rig properties.
 

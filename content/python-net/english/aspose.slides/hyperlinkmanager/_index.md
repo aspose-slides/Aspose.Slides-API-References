@@ -1,5 +1,5 @@
 ﻿---
-title: HyperlinkManager
+title: HyperlinkManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/hyperlinkmanager/
 ---
 
 
-HyperlinkManager class
+## HyperlinkManager class
 
 Provide hyperlinks management (adding, removing).
 

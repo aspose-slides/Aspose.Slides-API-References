@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartdatapointcollection/add_data_point_for_bubble_series/
-weight: 100
+weight: 40
 ---
 
 

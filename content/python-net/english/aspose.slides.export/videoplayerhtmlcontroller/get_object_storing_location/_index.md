@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/videoplayerhtmlcontroller/get_object_storing_location/
-weight: 90
+weight: 30
 ---
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IAlphaCeiling
+title: IAlphaCeiling class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ialphaceiling/
 ---
 
 
-IAlphaCeiling class
+## IAlphaCeiling class
 
 Represents an Alpha Ceiling effect.
             Alpha (opacity) values greater than zero are changed to 100%.

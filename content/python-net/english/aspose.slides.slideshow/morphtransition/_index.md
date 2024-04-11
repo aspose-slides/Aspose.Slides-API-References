@@ -1,5 +1,5 @@
 ﻿---
-title: MorphTransition
+title: MorphTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/morphtransition/
 ---
 
 
-MorphTransition class
+## MorphTransition class
 
 Ripple slide transition effect.
 

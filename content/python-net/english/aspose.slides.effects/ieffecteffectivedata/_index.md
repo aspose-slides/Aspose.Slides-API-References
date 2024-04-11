@@ -1,5 +1,5 @@
 ﻿---
-title: IEffectEffectiveData
+title: IEffectEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ieffecteffectivedata/
 ---
 
 
-IEffectEffectiveData class
+## IEffectEffectiveData class
 
 Base class for immutable objects, which represent effect.
 

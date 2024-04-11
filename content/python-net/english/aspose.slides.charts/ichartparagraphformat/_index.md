@@ -1,5 +1,5 @@
 ﻿---
-title: IChartParagraphFormat
+title: IChartParagraphFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartparagraphformat/
 ---
 
 
-IChartParagraphFormat class
+## IChartParagraphFormat class
 
 Represents a paragraph formatting properties of a chart.
 

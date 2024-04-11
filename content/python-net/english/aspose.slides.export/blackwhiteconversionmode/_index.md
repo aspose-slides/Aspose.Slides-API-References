@@ -1,5 +1,5 @@
 ﻿---
-title: BlackWhiteConversionMode
+title: BlackWhiteConversionMode enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/blackwhiteconversionmode/
 ---
 
 
-BlackWhiteConversionMode enumeration
+## BlackWhiteConversionMode class
 
 Provides options that control how slides' images will be converted to bitonal images.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: License
+title: License class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/license/
 ---
 
 
-License class
+## License class
 
 Provides methods to license the component.
 

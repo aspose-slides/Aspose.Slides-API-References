@@ -1,5 +1,5 @@
 ﻿---
-title: IFontSchemeEffectiveData
+title: IFontSchemeEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/ifontschemeeffectivedata/
 ---
 
 
-IFontSchemeEffectiveData class
+## IFontSchemeEffectiveData class
 
 Immutable object which contains effective font scheme properties.
 

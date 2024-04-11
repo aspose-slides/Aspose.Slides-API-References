@@ -1,5 +1,5 @@
 ﻿---
-title: IPatternFormat
+title: IPatternFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ipatternformat/
 ---
 
 
-IPatternFormat class
+## IPatternFormat class
 
 Represents a pattern to fill a shape.
 

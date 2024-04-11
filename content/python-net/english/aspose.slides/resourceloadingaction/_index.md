@@ -1,5 +1,5 @@
 ﻿---
-title: ResourceLoadingAction
+title: ResourceLoadingAction enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/resourceloadingaction/
 ---
 
 
-ResourceLoadingAction enumeration
+## ResourceLoadingAction class
 
 Specifies the mode of external resource loading.
 

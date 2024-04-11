@@ -1,5 +1,5 @@
 ﻿---
-title: WheelTransition
+title: WheelTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/wheeltransition/
 ---
 
 
-WheelTransition class
+## WheelTransition class
 
 Wheel slide transition effect.
 

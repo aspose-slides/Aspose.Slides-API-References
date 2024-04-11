@@ -1,0 +1,19 @@
+﻿---
+title: ppt_h property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.animation/behaviorproperty/ppt_h/
+weight: 520
+---
+
+
+## ppt_h property
+Represents 'ppt_h' property
+
+### Definition:
+```python
+@property
+def ppt_h(self):
+    ...
+```

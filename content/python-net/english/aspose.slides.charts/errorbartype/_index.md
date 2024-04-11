@@ -1,5 +1,5 @@
 ﻿---
-title: ErrorBarType
+title: ErrorBarType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/errorbartype/
 ---
 
 
-ErrorBarType enumeration
+## ErrorBarType class
 
 Represents type of error bar
 

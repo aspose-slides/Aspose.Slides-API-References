@@ -1,5 +1,5 @@
 ﻿---
-title: ParagraphFormat
+title: ParagraphFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/paragraphformat/
 ---
 
 
-ParagraphFormat class
+## ParagraphFormat class
 
 This class contains the paragraph formatting properties. Unlike [`IParagraphFormatEffectiveData`](/slides/python-net/aspose.slides/iparagraphformateffectivedata), all properties of this class are writeable.
 

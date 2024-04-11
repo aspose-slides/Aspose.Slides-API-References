@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/imasterlayoutslidecollection/__getitem__/
-weight: 110
+weight: 100
 ---
 
 

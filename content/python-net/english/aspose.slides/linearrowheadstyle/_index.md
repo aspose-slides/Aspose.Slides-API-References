@@ -1,5 +1,5 @@
 ﻿---
-title: LineArrowheadStyle
+title: LineArrowheadStyle enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/linearrowheadstyle/
 ---
 
 
-LineArrowheadStyle enumeration
+## LineArrowheadStyle class
 
 Represents the style of an arrowhead.
 

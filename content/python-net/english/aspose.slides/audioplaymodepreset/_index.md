@@ -1,5 +1,5 @@
 ﻿---
-title: AudioPlayModePreset
+title: AudioPlayModePreset enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/audioplaymodepreset/
 ---
 
 
-AudioPlayModePreset enumeration
+## AudioPlayModePreset class
 
 Constants which define how a sound is played.
 

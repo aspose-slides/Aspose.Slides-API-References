@@ -1,5 +1,5 @@
 ﻿---
-title: NullableBool
+title: NullableBool enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/nullablebool/
 ---
 
 
-NullableBool enumeration
+## NullableBool class
 
 Represents triple boolean values.
 

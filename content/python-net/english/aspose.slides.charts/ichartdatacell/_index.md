@@ -1,5 +1,5 @@
 ﻿---
-title: IChartDataCell
+title: IChartDataCell class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartdatacell/
 ---
 
 
-IChartDataCell class
+## IChartDataCell class
 
 Represents cell for chart data.
 

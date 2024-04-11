@@ -1,5 +1,5 @@
 ﻿---
-title: IMathMatrix
+title: IMathMatrix class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathmatrix/
 ---
 
 
-IMathMatrix class
+## IMathMatrix class
 
 Specifies the Matrix object, consisting of child elements laid out in one or more rows and columns. 
             It is important to note that matrices do not have built in delimiters. 

@@ -1,5 +1,5 @@
 ﻿---
-title: SwfOptions
+title: SwfOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/swfoptions/
 ---
 
 
-SwfOptions class
+## SwfOptions class
 
 Provides options that control how a presentation is saved in Swf format.
 

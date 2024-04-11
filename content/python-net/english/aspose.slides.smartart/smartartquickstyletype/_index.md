@@ -1,5 +1,5 @@
 ﻿---
-title: SmartArtQuickStyleType
+title: SmartArtQuickStyleType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.smartart/smartartquickstyletype/
 ---
 
 
-SmartArtQuickStyleType enumeration
+## SmartArtQuickStyleType class
 
 Represents style scheme of a SmartArt diagram.
 

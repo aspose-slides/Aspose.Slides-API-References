@@ -1,5 +1,5 @@
 ﻿---
-title: IGeometryShape
+title: IGeometryShape class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/igeometryshape/
 ---
 
 
-IGeometryShape class
+## IGeometryShape class
 
 Represents the parent class for all geometric shapes.
 

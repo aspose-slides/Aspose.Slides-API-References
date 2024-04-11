@@ -1,5 +1,5 @@
 ﻿---
-title: ColorSpace
+title: ColorSpace enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/colorspace/
 ---
 
 
-ColorSpace enumeration
+## ColorSpace class
 
 Represents color space for color effect behavior.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: AlphaFloor
+title: AlphaFloor class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/alphafloor/
 ---
 
 
-AlphaFloor class
+## AlphaFloor class
 
 Represents an Alpha Floor effect.
             Alpha (opacity) values less than 100% are changed to zero.

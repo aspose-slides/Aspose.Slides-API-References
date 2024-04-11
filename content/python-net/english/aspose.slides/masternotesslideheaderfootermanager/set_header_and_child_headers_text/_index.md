@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/masternotesslideheaderfootermanager/set_header_and_child_headers_text/
-weight: 100
+weight: 90
 ---
 
 

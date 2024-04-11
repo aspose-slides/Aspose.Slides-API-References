@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/charttypecharacterizer/is_series_uses_bubble_size_coordinate/
-weight: 190
+weight: 180
 ---
 
 

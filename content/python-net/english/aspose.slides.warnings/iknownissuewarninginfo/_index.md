@@ -1,5 +1,5 @@
 ﻿---
-title: IKnownIssueWarningInfo
+title: IKnownIssueWarningInfo class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.warnings/iknownissuewarninginfo/
 ---
 
 
-IKnownIssueWarningInfo class
+## IKnownIssueWarningInfo class
 
 Represents a warning about known issue which won't be fixed in the near future.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IOverrideThemeManager
+title: IOverrideThemeManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/ioverridethememanager/
 ---
 
 
-IOverrideThemeManager class
+## IOverrideThemeManager class
 
 Provides access to different types of overriden themes.
 

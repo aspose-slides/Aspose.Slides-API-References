@@ -1,5 +1,5 @@
 ﻿---
-title: FillBlendMode
+title: FillBlendMode enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/fillblendmode/
 ---
 
 
-FillBlendMode enumeration
+## FillBlendMode class
 
 Determines blend mode.
 

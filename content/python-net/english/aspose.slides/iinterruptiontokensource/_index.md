@@ -1,5 +1,5 @@
 ﻿---
-title: IInterruptionTokenSource
+title: IInterruptionTokenSource class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iinterruptiontokensource/
 ---
 
 
-IInterruptionTokenSource class
+## IInterruptionTokenSource class
 
 Represents the source of [`IInterruptionToken`](/slides/python-net/aspose.slides/iinterruptiontoken).
 

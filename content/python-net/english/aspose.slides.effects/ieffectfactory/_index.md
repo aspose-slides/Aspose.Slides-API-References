@@ -1,5 +1,5 @@
 ﻿---
-title: IEffectFactory
+title: IEffectFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ieffectfactory/
 ---
 
 
-IEffectFactory class
+## IEffectFactory class
 
 Allows to create effects' instances
 

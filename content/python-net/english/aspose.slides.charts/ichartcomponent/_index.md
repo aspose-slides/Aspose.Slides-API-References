@@ -1,5 +1,5 @@
 ﻿---
-title: IChartComponent
+title: IChartComponent class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartcomponent/
 ---
 
 
-IChartComponent class
+## IChartComponent class
 
 Represents a component of a chart.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IChartTitle
+title: IChartTitle class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/icharttitle/
 ---
 
 
-IChartTitle class
+## IChartTitle class
 
 Represents chart title properties.
 

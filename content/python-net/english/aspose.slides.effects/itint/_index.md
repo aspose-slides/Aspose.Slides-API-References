@@ -1,5 +1,5 @@
 ﻿---
-title: ITint
+title: ITint class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/itint/
 ---
 
 
-ITint class
+## ITint class
 
 Represents a Tint effect.
             Shifts effect color values towards/away from hue by the specified amount.

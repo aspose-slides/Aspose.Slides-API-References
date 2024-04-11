@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathmatrix/as_argument_of_function/
-weight: 60
+weight: 20
 ---
 
 

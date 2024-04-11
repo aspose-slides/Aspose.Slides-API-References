@@ -1,5 +1,5 @@
 ﻿---
-title: ImageTransformOperationCollection
+title: ImageTransformOperationCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/imagetransformoperationcollection/
 ---
 
 
-ImageTransformOperationCollection class
+## ImageTransformOperationCollection class
 
 Represents a collection of effects apllied to an image.
 

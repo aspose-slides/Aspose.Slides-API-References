@@ -1,5 +1,5 @@
 ﻿---
-title: IXamlOptions
+title: IXamlOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export.xaml/ixamloptions/
 ---
 
 
-IXamlOptions class
+## IXamlOptions class
 
 Options that control how a XAML document is saved.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ChartDataWorksheet
+title: ChartDataWorksheet class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/chartdataworksheet/
 ---
 
 
-ChartDataWorksheet class
+## ChartDataWorksheet class
 
 Represents worksheet associated with [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 

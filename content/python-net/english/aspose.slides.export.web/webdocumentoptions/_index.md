@@ -1,5 +1,5 @@
 ﻿---
-title: WebDocumentOptions
+title: WebDocumentOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export.web/webdocumentoptions/
 ---
 
 
-WebDocumentOptions class
+## WebDocumentOptions class
 
 Represents an options set for [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument) saving.
 

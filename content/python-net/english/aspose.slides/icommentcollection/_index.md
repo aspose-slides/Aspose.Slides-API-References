@@ -1,5 +1,5 @@
 ﻿---
-title: ICommentCollection
+title: ICommentCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/icommentcollection/
 ---
 
 
-ICommentCollection class
+## ICommentCollection class
 
 Represents a collection of comments of one author.
 

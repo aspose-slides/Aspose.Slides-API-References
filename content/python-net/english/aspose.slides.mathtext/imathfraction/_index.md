@@ -1,5 +1,5 @@
 ﻿---
-title: IMathFraction
+title: IMathFraction class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathfraction/
 ---
 
 
-IMathFraction class
+## IMathFraction class
 
 Specifies the fraction object, consisting of a numerator and denominator separated by a fraction bar.
             The fraction bar can be horizontal or diagonal, depending on the fraction properties.

@@ -1,5 +1,5 @@
 ﻿---
-title: TextAnchorType
+title: TextAnchorType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/textanchortype/
 ---
 
 
-TextAnchorType enumeration
+## TextAnchorType class
 
 text box alignment within a text area.
 

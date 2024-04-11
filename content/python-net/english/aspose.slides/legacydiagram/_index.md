@@ -1,5 +1,5 @@
 ﻿---
-title: LegacyDiagram
+title: LegacyDiagram class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/legacydiagram/
 ---
 
 
-LegacyDiagram class
+## LegacyDiagram class
 
 Represents a legacy diagram object.
 

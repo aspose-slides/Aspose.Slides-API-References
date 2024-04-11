@@ -1,5 +1,5 @@
 ﻿---
-title: IRow
+title: IRow class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/irow/
 ---
 
 
-IRow class
+## IRow class
 
 Represents a row in a table.
 

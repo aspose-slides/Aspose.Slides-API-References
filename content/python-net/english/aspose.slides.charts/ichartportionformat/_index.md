@@ -1,5 +1,5 @@
 ﻿---
-title: IChartPortionFormat
+title: IChartPortionFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartportionformat/
 ---
 
 
-IChartPortionFormat class
+## IChartPortionFormat class
 
 Represents the chart portion formatting properties used in charts.
 

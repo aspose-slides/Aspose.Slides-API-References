@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/inotesslide/find_shape_by_alt_text/
-weight: 20
+weight: 30
 ---
 
 

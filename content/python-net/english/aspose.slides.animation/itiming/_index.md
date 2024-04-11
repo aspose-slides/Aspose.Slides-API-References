@@ -1,5 +1,5 @@
 ﻿---
-title: ITiming
+title: ITiming class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/itiming/
 ---
 
 
-ITiming class
+## ITiming class
 
 Represents animation timing.
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/imasterhandoutslidemanager/remove_master_handout_slide/
-weight: 30
+weight: 10
 ---
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IMathBorderBoxFactory
+title: IMathBorderBoxFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathborderboxfactory/
 ---
 
 
-IMathBorderBoxFactory class
+## IMathBorderBoxFactory class
 
 Allows to create a math border box
 

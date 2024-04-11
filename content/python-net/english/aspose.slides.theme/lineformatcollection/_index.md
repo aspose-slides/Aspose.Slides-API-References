@@ -1,5 +1,5 @@
 ﻿---
-title: LineFormatCollection
+title: LineFormatCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/lineformatcollection/
 ---
 
 
-LineFormatCollection class
+## LineFormatCollection class
 
 Represents the collection of line styles.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IControlPropertiesCollection
+title: IControlPropertiesCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/icontrolpropertiescollection/
 ---
 
 
-IControlPropertiesCollection class
+## IControlPropertiesCollection class
 
 A collection of ActiveX controls.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: FontSubstitutionInfo
+title: FontSubstitutionInfo class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/fontsubstitutioninfo/
 ---
 
 
-FontSubstitutionInfo class
+## FontSubstitutionInfo class
 
 This structure represents the information about the font replacement when it will be rendered.
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/formatfactory/create_portion_format/
-weight: 20
+weight: 30
 ---
 
 

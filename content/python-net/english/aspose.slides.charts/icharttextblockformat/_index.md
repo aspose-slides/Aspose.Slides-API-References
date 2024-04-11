@@ -1,5 +1,5 @@
 ﻿---
-title: IChartTextBlockFormat
+title: IChartTextBlockFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/icharttextblockformat/
 ---
 
 
-IChartTextBlockFormat class
+## IChartTextBlockFormat class
 
 Represents formatting properties for chart text elements.
 

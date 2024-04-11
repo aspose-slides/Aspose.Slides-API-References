@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathaccent/set_subscript/
-weight: 70
+weight: 170
 ---
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IAutoShape
+title: IAutoShape class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iautoshape/
 ---
 
 
-IAutoShape class
+## IAutoShape class
 
 Represents an AutoShape.
 

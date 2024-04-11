@@ -1,5 +1,5 @@
 ﻿---
-title: IBaseTableFormatEffectiveData
+title: IBaseTableFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ibasetableformateffectivedata/
 ---
 
 
-IBaseTableFormatEffectiveData class
+## IBaseTableFormatEffectiveData class
 
 Base interface for immutable objects which contain effective table formatting properties.
 

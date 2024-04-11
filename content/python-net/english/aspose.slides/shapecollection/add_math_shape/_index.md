@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/shapecollection/add_math_shape/
-weight: 310
+weight: 90
 ---
 
 

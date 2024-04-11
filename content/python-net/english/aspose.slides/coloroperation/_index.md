@@ -1,5 +1,5 @@
 ﻿---
-title: ColorOperation
+title: ColorOperation class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/coloroperation/
 ---
 
 
-ColorOperation class
+## ColorOperation class
 
 Represents different color operations used for color transformations.
             Immutable object.

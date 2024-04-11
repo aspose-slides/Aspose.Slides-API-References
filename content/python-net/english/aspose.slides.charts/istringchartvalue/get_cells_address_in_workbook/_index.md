@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/istringchartvalue/get_cells_address_in_workbook/
-weight: 40
+weight: 10
 ---
 
 

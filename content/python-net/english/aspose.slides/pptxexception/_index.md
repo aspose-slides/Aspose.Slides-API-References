@@ -1,5 +1,5 @@
 ﻿---
-title: PptxException
+title: PptxException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/pptxexception/
 ---
 
 
-PptxException class
+## PptxException class
 
 Represents a standard internal exception type.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: TextAutofitType
+title: TextAutofitType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/textautofittype/
 ---
 
 
-TextAutofitType enumeration
+## TextAutofitType class
 
 Represents text autofit mode.
 

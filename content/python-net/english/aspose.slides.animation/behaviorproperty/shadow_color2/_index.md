@@ -1,0 +1,19 @@
+﻿---
+title: shadow_color2 property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.animation/behaviorproperty/shadow_color2/
+weight: 610
+---
+
+
+## shadow_color2 property
+Represents 'shadow.color2' property
+
+### Definition:
+```python
+@property
+def shadow_color2(self):
+    ...
+```

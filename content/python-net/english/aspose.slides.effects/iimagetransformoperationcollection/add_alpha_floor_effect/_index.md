@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/iimagetransformoperationcollection/add_alpha_floor_effect/
-weight: 50
+weight: 30
 ---
 
 

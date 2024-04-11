@@ -1,5 +1,5 @@
 ﻿---
-title: ViewType
+title: ViewType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/viewtype/
 ---
 
 
-ViewType enumeration
+## ViewType class
 
 Presentation view types
 

@@ -1,5 +1,5 @@
 ﻿---
-title: PptxEditException
+title: PptxEditException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/pptxeditexception/
 ---
 
 
-PptxEditException class
+## PptxEditException class
 
 Represents an exception thrown when edit presentation error is detected.
 

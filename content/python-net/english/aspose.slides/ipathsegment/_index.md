@@ -1,5 +1,5 @@
 ﻿---
-title: IPathSegment
+title: IPathSegment class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ipathsegment/
 ---
 
 
-IPathSegment class
+## IPathSegment class
 
 Represents segment of graphics path of GeometryShape
 

@@ -1,5 +1,5 @@
 ﻿---
-title: DisplayBlanksAsType
+title: DisplayBlanksAsType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/displayblanksastype/
 ---
 
 
-DisplayBlanksAsType enumeration
+## DisplayBlanksAsType class
 
 Determines how missing data will be displayed.
 

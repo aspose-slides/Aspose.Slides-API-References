@@ -1,5 +1,5 @@
 ﻿---
-title: IMathMatrixFactory
+title: IMathMatrixFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathmatrixfactory/
 ---
 
 
-IMathMatrixFactory class
+## IMathMatrixFactory class
 
 Allows to create a math matrix
 

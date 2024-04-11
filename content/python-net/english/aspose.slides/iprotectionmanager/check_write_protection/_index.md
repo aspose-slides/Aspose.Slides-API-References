@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iprotectionmanager/check_write_protection/
-weight: 60
+weight: 10
 ---
 
 

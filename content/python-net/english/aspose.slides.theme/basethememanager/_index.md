@@ -1,5 +1,5 @@
 ﻿---
-title: BaseThemeManager
+title: BaseThemeManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/basethememanager/
 ---
 
 
-BaseThemeManager class
+## BaseThemeManager class
 
 Base class for classes that provide access to different types of themes.
 

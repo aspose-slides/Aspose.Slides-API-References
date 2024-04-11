@@ -1,5 +1,5 @@
 ﻿---
-title: Glow
+title: Glow class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/glow/
 ---
 
 
-Glow class
+## Glow class
 
 Represents a Glow effect, in which a color blurred outline 
             is added outside the edges of the object.

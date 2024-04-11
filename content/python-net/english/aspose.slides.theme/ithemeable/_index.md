@@ -1,5 +1,5 @@
 ﻿---
-title: IThemeable
+title: IThemeable class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/ithemeable/
 ---
 
 
-IThemeable class
+## IThemeable class
 
 Represents objects that can be themed with [`ITheme`](/slides/python-net/aspose.slides.theme/itheme).
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IOuterShadowEffectiveData
+title: IOuterShadowEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ioutershadoweffectivedata/
 ---
 
 
-IOuterShadowEffectiveData class
+## IOuterShadowEffectiveData class
 
 Immutable object which represents an Outer Shadow effect.
 

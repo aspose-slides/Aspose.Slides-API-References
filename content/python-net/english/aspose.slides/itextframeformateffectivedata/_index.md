@@ -1,5 +1,5 @@
 ﻿---
-title: ITextFrameFormatEffectiveData
+title: ITextFrameFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itextframeformateffectivedata/
 ---
 
 
-ITextFrameFormatEffectiveData class
+## ITextFrameFormatEffectiveData class
 
 Immutable object which contains effective text frame formatting properties.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: FieldType
+title: FieldType class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/fieldtype/
 ---
 
 
-FieldType class
+## FieldType class
 
 Represents a type of field. 
             This value determines which text will be set to the field portion when it will be updated.

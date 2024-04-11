@@ -1,5 +1,5 @@
 ﻿---
-title: ITextStyle
+title: ITextStyle class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itextstyle/
 ---
 
 
-ITextStyle class
+## ITextStyle class
 
 Text style formatting properties.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: MasterSlideCollection
+title: MasterSlideCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/masterslidecollection/
 ---
 
 
-MasterSlideCollection class
+## MasterSlideCollection class
 
 Represents a collection of master slides.
 

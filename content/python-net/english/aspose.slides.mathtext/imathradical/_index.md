@@ -1,5 +1,5 @@
 ﻿---
-title: IMathRadical
+title: IMathRadical class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathradical/
 ---
 
 
-IMathRadical class
+## IMathRadical class
 
 Specifies the radical function, consisting of a base, and an optional degree.
             Example of radical object is √𝑥.

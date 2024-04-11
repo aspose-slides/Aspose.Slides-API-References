@@ -1,5 +1,5 @@
 ﻿---
-title: IBiLevelEffectiveData
+title: IBiLevelEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ibileveleffectivedata/
 ---
 
 
-IBiLevelEffectiveData class
+## IBiLevelEffectiveData class
 
 Immutable object which represents a Bi-Level (black/white) effect.
             Input colors whose luminance is less than the specified threshold value are changed to black.

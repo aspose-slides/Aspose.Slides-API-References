@@ -1,5 +1,5 @@
 ﻿---
-title: HtmlOptions
+title: HtmlOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/htmloptions/
 ---
 
 
-HtmlOptions class
+## HtmlOptions class
 
 Represents a HTML exporting options.
 

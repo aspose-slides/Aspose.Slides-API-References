@@ -1,5 +1,5 @@
 ﻿---
-title: TransitionEightDirectionType
+title: TransitionEightDirectionType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitioneightdirectiontype/
 ---
 
 
-TransitionEightDirectionType enumeration
+## TransitionEightDirectionType class
 
 Represent eight direction transition types.
 

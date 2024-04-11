@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/
-weight: 30
+weight: 40
 ---
 
 

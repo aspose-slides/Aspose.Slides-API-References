@@ -1,5 +1,5 @@
 ﻿---
-title: BevelPresetType
+title: BevelPresetType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/bevelpresettype/
 ---
 
 
-BevelPresetType enumeration
+## BevelPresetType class
 
 Constants which define 3D bevel of shape.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IXamlOutputSaver
+title: IXamlOutputSaver class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export.xaml/ixamloutputsaver/
 ---
 
 
-IXamlOutputSaver class
+## IXamlOutputSaver class
 
 Represents an output saver implementation for transfer data to the external storage.
 

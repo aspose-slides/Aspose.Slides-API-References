@@ -1,0 +1,23 @@
+﻿---
+title: password property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.export/pdfoptions/password/
+weight: 160
+---
+
+
+## password property
+Setting user password to protect the PDF document. 
+            Read/write .NET type System.String.
+
+### Definition:
+```python
+@property
+def password(self):
+    ...
+@password.setter
+def password(self, value):
+    ...
+```

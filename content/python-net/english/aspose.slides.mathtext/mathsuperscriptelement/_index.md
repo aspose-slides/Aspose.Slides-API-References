@@ -1,5 +1,5 @@
 ﻿---
-title: MathSuperscriptElement
+title: MathSuperscriptElement class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathsuperscriptelement/
 ---
 
 
-MathSuperscriptElement class
+## MathSuperscriptElement class
 
 Specifies the superscript object, which consists of a base 
             and a reduced-size superscript placed above and to the right

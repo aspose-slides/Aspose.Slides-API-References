@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathbar/set_sub_superscript_on_the_right/
-weight: 90
+weight: 160
 ---
 
 

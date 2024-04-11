@@ -1,5 +1,5 @@
 ﻿---
-title: Flavor
+title: Flavor enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/flavor/
 ---
 
 
-Flavor enumeration
+## Flavor class
 
 All markdown specifications used in program.
 

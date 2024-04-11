@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartdataworkbook/calculate_formulas/
-weight: 50
+weight: 10
 ---
 
 

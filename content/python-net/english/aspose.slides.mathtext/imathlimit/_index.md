@@ -1,5 +1,5 @@
 ﻿---
-title: IMathLimit
+title: IMathLimit class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathlimit/
 ---
 
 
-IMathLimit class
+## IMathLimit class
 
 Specifies the Limit object, consisting of text on the baseline and reduced-size text immediately above or below it.
 

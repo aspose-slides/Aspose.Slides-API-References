@@ -1,5 +1,5 @@
 ﻿---
-title: ISummaryZoomSectionCollection
+title: ISummaryZoomSectionCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/isummaryzoomsectioncollection/
 ---
 
 
-ISummaryZoomSectionCollection class
+## ISummaryZoomSectionCollection class
 
 Represents a collection of Summary Zoom Section objects.
 

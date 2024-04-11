@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/create_theme_effective/
-weight: 80
+weight: 20
 ---
 
 

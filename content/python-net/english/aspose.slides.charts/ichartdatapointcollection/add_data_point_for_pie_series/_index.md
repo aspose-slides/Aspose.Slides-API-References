@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartdatapointcollection/add_data_point_for_pie_series/
-weight: 80
+weight: 100
 ---
 
 

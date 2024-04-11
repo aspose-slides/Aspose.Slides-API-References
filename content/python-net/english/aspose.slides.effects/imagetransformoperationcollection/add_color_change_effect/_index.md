@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/imagetransformoperationcollection/add_color_change_effect/
-weight: 120
+weight: 100
 ---
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IBehaviorCollection
+title: IBehaviorCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/ibehaviorcollection/
 ---
 
 
-IBehaviorCollection class
+## IBehaviorCollection class
 
 Represents collection of behavior effects.
 

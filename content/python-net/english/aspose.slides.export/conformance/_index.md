@@ -1,5 +1,5 @@
 ﻿---
-title: Conformance
+title: Conformance enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/conformance/
 ---
 
 
-Conformance enumeration
+## Conformance class
 
 Specifies the conformance class to which the PresentationML document conforms.
 

@@ -1,0 +1,20 @@
+﻿---
+title: accumulate property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.animation/icoloreffect/accumulate/
+weight: 10
+---
+
+
+## accumulate property
+### Definition:
+```python
+@property
+def accumulate(self):
+    ...
+@accumulate.setter
+def accumulate(self, value):
+    ...
+```

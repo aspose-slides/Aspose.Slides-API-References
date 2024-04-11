@@ -1,5 +1,5 @@
 ﻿---
-title: IFontsManager
+title: IFontsManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ifontsmanager/
 ---
 
 
-IFontsManager class
+## IFontsManager class
 
 Manages fonts across the presentation.
 

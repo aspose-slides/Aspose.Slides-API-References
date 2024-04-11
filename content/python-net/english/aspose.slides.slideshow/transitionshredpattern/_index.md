@@ -1,5 +1,5 @@
 ﻿---
-title: TransitionShredPattern
+title: TransitionShredPattern enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionshredpattern/
 ---
 
 
-TransitionShredPattern enumeration
+## TransitionShredPattern class
 
 Specifies a geometric shape that tiles together to fill a larger area.
 

@@ -1,0 +1,19 @@
+﻿---
+title: skew_matrix_perspective_y property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.animation/behaviorproperty/skew_matrix_perspective_y/
+weight: 780
+---
+
+
+## skew_matrix_perspective_y property
+Represents 'skew.matrix.perspectiveY' property
+
+### Definition:
+```python
+@property
+def skew_matrix_perspective_y(self):
+    ...
+```

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathmatrix/insert_row_before/
-weight: 260
+weight: 150
 ---
 
 

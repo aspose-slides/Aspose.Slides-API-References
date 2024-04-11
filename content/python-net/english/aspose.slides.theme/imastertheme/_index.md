@@ -1,5 +1,5 @@
 ﻿---
-title: IMasterTheme
+title: IMasterTheme class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/imastertheme/
 ---
 
 
-IMasterTheme class
+## IMasterTheme class
 
 Represents a master theme.
 

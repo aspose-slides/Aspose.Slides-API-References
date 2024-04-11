@@ -1,5 +1,5 @@
 ﻿---
-title: IDataLabel
+title: IDataLabel class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/idatalabel/
 ---
 
 
-IDataLabel class
+## IDataLabel class
 
 Represents a series labels.
 

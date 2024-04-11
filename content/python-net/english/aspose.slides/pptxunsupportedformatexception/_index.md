@@ -1,5 +1,5 @@
 ﻿---
-title: PptxUnsupportedFormatException
+title: PptxUnsupportedFormatException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/pptxunsupportedformatexception/
 ---
 
 
-PptxUnsupportedFormatException class
+## PptxUnsupportedFormatException class
 
 Exception which thrown when presentation file format is unsupported.
 

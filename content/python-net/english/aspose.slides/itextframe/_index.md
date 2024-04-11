@@ -1,5 +1,5 @@
 ﻿---
-title: ITextFrame
+title: ITextFrame class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itextframe/
 ---
 
 
-ITextFrame class
+## ITextFrame class
 
 Represents a TextFrame.
 

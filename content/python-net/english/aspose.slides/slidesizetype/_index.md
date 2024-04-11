@@ -1,5 +1,5 @@
 ﻿---
-title: SlideSizeType
+title: SlideSizeType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/slidesizetype/
 ---
 
 
-SlideSizeType enumeration
+## SlideSizeType class
 
 Represents the slide size preset.
 

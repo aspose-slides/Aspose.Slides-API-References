@@ -1,5 +1,5 @@
 ﻿---
-title: ChartType
+title: ChartType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/charttype/
 ---
 
 
-ChartType enumeration
+## ChartType class
 
 Represents a type of chart.
 

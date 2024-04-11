@@ -1,5 +1,5 @@
 ﻿---
-title: PdfAccessPermissions
+title: PdfAccessPermissions enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/pdfaccesspermissions/
 ---
 
 
-PdfAccessPermissions enumeration
+## PdfAccessPermissions class
 
 Contains a set of flags specifying which access permissions should be granted when the document is opened with 
             user access.

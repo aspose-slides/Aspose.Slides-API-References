@@ -1,5 +1,5 @@
 ﻿---
-title: IRotation3D
+title: IRotation3D class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/irotation3d/
 ---
 
 
-IRotation3D class
+## IRotation3D class
 
 Represents 3D rotation of a chart.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IOutputFile
+title: IOutputFile class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export.web/ioutputfile/
 ---
 
 
-IOutputFile class
+## IOutputFile class
 
 Represents an output file.
 

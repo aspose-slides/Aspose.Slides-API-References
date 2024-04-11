@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/isectioncollection/index_of/
-weight: 80
+weight: 50
 ---
 
 

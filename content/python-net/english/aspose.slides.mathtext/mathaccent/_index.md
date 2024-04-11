@@ -1,5 +1,5 @@
 ﻿---
-title: MathAccent
+title: MathAccent class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathaccent/
 ---
 
 
-MathAccent class
+## MathAccent class
 
 Specifies the accent function, consisting of a base and a combining diacritical mark
             Example: 𝑎́

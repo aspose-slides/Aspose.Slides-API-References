@@ -1,5 +1,5 @@
 ﻿---
-title: ITagCollection
+title: ITagCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itagcollection/
 ---
 
 
-ITagCollection class
+## ITagCollection class
 
 Represents the collection of tags (user defined pairs of strings)
 

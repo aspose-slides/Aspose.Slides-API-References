@@ -1,5 +1,5 @@
 ﻿---
-title: MotionCmdPath
+title: MotionCmdPath class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/motioncmdpath/
 ---
 
 
-MotionCmdPath class
+## MotionCmdPath class
 
 Represent one command of a path.
 

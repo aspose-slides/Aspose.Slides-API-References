@@ -1,5 +1,5 @@
 ﻿---
-title: IParagraphFactory
+title: IParagraphFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iparagraphfactory/
 ---
 
 
-IParagraphFactory class
+## IParagraphFactory class
 
 Allows to create paragraphs
 

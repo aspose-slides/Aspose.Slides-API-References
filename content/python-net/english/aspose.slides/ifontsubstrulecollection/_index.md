@@ -1,5 +1,5 @@
 ﻿---
-title: IFontSubstRuleCollection
+title: IFontSubstRuleCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ifontsubstrulecollection/
 ---
 
 
-IFontSubstRuleCollection class
+## IFontSubstRuleCollection class
 
 Represents collection of fonts substitution.
 

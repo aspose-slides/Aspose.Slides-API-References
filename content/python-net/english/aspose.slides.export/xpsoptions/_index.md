@@ -1,5 +1,5 @@
 ﻿---
-title: XpsOptions
+title: XpsOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/xpsoptions/
 ---
 
 
-XpsOptions class
+## XpsOptions class
 
 Provides options that control how a presentation is saved in XPS format.
 

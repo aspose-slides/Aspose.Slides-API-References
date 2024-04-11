@@ -1,5 +1,5 @@
 ﻿---
-title: IFontSubstRule
+title: IFontSubstRule class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ifontsubstrule/
 ---
 
 
-IFontSubstRule class
+## IFontSubstRule class
 
 Represents font subtituition information
 

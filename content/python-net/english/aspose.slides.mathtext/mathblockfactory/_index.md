@@ -1,5 +1,5 @@
 ﻿---
-title: MathBlockFactory
+title: MathBlockFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathblockfactory/
 ---
 
 
-MathBlockFactory class
+## MathBlockFactory class
 
 Allows to create a math block
 

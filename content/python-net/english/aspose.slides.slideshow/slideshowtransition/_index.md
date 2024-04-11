@@ -1,5 +1,5 @@
 ﻿---
-title: SlideShowTransition
+title: SlideShowTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/slideshowtransition/
 ---
 
 
-SlideShowTransition class
+## SlideShowTransition class
 
 Represents slide show transition.
 

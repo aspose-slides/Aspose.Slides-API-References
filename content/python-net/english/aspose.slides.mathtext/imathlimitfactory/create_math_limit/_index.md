@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathlimitfactory/create_math_limit/
-weight: 20
+weight: 10
 ---
 
 

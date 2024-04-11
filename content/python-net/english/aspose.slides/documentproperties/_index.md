@@ -1,5 +1,5 @@
 ﻿---
-title: DocumentProperties
+title: DocumentProperties class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/documentproperties/
 ---
 
 
-DocumentProperties class
+## DocumentProperties class
 
 Represents properties of a presentation.
 

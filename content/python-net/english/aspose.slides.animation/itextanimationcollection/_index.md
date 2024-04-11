@@ -1,5 +1,5 @@
 ﻿---
-title: ITextAnimationCollection
+title: ITextAnimationCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/itextanimationcollection/
 ---
 
 
-ITextAnimationCollection class
+## ITextAnimationCollection class
 
 Represents collection of text animations.
 

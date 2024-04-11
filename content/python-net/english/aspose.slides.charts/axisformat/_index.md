@@ -1,5 +1,5 @@
 ﻿---
-title: AxisFormat
+title: AxisFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/axisformat/
 ---
 
 
-AxisFormat class
+## AxisFormat class
 
 Represents chart format properties.
 

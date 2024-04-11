@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/summaryzoomsectioncollection/add_summary_zoom_section/
-weight: 20
+weight: 10
 ---
 
 

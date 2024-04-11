@@ -1,5 +1,5 @@
 ﻿---
-title: GradientShape
+title: GradientShape enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/gradientshape/
 ---
 
 
-GradientShape enumeration
+## GradientShape class
 
 Represents the shape of gradient fill.
 

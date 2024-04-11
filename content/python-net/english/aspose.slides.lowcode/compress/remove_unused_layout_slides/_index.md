@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 30
+weight: 20
 ---
 
 

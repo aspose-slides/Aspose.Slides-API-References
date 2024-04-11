@@ -1,5 +1,5 @@
 ﻿---
-title: NotesSlideHeaderFooterManager
+title: NotesSlideHeaderFooterManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/notesslideheaderfootermanager/
 ---
 
 
-NotesSlideHeaderFooterManager class
+## NotesSlideHeaderFooterManager class
 
 Represents manager which holds behavior of the notes slide placeholders, including header placeholder.
 

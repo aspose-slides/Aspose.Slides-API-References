@@ -1,0 +1,20 @@
+﻿---
+title: has_depending_slides property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/layoutslide/has_depending_slides/
+weight: 140
+---
+
+
+## has_depending_slides property
+Returns true if there exists at least one slide that depends on this layout slide.
+            Read-only .NET type System.Boolean.
+
+### Definition:
+```python
+@property
+def has_depending_slides(self):
+    ...
+```

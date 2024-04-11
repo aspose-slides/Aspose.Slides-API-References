@@ -1,5 +1,5 @@
 ﻿---
-title: MathDelimiter
+title: MathDelimiter class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathdelimiter/
 ---
 
 
-MathDelimiter class
+## MathDelimiter class
 
 Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, 
             braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character.

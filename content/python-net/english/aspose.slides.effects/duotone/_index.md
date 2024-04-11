@@ -1,5 +1,5 @@
 ﻿---
-title: Duotone
+title: Duotone class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/duotone/
 ---
 
 
-Duotone class
+## Duotone class
 
 Represents a Duotone effect.
             For each pixel, combines Color1 and Color2 through a linear interpolation

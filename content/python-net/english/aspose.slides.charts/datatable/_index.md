@@ -1,5 +1,5 @@
 ﻿---
-title: DataTable
+title: DataTable class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/datatable/
 ---
 
 
-DataTable class
+## DataTable class
 
 Represents data table properties.
 

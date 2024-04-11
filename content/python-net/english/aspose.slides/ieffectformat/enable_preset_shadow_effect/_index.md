@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ieffectformat/enable_preset_shadow_effect/
-weight: 70
+weight: 130
 ---
 
 

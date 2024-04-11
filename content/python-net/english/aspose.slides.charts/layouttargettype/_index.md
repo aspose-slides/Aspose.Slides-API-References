@@ -1,5 +1,5 @@
 ﻿---
-title: LayoutTargetType
+title: LayoutTargetType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/layouttargettype/
 ---
 
 
-LayoutTargetType enumeration
+## LayoutTargetType class
 
 If layout of the plot area defined manually this property specifies whether 
             to layout the plot area by its inside (not including axis and axis labels) or outside

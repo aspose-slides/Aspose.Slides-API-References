@@ -1,5 +1,5 @@
 ﻿---
-title: ColorFormat
+title: ColorFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/colorformat/
 ---
 
 
-ColorFormat class
+## ColorFormat class
 
 Represents a color used in a presentation.
 

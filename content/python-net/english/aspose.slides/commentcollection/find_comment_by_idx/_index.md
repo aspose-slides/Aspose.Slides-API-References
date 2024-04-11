@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/commentcollection/find_comment_by_idx/
-weight: 100
+weight: 40
 ---
 
 

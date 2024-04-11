@@ -1,5 +1,5 @@
 ﻿---
-title: TextFrame
+title: TextFrame class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/textframe/
 ---
 
 
-TextFrame class
+## TextFrame class
 
 Represents a TextFrame.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IMathRadicalFactory
+title: IMathRadicalFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathradicalfactory/
 ---
 
 
-IMathRadicalFactory class
+## IMathRadicalFactory class
 
 Allows to create math radical
 

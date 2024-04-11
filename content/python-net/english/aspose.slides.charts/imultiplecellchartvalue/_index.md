@@ -1,5 +1,5 @@
 ﻿---
-title: IMultipleCellChartValue
+title: IMultipleCellChartValue class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/imultiplecellchartvalue/
 ---
 
 
-IMultipleCellChartValue class
+## IMultipleCellChartValue class
 
 Represents a collection of a chart cells.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: MathNaryOperatorFactory
+title: MathNaryOperatorFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 
 
-MathNaryOperatorFactory class
+## MathNaryOperatorFactory class
 
 Allows to create IMathNaryOperator
 

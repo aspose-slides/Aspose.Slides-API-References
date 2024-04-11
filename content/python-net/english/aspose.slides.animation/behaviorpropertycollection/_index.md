@@ -1,5 +1,5 @@
 ﻿---
-title: BehaviorPropertyCollection
+title: BehaviorPropertyCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/behaviorpropertycollection/
 ---
 
 
-BehaviorPropertyCollection class
+## BehaviorPropertyCollection class
 
 Represents timing properties for the effect behavior.
 

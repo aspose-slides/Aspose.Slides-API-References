@@ -1,5 +1,5 @@
 ﻿---
-title: IMasterNotesSlideManager
+title: IMasterNotesSlideManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/imasternotesslidemanager/
 ---
 
 
-IMasterNotesSlideManager class
+## IMasterNotesSlideManager class
 
 Master notes slide manager.
 

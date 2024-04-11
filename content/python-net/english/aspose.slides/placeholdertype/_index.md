@@ -1,5 +1,5 @@
 ﻿---
-title: PlaceholderType
+title: PlaceholderType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/placeholdertype/
 ---
 
 
-PlaceholderType enumeration
+## PlaceholderType class
 
 Represents the type of a placeholder.
 

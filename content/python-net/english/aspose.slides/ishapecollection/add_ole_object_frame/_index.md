@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ishapecollection/add_ole_object_frame/
-weight: 40
+weight: 100
 ---
 
 

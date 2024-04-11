@@ -1,5 +1,5 @@
 ﻿---
-title: SoftEdge
+title: SoftEdge class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/softedge/
 ---
 
 
-SoftEdge class
+## SoftEdge class
 
 Represents a soft edge effect. 
             The edges of the shape are blurred, while the fill is not affected.

@@ -1,5 +1,5 @@
 ﻿---
-title: ThreeDFormat
+title: ThreeDFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/threedformat/
 ---
 
 
-ThreeDFormat class
+## ThreeDFormat class
 
 Represents 3-D properties.
 

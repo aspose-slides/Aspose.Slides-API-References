@@ -1,5 +1,5 @@
 ﻿---
-title: MathPortion
+title: MathPortion class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathportion/
 ---
 
 
-MathPortion class
+## MathPortion class
 
 Represents a portion with mathematical context inside.
 

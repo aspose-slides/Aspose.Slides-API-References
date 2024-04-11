@@ -1,5 +1,5 @@
 ﻿---
-title: NotesSlide
+title: NotesSlide class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/notesslide/
 ---
 
 
-NotesSlide class
+## NotesSlide class
 
 Represents a notes slide in a presentation.
 

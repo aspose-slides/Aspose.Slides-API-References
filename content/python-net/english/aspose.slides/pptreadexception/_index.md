@@ -1,5 +1,5 @@
 ﻿---
-title: PptReadException
+title: PptReadException class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/pptreadexception/
 ---
 
 
-PptReadException class
+## PptReadException class
 
 Represents an exception which thrown on presentation reading errors.
 

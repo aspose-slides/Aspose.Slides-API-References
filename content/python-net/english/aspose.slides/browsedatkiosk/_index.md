@@ -1,5 +1,5 @@
 ﻿---
-title: BrowsedAtKiosk
+title: BrowsedAtKiosk class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/browsedatkiosk/
 ---
 
 
-BrowsedAtKiosk class
+## BrowsedAtKiosk class
 
 Browsed at a kiosk (full screen)
 

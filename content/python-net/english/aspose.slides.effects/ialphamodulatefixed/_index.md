@@ -1,5 +1,5 @@
 ﻿---
-title: IAlphaModulateFixed
+title: IAlphaModulateFixed class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ialphamodulatefixed/
 ---
 
 
-IAlphaModulateFixed class
+## IAlphaModulateFixed class
 
 Represents an Alpha Modulate Fixed effect.
             Effect alpha (opacity) values are multiplied by a fixed percentage.

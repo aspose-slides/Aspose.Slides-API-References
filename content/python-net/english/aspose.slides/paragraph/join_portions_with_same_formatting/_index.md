@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/paragraph/join_portions_with_same_formatting/
-weight: 20
+weight: 40
 ---
 
 

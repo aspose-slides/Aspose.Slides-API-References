@@ -1,5 +1,5 @@
 ﻿---
-title: PresentationText
+title: PresentationText class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/presentationtext/
 ---
 
 
-PresentationText class
+## PresentationText class
 
 Represents the text extracted from the presentation
 

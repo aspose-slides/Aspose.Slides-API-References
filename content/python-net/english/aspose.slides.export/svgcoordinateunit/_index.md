@@ -1,5 +1,5 @@
 ﻿---
-title: SvgCoordinateUnit
+title: SvgCoordinateUnit enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/svgcoordinateunit/
 ---
 
 
-SvgCoordinateUnit enumeration
+## SvgCoordinateUnit class
 
 Represents CSS2 coordinate units used to define SVG coordinates.
 

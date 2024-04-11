@@ -1,5 +1,5 @@
 ﻿---
-title: ChartSeriesCollection
+title: ChartSeriesCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/chartseriescollection/
 ---
 
 
-ChartSeriesCollection class
+## ChartSeriesCollection class
 
 Represents collection of  [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 

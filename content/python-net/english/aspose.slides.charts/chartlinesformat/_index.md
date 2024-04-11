@@ -1,5 +1,5 @@
 ﻿---
-title: ChartLinesFormat
+title: ChartLinesFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/chartlinesformat/
 ---
 
 
-ChartLinesFormat class
+## ChartLinesFormat class
 
 Represents gridlines format properties.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IBehavior
+title: IBehavior class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/ibehavior/
 ---
 
 
-IBehavior class
+## IBehavior class
 
 Represent base class behavior of effect.
 

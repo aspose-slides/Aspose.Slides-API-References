@@ -1,5 +1,5 @@
 ﻿---
-title: MathFunctionFactory
+title: MathFunctionFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathfunctionfactory/
 ---
 
 
-MathFunctionFactory class
+## MathFunctionFactory class
 
 Allows to create a math function
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IInOutTransition
+title: IInOutTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/iinouttransition/
 ---
 
 
-IInOutTransition class
+## IInOutTransition class
 
 In-Out slide transition effect.
 

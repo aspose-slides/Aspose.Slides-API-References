@@ -1,5 +1,5 @@
 ﻿---
-title: SaveOptions
+title: SaveOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/saveoptions/
 ---
 
 
-SaveOptions class
+## SaveOptions class
 
 Abstract class with options that control how a presentation is saved.
 

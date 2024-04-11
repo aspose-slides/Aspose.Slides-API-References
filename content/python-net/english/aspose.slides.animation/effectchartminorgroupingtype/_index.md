@@ -1,5 +1,5 @@
 ﻿---
-title: EffectChartMinorGroupingType
+title: EffectChartMinorGroupingType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effectchartminorgroupingtype/
 ---
 
 
-EffectChartMinorGroupingType enumeration
+## EffectChartMinorGroupingType class
 
 Represents the type of an animation effect for chart's element in series or category.
 

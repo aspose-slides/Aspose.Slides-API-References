@@ -1,5 +1,5 @@
 ﻿---
-title: MathSpacingRules
+title: MathSpacingRules enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathspacingrules/
 ---
 
 
-MathSpacingRules enumeration
+## MathSpacingRules class
 
 Types of gap (horizontal spacing) between columns of a matrix
 

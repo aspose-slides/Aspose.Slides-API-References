@@ -1,5 +1,5 @@
 ﻿---
-title: CrossesType
+title: CrossesType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/crossestype/
 ---
 
 
-CrossesType enumeration
+## CrossesType class
 
 Determines where axis will cross.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IControl
+title: IControl class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/icontrol/
 ---
 
 
-IControl class
+## IControl class
 
 Represents an ActiveX control.
 

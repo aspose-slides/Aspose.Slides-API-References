@@ -1,5 +1,5 @@
 ﻿---
-title: Column
+title: Column class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/column/
 ---
 
 
-Column class
+## Column class
 
 Represents a column in a table.
 

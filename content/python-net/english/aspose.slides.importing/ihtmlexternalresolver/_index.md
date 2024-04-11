@@ -1,5 +1,5 @@
 ﻿---
-title: IHtmlExternalResolver
+title: IHtmlExternalResolver class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.importing/ihtmlexternalresolver/
 ---
 
 
-IHtmlExternalResolver class
+## IHtmlExternalResolver class
 
 Callback interface used by HTML import routine to obtain referrenced objects such as images.
 

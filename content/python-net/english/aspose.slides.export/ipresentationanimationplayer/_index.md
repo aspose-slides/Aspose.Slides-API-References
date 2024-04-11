@@ -1,5 +1,5 @@
 ﻿---
-title: IPresentationAnimationPlayer
+title: IPresentationAnimationPlayer class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/ipresentationanimationplayer/
 ---
 
 
-IPresentationAnimationPlayer class
+## IPresentationAnimationPlayer class
 
 Represents a player of the animation.
             

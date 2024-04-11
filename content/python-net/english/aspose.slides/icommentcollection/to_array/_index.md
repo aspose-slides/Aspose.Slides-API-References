@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/icommentcollection/to_array/
-weight: 20
+weight: 80
 ---
 
 

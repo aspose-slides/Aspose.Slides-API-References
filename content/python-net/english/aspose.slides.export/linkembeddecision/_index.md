@@ -1,5 +1,5 @@
 ﻿---
-title: LinkEmbedDecision
+title: LinkEmbedDecision enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/linkembeddecision/
 ---
 
 
-LinkEmbedDecision enumeration
+## LinkEmbedDecision class
 
 Determines how object will be processed during saving.
 

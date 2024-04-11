@@ -1,5 +1,5 @@
 ﻿---
-title: MarkdownExportType
+title: MarkdownExportType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/markdownexporttype/
 ---
 
 
-MarkdownExportType enumeration
+## MarkdownExportType class
 
 Type of rendering document.
 

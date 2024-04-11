@@ -1,5 +1,5 @@
 ﻿---
-title: ISectionSlideCollection
+title: ISectionSlideCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/isectionslidecollection/
 ---
 
 
-ISectionSlideCollection class
+## ISectionSlideCollection class
 
 Represents a collection of a slides in the section.
 

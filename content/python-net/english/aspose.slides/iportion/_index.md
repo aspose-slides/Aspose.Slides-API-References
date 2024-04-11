@@ -1,5 +1,5 @@
 ﻿---
-title: IPortion
+title: IPortion class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iportion/
 ---
 
 
-IPortion class
+## IPortion class
 
 Represents a portion of text inside a text paragraph.
 

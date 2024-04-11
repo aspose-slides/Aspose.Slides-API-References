@@ -1,5 +1,5 @@
 ﻿---
-title: ViewProperties
+title: ViewProperties class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/viewproperties/
 ---
 
 
-ViewProperties class
+## ViewProperties class
 
 Presentation wide view properties.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: LoadOptions
+title: LoadOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/loadoptions/
 ---
 
 
-LoadOptions class
+## LoadOptions class
 
 Allows to specify additional options (such as format or default font) when loading a presentation.
 

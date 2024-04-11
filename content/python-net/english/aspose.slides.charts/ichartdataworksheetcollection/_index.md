@@ -1,5 +1,5 @@
 ﻿---
-title: IChartDataWorksheetCollection
+title: IChartDataWorksheetCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartdataworksheetcollection/
 ---
 
 
-IChartDataWorksheetCollection class
+## IChartDataWorksheetCollection class
 
 Represents the collection of worksheets of chart data workbook.
 

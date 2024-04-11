@@ -1,5 +1,5 @@
 ﻿---
-title: TrendlineType
+title: TrendlineType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/trendlinetype/
 ---
 
 
-TrendlineType enumeration
+## TrendlineType class
 
 Represents type of trend line
 

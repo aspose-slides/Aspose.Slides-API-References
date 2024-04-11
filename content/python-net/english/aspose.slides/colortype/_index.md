@@ -1,5 +1,5 @@
 ﻿---
-title: ColorType
+title: ColorType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/colortype/
 ---
 
 
-ColorType enumeration
+## ColorType class
 
 Represents different color modes.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: SlideShowSettings
+title: SlideShowSettings class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/slideshowsettings/
 ---
 
 
-SlideShowSettings class
+## SlideShowSettings class
 
 Represents the slide show settings for the presentation.
 

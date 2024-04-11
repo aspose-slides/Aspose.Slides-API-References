@@ -1,0 +1,20 @@
+﻿---
+title: masters property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/ipresentation/masters/
+weight: 250
+---
+
+
+## masters property
+Returns a list of all master slides that are defined in the presentation.
+            Read-only [`IMasterSlideCollection`](/slides/python-net/aspose.slides/imasterslidecollection).
+
+### Definition:
+```python
+@property
+def masters(self):
+    ...
+```

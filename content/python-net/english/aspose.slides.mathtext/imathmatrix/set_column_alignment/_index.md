@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathmatrix/set_column_alignment/
-weight: 190
+weight: 200
 ---
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ProtectionManager
+title: ProtectionManager class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/protectionmanager/
 ---
 
 
-ProtectionManager class
+## ProtectionManager class
 
 Presentation password protection management.
 

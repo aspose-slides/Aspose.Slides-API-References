@@ -1,5 +1,5 @@
 ﻿---
-title: Blur
+title: Blur class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/blur/
 ---
 
 
-Blur class
+## Blur class
 
 Represents a Blur effect that is applied to the entire shape, including its fill.
             All color channels, including alpha, are affected.

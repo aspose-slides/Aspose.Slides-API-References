@@ -1,5 +1,5 @@
 ﻿---
-title: IShapeBevelEffectiveData
+title: IShapeBevelEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ishapebeveleffectivedata/
 ---
 
 
-IShapeBevelEffectiveData class
+## IShapeBevelEffectiveData class
 
 Immutable object which contains effective shape's face relief properties.
 

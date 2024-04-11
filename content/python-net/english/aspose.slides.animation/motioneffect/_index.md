@@ -1,5 +1,5 @@
 ﻿---
-title: MotionEffect
+title: MotionEffect class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/motioneffect/
 ---
 
 
-MotionEffect class
+## MotionEffect class
 
 Represent motion effect behavior of effect.
 

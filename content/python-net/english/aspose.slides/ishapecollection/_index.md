@@ -1,5 +1,5 @@
 ﻿---
-title: IShapeCollection
+title: IShapeCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ishapecollection/
 ---
 
 
-IShapeCollection class
+## IShapeCollection class
 
 Represents a collection of a shapes.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: SpreadsheetOptions
+title: SpreadsheetOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/spreadsheetoptions/
 ---
 
 
-SpreadsheetOptions class
+## SpreadsheetOptions class
 
 Represents options which can be used to specify additional spreadsheets behavior.
 

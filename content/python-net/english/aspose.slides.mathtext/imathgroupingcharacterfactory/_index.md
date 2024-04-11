@@ -1,5 +1,5 @@
 ﻿---
-title: IMathGroupingCharacterFactory
+title: IMathGroupingCharacterFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 
 
-IMathGroupingCharacterFactory class
+## IMathGroupingCharacterFactory class
 
 Allows to create a math grouping character
 

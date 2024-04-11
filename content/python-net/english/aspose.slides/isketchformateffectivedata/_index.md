@@ -1,5 +1,5 @@
 ﻿---
-title: ISketchFormatEffectiveData
+title: ISketchFormatEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/isketchformateffectivedata/
 ---
 
 
-ISketchFormatEffectiveData class
+## ISketchFormatEffectiveData class
 
 Immutable object which contains effective line sketch properties.
 

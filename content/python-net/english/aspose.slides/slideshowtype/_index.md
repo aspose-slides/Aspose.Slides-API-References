@@ -1,5 +1,5 @@
 ﻿---
-title: SlideShowType
+title: SlideShowType class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/slideshowtype/
 ---
 
 
-SlideShowType class
+## SlideShowType class
 
 Base slide show settings. Ancestors represent types of the slide show:
              [`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker) Presented by a speaker (full screen)

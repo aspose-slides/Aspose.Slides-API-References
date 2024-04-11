@@ -1,5 +1,5 @@
 ﻿---
-title: CameraPresetType
+title: CameraPresetType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/camerapresettype/
 ---
 
 
-CameraPresetType enumeration
+## CameraPresetType class
 
 Constants which define camera preset type.
 

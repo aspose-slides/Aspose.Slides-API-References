@@ -1,5 +1,5 @@
 ﻿---
-title: TransitionPattern
+title: TransitionPattern enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionpattern/
 ---
 
 
-TransitionPattern enumeration
+## TransitionPattern class
 
 Specifies a geometric pattern that tiles together to fill a larger area.
 

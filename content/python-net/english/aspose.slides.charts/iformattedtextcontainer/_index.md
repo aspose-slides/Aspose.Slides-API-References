@@ -1,5 +1,5 @@
 ﻿---
-title: IFormattedTextContainer
+title: IFormattedTextContainer class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/iformattedtextcontainer/
 ---
 
 
-IFormattedTextContainer class
+## IFormattedTextContainer class
 
 Represents chart text format.
 

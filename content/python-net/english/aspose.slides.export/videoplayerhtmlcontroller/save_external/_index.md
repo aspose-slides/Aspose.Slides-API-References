@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/videoplayerhtmlcontroller/save_external/
-weight: 110
+weight: 50
 ---
 
 

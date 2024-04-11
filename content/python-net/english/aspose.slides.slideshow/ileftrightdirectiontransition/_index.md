@@ -1,5 +1,5 @@
 ﻿---
-title: ILeftRightDirectionTransition
+title: ILeftRightDirectionTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 
 
-ILeftRightDirectionTransition class
+## ILeftRightDirectionTransition class
 
 Left-right direction slide transition effect.
 

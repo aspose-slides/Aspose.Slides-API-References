@@ -1,5 +1,5 @@
 ﻿---
-title: SVGOptions
+title: SVGOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/svgoptions/
 ---
 
 
-SVGOptions class
+## SVGOptions class
 
 Represents an SVG options.
 

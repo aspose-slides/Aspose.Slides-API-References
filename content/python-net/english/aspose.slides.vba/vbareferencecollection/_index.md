@@ -1,5 +1,5 @@
 ﻿---
-title: VbaReferenceCollection
+title: VbaReferenceCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.vba/vbareferencecollection/
 ---
 
 
-VbaReferenceCollection class
+## VbaReferenceCollection class
 
 Represents a collection of a VBA Project references.
 

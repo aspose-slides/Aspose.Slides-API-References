@@ -1,5 +1,5 @@
 ﻿---
-title: ILinkEmbedController
+title: ILinkEmbedController class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/ilinkembedcontroller/
 ---
 
 
-ILinkEmbedController class
+## ILinkEmbedController class
 
 Callback interface used to determine how object should be processed during saving.
 

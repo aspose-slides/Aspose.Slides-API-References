@@ -1,5 +1,5 @@
 ﻿---
-title: BlackWhiteMode
+title: BlackWhiteMode enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/blackwhitemode/
 ---
 
 
-BlackWhiteMode enumeration
+## BlackWhiteMode class
 
 Determines how colored shape should be transformed into black and white.
 

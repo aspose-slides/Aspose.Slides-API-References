@@ -1,5 +1,5 @@
 ﻿---
-title: TableStylePreset
+title: TableStylePreset enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/tablestylepreset/
 ---
 
 
-TableStylePreset enumeration
+## TableStylePreset class
 
 Represents builtin table styles.
 

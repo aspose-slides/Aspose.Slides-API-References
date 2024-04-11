@@ -1,5 +1,5 @@
 ﻿---
-title: IMathGroupingCharacter
+title: IMathGroupingCharacter class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathgroupingcharacter/
 ---
 
 
-IMathGroupingCharacter class
+## IMathGroupingCharacter class
 
 Specifies a grouping symbol above or below an expression, usually to highlight the relationship between elements
 

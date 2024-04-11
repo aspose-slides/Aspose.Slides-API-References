@@ -1,5 +1,5 @@
 ﻿---
-title: VideoPlayModePreset
+title: VideoPlayModePreset enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/videoplaymodepreset/
 ---
 
 
-VideoPlayModePreset enumeration
+## VideoPlayModePreset class
 
 Constants which define how a video is played.
 

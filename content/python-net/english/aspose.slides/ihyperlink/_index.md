@@ -1,5 +1,5 @@
 ﻿---
-title: IHyperlink
+title: IHyperlink class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/ihyperlink/
 ---
 
 
-IHyperlink class
+## IHyperlink class
 
 Represents a hyperlink.
 

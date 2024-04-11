@@ -1,5 +1,5 @@
 ﻿---
-title: ITemplateEngine
+title: ITemplateEngine class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export.web/itemplateengine/
 ---
 
 
-ITemplateEngine class
+## ITemplateEngine class
 
 Represents a template engine that transforms template and data pair into resulting output (usually HTML).
 

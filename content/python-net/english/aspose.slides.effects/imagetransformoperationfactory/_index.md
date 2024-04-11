@@ -1,5 +1,5 @@
 ﻿---
-title: ImageTransformOperationFactory
+title: ImageTransformOperationFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/imagetransformoperationfactory/
 ---
 
 
-ImageTransformOperationFactory class
+## ImageTransformOperationFactory class
 
 Allows to create image transform operations
 

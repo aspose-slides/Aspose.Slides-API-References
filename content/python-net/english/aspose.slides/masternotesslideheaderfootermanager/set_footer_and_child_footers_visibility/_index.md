@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/masternotesslideheaderfootermanager/set_footer_and_child_footers_visibility/
-weight: 110
+weight: 60
 ---
 
 

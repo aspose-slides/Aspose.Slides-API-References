@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/charttypecharacterizer/is_series_uses_x_value_coordinate/
-weight: 160
+weight: 200
 ---
 
 

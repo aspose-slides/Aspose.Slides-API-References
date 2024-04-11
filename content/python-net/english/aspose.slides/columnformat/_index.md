@@ -1,5 +1,5 @@
 ﻿---
-title: ColumnFormat
+title: ColumnFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/columnformat/
 ---
 
 
-ColumnFormat class
+## ColumnFormat class
 
 Represents format of a table column.
 

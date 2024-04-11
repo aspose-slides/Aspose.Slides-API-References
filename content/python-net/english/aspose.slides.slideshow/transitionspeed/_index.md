@@ -1,5 +1,5 @@
 ﻿---
-title: TransitionSpeed
+title: TransitionSpeed enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionspeed/
 ---
 
 
-TransitionSpeed enumeration
+## TransitionSpeed class
 
 Represent transition speed types.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: BiLevel
+title: BiLevel class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/bilevel/
 ---
 
 
-BiLevel class
+## BiLevel class
 
 Represents a Bi-Level (black/white) effect.
             Input colors whose luminance is less than the specified threshold value are changed to black.

@@ -1,5 +1,5 @@
 ﻿---
-title: ICellCollection
+title: ICellCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/icellcollection/
 ---
 
 
-ICellCollection class
+## ICellCollection class
 
 Represents a collection of cells.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: MathNaryOperatorTypes
+title: MathNaryOperatorTypes enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 
 
-MathNaryOperatorTypes enumeration
+## MathNaryOperatorTypes class
 
 Nary operator IMathNaryOperator types (excluding integrals)
             For integrals [`MathIntegralTypes`](/slides/python-net/aspose.slides.mathtext/mathintegraltypes)

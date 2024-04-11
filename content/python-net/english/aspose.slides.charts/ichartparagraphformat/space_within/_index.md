@@ -1,0 +1,23 @@
+﻿---
+title: space_within property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.charts/ichartparagraphformat/space_within/
+weight: 130
+---
+
+
+## space_within property
+Returns or sets the amount of space between base lines in a paragraph.
+            Read/write .NET type System.Single.
+
+### Definition:
+```python
+@property
+def space_within(self):
+    ...
+@space_within.setter
+def space_within(self, value):
+    ...
+```

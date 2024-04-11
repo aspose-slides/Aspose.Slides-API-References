@@ -1,5 +1,5 @@
 ﻿---
-title: IMathBlock
+title: IMathBlock class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathblock/
 ---
 
 
-IMathBlock class
+## IMathBlock class
 
 Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line.
             All math zones, including equations, expressions, arrays of equations or expressions, and formulas are represented by math block.

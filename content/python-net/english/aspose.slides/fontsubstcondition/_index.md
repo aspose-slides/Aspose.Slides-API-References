@@ -1,5 +1,5 @@
 ﻿---
-title: FontSubstCondition
+title: FontSubstCondition enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/fontsubstcondition/
 ---
 
 
-FontSubstCondition enumeration
+## FontSubstCondition class
 
 Represents a rule fot font substitution
 

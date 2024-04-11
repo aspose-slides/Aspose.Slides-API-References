@@ -1,5 +1,5 @@
 ﻿---
-title: Section
+title: Section class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/section/
 ---
 
 
-Section class
+## Section class
 
 Represents section of slides.
 

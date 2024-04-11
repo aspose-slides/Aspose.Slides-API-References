@@ -1,5 +1,5 @@
 ﻿---
-title: IMathSuperscriptElementFactory
+title: IMathSuperscriptElementFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathsuperscriptelementfactory/
 ---
 
 
-IMathSuperscriptElementFactory class
+## IMathSuperscriptElementFactory class
 
 Allows to create IMathSuperscriptElement
 

@@ -1,5 +1,5 @@
 ﻿---
-title: MathSubscriptElementFactory
+title: MathSubscriptElementFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 
 
-MathSubscriptElementFactory class
+## MathSubscriptElementFactory class
 
 Allows to create IMathSubscriptElement
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IImageWrapperFactory
+title: IImageWrapperFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iimagewrapperfactory/
 ---
 
 
-IImageWrapperFactory class
+## IImageWrapperFactory class
 
 This interface allows to initialize IBitmapWrapper.
 

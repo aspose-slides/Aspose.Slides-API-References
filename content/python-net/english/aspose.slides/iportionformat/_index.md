@@ -1,5 +1,5 @@
 ﻿---
-title: IPortionFormat
+title: IPortionFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iportionformat/
 ---
 
 
-IPortionFormat class
+## IPortionFormat class
 
 This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata), all properties of this class are writeable.
 

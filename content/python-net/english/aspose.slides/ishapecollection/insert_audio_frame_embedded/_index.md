@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ishapecollection/insert_audio_frame_embedded/
-weight: 120
+weight: 210
 ---
 
 

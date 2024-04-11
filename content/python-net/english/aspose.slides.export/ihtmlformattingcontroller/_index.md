@@ -1,5 +1,5 @@
 ﻿---
-title: IHtmlFormattingController
+title: IHtmlFormattingController class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/ihtmlformattingcontroller/
 ---
 
 
-IHtmlFormattingController class
+## IHtmlFormattingController class
 
 Controls a html file generation.
 

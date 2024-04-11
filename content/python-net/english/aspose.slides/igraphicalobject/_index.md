@@ -1,5 +1,5 @@
 ﻿---
-title: IGraphicalObject
+title: IGraphicalObject class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/igraphicalobject/
 ---
 
 
-IGraphicalObject class
+## IGraphicalObject class
 
 Represents abstract graphical object.
 

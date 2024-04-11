@@ -1,5 +1,5 @@
 ﻿---
-title: CustomXmlPart
+title: CustomXmlPart class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/customxmlpart/
 ---
 
 
-CustomXmlPart class
+## CustomXmlPart class
 
 Represents custom xml part.
 

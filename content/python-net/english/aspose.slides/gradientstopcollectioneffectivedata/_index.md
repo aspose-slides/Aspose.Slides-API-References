@@ -1,5 +1,5 @@
 ﻿---
-title: GradientStopCollectionEffectiveData
+title: GradientStopCollectionEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/gradientstopcollectioneffectivedata/
 ---
 
 
-GradientStopCollectionEffectiveData class
+## GradientStopCollectionEffectiveData class
 
 Represents a collection of GradientStopData objects.
 

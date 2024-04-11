@@ -1,5 +1,5 @@
 ﻿---
-title: FormatScheme
+title: FormatScheme class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/formatscheme/
 ---
 
 
-FormatScheme class
+## FormatScheme class
 
 Stores theme-defined formats for the shapes.
 

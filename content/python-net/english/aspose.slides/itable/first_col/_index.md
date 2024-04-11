@@ -1,0 +1,23 @@
+﻿---
+title: first_col property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/itable/first_col/
+weight: 220
+---
+
+
+## first_col property
+Determines whether the first column of a table has to be drawn with a special formatting.
+            Read/write .NET type System.Boolean.
+
+### Definition:
+```python
+@property
+def first_col(self):
+    ...
+@first_col.setter
+def first_col(self, value):
+    ...
+```

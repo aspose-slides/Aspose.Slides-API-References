@@ -1,5 +1,5 @@
 ﻿---
-title: ISectionZoomFrame
+title: ISectionZoomFrame class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/isectionzoomframe/
 ---
 
 
-ISectionZoomFrame class
+## ISectionZoomFrame class
 
 Represents a Section Zoom object in a slide.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ISlidesPicture
+title: ISlidesPicture class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/islidespicture/
 ---
 
 
-ISlidesPicture class
+## ISlidesPicture class
 
 Represents a picture in a presentation.
 

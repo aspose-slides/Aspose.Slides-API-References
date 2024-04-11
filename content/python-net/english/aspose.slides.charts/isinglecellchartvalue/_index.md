@@ -1,5 +1,5 @@
 ﻿---
-title: ISingleCellChartValue
+title: ISingleCellChartValue class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/isinglecellchartvalue/
 ---
 
 
-ISingleCellChartValue class
+## ISingleCellChartValue class
 
 Represents a chart data cell.
 

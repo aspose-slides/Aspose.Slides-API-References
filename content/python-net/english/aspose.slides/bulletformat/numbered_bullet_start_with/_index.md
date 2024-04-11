@@ -1,0 +1,23 @@
+﻿---
+title: numbered_bullet_start_with property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/bulletformat/numbered_bullet_start_with/
+weight: 100
+---
+
+
+## numbered_bullet_start_with property
+Returns or sets the first number which is used for group of numbered bullets with no inheritance.
+            Read/write .NET type System.Int16.
+
+### Definition:
+```python
+@property
+def numbered_bullet_start_with(self):
+    ...
+@numbered_bullet_start_with.setter
+def numbered_bullet_start_with(self, value):
+    ...
+```

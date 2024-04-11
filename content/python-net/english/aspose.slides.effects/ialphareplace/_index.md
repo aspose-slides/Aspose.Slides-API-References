@@ -1,5 +1,5 @@
 ﻿---
-title: IAlphaReplace
+title: IAlphaReplace class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/ialphareplace/
 ---
 
 
-IAlphaReplace class
+## IAlphaReplace class
 
 Represents base IImageTransformOperation interface.
 

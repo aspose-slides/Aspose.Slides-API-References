@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentationfactory/get_presentation_text/
-weight: 50
+weight: 30
 ---
 
 

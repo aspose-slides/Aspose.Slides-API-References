@@ -1,5 +1,5 @@
 ﻿---
-title: Row
+title: Row class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/row/
 ---
 
 
-Row class
+## Row class
 
 Represents a row in a table.
 

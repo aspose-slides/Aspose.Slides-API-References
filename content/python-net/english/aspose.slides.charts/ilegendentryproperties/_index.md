@@ -1,5 +1,5 @@
 ﻿---
-title: ILegendEntryProperties
+title: ILegendEntryProperties class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ilegendentryproperties/
 ---
 
 
-ILegendEntryProperties class
+## ILegendEntryProperties class
 
 Represents legend properties of a chart.
 

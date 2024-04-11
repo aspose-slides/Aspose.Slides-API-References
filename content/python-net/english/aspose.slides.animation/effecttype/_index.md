@@ -1,5 +1,5 @@
 ﻿---
-title: EffectType
+title: EffectType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effecttype/
 ---
 
 
-EffectType enumeration
+## EffectType class
 
 Represents the type of an animation effect.
 

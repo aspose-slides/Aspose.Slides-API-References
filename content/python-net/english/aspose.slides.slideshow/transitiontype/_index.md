@@ -1,5 +1,5 @@
 ﻿---
-title: TransitionType
+title: TransitionType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitiontype/
 ---
 
 
-TransitionType enumeration
+## TransitionType class
 
 Represent slide show transition type.
 

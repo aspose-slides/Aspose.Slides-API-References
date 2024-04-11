@@ -1,5 +1,5 @@
 ﻿---
-title: Backdrop3DScene
+title: Backdrop3DScene class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/backdrop3dscene/
 ---
 
 
-Backdrop3DScene class
+## Backdrop3DScene class
 
 Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to.
 

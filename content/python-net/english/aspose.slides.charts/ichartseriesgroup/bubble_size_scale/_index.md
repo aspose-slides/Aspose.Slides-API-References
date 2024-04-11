@@ -1,0 +1,24 @@
+﻿---
+title: bubble_size_scale property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.charts/ichartseriesgroup/bubble_size_scale/
+weight: 60
+---
+
+
+## bubble_size_scale property
+Specifies the scale factor for the bubble chart (can be 
+            between 0 and 300 percents of the default size).
+            Read/write .NET type System.Int32.
+
+### Definition:
+```python
+@property
+def bubble_size_scale(self):
+    ...
+@bubble_size_scale.setter
+def bubble_size_scale(self, value):
+    ...
+```

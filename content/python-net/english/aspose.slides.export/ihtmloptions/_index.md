@@ -1,5 +1,5 @@
 ﻿---
-title: IHtmlOptions
+title: IHtmlOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/ihtmloptions/
 ---
 
 
-IHtmlOptions class
+## IHtmlOptions class
 
 Represents a HTML exporting options.
 

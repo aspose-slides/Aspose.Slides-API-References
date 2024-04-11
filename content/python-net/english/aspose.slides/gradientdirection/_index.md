@@ -1,5 +1,5 @@
 ﻿---
-title: GradientDirection
+title: GradientDirection enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/gradientdirection/
 ---
 
 
-GradientDirection enumeration
+## GradientDirection class
 
 Represents the gradient style.
 

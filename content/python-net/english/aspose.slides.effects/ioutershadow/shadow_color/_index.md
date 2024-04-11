@@ -1,0 +1,20 @@
+﻿---
+title: shadow_color property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.effects/ioutershadow/shadow_color/
+weight: 100
+---
+
+
+## shadow_color property
+Color of shadow.
+            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat).
+
+### Definition:
+```python
+@property
+def shadow_color(self):
+    ...
+```

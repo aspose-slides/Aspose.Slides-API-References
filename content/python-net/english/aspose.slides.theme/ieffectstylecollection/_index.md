@@ -1,5 +1,5 @@
 ﻿---
-title: IEffectStyleCollection
+title: IEffectStyleCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/ieffectstylecollection/
 ---
 
 
-IEffectStyleCollection class
+## IEffectStyleCollection class
 
 Represents a collection of effect styles.
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/responsivehtmlcontroller/write_slide_start/
-weight: 40
+weight: 70
 ---
 
 

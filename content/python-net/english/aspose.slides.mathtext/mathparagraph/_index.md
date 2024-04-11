@@ -1,5 +1,5 @@
 ﻿---
-title: MathParagraph
+title: MathParagraph class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathparagraph/
 ---
 
 
-MathParagraph class
+## MathParagraph class
 
 Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 

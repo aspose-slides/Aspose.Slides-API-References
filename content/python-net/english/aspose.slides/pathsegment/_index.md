@@ -1,5 +1,5 @@
 ﻿---
-title: PathSegment
+title: PathSegment class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/pathsegment/
 ---
 
 
-PathSegment class
+## PathSegment class
 
 Represents segment of graphics path of GeometryShape
 

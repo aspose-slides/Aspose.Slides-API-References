@@ -1,5 +1,5 @@
 ﻿---
-title: TickMarkType
+title: TickMarkType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/tickmarktype/
 ---
 
 
-TickMarkType enumeration
+## TickMarkType class
 
 Represents the tick mark type for the specified axis.
 

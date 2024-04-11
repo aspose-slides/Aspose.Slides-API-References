@@ -1,5 +1,5 @@
 ﻿---
-title: IShredTransition
+title: IShredTransition class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/ishredtransition/
 ---
 
 
-IShredTransition class
+## IShredTransition class
 
 Shred slide transition effect.
 

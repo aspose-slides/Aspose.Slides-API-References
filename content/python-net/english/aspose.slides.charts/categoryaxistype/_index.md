@@ -1,5 +1,5 @@
 ﻿---
-title: CategoryAxisType
+title: CategoryAxisType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/categoryaxistype/
 ---
 
 
-CategoryAxisType enumeration
+## CategoryAxisType class
 
 Represents a type of a category axis.
 

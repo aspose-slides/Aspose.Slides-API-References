@@ -1,5 +1,5 @@
 ﻿---
-title: PersistenceType
+title: PersistenceType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/persistencetype/
 ---
 
 
-PersistenceType enumeration
+## PersistenceType class
 
 Specifies the method used to store properties of the ActiveX control.
 

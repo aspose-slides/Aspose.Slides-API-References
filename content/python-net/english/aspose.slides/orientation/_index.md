@@ -1,5 +1,5 @@
 ﻿---
-title: Orientation
+title: Orientation enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/orientation/
 ---
 
 
-Orientation enumeration
+## Orientation class
 
 Represents the orientation of a shape.
 

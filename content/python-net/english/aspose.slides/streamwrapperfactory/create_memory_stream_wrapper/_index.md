@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/streamwrapperfactory/create_memory_stream_wrapper/
-weight: 20
+weight: 30
 ---
 
 

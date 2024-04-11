@@ -1,5 +1,5 @@
 ﻿---
-title: TimeUnitType
+title: TimeUnitType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/timeunittype/
 ---
 
 
-TimeUnitType enumeration
+## TimeUnitType class
 
 Represents the base unit for the category axis
 

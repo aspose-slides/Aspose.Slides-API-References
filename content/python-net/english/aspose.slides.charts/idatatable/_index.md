@@ -1,5 +1,5 @@
 ﻿---
-title: IDataTable
+title: IDataTable class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/idatatable/
 ---
 
 
-IDataTable class
+## IDataTable class
 
 Represents data table properties.
 

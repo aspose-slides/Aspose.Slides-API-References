@@ -1,5 +1,5 @@
 ﻿---
-title: ColorTransformOperation
+title: ColorTransformOperation enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/colortransformoperation/
 ---
 
 
-ColorTransformOperation enumeration
+## ColorTransformOperation class
 
 Defines color transform operation.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IInterruptionToken
+title: IInterruptionToken class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/iinterruptiontoken/
 ---
 
 
-IInterruptionToken class
+## IInterruptionToken class
 
 This class represents the token to use for signaling long running tasks whether the interruption was requested.
 

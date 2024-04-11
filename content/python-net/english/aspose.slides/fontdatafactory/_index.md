@@ -1,5 +1,5 @@
 ﻿---
-title: FontDataFactory
+title: FontDataFactory class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/fontdatafactory/
 ---
 
 
-FontDataFactory class
+## FontDataFactory class
 
 FontData factory
 

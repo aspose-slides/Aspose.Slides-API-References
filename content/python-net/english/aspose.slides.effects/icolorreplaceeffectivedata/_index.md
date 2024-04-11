@@ -1,5 +1,5 @@
 ﻿---
-title: IColorReplaceEffectiveData
+title: IColorReplaceEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 
 
-IColorReplaceEffectiveData class
+## IColorReplaceEffectiveData class
 
 Immutable object which represents a Color Replacement effect.
             All effect colors are changed to a fixed color.

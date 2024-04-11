@@ -1,5 +1,5 @@
 ﻿---
-title: IFormatScheme
+title: IFormatScheme class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/iformatscheme/
 ---
 
 
-IFormatScheme class
+## IFormatScheme class
 
 Stores theme-defined formats for the shapes.
 

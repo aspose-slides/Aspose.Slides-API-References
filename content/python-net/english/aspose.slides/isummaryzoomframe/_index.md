@@ -1,5 +1,5 @@
 ﻿---
-title: ISummaryZoomFrame
+title: ISummaryZoomFrame class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/isummaryzoomframe/
 ---
 
 
-ISummaryZoomFrame class
+## ISummaryZoomFrame class
 
 Represents a Summary Zoom frame in a slide.
 

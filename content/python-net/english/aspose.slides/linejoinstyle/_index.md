@@ -1,5 +1,5 @@
 ﻿---
-title: LineJoinStyle
+title: LineJoinStyle enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/linejoinstyle/
 ---
 
 
-LineJoinStyle enumeration
+## LineJoinStyle class
 
 Represents the lines join style.
 

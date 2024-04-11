@@ -1,5 +1,5 @@
 ﻿---
-title: IMathElement
+title: IMathElement class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/imathelement/
 ---
 
 
-IMathElement class
+## IMathElement class
 
 Base interface of any mathematical element: 
             fraction, mathmatical text, function, expression with multiple elements etc

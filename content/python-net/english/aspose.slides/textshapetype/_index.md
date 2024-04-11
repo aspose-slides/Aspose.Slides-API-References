@@ -1,5 +1,5 @@
 ﻿---
-title: TextShapeType
+title: TextShapeType enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/textshapetype/
 ---
 
 
-TextShapeType enumeration
+## TextShapeType class
 
 Represents text wrapping shape.
 

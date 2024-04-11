@@ -1,5 +1,5 @@
 ﻿---
-title: CellCollection
+title: CellCollection class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/cellcollection/
 ---
 
 
-CellCollection class
+## CellCollection class
 
 Represents a collection of cells.
 

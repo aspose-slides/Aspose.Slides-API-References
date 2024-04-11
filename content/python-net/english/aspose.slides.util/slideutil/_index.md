@@ -1,5 +1,5 @@
 ﻿---
-title: SlideUtil
+title: SlideUtil class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.util/slideutil/
 ---
 
 
-SlideUtil class
+## SlideUtil class
 
 Offer methods which help to search shapes and text in a presentation.
 

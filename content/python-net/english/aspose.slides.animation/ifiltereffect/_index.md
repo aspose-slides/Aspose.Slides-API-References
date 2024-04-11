@@ -1,5 +1,5 @@
 ﻿---
-title: IFilterEffect
+title: IFilterEffect class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.animation/ifiltereffect/
 ---
 
 
-IFilterEffect class
+## IFilterEffect class
 
 Represent filter effect of behavior.
 

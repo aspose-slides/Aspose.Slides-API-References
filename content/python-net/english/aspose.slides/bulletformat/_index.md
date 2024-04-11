@@ -1,5 +1,5 @@
 ﻿---
-title: BulletFormat
+title: BulletFormat class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/bulletformat/
 ---
 
 
-BulletFormat class
+## BulletFormat class
 
 Represents paragraph bullet formatting properties.
 

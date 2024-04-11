@@ -1,5 +1,5 @@
 ﻿---
-title: ShapeElement
+title: ShapeElement class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/shapeelement/
 ---
 
 
-ShapeElement class
+## ShapeElement class
 
 Represents a part of shape with same outline and fill properties.
 

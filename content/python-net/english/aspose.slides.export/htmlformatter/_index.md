@@ -1,5 +1,5 @@
 ﻿---
-title: HtmlFormatter
+title: HtmlFormatter class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/htmlformatter/
 ---
 
 
-HtmlFormatter class
+## HtmlFormatter class
 
 Represents HTML file template.
 

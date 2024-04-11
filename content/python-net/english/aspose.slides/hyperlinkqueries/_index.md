@@ -1,5 +1,5 @@
 ﻿---
-title: HyperlinkQueries
+title: HyperlinkQueries class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/hyperlinkqueries/
 ---
 
 
-HyperlinkQueries class
+## HyperlinkQueries class
 
 Provide easy access to contained hyperlinks.
 

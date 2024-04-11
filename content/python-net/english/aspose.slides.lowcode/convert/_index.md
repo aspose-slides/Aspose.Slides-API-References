@@ -1,5 +1,5 @@
 ﻿---
-title: Convert
+title: Convert class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.lowcode/convert/
 ---
 
 
-Convert class
+## Convert class
 
 Represents a group of methods intended to convert [`Presentation`](/slides/python-net/aspose.slides/presentation).
 

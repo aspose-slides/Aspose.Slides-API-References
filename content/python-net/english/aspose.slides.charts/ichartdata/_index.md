@@ -1,5 +1,5 @@
 ﻿---
-title: IChartData
+title: IChartData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ichartdata/
 ---
 
 
-IChartData class
+## IChartData class
 
 Represents data used for a chart plotting.
 

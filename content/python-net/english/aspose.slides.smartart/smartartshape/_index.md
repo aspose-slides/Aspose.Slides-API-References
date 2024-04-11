@@ -1,5 +1,5 @@
 ﻿---
-title: SmartArtShape
+title: SmartArtShape class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.smartart/smartartshape/
 ---
 
 
-SmartArtShape class
+## SmartArtShape class
 
 Represents SmartArt shape
 

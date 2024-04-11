@@ -1,5 +1,5 @@
 ﻿---
-title: ChartData
+title: ChartData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/chartdata/
 ---
 
 
-ChartData class
+## ChartData class
 
 Represents data used for a chart plotting.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IEmbeddedEotFontsHtmlController
+title: IEmbeddedEotFontsHtmlController class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 
 
-IEmbeddedEotFontsHtmlController class
+## IEmbeddedEotFontsHtmlController class
 
 Embedded Eot fonts HTML controller.
 

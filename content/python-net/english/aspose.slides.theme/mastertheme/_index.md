@@ -1,5 +1,5 @@
 ﻿---
-title: MasterTheme
+title: MasterTheme class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.theme/mastertheme/
 ---
 
 
-MasterTheme class
+## MasterTheme class
 
 Represents a master theme.
 

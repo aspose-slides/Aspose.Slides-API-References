@@ -1,5 +1,5 @@
 ﻿---
-title: ShapeElementFillSource
+title: ShapeElementFillSource enumeration
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/shapeelementfillsource/
 ---
 
 
-ShapeElementFillSource enumeration
+## ShapeElementFillSource class
 
 Represents how shape element should be filled.
 

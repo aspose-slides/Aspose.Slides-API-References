@@ -1,5 +1,5 @@
 ﻿---
-title: IActualLayout
+title: IActualLayout class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.charts/iactuallayout/
 ---
 
 
-IActualLayout class
+## IActualLayout class
 
 Specifies actual position of a chart element.
 

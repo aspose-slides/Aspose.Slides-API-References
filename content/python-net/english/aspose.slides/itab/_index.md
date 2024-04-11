@@ -1,5 +1,5 @@
 ﻿---
-title: ITab
+title: ITab class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides/itab/
 ---
 
 
-ITab class
+## ITab class
 
 Represents a tabulation for a text.
 

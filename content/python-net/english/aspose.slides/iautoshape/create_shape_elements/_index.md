@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iautoshape/create_shape_elements/
-weight: 80
+weight: 30
 ---
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IInnerShadowEffectiveData
+title: IInnerShadowEffectiveData class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.effects/iinnershadoweffectivedata/
 ---
 
 
-IInnerShadowEffectiveData class
+## IInnerShadowEffectiveData class
 
 Immutable object which represents a inner shadow effect.
 

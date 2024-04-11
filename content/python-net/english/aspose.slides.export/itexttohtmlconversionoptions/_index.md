@@ -1,5 +1,5 @@
 ﻿---
-title: ITextToHtmlConversionOptions
+title: ITextToHtmlConversionOptions class
 second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
@@ -7,7 +7,7 @@ url: /aspose.slides.export/itexttohtmlconversionoptions/
 ---
 
 
-ITextToHtmlConversionOptions class
+## ITextToHtmlConversionOptions class
 
 Options for extracting HTML from the Pptx text.
 
