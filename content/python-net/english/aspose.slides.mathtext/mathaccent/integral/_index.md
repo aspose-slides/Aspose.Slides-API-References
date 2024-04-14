@@ -9,7 +9,7 @@ weight: 90
 
 
 ## integral {#mathintegraltypes}
-Takes the integral
+Takes the integral without limits
 
 ### Returns
 

@@ -33,7 +33,7 @@ def add_data_point_for_stock_series(self, value):
 
 ## add_data_point_for_stock_series {#float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Stock subtypes
+            Applicable for series which chartType is one of Stock subtypes 
             (see also Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeStock(Aspose.Slides.Chart. method).
 
 ### Returns

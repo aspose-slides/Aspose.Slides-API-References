@@ -30,7 +30,7 @@ def create_math_accent(self, element):
 
 
 ## create_math_accent {#imathelement-char}
-Creates a math accent applying to a specified math element with the default accent character value
+Creates a math accent applying to a specified math element
 
 ### Returns
 
@@ -47,7 +47,7 @@ def create_math_accent(self, element, accent_character):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | element | IMathElement | math element to apply accent |
-| accent_character | char |  |
+| accent_character | char | accent character |
 
 
 

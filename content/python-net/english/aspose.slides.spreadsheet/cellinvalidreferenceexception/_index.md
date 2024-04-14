@@ -11,7 +11,7 @@ url: /aspose.slides.spreadsheet/cellinvalidreferenceexception/
 
 The exception that is thrown when an invalid cell reference is encountered.
 
-**Inheritance:**[`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception)
+**Inheritance:**[`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) → [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) → [`PptxException`](/slides/python-net/aspose.slides/pptxexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
 
 The CellInvalidReferenceException type exposes the following members:
 

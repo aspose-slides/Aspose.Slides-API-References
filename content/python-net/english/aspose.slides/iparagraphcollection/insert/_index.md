@@ -26,7 +26,7 @@ def insert(self, index, value):
 
 
 ## insert {#int-iparagraphcollection}
-Inserts a Paragraph into the collection at the specified index.
+Inserts a content of ParagraphCollection into the collection at the specified index.
 
 
 ```python
@@ -37,8 +37,8 @@ def insert(self, index, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | The zero-based index at which Paragraph should be inserted. |
-| value | IParagraphCollection | The Paragraph to insert. |
+| index | int | The zero-based index at which paragraphs should be inserted. |
+| value | IParagraphCollection | The paragraphs to insert. |
 
 
 

@@ -34,13 +34,12 @@ def __init__(self, load_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| load_options | LoadOptions |  |
+| load_options | LoadOptions | Additional load options. |
 
 
 
 ## __init__ {#systemiostream}
-This constructor creates new presentation from scratch.
-            Created presentation has one empty slide.
+This constructor is the primary mechanism for reading an existing Presentation.
 
 
 ```python
@@ -51,13 +50,13 @@ def __init__(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Input stream. |
 
 
 
 ## __init__ {#string}
-This constructor creates new presentation from scratch.
-            Created presentation has one empty slide.
+This constructor gets a source file path from which
+             the contents of the Presentation are read.
 
 
 ```python
@@ -68,13 +67,18 @@ def __init__(self, file):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string |  |
+| file | string | Input file. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentException | Thrown when input file has zero length |
 
 
 
 ## __init__ {#systemiostream-loadoptions}
-This constructor creates new presentation from scratch.
-            Created presentation has one empty slide.
+This constructor is the primary mechanism for reading an existing Presentation.
 
 
 ```python
@@ -85,14 +89,14 @@ def __init__(self, stream, load_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
-| load_options | LoadOptions |  |
+| stream | System.IO.Stream | Input stream. |
+| load_options | LoadOptions | Additional load options. |
 
 
 
 ## __init__ {#string-loadoptions}
-This constructor creates new presentation from scratch.
-            Created presentation has one empty slide.
+This constructor gets a source file path from which
+            the contents of the Presentation are read.
 
 
 ```python
@@ -103,8 +107,14 @@ def __init__(self, file, load_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string |  |
-| load_options | LoadOptions |  |
+| file | string | Input file. |
+| load_options | LoadOptions | Additional load options. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentException | Thrown when input file has zero length |
 
 
 

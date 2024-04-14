@@ -53,8 +53,8 @@ def add_html(self, html, start_index, length):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | html | List[char] | Text to add. |
-| start_index | int |  |
-| length | int |  |
+| start_index | int | Start index of the portion to add. |
+| length | int | Length of the portion to add. |
 
 
 

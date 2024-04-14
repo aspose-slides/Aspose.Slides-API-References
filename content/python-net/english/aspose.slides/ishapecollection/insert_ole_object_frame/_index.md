@@ -56,8 +56,8 @@ def insert_ole_object_frame(self, index, x, y, width, height, class_name, path):
 | y | float | Y coordinate of a new OLE frame. |
 | width | float | Width of a new OLE frame. |
 | height | float | Height of a new OLE frame. |
-| class_name | string |  |
-| path | string |  |
+| class_name | string | Name of an OLE class. |
+| path | string | Path to the linked file. |
 
 
 

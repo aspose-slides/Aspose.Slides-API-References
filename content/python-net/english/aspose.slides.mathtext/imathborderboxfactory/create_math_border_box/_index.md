@@ -47,14 +47,14 @@ def create_math_border_box(self, element, hide_top, hide_bottom, hide_left, hide
 | Parameter | Type | Description |
 | :- | :- | :- |
 | element | IMathElement | math element to apply border box |
-| hide_top | bool |  |
-| hide_bottom | bool |  |
-| hide_left | bool |  |
-| hide_right | bool |  |
-| strikethrough_horizontal | bool |  |
-| strikethrough_vertical | bool |  |
-| strikethrough_bottom_left_to_top_right | bool |  |
-| strikethrough_top_left_to_bottom_right | bool |  |
+| hide_top | bool | Hide Top Edge |
+| hide_bottom | bool | Hide Bottom Edge |
+| hide_left | bool | Hide Left Edge |
+| hide_right | bool | Hide Right Edge |
+| strikethrough_horizontal | bool | Border Box Strikethrough Horizontal |
+| strikethrough_vertical | bool | Border Box Strikethrough Vertical |
+| strikethrough_bottom_left_to_top_right | bool | Border Box Strikethrough Bottom-Left to Top-Right |
+| strikethrough_top_left_to_bottom_right | bool | Border Box Strikethrough Top-Left to Bottom-Right |
 
 
 

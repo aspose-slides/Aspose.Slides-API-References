@@ -35,8 +35,7 @@ def add_chart(self, type, x, y, width, height):
 
 
 ## add_chart {#asposeslideschartscharttype-float-float-float-float-bool}
-Creates a new Chart, initialize it with sample series data and settings and adds 
-            it to the end of the collection.
+Creates a new Chart and adds it to the end of the collection.
 
 ### Returns
 
@@ -57,7 +56,7 @@ def add_chart(self, type, x, y, width, height, init_with_sample):
 | y | float | Y coordinate of a new chart. |
 | width | float | Chart's width. |
 | height | float | Chart's height. |
-| init_with_sample | bool |  |
+| init_with_sample | bool | If true then new chart will be initialized with sample series data and settings.<br/><br/>            If false then new chart will have no series and minimum settings. In this case <br/><br/>            chart creation will be more fast. |
 
 
 

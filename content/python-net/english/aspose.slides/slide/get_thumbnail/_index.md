@@ -9,12 +9,7 @@ weight: 50
 
 
 ## get_thumbnail {#}
-Returns a Thumbnail Bitmap object with custom scaling.
-
-### Returns
-
-Bitmap object.
-
+Returns a Thumbnail Image object (20% of real size).
 
 
 ```python
@@ -26,7 +21,7 @@ def get_thumbnail(self):
 
 
 ## get_thumbnail {#asposepydrawingsize}
-Returns a Thumbnail Bitmap object with custom scaling.
+Returns a Thumbnail Bitmap object with specified size.
 
 ### Returns
 
@@ -42,12 +37,12 @@ def get_thumbnail(self, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_size | aspose.pydrawing.Size |  |
+| image_size | aspose.pydrawing.Size | Size of the image to create. |
 
 
 
 ## get_thumbnail {#asposeslidesexportitiffoptions}
-Returns a Thumbnail Bitmap object with custom scaling.
+Returns a Thumbnail tiff bitmap object with specified parameters.
 
 ### Returns
 
@@ -63,16 +58,22 @@ def get_thumbnail(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions) |  |
+| options | [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions) | Tiff options. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
 
 
 
 ## get_thumbnail {#asposeslidesexportinotescommentslayoutingoptions}
-Returns a Thumbnail Bitmap object with custom scaling.
+Returns a Thumbnail Bitmap object.
 
 ### Returns
 
-Bitmap object.
+Bitmap objects.
 
 
 
@@ -84,16 +85,22 @@ def get_thumbnail(self, notes_comments_layouting):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) |  |
+| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
 ## get_thumbnail {#asposeslidesexportirenderingoptions}
-Returns a Thumbnail Bitmap object with custom scaling.
+Returns a Thumbnail Bitmap object.
 
 ### Returns
 
-Bitmap object.
+Bitmap objects.
 
 
 
@@ -105,7 +112,13 @@ def get_thumbnail(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -132,11 +145,11 @@ def get_thumbnail(self, scale_x, scale_y):
 
 
 ## get_thumbnail {#asposeslidesexportinotescommentslayoutingoptions-asposepydrawingsize}
-Returns a Thumbnail Bitmap object with custom scaling.
+Returns a Thumbnail Bitmap object with specified size.
 
 ### Returns
 
-Bitmap object.
+Bitmap objects.
 
 
 
@@ -148,17 +161,23 @@ def get_thumbnail(self, notes_comments_layouting, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) |  |
-| image_size | aspose.pydrawing.Size |  |
+| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
+| image_size | aspose.pydrawing.Size | Size of the image to create. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
 ## get_thumbnail {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Returns a Thumbnail Bitmap object with custom scaling.
+Returns a Thumbnail Bitmap object with specified size.
 
 ### Returns
 
-Bitmap object.
+Bitmap objects.
 
 
 
@@ -170,8 +189,14 @@ def get_thumbnail(self, options, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
-| image_size | aspose.pydrawing.Size |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
+| image_size | aspose.pydrawing.Size | Size of the image to create. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -180,7 +205,7 @@ Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
 
-Bitmap object.
+Bitmap objects.
 
 
 
@@ -192,9 +217,15 @@ def get_thumbnail(self, notes_comments_layouting, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) |  |
+| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
 | scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -203,7 +234,7 @@ Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
 
-Bitmap object.
+Bitmap objects.
 
 
 
@@ -215,9 +246,15 @@ def get_thumbnail(self, options, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 | scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 

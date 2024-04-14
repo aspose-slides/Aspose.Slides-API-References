@@ -9,6 +9,11 @@ weight: 30
 
 
 ## find_shape {#ipresentation-string}
+Find shape by alternative text in a PPTX presentation.
+
+### Returns
+
+Shape or null.
 
 
 
@@ -20,12 +25,17 @@ def find_shape(self, pres, alt_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | IPresentation |  |
-| alt_text | string |  |
+| pres | IPresentation | Scanned presentation. |
+| alt_text | string | Alternative text of a shape. |
 
 
 
 ## find_shape {#ibaseslide-string}
+Find shape by alternative text on a slide in a PPTX presentation.
+
+### Returns
+
+Shape or null.
 
 
 
@@ -37,8 +47,8 @@ def find_shape(self, slide, alt_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slide | IBaseSlide |  |
-| alt_text | string |  |
+| slide | IBaseSlide | Scanned slide. |
+| alt_text | string | Alternative text of a shape. |
 
 
 

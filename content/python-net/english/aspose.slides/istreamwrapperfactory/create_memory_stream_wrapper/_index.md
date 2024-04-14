@@ -26,7 +26,7 @@ def create_memory_stream_wrapper(self):
 
 
 ## create_memory_stream_wrapper {#bytes}
-Creates MemoryStream wrapper.
+Creates MemoryStream wrapper based on the specified byte array.
 
 ### Returns
 
@@ -42,7 +42,7 @@ def create_memory_stream_wrapper(self, buffer):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes |  |
+| buffer | bytes | Byte array .NET type System.Byte[] |
 
 
 

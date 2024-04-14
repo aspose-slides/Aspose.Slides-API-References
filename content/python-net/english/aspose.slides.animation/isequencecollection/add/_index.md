@@ -9,6 +9,11 @@ weight: 10
 
 
 ## add {#ishape}
+Add new interactive sequence.
+
+### Returns
+
+New sequence [`ISequence`](/slides/python-net/aspose.slides.animation/isequence)
 
 
 
@@ -20,7 +25,7 @@ def add(self, shape_trigger):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape_trigger | IShape |  |
+| shape_trigger | IShape | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) |
 
 
 

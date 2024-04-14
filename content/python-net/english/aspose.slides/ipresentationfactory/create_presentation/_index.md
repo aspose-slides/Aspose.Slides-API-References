@@ -26,7 +26,7 @@ def create_presentation(self):
 
 
 ## create_presentation {#iloadoptions}
-Creates new presentation.
+Creates new presentation with additional load options
 
 ### Returns
 
@@ -42,7 +42,7 @@ def create_presentation(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | ILoadOptions |  |
+| options | ILoadOptions | Load options |
 
 
 

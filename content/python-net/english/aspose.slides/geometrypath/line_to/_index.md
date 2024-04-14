@@ -36,13 +36,13 @@ def line_to(self, x, y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float |  |
-| y | float |  |
+| x | float | X coordinate of the end point of the line |
+| y | float | Y coordinate of the end point of the line |
 
 
 
 ## line_to {#asposepydrawingpointf-int}
-Adds line to the end of the path
+Adds line to the specified place of the path
 
 
 ```python
@@ -53,13 +53,19 @@ def line_to(self, point, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | aspose.pydrawing.PointF | End point of the line |
-| index | int |  |
+| point | aspose.pydrawing.PointF | End point |
+| index | int | Index of segment in PathData |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentOutOfRangeException | Segment index is out of PathData range |
 
 
 
 ## line_to {#float-float-int}
-Adds line to the end of the path
+Adds line to the specified place of the path
 
 
 ```python
@@ -70,9 +76,15 @@ def line_to(self, x, y, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float |  |
-| y | float |  |
-| index | int |  |
+| x | float | X coordinate of the point |
+| y | float | Y coordinate of the point |
+| index | int | Index of segment in PathData |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentOutOfRangeException | Segment index is out of PathData range |
 
 
 

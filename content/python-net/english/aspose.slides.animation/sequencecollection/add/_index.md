@@ -9,7 +9,8 @@ weight: 10
 
 
 ## add {#ishape}
-
+Add new interactive sequence.
+            Read/write [`Sequence`](/slides/python-net/aspose.slides.animation/sequence).
 
 
 ```python

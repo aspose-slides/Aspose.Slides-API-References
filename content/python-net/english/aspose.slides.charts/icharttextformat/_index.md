@@ -27,6 +27,6 @@ The IChartTextFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [copy_to](/slides/python-net/aspose.slides.charts/icharttextformat/copy_to/#itextframe) |  |
-| [copy_from](/slides/python-net/aspose.slides.charts/icharttextformat/copy_from/#itextframe) |  |
+| [copy_to](/slides/python-net/aspose.slides.charts/icharttextformat/copy_to/#itextframe) | Copies text format to specified text frame. |
+| [copy_from](/slides/python-net/aspose.slides.charts/icharttextformat/copy_from/#itextframe) | Copies text format from specified text frame. |
 

@@ -26,7 +26,7 @@ def create_mathematical_text(self):
 
 
 ## create_mathematical_text {#char}
-Create empty mathematical text element
+Create mathematical text element with the specified value
 
 ### Returns
 
@@ -42,12 +42,12 @@ def create_mathematical_text(self, math_symbol):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_symbol | char |  |
+| math_symbol | char | single symbol to use as text value |
 
 
 
 ## create_mathematical_text {#string}
-Create empty mathematical text element
+Create empty mathematical text element with the specified value
 
 ### Returns
 
@@ -63,12 +63,12 @@ def create_mathematical_text(self, math_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_text | string |  |
+| math_text | string | text value |
 
 
 
 ## create_mathematical_text {#string-iportionformat}
-Create empty mathematical text element
+Create empty mathematical text element with the specified value and formatting properties
 
 ### Returns
 
@@ -84,8 +84,8 @@ def create_mathematical_text(self, math_text, portion_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_text | string |  |
-| portion_format | IPortionFormat |  |
+| math_text | string | text value |
+| portion_format | IPortionFormat | text format settings |
 
 
 

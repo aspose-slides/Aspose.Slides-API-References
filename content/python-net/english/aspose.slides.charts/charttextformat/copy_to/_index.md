@@ -9,7 +9,7 @@ weight: 20
 
 
 ## copy_to {#itextframe}
-
+Copies text format to specified text frame.
 
 
 ```python
@@ -20,7 +20,7 @@ def copy_to(self, dest_text_frame):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dest_text_frame | ITextFrame |  |
+| dest_text_frame | ITextFrame | Text frame to copy text format to. |
 
 
 

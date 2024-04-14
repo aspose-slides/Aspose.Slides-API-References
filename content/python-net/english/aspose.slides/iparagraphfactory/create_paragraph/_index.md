@@ -26,7 +26,7 @@ def create_paragraph(self):
 
 
 ## create_paragraph {#iparagraph}
-Creates a new empty paragraph.
+Creates a new paragraph with specified paragraph data using.
 
 ### Returns
 
@@ -42,7 +42,7 @@ def create_paragraph(self, paragraph):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| paragraph | IParagraph |  |
+| paragraph | IParagraph | A paragraph to use data. |
 
 
 

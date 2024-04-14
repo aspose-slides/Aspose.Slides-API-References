@@ -9,18 +9,11 @@ weight: 60
 
 
 ## enclose {#}
-Encloses a math element in specified characters such as parenthesis or another characters as framing
+Encloses a math element in parenthesis
 
 ### Returns
 
-If `
-beginning_character`
- and `
-ending_character`
- are null, 
-            corresponding properties are assigned values only and no new object is created (returns this instance).
-            Otherwise, returns new math element of type Delimiter which includes specified characters as framing 
-            and this instance of [`MathDelimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiter) framed inside.
+The math element of type [`IMathDelimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiter) which includes the parenthesis
 
 
 

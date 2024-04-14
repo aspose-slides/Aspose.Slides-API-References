@@ -54,8 +54,8 @@ def add_ole_object_frame(self, x, y, width, height, class_name, path):
 | y | float | Y coordinate of a new OLE frame. |
 | width | float | Width of a new OLE frame. |
 | height | float | Height of a new OLE frame. |
-| class_name | string |  |
-| path | string |  |
+| class_name | string | Name of an OLE class. |
+| path | string | Path to the linked file.<br/><br/>The path is stored in the presentation as is. If a relative path is specified <br/><br/>            the corresponding file will be inaccessible when opening the presentation from a different directory. |
 
 
 

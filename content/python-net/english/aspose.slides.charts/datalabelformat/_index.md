@@ -11,7 +11,7 @@ url: /aspose.slides.charts/datalabelformat/
 
 Represents formatting options for DataLabel.
 
-**Inheritance:**[`DataLabelFormat`](/slides/python-net/aspose.slides.charts/datalabelformat)
+**Inheritance:**[`DataLabelFormat`](/slides/python-net/aspose.slides.charts/datalabelformat) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The DataLabelFormat type exposes the following members:
 

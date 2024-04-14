@@ -25,7 +25,7 @@ def save(self, file_name):
 
 
 ## save {#systemiostream-ppimageformat}
-Saves Image to the specified file
+Saves the Image to the specified stream in the specified format.
 
 
 ```python
@@ -36,13 +36,13 @@ def save(self, stream, image_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
-| image_format | PPImageFormat |  |
+| stream | System.IO.Stream | Stream for saving image .NET type System.IO.Stream |
+| image_format | PPImageFormat | Image format [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |
 
 
 
 ## save {#string-ppimageformat}
-Saves Image to the specified file
+Saves the Image to the specified file in the specified format.
 
 
 ```python
@@ -54,7 +54,7 @@ def save(self, file_name, image_format):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | file_name | string | File name .NET type System.String |
-| image_format | PPImageFormat |  |
+| image_format | PPImageFormat | Image format [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |
 
 
 

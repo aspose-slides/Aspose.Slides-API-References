@@ -26,7 +26,7 @@ def create_math_block(self):
 
 
 ## create_math_block {#imathelement}
-Create a math block
+Create a math block and place the element in it
 
 ### Returns
 
@@ -42,12 +42,12 @@ def create_math_block(self, math_element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_element | IMathElement |  |
+| math_element | IMathElement | A math element |
 
 
 
 ## create_math_block {#imathelementcollection}
-Create a math block
+Create a math block and place elements in it
 
 ### Returns
 
@@ -63,7 +63,7 @@ def create_math_block(self, math_elements):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_elements | IMathElementCollection |  |
+| math_elements | IMathElementCollection | math elements |
 
 
 

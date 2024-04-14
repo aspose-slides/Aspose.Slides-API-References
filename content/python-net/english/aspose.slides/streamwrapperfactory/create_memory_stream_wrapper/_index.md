@@ -21,7 +21,7 @@ def create_memory_stream_wrapper(self):
 
 
 ## create_memory_stream_wrapper {#bytes}
-Creates MemoryStream wrapper.
+Creates MemoryStream wrapper based on the specified byte array.
 
 
 ```python

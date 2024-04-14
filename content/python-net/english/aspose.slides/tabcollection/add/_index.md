@@ -13,7 +13,7 @@ Adds a Tab to the collection.
 
 ### Returns
 
-Added tab.
+The index at which the tab was added.
 
 
 
@@ -25,7 +25,7 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | ITab |  |
+| value | ITab | The Tab object to be added at the end of the collection. |
 
 
 

@@ -47,7 +47,7 @@ def create_math_function(self, func_name, base_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| func_name | string | Element used as a function name |
+| func_name | string | Function name |
 | base_argument | IMathElement | Element used as a function argument |
 
 

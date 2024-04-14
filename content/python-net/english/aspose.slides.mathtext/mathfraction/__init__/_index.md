@@ -9,7 +9,7 @@ weight: 10
 
 
 ## __init__ {#imathelement-imathelement}
-Initializes MathFraction with the specified numerator, denominator and type
+Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
 
 
 ```python

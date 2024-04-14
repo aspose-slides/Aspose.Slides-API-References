@@ -25,7 +25,7 @@ def write_binded_presentation(self, stream):
 
 
 ## write_binded_presentation {#string}
-Writes binded presentation to stream.
+Writes binded presentation to file.
 
 
 ```python
@@ -36,7 +36,7 @@ def write_binded_presentation(self, file):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string |  |
+| file | string | Presentation file. |
 
 
 

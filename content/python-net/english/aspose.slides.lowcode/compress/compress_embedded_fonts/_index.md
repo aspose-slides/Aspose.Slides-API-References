@@ -9,7 +9,7 @@ weight: 10
 
 
 ## compress_embedded_fonts {#presentation}
-
+Makes compression of the [`Presentation`](/slides/python-net/aspose.slides/presentation) by removing unused characters from embedded fonts.
 
 
 ```python
@@ -20,7 +20,7 @@ def compress_embedded_fonts(self, pres):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation |  |
+| pres | Presentation | The presentation instance |
 
 
 

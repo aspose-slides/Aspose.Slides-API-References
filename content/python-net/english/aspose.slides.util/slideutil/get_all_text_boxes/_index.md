@@ -9,6 +9,11 @@ weight: 40
 
 
 ## get_all_text_boxes {#ibaseslide}
+Returns all text frames on a slide in a PPTX presentation.
+
+### Returns
+
+Array of [`TextFrame`](/slides/python-net/aspose.slides/textframe) objects.
 
 
 
@@ -20,7 +25,7 @@ def get_all_text_boxes(self, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slide | IBaseSlide |  |
+| slide | IBaseSlide | Scanned slide. |
 
 
 

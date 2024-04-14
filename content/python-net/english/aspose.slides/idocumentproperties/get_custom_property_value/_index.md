@@ -26,7 +26,7 @@ def get_custom_property_value(self, name, value):
 
 
 ## get_custom_property_value {#string-any}
-Gets a named boolean value from the custom properties.
+Gets a named integer value from the custom properties.
 
 
 ```python
@@ -43,7 +43,7 @@ def get_custom_property_value(self, name, value):
 
 
 ## get_custom_property_value {#string-any}
-Gets a named boolean value from the custom properties.
+Gets a named DateTime value from the custom properties.
 
 
 ```python
@@ -60,7 +60,7 @@ def get_custom_property_value(self, name, value):
 
 
 ## get_custom_property_value {#string-any}
-Gets a named boolean value from the custom properties.
+
 
 
 ```python
@@ -71,13 +71,13 @@ def get_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the custom property to get |
-| value | Any | Custom property value |
+| name | string |  |
+| value | Any |  |
 
 
 
 ## get_custom_property_value {#string-any}
-Gets a named boolean value from the custom properties.
+
 
 
 ```python
@@ -88,13 +88,13 @@ def get_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the custom property to get |
-| value | Any | Custom property value |
+| name | string |  |
+| value | Any |  |
 
 
 
 ## get_custom_property_value {#string-any}
-Gets a named boolean value from the custom properties.
+
 
 
 ```python
@@ -105,8 +105,8 @@ def get_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the custom property to get |
-| value | Any | Custom property value |
+| name | string |  |
+| value | Any |  |
 
 
 

@@ -9,6 +9,11 @@ weight: 30
 
 
 ## get_count {#ishape}
+Returns count of effects for the specified shape.
+
+### Returns
+
+Count of effects .NET type System.Int32
 
 
 
@@ -20,7 +25,7 @@ def get_count(self, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | IShape |  |
+| shape | IShape | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) |
 
 
 

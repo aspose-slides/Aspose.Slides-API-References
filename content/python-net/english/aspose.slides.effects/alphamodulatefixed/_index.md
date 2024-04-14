@@ -12,7 +12,7 @@ url: /aspose.slides.effects/alphamodulatefixed/
 Represents an Alpha Modulate Fixed effect.
             Effect alpha (opacity) values are multiplied by a fixed percentage.
 
-**Inheritance:**[`AlphaModulateFixed`](/slides/python-net/aspose.slides.effects/alphamodulatefixed) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`AlphaModulateFixed`](/slides/python-net/aspose.slides.effects/alphamodulatefixed) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The AlphaModulateFixed type exposes the following members:
 

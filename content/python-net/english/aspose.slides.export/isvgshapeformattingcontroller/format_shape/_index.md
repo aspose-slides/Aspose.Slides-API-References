@@ -9,7 +9,7 @@ weight: 10
 
 
 ## format_shape {#isvgshape-ishape}
-
+This function is called before rendering of shape to SVG to allow user to control resulting SVG.
 
 
 ```python
@@ -20,8 +20,8 @@ def format_shape(self, svg_shape, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| svg_shape | ISvgShape |  |
-| shape | IShape |  |
+| svg_shape | ISvgShape | Object to control SVG shape generation. |
+| shape | IShape | Source shape. |
 
 
 

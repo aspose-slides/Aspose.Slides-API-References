@@ -26,7 +26,7 @@ def quadratic_bezier_to(self, point1, point2):
 
 
 ## quadratic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-int}
-Adds quadratic Bezier curve at the end the path
+Adds quadratic Bezier curve to the specified place of the path
 
 
 ```python
@@ -39,7 +39,13 @@ def quadratic_bezier_to(self, point1, point2, index):
 | :- | :- | :- |
 | point1 | aspose.pydrawing.PointF | Direction point |
 | point2 | aspose.pydrawing.PointF | End point |
-| index | int |  |
+| index | int | Index of segment in PathData |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentOutOfRangeException | Segment index is out of PathData range |
 
 
 
@@ -55,15 +61,15 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x1 | float |  |
-| y1 | float |  |
-| x2 | float |  |
-| y2 | float |  |
+| x1 | float | X coordinate of direction point |
+| y1 | float | Y coordinate of direction point |
+| x2 | float | X coordinate of end point |
+| y2 | float | Y coordinate of end point |
 
 
 
 ## quadratic_bezier_to {#float-float-float-float-int}
-Adds quadratic Bezier curve at the end the path
+Adds quadratic Bezier curve to the specified place of the path
 
 
 ```python
@@ -74,11 +80,17 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x1 | float |  |
-| y1 | float |  |
-| x2 | float |  |
-| y2 | float |  |
-| index | int |  |
+| x1 | float | X coordinate of direction point |
+| y1 | float | Y coordinate of direction point |
+| x2 | float | X coordinate of end point |
+| y2 | float | Y coordinate of end point |
+| index | int | Index of segment in PathData |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentOutOfRangeException | Segment index is out of PathData range |
 
 
 

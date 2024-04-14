@@ -9,7 +9,7 @@ weight: 10
 
 
 ## __init__ {#}
-Creates a new HtmlOptions object specifiing callback.
+Creates a new HtmlOptions object for saving into single HTML file.
 
 
 ```python

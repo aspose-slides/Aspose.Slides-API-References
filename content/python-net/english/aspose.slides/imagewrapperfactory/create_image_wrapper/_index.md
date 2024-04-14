@@ -25,7 +25,7 @@ def create_image_wrapper(self, image):
 
 
 ## create_image_wrapper {#systemiostream}
-Initializes a new instance of the BitmapWrapper class from the specified existing image.
+Initializes a new instance of the BitmapWrapper class from the specified data stream.
 
 
 ```python
@@ -41,7 +41,7 @@ def create_image_wrapper(self, stream):
 
 
 ## create_image_wrapper {#string}
-Initializes a new instance of the BitmapWrapper class from the specified existing image.
+Initializes a new instance of the BitmapWrapper class from the specified file.
 
 
 ```python

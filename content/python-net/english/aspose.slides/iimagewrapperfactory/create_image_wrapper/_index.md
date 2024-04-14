@@ -30,7 +30,7 @@ def create_image_wrapper(self, image):
 
 
 ## create_image_wrapper {#systemiostream}
-Initializes a new instance of the BitmapWrapper class from the specified existing image.
+Initializes a new instance of the BitmapWrapper class from the specified data stream.
 
 ### Returns
 
@@ -46,12 +46,12 @@ def create_image_wrapper(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Data stream .NET type System.IO.Stream |
 
 
 
 ## create_image_wrapper {#string}
-Initializes a new instance of the BitmapWrapper class from the specified existing image.
+Initializes a new instance of the BitmapWrapper class from the specified file.
 
 ### Returns
 
@@ -67,7 +67,7 @@ def create_image_wrapper(self, file_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string |  |
+| file_name | string | File name .NET type System.String |
 
 
 

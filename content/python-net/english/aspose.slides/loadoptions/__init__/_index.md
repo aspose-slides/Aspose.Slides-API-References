@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ## __init__ {#loadformat}
-Creates new default load options.
+Creates new load options.
 
 
 ```python
@@ -32,7 +32,7 @@ def __init__(self, load_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| load_format | LoadFormat |  |
+| load_format | LoadFormat | Format of a presentation to load. |
 
 
 

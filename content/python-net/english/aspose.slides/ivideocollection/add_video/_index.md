@@ -30,11 +30,11 @@ def add_video(self, video):
 
 
 ## add_video {#systemiostream}
-Adds a copy of an video file from an another presentation.
+Creates and adds a video to a presentation from stream.
 
 ### Returns
 
-Added video.
+Added [`IVideo`](/slides/python-net/aspose.slides/ivideo).
 
 
 
@@ -46,12 +46,12 @@ def add_video(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Stream to add video file from. |
 
 
 
 ## add_video {#bytes}
-Adds a copy of an video file from an another presentation.
+Creates and adds a video to a presentation from byte array.
 
 ### Returns
 
@@ -67,16 +67,16 @@ def add_video(self, video_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| video_data | bytes |  |
+| video_data | bytes | Video bytes. |
 
 
 
 ## add_video {#systemiostream-loadingstreambehavior}
-Adds a copy of an video file from an another presentation.
+Creates and adds a video to a presentation from stream.
 
 ### Returns
 
-Added video.
+Added [`IVideo`](/slides/python-net/aspose.slides/ivideo).
 
 
 
@@ -88,8 +88,8 @@ def add_video(self, stream, loading_stream_behavior):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
-| loading_stream_behavior | LoadingStreamBehavior |  |
+| stream | System.IO.Stream | Stream to add video file from. |
+| loading_stream_behavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
 
 

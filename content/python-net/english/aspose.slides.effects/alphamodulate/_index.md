@@ -13,7 +13,7 @@ Represents an Alpha Modulate effect.
             Effect alpha (opacity) values are multiplied by a fixed percentage.
             The effect container specifies an effect containing alpha values to modulate.
 
-**Inheritance:**[`AlphaModulate`](/slides/python-net/aspose.slides.effects/alphamodulate) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`AlphaModulate`](/slides/python-net/aspose.slides.effects/alphamodulate) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The AlphaModulate type exposes the following members:
 

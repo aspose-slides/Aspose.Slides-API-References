@@ -36,8 +36,8 @@ def move_to(self, x, y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float |  |
-| y | float |  |
+| x | float | X coordinate of the point |
+| y | float | Y Coordinate of the point |
 
 
 

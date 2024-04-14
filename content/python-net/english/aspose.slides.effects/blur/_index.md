@@ -12,7 +12,7 @@ url: /aspose.slides.effects/blur/
 Represents a Blur effect that is applied to the entire shape, including its fill.
             All color channels, including alpha, are affected.
 
-**Inheritance:**[`Blur`](/slides/python-net/aspose.slides.effects/blur) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`Blur`](/slides/python-net/aspose.slides.effects/blur) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The Blur type exposes the following members:
 

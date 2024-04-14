@@ -26,7 +26,7 @@ def to_array(self):
 
 
 ## to_array {#int-int}
-Creates and returns an array with all slides in it.
+Creates and returns an array with all slides from the specified range in it.
 
 ### Returns
 
@@ -42,8 +42,8 @@ def to_array(self, start_index, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | int |  |
-| count | int |  |
+| start_index | int | An index of a first slide to add. |
+| count | int | A number of slides to add. |
 
 
 

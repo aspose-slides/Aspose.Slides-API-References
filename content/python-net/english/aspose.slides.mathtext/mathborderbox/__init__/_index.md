@@ -25,7 +25,7 @@ def __init__(self, element):
 
 
 ## __init__ {#imathelement-bool-bool-bool-bool-bool-bool-bool-bool}
-Creates MathBorderBox element with rectangular border
+Creates MathBorderBox element
 
 
 ```python
@@ -36,15 +36,15 @@ def __init__(self, element, hide_top, hide_bottom, hide_left, hide_right, strike
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | The base element to which the border box is applied. Can be null. |
-| hide_top | bool |  |
-| hide_bottom | bool |  |
-| hide_left | bool |  |
-| hide_right | bool |  |
-| strikethrough_horizontal | bool |  |
-| strikethrough_vertical | bool |  |
-| strikethrough_bottom_left_to_top_right | bool |  |
-| strikethrough_top_left_to_bottom_right | bool |  |
+| element | IMathElement | The base element to which the border box is applied |
+| hide_top | bool | Hide Top Edge |
+| hide_bottom | bool | Hide Bottom Edge |
+| hide_left | bool | Hide Left Edge |
+| hide_right | bool | Hide Right Edge |
+| strikethrough_horizontal | bool | Strikethrough Horizontal |
+| strikethrough_vertical | bool | Strikethrough Vertical |
+| strikethrough_bottom_left_to_top_right | bool | Strikethrough Bottom-Left to Top-Right |
+| strikethrough_top_left_to_bottom_right | bool | Strikethrough Top-Left to Bottom-Right |
 
 
 

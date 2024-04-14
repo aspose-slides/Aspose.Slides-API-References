@@ -51,7 +51,7 @@ def divide(self, denominator):
 
 
 ## divide {#imathelement-mathfractiontypes}
-Creates a fraction with this numerator and specified denominator
+Creates a fraction of the specified type with this numerator and specified denominator
 
 ### Returns
 
@@ -68,12 +68,12 @@ def divide(self, denominator, fraction_type):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | denominator | IMathElement | Denominator |
-| fraction_type | MathFractionTypes |  |
+| fraction_type | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
 
 
 
 ## divide {#string-mathfractiontypes}
-Creates a fraction with this numerator and specified denominator
+Creates a fraction of the specified type with this numerator and specified denominator
 
 ### Returns
 
@@ -90,7 +90,7 @@ def divide(self, denominator, fraction_type):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | denominator | string | Denominator |
-| fraction_type | MathFractionTypes |  |
+| fraction_type | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
 
 
 

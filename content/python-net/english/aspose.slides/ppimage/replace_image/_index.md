@@ -26,8 +26,8 @@ def replace_image(self, new_image_data):
 
 
 ## replace_image {#asposepydrawingimage}
-Replaces image data.
-            The new image's data.When newImageData parameter is null.
+Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead
+            The new image.When newImage parameter is null.
 
 
 ```python
@@ -44,7 +44,7 @@ def replace_image(self, new_image):
 
 ## replace_image {#ippimage}
 Replaces image data.
-            The new image's data.When newImageData parameter is null.
+            The new IPPImage.When newImage parameter is null.
 
 
 ```python

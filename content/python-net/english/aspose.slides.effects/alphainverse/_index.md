@@ -12,7 +12,7 @@ url: /aspose.slides.effects/alphainverse/
 Represents an Alpha Inverse effect.
             Alpha (opacity) values are inverted by subtracting from 100%.
 
-**Inheritance:**[`AlphaInverse`](/slides/python-net/aspose.slides.effects/alphainverse) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`AlphaInverse`](/slides/python-net/aspose.slides.effects/alphainverse) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The AlphaInverse type exposes the following members:
 

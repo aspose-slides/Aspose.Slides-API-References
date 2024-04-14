@@ -30,11 +30,11 @@ def join(self, math_element):
 
 
 ## join {#string}
-Joins a mathematical element with this mathematical block
+Joins a mathematical text with this mathematical block
 
 ### Returns
 
-The current instance of IMathBlock
+A new IMathBlock containing this instance and specified argument
 
 
 
@@ -46,7 +46,7 @@ def join(self, math_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_text | string |  |
+| math_text | string | Mathematical text to be joined |
 
 
 

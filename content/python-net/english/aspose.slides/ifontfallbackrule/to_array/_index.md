@@ -26,7 +26,7 @@ def to_array(self):
 
 
 ## to_array {#int-int}
-Creates and returns an array with all FallBack fonts for this rule.
+Creates and returns an array with all FallBack fonts from the specified range in list.
 
 ### Returns
 
@@ -42,8 +42,8 @@ def to_array(self, start_index, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | int |  |
-| count | int |  |
+| start_index | int | An index of a first font to add. |
+| count | int | A number of fonts to add. |
 
 
 

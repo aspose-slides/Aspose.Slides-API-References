@@ -12,7 +12,7 @@ url: /aspose.slides.effects/alphareplace/
 Represents and Alpha Replace effect.
             Effect alpha (opacity) values are replaced by a fixed alpha.
 
-**Inheritance:**[`AlphaReplace`](/slides/python-net/aspose.slides.effects/alphareplace) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`AlphaReplace`](/slides/python-net/aspose.slides.effects/alphareplace) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The AlphaReplace type exposes the following members:
 

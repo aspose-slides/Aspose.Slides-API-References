@@ -39,7 +39,7 @@ def __init__(self, source_font, dest_font, font_subst_rule):
 | :- | :- | :- |
 | source_font | IFontData | Source font. |
 | dest_font | IFontData | Destination font. |
-| font_subst_rule | FontSubstCondition |  |
+| font_subst_rule | FontSubstCondition | Font subst rule. |
 
 
 

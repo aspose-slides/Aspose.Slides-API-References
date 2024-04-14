@@ -37,8 +37,7 @@ def insert_auto_shape(self, index, shape_type, x, y, width, height):
 
 
 ## insert_auto_shape {#int-shapetype-float-float-float-float-bool}
-Creates a new AutoShape, tunes it from default template and inserts it to 
-            the collection at the specified index.
+Creates a new AutoShape and inserts it to the collection at the specified index.
             Note: the type of the shape will be determined by the shapeType parameter.
 
 ### Returns
@@ -61,7 +60,7 @@ def insert_auto_shape(self, index, shape_type, x, y, width, height, create_from_
 | y | float | The Y-coordinate for a top side of shape's frame. |
 | width | float | The width of shape's frame. |
 | height | float | The height of shape's frame. |
-| create_from_template | bool |  |
+| create_from_template | bool | If true then new shape will be tuned from default template. Not empty name, <br/><br/>            simple style, text centered will be assined to the new shape.<br/><br/>            If false then all values of the properties of the new shape will have default values. |
 
 
 

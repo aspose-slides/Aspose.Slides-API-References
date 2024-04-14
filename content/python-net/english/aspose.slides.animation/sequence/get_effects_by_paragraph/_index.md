@@ -9,7 +9,7 @@ weight: 40
 
 
 ## get_effects_by_paragraph {#iparagraph}
-
+Returns array of effects for the specified paragraph.
 
 
 ```python

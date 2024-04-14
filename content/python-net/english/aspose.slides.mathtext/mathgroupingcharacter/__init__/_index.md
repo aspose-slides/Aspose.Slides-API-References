@@ -26,8 +26,7 @@ def __init__(self, element):
 
 
 ## __init__ {#imathelement-char-mathtopbotpositions-mathtopbotpositions}
-Initializes a new instance of the MathGroupingCharacter class 
-            with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
+Initializes a new instance of the MathGroupingCharacter class.
 
 
 ```python
@@ -39,9 +38,9 @@ def __init__(self, element, character, position, vertical_justification):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | element | IMathElement | The base element to which the bar is applied |
-| character | char |  |
-| position | MathTopBotPositions |  |
-| vertical_justification | MathTopBotPositions |  |
+| character | char | Grouping Character |
+| position | MathTopBotPositions | Position of grouping character |
+| vertical_justification | MathTopBotPositions | Vertical justification of group character |
 
 
 

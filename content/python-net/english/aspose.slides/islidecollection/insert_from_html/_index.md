@@ -13,7 +13,7 @@ Creates slides from HTML text and inserts them to the collection at the specifie
 
 ### Returns
 
-Added slides.
+Added slides
 
 
 
@@ -35,7 +35,7 @@ Creates slides from HTML text and inserts them to the collection at the specifie
 
 ### Returns
 
-Added slides.
+Added slides
 
 
 
@@ -48,7 +48,7 @@ def insert_from_html(self, index, html_stream):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | Position to insert. |
-| html_stream | System.IO.Stream |  |
+| html_stream | System.IO.Stream | A Stream object which will be used as a source of a HTML file. |
 
 
 
@@ -94,7 +94,7 @@ def insert_from_html(self, index, html_stream, resolver, uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | Position to insert. |
-| html_stream | System.IO.Stream |  |
+| html_stream | System.IO.Stream | A Stream object which will be used as a source of a HTML file. |
 | resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | string | An URI of the specified HTML. Used to resolve relative links. |
 

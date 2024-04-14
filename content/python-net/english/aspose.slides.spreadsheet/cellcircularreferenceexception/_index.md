@@ -12,7 +12,7 @@ url: /aspose.slides.spreadsheet/cellcircularreferenceexception/
 The exception that is thrown when one or more circular references are detected where a formula refers to its
             own cell either directly or indirectly.
 
-**Inheritance:**[`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception)
+**Inheritance:**[`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) → [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) → [`PptxException`](/slides/python-net/aspose.slides/pptxexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
 
 The CellCircularReferenceException type exposes the following members:
 

@@ -41,7 +41,7 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section):
 
 
 ## insert_section_zoom_frame {#int-float-float-float-float-isection-ippimage}
-Creates a new Section Zoom object and inserts into to a collection at the specified index.
+Creates a new Section Zoom object and inserts it to a collection at the specified index.
 
 ### Returns
 
@@ -63,7 +63,7 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section, image):
 | width | float | Width of a new Section Zoom frame .NET type System.Single. |
 | height | float | Height of a new Section Zoom frame .NET type System.Single. |
 | section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
-| image | IPPImage |  |
+| image | IPPImage | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
 
 ## Exceptions
 

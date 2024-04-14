@@ -43,7 +43,7 @@ When cloning a slide between different presentations slide's master can be clone
 
 
 ## add_clone {#islide-isection}
-Adds a copy of a specified slide to the end of the collection.
+Adds a copy of a specified slide to the end of the specified section.
 
 ### Returns
 
@@ -60,20 +60,14 @@ def add_clone(self, source_slide, section):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | source_slide | ISlide | Slide to clone. |
-| section | ISection |  |
+| section | ISection | Section for a new slide. |
 
-### Remarks
+## Exceptions
 
-When cloning a slide between different presentations slide's master can be cloned too.
-            Internal registry is used to track automatically cloned masters to prevent creation of 
-            multiple clones of the same master slide.
-            Manual cloning of master slides will be neither prevented nor registered.
-            If you need more control over cloning process use
-            Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slide. or
-            Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slides.IMasterSlide,Syste. for cloning slides,
-            Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slide. or
-            Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slides.ILayoutSlide,Aspose.Slide. for cloning layouts and
-            Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide. for cloning masters.
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentNullException |  |
+| [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) |  |
 
 
 
@@ -95,25 +89,18 @@ def add_clone(self, source_slide, dest_layout):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | source_slide | ISlide | Slide to clone. |
-| dest_layout | ILayoutSlide |  |
-
-### Remarks
-
-When cloning a slide between different presentations slide's master can be cloned too.
-            Internal registry is used to track automatically cloned masters to prevent creation of 
-            multiple clones of the same master slide.
-            Manual cloning of master slides will be neither prevented nor registered.
-            If you need more control over cloning process use
-            Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slide. or
-            Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slides.IMasterSlide,Syste. for cloning slides,
-            Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slide. or
-            Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slides.ILayoutSlide,Aspose.Slide. for cloning layouts and
-            Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide. for cloning masters.
+| dest_layout | ILayoutSlide | Layout slide for a new slide. |
 
 
 
 ## add_clone {#islide-imasterslide-bool}
-Adds a copy of a specified slide to the end of the collection.
+Adds a copy of a specified source slide to the end of the collection.
+            Appropriate layout will be selected automatically from the specified 
+            master (appropriate layout is the layout with the same Type or Name as 
+            of layout of the source slide). If there is no appropriate layout then
+            layout of the source slide will be cloned (if allowCloneMissingLayout 
+            is true) or PptxEditException will be thrown (if allowCloneMissingLayout
+            is false).
 
 ### Returns
 
@@ -130,21 +117,14 @@ def add_clone(self, source_slide, dest_master, allow_clone_missing_layout):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | source_slide | ISlide | Slide to clone. |
-| dest_master | IMasterSlide |  |
-| allow_clone_missing_layout | bool |  |
+| dest_master | IMasterSlide | Master slide for a new slide. |
+| allow_clone_missing_layout | bool | If there is no appropriate layout in specified master then layout of the <br/><br/>            source slide will be cloned (if allowCloneMissingLayout is true) or <br/><br/>            PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
-### Remarks
+## Exceptions
 
-When cloning a slide between different presentations slide's master can be cloned too.
-            Internal registry is used to track automatically cloned masters to prevent creation of 
-            multiple clones of the same master slide.
-            Manual cloning of master slides will be neither prevented nor registered.
-            If you need more control over cloning process use
-            Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slide. or
-            Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slides.IMasterSlide,Syste. for cloning slides,
-            Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slide. or
-            Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slides.ILayoutSlide,Aspose.Slide. for cloning layouts and
-            Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide. for cloning masters.
+| Exception | Description |
+| :- | :- |
+| [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if there is no appropriate layout in specified master and <br/>            allowCloneMissingLayout is false. |
 
 
 

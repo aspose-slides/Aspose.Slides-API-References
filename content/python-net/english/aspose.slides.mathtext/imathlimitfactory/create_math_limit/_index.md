@@ -9,7 +9,7 @@ weight: 10
 
 
 ## create_math_limit {#imathelement-imathelement}
-Creates IMathLimit
+Creates IMathLimit with limit at the bottom
 
 ### Returns
 

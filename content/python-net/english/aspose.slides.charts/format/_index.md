@@ -11,7 +11,7 @@ url: /aspose.slides.charts/format/
 
 Represents chart format properties.
 
-**Inheritance:**[`Format`](/slides/python-net/aspose.slides.charts/format)
+**Inheritance:**[`Format`](/slides/python-net/aspose.slides.charts/format) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The Format type exposes the following members:
 

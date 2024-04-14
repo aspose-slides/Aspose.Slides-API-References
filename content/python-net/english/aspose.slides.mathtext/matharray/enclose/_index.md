@@ -26,11 +26,11 @@ def enclose(self):
 
 
 ## enclose {#char-char}
-Encloses a math element in parenthesis
+Encloses a math element in specified characters such as parenthesis or another characters as framing
 
 ### Returns
 
-The math element of type [`IMathDelimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiter) which includes the parenthesis
+The math element of type [`IMathDelimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiter) which includes specified characters as framing
 
 
 
@@ -42,8 +42,8 @@ def enclose(self, beginning_character, ending_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| beginning_character | char |  |
-| ending_character | char |  |
+| beginning_character | char | Beginning character (usually left bracket) |
+| ending_character | char | Ending character (usually right bracket) |
 
 
 

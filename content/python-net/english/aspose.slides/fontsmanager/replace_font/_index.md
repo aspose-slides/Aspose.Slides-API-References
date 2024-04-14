@@ -9,7 +9,7 @@ weight: 60
 
 
 ## replace_font {#ifontsubstrule}
-Replace font in presentation
+Replace font in presentation using information provided in [`FontSubstRule`](/slides/python-net/aspose.slides/fontsubstrule)
 
 
 ```python
@@ -20,12 +20,12 @@ def replace_font(self, subst_rule):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| subst_rule | IFontSubstRule |  |
+| subst_rule | IFontSubstRule | Font substitution info |
 
 
 
 ## replace_font {#ifontsubstrulecollection}
-Replace font in presentation
+Replace font in presentation using information provided in collection of [`FontSubstRule`](/slides/python-net/aspose.slides/fontsubstrule)
 
 
 ```python
@@ -36,7 +36,7 @@ def replace_font(self, subst_rules):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| subst_rules | IFontSubstRuleCollection |  |
+| subst_rules | IFontSubstRuleCollection | Font substitution rules collection |
 
 
 

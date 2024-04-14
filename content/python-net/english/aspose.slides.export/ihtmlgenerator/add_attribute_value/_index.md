@@ -53,8 +53,8 @@ def add_attribute_value(self, value, start_index, length):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | value | List[char] | Attribute value string. |
-| start_index | int |  |
-| length | int |  |
+| start_index | int | Start index of the portion to add. |
+| length | int | Length of the portion to add. |
 
 
 

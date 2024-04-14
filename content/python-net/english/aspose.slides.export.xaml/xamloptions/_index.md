@@ -11,7 +11,7 @@ url: /aspose.slides.export.xaml/xamloptions/
 
 Options that control how a XAML document is saved.
 
-**Inheritance:**[`XamlOptions`](/slides/python-net/aspose.slides.export.xaml/xamloptions)
+**Inheritance:**[`XamlOptions`](/slides/python-net/aspose.slides.export.xaml/xamloptions) → [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 
 The XamlOptions type exposes the following members:
 

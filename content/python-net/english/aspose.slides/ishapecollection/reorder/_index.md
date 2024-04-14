@@ -26,7 +26,8 @@ def reorder(self, index, shape):
 
 
 ## reorder {#int-listishape}
-Moves a shape from the collection to the specified position.
+Moves shapes from the collection to the specified position.
+            Shapes will be placed starting from index in order they appear in list.
 
 
 ```python
@@ -38,7 +39,7 @@ def reorder(self, index, shapes):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | Target index. |
-| shapes | List[IShape] |  |
+| shapes | List[IShape] | Shapes to move. |
 
 
 

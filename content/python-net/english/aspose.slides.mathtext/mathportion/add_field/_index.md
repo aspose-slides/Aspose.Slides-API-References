@@ -9,7 +9,7 @@ weight: 20
 
 
 ## add_field {#ifieldtype}
-
+Converts this portion to the automaticaly updated field.
 
 
 ```python
@@ -25,7 +25,7 @@ def add_field(self, field_type):
 
 
 ## add_field {#string}
-
+Converts this portion to the automaticaly updated field.
 
 
 ```python
@@ -36,7 +36,7 @@ def add_field(self, internal_string):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| internal_string | string |  |
+| internal_string | string | Internal name of FieldType. |
 
 
 

@@ -12,7 +12,7 @@ url: /aspose.slides.effects/colorchange/
 Represents a Color Change effect.
             Instances of FromColor are replaced with instances of ToColor.
 
-**Inheritance:**[`ColorChange`](/slides/python-net/aspose.slides.effects/colorchange) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`ColorChange`](/slides/python-net/aspose.slides.effects/colorchange) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The ColorChange type exposes the following members:
 

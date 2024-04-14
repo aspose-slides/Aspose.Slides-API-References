@@ -28,11 +28,10 @@ def get_thumbnail(self):
 
 ## get_thumbnail {#shapethumbnailbounds-float-float}
 Returns shape thumbnail.
-            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
 
 ### Returns
 
-Shape thumbnail.
+Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
 
 
 
@@ -44,9 +43,9 @@ def get_thumbnail(self, bounds, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| bounds | ShapeThumbnailBounds |  |
-| scale_x | float |  |
-| scale_y | float |  |
+| bounds | ShapeThumbnailBounds | Shape thumbnail bounds type. |
+| scale_x | float | X scale |
+| scale_y | float | Y scale |
 
 
 

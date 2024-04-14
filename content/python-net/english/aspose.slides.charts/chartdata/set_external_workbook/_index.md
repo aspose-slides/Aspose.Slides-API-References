@@ -31,7 +31,7 @@ def set_external_workbook(self, workbook_path):
 
 
 ## set_external_workbook {#string-bool}
-Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook.
+Sets external workbook as a data source for the chart.
 
 
 ```python
@@ -43,7 +43,7 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | workbook_path | string | Path to the target workbook |
-| update_chart_data | bool |  |
+| update_chart_data | bool | If value is false only workbook path will be updated. <br/><br/>             Chart data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available.<br/><br/>             If value is true chart data will be updated from the target workbook. |
 
 ## Exceptions
 

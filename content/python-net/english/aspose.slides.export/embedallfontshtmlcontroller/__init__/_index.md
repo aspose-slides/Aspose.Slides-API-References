@@ -32,7 +32,7 @@ def __init__(self, font_name_exclude_list):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name_exclude_list | List[string] |  |
+| font_name_exclude_list | List[string] | Fonts to be excluded from embedding |
 
 
 

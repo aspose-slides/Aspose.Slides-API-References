@@ -26,7 +26,7 @@ def create_portion(self):
 
 
 ## create_portion {#string}
-Creates an empty text portion.
+Creates a text portion from specified string.
 
 ### Returns
 
@@ -42,12 +42,12 @@ def create_portion(self, str):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| str | string |  |
+| str | string | String. |
 
 
 
 ## create_portion {#iportion}
-Creates an empty text portion.
+Creates a portion with the using of a specified portion data.
 
 ### Returns
 
@@ -63,7 +63,7 @@ def create_portion(self, portion):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| portion | IPortion |  |
+| portion | IPortion | A portion to use. |
 
 
 

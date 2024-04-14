@@ -48,7 +48,7 @@ def add(self, position, preset_color):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | position | float | Position of the new gradient stop. |
-| preset_color | PresetColor |  |
+| preset_color | PresetColor | Color of the new radient stop. |
 
 
 
@@ -70,7 +70,7 @@ def add(self, position, scheme_color):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | position | float | Position of the new gradient stop. |
-| scheme_color | SchemeColor |  |
+| scheme_color | SchemeColor | Color of the new radient stop. |
 
 
 

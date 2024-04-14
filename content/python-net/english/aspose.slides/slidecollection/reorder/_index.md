@@ -26,7 +26,8 @@ def reorder(self, index, slide):
 
 
 ## reorder {#int-listislide}
-Moves slide from the collection to the specified position.
+Moves slides from the collection to the specified position.
+            Slides will be placed starting from index in order they appear in list.
 
 
 ```python
@@ -38,7 +39,7 @@ def reorder(self, index, slides):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | Target index. |
-| slides | List[ISlide] |  |
+| slides | List[ISlide] | Slides to move. |
 
 
 

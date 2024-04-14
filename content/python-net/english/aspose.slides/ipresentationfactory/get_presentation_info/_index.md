@@ -30,11 +30,11 @@ def get_presentation_info(self, file):
 
 
 ## get_presentation_info {#systemiostream}
-Gets info about presentation in specified file.
+Gets info about presentation in specified stream.
 
 ### Returns
 
-Presentation info
+Presentation info.
 
 
 
@@ -46,7 +46,7 @@ def get_presentation_info(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Presentation stream. |
 
 
 

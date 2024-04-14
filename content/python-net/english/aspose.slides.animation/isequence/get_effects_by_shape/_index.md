@@ -9,6 +9,11 @@ weight: 50
 
 
 ## get_effects_by_shape {#ishape}
+Returns array of effects for the specified shape.
+
+### Returns
+
+Array of effects [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 
 
 
@@ -20,7 +25,7 @@ def get_effects_by_shape(self, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | IShape |  |
+| shape | IShape | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) |
 
 
 

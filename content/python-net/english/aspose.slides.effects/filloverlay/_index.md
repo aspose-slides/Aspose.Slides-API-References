@@ -12,7 +12,7 @@ url: /aspose.slides.effects/filloverlay/
 Represents a Fill Overlay effect. A fill overlay may be used to specify
             an additional fill for an object and blend the two fills together.
 
-**Inheritance:**[`FillOverlay`](/slides/python-net/aspose.slides.effects/filloverlay) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`FillOverlay`](/slides/python-net/aspose.slides.effects/filloverlay) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The FillOverlay type exposes the following members:
 

@@ -31,7 +31,7 @@ def create_file_stream_wrapper(self, file_name, file_mode):
 
 
 ## create_file_stream_wrapper {#string-systemiofilemode-systemiofileaccess}
-Creates FileStream with the specified path and creation mode.
+Creates FileStream with the specified path, creation mode, and read/write permission.
 
 ### Returns
 
@@ -49,7 +49,7 @@ def create_file_stream_wrapper(self, file_name, file_mode, file_access):
 | :- | :- | :- |
 | file_name | string | File name .NET type System.String |
 | file_mode | System.IO.FileMode | File mode .NET type System.IO.FileMode |
-| file_access | System.IO.FileAccess |  |
+| file_access | System.IO.FileAccess | File access .NET type System.IO.FileAccess |
 
 
 

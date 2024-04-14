@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ## __init__ {#char}
-Default constructor (create String.Empty Value)
+Create MathText with single symbol
 
 
 ```python
@@ -32,12 +32,12 @@ def __init__(self, math_symbol):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_symbol | char |  |
+| math_symbol | char | single symbol |
 
 
 
 ## __init__ {#string}
-Default constructor (create String.Empty Value)
+Create MathematicalText from text
 
 
 ```python
@@ -48,12 +48,12 @@ def __init__(self, math_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_text | string |  |
+| math_text | string | text value |
 
 
 
 ## __init__ {#string-iportionformat}
-Default constructor (create String.Empty Value)
+Create MathematicalText from text and format settings
 
 
 ```python
@@ -64,8 +64,8 @@ def __init__(self, math_text, portion_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_text | string |  |
-| portion_format | IPortionFormat |  |
+| math_text | string | text value |
+| portion_format | IPortionFormat | text format settings |
 
 
 

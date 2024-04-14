@@ -37,7 +37,7 @@ def to_pdf(self, pres, out_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation |  |
+| pres | Presentation | Input presentation |
 | out_path | string | Output path |
 
 
@@ -56,7 +56,7 @@ def to_pdf(self, pres_path, out_path, options):
 | :- | :- | :- |
 | pres_path | string | Path of the input presentation |
 | out_path | string | Output path |
-| options | [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions) |  |
+| options | [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions) | Output PDF options |
 
 
 
@@ -72,9 +72,9 @@ def to_pdf(self, pres, out_path, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation |  |
+| pres | Presentation | Input presentation |
 | out_path | string | Output path |
-| options | [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions) |  |
+| options | [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions) | Output PDF options |
 
 
 

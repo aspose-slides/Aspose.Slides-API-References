@@ -25,7 +25,7 @@ def __init__(self, certificate):
 
 
 ## __init__ {#string-string}
-Creates a new DigitalSignature object with the specified certificate.
+Creates a new DigitalSignature object with the specified certificate file path and password.
 
 
 ```python
@@ -36,8 +36,8 @@ def __init__(self, file_path, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string |  |
-| password | string |  |
+| file_path | string | Path to the file with certificate. |
+| password | string | Password required to access certificate. |
 
 
 

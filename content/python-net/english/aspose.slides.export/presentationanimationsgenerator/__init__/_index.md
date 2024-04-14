@@ -9,7 +9,7 @@ weight: 10
 
 
 ## __init__ {#presentation}
-
+Creates a new instance of the [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator).
 
 
 ```python
@@ -20,12 +20,12 @@ def __init__(self, presentation):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| presentation | Presentation |  |
+| presentation | Presentation | The frame size will be set with accordance to the [`Presentation.slide_size`](/slides/python-net/aspose.slides/presentation#slide_size) |
 
 
 
 ## __init__ {#asposepydrawingsize}
-
+Creates a new instance of the [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator).
 
 
 ```python
@@ -36,7 +36,7 @@ def __init__(self, frame_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| frame_size | aspose.pydrawing.Size |  |
+| frame_size | aspose.pydrawing.Size | The frame size. |
 
 
 

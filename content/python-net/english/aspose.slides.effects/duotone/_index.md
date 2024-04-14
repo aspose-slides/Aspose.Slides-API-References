@@ -13,7 +13,7 @@ Represents a Duotone effect.
             For each pixel, combines Color1 and Color2 through a linear interpolation
             to determine the new color for that pixel.
 
-**Inheritance:**[`Duotone`](/slides/python-net/aspose.slides.effects/duotone) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`Duotone`](/slides/python-net/aspose.slides.effects/duotone) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The Duotone type exposes the following members:
 

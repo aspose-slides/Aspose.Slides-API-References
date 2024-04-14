@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ## __init__ {#ilinkembedcontroller}
-Initializes a new instance of the SVGOptions class.
+Initializes a new instance of the SVGOptions class specifying the link embedding controller object.
 
 
 ```python
@@ -32,7 +32,12 @@ def __init__(self, link_embed_controller):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| link_embed_controller | ILinkEmbedController |  |
+| link_embed_controller | ILinkEmbedController | The link embedding controller reference. |
+
+### Remarks
+
+Link embedding controller is a delegate object that is responsible for making decisions if resources (such as images) need to be
+            embedded or referenced as external resources.
 
 
 

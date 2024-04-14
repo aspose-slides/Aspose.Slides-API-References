@@ -25,7 +25,7 @@ def replace_image(self, new_image_data):
 
 
 ## replace_image {#asposepydrawingimage}
-Replaces image data.
+Replaces image.
 
 
 ```python
@@ -36,12 +36,12 @@ def replace_image(self, new_image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_image | aspose.pydrawing.Image |  |
+| new_image | aspose.pydrawing.Image | The new image. |
 
 
 
 ## replace_image {#ippimage}
-Replaces image data.
+Replaces image.
 
 
 ```python
@@ -52,7 +52,7 @@ def replace_image(self, new_image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_image | IPPImage |  |
+| new_image | IPPImage | The new IPPImage. |
 
 
 

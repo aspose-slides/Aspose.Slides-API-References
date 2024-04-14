@@ -25,7 +25,7 @@ def __init__(self, element):
 
 
 ## __init__ {#iterableimathelement}
-Creates a mathematical array and places the specified element in it
+
 
 
 ```python

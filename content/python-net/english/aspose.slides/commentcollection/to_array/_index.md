@@ -26,7 +26,7 @@ def to_array(self):
 
 
 ## to_array {#int-int}
-Creates and returns an array with all comments.
+Creates and returns an array with all comments from the specified range.
 
 ### Returns
 
@@ -42,8 +42,8 @@ def to_array(self, start_index, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | int |  |
-| count | int |  |
+| start_index | int | An index of a first comment to return. |
+| count | int | A number of comments to return. |
 
 
 

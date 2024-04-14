@@ -31,7 +31,7 @@ def remove_node(self, index):
 
 
 ## remove_node {#ismartartnode}
-Remove node or sub node by index
+Remove node or sub node
 
 
 ```python
@@ -42,13 +42,7 @@ def remove_node(self, node):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| node | ISmartArtNode |  |
-
-## Exceptions
-
-| Exception | Description |
-| :- | :- |
-| .NET type System.ArgumentOutOfRangeException | index is less than 0.  -or- index is equal to or greater than siblings count |
+| node | ISmartArtNode | Node to remove |
 
 
 

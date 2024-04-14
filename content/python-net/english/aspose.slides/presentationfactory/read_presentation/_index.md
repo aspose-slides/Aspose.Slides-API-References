@@ -30,7 +30,7 @@ def read_presentation(self, data):
 
 
 ## read_presentation {#systemiostream}
-Reads an existing presentation from array
+Reads an existing presentation from stream
 
 ### Returns
 
@@ -46,12 +46,12 @@ def read_presentation(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Input stream to read |
 
 
 
 ## read_presentation {#string}
-Reads an existing presentation from array
+Reads an existing presentation from file
 
 ### Returns
 
@@ -67,12 +67,12 @@ def read_presentation(self, file):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string |  |
+| file | string | File name |
 
 
 
 ## read_presentation {#bytes-iloadoptions}
-Reads an existing presentation from array
+Reads an existing presentation from array with additional load options
 
 ### Returns
 
@@ -89,12 +89,12 @@ def read_presentation(self, data, options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | data | bytes | Array to read |
-| options | ILoadOptions |  |
+| options | ILoadOptions | Load options |
 
 
 
 ## read_presentation {#systemiostream-iloadoptions}
-Reads an existing presentation from array
+Reads an existing presentation from stream with additional load options
 
 ### Returns
 
@@ -110,13 +110,13 @@ def read_presentation(self, stream, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
-| options | ILoadOptions |  |
+| stream | System.IO.Stream | Input stream to read |
+| options | ILoadOptions | Load options |
 
 
 
 ## read_presentation {#string-iloadoptions}
-Reads an existing presentation from array
+Reads an existing presentation from stream with additional load options
 
 ### Returns
 
@@ -132,8 +132,8 @@ def read_presentation(self, file, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string |  |
-| options | ILoadOptions |  |
+| file | string | File name |
+| options | ILoadOptions | Load options |
 
 
 

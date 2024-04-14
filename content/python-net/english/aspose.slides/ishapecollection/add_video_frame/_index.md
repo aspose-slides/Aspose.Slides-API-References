@@ -54,7 +54,7 @@ def add_video_frame(self, x, y, width, height, video):
 | y | float | Y coordinate of a new video frame. |
 | width | float | Width of a new video frame. |
 | height | float | Height of a new video frame. |
-| video | IVideo |  |
+| video | IVideo | Video. |
 
 
 

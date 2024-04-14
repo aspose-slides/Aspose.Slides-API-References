@@ -38,8 +38,7 @@ def insert_audio_frame_embedded(self, index, x, y, width, height, audio_stream):
 
 ## insert_audio_frame_embedded {#int-float-float-float-float-iaudio}
 Insert an AudioFrame with embedded audio file.
-            Embedded audio file sound can be a WAV only.
-            It adds new audio into Presentation.Audios list.
+            It uses audio file from Presentation.Audios list.
 
 ### Returns
 
@@ -60,7 +59,7 @@ def insert_audio_frame_embedded(self, index, x, y, width, height, audio):
 | y | float | Y coordinate of a new audio frame. |
 | width | float | Width of a new audio frame. |
 | height | float | Height of a new audio frame. |
-| audio | IAudio |  |
+| audio | IAudio | Audio from Presentation.Audios list. |
 
 
 

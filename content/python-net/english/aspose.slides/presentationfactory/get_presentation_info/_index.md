@@ -30,7 +30,8 @@ def get_presentation_info(self, file):
 
 
 ## get_presentation_info {#systemiostream}
-Creates new PresentationInfo object from file and binds presentation to it.
+Creates new PresentationInfo object from stream and binds presentation to it.
+            Gets info about presentation in specified stream.
 
 ### Returns
 
@@ -46,7 +47,7 @@ def get_presentation_info(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Presentation stream. |
 
 
 

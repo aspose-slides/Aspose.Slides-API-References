@@ -13,7 +13,7 @@ Represents an Alpha Floor effect.
             Alpha (opacity) values less than 100% are changed to zero.
             In other words, anything partially transparent becomes fully transparent.
 
-**Inheritance:**[`AlphaFloor`](/slides/python-net/aspose.slides.effects/alphafloor) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`AlphaFloor`](/slides/python-net/aspose.slides.effects/alphafloor) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The AlphaFloor type exposes the following members:
 

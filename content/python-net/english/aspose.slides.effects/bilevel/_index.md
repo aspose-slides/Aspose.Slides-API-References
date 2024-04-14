@@ -14,7 +14,7 @@ Represents a Bi-Level (black/white) effect.
             Input colors whose luminance are greater than or equal the specified value are set to white.
             The alpha effect values are unaffected by this effect.
 
-**Inheritance:**[`BiLevel`](/slides/python-net/aspose.slides.effects/bilevel) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`BiLevel`](/slides/python-net/aspose.slides.effects/bilevel) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The BiLevel type exposes the following members:
 

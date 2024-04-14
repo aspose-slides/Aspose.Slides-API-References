@@ -9,7 +9,7 @@ weight: 50
 
 
 ## write_slide_end {#ihtmlgenerator-islide}
-
+Called to write html slide footer. Called once per each of slides.
 
 
 ```python
@@ -20,8 +20,8 @@ def write_slide_end(self, generator, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| generator | IHtmlGenerator |  |
-| slide | ISlide |  |
+| generator | IHtmlGenerator | Output object. |
+| slide | ISlide | Slide which being currently rendered. |
 
 
 

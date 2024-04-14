@@ -47,7 +47,7 @@ def get_presentation_text(self, stream, mode):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Input stream |
 | mode | TextExtractionArrangingMode | Extraction mode |
 
 
@@ -69,9 +69,9 @@ def get_presentation_text(self, stream, mode, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Input stream |
 | mode | TextExtractionArrangingMode | Extraction mode |
-| options | ILoadOptions |  |
+| options | ILoadOptions | Load options |
 
 
 

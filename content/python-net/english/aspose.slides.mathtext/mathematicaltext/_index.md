@@ -22,7 +22,7 @@ The MathematicalText type exposes the following members:
 | [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#) | Default constructor (create String.Empty Value) |
 | [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#char) | Create MathText with single symbol |
 | [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#string) | Create MathematicalText from text |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#string-iportionformat) |  |
+| [__init__](/slides/python-net/aspose.slides.mathtext/mathematicaltext/__init__/#string-iportionformat) | Create MathematicalText from text and format settings |
 
 ## Properties
 

@@ -17,5 +17,5 @@ The Collect type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [shapes](/slides/python-net/aspose.slides.lowcode/collect/shapes/#presentation) |  |
+| [shapes](/slides/python-net/aspose.slides.lowcode/collect/shapes/#presentation) | Collects all instances of [`Shape`](/slides/python-net/aspose.slides/shape) in the [`Presentation`](/slides/python-net/aspose.slides/presentation). |
 

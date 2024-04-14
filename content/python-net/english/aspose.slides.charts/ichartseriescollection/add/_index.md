@@ -30,11 +30,11 @@ def add(self, type):
 
 
 ## add {#ichartdatacell-charttype}
-Creates new chart series and adds it to the collection.
+Creates new chart series from [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection.
 
 ### Returns
 
-New chart series.
+Added chart series or series that already is in collection.
 
 
 
@@ -46,17 +46,22 @@ def add(self, cell_with_series_name, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cell_with_series_name | IChartDataCell |  |
-| type | ChartType | Type of series |
+| cell_with_series_name | IChartDataCell | Cell which contain series name. |
+| type | ChartType | Type set type of series |
+
+### Remarks
+
+If chart series careted from same cell already in collection 
+            then method adds nothing and returns it's index.
 
 
 
 ## add {#ichartcellcollection-charttype}
-Creates new chart series and adds it to the collection.
+Creates new chart series from [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection) and adds it to the collection.
 
 ### Returns
 
-New chart series.
+Added chart series or series that already is in collection.
 
 
 
@@ -68,17 +73,22 @@ def add(self, cells_with_series_name, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cells_with_series_name | IChartCellCollection |  |
-| type | ChartType | Type of series |
+| cells_with_series_name | IChartCellCollection | Cells which contain series name. |
+| type | ChartType | Type set type of series |
+
+### Remarks
+
+If chart series careted from same cell already in collection 
+            then method adds nothing and returns it's index.
 
 
 
 ## add {#string-charttype}
-Creates new chart series and adds it to the collection.
+Creates new chart series from value and adds it to the collection.
 
 ### Returns
 
-New chart series.
+Added chart series.
 
 
 
@@ -90,8 +100,8 @@ def add(self, name, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string |  |
-| type | ChartType | Type of series |
+| name | string | Series name. |
+| type | ChartType | Type set type of series |
 
 
 

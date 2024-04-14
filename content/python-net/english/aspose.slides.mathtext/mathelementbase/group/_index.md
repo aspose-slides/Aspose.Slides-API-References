@@ -26,7 +26,7 @@ def group(self):
 
 
 ## group {#char-mathtopbotpositions-mathtopbotpositions}
-Places this element in a group using a bottom curly bracket
+Places this element in a group using a grouping character such as bottom curly bracket or another
 
 ### Returns
 
@@ -42,9 +42,9 @@ def group(self, character, position, vertical_justification):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| character | char |  |
-| position | MathTopBotPositions |  |
-| vertical_justification | MathTopBotPositions |  |
+| character | char | Grouping Character such as BOTTOM CURLY BRACKET (U+23DF) or any other |
+| position | MathTopBotPositions | Position of grouping character |
+| vertical_justification | MathTopBotPositions | Vertical justification of group character.<br/><br/>            Specifies the alignment of the object with respect to the baseline.<br/><br/>            For example, when the group character is above the object, <br/><br/>            VerticalJustification of Top signifies that the top of the object falls on the baseline;<br/><br/>            when VerticalJustification is set to Bottom, the bottom of the object is on the baseline |
 
 
 

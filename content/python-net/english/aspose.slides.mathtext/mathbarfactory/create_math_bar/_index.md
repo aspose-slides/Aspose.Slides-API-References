@@ -46,8 +46,8 @@ def create_math_bar(self, element, position):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | math element to apply bar |
-| position | MathTopBotPositions |  |
+| element | IMathElement | Math element to apply bar |
+| position | MathTopBotPositions | Position of the bar |
 
 
 

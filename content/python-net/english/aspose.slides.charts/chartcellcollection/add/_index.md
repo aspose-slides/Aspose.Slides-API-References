@@ -25,7 +25,7 @@ def add(self, cell):
 
 
 ## add {#any}
-Add new cell to the collection.
+Creates [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell) from specified value and adds it to the collection.
 
 
 ```python
@@ -36,7 +36,18 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | any |  |
+| value | any | The value. |
+
+### Remarks
+
+This method adds worksheet with name AUTO_DATA and adds all values there.  If you use [`ChartDataWorkbook`](/slides/python-net/aspose.slides.charts/chartdataworkbook) to add or edit Cell values, be sure that you do not use this worksheet
+            Maximum number of values added using this method must not exceed 16711680
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.InvalidOperationException | if limit exceeded |
 
 
 

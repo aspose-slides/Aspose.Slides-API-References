@@ -26,7 +26,7 @@ def set_custom_property_value(self, name, value):
 
 
 ## set_custom_property_value {#string-int}
-Sets a named boolean custom property.
+Sets a named integer custom property.
 
 
 ```python
@@ -43,7 +43,7 @@ def set_custom_property_value(self, name, value):
 
 
 ## set_custom_property_value {#string-datetime}
-Sets a named boolean custom property.
+Sets a named DateTime custom property.
 
 
 ```python
@@ -60,7 +60,7 @@ def set_custom_property_value(self, name, value):
 
 
 ## set_custom_property_value {#string-string}
-Sets a named boolean custom property.
+Sets a named string custom property.
 
 
 ```python
@@ -77,7 +77,7 @@ def set_custom_property_value(self, name, value):
 
 
 ## set_custom_property_value {#string-float}
-Sets a named boolean custom property.
+Sets a named float custom property.
 
 
 ```python
@@ -94,7 +94,7 @@ def set_custom_property_value(self, name, value):
 
 
 ## set_custom_property_value {#string-float}
-Sets a named boolean custom property.
+Sets a named double custom property.
 
 
 ```python

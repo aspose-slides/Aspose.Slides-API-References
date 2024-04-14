@@ -46,12 +46,12 @@ def get_thumbnails(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 
 
 
 ## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-listint}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for specified slides of a presentation.
 
 ### Returns
 
@@ -68,12 +68,12 @@ def get_thumbnails(self, notes_comments_layouting, slides):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | List[int] |  |
+| slides | List[int] | Array with slide positions, starting from 1. |
 
 
 
 ## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-asposepydrawingsize}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size.
 
 ### Returns
 
@@ -90,12 +90,12 @@ def get_thumbnails(self, notes_comments_layouting, image_size):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| image_size | aspose.pydrawing.Size |  |
+| image_size | aspose.pydrawing.Size | Size of the image to create. |
 
 
 
 ## get_thumbnails {#asposeslidesexportirenderingoptions-listint}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for specified slides of a presentation.
 
 ### Returns
 
@@ -111,13 +111,13 @@ def get_thumbnails(self, options, slides):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
-| slides | List[int] |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
+| slides | List[int] | Array with slide positions, starting from 1. |
 
 
 
 ## get_thumbnails {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size.
 
 ### Returns
 
@@ -133,13 +133,13 @@ def get_thumbnails(self, options, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
-| image_size | aspose.pydrawing.Size |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
+| image_size | aspose.pydrawing.Size | Size of the image to create. |
 
 
 
 ## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-float-float}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling.
 
 ### Returns
 
@@ -156,13 +156,13 @@ def get_thumbnails(self, notes_comments_layouting, scale_x, scale_y):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scale_x | float |  |
-| scale_y | float |  |
+| scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 
 ## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-listint-asposepydrawingsize}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size.
 
 ### Returns
 
@@ -179,13 +179,13 @@ def get_thumbnails(self, notes_comments_layouting, slides, image_size):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | List[int] |  |
-| image_size | aspose.pydrawing.Size |  |
+| slides | List[int] | Array with slide positions, starting from 1. |
+| image_size | aspose.pydrawing.Size | Size of the image to create. |
 
 
 
 ## get_thumbnails {#asposeslidesexportirenderingoptions-float-float}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling.
 
 ### Returns
 
@@ -201,14 +201,14 @@ def get_thumbnails(self, options, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
-| scale_x | float |  |
-| scale_y | float |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
+| scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 
 ## get_thumbnails {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size.
 
 ### Returns
 
@@ -224,14 +224,14 @@ def get_thumbnails(self, options, slides, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
-| slides | List[int] |  |
-| image_size | aspose.pydrawing.Size |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
+| slides | List[int] | Array with slide positions, starting from 1. |
+| image_size | aspose.pydrawing.Size | Size of the image to create. |
 
 
 
 ## get_thumbnails {#asposeslidesexportinotescommentslayoutingoptions-listint-float-float}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling.
 
 ### Returns
 
@@ -248,14 +248,14 @@ def get_thumbnails(self, notes_comments_layouting, slides, scale_x, scale_y):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | List[int] |  |
-| scale_x | float |  |
-| scale_y | float |  |
+| slides | List[int] | Array with slide positions, starting from 1. |
+| scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 
 ## get_thumbnails {#asposeslidesexportirenderingoptions-listint-float-float}
-Returns a Thumbnail Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling.
 
 ### Returns
 
@@ -271,10 +271,10 @@ def get_thumbnails(self, options, slides, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
-| slides | List[int] |  |
-| scale_x | float |  |
-| scale_y | float |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
+| slides | List[int] | Array with slide positions, starting from 1. |
+| scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 

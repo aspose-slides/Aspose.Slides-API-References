@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ## __init__ {#float-any-string}
-Default constructor.
+Create animation point with time, value and formula.
 
 
 ```python

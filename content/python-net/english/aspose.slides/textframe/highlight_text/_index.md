@@ -39,7 +39,7 @@ def highlight_text(self, text, highlight_color, options):
 | :- | :- | :- |
 | text | string | Text sample to highlight. |
 | highlight_color | aspose.pydrawing.Color | Highlighting color. |
-| options | ITextHighlightingOptions |  |
+| options | ITextHighlightingOptions | Highlighting options. |
 
 
 

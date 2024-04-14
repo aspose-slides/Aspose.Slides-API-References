@@ -13,7 +13,7 @@ Represents a Color Replacement effect.
             All effect colors are changed to a fixed color.
             Alpha values are unaffected.
 
-**Inheritance:**[`ColorReplace`](/slides/python-net/aspose.slides.effects/colorreplace) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`ColorReplace`](/slides/python-net/aspose.slides.effects/colorreplace) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The ColorReplace type exposes the following members:
 

@@ -25,7 +25,7 @@ def __init__(self, element):
 
 
 ## __init__ {#imathelement-char}
-Creates a math accent applying to a specified math element with the default accent character value
+Creates a math accent applying to a specified math element
 
 
 ```python
@@ -36,8 +36,8 @@ def __init__(self, element, accent_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | a math element to apply accent |
-| accent_character | char |  |
+| element | IMathElement | math element to apply accent |
+| accent_character | char | accent character |
 
 
 

@@ -11,7 +11,7 @@ url: /aspose.slides.spreadsheet/cellinvalidformulaexception/
 
 The exception that is thrown when a calculated formula is not correct or was not parsed.
 
-**Inheritance:**[`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception)
+**Inheritance:**[`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) → [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) → [`PptxException`](/slides/python-net/aspose.slides/pptxexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
 
 The CellInvalidFormulaException type exposes the following members:
 

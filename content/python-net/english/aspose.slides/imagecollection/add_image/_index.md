@@ -30,7 +30,7 @@ def add_image(self, image_source):
 
 
 ## add_image {#asposepydrawingimage}
-Adds a copy of an image from an another presentation.
+Add an image to a presentation.
 
 ### Returns
 
@@ -46,12 +46,16 @@ def add_image(self, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | aspose.pydrawing.Image |  |
+| image | aspose.pydrawing.Image | Image to add. |
+
+### Remarks
+
+This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
 
 
 
 ## add_image {#systemiostream}
-Adds a copy of an image from an another presentation.
+Add an image to a presentation from stream.
 
 ### Returns
 
@@ -67,12 +71,16 @@ def add_image(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Stream to add image from. |
+
+### Remarks
+
+This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image.
 
 
 
 ## add_image {#bytes}
-Adds a copy of an image from an another presentation.
+Adds an image to a presentation from specified buffer.
 
 ### Returns
 
@@ -88,12 +96,12 @@ def add_image(self, buffer):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes |  |
+| buffer | bytes | Buffer. |
 
 
 
 ## add_image {#isvgimage}
-Adds a copy of an image from an another presentation.
+Add an image to a presentation from Svg object.
 
 ### Returns
 
@@ -109,16 +117,22 @@ def add_image(self, svg_image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| svg_image | ISvgImage |  |
+| svg_image | ISvgImage | Svg image object [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
+
+## Exceptions
+
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentNullException | When svgImage parameter is null. |
 
 
 
 ## add_image {#systemiostream-loadingstreambehavior}
-Adds a copy of an image from an another presentation.
+Creates and adds an image to a presentation from stream.
 
 ### Returns
 
-Added image.
+Added [`IPPImage`](/slides/python-net/aspose.slides/ippimage).
 
 
 
@@ -130,8 +144,8 @@ def add_image(self, stream, loading_stream_behavior):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
-| loading_stream_behavior | LoadingStreamBehavior |  |
+| stream | System.IO.Stream | Stream to add image file from. |
+| loading_stream_behavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
 
 

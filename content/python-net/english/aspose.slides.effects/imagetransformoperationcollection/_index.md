@@ -11,7 +11,7 @@ url: /aspose.slides.effects/imagetransformoperationcollection/
 
 Represents a collection of effects apllied to an image.
 
-**Inheritance:**[`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
+**Inheritance:**[`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The ImageTransformOperationCollection type exposes the following members:
 

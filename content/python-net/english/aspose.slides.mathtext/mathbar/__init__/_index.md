@@ -25,7 +25,7 @@ def __init__(self, element):
 
 
 ## __init__ {#imathelement-mathtopbotpositions}
-Initializes MathBar with overbar (Top position)
+Initializes MathBar with specified position
 
 
 ```python
@@ -37,7 +37,7 @@ def __init__(self, element, position):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | element | IMathElement | The base element to which the bar is applied |
-| position | MathTopBotPositions |  |
+| position | MathTopBotPositions | Position of the bar line. |
 
 
 

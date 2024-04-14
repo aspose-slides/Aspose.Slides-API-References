@@ -9,7 +9,7 @@ weight: 10
 
 
 ## __init__ {#imathelement-imathelement}
-Initializes a new instance of the MathLimit class.
+Initializes a new instance of the MathLimit class with lower limit
 
 
 ```python

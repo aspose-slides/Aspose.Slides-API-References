@@ -32,7 +32,7 @@ def __init__(self, controller):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| controller | IHtmlFormattingController |  |
+| controller | IHtmlFormattingController | HTML formatting controller |
 
 
 

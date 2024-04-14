@@ -9,7 +9,7 @@ weight: 10
 
 
 ## get_tile_image {#asposepydrawingcolor}
-Creates a tile image for the pattern fill with a specified colors.
+Creates a tile image for the pattern fill.
 
 ### Returns
 
@@ -25,7 +25,7 @@ def get_tile_image(self, style_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | aspose.pydrawing.Color |  |
+| style_color | aspose.pydrawing.Color | The default .NET type System.Drawing.Color, <br/><br/>            defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
 
 

@@ -13,7 +13,7 @@ Represents an Alpha Bi-Level effect.
             Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and
             alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
 
-**Inheritance:**[`AlphaBiLevel`](/slides/python-net/aspose.slides.effects/alphabilevel) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`AlphaBiLevel`](/slides/python-net/aspose.slides.effects/alphabilevel) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The AlphaBiLevel type exposes the following members:
 

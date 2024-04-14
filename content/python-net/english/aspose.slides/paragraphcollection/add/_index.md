@@ -25,7 +25,12 @@ def add(self, value):
 
 
 ## add {#iparagraphcollection}
-Adds a Paragraph to the end of collection.
+Adds a content of ParagraphCollection to the end of collection.
+
+### Returns
+
+The index at which the Paragraph has been added or -1 if there are nothing to add.
+
 
 
 ```python
@@ -36,7 +41,7 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IParagraphCollection | The Paragraph to be added to the end of the collection. |
+| value | IParagraphCollection | The ParagraphCollection to be added to the end of the collection. |
 
 
 

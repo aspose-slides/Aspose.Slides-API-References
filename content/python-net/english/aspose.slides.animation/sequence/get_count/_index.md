@@ -9,7 +9,7 @@ weight: 30
 
 
 ## get_count {#ishape}
-
+Returns count of effects for the specified shape.
 
 
 ```python

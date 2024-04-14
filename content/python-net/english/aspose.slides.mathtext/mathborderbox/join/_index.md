@@ -30,7 +30,7 @@ def join(self, math_element):
 
 
 ## join {#string}
-Joins a mathematical element and forms a mathematical block
+Joins a mathematical text and forms a mathematical block
 
 ### Returns
 
@@ -46,7 +46,7 @@ def join(self, math_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_text | string |  |
+| math_text | string | Mathematical text to be joined |
 
 
 

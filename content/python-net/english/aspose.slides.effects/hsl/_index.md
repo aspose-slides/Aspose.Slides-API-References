@@ -12,7 +12,7 @@ url: /aspose.slides.effects/hsl/
 Represents a Hue/Saturation/Luminance effect.
             The hue, saturation, and luminance may each be adjusted relative to its current value.
 
-**Inheritance:**[`HSL`](/slides/python-net/aspose.slides.effects/hsl) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`HSL`](/slides/python-net/aspose.slides.effects/hsl) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The HSL type exposes the following members:
 

@@ -25,7 +25,7 @@ def save(self, file_name):
 
 
 ## save {#systemiostream-ppimageformat}
-Saves Image to the specified file
+Saves the Image to the specified stream in the specified format.
 
 
 ```python
@@ -42,7 +42,7 @@ def save(self, stream, image_format):
 
 
 ## save {#string-ppimageformat}
-Saves Image to the specified file
+Saves the Image to the specified file in the specified format.
 
 
 ```python

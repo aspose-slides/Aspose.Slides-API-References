@@ -25,7 +25,7 @@ def add_fall_back_fonts(self, font_name):
 
 
 ## add_fall_back_fonts {#liststring}
-Adds a new font(s) to the list of FallBack fonts.
+Adds a new fonts to the list of FallBack fonts.
 
 
 ```python
@@ -36,7 +36,7 @@ def add_fall_back_fonts(self, font_names):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_names | List[string] |  |
+| font_names | List[string] | Font's name or names (delimited by comma) for FallBack |
 
 
 

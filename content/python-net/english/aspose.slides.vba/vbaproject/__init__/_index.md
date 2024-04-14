@@ -22,8 +22,7 @@ def __init__(self):
 
 
 ## __init__ {#bytes}
-This constructor creates new VBA project from scratch.
-            Project will be created in 1252 Windows Latin 1 (ANSI) codepage
+This constructor loads VBA project from binary representation of OLE container.
 
 
 ```python

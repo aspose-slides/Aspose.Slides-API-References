@@ -25,7 +25,8 @@ def __init__(self, url):
 
 
 ## __init__ {#islide}
-Creates an instance of a hyperlink.
+Creates an instance of a hyperlink which points to specific slide.
+            Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction.
 
 
 ```python
@@ -36,12 +37,12 @@ def __init__(self, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slide | ISlide |  |
+| slide | ISlide | Target slide. |
 
 
 
 ## __init__ {#hyperlink-string-string-bool-bool-bool}
-Creates an instance of a hyperlink.
+Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties.
 
 
 ```python
@@ -52,9 +53,9 @@ def __init__(self, source, target_frame, tooltip, history, stop_sounds_on_click,
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | Hyperlink |  |
-| target_frame | string |  |
-| tooltip | string |  |
+| source | Hyperlink | Source hyperlink |
+| target_frame | string | Target frame |
+| tooltip | string | Tooltip text |
 | history | bool |  |
 | stop_sounds_on_click | bool |  |
 | highlight_click | bool |  |

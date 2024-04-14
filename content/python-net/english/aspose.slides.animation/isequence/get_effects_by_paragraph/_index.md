@@ -9,6 +9,11 @@ weight: 40
 
 
 ## get_effects_by_paragraph {#iparagraph}
+Returns array of effects for the specified paragraph.
+
+### Returns
+
+Array of effects [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 
 
 
@@ -20,7 +25,7 @@ def get_effects_by_paragraph(self, paragraph):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| paragraph | IParagraph |  |
+| paragraph | IParagraph | Paragraph object [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) |
 
 
 

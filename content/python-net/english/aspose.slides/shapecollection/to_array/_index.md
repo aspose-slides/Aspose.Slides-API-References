@@ -26,7 +26,8 @@ def to_array(self):
 
 
 ## to_array {#int-int}
-Creates and returns an array with all shapse in it.
+Creates and returns an array with all shapes from the specified range in it.
+            An index of a first shape to return.A number of shapes to return.
 
 ### Returns
 

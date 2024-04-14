@@ -64,35 +64,11 @@ def set_license(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | A stream that contains the license. |
 
 ### Remarks
 
-Tries to find the license in the following locations:
-
-
-1. Explicit path.
-
-
-2. The folder of the component assembly.
-
-
-3. The folder of the client's calling assembly.
-
-
-4. The folder of the entry assembly.
-
-
-5. An embedded resource in the client's calling assembly.
-
-
-**Note:** On the .NET Compact Framework, tries to find the license only in these locations:
-
-
-1. Explicit path.
-
-
-2. An embedded resource in the client's calling assembly.
+Use this method to load a license from a stream.
 
 
 

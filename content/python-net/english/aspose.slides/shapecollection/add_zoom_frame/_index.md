@@ -61,7 +61,7 @@ def add_zoom_frame(self, x, y, width, height, slide, image):
 | width | float | Width of a new Zoom frame .NET type System.Single. |
 | height | float | Height of a new Zoom frame .NET type System.Single. |
 | slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
-| image | IPPImage |  |
+| image | IPPImage | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
 
 ## Exceptions
 

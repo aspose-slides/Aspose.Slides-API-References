@@ -12,7 +12,7 @@ url: /aspose.slides.charts/chartportionformat/
 This class contains the chart portion formatting properties used in charts.
             Unlike [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata), all properties of this class are writeable.
 
-**Inheritance:**[`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
+**Inheritance:**[`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat) → [`BasePortionFormat`](/slides/python-net/aspose.slides/baseportionformat) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The ChartPortionFormat type exposes the following members:
 

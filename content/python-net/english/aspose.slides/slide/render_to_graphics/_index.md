@@ -9,7 +9,7 @@ weight: 80
 
 
 ## render_to_graphics {#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics}
-Renders certain slide to a Graphics object using specified size.
+Renders certain slide to a Graphics object.
 
 
 ```python
@@ -32,7 +32,7 @@ def render_to_graphics(self, notes_comments_layouting, graphics):
 
 
 ## render_to_graphics {#asposeslidesexportirenderingoptions-asposepydrawinggraphics}
-Renders certain slide to a Graphics object using specified size.
+Renders certain slide to a Graphics object.
 
 
 ```python
@@ -43,7 +43,7 @@ def render_to_graphics(self, options, graphics):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 | graphics | aspose.pydrawing.Graphics | The object where to render to. |
 
 ## Exceptions
@@ -55,7 +55,7 @@ def render_to_graphics(self, options, graphics):
 
 
 ## render_to_graphics {#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics-float}
-Renders certain slide to a Graphics object using specified size.
+Renders certain slide to a Graphics object using specified scale.
 
 
 ```python
@@ -68,7 +68,7 @@ def render_to_graphics(self, notes_comments_layouting, graphics, scale):
 | :- | :- | :- |
 | notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
 | graphics | aspose.pydrawing.Graphics | The object where to render to. |
-| scale | float |  |
+| scale | float | The scale for rendering the slide (1.0 is 100%). |
 
 ## Exceptions
 
@@ -90,9 +90,9 @@ def render_to_graphics(self, options, graphics, rendering_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 | graphics | aspose.pydrawing.Graphics | The object where to render to. |
-| rendering_size | aspose.pydrawing.Size |  |
+| rendering_size | aspose.pydrawing.Size | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
 
 ## Exceptions
 
@@ -128,7 +128,7 @@ def render_to_graphics(self, notes_comments_layouting, graphics, width, height):
 
 
 ## render_to_graphics {#asposeslidesexportirenderingoptions-asposepydrawinggraphics-float-float}
-Renders certain slide to a Graphics object using specified size.
+Renders certain slide to a Graphics object with custom scaling.
 
 
 ```python
@@ -139,10 +139,10 @@ def render_to_graphics(self, options, graphics, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) |  |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 | graphics | aspose.pydrawing.Graphics | The object where to render to. |
-| scale_x | float |  |
-| scale_y | float |  |
+| scale_x | float | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
+| scale_y | float | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
 
 ## Exceptions
 

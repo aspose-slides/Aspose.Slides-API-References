@@ -36,8 +36,7 @@ def insert_connector(self, index, shape_type, x, y, width, height):
 
 
 ## insert_connector {#int-shapetype-float-float-float-float-bool}
-Creates a new Connector, tunes it from default template and inserts it to 
-            the collection at the specified index.
+Creates a new Connector and inserts it to the collection at the specified index.
 
 ### Returns
 
@@ -59,7 +58,7 @@ def insert_connector(self, index, shape_type, x, y, width, height, create_from_t
 | y | float | The Y-coordinate for a top side of shape's frame. |
 | width | float | The width of shape's frame. |
 | height | float | The height of shape's frame. |
-| create_from_template | bool |  |
+| create_from_template | bool | If true then new shape will be tuned from default template. Not empty name, <br/><br/>            simple style, text centered will be assined to the new shape.<br/><br/>            If false then all values of the properties of the new shape will have default values. |
 
 
 

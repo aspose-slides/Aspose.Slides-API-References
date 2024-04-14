@@ -28,8 +28,8 @@ def add_embedded_font(self, font_data, embed_font_rule):
 
 
 ## add_embedded_font {#bytes-asposeslidesexportembedfontcharacters}
-Adds the embedded font.
-            Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of 
+Adds the embedded font
+            Keep in mind when adding any fonts that most fonts are copyrighted. First locate the license of 
             a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded
 
 
@@ -41,7 +41,7 @@ def add_embedded_font(self, font_data, embed_font_rule):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_data | bytes | Font data object [`IFontData`](/slides/python-net/aspose.slides/ifontdata) |
+| font_data | bytes | Font data .NET type System.Byte[] |
 | embed_font_rule | aspose.slides.export.EmbedFontCharacters | Embedded font rule [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters) |
 
 

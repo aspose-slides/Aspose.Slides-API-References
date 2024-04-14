@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ## __init__ {#paragraph}
-Initializes a new instance of the Paragraph class with default properties.
+Copy constructor that initializes a new instance of a Paragraph class.
 
 
 ```python

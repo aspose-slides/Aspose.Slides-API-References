@@ -55,15 +55,12 @@ def add_clone(self, source_layout, dest_master):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | source_layout | ILayoutSlide | Slide to clone. |
-| dest_master | IMasterSlide |  |
+| dest_master | IMasterSlide | Master slide for a new layout. |
 
 ### Remarks
 
-When cloning a layout between different presentations layout's master can be cloned too
-            to keep source formatting.
-            Internal registry is used to track automatically cloned masters to prevent creation of 
-            multiple clones of the same master slide.
-            Manual cloning of master slides will be neither prevented nor registered.
+New layout will be linked with defined master in destination presentation.
+            So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint.
 
 
 

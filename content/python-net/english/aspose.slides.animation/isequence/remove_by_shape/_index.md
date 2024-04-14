@@ -9,7 +9,7 @@ weight: 80
 
 
 ## remove_by_shape {#ishape}
-
+Remove effect for the specified shape.
 
 
 ```python
@@ -20,7 +20,7 @@ def remove_by_shape(self, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | IShape |  |
+| shape | IShape | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) |
 
 
 

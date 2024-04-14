@@ -26,7 +26,7 @@ def create_math_paragraph(self):
 
 
 ## create_math_paragraph {#imathblock}
-Create empty math paragraph
+Creates a math paragraph and places the specified math block in it
 
 ### Returns
 
@@ -42,7 +42,7 @@ def create_math_paragraph(self, math_block):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_block | IMathBlock |  |
+| math_block | IMathBlock | math block to place in the paragraph |
 
 
 

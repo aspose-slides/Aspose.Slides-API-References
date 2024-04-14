@@ -11,7 +11,7 @@ url: /aspose.slides.spreadsheet/cellunsupporteddataexception/
 
 The exception that is thrown when an unsupported data is encountered in a spreadsheet cell.
 
-**Inheritance:**[`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception)
+**Inheritance:**[`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) → [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) → [`PptxException`](/slides/python-net/aspose.slides/pptxexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
 
 The CellUnsupportedDataException type exposes the following members:
 

@@ -30,7 +30,7 @@ def add_audio(self, audio):
 
 
 ## add_audio {#systemiostream}
-Adds a copy of an audio file from an another presentation.
+Creates and adds a audio to a presentation from stream.
 
 ### Returns
 
@@ -46,12 +46,12 @@ def add_audio(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Stream to add audio from. |
 
 
 
 ## add_audio {#bytes}
-Adds a copy of an audio file from an another presentation.
+Creates and adds a audio to a presentation from byte array.
 
 ### Returns
 
@@ -67,12 +67,12 @@ def add_audio(self, audio_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| audio_data | bytes |  |
+| audio_data | bytes | Audio bytes. |
 
 
 
 ## add_audio {#systemiostream-loadingstreambehavior}
-Adds a copy of an audio file from an another presentation.
+Creates and adds a audio to a presentation from stream.
 
 ### Returns
 
@@ -88,8 +88,8 @@ def add_audio(self, stream, loading_stream_behavior):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
-| loading_stream_behavior | LoadingStreamBehavior |  |
+| stream | System.IO.Stream | Stream to add video audio from. |
+| loading_stream_behavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
 
 

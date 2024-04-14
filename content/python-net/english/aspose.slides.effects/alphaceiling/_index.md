@@ -13,7 +13,7 @@ Represents an Alpha Ceiling effect.
             Alpha (opacity) values greater than zero are changed to 100%.
             In other words, anything partially opaque becomes fully opaque.
 
-**Inheritance:**[`AlphaCeiling`](/slides/python-net/aspose.slides.effects/alphaceiling) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`AlphaCeiling`](/slides/python-net/aspose.slides.effects/alphaceiling) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The AlphaCeiling type exposes the following members:
 

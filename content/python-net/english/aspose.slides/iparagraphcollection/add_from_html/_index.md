@@ -37,8 +37,12 @@ def add_from_html(self, text, resolver, uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | string | HTML text. |
-| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) |  |
-| uri | string |  |
+| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | string | URI for adding HTML document. Used for resolving relative links. |
+
+### Remarks
+
+Specifying resolver can potentially introduce a vulnurability. Use with caution.
 
 
 

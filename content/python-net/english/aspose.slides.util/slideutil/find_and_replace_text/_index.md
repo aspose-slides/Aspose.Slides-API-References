@@ -9,7 +9,7 @@ weight: 20
 
 
 ## find_and_replace_text {#ipresentation-bool-string-string-portionformat}
-
+Finds and replaces text in presentation with given format
 
 
 ```python
@@ -20,11 +20,11 @@ def find_and_replace_text(self, presentation, with_masters, find, replace, forma
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| presentation | IPresentation |  |
-| with_masters | bool |  |
-| find | string |  |
-| replace | string |  |
-| format | PortionFormat |  |
+| presentation | IPresentation | Scanned presentation. |
+| with_masters | bool | Determines whether master slides should be scanned. |
+| find | string | String value to find. |
+| replace | string | String value to replace. |
+| format | PortionFormat | Format for replacing text portion. If null then will be used format of the first <br/><br/>            character of the found string |
 
 
 

@@ -11,7 +11,7 @@ url: /aspose.slides.effects/imagetransformoperation/
 
 Represents abstract image transformation effect.
 
-**Inheritance:**[`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+**Inheritance:**[`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The ImageTransformOperation type exposes the following members:
 

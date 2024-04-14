@@ -9,7 +9,7 @@ weight: 20
 
 
 ## write_document_start {#ihtmlgenerator-ipresentation}
-
+Called to write html document header. Called once per presentation conversion.
 
 
 ```python
@@ -20,8 +20,8 @@ def write_document_start(self, generator, presentation):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| generator | IHtmlGenerator |  |
-| presentation | IPresentation |  |
+| generator | IHtmlGenerator | Output object. |
+| presentation | IPresentation | Presentation which being currently rendered. |
 
 
 

@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ## __init__ {#imathelement}
-Initializes a new instance of the MathBlock class.
+Creates a new mathematical block and puts specified element in it
 
 
 ```python
@@ -32,12 +32,12 @@ def __init__(self, math_element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_element | IMathElement |  |
+| math_element | IMathElement | The mathematical element to put in the block |
 
 
 
 ## __init__ {#iterableimathelement}
-Initializes a new instance of the MathBlock class.
+
 
 
 ```python

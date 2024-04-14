@@ -34,7 +34,7 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 
 
 ## add_image {#systemiostream}
-Add an image to a presentation.
+Add an image to a presentation from stream.
 
 ### Returns
 
@@ -50,16 +50,16 @@ def add_image(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | System.IO.Stream | Stream to add image from. |
 
 ### Remarks
 
-This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
+This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image.
 
 
 
 ## add_image {#bytes}
-Add an image to a presentation.
+Adds an image to a presentation from specified buffer.
 
 ### Returns
 
@@ -75,16 +75,12 @@ def add_image(self, buffer):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes |  |
-
-### Remarks
-
-This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
+| buffer | bytes | Buffer. |
 
 
 
 ## add_image {#ippimage}
-Add an image to a presentation.
+Adds a copy of an image from an another presentation.
 
 ### Returns
 
@@ -100,16 +96,12 @@ def add_image(self, image_source):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_source | IPPImage |  |
-
-### Remarks
-
-This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
+| image_source | IPPImage | Source image. |
 
 
 
 ## add_image {#isvgimage}
-Add an image to a presentation.
+Add an image to a presentation from SVG object.
 
 ### Returns
 
@@ -125,20 +117,22 @@ def add_image(self, svg_image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| svg_image | ISvgImage |  |
+| svg_image | ISvgImage | SVG image object [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
 
-### Remarks
+## Exceptions
 
-This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
+| Exception | Description |
+| :- | :- |
+| .NET type System.ArgumentNullException | Thrown when svgImage parameter is null. |
 
 
 
 ## add_image {#systemiostream-loadingstreambehavior}
-Add an image to a presentation.
+Creates and adds an image to a presentation from stream.
 
 ### Returns
 
-Added image.
+Added [`IPPImage`](/slides/python-net/aspose.slides/ippimage).
 
 
 
@@ -150,12 +144,8 @@ def add_image(self, stream, loading_stream_behavior):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
-| loading_stream_behavior | LoadingStreamBehavior |  |
-
-### Remarks
-
-This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
+| stream | System.IO.Stream | Stream to add image file from. |
+| loading_stream_behavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
 
 

@@ -40,7 +40,7 @@ def insert(self, index, position, preset_color):
 | :- | :- | :- |
 | index | int | Index in the collection where new gradient stop will be inserted. |
 | position | float | Position of the new gradient stop. |
-| preset_color | PresetColor |  |
+| preset_color | PresetColor | Color of the new radient stop. |
 
 
 
@@ -58,7 +58,7 @@ def insert(self, index, position, scheme_color):
 | :- | :- | :- |
 | index | int | Index in the collection where new gradient stop will be inserted. |
 | position | float | Position of the new gradient stop. |
-| scheme_color | SchemeColor |  |
+| scheme_color | SchemeColor | Color of the new radient stop. |
 
 
 

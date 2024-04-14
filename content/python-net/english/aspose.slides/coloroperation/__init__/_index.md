@@ -37,7 +37,7 @@ def __init__(self, op, parameter):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | op | ColorTransformOperation | Operation type. |
-| parameter | float |  |
+| parameter | float | Operation parameter. |
 
 
 

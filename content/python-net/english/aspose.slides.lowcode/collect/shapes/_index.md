@@ -9,6 +9,11 @@ weight: 10
 
 
 ## shapes {#presentation}
+Collects all instances of [`Shape`](/slides/python-net/aspose.slides/shape) in the [`Presentation`](/slides/python-net/aspose.slides/presentation).
+
+### Returns
+
+Collection of all shapes that contain in the presentation
 
 
 
@@ -20,7 +25,7 @@ def shapes(self, pres):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation |  |
+| pres | Presentation | Presentation to collect shapes |
 
 
 

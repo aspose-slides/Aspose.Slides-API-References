@@ -25,8 +25,8 @@ def get_cell(self, worksheet_index, cell_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int |  |
-| cell_name | string |  |
+| worksheet_index | int | Index of the worksheet. |
+| cell_name | string | Name of the cell. |
 
 
 
@@ -70,7 +70,7 @@ def get_cell(self, worksheet_index, row, column):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int |  |
+| worksheet_index | int | Index of the worksheet. |
 | row | int | The row. |
 | column | int | The column. |
 
@@ -93,9 +93,9 @@ def get_cell(self, worksheet_index, cell_name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int |  |
-| cell_name | string |  |
-| value | any |  |
+| worksheet_index | int | Index of the worksheet. |
+| cell_name | string | Name of the cell. |
+| value | any | The value. |
 
 
 
@@ -116,10 +116,10 @@ def get_cell(self, worksheet_index, row, column, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int |  |
+| worksheet_index | int | Index of the worksheet. |
 | row | int | The row. |
 | column | int | The column. |
-| value | any |  |
+| value | any | The value. |
 
 
 

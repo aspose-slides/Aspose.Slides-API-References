@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ## __init__ {#string}
-Default constructor.
+Constructor allowing a message to be added to this exception.
 
 
 ```python
@@ -32,7 +32,7 @@ def __init__(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | string |  |
+| message | string | message |
 
 
 

@@ -21,7 +21,8 @@ def __init__(self):
 
 
 ## __init__ {#string}
-Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class.
+Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class with a specified error
+            message.
 
 
 ```python
@@ -32,7 +33,7 @@ def __init__(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | string |  |
+| message | string | A string that describes the error. |
 
 
 

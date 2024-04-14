@@ -26,7 +26,7 @@ def create_file_stream_wrapper(self, file_name, file_mode):
 
 
 ## create_file_stream_wrapper {#string-systemiofilemode-systemiofileaccess}
-Creates FileStream with the specified path and creation mode.
+Creates FileStream with the specified path, creation mode, and read/write permission.
 
 
 ```python

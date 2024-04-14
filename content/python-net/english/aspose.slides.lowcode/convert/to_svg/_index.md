@@ -36,8 +36,8 @@ def to_svg(self, pres, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation |  |
-| options | [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions) |  |
+| pres | Presentation | Input presentation |
+| options | [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions) | SVG export options |
 
 
 

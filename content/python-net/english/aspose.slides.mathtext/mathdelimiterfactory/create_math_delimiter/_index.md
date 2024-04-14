@@ -46,7 +46,7 @@ def create_math_delimiter(self, math_elements):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_elements | IMathElementCollection |  |
+| math_elements | IMathElementCollection | math elements to apply delimiter |
 
 
 

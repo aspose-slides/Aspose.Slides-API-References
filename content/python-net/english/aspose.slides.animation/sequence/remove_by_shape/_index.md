@@ -9,7 +9,7 @@ weight: 80
 
 
 ## remove_by_shape {#ishape}
-
+Remove effect for the specified shape.
 
 
 ```python

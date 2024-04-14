@@ -27,8 +27,8 @@ def set_size(self, type, scale_type):
 
 
 ## set_size {#float-float-slidesizescaletype}
-Sets the type of slide size and scales content using scale type.
-             Assigning any value except [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype#CUSTOM) will change [`ISlideSize.size`](/slides/python-net/aspose.slides/islidesize#size) accordingly, but will keep [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize#orientation) intact.
+Sets the size in points and scales content using scale type.
+            Assigning any value will reset [`ISlideSize.type`](/slides/python-net/aspose.slides/islidesize#type) property to [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype#CUSTOM) and set [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize#orientation).
 
 
 ```python
@@ -39,8 +39,8 @@ def set_size(self, width, height, scale_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| width | float |  |
-| height | float |  |
+| width | float | Width. |
+| height | float | Height. |
 | scale_type | SlideSizeScaleType | Scale type of slide content. |
 
 
