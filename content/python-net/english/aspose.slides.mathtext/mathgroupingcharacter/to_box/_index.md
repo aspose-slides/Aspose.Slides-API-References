@@ -29,6 +29,7 @@ def to_box(self):
 
 
 ### See Also
+* class [`IMathBox`](/slides/python-net/aspose.slides.mathtext/imathbox)
 * class [`MathGroupingCharacter`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

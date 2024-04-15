@@ -25,11 +25,12 @@ def get_font_name(self, theme):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| theme | **aspose.slides.theme.IThemeEffectiveData** | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See [`IThemeable.create_theme_effective`](/slides/python-net/aspose.slides.theme/ithemeable/create_theme_effective) |
+| theme | [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata) | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See [`IThemeable.create_theme_effective`](/slides/python-net/aspose.slides.theme/ithemeable/create_theme_effective) |
 
 
 
 ### See Also
 * class [`FontData`](/slides/python-net/aspose.slides/fontdata)
+* class [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

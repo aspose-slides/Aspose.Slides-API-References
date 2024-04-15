@@ -22,5 +22,6 @@ def get_effective(self):
 
 ### See Also
 * class [`IPresetShadow`](/slides/python-net/aspose.slides.effects/ipresetshadow)
+* class [`IPresetShadowEffectiveData`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

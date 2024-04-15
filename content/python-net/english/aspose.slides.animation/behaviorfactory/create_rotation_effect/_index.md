@@ -27,5 +27,6 @@ def create_rotation_effect(self):
 
 ### See Also
 * class [`BehaviorFactory`](/slides/python-net/aspose.slides.animation/behaviorfactory)
+* class [`IRotationEffect`](/slides/python-net/aspose.slides.animation/irotationeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

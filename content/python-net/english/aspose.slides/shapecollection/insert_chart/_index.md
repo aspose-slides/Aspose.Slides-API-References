@@ -26,7 +26,7 @@ def insert_chart(self, type, x, y, width, height, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | **aspose.slides.charts.ChartType** | Type of chart. |
+| type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Type of chart. |
 | x | **float** | X coordinate of a new chart. |
 | y | **float** | Y coordinate of a new chart. |
 | width | **float** | Chart's width. |
@@ -52,7 +52,7 @@ def insert_chart(self, type, x, y, width, height, index, init_with_sample):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | **aspose.slides.charts.ChartType** | Type of chart. |
+| type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Type of chart. |
 | x | **float** | X coordinate of a new chart. |
 | y | **float** | Y coordinate of a new chart. |
 | width | **float** | Chart's width. |
@@ -63,6 +63,7 @@ def insert_chart(self, type, x, y, width, height, index, init_with_sample):
 
 
 ### See Also
+* enumeration [`ChartType`](/slides/python-net/aspose.slides.charts/charttype)
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -37,11 +37,12 @@ def write_as_svg(self, stream, svg_options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | **io.RawIOBase** |  |
-| svg_options | **aspose.slides.export.ISVGOptions** |  |
+| svg_options | [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions) |  |
 
 
 
 ### See Also
+* class [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions)
 * class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

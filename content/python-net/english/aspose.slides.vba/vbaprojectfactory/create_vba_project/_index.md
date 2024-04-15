@@ -26,6 +26,7 @@ def create_vba_project(self):
 
 
 ### See Also
+* class [`IVbaProject`](/slides/python-net/aspose.slides.vba/ivbaproject)
 * class [`VbaProjectFactory`](/slides/python-net/aspose.slides.vba/vbaprojectfactory)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -69,7 +69,7 @@ def __init__(self, data, external_res_resolver, base_uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | data | **bytes** | Svg data. |
-| external_res_resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| external_res_resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | base_uri | **str** | Base URI of the specified Svg. Used to resolve relative links. |
 
 
@@ -87,7 +87,7 @@ def __init__(self, svg_content, external_res_resolver, base_uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | svg_content | **str** | Svg content. |
-| external_res_resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| external_res_resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | base_uri | **str** | Base URI of the specified Svg. Used to resolve relative links. |
 
 
@@ -105,12 +105,13 @@ def __init__(self, stream, external_res_resolver, base_uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Svg stream. |
-| external_res_resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| external_res_resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | base_uri | **str** | Base URI of the specified Svg. Used to resolve relative links. |
 
 
 
 ### See Also
+* class [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver)
 * class [`SvgImage`](/slides/python-net/aspose.slides/svgimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -73,7 +73,7 @@ def add_effect(self, chart, type, index, effect_type, subtype, trigger_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| chart | **aspose.slides.charts.IChart** | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
+| chart | [`IChart`](/slides/python-net/aspose.slides.charts/ichart) | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
 | type | [`EffectChartMajorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartmajorgroupingtype) | Type of an animation effect [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) |
 | index | **int** | Index **int** |
 | effect_type | [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
@@ -99,7 +99,7 @@ def add_effect(self, chart, type, series_index, categories_index, effect_type, s
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| chart | **aspose.slides.charts.IChart** | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
+| chart | [`IChart`](/slides/python-net/aspose.slides.charts/ichart) | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
 | type | [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) | Type of an animation effect [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) |
 | series_index | **int** | Index of chart series **int** |
 | categories_index | **int** | Index of category **int** |

@@ -37,12 +37,13 @@ def to_svg(self, pres, options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/aspose.slides/presentation) | Input presentation |
-| options | **aspose.slides.export.ISVGOptions** | SVG export options |
+| options | [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions) | SVG export options |
 
 
 
 ### See Also
 * class [`Convert`](/slides/python-net/aspose.slides.lowcode/convert)
+* class [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions)
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides.lowcode`](/slides/python-net/aspose.slides.lowcode)
 * library [`Aspose.Slides`](/slides/python-net)

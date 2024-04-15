@@ -26,6 +26,7 @@ def add(self):
 
 
 ### See Also
+* class [`TextAnimation`](/slides/python-net/aspose.slides.animation/textanimation)
 * class [`TextAnimationCollection`](/slides/python-net/aspose.slides.animation/textanimationcollection)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

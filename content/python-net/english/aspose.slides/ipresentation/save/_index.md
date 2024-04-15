@@ -20,7 +20,7 @@ def save(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | **aspose.slides.export.xaml.IXamlOptions** | The XAML format options. |
+| options | [`IXamlOptions`](/slides/python-net/aspose.slides.export.xaml/ixamloptions) | The XAML format options. |
 
 
 
@@ -37,7 +37,7 @@ def save(self, fname, format):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | fname | **str** | Path to the created file. |
-| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
+| format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 
 
 
@@ -54,7 +54,7 @@ def save(self, stream, format):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Output stream. |
-| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
+| format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 
 
 
@@ -71,8 +71,8 @@ def save(self, fname, format, options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | fname | **str** | Path to the created file. |
-| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
-| options | **aspose.slides.export.ISaveOptions** | Additional format options. |
+| format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
+| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
 
 
 
@@ -89,8 +89,8 @@ def save(self, stream, format, options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Output stream. |
-| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
-| options | **aspose.slides.export.ISaveOptions** | Additional format options. |
+| format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
+| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
 
 ## Exceptions
 
@@ -114,7 +114,7 @@ def save(self, fname, slides, format):
 | :- | :- | :- |
 | fname | **str** | Path to the created file. |
 | slides | **List[int]** | Array with slide positions, starting from 1. |
-| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
+| format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 
 ## Exceptions
 
@@ -140,7 +140,7 @@ def save(self, stream, slides, format):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Output stream. |
 | slides | **List[int]** | Array with slide positions, starting from 1. |
-| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
+| format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 
 ## Exceptions
 
@@ -166,8 +166,8 @@ def save(self, fname, slides, format, options):
 | :- | :- | :- |
 | fname | **str** | Path to the created file. |
 | slides | **List[int]** | Array with slide positions, starting from 1. |
-| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
-| options | **aspose.slides.export.ISaveOptions** | Additional format options. |
+| format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
+| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
 
 ## Exceptions
 
@@ -193,8 +193,8 @@ def save(self, stream, slides, format, options):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Output stream. |
 | slides | **List[int]** | Array with slide positions, starting from 1. |
-| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
-| options | **aspose.slides.export.ISaveOptions** | Additional format options. |
+| format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
+| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
 
 ## Exceptions
 
@@ -208,5 +208,8 @@ def save(self, stream, slides, format, options):
 
 ### See Also
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
+* class [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions)
+* class [`IXamlOptions`](/slides/python-net/aspose.slides.export.xaml/ixamloptions)
+* enumeration [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -26,6 +26,7 @@ def add_color_replace_effect(self):
 
 
 ### See Also
+* class [`IColorReplace`](/slides/python-net/aspose.slides.effects/icolorreplace)
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

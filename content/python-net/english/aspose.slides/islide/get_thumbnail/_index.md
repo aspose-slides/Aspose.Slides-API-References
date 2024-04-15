@@ -63,7 +63,7 @@ def get_thumbnail(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | **aspose.slides.export.ITiffOptions** | Tiff options. |
+| options | [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions) | Tiff options. |
 
 
 
@@ -84,7 +84,7 @@ def get_thumbnail(self, notes_comments_layouting):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | **aspose.slides.export.INotesCommentsLayoutingOptions** | Options for notes and comments layouting. |
+| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
 
 ## Exceptions
 
@@ -111,7 +111,7 @@ def get_thumbnail(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | **aspose.slides.export.IRenderingOptions** | Rendering options. |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 
 
 
@@ -154,7 +154,7 @@ def get_thumbnail(self, options, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | **aspose.slides.export.INotesCommentsLayoutingOptions** | Options for notes and comments layouting. |
+| options | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
 | image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 ## Exceptions
@@ -182,7 +182,7 @@ def get_thumbnail(self, options, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | **aspose.slides.export.IRenderingOptions** | Rendering options. |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 | image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
@@ -204,7 +204,7 @@ def get_thumbnail(self, notes_comments_layouting, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | **aspose.slides.export.INotesCommentsLayoutingOptions** | Options for notes and comments layouting. |
+| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
 | scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
 | scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
@@ -233,13 +233,16 @@ def get_thumbnail(self, options, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | **aspose.slides.export.IRenderingOptions** | Rendering options. |
+| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 | scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
 | scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 
 ### See Also
+* class [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions)
+* class [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

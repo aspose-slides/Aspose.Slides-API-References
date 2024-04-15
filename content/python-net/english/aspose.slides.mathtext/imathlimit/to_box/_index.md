@@ -21,6 +21,7 @@ def to_box(self):
 
 
 ### See Also
+* class [`IMathBox`](/slides/python-net/aspose.slides.mathtext/imathbox)
 * class [`IMathLimit`](/slides/python-net/aspose.slides.mathtext/imathlimit)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

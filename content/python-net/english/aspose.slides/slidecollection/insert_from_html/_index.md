@@ -71,7 +71,7 @@ def insert_from_html(self, index, html_text, resolver, uri):
 | :- | :- | :- |
 | index | **int** | Position to insert. |
 | html_text | **str** | Html to add. |
-| resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | **str** | An URI of the specified HTML. Used to resolve relative links. |
 
 
@@ -95,12 +95,13 @@ def insert_from_html(self, index, html_stream, resolver, uri):
 | :- | :- | :- |
 | index | **int** | Position to insert. |
 | html_stream | **io.RawIOBase** | A Stream object which will be used as a source of a HTML file. |
-| resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | **str** | An URI of the specified HTML. Used to resolve relative links. |
 
 
 
 ### See Also
+* class [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver)
 * class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

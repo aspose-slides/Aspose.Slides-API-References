@@ -37,7 +37,7 @@ def add_from_html(self, text, resolver, uri):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | HTML text. |
-| resolver | **aspose.slides.importing.IExternalResourceResolver** | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | Resolver callback object which resolves URIs and fetches referrenced objects. |
 | uri | **str** | URI for adding HTML document. Used for resolving relative links. |
 
 ### Remarks
@@ -47,6 +47,7 @@ Specifying resolver can potentially introduce a vulnurability. Use with caution.
 
 
 ### See Also
+* class [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver)
 * class [`ParagraphCollection`](/slides/python-net/aspose.slides/paragraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

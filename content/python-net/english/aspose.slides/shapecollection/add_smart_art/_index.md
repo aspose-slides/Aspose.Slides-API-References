@@ -29,11 +29,12 @@ def add_smart_art(self, x, y, width, height, layout_type):
 | y | **float** | The Y-coordinate for a left side of diagram's frame. |
 | width | **float** | The width of diagram's frame. |
 | height | **float** | The height of diagram's frame. |
-| layout_type | **aspose.slides.smartart.SmartArtLayoutType** | The type of SmartArt diagram |
+| layout_type | [`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype) | The type of SmartArt diagram |
 
 
 
 ### See Also
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
+* enumeration [`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

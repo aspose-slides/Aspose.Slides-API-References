@@ -27,5 +27,6 @@ def create_set_effect(self):
 
 ### See Also
 * class [`IBehaviorFactory`](/slides/python-net/aspose.slides.animation/ibehaviorfactory)
+* class [`ISetEffect`](/slides/python-net/aspose.slides.animation/iseteffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

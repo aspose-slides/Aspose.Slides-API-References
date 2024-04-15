@@ -26,6 +26,7 @@ def create_pptx_options(self):
 
 
 ### See Also
+* class [`IPptxOptions`](/slides/python-net/aspose.slides.export/ipptxoptions)
 * class [`ISaveOptionsFactory`](/slides/python-net/aspose.slides.export/isaveoptionsfactory)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

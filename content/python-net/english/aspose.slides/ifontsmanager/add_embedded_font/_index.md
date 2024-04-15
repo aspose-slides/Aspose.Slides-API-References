@@ -23,7 +23,7 @@ def add_embedded_font(self, font_data, embed_font_rule):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | font_data | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Font data object [`IFontData`](/slides/python-net/aspose.slides/ifontdata) |
-| embed_font_rule | **aspose.slides.export.EmbedFontCharacters** | Embedded font rule [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters) |
+| embed_font_rule | [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters) | Embedded font rule [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters) |
 
 
 
@@ -42,7 +42,7 @@ def add_embedded_font(self, font_data, embed_font_rule):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | font_data | **bytes** | Font data **int**[] |
-| embed_font_rule | **aspose.slides.export.EmbedFontCharacters** | Embedded font rule [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters) |
+| embed_font_rule | [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters) | Embedded font rule [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters) |
 
 
 

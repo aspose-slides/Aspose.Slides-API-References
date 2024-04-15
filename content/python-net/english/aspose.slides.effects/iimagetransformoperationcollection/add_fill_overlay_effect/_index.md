@@ -26,6 +26,7 @@ def add_fill_overlay_effect(self):
 
 
 ### See Also
+* class [`IFillOverlay`](/slides/python-net/aspose.slides.effects/ifilloverlay)
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -22,5 +22,6 @@ def get_base_placeholder(self):
 
 ### See Also
 * class [`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

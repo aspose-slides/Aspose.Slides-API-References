@@ -27,5 +27,6 @@ def create_glow(self):
 
 ### See Also
 * class [`EffectFactory`](/slides/python-net/aspose.slides.effects/effectfactory)
+* class [`IGlow`](/slides/python-net/aspose.slides.effects/iglow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

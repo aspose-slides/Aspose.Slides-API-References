@@ -27,5 +27,6 @@ def create_soft_edge(self):
 
 ### See Also
 * class [`IEffectFactory`](/slides/python-net/aspose.slides.effects/ieffectfactory)
+* class [`ISoftEdge`](/slides/python-net/aspose.slides.effects/isoftedge)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

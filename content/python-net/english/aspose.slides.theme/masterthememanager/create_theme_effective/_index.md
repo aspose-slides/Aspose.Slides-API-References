@@ -21,6 +21,7 @@ def create_theme_effective(self):
 
 
 ### See Also
+* class [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
 * class [`MasterThemeManager`](/slides/python-net/aspose.slides.theme/masterthememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
