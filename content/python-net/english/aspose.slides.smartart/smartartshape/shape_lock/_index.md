@@ -18,3 +18,8 @@ Returns shape's locks.
 def shape_lock(self):
     ...
 ```
+
+### See Also
+* class [`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

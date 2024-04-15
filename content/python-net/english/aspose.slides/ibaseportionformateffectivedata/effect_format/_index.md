@@ -18,3 +18,8 @@ Returns the text EffectFormat properties.
 def effect_format(self):
     ...
 ```
+
+### See Also
+* class [`IEffectFormatEffectiveData`](/slides/python-net/aspose.slides/ieffectformateffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

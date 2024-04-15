@@ -10,7 +10,7 @@ weight: 100
 
 ## gap_depth property
 Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart.
-            Read/write .NET type System.UInt16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def gap_depth(self):
 def gap_depth(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

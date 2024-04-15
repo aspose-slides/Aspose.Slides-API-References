@@ -20,3 +20,6 @@ The TransitionShredPattern type exposes the following members:
 | STRIP | Vertical strips |
 | RECTANGLE | Small rectangles |
 
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

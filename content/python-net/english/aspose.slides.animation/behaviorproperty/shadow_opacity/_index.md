@@ -17,3 +17,7 @@ Represents 'shadow.opacity' property
 def shadow_opacity(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

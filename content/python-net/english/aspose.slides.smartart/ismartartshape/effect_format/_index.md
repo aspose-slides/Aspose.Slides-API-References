@@ -15,3 +15,7 @@ weight: 210
 def effect_format(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

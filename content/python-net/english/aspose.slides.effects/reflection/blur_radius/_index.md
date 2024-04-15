@@ -10,7 +10,7 @@ weight: 30
 
 ## blur_radius property
 Blur radius.
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def blur_radius(self):
 def blur_radius(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

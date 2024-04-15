@@ -17,8 +17,8 @@ The VbaModuleCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides.vba/vbamodulecollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.vba/vbamodulecollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides.vba/vbamodulecollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.vba/vbamodulecollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -30,6 +30,9 @@ The VbaModuleCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove](/slides/python-net/aspose.slides.vba/vbamodulecollection/remove/#ivbamodule) | Removes the first occurrence of a specific object from the collection. |
-| [add_empty_module](/slides/python-net/aspose.slides.vba/vbamodulecollection/add_empty_module/#string) | Adds a new empty module to the VBA Project. |
+| [`remove`](/slides/python-net/aspose.slides.vba/vbamodulecollection/remove/#ivbamodule) | Removes the first occurrence of a specific object from the collection. |
+| [`add_empty_module`](/slides/python-net/aspose.slides.vba/vbamodulecollection/add_empty_module/#string) | Adds a new empty module to the VBA Project. |
 
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

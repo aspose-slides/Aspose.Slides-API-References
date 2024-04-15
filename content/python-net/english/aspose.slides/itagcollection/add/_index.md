@@ -30,3 +30,7 @@ def add(self, name, value):
 
 
 
+### See Also
+* class [`ITagCollection`](/slides/python-net/aspose.slides/itagcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

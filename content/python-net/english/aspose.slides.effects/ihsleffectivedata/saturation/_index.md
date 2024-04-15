@@ -10,7 +10,7 @@ weight: 40
 
 ## saturation property
 Returns saturation percentage.
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns saturation percentage.
 def saturation(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

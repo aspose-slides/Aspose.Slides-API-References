@@ -15,3 +15,7 @@ weight: 460
 def picture_frame_lock(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -26,3 +26,7 @@ def __init__(self, base_arg, sub_script, super_script):
 
 
 
+### See Also
+* class [`MathLeftSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/mathleftsubsuperscriptelement)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

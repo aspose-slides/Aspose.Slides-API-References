@@ -20,7 +20,11 @@ def write_byte(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | int | Byte for writion .NET type System.Byte |
+| value | int | Byte for writion **int** |
 
 
 
+### See Also
+* class [`IStreamWrapper`](/slides/python-net/aspose.slides/istreamwrapper)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

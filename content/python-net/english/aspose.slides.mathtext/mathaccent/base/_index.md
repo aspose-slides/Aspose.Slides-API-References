@@ -17,3 +17,7 @@ The argument to which the accent was applied
 def base(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

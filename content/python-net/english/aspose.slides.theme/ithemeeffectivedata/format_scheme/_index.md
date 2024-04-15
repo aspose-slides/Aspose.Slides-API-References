@@ -18,3 +18,8 @@ Returns the shape format scheme.
 def format_scheme(self):
     ...
 ```
+
+### See Also
+* class [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

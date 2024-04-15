@@ -10,7 +10,7 @@ weight: 150
 
 ## is_format_not_defined property
 Returns true if line format is not defined (as just created, default).
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns true if line format is not defined (as just created, default).
 def is_format_not_defined(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

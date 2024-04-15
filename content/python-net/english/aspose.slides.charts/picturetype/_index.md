@@ -22,3 +22,6 @@ The PictureType type exposes the following members:
 | STACK_SCALE | The picture is sized to a specified number of units and repeated the length of the bar. |
 | STRETCH | The picture is stretched the full length of the stacked bar. |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

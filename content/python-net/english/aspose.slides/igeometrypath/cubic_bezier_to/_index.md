@@ -47,7 +47,7 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentOutOfRangeException | Segment index is out of PathData range |
+| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
 
 
 
@@ -96,7 +96,11 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentOutOfRangeException | Segment index is out of PathData range |
+| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
 
 
 
+### See Also
+* class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

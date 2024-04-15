@@ -25,7 +25,12 @@ def find_comment_by_idx(self, idx):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| idx | int | Unique index of a comment to find .NET type System.Int32. |
+| idx | int | Unique index of a comment to find **int**. |
 
 
 
+### See Also
+* class [`CommentCollection`](/slides/python-net/aspose.slides/commentcollection)
+* class [`IComment`](/slides/python-net/aspose.slides/icomment)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

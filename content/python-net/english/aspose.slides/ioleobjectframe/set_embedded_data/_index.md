@@ -31,7 +31,12 @@ This method changes the properties of the object to reflect the new data and
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | When embeddedData parameter is null. |
+| **System.ArgumentNullException** | When embeddedData parameter is null. |
 
 
 
+### See Also
+* class [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo)
+* class [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

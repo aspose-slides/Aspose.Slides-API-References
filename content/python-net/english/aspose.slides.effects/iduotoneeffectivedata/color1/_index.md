@@ -10,7 +10,7 @@ weight: 20
 
 ## color1 property
 Returns target color format for dark pixels.
-            Read-only .NET type System.Drawing.Color.
+            Read-only **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns target color format for dark pixels.
 def color1(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

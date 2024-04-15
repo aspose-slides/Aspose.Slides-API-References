@@ -19,6 +19,13 @@ The CellUnsupportedDataException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception/__init__/#) | Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class. |
-| [__init__](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception/__init__/#string) | Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class with a specified error<br/>            message. |
+| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception/__init__/#) | Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class. |
+| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception/__init__/#string) | Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class with a specified error<br/>            message. |
 
+### See Also
+* class [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception)
+* class [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
+* class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
+* class [`PptxException`](/slides/python-net/aspose.slides/pptxexception)
+* module [`aspose.slides.spreadsheet`](/slides/python-net/aspose.slides.spreadsheet)
+* library [`Aspose.Slides`](/slides/python-net)

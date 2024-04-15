@@ -11,7 +11,7 @@ weight: 150
 ## show_label_value_from_cell property
 Represents a specified chart's data label cell value display behavior. 
             True displays cell value. False to hide.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -33,3 +33,7 @@ def show_label_value_from_cell(self):
 def show_label_value_from_cell(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

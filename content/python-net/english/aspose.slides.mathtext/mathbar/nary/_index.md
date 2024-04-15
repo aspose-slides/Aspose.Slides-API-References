@@ -54,3 +54,8 @@ def nary(self, type, lower_limit, upper_limit):
 
 
 
+### See Also
+* class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
+* class [`MathBar`](/slides/python-net/aspose.slides.mathtext/mathbar)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

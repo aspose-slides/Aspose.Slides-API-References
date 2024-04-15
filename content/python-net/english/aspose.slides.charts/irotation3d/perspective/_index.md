@@ -11,7 +11,7 @@ weight: 30
 ## perspective property
 Returns or sets the perspective value (field of view angle) for 3D charts (between 0 and 100).
             Ignored if RightAngleAxes property value is true.
-            Read/write .NET type System.Byte.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def perspective(self):
 def perspective(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

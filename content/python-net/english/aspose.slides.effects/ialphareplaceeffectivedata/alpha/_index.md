@@ -10,7 +10,7 @@ weight: 10
 
 ## alpha property
 Returns new alpha value in the interval [0..1]
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns new alpha value in the interval [0..1]
 def alpha(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

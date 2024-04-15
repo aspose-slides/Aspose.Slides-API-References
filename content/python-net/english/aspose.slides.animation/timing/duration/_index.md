@@ -10,7 +10,7 @@ weight: 40
 
 ## duration property
 Describes the duration of animation effect.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def duration(self):
 def duration(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 90
 
 ## keep_text_flat property
 Gets or sets keeping text flat even if a 3-D Rotation effect was applied.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def keep_text_flat(self):
 def keep_text_flat(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

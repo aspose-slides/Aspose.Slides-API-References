@@ -10,7 +10,7 @@ weight: 90
 
 ## row property
 Returns the index of the row of worksheet in which the cell is located.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the index of the row of worksheet in which the cell is located.
 def row(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

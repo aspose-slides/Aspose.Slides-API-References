@@ -24,3 +24,6 @@ The PieSplitType type exposes the following members:
 | BY_POS | Specifies the data points shall be split between the pie and the <br/>            second chart by putting the last Split Position of the data points <br/>            in the second chart. |
 | BY_VALUE | Specifies the data points shall be split between the pie and the <br/>            second chart by putting the data points with value less than <br/>            Split Position in the second chart. |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

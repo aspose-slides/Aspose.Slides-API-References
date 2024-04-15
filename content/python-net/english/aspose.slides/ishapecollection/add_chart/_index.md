@@ -60,3 +60,7 @@ def add_chart(self, type, x, y, width, height, init_with_sample):
 
 
 
+### See Also
+* class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Gets presentation wide view properties.
 def view_properties(self):
     ...
 ```
+
+### See Also
+* class [`IViewProperties`](/slides/python-net/aspose.slides/iviewproperties)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

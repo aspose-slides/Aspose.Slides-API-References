@@ -10,7 +10,7 @@ weight: 30
 
 ## is_valid property
 If this digital signature is valid and the document has not been tampered with, this value will be true.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ If this digital signature is valid and the document has not been tampered with, 
 def is_valid(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

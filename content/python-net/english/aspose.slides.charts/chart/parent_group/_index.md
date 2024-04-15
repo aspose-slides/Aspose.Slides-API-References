@@ -23,3 +23,8 @@ Property [`Shape.is_grouped`](/slides/python-net/aspose.slides/shape#is_grouped)
 def parent_group(self):
     ...
 ```
+
+### See Also
+* class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

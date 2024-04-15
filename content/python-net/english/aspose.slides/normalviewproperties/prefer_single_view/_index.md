@@ -12,7 +12,7 @@ weight: 20
 Specifies whether the user prefers to see a full-window single-content region over the
             standard normal view with three content regions. If enabled, the application may choose
             to display one of the content regions in the entire window.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def prefer_single_view(self):
 def prefer_single_view(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

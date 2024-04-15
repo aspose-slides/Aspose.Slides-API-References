@@ -10,7 +10,7 @@ weight: 30
 
 ## draw_slides_frame property
 True to draw black frame around each slide.
-             Read/write .NET type System.Boolean.
+             Read/write **bool**.
 
 
 ### Remarks
@@ -26,3 +26,7 @@ def draw_slides_frame(self):
 def draw_slides_frame(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -24,3 +24,7 @@ def set_header_visibility(self, is_visible):
 
 
 
+### See Also
+* class [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

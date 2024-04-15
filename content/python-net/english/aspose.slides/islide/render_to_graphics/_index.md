@@ -27,7 +27,7 @@ def render_to_graphics(self, notes_comments_layouting, graphics):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -50,7 +50,7 @@ def render_to_graphics(self, options, graphics):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -74,7 +74,7 @@ def render_to_graphics(self, notes_comments_layouting, graphics, scale):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -98,7 +98,7 @@ def render_to_graphics(self, options, graphics, rendering_size):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -123,7 +123,7 @@ def render_to_graphics(self, notes_comments_layouting, graphics, width, height):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -148,7 +148,11 @@ def render_to_graphics(self, options, graphics, scale_x, scale_y):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
+### See Also
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

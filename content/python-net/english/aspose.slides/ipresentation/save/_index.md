@@ -96,7 +96,7 @@ def save(self, stream, format, options):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.NotSupportedException | If you try to save encrypted file in <br/>            none Office 2007-2010 format |
+| **System.NotSupportedException** | If you try to save encrypted file in <br/>            none Office 2007-2010 format |
 
 
 
@@ -120,9 +120,9 @@ def save(self, fname, slides, format):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | When stream or slides parameter is null. |
-| .NET type System.ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| .NET type System.InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **System.ArgumentNullException** | When stream or slides parameter is null. |
+| **System.ArgumentOutOfRangeException** | When slides parameter contains wrong page numbers. |
+| **System.InvalidOperationException** | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 
@@ -146,9 +146,9 @@ def save(self, stream, slides, format):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | When stream or slides parameter is null. |
-| .NET type System.ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| .NET type System.InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **System.ArgumentNullException** | When stream or slides parameter is null. |
+| **System.ArgumentOutOfRangeException** | When slides parameter contains wrong page numbers. |
+| **System.InvalidOperationException** | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 
@@ -173,9 +173,9 @@ def save(self, fname, slides, format, options):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | When stream or slides parameter is null. |
-| .NET type System.ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| .NET type System.InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **System.ArgumentNullException** | When stream or slides parameter is null. |
+| **System.ArgumentOutOfRangeException** | When slides parameter contains wrong page numbers. |
+| **System.InvalidOperationException** | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 
@@ -200,9 +200,13 @@ def save(self, stream, slides, format, options):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | When stream or slides parameter is null. |
-| .NET type System.ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| .NET type System.InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **System.ArgumentNullException** | When stream or slides parameter is null. |
+| **System.ArgumentOutOfRangeException** | When slides parameter contains wrong page numbers. |
+| **System.InvalidOperationException** | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 
+### See Also
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

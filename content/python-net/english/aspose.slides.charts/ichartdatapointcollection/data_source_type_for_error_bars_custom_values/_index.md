@@ -18,3 +18,8 @@ Specifies the type of values in ChartDataPoint.ErrorBarsCustomValues properties 
 def data_source_type_for_error_bars_custom_values(self):
     ...
 ```
+
+### See Also
+* class [`IDataSourceTypeForErrorBarsCustomValues`](/slides/python-net/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

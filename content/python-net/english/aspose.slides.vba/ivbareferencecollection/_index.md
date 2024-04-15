@@ -17,8 +17,8 @@ The IVbaReferenceCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides.vba/ivbareferencecollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.vba/ivbareferencecollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -30,5 +30,8 @@ The IVbaReferenceCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.vba/ivbareferencecollection/add/#ivbareference) | Adds the new reference to references collection |
+| [`add`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/add/#ivbareference) | Adds the new reference to references collection |
 
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

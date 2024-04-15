@@ -25,3 +25,8 @@ def add_notes_slide(self):
 
 
 
+### See Also
+* class [`INotesSlide`](/slides/python-net/aspose.slides/inotesslide)
+* class [`INotesSlideManager`](/slides/python-net/aspose.slides/inotesslidemanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

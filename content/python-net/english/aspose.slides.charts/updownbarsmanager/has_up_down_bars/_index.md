@@ -10,7 +10,7 @@ weight: 30
 
 ## has_up_down_bars property
 HasUpDownBars.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def has_up_down_bars(self):
 def has_up_down_bars(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

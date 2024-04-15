@@ -17,11 +17,14 @@ The IMathAccentFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_accent](/slides/python-net/aspose.slides.mathtext/imathaccentfactory/create_math_accent/#imathelement) | Creates a math accent applying to a specified math element with the default accent character value |
-| [create_math_accent](/slides/python-net/aspose.slides.mathtext/imathaccentfactory/create_math_accent/#imathelement-char) | Creates a math accent applying to a specified math element |
+| [`create_math_accent`](/slides/python-net/aspose.slides.mathtext/imathaccentfactory/create_math_accent/#imathelement) | Creates a math accent applying to a specified math element with the default accent character value |
+| [`create_math_accent`](/slides/python-net/aspose.slides.mathtext/imathaccentfactory/create_math_accent/#imathelement-char) | Creates a math accent applying to a specified math element |
 
 
 ### Remarks
 
 For COM comparibility
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

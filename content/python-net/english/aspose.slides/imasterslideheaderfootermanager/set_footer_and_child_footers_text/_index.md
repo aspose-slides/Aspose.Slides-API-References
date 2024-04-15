@@ -26,3 +26,7 @@ def set_footer_and_child_footers_text(self, text):
 
 
 
+### See Also
+* class [`IMasterSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

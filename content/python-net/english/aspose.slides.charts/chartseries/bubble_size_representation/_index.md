@@ -27,3 +27,7 @@ This is the projection of the property ParentSeriesGroup.BubbleSizeRepresentatio
 def bubble_size_representation(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

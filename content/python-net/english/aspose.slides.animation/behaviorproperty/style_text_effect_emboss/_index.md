@@ -17,3 +17,7 @@ Represents 'style.textEffectEmboss' property
 def style_text_effect_emboss(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -17,23 +17,26 @@ The EmbeddedWoffFontsHtmlController type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#) | Creates new instance. |
-| [__init__](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#ihtmlformattingcontroller) | Creates new instance. |
+| [`__init__`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#) | Creates new instance. |
+| [`__init__`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/__init__/#ihtmlformattingcontroller) | Creates new instance. |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [as_i_html_formatting_controller](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/as_i_html_formatting_controller/) |  |
+| [`as_i_html_formatting_controller`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/as_i_html_formatting_controller/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [write_document_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_document_start/#ihtmlgenerator-ipresentation) |  |
-| [write_document_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_document_end/#ihtmlgenerator-ipresentation) |  |
-| [write_slide_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_slide_start/#ihtmlgenerator-islide) |  |
-| [write_slide_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_slide_end/#ihtmlgenerator-islide) |  |
-| [write_shape_start](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_shape_start/#ihtmlgenerator-ishape) |  |
-| [write_shape_end](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_shape_end/#ihtmlgenerator-ishape) |  |
+| [`write_document_start`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_document_start/#ihtmlgenerator-ipresentation) |  |
+| [`write_document_end`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_document_end/#ihtmlgenerator-ipresentation) |  |
+| [`write_slide_start`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_slide_start/#ihtmlgenerator-islide) |  |
+| [`write_slide_end`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_slide_end/#ihtmlgenerator-islide) |  |
+| [`write_shape_start`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_shape_start/#ihtmlgenerator-ishape) |  |
+| [`write_shape_end`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/write_shape_end/#ihtmlgenerator-ishape) |  |
 
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -17,3 +17,7 @@ Represents 'stroke.src' property
 def stroke_src(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

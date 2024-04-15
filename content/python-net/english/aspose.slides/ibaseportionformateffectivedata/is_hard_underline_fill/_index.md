@@ -11,7 +11,7 @@ weight: 120
 ## is_hard_underline_fill property
 Determines whether the underline style has own FillFormat properties or inherits it
             from the FillFormat properties of the text.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -19,3 +19,7 @@ Determines whether the underline style has own FillFormat properties or inherits
 def is_hard_underline_fill(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -62,3 +62,7 @@ def insert_connector(self, index, shape_type, x, y, width, height, create_from_t
 
 
 
+### See Also
+* class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

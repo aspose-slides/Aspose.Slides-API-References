@@ -22,3 +22,7 @@ def shape_type(self):
 def shape_type(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

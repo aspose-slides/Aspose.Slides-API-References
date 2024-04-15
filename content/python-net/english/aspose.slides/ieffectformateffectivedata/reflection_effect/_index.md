@@ -18,3 +18,8 @@ Reflection.
 def reflection_effect(self):
     ...
 ```
+
+### See Also
+* class [`IReflectionEffectiveData`](/slides/python-net/aspose.slides.effects/ireflectioneffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

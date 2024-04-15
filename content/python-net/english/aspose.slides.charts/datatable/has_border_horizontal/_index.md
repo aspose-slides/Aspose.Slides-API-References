@@ -10,7 +10,7 @@ weight: 70
 
 ## has_border_horizontal property
 True if the chart data table has horizontal cell borders.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def has_border_horizontal(self):
 def has_border_horizontal(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

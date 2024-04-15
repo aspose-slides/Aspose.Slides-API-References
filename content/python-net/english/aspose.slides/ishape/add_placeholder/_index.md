@@ -29,3 +29,8 @@ def add_placeholder(self, placeholder_to_copy_from):
 
 
 
+### See Also
+* class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

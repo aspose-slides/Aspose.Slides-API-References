@@ -18,3 +18,8 @@ Returns collections of all nodes in the SmartArt object.
 def all_nodes(self):
     ...
 ```
+
+### See Also
+* class [`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

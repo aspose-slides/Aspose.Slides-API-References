@@ -22,3 +22,7 @@ def delete_pictures_cropped_areas(self):
 def delete_pictures_cropped_areas(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

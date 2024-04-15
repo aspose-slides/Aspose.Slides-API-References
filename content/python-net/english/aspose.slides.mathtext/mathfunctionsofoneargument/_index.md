@@ -44,3 +44,6 @@ The MathFunctionsOfOneArgument type exposes the following members:
 | HYPERBOLIC_ARC_SEC | Hyperbolic arcsecant |
 | HYPERBOLIC_ARC_COT | Hyperbolic arccotangent |
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

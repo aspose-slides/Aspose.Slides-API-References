@@ -10,7 +10,7 @@ weight: 290
 
 ## number_format_of_y_values property
 NumberFormatOfYValues.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def number_format_of_y_values(self):
 def number_format_of_y_values(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

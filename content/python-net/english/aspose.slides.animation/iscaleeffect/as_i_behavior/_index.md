@@ -18,3 +18,8 @@ Allows to get base IBehavior interface.
 def as_i_behavior(self):
     ...
 ```
+
+### See Also
+* class [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 70
 
 ## encryption_password property
 Returns encryption password.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns encryption password.
 def encryption_password(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

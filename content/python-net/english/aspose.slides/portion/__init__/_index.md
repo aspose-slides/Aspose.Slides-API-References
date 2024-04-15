@@ -52,3 +52,7 @@ def __init__(self, portion):
 
 
 
+### See Also
+* class [`Portion`](/slides/python-net/aspose.slides/portion)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -25,3 +25,7 @@ def to_binary(self):
 
 
 
+### See Also
+* class [`VbaProject`](/slides/python-net/aspose.slides.vba/vbaproject)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

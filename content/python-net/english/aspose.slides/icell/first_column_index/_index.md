@@ -10,7 +10,7 @@ weight: 110
 
 ## first_column_index property
 Returns an index of first column, covered by the cell.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns an index of first column, covered by the cell.
 def first_column_index(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

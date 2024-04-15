@@ -10,7 +10,7 @@ weight: 110
 
 ## overlay property
 Determines whether other chart elements shall be allowed to overlap title.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def overlay(self):
 def overlay(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

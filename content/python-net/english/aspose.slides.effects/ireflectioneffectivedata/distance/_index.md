@@ -10,7 +10,7 @@ weight: 40
 
 ## distance property
 Distance of reflection.
-            Read-only .NET type System.Double.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Distance of reflection.
 def distance(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

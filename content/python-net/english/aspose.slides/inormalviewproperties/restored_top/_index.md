@@ -19,3 +19,8 @@ This element specifies the sizing of the top slide region of the normal view, wh
 def restored_top(self):
     ...
 ```
+
+### See Also
+* class [`INormalViewRestoredProperties`](/slides/python-net/aspose.slides/inormalviewrestoredproperties)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

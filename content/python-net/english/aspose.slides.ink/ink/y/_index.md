@@ -10,7 +10,7 @@ weight: 430
 
 ## y property
 Returns or sets the y-coordinate of the upper-left corner of the shape.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 
 ### Remarks
@@ -27,3 +27,7 @@ def y(self):
 def y(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

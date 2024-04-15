@@ -18,3 +18,8 @@ Returns top border line format effective value.
 def border_top(self):
     ...
 ```
+
+### See Also
+* class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

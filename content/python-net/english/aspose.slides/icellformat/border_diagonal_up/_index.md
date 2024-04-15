@@ -18,3 +18,8 @@ Returns a bottom-left to top-right diagonal line properties object.
 def border_diagonal_up(self):
     ...
 ```
+
+### See Also
+* class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

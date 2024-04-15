@@ -17,17 +17,20 @@ The MathDelimiterFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_math_delimiter](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#imathelement) | Create a math delimiter by applying to the element |
-| [create_math_delimiter](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#imathelementcollection) | Create a math delimiter by applying to the element |
+| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#imathelement) | Create a math delimiter by applying to the element |
+| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#imathelementcollection) | Create a math delimiter by applying to the element |
 
 
 ### Remarks
 
 For COM comparibility
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

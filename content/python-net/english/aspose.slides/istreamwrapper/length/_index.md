@@ -10,7 +10,7 @@ weight: 120
 
 ## length property
 Gets the length in bytes of the stream.
-            Read-only .NET type System.Int64.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets the length in bytes of the stream.
 def length(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -11,7 +11,7 @@ weight: 80
 ## doughnut_hole_size property
 Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents 
             of the size of the plot area.).
-            Read/write .NET type System.Byte.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def doughnut_hole_size(self):
 def doughnut_hole_size(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

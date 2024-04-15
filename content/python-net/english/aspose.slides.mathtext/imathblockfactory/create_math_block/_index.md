@@ -67,3 +67,7 @@ def create_math_block(self, math_elements):
 
 
 
+### See Also
+* class [`IMathBlockFactory`](/slides/python-net/aspose.slides.mathtext/imathblockfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

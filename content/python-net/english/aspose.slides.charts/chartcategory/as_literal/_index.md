@@ -10,7 +10,7 @@ weight: 30
 
 ## as_literal property
 Returns or sets AsLiteral object.
-            Read/write .NET type System.Object.
+            Read/write **any**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def as_literal(self):
 def as_literal(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

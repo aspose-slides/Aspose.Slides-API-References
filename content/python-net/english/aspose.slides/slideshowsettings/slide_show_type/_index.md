@@ -20,3 +20,10 @@ def slide_show_type(self):
 def slide_show_type(self, value):
     ...
 ```
+
+### See Also
+* class [`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk)
+* class [`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual)
+* class [`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

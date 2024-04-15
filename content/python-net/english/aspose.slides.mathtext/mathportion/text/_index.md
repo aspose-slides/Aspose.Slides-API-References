@@ -10,7 +10,7 @@ weight: 130
 
 ## text property
 Gets or sets the plain text of a portion.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def text(self):
 def text(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

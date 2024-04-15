@@ -18,3 +18,8 @@ Allows to get base IChartComponent interface.
 def as_i_chart_component(self):
     ...
 ```
+
+### See Also
+* class [`IChartComponent`](/slides/python-net/aspose.slides.charts/ichartcomponent)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

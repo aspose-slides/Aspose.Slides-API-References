@@ -18,3 +18,8 @@ Inner shadow.
 def inner_shadow_effect(self):
     ...
 ```
+
+### See Also
+* class [`IInnerShadowEffectiveData`](/slides/python-net/aspose.slides.effects/iinnershadoweffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

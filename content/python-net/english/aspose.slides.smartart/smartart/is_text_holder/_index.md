@@ -10,7 +10,7 @@ weight: 300
 
 ## is_text_holder property
 Determines whether the shape is TextHolder_PPT.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether the shape is TextHolder_PPT.
 def is_text_holder(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

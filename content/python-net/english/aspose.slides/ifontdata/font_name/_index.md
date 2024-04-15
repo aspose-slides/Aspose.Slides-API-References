@@ -10,7 +10,7 @@ weight: 20
 
 ## font_name property
 Returns the font name. 
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the font name.
 def font_name(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

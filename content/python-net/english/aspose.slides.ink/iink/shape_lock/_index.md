@@ -15,3 +15,7 @@ weight: 360
 def shape_lock(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

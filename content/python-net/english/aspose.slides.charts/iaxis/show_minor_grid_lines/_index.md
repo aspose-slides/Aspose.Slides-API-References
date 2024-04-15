@@ -10,7 +10,7 @@ weight: 550
 
 ## show_minor_grid_lines property
 Represents if the minor gridlines showed.
-             Read-only .NET type System.Boolean.
+             Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Represents if the minor gridlines showed.
 def show_minor_grid_lines(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

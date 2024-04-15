@@ -10,7 +10,7 @@ weight: 20
 
 ## color property
 Returns color format which will replace color of every pixel.
-            Read-only .NET type System.Drawing.Color.
+            Read-only **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns color format which will replace color of every pixel.
 def color(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

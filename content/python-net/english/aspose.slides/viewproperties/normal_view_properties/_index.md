@@ -19,3 +19,8 @@ Represents normal view properties. The normal view consists of
 def normal_view_properties(self):
     ...
 ```
+
+### See Also
+* class [`INormalViewProperties`](/slides/python-net/aspose.slides/inormalviewproperties)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

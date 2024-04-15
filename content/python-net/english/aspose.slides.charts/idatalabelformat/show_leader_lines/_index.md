@@ -11,7 +11,7 @@ weight: 160
 ## show_leader_lines property
 Represents a specified chart's data label leader lines display behavior. 
             True displays the leader lines. False to hide.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -33,3 +33,7 @@ def show_leader_lines(self):
 def show_leader_lines(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

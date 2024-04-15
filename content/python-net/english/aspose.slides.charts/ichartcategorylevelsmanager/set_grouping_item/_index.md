@@ -20,8 +20,12 @@ def set_grouping_item(self, level, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| level | int | Category level .NET type System.Int32 |
-| value | any | Groping item .NET type System.Object |
+| level | int | Category level **int** |
+| value | any | Groping item **any** |
 
 
 
+### See Also
+* class [`IChartCategoryLevelsManager`](/slides/python-net/aspose.slides.charts/ichartcategorylevelsmanager)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

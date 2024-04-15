@@ -25,8 +25,13 @@ def insert(self, index, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index for insertion .NET type System.Int32 |
+| index | int | Index for insertion **int** |
 | type | ChartType | Chart type [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) |
 
 
 
+### See Also
+* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
+* class [`IChartSeriesCollection`](/slides/python-net/aspose.slides.charts/ichartseriescollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

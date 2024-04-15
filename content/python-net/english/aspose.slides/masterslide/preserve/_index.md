@@ -10,8 +10,8 @@ weight: 220
 
 ## preserve property
 Determines whether the corresponding master is deleted when all the slides that follow that master are deleted.
-            Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call Aspose.Slides.MasterSlideCollection.RemoveUnused(Syste.
-            Read/write .NET type System.Boolean.
+            Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call **Aspose.Slides.MasterSlideCollection.RemoveUnused(Syste.**
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def preserve(self):
 def preserve(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

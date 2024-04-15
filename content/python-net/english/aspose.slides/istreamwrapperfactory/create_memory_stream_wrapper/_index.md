@@ -42,7 +42,12 @@ def create_memory_stream_wrapper(self, buffer):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes | Byte array .NET type System.Byte[] |
+| buffer | bytes | Byte array **int**[] |
 
 
 
+### See Also
+* class [`IStreamWrapper`](/slides/python-net/aspose.slides/istreamwrapper)
+* class [`IStreamWrapperFactory`](/slides/python-net/aspose.slides/istreamwrapperfactory)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

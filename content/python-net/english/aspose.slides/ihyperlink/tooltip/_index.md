@@ -11,7 +11,7 @@ weight: 120
 ## tooltip property
 Returns the string which may be surfaced in a user interface
             as associated with the parent hyperlink.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def tooltip(self):
 def tooltip(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

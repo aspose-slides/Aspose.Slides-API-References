@@ -20,3 +20,7 @@ def detect_tables(self):
 def detect_tables(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)
+* library [`Aspose.Slides`](/slides/python-net)

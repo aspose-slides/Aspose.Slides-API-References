@@ -30,3 +30,7 @@ def create_math_matrix(self, row_count, column_count):
 
 
 
+### See Also
+* class [`IMathMatrixFactory`](/slides/python-net/aspose.slides.mathtext/imathmatrixfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

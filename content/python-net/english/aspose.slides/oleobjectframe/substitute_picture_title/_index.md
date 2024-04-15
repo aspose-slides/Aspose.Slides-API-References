@@ -10,7 +10,7 @@ weight: 500
 
 ## substitute_picture_title property
 Returns or sets the title for OleObject icon.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 
 ### Remarks
@@ -27,3 +27,7 @@ def substitute_picture_title(self):
 def substitute_picture_title(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

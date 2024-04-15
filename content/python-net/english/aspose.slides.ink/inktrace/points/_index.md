@@ -9,7 +9,7 @@ weight: 20
 
 
 ## points property
-Gets points for the IInkLine .NET type System.Drawing.PointF
+Gets points for the IInkLine **aspose.pydrawing.PointF**
             Read-only.
 
 ### Definition:
@@ -18,3 +18,7 @@ Gets points for the IInkLine .NET type System.Drawing.PointF
 def points(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

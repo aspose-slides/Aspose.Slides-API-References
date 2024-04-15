@@ -20,3 +20,8 @@ The custom split information for a pie-of-pie or bar-of-pie chart with a custom 
 def pie_split_custom_points(self):
     ...
 ```
+
+### See Also
+* class [`IPieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

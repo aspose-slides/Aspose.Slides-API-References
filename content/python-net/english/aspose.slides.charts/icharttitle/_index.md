@@ -17,28 +17,31 @@ The IChartTitle type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [overlay](/slides/python-net/aspose.slides.charts/icharttitle/overlay/) | Determines whether other chart elements shall be allowed to overlap title.<br/>            Read/write .NET type System.Boolean. |
-| [format](/slides/python-net/aspose.slides.charts/icharttitle/format/) | Returns the fill, line, effect styles of a title.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
-| [as_i_layoutable](/slides/python-net/aspose.slides.charts/icharttitle/as_i_layoutable/) | Allows to get base ILayoutable interface.<br/>            Read-only [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable). |
-| [as_i_overridable_text](/slides/python-net/aspose.slides.charts/icharttitle/as_i_overridable_text/) | Allows to get base IOverridableText interface.<br/>            Read-only [`IOverridableText`](/slides/python-net/aspose.slides.charts/ioverridabletext). |
-| [x](/slides/python-net/aspose.slides.charts/icharttitle/x/) |  |
-| [y](/slides/python-net/aspose.slides.charts/icharttitle/y/) |  |
-| [width](/slides/python-net/aspose.slides.charts/icharttitle/width/) |  |
-| [height](/slides/python-net/aspose.slides.charts/icharttitle/height/) |  |
-| [right](/slides/python-net/aspose.slides.charts/icharttitle/right/) |  |
-| [bottom](/slides/python-net/aspose.slides.charts/icharttitle/bottom/) |  |
-| [chart](/slides/python-net/aspose.slides.charts/icharttitle/chart/) |  |
-| [as_i_slide_component](/slides/python-net/aspose.slides.charts/icharttitle/as_i_slide_component/) |  |
-| [slide](/slides/python-net/aspose.slides.charts/icharttitle/slide/) |  |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.charts/icharttitle/as_i_presentation_component/) |  |
-| [presentation](/slides/python-net/aspose.slides.charts/icharttitle/presentation/) |  |
-| [text_frame_for_overriding](/slides/python-net/aspose.slides.charts/icharttitle/text_frame_for_overriding/) |  |
-| [as_i_formatted_text_container](/slides/python-net/aspose.slides.charts/icharttitle/as_i_formatted_text_container/) |  |
-| [text_format](/slides/python-net/aspose.slides.charts/icharttitle/text_format/) |  |
+| [`overlay`](/slides/python-net/aspose.slides.charts/icharttitle/overlay/) | Determines whether other chart elements shall be allowed to overlap title.<br/>            Read/write **bool**. |
+| [`format`](/slides/python-net/aspose.slides.charts/icharttitle/format/) | Returns the fill, line, effect styles of a title.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
+| [`as_i_layoutable`](/slides/python-net/aspose.slides.charts/icharttitle/as_i_layoutable/) | Allows to get base ILayoutable interface.<br/>            Read-only [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable). |
+| [`as_i_overridable_text`](/slides/python-net/aspose.slides.charts/icharttitle/as_i_overridable_text/) | Allows to get base IOverridableText interface.<br/>            Read-only [`IOverridableText`](/slides/python-net/aspose.slides.charts/ioverridabletext). |
+| [`x`](/slides/python-net/aspose.slides.charts/icharttitle/x/) |  |
+| [`y`](/slides/python-net/aspose.slides.charts/icharttitle/y/) |  |
+| [`width`](/slides/python-net/aspose.slides.charts/icharttitle/width/) |  |
+| [`height`](/slides/python-net/aspose.slides.charts/icharttitle/height/) |  |
+| [`right`](/slides/python-net/aspose.slides.charts/icharttitle/right/) |  |
+| [`bottom`](/slides/python-net/aspose.slides.charts/icharttitle/bottom/) |  |
+| [`chart`](/slides/python-net/aspose.slides.charts/icharttitle/chart/) |  |
+| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/icharttitle/as_i_slide_component/) |  |
+| [`slide`](/slides/python-net/aspose.slides.charts/icharttitle/slide/) |  |
+| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/icharttitle/as_i_presentation_component/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/icharttitle/presentation/) |  |
+| [`text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/icharttitle/text_frame_for_overriding/) |  |
+| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/icharttitle/as_i_formatted_text_container/) |  |
+| [`text_format`](/slides/python-net/aspose.slides.charts/icharttitle/text_format/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [add_text_frame_for_overriding](/slides/python-net/aspose.slides.charts/icharttitle/add_text_frame_for_overriding/#string) |  |
+| [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/icharttitle/add_text_frame_for_overriding/#string) |  |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

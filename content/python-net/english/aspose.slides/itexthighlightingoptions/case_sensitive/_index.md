@@ -10,7 +10,7 @@ weight: 10
 
 ## case_sensitive property
 Set true to use case-sensitive search, false - otherwise.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def case_sensitive(self):
 def case_sensitive(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

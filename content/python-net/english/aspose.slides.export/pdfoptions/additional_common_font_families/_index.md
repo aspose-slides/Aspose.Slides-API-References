@@ -10,7 +10,7 @@ weight: 30
 
 ## additional_common_font_families property
 Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common.
-            Read/write .NET type System.String[].
+            Read/write **string**[].
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def additional_common_font_families(self):
 def additional_common_font_families(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

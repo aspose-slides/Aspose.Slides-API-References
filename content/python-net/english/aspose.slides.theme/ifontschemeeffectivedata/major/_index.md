@@ -18,3 +18,8 @@ Returns the fonts collection for a "heading" part of the slide.
 def major(self):
     ...
 ```
+
+### See Also
+* class [`IFontsEffectiveData`](/slides/python-net/aspose.slides/ifontseffectivedata)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

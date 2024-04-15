@@ -10,7 +10,7 @@ weight: 60
 
 ## linear_gradient_angle property
 Returns or sets the angle of a gradient.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def linear_gradient_angle(self):
 def linear_gradient_angle(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

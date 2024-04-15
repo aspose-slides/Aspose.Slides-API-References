@@ -15,3 +15,7 @@ weight: 40
 def as_i_enumerable(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

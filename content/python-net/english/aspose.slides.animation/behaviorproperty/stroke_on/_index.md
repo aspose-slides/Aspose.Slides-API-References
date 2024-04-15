@@ -17,3 +17,7 @@ Represents 'stroke.on' property
 def stroke_on(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

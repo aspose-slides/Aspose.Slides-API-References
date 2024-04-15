@@ -100,3 +100,7 @@ def insert_from_html(self, index, html_stream, resolver, uri):
 
 
 
+### See Also
+* class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

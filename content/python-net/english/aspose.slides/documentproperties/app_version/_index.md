@@ -10,7 +10,7 @@ weight: 110
 
 ## app_version property
 Returns the app version.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the app version.
 def app_version(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

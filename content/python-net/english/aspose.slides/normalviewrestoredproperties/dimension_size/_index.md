@@ -11,7 +11,7 @@ weight: 20
 ## dimension_size property
 Specifies the size of the slide region (width when a child of RestoredTop, height when a
             child of RestoredLeft).
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def dimension_size(self):
 def dimension_size(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

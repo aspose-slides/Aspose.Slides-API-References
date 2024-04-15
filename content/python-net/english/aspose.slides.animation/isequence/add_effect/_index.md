@@ -75,7 +75,7 @@ def add_effect(self, chart, type, index, effect_type, subtype, trigger_type):
 | :- | :- | :- |
 | chart | [`IChart`](/slides/python-net/aspose.slides.charts/ichart) | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
 | type | EffectChartMajorGroupingType | Type of an animation effect [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) |
-| index | int | Index .NET type System.Int32 |
+| index | int | Index **int** |
 | effect_type | EffectType | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
 | trigger_type | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
@@ -101,11 +101,19 @@ def add_effect(self, chart, type, series_index, categories_index, effect_type, s
 | :- | :- | :- |
 | chart | [`IChart`](/slides/python-net/aspose.slides.charts/ichart) | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
 | type | EffectChartMinorGroupingType | Type of an animation effect [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) |
-| series_index | int | Index of chart series .NET type System.Int32 |
-| categories_index | int | Index of category .NET type System.Int32 |
+| series_index | int | Index of chart series **int** |
+| categories_index | int | Index of category **int** |
 | effect_type | EffectType | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
 | trigger_type | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
 
 
 
+### See Also
+* class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
+* class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
+* class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
+* class [`ISequence`](/slides/python-net/aspose.slides.animation/isequence)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 60
 
 ## has_end_cap property
 Specifies an end cap is not drawn on the error bars.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def has_end_cap(self):
 def has_end_cap(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

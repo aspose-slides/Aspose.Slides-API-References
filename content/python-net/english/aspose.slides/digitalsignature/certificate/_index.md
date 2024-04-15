@@ -10,7 +10,7 @@ weight: 20
 
 ## certificate property
 Certificate object that was used to sign the document.
-            Read-only .NET type System.Security.Cryptography.X509Certificates.X509Certificate2.
+            Read-only **System.Security.Cryptography.X509Certificates.X509Certificate2**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Certificate object that was used to sign the document.
 def certificate(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

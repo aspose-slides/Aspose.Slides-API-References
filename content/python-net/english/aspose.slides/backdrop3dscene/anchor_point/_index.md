@@ -11,7 +11,7 @@ weight: 10
 ## anchor_point property
 Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane.
             3D point represented by array of 3 float values which define X, Y and Z coordinates.
-            Read/write .NET type System.Single[].
+            Read/write **float**[].
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def anchor_point(self):
 def anchor_point(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 20
 
 ## char property
 Returns the bullet char of a paragraph.
-            Read-only .NET type System.Char.
+            Read-only **System.Char**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the bullet char of a paragraph.
 def char(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

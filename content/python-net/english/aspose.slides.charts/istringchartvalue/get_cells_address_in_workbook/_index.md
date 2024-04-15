@@ -15,7 +15,7 @@ If DataSourceType property is DataSourceType.Worksheet then this method returns 
 
 ### Returns
 
-String value .NET type System.String
+String value **string**
 
 
 
@@ -27,3 +27,7 @@ def get_cells_address_in_workbook(self):
 
 
 
+### See Also
+* class [`IStringChartValue`](/slides/python-net/aspose.slides.charts/istringchartvalue)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

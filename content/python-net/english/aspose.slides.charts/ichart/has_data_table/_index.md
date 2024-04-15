@@ -10,7 +10,7 @@ weight: 330
 
 ## has_data_table property
 Determines whether a chart has a data table.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def has_data_table(self):
 def has_data_table(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

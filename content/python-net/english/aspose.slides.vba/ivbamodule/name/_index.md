@@ -10,7 +10,7 @@ weight: 10
 
 ## name property
 Name of the module.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Name of the module.
 def name(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

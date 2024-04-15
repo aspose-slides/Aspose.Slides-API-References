@@ -18,3 +18,8 @@ Slide show transition value.
 def value(self):
     ...
 ```
+
+### See Also
+* class [`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

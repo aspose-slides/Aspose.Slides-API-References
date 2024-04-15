@@ -18,3 +18,8 @@ Returns HeaderFooter manager of the master slide.
 def header_footer_manager(self):
     ...
 ```
+
+### See Also
+* class [`IMasterSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

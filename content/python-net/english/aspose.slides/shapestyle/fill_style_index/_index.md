@@ -13,7 +13,7 @@ Returns or sets shape's fill column index in style matrices.
             0 means no fill,
             positive value - index in theme's fill styles,
             negative value - index in theme's background styles.
-            Read/write .NET type System.Int16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -24,3 +24,7 @@ def fill_style_index(self):
 def fill_style_index(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

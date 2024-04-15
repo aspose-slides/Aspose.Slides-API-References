@@ -10,7 +10,7 @@ weight: 300
 
 ## width property
 Returns the width of the cell.
-            Read-only .NET type System.Double.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the width of the cell.
 def width(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

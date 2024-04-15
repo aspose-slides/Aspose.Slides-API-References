@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
+* class [`MasterTheme`](/slides/python-net/aspose.slides.theme/mastertheme)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

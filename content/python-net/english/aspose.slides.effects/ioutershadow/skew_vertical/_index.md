@@ -10,7 +10,7 @@ weight: 120
 
 ## skew_vertical property
 Specifies the vertical skew angle (in degrees).
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def skew_vertical(self):
 def skew_vertical(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

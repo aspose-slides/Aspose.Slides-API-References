@@ -10,7 +10,7 @@ weight: 480
 
 ## play_across_slides property
 Determines whether an audio is playing across the slides.
-             Read/write .NET type System.Boolean.
+             Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def play_across_slides(self):
 def play_across_slides(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

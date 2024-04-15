@@ -10,7 +10,7 @@ weight: 350
 
 ## has_rounded_corners property
 Specifies the chart area shall have rounded corners.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def has_rounded_corners(self):
 def has_rounded_corners(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

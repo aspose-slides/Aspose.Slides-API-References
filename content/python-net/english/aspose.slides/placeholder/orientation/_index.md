@@ -18,3 +18,7 @@ Gets or sets the orientation of a placeholder.
 def orientation(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -17,7 +17,7 @@ The LegendEntryCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.charts/legendentrycollection/count/) | Gets the number of legend entries.<br/>            Read-only .NET type System.Int32. |
+| [`count`](/slides/python-net/aspose.slides.charts/legendentrycollection/count/) | Gets the number of legend entries.<br/>            Read-only **int**. |
 
 ## Indexer
 
@@ -25,3 +25,6 @@ The LegendEntryCollection type exposes the following members:
 | :- | :- |
 | [index] |  |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

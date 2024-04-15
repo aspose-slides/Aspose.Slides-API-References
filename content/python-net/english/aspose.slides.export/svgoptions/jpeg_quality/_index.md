@@ -10,7 +10,7 @@ weight: 110
 
 ## jpeg_quality property
 Determines JPEG encoding quality.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def jpeg_quality(self):
 def jpeg_quality(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

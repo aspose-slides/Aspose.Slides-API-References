@@ -27,7 +27,12 @@ def auto_by_extension(self, pres_path, out_path):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentOutOfRangeException |  |
+| **System.ArgumentOutOfRangeException** |  |
 
 
 
+### See Also
+* class [`Convert`](/slides/python-net/aspose.slides.lowcode/convert)
+* class [`Presentation`](/slides/python-net/aspose.slides/presentation)
+* module [`aspose.slides.lowcode`](/slides/python-net/aspose.slides.lowcode)
+* library [`Aspose.Slides`](/slides/python-net)

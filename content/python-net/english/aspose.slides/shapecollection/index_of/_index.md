@@ -30,3 +30,7 @@ def index_of(self, shape):
 
 
 
+### See Also
+* class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

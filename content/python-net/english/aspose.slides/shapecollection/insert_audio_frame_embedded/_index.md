@@ -62,3 +62,7 @@ def insert_audio_frame_embedded(self, index, x, y, width, height, audio):
 
 
 
+### See Also
+* class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Current date and time in a seventh predefined format (Mon-YY for english).
 def date_time7(self):
     ...
 ```
+
+### See Also
+* class [`FieldType`](/slides/python-net/aspose.slides/fieldtype)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

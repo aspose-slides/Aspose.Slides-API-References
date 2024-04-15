@@ -17,3 +17,7 @@ Returns the slide show settings for the presentation.
 def slide_show_settings(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

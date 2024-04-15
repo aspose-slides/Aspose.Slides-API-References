@@ -18,3 +18,8 @@ Returns collection of text animations.
 def text_animation_collection(self):
     ...
 ```
+
+### See Also
+* class [`ITextAnimationCollection`](/slides/python-net/aspose.slides.animation/itextanimationcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 40
 
 ## svg_content property
 Returns SVG content.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns SVG content.
 def svg_content(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

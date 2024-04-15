@@ -20,3 +20,6 @@ The ChartDataSourceType type exposes the following members:
 | INTERNAL_WORKBOOK | Internal data source. |
 | EXTERNAL_WORKBOOK | External data source. |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

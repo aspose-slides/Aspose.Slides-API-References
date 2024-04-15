@@ -17,12 +17,15 @@ The Audio type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [content_type](/slides/python-net/aspose.slides/audio/content_type/) | Returns a MIME type of an audio, encoded in [`Audio.binary_data`](/slides/python-net/aspose.slides/audio#binary_data).<br/>            Read-only .NET type System.String. |
-| [binary_data](/slides/python-net/aspose.slides/audio/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider <br/>            using of [`Audio.get_stream`](/slides/python-net/aspose.slides/audio/get_stream) method to prevent unnecessary  loading of audio's<br/>            data into memory or even OutOfMemoryException.<br/>            Read-only .NET type System.Byte[]. |
+| [`content_type`](/slides/python-net/aspose.slides/audio/content_type/) | Returns a MIME type of an audio, encoded in [`Audio.binary_data`](/slides/python-net/aspose.slides/audio#binary_data).<br/>            Read-only **string**. |
+| [`binary_data`](/slides/python-net/aspose.slides/audio/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider <br/>            using of [`Audio.get_stream`](/slides/python-net/aspose.slides/audio/get_stream) method to prevent unnecessary  loading of audio's<br/>            data into memory or even OutOfMemoryException.<br/>            Read-only **int**[]. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [get_stream](/slides/python-net/aspose.slides/audio/get_stream/#) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
+| [`get_stream`](/slides/python-net/aspose.slides/audio/get_stream/#) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

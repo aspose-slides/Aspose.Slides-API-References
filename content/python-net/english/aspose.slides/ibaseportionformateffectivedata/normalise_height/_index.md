@@ -10,7 +10,7 @@ weight: 190
 
 ## normalise_height property
 Determines whether the height of a text should be normalized.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether the height of a text should be normalized.
 def normalise_height(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

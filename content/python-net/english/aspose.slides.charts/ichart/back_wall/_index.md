@@ -18,3 +18,8 @@ Returns an object which allows to change format of the back wall of a 3D chart.
 def back_wall(self):
     ...
 ```
+
+### See Also
+* class [`IChartWall`](/slides/python-net/aspose.slides.charts/ichartwall)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

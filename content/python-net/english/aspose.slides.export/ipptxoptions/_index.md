@@ -17,9 +17,12 @@ The IPptxOptions type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [conformance](/slides/python-net/aspose.slides.export/ipptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is [`Conformance.ECMA_376_2006`](/slides/python-net/aspose.slides.export/conformance#ECMA_376_2006) |
-| [as_i_save_options](/slides/python-net/aspose.slides.export/ipptxoptions/as_i_save_options/) | Allows to get base ISaveOptions interface.<br/>            Read-only [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions). |
-| [warning_callback](/slides/python-net/aspose.slides.export/ipptxoptions/warning_callback/) |  |
-| [progress_callback](/slides/python-net/aspose.slides.export/ipptxoptions/progress_callback/) |  |
-| [default_regular_font](/slides/python-net/aspose.slides.export/ipptxoptions/default_regular_font/) |  |
+| [`conformance`](/slides/python-net/aspose.slides.export/ipptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is [`Conformance.ECMA_376_2006`](/slides/python-net/aspose.slides.export/conformance#ECMA_376_2006) |
+| [`as_i_save_options`](/slides/python-net/aspose.slides.export/ipptxoptions/as_i_save_options/) | Allows to get base ISaveOptions interface.<br/>            Read-only [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions). |
+| [`warning_callback`](/slides/python-net/aspose.slides.export/ipptxoptions/warning_callback/) |  |
+| [`progress_callback`](/slides/python-net/aspose.slides.export/ipptxoptions/progress_callback/) |  |
+| [`default_regular_font`](/slides/python-net/aspose.slides.export/ipptxoptions/default_regular_font/) |  |
 
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

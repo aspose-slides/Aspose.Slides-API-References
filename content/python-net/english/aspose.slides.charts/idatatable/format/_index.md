@@ -18,3 +18,8 @@ Returns the line, fill, and effect styles of an object.
 def format(self):
     ...
 ```
+
+### See Also
+* class [`IFormat`](/slides/python-net/aspose.slides.charts/iformat)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

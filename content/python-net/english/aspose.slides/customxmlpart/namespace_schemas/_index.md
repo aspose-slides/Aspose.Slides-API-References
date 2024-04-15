@@ -10,7 +10,7 @@ weight: 30
 
 ## namespace_schemas property
 Returns the collection XML schemas that are associated with the custom XML part.
-            Read-only .NET type System.String[].
+            Read-only **string**[].
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the collection XML schemas that are associated with the custom XML part.
 def namespace_schemas(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

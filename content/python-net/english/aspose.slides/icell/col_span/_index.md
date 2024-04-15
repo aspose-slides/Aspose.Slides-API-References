@@ -13,7 +13,7 @@ Returns the number of grid columns in the parent table's table grid
             which shall be spanned by the current cell. This property allows cells
             to have the appearance of being merged, as they span vertical boundaries
             of other cells in the table.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ Returns the number of grid columns in the parent table's table grid
 def col_span(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 130
 
 ## is_header_visible property
 Gets value indicating that a header placeholder is present.
-            Read .NET type System.Boolean.
+            Read **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets value indicating that a header placeholder is present.
 def is_header_visible(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

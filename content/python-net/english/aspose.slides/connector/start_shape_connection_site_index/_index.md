@@ -10,7 +10,7 @@ weight: 490
 
 ## start_shape_connection_site_index property
 Returns or sets the index of connection site for start shape.
-            Read/write .NET type System.UInt32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def start_shape_connection_site_index(self):
 def start_shape_connection_site_index(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

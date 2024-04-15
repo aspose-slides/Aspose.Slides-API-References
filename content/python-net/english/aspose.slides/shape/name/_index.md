@@ -11,7 +11,7 @@ weight: 260
 ## name property
 Returns or sets the name of a shape.
             Must be not null. Use empty string value if needed.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def name(self):
 def name(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

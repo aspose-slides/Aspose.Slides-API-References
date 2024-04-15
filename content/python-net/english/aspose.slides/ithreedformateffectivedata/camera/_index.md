@@ -18,3 +18,8 @@ Returns the settings of a camera.
 def camera(self):
     ...
 ```
+
+### See Also
+* class [`ICameraEffectiveData`](/slides/python-net/aspose.slides/icameraeffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

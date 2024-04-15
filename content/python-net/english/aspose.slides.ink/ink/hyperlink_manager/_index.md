@@ -18,3 +18,8 @@ Returns the hyperlink manager.
 def hyperlink_manager(self):
     ...
 ```
+
+### See Also
+* class [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager)
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

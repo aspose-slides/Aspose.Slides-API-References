@@ -10,7 +10,7 @@ weight: 70
 
 ## count property
 Gets the count of cells in collection.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets the count of cells in collection.
 def count(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

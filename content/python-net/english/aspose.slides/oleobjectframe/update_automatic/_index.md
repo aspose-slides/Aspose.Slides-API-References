@@ -10,7 +10,7 @@ weight: 530
 
 ## update_automatic property
 Determines if the linked embedded object is automatically updated when the presentation is opened or printed.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def update_automatic(self):
 def update_automatic(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

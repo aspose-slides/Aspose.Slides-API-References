@@ -10,7 +10,7 @@ weight: 10
 
 ## depth_percents property
 Returns or sets the depth of a 3D chart as a percentage of a chart width (between 20 and 2000 percent).
-            Read/write .NET type System.UInt16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def depth_percents(self):
 def depth_percents(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

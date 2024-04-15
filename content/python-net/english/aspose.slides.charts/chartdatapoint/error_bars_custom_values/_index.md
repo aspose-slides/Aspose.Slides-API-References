@@ -18,3 +18,8 @@ Represents series error bars values in case of Custom value type.
 def error_bars_custom_values(self):
     ...
 ```
+
+### See Also
+* class [`IErrorBarsCustomValues`](/slides/python-net/aspose.slides.charts/ierrorbarscustomvalues)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

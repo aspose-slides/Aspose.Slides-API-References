@@ -10,7 +10,7 @@ weight: 230
 
 ## last_printed property
 Returns the date when a presentation was printed last time.
-            Read/write .NET type System.DateTime.
+            Read/write **System.DateTime**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def last_printed(self):
 def last_printed(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

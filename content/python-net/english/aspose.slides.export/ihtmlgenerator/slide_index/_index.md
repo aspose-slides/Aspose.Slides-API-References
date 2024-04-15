@@ -10,7 +10,7 @@ weight: 90
 
 ## slide_index property
 Returns index of currently rendering slide.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns index of currently rendering slide.
 def slide_index(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

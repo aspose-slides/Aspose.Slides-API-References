@@ -10,7 +10,7 @@ weight: 170
 
 ## is_empty property
 True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ True value means that ColorScheme, FontScheme, FormatScheme is null and any over
 def is_empty(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

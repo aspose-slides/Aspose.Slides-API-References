@@ -15,7 +15,7 @@ Returns or sets the distance, as a percentage of the marker width, between the d
             is read-only.
             Use ParentSeriesGroup property for access to parent series group.
             Use ParentSeriesGroup.GapDepth read/write property for change value.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 
 ### Remarks
@@ -28,3 +28,7 @@ This is the projection of the property ParentSeriesGroup.GapDepth.
 def gap_depth(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

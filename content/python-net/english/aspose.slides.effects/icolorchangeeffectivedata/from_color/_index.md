@@ -10,7 +10,7 @@ weight: 20
 
 ## from_color property
 Color which will be replaced.
-            Read-only .NET type System.Drawing.Color.
+            Read-only **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Color which will be replaced.
 def from_color(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

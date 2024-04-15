@@ -10,7 +10,7 @@ weight: 250
 
 ## hidden property
 Determines whether the shape is hidden.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def hidden(self):
 def hidden(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

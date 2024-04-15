@@ -10,7 +10,7 @@ weight: 60
 
 ## is_no_effects property
 Returns true if all effects are disabled (as just created, default EffectFormat object).
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns true if all effects are disabled (as just created, default EffectFormat 
 def is_no_effects(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

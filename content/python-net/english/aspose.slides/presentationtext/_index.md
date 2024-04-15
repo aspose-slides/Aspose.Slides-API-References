@@ -17,5 +17,8 @@ The PresentationText type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [slides_text](/slides/python-net/aspose.slides/presentationtext/slides_text/) | An array of [`ISlideText`](/slides/python-net/aspose.slides/islidetext) contains a presentation's text. |
+| [`slides_text`](/slides/python-net/aspose.slides/presentationtext/slides_text/) | An array of [`ISlideText`](/slides/python-net/aspose.slides/islidetext) contains a presentation's text. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

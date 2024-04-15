@@ -10,7 +10,7 @@ weight: 20
 
 ## arrowheads_locked property
 Determines whether a changing arrowheads is forbidden.
-            Read-write .NET type System.Boolean.
+            Read-write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def arrowheads_locked(self):
 def arrowheads_locked(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -20,14 +20,20 @@ The HSL type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/hsl/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
-| [slide](/slides/python-net/aspose.slides.effects/hsl/slide/) |  |
-| [presentation](/slides/python-net/aspose.slides.effects/hsl/presentation/) |  |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/hsl/as_i_image_transform_operation/) |  |
+| [`as_i_presentation_component`](/slides/python-net/aspose.slides.effects/hsl/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [`slide`](/slides/python-net/aspose.slides.effects/hsl/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/hsl/presentation/) |  |
+| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/hsl/as_i_image_transform_operation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/hsl/get_effective/#) | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
+| [`get_effective`](/slides/python-net/aspose.slides.effects/hsl/get_effective/#) | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
 
+### See Also
+* class [`HSL`](/slides/python-net/aspose.slides.effects/hsl)
+* class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+* class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -11,7 +11,7 @@ weight: 40
 ## custom_number_format property
 Gets or sets the custom display format of numbers and dates. 
             If value is empty will be used PresetNumberFormat value.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def custom_number_format(self):
 def custom_number_format(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

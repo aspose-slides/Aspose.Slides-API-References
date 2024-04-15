@@ -10,7 +10,7 @@ weight: 90
 
 ## scale_vertical property
 Specifies the vertical scaling factor, negative scaling causes a flip.
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def scale_vertical(self):
 def scale_vertical(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

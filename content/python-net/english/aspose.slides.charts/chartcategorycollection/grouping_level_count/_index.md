@@ -11,7 +11,7 @@ weight: 90
 ## grouping_level_count property
 Returns count of category grouping levels used.
             Is more then one for multilevel categories.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -19,3 +19,7 @@ Returns count of category grouping levels used.
 def grouping_level_count(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

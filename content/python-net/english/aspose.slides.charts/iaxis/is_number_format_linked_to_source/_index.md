@@ -10,7 +10,7 @@ weight: 320
 
 ## is_number_format_linked_to_source property
 Indicates whether the format is linked source data.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_number_format_linked_to_source(self):
 def is_number_format_linked_to_source(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

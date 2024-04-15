@@ -17,12 +17,15 @@ The SlideImageFormat type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/slideimageformat/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides.export/slideimageformat/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [svg](/slides/python-net/aspose.slides.export/slideimageformat/svg/#svgoptions) | Slides should converted to a SVG format. |
-| [bitmap](/slides/python-net/aspose.slides.export/slideimageformat/bitmap/#float-asposepydrawingimagingimageformat) | Slides should be converted to a raster image. |
+| [`svg`](/slides/python-net/aspose.slides.export/slideimageformat/svg/#svgoptions) | Slides should converted to a SVG format. |
+| [`bitmap`](/slides/python-net/aspose.slides.export/slideimageformat/bitmap/#float-asposepydrawingimagingimageformat) | Slides should be converted to a raster image. |
 
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

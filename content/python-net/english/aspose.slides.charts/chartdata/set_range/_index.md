@@ -28,9 +28,13 @@ def set_range(self, formula):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | formula is null. |
-| .NET type System.InvalidOperationException | Unsupported chart type |
-| .NET type System.ArgumentException | formula has incorrect format. |
+| **System.ArgumentNullException** | formula is null. |
+| **System.InvalidOperationException** | Unsupported chart type |
+| **System.ArgumentException** | formula has incorrect format. |
 
 
 
+### See Also
+* class [`ChartData`](/slides/python-net/aspose.slides.charts/chartdata)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

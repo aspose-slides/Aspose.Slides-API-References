@@ -22,9 +22,13 @@ def set_rotation(self, latitude, longitude, revolution):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| latitude | float | Latitude coordinate .NET type System.Single |
-| longitude | float | Longitude coordinate .NET type System.Single |
-| revolution | float | Revolution coordinate .NET type System.Single |
+| latitude | float | Latitude coordinate **float** |
+| longitude | float | Longitude coordinate **float** |
+| revolution | float | Revolution coordinate **float** |
 
 
 
+### See Also
+* class [`ILightRig`](/slides/python-net/aspose.slides/ilightrig)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

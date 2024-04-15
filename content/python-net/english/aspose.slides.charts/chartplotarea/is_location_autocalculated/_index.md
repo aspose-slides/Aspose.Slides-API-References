@@ -10,7 +10,7 @@ weight: 140
 
 ## is_location_autocalculated property
 Defines how location should be calculated: true – calculated automatically; defined by the X, Y, Width, Height properties.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Defines how location should be calculated: true – calculated automatically; de
 def is_location_autocalculated(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

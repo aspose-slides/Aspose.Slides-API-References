@@ -43,3 +43,7 @@ def __init__(self, source_font, dest_font, font_subst_rule):
 
 
 
+### See Also
+* class [`FontSubstRule`](/slides/python-net/aspose.slides/fontsubstrule)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

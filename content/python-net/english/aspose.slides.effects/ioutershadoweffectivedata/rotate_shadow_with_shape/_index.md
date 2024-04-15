@@ -10,7 +10,7 @@ weight: 60
 
 ## rotate_shadow_with_shape property
 Specifies whether the shadow should rotate with the shape if the shape is rotated.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Specifies whether the shadow should rotate with the shape if the shape is rotate
 def rotate_shadow_with_shape(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

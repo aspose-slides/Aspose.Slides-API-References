@@ -10,7 +10,7 @@ weight: 50
 
 ## xml_data property
 Returns or sets xml data.
-            Read/write .NET type System.Byte[].
+            Read/write **int**[].
             value is `null`.value is empty or xml-data is invalid.
 
 ### Definition:
@@ -22,3 +22,7 @@ def xml_data(self):
 def xml_data(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

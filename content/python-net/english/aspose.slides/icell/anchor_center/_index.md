@@ -10,7 +10,7 @@ weight: 50
 
 ## anchor_center property
 Determines whether or not text box centered inside a cell.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def anchor_center(self):
 def anchor_center(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

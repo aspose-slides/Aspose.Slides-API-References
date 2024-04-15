@@ -10,7 +10,7 @@ weight: 40
 
 ## use_alpha property
 Returns a boolean value which determines if alpha component should be used.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns a boolean value which determines if alpha component should be used.
 def use_alpha(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

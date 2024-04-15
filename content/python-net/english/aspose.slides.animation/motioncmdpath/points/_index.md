@@ -10,7 +10,7 @@ weight: 30
 
 ## points property
 Specifies points of command.
-            Read/write .NET type System.Drawing.PointF[].
+            Read/write **aspose.pydrawing.PointF**[].
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def points(self):
 def points(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

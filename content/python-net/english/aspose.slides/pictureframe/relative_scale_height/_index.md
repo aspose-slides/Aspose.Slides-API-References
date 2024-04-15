@@ -10,7 +10,7 @@ weight: 410
 
 ## relative_scale_height property
 Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def relative_scale_height(self):
 def relative_scale_height(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

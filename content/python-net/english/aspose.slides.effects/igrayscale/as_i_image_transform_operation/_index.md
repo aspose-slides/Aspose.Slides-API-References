@@ -23,3 +23,8 @@ For COM compatibility.
 def as_i_image_transform_operation(self):
     ...
 ```
+
+### See Also
+* class [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

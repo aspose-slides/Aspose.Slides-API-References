@@ -28,8 +28,13 @@ def set_geometry_paths(self, geometry_paths):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | No path found |
-| .NET type System.ArgumentException | Empty path |
+| **System.ArgumentException** | No path found |
+| **System.ArgumentException** | Empty path |
 
 
 
+### See Also
+* class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
+* class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

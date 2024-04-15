@@ -9,7 +9,7 @@ url: /aspose.slides/controltype/
 
 ## ControlType class
 
-Defines a control type which should be embedded by Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste..
+Defines a control type which should be embedded by **Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste.**.
 
 The ControlType type exposes the following members:
 
@@ -19,3 +19,6 @@ The ControlType type exposes the following members:
 | :- | :- |
 | WINDOWS_MEDIA_PLAYER | Windows Media Player control. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

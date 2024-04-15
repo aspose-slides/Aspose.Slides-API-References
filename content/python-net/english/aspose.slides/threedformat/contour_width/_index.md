@@ -10,7 +10,7 @@ weight: 80
 
 ## contour_width property
 Returns or sets the width of a 3D contour.
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def contour_width(self):
 def contour_width(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

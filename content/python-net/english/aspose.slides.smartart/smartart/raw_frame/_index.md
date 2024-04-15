@@ -21,3 +21,8 @@ def raw_frame(self):
 def raw_frame(self, value):
     ...
 ```
+
+### See Also
+* class [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

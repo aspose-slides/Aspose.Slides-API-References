@@ -10,7 +10,7 @@ weight: 80
 
 ## output_path property
 Determines where external resources should be stored. 
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def output_path(self):
 def output_path(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

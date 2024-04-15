@@ -18,3 +18,8 @@ Returns a TextFrame with notes' text if there is one.
 def notes_text_frame(self):
     ...
 ```
+
+### See Also
+* class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

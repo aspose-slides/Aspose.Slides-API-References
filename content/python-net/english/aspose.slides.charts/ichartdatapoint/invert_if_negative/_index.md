@@ -10,7 +10,7 @@ weight: 150
 
 ## invert_if_negative property
 Specifies the data point shall invert its colors if the value is negative.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def invert_if_negative(self):
 def invert_if_negative(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

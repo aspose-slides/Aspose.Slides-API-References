@@ -17,10 +17,13 @@ The IMathMatrixFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_matrix](/slides/python-net/aspose.slides.mathtext/imathmatrixfactory/create_math_matrix/#int-int) | Creates a math matrix |
+| [`create_math_matrix`](/slides/python-net/aspose.slides.mathtext/imathmatrixfactory/create_math_matrix/#int-int) | Creates a math matrix |
 
 
 ### Remarks
 
 For COM comparibility
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

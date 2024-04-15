@@ -23,3 +23,6 @@ The MathSpacingRules type exposes the following members:
 | EXACTLY | Exactly value<br/>            For columns, rely on value of ColumnGap, measured in twips<br/>            For rows, rely on value of RowGap, measured in twips |
 | MULTIPLE | Multiple<br/>            For columns, rely on value of ColumnGap, measured in 0.5 em increments<br/>            For rows, rely on value of RowGap, measured in lines |
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

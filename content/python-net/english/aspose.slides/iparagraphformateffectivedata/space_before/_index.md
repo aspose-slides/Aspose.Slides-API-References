@@ -10,7 +10,7 @@ weight: 150
 
 ## space_before property
 Returns the amount of space before the first line in a paragraph.
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the amount of space before the first line in a paragraph.
 def space_before(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

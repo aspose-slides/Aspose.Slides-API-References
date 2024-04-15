@@ -10,7 +10,7 @@ weight: 30
 
 ## through_black property
 Specifies whether the transition fades through black.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def through_black(self):
 def through_black(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

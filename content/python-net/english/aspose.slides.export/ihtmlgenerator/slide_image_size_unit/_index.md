@@ -18,3 +18,7 @@ Returns a unit in which slide image size is specified.
 def slide_image_size_unit(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

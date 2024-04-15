@@ -50,3 +50,8 @@ def set_lower_limit(self, limit):
 
 
 
+### See Also
+* class [`IMathLimit`](/slides/python-net/aspose.slides.mathtext/imathlimit)
+* class [`MathBox`](/slides/python-net/aspose.slides.mathtext/mathbox)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

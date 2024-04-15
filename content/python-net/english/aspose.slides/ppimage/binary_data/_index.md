@@ -10,7 +10,7 @@ weight: 20
 
 ## binary_data property
 Returns the copy of an image's data.
-            Read-only .NET type System.Byte[].
+            Read-only **int**[].
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the copy of an image's data.
 def binary_data(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

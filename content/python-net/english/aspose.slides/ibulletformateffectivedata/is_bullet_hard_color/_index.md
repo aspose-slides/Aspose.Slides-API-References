@@ -11,7 +11,7 @@ weight: 70
 ## is_bullet_hard_color property
 Determines whether the bullet has own color or inherits it from the first portion in the paragraph.
             Returns **true**  if bullet has own color and **false**  if bullet inherits color from the first portion in the paragraph.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -19,3 +19,7 @@ Determines whether the bullet has own color or inherits it from the first portio
 def is_bullet_hard_color(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

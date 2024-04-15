@@ -10,7 +10,7 @@ weight: 40
 
 ## column_count property
 Specifies the number of columns of text in the bounding rectangle.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Specifies the number of columns of text in the bounding rectangle.
 def column_count(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`ITextFrameFormatEffectiveData`](/slides/python-net/aspose.slides/itextframeformateffectivedata)
+* class [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

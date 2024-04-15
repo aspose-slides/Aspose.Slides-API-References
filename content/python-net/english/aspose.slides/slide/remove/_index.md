@@ -26,3 +26,8 @@ def remove(self):
 
 
 
+### See Also
+* class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
+* class [`Slide`](/slides/python-net/aspose.slides/slide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

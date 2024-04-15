@@ -10,7 +10,7 @@ weight: 280
 
 ## presentation_format property
 Returns or sets the intended format of a presentation.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def presentation_format(self):
 def presentation_format(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -19,6 +19,11 @@ The InOutTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/inouttransition/direction/) | Direction of a transition effect.<br/>            Read/write [`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype). |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/inouttransition/as_i_transition_value_base/) |  |
+| [`direction`](/slides/python-net/aspose.slides.slideshow/inouttransition/direction/) | Direction of a transition effect.<br/>            Read/write [`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype). |
+| [`as_i_transition_value_base`](/slides/python-net/aspose.slides.slideshow/inouttransition/as_i_transition_value_base/) |  |
 
+### See Also
+* class [`InOutTransition`](/slides/python-net/aspose.slides.slideshow/inouttransition)
+* class [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

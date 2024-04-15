@@ -21,3 +21,6 @@ The MathLimitLocations type exposes the following members:
 | UNDER_OVER | Limits draw at top and bottom of the operator symbol |
 | SUBSCRIPT_SUPERSCRIPT | Limits draw as subscript and superscript |
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

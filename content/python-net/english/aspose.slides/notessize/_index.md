@@ -17,11 +17,14 @@ The NotesSize type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/notessize/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides/notessize/__init__/#) |  |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [size](/slides/python-net/aspose.slides/notessize/size/) | Returns or sets the size in points.<br/>            Read/write .NET type System.Drawing.SizeF. |
+| [`size`](/slides/python-net/aspose.slides/notessize/size/) | Returns or sets the size in points.<br/>            Read/write **aspose.pydrawing.SizeF**. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

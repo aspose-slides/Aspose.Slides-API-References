@@ -15,3 +15,7 @@ weight: 360
 def parent_group(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

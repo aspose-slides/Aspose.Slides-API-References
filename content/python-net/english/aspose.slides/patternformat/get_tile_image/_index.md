@@ -13,7 +13,7 @@ Creates a tile image for the pattern fill.
 
 ### Returns
 
-Tile .NET type System.Drawing.Bitmap.
+Tile **aspose.pydrawing.Bitmap**.
 
 
 
@@ -25,7 +25,7 @@ def get_tile_image(self, style_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | aspose.pydrawing.Color | The default .NET type System.Drawing.Color, <br/><br/>            defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
+| style_color | aspose.pydrawing.Color | The default **aspose.pydrawing.Color**, <br/><br/>            defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
 
 
@@ -34,7 +34,7 @@ Creates a tile image for the pattern fill with a specified colors.
 
 ### Returns
 
-Tile .NET type System.Drawing.Bitmap.
+Tile **aspose.pydrawing.Bitmap**.
 
 
 
@@ -46,8 +46,12 @@ def get_tile_image(self, background, foreground):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| background | aspose.pydrawing.Color | The background .NET type System.Drawing.Color for the pattern. |
-| foreground | aspose.pydrawing.Color | The foreground .NET type System.Drawing.Color for the pattern. |
+| background | aspose.pydrawing.Color | The background **aspose.pydrawing.Color** for the pattern. |
+| foreground | aspose.pydrawing.Color | The foreground **aspose.pydrawing.Color** for the pattern. |
 
 
 
+### See Also
+* class [`PatternFormat`](/slides/python-net/aspose.slides/patternformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

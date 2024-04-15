@@ -10,7 +10,7 @@ weight: 180
 
 ## hyperlink_base property
 Returns or sets the HyperlinkBase document property.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def hyperlink_base(self):
 def hyperlink_base(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -45,3 +45,7 @@ def set_size(self, width, height, scale_type):
 
 
 
+### See Also
+* class [`ISlideSize`](/slides/python-net/aspose.slides/islidesize)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

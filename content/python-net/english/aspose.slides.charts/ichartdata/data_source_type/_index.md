@@ -17,3 +17,7 @@ Represents data source of the chart
 def data_source_type(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

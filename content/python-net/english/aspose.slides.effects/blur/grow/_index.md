@@ -11,7 +11,7 @@ weight: 40
 ## grow property
 Determines whether the bounds of the object should be grown as a result of the blurring.
             True indicates the bounds are grown while false indicates that they are not.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def grow(self):
 def grow(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

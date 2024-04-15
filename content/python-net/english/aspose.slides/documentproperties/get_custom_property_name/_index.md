@@ -31,7 +31,11 @@ def get_custom_property_name(self, index):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentOutOfRangeException | Index is less than zero. Index is equal to or greater than Count. |
+| **System.ArgumentOutOfRangeException** | Index is less than zero. Index is equal to or greater than Count. |
 
 
 
+### See Also
+* class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

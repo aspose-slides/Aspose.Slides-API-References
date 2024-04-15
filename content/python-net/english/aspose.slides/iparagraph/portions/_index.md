@@ -18,3 +18,8 @@ Returns the collection of a text portions.
 def portions(self):
     ...
 ```
+
+### See Also
+* class [`IPortionCollection`](/slides/python-net/aspose.slides/iportioncollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

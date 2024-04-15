@@ -16,7 +16,7 @@ Determines whether there are series lines for this series and kindred series.
             Use ParentSeriesGroup property for access to parent series group.
             Use ParentSeriesGroup.HasSeriesLines read/write property for change value.
             Use ParentSeriesGroup.SeriesLinesFormat property for format series lines.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 
 ### Remarks
@@ -29,3 +29,7 @@ This is the projection of the property ParentSeriesGroup.HasSeriesLines.
 def has_series_lines(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

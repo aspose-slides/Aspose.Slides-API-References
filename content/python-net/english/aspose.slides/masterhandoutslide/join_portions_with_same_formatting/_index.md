@@ -36,3 +36,7 @@ def join_portions_with_same_formatting(self, collection):
 
 
 
+### See Also
+* class [`MasterHandoutSlide`](/slides/python-net/aspose.slides/masterhandoutslide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

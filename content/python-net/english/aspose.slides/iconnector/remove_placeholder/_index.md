@@ -20,3 +20,7 @@ def remove_placeholder(self):
 
 
 
+### See Also
+* class [`IConnector`](/slides/python-net/aspose.slides/iconnector)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

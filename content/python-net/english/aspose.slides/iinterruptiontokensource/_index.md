@@ -17,12 +17,16 @@ The IInterruptionTokenSource type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [token](/slides/python-net/aspose.slides/iinterruptiontokensource/token/) | Returns new token binded to this [`IInterruptionTokenSource`](/slides/python-net/aspose.slides/iinterruptiontokensource). |
-| [is_interruption_requested](/slides/python-net/aspose.slides/iinterruptiontokensource/is_interruption_requested/) | Returns true if interruption requested, false otherwise. |
+| [`token`](/slides/python-net/aspose.slides/iinterruptiontokensource/token/) | Returns new token binded to this [`IInterruptionTokenSource`](/slides/python-net/aspose.slides/iinterruptiontokensource). |
+| [`is_interruption_requested`](/slides/python-net/aspose.slides/iinterruptiontokensource/is_interruption_requested/) | Returns true if interruption requested, false otherwise. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [interrupt](/slides/python-net/aspose.slides/iinterruptiontokensource/interrupt/#) | Intialize request for interruption. |
+| [`interrupt`](/slides/python-net/aspose.slides/iinterruptiontokensource/interrupt/#) | Intialize request for interruption. |
 
+### See Also
+* class [`IInterruptionToken`](/slides/python-net/aspose.slides/iinterruptiontoken)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

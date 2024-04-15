@@ -34,3 +34,7 @@ def add_picture_frame(self, shape_type, x, y, width, height, image):
 
 
 
+### See Also
+* class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

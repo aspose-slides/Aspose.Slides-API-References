@@ -96,3 +96,7 @@ def add_from_html(self, html_stream, resolver, uri):
 
 
 
+### See Also
+* class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -46,3 +46,7 @@ def add_embedded_font(self, font_data, embed_font_rule):
 
 
 
+### See Also
+* class [`FontsManager`](/slides/python-net/aspose.slides/fontsmanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

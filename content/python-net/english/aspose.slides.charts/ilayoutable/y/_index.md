@@ -10,7 +10,7 @@ weight: 120
 
 ## y property
 Specifies the top of the chart element as a fraction of the height of the chart.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def y(self):
 def y(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

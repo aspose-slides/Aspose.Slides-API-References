@@ -21,3 +21,7 @@ def after_animation_type(self):
 def after_animation_type(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

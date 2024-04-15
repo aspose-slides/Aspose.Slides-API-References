@@ -10,7 +10,7 @@ weight: 400
 
 ## return_to_parent property
 Gets or sets the navigation behavior in slideshow.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
             Default value: false
 
 
@@ -27,3 +27,7 @@ def return_to_parent(self):
 def return_to_parent(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

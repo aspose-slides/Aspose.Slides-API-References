@@ -18,3 +18,8 @@ Returns the LineFormat properties for text outlining. No inheritance applied.
 def line_format(self):
     ...
 ```
+
+### See Also
+* class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

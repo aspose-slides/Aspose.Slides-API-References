@@ -15,3 +15,7 @@ weight: 30
 def description(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
+* library [`Aspose.Slides`](/slides/python-net)

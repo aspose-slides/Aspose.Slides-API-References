@@ -75,3 +75,6 @@ The TransitionType type exposes the following members:
 | ORIGAMI | Available in PowerPoint 2013. |
 | MORPH | Relates to transition Morph (with option Type) in PowerPoint 2019. |
 
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

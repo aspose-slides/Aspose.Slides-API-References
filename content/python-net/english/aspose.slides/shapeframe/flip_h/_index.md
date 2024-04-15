@@ -18,3 +18,7 @@ Determines whether a frame is flipped horizontally.
 def flip_h(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -9,13 +9,13 @@ weight: 30
 
 
 ## contains {#ibehavior}
-Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value.
+Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value.
 
 ### Returns
 
 true if `
 item`
- is found in the .NET type System.Collections.Generic.ICollection`1; otherwise, false.
+ is found in the **System.Collections.Generic.ICollection`1**; otherwise, false.
 
 
 
@@ -27,7 +27,11 @@ def contains(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IBehavior | The object to locate in the .NET type System.Collections.Generic.ICollection`1. |
+| item | IBehavior | The object to locate in the **System.Collections.Generic.ICollection`1**. |
 
 
 
+### See Also
+* class [`BehaviorCollection`](/slides/python-net/aspose.slides.animation/behaviorcollection)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 290
 
 ## is_automatic_tick_marks_spacing property
 Specifies automatic tick marks spacing value. If false: use TickMarksSpacing property.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_automatic_tick_marks_spacing(self):
 def is_automatic_tick_marks_spacing(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

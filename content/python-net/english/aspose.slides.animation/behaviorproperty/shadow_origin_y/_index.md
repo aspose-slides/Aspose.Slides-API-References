@@ -17,3 +17,7 @@ Represents 'shadow.origin.y' property
 def shadow_origin_y(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

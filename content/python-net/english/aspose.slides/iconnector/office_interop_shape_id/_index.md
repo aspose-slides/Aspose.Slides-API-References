@@ -15,3 +15,7 @@ weight: 380
 def office_interop_shape_id(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

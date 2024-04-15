@@ -18,3 +18,8 @@ Returns a collection of ActiveX properties.
 def properties(self):
     ...
 ```
+
+### See Also
+* class [`IControlPropertiesCollection`](/slides/python-net/aspose.slides/icontrolpropertiescollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

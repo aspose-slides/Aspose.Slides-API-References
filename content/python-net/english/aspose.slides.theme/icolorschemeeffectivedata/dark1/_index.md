@@ -10,7 +10,7 @@ weight: 70
 
 ## dark1 property
 First dark color in the scheme.
-            Read-only .NET type System.Drawing.Color.
+            Read-only **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ First dark color in the scheme.
 def dark1(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 80
 
 ## dark2 property
 Second dark color in the scheme.
-            Read-only .NET type System.Drawing.Color.
+            Read-only **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Second dark color in the scheme.
 def dark2(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

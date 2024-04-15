@@ -18,3 +18,8 @@ Returns an object which allows to change format of the side wall of a 3D chart.
 def side_wall(self):
     ...
 ```
+
+### See Also
+* class [`IChartWall`](/slides/python-net/aspose.slides.charts/ichartwall)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

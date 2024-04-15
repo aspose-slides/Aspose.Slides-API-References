@@ -10,7 +10,7 @@ weight: 190
 
 ## width property
 Returns or sets the width of a plot area bounding box as a fraction of the width of the chart (from 0 to 1).
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def width(self):
 def width(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

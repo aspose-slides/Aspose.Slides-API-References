@@ -10,7 +10,7 @@ weight: 60
 
 ## disable_3d_text property
 Determines whether the 3D text is disabled in SVG.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def disable_3d_text(self):
 def disable_3d_text(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

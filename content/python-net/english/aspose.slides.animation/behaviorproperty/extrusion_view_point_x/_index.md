@@ -17,3 +17,7 @@ Represents 'extrusion.viewpoint.x' property
 def extrusion_view_point_x(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

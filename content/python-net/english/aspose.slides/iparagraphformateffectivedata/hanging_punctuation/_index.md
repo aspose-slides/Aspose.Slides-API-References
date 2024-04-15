@@ -10,7 +10,7 @@ weight: 80
 
 ## hanging_punctuation property
 Determines whether the hanging punctuation is used in a paragraph.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether the hanging punctuation is used in a paragraph.
 def hanging_punctuation(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

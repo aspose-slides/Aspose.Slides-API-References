@@ -21,3 +21,6 @@ The TransitionSpeed type exposes the following members:
 | MEDIUM |  |
 | SLOW |  |
 
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 20
 
 ## get_url {#int-int}
 Returns an URL to an external object.
-            This method always called if Aspose.Slides.Export.ILinkEmbedController.GetObjectStoringLocation(System.Int32,System.Byte[],System.String,System.String,Syste. returned [`LinkEmbedDecision.LINK`](/slides/python-net/aspose.slides.export/linkembeddecision#LINK) and may be called if Aspose.Slides.Export.ILinkEmbedController.GetObjectStoringLocation(System.Int32,System.Byte[],System.String,System.String,Syste. returned [`LinkEmbedDecision.EMBED`](/slides/python-net/aspose.slides.export/linkembeddecision#EMBED) but embedding is impossible.
+            This method always called if **Aspose.Slides.Export.ILinkEmbedController.GetObjectStoringLocation(System.Int32,System.Byte[],System.String,System.String,Syste.** returned [`LinkEmbedDecision.LINK`](/slides/python-net/aspose.slides.export/linkembeddecision#LINK) and may be called if **Aspose.Slides.Export.ILinkEmbedController.GetObjectStoringLocation(System.Int32,System.Byte[],System.String,System.String,Syste.** returned [`LinkEmbedDecision.EMBED`](/slides/python-net/aspose.slides.export/linkembeddecision#EMBED) but embedding is impossible.
             Can be called multiple time for same object id.
 
 ### Returns
@@ -32,3 +32,7 @@ def get_url(self, id, referrer):
 
 
 
+### See Also
+* class [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller)
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

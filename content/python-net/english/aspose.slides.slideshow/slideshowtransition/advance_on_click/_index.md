@@ -11,7 +11,7 @@ weight: 30
 ## advance_on_click property
 Specifies whether a mouse click will advance the slide or not. If this attribute is not
             specified then a value of true is assumed.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def advance_on_click(self):
 def advance_on_click(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

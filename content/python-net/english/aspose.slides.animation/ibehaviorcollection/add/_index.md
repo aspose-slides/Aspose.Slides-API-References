@@ -24,3 +24,7 @@ def add(self, item):
 
 
 
+### See Also
+* class [`IBehaviorCollection`](/slides/python-net/aspose.slides.animation/ibehaviorcollection)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

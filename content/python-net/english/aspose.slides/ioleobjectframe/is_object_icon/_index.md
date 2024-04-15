@@ -10,7 +10,7 @@ weight: 310
 
 ## is_object_icon property
 Determines whether an object is visible as icon.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_object_icon(self):
 def is_object_icon(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

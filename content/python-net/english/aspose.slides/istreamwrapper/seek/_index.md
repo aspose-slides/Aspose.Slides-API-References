@@ -13,7 +13,7 @@ Sets the position within the current stream
 
 ### Returns
 
-The new position within the current stream .NET type System.Int64
+The new position within the current stream **int**
 
 
 
@@ -25,8 +25,12 @@ def seek(self, offset, origin):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| offset | int | A byte offset relative to the origin parameter .NET type System.Int64 |
-| origin | System.IO.SeekOrigin | A value of type .NET type System.IO.SeekOrigin indicating the reference point used to obtain the new position |
+| offset | int | A byte offset relative to the origin parameter **int** |
+| origin | System.IO.SeekOrigin | A value of type **System.IO.SeekOrigin** indicating the reference point used to obtain the new position |
 
 
 
+### See Also
+* class [`IStreamWrapper`](/slides/python-net/aspose.slides/istreamwrapper)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

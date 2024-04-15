@@ -20,3 +20,6 @@ The ZoomImageType type exposes the following members:
 | PREVIEW | Use the image of the slide or section. |
 | COVER | Use a custom image. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

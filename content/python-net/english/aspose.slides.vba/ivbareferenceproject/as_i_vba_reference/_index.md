@@ -23,3 +23,8 @@ For COM compatibility.
 def as_i_vba_reference(self):
     ...
 ```
+
+### See Also
+* class [`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

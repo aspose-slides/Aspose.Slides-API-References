@@ -10,7 +10,7 @@ weight: 280
 
 ## smart_tag_clean property
 Determines whether the smart tag should be cleaned. No inheritance applied.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def smart_tag_clean(self):
 def smart_tag_clean(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

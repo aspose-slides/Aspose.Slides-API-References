@@ -10,7 +10,7 @@ weight: 60
 
 ## jpeg_quality property
 Returns or sets a value determining the quality of the JPEG images inside PDF document.
-            Read/write .NET type System.Byte.
+            Read/write **int**.
 
 
 ### Remarks
@@ -33,3 +33,7 @@ def jpeg_quality(self):
 def jpeg_quality(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

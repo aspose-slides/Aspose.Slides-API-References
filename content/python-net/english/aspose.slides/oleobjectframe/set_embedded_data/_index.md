@@ -29,7 +29,12 @@ def set_embedded_data(self, embedded_data):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | When embeddedData parameter is null. |
+| **System.ArgumentNullException** | When embeddedData parameter is null. |
 
 
 
+### See Also
+* class [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo)
+* class [`OleObjectFrame`](/slides/python-net/aspose.slides/oleobjectframe)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -432,7 +432,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`ColorStringFormat`](/slides/python-net/aspose.slides/colorstringformat/) | Represents a type of hyperlink action. |
 | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation/) | Defines color transform operation. |
 | [`ColorType`](/slides/python-net/aspose.slides/colortype/) | Represents different color modes. |
-| [`ControlType`](/slides/python-net/aspose.slides/controltype/) | Defines a control type which should be embedded by Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste.. |
+| [`ControlType`](/slides/python-net/aspose.slides/controltype/) | Defines a control type which should be embedded by **Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste.**. |
 | [`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode/) | Determines blend mode. |
 | [`FillType`](/slides/python-net/aspose.slides/filltype/) | Specifies the interior fill type of various visual objects. |
 | [`FontAlignment`](/slides/python-net/aspose.slides/fontalignment/) | Represents vertical font alignment. |
@@ -454,7 +454,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`LineSketchType`](/slides/python-net/aspose.slides/linesketchtype/) | Represents which sketch type or effect a shape has been assigned. |
 | [`LineStyle`](/slides/python-net/aspose.slides/linestyle/) | Represents the style of a line. |
 | [`LoadFormat`](/slides/python-net/aspose.slides/loadformat/) | Indicates the format of the document that is to be loaded. |
-| [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior/) | The .NET type System.IO.Stream passed to a method is considered as a Binary Large Object (BLOB) (see <br/>            [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how <br/>            the .NET type System.IO.Stream should be treated when it passed to the method. Depending on the <br/>            requirements, different decisions could be made to provide the most efficient behavior. |
+| [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior/) | The **System.IO.Stream** passed to a method is considered as a Binary Large Object (BLOB) (see <br/>            [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how <br/>            the **System.IO.Stream** should be treated when it passed to the method. Depending on the <br/>            requirements, different decisions could be made to provide the most efficient behavior. |
 | [`MaterialPresetType`](/slides/python-net/aspose.slides/materialpresettype/) | Constants which define material of shape. |
 | [`ModernCommentStatus`](/slides/python-net/aspose.slides/moderncommentstatus/) | Represents the status of a modern comment. |
 | [`NullableBool`](/slides/python-net/aspose.slides/nullablebool/) | Represents triple boolean values. |
@@ -468,7 +468,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`PictureFillMode`](/slides/python-net/aspose.slides/picturefillmode/) | Determines how picture will fill area. |
 | [`PlaceholderSize`](/slides/python-net/aspose.slides/placeholdersize/) | Represents the size of a placeholder. |
 | [`PlaceholderType`](/slides/python-net/aspose.slides/placeholdertype/) | Represents the type of a placeholder. |
-| [`PresentationLockingBehavior`](/slides/python-net/aspose.slides/presentationlockingbehavior/) | Represents the behavior regarding treating the [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) source (file or <br/>            .NET type System.IO.Stream) while loading and working with an instance of [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [`PresentationLockingBehavior`](/slides/python-net/aspose.slides/presentationlockingbehavior/) | Represents the behavior regarding treating the [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) source (file or <br/>            **System.IO.Stream**) while loading and working with an instance of [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [`PresetColor`](/slides/python-net/aspose.slides/presetcolor/) | Represents predefined color presets. |
 | [`PresetShadowType`](/slides/python-net/aspose.slides/presetshadowtype/) | Represents a preset for a shadow effect. |
 | [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment/) | Defines 2-dimension allignment. |

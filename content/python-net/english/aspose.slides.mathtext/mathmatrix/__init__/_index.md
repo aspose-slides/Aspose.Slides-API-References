@@ -25,3 +25,7 @@ def __init__(self, row_count, column_count):
 
 
 
+### See Also
+* class [`MathMatrix`](/slides/python-net/aspose.slides.mathtext/mathmatrix)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

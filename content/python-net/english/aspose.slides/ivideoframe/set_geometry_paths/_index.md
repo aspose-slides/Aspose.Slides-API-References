@@ -24,3 +24,7 @@ def set_geometry_paths(self, geometry_paths):
 
 
 
+### See Also
+* class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

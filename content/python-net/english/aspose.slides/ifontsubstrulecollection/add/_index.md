@@ -24,3 +24,8 @@ def add(self, value):
 
 
 
+### See Also
+* class [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule)
+* class [`IFontSubstRuleCollection`](/slides/python-net/aspose.slides/ifontsubstrulecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

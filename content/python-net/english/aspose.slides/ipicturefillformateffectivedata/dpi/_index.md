@@ -10,7 +10,7 @@ weight: 60
 
 ## dpi property
 Returns the dpi which is used to fill a picture.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the dpi which is used to fill a picture.
 def dpi(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

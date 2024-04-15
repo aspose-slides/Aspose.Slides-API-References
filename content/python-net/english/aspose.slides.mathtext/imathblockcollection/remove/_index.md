@@ -34,3 +34,7 @@ def remove(self, item):
 
 
 
+### See Also
+* class [`IMathBlockCollection`](/slides/python-net/aspose.slides.mathtext/imathblockcollection)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

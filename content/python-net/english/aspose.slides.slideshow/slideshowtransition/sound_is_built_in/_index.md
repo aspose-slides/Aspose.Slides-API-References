@@ -12,7 +12,7 @@ weight: 50
 Specifies whether or not this sound is a built-in sound. If this attribute is set to true then
             the generating application is alerted to check the name attribute specified for this sound
             in it's list of built-in sounds and can then surface a custom name or UI as needed.
-            Read-write .NET type System.Boolean.
+            Read-write **bool**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def sound_is_built_in(self):
 def sound_is_built_in(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

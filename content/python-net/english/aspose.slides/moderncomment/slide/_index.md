@@ -18,3 +18,8 @@ Returns or sets the parent slide of a comment.
 def slide(self):
     ...
 ```
+
+### See Also
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

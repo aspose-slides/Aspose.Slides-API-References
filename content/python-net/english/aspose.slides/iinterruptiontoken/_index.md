@@ -17,11 +17,14 @@ The IInterruptionToken type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [is_interruption_requested](/slides/python-net/aspose.slides/iinterruptiontoken/is_interruption_requested/) | Returns .NET type System.Boolean.true if interruption was requested. |
+| [`is_interruption_requested`](/slides/python-net/aspose.slides/iinterruptiontoken/is_interruption_requested/) | Returns **bool**.true if interruption was requested. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [throw_if_interruption_requested](/slides/python-net/aspose.slides/iinterruptiontoken/throw_if_interruption_requested/#) | Throws an OperationCanceledException if<br/>            interruption was requested.<br/>            Thrown when interruption was requested. |
+| [`throw_if_interruption_requested`](/slides/python-net/aspose.slides/iinterruptiontoken/throw_if_interruption_requested/#) | Throws an OperationCanceledException if<br/>            interruption was requested.<br/>            Thrown when interruption was requested. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

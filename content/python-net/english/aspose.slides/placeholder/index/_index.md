@@ -10,7 +10,7 @@ weight: 10
 
 ## index property
 Gets or sets the index of a placeholder.
-            Read-only .NET type System.UInt32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets or sets the index of a placeholder.
 def index(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

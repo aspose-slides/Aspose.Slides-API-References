@@ -10,7 +10,7 @@ weight: 30
 
 ## whole_words_only property
 Set true to match only whole words, false - otherwise.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def whole_words_only(self):
 def whole_words_only(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

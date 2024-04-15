@@ -13,7 +13,7 @@ Transforms the template with the given key and model object to output.
 
 ### Returns
 
-Resulting output as a .NET type System.String.
+Resulting output as a **string**.
 
 
 
@@ -30,3 +30,7 @@ def compile(self, key, model):
 
 
 
+### See Also
+* class [`ITemplateEngine`](/slides/python-net/aspose.slides.export.web/itemplateengine)
+* module [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web)
+* library [`Aspose.Slides`](/slides/python-net)

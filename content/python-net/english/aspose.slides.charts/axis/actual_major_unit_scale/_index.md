@@ -17,3 +17,7 @@ Specifies actual major unit scale of the axis. Call method IChart.ValidateChartL
 def actual_major_unit_scale(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 20
 
 ## size property
 Represents the marker size in a line chart, scatter chart, or radar chart.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def size(self):
 def size(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

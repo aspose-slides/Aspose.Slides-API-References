@@ -14,7 +14,7 @@ Get coordinates of rect that bounds portion. The rect includes all the lines of
 
 ### Returns
 
-Rectangle that bounds portion .NET type System.Drawing.RectangleF
+Rectangle that bounds portion **aspose.pydrawing.RectangleF**
 
 
 
@@ -26,3 +26,7 @@ def get_rect(self):
 
 
 
+### See Also
+* class [`IPortion`](/slides/python-net/aspose.slides/iportion)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

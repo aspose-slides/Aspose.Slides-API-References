@@ -10,7 +10,7 @@ weight: 70
 
 ## preset_number_format property
 Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49].
-             Read/write .NET type System.Byte.
+             Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def preset_number_format(self):
 def preset_number_format(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

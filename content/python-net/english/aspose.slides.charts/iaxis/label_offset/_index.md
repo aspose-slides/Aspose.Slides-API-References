@@ -10,7 +10,7 @@ weight: 370
 
 ## label_offset property
 Specifies the distance of labels from the axis. Applied to category or date axis. Value must be between 0% and 1000%.
-            Read/write .NET type System.UInt16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def label_offset(self):
 def label_offset(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

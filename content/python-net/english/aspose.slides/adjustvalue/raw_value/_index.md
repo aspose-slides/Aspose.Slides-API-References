@@ -10,7 +10,7 @@ weight: 30
 
 ## raw_value property
 Returns or sets ajustment value "as is".
-            Read/write .NET type System.Int64.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def raw_value(self):
 def raw_value(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

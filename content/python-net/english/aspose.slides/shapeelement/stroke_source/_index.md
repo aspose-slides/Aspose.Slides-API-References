@@ -18,3 +18,7 @@ Returns information about how to stroke an element.
 def stroke_source(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

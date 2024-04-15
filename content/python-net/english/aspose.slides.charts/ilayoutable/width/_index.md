@@ -10,7 +10,7 @@ weight: 100
 
 ## width property
 Specifies the width of the chart element as a fraction of the width of the chart.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def width(self):
 def width(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

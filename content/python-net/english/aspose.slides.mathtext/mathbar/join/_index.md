@@ -50,3 +50,7 @@ def join(self, math_text):
 
 
 
+### See Also
+* class [`MathBar`](/slides/python-net/aspose.slides.mathtext/mathbar)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

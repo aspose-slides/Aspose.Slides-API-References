@@ -18,3 +18,8 @@ Returns main sequence which may contain only main effects collection.
 def main_sequence(self):
     ...
 ```
+
+### See Also
+* class [`ISequence`](/slides/python-net/aspose.slides.animation/isequence)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

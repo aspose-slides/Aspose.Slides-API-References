@@ -47,3 +47,8 @@ def enclose(self, beginning_character, ending_character):
 
 
 
+### See Also
+* class [`IMathDelimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiter)
+* class [`MathRadical`](/slides/python-net/aspose.slides.mathtext/mathradical)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

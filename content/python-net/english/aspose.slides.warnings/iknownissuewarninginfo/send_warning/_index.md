@@ -24,3 +24,7 @@ def send_warning(self, receiver):
 
 
 
+### See Also
+* class [`IKnownIssueWarningInfo`](/slides/python-net/aspose.slides.warnings/iknownissuewarninginfo)
+* module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
+* library [`Aspose.Slides`](/slides/python-net)

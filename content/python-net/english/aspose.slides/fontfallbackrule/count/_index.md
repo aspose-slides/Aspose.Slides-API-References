@@ -10,7 +10,7 @@ weight: 90
 
 ## count property
 Gets the number of fonts actually defined for range.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets the number of fonts actually defined for range.
 def count(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

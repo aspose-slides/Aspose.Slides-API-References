@@ -10,7 +10,7 @@ weight: 100
 
 ## custom_dash_pattern property
 Returns or sets the custom dash pattern.
-            Read/write .NET type System.Single[].
+            Read/write **float**[].
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def custom_dash_pattern(self):
 def custom_dash_pattern(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

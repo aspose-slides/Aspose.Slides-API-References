@@ -11,7 +11,7 @@ weight: 480
 ## smooth property
 Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart.
             Applies only to line and scatter connected by lines charts.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def smooth(self):
 def smooth(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

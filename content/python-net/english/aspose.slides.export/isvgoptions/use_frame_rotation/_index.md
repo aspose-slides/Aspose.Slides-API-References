@@ -10,7 +10,7 @@ weight: 140
 
 ## use_frame_rotation property
 Determines whether to perform the specified rotation of the shape when rendering or not.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
             Default value is true.
 
 ### Definition:
@@ -22,3 +22,7 @@ def use_frame_rotation(self):
 def use_frame_rotation(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

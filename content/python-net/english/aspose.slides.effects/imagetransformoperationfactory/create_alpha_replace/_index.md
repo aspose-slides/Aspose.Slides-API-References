@@ -29,3 +29,7 @@ def create_alpha_replace(self, alpha):
 
 
 
+### See Also
+* class [`ImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/imagetransformoperationfactory)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

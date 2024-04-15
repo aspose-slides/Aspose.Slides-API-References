@@ -10,7 +10,7 @@ weight: 30
 
 ## bookmark_id property
 Returns bookmark identifier.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns bookmark identifier.
 def bookmark_id(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

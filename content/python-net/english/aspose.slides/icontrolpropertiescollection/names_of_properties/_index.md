@@ -10,7 +10,7 @@ weight: 60
 
 ## names_of_properties property
 Returns a number of properties in the collection.
-            Read-only .NET type System.Collections.ICollection.
+            Read-only **list**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns a number of properties in the collection.
 def names_of_properties(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

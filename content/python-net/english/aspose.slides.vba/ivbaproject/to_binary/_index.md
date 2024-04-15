@@ -10,7 +10,7 @@ weight: 10
 
 ## to_binary {#}
 Returns the binary representation of the VBA project as OLE container.
-            Read-only .NET type System.Byte[].
+            Read-only **int**[].
 
 ### Returns
 
@@ -26,3 +26,7 @@ def to_binary(self):
 
 
 
+### See Also
+* class [`IVbaProject`](/slides/python-net/aspose.slides.vba/ivbaproject)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

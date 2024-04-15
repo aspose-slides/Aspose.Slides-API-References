@@ -9,8 +9,8 @@ weight: 160
 
 
 ## is_read_only property
-Gets a value indicating whether the .NET type System.Collections.Generic.ICollection`1 is read-only.
-            Read-only .NET type System.Boolean.
+Gets a value indicating whether the **System.Collections.Generic.ICollection`1** is read-only.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets a value indicating whether the .NET type System.Collections.Generic.ICollec
 def is_read_only(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

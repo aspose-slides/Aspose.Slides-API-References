@@ -11,7 +11,7 @@ weight: 200
 ## created_time property
 Returns the date a presentation was created.
             Values are in UTC.
-            Read/write .NET type System.DateTime.
+            Read/write **System.DateTime**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def created_time(self):
 def created_time(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 340
 
 ## is_plot_order_reversed property
 Represents if MS PowerPoint plots data points from last to first.
-             Read/write .NET type System.Boolean.
+             Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_plot_order_reversed(self):
 def is_plot_order_reversed(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

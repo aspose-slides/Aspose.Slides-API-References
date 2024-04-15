@@ -17,5 +17,8 @@ The IVbaReference type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [name](/slides/python-net/aspose.slides.vba/ivbareference/name/) | Represents the name of the VBA project reference.<br/>            Read/write .NET type System.String. |
+| [`name`](/slides/python-net/aspose.slides.vba/ivbareference/name/) | Represents the name of the VBA project reference.<br/>            Read/write **string**. |
 
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 20
 
 ## animate_shapes property
 Returns or sets shapes animation option.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def animate_shapes(self):
 def animate_shapes(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web)
+* library [`Aspose.Slides`](/slides/python-net)

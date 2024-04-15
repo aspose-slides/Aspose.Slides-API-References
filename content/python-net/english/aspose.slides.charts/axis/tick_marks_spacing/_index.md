@@ -11,7 +11,7 @@ weight: 610
 ## tick_marks_spacing property
 Specifies how many tick marks shall be skipped before the next one shall be 
             drawn. Applied to category or series axis.
-            Read/write .NET type System.UInt16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def tick_marks_spacing(self):
 def tick_marks_spacing(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

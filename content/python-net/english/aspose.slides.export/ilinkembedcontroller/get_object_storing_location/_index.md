@@ -35,3 +35,7 @@ def get_object_storing_location(self, id, entity_data, semantic_name, content_ty
 
 
 
+### See Also
+* class [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller)
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

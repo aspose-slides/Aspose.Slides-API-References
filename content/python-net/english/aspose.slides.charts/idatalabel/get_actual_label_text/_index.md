@@ -13,7 +13,7 @@ Returns actual label text based on DataLabelFormat settings or TextFrameForOverr
 
 ### Returns
 
-Actual label text .NET type System.String
+Actual label text **string**
 
 
 
@@ -25,3 +25,7 @@ def get_actual_label_text(self):
 
 
 
+### See Also
+* class [`IDataLabel`](/slides/python-net/aspose.slides.charts/idatalabel)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -23,3 +23,8 @@ For COM compatibility.
 def as_i_themeable(self):
     ...
 ```
+
+### See Also
+* class [`IThemeable`](/slides/python-net/aspose.slides.theme/ithemeable)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

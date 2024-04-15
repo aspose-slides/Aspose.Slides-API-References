@@ -12,7 +12,7 @@ weight: 30
 A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped 
             parts will removed, if false they will be serialized in the document (which can possible lead to a 
             larger file)
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def delete_pictures_cropped_areas(self):
 def delete_pictures_cropped_areas(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

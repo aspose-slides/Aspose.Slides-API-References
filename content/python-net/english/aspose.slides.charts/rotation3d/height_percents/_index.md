@@ -10,7 +10,7 @@ weight: 20
 
 ## height_percents property
 Specifies the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent).
-            Read/write .NET type System.UInt16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def height_percents(self):
 def height_percents(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

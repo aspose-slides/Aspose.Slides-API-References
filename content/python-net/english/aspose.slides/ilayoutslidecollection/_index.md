@@ -17,8 +17,8 @@ The ILayoutSlideCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/ilayoutslidecollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/ilayoutslidecollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides/ilayoutslidecollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides/ilayoutslidecollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -30,7 +30,10 @@ The ILayoutSlideCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [get_by_type](/slides/python-net/aspose.slides/ilayoutslidecollection/get_by_type/#slidelayouttype) | Returns the first layout slide of specified type. |
-| [remove](/slides/python-net/aspose.slides/ilayoutslidecollection/remove/#ilayoutslide) | Removes a layout from the collection. |
-| [remove_unused](/slides/python-net/aspose.slides/ilayoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [`get_by_type`](/slides/python-net/aspose.slides/ilayoutslidecollection/get_by_type/#slidelayouttype) | Returns the first layout slide of specified type. |
+| [`remove`](/slides/python-net/aspose.slides/ilayoutslidecollection/remove/#ilayoutslide) | Removes a layout from the collection. |
+| [`remove_unused`](/slides/python-net/aspose.slides/ilayoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

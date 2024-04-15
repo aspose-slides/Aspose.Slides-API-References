@@ -17,7 +17,7 @@ This property makes sense, if presentation file is password protected.
             If presentation isn't encrypted then property value is always ignored.
             If document properties of an encrypted file aren't public and property value is true then
             document properties cannot be loaded and exception will be thrown.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -28,3 +28,7 @@ def only_load_document_properties(self):
 def only_load_document_properties(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

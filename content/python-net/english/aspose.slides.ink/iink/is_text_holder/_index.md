@@ -15,3 +15,7 @@ weight: 270
 def is_text_holder(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

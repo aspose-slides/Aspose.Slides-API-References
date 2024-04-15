@@ -90,3 +90,7 @@ def as_argument_of_function(self, function_type, additional_argument):
 
 
 
+### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

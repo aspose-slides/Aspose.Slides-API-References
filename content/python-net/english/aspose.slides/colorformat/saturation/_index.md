@@ -11,7 +11,7 @@ weight: 180
 ## saturation property
 Returns or sets the saturation component of a color in HSL representation.
             All color transformations are ignored.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def saturation(self):
 def saturation(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

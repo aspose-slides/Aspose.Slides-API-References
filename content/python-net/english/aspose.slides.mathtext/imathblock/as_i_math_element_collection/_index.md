@@ -18,3 +18,8 @@ Allows to get base IMathElementCollection interface
 def as_i_math_element_collection(self):
     ...
 ```
+
+### See Also
+* class [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

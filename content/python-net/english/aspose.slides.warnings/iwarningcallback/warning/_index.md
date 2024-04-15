@@ -29,3 +29,7 @@ def warning(self, warning):
 
 
 
+### See Also
+* class [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback)
+* module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
+* library [`Aspose.Slides`](/slides/python-net)

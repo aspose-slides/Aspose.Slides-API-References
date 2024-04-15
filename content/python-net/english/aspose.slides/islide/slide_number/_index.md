@@ -11,7 +11,7 @@ weight: 290
 ## slide_number property
 Returns a number of slide.
             Index of slide in [`IPresentation.slides`](/slides/python-net/aspose.slides/ipresentation#slides) collection is always equal to SlideNumber - 1.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def slide_number(self):
 def slide_number(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

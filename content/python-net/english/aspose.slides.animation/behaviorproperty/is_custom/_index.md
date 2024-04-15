@@ -18,3 +18,7 @@ Shows if this property does not belong to the predefined properties list in the 
 def is_custom(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

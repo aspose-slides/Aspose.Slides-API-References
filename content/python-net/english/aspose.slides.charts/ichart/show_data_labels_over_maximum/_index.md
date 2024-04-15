@@ -10,7 +10,7 @@ weight: 580
 
 ## show_data_labels_over_maximum property
 Specifies data labels over the maximum of the chart shall be shown.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def show_data_labels_over_maximum(self):
 def show_data_labels_over_maximum(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

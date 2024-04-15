@@ -18,3 +18,8 @@ Current date and time in a twelfth predefined format (hh:mm AM/PM for english).
 def date_time12(self):
     ...
 ```
+
+### See Also
+* class [`FieldType`](/slides/python-net/aspose.slides/fieldtype)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

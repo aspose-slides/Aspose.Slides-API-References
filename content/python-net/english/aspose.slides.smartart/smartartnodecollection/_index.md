@@ -17,8 +17,8 @@ The SmartArtNodeCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides.smartart/smartartnodecollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.smartart/smartartnodecollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -30,8 +30,11 @@ The SmartArtNodeCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [remove_node](/slides/python-net/aspose.slides.smartart/smartartnodecollection/remove_node/#int) | Remove node or sub node by index |
-| [remove_node](/slides/python-net/aspose.slides.smartart/smartartnodecollection/remove_node/#ismartartnode) | Remove node or sub node |
-| [add_node](/slides/python-net/aspose.slides.smartart/smartartnodecollection/add_node/#) | Add new smart art node or sub node. |
-| [add_node_by_position](/slides/python-net/aspose.slides.smartart/smartartnodecollection/add_node_by_position/#int) | Add new node in the selected position of nodes collection |
+| [`remove_node`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/remove_node/#int) | Remove node or sub node by index |
+| [`remove_node`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/remove_node/#ismartartnode) | Remove node or sub node |
+| [`add_node`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/add_node/#) | Add new smart art node or sub node. |
+| [`add_node_by_position`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/add_node_by_position/#int) | Add new node in the selected position of nodes collection |
 
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

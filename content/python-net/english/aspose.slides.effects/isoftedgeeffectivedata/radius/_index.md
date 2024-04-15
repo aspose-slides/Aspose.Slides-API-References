@@ -10,7 +10,7 @@ weight: 20
 
 ## radius property
 Specifies the radius of blur to apply to the edges.
-            Read-only .NET type System.Double.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Specifies the radius of blur to apply to the edges.
 def radius(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

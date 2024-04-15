@@ -10,7 +10,7 @@ weight: 70
 
 ## encryption_password property
 Gets the password which is used for presentation encryption.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets the password which is used for presentation encryption.
 def encryption_password(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

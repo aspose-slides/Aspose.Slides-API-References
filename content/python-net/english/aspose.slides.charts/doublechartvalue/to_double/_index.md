@@ -9,7 +9,7 @@ weight: 10
 
 
 ## to_double {#}
-Converts to .NET type System.Double.
+Converts to **float**.
 
 ### Returns
 
@@ -26,3 +26,7 @@ def to_double(self):
 
 
 
+### See Also
+* class [`DoubleChartValue`](/slides/python-net/aspose.slides.charts/doublechartvalue)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

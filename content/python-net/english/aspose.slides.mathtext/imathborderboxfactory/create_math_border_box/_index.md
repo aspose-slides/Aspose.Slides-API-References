@@ -58,3 +58,7 @@ def create_math_border_box(self, element, hide_top, hide_bottom, hide_left, hide
 
 
 
+### See Also
+* class [`IMathBorderBoxFactory`](/slides/python-net/aspose.slides.mathtext/imathborderboxfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

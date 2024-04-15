@@ -10,7 +10,7 @@ weight: 100
 
 ## rectangle property
 Returns the coordinates of a frame.
-            Read-only .NET type System.Drawing.RectangleF.
+            Read-only **aspose.pydrawing.RectangleF**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the coordinates of a frame.
 def rectangle(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

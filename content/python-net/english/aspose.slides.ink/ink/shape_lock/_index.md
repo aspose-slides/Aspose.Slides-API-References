@@ -18,3 +18,8 @@ Returns shape's locks.
 def shape_lock(self):
     ...
 ```
+
+### See Also
+* class [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock)
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`IOuterShadowEffectiveData`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata)
+* class [`OuterShadow`](/slides/python-net/aspose.slides.effects/outershadow)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

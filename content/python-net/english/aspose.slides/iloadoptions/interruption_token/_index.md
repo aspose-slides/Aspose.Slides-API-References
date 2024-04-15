@@ -24,3 +24,9 @@ def interruption_token(self):
 def interruption_token(self, value):
     ...
 ```
+
+### See Also
+* class [`IInterruptionTokenSource`](/slides/python-net/aspose.slides/iinterruptiontokensource)
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

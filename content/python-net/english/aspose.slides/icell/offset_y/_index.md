@@ -10,7 +10,7 @@ weight: 220
 
 ## offset_y property
 Returns a distance from top side of a table to top side of a cell.
-            Read-only .NET type System.Double.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns a distance from top side of a table to top side of a cell.
 def offset_y(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -11,7 +11,7 @@ weight: 120
 ## show_bubble_size property
 Represents a specified chart's data label bubble size value display behavior. 
             True displays the bubble size value. False to hide.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -33,3 +33,7 @@ def show_bubble_size(self):
 def show_bubble_size(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

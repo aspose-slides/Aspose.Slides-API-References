@@ -10,7 +10,7 @@ weight: 60
 
 ## edit_points_locked property
 Determines whether a direct changing of contour of this shape is forbidden.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def edit_points_locked(self):
 def edit_points_locked(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

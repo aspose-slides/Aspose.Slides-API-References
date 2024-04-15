@@ -18,3 +18,7 @@ Gets format of the binded presentation.
 def load_format(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

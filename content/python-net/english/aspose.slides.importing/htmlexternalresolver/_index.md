@@ -18,18 +18,21 @@ The HtmlExternalResolver type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.importing/htmlexternalresolver/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/__init__/#) |  |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [as_i_external_resource_resolver](/slides/python-net/aspose.slides.importing/htmlexternalresolver/as_i_external_resource_resolver/) |  |
+| [`as_i_external_resource_resolver`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/as_i_external_resource_resolver/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [resolve_uri](/slides/python-net/aspose.slides.importing/htmlexternalresolver/resolve_uri/#string-string) | Resolves the absolute URI from the base and relative URIs. |
-| [get_entity](/slides/python-net/aspose.slides.importing/htmlexternalresolver/get_entity/#string) | Maps a URI to an object containing the actual resource. |
+| [`resolve_uri`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/resolve_uri/#string-string) | Resolves the absolute URI from the base and relative URIs. |
+| [`get_entity`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/get_entity/#string) | Maps a URI to an object containing the actual resource. |
 
+### See Also
+* module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)
+* library [`Aspose.Slides`](/slides/python-net)

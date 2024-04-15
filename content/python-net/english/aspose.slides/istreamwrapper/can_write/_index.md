@@ -10,7 +10,7 @@ weight: 110
 
 ## can_write property
 Gets a value indicating whether the current stream supports writing.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets a value indicating whether the current stream supports writing.
 def can_write(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -15,7 +15,7 @@ Specifies the space between bar or column clusters, as a percentage of the bar o
             is read-only.
             Use ParentSeriesGroup property for access to parent series group.
             Use ParentSeriesGroup.GapWidth read/write property for change value.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 
 ### Remarks
@@ -28,3 +28,7 @@ This is the projection of the property ParentSeriesGroup.GapWidth.
 def gap_width(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

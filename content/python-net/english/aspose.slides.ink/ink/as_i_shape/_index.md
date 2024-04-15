@@ -15,3 +15,7 @@ weight: 110
 def as_i_shape(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

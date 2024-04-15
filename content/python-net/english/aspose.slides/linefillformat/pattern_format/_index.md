@@ -18,3 +18,8 @@ Returns the pattern fill format.
 def pattern_format(self):
     ...
 ```
+
+### See Also
+* class [`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

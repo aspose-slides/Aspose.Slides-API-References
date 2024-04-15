@@ -10,7 +10,7 @@ weight: 80
 
 ## zoom property
 Camera zoom (positive value in percentage).
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def zoom(self):
 def zoom(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

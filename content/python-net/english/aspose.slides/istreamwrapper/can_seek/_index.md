@@ -10,7 +10,7 @@ weight: 100
 
 ## can_seek property
 Gets a value indicating whether the current stream supports seeking.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets a value indicating whether the current stream supports seeking.
 def can_seek(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

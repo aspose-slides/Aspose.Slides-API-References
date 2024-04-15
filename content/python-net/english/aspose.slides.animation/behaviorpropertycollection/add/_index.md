@@ -24,3 +24,7 @@ def add(self, property_value):
 
 
 
+### See Also
+* class [`BehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/behaviorpropertycollection)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

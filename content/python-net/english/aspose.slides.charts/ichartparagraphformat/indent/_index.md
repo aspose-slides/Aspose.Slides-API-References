@@ -10,7 +10,7 @@ weight: 60
 
 ## indent property
 Returns or sets paragraph First Line Indent/Hanging Indent. Hanging Indent can be defined with negative values.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def indent(self):
 def indent(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -22,3 +22,8 @@ def east_asian_font(self):
 def east_asian_font(self, value):
     ...
 ```
+
+### See Also
+* class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

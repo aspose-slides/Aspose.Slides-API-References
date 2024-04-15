@@ -18,3 +18,8 @@ If the Hyperlink targets specific slide returns this slide.
 def target_slide(self):
     ...
 ```
+
+### See Also
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

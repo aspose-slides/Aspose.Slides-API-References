@@ -58,7 +58,15 @@ This method adds worksheet with name AUTO_DATA and adds all values there.  If yo
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | if limit exceeded |
+| **System.InvalidOperationException** | if limit exceeded |
 
 
 
+### See Also
+* class [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory)
+* class [`ChartCategoryCollection`](/slides/python-net/aspose.slides.charts/chartcategorycollection)
+* class [`ChartDataWorkbook`](/slides/python-net/aspose.slides.charts/chartdataworkbook)
+* class [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory)
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

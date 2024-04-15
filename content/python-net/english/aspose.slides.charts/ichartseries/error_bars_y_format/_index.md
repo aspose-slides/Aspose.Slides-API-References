@@ -24,3 +24,8 @@ Represents ErrorBars of series with derection Y.
 def error_bars_y_format(self):
     ...
 ```
+
+### See Also
+* class [`IErrorBarsFormat`](/slides/python-net/aspose.slides.charts/ierrorbarsformat)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

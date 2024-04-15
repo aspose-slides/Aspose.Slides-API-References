@@ -10,7 +10,7 @@ weight: 30
 
 ## grouping_locked property
 Determines whether adding this shape to a group is forbidden.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def grouping_locked(self):
 def grouping_locked(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 140
 
 ## is_color_varied property
 Specifies that each data marker in the series has a different color.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_color_varied(self):
 def is_color_varied(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

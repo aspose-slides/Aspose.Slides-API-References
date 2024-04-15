@@ -10,7 +10,7 @@ weight: 140
 
 ## index property
 Determines which of the parent's children collection this data point applies to.
-            Read .NET type System.UInt32.
+            Read **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines which of the parent's children collection this data point applies to.
 def index(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

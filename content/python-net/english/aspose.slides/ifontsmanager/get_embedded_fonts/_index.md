@@ -25,3 +25,8 @@ def get_embedded_fonts(self):
 
 
 
+### See Also
+* class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
+* class [`IFontsManager`](/slides/python-net/aspose.slides/ifontsmanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

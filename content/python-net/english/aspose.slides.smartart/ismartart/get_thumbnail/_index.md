@@ -38,3 +38,7 @@ def get_thumbnail(self, bounds, scale_x, scale_y):
 
 
 
+### See Also
+* class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

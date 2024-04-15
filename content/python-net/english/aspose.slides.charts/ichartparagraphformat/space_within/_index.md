@@ -10,7 +10,7 @@ weight: 130
 
 ## space_within property
 Returns or sets the amount of space between base lines in a paragraph.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def space_within(self):
 def space_within(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

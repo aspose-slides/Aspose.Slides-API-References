@@ -10,7 +10,7 @@ weight: 30
 
 ## drilldown_locked property
 Determines whether selecting subshapes of this object is forbidden.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def drilldown_locked(self):
 def drilldown_locked(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -89,3 +89,7 @@ def create_mathematical_text(self, math_text, portion_format):
 
 
 
+### See Also
+* class [`MathematicalTextFactory`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -20,8 +20,12 @@ def __init__(self, origin_font_name, subst_font_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| origin_font_name | string | Source font name in presentation .NET type System.String |
-| subst_font_name | string | Replacement font name for the original font .NET type System.String |
+| origin_font_name | string | Source font name in presentation **string** |
+| subst_font_name | string | Replacement font name for the original font **string** |
 
 
 
+### See Also
+* class [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -17,11 +17,14 @@ The IMathParagraphFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_paragraph](/slides/python-net/aspose.slides.mathtext/imathparagraphfactory/create_math_paragraph/#) | Create empty math paragraph |
-| [create_math_paragraph](/slides/python-net/aspose.slides.mathtext/imathparagraphfactory/create_math_paragraph/#imathblock) | Creates a math paragraph and places the specified math block in it |
+| [`create_math_paragraph`](/slides/python-net/aspose.slides.mathtext/imathparagraphfactory/create_math_paragraph/#) | Create empty math paragraph |
+| [`create_math_paragraph`](/slides/python-net/aspose.slides.mathtext/imathparagraphfactory/create_math_paragraph/#imathblock) | Creates a math paragraph and places the specified math block in it |
 
 
 ### Remarks
 
 For COM comparibility
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

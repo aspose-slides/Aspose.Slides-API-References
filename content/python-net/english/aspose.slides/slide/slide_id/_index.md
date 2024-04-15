@@ -10,7 +10,7 @@ weight: 280
 
 ## slide_id property
 Returns the ID of a slide.
-            Read-only .NET type System.UInt32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the ID of a slide.
 def slide_id(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

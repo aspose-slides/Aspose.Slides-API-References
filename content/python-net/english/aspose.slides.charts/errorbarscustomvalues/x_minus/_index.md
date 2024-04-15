@@ -20,3 +20,8 @@ Specifies the error bar value in the negative direction.
 def x_minus(self):
     ...
 ```
+
+### See Also
+* class [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

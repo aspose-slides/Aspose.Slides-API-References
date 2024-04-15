@@ -11,7 +11,7 @@ weight: 20
 ## position property
 Returns position of a tab.
             Assigning this property can change tab's index in collection and invalidate Enumerator.
-            Read-only .NET type System.Double.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -19,3 +19,7 @@ Returns position of a tab.
 def position(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

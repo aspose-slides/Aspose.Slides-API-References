@@ -12,7 +12,7 @@ weight: 70
 Specifies the certain attribute of a effect after an animation effect.
             Represents point value.
             Only: bool, ColorFormat, float, int, string.
-            Read/write .NET type System.Object.
+            Read/write **any**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def to(self):
 def to(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

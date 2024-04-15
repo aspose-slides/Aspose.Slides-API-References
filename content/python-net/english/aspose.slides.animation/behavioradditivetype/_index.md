@@ -24,3 +24,6 @@ The BehaviorAdditiveType type exposes the following members:
 | REPLACE |  |
 | MULTIPLY |  |
 
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

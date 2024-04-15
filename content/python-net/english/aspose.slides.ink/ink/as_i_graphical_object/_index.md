@@ -15,3 +15,7 @@ weight: 80
 def as_i_graphical_object(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

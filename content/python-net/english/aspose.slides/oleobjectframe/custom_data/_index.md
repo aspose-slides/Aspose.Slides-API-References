@@ -18,3 +18,8 @@ Returns the shape's custom data.
 def custom_data(self):
     ...
 ```
+
+### See Also
+* class [`ICustomData`](/slides/python-net/aspose.slides/icustomdata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

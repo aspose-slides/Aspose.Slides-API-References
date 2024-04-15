@@ -10,7 +10,7 @@ weight: 120
 
 ## rotation_center property
 Describes the center of the rotation used to rotate a motion path by X angle.
-            Read/write .NET type System.Drawing.PointF.
+            Read/write **aspose.pydrawing.PointF**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def rotation_center(self):
 def rotation_center(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

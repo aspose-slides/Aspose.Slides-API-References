@@ -10,7 +10,7 @@ weight: 110
 
 ## separator property
 Sets or returns a Variant representing the separator used for the data labels on a chart.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 
 ### Remarks
@@ -32,3 +32,7 @@ def separator(self):
 def separator(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

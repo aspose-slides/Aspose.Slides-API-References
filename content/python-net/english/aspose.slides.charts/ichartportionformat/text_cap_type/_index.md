@@ -18,3 +18,7 @@ def text_cap_type(self):
 def text_cap_type(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -25,3 +25,8 @@ def create_shape_elements(self):
 
 
 
+### See Also
+* class [`ShapeElement`](/slides/python-net/aspose.slides/shapeelement)
+* class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

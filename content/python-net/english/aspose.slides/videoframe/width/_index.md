@@ -10,7 +10,7 @@ weight: 610
 
 ## width property
 Returns or sets the width of the shape.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 
 ### Remarks
@@ -27,3 +27,7 @@ def width(self):
 def width(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

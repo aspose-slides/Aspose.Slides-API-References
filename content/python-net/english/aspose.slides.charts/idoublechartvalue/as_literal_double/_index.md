@@ -10,7 +10,7 @@ weight: 50
 
 ## as_literal_double property
 Returns or sets literal double value if DataSourceType = Charts.DataSourceType.DoubleLiterals.
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def as_literal_double(self):
 def as_literal_double(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

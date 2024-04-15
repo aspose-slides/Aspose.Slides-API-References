@@ -10,7 +10,7 @@ weight: 10
 
 ## actual_bullet_value property
 Returns actual bullet value for parent paragraph.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns actual bullet value for parent paragraph.
 def actual_bullet_value(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

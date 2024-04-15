@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`IReflectionEffectiveData`](/slides/python-net/aspose.slides.effects/ireflectioneffectivedata)
+* class [`Reflection`](/slides/python-net/aspose.slides.effects/reflection)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

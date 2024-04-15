@@ -21,3 +21,6 @@ The SvgExternalFontsHandling type exposes the following members:
 | EMBED | Save fonts data directly to SVG file. Please check all external fonts license agreements before using this option. |
 | VECTORIZE | Save all text using external fonts as graphics. |
 
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

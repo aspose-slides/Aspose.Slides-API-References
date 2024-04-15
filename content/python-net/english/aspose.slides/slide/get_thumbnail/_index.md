@@ -64,7 +64,7 @@ def get_thumbnail(self, options):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
+| **System.InvalidOperationException** | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
 
 
 
@@ -91,7 +91,7 @@ def get_thumbnail(self, notes_comments_layouting):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -118,7 +118,7 @@ def get_thumbnail(self, options):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -168,7 +168,7 @@ def get_thumbnail(self, notes_comments_layouting, image_size):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -196,7 +196,7 @@ def get_thumbnail(self, options, image_size):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -225,7 +225,7 @@ def get_thumbnail(self, notes_comments_layouting, scale_x, scale_y):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -254,7 +254,11 @@ def get_thumbnail(self, options, scale_x, scale_y):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
+### See Also
+* class [`Slide`](/slides/python-net/aspose.slides/slide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

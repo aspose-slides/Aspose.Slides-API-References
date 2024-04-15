@@ -25,3 +25,8 @@ def to_math_array(self):
 
 
 
+### See Also
+* class [`BaseScript`](/slides/python-net/aspose.slides.mathtext/basescript)
+* class [`IMathArray`](/slides/python-net/aspose.slides.mathtext/imatharray)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

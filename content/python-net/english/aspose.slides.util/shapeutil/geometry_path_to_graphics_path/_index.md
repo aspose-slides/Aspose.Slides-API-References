@@ -9,10 +9,10 @@ weight: 10
 
 
 ## geometry_path_to_graphics_path {#igeometrypath}
-Converts [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) to .NET type System.Drawing.Drawing2D.GraphicsPath.
+Converts [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) to **aspose.pydrawing.Drawing2D.GraphicsPath**.
             
             GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into
-            the [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) to use in [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape) via Aspose.Slides.Util.ShapeUtil.GraphicsPathToGeometryPath(System.Drawing.Drawing2. method.
+            the [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) to use in [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape) via **Aspose.Slides.Util.ShapeUtil.GraphicsPathToGeometryPath(System.Drawing.Drawing2.** method.
 
 ### Returns
 
@@ -32,3 +32,9 @@ def geometry_path_to_graphics_path(self, geometry_path):
 
 
 
+### See Also
+* class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
+* class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
+* class [`ShapeUtil`](/slides/python-net/aspose.slides.util/shapeutil)
+* module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)
+* library [`Aspose.Slides`](/slides/python-net)

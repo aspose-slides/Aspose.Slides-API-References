@@ -18,3 +18,7 @@ Returns information about from which format presentation was loaded.
 def source_format(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

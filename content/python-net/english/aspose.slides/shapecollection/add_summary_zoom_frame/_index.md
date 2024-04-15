@@ -25,10 +25,10 @@ def add_summary_zoom_frame(self, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of a new Section Zoom frame .NET type System.Single. |
-| y | float | Y coordinate of a new Section Zoom frame .NET type System.Single. |
-| width | float | Width of a new Section Zoom frame .NET type System.Single. |
-| height | float | Height of a new Section Zoom frame .NET type System.Single. |
+| x | float | X coordinate of a new Section Zoom frame **float**. |
+| y | float | Y coordinate of a new Section Zoom frame **float**. |
+| width | float | Width of a new Section Zoom frame **float**. |
+| height | float | Height of a new Section Zoom frame **float**. |
 
 ### Remarks
 
@@ -42,3 +42,9 @@ This method creates a new Summary Zoom and puts a collection of objects into it 
 
 
 
+### See Also
+* class [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe)
+* class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
+* class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

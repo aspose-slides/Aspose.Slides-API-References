@@ -24,3 +24,8 @@ Properties of corresponding legend entry in case of chart type from this list:
 def related_legend_entry(self):
     ...
 ```
+
+### See Also
+* class [`ILegendEntryProperties`](/slides/python-net/aspose.slides.charts/ilegendentryproperties)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

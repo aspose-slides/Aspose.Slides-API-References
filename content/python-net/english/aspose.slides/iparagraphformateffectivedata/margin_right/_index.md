@@ -10,7 +10,7 @@ weight: 120
 
 ## margin_right property
 Returns the right margin in a paragraph.
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the right margin in a paragraph.
 def margin_right(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

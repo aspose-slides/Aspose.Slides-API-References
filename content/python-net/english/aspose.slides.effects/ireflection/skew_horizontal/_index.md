@@ -10,7 +10,7 @@ weight: 130
 
 ## skew_horizontal property
 Specifies the horizontal skew angle.
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def skew_horizontal(self):
 def skew_horizontal(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

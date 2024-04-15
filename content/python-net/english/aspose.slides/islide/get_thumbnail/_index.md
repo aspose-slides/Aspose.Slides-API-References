@@ -13,7 +13,7 @@ Returns a Thumbnail Image object (20% of real size).
 
 ### Returns
 
-Bitmap object .NET type System.Drawing.Bitmap
+Bitmap object **aspose.pydrawing.Bitmap**
 
 
 
@@ -90,7 +90,7 @@ def get_thumbnail(self, notes_comments_layouting):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -120,7 +120,7 @@ Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns
 
-Bitmap object .NET type System.Drawing.Bitmap
+Bitmap object **aspose.pydrawing.Bitmap**
 
 
 
@@ -161,7 +161,7 @@ def get_thumbnail(self, options, image_size):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -212,7 +212,7 @@ def get_thumbnail(self, notes_comments_layouting, scale_x, scale_y):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **System.InvalidOperationException** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -239,3 +239,7 @@ def get_thumbnail(self, options, scale_x, scale_y):
 
 
 
+### See Also
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

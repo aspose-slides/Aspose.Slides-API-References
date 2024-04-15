@@ -10,7 +10,7 @@ weight: 210
 
 ## offset_x property
 Returns a distance from left side of a table to left side of a cell.
-            Read-only .NET type System.Double.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns a distance from left side of a table to left side of a cell.
 def offset_x(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

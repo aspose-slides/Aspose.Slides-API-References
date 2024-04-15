@@ -10,7 +10,7 @@ weight: 100
 
 ## latin_line_break property
 Determines whether the Latin line break is used in a paragraph.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether the Latin line break is used in a paragraph.
 def latin_line_break(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -21,3 +21,8 @@ def complex_script_font(self):
 def complex_script_font(self, value):
     ...
 ```
+
+### See Also
+* class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

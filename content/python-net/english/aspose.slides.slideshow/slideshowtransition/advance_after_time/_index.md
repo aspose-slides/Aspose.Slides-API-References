@@ -12,7 +12,7 @@ weight: 20
 Specifies the time, in milliseconds, after which the transition should start. This setting
             may be used in conjunction with the advClick attribute. If this attribute is not specified
             then it is assumed that no auto-advance will occur.
-            Read/write .NET type System.UInt32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def advance_after_time(self):
 def advance_after_time(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

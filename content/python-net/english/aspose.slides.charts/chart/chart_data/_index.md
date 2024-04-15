@@ -18,3 +18,8 @@ Returns information about the linked or embedded data associated with a chart.
 def chart_data(self):
     ...
 ```
+
+### See Also
+* class [`IChartData`](/slides/python-net/aspose.slides.charts/ichartdata)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

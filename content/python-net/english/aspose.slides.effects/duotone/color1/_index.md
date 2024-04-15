@@ -18,3 +18,8 @@ Returns target color format for dark pixels.
 def color1(self):
     ...
 ```
+
+### See Also
+* class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

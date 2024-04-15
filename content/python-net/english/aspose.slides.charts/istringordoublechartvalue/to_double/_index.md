@@ -13,7 +13,7 @@ Converts value to double.
 
 ### Returns
 
-Double value .NET type System.Double
+Double value **float**
 
 
 
@@ -25,3 +25,7 @@ def to_double(self):
 
 
 
+### See Also
+* class [`IStringOrDoubleChartValue`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

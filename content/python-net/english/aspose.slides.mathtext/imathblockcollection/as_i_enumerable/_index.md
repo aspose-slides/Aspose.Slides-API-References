@@ -10,7 +10,7 @@ weight: 90
 
 ## as_i_enumerable property
 Allows to get base IEnumerable interface
-            .NET type System.Collections.IEnumerable
+            **collections.abc.Iterable**
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Allows to get base IEnumerable interface
 def as_i_enumerable(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

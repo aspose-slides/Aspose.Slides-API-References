@@ -17,12 +17,15 @@ The IHtmlExternalResolver type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_external_resource_resolver](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/as_i_external_resource_resolver/) | Returns IExternalResourceResolver interface. |
+| [`as_i_external_resource_resolver`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/as_i_external_resource_resolver/) | Returns IExternalResourceResolver interface. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [resolve_uri](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/resolve_uri/#string-string) |  |
-| [get_entity](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/get_entity/#string) |  |
+| [`resolve_uri`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/resolve_uri/#string-string) |  |
+| [`get_entity`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/get_entity/#string) |  |
 
+### See Also
+* module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)
+* library [`Aspose.Slides`](/slides/python-net)

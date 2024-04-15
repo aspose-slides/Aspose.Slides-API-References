@@ -10,7 +10,7 @@ weight: 230
 
 ## first_row property
 Determines whether the first row of a table has to be drawn with a special formatting.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def first_row(self):
 def first_row(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 350
 
 ## link_file_name property
 Returns the full path to a linked file. Short file name will be used.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the full path to a linked file. Short file name will be used.
 def link_file_name(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 400
 
 ## show_background property
 Gets or sets value that specifies whether the Zoom will use the background of the destination slide.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
             Default value: true
 
 ### Definition:
@@ -22,3 +22,7 @@ def show_background(self):
 def show_background(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

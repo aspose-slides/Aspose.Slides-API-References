@@ -10,7 +10,7 @@ weight: 20
 
 ## base_uri property
 Returns base URI of the specified Svg. Used to resolve relative links.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns base URI of the specified Svg. Used to resolve relative links.
 def base_uri(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

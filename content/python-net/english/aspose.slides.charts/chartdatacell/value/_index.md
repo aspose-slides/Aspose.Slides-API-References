@@ -10,7 +10,7 @@ weight: 100
 
 ## value property
 Gets or sets the value of a cell.
-            Read/write .NET type System.Object.
+            Read/write **any**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def value(self):
 def value(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -11,7 +11,7 @@ weight: 90
 ## first_slice_angle property
 Gets or sets the angle of the first pie or doughnut chart slice, 
             in degrees (clockwise from up, from 0 to 360 degrees).
-            Read/write .NET type System.UInt16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def first_slice_angle(self):
 def first_slice_angle(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

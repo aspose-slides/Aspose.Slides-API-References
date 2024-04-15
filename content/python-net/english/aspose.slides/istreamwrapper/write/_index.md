@@ -20,9 +20,13 @@ def write(self, buffer, offset, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes | An array of bytes .NET type System.Byte[] |
-| offset | int | The zero-based byte offset in buffer at which to begin copying bytes to the current stream .NET type System.Int32 |
-| count | int | The number of bytes to be written to the current stream .NET type System.Int32 |
+| buffer | bytes | An array of bytes **int**[] |
+| offset | int | The zero-based byte offset in buffer at which to begin copying bytes to the current stream **int** |
+| count | int | The number of bytes to be written to the current stream **int** |
 
 
 
+### See Also
+* class [`IStreamWrapper`](/slides/python-net/aspose.slides/istreamwrapper)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

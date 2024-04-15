@@ -14,7 +14,7 @@ Returns an automatic color of data point based on series index, data point index
 
 ### Returns
 
-Automatic color of data point .NET type System.Drawing.Color
+Automatic color of data point **aspose.pydrawing.Color**
 
 
 
@@ -26,3 +26,7 @@ def get_automatic_data_point_color(self):
 
 
 
+### See Also
+* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

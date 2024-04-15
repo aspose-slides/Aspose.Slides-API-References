@@ -18,3 +18,8 @@ Returns the fonts collection for a "body" part of the slide.
 def minor(self):
     ...
 ```
+
+### See Also
+* class [`IFonts`](/slides/python-net/aspose.slides/ifonts)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

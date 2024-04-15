@@ -10,7 +10,7 @@ weight: 30
 
 ## accent3 property
 Third accent color in the scheme.
-            Read-only .NET type System.Drawing.Color.
+            Read-only **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Third accent color in the scheme.
 def accent3(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

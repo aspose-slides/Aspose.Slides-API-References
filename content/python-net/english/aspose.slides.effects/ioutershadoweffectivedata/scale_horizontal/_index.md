@@ -10,7 +10,7 @@ weight: 70
 
 ## scale_horizontal property
 Specifies the horizontal scaling factor, negative scaling causes a flip.
-            Read-only .NET type System.Double.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Specifies the horizontal scaling factor, negative scaling causes a flip.
 def scale_horizontal(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

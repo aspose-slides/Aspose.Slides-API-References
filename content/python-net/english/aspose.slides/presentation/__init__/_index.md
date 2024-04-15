@@ -73,7 +73,7 @@ def __init__(self, file):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | Thrown when input file has zero length |
+| **System.ArgumentException** | Thrown when input file has zero length |
 
 
 
@@ -114,7 +114,11 @@ def __init__(self, file, load_options):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | Thrown when input file has zero length |
+| **System.ArgumentException** | Thrown when input file has zero length |
 
 
 
+### See Also
+* class [`Presentation`](/slides/python-net/aspose.slides/presentation)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

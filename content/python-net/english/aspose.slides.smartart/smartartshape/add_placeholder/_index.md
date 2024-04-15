@@ -29,3 +29,7 @@ def add_placeholder(self, placeholder_to_copy_from):
 
 
 
+### See Also
+* class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

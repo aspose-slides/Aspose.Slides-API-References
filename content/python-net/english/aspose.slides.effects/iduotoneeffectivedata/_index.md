@@ -19,7 +19,10 @@ The IDuotoneEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [color1](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/color1/) | Returns target color format for dark pixels.<br/>            Read-only .NET type System.Drawing.Color. |
-| [color2](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/color2/) | Returns target color format for light pixels.<br/>            Read-only .NET type System.Drawing.Color. |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
+| [`color1`](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/color1/) | Returns target color format for dark pixels.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`color2`](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/color2/) | Returns target color format for light pixels.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`as_i_effect_effective_data`](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
 
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

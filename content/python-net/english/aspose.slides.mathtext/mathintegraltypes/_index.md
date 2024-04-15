@@ -24,3 +24,6 @@ The MathIntegralTypes type exposes the following members:
 | SURFACE | Surface Integral: '∯' |
 | VOLUME | VolumeIntegral: '∰' |
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

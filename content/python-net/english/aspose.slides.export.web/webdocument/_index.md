@@ -17,18 +17,22 @@ The WebDocument type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export.web/webdocument/__init__/#webdocumentoptions) | [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument) constructor. |
+| [`__init__`](/slides/python-net/aspose.slides.export.web/webdocument/__init__/#webdocumentoptions) | [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument) constructor. |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [input](/slides/python-net/aspose.slides.export.web/webdocument/input/) |  |
-| [output](/slides/python-net/aspose.slides.export.web/webdocument/output/) | Returns collection of output elements of the document.<br/>             Read-only [`WebDocument.output`](/slides/python-net/aspose.slides.export.web/webdocument#output). |
+| [`input`](/slides/python-net/aspose.slides.export.web/webdocument/input/) |  |
+| [`output`](/slides/python-net/aspose.slides.export.web/webdocument/output/) | Returns collection of output elements of the document.<br/>             Read-only [`WebDocument.output`](/slides/python-net/aspose.slides.export.web/webdocument#output). |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [save](/slides/python-net/aspose.slides.export.web/webdocument/save/#) | Saves the document output. |
+| [`save`](/slides/python-net/aspose.slides.export.web/webdocument/save/#) | Saves the document output. |
 
+### See Also
+* class [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument)
+* module [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web)
+* library [`Aspose.Slides`](/slides/python-net)

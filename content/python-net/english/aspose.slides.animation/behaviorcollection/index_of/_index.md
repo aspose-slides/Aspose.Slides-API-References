@@ -9,7 +9,7 @@ weight: 50
 
 
 ## index_of {#ibehavior}
-Determines the index of a specific item in the .NET type System.Collections.Generic.IList`1.
+Determines the index of a specific item in the **System.Collections.Generic.IList`1**.
 
 ### Returns
 
@@ -27,7 +27,11 @@ def index_of(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IBehavior | The object to locate in the .NET type System.Collections.Generic.IList`1. |
+| item | IBehavior | The object to locate in the **System.Collections.Generic.IList`1**. |
 
 
 
+### See Also
+* class [`BehaviorCollection`](/slides/python-net/aspose.slides.animation/behaviorcollection)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

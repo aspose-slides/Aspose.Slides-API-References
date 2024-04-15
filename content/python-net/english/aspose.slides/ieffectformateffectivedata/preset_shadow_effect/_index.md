@@ -18,3 +18,8 @@ Preset shadow.
 def preset_shadow_effect(self):
     ...
 ```
+
+### See Also
+* class [`IPresetShadowEffectiveData`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

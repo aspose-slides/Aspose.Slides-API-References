@@ -25,3 +25,7 @@ def set_all_footers_text(self, text):
 
 
 
+### See Also
+* class [`PresentationHeaderFooterManager`](/slides/python-net/aspose.slides/presentationheaderfootermanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

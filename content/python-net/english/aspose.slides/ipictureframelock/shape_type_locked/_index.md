@@ -10,7 +10,7 @@ weight: 120
 
 ## shape_type_locked property
 Determines whether a changing of a shape type is forbidden.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def shape_type_locked(self):
 def shape_type_locked(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

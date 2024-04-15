@@ -36,7 +36,11 @@ def check_write_protection(self, password):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException |  |
+| **System.InvalidOperationException** |  |
 
 
 
+### See Also
+* class [`PresentationInfo`](/slides/python-net/aspose.slides/presentationinfo)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

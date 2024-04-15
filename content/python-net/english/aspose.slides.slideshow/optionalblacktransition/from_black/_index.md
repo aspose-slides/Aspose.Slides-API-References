@@ -11,7 +11,7 @@ weight: 20
 ## from_black property
 This attribute specifies if the transition will start from a black screen
             (and then transition the new slide over black).
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def from_black(self):
 def from_black(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

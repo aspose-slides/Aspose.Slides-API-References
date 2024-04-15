@@ -18,3 +18,7 @@ Returns the style of a gradient.
 def gradient_direction(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

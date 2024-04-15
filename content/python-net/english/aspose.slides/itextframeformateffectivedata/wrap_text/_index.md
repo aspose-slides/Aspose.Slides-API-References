@@ -10,7 +10,7 @@ weight: 120
 
 ## wrap_text property
 Returns if text is wrapped at TextFrame's margins.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns if text is wrapped at TextFrame's margins.
 def wrap_text(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

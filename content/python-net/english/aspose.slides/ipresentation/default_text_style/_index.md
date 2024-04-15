@@ -18,3 +18,8 @@ Returns default text style for shapes.
 def default_text_style(self):
     ...
 ```
+
+### See Also
+* class [`ITextStyle`](/slides/python-net/aspose.slides/itextstyle)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

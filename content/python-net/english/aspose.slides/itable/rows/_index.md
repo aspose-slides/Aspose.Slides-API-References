@@ -18,3 +18,8 @@ Returns the collectoin of rows.
 def rows(self):
     ...
 ```
+
+### See Also
+* class [`IRowCollection`](/slides/python-net/aspose.slides/irowcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

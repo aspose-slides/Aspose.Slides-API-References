@@ -10,7 +10,7 @@ weight: 20
 
 ## effect_style_index property
 Returns or sets shape's effect column index in a style matrix.
-            Read/write .NET type System.UInt32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def effect_style_index(self):
 def effect_style_index(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Second dark color in the scheme.
 def dark2(self):
     ...
 ```
+
+### See Also
+* class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

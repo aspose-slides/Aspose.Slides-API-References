@@ -10,7 +10,7 @@ weight: 110
 
 ## count property
 Gets the number of elements actually contained in the collection.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets the number of elements actually contained in the collection.
 def count(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

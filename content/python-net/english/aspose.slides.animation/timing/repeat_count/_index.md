@@ -10,7 +10,7 @@ weight: 50
 
 ## repeat_count property
 Describes the number of times the effect should repeat.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def repeat_count(self):
 def repeat_count(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

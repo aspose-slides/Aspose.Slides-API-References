@@ -21,3 +21,8 @@ def hyperlink_mouse_over(self):
 def hyperlink_mouse_over(self, value):
     ...
 ```
+
+### See Also
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

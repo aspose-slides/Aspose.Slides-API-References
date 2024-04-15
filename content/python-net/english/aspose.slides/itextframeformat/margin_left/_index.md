@@ -10,7 +10,7 @@ weight: 90
 
 ## margin_left property
 Returns or sets the left margin (points) in a TextFrame.
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def margin_left(self):
 def margin_left(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -19,6 +19,11 @@ The CornerDirectionTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/cornerdirectiontransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionCornerDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioncornerdirectiontype). |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/cornerdirectiontransition/as_i_transition_value_base/) |  |
+| [`direction`](/slides/python-net/aspose.slides.slideshow/cornerdirectiontransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionCornerDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioncornerdirectiontype). |
+| [`as_i_transition_value_base`](/slides/python-net/aspose.slides.slideshow/cornerdirectiontransition/as_i_transition_value_base/) |  |
 
+### See Also
+* class [`CornerDirectionTransition`](/slides/python-net/aspose.slides.slideshow/cornerdirectiontransition)
+* class [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

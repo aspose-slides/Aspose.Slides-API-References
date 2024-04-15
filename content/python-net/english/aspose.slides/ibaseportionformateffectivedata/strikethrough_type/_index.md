@@ -18,3 +18,7 @@ Returns the strikethrough type of a text.
 def strikethrough_type(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

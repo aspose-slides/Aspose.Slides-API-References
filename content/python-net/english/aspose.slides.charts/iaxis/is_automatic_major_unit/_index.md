@@ -10,7 +10,7 @@ weight: 230
 
 ## is_automatic_major_unit property
 Indicates whether the major unit of the axis is automatically assigned.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_automatic_major_unit(self):
 def is_automatic_major_unit(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

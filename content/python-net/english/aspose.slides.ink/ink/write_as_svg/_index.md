@@ -41,3 +41,7 @@ def write_as_svg(self, stream, svg_options):
 
 
 
+### See Also
+* class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

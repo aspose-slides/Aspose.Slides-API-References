@@ -10,7 +10,7 @@ weight: 470
 
 ## minor_unit property
 Represents the minor units for the date or value axis.
-             Read/write .NET type System.Double.
+             Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def minor_unit(self):
 def minor_unit(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

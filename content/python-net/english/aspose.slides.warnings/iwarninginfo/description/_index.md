@@ -10,7 +10,7 @@ weight: 20
 
 ## description property
 Returns a human readable description of this warning.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns a human readable description of this warning.
 def description(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
+* library [`Aspose.Slides`](/slides/python-net)

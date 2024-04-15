@@ -10,7 +10,7 @@ weight: 190
 
 ## is_visible property
 False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false).
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 
 ### Remarks
@@ -25,3 +25,7 @@ If data label is visible you can make it hidden with Hide() method.
 def is_visible(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

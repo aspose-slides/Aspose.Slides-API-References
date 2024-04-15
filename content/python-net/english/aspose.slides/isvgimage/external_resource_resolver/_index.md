@@ -10,7 +10,7 @@ weight: 20
 
 ## external_resource_resolver property
 Return callback interface used to resolve external resources during SVG documents import.
-            Read-only IExternalResourceResolver.
+            Read-only **IExternalResourceResolver**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Return callback interface used to resolve external resources during SVG document
 def external_resource_resolver(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 90
 
 ## stop_previous_sound property
 This attribute specifies if the animation effect stops the previous sound.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def stop_previous_sound(self):
 def stop_previous_sound(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

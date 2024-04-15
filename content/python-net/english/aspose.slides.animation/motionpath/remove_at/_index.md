@@ -24,3 +24,7 @@ def remove_at(self, index):
 
 
 
+### See Also
+* class [`MotionPath`](/slides/python-net/aspose.slides.animation/motionpath)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

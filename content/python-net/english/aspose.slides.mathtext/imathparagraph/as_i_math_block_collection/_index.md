@@ -18,3 +18,8 @@ Allows to get base IMathBlockCollection interface
 def as_i_math_block_collection(self):
     ...
 ```
+
+### See Also
+* class [`IMathBlockCollection`](/slides/python-net/aspose.slides.mathtext/imathblockcollection)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

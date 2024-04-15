@@ -64,3 +64,7 @@ New layout will be linked with defined master in destination presentation.
 
 
 
+### See Also
+* class [`IGlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/igloballayoutslidecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

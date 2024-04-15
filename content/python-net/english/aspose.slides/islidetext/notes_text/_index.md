@@ -17,3 +17,7 @@ The text on the notes page's shapes for this slide
 def notes_text(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

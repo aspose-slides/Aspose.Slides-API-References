@@ -17,14 +17,17 @@ The ICustomXmlPart type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [xml_as_string](/slides/python-net/aspose.slides/icustomxmlpart/xml_as_string/) | Returns or sets xml data as UTF-8 string.<br/>            Read/write .NET type System.String.<br/>            value is `null`.value is empty or xml-data is invalid. |
-| [xml_data](/slides/python-net/aspose.slides/icustomxmlpart/xml_data/) | Returns or sets xml data.<br/>            Read/write .NET type System.Byte[].<br/>            value is `null`.value is empty or xml-data is invalid. |
-| [item_id](/slides/python-net/aspose.slides/icustomxmlpart/item_id/) | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML <br/>            part within an Office Open XML document.<br/>            Read-only .NET type System.Guid. |
-| [namespace_schemas](/slides/python-net/aspose.slides/icustomxmlpart/namespace_schemas/) | Returns the collection XML schemas that are associated with the custom XML part.<br/>            Read-only .NET type System.String[]. |
+| [`xml_as_string`](/slides/python-net/aspose.slides/icustomxmlpart/xml_as_string/) | Returns or sets xml data as UTF-8 string.<br/>            Read/write **string**.<br/>            value is `null`.value is empty or xml-data is invalid. |
+| [`xml_data`](/slides/python-net/aspose.slides/icustomxmlpart/xml_data/) | Returns or sets xml data.<br/>            Read/write **int**[].<br/>            value is `null`.value is empty or xml-data is invalid. |
+| [`item_id`](/slides/python-net/aspose.slides/icustomxmlpart/item_id/) | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML <br/>            part within an Office Open XML document.<br/>            Read-only **System.Guid**. |
+| [`namespace_schemas`](/slides/python-net/aspose.slides/icustomxmlpart/namespace_schemas/) | Returns the collection XML schemas that are associated with the custom XML part.<br/>            Read-only **string**[]. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [remove](/slides/python-net/aspose.slides/icustomxmlpart/remove/#) | Removes the custom xml part from the presentation. |
+| [`remove`](/slides/python-net/aspose.slides/icustomxmlpart/remove/#) | Removes the custom xml part from the presentation. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

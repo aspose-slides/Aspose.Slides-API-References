@@ -10,7 +10,7 @@ weight: 550
 
 ## rewind_audio property
 Determines whether audio is automatically rewinded to start after playing. 
-             Read/write .NET type System.Boolean.
+             Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def rewind_audio(self):
 def rewind_audio(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 140
 
 ## start_pos_alpha property
 Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents).
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Specifies the start position (along the alpha gradient ramp) of the start alpha 
 def start_pos_alpha(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

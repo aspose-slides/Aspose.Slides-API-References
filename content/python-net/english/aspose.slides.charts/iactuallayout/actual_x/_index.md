@@ -11,7 +11,7 @@ weight: 30
 ## actual_x property
 Specifies actual x location (left) of the chart element relative to the left top corner of the chart.
             Call method IChart.ValidateChartLayout() before to get actual values. 
-            Read .NET type System.Single.
+            Read **float**.
 
 ### Definition:
 ```python
@@ -19,3 +19,7 @@ Specifies actual x location (left) of the chart element relative to the left top
 def actual_x(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

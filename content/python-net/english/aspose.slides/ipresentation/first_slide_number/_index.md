@@ -10,7 +10,7 @@ weight: 160
 
 ## first_slide_number property
 Represents the first slide number in the presentation.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def first_slide_number(self):
 def first_slide_number(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

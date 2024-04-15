@@ -17,11 +17,14 @@ The ITableFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [fill_format](/slides/python-net/aspose.slides/itableformat/fill_format/) | Returns a table fill properties object.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
+| [`fill_format`](/slides/python-net/aspose.slides/itableformat/fill_format/) | Returns a table fill properties object.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides/itableformat/get_effective/#) | Gets effective table formatting properties with inheritance and table styles applied. |
+| [`get_effective`](/slides/python-net/aspose.slides/itableformat/get_effective/#) | Gets effective table formatting properties with inheritance and table styles applied. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Returns the sketch format of a line.
 def sketch_format(self):
     ...
 ```
+
+### See Also
+* class [`ISketchFormat`](/slides/python-net/aspose.slides/isketchformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

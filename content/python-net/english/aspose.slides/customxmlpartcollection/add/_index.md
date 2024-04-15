@@ -31,8 +31,8 @@ def add(self, xml_string):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | xmlString is `null`. |
-| .NET type System.ArgumentException | xmlString is empty or xml-data is invalid. |
+| **System.ArgumentNullException** | xmlString is `null`. |
+| **System.ArgumentException** | xmlString is empty or xml-data is invalid. |
 
 
 
@@ -59,8 +59,8 @@ def add(self, xml_data):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | xmlData is `null`. |
-| .NET type System.ArgumentException | xmlData is empty or invalid. |
+| **System.ArgumentNullException** | xmlData is `null`. |
+| **System.ArgumentException** | xmlData is empty or invalid. |
 
 
 
@@ -87,8 +87,12 @@ def add(self, input_stream):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | inputStream is `null`. |
-| .NET type System.ArgumentException | Data in inputStream is empty or invalid. |
+| **System.ArgumentNullException** | inputStream is `null`. |
+| **System.ArgumentException** | Data in inputStream is empty or invalid. |
 
 
 
+### See Also
+* class [`CustomXmlPartCollection`](/slides/python-net/aspose.slides/customxmlpartcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

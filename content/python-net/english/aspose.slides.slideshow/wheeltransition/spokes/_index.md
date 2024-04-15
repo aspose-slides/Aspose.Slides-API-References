@@ -10,7 +10,7 @@ weight: 20
 
 ## spokes property
 Number spokes of wheel transition.
-            Read/write .NET type System.UInt32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def spokes(self):
 def spokes(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

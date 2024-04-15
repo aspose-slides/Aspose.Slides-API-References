@@ -20,9 +20,13 @@ def read(self, buffer, offset, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes | Sequence of bytes .NET type System.Byte[] |
-| offset | int | Start reading position .NET type System.Int32 |
-| count | int | Count bytes for reading .NET type System.Int32 |
+| buffer | bytes | Sequence of bytes **int**[] |
+| offset | int | Start reading position **int** |
+| count | int | Count bytes for reading **int** |
 
 
 
+### See Also
+* class [`IStreamWrapper`](/slides/python-net/aspose.slides/istreamwrapper)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

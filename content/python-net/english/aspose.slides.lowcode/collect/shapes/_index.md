@@ -29,3 +29,9 @@ def shapes(self, pres):
 
 
 
+### See Also
+* class [`Collect`](/slides/python-net/aspose.slides.lowcode/collect)
+* class [`Presentation`](/slides/python-net/aspose.slides/presentation)
+* class [`Shape`](/slides/python-net/aspose.slides/shape)
+* module [`aspose.slides.lowcode`](/slides/python-net/aspose.slides.lowcode)
+* library [`Aspose.Slides`](/slides/python-net)

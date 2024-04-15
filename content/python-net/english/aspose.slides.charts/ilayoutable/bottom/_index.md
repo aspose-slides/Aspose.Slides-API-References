@@ -10,7 +10,7 @@ weight: 40
 
 ## bottom property
 Gets the top of the chart element as a fraction of the height of the chart.
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets the top of the chart element as a fraction of the height of the chart.
 def bottom(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

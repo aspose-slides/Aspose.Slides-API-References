@@ -10,7 +10,7 @@ weight: 10
 
 ## accelerate property
 Describes the percentage of duration accelerate behavior effect.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def accelerate(self):
 def accelerate(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

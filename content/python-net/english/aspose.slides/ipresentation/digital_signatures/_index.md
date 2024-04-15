@@ -18,3 +18,8 @@ Returns the collection of signatures used to sign the presentation.
 def digital_signatures(self):
     ...
 ```
+
+### See Also
+* class [`IDigitalSignatureCollection`](/slides/python-net/aspose.slides/idigitalsignaturecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

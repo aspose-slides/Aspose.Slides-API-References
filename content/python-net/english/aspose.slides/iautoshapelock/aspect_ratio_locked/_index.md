@@ -10,7 +10,7 @@ weight: 40
 
 ## aspect_ratio_locked property
 Determines whether a shape have to preserve aspect ratio on resizing.
-            Read-write .NET type System.Boolean.
+            Read-write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def aspect_ratio_locked(self):
 def aspect_ratio_locked(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

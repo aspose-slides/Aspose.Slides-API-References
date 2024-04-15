@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`HSL`](/slides/python-net/aspose.slides.effects/hsl)
+* class [`IHSLEffectiveData`](/slides/python-net/aspose.slides.effects/ihsleffectivedata)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

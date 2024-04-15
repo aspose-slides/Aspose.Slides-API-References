@@ -12,7 +12,7 @@ weight: 60
 Returns or sets a vector representing up. To be more precise, this attribute defines a vector
             representing up in relation to the face of the backdrop plane. Vector represented by array
             of 3 float values which define X, Y and Z coordinates.
-            Read/write .NET type System.Single[].
+            Read/write **float**[].
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def up_vector(self):
 def up_vector(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -13,7 +13,7 @@ Returns string representation.
 
 ### Returns
 
-String representation of a value .NET type System.String
+String representation of a value **string**
 
 
 
@@ -25,3 +25,7 @@ def to_string(self):
 
 
 
+### See Also
+* class [`IStringChartValue`](/slides/python-net/aspose.slides.charts/istringchartvalue)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

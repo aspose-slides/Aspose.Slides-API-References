@@ -10,7 +10,7 @@ weight: 50
 
 ## embed_images property
 Returns or sets images embedding option. 
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def embed_images(self):
 def embed_images(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

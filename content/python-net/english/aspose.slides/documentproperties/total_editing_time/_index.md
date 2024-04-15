@@ -10,7 +10,7 @@ weight: 330
 
 ## total_editing_time property
 Total editing time of a presentation.
-            Read/write .NET type System.TimeSpan.
+            Read/write **System.TimeSpan**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def total_editing_time(self):
 def total_editing_time(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

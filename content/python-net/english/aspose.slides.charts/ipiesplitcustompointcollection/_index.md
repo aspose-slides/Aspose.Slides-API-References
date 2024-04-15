@@ -17,7 +17,7 @@ The IPieSplitCustomPointCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_enumerable](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection/as_i_enumerable/) | Returns IEnumerable interface. |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection/as_i_enumerable/) | Returns IEnumerable interface. |
 
 ## Indexer
 
@@ -29,5 +29,8 @@ The IPieSplitCustomPointCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection/add/#int) | Adds data point by its index in parent series points collection. |
+| [`add`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection/add/#int) | Adds data point by its index in parent series points collection. |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 50
 
 ## depth property
 Returns a depth of a paragraph.
-            Read-only .NET type System.Int16.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns a depth of a paragraph.
 def depth(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

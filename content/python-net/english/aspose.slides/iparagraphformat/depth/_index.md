@@ -11,7 +11,7 @@ weight: 60
 ## depth property
 Returns or sets depth of the paragraph.
             Value 0 means undefined value.
-            Read/write .NET type System.Int16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def depth(self):
 def depth(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

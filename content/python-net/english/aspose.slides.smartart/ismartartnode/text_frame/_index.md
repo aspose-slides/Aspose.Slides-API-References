@@ -18,3 +18,8 @@ Returns or sets text of the node.
 def text_frame(self):
     ...
 ```
+
+### See Also
+* class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

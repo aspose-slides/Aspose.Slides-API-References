@@ -10,7 +10,7 @@ weight: 690
 
 ## x property
 Returns or sets the x-coordinate of the upper-left corner of the shape.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 
 ### Remarks
@@ -27,3 +27,7 @@ def x(self):
 def x(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

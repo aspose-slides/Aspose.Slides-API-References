@@ -11,7 +11,7 @@ weight: 120
 ## current_date_time property
 Returns or sets date and time which will substitute content of datetime fields.
             Time of this Presentation object creation by default.
-            Read/write .NET type System.DateTime.
+            Read/write **System.DateTime**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def current_date_time(self):
 def current_date_time(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

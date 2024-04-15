@@ -12,7 +12,7 @@ weight: 20
 Returns the copy of an audio's data. In case of large amount of data consider using of 
             [`IVideo.get_stream`](/slides/python-net/aspose.slides/ivideo/get_stream) method to prevent unnecessary loading of video's data into memory 
             or even OutOfMemoryException.
-            Read-only .NET type System.Byte[].
+            Read-only **int**[].
 
 ### Definition:
 ```python
@@ -20,3 +20,7 @@ Returns the copy of an audio's data. In case of large amount of data consider us
 def binary_data(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

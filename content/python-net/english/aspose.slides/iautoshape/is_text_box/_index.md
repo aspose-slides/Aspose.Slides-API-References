@@ -23,3 +23,7 @@ If shape is not specified to be a text box does not mean that it cannot have tex
 def is_text_box(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

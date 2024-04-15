@@ -24,3 +24,7 @@ def set_slide_number_visibility(self, is_visible):
 
 
 
+### See Also
+* class [`BaseSlideHeaderFooterManager`](/slides/python-net/aspose.slides/baseslideheaderfootermanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

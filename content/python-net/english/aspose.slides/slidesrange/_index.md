@@ -17,12 +17,15 @@ The SlidesRange type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/slidesrange/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides/slidesrange/__init__/#) |  |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [start](/slides/python-net/aspose.slides/slidesrange/start/) | Start |
-| [end](/slides/python-net/aspose.slides/slidesrange/end/) | End |
+| [`start`](/slides/python-net/aspose.slides/slidesrange/start/) | Start |
+| [`end`](/slides/python-net/aspose.slides/slidesrange/end/) | End |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

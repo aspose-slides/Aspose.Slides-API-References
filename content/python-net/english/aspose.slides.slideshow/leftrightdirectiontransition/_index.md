@@ -19,6 +19,11 @@ The LeftRightDirectionTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition/as_i_transition_value_base/) |  |
+| [`direction`](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
+| [`as_i_transition_value_base`](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition/as_i_transition_value_base/) |  |
 
+### See Also
+* class [`LeftRightDirectionTransition`](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition)
+* class [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

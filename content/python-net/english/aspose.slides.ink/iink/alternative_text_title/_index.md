@@ -18,3 +18,7 @@ def alternative_text_title(self):
 def alternative_text_title(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

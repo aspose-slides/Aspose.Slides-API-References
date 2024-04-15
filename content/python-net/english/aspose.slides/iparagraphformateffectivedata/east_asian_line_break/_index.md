@@ -10,7 +10,7 @@ weight: 60
 
 ## east_asian_line_break property
 Determines whether the East Asian line break is used in a paragraph.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether the East Asian line break is used in a paragraph.
 def east_asian_line_break(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

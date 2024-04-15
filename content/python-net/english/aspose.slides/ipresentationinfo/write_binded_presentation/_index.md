@@ -40,3 +40,7 @@ def write_binded_presentation(self, file):
 
 
 
+### See Also
+* class [`IPresentationInfo`](/slides/python-net/aspose.slides/ipresentationinfo)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

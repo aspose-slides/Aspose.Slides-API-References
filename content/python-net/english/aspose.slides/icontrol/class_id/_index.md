@@ -10,7 +10,7 @@ weight: 40
 
 ## class_id property
 Gets class id of this control.
-            Read-only .NET type System.Guid.
+            Read-only **System.Guid**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets class id of this control.
 def class_id(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

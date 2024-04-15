@@ -36,3 +36,7 @@ def __init__(self, math_block):
 
 
 
+### See Also
+* class [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

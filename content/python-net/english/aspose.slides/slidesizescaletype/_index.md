@@ -21,3 +21,6 @@ The SlideSizeScaleType type exposes the following members:
 | ENSURE_FIT | Scale to ensure fit. |
 | MAXIMIZE | Maximize size of content. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Returns the hyperlink defined for mouse click.
 def hyperlink_click(self):
     ...
 ```
+
+### See Also
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,7 @@ Returns text orientation.
 def text_vertical_type(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

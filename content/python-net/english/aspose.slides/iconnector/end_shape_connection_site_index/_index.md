@@ -10,7 +10,7 @@ weight: 250
 
 ## end_shape_connection_site_index property
 Returns or sets the index of connection site for end shape.
-            Read/write .NET type System.UInt32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def end_shape_connection_site_index(self):
 def end_shape_connection_site_index(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

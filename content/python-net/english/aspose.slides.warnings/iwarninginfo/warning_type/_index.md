@@ -18,3 +18,7 @@ Returns a type of warning.
 def warning_type(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
+* library [`Aspose.Slides`](/slides/python-net)

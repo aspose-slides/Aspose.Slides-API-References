@@ -18,3 +18,8 @@ Returns shape's style object.
 def shape_style(self):
     ...
 ```
+
+### See Also
+* class [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Returns the DownBars format.
 def down_bars_format(self):
     ...
 ```
+
+### See Also
+* class [`IFormat`](/slides/python-net/aspose.slides.charts/iformat)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

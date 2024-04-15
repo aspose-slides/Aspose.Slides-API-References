@@ -10,7 +10,7 @@ weight: 60
 
 ## end_reflection_opacity property
 End reflection opacity. (percents).
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ End reflection opacity. (percents).
 def end_reflection_opacity(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

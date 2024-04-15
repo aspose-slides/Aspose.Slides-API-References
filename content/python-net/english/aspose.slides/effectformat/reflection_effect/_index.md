@@ -21,3 +21,8 @@ def reflection_effect(self):
 def reflection_effect(self, value):
     ...
 ```
+
+### See Also
+* class [`IReflection`](/slides/python-net/aspose.slides.effects/ireflection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

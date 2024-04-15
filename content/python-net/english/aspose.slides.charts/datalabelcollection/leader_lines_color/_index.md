@@ -10,7 +10,7 @@ weight: 130
 
 ## leader_lines_color property
 Gets or sets the color of all leader lines in the collection.
-            Read/write .NET type System.Drawing.Color.
+            Read/write **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def leader_lines_color(self):
 def leader_lines_color(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

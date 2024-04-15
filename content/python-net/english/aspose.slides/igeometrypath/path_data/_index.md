@@ -17,3 +17,7 @@ Returns geometry path of GeometryShape as an array of path segments.
 def path_data(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

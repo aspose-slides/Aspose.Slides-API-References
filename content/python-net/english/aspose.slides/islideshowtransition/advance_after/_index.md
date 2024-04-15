@@ -10,7 +10,7 @@ weight: 10
 
 ## advance_after property
 This attribute specifies if the slideshow will move to the next slide after a certain time.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def advance_after(self):
 def advance_after(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

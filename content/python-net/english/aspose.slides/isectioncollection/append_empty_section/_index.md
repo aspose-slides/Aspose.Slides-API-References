@@ -29,3 +29,7 @@ def append_empty_section(self, name):
 
 
 
+### See Also
+* class [`ISectionCollection`](/slides/python-net/aspose.slides/isectioncollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

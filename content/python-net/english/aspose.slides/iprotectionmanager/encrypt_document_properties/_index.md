@@ -12,7 +12,7 @@ weight: 60
 This property makes sense, if presentation is password protected.
             If true then document properties is encrypted in presentation file.
             If false then document properties is public while presentation is encrypted.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def encrypt_document_properties(self):
 def encrypt_document_properties(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

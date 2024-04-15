@@ -9,13 +9,13 @@ weight: 30
 
 
 ## contains {#iportion}
-Determines whether the .NET type System.Collections.Generic.ICollection`1 contains a specific value.
+Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value.
 
 ### Returns
 
 true if `
 item`
- is found in the .NET type System.Collections.Generic.ICollection`1; otherwise, false.
+ is found in the **System.Collections.Generic.ICollection`1**; otherwise, false.
 
 
 
@@ -27,7 +27,11 @@ def contains(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IPortion | The object to locate in the .NET type System.Collections.Generic.ICollection`1. |
+| item | IPortion | The object to locate in the **System.Collections.Generic.ICollection`1**. |
 
 
 
+### See Also
+* class [`IPortionCollection`](/slides/python-net/aspose.slides/iportioncollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

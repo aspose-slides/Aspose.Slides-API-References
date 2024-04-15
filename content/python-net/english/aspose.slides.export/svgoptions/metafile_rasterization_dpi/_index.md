@@ -10,7 +10,7 @@ weight: 120
 
 ## metafile_rasterization_dpi property
 Returns or sets the lower resolution limit for metafile rasterization.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def metafile_rasterization_dpi(self):
 def metafile_rasterization_dpi(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

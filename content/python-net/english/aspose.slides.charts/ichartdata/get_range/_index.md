@@ -27,7 +27,11 @@ def get_range(self):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Chart doesn't use workbook as a data source |
+| **System.InvalidOperationException** | Chart doesn't use workbook as a data source |
 
 
 
+### See Also
+* class [`IChartData`](/slides/python-net/aspose.slides.charts/ichartdata)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

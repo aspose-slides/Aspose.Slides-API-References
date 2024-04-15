@@ -29,3 +29,7 @@ def create_math_box(self, element):
 
 
 
+### See Also
+* class [`IMathBoxFactory`](/slides/python-net/aspose.slides.mathtext/imathboxfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

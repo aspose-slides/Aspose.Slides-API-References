@@ -26,3 +26,6 @@ The TextVerticalType type exposes the following members:
 | MONGOLIAN_VERTICAL | Mongolian vertical text. |
 | WORD_ART_VERTICAL_RIGHT_TO_LEFT | WordArt vertical right to left text. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

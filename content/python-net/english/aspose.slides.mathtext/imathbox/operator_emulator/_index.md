@@ -24,3 +24,7 @@ def operator_emulator(self):
 def operator_emulator(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

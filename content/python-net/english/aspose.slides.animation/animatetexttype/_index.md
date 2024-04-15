@@ -21,3 +21,6 @@ The AnimateTextType type exposes the following members:
 | BY_WORD | Animate text by word. |
 | BY_LETTER | Animate text by letter. |
 
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

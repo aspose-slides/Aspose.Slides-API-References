@@ -10,7 +10,7 @@ weight: 110
 
 ## gap_width property
 Specifies the space between bar or column clusters, as a percentage of the bar or column width.
-            Read/write .NET type System.UInt16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def gap_width(self):
 def gap_width(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

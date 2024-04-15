@@ -19,6 +19,11 @@ The PptxException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/pptxexception/__init__/#) | Default constructor. |
-| [__init__](/slides/python-net/aspose.slides/pptxexception/__init__/#string) | Constructor allowing a message to be added to this exception. |
+| [`__init__`](/slides/python-net/aspose.slides/pptxexception/__init__/#) | Default constructor. |
+| [`__init__`](/slides/python-net/aspose.slides/pptxexception/__init__/#string) | Constructor allowing a message to be added to this exception. |
 
+### See Also
+* class [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
+* class [`PptxException`](/slides/python-net/aspose.slides/pptxexception)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

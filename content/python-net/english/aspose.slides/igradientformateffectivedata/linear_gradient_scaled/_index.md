@@ -10,7 +10,7 @@ weight: 60
 
 ## linear_gradient_scaled property
 Determines whether a gradient is scaled.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether a gradient is scaled.
 def linear_gradient_scaled(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

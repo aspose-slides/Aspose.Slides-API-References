@@ -10,7 +10,7 @@ weight: 50
 
 ## default_text_language property
 Returns or sets the default language for presentation text.
-             Read/write .NET type System.String.
+             Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def default_text_language(self):
 def default_text_language(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -17,10 +17,13 @@ The IMathSubscriptElementFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_subscript_element](/slides/python-net/aspose.slides.mathtext/imathsubscriptelementfactory/create_math_subscript_element/#imathelement-imathelement) | Creates IMathSubscriptElement |
+| [`create_math_subscript_element`](/slides/python-net/aspose.slides.mathtext/imathsubscriptelementfactory/create_math_subscript_element/#imathelement-imathelement) | Creates IMathSubscriptElement |
 
 
 ### Remarks
 
 For COM comparibility
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

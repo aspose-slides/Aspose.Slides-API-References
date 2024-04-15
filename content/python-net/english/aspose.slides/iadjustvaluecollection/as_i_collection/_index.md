@@ -10,7 +10,7 @@ weight: 20
 
 ## as_i_collection property
 Allows to get base ICollection interface.
-            Read-only .NET type System.Collections.ICollection.
+            Read-only **list**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Allows to get base ICollection interface.
 def as_i_collection(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

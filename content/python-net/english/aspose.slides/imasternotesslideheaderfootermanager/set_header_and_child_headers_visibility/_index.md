@@ -26,3 +26,7 @@ def set_header_and_child_headers_visibility(self, is_visible):
 
 
 
+### See Also
+* class [`IMasterNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasternotesslideheaderfootermanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

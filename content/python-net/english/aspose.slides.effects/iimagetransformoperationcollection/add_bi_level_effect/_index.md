@@ -29,3 +29,7 @@ def add_bi_level_effect(self, threshold):
 
 
 
+### See Also
+* class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

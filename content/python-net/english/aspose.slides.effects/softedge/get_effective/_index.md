@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`ISoftEdgeEffectiveData`](/slides/python-net/aspose.slides.effects/isoftedgeeffectivedata)
+* class [`SoftEdge`](/slides/python-net/aspose.slides.effects/softedge)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

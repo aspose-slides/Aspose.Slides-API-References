@@ -17,7 +17,7 @@ Specifies the size of the second pie or bar of a pie-of-pie chart or
             is read-only.
             Use ParentSeriesGroup property for access to parent series group.
             Use ParentSeriesGroup.SecondPieSize read/write property for change value.
-            Read-only .NET type System.UInt16.
+            Read-only **int**.
 
 
 ### Remarks
@@ -30,3 +30,7 @@ This is the projection of the property ParentSeriesGroup.SecondPieSize.
 def second_pie_size(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

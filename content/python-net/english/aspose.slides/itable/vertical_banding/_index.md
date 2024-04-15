@@ -10,7 +10,7 @@ weight: 530
 
 ## vertical_banding property
 Determines whether the even columns has to be drawn with a different formatting.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def vertical_banding(self):
 def vertical_banding(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

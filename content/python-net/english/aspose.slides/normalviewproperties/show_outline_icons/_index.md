@@ -11,7 +11,7 @@ weight: 50
 ## show_outline_icons property
 Specifies whether the application should show icons if displaying outline content in any
             of the content regions of normal view mode.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def show_outline_icons(self):
 def show_outline_icons(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

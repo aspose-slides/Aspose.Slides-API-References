@@ -10,7 +10,7 @@ weight: 90
 
 ## display_equation property
 Specifies that the equation for the trendline is displayed on the chart (in the same label as the Rsquaredvalue).
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def display_equation(self):
 def display_equation(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

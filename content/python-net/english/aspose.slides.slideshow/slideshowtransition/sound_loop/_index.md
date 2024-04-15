@@ -11,7 +11,7 @@ weight: 60
 ## sound_loop property
 This attribute specifies if the sound will loop until the next sound event occurs in
             slideshow.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def sound_loop(self):
 def sound_loop(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

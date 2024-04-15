@@ -12,7 +12,7 @@ weight: 100
 Returns an index of BackgroundType.Themed fill in background theme collection.
             0 means no fill.
             1..999 - index.
-            Read/write .NET type System.UInt16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def style_index(self):
 def style_index(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

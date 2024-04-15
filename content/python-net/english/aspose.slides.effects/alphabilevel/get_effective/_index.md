@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`AlphaBiLevel`](/slides/python-net/aspose.slides.effects/alphabilevel)
+* class [`IAlphaBiLevelEffectiveData`](/slides/python-net/aspose.slides.effects/ialphabileveleffectivedata)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

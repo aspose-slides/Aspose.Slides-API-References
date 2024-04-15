@@ -48,3 +48,7 @@ def __init__(self, element, hide_top, hide_bottom, hide_left, hide_right, strike
 
 
 
+### See Also
+* class [`MathBorderBox`](/slides/python-net/aspose.slides.mathtext/mathborderbox)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

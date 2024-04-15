@@ -22,3 +22,7 @@ For COM compatibility.
 def as_i_base_handout_notes_slide_header_footer_manag(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

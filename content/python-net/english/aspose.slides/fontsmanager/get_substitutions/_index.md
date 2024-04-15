@@ -25,3 +25,8 @@ def get_substitutions(self):
 
 
 
+### See Also
+* class [`FontsManager`](/slides/python-net/aspose.slides/fontsmanager)
+* class [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Returns all custom data parts in the presentaion.
 def all_custom_xml_parts(self):
     ...
 ```
+
+### See Also
+* class [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

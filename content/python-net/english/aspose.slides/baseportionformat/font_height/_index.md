@@ -11,7 +11,7 @@ weight: 90
 ## font_height property
 Returns or sets the font height of a portion.
             **float.NaN**  means height is undefined and should be inherited from the Master.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def font_height(self):
 def font_height(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

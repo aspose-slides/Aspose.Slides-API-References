@@ -56,3 +56,6 @@ The SmartArtColorType type exposes the following members:
 | GRADIENT_LOOP_ACCENT6 | GradientLoopAccent6 |
 | TRANSPARENT_GRADIENT_RANGE_ACCENT6 | TransparentGradientRangeAccent6 |
 
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

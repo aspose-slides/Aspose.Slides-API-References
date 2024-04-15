@@ -10,7 +10,7 @@ weight: 250
 
 ## is_automatic_min_value property
 Indicates whether the min value is automatically assigned.
-             Read/write .NET type System.Boolean.
+             Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_automatic_min_value(self):
 def is_automatic_min_value(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

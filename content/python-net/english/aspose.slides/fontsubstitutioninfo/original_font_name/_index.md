@@ -10,7 +10,7 @@ weight: 20
 
 ## original_font_name property
 Indicates source font name in presentation.
-            Read-only .NET type System.String
+            Read-only **string**
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Indicates source font name in presentation.
 def original_font_name(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

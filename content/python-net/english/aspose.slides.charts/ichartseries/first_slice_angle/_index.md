@@ -16,7 +16,7 @@ Specifies the angle of the first pie or doughnut chart slice,
             is read-only.
             Use ParentSeriesGroup property for access to parent series group.
             Use ParentSeriesGroup.FirstSliceAngle read/write property for change value.
-            Read-only .NET type System.UInt16.
+            Read-only **int**.
 
 
 ### Remarks
@@ -29,3 +29,7 @@ This is the projection of the property ParentSeriesGroup.FirstSliceAngle.
 def first_slice_angle(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

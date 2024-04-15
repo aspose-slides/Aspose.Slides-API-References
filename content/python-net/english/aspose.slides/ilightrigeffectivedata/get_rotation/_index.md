@@ -14,7 +14,7 @@ A rotation is defined through the use of a latitude coordinate, a longitude coor
 
 ### Returns
 
-Rotation coordinates as .NET type System.Single[]
+Rotation coordinates as **float**[]
 
 
 
@@ -26,3 +26,7 @@ def get_rotation(self):
 
 
 
+### See Also
+* class [`ILightRigEffectiveData`](/slides/python-net/aspose.slides/ilightrigeffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

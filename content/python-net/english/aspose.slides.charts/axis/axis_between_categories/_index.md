@@ -11,7 +11,7 @@ weight: 130
 ## axis_between_categories property
 Represents if the value axis crosses the category axis between categories.
              This property applies only to category axes, and it doesn't apply to 3-D charts.
-             Read/write .NET type System.Boolean.
+             Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def axis_between_categories(self):
 def axis_between_categories(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,7 @@ def alternative_text(self):
 def alternative_text(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

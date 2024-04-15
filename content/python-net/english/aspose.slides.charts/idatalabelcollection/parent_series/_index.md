@@ -18,3 +18,8 @@ Returns parent chart series.
 def parent_series(self):
     ...
 ```
+
+### See Also
+* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

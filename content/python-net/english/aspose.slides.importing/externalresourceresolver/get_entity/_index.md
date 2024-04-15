@@ -13,7 +13,7 @@ Maps a URI to an object containing the actual resource.
 
 ### Returns
 
-A .NET type System.IO.Stream object or null if resource cannot be streamed.
+A **System.IO.Stream** object or null if resource cannot be streamed.
 
 
 
@@ -29,3 +29,7 @@ def get_entity(self, absolute_uri):
 
 
 
+### See Also
+* class [`ExternalResourceResolver`](/slides/python-net/aspose.slides.importing/externalresourceresolver)
+* module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)
+* library [`Aspose.Slides`](/slides/python-net)

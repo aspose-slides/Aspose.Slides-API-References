@@ -31,7 +31,11 @@ def remove(self, item):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | item is `null`. |
+| **System.ArgumentNullException** | item is `null`. |
 
 
 
+### See Also
+* class [`CustomXmlPartCollection`](/slides/python-net/aspose.slides/customxmlpartcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

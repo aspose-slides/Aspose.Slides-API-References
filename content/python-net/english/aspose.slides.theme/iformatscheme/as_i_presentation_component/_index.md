@@ -15,3 +15,7 @@ weight: 10
 def as_i_presentation_component(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -17,9 +17,12 @@ The IField type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [type](/slides/python-net/aspose.slides/ifield/type/) | Returns or sets field's type.<br/>            Read/write [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype). |
-| [as_i_slide_component](/slides/python-net/aspose.slides/ifield/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
-| [slide](/slides/python-net/aspose.slides/ifield/slide/) |  |
-| [as_i_presentation_component](/slides/python-net/aspose.slides/ifield/as_i_presentation_component/) |  |
-| [presentation](/slides/python-net/aspose.slides/ifield/presentation/) |  |
+| [`type`](/slides/python-net/aspose.slides/ifield/type/) | Returns or sets field's type.<br/>            Read/write [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype). |
+| [`as_i_slide_component`](/slides/python-net/aspose.slides/ifield/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
+| [`slide`](/slides/python-net/aspose.slides/ifield/slide/) |  |
+| [`as_i_presentation_component`](/slides/python-net/aspose.slides/ifield/as_i_presentation_component/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/ifield/presentation/) |  |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

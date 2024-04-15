@@ -15,3 +15,7 @@ weight: 380
 def as_i_math_element_collection(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

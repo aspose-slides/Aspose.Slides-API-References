@@ -23,3 +23,6 @@ The BulletType type exposes the following members:
 | NUMBERED | Numbered bullets. |
 | PICTURE | Picture bullets. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

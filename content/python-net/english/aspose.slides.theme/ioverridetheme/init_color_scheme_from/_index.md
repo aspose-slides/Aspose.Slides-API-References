@@ -26,8 +26,12 @@ def init_color_scheme_from(self, color_scheme):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown if the ColorScheme is already initialized (not null). |
-| .NET type System.ArgumentNullException | Thrown if the colorScheme parameter is null. |
+| **System.InvalidOperationException** | Thrown if the ColorScheme is already initialized (not null). |
+| **System.ArgumentNullException** | Thrown if the colorScheme parameter is null. |
 
 
 
+### See Also
+* class [`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

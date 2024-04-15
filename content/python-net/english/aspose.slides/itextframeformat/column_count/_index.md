@@ -12,7 +12,7 @@ weight: 50
 Returns or sets number of columns in the text area.
             This value must be a positive number. Otherwise, the value will be set to zero. 
             Value 0 means undefined value.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def column_count(self):
 def column_count(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

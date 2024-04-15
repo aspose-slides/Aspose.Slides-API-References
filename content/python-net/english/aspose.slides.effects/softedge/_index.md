@@ -18,12 +18,15 @@ The SoftEdge type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/softedge/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read/write .NET type System.Double. |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/softedge/as_i_image_transform_operation/) |  |
+| [`radius`](/slides/python-net/aspose.slides.effects/softedge/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read/write **float**. |
+| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/softedge/as_i_image_transform_operation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/softedge/get_effective/#) | Gets effective Soft Edge effect data with the inheritance applied. |
+| [`get_effective`](/slides/python-net/aspose.slides.effects/softedge/get_effective/#) | Gets effective Soft Edge effect data with the inheritance applied. |
 
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

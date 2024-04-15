@@ -10,7 +10,7 @@ weight: 40
 
 ## svg_data property
 Returns SVG data.
-            Read-only .NET type System.Byte[].
+            Read-only **int**[].
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns SVG data.
 def svg_data(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

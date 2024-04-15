@@ -21,3 +21,8 @@ def end_shape_connected_to(self):
 def end_shape_connected_to(self, value):
     ...
 ```
+
+### See Also
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

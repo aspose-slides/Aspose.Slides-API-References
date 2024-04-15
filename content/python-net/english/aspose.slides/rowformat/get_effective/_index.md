@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`IRowFormatEffectiveData`](/slides/python-net/aspose.slides/irowformateffectivedata)
+* class [`RowFormat`](/slides/python-net/aspose.slides/rowformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

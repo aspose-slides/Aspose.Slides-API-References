@@ -10,7 +10,7 @@ weight: 130
 
 ## svg_responsive_layout property
 True to exclude width and height attributes from SVG container - that will make layout responsive. False - otherwise.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def svg_responsive_layout(self):
 def svg_responsive_layout(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -17,9 +17,12 @@ The IAxesManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [horizontal_axis](/slides/python-net/aspose.slides.charts/iaxesmanager/horizontal_axis/) | Gets the chart's horizontal axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
-| [secondary_horizontal_axis](/slides/python-net/aspose.slides.charts/iaxesmanager/secondary_horizontal_axis/) | Gets the chart's secondary horizontal axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
-| [vertical_axis](/slides/python-net/aspose.slides.charts/iaxesmanager/vertical_axis/) | Gets the chart's vertical axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
-| [secondary_vertical_axis](/slides/python-net/aspose.slides.charts/iaxesmanager/secondary_vertical_axis/) | Gets the chart's secondary vertical axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
-| [series_axis](/slides/python-net/aspose.slides.charts/iaxesmanager/series_axis/) | Gets the chart's series axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
+| [`horizontal_axis`](/slides/python-net/aspose.slides.charts/iaxesmanager/horizontal_axis/) | Gets the chart's horizontal axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
+| [`secondary_horizontal_axis`](/slides/python-net/aspose.slides.charts/iaxesmanager/secondary_horizontal_axis/) | Gets the chart's secondary horizontal axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
+| [`vertical_axis`](/slides/python-net/aspose.slides.charts/iaxesmanager/vertical_axis/) | Gets the chart's vertical axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
+| [`secondary_vertical_axis`](/slides/python-net/aspose.slides.charts/iaxesmanager/secondary_vertical_axis/) | Gets the chart's secondary vertical axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
+| [`series_axis`](/slides/python-net/aspose.slides.charts/iaxesmanager/series_axis/) | Gets the chart's series axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
+* class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

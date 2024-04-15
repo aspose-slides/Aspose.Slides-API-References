@@ -35,17 +35,21 @@ def add(self, master, layout_type, layout_name):
 layout_type`
  
             contains no placeholders and no shapes.
-            2) Analogue of this method is method Aspose.Slides.IMasterLayoutSlideCollection.Add(Aspose.Slides.SlideLayoutType,Syste.
+            2) Analogue of this method is method **Aspose.Slides.IMasterLayoutSlideCollection.Add(Aspose.Slides.SlideLayoutType,Syste.**
             accessed with [`IMasterSlide.layout_slides`](/slides/python-net/aspose.slides/imasterslide#layout_slides) property.
 
 ## Exceptions
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.NotImplementedException | Thrown if unsupported value of parameter `<br/>layout_type`<br/> is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| .NET type System.ArgumentNullException | Thrown if `<br/>master`<br/> is null. |
-| .NET type System.ArgumentException | Thrown if `<br/>master`<br/> belongs to the other presentation. |
-| .NET type System.ArgumentException | Thrown if layout name value `<br/>layout_name`<br/> is already in use in <br/>            collection of the layouts of `<br/>master`<br/>. |
+| **System.NotImplementedException** | Thrown if unsupported value of parameter `<br/>layout_type`<br/> is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| **System.ArgumentNullException** | Thrown if `<br/>master`<br/> is null. |
+| **System.ArgumentException** | Thrown if `<br/>master`<br/> belongs to the other presentation. |
+| **System.ArgumentException** | Thrown if layout name value `<br/>layout_name`<br/> is already in use in <br/>            collection of the layouts of `<br/>master`<br/>. |
 
 
 
+### See Also
+* class [`GlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/globallayoutslidecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

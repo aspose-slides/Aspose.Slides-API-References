@@ -11,7 +11,7 @@ weight: 30
 ## crop_left property
 Returns the number of percents of real image width that are cropped off
             the left of the picture. 
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -19,3 +19,7 @@ Returns the number of percents of real image width that are cropped off
 def crop_left(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

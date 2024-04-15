@@ -29,3 +29,9 @@ def get_summary_section(self, section):
 
 
 
+### See Also
+* class [`ISection`](/slides/python-net/aspose.slides/isection)
+* class [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection)
+* class [`SummaryZoomSectionCollection`](/slides/python-net/aspose.slides/summaryzoomsectioncollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

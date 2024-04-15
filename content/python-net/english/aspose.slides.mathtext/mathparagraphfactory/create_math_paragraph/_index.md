@@ -46,3 +46,7 @@ def create_math_paragraph(self, math_block):
 
 
 
+### See Also
+* class [`MathParagraphFactory`](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

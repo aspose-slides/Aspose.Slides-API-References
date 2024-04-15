@@ -18,3 +18,8 @@ Returns the parent slide of a shape.
 def slide(self):
     ...
 ```
+
+### See Also
+* class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

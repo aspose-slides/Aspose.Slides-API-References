@@ -12,7 +12,7 @@ weight: 20
 Returns or sets a normal vector. To be more precise, this attribute defines a vector
             normal to the face of the backdrop plane. Vector represented by array of 3 float values
             which define X, Y and Z coordinates.
-            Read/write .NET type System.Single[].
+            Read/write **float**[].
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def normal_vector(self):
 def normal_vector(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

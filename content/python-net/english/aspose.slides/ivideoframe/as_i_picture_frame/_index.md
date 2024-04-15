@@ -18,3 +18,8 @@ Allows to get base IPictureFrame interface.
 def as_i_picture_frame(self):
     ...
 ```
+
+### See Also
+* class [`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -17,3 +17,7 @@ Represents external workbook path if data source is external, null otherwise
 def external_workbook_path(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

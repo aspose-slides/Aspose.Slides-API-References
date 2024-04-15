@@ -17,7 +17,7 @@ A rotation is defined through the use of a latitude
 
 ### Returns
 
-Array of rotation values as .NET type System.Single[].
+Array of rotation values as **float**[].
 
 
 
@@ -29,3 +29,7 @@ def get_rotation(self):
 
 
 
+### See Also
+* class [`ICameraEffectiveData`](/slides/python-net/aspose.slides/icameraeffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

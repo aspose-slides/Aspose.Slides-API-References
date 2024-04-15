@@ -16,7 +16,7 @@ Determines whether Line- or Stock-chart has a up/down bars.
             Use ParentSeriesGroup property for access to parent series group.
             Use ParentSeriesGroup.UpDownBars.HasUpDownBars read/write property for change value.
             Use ParentSeriesGroup.UpDownBars property for format up/down bars.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 
 ### Remarks
@@ -29,3 +29,7 @@ This is the projection of the property ParentSeriesGroup.UpDownBars.HasUpDownBar
 def has_up_down_bars(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

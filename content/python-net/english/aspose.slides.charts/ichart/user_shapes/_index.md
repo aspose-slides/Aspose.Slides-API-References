@@ -18,3 +18,8 @@ Specify the shapes drawn on top of the chart.
 def user_shapes(self):
     ...
 ```
+
+### See Also
+* class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

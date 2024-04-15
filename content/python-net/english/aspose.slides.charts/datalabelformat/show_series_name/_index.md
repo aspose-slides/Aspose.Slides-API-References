@@ -11,7 +11,7 @@ weight: 190
 ## show_series_name property
 Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. 
             True to show the series name. False to hide.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -33,3 +33,7 @@ def show_series_name(self):
 def show_series_name(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Provides easy access to all hyperlinks contained in all presentation slides (not
 def hyperlink_queries(self):
     ...
 ```
+
+### See Also
+* class [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

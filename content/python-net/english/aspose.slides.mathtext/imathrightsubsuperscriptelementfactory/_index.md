@@ -17,10 +17,13 @@ The IMathRightSubSuperscriptElementFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_right_sub_superscript_element](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/create_math_right_sub_superscript_element/#imathelement-imathelement-imathelement) | Creates IMathRightSubSuperscriptElementFactory |
+| [`create_math_right_sub_superscript_element`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/create_math_right_sub_superscript_element/#imathelement-imathelement-imathelement) | Creates IMathRightSubSuperscriptElementFactory |
 
 
 ### Remarks
 
 For COM comparibility
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

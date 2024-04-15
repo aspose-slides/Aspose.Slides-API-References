@@ -48,3 +48,8 @@ def group(self, character, position, vertical_justification):
 
 
 
+### See Also
+* class [`IMathGroupingCharacter`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter)
+* class [`MathematicalText`](/slides/python-net/aspose.slides.mathtext/mathematicaltext)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

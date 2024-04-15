@@ -30,3 +30,7 @@ def create_tab(self, position, align):
 
 
 
+### See Also
+* class [`ITabFactory`](/slides/python-net/aspose.slides/itabfactory)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

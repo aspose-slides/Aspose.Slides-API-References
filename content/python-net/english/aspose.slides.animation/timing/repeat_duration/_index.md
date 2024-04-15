@@ -10,7 +10,7 @@ weight: 60
 
 ## repeat_duration property
 Describes the number of times the effect should repeat.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def repeat_duration(self):
 def repeat_duration(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

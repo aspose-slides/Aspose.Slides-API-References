@@ -17,14 +17,14 @@ The ImageTransformOCollectionEffectiveData type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.effects/imagetransformocollectioneffectivedata/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides.effects/imagetransformocollectioneffectivedata/__init__/#) |  |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides.effects/imagetransformocollectioneffectivedata/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.effects/imagetransformocollectioneffectivedata/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides.effects/imagetransformocollectioneffectivedata/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.effects/imagetransformocollectioneffectivedata/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -37,3 +37,6 @@ The ImageTransformOCollectionEffectiveData type exposes the following members:
 
 Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39.
 
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 320
 
 ## is_object_link property
 Determines whether an object is linked to external file.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether an object is linked to external file.
 def is_object_link(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

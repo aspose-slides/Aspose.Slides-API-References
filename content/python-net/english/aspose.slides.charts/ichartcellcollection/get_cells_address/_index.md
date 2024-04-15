@@ -13,7 +13,7 @@ Returns address of the set of cells in workbook.
 
 ### Returns
 
-Address of the set of cells in workbook .NET type System.String
+Address of the set of cells in workbook **string**
 
 
 
@@ -25,3 +25,7 @@ def get_cells_address(self):
 
 
 
+### See Also
+* class [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

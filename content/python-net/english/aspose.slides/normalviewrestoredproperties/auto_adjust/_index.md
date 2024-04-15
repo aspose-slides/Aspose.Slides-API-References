@@ -11,7 +11,7 @@ weight: 10
 ## auto_adjust property
 Specifies whether the size of the side content region should compensate for the new size
             when resizing the window containing the view within the application
-             Read/write .NET type System.Boolean.
+             Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def auto_adjust(self):
 def auto_adjust(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

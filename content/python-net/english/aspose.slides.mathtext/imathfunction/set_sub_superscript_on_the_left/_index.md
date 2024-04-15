@@ -42,3 +42,7 @@ def set_sub_superscript_on_the_left(self, subscript, superscript):
 
 
 
+### See Also
+* class [`IMathFunction`](/slides/python-net/aspose.slides.mathtext/imathfunction)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

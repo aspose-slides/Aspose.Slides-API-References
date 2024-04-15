@@ -21,3 +21,8 @@ def vba_project(self):
 def vba_project(self, value):
     ...
 ```
+
+### See Also
+* class [`IVbaProject`](/slides/python-net/aspose.slides.vba/ivbaproject)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

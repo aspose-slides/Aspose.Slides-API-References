@@ -13,3 +13,6 @@ Represents manager which holds behavior of the footer, date-time, page number pl
 
 The IBaseHeaderFooterManager type exposes the following members:
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

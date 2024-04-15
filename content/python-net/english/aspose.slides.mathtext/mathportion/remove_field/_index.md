@@ -20,3 +20,7 @@ def remove_field(self):
 
 
 
+### See Also
+* class [`MathPortion`](/slides/python-net/aspose.slides.mathtext/mathportion)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

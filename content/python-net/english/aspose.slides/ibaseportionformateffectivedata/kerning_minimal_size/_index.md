@@ -10,7 +10,7 @@ weight: 140
 
 ## kerning_minimal_size property
 Returns the minimal font size, for which kerning should be switched on.
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the minimal font size, for which kerning should be switched on.
 def kerning_minimal_size(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 80
 
 ## right property
 Gets the right of the chart element as a fraction of the width of the chart.
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets the right of the chart element as a fraction of the width of the chart.
 def right(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

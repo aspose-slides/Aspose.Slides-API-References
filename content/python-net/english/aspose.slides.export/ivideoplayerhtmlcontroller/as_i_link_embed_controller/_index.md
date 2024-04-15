@@ -18,3 +18,8 @@ Allows to get base ILinkEmbedController interface.
 def as_i_link_embed_controller(self):
     ...
 ```
+
+### See Also
+* class [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller)
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

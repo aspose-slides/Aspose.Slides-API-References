@@ -20,7 +20,7 @@ def save(self, file_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string | File name .NET type System.String |
+| file_name | string | File name **string** |
 
 
 
@@ -36,7 +36,7 @@ def save(self, stream, image_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Stream for saving image .NET type System.IO.Stream |
+| stream | System.IO.Stream | Stream for saving image **System.IO.Stream** |
 | image_format | PPImageFormat | Image format [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |
 
 
@@ -53,8 +53,12 @@ def save(self, file_name, image_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string | File name .NET type System.String |
+| file_name | string | File name **string** |
 | image_format | PPImageFormat | Image format [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |
 
 
 
+### See Also
+* class [`IImageWrapper`](/slides/python-net/aspose.slides/iimagewrapper)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

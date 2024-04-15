@@ -17,15 +17,18 @@ The IImageWrapper type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [image](/slides/python-net/aspose.slides/iimagewrapper/image/) | Gets the Syste.Drawing.Image<br/>            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper#image). |
-| [size](/slides/python-net/aspose.slides/iimagewrapper/size/) | Gets the width and height, in pixels, of the Image<br/>            Read-only [`IImageWrapper.size`](/slides/python-net/aspose.slides/iimagewrapper#size). |
-| [as_i_disposable](/slides/python-net/aspose.slides/iimagewrapper/as_i_disposable/) | Returns IDisposable interface.<br/>            Read-only .NET type System.IDisposable. |
+| [`image`](/slides/python-net/aspose.slides/iimagewrapper/image/) | Gets the Syste.Drawing.Image<br/>            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper#image). |
+| [`size`](/slides/python-net/aspose.slides/iimagewrapper/size/) | Gets the width and height, in pixels, of the Image<br/>            Read-only [`IImageWrapper.size`](/slides/python-net/aspose.slides/iimagewrapper#size). |
+| [`as_i_disposable`](/slides/python-net/aspose.slides/iimagewrapper/as_i_disposable/) | Returns IDisposable interface.<br/>            Read-only **System.IDisposable**. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [save](/slides/python-net/aspose.slides/iimagewrapper/save/#string) | Saves Image to the specified file |
-| [save](/slides/python-net/aspose.slides/iimagewrapper/save/#systemiostream-ppimageformat) | Saves the Image to the specified stream in the specified format. |
-| [save](/slides/python-net/aspose.slides/iimagewrapper/save/#string-ppimageformat) | Saves the Image to the specified file in the specified format. |
+| [`save`](/slides/python-net/aspose.slides/iimagewrapper/save/#string) | Saves Image to the specified file |
+| [`save`](/slides/python-net/aspose.slides/iimagewrapper/save/#systemiostream-ppimageformat) | Saves the Image to the specified stream in the specified format. |
+| [`save`](/slides/python-net/aspose.slides/iimagewrapper/save/#string-ppimageformat) | Saves the Image to the specified file in the specified format. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -15,3 +15,7 @@ weight: 70
 def as_i_slide_component(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

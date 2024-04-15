@@ -34,3 +34,6 @@ The PlaceholderType type exposes the following members:
 | SLIDE_IMAGE | Slide Image. |
 | PICTURE | Picture. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -11,7 +11,7 @@ weight: 100
 ## embed_true_type_fonts_for_ascii property
 True to embed true type fonts for ASCII characters 32-127.
             Fonts for character codes greater than 127 are always embedded.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -27,3 +27,7 @@ def embed_true_type_fonts_for_ascii(self):
 def embed_true_type_fonts_for_ascii(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -31,3 +31,7 @@ Specifies how to determine which data points are in the second pie or bar
 def pie_split_by(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

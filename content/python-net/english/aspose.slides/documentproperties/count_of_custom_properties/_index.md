@@ -10,7 +10,7 @@ weight: 190
 
 ## count_of_custom_properties property
 Returns the number of custom properties actually contained in a collection.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the number of custom properties actually contained in a collection.
 def count_of_custom_properties(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

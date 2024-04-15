@@ -12,7 +12,7 @@ weight: 160
 Returns or sets top edge of the fill rectangle that is defined by a percentage offset 
             from the top edge of the shape's bounding box. 
             A positive percentage specifies an inset, while a negative percentage specifies an outset.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def stretch_offset_top(self):
 def stretch_offset_top(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

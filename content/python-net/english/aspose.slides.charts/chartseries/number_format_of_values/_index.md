@@ -10,7 +10,7 @@ weight: 270
 
 ## number_format_of_values property
 NumberFormatOfValues.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def number_format_of_values(self):
 def number_format_of_values(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

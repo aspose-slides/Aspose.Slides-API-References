@@ -18,7 +18,7 @@ The IChartDataPointLevelsManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.charts/ichartdatapointlevelsmanager/count/) | Returns data point levels count. |
+| [`count`](/slides/python-net/aspose.slides.charts/ichartdatapointlevelsmanager/count/) | Returns data point levels count. |
 
 ## Indexer
 
@@ -26,3 +26,6 @@ The IChartDataPointLevelsManager type exposes the following members:
 | :- | :- |
 | [index] |  |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

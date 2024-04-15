@@ -33,3 +33,8 @@ def add_control(self, control_type, x, y, width, height):
 
 
 
+### See Also
+* class [`IControl`](/slides/python-net/aspose.slides/icontrol)
+* class [`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

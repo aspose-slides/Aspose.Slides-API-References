@@ -10,7 +10,7 @@ weight: 40
 
 ## char property
 Returns or sets the bullet char of a paragraph with no inheritance.
-            Read/write .NET type System.Char.
+            Read/write **System.Char**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def char(self):
 def char(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

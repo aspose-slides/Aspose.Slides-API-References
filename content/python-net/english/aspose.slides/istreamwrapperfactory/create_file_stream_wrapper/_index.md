@@ -25,8 +25,8 @@ def create_file_stream_wrapper(self, file_name, file_mode):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string | File name .NET type System.String |
-| file_mode | System.IO.FileMode | File mode .NET type System.IO.FileMode |
+| file_name | string | File name **string** |
+| file_mode | System.IO.FileMode | File mode **System.IO.FileMode** |
 
 
 
@@ -47,9 +47,14 @@ def create_file_stream_wrapper(self, file_name, file_mode, file_access):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string | File name .NET type System.String |
-| file_mode | System.IO.FileMode | File mode .NET type System.IO.FileMode |
-| file_access | System.IO.FileAccess | File access .NET type System.IO.FileAccess |
+| file_name | string | File name **string** |
+| file_mode | System.IO.FileMode | File mode **System.IO.FileMode** |
+| file_access | System.IO.FileAccess | File access **System.IO.FileAccess** |
 
 
 
+### See Also
+* class [`IStreamWrapper`](/slides/python-net/aspose.slides/istreamwrapper)
+* class [`IStreamWrapperFactory`](/slides/python-net/aspose.slides/istreamwrapperfactory)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

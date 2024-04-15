@@ -18,3 +18,8 @@ Gets the series.
 def series(self):
     ...
 ```
+
+### See Also
+* class [`IChartSeriesCollection`](/slides/python-net/aspose.slides.charts/ichartseriescollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

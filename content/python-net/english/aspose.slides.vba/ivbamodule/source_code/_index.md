@@ -10,7 +10,7 @@ weight: 20
 
 ## source_code property
 Source code of the module.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def source_code(self):
 def source_code(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

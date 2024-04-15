@@ -21,3 +21,8 @@ def blur_effect(self):
 def blur_effect(self, value):
     ...
 ```
+
+### See Also
+* class [`IBlur`](/slides/python-net/aspose.slides.effects/iblur)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

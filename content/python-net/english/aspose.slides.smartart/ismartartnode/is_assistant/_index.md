@@ -10,7 +10,7 @@ weight: 40
 
 ## is_assistant property
 Returns or sets the node as assistant.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_assistant(self):
 def is_assistant(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

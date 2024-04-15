@@ -29,3 +29,7 @@ def add_placeholder(self, placeholder_to_copy_from):
 
 
 
+### See Also
+* class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

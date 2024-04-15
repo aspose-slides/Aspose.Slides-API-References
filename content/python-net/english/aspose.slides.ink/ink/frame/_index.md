@@ -30,3 +30,8 @@ def frame(self):
 def frame(self, value):
     ...
 ```
+
+### See Also
+* class [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe)
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

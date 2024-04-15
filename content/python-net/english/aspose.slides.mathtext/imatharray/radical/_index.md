@@ -40,3 +40,7 @@ def radical(self, degree):
 
 
 
+### See Also
+* class [`IMathArray`](/slides/python-net/aspose.slides.mathtext/imatharray)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

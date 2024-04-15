@@ -10,7 +10,7 @@ weight: 60
 
 ## is_encrypted property
 Gets True if binded presentation is encrypted, otherwise False.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets True if binded presentation is encrypted, otherwise False.
 def is_encrypted(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

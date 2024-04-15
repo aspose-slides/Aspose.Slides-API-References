@@ -9,7 +9,7 @@ weight: 40
 
 
 ## copy_to {#listiportion-int}
-Copies the elements of the .NET type System.Collections.Generic.ICollection`1 to an .NET type System.Array, starting at a particular .NET type System.Array index.
+Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index.
 
 
 ```python
@@ -20,16 +20,20 @@ def copy_to(self, array, array_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| array | List[IPortion] | The one-dimensional .NET type System.Array that is the destination of the elements copied from .NET type System.Collections.Generic.ICollection`1. The .NET type System.Array must have zero-based indexing. |
+| array | List[IPortion] | The one-dimensional **System.Array** that is the destination of the elements copied from **System.Collections.Generic.ICollection`1**. The **System.Array** must have zero-based indexing. |
 | array_index | int | The zero-based index in `<br/><br/>array`<br/><br/> at which copying begins. |
 
 ## Exceptions
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | `<br/>array`<br/> is null. |
-| .NET type System.ArgumentOutOfRangeException | `<br/>array_index`<br/> is less than 0. |
-| .NET type System.ArgumentException | The number of elements in the source .NET type System.Collections.Generic.ICollection`1 is greater than the available space from `<br/>array_index`<br/> to the end of the destination `<br/>array`<br/>. |
+| **System.ArgumentNullException** | `<br/>array`<br/> is null. |
+| **System.ArgumentOutOfRangeException** | `<br/>array_index`<br/> is less than 0. |
+| **System.ArgumentException** | The number of elements in the source **System.Collections.Generic.ICollection`1** is greater than the available space from `<br/>array_index`<br/> to the end of the destination `<br/>array`<br/>. |
 
 
 
+### See Also
+* class [`PortionCollection`](/slides/python-net/aspose.slides/portioncollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

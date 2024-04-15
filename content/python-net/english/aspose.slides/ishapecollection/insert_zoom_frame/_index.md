@@ -26,17 +26,17 @@ def insert_zoom_frame(self, index, x, y, width, height, slide):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | The zero-based index at which Zoom frame should be inserted. |
-| x | float | X coordinate of a new Zoom frame .NET type System.Single. |
-| y | float | Y coordinate of a new Zoom frame .NET type System.Single. |
-| width | float | Width of a new Zoom frame .NET type System.Single. |
-| height | float | Height of a new Zoom frame .NET type System.Single. |
+| x | float | X coordinate of a new Zoom frame **float**. |
+| y | float | Y coordinate of a new Zoom frame **float**. |
+| width | float | Width of a new Zoom frame **float**. |
+| height | float | Height of a new Zoom frame **float**. |
 | slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
 
 ## Exceptions
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | Referenced slide does not belong to the current presentation. |
+| **System.ArgumentException** | Referenced slide does not belong to the current presentation. |
 
 
 
@@ -58,10 +58,10 @@ def insert_zoom_frame(self, index, x, y, width, height, slide, image):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | The zero-based index at which Zoom frame should be inserted. |
-| x | float | X coordinate of a new Zoom frame .NET type System.Single. |
-| y | float | Y coordinate of a new Zoom frame .NET type System.Single. |
-| width | float | Width of a new Zoom frame .NET type System.Single. |
-| height | float | Height of a new Zoom frame .NET type System.Single. |
+| x | float | X coordinate of a new Zoom frame **float**. |
+| y | float | Y coordinate of a new Zoom frame **float**. |
+| width | float | Width of a new Zoom frame **float**. |
+| height | float | Height of a new Zoom frame **float**. |
 | slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
 | image | IPPImage | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
 
@@ -69,7 +69,14 @@ def insert_zoom_frame(self, index, x, y, width, height, slide, image):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | Referenced slide does not belong to the current presentation. |
+| **System.ArgumentException** | Referenced slide does not belong to the current presentation. |
 
 
 
+### See Also
+* class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
+* class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* class [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

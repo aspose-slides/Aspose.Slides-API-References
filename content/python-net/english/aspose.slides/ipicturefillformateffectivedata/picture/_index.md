@@ -18,3 +18,8 @@ Returns the picture.
 def picture(self):
     ...
 ```
+
+### See Also
+* class [`IPictureEffectiveData`](/slides/python-net/aspose.slides/ipictureeffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

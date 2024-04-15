@@ -20,7 +20,11 @@ def delete_grouping_item(self, level):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| level | int | Category level .NET type System.Int32 |
+| level | int | Category level **int** |
 
 
 
+### See Also
+* class [`IChartCategoryLevelsManager`](/slides/python-net/aspose.slides.charts/ichartcategorylevelsmanager)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

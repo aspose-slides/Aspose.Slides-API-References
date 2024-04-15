@@ -22,3 +22,6 @@ The TickMarkType type exposes the following members:
 | NONE | Specifies there shall be no tick marks. |
 | OUTSIDE | Specifies the tick marks shall be outside the plot area. |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

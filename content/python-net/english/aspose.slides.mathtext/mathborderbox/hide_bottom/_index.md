@@ -20,3 +20,7 @@ def hide_bottom(self):
 def hide_bottom(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

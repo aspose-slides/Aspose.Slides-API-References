@@ -11,7 +11,7 @@ weight: 80
 ## is_bullet_hard_font property
 Determines whether the bullet has own font or inherits it from the first portion in the paragraph.
             Returns **true**  if bullet has own font and **true**  if bullet inherits font from the first portion in the paragraph.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -19,3 +19,7 @@ Determines whether the bullet has own font or inherits it from the first portion
 def is_bullet_hard_font(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

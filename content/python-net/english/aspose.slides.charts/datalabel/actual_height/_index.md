@@ -10,7 +10,7 @@ weight: 50
 
 ## actual_height property
 Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. 
-            Read .NET type System.Single.
+            Read **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Specifies actual height of the chart element. Call method IChart.ValidateChartLa
 def actual_height(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

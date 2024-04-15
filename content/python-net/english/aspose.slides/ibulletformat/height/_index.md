@@ -11,7 +11,7 @@ weight: 60
 ## height property
 Returns or sets the bullet height of a paragraph with no inheritance.
             Value float.NaN determines that bullet inherits height from the first portion in the paragraph.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def height(self):
 def height(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

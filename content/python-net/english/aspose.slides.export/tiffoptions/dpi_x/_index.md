@@ -10,7 +10,7 @@ weight: 60
 
 ## dpi_x property
 Specifies the horizontal resolution in dots per inch.
-            Read/write .NET type System.UInt32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def dpi_x(self):
 def dpi_x(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

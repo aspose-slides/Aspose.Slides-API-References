@@ -21,3 +21,7 @@ def number_of_bins(self):
 def number_of_bins(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

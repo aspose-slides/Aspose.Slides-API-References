@@ -10,7 +10,7 @@ weight: 110
 
 ## highlight_color property
 Returns the color used to highlight a text.
-            Read-only .NET type System.Drawing.Color.
+            Read-only **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the color used to highlight a text.
 def highlight_color(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

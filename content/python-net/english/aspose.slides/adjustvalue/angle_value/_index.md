@@ -10,7 +10,7 @@ weight: 10
 
 ## angle_value property
 Returns or sets value, interpreting it as angle in degrees.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def angle_value(self):
 def angle_value(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

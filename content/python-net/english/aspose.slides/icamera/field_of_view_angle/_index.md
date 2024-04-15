@@ -10,7 +10,7 @@ weight: 40
 
 ## field_of_view_angle property
 Camera FOV (0-180 deg, field of View)
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def field_of_view_angle(self):
 def field_of_view_angle(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

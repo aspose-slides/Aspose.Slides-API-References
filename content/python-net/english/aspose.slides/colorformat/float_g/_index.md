@@ -10,7 +10,7 @@ weight: 100
 
 ## float_g property
 Returns or sets the green component of a color. All color transformations are ignored.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def float_g(self):
 def float_g(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

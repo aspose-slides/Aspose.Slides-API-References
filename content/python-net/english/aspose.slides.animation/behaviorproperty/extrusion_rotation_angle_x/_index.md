@@ -17,3 +17,7 @@ Represents 'extrusion.rotationangle.x' property
 def extrusion_rotation_angle_x(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

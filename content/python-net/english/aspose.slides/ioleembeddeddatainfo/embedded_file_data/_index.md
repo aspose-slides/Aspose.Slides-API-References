@@ -10,7 +10,7 @@ weight: 10
 
 ## embedded_file_data property
 Returns the file data of embedded OLE object
-            Read only .NET type System.Byte[].
+            Read only **int**[].
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the file data of embedded OLE object
 def embedded_file_data(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

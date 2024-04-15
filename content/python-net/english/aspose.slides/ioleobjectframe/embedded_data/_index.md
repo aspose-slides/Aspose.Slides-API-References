@@ -18,3 +18,8 @@ Gets information about OLE embedded data.
 def embedded_data(self):
     ...
 ```
+
+### See Also
+* class [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

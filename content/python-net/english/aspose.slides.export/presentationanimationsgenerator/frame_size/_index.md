@@ -17,3 +17,7 @@ Gets the frame size.
 def FRAME_SIZE(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

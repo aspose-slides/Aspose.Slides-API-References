@@ -17,3 +17,7 @@ Specifies a subscript argument that, for example, in the case of an integral, se
 def subscript(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

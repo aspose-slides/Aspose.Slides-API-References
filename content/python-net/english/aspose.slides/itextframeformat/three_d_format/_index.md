@@ -18,3 +18,8 @@ Returns the ThreeDFormat object that represents 3d effect properties for a text.
 def three_d_format(self):
     ...
 ```
+
+### See Also
+* class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

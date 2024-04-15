@@ -10,7 +10,7 @@ weight: 70
 
 ## data property
 Returns or sets Data object.
-            Read/write .NET type System.Object.
+            Read/write **any**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def data(self):
 def data(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

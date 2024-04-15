@@ -20,3 +20,7 @@ def clear(self):
 
 
 
+### See Also
+* class [`BehaviorCollection`](/slides/python-net/aspose.slides.animation/behaviorcollection)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -31,3 +31,7 @@ def create_hsl(self, hue, saturation, luminance):
 
 
 
+### See Also
+* class [`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

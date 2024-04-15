@@ -10,7 +10,7 @@ weight: 20
 
 ## center_x property
 Returns the X coordinate of a frame's center.
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the X coordinate of a frame's center.
 def center_x(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

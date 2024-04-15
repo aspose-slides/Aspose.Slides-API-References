@@ -18,3 +18,8 @@ Provede access to up/down bars of Line- or Stock-chart.
 def up_down_bars(self):
     ...
 ```
+
+### See Also
+* class [`IUpDownBarsManager`](/slides/python-net/aspose.slides.charts/iupdownbarsmanager)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

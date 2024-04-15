@@ -50,3 +50,7 @@ def create_math_array(self, elements):
 
 
 
+### See Also
+* class [`MathArrayFactory`](/slides/python-net/aspose.slides.mathtext/matharrayfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

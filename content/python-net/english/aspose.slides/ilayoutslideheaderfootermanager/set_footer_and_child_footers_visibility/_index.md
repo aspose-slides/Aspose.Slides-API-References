@@ -26,3 +26,7 @@ def set_footer_and_child_footers_visibility(self, is_visible):
 
 
 
+### See Also
+* class [`ILayoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/ilayoutslideheaderfootermanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

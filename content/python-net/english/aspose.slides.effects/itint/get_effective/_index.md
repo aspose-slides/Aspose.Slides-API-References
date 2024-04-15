@@ -20,3 +20,7 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`ITint`](/slides/python-net/aspose.slides.effects/itint)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

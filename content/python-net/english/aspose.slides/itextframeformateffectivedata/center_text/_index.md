@@ -10,7 +10,7 @@ weight: 30
 
 ## center_text property
 Returns if text should be centered in box horizontally.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns if text should be centered in box horizontally.
 def center_text(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

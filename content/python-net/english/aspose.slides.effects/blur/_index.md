@@ -20,16 +20,22 @@ The Blur type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/blur/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
-| [radius](/slides/python-net/aspose.slides.effects/blur/radius/) | Returns or sets blur radius.<br/>            Read/write .NET type System.Double. |
-| [grow](/slides/python-net/aspose.slides.effects/blur/grow/) | Determines whether the bounds of the object should be grown as a result of the blurring.<br/>            True indicates the bounds are grown while false indicates that they are not.<br/>            Read/write .NET type System.Boolean. |
-| [slide](/slides/python-net/aspose.slides.effects/blur/slide/) |  |
-| [presentation](/slides/python-net/aspose.slides.effects/blur/presentation/) |  |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/blur/as_i_image_transform_operation/) |  |
+| [`as_i_presentation_component`](/slides/python-net/aspose.slides.effects/blur/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [`radius`](/slides/python-net/aspose.slides.effects/blur/radius/) | Returns or sets blur radius.<br/>            Read/write **float**. |
+| [`grow`](/slides/python-net/aspose.slides.effects/blur/grow/) | Determines whether the bounds of the object should be grown as a result of the blurring.<br/>            True indicates the bounds are grown while false indicates that they are not.<br/>            Read/write **bool**. |
+| [`slide`](/slides/python-net/aspose.slides.effects/blur/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/blur/presentation/) |  |
+| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/blur/as_i_image_transform_operation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/blur/get_effective/#) | Gets effective Blur effect data with the inheritance applied. |
+| [`get_effective`](/slides/python-net/aspose.slides.effects/blur/get_effective/#) | Gets effective Blur effect data with the inheritance applied. |
 
+### See Also
+* class [`Blur`](/slides/python-net/aspose.slides.effects/blur)
+* class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+* class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

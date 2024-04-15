@@ -15,3 +15,7 @@ weight: 130
 def as_i_geometry_shape(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -16,7 +16,7 @@ Specifies the size of the hole in a doughnut chart (can be between 10 and 90 per
             is read-only.
             Use ParentSeriesGroup property for access to parent series group.
             Use ParentSeriesGroup.DoughnutHoleSize read/write property for change value.
-            Read-only .NET type System.Byte.
+            Read-only **int**.
 
 
 ### Remarks
@@ -29,3 +29,7 @@ This is the projection of the property ParentSeriesGroup.DoughnutHoleSize.
 def doughnut_hole_size(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

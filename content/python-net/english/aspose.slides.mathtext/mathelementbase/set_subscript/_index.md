@@ -50,3 +50,8 @@ def set_subscript(self, subscript):
 
 
 
+### See Also
+* class [`IMathSubscriptElement`](/slides/python-net/aspose.slides.mathtext/imathsubscriptelement)
+* class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Gets the cells factory to create cells used for chart series or categories.
 def chart_data_workbook(self):
     ...
 ```
+
+### See Also
+* class [`IChartDataWorkbook`](/slides/python-net/aspose.slides.charts/ichartdataworkbook)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

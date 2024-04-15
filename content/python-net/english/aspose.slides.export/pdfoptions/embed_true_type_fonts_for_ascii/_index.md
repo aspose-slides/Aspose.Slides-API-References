@@ -12,7 +12,7 @@ weight: 110
 Determines if Aspose.Slides will embed common fonts for ASCII (33..127 code range) text.
             Fonts for character codes greater than 127 are always embedded.
             Common fonts list includes PDF's base 14 fonts and additional user specified fonts.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -28,3 +28,7 @@ def embed_true_type_fonts_for_ascii(self):
 def embed_true_type_fonts_for_ascii(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

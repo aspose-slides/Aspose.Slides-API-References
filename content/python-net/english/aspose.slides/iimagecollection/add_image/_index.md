@@ -123,7 +123,7 @@ def add_image(self, svg_image):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | Thrown when svgImage parameter is null. |
+| **System.ArgumentNullException** | Thrown when svgImage parameter is null. |
 
 
 
@@ -149,3 +149,9 @@ def add_image(self, stream, loading_stream_behavior):
 
 
 
+### See Also
+* class [`IImageCollection`](/slides/python-net/aspose.slides/iimagecollection)
+* class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
+* class [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

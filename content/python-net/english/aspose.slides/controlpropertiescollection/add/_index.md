@@ -25,3 +25,7 @@ def add(self, name, value):
 
 
 
+### See Also
+* class [`ControlPropertiesCollection`](/slides/python-net/aspose.slides/controlpropertiescollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

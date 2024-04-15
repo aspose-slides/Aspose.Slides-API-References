@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`Duotone`](/slides/python-net/aspose.slides.effects/duotone)
+* class [`IDuotoneEffectiveData`](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

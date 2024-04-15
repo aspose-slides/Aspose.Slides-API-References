@@ -17,3 +17,7 @@ Represents 'shadow.matrix.perspectiveY' property
 def shadow_matrix_perspective_y(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

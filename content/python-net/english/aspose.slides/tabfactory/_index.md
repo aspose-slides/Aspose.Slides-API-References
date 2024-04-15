@@ -17,16 +17,19 @@ The TabFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/tabfactory/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides/tabfactory/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_tab](/slides/python-net/aspose.slides/tabfactory/create_tab/#float-tabalignment) | Creates a new ITab instance. |
+| [`create_tab`](/slides/python-net/aspose.slides/tabfactory/create_tab/#float-tabalignment) | Creates a new ITab instance. |
 
 
 ### Remarks
 
 For COM compatibility.
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

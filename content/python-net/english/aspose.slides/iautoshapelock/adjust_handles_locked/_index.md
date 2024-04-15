@@ -10,7 +10,7 @@ weight: 10
 
 ## adjust_handles_locked property
 Determines whether a changing adjust values is forbidden.
-            Read-write .NET type System.Boolean.
+            Read-write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def adjust_handles_locked(self):
 def adjust_handles_locked(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

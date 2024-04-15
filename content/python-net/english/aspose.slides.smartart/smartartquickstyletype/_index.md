@@ -32,3 +32,6 @@ The SmartArtQuickStyleType type exposes the following members:
 | SUNSET_SCENE | SunsetScene |
 | BIRDS_EYE_SCENE | BirdsEyeScene |
 
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -21,3 +21,7 @@ Represents a hyperlink that is set for this portion without regard to the actual
 def external_url_original(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

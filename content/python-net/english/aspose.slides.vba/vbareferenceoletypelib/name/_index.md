@@ -10,7 +10,7 @@ weight: 40
 
 ## name property
 Represents the name of the VBA project reference.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def name(self):
 def name(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

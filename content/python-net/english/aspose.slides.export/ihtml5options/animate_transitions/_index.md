@@ -10,7 +10,7 @@ weight: 20
 
 ## animate_transitions property
 Returns or sets transitions animation option.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def animate_transitions(self):
 def animate_transitions(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

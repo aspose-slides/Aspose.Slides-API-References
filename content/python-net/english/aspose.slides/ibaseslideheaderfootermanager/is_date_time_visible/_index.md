@@ -10,7 +10,7 @@ weight: 70
 
 ## is_date_time_visible property
 Gets value indicating that a date-time placeholder is present.
-            Read.NET type System.Boolean.
+            Read**bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets value indicating that a date-time placeholder is present.
 def is_date_time_visible(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

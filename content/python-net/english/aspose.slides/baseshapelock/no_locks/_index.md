@@ -10,7 +10,7 @@ weight: 10
 
 ## no_locks property
 Return true if all lock-flags are disabled.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Return true if all lock-flags are disabled.
 def no_locks(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

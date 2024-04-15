@@ -18,3 +18,8 @@ Gets manager of the permissions for this presentation.
 def protection_manager(self):
     ...
 ```
+
+### See Also
+* class [`IProtectionManager`](/slides/python-net/aspose.slides/iprotectionmanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

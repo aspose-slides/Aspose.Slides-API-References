@@ -10,7 +10,7 @@ weight: 80
 
 ## slide_image_size_unit_code property
 Returns a css code of unit in which slide image size is specified.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns a css code of unit in which slide image size is specified.
 def slide_image_size_unit_code(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

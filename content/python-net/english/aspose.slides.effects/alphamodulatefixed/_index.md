@@ -20,15 +20,21 @@ The AlphaModulateFixed type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/alphamodulatefixed/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
-| [amount](/slides/python-net/aspose.slides.effects/alphamodulatefixed/amount/) | Returns an amount of effect in percents.<br/>            Read/write .NET type System.Single. |
-| [slide](/slides/python-net/aspose.slides.effects/alphamodulatefixed/slide/) |  |
-| [presentation](/slides/python-net/aspose.slides.effects/alphamodulatefixed/presentation/) |  |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/alphamodulatefixed/as_i_image_transform_operation/) |  |
+| [`as_i_presentation_component`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [`amount`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/amount/) | Returns an amount of effect in percents.<br/>            Read/write **float**. |
+| [`slide`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/presentation/) |  |
+| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/as_i_image_transform_operation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/alphamodulatefixed/get_effective/#) | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
+| [`get_effective`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/get_effective/#) | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
 
+### See Also
+* class [`AlphaModulateFixed`](/slides/python-net/aspose.slides.effects/alphamodulatefixed)
+* class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+* class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

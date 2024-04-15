@@ -18,3 +18,8 @@ Returns the parent presentation of a slide.
 def presentation(self):
     ...
 ```
+
+### See Also
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

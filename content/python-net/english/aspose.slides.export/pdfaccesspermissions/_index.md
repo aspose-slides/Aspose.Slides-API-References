@@ -28,3 +28,6 @@ The PdfAccessPermissions type exposes the following members:
 | ASSEMBLE_DOCUMENT | Specifies whether a user may assemble the document (insert, rotate, or delete pages and create bookmarks or<br/>            thumbnail images), even if bit [`PdfAccessPermissions.MODIFY_CONTENT`](/slides/python-net/aspose.slides.export/pdfaccesspermissions#MODIFY_CONTENT) is clear. |
 | HIGH_QUALITY_PRINT | Specifies whether a user may print the document to a representation from which a faithful digital copy of<br/>            the PDF content could be generated. When this bit is clear (and bit [`PdfAccessPermissions.PRINT_DOCUMENT`](/slides/python-net/aspose.slides.export/pdfaccesspermissions#PRINT_DOCUMENT) is set),<br/>            printing is limited to a low-level representation of the appearance, possibly of degraded quality. |
 
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

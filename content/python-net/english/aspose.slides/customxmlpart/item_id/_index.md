@@ -11,7 +11,7 @@ weight: 20
 ## item_id property
 Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML 
             part within an Office Open XML document.
-            Read-only .NET type System.Guid.
+            Read-only **System.Guid**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def item_id(self):
 def item_id(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

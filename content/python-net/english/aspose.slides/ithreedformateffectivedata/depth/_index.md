@@ -10,7 +10,7 @@ weight: 70
 
 ## depth property
 Returns the depth of a 3D shape.
-            Read-only .NET type System.Double.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the depth of a 3D shape.
 def depth(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

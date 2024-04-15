@@ -10,7 +10,7 @@ weight: 130
 
 ## position property
 Gets or sets the position within the current stream.
-            Read-only .NET type System.Int64.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets or sets the position within the current stream.
 def position(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

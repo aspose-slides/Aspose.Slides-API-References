@@ -10,7 +10,7 @@ weight: 90
 
 ## embed_full_fonts property
 Determines if all characters of font should be embedded or only used subset.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -26,3 +26,7 @@ def embed_full_fonts(self):
 def embed_full_fonts(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

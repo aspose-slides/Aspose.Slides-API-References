@@ -10,7 +10,7 @@ weight: 180
 
 ## use_frame_size property
 Determines whether the text frame will be included in a rendering area or not.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
             Default value is false.
 
 ### Definition:
@@ -22,3 +22,7 @@ def use_frame_size(self):
 def use_frame_size(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -11,7 +11,7 @@ weight: 50
 ## by property
 Specifies a relative offset value for the animation with respect to its
             position before the start of the animation.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def by(self):
 def by(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

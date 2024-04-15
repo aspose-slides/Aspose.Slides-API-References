@@ -11,7 +11,7 @@ weight: 500
 ## rewind_video property
 Determines whether a video is automatically rewinded to start
             as soon as the movie has finished playing.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def rewind_video(self):
 def rewind_video(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

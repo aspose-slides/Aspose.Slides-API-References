@@ -10,7 +10,7 @@ weight: 230
 
 ## is_grouped property
 Determines whether the shape is grouped.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 
 ### Remarks
@@ -23,3 +23,7 @@ Property [`IShape.parent_group`](/slides/python-net/aspose.slides/ishape#parent_
 def is_grouped(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

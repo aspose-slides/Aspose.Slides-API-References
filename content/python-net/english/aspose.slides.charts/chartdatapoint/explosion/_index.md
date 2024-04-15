@@ -10,7 +10,7 @@ weight: 120
 
 ## explosion property
 Specifies the amount the data point shall be moved from the center of the pie.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def explosion(self):
 def explosion(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

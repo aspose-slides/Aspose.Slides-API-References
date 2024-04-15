@@ -50,3 +50,8 @@ def function(self, function_argument):
 
 
 
+### See Also
+* class [`IMathFunction`](/slides/python-net/aspose.slides.mathtext/imathfunction)
+* class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

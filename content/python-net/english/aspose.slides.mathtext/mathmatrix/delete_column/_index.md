@@ -26,8 +26,12 @@ def delete_column(self, column_index):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | When you try to delete the last single column in the matrix |
-| .NET type System.ArgumentOutOfRangeException | If columnIndex less than zero or greater or equal to the ColumnCount |
+| **System.InvalidOperationException** | When you try to delete the last single column in the matrix |
+| **System.ArgumentOutOfRangeException** | If columnIndex less than zero or greater or equal to the ColumnCount |
 
 
 
+### See Also
+* class [`MathMatrix`](/slides/python-net/aspose.slides.mathtext/mathmatrix)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

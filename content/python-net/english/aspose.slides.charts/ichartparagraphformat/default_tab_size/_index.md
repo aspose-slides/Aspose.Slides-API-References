@@ -10,7 +10,7 @@ weight: 20
 
 ## default_tab_size property
 Returns or sets default tabulation size.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def default_tab_size(self):
 def default_tab_size(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

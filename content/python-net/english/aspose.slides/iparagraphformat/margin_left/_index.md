@@ -10,7 +10,7 @@ weight: 120
 
 ## margin_left property
 Returns or sets the left margin in a paragraph with no inheritance.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def margin_left(self):
 def margin_left(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

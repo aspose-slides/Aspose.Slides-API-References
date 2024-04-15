@@ -20,3 +20,7 @@ def create_theme_effective(self):
 
 
 
+### See Also
+* class [`IMasterThemeable`](/slides/python-net/aspose.slides.theme/imasterthemeable)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 420
 
 ## is_decorative property
 Gets or sets 'Mark as decorative' option
-            Reed/write .NET type System.Boolean.
+            Reed/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_decorative(self):
 def is_decorative(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

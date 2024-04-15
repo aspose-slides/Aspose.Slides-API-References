@@ -10,7 +10,7 @@ weight: 430
 
 ## max_value property
 Represents the maximum value on the value axis.
-             Read/write .NET type System.Double.
+             Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def max_value(self):
 def max_value(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

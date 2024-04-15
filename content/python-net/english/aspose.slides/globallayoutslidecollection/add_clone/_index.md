@@ -61,8 +61,12 @@ def add_clone(self, source_layout, dest_master):
 
 1) New layout will be linked with defined master in destination presentation.
             So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint.
-            2) Analogue of this method is method Aspose.Slides.IMasterLayoutSlideCollection.AddClone(Aspose.Slide.
+            2) Analogue of this method is method **Aspose.Slides.IMasterLayoutSlideCollection.AddClone(Aspose.Slide.**
             accessed with [`IMasterSlide.layout_slides`](/slides/python-net/aspose.slides/imasterslide#layout_slides) property.
 
 
 
+### See Also
+* class [`GlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/globallayoutslidecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

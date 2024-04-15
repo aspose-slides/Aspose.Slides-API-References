@@ -18,3 +18,8 @@ Returns 3D format of a chart.
 def effect_3d(self):
     ...
 ```
+
+### See Also
+* class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

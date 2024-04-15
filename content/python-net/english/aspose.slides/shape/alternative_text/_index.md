@@ -10,7 +10,7 @@ weight: 60
 
 ## alternative_text property
 Returns or sets the alternative text associated with a shape.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def alternative_text(self):
 def alternative_text(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

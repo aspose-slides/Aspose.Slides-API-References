@@ -22,7 +22,11 @@ def init_format_scheme(self):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | Thrown if the FormatScheme is already initialized (not null). |
+| **System.InvalidOperationException** | Thrown if the FormatScheme is already initialized (not null). |
 
 
 
+### See Also
+* class [`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

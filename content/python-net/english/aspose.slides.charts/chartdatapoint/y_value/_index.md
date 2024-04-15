@@ -18,3 +18,8 @@ YValue.
 def y_value(self):
     ...
 ```
+
+### See Also
+* class [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

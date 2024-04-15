@@ -10,7 +10,7 @@ weight: 50
 
 ## save_metafiles_as_png property
 True to convert all metafiles used in a presentation to the PNG images.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -26,3 +26,7 @@ def save_metafiles_as_png(self):
 def save_metafiles_as_png(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

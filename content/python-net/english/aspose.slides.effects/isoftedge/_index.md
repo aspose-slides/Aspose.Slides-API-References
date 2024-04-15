@@ -18,12 +18,15 @@ The ISoftEdge type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [radius](/slides/python-net/aspose.slides.effects/isoftedge/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read/write .NET type System.Double. |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/isoftedge/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
+| [`radius`](/slides/python-net/aspose.slides.effects/isoftedge/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read/write **float**. |
+| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/isoftedge/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/isoftedge/get_effective/#) |  |
+| [`get_effective`](/slides/python-net/aspose.slides.effects/isoftedge/get_effective/#) |  |
 
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

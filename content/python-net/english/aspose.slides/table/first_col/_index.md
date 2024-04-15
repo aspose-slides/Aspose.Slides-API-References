@@ -10,7 +10,7 @@ weight: 220
 
 ## first_col property
 Determines whether the first column of a table has to be drawn with a special formatting.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def first_col(self):
 def first_col(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -11,7 +11,7 @@ weight: 120
 ## hue property
 Returns or sets the hue component of a color in HSL representation.
             All color transformations are ignored.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def hue(self):
 def hue(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

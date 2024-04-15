@@ -18,3 +18,8 @@ Returns tabulations of a paragraph.
 def tabs(self):
     ...
 ```
+
+### See Also
+* class [`ITabCollection`](/slides/python-net/aspose.slides/itabcollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

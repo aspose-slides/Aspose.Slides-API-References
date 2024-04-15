@@ -18,3 +18,8 @@ Returns the type of a top 3D bevel.
 def bevel_top(self):
     ...
 ```
+
+### See Also
+* class [`IShapeBevelEffectiveData`](/slides/python-net/aspose.slides/ishapebeveleffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

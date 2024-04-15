@@ -21,3 +21,7 @@ def strikethrough_top_left_to_bottom_right(self):
 def strikethrough_top_left_to_bottom_right(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

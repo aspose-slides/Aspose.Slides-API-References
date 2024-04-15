@@ -25,7 +25,11 @@ def read_vba_project(self, data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | bytes | Ole data .NET type System.Byte[] |
+| data | bytes | Ole data **int**[] |
 
 
 
+### See Also
+* class [`IVbaProjectFactory`](/slides/python-net/aspose.slides.vba/ivbaprojectfactory)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

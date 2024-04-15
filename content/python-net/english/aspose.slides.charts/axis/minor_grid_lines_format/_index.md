@@ -18,3 +18,8 @@ Represents minor gridlines format on a chart axis.
 def minor_grid_lines_format(self):
     ...
 ```
+
+### See Also
+* class [`IChartLinesFormat`](/slides/python-net/aspose.slides.charts/ichartlinesformat)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

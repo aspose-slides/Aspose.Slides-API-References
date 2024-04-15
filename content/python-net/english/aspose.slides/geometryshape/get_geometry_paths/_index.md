@@ -25,3 +25,8 @@ def get_geometry_paths(self):
 
 
 
+### See Also
+* class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
+* class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

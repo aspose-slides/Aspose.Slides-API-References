@@ -35,3 +35,7 @@ New layout will be linked with parent master slide for this layout slides collec
 
 
 
+### See Also
+* class [`MasterLayoutSlideCollection`](/slides/python-net/aspose.slides/masterlayoutslidecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

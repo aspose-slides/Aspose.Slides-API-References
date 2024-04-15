@@ -11,7 +11,7 @@ weight: 50
 ## escapement property
 Returns the superscript or subscript text.
             Value from -100% (subscript) to 100% (superscript).
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -19,3 +19,7 @@ Returns the superscript or subscript text.
 def escapement(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

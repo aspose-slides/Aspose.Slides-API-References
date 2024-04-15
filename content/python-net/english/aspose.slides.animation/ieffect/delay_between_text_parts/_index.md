@@ -12,7 +12,7 @@ weight: 50
 Defines a delay between animated text parts (words or letters).
             A positive value specifies the percentage of effect duration.
             A negative value specifies the delay in seconds.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def delay_between_text_parts(self):
 def delay_between_text_parts(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

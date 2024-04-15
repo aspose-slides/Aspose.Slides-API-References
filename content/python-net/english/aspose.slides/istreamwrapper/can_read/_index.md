@@ -10,7 +10,7 @@ weight: 90
 
 ## can_read property
 Gets a value indicating whether the current stream supports reading.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets a value indicating whether the current stream supports reading.
 def can_read(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

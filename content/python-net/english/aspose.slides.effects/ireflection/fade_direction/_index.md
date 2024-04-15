@@ -10,7 +10,7 @@ weight: 80
 
 ## fade_direction property
 Specifies the direction to offset the reflection. (angle).
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def fade_direction(self):
 def fade_direction(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

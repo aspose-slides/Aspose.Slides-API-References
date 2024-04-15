@@ -10,7 +10,7 @@ weight: 600
 
 ## tick_label_spacing property
 Specifies how many tick labels to skip between label that is drawn.
-            Read/write .NET type System.UInt32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def tick_label_spacing(self):
 def tick_label_spacing(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

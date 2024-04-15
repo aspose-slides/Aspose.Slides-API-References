@@ -25,7 +25,7 @@ def create_image_wrapper(self, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | aspose.pydrawing.Image | Existing Image .NET type System.Drawing.Image |
+| image | aspose.pydrawing.Image | Existing Image **aspose.pydrawing.Image** |
 
 
 
@@ -46,7 +46,7 @@ def create_image_wrapper(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Data stream .NET type System.IO.Stream |
+| stream | System.IO.Stream | Data stream **System.IO.Stream** |
 
 
 
@@ -67,7 +67,12 @@ def create_image_wrapper(self, file_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string | File name .NET type System.String |
+| file_name | string | File name **string** |
 
 
 
+### See Also
+* class [`IImageWrapper`](/slides/python-net/aspose.slides/iimagewrapper)
+* class [`IImageWrapperFactory`](/slides/python-net/aspose.slides/iimagewrapperfactory)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

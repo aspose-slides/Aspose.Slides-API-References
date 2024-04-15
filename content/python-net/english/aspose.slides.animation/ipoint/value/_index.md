@@ -11,7 +11,7 @@ weight: 30
 ## value property
 Represents point value.
             Only: bool, ColorFormat, float, int, string.
-            Read/write .NET type System.Object.
+            Read/write **any**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def value(self):
 def value(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 290
 
 ## revision_number property
 Returns or sets the presentation revision number.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def revision_number(self):
 def revision_number(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

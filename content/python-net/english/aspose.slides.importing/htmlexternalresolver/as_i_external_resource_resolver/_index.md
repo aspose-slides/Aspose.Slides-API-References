@@ -15,3 +15,7 @@ weight: 40
 def as_i_external_resource_resolver(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)
+* library [`Aspose.Slides`](/slides/python-net)

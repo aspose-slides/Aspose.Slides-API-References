@@ -10,7 +10,7 @@ weight: 90
 
 ## numbered_bullet_start_with property
 Returns or sets the first number which is used for group of numbered bullets with no inheritance.
-            Read/write .NET type System.Int16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def numbered_bullet_start_with(self):
 def numbered_bullet_start_with(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

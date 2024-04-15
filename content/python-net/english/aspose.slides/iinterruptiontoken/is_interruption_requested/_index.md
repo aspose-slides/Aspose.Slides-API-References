@@ -9,7 +9,7 @@ weight: 20
 
 
 ## is_interruption_requested property
-Returns .NET type System.Boolean.true if interruption was requested.
+Returns **bool**.true if interruption was requested.
 
 ### Definition:
 ```python
@@ -17,3 +17,7 @@ Returns .NET type System.Boolean.true if interruption was requested.
 def is_interruption_requested(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

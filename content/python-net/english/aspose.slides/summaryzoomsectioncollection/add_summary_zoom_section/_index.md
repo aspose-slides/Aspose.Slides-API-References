@@ -35,7 +35,13 @@ If an element for this section already exists in the collection, the existing el
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
+| **System.ArgumentException** | Referenced section does not belong to the current presentation or does not contains any slides. |
 
 
 
+### See Also
+* class [`ISection`](/slides/python-net/aspose.slides/isection)
+* class [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe)
+* class [`SummaryZoomSectionCollection`](/slides/python-net/aspose.slides/summaryzoomsectioncollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

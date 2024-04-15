@@ -11,7 +11,7 @@ weight: 30
 ## thickness property
 Returns or sets the walls thickness as a percentage of the largest 
             dimension of the plot volume.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def thickness(self):
 def thickness(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

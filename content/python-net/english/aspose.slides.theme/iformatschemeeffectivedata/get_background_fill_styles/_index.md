@@ -25,7 +25,12 @@ def get_background_fill_styles(self, style_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | aspose.pydrawing.Color | Color .NET type System.Drawing.Color |
+| style_color | aspose.pydrawing.Color | Color **aspose.pydrawing.Color** |
 
 
 
+### See Also
+* class [`IFillFormatCollectionEffectiveData`](/slides/python-net/aspose.slides.theme/ifillformatcollectioneffectivedata)
+* class [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

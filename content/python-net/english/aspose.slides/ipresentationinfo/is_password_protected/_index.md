@@ -17,3 +17,7 @@ Gets a value that indicates whether a binded presentation is protected by a pass
 def is_password_protected(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

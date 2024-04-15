@@ -17,8 +17,8 @@ The IChartSeriesReadonlyCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides.charts/ichartseriesreadonlycollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.charts/ichartseriesreadonlycollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides.charts/ichartseriesreadonlycollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.charts/ichartseriesreadonlycollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -26,3 +26,7 @@ The IChartSeriesReadonlyCollection type exposes the following members:
 | :- | :- |
 | [index] |  |
 
+### See Also
+* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

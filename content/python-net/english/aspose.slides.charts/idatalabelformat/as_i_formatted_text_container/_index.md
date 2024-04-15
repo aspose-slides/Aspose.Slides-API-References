@@ -18,3 +18,8 @@ Allows to get base IFormattedTextContainer interface.
 def as_i_formatted_text_container(self):
     ...
 ```
+
+### See Also
+* class [`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

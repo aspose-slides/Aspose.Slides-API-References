@@ -13,3 +13,6 @@ Base class for classes that provide access to different types of themes.
 
 The BaseThemeManager type exposes the following members:
 
+### See Also
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

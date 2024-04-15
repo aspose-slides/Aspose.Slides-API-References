@@ -52,3 +52,8 @@ def set_sub_superscript_on_the_right(self, subscript, superscript):
 
 
 
+### See Also
+* class [`IMathRightSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement)
+* class [`MathArray`](/slides/python-net/aspose.slides.mathtext/matharray)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

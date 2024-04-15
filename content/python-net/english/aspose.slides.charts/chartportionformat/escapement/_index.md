@@ -12,7 +12,7 @@ weight: 70
 Returns or sets the superscript or subscript text.
             Value from -100% (subscript) to 100% (superscript).
             **float.NaN**  means value is undefined and should be inherited from the Master.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def escapement(self):
 def escapement(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

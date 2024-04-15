@@ -17,3 +17,7 @@ Represents 'stroke.filltype' property
 def stroke_fill_type(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

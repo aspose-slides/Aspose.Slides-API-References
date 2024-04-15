@@ -19,14 +19,17 @@ The IChartTextFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [text_block_format](/slides/python-net/aspose.slides.charts/icharttextformat/text_block_format/) | Returns format for the chart text elements.<br/>            Read-only [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat). |
-| [paragraph_format](/slides/python-net/aspose.slides.charts/icharttextformat/paragraph_format/) | Returns paragraph format.<br/>            Read-only [`IChartParagraphFormat`](/slides/python-net/aspose.slides.charts/ichartparagraphformat). |
-| [portion_format](/slides/python-net/aspose.slides.charts/icharttextformat/portion_format/) | Returns portion format.<br/>            Read-only [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat). |
+| [`text_block_format`](/slides/python-net/aspose.slides.charts/icharttextformat/text_block_format/) | Returns format for the chart text elements.<br/>            Read-only [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat). |
+| [`paragraph_format`](/slides/python-net/aspose.slides.charts/icharttextformat/paragraph_format/) | Returns paragraph format.<br/>            Read-only [`IChartParagraphFormat`](/slides/python-net/aspose.slides.charts/ichartparagraphformat). |
+| [`portion_format`](/slides/python-net/aspose.slides.charts/icharttextformat/portion_format/) | Returns portion format.<br/>            Read-only [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat). |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [copy_to](/slides/python-net/aspose.slides.charts/icharttextformat/copy_to/#itextframe) | Copies text format to specified text frame. |
-| [copy_from](/slides/python-net/aspose.slides.charts/icharttextformat/copy_from/#itextframe) | Copies text format from specified text frame. |
+| [`copy_to`](/slides/python-net/aspose.slides.charts/icharttextformat/copy_to/#itextframe) | Copies text format to specified text frame. |
+| [`copy_from`](/slides/python-net/aspose.slides.charts/icharttextformat/copy_from/#itextframe) | Copies text format from specified text frame. |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

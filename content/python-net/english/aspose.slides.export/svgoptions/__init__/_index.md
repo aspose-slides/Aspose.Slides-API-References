@@ -41,3 +41,7 @@ Link embedding controller is a delegate object that is responsible for making de
 
 
 
+### See Also
+* class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

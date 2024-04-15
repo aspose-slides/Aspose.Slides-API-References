@@ -53,3 +53,8 @@ def create_math_fraction(self, numerator, denominator, fraction_type):
 
 
 
+### See Also
+* class [`IMathFraction`](/slides/python-net/aspose.slides.mathtext/imathfraction)
+* class [`IMathFractionFactory`](/slides/python-net/aspose.slides.mathtext/imathfractionfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

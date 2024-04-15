@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`IParagraphFormatEffectiveData`](/slides/python-net/aspose.slides/iparagraphformateffectivedata)
+* class [`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

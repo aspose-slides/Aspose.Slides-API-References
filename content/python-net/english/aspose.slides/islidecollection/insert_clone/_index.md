@@ -34,9 +34,9 @@ When cloning a slide between different presentations slide's master can be clone
             Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide.
             Manual cloning of master slides will be neither prevented nor registered.
             If you need more control over cloning process use
-            Aspose.Slides.ISlideCollection.InsertClone(System.Int32,Aspose.Slides.ISlide,Aspose.Slide. or
-            Aspose.Slides.ISlideCollection.InsertClone(System.Int32,Aspose.Slides.ISlide,Aspose.Slides.IMasterSlide,Syste. for cloning slides and
-            Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide. for cloning masters.
+            **Aspose.Slides.ISlideCollection.InsertClone(System.Int32,Aspose.Slides.ISlide,Aspose.Slide.** or
+            **Aspose.Slides.ISlideCollection.InsertClone(System.Int32,Aspose.Slides.ISlide,Aspose.Slides.IMasterSlide,Syste.** for cloning slides and
+            **Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide.** for cloning masters.
 
 
 
@@ -99,3 +99,8 @@ def insert_clone(self, index, source_slide, dest_master, allow_clone_missing_lay
 
 
 
+### See Also
+* class [`ISlideCollection`](/slides/python-net/aspose.slides/islidecollection)
+* class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

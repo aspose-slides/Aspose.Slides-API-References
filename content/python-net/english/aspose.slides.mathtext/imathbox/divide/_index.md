@@ -74,3 +74,7 @@ def divide(self, denominator, fraction_type):
 
 
 
+### See Also
+* class [`IMathBox`](/slides/python-net/aspose.slides.mathtext/imathbox)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

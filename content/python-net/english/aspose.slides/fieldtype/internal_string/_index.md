@@ -10,7 +10,7 @@ weight: 180
 
 ## internal_string property
 Returns the internal name of this FieldType object.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def internal_string(self):
 def internal_string(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

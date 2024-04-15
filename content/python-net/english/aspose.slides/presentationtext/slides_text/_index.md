@@ -17,3 +17,8 @@ An array of [`ISlideText`](/slides/python-net/aspose.slides/islidetext) contains
 def slides_text(self):
     ...
 ```
+
+### See Also
+* class [`ISlideText`](/slides/python-net/aspose.slides/islidetext)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

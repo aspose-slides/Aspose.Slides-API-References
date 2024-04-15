@@ -10,7 +10,7 @@ weight: 70
 
 ## as_literal_string property
 Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def as_literal_string(self):
 def as_literal_string(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

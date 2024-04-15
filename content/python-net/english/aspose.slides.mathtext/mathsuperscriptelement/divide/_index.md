@@ -94,3 +94,7 @@ def divide(self, denominator, fraction_type):
 
 
 
+### See Also
+* class [`MathSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelement)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

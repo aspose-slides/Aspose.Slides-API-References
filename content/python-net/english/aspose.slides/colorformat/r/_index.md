@@ -10,7 +10,7 @@ weight: 170
 
 ## r property
 Returns or sets the red component of a color. All color transformations are ignored.
-            Read/write .NET type System.Byte.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def r(self):
 def r(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

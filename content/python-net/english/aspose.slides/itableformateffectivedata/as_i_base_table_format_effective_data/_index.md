@@ -18,3 +18,8 @@ Allows to get base IBaseTableFormatEffectiveData interface.
 def as_i_base_table_format_effective_data(self):
     ...
 ```
+
+### See Also
+* class [`IBaseTableFormatEffectiveData`](/slides/python-net/aspose.slides/ibasetableformateffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

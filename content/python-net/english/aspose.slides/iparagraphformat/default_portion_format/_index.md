@@ -18,3 +18,8 @@ Returns default portion format of a paragraph. No inheritance applied.
 def default_portion_format(self):
     ...
 ```
+
+### See Also
+* class [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

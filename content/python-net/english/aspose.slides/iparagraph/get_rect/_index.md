@@ -14,7 +14,7 @@ Get coordinates of rect that bounds paragraph. The rect includes all the lines o
 
 ### Returns
 
-Rectangle that bounds paragraph .NET type System.Drawing.RectangleF
+Rectangle that bounds paragraph **aspose.pydrawing.RectangleF**
 
 
 
@@ -26,3 +26,7 @@ def get_rect(self):
 
 
 
+### See Also
+* class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

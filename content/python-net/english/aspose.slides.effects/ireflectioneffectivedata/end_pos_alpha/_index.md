@@ -10,7 +10,7 @@ weight: 50
 
 ## end_pos_alpha property
 Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents).
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Specifies the end position (along the alpha gradient ramp) of the end alpha valu
 def end_pos_alpha(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

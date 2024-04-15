@@ -17,9 +17,12 @@ The IPresetShadowEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/direction/) | Direction of shadow.<br/>            Read-only .NET type System.Single. |
-| [distance](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | Distance of shadow.<br/>            Read-only .NET type System.Double. |
-| [shadow_color](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Color of shadow.<br/>            Read-only .NET type System.Drawing.Color. |
-| [preset](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/preset/) | Preset.<br/>            Read-only [`PresetShadowType`](/slides/python-net/aspose.slides/presetshadowtype). |
-| [as_i_effect_effective_data](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
+| [`direction`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/direction/) | Direction of shadow.<br/>            Read-only **float**. |
+| [`distance`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | Distance of shadow.<br/>            Read-only **float**. |
+| [`shadow_color`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Color of shadow.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`preset`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/preset/) | Preset.<br/>            Read-only [`PresetShadowType`](/slides/python-net/aspose.slides/presetshadowtype). |
+| [`as_i_effect_effective_data`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
 
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 130
 
 ## height property
 Returns or sets the height of a plot area bounding box as a fraction of the height of the chart (from 0 to 1).
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def height(self):
 def height(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

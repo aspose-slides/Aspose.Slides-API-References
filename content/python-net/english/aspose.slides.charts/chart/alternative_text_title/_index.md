@@ -10,7 +10,7 @@ weight: 90
 
 ## alternative_text_title property
 Returns or sets the title of alternative text associated with a shape.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def alternative_text_title(self):
 def alternative_text_title(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

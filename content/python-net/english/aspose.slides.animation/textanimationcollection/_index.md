@@ -17,14 +17,14 @@ The TextAnimationCollection type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.animation/textanimationcollection/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides.animation/textanimationcollection/__init__/#) |  |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides.animation/textanimationcollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.animation/textanimationcollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides.animation/textanimationcollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/textanimationcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -36,5 +36,8 @@ The TextAnimationCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.animation/textanimationcollection/add/#) | Adds new text animation to the collection. |
+| [`add`](/slides/python-net/aspose.slides.animation/textanimationcollection/add/#) | Adds new text animation to the collection. |
 
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

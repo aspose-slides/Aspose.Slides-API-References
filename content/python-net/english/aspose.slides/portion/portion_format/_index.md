@@ -26,3 +26,8 @@ In order to get the effective values including inherited ones use the [`PortionF
 def portion_format(self):
     ...
 ```
+
+### See Also
+* class [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

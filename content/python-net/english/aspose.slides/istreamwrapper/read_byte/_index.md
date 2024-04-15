@@ -13,7 +13,7 @@ Reads a byte from the stream and advances the position within the stream by one 
 
 ### Returns
 
-Read byte .NET type System.Int32
+Read byte **int**
 
 
 
@@ -25,3 +25,7 @@ def read_byte(self):
 
 
 
+### See Also
+* class [`IStreamWrapper`](/slides/python-net/aspose.slides/istreamwrapper)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

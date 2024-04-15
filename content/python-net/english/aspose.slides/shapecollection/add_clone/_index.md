@@ -83,3 +83,7 @@ def add_clone(self, source_shape, x, y, width, height):
 
 
 
+### See Also
+* class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

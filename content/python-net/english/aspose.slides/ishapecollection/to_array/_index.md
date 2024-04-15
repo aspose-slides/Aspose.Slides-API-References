@@ -47,3 +47,8 @@ def to_array(self, start_index, count):
 
 
 
+### See Also
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
+* class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -20,3 +20,7 @@ def __init__(self):
 
 
 
+### See Also
+* class [`PropertyEffect`](/slides/python-net/aspose.slides.animation/propertyeffect)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

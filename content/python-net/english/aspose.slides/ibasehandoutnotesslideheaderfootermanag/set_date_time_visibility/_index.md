@@ -24,3 +24,7 @@ def set_date_time_visibility(self, is_visible):
 
 
 
+### See Also
+* class [`IBaseHandoutNotesSlideHeaderFooterManag`](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

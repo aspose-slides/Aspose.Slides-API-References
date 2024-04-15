@@ -10,7 +10,7 @@ weight: 20
 
 ## graphics_path property
 Returns an element's path.
-            Read-only .NET type System.Drawing.Drawing2D.GraphicsPath.
+            Read-only **aspose.pydrawing.Drawing2D.GraphicsPath**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns an element's path.
 def graphics_path(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

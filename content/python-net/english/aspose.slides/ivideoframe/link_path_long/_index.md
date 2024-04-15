@@ -10,7 +10,7 @@ weight: 370
 
 ## link_path_long property
 Returns or sets the name of an video file which is linked to a VideoFrame.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def link_path_long(self):
 def link_path_long(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

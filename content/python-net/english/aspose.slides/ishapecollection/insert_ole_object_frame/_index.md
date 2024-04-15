@@ -61,3 +61,8 @@ def insert_ole_object_frame(self, index, x, y, width, height, class_name, path):
 
 
 
+### See Also
+* class [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo)
+* class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -36,3 +36,7 @@ def __init__(self, message):
 
 
 
+### See Also
+* class [`PptxCorruptFileException`](/slides/python-net/aspose.slides/pptxcorruptfileexception)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

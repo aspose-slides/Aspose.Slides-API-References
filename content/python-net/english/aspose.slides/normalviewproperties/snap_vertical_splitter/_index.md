@@ -11,7 +11,7 @@ weight: 60
 ## snap_vertical_splitter property
 Specifies whether the vertical splitter should snap to a minimized state when the side
             region is sufficiently small.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def snap_vertical_splitter(self):
 def snap_vertical_splitter(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

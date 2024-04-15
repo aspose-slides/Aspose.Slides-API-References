@@ -29,3 +29,7 @@ def equals(self, hlink):
 
 
 
+### See Also
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

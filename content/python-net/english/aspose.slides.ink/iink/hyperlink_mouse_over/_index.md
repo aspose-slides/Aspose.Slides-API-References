@@ -18,3 +18,7 @@ def hyperlink_mouse_over(self):
 def hyperlink_mouse_over(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

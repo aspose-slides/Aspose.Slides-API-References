@@ -18,3 +18,8 @@ Outer shadow.
 def outer_shadow_effect(self):
     ...
 ```
+
+### See Also
+* class [`IOuterShadowEffectiveData`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

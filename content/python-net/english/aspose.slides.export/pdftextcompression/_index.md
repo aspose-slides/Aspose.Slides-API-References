@@ -20,3 +20,6 @@ The PdfTextCompression type exposes the following members:
 | NONE | No compression. |
 | FLATE | Flate (ZIP) compression. |
 
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 160
 
 ## is_bubble_3d property
 Specifies that the bubbles have a 3-D effect applied to them.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def is_bubble_3d(self):
 def is_bubble_3d(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

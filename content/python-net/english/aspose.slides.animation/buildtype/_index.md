@@ -25,3 +25,6 @@ The BuildType type exposes the following members:
 | BY_LEVEL_PARAGRAPHS4 | By groups of paragraphs of depth 4. |
 | BY_LEVEL_PARAGRAPHS5 | By groups of paragraphs of depth 5. |
 
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

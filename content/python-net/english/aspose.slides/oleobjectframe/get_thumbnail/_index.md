@@ -49,3 +49,7 @@ def get_thumbnail(self, bounds, scale_x, scale_y):
 
 
 
+### See Also
+* class [`OleObjectFrame`](/slides/python-net/aspose.slides/oleobjectframe)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

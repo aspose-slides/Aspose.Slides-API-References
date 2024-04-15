@@ -18,3 +18,8 @@ Allows to get base IComment interface.
 def as_i_comment(self):
     ...
 ```
+
+### See Also
+* class [`IComment`](/slides/python-net/aspose.slides/icomment)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

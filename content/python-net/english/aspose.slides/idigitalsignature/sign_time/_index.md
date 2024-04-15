@@ -10,7 +10,7 @@ weight: 40
 
 ## sign_time property
 The time when the document was signed.
-            Read-only .NET type System.DateTime.
+            Read-only **System.DateTime**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ The time when the document was signed.
 def sign_time(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

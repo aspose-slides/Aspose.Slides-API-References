@@ -29,3 +29,7 @@ def add_alpha_modulate_fixed_effect(self, amount):
 
 
 
+### See Also
+* class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

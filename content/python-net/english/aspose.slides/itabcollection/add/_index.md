@@ -51,3 +51,7 @@ def add(self, position, align):
 
 
 
+### See Also
+* class [`ITabCollection`](/slides/python-net/aspose.slides/itabcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

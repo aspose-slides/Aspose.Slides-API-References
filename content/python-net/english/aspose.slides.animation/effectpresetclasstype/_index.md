@@ -24,3 +24,9 @@ The EffectPresetClassType type exposes the following members:
 | MEDIA_CALL | Media effects class.<br/><br/><br/>Target shape types: [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe), [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe) |
 | OLE_ACTION_VERBS | OLE Action Verbs class.<br/><br/><br/>Target shape types: [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe) |
 
+### See Also
+* class [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe)
+* class [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe)
+* class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

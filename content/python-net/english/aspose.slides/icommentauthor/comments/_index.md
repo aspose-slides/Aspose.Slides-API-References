@@ -18,3 +18,8 @@ Returns the collection of comments made by this author.
 def comments(self):
     ...
 ```
+
+### See Also
+* class [`ICommentCollection`](/slides/python-net/aspose.slides/icommentcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

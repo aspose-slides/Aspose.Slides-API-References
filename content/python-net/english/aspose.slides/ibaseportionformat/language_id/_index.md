@@ -10,7 +10,7 @@ weight: 160
 
 ## language_id property
 Returns or sets the Id of a proofing language. Used for checking spelling and grammar.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def language_id(self):
 def language_id(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

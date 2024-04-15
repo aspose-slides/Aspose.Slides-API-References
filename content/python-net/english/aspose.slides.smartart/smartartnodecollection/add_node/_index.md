@@ -25,3 +25,7 @@ def add_node(self):
 
 
 
+### See Also
+* class [`SmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/smartartnodecollection)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

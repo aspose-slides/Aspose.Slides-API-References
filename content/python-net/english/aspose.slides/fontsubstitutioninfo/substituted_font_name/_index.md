@@ -10,7 +10,7 @@ weight: 30
 
 ## substituted_font_name property
 Indicates the replacement font name for the original font.
-            Read-only .NET type System.String
+            Read-only **string**
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Indicates the replacement font name for the original font.
 def substituted_font_name(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

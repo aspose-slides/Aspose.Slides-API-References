@@ -10,7 +10,7 @@ weight: 210
 
 ## smart_tag_clean property
 Determines whether the smart tag should be cleaned.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether the smart tag should be cleaned.
 def smart_tag_clean(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

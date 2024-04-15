@@ -10,7 +10,7 @@ weight: 190
 
 ## audio_cd_end_track property
 Returns or sets a last track index
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def audio_cd_end_track(self):
 def audio_cd_end_track(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

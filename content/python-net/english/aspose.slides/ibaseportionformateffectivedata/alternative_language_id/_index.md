@@ -10,7 +10,7 @@ weight: 10
 
 ## alternative_language_id property
 Returns the Id of an alternative language.
-            Read-only .NET type System.String.
+            Read-only **string**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the Id of an alternative language.
 def alternative_language_id(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

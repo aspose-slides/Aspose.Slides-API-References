@@ -10,7 +10,7 @@ weight: 500
 
 ## use_background_fill property
 Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def use_background_fill(self):
 def use_background_fill(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

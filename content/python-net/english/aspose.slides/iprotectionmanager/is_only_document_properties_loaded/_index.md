@@ -19,7 +19,7 @@ This property makes sense, if presentation file is password protected and docume
             If document properties of an encrypted file aren't public then property value is always false.
             If PresentationEx.EncryptDocumentProperties is true than IsOnlyDocumentPropertiesLoaded 
             property value is always false.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -27,3 +27,7 @@ This property makes sense, if presentation file is password protected and docume
 def is_only_document_properties_loaded(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

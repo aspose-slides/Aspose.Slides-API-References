@@ -123,3 +123,8 @@ def integral(self, integral_type, lower_limit, upper_limit, limit_locations):
 
 
 
+### See Also
+* class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
+* class [`MathBox`](/slides/python-net/aspose.slides.mathtext/mathbox)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

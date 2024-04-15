@@ -10,7 +10,7 @@ weight: 100
 
 ## count_of_visible_data_labels property
 Gets the number of visible data labels in the collection.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets the number of visible data labels in the collection.
 def count_of_visible_data_labels(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 110
 
 ## read_only_recommended property
 Gets or sets read-only recommendation.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def read_only_recommended(self):
 def read_only_recommended(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

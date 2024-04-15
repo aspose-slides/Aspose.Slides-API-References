@@ -21,9 +21,9 @@ The GlobalLayoutSlideCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/globallayoutslidecollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/globallayoutslidecollection/as_i_enumerable/) |  |
-| [as_i_layout_slide_collection](/slides/python-net/aspose.slides/globallayoutslidecollection/as_i_layout_slide_collection/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides/globallayoutslidecollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides/globallayoutslidecollection/as_i_enumerable/) |  |
+| [`as_i_layout_slide_collection`](/slides/python-net/aspose.slides/globallayoutslidecollection/as_i_layout_slide_collection/) |  |
 
 ## Indexer
 
@@ -35,10 +35,15 @@ The GlobalLayoutSlideCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_clone](/slides/python-net/aspose.slides/globallayoutslidecollection/add_clone/#ilayoutslide) | Adds a copy of a specified layout slide to the presentation. |
-| [add_clone](/slides/python-net/aspose.slides/globallayoutslidecollection/add_clone/#ilayoutslide-imasterslide) | Adds a copy of a specified layout slide to the presentation. |
-| [get_by_type](/slides/python-net/aspose.slides/globallayoutslidecollection/get_by_type/#slidelayouttype) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or null if no layouts found. |
-| [remove](/slides/python-net/aspose.slides/globallayoutslidecollection/remove/#ilayoutslide) | Removes a layout from the collection. |
-| [remove_unused](/slides/python-net/aspose.slides/globallayoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
-| [add](/slides/python-net/aspose.slides/globallayoutslidecollection/add/#imasterslide-slidelayouttype-string) | Adds a new layout slide to the presentation. |
+| [`add_clone`](/slides/python-net/aspose.slides/globallayoutslidecollection/add_clone/#ilayoutslide) | Adds a copy of a specified layout slide to the presentation. |
+| [`add_clone`](/slides/python-net/aspose.slides/globallayoutslidecollection/add_clone/#ilayoutslide-imasterslide) | Adds a copy of a specified layout slide to the presentation. |
+| [`get_by_type`](/slides/python-net/aspose.slides/globallayoutslidecollection/get_by_type/#slidelayouttype) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or null if no layouts found. |
+| [`remove`](/slides/python-net/aspose.slides/globallayoutslidecollection/remove/#ilayoutslide) | Removes a layout from the collection. |
+| [`remove_unused`](/slides/python-net/aspose.slides/globallayoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [`add`](/slides/python-net/aspose.slides/globallayoutslidecollection/add/#imasterslide-slidelayouttype-string) | Adds a new layout slide to the presentation. |
 
+### See Also
+* class [`GlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/globallayoutslidecollection)
+* class [`LayoutSlideCollection`](/slides/python-net/aspose.slides/layoutslidecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

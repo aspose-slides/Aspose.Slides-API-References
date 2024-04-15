@@ -17,18 +17,21 @@ The VbaProjectFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.vba/vbaprojectfactory/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/__init__/#) |  |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [instance](/slides/python-net/aspose.slides.vba/vbaprojectfactory/instance/) | VBA project factory static instance.<br/>            Read-only [`VbaProjectFactory`](/slides/python-net/aspose.slides.vba/vbaprojectfactory). |
+| [`instance`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/instance/) | VBA project factory static instance.<br/>            Read-only [`VbaProjectFactory`](/slides/python-net/aspose.slides.vba/vbaprojectfactory). |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_vba_project](/slides/python-net/aspose.slides.vba/vbaprojectfactory/create_vba_project/#) | Creates new VBA project. |
-| [read_vba_project](/slides/python-net/aspose.slides.vba/vbaprojectfactory/read_vba_project/#bytes) | Reads VBA project from OLE container. |
+| [`create_vba_project`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/create_vba_project/#) | Creates new VBA project. |
+| [`read_vba_project`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/read_vba_project/#bytes) | Reads VBA project from OLE container. |
 
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

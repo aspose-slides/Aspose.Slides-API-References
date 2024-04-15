@@ -17,5 +17,8 @@ The BaseShapeLock type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [no_locks](/slides/python-net/aspose.slides/baseshapelock/no_locks/) | Return true if all lock-flags are disabled.<br/>            Read-only .NET type System.Boolean. |
+| [`no_locks`](/slides/python-net/aspose.slides/baseshapelock/no_locks/) | Return true if all lock-flags are disabled.<br/>            Read-only **bool**. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

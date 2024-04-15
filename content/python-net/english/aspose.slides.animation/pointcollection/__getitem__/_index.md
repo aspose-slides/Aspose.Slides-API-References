@@ -14,3 +14,6 @@ weight: 20
 | Name | Description |
 | :- | :- |
 | index |  |
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

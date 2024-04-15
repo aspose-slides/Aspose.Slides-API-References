@@ -10,7 +10,7 @@ weight: 150
 
 ## overlap property
 Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100).
-            Read/write .NET type System.SByte.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def overlap(self):
 def overlap(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

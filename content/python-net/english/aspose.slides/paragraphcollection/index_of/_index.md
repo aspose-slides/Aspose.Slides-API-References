@@ -9,7 +9,7 @@ weight: 70
 
 
 ## index_of {#iparagraph}
-Determines the index of a specific item in the .NET type System.Collections.Generic.IList`1.
+Determines the index of a specific item in the **System.Collections.Generic.IList`1**.
 
 ### Returns
 
@@ -27,7 +27,11 @@ def index_of(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IParagraph | The object to locate in the .NET type System.Collections.Generic.IList`1. |
+| item | IParagraph | The object to locate in the **System.Collections.Generic.IList`1**. |
 
 
 
+### See Also
+* class [`ParagraphCollection`](/slides/python-net/aspose.slides/paragraphcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

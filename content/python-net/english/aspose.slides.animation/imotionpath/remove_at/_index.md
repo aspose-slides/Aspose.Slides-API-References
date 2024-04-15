@@ -20,7 +20,11 @@ def remove_at(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index for removing command .NET type System.Int32 |
+| index | int | Index for removing command **int** |
 
 
 
+### See Also
+* class [`IMotionPath`](/slides/python-net/aspose.slides.animation/imotionpath)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

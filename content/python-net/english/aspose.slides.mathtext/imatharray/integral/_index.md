@@ -98,3 +98,7 @@ def integral(self, integral_type, lower_limit, upper_limit, limit_locations):
 
 
 
+### See Also
+* class [`IMathArray`](/slides/python-net/aspose.slides.mathtext/imatharray)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

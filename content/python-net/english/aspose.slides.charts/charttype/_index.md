@@ -100,3 +100,6 @@ The ChartType type exposes the following members:
 | FUNNEL | Represents Funnel chart. |
 | MAP | Represents Map chart. |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

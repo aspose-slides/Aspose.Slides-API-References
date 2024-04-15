@@ -10,7 +10,7 @@ weight: 210
 
 ## stop_sound_on_click property
 Determines whether the sound should be stopped on hyperlink click.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def stop_sound_on_click(self):
 def stop_sound_on_click(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

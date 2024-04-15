@@ -24,3 +24,8 @@ def add(self, value):
 
 
 
+### See Also
+* class [`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference)
+* class [`IVbaReferenceCollection`](/slides/python-net/aspose.slides.vba/ivbareferencecollection)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 110
 
 ## speed property
 Specifies the percentage by which to speed up (or slow down) the timing.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def speed(self):
 def speed(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

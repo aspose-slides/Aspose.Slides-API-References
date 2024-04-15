@@ -10,7 +10,7 @@ weight: 370
 
 ## plot_on_second_axis property
 Indicates if this series is plotted on second value axis.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def plot_on_second_axis(self):
 def plot_on_second_axis(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

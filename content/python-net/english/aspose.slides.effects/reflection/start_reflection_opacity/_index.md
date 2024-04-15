@@ -10,7 +10,7 @@ weight: 160
 
 ## start_reflection_opacity property
 Starting reflection opacity. (percents).
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def start_reflection_opacity(self):
 def start_reflection_opacity(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

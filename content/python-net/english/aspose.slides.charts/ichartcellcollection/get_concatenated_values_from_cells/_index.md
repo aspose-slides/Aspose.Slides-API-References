@@ -13,7 +13,7 @@ Concatenation string from all cells string values.
 
 ### Returns
 
-Resulting string .NET type System.String
+Resulting string **string**
 
 
 
@@ -25,3 +25,7 @@ def get_concatenated_values_from_cells(self):
 
 
 
+### See Also
+* class [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

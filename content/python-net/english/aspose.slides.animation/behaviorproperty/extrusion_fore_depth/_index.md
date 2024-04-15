@@ -17,3 +17,7 @@ Represents 'extrusion.foredepth' property
 def extrusion_fore_depth(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 70
 
 ## as_i_enumerable property
 Allows to get base IBehavior interface.
-            Read-only .NET type System.Collections.IEnumerable.
+            Read-only **collections.abc.Iterable**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Allows to get base IBehavior interface.
 def as_i_enumerable(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

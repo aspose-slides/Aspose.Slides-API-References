@@ -10,7 +10,7 @@ weight: 380
 
 ## log_base property
 Represents the logarithmic base. Default value is 10.
-             Read/write .NET type System.Double.
+             Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def log_base(self):
 def log_base(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

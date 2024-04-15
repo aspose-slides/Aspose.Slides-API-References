@@ -17,11 +17,14 @@ The IMathFunctionFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [create_math_function](/slides/python-net/aspose.slides.mathtext/imathfunctionfactory/create_math_function/#imathelement-imathelement) | Creates math function |
-| [create_math_function](/slides/python-net/aspose.slides.mathtext/imathfunctionfactory/create_math_function/#string-imathelement) | Creates math function |
+| [`create_math_function`](/slides/python-net/aspose.slides.mathtext/imathfunctionfactory/create_math_function/#imathelement-imathelement) | Creates math function |
+| [`create_math_function`](/slides/python-net/aspose.slides.mathtext/imathfunctionfactory/create_math_function/#string-imathelement) | Creates math function |
 
 
 ### Remarks
 
 For COM comparibility
 
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

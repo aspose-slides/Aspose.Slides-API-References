@@ -11,7 +11,7 @@ weight: 130
 ## intercept property
 Specifies the value where the trendline shall cross the y axis. This property shall be supported only
             when the trendline type is exp, linear, or poly.
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def intercept(self):
 def intercept(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

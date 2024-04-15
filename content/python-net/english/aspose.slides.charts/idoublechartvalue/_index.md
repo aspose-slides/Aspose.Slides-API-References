@@ -19,16 +19,19 @@ The IDoubleChartValue type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_literal_double](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_literal_double/) | Returns or sets literal double value if DataSourceType = Charts.DataSourceType.DoubleLiterals.<br/>            Read/write .NET type System.Double. |
-| [as_i_single_cell_chart_value](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_i_single_cell_chart_value/) | Allows to get base ISingleCellChartValue interface.<br/>            Read-only [`ISingleCellChartValue`](/slides/python-net/aspose.slides.charts/isinglecellchartvalue). |
-| [as_cell](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_cell/) |  |
-| [as_i_base_chart_value](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_i_base_chart_value/) |  |
-| [data_source_type](/slides/python-net/aspose.slides.charts/idoublechartvalue/data_source_type/) |  |
-| [data](/slides/python-net/aspose.slides.charts/idoublechartvalue/data/) |  |
+| [`as_literal_double`](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_literal_double/) | Returns or sets literal double value if DataSourceType = Charts.DataSourceType.DoubleLiterals.<br/>            Read/write **float**. |
+| [`as_i_single_cell_chart_value`](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_i_single_cell_chart_value/) | Allows to get base ISingleCellChartValue interface.<br/>            Read-only [`ISingleCellChartValue`](/slides/python-net/aspose.slides.charts/isinglecellchartvalue). |
+| [`as_cell`](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_cell/) |  |
+| [`as_i_base_chart_value`](/slides/python-net/aspose.slides.charts/idoublechartvalue/as_i_base_chart_value/) |  |
+| [`data_source_type`](/slides/python-net/aspose.slides.charts/idoublechartvalue/data_source_type/) |  |
+| [`data`](/slides/python-net/aspose.slides.charts/idoublechartvalue/data/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [to_double](/slides/python-net/aspose.slides.charts/idoublechartvalue/to_double/#) | Converst to double. |
+| [`to_double`](/slides/python-net/aspose.slides.charts/idoublechartvalue/to_double/#) | Converst to double. |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

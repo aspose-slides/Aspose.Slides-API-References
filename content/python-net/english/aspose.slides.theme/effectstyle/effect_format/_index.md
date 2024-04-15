@@ -18,3 +18,8 @@ Returns an effect format.
 def effect_format(self):
     ...
 ```
+
+### See Also
+* class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -23,9 +23,13 @@ def set_rotation(self, latitude, longitude, revolution):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| latitude | float | Latitude value .NET type System.Single |
-| longitude | float | Longitude value .NET type System.Single |
-| revolution | float | revolution valule .NET type System.Single |
+| latitude | float | Latitude value **float** |
+| longitude | float | Longitude value **float** |
+| revolution | float | revolution valule **float** |
 
 
 
+### See Also
+* class [`ICamera`](/slides/python-net/aspose.slides/icamera)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

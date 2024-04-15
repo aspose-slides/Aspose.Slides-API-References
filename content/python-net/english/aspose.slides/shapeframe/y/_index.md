@@ -10,7 +10,7 @@ weight: 140
 
 ## y property
 Returns the Y coordinate of the upper-left corner of a frame.
-            Read-only .NET type System.Single.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the Y coordinate of the upper-left corner of a frame.
 def y(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

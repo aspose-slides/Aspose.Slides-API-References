@@ -10,7 +10,7 @@ weight: 80
 
 ## repeat_until_next_click property
 This attribute specifies if the effect will repeat until the next click.
-             Read/write .NET type System.Boolean.
+             Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def repeat_until_next_click(self):
 def repeat_until_next_click(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

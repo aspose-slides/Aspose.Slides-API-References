@@ -10,7 +10,7 @@ weight: 190
 
 ## vectorize_text property
 Determines whether the text on a slide will be saved as graphics.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def vectorize_text(self):
 def vectorize_text(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

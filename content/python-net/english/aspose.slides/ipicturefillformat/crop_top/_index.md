@@ -11,7 +11,7 @@ weight: 60
 ## crop_top property
 Returns or sets the number of percents of real image height that are cropped off
             the top of the picture. 
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def crop_top(self):
 def crop_top(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

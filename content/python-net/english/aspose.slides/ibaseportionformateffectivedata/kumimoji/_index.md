@@ -10,7 +10,7 @@ weight: 150
 
 ## kumimoji property
 Determines whether the numbers should ignore text eastern language-specific vertical text layout.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether the numbers should ignore text eastern language-specific vert
 def kumimoji(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

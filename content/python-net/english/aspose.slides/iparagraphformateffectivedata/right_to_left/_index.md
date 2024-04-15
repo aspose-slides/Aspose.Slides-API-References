@@ -10,7 +10,7 @@ weight: 130
 
 ## right_to_left property
 Determines whether the Right to Left writing is used in a paragraph.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether the Right to Left writing is used in a paragraph.
 def right_to_left(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

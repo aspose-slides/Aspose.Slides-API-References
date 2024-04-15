@@ -35,8 +35,12 @@ When the password is null or empty, this method returns false.
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException |  |
-| .NET type System.NotSupportedException |  |
+| **System.InvalidOperationException** |  |
+| **System.NotSupportedException** |  |
 
 
 
+### See Also
+* class [`PresentationInfo`](/slides/python-net/aspose.slides/presentationinfo)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

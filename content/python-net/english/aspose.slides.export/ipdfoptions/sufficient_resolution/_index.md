@@ -17,7 +17,7 @@ Property affects on file size, time of export and image quality.
 The default value is **96** .
 
 
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -28,3 +28,7 @@ def sufficient_resolution(self):
 def sufficient_resolution(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

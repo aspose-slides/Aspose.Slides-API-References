@@ -10,7 +10,7 @@ weight: 30
 
 ## has_bounce property
 Specifies that the movement of the presentation slides during the transition includes a bounce.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def has_bounce(self):
 def has_bounce(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

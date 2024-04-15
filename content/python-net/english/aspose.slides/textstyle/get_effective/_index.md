@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`ITextStyleEffectiveData`](/slides/python-net/aspose.slides/itextstyleeffectivedata)
+* class [`TextStyle`](/slides/python-net/aspose.slides/textstyle)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

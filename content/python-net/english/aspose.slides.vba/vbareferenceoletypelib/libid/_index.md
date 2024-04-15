@@ -10,7 +10,7 @@ weight: 30
 
 ## libid property
 Represents the identifier of an Automation type library.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def libid(self):
 def libid(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,7 @@ Rectangle alignment.
 def rectangle_align(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -15,3 +15,7 @@ Represents a group of methods intended to iterate over different [`Presentation`
 
 The ForEach type exposes the following members:
 
+### See Also
+* class [`Presentation`](/slides/python-net/aspose.slides/presentation)
+* module [`aspose.slides.lowcode`](/slides/python-net/aspose.slides.lowcode)
+* library [`Aspose.Slides`](/slides/python-net)

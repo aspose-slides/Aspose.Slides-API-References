@@ -24,3 +24,6 @@ The TiffCompressionTypes type exposes the following members:
 | LZW | Specifies the LZW compression scheme (Default). |
 | RLE | Specifies the RLE compression scheme. |
 
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

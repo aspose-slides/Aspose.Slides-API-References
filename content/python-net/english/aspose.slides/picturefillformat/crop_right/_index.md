@@ -11,7 +11,7 @@ weight: 60
 ## crop_right property
 Returns or sets the number of percents of real image width that are cropped off
             the right of the picture. 
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def crop_right(self):
 def crop_right(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

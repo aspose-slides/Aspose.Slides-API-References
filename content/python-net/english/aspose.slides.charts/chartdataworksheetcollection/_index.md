@@ -17,8 +17,8 @@ The ChartDataWorksheetCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides.charts/chartdataworksheetcollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.charts/chartdataworksheetcollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides.charts/chartdataworksheetcollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.charts/chartdataworksheetcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -26,3 +26,6 @@ The ChartDataWorksheetCollection type exposes the following members:
 | :- | :- |
 | [index] |  |
 
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

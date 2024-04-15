@@ -36,7 +36,12 @@ def add_field(self, internal_string):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| internal_string | string | Internal name of FieldTypeEx  .NET type System.String |
+| internal_string | string | Internal name of FieldTypeEx  **string** |
 
 
 
+### See Also
+* class [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype)
+* class [`IPortion`](/slides/python-net/aspose.slides/iportion)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

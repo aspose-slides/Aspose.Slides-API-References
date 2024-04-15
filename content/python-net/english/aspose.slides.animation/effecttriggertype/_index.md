@@ -21,3 +21,6 @@ The EffectTriggerType type exposes the following members:
 | ON_CLICK |  |
 | WITH_PREVIOUS |  |
 
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

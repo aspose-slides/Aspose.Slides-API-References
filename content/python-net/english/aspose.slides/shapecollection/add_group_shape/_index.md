@@ -51,3 +51,8 @@ def add_group_shape(self, svg_image, x, y, width, height):
 
 
 
+### See Also
+* class [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage)
+* class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

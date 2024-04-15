@@ -18,3 +18,8 @@ Allows to get base ISlideComponent interface.
 def as_i_slide_component(self):
     ...
 ```
+
+### See Also
+* class [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

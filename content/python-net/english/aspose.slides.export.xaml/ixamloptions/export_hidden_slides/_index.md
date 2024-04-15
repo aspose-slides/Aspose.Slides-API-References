@@ -20,3 +20,7 @@ def export_hidden_slides(self):
 def export_hidden_slides(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export.xaml`](/slides/python-net/aspose.slides.export.xaml)
+* library [`Aspose.Slides`](/slides/python-net)

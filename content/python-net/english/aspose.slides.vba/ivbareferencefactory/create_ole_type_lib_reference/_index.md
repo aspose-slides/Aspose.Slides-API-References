@@ -25,8 +25,13 @@ def create_ole_type_lib_reference(self, name, libid):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the VBA project reference .NET type System.String |
-| libid | string | Identifier of an Automation type library .NET type System.String |
+| name | string | Name of the VBA project reference **string** |
+| libid | string | Identifier of an Automation type library **string** |
 
 
 
+### See Also
+* class [`IVbaReferenceFactory`](/slides/python-net/aspose.slides.vba/ivbareferencefactory)
+* class [`IVbaReferenceOleTypeLib`](/slides/python-net/aspose.slides.vba/ivbareferenceoletypelib)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

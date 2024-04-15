@@ -10,7 +10,7 @@ weight: 30
 
 ## decelerate property
 Describes the percentage of duration decelerate behavior effect.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def decelerate(self):
 def decelerate(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

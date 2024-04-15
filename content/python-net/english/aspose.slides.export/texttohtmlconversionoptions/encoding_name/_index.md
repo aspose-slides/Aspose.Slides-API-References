@@ -11,7 +11,7 @@ weight: 30
 ## encoding_name property
 Returns or sets html encoding name.
             This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def encoding_name(self):
 def encoding_name(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

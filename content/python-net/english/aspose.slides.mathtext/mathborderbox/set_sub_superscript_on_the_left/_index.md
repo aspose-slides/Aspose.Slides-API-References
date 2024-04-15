@@ -52,3 +52,8 @@ def set_sub_superscript_on_the_left(self, subscript, superscript):
 
 
 
+### See Also
+* class [`IMathLeftSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathleftsubsuperscriptelement)
+* class [`MathBorderBox`](/slides/python-net/aspose.slides.mathtext/mathborderbox)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

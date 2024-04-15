@@ -26,8 +26,13 @@ def remove(self, author):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | Author is `null` |
+| **System.ArgumentNullException** | Author is `null` |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if author is already removed. |
 
 
 
+### See Also
+* class [`CommentAuthorCollection`](/slides/python-net/aspose.slides/commentauthorcollection)
+* class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

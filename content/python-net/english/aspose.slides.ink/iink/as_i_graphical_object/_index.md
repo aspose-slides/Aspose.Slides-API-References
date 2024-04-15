@@ -18,3 +18,8 @@ Allows to get base IGraphicalObject interface.
 def as_i_graphical_object(self):
     ...
 ```
+
+### See Also
+* class [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject)
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

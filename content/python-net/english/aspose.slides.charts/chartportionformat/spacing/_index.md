@@ -11,7 +11,7 @@ weight: 250
 ## spacing property
 Returns or sets the intercharacter spacing increment.
             **float.NaN**  means value is undefined and should be inherited from the Master.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def spacing(self):
 def spacing(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

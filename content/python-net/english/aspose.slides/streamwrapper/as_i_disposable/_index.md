@@ -10,7 +10,7 @@ weight: 80
 
 ## as_i_disposable property
 Allows to get base IDisposable interface.
-            Read-only .NET type System.IDisposable.
+            Read-only **System.IDisposable**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Allows to get base IDisposable interface.
 def as_i_disposable(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

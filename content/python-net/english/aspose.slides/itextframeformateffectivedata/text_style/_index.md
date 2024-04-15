@@ -18,3 +18,8 @@ Returns effective text's style.
 def text_style(self):
     ...
 ```
+
+### See Also
+* class [`ITextStyleEffectiveData`](/slides/python-net/aspose.slides/itextstyleeffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

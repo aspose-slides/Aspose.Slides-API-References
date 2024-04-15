@@ -21,15 +21,21 @@ The ColorReplace type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_presentation_component](/slides/python-net/aspose.slides.effects/colorreplace/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
-| [color](/slides/python-net/aspose.slides.effects/colorreplace/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
-| [slide](/slides/python-net/aspose.slides.effects/colorreplace/slide/) |  |
-| [presentation](/slides/python-net/aspose.slides.effects/colorreplace/presentation/) |  |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/colorreplace/as_i_image_transform_operation/) |  |
+| [`as_i_presentation_component`](/slides/python-net/aspose.slides.effects/colorreplace/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
+| [`color`](/slides/python-net/aspose.slides.effects/colorreplace/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [`slide`](/slides/python-net/aspose.slides.effects/colorreplace/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/colorreplace/presentation/) |  |
+| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/colorreplace/as_i_image_transform_operation/) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/colorreplace/get_effective/#) | Gets effective Color Replacement effect data with the inheritance applied. |
+| [`get_effective`](/slides/python-net/aspose.slides.effects/colorreplace/get_effective/#) | Gets effective Color Replacement effect data with the inheritance applied. |
 
+### See Also
+* class [`ColorReplace`](/slides/python-net/aspose.slides.effects/colorreplace)
+* class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+* class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

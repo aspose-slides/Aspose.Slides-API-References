@@ -21,3 +21,6 @@ The NewLineType type exposes the following members:
 | UNIX |  |
 | MAC | Mac (OS 9) new line - \\r |
 
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

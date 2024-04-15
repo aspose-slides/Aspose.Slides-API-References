@@ -29,3 +29,7 @@ def add_placeholder(self, placeholder_to_copy_from):
 
 
 
+### See Also
+* class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
+* module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

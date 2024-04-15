@@ -10,7 +10,7 @@ weight: 70
 
 ## repeat_until_end_slide property
 This attribute specifies if the effect will repeat until the end of the slide.
-             Read/write .NET type System.Boolean.
+             Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def repeat_until_end_slide(self):
 def repeat_until_end_slide(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

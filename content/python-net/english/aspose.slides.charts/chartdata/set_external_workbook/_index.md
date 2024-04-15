@@ -26,7 +26,7 @@ def set_external_workbook(self, workbook_path):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | External workbook is not available or can't be loaded. |
+| **System.InvalidOperationException** | External workbook is not available or can't be loaded. |
 
 
 
@@ -49,7 +49,11 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.InvalidOperationException | External workbook is not available or can't be loaded. |
+| **System.InvalidOperationException** | External workbook is not available or can't be loaded. |
 
 
 
+### See Also
+* class [`ChartData`](/slides/python-net/aspose.slides.charts/chartdata)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

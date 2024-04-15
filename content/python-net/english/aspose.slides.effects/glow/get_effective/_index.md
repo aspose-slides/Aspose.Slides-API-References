@@ -25,3 +25,8 @@ def get_effective(self):
 
 
 
+### See Also
+* class [`Glow`](/slides/python-net/aspose.slides.effects/glow)
+* class [`IGlowEffectiveData`](/slides/python-net/aspose.slides.effects/igloweffectivedata)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

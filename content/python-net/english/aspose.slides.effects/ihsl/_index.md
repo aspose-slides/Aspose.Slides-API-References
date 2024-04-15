@@ -18,11 +18,14 @@ The IHSL type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_image_transform_operation](/slides/python-net/aspose.slides.effects/ihsl/as_i_image_transform_operation/) | Returns IImageTransformOperation interface.<br/>            Read-only [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
+| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/ihsl/as_i_image_transform_operation/) | Returns IImageTransformOperation interface.<br/>            Read-only [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [get_effective](/slides/python-net/aspose.slides.effects/ihsl/get_effective/#) |  |
+| [`get_effective`](/slides/python-net/aspose.slides.effects/ihsl/get_effective/#) |  |
 
+### See Also
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)

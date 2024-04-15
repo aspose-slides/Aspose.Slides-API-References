@@ -31,3 +31,7 @@ def index_of(self, item):
 
 
 
+### See Also
+* class [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 40
 
 ## is_synchronized property
 Returns a value indicating whether access to the collection is synchronized (thread-safe).
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns a value indicating whether access to the collection is synchronized (thr
 def is_synchronized(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

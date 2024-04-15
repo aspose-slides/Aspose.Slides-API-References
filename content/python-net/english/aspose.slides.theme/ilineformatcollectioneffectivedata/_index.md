@@ -17,8 +17,8 @@ The ILineFormatCollectionEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides.theme/ilineformatcollectioneffectivedata/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides.theme/ilineformatcollectioneffectivedata/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides.theme/ilineformatcollectioneffectivedata/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.theme/ilineformatcollectioneffectivedata/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -31,3 +31,7 @@ The ILineFormatCollectionEffectiveData type exposes the following members:
 
 This interface is used as a part of [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata).
 
+### See Also
+* class [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

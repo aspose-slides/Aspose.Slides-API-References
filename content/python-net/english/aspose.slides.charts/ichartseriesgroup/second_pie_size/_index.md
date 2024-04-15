@@ -12,7 +12,7 @@ weight: 210
 Specifies the size of the second pie or bar of a pie-of-pie chart or 
             a bar-of-pie chart, as a percentage of the size of the first pie (can 
             be between 5 and 200 percents).
-            Read/write .NET type System.UInt16.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def second_pie_size(self):
 def second_pie_size(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

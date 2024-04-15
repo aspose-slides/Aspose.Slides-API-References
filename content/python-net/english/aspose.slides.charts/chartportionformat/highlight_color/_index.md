@@ -18,3 +18,8 @@ Returns the color used to highlight a text. No inheritance applied.
 def highlight_color(self):
     ...
 ```
+
+### See Also
+* class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

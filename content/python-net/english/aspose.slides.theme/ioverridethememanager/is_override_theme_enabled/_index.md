@@ -12,7 +12,7 @@ weight: 40
 Determines whether OverrideTheme overrides inherited effective theme or not.
             To enable OverrideTheme for overriding use OverrideTheme.Init*() methods.
             To disable OverrideTheme from overriding use OverrideTheme.Clear() method.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -20,3 +20,7 @@ Determines whether OverrideTheme overrides inherited effective theme or not.
 def is_override_theme_enabled(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

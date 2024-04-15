@@ -10,7 +10,7 @@ weight: 140
 
 ## stream property
 Gets a stream.
-            Read-only .NET type System.IO.Stream.
+            Read-only **System.IO.Stream**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Gets a stream.
 def stream(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

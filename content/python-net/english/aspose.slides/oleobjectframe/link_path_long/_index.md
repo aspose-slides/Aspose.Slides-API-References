@@ -10,7 +10,7 @@ weight: 360
 
 ## link_path_long property
 Returns the full path to a linked file. Long file name will be used.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def link_path_long(self):
 def link_path_long(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

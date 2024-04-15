@@ -15,7 +15,7 @@ Specifies the custom rotation that is being applied to the text within the bound
             addition to the text itself having a rotation applied to it.
             The resulted value of visual text rotation summarized from this property and predefined
             vertical type in property TextVerticalType.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -26,3 +26,7 @@ def rotation_angle(self):
 def rotation_angle(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

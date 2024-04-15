@@ -26,7 +26,11 @@ def add(self, data_point_index):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | Point with the given index was not found". |
+| **System.ArgumentException** | Point with the given index was not found". |
 
 
 
+### See Also
+* class [`PieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 50
 
 ## previous_slide_index property
 Returns index of previously rendered slide or -1 if first slide is rendering.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns index of previously rendered slide or -1 if first slide is rendering.
 def previous_slide_index(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

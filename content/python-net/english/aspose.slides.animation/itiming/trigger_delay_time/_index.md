@@ -10,7 +10,7 @@ weight: 120
 
 ## trigger_delay_time property
 Describes delay time after trigger.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def trigger_delay_time(self):
 def trigger_delay_time(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

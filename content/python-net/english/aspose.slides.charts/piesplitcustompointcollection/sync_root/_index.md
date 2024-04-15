@@ -10,7 +10,7 @@ weight: 50
 
 ## sync_root property
 Returns a synchronization root.
-            Read-only .NET type System.Object.
+            Read-only **any**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns a synchronization root.
 def sync_root(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

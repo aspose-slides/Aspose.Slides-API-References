@@ -26,7 +26,11 @@ def remove_at(self, index):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentOutOfRangeException |  |
+| **System.ArgumentOutOfRangeException** |  |
 
 
 
+### See Also
+* class [`ISlideCollection`](/slides/python-net/aspose.slides/islidecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

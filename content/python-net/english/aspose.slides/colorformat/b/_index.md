@@ -10,7 +10,7 @@ weight: 50
 
 ## b property
 Returns or sets the blue component of a color. All color transformations are ignored.
-            Read/write .NET type System.Byte.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def b(self):
 def b(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

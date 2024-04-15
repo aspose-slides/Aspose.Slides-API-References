@@ -11,7 +11,7 @@ weight: 130
 ## show_category_name property
 Represents a specified chart's data label category name display behavior.
             True to display the category name for the data labels on a chart. False to hide.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -33,3 +33,7 @@ def show_category_name(self):
 def show_category_name(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

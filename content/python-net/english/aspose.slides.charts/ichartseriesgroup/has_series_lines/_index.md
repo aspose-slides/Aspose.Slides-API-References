@@ -10,7 +10,7 @@ weight: 120
 
 ## has_series_lines property
 True if chart has series lines. Applied to stacked bar and OfPie charts.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def has_series_lines(self):
 def has_series_lines(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

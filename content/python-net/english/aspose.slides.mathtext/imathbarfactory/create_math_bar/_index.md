@@ -51,3 +51,7 @@ def create_math_bar(self, element, position):
 
 
 
+### See Also
+* class [`IMathBarFactory`](/slides/python-net/aspose.slides.mathtext/imathbarfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

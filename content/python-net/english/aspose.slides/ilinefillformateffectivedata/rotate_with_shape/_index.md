@@ -10,7 +10,7 @@ weight: 50
 
 ## rotate_with_shape property
 Determines whether the fill should be rotated with a shape.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Determines whether the fill should be rotated with a shape.
 def rotate_with_shape(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

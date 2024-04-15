@@ -18,3 +18,8 @@ Allows to get base IHyperlinkContainer interface.
 def as_i_hyperlink_container(self):
     ...
 ```
+
+### See Also
+* class [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

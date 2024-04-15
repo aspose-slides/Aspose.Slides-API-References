@@ -10,7 +10,7 @@ weight: 270
 
 ## name_of_application property
 Returns or sets the name of the application.
-            Read/write .NET type System.String.
+            Read/write **string**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def name_of_application(self):
 def name_of_application(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

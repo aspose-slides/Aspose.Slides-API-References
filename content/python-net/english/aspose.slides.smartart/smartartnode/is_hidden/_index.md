@@ -10,7 +10,7 @@ weight: 50
 
 ## is_hidden property
 Returns true if this node is a hidden node in the data model.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns true if this node is a hidden node in the data model.
 def is_hidden(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

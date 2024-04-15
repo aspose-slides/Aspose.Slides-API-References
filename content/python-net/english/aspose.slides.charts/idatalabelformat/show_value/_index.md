@@ -11,7 +11,7 @@ weight: 200
 ## show_value property
 Represents a specified chart's data label percentage value display behavior. 
             True displays the percentage value. False to hide.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 
 ### Remarks
@@ -33,3 +33,7 @@ def show_value(self):
 def show_value(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

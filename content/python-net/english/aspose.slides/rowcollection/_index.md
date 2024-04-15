@@ -17,8 +17,8 @@ The RowCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/rowcollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/rowcollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides/rowcollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides/rowcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -30,7 +30,10 @@ The RowCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add_clone](/slides/python-net/aspose.slides/rowcollection/add_clone/#irow-bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [insert_clone](/slides/python-net/aspose.slides/rowcollection/insert_clone/#int-irow-bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
-| [remove_at](/slides/python-net/aspose.slides/rowcollection/remove_at/#int-bool) | Removes a row at the specified position from a table. |
+| [`add_clone`](/slides/python-net/aspose.slides/rowcollection/add_clone/#irow-bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [`insert_clone`](/slides/python-net/aspose.slides/rowcollection/insert_clone/#int-irow-bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
+| [`remove_at`](/slides/python-net/aspose.slides/rowcollection/remove_at/#int-bool) | Removes a row at the specified position from a table. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

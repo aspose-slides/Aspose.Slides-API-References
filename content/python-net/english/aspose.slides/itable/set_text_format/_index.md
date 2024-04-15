@@ -56,3 +56,7 @@ def set_text_format(self, source):
 
 
 
+### See Also
+* class [`ITable`](/slides/python-net/aspose.slides/itable)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

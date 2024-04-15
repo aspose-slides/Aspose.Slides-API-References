@@ -43,3 +43,7 @@ def to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethro
 
 
 
+### See Also
+* class [`IMathAccent`](/slides/python-net/aspose.slides.mathtext/imathaccent)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

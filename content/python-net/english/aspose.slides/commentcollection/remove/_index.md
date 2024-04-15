@@ -26,8 +26,13 @@ def remove(self, comment):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentNullException | If comment is `null` |
+| **System.ArgumentNullException** | If comment is `null` |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if comment is already removed. |
 
 
 
+### See Also
+* class [`CommentCollection`](/slides/python-net/aspose.slides/commentcollection)
+* class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

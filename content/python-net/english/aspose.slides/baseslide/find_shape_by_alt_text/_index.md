@@ -29,3 +29,7 @@ def find_shape_by_alt_text(self, alt_text):
 
 
 
+### See Also
+* class [`BaseSlide`](/slides/python-net/aspose.slides/baseslide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

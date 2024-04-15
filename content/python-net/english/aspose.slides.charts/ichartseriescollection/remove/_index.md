@@ -26,7 +26,11 @@ def remove(self, value):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | The value parameter was not found in the collection. |
+| **System.ArgumentException** | The value parameter was not found in the collection. |
 
 
 
+### See Also
+* class [`IChartSeriesCollection`](/slides/python-net/aspose.slides.charts/ichartseriescollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

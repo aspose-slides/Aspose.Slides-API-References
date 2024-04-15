@@ -10,7 +10,7 @@ weight: 440
 
 ## right_to_left property
 Determines whether the table has right to left reading order.
-            Read-write .NET type System.Boolean.
+            Read-write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def right_to_left(self):
 def right_to_left(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

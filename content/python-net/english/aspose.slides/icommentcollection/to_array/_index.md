@@ -47,3 +47,8 @@ def to_array(self, start_index, count):
 
 
 
+### See Also
+* class [`IComment`](/slides/python-net/aspose.slides/icomment)
+* class [`ICommentCollection`](/slides/python-net/aspose.slides/icommentcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

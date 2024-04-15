@@ -17,7 +17,10 @@ The IRevealTransition type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [direction](/slides/python-net/aspose.slides.slideshow/irevealtransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
-| [through_black](/slides/python-net/aspose.slides.slideshow/irevealtransition/through_black/) | Specifies whether the transition fades through black.<br/>            Read/write .NET type System.Boolean. |
-| [as_i_transition_value_base](/slides/python-net/aspose.slides.slideshow/irevealtransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only [`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase). |
+| [`direction`](/slides/python-net/aspose.slides.slideshow/irevealtransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
+| [`through_black`](/slides/python-net/aspose.slides.slideshow/irevealtransition/through_black/) | Specifies whether the transition fades through black.<br/>            Read/write **bool**. |
+| [`as_i_transition_value_base`](/slides/python-net/aspose.slides.slideshow/irevealtransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only [`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase). |
 
+### See Also
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)

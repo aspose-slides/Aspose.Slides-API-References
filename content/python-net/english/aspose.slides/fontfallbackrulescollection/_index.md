@@ -17,14 +17,14 @@ The FontFallBackRulesCollection type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides/fontfallbackrulescollection/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides/fontfallbackrulescollection/__init__/#) |  |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/fontfallbackrulescollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/fontfallbackrulescollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides/fontfallbackrulescollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides/fontfallbackrulescollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -36,6 +36,9 @@ The FontFallBackRulesCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/fontfallbackrulescollection/add/#ifontfallbackrule) | Add a specified FallBack rule to the end of the collection. |
-| [remove](/slides/python-net/aspose.slides/fontfallbackrulescollection/remove/#ifontfallbackrule) | Removes the first occurrence of a specific FallBack rule from the collection. |
+| [`add`](/slides/python-net/aspose.slides/fontfallbackrulescollection/add/#ifontfallbackrule) | Add a specified FallBack rule to the end of the collection. |
+| [`remove`](/slides/python-net/aspose.slides/fontfallbackrulescollection/remove/#ifontfallbackrule) | Removes the first occurrence of a specific FallBack rule from the collection. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

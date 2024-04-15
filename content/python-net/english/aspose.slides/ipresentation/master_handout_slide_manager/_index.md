@@ -18,3 +18,8 @@ Returns handout master manager.
 def master_handout_slide_manager(self):
     ...
 ```
+
+### See Also
+* class [`IMasterHandoutSlideManager`](/slides/python-net/aspose.slides/imasterhandoutslidemanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

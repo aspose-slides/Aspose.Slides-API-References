@@ -10,7 +10,7 @@ weight: 110
 
 ## text_selection_length property
 Returns or sets text selection length in text frame if the comment associated with AutoShape.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def text_selection_length(self):
 def text_selection_length(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

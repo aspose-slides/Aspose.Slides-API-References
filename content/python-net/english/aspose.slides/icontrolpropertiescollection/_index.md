@@ -17,15 +17,18 @@ The IControlPropertiesCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides/icontrolpropertiescollection/count/) | Returns a number of properties in the collection.<br/>            Read-only .NET type System.Int32. |
-| [names_of_properties](/slides/python-net/aspose.slides/icontrolpropertiescollection/names_of_properties/) | Returns a number of properties in the collection.<br/>            Read-only .NET type System.Collections.ICollection. |
-| [as_i_enumerable](/slides/python-net/aspose.slides/icontrolpropertiescollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only .NET type System.Collections.IEnumerable. |
+| [`count`](/slides/python-net/aspose.slides/icontrolpropertiescollection/count/) | Returns a number of properties in the collection.<br/>            Read-only **int**. |
+| [`names_of_properties`](/slides/python-net/aspose.slides/icontrolpropertiescollection/names_of_properties/) | Returns a number of properties in the collection.<br/>            Read-only **list**. |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides/icontrolpropertiescollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only **collections.abc.Iterable**. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/icontrolpropertiescollection/add/#string-string) | Adds a property to the collection. |
-| [remove](/slides/python-net/aspose.slides/icontrolpropertiescollection/remove/#string) | Removes a property with the specified name. |
-| [clear](/slides/python-net/aspose.slides/icontrolpropertiescollection/clear/#) | Removes all properties. |
+| [`add`](/slides/python-net/aspose.slides/icontrolpropertiescollection/add/#string-string) | Adds a property to the collection. |
+| [`remove`](/slides/python-net/aspose.slides/icontrolpropertiescollection/remove/#string) | Removes a property with the specified name. |
+| [`clear`](/slides/python-net/aspose.slides/icontrolpropertiescollection/clear/#) | Removes all properties. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

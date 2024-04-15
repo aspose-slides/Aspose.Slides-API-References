@@ -19,3 +19,8 @@ Returns collection of interactive sequences.
 def interactive_sequences(self):
     ...
 ```
+
+### See Also
+* class [`ISequenceCollection`](/slides/python-net/aspose.slides.animation/isequencecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

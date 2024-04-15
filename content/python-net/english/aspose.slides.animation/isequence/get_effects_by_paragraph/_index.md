@@ -29,3 +29,9 @@ def get_effects_by_paragraph(self, paragraph):
 
 
 
+### See Also
+* class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
+* class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
+* class [`ISequence`](/slides/python-net/aspose.slides.animation/isequence)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

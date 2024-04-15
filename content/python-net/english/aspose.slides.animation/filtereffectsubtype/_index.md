@@ -45,3 +45,6 @@ The FilterEffectSubtype type exposes the following members:
 | UP_RIGHT |  |
 | VERTICAL |  |
 
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

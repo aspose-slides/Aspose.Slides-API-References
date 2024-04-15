@@ -12,7 +12,7 @@ weight: 120
 Specifies the number of categories (or units on a scatter chart) that the trendline extends after the
             data for the series that is being trended. On scatter and non-scatter charts, the value shall be any non-negative
             value.
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def forward(self):
 def forward(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

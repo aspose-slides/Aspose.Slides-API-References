@@ -19,3 +19,8 @@ This element specifies the sizing of the side content region of the normal view,
 def restored_left(self):
     ...
 ```
+
+### See Also
+* class [`INormalViewRestoredProperties`](/slides/python-net/aspose.slides/inormalviewrestoredproperties)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

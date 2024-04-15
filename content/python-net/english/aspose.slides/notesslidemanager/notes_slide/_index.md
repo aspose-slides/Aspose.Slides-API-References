@@ -18,3 +18,8 @@ Returns the notes slide for the current slide. Returns null if slide doesn't hav
 def notes_slide(self):
     ...
 ```
+
+### See Also
+* class [`INotesSlide`](/slides/python-net/aspose.slides/inotesslide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

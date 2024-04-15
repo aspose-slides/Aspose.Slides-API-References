@@ -10,7 +10,7 @@ weight: 150
 
 ## is_merged_cell property
 Returns true if the cell is merged with any adjusted cell, false otherwise.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns true if the cell is merged with any adjusted cell, false otherwise.
 def is_merged_cell(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

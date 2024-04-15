@@ -10,7 +10,7 @@ weight: 180
 
 ## cross_at property
 Represents the point on the axis where the perpendicular axis crosses it.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def cross_at(self):
 def cross_at(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

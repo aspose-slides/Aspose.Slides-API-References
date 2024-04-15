@@ -11,7 +11,7 @@ weight: 60
 ## color property
 Returns resulting color (with all color transformations applied).
             Sets RGB colors and clears all color transformations.
-            Read/write .NET type System.Drawing.Color.
+            Read/write **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def color(self):
 def color(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

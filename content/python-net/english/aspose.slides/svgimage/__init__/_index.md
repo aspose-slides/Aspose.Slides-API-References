@@ -110,3 +110,7 @@ def __init__(self, stream, external_res_resolver, base_uri):
 
 
 
+### See Also
+* class [`SvgImage`](/slides/python-net/aspose.slides/svgimage)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 80
 
 ## has_border_outline property
 True if the chart data table has outline borders.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def has_border_outline(self):
 def has_border_outline(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

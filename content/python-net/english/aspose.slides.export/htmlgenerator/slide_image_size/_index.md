@@ -10,7 +10,7 @@ weight: 60
 
 ## slide_image_size property
 Returns slide image size.
-            Read-only .NET type System.Drawing.SizeF.
+            Read-only **aspose.pydrawing.SizeF**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns slide image size.
 def slide_image_size(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

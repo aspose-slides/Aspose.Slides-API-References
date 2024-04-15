@@ -10,7 +10,7 @@ weight: 70
 
 ## disable_gradient_split property
 Disables splitting FromCornerX and FromCenter gradients.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def disable_gradient_split(self):
 def disable_gradient_split(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

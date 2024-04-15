@@ -18,3 +18,8 @@ Returns notes master manager.
 def master_notes_slide_manager(self):
     ...
 ```
+
+### See Also
+* class [`IMasterNotesSlideManager`](/slides/python-net/aspose.slides/imasternotesslidemanager)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

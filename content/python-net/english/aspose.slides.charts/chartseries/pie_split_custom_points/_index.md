@@ -27,3 +27,8 @@ This is the projection of the property ParentSeriesGroup.PieSplitCustomPoints.
 def pie_split_custom_points(self):
     ...
 ```
+
+### See Also
+* class [`PieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

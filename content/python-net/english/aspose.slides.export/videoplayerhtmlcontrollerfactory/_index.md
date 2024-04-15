@@ -17,16 +17,19 @@ The VideoPlayerHtmlControllerFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [__init__](/slides/python-net/aspose.slides.export/videoplayerhtmlcontrollerfactory/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontrollerfactory/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [create_video_player_html_controller](/slides/python-net/aspose.slides.export/videoplayerhtmlcontrollerfactory/create_video_player_html_controller/#string-string-string) | Creates new `VideoPlayerHtmlController`. |
+| [`create_video_player_html_controller`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontrollerfactory/create_video_player_html_controller/#string-string-string) | Creates new `VideoPlayerHtmlController`. |
 
 
 ### Remarks
 
 For COM compatibility.
 
+### See Also
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

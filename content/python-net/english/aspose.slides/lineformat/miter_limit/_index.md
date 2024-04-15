@@ -10,7 +10,7 @@ weight: 180
 
 ## miter_limit property
 Returns or sets the miter limit of a line.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def miter_limit(self):
 def miter_limit(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -11,7 +11,7 @@ weight: 20
 ## auto_reverse property
 Describes whether to automatically play the animation in reverse after
             playing it in the forward direction.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def auto_reverse(self):
 def auto_reverse(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -12,7 +12,7 @@ weight: 100
 If true then worksheet is used for storing categories (this case supports a multi-level categories).
             If false then worksheet is NOT used for storing values (and this case doesn't support a 
             multi-level categories).
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def use_cells(self):
 def use_cells(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

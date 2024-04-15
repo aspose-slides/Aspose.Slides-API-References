@@ -23,3 +23,7 @@ def delimiter_shape(self):
 def delimiter_shape(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -13,7 +13,7 @@ Creates a tile image for the pattern fill with a specified colors.
 
 ### Returns
 
-Tile .NET type System.Drawing.Bitmap.
+Tile **aspose.pydrawing.Bitmap**.
 
 
 
@@ -25,8 +25,12 @@ def get_tile_image(self, background, foreground):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| background | aspose.pydrawing.Color | The background .NET type System.Drawing.Color for the pattern. |
-| foreground | aspose.pydrawing.Color | The foreground .NET type System.Drawing.Color for the pattern. |
+| background | aspose.pydrawing.Color | The background **aspose.pydrawing.Color** for the pattern. |
+| foreground | aspose.pydrawing.Color | The foreground **aspose.pydrawing.Color** for the pattern. |
 
 
 
+### See Also
+* class [`IPatternFormatEffectiveData`](/slides/python-net/aspose.slides/ipatternformateffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

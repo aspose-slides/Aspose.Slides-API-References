@@ -13,7 +13,7 @@ Removes specified behavior from a collection.
 
 ### Returns
 
-True if a behavior removed successfully .NET type System.Boolean
+True if a behavior removed successfully **bool**
 
 
 
@@ -29,3 +29,7 @@ def remove(self, item):
 
 
 
+### See Also
+* class [`IBehaviorCollection`](/slides/python-net/aspose.slides.animation/ibehaviorcollection)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

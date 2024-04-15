@@ -12,7 +12,7 @@ weight: 240
 Returns the number of rows that a merged cell spans. This is used in combination
             with the vMerge attribute on other cells in order to specify the beginning cell
             of a horizontal merge.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -20,3 +20,7 @@ Returns the number of rows that a merged cell spans. This is used in combination
 def row_span(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

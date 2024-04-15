@@ -17,5 +17,8 @@ The IMetered type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [set_metered_key](/slides/python-net/aspose.slides/imetered/set_metered_key/#string-string) | Sets metered public and private key. |
+| [`set_metered_key`](/slides/python-net/aspose.slides/imetered/set_metered_key/#string-string) | Sets metered public and private key. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

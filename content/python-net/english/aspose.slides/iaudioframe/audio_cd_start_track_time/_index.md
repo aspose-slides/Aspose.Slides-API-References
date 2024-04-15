@@ -10,7 +10,7 @@ weight: 220
 
 ## audio_cd_start_track_time property
 Returns or sets a start track time.
-            Read/write .NET type System.Int32.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def audio_cd_start_track_time(self):
 def audio_cd_start_track_time(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

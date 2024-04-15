@@ -21,3 +21,8 @@ def type(self):
 def type(self, value):
     ...
 ```
+
+### See Also
+* class [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

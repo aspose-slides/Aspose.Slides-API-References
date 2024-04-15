@@ -10,7 +10,7 @@ weight: 20
 
 ## variable_scale property
 Specifies that the view content should automatically scale to best fit the current window size.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def variable_scale(self):
 def variable_scale(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

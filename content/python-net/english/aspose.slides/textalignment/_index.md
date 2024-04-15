@@ -25,3 +25,6 @@ The TextAlignment type exposes the following members:
 | JUSTIFY_LOW | Kashida justify low. |
 | DISTRIBUTED | Distributed alignment. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

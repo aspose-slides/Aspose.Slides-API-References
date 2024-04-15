@@ -21,3 +21,6 @@ The ShapeThumbnailBounds type exposes the following members:
 | SHAPE | Shape thumbnail will have size equal to the shape bounds rectangle<br/>            with taking into account shape outline settings. |
 | APPEARANCE | Shape thumbnail will have size equal to the shape appearance (in bounds of a slide). <br/>            It can be cases when shape appearance doesn't fit into the shape bounds. E.g.<br/>            rotation, miter join of acute angle , 3D effects, etc. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

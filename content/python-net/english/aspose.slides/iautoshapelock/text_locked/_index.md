@@ -10,7 +10,7 @@ weight: 130
 
 ## text_locked property
 Determines whether an editing of text is forbidden.
-            Read-write .NET type System.Boolean.
+            Read-write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def text_locked(self):
 def text_locked(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Returns TextFrameEx object for the AutoShapeEx.
 def text_frame(self):
     ...
 ```
+
+### See Also
+* class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

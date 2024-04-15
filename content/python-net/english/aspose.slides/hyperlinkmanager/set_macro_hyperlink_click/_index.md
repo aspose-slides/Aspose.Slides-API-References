@@ -29,3 +29,8 @@ def set_macro_hyperlink_click(self, macro_name):
 
 
 
+### See Also
+* class [`HyperlinkManager`](/slides/python-net/aspose.slides/hyperlinkmanager)
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

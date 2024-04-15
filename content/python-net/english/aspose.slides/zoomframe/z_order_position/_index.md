@@ -12,7 +12,7 @@ weight: 500
 Returns the position of a shape in the z-order.
             Shapes[0] returns the shape at the back of the z-order,
             and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order.
-            Read-only .NET type System.Int32.
+            Read-only **int**.
 
 ### Definition:
 ```python
@@ -20,3 +20,7 @@ Returns the position of a shape in the z-order.
 def z_order_position(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

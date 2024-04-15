@@ -21,3 +21,8 @@ def hyperlink_click(self):
 def hyperlink_click(self, value):
     ...
 ```
+
+### See Also
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

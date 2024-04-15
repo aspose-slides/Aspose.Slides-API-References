@@ -11,7 +11,7 @@ weight: 150
 ## period property
 Specifies the period of the trend line for a moving average trend line. It is ignored for other trend
             line variants. Value must be between 2 and 255.
-            Read/write .NET type System.Byte.
+            Read/write **int**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def period(self):
 def period(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

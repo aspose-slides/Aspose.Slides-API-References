@@ -10,7 +10,7 @@ weight: 110
 
 ## extrusion_height property
 Returns or sets the height of an extrusion effect.
-            Read/write .NET type System.Double.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def extrusion_height(self):
 def extrusion_height(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

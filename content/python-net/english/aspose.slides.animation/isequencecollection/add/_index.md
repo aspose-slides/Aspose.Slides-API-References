@@ -29,3 +29,9 @@ def add(self, shape_trigger):
 
 
 
+### See Also
+* class [`ISequence`](/slides/python-net/aspose.slides.animation/isequence)
+* class [`ISequenceCollection`](/slides/python-net/aspose.slides.animation/isequencecollection)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -26,3 +26,8 @@ TrendLines are available (not null) for data series in unstacked 2-D area, bar, 
 def trend_lines(self):
     ...
 ```
+
+### See Also
+* class [`ITrendlineCollection`](/slides/python-net/aspose.slides.charts/itrendlinecollection)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

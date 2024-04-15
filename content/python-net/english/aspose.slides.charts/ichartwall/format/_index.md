@@ -18,3 +18,8 @@ Returns the wall fill, line, effect, 3d styles.
 def format(self):
     ...
 ```
+
+### See Also
+* class [`IFormat`](/slides/python-net/aspose.slides.charts/iformat)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

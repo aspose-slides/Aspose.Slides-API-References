@@ -13,7 +13,7 @@ Creates and returns an array with all FallBack fonts for this rule.
 
 ### Returns
 
-Array of .NET type System.String
+Array of **string**
 
 
 
@@ -30,7 +30,7 @@ Creates and returns an array with all FallBack fonts from the specified range in
 
 ### Returns
 
-Array of .NET type System.String
+Array of **string**
 
 
 
@@ -47,3 +47,7 @@ def to_array(self, start_index, count):
 
 
 
+### See Also
+* class [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -18,3 +18,8 @@ Allows to get base IBaseSlide interface.
 def as_i_base_slide(self):
     ...
 ```
+
+### See Also
+* class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

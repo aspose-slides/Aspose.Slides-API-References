@@ -11,7 +11,7 @@ weight: 110
 ## value property
 Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. 
             In any other case will return NaN.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -22,3 +22,7 @@ def value(self):
 def value(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

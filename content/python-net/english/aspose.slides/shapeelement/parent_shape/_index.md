@@ -18,3 +18,8 @@ Returns a Shape_PPT for which element was created.
 def parent_shape(self):
     ...
 ```
+
+### See Also
+* class [`Shape`](/slides/python-net/aspose.slides/shape)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

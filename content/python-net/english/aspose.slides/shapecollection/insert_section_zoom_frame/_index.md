@@ -26,17 +26,17 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | The zero-based index at which Section Zoom frame should be inserted. |
-| x | float | X coordinate of a new Section Zoom frame .NET type System.Single. |
-| y | float | Y coordinate of a new Section Zoom frame .NET type System.Single. |
-| width | float | Width of a new Section Zoom frame .NET type System.Single. |
-| height | float | Height of a new Section Zoom frame .NET type System.Single. |
+| x | float | X coordinate of a new Section Zoom frame **float**. |
+| y | float | Y coordinate of a new Section Zoom frame **float**. |
+| width | float | Width of a new Section Zoom frame **float**. |
+| height | float | Height of a new Section Zoom frame **float**. |
 | section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
 
 ## Exceptions
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
+| **System.ArgumentException** | Referenced section does not belong to the current presentation or does not contains any slides. |
 
 
 
@@ -58,10 +58,10 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section, image):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | index | int | The zero-based index at which Section Zoom frame should be inserted. |
-| x | float | X coordinate of a new Section Zoom frame .NET type System.Single. |
-| y | float | Y coordinate of a new Section Zoom frame .NET type System.Single. |
-| width | float | Width of a new Section Zoom frame .NET type System.Single. |
-| height | float | Height of a new Section Zoom frame .NET type System.Single. |
+| x | float | X coordinate of a new Section Zoom frame **float**. |
+| y | float | Y coordinate of a new Section Zoom frame **float**. |
+| width | float | Width of a new Section Zoom frame **float**. |
+| height | float | Height of a new Section Zoom frame **float**. |
 | section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
 | image | IPPImage | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
 
@@ -69,7 +69,14 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section, image):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
+| **System.ArgumentException** | Referenced section does not belong to the current presentation or does not contains any slides. |
 
 
 
+### See Also
+* class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
+* class [`ISection`](/slides/python-net/aspose.slides/isection)
+* class [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe)
+* class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

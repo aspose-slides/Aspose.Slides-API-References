@@ -17,8 +17,8 @@ The IFontSubstRuleCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [as_i_collection](/slides/python-net/aspose.slides/ifontsubstrulecollection/as_i_collection/) |  |
-| [as_i_enumerable](/slides/python-net/aspose.slides/ifontsubstrulecollection/as_i_enumerable/) |  |
+| [`as_i_collection`](/slides/python-net/aspose.slides/ifontsubstrulecollection/as_i_collection/) |  |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides/ifontsubstrulecollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -30,6 +30,9 @@ The IFontSubstRuleCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides/ifontsubstrulecollection/add/#ifontsubstrule) | Adds the new font substitution rule to the collection |
-| [remove](/slides/python-net/aspose.slides/ifontsubstrulecollection/remove/#ifontsubstrule) | Removes the first occurrence of a specific object from the collection. |
+| [`add`](/slides/python-net/aspose.slides/ifontsubstrulecollection/add/#ifontsubstrule) | Adds the new font substitution rule to the collection |
+| [`remove`](/slides/python-net/aspose.slides/ifontsubstrulecollection/remove/#ifontsubstrule) | Removes the first occurrence of a specific object from the collection. |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

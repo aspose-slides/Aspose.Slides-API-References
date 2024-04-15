@@ -20,7 +20,11 @@ def remove_at(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index of effect to remove .NET type System.Int32 |
+| index | int | Index of effect to remove **int** |
 
 
 
+### See Also
+* class [`ISequence`](/slides/python-net/aspose.slides.animation/isequence)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

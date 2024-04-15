@@ -20,3 +20,7 @@ def create_theme_effective(self):
 
 
 
+### See Also
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

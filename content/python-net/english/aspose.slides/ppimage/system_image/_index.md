@@ -10,7 +10,7 @@ weight: 60
 
 ## system_image property
 Returns the copy of an image.
-            Read-only .NET type System.Drawing.Image.
+            Read-only **aspose.pydrawing.Image**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the copy of an image.
 def system_image(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

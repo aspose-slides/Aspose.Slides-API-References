@@ -25,3 +25,7 @@ def get_names_of_tags(self):
 
 
 
+### See Also
+* class [`ITagCollection`](/slides/python-net/aspose.slides/itagcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

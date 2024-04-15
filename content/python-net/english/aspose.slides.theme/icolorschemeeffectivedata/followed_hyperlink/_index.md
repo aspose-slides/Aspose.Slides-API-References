@@ -10,7 +10,7 @@ weight: 90
 
 ## followed_hyperlink property
 Color for the visited hyperlinks.
-            Read-only .NET type System.Drawing.Color.
+            Read-only **aspose.pydrawing.Color**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Color for the visited hyperlinks.
 def followed_hyperlink(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

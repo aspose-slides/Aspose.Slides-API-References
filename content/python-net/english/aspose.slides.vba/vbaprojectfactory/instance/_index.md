@@ -18,3 +18,8 @@ VBA project factory static instance.
 def instance(self):
     ...
 ```
+
+### See Also
+* class [`VbaProjectFactory`](/slides/python-net/aspose.slides.vba/vbaprojectfactory)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

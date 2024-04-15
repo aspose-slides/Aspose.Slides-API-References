@@ -20,3 +20,7 @@ def clear(self):
 
 
 
+### See Also
+* class [`TabCollection`](/slides/python-net/aspose.slides/tabcollection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

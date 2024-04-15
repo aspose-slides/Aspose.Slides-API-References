@@ -52,3 +52,7 @@ def create_math_function(self, func_name, base_argument):
 
 
 
+### See Also
+* class [`IMathFunctionFactory`](/slides/python-net/aspose.slides.mathtext/imathfunctionfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

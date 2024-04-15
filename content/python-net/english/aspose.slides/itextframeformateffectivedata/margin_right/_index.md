@@ -10,7 +10,7 @@ weight: 80
 
 ## margin_right property
 Returns the right margin (points) in a TextFrame.
-            Read-only .NET type System.Double.
+            Read-only **float**.
 
 ### Definition:
 ```python
@@ -18,3 +18,7 @@ Returns the right margin (points) in a TextFrame.
 def margin_right(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

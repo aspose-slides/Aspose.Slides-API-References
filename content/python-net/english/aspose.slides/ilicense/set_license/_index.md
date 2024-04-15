@@ -72,3 +72,7 @@ Use this method to load a license from a stream.
 
 
 
+### See Also
+* class [`ILicense`](/slides/python-net/aspose.slides/ilicense)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

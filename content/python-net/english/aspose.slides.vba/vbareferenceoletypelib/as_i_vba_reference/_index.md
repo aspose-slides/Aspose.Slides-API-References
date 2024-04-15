@@ -15,3 +15,7 @@ weight: 20
 def as_i_vba_reference(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)

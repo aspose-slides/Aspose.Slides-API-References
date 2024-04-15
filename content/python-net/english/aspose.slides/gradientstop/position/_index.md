@@ -10,7 +10,7 @@ weight: 30
 
 ## position property
 Returns or sets the position (0..1) of a gradient stop.
-            Read/write .NET type System.Single.
+            Read/write **float**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def position(self):
 def position(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

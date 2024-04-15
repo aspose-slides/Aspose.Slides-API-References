@@ -25,3 +25,7 @@ def set_event_handler(self, event_type, handler):
 
 
 
+### See Also
+* class [`ISvgShape`](/slides/python-net/aspose.slides.export/isvgshape)
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

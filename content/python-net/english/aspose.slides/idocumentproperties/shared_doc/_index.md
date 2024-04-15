@@ -10,7 +10,7 @@ weight: 270
 
 ## shared_doc property
 Determines whether the presentation is shared between multiple people.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def shared_doc(self):
 def shared_doc(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

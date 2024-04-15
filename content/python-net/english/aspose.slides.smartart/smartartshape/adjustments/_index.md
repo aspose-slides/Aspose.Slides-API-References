@@ -18,3 +18,8 @@ Returns a collection of shape's adjustment values.
 def adjustments(self):
     ...
 ```
+
+### See Also
+* class [`IAdjustValueCollection`](/slides/python-net/aspose.slides/iadjustvaluecollection)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)

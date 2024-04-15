@@ -13,7 +13,7 @@ If false then [`ChartData.secondary_categories`](/slides/python-net/aspose.slide
             in [`ChartData.categories`](/slides/python-net/aspose.slides.charts/chartdata#categories) property is used both for primary and secondary series.
             If true then data in [`ChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata#secondary_categories) property is used for secondary series and data 
             in [`ChartData.categories`](/slides/python-net/aspose.slides.charts/chartdata#categories) property is used for primary series.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -24,3 +24,7 @@ def use_secondary_categories(self):
 def use_secondary_categories(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

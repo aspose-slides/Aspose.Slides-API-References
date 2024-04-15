@@ -17,6 +17,9 @@ The IPathSegment type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [segment_data](/slides/python-net/aspose.slides/ipathsegment/segment_data/) | Path data of the segment |
-| [path_command](/slides/python-net/aspose.slides/ipathsegment/path_command/) | Path type of the segment |
+| [`segment_data`](/slides/python-net/aspose.slides/ipathsegment/segment_data/) | Path data of the segment |
+| [`path_command`](/slides/python-net/aspose.slides/ipathsegment/path_command/) | Path type of the segment |
 
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

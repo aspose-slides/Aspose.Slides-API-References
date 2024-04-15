@@ -11,7 +11,7 @@ weight: 130
 ## is_hard_underline_line property
 Determines whether the underline style has own LineFormat properties or inherits it
             from the LineFormat properties of the text.
-            Read-only .NET type System.Boolean.
+            Read-only **bool**.
 
 ### Definition:
 ```python
@@ -19,3 +19,7 @@ Determines whether the underline style has own LineFormat properties or inherits
 def is_hard_underline_line(self):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

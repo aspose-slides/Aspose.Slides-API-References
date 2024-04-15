@@ -12,7 +12,7 @@ weight: 40
 Determines whether the chart axes are at right angles, rather than drawn in perspective.
             In other words it determines whether the chart angles of axes are independent from chart 
             rotation or elevation.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -23,3 +23,7 @@ def right_angle_axes(self):
 def right_angle_axes(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

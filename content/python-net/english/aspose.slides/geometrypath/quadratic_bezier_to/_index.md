@@ -45,7 +45,7 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentOutOfRangeException | Segment index is out of PathData range |
+| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
 
 
 
@@ -90,7 +90,11 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 | Exception | Description |
 | :- | :- |
-| .NET type System.ArgumentOutOfRangeException | Segment index is out of PathData range |
+| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
 
 
 
+### See Also
+* class [`GeometryPath`](/slides/python-net/aspose.slides/geometrypath)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

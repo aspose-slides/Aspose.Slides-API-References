@@ -10,7 +10,7 @@ weight: 60
 
 ## highlight_click property
 Determines whether the hyperlink should be highlighted on click.
-            Read/write .NET type System.Boolean.
+            Read/write **bool**.
 
 ### Definition:
 ```python
@@ -21,3 +21,7 @@ def highlight_click(self):
 def highlight_click(self, value):
     ...
 ```
+
+### See Also
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

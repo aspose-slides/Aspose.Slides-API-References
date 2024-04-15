@@ -17,8 +17,8 @@ The ISequenceCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [count](/slides/python-net/aspose.slides.animation/isequencecollection/count/) | Returns the number of elements in a collection<br/>            Read-only .NET type System.Int32. |
-| [as_i_enumerable](/slides/python-net/aspose.slides.animation/isequencecollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only .NET type System.Collections.IEnumerable. |
+| [`count`](/slides/python-net/aspose.slides.animation/isequencecollection/count/) | Returns the number of elements in a collection<br/>            Read-only **int**. |
+| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/isequencecollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only **collections.abc.Iterable**. |
 
 ## Indexer
 
@@ -30,8 +30,11 @@ The ISequenceCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [add](/slides/python-net/aspose.slides.animation/isequencecollection/add/#ishape) | Add new interactive sequence. |
-| [remove](/slides/python-net/aspose.slides.animation/isequencecollection/remove/#isequence) | Removes specified sequence from a collection. |
-| [remove_at](/slides/python-net/aspose.slides.animation/isequencecollection/remove_at/#int) | Removes sequence at the specified index. |
-| [clear](/slides/python-net/aspose.slides.animation/isequencecollection/clear/#) | Removes all sequences from a collection. |
+| [`add`](/slides/python-net/aspose.slides.animation/isequencecollection/add/#ishape) | Add new interactive sequence. |
+| [`remove`](/slides/python-net/aspose.slides.animation/isequencecollection/remove/#isequence) | Removes specified sequence from a collection. |
+| [`remove_at`](/slides/python-net/aspose.slides.animation/isequencecollection/remove_at/#int) | Removes sequence at the specified index. |
+| [`clear`](/slides/python-net/aspose.slides.animation/isequencecollection/clear/#) | Removes all sequences from a collection. |
 
+### See Also
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)
