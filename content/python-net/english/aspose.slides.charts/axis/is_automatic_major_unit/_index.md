@@ -23,5 +23,6 @@ def is_automatic_major_unit(self, value):
 ```
 
 ### See Also
+* class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

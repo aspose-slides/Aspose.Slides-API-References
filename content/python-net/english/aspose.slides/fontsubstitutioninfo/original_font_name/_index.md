@@ -10,7 +10,7 @@ weight: 20
 
 ## original_font_name property
 Indicates source font name in presentation.
-            Read-only **string**
+            Read-only **str**
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def original_font_name(self):
 ```
 
 ### See Also
+* class [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

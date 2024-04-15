@@ -20,6 +20,7 @@ def effect_format(self):
 ```
 
 ### See Also
+* class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
 * class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

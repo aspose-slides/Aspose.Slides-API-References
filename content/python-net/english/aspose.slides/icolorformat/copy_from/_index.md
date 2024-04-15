@@ -20,7 +20,7 @@ def copy_from(self, color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color | IColorFormat | Color [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat) |
+| color | [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat) | Color [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat) |
 
 
 

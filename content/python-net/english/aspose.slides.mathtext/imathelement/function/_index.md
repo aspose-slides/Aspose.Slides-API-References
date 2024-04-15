@@ -25,11 +25,11 @@ def function(self, function_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_argument | IMathElement | An argument of the function |
+| function_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | An argument of the function |
 
 
 
-## function {#string}
+## function {#str}
 Takes a function of an argument using this instance as the function name
 
 ### Returns
@@ -46,7 +46,7 @@ def function(self, function_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_argument | string | An argument of the function |
+| function_argument | **str** | An argument of the function |
 
 
 

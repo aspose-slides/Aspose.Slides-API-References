@@ -29,5 +29,6 @@ def as_cells(self, value):
 
 ### See Also
 * class [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection)
+* class [`IMultipleCellChartValue`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

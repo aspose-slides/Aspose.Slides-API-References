@@ -23,5 +23,7 @@ def latin_line_break(self, value):
 ```
 
 ### See Also
+* class [`IChartParagraphFormat`](/slides/python-net/aspose.slides.charts/ichartparagraphformat)
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

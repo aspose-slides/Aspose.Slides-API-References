@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effectfilltype/
 ---
 
 
-## EffectFillType class
+## EffectFillType enumeration
 
 Represent fill types.
 

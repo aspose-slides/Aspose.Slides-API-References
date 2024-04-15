@@ -20,8 +20,8 @@ def remove_at(self, first_column_index, with_attached_rows):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| first_column_index | int | Index of a column to delete. |
-| with_attached_rows | bool | True to delete also all attached columns. |
+| first_column_index | **int** | Index of a column to delete. |
+| with_attached_rows | **bool** | True to delete also all attached columns. |
 
 
 

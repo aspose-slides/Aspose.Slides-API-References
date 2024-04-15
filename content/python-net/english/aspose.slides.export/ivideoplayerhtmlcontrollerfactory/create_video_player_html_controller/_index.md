@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_video_player_html_controller {#string-string-string}
+## create_video_player_html_controller {#str-str-str}
 Create video player HTML controller.
 
 ### Returns
@@ -25,9 +25,9 @@ def create_video_player_html_controller(self, path, file_name, base_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string | Path. |
-| file_name | string | File Name. |
-| base_uri | string | Base URI. |
+| path | **str** | Path. |
+| file_name | **str** | File Name. |
+| base_uri | **str** | Base URI. |
 
 
 

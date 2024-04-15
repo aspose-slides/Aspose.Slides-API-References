@@ -23,5 +23,7 @@ def black_white_mode(self, value):
 ```
 
 ### See Also
+* enumeration [`BlackWhiteMode`](/slides/python-net/aspose.slides/blackwhitemode)
+* class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effectchartmajorgroupingtype/
 ---
 
 
-## EffectChartMajorGroupingType class
+## EffectChartMajorGroupingType enumeration
 
 Represents the type of an animation effect for chart's element.
 

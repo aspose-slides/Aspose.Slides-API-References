@@ -32,7 +32,7 @@ def __init__(self, math_element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_element | IMathElement | The mathematical element to put in the block |
+| math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The mathematical element to put in the block |
 
 
 
@@ -48,11 +48,12 @@ def __init__(self, math_elements):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_elements | Iterable[IMathElement] |  |
+| math_elements | **Iterable[IMathElement]** |  |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

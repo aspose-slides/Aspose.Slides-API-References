@@ -40,7 +40,7 @@ The IChartTitle type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/icharttitle/add_text_frame_for_overriding/#string) |  |
+| [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/icharttitle/add_text_frame_for_overriding/#str) |  |
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)

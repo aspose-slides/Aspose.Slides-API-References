@@ -23,5 +23,7 @@ def trigger_type(self, value):
 ```
 
 ### See Also
+* enumeration [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype)
+* class [`Timing`](/slides/python-net/aspose.slides.animation/timing)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

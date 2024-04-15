@@ -22,7 +22,7 @@ def set_slide_number_and_child_slide_numbers_visibility(self, is_visible):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| is_visible | bool | true - makes a page number placeholders visible, otherwise - hides them. |
+| is_visible | **bool** | true - makes a page number placeholders visible, otherwise - hides them. |
 
 
 

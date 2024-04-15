@@ -22,7 +22,7 @@ The IMasterSlide type exposes the following members:
 | [`body_style`](/slides/python-net/aspose.slides/imasterslide/body_style/) | Returns the style of a body text.<br/>            Read-only [`ITextStyle`](/slides/python-net/aspose.slides/itextstyle). |
 | [`other_style`](/slides/python-net/aspose.slides/imasterslide/other_style/) | Returns the style of an other text.<br/>            Read-only [`ITextStyle`](/slides/python-net/aspose.slides/itextstyle). |
 | [`layout_slides`](/slides/python-net/aspose.slides/imasterslide/layout_slides/) | Returns the collection of child layout slides for this master slide.<br/>            Read-only [`IMasterLayoutSlideCollection`](/slides/python-net/aspose.slides/imasterlayoutslidecollection). |
-| [`preserve`](/slides/python-net/aspose.slides/imasterslide/preserve/) | Determines whether the corresponding master is deleted when all <br/>            the slides that follow that master are deleted.<br/>            Note: Aspose.Slides will never remove any unused master by itself, <br/>            to actually remove unused masters call **Aspose.Slides.IMasterSlideCollection.RemoveUnused(Syste.**<br/>            Read/write **bool**. |
+| [`preserve`](/slides/python-net/aspose.slides/imasterslide/preserve/) | Determines whether the corresponding master is deleted when all <br/>            the slides that follow that master are deleted.<br/>            Note: Aspose.Slides will never remove any unused master by itself, <br/>            to actually remove unused masters call **Aspose.Slides.IMasterSlideCollection.RemoveUnused(Syste**<br/>            Read/write **bool**. |
 | [`has_depending_slides`](/slides/python-net/aspose.slides/imasterslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this master slide.<br/>            Read-only **bool**. |
 | [`as_i_base_slide`](/slides/python-net/aspose.slides/imasterslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`as_i_master_themeable`](/slides/python-net/aspose.slides/imasterslide/as_i_master_themeable/) | Returns IMasterThemeable interface.<br/>            Read-only [`IMasterThemeable`](/slides/python-net/aspose.slides.theme/imasterthemeable). |
@@ -46,9 +46,9 @@ The IMasterSlide type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`apply_external_theme_to_depending_slides`](/slides/python-net/aspose.slides/imasterslide/apply_external_theme_to_depending_slides/#string) | Creates a new master slide based on the current one, applying an external theme to it <br/>            and applies the created master slide to all dependent slides. |
+| [`apply_external_theme_to_depending_slides`](/slides/python-net/aspose.slides/imasterslide/apply_external_theme_to_depending_slides/#str) | Creates a new master slide based on the current one, applying an external theme to it <br/>            and applies the created master slide to all dependent slides. |
 | [`get_depending_slides`](/slides/python-net/aspose.slides/imasterslide/get_depending_slides/#) | Returns an array with all slides, which depend on this master slide. |
-| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/imasterslide/find_shape_by_alt_text/#string) |  |
+| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/imasterslide/find_shape_by_alt_text/#str) |  |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/imasterslide/join_portions_with_same_formatting/#) |  |
 | [`equals`](/slides/python-net/aspose.slides/imasterslide/equals/#ibaseslide) |  |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/imasterslide/create_theme_effective/#) |  |

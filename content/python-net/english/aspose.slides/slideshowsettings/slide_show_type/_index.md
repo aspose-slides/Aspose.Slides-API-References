@@ -25,5 +25,6 @@ def slide_show_type(self, value):
 * class [`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk)
 * class [`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual)
 * class [`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker)
+* class [`SlideShowSettings`](/slides/python-net/aspose.slides/slideshowsettings)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,7 +20,7 @@ def init_color_scheme_from(self, color_scheme):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color_scheme | IColorScheme | Data to initialize from. |
+| color_scheme | [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme) | Data to initialize from. |
 
 ## Exceptions
 
@@ -32,6 +32,7 @@ def init_color_scheme_from(self, color_scheme):
 
 
 ### See Also
+* class [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme)
 * class [`OverrideTheme`](/slides/python-net/aspose.slides.theme/overridetheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

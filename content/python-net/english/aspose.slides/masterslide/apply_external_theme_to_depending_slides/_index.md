@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## apply_external_theme_to_depending_slides {#string}
+## apply_external_theme_to_depending_slides {#str}
 Creates a new master slide based on the current one, applying an external theme to it 
             and applies the created master slide to all dependent slides.
 
@@ -26,7 +26,7 @@ def apply_external_theme_to_depending_slides(self, fname):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fname | string | Path to the external theme file (.thmx). |
+| fname | **str** | Path to the external theme file (.thmx). |
 
 ## Exceptions
 
@@ -37,6 +37,7 @@ def apply_external_theme_to_depending_slides(self, fname):
 
 
 ### See Also
+* class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
 * class [`MasterSlide`](/slides/python-net/aspose.slides/masterslide)
 * class [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

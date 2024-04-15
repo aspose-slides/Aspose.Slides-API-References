@@ -29,5 +29,6 @@ def paragraph_format(self):
 
 ### See Also
 * class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
+* class [`Paragraph`](/slides/python-net/aspose.slides/paragraph)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

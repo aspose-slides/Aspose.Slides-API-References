@@ -20,7 +20,7 @@ The IDigitalSignature type exposes the following members:
 | [`certificate`](/slides/python-net/aspose.slides/idigitalsignature/certificate/) | Certificate object that was used to sign the document.<br/>            Read-only **System.Security.Cryptography.X509Certificates.X509Certificate2**. |
 | [`is_valid`](/slides/python-net/aspose.slides/idigitalsignature/is_valid/) | If this digital signature is valid and the document has not been tampered with, this value will be true.<br/>            Read-only **bool**. |
 | [`sign_time`](/slides/python-net/aspose.slides/idigitalsignature/sign_time/) | The time when the document was signed.<br/>            Read-only **System.DateTime**. |
-| [`comments`](/slides/python-net/aspose.slides/idigitalsignature/comments/) | The purpose of signature.<br/>            Read/write **string**. |
+| [`comments`](/slides/python-net/aspose.slides/idigitalsignature/comments/) | The purpose of signature.<br/>            Read/write **str**. |
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

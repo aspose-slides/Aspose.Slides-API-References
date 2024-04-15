@@ -21,5 +21,6 @@ def back_color(self):
 
 ### See Also
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
+* class [`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,5 +23,7 @@ def last_view(self, value):
 ```
 
 ### See Also
+* class [`IViewProperties`](/slides/python-net/aspose.slides/iviewproperties)
+* enumeration [`ViewType`](/slides/python-net/aspose.slides/viewtype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

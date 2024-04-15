@@ -23,6 +23,7 @@ def override_theme(self, value):
 ```
 
 ### See Also
+* class [`ChartThemeManager`](/slides/python-net/aspose.slides.theme/chartthememanager)
 * class [`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -22,5 +22,6 @@ def color(self, value):
 ```
 
 ### See Also
+* class [`IInkBrush`](/slides/python-net/aspose.slides.ink/iinkbrush)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

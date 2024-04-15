@@ -10,7 +10,7 @@ weight: 120
 
 ## name property
 Returns or sets the name of a slide.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def name(self, value):
 ```
 
 ### See Also
+* class [`BaseSlide`](/slides/python-net/aspose.slides/baseslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

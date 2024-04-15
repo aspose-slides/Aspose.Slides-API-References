@@ -25,12 +25,13 @@ def resource_loading(self, args):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| args | IResourceLoadingArgs | The loading resource data [`IResourceLoadingArgs`](/slides/python-net/aspose.slides/iresourceloadingargs). |
+| args | [`IResourceLoadingArgs`](/slides/python-net/aspose.slides/iresourceloadingargs) | The loading resource data [`IResourceLoadingArgs`](/slides/python-net/aspose.slides/iresourceloadingargs). |
 
 
 
 ### See Also
 * class [`IResourceLoadingArgs`](/slides/python-net/aspose.slides/iresourceloadingargs)
 * class [`IResourceLoadingCallback`](/slides/python-net/aspose.slides/iresourceloadingcallback)
+* enumeration [`ResourceLoadingAction`](/slides/python-net/aspose.slides/resourceloadingaction)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

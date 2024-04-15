@@ -20,5 +20,6 @@ def font_bold(self):
 ```
 
 ### See Also
+* class [`IBasePortionFormatEffectiveData`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

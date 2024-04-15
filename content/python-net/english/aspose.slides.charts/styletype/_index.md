@@ -7,7 +7,7 @@ url: /aspose.slides.charts/styletype/
 ---
 
 
-## StyleType class
+## StyleType enumeration
 
 Represents chart style.
 

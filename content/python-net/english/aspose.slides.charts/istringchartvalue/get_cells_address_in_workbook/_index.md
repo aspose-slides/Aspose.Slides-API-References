@@ -15,7 +15,7 @@ If DataSourceType property is DataSourceType.Worksheet then this method returns 
 
 ### Returns
 
-String value **string**
+String value **str**
 
 
 

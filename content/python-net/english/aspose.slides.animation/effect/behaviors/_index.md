@@ -23,6 +23,7 @@ def behaviors(self, value):
 ```
 
 ### See Also
+* class [`Effect`](/slides/python-net/aspose.slides.animation/effect)
 * class [`IBehaviorCollection`](/slides/python-net/aspose.slides.animation/ibehaviorcollection)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

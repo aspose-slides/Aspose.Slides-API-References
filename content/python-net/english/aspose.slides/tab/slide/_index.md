@@ -17,5 +17,6 @@ def slide(self):
 ```
 
 ### See Also
+* class [`Tab`](/slides/python-net/aspose.slides/tab)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

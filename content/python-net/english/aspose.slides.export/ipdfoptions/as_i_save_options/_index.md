@@ -25,6 +25,7 @@ def as_i_save_options(self):
 ```
 
 ### See Also
+* class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * class [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

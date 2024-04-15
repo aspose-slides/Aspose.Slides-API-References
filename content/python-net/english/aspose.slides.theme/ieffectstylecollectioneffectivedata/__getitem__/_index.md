@@ -15,5 +15,6 @@ weight: 10
 | :- | :- |
 | index |  |
 ### See Also
+* class [`IEffectStyleCollectionEffectiveData`](/slides/python-net/aspose.slides.theme/ieffectstylecollectioneffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -17,5 +17,6 @@ def as_i_image_transform_operation(self):
 ```
 
 ### See Also
+* class [`OuterShadow`](/slides/python-net/aspose.slides.effects/outershadow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

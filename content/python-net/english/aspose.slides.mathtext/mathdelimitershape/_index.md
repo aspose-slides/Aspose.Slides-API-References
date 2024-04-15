@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathdelimitershape/
 ---
 
 
-## MathDelimiterShape class
+## MathDelimiterShape enumeration
 
 The location and size of the delimiters relative to the content of the operands
 

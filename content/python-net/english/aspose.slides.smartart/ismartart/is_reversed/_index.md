@@ -23,5 +23,6 @@ def is_reversed(self, value):
 ```
 
 ### See Also
+* class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

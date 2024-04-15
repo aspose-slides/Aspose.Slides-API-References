@@ -10,7 +10,7 @@ weight: 130
 
 ## author property
 Returns or sets the author of a presentation.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def author(self, value):
 ```
 
 ### See Also
+* class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

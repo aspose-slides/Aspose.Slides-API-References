@@ -23,5 +23,7 @@ def gradient_shape(self, value):
 ```
 
 ### See Also
+* class [`GradientFormat`](/slides/python-net/aspose.slides/gradientformat)
+* enumeration [`GradientShape`](/slides/python-net/aspose.slides/gradientshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

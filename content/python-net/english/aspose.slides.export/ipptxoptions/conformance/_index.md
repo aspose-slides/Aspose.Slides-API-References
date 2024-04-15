@@ -23,5 +23,6 @@ def conformance(self, value):
 ```
 
 ### See Also
+* class [`IPptxOptions`](/slides/python-net/aspose.slides.export/ipptxoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

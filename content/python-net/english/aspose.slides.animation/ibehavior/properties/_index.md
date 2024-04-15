@@ -20,6 +20,7 @@ def properties(self):
 ```
 
 ### See Also
+* class [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior)
 * class [`IBehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

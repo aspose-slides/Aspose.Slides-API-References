@@ -20,11 +20,12 @@ def update_document_properties(self, document_properties):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_properties | IDocumentProperties |  |
+| document_properties | [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties) |  |
 
 
 
 ### See Also
+* class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * class [`PresentationInfo`](/slides/python-net/aspose.slides/presentationinfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

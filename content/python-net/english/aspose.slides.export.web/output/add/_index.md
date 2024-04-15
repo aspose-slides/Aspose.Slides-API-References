@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#string-ippimage}
+## add {#str-ippimage}
 Adds an output element for the image.
 
 ### Returns
@@ -25,12 +25,12 @@ def add(self, path, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string | Output path. |
-| image | IPPImage | Image to output. |
+| path | **str** | Output path. |
+| image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | Image to output. |
 
 
 
-## add {#string-asposepydrawingimage}
+## add {#str-asposepydrawingimage}
 Adds an output element for the image.
 
 ### Returns
@@ -47,12 +47,12 @@ def add(self, path, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string | Output path. |
-| image | aspose.pydrawing.Image | Image to output. |
+| path | **str** | Output path. |
+| image | **aspose.pydrawing.Image** | Image to output. |
 
 
 
-## add {#string-ivideo}
+## add {#str-ivideo}
 Adds an output element for the video.
 
 ### Returns
@@ -69,12 +69,12 @@ def add(self, path, video):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string | Output path. |
-| video | IVideo | Video to output. |
+| path | **str** | Output path. |
+| video | [`IVideo`](/slides/python-net/aspose.slides/ivideo) | Video to output. |
 
 
 
-## add {#string-string}
+## add {#str-str}
 Adds an output element for the text content.
 
 ### Returns
@@ -91,12 +91,12 @@ def add(self, path, text_content):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string | Output path. |
-| text_content | string | Content to output. |
+| path | **str** | Output path. |
+| text_content | **str** | Content to output. |
 
 
 
-## add {#string-ifontdata-asposepydrawingfontstyle}
+## add {#str-ifontdata-asposepydrawingfontstyle}
 Adds an output element for the font.
 
 ### Returns
@@ -113,14 +113,17 @@ def add(self, path, font_data, font_style):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string | Output path. |
-| font_data | IFontData | Font to output. |
-| font_style | aspose.pydrawing.FontStyle | Font style. |
+| path | **str** | Output path. |
+| font_data | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Font to output. |
+| font_style | **aspose.pydrawing.FontStyle** | Font style. |
 
 
 
 ### See Also
+* class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * class [`IOutputFile`](/slides/python-net/aspose.slides.export.web/ioutputfile)
+* class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
+* class [`IVideo`](/slides/python-net/aspose.slides/ivideo)
 * class [`Output`](/slides/python-net/aspose.slides.export.web/output)
 * module [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -21,5 +21,6 @@ def as_i_slide_component(self):
 
 ### See Also
 * class [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent)
+* class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

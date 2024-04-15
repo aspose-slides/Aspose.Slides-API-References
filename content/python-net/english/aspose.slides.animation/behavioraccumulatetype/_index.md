@@ -7,7 +7,7 @@ url: /aspose.slides.animation/behavioraccumulatetype/
 ---
 
 
-## BehaviorAccumulateType class
+## BehaviorAccumulateType enumeration
 
 Represents types of accumulation of effect behaviors.
 

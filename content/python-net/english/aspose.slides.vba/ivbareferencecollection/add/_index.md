@@ -20,7 +20,7 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IVbaReference | VBA project reference [`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference) |
+| value | [`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference) | VBA project reference [`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference) |
 
 
 

@@ -28,5 +28,6 @@ def save_metafiles_as_png(self, value):
 ```
 
 ### See Also
+* class [`XpsOptions`](/slides/python-net/aspose.slides.export/xpsoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

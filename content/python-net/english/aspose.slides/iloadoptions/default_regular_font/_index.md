@@ -10,7 +10,7 @@ weight: 30
 
 ## default_regular_font property
 Returns or sets Regular font used in case source font is not found.
-            Read-write **string**.
+            Read-write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def default_regular_font(self, value):
 ```
 
 ### See Also
+* class [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

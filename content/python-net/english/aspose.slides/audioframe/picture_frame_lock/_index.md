@@ -20,6 +20,7 @@ def picture_frame_lock(self):
 ```
 
 ### See Also
+* class [`AudioFrame`](/slides/python-net/aspose.slides/audioframe)
 * class [`IPictureFrameLock`](/slides/python-net/aspose.slides/ipictureframelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

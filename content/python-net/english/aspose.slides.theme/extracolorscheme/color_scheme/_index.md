@@ -20,6 +20,7 @@ def color_scheme(self):
 ```
 
 ### See Also
+* class [`ExtraColorScheme`](/slides/python-net/aspose.slides.theme/extracolorscheme)
 * class [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

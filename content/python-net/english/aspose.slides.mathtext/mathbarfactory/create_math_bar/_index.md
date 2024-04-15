@@ -25,7 +25,7 @@ def create_math_bar(self, element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | math element to apply bar |
+| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply bar |
 
 
 
@@ -46,12 +46,15 @@ def create_math_bar(self, element, position):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | Math element to apply bar |
-| position | MathTopBotPositions | Position of the bar |
+| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Math element to apply bar |
+| position | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) | Position of the bar |
 
 
 
 ### See Also
+* class [`IMathBar`](/slides/python-net/aspose.slides.mathtext/imathbar)
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathBarFactory`](/slides/python-net/aspose.slides.mathtext/mathbarfactory)
+* enumeration [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

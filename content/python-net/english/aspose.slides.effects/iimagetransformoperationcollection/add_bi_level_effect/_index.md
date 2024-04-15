@@ -25,11 +25,12 @@ def add_bi_level_effect(self, threshold):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| threshold | float | the luminance threshold for the Bi-Level effect.<br/><br/>            Values greater than or equal to the threshold are set to white.<br/><br/>            Values lesser than the threshold are set to black. |
+| threshold | **float** | the luminance threshold for the Bi-Level effect.<br/><br/>            Values greater than or equal to the threshold are set to white.<br/><br/>            Values lesser than the threshold are set to black. |
 
 
 
 ### See Also
+* class [`IBiLevel`](/slides/python-net/aspose.slides.effects/ibilevel)
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

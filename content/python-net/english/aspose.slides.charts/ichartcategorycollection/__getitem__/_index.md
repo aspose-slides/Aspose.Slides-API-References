@@ -15,5 +15,6 @@ weight: 60
 | :- | :- |
 | index |  |
 ### See Also
+* class [`IChartCategoryCollection`](/slides/python-net/aspose.slides.charts/ichartcategorycollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -25,11 +25,11 @@ def add_audio(self, audio):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| audio | IAudio | Source audio. |
+| audio | [`IAudio`](/slides/python-net/aspose.slides/iaudio) | Source audio. |
 
 
 
-## add_audio {#systemiostream}
+## add_audio {#iorawiobase}
 Creates and adds a audio to a presentation from stream.
 
 ### Returns
@@ -46,7 +46,7 @@ def add_audio(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Stream to add audio from. |
+| stream | **io.RawIOBase** | Stream to add audio from. |
 
 
 
@@ -67,11 +67,11 @@ def add_audio(self, audio_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| audio_data | bytes | Audio bytes. |
+| audio_data | **bytes** | Audio bytes. |
 
 
 
-## add_audio {#systemiostream-loadingstreambehavior}
+## add_audio {#iorawiobase-loadingstreambehavior}
 Creates and adds a audio to a presentation from stream.
 
 ### Returns
@@ -88,12 +88,14 @@ def add_audio(self, stream, loading_stream_behavior):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Stream to add video audio from. |
-| loading_stream_behavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
+| stream | **io.RawIOBase** | Stream to add video audio from. |
+| loading_stream_behavior | [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior) | The behavior which will be applied to the stream. |
 
 
 
 ### See Also
+* class [`IAudio`](/slides/python-net/aspose.slides/iaudio)
 * class [`IAudioCollection`](/slides/python-net/aspose.slides/iaudiocollection)
+* enumeration [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

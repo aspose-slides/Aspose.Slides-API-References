@@ -21,5 +21,6 @@ def as_i_hyperlink_container(self):
 
 ### See Also
 * class [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer)
+* class [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

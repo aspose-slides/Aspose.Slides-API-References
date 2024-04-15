@@ -20,9 +20,9 @@ def read(self, buffer, offset, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes | Sequence of bytes **int**[] |
-| offset | int | Start reading position **int** |
-| count | int | Count bytes for reading **int** |
+| buffer | **bytes** | Sequence of bytes **int**[] |
+| offset | **int** | Start reading position **int** |
+| count | **int** | Count bytes for reading **int** |
 
 
 

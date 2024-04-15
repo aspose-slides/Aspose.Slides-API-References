@@ -20,6 +20,7 @@ def as_i_formatted_text_container(self):
 ```
 
 ### See Also
+* class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * class [`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,6 +20,7 @@ def as_i_math_element(self):
 ```
 
 ### See Also
+* class [`IMathAccent`](/slides/python-net/aspose.slides.mathtext/imathaccent)
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## write {#systemiostream}
+## write {#iorawiobase}
 Writes the file content to the stream.
 
 
@@ -20,7 +20,7 @@ def write(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Destination stream. |
+| stream | **io.RawIOBase** | Destination stream. |
 
 
 

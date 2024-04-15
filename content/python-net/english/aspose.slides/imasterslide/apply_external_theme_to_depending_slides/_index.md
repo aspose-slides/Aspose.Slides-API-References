@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## apply_external_theme_to_depending_slides {#string}
+## apply_external_theme_to_depending_slides {#str}
 Creates a new master slide based on the current one, applying an external theme to it 
             and applies the created master slide to all dependent slides.
 
@@ -26,7 +26,7 @@ def apply_external_theme_to_depending_slides(self, fname):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fname | string | Path to the external theme file (.thmx). |
+| fname | **str** | Path to the external theme file (.thmx). |
 
 ## Exceptions
 

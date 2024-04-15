@@ -21,5 +21,6 @@ def as_i_presentation_component(self):
 
 ### See Also
 * class [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)
+* class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

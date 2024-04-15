@@ -20,5 +20,6 @@ def embedded_file_data(self):
 ```
 
 ### See Also
+* class [`OleEmbeddedDataInfo`](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo)
 * module [`aspose.slides.dom.ole`](/slides/python-net/aspose.slides.dom.ole)
 * library [`Aspose.Slides`](/slides/python-net)

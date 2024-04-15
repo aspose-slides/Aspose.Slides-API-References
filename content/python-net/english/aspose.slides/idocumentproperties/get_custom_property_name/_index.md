@@ -25,7 +25,7 @@ def get_custom_property_name(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | The zero-based index of a custom property to get. |
+| index | **int** | The zero-based index of a custom property to get. |
 
 ## Exceptions
 

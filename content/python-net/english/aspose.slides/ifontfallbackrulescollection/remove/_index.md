@@ -20,11 +20,12 @@ def remove(self, target_rule):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| target_rule | IFontFallBackRule | The rule to remove from the collection. |
+| target_rule | [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule) | The rule to remove from the collection. |
 
 
 
 ### See Also
+* class [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule)
 * class [`IFontFallBackRulesCollection`](/slides/python-net/aspose.slides/ifontfallbackrulescollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

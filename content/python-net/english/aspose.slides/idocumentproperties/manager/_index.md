@@ -10,7 +10,7 @@ weight: 230
 
 ## manager property
 Returns or sets the manager property.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def manager(self, value):
 ```
 
 ### See Also
+* class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

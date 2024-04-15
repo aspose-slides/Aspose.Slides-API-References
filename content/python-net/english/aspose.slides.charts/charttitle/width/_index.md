@@ -23,5 +23,6 @@ def width(self, value):
 ```
 
 ### See Also
+* class [`ChartTitle`](/slides/python-net/aspose.slides.charts/charttitle)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

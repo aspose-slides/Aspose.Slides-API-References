@@ -20,11 +20,12 @@ def remove(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | ITrendline |  |
+| value | [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline) |  |
 
 
 
 ### See Also
+* class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
 * class [`TrendlineCollection`](/slides/python-net/aspose.slides.charts/trendlinecollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

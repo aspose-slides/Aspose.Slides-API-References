@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_text_frame {#string}
+## add_text_frame {#str}
 Adds a new TextFrame to a shape.
             If shape already has TextFrame then simply changes its text.
 
@@ -21,11 +21,12 @@ def add_text_frame(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string | Default text for a new TextFrame. |
+| text | **str** | Default text for a new TextFrame. |
 
 
 
 ### See Also
 * class [`AutoShape`](/slides/python-net/aspose.slides/autoshape)
+* class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

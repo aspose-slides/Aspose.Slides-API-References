@@ -20,7 +20,7 @@ def move_to(self, point):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | aspose.pydrawing.PointF | Point position |
+| point | **aspose.pydrawing.PointF** | Point position |
 
 
 
@@ -36,8 +36,8 @@ def move_to(self, x, y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of the point |
-| y | float | Y Coordinate of the point |
+| x | **float** | X coordinate of the point |
+| y | **float** | Y Coordinate of the point |
 
 
 

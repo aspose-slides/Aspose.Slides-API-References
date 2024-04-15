@@ -34,9 +34,9 @@ The IShape type exposes the following members:
 | [`y`](/slides/python-net/aspose.slides/ishape/y/) | Returns or sets the y-coordinate of the upper-left corner of the shape.<br/>            Read/write **float**. |
 | [`width`](/slides/python-net/aspose.slides/ishape/width/) | Returns or sets the width of the shape.<br/>            Read/write **float**. |
 | [`height`](/slides/python-net/aspose.slides/ishape/height/) | Returns or sets the height of the shape.<br/>            Read/write **float**. |
-| [`alternative_text`](/slides/python-net/aspose.slides/ishape/alternative_text/) | Returns or sets the alternative text associated with a shape.<br/>            Read/write **string**. |
-| [`alternative_text_title`](/slides/python-net/aspose.slides/ishape/alternative_text_title/) | Returns or sets the title of alternative text associated with a shape.<br/>            Read/write **string**. |
-| [`name`](/slides/python-net/aspose.slides/ishape/name/) | Returns or sets the name of a shape.<br/>            Read/write **string**. |
+| [`alternative_text`](/slides/python-net/aspose.slides/ishape/alternative_text/) | Returns or sets the alternative text associated with a shape.<br/>            Read/write **str**. |
+| [`alternative_text_title`](/slides/python-net/aspose.slides/ishape/alternative_text_title/) | Returns or sets the title of alternative text associated with a shape.<br/>            Read/write **str**. |
+| [`name`](/slides/python-net/aspose.slides/ishape/name/) | Returns or sets the name of a shape.<br/>            Read/write **str**. |
 | [`is_decorative`](/slides/python-net/aspose.slides/ishape/is_decorative/) | Gets or sets 'Mark as decorative' option<br/>            Reed/write **bool**. |
 | [`shape_lock`](/slides/python-net/aspose.slides/ishape/shape_lock/) | Returns shape's locks.<br/>            Read-only [`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock). |
 | [`unique_id`](/slides/python-net/aspose.slides/ishape/unique_id/) | Gets unique shape identifier in presentation scope.<br/>            Read-only **int**.<br/>            See also [`IShape.office_interop_shape_id`](/slides/python-net/aspose.slides/ishape#office_interop_shape_id) for getting unique shape identifier in slide scope. |
@@ -59,8 +59,8 @@ The IShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ishape/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ishape/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/ishape/write_as_svg/#systemiostream) | Saves content of Shape as SVG file. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/ishape/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/ishape/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/ishape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`add_placeholder`](/slides/python-net/aspose.slides/ishape/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/ishape/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/ishape/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |

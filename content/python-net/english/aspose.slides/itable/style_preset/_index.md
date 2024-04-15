@@ -23,5 +23,7 @@ def style_preset(self, value):
 ```
 
 ### See Also
+* class [`ITable`](/slides/python-net/aspose.slides/itable)
+* enumeration [`TableStylePreset`](/slides/python-net/aspose.slides/tablestylepreset)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

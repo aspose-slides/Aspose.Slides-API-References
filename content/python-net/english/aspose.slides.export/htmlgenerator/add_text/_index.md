@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add_text {#string}
+## add_text {#str}
 Adds plain text to the html files, replacing special characters with html entities.
             Linebreaks and whitespaces aren't replaced.
 
@@ -21,7 +21,7 @@ def add_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string | Text to add. |
+| text | **str** | Text to add. |
 
 
 
@@ -38,7 +38,7 @@ def add_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | List[char] | Text to add. |
+| text | **List[char]** | Text to add. |
 
 
 
@@ -55,9 +55,9 @@ def add_text(self, text, start_index, length):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | List[char] | Text to add. |
-| start_index | int | Start index of the portion to add. |
-| length | int | Length of the portion to add. |
+| text | **List[char]** | Text to add. |
+| start_index | **int** | Start index of the portion to add. |
+| length | **int** | Length of the portion to add. |
 
 
 

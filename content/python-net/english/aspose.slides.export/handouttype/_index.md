@@ -7,7 +7,7 @@ url: /aspose.slides.export/handouttype/
 ---
 
 
-## HandoutType class
+## HandoutType enumeration
 
 Specifies how many slides and in what sequence will be placed on the page.
 

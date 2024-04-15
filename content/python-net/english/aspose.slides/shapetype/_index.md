@@ -7,7 +7,7 @@ url: /aspose.slides/shapetype/
 ---
 
 
-## ShapeType class
+## ShapeType enumeration
 
 Represents preset geometry of geometry shapes.
 

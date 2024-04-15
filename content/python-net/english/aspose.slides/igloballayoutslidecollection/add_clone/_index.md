@@ -25,7 +25,7 @@ def add_clone(self, source_layout):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_layout | ILayoutSlide | Slide to clone. |
+| source_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Slide to clone. |
 
 ### Remarks
 
@@ -54,8 +54,8 @@ def add_clone(self, source_layout, dest_master):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_layout | ILayoutSlide | Slide to clone. |
-| dest_master | IMasterSlide | Master slide for a new layout. |
+| source_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Slide to clone. |
+| dest_master | [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide) | Master slide for a new layout. |
 
 ### Remarks
 
@@ -66,5 +66,7 @@ New layout will be linked with defined master in destination presentation.
 
 ### See Also
 * class [`IGlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/igloballayoutslidecollection)
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
+* class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

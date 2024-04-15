@@ -20,5 +20,7 @@ def fill_source(self):
 ```
 
 ### See Also
+* class [`ShapeElement`](/slides/python-net/aspose.slides/shapeelement)
+* enumeration [`ShapeElementFillSource`](/slides/python-net/aspose.slides/shapeelementfillsource)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

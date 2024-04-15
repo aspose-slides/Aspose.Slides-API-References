@@ -26,11 +26,12 @@ def insert_group_shape(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | The zero-based index at which value should be inserted. |
+| index | **int** | The zero-based index at which value should be inserted. |
 
 
 
 ### See Also
+* class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

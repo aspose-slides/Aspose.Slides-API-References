@@ -20,11 +20,12 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IEffect | Effect to remove. |
+| item | [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect) | Effect to remove. |
 
 
 
 ### See Also
+* class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 * class [`Sequence`](/slides/python-net/aspose.slides.animation/sequence)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

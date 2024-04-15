@@ -20,6 +20,7 @@ def underline_fill_format(self):
 ```
 
 ### See Also
+* class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
 * class [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

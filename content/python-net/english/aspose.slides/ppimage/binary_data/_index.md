@@ -20,5 +20,6 @@ def binary_data(self):
 ```
 
 ### See Also
+* class [`PPImage`](/slides/python-net/aspose.slides/ppimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

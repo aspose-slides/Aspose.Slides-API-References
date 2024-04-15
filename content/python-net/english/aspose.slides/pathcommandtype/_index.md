@@ -7,7 +7,7 @@ url: /aspose.slides/pathcommandtype/
 ---
 
 
-## PathCommandType class
+## PathCommandType enumeration
 
 Represents graphics path commands
 

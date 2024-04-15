@@ -33,5 +33,6 @@ def is_number_format_linked_to_source(self, value):
 ```
 
 ### See Also
+* class [`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

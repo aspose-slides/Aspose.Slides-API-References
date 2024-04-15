@@ -20,6 +20,7 @@ def as_i_presentation_component(self):
 ```
 
 ### See Also
+* class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
 * class [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

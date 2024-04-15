@@ -23,5 +23,7 @@ def type(self, value):
 ```
 
 ### See Also
+* enumeration [`FilterEffectType`](/slides/python-net/aspose.slides.animation/filtereffecttype)
+* class [`IFilterEffect`](/slides/python-net/aspose.slides.animation/ifiltereffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

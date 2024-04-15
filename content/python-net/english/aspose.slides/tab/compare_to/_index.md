@@ -32,7 +32,7 @@ def compare_to(self, obj):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| obj | any | An object to compare with this instance. |
+| obj | **any** | An object to compare with this instance. |
 
 
 

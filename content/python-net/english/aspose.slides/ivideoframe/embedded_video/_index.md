@@ -24,5 +24,6 @@ def embedded_video(self, value):
 
 ### See Also
 * class [`IVideo`](/slides/python-net/aspose.slides/ivideo)
+* class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

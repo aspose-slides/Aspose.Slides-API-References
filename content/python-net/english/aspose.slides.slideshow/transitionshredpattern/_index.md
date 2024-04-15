@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionshredpattern/
 ---
 
 
-## TransitionShredPattern class
+## TransitionShredPattern enumeration
 
 Specifies a geometric shape that tiles together to fill a larger area.
 

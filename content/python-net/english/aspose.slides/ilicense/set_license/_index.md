@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_license {#string}
+## set_license {#str}
 Licenses the component.
 
 
@@ -20,7 +20,7 @@ def set_license(self, license_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| license_name | string | Can be a full or short file name or name of an embedded resource.<br/><br/>            Use an empty string to switch to evaluation mode. |
+| license_name | **str** | Can be a full or short file name or name of an embedded resource.<br/><br/>            Use an empty string to switch to evaluation mode. |
 
 ### Remarks
 
@@ -52,7 +52,7 @@ Tries to find the license in the following locations:
 
 
 
-## set_license {#systemiostream}
+## set_license {#iorawiobase}
 Licenses the component.
 
 
@@ -64,7 +64,7 @@ def set_license(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | A stream that contains the license. |
+| stream | **io.RawIOBase** | A stream that contains the license. |
 
 ### Remarks
 

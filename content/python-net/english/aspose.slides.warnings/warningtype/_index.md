@@ -7,7 +7,7 @@ url: /aspose.slides.warnings/warningtype/
 ---
 
 
-## WarningType class
+## WarningType enumeration
 
 Represents a type of warning.
 

@@ -23,5 +23,6 @@ def whole_words_only(self, value):
 ```
 
 ### See Also
+* class [`TextHighlightingOptions`](/slides/python-net/aspose.slides/texthighlightingoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

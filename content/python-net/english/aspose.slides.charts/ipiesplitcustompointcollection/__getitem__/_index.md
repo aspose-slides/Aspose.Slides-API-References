@@ -15,5 +15,6 @@ weight: 20
 | :- | :- |
 | index |  |
 ### See Also
+* class [`IPieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

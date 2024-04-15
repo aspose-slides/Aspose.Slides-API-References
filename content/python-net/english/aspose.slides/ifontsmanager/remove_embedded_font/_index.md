@@ -20,7 +20,7 @@ def remove_embedded_font(self, font_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_data | IFontData | Font data object [`IFontData`](/slides/python-net/aspose.slides/ifontdata) |
+| font_data | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Font data object [`IFontData`](/slides/python-net/aspose.slides/ifontdata) |
 
 
 

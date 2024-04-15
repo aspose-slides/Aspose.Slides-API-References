@@ -21,9 +21,9 @@ def align_shapes(self, alignment_type, align_to_slide, shapes):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| alignment_type | ShapesAlignmentType | Determines which type of alignment will be applied. |
-| align_to_slide | bool | If true, shapes will be aligned relative to the slide edges |
-| shapes | IShapeCollection | Shapes collection to be aligned |
+| alignment_type | [`ShapesAlignmentType`](/slides/python-net/aspose.slides/shapesalignmenttype) | Determines which type of alignment will be applied. |
+| align_to_slide | **bool** | If true, shapes will be aligned relative to the slide edges |
+| shapes | [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection) | Shapes collection to be aligned |
 
 
 
@@ -40,9 +40,9 @@ def align_shapes(self, alignment_type, align_to_slide, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| alignment_type | ShapesAlignmentType | Determines which type of alignment will be applied. |
-| align_to_slide | bool | If true, shapes will be aligned relative to the slide edges. |
-| slide | IBaseSlide | Parent slide. |
+| alignment_type | [`ShapesAlignmentType`](/slides/python-net/aspose.slides/shapesalignmenttype) | Determines which type of alignment will be applied. |
+| align_to_slide | **bool** | If true, shapes will be aligned relative to the slide edges. |
+| slide | [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide) | Parent slide. |
 
 
 
@@ -59,9 +59,9 @@ def align_shapes(self, alignment_type, align_to_slide, group_shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| alignment_type | ShapesAlignmentType | Determines which type of alignment will be applied. |
-| align_to_slide | bool | If true, shapes will be aligned relative to the slide edges. |
-| group_shape | IGroupShape | Parent group shape. |
+| alignment_type | [`ShapesAlignmentType`](/slides/python-net/aspose.slides/shapesalignmenttype) | Determines which type of alignment will be applied. |
+| align_to_slide | **bool** | If true, shapes will be aligned relative to the slide edges. |
+| group_shape | [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape) | Parent group shape. |
 
 
 
@@ -78,10 +78,10 @@ def align_shapes(self, alignment_type, align_to_slide, slide, shape_indexes):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| alignment_type | ShapesAlignmentType | Determines which type of alignment will be applied. |
-| align_to_slide | bool | If true, shapes will be aligned relative to the slide edges. |
-| slide | IBaseSlide | Parent slide. |
-| shape_indexes | List[int] | Indexes of shapes to be aligned. |
+| alignment_type | [`ShapesAlignmentType`](/slides/python-net/aspose.slides/shapesalignmenttype) | Determines which type of alignment will be applied. |
+| align_to_slide | **bool** | If true, shapes will be aligned relative to the slide edges. |
+| slide | [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide) | Parent slide. |
+| shape_indexes | **List[int]** | Indexes of shapes to be aligned. |
 
 
 
@@ -98,14 +98,18 @@ def align_shapes(self, alignment_type, align_to_slide, group_shape, shape_indexe
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| alignment_type | ShapesAlignmentType | Determines which type of alignment will be applied. |
-| align_to_slide | bool | If true, shapes will be aligned relative to the slide edges. |
-| group_shape | IGroupShape | Parent group shape. |
-| shape_indexes | List[int] | Indexes of shapes to be aligned. |
+| alignment_type | [`ShapesAlignmentType`](/slides/python-net/aspose.slides/shapesalignmenttype) | Determines which type of alignment will be applied. |
+| align_to_slide | **bool** | If true, shapes will be aligned relative to the slide edges. |
+| group_shape | [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape) | Parent group shape. |
+| shape_indexes | **List[int]** | Indexes of shapes to be aligned. |
 
 
 
 ### See Also
+* class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
+* class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
+* class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
+* enumeration [`ShapesAlignmentType`](/slides/python-net/aspose.slides/shapesalignmenttype)
 * class [`SlideUtil`](/slides/python-net/aspose.slides.util/slideutil)
 * module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)
 * library [`Aspose.Slides`](/slides/python-net)

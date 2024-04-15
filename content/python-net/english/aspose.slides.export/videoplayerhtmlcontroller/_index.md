@@ -17,7 +17,7 @@ The VideoPlayerHtmlController type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/__init__/#string-string-string) | Creates a new instance of controller |
+| [`__init__`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/__init__/#str-str-str) | Creates a new instance of controller |
 
 ## Properties
 
@@ -38,7 +38,7 @@ The VideoPlayerHtmlController type exposes the following members:
 | [`write_shape_start`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_shape_start/#ihtmlgenerator-ishape) |  |
 | [`write_shape_end`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/write_shape_end/#ihtmlgenerator-ishape) |  |
 | [`format_shape`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/format_shape/#isvgshape-ishape) |  |
-| [`get_object_storing_location`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/get_object_storing_location/#int-bytes-string-string-string) |  |
+| [`get_object_storing_location`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/get_object_storing_location/#int-bytes-str-str-str) |  |
 | [`get_url`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/get_url/#int-int) |  |
 | [`save_external`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/save_external/#int-bytes) |  |
 

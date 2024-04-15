@@ -20,7 +20,7 @@ def calculate(self, update_values):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| update_values | bool | If false, no actual calculation will be performed. Use true for possible exceptions check. |
+| update_values | **bool** | If false, no actual calculation will be performed. Use true for possible exceptions check. |
 
 
 

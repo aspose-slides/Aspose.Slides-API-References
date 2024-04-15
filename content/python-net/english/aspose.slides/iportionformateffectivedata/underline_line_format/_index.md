@@ -17,5 +17,6 @@ def underline_line_format(self):
 ```
 
 ### See Also
+* class [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

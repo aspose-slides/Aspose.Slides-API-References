@@ -74,8 +74,8 @@ The ITable type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/itable/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/itable/get_thumbnail/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/itable/write_as_svg/#systemiostream) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/itable/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/itable/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/itable/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`set_text_format`](/slides/python-net/aspose.slides/itable/set_text_format/#iportionformat) |  |
 | [`set_text_format`](/slides/python-net/aspose.slides/itable/set_text_format/#iparagraphformat) |  |
 | [`set_text_format`](/slides/python-net/aspose.slides/itable/set_text_format/#itextframeformat) |  |

@@ -25,12 +25,14 @@ def create_tab(self, position, align):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | float | Tab position. |
-| align | TabAlignment | Align. |
+| position | **float** | Tab position. |
+| align | [`TabAlignment`](/slides/python-net/aspose.slides/tabalignment) | Align. |
 
 
 
 ### See Also
+* class [`ITab`](/slides/python-net/aspose.slides/itab)
+* enumeration [`TabAlignment`](/slides/python-net/aspose.slides/tabalignment)
 * class [`TabFactory`](/slides/python-net/aspose.slides/tabfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

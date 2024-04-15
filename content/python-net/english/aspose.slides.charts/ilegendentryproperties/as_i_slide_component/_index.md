@@ -17,5 +17,6 @@ def as_i_slide_component(self):
 ```
 
 ### See Also
+* class [`ILegendEntryProperties`](/slides/python-net/aspose.slides.charts/ilegendentryproperties)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

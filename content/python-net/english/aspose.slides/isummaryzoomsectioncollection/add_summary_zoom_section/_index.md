@@ -25,7 +25,7 @@ def add_summary_zoom_section(self, section):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| section | ISection | Section for a new Summary Zoom Section element [`ISection`](/slides/python-net/aspose.slides/isection) |
+| section | [`ISection`](/slides/python-net/aspose.slides/isection) | Section for a new Summary Zoom Section element [`ISection`](/slides/python-net/aspose.slides/isection) |
 
 ### Remarks
 
@@ -36,6 +36,7 @@ If an element for this section already exists in the collection, the existing el
 ### See Also
 * class [`ISection`](/slides/python-net/aspose.slides/isection)
 * class [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe)
+* class [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection)
 * class [`ISummaryZoomSectionCollection`](/slides/python-net/aspose.slides/isummaryzoomsectioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

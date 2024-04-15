@@ -20,6 +20,7 @@ def placeholder(self):
 ```
 
 ### See Also
+* class [`GraphicalObject`](/slides/python-net/aspose.slides/graphicalobject)
 * class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

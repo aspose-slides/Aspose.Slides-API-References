@@ -21,8 +21,8 @@ The CellCircularReferenceException type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception/__init__/#) | Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class. |
-| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception/__init__/#string) | Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message. |
-| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception/__init__/#string-string) | Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message<br/>            and circular cell reference. |
+| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception/__init__/#str) | Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message. |
+| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception/__init__/#str-str) | Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message<br/>            and circular cell reference. |
 
 ## Properties
 

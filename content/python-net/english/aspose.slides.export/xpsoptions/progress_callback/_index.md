@@ -24,5 +24,6 @@ def progress_callback(self, value):
 
 ### See Also
 * class [`IProgressCallback`](/slides/python-net/aspose.slides/iprogresscallback)
+* class [`XpsOptions`](/slides/python-net/aspose.slides.export/xpsoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

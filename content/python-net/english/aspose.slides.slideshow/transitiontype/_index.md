@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitiontype/
 ---
 
 
-## TransitionType class
+## TransitionType enumeration
 
 Represent slide show transition type.
 

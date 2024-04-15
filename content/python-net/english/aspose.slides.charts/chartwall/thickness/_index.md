@@ -24,5 +24,6 @@ def thickness(self, value):
 ```
 
 ### See Also
+* class [`ChartWall`](/slides/python-net/aspose.slides.charts/chartwall)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

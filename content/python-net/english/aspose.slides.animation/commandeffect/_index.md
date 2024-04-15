@@ -30,7 +30,7 @@ The CommandEffect type exposes the following members:
 | [`properties`](/slides/python-net/aspose.slides.animation/commandeffect/properties/) | Represents properties of behavior.<br/>            Read-only [`IBehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection). |
 | [`timing`](/slides/python-net/aspose.slides.animation/commandeffect/timing/) | Represents timing properties for the effect behavior.<br/>            Read/write [`ITiming`](/slides/python-net/aspose.slides.animation/itiming). |
 | [`type`](/slides/python-net/aspose.slides.animation/commandeffect/type/) | Defines command effect type of behavior.<br/>            Read/write [`CommandEffectType`](/slides/python-net/aspose.slides.animation/commandeffecttype). |
-| [`command_string`](/slides/python-net/aspose.slides.animation/commandeffect/command_string/) | Defines command string.<br/>            Read/write **string**. |
+| [`command_string`](/slides/python-net/aspose.slides.animation/commandeffect/command_string/) | Defines command string.<br/>            Read/write **str**. |
 | [`shape_target`](/slides/python-net/aspose.slides.animation/commandeffect/shape_target/) | Defines shape target of command effect.<br/>            Read/write [`IShape`](/slides/python-net/aspose.slides/ishape). |
 | [`as_i_behavior`](/slides/python-net/aspose.slides.animation/commandeffect/as_i_behavior/) |  |
 

@@ -29,7 +29,7 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IParagraph | The object to remove from the **System.Collections.Generic.ICollection`1**. |
+| item | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | The object to remove from the **System.Collections.Generic.ICollection`1**. |
 
 ## Exceptions
 
@@ -40,6 +40,7 @@ def remove(self, item):
 
 
 ### See Also
+* class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
 * class [`ParagraphCollection`](/slides/python-net/aspose.slides/paragraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

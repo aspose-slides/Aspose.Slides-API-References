@@ -23,12 +23,12 @@ The ChartDataWorkbook type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_cell`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell/#string-int-int) | Gets the cell that can be used for chart series or categories |
+| [`get_cell`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell/#str-int-int) | Gets the cell that can be used for chart series or categories |
 | [`get_cell`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell/#int-int-int) | Gets the cell that can be used for chart series or categories |
-| [`get_cell`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell/#int-string) | Gets the cell that can be used for chart series or categories |
-| [`get_cell`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell/#int-string-any) | Gets the cell that can be used for chart series or categories |
+| [`get_cell`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell/#int-str) | Gets the cell that can be used for chart series or categories |
+| [`get_cell`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell/#int-str-any) | Gets the cell that can be used for chart series or categories |
 | [`get_cell`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell/#int-int-int-any) | Gets the cell that can be used for chart series or categories |
-| [`get_cell_collection`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell_collection/#string-bool) | Gets the set of cells. |
+| [`get_cell_collection`](/slides/python-net/aspose.slides.charts/chartdataworkbook/get_cell_collection/#str-bool) | Gets the set of cells. |
 | [`clear`](/slides/python-net/aspose.slides.charts/chartdataworkbook/clear/#int) | Clear all cells values on sheet |
 | [`calculate_formulas`](/slides/python-net/aspose.slides.charts/chartdataworkbook/calculate_formulas/#) | Calculates all formulas in the workbook and updates corresponding cells values. |
 

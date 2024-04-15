@@ -17,5 +17,6 @@ def is_slide_number_visible(self):
 ```
 
 ### See Also
+* class [`INotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/inotesslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

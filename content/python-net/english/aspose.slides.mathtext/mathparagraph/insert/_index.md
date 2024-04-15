@@ -20,12 +20,13 @@ def insert(self, index, math_block):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | The zero-based index at which an item should be inserted. |
-| math_block | IMathBlock | The IMathBlock to insert. |
+| index | **int** | The zero-based index at which an item should be inserted. |
+| math_block | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | The IMathBlock to insert. |
 
 
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

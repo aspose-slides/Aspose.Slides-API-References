@@ -25,7 +25,7 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | ICustomXmlPart | The custom xml part to remove. |
+| item | [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart) | The custom xml part to remove. |
 
 ## Exceptions
 
@@ -36,6 +36,7 @@ def remove(self, item):
 
 
 ### See Also
+* class [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart)
 * class [`ICustomXmlPartCollection`](/slides/python-net/aspose.slides/icustomxmlpartcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

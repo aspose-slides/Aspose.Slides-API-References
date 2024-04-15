@@ -19,7 +19,7 @@ The BaseSlide type exposes the following members:
 | :- | :- |
 | [`shapes`](/slides/python-net/aspose.slides/baseslide/shapes/) | Returns the shapes of a slide.<br/>            Read-only [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection). |
 | [`controls`](/slides/python-net/aspose.slides/baseslide/controls/) | Returns the collection of ActiveX controls on a slide.<br/>            Read-only [`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection). |
-| [`name`](/slides/python-net/aspose.slides/baseslide/name/) | Returns or sets the name of a slide.<br/>            Read/write **string**. |
+| [`name`](/slides/python-net/aspose.slides/baseslide/name/) | Returns or sets the name of a slide.<br/>            Read/write **str**. |
 | [`slide_id`](/slides/python-net/aspose.slides/baseslide/slide_id/) | Returns the ID of a slide.<br/>            Read-only **int**. |
 | [`custom_data`](/slides/python-net/aspose.slides/baseslide/custom_data/) | Returns the slide's custom data.<br/>            Read-only [`ICustomData`](/slides/python-net/aspose.slides/icustomdata). |
 | [`timeline`](/slides/python-net/aspose.slides/baseslide/timeline/) | Returns animation timeline object.<br/>            Read-only [`IAnimationTimeLine`](/slides/python-net/aspose.slides/ianimationtimeline). |
@@ -41,7 +41,7 @@ The BaseSlide type exposes the following members:
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/baseslide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 | [`equals`](/slides/python-net/aspose.slides/baseslide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/baseslide/create_theme_effective/#) | Returns an effective theme for this slide. |
-| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/baseslide/find_shape_by_alt_text/#string) | Finds first occurrence of a shape with the specified alternative text. |
+| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/baseslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

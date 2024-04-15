@@ -24,5 +24,6 @@ def sound(self, value):
 
 ### See Also
 * class [`IAudio`](/slides/python-net/aspose.slides/iaudio)
+* class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

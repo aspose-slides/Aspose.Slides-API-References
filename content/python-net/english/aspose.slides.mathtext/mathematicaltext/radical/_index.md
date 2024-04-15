@@ -25,11 +25,11 @@ def radical(self, degree):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| degree | IMathElement | Argument of Radical |
+| degree | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Argument of Radical |
 
 
 
-## radical {#string}
+## radical {#str}
 Specifies the mathematical root of the given degree from the specified argument.
 
 ### Returns
@@ -46,11 +46,12 @@ def radical(self, degree):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| degree | string | Argument of Radical |
+| degree | **str** | Argument of Radical |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`IMathRadical`](/slides/python-net/aspose.slides.mathtext/imathradical)
 * class [`MathematicalText`](/slides/python-net/aspose.slides.mathtext/mathematicaltext)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

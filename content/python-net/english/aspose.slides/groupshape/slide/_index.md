@@ -20,6 +20,7 @@ def slide(self):
 ```
 
 ### See Also
+* class [`GroupShape`](/slides/python-net/aspose.slides/groupshape)
 * class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

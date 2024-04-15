@@ -7,7 +7,7 @@ url: /aspose.slides/persistencetype/
 ---
 
 
-## PersistenceType class
+## PersistenceType enumeration
 
 Specifies the method used to store properties of the ActiveX control.
 

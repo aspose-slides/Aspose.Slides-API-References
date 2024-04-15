@@ -25,7 +25,7 @@ def get_effects_by_shape(self, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | IShape | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) |
+| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) |
 
 
 

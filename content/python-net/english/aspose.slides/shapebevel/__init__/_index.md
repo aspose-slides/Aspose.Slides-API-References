@@ -20,7 +20,7 @@ def __init__(self, b_is_top_bevel):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| b_is_top_bevel | bool | Is top bevel. |
+| b_is_top_bevel | **bool** | Is top bevel. |
 
 
 

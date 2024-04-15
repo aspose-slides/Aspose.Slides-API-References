@@ -20,11 +20,12 @@ def remove(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | ISlide | The slide to remove from the collection. |
+| value | [`ISlide`](/slides/python-net/aspose.slides/islide) | The slide to remove from the collection. |
 
 
 
 ### See Also
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

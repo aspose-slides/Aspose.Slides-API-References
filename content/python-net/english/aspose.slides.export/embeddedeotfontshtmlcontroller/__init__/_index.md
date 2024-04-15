@@ -32,11 +32,12 @@ def __init__(self, controller):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| controller | IHtmlFormattingController | HTML formatting controller. |
+| controller | [`IHtmlFormattingController`](/slides/python-net/aspose.slides.export/ihtmlformattingcontroller) | HTML formatting controller. |
 
 
 
 ### See Also
 * class [`EmbeddedEotFontsHtmlController`](/slides/python-net/aspose.slides.export/embeddedeotfontshtmlcontroller)
+* class [`IHtmlFormattingController`](/slides/python-net/aspose.slides.export/ihtmlformattingcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

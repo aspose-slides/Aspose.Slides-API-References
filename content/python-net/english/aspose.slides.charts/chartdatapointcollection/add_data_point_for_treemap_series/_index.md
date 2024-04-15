@@ -26,11 +26,13 @@ def add_data_point_for_treemap_series(self, size_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| size_value | IChartDataCell | Data point SizeValue |
+| size_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point SizeValue |
 
 
 
 ### See Also
 * class [`ChartDataPointCollection`](/slides/python-net/aspose.slides.charts/chartdatapointcollection)
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -21,5 +21,6 @@ def shape_lock(self):
 
 ### See Also
 * class [`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

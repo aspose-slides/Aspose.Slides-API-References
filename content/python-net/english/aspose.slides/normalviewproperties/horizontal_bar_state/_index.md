@@ -23,5 +23,6 @@ def horizontal_bar_state(self, value):
 ```
 
 ### See Also
+* class [`NormalViewProperties`](/slides/python-net/aspose.slides/normalviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

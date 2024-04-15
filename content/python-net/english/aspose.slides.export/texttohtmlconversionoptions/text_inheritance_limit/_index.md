@@ -23,5 +23,7 @@ def text_inheritance_limit(self, value):
 ```
 
 ### See Also
+* enumeration [`TextInheritanceLimit`](/slides/python-net/aspose.slides.export/textinheritancelimit)
+* class [`TextToHtmlConversionOptions`](/slides/python-net/aspose.slides.export/texttohtmlconversionoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -26,11 +26,13 @@ def add_data_point_for_waterfall_series(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IChartDataCell | Data point Value |
+| value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point Value |
 
 
 
 ### See Also
 * class [`ChartDataPointCollection`](/slides/python-net/aspose.slides.charts/chartdatapointcollection)
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

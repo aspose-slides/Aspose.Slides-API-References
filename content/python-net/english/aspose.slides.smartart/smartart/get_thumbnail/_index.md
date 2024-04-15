@@ -43,13 +43,14 @@ def get_thumbnail(self, bounds, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| bounds | ShapeThumbnailBounds | Shape thumbnail bounds type. |
-| scale_x | float | X scale |
-| scale_y | float | Y scale |
+| bounds | [`ShapeThumbnailBounds`](/slides/python-net/aspose.slides/shapethumbnailbounds) | Shape thumbnail bounds type. |
+| scale_x | **float** | X scale |
+| scale_y | **float** | Y scale |
 
 
 
 ### See Also
+* enumeration [`ShapeThumbnailBounds`](/slides/python-net/aspose.slides/shapethumbnailbounds)
 * class [`SmartArt`](/slides/python-net/aspose.slides.smartart/smartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

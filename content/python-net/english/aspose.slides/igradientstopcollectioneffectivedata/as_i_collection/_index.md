@@ -17,5 +17,6 @@ def as_i_collection(self):
 ```
 
 ### See Also
+* class [`IGradientStopCollectionEffectiveData`](/slides/python-net/aspose.slides/igradientstopcollectioneffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

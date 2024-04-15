@@ -17,5 +17,6 @@ def as_i_presentation_component(self):
 ```
 
 ### See Also
+* class [`ITable`](/slides/python-net/aspose.slides/itable)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

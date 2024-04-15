@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 
 
-## MathFunctionsOfOneArgument class
+## MathFunctionsOfOneArgument enumeration
 
 Common mathematical functions of one argument
 

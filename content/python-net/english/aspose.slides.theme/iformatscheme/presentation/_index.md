@@ -17,5 +17,6 @@ def presentation(self):
 ```
 
 ### See Also
+* class [`IFormatScheme`](/slides/python-net/aspose.slides.theme/iformatscheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

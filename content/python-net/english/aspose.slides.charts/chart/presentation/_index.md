@@ -20,6 +20,7 @@ def presentation(self):
 ```
 
 ### See Also
+* class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

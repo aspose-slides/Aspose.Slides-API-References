@@ -43,15 +43,16 @@ def add_group_shape(self, svg_image, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| svg_image | ISvgImage | Svg image object [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
-| x | float | The X coordinate for the left side of the shape group frame. |
-| y | float | The Y coordinate for the top side of the shape group frame. |
-| width | float | The width of the group of the shape group frame. |
-| height | float | The height of a group of the shape group frame. |
+| svg_image | [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) | Svg image object [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
+| x | **float** | The X coordinate for the left side of the shape group frame. |
+| y | **float** | The Y coordinate for the top side of the shape group frame. |
+| width | **float** | The width of the group of the shape group frame. |
+| height | **float** | The height of a group of the shape group frame. |
 
 
 
 ### See Also
+* class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
 * class [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage)
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

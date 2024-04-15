@@ -23,5 +23,7 @@ def black_white_mode(self, value):
 ```
 
 ### See Also
+* enumeration [`BlackWhiteMode`](/slides/python-net/aspose.slides/blackwhitemode)
+* class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 20
 
 ## font_name property
 Returns the font name. 
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def font_name(self):
 ```
 
 ### See Also
+* class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

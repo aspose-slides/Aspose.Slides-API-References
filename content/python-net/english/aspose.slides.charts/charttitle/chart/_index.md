@@ -20,6 +20,7 @@ def chart(self):
 ```
 
 ### See Also
+* class [`ChartTitle`](/slides/python-net/aspose.slides.charts/charttitle)
 * class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -7,7 +7,7 @@ url: /aspose.slides/linedashstyle/
 ---
 
 
-## LineDashStyle class
+## LineDashStyle enumeration
 
 Represents the line dash style.
 

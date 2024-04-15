@@ -20,11 +20,12 @@ def add_placeholder(self, placeholder_to_copy_from):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| placeholder_to_copy_from | IPlaceholder |  |
+| placeholder_to_copy_from | [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder) |  |
 
 
 
 ### See Also
 * class [`IInk`](/slides/python-net/aspose.slides.ink/iink)
+* class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

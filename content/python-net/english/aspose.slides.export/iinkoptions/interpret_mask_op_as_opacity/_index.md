@@ -27,5 +27,6 @@ def interpret_mask_op_as_opacity(self, value):
 ```
 
 ### See Also
+* class [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

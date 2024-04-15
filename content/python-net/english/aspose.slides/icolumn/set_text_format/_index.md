@@ -20,7 +20,7 @@ def set_text_format(self, source):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | IPortionFormat |  |
+| source | [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat) |  |
 
 
 
@@ -36,7 +36,7 @@ def set_text_format(self, source):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | IParagraphFormat |  |
+| source | [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat) |  |
 
 
 
@@ -52,11 +52,14 @@ def set_text_format(self, source):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | ITextFrameFormat |  |
+| source | [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat) |  |
 
 
 
 ### See Also
 * class [`IColumn`](/slides/python-net/aspose.slides/icolumn)
+* class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
+* class [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
+* class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

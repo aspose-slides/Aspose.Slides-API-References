@@ -21,7 +21,7 @@ def insert_row_after(self, row_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| row_index | int | Index of the row after which to insert a new one |
+| row_index | **int** | Index of the row after which to insert a new one |
 
 
 

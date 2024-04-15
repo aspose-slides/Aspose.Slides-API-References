@@ -7,7 +7,7 @@ url: /aspose.slides/audiovolumemode/
 ---
 
 
-## AudioVolumeMode class
+## AudioVolumeMode enumeration
 
 Constants which define audio volume.
 

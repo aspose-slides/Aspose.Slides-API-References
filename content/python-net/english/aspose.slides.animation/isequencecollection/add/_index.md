@@ -25,7 +25,7 @@ def add(self, shape_trigger):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape_trigger | IShape | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) |
+| shape_trigger | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) |
 
 
 

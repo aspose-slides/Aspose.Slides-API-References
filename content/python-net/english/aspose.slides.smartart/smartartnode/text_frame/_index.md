@@ -21,5 +21,6 @@ def text_frame(self):
 
 ### See Also
 * class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
+* class [`SmartArtNode`](/slides/python-net/aspose.slides.smartart/smartartnode)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

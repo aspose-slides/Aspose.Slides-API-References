@@ -23,6 +23,7 @@ def timing(self, value):
 ```
 
 ### See Also
+* class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
 * class [`ITiming`](/slides/python-net/aspose.slides.animation/itiming)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -29,5 +29,6 @@ def height(self, value):
 ```
 
 ### See Also
+* class [`Table`](/slides/python-net/aspose.slides/table)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

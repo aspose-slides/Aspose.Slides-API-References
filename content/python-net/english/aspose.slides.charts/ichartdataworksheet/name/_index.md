@@ -10,7 +10,7 @@ weight: 20
 
 ## name property
 Gets the name.
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def name(self):
 ```
 
 ### See Also
+* class [`IChartDataWorksheet`](/slides/python-net/aspose.slides.charts/ichartdataworksheet)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

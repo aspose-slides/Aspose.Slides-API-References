@@ -21,7 +21,7 @@ def set_visibility_on_all_title_slides(self, is_visible):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| is_visible | bool | true - makes a placeholders visible, otherwise - hides them. |
+| is_visible | **bool** | true - makes a placeholders visible, otherwise - hides them. |
 
 
 

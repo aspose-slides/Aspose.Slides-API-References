@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#string}
+## add {#str}
 Adds a new property to the collection.
 
 
@@ -20,7 +20,7 @@ def add(self, property_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| property_value | string | Value of the property to add. |
+| property_value | **str** | Value of the property to add. |
 
 
 

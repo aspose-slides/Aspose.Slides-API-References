@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#string}
+## __init__ {#str}
 Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message.
 
 
@@ -32,11 +32,11 @@ def __init__(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | string | A string that describes the error. |
+| message | **str** | A string that describes the error. |
 
 
 
-## __init__ {#string-string}
+## __init__ {#str-str}
 Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message
             and circular cell reference.
 
@@ -49,8 +49,8 @@ def __init__(self, message, reference):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | string | A string that describes the error. |
-| reference | string | A circular cell reference. |
+| message | **str** | A string that describes the error. |
+| reference | **str** | A circular cell reference. |
 
 
 

@@ -20,8 +20,8 @@ def __init__(self, base_arg, limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| base_arg | IMathElement |  |
-| limit | IMathElement |  |
+| base_arg | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
+| limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
 
@@ -37,13 +37,14 @@ def __init__(self, base_arg, limit, upper_limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| base_arg | IMathElement |  |
-| limit | IMathElement |  |
-| upper_limit | bool |  |
+| base_arg | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
+| limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
+| upper_limit | **bool** |  |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathLimit`](/slides/python-net/aspose.slides.mathtext/mathlimit)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

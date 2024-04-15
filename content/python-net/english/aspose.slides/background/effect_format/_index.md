@@ -20,6 +20,7 @@ def effect_format(self):
 ```
 
 ### See Also
+* class [`Background`](/slides/python-net/aspose.slides/background)
 * class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

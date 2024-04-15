@@ -21,5 +21,6 @@ def color(self):
 
 ### See Also
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
+* class [`IGradientStop`](/slides/python-net/aspose.slides/igradientstop)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

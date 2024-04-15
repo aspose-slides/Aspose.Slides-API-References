@@ -25,7 +25,7 @@ def equals(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | ShapeFrame | The ShapeFRameEx to compare with this instance. |
+| value | [`ShapeFrame`](/slides/python-net/aspose.slides/shapeframe) | The ShapeFRameEx to compare with this instance. |
 
 
 

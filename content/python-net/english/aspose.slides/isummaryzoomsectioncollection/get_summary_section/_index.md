@@ -25,7 +25,7 @@ def get_summary_section(self, section):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| section | ISection | Section to find [`ISection`](/slides/python-net/aspose.slides/isection) |
+| section | [`ISection`](/slides/python-net/aspose.slides/isection) | Section to find [`ISection`](/slides/python-net/aspose.slides/isection) |
 
 
 

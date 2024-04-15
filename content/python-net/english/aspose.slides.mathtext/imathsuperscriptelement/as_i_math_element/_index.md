@@ -21,5 +21,6 @@ def as_i_math_element(self):
 
 ### See Also
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

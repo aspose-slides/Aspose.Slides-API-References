@@ -20,12 +20,13 @@ def bind_resource(self, output_file, obj):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| output_file | IOutputFile | Output file. |
-| obj | any | Resource object. |
+| output_file | [`IOutputFile`](/slides/python-net/aspose.slides.export.web/ioutputfile) | Output file. |
+| obj | **any** | Resource object. |
 
 
 
 ### See Also
+* class [`IOutputFile`](/slides/python-net/aspose.slides.export.web/ioutputfile)
 * class [`Output`](/slides/python-net/aspose.slides.export.web/output)
 * module [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web)
 * library [`Aspose.Slides`](/slides/python-net)

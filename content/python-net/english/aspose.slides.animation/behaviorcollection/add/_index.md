@@ -20,11 +20,12 @@ def add(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IBehavior | Behavior to add. |
+| item | [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior) | Behavior to add. |
 
 
 
 ### See Also
 * class [`BehaviorCollection`](/slides/python-net/aspose.slides.animation/behaviorcollection)
+* class [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

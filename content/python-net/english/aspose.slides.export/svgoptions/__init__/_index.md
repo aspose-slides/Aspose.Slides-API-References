@@ -32,7 +32,7 @@ def __init__(self, link_embed_controller):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| link_embed_controller | ILinkEmbedController | The link embedding controller reference. |
+| link_embed_controller | [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller) | The link embedding controller reference. |
 
 ### Remarks
 
@@ -42,6 +42,7 @@ Link embedding controller is a delegate object that is responsible for making de
 
 
 ### See Also
+* class [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller)
 * class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

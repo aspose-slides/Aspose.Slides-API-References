@@ -7,7 +7,7 @@ url: /aspose.slides/textextractionarrangingmode/
 ---
 
 
-## TextExtractionArrangingMode class
+## TextExtractionArrangingMode enumeration
 
 Represents the mode to use during text extraction
 

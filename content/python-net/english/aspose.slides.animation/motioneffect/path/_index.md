@@ -24,5 +24,6 @@ def path(self, value):
 
 ### See Also
 * class [`IMotionPath`](/slides/python-net/aspose.slides.animation/imotionpath)
+* class [`MotionEffect`](/slides/python-net/aspose.slides.animation/motioneffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

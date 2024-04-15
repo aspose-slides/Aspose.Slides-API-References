@@ -22,5 +22,6 @@ def detect_tables(self, value):
 ```
 
 ### See Also
+* class [`PdfImportOptions`](/slides/python-net/aspose.slides.importing/pdfimportoptions)
 * module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)
 * library [`Aspose.Slides`](/slides/python-net)

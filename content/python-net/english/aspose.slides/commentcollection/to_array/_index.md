@@ -42,8 +42,8 @@ def to_array(self, start_index, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | int | An index of a first comment to return. |
-| count | int | A number of comments to return. |
+| start_index | **int** | An index of a first comment to return. |
+| count | **int** | A number of comments to return. |
 
 
 

@@ -25,12 +25,14 @@ def create_math_radical(self, base_argument, degree_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| base_argument | IMathElement | Base argument to apply radical |
-| degree_argument | IMathElement | Degree value |
+| base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument to apply radical |
+| degree_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Degree value |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathRadical`](/slides/python-net/aspose.slides.mathtext/imathradical)
 * class [`MathRadicalFactory`](/slides/python-net/aspose.slides.mathtext/mathradicalfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

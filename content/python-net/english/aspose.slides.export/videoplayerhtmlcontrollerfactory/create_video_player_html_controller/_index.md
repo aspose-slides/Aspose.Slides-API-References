@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_video_player_html_controller {#string-string-string}
+## create_video_player_html_controller {#str-str-str}
 Creates new `VideoPlayerHtmlController`.
 
 ### Returns
@@ -25,13 +25,14 @@ def create_video_player_html_controller(self, path, file_name, base_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string | Path. |
-| file_name | string | File name. |
-| base_uri | string | Base URI. |
+| path | **str** | Path. |
+| file_name | **str** | File name. |
+| base_uri | **str** | Base URI. |
 
 
 
 ### See Also
+* class [`IVideoPlayerHtmlController`](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller)
 * class [`VideoPlayerHtmlControllerFactory`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontrollerfactory)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

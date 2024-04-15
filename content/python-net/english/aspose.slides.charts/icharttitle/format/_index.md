@@ -20,6 +20,7 @@ def format(self):
 ```
 
 ### See Also
+* class [`IChartTitle`](/slides/python-net/aspose.slides.charts/icharttitle)
 * class [`IFormat`](/slides/python-net/aspose.slides.charts/iformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

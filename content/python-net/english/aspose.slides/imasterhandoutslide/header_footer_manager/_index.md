@@ -20,6 +20,7 @@ def header_footer_manager(self):
 ```
 
 ### See Also
+* class [`IMasterHandoutSlide`](/slides/python-net/aspose.slides/imasterhandoutslide)
 * class [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

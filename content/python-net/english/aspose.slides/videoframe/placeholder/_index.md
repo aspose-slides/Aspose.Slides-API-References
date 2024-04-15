@@ -21,5 +21,6 @@ def placeholder(self):
 
 ### See Also
 * class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
+* class [`VideoFrame`](/slides/python-net/aspose.slides/videoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,5 +23,7 @@ def external_fonts_handling(self, value):
 ```
 
 ### See Also
+* class [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions)
+* enumeration [`SvgExternalFontsHandling`](/slides/python-net/aspose.slides.export/svgexternalfontshandling)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,7 +20,7 @@ def __init__(self, element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | a math element to apply accent |
+| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | a math element to apply accent |
 
 
 
@@ -36,12 +36,13 @@ def __init__(self, element, accent_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | math element to apply accent |
-| accent_character | char | accent character |
+| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply accent |
+| accent_character | **char** | accent character |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathAccent`](/slides/python-net/aspose.slides.mathtext/mathaccent)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

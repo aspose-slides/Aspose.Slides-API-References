@@ -7,7 +7,7 @@ url: /aspose.slides.animation/colorspace/
 ---
 
 
-## ColorSpace class
+## ColorSpace enumeration
 
 Represents color space for color effect behavior.
 

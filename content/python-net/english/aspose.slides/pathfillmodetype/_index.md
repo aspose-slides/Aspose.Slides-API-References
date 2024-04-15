@@ -7,7 +7,7 @@ url: /aspose.slides/pathfillmodetype/
 ---
 
 
-## PathFillModeType class
+## PathFillModeType enumeration
 
 Specifies the manner in which a path should be filled
 

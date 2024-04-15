@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_footer_and_child_footers_text {#string}
+## set_footer_and_child_footers_text {#str}
 Sets text to master notes slide footer placeholder and all child footer placeholders.
             Child placeholders mean placeholders are contained on depending notes slides.
             Depending notes slides use and depend on master notes slide.
@@ -22,7 +22,7 @@ def set_footer_and_child_footers_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string | Text to set. |
+| text | **str** | Text to set. |
 
 
 

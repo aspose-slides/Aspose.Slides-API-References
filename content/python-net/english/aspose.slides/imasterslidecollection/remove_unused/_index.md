@@ -20,7 +20,7 @@ def remove_unused(self, ignore_preserve_field):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ignore_preserve_field | bool | Determines, whether this method should remove unused <br/><br/>            master even if its [`IMasterSlide.preserve`](/slides/python-net/aspose.slides/imasterslide#preserve) property is set to true. |
+| ignore_preserve_field | **bool** | Determines, whether this method should remove unused <br/><br/>            master even if its [`IMasterSlide.preserve`](/slides/python-net/aspose.slides/imasterslide#preserve) property is set to true. |
 
 
 

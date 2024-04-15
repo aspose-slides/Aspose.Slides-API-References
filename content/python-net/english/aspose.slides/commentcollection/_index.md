@@ -32,10 +32,10 @@ The CommentCollection type exposes the following members:
 | :- | :- |
 | [`to_array`](/slides/python-net/aspose.slides/commentcollection/to_array/#) | Creates and returns an array with all comments. |
 | [`to_array`](/slides/python-net/aspose.slides/commentcollection/to_array/#int-int) | Creates and returns an array with all comments from the specified range. |
-| [`add_comment`](/slides/python-net/aspose.slides/commentcollection/add_comment/#string-islide-asposepydrawingpointf-datetime) | Add new comment at the end of a collection. |
-| [`add_modern_comment`](/slides/python-net/aspose.slides/commentcollection/add_modern_comment/#string-islide-ishape-asposepydrawingpointf-datetime) | Add new modern comment at the end of a collection. |
-| [`insert_comment`](/slides/python-net/aspose.slides/commentcollection/insert_comment/#int-string-islide-asposepydrawingpointf-datetime) | Insert new comment to a collection at the specified index. |
-| [`insert_modern_comment`](/slides/python-net/aspose.slides/commentcollection/insert_modern_comment/#int-string-islide-ishape-asposepydrawingpointf-datetime) | Insert new modern comment to a collection at the specified index. |
+| [`add_comment`](/slides/python-net/aspose.slides/commentcollection/add_comment/#str-islide-asposepydrawingpointf-datetime) | Add new comment at the end of a collection. |
+| [`add_modern_comment`](/slides/python-net/aspose.slides/commentcollection/add_modern_comment/#str-islide-ishape-asposepydrawingpointf-datetime) | Add new modern comment at the end of a collection. |
+| [`insert_comment`](/slides/python-net/aspose.slides/commentcollection/insert_comment/#int-str-islide-asposepydrawingpointf-datetime) | Insert new comment to a collection at the specified index. |
+| [`insert_modern_comment`](/slides/python-net/aspose.slides/commentcollection/insert_modern_comment/#int-str-islide-ishape-asposepydrawingpointf-datetime) | Insert new modern comment to a collection at the specified index. |
 | [`remove_at`](/slides/python-net/aspose.slides/commentcollection/remove_at/#int) | Removes the element at the specified index in a collection. |
 | [`remove`](/slides/python-net/aspose.slides/commentcollection/remove/#icomment) | Removes the first occurrence of the specified comment in a collection. |
 | [`clear`](/slides/python-net/aspose.slides/commentcollection/clear/#) | Removes all comments from a collection. |

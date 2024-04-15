@@ -23,5 +23,7 @@ def font_alignment(self, value):
 ```
 
 ### See Also
+* enumeration [`FontAlignment`](/slides/python-net/aspose.slides/fontalignment)
+* class [`IChartParagraphFormat`](/slides/python-net/aspose.slides.charts/ichartparagraphformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_all_footers_text {#string}
+## set_all_footers_text {#str}
 Sets text to all footer placeholders, including master slides, layout slides and slides.
 
 
@@ -20,7 +20,7 @@ def set_all_footers_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string | Text to set. |
+| text | **str** | Text to set. |
 
 
 

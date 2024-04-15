@@ -7,7 +7,7 @@ url: /aspose.slides/blackwhitemode/
 ---
 
 
-## BlackWhiteMode class
+## BlackWhiteMode enumeration
 
 Determines how colored shape should be transformed into black and white.
 

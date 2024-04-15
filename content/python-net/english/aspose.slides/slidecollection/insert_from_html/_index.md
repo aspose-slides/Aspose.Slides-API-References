@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## insert_from_html {#int-string}
+## insert_from_html {#int-str}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -25,12 +25,12 @@ def insert_from_html(self, index, html_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Position to insert. |
-| html_text | string | Html to add. |
+| index | **int** | Position to insert. |
+| html_text | **str** | Html to add. |
 
 
 
-## insert_from_html {#int-systemiostream}
+## insert_from_html {#int-iorawiobase}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -47,12 +47,12 @@ def insert_from_html(self, index, html_stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Position to insert. |
-| html_stream | System.IO.Stream | A Stream object which will be used as a source of a HTML file. |
+| index | **int** | Position to insert. |
+| html_stream | **io.RawIOBase** | A Stream object which will be used as a source of a HTML file. |
 
 
 
-## insert_from_html {#int-string-asposeslidesimportingiexternalresourceresolver-string}
+## insert_from_html {#int-str-asposeslidesimportingiexternalresourceresolver-str}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -69,14 +69,14 @@ def insert_from_html(self, index, html_text, resolver, uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Position to insert. |
-| html_text | string | Html to add. |
-| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | string | An URI of the specified HTML. Used to resolve relative links. |
+| index | **int** | Position to insert. |
+| html_text | **str** | Html to add. |
+| resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | **str** | An URI of the specified HTML. Used to resolve relative links. |
 
 
 
-## insert_from_html {#int-systemiostream-asposeslidesimportingiexternalresourceresolver-string}
+## insert_from_html {#int-iorawiobase-asposeslidesimportingiexternalresourceresolver-str}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -93,10 +93,10 @@ def insert_from_html(self, index, html_stream, resolver, uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Position to insert. |
-| html_stream | System.IO.Stream | A Stream object which will be used as a source of a HTML file. |
-| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | string | An URI of the specified HTML. Used to resolve relative links. |
+| index | **int** | Position to insert. |
+| html_stream | **io.RawIOBase** | A Stream object which will be used as a source of a HTML file. |
+| resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | **str** | An URI of the specified HTML. Used to resolve relative links. |
 
 
 

@@ -17,7 +17,7 @@ The StreamWrapper type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`stream`](/slides/python-net/aspose.slides/streamwrapper/stream/) | Gets a stream.<br/>            Read-only **System.IO.Stream**. |
+| [`stream`](/slides/python-net/aspose.slides/streamwrapper/stream/) | Gets a stream.<br/>            Read-only **io.RawIOBase**. |
 | [`can_read`](/slides/python-net/aspose.slides/streamwrapper/can_read/) | Gets a value indicating whether the current stream supports reading.<br/>            Read-only **bool**. |
 | [`can_seek`](/slides/python-net/aspose.slides/streamwrapper/can_seek/) | Gets a value indicating whether the current stream supports seeking.<br/>            Read-only **bool**. |
 | [`can_write`](/slides/python-net/aspose.slides/streamwrapper/can_write/) | Gets a value indicating whether the current stream supports writing.<br/>            Read-only **bool**. |

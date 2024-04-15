@@ -7,7 +7,7 @@ url: /aspose.slides.export/linkembeddecision/
 ---
 
 
-## LinkEmbedDecision class
+## LinkEmbedDecision enumeration
 
 Determines how object will be processed during saving.
 

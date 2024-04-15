@@ -7,7 +7,7 @@ url: /aspose.slides.charts/errorbarvaluetype/
 ---
 
 
-## ErrorBarValueType class
+## ErrorBarValueType enumeration
 
 Represents type of error bar value
 

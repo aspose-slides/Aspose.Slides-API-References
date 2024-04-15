@@ -21,5 +21,6 @@ def digital_signatures(self):
 
 ### See Also
 * class [`IDigitalSignatureCollection`](/slides/python-net/aspose.slides/idigitalsignaturecollection)
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

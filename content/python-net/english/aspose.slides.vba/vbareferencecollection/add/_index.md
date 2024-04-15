@@ -20,11 +20,12 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IVbaReference |  |
+| value | [`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference) |  |
 
 
 
 ### See Also
+* class [`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference)
 * class [`VbaReferenceCollection`](/slides/python-net/aspose.slides.vba/vbareferencecollection)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

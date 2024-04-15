@@ -21,5 +21,6 @@ def text_block_format(self):
 
 ### See Also
 * class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
+* class [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

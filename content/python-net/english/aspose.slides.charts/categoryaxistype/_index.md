@@ -7,7 +7,7 @@ url: /aspose.slides.charts/categoryaxistype/
 ---
 
 
-## CategoryAxisType class
+## CategoryAxisType enumeration
 
 Represents a type of a category axis.
 

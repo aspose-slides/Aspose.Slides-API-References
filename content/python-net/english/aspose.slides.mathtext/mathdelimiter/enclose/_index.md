@@ -49,8 +49,8 @@ def enclose(self, beginning_character, ending_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| beginning_character | char | Beginning character (usually left bracket) |
-| ending_character | char | Ending character (usually right bracket) |
+| beginning_character | **char** | Beginning character (usually left bracket) |
+| ending_character | **char** | Ending character (usually right bracket) |
 
 
 

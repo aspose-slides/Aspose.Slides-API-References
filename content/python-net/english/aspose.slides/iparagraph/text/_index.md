@@ -10,7 +10,7 @@ weight: 110
 
 ## text property
 Gets or sets the the plain text of a paragraph.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def text(self, value):
 ```
 
 ### See Also
+* class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

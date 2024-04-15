@@ -7,7 +7,7 @@ url: /aspose.slides/textautofittype/
 ---
 
 
-## TextAutofitType class
+## TextAutofitType enumeration
 
 Represents text autofit mode.
 

@@ -17,5 +17,6 @@ def as_i_base_header_footer_manager(self):
 ```
 
 ### See Also
+* class [`IBaseHandoutNotesSlideHeaderFooterManag`](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

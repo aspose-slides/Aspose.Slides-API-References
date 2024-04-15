@@ -23,5 +23,6 @@ def default_delay(self, value):
 ```
 
 ### See Also
+* class [`IGifOptions`](/slides/python-net/aspose.slides.export/igifoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

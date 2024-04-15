@@ -7,7 +7,7 @@ url: /aspose.slides.charts/trendlinetype/
 ---
 
 
-## TrendlineType class
+## TrendlineType enumeration
 
 Represents type of trend line
 

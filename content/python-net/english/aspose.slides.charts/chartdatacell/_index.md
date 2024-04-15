@@ -24,7 +24,7 @@ The ChartDataCell type exposes the following members:
 | [`r1c1_formula`](/slides/python-net/aspose.slides.charts/chartdatacell/r1c1_formula/) | Gets or sets the formula in R1C1-style. |
 | [`chart_data_worksheet`](/slides/python-net/aspose.slides.charts/chartdatacell/chart_data_worksheet/) | Gets the worksheet.<br/>            Read-only [`IChartDataWorksheet`](/slides/python-net/aspose.slides.charts/ichartdataworksheet). |
 | [`is_hidden`](/slides/python-net/aspose.slides.charts/chartdatacell/is_hidden/) | Determines whether the cell is hidden.<br/>            Read-only **bool**. |
-| [`custom_number_format`](/slides/python-net/aspose.slides.charts/chartdatacell/custom_number_format/) | Gets or sets the custom display format of numbers and dates. <br/>            If value is empty will be used PresetNumberFormat value.<br/>            Read/write **string**. |
+| [`custom_number_format`](/slides/python-net/aspose.slides.charts/chartdatacell/custom_number_format/) | Gets or sets the custom display format of numbers and dates. <br/>            If value is empty will be used PresetNumberFormat value.<br/>            Read/write **str**. |
 | [`preset_number_format`](/slides/python-net/aspose.slides.charts/chartdatacell/preset_number_format/) | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49].<br/>             Read/write **int**. |
 
 ## Methods

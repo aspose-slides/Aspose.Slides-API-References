@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionmorphtype/
 ---
 
 
-## TransitionMorphType class
+## TransitionMorphType enumeration
 
 Represent a type of morph transition.
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_fall_back_fonts {#string}
+## add_fall_back_fonts {#str}
 Adds a new font(s) to the list of FallBack fonts.
 
 
@@ -20,11 +20,11 @@ def add_fall_back_fonts(self, font_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name | string | Font's name or names (delimited by comma) for FallBack |
+| font_name | **str** | Font's name or names (delimited by comma) for FallBack |
 
 
 
-## add_fall_back_fonts {#liststring}
+## add_fall_back_fonts {#liststr}
 Adds a new fonts to the list of FallBack fonts.
 
 
@@ -36,7 +36,7 @@ def add_fall_back_fonts(self, font_names):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_names | List[string] | Font's name or names (delimited by comma) for FallBack |
+| font_names | **List[str]** | Font's name or names (delimited by comma) for FallBack |
 
 
 

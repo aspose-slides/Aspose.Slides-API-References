@@ -24,5 +24,6 @@ def as_i_html_formatting_controller(self):
 ```
 
 ### See Also
+* class [`IResponsiveHtmlController`](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

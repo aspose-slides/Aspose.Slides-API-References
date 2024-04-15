@@ -21,7 +21,7 @@ def replace_image(self, new_image_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_image_data | bytes |  |
+| new_image_data | **bytes** |  |
 
 
 
@@ -38,7 +38,7 @@ def replace_image(self, new_image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_image | aspose.pydrawing.Image |  |
+| new_image | **aspose.pydrawing.Image** |  |
 
 
 
@@ -55,11 +55,12 @@ def replace_image(self, new_image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_image | IPPImage |  |
+| new_image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |  |
 
 
 
 ### See Also
+* class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * class [`PPImage`](/slides/python-net/aspose.slides/ppimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

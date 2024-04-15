@@ -20,11 +20,12 @@ def remove(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | ILayoutSlide |  |
+| value | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) |  |
 
 
 
 ### See Also
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`IMasterLayoutSlideCollection`](/slides/python-net/aspose.slides/imasterlayoutslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

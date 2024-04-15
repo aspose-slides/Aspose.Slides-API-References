@@ -24,5 +24,6 @@ def points(self, value):
 
 ### See Also
 * class [`IPointCollection`](/slides/python-net/aspose.slides.animation/ipointcollection)
+* class [`IPropertyEffect`](/slides/python-net/aspose.slides.animation/ipropertyeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

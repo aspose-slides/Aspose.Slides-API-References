@@ -20,7 +20,7 @@ def accent(self, accent_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| accent_character | char |  |
+| accent_character | **char** |  |
 
 
 

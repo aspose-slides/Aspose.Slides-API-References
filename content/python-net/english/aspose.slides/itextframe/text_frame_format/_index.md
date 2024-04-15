@@ -20,6 +20,7 @@ def text_frame_format(self):
 ```
 
 ### See Also
+* class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

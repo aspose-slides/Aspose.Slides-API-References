@@ -20,9 +20,9 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | aspose.pydrawing.PointF | First direction point |
-| point2 | aspose.pydrawing.PointF | Second direction point |
-| point3 | aspose.pydrawing.PointF | End point |
+| point1 | **aspose.pydrawing.PointF** | First direction point |
+| point2 | **aspose.pydrawing.PointF** | Second direction point |
+| point3 | **aspose.pydrawing.PointF** | End point |
 
 
 
@@ -38,10 +38,10 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | aspose.pydrawing.PointF | First direction point |
-| point2 | aspose.pydrawing.PointF | Second direction point |
-| point3 | aspose.pydrawing.PointF | End point |
-| index | int | Index of segment in PathData |
+| point1 | **aspose.pydrawing.PointF** | First direction point |
+| point2 | **aspose.pydrawing.PointF** | Second direction point |
+| point3 | **aspose.pydrawing.PointF** | End point |
+| index | **int** | Index of segment in PathData |
 
 ## Exceptions
 
@@ -63,12 +63,12 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x1 | float | X coordinate of first direction point |
-| y1 | float | Y coordinate of first direction point |
-| x2 | float | X coordinate of second direction point |
-| y2 | float | Y coordinate of second direction point |
-| x3 | float | X coordinate of end point |
-| y3 | float | Y coordinate of end point |
+| x1 | **float** | X coordinate of first direction point |
+| y1 | **float** | Y coordinate of first direction point |
+| x2 | **float** | X coordinate of second direction point |
+| y2 | **float** | Y coordinate of second direction point |
+| x3 | **float** | X coordinate of end point |
+| y3 | **float** | Y coordinate of end point |
 
 
 
@@ -84,13 +84,13 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x1 | float | X coordinate of first direction point |
-| y1 | float | Y coordinate of first direction point |
-| x2 | float | X coordinate of second direction point |
-| y2 | float | Y coordinate of second direction point |
-| x3 | float | X coordinate of end point |
-| y3 | float | Y coordinate of end point |
-| index | int | Index of segment in PathData |
+| x1 | **float** | X coordinate of first direction point |
+| y1 | **float** | Y coordinate of first direction point |
+| x2 | **float** | X coordinate of second direction point |
+| y2 | **float** | Y coordinate of second direction point |
+| x3 | **float** | X coordinate of end point |
+| y3 | **float** | Y coordinate of end point |
+| index | **int** | Index of segment in PathData |
 
 ## Exceptions
 

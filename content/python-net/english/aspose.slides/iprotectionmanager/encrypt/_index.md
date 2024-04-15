@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## encrypt {#string}
+## encrypt {#str}
 Encrypts Presentation with specified password.
 
 
@@ -20,7 +20,7 @@ def encrypt(self, encryption_password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| encryption_password | string | The password. |
+| encryption_password | **str** | The password. |
 
 
 

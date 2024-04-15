@@ -23,5 +23,6 @@ def display_r_squared_value(self, value):
 ```
 
 ### See Also
+* class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

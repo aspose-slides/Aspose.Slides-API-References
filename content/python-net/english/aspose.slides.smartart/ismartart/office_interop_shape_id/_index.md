@@ -17,5 +17,6 @@ def office_interop_shape_id(self):
 ```
 
 ### See Also
+* class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

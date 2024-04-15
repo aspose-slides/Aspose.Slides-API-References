@@ -23,5 +23,7 @@ def organization_chart_layout(self, value):
 ```
 
 ### See Also
+* enumeration [`OrganizationChartLayoutType`](/slides/python-net/aspose.slides.smartart/organizationchartlayouttype)
+* class [`SmartArtNode`](/slides/python-net/aspose.slides.smartart/smartartnode)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

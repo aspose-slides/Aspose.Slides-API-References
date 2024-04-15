@@ -7,7 +7,7 @@ url: /aspose.slides.animation/propertycalcmodetype/
 ---
 
 
-## PropertyCalcModeType class
+## PropertyCalcModeType enumeration
 
 Represent calc mode for animation property.
 

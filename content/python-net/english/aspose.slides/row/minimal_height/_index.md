@@ -23,5 +23,6 @@ def minimal_height(self, value):
 ```
 
 ### See Also
+* class [`Row`](/slides/python-net/aspose.slides/row)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

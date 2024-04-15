@@ -23,5 +23,7 @@ def status(self, value):
 ```
 
 ### See Also
+* class [`IModernComment`](/slides/python-net/aspose.slides/imoderncomment)
+* enumeration [`ModernCommentStatus`](/slides/python-net/aspose.slides/moderncommentstatus)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

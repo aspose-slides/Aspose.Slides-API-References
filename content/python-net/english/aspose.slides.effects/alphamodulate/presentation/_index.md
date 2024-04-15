@@ -17,5 +17,6 @@ def presentation(self):
 ```
 
 ### See Also
+* class [`AlphaModulate`](/slides/python-net/aspose.slides.effects/alphamodulate)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

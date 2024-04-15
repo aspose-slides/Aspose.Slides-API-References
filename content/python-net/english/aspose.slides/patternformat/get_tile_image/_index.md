@@ -25,7 +25,7 @@ def get_tile_image(self, style_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | aspose.pydrawing.Color | The default **aspose.pydrawing.Color**, <br/><br/>            defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
+| style_color | **aspose.pydrawing.Color** | The default **aspose.pydrawing.Color**, <br/><br/>            defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
 
 
@@ -46,8 +46,8 @@ def get_tile_image(self, background, foreground):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| background | aspose.pydrawing.Color | The background **aspose.pydrawing.Color** for the pattern. |
-| foreground | aspose.pydrawing.Color | The foreground **aspose.pydrawing.Color** for the pattern. |
+| background | **aspose.pydrawing.Color** | The background **aspose.pydrawing.Color** for the pattern. |
+| foreground | **aspose.pydrawing.Color** | The foreground **aspose.pydrawing.Color** for the pattern. |
 
 
 

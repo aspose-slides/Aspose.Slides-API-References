@@ -21,5 +21,6 @@ def fill_format(self):
 
 ### See Also
 * class [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)
+* class [`ITableFormat`](/slides/python-net/aspose.slides/itableformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

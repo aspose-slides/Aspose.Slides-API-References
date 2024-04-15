@@ -7,7 +7,7 @@ url: /aspose.slides/schemecolor/
 ---
 
 
-## SchemeColor class
+## SchemeColor enumeration
 
 Represents colors in a color scheme.
 

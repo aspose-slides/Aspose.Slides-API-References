@@ -7,7 +7,7 @@ url: /aspose.slides/fillblendmode/
 ---
 
 
-## FillBlendMode class
+## FillBlendMode enumeration
 
 Determines blend mode.
 

@@ -21,5 +21,6 @@ def parent_series(self):
 
 ### See Also
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
+* class [`IDataLabelCollection`](/slides/python-net/aspose.slides.charts/idatalabelcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

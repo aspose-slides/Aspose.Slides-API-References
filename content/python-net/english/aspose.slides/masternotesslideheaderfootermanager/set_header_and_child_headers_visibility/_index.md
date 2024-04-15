@@ -22,7 +22,7 @@ def set_header_and_child_headers_visibility(self, is_visible):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| is_visible | bool | true - makes a header placeholders visible, otherwise - hides them. |
+| is_visible | **bool** | true - makes a header placeholders visible, otherwise - hides them. |
 
 
 

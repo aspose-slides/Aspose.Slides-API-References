@@ -25,6 +25,7 @@ def as_i_master_themeable(self):
 ```
 
 ### See Also
+* class [`IMasterNotesSlide`](/slides/python-net/aspose.slides/imasternotesslide)
 * class [`IMasterThemeable`](/slides/python-net/aspose.slides.theme/imasterthemeable)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,5 +23,6 @@ def rotation_center(self, value):
 ```
 
 ### See Also
+* class [`MotionEffect`](/slides/python-net/aspose.slides.animation/motioneffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

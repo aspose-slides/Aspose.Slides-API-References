@@ -20,7 +20,7 @@ def set_geometry_paths(self, geometry_paths):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| geometry_paths | List[IGeometryPath] |  |
+| geometry_paths | **List[IGeometryPath]** |  |
 
 
 

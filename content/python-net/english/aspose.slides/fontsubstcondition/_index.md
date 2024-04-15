@@ -7,7 +7,7 @@ url: /aspose.slides/fontsubstcondition/
 ---
 
 
-## FontSubstCondition class
+## FontSubstCondition enumeration
 
 Represents a rule fot font substitution
 

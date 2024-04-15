@@ -25,5 +25,6 @@ def delay_between_text_parts(self, value):
 ```
 
 ### See Also
+* class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 30
 
 ## alternative_language_id property
 Returns or sets the Id of an alternative language.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def alternative_language_id(self, value):
 ```
 
 ### See Also
+* class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

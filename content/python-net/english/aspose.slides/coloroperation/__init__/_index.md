@@ -20,7 +20,7 @@ def __init__(self, op):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| op | ColorTransformOperation | Operation type. |
+| op | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
 
 
 
@@ -36,12 +36,13 @@ def __init__(self, op, parameter):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| op | ColorTransformOperation | Operation type. |
-| parameter | float | Operation parameter. |
+| op | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
+| parameter | **float** | Operation parameter. |
 
 
 
 ### See Also
 * class [`ColorOperation`](/slides/python-net/aspose.slides/coloroperation)
+* enumeration [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

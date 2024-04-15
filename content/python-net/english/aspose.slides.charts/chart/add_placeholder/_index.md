@@ -25,11 +25,12 @@ def add_placeholder(self, placeholder_to_copy_from):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| placeholder_to_copy_from | IPlaceholder | Placeholder to copy content from. |
+| placeholder_to_copy_from | [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder) | Placeholder to copy content from. |
 
 
 
 ### See Also
 * class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
+* class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -17,5 +17,6 @@ def as_i_collection(self):
 ```
 
 ### See Also
+* class [`IDigitalSignatureCollection`](/slides/python-net/aspose.slides/idigitalsignaturecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

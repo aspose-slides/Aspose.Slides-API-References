@@ -20,5 +20,7 @@ def strikethrough_type(self):
 ```
 
 ### See Also
+* class [`IBasePortionFormatEffectiveData`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata)
+* enumeration [`TextStrikethroughType`](/slides/python-net/aspose.slides/textstrikethroughtype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

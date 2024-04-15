@@ -20,11 +20,12 @@ def send_warning(self, receiver):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| receiver | IWarningCallback |  |
+| receiver | [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback) |  |
 
 
 
 ### See Also
 * class [`INotImplementedWarningInfo`](/slides/python-net/aspose.slides.warnings/inotimplementedwarninginfo)
+* class [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback)
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)

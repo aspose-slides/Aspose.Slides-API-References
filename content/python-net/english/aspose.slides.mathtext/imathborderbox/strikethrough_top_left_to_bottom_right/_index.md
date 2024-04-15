@@ -23,5 +23,6 @@ def strikethrough_top_left_to_bottom_right(self, value):
 ```
 
 ### See Also
+* class [`IMathBorderBox`](/slides/python-net/aspose.slides.mathtext/imathborderbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

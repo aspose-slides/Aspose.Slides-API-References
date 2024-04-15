@@ -7,7 +7,7 @@ url: /aspose.slides/slideorientation/
 ---
 
 
-## SlideOrientation class
+## SlideOrientation enumeration
 
 Represents the slide orientation.
 

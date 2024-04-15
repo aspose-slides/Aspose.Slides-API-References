@@ -38,7 +38,7 @@ The IColorFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`to_string`](/slides/python-net/aspose.slides/icolorformat/to_string/#colorstringformat) | Returns a **string** that represents the current color format. |
+| [`to_string`](/slides/python-net/aspose.slides/icolorformat/to_string/#colorstringformat) | Returns a **str** that represents the current color format. |
 | [`copy_from`](/slides/python-net/aspose.slides/icolorformat/copy_from/#icolorformat) | Copy color format from "color". |
 
 ### See Also

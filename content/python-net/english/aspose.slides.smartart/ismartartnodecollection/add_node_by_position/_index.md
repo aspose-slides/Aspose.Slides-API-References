@@ -25,7 +25,7 @@ def add_node_by_position(self, position):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | int | Zero-base node position. |
+| position | **int** | Zero-base node position. |
 
 ## Exceptions
 
@@ -36,6 +36,7 @@ def add_node_by_position(self, position):
 
 
 ### See Also
+* class [`ISmartArtNode`](/slides/python-net/aspose.slides.smartart/ismartartnode)
 * class [`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

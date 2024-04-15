@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_presentation_text {#string-textextractionarrangingmode}
+## get_presentation_text {#str-textextractionarrangingmode}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -25,12 +25,12 @@ def get_presentation_text(self, file, mode):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string | Input file |
-| mode | TextExtractionArrangingMode | Extraction mode |
+| file | **str** | Input file |
+| mode | [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode) | Extraction mode |
 
 
 
-## get_presentation_text {#systemiostream-textextractionarrangingmode}
+## get_presentation_text {#iorawiobase-textextractionarrangingmode}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -47,12 +47,12 @@ def get_presentation_text(self, stream, mode):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Input stream |
-| mode | TextExtractionArrangingMode | Extraction mode |
+| stream | **io.RawIOBase** | Input stream |
+| mode | [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode) | Extraction mode |
 
 
 
-## get_presentation_text {#systemiostream-textextractionarrangingmode-iloadoptions}
+## get_presentation_text {#iorawiobase-textextractionarrangingmode-iloadoptions}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -69,13 +69,16 @@ def get_presentation_text(self, stream, mode, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Input stream |
-| mode | TextExtractionArrangingMode | Extraction mode |
-| options | ILoadOptions | Load options |
+| stream | **io.RawIOBase** | Input stream |
+| mode | [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode) | Extraction mode |
+| options | [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions) | Load options |
 
 
 
 ### See Also
+* class [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions)
 * class [`IPresentationFactory`](/slides/python-net/aspose.slides/ipresentationfactory)
+* class [`IPresentationText`](/slides/python-net/aspose.slides/ipresentationtext)
+* enumeration [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -7,7 +7,7 @@ url: /aspose.slides.export/pdftextcompression/
 ---
 
 
-## PdfTextCompression class
+## PdfTextCompression enumeration
 
 Constants which define the type of a compression applied to all content in the PDF file except images.
 

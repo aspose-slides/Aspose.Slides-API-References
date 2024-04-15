@@ -21,5 +21,6 @@ def as_i_link_embed_controller(self):
 
 ### See Also
 * class [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller)
+* class [`IVideoPlayerHtmlController`](/slides/python-net/aspose.slides.export/ivideoplayerhtmlcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

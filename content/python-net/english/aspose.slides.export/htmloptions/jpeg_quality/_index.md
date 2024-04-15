@@ -35,5 +35,6 @@ def jpeg_quality(self, value):
 ```
 
 ### See Also
+* class [`HtmlOptions`](/slides/python-net/aspose.slides.export/htmloptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

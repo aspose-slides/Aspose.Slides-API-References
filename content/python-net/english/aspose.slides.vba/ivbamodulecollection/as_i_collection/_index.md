@@ -17,5 +17,6 @@ def as_i_collection(self):
 ```
 
 ### See Also
+* class [`IVbaModuleCollection`](/slides/python-net/aspose.slides.vba/ivbamodulecollection)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

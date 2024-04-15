@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## write_as_svg {#systemiostream}
+## write_as_svg {#iorawiobase}
 Saves content of Shape as SVG file.
 
 
@@ -20,11 +20,11 @@ def write_as_svg(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Target stream |
+| stream | **io.RawIOBase** | Target stream |
 
 
 
-## write_as_svg {#systemiostream-asposeslidesexportisvgoptions}
+## write_as_svg {#iorawiobase-asposeslidesexportisvgoptions}
 Saves content of Shape as SVG file.
 
 
@@ -36,8 +36,8 @@ def write_as_svg(self, stream, svg_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Target stream |
-| svg_options | [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions) | SVG generation options |
+| stream | **io.RawIOBase** | Target stream |
+| svg_options | **aspose.slides.export.ISVGOptions** | SVG generation options |
 
 
 

@@ -7,7 +7,7 @@ url: /aspose.slides.export/textinheritancelimit/
 ---
 
 
-## TextInheritanceLimit class
+## TextInheritanceLimit enumeration
 
 Controls the depth of the text properties inheritance.
 

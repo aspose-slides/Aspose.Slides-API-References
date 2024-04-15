@@ -42,9 +42,9 @@ The GeometryShape type exposes the following members:
 | [`black_white_mode`](/slides/python-net/aspose.slides/geometryshape/black_white_mode/) | Property specifies how a shape will render in black-and-white display mode..<br/>            Read/write [`BlackWhiteMode`](/slides/python-net/aspose.slides/blackwhitemode). |
 | [`unique_id`](/slides/python-net/aspose.slides/geometryshape/unique_id/) | Gets unique shape identifier in presentation scope.<br/>            Read-only **int**.<br/>            See also [`Shape.office_interop_shape_id`](/slides/python-net/aspose.slides/shape#office_interop_shape_id) for getting unique shape identifier in slide scope. |
 | [`office_interop_shape_id`](/slides/python-net/aspose.slides/geometryshape/office_interop_shape_id/) | Gets unique shape identifier in slide scope.<br/>            Read-only **int**.<br/>            See also [`Shape.unique_id`](/slides/python-net/aspose.slides/shape#unique_id) for getting unique shape identifier in presentation scope. |
-| [`alternative_text`](/slides/python-net/aspose.slides/geometryshape/alternative_text/) | Returns or sets the alternative text associated with a shape.<br/>            Read/write **string**. |
-| [`alternative_text_title`](/slides/python-net/aspose.slides/geometryshape/alternative_text_title/) | Returns or sets the title of alternative text associated with a shape.<br/>            Read/write **string**. |
-| [`name`](/slides/python-net/aspose.slides/geometryshape/name/) | Returns or sets the name of a shape.<br/>            Must be not null. Use empty string value if needed.<br/>            Read/write **string**. |
+| [`alternative_text`](/slides/python-net/aspose.slides/geometryshape/alternative_text/) | Returns or sets the alternative text associated with a shape.<br/>            Read/write **str**. |
+| [`alternative_text_title`](/slides/python-net/aspose.slides/geometryshape/alternative_text_title/) | Returns or sets the title of alternative text associated with a shape.<br/>            Read/write **str**. |
+| [`name`](/slides/python-net/aspose.slides/geometryshape/name/) | Returns or sets the name of a shape.<br/>            Must be not null. Use empty string value if needed.<br/>            Read/write **str**. |
 | [`is_decorative`](/slides/python-net/aspose.slides/geometryshape/is_decorative/) | Gets or sets 'Mark as decorative' option<br/>            Reed/write **bool**. |
 | [`shape_lock`](/slides/python-net/aspose.slides/geometryshape/shape_lock/) | Returns shape's locks.<br/>            Read-only [`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock). |
 | [`is_grouped`](/slides/python-net/aspose.slides/geometryshape/is_grouped/) | Determines whether the shape is grouped.<br/>            Read-only **bool**. |
@@ -65,8 +65,8 @@ The GeometryShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/geometryshape/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/geometryshape/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/geometryshape/write_as_svg/#systemiostream) | Saves content of Shape as SVG file. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/geometryshape/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/geometryshape/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/geometryshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/geometryshape/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`add_placeholder`](/slides/python-net/aspose.slides/geometryshape/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/geometryshape/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |

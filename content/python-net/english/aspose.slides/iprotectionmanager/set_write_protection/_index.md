@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_write_protection {#string}
+## set_write_protection {#str}
 Set write protection for this presentation with specified password.
 
 
@@ -20,7 +20,7 @@ def set_write_protection(self, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| password | string | The password. |
+| password | **str** | The password. |
 
 
 

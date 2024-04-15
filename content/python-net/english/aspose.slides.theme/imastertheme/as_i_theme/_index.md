@@ -20,6 +20,7 @@ def as_i_theme(self):
 ```
 
 ### See Also
+* class [`IMasterTheme`](/slides/python-net/aspose.slides.theme/imastertheme)
 * class [`ITheme`](/slides/python-net/aspose.slides.theme/itheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

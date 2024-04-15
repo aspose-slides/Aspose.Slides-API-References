@@ -22,5 +22,6 @@ def size(self, value):
 ```
 
 ### See Also
+* class [`InkBrush`](/slides/python-net/aspose.slides.ink/inkbrush)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

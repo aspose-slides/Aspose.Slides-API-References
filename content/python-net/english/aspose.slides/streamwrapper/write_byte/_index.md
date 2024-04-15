@@ -20,7 +20,7 @@ def write_byte(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | int |  |
+| value | **int** |  |
 
 
 

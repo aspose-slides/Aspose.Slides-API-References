@@ -26,8 +26,8 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x_value | IChartDataCell | Data point XValue |
-| y_value | IChartDataCell | Data point YValue |
+| x_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point XValue |
+| y_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point YValue |
 
 
 
@@ -49,12 +49,12 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x_value | float | Data point XValue |
-| y_value | IChartDataCell | Data point YValue |
+| x_value | **float** | Data point XValue |
+| y_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point YValue |
 
 
 
-## add_data_point_for_scatter_series {#string-ichartdatacell}
+## add_data_point_for_scatter_series {#str-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).
 
@@ -72,8 +72,8 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x_value | string | Data point XValue |
-| y_value | IChartDataCell | Data point YValue |
+| x_value | **str** | Data point XValue |
+| y_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point YValue |
 
 
 
@@ -95,8 +95,8 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x_value | IChartDataCell | Data point XValue |
-| y_value | float | Data point YValue |
+| x_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point XValue |
+| y_value | **float** | Data point YValue |
 
 
 
@@ -118,12 +118,12 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x_value | float | Data point XValue |
-| y_value | float | Data point YValue |
+| x_value | **float** | Data point XValue |
+| y_value | **float** | Data point YValue |
 
 
 
-## add_data_point_for_scatter_series {#string-float}
+## add_data_point_for_scatter_series {#str-float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).
 
@@ -141,12 +141,14 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x_value | string | Data point XValue |
-| y_value | float | Data point YValue |
+| x_value | **str** | Data point XValue |
+| y_value | **float** | Data point YValue |
 
 
 
 ### See Also
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -24,5 +24,6 @@ def root_directory_clsid(self, value):
 ```
 
 ### See Also
+* class [`PptOptions`](/slides/python-net/aspose.slides.export/pptoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

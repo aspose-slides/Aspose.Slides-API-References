@@ -23,5 +23,7 @@ def tick_label_position(self, value):
 ```
 
 ### See Also
+* class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
+* enumeration [`TickLabelPositionType`](/slides/python-net/aspose.slides.charts/ticklabelpositiontype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -25,7 +25,7 @@ def add_clone(self, source_layout):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_layout | ILayoutSlide | Slide to clone. |
+| source_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Slide to clone. |
 
 ### Remarks
 
@@ -54,19 +54,21 @@ def add_clone(self, source_layout, dest_master):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_layout | ILayoutSlide | Slide to clone. |
-| dest_master | IMasterSlide | Master slide for a new layout. |
+| source_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Slide to clone. |
+| dest_master | [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide) | Master slide for a new layout. |
 
 ### Remarks
 
 1) New layout will be linked with defined master in destination presentation.
             So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint.
-            2) Analogue of this method is method **Aspose.Slides.IMasterLayoutSlideCollection.AddClone(Aspose.Slide.**
+            2) Analogue of this method is method **Aspose.Slides.IMasterLayoutSlideCollection.AddClone(Aspose.Slide**
             accessed with [`IMasterSlide.layout_slides`](/slides/python-net/aspose.slides/imasterslide#layout_slides) property.
 
 
 
 ### See Also
 * class [`GlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/globallayoutslidecollection)
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
+* class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,8 +20,8 @@ def reorder(self, index, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Target index. |
-| slide | ISlide | Slide to move. |
+| index | **int** | Target index. |
+| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to move. |
 
 
 
@@ -38,12 +38,13 @@ def reorder(self, index, slides):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Target index. |
-| slides | List[ISlide] | Slides to move. |
+| index | **int** | Target index. |
+| slides | **List[ISlide]** | Slides to move. |
 
 
 
 ### See Also
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`ISlideCollection`](/slides/python-net/aspose.slides/islidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

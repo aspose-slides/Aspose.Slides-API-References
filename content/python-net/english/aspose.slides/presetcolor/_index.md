@@ -7,7 +7,7 @@ url: /aspose.slides/presetcolor/
 ---
 
 
-## PresetColor class
+## PresetColor enumeration
 
 Represents predefined color presets.
 

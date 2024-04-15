@@ -23,5 +23,6 @@ def position(self, value):
 ```
 
 ### See Also
+* class [`GradientStop`](/slides/python-net/aspose.slides/gradientstop)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

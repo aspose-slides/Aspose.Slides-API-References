@@ -25,5 +25,7 @@ def autofit_type(self, value):
 ```
 
 ### See Also
+* class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
+* enumeration [`TextAutofitType`](/slides/python-net/aspose.slides/textautofittype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

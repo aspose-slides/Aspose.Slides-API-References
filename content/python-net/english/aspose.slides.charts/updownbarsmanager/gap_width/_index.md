@@ -23,5 +23,6 @@ def gap_width(self, value):
 ```
 
 ### See Also
+* class [`UpDownBarsManager`](/slides/python-net/aspose.slides.charts/updownbarsmanager)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

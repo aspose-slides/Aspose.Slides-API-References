@@ -20,6 +20,7 @@ def shape_lock(self):
 ```
 
 ### See Also
+* class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
 * class [`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

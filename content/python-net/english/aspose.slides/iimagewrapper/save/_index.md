@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## save {#string}
+## save {#str}
 Saves Image to the specified file
 
 
@@ -20,11 +20,11 @@ def save(self, file_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string | File name **string** |
+| file_name | **str** | File name **str** |
 
 
 
-## save {#systemiostream-ppimageformat}
+## save {#iorawiobase-ppimageformat}
 Saves the Image to the specified stream in the specified format.
 
 
@@ -36,12 +36,12 @@ def save(self, stream, image_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Stream for saving image **System.IO.Stream** |
-| image_format | PPImageFormat | Image format [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |
+| stream | **io.RawIOBase** | Stream for saving image **io.RawIOBase** |
+| image_format | [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) | Image format [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |
 
 
 
-## save {#string-ppimageformat}
+## save {#str-ppimageformat}
 Saves the Image to the specified file in the specified format.
 
 
@@ -53,12 +53,13 @@ def save(self, file_name, image_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string | File name **string** |
-| image_format | PPImageFormat | Image format [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |
+| file_name | **str** | File name **str** |
+| image_format | [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) | Image format [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |
 
 
 
 ### See Also
 * class [`IImageWrapper`](/slides/python-net/aspose.slides/iimagewrapper)
+* enumeration [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

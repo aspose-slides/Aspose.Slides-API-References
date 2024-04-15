@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#liststring}
+## __init__ {#liststr}
 Creates new instance
 
 
@@ -32,7 +32,7 @@ def __init__(self, font_name_exclude_list):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name_exclude_list | List[string] | Fonts to be excluded from embedding |
+| font_name_exclude_list | **List[str]** | Fonts to be excluded from embedding |
 
 
 

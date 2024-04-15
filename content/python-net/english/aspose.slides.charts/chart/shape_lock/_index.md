@@ -20,6 +20,7 @@ def shape_lock(self):
 ```
 
 ### See Also
+* class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * class [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -26,5 +26,6 @@ def data_source_type(self, value):
 ```
 
 ### See Also
+* class [`IBaseChartValue`](/slides/python-net/aspose.slides.charts/ibasechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

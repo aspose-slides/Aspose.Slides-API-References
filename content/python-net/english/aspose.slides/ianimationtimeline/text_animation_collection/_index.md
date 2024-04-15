@@ -20,6 +20,7 @@ def text_animation_collection(self):
 ```
 
 ### See Also
+* class [`IAnimationTimeLine`](/slides/python-net/aspose.slides/ianimationtimeline)
 * class [`ITextAnimationCollection`](/slides/python-net/aspose.slides.animation/itextanimationcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

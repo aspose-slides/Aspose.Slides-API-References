@@ -23,5 +23,7 @@ def major_unit_scale(self, value):
 ```
 
 ### See Also
+* class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
+* enumeration [`TimeUnitType`](/slides/python-net/aspose.slides.charts/timeunittype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

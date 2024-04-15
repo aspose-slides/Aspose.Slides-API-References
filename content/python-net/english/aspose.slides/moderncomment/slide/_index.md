@@ -21,5 +21,6 @@ def slide(self):
 
 ### See Also
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* class [`ModernComment`](/slides/python-net/aspose.slides/moderncomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

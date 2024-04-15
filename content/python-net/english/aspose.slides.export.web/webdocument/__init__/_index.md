@@ -25,11 +25,12 @@ def __init__(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | WebDocumentOptions | Options set for the document. |
+| options | [`WebDocumentOptions`](/slides/python-net/aspose.slides.export.web/webdocumentoptions) | Options set for the document. |
 
 
 
 ### See Also
 * class [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument)
+* class [`WebDocumentOptions`](/slides/python-net/aspose.slides.export.web/webdocumentoptions)
 * module [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web)
 * library [`Aspose.Slides`](/slides/python-net)

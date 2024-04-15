@@ -7,7 +7,7 @@ url: /aspose.slides/patternstyle/
 ---
 
 
-## PatternStyle class
+## PatternStyle enumeration
 
 Represents the pattern style.
 

@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathjustification/
 ---
 
 
-## MathJustification class
+## MathJustification enumeration
 
 Specifies justification of the math paragraph (a series of adjacent instances of mathematical text within the same paragraph)
 

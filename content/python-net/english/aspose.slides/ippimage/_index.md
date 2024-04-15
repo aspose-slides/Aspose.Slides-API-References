@@ -20,7 +20,7 @@ The IPPImage type exposes the following members:
 | [`binary_data`](/slides/python-net/aspose.slides/ippimage/binary_data/) | Returns the copy of an image's data.<br/>            Read-only **int**[]. |
 | [`system_image`](/slides/python-net/aspose.slides/ippimage/system_image/) | Returns the copy of an image of the System.Drawing.Image type.<br/>            Read-only **aspose.pydrawing.Image**. |
 | [`svg_image`](/slides/python-net/aspose.slides/ippimage/svg_image/) | Returns or sets ISvgImage object [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
-| [`content_type`](/slides/python-net/aspose.slides/ippimage/content_type/) | Returns a MIME type of an image, encoded in [`IPPImage.binary_data`](/slides/python-net/aspose.slides/ippimage#binary_data).<br/>            Read-only **string**. |
+| [`content_type`](/slides/python-net/aspose.slides/ippimage/content_type/) | Returns a MIME type of an image, encoded in [`IPPImage.binary_data`](/slides/python-net/aspose.slides/ippimage#binary_data).<br/>            Read-only **str**. |
 | [`width`](/slides/python-net/aspose.slides/ippimage/width/) | Returns a width of an image.<br/>            Read-only **int**. |
 | [`height`](/slides/python-net/aspose.slides/ippimage/height/) | Returns a height of an image.<br/>            Read-only **int**. |
 | [`x`](/slides/python-net/aspose.slides/ippimage/x/) | Returns a X-offset of an image.<br/>            Read-only **int**. |

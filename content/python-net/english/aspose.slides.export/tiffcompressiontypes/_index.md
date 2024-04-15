@@ -7,7 +7,7 @@ url: /aspose.slides.export/tiffcompressiontypes/
 ---
 
 
-## TiffCompressionTypes class
+## TiffCompressionTypes enumeration
 
 Provides options that control how a presentation is compressed in TIFF format.
 

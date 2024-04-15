@@ -23,5 +23,6 @@ def numbered_bullet_start_with(self, value):
 ```
 
 ### See Also
+* class [`BulletFormat`](/slides/python-net/aspose.slides/bulletformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

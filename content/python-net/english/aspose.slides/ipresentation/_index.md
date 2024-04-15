@@ -52,14 +52,14 @@ The IPresentation type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#string-asposeslidesexportsaveformat) | Saves all slides of a presentation to a file with the specified format. |
-| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#systemiostream-asposeslidesexportsaveformat) | Saves all slides of a presentation to a stream in the specified format. |
-| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#string-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#systemiostream-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#string-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a file with the specified format. |
-| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#string-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a file with the specified format. |
-| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#systemiostream-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a stream in the specified format. |
-| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#systemiostream-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a stream in the specified format. |
+| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#str-asposeslidesexportsaveformat) | Saves all slides of a presentation to a file with the specified format. |
+| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#iorawiobase-asposeslidesexportsaveformat) | Saves all slides of a presentation to a stream in the specified format. |
+| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#str-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a file with the specified format. |
+| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a file with the specified format. |
+| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#iorawiobase-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a stream in the specified format. |
+| [`save`](/slides/python-net/aspose.slides/ipresentation/save/#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a stream in the specified format. |
 | [`save`](/slides/python-net/aspose.slides/ipresentation/save/#asposeslidesexportxamlixamloptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-listint) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
@@ -75,8 +75,8 @@ The IPresentation type exposes the following members:
 | [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportirenderingoptions-listint-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
 | [`print`](/slides/python-net/aspose.slides/ipresentation/print/#) | Prints the whole presentation to the default printer. |
 | [`print`](/slides/python-net/aspose.slides/ipresentation/print/#asposepydrawingprintingprintersettings) | Prints the presentation according to the specified printer settings,<br/>            using the standard (no User Interface) print controller. |
-| [`print`](/slides/python-net/aspose.slides/ipresentation/print/#string) | Print the whole presentation to the specified printer,<br/>            using the standard (no User Interface) print controller. |
-| [`print`](/slides/python-net/aspose.slides/ipresentation/print/#asposepydrawingprintingprintersettings-string) | Prints the document according to the specified printer settings, using<br/>            the standard (no User Interface) print controller and a presentation name. |
+| [`print`](/slides/python-net/aspose.slides/ipresentation/print/#str) | Print the whole presentation to the specified printer,<br/>            using the standard (no User Interface) print controller. |
+| [`print`](/slides/python-net/aspose.slides/ipresentation/print/#asposepydrawingprintingprintersettings-str) | Prints the document according to the specified printer settings, using<br/>            the standard (no User Interface) print controller and a presentation name. |
 | [`get_slide_by_id`](/slides/python-net/aspose.slides/ipresentation/get_slide_by_id/#int) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/ipresentation/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
 

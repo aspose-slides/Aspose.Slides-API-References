@@ -29,5 +29,7 @@ def image_type(self, value):
 ```
 
 ### See Also
+* class [`IZoomObject`](/slides/python-net/aspose.slides/izoomobject)
+* enumeration [`ZoomImageType`](/slides/python-net/aspose.slides/zoomimagetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

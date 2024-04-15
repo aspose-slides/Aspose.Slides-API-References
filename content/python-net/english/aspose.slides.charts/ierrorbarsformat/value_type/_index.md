@@ -24,5 +24,7 @@ def value_type(self, value):
 ```
 
 ### See Also
+* enumeration [`ErrorBarValueType`](/slides/python-net/aspose.slides.charts/errorbarvaluetype)
+* class [`IErrorBarsFormat`](/slides/python-net/aspose.slides.charts/ierrorbarsformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

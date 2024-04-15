@@ -20,7 +20,7 @@ def set_header_visibility(self, is_visible):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| is_visible | bool |  |
+| is_visible | **bool** |  |
 
 
 

@@ -25,7 +25,7 @@ def get_color_scheme(self, style_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | aspose.pydrawing.Color | Color **aspose.pydrawing.Color** |
+| style_color | **aspose.pydrawing.Color** | Color **aspose.pydrawing.Color** |
 
 
 

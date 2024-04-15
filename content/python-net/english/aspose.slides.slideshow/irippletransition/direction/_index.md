@@ -23,5 +23,7 @@ def direction(self, value):
 ```
 
 ### See Also
+* class [`IRippleTransition`](/slides/python-net/aspose.slides.slideshow/irippletransition)
+* enumeration [`TransitionCornerAndCenterDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioncornerandcenterdirectiontype)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

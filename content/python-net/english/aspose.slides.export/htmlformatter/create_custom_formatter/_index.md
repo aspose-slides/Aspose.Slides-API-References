@@ -25,11 +25,12 @@ def create_custom_formatter(self, formatting_controller):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| formatting_controller | IHtmlFormattingController | Callback interface which controls html file generation. |
+| formatting_controller | [`IHtmlFormattingController`](/slides/python-net/aspose.slides.export/ihtmlformattingcontroller) | Callback interface which controls html file generation. |
 
 
 
 ### See Also
 * class [`HtmlFormatter`](/slides/python-net/aspose.slides.export/htmlformatter)
+* class [`IHtmlFormattingController`](/slides/python-net/aspose.slides.export/ihtmlformattingcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove {#string}
+## remove {#str}
 Removes the tag with a specified name from the collection.
 
 
@@ -20,7 +20,7 @@ def remove(self, name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | The name of tag to remove. |
+| name | **str** | The name of tag to remove. |
 
 
 

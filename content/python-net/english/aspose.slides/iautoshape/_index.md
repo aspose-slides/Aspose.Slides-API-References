@@ -68,9 +68,9 @@ The IAutoShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/iautoshape/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/iautoshape/get_thumbnail/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#systemiostream) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
-| [`add_text_frame`](/slides/python-net/aspose.slides/iautoshape/add_text_frame/#string) | Adds a new TextFrameEx to a shape.<br/>            If shape already has TextFrameEx then simply changes its text. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
+| [`add_text_frame`](/slides/python-net/aspose.slides/iautoshape/add_text_frame/#str) | Adds a new TextFrameEx to a shape.<br/>            If shape already has TextFrameEx then simply changes its text. |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides/iautoshape/get_geometry_paths/#) |  |
 | [`set_geometry_path`](/slides/python-net/aspose.slides/iautoshape/set_geometry_path/#igeometrypath) |  |
 | [`set_geometry_paths`](/slides/python-net/aspose.slides/iautoshape/set_geometry_paths/#listigeometrypath) |  |

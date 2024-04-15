@@ -7,7 +7,7 @@ url: /aspose.slides/gradientshape/
 ---
 
 
-## GradientShape class
+## GradientShape enumeration
 
 Represents the shape of gradient fill.
 

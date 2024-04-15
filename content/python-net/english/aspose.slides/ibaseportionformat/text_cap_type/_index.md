@@ -23,5 +23,7 @@ def text_cap_type(self, value):
 ```
 
 ### See Also
+* class [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat)
+* enumeration [`TextCapType`](/slides/python-net/aspose.slides/textcaptype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,6 +23,7 @@ def master_slide(self, value):
 ```
 
 ### See Also
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

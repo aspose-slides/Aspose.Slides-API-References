@@ -32,7 +32,7 @@ def __init__(self, para):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| para | Paragraph |  |
+| para | [`Paragraph`](/slides/python-net/aspose.slides/paragraph) |  |
 
 
 

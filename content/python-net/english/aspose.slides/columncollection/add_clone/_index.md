@@ -25,12 +25,13 @@ def add_clone(self, templ, with_attached_columns):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| templ | IColumn | Column which is used as a template. |
-| with_attached_columns | bool | True to copy also all columns attached to the template row. |
+| templ | [`IColumn`](/slides/python-net/aspose.slides/icolumn) | Column which is used as a template. |
+| with_attached_columns | **bool** | True to copy also all columns attached to the template row. |
 
 
 
 ### See Also
 * class [`ColumnCollection`](/slides/python-net/aspose.slides/columncollection)
+* class [`IColumn`](/slides/python-net/aspose.slides/icolumn)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

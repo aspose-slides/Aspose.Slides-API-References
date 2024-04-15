@@ -25,11 +25,11 @@ def set_superscript(self, superscript):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| superscript | IMathElement | Superscript (upper index on the right) |
+| superscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Superscript (upper index on the right) |
 
 
 
-## set_superscript {#string}
+## set_superscript {#str}
 Creates superscript
 
 ### Returns
@@ -46,11 +46,12 @@ def set_superscript(self, superscript):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| superscript | string | Superscript (upper index on the right) |
+| superscript | **str** | Superscript (upper index on the right) |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`IMathSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelement)
 * class [`MathSubscriptElement`](/slides/python-net/aspose.slides.mathtext/mathsubscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

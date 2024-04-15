@@ -21,5 +21,6 @@ def as_i_base_table_format_effective_data(self):
 
 ### See Also
 * class [`IBaseTableFormatEffectiveData`](/slides/python-net/aspose.slides/ibasetableformateffectivedata)
+* class [`IRowFormatEffectiveData`](/slides/python-net/aspose.slides/irowformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

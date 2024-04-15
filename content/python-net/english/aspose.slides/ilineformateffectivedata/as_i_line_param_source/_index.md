@@ -20,6 +20,7 @@ def as_i_line_param_source(self):
 ```
 
 ### See Also
+* class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
 * class [`ILineParamSource`](/slides/python-net/aspose.slides/ilineparamsource)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

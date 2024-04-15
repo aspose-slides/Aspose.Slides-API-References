@@ -10,7 +10,7 @@ weight: 410
 
 ## link_path_long property
 Returns or sets the name of an audio file which is linked to an AudioFrame.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def link_path_long(self, value):
 ```
 
 ### See Also
+* class [`AudioFrame`](/slides/python-net/aspose.slides/audioframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

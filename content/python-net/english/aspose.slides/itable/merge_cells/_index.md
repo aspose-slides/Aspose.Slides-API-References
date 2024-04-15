@@ -25,13 +25,14 @@ def merge_cells(self, cell1, cell2, allow_splitting):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cell1 | ICell | Cell to merge. |
-| cell2 | ICell | Cell to merge. |
-| allow_splitting | bool | True to allow cells splitting. |
+| cell1 | [`ICell`](/slides/python-net/aspose.slides/icell) | Cell to merge. |
+| cell2 | [`ICell`](/slides/python-net/aspose.slides/icell) | Cell to merge. |
+| allow_splitting | **bool** | True to allow cells splitting. |
 
 
 
 ### See Also
+* class [`ICell`](/slides/python-net/aspose.slides/icell)
 * class [`ITable`](/slides/python-net/aspose.slides/itable)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -25,5 +25,7 @@ def data_source_type_for_x_values(self, value):
 ```
 
 ### See Also
+* class [`ChartDataPointCollection`](/slides/python-net/aspose.slides.charts/chartdatapointcollection)
+* enumeration [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

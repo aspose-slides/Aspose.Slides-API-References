@@ -29,5 +29,6 @@ def created_time(self, value):
 ```
 
 ### See Also
+* class [`IComment`](/slides/python-net/aspose.slides/icomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

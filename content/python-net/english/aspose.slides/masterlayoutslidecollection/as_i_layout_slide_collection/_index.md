@@ -17,5 +17,6 @@ def as_i_layout_slide_collection(self):
 ```
 
 ### See Also
+* class [`MasterLayoutSlideCollection`](/slides/python-net/aspose.slides/masterlayoutslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

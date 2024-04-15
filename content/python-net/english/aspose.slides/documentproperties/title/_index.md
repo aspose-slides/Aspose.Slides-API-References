@@ -10,7 +10,7 @@ weight: 320
 
 ## title property
 Returns or sets the title of a presentation.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def title(self, value):
 ```
 
 ### See Also
+* class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

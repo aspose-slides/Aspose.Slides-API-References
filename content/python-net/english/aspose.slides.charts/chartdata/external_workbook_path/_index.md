@@ -19,5 +19,6 @@ def external_workbook_path(self):
 ```
 
 ### See Also
+* class [`ChartData`](/slides/python-net/aspose.slides.charts/chartdata)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

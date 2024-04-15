@@ -20,7 +20,7 @@ def split_by_row_span(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index of row. |
+| index | **int** | Index of row. |
 
 
 

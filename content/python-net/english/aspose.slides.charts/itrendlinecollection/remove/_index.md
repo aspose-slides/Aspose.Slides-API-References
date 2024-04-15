@@ -20,7 +20,7 @@ def remove(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | ITrendline | Trendline to remove [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline) |
+| value | [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline) | Trendline to remove [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline) |
 
 
 

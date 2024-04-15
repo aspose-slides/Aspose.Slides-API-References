@@ -24,5 +24,6 @@ def anchor_point(self, value):
 ```
 
 ### See Also
+* class [`IBackdrop3DScene`](/slides/python-net/aspose.slides/ibackdrop3dscene)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

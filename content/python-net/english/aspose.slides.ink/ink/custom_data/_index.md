@@ -21,5 +21,6 @@ def custom_data(self):
 
 ### See Also
 * class [`ICustomData`](/slides/python-net/aspose.slides/icustomdata)
+* class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

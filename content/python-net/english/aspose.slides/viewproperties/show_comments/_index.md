@@ -23,5 +23,7 @@ def show_comments(self, value):
 ```
 
 ### See Also
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
+* class [`ViewProperties`](/slides/python-net/aspose.slides/viewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

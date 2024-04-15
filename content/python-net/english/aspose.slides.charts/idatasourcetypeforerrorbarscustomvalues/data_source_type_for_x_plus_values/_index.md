@@ -25,5 +25,7 @@ def data_source_type_for_x_plus_values(self, value):
 ```
 
 ### See Also
+* enumeration [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype)
+* class [`IDataSourceTypeForErrorBarsCustomValues`](/slides/python-net/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

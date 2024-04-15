@@ -23,5 +23,7 @@ def display_unit(self, value):
 ```
 
 ### See Also
+* enumeration [`DisplayUnitType`](/slides/python-net/aspose.slides.charts/displayunittype)
+* class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

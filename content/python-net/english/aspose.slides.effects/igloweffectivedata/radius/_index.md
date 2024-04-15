@@ -20,5 +20,6 @@ def radius(self):
 ```
 
 ### See Also
+* class [`IGlowEffectiveData`](/slides/python-net/aspose.slides.effects/igloweffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

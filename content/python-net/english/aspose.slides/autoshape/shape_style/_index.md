@@ -20,6 +20,7 @@ def shape_style(self):
 ```
 
 ### See Also
+* class [`AutoShape`](/slides/python-net/aspose.slides/autoshape)
 * class [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -22,11 +22,12 @@ def is_2d_chart(self, chart_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| chart_type | ChartType |  |
+| chart_type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) |  |
 
 
 
 ### See Also
+* enumeration [`ChartType`](/slides/python-net/aspose.slides.charts/charttype)
 * class [`ChartTypeCharacterizer`](/slides/python-net/aspose.slides.charts/charttypecharacterizer)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

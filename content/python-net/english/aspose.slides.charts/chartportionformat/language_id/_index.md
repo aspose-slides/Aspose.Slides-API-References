@@ -10,7 +10,7 @@ weight: 180
 
 ## language_id property
 Returns or sets the Id of a proofing language. Used for checking spelling and grammar.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def language_id(self, value):
 ```
 
 ### See Also
+* class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

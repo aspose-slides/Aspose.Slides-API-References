@@ -7,7 +7,7 @@ url: /aspose.slides/linesketchtype/
 ---
 
 
-## LineSketchType class
+## LineSketchType enumeration
 
 Represents which sketch type or effect a shape has been assigned.
 

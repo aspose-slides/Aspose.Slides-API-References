@@ -25,6 +25,7 @@ def as_i_layout_slide_collection(self):
 ```
 
 ### See Also
+* class [`IGlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/igloballayoutslidecollection)
 * class [`ILayoutSlideCollection`](/slides/python-net/aspose.slides/ilayoutslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

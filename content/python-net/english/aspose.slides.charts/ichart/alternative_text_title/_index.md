@@ -20,5 +20,6 @@ def alternative_text_title(self, value):
 ```
 
 ### See Also
+* class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

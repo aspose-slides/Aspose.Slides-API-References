@@ -25,7 +25,7 @@ def get_thumbnails(self, notes_comments_layouting):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
+| notes_comments_layouting | **aspose.slides.export.INotesCommentsLayoutingOptions** | Options for notes and comments layouting. |
 
 
 
@@ -46,7 +46,7 @@ def get_thumbnails(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
+| options | **aspose.slides.export.IRenderingOptions** | Rendering options. |
 
 
 
@@ -67,8 +67,8 @@ def get_thumbnails(self, notes_comments_layouting, slides):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | List[int] | Array with slide positions, starting from 1. |
+| notes_comments_layouting | **aspose.slides.export.INotesCommentsLayoutingOptions** | Options for notes and comments layouting. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
 
 
 
@@ -89,8 +89,8 @@ def get_thumbnails(self, notes_comments_layouting, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| image_size | aspose.pydrawing.Size | Size of the image to create. |
+| notes_comments_layouting | **aspose.slides.export.INotesCommentsLayoutingOptions** | Options for notes and comments layouting. |
+| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
 
@@ -111,8 +111,8 @@ def get_thumbnails(self, options, slides):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
-| slides | List[int] | Array with slide positions, starting from 1. |
+| options | **aspose.slides.export.IRenderingOptions** | Rendering options. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
 
 
 
@@ -133,8 +133,8 @@ def get_thumbnails(self, options, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
-| image_size | aspose.pydrawing.Size | Size of the image to create. |
+| options | **aspose.slides.export.IRenderingOptions** | Rendering options. |
+| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
 
@@ -155,9 +155,9 @@ def get_thumbnails(self, notes_comments_layouting, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
+| notes_comments_layouting | **aspose.slides.export.INotesCommentsLayoutingOptions** | Options for notes and comments layouting. |
+| scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 
@@ -178,9 +178,9 @@ def get_thumbnails(self, notes_comments_layouting, slides, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | List[int] | Array with slide positions, starting from 1. |
-| image_size | aspose.pydrawing.Size | Size of the image to create. |
+| notes_comments_layouting | **aspose.slides.export.INotesCommentsLayoutingOptions** | Options for notes and comments layouting. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
 
@@ -201,9 +201,9 @@ def get_thumbnails(self, options, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
-| scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
+| options | **aspose.slides.export.IRenderingOptions** | Rendering options. |
+| scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 
@@ -224,9 +224,9 @@ def get_thumbnails(self, options, slides, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
-| slides | List[int] | Array with slide positions, starting from 1. |
-| image_size | aspose.pydrawing.Size | Size of the image to create. |
+| options | **aspose.slides.export.IRenderingOptions** | Rendering options. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
 
@@ -247,10 +247,10 @@ def get_thumbnails(self, notes_comments_layouting, slides, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| notes_comments_layouting | [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | List[int] | Array with slide positions, starting from 1. |
-| scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
+| notes_comments_layouting | **aspose.slides.export.INotesCommentsLayoutingOptions** | Options for notes and comments layouting. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 
@@ -271,10 +271,10 @@ def get_thumbnails(self, options, slides, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
-| slides | List[int] | Array with slide positions, starting from 1. |
-| scale_x | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scale_y | float | The value by which to scale this Thumbnail in the y-axis direction. |
+| options | **aspose.slides.export.IRenderingOptions** | Rendering options. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 

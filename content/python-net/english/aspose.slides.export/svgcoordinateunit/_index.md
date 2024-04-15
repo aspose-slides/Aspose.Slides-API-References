@@ -7,7 +7,7 @@ url: /aspose.slides.export/svgcoordinateunit/
 ---
 
 
-## SvgCoordinateUnit class
+## SvgCoordinateUnit enumeration
 
 Represents CSS2 coordinate units used to define SVG coordinates.
 

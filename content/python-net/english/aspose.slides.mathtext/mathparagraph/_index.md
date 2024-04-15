@@ -46,7 +46,7 @@ The MathParagraph type exposes the following members:
 | [`index_of`](/slides/python-net/aspose.slides.mathtext/mathparagraph/index_of/#imathblock) | Determines the index of a specific IMathBlock in collection. |
 | [`insert`](/slides/python-net/aspose.slides.mathtext/mathparagraph/insert/#int-imathblock) | Inserts IMathBlock into the collection at the specified index. |
 | [`remove_at`](/slides/python-net/aspose.slides.mathtext/mathparagraph/remove_at/#int) | Removes an item at the specified index of the collection. |
-| [`write_as_math_ml`](/slides/python-net/aspose.slides.mathtext/mathparagraph/write_as_math_ml/#systemiostream) | Saves content of this [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph) as MathML |
+| [`write_as_math_ml`](/slides/python-net/aspose.slides.mathtext/mathparagraph/write_as_math_ml/#iorawiobase) | Saves content of this [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph) as MathML |
 | [`to_latex`](/slides/python-net/aspose.slides.mathtext/mathparagraph/to_latex/#) | Gets mathematical equation in LaTeX format |
 
 ### See Also

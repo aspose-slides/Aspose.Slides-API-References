@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## set_date_time_text {#string}
+## set_date_time_text {#str}
 
 
 
@@ -20,7 +20,7 @@ def set_date_time_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string |  |
+| text | **str** |  |
 
 
 

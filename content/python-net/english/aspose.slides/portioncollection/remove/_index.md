@@ -29,7 +29,7 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IPortion | The object to remove from the **System.Collections.Generic.ICollection`1**. |
+| item | [`IPortion`](/slides/python-net/aspose.slides/iportion) | The object to remove from the **System.Collections.Generic.ICollection`1**. |
 
 ## Exceptions
 
@@ -40,6 +40,7 @@ def remove(self, item):
 
 
 ### See Also
+* class [`IPortion`](/slides/python-net/aspose.slides/iportion)
 * class [`PortionCollection`](/slides/python-net/aspose.slides/portioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

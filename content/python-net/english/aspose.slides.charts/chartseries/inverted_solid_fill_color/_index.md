@@ -20,6 +20,7 @@ def inverted_solid_fill_color(self):
 ```
 
 ### See Also
+* class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * class [`ColorFormat`](/slides/python-net/aspose.slides/colorformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

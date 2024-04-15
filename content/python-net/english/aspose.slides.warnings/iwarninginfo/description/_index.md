@@ -10,7 +10,7 @@ weight: 20
 
 ## description property
 Returns a human readable description of this warning.
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def description(self):
 ```
 
 ### See Also
+* class [`IWarningInfo`](/slides/python-net/aspose.slides.warnings/iwarninginfo)
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)

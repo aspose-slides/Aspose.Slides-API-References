@@ -20,7 +20,7 @@ def remove_node(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Zero-based index of node |
+| index | **int** | Zero-based index of node |
 
 ## Exceptions
 
@@ -42,11 +42,12 @@ def remove_node(self, node_obj):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| node_obj | ISmartArtNode | Node to remove. |
+| node_obj | [`ISmartArtNode`](/slides/python-net/aspose.slides.smartart/ismartartnode) | Node to remove. |
 
 
 
 ### See Also
+* class [`ISmartArtNode`](/slides/python-net/aspose.slides.smartart/ismartartnode)
 * class [`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

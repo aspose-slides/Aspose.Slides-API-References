@@ -10,7 +10,7 @@ weight: 30
 
 ## substituted_font_name property
 Indicates the replacement font name for the original font.
-            Read-only **string**
+            Read-only **str**
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def substituted_font_name(self):
 ```
 
 ### See Also
+* class [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

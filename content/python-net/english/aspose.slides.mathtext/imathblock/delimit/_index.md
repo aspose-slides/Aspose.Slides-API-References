@@ -25,11 +25,12 @@ def delimit(self, separator_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| separator_character | char | Character used as a separator |
+| separator_character | **char** | Character used as a separator |
 
 
 
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
+* class [`IMathDelimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

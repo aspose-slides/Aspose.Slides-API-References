@@ -7,7 +7,7 @@ url: /aspose.slides.export/markdownexporttype/
 ---
 
 
-## MarkdownExportType class
+## MarkdownExportType enumeration
 
 Type of rendering document.
 

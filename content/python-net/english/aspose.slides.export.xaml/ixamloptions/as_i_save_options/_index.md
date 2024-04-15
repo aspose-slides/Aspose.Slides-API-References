@@ -26,5 +26,6 @@ def as_i_save_options(self):
 
 ### See Also
 * class [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions)
+* class [`IXamlOptions`](/slides/python-net/aspose.slides.export.xaml/ixamloptions)
 * module [`aspose.slides.export.xaml`](/slides/python-net/aspose.slides.export.xaml)
 * library [`Aspose.Slides`](/slides/python-net)

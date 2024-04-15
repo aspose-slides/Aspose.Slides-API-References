@@ -24,5 +24,6 @@ def effect_animate_background_shape(self, value):
 
 ### See Also
 * class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
+* class [`ITextAnimation`](/slides/python-net/aspose.slides.animation/itextanimation)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

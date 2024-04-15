@@ -23,5 +23,7 @@ def access_permissions(self, value):
 ```
 
 ### See Also
+* class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
+* enumeration [`PdfAccessPermissions`](/slides/python-net/aspose.slides.export/pdfaccesspermissions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

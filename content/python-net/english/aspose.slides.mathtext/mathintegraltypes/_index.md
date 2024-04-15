@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathintegraltypes/
 ---
 
 
-## MathIntegralTypes class
+## MathIntegralTypes enumeration
 
 Mathematical integral types
 

@@ -20,5 +20,6 @@ def warning_type(self):
 ```
 
 ### See Also
+* class [`IWarningInfo`](/slides/python-net/aspose.slides.warnings/iwarninginfo)
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)

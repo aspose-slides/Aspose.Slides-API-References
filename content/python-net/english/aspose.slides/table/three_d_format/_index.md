@@ -22,5 +22,6 @@ def three_d_format(self):
 
 ### See Also
 * class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
+* class [`Table`](/slides/python-net/aspose.slides/table)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

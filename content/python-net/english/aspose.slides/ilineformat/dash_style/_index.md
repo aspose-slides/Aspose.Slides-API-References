@@ -23,5 +23,7 @@ def dash_style(self, value):
 ```
 
 ### See Also
+* class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
+* enumeration [`LineDashStyle`](/slides/python-net/aspose.slides/linedashstyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

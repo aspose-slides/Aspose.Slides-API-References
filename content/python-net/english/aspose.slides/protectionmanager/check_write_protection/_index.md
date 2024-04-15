@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## check_write_protection {#string}
+## check_write_protection {#str}
 Determines whether a presentation is a password protected to modify.
 
 ### Returns
@@ -25,7 +25,7 @@ def check_write_protection(self, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| password | string | The password for checking. |
+| password | **str** | The password for checking. |
 
 ### Remarks
 

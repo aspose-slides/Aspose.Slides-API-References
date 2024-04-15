@@ -32,11 +32,12 @@ def create_memory_stream_wrapper(self, buffer):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes |  |
+| buffer | **bytes** |  |
 
 
 
 ### See Also
+* class [`IStreamWrapper`](/slides/python-net/aspose.slides/istreamwrapper)
 * class [`StreamWrapperFactory`](/slides/python-net/aspose.slides/streamwrapperfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

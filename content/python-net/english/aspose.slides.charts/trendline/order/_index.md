@@ -23,5 +23,6 @@ def order(self, value):
 ```
 
 ### See Also
+* class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

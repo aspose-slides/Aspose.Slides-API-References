@@ -20,7 +20,7 @@ def replace_image(self, new_image_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_image_data | bytes | The new image's data. |
+| new_image_data | **bytes** | The new image's data. |
 
 
 
@@ -36,7 +36,7 @@ def replace_image(self, new_image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_image | aspose.pydrawing.Image | The new image. |
+| new_image | **aspose.pydrawing.Image** | The new image. |
 
 
 
@@ -52,7 +52,7 @@ def replace_image(self, new_image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| new_image | IPPImage | The new IPPImage. |
+| new_image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The new IPPImage. |
 
 
 

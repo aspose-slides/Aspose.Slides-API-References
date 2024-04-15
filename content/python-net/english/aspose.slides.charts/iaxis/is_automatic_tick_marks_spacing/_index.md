@@ -23,5 +23,6 @@ def is_automatic_tick_marks_spacing(self, value):
 ```
 
 ### See Also
+* class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

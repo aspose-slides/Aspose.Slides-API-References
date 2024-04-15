@@ -25,5 +25,7 @@ def text_vertical_type(self, value):
 ```
 
 ### See Also
+* class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
+* enumeration [`TextVerticalType`](/slides/python-net/aspose.slides/textverticaltype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

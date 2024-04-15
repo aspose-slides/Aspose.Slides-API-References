@@ -7,7 +7,7 @@ url: /aspose.slides.charts/chartshapetype/
 ---
 
 
-## ChartShapeType class
+## ChartShapeType enumeration
 
 Represents a shape of chart.
 

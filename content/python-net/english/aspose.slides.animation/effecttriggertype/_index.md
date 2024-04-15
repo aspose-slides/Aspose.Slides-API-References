@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effecttriggertype/
 ---
 
 
-## EffectTriggerType class
+## EffectTriggerType enumeration
 
 Represent trigger type of effect.
 

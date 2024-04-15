@@ -7,7 +7,7 @@ url: /aspose.slides/shapeelementfillsource/
 ---
 
 
-## ShapeElementFillSource class
+## ShapeElementFillSource enumeration
 
 Represents how shape element should be filled.
 

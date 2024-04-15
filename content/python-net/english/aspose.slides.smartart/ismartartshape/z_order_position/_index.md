@@ -17,5 +17,6 @@ def z_order_position(self):
 ```
 
 ### See Also
+* class [`ISmartArtShape`](/slides/python-net/aspose.slides.smartart/ismartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

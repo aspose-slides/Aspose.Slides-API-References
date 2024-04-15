@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathrowspacingrule/
 ---
 
 
-## MathRowSpacingRule class
+## MathRowSpacingRule enumeration
 
 The type of vertical spacing between columns in a matrix or array
 

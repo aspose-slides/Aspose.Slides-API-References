@@ -26,5 +26,6 @@ def parent_group(self):
 
 ### See Also
 * class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
+* class [`SmartArt`](/slides/python-net/aspose.slides.smartart/smartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

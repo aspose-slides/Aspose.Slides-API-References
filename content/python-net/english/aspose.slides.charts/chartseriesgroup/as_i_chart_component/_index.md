@@ -17,5 +17,6 @@ def as_i_chart_component(self):
 ```
 
 ### See Also
+* class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

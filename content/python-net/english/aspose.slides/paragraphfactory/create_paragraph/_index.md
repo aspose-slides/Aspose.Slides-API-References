@@ -42,11 +42,12 @@ def create_paragraph(self, paragraph):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| paragraph | IParagraph | A paragraph to use data. |
+| paragraph | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | A paragraph to use data. |
 
 
 
 ### See Also
+* class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
 * class [`ParagraphFactory`](/slides/python-net/aspose.slides/paragraphfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

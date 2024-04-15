@@ -21,5 +21,6 @@ def as_i_base_chart_value(self):
 
 ### See Also
 * class [`IBaseChartValue`](/slides/python-net/aspose.slides.charts/ibasechartvalue)
+* class [`IMultipleCellChartValue`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

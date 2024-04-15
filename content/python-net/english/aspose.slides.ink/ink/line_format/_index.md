@@ -22,5 +22,6 @@ def line_format(self):
 
 ### See Also
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
+* class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

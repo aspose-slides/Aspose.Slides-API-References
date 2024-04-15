@@ -25,11 +25,11 @@ def insert_summary_zoom_frame(self, index, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | The zero-based index at which Section Zoom frame should be inserted. |
-| x | float | X coordinate of a new Section Zoom frame **float**. |
-| y | float | Y coordinate of a new Section Zoom frame **float**. |
-| width | float | Width of a new Section Zoom frame **float**. |
-| height | float | Height of a new Section Zoom frame **float**. |
+| index | **int** | The zero-based index at which Section Zoom frame should be inserted. |
+| x | **float** | X coordinate of a new Section Zoom frame **float**. |
+| y | **float** | Y coordinate of a new Section Zoom frame **float**. |
+| width | **float** | Width of a new Section Zoom frame **float**. |
+| height | **float** | Height of a new Section Zoom frame **float**. |
 
 ### Remarks
 

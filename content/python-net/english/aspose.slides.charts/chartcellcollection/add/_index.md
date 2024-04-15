@@ -20,7 +20,7 @@ def add(self, cell):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cell | IChartDataCell | New cell to add. |
+| cell | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | New cell to add. |
 
 
 
@@ -36,7 +36,7 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | any | The value. |
+| value | **any** | The value. |
 
 ### Remarks
 
@@ -55,5 +55,6 @@ This method adds worksheet with name AUTO_DATA and adds all values there.  If yo
 * class [`ChartCellCollection`](/slides/python-net/aspose.slides.charts/chartcellcollection)
 * class [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell)
 * class [`ChartDataWorkbook`](/slides/python-net/aspose.slides.charts/chartdataworkbook)
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

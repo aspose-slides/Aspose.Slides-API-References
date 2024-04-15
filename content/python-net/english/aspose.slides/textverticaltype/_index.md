@@ -7,7 +7,7 @@ url: /aspose.slides/textverticaltype/
 ---
 
 
-## TextVerticalType class
+## TextVerticalType enumeration
 
 Determines vertical writing mode for a text.
 

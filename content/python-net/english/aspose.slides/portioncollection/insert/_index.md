@@ -20,12 +20,13 @@ def insert(self, index, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | The zero-based index at which Portion should be inserted. |
-| value | IPortion | The Portion to insert. |
+| index | **int** | The zero-based index at which Portion should be inserted. |
+| value | [`IPortion`](/slides/python-net/aspose.slides/iportion) | The Portion to insert. |
 
 
 
 ### See Also
+* class [`IPortion`](/slides/python-net/aspose.slides/iportion)
 * class [`PortionCollection`](/slides/python-net/aspose.slides/portioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

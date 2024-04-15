@@ -25,5 +25,6 @@ def sound_is_built_in(self, value):
 ```
 
 ### See Also
+* class [`SlideShowTransition`](/slides/python-net/aspose.slides.slideshow/slideshowtransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

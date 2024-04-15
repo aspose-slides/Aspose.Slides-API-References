@@ -20,6 +20,7 @@ def as_i_math_element_collection(self):
 ```
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

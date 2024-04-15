@@ -20,6 +20,7 @@ def as_i_layoutable(self):
 ```
 
 ### See Also
+* class [`IChartTitle`](/slides/python-net/aspose.slides.charts/icharttitle)
 * class [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

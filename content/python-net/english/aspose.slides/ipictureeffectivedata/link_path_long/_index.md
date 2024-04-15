@@ -10,7 +10,7 @@ weight: 30
 
 ## link_path_long property
 Returns linked image's URL.
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def link_path_long(self):
 ```
 
 ### See Also
+* class [`IPictureEffectiveData`](/slides/python-net/aspose.slides/ipictureeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

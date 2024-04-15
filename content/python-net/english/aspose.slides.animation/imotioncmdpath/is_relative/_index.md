@@ -23,5 +23,6 @@ def is_relative(self, value):
 ```
 
 ### See Also
+* class [`IMotionCmdPath`](/slides/python-net/aspose.slides.animation/imotioncmdpath)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

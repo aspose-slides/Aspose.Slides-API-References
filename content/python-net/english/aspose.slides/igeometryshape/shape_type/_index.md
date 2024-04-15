@@ -24,5 +24,7 @@ def shape_type(self, value):
 ```
 
 ### See Also
+* class [`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape)
+* enumeration [`ShapeType`](/slides/python-net/aspose.slides/shapetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

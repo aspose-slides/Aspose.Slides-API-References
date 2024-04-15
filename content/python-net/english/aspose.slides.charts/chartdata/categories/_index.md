@@ -31,6 +31,7 @@ def categories(self):
 ```
 
 ### See Also
+* class [`ChartData`](/slides/python-net/aspose.slides.charts/chartdata)
 * class [`IChartCategoryCollection`](/slides/python-net/aspose.slides.charts/ichartcategorycollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

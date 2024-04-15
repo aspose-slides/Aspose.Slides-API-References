@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_or_create_by_value {#string}
+## get_or_create_by_value {#str}
 Looks for existing behavior property by value or creates new custom one with the specified value
 
 ### Returns
@@ -25,7 +25,7 @@ def get_or_create_by_value(self, property_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| property_value | string | value of the property |
+| property_value | **str** | value of the property |
 
 
 

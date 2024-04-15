@@ -40,8 +40,8 @@ The IBasePortionFormat type exposes the following members:
 | [`symbol_font`](/slides/python-net/aspose.slides/ibaseportionformat/symbol_font/) | Returns or sets the symbolic font info.<br/>            Null means font is undefined and should be inherited from the Master.<br/>            Read/write [`IFontData`](/slides/python-net/aspose.slides/ifontdata). |
 | [`escapement`](/slides/python-net/aspose.slides/ibaseportionformat/escapement/) | Returns or sets the superscript or subscript text.<br/>            Value from -100% (subscript) to 100% (superscript).<br/>            **float.NaN**  means value is undefined and should be inherited from the Master.<br/>            Read/write **float**. |
 | [`kerning_minimal_size`](/slides/python-net/aspose.slides/ibaseportionformat/kerning_minimal_size/) | Returns or sets the minimal font size, for which kerning should be switched on.<br/>            **float.NaN**  means value is undefined and should be inherited from the Master.<br/>            Read/write **float**. |
-| [`language_id`](/slides/python-net/aspose.slides/ibaseportionformat/language_id/) | Returns or sets the Id of a proofing language. Used for checking spelling and grammar.<br/>            Read/write **string**. |
-| [`alternative_language_id`](/slides/python-net/aspose.slides/ibaseportionformat/alternative_language_id/) | Returns or sets the Id of an alternative language.<br/>            Read/write **string**. |
+| [`language_id`](/slides/python-net/aspose.slides/ibaseportionformat/language_id/) | Returns or sets the Id of a proofing language. Used for checking spelling and grammar.<br/>            Read/write **str**. |
+| [`alternative_language_id`](/slides/python-net/aspose.slides/ibaseportionformat/alternative_language_id/) | Returns or sets the Id of an alternative language.<br/>            Read/write **str**. |
 | [`spacing`](/slides/python-net/aspose.slides/ibaseportionformat/spacing/) | Returns or sets the intercharacter spacing increment.<br/>            **float.NaN**  means value is undefined and should be inherited from the Master.<br/>            Read/write **float**. |
 
 

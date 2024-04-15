@@ -21,5 +21,6 @@ def controls(self):
 
 ### See Also
 * class [`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection)
+* class [`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -18,13 +18,13 @@ The FieldType type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/fieldtype/__init__/#string) | Initializes a new instance of FieldType class. |
+| [`__init__`](/slides/python-net/aspose.slides/fieldtype/__init__/#str) | Initializes a new instance of FieldType class. |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [`internal_string`](/slides/python-net/aspose.slides/fieldtype/internal_string/) | Returns the internal name of this FieldType object.<br/>            Read/write **string**. |
+| [`internal_string`](/slides/python-net/aspose.slides/fieldtype/internal_string/) | Returns the internal name of this FieldType object.<br/>            Read/write **str**. |
 | [`slide_number`](/slides/python-net/aspose.slides/fieldtype/slide_number/) | Current slide's number.<br/>            Read-only [`FieldType`](/slides/python-net/aspose.slides/fieldtype). |
 | [`footer`](/slides/python-net/aspose.slides/fieldtype/footer/) | Slide's footer.<br/>            Read-only [`FieldType`](/slides/python-net/aspose.slides/fieldtype). |
 | [`header`](/slides/python-net/aspose.slides/fieldtype/header/) | Slide's header.<br/>            Read-only [`FieldType`](/slides/python-net/aspose.slides/fieldtype). |

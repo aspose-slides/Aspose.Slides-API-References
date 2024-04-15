@@ -20,5 +20,6 @@ def points(self):
 ```
 
 ### See Also
+* class [`InkTrace`](/slides/python-net/aspose.slides.ink/inktrace)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

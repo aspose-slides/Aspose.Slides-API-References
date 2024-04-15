@@ -32,12 +32,13 @@ def enclose(self, beginning_character, ending_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| beginning_character | char |  |
-| ending_character | char |  |
+| beginning_character | **char** |  |
+| ending_character | **char** |  |
 
 
 
 ### See Also
+* class [`IMathDelimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiter)
 * class [`IMathLeftSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathleftsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

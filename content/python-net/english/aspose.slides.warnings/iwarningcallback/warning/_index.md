@@ -25,11 +25,13 @@ def warning(self, warning):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| warning | IWarningInfo | Warning to process. |
+| warning | [`IWarningInfo`](/slides/python-net/aspose.slides.warnings/iwarninginfo) | Warning to process. |
 
 
 
 ### See Also
 * class [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback)
+* class [`IWarningInfo`](/slides/python-net/aspose.slides.warnings/iwarninginfo)
+* enumeration [`ReturnAction`](/slides/python-net/aspose.slides.warnings/returnaction)
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)

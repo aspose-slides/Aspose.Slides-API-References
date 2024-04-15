@@ -23,5 +23,6 @@ def has_bounce(self, value):
 ```
 
 ### See Also
+* class [`FlyThroughTransition`](/slides/python-net/aspose.slides.slideshow/flythroughtransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

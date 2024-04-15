@@ -20,7 +20,7 @@ def run(self, slides):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slides | Iterable[ISlide] |  |
+| slides | **Iterable[ISlide]** |  |
 
 
 

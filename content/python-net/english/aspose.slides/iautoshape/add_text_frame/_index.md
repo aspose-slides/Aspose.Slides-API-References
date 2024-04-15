@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_text_frame {#string}
+## add_text_frame {#str}
 Adds a new TextFrameEx to a shape.
             If shape already has TextFrameEx then simply changes its text.
 
@@ -26,7 +26,7 @@ def add_text_frame(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string | Default text for a new TextFrame. |
+| text | **str** | Default text for a new TextFrame. |
 
 
 

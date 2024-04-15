@@ -25,11 +25,11 @@ def add_zoom_frame(self, x, y, width, height, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of a new Zoom frame **float**. |
-| y | float | Y coordinate of a new Zoom frame **float**. |
-| width | float | Width of a new Zoom frame **float**. |
-| height | float | Height of a new Zoom frame **float**. |
-| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
+| x | **float** | X coordinate of a new Zoom frame **float**. |
+| y | **float** | Y coordinate of a new Zoom frame **float**. |
+| width | **float** | Width of a new Zoom frame **float**. |
+| height | **float** | Height of a new Zoom frame **float**. |
+| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
 
 ## Exceptions
 
@@ -56,12 +56,12 @@ def add_zoom_frame(self, x, y, width, height, slide, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of a new Zoom frame **float**. |
-| y | float | Y coordinate of a new Zoom frame **float**. |
-| width | float | Width of a new Zoom frame **float**. |
-| height | float | Height of a new Zoom frame **float**. |
-| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
-| image | IPPImage | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
+| x | **float** | X coordinate of a new Zoom frame **float**. |
+| y | **float** | Y coordinate of a new Zoom frame **float**. |
+| width | **float** | Width of a new Zoom frame **float**. |
+| height | **float** | Height of a new Zoom frame **float**. |
+| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
+| image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
 
 ## Exceptions
 

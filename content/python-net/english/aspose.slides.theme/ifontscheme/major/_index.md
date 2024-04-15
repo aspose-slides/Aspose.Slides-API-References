@@ -21,5 +21,6 @@ def major(self):
 
 ### See Also
 * class [`IFonts`](/slides/python-net/aspose.slides/ifonts)
+* class [`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

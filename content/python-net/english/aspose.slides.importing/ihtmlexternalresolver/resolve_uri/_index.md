@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## resolve_uri {#string-string}
+## resolve_uri {#str-str}
 
 
 
@@ -20,8 +20,8 @@ def resolve_uri(self, base_uri, relative_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| base_uri | string |  |
-| relative_uri | string |  |
+| base_uri | **str** |  |
+| relative_uri | **str** |  |
 
 
 

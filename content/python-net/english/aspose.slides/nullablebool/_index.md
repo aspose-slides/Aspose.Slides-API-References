@@ -7,7 +7,7 @@ url: /aspose.slides/nullablebool/
 ---
 
 
-## NullableBool class
+## NullableBool enumeration
 
 Represents triple boolean values.
 

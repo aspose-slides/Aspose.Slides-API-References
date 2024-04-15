@@ -26,11 +26,12 @@ def equals(self, line_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| line_format | ILineFormat | The LineFormat to compare with the current LineFormat. |
+| line_format | [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat) | The LineFormat to compare with the current LineFormat. |
 
 
 
 ### See Also
+* class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * class [`LineFormat`](/slides/python-net/aspose.slides/lineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

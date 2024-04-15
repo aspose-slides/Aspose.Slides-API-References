@@ -20,11 +20,12 @@ def accent(self, accent_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| accent_character | char |  |
+| accent_character | **char** |  |
 
 
 
 ### See Also
+* class [`IMathAccent`](/slides/python-net/aspose.slides.mathtext/imathaccent)
 * class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

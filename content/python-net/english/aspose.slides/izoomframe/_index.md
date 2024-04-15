@@ -69,8 +69,8 @@ The IZoomFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/izoomframe/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/izoomframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/izoomframe/write_as_svg/#systemiostream) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/izoomframe/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/izoomframe/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/izoomframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`add_placeholder`](/slides/python-net/aspose.slides/izoomframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/izoomframe/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/izoomframe/get_base_placeholder/#) |  |

@@ -17,7 +17,7 @@ The IPortionFormatEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`bookmark_id`](/slides/python-net/aspose.slides/iportionformateffectivedata/bookmark_id/) | Returns bookmark identifier.<br/>            Read-only **string**. |
+| [`bookmark_id`](/slides/python-net/aspose.slides/iportionformateffectivedata/bookmark_id/) | Returns bookmark identifier.<br/>            Read-only **str**. |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/iportionformateffectivedata/hyperlink_click/) | Returns the hyperlink defined for mouse click.<br/>            Read-only [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink). |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/iportionformateffectivedata/hyperlink_mouse_over/) | Returns the hyperlink defined for mouse over.<br/>            Read-only [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink). |
 | [`as_i_base_portion_format_effective_data`](/slides/python-net/aspose.slides/iportionformateffectivedata/as_i_base_portion_format_effective_data/) | Returns IBasePortionFormatEffectiveData interface. |

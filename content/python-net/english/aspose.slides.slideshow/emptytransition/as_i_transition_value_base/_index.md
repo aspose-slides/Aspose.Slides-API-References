@@ -17,5 +17,6 @@ def as_i_transition_value_base(self):
 ```
 
 ### See Also
+* class [`EmptyTransition`](/slides/python-net/aspose.slides.slideshow/emptytransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

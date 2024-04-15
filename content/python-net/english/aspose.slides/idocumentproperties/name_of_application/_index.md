@@ -10,7 +10,7 @@ weight: 240
 
 ## name_of_application property
 Returns or sets the name of the application.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def name_of_application(self, value):
 ```
 
 ### See Also
+* class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

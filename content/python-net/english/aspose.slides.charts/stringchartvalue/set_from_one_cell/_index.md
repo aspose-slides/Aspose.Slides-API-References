@@ -20,11 +20,12 @@ def set_from_one_cell(self, cell):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cell | IChartDataCell | Cell. |
+| cell | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Cell. |
 
 
 
 ### See Also
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 * class [`StringChartValue`](/slides/python-net/aspose.slides.charts/stringchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

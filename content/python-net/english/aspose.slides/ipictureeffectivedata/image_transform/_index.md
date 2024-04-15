@@ -21,5 +21,6 @@ def image_transform(self):
 
 ### See Also
 * class [`IImageTransformOCollectionEffectiveData`](/slides/python-net/aspose.slides.effects/iimagetransformocollectioneffectivedata)
+* class [`IPictureEffectiveData`](/slides/python-net/aspose.slides/ipictureeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

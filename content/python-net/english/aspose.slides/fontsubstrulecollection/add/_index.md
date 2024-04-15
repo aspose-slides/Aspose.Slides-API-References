@@ -20,11 +20,12 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IFontSubstRule |  |
+| value | [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) |  |
 
 
 
 ### See Also
 * class [`FontSubstRuleCollection`](/slides/python-net/aspose.slides/fontsubstrulecollection)
+* class [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

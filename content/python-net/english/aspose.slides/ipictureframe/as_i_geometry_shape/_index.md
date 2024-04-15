@@ -21,5 +21,6 @@ def as_i_geometry_shape(self):
 
 ### See Also
 * class [`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape)
+* class [`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

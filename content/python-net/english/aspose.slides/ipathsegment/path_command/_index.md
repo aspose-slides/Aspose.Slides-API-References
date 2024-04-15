@@ -19,5 +19,6 @@ def path_command(self):
 ```
 
 ### See Also
+* class [`IPathSegment`](/slides/python-net/aspose.slides/ipathsegment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

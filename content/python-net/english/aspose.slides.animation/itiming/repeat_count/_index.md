@@ -23,5 +23,6 @@ def repeat_count(self, value):
 ```
 
 ### See Also
+* class [`ITiming`](/slides/python-net/aspose.slides.animation/itiming)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

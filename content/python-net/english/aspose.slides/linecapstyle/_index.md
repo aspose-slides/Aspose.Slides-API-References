@@ -7,7 +7,7 @@ url: /aspose.slides/linecapstyle/
 ---
 
 
-## LineCapStyle class
+## LineCapStyle enumeration
 
 Represents the line cap style.
 

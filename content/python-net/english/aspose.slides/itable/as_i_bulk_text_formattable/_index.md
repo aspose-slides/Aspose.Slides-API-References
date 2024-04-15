@@ -21,5 +21,6 @@ def as_i_bulk_text_formattable(self):
 
 ### See Also
 * class [`IBulkTextFormattable`](/slides/python-net/aspose.slides/ibulktextformattable)
+* class [`ITable`](/slides/python-net/aspose.slides/itable)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

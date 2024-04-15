@@ -17,5 +17,6 @@ def description(self):
 ```
 
 ### See Also
+* class [`INotImplementedWarningInfo`](/slides/python-net/aspose.slides.warnings/inotimplementedwarninginfo)
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)

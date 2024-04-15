@@ -20,11 +20,11 @@ def function(self, function_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_argument | IMathElement |  |
+| function_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
 
-## function {#string}
+## function {#str}
 
 
 
@@ -36,11 +36,13 @@ def function(self, function_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_argument | string |  |
+| function_argument | **str** |  |
 
 
 
 ### See Also
 * class [`IMathBox`](/slides/python-net/aspose.slides.mathtext/imathbox)
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathFunction`](/slides/python-net/aspose.slides.mathtext/imathfunction)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,12 +20,14 @@ def format_shape(self, svg_shape, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| svg_shape | ISvgShape | Object to control SVG shape generation. |
-| shape | IShape | Source shape. |
+| svg_shape | [`ISvgShape`](/slides/python-net/aspose.slides.export/isvgshape) | Object to control SVG shape generation. |
+| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Source shape. |
 
 
 
 ### See Also
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
+* class [`ISvgShape`](/slides/python-net/aspose.slides.export/isvgshape)
 * class [`ISvgShapeFormattingController`](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

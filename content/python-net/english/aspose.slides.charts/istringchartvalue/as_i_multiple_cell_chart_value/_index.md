@@ -21,5 +21,6 @@ def as_i_multiple_cell_chart_value(self):
 
 ### See Also
 * class [`IMultipleCellChartValue`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue)
+* class [`IStringChartValue`](/slides/python-net/aspose.slides.charts/istringchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

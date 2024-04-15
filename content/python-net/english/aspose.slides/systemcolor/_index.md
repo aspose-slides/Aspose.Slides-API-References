@@ -7,7 +7,7 @@ url: /aspose.slides/systemcolor/
 ---
 
 
-## SystemColor class
+## SystemColor enumeration
 
 Represents predefined system colors.
 

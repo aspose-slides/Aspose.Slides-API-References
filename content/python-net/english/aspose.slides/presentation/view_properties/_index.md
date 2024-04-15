@@ -21,5 +21,6 @@ def view_properties(self):
 
 ### See Also
 * class [`IViewProperties`](/slides/python-net/aspose.slides/iviewproperties)
+* class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

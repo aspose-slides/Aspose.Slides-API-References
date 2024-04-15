@@ -20,5 +20,6 @@ def size(self):
 ```
 
 ### See Also
+* class [`IImageWrapper`](/slides/python-net/aspose.slides/iimagewrapper)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

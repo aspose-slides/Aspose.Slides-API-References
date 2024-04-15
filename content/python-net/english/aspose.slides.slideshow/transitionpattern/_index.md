@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionpattern/
 ---
 
 
-## TransitionPattern class
+## TransitionPattern enumeration
 
 Specifies a geometric pattern that tiles together to fill a larger area.
 

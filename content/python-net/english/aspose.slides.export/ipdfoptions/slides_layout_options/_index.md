@@ -22,6 +22,7 @@ def slides_layout_options(self, value):
 ```
 
 ### See Also
+* class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * class [`ISlidesLayoutOptions`](/slides/python-net/aspose.slides.export/islideslayoutoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

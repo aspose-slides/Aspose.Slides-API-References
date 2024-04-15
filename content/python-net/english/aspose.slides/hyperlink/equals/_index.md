@@ -25,11 +25,12 @@ def equals(self, hlink):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| hlink | IHyperlink | The Hyperlink to compare with the current Hyperlink. |
+| hlink | [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink) | The Hyperlink to compare with the current Hyperlink. |
 
 
 
 ### See Also
 * class [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

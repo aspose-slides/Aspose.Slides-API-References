@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## find_by_name_and_initials {#string-string}
+## find_by_name_and_initials {#str-str}
 Find author in a collection by name and initials.
 
 ### Returns
@@ -25,8 +25,8 @@ def find_by_name_and_initials(self, name, initials):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of an author to find. |
-| initials | string | Initials of an author to find. |
+| name | **str** | Name of an author to find. |
+| initials | **str** | Initials of an author to find. |
 
 
 

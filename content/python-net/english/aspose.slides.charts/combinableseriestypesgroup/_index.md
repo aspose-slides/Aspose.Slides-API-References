@@ -7,7 +7,7 @@ url: /aspose.slides.charts/combinableseriestypesgroup/
 ---
 
 
-## CombinableSeriesTypesGroup class
+## CombinableSeriesTypesGroup enumeration
 
 Enumeration of groups of combinable series types.
             Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup.

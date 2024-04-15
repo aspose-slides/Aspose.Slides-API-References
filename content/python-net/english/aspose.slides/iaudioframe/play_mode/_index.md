@@ -23,5 +23,7 @@ def play_mode(self, value):
 ```
 
 ### See Also
+* enumeration [`AudioPlayModePreset`](/slides/python-net/aspose.slides/audioplaymodepreset)
+* class [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

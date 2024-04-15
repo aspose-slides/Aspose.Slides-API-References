@@ -26,11 +26,12 @@ def add_clone(self, source_master):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_master | IMasterSlide | Slide to clone. |
+| source_master | [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide) | Slide to clone. |
 
 
 
 ### See Also
+* class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
 * class [`IMasterSlideCollection`](/slides/python-net/aspose.slides/imasterslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

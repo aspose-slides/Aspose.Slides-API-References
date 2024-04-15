@@ -21,5 +21,6 @@ def hyperlink_manager(self):
 
 ### See Also
 * class [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager)
+* class [`LegacyDiagram`](/slides/python-net/aspose.slides/legacydiagram)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

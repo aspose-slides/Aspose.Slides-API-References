@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#string}
+## __init__ {#str}
 Creates a new FontData object with the specified font name.
 
 
@@ -20,7 +20,7 @@ def __init__(self, font_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name | string | Font name. |
+| font_name | **str** | Font name. |
 
 
 

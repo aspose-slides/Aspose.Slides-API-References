@@ -20,5 +20,6 @@ def no_locks(self):
 ```
 
 ### See Also
+* class [`PictureFrameLock`](/slides/python-net/aspose.slides/pictureframelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

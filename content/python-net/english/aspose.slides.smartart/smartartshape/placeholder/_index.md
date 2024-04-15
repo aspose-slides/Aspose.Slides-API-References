@@ -21,5 +21,6 @@ def placeholder(self):
 
 ### See Also
 * class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
+* class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

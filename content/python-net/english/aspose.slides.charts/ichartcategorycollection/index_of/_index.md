@@ -25,7 +25,7 @@ def index_of(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IChartCategory | Chart category. |
+| value | [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory) | Chart category. |
 
 
 

@@ -24,5 +24,7 @@ def shape_type(self, value):
 ```
 
 ### See Also
+* enumeration [`ShapeType`](/slides/python-net/aspose.slides/shapetype)
+* class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

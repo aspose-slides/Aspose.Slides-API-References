@@ -20,6 +20,7 @@ def first_row(self):
 ```
 
 ### See Also
+* class [`Cell`](/slides/python-net/aspose.slides/cell)
 * class [`IRow`](/slides/python-net/aspose.slides/irow)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

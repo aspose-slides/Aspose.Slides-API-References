@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effectchartminorgroupingtype/
 ---
 
 
-## EffectChartMinorGroupingType class
+## EffectChartMinorGroupingType enumeration
 
 Represents the type of an animation effect for chart's element in series or category.
 

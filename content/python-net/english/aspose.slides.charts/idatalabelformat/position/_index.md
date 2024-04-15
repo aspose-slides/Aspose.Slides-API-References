@@ -35,5 +35,7 @@ def position(self, value):
 ```
 
 ### See Also
+* class [`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat)
+* enumeration [`LegendDataLabelPosition`](/slides/python-net/aspose.slides.charts/legenddatalabelposition)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

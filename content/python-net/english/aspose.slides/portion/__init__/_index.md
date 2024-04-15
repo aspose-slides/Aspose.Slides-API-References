@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#string}
+## __init__ {#str}
 Initializes a new instance of the Portion class.
 
 
@@ -32,7 +32,7 @@ def __init__(self, str):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| str | string |  |
+| str | **str** |  |
 
 
 
@@ -48,7 +48,7 @@ def __init__(self, portion):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| portion | Portion |  |
+| portion | [`Portion`](/slides/python-net/aspose.slides/portion) |  |
 
 
 

@@ -23,5 +23,7 @@ def cross_type(self, value):
 ```
 
 ### See Also
+* class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
+* enumeration [`CrossesType`](/slides/python-net/aspose.slides.charts/crossestype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

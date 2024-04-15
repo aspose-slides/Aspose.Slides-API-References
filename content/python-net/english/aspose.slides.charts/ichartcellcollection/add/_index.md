@@ -20,7 +20,7 @@ def add(self, chart_data_cell):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| chart_data_cell | IChartDataCell | New cell to add. |
+| chart_data_cell | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | New cell to add. |
 
 
 
@@ -36,7 +36,7 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | any | The value. |
+| value | **any** | The value. |
 
 ### Remarks
 

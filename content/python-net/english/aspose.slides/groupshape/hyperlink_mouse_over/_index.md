@@ -23,6 +23,7 @@ def hyperlink_mouse_over(self, value):
 ```
 
 ### See Also
+* class [`GroupShape`](/slides/python-net/aspose.slides/groupshape)
 * class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

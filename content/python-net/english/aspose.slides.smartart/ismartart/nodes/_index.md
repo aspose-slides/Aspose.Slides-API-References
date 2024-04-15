@@ -20,6 +20,7 @@ def nodes(self):
 ```
 
 ### See Also
+* class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
 * class [`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

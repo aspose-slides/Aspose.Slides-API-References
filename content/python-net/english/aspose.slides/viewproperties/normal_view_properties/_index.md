@@ -22,5 +22,6 @@ def normal_view_properties(self):
 
 ### See Also
 * class [`INormalViewProperties`](/slides/python-net/aspose.slides/inormalviewproperties)
+* class [`ViewProperties`](/slides/python-net/aspose.slides/viewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

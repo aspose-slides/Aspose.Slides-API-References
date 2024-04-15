@@ -7,7 +7,7 @@ url: /aspose.slides/textshapetype/
 ---
 
 
-## TextShapeType class
+## TextShapeType enumeration
 
 Represents text wrapping shape.
 

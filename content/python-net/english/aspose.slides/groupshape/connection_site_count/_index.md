@@ -20,5 +20,6 @@ def connection_site_count(self):
 ```
 
 ### See Also
+* class [`GroupShape`](/slides/python-net/aspose.slides/groupshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -17,5 +17,6 @@ def presentation(self):
 ```
 
 ### See Also
+* class [`LegendEntryProperties`](/slides/python-net/aspose.slides.charts/legendentryproperties)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

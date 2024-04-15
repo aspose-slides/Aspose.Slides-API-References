@@ -20,11 +20,11 @@ def __init__(self, data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | bytes | Svg data. |
+| data | **bytes** | Svg data. |
 
 
 
-## __init__ {#string}
+## __init__ {#str}
 Creates new SvgImage object.
 
 
@@ -36,11 +36,11 @@ def __init__(self, svg_content):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| svg_content | string | Svg content. |
+| svg_content | **str** | Svg content. |
 
 
 
-## __init__ {#systemiostream}
+## __init__ {#iorawiobase}
 Creates new SvgImage object.
 
 
@@ -52,11 +52,11 @@ def __init__(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Svg stream. |
+| stream | **io.RawIOBase** | Svg stream. |
 
 
 
-## __init__ {#bytes-asposeslidesimportingiexternalresourceresolver-string}
+## __init__ {#bytes-asposeslidesimportingiexternalresourceresolver-str}
 Creates new SvgImage object.
 
 
@@ -68,13 +68,13 @@ def __init__(self, data, external_res_resolver, base_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | bytes | Svg data. |
-| external_res_resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| base_uri | string | Base URI of the specified Svg. Used to resolve relative links. |
+| data | **bytes** | Svg data. |
+| external_res_resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| base_uri | **str** | Base URI of the specified Svg. Used to resolve relative links. |
 
 
 
-## __init__ {#string-asposeslidesimportingiexternalresourceresolver-string}
+## __init__ {#str-asposeslidesimportingiexternalresourceresolver-str}
 Creates new SvgImage object.
 
 
@@ -86,13 +86,13 @@ def __init__(self, svg_content, external_res_resolver, base_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| svg_content | string | Svg content. |
-| external_res_resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| base_uri | string | Base URI of the specified Svg. Used to resolve relative links. |
+| svg_content | **str** | Svg content. |
+| external_res_resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| base_uri | **str** | Base URI of the specified Svg. Used to resolve relative links. |
 
 
 
-## __init__ {#systemiostream-asposeslidesimportingiexternalresourceresolver-string}
+## __init__ {#iorawiobase-asposeslidesimportingiexternalresourceresolver-str}
 Creates new SvgImage object.
 
 
@@ -104,9 +104,9 @@ def __init__(self, stream, external_res_resolver, base_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Svg stream. |
-| external_res_resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| base_uri | string | Base URI of the specified Svg. Used to resolve relative links. |
+| stream | **io.RawIOBase** | Svg stream. |
+| external_res_resolver | **aspose.slides.importing.IExternalResourceResolver** | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| base_uri | **str** | Base URI of the specified Svg. Used to resolve relative links. |
 
 
 

@@ -23,5 +23,7 @@ def pattern(self, value):
 ```
 
 ### See Also
+* class [`IShredTransition`](/slides/python-net/aspose.slides.slideshow/ishredtransition)
+* enumeration [`TransitionShredPattern`](/slides/python-net/aspose.slides.slideshow/transitionshredpattern)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

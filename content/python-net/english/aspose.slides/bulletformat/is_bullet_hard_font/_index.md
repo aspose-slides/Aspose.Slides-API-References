@@ -25,5 +25,7 @@ def is_bullet_hard_font(self, value):
 ```
 
 ### See Also
+* class [`BulletFormat`](/slides/python-net/aspose.slides/bulletformat)
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

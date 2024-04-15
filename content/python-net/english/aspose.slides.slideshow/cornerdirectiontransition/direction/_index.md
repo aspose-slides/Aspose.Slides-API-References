@@ -23,5 +23,7 @@ def direction(self, value):
 ```
 
 ### See Also
+* class [`CornerDirectionTransition`](/slides/python-net/aspose.slides.slideshow/cornerdirectiontransition)
+* enumeration [`TransitionCornerDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioncornerdirectiontype)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

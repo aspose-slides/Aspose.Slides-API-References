@@ -20,11 +20,11 @@ def create_image_wrapper(self, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | aspose.pydrawing.Image |  |
+| image | **aspose.pydrawing.Image** |  |
 
 
 
-## create_image_wrapper {#systemiostream}
+## create_image_wrapper {#iorawiobase}
 Initializes a new instance of the BitmapWrapper class from the specified data stream.
 
 
@@ -36,11 +36,11 @@ def create_image_wrapper(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | **io.RawIOBase** |  |
 
 
 
-## create_image_wrapper {#string}
+## create_image_wrapper {#str}
 Initializes a new instance of the BitmapWrapper class from the specified file.
 
 
@@ -52,11 +52,12 @@ def create_image_wrapper(self, file_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string |  |
+| file_name | **str** |  |
 
 
 
 ### See Also
+* class [`IImageWrapper`](/slides/python-net/aspose.slides/iimagewrapper)
 * class [`ImageWrapperFactory`](/slides/python-net/aspose.slides/imagewrapperfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

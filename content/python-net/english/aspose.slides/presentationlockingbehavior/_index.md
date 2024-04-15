@@ -7,10 +7,10 @@ url: /aspose.slides/presentationlockingbehavior/
 ---
 
 
-## PresentationLockingBehavior class
+## PresentationLockingBehavior enumeration
 
 Represents the behavior regarding treating the [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) source (file or 
-            **System.IO.Stream**) while loading and working with an instance of [`IPresentation`](/slides/python-net/aspose.slides/ipresentation).
+            **io.RawIOBase**) while loading and working with an instance of [`IPresentation`](/slides/python-net/aspose.slides/ipresentation).
 
 The PresentationLockingBehavior type exposes the following members:
 

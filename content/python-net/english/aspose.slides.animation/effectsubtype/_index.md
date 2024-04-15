@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effectsubtype/
 ---
 
 
-## EffectSubtype class
+## EffectSubtype enumeration
 
 Represents subtypes of animation effect.
 

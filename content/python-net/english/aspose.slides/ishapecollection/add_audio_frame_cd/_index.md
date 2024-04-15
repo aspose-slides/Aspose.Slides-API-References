@@ -25,14 +25,15 @@ def add_audio_frame_cd(self, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of a new audio frame. |
-| y | float | Y coordinate of a new audio frame. |
-| width | float | Width of a new audio frame. |
-| height | float | Height of a new audio frame. |
+| x | **float** | X coordinate of a new audio frame. |
+| y | **float** | Y coordinate of a new audio frame. |
+| width | **float** | Width of a new audio frame. |
+| height | **float** | Height of a new audio frame. |
 
 
 
 ### See Also
+* class [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe)
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

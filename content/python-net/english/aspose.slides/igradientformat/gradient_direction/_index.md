@@ -23,5 +23,7 @@ def gradient_direction(self, value):
 ```
 
 ### See Also
+* enumeration [`GradientDirection`](/slides/python-net/aspose.slides/gradientdirection)
+* class [`IGradientFormat`](/slides/python-net/aspose.slides/igradientformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,5 +23,7 @@ def display_blanks_as(self, value):
 ```
 
 ### See Also
+* enumeration [`DisplayBlanksAsType`](/slides/python-net/aspose.slides.charts/displayblanksastype)
+* class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

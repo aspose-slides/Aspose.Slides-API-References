@@ -27,5 +27,6 @@ def comments_position(self, value):
 ```
 
 ### See Also
+* class [`NotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/notescommentslayoutingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

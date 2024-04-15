@@ -7,7 +7,7 @@ url: /aspose.slides/zoomlayout/
 ---
 
 
-## ZoomLayout class
+## ZoomLayout enumeration
 
 Specifies the summary zoom layout.
 

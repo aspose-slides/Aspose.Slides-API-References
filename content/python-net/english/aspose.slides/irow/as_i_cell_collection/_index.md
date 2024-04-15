@@ -21,5 +21,6 @@ def as_i_cell_collection(self):
 
 ### See Also
 * class [`ICellCollection`](/slides/python-net/aspose.slides/icellcollection)
+* class [`IRow`](/slides/python-net/aspose.slides/irow)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

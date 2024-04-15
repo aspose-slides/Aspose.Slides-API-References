@@ -7,7 +7,7 @@ url: /aspose.slides.charts/bubblesizerepresentationtype/
 ---
 
 
-## BubbleSizeRepresentationType class
+## BubbleSizeRepresentationType enumeration
 
 Specifies the possible ways to represent data as bubble chart sizes.
 

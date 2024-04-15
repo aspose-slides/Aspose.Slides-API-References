@@ -7,7 +7,7 @@ url: /aspose.slides/fontcollectionindex/
 ---
 
 
-## FontCollectionIndex class
+## FontCollectionIndex enumeration
 
 Represents font's index in a collection.
 

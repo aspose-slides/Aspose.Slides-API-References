@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## set_footer_text {#string}
+## set_footer_text {#str}
 
 
 
@@ -20,7 +20,7 @@ def set_footer_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string |  |
+| text | **str** |  |
 
 
 

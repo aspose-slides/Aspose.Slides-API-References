@@ -7,7 +7,7 @@ url: /aspose.slides.charts/legenddatalabelposition/
 ---
 
 
-## LegendDataLabelPosition class
+## LegendDataLabelPosition enumeration
 
 Determines position of data labels.
 

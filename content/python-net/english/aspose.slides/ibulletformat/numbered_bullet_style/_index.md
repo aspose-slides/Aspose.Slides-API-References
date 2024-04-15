@@ -23,5 +23,6 @@ def numbered_bullet_style(self, value):
 ```
 
 ### See Also
+* class [`IBulletFormat`](/slides/python-net/aspose.slides/ibulletformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

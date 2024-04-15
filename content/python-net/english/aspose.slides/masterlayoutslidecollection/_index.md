@@ -40,8 +40,8 @@ The MasterLayoutSlideCollection type exposes the following members:
 | [`remove_unused`](/slides/python-net/aspose.slides/masterlayoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 | [`add_clone`](/slides/python-net/aspose.slides/masterlayoutslidecollection/add_clone/#ilayoutslide) | Adds a copy of a specified layout slide to the end of the collection. |
 | [`insert_clone`](/slides/python-net/aspose.slides/masterlayoutslidecollection/insert_clone/#int-ilayoutslide) | Inserts a copy of a specified layout slide to specified position of the collection. |
-| [`add`](/slides/python-net/aspose.slides/masterlayoutslidecollection/add/#slidelayouttype-string) | Adds a new layout slide to the end of the collection. |
-| [`insert`](/slides/python-net/aspose.slides/masterlayoutslidecollection/insert/#int-slidelayouttype-string) | Inserts a new layout slide to specified position of the collection. |
+| [`add`](/slides/python-net/aspose.slides/masterlayoutslidecollection/add/#slidelayouttype-str) | Adds a new layout slide to the end of the collection. |
+| [`insert`](/slides/python-net/aspose.slides/masterlayoutslidecollection/insert/#int-slidelayouttype-str) | Inserts a new layout slide to specified position of the collection. |
 | [`remove_at`](/slides/python-net/aspose.slides/masterlayoutslidecollection/remove_at/#int) | Removes the element at the specified index of the collection. |
 | [`reorder`](/slides/python-net/aspose.slides/masterlayoutslidecollection/reorder/#int-ilayoutslide) | Moves layout slide from the collection to the specified position. |
 

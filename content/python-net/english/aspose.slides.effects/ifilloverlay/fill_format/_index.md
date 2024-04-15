@@ -21,5 +21,6 @@ def fill_format(self):
 
 ### See Also
 * class [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)
+* class [`IFillOverlay`](/slides/python-net/aspose.slides.effects/ifilloverlay)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

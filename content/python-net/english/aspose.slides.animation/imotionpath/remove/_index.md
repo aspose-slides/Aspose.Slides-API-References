@@ -20,7 +20,7 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IMotionCmdPath | Motion path to remove [`IMotionCmdPath`](/slides/python-net/aspose.slides.animation/imotioncmdpath) |
+| item | [`IMotionCmdPath`](/slides/python-net/aspose.slides.animation/imotioncmdpath) | Motion path to remove [`IMotionCmdPath`](/slides/python-net/aspose.slides.animation/imotioncmdpath) |
 
 
 

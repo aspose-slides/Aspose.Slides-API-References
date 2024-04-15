@@ -23,5 +23,6 @@ def variable_scale(self, value):
 ```
 
 ### See Also
+* class [`ICommonSlideViewProperties`](/slides/python-net/aspose.slides/icommonslideviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

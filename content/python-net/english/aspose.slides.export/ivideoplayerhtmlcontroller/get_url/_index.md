@@ -20,8 +20,8 @@ def get_url(self, id, referrer):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| id | int |  |
-| referrer | int |  |
+| id | **int** |  |
+| referrer | **int** |  |
 
 
 

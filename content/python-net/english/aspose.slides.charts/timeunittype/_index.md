@@ -7,7 +7,7 @@ url: /aspose.slides.charts/timeunittype/
 ---
 
 
-## TimeUnitType class
+## TimeUnitType enumeration
 
 Represents the base unit for the category axis
 

@@ -17,5 +17,6 @@ def as_i_enumerable(self):
 ```
 
 ### See Also
+* class [`IGlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/igloballayoutslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,6 +20,7 @@ def slide(self):
 ```
 
 ### See Also
+* class [`FormatScheme`](/slides/python-net/aspose.slides.theme/formatscheme)
 * class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

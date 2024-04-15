@@ -24,5 +24,6 @@ def kerning_minimal_size(self, value):
 ```
 
 ### See Also
+* class [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

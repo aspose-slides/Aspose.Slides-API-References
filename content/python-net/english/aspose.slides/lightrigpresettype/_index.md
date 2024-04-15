@@ -7,7 +7,7 @@ url: /aspose.slides/lightrigpresettype/
 ---
 
 
-## LightRigPresetType class
+## LightRigPresetType enumeration
 
 Constants which define light preset types.
 

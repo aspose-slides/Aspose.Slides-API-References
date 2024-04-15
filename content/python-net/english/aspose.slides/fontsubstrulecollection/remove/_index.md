@@ -20,11 +20,12 @@ def remove(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IFontSubstRule | The font substitution rule to remove from the collection. |
+| value | [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) | The font substitution rule to remove from the collection. |
 
 
 
 ### See Also
 * class [`FontSubstRuleCollection`](/slides/python-net/aspose.slides/fontsubstrulecollection)
+* class [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

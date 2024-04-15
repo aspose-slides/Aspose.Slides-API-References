@@ -20,8 +20,8 @@ def __init__(self, row_count, column_count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| row_count | int | row count |
-| column_count | int | column count |
+| row_count | **int** | row count |
+| column_count | **int** | column count |
 
 
 

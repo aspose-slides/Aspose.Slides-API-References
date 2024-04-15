@@ -25,11 +25,11 @@ def create_image_wrapper(self, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | aspose.pydrawing.Image | Existing Image **aspose.pydrawing.Image** |
+| image | **aspose.pydrawing.Image** | Existing Image **aspose.pydrawing.Image** |
 
 
 
-## create_image_wrapper {#systemiostream}
+## create_image_wrapper {#iorawiobase}
 Initializes a new instance of the BitmapWrapper class from the specified data stream.
 
 ### Returns
@@ -46,11 +46,11 @@ def create_image_wrapper(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Data stream **System.IO.Stream** |
+| stream | **io.RawIOBase** | Data stream **io.RawIOBase** |
 
 
 
-## create_image_wrapper {#string}
+## create_image_wrapper {#str}
 Initializes a new instance of the BitmapWrapper class from the specified file.
 
 ### Returns
@@ -67,7 +67,7 @@ def create_image_wrapper(self, file_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | string | File name **string** |
+| file_name | **str** | File name **str** |
 
 
 

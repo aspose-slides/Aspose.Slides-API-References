@@ -23,5 +23,7 @@ def base_unit_scale(self, value):
 ```
 
 ### See Also
+* class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
+* enumeration [`TimeUnitType`](/slides/python-net/aspose.slides.charts/timeunittype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

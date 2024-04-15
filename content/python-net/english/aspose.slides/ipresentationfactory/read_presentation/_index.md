@@ -25,11 +25,11 @@ def read_presentation(self, data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | bytes | Array to read |
+| data | **bytes** | Array to read |
 
 
 
-## read_presentation {#systemiostream}
+## read_presentation {#iorawiobase}
 Reads an existing presentation from stream
 
 ### Returns
@@ -46,11 +46,11 @@ def read_presentation(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Input stream to read |
+| stream | **io.RawIOBase** | Input stream to read |
 
 
 
-## read_presentation {#string}
+## read_presentation {#str}
 Reads an existing presentation from file
 
 ### Returns
@@ -67,7 +67,7 @@ def read_presentation(self, file):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string | File name |
+| file | **str** | File name |
 
 
 
@@ -88,12 +88,12 @@ def read_presentation(self, data, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | bytes | Array to read |
-| options | ILoadOptions | Load options |
+| data | **bytes** | Array to read |
+| options | [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions) | Load options |
 
 
 
-## read_presentation {#systemiostream-iloadoptions}
+## read_presentation {#iorawiobase-iloadoptions}
 Reads an existing presentation from stream with additional load options
 
 ### Returns
@@ -110,12 +110,12 @@ def read_presentation(self, stream, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Input stream to read |
-| options | ILoadOptions | Load options |
+| stream | **io.RawIOBase** | Input stream to read |
+| options | [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions) | Load options |
 
 
 
-## read_presentation {#string-iloadoptions}
+## read_presentation {#str-iloadoptions}
 Reads an existing presentation from stream with additional load options
 
 ### Returns
@@ -132,12 +132,14 @@ def read_presentation(self, file, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string | File name |
-| options | ILoadOptions | Load options |
+| file | **str** | File name |
+| options | [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions) | Load options |
 
 
 
 ### See Also
+* class [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions)
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * class [`IPresentationFactory`](/slides/python-net/aspose.slides/ipresentationfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

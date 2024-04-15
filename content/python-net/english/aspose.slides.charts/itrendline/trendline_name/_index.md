@@ -10,7 +10,7 @@ weight: 210
 
 ## trendline_name property
 Gets or sets  name of the trendline.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def trendline_name(self, value):
 ```
 
 ### See Also
+* class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

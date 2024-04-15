@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_template {#string-string-type}
+## add_template {#str-str-type}
 
 
 
@@ -20,9 +20,9 @@ def add_template(self, key, template, model_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| key | string |  |
-| template | string |  |
-| model_type | Type |  |
+| key | **str** |  |
+| template | **str** |  |
+| model_type | **Type** |  |
 
 
 

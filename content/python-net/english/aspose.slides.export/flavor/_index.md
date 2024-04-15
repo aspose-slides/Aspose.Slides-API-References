@@ -7,7 +7,7 @@ url: /aspose.slides.export/flavor/
 ---
 
 
-## Flavor class
+## Flavor enumeration
 
 All markdown specifications used in program.
 

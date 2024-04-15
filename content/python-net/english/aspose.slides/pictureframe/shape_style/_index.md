@@ -21,5 +21,6 @@ def shape_style(self):
 
 ### See Also
 * class [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle)
+* class [`PictureFrame`](/slides/python-net/aspose.slides/pictureframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

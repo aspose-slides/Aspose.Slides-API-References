@@ -7,7 +7,7 @@ url: /aspose.slides/shapesalignmenttype/
 ---
 
 
-## ShapesAlignmentType class
+## ShapesAlignmentType enumeration
 
 Defines a way to change the placement of selected shapes on the slide.
 

@@ -15,5 +15,6 @@ weight: 10
 | :- | :- |
 | index |  |
 ### See Also
+* class [`IExtraColorSchemeCollection`](/slides/python-net/aspose.slides.theme/iextracolorschemecollection)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

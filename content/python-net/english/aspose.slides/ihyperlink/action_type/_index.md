@@ -20,5 +20,7 @@ def action_type(self):
 ```
 
 ### See Also
+* enumeration [`HyperlinkActionType`](/slides/python-net/aspose.slides/hyperlinkactiontype)
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

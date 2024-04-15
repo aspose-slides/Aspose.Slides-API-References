@@ -23,5 +23,7 @@ def type(self, value):
 ```
 
 ### See Also
+* class [`BulletFormat`](/slides/python-net/aspose.slides/bulletformat)
+* enumeration [`BulletType`](/slides/python-net/aspose.slides/bullettype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

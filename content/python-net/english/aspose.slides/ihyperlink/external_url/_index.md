@@ -11,7 +11,7 @@ weight: 40
 ## external_url property
 Specifies the external URL
             If this property become not null then property TargetSlide become null.
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -21,5 +21,6 @@ def external_url(self):
 ```
 
 ### See Also
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

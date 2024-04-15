@@ -20,7 +20,7 @@ def remove_at(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | The zero-based index of the tag to remove. |
+| index | **int** | The zero-based index of the tag to remove. |
 
 
 

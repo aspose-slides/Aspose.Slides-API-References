@@ -20,7 +20,7 @@ The PPImage type exposes the following members:
 | [`binary_data`](/slides/python-net/aspose.slides/ppimage/binary_data/) | Returns the copy of an image's data.<br/>            Read-only **int**[]. |
 | [`system_image`](/slides/python-net/aspose.slides/ppimage/system_image/) | Returns the copy of an image.<br/>            Read-only **aspose.pydrawing.Image**. |
 | [`svg_image`](/slides/python-net/aspose.slides/ppimage/svg_image/) | Returns or sets ISvgImage object [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
-| [`content_type`](/slides/python-net/aspose.slides/ppimage/content_type/) | Returns a MIME type of an image, encoded in [`PPImage.binary_data`](/slides/python-net/aspose.slides/ppimage#binary_data).<br/>            Read-only **string**. |
+| [`content_type`](/slides/python-net/aspose.slides/ppimage/content_type/) | Returns a MIME type of an image, encoded in [`PPImage.binary_data`](/slides/python-net/aspose.slides/ppimage#binary_data).<br/>            Read-only **str**. |
 | [`width`](/slides/python-net/aspose.slides/ppimage/width/) | Returns a width of an image.<br/>            Read-only **int**. |
 | [`height`](/slides/python-net/aspose.slides/ppimage/height/) | Returns a height of an image.<br/>            Read-only **int**. |
 | [`x`](/slides/python-net/aspose.slides/ppimage/x/) | Returns a X-offset of an image.<br/>            Read-only **int**. |

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_ole_type_lib_reference {#string-string}
+## create_ole_type_lib_reference {#str-str}
 Creates new OLE Automation type library reference.
 
 ### Returns
@@ -25,12 +25,13 @@ def create_ole_type_lib_reference(self, name, libid):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string |  |
-| libid | string |  |
+| name | **str** |  |
+| libid | **str** |  |
 
 
 
 ### See Also
+* class [`IVbaReferenceOleTypeLib`](/slides/python-net/aspose.slides.vba/ivbareferenceoletypelib)
 * class [`VbaReferenceFactory`](/slides/python-net/aspose.slides.vba/vbareferencefactory)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

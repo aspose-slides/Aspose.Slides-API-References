@@ -17,5 +17,6 @@ def presentation(self):
 ```
 
 ### See Also
+* class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

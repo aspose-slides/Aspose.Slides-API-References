@@ -7,7 +7,7 @@ url: /aspose.slides/tablestylepreset/
 ---
 
 
-## TableStylePreset class
+## TableStylePreset enumeration
 
 Represents builtin table styles.
 

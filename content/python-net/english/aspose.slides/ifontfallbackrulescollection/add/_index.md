@@ -20,11 +20,12 @@ def add(self, source_rule):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_rule | IFontFallBackRule | Specified rule for adding |
+| source_rule | [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule) | Specified rule for adding |
 
 
 
 ### See Also
+* class [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule)
 * class [`IFontFallBackRulesCollection`](/slides/python-net/aspose.slides/ifontfallbackrulescollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

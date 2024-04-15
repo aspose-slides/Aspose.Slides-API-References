@@ -20,6 +20,7 @@ def image_transform_operation_factory(self):
 ```
 
 ### See Also
+* class [`IEffectFactory`](/slides/python-net/aspose.slides.effects/ieffectfactory)
 * class [`IImageTransformOperationFactory`](/slides/python-net/aspose.slides.effects/iimagetransformoperationfactory)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

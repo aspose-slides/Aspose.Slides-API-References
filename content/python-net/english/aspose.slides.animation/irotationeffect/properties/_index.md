@@ -17,5 +17,6 @@ def properties(self):
 ```
 
 ### See Also
+* class [`IRotationEffect`](/slides/python-net/aspose.slides.animation/irotationeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,6 +20,7 @@ def as_i_graphical_object(self):
 ```
 
 ### See Also
+* class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * class [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

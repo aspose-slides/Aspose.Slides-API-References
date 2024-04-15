@@ -21,5 +21,6 @@ def master_handout_slide(self):
 
 ### See Also
 * class [`IMasterHandoutSlide`](/slides/python-net/aspose.slides/imasterhandoutslide)
+* class [`IMasterHandoutSlideManager`](/slides/python-net/aspose.slides/imasterhandoutslidemanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

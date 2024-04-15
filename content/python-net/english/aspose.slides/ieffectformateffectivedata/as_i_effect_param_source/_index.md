@@ -20,6 +20,7 @@ def as_i_effect_param_source(self):
 ```
 
 ### See Also
+* class [`IEffectFormatEffectiveData`](/slides/python-net/aspose.slides/ieffectformateffectivedata)
 * class [`IEffectParamSource`](/slides/python-net/aspose.slides/ieffectparamsource)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

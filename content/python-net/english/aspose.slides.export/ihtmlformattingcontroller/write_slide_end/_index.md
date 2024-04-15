@@ -20,12 +20,14 @@ def write_slide_end(self, generator, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| generator | IHtmlGenerator | Output object. |
-| slide | ISlide | Slide which being currently rendered. |
+| generator | [`IHtmlGenerator`](/slides/python-net/aspose.slides.export/ihtmlgenerator) | Output object. |
+| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide which being currently rendered. |
 
 
 
 ### See Also
 * class [`IHtmlFormattingController`](/slides/python-net/aspose.slides.export/ihtmlformattingcontroller)
+* class [`IHtmlGenerator`](/slides/python-net/aspose.slides.export/ihtmlgenerator)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

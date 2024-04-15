@@ -17,11 +17,11 @@ The Output type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#string-ippimage) | Adds an output element for the image. |
-| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#string-asposepydrawingimage) | Adds an output element for the image. |
-| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#string-ivideo) | Adds an output element for the video. |
-| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#string-ifontdata-asposepydrawingfontstyle) | Adds an output element for the font. |
-| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#string-string) | Adds an output element for the text content. |
+| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#str-ippimage) | Adds an output element for the image. |
+| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#str-asposepydrawingimage) | Adds an output element for the image. |
+| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#str-ivideo) | Adds an output element for the video. |
+| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#str-ifontdata-asposepydrawingfontstyle) | Adds an output element for the font. |
+| [`add`](/slides/python-net/aspose.slides.export.web/output/add/#str-str) | Adds an output element for the text content. |
 | [`bind_resource`](/slides/python-net/aspose.slides.export.web/output/bind_resource/#ioutputfile-any) | Binds resource to output file. |
 | [`get_resource_path`](/slides/python-net/aspose.slides.export.web/output/get_resource_path/#any) | Returns the path for a given resource. |
 

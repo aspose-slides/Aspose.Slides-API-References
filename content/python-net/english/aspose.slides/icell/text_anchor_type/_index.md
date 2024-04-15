@@ -23,5 +23,7 @@ def text_anchor_type(self, value):
 ```
 
 ### See Also
+* class [`ICell`](/slides/python-net/aspose.slides/icell)
+* enumeration [`TextAnchorType`](/slides/python-net/aspose.slides/textanchortype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

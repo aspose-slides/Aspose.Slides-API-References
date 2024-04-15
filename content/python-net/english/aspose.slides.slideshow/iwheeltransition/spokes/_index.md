@@ -23,5 +23,6 @@ def spokes(self, value):
 ```
 
 ### See Also
+* class [`IWheelTransition`](/slides/python-net/aspose.slides.slideshow/iwheeltransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

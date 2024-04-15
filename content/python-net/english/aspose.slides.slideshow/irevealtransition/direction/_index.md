@@ -23,5 +23,7 @@ def direction(self, value):
 ```
 
 ### See Also
+* class [`IRevealTransition`](/slides/python-net/aspose.slides.slideshow/irevealtransition)
+* enumeration [`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

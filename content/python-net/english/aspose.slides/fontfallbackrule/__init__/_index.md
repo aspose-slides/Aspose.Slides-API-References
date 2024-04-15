@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#int-int-string}
+## __init__ {#int-int-str}
 Creates new instance.
 
 
@@ -20,13 +20,13 @@ def __init__(self, start_index, end_index, font_names):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | int | Start index of unicode range |
-| end_index | int | End index of unicode range |
-| font_names | string | Font's name or names (delimited by comma) for FallBack |
+| start_index | **int** | Start index of unicode range |
+| end_index | **int** | End index of unicode range |
+| font_names | **str** | Font's name or names (delimited by comma) for FallBack |
 
 
 
-## __init__ {#int-int-liststring}
+## __init__ {#int-int-liststr}
 Creates new instance.
 
 
@@ -38,9 +38,9 @@ def __init__(self, start_index, end_index, font_names):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | int | Start index of unicode range |
-| end_index | int | End index of unicode range |
-| font_names | List[string] | Font's name or names (delimited by comma) for FallBack |
+| start_index | **int** | Start index of unicode range |
+| end_index | **int** | End index of unicode range |
+| font_names | **List[str]** | Font's name or names (delimited by comma) for FallBack |
 
 
 

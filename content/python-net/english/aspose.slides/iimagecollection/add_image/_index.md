@@ -25,7 +25,7 @@ def add_image(self, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | aspose.pydrawing.Image | Image to add. |
+| image | **aspose.pydrawing.Image** | Image to add. |
 
 ### Remarks
 
@@ -33,7 +33,7 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 
 
 
-## add_image {#systemiostream}
+## add_image {#iorawiobase}
 Add an image to a presentation from stream.
 
 ### Returns
@@ -50,7 +50,7 @@ def add_image(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Stream to add image from. |
+| stream | **io.RawIOBase** | Stream to add image from. |
 
 ### Remarks
 
@@ -75,7 +75,7 @@ def add_image(self, buffer):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes | Buffer. |
+| buffer | **bytes** | Buffer. |
 
 
 
@@ -96,7 +96,7 @@ def add_image(self, image_source):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_source | IPPImage | Source image. |
+| image_source | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | Source image. |
 
 
 
@@ -117,7 +117,7 @@ def add_image(self, svg_image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| svg_image | ISvgImage | SVG image object [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
+| svg_image | [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) | SVG image object [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
 
 ## Exceptions
 
@@ -127,7 +127,7 @@ def add_image(self, svg_image):
 
 
 
-## add_image {#systemiostream-loadingstreambehavior}
+## add_image {#iorawiobase-loadingstreambehavior}
 Creates and adds an image to a presentation from stream.
 
 ### Returns
@@ -144,8 +144,8 @@ def add_image(self, stream, loading_stream_behavior):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Stream to add image file from. |
-| loading_stream_behavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
+| stream | **io.RawIOBase** | Stream to add image file from. |
+| loading_stream_behavior | [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior) | The behavior which will be applied to the stream. |
 
 
 
@@ -153,5 +153,6 @@ def add_image(self, stream, loading_stream_behavior):
 * class [`IImageCollection`](/slides/python-net/aspose.slides/iimagecollection)
 * class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * class [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage)
+* enumeration [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

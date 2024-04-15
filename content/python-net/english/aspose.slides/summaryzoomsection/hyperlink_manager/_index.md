@@ -21,5 +21,6 @@ def hyperlink_manager(self):
 
 ### See Also
 * class [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager)
+* class [`SummaryZoomSection`](/slides/python-net/aspose.slides/summaryzoomsection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

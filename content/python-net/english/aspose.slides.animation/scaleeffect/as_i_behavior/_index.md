@@ -17,5 +17,6 @@ def as_i_behavior(self):
 ```
 
 ### See Also
+* class [`ScaleEffect`](/slides/python-net/aspose.slides.animation/scaleeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

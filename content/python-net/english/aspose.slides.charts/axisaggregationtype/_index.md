@@ -7,7 +7,7 @@ url: /aspose.slides.charts/axisaggregationtype/
 ---
 
 
-## AxisAggregationType class
+## AxisAggregationType enumeration
 
 Represents aggregation type of category axis. Used with Histogram or HistogramPareto series only.
 

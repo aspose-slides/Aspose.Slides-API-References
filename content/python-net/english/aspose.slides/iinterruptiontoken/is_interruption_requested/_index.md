@@ -19,5 +19,6 @@ def is_interruption_requested(self):
 ```
 
 ### See Also
+* class [`IInterruptionToken`](/slides/python-net/aspose.slides/iinterruptiontoken)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

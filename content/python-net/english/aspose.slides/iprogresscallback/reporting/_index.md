@@ -20,7 +20,7 @@ def reporting(self, progress_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| progress_value | float | The value of the updated progress. |
+| progress_value | **float** | The value of the updated progress. |
 
 
 

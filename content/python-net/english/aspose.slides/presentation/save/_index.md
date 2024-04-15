@@ -20,11 +20,11 @@ def save(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IXamlOptions`](/slides/python-net/aspose.slides.export.xaml/ixamloptions) | The XAML format options. |
+| options | **aspose.slides.export.xaml.IXamlOptions** | The XAML format options. |
 
 
 
-## save {#string-asposeslidesexportsaveformat}
+## save {#str-asposeslidesexportsaveformat}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -36,12 +36,12 @@ def save(self, fname, format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fname | string | Path to the created file. |
-| format | aspose.slides.export.SaveFormat | Format of the exported data. |
+| fname | **str** | Path to the created file. |
+| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
 
 
 
-## save {#systemiostream-asposeslidesexportsaveformat}
+## save {#iorawiobase-asposeslidesexportsaveformat}
 Saves all slides of a presentation to a stream in the specified format.
 
 
@@ -53,12 +53,12 @@ def save(self, stream, format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Output stream. |
-| format | aspose.slides.export.SaveFormat | Format of the exported data. |
+| stream | **io.RawIOBase** | Output stream. |
+| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
 
 
 
-## save {#string-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+## save {#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 
 
 
@@ -70,13 +70,13 @@ def save(self, fname, format, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fname | string |  |
-| format | aspose.slides.export.SaveFormat |  |
-| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) |  |
+| fname | **str** |  |
+| format | **aspose.slides.export.SaveFormat** |  |
+| options | **aspose.slides.export.ISaveOptions** |  |
 
 
 
-## save {#systemiostream-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+## save {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves all slides of a presentation to a stream in the specified format and with additional options.
 
 
@@ -88,9 +88,9 @@ def save(self, stream, format, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Output stream. |
-| format | aspose.slides.export.SaveFormat | Format of the exported data. |
-| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
+| stream | **io.RawIOBase** | Output stream. |
+| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
+| options | **aspose.slides.export.ISaveOptions** | Additional format options. |
 
 ## Exceptions
 
@@ -100,7 +100,7 @@ def save(self, stream, format, options):
 
 
 
-## save {#string-listint-asposeslidesexportsaveformat}
+## save {#str-listint-asposeslidesexportsaveformat}
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
 
 
@@ -112,9 +112,9 @@ def save(self, fname, slides, format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fname | string | Path to the created file. |
-| slides | List[int] | Array with slide positions, starting from 1. |
-| format | aspose.slides.export.SaveFormat | Format of the exported data. |
+| fname | **str** | Path to the created file. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
 
 ## Exceptions
 
@@ -126,7 +126,7 @@ def save(self, fname, slides, format):
 
 
 
-## save {#systemiostream-listint-asposeslidesexportsaveformat}
+## save {#iorawiobase-listint-asposeslidesexportsaveformat}
 Saves specified slides of a presentation to a stream in the specified format with page number keeping.
 
 
@@ -138,13 +138,13 @@ def save(self, stream, slides, format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Output stream. |
-| slides | List[int] | Array with slide positions, starting from 1. |
-| format | aspose.slides.export.SaveFormat | Format of the exported data. |
+| stream | **io.RawIOBase** | Output stream. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
 
 
 
-## save {#string-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+## save {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
 
 
@@ -156,14 +156,14 @@ def save(self, fname, slides, format, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| fname | string | Path to the created file. |
-| slides | List[int] | Array with slide positions, starting from 1. |
-| format | aspose.slides.export.SaveFormat | Format of the exported data. |
-| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
+| fname | **str** | Path to the created file. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
+| options | **aspose.slides.export.ISaveOptions** | Additional format options. |
 
 
 
-## save {#systemiostream-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+## save {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves specified slides of a presentation to a stream in the specified format with page number keeping.
 
 
@@ -175,10 +175,10 @@ def save(self, stream, slides, format, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Output stream. |
-| slides | List[int] | Array with slide positions, starting from 1. |
-| format | aspose.slides.export.SaveFormat | Format of the exported data. |
-| options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
+| stream | **io.RawIOBase** | Output stream. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| format | **aspose.slides.export.SaveFormat** | Format of the exported data. |
+| options | **aspose.slides.export.ISaveOptions** | Additional format options. |
 
 ## Exceptions
 

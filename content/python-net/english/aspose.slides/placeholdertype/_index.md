@@ -7,7 +7,7 @@ url: /aspose.slides/placeholdertype/
 ---
 
 
-## PlaceholderType class
+## PlaceholderType enumeration
 
 Represents the type of a placeholder.
 

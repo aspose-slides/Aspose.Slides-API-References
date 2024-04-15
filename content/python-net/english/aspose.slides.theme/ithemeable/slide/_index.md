@@ -17,5 +17,6 @@ def slide(self):
 ```
 
 ### See Also
+* class [`IThemeable`](/slides/python-net/aspose.slides.theme/ithemeable)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

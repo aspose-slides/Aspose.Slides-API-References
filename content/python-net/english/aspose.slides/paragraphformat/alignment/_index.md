@@ -23,5 +23,7 @@ def alignment(self, value):
 ```
 
 ### See Also
+* class [`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat)
+* enumeration [`TextAlignment`](/slides/python-net/aspose.slides/textalignment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

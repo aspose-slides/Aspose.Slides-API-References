@@ -24,5 +24,6 @@ def override_theme(self, value):
 
 ### See Also
 * class [`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme)
+* class [`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

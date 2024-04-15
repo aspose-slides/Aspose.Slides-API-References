@@ -29,7 +29,7 @@ The VbaReferenceFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_ole_type_lib_reference`](/slides/python-net/aspose.slides.vba/vbareferencefactory/create_ole_type_lib_reference/#string-string) | Creates new OLE Automation type library reference. |
+| [`create_ole_type_lib_reference`](/slides/python-net/aspose.slides.vba/vbareferencefactory/create_ole_type_lib_reference/#str-str) | Creates new OLE Automation type library reference. |
 
 ### See Also
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)

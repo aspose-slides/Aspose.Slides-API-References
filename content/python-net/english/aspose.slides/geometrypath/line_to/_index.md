@@ -20,7 +20,7 @@ def line_to(self, point):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | aspose.pydrawing.PointF | End point of the line |
+| point | **aspose.pydrawing.PointF** | End point of the line |
 
 
 
@@ -36,8 +36,8 @@ def line_to(self, x, y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of the end point of the line |
-| y | float | Y coordinate of the end point of the line |
+| x | **float** | X coordinate of the end point of the line |
+| y | **float** | Y coordinate of the end point of the line |
 
 
 
@@ -53,8 +53,8 @@ def line_to(self, point, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | aspose.pydrawing.PointF | End point |
-| index | int | Index of segment in PathData |
+| point | **aspose.pydrawing.PointF** | End point |
+| index | **int** | Index of segment in PathData |
 
 ## Exceptions
 
@@ -76,9 +76,9 @@ def line_to(self, x, y, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of the point |
-| y | float | Y coordinate of the point |
-| index | int | Index of segment in PathData |
+| x | **float** | X coordinate of the point |
+| y | **float** | Y coordinate of the point |
+| index | **int** | Index of segment in PathData |
 
 ## Exceptions
 

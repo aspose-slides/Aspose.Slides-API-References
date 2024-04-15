@@ -23,5 +23,7 @@ def tile_flip(self, value):
 ```
 
 ### See Also
+* class [`GradientFormat`](/slides/python-net/aspose.slides/gradientformat)
+* enumeration [`TileFlip`](/slides/python-net/aspose.slides/tileflip)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

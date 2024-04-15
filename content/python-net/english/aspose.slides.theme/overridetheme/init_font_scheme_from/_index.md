@@ -20,7 +20,7 @@ def init_font_scheme_from(self, font_scheme):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_scheme | IFontScheme | Data to initialize from. |
+| font_scheme | [`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme) | Data to initialize from. |
 
 ## Exceptions
 
@@ -32,6 +32,7 @@ def init_font_scheme_from(self, font_scheme):
 
 
 ### See Also
+* class [`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme)
 * class [`OverrideTheme`](/slides/python-net/aspose.slides.theme/overridetheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

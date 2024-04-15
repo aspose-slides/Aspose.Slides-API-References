@@ -25,7 +25,7 @@ def add(self, xml_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| xml_data | bytes | The xml data of new part to be added. |
+| xml_data | **bytes** | The xml data of new part to be added. |
 
 ## Exceptions
 
@@ -36,7 +36,7 @@ def add(self, xml_data):
 
 
 
-## add {#string}
+## add {#str}
 Adds new custom xml part.
 
 ### Returns
@@ -53,7 +53,7 @@ def add(self, xml_string):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| xml_string | string | The xml string of new part to be added. |
+| xml_string | **str** | The xml string of new part to be added. |
 
 ## Exceptions
 
@@ -64,7 +64,7 @@ def add(self, xml_string):
 
 
 
-## add {#systemiostream}
+## add {#iorawiobase}
 Adds new custom xml part.
 
 ### Returns
@@ -81,7 +81,7 @@ def add(self, input_stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| input_stream | System.IO.Stream | The inputStream with xml data of new part to be added. |
+| input_stream | **io.RawIOBase** | The inputStream with xml data of new part to be added. |
 
 ## Exceptions
 
@@ -93,6 +93,7 @@ def add(self, input_stream):
 
 
 ### See Also
+* class [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart)
 * class [`ICustomXmlPartCollection`](/slides/python-net/aspose.slides/icustomxmlpartcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

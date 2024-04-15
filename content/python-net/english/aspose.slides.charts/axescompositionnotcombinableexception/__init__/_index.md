@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#string}
+## __init__ {#str}
 Constructor allowing a message to be added to this exception.
 
 
@@ -32,7 +32,7 @@ def __init__(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | string | message |
+| message | **str** | message |
 
 
 

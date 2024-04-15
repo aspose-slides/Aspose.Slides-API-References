@@ -20,7 +20,7 @@ def init_format_scheme_from(self, format_scheme):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| format_scheme | IFormatScheme | Data to initialize from. |
+| format_scheme | [`IFormatScheme`](/slides/python-net/aspose.slides.theme/iformatscheme) | Data to initialize from. |
 
 ## Exceptions
 
@@ -32,6 +32,7 @@ def init_format_scheme_from(self, format_scheme):
 
 
 ### See Also
+* class [`IFormatScheme`](/slides/python-net/aspose.slides.theme/iformatscheme)
 * class [`OverrideTheme`](/slides/python-net/aspose.slides.theme/overridetheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

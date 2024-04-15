@@ -25,7 +25,7 @@ def index_of(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IChartSeries | Chart series value. |
+| value | [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries) | Chart series value. |
 
 
 

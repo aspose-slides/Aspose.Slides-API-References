@@ -23,5 +23,7 @@ def system_color(self, value):
 ```
 
 ### See Also
+* class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
+* enumeration [`SystemColor`](/slides/python-net/aspose.slides/systemcolor)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

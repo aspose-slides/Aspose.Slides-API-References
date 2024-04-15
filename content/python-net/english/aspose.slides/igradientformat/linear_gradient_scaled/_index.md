@@ -23,5 +23,7 @@ def linear_gradient_scaled(self, value):
 ```
 
 ### See Also
+* class [`IGradientFormat`](/slides/python-net/aspose.slides/igradientformat)
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

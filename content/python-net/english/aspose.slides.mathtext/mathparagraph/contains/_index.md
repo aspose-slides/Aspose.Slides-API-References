@@ -27,11 +27,12 @@ def contains(self, math_block):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_block | IMathBlock | The object to locate in the collection. |
+| math_block | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | The object to locate in the collection. |
 
 
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

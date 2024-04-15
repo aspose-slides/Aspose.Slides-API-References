@@ -35,5 +35,6 @@ def show_legend_key(self, value):
 ```
 
 ### See Also
+* class [`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -11,7 +11,7 @@ weight: 330
 ## name property
 Returns or sets the name of a shape.
             Must be not null. Use empty string value if needed.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def name(self, value):
 ```
 
 ### See Also
+* class [`SmartArt`](/slides/python-net/aspose.slides.smartart/smartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

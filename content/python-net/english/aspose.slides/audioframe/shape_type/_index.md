@@ -57,5 +57,7 @@ def shape_type(self, value):
 ```
 
 ### See Also
+* class [`AudioFrame`](/slides/python-net/aspose.slides/audioframe)
+* enumeration [`ShapeType`](/slides/python-net/aspose.slides/shapetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

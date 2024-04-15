@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 
 
-## TransitionCornerAndCenterDirectionType class
+## TransitionCornerAndCenterDirectionType enumeration
 
 Specifies a direction restricted to the corners and center.
 

@@ -33,7 +33,7 @@ The ChartSeriesCollection type exposes the following members:
 | [`add`](/slides/python-net/aspose.slides.charts/chartseriescollection/add/#charttype) | Creates new chart series and adds it to the collection. |
 | [`add`](/slides/python-net/aspose.slides.charts/chartseriescollection/add/#ichartdatacell-charttype) | Creates new chart series from [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell) and adds it to the collection. |
 | [`add`](/slides/python-net/aspose.slides.charts/chartseriescollection/add/#ichartcellcollection-charttype) | Creates new chart series from [`ChartCellCollection`](/slides/python-net/aspose.slides.charts/chartcellcollection) and adds it to the collection. |
-| [`add`](/slides/python-net/aspose.slides.charts/chartseriescollection/add/#string-charttype) | Creates new chart series from value and adds it to the collection. |
+| [`add`](/slides/python-net/aspose.slides.charts/chartseriescollection/add/#str-charttype) | Creates new chart series from value and adds it to the collection. |
 | [`insert`](/slides/python-net/aspose.slides.charts/chartseriescollection/insert/#int-charttype) | Creates new chart series and inserts it into the collection. |
 | [`index_of`](/slides/python-net/aspose.slides.charts/chartseriescollection/index_of/#ichartseries) | Searches for the specified [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries) and returns the zero-based index of the first occurrence within the entire Collection |
 | [`remove`](/slides/python-net/aspose.slides.charts/chartseriescollection/remove/#ichartseries) | Removes the specified value. |

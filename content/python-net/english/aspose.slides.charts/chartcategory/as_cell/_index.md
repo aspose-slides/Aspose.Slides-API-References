@@ -24,6 +24,7 @@ def as_cell(self, value):
 ```
 
 ### See Also
+* class [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory)
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

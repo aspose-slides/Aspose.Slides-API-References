@@ -21,5 +21,6 @@ def all_custom_xml_parts(self):
 
 ### See Also
 * class [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart)
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

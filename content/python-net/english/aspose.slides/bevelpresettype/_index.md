@@ -7,7 +7,7 @@ url: /aspose.slides/bevelpresettype/
 ---
 
 
-## BevelPresetType class
+## BevelPresetType enumeration
 
 Constants which define 3D bevel of shape.
 

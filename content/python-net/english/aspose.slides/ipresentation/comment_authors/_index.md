@@ -21,5 +21,6 @@ def comment_authors(self):
 
 ### See Also
 * class [`ICommentAuthorCollection`](/slides/python-net/aspose.slides/icommentauthorcollection)
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

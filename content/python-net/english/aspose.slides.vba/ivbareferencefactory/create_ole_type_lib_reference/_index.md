@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_ole_type_lib_reference {#string-string}
+## create_ole_type_lib_reference {#str-str}
 Creates new OLE Automation type library reference.
 
 ### Returns
@@ -25,8 +25,8 @@ def create_ole_type_lib_reference(self, name, libid):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the VBA project reference **string** |
-| libid | string | Identifier of an Automation type library **string** |
+| name | **str** | Name of the VBA project reference **str** |
+| libid | **str** | Identifier of an Automation type library **str** |
 
 
 

@@ -21,5 +21,6 @@ def as_i_presentation_component(self):
 
 ### See Also
 * class [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)
+* class [`Luminance`](/slides/python-net/aspose.slides.effects/luminance)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

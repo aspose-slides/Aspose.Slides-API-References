@@ -28,5 +28,7 @@ def text_compression(self, value):
 ```
 
 ### See Also
+* class [`PdfOptions`](/slides/python-net/aspose.slides.export/pdfoptions)
+* enumeration [`PdfTextCompression`](/slides/python-net/aspose.slides.export/pdftextcompression)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

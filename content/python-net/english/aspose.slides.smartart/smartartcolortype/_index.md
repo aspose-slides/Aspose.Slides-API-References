@@ -7,7 +7,7 @@ url: /aspose.slides.smartart/smartartcolortype/
 ---
 
 
-## SmartArtColorType class
+## SmartArtColorType enumeration
 
 Represents color scheme of a SmartArt diagram.
 

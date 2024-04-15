@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## to_svg {#string}
+## to_svg {#str}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to SVG.
 
 
@@ -20,7 +20,7 @@ def to_svg(self, pres_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres_path | string | Path of the input presentation |
+| pres_path | **str** | Path of the input presentation |
 
 
 
@@ -36,8 +36,8 @@ def to_svg(self, pres, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation | Input presentation |
-| options | [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions) | SVG export options |
+| pres | [`Presentation`](/slides/python-net/aspose.slides/presentation) | Input presentation |
+| options | **aspose.slides.export.ISVGOptions** | SVG export options |
 
 
 

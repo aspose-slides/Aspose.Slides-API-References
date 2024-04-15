@@ -27,5 +27,6 @@ def frame_size(self, value):
 ```
 
 ### See Also
+* class [`GifOptions`](/slides/python-net/aspose.slides.export/gifoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

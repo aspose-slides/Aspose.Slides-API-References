@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## write_as_svg {#systemiostream}
+## write_as_svg {#iorawiobase}
 
 
 
@@ -20,11 +20,11 @@ def write_as_svg(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
+| stream | **io.RawIOBase** |  |
 
 
 
-## write_as_svg {#systemiostream-asposeslidesexportisvgoptions}
+## write_as_svg {#iorawiobase-asposeslidesexportisvgoptions}
 
 
 
@@ -36,8 +36,8 @@ def write_as_svg(self, stream, svg_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream |  |
-| svg_options | [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions) |  |
+| stream | **io.RawIOBase** |  |
+| svg_options | **aspose.slides.export.ISVGOptions** |  |
 
 
 

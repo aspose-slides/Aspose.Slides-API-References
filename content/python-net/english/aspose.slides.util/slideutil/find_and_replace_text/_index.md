@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## find_and_replace_text {#ipresentation-bool-string-string-portionformat}
+## find_and_replace_text {#ipresentation-bool-str-str-portionformat}
 Finds and replaces text in presentation with given format
 
 
@@ -20,15 +20,17 @@ def find_and_replace_text(self, presentation, with_masters, find, replace, forma
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| presentation | IPresentation | Scanned presentation. |
-| with_masters | bool | Determines whether master slides should be scanned. |
-| find | string | String value to find. |
-| replace | string | String value to replace. |
-| format | PortionFormat | Format for replacing text portion. If null then will be used format of the first <br/><br/>            character of the found string |
+| presentation | [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) | Scanned presentation. |
+| with_masters | **bool** | Determines whether master slides should be scanned. |
+| find | **str** | String value to find. |
+| replace | **str** | String value to replace. |
+| format | [`PortionFormat`](/slides/python-net/aspose.slides/portionformat) | Format for replacing text portion. If null then will be used format of the first <br/><br/>            character of the found string |
 
 
 
 ### See Also
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
+* class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
 * class [`SlideUtil`](/slides/python-net/aspose.slides.util/slideutil)
 * module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)
 * library [`Aspose.Slides`](/slides/python-net)

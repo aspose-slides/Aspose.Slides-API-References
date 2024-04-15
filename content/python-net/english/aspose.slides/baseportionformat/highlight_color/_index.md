@@ -20,6 +20,7 @@ def highlight_color(self):
 ```
 
 ### See Also
+* class [`BasePortionFormat`](/slides/python-net/aspose.slides/baseportionformat)
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

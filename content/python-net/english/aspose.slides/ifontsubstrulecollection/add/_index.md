@@ -20,7 +20,7 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IFontSubstRule | Font substitution rule [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) |
+| value | [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) | Font substitution rule [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) |
 
 
 

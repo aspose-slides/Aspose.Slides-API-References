@@ -10,7 +10,7 @@ weight: 10
 
 ## internal_string property
 Returns the internal name of this FieldTypeEx object.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def internal_string(self, value):
 ```
 
 ### See Also
+* class [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

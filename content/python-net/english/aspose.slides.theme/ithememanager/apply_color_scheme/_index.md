@@ -20,7 +20,7 @@ def apply_color_scheme(self, scheme):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| scheme | IExtraColorScheme | Extra color scheme [`IExtraColorScheme`](/slides/python-net/aspose.slides.theme/iextracolorscheme) |
+| scheme | [`IExtraColorScheme`](/slides/python-net/aspose.slides.theme/iextracolorscheme) | Extra color scheme [`IExtraColorScheme`](/slides/python-net/aspose.slides.theme/iextracolorscheme) |
 
 
 

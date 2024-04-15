@@ -26,5 +26,6 @@ def as_i_base_portion_format(self):
 
 ### See Also
 * class [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat)
+* class [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

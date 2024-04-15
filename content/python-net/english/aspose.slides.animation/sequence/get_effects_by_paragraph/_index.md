@@ -20,11 +20,12 @@ def get_effects_by_paragraph(self, paragraph):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| paragraph | IParagraph |  |
+| paragraph | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) |  |
 
 
 
 ### See Also
+* class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
 * class [`Sequence`](/slides/python-net/aspose.slides.animation/sequence)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

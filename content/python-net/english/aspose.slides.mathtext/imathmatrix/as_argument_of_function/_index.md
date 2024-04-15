@@ -20,11 +20,11 @@ def as_argument_of_function(self, function_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_name | IMathElement |  |
+| function_name | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
 
-## as_argument_of_function {#string}
+## as_argument_of_function {#str}
 
 
 
@@ -36,7 +36,7 @@ def as_argument_of_function(self, function_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_name | string |  |
+| function_name | **str** |  |
 
 
 
@@ -52,7 +52,7 @@ def as_argument_of_function(self, function_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_type | MathFunctionsOfOneArgument |  |
+| function_type | [`MathFunctionsOfOneArgument`](/slides/python-net/aspose.slides.mathtext/mathfunctionsofoneargument) |  |
 
 
 
@@ -68,12 +68,12 @@ def as_argument_of_function(self, function_type, additional_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_type | MathFunctionsOfTwoArguments |  |
-| additional_argument | IMathElement |  |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/aspose.slides.mathtext/mathfunctionsoftwoarguments) |  |
+| additional_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
 
-## as_argument_of_function {#mathfunctionsoftwoarguments-string}
+## as_argument_of_function {#mathfunctionsoftwoarguments-str}
 
 
 
@@ -85,12 +85,16 @@ def as_argument_of_function(self, function_type, additional_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_type | MathFunctionsOfTwoArguments |  |
-| additional_argument | string |  |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/aspose.slides.mathtext/mathfunctionsoftwoarguments) |  |
+| additional_argument | **str** |  |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathFunction`](/slides/python-net/aspose.slides.mathtext/imathfunction)
 * class [`IMathMatrix`](/slides/python-net/aspose.slides.mathtext/imathmatrix)
+* enumeration [`MathFunctionsOfOneArgument`](/slides/python-net/aspose.slides.mathtext/mathfunctionsofoneargument)
+* enumeration [`MathFunctionsOfTwoArguments`](/slides/python-net/aspose.slides.mathtext/mathfunctionsoftwoarguments)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -42,7 +42,7 @@ def create_math_block(self, math_element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_element | IMathElement | A math element |
+| math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | A math element |
 
 
 
@@ -63,11 +63,14 @@ def create_math_block(self, math_elements):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_elements | IMathElementCollection | math elements |
+| math_elements | [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection) | math elements |
 
 
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection)
 * class [`MathBlockFactory`](/slides/python-net/aspose.slides.mathtext/mathblockfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

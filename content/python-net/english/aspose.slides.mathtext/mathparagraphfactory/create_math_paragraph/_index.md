@@ -42,11 +42,13 @@ def create_math_paragraph(self, math_block):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_block | IMathBlock | math block to place in the paragraph |
+| math_block | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | math block to place in the paragraph |
 
 
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
+* class [`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph)
 * class [`MathParagraphFactory`](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

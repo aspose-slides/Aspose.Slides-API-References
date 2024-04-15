@@ -20,5 +20,6 @@ def next_slide_index(self):
 ```
 
 ### See Also
+* class [`HtmlGenerator`](/slides/python-net/aspose.slides.export/htmlgenerator)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

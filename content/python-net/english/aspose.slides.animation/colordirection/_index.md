@@ -7,7 +7,7 @@ url: /aspose.slides.animation/colordirection/
 ---
 
 
-## ColorDirection class
+## ColorDirection enumeration
 
 Represents color direction for color effect behavior.
 

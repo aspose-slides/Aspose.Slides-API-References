@@ -17,13 +17,13 @@ The FontData type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/fontdata/__init__/#string) | Creates a new FontData object with the specified font name. |
+| [`__init__`](/slides/python-net/aspose.slides/fontdata/__init__/#str) | Creates a new FontData object with the specified font name. |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [`font_name`](/slides/python-net/aspose.slides/fontdata/font_name/) | Returns the font name.<br/>            Read/write **string**. |
+| [`font_name`](/slides/python-net/aspose.slides/fontdata/font_name/) | Returns the font name.<br/>            Read/write **str**. |
 
 ## Methods
 

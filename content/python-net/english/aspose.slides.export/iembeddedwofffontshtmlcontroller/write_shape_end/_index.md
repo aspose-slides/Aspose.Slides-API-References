@@ -20,12 +20,14 @@ def write_shape_end(self, generator, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| generator | IHtmlGenerator |  |
-| shape | IShape |  |
+| generator | [`IHtmlGenerator`](/slides/python-net/aspose.slides.export/ihtmlgenerator) |  |
+| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) |  |
 
 
 
 ### See Also
 * class [`IEmbeddedWoffFontsHtmlController`](/slides/python-net/aspose.slides.export/iembeddedwofffontshtmlcontroller)
+* class [`IHtmlGenerator`](/slides/python-net/aspose.slides.export/ihtmlgenerator)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

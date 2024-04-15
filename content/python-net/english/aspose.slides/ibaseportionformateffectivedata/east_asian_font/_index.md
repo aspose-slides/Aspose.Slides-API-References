@@ -20,6 +20,7 @@ def east_asian_font(self):
 ```
 
 ### See Also
+* class [`IBasePortionFormatEffectiveData`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata)
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

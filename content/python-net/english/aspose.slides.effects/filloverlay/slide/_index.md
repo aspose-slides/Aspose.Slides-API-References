@@ -17,5 +17,6 @@ def slide(self):
 ```
 
 ### See Also
+* class [`FillOverlay`](/slides/python-net/aspose.slides.effects/filloverlay)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

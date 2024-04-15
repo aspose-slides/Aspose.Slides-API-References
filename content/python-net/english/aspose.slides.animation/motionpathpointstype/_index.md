@@ -7,7 +7,7 @@ url: /aspose.slides.animation/motionpathpointstype/
 ---
 
 
-## MotionPathPointsType class
+## MotionPathPointsType enumeration
 
 Represent types of points in animation motion path.
 

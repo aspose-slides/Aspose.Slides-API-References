@@ -7,7 +7,7 @@ url: /aspose.slides.charts/axispositiontype/
 ---
 
 
-## AxisPositionType class
+## AxisPositionType enumeration
 
 Determines a position of axis.
 

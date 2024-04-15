@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#string-string}
+## add {#str-str}
 Adds a new tag to collection.
 
 ### Returns
@@ -25,8 +25,8 @@ def add(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | The name of the tag. |
-| value | string | The value of the tag. |
+| name | **str** | The name of the tag. |
+| value | **str** | The value of the tag. |
 
 
 

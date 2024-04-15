@@ -7,7 +7,7 @@ url: /aspose.slides.smartart/smartartlayouttype/
 ---
 
 
-## SmartArtLayoutType class
+## SmartArtLayoutType enumeration
 
 Represents layout type of a SmartArt diagram.
 

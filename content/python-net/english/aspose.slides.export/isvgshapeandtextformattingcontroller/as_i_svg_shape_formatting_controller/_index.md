@@ -24,5 +24,6 @@ def as_i_svg_shape_formatting_controller(self):
 ```
 
 ### See Also
+* class [`ISvgShapeAndTextFormattingController`](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

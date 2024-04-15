@@ -41,8 +41,8 @@ The IBasePortionFormatEffectiveData type exposes the following members:
 | [`symbol_font`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/symbol_font/) | Returns the symbolic font info.<br/>            Read-only [`IFontData`](/slides/python-net/aspose.slides/ifontdata). |
 | [`escapement`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/escapement/) | Returns the superscript or subscript text.<br/>            Value from -100% (subscript) to 100% (superscript).<br/>            Read-only **float**. |
 | [`kerning_minimal_size`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/kerning_minimal_size/) | Returns the minimal font size, for which kerning should be switched on.<br/>            Read-only **float**. |
-| [`language_id`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/language_id/) | Returns the Id of a language.<br/>            Read-only **string**. |
-| [`alternative_language_id`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/alternative_language_id/) | Returns the Id of an alternative language.<br/>            Read-only **string**. |
+| [`language_id`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/language_id/) | Returns the Id of a language.<br/>            Read-only **str**. |
+| [`alternative_language_id`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/alternative_language_id/) | Returns the Id of an alternative language.<br/>            Read-only **str**. |
 | [`spacing`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/spacing/) | Returns the intercharacter spacing increment.<br/>            Read-only **float**. |
 
 ### See Also

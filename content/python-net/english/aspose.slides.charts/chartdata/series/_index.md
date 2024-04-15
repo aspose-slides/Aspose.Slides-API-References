@@ -20,6 +20,7 @@ def series(self):
 ```
 
 ### See Also
+* class [`ChartData`](/slides/python-net/aspose.slides.charts/chartdata)
 * class [`IChartSeriesCollection`](/slides/python-net/aspose.slides.charts/ichartseriescollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,5 +23,6 @@ def right_to_left(self, value):
 ```
 
 ### See Also
+* class [`ITable`](/slides/python-net/aspose.slides/itable)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

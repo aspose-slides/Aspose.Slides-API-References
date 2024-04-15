@@ -10,7 +10,7 @@ weight: 140
 
 ## category property
 Returns or sets the category of a presentation.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def category(self, value):
 ```
 
 ### See Also
+* class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

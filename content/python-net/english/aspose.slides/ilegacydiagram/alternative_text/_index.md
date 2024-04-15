@@ -20,5 +20,6 @@ def alternative_text(self, value):
 ```
 
 ### See Also
+* class [`ILegacyDiagram`](/slides/python-net/aspose.slides/ilegacydiagram)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

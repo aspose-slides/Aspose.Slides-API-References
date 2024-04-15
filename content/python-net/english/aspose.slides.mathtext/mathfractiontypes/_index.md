@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathfractiontypes/
 ---
 
 
-## MathFractionTypes class
+## MathFractionTypes enumeration
 
 Fraction Types
 

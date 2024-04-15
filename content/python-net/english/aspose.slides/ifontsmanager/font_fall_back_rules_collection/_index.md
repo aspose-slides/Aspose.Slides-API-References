@@ -24,5 +24,6 @@ def font_fall_back_rules_collection(self, value):
 
 ### See Also
 * class [`IFontFallBackRulesCollection`](/slides/python-net/aspose.slides/ifontfallbackrulescollection)
+* class [`IFontsManager`](/slides/python-net/aspose.slides/ifontsmanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

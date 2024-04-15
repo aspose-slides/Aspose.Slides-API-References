@@ -17,5 +17,6 @@ def as_i_collection(self):
 ```
 
 ### See Also
+* class [`TextAnimationCollection`](/slides/python-net/aspose.slides.animation/textanimationcollection)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

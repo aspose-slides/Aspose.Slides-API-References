@@ -20,5 +20,7 @@ def material(self):
 ```
 
 ### See Also
+* class [`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata)
+* enumeration [`MaterialPresetType`](/slides/python-net/aspose.slides/materialpresettype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

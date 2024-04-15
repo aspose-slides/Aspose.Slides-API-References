@@ -20,6 +20,7 @@ def line_styles(self):
 ```
 
 ### See Also
+* class [`FormatScheme`](/slides/python-net/aspose.slides.theme/formatscheme)
 * class [`ILineFormatCollection`](/slides/python-net/aspose.slides.theme/ilineformatcollection)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

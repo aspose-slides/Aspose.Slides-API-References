@@ -17,5 +17,6 @@ def as_i_formatted_text_container(self):
 ```
 
 ### See Also
+* class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

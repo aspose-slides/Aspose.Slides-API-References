@@ -20,5 +20,6 @@ def parameter(self):
 ```
 
 ### See Also
+* class [`ColorOperation`](/slides/python-net/aspose.slides/coloroperation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_range {#string}
+## set_range {#str}
 Set chart data range. Series and categories will be updated based on new data range.
             If amount of series in data range greater than count of series in the chart data then additional series with the same type
             as a last series in the current collection will be added to the end of the collection.
@@ -22,7 +22,7 @@ def set_range(self, formula):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| formula | string | The cells data range formula. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | **str** | The cells data range formula. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ## Exceptions
 

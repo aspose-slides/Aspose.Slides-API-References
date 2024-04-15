@@ -32,6 +32,7 @@ def frame(self, value):
 ```
 
 ### See Also
+* class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
 * class [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

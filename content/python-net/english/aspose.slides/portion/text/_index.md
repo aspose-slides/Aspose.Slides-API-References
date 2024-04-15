@@ -10,7 +10,7 @@ weight: 120
 
 ## text property
 Gets or sets the plain text of a portion.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def text(self, value):
 ```
 
 ### See Also
+* class [`Portion`](/slides/python-net/aspose.slides/portion)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

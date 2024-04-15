@@ -25,11 +25,11 @@ def add_smart_art(self, x, y, width, height, layout_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | The X-coordinate for a left side of diagram's frame. |
-| y | float | The Y-coordinate for a left side of diagram's frame. |
-| width | float | The width of diagram's frame. |
-| height | float | The height of diagram's frame. |
-| layout_type | aspose.slides.smartart.SmartArtLayoutType | The type of SmartArt diagram |
+| x | **float** | The X-coordinate for a left side of diagram's frame. |
+| y | **float** | The Y-coordinate for a left side of diagram's frame. |
+| width | **float** | The width of diagram's frame. |
+| height | **float** | The height of diagram's frame. |
+| layout_type | **aspose.slides.smartart.SmartArtLayoutType** | The type of SmartArt diagram |
 
 
 

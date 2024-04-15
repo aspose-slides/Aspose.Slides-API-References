@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_from_html {#string}
+## add_from_html {#str}
 Adds text from specified html string to the collection.
 
 
@@ -20,11 +20,11 @@ def add_from_html(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string | HTML text. |
+| text | **str** | HTML text. |
 
 
 
-## add_from_html {#string-asposeslidesimportingiexternalresourceresolver-string}
+## add_from_html {#str-asposeslidesimportingiexternalresourceresolver-str}
 Adds text from specified html string to the collection.
 
 
@@ -36,9 +36,9 @@ def add_from_html(self, text, resolver, uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string | HTML text. |
-| resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | Resolver callback object which resolves URIs and fetches referrenced objects. |
-| uri | string | URI for adding HTML document. Used for resolving relative links. |
+| text | **str** | HTML text. |
+| resolver | **aspose.slides.importing.IExternalResourceResolver** | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | **str** | URI for adding HTML document. Used for resolving relative links. |
 
 ### Remarks
 

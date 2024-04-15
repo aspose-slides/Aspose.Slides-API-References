@@ -20,7 +20,7 @@ def set_embedded_data(self, embedded_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| embedded_data | IOleEmbeddedDataInfo | Embedded data [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) |
+| embedded_data | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | Embedded data [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) |
 
 ### Remarks
 

@@ -20,5 +20,6 @@ def is_text_holder(self):
 ```
 
 ### See Also
+* class [`PictureFrame`](/slides/python-net/aspose.slides/pictureframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

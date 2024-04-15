@@ -17,5 +17,6 @@ def as_i_override_themeable(self):
 ```
 
 ### See Also
+* class [`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -22,7 +22,7 @@ def set_date_time_and_child_date_times_visibility(self, is_visible):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| is_visible | bool | true - makes a date-time placeholders visible, otherwise - hides them. |
+| is_visible | **bool** | true - makes a date-time placeholders visible, otherwise - hides them. |
 
 
 

@@ -23,6 +23,7 @@ def by(self, value):
 ```
 
 ### See Also
+* class [`IColorEffect`](/slides/python-net/aspose.slides.animation/icoloreffect)
 * class [`IColorOffset`](/slides/python-net/aspose.slides.animation/icoloroffset)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

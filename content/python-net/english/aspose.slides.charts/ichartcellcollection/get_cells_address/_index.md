@@ -13,7 +13,7 @@ Returns address of the set of cells in workbook.
 
 ### Returns
 
-Address of the set of cells in workbook **string**
+Address of the set of cells in workbook **str**
 
 
 

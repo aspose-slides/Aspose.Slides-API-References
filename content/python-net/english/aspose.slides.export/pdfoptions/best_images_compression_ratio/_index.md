@@ -31,5 +31,6 @@ def best_images_compression_ratio(self, value):
 ```
 
 ### See Also
+* class [`PdfOptions`](/slides/python-net/aspose.slides.export/pdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

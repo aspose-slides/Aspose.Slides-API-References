@@ -7,7 +7,7 @@ url: /aspose.slides/fontalignment/
 ---
 
 
-## FontAlignment class
+## FontAlignment enumeration
 
 Represents vertical font alignment.
 

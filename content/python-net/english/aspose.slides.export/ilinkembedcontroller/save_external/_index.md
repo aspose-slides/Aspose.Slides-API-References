@@ -20,8 +20,8 @@ def save_external(self, id, entity_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| id | int | Object id. This id is saving operation-wide unique. |
-| entity_data | bytes | Object binary data. This parameter cannot be null. |
+| id | **int** | Object id. This id is saving operation-wide unique. |
+| entity_data | **bytes** | Object binary data. This parameter cannot be null. |
 
 
 

@@ -24,5 +24,6 @@ def item_id(self, value):
 ```
 
 ### See Also
+* class [`CustomXmlPart`](/slides/python-net/aspose.slides/customxmlpart)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

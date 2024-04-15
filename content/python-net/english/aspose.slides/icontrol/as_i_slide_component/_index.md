@@ -20,6 +20,7 @@ def as_i_slide_component(self):
 ```
 
 ### See Also
+* class [`IControl`](/slides/python-net/aspose.slides/icontrol)
 * class [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

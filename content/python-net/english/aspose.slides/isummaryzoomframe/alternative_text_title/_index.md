@@ -20,5 +20,6 @@ def alternative_text_title(self, value):
 ```
 
 ### See Also
+* class [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

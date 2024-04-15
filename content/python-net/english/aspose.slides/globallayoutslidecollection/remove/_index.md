@@ -20,7 +20,7 @@ def remove(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | ILayoutSlide | The layout slide to remove from the collection. |
+| value | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | The layout slide to remove from the collection. |
 
 ### Remarks
 
@@ -37,6 +37,7 @@ def remove(self, value):
 
 ### See Also
 * class [`GlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/globallayoutslidecollection)
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

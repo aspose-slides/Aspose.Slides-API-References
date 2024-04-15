@@ -33,5 +33,6 @@ def max_blobs_bytes_in_memory(self, value):
 ```
 
 ### See Also
+* class [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

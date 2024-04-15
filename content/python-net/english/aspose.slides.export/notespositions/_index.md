@@ -7,7 +7,7 @@ url: /aspose.slides.export/notespositions/
 ---
 
 
-## NotesPositions class
+## NotesPositions enumeration
 
 Represents the rule to render notes into exported document
 

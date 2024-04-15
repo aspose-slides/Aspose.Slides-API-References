@@ -21,6 +21,7 @@ def target_slide(self):
 ```
 
 ### See Also
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

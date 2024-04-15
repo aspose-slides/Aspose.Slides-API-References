@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## index_of_name {#string}
+## index_of_name {#str}
 Returns the zero-based index of the specified key in the collection.
 
 ### Returns
@@ -25,7 +25,7 @@ def index_of_name(self, name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | The name to locate in the collection. |
+| name | **str** | The name to locate in the collection. |
 
 
 

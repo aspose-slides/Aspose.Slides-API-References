@@ -7,7 +7,7 @@ url: /aspose.slides/linearrowheadstyle/
 ---
 
 
-## LineArrowheadStyle class
+## LineArrowheadStyle enumeration
 
 Represents the style of an arrowhead.
 

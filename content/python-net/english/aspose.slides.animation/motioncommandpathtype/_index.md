@@ -7,7 +7,7 @@ url: /aspose.slides.animation/motioncommandpathtype/
 ---
 
 
-## MotionCommandPathType class
+## MotionCommandPathType enumeration
 
 Represent types of command for animation motion effect behavior.
 

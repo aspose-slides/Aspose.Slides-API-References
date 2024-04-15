@@ -23,5 +23,7 @@ def pixel_format(self, value):
 ```
 
 ### See Also
+* enumeration [`ImagePixelFormat`](/slides/python-net/aspose.slides.export/imagepixelformat)
+* class [`TiffOptions`](/slides/python-net/aspose.slides.export/tiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

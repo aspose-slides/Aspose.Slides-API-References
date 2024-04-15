@@ -7,7 +7,7 @@ url: /aspose.slides/orientation/
 ---
 
 
-## Orientation class
+## Orientation enumeration
 
 Represents the orientation of a shape.
 

@@ -7,7 +7,7 @@ url: /aspose.slides/tileflip/
 ---
 
 
-## TileFlip class
+## TileFlip enumeration
 
 Defines tile flipping mode.
 

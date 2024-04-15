@@ -22,5 +22,6 @@ def extra_color_schemes(self):
 
 ### See Also
 * class [`IExtraColorSchemeCollection`](/slides/python-net/aspose.slides.theme/iextracolorschemecollection)
+* class [`MasterTheme`](/slides/python-net/aspose.slides.theme/mastertheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

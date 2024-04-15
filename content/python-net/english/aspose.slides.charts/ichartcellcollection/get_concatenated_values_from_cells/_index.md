@@ -13,7 +13,7 @@ Concatenation string from all cells string values.
 
 ### Returns
 
-Resulting string **string**
+Resulting string **str**
 
 
 

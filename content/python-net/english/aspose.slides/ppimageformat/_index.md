@@ -7,7 +7,7 @@ url: /aspose.slides/ppimageformat/
 ---
 
 
-## PPImageFormat class
+## PPImageFormat enumeration
 
 Image formats. This enum is replacement for `System.Drawing.Imaging.ImageFormat` class.
             It's needed for COM compatibility.

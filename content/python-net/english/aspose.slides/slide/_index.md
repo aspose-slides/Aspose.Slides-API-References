@@ -21,7 +21,7 @@ The Slide type exposes the following members:
 | :- | :- |
 | [`shapes`](/slides/python-net/aspose.slides/slide/shapes/) | Returns the shapes of a slide.<br/>            Read-only [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection). |
 | [`controls`](/slides/python-net/aspose.slides/slide/controls/) | Returns the collection of ActiveX controls on a slide.<br/>            Read-only [`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection). |
-| [`name`](/slides/python-net/aspose.slides/slide/name/) | Returns or sets the name of a slide.<br/>            Read/write **string**. |
+| [`name`](/slides/python-net/aspose.slides/slide/name/) | Returns or sets the name of a slide.<br/>            Read/write **str**. |
 | [`slide_id`](/slides/python-net/aspose.slides/slide/slide_id/) | Returns the ID of a slide.<br/>            Read-only **int**. |
 | [`custom_data`](/slides/python-net/aspose.slides/slide/custom_data/) | Returns the slide's custom data.<br/>            Read-only [`ICustomData`](/slides/python-net/aspose.slides/icustomdata). |
 | [`timeline`](/slides/python-net/aspose.slides/slide/timeline/) | Returns animation timeline object.<br/>            Read-only [`IAnimationTimeLine`](/slides/python-net/aspose.slides/ianimationtimeline). |
@@ -64,11 +64,11 @@ The Slide type exposes the following members:
 | [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics) | Renders certain slide to a Graphics object. |
 | [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-float-float) | Renders certain slide to a Graphics object with custom scaling. |
 | [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-asposepydrawingsize) | Renders certain slide to a Graphics object using specified size. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#systemiostream) | Saves content of slide as SVG file. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) | Saves content of slide as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase) | Saves content of slide as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of slide as SVG file. |
 | [`equals`](/slides/python-net/aspose.slides/slide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/slide/create_theme_effective/#) | Returns an effective theme for this slide. |
-| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/slide/find_shape_by_alt_text/#string) | Finds first occurrence of a shape with the specified alternative text. |
+| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/slide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 | [`remove`](/slides/python-net/aspose.slides/slide/remove/#) | Removes slide from presentation. |
 | [`reset`](/slides/python-net/aspose.slides/slide/reset/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
 | [`get_slide_comments`](/slides/python-net/aspose.slides/slide/get_slide_comments/#icommentauthor) | Returns all slide comments added by specific author. |

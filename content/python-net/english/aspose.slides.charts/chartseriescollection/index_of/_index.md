@@ -25,12 +25,13 @@ def index_of(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IChartSeries | Chart series value. |
+| value | [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries) | Chart series value. |
 
 
 
 ### See Also
 * class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * class [`ChartSeriesCollection`](/slides/python-net/aspose.slides.charts/chartseriescollection)
+* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

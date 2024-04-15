@@ -20,7 +20,7 @@ def split_by_col_span(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index of column. |
+| index | **int** | Index of column. |
 
 
 

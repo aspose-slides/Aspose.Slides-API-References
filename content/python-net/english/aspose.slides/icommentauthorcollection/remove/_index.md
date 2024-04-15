@@ -20,7 +20,7 @@ def remove(self, author):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| author | ICommentAuthor | The author to remove from a collection. |
+| author | [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor) | The author to remove from a collection. |
 
 ## Exceptions
 
@@ -32,6 +32,7 @@ def remove(self, author):
 
 
 ### See Also
+* class [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor)
 * class [`ICommentAuthorCollection`](/slides/python-net/aspose.slides/icommentauthorcollection)
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

@@ -20,5 +20,6 @@ def color(self):
 ```
 
 ### See Also
+* class [`GradientStopEffectiveData`](/slides/python-net/aspose.slides/gradientstopeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

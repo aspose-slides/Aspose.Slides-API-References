@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## save {#string-bytes}
+## save {#str-bytes}
 Saves a bytes array to a destination location.
 
 
@@ -20,8 +20,8 @@ def save(self, path, data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string | The destination path. |
-| data | bytes | A binary data for saving to a destination location. |
+| path | **str** | The destination path. |
+| data | **bytes** | A binary data for saving to a destination location. |
 
 
 

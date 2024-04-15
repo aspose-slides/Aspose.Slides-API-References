@@ -20,11 +20,11 @@ def add_field(self, field_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| field_type | IFieldType | Type of field [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype) |
+| field_type | [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype) | Type of field [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype) |
 
 
 
-## add_field {#string}
+## add_field {#str}
 Converts this portion to the automaticaly updated field.
 
 
@@ -36,7 +36,7 @@ def add_field(self, internal_string):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| internal_string | string | Internal name of FieldTypeEx  **string** |
+| internal_string | **str** | Internal name of FieldTypeEx  **str** |
 
 
 

@@ -20,6 +20,7 @@ def accent2(self):
 ```
 
 ### See Also
+* class [`ColorScheme`](/slides/python-net/aspose.slides.theme/colorscheme)
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

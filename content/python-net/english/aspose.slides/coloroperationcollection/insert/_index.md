@@ -25,8 +25,8 @@ def insert(self, position, operation):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | int | The index at which the operation will be inserted. |
-| operation | ColorTransformOperation | Operation type. |
+| position | **int** | The index at which the operation will be inserted. |
+| operation | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
 
 
 
@@ -47,13 +47,15 @@ def insert(self, position, operation, parameter):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | int | The index at which the operation will be inserted. |
-| operation | ColorTransformOperation | Operation type. |
-| parameter | float | Operation's parameter. |
+| position | **int** | The index at which the operation will be inserted. |
+| operation | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
+| parameter | **float** | Operation's parameter. |
 
 
 
 ### See Also
 * class [`ColorOperationCollection`](/slides/python-net/aspose.slides/coloroperationcollection)
+* enumeration [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation)
+* class [`IColorOperation`](/slides/python-net/aspose.slides/icoloroperation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

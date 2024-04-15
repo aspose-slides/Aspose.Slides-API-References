@@ -7,7 +7,7 @@ url: /aspose.slides/linejoinstyle/
 ---
 
 
-## LineJoinStyle class
+## LineJoinStyle enumeration
 
 Represents the lines join style.
 

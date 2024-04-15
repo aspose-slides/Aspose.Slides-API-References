@@ -20,5 +20,6 @@ def accent6(self):
 ```
 
 ### See Also
+* class [`IColorSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/icolorschemeeffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

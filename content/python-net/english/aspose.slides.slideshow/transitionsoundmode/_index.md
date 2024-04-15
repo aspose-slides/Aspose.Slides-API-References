@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionsoundmode/
 ---
 
 
-## TransitionSoundMode class
+## TransitionSoundMode enumeration
 
 Represent sound mode of transition.
 

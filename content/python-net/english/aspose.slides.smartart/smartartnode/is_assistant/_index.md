@@ -23,5 +23,6 @@ def is_assistant(self, value):
 ```
 
 ### See Also
+* class [`SmartArtNode`](/slides/python-net/aspose.slides.smartart/smartartnode)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

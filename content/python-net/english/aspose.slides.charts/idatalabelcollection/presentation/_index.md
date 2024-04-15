@@ -17,5 +17,6 @@ def presentation(self):
 ```
 
 ### See Also
+* class [`IDataLabelCollection`](/slides/python-net/aspose.slides.charts/idatalabelcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

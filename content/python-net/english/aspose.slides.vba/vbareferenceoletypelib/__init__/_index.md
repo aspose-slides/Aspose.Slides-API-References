@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#string-string}
+## __init__ {#str-str}
 This constructor creates new OLE Automation type library reference.
 
 
@@ -20,8 +20,8 @@ def __init__(self, name, libid):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string |  |
-| libid | string |  |
+| name | **str** |  |
+| libid | **str** |  |
 
 
 

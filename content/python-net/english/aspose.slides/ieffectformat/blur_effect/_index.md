@@ -24,5 +24,6 @@ def blur_effect(self, value):
 
 ### See Also
 * class [`IBlur`](/slides/python-net/aspose.slides.effects/iblur)
+* class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -21,5 +21,6 @@ def latin_font(self):
 
 ### See Also
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
+* class [`IFontsEffectiveData`](/slides/python-net/aspose.slides/ifontseffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

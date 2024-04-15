@@ -20,6 +20,7 @@ def text_style(self):
 ```
 
 ### See Also
+* class [`ITextFrameFormatEffectiveData`](/slides/python-net/aspose.slides/itextframeformateffectivedata)
 * class [`ITextStyleEffectiveData`](/slides/python-net/aspose.slides/itextstyleeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

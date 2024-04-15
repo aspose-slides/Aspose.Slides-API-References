@@ -20,5 +20,6 @@ def alternative_language_id(self, value):
 ```
 
 ### See Also
+* class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -24,5 +24,7 @@ def origin(self, value):
 ```
 
 ### See Also
+* class [`IMotionEffect`](/slides/python-net/aspose.slides.animation/imotioneffect)
+* enumeration [`MotionOriginType`](/slides/python-net/aspose.slides.animation/motionorigintype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

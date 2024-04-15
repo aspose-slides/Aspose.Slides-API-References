@@ -24,8 +24,8 @@ The ImageWrapperFactory type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [`create_image_wrapper`](/slides/python-net/aspose.slides/imagewrapperfactory/create_image_wrapper/#asposepydrawingimage) | Initializes a new instance of the BitmapWrapper class from the specified existing image. |
-| [`create_image_wrapper`](/slides/python-net/aspose.slides/imagewrapperfactory/create_image_wrapper/#systemiostream) | Initializes a new instance of the BitmapWrapper class from the specified data stream. |
-| [`create_image_wrapper`](/slides/python-net/aspose.slides/imagewrapperfactory/create_image_wrapper/#string) | Initializes a new instance of the BitmapWrapper class from the specified file. |
+| [`create_image_wrapper`](/slides/python-net/aspose.slides/imagewrapperfactory/create_image_wrapper/#iorawiobase) | Initializes a new instance of the BitmapWrapper class from the specified data stream. |
+| [`create_image_wrapper`](/slides/python-net/aspose.slides/imagewrapperfactory/create_image_wrapper/#str) | Initializes a new instance of the BitmapWrapper class from the specified file. |
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

@@ -26,13 +26,16 @@ def add_effect(self, effect_type, subtype, trigger_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| effect_type | EffectType | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
-| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
-| trigger_type | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
+| effect_type | [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
+| subtype | [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
+| trigger_type | [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
 
 
 
 ### See Also
+* enumeration [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype)
+* enumeration [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype)
+* enumeration [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype)
 * class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 * class [`TextAnimation`](/slides/python-net/aspose.slides.animation/textanimation)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)

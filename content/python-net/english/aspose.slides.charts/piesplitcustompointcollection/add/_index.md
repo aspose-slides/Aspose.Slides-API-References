@@ -20,7 +20,7 @@ def add(self, data_point_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data_point_index | int | Index of data point in parent series points collection. |
+| data_point_index | **int** | Index of data point in parent series points collection. |
 
 ## Exceptions
 

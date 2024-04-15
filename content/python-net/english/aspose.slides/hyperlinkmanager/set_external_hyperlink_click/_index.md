@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_external_hyperlink_click {#string}
+## set_external_hyperlink_click {#str}
 Set external hyperlink on click.
 
 
@@ -20,11 +20,12 @@ def set_external_hyperlink_click(self, url):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| url | string | Hyperlink URL. |
+| url | **str** | Hyperlink URL. |
 
 
 
 ### See Also
 * class [`HyperlinkManager`](/slides/python-net/aspose.slides/hyperlinkmanager)
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

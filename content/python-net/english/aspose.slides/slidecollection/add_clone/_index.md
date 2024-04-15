@@ -25,7 +25,7 @@ def add_clone(self, source_slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_slide | ISlide | Slide to clone. |
+| source_slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to clone. |
 
 ### Remarks
 
@@ -34,11 +34,11 @@ When cloning a slide between different presentations slide's master can be clone
             multiple clones of the same master slide.
             Manual cloning of master slides will be neither prevented nor registered.
             If you need more control over cloning process use
-            **Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slide.** or
-            **Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slides.IMasterSlide,Syste.** for cloning slides,
-            **Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slide.** or
-            **Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slides.ILayoutSlide,Aspose.Slide.** for cloning layouts and
-            **Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide.** for cloning masters.
+            **Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slide** or
+            **Aspose.Slides.SlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slides.IMasterSlide,Syste** for cloning slides,
+            **Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slide** or
+            **Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slides.ILayoutSlide,Aspose.Slide** for cloning layouts and
+            **Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide** for cloning masters.
 
 
 
@@ -59,8 +59,8 @@ def add_clone(self, source_slide, section):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_slide | ISlide | Slide to clone. |
-| section | ISection | Section for a new slide. |
+| source_slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to clone. |
+| section | [`ISection`](/slides/python-net/aspose.slides/isection) | Section for a new slide. |
 
 ## Exceptions
 
@@ -88,8 +88,8 @@ def add_clone(self, source_slide, dest_layout):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_slide | ISlide | Slide to clone. |
-| dest_layout | ILayoutSlide | Layout slide for a new slide. |
+| source_slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to clone. |
+| dest_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Layout slide for a new slide. |
 
 
 
@@ -116,9 +116,9 @@ def add_clone(self, source_slide, dest_master, allow_clone_missing_layout):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_slide | ISlide | Slide to clone. |
-| dest_master | IMasterSlide | Master slide for a new slide. |
-| allow_clone_missing_layout | bool | If there is no appropriate layout in specified master then layout of the <br/><br/>            source slide will be cloned (if allowCloneMissingLayout is true) or <br/><br/>            PptxEditException will be thrown (if allowCloneMissingLayout is false). |
+| source_slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to clone. |
+| dest_master | [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide) | Master slide for a new slide. |
+| allow_clone_missing_layout | **bool** | If there is no appropriate layout in specified master then layout of the <br/><br/>            source slide will be cloned (if allowCloneMissingLayout is true) or <br/><br/>            PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
 ## Exceptions
 
@@ -129,6 +129,10 @@ def add_clone(self, source_slide, dest_master, allow_clone_missing_layout):
 
 
 ### See Also
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
+* class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
+* class [`ISection`](/slides/python-net/aspose.slides/isection)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

@@ -23,5 +23,6 @@ def has_up_down_bars(self, value):
 ```
 
 ### See Also
+* class [`IUpDownBarsManager`](/slides/python-net/aspose.slides.charts/iupdownbarsmanager)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

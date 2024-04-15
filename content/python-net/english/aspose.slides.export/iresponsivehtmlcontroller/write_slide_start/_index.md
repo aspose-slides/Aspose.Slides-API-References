@@ -20,12 +20,14 @@ def write_slide_start(self, generator, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| generator | IHtmlGenerator |  |
-| slide | ISlide |  |
+| generator | [`IHtmlGenerator`](/slides/python-net/aspose.slides.export/ihtmlgenerator) |  |
+| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) |  |
 
 
 
 ### See Also
+* class [`IHtmlGenerator`](/slides/python-net/aspose.slides.export/ihtmlgenerator)
 * class [`IResponsiveHtmlController`](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

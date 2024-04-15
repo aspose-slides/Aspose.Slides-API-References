@@ -25,11 +25,11 @@ def add_section_zoom_frame(self, x, y, width, height, section):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of a new Section Zoom frame **float**. |
-| y | float | Y coordinate of a new Section Zoom frame **float**. |
-| width | float | Width of a new Section Zoom frame **float**. |
-| height | float | Height of a new Section Zoom frame **float**. |
-| section | ISection | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
+| x | **float** | X coordinate of a new Section Zoom frame **float**. |
+| y | **float** | Y coordinate of a new Section Zoom frame **float**. |
+| width | **float** | Width of a new Section Zoom frame **float**. |
+| height | **float** | Height of a new Section Zoom frame **float**. |
+| section | [`ISection`](/slides/python-net/aspose.slides/isection) | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
 
 ## Exceptions
 
@@ -56,12 +56,12 @@ def add_section_zoom_frame(self, x, y, width, height, section, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of a new Section Zoom frame **float**. |
-| y | float | Y coordinate of a new Section Zoom frame **float**. |
-| width | float | Width of a new Section Zoom frame **float**. |
-| height | float | Height of a new Section Zoom frame **float**. |
-| section | ISection | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
-| image | IPPImage | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
+| x | **float** | X coordinate of a new Section Zoom frame **float**. |
+| y | **float** | Y coordinate of a new Section Zoom frame **float**. |
+| width | **float** | Width of a new Section Zoom frame **float**. |
+| height | **float** | Height of a new Section Zoom frame **float**. |
+| section | [`ISection`](/slides/python-net/aspose.slides/isection) | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
+| image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
 
 ## Exceptions
 

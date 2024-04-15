@@ -7,7 +7,7 @@ url: /aspose.slides.export/pdfcompliance/
 ---
 
 
-## PdfCompliance class
+## PdfCompliance enumeration
 
 Constants which define the PDF standards compliance level.
 

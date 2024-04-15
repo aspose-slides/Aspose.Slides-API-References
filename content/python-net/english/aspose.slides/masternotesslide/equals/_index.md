@@ -28,11 +28,12 @@ def equals(self, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slide | IBaseSlide | The IBaseSlide to compare with the current IBaseSlide. |
+| slide | [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide) | The IBaseSlide to compare with the current IBaseSlide. |
 
 
 
 ### See Also
+* class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * class [`MasterNotesSlide`](/slides/python-net/aspose.slides/masternotesslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

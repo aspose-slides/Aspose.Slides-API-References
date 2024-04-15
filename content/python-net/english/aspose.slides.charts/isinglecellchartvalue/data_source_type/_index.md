@@ -20,5 +20,6 @@ def data_source_type(self, value):
 ```
 
 ### See Also
+* class [`ISingleCellChartValue`](/slides/python-net/aspose.slides.charts/isinglecellchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

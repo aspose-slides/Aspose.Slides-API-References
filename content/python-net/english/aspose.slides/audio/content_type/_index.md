@@ -10,7 +10,7 @@ weight: 30
 
 ## content_type property
 Returns a MIME type of an audio, encoded in [`Audio.binary_data`](/slides/python-net/aspose.slides/audio#binary_data).
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def content_type(self, value):
 ```
 
 ### See Also
+* class [`Audio`](/slides/python-net/aspose.slides/audio)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

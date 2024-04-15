@@ -20,7 +20,7 @@ def delete_column(self, column_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| column_index | int | The zero-based index of the column to delete. |
+| column_index | **int** | The zero-based index of the column to delete. |
 
 
 

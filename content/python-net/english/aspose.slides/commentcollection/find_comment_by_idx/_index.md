@@ -25,7 +25,7 @@ def find_comment_by_idx(self, idx):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| idx | int | Unique index of a comment to find **int**. |
+| idx | **int** | Unique index of a comment to find **int**. |
 
 
 

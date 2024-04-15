@@ -7,7 +7,7 @@ url: /aspose.slides/loadformat/
 ---
 
 
-## LoadFormat class
+## LoadFormat enumeration
 
 Indicates the format of the document that is to be loaded.
 

@@ -10,7 +10,7 @@ weight: 140
 
 ## stream property
 Gets a stream.
-            Read-only **System.IO.Stream**.
+            Read-only **io.RawIOBase**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def stream(self):
 ```
 
 ### See Also
+* class [`StreamWrapper`](/slides/python-net/aspose.slides/streamwrapper)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,6 +23,7 @@ def html_formatter(self, value):
 ```
 
 ### See Also
+* class [`HtmlOptions`](/slides/python-net/aspose.slides.export/htmloptions)
 * class [`IHtmlFormatter`](/slides/python-net/aspose.slides.export/ihtmlformatter)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

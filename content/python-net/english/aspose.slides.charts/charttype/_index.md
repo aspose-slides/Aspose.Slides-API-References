@@ -7,7 +7,7 @@ url: /aspose.slides.charts/charttype/
 ---
 
 
-## ChartType class
+## ChartType enumeration
 
 Represents a type of chart.
 

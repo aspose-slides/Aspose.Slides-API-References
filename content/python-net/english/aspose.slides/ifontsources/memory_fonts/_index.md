@@ -22,5 +22,6 @@ def memory_fonts(self, value):
 ```
 
 ### See Also
+* class [`IFontSources`](/slides/python-net/aspose.slides/ifontsources)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

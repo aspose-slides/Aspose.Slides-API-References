@@ -20,5 +20,6 @@ def is_write_protected(self):
 ```
 
 ### See Also
+* class [`ProtectionManager`](/slides/python-net/aspose.slides/protectionmanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

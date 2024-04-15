@@ -20,7 +20,7 @@ def remove_at(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index of an image effect that should be deleted. |
+| index | **int** | Index of an image effect that should be deleted. |
 
 
 

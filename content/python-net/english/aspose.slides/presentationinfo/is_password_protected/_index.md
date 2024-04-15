@@ -19,5 +19,6 @@ def is_password_protected(self):
 ```
 
 ### See Also
+* class [`PresentationInfo`](/slides/python-net/aspose.slides/presentationinfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

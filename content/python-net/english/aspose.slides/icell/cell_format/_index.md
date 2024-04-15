@@ -20,6 +20,7 @@ def cell_format(self):
 ```
 
 ### See Also
+* class [`ICell`](/slides/python-net/aspose.slides/icell)
 * class [`ICellFormat`](/slides/python-net/aspose.slides/icellformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

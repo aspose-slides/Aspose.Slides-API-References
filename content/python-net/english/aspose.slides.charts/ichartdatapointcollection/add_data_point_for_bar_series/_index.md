@@ -26,7 +26,7 @@ def add_data_point_for_bar_series(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IChartDataCell | Data point Value |
+| value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point Value |
 
 
 
@@ -48,11 +48,13 @@ def add_data_point_for_bar_series(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | float | Data point Value |
+| value | **float** | Data point Value |
 
 
 
 ### See Also
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

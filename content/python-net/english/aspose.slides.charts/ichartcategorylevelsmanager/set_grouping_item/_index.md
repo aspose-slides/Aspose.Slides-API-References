@@ -20,8 +20,8 @@ def set_grouping_item(self, level, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| level | int | Category level **int** |
-| value | any | Groping item **any** |
+| level | **int** | Category level **int** |
+| value | **any** | Groping item **any** |
 
 
 

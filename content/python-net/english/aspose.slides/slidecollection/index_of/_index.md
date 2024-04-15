@@ -25,11 +25,12 @@ def index_of(self, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slide | ISlide | Slide to find. |
+| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to find. |
 
 
 
 ### See Also
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

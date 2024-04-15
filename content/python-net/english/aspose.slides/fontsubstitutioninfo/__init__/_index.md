@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#string-string}
+## __init__ {#str-str}
 Creates an instance of [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo) class.
 
 
@@ -20,8 +20,8 @@ def __init__(self, origin_font_name, subst_font_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| origin_font_name | string | Source font name in presentation **string** |
-| subst_font_name | string | Replacement font name for the original font **string** |
+| origin_font_name | **str** | Source font name in presentation **str** |
+| subst_font_name | **str** | Replacement font name for the original font **str** |
 
 
 

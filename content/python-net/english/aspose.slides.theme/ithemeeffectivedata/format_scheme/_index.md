@@ -21,5 +21,6 @@ def format_scheme(self):
 
 ### See Also
 * class [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)
+* class [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

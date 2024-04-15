@@ -7,7 +7,7 @@ url: /aspose.slides.charts/ticklabelpositiontype/
 ---
 
 
-## TickLabelPositionType class
+## TickLabelPositionType enumeration
 
 Represents the position type of tick-mark labels on the specified axis.
 

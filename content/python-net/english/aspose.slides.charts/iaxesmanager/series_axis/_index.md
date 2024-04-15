@@ -20,6 +20,7 @@ def series_axis(self):
 ```
 
 ### See Also
+* class [`IAxesManager`](/slides/python-net/aspose.slides.charts/iaxesmanager)
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

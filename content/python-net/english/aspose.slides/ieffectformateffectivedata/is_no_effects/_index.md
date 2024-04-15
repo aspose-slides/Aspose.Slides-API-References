@@ -20,5 +20,6 @@ def is_no_effects(self):
 ```
 
 ### See Also
+* class [`IEffectFormatEffectiveData`](/slides/python-net/aspose.slides/ieffectformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

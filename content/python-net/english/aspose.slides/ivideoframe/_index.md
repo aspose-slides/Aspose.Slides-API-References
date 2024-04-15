@@ -23,7 +23,7 @@ The IVideoFrame type exposes the following members:
 | [`volume`](/slides/python-net/aspose.slides/ivideoframe/volume/) | Returns or sets the audio volume.<br/>            Read/write [`AudioVolumeMode`](/slides/python-net/aspose.slides/audiovolumemode). |
 | [`play_mode`](/slides/python-net/aspose.slides/ivideoframe/play_mode/) | Returns or sets the video play mode.<br/>            Read/write [`VideoPlayModePreset`](/slides/python-net/aspose.slides/videoplaymodepreset). |
 | [`full_screen_mode`](/slides/python-net/aspose.slides/ivideoframe/full_screen_mode/) | Determines whether a video is shown in full screen mode.<br/>            Read/write **bool**. |
-| [`link_path_long`](/slides/python-net/aspose.slides/ivideoframe/link_path_long/) | Returns or sets the name of an video file which is linked to a VideoFrame.<br/>            Read/write **string**. |
+| [`link_path_long`](/slides/python-net/aspose.slides/ivideoframe/link_path_long/) | Returns or sets the name of an video file which is linked to a VideoFrame.<br/>            Read/write **str**. |
 | [`embedded_video`](/slides/python-net/aspose.slides/ivideoframe/embedded_video/) | Returns or sets embedded video object.<br/>            Read/write [`IVideo`](/slides/python-net/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/aspose.slides/ivideoframe/trim_from_start/) | Trim start [ms] |
 | [`trim_from_end`](/slides/python-net/aspose.slides/ivideoframe/trim_from_end/) | Trim end [ms] |
@@ -79,8 +79,8 @@ The IVideoFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ivideoframe/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ivideoframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#systemiostream) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides/ivideoframe/get_geometry_paths/#) |  |
 | [`set_geometry_path`](/slides/python-net/aspose.slides/ivideoframe/set_geometry_path/#igeometrypath) |  |
 | [`set_geometry_paths`](/slides/python-net/aspose.slides/ivideoframe/set_geometry_paths/#listigeometrypath) |  |

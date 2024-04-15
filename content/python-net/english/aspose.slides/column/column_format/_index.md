@@ -20,6 +20,7 @@ def column_format(self):
 ```
 
 ### See Also
+* class [`Column`](/slides/python-net/aspose.slides/column)
 * class [`IColumnFormat`](/slides/python-net/aspose.slides/icolumnformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

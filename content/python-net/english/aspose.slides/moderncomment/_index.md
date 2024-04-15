@@ -19,7 +19,7 @@ The ModernComment type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`text`](/slides/python-net/aspose.slides/moderncomment/text/) | Returns or sets the plain text of a slide comment.<br/>            Read/write **string**. |
+| [`text`](/slides/python-net/aspose.slides/moderncomment/text/) | Returns or sets the plain text of a slide comment.<br/>            Read/write **str**. |
 | [`created_time`](/slides/python-net/aspose.slides/moderncomment/created_time/) | Returns or sets the time of a comment creation.<br/>            Setting this property to **System.DateTime** means no comment time is set.<br/>            Read/write **System.DateTime**. |
 | [`slide`](/slides/python-net/aspose.slides/moderncomment/slide/) | Returns or sets the parent slide of a comment.<br/>            Read-only [`ISlide`](/slides/python-net/aspose.slides/islide). |
 | [`author`](/slides/python-net/aspose.slides/moderncomment/author/) | Returns the author of a comment.<br/>            Read-only [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor). |

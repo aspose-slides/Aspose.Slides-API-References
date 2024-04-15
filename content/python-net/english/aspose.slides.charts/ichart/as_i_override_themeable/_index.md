@@ -25,6 +25,7 @@ def as_i_override_themeable(self):
 ```
 
 ### See Also
+* class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * class [`IOverrideThemeable`](/slides/python-net/aspose.slides.theme/ioverridethemeable)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

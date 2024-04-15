@@ -10,7 +10,7 @@ weight: 290
 
 ## number_format_of_y_values property
 Returns or sets the number format for series y values.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def number_format_of_y_values(self, value):
 ```
 
 ### See Also
+* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

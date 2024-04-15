@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## index_of {#string}
+## index_of {#str}
 Determines the index of a specific item by property value in the **System.Collections.Generic.IList`1**.
 
 ### Returns
@@ -25,7 +25,7 @@ def index_of(self, property_value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| property_value | string | value of the property |
+| property_value | **str** | value of the property |
 
 
 

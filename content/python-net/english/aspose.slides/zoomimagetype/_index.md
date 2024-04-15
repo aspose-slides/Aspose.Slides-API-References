@@ -7,7 +7,7 @@ url: /aspose.slides/zoomimagetype/
 ---
 
 
-## ZoomImageType class
+## ZoomImageType enumeration
 
 Defines whether the Zoom object is using the slide preview or a cover image.
 

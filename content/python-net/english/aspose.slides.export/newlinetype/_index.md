@@ -7,7 +7,7 @@ url: /aspose.slides.export/newlinetype/
 ---
 
 
-## NewLineType class
+## NewLineType enumeration
 
 Type of new line that will be used in generated document.
 

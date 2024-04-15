@@ -20,12 +20,13 @@ def __init__(self, position, align):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | float | Tab position. |
-| align | TabAlignment | Align. |
+| position | **float** | Tab position. |
+| align | [`TabAlignment`](/slides/python-net/aspose.slides/tabalignment) | Align. |
 
 
 
 ### See Also
 * class [`Tab`](/slides/python-net/aspose.slides/tab)
+* enumeration [`TabAlignment`](/slides/python-net/aspose.slides/tabalignment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

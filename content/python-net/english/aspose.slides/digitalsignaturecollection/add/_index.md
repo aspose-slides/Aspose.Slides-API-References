@@ -20,11 +20,12 @@ def add(self, signature):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| signature | IDigitalSignature | Signature to add. |
+| signature | [`IDigitalSignature`](/slides/python-net/aspose.slides/idigitalsignature) | Signature to add. |
 
 
 
 ### See Also
 * class [`DigitalSignatureCollection`](/slides/python-net/aspose.slides/digitalsignaturecollection)
+* class [`IDigitalSignature`](/slides/python-net/aspose.slides/idigitalsignature)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -24,5 +24,6 @@ def target_slide(self, value):
 
 ### See Also
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* class [`ZoomFrame`](/slides/python-net/aspose.slides/zoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

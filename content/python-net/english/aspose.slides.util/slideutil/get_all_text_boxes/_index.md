@@ -25,11 +25,12 @@ def get_all_text_boxes(self, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slide | IBaseSlide | Scanned slide. |
+| slide | [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide) | Scanned slide. |
 
 
 
 ### See Also
+* class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * class [`SlideUtil`](/slides/python-net/aspose.slides.util/slideutil)
 * class [`TextFrame`](/slides/python-net/aspose.slides/textframe)
 * module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)

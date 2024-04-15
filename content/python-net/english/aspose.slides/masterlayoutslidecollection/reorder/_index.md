@@ -20,12 +20,13 @@ def reorder(self, index, layout_slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Target index. |
-| layout_slide | ILayoutSlide | Slide to move. |
+| index | **int** | Target index. |
+| layout_slide | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Slide to move. |
 
 
 
 ### See Also
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`MasterLayoutSlideCollection`](/slides/python-net/aspose.slides/masterlayoutslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

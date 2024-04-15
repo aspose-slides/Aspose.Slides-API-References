@@ -25,8 +25,8 @@ def add(self, position, color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | float | Position of the new gradient stop. |
-| color | aspose.pydrawing.Color | Color of the new radient stop. |
+| position | **float** | Position of the new gradient stop. |
+| color | **aspose.pydrawing.Color** | Color of the new radient stop. |
 
 
 
@@ -47,8 +47,8 @@ def add(self, position, preset_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | float | Position of the new gradient stop. |
-| preset_color | PresetColor | Color of the new radient stop. |
+| position | **float** | Position of the new gradient stop. |
+| preset_color | [`PresetColor`](/slides/python-net/aspose.slides/presetcolor) | Color of the new radient stop. |
 
 
 
@@ -69,12 +69,15 @@ def add(self, position, scheme_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | float | Position of the new gradient stop. |
-| scheme_color | SchemeColor | Color of the new radient stop. |
+| position | **float** | Position of the new gradient stop. |
+| scheme_color | [`SchemeColor`](/slides/python-net/aspose.slides/schemecolor) | Color of the new radient stop. |
 
 
 
 ### See Also
+* class [`IGradientStop`](/slides/python-net/aspose.slides/igradientstop)
 * class [`IGradientStopCollection`](/slides/python-net/aspose.slides/igradientstopcollection)
+* enumeration [`PresetColor`](/slides/python-net/aspose.slides/presetcolor)
+* enumeration [`SchemeColor`](/slides/python-net/aspose.slides/schemecolor)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

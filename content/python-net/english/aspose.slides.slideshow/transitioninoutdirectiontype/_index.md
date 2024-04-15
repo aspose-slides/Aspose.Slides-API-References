@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 
 
-## TransitionInOutDirectionType class
+## TransitionInOutDirectionType enumeration
 
 Represent in or out direction transition types.
 

@@ -23,5 +23,7 @@ def end_arrowhead_length(self, value):
 ```
 
 ### See Also
+* enumeration [`LineArrowheadLength`](/slides/python-net/aspose.slides/linearrowheadlength)
+* class [`LineFormat`](/slides/python-net/aspose.slides/lineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

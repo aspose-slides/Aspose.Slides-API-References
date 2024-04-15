@@ -20,8 +20,8 @@ def set_blur_effect(self, radius, grow):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| radius | float | Radius. |
-| grow | bool | Grow. |
+| radius | **float** | Radius. |
+| grow | **bool** | Grow. |
 
 
 

@@ -7,7 +7,7 @@ url: /aspose.slides/videoplaymodepreset/
 ---
 
 
-## VideoPlayModePreset class
+## VideoPlayModePreset enumeration
 
 Constants which define how a video is played.
 

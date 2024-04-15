@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## resolve_uri {#string-string}
+## resolve_uri {#str-str}
 Resolves the absolute URI from the base and relative URIs.
 
 ### Returns
@@ -25,8 +25,8 @@ def resolve_uri(self, base_uri, relative_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| base_uri | string | Base URI of linking objects |
-| relative_uri | string | Relative URI to the linked object. |
+| base_uri | **str** | Base URI of linking objects |
+| relative_uri | **str** | Relative URI to the linked object. |
 
 
 

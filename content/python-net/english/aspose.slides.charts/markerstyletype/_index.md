@@ -7,7 +7,7 @@ url: /aspose.slides.charts/markerstyletype/
 ---
 
 
-## MarkerStyleType class
+## MarkerStyleType enumeration
 
 Determines form of marker on chart's data point.
 

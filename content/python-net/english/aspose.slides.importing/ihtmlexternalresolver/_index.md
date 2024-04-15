@@ -23,8 +23,8 @@ The IHtmlExternalResolver type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`resolve_uri`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/resolve_uri/#string-string) |  |
-| [`get_entity`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/get_entity/#string) |  |
+| [`resolve_uri`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/resolve_uri/#str-str) |  |
+| [`get_entity`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver/get_entity/#str) |  |
 
 ### See Also
 * module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)

@@ -7,7 +7,7 @@ url: /aspose.slides/colorschemeindex/
 ---
 
 
-## ColorSchemeIndex class
+## ColorSchemeIndex enumeration
 
 Represents an index in a colorscheme.
 

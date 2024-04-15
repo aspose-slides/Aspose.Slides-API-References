@@ -21,5 +21,6 @@ def as_i_picture_frame(self):
 
 ### See Also
 * class [`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe)
+* class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

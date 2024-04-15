@@ -28,5 +28,6 @@ def rotation_angle(self, value):
 ```
 
 ### See Also
+* class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

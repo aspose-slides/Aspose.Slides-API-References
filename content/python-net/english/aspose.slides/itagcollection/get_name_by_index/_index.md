@@ -25,7 +25,7 @@ def get_name_by_index(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index of a tag to return. |
+| index | **int** | Index of a tag to return. |
 
 
 

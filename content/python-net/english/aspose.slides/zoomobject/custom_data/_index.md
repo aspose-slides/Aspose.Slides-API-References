@@ -21,5 +21,6 @@ def custom_data(self):
 
 ### See Also
 * class [`ICustomData`](/slides/python-net/aspose.slides/icustomdata)
+* class [`ZoomObject`](/slides/python-net/aspose.slides/zoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

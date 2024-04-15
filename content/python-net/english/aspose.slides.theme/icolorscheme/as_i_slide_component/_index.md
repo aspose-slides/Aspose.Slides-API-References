@@ -25,6 +25,7 @@ def as_i_slide_component(self):
 ```
 
 ### See Also
+* class [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme)
 * class [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

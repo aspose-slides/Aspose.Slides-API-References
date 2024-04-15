@@ -21,5 +21,6 @@ def accent3(self):
 
 ### See Also
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
+* class [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

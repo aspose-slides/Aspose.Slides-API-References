@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#string}
+## __init__ {#str}
 Initializes a new instance of FieldType class.
 
 
@@ -20,7 +20,7 @@ def __init__(self, str):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| str | string |  |
+| str | **str** |  |
 
 
 

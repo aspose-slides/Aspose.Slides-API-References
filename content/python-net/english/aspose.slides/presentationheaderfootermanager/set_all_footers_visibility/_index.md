@@ -21,7 +21,7 @@ def set_all_footers_visibility(self, is_visible):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| is_visible | bool | true - makes a footer placeholders visible, otherwise - hides them. |
+| is_visible | **bool** | true - makes a footer placeholders visible, otherwise - hides them. |
 
 
 

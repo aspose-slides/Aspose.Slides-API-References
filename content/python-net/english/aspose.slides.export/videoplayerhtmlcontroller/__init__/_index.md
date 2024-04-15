@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#string-string-string}
+## __init__ {#str-str-str}
 Creates a new instance of controller
 
 
@@ -20,9 +20,9 @@ def __init__(self, path, file_name, base_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| path | string | The path where video and audio files will be generated |
-| file_name | string | The name of the HTML file |
-| base_uri | string | The base URI which will be used for links generating |
+| path | **str** | The path where video and audio files will be generated |
+| file_name | **str** | The name of the HTML file |
+| base_uri | **str** | The base URI which will be used for links generating |
 
 
 

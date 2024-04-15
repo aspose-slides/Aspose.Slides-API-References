@@ -27,11 +27,12 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IParagraph | The paragraph to remove from collection. |
+| item | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | The paragraph to remove from collection. |
 
 
 
 ### See Also
+* class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
 * class [`IParagraphCollection`](/slides/python-net/aspose.slides/iparagraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

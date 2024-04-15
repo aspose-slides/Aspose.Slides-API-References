@@ -23,5 +23,7 @@ def orientation(self, value):
 ```
 
 ### See Also
+* class [`ISplitTransition`](/slides/python-net/aspose.slides.slideshow/isplittransition)
+* enumeration [`Orientation`](/slides/python-net/aspose.slides/orientation)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

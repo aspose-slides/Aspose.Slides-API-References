@@ -26,5 +26,6 @@ def as_i_overridable_text(self):
 
 ### See Also
 * class [`IOverridableText`](/slides/python-net/aspose.slides.charts/ioverridabletext)
+* class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

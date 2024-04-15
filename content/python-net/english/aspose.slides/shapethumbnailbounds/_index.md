@@ -7,7 +7,7 @@ url: /aspose.slides/shapethumbnailbounds/
 ---
 
 
-## ShapeThumbnailBounds class
+## ShapeThumbnailBounds enumeration
 
 Enumeration of types of shape thumbnail bounds.
 

@@ -17,5 +17,6 @@ def office_interop_shape_id(self):
 ```
 
 ### See Also
+* class [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

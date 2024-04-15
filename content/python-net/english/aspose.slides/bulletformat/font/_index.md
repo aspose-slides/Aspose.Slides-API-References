@@ -23,6 +23,7 @@ def font(self, value):
 ```
 
 ### See Also
+* class [`BulletFormat`](/slides/python-net/aspose.slides/bulletformat)
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

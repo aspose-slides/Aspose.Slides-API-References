@@ -7,7 +7,7 @@ url: /aspose.slides.warnings/returnaction/
 ---
 
 
-## ReturnAction class
+## ReturnAction enumeration
 
 Represents warning callback decision options.
 

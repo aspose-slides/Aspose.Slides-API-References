@@ -20,6 +20,7 @@ def as_i_effect_effective_data(self):
 ```
 
 ### See Also
+* class [`IColorChangeEffectiveData`](/slides/python-net/aspose.slides.effects/icolorchangeeffectivedata)
 * class [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

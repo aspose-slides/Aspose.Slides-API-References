@@ -8,12 +8,12 @@ weight: 20
 ---
 
 
-## get_entity {#string}
+## get_entity {#str}
 Maps a URI to an object containing the actual resource.
 
 ### Returns
 
-A **System.IO.Stream** object or null if resource cannot be streamed.
+A **io.RawIOBase** object or null if resource cannot be streamed.
 
 
 
@@ -25,7 +25,7 @@ def get_entity(self, absolute_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| absolute_uri | string | Absolute URI to the object. |
+| absolute_uri | **str** | Absolute URI to the object. |
 
 
 

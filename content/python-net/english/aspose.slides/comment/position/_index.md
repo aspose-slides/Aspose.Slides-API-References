@@ -23,5 +23,6 @@ def position(self, value):
 ```
 
 ### See Also
+* class [`Comment`](/slides/python-net/aspose.slides/comment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

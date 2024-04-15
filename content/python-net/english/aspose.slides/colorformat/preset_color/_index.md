@@ -23,5 +23,7 @@ def preset_color(self, value):
 ```
 
 ### See Also
+* class [`ColorFormat`](/slides/python-net/aspose.slides/colorformat)
+* enumeration [`PresetColor`](/slides/python-net/aspose.slides/presetcolor)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

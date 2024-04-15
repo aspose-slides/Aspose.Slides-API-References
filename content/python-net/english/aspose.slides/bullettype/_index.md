@@ -7,7 +7,7 @@ url: /aspose.slides/bullettype/
 ---
 
 
-## BulletType class
+## BulletType enumeration
 
 Represents the type of the extended bullets.
 

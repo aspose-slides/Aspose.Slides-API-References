@@ -20,11 +20,12 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IPortion | The Portion to be added to the end of the collection. |
+| value | [`IPortion`](/slides/python-net/aspose.slides/iportion) | The Portion to be added to the end of the collection. |
 
 
 
 ### See Also
+* class [`IPortion`](/slides/python-net/aspose.slides/iportion)
 * class [`PortionCollection`](/slides/python-net/aspose.slides/portioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

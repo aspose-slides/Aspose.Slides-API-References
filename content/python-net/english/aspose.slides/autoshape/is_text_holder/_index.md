@@ -20,5 +20,6 @@ def is_text_holder(self):
 ```
 
 ### See Also
+* class [`AutoShape`](/slides/python-net/aspose.slides/autoshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

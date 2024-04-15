@@ -24,5 +24,7 @@ def speed(self, value):
 ```
 
 ### See Also
+* class [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)
+* enumeration [`TransitionSpeed`](/slides/python-net/aspose.slides.slideshow/transitionspeed)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

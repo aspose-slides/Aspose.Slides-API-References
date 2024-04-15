@@ -25,5 +25,7 @@ def is_bullet_hard_color(self, value):
 ```
 
 ### See Also
+* class [`IBulletFormat`](/slides/python-net/aspose.slides/ibulletformat)
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

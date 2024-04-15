@@ -21,5 +21,6 @@ def image_transform(self):
 
 ### See Also
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
+* class [`Picture`](/slides/python-net/aspose.slides/picture)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -25,7 +25,7 @@ def get_level(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Zero-based index of level. Must lay in 0..8 interval. |
+| index | **int** | Zero-based index of level. Must lay in 0..8 interval. |
 
 
 

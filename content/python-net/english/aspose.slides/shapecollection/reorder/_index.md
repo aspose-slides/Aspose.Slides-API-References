@@ -20,8 +20,8 @@ def reorder(self, index, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Target index. |
-| shape | IShape | Shape to move. |
+| index | **int** | Target index. |
+| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape to move. |
 
 
 
@@ -38,12 +38,13 @@ def reorder(self, index, shapes):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Target index. |
-| shapes | List[IShape] | Shapes to move. |
+| index | **int** | Target index. |
+| shapes | **List[IShape]** | Shapes to move. |
 
 
 
 ### See Also
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

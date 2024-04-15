@@ -17,5 +17,6 @@ def as_i_slide_component(self):
 ```
 
 ### See Also
+* class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

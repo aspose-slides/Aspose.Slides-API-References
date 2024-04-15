@@ -23,5 +23,7 @@ def sound_mode(self, value):
 ```
 
 ### See Also
+* class [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)
+* enumeration [`TransitionSoundMode`](/slides/python-net/aspose.slides.slideshow/transitionsoundmode)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

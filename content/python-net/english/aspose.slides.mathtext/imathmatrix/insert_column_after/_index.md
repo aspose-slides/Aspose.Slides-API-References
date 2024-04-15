@@ -21,7 +21,7 @@ def insert_column_after(self, column_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| column_index | int | Index of the column after which to insert a new one |
+| column_index | **int** | Index of the column after which to insert a new one |
 
 
 

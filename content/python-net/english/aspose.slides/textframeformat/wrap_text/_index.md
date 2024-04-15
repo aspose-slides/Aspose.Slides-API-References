@@ -23,5 +23,7 @@ def wrap_text(self, value):
 ```
 
 ### See Also
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
+* class [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

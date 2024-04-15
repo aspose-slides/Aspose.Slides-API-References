@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 
 
-## TransitionSideDirectionType class
+## TransitionSideDirectionType enumeration
 
 Represent side direction transition types.
 

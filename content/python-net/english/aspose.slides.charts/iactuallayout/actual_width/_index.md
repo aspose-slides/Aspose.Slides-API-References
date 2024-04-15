@@ -20,5 +20,6 @@ def actual_width(self):
 ```
 
 ### See Also
+* class [`IActualLayout`](/slides/python-net/aspose.slides.charts/iactuallayout)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

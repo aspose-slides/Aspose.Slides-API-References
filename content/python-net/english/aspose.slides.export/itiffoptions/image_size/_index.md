@@ -24,5 +24,6 @@ def image_size(self, value):
 ```
 
 ### See Also
+* class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

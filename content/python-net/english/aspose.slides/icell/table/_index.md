@@ -20,6 +20,7 @@ def table(self):
 ```
 
 ### See Also
+* class [`ICell`](/slides/python-net/aspose.slides/icell)
 * class [`ITable`](/slides/python-net/aspose.slides/itable)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

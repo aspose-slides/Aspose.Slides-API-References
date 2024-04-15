@@ -23,5 +23,6 @@ def contour_width(self, value):
 ```
 
 ### See Also
+* class [`ThreeDFormat`](/slides/python-net/aspose.slides/threedformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

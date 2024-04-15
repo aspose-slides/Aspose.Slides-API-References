@@ -7,7 +7,7 @@ url: /aspose.slides.export/svgexternalfontshandling/
 ---
 
 
-## SvgExternalFontsHandling class
+## SvgExternalFontsHandling enumeration
 
 Represents a way to handle external fonts used for text drawing.
 

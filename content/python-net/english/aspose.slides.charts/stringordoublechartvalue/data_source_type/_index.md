@@ -32,5 +32,7 @@ def data_source_type(self, value):
 ```
 
 ### See Also
+* enumeration [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype)
+* class [`StringOrDoubleChartValue`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,5 +23,6 @@ def read_only_recommended(self, value):
 ```
 
 ### See Also
+* class [`IProtectionManager`](/slides/python-net/aspose.slides/iprotectionmanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

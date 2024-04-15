@@ -22,5 +22,6 @@ def recover_workbook_from_chart_cache(self, value):
 ```
 
 ### See Also
+* class [`ISpreadsheetOptions`](/slides/python-net/aspose.slides/ispreadsheetoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

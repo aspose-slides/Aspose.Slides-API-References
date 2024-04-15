@@ -15,5 +15,6 @@ weight: 40
 | :- | :- |
 | index |  |
 ### See Also
+* class [`ColumnCollection`](/slides/python-net/aspose.slides/columncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

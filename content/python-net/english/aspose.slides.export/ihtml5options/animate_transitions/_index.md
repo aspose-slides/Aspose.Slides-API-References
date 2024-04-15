@@ -23,5 +23,6 @@ def animate_transitions(self, value):
 ```
 
 ### See Also
+* class [`IHtml5Options`](/slides/python-net/aspose.slides.export/ihtml5options)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -10,7 +10,7 @@ weight: 80
 
 ## number_format property
 Represents the format string for the DataLabels object.
-            Read/write **string**.
+            Read/write **str**.
 
 
 ### Remarks
@@ -32,5 +32,6 @@ def number_format(self, value):
 ```
 
 ### See Also
+* class [`DataLabelFormat`](/slides/python-net/aspose.slides.charts/datalabelformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

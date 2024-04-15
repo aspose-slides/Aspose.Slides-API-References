@@ -20,8 +20,8 @@ def save_external(self, id, entity_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| id | int |  |
-| entity_data | bytes |  |
+| id | **int** |  |
+| entity_data | **bytes** |  |
 
 
 

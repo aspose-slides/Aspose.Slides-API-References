@@ -23,5 +23,7 @@ def bubble_size_representation(self, value):
 ```
 
 ### See Also
+* enumeration [`BubbleSizeRepresentationType`](/slides/python-net/aspose.slides.charts/bubblesizerepresentationtype)
+* class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

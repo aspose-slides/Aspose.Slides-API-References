@@ -21,7 +21,7 @@ def insert_row_before(self, row_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| row_index | int | Index of the row before which to insert a new one |
+| row_index | **int** | Index of the row before which to insert a new one |
 
 
 

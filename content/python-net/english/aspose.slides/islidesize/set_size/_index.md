@@ -21,8 +21,8 @@ def set_size(self, type, scale_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | SlideSizeType | Slide size type. |
-| scale_type | SlideSizeScaleType | Scale type of slide content. |
+| type | [`SlideSizeType`](/slides/python-net/aspose.slides/slidesizetype) | Slide size type. |
+| scale_type | [`SlideSizeScaleType`](/slides/python-net/aspose.slides/slidesizescaletype) | Scale type of slide content. |
 
 
 
@@ -39,13 +39,15 @@ def set_size(self, width, height, scale_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| width | float | Width. |
-| height | float | Height. |
-| scale_type | SlideSizeScaleType | Scale type of slide content. |
+| width | **float** | Width. |
+| height | **float** | Height. |
+| scale_type | [`SlideSizeScaleType`](/slides/python-net/aspose.slides/slidesizescaletype) | Scale type of slide content. |
 
 
 
 ### See Also
 * class [`ISlideSize`](/slides/python-net/aspose.slides/islidesize)
+* enumeration [`SlideSizeScaleType`](/slides/python-net/aspose.slides/slidesizescaletype)
+* enumeration [`SlideSizeType`](/slides/python-net/aspose.slides/slidesizetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

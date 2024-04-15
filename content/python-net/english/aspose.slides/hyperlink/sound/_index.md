@@ -23,6 +23,7 @@ def sound(self, value):
 ```
 
 ### See Also
+* class [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)
 * class [`IAudio`](/slides/python-net/aspose.slides/iaudio)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -21,5 +21,6 @@ def as_i_fill_param_source(self):
 
 ### See Also
 * class [`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource)
+* class [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

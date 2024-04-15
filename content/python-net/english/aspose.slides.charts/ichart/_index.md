@@ -88,8 +88,8 @@ The IChart type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.charts/ichart/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.charts/ichart/get_thumbnail/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#systemiostream) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`validate_chart_layout`](/slides/python-net/aspose.slides.charts/ichart/validate_chart_layout/#) | Calculates actual values of chart elements. Actual values inlude position of elements that implement IActualLayout interface <br/>            (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)<br/>            and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, <br/>            IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
 | [`add_placeholder`](/slides/python-net/aspose.slides.charts/ichart/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder`](/slides/python-net/aspose.slides.charts/ichart/remove_placeholder/#) |  |

@@ -20,6 +20,7 @@ def presentation(self):
 ```
 
 ### See Also
+* class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

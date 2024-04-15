@@ -23,5 +23,7 @@ def font_underline(self, value):
 ```
 
 ### See Also
+* class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
+* enumeration [`TextUnderlineType`](/slides/python-net/aspose.slides/textunderlinetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

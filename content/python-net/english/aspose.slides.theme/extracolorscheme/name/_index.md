@@ -10,7 +10,7 @@ weight: 20
 
 ## name property
 Returns a name of this scheme.
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def name(self):
 ```
 
 ### See Also
+* class [`ExtraColorScheme`](/slides/python-net/aspose.slides.theme/extracolorscheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

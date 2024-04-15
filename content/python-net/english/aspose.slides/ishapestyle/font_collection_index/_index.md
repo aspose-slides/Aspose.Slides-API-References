@@ -23,5 +23,7 @@ def font_collection_index(self, value):
 ```
 
 ### See Also
+* enumeration [`FontCollectionIndex`](/slides/python-net/aspose.slides/fontcollectionindex)
+* class [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

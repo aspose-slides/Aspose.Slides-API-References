@@ -20,5 +20,6 @@ def is_format_not_defined(self):
 ```
 
 ### See Also
+* class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

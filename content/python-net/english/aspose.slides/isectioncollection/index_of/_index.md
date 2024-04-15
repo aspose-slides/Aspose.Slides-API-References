@@ -25,11 +25,12 @@ def index_of(self, section):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| section | ISection | Section to find. |
+| section | [`ISection`](/slides/python-net/aspose.slides/isection) | Section to find. |
 
 
 
 ### See Also
+* class [`ISection`](/slides/python-net/aspose.slides/isection)
 * class [`ISectionCollection`](/slides/python-net/aspose.slides/isectioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

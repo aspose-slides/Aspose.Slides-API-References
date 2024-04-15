@@ -20,6 +20,7 @@ def entries(self):
 ```
 
 ### See Also
+* class [`ILegend`](/slides/python-net/aspose.slides.charts/ilegend)
 * class [`ILegendEntryCollection`](/slides/python-net/aspose.slides.charts/ilegendentrycollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

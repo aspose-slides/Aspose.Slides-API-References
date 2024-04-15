@@ -8,12 +8,12 @@ weight: 20
 ---
 
 
-## compile {#string-any}
+## compile {#str-any}
 Transforms the template with the given key and model object to output.
 
 ### Returns
 
-Resulting output as a **string**.
+Resulting output as a **str**.
 
 
 
@@ -25,8 +25,8 @@ def compile(self, key, model):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| key | string | Key for the template in the template collection. |
-| model | any | Model object with data for transformation. |
+| key | **str** | Key for the template in the template collection. |
+| model | **any** | Model object with data for transformation. |
 
 
 

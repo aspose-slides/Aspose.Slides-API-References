@@ -24,5 +24,6 @@ def grow(self, value):
 ```
 
 ### See Also
+* class [`IBlur`](/slides/python-net/aspose.slides.effects/iblur)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

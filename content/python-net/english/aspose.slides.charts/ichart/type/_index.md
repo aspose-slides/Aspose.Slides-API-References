@@ -23,5 +23,7 @@ def type(self, value):
 ```
 
 ### See Also
+* enumeration [`ChartType`](/slides/python-net/aspose.slides.charts/charttype)
+* class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

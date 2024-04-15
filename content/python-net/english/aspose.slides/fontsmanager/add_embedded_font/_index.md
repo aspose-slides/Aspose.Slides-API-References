@@ -22,8 +22,8 @@ def add_embedded_font(self, font_data, embed_font_rule):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_data | IFontData |  |
-| embed_font_rule | aspose.slides.export.EmbedFontCharacters |  |
+| font_data | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) |  |
+| embed_font_rule | **aspose.slides.export.EmbedFontCharacters** |  |
 
 
 
@@ -41,12 +41,13 @@ def add_embedded_font(self, font_data, embed_font_rule):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_data | bytes |  |
-| embed_font_rule | aspose.slides.export.EmbedFontCharacters |  |
+| font_data | **bytes** |  |
+| embed_font_rule | **aspose.slides.export.EmbedFontCharacters** |  |
 
 
 
 ### See Also
 * class [`FontsManager`](/slides/python-net/aspose.slides/fontsmanager)
+* class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

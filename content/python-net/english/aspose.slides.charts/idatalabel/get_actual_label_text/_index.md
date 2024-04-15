@@ -13,7 +13,7 @@ Returns actual label text based on DataLabelFormat settings or TextFrameForOverr
 
 ### Returns
 
-Actual label text **string**
+Actual label text **str**
 
 
 

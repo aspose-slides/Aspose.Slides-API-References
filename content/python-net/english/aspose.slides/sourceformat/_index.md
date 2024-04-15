@@ -7,7 +7,7 @@ url: /aspose.slides/sourceformat/
 ---
 
 
-## SourceFormat class
+## SourceFormat enumeration
 
 Represents source file format.
 

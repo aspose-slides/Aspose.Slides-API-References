@@ -21,5 +21,6 @@ def bevel_bottom(self):
 
 ### See Also
 * class [`IShapeBevel`](/slides/python-net/aspose.slides/ishapebevel)
+* class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_attribute_value {#string}
+## add_attribute_value {#str}
 Quotes attribute value and adds it to the html file.
 
 
@@ -20,7 +20,7 @@ def add_attribute_value(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | string | Attribute value string. |
+| value | **str** | Attribute value string. |
 
 
 
@@ -36,7 +36,7 @@ def add_attribute_value(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | List[char] | Attribute value string. |
+| value | **List[char]** | Attribute value string. |
 
 
 
@@ -52,9 +52,9 @@ def add_attribute_value(self, value, start_index, length):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | List[char] | Attribute value string. |
-| start_index | int | Start index of the portion to add. |
-| length | int | Length of the portion to add. |
+| value | **List[char]** | Attribute value string. |
+| start_index | **int** | Start index of the portion to add. |
+| length | **int** | Length of the portion to add. |
 
 
 

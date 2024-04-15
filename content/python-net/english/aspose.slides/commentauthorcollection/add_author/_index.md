@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_author {#string-string}
+## add_author {#str-str}
 Add new author at the end of a collection.
 
 ### Returns
@@ -25,8 +25,8 @@ def add_author(self, name, initials):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of a new author. |
-| initials | string | Initials of a new author. |
+| name | **str** | Name of a new author. |
+| initials | **str** | Initials of a new author. |
 
 ## Exceptions
 

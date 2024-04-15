@@ -7,7 +7,7 @@ url: /aspose.slides/slidesizetype/
 ---
 
 
-## SlideSizeType class
+## SlideSizeType enumeration
 
 Represents the slide size preset.
 

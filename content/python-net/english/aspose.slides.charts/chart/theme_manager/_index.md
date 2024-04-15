@@ -20,6 +20,7 @@ def theme_manager(self):
 ```
 
 ### See Also
+* class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * class [`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

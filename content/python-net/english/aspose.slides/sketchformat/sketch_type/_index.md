@@ -23,5 +23,7 @@ def sketch_type(self, value):
 ```
 
 ### See Also
+* enumeration [`LineSketchType`](/slides/python-net/aspose.slides/linesketchtype)
+* class [`SketchFormat`](/slides/python-net/aspose.slides/sketchformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

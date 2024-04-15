@@ -23,5 +23,7 @@ def alignment(self, value):
 ```
 
 ### See Also
+* enumeration [`LineAlignment`](/slides/python-net/aspose.slides/linealignment)
+* class [`LineFormat`](/slides/python-net/aspose.slides/lineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

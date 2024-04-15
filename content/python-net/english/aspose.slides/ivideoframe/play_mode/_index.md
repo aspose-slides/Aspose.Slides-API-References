@@ -23,5 +23,7 @@ def play_mode(self, value):
 ```
 
 ### See Also
+* class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
+* enumeration [`VideoPlayModePreset`](/slides/python-net/aspose.slides/videoplaymodepreset)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

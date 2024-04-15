@@ -7,7 +7,7 @@ url: /aspose.slides/picturefillmode/
 ---
 
 
-## PictureFillMode class
+## PictureFillMode enumeration
 
 Determines how picture will fill area.
 

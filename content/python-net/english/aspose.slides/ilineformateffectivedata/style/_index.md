@@ -20,5 +20,7 @@ def style(self):
 ```
 
 ### See Also
+* class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
+* enumeration [`LineStyle`](/slides/python-net/aspose.slides/linestyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

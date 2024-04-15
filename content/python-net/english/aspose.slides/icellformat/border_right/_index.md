@@ -20,6 +20,7 @@ def border_right(self):
 ```
 
 ### See Also
+* class [`ICellFormat`](/slides/python-net/aspose.slides/icellformat)
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

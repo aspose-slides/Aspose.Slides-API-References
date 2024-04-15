@@ -20,5 +20,7 @@ def type(self):
 ```
 
 ### See Also
+* class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
+* enumeration [`CombinableSeriesTypesGroup`](/slides/python-net/aspose.slides.charts/combinableseriestypesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

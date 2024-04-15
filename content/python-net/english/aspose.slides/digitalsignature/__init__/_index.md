@@ -20,11 +20,11 @@ def __init__(self, certificate):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| certificate | System.Security.Cryptography.X509Certificates.X509Certificate2 | Certificate that will be used to sign the presentation. |
+| certificate | **System.Security.Cryptography.X509Certificates.X509Certificate2** | Certificate that will be used to sign the presentation. |
 
 
 
-## __init__ {#string-string}
+## __init__ {#str-str}
 Creates a new DigitalSignature object with the specified certificate file path and password.
 
 
@@ -36,8 +36,8 @@ def __init__(self, file_path, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | string | Path to the file with certificate. |
-| password | string | Password required to access certificate. |
+| file_path | **str** | Path to the file with certificate. |
+| password | **str** | Password required to access certificate. |
 
 
 

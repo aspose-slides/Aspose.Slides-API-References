@@ -25,12 +25,13 @@ def index_of(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IChartCategory | Chart category. |
+| value | [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory) | Chart category. |
 
 
 
 ### See Also
 * class [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory)
 * class [`ChartCategoryCollection`](/slides/python-net/aspose.slides.charts/chartcategorycollection)
+* class [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

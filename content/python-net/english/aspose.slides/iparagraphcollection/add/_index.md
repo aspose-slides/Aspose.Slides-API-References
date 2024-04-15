@@ -20,7 +20,7 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IParagraph | The Paragraph to be added to the end of the collection. |
+| value | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | The Paragraph to be added to the end of the collection. |
 
 
 
@@ -41,11 +41,12 @@ def add(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IParagraphCollection | The ParagraphCollection to be added to the end of the collection. |
+| value | [`IParagraphCollection`](/slides/python-net/aspose.slides/iparagraphcollection) | The ParagraphCollection to be added to the end of the collection. |
 
 
 
 ### See Also
+* class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
 * class [`IParagraphCollection`](/slides/python-net/aspose.slides/iparagraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

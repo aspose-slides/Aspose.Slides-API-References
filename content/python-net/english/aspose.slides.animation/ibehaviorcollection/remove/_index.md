@@ -25,11 +25,12 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IBehavior | Behavior to remove. |
+| item | [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior) | Behavior to remove. |
 
 
 
 ### See Also
+* class [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior)
 * class [`IBehaviorCollection`](/slides/python-net/aspose.slides.animation/ibehaviorcollection)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

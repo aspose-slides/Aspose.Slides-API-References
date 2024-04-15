@@ -19,7 +19,7 @@ The IBulletFormatEffectiveData type exposes the following members:
 | :- | :- |
 | [`type`](/slides/python-net/aspose.slides/ibulletformateffectivedata/type/) | Returns the bullet type of a paragraph.<br/>            Read-only [`BulletType`](/slides/python-net/aspose.slides/bullettype). |
 | [`char`](/slides/python-net/aspose.slides/ibulletformateffectivedata/char/) | Returns the bullet char of a paragraph.<br/>            Read-only **System.Char**. |
-| [`actual_bullet_value`](/slides/python-net/aspose.slides/ibulletformateffectivedata/actual_bullet_value/) | Returns actual bullet value for parent paragraph.<br/>            Read-only **string**. |
+| [`actual_bullet_value`](/slides/python-net/aspose.slides/ibulletformateffectivedata/actual_bullet_value/) | Returns actual bullet value for parent paragraph.<br/>            Read-only **str**. |
 | [`font`](/slides/python-net/aspose.slides/ibulletformateffectivedata/font/) | Returns the bullet font of a paragraph.<br/>            Read-only [`IFontData`](/slides/python-net/aspose.slides/ifontdata). |
 | [`height`](/slides/python-net/aspose.slides/ibulletformateffectivedata/height/) | Returns the bullet height of a paragraph.<br/>            Read-only **float**. |
 | [`numbered_bullet_start_with`](/slides/python-net/aspose.slides/ibulletformateffectivedata/numbered_bullet_start_with/) | Returns the first number which is used for group of numbered bullets.<br/>            Read-only **int**. |

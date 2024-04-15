@@ -7,7 +7,7 @@ url: /aspose.slides/materialpresettype/
 ---
 
 
-## MaterialPresetType class
+## MaterialPresetType enumeration
 
 Constants which define material of shape.
 

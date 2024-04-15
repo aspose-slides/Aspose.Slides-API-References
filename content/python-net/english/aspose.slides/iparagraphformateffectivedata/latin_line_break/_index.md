@@ -20,5 +20,6 @@ def latin_line_break(self):
 ```
 
 ### See Also
+* class [`IParagraphFormatEffectiveData`](/slides/python-net/aspose.slides/iparagraphformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

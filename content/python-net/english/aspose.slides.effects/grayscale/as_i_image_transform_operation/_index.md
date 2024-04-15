@@ -17,5 +17,6 @@ def as_i_image_transform_operation(self):
 ```
 
 ### See Also
+* class [`GrayScale`](/slides/python-net/aspose.slides.effects/grayscale)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -24,5 +24,6 @@ def perspective(self, value):
 ```
 
 ### See Also
+* class [`Rotation3D`](/slides/python-net/aspose.slides.charts/rotation3d)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

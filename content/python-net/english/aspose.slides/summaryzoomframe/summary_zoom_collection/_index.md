@@ -20,5 +20,6 @@ def summary_zoom_collection(self):
 
 ### See Also
 * class [`ISummaryZoomSectionCollection`](/slides/python-net/aspose.slides/isummaryzoomsectioncollection)
+* class [`SummaryZoomFrame`](/slides/python-net/aspose.slides/summaryzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

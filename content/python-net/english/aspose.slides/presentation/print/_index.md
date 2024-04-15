@@ -33,11 +33,11 @@ def print(self, printer_settings):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| printer_settings | aspose.pydrawing.Printing.PrinterSettings | The .NET printer settings to use. |
+| printer_settings | **aspose.pydrawing.Printing.PrinterSettings** | The .NET printer settings to use. |
 
 
 
-## print {#string}
+## print {#str}
 Print the whole presentation to the specified printer,
             using the standard (no User Interface) print controller.
 
@@ -50,11 +50,11 @@ def print(self, printer_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| printer_name | string | The name of the printer. |
+| printer_name | **str** | The name of the printer. |
 
 
 
-## print {#asposepydrawingprintingprintersettings-string}
+## print {#asposepydrawingprintingprintersettings-str}
 Prints the document according to the specified printer settings, using
             the standard (no User Interface) print controller and a presentation name.
 
@@ -67,8 +67,8 @@ def print(self, printer_settings, pres_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| printer_settings | aspose.pydrawing.Printing.PrinterSettings | The .NET printer settings to use. |
-| pres_name | string | The presentation name to display (for example, in a print<br/><br/>            status dialog box or printer queue) while printing the presentation. |
+| printer_settings | **aspose.pydrawing.Printing.PrinterSettings** | The .NET printer settings to use. |
+| pres_name | **str** | The presentation name to display (for example, in a print<br/><br/>            status dialog box or printer queue) while printing the presentation. |
 
 
 

@@ -21,5 +21,6 @@ def as_i_transition_value_base(self):
 
 ### See Also
 * class [`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)
+* class [`IWheelTransition`](/slides/python-net/aspose.slides.slideshow/iwheeltransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

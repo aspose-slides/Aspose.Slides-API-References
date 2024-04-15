@@ -23,5 +23,7 @@ def subtype(self, value):
 ```
 
 ### See Also
+* class [`FilterEffect`](/slides/python-net/aspose.slides.animation/filtereffect)
+* enumeration [`FilterEffectSubtype`](/slides/python-net/aspose.slides.animation/filtereffectsubtype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -26,5 +26,6 @@ def as_i_vba_reference(self):
 
 ### See Also
 * class [`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference)
+* class [`IVbaReferenceOleTwiddledTypeLib`](/slides/python-net/aspose.slides.vba/ivbareferenceoletwiddledtypelib)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

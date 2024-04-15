@@ -21,5 +21,6 @@ def as_i_comment(self):
 
 ### See Also
 * class [`IComment`](/slides/python-net/aspose.slides/icomment)
+* class [`IModernComment`](/slides/python-net/aspose.slides/imoderncomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -7,7 +7,7 @@ url: /aspose.slides.charts/chartdatasourcetype/
 ---
 
 
-## ChartDataSourceType class
+## ChartDataSourceType enumeration
 
 Represents a type of data source of the chart
 

@@ -20,5 +20,6 @@ def center_text(self):
 ```
 
 ### See Also
+* class [`ITextFrameFormatEffectiveData`](/slides/python-net/aspose.slides/itextframeformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

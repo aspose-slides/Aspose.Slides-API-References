@@ -20,6 +20,7 @@ def picture(self):
 ```
 
 ### See Also
+* class [`IBulletFormat`](/slides/python-net/aspose.slides/ibulletformat)
 * class [`ISlidesPicture`](/slides/python-net/aspose.slides/islidespicture)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

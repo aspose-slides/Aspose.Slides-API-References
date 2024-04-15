@@ -25,12 +25,13 @@ def add_clone(self, templ, with_attached_rows):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| templ | IRow | Row which is used as a template. |
-| with_attached_rows | bool | True to copy also all rows attached to the template row. |
+| templ | [`IRow`](/slides/python-net/aspose.slides/irow) | Row which is used as a template. |
+| with_attached_rows | **bool** | True to copy also all rows attached to the template row. |
 
 
 
 ### See Also
+* class [`IRow`](/slides/python-net/aspose.slides/irow)
 * class [`RowCollection`](/slides/python-net/aspose.slides/rowcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

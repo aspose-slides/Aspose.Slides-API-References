@@ -23,5 +23,7 @@ def additive(self, value):
 ```
 
 ### See Also
+* class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
+* enumeration [`BehaviorAdditiveType`](/slides/python-net/aspose.slides.animation/behavioradditivetype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

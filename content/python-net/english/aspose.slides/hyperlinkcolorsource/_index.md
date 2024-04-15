@@ -7,7 +7,7 @@ url: /aspose.slides/hyperlinkcolorsource/
 ---
 
 
-## HyperlinkColorSource class
+## HyperlinkColorSource enumeration
 
 Represents source of hyperlink color.
 

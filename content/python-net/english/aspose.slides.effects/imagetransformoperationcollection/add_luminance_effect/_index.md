@@ -25,12 +25,13 @@ def add_luminance_effect(self, brightness, contrast):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| brightness | float | The percent to change the brightness. |
-| contrast | float | The percent to change the contrast. |
+| brightness | **float** | The percent to change the brightness. |
+| contrast | **float** | The percent to change the contrast. |
 
 
 
 ### See Also
+* class [`ILuminance`](/slides/python-net/aspose.slides.effects/iluminance)
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

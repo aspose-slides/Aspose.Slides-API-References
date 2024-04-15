@@ -27,5 +27,6 @@ def hide_ink(self, value):
 ```
 
 ### See Also
+* class [`InkOptions`](/slides/python-net/aspose.slides.export/inkoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

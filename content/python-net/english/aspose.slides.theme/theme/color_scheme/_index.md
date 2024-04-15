@@ -21,5 +21,6 @@ def color_scheme(self):
 
 ### See Also
 * class [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme)
+* class [`Theme`](/slides/python-net/aspose.slides.theme/theme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

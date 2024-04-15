@@ -24,5 +24,7 @@ def pie_split_by(self, value):
 ```
 
 ### See Also
+* class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
+* enumeration [`PieSplitType`](/slides/python-net/aspose.slides.charts/piesplittype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

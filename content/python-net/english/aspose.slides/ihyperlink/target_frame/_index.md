@@ -11,7 +11,7 @@ weight: 100
 ## target_frame property
 Returns the frame within the parent HTML frameset for the target
             of the parent hyperlink when one exists.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def target_frame(self, value):
 ```
 
 ### See Also
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

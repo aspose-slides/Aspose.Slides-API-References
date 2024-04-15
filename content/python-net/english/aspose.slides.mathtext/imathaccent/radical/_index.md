@@ -20,11 +20,11 @@ def radical(self, degree):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| degree | IMathElement |  |
+| degree | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
 
-## radical {#string}
+## radical {#str}
 
 
 
@@ -36,11 +36,13 @@ def radical(self, degree):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| degree | string |  |
+| degree | **str** |  |
 
 
 
 ### See Also
 * class [`IMathAccent`](/slides/python-net/aspose.slides.mathtext/imathaccent)
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathRadical`](/slides/python-net/aspose.slides.mathtext/imathradical)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

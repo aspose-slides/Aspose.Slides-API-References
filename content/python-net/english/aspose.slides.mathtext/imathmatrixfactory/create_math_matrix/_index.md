@@ -25,12 +25,13 @@ def create_math_matrix(self, row_count, column_count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| row_count | int | row count |
-| column_count | int | column count |
+| row_count | **int** | row count |
+| column_count | **int** | column count |
 
 
 
 ### See Also
+* class [`IMathMatrix`](/slides/python-net/aspose.slides.mathtext/imathmatrix)
 * class [`IMathMatrixFactory`](/slides/python-net/aspose.slides.mathtext/imathmatrixfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

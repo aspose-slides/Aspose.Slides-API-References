@@ -43,8 +43,8 @@ def to_array(self, start_index, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | int |  |
-| count | int |  |
+| start_index | **int** |  |
+| count | **int** |  |
 
 
 

@@ -7,7 +7,7 @@ url: /aspose.slides.animation/filtereffectrevealtype/
 ---
 
 
-## FilterEffectRevealType class
+## FilterEffectRevealType enumeration
 
 Represents filter reveal type.
 

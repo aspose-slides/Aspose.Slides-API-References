@@ -53,7 +53,7 @@ The IAxis type exposes the following members:
 | [`cross_type`](/slides/python-net/aspose.slides.charts/iaxis/cross_type/) | Represents the CrossType on the specified axis where the other axis crosses.<br/>             Read/write [`CrossesType`](/slides/python-net/aspose.slides.charts/crossestype). |
 | [`position`](/slides/python-net/aspose.slides.charts/iaxis/position/) | Represents position of axis.<br/>             Read/write [`AxisPositionType`](/slides/python-net/aspose.slides.charts/axispositiontype). |
 | [`has_title`](/slides/python-net/aspose.slides.charts/iaxis/has_title/) | Determines whether a axis has a visible title.<br/>            Read/write **bool**. |
-| [`number_format`](/slides/python-net/aspose.slides.charts/iaxis/number_format/) | Represents the format string for the Axis Labels.<br/>            Read/write **string**. |
+| [`number_format`](/slides/python-net/aspose.slides.charts/iaxis/number_format/) | Represents the format string for the Axis Labels.<br/>            Read/write **str**. |
 | [`is_number_format_linked_to_source`](/slides/python-net/aspose.slides.charts/iaxis/is_number_format_linked_to_source/) | Indicates whether the format is linked source data.<br/>            Read/write **bool**. |
 | [`tick_label_rotation_angle`](/slides/python-net/aspose.slides.charts/iaxis/tick_label_rotation_angle/) | Represents the rotation angle of tick labels<br/>            Read/write **float**. |
 | [`tick_label_spacing`](/slides/python-net/aspose.slides.charts/iaxis/tick_label_spacing/) | Specifies how many tick labels to skip between label that is drawn.<br/>            Read/write **int**. |

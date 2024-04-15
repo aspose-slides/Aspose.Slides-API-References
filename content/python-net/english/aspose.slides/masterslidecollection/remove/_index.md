@@ -20,11 +20,12 @@ def remove(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IMasterSlide | The master slide to remove from the collection. |
+| value | [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide) | The master slide to remove from the collection. |
 
 
 
 ### See Also
+* class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
 * class [`MasterSlideCollection`](/slides/python-net/aspose.slides/masterslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

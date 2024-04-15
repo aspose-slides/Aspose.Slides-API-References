@@ -10,7 +10,7 @@ weight: 400
 
 ## object_prog_id property
 Returns the ProgID of an object.
-            Read only **string**.
+            Read only **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def object_prog_id(self, value):
 ```
 
 ### See Also
+* class [`OleObjectFrame`](/slides/python-net/aspose.slides/oleobjectframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

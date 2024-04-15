@@ -34,11 +34,11 @@ def __init__(self, load_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| load_options | LoadOptions | Additional load options. |
+| load_options | [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions) | Additional load options. |
 
 
 
-## __init__ {#systemiostream}
+## __init__ {#iorawiobase}
 This constructor is the primary mechanism for reading an existing Presentation.
 
 
@@ -50,11 +50,11 @@ def __init__(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Input stream. |
+| stream | **io.RawIOBase** | Input stream. |
 
 
 
-## __init__ {#string}
+## __init__ {#str}
 This constructor gets a source file path from which
              the contents of the Presentation are read.
 
@@ -67,7 +67,7 @@ def __init__(self, file):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string | Input file. |
+| file | **str** | Input file. |
 
 ## Exceptions
 
@@ -77,7 +77,7 @@ def __init__(self, file):
 
 
 
-## __init__ {#systemiostream-loadoptions}
+## __init__ {#iorawiobase-loadoptions}
 This constructor is the primary mechanism for reading an existing Presentation.
 
 
@@ -89,12 +89,12 @@ def __init__(self, stream, load_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Input stream. |
-| load_options | LoadOptions | Additional load options. |
+| stream | **io.RawIOBase** | Input stream. |
+| load_options | [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions) | Additional load options. |
 
 
 
-## __init__ {#string-loadoptions}
+## __init__ {#str-loadoptions}
 This constructor gets a source file path from which
             the contents of the Presentation are read.
 
@@ -107,8 +107,8 @@ def __init__(self, file, load_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string | Input file. |
-| load_options | LoadOptions | Additional load options. |
+| file | **str** | Input file. |
+| load_options | [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions) | Additional load options. |
 
 ## Exceptions
 
@@ -119,6 +119,7 @@ def __init__(self, file, load_options):
 
 
 ### See Also
+* class [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions)
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -21,7 +21,7 @@ def send_warning(self, receiver):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| receiver | IWarningCallback | Receiver object [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback) |
+| receiver | [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback) | Receiver object [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback) |
 
 
 

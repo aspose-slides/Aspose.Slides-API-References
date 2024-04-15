@@ -7,7 +7,7 @@ url: /aspose.slides/filltype/
 ---
 
 
-## FillType class
+## FillType enumeration
 
 Specifies the interior fill type of various visual objects.
 

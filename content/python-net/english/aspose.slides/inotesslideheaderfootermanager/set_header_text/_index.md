@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_header_text {#string}
+## set_header_text {#str}
 
 
 
@@ -20,7 +20,7 @@ def set_header_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string |  |
+| text | **str** |  |
 
 
 

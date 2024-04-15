@@ -20,9 +20,9 @@ def write(self, buffer, offset, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes | An array of bytes **int**[] |
-| offset | int | The zero-based byte offset in buffer at which to begin copying bytes to the current stream **int** |
-| count | int | The number of bytes to be written to the current stream **int** |
+| buffer | **bytes** | An array of bytes **int**[] |
+| offset | **int** | The zero-based byte offset in buffer at which to begin copying bytes to the current stream **int** |
+| count | **int** | The number of bytes to be written to the current stream **int** |
 
 
 

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## set_metered_key {#string-string}
+## set_metered_key {#str-str}
 Sets metered public and private key
 
 
@@ -20,8 +20,8 @@ def set_metered_key(self, public_key, private_key):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| public_key | string | public key |
-| private_key | string | private key |
+| public_key | **str** | public key |
+| private_key | **str** | private key |
 
 
 

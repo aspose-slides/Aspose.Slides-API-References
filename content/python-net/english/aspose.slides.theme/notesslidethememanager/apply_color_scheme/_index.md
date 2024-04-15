@@ -20,11 +20,12 @@ def apply_color_scheme(self, scheme):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| scheme | IExtraColorScheme |  |
+| scheme | [`IExtraColorScheme`](/slides/python-net/aspose.slides.theme/iextracolorscheme) |  |
 
 
 
 ### See Also
+* class [`IExtraColorScheme`](/slides/python-net/aspose.slides.theme/iextracolorscheme)
 * class [`NotesSlideThemeManager`](/slides/python-net/aspose.slides.theme/notesslidethememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

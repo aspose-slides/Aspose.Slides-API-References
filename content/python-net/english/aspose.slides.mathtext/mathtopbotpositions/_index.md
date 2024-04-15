@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathtopbotpositions/
 ---
 
 
-## MathTopBotPositions class
+## MathTopBotPositions enumeration
 
 Top/bottom positions enumeration
 

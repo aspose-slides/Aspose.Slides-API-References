@@ -24,5 +24,6 @@ def from_black(self, value):
 ```
 
 ### See Also
+* class [`IOptionalBlackTransition`](/slides/python-net/aspose.slides.slideshow/ioptionalblacktransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

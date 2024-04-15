@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_text_frame_for_overriding {#string}
+## add_text_frame_for_overriding {#str}
 
 
 
@@ -20,11 +20,12 @@ def add_text_frame_for_overriding(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string |  |
+| text | **str** |  |
 
 
 
 ### See Also
 * class [`IDataLabel`](/slides/python-net/aspose.slides.charts/idatalabel)
+* class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

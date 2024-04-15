@@ -20,8 +20,8 @@ def copy_to(self, array, array_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| array | List[IMathElement] | Array to copy to. |
-| array_index | int | Index to begin copying. |
+| array | **List[IMathElement]** | Array to copy to. |
+| array_index | **int** | Index to begin copying. |
 
 
 

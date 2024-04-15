@@ -21,5 +21,6 @@ def effect_format(self):
 
 ### See Also
 * class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
+* class [`IEffectStyle`](/slides/python-net/aspose.slides.theme/ieffectstyle)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

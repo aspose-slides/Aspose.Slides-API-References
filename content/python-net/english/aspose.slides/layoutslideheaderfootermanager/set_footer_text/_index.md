@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## set_footer_text {#string}
+## set_footer_text {#str}
 Sets text to slide footer placeholder.
 
 
@@ -20,7 +20,7 @@ def set_footer_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string | Text to set. |
+| text | **str** | Text to set. |
 
 
 

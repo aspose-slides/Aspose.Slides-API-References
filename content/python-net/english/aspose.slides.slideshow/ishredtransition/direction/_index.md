@@ -23,5 +23,7 @@ def direction(self, value):
 ```
 
 ### See Also
+* class [`IShredTransition`](/slides/python-net/aspose.slides.slideshow/ishredtransition)
+* enumeration [`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

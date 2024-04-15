@@ -32,13 +32,14 @@ def get_thumbnail(self, bounds, scale_x, scale_y):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| bounds | ShapeThumbnailBounds |  |
-| scale_x | float |  |
-| scale_y | float |  |
+| bounds | [`ShapeThumbnailBounds`](/slides/python-net/aspose.slides/shapethumbnailbounds) |  |
+| scale_x | **float** |  |
+| scale_y | **float** |  |
 
 
 
 ### See Also
 * class [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection)
+* enumeration [`ShapeThumbnailBounds`](/slides/python-net/aspose.slides/shapethumbnailbounds)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

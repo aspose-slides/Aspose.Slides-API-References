@@ -7,7 +7,7 @@ url: /aspose.slides.animation/buildtype/
 ---
 
 
-## BuildType class
+## BuildType enumeration
 
 Determines how text will appear on a shape during animation.
 

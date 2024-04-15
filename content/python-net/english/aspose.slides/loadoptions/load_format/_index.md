@@ -23,5 +23,7 @@ def load_format(self, value):
 ```
 
 ### See Also
+* enumeration [`LoadFormat`](/slides/python-net/aspose.slides/loadformat)
+* class [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

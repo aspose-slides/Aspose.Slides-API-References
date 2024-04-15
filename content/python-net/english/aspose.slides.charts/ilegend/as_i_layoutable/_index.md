@@ -21,5 +21,6 @@ def as_i_layoutable(self):
 
 ### See Also
 * class [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable)
+* class [`ILegend`](/slides/python-net/aspose.slides.charts/ilegend)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,8 +20,8 @@ def seek(self, offset, origin):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| offset | int |  |
-| origin | System.IO.SeekOrigin |  |
+| offset | **int** |  |
+| origin | **System.IO.SeekOrigin** |  |
 
 
 

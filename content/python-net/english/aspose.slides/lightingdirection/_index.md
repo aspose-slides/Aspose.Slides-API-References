@@ -7,7 +7,7 @@ url: /aspose.slides/lightingdirection/
 ---
 
 
-## LightingDirection class
+## LightingDirection enumeration
 
 Constants which define light directions.
 

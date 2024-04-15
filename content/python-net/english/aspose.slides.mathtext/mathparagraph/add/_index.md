@@ -20,11 +20,12 @@ def add(self, math_block):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_block | IMathBlock | A mathematical block that will be added to the end of the collection |
+| math_block | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | A mathematical block that will be added to the end of the collection |
 
 
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

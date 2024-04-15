@@ -25,6 +25,7 @@ def as_i_image_transform_operation(self):
 ```
 
 ### See Also
+* class [`IGrayScale`](/slides/python-net/aspose.slides.effects/igrayscale)
 * class [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

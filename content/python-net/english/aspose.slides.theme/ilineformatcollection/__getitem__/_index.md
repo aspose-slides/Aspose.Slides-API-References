@@ -15,5 +15,6 @@ weight: 10
 | :- | :- |
 | index |  |
 ### See Also
+* class [`ILineFormatCollection`](/slides/python-net/aspose.slides.theme/ilineformatcollection)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

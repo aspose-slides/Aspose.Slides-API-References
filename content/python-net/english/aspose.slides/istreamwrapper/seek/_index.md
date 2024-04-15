@@ -25,8 +25,8 @@ def seek(self, offset, origin):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| offset | int | A byte offset relative to the origin parameter **int** |
-| origin | System.IO.SeekOrigin | A value of type **System.IO.SeekOrigin** indicating the reference point used to obtain the new position |
+| offset | **int** | A byte offset relative to the origin parameter **int** |
+| origin | **System.IO.SeekOrigin** | A value of type **System.IO.SeekOrigin** indicating the reference point used to obtain the new position |
 
 
 

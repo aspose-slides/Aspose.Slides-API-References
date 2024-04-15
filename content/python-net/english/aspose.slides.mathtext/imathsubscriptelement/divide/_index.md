@@ -20,11 +20,11 @@ def divide(self, denominator):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| denominator | IMathElement |  |
+| denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
 
-## divide {#string}
+## divide {#str}
 
 
 
@@ -36,7 +36,7 @@ def divide(self, denominator):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| denominator | string |  |
+| denominator | **str** |  |
 
 
 
@@ -52,12 +52,12 @@ def divide(self, denominator, fraction_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| denominator | IMathElement |  |
-| fraction_type | MathFractionTypes |  |
+| denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) |  |
 
 
 
-## divide {#string-mathfractiontypes}
+## divide {#str-mathfractiontypes}
 
 
 
@@ -69,12 +69,15 @@ def divide(self, denominator, fraction_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| denominator | string |  |
-| fraction_type | MathFractionTypes |  |
+| denominator | **str** |  |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) |  |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathFraction`](/slides/python-net/aspose.slides.mathtext/imathfraction)
 * class [`IMathSubscriptElement`](/slides/python-net/aspose.slides.mathtext/imathsubscriptelement)
+* enumeration [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

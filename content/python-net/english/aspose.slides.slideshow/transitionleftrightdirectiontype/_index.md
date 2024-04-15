@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
 
 
-## TransitionLeftRightDirectionType class
+## TransitionLeftRightDirectionType enumeration
 
 Specifies a direction restricted to the values of left and right.
 

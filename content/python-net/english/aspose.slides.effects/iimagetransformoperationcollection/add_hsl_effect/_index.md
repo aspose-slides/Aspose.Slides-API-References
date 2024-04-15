@@ -25,13 +25,14 @@ def add_hsl_effect(self, hue, saturation, luminance):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| hue | float | The number of degrees by which the hue is adjusted. |
-| saturation | float | The percentage by which the saturation is adjusted. |
-| luminance | float | The percentage by which the luminance is adjusted. |
+| hue | **float** | The number of degrees by which the hue is adjusted. |
+| saturation | **float** | The percentage by which the saturation is adjusted. |
+| luminance | **float** | The percentage by which the luminance is adjusted. |
 
 
 
 ### See Also
+* class [`IHSL`](/slides/python-net/aspose.slides.effects/ihsl)
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

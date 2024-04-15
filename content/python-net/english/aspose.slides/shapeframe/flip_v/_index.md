@@ -20,5 +20,7 @@ def flip_v(self):
 ```
 
 ### See Also
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
+* class [`ShapeFrame`](/slides/python-net/aspose.slides/shapeframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

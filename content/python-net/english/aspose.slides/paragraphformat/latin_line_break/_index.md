@@ -23,5 +23,7 @@ def latin_line_break(self, value):
 ```
 
 ### See Also
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
+* class [`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

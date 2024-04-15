@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## index_of {#string}
+## index_of {#str}
 Returns an index of the specified rule in the collection.
 
 ### Returns
@@ -25,7 +25,7 @@ def index_of(self, font_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name | string | Font's name to find. |
+| font_name | **str** | Font's name to find. |
 
 
 

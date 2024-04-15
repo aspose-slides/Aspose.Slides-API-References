@@ -20,6 +20,7 @@ def as_i_transition_value_base(self):
 ```
 
 ### See Also
+* class [`ILeftRightDirectionTransition`](/slides/python-net/aspose.slides.slideshow/ileftrightdirectiontransition)
 * class [`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

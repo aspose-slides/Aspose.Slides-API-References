@@ -18,7 +18,7 @@ The Control type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`persistence`](/slides/python-net/aspose.slides/control/persistence/) | Gets the method used to store properties of the ActiveX control.<br/>            Read only [`PersistenceType`](/slides/python-net/aspose.slides/persistencetype). |
-| [`name`](/slides/python-net/aspose.slides/control/name/) | Gets or sets the name of this control.<br/>            Read/write **string**. |
+| [`name`](/slides/python-net/aspose.slides/control/name/) | Gets or sets the name of this control.<br/>            Read/write **str**. |
 | [`class_id`](/slides/python-net/aspose.slides/control/class_id/) | Gets class id of this control.<br/>            Read-only **System.Guid**. |
 | [`substitute_picture_format`](/slides/python-net/aspose.slides/control/substitute_picture_format/) | Returns Control image fill properties object.<br/>            Read-only [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
 | [`frame`](/slides/python-net/aspose.slides/control/frame/) | Returns or sets control's frame.<br/>            Read/write [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe). |

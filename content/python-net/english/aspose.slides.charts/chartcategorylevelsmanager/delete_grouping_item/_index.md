@@ -20,7 +20,7 @@ def delete_grouping_item(self, level):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| level | int |  |
+| level | **int** |  |
 
 
 

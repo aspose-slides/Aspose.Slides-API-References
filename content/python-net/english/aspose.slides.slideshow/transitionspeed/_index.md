@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitionspeed/
 ---
 
 
-## TransitionSpeed class
+## TransitionSpeed enumeration
 
 Represent transition speed types.
 

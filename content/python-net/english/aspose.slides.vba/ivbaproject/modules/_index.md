@@ -21,5 +21,6 @@ def modules(self):
 
 ### See Also
 * class [`IVbaModuleCollection`](/slides/python-net/aspose.slides.vba/ivbamodulecollection)
+* class [`IVbaProject`](/slides/python-net/aspose.slides.vba/ivbaproject)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

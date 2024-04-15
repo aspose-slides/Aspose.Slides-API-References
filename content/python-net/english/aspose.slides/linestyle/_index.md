@@ -7,7 +7,7 @@ url: /aspose.slides/linestyle/
 ---
 
 
-## LineStyle class
+## LineStyle enumeration
 
 Represents the style of a line.
 

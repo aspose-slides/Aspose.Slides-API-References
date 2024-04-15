@@ -39,8 +39,8 @@ The ParagraphCollection type exposes the following members:
 | [`add`](/slides/python-net/aspose.slides/paragraphcollection/add/#iparagraphcollection) | Adds a content of ParagraphCollection to the end of collection. |
 | [`insert`](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-iparagraph) | Inserts a Paragraph into the collection at the specified index. |
 | [`insert`](/slides/python-net/aspose.slides/paragraphcollection/insert/#int-iparagraphcollection) | Inserts a content of ParagraphCollection into the collection at the specified index. |
-| [`add_from_html`](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#string) | Adds text from specified html string to the collection. |
-| [`add_from_html`](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#string-asposeslidesimportingiexternalresourceresolver-string) | Adds text from specified html string to the collection. |
+| [`add_from_html`](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#str) | Adds text from specified html string to the collection. |
+| [`add_from_html`](/slides/python-net/aspose.slides/paragraphcollection/add_from_html/#str-asposeslidesimportingiexternalresourceresolver-str) | Adds text from specified html string to the collection. |
 | [`index_of`](/slides/python-net/aspose.slides/paragraphcollection/index_of/#iparagraph) | Determines the index of a specific item in the **System.Collections.Generic.IList`1**. |
 | [`clear`](/slides/python-net/aspose.slides/paragraphcollection/clear/#) | Removes all elements from the collection. |
 | [`contains`](/slides/python-net/aspose.slides/paragraphcollection/contains/#iparagraph) | Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value. |

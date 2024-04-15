@@ -68,8 +68,8 @@ The IPictureFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ipictureframe/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ipictureframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/ipictureframe/write_as_svg/#systemiostream) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/ipictureframe/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/ipictureframe/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/ipictureframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides/ipictureframe/get_geometry_paths/#) |  |
 | [`set_geometry_path`](/slides/python-net/aspose.slides/ipictureframe/set_geometry_path/#igeometrypath) |  |
 | [`set_geometry_paths`](/slides/python-net/aspose.slides/ipictureframe/set_geometry_paths/#listigeometrypath) |  |

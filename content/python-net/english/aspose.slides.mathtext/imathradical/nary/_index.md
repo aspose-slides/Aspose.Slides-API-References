@@ -20,13 +20,13 @@ def nary(self, type, lower_limit, upper_limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | MathNaryOperatorTypes |  |
-| lower_limit | IMathElement |  |
-| upper_limit | IMathElement |  |
+| type | [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes) |  |
+| lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
+| upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
 
-## nary {#mathnaryoperatortypes-string-string}
+## nary {#mathnaryoperatortypes-str-str}
 
 
 
@@ -38,13 +38,16 @@ def nary(self, type, lower_limit, upper_limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | MathNaryOperatorTypes |  |
-| lower_limit | string |  |
-| upper_limit | string |  |
+| type | [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes) |  |
+| lower_limit | **str** |  |
+| upper_limit | **str** |  |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * class [`IMathRadical`](/slides/python-net/aspose.slides.mathtext/imathradical)
+* enumeration [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

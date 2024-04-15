@@ -32,11 +32,12 @@ def __init__(self, load_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| load_format | LoadFormat | Format of a presentation to load. |
+| load_format | [`LoadFormat`](/slides/python-net/aspose.slides/loadformat) | Format of a presentation to load. |
 
 
 
 ### See Also
+* enumeration [`LoadFormat`](/slides/python-net/aspose.slides/loadformat)
 * class [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#string}
+## __init__ {#str}
 Initializes a new instance of the [`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class with a specified error message.
 
 
@@ -32,11 +32,11 @@ def __init__(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | string | A string that describes the error. |
+| message | **str** | A string that describes the error. |
 
 
 
-## __init__ {#string-string}
+## __init__ {#str-str}
 Initializes a new instance of the [`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class with a specified error message
             and a cell reference that contains the invalid formula.
 
@@ -49,8 +49,8 @@ def __init__(self, message, reference):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | string |  |
-| reference | string |  |
+| message | **str** |  |
+| reference | **str** |  |
 
 
 

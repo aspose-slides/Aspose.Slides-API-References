@@ -20,11 +20,12 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | ISequence | Sequence to remove. |
+| item | [`ISequence`](/slides/python-net/aspose.slides.animation/isequence) | Sequence to remove. |
 
 
 
 ### See Also
+* class [`ISequence`](/slides/python-net/aspose.slides.animation/isequence)
 * class [`SequenceCollection`](/slides/python-net/aspose.slides.animation/sequencecollection)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

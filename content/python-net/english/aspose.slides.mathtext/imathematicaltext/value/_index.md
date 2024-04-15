@@ -22,5 +22,6 @@ def value(self, value):
 ```
 
 ### See Also
+* class [`IMathematicalText`](/slides/python-net/aspose.slides.mathtext/imathematicaltext)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

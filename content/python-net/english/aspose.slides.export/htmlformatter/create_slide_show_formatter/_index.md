@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## create_slide_show_formatter {#string-bool}
+## create_slide_show_formatter {#str-bool}
 Creates and returns HTML formatter for a simple slide show html which shows slides one after another.
 
 ### Returns
@@ -25,8 +25,8 @@ def create_slide_show_formatter(self, css, show_slide_title):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| css | string | Specifies URL of CCS file used. |
-| show_slide_title | bool | Add slide title if there is one above slide image. |
+| css | **str** | Specifies URL of CCS file used. |
+| show_slide_title | **bool** | Add slide title if there is one above slide image. |
 
 
 

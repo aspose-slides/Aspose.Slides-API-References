@@ -20,6 +20,7 @@ def chart_data_worksheet(self):
 ```
 
 ### See Also
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 * class [`IChartDataWorksheet`](/slides/python-net/aspose.slides.charts/ichartdataworksheet)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

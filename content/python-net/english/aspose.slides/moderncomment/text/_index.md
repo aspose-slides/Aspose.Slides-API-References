@@ -10,7 +10,7 @@ weight: 100
 
 ## text property
 Returns or sets the plain text of a slide comment.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def text(self, value):
 ```
 
 ### See Also
+* class [`ModernComment`](/slides/python-net/aspose.slides/moderncomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

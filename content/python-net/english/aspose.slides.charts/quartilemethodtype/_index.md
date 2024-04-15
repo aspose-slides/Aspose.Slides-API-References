@@ -7,7 +7,7 @@ url: /aspose.slides.charts/quartilemethodtype/
 ---
 
 
-## QuartileMethodType class
+## QuartileMethodType enumeration
 
 Returns type of quartile method
 

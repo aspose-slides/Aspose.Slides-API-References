@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_document_formatter {#string-bool}
+## create_document_formatter {#str-bool}
 Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another.
 
 ### Returns
@@ -25,8 +25,8 @@ def create_document_formatter(self, css, show_slide_title):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| css | string | Specifies CSS for this file. |
-| show_slide_title | bool | Add slide title if there is one above slide image. |
+| css | **str** | Specifies CSS for this file. |
+| show_slide_title | **bool** | Add slide title if there is one above slide image. |
 
 
 

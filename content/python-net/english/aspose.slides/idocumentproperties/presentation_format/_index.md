@@ -10,7 +10,7 @@ weight: 250
 
 ## presentation_format property
 Returns or sets the intended format of a presentation.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def presentation_format(self, value):
 ```
 
 ### See Also
+* class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

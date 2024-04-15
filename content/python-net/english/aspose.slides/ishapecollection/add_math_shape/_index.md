@@ -25,14 +25,15 @@ def add_math_shape(self, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | The X-coordinate for a left side of shape's frame. |
-| y | float | The Y-coordinate for a top side of shape's frame. |
-| width | float | The width of shape's frame. |
-| height | float | The height of shape's frame. |
+| x | **float** | The X-coordinate for a left side of shape's frame. |
+| y | **float** | The Y-coordinate for a top side of shape's frame. |
+| width | **float** | The width of shape's frame. |
+| height | **float** | The height of shape's frame. |
 
 
 
 ### See Also
+* class [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape)
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

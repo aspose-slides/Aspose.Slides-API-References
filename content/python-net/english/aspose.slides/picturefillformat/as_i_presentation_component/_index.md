@@ -21,5 +21,6 @@ def as_i_presentation_component(self):
 
 ### See Also
 * class [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)
+* class [`PictureFillFormat`](/slides/python-net/aspose.slides/picturefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

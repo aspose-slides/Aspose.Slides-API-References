@@ -7,7 +7,7 @@ url: /aspose.slides.charts/displayblanksastype/
 ---
 
 
-## DisplayBlanksAsType class
+## DisplayBlanksAsType enumeration
 
 Determines how missing data will be displayed.
 

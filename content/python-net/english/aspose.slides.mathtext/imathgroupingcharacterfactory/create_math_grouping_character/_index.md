@@ -25,7 +25,7 @@ def create_math_grouping_character(self, element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | math element to apply grouping character |
+| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply grouping character |
 
 
 
@@ -46,14 +46,17 @@ def create_math_grouping_character(self, element, character, position, vertical_
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | math element to apply grouping character |
-| character | char | grouping character |
-| position | MathTopBotPositions | position of grouping character |
-| vertical_justification | MathTopBotPositions | vertical justification |
+| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply grouping character |
+| character | **char** | grouping character |
+| position | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) | position of grouping character |
+| vertical_justification | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) | vertical justification |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathGroupingCharacter`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter)
 * class [`IMathGroupingCharacterFactory`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacterfactory)
+* enumeration [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

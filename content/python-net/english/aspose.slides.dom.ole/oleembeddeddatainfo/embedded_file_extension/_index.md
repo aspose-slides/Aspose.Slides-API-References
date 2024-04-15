@@ -10,7 +10,7 @@ weight: 30
 
 ## embedded_file_extension property
 Returns the file extension for the current embedded OLE object
-            Read only **string**.
+            Read only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def embedded_file_extension(self):
 ```
 
 ### See Also
+* class [`OleEmbeddedDataInfo`](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo)
 * module [`aspose.slides.dom.ole`](/slides/python-net/aspose.slides.dom.ole)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -21,5 +21,6 @@ def header_footer_manager(self):
 
 ### See Also
 * class [`ISlideHeaderFooterManager`](/slides/python-net/aspose.slides/islideheaderfootermanager)
+* class [`Slide`](/slides/python-net/aspose.slides/slide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

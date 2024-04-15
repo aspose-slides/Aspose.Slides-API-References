@@ -7,7 +7,7 @@ url: /aspose.slides/colortransformoperation/
 ---
 
 
-## ColorTransformOperation class
+## ColorTransformOperation enumeration
 
 Defines color transform operation.
 

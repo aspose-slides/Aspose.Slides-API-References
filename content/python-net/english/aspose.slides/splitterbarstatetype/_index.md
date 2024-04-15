@@ -7,7 +7,7 @@ url: /aspose.slides/splitterbarstatetype/
 ---
 
 
-## SplitterBarStateType class
+## SplitterBarStateType enumeration
 
 Specifies the state that the splitter bar should be shown in. The splitter bar separates a primary and
             secondary region within a viewing area.

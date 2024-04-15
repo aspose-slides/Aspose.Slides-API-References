@@ -7,7 +7,7 @@ url: /aspose.slides.export/conformance/
 ---
 
 
-## Conformance class
+## Conformance enumeration
 
 Specifies the conformance class to which the PresentationML document conforms.
 

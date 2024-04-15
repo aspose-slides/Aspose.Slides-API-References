@@ -10,7 +10,7 @@ weight: 30
 
 ## content_type property
 Returns a MIME type of an image, encoded in [`IPPImage.binary_data`](/slides/python-net/aspose.slides/ippimage#binary_data).
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def content_type(self):
 ```
 
 ### See Also
+* class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

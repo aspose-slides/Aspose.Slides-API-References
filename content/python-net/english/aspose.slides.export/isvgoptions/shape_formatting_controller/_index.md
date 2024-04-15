@@ -23,6 +23,7 @@ def shape_formatting_controller(self, value):
 ```
 
 ### See Also
+* class [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions)
 * class [`ISvgShapeFormattingController`](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

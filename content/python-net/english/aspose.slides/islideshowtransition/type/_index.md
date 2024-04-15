@@ -23,5 +23,7 @@ def type(self, value):
 ```
 
 ### See Also
+* class [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)
+* enumeration [`TransitionType`](/slides/python-net/aspose.slides.slideshow/transitiontype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

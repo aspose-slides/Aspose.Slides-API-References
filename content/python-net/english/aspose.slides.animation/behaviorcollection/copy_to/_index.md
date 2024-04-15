@@ -20,8 +20,8 @@ def copy_to(self, array, array_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| array | List[IBehavior] | The one-dimensional **System.Array** that is the destination of the elements copied from **System.Collections.Generic.ICollection`1**. The **System.Array** must have zero-based indexing. |
-| array_index | int | The zero-based index in `<br/><br/>array`<br/><br/> at which copying begins. |
+| array | **List[IBehavior]** | The one-dimensional **System.Array** that is the destination of the elements copied from **System.Collections.Generic.ICollection`1**. The **System.Array** must have zero-based indexing. |
+| array_index | **int** | The zero-based index in `<br/><br/>array`<br/><br/> at which copying begins. |
 
 ## Exceptions
 

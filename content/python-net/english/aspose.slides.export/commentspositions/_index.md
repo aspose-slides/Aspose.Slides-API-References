@@ -7,7 +7,7 @@ url: /aspose.slides.export/commentspositions/
 ---
 
 
-## CommentsPositions class
+## CommentsPositions enumeration
 
 Represents the rule to render comments into exported document
 

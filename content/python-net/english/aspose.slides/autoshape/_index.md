@@ -42,9 +42,9 @@ The AutoShape type exposes the following members:
 | [`black_white_mode`](/slides/python-net/aspose.slides/autoshape/black_white_mode/) | Property specifies how a shape will render in black-and-white display mode..<br/>            Read/write [`BlackWhiteMode`](/slides/python-net/aspose.slides/blackwhitemode). |
 | [`unique_id`](/slides/python-net/aspose.slides/autoshape/unique_id/) | Gets unique shape identifier in presentation scope.<br/>            Read-only **int**.<br/>            See also [`Shape.office_interop_shape_id`](/slides/python-net/aspose.slides/shape#office_interop_shape_id) for getting unique shape identifier in slide scope. |
 | [`office_interop_shape_id`](/slides/python-net/aspose.slides/autoshape/office_interop_shape_id/) | Gets unique shape identifier in slide scope.<br/>            Read-only **int**.<br/>            See also [`Shape.unique_id`](/slides/python-net/aspose.slides/shape#unique_id) for getting unique shape identifier in presentation scope. |
-| [`alternative_text`](/slides/python-net/aspose.slides/autoshape/alternative_text/) | Returns or sets the alternative text associated with a shape.<br/>            Read/write **string**. |
-| [`alternative_text_title`](/slides/python-net/aspose.slides/autoshape/alternative_text_title/) | Returns or sets the title of alternative text associated with a shape.<br/>            Read/write **string**. |
-| [`name`](/slides/python-net/aspose.slides/autoshape/name/) | Returns or sets the name of a shape.<br/>            Must be not null. Use empty string value if needed.<br/>            Read/write **string**. |
+| [`alternative_text`](/slides/python-net/aspose.slides/autoshape/alternative_text/) | Returns or sets the alternative text associated with a shape.<br/>            Read/write **str**. |
+| [`alternative_text_title`](/slides/python-net/aspose.slides/autoshape/alternative_text_title/) | Returns or sets the title of alternative text associated with a shape.<br/>            Read/write **str**. |
+| [`name`](/slides/python-net/aspose.slides/autoshape/name/) | Returns or sets the name of a shape.<br/>            Must be not null. Use empty string value if needed.<br/>            Read/write **str**. |
 | [`is_decorative`](/slides/python-net/aspose.slides/autoshape/is_decorative/) | Gets or sets 'Mark as decorative' option<br/>            Reed/write **bool**. |
 | [`shape_lock`](/slides/python-net/aspose.slides/autoshape/shape_lock/) | Returns shape's locks.<br/>            Read-only [`IAutoShapeLock`](/slides/python-net/aspose.slides/iautoshapelock). |
 | [`is_grouped`](/slides/python-net/aspose.slides/autoshape/is_grouped/) | Determines whether the shape is grouped.<br/>            Read-only **bool**. |
@@ -70,8 +70,8 @@ The AutoShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/autoshape/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/autoshape/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/autoshape/write_as_svg/#systemiostream) | Saves content of Shape as SVG file. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/autoshape/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/autoshape/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/autoshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/autoshape/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`add_placeholder`](/slides/python-net/aspose.slides/autoshape/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/autoshape/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
@@ -79,7 +79,7 @@ The AutoShape type exposes the following members:
 | [`set_geometry_path`](/slides/python-net/aspose.slides/autoshape/set_geometry_path/#igeometrypath) | Updates shape geometry from [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) object. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`GeometryShape.shape_type`](/slides/python-net/aspose.slides/geometryshape#shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM). |
 | [`set_geometry_paths`](/slides/python-net/aspose.slides/autoshape/set_geometry_paths/#listigeometrypath) | Updates shape geometry from array of [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath). Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`GeometryShape.shape_type`](/slides/python-net/aspose.slides/geometryshape#shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM). |
 | [`create_shape_elements`](/slides/python-net/aspose.slides/autoshape/create_shape_elements/#) | Creates and returns array of shape's elements. |
-| [`add_text_frame`](/slides/python-net/aspose.slides/autoshape/add_text_frame/#string) | Adds a new TextFrame to a shape.<br/>            If shape already has TextFrame then simply changes its text. |
+| [`add_text_frame`](/slides/python-net/aspose.slides/autoshape/add_text_frame/#str) | Adds a new TextFrame to a shape.<br/>            If shape already has TextFrame then simply changes its text. |
 
 ### See Also
 * class [`AutoShape`](/slides/python-net/aspose.slides/autoshape)

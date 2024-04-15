@@ -7,7 +7,7 @@ url: /aspose.slides/textcaptype/
 ---
 
 
-## TextCapType class
+## TextCapType enumeration
 
 Represents the type of text capitalisation.
 

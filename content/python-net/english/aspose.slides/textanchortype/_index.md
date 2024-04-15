@@ -7,7 +7,7 @@ url: /aspose.slides/textanchortype/
 ---
 
 
-## TextAnchorType class
+## TextAnchorType enumeration
 
 text box alignment within a text area.
 

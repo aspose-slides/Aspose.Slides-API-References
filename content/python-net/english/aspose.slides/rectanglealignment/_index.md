@@ -7,7 +7,7 @@ url: /aspose.slides/rectanglealignment/
 ---
 
 
-## RectangleAlignment class
+## RectangleAlignment enumeration
 
 Defines 2-dimension allignment.
 

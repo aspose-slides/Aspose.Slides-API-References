@@ -9,7 +9,7 @@ weight: 30
 
 
 ## uri property
-URI of the resource which is used for downloading if **Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide.** 
+URI of the resource which is used for downloading if **Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide** 
             returns [`ResourceLoadingAction.DEFAULT`](/slides/python-net/aspose.slides/resourceloadingaction#DEFAULT). 
             Initially it's set to original URI of the resource, but can be redefined to any value.
 
@@ -24,5 +24,6 @@ def uri(self, value):
 ```
 
 ### See Also
+* class [`IResourceLoadingArgs`](/slides/python-net/aspose.slides/iresourceloadingargs)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

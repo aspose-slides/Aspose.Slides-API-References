@@ -7,7 +7,7 @@ url: /aspose.slides.animation/motionpatheditmode/
 ---
 
 
-## MotionPathEditMode class
+## MotionPathEditMode enumeration
 
 Specifies how the motion path moves when the target shape is moved
 

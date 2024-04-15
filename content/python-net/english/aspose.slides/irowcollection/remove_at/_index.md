@@ -20,8 +20,8 @@ def remove_at(self, first_row_index, with_attached_rows):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| first_row_index | int | Index of a row to delete. |
-| with_attached_rows | bool | True to delete also all attached rows. |
+| first_row_index | **int** | Index of a row to delete. |
+| with_attached_rows | **bool** | True to delete also all attached rows. |
 
 
 

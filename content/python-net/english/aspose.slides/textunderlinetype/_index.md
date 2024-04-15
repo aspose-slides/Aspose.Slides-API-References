@@ -7,7 +7,7 @@ url: /aspose.slides/textunderlinetype/
 ---
 
 
-## TextUnderlineType class
+## TextUnderlineType enumeration
 
 Represents the type of text underline.
 

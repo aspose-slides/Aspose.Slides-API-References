@@ -28,7 +28,7 @@ The IAudioFrame type exposes the following members:
 | [`play_across_slides`](/slides/python-net/aspose.slides/iaudioframe/play_across_slides/) | Determines whether an audio is playing across the slides.<br/>             Read/write **bool**. |
 | [`rewind_audio`](/slides/python-net/aspose.slides/iaudioframe/rewind_audio/) | Determines whether an audio is automatically rewinded to start after playing.<br/>             Read/write **bool**. |
 | [`embedded`](/slides/python-net/aspose.slides/iaudioframe/embedded/) | Determines whether a sound is embedded to a presentation.<br/>            Read-only **bool**. |
-| [`link_path_long`](/slides/python-net/aspose.slides/iaudioframe/link_path_long/) | Returns or sets the name of an audio file which is linked to an AudioFrame.<br/>            Read/write **string**. |
+| [`link_path_long`](/slides/python-net/aspose.slides/iaudioframe/link_path_long/) | Returns or sets the name of an audio file which is linked to an AudioFrame.<br/>            Read/write **str**. |
 | [`embedded_audio`](/slides/python-net/aspose.slides/iaudioframe/embedded_audio/) | Returns or sets embedded audio object.<br/>            Read/write [`IAudio`](/slides/python-net/aspose.slides/iaudio). |
 | [`as_i_picture_frame`](/slides/python-net/aspose.slides/iaudioframe/as_i_picture_frame/) | Allows to get base IPictureFrame interface.<br/>            Read-only [`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe). |
 | [`shape_lock`](/slides/python-net/aspose.slides/iaudioframe/shape_lock/) |  |
@@ -82,8 +82,8 @@ The IAudioFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/iaudioframe/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/iaudioframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iaudioframe/write_as_svg/#systemiostream) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iaudioframe/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/iaudioframe/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides/iaudioframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides/iaudioframe/get_geometry_paths/#) |  |
 | [`set_geometry_path`](/slides/python-net/aspose.slides/iaudioframe/set_geometry_path/#igeometrypath) |  |
 | [`set_geometry_paths`](/slides/python-net/aspose.slides/iaudioframe/set_geometry_paths/#listigeometrypath) |  |

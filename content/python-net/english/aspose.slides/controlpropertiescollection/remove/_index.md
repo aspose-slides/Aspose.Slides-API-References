@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#string}
+## remove {#str}
 Removes a property with the specified name.
 
 
@@ -20,7 +20,7 @@ def remove(self, name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | The name of property to remove. |
+| name | **str** | The name of property to remove. |
 
 
 

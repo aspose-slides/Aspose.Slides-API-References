@@ -21,11 +21,13 @@ def add(self, shape_trigger):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape_trigger | IShape |  |
+| shape_trigger | [`IShape`](/slides/python-net/aspose.slides/ishape) |  |
 
 
 
 ### See Also
+* class [`ISequence`](/slides/python-net/aspose.slides.animation/isequence)
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`Sequence`](/slides/python-net/aspose.slides.animation/sequence)
 * class [`SequenceCollection`](/slides/python-net/aspose.slides.animation/sequencecollection)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)

@@ -7,7 +7,7 @@ url: /aspose.slides/viewtype/
 ---
 
 
-## ViewType class
+## ViewType enumeration
 
 Presentation view types
 

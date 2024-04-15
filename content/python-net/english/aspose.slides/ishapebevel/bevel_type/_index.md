@@ -23,5 +23,7 @@ def bevel_type(self, value):
 ```
 
 ### See Also
+* enumeration [`BevelPresetType`](/slides/python-net/aspose.slides/bevelpresettype)
+* class [`IShapeBevel`](/slides/python-net/aspose.slides/ishapebevel)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

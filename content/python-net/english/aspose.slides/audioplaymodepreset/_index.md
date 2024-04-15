@@ -7,7 +7,7 @@ url: /aspose.slides/audioplaymodepreset/
 ---
 
 
-## AudioPlayModePreset class
+## AudioPlayModePreset enumeration
 
 Constants which define how a sound is played.
 

@@ -23,5 +23,6 @@ def scale_horizontal(self, value):
 ```
 
 ### See Also
+* class [`IReflection`](/slides/python-net/aspose.slides.effects/ireflection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

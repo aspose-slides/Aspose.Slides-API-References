@@ -20,6 +20,7 @@ def as_i_theme_manager(self):
 ```
 
 ### See Also
+* class [`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager)
 * class [`IThemeManager`](/slides/python-net/aspose.slides.theme/ithememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

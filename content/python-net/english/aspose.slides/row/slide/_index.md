@@ -21,5 +21,6 @@ def slide(self):
 
 ### See Also
 * class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
+* class [`Row`](/slides/python-net/aspose.slides/row)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

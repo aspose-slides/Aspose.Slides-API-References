@@ -20,11 +20,12 @@ def set_geometry_path(self, geometry_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| geometry_path | IGeometryPath |  |
+| geometry_path | [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) |  |
 
 
 
 ### See Also
 * class [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe)
+* class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

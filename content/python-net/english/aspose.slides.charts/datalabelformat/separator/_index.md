@@ -10,7 +10,7 @@ weight: 110
 
 ## separator property
 Sets or returns a Variant representing the separator used for the data labels on a chart.
-            Read/write **string**.
+            Read/write **str**.
 
 
 ### Remarks
@@ -34,5 +34,6 @@ def separator(self, value):
 ```
 
 ### See Also
+* class [`DataLabelFormat`](/slides/python-net/aspose.slides.charts/datalabelformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

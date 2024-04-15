@@ -20,5 +20,6 @@ def is_text_holder(self):
 ```
 
 ### See Also
+* class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

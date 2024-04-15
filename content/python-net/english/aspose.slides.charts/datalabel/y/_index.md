@@ -23,5 +23,6 @@ def y(self, value):
 ```
 
 ### See Also
+* class [`DataLabel`](/slides/python-net/aspose.slides.charts/datalabel)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

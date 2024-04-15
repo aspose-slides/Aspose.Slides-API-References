@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
 
 
-## TransitionCornerDirectionType class
+## TransitionCornerDirectionType enumeration
 
 Represent corner direction transition types.
 

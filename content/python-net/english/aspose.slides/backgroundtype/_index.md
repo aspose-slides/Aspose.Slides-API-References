@@ -7,7 +7,7 @@ url: /aspose.slides/backgroundtype/
 ---
 
 
-## BackgroundType class
+## BackgroundType enumeration
 
 Defines the slide background fill source.
 

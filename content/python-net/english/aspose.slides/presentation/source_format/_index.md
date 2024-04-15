@@ -20,5 +20,7 @@ def source_format(self):
 ```
 
 ### See Also
+* class [`Presentation`](/slides/python-net/aspose.slides/presentation)
+* enumeration [`SourceFormat`](/slides/python-net/aspose.slides/sourceformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## find_by_name {#string}
+## find_by_name {#str}
 Find author in a collection by name.
 
 ### Returns
@@ -25,7 +25,7 @@ def find_by_name(self, name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of an author to find. |
+| name | **str** | Name of an author to find. |
 
 
 

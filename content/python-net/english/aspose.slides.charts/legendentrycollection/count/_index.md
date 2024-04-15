@@ -20,5 +20,6 @@ def count(self):
 ```
 
 ### See Also
+* class [`LegendEntryCollection`](/slides/python-net/aspose.slides.charts/legendentrycollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

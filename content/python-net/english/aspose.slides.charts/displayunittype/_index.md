@@ -7,7 +7,7 @@ url: /aspose.slides.charts/displayunittype/
 ---
 
 
-## DisplayUnitType class
+## DisplayUnitType enumeration
 
 Determines multiplicity of the displayed data.
 

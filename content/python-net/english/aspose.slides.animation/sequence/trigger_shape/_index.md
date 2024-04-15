@@ -25,5 +25,6 @@ def trigger_shape(self, value):
 
 ### See Also
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
+* class [`Sequence`](/slides/python-net/aspose.slides.animation/sequence)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

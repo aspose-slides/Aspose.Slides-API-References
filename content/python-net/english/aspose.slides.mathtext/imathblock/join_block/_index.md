@@ -25,7 +25,7 @@ def join_block(self, other):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | IMathBlock | The joining block |
+| other | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | The joining block |
 
 
 

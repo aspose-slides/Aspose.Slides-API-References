@@ -7,7 +7,7 @@ url: /aspose.slides.smartart/smartartquickstyletype/
 ---
 
 
-## SmartArtQuickStyleType class
+## SmartArtQuickStyleType enumeration
 
 Represents style scheme of a SmartArt diagram.
 

@@ -7,7 +7,7 @@ url: /aspose.slides.charts/layouttargettype/
 ---
 
 
-## LayoutTargetType class
+## LayoutTargetType enumeration
 
 If layout of the plot area defined manually this property specifies whether 
             to layout the plot area by its inside (not including axis and axis labels) or outside

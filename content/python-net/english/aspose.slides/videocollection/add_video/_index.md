@@ -25,11 +25,11 @@ def add_video(self, video):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| video | IVideo | Source video. |
+| video | [`IVideo`](/slides/python-net/aspose.slides/ivideo) | Source video. |
 
 
 
-## add_video {#systemiostream}
+## add_video {#iorawiobase}
 Creates and adds a video to a presentation from stream.
 
 ### Returns
@@ -46,7 +46,7 @@ def add_video(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Stream to add video file from. |
+| stream | **io.RawIOBase** | Stream to add video file from. |
 
 
 
@@ -67,11 +67,11 @@ def add_video(self, video_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| video_data | bytes | Video bytes. |
+| video_data | **bytes** | Video bytes. |
 
 
 
-## add_video {#systemiostream-loadingstreambehavior}
+## add_video {#iorawiobase-loadingstreambehavior}
 Creates and adds a video to a presentation from stream.
 
 ### Returns
@@ -88,13 +88,14 @@ def add_video(self, stream, loading_stream_behavior):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Stream to add video file from. |
-| loading_stream_behavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
+| stream | **io.RawIOBase** | Stream to add video file from. |
+| loading_stream_behavior | [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior) | The behavior which will be applied to the stream. |
 
 
 
 ### See Also
 * class [`IVideo`](/slides/python-net/aspose.slides/ivideo)
+* enumeration [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior)
 * class [`Video`](/slides/python-net/aspose.slides/video)
 * class [`VideoCollection`](/slides/python-net/aspose.slides/videocollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

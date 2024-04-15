@@ -32,11 +32,12 @@ def join_portions_with_same_formatting(self, collection):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| collection | IShapeCollection |  |
+| collection | [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection) |  |
 
 
 
 ### See Also
+* class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * class [`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

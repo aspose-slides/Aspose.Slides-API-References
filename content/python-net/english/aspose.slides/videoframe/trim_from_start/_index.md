@@ -22,5 +22,6 @@ def trim_from_start(self, value):
 ```
 
 ### See Also
+* class [`VideoFrame`](/slides/python-net/aspose.slides/videoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

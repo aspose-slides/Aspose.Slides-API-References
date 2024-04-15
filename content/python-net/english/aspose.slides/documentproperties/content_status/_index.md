@@ -10,7 +10,7 @@ weight: 170
 
 ## content_status property
 Returns or sets the content status of a presentation.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def content_status(self, value):
 ```
 
 ### See Also
+* class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

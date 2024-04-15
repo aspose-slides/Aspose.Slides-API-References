@@ -13,7 +13,7 @@ Returns string representation.
 
 ### Returns
 
-String representation of a value **string**
+String representation of a value **str**
 
 
 

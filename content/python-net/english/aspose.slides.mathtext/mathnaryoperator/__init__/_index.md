@@ -20,8 +20,8 @@ def __init__(self, operator_symbol, base_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operator_symbol | char | Nary operator symbol |
-| base_argument | IMathElement | Base argument |
+| operator_symbol | **char** | Nary operator symbol |
+| base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument |
 
 
 
@@ -37,9 +37,9 @@ def __init__(self, operator_symbol, base_argument, lower_limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operator_symbol | char | Nary operator symbol |
-| base_argument | IMathElement | Base argument |
-| lower_limit | IMathElement | Lower limit |
+| operator_symbol | **char** | Nary operator symbol |
+| base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument |
+| lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
 
 
 
@@ -55,14 +55,15 @@ def __init__(self, operator_symbol, base_argument, lower_limit, upper_limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operator_symbol | char | Nary operator symbol |
-| base_argument | IMathElement | Base argument |
-| lower_limit | IMathElement | Lower limit |
-| upper_limit | IMathElement | Upper limit |
+| operator_symbol | **char** | Nary operator symbol |
+| base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument |
+| lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
+| upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Upper limit |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathNaryOperator`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -21,5 +21,6 @@ def picture_frame_lock(self):
 
 ### See Also
 * class [`IPictureFrameLock`](/slides/python-net/aspose.slides/ipictureframelock)
+* class [`VideoFrame`](/slides/python-net/aspose.slides/videoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

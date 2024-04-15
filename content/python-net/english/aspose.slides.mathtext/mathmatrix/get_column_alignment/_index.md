@@ -25,11 +25,12 @@ def get_column_alignment(self, column_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| column_index | int | Zero-based column index |
+| column_index | **int** | Zero-based column index |
 
 
 
 ### See Also
+* enumeration [`MathHorizontalAlignment`](/slides/python-net/aspose.slides.mathtext/mathhorizontalalignment)
 * class [`MathMatrix`](/slides/python-net/aspose.slides.mathtext/mathmatrix)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

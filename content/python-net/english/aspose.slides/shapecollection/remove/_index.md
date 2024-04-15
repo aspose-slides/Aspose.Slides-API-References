@@ -20,11 +20,12 @@ def remove(self, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | IShape | The shape to remove from the collection. |
+| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | The shape to remove from the collection. |
 
 
 
 ### See Also
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

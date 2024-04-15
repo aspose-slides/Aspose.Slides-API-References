@@ -17,7 +17,7 @@ The IChartDataWorksheet type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`name`](/slides/python-net/aspose.slides.charts/ichartdataworksheet/name/) | Gets the name.<br/>            Read-only **string**. |
+| [`name`](/slides/python-net/aspose.slides.charts/ichartdataworksheet/name/) | Gets the name.<br/>            Read-only **str**. |
 | [`index`](/slides/python-net/aspose.slides.charts/ichartdataworksheet/index/) | Gets the index.<br/>            Read-only **int**. |
 
 ### See Also

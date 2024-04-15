@@ -31,5 +31,6 @@ def rotation(self, value):
 ```
 
 ### See Also
+* class [`Shape`](/slides/python-net/aspose.slides/shape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

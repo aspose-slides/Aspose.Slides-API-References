@@ -20,11 +20,12 @@ def remove(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IVbaModule | The module to remove from the collection. |
+| value | [`IVbaModule`](/slides/python-net/aspose.slides.vba/ivbamodule) | The module to remove from the collection. |
 
 
 
 ### See Also
+* class [`IVbaModule`](/slides/python-net/aspose.slides.vba/ivbamodule)
 * class [`VbaModuleCollection`](/slides/python-net/aspose.slides.vba/vbamodulecollection)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

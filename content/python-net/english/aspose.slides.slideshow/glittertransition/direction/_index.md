@@ -23,5 +23,7 @@ def direction(self, value):
 ```
 
 ### See Also
+* class [`GlitterTransition`](/slides/python-net/aspose.slides.slideshow/glittertransition)
+* enumeration [`TransitionSideDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionsidedirectiontype)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

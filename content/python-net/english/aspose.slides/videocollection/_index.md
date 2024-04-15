@@ -31,8 +31,8 @@ The VideoCollection type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [`add_video`](/slides/python-net/aspose.slides/videocollection/add_video/#ivideo) | Adds a copy of an video file from an another presentation. |
-| [`add_video`](/slides/python-net/aspose.slides/videocollection/add_video/#systemiostream) | Creates and adds a video to a presentation from stream. |
-| [`add_video`](/slides/python-net/aspose.slides/videocollection/add_video/#systemiostream-loadingstreambehavior) | Creates and adds a video to a presentation from stream. |
+| [`add_video`](/slides/python-net/aspose.slides/videocollection/add_video/#iorawiobase) | Creates and adds a video to a presentation from stream. |
+| [`add_video`](/slides/python-net/aspose.slides/videocollection/add_video/#iorawiobase-loadingstreambehavior) | Creates and adds a video to a presentation from stream. |
 | [`add_video`](/slides/python-net/aspose.slides/videocollection/add_video/#bytes) | Creates and adds a video to a presentation from byte array. |
 
 ### See Also

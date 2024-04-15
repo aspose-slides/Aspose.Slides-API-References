@@ -7,7 +7,7 @@ url: /aspose.slides/colortype/
 ---
 
 
-## ColorType class
+## ColorType enumeration
 
 Represents different color modes.
 

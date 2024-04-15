@@ -26,11 +26,13 @@ def add_data_point_for_map_series(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IChartDataCell | Data point ColorValue |
+| value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point ColorValue |
 
 
 
 ### See Also
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

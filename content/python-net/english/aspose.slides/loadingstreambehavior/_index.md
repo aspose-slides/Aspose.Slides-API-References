@@ -7,11 +7,11 @@ url: /aspose.slides/loadingstreambehavior/
 ---
 
 
-## LoadingStreamBehavior class
+## LoadingStreamBehavior enumeration
 
-The **System.IO.Stream** passed to a method is considered as a Binary Large Object (BLOB) (see 
+The **io.RawIOBase** passed to a method is considered as a Binary Large Object (BLOB) (see 
             [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how 
-            the **System.IO.Stream** should be treated when it passed to the method. Depending on the 
+            the **io.RawIOBase** should be treated when it passed to the method. Depending on the 
             requirements, different decisions could be made to provide the most efficient behavior.
 
 The LoadingStreamBehavior type exposes the following members:

@@ -42,7 +42,7 @@ def create_memory_stream_wrapper(self, buffer):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes | Byte array **int**[] |
+| buffer | **bytes** | Byte array **int**[] |
 
 
 

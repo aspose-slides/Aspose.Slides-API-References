@@ -27,6 +27,7 @@ def svg_image(self, value):
 ```
 
 ### See Also
+* class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * class [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

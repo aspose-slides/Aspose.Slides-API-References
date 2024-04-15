@@ -17,5 +17,6 @@ def slide(self):
 ```
 
 ### See Also
+* class [`GradientFormat`](/slides/python-net/aspose.slides/gradientformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

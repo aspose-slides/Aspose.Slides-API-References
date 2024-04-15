@@ -7,7 +7,7 @@ url: /aspose.slides/tabalignment/
 ---
 
 
-## TabAlignment class
+## TabAlignment enumeration
 
 Represents the tab alignment.
 

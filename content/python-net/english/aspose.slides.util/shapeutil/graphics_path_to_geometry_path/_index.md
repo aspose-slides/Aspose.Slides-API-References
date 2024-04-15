@@ -27,7 +27,7 @@ def graphics_path_to_geometry_path(self, graphics_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| graphics_path | aspose.pydrawing.Drawing2D.GraphicsPath | Graphics path |
+| graphics_path | **aspose.pydrawing.Drawing2D.GraphicsPath** | Graphics path |
 
 
 

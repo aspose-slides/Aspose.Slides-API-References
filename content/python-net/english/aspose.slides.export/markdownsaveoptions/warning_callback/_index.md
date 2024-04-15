@@ -24,5 +24,6 @@ def warning_callback(self, value):
 
 ### See Also
 * class [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback)
+* class [`MarkdownSaveOptions`](/slides/python-net/aspose.slides.export/markdownsaveoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

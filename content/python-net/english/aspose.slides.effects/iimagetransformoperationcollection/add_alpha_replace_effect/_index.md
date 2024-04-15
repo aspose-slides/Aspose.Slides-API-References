@@ -25,11 +25,12 @@ def add_alpha_replace_effect(self, alpha):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| alpha | float | The new opacity value. |
+| alpha | **float** | The new opacity value. |
 
 
 
 ### See Also
+* class [`IAlphaReplace`](/slides/python-net/aspose.slides.effects/ialphareplace)
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

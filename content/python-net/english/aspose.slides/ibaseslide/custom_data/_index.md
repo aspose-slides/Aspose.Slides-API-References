@@ -20,6 +20,7 @@ def custom_data(self):
 ```
 
 ### See Also
+* class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * class [`ICustomData`](/slides/python-net/aspose.slides/icustomdata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

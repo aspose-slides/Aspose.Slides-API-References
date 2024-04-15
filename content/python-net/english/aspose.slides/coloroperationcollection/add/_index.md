@@ -25,7 +25,7 @@ def add(self, operation):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operation | ColorTransformOperation | Operation type. |
+| operation | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
 
 
 
@@ -46,12 +46,14 @@ def add(self, operation, parameter):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operation | ColorTransformOperation | Operation type. |
-| parameter | float | Operation's parameter. |
+| operation | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
+| parameter | **float** | Operation's parameter. |
 
 
 
 ### See Also
 * class [`ColorOperationCollection`](/slides/python-net/aspose.slides/coloroperationcollection)
+* enumeration [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation)
+* class [`IColorOperation`](/slides/python-net/aspose.slides/icoloroperation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

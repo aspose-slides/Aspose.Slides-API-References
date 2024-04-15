@@ -20,12 +20,13 @@ def set_column_alignment(self, column_index, val):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| column_index | int | Zero-based column index |
-| val | MathHorizontalAlignment | New value of horizontal alignment of specified column |
+| column_index | **int** | Zero-based column index |
+| val | [`MathHorizontalAlignment`](/slides/python-net/aspose.slides.mathtext/mathhorizontalalignment) | New value of horizontal alignment of specified column |
 
 
 
 ### See Also
 * class [`IMathMatrix`](/slides/python-net/aspose.slides.mathtext/imathmatrix)
+* enumeration [`MathHorizontalAlignment`](/slides/python-net/aspose.slides.mathtext/mathhorizontalalignment)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

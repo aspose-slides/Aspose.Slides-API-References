@@ -24,5 +24,6 @@ def value(self, value):
 ```
 
 ### See Also
+* class [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -25,7 +25,7 @@ def equals(self, hlink):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| hlink | IHyperlink | The Hyperlink to compare with the current Hyperlink. |
+| hlink | [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink) | The Hyperlink to compare with the current Hyperlink. |
 
 
 

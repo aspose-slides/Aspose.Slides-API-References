@@ -7,7 +7,7 @@ url: /aspose.slides.animation/propertyvaluetype/
 ---
 
 
-## PropertyValueType class
+## PropertyValueType enumeration
 
 Represent property value types.
 

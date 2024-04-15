@@ -20,6 +20,7 @@ def effect_3d(self):
 ```
 
 ### See Also
+* class [`Format`](/slides/python-net/aspose.slides.charts/format)
 * class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

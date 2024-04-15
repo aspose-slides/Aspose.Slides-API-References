@@ -7,7 +7,7 @@ url: /aspose.slides.charts/crossestype/
 ---
 
 
-## CrossesType class
+## CrossesType enumeration
 
 Determines where axis will cross.
 

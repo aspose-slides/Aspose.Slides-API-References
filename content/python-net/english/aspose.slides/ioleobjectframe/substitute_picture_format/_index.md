@@ -20,6 +20,7 @@ def substitute_picture_format(self):
 ```
 
 ### See Also
+* class [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe)
 * class [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

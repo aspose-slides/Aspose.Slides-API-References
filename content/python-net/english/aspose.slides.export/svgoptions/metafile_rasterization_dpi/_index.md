@@ -23,5 +23,6 @@ def metafile_rasterization_dpi(self, value):
 ```
 
 ### See Also
+* class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

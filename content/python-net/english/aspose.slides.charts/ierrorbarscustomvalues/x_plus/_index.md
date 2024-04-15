@@ -23,5 +23,6 @@ def x_plus(self):
 
 ### See Also
 * class [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue)
+* class [`IErrorBarsCustomValues`](/slides/python-net/aspose.slides.charts/ierrorbarscustomvalues)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

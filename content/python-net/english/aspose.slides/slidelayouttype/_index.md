@@ -7,7 +7,7 @@ url: /aspose.slides/slidelayouttype/
 ---
 
 
-## SlideLayoutType class
+## SlideLayoutType enumeration
 
 Represents the slide layout type.
 

@@ -25,11 +25,12 @@ def index_of(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IDataLabel | DataLabel to find. |
+| value | [`IDataLabel`](/slides/python-net/aspose.slides.charts/idatalabel) | DataLabel to find. |
 
 
 
 ### See Also
 * class [`DataLabelCollection`](/slides/python-net/aspose.slides.charts/datalabelcollection)
+* class [`IDataLabel`](/slides/python-net/aspose.slides.charts/idatalabel)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,7 +20,7 @@ def remove_at(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index **int** |
+| index | **int** | Index **int** |
 
 
 

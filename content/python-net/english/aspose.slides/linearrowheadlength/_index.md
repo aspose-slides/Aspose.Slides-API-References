@@ -7,7 +7,7 @@ url: /aspose.slides/linearrowheadlength/
 ---
 
 
-## LineArrowheadLength class
+## LineArrowheadLength enumeration
 
 Represents the length of an arrowhead.
 

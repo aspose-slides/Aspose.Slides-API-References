@@ -13,7 +13,7 @@ Creates and returns an array with all FallBack fonts for this rule.
 
 ### Returns
 
-Array of **string**
+Array of **str**
 
 
 
@@ -30,7 +30,7 @@ Creates and returns an array with all FallBack fonts from the specified range in
 
 ### Returns
 
-Array of **string**
+Array of **str**
 
 
 
@@ -42,8 +42,8 @@ def to_array(self, start_index, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | int | An index of a first font to add. |
-| count | int | A number of fonts to add. |
+| start_index | **int** | An index of a first font to add. |
+| count | **int** | A number of fonts to add. |
 
 
 

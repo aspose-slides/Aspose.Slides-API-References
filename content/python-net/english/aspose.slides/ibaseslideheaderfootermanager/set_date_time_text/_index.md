@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## set_date_time_text {#string}
+## set_date_time_text {#str}
 Sets text to slide date-time placeholder.
 
 
@@ -20,7 +20,7 @@ def set_date_time_text(self, text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | string | Text to set. |
+| text | **str** | Text to set. |
 
 
 

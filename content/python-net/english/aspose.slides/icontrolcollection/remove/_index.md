@@ -20,11 +20,12 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IControl | A control to remove. |
+| item | [`IControl`](/slides/python-net/aspose.slides/icontrol) | A control to remove. |
 
 
 
 ### See Also
+* class [`IControl`](/slides/python-net/aspose.slides/icontrol)
 * class [`IControlCollection`](/slides/python-net/aspose.slides/icontrolcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

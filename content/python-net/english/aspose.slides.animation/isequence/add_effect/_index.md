@@ -25,10 +25,10 @@ def add_effect(self, shape, effect_type, subtype, trigger_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | IShape | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) for adding an effect |
-| effect_type | EffectType | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
-| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
-| trigger_type | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
+| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape object [`IShape`](/slides/python-net/aspose.slides/ishape) for adding an effect |
+| effect_type | [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
+| subtype | [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
+| trigger_type | [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
 
 
 
@@ -49,10 +49,10 @@ def add_effect(self, paragraph, effect_type, subtype, trigger_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| paragraph | IParagraph | Paragraph object [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) |
-| effect_type | EffectType | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
-| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
-| trigger_type | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
+| paragraph | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | Paragraph object [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) |
+| effect_type | [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
+| subtype | [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
+| trigger_type | [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
 
 
 
@@ -73,12 +73,12 @@ def add_effect(self, chart, type, index, effect_type, subtype, trigger_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| chart | [`IChart`](/slides/python-net/aspose.slides.charts/ichart) | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
-| type | EffectChartMajorGroupingType | Type of an animation effect [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) |
-| index | int | Index **int** |
-| effect_type | EffectType | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
-| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
-| trigger_type | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
+| chart | **aspose.slides.charts.IChart** | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
+| type | [`EffectChartMajorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartmajorgroupingtype) | Type of an animation effect [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) |
+| index | **int** | Index **int** |
+| effect_type | [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
+| subtype | [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
+| trigger_type | [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
 
 
 
@@ -99,17 +99,22 @@ def add_effect(self, chart, type, series_index, categories_index, effect_type, s
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| chart | [`IChart`](/slides/python-net/aspose.slides.charts/ichart) | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
-| type | EffectChartMinorGroupingType | Type of an animation effect [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) |
-| series_index | int | Index of chart series **int** |
-| categories_index | int | Index of category **int** |
-| effect_type | EffectType | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
-| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
-| trigger_type | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
+| chart | **aspose.slides.charts.IChart** | Chart object [`IChart`](/slides/python-net/aspose.slides.charts/ichart) |
+| type | [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) | Type of an animation effect [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype) |
+| series_index | **int** | Index of chart series **int** |
+| categories_index | **int** | Index of category **int** |
+| effect_type | [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
+| subtype | [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
+| trigger_type | [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
 
 
 
 ### See Also
+* enumeration [`EffectChartMajorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartmajorgroupingtype)
+* enumeration [`EffectChartMinorGroupingType`](/slides/python-net/aspose.slides.animation/effectchartminorgroupingtype)
+* enumeration [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype)
+* enumeration [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype)
+* enumeration [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype)
 * class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 * class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)

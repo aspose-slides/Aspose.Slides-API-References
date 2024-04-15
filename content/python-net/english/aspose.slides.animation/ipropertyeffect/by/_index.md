@@ -11,7 +11,7 @@ weight: 40
 ## by property
 Specifies a relative offset value for the animation with respect to its
             position before the start of the animation.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 ```
 
 ### See Also
+* class [`IPropertyEffect`](/slides/python-net/aspose.slides.animation/ipropertyeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

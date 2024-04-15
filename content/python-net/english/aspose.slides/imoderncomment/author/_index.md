@@ -17,5 +17,6 @@ def author(self):
 ```
 
 ### See Also
+* class [`IModernComment`](/slides/python-net/aspose.slides/imoderncomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

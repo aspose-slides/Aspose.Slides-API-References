@@ -25,5 +25,6 @@ def as_i_enumerable(self):
 ```
 
 ### See Also
+* class [`IParagraphCollection`](/slides/python-net/aspose.slides/iparagraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

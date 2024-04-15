@@ -54,7 +54,7 @@ The DataLabel type exposes the following members:
 | :- | :- |
 | [`hide`](/slides/python-net/aspose.slides.charts/datalabel/hide/#) | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state.<br/>            IsVisible will be false after this. |
 | [`get_actual_label_text`](/slides/python-net/aspose.slides.charts/datalabel/get_actual_label_text/#) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
-| [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/datalabel/add_text_frame_for_overriding/#string) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
+| [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/datalabel/add_text_frame_for_overriding/#str) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)

@@ -23,5 +23,7 @@ def type(self, value):
 ```
 
 ### See Also
+* class [`CommandEffect`](/slides/python-net/aspose.slides.animation/commandeffect)
+* enumeration [`CommandEffectType`](/slides/python-net/aspose.slides.animation/commandeffecttype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

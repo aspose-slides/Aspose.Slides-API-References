@@ -26,12 +26,12 @@ def insert_chart(self, type, x, y, width, height, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | aspose.slides.charts.ChartType | Type of chart. |
-| x | float | X coordinate of a new chart. |
-| y | float | Y coordinate of a new chart. |
-| width | float | Chart's width. |
-| height | float | Chart's height. |
-| index | int | Chart's position in the collection. |
+| type | **aspose.slides.charts.ChartType** | Type of chart. |
+| x | **float** | X coordinate of a new chart. |
+| y | **float** | Y coordinate of a new chart. |
+| width | **float** | Chart's width. |
+| height | **float** | Chart's height. |
+| index | **int** | Chart's position in the collection. |
 
 
 
@@ -52,13 +52,13 @@ def insert_chart(self, type, x, y, width, height, index, init_with_sample):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | aspose.slides.charts.ChartType | Type of chart. |
-| x | float | X coordinate of a new chart. |
-| y | float | Y coordinate of a new chart. |
-| width | float | Chart's width. |
-| height | float | Chart's height. |
-| index | int | Chart's position in the collection. |
-| init_with_sample | bool | If true then new chart will be initialized with sample series data and settings.<br/><br/>            If false then new chart will have no series and minimum settings. In this case <br/><br/>            chart creation will be more fast. |
+| type | **aspose.slides.charts.ChartType** | Type of chart. |
+| x | **float** | X coordinate of a new chart. |
+| y | **float** | Y coordinate of a new chart. |
+| width | **float** | Chart's width. |
+| height | **float** | Chart's height. |
+| index | **int** | Chart's position in the collection. |
+| init_with_sample | **bool** | If true then new chart will be initialized with sample series data and settings.<br/><br/>            If false then new chart will have no series and minimum settings. In this case <br/><br/>            chart creation will be more fast. |
 
 
 

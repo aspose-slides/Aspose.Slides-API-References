@@ -10,7 +10,7 @@ weight: 120
 
 ## alternative_text property
 Returns or sets the alternative text associated with a shape.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def alternative_text(self, value):
 ```
 
 ### See Also
+* class [`Connector`](/slides/python-net/aspose.slides/connector)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

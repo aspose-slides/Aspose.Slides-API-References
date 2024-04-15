@@ -7,7 +7,7 @@ url: /aspose.slides/shapeelementstrokesource/
 ---
 
 
-## ShapeElementStrokeSource class
+## ShapeElementStrokeSource enumeration
 
 Represents how shape element should be drawn.
 

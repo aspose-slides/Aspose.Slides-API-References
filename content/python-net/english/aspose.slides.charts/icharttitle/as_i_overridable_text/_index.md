@@ -20,6 +20,7 @@ def as_i_overridable_text(self):
 ```
 
 ### See Also
+* class [`IChartTitle`](/slides/python-net/aspose.slides.charts/icharttitle)
 * class [`IOverridableText`](/slides/python-net/aspose.slides.charts/ioverridabletext)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

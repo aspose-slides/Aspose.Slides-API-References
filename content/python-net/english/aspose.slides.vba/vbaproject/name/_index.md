@@ -10,7 +10,7 @@ weight: 40
 
 ## name property
 Returns the name of the VBA project.
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def name(self):
 ```
 
 ### See Also
+* class [`VbaProject`](/slides/python-net/aspose.slides.vba/vbaproject)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

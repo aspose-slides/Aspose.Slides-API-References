@@ -23,5 +23,7 @@ def rotate_with_shape(self, value):
 ```
 
 ### See Also
+* class [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -7,7 +7,7 @@ url: /aspose.slides/slidesizescaletype/
 ---
 
 
-## SlideSizeScaleType class
+## SlideSizeScaleType enumeration
 
 Represents the scale type of slide content.
 

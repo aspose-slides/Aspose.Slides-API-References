@@ -20,6 +20,7 @@ def shapes(self):
 ```
 
 ### See Also
+* class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

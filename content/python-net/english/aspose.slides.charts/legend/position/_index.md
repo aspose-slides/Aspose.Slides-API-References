@@ -24,5 +24,7 @@ def position(self, value):
 ```
 
 ### See Also
+* class [`Legend`](/slides/python-net/aspose.slides.charts/legend)
+* enumeration [`LegendPositionType`](/slides/python-net/aspose.slides.charts/legendpositiontype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

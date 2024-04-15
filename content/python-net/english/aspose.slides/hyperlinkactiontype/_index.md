@@ -7,7 +7,7 @@ url: /aspose.slides/hyperlinkactiontype/
 ---
 
 
-## HyperlinkActionType class
+## HyperlinkActionType enumeration
 
 Represents a type of hyperlink action.
 

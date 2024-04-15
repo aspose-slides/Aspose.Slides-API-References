@@ -22,5 +22,6 @@ def spreadsheet_options(self, value):
 ```
 
 ### See Also
+* class [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

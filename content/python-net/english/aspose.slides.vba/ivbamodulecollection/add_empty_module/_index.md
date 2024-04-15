@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_empty_module {#string}
+## add_empty_module {#str}
 Adds a new empty module to the VBA Project.
 
 ### Returns
@@ -25,11 +25,12 @@ def add_empty_module(self, name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the module |
+| name | **str** | Name of the module |
 
 
 
 ### See Also
+* class [`IVbaModule`](/slides/python-net/aspose.slides.vba/ivbamodule)
 * class [`IVbaModuleCollection`](/slides/python-net/aspose.slides.vba/ivbamodulecollection)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

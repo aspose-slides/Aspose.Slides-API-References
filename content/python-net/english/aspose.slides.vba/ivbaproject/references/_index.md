@@ -20,6 +20,7 @@ def references(self):
 ```
 
 ### See Also
+* class [`IVbaProject`](/slides/python-net/aspose.slides.vba/ivbaproject)
 * class [`IVbaReferenceCollection`](/slides/python-net/aspose.slides.vba/ivbareferencecollection)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

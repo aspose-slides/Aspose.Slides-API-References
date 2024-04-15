@@ -17,5 +17,6 @@ def as_i_presentation_component(self):
 ```
 
 ### See Also
+* class [`ErrorBarsFormat`](/slides/python-net/aspose.slides.charts/errorbarsformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

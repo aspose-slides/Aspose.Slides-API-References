@@ -28,7 +28,7 @@ def equals(self, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slide | IBaseSlide | The IBaseSlide to compare with the current IBaseSlide. |
+| slide | [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide) | The IBaseSlide to compare with the current IBaseSlide. |
 
 
 

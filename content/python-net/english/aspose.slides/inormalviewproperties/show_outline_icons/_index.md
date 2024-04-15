@@ -24,5 +24,6 @@ def show_outline_icons(self, value):
 ```
 
 ### See Also
+* class [`INormalViewProperties`](/slides/python-net/aspose.slides/inormalviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

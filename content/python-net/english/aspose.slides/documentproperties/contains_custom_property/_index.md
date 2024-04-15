@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## contains_custom_property {#string}
+## contains_custom_property {#str}
 Check presents of a custom property with a specified name.
 
 ### Returns
@@ -25,7 +25,7 @@ def contains_custom_property(self, name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of a custom property to check. |
+| name | **str** | Name of a custom property to check. |
 
 
 

@@ -20,8 +20,8 @@ def __init__(self, numerator, denominator):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| numerator | IMathElement | Numerator |
-| denominator | IMathElement | Denominator |
+| numerator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Numerator |
+| denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
 
 
 
@@ -37,13 +37,15 @@ def __init__(self, numerator, denominator, fraction_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| numerator | IMathElement | Numerator |
-| denominator | IMathElement | Denominator |
-| fraction_type | MathFractionTypes | Fraction type |
+| numerator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Numerator |
+| denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) | Fraction type |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathFraction`](/slides/python-net/aspose.slides.mathtext/mathfraction)
+* enumeration [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

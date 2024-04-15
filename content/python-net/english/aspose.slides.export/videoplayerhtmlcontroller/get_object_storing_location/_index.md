@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_object_storing_location {#int-bytes-string-string-string}
+## get_object_storing_location {#int-bytes-str-str-str}
 
 
 
@@ -20,15 +20,16 @@ def get_object_storing_location(self, id, entity_data, semantic_name, content_ty
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| id | int |  |
-| entity_data | bytes |  |
-| semantic_name | string |  |
-| content_type | string |  |
-| recomended_extension | string |  |
+| id | **int** |  |
+| entity_data | **bytes** |  |
+| semantic_name | **str** |  |
+| content_type | **str** |  |
+| recomended_extension | **str** |  |
 
 
 
 ### See Also
+* enumeration [`LinkEmbedDecision`](/slides/python-net/aspose.slides.export/linkembeddecision)
 * class [`VideoPlayerHtmlController`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

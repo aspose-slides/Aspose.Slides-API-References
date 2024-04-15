@@ -7,7 +7,7 @@ url: /aspose.slides.animation/behavioradditivetype/
 ---
 
 
-## BehaviorAdditiveType class
+## BehaviorAdditiveType enumeration
 
 Represents additive type for effect behavior.
 

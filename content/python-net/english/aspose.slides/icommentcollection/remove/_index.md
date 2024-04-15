@@ -20,7 +20,7 @@ def remove(self, comment):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| comment | IComment | The comment to remove from a collection. |
+| comment | [`IComment`](/slides/python-net/aspose.slides/icomment) | The comment to remove from a collection. |
 
 ## Exceptions
 
@@ -32,6 +32,7 @@ def remove(self, comment):
 
 
 ### See Also
+* class [`IComment`](/slides/python-net/aspose.slides/icomment)
 * class [`ICommentCollection`](/slides/python-net/aspose.slides/icommentcollection)
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

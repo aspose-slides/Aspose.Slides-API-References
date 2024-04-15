@@ -25,5 +25,6 @@ def space_after(self, value):
 ```
 
 ### See Also
+* class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

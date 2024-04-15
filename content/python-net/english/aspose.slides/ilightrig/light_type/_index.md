@@ -25,5 +25,7 @@ def light_type(self, value):
 ```
 
 ### See Also
+* class [`ILightRig`](/slides/python-net/aspose.slides/ilightrig)
+* enumeration [`LightRigPresetType`](/slides/python-net/aspose.slides/lightrigpresettype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

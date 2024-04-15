@@ -10,7 +10,7 @@ weight: 60
 
 ## from_address property
 Specifies the starting value of the animation.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def from_address(self, value):
 ```
 
 ### See Also
+* class [`IPropertyEffect`](/slides/python-net/aspose.slides.animation/ipropertyeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -7,7 +7,7 @@ url: /aspose.slides.smartart/organizationchartlayouttype/
 ---
 
 
-## OrganizationChartLayoutType class
+## OrganizationChartLayoutType enumeration
 
 Represents formatting type the child nodes in an organization chart
 

@@ -24,5 +24,6 @@ def resource_loading_callback(self, value):
 
 ### See Also
 * class [`IResourceLoadingCallback`](/slides/python-net/aspose.slides/iresourceloadingcallback)
+* class [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

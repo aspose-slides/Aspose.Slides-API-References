@@ -23,5 +23,6 @@ def pictures_compression(self, value):
 ```
 
 ### See Also
+* class [`IHtmlOptions`](/slides/python-net/aspose.slides.export/ihtmloptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

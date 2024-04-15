@@ -21,5 +21,6 @@ def font_scheme(self):
 
 ### See Also
 * class [`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme)
+* class [`MasterTheme`](/slides/python-net/aspose.slides.theme/mastertheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

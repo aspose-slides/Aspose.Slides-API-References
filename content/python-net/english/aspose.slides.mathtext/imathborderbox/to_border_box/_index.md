@@ -32,14 +32,14 @@ def to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethro
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| hide_top | bool |  |
-| hide_bottom | bool |  |
-| hide_left | bool |  |
-| hide_right | bool |  |
-| strikethrough_horizontal | bool |  |
-| strikethrough_vertical | bool |  |
-| strikethrough_bottom_left_to_top_right | bool |  |
-| strikethrough_top_left_to_bottom_right | bool |  |
+| hide_top | **bool** |  |
+| hide_bottom | **bool** |  |
+| hide_left | **bool** |  |
+| hide_right | **bool** |  |
+| strikethrough_horizontal | **bool** |  |
+| strikethrough_vertical | **bool** |  |
+| strikethrough_bottom_left_to_top_right | **bool** |  |
+| strikethrough_top_left_to_bottom_right | **bool** |  |
 
 
 

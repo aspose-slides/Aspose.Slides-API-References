@@ -17,7 +17,7 @@ The IPortionFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`bookmark_id`](/slides/python-net/aspose.slides/iportionformat/bookmark_id/) | Returns or sets bookmark identifier.<br/>            Read/write **string**. |
+| [`bookmark_id`](/slides/python-net/aspose.slides/iportionformat/bookmark_id/) | Returns or sets bookmark identifier.<br/>            Read/write **str**. |
 | [`smart_tag_clean`](/slides/python-net/aspose.slides/iportionformat/smart_tag_clean/) | Determines whether the smart tag should be cleaned. No inheritance applied.<br/>            Read/write **bool**. |
 | [`as_i_base_portion_format`](/slides/python-net/aspose.slides/iportionformat/as_i_base_portion_format/) | Returns IBasePortionFormat interface.<br/>            Read-only [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat). |
 | [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/iportionformat/as_i_hyperlink_container/) | Allows to get base IHyperlinkContainer interface.<br/>            Read-only [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer). |

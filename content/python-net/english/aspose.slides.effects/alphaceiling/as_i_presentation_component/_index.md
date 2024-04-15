@@ -20,6 +20,7 @@ def as_i_presentation_component(self):
 ```
 
 ### See Also
+* class [`AlphaCeiling`](/slides/python-net/aspose.slides.effects/alphaceiling)
 * class [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

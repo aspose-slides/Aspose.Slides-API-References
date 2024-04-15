@@ -10,7 +10,7 @@ weight: 70
 
 ## external_url property
 Specifies the external URL.
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def external_url(self):
 ```
 
 ### See Also
+* class [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -19,5 +19,6 @@ def notes_comments_layouting(self):
 ```
 
 ### See Also
+* class [`ISwfOptions`](/slides/python-net/aspose.slides.export/iswfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

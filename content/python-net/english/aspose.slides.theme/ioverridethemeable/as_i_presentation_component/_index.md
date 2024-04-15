@@ -17,5 +17,6 @@ def as_i_presentation_component(self):
 ```
 
 ### See Also
+* class [`IOverrideThemeable`](/slides/python-net/aspose.slides.theme/ioverridethemeable)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

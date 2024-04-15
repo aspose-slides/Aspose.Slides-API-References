@@ -17,5 +17,6 @@ def slide(self):
 ```
 
 ### See Also
+* class [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

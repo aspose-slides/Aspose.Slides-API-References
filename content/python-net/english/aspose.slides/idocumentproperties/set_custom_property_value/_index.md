@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## set_custom_property_value {#string-bool}
+## set_custom_property_value {#str-bool}
 Sets a named boolean custom property.
 
 
@@ -20,12 +20,12 @@ def set_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the custom property to set |
-| value | bool | Custom property value |
+| name | **str** | Name of the custom property to set |
+| value | **bool** | Custom property value |
 
 
 
-## set_custom_property_value {#string-int}
+## set_custom_property_value {#str-int}
 Sets a named integer custom property.
 
 
@@ -37,12 +37,12 @@ def set_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the custom property to set |
-| value | int | Custom property value |
+| name | **str** | Name of the custom property to set |
+| value | **int** | Custom property value |
 
 
 
-## set_custom_property_value {#string-datetime}
+## set_custom_property_value {#str-datetime}
 Sets a named DateTime custom property.
 
 
@@ -54,12 +54,12 @@ def set_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the custom property to set |
-| value | DateTime | Custom property value |
+| name | **str** | Name of the custom property to set |
+| value | **DateTime** | Custom property value |
 
 
 
-## set_custom_property_value {#string-string}
+## set_custom_property_value {#str-str}
 Sets a named string custom property.
 
 
@@ -71,12 +71,12 @@ def set_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the custom property to set |
-| value | string | Custom property value |
+| name | **str** | Name of the custom property to set |
+| value | **str** | Custom property value |
 
 
 
-## set_custom_property_value {#string-float}
+## set_custom_property_value {#str-float}
 Sets a named float custom property.
 
 
@@ -88,12 +88,12 @@ def set_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the custom property to set |
-| value | float | Custom property value |
+| name | **str** | Name of the custom property to set |
+| value | **float** | Custom property value |
 
 
 
-## set_custom_property_value {#string-float}
+## set_custom_property_value {#str-float}
 Sets a named double custom property.
 
 
@@ -105,8 +105,8 @@ def set_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the custom property to set |
-| value | float | Custom property value |
+| name | **str** | Name of the custom property to set |
+| value | **float** | Custom property value |
 
 
 

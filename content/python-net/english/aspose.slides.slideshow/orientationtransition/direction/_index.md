@@ -23,5 +23,7 @@ def direction(self, value):
 ```
 
 ### See Also
+* enumeration [`Orientation`](/slides/python-net/aspose.slides/orientation)
+* class [`OrientationTransition`](/slides/python-net/aspose.slides.slideshow/orientationtransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

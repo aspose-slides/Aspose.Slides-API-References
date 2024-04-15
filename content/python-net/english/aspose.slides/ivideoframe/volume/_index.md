@@ -23,5 +23,7 @@ def volume(self, value):
 ```
 
 ### See Also
+* enumeration [`AudioVolumeMode`](/slides/python-net/aspose.slides/audiovolumemode)
+* class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

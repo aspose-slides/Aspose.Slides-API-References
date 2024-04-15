@@ -20,7 +20,7 @@ def clear(self, sheet_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| sheet_index | int | Index of sheet |
+| sheet_index | **int** | Index of sheet |
 
 
 

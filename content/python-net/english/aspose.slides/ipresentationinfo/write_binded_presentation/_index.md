@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## write_binded_presentation {#systemiostream}
+## write_binded_presentation {#iorawiobase}
 Writes binded presentation to stream.
 
 
@@ -20,11 +20,11 @@ def write_binded_presentation(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | The stream must be seekable and writable. |
+| stream | **io.RawIOBase** | The stream must be seekable and writable. |
 
 
 
-## write_binded_presentation {#string}
+## write_binded_presentation {#str}
 Writes binded presentation to file.
 
 
@@ -36,7 +36,7 @@ def write_binded_presentation(self, file):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string | Presentation file. |
+| file | **str** | Presentation file. |
 
 
 

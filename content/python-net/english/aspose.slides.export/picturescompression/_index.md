@@ -7,7 +7,7 @@ url: /aspose.slides.export/picturescompression/
 ---
 
 
-## PicturesCompression class
+## PicturesCompression enumeration
 
 Represents the pictures compression level
 

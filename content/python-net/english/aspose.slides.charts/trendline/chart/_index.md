@@ -21,5 +21,6 @@ def chart(self):
 
 ### See Also
 * class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
+* class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

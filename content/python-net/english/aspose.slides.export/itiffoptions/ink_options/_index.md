@@ -21,5 +21,6 @@ def ink_options(self):
 
 ### See Also
 * class [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions)
+* class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

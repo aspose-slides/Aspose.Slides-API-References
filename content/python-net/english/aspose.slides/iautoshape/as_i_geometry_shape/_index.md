@@ -20,6 +20,7 @@ def as_i_geometry_shape(self):
 ```
 
 ### See Also
+* class [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape)
 * class [`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

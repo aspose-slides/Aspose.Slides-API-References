@@ -20,6 +20,7 @@ def text_animation(self):
 ```
 
 ### See Also
+* class [`Effect`](/slides/python-net/aspose.slides.animation/effect)
 * class [`ITextAnimation`](/slides/python-net/aspose.slides.animation/itextanimation)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

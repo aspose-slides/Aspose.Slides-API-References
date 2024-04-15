@@ -10,7 +10,7 @@ weight: 260
 
 ## number_format_of_bubble_sizes property
 NumberFormatOfBubbleSizes.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def number_format_of_bubble_sizes(self, value):
 ```
 
 ### See Also
+* class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

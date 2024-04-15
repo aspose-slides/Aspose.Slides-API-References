@@ -25,7 +25,7 @@ def delimit(self, separator_character):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| separator_character | char | delimiter character |
+| separator_character | **char** | delimiter character |
 
 
 

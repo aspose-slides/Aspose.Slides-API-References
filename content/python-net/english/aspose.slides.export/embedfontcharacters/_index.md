@@ -7,7 +7,7 @@ url: /aspose.slides.export/embedfontcharacters/
 ---
 
 
-## EmbedFontCharacters class
+## EmbedFontCharacters enumeration
 
 Represents the rule to use for adding new embedding font into [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 

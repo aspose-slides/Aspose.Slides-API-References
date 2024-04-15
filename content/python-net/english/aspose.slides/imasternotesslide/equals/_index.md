@@ -20,11 +20,12 @@ def equals(self, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slide | IBaseSlide |  |
+| slide | [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide) |  |
 
 
 
 ### See Also
+* class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * class [`IMasterNotesSlide`](/slides/python-net/aspose.slides/imasternotesslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

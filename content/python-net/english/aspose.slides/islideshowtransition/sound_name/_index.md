@@ -10,7 +10,7 @@ weight: 80
 
 ## sound_name property
 Specifies a human readable name for the sound of the transition. The [`ISlideShowTransition.sound`](/slides/python-net/aspose.slides/islideshowtransition#sound) property must be assigned to get or set the sound name.
-            Read-write **string**.
+            Read-write **str**.
 
 
 ### Remarks
@@ -28,5 +28,6 @@ def sound_name(self, value):
 ```
 
 ### See Also
+* class [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

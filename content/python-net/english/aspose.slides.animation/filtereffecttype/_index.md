@@ -7,7 +7,7 @@ url: /aspose.slides.animation/filtereffecttype/
 ---
 
 
-## FilterEffectType class
+## FilterEffectType enumeration
 
 Represents filter effect types.
 

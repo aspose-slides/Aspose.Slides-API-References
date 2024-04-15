@@ -17,5 +17,6 @@ def presentation(self):
 ```
 
 ### See Also
+* class [`BasePortionFormat`](/slides/python-net/aspose.slides/baseportionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

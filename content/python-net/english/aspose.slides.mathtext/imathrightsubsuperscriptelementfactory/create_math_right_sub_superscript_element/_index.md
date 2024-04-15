@@ -25,13 +25,15 @@ def create_math_right_sub_superscript_element(self, base_arg, sub_script, super_
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| base_arg | IMathElement | Base argument to apply indexes |
-| sub_script | IMathElement | lower right index |
-| super_script | IMathElement | upper right index |
+| base_arg | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument to apply indexes |
+| sub_script | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | lower right index |
+| super_script | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | upper right index |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathRightSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement)
 * class [`IMathRightSubSuperscriptElementFactory`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

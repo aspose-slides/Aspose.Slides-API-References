@@ -68,8 +68,8 @@ The ISmartArt type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.smartart/ismartart/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.smartart/ismartart/get_thumbnail/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides.smartart/ismartart/write_as_svg/#systemiostream) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides.smartart/ismartart/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides.smartart/ismartart/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg`](/slides/python-net/aspose.slides.smartart/ismartart/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`add_placeholder`](/slides/python-net/aspose.slides.smartart/ismartart/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder`](/slides/python-net/aspose.slides.smartart/ismartart/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides.smartart/ismartart/get_base_placeholder/#) |  |

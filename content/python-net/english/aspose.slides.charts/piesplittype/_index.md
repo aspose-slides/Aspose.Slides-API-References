@@ -7,7 +7,7 @@ url: /aspose.slides.charts/piesplittype/
 ---
 
 
-## PieSplitType class
+## PieSplitType enumeration
 
 Represents a type of splitting points in the second pie or bar 
             on a pie-of-pie or bar-of-pie chart.

@@ -23,5 +23,7 @@ def fill_type(self, value):
 ```
 
 ### See Also
+* enumeration [`FillType`](/slides/python-net/aspose.slides/filltype)
+* class [`LineFillFormat`](/slides/python-net/aspose.slides/linefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

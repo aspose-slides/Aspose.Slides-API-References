@@ -7,7 +7,7 @@ url: /aspose.slides.animation/motionorigintype/
 ---
 
 
-## MotionOriginType class
+## MotionOriginType enumeration
 
 Specifies what the origin of the motion path is relative to.
             Such as the layout of the slide, or the parent.

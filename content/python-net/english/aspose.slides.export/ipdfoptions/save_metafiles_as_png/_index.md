@@ -37,5 +37,6 @@ def save_metafiles_as_png(self, value):
 ```
 
 ### See Also
+* class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

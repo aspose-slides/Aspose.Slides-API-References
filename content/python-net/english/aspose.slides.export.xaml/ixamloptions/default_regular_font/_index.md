@@ -20,5 +20,6 @@ def default_regular_font(self, value):
 ```
 
 ### See Also
+* class [`IXamlOptions`](/slides/python-net/aspose.slides.export.xaml/ixamloptions)
 * module [`aspose.slides.export.xaml`](/slides/python-net/aspose.slides.export.xaml)
 * library [`Aspose.Slides`](/slides/python-net)

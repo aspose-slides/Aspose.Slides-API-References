@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effectpresetclasstype/
 ---
 
 
-## EffectPresetClassType class
+## EffectPresetClassType enumeration
 
 Represent effect class types.
 

@@ -17,5 +17,6 @@ def as_i_shape(self):
 ```
 
 ### See Also
+* class [`ZoomFrame`](/slides/python-net/aspose.slides/zoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

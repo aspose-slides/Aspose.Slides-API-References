@@ -7,7 +7,7 @@ url: /aspose.slides.charts/tickmarktype/
 ---
 
 
-## TickMarkType class
+## TickMarkType enumeration
 
 Represents the tick mark type for the specified axis.
 

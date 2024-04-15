@@ -15,5 +15,6 @@ weight: 60
 | :- | :- |
 | index |  |
 ### See Also
+* class [`MasterSlideCollection`](/slides/python-net/aspose.slides/masterslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

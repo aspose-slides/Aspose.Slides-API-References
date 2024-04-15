@@ -21,5 +21,6 @@ def as_i_behavior(self):
 
 ### See Also
 * class [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior)
+* class [`IMotionEffect`](/slides/python-net/aspose.slides.animation/imotioneffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

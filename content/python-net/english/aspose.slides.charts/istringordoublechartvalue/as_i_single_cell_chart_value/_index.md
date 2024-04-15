@@ -21,5 +21,6 @@ def as_i_single_cell_chart_value(self):
 
 ### See Also
 * class [`ISingleCellChartValue`](/slides/python-net/aspose.slides.charts/isinglecellchartvalue)
+* class [`IStringOrDoubleChartValue`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,7 +20,7 @@ def remove_at(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | The zero-based index of the element to remove. |
+| index | **int** | The zero-based index of the element to remove. |
 
 ## Exceptions
 

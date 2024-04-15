@@ -7,7 +7,7 @@ url: /aspose.slides/placeholdersize/
 ---
 
 
-## PlaceholderSize class
+## PlaceholderSize enumeration
 
 Represents the size of a placeholder.
 

@@ -20,7 +20,7 @@ def __init__(self):
 
 
 
-## __init__ {#float-any-string}
+## __init__ {#float-any-str}
 Create animation point with time, value and formula.
 
 
@@ -32,9 +32,9 @@ def __init__(self, time, value, formula):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| time | float |  |
-| value | any |  |
-| formula | string |  |
+| time | **float** |  |
+| value | **any** |  |
+| formula | **str** |  |
 
 
 

@@ -7,7 +7,7 @@ url: /aspose.slides.export/blackwhiteconversionmode/
 ---
 
 
-## BlackWhiteConversionMode class
+## BlackWhiteConversionMode enumeration
 
 Provides options that control how slides' images will be converted to bitonal images.
 

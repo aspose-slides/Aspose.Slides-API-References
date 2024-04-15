@@ -17,5 +17,6 @@ def slide(self):
 ```
 
 ### See Also
+* class [`CellFormat`](/slides/python-net/aspose.slides/cellformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

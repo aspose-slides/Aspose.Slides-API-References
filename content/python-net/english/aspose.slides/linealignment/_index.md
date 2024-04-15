@@ -7,7 +7,7 @@ url: /aspose.slides/linealignment/
 ---
 
 
-## LineAlignment class
+## LineAlignment enumeration
 
 Represents the lines alignment type.
 

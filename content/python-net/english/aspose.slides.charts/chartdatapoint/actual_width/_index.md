@@ -20,5 +20,6 @@ def actual_width(self):
 ```
 
 ### See Also
+* class [`ChartDataPoint`](/slides/python-net/aspose.slides.charts/chartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -17,5 +17,6 @@ def as_i_three_d_param_source(self):
 ```
 
 ### See Also
+* class [`ThreeDFormat`](/slides/python-net/aspose.slides/threedformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

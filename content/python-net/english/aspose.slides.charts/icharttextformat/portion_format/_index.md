@@ -21,5 +21,6 @@ def portion_format(self):
 
 ### See Also
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
+* class [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

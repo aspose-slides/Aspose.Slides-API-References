@@ -10,7 +10,7 @@ weight: 10
 
 ## name property
 Name of the module.
-            Read-only **string**.
+            Read-only **str**.
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def name(self):
 ```
 
 ### See Also
+* class [`IVbaModule`](/slides/python-net/aspose.slides.vba/ivbamodule)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

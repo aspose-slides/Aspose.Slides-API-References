@@ -57,5 +57,7 @@ def shape_type(self, value):
 ```
 
 ### See Also
+* class [`PictureFrame`](/slides/python-net/aspose.slides/pictureframe)
+* enumeration [`ShapeType`](/slides/python-net/aspose.slides/shapetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

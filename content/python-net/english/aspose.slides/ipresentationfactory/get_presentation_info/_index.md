@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_presentation_info {#string}
+## get_presentation_info {#str}
 Gets info about presentation in specified file.
 
 ### Returns
@@ -25,11 +25,11 @@ def get_presentation_info(self, file):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file | string | Presentation file. |
+| file | **str** | Presentation file. |
 
 
 
-## get_presentation_info {#systemiostream}
+## get_presentation_info {#iorawiobase}
 Gets info about presentation in specified stream.
 
 ### Returns
@@ -46,11 +46,12 @@ def get_presentation_info(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Presentation stream. |
+| stream | **io.RawIOBase** | Presentation stream. |
 
 
 
 ### See Also
 * class [`IPresentationFactory`](/slides/python-net/aspose.slides/ipresentationfactory)
+* class [`IPresentationInfo`](/slides/python-net/aspose.slides/ipresentationinfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

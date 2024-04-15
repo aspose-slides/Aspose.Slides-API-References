@@ -29,5 +29,6 @@ def portion_format(self):
 
 ### See Also
 * class [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
+* class [`MathPortion`](/slides/python-net/aspose.slides.mathtext/mathportion)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

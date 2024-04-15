@@ -23,5 +23,6 @@ def images_save_folder_name(self, value):
 ```
 
 ### See Also
+* class [`MarkdownSaveOptions`](/slides/python-net/aspose.slides.export/markdownsaveoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

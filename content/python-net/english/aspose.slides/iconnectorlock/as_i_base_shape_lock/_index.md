@@ -21,5 +21,6 @@ def as_i_base_shape_lock(self):
 
 ### See Also
 * class [`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock)
+* class [`IConnectorLock`](/slides/python-net/aspose.slides/iconnectorlock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

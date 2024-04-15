@@ -25,7 +25,7 @@ def equals(self, lf):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| lf | ILineFormatEffectiveData | The ILineFormatEffectiveData to compare with the current ILineFormatEffectiveData. |
+| lf | [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata) | The ILineFormatEffectiveData to compare with the current ILineFormatEffectiveData. |
 
 
 

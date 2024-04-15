@@ -20,7 +20,7 @@ def set_time_position(self, time):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| time | float |  |
+| time | **float** |  |
 
 
 

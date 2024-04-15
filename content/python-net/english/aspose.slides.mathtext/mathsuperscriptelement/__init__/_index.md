@@ -20,12 +20,13 @@ def __init__(self, base_arg, super_script):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| base_arg | IMathElement |  |
-| super_script | IMathElement |  |
+| base_arg | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
+| super_script | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`MathSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

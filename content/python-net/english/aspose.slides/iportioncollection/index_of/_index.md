@@ -27,11 +27,12 @@ def index_of(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IPortion | The portion to locate in the collection. |
+| item | [`IPortion`](/slides/python-net/aspose.slides/iportion) | The portion to locate in the collection. |
 
 
 
 ### See Also
+* class [`IPortion`](/slides/python-net/aspose.slides/iportion)
 * class [`IPortionCollection`](/slides/python-net/aspose.slides/iportioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

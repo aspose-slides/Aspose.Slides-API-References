@@ -20,6 +20,7 @@ def three_d_format(self):
 ```
 
 ### See Also
+* class [`EffectStyle`](/slides/python-net/aspose.slides.theme/effectstyle)
 * class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

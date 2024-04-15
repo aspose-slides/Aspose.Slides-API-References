@@ -25,11 +25,11 @@ def divide(self, denominator):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| denominator | IMathElement | Denominator |
+| denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
 
 
 
-## divide {#string}
+## divide {#str}
 Creates a fraction with this numerator and specified denominator
 
 ### Returns
@@ -46,7 +46,7 @@ def divide(self, denominator):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| denominator | string | Denominator |
+| denominator | **str** | Denominator |
 
 
 
@@ -67,12 +67,12 @@ def divide(self, denominator, fraction_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| denominator | IMathElement | Denominator |
-| fraction_type | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
+| denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) | Fraction type: Bar, NoBar, Skewed, Linear |
 
 
 
-## divide {#string-mathfractiontypes}
+## divide {#str-mathfractiontypes}
 Creates a fraction of the specified type with this numerator and specified denominator
 
 ### Returns
@@ -89,12 +89,15 @@ def divide(self, denominator, fraction_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| denominator | string | Denominator |
-| fraction_type | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
+| denominator | **str** | Denominator |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) | Fraction type: Bar, NoBar, Skewed, Linear |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathFraction`](/slides/python-net/aspose.slides.mathtext/imathfraction)
+* enumeration [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes)
 * class [`MathLeftSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/mathleftsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

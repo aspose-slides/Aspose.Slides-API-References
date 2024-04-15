@@ -20,7 +20,7 @@ def remove_at(self, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index of a color operation to remove. |
+| index | **int** | Index of a color operation to remove. |
 
 
 

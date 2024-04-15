@@ -10,7 +10,7 @@ weight: 20
 
 ## source_code property
 Returns or sets the source code of the module.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def source_code(self, value):
 ```
 
 ### See Also
+* class [`VbaModule`](/slides/python-net/aspose.slides.vba/vbamodule)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)

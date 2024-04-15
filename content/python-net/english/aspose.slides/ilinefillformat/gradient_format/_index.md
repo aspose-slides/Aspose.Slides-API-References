@@ -21,5 +21,6 @@ def gradient_format(self):
 
 ### See Also
 * class [`IGradientFormat`](/slides/python-net/aspose.slides/igradientformat)
+* class [`ILineFillFormat`](/slides/python-net/aspose.slides/ilinefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

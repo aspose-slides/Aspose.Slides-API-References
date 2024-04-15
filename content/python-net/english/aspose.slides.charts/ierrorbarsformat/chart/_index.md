@@ -17,5 +17,6 @@ def chart(self):
 ```
 
 ### See Also
+* class [`IErrorBarsFormat`](/slides/python-net/aspose.slides.charts/ierrorbarsformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

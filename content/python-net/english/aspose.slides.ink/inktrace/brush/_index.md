@@ -21,5 +21,6 @@ def brush(self):
 
 ### See Also
 * class [`IInkBrush`](/slides/python-net/aspose.slides.ink/iinkbrush)
+* class [`InkTrace`](/slides/python-net/aspose.slides.ink/inktrace)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

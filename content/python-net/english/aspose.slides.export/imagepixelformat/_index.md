@@ -7,7 +7,7 @@ url: /aspose.slides.export/imagepixelformat/
 ---
 
 
-## ImagePixelFormat class
+## ImagePixelFormat enumeration
 
 Specifies the pixel format for the generated images.
 

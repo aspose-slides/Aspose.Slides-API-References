@@ -7,7 +7,7 @@ url: /aspose.slides.animation/animatetexttype/
 ---
 
 
-## AnimateTextType class
+## AnimateTextType enumeration
 
 Represents the animate text type of an animation effect.
 

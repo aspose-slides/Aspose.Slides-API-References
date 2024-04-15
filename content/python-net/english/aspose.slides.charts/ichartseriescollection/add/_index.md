@@ -25,7 +25,7 @@ def add(self, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | ChartType | Type of series |
+| type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Type of series |
 
 
 
@@ -46,8 +46,8 @@ def add(self, cell_with_series_name, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cell_with_series_name | IChartDataCell | Cell which contain series name. |
-| type | ChartType | Type set type of series |
+| cell_with_series_name | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Cell which contain series name. |
+| type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Type set type of series |
 
 ### Remarks
 
@@ -73,8 +73,8 @@ def add(self, cells_with_series_name, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cells_with_series_name | IChartCellCollection | Cells which contain series name. |
-| type | ChartType | Type set type of series |
+| cells_with_series_name | [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection) | Cells which contain series name. |
+| type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Type set type of series |
 
 ### Remarks
 
@@ -83,7 +83,7 @@ If chart series careted from same cell already in collection
 
 
 
-## add {#string-charttype}
+## add {#str-charttype}
 Creates new chart series from value and adds it to the collection.
 
 ### Returns
@@ -100,14 +100,16 @@ def add(self, name, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Series name. |
-| type | ChartType | Type set type of series |
+| name | **str** | Series name. |
+| type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Type set type of series |
 
 
 
 ### See Also
+* enumeration [`ChartType`](/slides/python-net/aspose.slides.charts/charttype)
 * class [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection)
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
+* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * class [`IChartSeriesCollection`](/slides/python-net/aspose.slides.charts/ichartseriescollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

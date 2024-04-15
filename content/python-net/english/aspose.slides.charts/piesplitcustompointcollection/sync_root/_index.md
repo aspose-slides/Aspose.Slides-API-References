@@ -20,5 +20,6 @@ def sync_root(self):
 ```
 
 ### See Also
+* class [`PieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

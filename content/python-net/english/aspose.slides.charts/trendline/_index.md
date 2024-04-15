@@ -17,7 +17,7 @@ The Trendline type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`trendline_name`](/slides/python-net/aspose.slides.charts/trendline/trendline_name/) | Gets or sets  name of the trendline.<br/>            Read/write **string**. |
+| [`trendline_name`](/slides/python-net/aspose.slides.charts/trendline/trendline_name/) | Gets or sets  name of the trendline.<br/>            Read/write **str**. |
 | [`trendline_type`](/slides/python-net/aspose.slides.charts/trendline/trendline_type/) | Gets or sets type of trend line.<br/>            Read/write [`TrendlineType`](/slides/python-net/aspose.slides.charts/trendlinetype). |
 | [`format`](/slides/python-net/aspose.slides.charts/trendline/format/) | Represents the format of the trend line.<br/>            Read/write [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
 | [`backward`](/slides/python-net/aspose.slides.charts/trendline/backward/) | Specifies the number of categories (or units on a scatter chart) that the trend line extends before<br/>            the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative<br/>            value.<br/>            Read/write **float**. |
@@ -43,7 +43,7 @@ The Trendline type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/trendline/add_text_frame_for_overriding/#string) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
+| [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/trendline/add_text_frame_for_overriding/#str) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)

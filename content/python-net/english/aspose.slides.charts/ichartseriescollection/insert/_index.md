@@ -25,12 +25,13 @@ def insert(self, index, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index for insertion **int** |
-| type | ChartType | Chart type [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) |
+| index | **int** | Index for insertion **int** |
+| type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Chart type [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) |
 
 
 
 ### See Also
+* enumeration [`ChartType`](/slides/python-net/aspose.slides.charts/charttype)
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * class [`IChartSeriesCollection`](/slides/python-net/aspose.slides.charts/ichartseriescollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)

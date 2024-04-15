@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove {#string}
+## remove {#str}
 Removes the first occurrence of a specific FallBack font from the list.
 
 
@@ -20,7 +20,7 @@ def remove(self, font_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name | string | The font's name to remove from the list. |
+| font_name | **str** | The font's name to remove from the list. |
 
 
 

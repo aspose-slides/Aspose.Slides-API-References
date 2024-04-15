@@ -21,5 +21,6 @@ def master_notes_slide_manager(self):
 
 ### See Also
 * class [`IMasterNotesSlideManager`](/slides/python-net/aspose.slides/imasternotesslidemanager)
+* class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

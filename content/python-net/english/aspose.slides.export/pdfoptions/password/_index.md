@@ -10,7 +10,7 @@ weight: 160
 
 ## password property
 Setting user password to protect the PDF document. 
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def password(self, value):
 ```
 
 ### See Also
+* class [`PdfOptions`](/slides/python-net/aspose.slides.export/pdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,7 +20,7 @@ def remove_unused_layout_slides(self, pres):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation | The presentation instance |
+| pres | [`Presentation`](/slides/python-net/aspose.slides/presentation) | The presentation instance |
 
 
 

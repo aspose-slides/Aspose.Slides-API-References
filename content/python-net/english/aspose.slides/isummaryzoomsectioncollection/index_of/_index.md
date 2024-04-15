@@ -25,7 +25,7 @@ def index_of(self, summary_zoom_section):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| summary_zoom_section | ISummaryZoomSection | SummaryZoomSection object to find [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection). |
+| summary_zoom_section | [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection) | SummaryZoomSection object to find [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection). |
 
 
 

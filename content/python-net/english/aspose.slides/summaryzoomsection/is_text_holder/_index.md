@@ -20,5 +20,6 @@ def is_text_holder(self):
 ```
 
 ### See Also
+* class [`SummaryZoomSection`](/slides/python-net/aspose.slides/summaryzoomsection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -15,5 +15,6 @@ weight: 20
 | :- | :- |
 | index |  |
 ### See Also
+* class [`ImageCollection`](/slides/python-net/aspose.slides/imagecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

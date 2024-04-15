@@ -19,5 +19,6 @@ def superscript(self):
 ```
 
 ### See Also
+* class [`MathRightSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

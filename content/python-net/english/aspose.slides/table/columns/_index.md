@@ -21,5 +21,6 @@ def columns(self):
 
 ### See Also
 * class [`IColumnCollection`](/slides/python-net/aspose.slides/icolumncollection)
+* class [`Table`](/slides/python-net/aspose.slides/table)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

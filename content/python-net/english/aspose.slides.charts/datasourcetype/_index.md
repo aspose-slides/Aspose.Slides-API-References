@@ -7,7 +7,7 @@ url: /aspose.slides.charts/datasourcetype/
 ---
 
 
-## DataSourceType class
+## DataSourceType enumeration
 
 Data source types.
 

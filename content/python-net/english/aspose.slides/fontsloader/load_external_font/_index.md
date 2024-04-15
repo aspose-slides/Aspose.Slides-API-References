@@ -20,7 +20,7 @@ def load_external_font(self, data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | bytes | Font's data |
+| data | **bytes** | Font's data |
 
 
 

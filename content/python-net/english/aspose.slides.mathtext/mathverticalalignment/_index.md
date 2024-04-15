@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathverticalalignment/
 ---
 
 
-## MathVerticalAlignment class
+## MathVerticalAlignment enumeration
 
 Vertical Alignment
 

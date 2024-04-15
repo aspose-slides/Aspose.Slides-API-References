@@ -25,12 +25,13 @@ def get_slide_comments(self, author):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| author | ICommentAuthor | Author of comments to find or null to return all comments. |
+| author | [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor) | Author of comments to find or null to return all comments. |
 
 
 
 ### See Also
 * class [`IComment`](/slides/python-net/aspose.slides/icomment)
+* class [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

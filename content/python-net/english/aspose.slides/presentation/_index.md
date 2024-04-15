@@ -19,10 +19,10 @@ The Presentation type exposes the following members:
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
 | [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#loadoptions) | This constructor creates new presentation from scratch.<br/>            Created presentation has one empty slide. |
-| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#systemiostream) | This constructor is the primary mechanism for reading an existing Presentation. |
-| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#systemiostream-loadoptions) | This constructor is the primary mechanism for reading an existing Presentation. |
-| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#string) | This constructor gets a source file path from which<br/>             the contents of the Presentation are read. |
-| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#string-loadoptions) | This constructor gets a source file path from which<br/>            the contents of the Presentation are read. |
+| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#iorawiobase) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#iorawiobase-loadoptions) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#str) | This constructor gets a source file path from which<br/>             the contents of the Presentation are read. |
+| [`__init__`](/slides/python-net/aspose.slides/presentation/__init__/#str-loadoptions) | This constructor gets a source file path from which<br/>            the contents of the Presentation are read. |
 
 ## Properties
 
@@ -64,15 +64,15 @@ The Presentation type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`save`](/slides/python-net/aspose.slides/presentation/save/#string-asposeslidesexportsaveformat) | Saves all slides of a presentation to a file with the specified format. |
-| [`save`](/slides/python-net/aspose.slides/presentation/save/#systemiostream-asposeslidesexportsaveformat) | Saves all slides of a presentation to a stream in the specified format. |
-| [`save`](/slides/python-net/aspose.slides/presentation/save/#string-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) |  |
-| [`save`](/slides/python-net/aspose.slides/presentation/save/#systemiostream-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [`save`](/slides/python-net/aspose.slides/presentation/save/#str-asposeslidesexportsaveformat) | Saves all slides of a presentation to a file with the specified format. |
+| [`save`](/slides/python-net/aspose.slides/presentation/save/#iorawiobase-asposeslidesexportsaveformat) | Saves all slides of a presentation to a stream in the specified format. |
+| [`save`](/slides/python-net/aspose.slides/presentation/save/#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) |  |
+| [`save`](/slides/python-net/aspose.slides/presentation/save/#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 | [`save`](/slides/python-net/aspose.slides/presentation/save/#asposeslidesexportxamlixamloptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
-| [`save`](/slides/python-net/aspose.slides/presentation/save/#string-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-| [`save`](/slides/python-net/aspose.slides/presentation/save/#string-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-| [`save`](/slides/python-net/aspose.slides/presentation/save/#systemiostream-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-| [`save`](/slides/python-net/aspose.slides/presentation/save/#systemiostream-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [`save`](/slides/python-net/aspose.slides/presentation/save/#str-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [`save`](/slides/python-net/aspose.slides/presentation/save/#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [`save`](/slides/python-net/aspose.slides/presentation/save/#iorawiobase-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [`save`](/slides/python-net/aspose.slides/presentation/save/#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-listint) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-float-float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
@@ -87,8 +87,8 @@ The Presentation type exposes the following members:
 | [`get_thumbnails`](/slides/python-net/aspose.slides/presentation/get_thumbnails/#asposeslidesexportirenderingoptions-listint-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
 | [`print`](/slides/python-net/aspose.slides/presentation/print/#) | Prints the whole presentation to the default printer. |
 | [`print`](/slides/python-net/aspose.slides/presentation/print/#asposepydrawingprintingprintersettings) | Prints the presentation according to the specified printer settings,<br/>            using the standard (no User Interface) print controller. |
-| [`print`](/slides/python-net/aspose.slides/presentation/print/#string) | Print the whole presentation to the specified printer,<br/>            using the standard (no User Interface) print controller. |
-| [`print`](/slides/python-net/aspose.slides/presentation/print/#asposepydrawingprintingprintersettings-string) | Prints the document according to the specified printer settings, using<br/>            the standard (no User Interface) print controller and a presentation name. |
+| [`print`](/slides/python-net/aspose.slides/presentation/print/#str) | Print the whole presentation to the specified printer,<br/>            using the standard (no User Interface) print controller. |
+| [`print`](/slides/python-net/aspose.slides/presentation/print/#asposepydrawingprintingprintersettings-str) | Prints the document according to the specified printer settings, using<br/>            the standard (no User Interface) print controller and a presentation name. |
 | [`get_slide_by_id`](/slides/python-net/aspose.slides/presentation/get_slide_by_id/#int) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/presentation/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
 

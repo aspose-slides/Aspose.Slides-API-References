@@ -23,5 +23,7 @@ def zoom_content(self, value):
 ```
 
 ### See Also
+* class [`IScaleEffect`](/slides/python-net/aspose.slides.animation/iscaleeffect)
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

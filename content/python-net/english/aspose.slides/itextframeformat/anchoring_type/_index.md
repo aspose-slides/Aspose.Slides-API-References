@@ -23,5 +23,7 @@ def anchoring_type(self, value):
 ```
 
 ### See Also
+* class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
+* enumeration [`TextAnchorType`](/slides/python-net/aspose.slides/textanchortype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

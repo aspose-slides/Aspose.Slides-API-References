@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathspacingrules/
 ---
 
 
-## MathSpacingRules class
+## MathSpacingRules enumeration
 
 Types of gap (horizontal spacing) between columns of a matrix
 

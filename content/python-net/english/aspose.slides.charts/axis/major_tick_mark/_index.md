@@ -23,5 +23,7 @@ def major_tick_mark(self, value):
 ```
 
 ### See Also
+* class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
+* enumeration [`TickMarkType`](/slides/python-net/aspose.slides.charts/tickmarktype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

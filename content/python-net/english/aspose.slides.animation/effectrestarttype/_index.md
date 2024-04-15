@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effectrestarttype/
 ---
 
 
-## EffectRestartType class
+## EffectRestartType enumeration
 
 Represent restart types for timing.
 

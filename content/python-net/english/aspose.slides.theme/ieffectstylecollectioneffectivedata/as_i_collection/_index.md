@@ -17,5 +17,6 @@ def as_i_collection(self):
 ```
 
 ### See Also
+* class [`IEffectStyleCollectionEffectiveData`](/slides/python-net/aspose.slides.theme/ieffectstylecollectioneffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

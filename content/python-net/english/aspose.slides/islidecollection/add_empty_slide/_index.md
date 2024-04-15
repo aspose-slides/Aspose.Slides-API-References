@@ -25,11 +25,13 @@ def add_empty_slide(self, layout):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| layout | ILayoutSlide | Layout for a slide. |
+| layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Layout for a slide. |
 
 
 
 ### See Also
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`ISlideCollection`](/slides/python-net/aspose.slides/islidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

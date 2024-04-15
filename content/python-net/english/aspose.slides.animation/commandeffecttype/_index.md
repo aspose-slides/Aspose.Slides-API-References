@@ -7,7 +7,7 @@ url: /aspose.slides.animation/commandeffecttype/
 ---
 
 
-## CommandEffectType class
+## CommandEffectType enumeration
 
 Represents command effect type for command effect behavior.
 

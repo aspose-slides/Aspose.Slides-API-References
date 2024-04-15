@@ -21,5 +21,6 @@ def as_i_graphical_object(self):
 
 ### See Also
 * class [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject)
+* class [`IInk`](/slides/python-net/aspose.slides.ink/iink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

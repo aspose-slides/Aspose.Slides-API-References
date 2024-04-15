@@ -20,6 +20,7 @@ def connector_lock(self):
 ```
 
 ### See Also
+* class [`IConnector`](/slides/python-net/aspose.slides/iconnector)
 * class [`IConnectorLock`](/slides/python-net/aspose.slides/iconnectorlock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

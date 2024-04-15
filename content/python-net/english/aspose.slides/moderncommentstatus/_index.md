@@ -7,7 +7,7 @@ url: /aspose.slides/moderncommentstatus/
 ---
 
 
-## ModernCommentStatus class
+## ModernCommentStatus enumeration
 
 Represents the status of a modern comment.
 

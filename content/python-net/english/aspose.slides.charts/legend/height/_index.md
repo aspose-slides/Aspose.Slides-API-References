@@ -23,5 +23,6 @@ def height(self, value):
 ```
 
 ### See Also
+* class [`Legend`](/slides/python-net/aspose.slides.charts/legend)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

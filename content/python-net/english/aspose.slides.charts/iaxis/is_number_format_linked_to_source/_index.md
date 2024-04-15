@@ -23,5 +23,6 @@ def is_number_format_linked_to_source(self, value):
 ```
 
 ### See Also
+* class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,6 +20,7 @@ def border_top(self):
 ```
 
 ### See Also
+* class [`CellFormat`](/slides/python-net/aspose.slides/cellformat)
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

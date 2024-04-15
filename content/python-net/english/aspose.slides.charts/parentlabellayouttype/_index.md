@@ -7,7 +7,7 @@ url: /aspose.slides.charts/parentlabellayouttype/
 ---
 
 
-## ParentLabelLayoutType class
+## ParentLabelLayoutType enumeration
 
 Represents layout of category data labels. Used with Treemap series only.
 

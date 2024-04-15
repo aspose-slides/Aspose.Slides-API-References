@@ -23,5 +23,7 @@ def build_type(self, value):
 ```
 
 ### See Also
+* enumeration [`BuildType`](/slides/python-net/aspose.slides.animation/buildtype)
+* class [`TextAnimation`](/slides/python-net/aspose.slides.animation/textanimation)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

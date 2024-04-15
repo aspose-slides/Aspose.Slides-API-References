@@ -7,7 +7,7 @@ url: /aspose.slides/gradientdirection/
 ---
 
 
-## GradientDirection class
+## GradientDirection enumeration
 
 Represents the gradient style.
 

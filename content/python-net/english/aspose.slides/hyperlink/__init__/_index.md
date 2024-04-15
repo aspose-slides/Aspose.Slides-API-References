@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#string}
+## __init__ {#str}
 Creates an instance of a hyperlink.
 
 
@@ -20,7 +20,7 @@ def __init__(self, url):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| url | string | Hyperlink URL. |
+| url | **str** | Hyperlink URL. |
 
 
 
@@ -37,11 +37,11 @@ def __init__(self, slide):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| slide | ISlide | Target slide. |
+| slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Target slide. |
 
 
 
-## __init__ {#hyperlink-string-string-bool-bool-bool}
+## __init__ {#hyperlink-str-str-bool-bool-bool}
 Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties.
 
 
@@ -53,16 +53,17 @@ def __init__(self, source, target_frame, tooltip, history, stop_sounds_on_click,
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source | Hyperlink | Source hyperlink |
-| target_frame | string | Target frame |
-| tooltip | string | Tooltip text |
-| history | bool |  |
-| stop_sounds_on_click | bool |  |
-| highlight_click | bool |  |
+| source | [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink) | Source hyperlink |
+| target_frame | **str** | Target frame |
+| tooltip | **str** | Tooltip text |
+| history | **bool** |  |
+| stop_sounds_on_click | **bool** |  |
+| highlight_click | **bool** |  |
 
 
 
 ### See Also
 * class [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

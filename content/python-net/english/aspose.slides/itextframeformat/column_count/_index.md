@@ -25,5 +25,6 @@ def column_count(self, value):
 ```
 
 ### See Also
+* class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

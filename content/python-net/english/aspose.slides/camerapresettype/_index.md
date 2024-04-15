@@ -7,7 +7,7 @@ url: /aspose.slides/camerapresettype/
 ---
 
 
-## CameraPresetType class
+## CameraPresetType enumeration
 
 Constants which define camera preset type.
 

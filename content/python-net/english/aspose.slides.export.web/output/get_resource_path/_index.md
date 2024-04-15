@@ -25,7 +25,7 @@ def get_resource_path(self, obj):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| obj | any | Resource object. |
+| obj | **any** | Resource object. |
 
 
 

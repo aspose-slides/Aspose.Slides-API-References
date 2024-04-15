@@ -23,5 +23,6 @@ def height_percents(self, value):
 ```
 
 ### See Also
+* class [`IRotation3D`](/slides/python-net/aspose.slides.charts/irotation3d)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

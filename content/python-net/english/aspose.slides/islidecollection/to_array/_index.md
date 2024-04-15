@@ -42,8 +42,8 @@ def to_array(self, start_index, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| start_index | int | An index of a first slide to add. |
-| count | int | A number of slides to add. |
+| start_index | **int** | An index of a first slide to add. |
+| count | **int** | A number of slides to add. |
 
 
 

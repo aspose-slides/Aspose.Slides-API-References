@@ -32,13 +32,15 @@ def group(self, character, position, vertical_justification):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| character | char |  |
-| position | MathTopBotPositions |  |
-| vertical_justification | MathTopBotPositions |  |
+| character | **char** |  |
+| position | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) |  |
+| vertical_justification | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) |  |
 
 
 
 ### See Also
 * class [`IMathBorderBox`](/slides/python-net/aspose.slides.mathtext/imathborderbox)
+* class [`IMathGroupingCharacter`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter)
+* enumeration [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

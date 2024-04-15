@@ -21,5 +21,6 @@ def format(self):
 
 ### See Also
 * class [`IFormat`](/slides/python-net/aspose.slides.charts/iformat)
+* class [`Marker`](/slides/python-net/aspose.slides.charts/marker)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

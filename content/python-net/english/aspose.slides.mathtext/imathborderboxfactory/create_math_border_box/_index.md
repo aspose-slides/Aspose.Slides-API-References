@@ -25,7 +25,7 @@ def create_math_border_box(self, element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | math element to apply border box |
+| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply border box |
 
 
 
@@ -46,19 +46,21 @@ def create_math_border_box(self, element, hide_top, hide_bottom, hide_left, hide
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | IMathElement | math element to apply border box |
-| hide_top | bool | Hide Top Edge |
-| hide_bottom | bool | Hide Bottom Edge |
-| hide_left | bool | Hide Left Edge |
-| hide_right | bool | Hide Right Edge |
-| strikethrough_horizontal | bool | Border Box Strikethrough Horizontal |
-| strikethrough_vertical | bool | Border Box Strikethrough Vertical |
-| strikethrough_bottom_left_to_top_right | bool | Border Box Strikethrough Bottom-Left to Top-Right |
-| strikethrough_top_left_to_bottom_right | bool | Border Box Strikethrough Top-Left to Bottom-Right |
+| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply border box |
+| hide_top | **bool** | Hide Top Edge |
+| hide_bottom | **bool** | Hide Bottom Edge |
+| hide_left | **bool** | Hide Left Edge |
+| hide_right | **bool** | Hide Right Edge |
+| strikethrough_horizontal | **bool** | Border Box Strikethrough Horizontal |
+| strikethrough_vertical | **bool** | Border Box Strikethrough Vertical |
+| strikethrough_bottom_left_to_top_right | **bool** | Border Box Strikethrough Bottom-Left to Top-Right |
+| strikethrough_top_left_to_bottom_right | **bool** | Border Box Strikethrough Top-Left to Bottom-Right |
 
 
 
 ### See Also
+* class [`IMathBorderBox`](/slides/python-net/aspose.slides.mathtext/imathborderbox)
 * class [`IMathBorderBoxFactory`](/slides/python-net/aspose.slides.mathtext/imathborderboxfactory)
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

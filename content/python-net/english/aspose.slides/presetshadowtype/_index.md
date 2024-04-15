@@ -7,7 +7,7 @@ url: /aspose.slides/presetshadowtype/
 ---
 
 
-## PresetShadowType class
+## PresetShadowType enumeration
 
 Represents a preset for a shadow effect.
 

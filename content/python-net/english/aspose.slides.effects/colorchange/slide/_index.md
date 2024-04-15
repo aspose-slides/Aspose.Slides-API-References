@@ -17,5 +17,6 @@ def slide(self):
 ```
 
 ### See Also
+* class [`ColorChange`](/slides/python-net/aspose.slides.effects/colorchange)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

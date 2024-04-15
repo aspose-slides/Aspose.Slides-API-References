@@ -21,18 +21,18 @@ The ProtectionManager type exposes the following members:
 | [`is_encrypted`](/slides/python-net/aspose.slides/protectionmanager/is_encrypted/) | Gets a value indicating whether this instance is encrypted.<br/>            Read-only **bool**. |
 | [`is_only_document_properties_loaded`](/slides/python-net/aspose.slides/protectionmanager/is_only_document_properties_loaded/) | This property makes sense, if presentation file is password protected and document <br/>            properties of this file are public.<br/>            Value of true means that only document properties are loaded from an encrypted <br/>            presentation file without use of password.<br/>            Value of false means that entire encrypted presentation is loaded with use of right <br/>            password, not only document properties are loaded.<br/>            If presentation isn't encrypted then property value is always false.<br/>            If document properties of an encrypted file aren't public then property value is always false.<br/>            If Presentation.EncryptDocumentProperties is true than IsOnlyDocumentPropertiesLoaded <br/>            property value is always false.<br/>            Read-only **bool**. |
 | [`is_write_protected`](/slides/python-net/aspose.slides/protectionmanager/is_write_protected/) | Gets a value indicating whether this presentation is write protected.<br/>            Read-only **bool**. |
-| [`encryption_password`](/slides/python-net/aspose.slides/protectionmanager/encryption_password/) | Gets the password which is used for presentation encryption.<br/>            Read-only **string**. |
+| [`encryption_password`](/slides/python-net/aspose.slides/protectionmanager/encryption_password/) | Gets the password which is used for presentation encryption.<br/>            Read-only **str**. |
 | [`read_only_recommended`](/slides/python-net/aspose.slides/protectionmanager/read_only_recommended/) | Gets or sets read-only recommendation.<br/>            Read/write **bool**. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`encrypt`](/slides/python-net/aspose.slides/protectionmanager/encrypt/#string) | Encrypts Presentation with specified password. |
+| [`encrypt`](/slides/python-net/aspose.slides/protectionmanager/encrypt/#str) | Encrypts Presentation with specified password. |
 | [`remove_encryption`](/slides/python-net/aspose.slides/protectionmanager/remove_encryption/#) | Removes the encryption. |
-| [`set_write_protection`](/slides/python-net/aspose.slides/protectionmanager/set_write_protection/#string) | Set write protection for this presentation with specified password. |
+| [`set_write_protection`](/slides/python-net/aspose.slides/protectionmanager/set_write_protection/#str) | Set write protection for this presentation with specified password. |
 | [`remove_write_protection`](/slides/python-net/aspose.slides/protectionmanager/remove_write_protection/#) | Removes write protection for this presentation. |
-| [`check_write_protection`](/slides/python-net/aspose.slides/protectionmanager/check_write_protection/#string) | Determines whether a presentation is a password protected to modify. |
+| [`check_write_protection`](/slides/python-net/aspose.slides/protectionmanager/check_write_protection/#str) | Determines whether a presentation is a password protected to modify. |
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

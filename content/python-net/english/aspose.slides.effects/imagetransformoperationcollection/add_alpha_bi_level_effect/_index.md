@@ -25,11 +25,12 @@ def add_alpha_bi_level_effect(self, threshold):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| threshold | float | The threshold value for the alpha bi-level effect. |
+| threshold | **float** | The threshold value for the alpha bi-level effect. |
 
 
 
 ### See Also
+* class [`IAlphaBiLevel`](/slides/python-net/aspose.slides.effects/ialphabilevel)
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

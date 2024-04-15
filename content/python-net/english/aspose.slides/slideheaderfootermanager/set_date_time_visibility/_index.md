@@ -20,7 +20,7 @@ def set_date_time_visibility(self, is_visible):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| is_visible | bool | true - makes a date-time placeholder visible, otherwise - hides it. |
+| is_visible | **bool** | true - makes a date-time placeholder visible, otherwise - hides it. |
 
 
 

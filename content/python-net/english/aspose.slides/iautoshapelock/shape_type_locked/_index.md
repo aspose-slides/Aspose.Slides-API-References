@@ -23,5 +23,6 @@ def shape_type_locked(self, value):
 ```
 
 ### See Also
+* class [`IAutoShapeLock`](/slides/python-net/aspose.slides/iautoshapelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

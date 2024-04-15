@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_empty_section {#string-int}
+## add_empty_section {#str-int}
 Add empty section to specified position of the collection.
 
 ### Returns
@@ -25,12 +25,13 @@ def add_empty_section(self, name, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | string | Name of the section |
-| index | int | Index of new section. |
+| name | **str** | Name of the section |
+| index | **int** | Index of new section. |
 
 
 
 ### See Also
+* class [`ISection`](/slides/python-net/aspose.slides/isection)
 * class [`ISectionCollection`](/slides/python-net/aspose.slides/isectioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

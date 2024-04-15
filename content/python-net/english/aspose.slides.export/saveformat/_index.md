@@ -7,7 +7,7 @@ url: /aspose.slides.export/saveformat/
 ---
 
 
-## SaveFormat class
+## SaveFormat enumeration
 
 Constants which define the format of a saved presentation.
 

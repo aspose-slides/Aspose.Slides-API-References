@@ -23,5 +23,7 @@ def autofit_type(self, value):
 ```
 
 ### See Also
+* class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
+* enumeration [`TextAutofitType`](/slides/python-net/aspose.slides/textautofittype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_cell {#int-string}
+## get_cell {#int-str}
 Gets the cell that can be used for chart series or categories
 
 ### Returns
@@ -25,12 +25,12 @@ def get_cell(self, worksheet_index, cell_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int | Index of the worksheet. |
-| cell_name | string | Name of the cell. |
+| worksheet_index | **int** | Index of the worksheet. |
+| cell_name | **str** | Name of the cell. |
 
 
 
-## get_cell {#string-int-int}
+## get_cell {#str-int-int}
 Gets the cell that can be used for chart series or categories
 
 ### Returns
@@ -47,9 +47,9 @@ def get_cell(self, worksheet_name, row, column):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_name | string | Name of the worksheet. |
-| row | int | The row. |
-| column | int | The column. |
+| worksheet_name | **str** | Name of the worksheet. |
+| row | **int** | The row. |
+| column | **int** | The column. |
 
 
 
@@ -70,13 +70,13 @@ def get_cell(self, worksheet_index, row, column):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int | Index of the worksheet. |
-| row | int | The row. |
-| column | int | The column. |
+| worksheet_index | **int** | Index of the worksheet. |
+| row | **int** | The row. |
+| column | **int** | The column. |
 
 
 
-## get_cell {#int-string-any}
+## get_cell {#int-str-any}
 Gets the cell that can be used for chart series or categories
 
 ### Returns
@@ -93,9 +93,9 @@ def get_cell(self, worksheet_index, cell_name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int | Index of the worksheet. |
-| cell_name | string | Name of the cell. |
-| value | any | The value. |
+| worksheet_index | **int** | Index of the worksheet. |
+| cell_name | **str** | Name of the cell. |
+| value | **any** | The value. |
 
 
 
@@ -116,14 +116,15 @@ def get_cell(self, worksheet_index, row, column, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int | Index of the worksheet. |
-| row | int | The row. |
-| column | int | The column. |
-| value | any | The value. |
+| worksheet_index | **int** | Index of the worksheet. |
+| row | **int** | The row. |
+| column | **int** | The column. |
+| value | **any** | The value. |
 
 
 
 ### See Also
 * class [`ChartDataWorkbook`](/slides/python-net/aspose.slides.charts/chartdataworkbook)
+* class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

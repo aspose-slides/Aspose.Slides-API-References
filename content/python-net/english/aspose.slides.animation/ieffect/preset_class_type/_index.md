@@ -23,5 +23,7 @@ def preset_class_type(self, value):
 ```
 
 ### See Also
+* enumeration [`EffectPresetClassType`](/slides/python-net/aspose.slides.animation/effectpresetclasstype)
+* class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

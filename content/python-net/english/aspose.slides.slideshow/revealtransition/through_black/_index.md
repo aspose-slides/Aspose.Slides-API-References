@@ -23,5 +23,6 @@ def through_black(self, value):
 ```
 
 ### See Also
+* class [`RevealTransition`](/slides/python-net/aspose.slides.slideshow/revealtransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,6 +20,7 @@ def format(self):
 ```
 
 ### See Also
+* class [`DataTable`](/slides/python-net/aspose.slides.charts/datatable)
 * class [`IFormat`](/slides/python-net/aspose.slides.charts/iformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

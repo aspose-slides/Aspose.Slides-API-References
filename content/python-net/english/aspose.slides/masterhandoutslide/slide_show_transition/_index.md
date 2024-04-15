@@ -22,5 +22,6 @@ def slide_show_transition(self):
 
 ### See Also
 * class [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)
+* class [`MasterHandoutSlide`](/slides/python-net/aspose.slides/masterhandoutslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

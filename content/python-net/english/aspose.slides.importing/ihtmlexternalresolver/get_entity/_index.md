@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_entity {#string}
+## get_entity {#str}
 
 
 
@@ -20,7 +20,7 @@ def get_entity(self, absolute_uri):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| absolute_uri | string |  |
+| absolute_uri | **str** |  |
 
 
 

@@ -25,12 +25,14 @@ def insert_empty_slide(self, index, layout):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index of a new slide. |
-| layout | ILayoutSlide | Layout for a slide. |
+| index | **int** | Index of a new slide. |
+| layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Layout for a slide. |
 
 
 
 ### See Also
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

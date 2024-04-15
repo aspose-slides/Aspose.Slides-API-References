@@ -25,12 +25,12 @@ def set_sub_superscript_on_the_right(self, subscript, superscript):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| subscript | IMathElement | Subscript (lower index on the right) |
-| superscript | IMathElement | Superscript (upper index on the right) |
+| subscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Subscript (lower index on the right) |
+| superscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Superscript (upper index on the right) |
 
 
 
-## set_sub_superscript_on_the_right {#string-string}
+## set_sub_superscript_on_the_right {#str-str}
 Creates subscript and superscript on the right
 
 ### Returns
@@ -47,13 +47,14 @@ def set_sub_superscript_on_the_right(self, subscript, superscript):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| subscript | string | Subscript (lower index on the right) |
-| superscript | string | Superscript (upper index on the right) |
+| subscript | **str** | Subscript (lower index on the right) |
+| superscript | **str** | Superscript (upper index on the right) |
 
 
 
 ### See Also
 * class [`BaseScript`](/slides/python-net/aspose.slides.mathtext/basescript)
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`IMathRightSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

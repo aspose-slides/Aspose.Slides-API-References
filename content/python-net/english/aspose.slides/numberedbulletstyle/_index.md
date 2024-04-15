@@ -7,7 +7,7 @@ url: /aspose.slides/numberedbulletstyle/
 ---
 
 
-## NumberedBulletStyle class
+## NumberedBulletStyle enumeration
 
 Represents the style of the numbered bullets.
 

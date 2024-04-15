@@ -20,7 +20,7 @@ def split_by_height(self, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| height | float | Height of a row. |
+| height | **float** | Height of a row. |
 
 
 

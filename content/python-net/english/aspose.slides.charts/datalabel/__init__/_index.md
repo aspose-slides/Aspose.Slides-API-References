@@ -20,11 +20,12 @@ def __init__(self, parent_immediate):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| parent_immediate | IChartDataPoint | Parent ChartDataPoint. |
+| parent_immediate | [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint) | Parent ChartDataPoint. |
 
 
 
 ### See Also
 * class [`DataLabel`](/slides/python-net/aspose.slides.charts/datalabel)
+* class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

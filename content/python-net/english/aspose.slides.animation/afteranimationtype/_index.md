@@ -7,7 +7,7 @@ url: /aspose.slides.animation/afteranimationtype/
 ---
 
 
-## AfterAnimationType class
+## AfterAnimationType enumeration
 
 Represents the after animation type of an animation effect.
 

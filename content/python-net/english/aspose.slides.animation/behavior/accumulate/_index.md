@@ -23,5 +23,7 @@ def accumulate(self, value):
 ```
 
 ### See Also
+* class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
+* enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

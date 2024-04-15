@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathlimitlocations/
 ---
 
 
-## MathLimitLocations class
+## MathLimitLocations enumeration
 
 Location of limits (subscript/superscript) in n-ary operators.
 

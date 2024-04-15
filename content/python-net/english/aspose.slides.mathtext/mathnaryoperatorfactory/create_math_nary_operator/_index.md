@@ -25,8 +25,8 @@ def create_math_nary_operator(self, operator_symbol, base_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operator_symbol | char | The operator sign |
-| base_argument | IMathElement | Base argument to apply operator |
+| operator_symbol | **char** | The operator sign |
+| base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument to apply operator |
 
 
 
@@ -47,9 +47,9 @@ def create_math_nary_operator(self, operator_symbol, base_argument, lower_limit)
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operator_symbol | char | The operator sign |
-| base_argument | IMathElement | Base argument to apply operator |
-| lower_limit | IMathElement | Lower limit |
+| operator_symbol | **char** | The operator sign |
+| base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument to apply operator |
+| lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
 
 
 
@@ -70,14 +70,16 @@ def create_math_nary_operator(self, operator_symbol, base_argument, lower_limit,
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| operator_symbol | char | The operator sign |
-| base_argument | IMathElement | Base argument to apply operator |
-| lower_limit | IMathElement | Lower limit |
-| upper_limit | IMathElement | Upper limit |
+| operator_symbol | **char** | The operator sign |
+| base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument to apply operator |
+| lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
+| upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Upper limit |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
+* class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * class [`MathNaryOperatorFactory`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatorfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

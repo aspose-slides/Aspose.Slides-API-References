@@ -24,5 +24,6 @@ def as_i_fill_param_source(self):
 ```
 
 ### See Also
+* class [`IBackgroundEffectiveData`](/slides/python-net/aspose.slides/ibackgroundeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

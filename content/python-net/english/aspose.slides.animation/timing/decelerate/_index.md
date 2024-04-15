@@ -23,5 +23,6 @@ def decelerate(self, value):
 ```
 
 ### See Also
+* class [`Timing`](/slides/python-net/aspose.slides.animation/timing)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

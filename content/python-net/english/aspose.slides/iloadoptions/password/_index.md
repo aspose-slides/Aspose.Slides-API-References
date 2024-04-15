@@ -10,7 +10,7 @@ weight: 100
 
 ## password property
 Gets or sets the password.
-            Read-write **string**.
+            Read-write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def password(self, value):
 ```
 
 ### See Also
+* class [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

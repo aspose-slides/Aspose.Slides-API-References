@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## to_pdf {#string-string}
+## to_pdf {#str-str}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
@@ -20,12 +20,12 @@ def to_pdf(self, pres_path, out_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres_path | string | Path of the input presentation |
-| out_path | string | Output path |
+| pres_path | **str** | Path of the input presentation |
+| out_path | **str** | Output path |
 
 
 
-## to_pdf {#presentation-string}
+## to_pdf {#presentation-str}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
@@ -37,12 +37,12 @@ def to_pdf(self, pres, out_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation | Input presentation |
-| out_path | string | Output path |
+| pres | [`Presentation`](/slides/python-net/aspose.slides/presentation) | Input presentation |
+| out_path | **str** | Output path |
 
 
 
-## to_pdf {#string-string-asposeslidesexportipdfoptions}
+## to_pdf {#str-str-asposeslidesexportipdfoptions}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
@@ -54,13 +54,13 @@ def to_pdf(self, pres_path, out_path, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres_path | string | Path of the input presentation |
-| out_path | string | Output path |
-| options | [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions) | Output PDF options |
+| pres_path | **str** | Path of the input presentation |
+| out_path | **str** | Output path |
+| options | **aspose.slides.export.IPdfOptions** | Output PDF options |
 
 
 
-## to_pdf {#presentation-string-asposeslidesexportipdfoptions}
+## to_pdf {#presentation-str-asposeslidesexportipdfoptions}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
@@ -72,9 +72,9 @@ def to_pdf(self, pres, out_path, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation | Input presentation |
-| out_path | string | Output path |
-| options | [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions) | Output PDF options |
+| pres | [`Presentation`](/slides/python-net/aspose.slides/presentation) | Input presentation |
+| out_path | **str** | Output path |
+| options | **aspose.slides.export.IPdfOptions** | Output PDF options |
 
 
 

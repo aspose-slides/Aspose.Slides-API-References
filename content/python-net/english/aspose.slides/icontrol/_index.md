@@ -17,7 +17,7 @@ The IControl type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`name`](/slides/python-net/aspose.slides/icontrol/name/) | Returns the name of this control.<br/>            Read/write **string**. |
+| [`name`](/slides/python-net/aspose.slides/icontrol/name/) | Returns the name of this control.<br/>            Read/write **str**. |
 | [`class_id`](/slides/python-net/aspose.slides/icontrol/class_id/) | Gets class id of this control.<br/>            Read-only **System.Guid**. |
 | [`substitute_picture_format`](/slides/python-net/aspose.slides/icontrol/substitute_picture_format/) | Returns ControlEx image fill properties object.<br/>            Read-only [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
 | [`frame`](/slides/python-net/aspose.slides/icontrol/frame/) | Returns or sets control's frame.<br/>            Read/write [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe). |

@@ -60,12 +60,12 @@ The ISlide type exposes the following members:
 | [`render_to_graphics`](/slides/python-net/aspose.slides/islide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics) | Renders certain slide to a Graphics object. |
 | [`render_to_graphics`](/slides/python-net/aspose.slides/islide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-float-float) | Renders certain slide to a Graphics object with custom scaling. |
 | [`render_to_graphics`](/slides/python-net/aspose.slides/islide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-asposepydrawingsize) | Renders certain slide to a Graphics object using specified size. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/islide/write_as_svg/#systemiostream) | Saves content of slide as SVG file. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/islide/write_as_svg/#systemiostream-asposeslidesexportisvgoptions) | Saves content of slide as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/islide/write_as_svg/#iorawiobase) | Saves content of slide as SVG file. |
+| [`write_as_svg`](/slides/python-net/aspose.slides/islide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of slide as SVG file. |
 | [`get_slide_comments`](/slides/python-net/aspose.slides/islide/get_slide_comments/#icommentauthor) | Returns all slide comments added by specific author. |
 | [`remove`](/slides/python-net/aspose.slides/islide/remove/#) | Removes slide from presentation. |
 | [`reset`](/slides/python-net/aspose.slides/islide/reset/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/islide/find_shape_by_alt_text/#string) |  |
+| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/islide/find_shape_by_alt_text/#str) |  |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/islide/join_portions_with_same_formatting/#) |  |
 | [`equals`](/slides/python-net/aspose.slides/islide/equals/#ibaseslide) |  |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/islide/create_theme_effective/#) |  |

@@ -20,5 +20,6 @@ def alternative_text_title(self, value):
 ```
 
 ### See Also
+* class [`IZoomObject`](/slides/python-net/aspose.slides/izoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

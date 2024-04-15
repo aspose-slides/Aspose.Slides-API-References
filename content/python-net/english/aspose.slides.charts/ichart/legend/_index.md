@@ -20,6 +20,7 @@ def legend(self):
 ```
 
 ### See Also
+* class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * class [`ILegend`](/slides/python-net/aspose.slides.charts/ilegend)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

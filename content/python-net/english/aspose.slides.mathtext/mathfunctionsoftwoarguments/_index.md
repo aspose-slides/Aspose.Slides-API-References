@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 
 
-## MathFunctionsOfTwoArguments class
+## MathFunctionsOfTwoArguments enumeration
 
 Common mathematical functions of two arguments
 

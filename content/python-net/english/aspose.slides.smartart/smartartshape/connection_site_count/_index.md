@@ -20,5 +20,6 @@ def connection_site_count(self):
 ```
 
 ### See Also
+* class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)

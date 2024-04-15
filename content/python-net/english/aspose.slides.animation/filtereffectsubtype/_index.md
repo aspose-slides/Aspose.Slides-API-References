@@ -7,7 +7,7 @@ url: /aspose.slides.animation/filtereffectsubtype/
 ---
 
 
-## FilterEffectSubtype class
+## FilterEffectSubtype enumeration
 
 Represents filter effect subtypes.
 

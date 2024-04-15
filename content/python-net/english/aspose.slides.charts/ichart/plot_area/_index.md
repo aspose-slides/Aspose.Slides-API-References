@@ -20,6 +20,7 @@ def plot_area(self):
 ```
 
 ### See Also
+* class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * class [`IChartPlotArea`](/slides/python-net/aspose.slides.charts/ichartplotarea)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

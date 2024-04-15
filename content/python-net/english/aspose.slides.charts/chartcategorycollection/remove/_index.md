@@ -20,7 +20,7 @@ def remove(self, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| value | IChartCategory | The value. |
+| value | [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory) | The value. |
 
 ## Exceptions
 
@@ -32,5 +32,6 @@ def remove(self, value):
 
 ### See Also
 * class [`ChartCategoryCollection`](/slides/python-net/aspose.slides.charts/chartcategorycollection)
+* class [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

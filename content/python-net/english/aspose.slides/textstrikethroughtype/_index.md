@@ -7,7 +7,7 @@ url: /aspose.slides/textstrikethroughtype/
 ---
 
 
-## TextStrikethroughType class
+## TextStrikethroughType enumeration
 
 Represents the type of text strikethrough.
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_html {#string}
+## add_html {#str}
 Adds formatted HTML text.
 
 
@@ -20,7 +20,7 @@ def add_html(self, html):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| html | string | Text to add. |
+| html | **str** | Text to add. |
 
 
 
@@ -36,7 +36,7 @@ def add_html(self, html):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| html | List[char] | Text to add. |
+| html | **List[char]** | Text to add. |
 
 
 
@@ -52,9 +52,9 @@ def add_html(self, html, start_index, length):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| html | List[char] | Text to add. |
-| start_index | int | Start index of the portion to add. |
-| length | int | Length of the portion to add. |
+| html | **List[char]** | Text to add. |
+| start_index | **int** | Start index of the portion to add. |
+| length | **int** | Length of the portion to add. |
 
 
 

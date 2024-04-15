@@ -7,7 +7,7 @@ url: /aspose.slides.export/svgevent/
 ---
 
 
-## SvgEvent class
+## SvgEvent enumeration
 
 Represents options for SVG shape.
 

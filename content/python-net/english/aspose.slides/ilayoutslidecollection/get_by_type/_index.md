@@ -25,12 +25,13 @@ def get_by_type(self, type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | SlideLayoutType | A type of layout slide to find. |
+| type | [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype) | A type of layout slide to find. |
 
 
 
 ### See Also
 * class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`ILayoutSlideCollection`](/slides/python-net/aspose.slides/ilayoutslidecollection)
+* enumeration [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

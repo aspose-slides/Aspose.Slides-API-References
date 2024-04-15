@@ -9,7 +9,7 @@ weight: 10
 
 
 ## get_frame {#}
-Get the frame for the current time position previously set with the **Aspose.Slides.Export.IPresentationAnimationPlayer.SetTimePosition(Syste.** method.
+Get the frame for the current time position previously set with the **Aspose.Slides.Export.IPresentationAnimationPlayer.SetTimePosition(Syste** method.
 
 ### Returns
 

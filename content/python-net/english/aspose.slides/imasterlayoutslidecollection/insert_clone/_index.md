@@ -25,8 +25,8 @@ def insert_clone(self, index, source_layout):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | int | Index of new slide. |
-| source_layout | ILayoutSlide | Slide to clone. |
+| index | **int** | Index of new slide. |
+| source_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Slide to clone. |
 
 ### Remarks
 
@@ -36,6 +36,7 @@ New layout will be linked with parent master slide for this layout slides collec
 
 
 ### See Also
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * class [`IMasterLayoutSlideCollection`](/slides/python-net/aspose.slides/imasterlayoutslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

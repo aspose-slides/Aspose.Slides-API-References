@@ -25,12 +25,13 @@ def get_all_text_frames(self, pres, with_masters):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | IPresentation | Scanned presentation. |
-| with_masters | bool | Determines whether master slides should be scanned. |
+| pres | [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) | Scanned presentation. |
+| with_masters | **bool** | Determines whether master slides should be scanned. |
 
 
 
 ### See Also
+* class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * class [`SlideUtil`](/slides/python-net/aspose.slides.util/slideutil)
 * class [`TextFrame`](/slides/python-net/aspose.slides/textframe)
 * module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)

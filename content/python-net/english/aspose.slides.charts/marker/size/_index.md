@@ -23,5 +23,6 @@ def size(self, value):
 ```
 
 ### See Also
+* class [`Marker`](/slides/python-net/aspose.slides.charts/marker)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

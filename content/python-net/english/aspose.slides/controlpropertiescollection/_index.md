@@ -25,8 +25,8 @@ The ControlPropertiesCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/controlpropertiescollection/add/#string-string) | Adds a property to the collection. |
-| [`remove`](/slides/python-net/aspose.slides/controlpropertiescollection/remove/#string) | Removes a property with the specified name. |
+| [`add`](/slides/python-net/aspose.slides/controlpropertiescollection/add/#str-str) | Adds a property to the collection. |
+| [`remove`](/slides/python-net/aspose.slides/controlpropertiescollection/remove/#str) | Removes a property with the specified name. |
 | [`clear`](/slides/python-net/aspose.slides/controlpropertiescollection/clear/#) | Removes all properties. |
 
 ### See Also

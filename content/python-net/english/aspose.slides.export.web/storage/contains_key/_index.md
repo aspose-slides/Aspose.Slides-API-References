@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## contains_key {#string}
+## contains_key {#str}
 Determines whether the storage contains an element with the specified key.
 
 ### Returns
@@ -25,7 +25,7 @@ def contains_key(self, key):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| key | string | Key of the value. |
+| key | **str** | Key of the value. |
 
 
 

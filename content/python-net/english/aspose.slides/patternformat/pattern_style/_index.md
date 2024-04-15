@@ -23,5 +23,7 @@ def pattern_style(self, value):
 ```
 
 ### See Also
+* class [`PatternFormat`](/slides/python-net/aspose.slides/patternformat)
+* enumeration [`PatternStyle`](/slides/python-net/aspose.slides/patternstyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

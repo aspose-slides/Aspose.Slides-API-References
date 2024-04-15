@@ -23,5 +23,7 @@ def restart(self, value):
 ```
 
 ### See Also
+* enumeration [`EffectRestartType`](/slides/python-net/aspose.slides.animation/effectrestarttype)
+* class [`Timing`](/slides/python-net/aspose.slides.animation/timing)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

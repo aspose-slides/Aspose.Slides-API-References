@@ -25,13 +25,13 @@ def nary(self, type, lower_limit, upper_limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | MathNaryOperatorTypes | The N-ary operator type |
-| lower_limit | IMathElement | The lower limit |
-| upper_limit | IMathElement | The upper limit |
+| type | [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes) | The N-ary operator type |
+| lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The lower limit |
+| upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The upper limit |
 
 
 
-## nary {#mathnaryoperatortypes-string-string}
+## nary {#mathnaryoperatortypes-str-str}
 Creates a N-ary operator
 
 ### Returns
@@ -48,14 +48,16 @@ def nary(self, type, lower_limit, upper_limit):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| type | MathNaryOperatorTypes | The N-ary operator type |
-| lower_limit | string | The lower limit |
-| upper_limit | string | The upper limit |
+| type | [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes) | The N-ary operator type |
+| lower_limit | **str** | The lower limit |
+| upper_limit | **str** | The upper limit |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * class [`MathAccent`](/slides/python-net/aspose.slides.mathtext/mathaccent)
+* enumeration [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

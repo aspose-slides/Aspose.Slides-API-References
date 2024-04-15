@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## set_external_hyperlink_mouse_over {#string}
+## set_external_hyperlink_mouse_over {#str}
 Sets external hyperlink mouse over.
 
 ### Returns
@@ -25,11 +25,12 @@ def set_external_hyperlink_mouse_over(self, url):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| url | string | Hyperlink URL. |
+| url | **str** | Hyperlink URL. |
 
 
 
 ### See Also
 * class [`HyperlinkManager`](/slides/python-net/aspose.slides/hyperlinkmanager)
+* class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

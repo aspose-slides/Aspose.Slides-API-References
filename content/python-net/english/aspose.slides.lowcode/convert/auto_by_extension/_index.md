@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## auto_by_extension {#string-string}
+## auto_by_extension {#str-str}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) using the passed output path extension to determine the required export format.
 
 
@@ -20,8 +20,8 @@ def auto_by_extension(self, pres_path, out_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres_path | string | Path of the input presentation |
-| out_path | string | Output path |
+| pres_path | **str** | Path of the input presentation |
+| out_path | **str** | Output path |
 
 ## Exceptions
 

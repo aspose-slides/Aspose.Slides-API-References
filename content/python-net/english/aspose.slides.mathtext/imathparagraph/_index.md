@@ -32,7 +32,7 @@ The IMathParagraph type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`write_as_math_ml`](/slides/python-net/aspose.slides.mathtext/imathparagraph/write_as_math_ml/#systemiostream) | Saves content of this [`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph) as MathML |
+| [`write_as_math_ml`](/slides/python-net/aspose.slides.mathtext/imathparagraph/write_as_math_ml/#iorawiobase) | Saves content of this [`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph) as MathML |
 | [`to_latex`](/slides/python-net/aspose.slides.mathtext/imathparagraph/to_latex/#) | Gets mathematical equation in LaTeX format |
 | [`add`](/slides/python-net/aspose.slides.mathtext/imathparagraph/add/#imathblock) |  |
 | [`insert`](/slides/python-net/aspose.slides.mathtext/imathparagraph/insert/#int-imathblock) |  |

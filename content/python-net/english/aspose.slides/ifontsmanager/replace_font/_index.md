@@ -20,7 +20,7 @@ def replace_font(self, subst_rule):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| subst_rule | IFontSubstRule | Font substitution info |
+| subst_rule | [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) | Font substitution info |
 
 
 
@@ -36,7 +36,7 @@ def replace_font(self, subst_rules):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| subst_rules | IFontSubstRuleCollection | Font substitution info collection |
+| subst_rules | [`IFontSubstRuleCollection`](/slides/python-net/aspose.slides/ifontsubstrulecollection) | Font substitution info collection |
 
 
 
@@ -52,13 +52,15 @@ def replace_font(self, source_font, dest_font):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_font | IFontData | Source font |
-| dest_font | IFontData | Destination font |
+| source_font | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Source font |
+| dest_font | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Destination font |
 
 
 
 ### See Also
+* class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * class [`IFontsManager`](/slides/python-net/aspose.slides/ifontsmanager)
 * class [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule)
+* class [`IFontSubstRuleCollection`](/slides/python-net/aspose.slides/ifontsubstrulecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -17,5 +17,6 @@ def as_i_enumerable(self):
 ```
 
 ### See Also
+* class [`IChartSeriesCollection`](/slides/python-net/aspose.slides.charts/ichartseriescollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

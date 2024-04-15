@@ -24,5 +24,6 @@ def image(self, value):
 
 ### See Also
 * class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
+* class [`IZoomObject`](/slides/python-net/aspose.slides/izoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

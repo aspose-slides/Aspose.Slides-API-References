@@ -25,5 +25,7 @@ def text_vertical_type(self, value):
 ```
 
 ### See Also
+* class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
+* enumeration [`TextVerticalType`](/slides/python-net/aspose.slides/textverticaltype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

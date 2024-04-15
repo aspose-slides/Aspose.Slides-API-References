@@ -25,11 +25,12 @@ def svg(self, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | SVGOptions | Options for SVG export. |
+| options | [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions) | Options for SVG export. |
 
 
 
 ### See Also
 * class [`SlideImageFormat`](/slides/python-net/aspose.slides.export/slideimageformat)
+* class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

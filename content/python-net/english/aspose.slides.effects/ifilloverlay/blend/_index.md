@@ -23,5 +23,7 @@ def blend(self, value):
 ```
 
 ### See Also
+* enumeration [`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode)
+* class [`IFillOverlay`](/slides/python-net/aspose.slides.effects/ifilloverlay)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

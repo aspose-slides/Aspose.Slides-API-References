@@ -20,5 +20,6 @@ def progress_callback(self, value):
 ```
 
 ### See Also
+* class [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

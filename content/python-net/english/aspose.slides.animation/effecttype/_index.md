@@ -7,7 +7,7 @@ url: /aspose.slides.animation/effecttype/
 ---
 
 
-## EffectType class
+## EffectType enumeration
 
 Represents the type of an animation effect.
 

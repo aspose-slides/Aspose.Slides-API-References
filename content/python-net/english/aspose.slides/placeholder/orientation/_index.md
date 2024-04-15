@@ -20,5 +20,7 @@ def orientation(self):
 ```
 
 ### See Also
+* enumeration [`Orientation`](/slides/python-net/aspose.slides/orientation)
+* class [`Placeholder`](/slides/python-net/aspose.slides/placeholder)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

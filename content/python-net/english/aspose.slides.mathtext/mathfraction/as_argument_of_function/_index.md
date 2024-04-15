@@ -25,11 +25,11 @@ def as_argument_of_function(self, function_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_name | IMathElement | Function name |
+| function_name | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Function name |
 
 
 
-## as_argument_of_function {#string}
+## as_argument_of_function {#str}
 Takes specified function using this instance as the argument
 
 ### Returns
@@ -46,7 +46,7 @@ def as_argument_of_function(self, function_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_name | string | Function name |
+| function_name | **str** | Function name |
 
 
 
@@ -67,7 +67,7 @@ def as_argument_of_function(self, function_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_type | MathFunctionsOfOneArgument | One of the common function type of one argument |
+| function_type | [`MathFunctionsOfOneArgument`](/slides/python-net/aspose.slides.mathtext/mathfunctionsofoneargument) | One of the common function type of one argument |
 
 
 
@@ -88,12 +88,12 @@ def as_argument_of_function(self, function_type, additional_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_type | MathFunctionsOfTwoArguments | One of the common function type of two arguments: Log, Lim, Min, Max |
-| additional_argument | IMathElement | Additional argument depending on the type of function |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/aspose.slides.mathtext/mathfunctionsoftwoarguments) | One of the common function type of two arguments: Log, Lim, Min, Max |
+| additional_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Additional argument depending on the type of function |
 
 
 
-## as_argument_of_function {#mathfunctionsoftwoarguments-string}
+## as_argument_of_function {#mathfunctionsoftwoarguments-str}
 Takes specified function using this instance as the argument and specified additional argument
 
 ### Returns
@@ -110,13 +110,16 @@ def as_argument_of_function(self, function_type, additional_argument):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| function_type | MathFunctionsOfTwoArguments | One of the common function type of two arguments: Log, Lim, Min, Max |
-| additional_argument | string | Additional argument depending on the type of function |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/aspose.slides.mathtext/mathfunctionsoftwoarguments) | One of the common function type of two arguments: Log, Lim, Min, Max |
+| additional_argument | **str** | Additional argument depending on the type of function |
 
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`IMathFunction`](/slides/python-net/aspose.slides.mathtext/imathfunction)
 * class [`MathFraction`](/slides/python-net/aspose.slides.mathtext/mathfraction)
+* enumeration [`MathFunctionsOfOneArgument`](/slides/python-net/aspose.slides.mathtext/mathfunctionsofoneargument)
+* enumeration [`MathFunctionsOfTwoArguments`](/slides/python-net/aspose.slides.mathtext/mathfunctionsoftwoarguments)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -20,5 +20,6 @@ def is_header_visible(self):
 ```
 
 ### See Also
+* class [`IBaseHandoutNotesSlideHeaderFooterManag`](/slides/python-net/aspose.slides/ibasehandoutnotesslideheaderfootermanag)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

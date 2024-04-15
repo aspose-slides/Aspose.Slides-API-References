@@ -30,11 +30,12 @@ def remove(self, item):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| item | IMathBlock | The object to remove from the collection. |
+| item | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | The object to remove from the collection. |
 
 
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * class [`IMathBlockCollection`](/slides/python-net/aspose.slides.mathtext/imathblockcollection)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

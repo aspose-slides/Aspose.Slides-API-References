@@ -23,8 +23,8 @@ The IBehaviorPropertyCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/add/#string) | Adds a new property to the collection. |
-| [`index_of`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/index_of/#string) | Determines the index of a specific item by property value in the **System.Collections.Generic.IList`1**. |
+| [`add`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/add/#str) | Adds a new property to the collection. |
+| [`index_of`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/index_of/#str) | Determines the index of a specific item by property value in the **System.Collections.Generic.IList`1**. |
 
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)

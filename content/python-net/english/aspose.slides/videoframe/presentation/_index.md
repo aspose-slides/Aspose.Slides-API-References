@@ -21,5 +21,6 @@ def presentation(self):
 
 ### See Also
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
+* class [`VideoFrame`](/slides/python-net/aspose.slides/videoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

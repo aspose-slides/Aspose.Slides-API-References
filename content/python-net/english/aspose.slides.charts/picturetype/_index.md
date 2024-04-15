@@ -7,7 +7,7 @@ url: /aspose.slides.charts/picturetype/
 ---
 
 
-## PictureType class
+## PictureType enumeration
 
 Determines mode of bar picture filling.
 

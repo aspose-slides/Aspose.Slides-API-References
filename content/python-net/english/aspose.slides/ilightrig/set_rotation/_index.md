@@ -22,9 +22,9 @@ def set_rotation(self, latitude, longitude, revolution):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| latitude | float | Latitude coordinate **float** |
-| longitude | float | Longitude coordinate **float** |
-| revolution | float | Revolution coordinate **float** |
+| latitude | **float** | Latitude coordinate **float** |
+| longitude | **float** | Longitude coordinate **float** |
+| revolution | **float** | Revolution coordinate **float** |
 
 
 

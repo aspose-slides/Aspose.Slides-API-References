@@ -17,14 +17,14 @@ The VbaReferenceOleTypeLib type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/__init__/#string-string) | This constructor creates new OLE Automation type library reference. |
+| [`__init__`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/__init__/#str-str) | This constructor creates new OLE Automation type library reference. |
 
 ## Properties
 
 | Property | Description |
 | :- | :- |
-| [`name`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/name/) | Represents the name of the VBA project reference.<br/>            Read/write **string**. |
-| [`libid`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/libid/) | Represents the identifier of an Automation type library.<br/>            Read/write **string**. |
+| [`name`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/name/) | Represents the name of the VBA project reference.<br/>            Read/write **str**. |
+| [`libid`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/libid/) | Represents the identifier of an Automation type library.<br/>            Read/write **str**. |
 | [`as_i_vba_reference`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/as_i_vba_reference/) |  |
 
 ### See Also

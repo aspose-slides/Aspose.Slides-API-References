@@ -7,7 +7,7 @@ url: /aspose.slides/textalignment/
 ---
 
 
-## TextAlignment class
+## TextAlignment enumeration
 
 Represents different text alignment styles.
 

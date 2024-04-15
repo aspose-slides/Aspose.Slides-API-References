@@ -7,7 +7,7 @@ url: /aspose.slides/textverticaloverflowtype/
 ---
 
 
-## TextVerticalOverflowType class
+## TextVerticalOverflowType enumeration
 
 Represents text vertical overflow type.
 

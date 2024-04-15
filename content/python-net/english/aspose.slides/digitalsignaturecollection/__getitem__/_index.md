@@ -15,5 +15,6 @@ weight: 40
 | :- | :- |
 | index |  |
 ### See Also
+* class [`DigitalSignatureCollection`](/slides/python-net/aspose.slides/digitalsignaturecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

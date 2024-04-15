@@ -18,7 +18,7 @@ The IWarningInfo type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`warning_type`](/slides/python-net/aspose.slides.warnings/iwarninginfo/warning_type/) | Returns a type of warning.<br/>            Read-only [`IWarningInfo.warning_type`](/slides/python-net/aspose.slides.warnings/iwarninginfo#warning_type). |
-| [`description`](/slides/python-net/aspose.slides.warnings/iwarninginfo/description/) | Returns a human readable description of this warning.<br/>            Read-only **string**. |
+| [`description`](/slides/python-net/aspose.slides.warnings/iwarninginfo/description/) | Returns a human readable description of this warning.<br/>            Read-only **str**. |
 
 ## Methods
 

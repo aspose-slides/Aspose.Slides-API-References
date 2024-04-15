@@ -20,5 +20,6 @@ def grow_to_match_operand_height(self, value):
 ```
 
 ### See Also
+* class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

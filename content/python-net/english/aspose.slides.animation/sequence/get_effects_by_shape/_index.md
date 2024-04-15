@@ -20,11 +20,12 @@ def get_effects_by_shape(self, shape):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| shape | IShape |  |
+| shape | [`IShape`](/slides/python-net/aspose.slides/ishape) |  |
 
 
 
 ### See Also
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`Sequence`](/slides/python-net/aspose.slides.animation/sequence)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)

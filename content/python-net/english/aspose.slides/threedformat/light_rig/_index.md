@@ -21,5 +21,6 @@ def light_rig(self):
 
 ### See Also
 * class [`ILightRig`](/slides/python-net/aspose.slides/ilightrig)
+* class [`ThreeDFormat`](/slides/python-net/aspose.slides/threedformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

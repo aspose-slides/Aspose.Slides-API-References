@@ -20,6 +20,7 @@ def side_wall(self):
 ```
 
 ### See Also
+* class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * class [`IChartWall`](/slides/python-net/aspose.slides.charts/ichartwall)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -19,5 +19,6 @@ def PRODUCT_MAJOR(self):
 ```
 
 ### See Also
+* class [`BuildVersionInfo`](/slides/python-net/aspose.slides/buildversioninfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

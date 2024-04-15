@@ -10,7 +10,7 @@ weight: 60
 
 ## as_literal_string property
 Returns or sets value as literal string.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def as_literal_string(self, value):
 ```
 
 ### See Also
+* class [`StringOrDoubleChartValue`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

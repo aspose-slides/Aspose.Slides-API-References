@@ -20,5 +20,6 @@ def x(self, value):
 ```
 
 ### See Also
+* class [`IChartTitle`](/slides/python-net/aspose.slides.charts/icharttitle)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

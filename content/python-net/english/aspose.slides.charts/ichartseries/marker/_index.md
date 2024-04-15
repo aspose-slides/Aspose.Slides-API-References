@@ -20,6 +20,7 @@ def marker(self):
 ```
 
 ### See Also
+* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * class [`IMarker`](/slides/python-net/aspose.slides.charts/imarker)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

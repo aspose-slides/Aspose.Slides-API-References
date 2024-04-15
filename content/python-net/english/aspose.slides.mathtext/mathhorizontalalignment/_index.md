@@ -7,7 +7,7 @@ url: /aspose.slides.mathtext/mathhorizontalalignment/
 ---
 
 
-## MathHorizontalAlignment class
+## MathHorizontalAlignment enumeration
 
 Horizontal Alignment
 

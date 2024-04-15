@@ -7,7 +7,7 @@ url: /aspose.slides.export/pdfaccesspermissions/
 ---
 
 
-## PdfAccessPermissions class
+## PdfAccessPermissions enumeration
 
 Contains a set of flags specifying which access permissions should be granted when the document is opened with 
             user access.

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## load_external_fonts {#liststring}
+## load_external_fonts {#liststr}
 Adds additional folders to seek fonts.
 
 
@@ -20,7 +20,7 @@ def load_external_fonts(self, directories):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| directories | List[string] | Directories to read additional fonts. |
+| directories | **List[str]** | Directories to read additional fonts. |
 
 
 

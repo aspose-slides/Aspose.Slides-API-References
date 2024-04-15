@@ -25,10 +25,10 @@ def add_summary_zoom_frame(self, x, y, width, height):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | X coordinate of a new Section Zoom frame **float**. |
-| y | float | Y coordinate of a new Section Zoom frame **float**. |
-| width | float | Width of a new Section Zoom frame **float**. |
-| height | float | Height of a new Section Zoom frame **float**. |
+| x | **float** | X coordinate of a new Section Zoom frame **float**. |
+| y | **float** | Y coordinate of a new Section Zoom frame **float**. |
+| width | **float** | Width of a new Section Zoom frame **float**. |
+| height | **float** | Height of a new Section Zoom frame **float**. |
 
 ### Remarks
 

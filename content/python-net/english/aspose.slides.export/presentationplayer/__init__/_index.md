@@ -20,12 +20,13 @@ def __init__(self, generator, fps):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| generator | PresentationAnimationsGenerator |  |
-| fps | float | Frames per second (FPS) |
+| generator | [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator) |  |
+| fps | **float** | Frames per second (FPS) |
 
 
 
 ### See Also
+* class [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator)
 * class [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

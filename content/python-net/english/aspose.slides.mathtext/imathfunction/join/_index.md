@@ -20,11 +20,11 @@ def join(self, math_element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_element | IMathElement |  |
+| math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
 
-## join {#string}
+## join {#str}
 
 
 
@@ -36,11 +36,13 @@ def join(self, math_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| math_text | string |  |
+| math_text | **str** |  |
 
 
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * class [`IMathFunction`](/slides/python-net/aspose.slides.mathtext/imathfunction)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

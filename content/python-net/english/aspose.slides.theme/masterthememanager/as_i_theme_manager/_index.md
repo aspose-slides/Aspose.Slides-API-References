@@ -17,5 +17,6 @@ def as_i_theme_manager(self):
 ```
 
 ### See Also
+* class [`MasterThemeManager`](/slides/python-net/aspose.slides.theme/masterthememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

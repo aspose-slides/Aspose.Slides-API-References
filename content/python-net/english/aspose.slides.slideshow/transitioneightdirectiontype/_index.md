@@ -7,7 +7,7 @@ url: /aspose.slides.slideshow/transitioneightdirectiontype/
 ---
 
 
-## TransitionEightDirectionType class
+## TransitionEightDirectionType enumeration
 
 Represent eight direction transition types.
 

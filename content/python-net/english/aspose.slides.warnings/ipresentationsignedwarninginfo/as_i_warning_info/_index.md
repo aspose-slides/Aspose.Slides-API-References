@@ -25,6 +25,7 @@ def as_i_warning_info(self):
 ```
 
 ### See Also
+* class [`IPresentationSignedWarningInfo`](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo)
 * class [`IWarningInfo`](/slides/python-net/aspose.slides.warnings/iwarninginfo)
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)

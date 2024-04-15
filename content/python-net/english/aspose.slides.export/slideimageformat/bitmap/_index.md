@@ -25,8 +25,8 @@ def bitmap(self, scale, img_format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| scale | float | Image scale factor. |
-| img_format | aspose.pydrawing.Imaging.ImageFormat | Image format. |
+| scale | **float** | Image scale factor. |
+| img_format | **aspose.pydrawing.Imaging.ImageFormat** | Image format. |
 
 
 

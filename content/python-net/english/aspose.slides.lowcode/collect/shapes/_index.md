@@ -25,7 +25,7 @@ def shapes(self, pres):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pres | Presentation | Presentation to collect shapes |
+| pres | [`Presentation`](/slides/python-net/aspose.slides/presentation) | Presentation to collect shapes |
 
 
 

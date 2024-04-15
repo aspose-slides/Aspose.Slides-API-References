@@ -21,5 +21,6 @@ def as_i_effect_effective_data(self):
 
 ### See Also
 * class [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata)
+* class [`IOuterShadowEffectiveData`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

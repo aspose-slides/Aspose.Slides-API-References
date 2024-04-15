@@ -25,7 +25,7 @@ def get_effects_by_paragraph(self, paragraph):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| paragraph | IParagraph | Paragraph object [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) |
+| paragraph | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | Paragraph object [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) |
 
 
 

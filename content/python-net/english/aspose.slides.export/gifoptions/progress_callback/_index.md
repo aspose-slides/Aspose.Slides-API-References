@@ -23,6 +23,7 @@ def progress_callback(self, value):
 ```
 
 ### See Also
+* class [`GifOptions`](/slides/python-net/aspose.slides.export/gifoptions)
 * class [`IProgressCallback`](/slides/python-net/aspose.slides/iprogresscallback)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

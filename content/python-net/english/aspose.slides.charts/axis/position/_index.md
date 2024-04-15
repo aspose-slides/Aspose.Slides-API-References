@@ -23,5 +23,7 @@ def position(self, value):
 ```
 
 ### See Also
+* class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
+* enumeration [`AxisPositionType`](/slides/python-net/aspose.slides.charts/axispositiontype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,5 +23,7 @@ def symbol(self, value):
 ```
 
 ### See Also
+* class [`Marker`](/slides/python-net/aspose.slides.charts/marker)
+* enumeration [`MarkerStyleType`](/slides/python-net/aspose.slides.charts/markerstyletype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 340
 ---
 
 
-## write_as_math_ml {#systemiostream}
+## write_as_math_ml {#iorawiobase}
 Saves content of this [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock) as MathML
 
 
@@ -20,7 +20,7 @@ def write_as_math_ml(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | System.IO.Stream | Target stream |
+| stream | **io.RawIOBase** | Target stream |
 
 
 

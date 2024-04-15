@@ -20,5 +20,7 @@ def direction(self):
 ```
 
 ### See Also
+* class [`ILightRigEffectiveData`](/slides/python-net/aspose.slides/ilightrigeffectivedata)
+* enumeration [`LightingDirection`](/slides/python-net/aspose.slides/lightingdirection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

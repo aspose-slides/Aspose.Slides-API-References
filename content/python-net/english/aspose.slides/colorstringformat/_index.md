@@ -7,7 +7,7 @@ url: /aspose.slides/colorstringformat/
 ---
 
 
-## ColorStringFormat class
+## ColorStringFormat enumeration
 
 Represents a type of hyperlink action.
 

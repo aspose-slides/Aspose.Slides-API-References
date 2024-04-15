@@ -20,5 +20,6 @@ def alpha(self):
 ```
 
 ### See Also
+* class [`IAlphaReplaceEffectiveData`](/slides/python-net/aspose.slides.effects/ialphareplaceeffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

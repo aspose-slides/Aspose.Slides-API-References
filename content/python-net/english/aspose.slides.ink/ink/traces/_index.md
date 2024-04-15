@@ -21,5 +21,6 @@ def traces(self):
 
 ### See Also
 * class [`IInkTrace`](/slides/python-net/aspose.slides.ink/iinktrace)
+* class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)

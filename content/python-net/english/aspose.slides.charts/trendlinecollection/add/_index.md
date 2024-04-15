@@ -20,11 +20,13 @@ def add(self, trendline_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| trendline_type | TrendlineType |  |
+| trendline_type | [`TrendlineType`](/slides/python-net/aspose.slides.charts/trendlinetype) |  |
 
 
 
 ### See Also
+* class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
 * class [`TrendlineCollection`](/slides/python-net/aspose.slides.charts/trendlinecollection)
+* enumeration [`TrendlineType`](/slides/python-net/aspose.slides.charts/trendlinetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

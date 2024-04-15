@@ -27,7 +27,7 @@ The SlideShowTransition type exposes the following members:
 | [`value`](/slides/python-net/aspose.slides.slideshow/slideshowtransition/value/) | Slide show transition value.<br/>            Read-only [`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase). |
 | [`type`](/slides/python-net/aspose.slides.slideshow/slideshowtransition/type/) | Type of transition.<br/>            Read/write [`TransitionType`](/slides/python-net/aspose.slides.slideshow/transitiontype). |
 | [`sound_is_built_in`](/slides/python-net/aspose.slides.slideshow/slideshowtransition/sound_is_built_in/) | Specifies whether or not this sound is a built-in sound. If this attribute is set to true then<br/>            the generating application is alerted to check the name attribute specified for this sound<br/>            in it's list of built-in sounds and can then surface a custom name or UI as needed.<br/>            Read-write **bool**. |
-| [`sound_name`](/slides/python-net/aspose.slides.slideshow/slideshowtransition/sound_name/) | Specifies a human readable name for the sound of the transition. The [`SlideShowTransition.sound`](/slides/python-net/aspose.slides.slideshow/slideshowtransition#sound) property must be assigned to get or set the sound name.<br/>            Read-write **string**. |
+| [`sound_name`](/slides/python-net/aspose.slides.slideshow/slideshowtransition/sound_name/) | Specifies a human readable name for the sound of the transition. The [`SlideShowTransition.sound`](/slides/python-net/aspose.slides.slideshow/slideshowtransition#sound) property must be assigned to get or set the sound name.<br/>            Read-write **str**. |
 
 ### See Also
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)

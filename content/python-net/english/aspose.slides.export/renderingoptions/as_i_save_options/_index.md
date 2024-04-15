@@ -17,5 +17,6 @@ def as_i_save_options(self):
 ```
 
 ### See Also
+* class [`RenderingOptions`](/slides/python-net/aspose.slides.export/renderingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

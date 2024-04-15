@@ -20,7 +20,7 @@ def split_by_width(self, width):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| width | float | Width of a column. |
+| width | **float** | Width of a column. |
 
 
 

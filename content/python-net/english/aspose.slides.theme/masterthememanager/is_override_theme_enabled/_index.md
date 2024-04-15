@@ -23,5 +23,6 @@ def is_override_theme_enabled(self, value):
 ```
 
 ### See Also
+* class [`MasterThemeManager`](/slides/python-net/aspose.slides.theme/masterthememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

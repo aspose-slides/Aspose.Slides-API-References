@@ -10,7 +10,7 @@ weight: 40
 
 ## name property
 Returns or sets the author's name.
-            Read/write **string**.
+            Read/write **str**.
 
 ### Definition:
 ```python
@@ -23,5 +23,6 @@ def name(self, value):
 ```
 
 ### See Also
+* class [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

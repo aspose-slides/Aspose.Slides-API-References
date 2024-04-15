@@ -7,7 +7,7 @@ url: /aspose.slides.charts/legendpositiontype/
 ---
 
 
-## LegendPositionType class
+## LegendPositionType enumeration
 
 Determines a position of legend on a chart.
 

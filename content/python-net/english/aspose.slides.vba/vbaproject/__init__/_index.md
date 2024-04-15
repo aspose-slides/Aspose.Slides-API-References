@@ -33,7 +33,7 @@ def __init__(self, data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | bytes |  |
+| data | **bytes** |  |
 
 
 

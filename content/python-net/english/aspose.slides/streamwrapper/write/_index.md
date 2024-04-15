@@ -20,9 +20,9 @@ def write(self, buffer, offset, count):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| buffer | bytes |  |
-| offset | int |  |
-| count | int |  |
+| buffer | **bytes** |  |
+| offset | **int** |  |
+| count | **int** |  |
 
 
 

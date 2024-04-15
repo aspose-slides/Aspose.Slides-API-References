@@ -20,5 +20,6 @@ def blur_radius(self):
 ```
 
 ### See Also
+* class [`IReflectionEffectiveData`](/slides/python-net/aspose.slides.effects/ireflectioneffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)

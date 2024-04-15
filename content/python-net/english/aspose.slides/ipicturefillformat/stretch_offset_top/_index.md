@@ -25,5 +25,6 @@ def stretch_offset_top(self, value):
 ```
 
 ### See Also
+* class [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

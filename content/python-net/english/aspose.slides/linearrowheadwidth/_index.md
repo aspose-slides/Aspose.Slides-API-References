@@ -7,7 +7,7 @@ url: /aspose.slides/linearrowheadwidth/
 ---
 
 
-## LineArrowheadWidth class
+## LineArrowheadWidth enumeration
 
 Represents the width of an arrowhead.
 
