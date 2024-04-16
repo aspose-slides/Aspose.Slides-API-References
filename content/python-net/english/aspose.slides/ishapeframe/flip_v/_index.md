@@ -19,8 +19,10 @@ def flip_v(self):
     ...
 ```
 
+
 ### See Also
 * class [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe)
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

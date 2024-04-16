@@ -19,8 +19,10 @@ def up_bars_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IFormat`](/slides/python-net/aspose.slides.charts/iformat)
 * class [`IUpDownBarsManager`](/slides/python-net/aspose.slides.charts/iupdownbarsmanager)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

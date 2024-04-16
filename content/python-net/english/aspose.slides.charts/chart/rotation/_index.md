@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/rotation/
-weight: 550
+weight: 560
 ---
 
 
@@ -25,12 +25,15 @@ Returned value is always defined (is not float.NaN).
 @property
 def rotation(self):
     ...
+
 @rotation.setter
 def rotation(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

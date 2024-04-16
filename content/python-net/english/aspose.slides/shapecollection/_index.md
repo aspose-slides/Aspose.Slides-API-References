@@ -18,8 +18,6 @@ The ShapeCollection type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`parent_group`](/slides/python-net/aspose.slides/shapecollection/parent_group/) | Returns parent GroupShape object for a shapes collection.<br/>            Read-only [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape). |
-| [`as_i_collection`](/slides/python-net/aspose.slides/shapecollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/shapecollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -92,6 +90,8 @@ The ShapeCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/shapecollection/remove/#ishape) | Removes the first occurrence of a specific shape from the collection. |
 | [`clear`](/slides/python-net/aspose.slides/shapecollection/clear/#) | Removes all shapes from the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

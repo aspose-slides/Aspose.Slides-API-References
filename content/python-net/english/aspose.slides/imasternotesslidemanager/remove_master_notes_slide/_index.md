@@ -24,3 +24,4 @@ def remove_master_notes_slide(self):
 * class [`IMasterNotesSlideManager`](/slides/python-net/aspose.slides/imasternotesslidemanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

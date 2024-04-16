@@ -17,12 +17,15 @@ Specifies whether the reflection should rotate with the shape if the shape is ro
 @property
 def rotate_shadow_with_shape(self):
     ...
+
 @rotate_shadow_with_shape.setter
 def rotate_shadow_with_shape(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Reflection`](/slides/python-net/aspose.slides.effects/reflection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

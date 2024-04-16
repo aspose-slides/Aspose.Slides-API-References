@@ -36,6 +36,8 @@ The ChartData type exposes the following members:
 | [`set_range`](/slides/python-net/aspose.slides.charts/chartdata/set_range/#str) | Set chart data range. Series and categories will be updated based on new data range.<br/>            If amount of series in data range greater than count of series in the chart data then additional series with the same type<br/>            as a last series in the current collection will be added to the end of the collection. |
 | [`switch_row_column`](/slides/python-net/aspose.slides.charts/chartdata/switch_row_column/#) | Swap the data over the axis.<br/>            Data being charted on the X axis will move to the Y axis and vice versa. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

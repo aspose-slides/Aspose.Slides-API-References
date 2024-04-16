@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/presentation/masters/
-weight: 260
+weight: 270
 ---
 
 
@@ -19,8 +19,10 @@ def masters(self):
     ...
 ```
 
+
 ### See Also
 * class [`IMasterSlideCollection`](/slides/python-net/aspose.slides/imasterslidecollection)
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

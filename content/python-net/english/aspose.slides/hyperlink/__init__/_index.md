@@ -23,7 +23,6 @@ def __init__(self, url):
 | url | **str** | Hyperlink URL. |
 
 
-
 ## __init__ {#islide}
 Creates an instance of a hyperlink which points to specific slide.
             Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction.
@@ -38,7 +37,6 @@ def __init__(self, slide):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Target slide. |
-
 
 
 ## __init__ {#hyperlink-str-str-bool-bool-bool}
@@ -67,3 +65,4 @@ def __init__(self, source, target_frame, tooltip, history, stop_sounds_on_click,
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Gets or sets value which is used with Fixed, Percentage and StandardDeviation va
 @property
 def value(self):
     ...
+
 @value.setter
 def value(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IErrorBarsFormat`](/slides/python-net/aspose.slides.charts/ierrorbarsformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

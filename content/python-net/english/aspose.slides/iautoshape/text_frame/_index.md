@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iautoshape/text_frame/
-weight: 470
+weight: 480
 ---
 
 
@@ -19,8 +19,10 @@ def text_frame(self):
     ...
 ```
 
+
 ### See Also
 * class [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape)
 * class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

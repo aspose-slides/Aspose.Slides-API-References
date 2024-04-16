@@ -22,6 +22,8 @@ The Behavior type exposes the following members:
 | [`properties`](/slides/python-net/aspose.slides.animation/behavior/properties/) | Represents properties of behavior.<br/>            Read-only [`IBehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection). |
 | [`timing`](/slides/python-net/aspose.slides.animation/behavior/timing/) | Represents timing properties for the effect behavior.<br/>            Read/write [`ITiming`](/slides/python-net/aspose.slides.animation/itiming). |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

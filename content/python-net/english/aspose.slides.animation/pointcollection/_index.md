@@ -24,7 +24,6 @@ The PointCollection type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/pointcollection/count/) | Returns the number of points in the collection.<br/>            Read-only **int**. |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/pointcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -32,6 +31,8 @@ The PointCollection type exposes the following members:
 | :- | :- |
 | [index] |  |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

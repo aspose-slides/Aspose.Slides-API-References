@@ -34,3 +34,4 @@ def get_background_fill_styles(self, style_color):
 * class [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/ink/rotation/
-weight: 350
+weight: 360
 ---
 
 
@@ -25,12 +25,15 @@ Returned value is always defined (is not float.NaN).
 @property
 def rotation(self):
     ...
+
 @rotation.setter
 def rotation(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

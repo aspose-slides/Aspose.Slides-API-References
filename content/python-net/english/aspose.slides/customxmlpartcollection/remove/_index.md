@@ -31,7 +31,7 @@ def remove(self, item):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | item is `null`. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | item is `null`. |
 
 
 
@@ -40,3 +40,4 @@ def remove(self, item):
 * class [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

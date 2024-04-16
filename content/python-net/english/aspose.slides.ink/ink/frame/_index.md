@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/ink/frame/
-weight: 180
+weight: 190
 ---
 
 
@@ -26,13 +26,16 @@ Value of each property of the returned IShapeFrame instance is not
 @property
 def frame(self):
     ...
+
 @frame.setter
 def frame(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * class [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -18,12 +18,15 @@ Determines whether the target of the parent hyperlink shall be added
 @property
 def history(self):
     ...
+
 @history.setter
 def history(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

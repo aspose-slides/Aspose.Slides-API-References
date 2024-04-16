@@ -30,10 +30,11 @@ The XamlOptions type exposes the following members:
 | [`default_regular_font`](/slides/python-net/aspose.slides.export.xaml/xamloptions/default_regular_font/) | Returns or sets font used in case source font is not found.<br/>            Read-write **str**. |
 | [`export_hidden_slides`](/slides/python-net/aspose.slides.export.xaml/xamloptions/export_hidden_slides/) | Determines whether hidden slides will be exported. |
 | [`output_saver`](/slides/python-net/aspose.slides.export.xaml/xamloptions/output_saver/) | Represents an implementation of IOutputSaver interface. |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export.xaml/xamloptions/as_i_save_options/) |  |
+
 
 ### See Also
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * class [`XamlOptions`](/slides/python-net/aspose.slides.export.xaml/xamloptions)
 * module [`aspose.slides.export.xaml`](/slides/python-net/aspose.slides.export.xaml)
 * library [`Aspose.Slides`](/slides/python-net)
+

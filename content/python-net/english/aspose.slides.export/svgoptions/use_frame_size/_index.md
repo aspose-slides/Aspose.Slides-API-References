@@ -18,12 +18,15 @@ Determines whether the text frame will be included in a rendering area or not.
 @property
 def use_frame_size(self):
     ...
+
 @use_frame_size.setter
 def use_frame_size(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

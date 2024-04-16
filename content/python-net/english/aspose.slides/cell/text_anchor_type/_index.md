@@ -17,13 +17,16 @@ Returns or sets the text anchor type.
 @property
 def text_anchor_type(self):
     ...
+
 @text_anchor_type.setter
 def text_anchor_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Cell`](/slides/python-net/aspose.slides/cell)
 * enumeration [`TextAnchorType`](/slides/python-net/aspose.slides/textanchortype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

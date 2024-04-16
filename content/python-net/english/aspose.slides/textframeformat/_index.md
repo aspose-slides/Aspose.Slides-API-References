@@ -25,7 +25,6 @@ The TextFrameFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/textframeformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`three_d_format`](/slides/python-net/aspose.slides/textframeformat/three_d_format/) | Returns the ThreeDFormat object that represents 3d effect properties for a text.<br/>            Read-only [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat). |
 | [`margin_left`](/slides/python-net/aspose.slides/textframeformat/margin_left/) | Returns or sets the left margin (points) in a TextFrame.<br/>            Read/write **float**. |
 | [`margin_right`](/slides/python-net/aspose.slides/textframeformat/margin_right/) | Returns or sets the right margin (points) in a TextFrame.<br/>            Read/write **float**. |
@@ -51,8 +50,10 @@ The TextFrameFormat type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides/textframeformat/get_effective/#) | Gets effective text frame formatting data with the inheritance applied. |
 
+
 ### See Also
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * class [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

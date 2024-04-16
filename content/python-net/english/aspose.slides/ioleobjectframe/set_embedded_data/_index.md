@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ioleobjectframe/set_embedded_data/
-weight: 50
+weight: 60
 ---
 
 
@@ -31,7 +31,7 @@ This method changes the properties of the object to reflect the new data and
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | When embeddedData parameter is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | When embeddedData parameter is null. |
 
 
 
@@ -40,3 +40,4 @@ This method changes the properties of the object to reflect the new data and
 * class [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

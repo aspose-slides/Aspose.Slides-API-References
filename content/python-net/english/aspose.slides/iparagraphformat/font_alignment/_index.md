@@ -17,13 +17,16 @@ Returns or sets a font alignment in a paragraph with no inheritance.
 @property
 def font_alignment(self):
     ...
+
 @font_alignment.setter
 def font_alignment(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`FontAlignment`](/slides/python-net/aspose.slides/fontalignment)
 * class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

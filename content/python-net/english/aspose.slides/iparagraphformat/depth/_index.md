@@ -18,12 +18,15 @@ Returns or sets depth of the paragraph.
 @property
 def depth(self):
     ...
+
 @depth.setter
 def depth(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

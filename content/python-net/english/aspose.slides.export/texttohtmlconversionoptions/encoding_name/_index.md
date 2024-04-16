@@ -18,12 +18,15 @@ Returns or sets html encoding name.
 @property
 def encoding_name(self):
     ...
+
 @encoding_name.setter
 def encoding_name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`TextToHtmlConversionOptions`](/slides/python-net/aspose.slides.export/texttohtmlconversionoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

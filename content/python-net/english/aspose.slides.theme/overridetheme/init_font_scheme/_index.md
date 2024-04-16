@@ -22,7 +22,7 @@ def init_font_scheme(self):
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | Thrown if the FontScheme is already initialized (not null). |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the FontScheme is already initialized (not null). |
 
 
 
@@ -30,3 +30,4 @@ def init_font_scheme(self):
 * class [`OverrideTheme`](/slides/python-net/aspose.slides.theme/overridetheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

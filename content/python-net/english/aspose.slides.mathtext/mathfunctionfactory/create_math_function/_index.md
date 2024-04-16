@@ -29,7 +29,6 @@ def create_math_function(self, func_name, base_argument):
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Element used as a function argument |
 
 
-
 ## create_math_function {#str-imathelement}
 Creates math function
 
@@ -58,3 +57,4 @@ def create_math_function(self, func_name, base_argument):
 * class [`MathFunctionFactory`](/slides/python-net/aspose.slides.mathtext/mathfunctionfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ HasUpDownBars.
 @property
 def has_up_down_bars(self):
     ...
+
 @has_up_down_bars.setter
 def has_up_down_bars(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`UpDownBarsManager`](/slides/python-net/aspose.slides.charts/updownbarsmanager)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

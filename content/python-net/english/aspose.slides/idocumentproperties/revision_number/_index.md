@@ -17,12 +17,15 @@ Returns or sets the presentation revision number.
 @property
 def revision_number(self):
     ...
+
 @revision_number.setter
 def revision_number(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

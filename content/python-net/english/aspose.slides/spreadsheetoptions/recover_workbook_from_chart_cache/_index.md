@@ -16,12 +16,15 @@ If data source for the chart is an external workbook and it's not available, it 
 @property
 def recover_workbook_from_chart_cache(self):
     ...
+
 @recover_workbook_from_chart_cache.setter
 def recover_workbook_from_chart_cache(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SpreadsheetOptions`](/slides/python-net/aspose.slides/spreadsheetoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

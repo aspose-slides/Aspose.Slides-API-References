@@ -40,6 +40,8 @@ The IFontFallBackRule type exposes the following members:
 | [`remove_at`](/slides/python-net/aspose.slides/ifontfallbackrule/remove_at/#int) | Removes the FallBack font at the specified index of the list. |
 | [`index_of`](/slides/python-net/aspose.slides/ifontfallbackrule/index_of/#str) | Returns an index of the specified rule in the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

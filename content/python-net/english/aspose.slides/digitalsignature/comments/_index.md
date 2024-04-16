@@ -17,12 +17,15 @@ The purpose of signature.
 @property
 def comments(self):
     ...
+
 @comments.setter
 def comments(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DigitalSignature`](/slides/python-net/aspose.slides/digitalsignature)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -26,7 +26,6 @@ The IMathBorderBox type exposes the following members:
 | [`strikethrough_vertical`](/slides/python-net/aspose.slides.mathtext/imathborderbox/strikethrough_vertical/) | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
 | [`strikethrough_bottom_left_to_top_right`](/slides/python-net/aspose.slides.mathtext/imathborderbox/strikethrough_bottom_left_to_top_right/) | Strikethrough Bottom-Left to Top-Right (default is false).<br/>            Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
 | [`strikethrough_top_left_to_bottom_right`](/slides/python-net/aspose.slides.mathtext/imathborderbox/strikethrough_top_left_to_bottom_right/) | Strikethrough Top-Left to Bottom-Right (default is false).<br/>            Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/imathborderbox/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 
@@ -79,6 +78,8 @@ The IMathBorderBox type exposes the following members:
 | [`underbar`](/slides/python-net/aspose.slides.mathtext/imathborderbox/underbar/#) |  |
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/imathborderbox/to_box/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

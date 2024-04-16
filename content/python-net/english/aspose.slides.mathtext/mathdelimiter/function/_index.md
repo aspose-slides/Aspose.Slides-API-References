@@ -28,7 +28,6 @@ def function(self, function_argument):
 | function_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | An argument of the function |
 
 
-
 ## function {#str}
 Takes a function of an argument using this instance as the function name
 
@@ -56,3 +55,4 @@ def function(self, function_argument):
 * class [`MathDelimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -37,3 +37,4 @@ def equals(self, slide):
 * class [`MasterNotesSlide`](/slides/python-net/aspose.slides/masternotesslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

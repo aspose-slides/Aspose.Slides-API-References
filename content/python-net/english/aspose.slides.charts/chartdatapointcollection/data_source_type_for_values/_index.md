@@ -19,13 +19,16 @@ Specifies whether AsCell or AsLiteralString or AsLiteralDouble property
 @property
 def data_source_type_for_values(self):
     ...
+
 @data_source_type_for_values.setter
 def data_source_type_for_values(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ChartDataPointCollection`](/slides/python-net/aspose.slides.charts/chartdatapointcollection)
 * enumeration [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

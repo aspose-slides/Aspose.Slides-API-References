@@ -17,13 +17,16 @@ Returns or sets slide image format options.
 @property
 def slide_image_format(self):
     ...
+
 @slide_image_format.setter
 def slide_image_format(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`HtmlOptions`](/slides/python-net/aspose.slides.export/htmloptions)
 * class [`ISlideImageFormat`](/slides/python-net/aspose.slides.export/islideimageformat)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

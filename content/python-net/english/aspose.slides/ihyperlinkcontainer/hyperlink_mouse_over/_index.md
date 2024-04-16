@@ -17,13 +17,16 @@ Returns or sets the hyperlink defined for mouse over.
 @property
 def hyperlink_mouse_over(self):
     ...
+
 @hyperlink_mouse_over.setter
 def hyperlink_mouse_over(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * class [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

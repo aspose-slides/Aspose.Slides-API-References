@@ -17,12 +17,15 @@ Represents if MS PowerPoint plots data points from last to first.
 @property
 def is_plot_order_reversed(self):
     ...
+
 @is_plot_order_reversed.setter
 def is_plot_order_reversed(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,3 +24,4 @@ def __init__(self):
 * class [`CommandEffect`](/slides/python-net/aspose.slides.animation/commandeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

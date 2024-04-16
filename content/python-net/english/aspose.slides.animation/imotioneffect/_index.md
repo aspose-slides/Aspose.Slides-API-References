@@ -25,12 +25,13 @@ The IMotionEffect type exposes the following members:
 | [`path`](/slides/python-net/aspose.slides.animation/imotioneffect/path/) | Specifies the path primitive followed by coordinates for the animation motion.<br/>            Read/write [`IMotionPath`](/slides/python-net/aspose.slides.animation/imotionpath). |
 | [`path_edit_mode`](/slides/python-net/aspose.slides.animation/imotioneffect/path_edit_mode/) | Specifies how the motion path moves when shape is moved.<br/>            Read/write [`MotionPathEditMode`](/slides/python-net/aspose.slides.animation/motionpatheditmode). |
 | [`angle`](/slides/python-net/aspose.slides.animation/imotioneffect/angle/) | Describes the relative angle of the motion path.<br/>            Read/write **float**. |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/imotioneffect/as_i_behavior/) | Allows to get base IBehavior interface.<br/>            Read-only [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior). |
 | [`accumulate`](/slides/python-net/aspose.slides.animation/imotioneffect/accumulate/) |  |
 | [`additive`](/slides/python-net/aspose.slides.animation/imotioneffect/additive/) |  |
 | [`properties`](/slides/python-net/aspose.slides.animation/imotioneffect/properties/) |  |
 | [`timing`](/slides/python-net/aspose.slides.animation/imotioneffect/timing/) |  |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,12 +19,15 @@ Returns or sets top edge of the fill rectangle that is defined by a percentage o
 @property
 def stretch_offset_top(self):
     ...
+
 @stretch_offset_top.setter
 def stretch_offset_top(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

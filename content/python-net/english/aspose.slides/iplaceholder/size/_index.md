@@ -19,8 +19,10 @@ def size(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
 * enumeration [`PlaceholderSize`](/slides/python-net/aspose.slides/placeholdersize)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

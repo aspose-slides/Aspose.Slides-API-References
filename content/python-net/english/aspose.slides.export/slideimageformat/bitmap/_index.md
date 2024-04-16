@@ -34,3 +34,4 @@ def bitmap(self, scale, img_format):
 * class [`SlideImageFormat`](/slides/python-net/aspose.slides.export/slideimageformat)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

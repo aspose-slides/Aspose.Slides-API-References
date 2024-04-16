@@ -23,9 +23,9 @@ The FormatScheme type exposes the following members:
 | [`background_fill_styles`](/slides/python-net/aspose.slides.theme/formatscheme/background_fill_styles/) | Returns a collection of theme defined background fill styles.<br/>            Read-only [`IFillFormatCollection`](/slides/python-net/aspose.slides.theme/ifillformatcollection). |
 | [`slide`](/slides/python-net/aspose.slides.theme/formatscheme/slide/) | Returns the parent slide.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`presentation`](/slides/python-net/aspose.slides.theme/formatscheme/presentation/) | Returns the parent presentation.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.theme/formatscheme/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.theme/formatscheme/as_i_presentation_component/) |  |
+
 
 ### See Also
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

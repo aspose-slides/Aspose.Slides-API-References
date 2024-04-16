@@ -28,7 +28,6 @@ def set_subscript(self, subscript):
 | subscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Subscript (lower index on the right) |
 
 
-
 ## set_subscript {#str}
 Creates subscript
 
@@ -55,3 +54,4 @@ def set_subscript(self, subscript):
 * class [`IMathSubscriptElement`](/slides/python-net/aspose.slides.mathtext/imathsubscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -13,13 +13,6 @@ Represents a collection of Video objects.
 
 The VideoCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/videocollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/videocollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
@@ -35,6 +28,8 @@ The VideoCollection type exposes the following members:
 | [`add_video`](/slides/python-net/aspose.slides/videocollection/add_video/#iorawiobase-loadingstreambehavior) | Creates and adds a video to a presentation from stream. |
 | [`add_video`](/slides/python-net/aspose.slides/videocollection/add_video/#bytes) | Creates and adds a video to a presentation from byte array. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

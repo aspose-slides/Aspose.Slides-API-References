@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ilegacydiagram/hyperlink_mouse_over/
-weight: 260
+weight: 270
 ---
 
 
@@ -14,12 +14,15 @@ weight: 260
 @property
 def hyperlink_mouse_over(self):
     ...
+
 @hyperlink_mouse_over.setter
 def hyperlink_mouse_over(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILegacyDiagram`](/slides/python-net/aspose.slides/ilegacydiagram)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

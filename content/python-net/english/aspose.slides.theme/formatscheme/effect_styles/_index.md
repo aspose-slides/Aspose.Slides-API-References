@@ -19,8 +19,10 @@ def effect_styles(self):
     ...
 ```
 
+
 ### See Also
 * class [`FormatScheme`](/slides/python-net/aspose.slides.theme/formatscheme)
 * class [`IEffectStyleCollection`](/slides/python-net/aspose.slides.theme/ieffectstylecollection)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -27,6 +27,8 @@ The Metered type exposes the following members:
 | [`get_consumption_quantity`](/slides/python-net/aspose.slides/metered/get_consumption_quantity/#) | Gets consumption file size |
 | [`get_consumption_credit`](/slides/python-net/aspose.slides/metered/get_consumption_credit/#) | Gets consumption credit |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

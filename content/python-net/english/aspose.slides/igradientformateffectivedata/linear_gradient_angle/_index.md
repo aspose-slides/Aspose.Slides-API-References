@@ -19,7 +19,9 @@ def linear_gradient_angle(self):
     ...
 ```
 
+
 ### See Also
 * class [`IGradientFormatEffectiveData`](/slides/python-net/aspose.slides/igradientformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -31,14 +31,11 @@ The ChartPlotArea type exposes the following members:
 | [`actual_y`](/slides/python-net/aspose.slides.charts/chartplotarea/actual_y/) | Specifies actual top of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
 | [`actual_width`](/slides/python-net/aspose.slides.charts/chartplotarea/actual_width/) | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
 | [`actual_height`](/slides/python-net/aspose.slides.charts/chartplotarea/actual_height/) | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
-| [`as_i_layoutable`](/slides/python-net/aspose.slides.charts/chartplotarea/as_i_layoutable/) |  |
-| [`as_i_actual_layout`](/slides/python-net/aspose.slides.charts/chartplotarea/as_i_actual_layout/) |  |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/chartplotarea/as_i_chart_component/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/chartplotarea/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/chartplotarea/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/chartplotarea/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/chartplotarea/presentation/) |  |
+
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

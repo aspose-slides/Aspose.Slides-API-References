@@ -17,12 +17,15 @@ Determines whether the hyperlink should be highlighted on click.
 @property
 def highlight_click(self):
     ...
+
 @highlight_click.setter
 def highlight_click(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,7 +24,6 @@ def highlight_text(self, text, highlight_color):
 | highlight_color | **aspose.pydrawing.Color** | Highlighting color. |
 
 
-
 ## highlight_text {#str-asposepydrawingcolor-itexthighlightingoptions}
 Highlight all matches of sample in text frame text using specified color.
 
@@ -48,3 +47,4 @@ def highlight_text(self, text, highlight_color, options):
 * class [`ITextHighlightingOptions`](/slides/python-net/aspose.slides/itexthighlightingoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

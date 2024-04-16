@@ -17,12 +17,15 @@ Specifies that the R-squared value of the trendline is displayed on the chart (i
 @property
 def display_r_squared_value(self):
     ...
+
 @display_r_squared_value.setter
 def display_r_squared_value(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

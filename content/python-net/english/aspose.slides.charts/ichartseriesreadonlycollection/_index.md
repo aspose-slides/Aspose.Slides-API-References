@@ -13,20 +13,15 @@ Represents a readonly collection of  [`IChartSeries`](/slides/python-net/aspose.
 
 The IChartSeriesReadonlyCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides.charts/ichartseriesreadonlycollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.charts/ichartseriesreadonlycollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
 | [index] |  |
 
+
 ### See Also
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -18,12 +18,15 @@ This attribute specifies if the transition will start from a black screen
 @property
 def from_black(self):
     ...
+
 @from_black.setter
 def from_black(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IOptionalBlackTransition`](/slides/python-net/aspose.slides.slideshow/ioptionalblacktransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

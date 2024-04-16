@@ -28,3 +28,4 @@ def __init__(self, b_is_top_bevel):
 * class [`ShapeBevel`](/slides/python-net/aspose.slides/shapebevel)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

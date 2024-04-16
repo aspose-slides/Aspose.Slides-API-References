@@ -24,9 +24,10 @@ The IGroupShapeLock type exposes the following members:
 | [`aspect_ratio_locked`](/slides/python-net/aspose.slides/igroupshapelock/aspect_ratio_locked/) | Determines whether shape have to preserve aspect ratio on resizing.<br/>            Read/write **bool**. |
 | [`position_locked`](/slides/python-net/aspose.slides/igroupshapelock/position_locked/) | Determines whether moving this shape is forbidden.<br/>            Read/write **bool**. |
 | [`size_locked`](/slides/python-net/aspose.slides/igroupshapelock/size_locked/) | Determines whether resizing this shape is forbidden.<br/>            Read/write **bool**. |
-| [`as_i_base_shape_lock`](/slides/python-net/aspose.slides/igroupshapelock/as_i_base_shape_lock/) | Allows to get base IBaseShapeLock interface.<br/>            Read-only [`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock). |
 | [`no_locks`](/slides/python-net/aspose.slides/igroupshapelock/no_locks/) |  |
+
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Returns or sets the height of a title as a fraction of the height of the chart.
 @property
 def height(self):
     ...
+
 @height.setter
 def height(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartTitle`](/slides/python-net/aspose.slides.charts/charttitle)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

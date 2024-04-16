@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iconnector/reroute/
-weight: 70
+weight: 80
 ---
 
 
@@ -24,3 +24,4 @@ def reroute(self):
 * class [`IConnector`](/slides/python-net/aspose.slides/iconnector)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

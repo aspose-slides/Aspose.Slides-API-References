@@ -17,13 +17,16 @@ Returns or sets the text alignment in a paragraph.
 @property
 def alignment(self):
     ...
+
 @alignment.setter
 def alignment(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IChartParagraphFormat`](/slides/python-net/aspose.slides.charts/ichartparagraphformat)
 * enumeration [`TextAlignment`](/slides/python-net/aspose.slides/textalignment)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

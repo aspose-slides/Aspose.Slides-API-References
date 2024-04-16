@@ -35,7 +35,7 @@ def remove(self, item):
 
 | Exception | Description |
 | :- | :- |
-| **System.NotSupportedException** | The **System.Collections.Generic.ICollection`1** is read-only. |
+| **RuntimeError(Proxy error(NotSupportedException))** | The **System.Collections.Generic.ICollection`1** is read-only. |
 
 
 
@@ -44,3 +44,4 @@ def remove(self, item):
 * class [`PortionCollection`](/slides/python-net/aspose.slides/portioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

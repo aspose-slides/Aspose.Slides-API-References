@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/type/
-weight: 650
+weight: 660
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets the chart type.
 @property
 def type(self):
     ...
+
 @type.setter
 def type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * enumeration [`ChartType`](/slides/python-net/aspose.slides.charts/charttype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

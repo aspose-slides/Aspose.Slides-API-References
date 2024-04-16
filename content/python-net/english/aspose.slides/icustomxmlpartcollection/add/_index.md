@@ -31,9 +31,8 @@ def add(self, xml_data):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | xmlData is `null`. |
-| **System.ArgumentException** | xmlData is empty or invalid. |
-
+| **RuntimeError(Proxy error(ArgumentNullException))** | xmlData is `null`. |
+| **RuntimeError(Proxy error(ArgumentException))** | xmlData is empty or invalid. |
 
 
 ## add {#str}
@@ -59,9 +58,8 @@ def add(self, xml_string):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | xmlString is `null`. |
-| **System.ArgumentException** | xmlString is empty or xml-data is invalid. |
-
+| **RuntimeError(Proxy error(ArgumentNullException))** | xmlString is `null`. |
+| **RuntimeError(Proxy error(ArgumentException))** | xmlString is empty or xml-data is invalid. |
 
 
 ## add {#iorawiobase}
@@ -87,8 +85,8 @@ def add(self, input_stream):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | inputStream is `null`. |
-| **System.ArgumentException** | Data in inputStream is empty or Sinvalid. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | inputStream is `null`. |
+| **RuntimeError(Proxy error(ArgumentException))** | Data in inputStream is empty or Sinvalid. |
 
 
 
@@ -97,3 +95,4 @@ def add(self, input_stream):
 * class [`ICustomXmlPartCollection`](/slides/python-net/aspose.slides/icustomxmlpartcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

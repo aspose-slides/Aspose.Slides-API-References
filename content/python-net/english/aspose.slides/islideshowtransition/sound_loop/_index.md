@@ -18,12 +18,15 @@ This attribute specifies if the sound will loop until the next sound event occur
 @property
 def sound_loop(self):
     ...
+
 @sound_loop.setter
 def sound_loop(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

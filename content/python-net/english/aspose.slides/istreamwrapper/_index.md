@@ -23,7 +23,6 @@ The IStreamWrapper type exposes the following members:
 | [`can_write`](/slides/python-net/aspose.slides/istreamwrapper/can_write/) | Gets a value indicating whether the current stream supports writing.<br/>            Read-only **bool**. |
 | [`length`](/slides/python-net/aspose.slides/istreamwrapper/length/) | Gets the length in bytes of the stream.<br/>            Read-only **int**. |
 | [`position`](/slides/python-net/aspose.slides/istreamwrapper/position/) | Gets the position within the current stream.<br/>            Read-only **int**. |
-| [`as_i_disposable`](/slides/python-net/aspose.slides/istreamwrapper/as_i_disposable/) | Allows to get base IDisposable interface.<br/>            Read-only **System.IDisposable**. |
 
 ## Methods
 
@@ -37,6 +36,8 @@ The IStreamWrapper type exposes the following members:
 | [`write`](/slides/python-net/aspose.slides/istreamwrapper/write/#bytes-int-int) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
 | [`write_byte`](/slides/python-net/aspose.slides/istreamwrapper/write_byte/#int) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

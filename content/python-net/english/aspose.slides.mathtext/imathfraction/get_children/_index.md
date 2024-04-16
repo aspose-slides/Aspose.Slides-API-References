@@ -24,3 +24,4 @@ def get_children(self):
 * class [`IMathFraction`](/slides/python-net/aspose.slides.mathtext/imathfraction)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

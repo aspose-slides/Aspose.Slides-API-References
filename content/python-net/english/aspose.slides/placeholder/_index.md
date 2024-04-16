@@ -22,6 +22,8 @@ The Placeholder type exposes the following members:
 | [`type`](/slides/python-net/aspose.slides/placeholder/type/) | Gets or sets the type of a placeholder.<br/>            Read-only [`PlaceholderType`](/slides/python-net/aspose.slides/placeholdertype). |
 | [`index`](/slides/python-net/aspose.slides/placeholder/index/) | Gets or sets the index of a placeholder.<br/>            Read-only **int**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

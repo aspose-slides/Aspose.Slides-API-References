@@ -17,13 +17,16 @@ Specifies how the bubble size values are represented on the bubble chart.
 @property
 def bubble_size_representation(self):
     ...
+
 @bubble_size_representation.setter
 def bubble_size_representation(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`BubbleSizeRepresentationType`](/slides/python-net/aspose.slides.charts/bubblesizerepresentationtype)
 * class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

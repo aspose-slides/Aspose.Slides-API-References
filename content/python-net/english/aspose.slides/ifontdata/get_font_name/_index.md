@@ -34,3 +34,4 @@ def get_font_name(self, theme):
 * class [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

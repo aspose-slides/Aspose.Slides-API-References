@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/style/
-weight: 610
+weight: 620
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets the chart style.
 @property
 def style(self):
     ...
+
 @style.setter
 def style(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * enumeration [`StyleType`](/slides/python-net/aspose.slides.charts/styletype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

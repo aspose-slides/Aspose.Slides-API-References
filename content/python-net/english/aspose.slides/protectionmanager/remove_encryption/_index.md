@@ -24,3 +24,4 @@ def remove_encryption(self):
 * class [`ProtectionManager`](/slides/python-net/aspose.slides/protectionmanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

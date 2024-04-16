@@ -19,13 +19,16 @@ Represents a preset light right that can be applied to a shape.
 @property
 def light_type(self):
     ...
+
 @light_type.setter
 def light_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`LightRig`](/slides/python-net/aspose.slides/lightrig)
 * enumeration [`LightRigPresetType`](/slides/python-net/aspose.slides/lightrigpresettype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

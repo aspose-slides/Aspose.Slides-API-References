@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/side_wall/
-weight: 590
+weight: 600
 ---
 
 
@@ -19,8 +19,10 @@ def side_wall(self):
     ...
 ```
 
+
 ### See Also
 * class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * class [`IChartWall`](/slides/python-net/aspose.slides.charts/ichartwall)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

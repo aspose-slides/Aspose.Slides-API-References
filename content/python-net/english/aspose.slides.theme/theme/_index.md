@@ -21,7 +21,6 @@ The Theme type exposes the following members:
 | [`font_scheme`](/slides/python-net/aspose.slides.theme/theme/font_scheme/) | Returns the font scheme.<br/>            Read-only [`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme). |
 | [`format_scheme`](/slides/python-net/aspose.slides.theme/theme/format_scheme/) | Returns the shape format scheme.<br/>            Read-only [`IFormatScheme`](/slides/python-net/aspose.slides.theme/iformatscheme). |
 | [`presentation`](/slides/python-net/aspose.slides.theme/theme/presentation/) | Returns the parent presentation.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.theme/theme/as_i_presentation_component/) |  |
 
 ## Methods
 
@@ -29,6 +28,8 @@ The Theme type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides.theme/theme/get_effective/#) | Gets effective theme data with the inheritance applied. |
 
+
 ### See Also
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

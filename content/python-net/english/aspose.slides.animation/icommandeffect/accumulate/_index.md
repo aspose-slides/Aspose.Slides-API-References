@@ -14,12 +14,15 @@ weight: 10
 @property
 def accumulate(self):
     ...
+
 @accumulate.setter
 def accumulate(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ICommandEffect`](/slides/python-net/aspose.slides.animation/icommandeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

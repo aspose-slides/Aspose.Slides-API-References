@@ -19,8 +19,10 @@ def three_d_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IEffectStyleEffectiveData`](/slides/python-net/aspose.slides.theme/ieffectstyleeffectivedata)
 * class [`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

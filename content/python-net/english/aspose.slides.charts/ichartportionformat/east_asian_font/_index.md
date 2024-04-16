@@ -14,12 +14,15 @@ weight: 40
 @property
 def east_asian_font(self):
     ...
+
 @east_asian_font.setter
 def east_asian_font(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

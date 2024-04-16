@@ -18,12 +18,15 @@ Delimiter Beginning Character specifies the beginning, or opening, delimiter cha
 @property
 def beginning_character(self):
     ...
+
 @beginning_character.setter
 def beginning_character(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathDelimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

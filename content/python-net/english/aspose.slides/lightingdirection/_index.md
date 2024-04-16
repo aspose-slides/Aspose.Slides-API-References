@@ -27,6 +27,8 @@ The LightingDirection type exposes the following members:
 | BOTTOM_LEFT |  |
 | LEFT |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

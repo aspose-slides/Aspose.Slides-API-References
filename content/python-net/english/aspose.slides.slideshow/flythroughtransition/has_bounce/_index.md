@@ -17,12 +17,15 @@ Specifies that the movement of the presentation slides during the transition inc
 @property
 def has_bounce(self):
     ...
+
 @has_bounce.setter
 def has_bounce(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`FlyThroughTransition`](/slides/python-net/aspose.slides.slideshow/flythroughtransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

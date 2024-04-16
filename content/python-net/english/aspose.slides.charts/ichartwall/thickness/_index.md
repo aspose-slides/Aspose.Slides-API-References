@@ -18,12 +18,15 @@ Returns or sets the walls thickness as a percentage of the largest
 @property
 def thickness(self):
     ...
+
 @thickness.setter
 def thickness(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartWall`](/slides/python-net/aspose.slides.charts/ichartwall)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

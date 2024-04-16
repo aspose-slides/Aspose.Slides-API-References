@@ -29,11 +29,11 @@ The IColorScheme type exposes the following members:
 | [`accent6`](/slides/python-net/aspose.slides.theme/icolorscheme/accent6/) | Sixth accent color in the scheme.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`hyperlink`](/slides/python-net/aspose.slides.theme/icolorscheme/hyperlink/) | Color for the hyperlinks.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`followed_hyperlink`](/slides/python-net/aspose.slides.theme/icolorscheme/followed_hyperlink/) | Color for the visited hyperlinks.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.theme/icolorscheme/as_i_slide_component/) | Returns ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
 | [`slide`](/slides/python-net/aspose.slides.theme/icolorscheme/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.theme/icolorscheme/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.theme/icolorscheme/presentation/) |  |
+
 
 ### See Also
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Specifies the radius of blur to apply to the edges.
 @property
 def radius(self):
     ...
+
 @radius.setter
 def radius(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISoftEdge`](/slides/python-net/aspose.slides.effects/isoftedge)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

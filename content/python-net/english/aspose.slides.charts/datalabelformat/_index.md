@@ -19,7 +19,6 @@ The DataLabelFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/datalabelformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`is_number_format_linked_to_source`](/slides/python-net/aspose.slides.charts/datalabelformat/is_number_format_linked_to_source/) | Read/write **bool**. |
 | [`number_format`](/slides/python-net/aspose.slides.charts/datalabelformat/number_format/) | Represents the format string for the DataLabels object.<br/>            Read/write **str**. |
 | [`format`](/slides/python-net/aspose.slides.charts/datalabelformat/format/) | Represents the format of the data label.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
@@ -38,12 +37,11 @@ The DataLabelFormat type exposes the following members:
 | [`chart`](/slides/python-net/aspose.slides.charts/datalabelformat/chart/) | Returns the chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
 | [`slide`](/slides/python-net/aspose.slides.charts/datalabelformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/datalabelformat/presentation/) |  |
-| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/datalabelformat/as_i_formatted_text_container/) |  |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/datalabelformat/as_i_chart_component/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/datalabelformat/as_i_slide_component/) |  |
+
 
 ### See Also
 * class [`DataLabelFormat`](/slides/python-net/aspose.slides.charts/datalabelformat)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

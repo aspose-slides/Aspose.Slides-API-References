@@ -37,8 +37,6 @@ The MathNaryOperator type exposes the following members:
 | [`grow_to_match_operand_height`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/grow_to_match_operand_height/) | Operator Character grows vertically to match its operand height |
 | [`hide_subscript`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/hide_subscript/) | Hide Subscript |
 | [`hide_superscript`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/hide_superscript/) | Hide Superscript |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/as_i_math_element/) |  |
-| [`as_i_math_nary_operator_properties`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/as_i_math_nary_operator_properties/) |  |
 
 ## Methods
 
@@ -91,8 +89,10 @@ The MathNaryOperator type exposes the following members:
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator/get_children/#) | Get children elements |
 
+
 ### See Also
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathNaryOperator`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

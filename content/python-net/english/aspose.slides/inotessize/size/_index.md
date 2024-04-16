@@ -17,12 +17,15 @@ Returns or sets the size in points.
 @property
 def size(self):
     ...
+
 @size.setter
 def size(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`INotesSize`](/slides/python-net/aspose.slides/inotessize)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -14,12 +14,15 @@ weight: 130
 @property
 def is_hard_underline_fill(self):
     ...
+
 @is_hard_underline_fill.setter
 def is_hard_underline_fill(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

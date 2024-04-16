@@ -37,10 +37,11 @@ The MotionEffect type exposes the following members:
 | [`path`](/slides/python-net/aspose.slides.animation/motioneffect/path/) | Specifies the path primitive followed by coordinates for the animation motion.<br/>            Read/write [`IMotionPath`](/slides/python-net/aspose.slides.animation/imotionpath). |
 | [`path_edit_mode`](/slides/python-net/aspose.slides.animation/motioneffect/path_edit_mode/) | Specifies how the motion path moves when shape is moved.<br/>            Read/write [`MotionPathEditMode`](/slides/python-net/aspose.slides.animation/motionpatheditmode). |
 | [`angle`](/slides/python-net/aspose.slides.animation/motioneffect/angle/) | Describes the relative angle of the motion path.<br/>            Read/write **float**. |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/motioneffect/as_i_behavior/) |  |
+
 
 ### See Also
 * class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
 * class [`MotionEffect`](/slides/python-net/aspose.slides.animation/motioneffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

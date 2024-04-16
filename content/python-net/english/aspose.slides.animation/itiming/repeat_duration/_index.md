@@ -17,12 +17,15 @@ Describes the number of times the effect should repeat.
 @property
 def repeat_duration(self):
     ...
+
 @repeat_duration.setter
 def repeat_duration(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITiming`](/slides/python-net/aspose.slides.animation/itiming)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -23,14 +23,15 @@ The IFillFormatEffectiveData type exposes the following members:
 | [`pattern_format`](/slides/python-net/aspose.slides/ifillformateffectivedata/pattern_format/) | Returns the pattern fill format.<br/>            Read-only [`IPatternFormatEffectiveData`](/slides/python-net/aspose.slides/ipatternformateffectivedata). |
 | [`picture_fill_format`](/slides/python-net/aspose.slides/ifillformateffectivedata/picture_fill_format/) | Returns the picture fill format.<br/>            Read-only [`IPictureFillFormatEffectiveData`](/slides/python-net/aspose.slides/ipicturefillformateffectivedata). |
 | [`rotate_with_shape`](/slides/python-net/aspose.slides/ifillformateffectivedata/rotate_with_shape/) | Determines whether the fill should be rotated with shape.<br/>            Read-only **bool**. |
-| [`as_i_fill_param_source`](/slides/python-net/aspose.slides/ifillformateffectivedata/as_i_fill_param_source/) | Returns IFillParamSource interface.<br/>            Read-only [`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource). |
 
 
 ### Remarks
 
 This interface is used together with the [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat) interface to return effective formatting values with inheritance applied.
 
+
 ### See Also
 * class [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

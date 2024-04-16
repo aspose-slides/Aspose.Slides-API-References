@@ -26,6 +26,8 @@ The ChartCategoryLevelsManager type exposes the following members:
 | [`set_grouping_item`](/slides/python-net/aspose.slides.charts/chartcategorylevelsmanager/set_grouping_item/#int-any) | Sets grouping item for defined level. |
 | [`delete_grouping_item`](/slides/python-net/aspose.slides.charts/chartcategorylevelsmanager/delete_grouping_item/#int) | Delete grouping item for defined level. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

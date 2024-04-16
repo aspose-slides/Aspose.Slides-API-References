@@ -18,12 +18,15 @@ Returns or sets the luminance component of a color in HSL representation.
 @property
 def luminance(self):
     ...
+
 @luminance.setter
 def luminance(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ColorFormat`](/slides/python-net/aspose.slides/colorformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

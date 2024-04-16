@@ -24,7 +24,6 @@ def create_portion(self):
 
 
 
-
 ## create_portion {#str}
 Creates a text portion from specified string.
 
@@ -43,7 +42,6 @@ def create_portion(self, str):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | str | **str** | String. |
-
 
 
 ## create_portion {#iportion}
@@ -72,3 +70,4 @@ def create_portion(self, portion):
 * class [`PortionFactory`](/slides/python-net/aspose.slides/portionfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

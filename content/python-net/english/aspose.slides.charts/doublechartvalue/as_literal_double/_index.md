@@ -17,12 +17,15 @@ Returns or sets value as literal double.
 @property
 def as_literal_double(self):
     ...
+
 @as_literal_double.setter
 def as_literal_double(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DoubleChartValue`](/slides/python-net/aspose.slides.charts/doublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

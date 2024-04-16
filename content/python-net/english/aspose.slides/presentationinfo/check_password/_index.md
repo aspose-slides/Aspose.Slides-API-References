@@ -35,8 +35,8 @@ When the password is null or empty, this method returns false.
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** |  |
-| **System.NotSupportedException** |  |
+| **RuntimeError(Proxy error(InvalidOperationException))** |  |
+| **RuntimeError(Proxy error(NotSupportedException))** |  |
 
 
 
@@ -44,3 +44,4 @@ When the password is null or empty, this method returns false.
 * class [`PresentationInfo`](/slides/python-net/aspose.slides/presentationinfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

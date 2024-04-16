@@ -20,12 +20,10 @@ The FillOverlay type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.effects/filloverlay/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`fill_format`](/slides/python-net/aspose.slides.effects/filloverlay/fill_format/) | Fill format.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
 | [`blend`](/slides/python-net/aspose.slides.effects/filloverlay/blend/) | FillBlendMode.<br/>            Read/write [`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode). |
 | [`slide`](/slides/python-net/aspose.slides.effects/filloverlay/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.effects/filloverlay/presentation/) |  |
-| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/filloverlay/as_i_image_transform_operation/) |  |
 
 ## Methods
 
@@ -33,9 +31,11 @@ The FillOverlay type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides.effects/filloverlay/get_effective/#) | Gets effective Fill Overlay effect data with the inheritance applied. |
 
+
 ### See Also
 * class [`FillOverlay`](/slides/python-net/aspose.slides.effects/filloverlay)
 * class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

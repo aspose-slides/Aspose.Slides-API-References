@@ -32,6 +32,8 @@ The IChartParagraphFormat type exposes the following members:
 | [`tabs`](/slides/python-net/aspose.slides.charts/ichartparagraphformat/tabs/) | Returns tabulations of a paragraph.<br/>            Read-only [`ITabCollection`](/slides/python-net/aspose.slides/itabcollection). |
 | [`font_alignment`](/slides/python-net/aspose.slides.charts/ichartparagraphformat/font_alignment/) | Returns or sets a font alignment in a paragraph.<br/>            Read/write [`FontAlignment`](/slides/python-net/aspose.slides/fontalignment). |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

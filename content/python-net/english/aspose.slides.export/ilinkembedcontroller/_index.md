@@ -21,6 +21,8 @@ The ILinkEmbedController type exposes the following members:
 | [`get_url`](/slides/python-net/aspose.slides.export/ilinkembedcontroller/get_url/#int-int) | Returns an URL to an external object.<br/>            This method always called if **Aspose.Slides.Export.ILinkEmbedController.GetObjectStoringLocation(System.Int32,System.Byte[],System.String,System.String,Syste** returned [`LinkEmbedDecision.LINK`](/slides/python-net/aspose.slides.export/linkembeddecision#LINK) and may be called if **Aspose.Slides.Export.ILinkEmbedController.GetObjectStoringLocation(System.Int32,System.Byte[],System.String,System.String,Syste** returned [`LinkEmbedDecision.EMBED`](/slides/python-net/aspose.slides.export/linkembeddecision#EMBED) but embedding is impossible.<br/>            Can be called multiple time for same object id. |
 | [`save_external`](/slides/python-net/aspose.slides.export/ilinkembedcontroller/save_external/#int-bytes) | Saves external object. |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

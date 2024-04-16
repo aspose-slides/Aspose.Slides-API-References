@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#ilinkembedcontroller}
 Creates a new HtmlOptions object specifiing callback.
 
@@ -41,3 +40,4 @@ def __init__(self, link_embed_controller):
 * class [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

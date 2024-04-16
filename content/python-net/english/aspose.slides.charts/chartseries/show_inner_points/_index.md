@@ -17,12 +17,15 @@ Represents inner points. True if inner points are shown on the BoxAndWhisker cha
 @property
 def show_inner_points(self):
     ...
+
 @show_inner_points.setter
 def show_inner_points(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

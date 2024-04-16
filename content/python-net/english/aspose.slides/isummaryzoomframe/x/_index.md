@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/isummaryzoomframe/x/
-weight: 430
+weight: 440
 ---
 
 
@@ -14,12 +14,15 @@ weight: 430
 @property
 def x(self):
     ...
+
 @x.setter
 def x(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISummaryZoomFrame`](/slides/python-net/aspose.slides/isummaryzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

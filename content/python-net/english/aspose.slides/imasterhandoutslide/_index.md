@@ -18,8 +18,6 @@ The IMasterHandoutSlide type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`header_footer_manager`](/slides/python-net/aspose.slides/imasterhandoutslide/header_footer_manager/) | Returns HeaderFooter manager of the master handout slide.<br/>            Read-only [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager). |
-| [`as_i_base_slide`](/slides/python-net/aspose.slides/imasterhandoutslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
-| [`as_i_master_themeable`](/slides/python-net/aspose.slides/imasterhandoutslide/as_i_master_themeable/) | Returns IMasterThemeable interface.<br/>            Read-only [`IMasterThemeable`](/slides/python-net/aspose.slides.theme/imasterthemeable). |
 | [`shapes`](/slides/python-net/aspose.slides/imasterhandoutslide/shapes/) |  |
 | [`controls`](/slides/python-net/aspose.slides/imasterhandoutslide/controls/) |  |
 | [`name`](/slides/python-net/aspose.slides/imasterhandoutslide/name/) |  |
@@ -30,9 +28,7 @@ The IMasterHandoutSlide type exposes the following members:
 | [`background`](/slides/python-net/aspose.slides/imasterhandoutslide/background/) |  |
 | [`hyperlink_queries`](/slides/python-net/aspose.slides/imasterhandoutslide/hyperlink_queries/) |  |
 | [`show_master_shapes`](/slides/python-net/aspose.slides/imasterhandoutslide/show_master_shapes/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/imasterhandoutslide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/imasterhandoutslide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/imasterhandoutslide/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/imasterhandoutslide/presentation/) |  |
 | [`theme_manager`](/slides/python-net/aspose.slides/imasterhandoutslide/theme_manager/) |  |
 
@@ -45,6 +41,8 @@ The IMasterHandoutSlide type exposes the following members:
 | [`equals`](/slides/python-net/aspose.slides/imasterhandoutslide/equals/#ibaseslide) |  |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/imasterhandoutslide/create_theme_effective/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

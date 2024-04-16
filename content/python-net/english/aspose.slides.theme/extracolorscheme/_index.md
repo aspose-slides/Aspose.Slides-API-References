@@ -20,6 +20,8 @@ The ExtraColorScheme type exposes the following members:
 | [`name`](/slides/python-net/aspose.slides.theme/extracolorscheme/name/) | Returns a name of this scheme.<br/>            Read-only **str**. |
 | [`color_scheme`](/slides/python-net/aspose.slides.theme/extracolorscheme/color_scheme/) | Returns a color scheme.<br/>            Read-only [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme). |
 
+
 ### See Also
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

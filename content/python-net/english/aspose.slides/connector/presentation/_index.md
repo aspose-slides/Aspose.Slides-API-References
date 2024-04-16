@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/connector/presentation/
-weight: 410
+weight: 420
 ---
 
 
@@ -19,8 +19,10 @@ def presentation(self):
     ...
 ```
 
+
 ### See Also
 * class [`Connector`](/slides/python-net/aspose.slides/connector)
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -14,12 +14,15 @@ weight: 290
 @property
 def limit_location(self):
     ...
+
 @limit_location.setter
 def limit_location(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

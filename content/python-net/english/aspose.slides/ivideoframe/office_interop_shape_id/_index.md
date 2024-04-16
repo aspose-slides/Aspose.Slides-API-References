@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ivideoframe/office_interop_shape_id/
-weight: 390
+weight: 400
 ---
 
 
@@ -16,7 +16,9 @@ def office_interop_shape_id(self):
     ...
 ```
 
+
 ### See Also
 * class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Represents the maximum value on the value axis.
 @property
 def max_value(self):
     ...
+
 @max_value.setter
 def max_value(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

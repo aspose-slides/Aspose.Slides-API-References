@@ -17,12 +17,15 @@ Returns or sets the top margin in a TextFrame.
 @property
 def margin_top(self):
     ...
+
 @margin_top.setter
 def margin_top(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Cell`](/slides/python-net/aspose.slides/cell)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

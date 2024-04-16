@@ -20,8 +20,10 @@ def slide_show_transition(self):
     ...
 ```
 
+
 ### See Also
 * class [`BaseSlide`](/slides/python-net/aspose.slides/baseslide)
 * class [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

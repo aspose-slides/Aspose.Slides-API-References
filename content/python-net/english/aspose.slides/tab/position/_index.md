@@ -18,12 +18,15 @@ Returns or sets position of a tab.
 @property
 def position(self):
     ...
+
 @position.setter
 def position(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Tab`](/slides/python-net/aspose.slides/tab)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

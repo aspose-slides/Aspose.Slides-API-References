@@ -22,12 +22,15 @@ Specifies custom the rotation that is being applied to the text within the bound
 @property
 def rotation_angle(self):
     ...
+
 @rotation_angle.setter
 def rotation_angle(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

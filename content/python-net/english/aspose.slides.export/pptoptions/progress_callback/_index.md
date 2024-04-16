@@ -17,13 +17,16 @@ Represents a callback object for saving progress updates in percentage.
 @property
 def progress_callback(self):
     ...
+
 @progress_callback.setter
 def progress_callback(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IProgressCallback`](/slides/python-net/aspose.slides/iprogresscallback)
 * class [`PptOptions`](/slides/python-net/aspose.slides.export/pptoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

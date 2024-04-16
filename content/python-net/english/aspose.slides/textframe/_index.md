@@ -23,8 +23,6 @@ The TextFrame type exposes the following members:
 | [`hyperlink_queries`](/slides/python-net/aspose.slides/textframe/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
 | [`slide`](/slides/python-net/aspose.slides/textframe/slide/) | Returns the parent slide of a TextFrame.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`presentation`](/slides/python-net/aspose.slides/textframe/presentation/) | Returns the parent presentation of a TextFrame.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/textframe/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/textframe/as_i_presentation_component/) |  |
 
 ## Methods
 
@@ -35,6 +33,8 @@ The TextFrame type exposes the following members:
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/textframe/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs. |
 | [`highlight_regex`](/slides/python-net/aspose.slides/textframe/highlight_regex/#str-asposepydrawingcolor-itexthighlightingoptions) | Highlight all matches of regular expression in text frame text using specified color. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

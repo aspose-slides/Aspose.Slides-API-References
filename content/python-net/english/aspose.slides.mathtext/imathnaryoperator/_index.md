@@ -22,8 +22,6 @@ The IMathNaryOperator type exposes the following members:
 | [`base`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/base/) | Base argument |
 | [`subscript`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/subscript/) | Specifies a subscript argument that, for example, in the case of an integral, sets the lower limit |
 | [`superscript`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/superscript/) | Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
-| [`as_i_math_nary_operator_properties`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/as_i_math_nary_operator_properties/) | Allows to get base IMathNaryOperatorProperties interface<br/>            [`IMathNaryOperatorProperties`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorproperties) |
 | [`operator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/operator/) |  |
 | [`limit_location`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/limit_location/) |  |
 | [`grow_to_match_operand_height`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/grow_to_match_operand_height/) |  |
@@ -81,6 +79,8 @@ The IMathNaryOperator type exposes the following members:
 | [`underbar`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/underbar/#) |  |
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator/to_box/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

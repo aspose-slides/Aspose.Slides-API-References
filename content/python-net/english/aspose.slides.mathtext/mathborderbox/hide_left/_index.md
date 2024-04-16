@@ -16,12 +16,15 @@ Hide Left Edge (default is false) - specifies the hidden or shown state of the l
 @property
 def hide_left(self):
     ...
+
 @hide_left.setter
 def hide_left(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathBorderBox`](/slides/python-net/aspose.slides.mathtext/mathborderbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

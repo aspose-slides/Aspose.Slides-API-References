@@ -16,12 +16,15 @@ Specifies whether border around pages should be shown. Default is true.
 @property
 def show_page_border(self):
     ...
+
 @show_page_border.setter
 def show_page_border(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SwfOptions`](/slides/python-net/aspose.slides.export/swfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

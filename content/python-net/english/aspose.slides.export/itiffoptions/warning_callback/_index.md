@@ -14,12 +14,15 @@ weight: 140
 @property
 def warning_callback(self):
     ...
+
 @warning_callback.setter
 def warning_callback(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

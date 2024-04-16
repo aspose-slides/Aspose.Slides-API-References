@@ -29,7 +29,6 @@ def create_math_limit(self, base_arg, limit):
 | limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Limit element |
 
 
-
 ## create_math_limit {#imathelement-imathelement-bool}
 Creates IMathLimit
 
@@ -59,3 +58,4 @@ def create_math_limit(self, base_arg, limit, upper_limit):
 * class [`IMathLimitFactory`](/slides/python-net/aspose.slides.mathtext/imathlimitfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

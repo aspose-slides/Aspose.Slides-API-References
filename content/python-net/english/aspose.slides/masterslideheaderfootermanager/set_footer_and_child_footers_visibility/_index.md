@@ -30,3 +30,4 @@ def set_footer_and_child_footers_visibility(self, is_visible):
 * class [`MasterSlideHeaderFooterManager`](/slides/python-net/aspose.slides/masterslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

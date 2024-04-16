@@ -23,7 +23,6 @@ def add_field(self, field_type):
 | field_type | [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype) |  |
 
 
-
 ## add_field {#str}
 Converts this portion to the automaticaly updated field.
 
@@ -45,3 +44,4 @@ def add_field(self, internal_string):
 * class [`Portion`](/slides/python-net/aspose.slides/portion)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

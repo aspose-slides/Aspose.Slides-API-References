@@ -36,3 +36,4 @@ def add_section(self, name, started_from_slide):
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

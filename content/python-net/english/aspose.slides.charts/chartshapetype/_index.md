@@ -25,6 +25,8 @@ The ChartShapeType type exposes the following members:
 | PYRAMID | Specifies the chart shall be drawn as a rectangular pyramid, with the base of the pyramid on the floor and the point of the pyramid at the top of the data marker. |
 | PYRAMID_TO_MAXIMUM | Specifies the chart shall be drawn with truncated cones such that the point of the cone would be the maximum data value. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

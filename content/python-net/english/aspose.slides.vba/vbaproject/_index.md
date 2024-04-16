@@ -27,6 +27,7 @@ The VbaProject type exposes the following members:
 | [`name`](/slides/python-net/aspose.slides.vba/vbaproject/name/) | Returns the name of the VBA project.<br/>            Read-only **str**. |
 | [`modules`](/slides/python-net/aspose.slides.vba/vbaproject/modules/) | Returns the list of all modules that are contained in the VBA project.<br/>            Read-only [`IVbaModuleCollection`](/slides/python-net/aspose.slides.vba/ivbamodulecollection). |
 | [`references`](/slides/python-net/aspose.slides.vba/vbaproject/references/) | Returns the list of all references that are contained in the VBA project.<br/>            Read-only [`IVbaReferenceCollection`](/slides/python-net/aspose.slides.vba/ivbareferencecollection). |
+| [`is_password_protected`](/slides/python-net/aspose.slides.vba/vbaproject/is_password_protected/) | Indicates whether the VBAProject is protected by a password to view project properties.<br/>            Read-only **bool**. |
 
 ## Methods
 
@@ -34,6 +35,8 @@ The VbaProject type exposes the following members:
 | :- | :- |
 | [`to_binary`](/slides/python-net/aspose.slides.vba/vbaproject/to_binary/#) | Returns the binary representation of the VBA project as OLE container |
 
+
 ### See Also
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

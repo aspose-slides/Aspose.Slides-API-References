@@ -17,12 +17,15 @@ Represents the identifier of an Automation type library.
 @property
 def libid(self):
     ...
+
 @libid.setter
 def libid(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`VbaReferenceOleTypeLib`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -26,6 +26,8 @@ The IShapeStyle type exposes the following members:
 | [`font_color`](/slides/python-net/aspose.slides/ishapestyle/font_color/) | Returns a shape's font color.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`font_collection_index`](/slides/python-net/aspose.slides/ishapestyle/font_collection_index/) | Returns or sets shape's font index in a font collection.<br/>            Read/write [`FontCollectionIndex`](/slides/python-net/aspose.slides/fontcollectionindex). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

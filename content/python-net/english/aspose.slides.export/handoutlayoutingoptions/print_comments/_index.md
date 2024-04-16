@@ -21,12 +21,15 @@ Default value is  **false** .
 @property
 def print_comments(self):
     ...
+
 @print_comments.setter
 def print_comments(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`HandoutLayoutingOptions`](/slides/python-net/aspose.slides.export/handoutlayoutingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

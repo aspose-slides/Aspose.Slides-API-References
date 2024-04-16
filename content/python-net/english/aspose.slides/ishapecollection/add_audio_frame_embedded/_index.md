@@ -34,7 +34,6 @@ def add_audio_frame_embedded(self, x, y, width, height, audio_stream):
 | audio_stream | **io.RawIOBase** | Inout stream with audio data. |
 
 
-
 ## add_audio_frame_embedded {#float-float-float-float-iaudio}
 Adds a new audio frame with embedded audio file to the end of a collection.
             It uses audio file from Presentation.Audios list.
@@ -67,3 +66,4 @@ def add_audio_frame_embedded(self, x, y, width, height, audio):
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

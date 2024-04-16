@@ -24,7 +24,6 @@ def to_array(self):
 
 
 
-
 ## to_array {#int-int}
 Creates and returns an array with all comments from the specified range.
 
@@ -52,3 +51,4 @@ def to_array(self, start_index, count):
 * class [`CommentCollection`](/slides/python-net/aspose.slides/commentcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

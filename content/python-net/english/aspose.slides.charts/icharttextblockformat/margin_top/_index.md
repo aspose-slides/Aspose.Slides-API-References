@@ -19,12 +19,15 @@ Returns or sets the top margin (points) in a TextFrame.
 @property
 def margin_top(self):
     ...
+
 @margin_top.setter
 def margin_top(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

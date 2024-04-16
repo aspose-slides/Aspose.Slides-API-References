@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/slide/join_portions_with_same_formatting/
-weight: 60
+weight: 70
 ---
 
 
@@ -16,7 +16,6 @@ Joins runs with same formatting in all paragraphs in all acceptable shapes.
 def join_portions_with_same_formatting(self):
     ...
 ```
-
 
 
 
@@ -41,3 +40,4 @@ def join_portions_with_same_formatting(self, collection):
 * class [`Slide`](/slides/python-net/aspose.slides/slide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

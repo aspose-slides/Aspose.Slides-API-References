@@ -22,12 +22,15 @@ Default is **false** .
 @property
 def draw_slides_frame(self):
     ...
+
 @draw_slides_frame.setter
 def draw_slides_frame(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

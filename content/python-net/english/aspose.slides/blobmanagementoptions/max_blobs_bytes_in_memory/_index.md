@@ -27,12 +27,15 @@ Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memo
 @property
 def max_blobs_bytes_in_memory(self):
     ...
+
 @max_blobs_bytes_in_memory.setter
 def max_blobs_bytes_in_memory(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`BlobManagementOptions`](/slides/python-net/aspose.slides/blobmanagementoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

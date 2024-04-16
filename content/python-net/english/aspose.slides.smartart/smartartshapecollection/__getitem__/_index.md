@@ -14,7 +14,10 @@ weight: 10
 | Name | Description |
 | :- | :- |
 | index |  |
+
+
 ### See Also
 * class [`SmartArtShapeCollection`](/slides/python-net/aspose.slides.smartart/smartartshapecollection)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

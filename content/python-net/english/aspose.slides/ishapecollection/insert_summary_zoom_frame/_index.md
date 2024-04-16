@@ -49,3 +49,4 @@ This method creates a new Summary Zoom and puts a collection of objects into it 
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

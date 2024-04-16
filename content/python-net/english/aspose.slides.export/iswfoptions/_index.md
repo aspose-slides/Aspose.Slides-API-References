@@ -33,11 +33,12 @@ The ISwfOptions type exposes the following members:
 | [`logo_link`](/slides/python-net/aspose.slides.export/iswfoptions/logo_link/) | Gets or sets the full hyperlink address for a logo.<br/>            Has an effect only if a [`ISwfOptions.logo_image_bytes`](/slides/python-net/aspose.slides.export/iswfoptions#logo_image_bytes) is specified. |
 | [`jpeg_quality`](/slides/python-net/aspose.slides.export/iswfoptions/jpeg_quality/) | Specifies the quality of JPEG images.             <br/>            Default is 95. |
 | [`notes_comments_layouting`](/slides/python-net/aspose.slides.export/iswfoptions/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document. |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/iswfoptions/as_i_save_options/) | Returns ISaveOptions interface.<br/>            Read-only [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions). |
 | [`warning_callback`](/slides/python-net/aspose.slides.export/iswfoptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/iswfoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/iswfoptions/default_regular_font/) |  |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -23,6 +23,8 @@ The IMathNaryOperatorProperties type exposes the following members:
 | [`hide_subscript`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorproperties/hide_subscript/) | Hide Subscript |
 | [`hide_superscript`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorproperties/hide_superscript/) | Hide Superscript |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

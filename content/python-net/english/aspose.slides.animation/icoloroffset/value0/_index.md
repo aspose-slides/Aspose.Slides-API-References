@@ -17,12 +17,15 @@ Defines first value of offset.
 @property
 def value0(self):
     ...
+
 @value0.setter
 def value0(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IColorOffset`](/slides/python-net/aspose.slides.animation/icoloroffset)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

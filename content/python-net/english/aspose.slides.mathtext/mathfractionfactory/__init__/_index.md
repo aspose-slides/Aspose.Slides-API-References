@@ -24,3 +24,4 @@ def __init__(self):
 * class [`MathFractionFactory`](/slides/python-net/aspose.slides.mathtext/mathfractionfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

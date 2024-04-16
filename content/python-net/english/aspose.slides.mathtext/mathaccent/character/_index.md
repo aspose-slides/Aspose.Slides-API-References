@@ -18,12 +18,15 @@ Accent Character
 @property
 def character(self):
     ...
+
 @character.setter
 def character(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathAccent`](/slides/python-net/aspose.slides.mathtext/mathaccent)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -20,7 +20,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#bytes}
 This constructor loads VBA project from binary representation of OLE container.
 
@@ -41,3 +40,4 @@ def __init__(self, data):
 * class [`VbaProject`](/slides/python-net/aspose.slides.vba/vbaproject)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

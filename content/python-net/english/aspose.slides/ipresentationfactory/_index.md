@@ -31,6 +31,8 @@ The IPresentationFactory type exposes the following members:
 | [`get_presentation_text`](/slides/python-net/aspose.slides/ipresentationfactory/get_presentation_text/#iorawiobase-textextractionarrangingmode) | Retrieves the raw text from the slides |
 | [`get_presentation_text`](/slides/python-net/aspose.slides/ipresentationfactory/get_presentation_text/#iorawiobase-textextractionarrangingmode-iloadoptions) | Retrieves the raw text from the slides |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

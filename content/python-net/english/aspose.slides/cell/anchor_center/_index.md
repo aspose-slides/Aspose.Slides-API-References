@@ -17,12 +17,15 @@ Determines whether or not text box centered inside a cell.
 @property
 def anchor_center(self):
     ...
+
 @anchor_center.setter
 def anchor_center(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Cell`](/slides/python-net/aspose.slides/cell)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

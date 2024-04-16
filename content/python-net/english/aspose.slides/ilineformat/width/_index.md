@@ -17,12 +17,15 @@ Returns or sets the width of a line.
 @property
 def width(self):
     ...
+
 @width.setter
 def width(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

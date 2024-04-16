@@ -35,7 +35,6 @@ def insert_audio_frame_embedded(self, index, x, y, width, height, audio_stream):
 | audio_stream | **io.RawIOBase** | Audio stream. |
 
 
-
 ## insert_audio_frame_embedded {#int-float-float-float-float-iaudio}
 Insert an AudioFrame with embedded audio file.
             It uses audio file from Presentation.Audios list.
@@ -69,3 +68,4 @@ def insert_audio_frame_embedded(self, index, x, y, width, height, audio):
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

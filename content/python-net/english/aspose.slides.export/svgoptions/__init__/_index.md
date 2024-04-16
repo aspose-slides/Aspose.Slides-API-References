@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#ilinkembedcontroller}
 Initializes a new instance of the SVGOptions class specifying the link embedding controller object.
 
@@ -46,3 +45,4 @@ Link embedding controller is a delegate object that is responsible for making de
 * class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

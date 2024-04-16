@@ -20,6 +20,8 @@ The MathDelimiterShape type exposes the following members:
 | CENTERED | Centered to math axis |
 | MATCH | Match to content |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

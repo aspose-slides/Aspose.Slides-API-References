@@ -36,3 +36,4 @@ def get_url(self, id, referrer):
 * class [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

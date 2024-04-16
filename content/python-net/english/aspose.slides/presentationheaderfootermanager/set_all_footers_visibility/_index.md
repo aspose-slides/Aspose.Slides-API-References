@@ -29,3 +29,4 @@ def set_all_footers_visibility(self, is_visible):
 * class [`PresentationHeaderFooterManager`](/slides/python-net/aspose.slides/presentationheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -27,7 +27,6 @@ The IThreeDFormat type exposes the following members:
 | [`camera`](/slides/python-net/aspose.slides/ithreedformat/camera/) | Returns or sets the settings of a camera.<br/>            Read-only [`ICamera`](/slides/python-net/aspose.slides/icamera). |
 | [`light_rig`](/slides/python-net/aspose.slides/ithreedformat/light_rig/) | Returns or sets the type of a light.<br/>            Read-only [`ILightRig`](/slides/python-net/aspose.slides/ilightrig). |
 | [`material`](/slides/python-net/aspose.slides/ithreedformat/material/) | Returns or sets the type of a material.<br/>            Read/write [`MaterialPresetType`](/slides/python-net/aspose.slides/materialpresettype). |
-| [`as_i_three_d_param_source`](/slides/python-net/aspose.slides/ithreedformat/as_i_three_d_param_source/) | Allows to get base IThreeDParamSource interface.<br/>            Read-only [`IThreeDParamSource`](/slides/python-net/aspose.slides/ithreedparamsource). |
 
 ## Methods
 
@@ -35,6 +34,8 @@ The IThreeDFormat type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides/ithreedformat/get_effective/#) | Gets effective 3-D formatting data with the inheritance applied. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

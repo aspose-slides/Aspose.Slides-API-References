@@ -24,7 +24,6 @@ def insert(self, index, value):
 | value | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | The Paragraph to insert. |
 
 
-
 ## insert {#int-iparagraphcollection}
 Inserts a content of ParagraphCollection into the collection at the specified index.
 
@@ -48,3 +47,4 @@ def insert(self, index, value):
 * class [`ParagraphCollection`](/slides/python-net/aspose.slides/paragraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

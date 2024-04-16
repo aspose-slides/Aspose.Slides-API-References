@@ -29,3 +29,4 @@ def set_all_date_times_text(self, text):
 * class [`PresentationHeaderFooterManager`](/slides/python-net/aspose.slides/presentationheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

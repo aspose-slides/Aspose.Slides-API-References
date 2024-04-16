@@ -33,11 +33,7 @@ The MasterNotesSlide type exposes the following members:
 | [`header_footer_manager`](/slides/python-net/aspose.slides/masternotesslide/header_footer_manager/) | Returns HeaderFooter manager of the master notes slide.<br/>            Read-only [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager). |
 | [`theme_manager`](/slides/python-net/aspose.slides/masternotesslide/theme_manager/) | Returns the theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
 | [`notes_style`](/slides/python-net/aspose.slides/masternotesslide/notes_style/) | Returns the style of a notes text.<br/>            Read-only [`ITextStyle`](/slides/python-net/aspose.slides/itextstyle). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/masternotesslide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/masternotesslide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/masternotesslide/as_i_presentation_component/) |  |
-| [`as_i_base_slide`](/slides/python-net/aspose.slides/masternotesslide/as_i_base_slide/) |  |
-| [`as_i_master_themeable`](/slides/python-net/aspose.slides/masternotesslide/as_i_master_themeable/) |  |
 
 ## Methods
 
@@ -49,8 +45,10 @@ The MasterNotesSlide type exposes the following members:
 | [`create_theme_effective`](/slides/python-net/aspose.slides/masternotesslide/create_theme_effective/#) | Returns an effective theme for this slide. |
 | [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/masternotesslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 
+
 ### See Also
 * class [`BaseSlide`](/slides/python-net/aspose.slides/baseslide)
 * class [`MasterNotesSlide`](/slides/python-net/aspose.slides/masternotesslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

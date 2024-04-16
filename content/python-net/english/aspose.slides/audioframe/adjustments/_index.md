@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/audioframe/adjustments/
-weight: 100
+weight: 110
 ---
 
 
@@ -19,8 +19,10 @@ def adjustments(self):
     ...
 ```
 
+
 ### See Also
 * class [`AudioFrame`](/slides/python-net/aspose.slides/audioframe)
 * class [`IAdjustValueCollection`](/slides/python-net/aspose.slides/iadjustvaluecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

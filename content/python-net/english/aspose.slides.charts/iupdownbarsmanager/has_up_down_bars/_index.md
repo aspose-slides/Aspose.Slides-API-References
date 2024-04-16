@@ -17,12 +17,15 @@ Determines whether the chart has up/down bars.
 @property
 def has_up_down_bars(self):
     ...
+
 @has_up_down_bars.setter
 def has_up_down_bars(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IUpDownBarsManager`](/slides/python-net/aspose.slides.charts/iupdownbarsmanager)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

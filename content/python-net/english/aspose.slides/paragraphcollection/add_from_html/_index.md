@@ -23,7 +23,6 @@ def add_from_html(self, text):
 | text | **str** | HTML text. |
 
 
-
 ## add_from_html {#str-asposeslidesimportingiexternalresourceresolver-str}
 Adds text from specified html string to the collection.
 
@@ -51,3 +50,4 @@ Specifying resolver can potentially introduce a vulnurability. Use with caution.
 * class [`ParagraphCollection`](/slides/python-net/aspose.slides/paragraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

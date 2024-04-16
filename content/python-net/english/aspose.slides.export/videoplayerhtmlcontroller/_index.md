@@ -19,14 +19,6 @@ The VideoPlayerHtmlController type exposes the following members:
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/__init__/#str-str-str) | Creates a new instance of controller |
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_html_formatting_controller`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/as_i_html_formatting_controller/) |  |
-| [`as_i_svg_shape_formatting_controller`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/as_i_svg_shape_formatting_controller/) |  |
-| [`as_i_link_embed_controller`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/as_i_link_embed_controller/) |  |
-
 ## Methods
 
 | Method | Description |
@@ -42,6 +34,8 @@ The VideoPlayerHtmlController type exposes the following members:
 | [`get_url`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/get_url/#int-int) |  |
 | [`save_external`](/slides/python-net/aspose.slides.export/videoplayerhtmlcontroller/save_external/#int-bytes) |  |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

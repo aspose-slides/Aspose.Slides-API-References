@@ -18,7 +18,6 @@ The IBehaviorCollection type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/ibehaviorcollection/count/) | Returns the number of behaviors in a collection.<br/>            Read-only **int**. |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/ibehaviorcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only **collections.abc.Iterable**. |
 
 ## Indexer
 
@@ -38,6 +37,8 @@ The IBehaviorCollection type exposes the following members:
 | [`clear`](/slides/python-net/aspose.slides.animation/ibehaviorcollection/clear/#) | Removes all behaviors from a collection. |
 | [`contains`](/slides/python-net/aspose.slides.animation/ibehaviorcollection/contains/#ibehavior) | Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value. |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

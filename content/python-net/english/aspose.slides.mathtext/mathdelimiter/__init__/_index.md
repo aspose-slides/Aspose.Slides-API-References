@@ -26,7 +26,7 @@ def __init__(self, element):
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | Throws then `<br/>element`<br/> is a container for another elements, such as MathBlock. In this case, you need to call a different constructor with IEnumerable argument. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Throws then `<br/>element`<br/> is a container for another elements, such as MathBlock. In this case, you need to call a different constructor with IEnumerable argument. |
 
 
 
@@ -35,3 +35,4 @@ def __init__(self, element):
 * class [`MathDelimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Represents type of filter effect.
 @property
 def type(self):
     ...
+
 @type.setter
 def type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`FilterEffect`](/slides/python-net/aspose.slides.animation/filtereffect)
 * enumeration [`FilterEffectType`](/slides/python-net/aspose.slides.animation/filtereffecttype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

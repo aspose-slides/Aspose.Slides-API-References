@@ -24,11 +24,11 @@ The Control type exposes the following members:
 | [`frame`](/slides/python-net/aspose.slides/control/frame/) | Returns or sets control's frame.<br/>            Read/write [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe). |
 | [`properties`](/slides/python-net/aspose.slides/control/properties/) | Returns a collection of ActiveX properties.<br/>            Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null.<br/>            Read-only [`IControlPropertiesCollection`](/slides/python-net/aspose.slides/icontrolpropertiescollection). |
 | [`active_x_control_binary`](/slides/python-net/aspose.slides/control/active_x_control_binary/) | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/control/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/control/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/control/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/control/presentation/) |  |
+
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -32,6 +32,29 @@ def add_image(self, image):
 This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
 
 
+## add_image {#iimage}
+Add an image to a presentation.
+
+### Returns
+
+Added image.
+
+
+
+```python
+def add_image(self, image):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| image | [`IImage`](/slides/python-net/aspose.slides/iimage) | Image to add. |
+
+### Remarks
+
+This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
+
 
 ## add_image {#iorawiobase}
 Add an image to a presentation from stream.
@@ -57,7 +80,6 @@ def add_image(self, stream):
 This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image.
 
 
-
 ## add_image {#bytes}
 Adds an image to a presentation from specified buffer.
 
@@ -78,7 +100,6 @@ def add_image(self, buffer):
 | buffer | **bytes** | Buffer. |
 
 
-
 ## add_image {#ippimage}
 Adds a copy of an image from an another presentation.
 
@@ -97,7 +118,6 @@ def add_image(self, image_source):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | image_source | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | Source image. |
-
 
 
 ## add_image {#isvgimage}
@@ -123,8 +143,7 @@ def add_image(self, svg_image):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | Thrown when svgImage parameter is null. |
-
+| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown when svgImage parameter is null. |
 
 
 ## add_image {#iorawiobase-loadingstreambehavior}
@@ -150,9 +169,11 @@ def add_image(self, stream, loading_stream_behavior):
 
 
 ### See Also
+* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`IImageCollection`](/slides/python-net/aspose.slides/iimagecollection)
 * class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * class [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage)
 * enumeration [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

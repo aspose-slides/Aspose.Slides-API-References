@@ -17,13 +17,16 @@ Returns the overriding theme object.
 @property
 def override_theme(self):
     ...
+
 @override_theme.setter
 def override_theme(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme)
 * class [`NotesSlideThemeManager`](/slides/python-net/aspose.slides.theme/notesslidethememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -21,7 +21,9 @@ The Compress type exposes the following members:
 | [`remove_unused_layout_slides`](/slides/python-net/aspose.slides.lowcode/compress/remove_unused_layout_slides/#presentation) | Makes compression of the [`Presentation`](/slides/python-net/aspose.slides/presentation) by removing unused layout slides. |
 | [`compress_embedded_fonts`](/slides/python-net/aspose.slides.lowcode/compress/compress_embedded_fonts/#presentation) | Makes compression of the [`Presentation`](/slides/python-net/aspose.slides/presentation) by removing unused characters from embedded fonts. |
 
+
 ### See Also
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides.lowcode`](/slides/python-net/aspose.slides.lowcode)
 * library [`Aspose.Slides`](/slides/python-net)
+

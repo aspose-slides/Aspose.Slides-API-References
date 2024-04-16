@@ -35,3 +35,4 @@ def add(self, trendline_type):
 * enumeration [`TrendlineType`](/slides/python-net/aspose.slides.charts/trendlinetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

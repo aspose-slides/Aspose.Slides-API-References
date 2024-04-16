@@ -26,6 +26,8 @@ The InterruptionToken type exposes the following members:
 | :- | :- |
 | [`throw_if_interruption_requested`](/slides/python-net/aspose.slides/interruptiontoken/throw_if_interruption_requested/#) | Throws an OperationCanceledException if<br/>            interruption was requested. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

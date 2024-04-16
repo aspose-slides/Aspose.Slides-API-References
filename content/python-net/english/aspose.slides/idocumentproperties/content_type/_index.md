@@ -17,12 +17,15 @@ Returns or sets the content type of a presentation.
 @property
 def content_type(self):
     ...
+
 @content_type.setter
 def content_type(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

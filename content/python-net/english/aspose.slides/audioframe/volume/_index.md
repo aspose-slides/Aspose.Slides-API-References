@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/audioframe/volume/
-weight: 630
+weight: 640
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets the audio volume.
 @property
 def volume(self):
     ...
+
 @volume.setter
 def volume(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`AudioFrame`](/slides/python-net/aspose.slides/audioframe)
 * enumeration [`AudioVolumeMode`](/slides/python-net/aspose.slides/audiovolumemode)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

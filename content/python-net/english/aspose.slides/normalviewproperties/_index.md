@@ -26,6 +26,8 @@ The NormalViewProperties type exposes the following members:
 | [`restored_left`](/slides/python-net/aspose.slides/normalviewproperties/restored_left/) | This element specifies the sizing of the side content region of the normal view, when the region is of a variable<br/>            restored size(neither minimized nor maximized).<br/>            Read opnly [`INormalViewRestoredProperties`](/slides/python-net/aspose.slides/inormalviewrestoredproperties). |
 | [`restored_top`](/slides/python-net/aspose.slides/normalviewproperties/restored_top/) | This element specifies the sizing of the top slide region of the normal view, when the region is of a variable<br/>            restored size(neither minimized nor maximized).<br/>            Read only [`INormalViewRestoredProperties`](/slides/python-net/aspose.slides/inormalviewrestoredproperties). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/audioframe/embedded/
-weight: 270
+weight: 280
 ---
 
 
@@ -19,7 +19,9 @@ def embedded(self):
     ...
 ```
 
+
 ### See Also
 * class [`AudioFrame`](/slides/python-net/aspose.slides/audioframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

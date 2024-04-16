@@ -23,6 +23,8 @@ The MathRowSpacingRule type exposes the following members:
 | EXACTLY | Exactly (rely on value of the RowSpacing property, measured in points) |
 | MULTIPLE | Multiple (rely on value of the RowSpacing property, measured in lines) |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

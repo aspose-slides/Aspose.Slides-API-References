@@ -22,6 +22,8 @@ The ErrorBarsCustomValues type exposes the following members:
 | [`x_plus`](/slides/python-net/aspose.slides.charts/errorbarscustomvalues/x_plus/) | Specifies the error bar value in the positive direction. <br/>            Available if error bars value type is Custom and ErrorBarsXFormat is allowed. <br/>            In any other case this property returns null. <br/>            Read-only [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue). |
 | [`y_plus`](/slides/python-net/aspose.slides.charts/errorbarscustomvalues/y_plus/) | Specifies the error bar value in the positive direction. <br/>            Available if error bars value type is Custom and ErrorBarsYFormat is allowed.<br/>            In any other case this property returns null. <br/>            Read-only [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue). |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

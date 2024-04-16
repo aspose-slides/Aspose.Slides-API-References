@@ -17,13 +17,16 @@ Preset shadow.
 @property
 def preset_shadow_effect(self):
     ...
+
 @preset_shadow_effect.setter
 def preset_shadow_effect(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
 * class [`IPresetShadow`](/slides/python-net/aspose.slides.effects/ipresetshadow)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -31,3 +31,4 @@ def highlight_regex(self, regex, highlight_color, options):
 * class [`TextFrame`](/slides/python-net/aspose.slides/textframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

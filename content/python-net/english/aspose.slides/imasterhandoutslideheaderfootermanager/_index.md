@@ -17,13 +17,10 @@ The IMasterHandoutSlideHeaderFooterManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_base_handout_notes_slide_header_footer_manag`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager/as_i_base_handout_notes_slide_header_footer_manag/) | Returns IBaseHandoutNotesSlideHeaderFooterManag interface. |
 | [`is_header_visible`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager/is_header_visible/) |  |
-| [`as_i_base_slide_header_footer_manager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager/as_i_base_slide_header_footer_manager/) |  |
 | [`is_footer_visible`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager/is_footer_visible/) |  |
 | [`is_slide_number_visible`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager/is_slide_number_visible/) |  |
 | [`is_date_time_visible`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager/is_date_time_visible/) |  |
-| [`as_i_base_header_footer_manager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager/as_i_base_header_footer_manager/) |  |
 
 ## Methods
 
@@ -37,6 +34,8 @@ The IMasterHandoutSlideHeaderFooterManager type exposes the following members:
 | [`set_footer_text`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager/set_footer_text/#str) |  |
 | [`set_date_time_text`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager/set_date_time_text/#str) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

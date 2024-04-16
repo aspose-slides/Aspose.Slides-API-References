@@ -19,7 +19,9 @@ def certificate(self):
     ...
 ```
 
+
 ### See Also
 * class [`IDigitalSignature`](/slides/python-net/aspose.slides/idigitalsignature)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

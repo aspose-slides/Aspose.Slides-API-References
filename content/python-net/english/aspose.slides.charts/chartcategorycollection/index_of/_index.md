@@ -35,3 +35,4 @@ def index_of(self, value):
 * class [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

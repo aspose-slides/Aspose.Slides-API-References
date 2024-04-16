@@ -16,12 +16,15 @@ Gets or sets the brush color for a line.
 @property
 def color(self):
     ...
+
 @color.setter
 def color(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`InkBrush`](/slides/python-net/aspose.slides.ink/inkbrush)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

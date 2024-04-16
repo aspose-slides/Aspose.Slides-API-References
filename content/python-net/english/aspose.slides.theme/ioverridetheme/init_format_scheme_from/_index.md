@@ -26,8 +26,8 @@ def init_format_scheme_from(self, format_scheme):
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | Thrown if the FormatScheme is already initialized (not null). |
-| **System.ArgumentNullException** | Thrown if the formatScheme parameter is null. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the FormatScheme is already initialized (not null). |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown if the formatScheme parameter is null. |
 
 
 
@@ -36,3 +36,4 @@ def init_format_scheme_from(self, format_scheme):
 * class [`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

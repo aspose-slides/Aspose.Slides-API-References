@@ -17,13 +17,16 @@ Returns or sets the text underline type. No inheritance applied.
 @property
 def font_underline(self):
     ...
+
 @font_underline.setter
 def font_underline(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
 * enumeration [`TextUnderlineType`](/slides/python-net/aspose.slides/textunderlinetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

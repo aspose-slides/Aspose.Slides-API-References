@@ -17,13 +17,16 @@ Gets or sets the slide object that the Slide Zoom object links to.
 @property
 def target_slide(self):
     ...
+
 @target_slide.setter
 def target_slide(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * class [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

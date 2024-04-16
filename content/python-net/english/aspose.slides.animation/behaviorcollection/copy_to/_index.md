@@ -27,9 +27,9 @@ def copy_to(self, array, array_index):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | `<br/>array`<br/> is null. |
-| **System.ArgumentOutOfRangeException** | `<br/>array_index`<br/> is less than 0. |
-| **System.ArgumentException** | The number of elements in the source **System.Collections.Generic.ICollection`1** is greater than the available space from `<br/>array_index`<br/> to the end of the destination `<br/>array`<br/>. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | `<br/>array`<br/> is null. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | `<br/>array_index`<br/> is less than 0. |
+| **RuntimeError(Proxy error(ArgumentException))** | The number of elements in the source **System.Collections.Generic.ICollection`1** is greater than the available space from `<br/>array_index`<br/> to the end of the destination `<br/>array`<br/>. |
 
 
 
@@ -37,3 +37,4 @@ def copy_to(self, array, array_index):
 * class [`BehaviorCollection`](/slides/python-net/aspose.slides.animation/behaviorcollection)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

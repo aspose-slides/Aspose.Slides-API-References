@@ -18,7 +18,6 @@ The IMotionPath type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/imotionpath/count/) | Returns the number of paths in the collection.<br/>            Read-only **int**. |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/imotionpath/as_i_enumerable/) | Allows to get base IBehavior interface.<br/>            Read-only **collections.abc.Iterable**. |
 
 ## Indexer
 
@@ -36,6 +35,8 @@ The IMotionPath type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Removes specified commans from the collection. |
 | [`remove_at`](/slides/python-net/aspose.slides.animation/imotionpath/remove_at/#int) | Removes a command at the specified index. |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

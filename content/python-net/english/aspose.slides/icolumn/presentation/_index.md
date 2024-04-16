@@ -16,7 +16,9 @@ def presentation(self):
     ...
 ```
 
+
 ### See Also
 * class [`IColumn`](/slides/python-net/aspose.slides/icolumn)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -28,7 +28,6 @@ def create_math_grouping_character(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply grouping character |
 
 
-
 ## create_math_grouping_character {#imathelement-char-mathtopbotpositions-mathtopbotpositions}
 Creates a math grouping character
 
@@ -60,3 +59,4 @@ def create_math_grouping_character(self, element, character, position, vertical_
 * enumeration [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

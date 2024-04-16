@@ -23,7 +23,6 @@ def __init__(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The base element to which the border box is applied. Can be null. |
 
 
-
 ## __init__ {#imathelement-bool-bool-bool-bool-bool-bool-bool-bool}
 Creates MathBorderBox element
 
@@ -53,3 +52,4 @@ def __init__(self, element, hide_top, hide_bottom, hide_left, hide_right, strike
 * class [`MathBorderBox`](/slides/python-net/aspose.slides.mathtext/mathborderbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartart/rotation/
-weight: 410
+weight: 420
 ---
 
 
@@ -25,12 +25,15 @@ Returned value is always defined (is not float.NaN).
 @property
 def rotation(self):
     ...
+
 @rotation.setter
 def rotation(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SmartArt`](/slides/python-net/aspose.slides.smartart/smartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

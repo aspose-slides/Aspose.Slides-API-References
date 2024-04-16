@@ -23,11 +23,9 @@ The IConnector type exposes the following members:
 | [`end_shape_connected_to`](/slides/python-net/aspose.slides/iconnector/end_shape_connected_to/) | Returns or sets the shape to attach the end of the connector to.<br/>            Read/write [`IShape`](/slides/python-net/aspose.slides/ishape). |
 | [`start_shape_connection_site_index`](/slides/python-net/aspose.slides/iconnector/start_shape_connection_site_index/) | Returns or sets the index of connection site for start shape.<br/>            Read/write **int**. |
 | [`end_shape_connection_site_index`](/slides/python-net/aspose.slides/iconnector/end_shape_connection_site_index/) | Returns or sets the index of connection site for end shape.<br/>            Read/write **int**. |
-| [`as_i_geometry_shape`](/slides/python-net/aspose.slides/iconnector/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only [`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape). |
 | [`shape_style`](/slides/python-net/aspose.slides/iconnector/shape_style/) |  |
 | [`shape_type`](/slides/python-net/aspose.slides/iconnector/shape_type/) |  |
 | [`adjustments`](/slides/python-net/aspose.slides/iconnector/adjustments/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/iconnector/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides/iconnector/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/iconnector/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/iconnector/custom_data/) |  |
@@ -54,10 +52,7 @@ The IConnector type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/iconnector/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/iconnector/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/iconnector/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/iconnector/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/iconnector/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/iconnector/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/iconnector/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/iconnector/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/iconnector/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/iconnector/hyperlink_mouse_over/) |  |
@@ -69,6 +64,8 @@ The IConnector type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/iconnector/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/iconnector/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/iconnector/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/iconnector/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/iconnector/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/iconnector/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`reroute`](/slides/python-net/aspose.slides/iconnector/reroute/#) | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
@@ -80,6 +77,8 @@ The IConnector type exposes the following members:
 | [`remove_placeholder`](/slides/python-net/aspose.slides/iconnector/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/iconnector/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

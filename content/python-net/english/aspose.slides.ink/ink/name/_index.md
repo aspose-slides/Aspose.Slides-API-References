@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/ink/name/
-weight: 290
+weight: 300
 ---
 
 
@@ -18,12 +18,15 @@ Returns or sets the name of a shape.
 @property
 def name(self):
     ...
+
 @name.setter
 def name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

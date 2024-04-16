@@ -74,14 +74,6 @@ The Chart type exposes the following members:
 | [`axes`](/slides/python-net/aspose.slides.charts/chart/axes/) | Provide access to chart axes.<br/>            Read-only [`IAxesManager`](/slides/python-net/aspose.slides.charts/iaxesmanager). |
 | [`show_data_labels_over_maximum`](/slides/python-net/aspose.slides.charts/chart/show_data_labels_over_maximum/) | Specifies data labels over the maximum of the chart shall be shown.<br/>            Read/write **bool**. |
 | [`has_rounded_corners`](/slides/python-net/aspose.slides.charts/chart/has_rounded_corners/) | Specifies the chart area shall have rounded corners.<br/>            Read/write **bool**. |
-| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/chart/as_i_formatted_text_container/) | Allows to get base IFormattedTextContainer interface.<br/>            Read-only [`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer). |
-| [`as_i_themeable`](/slides/python-net/aspose.slides.charts/chart/as_i_themeable/) | Allows to get base IThemeable interface.<br/>            Read-only [`IThemeable`](/slides/python-net/aspose.slides.theme/ithemeable). |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides.charts/chart/as_i_hyperlink_container/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/chart/as_i_presentation_component/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides.charts/chart/as_i_shape/) |  |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides.charts/chart/as_i_graphical_object/) |  |
-| [`as_i_override_themeable`](/slides/python-net/aspose.slides.charts/chart/as_i_override_themeable/) |  |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/chart/as_i_chart_component/) |  |
 | [`chart`](/slides/python-net/aspose.slides.charts/chart/chart/) |  |
 
 ## Methods
@@ -90,6 +82,8 @@ The Chart type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.charts/chart/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.charts/chart/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides.charts/chart/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides.charts/chart/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides.charts/chart/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides.charts/chart/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides.charts/chart/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
@@ -98,9 +92,11 @@ The Chart type exposes the following members:
 | [`validate_chart_layout`](/slides/python-net/aspose.slides.charts/chart/validate_chart_layout/#) | Calculates actual values of chart elements. The actual values include position of elements that implement IActualLayout interface <br/>            (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)<br/>            and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, <br/>            IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
 | [`create_theme_effective`](/slides/python-net/aspose.slides.charts/chart/create_theme_effective/#) | Returns an effective theme for this chart. |
 
+
 ### See Also
 * class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * class [`GraphicalObject`](/slides/python-net/aspose.slides/graphicalobject)
 * class [`Shape`](/slides/python-net/aspose.slides/shape)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

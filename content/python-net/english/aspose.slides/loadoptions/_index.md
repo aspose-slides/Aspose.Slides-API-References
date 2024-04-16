@@ -38,6 +38,8 @@ The LoadOptions type exposes the following members:
 | [`spreadsheet_options`](/slides/python-net/aspose.slides/loadoptions/spreadsheet_options/) | Gets options for spreadsheets. For example, these options affect calculating formulas for charts. |
 | [`default_text_language`](/slides/python-net/aspose.slides/loadoptions/default_text_language/) | Returns or sets the default language for presentation text.<br/>             Read/write **str**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

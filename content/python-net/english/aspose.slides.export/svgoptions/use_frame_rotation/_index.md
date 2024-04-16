@@ -18,12 +18,15 @@ Determines whether to perform the specified rotation of the shape when rendering
 @property
 def use_frame_rotation(self):
     ...
+
 @use_frame_rotation.setter
 def use_frame_rotation(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -30,7 +30,6 @@ The MathGroupingCharacter type exposes the following members:
 | [`character`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/character/) | Grouping Character<br/>            Default value: U+23DF (BOTTOM CURLY BRACKET) |
 | [`position`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/position/) | Position of grouping character.<br/>            Default: Bottom |
 | [`vertical_justification`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/vertical_justification/) | Vertical justification of group character.<br/>            Specifies the alignment of the object with respect to the baseline.<br/>            For example, when the group character is above the object, <br/>            VerticalJustification of Top signifies that the top of the object falls on the baseline;<br/>            when VerticalJustification is set to Bottom, the bottom of the object is on the baseline<br/>            Default: Bottom for Position=Top, and Top for Position=Bottom |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/as_i_math_element/) |  |
 
 ## Methods
 
@@ -83,8 +82,10 @@ The MathGroupingCharacter type exposes the following members:
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/get_children/#) | Get children elements |
 
+
 ### See Also
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathGroupingCharacter`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

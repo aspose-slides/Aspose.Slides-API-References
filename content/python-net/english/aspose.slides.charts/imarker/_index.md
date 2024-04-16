@@ -21,6 +21,8 @@ The IMarker type exposes the following members:
 | [`format`](/slides/python-net/aspose.slides.charts/imarker/format/) | Gets the marker fill.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
 | [`size`](/slides/python-net/aspose.slides.charts/imarker/size/) | Represents the marker size in a line chart, scatter chart, or radar chart.<br/>            Read/write **int**. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -23,12 +23,15 @@ If not specified (TransitionDur = 0), it will use the destination slide transiti
 @property
 def transition_duration(self):
     ...
+
 @transition_duration.setter
 def transition_duration(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IZoomObject`](/slides/python-net/aspose.slides/izoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

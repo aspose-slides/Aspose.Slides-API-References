@@ -17,12 +17,15 @@ The distance of an open pie slice from the center of the pie chart is expressed 
 @property
 def explosion(self):
     ...
+
 @explosion.setter
 def explosion(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

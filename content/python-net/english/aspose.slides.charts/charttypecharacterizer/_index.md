@@ -39,6 +39,8 @@ The ChartTypeCharacterizer type exposes the following members:
 | [`is_error_bars_x_allowed`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_error_bars_x_allowed/#charttype) | Returns if error bars X allowed for specified series type. |
 | [`is_error_bars_y_allowed`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_error_bars_y_allowed/#charttype) | Returns if error bars Y allowed for specified series type. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -28,15 +28,10 @@ The ITrendline type exposes the following members:
 | [`period`](/slides/python-net/aspose.slides.charts/itrendline/period/) | Specifies the period of the trend line for a moving average trend line. It is ignored for other trend<br/>            line variants. Value must be between 2 and 255.<br/>            Read/write **int**. |
 | [`display_r_squared_value`](/slides/python-net/aspose.slides.charts/itrendline/display_r_squared_value/) | Specifies that the R-squared value of the trendline is displayed on the chart (in the same label as the equation).<br/>            Read/write **bool**. |
 | [`related_legend_entry`](/slides/python-net/aspose.slides.charts/itrendline/related_legend_entry/) | Represents legend entry related with this trendline<br/>            Read-only [`ILegendEntryProperties`](/slides/python-net/aspose.slides.charts/ilegendentryproperties). |
-| [`as_i_overridable_text`](/slides/python-net/aspose.slides.charts/itrendline/as_i_overridable_text/) | Returns IOverridableText interface.<br/>            Read-only [`IOverridableText`](/slides/python-net/aspose.slides.charts/ioverridabletext). |
 | [`text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/itrendline/text_frame_for_overriding/) |  |
-| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/itrendline/as_i_formatted_text_container/) |  |
 | [`text_format`](/slides/python-net/aspose.slides.charts/itrendline/text_format/) |  |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/itrendline/as_i_chart_component/) |  |
 | [`chart`](/slides/python-net/aspose.slides.charts/itrendline/chart/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/itrendline/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/itrendline/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/itrendline/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/itrendline/presentation/) |  |
 
 ## Methods
@@ -45,6 +40,8 @@ The ITrendline type exposes the following members:
 | :- | :- |
 | [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/itrendline/add_text_frame_for_overriding/#str) |  |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

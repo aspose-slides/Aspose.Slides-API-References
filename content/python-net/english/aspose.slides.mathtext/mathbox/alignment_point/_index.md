@@ -18,12 +18,15 @@ When true, this operator emulator serves as an alignment point; that is,
 @property
 def alignment_point(self):
     ...
+
 @alignment_point.setter
 def alignment_point(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathBox`](/slides/python-net/aspose.slides.mathtext/mathbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

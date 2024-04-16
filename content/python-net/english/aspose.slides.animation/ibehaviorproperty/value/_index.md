@@ -18,7 +18,9 @@ def value(self):
     ...
 ```
 
+
 ### See Also
 * class [`IBehaviorProperty`](/slides/python-net/aspose.slides.animation/ibehaviorproperty)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

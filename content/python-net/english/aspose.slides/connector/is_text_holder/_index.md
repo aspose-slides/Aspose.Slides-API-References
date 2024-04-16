@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/connector/is_text_holder/
-weight: 350
+weight: 360
 ---
 
 
@@ -19,7 +19,9 @@ def is_text_holder(self):
     ...
 ```
 
+
 ### See Also
 * class [`Connector`](/slides/python-net/aspose.slides/connector)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

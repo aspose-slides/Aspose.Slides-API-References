@@ -26,7 +26,7 @@ def remove_at(self, index):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | Index is less than 0 or index is equal or greater than Count |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Index is less than 0 or index is equal or greater than Count |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if author is already removed. |
 
 
@@ -36,3 +36,4 @@ def remove_at(self, index):
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

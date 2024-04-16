@@ -23,12 +23,15 @@ Returned value is always defined (is not float.NaN).
 @property
 def x(self):
     ...
+
 @x.setter
 def x(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SectionZoomFrame`](/slides/python-net/aspose.slides/sectionzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

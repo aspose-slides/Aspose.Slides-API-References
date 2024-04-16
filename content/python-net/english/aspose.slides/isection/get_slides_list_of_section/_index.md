@@ -30,3 +30,4 @@ def get_slides_list_of_section(self):
 * class [`ISectionSlideCollection`](/slides/python-net/aspose.slides/isectionslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

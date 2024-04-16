@@ -18,12 +18,15 @@ Defines an animate text type for effect.
 @property
 def animate_text_type(self):
     ...
+
 @animate_text_type.setter
 def animate_text_type(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Effect`](/slides/python-net/aspose.slides.animation/effect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

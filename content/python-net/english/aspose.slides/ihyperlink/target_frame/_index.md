@@ -18,12 +18,15 @@ Returns the frame within the parent HTML frameset for the target
 @property
 def target_frame(self):
     ...
+
 @target_frame.setter
 def target_frame(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

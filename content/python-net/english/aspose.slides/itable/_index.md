@@ -28,11 +28,8 @@ The ITable type exposes the following members:
 | [`last_col`](/slides/python-net/aspose.slides/itable/last_col/) | Determines whether the last column of a table has to be drawn with a special formatting.<br/>            Read/write **bool**. |
 | [`horizontal_banding`](/slides/python-net/aspose.slides/itable/horizontal_banding/) | Determines whether the even rows has to be drawn with a different formatting.<br/>            Read/write **bool**. |
 | [`vertical_banding`](/slides/python-net/aspose.slides/itable/vertical_banding/) | Determines whether the even columns has to be drawn with a different formatting.<br/>            Read/write **bool**. |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides/itable/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
-| [`as_i_bulk_text_formattable`](/slides/python-net/aspose.slides/itable/as_i_bulk_text_formattable/) | Allows to get base IBulkTextFormattable interface.<br/>            Read-only [`IBulkTextFormattable`](/slides/python-net/aspose.slides/ibulktextformattable). |
 | [`shape_lock`](/slides/python-net/aspose.slides/itable/shape_lock/) |  |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides/itable/graphical_object_lock/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/itable/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides/itable/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/itable/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/itable/custom_data/) |  |
@@ -59,10 +56,7 @@ The ITable type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/itable/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/itable/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/itable/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/itable/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/itable/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/itable/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/itable/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/itable/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/itable/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/itable/hyperlink_mouse_over/) |  |
@@ -74,6 +68,8 @@ The ITable type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/itable/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/itable/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/itable/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/itable/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/itable/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/itable/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`set_text_format`](/slides/python-net/aspose.slides/itable/set_text_format/#iportionformat) |  |
@@ -84,6 +80,8 @@ The ITable type exposes the following members:
 | [`remove_placeholder`](/slides/python-net/aspose.slides/itable/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/itable/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

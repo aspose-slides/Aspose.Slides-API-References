@@ -17,13 +17,16 @@ Returns or sets the arrowhead style at the beginning of a line.
 @property
 def begin_arrowhead_style(self):
     ...
+
 @begin_arrowhead_style.setter
 def begin_arrowhead_style(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * enumeration [`LineArrowheadStyle`](/slides/python-net/aspose.slides/linearrowheadstyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

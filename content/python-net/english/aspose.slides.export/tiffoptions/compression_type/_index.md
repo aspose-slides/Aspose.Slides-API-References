@@ -17,13 +17,16 @@ Specifies the compression type.
 @property
 def compression_type(self):
     ...
+
 @compression_type.setter
 def compression_type(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`TiffCompressionTypes`](/slides/python-net/aspose.slides.export/tiffcompressiontypes)
 * class [`TiffOptions`](/slides/python-net/aspose.slides.export/tiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

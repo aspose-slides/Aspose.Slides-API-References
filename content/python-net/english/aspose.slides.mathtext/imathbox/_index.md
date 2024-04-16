@@ -26,7 +26,6 @@ The IMathBox type exposes the following members:
 | [`differential`](/slides/python-net/aspose.slides.mathtext/imathbox/differential/) | Differential.<br/>            When true, the box acts as a differential (e.g., 𝑑𝑥 in an integrand), and receives the appropriate <br/>            horizontal spacing for the mathematical differential.<br/>            Default: false |
 | [`alignment_point`](/slides/python-net/aspose.slides.mathtext/imathbox/alignment_point/) | When true, this operator emulator serves as an alignment point; that is, <br/>            designated alignment points in other equations can be aligned with it.<br/>            Default: false |
 | [`explicit_break`](/slides/python-net/aspose.slides.mathtext/imathbox/explicit_break/) | Explicit break specifies whether there is a line break at the start of the Box object, <br/>            such that the line wraps at the start of the box object.<br/>            Specifies the number of the operator on the previous line of mathematical text which shall<br/>            be used as the alignment point for the current line of mathematical text<br/>            possible values: 1..255<br/>            Default: 0 (no explicit break) |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/imathbox/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 
@@ -79,6 +78,8 @@ The IMathBox type exposes the following members:
 | [`underbar`](/slides/python-net/aspose.slides.mathtext/imathbox/underbar/#) |  |
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/imathbox/to_box/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

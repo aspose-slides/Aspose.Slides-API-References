@@ -19,6 +19,8 @@ The ISvgTSpan type exposes the following members:
 | :- | :- |
 | [`id`](/slides/python-net/aspose.slides.export/isvgtspan/id/) | Gets or sets id for the "tspan" element |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

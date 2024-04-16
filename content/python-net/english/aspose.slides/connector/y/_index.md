@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/connector/y/
-weight: 540
+weight: 550
 ---
 
 
@@ -23,12 +23,15 @@ Returned value is always defined (is not float.NaN).
 @property
 def y(self):
     ...
+
 @y.setter
 def y(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Connector`](/slides/python-net/aspose.slides/connector)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

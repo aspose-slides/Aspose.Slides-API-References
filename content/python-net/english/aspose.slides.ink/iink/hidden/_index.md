@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/iink/hidden/
-weight: 210
+weight: 220
 ---
 
 
@@ -14,12 +14,15 @@ weight: 210
 @property
 def hidden(self):
     ...
+
 @hidden.setter
 def hidden(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IInk`](/slides/python-net/aspose.slides.ink/iink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

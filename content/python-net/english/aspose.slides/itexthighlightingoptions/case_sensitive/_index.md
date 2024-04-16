@@ -17,12 +17,15 @@ Set true to use case-sensitive search, false - otherwise.
 @property
 def case_sensitive(self):
     ...
+
 @case_sensitive.setter
 def case_sensitive(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITextHighlightingOptions`](/slides/python-net/aspose.slides/itexthighlightingoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

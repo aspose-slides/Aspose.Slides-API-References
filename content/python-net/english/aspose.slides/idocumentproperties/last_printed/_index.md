@@ -17,12 +17,15 @@ Returns the date when a presentation was printed last time.
 @property
 def last_printed(self):
     ...
+
 @last_printed.setter
 def last_printed(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

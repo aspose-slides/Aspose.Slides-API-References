@@ -23,6 +23,8 @@ The IAxesManager type exposes the following members:
 | [`secondary_vertical_axis`](/slides/python-net/aspose.slides.charts/iaxesmanager/secondary_vertical_axis/) | Gets the chart's secondary vertical axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
 | [`series_axis`](/slides/python-net/aspose.slides.charts/iaxesmanager/series_axis/) | Gets the chart's series axis.<br/>             Read-only [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis). |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

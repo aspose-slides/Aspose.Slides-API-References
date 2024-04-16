@@ -20,12 +20,15 @@ Returns the date a presentation was last modified.
 @property
 def last_saved_time(self):
     ...
+
 @last_saved_time.setter
 def last_saved_time(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

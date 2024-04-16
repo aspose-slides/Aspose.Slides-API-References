@@ -20,6 +20,8 @@ The TextExtractionArrangingMode type exposes the following members:
 | UNARRANGED | The raw text with no respect to position on the slide |
 | ARRANGED | The text is positioned in the same order as on the slide |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

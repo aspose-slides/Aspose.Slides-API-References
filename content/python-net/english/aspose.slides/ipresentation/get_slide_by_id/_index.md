@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentation/get_slide_by_id/
-weight: 10
+weight: 20
 ---
 
 
@@ -34,3 +34,4 @@ def get_slide_by_id(self, id):
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

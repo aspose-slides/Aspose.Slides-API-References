@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/igraphicalobject/rotation/
-weight: 340
+weight: 350
 ---
 
 
@@ -14,12 +14,15 @@ weight: 340
 @property
 def rotation(self):
     ...
+
 @rotation.setter
 def rotation(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -28,7 +28,6 @@ def add(self, type):
 | type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Type of series |
 
 
-
 ## add {#ichartdatacell-charttype}
 Creates new chart series from [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell) and adds it to the collection.
 
@@ -55,7 +54,6 @@ If chart series careted from same cell already in collection
             then method adds nothing and returns it's index.
 
 
-
 ## add {#ichartcellcollection-charttype}
 Creates new chart series from [`ChartCellCollection`](/slides/python-net/aspose.slides.charts/chartcellcollection) and adds it to the collection.
 
@@ -80,7 +78,6 @@ def add(self, cells_with_series_name, type):
 
 If chart series careted from same cell already in collection 
             then method adds nothing and returns it's index.
-
 
 
 ## add {#str-charttype}
@@ -115,3 +112,4 @@ def add(self, name, type):
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

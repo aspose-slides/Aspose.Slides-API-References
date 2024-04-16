@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/oleobjectframe/three_d_format/
-weight: 510
+weight: 520
 ---
 
 
@@ -20,8 +20,10 @@ def three_d_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
 * class [`OleObjectFrame`](/slides/python-net/aspose.slides/oleobjectframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

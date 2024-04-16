@@ -16,12 +16,15 @@ Hide Subscript
 @property
 def hide_subscript(self):
     ...
+
 @hide_subscript.setter
 def hide_subscript(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathNaryOperatorProperties`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorproperties)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

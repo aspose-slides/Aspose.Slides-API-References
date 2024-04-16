@@ -14,12 +14,15 @@ weight: 170
 @property
 def height(self):
     ...
+
 @height.setter
 def height(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDataLabel`](/slides/python-net/aspose.slides.charts/idatalabel)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

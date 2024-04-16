@@ -22,12 +22,15 @@ Default is **Color.SkyBlue** .
 @property
 def comments_area_color(self):
     ...
+
 @comments_area_color.setter
 def comments_area_color(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -14,7 +14,10 @@ weight: 10
 | Name | Description |
 | :- | :- |
 | index |  |
+
+
 ### See Also
 * class [`IImageTransformOCollectionEffectiveData`](/slides/python-net/aspose.slides.effects/iimagetransformocollectioneffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

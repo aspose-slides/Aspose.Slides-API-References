@@ -17,12 +17,15 @@ Specifies the base path where document with resources will be saved.
 @property
 def base_path(self):
     ...
+
 @base_path.setter
 def base_path(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MarkdownSaveOptions`](/slides/python-net/aspose.slides.export/markdownsaveoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

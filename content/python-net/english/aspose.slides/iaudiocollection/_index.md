@@ -13,13 +13,6 @@ Represents a collection of embedded audio files.
 
 The IAudioCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/iaudiocollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/iaudiocollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
@@ -35,6 +28,8 @@ The IAudioCollection type exposes the following members:
 | [`add_audio`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#iorawiobase-loadingstreambehavior) | Creates and adds a audio to a presentation from stream. |
 | [`add_audio`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#bytes) | Creates and adds a audio to a presentation from byte array. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -34,7 +34,6 @@ The IChartDataPoint type exposes the following members:
 | [`invert_if_negative`](/slides/python-net/aspose.slides.charts/ichartdatapoint/invert_if_negative/) | Specifies the data point shall invert its colors if the value is negative.<br/>            Read/write **bool**. |
 | [`data_point_levels`](/slides/python-net/aspose.slides.charts/ichartdatapoint/data_point_levels/) | Returns container of  data point levels. Applied for Treeamp and Sunburst series.<br/>            Data point levels indexing is zero-based. |
 | [`index`](/slides/python-net/aspose.slides.charts/ichartdatapoint/index/) | Determines which of the parent's children collection this data point applies to.<br/>            Read **int**. |
-| [`as_i_actual_layout`](/slides/python-net/aspose.slides.charts/ichartdatapoint/as_i_actual_layout/) | Returns IActualLayout interface. |
 | [`actual_x`](/slides/python-net/aspose.slides.charts/ichartdatapoint/actual_x/) |  |
 | [`actual_y`](/slides/python-net/aspose.slides.charts/ichartdatapoint/actual_y/) |  |
 | [`actual_width`](/slides/python-net/aspose.slides.charts/ichartdatapoint/actual_width/) |  |
@@ -47,6 +46,8 @@ The IChartDataPoint type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides.charts/ichartdatapoint/remove/#) | Removes DataPoint from chart series. |
 | [`get_automatic_data_point_color`](/slides/python-net/aspose.slides.charts/ichartdatapoint/get_automatic_data_point_color/#) | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. <br/>            This color is used by default if FillType equals NotDefined. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

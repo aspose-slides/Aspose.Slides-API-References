@@ -16,12 +16,15 @@ Represents aggregation type of category axis (binning). Applied to category. Use
 @property
 def aggregation_type(self):
     ...
+
 @aggregation_type.setter
 def aggregation_type(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

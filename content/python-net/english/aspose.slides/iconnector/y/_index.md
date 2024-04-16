@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iconnector/y/
-weight: 540
+weight: 550
 ---
 
 
@@ -14,12 +14,15 @@ weight: 540
 @property
 def y(self):
     ...
+
 @y.setter
 def y(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IConnector`](/slides/python-net/aspose.slides/iconnector)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

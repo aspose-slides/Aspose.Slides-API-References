@@ -13,13 +13,6 @@ Represents a collection of SmartArt nodes.
 
 The ISmartArtNodeCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
@@ -35,6 +28,8 @@ The ISmartArtNodeCollection type exposes the following members:
 | [`add_node`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/add_node/#) | Add new node or sub node. |
 | [`add_node_by_position`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/add_node_by_position/#int) | Add new node in the selected position of nodes collection. |
 
+
 ### See Also
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

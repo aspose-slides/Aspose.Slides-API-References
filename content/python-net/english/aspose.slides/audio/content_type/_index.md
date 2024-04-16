@@ -17,12 +17,15 @@ Returns a MIME type of an audio, encoded in [`Audio.binary_data`](/slides/python
 @property
 def content_type(self):
     ...
+
 @content_type.setter
 def content_type(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Audio`](/slides/python-net/aspose.slides/audio)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

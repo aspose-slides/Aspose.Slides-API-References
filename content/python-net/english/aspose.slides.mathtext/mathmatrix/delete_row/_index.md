@@ -26,8 +26,8 @@ def delete_row(self, row_index):
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | When you try to delete the last single row in the matrix |
-| **System.ArgumentOutOfRangeException** | If rowIndex less than zero or greater or equal to the RowCount |
+| **RuntimeError(Proxy error(InvalidOperationException))** | When you try to delete the last single row in the matrix |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | If rowIndex less than zero or greater or equal to the RowCount |
 
 
 
@@ -35,3 +35,4 @@ def delete_row(self, row_index):
 * class [`MathMatrix`](/slides/python-net/aspose.slides.mathtext/mathmatrix)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

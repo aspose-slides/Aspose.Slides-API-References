@@ -25,7 +25,6 @@ def add_group_shape(self):
 
 
 
-
 ## add_group_shape {#isvgimage-float-float-float-float}
 Creates a new GroupShape, fills it with converted shapes from SVG and adds it to the end of the collection.
 
@@ -57,3 +56,4 @@ def add_group_shape(self, svg_image, x, y, width, height):
 * class [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

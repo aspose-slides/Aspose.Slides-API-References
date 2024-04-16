@@ -19,8 +19,10 @@ def font_scheme(self):
     ...
 ```
 
+
 ### See Also
 * class [`IFontSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata)
 * class [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

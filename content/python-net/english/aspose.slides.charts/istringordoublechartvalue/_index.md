@@ -21,9 +21,7 @@ The IStringOrDoubleChartValue type exposes the following members:
 | :- | :- |
 | [`as_literal_string`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_literal_string/) | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals.<br/>            Read/write **str**. |
 | [`as_literal_double`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_literal_double/) | Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals.<br/>            Read/write **float**. |
-| [`as_i_single_cell_chart_value`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_i_single_cell_chart_value/) | Allows to get base ISingleCellChartValue interface.<br/>            Read-only [`ISingleCellChartValue`](/slides/python-net/aspose.slides.charts/isinglecellchartvalue). |
 | [`as_cell`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_cell/) |  |
-| [`as_i_base_chart_value`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/as_i_base_chart_value/) |  |
 | [`data_source_type`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/data_source_type/) |  |
 | [`data`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/data/) |  |
 
@@ -33,6 +31,8 @@ The IStringOrDoubleChartValue type exposes the following members:
 | :- | :- |
 | [`to_double`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/to_double/#) | Converts value to double. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -16,12 +16,15 @@ Hide Top Edge (default is false) - specifies the hidden or shown state of the to
 @property
 def hide_top(self):
     ...
+
 @hide_top.setter
 def hide_top(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathBorderBox`](/slides/python-net/aspose.slides.mathtext/imathborderbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,7 +19,9 @@ def position(self):
     ...
 ```
 
+
 ### See Also
 * class [`IGradientStopEffectiveData`](/slides/python-net/aspose.slides/igradientstopeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

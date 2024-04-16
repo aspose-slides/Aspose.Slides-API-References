@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartshape/hyperlink_manager/
-weight: 270
+weight: 280
 ---
 
 
@@ -19,8 +19,10 @@ def hyperlink_manager(self):
     ...
 ```
 
+
 ### See Also
 * class [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager)
 * class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

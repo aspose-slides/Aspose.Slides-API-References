@@ -17,12 +17,15 @@ Returns or sets the hide flag of legend entry.
 @property
 def hide(self):
     ...
+
 @hide.setter
 def hide(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILegendEntryProperties`](/slides/python-net/aspose.slides.charts/ilegendentryproperties)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

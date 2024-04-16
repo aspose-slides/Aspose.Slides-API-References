@@ -14,12 +14,15 @@ weight: 60
 @property
 def warning_callback(self):
     ...
+
 @warning_callback.setter
 def warning_callback(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IXamlOptions`](/slides/python-net/aspose.slides.export.xaml/ixamloptions)
 * module [`aspose.slides.export.xaml`](/slides/python-net/aspose.slides.export.xaml)
 * library [`Aspose.Slides`](/slides/python-net)
+

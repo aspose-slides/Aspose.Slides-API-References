@@ -39,3 +39,4 @@ def insert_video_frame(self, index, x, y, width, height, fname):
 * class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

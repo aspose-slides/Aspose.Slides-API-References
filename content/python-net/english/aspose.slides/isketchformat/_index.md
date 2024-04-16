@@ -19,6 +19,8 @@ The ISketchFormat type exposes the following members:
 | :- | :- |
 | [`sketch_type`](/slides/python-net/aspose.slides/isketchformat/sketch_type/) | Returns or sets the sketch type.<br/>            Read/write [`LineSketchType`](/slides/python-net/aspose.slides/linesketchtype). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

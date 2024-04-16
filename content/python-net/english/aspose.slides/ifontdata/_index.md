@@ -25,6 +25,8 @@ The IFontData type exposes the following members:
 | :- | :- |
 | [`get_font_name`](/slides/python-net/aspose.slides/ifontdata/get_font_name/#asposeslidesthemeithemeeffectivedata) | Returns the font name, replacing theme referrence with an actual font used. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

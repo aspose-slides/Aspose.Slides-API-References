@@ -19,12 +19,15 @@ Specifies the number of categories (or units on a scatter chart) that the trend 
 @property
 def backward(self):
     ...
+
 @backward.setter
 def backward(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

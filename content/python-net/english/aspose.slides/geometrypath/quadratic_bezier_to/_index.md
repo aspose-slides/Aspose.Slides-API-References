@@ -24,7 +24,6 @@ def quadratic_bezier_to(self, point1, point2):
 | point2 | **aspose.pydrawing.PointF** | End point |
 
 
-
 ## quadratic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-int}
 Adds quadratic Bezier curve to the specified place of the path
 
@@ -45,8 +44,7 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
-
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 ## quadratic_bezier_to {#float-float-float-float}
@@ -65,7 +63,6 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 | y1 | **float** | Y coordinate of direction point |
 | x2 | **float** | X coordinate of end point |
 | y2 | **float** | Y coordinate of end point |
-
 
 
 ## quadratic_bezier_to {#float-float-float-float-int}
@@ -90,7 +87,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 
@@ -98,3 +95,4 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 * class [`GeometryPath`](/slides/python-net/aspose.slides/geometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

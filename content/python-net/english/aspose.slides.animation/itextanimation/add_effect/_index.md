@@ -40,3 +40,4 @@ def add_effect(self, effect_type, subtype, trigger_type):
 * class [`ITextAnimation`](/slides/python-net/aspose.slides.animation/itextanimation)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

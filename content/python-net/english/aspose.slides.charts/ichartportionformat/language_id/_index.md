@@ -14,12 +14,15 @@ weight: 170
 @property
 def language_id(self):
     ...
+
 @language_id.setter
 def language_id(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

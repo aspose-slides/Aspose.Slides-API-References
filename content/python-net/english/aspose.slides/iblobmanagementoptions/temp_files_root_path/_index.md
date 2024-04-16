@@ -18,12 +18,15 @@ The root path where temporary files will be created. System temorary directory w
 @property
 def temp_files_root_path(self):
     ...
+
 @temp_files_root_path.setter
 def temp_files_root_path(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

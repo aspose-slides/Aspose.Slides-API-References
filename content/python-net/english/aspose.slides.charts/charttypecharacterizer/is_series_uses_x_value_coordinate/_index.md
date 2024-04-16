@@ -34,3 +34,4 @@ def is_series_uses_x_value_coordinate(self, series_type):
 * class [`ChartTypeCharacterizer`](/slides/python-net/aspose.slides.charts/charttypecharacterizer)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

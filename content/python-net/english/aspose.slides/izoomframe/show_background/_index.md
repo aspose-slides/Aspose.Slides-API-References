@@ -14,12 +14,15 @@ weight: 410
 @property
 def show_background(self):
     ...
+
 @show_background.setter
 def show_background(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

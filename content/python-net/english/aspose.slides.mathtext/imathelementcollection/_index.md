@@ -18,7 +18,6 @@ The IMathElementCollection type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only **collections.abc.Iterable**. |
 
 ## Indexer
 
@@ -39,6 +38,8 @@ The IMathElementCollection type exposes the following members:
 | [`remove_at`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/remove_at/#int) | Removes the element at the specified index of the collection. |
 | [`copy_to`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/copy_to/#listimathelement-int) | Copy to specified array. |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

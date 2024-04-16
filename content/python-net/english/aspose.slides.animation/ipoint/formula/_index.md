@@ -26,12 +26,15 @@ Formulas within values, from, to, by attributes can be made up of these:
 @property
 def formula(self):
     ...
+
 @formula.setter
 def formula(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPoint`](/slides/python-net/aspose.slides.animation/ipoint)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

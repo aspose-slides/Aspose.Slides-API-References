@@ -14,12 +14,15 @@ weight: 80
 @property
 def data(self):
     ...
+
 @data.setter
 def data(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IStringChartValue`](/slides/python-net/aspose.slides.charts/istringchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

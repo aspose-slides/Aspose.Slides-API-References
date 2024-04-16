@@ -23,6 +23,8 @@ The INotesCommentsLayoutingOptions type exposes the following members:
 | [`comments_area_width`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions/comments_area_width/) | Gets or sets the width of the comment output area in pixels<br/>             (Applies only if comments are displayed on the right). |
 | [`show_comments_by_no_author`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions/show_comments_by_no_author/) | Gets or sets the visibility of comments that do not have an author. If true then comments <br/>             will be displayed.<br/>             (Applies only if comments are displayed). |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

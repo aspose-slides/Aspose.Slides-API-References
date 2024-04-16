@@ -74,6 +74,8 @@ The PatternStyle type exposes the following members:
 | UPWARD_DIAGONAL |  |
 | DIAGONAL_CROSS |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

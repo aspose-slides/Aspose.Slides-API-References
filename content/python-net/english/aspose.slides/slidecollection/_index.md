@@ -13,13 +13,6 @@ Represents a collection of a slides.
 
 The SlideCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/slidecollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/slidecollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
@@ -59,6 +52,8 @@ The SlideCollection type exposes the following members:
 | [`remove_at`](/slides/python-net/aspose.slides/slidecollection/remove_at/#int) | Removes the element at the specified index of the collection. |
 | [`index_of`](/slides/python-net/aspose.slides/slidecollection/index_of/#islide) | Returns an index of the specified slide in the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

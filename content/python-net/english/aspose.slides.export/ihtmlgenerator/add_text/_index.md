@@ -24,7 +24,6 @@ def add_text(self, text):
 | text | **str** | Text to add. |
 
 
-
 ## add_text {#listchar}
 Adds plain text to the html files, replacing special characters with html entities.
             Linebreaks and whitespaces aren't replaced.
@@ -39,7 +38,6 @@ def add_text(self, text):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **List[char]** | Text to add. |
-
 
 
 ## add_text {#listchar-int-int}
@@ -65,3 +63,4 @@ def add_text(self, text, start_index, length):
 * class [`IHtmlGenerator`](/slides/python-net/aspose.slides.export/ihtmlgenerator)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

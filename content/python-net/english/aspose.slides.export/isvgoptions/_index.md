@@ -30,11 +30,12 @@ The ISVGOptions type exposes the following members:
 | [`use_frame_rotation`](/slides/python-net/aspose.slides.export/isvgoptions/use_frame_rotation/) | Determines whether to perform the specified rotation of the shape when rendering or not.<br/>            Read/write **bool**.<br/>            Default value is true. |
 | [`external_fonts_handling`](/slides/python-net/aspose.slides.export/isvgoptions/external_fonts_handling/) | Determines a way of handling externally loaded fonts.<br/>            Read/write [`SvgExternalFontsHandling`](/slides/python-net/aspose.slides.export/svgexternalfontshandling). |
 | [`ink_options`](/slides/python-net/aspose.slides.export/isvgoptions/ink_options/) | Provides options that control the look of Ink objects in exported document.<br/>            Read-only [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions) |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/isvgoptions/as_i_save_options/) | Returns ISaveOptions interface.<br/>            Read-only [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions). |
 | [`warning_callback`](/slides/python-net/aspose.slides.export/isvgoptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/isvgoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/isvgoptions/default_regular_font/) |  |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -22,6 +22,8 @@ The IDigitalSignature type exposes the following members:
 | [`sign_time`](/slides/python-net/aspose.slides/idigitalsignature/sign_time/) | The time when the document was signed.<br/>            Read-only **System.DateTime**. |
 | [`comments`](/slides/python-net/aspose.slides/idigitalsignature/comments/) | The purpose of signature.<br/>            Read/write **str**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

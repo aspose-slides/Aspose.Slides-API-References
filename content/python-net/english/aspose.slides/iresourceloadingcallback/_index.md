@@ -19,6 +19,8 @@ The IResourceLoadingCallback type exposes the following members:
 | :- | :- |
 | [`resource_loading`](/slides/python-net/aspose.slides/iresourceloadingcallback/resource_loading/#iresourceloadingargs) | Callback method which regulates external resources loading. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

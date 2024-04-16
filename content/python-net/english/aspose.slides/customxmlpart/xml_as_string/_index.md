@@ -18,12 +18,15 @@ Returns or sets xml data as UTF-8 string.
 @property
 def xml_as_string(self):
     ...
+
 @xml_as_string.setter
 def xml_as_string(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`CustomXmlPart`](/slides/python-net/aspose.slides/customxmlpart)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/pictureframe/shape_type/
-weight: 460
+weight: 470
 ---
 
 
@@ -51,13 +51,16 @@ Returns or sets the AutoShape type for a PictureFrame.
 @property
 def shape_type(self):
     ...
+
 @shape_type.setter
 def shape_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`PictureFrame`](/slides/python-net/aspose.slides/pictureframe)
 * enumeration [`ShapeType`](/slides/python-net/aspose.slides/shapetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -13,12 +13,8 @@ Empty slide transition effect.
 
 The IEmptyTransition type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_transition_value_base`](/slides/python-net/aspose.slides.slideshow/iemptytransition/as_i_transition_value_base/) | Allows to get base ITransitionValueBase interface.<br/>            Read-only [`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase). |
 
 ### See Also
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

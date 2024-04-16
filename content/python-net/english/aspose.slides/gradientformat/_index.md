@@ -19,7 +19,6 @@ The GradientFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/gradientformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`tile_flip`](/slides/python-net/aspose.slides/gradientformat/tile_flip/) | Returns or sets the flipping mode for a gradient.<br/>            Read/write [`TileFlip`](/slides/python-net/aspose.slides/tileflip). |
 | [`gradient_direction`](/slides/python-net/aspose.slides/gradientformat/gradient_direction/) | Returns or sets the style of a gradient.<br/>            Read/write [`GradientDirection`](/slides/python-net/aspose.slides/gradientdirection). |
 | [`linear_gradient_angle`](/slides/python-net/aspose.slides/gradientformat/linear_gradient_angle/) | Returns or sets the angle of a gradient.<br/>            Read/write **float**. |
@@ -28,10 +27,11 @@ The GradientFormat type exposes the following members:
 | [`gradient_stops`](/slides/python-net/aspose.slides/gradientformat/gradient_stops/) | Returns the collection of gradient stops.<br/>            Read-only [`IGradientStopCollection`](/slides/python-net/aspose.slides/igradientstopcollection). |
 | [`slide`](/slides/python-net/aspose.slides/gradientformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/gradientformat/presentation/) |  |
-| [`as_i_fill_param_source`](/slides/python-net/aspose.slides/gradientformat/as_i_fill_param_source/) |  |
+
 
 ### See Also
 * class [`GradientFormat`](/slides/python-net/aspose.slides/gradientformat)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

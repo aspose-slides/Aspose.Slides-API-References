@@ -24,6 +24,8 @@ The PathFillModeType type exposes the following members:
 | DARKEN | Darken Path Fill<br/>            This specifies that the corresponding path should have a darker shaded color applied to it’s fill. |
 | DARKEN_LESS | Darken Path Fill Less<br/>            This specifies that the corresponding path should have a slightly darker shaded color applied to it’s fill. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

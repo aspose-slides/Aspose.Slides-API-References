@@ -32,3 +32,4 @@ def set_rotation(self, latitude, longitude, revolution):
 * class [`ILightRig`](/slides/python-net/aspose.slides/ilightrig)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

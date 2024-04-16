@@ -30,3 +30,4 @@ def get_cell_collection(self, formula, skip_hidden_cells):
 * class [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

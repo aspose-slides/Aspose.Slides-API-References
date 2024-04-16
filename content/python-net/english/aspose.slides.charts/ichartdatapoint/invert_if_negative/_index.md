@@ -17,12 +17,15 @@ Specifies the data point shall invert its colors if the value is negative.
 @property
 def invert_if_negative(self):
     ...
+
 @invert_if_negative.setter
 def invert_if_negative(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

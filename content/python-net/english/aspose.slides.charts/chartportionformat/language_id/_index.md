@@ -17,12 +17,15 @@ Returns or sets the Id of a proofing language. Used for checking spelling and gr
 @property
 def language_id(self):
     ...
+
 @language_id.setter
 def language_id(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

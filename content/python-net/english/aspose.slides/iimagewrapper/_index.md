@@ -18,8 +18,8 @@ The IImageWrapper type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`image`](/slides/python-net/aspose.slides/iimagewrapper/image/) | Gets the Syste.Drawing.Image<br/>            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper#image). |
+| [`image_source`](/slides/python-net/aspose.slides/iimagewrapper/image_source/) | Gets the image<br/>            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper#image). |
 | [`size`](/slides/python-net/aspose.slides/iimagewrapper/size/) | Gets the width and height, in pixels, of the Image<br/>            Read-only [`IImageWrapper.size`](/slides/python-net/aspose.slides/iimagewrapper#size). |
-| [`as_i_disposable`](/slides/python-net/aspose.slides/iimagewrapper/as_i_disposable/) | Returns IDisposable interface.<br/>            Read-only **System.IDisposable**. |
 
 ## Methods
 
@@ -29,6 +29,8 @@ The IImageWrapper type exposes the following members:
 | [`save`](/slides/python-net/aspose.slides/iimagewrapper/save/#iorawiobase-ppimageformat) | Saves the Image to the specified stream in the specified format. |
 | [`save`](/slides/python-net/aspose.slides/iimagewrapper/save/#str-ppimageformat) | Saves the Image to the specified file in the specified format. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

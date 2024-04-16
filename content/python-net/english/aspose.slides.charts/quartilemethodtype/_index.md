@@ -20,6 +20,8 @@ The QuartileMethodType type exposes the following members:
 | EXCLUSIVE | Represents exclusive quartile method. |
 | INCLUSIVE | Represents inclusive quartile method. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

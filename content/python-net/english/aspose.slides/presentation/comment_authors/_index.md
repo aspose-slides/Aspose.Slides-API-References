@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/presentation/comment_authors/
-weight: 110
+weight: 120
 ---
 
 
@@ -19,8 +19,10 @@ def comment_authors(self):
     ...
 ```
 
+
 ### See Also
 * class [`ICommentAuthorCollection`](/slides/python-net/aspose.slides/icommentauthorcollection)
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

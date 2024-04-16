@@ -20,12 +20,10 @@ The IZoomObject type exposes the following members:
 | [`image_type`](/slides/python-net/aspose.slides/izoomobject/image_type/) | Gets or sets the image type of a zoom object.<br/>            Read/write [`ZoomImageType`](/slides/python-net/aspose.slides/zoomimagetype).<br/>            Default value: Preview |
 | [`return_to_parent`](/slides/python-net/aspose.slides/izoomobject/return_to_parent/) | Gets or sets the navigation behavior in slideshow.<br/>            Read/write **bool**.<br/>            Default value: false |
 | [`show_background`](/slides/python-net/aspose.slides/izoomobject/show_background/) | Gets or sets value that specifies whether the Zoom will use the background of the destination slide.<br/>            Read/write **bool**.<br/>            Default value: true |
-| [`image`](/slides/python-net/aspose.slides/izoomobject/image/) | Gets or sets image for zoom object.<br/>            Read/write [`IPPImage`](/slides/python-net/aspose.slides/ippimage). |
+| [`zoom_image`](/slides/python-net/aspose.slides/izoomobject/zoom_image/) | Gets or sets image for zoom object.<br/>            Read/write [`IPPImage`](/slides/python-net/aspose.slides/ippimage). |
 | [`transition_duration`](/slides/python-net/aspose.slides/izoomobject/transition_duration/) | Gets or sets the duration of the transition between Zoom and slide.<br/>            Read/write **float**.<br/>            Default value: 1.0f |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides/izoomobject/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
 | [`shape_lock`](/slides/python-net/aspose.slides/izoomobject/shape_lock/) |  |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides/izoomobject/graphical_object_lock/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/izoomobject/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides/izoomobject/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/izoomobject/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/izoomobject/custom_data/) |  |
@@ -52,10 +50,7 @@ The IZoomObject type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/izoomobject/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/izoomobject/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/izoomobject/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/izoomobject/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/izoomobject/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/izoomobject/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/izoomobject/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/izoomobject/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/izoomobject/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/izoomobject/hyperlink_mouse_over/) |  |
@@ -67,12 +62,16 @@ The IZoomObject type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/izoomobject/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/izoomobject/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/izoomobject/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/izoomobject/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/izoomobject/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/izoomobject/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`add_placeholder`](/slides/python-net/aspose.slides/izoomobject/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/izoomobject/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/izoomobject/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

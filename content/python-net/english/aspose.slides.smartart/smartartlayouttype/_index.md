@@ -154,6 +154,8 @@ The SmartArtLayoutType type exposes the following members:
 | CUSTOM | Represents a SmartArt diagram with custom layout template |
 | PICTURE_ORGANIZATION_CHART | Use to show hierarchical information or reporting relationships in an organization, with corresponding pictures. The assistant shape and Org Chart hanging layouts are available with this layout. |
 
+
 ### See Also
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -61,10 +61,7 @@ The ChartSeries type exposes the following members:
 | [`pie_split_custom_points`](/slides/python-net/aspose.slides.charts/chartseries/pie_split_custom_points/) | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split.<br/>            Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or <br/>            bar-of-pie chart.<br/>            This is the property not only of this series but of all series of parent series <br/>            group - this is projection of appropriate group property<br/>            Read-only [`PieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection). |
 | [`is_color_varied`](/slides/python-net/aspose.slides.charts/chartseries/is_color_varied/) | Specifies that each data marker in the series has a different color.<br/>            This is the property not only of this series but of all series of parent series <br/>            group - this is projection of appropriate group property. And so this property <br/>            is read-only.<br/>            Use ParentSeriesGroup property for access to parent series group.<br/>            Use ParentSeriesGroup.IsColorVaried read/write property for change value.<br/>            Read-only **bool**. |
 | [`bubble_size_scale`](/slides/python-net/aspose.slides.charts/chartseries/bubble_size_scale/) | Specifies the scale factor for the bubble chart (can be <br/>            between 0 and 300 percents of the default size).<br/>            This is the property not only of this series but of all series of parent series <br/>            group - this is projection of appropriate group property. And so this property <br/>            is read-only.<br/>            Use ParentSeriesGroup property for access to parent series group.<br/>            Use ParentSeriesGroup.BubbleSizeScale read/write property for change value. |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/chartseries/as_i_chart_component/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/chartseries/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/chartseries/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/chartseries/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/chartseries/presentation/) |  |
 
 ## Methods
@@ -73,6 +70,8 @@ The ChartSeries type exposes the following members:
 | :- | :- |
 | [`get_automatic_series_color`](/slides/python-net/aspose.slides.charts/chartseries/get_automatic_series_color/#) | Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

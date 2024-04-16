@@ -29,12 +29,15 @@ If parent of this DataLabelFormat object is a DataLabelCollection collection of 
 @property
 def show_category_name(self):
     ...
+
 @show_category_name.setter
 def show_category_name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -30,3 +30,4 @@ def create_glow(self):
 * class [`IGlow`](/slides/python-net/aspose.slides.effects/iglow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Returns or sets the shape of a gradient.
 @property
 def gradient_shape(self):
     ...
+
 @gradient_shape.setter
 def gradient_shape(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`GradientFormat`](/slides/python-net/aspose.slides/gradientformat)
 * enumeration [`GradientShape`](/slides/python-net/aspose.slides/gradientshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,7 +24,6 @@ def group(self):
 
 
 
-
 ## group {#char-mathtopbotpositions-mathtopbotpositions}
 Places this element in a group using a grouping character such as bottom curly bracket or another
 
@@ -54,3 +53,4 @@ def group(self, character, position, vertical_justification):
 * enumeration [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

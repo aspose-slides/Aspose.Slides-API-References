@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/slide/theme_manager/
-weight: 310
+weight: 320
 ---
 
 
@@ -19,8 +19,10 @@ def theme_manager(self):
     ...
 ```
 
+
 ### See Also
 * class [`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager)
 * class [`Slide`](/slides/python-net/aspose.slides/slide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -33,7 +33,6 @@ def insert_ole_object_frame(self, index, x, y, width, height, data_info):
 | data_info | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | Embedded data info [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo). |
 
 
-
 ## insert_ole_object_frame {#int-float-float-float-float-str-str}
 Creates a new OLE object and inserts it to a collection at the specified index.
 
@@ -67,3 +66,4 @@ def insert_ole_object_frame(self, index, x, y, width, height, class_name, path):
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

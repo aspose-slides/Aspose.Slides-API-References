@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/groupshape/connection_site_count/
-weight: 130
+weight: 140
 ---
 
 
@@ -19,7 +19,9 @@ def connection_site_count(self):
     ...
 ```
 
+
 ### See Also
 * class [`GroupShape`](/slides/python-net/aspose.slides/groupshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

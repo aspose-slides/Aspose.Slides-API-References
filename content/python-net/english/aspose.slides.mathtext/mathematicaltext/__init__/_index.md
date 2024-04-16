@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#char}
 Create MathText with single symbol
 
@@ -35,7 +34,6 @@ def __init__(self, math_symbol):
 | math_symbol | **char** | single symbol |
 
 
-
 ## __init__ {#str}
 Create MathematicalText from text
 
@@ -49,7 +47,6 @@ def __init__(self, math_text):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | math_text | **str** | text value |
-
 
 
 ## __init__ {#str-iportionformat}
@@ -74,3 +71,4 @@ def __init__(self, math_text, portion_format):
 * class [`MathematicalText`](/slides/python-net/aspose.slides.mathtext/mathematicaltext)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,7 +24,6 @@ def create_memory_stream_wrapper(self):
 
 
 
-
 ## create_memory_stream_wrapper {#bytes}
 Creates MemoryStream wrapper based on the specified byte array.
 
@@ -51,3 +50,4 @@ def create_memory_stream_wrapper(self, buffer):
 * class [`IStreamWrapperFactory`](/slides/python-net/aspose.slides/istreamwrapperfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

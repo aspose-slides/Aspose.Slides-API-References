@@ -16,12 +16,15 @@ Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromC
 @property
 def value_from_cell(self):
     ...
+
 @value_from_cell.setter
 def value_from_cell(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDataLabel`](/slides/python-net/aspose.slides.charts/idatalabel)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

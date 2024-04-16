@@ -20,12 +20,15 @@ The value of horizontal spacing between columns of a matrix;
 @property
 def column_gap(self):
     ...
+
 @column_gap.setter
 def column_gap(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathMatrix`](/slides/python-net/aspose.slides.mathtext/imathmatrix)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

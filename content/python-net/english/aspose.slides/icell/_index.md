@@ -39,9 +39,7 @@ The ICell type exposes the following members:
 | [`table`](/slides/python-net/aspose.slides/icell/table/) | Returns the parent Table object for a cell.<br/>            Read-only [`ITable`](/slides/python-net/aspose.slides/itable). |
 | [`is_merged_cell`](/slides/python-net/aspose.slides/icell/is_merged_cell/) | Returns true if the cell is merged with any adjusted cell, false otherwise.<br/>            Read-only **bool**. |
 | [`cell_format`](/slides/python-net/aspose.slides/icell/cell_format/) | Returns the CellFormat object that contains formatting properties for this cell.<br/>            Read-only [`ICellFormat`](/slides/python-net/aspose.slides/icellformat). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/icell/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
 | [`slide`](/slides/python-net/aspose.slides/icell/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/icell/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/icell/presentation/) |  |
 
 ## Methods
@@ -53,6 +51,8 @@ The ICell type exposes the following members:
 | [`split_by_height`](/slides/python-net/aspose.slides/icell/split_by_height/#float) | Splits the cell by height. |
 | [`split_by_width`](/slides/python-net/aspose.slides/icell/split_by_width/#float) | Splits the cell by width. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -23,7 +23,6 @@ def __init__(self, presentation):
 | presentation | [`Presentation`](/slides/python-net/aspose.slides/presentation) | The frame size will be set with accordance to the [`Presentation.slide_size`](/slides/python-net/aspose.slides/presentation#slide_size) |
 
 
-
 ## __init__ {#asposepydrawingsize}
 Creates a new instance of the [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator).
 
@@ -45,3 +44,4 @@ def __init__(self, frame_size):
 * class [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

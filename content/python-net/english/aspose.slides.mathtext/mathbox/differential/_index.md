@@ -19,12 +19,15 @@ Differential
 @property
 def differential(self):
     ...
+
 @differential.setter
 def differential(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathBox`](/slides/python-net/aspose.slides.mathtext/mathbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

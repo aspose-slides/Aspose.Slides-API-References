@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/videoframe/get_thumbnail/
-weight: 50
+weight: 60
 ---
 
 
@@ -22,7 +22,6 @@ Shape thumbnail.
 def get_thumbnail(self):
     ...
 ```
-
 
 
 
@@ -54,3 +53,4 @@ def get_thumbnail(self, bounds, scale_x, scale_y):
 * class [`VideoFrame`](/slides/python-net/aspose.slides/videoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

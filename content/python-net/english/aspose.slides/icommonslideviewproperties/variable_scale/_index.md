@@ -17,12 +17,15 @@ Specifies that the view content should automatically scale to best fit the curre
 @property
 def variable_scale(self):
     ...
+
 @variable_scale.setter
 def variable_scale(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ICommonSlideViewProperties`](/slides/python-net/aspose.slides/icommonslideviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

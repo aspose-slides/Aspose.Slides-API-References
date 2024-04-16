@@ -28,7 +28,6 @@ def set_superscript(self, superscript):
 | superscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Superscript (upper index on the right) |
 
 
-
 ## set_superscript {#str}
 Creates superscript
 
@@ -55,3 +54,4 @@ def set_superscript(self, superscript):
 * class [`IMathSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

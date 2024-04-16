@@ -18,13 +18,16 @@ Specifies how to determine which data points are in the second pie or bar
 @property
 def pie_split_by(self):
     ...
+
 @pie_split_by.setter
 def pie_split_by(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
 * enumeration [`PieSplitType`](/slides/python-net/aspose.slides.charts/piesplittype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

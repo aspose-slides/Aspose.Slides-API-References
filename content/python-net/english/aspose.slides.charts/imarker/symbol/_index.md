@@ -17,13 +17,16 @@ Represents the marker style in a line chart, scatter chart, or radar chart.
 @property
 def symbol(self):
     ...
+
 @symbol.setter
 def symbol(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IMarker`](/slides/python-net/aspose.slides.charts/imarker)
 * enumeration [`MarkerStyleType`](/slides/python-net/aspose.slides.charts/markerstyletype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

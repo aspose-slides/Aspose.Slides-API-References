@@ -14,12 +14,15 @@ weight: 480
 @property
 def x(self):
     ...
+
 @x.setter
 def x(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

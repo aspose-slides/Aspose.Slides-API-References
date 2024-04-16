@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#ihtmlformattingcontroller}
 Creates new instance
 
@@ -41,3 +40,4 @@ def __init__(self, controller):
 * class [`ResponsiveHtmlController`](/slides/python-net/aspose.slides.export/responsivehtmlcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,7 +24,6 @@ def __init__(self, base_arg, limit):
 | limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-
 ## __init__ {#imathelement-imathelement-bool}
 Initializes a new instance of the MathLimit class.
 
@@ -48,3 +47,4 @@ def __init__(self, base_arg, limit, upper_limit):
 * class [`MathLimit`](/slides/python-net/aspose.slides.mathtext/mathlimit)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,6 +24,8 @@ The TrendlineType type exposes the following members:
 | POLYNOMIAL | Specifies the trendline shall be a polynomial curve of order Order in the form. |
 | POWER | Specifies the trendline shall be a power curve in the form. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

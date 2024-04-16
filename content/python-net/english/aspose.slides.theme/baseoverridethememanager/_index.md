@@ -21,7 +21,6 @@ The BaseOverrideThemeManager type exposes the following members:
 | :- | :- |
 | [`override_theme`](/slides/python-net/aspose.slides.theme/baseoverridethememanager/override_theme/) | Returns the overriding theme object.<br/>            Read/write [`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme). |
 | [`is_override_theme_enabled`](/slides/python-net/aspose.slides.theme/baseoverridethememanager/is_override_theme_enabled/) | Determines whether OverrideTheme overrides inherited effective theme or not.<br/>            To enable OverrideTheme for overriding use OverrideTheme.Init*() methods.<br/>            To disable OverrideTheme from overriding use OverrideTheme.Clear() method.<br/>            Read-only **bool**. |
-| [`as_i_theme_manager`](/slides/python-net/aspose.slides.theme/baseoverridethememanager/as_i_theme_manager/) |  |
 
 ## Methods
 
@@ -30,8 +29,10 @@ The BaseOverrideThemeManager type exposes the following members:
 | [`create_theme_effective`](/slides/python-net/aspose.slides.theme/baseoverridethememanager/create_theme_effective/#) | Returns the theme object. |
 | [`apply_color_scheme`](/slides/python-net/aspose.slides.theme/baseoverridethememanager/apply_color_scheme/#iextracolorscheme) | Applies extra color scheme to a slide. |
 
+
 ### See Also
 * class [`BaseOverrideThemeManager`](/slides/python-net/aspose.slides.theme/baseoverridethememanager)
 * class [`BaseThemeManager`](/slides/python-net/aspose.slides.theme/basethememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

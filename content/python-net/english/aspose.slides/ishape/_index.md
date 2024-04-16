@@ -44,10 +44,7 @@ The IShape type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/ishape/is_grouped/) | Determines whether the shape is grouped.<br/>            Read-only **bool**. |
 | [`black_white_mode`](/slides/python-net/aspose.slides/ishape/black_white_mode/) | Property specifies how a shape will render in black-and-white display mode..<br/>            Read/write [`BlackWhiteMode`](/slides/python-net/aspose.slides/blackwhitemode). |
 | [`parent_group`](/slides/python-net/aspose.slides/ishape/parent_group/) | Returns parent GroupShape object if shape is grouped. Otherwise returns null.<br/>            Read-only [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape). |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/ishape/as_i_hyperlink_container/) | Allows to get base IHyperlinkContainer interface.<br/>            Read-only [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/ishape/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
 | [`slide`](/slides/python-net/aspose.slides/ishape/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/ishape/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/ishape/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/ishape/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/ishape/hyperlink_mouse_over/) |  |
@@ -59,12 +56,16 @@ The IShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ishape/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ishape/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides/ishape/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides/ishape/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/ishape/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/ishape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`add_placeholder`](/slides/python-net/aspose.slides/ishape/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/ishape/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/ishape/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

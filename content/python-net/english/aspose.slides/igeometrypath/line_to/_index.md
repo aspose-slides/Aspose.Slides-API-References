@@ -23,7 +23,6 @@ def line_to(self, point):
 | point | **aspose.pydrawing.PointF** | End point of the line |
 
 
-
 ## line_to {#float-float}
 Adds line to the end of the path
 
@@ -38,7 +37,6 @@ def line_to(self, x, y):
 | :- | :- | :- |
 | x | **float** | X coordinate of the end point of the line |
 | y | **float** | Y coordinate of the end point of the line |
-
 
 
 ## line_to {#asposepydrawingpointf-int}
@@ -60,8 +58,7 @@ def line_to(self, point, index):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
-
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 ## line_to {#float-float-int}
@@ -84,7 +81,7 @@ def line_to(self, x, y, index):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 
@@ -92,3 +89,4 @@ def line_to(self, x, y, index):
 * class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

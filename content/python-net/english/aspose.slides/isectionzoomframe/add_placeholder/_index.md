@@ -29,3 +29,4 @@ def add_placeholder(self, placeholder_to_copy_from):
 * class [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

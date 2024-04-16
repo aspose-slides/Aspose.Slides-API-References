@@ -29,13 +29,11 @@ The Legend type exposes the following members:
 | [`format`](/slides/python-net/aspose.slides.charts/legend/format/) | Returns the format of a legend.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
 | [`chart`](/slides/python-net/aspose.slides.charts/legend/chart/) | Returns the chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
 | [`entries`](/slides/python-net/aspose.slides.charts/legend/entries/) | Gets legend entries.<br/>            Read-only [`ILegendEntryCollection`](/slides/python-net/aspose.slides.charts/ilegendentrycollection). |
-| [`as_i_layoutable`](/slides/python-net/aspose.slides.charts/legend/as_i_layoutable/) |  |
-| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/legend/as_i_formatted_text_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/legend/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/legend/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/legend/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/legend/presentation/) |  |
+
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

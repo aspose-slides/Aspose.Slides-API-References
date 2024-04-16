@@ -51,7 +51,6 @@ Tries to find the license in the following locations:
 2. An embedded resource in the client's calling assembly.
 
 
-
 ## set_license {#iorawiobase}
 Licenses the component.
 
@@ -76,3 +75,4 @@ Use this method to load a license from a stream.
 * class [`ILicense`](/slides/python-net/aspose.slides/ilicense)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

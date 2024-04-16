@@ -35,3 +35,4 @@ def get_all_text_boxes(self, slide):
 * class [`TextFrame`](/slides/python-net/aspose.slides/textframe)
 * module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)
 * library [`Aspose.Slides`](/slides/python-net)
+

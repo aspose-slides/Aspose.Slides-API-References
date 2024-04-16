@@ -24,7 +24,6 @@ def get_custom_property_value(self, name, value):
 | value | **Any** | Custom property value |
 
 
-
 ## get_custom_property_value {#str-any}
 Gets a named integer value from the custom properties.
 
@@ -39,7 +38,6 @@ def get_custom_property_value(self, name, value):
 | :- | :- | :- |
 | name | **str** | Name of the custom property to get |
 | value | **Any** | Custom property value |
-
 
 
 ## get_custom_property_value {#str-any}
@@ -58,7 +56,6 @@ def get_custom_property_value(self, name, value):
 | value | **Any** | Custom property value |
 
 
-
 ## get_custom_property_value {#str-any}
 
 
@@ -75,7 +72,6 @@ def get_custom_property_value(self, name, value):
 | value | **Any** |  |
 
 
-
 ## get_custom_property_value {#str-any}
 
 
@@ -90,7 +86,6 @@ def get_custom_property_value(self, name, value):
 | :- | :- | :- |
 | name | **str** |  |
 | value | **Any** |  |
-
 
 
 ## get_custom_property_value {#str-any}
@@ -114,3 +109,4 @@ def get_custom_property_value(self, name, value):
 * class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

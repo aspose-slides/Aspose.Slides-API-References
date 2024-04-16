@@ -29,7 +29,6 @@ def get_cell(self, worksheet_index, cell_name):
 | cell_name | **str** | Name of the cell. |
 
 
-
 ## get_cell {#str-int-int}
 Gets the cell that can be used for chart series or categories
 
@@ -50,7 +49,6 @@ def get_cell(self, worksheet_name, row, column):
 | worksheet_name | **str** | Name of the worksheet. |
 | row | **int** | The row. |
 | column | **int** | The column. |
-
 
 
 ## get_cell {#int-int-int}
@@ -75,7 +73,6 @@ def get_cell(self, worksheet_index, row, column):
 | column | **int** | The column. |
 
 
-
 ## get_cell {#int-str-any}
 Gets the cell that can be used for chart series or categories
 
@@ -96,7 +93,6 @@ def get_cell(self, worksheet_index, cell_name, value):
 | worksheet_index | **int** | Index of the worksheet. |
 | cell_name | **str** | Name of the cell. |
 | value | **any** | The value. |
-
 
 
 ## get_cell {#int-int-int-any}
@@ -128,3 +124,4 @@ def get_cell(self, worksheet_index, row, column, value):
 * class [`IChartDataWorkbook`](/slides/python-net/aspose.slides.charts/ichartdataworkbook)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

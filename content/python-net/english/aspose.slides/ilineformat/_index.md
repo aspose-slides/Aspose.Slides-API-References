@@ -34,7 +34,6 @@ The ILineFormat type exposes the following members:
 | [`end_arrowhead_width`](/slides/python-net/aspose.slides/ilineformat/end_arrowhead_width/) | Returns or sets the arrowhead width at the end of a line.<br/>            Read/write [`LineArrowheadWidth`](/slides/python-net/aspose.slides/linearrowheadwidth). |
 | [`begin_arrowhead_length`](/slides/python-net/aspose.slides/ilineformat/begin_arrowhead_length/) | Returns or sets the arrowhead length at the beginning of a line.<br/>            Read/write [`LineArrowheadLength`](/slides/python-net/aspose.slides/linearrowheadlength). |
 | [`end_arrowhead_length`](/slides/python-net/aspose.slides/ilineformat/end_arrowhead_length/) | Returns or sets the arrowhead length at the end of a line.<br/>            Read/write [`LineArrowheadLength`](/slides/python-net/aspose.slides/linearrowheadlength). |
-| [`as_i_line_param_source`](/slides/python-net/aspose.slides/ilineformat/as_i_line_param_source/) | Allows to get base ILineParamSource interface.<br/>            Read-only [`ILineParamSource`](/slides/python-net/aspose.slides/ilineparamsource). |
 
 ## Methods
 
@@ -43,6 +42,8 @@ The ILineFormat type exposes the following members:
 | [`equals`](/slides/python-net/aspose.slides/ilineformat/equals/#ilineformat) | Determines whether the two LineFormat instances are equal. |
 | [`get_effective`](/slides/python-net/aspose.slides/ilineformat/get_effective/#) | Gets effective line formatting data with the inheritance applied. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

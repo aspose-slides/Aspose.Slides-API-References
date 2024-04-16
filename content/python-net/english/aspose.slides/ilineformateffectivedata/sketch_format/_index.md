@@ -19,8 +19,10 @@ def sketch_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
 * class [`ISketchFormatEffectiveData`](/slides/python-net/aspose.slides/isketchformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

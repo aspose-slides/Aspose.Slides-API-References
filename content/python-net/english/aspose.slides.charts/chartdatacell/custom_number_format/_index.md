@@ -18,12 +18,15 @@ Gets or sets the custom display format of numbers and dates.
 @property
 def custom_number_format(self):
     ...
+
 @custom_number_format.setter
 def custom_number_format(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

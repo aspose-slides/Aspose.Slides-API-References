@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/sectionzoomframe/connection_site_count/
-weight: 150
+weight: 160
 ---
 
 
@@ -19,7 +19,9 @@ def connection_site_count(self):
     ...
 ```
 
+
 ### See Also
 * class [`SectionZoomFrame`](/slides/python-net/aspose.slides/sectionzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

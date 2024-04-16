@@ -19,8 +19,10 @@ def data_points(self):
     ...
 ```
 
+
 ### See Also
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

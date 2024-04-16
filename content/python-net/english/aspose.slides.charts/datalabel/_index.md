@@ -39,14 +39,8 @@ The DataLabel type exposes the following members:
 | [`actual_y`](/slides/python-net/aspose.slides.charts/datalabel/actual_y/) | Specifies actual top of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
 | [`actual_width`](/slides/python-net/aspose.slides.charts/datalabel/actual_width/) | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
 | [`actual_height`](/slides/python-net/aspose.slides.charts/datalabel/actual_height/) | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
-| [`as_i_layoutable`](/slides/python-net/aspose.slides.charts/datalabel/as_i_layoutable/) |  |
-| [`as_i_overridable_text`](/slides/python-net/aspose.slides.charts/datalabel/as_i_overridable_text/) |  |
-| [`as_i_actual_layout`](/slides/python-net/aspose.slides.charts/datalabel/as_i_actual_layout/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/datalabel/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/datalabel/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/datalabel/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/datalabel/presentation/) |  |
-| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/datalabel/as_i_formatted_text_container/) |  |
 
 ## Methods
 
@@ -56,6 +50,8 @@ The DataLabel type exposes the following members:
 | [`get_actual_label_text`](/slides/python-net/aspose.slides.charts/datalabel/get_actual_label_text/#) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
 | [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/datalabel/add_text_frame_for_overriding/#str) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

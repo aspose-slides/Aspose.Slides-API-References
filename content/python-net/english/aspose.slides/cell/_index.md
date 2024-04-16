@@ -41,8 +41,6 @@ The Cell type exposes the following members:
 | [`cell_format`](/slides/python-net/aspose.slides/cell/cell_format/) | Returns the CellFormat object that contains formatting properties for this cell.<br/>            Read-only [`ICellFormat`](/slides/python-net/aspose.slides/icellformat). |
 | [`slide`](/slides/python-net/aspose.slides/cell/slide/) | Returns the parent slide of a cell.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`presentation`](/slides/python-net/aspose.slides/cell/presentation/) | Returns the parent presentation of a cell.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/cell/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/cell/as_i_presentation_component/) |  |
 
 ## Methods
 
@@ -53,6 +51,8 @@ The Cell type exposes the following members:
 | [`split_by_height`](/slides/python-net/aspose.slides/cell/split_by_height/#float) | Splits the cell by height. |
 | [`split_by_width`](/slides/python-net/aspose.slides/cell/split_by_width/#float) | Splits the cell by width. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,7 +24,6 @@ def reorder(self, index, shape):
 | shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape to move. |
 
 
-
 ## reorder {#int-listishape}
 Moves shapes from the collection to the specified position.
             Shapes will be placed starting from index in order they appear in list.
@@ -48,3 +47,4 @@ def reorder(self, index, shapes):
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

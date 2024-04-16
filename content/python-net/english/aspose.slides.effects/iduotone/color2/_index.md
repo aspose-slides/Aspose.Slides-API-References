@@ -19,8 +19,10 @@ def color2(self):
     ...
 ```
 
+
 ### See Also
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
 * class [`IDuotone`](/slides/python-net/aspose.slides.effects/iduotone)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -14,7 +14,10 @@ weight: 10
 | Name | Description |
 | :- | :- |
 | index |  |
+
+
 ### See Also
 * class [`GradientStopCollectionEffectiveData`](/slides/python-net/aspose.slides/gradientstopcollectioneffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

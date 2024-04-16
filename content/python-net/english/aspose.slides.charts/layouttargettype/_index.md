@@ -22,6 +22,8 @@ The LayoutTargetType type exposes the following members:
 | INNER | Specifies that the plot area size shall determine the<br/>            size of the plot area, not including the tick marks and<br/>            axis labels. |
 | OUTER | Specifies that the plot area size shall determine the<br/>            size of the plot area, the tick marks, and the axis<br/>            labels. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

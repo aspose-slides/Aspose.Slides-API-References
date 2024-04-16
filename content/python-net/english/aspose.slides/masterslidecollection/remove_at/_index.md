@@ -39,3 +39,4 @@ To avoid throwing of the PptxEditException check master's HasDependingSlides pro
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

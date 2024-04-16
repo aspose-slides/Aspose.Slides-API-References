@@ -13,13 +13,6 @@ Represents a collection of comments of one author.
 
 The CommentCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/commentcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/commentcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
@@ -41,6 +34,8 @@ The CommentCollection type exposes the following members:
 | [`clear`](/slides/python-net/aspose.slides/commentcollection/clear/#) | Removes all comments from a collection. |
 | [`find_comment_by_idx`](/slides/python-net/aspose.slides/commentcollection/find_comment_by_idx/#int) | Finds a comment in the collection by index. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -31,7 +31,6 @@ The IReflection type exposes the following members:
 | [`rotate_shadow_with_shape`](/slides/python-net/aspose.slides.effects/ireflection/rotate_shadow_with_shape/) | Specifies whether the reflection should rotate with the shape if the shape is rotated.<br/>            Read/write **bool**. |
 | [`scale_horizontal`](/slides/python-net/aspose.slides.effects/ireflection/scale_horizontal/) | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents)<br/>            Read/write **float**. |
 | [`scale_vertical`](/slides/python-net/aspose.slides.effects/ireflection/scale_vertical/) | Specifies the vertical scaling factor, negative scaling causes a flip. (percents)<br/>            Read/write **float**. |
-| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/ireflection/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
 
 ## Methods
 
@@ -39,6 +38,8 @@ The IReflection type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides.effects/ireflection/get_effective/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

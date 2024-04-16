@@ -17,13 +17,16 @@ Specifies the interpolation mode for the animation
 @property
 def calc_mode(self):
     ...
+
 @calc_mode.setter
 def calc_mode(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IPropertyEffect`](/slides/python-net/aspose.slides.animation/ipropertyeffect)
 * enumeration [`PropertyCalcModeType`](/slides/python-net/aspose.slides.animation/propertycalcmodetype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

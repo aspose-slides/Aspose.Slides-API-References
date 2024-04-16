@@ -19,7 +19,9 @@ def field_of_view_angle(self):
     ...
 ```
 
+
 ### See Also
 * class [`ICameraEffectiveData`](/slides/python-net/aspose.slides/icameraeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

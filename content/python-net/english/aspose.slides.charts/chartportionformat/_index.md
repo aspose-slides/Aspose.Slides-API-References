@@ -20,7 +20,6 @@ The ChartPortionFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/chartportionformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`line_format`](/slides/python-net/aspose.slides.charts/chartportionformat/line_format/) | Returns the LineFormat properties for text outlining. No inheritance applied.<br/>            Read-only [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat). |
 | [`fill_format`](/slides/python-net/aspose.slides.charts/chartportionformat/fill_format/) | Returns the text FillFormat properties. No inheritance applied.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
 | [`effect_format`](/slides/python-net/aspose.slides.charts/chartportionformat/effect_format/) | Returns the text EffectFormat properties. No inheritance applied.<br/>            Read-only [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat). |
@@ -49,7 +48,6 @@ The ChartPortionFormat type exposes the following members:
 | [`spacing`](/slides/python-net/aspose.slides.charts/chartportionformat/spacing/) | Returns or sets the intercharacter spacing increment.<br/>            **float.NaN**  means value is undefined and should be inherited from the Master.<br/>            Read/write **float**. |
 | [`slide`](/slides/python-net/aspose.slides.charts/chartportionformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/chartportionformat/presentation/) |  |
-| [`as_i_base_portion_format`](/slides/python-net/aspose.slides.charts/chartportionformat/as_i_base_portion_format/) |  |
 
 
 ### Remarks
@@ -64,6 +62,7 @@ In order to get the effective formatting parameter values including
             inherited you need to use [`PortionFormat.get_effective`](/slides/python-net/aspose.slides/portionformat/get_effective) method
             which returns a [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata) instance.
 
+
 ### See Also
 * class [`BasePortionFormat`](/slides/python-net/aspose.slides/baseportionformat)
 * class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
@@ -71,3 +70,4 @@ In order to get the effective formatting parameter values including
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

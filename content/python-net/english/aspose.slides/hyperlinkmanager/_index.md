@@ -25,6 +25,8 @@ The HyperlinkManager type exposes the following members:
 | [`remove_hyperlink_mouse_over`](/slides/python-net/aspose.slides/hyperlinkmanager/remove_hyperlink_mouse_over/#) | Removes hyperlink mouse over. |
 | [`set_macro_hyperlink_click`](/slides/python-net/aspose.slides/hyperlinkmanager/set_macro_hyperlink_click/#str) | Set Macro hyperlink on a click. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

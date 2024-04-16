@@ -19,8 +19,10 @@ def text_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat)
 * class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

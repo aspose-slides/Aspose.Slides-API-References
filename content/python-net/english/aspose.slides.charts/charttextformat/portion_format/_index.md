@@ -19,8 +19,10 @@ def portion_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`ChartTextFormat`](/slides/python-net/aspose.slides.charts/charttextformat)
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

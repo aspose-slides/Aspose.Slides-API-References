@@ -28,7 +28,6 @@ def read_presentation(self, data):
 | data | **bytes** | Array to read |
 
 
-
 ## read_presentation {#iorawiobase}
 Reads an existing presentation from stream
 
@@ -49,7 +48,6 @@ def read_presentation(self, stream):
 | stream | **io.RawIOBase** | Input stream to read |
 
 
-
 ## read_presentation {#str}
 Reads an existing presentation from file
 
@@ -68,7 +66,6 @@ def read_presentation(self, file):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | file | **str** | File name |
-
 
 
 ## read_presentation {#bytes-iloadoptions}
@@ -92,7 +89,6 @@ def read_presentation(self, data, options):
 | options | [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions) | Load options |
 
 
-
 ## read_presentation {#iorawiobase-iloadoptions}
 Reads an existing presentation from stream with additional load options
 
@@ -112,7 +108,6 @@ def read_presentation(self, stream, options):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Input stream to read |
 | options | [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions) | Load options |
-
 
 
 ## read_presentation {#str-iloadoptions}
@@ -143,3 +138,4 @@ def read_presentation(self, file, options):
 * class [`PresentationFactory`](/slides/python-net/aspose.slides/presentationfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

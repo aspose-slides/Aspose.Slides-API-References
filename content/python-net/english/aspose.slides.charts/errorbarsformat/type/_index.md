@@ -17,13 +17,16 @@ Gets or sets type of error bars.
 @property
 def type(self):
     ...
+
 @type.setter
 def type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ErrorBarsFormat`](/slides/python-net/aspose.slides.charts/errorbarsformat)
 * enumeration [`ErrorBarType`](/slides/python-net/aspose.slides.charts/errorbartype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

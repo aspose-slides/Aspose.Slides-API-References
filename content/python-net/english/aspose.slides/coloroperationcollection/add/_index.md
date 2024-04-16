@@ -28,7 +28,6 @@ def add(self, operation):
 | operation | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
 
 
-
 ## add {#colortransformoperation-float}
 Adds a new operation to the end of collection.
 
@@ -57,3 +56,4 @@ def add(self, operation, parameter):
 * class [`IColorOperation`](/slides/python-net/aspose.slides/icoloroperation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

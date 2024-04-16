@@ -19,12 +19,15 @@ A boolean flag indicates if the cropped parts remain as part of the document. If
 @property
 def delete_pictures_cropped_areas(self):
     ...
+
 @delete_pictures_cropped_areas.setter
 def delete_pictures_cropped_areas(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IHtmlOptions`](/slides/python-net/aspose.slides.export/ihtmloptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Determines whether the Latin line break is used in a paragraph. No inheritance a
 @property
 def latin_line_break(self):
     ...
+
 @latin_line_break.setter
 def latin_line_break(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * class [`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

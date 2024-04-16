@@ -22,12 +22,15 @@ This name appears in the PowerPoint user interface when configuring the transiti
 @property
 def sound_name(self):
     ...
+
 @sound_name.setter
 def sound_name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SlideShowTransition`](/slides/python-net/aspose.slides.slideshow/slideshowtransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

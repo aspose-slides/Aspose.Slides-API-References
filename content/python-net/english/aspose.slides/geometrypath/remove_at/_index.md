@@ -28,3 +28,4 @@ def remove_at(self, index):
 * class [`GeometryPath`](/slides/python-net/aspose.slides/geometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Returns or sets the arrowhead width at the end of a line.
 @property
 def end_arrowhead_width(self):
     ...
+
 @end_arrowhead_width.setter
 def end_arrowhead_width(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * enumeration [`LineArrowheadWidth`](/slides/python-net/aspose.slides/linearrowheadwidth)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

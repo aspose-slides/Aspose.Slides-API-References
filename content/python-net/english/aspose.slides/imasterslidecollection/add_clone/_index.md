@@ -35,3 +35,4 @@ def add_clone(self, source_master):
 * class [`IMasterSlideCollection`](/slides/python-net/aspose.slides/imasterslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

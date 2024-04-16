@@ -17,13 +17,16 @@ Determines whether the numbers should ignore text eastern language-specific vert
 @property
 def kumimoji(self):
     ...
+
 @kumimoji.setter
 def kumimoji(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

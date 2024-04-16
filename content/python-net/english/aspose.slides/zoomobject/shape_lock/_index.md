@@ -19,8 +19,10 @@ def shape_lock(self):
     ...
 ```
 
+
 ### See Also
 * class [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock)
 * class [`ZoomObject`](/slides/python-net/aspose.slides/zoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

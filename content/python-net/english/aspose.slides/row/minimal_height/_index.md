@@ -17,12 +17,15 @@ Returns or sets the minimal possible height of a row.
 @property
 def minimal_height(self):
     ...
+
 @minimal_height.setter
 def minimal_height(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Row`](/slides/python-net/aspose.slides/row)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

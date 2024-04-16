@@ -17,12 +17,15 @@ Specifies whether the generated document should include hidden slides or not.
 @property
 def show_hidden_slides(self):
     ...
+
 @show_hidden_slides.setter
 def show_hidden_slides(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

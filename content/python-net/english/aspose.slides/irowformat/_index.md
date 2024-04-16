@@ -19,6 +19,8 @@ The IRowFormat type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides/irowformat/get_effective/#) | Gets effective table row formatting properties with inheritance and table styles applied. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -30,3 +30,4 @@ def insert(self, index, item):
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

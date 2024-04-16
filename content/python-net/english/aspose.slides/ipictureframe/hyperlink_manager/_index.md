@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipictureframe/hyperlink_manager/
-weight: 270
+weight: 280
 ---
 
 
@@ -16,7 +16,9 @@ def hyperlink_manager(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

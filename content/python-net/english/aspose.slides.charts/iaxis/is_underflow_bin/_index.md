@@ -16,12 +16,15 @@ Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin
 @property
 def is_underflow_bin(self):
     ...
+
 @is_underflow_bin.setter
 def is_underflow_bin(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

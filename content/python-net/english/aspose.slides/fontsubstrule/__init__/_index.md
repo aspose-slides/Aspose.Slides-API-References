@@ -24,7 +24,6 @@ def __init__(self, source_font, dest_font):
 | dest_font | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Destination font. |
 
 
-
 ## __init__ {#ifontdata-ifontdata-fontsubstcondition}
 Creates new instance.
 
@@ -49,3 +48,4 @@ def __init__(self, source_font, dest_font, font_subst_rule):
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

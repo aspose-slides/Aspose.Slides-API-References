@@ -16,10 +16,12 @@ Gets or sets the slide show type. Represented by the following [`SlideShowSettin
 @property
 def slide_show_type(self):
     ...
+
 @slide_show_type.setter
 def slide_show_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk)
@@ -28,3 +30,4 @@ def slide_show_type(self, value):
 * class [`SlideShowSettings`](/slides/python-net/aspose.slides/slideshowsettings)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Returns of sets an object which receives warnings and decides whether loading pr
 @property
 def warning_callback(self):
     ...
+
 @warning_callback.setter
 def warning_callback(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`GifOptions`](/slides/python-net/aspose.slides.export/gifoptions)
 * class [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

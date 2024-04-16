@@ -17,12 +17,15 @@ Returns or sets the right margin in a TextFrame.
 @property
 def margin_right(self):
     ...
+
 @margin_right.setter
 def margin_right(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ICell`](/slides/python-net/aspose.slides/icell)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

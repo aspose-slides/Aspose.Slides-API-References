@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichart/y/
-weight: 700
+weight: 710
 ---
 
 
@@ -14,12 +14,15 @@ weight: 700
 @property
 def y(self):
     ...
+
 @y.setter
 def y(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

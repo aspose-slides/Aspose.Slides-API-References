@@ -22,7 +22,7 @@ def apply_default_paragraph_indents_shifts(self):
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | Calling this method doesn't matter and throw **System.InvalidOperationException** in following cases:<br/>            if parent formatted object is not a paragraph (for example calling ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() will throw exception);<br/>            or if paragraph wasn't added to any ITextFrame.Paragraphs collection (add it first); |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Calling this method doesn't matter and throw **System.InvalidOperationException** in following cases:<br/>            if parent formatted object is not a paragraph (for example calling ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() will throw exception);<br/>            or if paragraph wasn't added to any ITextFrame.Paragraphs collection (add it first); |
 
 
 
@@ -30,3 +30,4 @@ def apply_default_paragraph_indents_shifts(self):
 * class [`BulletFormat`](/slides/python-net/aspose.slides/bulletformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -54,7 +54,9 @@ This class is used to return and manipulate text portion formatting properties d
 In order to get the effective formatting parameter values including inherited you need to use [`IPortionFormat.get_effective`](/slides/python-net/aspose.slides/iportionformat/get_effective) method 
             which returns a [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata) instance.
 
+
 ### See Also
 * class [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

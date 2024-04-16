@@ -24,13 +24,12 @@ The IErrorBarsFormat type exposes the following members:
 | [`value`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/value/) | Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. <br/>            Read/write **float**. |
 | [`format`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/format/) | Represents the format of the error bars.<br/>            Read/write [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
 | [`is_visible`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/is_visible/) | Gets or sets Error Bars visibility.<br/>            Read/write **bool**. |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/as_i_chart_component/) | Returns IChartComponent interface.<br/>            Read-only [`IChartComponent`](/slides/python-net/aspose.slides.charts/ichartcomponent). |
 | [`chart`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/chart/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/presentation/) |  |
+
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

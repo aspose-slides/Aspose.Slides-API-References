@@ -23,7 +23,6 @@ def set_upper_limit(self, limit):
 | limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-
 ## set_upper_limit {#str}
 
 
@@ -46,3 +45,4 @@ def set_upper_limit(self, limit):
 * class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

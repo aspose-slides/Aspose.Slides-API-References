@@ -17,12 +17,15 @@ Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. 
 @property
 def indent(self):
     ...
+
 @indent.setter
 def indent(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

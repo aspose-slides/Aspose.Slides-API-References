@@ -17,13 +17,16 @@ Returns or sets the embedded image.
 @property
 def image(self):
     ...
+
 @image.setter
 def image(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * class [`ISlidesPicture`](/slides/python-net/aspose.slides/islidespicture)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

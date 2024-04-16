@@ -27,8 +27,10 @@ The BrowsedByIndividual type exposes the following members:
 | :- | :- |
 | [`show_scrollbar`](/slides/python-net/aspose.slides/browsedbyindividual/show_scrollbar/) | Show Scroll Bar in Window |
 
+
 ### See Also
 * class [`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual)
 * class [`SlideShowType`](/slides/python-net/aspose.slides/slideshowtype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

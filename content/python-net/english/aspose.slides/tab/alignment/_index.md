@@ -17,13 +17,16 @@ Returns or sets align style of a tab.
 @property
 def alignment(self):
     ...
+
 @alignment.setter
 def alignment(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Tab`](/slides/python-net/aspose.slides/tab)
 * enumeration [`TabAlignment`](/slides/python-net/aspose.slides/tabalignment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

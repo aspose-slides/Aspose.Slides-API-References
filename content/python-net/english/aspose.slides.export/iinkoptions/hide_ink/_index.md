@@ -21,12 +21,15 @@ Default value is false.
 @property
 def hide_ink(self):
     ...
+
 @hide_ink.setter
 def hide_ink(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

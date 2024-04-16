@@ -19,12 +19,15 @@ If true then worksheet is used for storing categories (this case supports a mult
 @property
 def use_cells(self):
     ...
+
 @use_cells.setter
 def use_cells(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartCategoryCollection`](/slides/python-net/aspose.slides.charts/chartcategorycollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

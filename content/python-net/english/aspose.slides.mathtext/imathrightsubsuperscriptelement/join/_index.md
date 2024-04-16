@@ -23,7 +23,6 @@ def join(self, math_element):
 | math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-
 ## join {#str}
 
 
@@ -46,3 +45,4 @@ def join(self, math_text):
 * class [`IMathRightSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,8 +19,10 @@ def text_frame(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISmartArtNode`](/slides/python-net/aspose.slides.smartart/ismartartnode)
 * class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

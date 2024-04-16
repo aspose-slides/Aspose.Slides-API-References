@@ -17,12 +17,15 @@ Describes the relative angle of the motion path.
 @property
 def angle(self):
     ...
+
 @angle.setter
 def angle(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMotionEffect`](/slides/python-net/aspose.slides.animation/imotioneffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

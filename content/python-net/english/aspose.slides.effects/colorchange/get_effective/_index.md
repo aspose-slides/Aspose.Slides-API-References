@@ -30,3 +30,4 @@ def get_effective(self):
 * class [`IColorChangeEffectiveData`](/slides/python-net/aspose.slides.effects/icolorchangeeffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/table/style_preset/
-weight: 490
+weight: 500
 ---
 
 
@@ -17,13 +17,16 @@ Gets or sets builtin table style.
 @property
 def style_preset(self):
     ...
+
 @style_preset.setter
 def style_preset(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Table`](/slides/python-net/aspose.slides/table)
 * enumeration [`TableStylePreset`](/slides/python-net/aspose.slides/tablestylepreset)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

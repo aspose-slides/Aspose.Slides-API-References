@@ -26,7 +26,7 @@ def remove(self, value):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | The value parameter was not found in the collection. |
+| **RuntimeError(Proxy error(ArgumentException))** | The value parameter was not found in the collection. |
 
 
 
@@ -35,3 +35,4 @@ def remove(self, value):
 * class [`IChartCategoryCollection`](/slides/python-net/aspose.slides.charts/ichartcategorycollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

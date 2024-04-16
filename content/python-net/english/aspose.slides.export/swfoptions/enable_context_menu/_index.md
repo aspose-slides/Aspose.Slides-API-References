@@ -16,12 +16,15 @@ Enable/disable context menu. Default is true.
 @property
 def enable_context_menu(self):
     ...
+
 @enable_context_menu.setter
 def enable_context_menu(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SwfOptions`](/slides/python-net/aspose.slides.export/swfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

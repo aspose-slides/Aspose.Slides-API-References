@@ -17,12 +17,15 @@ Gets or sets  name of the trendline.
 @property
 def trendline_name(self):
     ...
+
 @trendline_name.setter
 def trendline_name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

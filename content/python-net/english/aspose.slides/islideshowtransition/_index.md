@@ -29,6 +29,8 @@ The ISlideShowTransition type exposes the following members:
 | [`sound_is_built_in`](/slides/python-net/aspose.slides/islideshowtransition/sound_is_built_in/) | Specifies whether or not this sound is a built-in sound. If this attribute is set to true then<br/>            the generating application is alerted to check the name attribute specified for this sound<br/>            in it's list of built-in sounds and can then surface a custom name or UI as needed.<br/>            Read-write **bool**. |
 | [`sound_name`](/slides/python-net/aspose.slides/islideshowtransition/sound_name/) | Specifies a human readable name for the sound of the transition. The [`ISlideShowTransition.sound`](/slides/python-net/aspose.slides/islideshowtransition#sound) property must be assigned to get or set the sound name.<br/>            Read-write **str**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -29,3 +29,4 @@ def __init__(self, origin_font_name, subst_font_name):
 * class [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

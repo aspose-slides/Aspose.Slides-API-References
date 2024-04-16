@@ -17,13 +17,16 @@ Represents that effect with behavior must reveal (in/out)
 @property
 def reveal(self):
     ...
+
 @reveal.setter
 def reveal(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`FilterEffect`](/slides/python-net/aspose.slides.animation/filtereffect)
 * enumeration [`FilterEffectRevealType`](/slides/python-net/aspose.slides.animation/filtereffectrevealtype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

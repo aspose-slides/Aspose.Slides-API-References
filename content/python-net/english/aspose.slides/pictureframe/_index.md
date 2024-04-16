@@ -58,11 +58,6 @@ The PictureFrame type exposes the following members:
 | [`picture_format`](/slides/python-net/aspose.slides/pictureframe/picture_format/) | Returns the PictureFillFormat object for a picture frame.<br/>            Read-only [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
 | [`relative_scale_height`](/slides/python-net/aspose.slides/pictureframe/relative_scale_height/) | Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write **float**. |
 | [`relative_scale_width`](/slides/python-net/aspose.slides/pictureframe/relative_scale_width/) | Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write **float**. |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/pictureframe/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/pictureframe/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/pictureframe/as_i_presentation_component/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/pictureframe/as_i_shape/) |  |
-| [`as_i_geometry_shape`](/slides/python-net/aspose.slides/pictureframe/as_i_geometry_shape/) |  |
 
 ## Methods
 
@@ -70,6 +65,8 @@ The PictureFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/pictureframe/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/pictureframe/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides/pictureframe/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides/pictureframe/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/pictureframe/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/pictureframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/pictureframe/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
@@ -80,9 +77,11 @@ The PictureFrame type exposes the following members:
 | [`set_geometry_paths`](/slides/python-net/aspose.slides/pictureframe/set_geometry_paths/#listigeometrypath) | Updates shape geometry from array of [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath). Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`GeometryShape.shape_type`](/slides/python-net/aspose.slides/geometryshape#shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM). |
 | [`create_shape_elements`](/slides/python-net/aspose.slides/pictureframe/create_shape_elements/#) | Creates and returns array of shape's elements. |
 
+
 ### See Also
 * class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
 * class [`PictureFrame`](/slides/python-net/aspose.slides/pictureframe)
 * class [`Shape`](/slides/python-net/aspose.slides/shape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

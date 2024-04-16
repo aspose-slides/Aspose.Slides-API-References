@@ -21,6 +21,8 @@ The NotesPositions type exposes the following members:
 | BOTTOM_FULL | Specifies that notes should be full displayed using additional pages as it is needed. |
 | BOTTOM_TRUNCATED | Specifies that notes should be displayed in only one page. |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

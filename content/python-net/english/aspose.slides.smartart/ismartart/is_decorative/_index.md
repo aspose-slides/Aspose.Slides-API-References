@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/ismartart/is_decorative/
-weight: 270
+weight: 280
 ---
 
 
@@ -14,12 +14,15 @@ weight: 270
 @property
 def is_decorative(self):
     ...
+
 @is_decorative.setter
 def is_decorative(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

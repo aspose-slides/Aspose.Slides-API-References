@@ -28,7 +28,6 @@ def add(self, value):
 | value | [`ITab`](/slides/python-net/aspose.slides/itab) | The Tab object to be added at the end of the collection. |
 
 
-
 ## add {#float-tabalignment}
 Adds a Tab to the collection.
 
@@ -57,3 +56,4 @@ def add(self, position, align):
 * class [`TabCollection`](/slides/python-net/aspose.slides/tabcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

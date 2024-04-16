@@ -18,12 +18,15 @@ Delimiter Ending Character specifies the ending, or closing, delimiter character
 @property
 def ending_character(self):
     ...
+
 @ending_character.setter
 def ending_character(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathDelimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

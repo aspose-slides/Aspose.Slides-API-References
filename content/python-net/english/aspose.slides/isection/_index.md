@@ -27,6 +27,8 @@ The ISection type exposes the following members:
 | :- | :- |
 | [`get_slides_list_of_section`](/slides/python-net/aspose.slides/isection/get_slides_list_of_section/#) | Returns list of slides in the section. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -21,6 +21,8 @@ The ChartWall type exposes the following members:
 | [`format`](/slides/python-net/aspose.slides.charts/chartwall/format/) | Returns the wall fill, line, effect, 3d styles.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
 | [`picture_type`](/slides/python-net/aspose.slides.charts/chartwall/picture_type/) | Return or sets the picture type.<br/>            Read/write [`PictureType`](/slides/python-net/aspose.slides.charts/picturetype). |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

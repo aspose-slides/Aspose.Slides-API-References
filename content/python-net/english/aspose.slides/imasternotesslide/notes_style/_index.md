@@ -19,8 +19,10 @@ def notes_style(self):
     ...
 ```
 
+
 ### See Also
 * class [`IMasterNotesSlide`](/slides/python-net/aspose.slides/imasternotesslide)
 * class [`ITextStyle`](/slides/python-net/aspose.slides/itextstyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

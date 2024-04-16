@@ -21,6 +21,8 @@ The LinkEmbedDecision type exposes the following members:
 | EMBED | Object should be embedded to a generated file if possible. If embedding is imposible, GetUrl will be called and, depending on result, object will be referrenced by URL or ignored. |
 | IGNORE | Object will be ignored. |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

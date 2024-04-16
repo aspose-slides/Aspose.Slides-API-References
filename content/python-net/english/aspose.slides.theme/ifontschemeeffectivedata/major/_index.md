@@ -19,8 +19,10 @@ def major(self):
     ...
 ```
 
+
 ### See Also
 * class [`IFontSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata)
 * class [`IFontsEffectiveData`](/slides/python-net/aspose.slides/ifontseffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

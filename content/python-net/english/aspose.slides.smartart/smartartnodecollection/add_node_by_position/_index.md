@@ -31,7 +31,7 @@ def add_node_by_position(self, position):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | position is less than 0 |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | position is less than 0 |
 
 
 
@@ -40,3 +40,4 @@ def add_node_by_position(self, position):
 * class [`SmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/smartartnodecollection)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

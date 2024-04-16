@@ -23,12 +23,6 @@ The Column type exposes the following members:
 | [`presentation`](/slides/python-net/aspose.slides/column/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [`width`](/slides/python-net/aspose.slides/column/width/) | Returns or sets the width of a column.<br/>            Read/write **float**. |
 | [`column_format`](/slides/python-net/aspose.slides/column/column_format/) | Returns the ColumnFormat object that contains formatting properties for this column.<br/>            Read-only [`IColumnFormat`](/slides/python-net/aspose.slides/icolumnformat). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/column/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/column/as_i_presentation_component/) |  |
-| [`as_i_collection`](/slides/python-net/aspose.slides/column/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/column/as_i_enumerable/) |  |
-| [`as_i_cell_collection`](/slides/python-net/aspose.slides/column/as_i_cell_collection/) |  |
-| [`as_i_bulk_text_formattable`](/slides/python-net/aspose.slides/column/as_i_bulk_text_formattable/) |  |
 
 ## Indexer
 
@@ -44,8 +38,10 @@ The Column type exposes the following members:
 | [`set_text_format`](/slides/python-net/aspose.slides/column/set_text_format/#iparagraphformat) | Sets defined paragraph format properties to all column cells' paragraphs. |
 | [`set_text_format`](/slides/python-net/aspose.slides/column/set_text_format/#itextframeformat) | Sets defined text frame format properties to all column cells' text frames. |
 
+
 ### See Also
 * class [`CellCollection`](/slides/python-net/aspose.slides/cellcollection)
 * class [`Column`](/slides/python-net/aspose.slides/column)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

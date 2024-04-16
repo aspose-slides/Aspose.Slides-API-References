@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentation/audios/
-weight: 90
+weight: 100
 ---
 
 
@@ -19,8 +19,10 @@ def audios(self):
     ...
 ```
 
+
 ### See Also
 * class [`IAudioCollection`](/slides/python-net/aspose.slides/iaudiocollection)
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

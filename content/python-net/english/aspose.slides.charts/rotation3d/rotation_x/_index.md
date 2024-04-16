@@ -18,12 +18,15 @@ Returns or sets the rotation degree around the X-axis, i.e. in the Y direction f
 @property
 def rotation_x(self):
     ...
+
 @rotation_x.setter
 def rotation_x(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Rotation3D`](/slides/python-net/aspose.slides.charts/rotation3d)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

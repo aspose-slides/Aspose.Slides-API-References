@@ -18,16 +18,13 @@ The ISectionZoomFrame type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`target_section`](/slides/python-net/aspose.slides/isectionzoomframe/target_section/) | Gets or sets the section object that the Section Zoom object is linked to.<br/>            Read/write [`ISection`](/slides/python-net/aspose.slides/isection). |
-| [`as_i_zoom_object`](/slides/python-net/aspose.slides/isectionzoomframe/as_i_zoom_object/) | Returns IZoomObject interface. |
 | [`image_type`](/slides/python-net/aspose.slides/isectionzoomframe/image_type/) |  |
 | [`return_to_parent`](/slides/python-net/aspose.slides/isectionzoomframe/return_to_parent/) |  |
 | [`show_background`](/slides/python-net/aspose.slides/isectionzoomframe/show_background/) |  |
-| [`image`](/slides/python-net/aspose.slides/isectionzoomframe/image/) |  |
+| [`zoom_image`](/slides/python-net/aspose.slides/isectionzoomframe/zoom_image/) |  |
 | [`transition_duration`](/slides/python-net/aspose.slides/isectionzoomframe/transition_duration/) |  |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides/isectionzoomframe/as_i_graphical_object/) |  |
 | [`shape_lock`](/slides/python-net/aspose.slides/isectionzoomframe/shape_lock/) |  |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides/isectionzoomframe/graphical_object_lock/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/isectionzoomframe/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides/isectionzoomframe/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/isectionzoomframe/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/isectionzoomframe/custom_data/) |  |
@@ -54,10 +51,7 @@ The ISectionZoomFrame type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/isectionzoomframe/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/isectionzoomframe/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/isectionzoomframe/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/isectionzoomframe/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/isectionzoomframe/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/isectionzoomframe/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/isectionzoomframe/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/isectionzoomframe/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/isectionzoomframe/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/isectionzoomframe/hyperlink_mouse_over/) |  |
@@ -69,12 +63,16 @@ The ISectionZoomFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/isectionzoomframe/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/isectionzoomframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/isectionzoomframe/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/isectionzoomframe/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/isectionzoomframe/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/isectionzoomframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`add_placeholder`](/slides/python-net/aspose.slides/isectionzoomframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/isectionzoomframe/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/isectionzoomframe/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

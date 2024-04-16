@@ -17,13 +17,16 @@ Returns or sets chart data cell.
 @property
 def as_cell(self):
     ...
+
 @as_cell.setter
 def as_cell(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`DoubleChartValue`](/slides/python-net/aspose.slides.charts/doublechartvalue)
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

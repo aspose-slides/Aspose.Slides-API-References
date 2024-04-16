@@ -18,12 +18,15 @@ Specifies alignment of the array relative to surrounding text
 @property
 def base_justification(self):
     ...
+
 @base_justification.setter
 def base_justification(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathArray`](/slides/python-net/aspose.slides.mathtext/imatharray)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

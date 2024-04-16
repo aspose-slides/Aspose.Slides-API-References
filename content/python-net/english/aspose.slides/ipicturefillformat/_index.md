@@ -28,7 +28,6 @@ The IPictureFillFormat type exposes the following members:
 | [`stretch_offset_top`](/slides/python-net/aspose.slides/ipicturefillformat/stretch_offset_top/) | Returns or sets top edge of the fill rectangle that is defined by a percentage offset <br/>            from the top edge of the shape's bounding box. <br/>            A positive percentage specifies an inset, while a negative percentage specifies an outset.<br/>            Read/write **float**. |
 | [`stretch_offset_right`](/slides/python-net/aspose.slides/ipicturefillformat/stretch_offset_right/) | Returns or sets right edge of the fill rectangle that is defined by a percentage offset <br/>            from the right edge of the shape's bounding box. <br/>            A positive percentage specifies an inset, while a negative percentage specifies an outset.<br/>            Read/write **float**. |
 | [`stretch_offset_bottom`](/slides/python-net/aspose.slides/ipicturefillformat/stretch_offset_bottom/) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset <br/>            from the bottom edge of the shape's bounding box. <br/>            A positive percentage specifies an inset, while a negative percentage specifies an outset.<br/>            Read/write **float**. |
-| [`as_i_fill_param_source`](/slides/python-net/aspose.slides/ipicturefillformat/as_i_fill_param_source/) | Allows to get base IFillParamSource interface.<br/>            Read-only [`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource). |
 
 ## Methods
 
@@ -36,6 +35,8 @@ The IPictureFillFormat type exposes the following members:
 | :- | :- |
 | [`delete_picture_cropped_areas`](/slides/python-net/aspose.slides/ipicturefillformat/delete_picture_cropped_areas/#) | Delete cropped areas of the fill Picture. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

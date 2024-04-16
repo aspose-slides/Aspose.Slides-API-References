@@ -17,13 +17,16 @@ Specifies the shape of the visuals used during the transition.
 @property
 def pattern(self):
     ...
+
 @pattern.setter
 def pattern(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IShredTransition`](/slides/python-net/aspose.slides.slideshow/ishredtransition)
 * enumeration [`TransitionShredPattern`](/slides/python-net/aspose.slides.slideshow/transitionshredpattern)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

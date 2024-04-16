@@ -32,6 +32,8 @@ The VbaProjectFactory type exposes the following members:
 | [`create_vba_project`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/create_vba_project/#) | Creates new VBA project. |
 | [`read_vba_project`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/read_vba_project/#bytes) | Reads VBA project from OLE container. |
 
+
 ### See Also
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/oleobjectframe/line_format/
-weight: 340
+weight: 350
 ---
 
 
@@ -20,8 +20,10 @@ def line_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * class [`OleObjectFrame`](/slides/python-net/aspose.slides/oleobjectframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

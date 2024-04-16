@@ -19,10 +19,8 @@ The ISummaryZoomFrame type exposes the following members:
 | :- | :- |
 | [`layout`](/slides/python-net/aspose.slides/isummaryzoomframe/layout/) | Gets layout of Summary Zoom Sections in the frame.<br/>            Default value is GridLayout. |
 | [`summary_zoom_collection`](/slides/python-net/aspose.slides/isummaryzoomframe/summary_zoom_collection/) | Gets [`ISummaryZoomSectionCollection`](/slides/python-net/aspose.slides/isummaryzoomsectioncollection) for the Summary Zoom Frame object. |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides/isummaryzoomframe/as_i_graphical_object/) | Returns IGraphicalObject interface. |
 | [`shape_lock`](/slides/python-net/aspose.slides/isummaryzoomframe/shape_lock/) |  |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides/isummaryzoomframe/graphical_object_lock/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/isummaryzoomframe/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides/isummaryzoomframe/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/isummaryzoomframe/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/isummaryzoomframe/custom_data/) |  |
@@ -49,10 +47,7 @@ The ISummaryZoomFrame type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/isummaryzoomframe/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/isummaryzoomframe/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/isummaryzoomframe/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/isummaryzoomframe/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/isummaryzoomframe/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/isummaryzoomframe/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/isummaryzoomframe/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/isummaryzoomframe/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/isummaryzoomframe/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/isummaryzoomframe/hyperlink_mouse_over/) |  |
@@ -64,12 +59,16 @@ The ISummaryZoomFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/isummaryzoomframe/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/isummaryzoomframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/isummaryzoomframe/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/isummaryzoomframe/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/isummaryzoomframe/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/isummaryzoomframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`add_placeholder`](/slides/python-net/aspose.slides/isummaryzoomframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/isummaryzoomframe/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/isummaryzoomframe/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,3 +24,4 @@ def create_theme_effective(self):
 * class [`IMasterNotesSlide`](/slides/python-net/aspose.slides/imasternotesslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

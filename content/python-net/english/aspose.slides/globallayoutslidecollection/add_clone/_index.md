@@ -36,7 +36,6 @@ When cloning a layout between different presentations layout's master can be clo
             Manual cloning of master slides will be neither prevented nor registered.
 
 
-
 ## add_clone {#ilayoutslide-imasterslide}
 Adds a copy of a specified layout slide to the presentation.
 
@@ -72,3 +71,4 @@ def add_clone(self, source_layout, dest_master):
 * class [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -18,13 +18,16 @@ Specifies what the origin of the motion path is relative to such as the layout o
 @property
 def origin(self):
     ...
+
 @origin.setter
 def origin(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`MotionEffect`](/slides/python-net/aspose.slides.animation/motioneffect)
 * enumeration [`MotionOriginType`](/slides/python-net/aspose.slides.animation/motionorigintype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

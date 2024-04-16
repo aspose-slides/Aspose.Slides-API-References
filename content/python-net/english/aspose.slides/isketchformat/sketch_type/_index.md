@@ -17,13 +17,16 @@ Returns or sets the sketch type.
 @property
 def sketch_type(self):
     ...
+
 @sketch_type.setter
 def sketch_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ISketchFormat`](/slides/python-net/aspose.slides/isketchformat)
 * enumeration [`LineSketchType`](/slides/python-net/aspose.slides/linesketchtype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

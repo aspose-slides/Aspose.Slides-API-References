@@ -22,6 +22,8 @@ The ILicense type exposes the following members:
 | [`reset_license`](/slides/python-net/aspose.slides/ilicense/reset_license/#) | Reset the license |
 | [`is_licensed`](/slides/python-net/aspose.slides/ilicense/is_licensed/#) | Check if licence is applied to component |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

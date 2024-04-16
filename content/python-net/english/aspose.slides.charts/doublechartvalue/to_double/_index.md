@@ -30,3 +30,4 @@ def to_double(self):
 * class [`DoubleChartValue`](/slides/python-net/aspose.slides.charts/doublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

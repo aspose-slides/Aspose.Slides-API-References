@@ -36,8 +36,7 @@ def insert_zoom_frame(self, index, x, y, width, height, slide):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Referenced slide does not belong to the current presentation. |
-
+| **RuntimeError(Proxy error(ArgumentException))** | Referenced slide does not belong to the current presentation. |
 
 
 ## insert_zoom_frame {#int-float-float-float-float-islide-ippimage}
@@ -69,7 +68,7 @@ def insert_zoom_frame(self, index, x, y, width, height, slide, image):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Referenced slide does not belong to the current presentation. |
+| **RuntimeError(Proxy error(ArgumentException))** | Referenced slide does not belong to the current presentation. |
 
 
 
@@ -80,3 +79,4 @@ def insert_zoom_frame(self, index, x, y, width, height, slide, image):
 * class [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

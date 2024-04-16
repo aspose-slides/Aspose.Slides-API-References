@@ -36,7 +36,7 @@ def check_write_protection(self, password):
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** |  |
+| **RuntimeError(Proxy error(InvalidOperationException))** |  |
 
 
 
@@ -44,3 +44,4 @@ def check_write_protection(self, password):
 * class [`PresentationInfo`](/slides/python-net/aspose.slides/presentationinfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

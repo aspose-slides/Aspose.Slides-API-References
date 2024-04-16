@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ioleobjectframe/fill_format/
-weight: 210
+weight: 220
 ---
 
 
@@ -16,7 +16,9 @@ def fill_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

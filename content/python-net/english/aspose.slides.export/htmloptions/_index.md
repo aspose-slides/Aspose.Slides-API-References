@@ -39,10 +39,11 @@ The HtmlOptions type exposes the following members:
 | [`pictures_compression`](/slides/python-net/aspose.slides.export/htmloptions/pictures_compression/) | Represents the pictures compression level |
 | [`delete_pictures_cropped_areas`](/slides/python-net/aspose.slides.export/htmloptions/delete_pictures_cropped_areas/) | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped <br/>            parts will removed, if false they will be serialized in the document (which can possible lead to a <br/>            larger file) |
 | [`svg_responsive_layout`](/slides/python-net/aspose.slides.export/htmloptions/svg_responsive_layout/) | True to exclude width and height attributes from svg container - that will make layout responsive. False - otherwise.<br/>            Read/write **bool**. |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/htmloptions/as_i_save_options/) |  |
+
 
 ### See Also
 * class [`HtmlOptions`](/slides/python-net/aspose.slides.export/htmloptions)
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

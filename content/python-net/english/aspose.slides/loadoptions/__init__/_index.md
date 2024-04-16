@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#loadformat}
 Creates new load options.
 
@@ -41,3 +40,4 @@ def __init__(self, load_format):
 * class [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

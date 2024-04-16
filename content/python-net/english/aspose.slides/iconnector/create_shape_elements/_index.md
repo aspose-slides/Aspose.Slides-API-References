@@ -24,3 +24,4 @@ def create_shape_elements(self):
 * class [`IConnector`](/slides/python-net/aspose.slides/iconnector)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

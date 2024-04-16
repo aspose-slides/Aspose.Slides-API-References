@@ -17,13 +17,16 @@ Specifies command type.
 @property
 def command_type(self):
     ...
+
 @command_type.setter
 def command_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`MotionCmdPath`](/slides/python-net/aspose.slides.animation/motioncmdpath)
 * enumeration [`MotionCommandPathType`](/slides/python-net/aspose.slides.animation/motioncommandpathtype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

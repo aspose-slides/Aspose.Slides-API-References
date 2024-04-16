@@ -19,8 +19,6 @@ The IPortionFormat type exposes the following members:
 | :- | :- |
 | [`bookmark_id`](/slides/python-net/aspose.slides/iportionformat/bookmark_id/) | Returns or sets bookmark identifier.<br/>            Read/write **str**. |
 | [`smart_tag_clean`](/slides/python-net/aspose.slides/iportionformat/smart_tag_clean/) | Determines whether the smart tag should be cleaned. No inheritance applied.<br/>            Read/write **bool**. |
-| [`as_i_base_portion_format`](/slides/python-net/aspose.slides/iportionformat/as_i_base_portion_format/) | Returns IBasePortionFormat interface.<br/>            Read-only [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat). |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/iportionformat/as_i_hyperlink_container/) | Allows to get base IHyperlinkContainer interface.<br/>            Read-only [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer). |
 | [`line_format`](/slides/python-net/aspose.slides/iportionformat/line_format/) |  |
 | [`fill_format`](/slides/python-net/aspose.slides/iportionformat/fill_format/) |  |
 | [`effect_format`](/slides/python-net/aspose.slides/iportionformat/effect_format/) |  |
@@ -67,7 +65,9 @@ This class is used to return and manipulate text portion formatting properties d
 In order to get the effective formatting parameter values including inherited you need to use [`IPortionFormat.get_effective`](/slides/python-net/aspose.slides/iportionformat/get_effective) method 
             which returns a [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata) instance.
 
+
 ### See Also
 * class [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

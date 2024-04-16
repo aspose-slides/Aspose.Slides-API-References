@@ -24,3 +24,4 @@ def set_category_axis_type_automatically(self):
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

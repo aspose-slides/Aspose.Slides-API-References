@@ -35,11 +35,8 @@ The IChartSeriesGroup type exposes the following members:
 | [`bubble_size_scale`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/bubble_size_scale/) | Specifies the scale factor for the bubble chart (can be <br/>            between 0 and 300 percents of the default size).<br/>            Read/write **int**. |
 | [`hi_low_lines_format`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/hi_low_lines_format/) | Specifies HiLowLines format. <br/>            HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types. |
 | [`bubble_size_representation`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/bubble_size_representation/) | Specifies how the bubble size values are represented on the bubble chart.<br/>            Read/write [`BubbleSizeRepresentationType`](/slides/python-net/aspose.slides.charts/bubblesizerepresentationtype). |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/as_i_chart_component/) | Allows to get base IChartComponent interface.<br/>            Read-only [`IChartComponent`](/slides/python-net/aspose.slides.charts/ichartcomponent). |
 | [`chart`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/chart/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/presentation/) |  |
 
 ## Indexer
@@ -57,6 +54,8 @@ The IChartSeriesGroup type exposes the following members:
             "Series group properties" in ChartSeriesGroup class is read/write.
             Each of "series group properties" can have a read-only projection in ChartSeries class.
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

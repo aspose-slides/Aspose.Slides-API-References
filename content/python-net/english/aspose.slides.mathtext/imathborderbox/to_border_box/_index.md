@@ -19,7 +19,6 @@ def to_border_box(self):
 
 
 
-
 ## to_border_box {#bool-bool-bool-bool-bool-bool-bool-bool}
 
 
@@ -47,3 +46,4 @@ def to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethro
 * class [`IMathBorderBox`](/slides/python-net/aspose.slides.mathtext/imathborderbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

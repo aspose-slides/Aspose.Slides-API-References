@@ -17,12 +17,15 @@ Returns or sets shape's effect column index in a style matrix.
 @property
 def effect_style_index(self):
     ...
+
 @effect_style_index.setter
 def effect_style_index(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iaudioframe/y/
-weight: 660
+weight: 670
 ---
 
 
@@ -14,12 +14,15 @@ weight: 660
 @property
 def y(self):
     ...
+
 @y.setter
 def y(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/pictureframe/set_geometry_paths/
-weight: 80
+weight: 90
 ---
 
 
@@ -28,8 +28,8 @@ def set_geometry_paths(self, geometry_paths):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | No path found |
-| **System.ArgumentException** | Empty path |
+| **RuntimeError(Proxy error(ArgumentException))** | No path found |
+| **RuntimeError(Proxy error(ArgumentException))** | Empty path |
 
 
 
@@ -38,3 +38,4 @@ def set_geometry_paths(self, geometry_paths):
 * class [`PictureFrame`](/slides/python-net/aspose.slides/pictureframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

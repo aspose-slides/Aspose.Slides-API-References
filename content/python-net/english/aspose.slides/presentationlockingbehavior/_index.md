@@ -30,7 +30,9 @@ The source is the parameter passed to the [`IPresentation`](/slides/python-net/a
             For this example, the source ("pres.pptx" file) will be locked for a [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) 
             instance lifetime, i.e. can't be changed or deleted by the other process.
 
+
 ### See Also
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

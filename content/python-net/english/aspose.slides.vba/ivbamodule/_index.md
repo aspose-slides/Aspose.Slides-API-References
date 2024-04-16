@@ -20,6 +20,8 @@ The IVbaModule type exposes the following members:
 | [`name`](/slides/python-net/aspose.slides.vba/ivbamodule/name/) | Name of the module.<br/>            Read-only **str**. |
 | [`source_code`](/slides/python-net/aspose.slides.vba/ivbamodule/source_code/) | Source code of the module.<br/>            Read/write **str**. |
 
+
 ### See Also
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

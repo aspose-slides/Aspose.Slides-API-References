@@ -19,12 +19,15 @@ If layout of the plot area defined manually this property specifies whether
 @property
 def layout_target_type(self):
     ...
+
 @layout_target_type.setter
 def layout_target_type(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartPlotArea`](/slides/python-net/aspose.slides.charts/chartplotarea)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

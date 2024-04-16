@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#str}
 Constructor allowing a message to be added to this exception.
 
@@ -40,3 +39,4 @@ def __init__(self, message):
 * class [`CannotCombine2DAnd3DChartsException`](/slides/python-net/aspose.slides.charts/cannotcombine2dand3dchartsexception)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

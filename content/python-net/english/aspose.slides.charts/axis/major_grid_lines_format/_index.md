@@ -19,8 +19,10 @@ def major_grid_lines_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * class [`IChartLinesFormat`](/slides/python-net/aspose.slides.charts/ichartlinesformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

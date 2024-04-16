@@ -17,12 +17,15 @@ Returns or sets the y coordinate of a legend as a fraction of the height of the 
 @property
 def y(self):
     ...
+
 @y.setter
 def y(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Legend`](/slides/python-net/aspose.slides.charts/legend)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

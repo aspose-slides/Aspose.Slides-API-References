@@ -22,6 +22,8 @@ The ShapeElement type exposes the following members:
 | [`fill_source`](/slides/python-net/aspose.slides/shapeelement/fill_source/) | Returns information about how to fill an element.<br/>            Read-only [`ShapeElementFillSource`](/slides/python-net/aspose.slides/shapeelementfillsource). |
 | [`stroke_source`](/slides/python-net/aspose.slides/shapeelement/stroke_source/) | Returns information about how to stroke an element.<br/>            Read-only [`ShapeElementStrokeSource`](/slides/python-net/aspose.slides/shapeelementstrokesource). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

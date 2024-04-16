@@ -32,6 +32,8 @@ The ChartDataWorkbook type exposes the following members:
 | [`clear`](/slides/python-net/aspose.slides.charts/chartdataworkbook/clear/#int) | Clear all cells values on sheet |
 | [`calculate_formulas`](/slides/python-net/aspose.slides.charts/chartdataworkbook/calculate_formulas/#) | Calculates all formulas in the workbook and updates corresponding cells values. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

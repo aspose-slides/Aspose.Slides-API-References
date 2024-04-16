@@ -17,13 +17,16 @@ Returns or sets the picture fill mode.
 @property
 def picture_fill_mode(self):
     ...
+
 @picture_fill_mode.setter
 def picture_fill_mode(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat)
 * enumeration [`PictureFillMode`](/slides/python-net/aspose.slides/picturefillmode)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

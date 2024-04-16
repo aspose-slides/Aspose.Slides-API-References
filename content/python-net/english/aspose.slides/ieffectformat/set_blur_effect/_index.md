@@ -29,3 +29,4 @@ def set_blur_effect(self, radius, grow):
 * class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

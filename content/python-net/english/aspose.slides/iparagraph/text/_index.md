@@ -17,12 +17,15 @@ Gets or sets the the plain text of a paragraph.
 @property
 def text(self):
     ...
+
 @text.setter
 def text(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

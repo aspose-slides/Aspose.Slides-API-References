@@ -16,12 +16,15 @@ Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin propert
 @property
 def overflow_bin(self):
     ...
+
 @overflow_bin.setter
 def overflow_bin(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

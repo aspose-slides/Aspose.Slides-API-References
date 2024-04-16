@@ -35,10 +35,11 @@ The PropertyEffect type exposes the following members:
 | [`value_type`](/slides/python-net/aspose.slides.animation/propertyeffect/value_type/) | Specifies the type of a property value.<br/>            Read/write [`PropertyValueType`](/slides/python-net/aspose.slides.animation/propertyvaluetype). |
 | [`calc_mode`](/slides/python-net/aspose.slides.animation/propertyeffect/calc_mode/) | Specifies the interpolation mode for the animation<br/>            Read/write [`PropertyCalcModeType`](/slides/python-net/aspose.slides.animation/propertycalcmodetype). |
 | [`points`](/slides/python-net/aspose.slides.animation/propertyeffect/points/) | Specifies the points of the animation.<br/>            Read/write [`IPointCollection`](/slides/python-net/aspose.slides.animation/ipointcollection). |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/propertyeffect/as_i_behavior/) |  |
+
 
 ### See Also
 * class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
 * class [`PropertyEffect`](/slides/python-net/aspose.slides.animation/propertyeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

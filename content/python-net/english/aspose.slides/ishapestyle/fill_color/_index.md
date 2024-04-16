@@ -19,8 +19,10 @@ def fill_color(self):
     ...
 ```
 
+
 ### See Also
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
 * class [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

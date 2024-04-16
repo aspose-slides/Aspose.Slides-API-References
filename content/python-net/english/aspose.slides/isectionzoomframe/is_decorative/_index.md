@@ -14,12 +14,15 @@ weight: 280
 @property
 def is_decorative(self):
     ...
+
 @is_decorative.setter
 def is_decorative(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

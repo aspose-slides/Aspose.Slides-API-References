@@ -17,12 +17,15 @@ This attribute specifies if the animation effect stops the previous sound.
 @property
 def stop_previous_sound(self):
     ...
+
 @stop_previous_sound.setter
 def stop_previous_sound(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Effect`](/slides/python-net/aspose.slides.animation/effect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

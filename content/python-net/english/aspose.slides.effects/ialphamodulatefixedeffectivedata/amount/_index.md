@@ -19,7 +19,9 @@ def amount(self):
     ...
 ```
 
+
 ### See Also
 * class [`IAlphaModulateFixedEffectiveData`](/slides/python-net/aspose.slides.effects/ialphamodulatefixedeffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -21,6 +21,8 @@ The ErrorBarType type exposes the following members:
 | MINUS | Specifies that error bars shall be shown in the negative direction only. |
 | PLUS | Specifies that error bars shall be shown in the positive direction only. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -13,12 +13,6 @@ Represents timing properties for the effect behavior.
 
 The IBehaviorPropertyCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/as_i_enumerable/) | Returns IEnumerable interfaces.<br/>            Read-only **collections.abc.Iterable**. |
-
 ## Methods
 
 | Method | Description |
@@ -26,6 +20,8 @@ The IBehaviorPropertyCollection type exposes the following members:
 | [`add`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/add/#str) | Adds a new property to the collection. |
 | [`index_of`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/index_of/#str) | Determines the index of a specific item by property value in the **System.Collections.Generic.IList`1**. |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

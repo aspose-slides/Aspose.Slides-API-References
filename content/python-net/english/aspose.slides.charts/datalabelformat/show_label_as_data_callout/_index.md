@@ -24,12 +24,15 @@ Determines either specified chart's data label will be displayed as data callout
 @property
 def show_label_as_data_callout(self):
     ...
+
 @show_label_as_data_callout.setter
 def show_label_as_data_callout(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DataLabelFormat`](/slides/python-net/aspose.slides.charts/datalabelformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

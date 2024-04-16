@@ -16,12 +16,15 @@ The location of limits (subscript and superscript)
 @property
 def limit_location(self):
     ...
+
 @limit_location.setter
 def limit_location(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathNaryOperatorProperties`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorproperties)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

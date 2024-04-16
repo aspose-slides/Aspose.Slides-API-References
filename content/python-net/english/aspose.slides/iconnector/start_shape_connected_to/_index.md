@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iconnector/start_shape_connected_to/
-weight: 480
+weight: 490
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets the shape to attach the beginning of the connector to.
 @property
 def start_shape_connected_to(self):
     ...
+
 @start_shape_connected_to.setter
 def start_shape_connected_to(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IConnector`](/slides/python-net/aspose.slides/iconnector)
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

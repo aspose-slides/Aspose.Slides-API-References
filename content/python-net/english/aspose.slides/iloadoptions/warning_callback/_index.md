@@ -18,13 +18,16 @@ Returns or sets an object which receives warnings and decides whether loading
 @property
 def warning_callback(self):
     ...
+
 @warning_callback.setter
 def warning_callback(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions)
 * class [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

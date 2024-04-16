@@ -17,13 +17,16 @@ This value is used to specify the starting color of behavior.
 @property
 def from_address(self):
     ...
+
 @from_address.setter
 def from_address(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ColorEffect`](/slides/python-net/aspose.slides.animation/coloreffect)
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

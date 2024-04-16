@@ -28,6 +28,8 @@ The DataSourceTypeForErrorBarsCustomValues type exposes the following members:
 | [`data_source_type_for_y_minus_values`](/slides/python-net/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/data_source_type_for_y_minus_values/) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property <br/>            is actual in data points YMinus property object for error bars custom values. In other words it specifies <br/>            the type of value of ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data property.<br/>            Read/write [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype). |
 | [`data_source_type_for_y_plus_values`](/slides/python-net/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/data_source_type_for_y_plus_values/) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property <br/>            is actual in data points YPlus property object for error bars custom values. In other words it specifies <br/>            the type of value of ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data property.<br/>            Read/write [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype). |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/presentation/master_theme/
-weight: 250
+weight: 260
 ---
 
 
@@ -19,8 +19,10 @@ def master_theme(self):
     ...
 ```
 
+
 ### See Also
 * class [`IMasterTheme`](/slides/python-net/aspose.slides.theme/imastertheme)
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

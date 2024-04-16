@@ -19,8 +19,10 @@ def parent_series_group(self):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * class [`IChartSeriesGroup`](/slides/python-net/aspose.slides.charts/ichartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

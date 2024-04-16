@@ -18,12 +18,15 @@ Specifies the vertical justification respect to surrounding text.
 @property
 def base_justification(self):
     ...
+
 @base_justification.setter
 def base_justification(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathMatrix`](/slides/python-net/aspose.slides.mathtext/imathmatrix)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

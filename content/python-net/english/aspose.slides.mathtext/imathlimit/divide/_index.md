@@ -23,7 +23,6 @@ def divide(self, denominator):
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-
 ## divide {#str}
 
 
@@ -37,7 +36,6 @@ def divide(self, denominator):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | denominator | **str** |  |
-
 
 
 ## divide {#imathelement-mathfractiontypes}
@@ -54,7 +52,6 @@ def divide(self, denominator, fraction_type):
 | :- | :- | :- |
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 | fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) |  |
-
 
 
 ## divide {#str-mathfractiontypes}
@@ -81,3 +78,4 @@ def divide(self, denominator, fraction_type):
 * enumeration [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

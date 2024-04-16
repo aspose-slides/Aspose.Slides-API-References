@@ -17,13 +17,16 @@ Returns or sets the lines join style.
 @property
 def join_style(self):
     ...
+
 @join_style.setter
 def join_style(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`LineFormat`](/slides/python-net/aspose.slides/lineformat)
 * enumeration [`LineJoinStyle`](/slides/python-net/aspose.slides/linejoinstyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

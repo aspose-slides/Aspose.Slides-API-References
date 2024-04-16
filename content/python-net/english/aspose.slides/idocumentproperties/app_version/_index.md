@@ -19,7 +19,9 @@ def app_version(self):
     ...
 ```
 
+
 ### See Also
 * class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,7 +24,6 @@ def to_array(self):
 
 
 
-
 ## to_array {#int-int}
 Creates and returns an array with all FallBack fonts from the specified range in list.
 
@@ -51,3 +50,4 @@ def to_array(self, start_index, count):
 * class [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

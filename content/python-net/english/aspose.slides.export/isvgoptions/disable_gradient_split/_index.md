@@ -17,12 +17,15 @@ Disables splitting FromCornerX and FromCenter gradients.
 @property
 def disable_gradient_split(self):
     ...
+
 @disable_gradient_split.setter
 def disable_gradient_split(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

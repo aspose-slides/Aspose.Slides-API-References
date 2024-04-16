@@ -16,12 +16,15 @@ Represents layout of parent category labels. Applies only to Treemap charts.
 @property
 def parent_label_layout(self):
     ...
+
 @parent_label_layout.setter
 def parent_label_layout(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

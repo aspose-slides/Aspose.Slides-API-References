@@ -17,13 +17,16 @@ Returns or sets vertical anchor text in a TextFrame.
 @property
 def anchoring_type(self):
     ...
+
 @anchoring_type.setter
 def anchoring_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
 * enumeration [`TextAnchorType`](/slides/python-net/aspose.slides/textanchortype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

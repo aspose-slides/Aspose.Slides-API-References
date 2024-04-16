@@ -18,12 +18,15 @@ Determines whether the corresponding master is deleted when all the slides that 
 @property
 def preserve(self):
     ...
+
 @preserve.setter
 def preserve(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MasterSlide`](/slides/python-net/aspose.slides/masterslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -25,7 +25,9 @@ The IEffectStyleEffectiveData type exposes the following members:
 
 This interface is used as a part of [`IEffectStyleCollectionEffectiveData`](/slides/python-net/aspose.slides.theme/ieffectstylecollectioneffectivedata).
 
+
 ### See Also
 * class [`IEffectStyleCollectionEffectiveData`](/slides/python-net/aspose.slides.theme/ieffectstylecollectioneffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

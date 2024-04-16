@@ -29,3 +29,4 @@ def remove(self, value):
 * class [`IMasterSlideCollection`](/slides/python-net/aspose.slides/imasterslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

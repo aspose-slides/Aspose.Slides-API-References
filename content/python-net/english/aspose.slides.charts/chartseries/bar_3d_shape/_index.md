@@ -18,13 +18,16 @@ Specifies the shape of a series of a 3-D bar chart.
 @property
 def bar_3d_shape(self):
     ...
+
 @bar_3d_shape.setter
 def bar_3d_shape(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * enumeration [`ChartShapeType`](/slides/python-net/aspose.slides.charts/chartshapetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -21,12 +21,15 @@ Default value is  **true** .
 @property
 def print_frame_slide(self):
     ...
+
 @print_frame_slide.setter
 def print_frame_slide(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`HandoutLayoutingOptions`](/slides/python-net/aspose.slides.export/handoutlayoutingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

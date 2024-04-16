@@ -17,12 +17,15 @@ Specifies the conformance class to which the Presentation document conforms.
 @property
 def conformance(self):
     ...
+
 @conformance.setter
 def conformance(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PptxOptions`](/slides/python-net/aspose.slides.export/pptxoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

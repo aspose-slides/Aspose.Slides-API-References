@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/x/
-weight: 690
+weight: 700
 ---
 
 
@@ -23,12 +23,15 @@ Returned value is always defined (is not float.NaN).
 @property
 def x(self):
     ...
+
 @x.setter
 def x(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

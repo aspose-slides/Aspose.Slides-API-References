@@ -24,8 +24,6 @@ The MasterSlideHeaderFooterManager type exposes the following members:
 | [`is_footer_visible`](/slides/python-net/aspose.slides/masterslideheaderfootermanager/is_footer_visible/) | Gets value indicating that a footer placeholder is present.<br/>            Read **bool**. |
 | [`is_slide_number_visible`](/slides/python-net/aspose.slides/masterslideheaderfootermanager/is_slide_number_visible/) | Gets value indicating that a page number placeholder is present.<br/>            Read**bool**. |
 | [`is_date_time_visible`](/slides/python-net/aspose.slides/masterslideheaderfootermanager/is_date_time_visible/) | Gets value indicating that a date-time placeholder is present.<br/>            Read**bool**. |
-| [`as_i_base_slide_header_footer_manager`](/slides/python-net/aspose.slides/masterslideheaderfootermanager/as_i_base_slide_header_footer_manager/) |  |
-| [`as_i_base_header_footer_manager`](/slides/python-net/aspose.slides/masterslideheaderfootermanager/as_i_base_header_footer_manager/) |  |
 
 ## Methods
 
@@ -42,9 +40,11 @@ The MasterSlideHeaderFooterManager type exposes the following members:
 | [`set_footer_and_child_footers_text`](/slides/python-net/aspose.slides/masterslideheaderfootermanager/set_footer_and_child_footers_text/#str) | Sets text to master slide footer placeholder and all child footer placeholders.<br/>            Child placeholders mean placeholders are contained on depending layout slides and depending slides.<br/>            Depending layout slides and slides use and depend on master slide. |
 | [`set_date_time_and_child_date_times_text`](/slides/python-net/aspose.slides/masterslideheaderfootermanager/set_date_time_and_child_date_times_text/#str) | Sets text to master slide date-time placeholder and all child date-time placeholders.<br/>            Child placeholders mean placeholders are contained on depending layout slides and depending slides.<br/>            Depending layout slides and slides use and depend on master slide. |
 
+
 ### See Also
 * class [`BaseHeaderFooterManager`](/slides/python-net/aspose.slides/baseheaderfootermanager)
 * class [`BaseSlideHeaderFooterManager`](/slides/python-net/aspose.slides/baseslideheaderfootermanager)
 * class [`MasterSlideHeaderFooterManager`](/slides/python-net/aspose.slides/masterslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

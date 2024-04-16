@@ -17,12 +17,15 @@ Returns or sets the amount of space between base lines in a paragraph. Positive 
 @property
 def space_within(self):
     ...
+
 @space_within.setter
 def space_within(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

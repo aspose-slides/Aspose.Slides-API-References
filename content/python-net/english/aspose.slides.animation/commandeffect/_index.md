@@ -32,10 +32,11 @@ The CommandEffect type exposes the following members:
 | [`type`](/slides/python-net/aspose.slides.animation/commandeffect/type/) | Defines command effect type of behavior.<br/>            Read/write [`CommandEffectType`](/slides/python-net/aspose.slides.animation/commandeffecttype). |
 | [`command_string`](/slides/python-net/aspose.slides.animation/commandeffect/command_string/) | Defines command string.<br/>            Read/write **str**. |
 | [`shape_target`](/slides/python-net/aspose.slides.animation/commandeffect/shape_target/) | Defines shape target of command effect.<br/>            Read/write [`IShape`](/slides/python-net/aspose.slides/ishape). |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/commandeffect/as_i_behavior/) |  |
+
 
 ### See Also
 * class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
 * class [`CommandEffect`](/slides/python-net/aspose.slides.animation/commandeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

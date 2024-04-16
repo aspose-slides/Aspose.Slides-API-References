@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartshape/parent_group/
-weight: 350
+weight: 360
 ---
 
 
@@ -24,8 +24,10 @@ def parent_group(self):
     ...
 ```
 
+
 ### See Also
 * class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
 * class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

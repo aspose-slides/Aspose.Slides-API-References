@@ -17,13 +17,16 @@ Gets or sets parent comment.
 @property
 def parent_comment(self):
     ...
+
 @parent_comment.setter
 def parent_comment(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Comment`](/slides/python-net/aspose.slides/comment)
 * class [`IComment`](/slides/python-net/aspose.slides/icomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

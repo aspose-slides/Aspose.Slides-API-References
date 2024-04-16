@@ -20,12 +20,15 @@ Minimum column width in twips (1/20th of a point)
 @property
 def min_column_width(self):
     ...
+
 @min_column_width.setter
 def min_column_width(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathMatrix`](/slides/python-net/aspose.slides.mathtext/imathmatrix)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

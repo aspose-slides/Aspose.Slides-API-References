@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/oleobjectframe/embedded_data/
-weight: 180
+weight: 190
 ---
 
 
@@ -19,8 +19,10 @@ def embedded_data(self):
     ...
 ```
 
+
 ### See Also
 * class [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo)
 * class [`OleObjectFrame`](/slides/python-net/aspose.slides/oleobjectframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -14,12 +14,15 @@ weight: 450
 @property
 def transition_duration(self):
     ...
+
 @transition_duration.setter
 def transition_duration(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

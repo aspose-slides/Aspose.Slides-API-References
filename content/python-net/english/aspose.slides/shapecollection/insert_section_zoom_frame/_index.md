@@ -36,8 +36,7 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Referenced section does not belong to the current presentation or does not contains any slides. |
-
+| **RuntimeError(Proxy error(ArgumentException))** | Referenced section does not belong to the current presentation or does not contains any slides. |
 
 
 ## insert_section_zoom_frame {#int-float-float-float-float-isection-ippimage}
@@ -69,7 +68,7 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section, image):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Referenced section does not belong to the current presentation or does not contains any slides. |
+| **RuntimeError(Proxy error(ArgumentException))** | Referenced section does not belong to the current presentation or does not contains any slides. |
 
 
 
@@ -80,3 +79,4 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section, image):
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

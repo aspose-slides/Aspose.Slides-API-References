@@ -33,8 +33,10 @@ The BaseSlideHeaderFooterManager type exposes the following members:
 | [`set_footer_text`](/slides/python-net/aspose.slides/baseslideheaderfootermanager/set_footer_text/#str) | Sets text to slide footer placeholder. |
 | [`set_date_time_text`](/slides/python-net/aspose.slides/baseslideheaderfootermanager/set_date_time_text/#str) | Sets text to slide date-time placeholder. |
 
+
 ### See Also
 * class [`BaseHeaderFooterManager`](/slides/python-net/aspose.slides/baseheaderfootermanager)
 * class [`BaseSlideHeaderFooterManager`](/slides/python-net/aspose.slides/baseslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

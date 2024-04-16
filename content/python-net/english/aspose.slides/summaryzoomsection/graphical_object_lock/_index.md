@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/summaryzoomsection/graphical_object_lock/
-weight: 220
+weight: 230
 ---
 
 
@@ -19,8 +19,10 @@ def graphical_object_lock(self):
     ...
 ```
 
+
 ### See Also
 * class [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock)
 * class [`SummaryZoomSection`](/slides/python-net/aspose.slides/summaryzoomsection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

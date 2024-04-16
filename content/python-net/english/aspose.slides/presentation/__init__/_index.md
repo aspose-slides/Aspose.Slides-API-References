@@ -20,7 +20,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#loadoptions}
 This constructor creates new presentation from scratch.
             Created presentation has one empty slide.
@@ -37,7 +36,6 @@ def __init__(self, load_options):
 | load_options | [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions) | Additional load options. |
 
 
-
 ## __init__ {#iorawiobase}
 This constructor is the primary mechanism for reading an existing Presentation.
 
@@ -51,7 +49,6 @@ def __init__(self, stream):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Input stream. |
-
 
 
 ## __init__ {#str}
@@ -73,8 +70,7 @@ def __init__(self, file):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Thrown when input file has zero length |
-
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown when input file has zero length |
 
 
 ## __init__ {#iorawiobase-loadoptions}
@@ -91,7 +87,6 @@ def __init__(self, stream, load_options):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Input stream. |
 | load_options | [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions) | Additional load options. |
-
 
 
 ## __init__ {#str-loadoptions}
@@ -114,7 +109,7 @@ def __init__(self, file, load_options):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Thrown when input file has zero length |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown when input file has zero length |
 
 
 
@@ -123,3 +118,4 @@ def __init__(self, file, load_options):
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

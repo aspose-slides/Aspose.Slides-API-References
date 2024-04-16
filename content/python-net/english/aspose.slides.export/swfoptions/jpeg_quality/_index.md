@@ -17,12 +17,15 @@ Specifies the quality of JPEG images.
 @property
 def jpeg_quality(self):
     ...
+
 @jpeg_quality.setter
 def jpeg_quality(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SwfOptions`](/slides/python-net/aspose.slides.export/swfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

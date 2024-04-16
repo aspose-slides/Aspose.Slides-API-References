@@ -22,8 +22,6 @@ The SlideHeaderFooterManager type exposes the following members:
 | [`is_footer_visible`](/slides/python-net/aspose.slides/slideheaderfootermanager/is_footer_visible/) | Gets value indicating that a footer placeholder is present.<br/>            Read **bool**. |
 | [`is_slide_number_visible`](/slides/python-net/aspose.slides/slideheaderfootermanager/is_slide_number_visible/) | Gets value indicating that a page number placeholder is present.<br/>            Read**bool**. |
 | [`is_date_time_visible`](/slides/python-net/aspose.slides/slideheaderfootermanager/is_date_time_visible/) | Gets value indicating that a date-time placeholder is present.<br/>            Read**bool**. |
-| [`as_i_base_slide_header_footer_manager`](/slides/python-net/aspose.slides/slideheaderfootermanager/as_i_base_slide_header_footer_manager/) |  |
-| [`as_i_base_header_footer_manager`](/slides/python-net/aspose.slides/slideheaderfootermanager/as_i_base_header_footer_manager/) |  |
 
 ## Methods
 
@@ -35,9 +33,11 @@ The SlideHeaderFooterManager type exposes the following members:
 | [`set_footer_text`](/slides/python-net/aspose.slides/slideheaderfootermanager/set_footer_text/#str) | Sets text to slide footer placeholder. |
 | [`set_date_time_text`](/slides/python-net/aspose.slides/slideheaderfootermanager/set_date_time_text/#str) | Sets text to slide date-time placeholder. |
 
+
 ### See Also
 * class [`BaseHeaderFooterManager`](/slides/python-net/aspose.slides/baseheaderfootermanager)
 * class [`BaseSlideHeaderFooterManager`](/slides/python-net/aspose.slides/baseslideheaderfootermanager)
 * class [`SlideHeaderFooterManager`](/slides/python-net/aspose.slides/slideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

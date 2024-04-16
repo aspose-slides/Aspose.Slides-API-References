@@ -28,7 +28,6 @@ def create_math_border_box(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply border box |
 
 
-
 ## create_math_border_box {#imathelement-bool-bool-bool-bool-bool-bool-bool-bool}
 Create a math border box by applying to the element
 
@@ -64,3 +63,4 @@ def create_math_border_box(self, element, hide_top, hide_bottom, hide_left, hide
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

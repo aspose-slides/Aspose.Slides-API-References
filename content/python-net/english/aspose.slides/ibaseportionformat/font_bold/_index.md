@@ -17,13 +17,16 @@ Determines whether the font is bold. No inheritance applied.
 @property
 def font_bold(self):
     ...
+
 @font_bold.setter
 def font_bold(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat)
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

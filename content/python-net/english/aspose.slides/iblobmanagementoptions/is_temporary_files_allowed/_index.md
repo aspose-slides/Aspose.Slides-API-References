@@ -18,12 +18,15 @@ This property defines if temporary files can be created while working with BLOBs
 @property
 def is_temporary_files_allowed(self):
     ...
+
 @is_temporary_files_allowed.setter
 def is_temporary_files_allowed(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

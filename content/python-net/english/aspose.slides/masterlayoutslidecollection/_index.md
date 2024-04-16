@@ -17,14 +17,6 @@ Represents a collections of all layout slides of defined master slide.
 
 The MasterLayoutSlideCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/masterlayoutslidecollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/masterlayoutslidecollection/as_i_enumerable/) |  |
-| [`as_i_layout_slide_collection`](/slides/python-net/aspose.slides/masterlayoutslidecollection/as_i_layout_slide_collection/) |  |
-
 ## Indexer
 
 | Name | Description |
@@ -45,8 +37,10 @@ The MasterLayoutSlideCollection type exposes the following members:
 | [`remove_at`](/slides/python-net/aspose.slides/masterlayoutslidecollection/remove_at/#int) | Removes the element at the specified index of the collection. |
 | [`reorder`](/slides/python-net/aspose.slides/masterlayoutslidecollection/reorder/#int-ilayoutslide) | Moves layout slide from the collection to the specified position. |
 
+
 ### See Also
 * class [`LayoutSlideCollection`](/slides/python-net/aspose.slides/layoutslidecollection)
 * class [`MasterLayoutSlideCollection`](/slides/python-net/aspose.slides/masterlayoutslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -29,7 +29,6 @@ def create_math_fraction(self, numerator, denominator):
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
 
 
-
 ## create_math_fraction {#imathelement-imathelement-mathfractiontypes}
 Creates a math fraction
 
@@ -60,3 +59,4 @@ def create_math_fraction(self, numerator, denominator, fraction_type):
 * enumeration [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

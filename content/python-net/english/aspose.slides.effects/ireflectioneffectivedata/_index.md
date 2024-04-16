@@ -31,8 +31,9 @@ The IReflectionEffectiveData type exposes the following members:
 | [`rotate_shadow_with_shape`](/slides/python-net/aspose.slides.effects/ireflectioneffectivedata/rotate_shadow_with_shape/) | Specifies whether the reflection should rotate with the shape if the shape is rotated.<br/>            Read-only **bool**. |
 | [`scale_horizontal`](/slides/python-net/aspose.slides.effects/ireflectioneffectivedata/scale_horizontal/) | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents)<br/>            Read-only **float**. |
 | [`scale_vertical`](/slides/python-net/aspose.slides.effects/ireflectioneffectivedata/scale_vertical/) | Specifies the vertical scaling factor, negative scaling causes a flip. (percents)<br/>            Read-only **float**. |
-| [`as_i_effect_effective_data`](/slides/python-net/aspose.slides.effects/ireflectioneffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
+
 
 ### See Also
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

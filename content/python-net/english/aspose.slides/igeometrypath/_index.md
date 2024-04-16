@@ -43,6 +43,8 @@ The IGeometryPath type exposes the following members:
 | [`close_figure`](/slides/python-net/aspose.slides/igeometrypath/close_figure/#) | Closes the current figure of this path |
 | [`arc_to`](/slides/python-net/aspose.slides/igeometrypath/arc_to/#float-float-float-float) | Appends the specified arc to the path. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

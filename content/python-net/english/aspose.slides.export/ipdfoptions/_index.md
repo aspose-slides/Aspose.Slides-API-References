@@ -23,6 +23,7 @@ The IPdfOptions type exposes the following members:
 | [`show_hidden_slides`](/slides/python-net/aspose.slides.export/ipdfoptions/show_hidden_slides/) | Specifies whether the generated document should include hidden slides or not.<br/>            Default is `false`. |
 | [`additional_common_font_families`](/slides/python-net/aspose.slides.export/ipdfoptions/additional_common_font_families/) | Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common.<br/>            Read/write **str**[]. |
 | [`embed_full_fonts`](/slides/python-net/aspose.slides.export/ipdfoptions/embed_full_fonts/) | Determines if all characters of font should be embedded or only used subset.<br/>            Read/write **bool**. |
+| [`rasterize_unsupported_font_styles`](/slides/python-net/aspose.slides.export/ipdfoptions/rasterize_unsupported_font_styles/) | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling.<br/>            This approach can enhance the quality of text in the resulting PDF for certain fonts.<br/>            Read/write **bool**. |
 | [`jpeg_quality`](/slides/python-net/aspose.slides.export/ipdfoptions/jpeg_quality/) | Returns or sets a value determining the quality of the JPEG images inside PDF document.<br/>            Read/write **int**. |
 | [`compliance`](/slides/python-net/aspose.slides.export/ipdfoptions/compliance/) | Desired conformance level for generated PDF document.<br/>            Read/write [`PdfCompliance`](/slides/python-net/aspose.slides.export/pdfcompliance). |
 | [`password`](/slides/python-net/aspose.slides.export/ipdfoptions/password/) | Setting user password to protect the PDF document. <br/>            Read/write **str**. |
@@ -35,11 +36,12 @@ The IPdfOptions type exposes the following members:
 | [`image_transparent_color`](/slides/python-net/aspose.slides.export/ipdfoptions/image_transparent_color/) | Gets or sets the image transparent color. |
 | [`apply_image_transparent`](/slides/python-net/aspose.slides.export/ipdfoptions/apply_image_transparent/) | Applies the specified transparent color to an image if `true`. |
 | [`ink_options`](/slides/python-net/aspose.slides.export/ipdfoptions/ink_options/) | Provides options that control the look of Ink objects in exported document.<br/>            Read-only [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions) |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/ipdfoptions/as_i_save_options/) | Returns ISaveOptions interface.<br/>            Read-only [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions). |
 | [`warning_callback`](/slides/python-net/aspose.slides.export/ipdfoptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/ipdfoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/ipdfoptions/default_regular_font/) |  |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

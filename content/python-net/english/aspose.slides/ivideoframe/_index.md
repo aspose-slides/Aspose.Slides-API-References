@@ -27,17 +27,14 @@ The IVideoFrame type exposes the following members:
 | [`embedded_video`](/slides/python-net/aspose.slides/ivideoframe/embedded_video/) | Returns or sets embedded video object.<br/>            Read/write [`IVideo`](/slides/python-net/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/aspose.slides/ivideoframe/trim_from_start/) | Trim start [ms] |
 | [`trim_from_end`](/slides/python-net/aspose.slides/ivideoframe/trim_from_end/) | Trim end [ms] |
-| [`as_i_picture_frame`](/slides/python-net/aspose.slides/ivideoframe/as_i_picture_frame/) | Allows to get base IPictureFrame interface.<br/>            Read-only [`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe). |
 | [`shape_lock`](/slides/python-net/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/aspose.slides/ivideoframe/picture_format/) |  |
 | [`relative_scale_height`](/slides/python-net/aspose.slides/ivideoframe/relative_scale_height/) |  |
 | [`relative_scale_width`](/slides/python-net/aspose.slides/ivideoframe/relative_scale_width/) |  |
-| [`as_i_geometry_shape`](/slides/python-net/aspose.slides/ivideoframe/as_i_geometry_shape/) |  |
 | [`shape_style`](/slides/python-net/aspose.slides/ivideoframe/shape_style/) |  |
 | [`shape_type`](/slides/python-net/aspose.slides/ivideoframe/shape_type/) |  |
 | [`adjustments`](/slides/python-net/aspose.slides/ivideoframe/adjustments/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/ivideoframe/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides/ivideoframe/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/ivideoframe/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/ivideoframe/custom_data/) |  |
@@ -64,10 +61,7 @@ The IVideoFrame type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/ivideoframe/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/ivideoframe/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/ivideoframe/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/ivideoframe/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/ivideoframe/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/ivideoframe/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/ivideoframe/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/ivideoframe/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/ivideoframe/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/ivideoframe/hyperlink_mouse_over/) |  |
@@ -79,6 +73,8 @@ The IVideoFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ivideoframe/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ivideoframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/ivideoframe/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/ivideoframe/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/ivideoframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides/ivideoframe/get_geometry_paths/#) |  |
@@ -89,6 +85,8 @@ The IVideoFrame type exposes the following members:
 | [`remove_placeholder`](/slides/python-net/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

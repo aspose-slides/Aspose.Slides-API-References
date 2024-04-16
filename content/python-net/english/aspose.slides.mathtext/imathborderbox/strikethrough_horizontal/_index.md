@@ -16,12 +16,15 @@ Strikethrough Horizontal (default is false) - specifies the hidden or shown stat
 @property
 def strikethrough_horizontal(self):
     ...
+
 @strikethrough_horizontal.setter
 def strikethrough_horizontal(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathBorderBox`](/slides/python-net/aspose.slides.mathtext/imathborderbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

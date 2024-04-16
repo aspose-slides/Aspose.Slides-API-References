@@ -34,3 +34,4 @@ def find_by_name_and_initials(self, name, initials):
 * class [`CommentAuthorCollection`](/slides/python-net/aspose.slides/commentauthorcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

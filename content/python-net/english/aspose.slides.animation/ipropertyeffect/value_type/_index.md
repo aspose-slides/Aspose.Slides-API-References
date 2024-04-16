@@ -17,13 +17,16 @@ Specifies the type of a property value.
 @property
 def value_type(self):
     ...
+
 @value_type.setter
 def value_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IPropertyEffect`](/slides/python-net/aspose.slides.animation/ipropertyeffect)
 * enumeration [`PropertyValueType`](/slides/python-net/aspose.slides.animation/propertyvaluetype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

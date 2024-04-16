@@ -17,12 +17,15 @@ Returns or sets the angle of a gradient.
 @property
 def linear_gradient_angle(self):
     ...
+
 @linear_gradient_angle.setter
 def linear_gradient_angle(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGradientFormat`](/slides/python-net/aspose.slides/igradientformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Returns or sets the type of a material.
 @property
 def material(self):
     ...
+
 @material.setter
 def material(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
 * enumeration [`MaterialPresetType`](/slides/python-net/aspose.slides/materialpresettype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

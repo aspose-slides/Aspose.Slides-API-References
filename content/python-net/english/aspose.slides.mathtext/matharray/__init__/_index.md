@@ -23,7 +23,6 @@ def __init__(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The element to place in the array |
 
 
-
 ## __init__ {#iterableimathelement}
 
 
@@ -45,3 +44,4 @@ def __init__(self, elements):
 * class [`MathArray`](/slides/python-net/aspose.slides.mathtext/matharray)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/audioframe/hyperlink_click/
-weight: 340
+weight: 350
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets the hyperlink defined for mouse click.
 @property
 def hyperlink_click(self):
     ...
+
 @hyperlink_click.setter
 def hyperlink_click(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`AudioFrame`](/slides/python-net/aspose.slides/audioframe)
 * class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

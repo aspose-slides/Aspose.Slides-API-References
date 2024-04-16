@@ -54,10 +54,6 @@ The GeometryShape type exposes the following members:
 | [`shape_style`](/slides/python-net/aspose.slides/geometryshape/shape_style/) | Returns shape's style object.<br/>            Read-only [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle). |
 | [`shape_type`](/slides/python-net/aspose.slides/geometryshape/shape_type/) | Returns or sets the geometry preset type.<br/>            Note: on value changing all adjustment values will reset to their default values.<br/>            Read/write [`ShapeType`](/slides/python-net/aspose.slides/shapetype). |
 | [`adjustments`](/slides/python-net/aspose.slides/geometryshape/adjustments/) | Returns a collection of shape's adjustment values.<br/>            Read-only [`IAdjustValueCollection`](/slides/python-net/aspose.slides/iadjustvaluecollection). |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/geometryshape/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/geometryshape/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/geometryshape/as_i_presentation_component/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/geometryshape/as_i_shape/) |  |
 
 ## Methods
 
@@ -65,6 +61,8 @@ The GeometryShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/geometryshape/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/geometryshape/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides/geometryshape/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides/geometryshape/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/geometryshape/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/geometryshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/geometryshape/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
@@ -75,8 +73,10 @@ The GeometryShape type exposes the following members:
 | [`set_geometry_paths`](/slides/python-net/aspose.slides/geometryshape/set_geometry_paths/#listigeometrypath) | Updates shape geometry from array of [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath). Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`GeometryShape.shape_type`](/slides/python-net/aspose.slides/geometryshape#shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype#CUSTOM). |
 | [`create_shape_elements`](/slides/python-net/aspose.slides/geometryshape/create_shape_elements/#) | Creates and returns array of shape's elements. |
 
+
 ### See Also
 * class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
 * class [`Shape`](/slides/python-net/aspose.slides/shape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

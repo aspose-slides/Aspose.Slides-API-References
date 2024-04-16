@@ -38,3 +38,4 @@ def geometry_path_to_graphics_path(self, geometry_path):
 * class [`ShapeUtil`](/slides/python-net/aspose.slides.util/shapeutil)
 * module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)
 * library [`Aspose.Slides`](/slides/python-net)
+

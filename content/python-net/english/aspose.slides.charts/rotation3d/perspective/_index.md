@@ -18,12 +18,15 @@ Returns or sets the perspective value (field of view angle) for 3D charts (betwe
 @property
 def perspective(self):
     ...
+
 @perspective.setter
 def perspective(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Rotation3D`](/slides/python-net/aspose.slides.charts/rotation3d)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

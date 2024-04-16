@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichart/hyperlink_mouse_over/
-weight: 410
+weight: 420
 ---
 
 
@@ -14,12 +14,15 @@ weight: 410
 @property
 def hyperlink_mouse_over(self):
     ...
+
 @hyperlink_mouse_over.setter
 def hyperlink_mouse_over(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

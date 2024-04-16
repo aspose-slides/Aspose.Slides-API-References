@@ -31,7 +31,9 @@ The IThemeEffectiveData type exposes the following members:
 
 This interface is used together with the [`ITheme`](/slides/python-net/aspose.slides.theme/itheme) interface to return effective formatting values with inheritance applied.
 
+
 ### See Also
 * class [`ITheme`](/slides/python-net/aspose.slides.theme/itheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

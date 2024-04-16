@@ -29,7 +29,6 @@ The MathRadical type exposes the following members:
 | [`base`](/slides/python-net/aspose.slides.mathtext/mathradical/base/) | Base argument |
 | [`degree`](/slides/python-net/aspose.slides.mathtext/mathradical/degree/) | Degree argument |
 | [`hide_degree`](/slides/python-net/aspose.slides.mathtext/mathradical/hide_degree/) | Hide degree<br/>            When is true, the degree is not shown, as in √𝑥 |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/mathradical/as_i_math_element/) |  |
 
 ## Methods
 
@@ -82,8 +81,10 @@ The MathRadical type exposes the following members:
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/mathradical/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathradical/get_children/#) | Get children elements |
 
+
 ### See Also
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathRadical`](/slides/python-net/aspose.slides.mathtext/mathradical)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

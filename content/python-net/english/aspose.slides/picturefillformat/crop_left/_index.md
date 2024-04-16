@@ -18,12 +18,15 @@ Returns or sets the number of percents of real image width that are cropped off
 @property
 def crop_left(self):
     ...
+
 @crop_left.setter
 def crop_left(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PictureFillFormat`](/slides/python-net/aspose.slides/picturefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

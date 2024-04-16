@@ -27,8 +27,10 @@ def trend_lines(self):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * class [`ITrendlineCollection`](/slides/python-net/aspose.slides.charts/itrendlinecollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

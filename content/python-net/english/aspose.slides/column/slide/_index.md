@@ -19,8 +19,10 @@ def slide(self):
     ...
 ```
 
+
 ### See Also
 * class [`Column`](/slides/python-net/aspose.slides/column)
 * class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

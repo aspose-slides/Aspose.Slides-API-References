@@ -17,12 +17,15 @@ Specifies the order of the polynomial trend line. It is ignored for other trend 
 @property
 def order(self):
     ...
+
 @order.setter
 def order(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

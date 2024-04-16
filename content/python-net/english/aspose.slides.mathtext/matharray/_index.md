@@ -32,7 +32,6 @@ The MathArray type exposes the following members:
 | [`object_distribution`](/slides/python-net/aspose.slides.mathtext/matharray/object_distribution/) | Object Distribution<br/>            When true, the contents of the array are spaced to the maximum width of the array object. |
 | [`row_spacing_rule`](/slides/python-net/aspose.slides.mathtext/matharray/row_spacing_rule/) | The type of vertical spacing between array elements<br/>            Default: SingleLineGap |
 | [`row_spacing`](/slides/python-net/aspose.slides.mathtext/matharray/row_spacing/) | Spacing between rows of an array<br/>            It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points <br/>            or Multiple in which case the unit of measure is half-lines.<br/>            Default: 0 |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/matharray/as_i_math_element/) |  |
 
 ## Methods
 
@@ -85,8 +84,10 @@ The MathArray type exposes the following members:
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/matharray/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/matharray/get_children/#) | Get children elements |
 
+
 ### See Also
 * class [`MathArray`](/slides/python-net/aspose.slides.mathtext/matharray)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

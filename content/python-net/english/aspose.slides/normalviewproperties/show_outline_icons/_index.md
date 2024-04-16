@@ -18,12 +18,15 @@ Specifies whether the application should show icons if displaying outline conten
 @property
 def show_outline_icons(self):
     ...
+
 @show_outline_icons.setter
 def show_outline_icons(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`NormalViewProperties`](/slides/python-net/aspose.slides/normalviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

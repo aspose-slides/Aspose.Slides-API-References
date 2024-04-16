@@ -19,10 +19,8 @@ The ImageTransformOperationCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`slide`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/presentation/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -53,8 +51,10 @@ The ImageTransformOperationCollection type exposes the following members:
 | [`add_luminance_effect`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/add_luminance_effect/#float-float) | Adds the new Luminance effect to the end of a collection. |
 | [`add_tint_effect`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/add_tint_effect/#float-float) | Adds the new Tint effect to the end of a collection. |
 
+
 ### See Also
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

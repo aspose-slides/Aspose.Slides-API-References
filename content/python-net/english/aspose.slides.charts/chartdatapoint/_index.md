@@ -38,7 +38,6 @@ The ChartDataPoint type exposes the following members:
 | [`actual_y`](/slides/python-net/aspose.slides.charts/chartdatapoint/actual_y/) | Specifies actual top of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
 | [`actual_width`](/slides/python-net/aspose.slides.charts/chartdatapoint/actual_width/) | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
 | [`actual_height`](/slides/python-net/aspose.slides.charts/chartdatapoint/actual_height/) | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
-| [`as_i_actual_layout`](/slides/python-net/aspose.slides.charts/chartdatapoint/as_i_actual_layout/) |  |
 
 ## Methods
 
@@ -47,6 +46,8 @@ The ChartDataPoint type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides.charts/chartdatapoint/remove/#) | Removes DataPoint from chart series. |
 | [`get_automatic_data_point_color`](/slides/python-net/aspose.slides.charts/chartdatapoint/get_automatic_data_point_color/#) | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style.<br/>            This color is used by default if FillType equals NotDefined. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

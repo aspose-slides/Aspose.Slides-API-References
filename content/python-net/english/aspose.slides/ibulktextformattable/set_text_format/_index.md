@@ -23,7 +23,6 @@ def set_text_format(self, source):
 | source | [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat) | IPortionFormat object with necessary properties set. |
 
 
-
 ## set_text_format {#iparagraphformat}
 Sets defined paragraph format properties to all element's paragraphs.
 
@@ -37,7 +36,6 @@ def set_text_format(self, source):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | source | [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat) | IParagraphFormat object with necessary properties set. |
-
 
 
 ## set_text_format {#itextframeformat}
@@ -63,3 +61,4 @@ def set_text_format(self, source):
 * class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

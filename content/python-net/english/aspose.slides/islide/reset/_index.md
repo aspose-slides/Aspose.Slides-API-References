@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/islide/reset/
-weight: 90
+weight: 100
 ---
 
 
@@ -24,3 +24,4 @@ def reset(self):
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

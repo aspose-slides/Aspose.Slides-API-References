@@ -25,3 +25,4 @@ def create_theme_effective(self):
 * class [`SlideThemeManager`](/slides/python-net/aspose.slides.theme/slidethememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

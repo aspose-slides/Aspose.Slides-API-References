@@ -18,13 +18,16 @@ Returns or sets the symbolic font info.
 @property
 def symbol_font(self):
     ...
+
 @symbol_font.setter
 def symbol_font(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat)
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -38,6 +38,8 @@ The IHtmlGenerator type exposes the following members:
 | [`add_attribute_value`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_attribute_value/#listchar) | Quotes attribute value and adds it to the html file. |
 | [`add_attribute_value`](/slides/python-net/aspose.slides.export/ihtmlgenerator/add_attribute_value/#listchar-int-int) | Quotes attribute value and adds it to the html file. |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

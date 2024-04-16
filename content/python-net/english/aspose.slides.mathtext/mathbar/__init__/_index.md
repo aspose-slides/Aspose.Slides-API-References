@@ -23,7 +23,6 @@ def __init__(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The base element to which the bar is applied |
 
 
-
 ## __init__ {#imathelement-mathtopbotpositions}
 Initializes MathBar with specified position
 
@@ -47,3 +46,4 @@ def __init__(self, element, position):
 * enumeration [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

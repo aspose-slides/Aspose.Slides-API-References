@@ -20,6 +20,8 @@ The InkBrush type exposes the following members:
 | [`color`](/slides/python-net/aspose.slides.ink/inkbrush/color/) | Gets or sets the brush color for a line. |
 | [`size`](/slides/python-net/aspose.slides.ink/inkbrush/size/) | Gets or sets the brush size for a line in points. |
 
+
 ### See Also
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

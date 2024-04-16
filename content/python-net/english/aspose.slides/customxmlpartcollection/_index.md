@@ -13,13 +13,6 @@ Represents collection of custom xml parts.
 
 The CustomXmlPartCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/customxmlpartcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/customxmlpartcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
@@ -37,6 +30,8 @@ The CustomXmlPartCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/customxmlpartcollection/remove/#icustomxmlpart) | Removes the first occurrence of a specific object from the collection. |
 | [`clear`](/slides/python-net/aspose.slides/customxmlpartcollection/clear/#) | Removes all items from the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

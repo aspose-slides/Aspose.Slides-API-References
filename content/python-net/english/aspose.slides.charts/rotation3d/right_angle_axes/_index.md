@@ -19,12 +19,15 @@ Determines whether the chart axes are at right angles, rather than drawn in pers
 @property
 def right_angle_axes(self):
     ...
+
 @right_angle_axes.setter
 def right_angle_axes(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Rotation3D`](/slides/python-net/aspose.slides.charts/rotation3d)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

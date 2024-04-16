@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/ismartartshape/set_geometry_paths/
-weight: 80
+weight: 90
 ---
 
 
@@ -28,3 +28,4 @@ def set_geometry_paths(self, geometry_paths):
 * class [`ISmartArtShape`](/slides/python-net/aspose.slides.smartart/ismartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

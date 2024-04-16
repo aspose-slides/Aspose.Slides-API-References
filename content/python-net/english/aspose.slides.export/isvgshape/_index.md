@@ -25,6 +25,8 @@ The ISvgShape type exposes the following members:
 | :- | :- |
 | [`set_event_handler`](/slides/python-net/aspose.slides.export/isvgshape/set_event_handler/#svgevent-str) | Sets event handler for the shape |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

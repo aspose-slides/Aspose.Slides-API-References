@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/autoshape/placeholder/
-weight: 390
+weight: 400
 ---
 
 
@@ -19,8 +19,10 @@ def placeholder(self):
     ...
 ```
 
+
 ### See Also
 * class [`AutoShape`](/slides/python-net/aspose.slides/autoshape)
 * class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

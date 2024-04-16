@@ -17,12 +17,15 @@ Specifies the amount the data point shall be moved from the center of the pie.
 @property
 def explosion(self):
     ...
+
 @explosion.setter
 def explosion(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartDataPoint`](/slides/python-net/aspose.slides.charts/chartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

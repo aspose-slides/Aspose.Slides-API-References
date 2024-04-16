@@ -17,12 +17,15 @@ Direction of shadow.
 @property
 def direction(self):
     ...
+
 @direction.setter
 def direction(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`OuterShadow`](/slides/python-net/aspose.slides.effects/outershadow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

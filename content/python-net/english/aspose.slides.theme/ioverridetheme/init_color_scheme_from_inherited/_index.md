@@ -22,7 +22,7 @@ def init_color_scheme_from_inherited(self):
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | Thrown if the ColorScheme is already initialized (not null). |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the ColorScheme is already initialized (not null). |
 
 
 
@@ -30,3 +30,4 @@ def init_color_scheme_from_inherited(self):
 * class [`IOverrideTheme`](/slides/python-net/aspose.slides.theme/ioverridetheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

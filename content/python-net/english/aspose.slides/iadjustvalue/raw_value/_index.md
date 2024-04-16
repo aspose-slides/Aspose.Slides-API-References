@@ -17,12 +17,15 @@ Returns or sets ajustment value "as is".
 @property
 def raw_value(self):
     ...
+
 @raw_value.setter
 def raw_value(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAdjustValue`](/slides/python-net/aspose.slides/iadjustvalue)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

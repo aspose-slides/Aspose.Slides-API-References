@@ -17,12 +17,15 @@ Gets or sets 'Mark as decorative' option
 @property
 def is_decorative(self):
     ...
+
 @is_decorative.setter
 def is_decorative(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SectionZoomFrame`](/slides/python-net/aspose.slides/sectionzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

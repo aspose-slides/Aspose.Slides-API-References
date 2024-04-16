@@ -17,12 +17,15 @@ Source code of the module.
 @property
 def source_code(self):
     ...
+
 @source_code.setter
 def source_code(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IVbaModule`](/slides/python-net/aspose.slides.vba/ivbamodule)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

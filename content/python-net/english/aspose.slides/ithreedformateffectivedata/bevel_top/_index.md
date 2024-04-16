@@ -19,8 +19,10 @@ def bevel_top(self):
     ...
 ```
 
+
 ### See Also
 * class [`IShapeBevelEffectiveData`](/slides/python-net/aspose.slides/ishapebeveleffectivedata)
 * class [`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

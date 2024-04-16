@@ -41,3 +41,4 @@ def apply_external_theme_to_depending_slides(self, fname):
 * class [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

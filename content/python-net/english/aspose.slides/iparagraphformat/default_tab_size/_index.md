@@ -17,12 +17,15 @@ Returns or sets default tabulation size with no inheritance.
 @property
 def default_tab_size(self):
     ...
+
 @default_tab_size.setter
 def default_tab_size(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

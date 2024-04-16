@@ -26,6 +26,8 @@ The TextHighlightingOptions type exposes the following members:
 | [`case_sensitive`](/slides/python-net/aspose.slides/texthighlightingoptions/case_sensitive/) | Set true to use case-sensitive search, false - otherwise.<br/>            Read/write **bool**. |
 | [`whole_words_only`](/slides/python-net/aspose.slides/texthighlightingoptions/whole_words_only/) | Set true to match only whole words, false - otherwise.<br/>            Read/write **bool**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Determines whether splitting this groupshape is forbidden.
 @property
 def ungrouping_locked(self):
     ...
+
 @ungrouping_locked.setter
 def ungrouping_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

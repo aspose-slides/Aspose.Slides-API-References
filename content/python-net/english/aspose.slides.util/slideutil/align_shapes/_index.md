@@ -8,25 +8,6 @@ weight: 10
 ---
 
 
-## align_shapes {#shapesalignmenttype-bool-ishapecollection}
-Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide
-            or align them relative to each other.
-
-
-```python
-def align_shapes(self, alignment_type, align_to_slide, shapes):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| alignment_type | [`ShapesAlignmentType`](/slides/python-net/aspose.slides/shapesalignmenttype) | Determines which type of alignment will be applied. |
-| align_to_slide | **bool** | If true, shapes will be aligned relative to the slide edges |
-| shapes | [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection) | Shapes collection to be aligned |
-
-
-
 ## align_shapes {#shapesalignmenttype-bool-ibaseslide}
 Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
             or align them relative to each other.
@@ -43,7 +24,6 @@ def align_shapes(self, alignment_type, align_to_slide, slide):
 | alignment_type | [`ShapesAlignmentType`](/slides/python-net/aspose.slides/shapesalignmenttype) | Determines which type of alignment will be applied. |
 | align_to_slide | **bool** | If true, shapes will be aligned relative to the slide edges. |
 | slide | [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide) | Parent slide. |
-
 
 
 ## align_shapes {#shapesalignmenttype-bool-igroupshape}
@@ -64,7 +44,6 @@ def align_shapes(self, alignment_type, align_to_slide, group_shape):
 | group_shape | [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape) | Parent group shape. |
 
 
-
 ## align_shapes {#shapesalignmenttype-bool-ibaseslide-listint}
 Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
              or align them relative to each other.
@@ -82,7 +61,6 @@ def align_shapes(self, alignment_type, align_to_slide, slide, shape_indexes):
 | align_to_slide | **bool** | If true, shapes will be aligned relative to the slide edges. |
 | slide | [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide) | Parent slide. |
 | shape_indexes | **List[int]** | Indexes of shapes to be aligned. |
-
 
 
 ## align_shapes {#shapesalignmenttype-bool-igroupshape-listint}
@@ -108,8 +86,8 @@ def align_shapes(self, alignment_type, align_to_slide, group_shape, shape_indexe
 ### See Also
 * class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
-* class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * enumeration [`ShapesAlignmentType`](/slides/python-net/aspose.slides/shapesalignmenttype)
 * class [`SlideUtil`](/slides/python-net/aspose.slides.util/slideutil)
 * module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)
 * library [`Aspose.Slides`](/slides/python-net)
+

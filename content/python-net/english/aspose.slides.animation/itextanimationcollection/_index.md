@@ -13,19 +13,14 @@ Represents collection of text animations.
 
 The ITextAnimationCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides.animation/itextanimationcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/itextanimationcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
 | [index] |  |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

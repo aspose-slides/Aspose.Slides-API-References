@@ -24,7 +24,6 @@ def reorder(self, index, slide):
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to move. |
 
 
-
 ## reorder {#int-listislide}
 Moves slides from the collection to the specified position.
             Slides will be placed starting from index in order they appear in list.
@@ -48,3 +47,4 @@ def reorder(self, index, slides):
 * class [`ISlideCollection`](/slides/python-net/aspose.slides/islidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

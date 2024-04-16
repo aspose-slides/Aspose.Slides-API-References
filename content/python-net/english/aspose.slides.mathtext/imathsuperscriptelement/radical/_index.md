@@ -23,7 +23,6 @@ def radical(self, degree):
 | degree | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-
 ## radical {#str}
 
 
@@ -46,3 +45,4 @@ def radical(self, degree):
 * class [`IMathSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

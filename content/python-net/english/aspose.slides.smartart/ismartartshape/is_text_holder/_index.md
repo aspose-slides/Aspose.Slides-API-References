@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/ismartartshape/is_text_holder/
-weight: 310
+weight: 320
 ---
 
 
@@ -16,7 +16,9 @@ def is_text_holder(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISmartArtShape`](/slides/python-net/aspose.slides.smartart/ismartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

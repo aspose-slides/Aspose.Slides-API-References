@@ -19,7 +19,9 @@ def graphics_path(self):
     ...
 ```
 
+
 ### See Also
 * class [`ShapeElement`](/slides/python-net/aspose.slides/shapeelement)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

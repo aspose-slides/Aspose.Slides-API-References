@@ -45,3 +45,4 @@ def is_chart_type_bar(self, chart_type):
 * class [`ChartTypeCharacterizer`](/slides/python-net/aspose.slides.charts/charttypecharacterizer)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

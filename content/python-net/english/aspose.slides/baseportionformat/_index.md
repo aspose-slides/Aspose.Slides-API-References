@@ -19,7 +19,6 @@ The BasePortionFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/baseportionformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`line_format`](/slides/python-net/aspose.slides/baseportionformat/line_format/) | Returns the LineFormat properties for text outlining. No inheritance applied.<br/>            Read-only [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat). |
 | [`fill_format`](/slides/python-net/aspose.slides/baseportionformat/fill_format/) | Returns the text FillFormat properties. No inheritance applied.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
 | [`effect_format`](/slides/python-net/aspose.slides/baseportionformat/effect_format/) | Returns the text EffectFormat properties. No inheritance applied.<br/>            Read-only [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat). |
@@ -49,8 +48,10 @@ The BasePortionFormat type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides/baseportionformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/baseportionformat/presentation/) |  |
 
+
 ### See Also
 * class [`BasePortionFormat`](/slides/python-net/aspose.slides/baseportionformat)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

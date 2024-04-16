@@ -17,12 +17,15 @@ Returns effect threshold.
 @property
 def threshold(self):
     ...
+
 @threshold.setter
 def threshold(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAlphaBiLevel`](/slides/python-net/aspose.slides.effects/ialphabilevel)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

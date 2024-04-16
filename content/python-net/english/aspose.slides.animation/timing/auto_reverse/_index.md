@@ -18,12 +18,15 @@ Describes whether to automatically play the animation in reverse after
 @property
 def auto_reverse(self):
     ...
+
 @auto_reverse.setter
 def auto_reverse(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Timing`](/slides/python-net/aspose.slides.animation/timing)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

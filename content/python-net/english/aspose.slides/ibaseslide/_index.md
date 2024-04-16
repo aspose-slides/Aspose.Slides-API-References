@@ -27,10 +27,7 @@ The IBaseSlide type exposes the following members:
 | [`background`](/slides/python-net/aspose.slides/ibaseslide/background/) | Returns slide's background.<br/>            Read-only [`IBackground`](/slides/python-net/aspose.slides/ibackground). |
 | [`hyperlink_queries`](/slides/python-net/aspose.slides/ibaseslide/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
 | [`show_master_shapes`](/slides/python-net/aspose.slides/ibaseslide/show_master_shapes/) | Specifies if shapes on the master slide should be shown on slides or not.<br/>            For master slide itself this property always returns `false`.<br/>            Read/write **bool**. |
-| [`as_i_themeable`](/slides/python-net/aspose.slides/ibaseslide/as_i_themeable/) | Allows to get base IThemeable interface.<br/>            Read-only [`IThemeable`](/slides/python-net/aspose.slides.theme/ithemeable). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/ibaseslide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/ibaseslide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/ibaseslide/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/ibaseslide/presentation/) |  |
 
 ## Methods
@@ -42,6 +39,8 @@ The IBaseSlide type exposes the following members:
 | [`equals`](/slides/python-net/aspose.slides/ibaseslide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/ibaseslide/create_theme_effective/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

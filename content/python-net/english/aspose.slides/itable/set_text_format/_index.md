@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/itable/set_text_format/
-weight: 60
+weight: 70
 ---
 
 
@@ -23,7 +23,6 @@ def set_text_format(self, source):
 | source | [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat) |  |
 
 
-
 ## set_text_format {#iparagraphformat}
 
 
@@ -37,7 +36,6 @@ def set_text_format(self, source):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | source | [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat) |  |
-
 
 
 ## set_text_format {#itextframeformat}
@@ -63,3 +61,4 @@ def set_text_format(self, source):
 * class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

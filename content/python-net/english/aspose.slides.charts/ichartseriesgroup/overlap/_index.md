@@ -17,12 +17,15 @@ Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 10
 @property
 def overlap(self):
     ...
+
 @overlap.setter
 def overlap(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartSeriesGroup`](/slides/python-net/aspose.slides.charts/ichartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

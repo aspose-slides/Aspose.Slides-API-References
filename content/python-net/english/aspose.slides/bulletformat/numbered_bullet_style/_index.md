@@ -17,13 +17,16 @@ Returns or sets the style of a numbered bullet with no inheritance.
 @property
 def numbered_bullet_style(self):
     ...
+
 @numbered_bullet_style.setter
 def numbered_bullet_style(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`BulletFormat`](/slides/python-net/aspose.slides/bulletformat)
 * enumeration [`NumberedBulletStyle`](/slides/python-net/aspose.slides/numberedbulletstyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

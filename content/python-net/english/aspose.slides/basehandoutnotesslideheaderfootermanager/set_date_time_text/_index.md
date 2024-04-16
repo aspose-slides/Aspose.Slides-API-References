@@ -28,3 +28,4 @@ def set_date_time_text(self, text):
 * class [`BaseHandoutNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/basehandoutnotesslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

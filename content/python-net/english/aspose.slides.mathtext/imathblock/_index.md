@@ -18,10 +18,7 @@ The IMathBlock type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_math_element_collection`](/slides/python-net/aspose.slides.mathtext/imathblock/as_i_math_element_collection/) | Allows to get base IMathElementCollection interface<br/>            [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection) |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/imathblock/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 | [`count`](/slides/python-net/aspose.slides.mathtext/imathblock/count/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.mathtext/imathblock/as_i_enumerable/) |  |
 
 ## Indexer
 
@@ -92,6 +89,8 @@ The IMathBlock type exposes the following members:
 | [`underbar`](/slides/python-net/aspose.slides.mathtext/imathblock/underbar/#) |  |
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/imathblock/to_box/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

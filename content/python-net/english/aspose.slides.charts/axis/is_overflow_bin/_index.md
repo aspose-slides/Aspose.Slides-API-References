@@ -16,12 +16,15 @@ Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to
 @property
 def is_overflow_bin(self):
     ...
+
 @is_overflow_bin.setter
 def is_overflow_bin(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

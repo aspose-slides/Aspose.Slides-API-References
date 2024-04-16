@@ -22,8 +22,10 @@ The PptEditException type exposes the following members:
 | [`__init__`](/slides/python-net/aspose.slides/ppteditexception/__init__/#) | Default constructor. |
 | [`__init__`](/slides/python-net/aspose.slides/ppteditexception/__init__/#str) | Constructor allowing a message to be added to this exception. |
 
+
 ### See Also
 * class [`PptEditException`](/slides/python-net/aspose.slides/ppteditexception)
 * class [`PptException`](/slides/python-net/aspose.slides/pptexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

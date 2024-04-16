@@ -17,13 +17,16 @@ Returns or sets field's type.
 @property
 def type(self):
     ...
+
 @type.setter
 def type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IField`](/slides/python-net/aspose.slides/ifield)
 * class [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

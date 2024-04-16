@@ -41,7 +41,6 @@ When cloning a slide between different presentations slide's master can be clone
             **Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide** for cloning masters.
 
 
-
 ## add_clone {#islide-isection}
 Adds a copy of a specified slide to the end of the specified section.
 
@@ -66,9 +65,8 @@ def add_clone(self, source_slide, section):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** |  |
+| **RuntimeError(Proxy error(ArgumentNullException))** |  |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) |  |
-
 
 
 ## add_clone {#islide-ilayoutslide}
@@ -90,7 +88,6 @@ def add_clone(self, source_slide, dest_layout):
 | :- | :- | :- |
 | source_slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to clone. |
 | dest_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Layout slide for a new slide. |
-
 
 
 ## add_clone {#islide-imasterslide-bool}
@@ -137,3 +134,4 @@ def add_clone(self, source_slide, dest_master, allow_clone_missing_layout):
 * class [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

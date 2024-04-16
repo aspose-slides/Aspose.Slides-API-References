@@ -17,13 +17,16 @@ Reflection.
 @property
 def reflection_effect(self):
     ...
+
 @reflection_effect.setter
 def reflection_effect(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`EffectFormat`](/slides/python-net/aspose.slides/effectformat)
 * class [`IReflection`](/slides/python-net/aspose.slides.effects/ireflection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

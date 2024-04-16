@@ -24,7 +24,6 @@ def __init__(self, numerator, denominator):
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
 
 
-
 ## __init__ {#imathelement-imathelement-mathfractiontypes}
 Initializes MathFraction with the specified numerator, denominator and type
 
@@ -49,3 +48,4 @@ def __init__(self, numerator, denominator, fraction_type):
 * enumeration [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

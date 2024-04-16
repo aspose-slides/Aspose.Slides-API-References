@@ -34,6 +34,8 @@ The ProtectionManager type exposes the following members:
 | [`remove_write_protection`](/slides/python-net/aspose.slides/protectionmanager/remove_write_protection/#) | Removes write protection for this presentation. |
 | [`check_write_protection`](/slides/python-net/aspose.slides/protectionmanager/check_write_protection/#str) | Determines whether a presentation is a password protected to modify. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

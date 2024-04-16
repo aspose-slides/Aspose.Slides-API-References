@@ -17,12 +17,15 @@ Specifies the portion properties that are to be used if another portion is inser
 @property
 def end_paragraph_portion_format(self):
     ...
+
 @end_paragraph_portion_format.setter
 def end_paragraph_portion_format(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

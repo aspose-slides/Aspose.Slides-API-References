@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ivideoframe/hide_at_showing/
-weight: 290
+weight: 300
 ---
 
 
@@ -17,12 +17,15 @@ Determines whether a VideoFrame is hidden.
 @property
 def hide_at_showing(self):
     ...
+
 @hide_at_showing.setter
 def hide_at_showing(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

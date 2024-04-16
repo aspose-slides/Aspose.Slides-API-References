@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/groupshape/line_format/
-weight: 270
+weight: 280
 ---
 
 
@@ -20,8 +20,10 @@ def line_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`GroupShape`](/slides/python-net/aspose.slides/groupshape)
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -28,7 +28,6 @@ def radical(self, degree):
 | degree | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Argument of Radical |
 
 
-
 ## radical {#str}
 Specifies the mathematical root of the given degree from the specified argument.
 
@@ -56,3 +55,4 @@ def radical(self, degree):
 * class [`MathAccent`](/slides/python-net/aspose.slides.mathtext/mathaccent)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

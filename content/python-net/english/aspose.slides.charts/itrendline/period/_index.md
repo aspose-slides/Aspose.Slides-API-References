@@ -18,12 +18,15 @@ Specifies the period of the trend line for a moving average trend line. It is ig
 @property
 def period(self):
     ...
+
 @period.setter
 def period(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

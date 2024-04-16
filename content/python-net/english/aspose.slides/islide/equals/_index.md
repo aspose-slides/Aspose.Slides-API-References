@@ -29,3 +29,4 @@ def equals(self, slide):
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Returns or sets the name of a slide.
 @property
 def name(self):
     ...
+
 @name.setter
 def name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

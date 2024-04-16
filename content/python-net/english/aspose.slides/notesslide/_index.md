@@ -34,11 +34,7 @@ The NotesSlide type exposes the following members:
 | [`notes_text_frame`](/slides/python-net/aspose.slides/notesslide/notes_text_frame/) | Returns a TextFrame with notes' text if there is one.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
 | [`theme_manager`](/slides/python-net/aspose.slides/notesslide/theme_manager/) | Returns the overriding theme manager.<br/>            Read-only [`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager). |
 | [`parent_slide`](/slides/python-net/aspose.slides/notesslide/parent_slide/) | Returns the parent slide.<br/>            Read-only [`ISlide`](/slides/python-net/aspose.slides/islide). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/notesslide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/notesslide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/notesslide/as_i_presentation_component/) |  |
-| [`as_i_base_slide`](/slides/python-net/aspose.slides/notesslide/as_i_base_slide/) |  |
-| [`as_i_override_themeable`](/slides/python-net/aspose.slides/notesslide/as_i_override_themeable/) |  |
 
 ## Methods
 
@@ -50,8 +46,10 @@ The NotesSlide type exposes the following members:
 | [`create_theme_effective`](/slides/python-net/aspose.slides/notesslide/create_theme_effective/#) | Returns an effective theme for this slide. |
 | [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/notesslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 
+
 ### See Also
 * class [`BaseSlide`](/slides/python-net/aspose.slides/baseslide)
 * class [`NotesSlide`](/slides/python-net/aspose.slides/notesslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

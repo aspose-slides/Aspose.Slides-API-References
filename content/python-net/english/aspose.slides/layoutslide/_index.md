@@ -35,11 +35,7 @@ The LayoutSlide type exposes the following members:
 | [`theme_manager`](/slides/python-net/aspose.slides/layoutslide/theme_manager/) | Returns the overriding theme manager.<br/>            Read-only [`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager). |
 | [`layout_type`](/slides/python-net/aspose.slides/layoutslide/layout_type/) | Returns layout type of this layout slide.<br/>            Read-only [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype). |
 | [`has_depending_slides`](/slides/python-net/aspose.slides/layoutslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this layout slide.<br/>            Read-only **bool**. |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/layoutslide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/layoutslide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/layoutslide/as_i_presentation_component/) |  |
-| [`as_i_base_slide`](/slides/python-net/aspose.slides/layoutslide/as_i_base_slide/) |  |
-| [`as_i_override_themeable`](/slides/python-net/aspose.slides/layoutslide/as_i_override_themeable/) |  |
 
 ## Methods
 
@@ -53,8 +49,10 @@ The LayoutSlide type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/layoutslide/remove/#) | Removes layout from presentation. |
 | [`get_depending_slides`](/slides/python-net/aspose.slides/layoutslide/get_depending_slides/#) | Returns an array with all slides, which depend on this layout slide. |
 
+
 ### See Also
 * class [`BaseSlide`](/slides/python-net/aspose.slides/baseslide)
 * class [`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

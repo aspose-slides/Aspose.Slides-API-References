@@ -18,12 +18,15 @@ Determines whether the bounds of the object should be grown as a result of the b
 @property
 def grow(self):
     ...
+
 @grow.setter
 def grow(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Blur`](/slides/python-net/aspose.slides.effects/blur)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

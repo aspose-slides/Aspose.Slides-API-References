@@ -18,12 +18,15 @@ Specifies whether the vertical splitter should snap to a minimized state when th
 @property
 def snap_vertical_splitter(self):
     ...
+
 @snap_vertical_splitter.setter
 def snap_vertical_splitter(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`INormalViewProperties`](/slides/python-net/aspose.slides/inormalviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

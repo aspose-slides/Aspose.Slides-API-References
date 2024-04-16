@@ -19,12 +19,15 @@ Returns or sets right edge of the fill rectangle that is defined by a percentage
 @property
 def stretch_offset_right(self):
     ...
+
 @stretch_offset_right.setter
 def stretch_offset_right(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PictureFillFormat`](/slides/python-net/aspose.slides/picturefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

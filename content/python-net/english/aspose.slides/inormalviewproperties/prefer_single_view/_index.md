@@ -19,12 +19,15 @@ Specifies whether the user prefers to see a full-window single-content region ov
 @property
 def prefer_single_view(self):
     ...
+
 @prefer_single_view.setter
 def prefer_single_view(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`INormalViewProperties`](/slides/python-net/aspose.slides/inormalviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

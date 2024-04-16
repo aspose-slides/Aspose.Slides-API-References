@@ -19,7 +19,9 @@ def name(self):
     ...
 ```
 
+
 ### See Also
 * class [`IFontSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

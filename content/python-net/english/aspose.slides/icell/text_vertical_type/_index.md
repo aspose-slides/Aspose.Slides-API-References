@@ -17,13 +17,16 @@ Returns or sets the type of vertical text.
 @property
 def text_vertical_type(self):
     ...
+
 @text_vertical_type.setter
 def text_vertical_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ICell`](/slides/python-net/aspose.slides/icell)
 * enumeration [`TextVerticalType`](/slides/python-net/aspose.slides/textverticaltype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

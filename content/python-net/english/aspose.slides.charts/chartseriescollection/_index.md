@@ -13,13 +13,6 @@ Represents collection of  [`ChartSeries`](/slides/python-net/aspose.slides.chart
 
 The ChartSeriesCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides.charts/chartseriescollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.charts/chartseriescollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
@@ -40,7 +33,9 @@ The ChartSeriesCollection type exposes the following members:
 | [`remove_at`](/slides/python-net/aspose.slides.charts/chartseriescollection/remove_at/#int) | Removes an ActiveX control stored at specified position from the collection. |
 | [`clear`](/slides/python-net/aspose.slides.charts/chartseriescollection/clear/#) | Removes all controls from the collection. |
 
+
 ### See Also
 * class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Returns or sets the template of a application.
 @property
 def application_template(self):
     ...
+
 @application_template.setter
 def application_template(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

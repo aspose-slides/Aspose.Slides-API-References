@@ -17,12 +17,15 @@ Indicates whether the major unit of the axis is automatically assigned.
 @property
 def is_automatic_major_unit(self):
     ...
+
 @is_automatic_major_unit.setter
 def is_automatic_major_unit(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

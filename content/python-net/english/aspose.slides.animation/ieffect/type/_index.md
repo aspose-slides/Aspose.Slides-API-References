@@ -17,13 +17,16 @@ Defines type of effect.
 @property
 def type(self):
     ...
+
 @type.setter
 def type(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype)
 * class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

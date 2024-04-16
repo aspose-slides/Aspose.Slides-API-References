@@ -29,7 +29,6 @@ def add(self, path, image):
 | image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | Image to output. |
 
 
-
 ## add {#str-asposepydrawingimage}
 Adds an output element for the image.
 
@@ -50,6 +49,26 @@ def add(self, path, image):
 | path | **str** | Output path. |
 | image | **aspose.pydrawing.Image** | Image to output. |
 
+
+## add {#str-iimage}
+Adds an output element for the image.
+
+### Returns
+
+[`IOutputFile`](/slides/python-net/aspose.slides.export.web/ioutputfile) object for the image.
+
+
+
+```python
+def add(self, path, image):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | **str** | Output path. |
+| image | [`IImage`](/slides/python-net/aspose.slides/iimage) | Image to output. |
 
 
 ## add {#str-ivideo}
@@ -73,7 +92,6 @@ def add(self, path, video):
 | video | [`IVideo`](/slides/python-net/aspose.slides/ivideo) | Video to output. |
 
 
-
 ## add {#str-str}
 Adds an output element for the text content.
 
@@ -93,7 +111,6 @@ def add(self, path, text_content):
 | :- | :- | :- |
 | path | **str** | Output path. |
 | text_content | **str** | Content to output. |
-
 
 
 ## add {#str-ifontdata-asposepydrawingfontstyle}
@@ -121,9 +138,11 @@ def add(self, path, font_data, font_style):
 
 ### See Also
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
+* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`IOutputFile`](/slides/python-net/aspose.slides.export.web/ioutputfile)
 * class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * class [`IVideo`](/slides/python-net/aspose.slides/ivideo)
 * class [`Output`](/slides/python-net/aspose.slides.export.web/output)
 * module [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web)
 * library [`Aspose.Slides`](/slides/python-net)
+

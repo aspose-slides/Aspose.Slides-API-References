@@ -18,12 +18,15 @@ The type of horizontal spacing between columns of a matrix;
 @property
 def column_gap_rule(self):
     ...
+
 @column_gap_rule.setter
 def column_gap_rule(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathMatrix`](/slides/python-net/aspose.slides.mathtext/imathmatrix)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

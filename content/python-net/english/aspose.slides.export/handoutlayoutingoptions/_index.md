@@ -28,6 +28,8 @@ The HandoutLayoutingOptions type exposes the following members:
 | [`print_frame_slide`](/slides/python-net/aspose.slides.export/handoutlayoutingoptions/print_frame_slide/) | Specifies whether to draw frames around the displayed slides or not. |
 | [`print_comments`](/slides/python-net/aspose.slides.export/handoutlayoutingoptions/print_comments/) | Specifies whether or not to display comments on slides |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

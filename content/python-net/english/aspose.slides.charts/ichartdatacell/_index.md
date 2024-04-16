@@ -33,6 +33,8 @@ The IChartDataCell type exposes the following members:
 | :- | :- |
 | [`calculate`](/slides/python-net/aspose.slides.charts/ichartdatacell/calculate/#bool) | If the cell contains a formula, the value will be updated base on that formula. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

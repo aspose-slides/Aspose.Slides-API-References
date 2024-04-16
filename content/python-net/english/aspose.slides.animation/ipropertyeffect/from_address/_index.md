@@ -17,12 +17,15 @@ Specifies the starting value of the animation.
 @property
 def from_address(self):
     ...
+
 @from_address.setter
 def from_address(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPropertyEffect`](/slides/python-net/aspose.slides.animation/ipropertyeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

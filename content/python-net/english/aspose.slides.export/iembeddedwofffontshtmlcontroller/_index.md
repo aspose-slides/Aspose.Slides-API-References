@@ -13,12 +13,6 @@ Embedded woff fonts html controller.
 
 The IEmbeddedWoffFontsHtmlController type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_html_formatting_controller`](/slides/python-net/aspose.slides.export/iembeddedwofffontshtmlcontroller/as_i_html_formatting_controller/) | Returns IHtmlFormattingController interface. |
-
 ## Methods
 
 | Method | Description |
@@ -30,6 +24,8 @@ The IEmbeddedWoffFontsHtmlController type exposes the following members:
 | [`write_shape_start`](/slides/python-net/aspose.slides.export/iembeddedwofffontshtmlcontroller/write_shape_start/#ihtmlgenerator-ishape) |  |
 | [`write_shape_end`](/slides/python-net/aspose.slides.export/iembeddedwofffontshtmlcontroller/write_shape_end/#ihtmlgenerator-ishape) |  |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

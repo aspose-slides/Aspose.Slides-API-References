@@ -24,6 +24,8 @@ The PicturesCompression type exposes the following members:
 | DPI72 | Default compression level |
 | DOCUMENT_RESOLUTION | Use document resolution - the picture will not be compressed and used in document as-is |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

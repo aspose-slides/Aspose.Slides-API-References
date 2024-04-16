@@ -28,8 +28,8 @@ def set_range(self, formula):
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | formula is null. |
-| **System.ArgumentException** | formula has incorrect format. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | formula is null. |
+| **RuntimeError(Proxy error(ArgumentException))** | formula has incorrect format. |
 
 
 
@@ -37,3 +37,4 @@ def set_range(self, formula):
 * class [`IChartData`](/slides/python-net/aspose.slides.charts/ichartdata)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

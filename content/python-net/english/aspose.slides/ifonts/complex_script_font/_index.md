@@ -17,13 +17,16 @@ Returns or sets the complex script font.
 @property
 def complex_script_font(self):
     ...
+
 @complex_script_font.setter
 def complex_script_font(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * class [`IFonts`](/slides/python-net/aspose.slides/ifonts)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

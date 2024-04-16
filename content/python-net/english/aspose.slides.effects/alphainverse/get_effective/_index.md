@@ -30,3 +30,4 @@ def get_effective(self):
 * class [`IAlphaInverseEffectiveData`](/slides/python-net/aspose.slides.effects/ialphainverseeffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

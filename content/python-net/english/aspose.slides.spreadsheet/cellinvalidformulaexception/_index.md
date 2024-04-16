@@ -29,6 +29,7 @@ The CellInvalidFormulaException type exposes the following members:
 | :- | :- |
 | [`reference`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/reference/) | Gets a cell reference that contains the invalid formula. |
 
+
 ### See Also
 * class [`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception)
 * class [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
@@ -36,3 +37,4 @@ The CellInvalidFormulaException type exposes the following members:
 * class [`PptxException`](/slides/python-net/aspose.slides/pptxexception)
 * module [`aspose.slides.spreadsheet`](/slides/python-net/aspose.slides.spreadsheet)
 * library [`Aspose.Slides`](/slides/python-net)
+

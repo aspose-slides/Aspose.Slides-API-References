@@ -22,6 +22,8 @@ The ISlideText type exposes the following members:
 | [`layout_text`](/slides/python-net/aspose.slides/islidetext/layout_text/) | The text on the layout page's shapes for this slide |
 | [`notes_text`](/slides/python-net/aspose.slides/islidetext/notes_text/) | The text on the notes page's shapes for this slide |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

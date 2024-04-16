@@ -14,12 +14,15 @@ weight: 280
 @property
 def hide_superscript(self):
     ...
+
 @hide_superscript.setter
 def hide_superscript(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathNaryOperator`](/slides/python-net/aspose.slides.mathtext/imathnaryoperator)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

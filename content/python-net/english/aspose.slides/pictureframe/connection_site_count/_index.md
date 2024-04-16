@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/pictureframe/connection_site_count/
-weight: 190
+weight: 200
 ---
 
 
@@ -19,7 +19,9 @@ def connection_site_count(self):
     ...
 ```
 
+
 ### See Also
 * class [`PictureFrame`](/slides/python-net/aspose.slides/pictureframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

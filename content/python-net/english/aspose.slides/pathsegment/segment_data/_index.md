@@ -18,7 +18,9 @@ def segment_data(self):
     ...
 ```
 
+
 ### See Also
 * class [`PathSegment`](/slides/python-net/aspose.slides/pathsegment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

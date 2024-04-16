@@ -19,7 +19,9 @@ def column(self):
     ...
 ```
 
+
 ### See Also
 * class [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

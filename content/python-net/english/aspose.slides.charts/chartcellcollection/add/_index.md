@@ -23,7 +23,6 @@ def add(self, cell):
 | cell | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | New cell to add. |
 
 
-
 ## add {#any}
 Creates [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell) from specified value and adds it to the collection.
 
@@ -47,7 +46,7 @@ This method adds worksheet with name AUTO_DATA and adds all values there.  If yo
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | if limit exceeded |
+| **RuntimeError(Proxy error(InvalidOperationException))** | if limit exceeded |
 
 
 
@@ -58,3 +57,4 @@ This method adds worksheet with name AUTO_DATA and adds all values there.  If yo
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

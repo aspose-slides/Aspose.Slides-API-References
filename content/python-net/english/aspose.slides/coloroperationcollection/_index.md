@@ -13,13 +13,6 @@ Represents a collection of color transform operations.
 
 The ColorOperationCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/coloroperationcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/coloroperationcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
@@ -39,6 +32,8 @@ The ColorOperationCollection type exposes the following members:
 | [`clone`](/slides/python-net/aspose.slides/coloroperationcollection/clone/#) | Creates a copy of a ColorOperationCollection collection. |
 | [`clone_t`](/slides/python-net/aspose.slides/coloroperationcollection/clone_t/#) | Clones current object |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

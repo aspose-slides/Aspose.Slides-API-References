@@ -44,8 +44,6 @@ The IPresentation type exposes the following members:
 | [`first_slide_number`](/slides/python-net/aspose.slides/ipresentation/first_slide_number/) | Represents the first slide number in the presentation.<br/>            Read/write **int**. |
 | [`all_custom_xml_parts`](/slides/python-net/aspose.slides/ipresentation/all_custom_xml_parts/) | Returns all custom data parts in the presentaion.<br/>            Read-only [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart)[]. |
 | [`digital_signatures`](/slides/python-net/aspose.slides/ipresentation/digital_signatures/) | Returns the collection of signatures used to sign the presentation.<br/>            Read-only [`IDigitalSignatureCollection`](/slides/python-net/aspose.slides/idigitalsignaturecollection). |
-| [`as_i_disposable`](/slides/python-net/aspose.slides/ipresentation/as_i_disposable/) | Returns IDisposable interface.<br/>            Read-only **System.IDisposable**. |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/ipresentation/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`presentation`](/slides/python-net/aspose.slides/ipresentation/presentation/) |  |
 
 ## Methods
@@ -61,18 +59,18 @@ The IPresentation type exposes the following members:
 | [`save`](/slides/python-net/aspose.slides/ipresentation/save/#iorawiobase-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a stream in the specified format. |
 | [`save`](/slides/python-net/aspose.slides/ipresentation/save/#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a stream in the specified format. |
 | [`save`](/slides/python-net/aspose.slides/ipresentation/save/#asposeslidesexportxamlixamloptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
-| [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
-| [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-listint) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
-| [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-float-float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
-| [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-listint-float-float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
-| [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
-| [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportinotescommentslayoutingoptions-listint-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
-| [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportirenderingoptions-listint) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
+| [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportirenderingoptions-listint) | Returns a Thumbnail Image objects for specified slides of a presentation. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportirenderingoptions-listint-float-float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
 | [`get_thumbnails`](/slides/python-net/aspose.slides/ipresentation/get_thumbnails/#asposeslidesexportirenderingoptions-listint-asposepydrawingsize) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
+| [`get_images`](/slides/python-net/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Image objects for all slides of a presentation. |
+| [`get_images`](/slides/python-net/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-listint) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
+| [`get_images`](/slides/python-net/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
+| [`get_images`](/slides/python-net/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-listint-float-float) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
+| [`get_images`](/slides/python-net/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
+| [`get_images`](/slides/python-net/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-listint-asposepydrawingsize) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
 | [`print`](/slides/python-net/aspose.slides/ipresentation/print/#) | Prints the whole presentation to the default printer. |
 | [`print`](/slides/python-net/aspose.slides/ipresentation/print/#asposepydrawingprintingprintersettings) | Prints the presentation according to the specified printer settings,<br/>            using the standard (no User Interface) print controller. |
 | [`print`](/slides/python-net/aspose.slides/ipresentation/print/#str) | Print the whole presentation to the specified printer,<br/>            using the standard (no User Interface) print controller. |
@@ -80,6 +78,8 @@ The IPresentation type exposes the following members:
 | [`get_slide_by_id`](/slides/python-net/aspose.slides/ipresentation/get_slide_by_id/#int) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/ipresentation/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

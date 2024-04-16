@@ -19,8 +19,10 @@ def stroke_source(self):
     ...
 ```
 
+
 ### See Also
 * class [`ShapeElement`](/slides/python-net/aspose.slides/shapeelement)
 * enumeration [`ShapeElementStrokeSource`](/slides/python-net/aspose.slides/shapeelementstrokesource)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

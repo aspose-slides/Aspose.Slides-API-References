@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/summaryzoomframe/z_order_position/
-weight: 450
+weight: 460
 ---
 
 
@@ -21,7 +21,9 @@ def z_order_position(self):
     ...
 ```
 
+
 ### See Also
 * class [`SummaryZoomFrame`](/slides/python-net/aspose.slides/summaryzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

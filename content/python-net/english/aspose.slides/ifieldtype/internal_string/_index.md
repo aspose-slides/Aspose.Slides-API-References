@@ -17,12 +17,15 @@ Returns the internal name of this FieldTypeEx object.
 @property
 def internal_string(self):
     ...
+
 @internal_string.setter
 def internal_string(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

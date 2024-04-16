@@ -28,3 +28,4 @@ def set_footer_visibility(self, is_visible):
 * class [`BaseHandoutNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/basehandoutnotesslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

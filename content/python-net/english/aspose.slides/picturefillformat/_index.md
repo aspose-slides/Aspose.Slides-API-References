@@ -19,7 +19,6 @@ The PictureFillFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/picturefillformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`dpi`](/slides/python-net/aspose.slides/picturefillformat/dpi/) | Returns or sets the dpi which is used to fill a picture.<br/>            Read/write **int**. |
 | [`picture_fill_mode`](/slides/python-net/aspose.slides/picturefillformat/picture_fill_mode/) | Returns or sets the picture fill mode.<br/>            Read/write [`PictureFillMode`](/slides/python-net/aspose.slides/picturefillmode). |
 | [`picture`](/slides/python-net/aspose.slides/picturefillformat/picture/) | Returns the picture.<br/>            Read-only [`ISlidesPicture`](/slides/python-net/aspose.slides/islidespicture). |
@@ -33,7 +32,6 @@ The PictureFillFormat type exposes the following members:
 | [`stretch_offset_bottom`](/slides/python-net/aspose.slides/picturefillformat/stretch_offset_bottom/) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset <br/>            from the bottom edge of the shape's bounding box. <br/>            A positive percentage specifies an inset, while a negative percentage specifies an outset.<br/>            Read/write **float**. |
 | [`slide`](/slides/python-net/aspose.slides/picturefillformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/picturefillformat/presentation/) |  |
-| [`as_i_fill_param_source`](/slides/python-net/aspose.slides/picturefillformat/as_i_fill_param_source/) |  |
 
 ## Methods
 
@@ -41,8 +39,10 @@ The PictureFillFormat type exposes the following members:
 | :- | :- |
 | [`delete_picture_cropped_areas`](/slides/python-net/aspose.slides/picturefillformat/delete_picture_cropped_areas/#) | Delete cropped areas of the fill Picture. |
 
+
 ### See Also
 * class [`PictureFillFormat`](/slides/python-net/aspose.slides/picturefillformat)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

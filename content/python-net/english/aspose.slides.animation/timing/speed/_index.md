@@ -17,12 +17,15 @@ Specifies the percentage by which to speed up (or slow down) the timing.
 @property
 def speed(self):
     ...
+
 @speed.setter
 def speed(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Timing`](/slides/python-net/aspose.slides.animation/timing)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

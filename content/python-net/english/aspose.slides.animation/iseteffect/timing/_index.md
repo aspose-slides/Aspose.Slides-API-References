@@ -14,12 +14,15 @@ weight: 50
 @property
 def timing(self):
     ...
+
 @timing.setter
 def timing(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISetEffect`](/slides/python-net/aspose.slides.animation/iseteffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -14,12 +14,15 @@ weight: 270
 @property
 def image_type(self):
     ...
+
 @image_type.setter
 def image_type(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

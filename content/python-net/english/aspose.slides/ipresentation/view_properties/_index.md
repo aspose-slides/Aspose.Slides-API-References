@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentation/view_properties/
-weight: 350
+weight: 360
 ---
 
 
@@ -19,8 +19,10 @@ def view_properties(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * class [`IViewProperties`](/slides/python-net/aspose.slides/iviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

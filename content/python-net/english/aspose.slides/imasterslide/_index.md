@@ -24,8 +24,6 @@ The IMasterSlide type exposes the following members:
 | [`layout_slides`](/slides/python-net/aspose.slides/imasterslide/layout_slides/) | Returns the collection of child layout slides for this master slide.<br/>            Read-only [`IMasterLayoutSlideCollection`](/slides/python-net/aspose.slides/imasterlayoutslidecollection). |
 | [`preserve`](/slides/python-net/aspose.slides/imasterslide/preserve/) | Determines whether the corresponding master is deleted when all <br/>            the slides that follow that master are deleted.<br/>            Note: Aspose.Slides will never remove any unused master by itself, <br/>            to actually remove unused masters call **Aspose.Slides.IMasterSlideCollection.RemoveUnused(Syste**<br/>            Read/write **bool**. |
 | [`has_depending_slides`](/slides/python-net/aspose.slides/imasterslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this master slide.<br/>            Read-only **bool**. |
-| [`as_i_base_slide`](/slides/python-net/aspose.slides/imasterslide/as_i_base_slide/) | Allows to get base IBaseSlide interface.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
-| [`as_i_master_themeable`](/slides/python-net/aspose.slides/imasterslide/as_i_master_themeable/) | Returns IMasterThemeable interface.<br/>            Read-only [`IMasterThemeable`](/slides/python-net/aspose.slides.theme/imasterthemeable). |
 | [`shapes`](/slides/python-net/aspose.slides/imasterslide/shapes/) |  |
 | [`controls`](/slides/python-net/aspose.slides/imasterslide/controls/) |  |
 | [`name`](/slides/python-net/aspose.slides/imasterslide/name/) |  |
@@ -36,9 +34,7 @@ The IMasterSlide type exposes the following members:
 | [`background`](/slides/python-net/aspose.slides/imasterslide/background/) |  |
 | [`hyperlink_queries`](/slides/python-net/aspose.slides/imasterslide/hyperlink_queries/) |  |
 | [`show_master_shapes`](/slides/python-net/aspose.slides/imasterslide/show_master_shapes/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/imasterslide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/imasterslide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/imasterslide/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/imasterslide/presentation/) |  |
 | [`theme_manager`](/slides/python-net/aspose.slides/imasterslide/theme_manager/) |  |
 
@@ -53,6 +49,8 @@ The IMasterSlide type exposes the following members:
 | [`equals`](/slides/python-net/aspose.slides/imasterslide/equals/#ibaseslide) |  |
 | [`create_theme_effective`](/slides/python-net/aspose.slides/imasterslide/create_theme_effective/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

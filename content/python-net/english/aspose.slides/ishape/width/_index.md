@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ishape/width/
-weight: 370
+weight: 380
 ---
 
 
@@ -23,12 +23,15 @@ Returned value is always defined (is not float.NaN).
 @property
 def width(self):
     ...
+
 @width.setter
 def width(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

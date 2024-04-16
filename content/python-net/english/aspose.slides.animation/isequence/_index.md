@@ -19,7 +19,6 @@ The ISequence type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/isequence/count/) | Returns the number of effects in a sequense.<br/>            Read-only **int**. |
 | [`trigger_shape`](/slides/python-net/aspose.slides.animation/isequence/trigger_shape/) | Returns or sets shape target for INTERACTIVE sequence.<br/>            If sequence is not interactive then returns null.<br/>            Read/write [`IShape`](/slides/python-net/aspose.slides/ishape). |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/isequence/as_i_enumerable/) | Allows to get base IEnumerable interface.<br/>            Read-only **collections.abc.Iterable**. |
 
 ## Indexer
 
@@ -43,6 +42,8 @@ The ISequence type exposes the following members:
 | [`get_effects_by_paragraph`](/slides/python-net/aspose.slides.animation/isequence/get_effects_by_paragraph/#iparagraph) | Returns array of effects for the specified paragraph. |
 | [`get_count`](/slides/python-net/aspose.slides.animation/isequence/get_count/#ishape) | Returns count of effects for the specified shape. |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -71,7 +71,9 @@ The DocumentProperties type exposes the following members:
 | [`clone`](/slides/python-net/aspose.slides/documentproperties/clone/#) | Clones current object |
 | [`clone_t`](/slides/python-net/aspose.slides/documentproperties/clone_t/#) | Clones current object |
 
+
 ### See Also
 * class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

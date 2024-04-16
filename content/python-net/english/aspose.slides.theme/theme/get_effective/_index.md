@@ -30,3 +30,4 @@ def get_effective(self):
 * class [`Theme`](/slides/python-net/aspose.slides.theme/theme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

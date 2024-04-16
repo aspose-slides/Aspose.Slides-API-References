@@ -18,12 +18,15 @@ Represents the object class GUID (CLSID) that is stored in the root directory en
 @property
 def root_directory_clsid(self):
     ...
+
 @root_directory_clsid.setter
 def root_directory_clsid(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPptOptions`](/slides/python-net/aspose.slides.export/ipptoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -29,7 +29,6 @@ def add_data_point_for_pie_series(self, value):
 | value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point Value |
 
 
-
 ## add_data_point_for_pie_series {#float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer.IsChartTypePie(ChartType) method).
@@ -58,3 +57,4 @@ def add_data_point_for_pie_series(self, value):
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

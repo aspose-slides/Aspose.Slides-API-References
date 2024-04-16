@@ -17,13 +17,16 @@ Determines whether a gradient is scaled.
 @property
 def linear_gradient_scaled(self):
     ...
+
 @linear_gradient_scaled.setter
 def linear_gradient_scaled(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`GradientFormat`](/slides/python-net/aspose.slides/gradientformat)
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

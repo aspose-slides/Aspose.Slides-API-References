@@ -35,3 +35,4 @@ def add_empty_section(self, name, index):
 * class [`SectionCollection`](/slides/python-net/aspose.slides/sectioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,12 +19,15 @@ Returns or sets number of columns in the text area.
 @property
 def column_count(self):
     ...
+
 @column_count.setter
 def column_count(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

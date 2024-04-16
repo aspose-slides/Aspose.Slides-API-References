@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/ismartart/graphical_object_lock/
-weight: 210
+weight: 220
 ---
 
 
@@ -16,7 +16,9 @@ def graphical_object_lock(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

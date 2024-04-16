@@ -28,7 +28,6 @@ def add_audio(self, audio):
 | audio | [`IAudio`](/slides/python-net/aspose.slides/iaudio) | Source audio. |
 
 
-
 ## add_audio {#iorawiobase}
 Creates and adds a audio to a presentation from stream.
 
@@ -49,7 +48,6 @@ def add_audio(self, stream):
 | stream | **io.RawIOBase** | Stream to add audio from. |
 
 
-
 ## add_audio {#bytes}
 Creates and adds a audio to a presentation from byte array.
 
@@ -68,7 +66,6 @@ def add_audio(self, audio_data):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | audio_data | **bytes** | Audio bytes. |
-
 
 
 ## add_audio {#iorawiobase-loadingstreambehavior}
@@ -99,3 +96,4 @@ def add_audio(self, stream, loading_stream_behavior):
 * enumeration [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

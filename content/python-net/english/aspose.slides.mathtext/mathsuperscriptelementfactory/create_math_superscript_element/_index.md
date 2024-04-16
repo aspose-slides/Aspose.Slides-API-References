@@ -36,3 +36,4 @@ def create_math_superscript_element(self, base_arg, super_script):
 * class [`MathSuperscriptElementFactory`](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelementfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

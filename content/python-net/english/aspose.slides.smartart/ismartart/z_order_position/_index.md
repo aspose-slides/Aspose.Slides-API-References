@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/ismartart/z_order_position/
-weight: 490
+weight: 500
 ---
 
 
@@ -16,7 +16,9 @@ def z_order_position(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

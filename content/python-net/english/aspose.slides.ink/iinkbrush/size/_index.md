@@ -16,12 +16,15 @@ Gets or sets the brush size for a line in points.
 @property
 def size(self):
     ...
+
 @size.setter
 def size(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IInkBrush`](/slides/python-net/aspose.slides.ink/iinkbrush)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -42,3 +42,4 @@ def insert_picture_frame(self, index, shape_type, x, y, width, height, image):
 * enumeration [`ShapeType`](/slides/python-net/aspose.slides/shapetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Returns or sets the company property.
 @property
 def company(self):
     ...
+
 @company.setter
 def company(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

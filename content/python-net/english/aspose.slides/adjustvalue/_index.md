@@ -22,6 +22,8 @@ The AdjustValue type exposes the following members:
 | [`angle_value`](/slides/python-net/aspose.slides/adjustvalue/angle_value/) | Returns or sets value, interpreting it as angle in degrees.<br/>            Read/write **float**. |
 | [`name`](/slides/python-net/aspose.slides/adjustvalue/name/) | Returns a name of this adjustment value.<br/>            Read-only **str**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

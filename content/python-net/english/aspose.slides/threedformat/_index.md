@@ -19,7 +19,6 @@ The ThreeDFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/threedformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`contour_width`](/slides/python-net/aspose.slides/threedformat/contour_width/) | Returns or sets the width of a 3D contour.<br/>            Read/write **float**. |
 | [`extrusion_height`](/slides/python-net/aspose.slides/threedformat/extrusion_height/) | Returns or sets the height of an extrusion effect.<br/>            Read/write **float**. |
 | [`depth`](/slides/python-net/aspose.slides/threedformat/depth/) | Returns or sets the depth of a 3D shape.<br/>            Read/write **float**. |
@@ -32,7 +31,6 @@ The ThreeDFormat type exposes the following members:
 | [`material`](/slides/python-net/aspose.slides/threedformat/material/) | Returns or sets the type of a material.<br/>            Read/write [`MaterialPresetType`](/slides/python-net/aspose.slides/materialpresettype). |
 | [`slide`](/slides/python-net/aspose.slides/threedformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/threedformat/presentation/) |  |
-| [`as_i_three_d_param_source`](/slides/python-net/aspose.slides/threedformat/as_i_three_d_param_source/) |  |
 
 ## Methods
 
@@ -40,8 +38,10 @@ The ThreeDFormat type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides/threedformat/get_effective/#) | Gets effective 3-D formatting data with the inheritance applied. |
 
+
 ### See Also
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * class [`ThreeDFormat`](/slides/python-net/aspose.slides/threedformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

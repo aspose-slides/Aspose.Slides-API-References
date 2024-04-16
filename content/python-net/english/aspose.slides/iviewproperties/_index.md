@@ -23,6 +23,8 @@ The IViewProperties type exposes the following members:
 | [`notes_view_properties`](/slides/python-net/aspose.slides/iviewproperties/notes_view_properties/) | Specifies common view properties associated with the notes view mode.<br/>            Read-only [`ICommonSlideViewProperties`](/slides/python-net/aspose.slides/icommonslideviewproperties). |
 | [`normal_view_properties`](/slides/python-net/aspose.slides/iviewproperties/normal_view_properties/) | Represents normal view properties. The normal view consists of<br/>            three content regions: the slide itself, a side content region, and a bottom content region.<br/>            Read-only [`INormalViewProperties`](/slides/python-net/aspose.slides/inormalviewproperties). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

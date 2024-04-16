@@ -16,12 +16,15 @@ Show/hide search section. Can be overridden in flashvars. Default is true.
 @property
 def show_search(self):
     ...
+
 @show_search.setter
 def show_search(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SwfOptions`](/slides/python-net/aspose.slides.export/swfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

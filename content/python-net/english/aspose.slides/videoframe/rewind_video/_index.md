@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/videoframe/rewind_video/
-weight: 500
+weight: 510
 ---
 
 
@@ -18,12 +18,15 @@ Determines whether a video is automatically rewinded to start
 @property
 def rewind_video(self):
     ...
+
 @rewind_video.setter
 def rewind_video(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`VideoFrame`](/slides/python-net/aspose.slides/videoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

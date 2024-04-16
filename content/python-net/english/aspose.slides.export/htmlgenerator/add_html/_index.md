@@ -23,7 +23,6 @@ def add_html(self, html):
 | html | **str** | Text to add. |
 
 
-
 ## add_html {#listchar}
 Adds formatted HTML text.
 
@@ -37,7 +36,6 @@ def add_html(self, html):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | html | **List[char]** | Text to add. |
-
 
 
 ## add_html {#listchar-int-int}
@@ -62,3 +60,4 @@ def add_html(self, html, start_index, length):
 * class [`HtmlGenerator`](/slides/python-net/aspose.slides.export/htmlgenerator)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

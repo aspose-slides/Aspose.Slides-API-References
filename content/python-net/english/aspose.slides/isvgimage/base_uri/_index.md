@@ -19,7 +19,9 @@ def base_uri(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

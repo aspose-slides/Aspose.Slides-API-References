@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichart/chart_title/
-weight: 240
+weight: 250
 ---
 
 
@@ -19,8 +19,10 @@ def chart_title(self):
     ...
 ```
 
+
 ### See Also
 * class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * class [`IChartTitle`](/slides/python-net/aspose.slides.charts/icharttitle)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

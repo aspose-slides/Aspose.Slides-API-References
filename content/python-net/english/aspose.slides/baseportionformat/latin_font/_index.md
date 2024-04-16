@@ -18,13 +18,16 @@ Returns or sets the Latin font info.
 @property
 def latin_font(self):
     ...
+
 @latin_font.setter
 def latin_font(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`BasePortionFormat`](/slides/python-net/aspose.slides/baseportionformat)
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

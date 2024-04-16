@@ -30,10 +30,11 @@ The SetEffect type exposes the following members:
 | [`properties`](/slides/python-net/aspose.slides.animation/seteffect/properties/) | Represents properties of behavior.<br/>            Read-only [`IBehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection). |
 | [`timing`](/slides/python-net/aspose.slides.animation/seteffect/timing/) | Represents timing properties for the effect behavior.<br/>            Read/write [`ITiming`](/slides/python-net/aspose.slides.animation/itiming). |
 | [`to`](/slides/python-net/aspose.slides.animation/seteffect/to/) | Specifies the certain attribute of a effect after an animation effect.<br/>            Represents point value.<br/>            Only: bool, ColorFormat, float, int, string.<br/>            Read/write **any**. |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/seteffect/as_i_behavior/) |  |
+
 
 ### See Also
 * class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
 * class [`SetEffect`](/slides/python-net/aspose.slides.animation/seteffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

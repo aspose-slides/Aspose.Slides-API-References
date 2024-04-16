@@ -17,12 +17,15 @@ Returns or sets the intended format of a presentation.
 @property
 def presentation_format(self):
     ...
+
 @presentation_format.setter
 def presentation_format(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

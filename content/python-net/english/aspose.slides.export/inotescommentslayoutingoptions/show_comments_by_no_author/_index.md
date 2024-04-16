@@ -23,12 +23,15 @@ Default value is **false** .
 @property
 def show_comments_by_no_author(self):
     ...
+
 @show_comments_by_no_author.setter
 def show_comments_by_no_author(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

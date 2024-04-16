@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/presentation/source_format/
-weight: 340
+weight: 350
 ---
 
 
@@ -19,8 +19,10 @@ def source_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * enumeration [`SourceFormat`](/slides/python-net/aspose.slides/sourceformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

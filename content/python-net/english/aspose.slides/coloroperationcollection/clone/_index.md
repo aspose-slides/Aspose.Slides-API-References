@@ -29,3 +29,4 @@ def clone(self):
 * class [`ColorOperationCollection`](/slides/python-net/aspose.slides/coloroperationcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

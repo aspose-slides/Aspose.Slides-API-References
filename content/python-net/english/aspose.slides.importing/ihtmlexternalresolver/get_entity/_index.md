@@ -28,3 +28,4 @@ def get_entity(self, absolute_uri):
 * class [`IHtmlExternalResolver`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver)
 * module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)
 * library [`Aspose.Slides`](/slides/python-net)
+

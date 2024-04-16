@@ -14,12 +14,15 @@ weight: 190
 @property
 def x(self):
     ...
+
 @x.setter
 def x(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartPlotArea`](/slides/python-net/aspose.slides.charts/ichartplotarea)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

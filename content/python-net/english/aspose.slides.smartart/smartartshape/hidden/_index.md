@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartshape/hidden/
-weight: 250
+weight: 260
 ---
 
 
@@ -17,12 +17,15 @@ Determines whether the shape is hidden.
 @property
 def hidden(self):
     ...
+
 @hidden.setter
 def hidden(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

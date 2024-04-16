@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/igeometryshape/hyperlink_manager/
-weight: 260
+weight: 270
 ---
 
 
@@ -16,7 +16,9 @@ def hyperlink_manager(self):
     ...
 ```
 
+
 ### See Also
 * class [`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+
