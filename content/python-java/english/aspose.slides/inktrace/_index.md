@@ -19,7 +19,7 @@ url: /aspose.slides/inktrace/
 | --- | --- |
 | getBrush() | Gets Brush for the IInkLine IInkBrush Read-only. |
 
- **Result:**
+ **Returns:**
 [InkBrush](../inkbrush)
 
 
@@ -32,7 +32,7 @@ url: /aspose.slides/inktrace/
 | --- | --- |
 | getPoints() | Gets points for the IInkLine java.awt.geom.Point2D.Float Read-only. |
 
- **Result:**
+ **Returns:**
 Point2D.Float
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/shapeutil/
 | --- | --- |
 | ShapeUtil() |  |
 
- **Result:**
+ **Returns:**
 ShapeUtil
 
 
@@ -36,7 +36,7 @@ ShapeUtil
 | --- | --- | --- |
 | geometryPath | [GeometryPath](../geometrypath) | IGeometryPath element. |
 
- **Result:**
+ **Returns:**
 Shape
 
 
@@ -55,7 +55,7 @@ Shape
 | --- | --- | --- |
 | graphicsPath | [Shape](../shape) | java.awt.Shape element. Return value of the method call can be used to change the geometry of a IGeometryShape object with IGeometryShape.setGeometryPaths() method. |
 
- **Result:**
+ **Returns:**
 [GeometryPath](../geometrypath)
 
 

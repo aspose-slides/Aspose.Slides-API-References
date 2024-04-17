@@ -18,7 +18,7 @@ url: /aspose.slides/normalviewrestoredproperties/
 | --- | --- |
 | getAutoAdjust() | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -31,7 +31,7 @@ boolean
 | --- | --- |
 | getDimensionSize() | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
  **Error**

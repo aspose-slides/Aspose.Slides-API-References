@@ -17,7 +17,7 @@ url: /aspose.slides/chartdata/
 | --- | --- |
 | getCategories() | Gets the primary categories (or both primary and secondary categories if #getUseSecondaryCategories/ #setUseSecondaryCategories(boolean) property is false). Read-only IChartCategoryCollection. If #getUseSecondaryCategories/ #setUseSecondaryCategories(boolean) property is false then ( #getSecondaryCategories) property return null and data in this #getCategories property is used both for primary and secondary series. If #getUseSecondaryCategories/ #setUseSecondaryCategories(boolean) property is true then data in ( #getSecondaryCategories) property is used for secondary series and data in this #getCategories property is used for primary series. |
 
- **Result:**
+ **Returns:**
 [ChartCategoryCollection](../chartcategorycollection)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/chartdata/
 | --- | --- |
 | getChartDataWorkbook() | Gets the cells factory to create cells used for chart series or categories. Read-only IChartDataWorkbook. |
 
- **Result:**
+ **Returns:**
 [ChartDataWorkbook](../chartdataworkbook)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/chartdata/
 | --- | --- |
 | getDataSourceType() | Represents external workbook path if external data source, null otherwise |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,18 +56,8 @@ int
 | --- | --- |
 | getExternalWorkbookPath() | Represents data source of the chart |
 
- **Result:**
+ **Returns:**
 String
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -79,7 +69,7 @@ String
 | --- | --- |
 | getRange() | Gets chart data range. |
 
- **Result:**
+ **Returns:**
 String
 
  **Error**
@@ -98,7 +88,7 @@ String
 | --- | --- |
 | getSecondaryCategories() | Gets the secondary categories if #getUseSecondaryCategories/ #setUseSecondaryCategories(boolean) property is true. Read-only IChartCategoryCollection. If #getUseSecondaryCategories/ #setUseSecondaryCategories(boolean) property is false then this ( #getSecondaryCategories) property return null and data in #getCategories property is used both for primary and secondary series. If #getUseSecondaryCategories/ #setUseSecondaryCategories(boolean) property is true then data in this #getSecondaryCategories property is used for secondary series and data in #getCategories property is used for primary series. |
 
- **Result:**
+ **Returns:**
 [ChartCategoryCollection](../chartcategorycollection)
 
 
@@ -111,7 +101,7 @@ String
 | --- | --- |
 | getSeries() | Gets the series. Read-only IChartSeriesCollection. |
 
- **Result:**
+ **Returns:**
 [ChartSeriesCollection](../chartseriescollection)
 
 
@@ -124,7 +114,7 @@ String
 | --- | --- |
 | getSeriesGroups() | Gets the groups of series. Read-only IChartSeriesGroupCollection. 1) Each group of series contains series with combinable types. Groups of combinable series types defined and described with CombinableSeriesTypesGroup enum. Also each group of series contains series witch is plotted whether on primary axes or on secondary axes (not both cases in one group). So, principle of series grouping is a grouping by type groups mentioned above and by primary/secondary plotting type. 2) Group of series contains some series properies whitch is common for each series in group ("series group properties"). "Series group properties" in ChartSeriesGroup class is read/write. Each of "series group properties" can have a read-only projection in ChartSeries class. |
 
- **Result:**
+ **Returns:**
 ChartSeriesGroupCollection
 
 
@@ -137,7 +127,7 @@ ChartSeriesGroupCollection
 | --- | --- |
 | getUseSecondaryCategories() | If false then #getSecondaryCategories property return null and data in #getCategories property is used both for primary and secondary series. If true then data in #getSecondaryCategories property is used for secondary series and data in #getCategories property is used for primary series. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -150,7 +140,7 @@ boolean
 | --- | --- |
 | readWorkbookStream() | Writes the internally contained Excel workbook it into an in-memory stream. |
 
- **Result:**
+ **Returns:**
 byte
 
 

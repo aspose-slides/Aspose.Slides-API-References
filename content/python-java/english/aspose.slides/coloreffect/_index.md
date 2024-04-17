@@ -17,34 +17,8 @@ url: /aspose.slides/coloreffect/
 | --- | --- |
 | ColorEffect() | Creates new instance. |
 
- **Result:**
+ **Returns:**
 ColorEffect
-
-
----
-
-
-### getAccumulate {#getAccumulate}
-
-| Name | Description |
-| --- | --- |
-| getAccumulate() | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
- **Result:**
-byte
-
-
----
-
-
-### getAdditive {#getAdditive}
-
-| Name | Description |
-| --- | --- |
-| getAdditive() | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
-
- **Result:**
-int
 
 
 ---
@@ -56,7 +30,7 @@ int
 | --- | --- |
 | getBy() | Describes the relative offset value for the color animation. Read/write IColorOffset. |
 
- **Result:**
+ **Returns:**
 [ColorOffset](../coloroffset)
 
 
@@ -69,7 +43,7 @@ int
 | --- | --- |
 | getColorSpace() | Represent color space of behavior. Read/write ColorSpace. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -82,7 +56,7 @@ int
 | --- | --- |
 | getDirection() | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -95,44 +69,8 @@ int
 | --- | --- |
 | getFrom() | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getProperties {#getProperties}
-
-| Name | Description |
-| --- | --- |
-| getProperties() | Represents properties of behavior. Read-only IBehaviorPropertyCollection. |
-
- **Result:**
-[BehaviorPropertyCollection](../behaviorpropertycollection)
-
-
----
-
-
-### getTiming {#getTiming}
-
-| Name | Description |
-| --- | --- |
-| getTiming() | Represents timing properties for the effect behavior. Read/write ITiming. |
-
- **Result:**
-[Timing](../timing)
 
 
 ---
@@ -144,28 +82,8 @@ int
 | --- | --- |
 | getTo() | Describes resulting color for the animation color change. Read/write IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
-
-
----
-
-
-### setAccumulate {#setAccumulate}
-
-| Name | Description |
-| --- | --- |
-| setAccumulate(byte) | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
-
----
-
-
-### setAdditive {#setAdditive}
-
-| Name | Description |
-| --- | --- |
-| setAdditive(int) | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
 
 
 ---
@@ -206,16 +124,6 @@ int
 | Name | Description |
 | --- | --- |
 | setFrom([ColorFormat](../colorformat)) | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
-
-
----
-
-
-### setTiming {#setTiming}
-
-| Name | Description |
-| --- | --- |
-| setTiming([Timing](../timing)) | Represents timing properties for the effect behavior. Read/write ITiming. |
 
 
 ---

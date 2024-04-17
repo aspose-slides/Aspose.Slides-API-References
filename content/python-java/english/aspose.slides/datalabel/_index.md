@@ -23,7 +23,7 @@ url: /aspose.slides/datalabel/
 | --- | --- | --- |
 | parentImmediate | [ChartDataPoint](../chartdatapoint) | Parent ChartDataPoint. |
 
- **Result:**
+ **Returns:**
 DataLabel
 
 
@@ -42,7 +42,7 @@ DataLabel
 | --- | --- | --- |
 | text | String | Text for a new TextFrameForOverriding. |
 
- **Result:**
+ **Returns:**
 [TextFrame](../textframe)
 
 
@@ -55,7 +55,7 @@ DataLabel
 | --- | --- |
 | getActualHeight() | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -68,7 +68,7 @@ float
 | --- | --- |
 | getActualLabelText() | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -81,7 +81,7 @@ String
 | --- | --- |
 | getActualWidth() | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -94,7 +94,7 @@ float
 | --- | --- |
 | getActualX() | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -107,7 +107,7 @@ float
 | --- | --- |
 | getActualY() | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -120,7 +120,7 @@ float
 | --- | --- |
 | getBottom() | Bottom. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -133,7 +133,7 @@ float
 | --- | --- |
 | getChart() | Returns the parent chart. Read-only IChart. |
 
- **Result:**
+ **Returns:**
 [Chart](../chart)
 
 
@@ -146,7 +146,7 @@ float
 | --- | --- |
 | getDataLabelFormat() | Returns data label format. Read-only IDataLabelFormat. |
 
- **Result:**
+ **Returns:**
 [DataLabelFormat](../datalabelformat)
 
 
@@ -159,7 +159,7 @@ float
 | --- | --- |
 | getHeight() | Returns or sets the height of a title as a fraction of the height of the chart. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -172,7 +172,7 @@ float
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -185,7 +185,7 @@ float
 | --- | --- |
 | getRight() | Right. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -198,8 +198,8 @@ float
 | --- | --- |
 | getSlide() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide)
+ **Returns:**
+[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---
@@ -211,7 +211,7 @@ float
 | --- | --- |
 | getTextFormat() | Returns text format. Read-only IChartTextFormat. |
 
- **Result:**
+ **Returns:**
 [ChartTextFormat](../charttextformat)
 
 
@@ -224,7 +224,7 @@ float
 | --- | --- |
 | getTextFrameForOverriding() | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only ITextFrame. |
 
- **Result:**
+ **Returns:**
 [TextFrame](../textframe)
 
 
@@ -237,7 +237,7 @@ float
 | --- | --- |
 | getValueFromCell() | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -250,7 +250,7 @@ float
 | --- | --- |
 | getWidth() | Returns or sets the width of a title as a fraction of the width of the chart. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -263,7 +263,7 @@ float
 | --- | --- |
 | getX() | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -276,7 +276,7 @@ float
 | --- | --- |
 | getY() | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -299,7 +299,7 @@ float
 | --- | --- |
 | isVisible() | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only boolean. If data label is visible you can make it hidden with Hide() method. But if data label is not visible (IsVisible is false) you can make data label visible with setting Show*-flags (ShowValue, ...) to true state. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

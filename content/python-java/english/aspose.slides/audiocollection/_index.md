@@ -23,7 +23,7 @@ url: /aspose.slides/audiocollection/
 | --- | --- | --- |
 | audio | [Audio](../audio) | Source audio. |
 
- **Result:**
+ **Returns:**
 [Audio](../audio)
 
 
@@ -42,7 +42,7 @@ url: /aspose.slides/audiocollection/
 | --- | --- | --- |
 | stream | Bytes[] | Stream to add audio from. |
 
- **Result:**
+ **Returns:**
 [Audio](../audio)
 
 
@@ -62,7 +62,7 @@ url: /aspose.slides/audiocollection/
 | stream | Bytes[] | Stream to add video audio from. |
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
- **Result:**
+ **Returns:**
 [Audio](../audio)
 
 
@@ -81,18 +81,8 @@ url: /aspose.slides/audiocollection/
 | --- | --- | --- |
 | audioData | byte[] | Audio bytes. |
 
- **Result:**
+ **Returns:**
 [Audio](../audio)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -104,7 +94,7 @@ url: /aspose.slides/audiocollection/
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -117,7 +107,7 @@ Object
 | --- | --- |
 | get_Item(int) | Gets the element at the specified index. Read-only IAudio. |
 
- **Result:**
+ **Returns:**
 [Audio](../audio)
 
 
@@ -130,7 +120,7 @@ Object
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -143,7 +133,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -156,7 +146,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -169,7 +159,7 @@ boolean
 | --- | --- |
 | size() | Returns a number of audio files in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

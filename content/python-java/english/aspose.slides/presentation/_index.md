@@ -17,7 +17,7 @@ url: /aspose.slides/presentation/
 | --- | --- |
 | Presentation() | This constructor creates new presentation from scratch. Created presentation has one empty slide. |
 
- **Result:**
+ **Returns:**
 Presentation
 
 
@@ -36,7 +36,7 @@ Presentation
 | --- | --- | --- |
 | loadOptions | [LoadOptions](../loadoptions) | Additional load options. |
 
- **Result:**
+ **Returns:**
 Presentation
 
 
@@ -55,7 +55,7 @@ Presentation
 | --- | --- | --- |
 | stream | Bytes[] | Input stream. |
 
- **Result:**
+ **Returns:**
 Presentation
 
 
@@ -75,7 +75,7 @@ Presentation
 | stream | Bytes[] | Input stream. |
 | loadOptions | [LoadOptions](../loadoptions) | Additional load options. |
 
- **Result:**
+ **Returns:**
 Presentation
 
 
@@ -94,7 +94,7 @@ Presentation
 | --- | --- | --- |
 | file | String | Input file. |
 
- **Result:**
+ **Returns:**
 Presentation
 
  **Error**
@@ -120,7 +120,7 @@ Presentation
 | file | String | Input file. |
 | loadOptions | [LoadOptions](../loadoptions) | Additional load options. |
 
- **Result:**
+ **Returns:**
 Presentation
 
  **Error**
@@ -149,7 +149,7 @@ Presentation
 | --- | --- |
 | getAllCustomXmlParts() | Returns all custom data parts in the presentaion. Read-only ICustomXmlPart[]. |
 
- **Result:**
+ **Returns:**
 [CustomXmlPart](../customxmlpart)
 
 
@@ -162,7 +162,7 @@ Presentation
 | --- | --- |
 | getAudios() | Returns the collection of all embedded audio files in the presentation. Read-only IAudioCollection. |
 
- **Result:**
+ **Returns:**
 [AudioCollection](../audiocollection)
 
 
@@ -175,7 +175,7 @@ Presentation
 | --- | --- |
 | getCommentAuthors() | Returns the collection of comments autors. Read-only ICommentAuthorCollection. |
 
- **Result:**
+ **Returns:**
 [CommentAuthorCollection](../commentauthorcollection)
 
 
@@ -188,7 +188,7 @@ Presentation
 | --- | --- |
 | getCurrentDateTime() | Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write java.util.Date. |
 
- **Result:**
+ **Returns:**
 Date
 
 
@@ -201,7 +201,7 @@ Date
 | --- | --- |
 | getCustomData() | Returns the presentation's custom data. Read-only ICustomData. |
 
- **Result:**
+ **Returns:**
 [CustomData](../customdata)
 
 
@@ -214,7 +214,7 @@ Date
 | --- | --- |
 | getDefaultTextStyle() | Returns default text style for shapes. Read-only ITextStyle. |
 
- **Result:**
+ **Returns:**
 [TextStyle](../textstyle)
 
 
@@ -227,7 +227,7 @@ Date
 | --- | --- |
 | getDigitalSignatures() | Returns the collection of signatures used to sign the presentation. Read-only IDigitalSignatureCollection. |
 
- **Result:**
+ **Returns:**
 [DigitalSignatureCollection](../digitalsignaturecollection)
 
 
@@ -240,7 +240,7 @@ Date
 | --- | --- |
 | getDocumentProperties() | Returns DocumentProperties object which contains standard and custom document properties. Read-only IDocumentProperties. |
 
- **Result:**
+ **Returns:**
 [DocumentProperties](../documentproperties)
 
 
@@ -253,7 +253,7 @@ Date
 | --- | --- |
 | getFirstSlideNumber() | Represents the first slide number in the presentation |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -266,7 +266,7 @@ int
 | --- | --- |
 | getFontsManager() | Returns fonts manager. Read-only IFontsManager. |
 
- **Result:**
+ **Returns:**
 [FontsManager](../fontsmanager)
 
 
@@ -279,7 +279,7 @@ int
 | --- | --- |
 | getHeaderFooterManager() | Returns actual HeaderFooter manager. Read-only IPresentationHeaderFooterManager. |
 
- **Result:**
+ **Returns:**
 [PresentationHeaderFooterManager](../presentationheaderfootermanager)
 
 
@@ -292,7 +292,7 @@ int
 | --- | --- |
 | getHyperlinkQueries() | Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides). Read-only IHyperlinkQueries. |
 
- **Result:**
+ **Returns:**
 [HyperlinkQueries](../hyperlinkqueries)
 
 
@@ -305,8 +305,131 @@ int
 | --- | --- |
 | getImages() | Returns the collection of all images in the presentation. Read-only IImageCollection. |
 
- **Result:**
+ **Returns:**
 [ImageCollection](../imagecollection)
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages([RenderingOptions](../renderingoptions)) | Returns a Image objects for all slides of a presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages([RenderingOptions](../renderingoptions), int[]) | Returns a Thumbnail Image objects for specified slides of a presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages([RenderingOptions](../renderingoptions), int[], float, float) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages([RenderingOptions](../renderingoptions), int[], Dimension) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Returns:**
+SlidesImage
 
 
 ---
@@ -318,7 +441,7 @@ int
 | --- | --- |
 | getLayoutSlides() | Returns a list of all layout slides that are defined in the presentation. Read-only IGlobalLayoutSlideCollection. You can access to alternative API for adding/inserting/removing/cloning layout slides by using IMasterSlide.LayoutSlides property. |
 
- **Result:**
+ **Returns:**
 [GlobalLayoutSlideCollection](../globallayoutslidecollection)
 
 
@@ -331,7 +454,7 @@ int
 | --- | --- |
 | getMasterHandoutSlideManager() | Returns handout master manager. Read-only IMasterHandoutSlideManager. |
 
- **Result:**
+ **Returns:**
 MasterHandoutSlideManager
 
 
@@ -344,7 +467,7 @@ MasterHandoutSlideManager
 | --- | --- |
 | getMasterNotesSlideManager() | Returns notes master manager. Read-only IMasterNotesSlideManager. |
 
- **Result:**
+ **Returns:**
 MasterNotesSlideManager
 
 
@@ -357,7 +480,7 @@ MasterNotesSlideManager
 | --- | --- |
 | getMasterTheme() | Returns master theme. Read-only IMasterTheme. |
 
- **Result:**
+ **Returns:**
 [MasterTheme](../mastertheme)
 
 
@@ -370,7 +493,7 @@ MasterNotesSlideManager
 | --- | --- |
 | getMasters() | Returns a list of all master slides that are defined in the presentation. Read-only IMasterSlideCollection. |
 
- **Result:**
+ **Returns:**
 [MasterSlideCollection](../masterslidecollection)
 
 
@@ -383,7 +506,7 @@ MasterNotesSlideManager
 | --- | --- |
 | getNotesSize() | Returns notes slide size object. Read-only INotesSize. |
 
- **Result:**
+ **Returns:**
 [NotesSize](../notessize)
 
 
@@ -396,7 +519,7 @@ MasterNotesSlideManager
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a text. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -409,7 +532,7 @@ MasterNotesSlideManager
 | --- | --- |
 | getProtectionManager() | Gets manager of the permissions for this presentation. Read-only IProtectionManager. |
 
- **Result:**
+ **Returns:**
 [ProtectionManager](../protectionmanager)
 
 
@@ -422,7 +545,7 @@ MasterNotesSlideManager
 | --- | --- |
 | getSections() | Returns a list of all slides sections that are defined in the presentation. Read-only ISectionCollection. |
 
- **Result:**
+ **Returns:**
 [SectionCollection](../sectioncollection)
 
 
@@ -441,8 +564,8 @@ MasterNotesSlideManager
 | --- | --- | --- |
 | id | long | Id of a slide. |
 
- **Result:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide)
+ **Returns:**
+[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---
@@ -454,7 +577,7 @@ MasterNotesSlideManager
 | --- | --- |
 | getSlideShowSettings() | Returns the slide show settings for the presentation. |
 
- **Result:**
+ **Returns:**
 SlideShowSettings
 
 
@@ -467,7 +590,7 @@ SlideShowSettings
 | --- | --- |
 | getSlideSize() | Returns slide size object. Read-only ISlideSize. |
 
- **Result:**
+ **Returns:**
 [SlideSize](../slidesize)
 
 
@@ -480,7 +603,7 @@ SlideShowSettings
 | --- | --- |
 | getSlides() | Returns a list of all slides that are defined in the presentation. Read-only ISlideCollection. |
 
- **Result:**
+ **Returns:**
 [SlideCollection](../slidecollection)
 
 
@@ -493,131 +616,8 @@ SlideShowSettings
 | --- | --- |
 | getSourceFormat() | Returns information about from which format presentation was loaded. Read-only SourceFormat. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-
- **Result:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), int[]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-
- **Result:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Result:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), int[], float, float) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Result:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| imageSize | Dimension | Size of the image to create. |
-
- **Result:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), int[], Dimension) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| imageSize | Dimension | Size of the image to create. |
-
- **Result:**
-BufferedImage
 
 
 ---
@@ -635,7 +635,7 @@ BufferedImage
 | --- | --- | --- |
 | options | [RenderingOptions](../renderingoptions) | Tiff options. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -655,7 +655,7 @@ BufferedImage
 | options | [RenderingOptions](../renderingoptions) | Tiff options. |
 | slides | int[] | Array with slide positions, starting from 1. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -676,7 +676,7 @@ BufferedImage
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -698,7 +698,7 @@ BufferedImage
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -718,7 +718,7 @@ BufferedImage
 | options | [RenderingOptions](../renderingoptions) | Tiff options. |
 | imageSize | Dimension | Size of the image to create. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -739,7 +739,7 @@ BufferedImage
 | slides | int[] | Array with slide positions, starting from 1. |
 | imageSize | Dimension | Size of the image to create. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -752,7 +752,7 @@ BufferedImage
 | --- | --- |
 | getVbaProject() | Gets or sets VBA project with presentation macros. Read/write IVbaProject. |
 
- **Result:**
+ **Returns:**
 [VbaProject](../vbaproject)
 
 
@@ -765,7 +765,7 @@ BufferedImage
 | --- | --- |
 | getVideos() | Returns the collection of all embedded video files in the presentation. Read-only IVideoCollection. |
 
- **Result:**
+ **Returns:**
 [VideoCollection](../videocollection)
 
 
@@ -778,7 +778,7 @@ BufferedImage
 | --- | --- |
 | getViewProperties() | Gets presentation wide view properties. Read-only IViewProperties. |
 
- **Result:**
+ **Returns:**
 [ViewProperties](../viewproperties)
 
 
@@ -824,206 +824,8 @@ BufferedImage
 | --- | --- | --- |
 | format | int | Format of the exported data. |
 
- **Result:**
+ **Returns:**
 Bytes[]
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [SwfOptions](../swfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [SwfOptions](../swfoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [PptxOptions](../pptxoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [PptxOptions](../pptxoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [PptOptions](../pptoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [PptOptions](../pptoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [XamlOptions](../xamloptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [XamlOptions](../xamloptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [MarkdownSaveOptions](../markdownsaveoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [GifOptions](../gifoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [GifOptions](../gifoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [SVGOptions](../svgoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [SVGOptions](../svgoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [RenderingOptions](../renderingoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [RenderingOptions](../renderingoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int, [XpsOptions](../xpsoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | int | Format of the exported data. |
-| options | [XpsOptions](../xpsoptions) | Additional format options. |
 
 
 ---
@@ -1051,6 +853,60 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
+| save(String, int, [GifOptions](../gifoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [GifOptions](../gifoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int, [PptxOptions](../pptxoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [PptxOptions](../pptxoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [Html5Options](../html5options) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
 | save(String, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
@@ -1065,176 +921,164 @@ Bytes[]
 ---
 
 
-### saveToBytes  {#saveToBytes }
+### save {#save}
 
 | Name | Description |
 | --- | --- |
-| saveToBytes (int, [SwfOptions](../swfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| save(String, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| format | int | Format of the exported data. |
-| options | [SwfOptions](../swfoptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int, [PptxOptions](../pptxoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| format | int | Format of the exported data. |
-| options | [PptxOptions](../pptxoptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int, [PptOptions](../pptoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| format | int | Format of the exported data. |
-| options | [PptOptions](../pptoptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int, [Html5Options](../html5options)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int, [XamlOptions](../xamloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| format | int | Format of the exported data. |
-| options | [XamlOptions](../xamloptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| format | int | Format of the exported data. |
-| options | [MarkdownSaveOptions](../markdownsaveoptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
+| fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
 | options | [PdfOptions](../pdfoptions) | Additional format options. |
 
- **Result:**
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int, [PptOptions](../pptoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [PptOptions](../pptoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int, [SVGOptions](../svgoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [SVGOptions](../svgoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int, [XpsOptions](../xpsoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [XpsOptions](../xpsoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [MarkdownSaveOptions](../markdownsaveoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int, [SwfOptions](../swfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [SwfOptions](../swfoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int, [XamlOptions](../xamloptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [XamlOptions](../xamloptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int, [RenderingOptions](../renderingoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [RenderingOptions](../renderingoptions) | Additional format options. |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | Format of the exported data. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
+
+ **Returns:**
 Bytes[]
 
  **Error**
@@ -1260,7 +1104,7 @@ Bytes[]
 | format | int | Format of the exported data. |
 | options | [GifOptions](../gifoptions) | Additional format options. |
 
- **Result:**
+ **Returns:**
 Bytes[]
 
  **Error**
@@ -1277,16 +1121,16 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
-| saveToBytes (int, [SVGOptions](../svgoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| saveToBytes (int, [PptxOptions](../pptxoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | format | int | Format of the exported data. |
-| options | [SVGOptions](../svgoptions) | Additional format options. |
+| options | [PptxOptions](../pptxoptions) | Additional format options. |
 
- **Result:**
+ **Returns:**
 Bytes[]
 
  **Error**
@@ -1303,68 +1147,16 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
-| saveToBytes (int, [RenderingOptions](../renderingoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| saveToBytes (int, [Html5Options](../html5options)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | format | int | Format of the exported data. |
-| options | [RenderingOptions](../renderingoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int, [XpsOptions](../xpsoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| format | int | Format of the exported data. |
-| options | [XpsOptions](../xpsoptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
-
- **Result:**
+ **Returns:**
 Bytes[]
 
  **Error**
@@ -1390,7 +1182,215 @@ Bytes[]
 | format | int | Format of the exported data. |
 | options | [TiffOptions](../tiffoptions) | Additional format options. |
 
- **Result:**
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | Format of the exported data. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int, [PptOptions](../pptoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | Format of the exported data. |
+| options | [PptOptions](../pptoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int, [SVGOptions](../svgoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | Format of the exported data. |
+| options | [SVGOptions](../svgoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int, [XpsOptions](../xpsoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | Format of the exported data. |
+| options | [XpsOptions](../xpsoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | Format of the exported data. |
+| options | [MarkdownSaveOptions](../markdownsaveoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int, [SwfOptions](../swfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | Format of the exported data. |
+| options | [SwfOptions](../swfoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int, [XamlOptions](../xamloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | Format of the exported data. |
+| options | [XamlOptions](../xamloptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int, [RenderingOptions](../renderingoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | Format of the exported data. |
+| options | [RenderingOptions](../renderingoptions) | Additional format options. |
+
+ **Returns:**
 Bytes[]
 
  **Error**
@@ -1447,7 +1447,7 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
-| save(String, int[], int, [SwfOptions](../swfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save(String, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1456,121 +1456,7 @@ Bytes[]
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [SwfOptions](../swfoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int[], int, [PptxOptions](../pptxoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [PptxOptions](../pptxoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int[], int, [PptOptions](../pptoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [PptOptions](../pptoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int[], int, [XamlOptions](../xamloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [XamlOptions](../xamloptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int[], int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [MarkdownSaveOptions](../markdownsaveoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
 
 ---
@@ -1599,6 +1485,101 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
+| save(String, int[], int, [PptxOptions](../pptxoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [PptxOptions](../pptxoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [Html5Options](../html5options) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [TiffOptions](../tiffoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int[], int, [PptOptions](../pptoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [PptOptions](../pptoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
 | save(String, int[], int, [SVGOptions](../svgoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
@@ -1609,25 +1590,6 @@ Bytes[]
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
 | options | [SVGOptions](../svgoptions) | Additional format options. |
-
-
----
-
-
-### save {#save}
-
-| Name | Description |
-| --- | --- |
-| save(String, int[], int, [RenderingOptions](../renderingoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [RenderingOptions](../renderingoptions) | Additional format options. |
 
 
 ---
@@ -1656,7 +1618,7 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
-| save(String, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save(String, int[], int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1665,7 +1627,7 @@ Bytes[]
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
+| options | [MarkdownSaveOptions](../markdownsaveoptions) | Additional format options. |
 
 
 ---
@@ -1675,7 +1637,7 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
-| save(String, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save(String, int[], int, [SwfOptions](../swfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1684,7 +1646,45 @@ Bytes[]
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [TiffOptions](../tiffoptions) | Additional format options. |
+| options | [SwfOptions](../swfoptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int[], int, [XamlOptions](../xamloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [XamlOptions](../xamloptions) | Additional format options. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save(String, int[], int, [RenderingOptions](../renderingoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [RenderingOptions](../renderingoptions) | Additional format options. |
 
 
 ---
@@ -1703,7 +1703,7 @@ Bytes[]
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
 
- **Result:**
+ **Returns:**
 Bytes[]
 
 
@@ -1714,7 +1714,7 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
-| saveToBytes (int[], int, [SwfOptions](../swfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| saveToBytes (int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1722,171 +1722,9 @@ Bytes[]
 | --- | --- | --- |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [SwfOptions](../swfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int[], int, [PptxOptions](../pptxoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [PptxOptions](../pptxoptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int[], int, [PptOptions](../pptoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [PptOptions](../pptoptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int[], int, [XamlOptions](../xamloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [XamlOptions](../xamloptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int[], int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [MarkdownSaveOptions](../markdownsaveoptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
-
- **Result:**
+ **Returns:**
 Bytes[]
 
  **Error**
@@ -1913,7 +1751,7 @@ Bytes[]
 | format | int | Format of the exported data. |
 | options | [GifOptions](../gifoptions) | Additional format options. |
 
- **Result:**
+ **Returns:**
 Bytes[]
 
  **Error**
@@ -1930,7 +1768,7 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
-| saveToBytes (int[], int, [SVGOptions](../svgoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| saveToBytes (int[], int, [PptxOptions](../pptxoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1938,9 +1776,9 @@ Bytes[]
 | --- | --- | --- |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [SVGOptions](../svgoptions) | Additional format options. |
+| options | [PptxOptions](../pptxoptions) | Additional format options. |
 
- **Result:**
+ **Returns:**
 Bytes[]
 
  **Error**
@@ -1957,7 +1795,7 @@ Bytes[]
 
 | Name | Description |
 | --- | --- |
-| saveToBytes (int[], int, [RenderingOptions](../renderingoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| saveToBytes (int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1965,63 +1803,9 @@ Bytes[]
 | --- | --- | --- |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [RenderingOptions](../renderingoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int[], int, [XpsOptions](../xpsoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [XpsOptions](../xpsoptions) | Additional format options. |
-
- **Result:**
-Bytes[]
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
-
-
----
-
-
-### saveToBytes  {#saveToBytes }
-
-| Name | Description |
-| --- | --- |
-| saveToBytes (int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slides | int[] | Array with slide positions, starting from 1. |
-| format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
-
- **Result:**
+ **Returns:**
 Bytes[]
 
  **Error**
@@ -2048,7 +1832,223 @@ Bytes[]
 | format | int | Format of the exported data. |
 | options | [TiffOptions](../tiffoptions) | Additional format options. |
 
- **Result:**
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int[], int, [PptOptions](../pptoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [PptOptions](../pptoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int[], int, [SVGOptions](../svgoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [SVGOptions](../svgoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int[], int, [XpsOptions](../xpsoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [XpsOptions](../xpsoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int[], int, [MarkdownSaveOptions](../markdownsaveoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [MarkdownSaveOptions](../markdownsaveoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int[], int, [SwfOptions](../swfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [SwfOptions](../swfoptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int[], int, [XamlOptions](../xamloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [XamlOptions](../xamloptions) | Additional format options. |
+
+ **Returns:**
+Bytes[]
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+
+---
+
+
+### saveToBytes  {#saveToBytes }
+
+| Name | Description |
+| --- | --- |
+| saveToBytes (int[], int, [RenderingOptions](../renderingoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [RenderingOptions](../renderingoptions) | Additional format options. |
+
+ **Returns:**
 Bytes[]
 
  **Error**

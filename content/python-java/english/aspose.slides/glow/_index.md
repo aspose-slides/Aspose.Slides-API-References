@@ -24,7 +24,7 @@ url: /aspose.slides/glow/
 | --- | --- | --- |
 | obj | Object | The Glow to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getColor() | Color format. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -50,7 +50,7 @@ boolean
 | --- | --- |
 | getEffective() | Gets effective Glow effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 GlowEffectiveData
 
 
@@ -73,7 +73,7 @@ GlowEffectiveData
 | --- | --- |
 | getRadius() | Radius. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -86,7 +86,7 @@ double
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -99,7 +99,7 @@ long
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

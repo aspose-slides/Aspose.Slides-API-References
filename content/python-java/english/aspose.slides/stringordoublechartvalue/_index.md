@@ -19,7 +19,7 @@ url: /aspose.slides/stringordoublechartvalue/
 | --- | --- |
 | getAsCell() | Returns or sets chart data cell. Read/write IChartDataCell. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -32,7 +32,7 @@ url: /aspose.slides/stringordoublechartvalue/
 | --- | --- |
 | getAsLiteralDouble() | Returns or sets value as literal double. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -45,7 +45,7 @@ double
 | --- | --- |
 | getAsLiteralString() | Returns or sets value as literal string. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -58,44 +58,8 @@ String
 | --- | --- |
 | getData() | Returns or sets Data object. Read/write Object. |
 
- **Result:**
+ **Returns:**
 Object
-
-
----
-
-
-### getData {#getData}
-
-| Name | Description |
-| --- | --- |
-| getData() | Data. Read/write Object. |
-
- **Result:**
-Object
-
-
----
-
-
-### getDataSourceType {#getDataSourceType}
-
-| Name | Description |
-| --- | --- |
-| getDataSourceType() | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write DataSourceType. For points in ChartDataPointCollection this property is read-only. In this case for changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; properties. |
-
- **Result:**
-int
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -141,33 +105,13 @@ int
 ---
 
 
-### setData {#setData}
-
-| Name | Description |
-| --- | --- |
-| setData(Object) | Data. Read/write Object. |
-
-
----
-
-
-### setDataSourceType {#setDataSourceType}
-
-| Name | Description |
-| --- | --- |
-| setDataSourceType(int) | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write DataSourceType. For points in ChartDataPointCollection this property is read-only. In this case for changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; properties. |
-
-
----
-
-
 ### toDouble {#toDouble}
 
 | Name | Description |
 | --- | --- |
 | toDouble() | Converts to double. |
 
- **Result:**
+ **Returns:**
 double
 
 

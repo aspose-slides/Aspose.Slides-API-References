@@ -11,23 +11,13 @@ url: /aspose.slides/errorbarscustomvalues/
 
  Specifies the errors bar values. It shall be used only when the Error bars value type is Custom.
  
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
 ### getXMinus {#getXMinus}
 
 | Name | Description |
 | --- | --- |
 | getXMinus() | Specifies the error bar value in the negative direction. Available if error bars value type is Custom and ErrorBarsXFormat is allowed. In any other case this property returns null. Read-only IDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [DoubleChartValue](../doublechartvalue)
 
 
@@ -40,7 +30,7 @@ url: /aspose.slides/errorbarscustomvalues/
 | --- | --- |
 | getXPlus() | Specifies the error bar value in the positive direction. Available if error bars value type is Custom and ErrorBarsXFormat is allowed. In any other case this property returns null. Read-only IDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [DoubleChartValue](../doublechartvalue)
 
 
@@ -53,7 +43,7 @@ url: /aspose.slides/errorbarscustomvalues/
 | --- | --- |
 | getYMinus() | Specifies the error bar value in the negative direction. Available if error bars value type is Custom and ErrorBarsYFormat is allowed. In any other case this property returns null. Read-only IDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [DoubleChartValue](../doublechartvalue)
 
 
@@ -66,7 +56,7 @@ url: /aspose.slides/errorbarscustomvalues/
 | --- | --- |
 | getYPlus() | Specifies the error bar value in the positive direction. Available if error bars value type is Custom and ErrorBarsYFormat is allowed. In any other case this property returns null. Read-only IDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [DoubleChartValue](../doublechartvalue)
 
 

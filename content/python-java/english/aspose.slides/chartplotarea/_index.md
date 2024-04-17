@@ -17,7 +17,7 @@ url: /aspose.slides/chartplotarea/
 | --- | --- |
 | getActualHeight() | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -30,7 +30,7 @@ float
 | --- | --- |
 | getActualWidth() | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -43,7 +43,7 @@ float
 | --- | --- |
 | getActualX() | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -56,7 +56,7 @@ float
 | --- | --- |
 | getActualY() | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -69,7 +69,7 @@ float
 | --- | --- |
 | getBottom() | Bottom. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -82,7 +82,7 @@ float
 | --- | --- |
 | getChart() | Chart. Read-only IChart. |
 
- **Result:**
+ **Returns:**
 [Chart](../chart)
 
 
@@ -95,7 +95,7 @@ float
 | --- | --- |
 | getFormat() | Returns the format of a plot area. Read-only IFormat. |
 
- **Result:**
+ **Returns:**
 [Format](../format)
 
 
@@ -108,7 +108,7 @@ float
 | --- | --- |
 | getHeight() | Returns or sets the height of a plot area bounding box as a fraction of the height of the chart (from 0 to 1). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -121,18 +121,8 @@ float
 | --- | --- |
 | getLayoutTargetType() | If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write LayoutTargetType( #getLayoutTargetType/ #setLayoutTargetType(int)). Presentation presentation = new Presentation(); try { ISlide slide = presentation.getSlides().get_Item(0); IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400); chart.getPlotArea().setX(0.2f); chart.getPlotArea().setY(0.2f); chart.getPlotArea().setWidth(0.7f); chart.getPlotArea().setHeight(0.7f); chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner); ... } finally { if (presentation != null) presentation.dispose(); } |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -144,7 +134,7 @@ int
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -157,7 +147,7 @@ int
 | --- | --- |
 | getRight() | Right. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -170,8 +160,8 @@ float
 | --- | --- |
 | getSlide() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide)
+ **Returns:**
+[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---
@@ -183,7 +173,7 @@ float
 | --- | --- |
 | getWidth() | Returns or sets the width of a plot area bounding box as a fraction of the width of the chart (from 0 to 1). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -196,7 +186,7 @@ float
 | --- | --- |
 | getX() | Returns or sets the x coordinate of the upper left corner of plot area bounding box as a fraction of the width of the chart (from 0 to 1). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -209,7 +199,7 @@ float
 | --- | --- |
 | getY() | Returns or sets the y coordinate of the upper left corner of plot area bounding box as a fraction of the height of the chart (from 0 to 1). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -222,7 +212,7 @@ float
 | --- | --- |
 | isLocationAutocalculated() | Defines how location should be calculated: true – calculated automatically; defined by the X, Y, Width, Height properties. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

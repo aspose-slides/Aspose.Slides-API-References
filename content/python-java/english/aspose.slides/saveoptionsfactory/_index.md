@@ -19,7 +19,7 @@ url: /aspose.slides/saveoptionsfactory/
 | --- | --- |
 | SaveOptionsFactory() |  |
 
- **Result:**
+ **Returns:**
 SaveOptionsFactory
 
 
@@ -32,7 +32,7 @@ SaveOptionsFactory
 | --- | --- |
 | createPptxOptions() | Creates PPTX save options. |
 
- **Result:**
+ **Returns:**
 [PptxOptions](../pptxoptions)
 
 

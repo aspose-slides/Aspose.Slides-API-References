@@ -33,7 +33,7 @@ url: /aspose.slides/colorformat/
 | --- | --- | --- |
 | obj | Object | Object. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -46,7 +46,7 @@ boolean
 | --- | --- |
 | getB() | Returns or sets the blue component of a color. All color transformations are ignored. Read/write byte. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -59,7 +59,7 @@ byte
 | --- | --- |
 | getColor() | Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write java.awt.Color. |
 
- **Result:**
+ **Returns:**
 Color
 
 
@@ -72,7 +72,7 @@ Color
 | --- | --- |
 | getColorTransform() | Returns the collection of color transformations applied to a color. Read-only IColorOperationCollection. |
 
- **Result:**
+ **Returns:**
 [ColorOperationCollection](../coloroperationcollection)
 
 
@@ -85,7 +85,7 @@ Color
 | --- | --- |
 | getColorType() | Returns or sets the color definition method. Read/write ColorType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -98,7 +98,7 @@ int
 | --- | --- |
 | getFloatB() | Returns or sets the blue component of a color. All color transformations are ignored. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -111,7 +111,7 @@ float
 | --- | --- |
 | getFloatG() | Returns or sets the green component of a color. All color transformations are ignored. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -124,7 +124,7 @@ float
 | --- | --- |
 | getFloatR() | Returns or sets the red component of a color. All color transformations are ignored. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -137,7 +137,7 @@ float
 | --- | --- |
 | getG() | Returns or sets the green component of a color. All color transformations are ignored. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -150,7 +150,7 @@ byte
 | --- | --- |
 | getHue() | Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -163,7 +163,7 @@ float
 | --- | --- |
 | getLuminance() | Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -180,54 +180,11 @@ float
 ---
 
 
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
 ### getParent_ISlideComponent {#getParent_ISlideComponent}
 
 | Name | Description |
 | --- | --- |
 | getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
 
 
 ---
@@ -239,7 +196,7 @@ Presentation
 | --- | --- |
 | getPresetColor() | Returns or sets the color preset. Read/write PresetColor. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -252,7 +209,7 @@ int
 | --- | --- |
 | getR() | Returns or sets the red component of a color. All color transformations are ignored. Read/write byte. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -265,7 +222,7 @@ byte
 | --- | --- |
 | getSaturation() | Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -278,21 +235,8 @@ float
 | --- | --- |
 | getSchemeColor() | Returns or sets the color identified by a color scheme. Read/write SchemeColor. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
 
 
 ---
@@ -304,7 +248,7 @@ BaseSlide
 | --- | --- |
 | getSystemColor() | Returns or sets the color identified by the system color table. Read/write SystemColor. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -317,20 +261,7 @@ int
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 
@@ -343,7 +274,7 @@ long
 | --- | --- |
 | hashCode() | Returns hash code. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -502,7 +433,7 @@ int
 | --- | --- | --- |
 | format | int | A type of color string format. |
 
- **Result:**
+ **Returns:**
 String
 
 

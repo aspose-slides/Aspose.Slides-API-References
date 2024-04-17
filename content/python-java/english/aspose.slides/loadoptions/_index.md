@@ -17,7 +17,7 @@ url: /aspose.slides/loadoptions/
 | --- | --- |
 | LoadOptions() | Creates new default load options. |
 
- **Result:**
+ **Returns:**
 LoadOptions
 
 
@@ -36,7 +36,7 @@ LoadOptions
 | --- | --- | --- |
 | loadFormat | int | Format of a presentation to load. |
 
- **Result:**
+ **Returns:**
 LoadOptions
 
 
@@ -49,7 +49,7 @@ LoadOptions
 | --- | --- |
 | getBlobManagementOptions() | Represents the options which can be used to manage Binary Large Objects (BLOBs) handling behavior, such as using of temporary files or max BLOBs bytes in memory. These options intended to set up the best performance/memory consumption ratio for a perticular environment or requirements. A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. |
 
- **Result:**
+ **Returns:**
 [BlobManagementOptions](../blobmanagementoptions)
 
 
@@ -62,7 +62,7 @@ LoadOptions
 | --- | --- |
 | getDefaultAsianFont() | Returns or sets Asian font used in case source font is not found. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -75,7 +75,7 @@ String
 | --- | --- |
 | getDefaultRegularFont() | Returns or sets Regular font used in case source font is not found. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -88,7 +88,7 @@ String
 | --- | --- |
 | getDefaultSymbolFont() | Returns or sets Symbol font used in case source font is not found. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -101,7 +101,7 @@ String
 | --- | --- |
 | getDefaultTextLanguage() | Returns or sets the default language for presentation text. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -114,7 +114,7 @@ String
 | --- | --- |
 | getDocumentLevelFontSources() | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
 
- **Result:**
+ **Returns:**
 [FontSources](../fontsources)
 
 
@@ -127,7 +127,7 @@ String
 | --- | --- |
 | getInterruptionToken() | The token to monitor for interruption requests. This token manages the whole IPresentation instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the InterruptionTokenSource#interrupt method of the InterruptionTokenSource. |
 
- **Result:**
+ **Returns:**
 [InterruptionToken](../interruptiontoken)
 
 
@@ -140,7 +140,7 @@ String
 | --- | --- |
 | getLoadFormat() | Returns or sets format of a presentation to load. Read/write LoadFormat. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -153,7 +153,7 @@ int
 | --- | --- |
 | getOnlyLoadDocumentProperties() | This property makes sense, if presentation file is password protected. Value of true means that only document properties must be loaded from an encrypted presentation file and password must be ignored. Value of false means that entire encrypted presentation must be loaded with use of right password. If presentation isn't encrypted then property value is always ignored. If document properties of an encrypted file aren't public and property value is true then document properties cannot be loaded and exception will be thrown. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -166,7 +166,7 @@ boolean
 | --- | --- |
 | getPassword() | Gets or sets the password. Read/write String. Value: The password. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -179,8 +179,8 @@ String
 | --- | --- |
 | getResourceLoadingCallback() | Returns or sets callback interface which manages external resources loading. Read/write IResourceLoadingCallback. |
 
- **Result:**
-ResourceLoadingAdapter, SvgResourceResolver
+ **Returns:**
+SvgResourceResolver, ResourceLoadingAdapter
 
 
 ---
@@ -192,7 +192,7 @@ ResourceLoadingAdapter, SvgResourceResolver
 | --- | --- |
 | getSpreadsheetOptions() | Gets options for spreadsheets. For example, these options affect calculating formulas for charts. |
 
- **Result:**
+ **Returns:**
 [SpreadsheetOptions](../spreadsheetoptions)
 
 
@@ -205,7 +205,7 @@ ResourceLoadingAdapter, SvgResourceResolver
 | --- | --- |
 | getWarningCallback() | Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
- **Result:**
+ **Returns:**
 IWarningCallback
 
 

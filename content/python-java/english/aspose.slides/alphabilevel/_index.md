@@ -25,7 +25,7 @@ url: /aspose.slides/alphabilevel/
 | --- | --- | --- |
 | obj | Object | The AlphaBiLevel to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -38,64 +38,8 @@ boolean
 | --- | --- |
 | getEffective() | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 AlphaBiLevelEffectiveData
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
 
 
 ---
@@ -107,21 +51,8 @@ BaseSlide
 | --- | --- |
 | getThreshold() | Returns effect threshold. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
-long
 
 
 ---
@@ -133,7 +64,7 @@ long
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

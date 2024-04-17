@@ -39,7 +39,7 @@ url: /aspose.slides/paragraphcollection/
 | --- | --- | --- |
 | value | [ParagraphCollection](../paragraphcollection) | The ParagraphCollection to be added to the end of the collection. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -120,7 +120,7 @@ int
 | --- | --- | --- |
 | item | [Paragraph](../paragraph) | The object to locate in the IGenericCollection. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -164,7 +164,7 @@ boolean
 | paragraphsCount | int | Paragraph count int |
 | options | [TextToHtmlConversionOptions](../texttohtmlconversionoptions) | Convert options ITextToHtmlConversionOptions |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -177,18 +177,8 @@ String
 | --- | --- |
 | getCount() | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -200,7 +190,7 @@ int
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a paragraphs collection. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -213,8 +203,8 @@ int
 | --- | --- |
 | getSlide() | Returns the parent slide of a paragraphs collection. Read-only BaseSlide. |
 
- **Result:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide)
+ **Returns:**
+[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---
@@ -226,7 +216,7 @@ int
 | --- | --- |
 | get_Item(int) | Gets the element at the specified index. |
 
- **Result:**
+ **Returns:**
 [Paragraph](../paragraph)
 
 
@@ -245,7 +235,7 @@ int
 | --- | --- | --- |
 | item | [Paragraph](../paragraph) | The object to locate in the List. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -292,7 +282,7 @@ int
 | --- | --- |
 | isReadOnly() | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -305,7 +295,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -318,7 +308,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -337,7 +327,7 @@ boolean
 | --- | --- | --- |
 | item | [Paragraph](../paragraph) | The object to remove from the IGenericCollection. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**

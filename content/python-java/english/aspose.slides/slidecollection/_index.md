@@ -23,7 +23,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | sourceSlide | [Slide](../slide) | Slide to clone. When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use #addClone(ISlide,ILayoutSlide) or #addClone(ISlide,IMasterSlide,boolean) for cloning slides, IGlobalLayoutSlideCollection#addClone(ILayoutSlide) or IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) for cloning layouts and IMasterSlideCollection#addClone(IMasterSlide) for cloning masters. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/slidecollection/
 | sourceSlide | [Slide](../slide) | Slide to clone. |
 | section | [Section](../section) | Section for a new slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
  **Error**
@@ -69,7 +69,7 @@ url: /aspose.slides/slidecollection/
 | sourceSlide | [Slide](../slide) | Slide to clone. |
 | destLayout | [LayoutSlide](../layoutslide) | Layout slide for a new slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -90,7 +90,7 @@ url: /aspose.slides/slidecollection/
 | destMaster | [MasterSlide](../masterslide) | Master slide for a new slide. |
 | allowCloneMissingLayout | boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
  **Error**
@@ -115,7 +115,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | layout | [LayoutSlide](../layoutslide) | Layout for a slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -136,7 +136,7 @@ url: /aspose.slides/slidecollection/
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -157,7 +157,7 @@ url: /aspose.slides/slidecollection/
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -176,7 +176,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | htmlText | String | Html to add. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -197,7 +197,7 @@ url: /aspose.slides/slidecollection/
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -218,7 +218,7 @@ url: /aspose.slides/slidecollection/
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -237,7 +237,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -256,7 +256,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | path | String | A path to the PDF document |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -276,7 +276,7 @@ url: /aspose.slides/slidecollection/
 | path | String | A path to the PDF document |
 | pdfImportOptions | [PdfImportOptions](../pdfimportoptions) | Options for pdf import |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -295,7 +295,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | pdfStream | Bytes[] | A stream which will be used as a source of the PDF document |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -315,18 +315,8 @@ url: /aspose.slides/slidecollection/
 | pdfStream | Bytes[] | A stream which will be used as a source of the PDF document |
 | pdfImportOptions | [PdfImportOptions](../pdfimportoptions) | Options for pdf import |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -338,7 +328,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -351,7 +341,7 @@ Object
 | --- | --- |
 | get_Item(int) | Gets the element at the specified index. Read-only Slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -370,7 +360,7 @@ Object
 | --- | --- | --- |
 | slide | [Slide](../slide) | Slide to find. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -390,7 +380,7 @@ int
 | index | int | Index of new slide. |
 | sourceSlide | [Slide](../slide) | Slide to clone. When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use #insertClone(int,ISlide,ILayoutSlide) or #insertClone(int,ISlide,IMasterSlide,boolean) for cloning slides and IMasterSlideCollection#addClone(IMasterSlide) for cloning masters. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -411,7 +401,7 @@ int
 | sourceSlide | [Slide](../slide) | Slide to clone. |
 | destLayout | [LayoutSlide](../layoutslide) | Layout slide for a new slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -433,7 +423,7 @@ int
 | destMaster | [MasterSlide](../masterslide) | Master slide for a new slide. |
 | allowCloneMissingLayout | boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
  **Error**
@@ -459,7 +449,7 @@ int
 | index | int | Index of a new slide. |
 | layout | [LayoutSlide](../layoutslide) | Layout for a slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -481,7 +471,7 @@ int
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -503,7 +493,7 @@ int
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -523,7 +513,7 @@ int
 | index | int | Position to insert. |
 | htmlText | String | Html to add. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -545,7 +535,7 @@ int
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -567,7 +557,7 @@ int
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -587,7 +577,7 @@ int
 | index | int | Position to insert. |
 | htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -600,7 +590,7 @@ int
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -613,7 +603,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -626,7 +616,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -711,7 +701,7 @@ boolean
 | --- | --- |
 | size() | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -724,7 +714,7 @@ int
 | --- | --- |
 | toArray() | Creates and returns an array with all slides in it. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -744,7 +734,7 @@ int
 | startIndex | int | An index of a first slide to add. |
 | count | int | A number of slides to add. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 

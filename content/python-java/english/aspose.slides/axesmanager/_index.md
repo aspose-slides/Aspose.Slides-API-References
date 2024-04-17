@@ -17,18 +17,8 @@ url: /aspose.slides/axesmanager/
 | --- | --- |
 | getHorizontalAxis() | Gets the chart's horizontal axis. Read-only IAxis. |
 
- **Result:**
+ **Returns:**
 [Axis](../axis)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -40,7 +30,7 @@ url: /aspose.slides/axesmanager/
 | --- | --- |
 | getSecondaryHorizontalAxis() | Gets the chart's secondary horizontal axis. Read-only IAxis. |
 
- **Result:**
+ **Returns:**
 [Axis](../axis)
 
 
@@ -53,7 +43,7 @@ url: /aspose.slides/axesmanager/
 | --- | --- |
 | getSecondaryVerticalAxis() | Gets the chart's secondary vertical axis. Read-only IAxis. |
 
- **Result:**
+ **Returns:**
 [Axis](../axis)
 
 
@@ -66,7 +56,7 @@ url: /aspose.slides/axesmanager/
 | --- | --- |
 | getSeriesAxis() | Gets the chart's series axis. Read-only IAxis. |
 
- **Result:**
+ **Returns:**
 [Axis](../axis)
 
 
@@ -79,7 +69,7 @@ url: /aspose.slides/axesmanager/
 | --- | --- |
 | getVerticalAxis() | Gets the chart's vertical axis. Read-only IAxis. |
 
- **Result:**
+ **Returns:**
 [Axis](../axis)
 
 

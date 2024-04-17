@@ -24,7 +24,7 @@ url: /aspose.slides/tab/
 | position | double | Tab position. |
 | align | int | Align. |
 
- **Result:**
+ **Returns:**
 Tab
 
 
@@ -43,7 +43,7 @@ Tab
 | --- | --- | --- |
 | obj | Object | An object to compare with this instance. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,38 +56,8 @@ int
 | --- | --- |
 | getAlignment() | Returns or sets align style of a tab. Read/write TabAlignment. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -99,59 +69,20 @@ int
 | --- | --- |
 | getPosition() | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
 ---
 
 
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
-
-
----
-
-
 ### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 

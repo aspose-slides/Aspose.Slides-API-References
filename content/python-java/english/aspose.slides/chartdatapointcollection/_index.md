@@ -23,7 +23,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -42,7 +42,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | double | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -61,7 +61,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -80,7 +80,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | double | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -99,7 +99,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -120,7 +120,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 | bubbleSize | [ChartDataCell](../chartdatacell) | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -141,7 +141,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 | bubbleSize | [ChartDataCell](../chartdatacell) | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -162,7 +162,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 | bubbleSize | [ChartDataCell](../chartdatacell) | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -183,7 +183,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | double | Data point YValue |
 | bubbleSize | [ChartDataCell](../chartdatacell) | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -204,7 +204,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | double | Data point YValue |
 | bubbleSize | [ChartDataCell](../chartdatacell) | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -225,7 +225,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | double | Data point YValue |
 | bubbleSize | [ChartDataCell](../chartdatacell) | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -246,7 +246,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -267,7 +267,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -288,7 +288,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -309,7 +309,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | double | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -330,7 +330,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | double | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -351,7 +351,7 @@ url: /aspose.slides/chartdatapointcollection/
 | yValue | double | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -370,7 +370,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -389,7 +389,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | double | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -408,7 +408,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -427,7 +427,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -446,7 +446,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value. |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -465,7 +465,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | double | Data point Value. |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -484,7 +484,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point ColorValue |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -503,7 +503,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -522,7 +522,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | double | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -541,7 +541,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -560,7 +560,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | double | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -580,7 +580,7 @@ url: /aspose.slides/chartdatapointcollection/
 | xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
 | yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -600,7 +600,7 @@ url: /aspose.slides/chartdatapointcollection/
 | xValue | double | Data point XValue |
 | yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -620,7 +620,7 @@ url: /aspose.slides/chartdatapointcollection/
 | xValue | String | Data point XValue |
 | yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -640,7 +640,7 @@ url: /aspose.slides/chartdatapointcollection/
 | xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
 | yValue | double | Data point YValue |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -660,7 +660,7 @@ url: /aspose.slides/chartdatapointcollection/
 | xValue | double | Data point XValue |
 | yValue | double | Data point YValue |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -680,7 +680,7 @@ url: /aspose.slides/chartdatapointcollection/
 | xValue | String | Data point XValue |
 | yValue | double | Data point YValue |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -699,7 +699,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value. |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -718,7 +718,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | double | Data point Value. |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -737,7 +737,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | sizeValue | [ChartDataCell](../chartdatacell) | Data point SizeValue |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -756,7 +756,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -775,7 +775,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | double | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -794,7 +794,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | sizeValue | [ChartDataCell](../chartdatacell) | Data point SizeValue |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -813,7 +813,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- | --- |
 | value | [ChartDataCell](../chartdatacell) | Data point Value |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -836,7 +836,7 @@ url: /aspose.slides/chartdatapointcollection/
 | --- | --- |
 | getDataSourceTypeForBubbleSizes() | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write DataSourceType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -849,7 +849,7 @@ int
 | --- | --- |
 | getDataSourceTypeForErrorBarsCustomValues() | Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list. Read-only IDataSourceTypeForErrorBarsCustomValues. |
 
- **Result:**
+ **Returns:**
 [DataSourceTypeForErrorBarsCustomValues](../datasourcetypeforerrorbarscustomvalues)
 
 
@@ -862,7 +862,7 @@ int
 | --- | --- |
 | getDataSourceTypeForValues() | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write DataSourceType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -875,7 +875,7 @@ int
 | --- | --- |
 | getDataSourceTypeForXValues() | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -888,7 +888,7 @@ int
 | --- | --- |
 | getDataSourceTypeForYValues() | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -907,18 +907,8 @@ int
 | --- | --- | --- |
 | index | long | Index. |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -930,7 +920,7 @@ int
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -943,7 +933,7 @@ Object
 | --- | --- |
 | get_Item(int) | Returns the series data point by index (its serial number in this collection). |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -956,7 +946,7 @@ Object
 | --- | --- |
 | get_Item([ChartDataPoint](../chartdatapoint)) | Return index (serial number) of data point in this collection. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -969,7 +959,7 @@ int
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -982,7 +972,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -995,7 +985,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -1080,7 +1070,7 @@ boolean
 | --- | --- |
 | size() | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

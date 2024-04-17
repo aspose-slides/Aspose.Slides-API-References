@@ -24,7 +24,7 @@ url: /aspose.slides/alphainverse/
 | --- | --- | --- |
 | obj | Object | The AlphaInverse to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -37,89 +37,20 @@ boolean
 | --- | --- |
 | getEffective() | Gets effective Alpha Inverse effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 AlphaInverseEffectiveData
 
 
 ---
 
 
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
-
-
----
-
-
 ### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 
@@ -132,7 +63,7 @@ long
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

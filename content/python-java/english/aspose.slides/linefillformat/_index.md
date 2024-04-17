@@ -17,7 +17,7 @@ url: /aspose.slides/linefillformat/
 | --- | --- |
 | getFillType() | Returns or sets the fill type. Read/write FillType. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -30,38 +30,8 @@ byte
 | --- | --- |
 | getGradientFormat() | Returns the gradient fill format. Read-only IGradientFormat. |
 
- **Result:**
+ **Returns:**
 [GradientFormat](../gradientformat)
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -73,21 +43,8 @@ byte
 | --- | --- |
 | getPatternFormat() | Returns the pattern fill format. Read-only IPatternFormat. |
 
- **Result:**
+ **Returns:**
 [PatternFormat](../patternformat)
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
 
 
 ---
@@ -99,21 +56,8 @@ Presentation
 | --- | --- |
 | getRotateWithShape() | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
 
 
 ---
@@ -125,7 +69,7 @@ BaseSlide
 | --- | --- |
 | getSolidFillColor() | Returns the color of a solid fill. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -138,20 +82,7 @@ BaseSlide
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/placeholder/
 | --- | --- |
 | getIndex() | Gets or sets the index of a placeholder. Read-only long. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -30,7 +30,7 @@ long
 | --- | --- |
 | getOrientation() | Gets or sets the orientation of a placeholder. Read-only Orientation. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -43,7 +43,7 @@ byte
 | --- | --- |
 | getSize() | Gets or sets the size of a placeholder. Read-only PlaceholderSize. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -56,7 +56,7 @@ byte
 | --- | --- |
 | getType() | Gets or sets the type of a placeholder. Read-only PlaceholderType. |
 
- **Result:**
+ **Returns:**
 byte
 
 

@@ -15,6 +15,25 @@ url: /aspose.slides/htmlformatter/
 
 | Name | Description |
 | --- | --- |
+| createCustomFormatter([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
+
+ **Returns:**
+HtmlFormatter
+
+
+---
+
+
+### createCustomFormatter {#createCustomFormatter}
+
+| Name | Description |
+| --- | --- |
 | createCustomFormatter([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
@@ -23,7 +42,7 @@ url: /aspose.slides/htmlformatter/
 | --- | --- | --- |
 | formattingController | [ResponsiveHtmlController](../responsivehtmlcontroller) | Callback interface which controls html file generation. |
 
- **Result:**
+ **Returns:**
 HtmlFormatter
 
 
@@ -42,7 +61,7 @@ HtmlFormatter
 | --- | --- | --- |
 | formattingController | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | Callback interface which controls html file generation. |
 
- **Result:**
+ **Returns:**
 HtmlFormatter
 
 
@@ -61,26 +80,7 @@ HtmlFormatter
 | --- | --- | --- |
 | formattingController | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | Callback interface which controls html file generation. |
 
- **Result:**
-HtmlFormatter
-
-
----
-
-
-### createCustomFormatter {#createCustomFormatter}
-
-| Name | Description |
-| --- | --- |
-| createCustomFormatter([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
-
- **Result:**
+ **Returns:**
 HtmlFormatter
 
 
@@ -99,7 +99,7 @@ HtmlFormatter
 | --- | --- | --- |
 | formattingController | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | Callback interface which controls html file generation. |
 
- **Result:**
+ **Returns:**
 HtmlFormatter
 
 
@@ -119,7 +119,7 @@ HtmlFormatter
 | css | String | Specifies CSS for this file. |
 | showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
- **Result:**
+ **Returns:**
 HtmlFormatter
 
 
@@ -139,7 +139,7 @@ HtmlFormatter
 | css | String | Specifies URL of CCS file used. |
 | showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
- **Result:**
+ **Returns:**
 HtmlFormatter
 
 

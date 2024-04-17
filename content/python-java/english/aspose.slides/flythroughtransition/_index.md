@@ -17,7 +17,7 @@ url: /aspose.slides/flythroughtransition/
 | --- | --- |
 | getDirection() | Direction of transition. Read/write TransitionInOutDirectionType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,7 +30,7 @@ int
 | --- | --- |
 | hasBounce() | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

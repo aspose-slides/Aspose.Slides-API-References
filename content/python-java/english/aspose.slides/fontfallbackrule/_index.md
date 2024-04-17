@@ -25,7 +25,7 @@ url: /aspose.slides/fontfallbackrule/
 | endIndex | long | End index of unicode range |
 | fontNames | String | Font's name or names (delimited by comma) for FallBack |
 
- **Result:**
+ **Returns:**
 FontFallBackRule
 
 
@@ -46,7 +46,7 @@ FontFallBackRule
 | endIndex | long | End index of unicode range |
 | fontNames | java.lang.String[] | Font's name or names (delimited by comma) for FallBack |
 
- **Result:**
+ **Returns:**
 FontFallBackRule
 
 
@@ -101,7 +101,7 @@ FontFallBackRule
 | --- | --- |
 | getCount() | Gets the number of fonts actually defined for range. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -114,7 +114,7 @@ int
 | --- | --- |
 | getRangeEndIndex() | Get last index of continuous unicode range. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -127,7 +127,7 @@ long
 | --- | --- |
 | getRangeStartIndex() | Get first index of continuous unicode range. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -140,7 +140,7 @@ long
 | --- | --- |
 | get_Item(int) | Gets the font name at the specified index. Read-only IFontFallBackRule. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -159,7 +159,7 @@ String
 | --- | --- | --- |
 | fontName | String | Font's name to find. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -224,7 +224,7 @@ int
 | --- | --- |
 | toArray() | Creates and returns an array with all FallBack fonts for this rule. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -244,7 +244,7 @@ String
 | startIndex | int | An index of a first font to add. |
 | count | int | A number of fonts to add. |
 
- **Result:**
+ **Returns:**
 String
 
 

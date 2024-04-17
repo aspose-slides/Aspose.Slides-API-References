@@ -17,7 +17,7 @@ url: /aspose.slides/svgoptions/
 | --- | --- |
 | SVGOptions() | Initializes a new instance of the SVGOptions class. |
 
- **Result:**
+ **Returns:**
 SVGOptions
 
 
@@ -36,7 +36,7 @@ SVGOptions
 | --- | --- | --- |
 | linkEmbedController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | The link embedding controller reference. Link embedding controller is a delegate object that is responsible for making decisions if resources (such as images) need to be embedded or referenced as external resources. |
 
- **Result:**
+ **Returns:**
 SVGOptions
 
 
@@ -49,21 +49,8 @@ SVGOptions
 | --- | --- |
 | getDefault() | Returns default settings. Read-only SVGOptions. |
 
- **Result:**
+ **Returns:**
 SVGOptions
-
-
----
-
-
-### getDefaultRegularFont {#getDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
-
- **Result:**
-String
 
 
 ---
@@ -75,7 +62,7 @@ String
 | --- | --- |
 | getDeletePicturesCroppedAreas() | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -88,7 +75,7 @@ boolean
 | --- | --- |
 | getDisable3DText() | Determines whether the 3D text is disabled in SVG. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -101,7 +88,7 @@ boolean
 | --- | --- |
 | getDisableGradientSplit() | Disables splitting FromCornerX and FromCenter gradients. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -114,7 +101,7 @@ boolean
 | --- | --- |
 | getDisableLineEndCropping() | SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -127,7 +114,7 @@ boolean
 | --- | --- |
 | getExternalFontsHandling() | Determines a way of handling externally loaded fonts. Read/write SvgExternalFontsHandling. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -140,7 +127,7 @@ int
 | --- | --- |
 | getInkOptions() | Provides options that control the look of Ink objects in exported document. Read-only IInkOptions |
 
- **Result:**
+ **Returns:**
 [InkOptions](../inkoptions)
 
 
@@ -153,7 +140,7 @@ int
 | --- | --- |
 | getJpegQuality() | Determines JPEG encoding quality. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -166,7 +153,7 @@ int
 | --- | --- |
 | getMetafileRasterizationDpi() | Returns or sets the lower resolution limit for metafile rasterization. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -179,21 +166,8 @@ int
 | --- | --- |
 | getPicturesCompression() | Represents the pictures compression level |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getProgressCallback {#getProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
- **Result:**
-IProgressCallback
 
 
 ---
@@ -205,7 +179,7 @@ IProgressCallback
 | --- | --- |
 | getShapeFormattingController() | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
 
- **Result:**
+ **Returns:**
 [VideoPlayerHtmlController](../videoplayerhtmlcontroller)
 
 
@@ -218,7 +192,7 @@ IProgressCallback
 | --- | --- |
 | getSimple() | Returns settings for simpliest and smallest SVG file generation. Read-only SVGOptions. |
 
- **Result:**
+ **Returns:**
 SVGOptions
 
 
@@ -231,7 +205,7 @@ SVGOptions
 | --- | --- |
 | getUseFrameRotation() | Determines whether to perform the specified rotation of the shape when rendering or not. Read/write boolean. Default value is true. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -244,7 +218,7 @@ boolean
 | --- | --- |
 | getUseFrameSize() | Determines whether the text frame will be included in a rendering area or not. Read/write boolean. Default value is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -257,7 +231,7 @@ boolean
 | --- | --- |
 | getVectorizeText() | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -270,31 +244,8 @@ boolean
 | --- | --- |
 | getWYSIWYG() | Returns settings for most accurate SVG file generation. Read-only SVGOptions. |
 
- **Result:**
+ **Returns:**
 SVGOptions
-
-
----
-
-
-### getWarningCallback {#getWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
-
- **Result:**
-IWarningCallback
-
-
----
-
-
-### setDefaultRegularFont {#setDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -380,16 +331,6 @@ IWarningCallback
 ---
 
 
-### setProgressCallback {#setProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
-
----
-
-
 ### setShapeFormattingController {#setShapeFormattingController}
 
 | Name | Description |
@@ -425,16 +366,6 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setVectorizeText(boolean) | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |
-
-
----
-
-
-### setWarningCallback {#setWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

@@ -17,7 +17,7 @@ url: /aspose.slides/patternformat/
 | --- | --- |
 | getBackColor() | Returns the background pattern color. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -30,38 +30,8 @@ url: /aspose.slides/patternformat/
 | --- | --- |
 | getForeColor() | Returns the foreground pattern color. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -73,34 +43,47 @@ url: /aspose.slides/patternformat/
 | --- | --- |
 | getPatternStyle() | Returns or sets the pattern style. Read/write PatternStyle. |
 
- **Result:**
+ **Returns:**
 byte
 
 
 ---
 
 
-### getPresentation {#getPresentation}
+### getTile {#getTile}
 
 | Name | Description |
 | --- | --- |
-| getPresentation() |  |
+| getTile(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
- **Result:**
-Presentation
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| background | Color | The background java.awt.Color for the pattern. |
+| foreground | Color | The foreground java.awt.Color for the pattern. |
+
+ **Returns:**
+SlidesImage
 
 
 ---
 
 
-### getSlide {#getSlide}
+### getTile {#getTile}
 
 | Name | Description |
 | --- | --- |
-| getSlide() |  |
+| getTile(Color) | Creates a tile image for the pattern fill. |
 
- **Result:**
-BaseSlide
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| styleColor | Color | The default java.awt.Color |
+
+ **Returns:**
+SlidesImage
 
 
 ---
@@ -119,7 +102,7 @@ BaseSlide
 | background | Color | The background java.awt.Color for the pattern. |
 | foreground | Color | The foreground java.awt.Color for the pattern. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -138,7 +121,7 @@ BufferedImage
 | --- | --- | --- |
 | styleColor | Color | The default java.awt.Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -151,20 +134,7 @@ BufferedImage
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 

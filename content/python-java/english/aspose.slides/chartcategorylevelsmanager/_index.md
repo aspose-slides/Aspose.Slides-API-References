@@ -27,7 +27,7 @@ url: /aspose.slides/chartcategorylevelsmanager/
 | --- | --- |
 | get_Item(int) | Returns IChartDataCell object for defined level. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/chartdatapointlevel/
 | --- | --- |
 | getFormat() | Represents formatting properties of data point level. Read/write IFormat. |
 
- **Result:**
+ **Returns:**
 [Format](../format)
 
 
@@ -30,18 +30,8 @@ url: /aspose.slides/chartdatapointlevel/
 | --- | --- |
 | getLabel() | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only IDataLabel. |
 
- **Result:**
+ **Returns:**
 [DataLabel](../datalabel)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---

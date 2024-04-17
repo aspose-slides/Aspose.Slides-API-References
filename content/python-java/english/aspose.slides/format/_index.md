@@ -17,7 +17,7 @@ url: /aspose.slides/format/
 | --- | --- |
 | getEffect() | Returns effects used for a chart. Read-only IEffectFormat. |
 
- **Result:**
+ **Returns:**
 [EffectFormat](../effectformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/format/
 | --- | --- |
 | getEffect3D() | Returns 3D format of a chart. Read-only IThreeDFormat. |
 
- **Result:**
+ **Returns:**
 [ThreeDFormat](../threedformat)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/format/
 | --- | --- |
 | getFill() | Returns fill style properties of a chart. Read-only IFillFormat. |
 
- **Result:**
+ **Returns:**
 [FillFormat](../fillformat)
 
 
@@ -56,89 +56,20 @@ url: /aspose.slides/format/
 | --- | --- |
 | getLine() | Returns line style properties of a chart. Read-only ILineFormat. |
 
- **Result:**
+ **Returns:**
 [LineFormat](../lineformat)
 
 
 ---
 
 
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
-
-
----
-
-
 ### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 

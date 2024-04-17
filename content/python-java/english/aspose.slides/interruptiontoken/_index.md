@@ -17,7 +17,7 @@ url: /aspose.slides/interruptiontoken/
 | --- | --- |
 | getNone() | Represents an empty interruption token. Long-running operations will never be interrupted via InterruptionTokenSource#interrupt when using this token. |
 
- **Result:**
+ **Returns:**
 InterruptionToken
 
 
@@ -30,7 +30,7 @@ InterruptionToken
 | --- | --- |
 | isInterruptionRequested() | Returns true if interruption was requested. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

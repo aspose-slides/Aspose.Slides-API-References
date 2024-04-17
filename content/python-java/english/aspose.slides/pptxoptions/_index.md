@@ -17,7 +17,7 @@ url: /aspose.slides/pptxoptions/
 | --- | --- |
 | PptxOptions() | Creates new instance of PptxOptions |
 
- **Result:**
+ **Returns:**
 PptxOptions
 
 
@@ -30,47 +30,21 @@ PptxOptions
 | --- | --- |
 | getConformance() | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
 
- **Result:**
+ **Returns:**
 int
 
 
 ---
 
 
-### getDefaultRegularFont {#getDefaultRegularFont}
+### getZip64Mode {#getZip64Mode}
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
+| getZip64Mode() | Specifies whether the ZIP64 format is used for the Presentation document. The default value is Zip64Mode#IfNecessary |
 
- **Result:**
-String
-
-
----
-
-
-### getProgressCallback {#getProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
- **Result:**
-IProgressCallback
-
-
----
-
-
-### getWarningCallback {#getWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
-
- **Result:**
-IWarningCallback
+ **Returns:**
+int
 
 
 ---
@@ -86,31 +60,11 @@ IWarningCallback
 ---
 
 
-### setDefaultRegularFont {#setDefaultRegularFont}
+### setZip64Mode {#setZip64Mode}
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
-
-
----
-
-
-### setProgressCallback {#setProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
-
----
-
-
-### setWarningCallback {#setWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setZip64Mode(int) | Specifies whether the ZIP64 format is used for the Presentation document. The default value is Zip64Mode#IfNecessary |
 
 
 ---

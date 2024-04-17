@@ -17,7 +17,7 @@ url: /aspose.slides/chartdataworksheet/
 | --- | --- |
 | getIndex() | Gets the index of the worksheet. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,18 +30,8 @@ int
 | --- | --- |
 | getName() | Returns the name of the worksheet. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---

@@ -17,7 +17,7 @@ url: /aspose.slides/fonts/
 | --- | --- |
 | getComplexScriptFont() | Returns or sets the complex script font. Read/write IFontData. |
 
- **Result:**
+ **Returns:**
 [FontData](../fontdata)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/fonts/
 | --- | --- |
 | getEastAsianFont() | Returns or sets the East Asian font. Read/write IFontData. |
 
- **Result:**
+ **Returns:**
 [FontData](../fontdata)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/fonts/
 | --- | --- |
 | getLatinFont() | Returns or sets the Latin font. Read/write IFontData. |
 
- **Result:**
+ **Returns:**
 [FontData](../fontdata)
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/axis/
 | --- | --- |
 | getActualMajorUnit() | Specifies actual major unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -30,7 +30,7 @@ double
 | --- | --- |
 | getActualMajorUnitScale() | Specifies actual major unit scale of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getActualMaxValue() | Specifies actual maximum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -56,7 +56,7 @@ double
 | --- | --- |
 | getActualMinValue() | Specifies actual minimum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -69,7 +69,7 @@ double
 | --- | --- |
 | getActualMinorUnit() | Specifies actual minor unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -82,7 +82,7 @@ double
 | --- | --- |
 | getActualMinorUnitScale() | Specifies actual minor unit scale of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -95,7 +95,7 @@ int
 | --- | --- |
 | getAggregationType() | Represents aggregation type of category axis (binning). Applied to category. Used with Histogram or HistogramPareto series only. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -108,7 +108,7 @@ int
 | --- | --- |
 | getAxisBetweenCategories() | Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | getBaseUnitScale() | Specifies the smallest time unit that is represented on the date axis. Read/write TimeUnitType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -134,7 +134,7 @@ int
 | --- | --- |
 | getBinWidth() | Specifies bin width when AggregationType property value setted to AxisAggregationType.ByBinWidth. Applied to category axes. Used with Histogram or HistogramPareto series only. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -147,7 +147,7 @@ double
 | --- | --- |
 | getCategoryAxisType() | Specifies the type of the category axis. Read/write CategoryAxisType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -160,7 +160,7 @@ int
 | --- | --- |
 | getChart() | Returns the parent chart. Read-only IChart. |
 
- **Result:**
+ **Returns:**
 [Chart](../chart)
 
 
@@ -173,7 +173,7 @@ int
 | --- | --- |
 | getCrossAt() | Represents the point on the axis where the perpendicular axis crosses it. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -186,7 +186,7 @@ float
 | --- | --- |
 | getCrossType() | Represents the CrossType on the specified axis where the other axis crosses. Read/write CrossesType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -199,7 +199,7 @@ int
 | --- | --- |
 | getDisplayUnit() | Specifies the scaling value of the display units for the value axis. Read/write DisplayUnitType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -212,7 +212,7 @@ int
 | --- | --- |
 | getFormat() | Represents format of axis. Read-only IAxisFormat. |
 
- **Result:**
+ **Returns:**
 [AxisFormat](../axisformat)
 
 
@@ -225,7 +225,7 @@ int
 | --- | --- |
 | getLabelOffset() | Specifies the distance of labels from the axis. Applied to category or date axis. Value must be between 0% and 1000%. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -238,7 +238,7 @@ int
 | --- | --- |
 | getLogBase() | Represents the logarithmic base. Default value is 10. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -251,7 +251,7 @@ double
 | --- | --- |
 | getMajorGridLinesFormat() | Represents major gridlines format on a chart axis. Read-only IChartLinesFormat. |
 
- **Result:**
+ **Returns:**
 [ChartLinesFormat](../chartlinesformat)
 
 
@@ -264,7 +264,7 @@ double
 | --- | --- |
 | getMajorTickMark() | Represents the type of major tick mark for the specified axis. Read/write TickMarkType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -277,7 +277,7 @@ int
 | --- | --- |
 | getMajorUnit() | Represents the major units for the date or value axis. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -290,7 +290,7 @@ double
 | --- | --- |
 | getMajorUnitScale() | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -303,7 +303,7 @@ int
 | --- | --- |
 | getMaxValue() | Represents the maximum value on the value axis. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -316,7 +316,7 @@ double
 | --- | --- |
 | getMinValue() | Represents the minimum value on the value axis. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -329,7 +329,7 @@ double
 | --- | --- |
 | getMinorGridLinesFormat() | Represents minor gridlines format on a chart axis. Read-only IChartLinesFormat. |
 
- **Result:**
+ **Returns:**
 [ChartLinesFormat](../chartlinesformat)
 
 
@@ -342,7 +342,7 @@ double
 | --- | --- |
 | getMinorTickMark() | Represents the type of minor tick mark for the specified axis. Read/write TickMarkType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -355,7 +355,7 @@ int
 | --- | --- |
 | getMinorUnit() | Represents the minor units for the date or value axis. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -368,7 +368,7 @@ double
 | --- | --- |
 | getMinorUnitScale() | Represents the major unit scale for the date axis. Read/write TimeUnitType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -381,7 +381,7 @@ int
 | --- | --- |
 | getNumberFormat() | Represents the format string for the Axis Labels. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -394,7 +394,7 @@ String
 | --- | --- |
 | getNumberOfBins() | Specifies number of bins when AggregationType property value setted to AxisAggregationType.ByNumberOfBins. Applied to category axes. Used with Histogram or HistogramPareto series only. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -407,18 +407,8 @@ long
 | --- | --- |
 | getOverflowBin() | Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true. |
 
- **Result:**
+ **Returns:**
 double
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -430,7 +420,7 @@ double
 | --- | --- |
 | getPosition() | Represents position of axis. Read/write AxisPositionType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -443,7 +433,7 @@ int
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -456,7 +446,7 @@ int
 | --- | --- |
 | getShowMajorGridLines() | To hide major gridline set MajorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -469,7 +459,7 @@ boolean
 | --- | --- |
 | getShowMinorGridLines() | To hide minor gridline set MinorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -482,8 +472,8 @@ boolean
 | --- | --- |
 | getSlide() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide)
+ **Returns:**
+[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---
@@ -495,7 +485,7 @@ boolean
 | --- | --- |
 | getTextFormat() | Represents format of text. Read-only IChartTextFormat. |
 
- **Result:**
+ **Returns:**
 [ChartTextFormat](../charttextformat)
 
 
@@ -508,7 +498,7 @@ boolean
 | --- | --- |
 | getTickLabelPosition() | Represents the position of tick-mark labels on the specified axis. Read/write TickLabelPositionType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -521,7 +511,7 @@ int
 | --- | --- |
 | getTickLabelRotationAngle() | Represents the rotation angle of tick labels. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -534,7 +524,7 @@ float
 | --- | --- |
 | getTickLabelSpacing() | Specifies how many tick labels to skip between label that is drawn. Applied to category or series axis. Read/write long. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -547,7 +537,7 @@ long
 | --- | --- |
 | getTickMarksSpacing() | Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read/write int. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -560,7 +550,7 @@ long
 | --- | --- |
 | getTitle() | Gets the axis' title. Read-only IChartTitle. |
 
- **Result:**
+ **Returns:**
 [ChartTitle](../charttitle)
 
 
@@ -573,7 +563,7 @@ long
 | --- | --- |
 | getUnderflowBin() | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -586,7 +576,7 @@ double
 | --- | --- |
 | hasTitle() | Determines whether a axis has a visible title. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -599,7 +589,7 @@ boolean
 | --- | --- |
 | isAutomaticMajorUnit() | Indicates whether the major unit of the axis is automatically assigned. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -612,7 +602,7 @@ boolean
 | --- | --- |
 | isAutomaticMaxValue() | Indicates whether the max value is automatically assigned. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -625,7 +615,7 @@ boolean
 | --- | --- |
 | isAutomaticMinValue() | Indicates whether the min value is automatically assigned. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -638,7 +628,7 @@ boolean
 | --- | --- |
 | isAutomaticMinorUnit() | Indicates whether the minor unit of the axis is automatically assigned. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -651,7 +641,7 @@ boolean
 | --- | --- |
 | isAutomaticOverflowBin() | Specifies automatic overflow bin value. If false: use OverflowBin property. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -664,7 +654,7 @@ boolean
 | --- | --- |
 | isAutomaticTickLabelSpacing() | Specifies automatic tick label spacing value. If false: use TickLabelSpacing property. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -677,7 +667,7 @@ boolean
 | --- | --- |
 | isAutomaticTickMarksSpacing() | Specifies automatic tick marks spacing value. If false: use TickMarksSpacing property. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -690,7 +680,7 @@ boolean
 | --- | --- |
 | isAutomaticUnderflowBin() | Specifies automatic underflow bin value. If false: use UnderflowBin property. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -703,7 +693,7 @@ boolean
 | --- | --- |
 | isLogarithmic() | Represents if the value axis scale type is logarithmic or not. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -716,7 +706,7 @@ boolean
 | --- | --- |
 | isNumberFormatLinkedToSource() | Indicates whether the format is linked source data. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -729,7 +719,7 @@ boolean
 | --- | --- |
 | isOverflowBin() | Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -742,7 +732,7 @@ boolean
 | --- | --- |
 | isPlotOrderReversed() | Represents if MS PowerPoint plots data points from last to first. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -755,7 +745,7 @@ boolean
 | --- | --- |
 | isUnderflowBin() | Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin to adjust underflow bin value. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -768,7 +758,7 @@ boolean
 | --- | --- |
 | isVisible() | Represents if the axis is visible. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/updownbarsmanager/
 | --- | --- |
 | getDownBarsFormat() | Returns the DownBars format. Read-only IFormat. |
 
- **Result:**
+ **Returns:**
 [Format](../format)
 
 
@@ -30,18 +30,8 @@ url: /aspose.slides/updownbarsmanager/
 | --- | --- |
 | getGapWidth() | GapWidth. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -53,7 +43,7 @@ int
 | --- | --- |
 | getUpBarsFormat() | Returns the UpBars format. Read-only IFormat. |
 
- **Result:**
+ **Returns:**
 [Format](../format)
 
 
@@ -66,7 +56,7 @@ int
 | --- | --- |
 | hasUpDownBars() | HasUpDownBars. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

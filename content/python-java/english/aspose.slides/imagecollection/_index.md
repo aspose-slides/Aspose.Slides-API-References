@@ -23,7 +23,7 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | imageSource | [PPImage](../ppimage) | Source image. |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -42,7 +42,26 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | image | BufferedImage | Image to add. This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
 
- **Result:**
+ **Returns:**
+[PPImage](../ppimage)
+
+
+---
+
+
+### addImage {#addImage}
+
+| Name | Description |
+| --- | --- |
+| addImage([IImage](../iimage)) | Add an image to a presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| image | [IImage](../iimage) | Image to add. This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
+
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -61,7 +80,7 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | stream | Bytes[] | Stream to add image from. This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -81,7 +100,7 @@ url: /aspose.slides/imagecollection/
 | stream | Bytes[] | Stream to add image file from. |
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -100,7 +119,7 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | buffer | byte[] | Buffer. |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -119,7 +138,7 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | svgImage | [SvgImage](../svgimage) | Svg image object ISvgImage |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
  **Error**
@@ -132,23 +151,13 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
 ### getSyncRoot {#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -161,7 +170,7 @@ Object
 | --- | --- |
 | get_Item(int) | Gets the element at the specified index. Read-only IPPImage. |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -174,7 +183,7 @@ Object
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -187,7 +196,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -200,7 +209,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -213,7 +222,7 @@ boolean
 | --- | --- |
 | size() | Returns a number of images in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

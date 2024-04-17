@@ -17,7 +17,7 @@ url: /aspose.slides/viewproperties/
 | --- | --- |
 | getLastView() | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,7 +30,7 @@ int
 | --- | --- |
 | getNormalViewProperties() | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only INormalViewProperties. |
 
- **Result:**
+ **Returns:**
 [NormalViewProperties](../normalviewproperties)
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getNotesViewProperties() | Specifies common view properties associated with the notes view mode. Read-only ICommonSlideViewProperties. |
 
- **Result:**
+ **Returns:**
 [CommonSlideViewProperties](../commonslideviewproperties)
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getShowComments() | Specifies whether the slide comments should be shown. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -69,7 +69,7 @@ byte
 | --- | --- |
 | getSlideViewProperties() | Specifies common view properties associated with the slide view mode. Read-only ICommonSlideViewProperties. |
 
- **Result:**
+ **Returns:**
 [CommonSlideViewProperties](../commonslideviewproperties)
 
 

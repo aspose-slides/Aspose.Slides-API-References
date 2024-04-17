@@ -24,7 +24,7 @@ url: /aspose.slides/tagcollection/
 | name | String | The name of the tag. |
 | value | String | The value of the tag. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -53,7 +53,7 @@ int
 | --- | --- | --- |
 | name | String | The key to locate. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -72,7 +72,7 @@ boolean
 | --- | --- | --- |
 | index | int | Index of a tag to return. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -85,7 +85,7 @@ String
 | --- | --- |
 | getNamesOfTags() | Returns names of tags. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -98,7 +98,7 @@ String
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -117,7 +117,7 @@ Object
 | --- | --- | --- |
 | index | int | Index of a tag to return. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -136,7 +136,7 @@ String
 | --- | --- | --- |
 | name | String | Key of a tag. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -155,7 +155,7 @@ String
 | --- | --- | --- |
 | name | String | The name to locate in the collection. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -168,7 +168,7 @@ int
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -181,7 +181,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -194,7 +194,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -255,7 +255,7 @@ boolean
 | --- | --- |
 | size() | Returns a number of tags in the collectoin. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

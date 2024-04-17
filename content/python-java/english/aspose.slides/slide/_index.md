@@ -11,198 +11,13 @@ url: /aspose.slides/slide/
 
   Represents a slide in a presentation.
  
-### createThemeEffective {#createThemeEffective}
-
-| Name | Description |
-| --- | --- |
-| createThemeEffective() | Returns an effective theme for this slide. |
-
- **Result:**
-ThemeEffectiveData
-
-
----
-
-
-### equals {#equals}
-
-| Name | Description |
-| --- | --- |
-| equals([MasterNotesSlide](../masternotesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [MasterNotesSlide](../masternotesslide) | The IBaseSlide to compare with the current IBaseSlide. |
-
- **Result:**
-boolean
-
-
----
-
-
-### equals {#equals}
-
-| Name | Description |
-| --- | --- |
-| equals([LayoutSlide](../layoutslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [LayoutSlide](../layoutslide) | The IBaseSlide to compare with the current IBaseSlide. |
-
- **Result:**
-boolean
-
-
----
-
-
-### equals {#equals}
-
-| Name | Description |
-| --- | --- |
-| equals([NotesSlide](../notesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [NotesSlide](../notesslide) | The IBaseSlide to compare with the current IBaseSlide. |
-
- **Result:**
-boolean
-
-
----
-
-
-### equals {#equals}
-
-| Name | Description |
-| --- | --- |
-| equals([Slide](../slide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [Slide](../slide) | The IBaseSlide to compare with the current IBaseSlide. |
-
- **Result:**
-boolean
-
-
----
-
-
-### equals {#equals}
-
-| Name | Description |
-| --- | --- |
-| equals([MasterHandoutSlide](../masterhandoutslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [MasterHandoutSlide](../masterhandoutslide) | The IBaseSlide to compare with the current IBaseSlide. |
-
- **Result:**
-boolean
-
-
----
-
-
-### equals {#equals}
-
-| Name | Description |
-| --- | --- |
-| equals([MasterSlide](../masterslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [MasterSlide](../masterslide) | The IBaseSlide to compare with the current IBaseSlide. |
-
- **Result:**
-boolean
-
-
----
-
-
-### findShapeByAltText {#findShapeByAltText}
-
-| Name | Description |
-| --- | --- |
-| findShapeByAltText(String) | Finds first occurrence of a shape with the specified alternative text. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| altText | String | Alternative text. |
-
- **Result:**
-[Chart](../chart), [PictureFrame](../pictureframe), [Table](../table), [SmartArt](../smartart), [AudioFrame](../audioframe), [Connector](../connector), [SectionZoomFrame](../sectionzoomframe), [SmartArtShape](../smartartshape), [ZoomFrame](../zoomframe), [GeometryShape](../geometryshape), [ZoomObject](../zoomobject), [GraphicalObject](../graphicalobject), [Ink](../ink), [LegacyDiagram](../legacydiagram), [SummaryZoomFrame](../summaryzoomframe), [SummaryZoomSection](../summaryzoomsection), [GroupShape](../groupshape), [VideoFrame](../videoframe), [OleObjectFrame](../oleobjectframe), [AutoShape](../autoshape), [Shape](../shape)
-
-
----
-
-
-### getBackground {#getBackground}
-
-| Name | Description |
-| --- | --- |
-| getBackground() | Returns slide's background. Read-only IBackground. |
-
- **Result:**
-[Background](../background)
-
-
----
-
-
-### getControls {#getControls}
-
-| Name | Description |
-| --- | --- |
-| getControls() | Returns the collection of ActiveX controls on a slide. Read-only IControlCollection. |
-
- **Result:**
-[ControlCollection](../controlcollection)
-
-
----
-
-
-### getCustomData {#getCustomData}
-
-| Name | Description |
-| --- | --- |
-| getCustomData() | Returns the slide's custom data. Read-only ICustomData. |
-
- **Result:**
-[CustomData](../customdata)
-
-
----
-
-
 ### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
 | getHeaderFooterManager() | Returns HeaderFooter manager of the slide. Read-only ISlideHeaderFooterManager. |
 
- **Result:**
+ **Returns:**
 [SlideHeaderFooterManager](../slideheaderfootermanager)
 
 
@@ -215,21 +30,163 @@ boolean
 | --- | --- |
 | getHidden() | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
 ---
 
 
-### getHyperlinkQueries {#getHyperlinkQueries}
+### getImage {#getImage}
 
 | Name | Description |
 | --- | --- |
-| getHyperlinkQueries() | Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
+| getImage(float, float) | Returns a Thumbnail Image object with custom scaling. |
 
- **Result:**
-[HyperlinkQueries](../hyperlinkqueries)
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage() | Returns a Thumbnail Image object (20% of real size). |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage(Dimension) | Returns a Thumbnail Image object with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff image object with specified parameters. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [TiffOptions](../tiffoptions) | Tiff options. |
+
+ **Returns:**
+SlidesImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage([RenderingOptions](../renderingoptions)) | Returns a Thumbnail Image object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+
+ **Returns:**
+SlidesImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail Image object with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Returns:**
+SlidesImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail Image object with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Returns:**
+SlidesImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ---
@@ -241,21 +198,8 @@ boolean
 | --- | --- |
 | getLayoutSlide() | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
 
- **Result:**
+ **Returns:**
 [LayoutSlide](../layoutslide)
-
-
----
-
-
-### getName {#getName}
-
-| Name | Description |
-| --- | --- |
-| getName() | Returns or sets the name of a slide. Read/write String. |
-
- **Result:**
-String
 
 
 ---
@@ -267,44 +211,8 @@ String
 | --- | --- |
 | getNotesSlideManager() | Allow to access notes slide, add and remove it. Read-only INotesSlideManager. |
 
- **Result:**
+ **Returns:**
 [NotesSlideManager](../notesslidemanager)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() | Returns IPresentation interface. Read-only IPresentation. |
-
- **Result:**
-[Presentation](../presentation)
-
-
----
-
-
-### getShapes {#getShapes}
-
-| Name | Description |
-| --- | --- |
-| getShapes() | Returns the shapes of a slide. Read-only IShapeCollection. |
-
- **Result:**
-[ShapeCollection](../shapecollection)
 
 
 ---
@@ -316,40 +224,8 @@ String
 | --- | --- |
 | getShowMasterShapes() | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
-
-
----
-
-
-### getShowMasterShapes {#getShowMasterShapes}
-
-| Name | Description |
-| --- | --- |
-| getShowMasterShapes() | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
-
- **Result:**
-boolean
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | Thrown if set true for master slide. |
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide)
 
 
 ---
@@ -367,21 +243,8 @@ boolean
 | --- | --- | --- |
 | author | [CommentAuthor](../commentauthor) | Author of comments to find or null to return all comments. |
 
- **Result:**
+ **Returns:**
 [Comment](../comment), [ModernComment](../moderncomment)
-
-
----
-
-
-### getSlideId {#getSlideId}
-
-| Name | Description |
-| --- | --- |
-| getSlideId() | Returns the ID of a slide. Read-only long. |
-
- **Result:**
-long
 
 
 ---
@@ -393,21 +256,8 @@ long
 | --- | --- |
 | getSlideNumber() | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getSlideShowTransition {#getSlideShowTransition}
-
-| Name | Description |
-| --- | --- |
-| getSlideShowTransition() | Returns the Transition object which contains information about how the specified slide advances during a slide show. Read-only ISlideShowTransition. |
-
- **Result:**
-[SlideShowTransition](../slideshowtransition)
 
 
 ---
@@ -419,8 +269,8 @@ int
 | --- | --- |
 | getThemeManager() | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
- **Result:**
-[NotesSlideThemeManager](../notesslidethememanager), [SlideThemeManager](../slidethememanager), [ChartThemeManager](../chartthememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager)
+ **Returns:**
+[BaseOverrideThemeManager](../baseoverridethememanager), [ChartThemeManager](../chartthememanager), [NotesSlideThemeManager](../notesslidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [SlideThemeManager](../slidethememanager)
 
 
 ---
@@ -439,7 +289,7 @@ int
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -452,8 +302,33 @@ BufferedImage
 | --- | --- |
 | getThumbnail() | Returns a Thumbnail Image object (20% of real size). |
 
- **Result:**
+ **Returns:**
 BufferedImage
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getThumbnail([RenderingOptions](../renderingoptions)) | Returns a Thumbnail Bitmap object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+
+ **Returns:**
+BufferedImage
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ---
@@ -471,7 +346,7 @@ BufferedImage
 | --- | --- | --- |
 | imageSize | Dimension | Size of the image to create. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -482,7 +357,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
+| getThumbnail([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff image object with specified parameters. |
 
  **Parameters:**
 
@@ -490,7 +365,7 @@ BufferedImage
 | --- | --- | --- |
 | options | [TiffOptions](../tiffoptions) | Tiff options. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
  **Error**
@@ -498,109 +373,6 @@ BufferedImage
 | Error | Condition |
 | --- | --- |
  | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage object. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-
- **Result:**
-BufferedImage
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Result:**
-BufferedImage
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| imageSize | Dimension | Size of the image to create. |
-
- **Result:**
-BufferedImage
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail([RenderingOptions](../renderingoptions)) | Returns a Thumbnail BufferedImage object. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Rendering options. |
-
- **Result:**
-BufferedImage
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ---
@@ -620,7 +392,7 @@ BufferedImage
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
  **Error**
@@ -646,7 +418,7 @@ BufferedImage
 | options | [RenderingOptions](../renderingoptions) | Rendering options. |
 | imageSize | Dimension | Size of the image to create. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
  **Error**
@@ -659,44 +431,11 @@ BufferedImage
 ---
 
 
-### getTimeline {#getTimeline}
-
-| Name | Description |
-| --- | --- |
-| getTimeline() | Returns animation timeline object. Read-only IAnimationTimeLine. |
-
- **Result:**
-[AnimationTimeLine](../animationtimeline)
-
-
----
-
-
 ### joinPortionsWithSameFormatting {#joinPortionsWithSameFormatting}
 
 | Name | Description |
 | --- | --- |
 | joinPortionsWithSameFormatting() | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-
-
----
-
-
-### joinPortionsWithSameFormatting {#joinPortionsWithSameFormatting}
-
-| Name | Description |
-| --- | --- |
-| joinPortionsWithSameFormatting() | Joins runs with same formatting in all paragraphs all acceptable shapes. |
-
-
----
-
-
-### joinPortionsWithSameFormatting {#joinPortionsWithSameFormatting}
-
-| Name | Description |
-| --- | --- |
-| joinPortionsWithSameFormatting([ShapeCollection](../shapecollection)) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 
 
 ---
@@ -713,78 +452,6 @@ BufferedImage
 | Error | Condition |
 | --- | --- |
  | PptxEditException | Thrown if slide is already removed from presentation. |
-
-
----
-
-
-### renderToGraphics {#renderToGraphics}
-
-| Name | Description |
-| --- | --- |
-| renderToGraphics([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, int, int) | Renders certain slide to a Graphics object using specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | Graphics2D | The object where to render to. |
-| width | int | The maximum width (in pixels) that can be occupied by the rendered slide. |
-| height | int | The maximum height (in pixels) that can be occupied by the rendered slide. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### renderToGraphics {#renderToGraphics}
-
-| Name | Description |
-| --- | --- |
-| renderToGraphics([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, float) | Renders certain slide to a Graphics object using specified scale. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | Graphics2D | The object where to render to. |
-| scale | float | The scale for rendering the slide (1.0 is 100%). |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### renderToGraphics {#renderToGraphics}
-
-| Name | Description |
-| --- | --- |
-| renderToGraphics([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | Graphics2D | The object where to render to. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ---
@@ -892,37 +559,11 @@ BufferedImage
 ---
 
 
-### setName {#setName}
-
-| Name | Description |
-| --- | --- |
-| setName(String) | Returns or sets the name of a slide. Read/write String. |
-
-
----
-
-
 ### setShowMasterShapes {#setShowMasterShapes}
 
 | Name | Description |
 | --- | --- |
 | setShowMasterShapes(boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
-
-
----
-
-
-### setShowMasterShapes {#setShowMasterShapes}
-
-| Name | Description |
-| --- | --- |
-| setShowMasterShapes(boolean) | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | NotSupportedException | Thrown if set true for master slide. |
 
 
 ---
@@ -944,7 +585,7 @@ BufferedImage
 | --- | --- |
 | writeAsSvgToBytes () | Saves content of slide as SVG file. |
 
- **Result:**
+ **Returns:**
 Bytes[]
 
 
@@ -963,7 +604,7 @@ Bytes[]
 | --- | --- | --- |
 | svgOptions | [SVGOptions](../svgoptions) | SVG generation options |
 
- **Result:**
+ **Returns:**
 Bytes[]
 
 

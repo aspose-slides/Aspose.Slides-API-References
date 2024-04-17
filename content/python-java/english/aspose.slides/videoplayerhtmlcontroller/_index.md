@@ -25,7 +25,7 @@ url: /aspose.slides/videoplayerhtmlcontroller/
 | fileName | String | The name of the HTML file |
 | baseUri | String | The base URI which will be used for links generating |
 
- **Result:**
+ **Returns:**
 VideoPlayerHtmlController
 
 
@@ -36,27 +36,7 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape([SvgShape](../svgshape), [Chart](../chart)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape([SvgShape](../svgshape), [PictureFrame](../pictureframe)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape([SvgShape](../svgshape), [Table](../table)) |  |
+| formatShape([SvgShape](../svgshape), [Shape](../shape)) |  |
 
 
 ---
@@ -76,7 +56,7 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape([SvgShape](../svgshape), [AudioFrame](../audioframe)) |  |
+| formatShape([SvgShape](../svgshape), [ZoomFrame](../zoomframe)) |  |
 
 
 ---
@@ -86,17 +66,7 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape([SvgShape](../svgshape), [Connector](../connector)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
+| formatShape([SvgShape](../svgshape), [PictureFrame](../pictureframe)) |  |
 
 
 ---
@@ -116,57 +86,7 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape([SvgShape](../svgshape), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape([SvgShape](../svgshape), [ZoomObject](../zoomobject)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape([SvgShape](../svgshape), [GraphicalObject](../graphicalobject)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape([SvgShape](../svgshape), [Ink](../ink)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape([SvgShape](../svgshape), [LegacyDiagram](../legacydiagram)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape([SvgShape](../svgshape), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| formatShape([SvgShape](../svgshape), [Table](../table)) |  |
 
 
 ---
@@ -186,7 +106,47 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape([SvgShape](../svgshape), [GroupShape](../groupshape)) |  |
+| formatShape([SvgShape](../svgshape), [Connector](../connector)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape([SvgShape](../svgshape), [ZoomObject](../zoomobject)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape([SvgShape](../svgshape), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape([SvgShape](../svgshape), [GraphicalObject](../graphicalobject)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape([SvgShape](../svgshape), [Chart](../chart)) |  |
 
 
 ---
@@ -226,7 +186,47 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape([SvgShape](../svgshape), [Shape](../shape)) |  |
+| formatShape([SvgShape](../svgshape), [AudioFrame](../audioframe)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape([SvgShape](../svgshape), [LegacyDiagram](../legacydiagram)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape([SvgShape](../svgshape), [Ink](../ink)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape([SvgShape](../svgshape), [GroupShape](../groupshape)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
 
 
 ---
@@ -238,7 +238,7 @@ VideoPlayerHtmlController
 | --- | --- |
 | getObjectStoringLocation(int, byte[], String, String, String) |  |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -251,7 +251,7 @@ int
 | --- | --- |
 | getUrl(int, int) |  |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -292,27 +292,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
 
 ---
@@ -332,7 +312,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
 
 
 ---
@@ -342,17 +322,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
 
 
 ---
@@ -372,57 +342,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
 
 
 ---
@@ -442,7 +362,47 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
 
 
 ---
@@ -482,7 +442,47 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
 
 ---
@@ -492,27 +492,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
 
 ---
@@ -532,7 +512,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
 
 
 ---
@@ -542,17 +522,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
 
 
 ---
@@ -572,57 +542,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
 
 
 ---
@@ -642,7 +562,47 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
 
 
 ---
@@ -682,7 +642,47 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
 
 ---

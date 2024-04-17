@@ -17,7 +17,7 @@ url: /aspose.slides/control/
 | --- | --- |
 | getActiveXControlBinary() | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -30,7 +30,7 @@ byte
 | --- | --- |
 | getClassId() | Gets class id of this control. Read-only java.util.UUID. |
 
- **Result:**
+ **Returns:**
 UUID
 
 
@@ -43,7 +43,7 @@ UUID
 | --- | --- |
 | getFrame() | Returns or sets control's frame. Read/write IShapeFrame. |
 
- **Result:**
+ **Returns:**
 [ShapeFrame](../shapeframe)
 
 
@@ -56,18 +56,8 @@ UUID
 | --- | --- |
 | getName() | Gets or sets the name of this control. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -79,7 +69,7 @@ String
 | --- | --- |
 | getPersistence() | Gets the method used to store properties of the ActiveX control. Read only PersistenceType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -92,7 +82,7 @@ int
 | --- | --- |
 | getPresentation() |  |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -105,7 +95,7 @@ int
 | --- | --- |
 | getProperties() | Returns a collection of ActiveX properties. Read-only IControlPropertiesCollection. Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null. |
 
- **Result:**
+ **Returns:**
 [ControlPropertiesCollection](../controlpropertiescollection)
 
 
@@ -118,8 +108,8 @@ int
 | --- | --- |
 | getSlide() |  |
 
- **Result:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide)
+ **Returns:**
+[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---
@@ -131,7 +121,7 @@ int
 | --- | --- |
 | getSubstitutePictureFormat() | Returns Control image fill properties object. Read-only IPictureFillFormat. |
 
- **Result:**
+ **Returns:**
 [PictureFillFormat](../picturefillformat)
 
 

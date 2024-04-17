@@ -17,7 +17,7 @@ url: /aspose.slides/axisformat/
 | --- | --- |
 | getEffect() | Returns effects used for an axis. Read-only IEffectFormat. |
 
- **Result:**
+ **Returns:**
 [EffectFormat](../effectformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/axisformat/
 | --- | --- |
 | getFill() | Returns fill style properties of an axis. Read-only IFillFormat. |
 
- **Result:**
+ **Returns:**
 [FillFormat](../fillformat)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/axisformat/
 | --- | --- |
 | getLine() | Returns line style properties of an axis. Read-only ILineFormat. |
 
- **Result:**
+ **Returns:**
 [LineFormat](../lineformat)
 
 
@@ -66,7 +66,7 @@ url: /aspose.slides/axisformat/
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 

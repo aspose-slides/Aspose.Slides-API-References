@@ -21,7 +21,7 @@ Provides methods to license the component.
 | --- | --- |
 | License() | Initializes a new instance of this class. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
 
- **Result:**
+ **Returns:**
 License
 
 
@@ -34,7 +34,7 @@ License
 | --- | --- |
 | getVersion() | Returns version of Aspose.Slides for Java. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -47,7 +47,7 @@ String
 | --- | --- |
 | isLicensed() |  |
 
- **Result:**
+ **Returns:**
 boolean
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/datatable/
 | --- | --- |
 | getChart() | Returns chart. Read-only IChart. |
 
- **Result:**
+ **Returns:**
 [Chart](../chart)
 
 
@@ -30,18 +30,8 @@ url: /aspose.slides/datatable/
 | --- | --- |
 | getFormat() | Returns the line, fill, and effect styles of an object. Read-only IFormat. |
 
- **Result:**
+ **Returns:**
 [Format](../format)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -53,7 +43,7 @@ url: /aspose.slides/datatable/
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -66,7 +56,7 @@ url: /aspose.slides/datatable/
 | --- | --- |
 | getShowLegendKey() | True if the data label legend key is visible. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -79,8 +69,8 @@ boolean
 | --- | --- |
 | getSlide() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide)
+ **Returns:**
+[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---
@@ -92,7 +82,7 @@ boolean
 | --- | --- |
 | getTextFormat() | Returns text format. Read-only IChartTextFormat. |
 
- **Result:**
+ **Returns:**
 [ChartTextFormat](../charttextformat)
 
 
@@ -105,7 +95,7 @@ boolean
 | --- | --- |
 | hasBorderHorizontal() | True if the chart data table has horizontal cell borders. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -118,7 +108,7 @@ boolean
 | --- | --- |
 | hasBorderOutline() | True if the chart data table has outline borders. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -131,7 +121,7 @@ boolean
 | --- | --- |
 | hasBorderVertical() | True if the chart data table has vertical cell borders. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

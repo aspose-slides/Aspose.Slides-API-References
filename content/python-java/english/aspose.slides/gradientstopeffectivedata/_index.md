@@ -23,7 +23,7 @@ url: /aspose.slides/gradientstopeffectivedata/
 | --- | --- | --- |
 | obj | Object | The GradientStopEffectiveData to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | getColor() | Returns the color of a gradient stop. Read-only java.awt.Color. |
 
- **Result:**
+ **Returns:**
 Color
 
 
@@ -49,7 +49,7 @@ Color
 | --- | --- |
 | getPosition() | Returns the position (0..1) of a gradient stop. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -62,7 +62,7 @@ float
 | --- | --- |
 | hashCode() |  |
 
- **Result:**
+ **Returns:**
 int
 
 

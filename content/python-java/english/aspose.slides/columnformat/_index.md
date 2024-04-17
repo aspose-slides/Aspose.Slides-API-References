@@ -17,7 +17,7 @@ url: /aspose.slides/columnformat/
 | --- | --- |
 | getEffective() | Gets effective table column formatting properties with inheritance and table styles applied. |
 
- **Result:**
+ **Returns:**
 ColumnFormatEffectiveData
 
 
@@ -34,23 +34,13 @@ ColumnFormatEffectiveData
 ---
 
 
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
 ### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 

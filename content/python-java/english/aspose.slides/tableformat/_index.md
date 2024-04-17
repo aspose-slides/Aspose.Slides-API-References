@@ -17,7 +17,7 @@ url: /aspose.slides/tableformat/
 | --- | --- |
 | getEffective() | Gets effective table formatting properties with inheritance and table styles applied. |
 
- **Result:**
+ **Returns:**
 TableFormatEffectiveData
 
 
@@ -30,7 +30,7 @@ TableFormatEffectiveData
 | --- | --- |
 | getFillFormat() | Returns a table fill properties object. Read-only IFillFormat. |
 
- **Result:**
+ **Returns:**
 [FillFormat](../fillformat)
 
 
@@ -47,23 +47,13 @@ TableFormatEffectiveData
 ---
 
 
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
 ### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 

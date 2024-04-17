@@ -17,7 +17,7 @@ url: /aspose.slides/textanimation/
 | --- | --- |
 | TextAnimation() |  |
 
- **Result:**
+ **Returns:**
 TextAnimation
 
 
@@ -38,7 +38,7 @@ TextAnimation
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result:**
+ **Returns:**
 [Effect](../effect)
 
 
@@ -51,7 +51,7 @@ TextAnimation
 | --- | --- |
 | getBuildType() | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -64,7 +64,7 @@ int
 | --- | --- |
 | getEffectAnimateBackgroundShape() | Linked shape effect with group or not (null). Read/write IEffect. |
 
- **Result:**
+ **Returns:**
 [Effect](../effect)
 
 

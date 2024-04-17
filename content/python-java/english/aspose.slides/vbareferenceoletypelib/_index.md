@@ -17,7 +17,7 @@ url: /aspose.slides/vbareferenceoletypelib/
 | --- | --- |
 | VbaReferenceOleTypeLib(String, String) | This constructor creates new OLE Automation type library reference. |
 
- **Result:**
+ **Returns:**
 VbaReferenceOleTypeLib
 
 
@@ -30,7 +30,7 @@ VbaReferenceOleTypeLib
 | --- | --- |
 | getLibid() | Represents the identifier of an Automation type library. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -43,7 +43,7 @@ String
 | --- | --- |
 | getName() | Represents the name of the VBA project reference. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 

@@ -18,7 +18,7 @@ url: /aspose.slides/errorbarsformat/
 | --- | --- |
 | getChart() | Returns the parent chart. Read-only IChart. |
 
- **Result:**
+ **Returns:**
 [Chart](../chart)
 
 
@@ -31,18 +31,8 @@ url: /aspose.slides/errorbarsformat/
 | --- | --- |
 | getFormat() | Represents the format of the error bars. Read/write IFormat. |
 
- **Result:**
+ **Returns:**
 [Format](../format)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -54,7 +44,7 @@ url: /aspose.slides/errorbarsformat/
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -67,8 +57,8 @@ url: /aspose.slides/errorbarsformat/
 | --- | --- |
 | getSlide() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide)
+ **Returns:**
+[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---
@@ -80,7 +70,7 @@ url: /aspose.slides/errorbarsformat/
 | --- | --- |
 | getType() | Gets or sets type of error bars. Read/write ErrorBarType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -93,7 +83,7 @@ int
 | --- | --- |
 | getValue() | Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. In any other case will return NaN. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -106,7 +96,7 @@ float
 | --- | --- |
 | getValueType() | Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use ( IChartDataPoint#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series. In case of Fixed, Percentage or StandardDeviation value type use Value property to specify value. Read/write ErrorBarValueType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -119,7 +109,7 @@ int
 | --- | --- |
 | hasEndCap() | Specifies an end cap is not drawn on the error bars. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -132,7 +122,7 @@ boolean
 | --- | --- |
 | isVisible() | Gets or sets Error Bars visibility . Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

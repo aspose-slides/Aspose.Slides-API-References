@@ -55,7 +55,7 @@ url: /aspose.slides/chartcellcollection/
 | --- | --- |
 | getCellsAddress() | Returns address of the set of cells in workbook. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -68,7 +68,7 @@ String
 | --- | --- |
 | getConcatenatedValuesFromCells() | Concatenation string from all cells string values. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -81,7 +81,7 @@ String
 | --- | --- |
 | getCount() | Gets the count of cells in collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -100,7 +100,7 @@ int
 | --- | --- | --- |
 | index | int | Index of a cell. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -113,7 +113,7 @@ int
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -126,7 +126,7 @@ int
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 

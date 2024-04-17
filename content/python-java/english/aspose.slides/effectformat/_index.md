@@ -167,7 +167,7 @@ url: /aspose.slides/effectformat/
 | --- | --- |
 | getBlurEffect() | Blur effect. Read/write IBlur. |
 
- **Result:**
+ **Returns:**
 [Blur](../blur)
 
 
@@ -180,7 +180,7 @@ url: /aspose.slides/effectformat/
 | --- | --- |
 | getEffective() | Gets effective effect formatting data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 EffectFormatEffectiveData
 
 
@@ -193,7 +193,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getFillOverlayEffect() | Fill overlay effect. Read/write IFillOverlay. |
 
- **Result:**
+ **Returns:**
 [FillOverlay](../filloverlay)
 
 
@@ -206,7 +206,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getGlowEffect() | Glow effect. Read/write IGlow. |
 
- **Result:**
+ **Returns:**
 [Glow](../glow)
 
 
@@ -219,7 +219,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getInnerShadowEffect() | Inner shadow. Read/write IInnerShadow. |
 
- **Result:**
+ **Returns:**
 [InnerShadow](../innershadow)
 
 
@@ -232,51 +232,8 @@ EffectFormatEffectiveData
 | --- | --- |
 | getOuterShadowEffect() | Outer shadow. Read/write IOuterShadow. |
 
- **Result:**
+ **Returns:**
 [OuterShadow](../outershadow)
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
 
 
 ---
@@ -288,7 +245,7 @@ Presentation
 | --- | --- |
 | getPresetShadowEffect() | Preset shadow. Read/write IPresetShadow. |
 
- **Result:**
+ **Returns:**
 [PresetShadow](../presetshadow)
 
 
@@ -301,21 +258,8 @@ Presentation
 | --- | --- |
 | getReflectionEffect() | Reflection. Read/write IReflection. |
 
- **Result:**
+ **Returns:**
 [Reflection](../reflection)
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
 
 
 ---
@@ -327,7 +271,7 @@ BaseSlide
 | --- | --- |
 | getSoftEdgeEffect() | Soft edge. Read/write ISoftEdge. |
 
- **Result:**
+ **Returns:**
 [SoftEdge](../softedge)
 
 
@@ -340,20 +284,7 @@ BaseSlide
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 
@@ -366,7 +297,7 @@ long
 | --- | --- |
 | isNoEffects() | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

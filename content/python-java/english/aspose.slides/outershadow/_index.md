@@ -23,7 +23,7 @@ url: /aspose.slides/outershadow/
 | --- | --- | --- |
 | obj | Object | The OuterShadow to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | getBlurRadius() | Blur radius. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -49,7 +49,7 @@ double
 | --- | --- |
 | getDirection() | Direction of shadow. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -62,7 +62,7 @@ float
 | --- | --- |
 | getDistance() | Distance of shadow. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -75,7 +75,7 @@ double
 | --- | --- |
 | getEffective() | Gets effective Outer Shadow effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 OuterShadowEffectiveData
 
 
@@ -98,7 +98,7 @@ OuterShadowEffectiveData
 | --- | --- |
 | getRectangleAlign() | Rectangle alignment. Read/write RectangleAlignment. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -111,7 +111,7 @@ byte
 | --- | --- |
 | getRotateShadowWithShape() | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -124,7 +124,7 @@ boolean
 | --- | --- |
 | getScaleHorizontal() | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -137,7 +137,7 @@ double
 | --- | --- |
 | getScaleVertical() | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -150,7 +150,7 @@ double
 | --- | --- |
 | getShadowColor() | Color of shadow. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -163,7 +163,7 @@ double
 | --- | --- |
 | getSkewHorizontal() | Specifies the horizontal skew angle (in degrees). Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -176,7 +176,7 @@ double
 | --- | --- |
 | getSkewVertical() | Specifies the vertical skew angle (in degrees). Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -189,7 +189,7 @@ double
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -202,7 +202,7 @@ long
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

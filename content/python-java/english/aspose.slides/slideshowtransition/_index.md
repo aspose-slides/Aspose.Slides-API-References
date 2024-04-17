@@ -23,7 +23,7 @@ url: /aspose.slides/slideshowtransition/
 | --- | --- | --- |
 | obj | Object | The SlideShowTransition to compare with the current SlideShowTransition. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | getAdvanceAfter() | This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -49,7 +49,7 @@ boolean
 | --- | --- |
 | getAdvanceAfterTime() | Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write long. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -62,18 +62,8 @@ long
 | --- | --- |
 | getAdvanceOnClick() | Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -85,7 +75,7 @@ boolean
 | --- | --- |
 | getSound() | Returns or sets the embedded audio data. Read/write IAudio. |
 
- **Result:**
+ **Returns:**
 [Audio](../audio)
 
 
@@ -98,7 +88,7 @@ boolean
 | --- | --- |
 | getSoundIsBuiltIn() | Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -111,7 +101,7 @@ boolean
 | --- | --- |
 | getSoundLoop() | This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -124,7 +114,7 @@ boolean
 | --- | --- |
 | getSoundMode() | Set or returns sound mode for slide transition. Read/write TransitionSoundMode. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -137,7 +127,7 @@ int
 | --- | --- |
 | getSoundName() | Specifies a human readable name for the sound of the transition. The Sound( #getSound/ #setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String. |
 
- **Result:**
+ **Returns:**
 String
 
  **Error**
@@ -156,7 +146,7 @@ String
 | --- | --- |
 | getSpeed() | Specifies the transition speed that is to be used when transitioning from the current slide to the next. Read/write TransitionSpeed. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -169,7 +159,7 @@ int
 | --- | --- |
 | getType() | Type of transition. Read/write TransitionType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -182,8 +172,8 @@ int
 | --- | --- |
 | getValue() | Slide show transition value. Read-only ITransitionValueBase. |
 
- **Result:**
-[OrientationTransition](../orientationtransition), [GlitterTransition](../glittertransition), [MorphTransition](../morphtransition), [SideDirectionTransition](../sidedirectiontransition), [EightDirectionTransition](../eightdirectiontransition), [CornerDirectionTransition](../cornerdirectiontransition), [RippleTransition](../rippletransition), [RevealTransition](../revealtransition), [TransitionValueBase](../transitionvaluebase), [OptionalBlackTransition](../optionalblacktransition), [FlyThroughTransition](../flythroughtransition), [InOutTransition](../inouttransition), [LeftRightDirectionTransition](../leftrightdirectiontransition), [ShredTransition](../shredtransition), [EmptyTransition](../emptytransition), [SplitTransition](../splittransition), [WheelTransition](../wheeltransition)
+ **Returns:**
+[LeftRightDirectionTransition](../leftrightdirectiontransition), [SplitTransition](../splittransition), [OptionalBlackTransition](../optionalblacktransition), [ShredTransition](../shredtransition), [FlyThroughTransition](../flythroughtransition), [WheelTransition](../wheeltransition), [EightDirectionTransition](../eightdirectiontransition), [InOutTransition](../inouttransition), [RevealTransition](../revealtransition), [GlitterTransition](../glittertransition), [MorphTransition](../morphtransition), [RippleTransition](../rippletransition), [EmptyTransition](../emptytransition), [CornerDirectionTransition](../cornerdirectiontransition), [TransitionValueBase](../transitionvaluebase), [SideDirectionTransition](../sidedirectiontransition), [OrientationTransition](../orientationtransition)
 
 
 ---
@@ -195,7 +185,7 @@ int
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
- **Result:**
+ **Returns:**
 int
 
 

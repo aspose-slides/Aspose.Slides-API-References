@@ -17,7 +17,7 @@ url: /aspose.slides/customdata/
 | --- | --- |
 | getCustomXmlParts() | Returns the custom xml parts collection. Read-only ICustomXmlPartCollection. |
 
- **Result:**
+ **Returns:**
 [CustomXmlPartCollection](../customxmlpartcollection)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/customdata/
 | --- | --- |
 | getTags() | Returns the Customer Data Tags collection. Read-only ITagCollection. |
 
- **Result:**
+ **Returns:**
 [TagCollection](../tagcollection)
 
 

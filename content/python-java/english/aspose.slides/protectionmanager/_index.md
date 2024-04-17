@@ -23,7 +23,7 @@ url: /aspose.slides/protectionmanager/
 | --- | --- | --- |
 | password | String | The password for checking. 1. You should check the ( #isWriteProtected) property before calling this method. 2. When the password is null or empty, this method returns false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -52,7 +52,7 @@ boolean
 | --- | --- |
 | getEncryptDocumentProperties() | This property makes sense, if presentation is password protected. If true then document properties is encrypted in presentation file. If false then document properties is public while presentation is encrypted. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -65,7 +65,7 @@ boolean
 | --- | --- |
 | getEncryptionPassword() | Gets the password which is used for presentation encryption. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -78,7 +78,7 @@ String
 | --- | --- |
 | getReadOnlyRecommended() | Gets or sets read-only recommendation. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -91,7 +91,7 @@ boolean
 | --- | --- |
 | isEncrypted() | Gets a value indicating whether this instance is encrypted. Read-only boolean. Value: true if presentation was loaded from encrypted file or #encrypt(String) method was called ; otherwise, false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -104,7 +104,7 @@ boolean
 | --- | --- |
 | isOnlyDocumentPropertiesLoaded() | This property makes sense, if presentation file is password protected and document properties of this file are public. Value of true means that only document properties are loaded from an encrypted presentation file without use of password. Value of false means that entire encrypted presentation is loaded with use of right password, not only document properties are loaded. If presentation isn't encrypted then property value is always false. If document properties of an encrypted file aren't public then property value is always false. If Presentation.EncryptDocumentProperties is true than IsOnlyDocumentPropertiesLoaded property value is always false. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -117,7 +117,7 @@ boolean
 | --- | --- |
 | isWriteProtected() | Gets a value indicating whether this presentation is write protected. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

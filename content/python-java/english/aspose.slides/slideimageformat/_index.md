@@ -17,7 +17,7 @@ url: /aspose.slides/slideimageformat/
 | --- | --- |
 | SlideImageFormat() |  |
 
- **Result:**
+ **Returns:**
 SlideImageFormat
 
 
@@ -37,7 +37,7 @@ SlideImageFormat
 | scale | float | Image scale factor. |
 | imgFormat | String | Image format. |
 
- **Result:**
+ **Returns:**
 SlideImageFormat
 
 
@@ -56,7 +56,7 @@ SlideImageFormat
 | --- | --- | --- |
 | options | [SVGOptions](../svgoptions) | Options for SVG export. |
 
- **Result:**
+ **Returns:**
 SlideImageFormat
 
 

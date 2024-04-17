@@ -17,7 +17,7 @@ url: /aspose.slides/presentationfactory/
 | --- | --- |
 | PresentationFactory() |  |
 
- **Result:**
+ **Returns:**
 PresentationFactory
 
 
@@ -30,7 +30,7 @@ PresentationFactory
 | --- | --- |
 | createPresentation() | Creates new presentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -49,7 +49,7 @@ PresentationFactory
 | --- | --- | --- |
 | options | [LoadOptions](../loadoptions) | Load options |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -62,7 +62,7 @@ PresentationFactory
 | --- | --- |
 | getInstance() | Presentation factory static instance. Read-only PresentationFactory. |
 
- **Result:**
+ **Returns:**
 PresentationFactory
 
 
@@ -81,7 +81,7 @@ PresentationFactory
 | --- | --- | --- |
 | file | String | Presentation file. |
 
- **Result:**
+ **Returns:**
 [PresentationInfo](../presentationinfo)
 
 
@@ -100,7 +100,7 @@ PresentationFactory
 | --- | --- | --- |
 | stream | Bytes[] | Presentation stream. |
 
- **Result:**
+ **Returns:**
 [PresentationInfo](../presentationinfo)
 
 
@@ -120,7 +120,7 @@ PresentationFactory
 | file | String | Input file |
 | mode | int | Extraction mode |
 
- **Result:**
+ **Returns:**
 [PresentationText](../presentationtext)
 
 
@@ -140,7 +140,7 @@ PresentationFactory
 | stream | Bytes[] | Input stream |
 | mode | int | Extraction mode |
 
- **Result:**
+ **Returns:**
 [PresentationText](../presentationtext)
 
 
@@ -161,7 +161,7 @@ PresentationFactory
 | mode | int | Extraction mode |
 | options | [LoadOptions](../loadoptions) | Load options |
 
- **Result:**
+ **Returns:**
 [PresentationText](../presentationtext)
 
 
@@ -180,7 +180,7 @@ PresentationFactory
 | --- | --- | --- |
 | data | byte[] | Array to read |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -200,7 +200,7 @@ PresentationFactory
 | data | byte[] | Array to read |
 | options | [LoadOptions](../loadoptions) | Load options |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -219,7 +219,7 @@ PresentationFactory
 | --- | --- | --- |
 | stream | Bytes[] | Input stream to read |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -239,7 +239,7 @@ PresentationFactory
 | stream | Bytes[] | Input stream to read |
 | options | [LoadOptions](../loadoptions) | Load options |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -258,7 +258,7 @@ PresentationFactory
 | --- | --- | --- |
 | file | String | File name |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -278,7 +278,7 @@ PresentationFactory
 | file | String | File name |
 | options | [LoadOptions](../loadoptions) | Load options |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/background/
 | --- | --- |
 | getEffectFormat() | Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only IEffectFormat. |
 
- **Result:**
+ **Returns:**
 [EffectFormat](../effectformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/background/
 | --- | --- |
 | getEffective() | Gets effective background data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 BackgroundEffectiveData
 
 
@@ -43,28 +43,8 @@ BackgroundEffectiveData
 | --- | --- |
 | getFillFormat() | Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only IFillFormat. |
 
- **Result:**
+ **Returns:**
 [FillFormat](../fillformat)
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
 
 
 ---
@@ -76,20 +56,7 @@ BackgroundEffectiveData
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a slide. Read-only IPresentation. |
 
- **Result:**
-Presentation
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
+ **Returns:**
 Presentation
 
 
@@ -102,20 +69,7 @@ Presentation
 | --- | --- |
 | getSlide() | Returns the parent slide of a shape. Read-only IBaseSlide. |
 
- **Result:**
-BaseSlide
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
+ **Returns:**
 BaseSlide
 
 
@@ -128,7 +82,7 @@ BaseSlide
 | --- | --- |
 | getStyleColor() | Return a ColorFormat for a BackgroundType.Themed fill. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -141,7 +95,7 @@ BaseSlide
 | --- | --- |
 | getStyleIndex() | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -154,7 +108,7 @@ int
 | --- | --- |
 | getType() | Returns a type of background fill. Read/write BackgroundType. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -167,20 +121,7 @@ byte
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 

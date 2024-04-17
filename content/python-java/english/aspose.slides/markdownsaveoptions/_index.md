@@ -17,7 +17,7 @@ url: /aspose.slides/markdownsaveoptions/
 | --- | --- |
 | MarkdownSaveOptions() | Ctor. |
 
- **Result:**
+ **Returns:**
 MarkdownSaveOptions
 
 
@@ -30,20 +30,7 @@ MarkdownSaveOptions
 | --- | --- |
 | getBasePath() | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
 
- **Result:**
-String
-
-
----
-
-
-### getDefaultRegularFont {#getDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
-
- **Result:**
+ **Returns:**
 String
 
 
@@ -56,7 +43,7 @@ String
 | --- | --- |
 | getExportType() | Specifies markdown specification to convert presentation. Default is TextOnly. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -69,7 +56,7 @@ int
 | --- | --- |
 | getFlavor() | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -82,7 +69,7 @@ int
 | --- | --- |
 | getImagesSaveFolderName() | Specifies folder name to save images. Default is Images. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -95,21 +82,8 @@ String
 | --- | --- |
 | getNewLineType() | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is Unix. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getProgressCallback {#getProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
- **Result:**
-IProgressCallback
 
 
 ---
@@ -121,7 +95,7 @@ IProgressCallback
 | --- | --- |
 | getShowComments() | Specifies whether the generated document should show comments or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -134,7 +108,7 @@ boolean
 | --- | --- |
 | getShowHiddenSlides() | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -147,21 +121,8 @@ boolean
 | --- | --- |
 | getShowSlideNumber() | Specifies whether the generated document should show number of each slide or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
-
-
----
-
-
-### getWarningCallback {#getWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
-
- **Result:**
-IWarningCallback
 
 
 ---
@@ -172,16 +133,6 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setBasePath(String) | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
-
-
----
-
-
-### setDefaultRegularFont {#setDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -227,16 +178,6 @@ IWarningCallback
 ---
 
 
-### setProgressCallback {#setProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
-
----
-
-
 ### setShowComments {#setShowComments}
 
 | Name | Description |
@@ -262,16 +203,6 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setShowSlideNumber(boolean) | Specifies whether the generated document should show number of each slide or not. Default is false. |
-
-
----
-
-
-### setWarningCallback {#setWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

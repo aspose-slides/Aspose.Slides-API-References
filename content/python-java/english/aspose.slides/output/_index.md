@@ -25,7 +25,7 @@ url: /aspose.slides/output/
 | templateKey | String | The key of the template used for context object transformation before output. |
 | contextObject | TContextObject | Context object. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -45,7 +45,7 @@ url: /aspose.slides/output/
 | path | String | Output path. |
 | image | [PPImage](../ppimage) | Image to output. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -65,7 +65,27 @@ url: /aspose.slides/output/
 | path | String | Output path. |
 | image | BufferedImage | Image to output. |
 
- **Result:**
+ **Returns:**
+[OutputFile](../outputfile)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add(String, [IImage](../iimage)) | Adds an output element for the image. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| image | [IImage](../iimage) | Image to output. |
+
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -85,7 +105,7 @@ url: /aspose.slides/output/
 | path | String | Output path. |
 | video | [Video](../video) | Video to output. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -106,7 +126,7 @@ url: /aspose.slides/output/
 | fontData | [FontData](../fontdata) | Font to output. |
 | fontStyle | int | Font style. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -126,7 +146,7 @@ url: /aspose.slides/output/
 | path | String | Output path. |
 | textContent | String | Content to output. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -145,7 +165,7 @@ url: /aspose.slides/output/
 | --- | --- | --- |
 | obj | Object | Resource object. |
 
- **Result:**
+ **Returns:**
 String
 
 

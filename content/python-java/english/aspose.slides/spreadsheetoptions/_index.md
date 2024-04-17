@@ -17,7 +17,7 @@ url: /aspose.slides/spreadsheetoptions/
 | --- | --- |
 | SpreadsheetOptions() | Initializes a new instance of the SpreadsheetOptions class. |
 
- **Result:**
+ **Returns:**
 SpreadsheetOptions
 
 
@@ -30,7 +30,7 @@ SpreadsheetOptions
 | --- | --- |
 | getPreferredCulture() | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
 
- **Result:**
+ **Returns:**
 Locale
 
 
@@ -43,7 +43,7 @@ Locale
 | --- | --- |
 | getRecoverWorkbookFromChartCache() | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**

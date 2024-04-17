@@ -28,7 +28,7 @@ url: /aspose.slides/fontsloader/
 | --- | --- |
 | getFontFolders() | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
 
- **Result:**
+ **Returns:**
 String
 
 
