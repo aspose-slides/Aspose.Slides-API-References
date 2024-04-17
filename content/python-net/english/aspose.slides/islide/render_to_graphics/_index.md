@@ -23,7 +23,7 @@ def render_to_graphics(self, options, graphics):
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 | graphics | **aspose.pydrawing.Graphics** | The object where to render to. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -46,7 +46,7 @@ def render_to_graphics(self, options, graphics, rendering_size):
 | graphics | **aspose.pydrawing.Graphics** | The object where to render to. |
 | rendering_size | **aspose.pydrawing.Size** | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -70,7 +70,7 @@ def render_to_graphics(self, options, graphics, scale_x, scale_y):
 | scale_x | **float** | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
 | scale_y | **float** | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

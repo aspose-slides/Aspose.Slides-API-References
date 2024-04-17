@@ -31,7 +31,7 @@ def add_summary_zoom_section(self, section):
 
 If an element for this section already exists in the collection, the existing element is returned.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

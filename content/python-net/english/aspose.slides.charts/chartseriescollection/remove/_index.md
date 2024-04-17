@@ -22,7 +22,7 @@ def remove(self, value):
 | :- | :- | :- |
 | value | [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries) | The value. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

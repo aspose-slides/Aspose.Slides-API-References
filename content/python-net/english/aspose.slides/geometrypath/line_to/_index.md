@@ -54,7 +54,7 @@ def line_to(self, point, index):
 | point | **aspose.pydrawing.PointF** | End point |
 | index | **int** | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -77,7 +77,7 @@ def line_to(self, x, y, index):
 | y | **float** | Y coordinate of the point |
 | index | **int** | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

@@ -19,7 +19,7 @@ def throw_if_interruption_requested(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

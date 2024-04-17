@@ -61,7 +61,7 @@ def add_clone(self, source_slide, section):
 | source_slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to clone. |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | Section for a new slide. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -117,7 +117,7 @@ def add_clone(self, source_slide, dest_master, allow_clone_missing_layout):
 | dest_master | [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide) | Master slide for a new slide. |
 | allow_clone_missing_layout | **bool** | If there is no appropriate layout in specified master then layout of the <br/><br/>            source slide will be cloned (if allowCloneMissingLayout is true) or <br/><br/>            PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

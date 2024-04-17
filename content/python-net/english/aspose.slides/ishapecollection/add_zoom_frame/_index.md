@@ -31,7 +31,7 @@ def add_zoom_frame(self, x, y, width, height, slide):
 | height | **float** | Height of a new Zoom frame **float**. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -62,7 +62,7 @@ def add_zoom_frame(self, x, y, width, height, slide, image):
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The slide object referenced by the Zoom frame [`ISlide`](/slides/python-net/aspose.slides/islide). |
 | image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

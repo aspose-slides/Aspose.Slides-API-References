@@ -23,7 +23,7 @@ def auto_by_extension(self, pres_path, out_path):
 | pres_path | **str** | Path of the input presentation |
 | out_path | **str** | Output path |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

@@ -42,7 +42,7 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 | point3 | **aspose.pydrawing.PointF** | End point |
 | index | **int** | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -89,7 +89,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 | y3 | **float** | Y coordinate of end point |
 | index | **int** | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

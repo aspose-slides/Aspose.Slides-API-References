@@ -23,7 +23,7 @@ def get_range(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

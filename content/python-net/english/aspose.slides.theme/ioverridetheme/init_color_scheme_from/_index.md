@@ -22,7 +22,7 @@ def init_color_scheme_from(self, color_scheme):
 | :- | :- | :- |
 | color_scheme | [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme) | Data to initialize from. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

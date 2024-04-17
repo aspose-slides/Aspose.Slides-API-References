@@ -31,7 +31,7 @@ def check_password(self, password):
 
 When the password is null or empty, this method returns false.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

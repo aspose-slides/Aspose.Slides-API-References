@@ -28,7 +28,7 @@ def add_author(self, name, initials):
 | name | **str** | Name of a new author. |
 | initials | **str** | Initials of a new author. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

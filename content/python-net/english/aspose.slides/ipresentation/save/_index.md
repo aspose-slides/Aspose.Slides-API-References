@@ -88,7 +88,7 @@ def save(self, stream, format, options):
 | format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 | options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -111,7 +111,7 @@ def save(self, fname, slides, format):
 | slides | **List[int]** | Array with slide positions, starting from 1. |
 | format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -136,7 +136,7 @@ def save(self, stream, slides, format):
 | slides | **List[int]** | Array with slide positions, starting from 1. |
 | format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -162,7 +162,7 @@ def save(self, fname, slides, format, options):
 | format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 | options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -188,7 +188,7 @@ def save(self, stream, slides, format, options):
 | format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 | options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

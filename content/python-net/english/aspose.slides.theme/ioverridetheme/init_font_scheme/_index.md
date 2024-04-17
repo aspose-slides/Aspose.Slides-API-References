@@ -18,7 +18,7 @@ def init_font_scheme(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

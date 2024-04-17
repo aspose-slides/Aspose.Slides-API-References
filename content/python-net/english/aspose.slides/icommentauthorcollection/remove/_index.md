@@ -22,7 +22,7 @@ def remove(self, author):
 | :- | :- | :- |
 | author | [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor) | The author to remove from a collection. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

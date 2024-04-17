@@ -22,7 +22,7 @@ def remove(self):
 
 To avoid throwing of the PptxEditException check layout's HasDependingSlides property before.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

@@ -27,7 +27,7 @@ def add_node_by_position(self, position):
 | :- | :- | :- |
 | position | **int** | Zero-base node position |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

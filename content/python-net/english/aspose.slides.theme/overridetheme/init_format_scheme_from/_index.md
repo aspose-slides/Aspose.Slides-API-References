@@ -22,7 +22,7 @@ def init_format_scheme_from(self, format_scheme):
 | :- | :- | :- |
 | format_scheme | [`IFormatScheme`](/slides/python-net/aspose.slides.theme/iformatscheme) | Data to initialize from. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

@@ -22,7 +22,7 @@ def delete_row(self, row_index):
 | :- | :- | :- |
 | row_index | **int** | The zero-based index of the row to delete. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

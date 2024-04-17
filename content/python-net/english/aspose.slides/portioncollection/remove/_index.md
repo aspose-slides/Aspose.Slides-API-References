@@ -31,7 +31,7 @@ def remove(self, item):
 | :- | :- | :- |
 | item | [`IPortion`](/slides/python-net/aspose.slides/iportion) | The object to remove from the **System.Collections.Generic.ICollection`1**. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

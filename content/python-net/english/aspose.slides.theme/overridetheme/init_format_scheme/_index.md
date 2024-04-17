@@ -18,7 +18,7 @@ def init_format_scheme(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

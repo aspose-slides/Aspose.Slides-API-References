@@ -18,7 +18,7 @@ def apply_default_paragraph_indents_shifts(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

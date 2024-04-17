@@ -22,7 +22,7 @@ def set_external_workbook(self, workbook_path):
 | :- | :- | :- |
 | workbook_path | **str** | Path to the target workbook |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -44,7 +44,7 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 | workbook_path | **str** | Path to the target workbook |
 | update_chart_data | **bool** | If value is false only workbook path will be updated. <br/><br/>             Chart data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available.<br/><br/>             If value is true chart data will be updated from the target workbook. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

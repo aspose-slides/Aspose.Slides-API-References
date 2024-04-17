@@ -58,7 +58,7 @@ def get_image(self, options):
 | :- | :- | :- |
 | options | [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions) | Tiff options. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -84,7 +84,7 @@ def get_image(self, options):
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -132,7 +132,7 @@ def get_image(self, options, image_size):
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 | image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -160,7 +160,7 @@ def get_image(self, options, scale_x, scale_y):
 | scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
 | scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

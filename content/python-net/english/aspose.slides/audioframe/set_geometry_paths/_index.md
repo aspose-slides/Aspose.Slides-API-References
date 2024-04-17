@@ -24,7 +24,7 @@ def set_geometry_paths(self, geometry_paths):
 | :- | :- | :- |
 | geometry_paths | **List[IGeometryPath]** | Array geometry paths |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

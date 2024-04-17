@@ -139,7 +139,7 @@ def add_image(self, svg_image):
 | :- | :- | :- |
 | svg_image | [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) | SVG image object [`ISvgImage`](/slides/python-net/aspose.slides/isvgimage) |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

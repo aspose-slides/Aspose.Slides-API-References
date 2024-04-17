@@ -32,7 +32,7 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section):
 | height | **float** | Height of a new Section Zoom frame **float**. |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | The slide object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -64,7 +64,7 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section, image):
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | The slide object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
 | image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

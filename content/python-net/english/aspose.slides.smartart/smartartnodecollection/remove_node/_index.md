@@ -22,7 +22,7 @@ def remove_node(self, index):
 | :- | :- | :- |
 | index | **int** | Zero-based index of node |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

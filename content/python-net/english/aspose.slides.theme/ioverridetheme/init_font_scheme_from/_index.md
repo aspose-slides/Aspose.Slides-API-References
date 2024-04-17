@@ -22,7 +22,7 @@ def init_font_scheme_from(self, font_scheme):
 | :- | :- | :- |
 | font_scheme | [`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme) | Data to initialize from. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

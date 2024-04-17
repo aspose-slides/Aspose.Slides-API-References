@@ -27,7 +27,7 @@ def set_embedded_data(self, embedded_data):
 This method changes the properties of the object to reflect the new data and 
             sets the IsObjectLink flag to false, indicating that the OLE object is embedded.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

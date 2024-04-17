@@ -18,7 +18,7 @@ def calculate_formulas(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

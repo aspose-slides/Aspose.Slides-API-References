@@ -28,7 +28,7 @@ def apply_external_theme_to_depending_slides(self, fname):
 | :- | :- | :- |
 | fname | **str** | Path to the external theme file (.thmx). |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

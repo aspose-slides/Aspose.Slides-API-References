@@ -24,7 +24,7 @@ def set_range(self, formula):
 | :- | :- | :- |
 | formula | **str** | The cells data range formula. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

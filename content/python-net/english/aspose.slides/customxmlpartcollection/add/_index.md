@@ -27,7 +27,7 @@ def add(self, xml_string):
 | :- | :- | :- |
 | xml_string | **str** | The xml string of new part to be added. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -54,7 +54,7 @@ def add(self, xml_data):
 | :- | :- | :- |
 | xml_data | **bytes** | The xml data of new part to be added. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -81,7 +81,7 @@ def add(self, input_stream):
 | :- | :- | :- |
 | input_stream | **io.RawIOBase** | The inputStream with xml data of new part to be added. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

@@ -27,7 +27,7 @@ def remove(self, item):
 | :- | :- | :- |
 | item | [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart) | The custom xml part to remove. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

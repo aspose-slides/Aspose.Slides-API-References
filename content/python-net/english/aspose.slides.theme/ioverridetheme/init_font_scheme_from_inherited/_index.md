@@ -18,7 +18,7 @@ def init_font_scheme_from_inherited(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

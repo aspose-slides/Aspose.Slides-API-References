@@ -42,7 +42,7 @@ def add(self, value):
 This method adds worksheet with name AUTO_DATA and adds all values there.  If you use [`ChartDataWorkbook`](/slides/python-net/aspose.slides.charts/chartdataworkbook) to add or edit Cell values, be sure that you do not use this worksheet
             Maximum number of values added using this method must not exceed 16711680
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

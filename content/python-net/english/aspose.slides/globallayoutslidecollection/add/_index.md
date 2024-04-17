@@ -38,7 +38,7 @@ layout_type`
             2) Analogue of this method is method **Aspose.Slides.IMasterLayoutSlideCollection.Add(Aspose.Slides.SlideLayoutType,Syste**
             accessed with [`IMasterSlide.layout_slides`](/slides/python-net/aspose.slides/imasterslide#layout_slides) property.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

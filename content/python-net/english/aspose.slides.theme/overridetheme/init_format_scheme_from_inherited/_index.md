@@ -18,7 +18,7 @@ def init_format_scheme_from_inherited(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

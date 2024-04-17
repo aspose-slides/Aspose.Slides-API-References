@@ -36,7 +36,7 @@ layout_type`
  
             contains no placeholders and no shapes.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

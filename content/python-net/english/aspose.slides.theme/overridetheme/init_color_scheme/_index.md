@@ -18,7 +18,7 @@ def init_color_scheme(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

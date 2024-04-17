@@ -22,7 +22,7 @@ def remove(self, comment):
 | :- | :- | :- |
 | comment | [`IComment`](/slides/python-net/aspose.slides/icomment) | The comment to remove from a collection. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

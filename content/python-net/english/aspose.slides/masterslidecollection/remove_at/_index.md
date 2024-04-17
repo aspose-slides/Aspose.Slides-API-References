@@ -26,7 +26,7 @@ def remove_at(self, index):
 
 To avoid throwing of the PptxEditException check master's HasDependingSlides property before.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

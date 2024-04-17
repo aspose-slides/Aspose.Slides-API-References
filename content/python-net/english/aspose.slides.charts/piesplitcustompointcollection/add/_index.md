@@ -22,7 +22,7 @@ def add(self, data_point_index):
 | :- | :- | :- |
 | data_point_index | **int** | Index of data point in parent series points collection. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

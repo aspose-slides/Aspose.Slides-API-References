@@ -66,7 +66,7 @@ def __init__(self, file):
 | :- | :- | :- |
 | file | **str** | Input file. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -105,7 +105,7 @@ def __init__(self, file, load_options):
 | file | **str** | Input file. |
 | load_options | [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions) | Additional load options. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |

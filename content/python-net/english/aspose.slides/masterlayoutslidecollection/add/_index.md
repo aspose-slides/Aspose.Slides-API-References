@@ -38,7 +38,7 @@ layout_type`
             method **Aspose.Slides.IGlobalLayoutSlideCollection.Add(Aspose.Slides.IMasterSlide,Aspose.Slides.SlideLayoutType,Syste**
             accessed with [`IPresentation.layout_slides`](/slides/python-net/aspose.slides/ipresentation#layout_slides) property.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
