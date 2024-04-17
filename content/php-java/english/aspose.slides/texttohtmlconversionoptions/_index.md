@@ -17,7 +17,7 @@ url: /aspose.slides/texttohtmlconversionoptions/
 | --- | --- |
 | TextToHtmlConversionOptions() |  |
 
- **Result:**
+ **Returns:**
 TextToHtmlConversionOptions
 
 

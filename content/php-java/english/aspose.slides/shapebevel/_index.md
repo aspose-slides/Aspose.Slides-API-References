@@ -23,7 +23,7 @@ url: /aspose.slides/shapebevel/
 | --- | --- | --- |
 | bIsTopBevel | boolean | Is top bevel. |
 
- **Result:**
+ **Returns:**
 ShapeBevel
 
 

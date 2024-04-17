@@ -19,7 +19,7 @@ url: /aspose.slides/imagetransformoperationfactory/
 | --- | --- |
 | ImageTransformOperationFactory() |  |
 
- **Result:**
+ **Returns:**
 ImageTransformOperationFactory
 
 

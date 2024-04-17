@@ -17,7 +17,7 @@ url: /aspose.slides/loadoptions/
 | --- | --- |
 | LoadOptions() | Creates new default load options. |
 
- **Result:**
+ **Returns:**
 LoadOptions
 
 
@@ -36,7 +36,7 @@ LoadOptions
 | --- | --- | --- |
 | loadFormat | int | Format of a presentation to load. |
 
- **Result:**
+ **Returns:**
 LoadOptions
 
 

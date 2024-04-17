@@ -17,7 +17,7 @@ url: /aspose.slides/pointcollection/
 | --- | --- |
 | PointCollection() |  |
 
- **Result:**
+ **Returns:**
 PointCollection
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/vbareferencefactory/
 | --- | --- |
 | VbaReferenceFactory() |  |
 
- **Result:**
+ **Returns:**
 VbaReferenceFactory
 
 

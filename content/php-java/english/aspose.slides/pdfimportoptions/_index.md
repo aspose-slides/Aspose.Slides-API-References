@@ -17,7 +17,7 @@ url: /aspose.slides/pdfimportoptions/
 | --- | --- |
 | PdfImportOptions() |  |
 
- **Result:**
+ **Returns:**
 PdfImportOptions
 
 

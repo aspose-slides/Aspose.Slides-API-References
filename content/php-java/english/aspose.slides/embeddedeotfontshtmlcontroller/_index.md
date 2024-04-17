@@ -17,7 +17,7 @@ url: /aspose.slides/embeddedeotfontshtmlcontroller/
 | --- | --- |
 | EmbeddedEotFontsHtmlController() | Creates new instance. |
 
- **Result:**
+ **Returns:**
 EmbeddedEotFontsHtmlController
 
 
@@ -36,7 +36,7 @@ EmbeddedEotFontsHtmlController
 | --- | --- | --- |
 | controller | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | HTML formatting controller. |
 
- **Result:**
+ **Returns:**
 EmbeddedEotFontsHtmlController
 
 
@@ -55,7 +55,7 @@ EmbeddedEotFontsHtmlController
 | --- | --- | --- |
 | controller | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | HTML formatting controller. |
 
- **Result:**
+ **Returns:**
 EmbeddedEotFontsHtmlController
 
 
@@ -74,7 +74,7 @@ EmbeddedEotFontsHtmlController
 | --- | --- | --- |
 | controller | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | HTML formatting controller. |
 
- **Result:**
+ **Returns:**
 EmbeddedEotFontsHtmlController
 
 
@@ -93,7 +93,7 @@ EmbeddedEotFontsHtmlController
 | --- | --- | --- |
 | controller | [ResponsiveHtmlController](../responsivehtmlcontroller) | HTML formatting controller. |
 
- **Result:**
+ **Returns:**
 EmbeddedEotFontsHtmlController
 
 
@@ -112,7 +112,7 @@ EmbeddedEotFontsHtmlController
 | --- | --- | --- |
 | controller | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | HTML formatting controller. |
 
- **Result:**
+ **Returns:**
 EmbeddedEotFontsHtmlController
 
 
@@ -149,19 +149,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
  **Returns:**
@@ -175,7 +162,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
 
  **Returns:**
 void
@@ -189,6 +176,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
  **Returns:**
 void
@@ -266,7 +266,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
 
  **Returns:**
 void
@@ -279,7 +279,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
 
  **Returns:**
 void
@@ -409,19 +409,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
  **Returns:**
@@ -435,7 +422,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
 
  **Returns:**
 void
@@ -449,6 +436,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
  **Returns:**
 void
@@ -526,7 +526,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
 
  **Returns:**
 void
@@ -539,7 +539,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
 
  **Returns:**
 void

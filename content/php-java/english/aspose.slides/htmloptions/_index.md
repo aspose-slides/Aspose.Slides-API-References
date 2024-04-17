@@ -23,7 +23,7 @@ url: /aspose.slides/htmloptions/
 | --- | --- | --- |
 | linkEmbedController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback object which controls saving project. |
 
- **Result:**
+ **Returns:**
 HtmlOptions
 
 
@@ -36,7 +36,7 @@ HtmlOptions
 | --- | --- |
 | HtmlOptions() | Creates a new HtmlOptions object for saving into single HTML file. |
 
- **Result:**
+ **Returns:**
 HtmlOptions
 
 

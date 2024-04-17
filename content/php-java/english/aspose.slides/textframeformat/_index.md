@@ -17,7 +17,7 @@ url: /aspose.slides/textframeformat/
 | --- | --- |
 | TextFrameFormat() | Initializes a new instance of TextFrameFormat class. |
 
- **Result:**
+ **Returns:**
 TextFrameFormat
 
 

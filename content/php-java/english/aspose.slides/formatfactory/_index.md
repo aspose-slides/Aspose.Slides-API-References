@@ -17,7 +17,7 @@ url: /aspose.slides/formatfactory/
 | --- | --- |
 | FormatFactory() |  |
 
- **Result:**
+ **Returns:**
 FormatFactory
 
 

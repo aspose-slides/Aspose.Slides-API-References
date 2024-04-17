@@ -23,7 +23,7 @@ url: /aspose.slides/hyperlink/
 | --- | --- | --- |
 | url | String | Hyperlink URL. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -42,7 +42,7 @@ Hyperlink
 | --- | --- | --- |
 | slide | [Slide](../slide) | Target slide. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -66,7 +66,7 @@ Hyperlink
 | stopSoundsOnClick | boolean | Determines whether the sound should be stopped on hyperlink click. |
 | highlightClick | boolean | Determines whether the hyperlink should be highlighted on click. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 

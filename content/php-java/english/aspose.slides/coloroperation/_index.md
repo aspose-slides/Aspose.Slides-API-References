@@ -24,7 +24,7 @@ url: /aspose.slides/coloroperation/
 | --- | --- | --- |
 | op | int | Operation type. |
 
- **Result:**
+ **Returns:**
 ColorOperation
 
 
@@ -44,7 +44,7 @@ ColorOperation
 | op | int | Operation type. |
 | parameter | float | Operation parameter. |
 
- **Result:**
+ **Returns:**
 ColorOperation
 
 

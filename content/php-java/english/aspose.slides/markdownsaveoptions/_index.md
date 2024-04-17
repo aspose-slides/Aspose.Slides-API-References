@@ -17,7 +17,7 @@ url: /aspose.slides/markdownsaveoptions/
 | --- | --- |
 | MarkdownSaveOptions() | Ctor. |
 
- **Result:**
+ **Returns:**
 MarkdownSaveOptions
 
 

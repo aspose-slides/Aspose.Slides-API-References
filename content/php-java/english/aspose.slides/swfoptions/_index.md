@@ -17,7 +17,7 @@ url: /aspose.slides/swfoptions/
 | --- | --- |
 | SwfOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 SwfOptions
 
 

@@ -19,7 +19,7 @@ url: /aspose.slides/mathblockfactory/
 | --- | --- |
 | MathBlockFactory() |  |
 
- **Result:**
+ **Returns:**
 MathBlockFactory
 
 
@@ -62,13 +62,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathMatrix](../mathmatrix)) | Create a math block and place the element in it |
+| createMathBlock ([MathLimit](../mathlimit)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathMatrix](../mathmatrix) | A math element |
+| mathElement | [MathLimit](../mathlimit) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -81,13 +81,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathLimit](../mathlimit)) | Create a math block and place the element in it |
+| createMathBlock ([MathMatrix](../mathmatrix)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathLimit](../mathlimit) | A math element |
+| mathElement | [MathMatrix](../mathmatrix) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -271,6 +271,25 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
+| createMathBlock ([MathSubscriptElement](../mathsubscriptelement)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathSubscriptElement](../mathsubscriptelement) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
 | createMathBlock ([MathFunction](../mathfunction)) | Create a math block and place the element in it |
 
  **Parameters:**
@@ -297,25 +316,6 @@ MathBlockFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathSuperscriptElement](../mathsuperscriptelement) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([MathSubscriptElement](../mathsubscriptelement)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathSubscriptElement](../mathsubscriptelement) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)

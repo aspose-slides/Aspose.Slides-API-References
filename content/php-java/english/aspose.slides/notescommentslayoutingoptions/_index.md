@@ -17,7 +17,7 @@ url: /aspose.slides/notescommentslayoutingoptions/
 | --- | --- |
 | NotesCommentsLayoutingOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 NotesCommentsLayoutingOptions
 
 

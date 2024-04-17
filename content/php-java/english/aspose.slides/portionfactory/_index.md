@@ -19,7 +19,7 @@ url: /aspose.slides/portionfactory/
 | --- | --- |
 | PortionFactory() |  |
 
- **Result:**
+ **Returns:**
 PortionFactory
 
 

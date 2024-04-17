@@ -19,7 +19,7 @@ url: /aspose.slides/videoplayerhtmlcontrollerfactory/
 | --- | --- |
 | VideoPlayerHtmlControllerFactory() |  |
 
- **Result:**
+ **Returns:**
 VideoPlayerHtmlControllerFactory
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/htmlexternalresolver/
 | --- | --- |
 | HtmlExternalResolver() |  |
 
- **Result:**
+ **Returns:**
 HtmlExternalResolver
 
 

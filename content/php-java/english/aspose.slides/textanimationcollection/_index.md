@@ -17,7 +17,7 @@ url: /aspose.slides/textanimationcollection/
 | --- | --- |
 | TextAnimationCollection() |  |
 
- **Result:**
+ **Returns:**
 TextAnimationCollection
 
 
@@ -67,25 +67,6 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Connector](../connector)) | Returns all elements |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Connector](../connector) | IShape to remove. |
-
- **Returns:**
-[TextAnimation](../textanimation)
-
-
----
-
-
-### get_Item {#get_Item}
-
-| Name | Description |
-| --- | --- |
 | get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
 
  **Parameters:**
@@ -105,13 +86,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Shape](../shape)) | Returns all elements |
+| get_Item ([Connector](../connector)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Shape](../shape) | IShape to remove. |
+| shape | [Connector](../connector) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -131,6 +112,25 @@ Object
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Table](../table) | IShape to remove. |
+
+ **Returns:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([Shape](../shape)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Shape](../shape) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -238,13 +238,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
+| get_Item ([OleObjectFrame](../oleobjectframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [VideoFrame](../videoframe) | IShape to remove. |
+| shape | [OleObjectFrame](../oleobjectframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -257,13 +257,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([OleObjectFrame](../oleobjectframe)) | Returns all elements |
+| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../oleobjectframe) | IShape to remove. |
+| shape | [VideoFrame](../videoframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)

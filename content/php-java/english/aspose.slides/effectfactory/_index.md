@@ -19,7 +19,7 @@ url: /aspose.slides/effectfactory/
 | --- | --- |
 | EffectFactory() |  |
 
- **Result:**
+ **Returns:**
 EffectFactory
 
 

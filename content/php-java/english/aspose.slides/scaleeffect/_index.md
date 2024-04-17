@@ -17,7 +17,7 @@ url: /aspose.slides/scaleeffect/
 | --- | --- |
 | ScaleEffect() |  |
 
- **Result:**
+ **Returns:**
 ScaleEffect
 
 

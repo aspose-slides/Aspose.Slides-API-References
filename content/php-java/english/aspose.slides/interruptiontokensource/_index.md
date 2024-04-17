@@ -17,7 +17,7 @@ url: /aspose.slides/interruptiontokensource/
 | --- | --- |
 | InterruptionTokenSource() | Creates a new InterruptionTokenSource. |
 
- **Result:**
+ **Returns:**
 InterruptionTokenSource
 
 

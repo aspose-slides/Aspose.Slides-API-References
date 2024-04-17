@@ -17,7 +17,7 @@ url: /aspose.slides/webdocumentoptions/
 | --- | --- |
 | WebDocumentOptions() |  |
 
- **Result:**
+ **Returns:**
 WebDocumentOptions
 
 

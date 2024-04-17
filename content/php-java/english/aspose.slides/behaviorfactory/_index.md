@@ -19,7 +19,7 @@ url: /aspose.slides/behaviorfactory/
 | --- | --- |
 | BehaviorFactory() |  |
 
- **Result:**
+ **Returns:**
 BehaviorFactory
 
 

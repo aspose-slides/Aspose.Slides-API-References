@@ -19,7 +19,7 @@ url: /aspose.slides/mathdelimiterfactory/
 | --- | --- |
 | MathDelimiterFactory() |  |
 
- **Result:**
+ **Returns:**
 MathDelimiterFactory
 
 
@@ -49,13 +49,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathMatrix](../mathmatrix)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathLimit](../mathlimit)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | math element to apply delimiter |
+| element | [MathLimit](../mathlimit) | math element to apply delimiter |
 
  **Returns:**
 [MathDelimiter](../mathdelimiter)
@@ -68,13 +68,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathLimit](../mathlimit)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathMatrix](../mathmatrix)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../mathlimit) | math element to apply delimiter |
+| element | [MathMatrix](../mathmatrix) | math element to apply delimiter |
 
  **Returns:**
 [MathDelimiter](../mathdelimiter)
@@ -258,6 +258,25 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
+| createMathDelimiter ([MathSubscriptElement](../mathsubscriptelement)) | Create a math delimiter by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply delimiter |
+
+ **Returns:**
+[MathDelimiter](../mathdelimiter)
+
+
+---
+
+
+### createMathDelimiter {#createMathDelimiter}
+
+| Name | Description |
+| --- | --- |
 | createMathDelimiter ([MathFunction](../mathfunction)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
@@ -284,25 +303,6 @@ MathDelimiterFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply delimiter |
-
- **Returns:**
-[MathDelimiter](../mathdelimiter)
-
-
----
-
-
-### createMathDelimiter {#createMathDelimiter}
-
-| Name | Description |
-| --- | --- |
-| createMathDelimiter ([MathSubscriptElement](../mathsubscriptelement)) | Create a math delimiter by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply delimiter |
 
  **Returns:**
 [MathDelimiter](../mathdelimiter)

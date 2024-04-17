@@ -17,7 +17,7 @@ url: /aspose.slides/cellinvalidreferenceexception/
 | --- | --- |
 | CellInvalidReferenceException() | Initializes a new instance of the CellInvalidReferenceException class. |
 
- **Result:**
+ **Returns:**
 CellInvalidReferenceException
 
 
@@ -36,7 +36,7 @@ CellInvalidReferenceException
 | --- | --- | --- |
 | message | String | A string that describes the error. |
 
- **Result:**
+ **Returns:**
 CellInvalidReferenceException
 
 
@@ -56,7 +56,7 @@ CellInvalidReferenceException
 | message | String | A string that describes the error. |
 | innerException | RuntimeException | The exception that is the cause of the current exception. |
 
- **Result:**
+ **Returns:**
 CellInvalidReferenceException
 
 
@@ -76,7 +76,7 @@ CellInvalidReferenceException
 | message | String | A string that describes the error. |
 | reference | String | An invalid cell reference. |
 
- **Result:**
+ **Returns:**
 CellInvalidReferenceException
 
 

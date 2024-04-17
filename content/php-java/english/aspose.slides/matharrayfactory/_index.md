@@ -19,7 +19,7 @@ url: /aspose.slides/matharrayfactory/
 | --- | --- |
 | MathArrayFactory() |  |
 
- **Result:**
+ **Returns:**
 MathArrayFactory
 
 
@@ -49,13 +49,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathMatrix](../mathmatrix)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathLimit](../mathlimit)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | math element to place in array |
+| element | [MathLimit](../mathlimit) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -68,13 +68,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathLimit](../mathlimit)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathMatrix](../mathmatrix)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../mathlimit) | math element to place in array |
+| element | [MathMatrix](../mathmatrix) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -258,6 +258,25 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
+| createMathArray ([MathSubscriptElement](../mathsubscriptelement)) | Creates a math array and places the specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to place in array |
+
+ **Returns:**
+[MathArray](../matharray)
+
+
+---
+
+
+### createMathArray {#createMathArray}
+
+| Name | Description |
+| --- | --- |
 | createMathArray ([MathFunction](../mathfunction)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
@@ -284,25 +303,6 @@ MathArrayFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to place in array |
-
- **Returns:**
-[MathArray](../matharray)
-
-
----
-
-
-### createMathArray {#createMathArray}
-
-| Name | Description |
-| --- | --- |
-| createMathArray ([MathSubscriptElement](../mathsubscriptelement)) | Creates a math array and places the specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)

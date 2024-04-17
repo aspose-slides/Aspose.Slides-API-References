@@ -20,7 +20,7 @@ url: /aspose.slides/portionformat/
 | --- | --- |
 | PortionFormat() | Initializes a new instance of PortionFormat class. |
 
- **Result:**
+ **Returns:**
 PortionFormat
 
 

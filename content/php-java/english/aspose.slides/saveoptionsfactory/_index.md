@@ -19,7 +19,7 @@ url: /aspose.slides/saveoptionsfactory/
 | --- | --- |
 | SaveOptionsFactory() |  |
 
- **Result:**
+ **Returns:**
 SaveOptionsFactory
 
 

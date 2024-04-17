@@ -15,7 +15,7 @@ url: /aspose.slides/point2ddouble/
 | --- | --- |
 | Point2DDouble() |  |
 
- **Result:**
+ **Returns:**
 Point2DDouble
 
 
@@ -28,7 +28,7 @@ Point2DDouble
 | --- | --- |
 | Point2DDouble(double, double) |  |
 
- **Result:**
+ **Returns:**
 Point2DDouble
 
 

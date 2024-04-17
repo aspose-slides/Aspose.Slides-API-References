@@ -18,7 +18,7 @@ url: /aspose.slides/mathblock/
 | --- | --- |
 | MathBlock() | Initializes a new instance of the MathBlock class. |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -37,26 +37,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The mathematical element to put in the block |
 
- **Result:**
-MathBlock
-
-
----
-
-
-### MathBlock {#MathBlock}
-
-| Name | Description |
-| --- | --- |
-| MathBlock([MathMatrix](../mathmatrix)) | Creates a new mathematical block and puts specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathMatrix](../mathmatrix) | The mathematical element to put in the block |
-
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -75,7 +56,26 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathLimit](../mathlimit) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
+MathBlock
+
+
+---
+
+
+### MathBlock {#MathBlock}
+
+| Name | Description |
+| --- | --- |
+| MathBlock([MathMatrix](../mathmatrix)) | Creates a new mathematical block and puts specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathMatrix](../mathmatrix) | The mathematical element to put in the block |
+
+ **Returns:**
 MathBlock
 
 
@@ -94,7 +94,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathBlock](../mathblock) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -113,7 +113,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathRadical](../mathradical) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -132,7 +132,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathArray](../matharray) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -151,7 +151,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathDelimiter](../mathdelimiter) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -170,7 +170,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathNaryOperator](../mathnaryoperator) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -189,7 +189,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathAccent](../mathaccent) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -208,7 +208,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathGroupingCharacter](../mathgroupingcharacter) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -227,7 +227,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathBorderBox](../mathborderbox) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -246,45 +246,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathBar](../mathbar) | The mathematical element to put in the block |
 
- **Result:**
-MathBlock
-
-
----
-
-
-### MathBlock {#MathBlock}
-
-| Name | Description |
-| --- | --- |
-| MathBlock([MathFunction](../mathfunction)) | Creates a new mathematical block and puts specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../mathfunction) | The mathematical element to put in the block |
-
- **Result:**
-MathBlock
-
-
----
-
-
-### MathBlock {#MathBlock}
-
-| Name | Description |
-| --- | --- |
-| MathBlock([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a new mathematical block and puts specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathSuperscriptElement](../mathsuperscriptelement) | The mathematical element to put in the block |
-
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -303,7 +265,45 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathSubscriptElement](../mathsubscriptelement) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
+MathBlock
+
+
+---
+
+
+### MathBlock {#MathBlock}
+
+| Name | Description |
+| --- | --- |
+| MathBlock([MathFunction](../mathfunction)) | Creates a new mathematical block and puts specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../mathfunction) | The mathematical element to put in the block |
+
+ **Returns:**
+MathBlock
+
+
+---
+
+
+### MathBlock {#MathBlock}
+
+| Name | Description |
+| --- | --- |
+| MathBlock([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a new mathematical block and puts specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathSuperscriptElement](../mathsuperscriptelement) | The mathematical element to put in the block |
+
+ **Returns:**
 MathBlock
 
 
@@ -322,7 +322,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathFraction](../mathfraction) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -341,7 +341,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathematicalText](../mathematicaltext) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -360,7 +360,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathBox](../mathbox) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -379,7 +379,7 @@ MathBlock
 | --- | --- | --- |
 | mathElement | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The mathematical element to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -398,7 +398,7 @@ MathBlock
 | --- | --- | --- |
 | mathElements | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement> | Mathematical elements to put in the block |
 
- **Result:**
+ **Returns:**
 MathBlock
 
 
@@ -428,13 +428,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| add ([MathMatrix](../mathmatrix)) | Adds a math element to the end of the collection. |
+| add ([MathLimit](../mathlimit)) | Adds a math element to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathMatrix](../mathmatrix) | The IMathElement to be added to the end of the collection. |
+| item | [MathLimit](../mathlimit) | The IMathElement to be added to the end of the collection. |
 
  **Returns:**
 void
@@ -447,13 +447,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| add ([MathLimit](../mathlimit)) | Adds a math element to the end of the collection. |
+| add ([MathMatrix](../mathmatrix)) | Adds a math element to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathLimit](../mathlimit) | The IMathElement to be added to the end of the collection. |
+| item | [MathMatrix](../mathmatrix) | The IMathElement to be added to the end of the collection. |
 
  **Returns:**
 void
@@ -637,6 +637,25 @@ void
 
 | Name | Description |
 | --- | --- |
+| add ([MathSubscriptElement](../mathsubscriptelement)) | Adds a math element to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathSubscriptElement](../mathsubscriptelement) | The IMathElement to be added to the end of the collection. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
 | add ([MathFunction](../mathfunction)) | Adds a math element to the end of the collection. |
 
  **Parameters:**
@@ -663,25 +682,6 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSuperscriptElement](../mathsuperscriptelement) | The IMathElement to be added to the end of the collection. |
-
- **Returns:**
-void
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add ([MathSubscriptElement](../mathsubscriptelement)) | Adds a math element to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathSubscriptElement](../mathsubscriptelement) | The IMathElement to be added to the end of the collection. |
 
  **Returns:**
 void
@@ -802,13 +802,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| contains ([MathMatrix](../mathmatrix)) | Determines whether the collection contains a specific value. |
+| contains ([MathLimit](../mathlimit)) | Determines whether the collection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathMatrix](../mathmatrix) | The object to locate in the collection. |
+| item | [MathLimit](../mathlimit) | The object to locate in the collection. |
 
  **Returns:**
 boolean
@@ -821,13 +821,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| contains ([MathLimit](../mathlimit)) | Determines whether the collection contains a specific value. |
+| contains ([MathMatrix](../mathmatrix)) | Determines whether the collection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathLimit](../mathlimit) | The object to locate in the collection. |
+| item | [MathMatrix](../mathmatrix) | The object to locate in the collection. |
 
  **Returns:**
 boolean
@@ -1011,6 +1011,25 @@ boolean
 
 | Name | Description |
 | --- | --- |
+| contains ([MathSubscriptElement](../mathsubscriptelement)) | Determines whether the collection contains a specific value. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathSubscriptElement](../mathsubscriptelement) | The object to locate in the collection. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### contains {#contains}
+
+| Name | Description |
+| --- | --- |
 | contains ([MathFunction](../mathfunction)) | Determines whether the collection contains a specific value. |
 
  **Parameters:**
@@ -1037,25 +1056,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSuperscriptElement](../mathsuperscriptelement) | The object to locate in the collection. |
-
- **Returns:**
-boolean
-
-
----
-
-
-### contains {#contains}
-
-| Name | Description |
-| --- | --- |
-| contains ([MathSubscriptElement](../mathsubscriptelement)) | Determines whether the collection contains a specific value. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathSubscriptElement](../mathsubscriptelement) | The object to locate in the collection. |
 
  **Returns:**
 boolean
@@ -1227,7 +1227,7 @@ void
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
@@ -1259,7 +1259,7 @@ int
 | index | int | The zero-based index of the item |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
@@ -1288,13 +1288,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf ([MathMatrix](../mathmatrix)) | Determines the index of a specific math element in collection. |
+| indexOf ([MathLimit](../mathlimit)) | Determines the index of a specific math element in collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathMatrix](../mathmatrix) | The element to locate in the collection. |
+| item | [MathLimit](../mathlimit) | The element to locate in the collection. |
 
  **Returns:**
 int
@@ -1307,13 +1307,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf ([MathLimit](../mathlimit)) | Determines the index of a specific math element in collection. |
+| indexOf ([MathMatrix](../mathmatrix)) | Determines the index of a specific math element in collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathLimit](../mathlimit) | The element to locate in the collection. |
+| item | [MathMatrix](../mathmatrix) | The element to locate in the collection. |
 
  **Returns:**
 int
@@ -1497,6 +1497,25 @@ int
 
 | Name | Description |
 | --- | --- |
+| indexOf ([MathSubscriptElement](../mathsubscriptelement)) | Determines the index of a specific math element in collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathSubscriptElement](../mathsubscriptelement) | The element to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
 | indexOf ([MathFunction](../mathfunction)) | Determines the index of a specific math element in collection. |
 
  **Parameters:**
@@ -1523,25 +1542,6 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSuperscriptElement](../mathsuperscriptelement) | The element to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([MathSubscriptElement](../mathsubscriptelement)) | Determines the index of a specific math element in collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathSubscriptElement](../mathsubscriptelement) | The element to locate in the collection. |
 
  **Returns:**
 int
@@ -1650,14 +1650,14 @@ void
 
 | Name | Description |
 | --- | --- |
-| insert (int, [MathMatrix](../mathmatrix)) | Inserts a MathElement into the collection at the specified index. |
+| insert (int, [MathLimit](../mathlimit)) | Inserts a MathElement into the collection at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathMatrix](../mathmatrix) | The MathElement to insert. |
+| item | [MathLimit](../mathlimit) | The MathElement to insert. |
 
  **Returns:**
 void
@@ -1670,14 +1670,14 @@ void
 
 | Name | Description |
 | --- | --- |
-| insert (int, [MathLimit](../mathlimit)) | Inserts a MathElement into the collection at the specified index. |
+| insert (int, [MathMatrix](../mathmatrix)) | Inserts a MathElement into the collection at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathLimit](../mathlimit) | The MathElement to insert. |
+| item | [MathMatrix](../mathmatrix) | The MathElement to insert. |
 
  **Returns:**
 void
@@ -1870,6 +1870,26 @@ void
 
 | Name | Description |
 | --- | --- |
+| insert (int, [MathSubscriptElement](../mathsubscriptelement)) | Inserts a MathElement into the collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | [MathSubscriptElement](../mathsubscriptelement) | The MathElement to insert. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### insert {#insert}
+
+| Name | Description |
+| --- | --- |
 | insert (int, [MathFunction](../mathfunction)) | Inserts a MathElement into the collection at the specified index. |
 
  **Parameters:**
@@ -1898,26 +1918,6 @@ void
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
 | item | [MathSuperscriptElement](../mathsuperscriptelement) | The MathElement to insert. |
-
- **Returns:**
-void
-
-
----
-
-
-### insert {#insert}
-
-| Name | Description |
-| --- | --- |
-| insert (int, [MathSubscriptElement](../mathsubscriptelement)) | Inserts a MathElement into the collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathSubscriptElement](../mathsubscriptelement) | The MathElement to insert. |
 
  **Returns:**
 void
@@ -2068,13 +2068,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| join ([MathMatrix](../mathmatrix)) | Joins a mathematical element with this mathematical block |
+| join ([MathLimit](../mathlimit)) | Joins a mathematical element with this mathematical block |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathMatrix](../mathmatrix) | The element to be joined |
+| mathElement | [MathLimit](../mathlimit) | The element to be joined |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -2087,13 +2087,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| join ([MathLimit](../mathlimit)) | Joins a mathematical element with this mathematical block |
+| join ([MathMatrix](../mathmatrix)) | Joins a mathematical element with this mathematical block |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathLimit](../mathlimit) | The element to be joined |
+| mathElement | [MathMatrix](../mathmatrix) | The element to be joined |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -2277,6 +2277,25 @@ boolean
 
 | Name | Description |
 | --- | --- |
+| join ([MathSubscriptElement](../mathsubscriptelement)) | Joins a mathematical element with this mathematical block |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathSubscriptElement](../mathsubscriptelement) | The element to be joined |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### join {#join}
+
+| Name | Description |
+| --- | --- |
 | join ([MathFunction](../mathfunction)) | Joins a mathematical element with this mathematical block |
 
  **Parameters:**
@@ -2303,25 +2322,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathSuperscriptElement](../mathsuperscriptelement) | The element to be joined |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### join {#join}
-
-| Name | Description |
-| --- | --- |
-| join ([MathSubscriptElement](../mathsubscriptelement)) | Joins a mathematical element with this mathematical block |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathSubscriptElement](../mathsubscriptelement) | The element to be joined |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -2467,13 +2467,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([MathMatrix](../mathmatrix)) | Removes the first occurrence of a specific object from the collection. |
+| remove ([MathLimit](../mathlimit)) | Removes the first occurrence of a specific object from the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathMatrix](../mathmatrix) | The object to remove from the collection. |
+| item | [MathLimit](../mathlimit) | The object to remove from the collection. |
 
  **Returns:**
 boolean
@@ -2486,13 +2486,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([MathLimit](../mathlimit)) | Removes the first occurrence of a specific object from the collection. |
+| remove ([MathMatrix](../mathmatrix)) | Removes the first occurrence of a specific object from the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathLimit](../mathlimit) | The object to remove from the collection. |
+| item | [MathMatrix](../mathmatrix) | The object to remove from the collection. |
 
  **Returns:**
 boolean
@@ -2676,6 +2676,25 @@ boolean
 
 | Name | Description |
 | --- | --- |
+| remove ([MathSubscriptElement](../mathsubscriptelement)) | Removes the first occurrence of a specific object from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathSubscriptElement](../mathsubscriptelement) | The object to remove from the collection. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
 | remove ([MathFunction](../mathfunction)) | Removes the first occurrence of a specific object from the collection. |
 
  **Parameters:**
@@ -2702,25 +2721,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSuperscriptElement](../mathsuperscriptelement) | The object to remove from the collection. |
-
- **Returns:**
-boolean
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([MathSubscriptElement](../mathsubscriptelement)) | Removes the first occurrence of a specific object from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathSubscriptElement](../mathsubscriptelement) | The object to remove from the collection. |
 
  **Returns:**
 boolean
@@ -2848,14 +2848,14 @@ void
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, [MathMatrix](../mathmatrix)) | Gets or sets IMathElement at the specified index. |
+| set_Item (int, [MathLimit](../mathlimit)) | Gets or sets IMathElement at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | [MathMatrix](../mathmatrix) | The zero-based index of the item |
+| index | [MathLimit](../mathlimit) | The zero-based index of the item |
 
  **Returns:**
 void
@@ -2868,14 +2868,14 @@ void
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, [MathLimit](../mathlimit)) | Gets or sets IMathElement at the specified index. |
+| set_Item (int, [MathMatrix](../mathmatrix)) | Gets or sets IMathElement at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | [MathLimit](../mathlimit) | The zero-based index of the item |
+| index | [MathMatrix](../mathmatrix) | The zero-based index of the item |
 
  **Returns:**
 void
@@ -3068,6 +3068,26 @@ void
 
 | Name | Description |
 | --- | --- |
+| set_Item (int, [MathSubscriptElement](../mathsubscriptelement)) | Gets or sets IMathElement at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathSubscriptElement](../mathsubscriptelement) | The zero-based index of the item |
+
+ **Returns:**
+void
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
 | set_Item (int, [MathFunction](../mathfunction)) | Gets or sets IMathElement at the specified index. |
 
  **Parameters:**
@@ -3096,26 +3116,6 @@ void
 | --- | --- | --- |
 | value | int | The mathematical element. |
 | index | [MathSuperscriptElement](../mathsuperscriptelement) | The zero-based index of the item |
-
- **Returns:**
-void
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, [MathSubscriptElement](../mathsubscriptelement)) | Gets or sets IMathElement at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathSubscriptElement](../mathsubscriptelement) | The zero-based index of the item |
 
  **Returns:**
 void

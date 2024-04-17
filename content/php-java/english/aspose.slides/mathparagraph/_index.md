@@ -17,7 +17,7 @@ url: /aspose.slides/mathparagraph/
 | --- | --- |
 | MathParagraph() | Initializes a new instance of the MathParagraph class. |
 
- **Result:**
+ **Returns:**
 MathParagraph
 
 
@@ -30,7 +30,7 @@ MathParagraph
 | --- | --- |
 | MathParagraph([MathBlock](../mathblock)) | Initializes a new instance of the MathParagraph class. |
 
- **Result:**
+ **Returns:**
 MathParagraph
 
 

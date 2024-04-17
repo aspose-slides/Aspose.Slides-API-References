@@ -19,7 +19,7 @@ url: /aspose.slides/foreach_/
 | --- | --- |
 | ForEach_() |  |
 
- **Result:**
+ **Returns:**
 ForEach_
 
 

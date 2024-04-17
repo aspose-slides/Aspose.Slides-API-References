@@ -17,7 +17,7 @@ url: /aspose.slides/slidesrange/
 | --- | --- |
 | SlidesRange() |  |
 
- **Result:**
+ **Returns:**
 SlidesRange
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/rotationeffect/
 | --- | --- |
 | RotationEffect() |  |
 
- **Result:**
+ **Returns:**
 RotationEffect
 
 

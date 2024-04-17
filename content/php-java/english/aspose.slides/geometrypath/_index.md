@@ -17,7 +17,7 @@ url: /aspose.slides/geometrypath/
 | --- | --- |
 | GeometryPath() | Creates instance of GeometryPath |
 
- **Result:**
+ **Returns:**
 GeometryPath
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/paragraph/
 | --- | --- |
 | Paragraph() | Initializes a new instance of the Paragraph class with default properties. |
 
- **Result:**
+ **Returns:**
 Paragraph
 
 
@@ -30,7 +30,7 @@ Paragraph
 | --- | --- |
 | Paragraph([Paragraph](../paragraph)) | Copy function that initializes a new instance of a Paragraph class. |
 
- **Result:**
+ **Returns:**
 Paragraph
 
 

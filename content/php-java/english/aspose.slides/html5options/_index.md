@@ -17,7 +17,7 @@ url: /aspose.slides/html5options/
 | --- | --- |
 | Html5Options() | Default function. |
 
- **Result:**
+ **Returns:**
 Html5Options
 
 

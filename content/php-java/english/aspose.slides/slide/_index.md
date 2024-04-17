@@ -37,6 +37,161 @@ boolean
 ---
 
 
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage (float, float) | Returns a Thumbnail Image object with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage () | Returns a Thumbnail Image object (20% of real size). |
+
+ **Returns:**
+IImage
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage (Dimension) | Returns a Thumbnail Image object with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage ([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff image object with specified parameters. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [TiffOptions](../tiffoptions) | Tiff options. |
+
+ **Returns:**
+IImage
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage ([RenderingOptions](../renderingoptions)) | Returns a Thumbnail Image object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+
+ **Returns:**
+IImage
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail Image object with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Returns:**
+IImage
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage ([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail Image object with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Returns:**
+IImage
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
 ### getLayoutSlide {#getLayoutSlide}
 
 | Name | Description |
@@ -115,7 +270,7 @@ int
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager)
+[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [NotesSlideThemeManager](../notesslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager)
 
 
 ---
@@ -158,6 +313,31 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
+| getThumbnail ([RenderingOptions](../renderingoptions)) | Returns a Thumbnail Bitmap object. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
+
+ **Returns:**
+BufferedImage
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+
+---
+
+
+### getThumbnail {#getThumbnail}
+
+| Name | Description |
+| --- | --- |
 | getThumbnail (Dimension) | Returns a Thumbnail Bitmap object with specified size. |
 
  **Parameters:**
@@ -177,7 +357,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
+| getThumbnail ([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff image object with specified parameters. |
 
  **Parameters:**
 
@@ -193,109 +373,6 @@ BufferedImage
 | Error | Condition |
 | --- | --- |
  | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage object. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-
- **Returns:**
-BufferedImage
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Returns:**
-BufferedImage
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| imageSize | Dimension | Size of the image to create. |
-
- **Returns:**
-BufferedImage
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail ([RenderingOptions](../renderingoptions)) | Returns a Thumbnail BufferedImage object. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Rendering options. |
-
- **Returns:**
-BufferedImage
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ---
@@ -381,87 +458,6 @@ void
 | Error | Condition |
 | --- | --- |
  | PptxEditException | Thrown if slide is already removed from presentation. |
-
-
----
-
-
-### renderToGraphics {#renderToGraphics}
-
-| Name | Description |
-| --- | --- |
-| renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, int, int) | Renders certain slide to a Graphics object using specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | Graphics2D | The object where to render to. |
-| width | int | The maximum width (in pixels) that can be occupied by the rendered slide. |
-| height | int | The maximum height (in pixels) that can be occupied by the rendered slide. |
-
- **Returns:**
-void
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### renderToGraphics {#renderToGraphics}
-
-| Name | Description |
-| --- | --- |
-| renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, float) | Renders certain slide to a Graphics object using specified scale. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | Graphics2D | The object where to render to. |
-| scale | float | The scale for rendering the slide (1.0 is 100%). |
-
- **Returns:**
-void
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### renderToGraphics {#renderToGraphics}
-
-| Name | Description |
-| --- | --- |
-| renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | Graphics2D | The object where to render to. |
-
- **Returns:**
-void
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ---

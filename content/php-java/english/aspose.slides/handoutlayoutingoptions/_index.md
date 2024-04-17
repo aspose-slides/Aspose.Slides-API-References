@@ -17,7 +17,7 @@ url: /aspose.slides/handoutlayoutingoptions/
 | --- | --- |
 | HandoutLayoutingOptions() | Initializes the default values. |
 
- **Result:**
+ **Returns:**
 HandoutLayoutingOptions
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/tiffoptions/
 | --- | --- |
 | TiffOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 TiffOptions
 
 

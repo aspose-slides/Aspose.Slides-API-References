@@ -19,7 +19,7 @@ url: /aspose.slides/mathsubscriptelementfactory/
 | --- | --- |
 | MathSubscriptElementFactory() |  |
 
- **Result:**
+ **Returns:**
 MathSubscriptElementFactory
 
 
@@ -50,14 +50,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -70,14 +70,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -270,6 +270,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -298,26 +318,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -410,386 +410,6 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathBlock](../mathblock) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathRadical](../mathradical) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathArray](../matharray) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathDelimiter](../mathdelimiter) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathNaryOperator](../mathnaryoperator) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathAccent](../mathaccent) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../mathgroupingcharacter) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathBorderBox](../mathborderbox) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathBar](../mathbar) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathFunction](../mathfunction) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathFraction](../mathfraction) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathematicalText](../mathematicaltext) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathBox](../mathbox) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
 | createMathSubscriptElement ([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -810,14 +430,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -830,14 +450,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -1030,6 +650,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -1058,26 +698,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -1170,6 +790,386 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathLimit](../mathlimit) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathBlock](../mathblock) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathRadical](../mathradical) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathArray](../matharray) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathDelimiter](../mathdelimiter) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathNaryOperator](../mathnaryoperator) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathAccent](../mathaccent) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../mathgroupingcharacter) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathBorderBox](../mathborderbox) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathBar](../mathbar) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathFunction](../mathfunction) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathFraction](../mathfraction) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathematicalText](../mathematicaltext) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathBox](../mathbox) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -1190,14 +1190,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -1210,14 +1210,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -1410,6 +1410,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -1438,26 +1458,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -1570,14 +1570,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -1590,14 +1590,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -1790,6 +1790,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -1818,26 +1838,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -1950,14 +1950,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -1970,14 +1970,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -2170,6 +2170,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray](../matharray) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -2198,26 +2218,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -2330,14 +2330,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -2350,14 +2350,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -2550,6 +2550,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -2578,26 +2598,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -2710,14 +2710,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -2730,14 +2730,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -2930,6 +2930,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -2958,26 +2978,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -3090,14 +3090,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -3110,14 +3110,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -3310,6 +3310,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -3338,26 +3358,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -3470,14 +3470,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -3490,14 +3490,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -3690,6 +3690,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -3718,26 +3738,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -3850,14 +3850,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -3870,14 +3870,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -4070,6 +4070,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -4098,26 +4118,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -4230,14 +4230,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -4250,14 +4250,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -4450,6 +4450,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -4478,26 +4498,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -4590,766 +4590,6 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathBlock](../mathblock) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathRadical](../mathradical) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathArray](../matharray) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathDelimiter](../mathdelimiter) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathNaryOperator](../mathnaryoperator) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathAccent](../mathaccent) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../mathgroupingcharacter) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathBorderBox](../mathborderbox) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathBar](../mathbar) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathFunction](../mathfunction) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathFraction](../mathfraction) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathematicalText](../mathematicaltext) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathBox](../mathbox) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathBlock](../mathblock) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathRadical](../mathradical) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathArray](../matharray) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathDelimiter](../mathdelimiter) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathNaryOperator](../mathnaryoperator) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathAccent](../mathaccent) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../mathgroupingcharacter) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathBorderBox](../mathborderbox) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathBar](../mathbar) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathFunction](../mathfunction) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathFraction](../mathfraction) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathematicalText](../mathematicaltext) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathBox](../mathbox) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
 | createMathSubscriptElement ([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -5370,14 +4610,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -5390,14 +4630,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -5590,6 +4830,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -5618,26 +4878,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -5730,6 +4970,766 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathLimit](../mathlimit) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathBlock](../mathblock) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathRadical](../mathradical) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathArray](../matharray) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathDelimiter](../mathdelimiter) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathNaryOperator](../mathnaryoperator) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathAccent](../mathaccent) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../mathgroupingcharacter) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathBorderBox](../mathborderbox) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathBar](../mathbar) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathFunction](../mathfunction) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathFraction](../mathfraction) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathematicalText](../mathematicaltext) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathBox](../mathbox) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathLimit](../mathlimit) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathBlock](../mathblock) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathRadical](../mathradical) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathArray](../matharray) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathDelimiter](../mathdelimiter) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathNaryOperator](../mathnaryoperator) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathAccent](../mathaccent) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../mathgroupingcharacter) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathBorderBox](../mathborderbox) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathBar](../mathbar) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathFunction](../mathfunction) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathFraction](../mathfraction) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathematicalText](../mathematicaltext) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathBox](../mathbox) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
+| createMathSubscriptElement ([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -5750,14 +5750,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -5770,14 +5770,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -5970,6 +5970,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -5998,26 +6018,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -6130,14 +6130,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -6150,14 +6150,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -6350,6 +6350,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -6378,26 +6398,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -6510,14 +6510,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -6530,14 +6530,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -6730,6 +6730,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -6758,26 +6778,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -6890,14 +6890,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathMatrix](../mathmatrix) | lower right index |
+| subScript | [MathLimit](../mathlimit) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -6910,14 +6910,14 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| createMathSubscriptElement ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSubscriptElement |
+| createMathSubscriptElement ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSubscriptElement |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathLimit](../mathlimit) | lower right index |
+| subScript | [MathMatrix](../mathmatrix) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -7110,6 +7110,26 @@ MathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
+| createMathSubscriptElement ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### createMathSubscriptElement {#createMathSubscriptElement}
+
+| Name | Description |
+| --- | --- |
 | createMathSubscriptElement ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSubscriptElement |
 
  **Parameters:**
@@ -7138,26 +7158,6 @@ MathSubscriptElementFactory
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
 | subScript | [MathSuperscriptElement](../mathsuperscriptelement) | lower right index |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### createMathSubscriptElement {#createMathSubscriptElement}
-
-| Name | Description |
-| --- | --- |
-| createMathSubscriptElement ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSubscriptElement |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../mathsubscriptelement) | lower right index |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)

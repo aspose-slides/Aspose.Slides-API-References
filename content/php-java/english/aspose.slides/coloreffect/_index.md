@@ -17,7 +17,7 @@ url: /aspose.slides/coloreffect/
 | --- | --- |
 | ColorEffect() | Creates new instance. |
 
- **Result:**
+ **Returns:**
 ColorEffect
 
 

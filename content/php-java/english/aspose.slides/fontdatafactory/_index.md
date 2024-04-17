@@ -17,7 +17,7 @@ url: /aspose.slides/fontdatafactory/
 | --- | --- |
 | FontDataFactory() |  |
 
- **Result:**
+ **Returns:**
 FontDataFactory
 
 

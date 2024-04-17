@@ -17,7 +17,7 @@ url: /aspose.slides/textanimation/
 | --- | --- |
 | TextAnimation() |  |
 
- **Result:**
+ **Returns:**
 TextAnimation
 
 

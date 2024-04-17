@@ -19,7 +19,7 @@ url: /aspose.slides/mathparagraphfactory/
 | --- | --- |
 | MathParagraphFactory() |  |
 
- **Result:**
+ **Returns:**
 MathParagraphFactory
 
 

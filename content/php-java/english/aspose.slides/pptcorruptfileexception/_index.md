@@ -17,7 +17,7 @@ url: /aspose.slides/pptcorruptfileexception/
 | --- | --- |
 | PptCorruptFileException() | Default function. |
 
- **Result:**
+ **Returns:**
 PptCorruptFileException
 
 
@@ -36,7 +36,7 @@ PptCorruptFileException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 PptCorruptFileException
 
 
@@ -56,7 +56,7 @@ PptCorruptFileException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 PptCorruptFileException
 
 

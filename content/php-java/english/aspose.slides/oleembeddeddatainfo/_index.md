@@ -17,7 +17,7 @@ url: /aspose.slides/oleembeddeddatainfo/
 | --- | --- |
 | OleEmbeddedDataInfo() | Creates new embedded data info for OLE object. |
 
- **Result:**
+ **Returns:**
 OleEmbeddedDataInfo
 
 
@@ -37,7 +37,7 @@ OleEmbeddedDataInfo
 | embeddedFileData | byte[] | File data of an embedded OLE object byte[]. |
 | embeddedFileExtension | String | File extension for the current embedded OLE object String. |
 
- **Result:**
+ **Returns:**
 OleEmbeddedDataInfo
 
 

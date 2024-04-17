@@ -17,7 +17,7 @@ url: /aspose.slides/portion/
 | --- | --- |
 | Portion() | Initializes a new instance of the Portion class. |
 
- **Result:**
+ **Returns:**
 Portion
 
 
@@ -30,7 +30,7 @@ Portion
 | --- | --- |
 | Portion(String) | Initializes a new instance of the Portion class. |
 
- **Result:**
+ **Returns:**
 Portion
 
 
@@ -43,7 +43,7 @@ Portion
 | --- | --- |
 | Portion([Portion](../portion)) | Initializes a new instance of the Portion class. |
 
- **Result:**
+ **Returns:**
 Portion
 
 

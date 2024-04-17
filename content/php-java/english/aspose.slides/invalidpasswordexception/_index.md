@@ -17,7 +17,7 @@ url: /aspose.slides/invalidpasswordexception/
 | --- | --- |
 | InvalidPasswordException() | Default function. |
 
- **Result:**
+ **Returns:**
 InvalidPasswordException
 
 
@@ -36,7 +36,7 @@ InvalidPasswordException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 InvalidPasswordException
 
 
@@ -56,7 +56,7 @@ InvalidPasswordException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 InvalidPasswordException
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/renderingoptions/
 | --- | --- |
 | RenderingOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 RenderingOptions
 
 

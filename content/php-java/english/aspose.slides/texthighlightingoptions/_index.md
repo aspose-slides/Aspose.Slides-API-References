@@ -17,7 +17,7 @@ url: /aspose.slides/texthighlightingoptions/
 | --- | --- |
 | TextHighlightingOptions() | Creates new default text highlighting options. |
 
- **Result:**
+ **Returns:**
 TextHighlightingOptions
 
 

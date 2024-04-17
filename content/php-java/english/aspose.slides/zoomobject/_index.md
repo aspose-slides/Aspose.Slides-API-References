@@ -11,19 +11,6 @@ url: /aspose.slides/zoomobject/
 
  Represents an Zoom object in a slide.
  
-### getImage {#getImage}
-
-| Name | Description |
-| --- | --- |
-| getImage () | Gets or sets image for zoom object. Read/write IPPImage. |
-
- **Returns:**
-[PPImage](../ppimage)
-
-
----
-
-
 ### getImageType {#getImageType}
 
 | Name | Description |
@@ -76,14 +63,14 @@ float
 ---
 
 
-### setImage {#setImage}
+### getZoomImage {#getZoomImage}
 
 | Name | Description |
 | --- | --- |
-| setImage ([PPImage](../ppimage)) | Gets or sets image for zoom object. Read/write IPPImage. |
+| getZoomImage () | Gets or sets image for zoom object. Read/write IPPImage. |
 
  **Returns:**
-void
+[PPImage](../ppimage)
 
 
 ---
@@ -133,6 +120,19 @@ void
 | Name | Description |
 | --- | --- |
 | setTransitionDuration (float) | Gets or sets the duration of the transition between Zoom and slide. Read/write float. Default value: 1.0f If not specified (TransitionDur = 0), it will use the destination slide transition and the timings associated with that transition. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setZoomImage {#setZoomImage}
+
+| Name | Description |
+| --- | --- |
+| setZoomImage ([PPImage](../ppimage)) | Gets or sets image for zoom object. Read/write IPPImage. |
 
  **Returns:**
 void

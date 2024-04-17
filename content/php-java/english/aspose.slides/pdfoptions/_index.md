@@ -17,7 +17,7 @@ url: /aspose.slides/pdfoptions/
 | --- | --- |
 | PdfOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 PdfOptions
 
 
@@ -188,6 +188,19 @@ byte
 
  **Returns:**
 String
+
+
+---
+
+
+### getRasterizeUnsupportedFontStyles {#getRasterizeUnsupportedFontStyles}
+
+| Name | Description |
+| --- | --- |
+| getRasterizeUnsupportedFontStyles () | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write boolean. Default is false. |
+
+ **Returns:**
+boolean
 
 
 ---
@@ -393,6 +406,19 @@ void
 | Name | Description |
 | --- | --- |
 | setPassword (String) | Setting user password to protect the PDF document. Read/write String. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setRasterizeUnsupportedFontStyles {#setRasterizeUnsupportedFontStyles}
+
+| Name | Description |
+| --- | --- |
+| setRasterizeUnsupportedFontStyles (boolean) | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write boolean. Default is false. |
 
  **Returns:**
 void
