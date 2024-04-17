@@ -23,7 +23,6 @@ Offer methods which help to search shapes and text in a presentation.
 | --- | --- |
 | [findShape(IPresentation pres, String altText)](#findShape-com.aspose.slides.IPresentation-java.lang.String-) | Find shape by alternative text in a PPTX presentation. |
 | [findShape(IBaseSlide slide, String altText)](#findShape-com.aspose.slides.IBaseSlide-java.lang.String-) | Find shape by alternative text on a slide in a PPTX presentation. |
-| [alignShapes(int alignmentType, boolean alignToSlide, IShapeCollection shapes)](#alignShapes-int-boolean-com.aspose.slides.IShapeCollection-) | Changes the placement of all shapes in the collection. |
 | [alignShapes(int alignmentType, boolean alignToSlide, IBaseSlide slide)](#alignShapes-int-boolean-com.aspose.slides.IBaseSlide-) | Changes the placement of all shapes on the slide. |
 | [alignShapes(int alignmentType, boolean alignToSlide, IBaseSlide slide, int[] shapeIndexes)](#alignShapes-int-boolean-com.aspose.slides.IBaseSlide-int---) | Changes the placement of selected shapes on the slide. |
 | [alignShapes(int alignmentType, boolean alignToSlide, IGroupShape groupShape)](#alignShapes-int-boolean-com.aspose.slides.IGroupShape-) | Changes the placement of all shapes within group shape. |
@@ -70,34 +69,6 @@ Find shape by alternative text on a slide in a PPTX presentation.
 
 **Returns:**
 [IShape](../../com.aspose.slides/ishape) - Shape or null.
-### alignShapes(int alignmentType, boolean alignToSlide, IShapeCollection shapes) {#alignShapes-int-boolean-com.aspose.slides.IShapeCollection-}
-```
-public static void alignShapes(int alignmentType, boolean alignToSlide, IShapeCollection shapes)
-```
-
-
-Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
-
---------------------
-
-> ```
-> Example:
->  
->  Presentation pres = new Presentation("pres.pptx");
->  try {
->      SlideUtil.alignShapes(ShapesAlignmentType.AlignBottom, true, pres.getSlides().get_Item(0).getShapes());
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| alignmentType | int | Determines which type of alignment will be applied. |
-| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges |
-| shapes | [IShapeCollection](../../com.aspose.slides/ishapecollection) | Shapes collection to be aligned |
-
 ### alignShapes(int alignmentType, boolean alignToSlide, IBaseSlide slide) {#alignShapes-int-boolean-com.aspose.slides.IBaseSlide-}
 ```
 public static void alignShapes(int alignmentType, boolean alignToSlide, IBaseSlide slide)
@@ -253,7 +224,7 @@ Finds and replaces text in presentation with given format
 | presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Scanned presentation. |
 | withMasters | boolean | Determines whether master slides should be scanned. |
 | find | java.lang.String | String value to find. |
-| replace | java.lang.String | String value to replace. |
+| replace | java.lang.String | String value to replace. character of the found string |
 
 ### findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace, PortionFormat format) {#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-com.aspose.slides.PortionFormat-}
 ```

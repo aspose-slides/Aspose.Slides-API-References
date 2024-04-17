@@ -255,11 +255,13 @@ url: /com.aspose.slides/
 | [HyperlinkManager](../com.aspose.slides/hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [HyperlinkQueries](../com.aspose.slides/hyperlinkqueries) | Provide easy access to contained hyperlinks. |
 | [ImageCollection](../com.aspose.slides/imagecollection) | Represents collection of PPImage. |
+| [ImageFormat](../com.aspose.slides/imageformat) | Represents the file format of the image. |
 | [ImagePixelFormat](../com.aspose.slides/imagepixelformat) | Specifies the pixel format for the generated images. |
 | [ImageTransformOCollectionEffectiveData](../com.aspose.slides/imagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
 | [ImageTransformOperation](../com.aspose.slides/imagetransformoperation) | Represents abstract image transformation effect. |
 | [ImageTransformOperationCollection](../com.aspose.slides/imagetransformoperationcollection) | Represents a collection of effects apllied to an image. |
 | [ImageTransformOperationFactory](../com.aspose.slides/imagetransformoperationfactory) | Allows to create image transform operations |
+| [Images](../com.aspose.slides/images) | Methods to instantiate and work with [IImage](../com.aspose.slides/iimage). |
 | [InOutTransition](../com.aspose.slides/inouttransition) | In-Out slide transition effect. |
 | [Ink](../com.aspose.slides/ink) | Represents an ink object on a slide. |
 | [InkBrush](../com.aspose.slides/inkbrush) | Represents an inkBrush object. |
@@ -633,6 +635,7 @@ url: /com.aspose.slides/
 | [WheelTransition](../com.aspose.slides/wheeltransition) | Wheel slide transition effect. |
 | [XamlOptions](../com.aspose.slides/xamloptions) | Options that control how a XAML document is saved. |
 | [XpsOptions](../com.aspose.slides/xpsoptions) | Provides options that control how a presentation is saved in XPS format. |
+| [Zip64Mode](../com.aspose.slides/zip64mode) | Specifies when to use ZIP64 format extensions for OpenXML file. |
 | [ZoomFrame](../com.aspose.slides/zoomframe) | Represents a Slide Zoom object in a slide. |
 | [ZoomImageType](../com.aspose.slides/zoomimagetype) | Defines whether the Zoom object is using the slide preview or a cover image. |
 | [ZoomLayout](../com.aspose.slides/zoomlayout) | Specifies the summary zoom layout. |
@@ -850,6 +853,7 @@ url: /com.aspose.slides/
 | [IHyperlinkContainer](../com.aspose.slides/ihyperlinkcontainer) | Represents hyperlink object. |
 | [IHyperlinkManager](../com.aspose.slides/ihyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [IHyperlinkQueries](../com.aspose.slides/ihyperlinkqueries) | Provide easy access to contained hyperlinks. |
+| [IImage](../com.aspose.slides/iimage) | Represents the raster or vector image. |
 | [IImageCollection](../com.aspose.slides/iimagecollection) | Represents collection of PPImage. |
 | [IImageTransformOCollectionEffectiveData](../com.aspose.slides/iimagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
 | [IImageTransformOperation](../com.aspose.slides/iimagetransformoperation) | Represents abstract image transformation effect. |

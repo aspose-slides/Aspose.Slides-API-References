@@ -28,8 +28,6 @@ Represents a series labels.
 | [getCount()](#getCount--) | Gets the number of all data labels in the collection. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Gets the default data label format. |
 | [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Represents data labels leader lines format. |
-| [getLeaderLinesColor()](#getLeaderLinesColor--) | Gets or sets the color of all leader lines in the collection. |
-| [setLeaderLinesColor(Color value)](#setLeaderLinesColor-java.awt.Color-) | Gets or sets the color of all leader lines in the collection. |
 | [getParentSeries()](#getParentSeries--) | Gets the parent series. |
 | [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Returns an index of the specified DataLabel in the collection. |
 | [get_Item(int index)](#get-Item-int-) | Gets the data label for the data point with the specified index. |
@@ -148,63 +146,6 @@ Represents data labels leader lines format. Read-only [IChartLinesFormat](../../
 
 **Returns:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
-### getLeaderLinesColor() {#getLeaderLinesColor--}
-```
-public final Color getLeaderLinesColor()
-```
-
-
-Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color.
-
---------------------
-
-> ```
-> Example:
->  
->  Presentation pres = new Presentation("pres.pptx");
->  try {
->      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      IChartSeriesCollection series = chart.getChartData().getSeries();
->      IDataLabelCollection labels = series.get_Item(0).getLabels();
-> 
->      labels.setLeaderLinesColor(new java.awt.Color(255, 0, 0));
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Returns:**
-java.awt.Color
-### setLeaderLinesColor(Color value) {#setLeaderLinesColor-java.awt.Color-}
-```
-public final void setLeaderLinesColor(Color value)
-```
-
-
-Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color.
-
---------------------
-
-> ```
-> Example:
->  
->  Presentation pres = new Presentation("pres.pptx");
->  try {
->      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      IChartSeriesCollection series = chart.getChartData().getSeries();
->      IDataLabelCollection labels = series.get_Item(0).getLabels();
-> 
->      labels.setLeaderLinesColor(new java.awt.Color(255, 0, 0));
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.awt.Color |  |
-
 ### getParentSeries() {#getParentSeries--}
 ```
 public final IChartSeries getParentSeries()

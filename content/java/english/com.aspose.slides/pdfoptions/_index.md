@@ -116,6 +116,8 @@ Provides options that control how a presentation is saved in Pdf format.
 | [setAdditionalCommonFontFamilies(String[] value)](#setAdditionalCommonFontFamilies-java.lang.String---) | Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common. |
 | [getEmbedFullFonts()](#getEmbedFullFonts--) | Determines if all characters of font should be embedded or only used subset. |
 | [setEmbedFullFonts(boolean value)](#setEmbedFullFonts-boolean-) | Determines if all characters of font should be embedded or only used subset. |
+| [getRasterizeUnsupportedFontStyles()](#getRasterizeUnsupportedFontStyles--) | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. |
+| [setRasterizeUnsupportedFontStyles(boolean value)](#setRasterizeUnsupportedFontStyles-boolean-) | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. |
 | [getJpegQuality()](#getJpegQuality--) | Returns or sets a value determining the quality of the JPEG images inside PDF document. |
 | [setJpegQuality(byte value)](#setJpegQuality-byte-) | Returns or sets a value determining the quality of the JPEG images inside PDF document. |
 | [getCompliance()](#getCompliance--) | Desired conformance level for generated PDF document. |
@@ -389,6 +391,37 @@ public final void setEmbedFullFonts(boolean value)
 
 
 Determines if all characters of font should be embedded or only used subset. Read/write boolean.
+
+--------------------
+
+Default is **false**.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getRasterizeUnsupportedFontStyles() {#getRasterizeUnsupportedFontStyles--}
+```
+public final boolean getRasterizeUnsupportedFontStyles()
+```
+
+
+Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write boolean.
+
+--------------------
+
+Default is **false**.
+
+**Returns:**
+boolean
+### setRasterizeUnsupportedFontStyles(boolean value) {#setRasterizeUnsupportedFontStyles-boolean-}
+```
+public final void setRasterizeUnsupportedFontStyles(boolean value)
+```
+
+
+Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write boolean.
 
 --------------------
 

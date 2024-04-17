@@ -43,7 +43,6 @@ Represents a table on a slide.
 | [setTextFormat(IPortionFormat source)](#setTextFormat-com.aspose.slides.IPortionFormat-) | Sets defined portion format properties to all table cells' portions. |
 | [setTextFormat(IParagraphFormat source)](#setTextFormat-com.aspose.slides.IParagraphFormat-) | Sets defined paragraph format properties to all table cells' paragraphs. |
 | [setTextFormat(ITextFrameFormat source)](#setTextFormat-com.aspose.slides.ITextFrameFormat-) | Sets defined text frame format properties to all table cells' text frames. |
-| [getFillFormat()](#getFillFormat--) | Returns the FillFormat object that contains fill formatting properties for a shape. |
 ### get_Item(int columnIndex, int rowIndex) {#get-Item-int-int-}
 ```
 public final ICell get_Item(int columnIndex, int rowIndex)
@@ -330,13 +329,3 @@ Sets defined text frame format properties to all table cells' text frames.
 | --- | --- | --- |
 | source | [ITextFrameFormat](../../com.aspose.slides/itextframeformat) | ITextFrameFormat object with necessary properties set. |
 
-### getFillFormat() {#getFillFormat--}
-```
-public IFillFormat getFillFormat()
-```
-
-
-Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only [IFillFormat](../../com.aspose.slides/ifillformat).
-
-**Returns:**
-[IFillFormat](../../com.aspose.slides/ifillformat)

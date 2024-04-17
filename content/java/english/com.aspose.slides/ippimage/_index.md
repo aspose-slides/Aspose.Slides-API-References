@@ -15,9 +15,11 @@ Represents an image in a presentation.
 | --- | --- |
 | [getBinaryData()](#getBinaryData--) | Returns the copy of an image's data. |
 | [getSystemImage()](#getSystemImage--) | Returns the copy of an image of the System.Drawing.Image type. |
+| [getImage()](#getImage--) | Returns the copy of an image. |
 | [getSvgImage()](#getSvgImage--) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [setSvgImage(ISvgImage value)](#setSvgImage-com.aspose.slides.ISvgImage-) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [replaceImage(byte[] newImageData)](#replaceImage-byte---) | Replaces image data. |
+| [replaceImage(IImage newImage)](#replaceImage-com.aspose.slides.IImage-) | Replaces image data. |
 | [replaceImage(IPPImage newImage)](#replaceImage-com.aspose.slides.IPPImage-) | Replaces image. |
 | [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in (\#getBinaryData.getBinaryData). |
 | [getWidth()](#getWidth--) | Returns a width of an image. |
@@ -44,6 +46,16 @@ Returns the copy of an image of the System.Drawing.Image type. Read-only Buffere
 
 **Returns:**
 java.awt.image.BufferedImage
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+
+Returns the copy of an image. Read-only  Image (\#getImage.getImage).
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage)
 ### getSvgImage() {#getSvgImage--}
 ```
 public abstract ISvgImage getSvgImage()
@@ -87,6 +99,19 @@ Replaces image data.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newImageData | byte[] | The new image's data. |
+
+### replaceImage(IImage newImage) {#replaceImage-com.aspose.slides.IImage-}
+```
+public abstract void replaceImage(IImage newImage)
+```
+
+
+Replaces image data. Attention: when Image is metafile - it will be rasterized. Use replaceImage(byte[]) instead
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newImage | [IImage](../../com.aspose.slides/iimage) | The new image. |
 
 ### replaceImage(IPPImage newImage) {#replaceImage-com.aspose.slides.IPPImage-}
 ```

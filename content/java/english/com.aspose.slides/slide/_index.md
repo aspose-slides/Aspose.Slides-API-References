@@ -28,18 +28,19 @@ Represents a slide in a presentation.
 | [getShowMasterShapes()](#getShowMasterShapes--) | Specifies if shapes on the master slide should be shown on slides or not. |
 | [setShowMasterShapes(boolean value)](#setShowMasterShapes-boolean-) | Specifies if shapes on the master slide should be shown on slides or not. |
 | [getThumbnail(float scaleX, float scaleY)](#getThumbnail-float-float-) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Returns a Thumbnail Image object with custom scaling. |
 | [getThumbnail()](#getThumbnail--) | Returns a Thumbnail Image object (20% of real size). |
+| [getImage()](#getImage--) | Returns a Thumbnail Image object (20% of real size). |
+| [getThumbnail(IRenderingOptions options)](#getThumbnail-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Bitmap object. |
 | [getThumbnail(Dimension imageSize)](#getThumbnail-java.awt.Dimension-) | Returns a Thumbnail Bitmap object with specified size. |
-| [getThumbnail(ITiffOptions options)](#getThumbnail-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
-| [getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting)](#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-) | Returns a Thumbnail BufferedImage object. |
-| [getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-float-float-) | Returns a Thumbnail BufferedImage object with custom scaling. |
-| [getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting, Dimension imageSize)](#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-java.awt.Dimension-) | Returns a Thumbnail BufferedImage object with specified size. |
-| [getThumbnail(IRenderingOptions options)](#getThumbnail-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail BufferedImage object. |
+| [getImage(Dimension imageSize)](#getImage-java.awt.Dimension-) | Returns a Thumbnail Image object with specified size. |
+| [getThumbnail(ITiffOptions options)](#getThumbnail-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff image object with specified parameters. |
+| [getImage(ITiffOptions options)](#getImage-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff image object with specified parameters. |
+| [getImage(IRenderingOptions options)](#getImage-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Image object. |
 | [getThumbnail(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail BufferedImage object with custom scaling. |
+| [getImage(IRenderingOptions options, float scaleX, float scaleY)](#getImage-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image object with custom scaling. |
 | [getThumbnail(IRenderingOptions options, Dimension imageSize)](#getThumbnail-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Returns a Thumbnail BufferedImage object with specified size. |
-| [renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, int width, int height)](#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-java.awt.Graphics2D-int-int-) | Renders certain slide to a Graphics object using specified size. |
-| [renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, float scale)](#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-java.awt.Graphics2D-float-) | Renders certain slide to a Graphics object using specified scale. |
-| [renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics)](#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-java.awt.Graphics2D-) | Renders certain slide to a Graphics object. |
+| [getImage(IRenderingOptions options, Dimension imageSize)](#getImage-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Returns a Thumbnail Image object with specified size. |
 | [renderToGraphics(IRenderingOptions options, Graphics2D graphics)](#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-) | Renders certain slide to a Graphics object. |
 | [renderToGraphics(IRenderingOptions options, Graphics2D graphics, float scaleX, float scaleY)](#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-float-float-) | Renders certain slide to a Graphics object with custom scaling. |
 | [renderToGraphics(IRenderingOptions options, Graphics2D graphics, Dimension renderingSize)](#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-java.awt.Dimension-) | Renders certain slide to a Graphics object using specified size. |
@@ -234,6 +235,88 @@ Returns a Thumbnail Bitmap object with custom scaling.
 
 **Returns:**
 java.awt.image.BufferedImage - Bitmap object.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public final IImage getImage(float scaleX, float scaleY)
+```
+
+
+Returns a Thumbnail Image object with custom scaling.
+
+--------------------
+
+> ```
+> The following example shows how to generate thumbnails from PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("ThumbnailFromSlide.pptx");
+>  try {
+>      // Access the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Create a full scale image
+>      IImage bmp = sld.getImage(1f, 1f);
+>      // Save the image to disk in JPEG format
+>      bmp.save("Thumbnail_out.jpg", ImageFormat.Jpeg);
+>  } finally {
+>      pres.dispose();
+>  }
+>  
+>  The following example shows how to converting slides to bitmap and saving the images in PNG.
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try {
+>      // Converts the first slide in the presentation to a Bitmap object
+>      IImage bmp = pres.getSlides().get_Item(0).getImage();
+>      // Saves the image in the PNG format
+>      bmp.save("Slide_0.png", ImageFormat.Png);
+>  } finally {
+>      pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint PPT/PPTX to JPG.
+>  
+>  Presentation pres = new Presentation("PowerPoint-Presentation.ppt");
+>  try {
+>      for (ISlide sld : pres.getSlides())
+>      {
+>          // Create a full scale image
+>          IImage bmp = sld.getImage(1f, 1f);
+>          // Save the image to disk in JPEG format
+>          bmp.save("Slide_"+sld.getSlideNumber()+"0.jpg", ImageFormat.Jpeg);
+>      }
+>  } finally {
+>      pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint PPT/PPTX to JPG with customized dimensions.
+>  
+>  Presentation pres = new Presentation("PowerPoint-Presentation.pptx");
+>  try {
+>      // Define dimensions
+>      int desiredX = 1200;
+>      int desiredY = 800;
+>      // Get scaled values of X and Y
+>      float ScaleX = (float)(1.0 / pres.getSlideSize().getSize().getWidth()) * desiredX;
+>      float ScaleY = (float)(1.0 / pres.getSlideSize().getSize().getHeight()) * desiredY;
+>      for (ISlide sld : pres.getSlides())
+>      {
+>          // Create a full scale image
+>          IImage bmp = sld.getImage(ScaleX, ScaleY);
+>          // Save the image to disk in JPEG format
+>          bmp.save("Slide.jpg", ImageFormat.Jpeg);
+>      }
+>  } finally {
+>      pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - IImage object.
 ### getThumbnail() {#getThumbnail--}
 ```
 public final BufferedImage getThumbnail()
@@ -244,6 +327,31 @@ Returns a Thumbnail Image object (20% of real size).
 
 **Returns:**
 java.awt.image.BufferedImage
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
+
+
+Returns a Thumbnail Image object (20% of real size).
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage)
+### getThumbnail(IRenderingOptions options) {#getThumbnail-com.aspose.slides.IRenderingOptions-}
+```
+public final BufferedImage getThumbnail(IRenderingOptions options)
+```
+
+
+Returns a Thumbnail Bitmap object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
+
+**Returns:**
+java.awt.image.BufferedImage - Bitmap objects.
 ### getThumbnail(Dimension imageSize) {#getThumbnail-java.awt.Dimension-}
 ```
 public final BufferedImage getThumbnail(Dimension imageSize)
@@ -276,13 +384,44 @@ Returns a Thumbnail Bitmap object with specified size.
 
 **Returns:**
 java.awt.image.BufferedImage - Bitmap object.
+### getImage(Dimension imageSize) {#getImage-java.awt.Dimension-}
+```
+public final IImage getImage(Dimension imageSize)
+```
+
+
+Returns a Thumbnail Image object with specified size.
+
+--------------------
+
+> ```
+> The following example shows how to converting slides to images with custom sizes using C#.
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try {
+>      // Converts the first slide in the presentation to a Bitmap with the specified size
+>      IImage bmp = pres.getSlides().get_Item(0).getImage(new Dimension(1820, 1040));
+>      // Saves the image in the JPEG format
+>      bmp.save("Slide_0.jpg", ImageFormat.Jpeg);
+>  } finally {
+>      pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageSize | java.awt.Dimension | Size of the image to create. |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Image object.
 ### getThumbnail(ITiffOptions options) {#getThumbnail-com.aspose.slides.ITiffOptions-}
 ```
 public final BufferedImage getThumbnail(ITiffOptions options)
 ```
 
 
-Returns a Thumbnail tiff BufferedImage object with specified parameters.
+Returns a Thumbnail tiff image object with specified parameters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -291,61 +430,28 @@ Returns a Thumbnail tiff BufferedImage object with specified parameters.
 
 **Returns:**
 java.awt.image.BufferedImage - BufferedImage object.
-### getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting) {#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-}
+### getImage(ITiffOptions options) {#getImage-com.aspose.slides.ITiffOptions-}
 ```
-public final BufferedImage getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting)
+public final IImage getImage(ITiffOptions options)
 ```
 
 
-Returns a Thumbnail BufferedImage object.
+Returns a Thumbnail tiff image object with specified parameters.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
+| options | [ITiffOptions](../../com.aspose.slides/itiffoptions) | Tiff options. |
 
 **Returns:**
-java.awt.image.BufferedImage - BufferedImage objects.
-### getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY) {#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-float-float-}
+[IImage](../../com.aspose.slides/iimage) - Image object.
+### getImage(IRenderingOptions options) {#getImage-com.aspose.slides.IRenderingOptions-}
 ```
-public final BufferedImage getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail BufferedImage object with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-java.awt.image.BufferedImage - BufferedImage objects.
-### getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting, Dimension imageSize) {#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-java.awt.Dimension-}
-```
-public final BufferedImage getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting, Dimension imageSize)
+public final IImage getImage(IRenderingOptions options)
 ```
 
 
-Returns a Thumbnail BufferedImage object with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| imageSize | java.awt.Dimension | Size of the image to create. |
-
-**Returns:**
-java.awt.image.BufferedImage - BufferedImage objects.
-### getThumbnail(IRenderingOptions options) {#getThumbnail-com.aspose.slides.IRenderingOptions-}
-```
-public final BufferedImage getThumbnail(IRenderingOptions options)
-```
-
-
-Returns a Thumbnail BufferedImage object.
+Returns a Thumbnail Image object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -353,7 +459,7 @@ Returns a Thumbnail BufferedImage object.
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
 
 **Returns:**
-java.awt.image.BufferedImage - BufferedImage objects.
+[IImage](../../com.aspose.slides/iimage) - Image object.
 ### getThumbnail(IRenderingOptions options, float scaleX, float scaleY) {#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public final BufferedImage getThumbnail(IRenderingOptions options, float scaleX, float scaleY)
@@ -398,6 +504,53 @@ Returns a Thumbnail BufferedImage object with custom scaling.
 
 **Returns:**
 java.awt.image.BufferedImage - BufferedImage objects.
+### getImage(IRenderingOptions options, float scaleX, float scaleY) {#getImage-com.aspose.slides.IRenderingOptions-float-float-}
+```
+public final IImage getImage(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+
+Returns a Thumbnail Image object with custom scaling.
+
+--------------------
+
+> ```
+> The following example shows how to converting slides With notes and comments to Images using C#.
+>  
+>  Presentation pres = new Presentation("PresentationNotesComments.pptx");
+>  try {
+>      // Creates the rendering options
+>      IRenderingOptions options = new RenderingOptions();
+>      // Creates the notes comments options
+>      NotesCommentsLayoutingOptions notesOption = new NotesCommentsLayoutingOptions();
+>      // Sets the position of the notes on the page
+>      notesOption.setNotesPosition(NotesPositions.BottomTruncated);
+>      // Sets the position of the comments on the page
+>      notesOption.setCommentsPosition(CommentsPositions.Right);
+>      // Sets the width of the comment output area
+>      notesOption.setCommentsAreaWidth(500);
+>      // Sets the color for the comments area
+>      notesOption.setCommentsAreaColor(Color.WHITE);
+>      // Sets the notes options for rendering options
+>      options.setSlidesLayoutOptions(notesOption);
+>      // Converts the first slide of the presentation to a Bitmap object
+>      IImage bmp = pres.getSlides().get_Item(0).getImage(options, 2f, 2f);
+>      // Saves the image in the GIF format
+>      bmp.save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
+>  } finally {
+>      pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Bitmap objects.
 ### getThumbnail(IRenderingOptions options, Dimension imageSize) {#getThumbnail-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public final BufferedImage getThumbnail(IRenderingOptions options, Dimension imageSize)
@@ -414,78 +567,22 @@ Returns a Thumbnail BufferedImage object with specified size.
 
 **Returns:**
 java.awt.image.BufferedImage - BufferedImage objects.
-### renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, int width, int height) {#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-java.awt.Graphics2D-int-int-}
+### getImage(IRenderingOptions options, Dimension imageSize) {#getImage-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
-public final void renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, int width, int height)
+public final IImage getImage(IRenderingOptions options, Dimension imageSize)
 ```
 
 
-Renders certain slide to a Graphics object using specified size.
+Returns a Thumbnail Image object with specified size.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | java.awt.Graphics2D | The object where to render to. |
-| width | int | The maximum width (in pixels) that can be occupied by the rendered slide. |
-| height | int | The maximum height (in pixels) that can be occupied by the rendered slide. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
+| imageSize | java.awt.Dimension | Size of the image to create. |
 
-### renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, float scale) {#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-java.awt.Graphics2D-float-}
-```
-public final void renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, float scale)
-```
-
-
-Renders certain slide to a Graphics object using specified scale.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | java.awt.Graphics2D | The object where to render to. |
-| scale | float | The scale for rendering the slide (1.0 is 100%). |
-
-### renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics) {#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-java.awt.Graphics2D-}
-```
-public final void renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics)
-```
-
-
-Renders certain slide to a Graphics object.
-
---------------------
-
-> ```
-> The following example shows how to convert the first slide of a PowerPoint presentation to a bitmap object using the RenderToGraphics method.
->  
->  Presentation pres = new Presentation("Presentation.pptx");
->  try {
->      // Gets the presentation slide size
->      Dimension2D slideSize = pres.getSlideSize().getSize();
->      // Creates a Bitmap with the slide size
->      BufferedImage image = new BufferedImage((int)slideSize.getWidth(), (int)slideSize.getHeight(), BufferedImage.TYPE_INT_ARGB);
->      java.awt.Graphics graphics = image.createGraphics();
->      try
->      {
->          pres.getSlides().get_Item(0).renderToGraphics(new RenderingOptions(), (Graphics2D) graphics);
->      }
->      finally
->      {
->          if (graphics != null) graphics.dispose();
->      }
->      ImageIO.write(image, "PNG", new File("Slide_0.png"));
->  } catch(IOException e) {
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | java.awt.Graphics2D | The object where to render to. |
-
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Image object.
 ### renderToGraphics(IRenderingOptions options, Graphics2D graphics) {#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-}
 ```
 public final void renderToGraphics(IRenderingOptions options, Graphics2D graphics)

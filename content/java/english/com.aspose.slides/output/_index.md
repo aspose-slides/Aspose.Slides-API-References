@@ -19,6 +19,7 @@ Represents a collection of output elements for IWebDocument.
 | [<TContextObject>add(String path, String templateKey, TContextObject contextObject)](#-TContextObject-add-java.lang.String-java.lang.String-TContextObject-) | Adds an output element for the context object. |
 | [add(String path, IPPImage image)](#add-java.lang.String-com.aspose.slides.IPPImage-) | Adds an output element for the image. |
 | [add(String path, BufferedImage image)](#add-java.lang.String-java.awt.image.BufferedImage-) | Adds an output element for the image. |
+| [add(String path, IImage image)](#add-java.lang.String-com.aspose.slides.IImage-) | Adds an output element for the image. |
 | [add(String path, IVideo video)](#add-java.lang.String-com.aspose.slides.IVideo-) | Adds an output element for the video. |
 | [add(String path, IFontData fontData, int fontStyle)](#add-java.lang.String-com.aspose.slides.IFontData-int-) | Adds an output element for the font. |
 | [add(String path, String textContent)](#add-java.lang.String-java.lang.String-) | Adds an output element for the text content. |
@@ -70,6 +71,22 @@ Adds an output element for the image.
 | --- | --- | --- |
 | path | java.lang.String | Output path. |
 | image | java.awt.image.BufferedImage | Image to output. |
+
+**Returns:**
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the image.
+### add(String path, IImage image) {#add-java.lang.String-com.aspose.slides.IImage-}
+```
+public final IOutputFile add(String path, IImage image)
+```
+
+
+Adds an output element for the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | Output path. |
+| image | [IImage](../../com.aspose.slides/iimage) | Image to output. |
 
 **Returns:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the image.

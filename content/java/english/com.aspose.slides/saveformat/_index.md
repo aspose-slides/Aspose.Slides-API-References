@@ -36,6 +36,7 @@ Constants which define the format of a saved presentation.
 | [Gif](#Gif) | Save presentation in GIF format. |
 | [Html5](#Html5) | Save presentation in HTML format using new HTML5 templating system. |
 | [Md](#Md) | Save presentation in Markdown format |
+| [Xml](#Xml) | Save presentation in PowerPoint XML Presentation format. |
 ### Ppt {#Ppt}
 ```
 public static final int Ppt
@@ -195,4 +196,12 @@ public static final int Md
 
 
 Save presentation in Markdown format
+
+### Xml {#Xml}
+```
+public static final int Xml
+```
+
+
+Save presentation in PowerPoint XML Presentation format.
 
