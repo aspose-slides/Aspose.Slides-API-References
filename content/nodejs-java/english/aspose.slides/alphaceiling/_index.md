@@ -25,7 +25,7 @@ url: /aspose.slides/alphaceiling/
 | --- | --- | --- |
 | obj | Object | The AlphaCeiling to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -38,7 +38,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Alpha Ceiling effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 AlphaCeilingEffectiveData
 
 
@@ -51,7 +51,7 @@ AlphaCeilingEffectiveData
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

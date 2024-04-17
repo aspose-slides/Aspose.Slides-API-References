@@ -65,7 +65,7 @@ url: /aspose.slides/portioncollection/
 | --- | --- | --- |
 | item | [MathPortion](../mathportion) | The object to locate in the IGenericCollection. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -84,7 +84,7 @@ boolean
 | --- | --- | --- |
 | item | [Portion](../portion) | The object to locate in the IGenericCollection. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -120,7 +120,7 @@ boolean
 | --- | --- |
 | getCount () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -133,7 +133,7 @@ int
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. |
 
- **Result:**
+ **Returns:**
 [MathPortion](../mathportion), [Portion](../portion)
 
 
@@ -152,7 +152,7 @@ int
 | --- | --- | --- |
 | item | [MathPortion](../mathportion) | The object to locate in the List. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -171,7 +171,7 @@ int
 | --- | --- | --- |
 | item | [Portion](../portion) | The object to locate in the List. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -218,7 +218,7 @@ int
 | --- | --- |
 | isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -231,7 +231,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -244,7 +244,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -263,7 +263,7 @@ boolean
 | --- | --- | --- |
 | item | [MathPortion](../mathportion) | The object to remove from the IGenericCollection. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**
@@ -288,7 +288,7 @@ boolean
 | --- | --- | --- |
 | item | [Portion](../portion) | The object to remove from the IGenericCollection. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**

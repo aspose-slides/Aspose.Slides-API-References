@@ -17,7 +17,7 @@ url: /aspose.slides/linefillformat/
 | --- | --- |
 | getFillType () | Returns or sets the fill type. Read/write FillType. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -30,7 +30,7 @@ byte
 | --- | --- |
 | getGradientFormat () | Returns the gradient fill format. Read-only IGradientFormat. |
 
- **Result:**
+ **Returns:**
 [GradientFormat](../gradientformat)
 
 
@@ -43,7 +43,7 @@ byte
 | --- | --- |
 | getPatternFormat () | Returns the pattern fill format. Read-only IPatternFormat. |
 
- **Result:**
+ **Returns:**
 [PatternFormat](../patternformat)
 
 
@@ -56,7 +56,7 @@ byte
 | --- | --- |
 | getRotateWithShape () | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -69,7 +69,7 @@ byte
 | --- | --- |
 | getSolidFillColor () | Returns the color of a solid fill. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -82,7 +82,7 @@ byte
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/htmlexternalresolver/
 | --- | --- |
 | HtmlExternalResolver() |  |
 
- **Result:**
+ **Returns:**
 HtmlExternalResolver
 
 
@@ -36,7 +36,7 @@ HtmlExternalResolver
 | --- | --- | --- |
 | absoluteUri | String | Absolute URI to the object. |
 
- **Result:**
+ **Returns:**
 InputStream
 
 
@@ -56,7 +56,7 @@ InputStream
 | baseUri | String | Base URI of linking objects |
 | relativeUri | String | Relative URI to the linked object. |
 
- **Result:**
+ **Returns:**
 String
 
 

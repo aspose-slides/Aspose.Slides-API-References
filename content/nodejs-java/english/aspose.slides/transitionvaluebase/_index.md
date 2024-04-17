@@ -23,7 +23,7 @@ url: /aspose.slides/transitionvaluebase/
 | --- | --- | --- |
 | obj | Object | The TransitionValueBase to compare with the current TransitionValueBase. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
- **Result:**
+ **Returns:**
 int
 
 

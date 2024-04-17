@@ -19,7 +19,7 @@ url: /aspose.slides/behaviorfactory/
 | --- | --- |
 | BehaviorFactory() |  |
 
- **Result:**
+ **Returns:**
 BehaviorFactory
 
 
@@ -32,7 +32,7 @@ BehaviorFactory
 | --- | --- |
 | createColorEffect () | Creates color effect. |
 
- **Result:**
+ **Returns:**
 [ColorEffect](../coloreffect)
 
 
@@ -45,7 +45,7 @@ BehaviorFactory
 | --- | --- |
 | createCommandEffect () | Creates command effect. |
 
- **Result:**
+ **Returns:**
 [CommandEffect](../commandeffect)
 
 
@@ -58,7 +58,7 @@ BehaviorFactory
 | --- | --- |
 | createFilterEffect () | Creates filter effect. |
 
- **Result:**
+ **Returns:**
 [FilterEffect](../filtereffect)
 
 
@@ -71,7 +71,7 @@ BehaviorFactory
 | --- | --- |
 | createMotionEffect () | Creates motion effect. |
 
- **Result:**
+ **Returns:**
 [MotionEffect](../motioneffect)
 
 
@@ -84,7 +84,7 @@ BehaviorFactory
 | --- | --- |
 | createPropertyEffect () | Creates property effect. |
 
- **Result:**
+ **Returns:**
 IPropertyEffect
 
 
@@ -97,7 +97,7 @@ IPropertyEffect
 | --- | --- |
 | createRotationEffect () | Creates rotation effect. |
 
- **Result:**
+ **Returns:**
 [RotationEffect](../rotationeffect)
 
 
@@ -110,7 +110,7 @@ IPropertyEffect
 | --- | --- |
 | createScaleEffect () | Creates scale effect. |
 
- **Result:**
+ **Returns:**
 [ScaleEffect](../scaleeffect)
 
 
@@ -123,7 +123,7 @@ IPropertyEffect
 | --- | --- |
 | createSetEffect () | Creates set effect. |
 
- **Result:**
+ **Returns:**
 [SetEffect](../seteffect)
 
 

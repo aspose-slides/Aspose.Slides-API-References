@@ -17,7 +17,7 @@ url: /aspose.slides/renderingoptions/
 | --- | --- |
 | RenderingOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 RenderingOptions
 
 
@@ -30,7 +30,7 @@ RenderingOptions
 | --- | --- |
 | getInkOptions () | Provides options that control the look of Ink objects in exported document. Read-only IInkOptions |
 
- **Result:**
+ **Returns:**
 [InkOptions](../inkoptions)
 
 
@@ -43,7 +43,7 @@ RenderingOptions
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
- **Result:**
+ **Returns:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
@@ -56,7 +56,7 @@ RenderingOptions
 | --- | --- |
 | getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
- **Result:**
+ **Returns:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 

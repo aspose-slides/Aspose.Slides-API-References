@@ -17,7 +17,7 @@ url: /aspose.slides/audioframe/
 | --- | --- |
 | getAudioCdEndTrack () | Returns or sets a last track index Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,7 +30,7 @@ int
 | --- | --- |
 | getAudioCdEndTrackTime () | Returns or sets a last track time. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getAudioCdStartTrack () | Returns or sets a start track index. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getAudioCdStartTrackTime () | Returns or sets a start track time. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getEmbedded () | Determines whether a sound is embedded to a presentation. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | getEmbeddedAudio () | Returns or sets embedded audio object. Read/write IAudio. |
 
- **Result:**
+ **Returns:**
 [Audio](../audio)
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | getHideAtShowing () | Determines whether an AudioFrame is hidden. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | getLinkPathLong () | Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -121,7 +121,7 @@ String
 | --- | --- |
 | getPlayAcrossSlides () | Determines whether audio is playing across the slides. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -134,7 +134,7 @@ boolean
 | --- | --- |
 | getPlayLoopMode () | Determines whether an audio is looped. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -147,7 +147,7 @@ boolean
 | --- | --- |
 | getPlayMode () | Returns or sets the audio play mode. Read/write AudioPlayModePreset. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -160,7 +160,7 @@ int
 | --- | --- |
 | getRewindAudio () | Determines whether audio is automatically rewinded to start after playing. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -173,7 +173,7 @@ boolean
 | --- | --- |
 | getVolume () | Returns or sets the audio volume. Read/write AudioVolumeMode. |
 
- **Result:**
+ **Returns:**
 int
 
 

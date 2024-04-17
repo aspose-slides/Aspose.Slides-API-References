@@ -17,7 +17,7 @@ url: /aspose.slides/smartartnode/
 | --- | --- |
 | getBulletFillFormat () | Returns the FillFormat object that contains fill formatting properties for a node bullet. Note: can return null for certain types of SmartArt layout which does not provide bullets for nodes. Read-only IFillFormat. |
 
- **Result:**
+ **Returns:**
 [FillFormat](../fillformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/smartartnode/
 | --- | --- |
 | getChildNodes () | Returns collections of all child nodes of the current node. Read-only ISmartArtNodeCollection. |
 
- **Result:**
+ **Returns:**
 [SmartArtNodeCollection](../smartartnodecollection)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/smartartnode/
 | --- | --- |
 | getLevel () | Returns nesting level of the node. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getOrganizationChartLayout () | Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getPosition () | Returns or sets zero-based position of node among sibling nodes. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
  **Error**
@@ -88,7 +88,7 @@ int
 | --- | --- |
 | getShapes () | Returns collections of all shapes associated with the node. Read-only ISmartArtShapeCollection. |
 
- **Result:**
+ **Returns:**
 [SmartArtShapeCollection](../smartartshapecollection)
 
 
@@ -101,7 +101,7 @@ int
 | --- | --- |
 | getTextFrame () | Returns or sets text of the node. Read-only ITextFrame. |
 
- **Result:**
+ **Returns:**
 [TextFrame](../textframe)
 
 
@@ -114,7 +114,7 @@ int
 | --- | --- |
 | isAssistant () | Returns or sets the node as assistant. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -127,7 +127,7 @@ boolean
 | --- | --- |
 | isHidden () | Returns true if this node is a hidden node in the data model. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -140,7 +140,7 @@ boolean
 | --- | --- |
 | remove () | Remove current node. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

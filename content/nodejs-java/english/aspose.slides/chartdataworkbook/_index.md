@@ -57,7 +57,7 @@ url: /aspose.slides/chartdataworkbook/
 | row | int | The row. |
 | column | int | The column. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -78,7 +78,7 @@ url: /aspose.slides/chartdataworkbook/
 | row | int | The row. |
 | column | int | The column. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -98,7 +98,7 @@ url: /aspose.slides/chartdataworkbook/
 | worksheetIndex | int | Index of the worksheet. |
 | cellName | String | Name of the cell. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -119,7 +119,7 @@ url: /aspose.slides/chartdataworkbook/
 | cellName | String | Name of the cell. |
 | value | Object | The value. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -141,7 +141,7 @@ url: /aspose.slides/chartdataworkbook/
 | column | int | The column. |
 | value | Object | The value. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -161,7 +161,7 @@ url: /aspose.slides/chartdataworkbook/
 | formula | String | Excel formula like "Sheet1!$A$2:$A$5". |
 | skipHiddenCells | boolean | If true then function returns collection without hidden cells. |
 
- **Result:**
+ **Returns:**
 [ChartCellCollection](../chartcellcollection)
 
 
@@ -174,7 +174,7 @@ url: /aspose.slides/chartdataworkbook/
 | --- | --- |
 | getWorksheets () | Gets a collection of worksheets. |
 
- **Result:**
+ **Returns:**
 [ChartDataWorksheetCollection](../chartdataworksheetcollection)
 
 

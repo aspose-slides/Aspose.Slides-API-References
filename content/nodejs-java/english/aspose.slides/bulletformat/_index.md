@@ -33,7 +33,7 @@ url: /aspose.slides/bulletformat/
 | --- | --- |
 | getChar () | Returns or sets the bullet char of a paragraph with no inheritance. Read/write char. |
 
- **Result:**
+ **Returns:**
 char
 
 
@@ -46,7 +46,7 @@ char
 | --- | --- |
 | getColor () | Returns the color format of a bullet of a paragraph with no inheritance. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -59,7 +59,7 @@ char
 | --- | --- |
 | getEffective () | Gets effective bullet formatting data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 BulletFormatEffectiveData
 
 
@@ -72,7 +72,7 @@ BulletFormatEffectiveData
 | --- | --- |
 | getFont () | Returns or sets the bullet font of a paragraph with no inheritance. Read/write IFontData. |
 
- **Result:**
+ **Returns:**
 [FontData](../fontdata)
 
 
@@ -85,7 +85,7 @@ BulletFormatEffectiveData
 | --- | --- |
 | getHeight () | Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write float. A negative height value means that the height is given in points and a positive value means the height is a percentage of the surrounding text. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -98,7 +98,7 @@ float
 | --- | --- |
 | getNumberedBulletStartWith () | Returns or sets the first number which is used for group of numbered bullets with no inheritance. Read/write short. |
 
- **Result:**
+ **Returns:**
 short
 
 
@@ -111,7 +111,7 @@ short
 | --- | --- |
 | getNumberedBulletStyle () | Returns or sets the style of a numbered bullet with no inheritance. Read/write NumberedBulletStyle. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -124,7 +124,7 @@ byte
 | --- | --- |
 | getPicture () | Returns the picture used as a bullet in a paragraph with no inheritance. Read-only ISlidesPicture. |
 
- **Result:**
+ **Returns:**
 [Picture](../picture)
 
 
@@ -137,7 +137,7 @@ byte
 | --- | --- |
 | getType () | Returns or sets the bullet type of a paragraph with no inheritance. Read/write BulletType. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -150,7 +150,7 @@ byte
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -163,7 +163,7 @@ long
 | --- | --- |
 | isBulletHardColor () | Determines whether the bullet has own color or inherits it from the first portion in the paragraph. NullableBool.True if bullet has own color and NullableBool.False if bullet inherits color from the first portion in the paragraph. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -176,7 +176,7 @@ byte
 | --- | --- |
 | isBulletHardFont () | Determines whether the bullet has own font or inherits it from the first portion in the paragraph. NullableBool.True if bullet has own font and NullableBool.False if bullet inherits font from the first portion in the paragraph. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 

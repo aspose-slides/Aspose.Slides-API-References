@@ -23,7 +23,7 @@ url: /aspose.slides/charttitle/
 | --- | --- | --- |
 | text | String | Text for a new TextFrameForOverriding. |
 
- **Result:**
+ **Returns:**
 [TextFrame](../textframe)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/charttitle/
 | --- | --- |
 | getBottom () | Bottom. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -49,7 +49,7 @@ float
 | --- | --- |
 | getChart () | Returns the parent chart. Read-only IChart. |
 
- **Result:**
+ **Returns:**
 [Chart](../chart)
 
 
@@ -62,7 +62,7 @@ float
 | --- | --- |
 | getFormat () | Returns the fill, line, effect styles of a title. Read-only IFormat. |
 
- **Result:**
+ **Returns:**
 [Format](../format)
 
 
@@ -75,7 +75,7 @@ float
 | --- | --- |
 | getHeight () | Returns or sets the height of a title as a fraction of the height of the chart. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -88,7 +88,7 @@ float
 | --- | --- |
 | getOverlay () | Determines whether other chart elements shall be allowed to overlap title. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -101,7 +101,7 @@ boolean
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -114,7 +114,7 @@ boolean
 | --- | --- |
 | getRight () | Right. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -127,8 +127,8 @@ float
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result:**
-[MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide)
+ **Returns:**
+[Slide](../slide), [NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide)
 
 
 ---
@@ -140,7 +140,7 @@ float
 | --- | --- |
 | getTextFormat () | Returns text format. Read-only IChartTextFormat. |
 
- **Result:**
+ **Returns:**
 [ChartTextFormat](../charttextformat)
 
 
@@ -153,7 +153,7 @@ float
 | --- | --- |
 | getTextFrameForOverriding () | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text. Auto-generated text is an implicit property of the data label, the display unit label of the value axis, the axis title, the chart title, the label of the trendline. Auto-generated text is formatted with the IFormattedTextContainer.TextFormat property. Read-only ITextFrame. |
 
- **Result:**
+ **Returns:**
 [TextFrame](../textframe)
 
 
@@ -166,7 +166,7 @@ float
 | --- | --- |
 | getWidth () | Returns or sets the width of a title as a fraction of the width of the chart. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -179,7 +179,7 @@ float
 | --- | --- |
 | getX () | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -192,7 +192,7 @@ float
 | --- | --- |
 | getY () | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 

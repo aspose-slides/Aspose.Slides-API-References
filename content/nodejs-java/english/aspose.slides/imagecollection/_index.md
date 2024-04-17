@@ -23,7 +23,7 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | imageSource | [PPImage](../ppimage) | Source image. |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -42,7 +42,26 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | image | BufferedImage | Image to add. This function converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
 
- **Result:**
+ **Returns:**
+[PPImage](../ppimage)
+
+
+---
+
+
+### addImage {#addImage}
+
+| Name | Description |
+| --- | --- |
+| addImage ([IImage](../iimage)) | Add an image to a presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| image | [IImage](../iimage) | Image to add. This function converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
+
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -61,9 +80,9 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | imagecollection | ImageCollection  | link to self |
 | stream | ReadStream | Stream to add image from. This function can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -83,9 +102,9 @@ url: /aspose.slides/imagecollection/
 | imagecollection | ImageCollection  | link to self |
 | stream | ReadStream | Stream to add image file from. |
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -104,7 +123,7 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | buffer | byte[] | Buffer. |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -123,7 +142,7 @@ url: /aspose.slides/imagecollection/
 | --- | --- | --- |
 | svgImage | [SvgImage](../svgimage) | Svg image object ISvgImage |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
  **Error**
@@ -142,7 +161,7 @@ url: /aspose.slides/imagecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -155,7 +174,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only IPPImage. |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -168,7 +187,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -181,7 +200,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -194,7 +213,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -207,7 +226,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of images in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

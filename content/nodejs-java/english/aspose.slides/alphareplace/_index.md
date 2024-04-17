@@ -24,7 +24,7 @@ url: /aspose.slides/alphareplace/
 | --- | --- | --- |
 | obj | Object | The AlphaReplace to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Alpha Replace effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 AlphaReplaceEffectiveData
 
 
@@ -50,7 +50,7 @@ AlphaReplaceEffectiveData
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

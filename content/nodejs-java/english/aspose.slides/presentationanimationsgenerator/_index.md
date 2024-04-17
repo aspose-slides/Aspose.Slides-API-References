@@ -23,7 +23,7 @@ url: /aspose.slides/presentationanimationsgenerator/
 | --- | --- | --- |
 | presentation | [Presentation](../presentation) | The frame size will be set with accordance to the ( Presentation#getSlideSize) |
 
- **Result:**
+ **Returns:**
 PresentationAnimationsGenerator
 
 
@@ -42,7 +42,7 @@ PresentationAnimationsGenerator
 | --- | --- | --- |
 | frameSize | Dimension | The frame size. |
 
- **Result:**
+ **Returns:**
 PresentationAnimationsGenerator
 
 
@@ -61,7 +61,7 @@ PresentationAnimationsGenerator
 | --- | --- | --- |
 | frameSize | Dimension2D | The frame size. |
 
- **Result:**
+ **Returns:**
 PresentationAnimationsGenerator
 
 
@@ -84,7 +84,7 @@ PresentationAnimationsGenerator
 | --- | --- |
 | getDefaultDelay () | Gets or sets default delay time [ms]. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -97,7 +97,7 @@ int
 | --- | --- |
 | getExportedSlides () | Get the number of the exported slides count. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -110,7 +110,7 @@ int
 | --- | --- |
 | getFrameSize () | Gets the frame size. |
 
- **Result:**
+ **Returns:**
 Dimension
 
 
@@ -123,7 +123,7 @@ Dimension
 | --- | --- |
 | getIncludeHiddenSlides () | Get or sets if hidden slides should be included. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

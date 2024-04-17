@@ -17,7 +17,7 @@ url: /aspose.slides/camera/
 | --- | --- |
 | getCameraType () | Camera type. Read/write CameraPresetType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,7 +30,7 @@ int
 | --- | --- |
 | getFieldOfViewAngle () | Camera FOV (0-180 deg, field of View). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -43,7 +43,7 @@ float
 | --- | --- |
 | getRotation () | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -56,7 +56,7 @@ float
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -69,7 +69,7 @@ long
 | --- | --- |
 | getZoom () | Camera zoom (positive value in percentage). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 

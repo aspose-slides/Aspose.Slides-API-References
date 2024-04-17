@@ -19,7 +19,7 @@ url: /aspose.slides/mathmatrixfactory/
 | --- | --- |
 | MathMatrixFactory() |  |
 
- **Result:**
+ **Returns:**
 MathMatrixFactory
 
 
@@ -39,7 +39,7 @@ MathMatrixFactory
 | rowCount | int | row count |
 | columnCount | int | column count |
 
- **Result:**
+ **Returns:**
 [MathMatrix](../mathmatrix)
 
 

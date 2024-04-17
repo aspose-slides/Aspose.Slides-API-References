@@ -17,7 +17,7 @@ url: /aspose.slides/cellformat/
 | --- | --- |
 | getBorderBottom () | Returns a bottom border line properties object. Read-only ILineFormat. |
 
- **Result:**
+ **Returns:**
 [LineFormat](../lineformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/cellformat/
 | --- | --- |
 | getBorderDiagonalDown () | Returns a top-left to bottom-right diagonal line properties object. Read-only ILineFormat. |
 
- **Result:**
+ **Returns:**
 [LineFormat](../lineformat)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/cellformat/
 | --- | --- |
 | getBorderDiagonalUp () | Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormat. |
 
- **Result:**
+ **Returns:**
 [LineFormat](../lineformat)
 
 
@@ -56,7 +56,7 @@ url: /aspose.slides/cellformat/
 | --- | --- |
 | getBorderLeft () | Returns a left border line properties object. Read-only ILineFormat. |
 
- **Result:**
+ **Returns:**
 [LineFormat](../lineformat)
 
 
@@ -69,7 +69,7 @@ url: /aspose.slides/cellformat/
 | --- | --- |
 | getBorderRight () | Returns a right border line properties object. Read-only ILineFormat. |
 
- **Result:**
+ **Returns:**
 [LineFormat](../lineformat)
 
 
@@ -82,7 +82,7 @@ url: /aspose.slides/cellformat/
 | --- | --- |
 | getBorderTop () | Returns a top border line properties object. Read-only ILineFormat. |
 
- **Result:**
+ **Returns:**
 [LineFormat](../lineformat)
 
 
@@ -95,7 +95,7 @@ url: /aspose.slides/cellformat/
 | --- | --- |
 | getEffective () | Gets effective table cell formatting properties with inheritance and table styles applied. |
 
- **Result:**
+ **Returns:**
 CellFormatEffectiveData
 
 
@@ -108,7 +108,7 @@ CellFormatEffectiveData
 | --- | --- |
 | getFillFormat () | Returns a cell fill properties object. Read-only IFillFormat. |
 
- **Result:**
+ **Returns:**
 [FillFormat](../fillformat)
 
 
@@ -121,7 +121,7 @@ CellFormatEffectiveData
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 

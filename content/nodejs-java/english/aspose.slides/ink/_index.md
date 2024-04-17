@@ -17,7 +17,7 @@ url: /aspose.slides/ink/
 | --- | --- |
 | getTraces () | Gets all traces containing in the IInk element IInkTrace. Read-only. |
 
- **Result:**
+ **Returns:**
 [InkTrace](../inktrace)
 
 

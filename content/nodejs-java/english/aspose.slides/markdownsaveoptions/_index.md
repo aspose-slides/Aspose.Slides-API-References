@@ -17,7 +17,7 @@ url: /aspose.slides/markdownsaveoptions/
 | --- | --- |
 | MarkdownSaveOptions() | Ctor. |
 
- **Result:**
+ **Returns:**
 MarkdownSaveOptions
 
 
@@ -30,7 +30,7 @@ MarkdownSaveOptions
 | --- | --- |
 | getBasePath () | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -43,7 +43,7 @@ String
 | --- | --- |
 | getExportType () | Specifies markdown specification to convert presentation. Default is TextOnly. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getFlavor () | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getImagesSaveFolderName () | Specifies folder name to save images. Default is Images. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -82,7 +82,7 @@ String
 | --- | --- |
 | getNewLineType () | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is Unix. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -95,7 +95,7 @@ int
 | --- | --- |
 | getShowComments () | Specifies whether the generated document should show comments or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | getShowSlideNumber () | Specifies whether the generated document should show number of each slide or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

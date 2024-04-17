@@ -23,7 +23,7 @@ url: /aspose.slides/shape/
 | --- | --- | --- |
 | placeholderToCopyFrom | [Placeholder](../placeholder) | Placeholder to copy content from. |
 
- **Result:**
+ **Returns:**
 [Placeholder](../placeholder)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/shape/
 | --- | --- |
 | getAlternativeText () | Returns or sets the alternative text associated with a shape. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -49,7 +49,7 @@ String
 | --- | --- |
 | getAlternativeTextTitle () | Returns or sets the title of alternative text associated with a shape. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -62,8 +62,8 @@ String
 | --- | --- |
 | getBasePlaceholder () | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 
- **Result:**
-[AutoShape](../autoshape), [Shape](../shape), [SectionZoomFrame](../sectionzoomframe), [ZoomFrame](../zoomframe), [Chart](../chart), [GraphicalObject](../graphicalobject), [ZoomObject](../zoomobject), [GeometryShape](../geometryshape), [SmartArt](../smartart), [OleObjectFrame](../oleobjectframe), [Table](../table), [LegacyDiagram](../legacydiagram), [VideoFrame](../videoframe), [Connector](../connector), [AudioFrame](../audioframe), [GroupShape](../groupshape), [SummaryZoomFrame](../summaryzoomframe), [SummaryZoomSection](../summaryzoomsection), [Ink](../ink), [PictureFrame](../pictureframe), [SmartArtShape](../smartartshape)
+ **Returns:**
+[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
 
 
 ---
@@ -75,7 +75,7 @@ String
 | --- | --- |
 | getBlackWhiteMode () | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -88,7 +88,7 @@ byte
 | --- | --- |
 | getConnectionSiteCount () | Returns the number of connection sites on the shape. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -101,7 +101,7 @@ int
 | --- | --- |
 | getCustomData () | Returns the shape's custom data. Read-only ICustomData. |
 
- **Result:**
+ **Returns:**
 [CustomData](../customdata)
 
 
@@ -114,7 +114,7 @@ int
 | --- | --- |
 | getEffectFormat () | Returns the EffectFormat object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. Read-only IEffectFormat. |
 
- **Result:**
+ **Returns:**
 [EffectFormat](../effectformat)
 
 
@@ -127,7 +127,7 @@ int
 | --- | --- |
 | getFillFormat () | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only IFillFormat. |
 
- **Result:**
+ **Returns:**
 [FillFormat](../fillformat)
 
 
@@ -140,7 +140,7 @@ int
 | --- | --- |
 | getFrame () | Returns or sets the shape frame's properties. Read/write IShapeFrame. Value of each property of the returned IShapeFrame instance is not undefined (is not NaN or NotDefined). Value of each property of the assigned IShapeFrame instance must be not undefined (must be not NaN or NotDefined). You can set undefined values for RawFrame instance properties. |
 
- **Result:**
+ **Returns:**
 [ShapeFrame](../shapeframe)
 
 
@@ -153,7 +153,7 @@ int
 | --- | --- |
 | getHeight () | Returns or sets the height of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -166,7 +166,7 @@ float
 | --- | --- |
 | getHidden () | Determines whether the shape is hidden. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -179,7 +179,7 @@ boolean
 | --- | --- |
 | getHyperlinkClick () | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
- **Result:**
+ **Returns:**
 [Hyperlink](../hyperlink)
 
 
@@ -192,7 +192,7 @@ boolean
 | --- | --- |
 | getHyperlinkManager () | Returns the hyperlink manager. Read-only IHyperlinkManager. |
 
- **Result:**
+ **Returns:**
 [HyperlinkManager](../hyperlinkmanager)
 
 
@@ -205,8 +205,42 @@ boolean
 | --- | --- |
 | getHyperlinkMouseOver () | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
- **Result:**
+ **Returns:**
 [Hyperlink](../hyperlink)
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage () | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage (int, float, float) | Returns shape thumbnail. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| bounds | int | Shape thumbnail bounds type. |
+| scaleX | float | X scale |
+| scaleY | float | Y scale |
+
+ **Returns:**
+SlidesImage
 
 
 ---
@@ -218,7 +252,7 @@ boolean
 | --- | --- |
 | getLineFormat () | Returns the LineFormat object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. Read-only ILineFormat. |
 
- **Result:**
+ **Returns:**
 [LineFormat](../lineformat)
 
 
@@ -231,7 +265,7 @@ boolean
 | --- | --- |
 | getName () | Returns or sets the name of a shape. Must be not null. Use empty string value if needed. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -244,7 +278,7 @@ String
 | --- | --- |
 | getOfficeInteropShapeId () | Gets unique shape identifier in slide scope. Read-only long. See also ( #getUniqueId) for getting unique shape identifier in presentation scope. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -257,7 +291,7 @@ long
 | --- | --- |
 | getParentGroup () | Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only IGroupShape. Property ( #isGrouped) determines whether the shape is grouped. |
 
- **Result:**
+ **Returns:**
 [GroupShape](../groupshape)
 
 
@@ -270,7 +304,7 @@ long
 | --- | --- |
 | getPlaceholder () | Returns the placeholder for a shape. Returns null if the shape has no placeholder. Read-only IPlaceholder. |
 
- **Result:**
+ **Returns:**
 [Placeholder](../placeholder)
 
 
@@ -283,7 +317,7 @@ long
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a slide. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -296,7 +330,7 @@ long
 | --- | --- |
 | getRawFrame () | Returns or sets the raw shape frame's properties. Read/write IShapeFrame. |
 
- **Result:**
+ **Returns:**
 [ShapeFrame](../shapeframe)
 
 
@@ -309,7 +343,7 @@ long
 | --- | --- |
 | getRotation () | Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -322,8 +356,8 @@ float
 | --- | --- |
 | getShapeLock () | Returns shape's locks. Read-only IBaseShapeLock. |
 
- **Result:**
-[ConnectorLock](../connectorlock), [AutoShapeLock](../autoshapelock), [PictureFrameLock](../pictureframelock), [BaseShapeLock](../baseshapelock), [GraphicalObjectLock](../graphicalobjectlock), [GroupShapeLock](../groupshapelock)
+ **Returns:**
+[PictureFrameLock](../pictureframelock), [GroupShapeLock](../groupshapelock), [BaseShapeLock](../baseshapelock), [ConnectorLock](../connectorlock), [AutoShapeLock](../autoshapelock), [GraphicalObjectLock](../graphicalobjectlock)
 
 
 ---
@@ -335,8 +369,8 @@ float
 | --- | --- |
 | getSlide () | Returns the parent slide of a shape. Read-only IBaseSlide. |
 
- **Result:**
-[MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide)
+ **Returns:**
+[Slide](../slide), [NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide)
 
 
 ---
@@ -348,7 +382,7 @@ float
 | --- | --- |
 | getThreeDFormat () | Returns the ThreeDFormat object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only IThreeDFormat. |
 
- **Result:**
+ **Returns:**
 [ThreeDFormat](../threedformat)
 
 
@@ -361,7 +395,7 @@ float
 | --- | --- |
 | getThumbnail () | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -382,7 +416,7 @@ BufferedImage
 | scaleX | float | X scale |
 | scaleY | float | Y scale |
 
- **Result:**
+ **Returns:**
 BufferedImage
 
 
@@ -395,7 +429,7 @@ BufferedImage
 | --- | --- |
 | getUniqueId () | Gets unique shape identifier in presentation scope. Read-only long. See also ( #getOfficeInteropShapeId) for getting unique shape identifier in slide scope. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -408,7 +442,7 @@ long
 | --- | --- |
 | getWidth () | Returns or sets the width of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -421,7 +455,7 @@ float
 | --- | --- |
 | getX () | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -434,7 +468,7 @@ float
 | --- | --- |
 | getY () | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -447,7 +481,7 @@ float
 | --- | --- |
 | getZOrderPosition () | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -460,7 +494,7 @@ int
 | --- | --- |
 | isDecorative () | Gets or sets 'Mark as decorative' option Reed/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -473,7 +507,7 @@ boolean
 | --- | --- |
 | isGrouped () | Determines whether the shape is grouped. Read-only boolean. Property ( #getParentGroup) returns parent GroupShape object if shape is grouped. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -486,7 +520,7 @@ boolean
 | --- | --- |
 | isTextHolder () | Determines whether the shape is TextHolder_PPT. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

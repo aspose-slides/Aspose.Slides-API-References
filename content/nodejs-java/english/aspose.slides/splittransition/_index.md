@@ -17,7 +17,7 @@ url: /aspose.slides/splittransition/
 | --- | --- |
 | getDirection () | Direction of transition split. Read/write TransitionInOutDirectionType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,7 +30,7 @@ int
 | --- | --- |
 | getOrientation () | Orientation of transition split. Read/write Orientation. |
 
- **Result:**
+ **Returns:**
 byte
 
 

@@ -23,7 +23,7 @@ url: /aspose.slides/chartcategorycollection/
 | --- | --- | --- |
 | chartDataCell | [ChartDataCell](../chartdatacell) | Cell used to create chart category. |
 
- **Result:**
+ **Returns:**
 [ChartCategory](../chartcategory)
 
 
@@ -42,7 +42,7 @@ url: /aspose.slides/chartcategorycollection/
 | --- | --- | --- |
 | value | Object | The value. This function adds worksheet with name AUTO_DATA and adds all values there. If you use ChartDataWorkbook to add or edit cell values, be sure that you do not use this worksheet Maximum number of values added using this function must not exceed 16711680 |
 
- **Result:**
+ **Returns:**
 [ChartCategory](../chartcategory)
 
  **Error**
@@ -71,7 +71,7 @@ url: /aspose.slides/chartcategorycollection/
 | --- | --- |
 | getGroupingLevelCount () | Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -84,7 +84,7 @@ int
 | --- | --- |
 | getSyncRoot () | Returns an object that can be used to synchronize access to the collection. Read-only Object. Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -97,7 +97,7 @@ Object
 | --- | --- |
 | getUseCells () | If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -110,7 +110,7 @@ boolean
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. |
 
- **Result:**
+ **Returns:**
 [ChartCategory](../chartcategory)
 
  **Error**
@@ -135,7 +135,7 @@ boolean
 | --- | --- | --- |
 | value | [ChartCategory](../chartcategory) | Chart category. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -148,7 +148,7 @@ int
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the List is synchronized (thread safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -161,7 +161,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -174,7 +174,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -235,7 +235,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of elements int the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

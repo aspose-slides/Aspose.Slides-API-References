@@ -17,7 +17,7 @@ url: /aspose.slides/sketchformat/
 | --- | --- |
 | getSketchType () | Returns or sets the sketch type. Read/write LineSketchType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,7 +30,7 @@ int
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 

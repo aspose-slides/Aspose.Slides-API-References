@@ -17,7 +17,7 @@ url: /aspose.slides/propertyeffect/
 | --- | --- |
 | PropertyEffect() |  |
 
- **Result:**
+ **Returns:**
 PropertyEffect
 
 
@@ -30,7 +30,7 @@ PropertyEffect
 | --- | --- |
 | getBy () | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -43,7 +43,7 @@ String
 | --- | --- |
 | getCalcMode () | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getFrom () | Specifies the starting value of the animation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -69,7 +69,7 @@ String
 | --- | --- |
 | getPoints () | Specifies the points of the animation. Read/write IPointCollection. |
 
- **Result:**
+ **Returns:**
 [PointCollection](../pointcollection)
 
 
@@ -82,7 +82,7 @@ String
 | --- | --- |
 | getTo () | Specifies the ending value for the animation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -95,7 +95,7 @@ String
 | --- | --- |
 | getValueType () | Specifies the type of a property value. Read/write PropertyValueType. |
 
- **Result:**
+ **Returns:**
 int
 
 

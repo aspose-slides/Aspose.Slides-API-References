@@ -24,7 +24,7 @@ url: /aspose.slides/coloroperation/
 | --- | --- | --- |
 | op | int | Operation type. |
 
- **Result:**
+ **Returns:**
 ColorOperation
 
 
@@ -44,7 +44,7 @@ ColorOperation
 | op | int | Operation type. |
 | parameter | float | Operation parameter. |
 
- **Result:**
+ **Returns:**
 ColorOperation
 
 
@@ -63,7 +63,7 @@ ColorOperation
 | --- | --- | --- |
 | obj | Object | The ColorOperation to compare with the current ColorOperation. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -76,7 +76,7 @@ boolean
 | --- | --- |
 | getOperationType () | Returns or sets the type of an operation. Read-only ColorTransformOperation. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -89,7 +89,7 @@ int
 | --- | --- |
 | getParameter () | Returns a parameter of an operation. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -102,7 +102,7 @@ float
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
- **Result:**
+ **Returns:**
 int
 
 

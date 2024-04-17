@@ -17,7 +17,7 @@ url: /aspose.slides/textframeformat/
 | --- | --- |
 | TextFrameFormat() | Initializes a new instance of TextFrameFormat class. |
 
- **Result:**
+ **Returns:**
 TextFrameFormat
 
 
@@ -30,7 +30,7 @@ TextFrameFormat
 | --- | --- |
 | getAnchoringType () | Returns or sets vertical anchor text in a TextFrameEx. Read/write TextAnchorType. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -43,7 +43,7 @@ byte
 | --- | --- |
 | getAutofitType () | Returns or sets text's autofit mode. Read/write TextAutofitType. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -56,7 +56,7 @@ byte
 | --- | --- |
 | getCenterText () | If NullableBool.True then text should be centered in box horizontally. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -69,7 +69,7 @@ byte
 | --- | --- |
 | getColumnCount () | Returns or sets number of columns in the text area. This value must be a positive number. Otherwise, the value will be set to zero. Value 0 means undefined value. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -82,7 +82,7 @@ int
 | --- | --- |
 | getColumnSpacing () | Returns or sets the space between text columns in the text area (in points). This should only apply when there is more than 1 column present. This value must be a positive number. Otherwise, the value will be set to zero. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -95,7 +95,7 @@ double
 | --- | --- |
 | getEffective () | Gets effective text frame formatting data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 TextFrameFormatEffectiveData
 
 
@@ -108,7 +108,7 @@ TextFrameFormatEffectiveData
 | --- | --- |
 | getKeepTextFlat () | Gets or sets keeping text flat even if a 3-D Rotation effect was applied. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | getMarginBottom () | Returns or sets the bottom margin (points) in a TextFrame. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -134,7 +134,7 @@ double
 | --- | --- |
 | getMarginLeft () | Returns or sets the left margin (points) in a TextFrame. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -147,7 +147,7 @@ double
 | --- | --- |
 | getMarginRight () | Returns or sets the right margin (points) in a TextFrame. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -160,7 +160,7 @@ double
 | --- | --- |
 | getMarginTop () | Returns or sets the top margin (points) in a TextFrame. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -173,7 +173,7 @@ double
 | --- | --- |
 | getRotationAngle () | Specifies custom the rotation that is being applied to the text within the bounding box. If it not specified, the rotation of the accompanying shape is used. If it is specified, then this is applied independently from the shape. That is the shape can have a rotation applied in addition to the text itself having a rotation applied to it. The resulted value of visual text rotation summarized from this property and predefined vertical type in property TextVerticalType. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -186,7 +186,7 @@ float
 | --- | --- |
 | getTextStyle () | Returns text's style. Read-only ITextStyle. |
 
- **Result:**
+ **Returns:**
 [TextStyle](../textstyle)
 
 
@@ -199,7 +199,7 @@ float
 | --- | --- |
 | getTextVerticalType () | Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read/write TextVerticalType. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -212,7 +212,7 @@ byte
 | --- | --- |
 | getThreeDFormat () | Returns the ThreeDFormat object that represents 3d effect properties for a text. Read-only IThreeDFormat. |
 
- **Result:**
+ **Returns:**
 [ThreeDFormat](../threedformat)
 
 
@@ -225,7 +225,7 @@ byte
 | --- | --- |
 | getTransform () | Gets or sets text wrapping shape. Read/write TextShapeType. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -238,7 +238,7 @@ byte
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -251,7 +251,7 @@ long
 | --- | --- |
 | getWrapText () | True if text is wrapped at TextFrame's margins. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 

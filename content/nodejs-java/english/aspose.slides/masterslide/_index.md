@@ -23,7 +23,7 @@ url: /aspose.slides/masterslide/
 | --- | --- | --- |
 | fname | String | Path to the external theme file (.thmx). |
 
- **Result:**
+ **Returns:**
 [MasterSlide](../masterslide)
 
  **Error**
@@ -42,7 +42,7 @@ url: /aspose.slides/masterslide/
 | --- | --- |
 | getBodyStyle () | Returns the style of a body text. Read-only ITextStyle. |
 
- **Result:**
+ **Returns:**
 [TextStyle](../textstyle)
 
 
@@ -55,7 +55,7 @@ url: /aspose.slides/masterslide/
 | --- | --- |
 | getDependingSlides () | Returns an array with all slides, which depend on this master slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -68,7 +68,7 @@ url: /aspose.slides/masterslide/
 | --- | --- |
 | getHeaderFooterManager () | Returns HeaderFooter manager of the master slide. Read-only IMasterSlideHeaderFooterManager. |
 
- **Result:**
+ **Returns:**
 [MasterSlideHeaderFooterManager](../masterslideheaderfootermanager)
 
 
@@ -81,7 +81,7 @@ url: /aspose.slides/masterslide/
 | --- | --- |
 | getLayoutSlides () | Returns the collection of child layout slides for this master slide. Read-only IMasterLayoutSlideCollection. You can access to alternative API for adding/inserting/removing/cloning layout slides by using ( IPresentation#getLayoutSlides) property. |
 
- **Result:**
+ **Returns:**
 [MasterLayoutSlideCollection](../masterlayoutslidecollection)
 
 
@@ -94,7 +94,7 @@ url: /aspose.slides/masterslide/
 | --- | --- |
 | getName () | Returns or sets the name of a master slide. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -107,7 +107,7 @@ String
 | --- | --- |
 | getOtherStyle () | Returns the style of an other text. Read-only ITextStyle. |
 
- **Result:**
+ **Returns:**
 [TextStyle](../textstyle)
 
 
@@ -120,7 +120,7 @@ String
 | --- | --- |
 | getPreserve () | Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call MasterSlideCollection#removeUnused(boolean) Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -133,7 +133,7 @@ boolean
 | --- | --- |
 | getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**
@@ -152,7 +152,7 @@ boolean
 | --- | --- |
 | getThemeManager () | Returns the theme manager. Read-only IMasterThemeManager. |
 
- **Result:**
+ **Returns:**
 [MasterThemeManager](../masterthememanager)
 
 
@@ -165,7 +165,7 @@ boolean
 | --- | --- |
 | getTitleStyle () | Returns the style of a title text. Read-only ITextStyle. |
 
- **Result:**
+ **Returns:**
 [TextStyle](../textstyle)
 
 
@@ -178,7 +178,7 @@ boolean
 | --- | --- |
 | hasDependingSlides () | Returns true if there exists at least one slide that depends on this master slide. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

@@ -205,7 +205,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [Fonts](fonts) | Fonts collection. |
 | [FontsLoader](fontsloader) | Class for loading custom fonts defined by user. Should be used before creating any presentation objects. |
 | [FontsManager](fontsmanager) | Manages fonts across the presentation. |
-| [ForEach_](foreach_) | Represents a group of methods intended to iterate over different Presentation model objects. These methods can be useful if you need to iterate and change some Presentation' elements formatting or content, e.g. change each portion formatting. |
+| [ForEach](foreach) | Represents a group of methods intended to iterate over different Presentation model objects. These methods can be useful if you need to iterate and change some Presentation' elements formatting or content, e.g. change each portion formatting. |
 | [Format](format) | Represents chart format properties. |
 | [FormatFactory](formatfactory) | Allows to create formats via COM interface. |
 | [FormatScheme](formatscheme) | Stores theme-defined formats for the shapes. |
@@ -241,10 +241,12 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [HyperlinkManager](hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [HyperlinkQueries](hyperlinkqueries) | Provide easy access to contained hyperlinks. |
 | [ImageCollection](imagecollection) | Represents collection of PPImage. |
+| [ImageFormat](imageformat) | Represents the file format of the image. |
 | [ImagePixelFormat](imagepixelformat) | Specifies the pixel format for the generated images. |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39. |
 | [ImageTransformOperationCollection](imagetransformoperationcollection) | Represents a collection of effects apllied to an image. |
 | [ImageTransformOperationFactory](imagetransformoperationfactory) | Allows to create image transform operations For COM compatibility. |
+| [Images](images) | Methods to instantiate and work with IImage. |
 | [InOutTransition](inouttransition) | In-Out slide transition effect. |
 | [Ink](ink) | Represents an ink object on a slide. |
 | [InkBrush](inkbrush) | Represents an inkBrush object. |
@@ -422,6 +424,8 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [PlaceholderSize](placeholdersize) | Represents the size of a placeholder. |
 | [PlaceholderType](placeholdertype) | Represents the type of a placeholder. |
 | [Point](point) | Represent animation point. |
+| [Point2DDouble](point2ddouble) |  |
+| [Point2DFloat](point2dfloat) |  |
 | [PointCollection](pointcollection) | Represent collection of animation points. |
 | [Portion](portion) | Represents a portion of text inside a text paragraph. |
 | [PortionCollection](portioncollection) | Represents a collection of portions. |
@@ -613,6 +617,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [WheelTransition](wheeltransition) | Wheel slide transition effect. |
 | [XamlOptions](xamloptions) | Options that control how a XAML document is saved. |
 | [XpsOptions](xpsoptions) | Provides options that control how a presentation is saved in XPS format. |
+| [Zip64Mode](zip64mode) | Specifies when to use ZIP64 format extensions for OpenXML file. OpenXML file is a ZIP-archive that has a 4 GB (2^32 bytes) limit on uncompressed size of a file, compressed size of a file, and total size of the archive, as well as a limit of 65,535 (2^16-1) files in archive. ZIP64 format extensions increase the limits to 2^64. |
 | [ZoomFrame](zoomframe) | Represents a Slide Zoom object in a slide. |
 | [ZoomImageType](zoomimagetype) | Defines whether the Zoom object is using the slide preview or a cover image. |
 | [ZoomLayout](zoomlayout) | Specifies the summary zoom layout. |

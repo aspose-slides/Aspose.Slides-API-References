@@ -17,7 +17,7 @@ url: /aspose.slides/threedformat/
 | --- | --- |
 | getBevelBottom () | Returns or sets the type of a bottom 3D bevel. Read-only IShapeBevel. |
 
- **Result:**
+ **Returns:**
 [ShapeBevel](../shapebevel)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/threedformat/
 | --- | --- |
 | getBevelTop () | Returns or sets the type of a top 3D bevel. Read-only IShapeBevel. |
 
- **Result:**
+ **Returns:**
 [ShapeBevel](../shapebevel)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/threedformat/
 | --- | --- |
 | getCamera () | Returns or sets the settings of a camera. Read-only ICamera. |
 
- **Result:**
+ **Returns:**
 [Camera](../camera)
 
 
@@ -56,7 +56,7 @@ url: /aspose.slides/threedformat/
 | --- | --- |
 | getContourColor () | Returns or sets the color of a contour. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -69,7 +69,7 @@ url: /aspose.slides/threedformat/
 | --- | --- |
 | getContourWidth () | Returns or sets the width of a 3D contour. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -82,7 +82,7 @@ double
 | --- | --- |
 | getDepth () | Returns or sets the depth of a 3D shape. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -95,7 +95,7 @@ double
 | --- | --- |
 | getEffective () | Gets effective 3-D formatting data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 ThreeDFormatEffectiveData
 
 
@@ -108,7 +108,7 @@ ThreeDFormatEffectiveData
 | --- | --- |
 | getExtrusionColor () | Returns or sets the color of an extrusion. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -121,7 +121,7 @@ ThreeDFormatEffectiveData
 | --- | --- |
 | getExtrusionHeight () | Returns or sets the height of an extrusion effect. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -134,7 +134,7 @@ double
 | --- | --- |
 | getLightRig () | Returns or sets the type of a light. Read-only ILightRig. |
 
- **Result:**
+ **Returns:**
 [LightRig](../lightrig)
 
 
@@ -147,7 +147,7 @@ double
 | --- | --- |
 | getMaterial () | Returns or sets the type of a material. Read/write MaterialPresetType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -160,7 +160,7 @@ int
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 

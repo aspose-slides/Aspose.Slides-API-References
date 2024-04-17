@@ -17,7 +17,7 @@ url: /aspose.slides/datalabelcollection/
 | --- | --- |
 | getChart () | Returns the parent chart. Read-only IChart. |
 
- **Result:**
+ **Returns:**
 [Chart](../chart)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/datalabelcollection/
 | --- | --- |
 | getCount () | Gets the number of all data labels in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getCountOfVisibleDataLabels () | Gets the number of visible data labels in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,21 +56,8 @@ int
 | --- | --- |
 | getDefaultDataLabelFormat () | Gets the default data label format. Read-only IDataLabelFormat. |
 
- **Result:**
+ **Returns:**
 [DataLabelFormat](../datalabelformat)
-
-
----
-
-
-### getLeaderLinesColor {#getLeaderLinesColor}
-
-| Name | Description |
-| --- | --- |
-| getLeaderLinesColor () | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
-
- **Result:**
-Color
 
 
 ---
@@ -82,7 +69,7 @@ Color
 | --- | --- |
 | getLeaderLinesFormat () | Represents data labels leader lines format. Read-only IChartLinesFormat. |
 
- **Result:**
+ **Returns:**
 [ChartLinesFormat](../chartlinesformat)
 
 
@@ -95,7 +82,7 @@ Color
 | --- | --- |
 | getParentSeries () | Gets the parent series. Read-only IChartSeries. |
 
- **Result:**
+ **Returns:**
 [ChartSeries](../chartseries)
 
 
@@ -108,7 +95,7 @@ Color
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -121,8 +108,8 @@ Color
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result:**
-[MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide)
+ **Returns:**
+[Slide](../slide), [NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide)
 
 
 ---
@@ -134,7 +121,7 @@ Color
 | --- | --- |
 | get_Item (int) | Gets the data label for the data point with the specified index. Alternate way to access data label is: - series.getDataPoints().get_Item(i).getLabel() - manage label properties. |
 
- **Result:**
+ **Returns:**
 [DataLabel](../datalabel)
 
 
@@ -163,7 +150,7 @@ Color
 | --- | --- | --- |
 | value | [DataLabel](../datalabel) | DataLabel to find. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -176,7 +163,7 @@ int
 | --- | --- |
 | isVisible () | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only boolean. If data label is visible by default you can make it hidden by default with Hide() function. But if data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -189,7 +176,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -202,18 +189,8 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
-
-
----
-
-
-### setLeaderLinesColor {#setLeaderLinesColor}
-
-| Name | Description |
-| --- | --- |
-| setLeaderLinesColor (Color) | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
 
 
 ---

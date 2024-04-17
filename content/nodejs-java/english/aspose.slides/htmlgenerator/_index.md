@@ -167,7 +167,7 @@ url: /aspose.slides/htmlgenerator/
 | --- | --- |
 | getNextSlideIndex () | Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -180,7 +180,7 @@ int
 | --- | --- |
 | getPreviousSlideIndex () | Returns index of previously rendered slide or -1 if first slide is rendering. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -193,7 +193,7 @@ int
 | --- | --- |
 | getSlideImageSize () | Returns slide image size. Read-only java.awt.geom.Dimension2D. |
 
- **Result:**
+ **Returns:**
 Dimension2D
 
 
@@ -206,7 +206,7 @@ Dimension2D
 | --- | --- |
 | getSlideImageSizeUnit () | Returns a unit in which slide image size is specified. Read-only SvgCoordinateUnit. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -219,7 +219,7 @@ int
 | --- | --- |
 | getSlideImageSizeUnitCode () | Returns a css code of unit in which slide image size is specified. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -232,7 +232,7 @@ String
 | --- | --- |
 | getSlideIndex () | Returns index of currently rendering slide. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

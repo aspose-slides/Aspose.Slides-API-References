@@ -23,7 +23,7 @@ url: /aspose.slides/autoshape/
 | --- | --- | --- |
 | text | String | Default text for a new TextFrame. |
 
- **Result:**
+ **Returns:**
 [TextFrame](../textframe)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/autoshape/
 | --- | --- |
 | getAutoShapeLock () | Returns autoshape's locks. Read-only IAutoShapeLock. |
 
- **Result:**
+ **Returns:**
 [AutoShapeLock](../autoshapelock)
 
 
@@ -49,7 +49,7 @@ url: /aspose.slides/autoshape/
 | --- | --- |
 | getShapeLock () | Returns shape's locks. Read-only IAutoShapeLock. |
 
- **Result:**
+ **Returns:**
 [AutoShapeLock](../autoshapelock)
 
 
@@ -62,7 +62,7 @@ url: /aspose.slides/autoshape/
 | --- | --- |
 | getTextFrame () | Returns TextFrame object for the AutoShape. Read-only ITextFrame. |
 
- **Result:**
+ **Returns:**
 [TextFrame](../textframe)
 
 
@@ -75,7 +75,7 @@ url: /aspose.slides/autoshape/
 | --- | --- |
 | getUseBackgroundFill () | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | isTextBox () | Specifies if the shape is a text box. If shape is not specified to be a text box does not mean that it cannot have text attached to it. A text box is merely a specialized shape with specific properties. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

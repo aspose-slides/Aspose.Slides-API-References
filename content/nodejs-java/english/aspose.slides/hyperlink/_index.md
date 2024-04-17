@@ -23,7 +23,7 @@ url: /aspose.slides/hyperlink/
 | --- | --- | --- |
 | url | String | Hyperlink URL. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -42,7 +42,7 @@ Hyperlink
 | --- | --- | --- |
 | slide | [Slide](../slide) | Target slide. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -66,7 +66,7 @@ Hyperlink
 | stopSoundsOnClick | boolean | Determines whether the sound should be stopped on hyperlink click. |
 | highlightClick | boolean | Determines whether the hyperlink should be highlighted on click. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -85,7 +85,7 @@ Hyperlink
 | --- | --- | --- |
 | obj | Object | The Hyperlink to compare with the current Hyperlink. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -104,7 +104,7 @@ boolean
 | --- | --- | --- |
 | hlink | [Hyperlink](../hyperlink) | The Hyperlink to compare with the current Hyperlink. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -117,7 +117,7 @@ boolean
 | --- | --- |
 | getActionType () | Returns type of Hyperlink's action. Read-only HyperlinkActionType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -130,7 +130,7 @@ int
 | --- | --- |
 | getColorSource () | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -143,7 +143,7 @@ int
 | --- | --- |
 | getEndShow () | Returns a hyperlink which ends the show. Read-only Hyperlink. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -156,7 +156,7 @@ Hyperlink
 | --- | --- |
 | getExternalUrl () | Specifies the external URL. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -169,7 +169,7 @@ String
 | --- | --- |
 | getExternalUrlOriginal () | Represents a hyperlink that is set for this portion without regard to the actual content of the portion. PowerPoint behaves specifically for links and their corresponding text in a portion. It allows to create text for the hyperlink in the form of a valid URL, different from the real address of the link. In this case, when you view the link in the edit window, it will be changed to match the text portion. This property represents the original value of the hyperlink. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -182,7 +182,7 @@ String
 | --- | --- |
 | getFirstSlide () | Returns a hyperlink to the first slide of the presentation. Read-only Hyperlink. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -195,7 +195,7 @@ Hyperlink
 | --- | --- |
 | getHighlightClick () | Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -208,7 +208,7 @@ boolean
 | --- | --- |
 | getHistory () | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -221,7 +221,7 @@ boolean
 | --- | --- |
 | getLastSlide () | Returns a hyperlink to the last slide of the presentation. Read-only Hyperlink. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -234,7 +234,7 @@ Hyperlink
 | --- | --- |
 | getLastVievedSlide () | Returns a hyperlink to the last viewed slide. Read-only Hyperlink. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -247,7 +247,7 @@ Hyperlink
 | --- | --- |
 | getMedia () | Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame. Read-only Hyperlink. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -260,7 +260,7 @@ Hyperlink
 | --- | --- |
 | getNextSlide () | Returns a hyperlink to the next slide. Read-only Hyperlink. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -273,7 +273,7 @@ Hyperlink
 | --- | --- |
 | getNoAction () | Returns a special "do nothing" hyperlink. Read-only Hyperlink. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -286,7 +286,7 @@ Hyperlink
 | --- | --- |
 | getPreviousSlide () | Returns a hyperlink to the previous slide. Read-only Hyperlink. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -299,7 +299,7 @@ Hyperlink
 | --- | --- |
 | getSound () | Represents the playing sound of the hyperlink. Read/write IAudio. |
 
- **Result:**
+ **Returns:**
 [Audio](../audio)
 
 
@@ -312,7 +312,7 @@ Hyperlink
 | --- | --- |
 | getStopSoundOnClick () | Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -325,7 +325,7 @@ boolean
 | --- | --- |
 | getTargetFrame () | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -338,7 +338,7 @@ String
 | --- | --- |
 | getTargetSlide () | If the Hyperlink targets specific slide returns this slide. Read-only ISlide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -351,7 +351,7 @@ String
 | --- | --- |
 | getTooltip () | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -364,7 +364,7 @@ String
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -377,7 +377,7 @@ long
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -397,7 +397,7 @@ int
 | hlink1 | [Hyperlink](../hyperlink) | First hyperlink to be tested. |
 | hlink2 | [Hyperlink](../hyperlink) | Second hyperlink to be tested. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -417,7 +417,7 @@ boolean
 | hlink1 | [Hyperlink](../hyperlink) | First hyperlink to be tested. |
 | hlink2 | [Hyperlink](../hyperlink) | Second hyperlink to be tested. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

@@ -24,7 +24,7 @@ url: /aspose.slides/gradientstopcollection/
 | position | float | Position of the new gradient stop. |
 | color | Color | Color of the new radient stop. |
 
- **Result:**
+ **Returns:**
 [GradientStop](../gradientstop)
 
 
@@ -44,7 +44,7 @@ url: /aspose.slides/gradientstopcollection/
 | position | float | Position of the new gradient stop. |
 | presetColor | int | Color of the new radient stop. |
 
- **Result:**
+ **Returns:**
 [GradientStop](../gradientstop)
 
 
@@ -64,7 +64,7 @@ url: /aspose.slides/gradientstopcollection/
 | position | float | Position of the new gradient stop. |
 | schemeColor | int | Color of the new radient stop. |
 
- **Result:**
+ **Returns:**
 [GradientStop](../gradientstop)
 
 
@@ -87,7 +87,7 @@ url: /aspose.slides/gradientstopcollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -100,7 +100,7 @@ Object
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -113,7 +113,7 @@ long
 | --- | --- |
 | get_Item (int) | Returns the gradient stop by index. |
 
- **Result:**
+ **Returns:**
 [GradientStop](../gradientstop)
 
 
@@ -180,7 +180,7 @@ long
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -193,7 +193,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -206,7 +206,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -235,7 +235,7 @@ boolean
 | --- | --- |
 | size () | Returns the number of gradient stops in a collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

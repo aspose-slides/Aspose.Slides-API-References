@@ -17,7 +17,7 @@ url: /aspose.slides/notesslide/
 | --- | --- |
 | getHeaderFooterManager () | Returns HeaderFooter manager of the notes slide. Read-only INotesSlideHeaderFooterManager. |
 
- **Result:**
+ **Returns:**
 [NotesSlideHeaderFooterManager](../notesslideheaderfootermanager)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/notesslide/
 | --- | --- |
 | getNotesTextFrame () | Returns a TextFrame with notes' text if there is one. Read-only ITextFrame. |
 
- **Result:**
+ **Returns:**
 [TextFrame](../textframe)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/notesslide/
 | --- | --- |
 | getParentSlide () | Returns the parent slide. Read-only ISlide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -56,7 +56,7 @@ url: /aspose.slides/notesslide/
 | --- | --- |
 | getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -69,8 +69,8 @@ boolean
 | --- | --- |
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
- **Result:**
-[NotesSlideThemeManager](../notesslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [SlideThemeManager](../slidethememanager)
+ **Returns:**
+[BaseOverrideThemeManager](../baseoverridethememanager), [ChartThemeManager](../chartthememanager), [SlideThemeManager](../slidethememanager), [NotesSlideThemeManager](../notesslidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager)
 
 
 ---

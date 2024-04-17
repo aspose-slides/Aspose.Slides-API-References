@@ -17,7 +17,7 @@ url: /aspose.slides/pptexception/
 | --- | --- |
 | PptException() | Default function. |
 
- **Result:**
+ **Returns:**
 PptException
 
 
@@ -36,7 +36,7 @@ PptException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 PptException
 
 
@@ -56,7 +56,7 @@ PptException
 | message | String | message |
 | exception | Exception | original exception |
 
- **Result:**
+ **Returns:**
 PptException
 
 

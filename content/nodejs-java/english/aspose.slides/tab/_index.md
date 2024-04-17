@@ -24,7 +24,7 @@ url: /aspose.slides/tab/
 | position | double | Tab position. |
 | align | int | Align. |
 
- **Result:**
+ **Returns:**
 Tab
 
 
@@ -43,7 +43,7 @@ Tab
 | --- | --- | --- |
 | obj | Object | An object to compare with this instance. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getAlignment () | Returns or sets align style of a tab. Read/write TabAlignment. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getPosition () | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -82,7 +82,7 @@ double
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 

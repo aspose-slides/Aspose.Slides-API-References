@@ -19,7 +19,7 @@ url: /aspose.slides/mathematicaltextfactory/
 | --- | --- |
 | MathematicalTextFactory() |  |
 
- **Result:**
+ **Returns:**
 MathematicalTextFactory
 
 
@@ -32,7 +32,7 @@ MathematicalTextFactory
 | --- | --- |
 | createMathematicalText () | Create empty mathematical text element |
 
- **Result:**
+ **Returns:**
 [MathematicalText](../mathematicaltext)
 
 
@@ -51,7 +51,7 @@ MathematicalTextFactory
 | --- | --- | --- |
 | mathSymbol | char | single symbol to use as text value |
 
- **Result:**
+ **Returns:**
 [MathematicalText](../mathematicaltext)
 
 
@@ -70,7 +70,7 @@ MathematicalTextFactory
 | --- | --- | --- |
 | mathText | String | text value |
 
- **Result:**
+ **Returns:**
 [MathematicalText](../mathematicaltext)
 
 
@@ -90,7 +90,7 @@ MathematicalTextFactory
 | mathText | String | text value |
 | portionFormat | [PortionFormat](../portionformat) | text format settings |
 
- **Result:**
+ **Returns:**
 [MathematicalText](../mathematicaltext)
 
 

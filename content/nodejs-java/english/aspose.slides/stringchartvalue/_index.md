@@ -19,7 +19,7 @@ url: /aspose.slides/stringchartvalue/
 | --- | --- |
 | getAsCells () | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
 
- **Result:**
+ **Returns:**
 [ChartCellCollection](../chartcellcollection)
 
 
@@ -32,7 +32,7 @@ url: /aspose.slides/stringchartvalue/
 | --- | --- |
 | getAsLiteralString () | Returns or sets value as literal string. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -45,7 +45,7 @@ String
 | --- | --- |
 | getCellsAddressInWorkbook () | If DataSourceType property is DataSourceType.Worksheet then this function returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -58,7 +58,7 @@ String
 | --- | --- |
 | getData () | Returns or sets Data object. Read/write Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -117,7 +117,7 @@ Object
 | --- | --- |
 | toString () | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
 
- **Result:**
+ **Returns:**
 String
 
 

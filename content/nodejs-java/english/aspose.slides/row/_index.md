@@ -17,7 +17,7 @@ url: /aspose.slides/row/
 | --- | --- |
 | getHeight () | Returns the height of a row. Read-only double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -30,7 +30,7 @@ double
 | --- | --- |
 | getMinimalHeight () | Returns or sets the minimal possible height of a row. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -43,7 +43,7 @@ double
 | --- | --- |
 | getRowFormat () | Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormat. |
 
- **Result:**
+ **Returns:**
 [RowFormat](../rowformat)
 
 

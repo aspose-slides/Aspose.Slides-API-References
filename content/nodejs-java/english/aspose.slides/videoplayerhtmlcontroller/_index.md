@@ -25,88 +25,8 @@ url: /aspose.slides/videoplayerhtmlcontroller/
 | fileName | String | The name of the HTML file |
 | baseUri | String | The base URI which will be used for links generating |
 
- **Result:**
+ **Returns:**
 VideoPlayerHtmlController
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [AutoShape](../autoshape)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [Shape](../shape)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [Chart](../chart)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [GraphicalObject](../graphicalobject)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [ZoomObject](../zoomobject)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [SmartArt](../smartart)) |  |
 
 
 ---
@@ -126,37 +46,7 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [Table](../table)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [LegacyDiagram](../legacydiagram)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [VideoFrame](../videoframe)) |  |
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [Connector](../connector)) |  |
+| formatShape ([SvgShape](../svgshape), [GraphicalObject](../graphicalobject)) |  |
 
 
 ---
@@ -176,6 +66,16 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
+| formatShape ([SvgShape](../svgshape), [Shape](../shape)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
 | formatShape ([SvgShape](../svgshape), [GroupShape](../groupshape)) |  |
 
 
@@ -186,7 +86,7 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| formatShape ([SvgShape](../svgshape), [LegacyDiagram](../legacydiagram)) |  |
 
 
 ---
@@ -206,7 +106,97 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
+| formatShape ([SvgShape](../svgshape), [Chart](../chart)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [Table](../table)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [ZoomFrame](../zoomframe)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [SmartArt](../smartart)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [AutoShape](../autoshape)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [SmartArtShape](../smartartshape)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [VideoFrame](../videoframe)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [ZoomObject](../zoomobject)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
 | formatShape ([SvgShape](../svgshape), [Ink](../ink)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [SummaryZoomFrame](../summaryzoomframe)) |  |
 
 
 ---
@@ -226,7 +216,17 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [SmartArtShape](../smartartshape)) |  |
+| formatShape ([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [Connector](../connector)) |  |
 
 
 ---
@@ -238,7 +238,7 @@ VideoPlayerHtmlController
 | --- | --- |
 | getObjectStoringLocation (int, byte[], String, String, String) |  |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -251,7 +251,7 @@ int
 | --- | --- |
 | getUrl (int, int) |  |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -292,47 +292,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
 
 
 ---
@@ -352,77 +312,17 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
 
 ---
@@ -442,7 +342,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
 
 
 ---
@@ -462,7 +362,97 @@ String
 
 | Name | Description |
 | --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
 
 
 ---
@@ -482,87 +472,17 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
 
 ---
 
 
-### writeShapeStart {#writeShapeStart}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
 
 
 ---
@@ -582,37 +502,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
 
 ---
@@ -632,6 +522,16 @@ String
 
 | Name | Description |
 | --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
 
 
@@ -642,7 +542,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
 
 
 ---
@@ -662,7 +562,97 @@ String
 
 | Name | Description |
 | --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
 
 
 ---
@@ -682,7 +672,17 @@ String
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
 
 
 ---

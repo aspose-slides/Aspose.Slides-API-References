@@ -17,7 +17,7 @@ url: /aspose.slides/documentproperties/
 | --- | --- |
 | DocumentProperties() | Initializes new instance of class DocumentProperties. |
 
- **Result:**
+ **Returns:**
 DocumentProperties
 
 
@@ -50,7 +50,7 @@ DocumentProperties
 | --- | --- |
 | cloneT () | Clones current object |
 
- **Result:**
+ **Returns:**
 [DocumentProperties](../documentproperties)
 
 
@@ -69,7 +69,7 @@ DocumentProperties
 | --- | --- | --- |
 | name | String | Name of a custom property to check. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | deepClone () | Clones current object |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -95,7 +95,7 @@ Object
 | --- | --- |
 | getAppVersion () | Returns the app version. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -108,7 +108,7 @@ String
 | --- | --- |
 | getApplicationTemplate () | Returns or sets the template of a application. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -121,7 +121,7 @@ String
 | --- | --- |
 | getAuthor () | Returns or sets the author of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -134,7 +134,7 @@ String
 | --- | --- |
 | getCategory () | Returns or sets the category of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -147,7 +147,7 @@ String
 | --- | --- |
 | getComments () | Returns or sets the comments of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -160,7 +160,7 @@ String
 | --- | --- |
 | getCompany () | Returns or sets the company property. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -173,7 +173,7 @@ String
 | --- | --- |
 | getContentStatus () | Returns or sets the content status of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -186,7 +186,7 @@ String
 | --- | --- |
 | getContentType () | Returns or sets the content type of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -199,7 +199,7 @@ String
 | --- | --- |
 | getCountOfCustomProperties () | Returns the number of custom properties actually contained in a collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -212,7 +212,7 @@ int
 | --- | --- |
 | getCreatedTime () | Returns the date a presentation was created. Values are in UTC. Read/write java.util.Date. |
 
- **Result:**
+ **Returns:**
 Date
 
 
@@ -231,7 +231,7 @@ Date
 | --- | --- | --- |
 | index | int | The zero-based index of a custom property to get. |
 
- **Result:**
+ **Returns:**
 String
 
  **Error**
@@ -352,7 +352,7 @@ String
 | --- | --- |
 | getHyperlinkBase () | Returns or sets the HyperlinkBase document property. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -365,7 +365,7 @@ String
 | --- | --- |
 | getKeywords () | Returns or sets the keywords of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -378,7 +378,7 @@ String
 | --- | --- |
 | getLastPrinted () | Returns the date when a presentation was printed last time. Read/write java.util.Date. |
 
- **Result:**
+ **Returns:**
 Date
 
 
@@ -391,7 +391,7 @@ Date
 | --- | --- |
 | getLastSavedBy () | Returns or sets the name of a last person who modified a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -404,7 +404,7 @@ String
 | --- | --- |
 | getLastSavedTime () | Returns the date a presentation was last modified. Values are in UTC. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by function IPresentationInfo#readDocumentProperties Please see the example in IPresentationInfo#updateDocumentProperties(IDocumentProperties) function summary. |
 
- **Result:**
+ **Returns:**
 Date
 
 
@@ -417,7 +417,7 @@ Date
 | --- | --- |
 | getManager () | Returns or sets the manager property. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -430,7 +430,7 @@ String
 | --- | --- |
 | getNameOfApplication () | Returns or sets the name of the application. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -443,7 +443,7 @@ String
 | --- | --- |
 | getPresentationFormat () | Returns or sets the intended format of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -456,7 +456,7 @@ String
 | --- | --- |
 | getRevisionNumber () | Returns or sets the presentation revision number. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -469,7 +469,7 @@ int
 | --- | --- |
 | getSharedDoc () | Determines whether the presentation is shared between multiple people. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -482,7 +482,7 @@ boolean
 | --- | --- |
 | getSubject () | Returns or sets the subject of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -495,7 +495,7 @@ String
 | --- | --- |
 | getTitle () | Returns or sets the title of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -508,7 +508,7 @@ String
 | --- | --- |
 | getTotalEditingTime () | Total editing time of a presentation. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -521,7 +521,7 @@ double
 | --- | --- |
 | get_Item (String) | Returns or sets the custom property associated with a specified name. Read/write Object. Value can be int, float, String, boolean or Date. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -540,7 +540,7 @@ Object
 | --- | --- | --- |
 | name | String | Name of a custom property to remove. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

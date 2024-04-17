@@ -17,7 +17,7 @@ url: /aspose.slides/pdfimportoptions/
 | --- | --- |
 | PdfImportOptions() |  |
 
- **Result:**
+ **Returns:**
 PdfImportOptions
 
 
@@ -30,7 +30,7 @@ PdfImportOptions
 | --- | --- |
 | getDetectTables () | Determines whether detect tables when importing pdf file. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

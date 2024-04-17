@@ -17,7 +17,7 @@ url: /aspose.slides/chartdatapoint/
 | --- | --- |
 | getActualHeight () | Specifies actual height of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -30,7 +30,7 @@ float
 | --- | --- |
 | getActualWidth () | Specifies actual width of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -43,7 +43,7 @@ float
 | --- | --- |
 | getActualX () | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -56,7 +56,7 @@ float
 | --- | --- |
 | getActualY () | Specifies actual top of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -69,7 +69,7 @@ float
 | --- | --- |
 | getAutomaticDataPointColor () | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style. This color is used by default if FillType equals NotDefined. |
 
- **Result:**
+ **Returns:**
 Color
 
 
@@ -82,7 +82,7 @@ Color
 | --- | --- |
 | getBubbleSize () | BubbleSize. Read-only IDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [DoubleChartValue](../doublechartvalue)
 
 
@@ -95,7 +95,7 @@ Color
 | --- | --- |
 | getColorValue () | Returns the color value of chart data point. Used with Map charts. Read-only IDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [DoubleChartValue](../doublechartvalue)
 
 
@@ -108,7 +108,7 @@ Color
 | --- | --- |
 | getDataPointLevels () | Returns container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |
 
- **Result:**
+ **Returns:**
 [ChartDataPointLevelsManager](../chartdatapointlevelsmanager)
 
 
@@ -121,7 +121,7 @@ Color
 | --- | --- |
 | getErrorBarsCustomValues () | Represents series error bars values in case of Custom value type. Read-only IErrorBarsCustomValues. |
 
- **Result:**
+ **Returns:**
 [ErrorBarsCustomValues](../errorbarscustomvalues)
 
 
@@ -134,7 +134,7 @@ Color
 | --- | --- |
 | getExplosion () | Specifies the amount the data point shall be moved from the center of the pie. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -147,7 +147,7 @@ int
 | --- | --- |
 | getFormat () | Represents the formatting properties. Read/write IFormat. |
 
- **Result:**
+ **Returns:**
 [Format](../format)
 
 
@@ -160,7 +160,7 @@ int
 | --- | --- |
 | getIndex () | Determines which of the parent's children collection this data point applies to. Read long. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -173,7 +173,7 @@ long
 | --- | --- |
 | getInvertIfNegative () | Specifies the data point shall invert its colors if the value is negative. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -186,7 +186,7 @@ boolean
 | --- | --- |
 | getLabel () | Label. Read-only IDataLabel. |
 
- **Result:**
+ **Returns:**
 [DataLabel](../datalabel)
 
 
@@ -199,7 +199,7 @@ boolean
 | --- | --- |
 | getMarker () | Specifies a data marker. Read-only IMarker. |
 
- **Result:**
+ **Returns:**
 [Marker](../marker)
 
 
@@ -212,7 +212,7 @@ boolean
 | --- | --- |
 | getRelatedLegendEntry () | Properties of corresponding legend entry in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Read-only ILegendEntryProperties. |
 
- **Result:**
+ **Returns:**
 [LegendEntryProperties](../legendentryproperties)
 
 
@@ -225,7 +225,7 @@ boolean
 | --- | --- |
 | getSetAsTotal () | Sets data point as total. Applied for Waterfall series type only. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -238,7 +238,7 @@ boolean
 | --- | --- |
 | getSizeValue () | Returns the size value of chart data point. Used with Treemap and Sunburst charts. Read-only IDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [DoubleChartValue](../doublechartvalue)
 
 
@@ -251,7 +251,7 @@ boolean
 | --- | --- |
 | getValue () | Value. Read-only IDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [DoubleChartValue](../doublechartvalue)
 
 
@@ -264,7 +264,7 @@ boolean
 | --- | --- |
 | getXValue () | XValue. Read-only IStringOrDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [StringOrDoubleChartValue](../stringordoublechartvalue)
 
 
@@ -277,7 +277,7 @@ boolean
 | --- | --- |
 | getYValue () | YValue. Read-only IDoubleChartValue. |
 
- **Result:**
+ **Returns:**
 [DoubleChartValue](../doublechartvalue)
 
 
@@ -290,7 +290,7 @@ boolean
 | --- | --- |
 | isBubble3D () | Specifies that the bubbles have a 3-D effect applied to them. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

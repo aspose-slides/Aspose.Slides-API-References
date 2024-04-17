@@ -23,7 +23,7 @@ url: /aspose.slides/svgimage/
 | --- | --- | --- |
 | data | byte[] | Svg data. |
 
- **Result:**
+ **Returns:**
 SvgImage
 
 
@@ -42,7 +42,7 @@ SvgImage
 | --- | --- | --- |
 | svgContent | String | Svg content. |
 
- **Result:**
+ **Returns:**
 SvgImage
 
 
@@ -62,7 +62,7 @@ SvgImage
 | stream | ReadStream | Svg stream. |
 | callback | Function | callback(error, item) - Callback to be called when the class is created, item is the new instance of the SvgImage |
 
- **Result:**
+ **Returns:**
 SvgImage
 
 
@@ -83,7 +83,7 @@ SvgImage
 | externalResResolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 SvgImage
 
 
@@ -104,7 +104,7 @@ SvgImage
 | externalResResolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 SvgImage
 
 
@@ -125,7 +125,7 @@ SvgImage
 | externalResResolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 SvgImage
 
 
@@ -146,7 +146,7 @@ SvgImage
 | externalResResolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 SvgImage
 
 
@@ -168,7 +168,7 @@ SvgImage
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 | callback | Function | callback(error, item) - Callback to be called when the class is created, item is the new instance of the SvgImage |
 
- **Result:**
+ **Returns:**
 SvgImage
 
 
@@ -190,7 +190,7 @@ SvgImage
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 | callback | Function | callback(error, item) - Callback to be called when the class is created, item is the new instance of the SvgImage |
 
- **Result:**
+ **Returns:**
 SvgImage
 
 
@@ -203,7 +203,7 @@ SvgImage
 | --- | --- |
 | getBaseUri () | Returns base URI of the specified Svg. Used to resolve relative links. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -216,7 +216,7 @@ String
 | --- | --- |
 | getExternalResourceResolver () | Return callback interface used to resolve external resources during Svg documents import. Read-only IExternalResourceResolver. |
 
- **Result:**
+ **Returns:**
 [HtmlExternalResolver](../htmlexternalresolver), [ExternalResourceResolver](../externalresourceresolver)
 
 
@@ -229,7 +229,7 @@ String
 | --- | --- |
 | getSvgContent () | Returns SVG content. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -242,7 +242,7 @@ String
 | --- | --- |
 | getSvgData () | Returns SVG data. Read-only byte[]. |
 
- **Result:**
+ **Returns:**
 byte
 
 

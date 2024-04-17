@@ -15,7 +15,7 @@ Provides methods to set metered key.
 | --- | --- |
 | Metered() | Initializes a new instance of this class. |
 
- **Result:**
+ **Returns:**
 Metered
 
 
@@ -28,7 +28,7 @@ Metered
 | --- | --- |
 | getConsumptionCredit () | Gets consumption credit |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -41,7 +41,7 @@ double
 | --- | --- |
 | getConsumptionQuantity () | Gets consumption file size |
 
- **Result:**
+ **Returns:**
 double
 
 

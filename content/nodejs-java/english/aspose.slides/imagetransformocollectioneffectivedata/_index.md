@@ -19,7 +19,7 @@ url: /aspose.slides/imagetransformocollectioneffectivedata/
 | --- | --- |
 | ImageTransformOCollectionEffectiveData() |  |
 
- **Result:**
+ **Returns:**
 ImageTransformOCollectionEffectiveData
 
 
@@ -38,7 +38,7 @@ ImageTransformOCollectionEffectiveData
 | --- | --- | --- |
 | obj | Object | The object to compare with the current object. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -51,7 +51,7 @@ boolean
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -70,8 +70,8 @@ Object
 | --- | --- | --- |
 | index | int | Index of element. |
 
- **Result:**
-ReflectionEffectiveData, AlphaModulateEffectiveData, FillOverlayEffectiveData, SoftEdgeEffectiveData, AlphaFloorEffectiveData, GrayScaleEffectiveData, ColorChangeEffectiveData, HSLEffectiveData, InnerShadowEffectiveData, AlphaReplaceEffectiveData, ColorReplaceEffectiveData, BiLevelEffectiveData, EffectEffectiveData, DuotoneEffectiveData, AlphaInverseEffectiveData, GlowEffectiveData, LuminanceEffectiveData, PresetShadowEffectiveData, TintEffectiveData, AlphaBiLevelEffectiveData, BlurEffectiveData, AlphaModulateFixedEffectiveData, OuterShadowEffectiveData, AlphaCeilingEffectiveData
+ **Returns:**
+ColorChangeEffectiveData, AlphaCeilingEffectiveData, BiLevelEffectiveData, ColorReplaceEffectiveData, SoftEdgeEffectiveData, AlphaInverseEffectiveData, AlphaModulateEffectiveData, AlphaModulateFixedEffectiveData, TintEffectiveData, InnerShadowEffectiveData, EffectEffectiveData, GrayScaleEffectiveData, OuterShadowEffectiveData, DuotoneEffectiveData, GlowEffectiveData, BlurEffectiveData, PresetShadowEffectiveData, LuminanceEffectiveData, AlphaReplaceEffectiveData, HSLEffectiveData, ReflectionEffectiveData, AlphaBiLevelEffectiveData, AlphaFloorEffectiveData, FillOverlayEffectiveData
 
 
 ---
@@ -83,7 +83,7 @@ ReflectionEffectiveData, AlphaModulateEffectiveData, FillOverlayEffectiveData, S
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -96,7 +96,7 @@ int
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -109,7 +109,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -122,7 +122,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -135,7 +135,7 @@ boolean
 | --- | --- |
 | size () | Returns the number of image effects in a collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

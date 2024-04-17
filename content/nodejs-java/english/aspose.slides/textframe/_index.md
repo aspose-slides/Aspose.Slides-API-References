@@ -17,7 +17,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getHyperlinkQueries () | Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
 
- **Result:**
+ **Returns:**
 [HyperlinkQueries](../hyperlinkqueries)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getParagraphs () | Returns the list of all paragraphs in a frame. Read-only IParagraphCollection. |
 
- **Result:**
+ **Returns:**
 [ParagraphCollection](../paragraphcollection)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a TextFrame. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -56,8 +56,8 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getSlide () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
- **Result:**
-[MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide)
+ **Returns:**
+[Slide](../slide), [NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide)
 
 
 ---
@@ -69,7 +69,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getText () | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -82,7 +82,7 @@ String
 | --- | --- |
 | getTextFrameFormat () | Returns the formatting object for this TextFrame object. Read-only ITextFrameFormat. |
 
- **Result:**
+ **Returns:**
 [TextFrameFormat](../textframeformat)
 
 

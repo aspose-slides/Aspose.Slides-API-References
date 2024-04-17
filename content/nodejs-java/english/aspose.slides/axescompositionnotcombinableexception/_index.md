@@ -18,7 +18,7 @@ url: /aspose.slides/axescompositionnotcombinableexception/
 | --- | --- |
 | AxesCompositionNotCombinableException() | Default function. |
 
- **Result:**
+ **Returns:**
 AxesCompositionNotCombinableException
 
 
@@ -37,7 +37,7 @@ AxesCompositionNotCombinableException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 AxesCompositionNotCombinableException
 
 
@@ -57,7 +57,7 @@ AxesCompositionNotCombinableException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 AxesCompositionNotCombinableException
 
 

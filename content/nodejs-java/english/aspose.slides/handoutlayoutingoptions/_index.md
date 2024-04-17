@@ -17,7 +17,7 @@ url: /aspose.slides/handoutlayoutingoptions/
 | --- | --- |
 | HandoutLayoutingOptions() | Initializes the default values. |
 
- **Result:**
+ **Returns:**
 HandoutLayoutingOptions
 
 
@@ -30,7 +30,7 @@ HandoutLayoutingOptions
 | --- | --- |
 | getHandout () | Specifies how many slides and in what sequence will be placed on the page HandoutType. Default value is HandoutType.Handouts6Horizontal. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getPrintComments () | Specifies whether or not to display comments on slides Default value is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getPrintFrameSlide () | Specifies whether to draw frames around the displayed slides or not. Default value is true. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -69,7 +69,7 @@ boolean
 | --- | --- |
 | getPrintSlideNumbers () | Specifies whether or not to print the displayed slide numbers. Default value is true. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

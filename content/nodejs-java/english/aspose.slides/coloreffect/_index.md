@@ -17,7 +17,7 @@ url: /aspose.slides/coloreffect/
 | --- | --- |
 | ColorEffect() | Creates new instance. |
 
- **Result:**
+ **Returns:**
 ColorEffect
 
 
@@ -30,7 +30,7 @@ ColorEffect
 | --- | --- |
 | getBy () | Describes the relative offset value for the color animation. Read/write IColorOffset. |
 
- **Result:**
+ **Returns:**
 [ColorOffset](../coloroffset)
 
 
@@ -43,7 +43,7 @@ ColorEffect
 | --- | --- |
 | getColorSpace () | Represent color space of behavior. Read/write ColorSpace. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getDirection () | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getFrom () | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -82,7 +82,7 @@ int
 | --- | --- |
 | getTo () | Describes resulting color for the animation color change. Read/write IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/html5options/
 | --- | --- |
 | Html5Options() | Default function. |
 
- **Result:**
+ **Returns:**
 Html5Options
 
 
@@ -30,7 +30,7 @@ Html5Options
 | --- | --- |
 | getAnimateShapes () | Returns or sets shapes animation option. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getAnimateTransitions () | Returns or sets transitions animation option. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getEmbedImages () | Returns or sets images embedding option. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -69,7 +69,7 @@ boolean
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. Read/write INotesCommentsLayoutingOptions. |
 
- **Result:**
+ **Returns:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | getOutputPath () | Determines where external resources should be stored. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 

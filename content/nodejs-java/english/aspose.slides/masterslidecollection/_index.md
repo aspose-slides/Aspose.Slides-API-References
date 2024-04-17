@@ -23,7 +23,7 @@ url: /aspose.slides/masterslidecollection/
 | --- | --- | --- |
 | sourceMaster | [MasterSlide](../masterslide) | Slide to clone. |
 
- **Result:**
+ **Returns:**
 [MasterSlide](../masterslide)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/masterslidecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -49,7 +49,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only MasterSlide. |
 
- **Result:**
+ **Returns:**
 [MasterSlide](../masterslide)
 
 
@@ -69,7 +69,7 @@ Object
 | index | int | Index of new slide. |
 | sourceMaster | [MasterSlide](../masterslide) | Slide to clone. |
 
- **Result:**
+ **Returns:**
 [MasterSlide](../masterslide)
 
 
@@ -82,7 +82,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -175,7 +175,7 @@ boolean
 | --- | --- |
 | size () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

@@ -44,7 +44,7 @@ url: /aspose.slides/controlpropertiescollection/
 | --- | --- |
 | getCount () | Returns a number of properties in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -57,8 +57,8 @@ int
 | --- | --- |
 | getNamesOfProperties () | Returns the collection of properties names. Read-only IGenericCollection. |
 
- **Result:**
-[ChartDataWorksheetCollection](../chartdataworksheetcollection), [MasterSlideCollection](../masterslidecollection), [CellCollection](../cellcollection), [ControlCollection](../controlcollection), [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [ColorOperationCollection](../coloroperationcollection), [CustomXmlPartCollection](../customxmlpartcollection), LinkedList, [GradientStopCollection](../gradientstopcollection), [ColumnCollection](../columncollection), List, [FillFormatCollection](../fillformatcollection), [FontSubstRuleCollection](../fontsubstrulecollection), KeyedCollection, [EffectStyleCollection](../effectstylecollection), [SectionSlideCollection](../sectionslidecollection), [ImageCollection](../imagecollection), [SectionCollection](../sectioncollection), [ChartCategoryCollection](../chartcategorycollection), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [FontFallBackRulesCollection](../fontfallbackrulescollection), [TextAnimationCollection](../textanimationcollection), [LayoutSlideCollection](../layoutslidecollection), [SmartArtNodeCollection](../smartartnodecollection), [TabCollection](../tabcollection), [CommentAuthorCollection](../commentauthorcollection), [Column](../column), SortedDictionary, [ExtraColorSchemeCollection](../extracolorschemecollection), [DigitalSignatureCollection](../digitalsignaturecollection), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [RowCollection](../rowcollection), [TagCollection](../tagcollection), [ChartDataPointCollection](../chartdatapointcollection), [VbaModuleCollection](../vbamodulecollection), ReadOnlyCollection, [BehaviorPropertyCollection](../behaviorpropertycollection), [VideoCollection](../videocollection), [SlideCollection](../slidecollection), [CommentCollection](../commentcollection), Dictionary, [VbaReferenceCollection](../vbareferencecollection), [Row](../row), [AudioCollection](../audiocollection), [SmartArtShapeCollection](../smartartshapecollection), [ShapeCollection](../shapecollection), SortedList, [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [ChartSeriesCollection](../chartseriescollection), Collection, [LineFormatCollection](../lineformatcollection)
+ **Returns:**
+[VbaModuleCollection](../vbamodulecollection), [VideoCollection](../videocollection), [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [ExtraColorSchemeCollection](../extracolorschemecollection), [ShapeCollection](../shapecollection), [FontFallBackRulesCollection](../fontfallbackrulescollection), [LayoutSlideCollection](../layoutslidecollection), [SmartArtNodeCollection](../smartartnodecollection), [CellCollection](../cellcollection), [BehaviorPropertyCollection](../behaviorpropertycollection), Collection, LinkedList, [TagCollection](../tagcollection), [SectionSlideCollection](../sectionslidecollection), [Column](../column), [ColumnCollection](../columncollection), [SectionCollection](../sectioncollection), [ChartSeriesCollection](../chartseriescollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), [ChartDataPointCollection](../chartdatapointcollection), [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [ChartDataWorksheetCollection](../chartdataworksheetcollection), [CustomXmlPartCollection](../customxmlpartcollection), [FillFormatCollection](../fillformatcollection), [MasterSlideCollection](../masterslidecollection), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [RowCollection](../rowcollection), [ChartCategoryCollection](../chartcategorycollection), SortedDictionary, [SmartArtShapeCollection](../smartartshapecollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [TabCollection](../tabcollection), [EffectStyleCollection](../effectstylecollection), [VbaReferenceCollection](../vbareferencecollection), [Row](../row), [TextAnimationCollection](../textanimationcollection), [ImageCollection](../imagecollection), [ControlCollection](../controlcollection), [LineFormatCollection](../lineformatcollection), ReadOnlyCollection, List, [FontSubstRuleCollection](../fontsubstrulecollection), Dictionary, [AudioCollection](../audiocollection), [SlideCollection](../slidecollection), [DigitalSignatureCollection](../digitalsignaturecollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), KeyedCollection, [ColorOperationCollection](../coloroperationcollection), [CommentCollection](../commentcollection), SortedList, [GradientStopCollection](../gradientstopcollection), [CommentAuthorCollection](../commentauthorcollection)
 
 
 ---
@@ -76,7 +76,7 @@ int
 | --- | --- | --- |
 | name | String | Name of property. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -89,7 +89,7 @@ String
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -102,7 +102,7 @@ String
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 

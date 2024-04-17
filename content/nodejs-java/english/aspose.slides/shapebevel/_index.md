@@ -23,7 +23,7 @@ url: /aspose.slides/shapebevel/
 | --- | --- | --- |
 | bIsTopBevel | boolean | Is top bevel. |
 
- **Result:**
+ **Returns:**
 ShapeBevel
 
 
@@ -36,7 +36,7 @@ ShapeBevel
 | --- | --- |
 | equals (Object) |  |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -49,7 +49,7 @@ boolean
 | --- | --- |
 | getBevelType () | Bevel type. Read/write BevelPresetType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -62,7 +62,7 @@ int
 | --- | --- |
 | getHeight () | Bevel height. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -75,7 +75,7 @@ double
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -88,7 +88,7 @@ long
 | --- | --- |
 | getWidth () | Bevel width. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 

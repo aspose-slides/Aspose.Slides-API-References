@@ -17,7 +17,7 @@ url: /aspose.slides/mathparagraph/
 | --- | --- |
 | MathParagraph() | Initializes a new instance of the MathParagraph class. |
 
- **Result:**
+ **Returns:**
 MathParagraph
 
 
@@ -30,7 +30,7 @@ MathParagraph
 | --- | --- |
 | MathParagraph([MathBlock](../mathblock)) | Initializes a new instance of the MathParagraph class. |
 
- **Result:**
+ **Returns:**
 MathParagraph
 
 
@@ -75,7 +75,7 @@ MathParagraph
 | --- | --- | --- |
 | mathBlock | [MathBlock](../mathblock) | The object to locate in the collection. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | getCount () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -101,7 +101,7 @@ int
 | --- | --- |
 | getJustification () | Paragraph Justification Default value: CenteredAsGroup |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -120,7 +120,7 @@ int
 | --- | --- | --- |
 | index | int | The zero-based index of the item to get |
 
- **Result:**
+ **Returns:**
 [MathBlock](../mathblock)
 
 
@@ -139,7 +139,7 @@ int
 | --- | --- | --- |
 | mathBlock | [MathBlock](../mathblock) | The item to locate in the collection. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -169,7 +169,7 @@ int
 | --- | --- |
 | iterator () |  |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -182,7 +182,7 @@ int
 | --- | --- |
 | iteratorJava () |  |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -201,7 +201,7 @@ int
 | --- | --- | --- |
 | mathBlock | [MathBlock](../mathblock) | The object to remove from the collection. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -257,7 +257,7 @@ boolean
 | --- | --- |
 | toLatex () | Gets mathematical equation in LaTeX format |
 
- **Result:**
+ **Returns:**
 String
 
 

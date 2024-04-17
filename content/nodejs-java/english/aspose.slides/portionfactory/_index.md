@@ -19,7 +19,7 @@ url: /aspose.slides/portionfactory/
 | --- | --- |
 | PortionFactory() |  |
 
- **Result:**
+ **Returns:**
 PortionFactory
 
 
@@ -32,7 +32,7 @@ PortionFactory
 | --- | --- |
 | createPortion () | Creates an empty text portion. |
 
- **Result:**
+ **Returns:**
 [MathPortion](../mathportion), [Portion](../portion)
 
 
@@ -51,7 +51,7 @@ PortionFactory
 | --- | --- | --- |
 | str | String | String. |
 
- **Result:**
+ **Returns:**
 [MathPortion](../mathportion), [Portion](../portion)
 
 
@@ -70,7 +70,7 @@ PortionFactory
 | --- | --- | --- |
 | portion | [MathPortion](../mathportion) | A portion to use. |
 
- **Result:**
+ **Returns:**
 [MathPortion](../mathportion), [Portion](../portion)
 
 
@@ -89,7 +89,7 @@ PortionFactory
 | --- | --- | --- |
 | portion | [Portion](../portion) | A portion to use. |
 
- **Result:**
+ **Returns:**
 [MathPortion](../mathportion), [Portion](../portion)
 
 

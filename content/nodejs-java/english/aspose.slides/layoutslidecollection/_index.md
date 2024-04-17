@@ -23,7 +23,7 @@ url: /aspose.slides/layoutslidecollection/
 | --- | --- | --- |
 | type | byte | A type of layout slide to find. |
 
- **Result:**
+ **Returns:**
 [LayoutSlide](../layoutslide)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/layoutslidecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -49,7 +49,7 @@ Object
 | --- | --- |
 | get_Item (int) | Returns the layout slide by index. Read-only LayoutSlide. |
 
- **Result:**
+ **Returns:**
 [LayoutSlide](../layoutslide)
 
 
@@ -62,7 +62,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -75,7 +75,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -133,7 +133,7 @@ boolean
 | --- | --- |
 | size () | Returns the number of layout slides in a collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

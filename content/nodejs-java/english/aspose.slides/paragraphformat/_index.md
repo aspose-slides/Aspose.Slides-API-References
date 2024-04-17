@@ -20,7 +20,7 @@ url: /aspose.slides/paragraphformat/
 | --- | --- |
 | ParagraphFormat() | Initializes a new instance of ParagraphFormat class. |
 
- **Result:**
+ **Returns:**
 ParagraphFormat
 
 
@@ -33,7 +33,7 @@ ParagraphFormat
 | --- | --- |
 | getAlignment () | Returns or sets the text alignment in a paragraph with no inheritance. Read/write TextAlignment. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -46,7 +46,7 @@ int
 | --- | --- |
 | getBullet () | Returns bullet format of the paragraph. Read-only IBulletFormat. |
 
- **Result:**
+ **Returns:**
 [BulletFormat](../bulletformat)
 
 
@@ -59,7 +59,7 @@ int
 | --- | --- |
 | getDefaultPortionFormat () | Returns default portion format of a paragraph. No inheritance applied. Read-only IPortionFormat. |
 
- **Result:**
+ **Returns:**
 [PortionFormat](../portionformat)
 
 
@@ -72,7 +72,7 @@ int
 | --- | --- |
 | getDefaultTabSize () | Returns or sets default tabulation size with no inheritance. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -85,7 +85,7 @@ float
 | --- | --- |
 | getDepth () | Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write short. |
 
- **Result:**
+ **Returns:**
 short
 
 
@@ -98,7 +98,7 @@ short
 | --- | --- |
 | getEastAsianLineBreak () | Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -111,7 +111,7 @@ byte
 | --- | --- |
 | getEffective () | Gets effective paragraph formatting data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 ParagraphFormatEffectiveData
 
 
@@ -124,7 +124,7 @@ ParagraphFormatEffectiveData
 | --- | --- |
 | getFontAlignment () | Returns or sets a font alignment in a paragraph with no inheritance. Read/write FontAlignment. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -137,7 +137,7 @@ int
 | --- | --- |
 | getHangingPunctuation () | Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -150,7 +150,7 @@ byte
 | --- | --- |
 | getIndent () | Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -163,7 +163,7 @@ float
 | --- | --- |
 | getLatinLineBreak () | Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -176,7 +176,7 @@ byte
 | --- | --- |
 | getMarginLeft () | Returns or sets the left margin in a paragraph with no inheritance. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -189,7 +189,7 @@ float
 | --- | --- |
 | getMarginRight () | Returns or sets the right margin in a paragraph with no inheritance. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -202,7 +202,7 @@ float
 | --- | --- |
 | getRightToLeft () | Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -215,7 +215,7 @@ byte
 | --- | --- |
 | getSpaceAfter () | Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -228,7 +228,7 @@ float
 | --- | --- |
 | getSpaceBefore () | Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -241,7 +241,7 @@ float
 | --- | --- |
 | getSpaceWithin () | Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -254,7 +254,7 @@ float
 | --- | --- |
 | getTabs () | Returns tabulations of a paragraph. No inheritance applied. Read-only ITabCollection. |
 
- **Result:**
+ **Returns:**
 [TabCollection](../tabcollection)
 
 
@@ -267,7 +267,7 @@ float
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 

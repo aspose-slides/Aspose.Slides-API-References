@@ -18,7 +18,7 @@ url: /aspose.slides/chartdatapointlevelsmanager/
 | --- | --- |
 | getCount () | Returns data point levels count. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -31,7 +31,7 @@ int
 | --- | --- |
 | get_Item (int) | Returns IChartDataPointLevel object for defined level. |
 
- **Result:**
+ **Returns:**
 [ChartDataPointLevel](../chartdatapointlevel)
 
 

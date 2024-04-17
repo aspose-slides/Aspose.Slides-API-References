@@ -17,7 +17,7 @@ url: /aspose.slides/vbamodule/
 | --- | --- |
 | getName () | Gets the name of the module. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -30,7 +30,7 @@ String
 | --- | --- |
 | getSourceCode () | Returns or sets the source code of the module. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 

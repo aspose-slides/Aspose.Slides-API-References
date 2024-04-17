@@ -19,7 +19,7 @@ url: /aspose.slides/imagetransformoperationfactory/
 | --- | --- |
 | ImageTransformOperationFactory() |  |
 
- **Result:**
+ **Returns:**
 ImageTransformOperationFactory
 
 
@@ -32,7 +32,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphCeiling () | Creates Alpha Ceiling effect. |
 
- **Result:**
+ **Returns:**
 [AlphaCeiling](../alphaceiling)
 
 
@@ -51,7 +51,7 @@ ImageTransformOperationFactory
 | --- | --- | --- |
 | threshold | float | Threshold. |
 
- **Result:**
+ **Returns:**
 [AlphaBiLevel](../alphabilevel)
 
 
@@ -64,7 +64,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphaFloor () | Creates Alpha floor effect. |
 
- **Result:**
+ **Returns:**
 [AlphaFloor](../alphafloor)
 
 
@@ -77,7 +77,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphaInverse () | Creates Alpha inverse effect. |
 
- **Result:**
+ **Returns:**
 [AlphaInverse](../alphainverse)
 
 
@@ -90,7 +90,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphaModulate () | Creates Alpha modulate effect. |
 
- **Result:**
+ **Returns:**
 [AlphaModulate](../alphamodulate)
 
 
@@ -109,7 +109,7 @@ ImageTransformOperationFactory
 | --- | --- | --- |
 | amount | float | Amount. |
 
- **Result:**
+ **Returns:**
 [AlphaModulateFixed](../alphamodulatefixed)
 
 
@@ -128,7 +128,7 @@ ImageTransformOperationFactory
 | --- | --- | --- |
 | alpha | float | Alpha |
 
- **Result:**
+ **Returns:**
 [AlphaReplace](../alphareplace)
 
 
@@ -147,7 +147,7 @@ ImageTransformOperationFactory
 | --- | --- | --- |
 | threshold | float | Threshold. |
 
- **Result:**
+ **Returns:**
 [BiLevel](../bilevel)
 
 
@@ -167,7 +167,7 @@ ImageTransformOperationFactory
 | radius | double | Radius. |
 | grow | boolean | Grow. |
 
- **Result:**
+ **Returns:**
 [Blur](../blur)
 
 
@@ -180,7 +180,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createColorChange () | Creates Color change effect. |
 
- **Result:**
+ **Returns:**
 [ColorChange](../colorchange)
 
 
@@ -193,7 +193,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createColorReplace () | Creates Color replace effect. |
 
- **Result:**
+ **Returns:**
 [ColorReplace](../colorreplace)
 
 
@@ -206,7 +206,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createDuotone () | Creates Duotone effect. |
 
- **Result:**
+ **Returns:**
 [Duotone](../duotone)
 
 
@@ -219,7 +219,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createFillOverlay () | Creates Fill overlay effect. |
 
- **Result:**
+ **Returns:**
 [FillOverlay](../filloverlay)
 
 
@@ -232,7 +232,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createGrayScale () | Creates Gray scale effect. |
 
- **Result:**
+ **Returns:**
 [GrayScale](../grayscale)
 
 
@@ -253,7 +253,7 @@ ImageTransformOperationFactory
 | saturation | float | Saturation. |
 | luminance | float | Luminance. |
 
- **Result:**
+ **Returns:**
 [HSL](../hsl)
 
 
@@ -273,7 +273,7 @@ ImageTransformOperationFactory
 | brightness | float | Brightness. |
 | contrast | float | Contrast. |
 
- **Result:**
+ **Returns:**
 [Luminance](../luminance)
 
 
@@ -293,7 +293,7 @@ ImageTransformOperationFactory
 | hue | float | Hue. |
 | amount | float | Amount. |
 
- **Result:**
+ **Returns:**
 [Tint](../tint)
 
 

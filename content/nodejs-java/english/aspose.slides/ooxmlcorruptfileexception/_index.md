@@ -17,7 +17,7 @@ url: /aspose.slides/ooxmlcorruptfileexception/
 | --- | --- |
 | OOXMLCorruptFileException() | Default function. |
 
- **Result:**
+ **Returns:**
 OOXMLCorruptFileException
 
 
@@ -36,7 +36,7 @@ OOXMLCorruptFileException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 OOXMLCorruptFileException
 
 
@@ -56,7 +56,7 @@ OOXMLCorruptFileException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 OOXMLCorruptFileException
 
 

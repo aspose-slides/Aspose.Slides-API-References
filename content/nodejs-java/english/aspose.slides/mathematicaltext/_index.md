@@ -17,7 +17,7 @@ url: /aspose.slides/mathematicaltext/
 | --- | --- |
 | MathematicalText() | Default function (create String.Empty Value) |
 
- **Result:**
+ **Returns:**
 MathematicalText
 
 
@@ -36,7 +36,7 @@ MathematicalText
 | --- | --- | --- |
 | mathSymbol | char | single symbol |
 
- **Result:**
+ **Returns:**
 MathematicalText
 
 
@@ -55,7 +55,7 @@ MathematicalText
 | --- | --- | --- |
 | mathText | String | text value |
 
- **Result:**
+ **Returns:**
 MathematicalText
 
 
@@ -75,7 +75,7 @@ MathematicalText
 | mathText | String | text value |
 | portionFormat | [PortionFormat](../portionformat) | text format settings |
 
- **Result:**
+ **Returns:**
 MathematicalText
 
 
@@ -88,8 +88,8 @@ MathematicalText
 | --- | --- |
 | getChildren () | Get children elements |
 
- **Result:**
-[MathBorderBox](../mathborderbox), [MathRadical](../mathradical), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), [MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)
+ **Returns:**
+[MathBorderBox](../mathborderbox), [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [BaseScript](../basescript), [MathBar](../mathbar), [MathRadical](../mathradical), [MathDelimiter](../mathdelimiter), [MathArray](../matharray), [MathFunction](../mathfunction), [MathElementBase](../mathelementbase), [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), [MathMatrix](../mathmatrix)
 
 
 ---
@@ -101,7 +101,7 @@ MathematicalText
 | --- | --- |
 | getFormat () | Text formatting properties |
 
- **Result:**
+ **Returns:**
 [PortionFormat](../portionformat)
 
 
@@ -114,7 +114,7 @@ MathematicalText
 | --- | --- |
 | getValue () | Text value |
 
- **Result:**
+ **Returns:**
 String
 
 

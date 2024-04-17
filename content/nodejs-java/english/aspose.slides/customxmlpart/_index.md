@@ -17,7 +17,7 @@ url: /aspose.slides/customxmlpart/
 | --- | --- |
 | getItemId () | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only java.util.UUID. |
 
- **Result:**
+ **Returns:**
 UUID
 
 
@@ -30,7 +30,7 @@ UUID
 | --- | --- |
 | getNamespaceSchemas () | Returns the collection XML schemas that are associated with the custom XML part. Read-only String[]. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -43,7 +43,7 @@ String
 | --- | --- |
 | getXmlAsString () | Returns or sets xml data as UTF-8 string. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
  **Error**
@@ -62,7 +62,7 @@ String
 | --- | --- |
 | getXmlData () | Returns or sets xml data. Read/write byte[]. |
 
- **Result:**
+ **Returns:**
 byte
 
  **Error**

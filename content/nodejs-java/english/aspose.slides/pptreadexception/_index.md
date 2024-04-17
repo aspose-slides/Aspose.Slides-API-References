@@ -17,7 +17,7 @@ url: /aspose.slides/pptreadexception/
 | --- | --- |
 | PptReadException() | Default function. |
 
- **Result:**
+ **Returns:**
 PptReadException
 
 
@@ -36,7 +36,7 @@ PptReadException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 PptReadException
 
 
@@ -56,7 +56,7 @@ PptReadException
 | message | String | message |
 | exception | Exception | original exception |
 
- **Result:**
+ **Returns:**
 PptReadException
 
 

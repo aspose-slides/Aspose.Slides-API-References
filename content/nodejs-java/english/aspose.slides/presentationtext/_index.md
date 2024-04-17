@@ -17,7 +17,7 @@ url: /aspose.slides/presentationtext/
 | --- | --- |
 | getSlidesText () | An array of ISlideText contains a presentation's text. |
 
- **Result:**
+ **Returns:**
 SlideText
 
 

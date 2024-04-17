@@ -17,7 +17,7 @@ url: /aspose.slides/vbareferencefactory/
 | --- | --- |
 | VbaReferenceFactory() |  |
 
- **Result:**
+ **Returns:**
 VbaReferenceFactory
 
 
@@ -30,7 +30,7 @@ VbaReferenceFactory
 | --- | --- |
 | createOleTypeLibReference (String, String) | Creates new OLE Automation type library reference. |
 
- **Result:**
+ **Returns:**
 [VbaReferenceOleTypeLib](../vbareferenceoletypelib)
 
 
@@ -43,7 +43,7 @@ VbaReferenceFactory
 | --- | --- |
 | getInstance () | VBA project references factory static instance. Read-only VbaReferenceFactory. |
 
- **Result:**
+ **Returns:**
 VbaReferenceFactory
 
 

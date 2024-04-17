@@ -17,7 +17,7 @@ url: /aspose.slides/inkoptions/
 | --- | --- |
 | getHideInk () | Shows or hides Ink elements in exported document. Default value is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -30,7 +30,7 @@ boolean
 | --- | --- |
 | getInterpretMaskOpAsOpacity () | Uses ROP operation or Opacity for rendering brush. Default value is true. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

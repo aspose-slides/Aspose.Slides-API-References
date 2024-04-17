@@ -23,7 +23,7 @@ url: /aspose.slides/videocollection/
 | --- | --- | --- |
 | video | [Video](../video) | Source video. |
 
- **Result:**
+ **Returns:**
 [Video](../video)
 
 
@@ -42,9 +42,9 @@ url: /aspose.slides/videocollection/
 | --- | --- | --- |
 | videocollection | VideoCollection  | link to self |
 | stream | ReadStream | Stream to add video file from. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [Video](../video)
 
 
@@ -64,9 +64,9 @@ url: /aspose.slides/videocollection/
 | videocollection | VideoCollection  | link to self |
 | stream | ReadStream | Stream to add video file from. |
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [Video](../video)
 
 
@@ -85,7 +85,7 @@ url: /aspose.slides/videocollection/
 | --- | --- | --- |
 | videoData | byte[] | Video bytes. |
 
- **Result:**
+ **Returns:**
 [Video](../video)
 
 
@@ -98,7 +98,7 @@ url: /aspose.slides/videocollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -111,7 +111,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only IVideo. |
 
- **Result:**
+ **Returns:**
 [Video](../video)
 
 
@@ -124,7 +124,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -137,7 +137,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -150,7 +150,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -163,7 +163,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of video files in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

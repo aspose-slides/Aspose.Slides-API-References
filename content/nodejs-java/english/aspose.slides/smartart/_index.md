@@ -17,7 +17,7 @@ url: /aspose.slides/smartart/
 | --- | --- |
 | getAllNodes () | Returns collections of all nodes in the SmartArt object. Read-only ISmartArtNodeCollection. |
 
- **Result:**
+ **Returns:**
 [SmartArtNodeCollection](../smartartnodecollection)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/smartart/
 | --- | --- |
 | getColorStyle () | Returns or sets color style of SmartArt object. Read/write SmartArtColorType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getLayout () | Returns or sets layout of the SmartArt object. Read/write SmartArtLayoutType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getNodes () | Returns collections of root nodes in SmartArt object. Read-only ISmartArtNodeCollection. |
 
- **Result:**
+ **Returns:**
 [SmartArtNodeCollection](../smartartnodecollection)
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getQuickStyle () | Returns or sets quick style of SmartArt object. Read/write SmartArtQuickStyleType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -82,7 +82,7 @@ int
 | --- | --- |
 | isReversed () | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

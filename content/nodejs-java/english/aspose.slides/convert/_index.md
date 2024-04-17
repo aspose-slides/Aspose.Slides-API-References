@@ -17,7 +17,7 @@ url: /aspose.slides/convert/
 | --- | --- |
 | Convert() |  |
 
- **Result:**
+ **Returns:**
 Convert
 
 

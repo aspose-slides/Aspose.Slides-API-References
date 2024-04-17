@@ -23,7 +23,7 @@ url: /aspose.slides/reflection/
 | --- | --- | --- |
 | obj | Object | The Reflection to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | getBlurRadius () | Blur radius. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -49,7 +49,7 @@ double
 | --- | --- |
 | getDirection () | Direction of reflection. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -62,7 +62,7 @@ float
 | --- | --- |
 | getDistance () | Distance of reflection. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -75,7 +75,7 @@ double
 | --- | --- |
 | getEffective () | Gets effective Reflection effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 ReflectionEffectiveData
 
 
@@ -88,7 +88,7 @@ ReflectionEffectiveData
 | --- | --- |
 | getEndPosAlpha () | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -101,7 +101,7 @@ float
 | --- | --- |
 | getEndReflectionOpacity () | End reflection opacity. (percents). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -114,7 +114,7 @@ float
 | --- | --- |
 | getFadeDirection () | Specifies the direction to offset the reflection. (angle). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -127,9 +127,6 @@ float
 | --- | --- |
 | getParent_IPresentationComponent () |  |
 
- **Result:**
-[Duotone](../duotone), [FormatScheme](../formatscheme), [BulletFormat](../bulletformat), [SketchFormat](../sketchformat), [ZoomFrame](../zoomframe), [CellCollection](../cellcollection), [Portion](../portion), [SmartArt](../smartart), [OleObjectFrame](../oleobjectframe), [CellFormat](../cellformat), [LineFormat](../lineformat), [LegacyDiagram](../legacydiagram), [VideoFrame](../videoframe), [GradientStop](../gradientstop), [DataTable](../datatable), [GroupShape](../groupshape), [ColorScheme](../colorscheme), [Theme](../theme), [DataLabel](../datalabel), [OverrideTheme](../overridetheme), [PictureFrame](../pictureframe), [AutoShape](../autoshape), [TextStyle](../textstyle), [Legend](../legend), [Chart](../chart), [GradientFormat](../gradientformat), [PortionFormat](../portionformat), [GeometryShape](../geometryshape), [Paragraph](../paragraph), [ColorReplace](../colorreplace), [Presentation](../presentation), [ColorFormat](../colorformat), [ChartPortionFormat](../chartportionformat), [ImageTransformOperationCollection](../imagetransformoperationcollection), [GrayScale](../grayscale), [Shape](../shape), [BaseSlide](../baseslide), [SectionZoomFrame](../sectionzoomframe), [Background](../background), [MathPortion](../mathportion), [MasterTheme](../mastertheme), [GraphicalObject](../graphicalobject), [LayoutSlide](../layoutslide), [ThreeDFormat](../threedformat), [ColorChange](../colorchange), [Tab](../tab), [AudioFrame](../audioframe), [SummaryZoomFrame](../summaryzoomframe), [AlphaFloor](../alphafloor), [Backdrop3DScene](../backdrop3dscene), [ChartSeries](../chartseries), [SummaryZoomSection](../summaryzoomsection), [Picture](../picture), [ChartTitle](../charttitle), [Blur](../blur), [Slide](../slide), [Trendline](../trendline), [BiLevel](../bilevel), [FillOverlay](../filloverlay), [Row](../row), [LineFillFormat](../linefillformat), [Table](../table), [AlphaReplace](../alphareplace), [Hyperlink](../hyperlink), [BasePortionFormat](../baseportionformat), [ErrorBarsFormat](../errorbarsformat), [NotesSlide](../notesslide), [ShapeBevel](../shapebevel), [LightRig](../lightrig), [Control](../control), [ZoomObject](../zoomobject), [ChartSeriesGroup](../chartseriesgroup), [HSL](../hsl), [AlphaBiLevel](../alphabilevel), [GradientStopCollection](../gradientstopcollection), [Ink](../ink), [MasterNotesSlide](../masternotesslide), [TextFrame](../textframe), [SmartArtShape](../smartartshape), [Cell](../cell), [ParagraphFormat](../paragraphformat), [AlphaInverse](../alphainverse), [Connector](../connector), [DataLabelFormat](../datalabelformat), [Tint](../tint), [MasterSlide](../masterslide), [PictureFillFormat](../picturefillformat), [Axis](../axis), [TextFrameFormat](../textframeformat), [FillFormat](../fillformat), [Column](../column), [ChartPlotArea](../chartplotarea), [MasterHandoutSlide](../masterhandoutslide), [Format](../format), [PatternFormat](../patternformat), [DataLabelCollection](../datalabelcollection), [AlphaModulate](../alphamodulate), [Camera](../camera), [AlphaCeiling](../alphaceiling), [ParagraphCollection](../paragraphcollection), [Luminance](../luminance), [AlphaModulateFixed](../alphamodulatefixed), [LegendEntryProperties](../legendentryproperties), [Field](../field), [PVIObject](../pviobject), [ImageTransformOperation](../imagetransformoperation), [EffectFormat](../effectformat)
-
 
 ---
 
@@ -140,7 +137,7 @@ float
 | --- | --- |
 | getRectangleAlign () | Rectangle alignment. Read/write RectangleAlignment. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -153,7 +150,7 @@ byte
 | --- | --- |
 | getRotateShadowWithShape () | Specifies whether the reflection should rotate with the shape if the shape is rotated. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -166,7 +163,7 @@ boolean
 | --- | --- |
 | getScaleHorizontal () | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -179,7 +176,7 @@ double
 | --- | --- |
 | getScaleVertical () | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -192,7 +189,7 @@ double
 | --- | --- |
 | getSkewHorizontal () | Specifies the horizontal skew angle. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -205,7 +202,7 @@ double
 | --- | --- |
 | getSkewVertical () | Specifies the vertical skew angle. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -218,7 +215,7 @@ double
 | --- | --- |
 | getStartPosAlpha () | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -231,7 +228,7 @@ float
 | --- | --- |
 | getStartReflectionOpacity () | Starting reflection opacity. (percents). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -244,7 +241,7 @@ float
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -257,7 +254,7 @@ long
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

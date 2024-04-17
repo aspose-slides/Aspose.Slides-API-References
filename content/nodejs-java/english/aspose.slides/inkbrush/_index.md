@@ -17,7 +17,7 @@ url: /aspose.slides/inkbrush/
 | --- | --- |
 | getColor () | Gets or sets the brush color for a line. |
 
- **Result:**
+ **Returns:**
 Color
 
 
@@ -30,7 +30,7 @@ Color
 | --- | --- |
 | getSize () | Gets or sets the brush size for a line in points. |
 
- **Result:**
+ **Returns:**
 Dimension2D
 
 

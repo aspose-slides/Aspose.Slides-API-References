@@ -17,7 +17,7 @@ url: /aspose.slides/control/
 | --- | --- |
 | getActiveXControlBinary () | Specifies the persistence of an ActiveX control when the function used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -30,7 +30,7 @@ byte
 | --- | --- |
 | getClassId () | Gets class id of this control. Read-only java.util.UUID. |
 
- **Result:**
+ **Returns:**
 UUID
 
 
@@ -43,7 +43,7 @@ UUID
 | --- | --- |
 | getFrame () | Returns or sets control's frame. Read/write IShapeFrame. |
 
- **Result:**
+ **Returns:**
 [ShapeFrame](../shapeframe)
 
 
@@ -56,7 +56,7 @@ UUID
 | --- | --- |
 | getName () | Gets or sets the name of this control. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -69,7 +69,7 @@ String
 | --- | --- |
 | getPersistence () | Gets the function used to store properties of the ActiveX control. Read only PersistenceType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -82,7 +82,7 @@ int
 | --- | --- |
 | getPresentation () |  |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -95,7 +95,7 @@ int
 | --- | --- |
 | getProperties () | Returns a collection of ActiveX properties. Read-only IControlPropertiesCollection. Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null. |
 
- **Result:**
+ **Returns:**
 [ControlPropertiesCollection](../controlpropertiescollection)
 
 
@@ -108,8 +108,8 @@ int
 | --- | --- |
 | getSlide () |  |
 
- **Result:**
-[MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide)
+ **Returns:**
+[Slide](../slide), [NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide)
 
 
 ---
@@ -121,7 +121,7 @@ int
 | --- | --- |
 | getSubstitutePictureFormat () | Returns Control image fill properties object. Read-only IPictureFillFormat. |
 
- **Result:**
+ **Returns:**
 [PictureFillFormat](../picturefillformat)
 
 

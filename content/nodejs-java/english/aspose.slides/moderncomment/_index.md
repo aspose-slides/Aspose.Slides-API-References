@@ -17,8 +17,8 @@ url: /aspose.slides/moderncomment/
 | --- | --- |
 | getShape () | Returns a shape associated with the comment. Read-only IShape. |
 
- **Result:**
-[AutoShape](../autoshape), [Shape](../shape), [SectionZoomFrame](../sectionzoomframe), [ZoomFrame](../zoomframe), [Chart](../chart), [GraphicalObject](../graphicalobject), [ZoomObject](../zoomobject), [GeometryShape](../geometryshape), [SmartArt](../smartart), [OleObjectFrame](../oleobjectframe), [Table](../table), [LegacyDiagram](../legacydiagram), [VideoFrame](../videoframe), [Connector](../connector), [AudioFrame](../audioframe), [GroupShape](../groupshape), [SummaryZoomFrame](../summaryzoomframe), [SummaryZoomSection](../summaryzoomsection), [Ink](../ink), [PictureFrame](../pictureframe), [SmartArtShape](../smartartshape)
+ **Returns:**
+[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
 
 
 ---
@@ -30,7 +30,7 @@ url: /aspose.slides/moderncomment/
 | --- | --- |
 | getStatus () | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -43,7 +43,7 @@ byte
 | --- | --- |
 | getTextSelectionLength () | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getTextSelectionStart () | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 

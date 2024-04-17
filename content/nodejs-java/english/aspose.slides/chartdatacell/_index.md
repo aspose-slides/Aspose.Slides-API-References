@@ -33,7 +33,7 @@ url: /aspose.slides/chartdatacell/
 | --- | --- |
 | getChartDataWorksheet () | Gets the worksheet. Read-only IChartDataWorksheet. |
 
- **Result:**
+ **Returns:**
 [ChartDataWorksheet](../chartdataworksheet)
 
 
@@ -46,7 +46,7 @@ url: /aspose.slides/chartdatacell/
 | --- | --- |
 | getColumn () | Returns the index of the column of worksheet in which the cell is located. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -59,7 +59,7 @@ int
 | --- | --- |
 | getCustomNumberFormat () | Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
  **Error**
@@ -78,7 +78,7 @@ String
 | --- | --- |
 | getFormula () | Gets or sets the formula in A1-style. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -91,7 +91,7 @@ String
 | --- | --- |
 | getPresetNumberFormat () | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Read/write byte. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -104,7 +104,7 @@ byte
 | --- | --- |
 | getR1C1Formula () | Gets or sets the formula in R1C1-style. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -117,7 +117,7 @@ String
 | --- | --- |
 | getRow () | Returns the index of the row of worksheet in which the cell is located. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -130,7 +130,7 @@ int
 | --- | --- |
 | getValue () | Gets or sets the value of a cell. Read/write Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -143,7 +143,7 @@ Object
 | --- | --- |
 | isHidden () | Determines whether the cell is hidden. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

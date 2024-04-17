@@ -19,7 +19,7 @@ url: /aspose.slides/stringordoublechartvalue/
 | --- | --- |
 | getAsCell () | Returns or sets chart data cell. Read/write IChartDataCell. |
 
- **Result:**
+ **Returns:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -32,7 +32,7 @@ url: /aspose.slides/stringordoublechartvalue/
 | --- | --- |
 | getAsLiteralDouble () | Returns or sets value as literal double. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -45,7 +45,7 @@ double
 | --- | --- |
 | getAsLiteralString () | Returns or sets value as literal string. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -58,7 +58,7 @@ String
 | --- | --- |
 | getData () | Returns or sets Data object. Read/write Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -111,7 +111,7 @@ Object
 | --- | --- |
 | toDouble () | Converts to double. |
 
- **Result:**
+ **Returns:**
 double
 
 

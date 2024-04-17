@@ -25,7 +25,7 @@ url: /aspose.slides/alphamodulate/
 | --- | --- | --- |
 | obj | Object | The AlphaModulate to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -38,7 +38,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Alpha Modulate effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 AlphaModulateEffectiveData
 
 
@@ -51,7 +51,7 @@ AlphaModulateEffectiveData
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

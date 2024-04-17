@@ -43,7 +43,7 @@ url: /aspose.slides/digitalsignaturecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -56,7 +56,7 @@ Object
 | --- | --- |
 | get_Item (int) | Returns the signature by index. |
 
- **Result:**
+ **Returns:**
 [DigitalSignature](../digitalsignature)
 
 
@@ -69,7 +69,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -124,7 +124,7 @@ boolean
 | --- | --- |
 | size () | Returns the number of elements in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

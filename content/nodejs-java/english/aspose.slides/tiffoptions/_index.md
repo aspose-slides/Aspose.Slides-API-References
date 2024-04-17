@@ -17,7 +17,7 @@ url: /aspose.slides/tiffoptions/
 | --- | --- |
 | TiffOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 TiffOptions
 
 
@@ -30,7 +30,7 @@ TiffOptions
 | --- | --- |
 | getBwConversionMode () | Specifies the algorithm for converting a color image into a black and white image. This option will applied only if CompressionType( #getCompressionType/ #setCompressionType(int)) is set to TiffCompressionTypes#CCITT4 or TiffCompressionTypes#CCITT3 Read/write BlackWhiteConversionMode. Default is BlackWhiteConversionMode#Default. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getCompressionType () | Specifies the compression type. Read/write TiffCompressionTypes. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getDpiX () | Specifies the horizontal resolution in dots per inch. Read/write long. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -69,7 +69,7 @@ long
 | --- | --- |
 | getDpiY () | Specifies the vertical resolution in dots per inch. Read/write long. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -82,7 +82,7 @@ long
 | --- | --- |
 | getImageSize () | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write java.awt.Dimension. |
 
- **Result:**
+ **Returns:**
 Dimension
 
 
@@ -95,7 +95,7 @@ Dimension
 | --- | --- |
 | getInkOptions () | Provides options that control the look of Ink objects in exported document. Read-only IInkOptions |
 
- **Result:**
+ **Returns:**
 [InkOptions](../inkoptions)
 
 
@@ -108,7 +108,7 @@ Dimension
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
- **Result:**
+ **Returns:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
@@ -121,7 +121,7 @@ Dimension
 | --- | --- |
 | getPixelFormat () | Specifies the pixel format for the generated images. Read/write ImagePixelFormat. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -134,7 +134,7 @@ int
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -147,7 +147,7 @@ boolean
 | --- | --- |
 | getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
- **Result:**
+ **Returns:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
