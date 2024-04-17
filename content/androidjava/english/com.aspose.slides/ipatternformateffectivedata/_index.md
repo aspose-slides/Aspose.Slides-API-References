@@ -21,6 +21,7 @@ This interface is used as a part of [IFillFormatEffectiveData](../../com.aspose.
 | [getForeColor()](#getForeColor--) | Returns the foreground pattern color. |
 | [getBackColor()](#getBackColor--) | Returns the background pattern color. |
 | [getTileImage(Integer background, Integer foreground)](#getTileImage-java.lang.Integer-java.lang.Integer-) | Creates a tile image for the pattern fill with a specified colors. |
+| [getTileIImage(Integer background, Integer foreground)](#getTileIImage-java.lang.Integer-java.lang.Integer-) | Creates a tile image for the pattern fill with a specified colors. |
 ### getPatternStyle() {#getPatternStyle--}
 ```
 public abstract byte getPatternStyle()
@@ -67,3 +68,19 @@ Creates a tile image for the pattern fill with a specified colors.
 
 **Returns:**
 android.graphics.Bitmap - Tile android.graphics.Bitmap.
+### getTileIImage(Integer background, Integer foreground) {#getTileIImage-java.lang.Integer-java.lang.Integer-}
+```
+public abstract IImage getTileIImage(Integer background, Integer foreground)
+```
+
+
+Creates a tile image for the pattern fill with a specified colors.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| background | java.lang.Integer | The background java.lang.Integer for the pattern. |
+| foreground | java.lang.Integer | The foreground java.lang.Integer for the pattern. |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Tile [IImage](../../com.aspose.slides/iimage).

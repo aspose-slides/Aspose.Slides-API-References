@@ -30,7 +30,9 @@ Represents a shape on a slide.
 | [getEffectFormat()](#getEffectFormat--) | Returns the EffectFormat object which contains pixel effects applied to a shape. |
 | [getFillFormat()](#getFillFormat--) | Returns the FillFormat object that contains fill formatting properties for a shape. |
 | [getThumbnail()](#getThumbnail--) | Returns shape thumbnail. |
+| [getImage()](#getImage--) | Returns shape thumbnail. |
 | [getThumbnail(int bounds, float scaleX, float scaleY)](#getThumbnail-int-float-float-) | Returns shape thumbnail. |
+| [getImage(int bounds, float scaleX, float scaleY)](#getImage-int-float-float-) | Returns shape thumbnail. |
 | [getHidden()](#getHidden--) | Determines whether the shape is hidden. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Determines whether the shape is hidden. |
 | [getZOrderPosition()](#getZOrderPosition--) | Returns the position of a shape in the z-order. |
@@ -304,6 +306,16 @@ Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type 
 
 **Returns:**
 android.graphics.Bitmap - Shape thumbnail.
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+
+Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Shape thumbnail.
 ### getThumbnail(int bounds, float scaleX, float scaleY) {#getThumbnail-int-float-float-}
 ```
 public abstract Bitmap getThumbnail(int bounds, float scaleX, float scaleY)
@@ -321,6 +333,23 @@ Returns shape thumbnail.
 
 **Returns:**
 android.graphics.Bitmap - Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
+### getImage(int bounds, float scaleX, float scaleY) {#getImage-int-float-float-}
+```
+public abstract IImage getImage(int bounds, float scaleX, float scaleY)
+```
+
+
+Returns shape thumbnail.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bounds | int | Shape thumbnail bounds type. |
+| scaleX | float | X scale |
+| scaleY | float | Y scale |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
 ### getHidden() {#getHidden--}
 ```
 public abstract boolean getHidden()
@@ -649,7 +678,7 @@ public abstract long getUniqueId()
 ```
 
 
-Gets unique shape identifier in presentation scope. Read-only long. See also (\#getOfficeInteropShapeId.getOfficeInteropShapeId) for getting unique shape identifier in slide scope.
+Gets unique shape identifier in presentation scope. Read-only long. See also \#getOfficeInteropShapeId.getOfficeInteropShapeId for getting unique shape identifier in slide scope.
 
 **Returns:**
 long
@@ -659,7 +688,7 @@ public abstract long getOfficeInteropShapeId()
 ```
 
 
-Gets unique shape identifier in slide scope. Read-only long. See also (\#getUniqueId.getUniqueId) for getting unique shape identifier in presentation scope.
+Gets unique shape identifier in slide scope. Read-only long. See also \#getUniqueId.getUniqueId for getting unique shape identifier in presentation scope.
 
 **Returns:**
 long
@@ -673,7 +702,7 @@ Determines whether the shape is grouped. Read-only boolean.
 
 --------------------
 
-Property (\#getParentGroup.getParentGroup) returns parent GroupShape object if shape is grouped.
+Property \#getParentGroup.getParentGroup returns parent GroupShape object if shape is grouped.
 
 **Returns:**
 boolean
@@ -710,7 +739,7 @@ Returns parent GroupShape object if shape is grouped. Otherwise returns null. Re
 
 --------------------
 
-Property (\#isGrouped.isGrouped) determines whether the shape is grouped.
+Property \#isGrouped.isGrouped determines whether the shape is grouped.
 
 **Returns:**
 [IGroupShape](../../com.aspose.slides/igroupshape)

@@ -25,7 +25,9 @@ Represents a pattern to fill a shape.
 | [getForeColor()](#getForeColor--) | Returns the foreground pattern color. |
 | [getBackColor()](#getBackColor--) | Returns the background pattern color. |
 | [getTileImage(Integer background, Integer foreground)](#getTileImage-java.lang.Integer-java.lang.Integer-) | Creates a tile image for the pattern fill with a specified colors. |
+| [getTile(Integer background, Integer foreground)](#getTile-java.lang.Integer-java.lang.Integer-) | Creates a tile image for the pattern fill with a specified colors. |
 | [getTileImage(Integer styleColor)](#getTileImage-java.lang.Integer-) | Creates a tile image for the pattern fill. |
+| [getTile(Integer styleColor)](#getTile-java.lang.Integer-) | Creates a tile image for the pattern fill. |
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()
@@ -95,6 +97,22 @@ Creates a tile image for the pattern fill with a specified colors.
 
 **Returns:**
 android.graphics.Bitmap - Tile android.graphics.Bitmap.
+### getTile(Integer background, Integer foreground) {#getTile-java.lang.Integer-java.lang.Integer-}
+```
+public final IImage getTile(Integer background, Integer foreground)
+```
+
+
+Creates a tile image for the pattern fill with a specified colors.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| background | java.lang.Integer | The background java.lang.Integer for the pattern. |
+| foreground | java.lang.Integer | The foreground java.lang.Integer for the pattern. |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Tile [IImage](../../com.aspose.slides/iimage).
 ### getTileImage(Integer styleColor) {#getTileImage-java.lang.Integer-}
 ```
 public final Bitmap getTileImage(Integer styleColor)
@@ -110,3 +128,18 @@ Creates a tile image for the pattern fill.
 
 **Returns:**
 android.graphics.Bitmap - Tile android.graphics.Bitmap.
+### getTile(Integer styleColor) {#getTile-java.lang.Integer-}
+```
+public final IImage getTile(Integer styleColor)
+```
+
+
+Creates a tile image for the pattern fill.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| styleColor | java.lang.Integer | The default java.lang.Integer |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Tile [IImage](../../com.aspose.slides/iimage).

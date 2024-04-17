@@ -97,18 +97,18 @@ Represents a Microsoft PowerPoint presentation.
 | [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 | [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 | [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Saves all slides of a presentation to a set of files representing XAML markup. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with custom scaling. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with custom scaling. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, Size imageSize)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with specified size. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, Size imageSize)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with specified size. |
 | [getThumbnails(IRenderingOptions options)](#getThumbnails-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Returns a Image objects for all slides of a presentation. |
 | [getThumbnails(IRenderingOptions options, int[] slides)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail Image objects for specified slides of a presentation. |
 | [getThumbnails(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with custom scaling. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
 | [getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with custom scaling. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
 | [getThumbnails(IRenderingOptions options, Size imageSize)](#getThumbnails-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with specified size. |
+| [getImages(IRenderingOptions options, Size imageSize)](#getImages-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
 | [getThumbnails(IRenderingOptions options, int[] slides, Size imageSize)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with specified size. |
+| [getImages(IRenderingOptions options, int[] slides, Size imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
 | [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 | [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 | [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
@@ -756,7 +756,7 @@ Returns the collection of all images in the presentation. Read-only [IImageColle
 > ```
 > The following examples shows how to add image as BLOB in PowerPoint Presentation.
 >  
->  // create a new presentation which will contain this image
+>  // creates a new presentation to which the image will be added.
 >  Presentation pres = new Presentation();
 >  try
 >  {
@@ -764,12 +764,12 @@ Returns the collection of all images in the presentation. Read-only [IImageColle
 >      FileInputStream fip = new FileInputStream("large_image.jpg");
 >      try
 >      {
->          // let's add the image to the presentation - we choose KeepLocked behavior, because we not
->          // have an intent to access the "largeImage.png" file.
+>          // Let's add the image to the presentation - we choose KeepLocked behavior because we do
+>          // NOT intend to access the "largeImage.png" file.
 >          IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
 >          pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
->          // save the presentation. Despite that the output presentation will be
->          // large, the memory consumption will be low the whole lifetime of the pres object
+>          // Saves the presentation. While a large presentation gets outputted, the memory consumption
+>          // stays low through the pres object's lifecycle
 >          pres.save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
 >      }
 >      finally
@@ -1336,105 +1336,6 @@ Saves all slides of a presentation to a set of files representing XAML markup.
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | The XAML format options. |
 
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-}
-```
-public final Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---}
-```
-public final Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-float-float-}
-```
-public final Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---float-float-}
-```
-public final Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, Size imageSize) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-com.aspose.slides.android.Size-}
-```
-public final Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, Size imageSize)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, Size imageSize) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---com.aspose.slides.android.Size-}
-```
-public final Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, Size imageSize)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
 ### getThumbnails(IRenderingOptions options) {#getThumbnails-com.aspose.slides.IRenderingOptions-}
 ```
 public final Bitmap[] getThumbnails(IRenderingOptions options)
@@ -1450,6 +1351,21 @@ Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presenta
 
 **Returns:**
 android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
+```
+public final IImage[] getImages(IRenderingOptions options)
+```
+
+
+Returns a Image objects for all slides of a presentation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
 ### getThumbnails(IRenderingOptions options, int[] slides) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---}
 ```
 public final Bitmap[] getThumbnails(IRenderingOptions options, int[] slides)
@@ -1466,6 +1382,22 @@ Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a pr
 
 **Returns:**
 android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
+```
+public final IImage[] getImages(IRenderingOptions options, int[] slides)
+```
+
+
+Returns a Thumbnail Image objects for specified slides of a presentation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
 ### getThumbnails(IRenderingOptions options, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public final Bitmap[] getThumbnails(IRenderingOptions options, float scaleX, float scaleY)
@@ -1483,6 +1415,23 @@ Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presenta
 
 **Returns:**
 android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
+```
+public final IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+
+Returns a Thumbnail Image objects for all slides of a presentation with custom scaling.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
 ### getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public final Bitmap[] getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
@@ -1501,6 +1450,24 @@ Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a pr
 
 **Returns:**
 android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
+```
+public final IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+```
+
+
+Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
 ### getThumbnails(IRenderingOptions options, Size imageSize) {#getThumbnails-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-}
 ```
 public final Bitmap[] getThumbnails(IRenderingOptions options, Size imageSize)
@@ -1517,6 +1484,22 @@ Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presenta
 
 **Returns:**
 android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+### getImages(IRenderingOptions options, Size imageSize) {#getImages-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-}
+```
+public final IImage[] getImages(IRenderingOptions options, Size imageSize)
+```
+
+
+Returns a Thumbnail Image objects for all slides of a presentation with specified size.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
 ### getThumbnails(IRenderingOptions options, int[] slides, Size imageSize) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-}
 ```
 public final Bitmap[] getThumbnails(IRenderingOptions options, int[] slides, Size imageSize)
@@ -1534,6 +1517,23 @@ Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a pr
 
 **Returns:**
 android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+### getImages(IRenderingOptions options, int[] slides, Size imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-}
+```
+public final IImage[] getImages(IRenderingOptions options, int[] slides, Size imageSize)
+```
+
+
+Returns a Thumbnail Image objects for specified slides of a presentation with specified size.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
 ```
 public final void save(String fname, int[] slides, int format)

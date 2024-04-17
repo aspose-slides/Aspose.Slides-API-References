@@ -22,18 +22,19 @@ Represents a slide in a presentation.
 | [getHidden()](#getHidden--) | Determines whether the specified slide is hidden during a slide show. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Determines whether the specified slide is hidden during a slide show. |
 | [getThumbnail(float scaleX, float scaleY)](#getThumbnail-float-float-) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Returns an image object with custom scaling. |
 | [getThumbnail()](#getThumbnail--) | Returns a Thumbnail Image object (20% of real size). |
+| [getImage()](#getImage--) | Returns a Thumbnail Image object (20% of real size). |
 | [getThumbnail(Size imageSize)](#getThumbnail-com.aspose.slides.android.Size-) | Returns a Thumbnail Bitmap object with specified size. |
+| [getImage(Size imageSize)](#getImage-com.aspose.slides.android.Size-) | Returns an image object with specified size. |
 | [getThumbnail(ITiffOptions options)](#getThumbnail-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff bitmap object with specified parameters. |
-| [getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting)](#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-) | Returns a Thumbnail android.graphics.Bitmap object. |
-| [getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-float-float-) | Returns a Thumbnail android.graphics.Bitmap object with custom scaling. |
-| [getThumbnail(INotesCommentsLayoutingOptions options, Size imageSize)](#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap object with specified size. |
-| [getThumbnail(IRenderingOptions options)](#getThumbnail-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail android.graphics.Bitmap object. |
-| [getThumbnail(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail android.graphics.Bitmap object with custom scaling. |
-| [getThumbnail(IRenderingOptions options, Size imageSize)](#getThumbnail-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap object with specified size. |
-| [renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Canvas graphics, int width, int height)](#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-android.graphics.Canvas-int-int-) | Renders certain slide to a Graphics object. |
-| [renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Canvas graphics, float scale)](#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-android.graphics.Canvas-float-) | Renders certain slide to a Graphics object. |
-| [renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Canvas graphics)](#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-android.graphics.Canvas-) | Renders certain slide to a Graphics object. |
+| [getImage(ITiffOptions options)](#getImage-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff bitmap object with specified parameters. |
+| [getThumbnail(IRenderingOptions options)](#getThumbnail-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Bitmap object. |
+| [getImage(IRenderingOptions options)](#getImage-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Bitmap object. |
+| [getThumbnail(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [getImage(IRenderingOptions options, float scaleX, float scaleY)](#getImage-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [getThumbnail(IRenderingOptions options, Size imageSize)](#getThumbnail-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail Bitmap object with specified size. |
+| [getImage(IRenderingOptions options, Size imageSize)](#getImage-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail Bitmap object with specified size. |
 | [renderToGraphics(IRenderingOptions options, Canvas graphics)](#renderToGraphics-com.aspose.slides.IRenderingOptions-android.graphics.Canvas-) | Renders certain slide to a Graphics object. |
 | [renderToGraphics(IRenderingOptions options, Canvas graphics, float scaleX, float scaleY)](#renderToGraphics-com.aspose.slides.IRenderingOptions-android.graphics.Canvas-float-float-) | Renders certain slide to a Graphics object with custom scaling. |
 | [renderToGraphics(IRenderingOptions options, Canvas graphics, Size renderingSize)](#renderToGraphics-com.aspose.slides.IRenderingOptions-android.graphics.Canvas-com.aspose.slides.android.Size-) | Renders certain slide to a Graphics object using specified size. |
@@ -61,7 +62,7 @@ public abstract int getSlideNumber()
 ```
 
 
-Returns a number of slide. Index of slide in ([IPresentation.getSlides](../../com.aspose.slides/ipresentation\#getSlides)) collection is always equal to SlideNumber - 1. Read/write int.
+Returns a number of slide. Index of slide in [IPresentation.getSlides](../../com.aspose.slides/ipresentation\#getSlides) collection is always equal to SlideNumber - 1. Read/write int.
 
 **Returns:**
 int
@@ -71,7 +72,7 @@ public abstract void setSlideNumber(int value)
 ```
 
 
-Returns a number of slide. Index of slide in ([IPresentation.getSlides](../../com.aspose.slides/ipresentation\#getSlides)) collection is always equal to SlideNumber - 1. Read/write int.
+Returns a number of slide. Index of slide in [IPresentation.getSlides](../../com.aspose.slides/ipresentation\#getSlides) collection is always equal to SlideNumber - 1. Read/write int.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -117,6 +118,22 @@ Returns a Thumbnail Bitmap object with custom scaling.
 
 **Returns:**
 android.graphics.Bitmap - Bitmap object android.graphics.Bitmap
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+
+Returns an image object with custom scaling.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Image object android.graphics.Bitmap
 ### getThumbnail() {#getThumbnail--}
 ```
 public abstract Bitmap getThumbnail()
@@ -127,6 +144,16 @@ Returns a Thumbnail Image object (20% of real size).
 
 **Returns:**
 android.graphics.Bitmap - Bitmap object android.graphics.Bitmap
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+
+Returns a Thumbnail Image object (20% of real size).
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Image object android.graphics.Bitmap
 ### getThumbnail(Size imageSize) {#getThumbnail-com.aspose.slides.android.Size-}
 ```
 public abstract Bitmap getThumbnail(Size imageSize)
@@ -142,6 +169,21 @@ Returns a Thumbnail Bitmap object with specified size.
 
 **Returns:**
 android.graphics.Bitmap - Bitmap object.
+### getImage(Size imageSize) {#getImage-com.aspose.slides.android.Size-}
+```
+public abstract IImage getImage(Size imageSize)
+```
+
+
+Returns an image object with specified size.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Bitmap object.
 ### getThumbnail(ITiffOptions options) {#getThumbnail-com.aspose.slides.ITiffOptions-}
 ```
 public abstract Bitmap getThumbnail(ITiffOptions options)
@@ -157,61 +199,28 @@ Returns a Thumbnail tiff bitmap object with specified parameters.
 
 **Returns:**
 android.graphics.Bitmap - Bitmap object.
-### getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting) {#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-}
+### getImage(ITiffOptions options) {#getImage-com.aspose.slides.ITiffOptions-}
 ```
-public abstract Bitmap getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting)
+public abstract IImage getImage(ITiffOptions options)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap object.
+Returns a Thumbnail tiff bitmap object with specified parameters.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
+| options | [ITiffOptions](../../com.aspose.slides/itiffoptions) | Tiff options. |
 
 **Returns:**
-android.graphics.Bitmap - android.graphics.Bitmap objects.
-### getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY) {#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-float-float-}
-```
-public abstract Bitmap getThumbnail(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap object with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-android.graphics.Bitmap - android.graphics.Bitmap objects.
-### getThumbnail(INotesCommentsLayoutingOptions options, Size imageSize) {#getThumbnail-com.aspose.slides.INotesCommentsLayoutingOptions-com.aspose.slides.android.Size-}
-```
-public abstract Bitmap getThumbnail(INotesCommentsLayoutingOptions options, Size imageSize)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap object with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
-
-**Returns:**
-android.graphics.Bitmap - android.graphics.Bitmap objects.
+[IImage](../../com.aspose.slides/iimage) - Image object.
 ### getThumbnail(IRenderingOptions options) {#getThumbnail-com.aspose.slides.IRenderingOptions-}
 ```
 public abstract Bitmap getThumbnail(IRenderingOptions options)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap object.
+Returns a Thumbnail Bitmap object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,14 +228,29 @@ Returns a Thumbnail android.graphics.Bitmap object.
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
 
 **Returns:**
-android.graphics.Bitmap - android.graphics.Bitmap objects.
+android.graphics.Bitmap - Bitmap objects.
+### getImage(IRenderingOptions options) {#getImage-com.aspose.slides.IRenderingOptions-}
+```
+public abstract IImage getImage(IRenderingOptions options)
+```
+
+
+Returns a Thumbnail Bitmap object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Bitmap objects.
 ### getThumbnail(IRenderingOptions options, float scaleX, float scaleY) {#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public abstract Bitmap getThumbnail(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap object with custom scaling.
+Returns a Thumbnail Bitmap object with custom scaling.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -236,14 +260,31 @@ Returns a Thumbnail android.graphics.Bitmap object with custom scaling.
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 **Returns:**
-android.graphics.Bitmap - android.graphics.Bitmap objects.
+android.graphics.Bitmap - Bitmap objects.
+### getImage(IRenderingOptions options, float scaleX, float scaleY) {#getImage-com.aspose.slides.IRenderingOptions-float-float-}
+```
+public abstract IImage getImage(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+
+Returns a Thumbnail Bitmap object with custom scaling.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Bitmap objects.
 ### getThumbnail(IRenderingOptions options, Size imageSize) {#getThumbnail-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-}
 ```
 public abstract Bitmap getThumbnail(IRenderingOptions options, Size imageSize)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap object with specified size.
+Returns a Thumbnail Bitmap object with specified size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -252,52 +293,23 @@ Returns a Thumbnail android.graphics.Bitmap object with specified size.
 | imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
 
 **Returns:**
-android.graphics.Bitmap - android.graphics.Bitmap objects.
-### renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Canvas graphics, int width, int height) {#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-android.graphics.Canvas-int-int-}
+android.graphics.Bitmap - Bitmap objects.
+### getImage(IRenderingOptions options, Size imageSize) {#getImage-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-}
 ```
-public abstract void renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Canvas graphics, int width, int height)
+public abstract IImage getImage(IRenderingOptions options, Size imageSize)
 ```
 
 
-Renders certain slide to a Graphics object.
+Returns a Thumbnail Bitmap object with specified size.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | android.graphics.Canvas | The object where to render to. |
-| width | int | The maximum width (in pixels) that can be occupied by the rendered slide. |
-| height | int | The maximum height (in pixels) that can be occupied by the rendered slide. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
+| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
 
-### renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Canvas graphics, float scale) {#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-android.graphics.Canvas-float-}
-```
-public abstract void renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Canvas graphics, float scale)
-```
-
-
-Renders certain slide to a Graphics object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | android.graphics.Canvas | The object where to render to. |
-| scale | float | The scale for rendering the slide (1.0 is 100%). |
-
-### renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Canvas graphics) {#renderToGraphics-com.aspose.slides.INotesCommentsLayoutingOptions-android.graphics.Canvas-}
-```
-public abstract void renderToGraphics(INotesCommentsLayoutingOptions notesCommentsLayouting, Canvas graphics)
-```
-
-
-Renders certain slide to a Graphics object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| graphics | android.graphics.Canvas | The object where to render to. |
-
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Bitmap objects.
 ### renderToGraphics(IRenderingOptions options, Canvas graphics) {#renderToGraphics-com.aspose.slides.IRenderingOptions-android.graphics.Canvas-}
 ```
 public abstract void renderToGraphics(IRenderingOptions options, Canvas graphics)

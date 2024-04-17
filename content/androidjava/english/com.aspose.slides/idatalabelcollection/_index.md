@@ -19,8 +19,6 @@ Represents a series labels.
 | [get_Item(int index)](#get-Item-int-) | Gets the data label for the data point with the specified index. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Returns default format of all data labels in the collection. |
 | [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Represents data labels leader lines format. |
-| [getLeaderLinesColor()](#getLeaderLinesColor--) | Gets or sets the color of all leader lines in the collection. |
-| [setLeaderLinesColor(Integer value)](#setLeaderLinesColor-java.lang.Integer-) | Gets or sets the color of all leader lines in the collection. |
 | [isVisible()](#isVisible--) | False means that data label is not visible by default (and so all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). |
 | [hide()](#hide--) | Make data label hidden by default by setting all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. |
 | [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Gets the number of visible data labels in the collection. |
@@ -83,63 +81,6 @@ Represents data labels leader lines format. Read-only [IChartLinesFormat](../../
 
 **Returns:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
-### getLeaderLinesColor() {#getLeaderLinesColor--}
-```
-public abstract Integer getLeaderLinesColor()
-```
-
-
-Gets or sets the color of all leader lines in the collection. Read/write java.lang.Integer.
-
---------------------
-
-> ```
-> Example:
->  
->  Presentation pres = new Presentation("pres.pptx");
->  try {
->      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      IChartSeriesCollection series = chart.getChartData().getSeries();
->      IDataLabelCollection labels = series.get_Item(0).getLabels();
-> 
->      labels.setLeaderLinesColor(Color.RED);
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Returns:**
-java.lang.Integer
-### setLeaderLinesColor(Integer value) {#setLeaderLinesColor-java.lang.Integer-}
-```
-public abstract void setLeaderLinesColor(Integer value)
-```
-
-
-Gets or sets the color of all leader lines in the collection. Read/write java.lang.Integer.
-
---------------------
-
-> ```
-> Example:
->  
->  Presentation pres = new Presentation("pres.pptx");
->  try {
->      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      IChartSeriesCollection series = chart.getChartData().getSeries();
->      IDataLabelCollection labels = series.get_Item(0).getLabels();
-> 
->      labels.setLeaderLinesColor(Color.RED);
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.Integer |  |
-
 ### isVisible() {#isVisible--}
 ```
 public abstract boolean isVisible()

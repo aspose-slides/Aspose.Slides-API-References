@@ -25,8 +25,8 @@ Represents an Zoom object in a slide.
 | [setReturnToParent(boolean value)](#setReturnToParent-boolean-) | Gets or sets the navigation behavior in slideshow. |
 | [getShowBackground()](#getShowBackground--) | Gets or sets value that specifies whether the Zoom will use the background of the destination slide. |
 | [setShowBackground(boolean value)](#setShowBackground-boolean-) | Gets or sets value that specifies whether the Zoom will use the background of the destination slide. |
-| [getImage()](#getImage--) | Gets or sets image for zoom object. |
-| [setImage(IPPImage value)](#setImage-com.aspose.slides.IPPImage-) | Gets or sets image for zoom object. |
+| [getZoomImage()](#getZoomImage--) | Gets or sets image for zoom object. |
+| [setZoomImage(IPPImage value)](#setZoomImage-com.aspose.slides.IPPImage-) | Gets or sets image for zoom object. |
 | [getTransitionDuration()](#getTransitionDuration--) | Gets or sets the duration of the transition between Zoom and slide. |
 | [setTransitionDuration(float value)](#setTransitionDuration-float-) | Gets or sets the duration of the transition between Zoom and slide. |
 ### getImageType() {#getImageType--}
@@ -216,9 +216,9 @@ Gets or sets value that specifies whether the Zoom will use the background of th
 | --- | --- | --- |
 | value | boolean |  |
 
-### getImage() {#getImage--}
+### getZoomImage() {#getZoomImage--}
 ```
-public final IPPImage getImage()
+public final IPPImage getZoomImage()
 ```
 
 
@@ -248,9 +248,9 @@ Gets or sets image for zoom object. Read/write [IPPImage](../../com.aspose.slide
 
 **Returns:**
 [IPPImage](../../com.aspose.slides/ippimage)
-### setImage(IPPImage value) {#setImage-com.aspose.slides.IPPImage-}
+### setZoomImage(IPPImage value) {#setZoomImage-com.aspose.slides.IPPImage-}
 ```
-public final void setImage(IPPImage value)
+public final void setZoomImage(IPPImage value)
 ```
 
 

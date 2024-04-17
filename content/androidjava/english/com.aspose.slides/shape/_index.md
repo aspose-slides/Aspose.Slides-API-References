@@ -34,7 +34,9 @@ Represents a shape on a slide.
 | [getEffectFormat()](#getEffectFormat--) | Returns the EffectFormat object which contains pixel effects applied to a shape. |
 | [getFillFormat()](#getFillFormat--) | Returns the FillFormat object that contains fill formatting properties for a shape. |
 | [getThumbnail()](#getThumbnail--) | Returns shape thumbnail. |
+| [getImage()](#getImage--) | Returns shape thumbnail. |
 | [getThumbnail(int bounds, float scaleX, float scaleY)](#getThumbnail-int-float-float-) | Returns shape thumbnail. |
+| [getImage(int bounds, float scaleX, float scaleY)](#getImage-int-float-float-) | Returns shape thumbnail. |
 | [writeAsSvg(OutputStream stream)](#writeAsSvg-java.io.OutputStream-) | Saves content of Shape as SVG file. |
 | [writeAsSvg(OutputStream stream, ISVGOptions svgOptions)](#writeAsSvg-java.io.OutputStream-com.aspose.slides.ISVGOptions-) | Saves content of Shape as SVG file. |
 | [getHyperlinkClick()](#getHyperlinkClick--) | Returns or sets the hyperlink defined for mouse click. |
@@ -455,6 +457,16 @@ Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type 
 
 **Returns:**
 android.graphics.Bitmap - Shape thumbnail.
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
+
+
+Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Shape thumbnail.
 ### getThumbnail(int bounds, float scaleX, float scaleY) {#getThumbnail-int-float-float-}
 ```
 public final Bitmap getThumbnail(int bounds, float scaleX, float scaleY)
@@ -472,6 +484,23 @@ Returns shape thumbnail.
 
 **Returns:**
 android.graphics.Bitmap - Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
+### getImage(int bounds, float scaleX, float scaleY) {#getImage-int-float-float-}
+```
+public final IImage getImage(int bounds, float scaleX, float scaleY)
+```
+
+
+Returns shape thumbnail.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bounds | int | Shape thumbnail bounds type. |
+| scaleX | float | X scale |
+| scaleY | float | Y scale |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
 ### writeAsSvg(OutputStream stream) {#writeAsSvg-java.io.OutputStream-}
 ```
 public final void writeAsSvg(OutputStream stream)
