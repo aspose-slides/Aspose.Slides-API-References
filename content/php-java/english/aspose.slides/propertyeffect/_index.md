@@ -17,7 +17,7 @@ url: /aspose.slides/propertyeffect/
 | --- | --- |
 | PropertyEffect() |  |
 
- **Result:**
+ **Returns:**
 PropertyEffect
 
 

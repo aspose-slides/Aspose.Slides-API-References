@@ -15,7 +15,7 @@ url: /aspose.slides/effect/
 
 | Name | Description |
 | --- | --- |
-| getAfterAnimationColor () | Defined an after animation color for effect. Read/write IColorFormat. |
+| getAfterAnimationColor () | Defines an after animation color for effect. Read/write IColorFormat. |
 
  **Returns:**
 [ColorFormat](../colorformat)
@@ -28,7 +28,20 @@ url: /aspose.slides/effect/
 
 | Name | Description |
 | --- | --- |
-| getAfterAnimationType () | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+| getAfterAnimationType () | Defines an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getAnimateTextType {#getAnimateTextType}
+
+| Name | Description |
+| --- | --- |
+| getAnimateTextType () | Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write AnimateTextType( #getAnimateTextType/ #setAnimateTextType(int)). |
 
  **Returns:**
 int
@@ -45,6 +58,19 @@ int
 
  **Returns:**
 [BehaviorCollection](../behaviorcollection)
+
+
+---
+
+
+### getDelayBetweenTextParts {#getDelayBetweenTextParts}
+
+| Name | Description |
+| --- | --- |
+| getDelayBetweenTextParts () | Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write float. |
+
+ **Returns:**
+float
 
 
 ---
@@ -122,7 +148,7 @@ int
 | getTargetShape () | Returns target shape for effect. Read-only IShape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -171,7 +197,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setAfterAnimationColor ([ColorFormat](../colorformat)) | Defined an after animation color for effect. Read/write IColorFormat. |
+| setAfterAnimationColor ([ColorFormat](../colorformat)) | Defines an after animation color for effect. Read/write IColorFormat. |
 
  **Returns:**
 void
@@ -184,7 +210,20 @@ void
 
 | Name | Description |
 | --- | --- |
-| setAfterAnimationType (int) | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+| setAfterAnimationType (int) | Defines an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setAnimateTextType {#setAnimateTextType}
+
+| Name | Description |
+| --- | --- |
+| setAnimateTextType (int) | Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write AnimateTextType( #getAnimateTextType/ #setAnimateTextType(int)). |
 
  **Returns:**
 void
@@ -198,6 +237,19 @@ void
 | Name | Description |
 | --- | --- |
 | setBehaviors ([BehaviorCollection](../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setDelayBetweenTextParts {#setDelayBetweenTextParts}
+
+| Name | Description |
+| --- | --- |
+| setDelayBetweenTextParts (float) | Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write float. |
 
  **Returns:**
 void

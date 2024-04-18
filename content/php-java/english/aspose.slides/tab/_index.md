@@ -24,7 +24,7 @@ url: /aspose.slides/tab/
 | position | double | Tab position. |
 | align | int | Align. |
 
- **Result:**
+ **Returns:**
 Tab
 
 

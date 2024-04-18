@@ -17,7 +17,7 @@ url: /aspose.slides/gifoptions/
 | --- | --- |
 | GifOptions() | Initializes a new instance of the GifOptions class. |
 
- **Result:**
+ **Returns:**
 GifOptions
 
 

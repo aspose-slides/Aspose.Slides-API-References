@@ -17,7 +17,7 @@ url: /aspose.slides/commandeffect/
 | --- | --- |
 | CommandEffect() | Creates new instance. |
 
- **Result:**
+ **Returns:**
 CommandEffect
 
 
@@ -44,7 +44,7 @@ String
 | getShapeTarget () | Defines shape target of command effect. Read/write IShape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -106,19 +106,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget ([Shape](../shape)) | Defines shape target of command effect. Read/write IShape. |
-
- **Returns:**
-void
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
 | setShapeTarget ([Table](../table)) | Defines shape target of command effect. Read/write IShape. |
 
  **Returns:**
@@ -145,6 +132,19 @@ void
 
 | Name | Description |
 | --- | --- |
+| setShapeTarget ([Shape](../shape)) | Defines shape target of command effect. Read/write IShape. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
 | setShapeTarget ([Ink](../ink)) | Defines shape target of command effect. Read/write IShape. |
 
  **Returns:**
@@ -159,6 +159,19 @@ void
 | Name | Description |
 | --- | --- |
 | setShapeTarget ([SummaryZoomFrame](../summaryzoomframe)) | Defines shape target of command effect. Read/write IShape. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget ([GeometryShape](../geometryshape)) | Defines shape target of command effect. Read/write IShape. |
 
  **Returns:**
 void
@@ -262,7 +275,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget ([PictureFrame](../pictureframe)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget ([SectionZoomFrame](../sectionzoomframe)) | Defines shape target of command effect. Read/write IShape. |
 
  **Returns:**
 void
@@ -275,7 +288,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget ([SectionZoomFrame](../sectionzoomframe)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget ([PictureFrame](../pictureframe)) | Defines shape target of command effect. Read/write IShape. |
 
  **Returns:**
 void
@@ -314,7 +327,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget ([ZoomObject](../zoomobject)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget ([LegacyDiagram](../legacydiagram)) | Defines shape target of command effect. Read/write IShape. |
 
  **Returns:**
 void
@@ -327,7 +340,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget ([LegacyDiagram](../legacydiagram)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget ([ZoomObject](../zoomobject)) | Defines shape target of command effect. Read/write IShape. |
 
  **Returns:**
 void

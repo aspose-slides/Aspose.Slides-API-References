@@ -17,7 +17,7 @@ url: /aspose.slides/shapeutil/
 | --- | --- |
 | ShapeUtil() |  |
 
- **Result:**
+ **Returns:**
 ShapeUtil
 
 

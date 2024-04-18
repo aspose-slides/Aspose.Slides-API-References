@@ -29,7 +29,7 @@ url: /aspose.slides/shapeframe/
 | flipV | byte | True if a frame flipped vertivally. |
 | rotationAngle | float | Number of degrees a frame is rotated. |
 
- **Result:**
+ **Returns:**
 ShapeFrame
 
 

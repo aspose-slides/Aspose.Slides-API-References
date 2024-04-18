@@ -17,7 +17,7 @@ url: /aspose.slides/xpsoptions/
 | --- | --- |
 | XpsOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 XpsOptions
 
 

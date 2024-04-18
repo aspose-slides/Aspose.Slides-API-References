@@ -17,7 +17,7 @@ url: /aspose.slides/externalresourceresolver/
 | --- | --- |
 | ExternalResourceResolver() |  |
 
- **Result:**
+ **Returns:**
 ExternalResourceResolver
 
 

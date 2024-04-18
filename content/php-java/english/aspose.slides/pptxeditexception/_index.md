@@ -17,7 +17,7 @@ url: /aspose.slides/pptxeditexception/
 | --- | --- |
 | PptxEditException() | Default function. |
 
- **Result:**
+ **Returns:**
 PptxEditException
 
 
@@ -36,7 +36,7 @@ PptxEditException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 PptxEditException
 
 
@@ -56,7 +56,7 @@ PptxEditException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 PptxEditException
 
 

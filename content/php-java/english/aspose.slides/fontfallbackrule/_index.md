@@ -25,7 +25,7 @@ url: /aspose.slides/fontfallbackrule/
 | endIndex | long | End index of unicode range |
 | fontNames | String | Font's name or names (delimited by comma) for FallBack |
 
- **Result:**
+ **Returns:**
 FontFallBackRule
 
 
@@ -46,7 +46,7 @@ FontFallBackRule
 | endIndex | long | End index of unicode range |
 | fontNames | java.lang.String[] | Font's name or names (delimited by comma) for FallBack |
 
- **Result:**
+ **Returns:**
 FontFallBackRule
 
 

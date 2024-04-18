@@ -17,7 +17,7 @@ url: /aspose.slides/mathematicaltext/
 | --- | --- |
 | MathematicalText() | Default function (create String.Empty Value) |
 
- **Result:**
+ **Returns:**
 MathematicalText
 
 
@@ -36,7 +36,7 @@ MathematicalText
 | --- | --- | --- |
 | mathSymbol | char | single symbol |
 
- **Result:**
+ **Returns:**
 MathematicalText
 
 
@@ -55,7 +55,7 @@ MathematicalText
 | --- | --- | --- |
 | mathText | String | text value |
 
- **Result:**
+ **Returns:**
 MathematicalText
 
 
@@ -75,7 +75,7 @@ MathematicalText
 | mathText | String | text value |
 | portionFormat | [PortionFormat](../portionformat) | text format settings |
 
- **Result:**
+ **Returns:**
 MathematicalText
 
 
@@ -89,7 +89,7 @@ MathematicalText
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---

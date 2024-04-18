@@ -17,7 +17,7 @@ url: /aspose.slides/presentation/
 | --- | --- |
 | Presentation() | This function creates new presentation from scratch. Created presentation has one empty slide. |
 
- **Result:**
+ **Returns:**
 Presentation
 
 
@@ -36,7 +36,7 @@ Presentation
 | --- | --- | --- |
 | loadOptions | [LoadOptions](../loadoptions) | Additional load options. |
 
- **Result:**
+ **Returns:**
 Presentation
 
 
@@ -55,7 +55,7 @@ Presentation
 | --- | --- | --- |
 | stream | InputStream | Input stream. |
 
- **Result:**
+ **Returns:**
 Presentation
 
 
@@ -75,7 +75,7 @@ Presentation
 | stream | InputStream | Input stream. |
 | loadOptions | [LoadOptions](../loadoptions) | Additional load options. |
 
- **Result:**
+ **Returns:**
 Presentation
 
 
@@ -94,7 +94,7 @@ Presentation
 | --- | --- | --- |
 | file | String | Input file. |
 
- **Result:**
+ **Returns:**
 Presentation
 
  **Error**
@@ -120,7 +120,7 @@ Presentation
 | file | String | Input file. |
 | loadOptions | [LoadOptions](../loadoptions) | Additional load options. |
 
- **Result:**
+ **Returns:**
 Presentation
 
  **Error**
@@ -315,6 +315,129 @@ int
 ---
 
 
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages ([RenderingOptions](../renderingoptions)) | Returns a Image objects for all slides of a presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages ([RenderingOptions](../renderingoptions), int[]) | Returns a Thumbnail Image objects for specified slides of a presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages ([RenderingOptions](../renderingoptions), int[], float, float) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages ([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
+### getImages {#getImages}
+
+| Name | Description |
+| --- | --- |
+| getImages ([RenderingOptions](../renderingoptions), int[], Dimension) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| imageSize | Dimension | Size of the image to create. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
 ### getLayoutSlides {#getLayoutSlides}
 
 | Name | Description |
@@ -498,129 +621,6 @@ SlideShowSettings
 
  **Returns:**
 int
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), int[]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), int[], float, float) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| imageSize | Dimension | Size of the image to create. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), int[], Dimension) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| imageSize | Dimension | Size of the image to create. |
-
- **Returns:**
-BufferedImage
 
 
 ---
@@ -1076,6 +1076,27 @@ void
 
 | Name | Description |
 | --- | --- |
+| save (String, int, [SaveOptions](../saveoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [SaveOptions](../saveoptions) | Additional format options. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
 | save (String, int, [GifOptions](../gifoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
@@ -1397,6 +1418,33 @@ void
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
 | options | [XpsOptions](../xpsoptions) | Additional format options. |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save (OutputStream, int, [SaveOptions](../saveoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | [SaveOptions](../saveoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1745,6 +1793,28 @@ void
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
 | options | [XpsOptions](../xpsoptions) | Additional format options. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save (String, int[], int, [SaveOptions](../saveoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [SaveOptions](../saveoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -2112,6 +2182,34 @@ void
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
 | options | [XpsOptions](../xpsoptions) | Additional format options. |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+
+---
+
+
+### save {#save}
+
+| Name | Description |
+| --- | --- |
+| save (OutputStream, int[], int, [SaveOptions](../saveoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [SaveOptions](../saveoptions) | Additional format options. |
 
  **Returns:**
 void

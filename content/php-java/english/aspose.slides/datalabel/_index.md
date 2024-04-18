@@ -23,7 +23,7 @@ url: /aspose.slides/datalabel/
 | --- | --- | --- |
 | parentImmediate | [ChartDataPoint](../chartdatapoint) | Parent ChartDataPoint. |
 
- **Result:**
+ **Returns:**
 DataLabel
 
 

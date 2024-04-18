@@ -17,7 +17,7 @@ url: /aspose.slides/blobmanagementoptions/
 | --- | --- |
 | BlobManagementOptions() | Creates new default blob management options. |
 
- **Result:**
+ **Returns:**
 BlobManagementOptions
 
 

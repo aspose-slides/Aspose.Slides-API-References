@@ -19,7 +19,7 @@ url: /aspose.slides/mathematicaltextfactory/
 | --- | --- |
 | MathematicalTextFactory() |  |
 
- **Result:**
+ **Returns:**
 MathematicalTextFactory
 
 

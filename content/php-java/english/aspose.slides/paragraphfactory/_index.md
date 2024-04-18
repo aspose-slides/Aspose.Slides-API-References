@@ -19,7 +19,7 @@ url: /aspose.slides/paragraphfactory/
 | --- | --- |
 | ParagraphFactory() |  |
 
- **Result:**
+ **Returns:**
 ParagraphFactory
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/documentproperties/
 | --- | --- |
 | DocumentProperties() | Initializes new instance of class DocumentProperties. |
 
- **Result:**
+ **Returns:**
 DocumentProperties
 
 

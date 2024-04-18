@@ -17,7 +17,7 @@ url: /aspose.slides/charttypecharacterizer/
 | --- | --- |
 | ChartTypeCharacterizer() |  |
 
- **Result:**
+ **Returns:**
 ChartTypeCharacterizer
 
 

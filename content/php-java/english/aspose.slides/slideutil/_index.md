@@ -17,29 +17,8 @@ url: /aspose.slides/slideutil/
 | --- | --- |
 | SlideUtil() |  |
 
- **Result:**
-SlideUtil
-
-
----
-
-
-### alignShapes {#alignShapes}
-
-| Name | Description |
-| --- | --- |
-| alignShapes (int, boolean, [ShapeCollection](../shapecollection)) | Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| alignmentType | int | Determines which type of alignment will be applied. |
-| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges |
-| shapes | [ShapeCollection](../shapecollection) | Shapes collection to be aligned |
-
  **Returns:**
-void
+SlideUtil
 
 
 ---
@@ -58,6 +37,27 @@ void
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
 | slide | [MasterHandoutSlide](../masterhandoutslide) | Parent slide. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### alignShapes {#alignShapes}
+
+| Name | Description |
+| --- | --- |
+| alignShapes (int, boolean, [BaseSlide](../baseslide)) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | [BaseSlide](../baseslide) | Parent slide. |
 
  **Returns:**
 void
@@ -184,6 +184,28 @@ void
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
 | slide | [MasterHandoutSlide](../masterhandoutslide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### alignShapes {#alignShapes}
+
+| Name | Description |
+| --- | --- |
+| alignShapes (int, boolean, [BaseSlide](../baseslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | [BaseSlide](../baseslide) | Parent slide. |
 | shapeIndexes | int[] | Indexes of shapes to be aligned. |
 
  **Returns:**
@@ -359,7 +381,7 @@ void
 | presentation | [Presentation](../presentation) | Scanned presentation. |
 | withMasters | boolean | Determines whether master slides should be scanned. |
 | find | String | String value to find. |
-| replace | String | String value to replace. |
+| replace | String | String value to replace. character of the found string |
 
  **Returns:**
 void
@@ -405,7 +427,7 @@ void
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -425,7 +447,27 @@ void
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
+
+
+---
+
+
+### findShape {#findShape}
+
+| Name | Description |
+| --- | --- |
+| findShape ([BaseSlide](../baseslide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [BaseSlide](../baseslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
+
+ **Returns:**
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -445,7 +487,7 @@ void
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -465,7 +507,7 @@ void
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -485,7 +527,7 @@ void
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -505,7 +547,7 @@ void
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -525,7 +567,7 @@ void
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -542,6 +584,25 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | slide | [MasterHandoutSlide](../masterhandoutslide) | Scanned slide. |
+
+ **Returns:**
+[TextFrame](../textframe)
+
+
+---
+
+
+### getAllTextBoxes {#getAllTextBoxes}
+
+| Name | Description |
+| --- | --- |
+| getAllTextBoxes ([BaseSlide](../baseslide)) | Returns all text frames on a slide in a PPTX presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [BaseSlide](../baseslide) | Scanned slide. |
 
  **Returns:**
 [TextFrame](../textframe)

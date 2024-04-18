@@ -17,7 +17,7 @@ url: /aspose.slides/filtereffect/
 | --- | --- |
 | FilterEffect() | Default function. |
 
- **Result:**
+ **Returns:**
 FilterEffect
 
 

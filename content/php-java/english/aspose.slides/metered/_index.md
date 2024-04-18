@@ -15,7 +15,7 @@ Provides methods to set metered key.
 | --- | --- |
 | Metered() | Initializes a new instance of this class. |
 
- **Result:**
+ **Returns:**
 Metered
 
 

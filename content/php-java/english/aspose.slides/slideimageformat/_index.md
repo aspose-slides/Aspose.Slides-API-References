@@ -17,7 +17,7 @@ url: /aspose.slides/slideimageformat/
 | --- | --- |
 | SlideImageFormat() |  |
 
- **Result:**
+ **Returns:**
 SlideImageFormat
 
 

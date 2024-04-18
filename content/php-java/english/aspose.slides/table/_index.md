@@ -24,19 +24,6 @@ url: /aspose.slides/table/
 ---
 
 
-### getFillFormat {#getFillFormat}
-
-| Name | Description |
-| --- | --- |
-| getFillFormat () | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only IFillFormat. |
-
- **Returns:**
-[FillFormat](../fillformat)
-
-
----
-
-
 ### getFirstCol {#getFirstCol}
 
 | Name | Description |

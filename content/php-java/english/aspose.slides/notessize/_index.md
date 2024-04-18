@@ -17,7 +17,7 @@ url: /aspose.slides/notessize/
 | --- | --- |
 | NotesSize() |  |
 
- **Result:**
+ **Returns:**
 NotesSize
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/coloroffset/
 | --- | --- |
 | ColorOffset() |  |
 
- **Result:**
+ **Returns:**
 ColorOffset
 
 

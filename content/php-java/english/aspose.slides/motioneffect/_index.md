@@ -17,7 +17,7 @@ url: /aspose.slides/motioneffect/
 | --- | --- |
 | MotionEffect() |  |
 
- **Result:**
+ **Returns:**
 MotionEffect
 
 

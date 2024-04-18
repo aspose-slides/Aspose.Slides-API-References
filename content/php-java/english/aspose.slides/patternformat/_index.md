@@ -50,6 +50,45 @@ byte
 ---
 
 
+### getTile {#getTile}
+
+| Name | Description |
+| --- | --- |
+| getTile (Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| background | Color | The background java.awt.Color for the pattern. |
+| foreground | Color | The foreground java.awt.Color for the pattern. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
+### getTile {#getTile}
+
+| Name | Description |
+| --- | --- |
+| getTile (Color) | Creates a tile image for the pattern fill. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| styleColor | Color | The default java.awt.Color |
+
+ **Returns:**
+IImage
+
+
+---
+
+
 ### getTileImage {#getTileImage}
 
 | Name | Description |

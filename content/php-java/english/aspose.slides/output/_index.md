@@ -76,6 +76,26 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
+| add (String, [IImage](../iimage)) | Adds an output element for the image. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| image | [IImage](../iimage) | Image to output. |
+
+ **Returns:**
+[OutputFile](../outputfile)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
 | add (String, [Video](../video)) | Adds an output element for the video. |
 
  **Parameters:**
@@ -128,6 +148,26 @@ url: /aspose.slides/output/
 
  **Returns:**
 [OutputFile](../outputfile)
+
+
+---
+
+
+### bindResource {#bindResource}
+
+| Name | Description |
+| --- | --- |
+| bindResource ([OutputFile](../outputfile), Object) | Binds resource to output file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| outputFile | [OutputFile](../outputfile) | Output file. |
+| obj | Object | Resource object. |
+
+ **Returns:**
+void
 
 
 ---

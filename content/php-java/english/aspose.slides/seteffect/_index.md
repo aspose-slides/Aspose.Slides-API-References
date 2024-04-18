@@ -17,7 +17,7 @@ url: /aspose.slides/seteffect/
 | --- | --- |
 | SetEffect() |  |
 
- **Result:**
+ **Returns:**
 SetEffect
 
 

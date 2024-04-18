@@ -17,7 +17,7 @@ url: /aspose.slides/point/
 | --- | --- |
 | Point() | Default function. |
 
- **Result:**
+ **Returns:**
 Point
 
 
@@ -38,7 +38,7 @@ Point
 | value | Object | Point value. |
 | formula | String | Formula. |
 
- **Result:**
+ **Returns:**
 Point
 
 

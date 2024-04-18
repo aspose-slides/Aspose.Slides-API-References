@@ -25,7 +25,7 @@ url: /aspose.slides/videoplayerhtmlcontroller/
 | fileName | String | The name of the HTML file |
 | baseUri | String | The base URI which will be used for links generating |
 
- **Result:**
+ **Returns:**
 VideoPlayerHtmlController
 
 
@@ -50,19 +50,6 @@ void
 | Name | Description |
 | --- | --- |
 | formatShape ([SvgShape](../svgshape), [GraphicalObject](../graphicalobject)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
-| formatShape ([SvgShape](../svgshape), [Shape](../shape)) |  |
 
  **Returns:**
 void
@@ -101,6 +88,19 @@ void
 
 | Name | Description |
 | --- | --- |
+| formatShape ([SvgShape](../svgshape), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
 | formatShape ([SvgShape](../svgshape), [Ink](../ink)) |  |
 
  **Returns:**
@@ -115,6 +115,19 @@ void
 | Name | Description |
 | --- | --- |
 | formatShape ([SvgShape](../svgshape), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [GeometryShape](../geometryshape)) |  |
 
  **Returns:**
 void
@@ -218,7 +231,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [PictureFrame](../pictureframe)) |  |
+| formatShape ([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
 
  **Returns:**
 void
@@ -231,7 +244,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
+| formatShape ([SvgShape](../svgshape), [PictureFrame](../pictureframe)) |  |
 
  **Returns:**
 void
@@ -270,7 +283,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [ZoomObject](../zoomobject)) |  |
+| formatShape ([SvgShape](../svgshape), [LegacyDiagram](../legacydiagram)) |  |
 
  **Returns:**
 void
@@ -283,7 +296,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [LegacyDiagram](../legacydiagram)) |  |
+| formatShape ([SvgShape](../svgshape), [ZoomObject](../zoomobject)) |  |
 
  **Returns:**
 void
@@ -387,19 +400,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
 
  **Returns:**
@@ -426,6 +426,19 @@ void
 
 | Name | Description |
 | --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
 
  **Returns:**
@@ -440,6 +453,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
 
  **Returns:**
 void
@@ -543,7 +569,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
  **Returns:**
 void
@@ -556,7 +582,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
 
  **Returns:**
 void
@@ -595,7 +621,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
 
  **Returns:**
 void
@@ -608,7 +634,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
 
  **Returns:**
 void
@@ -647,19 +673,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
 
  **Returns:**
@@ -686,6 +699,19 @@ void
 
 | Name | Description |
 | --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
 
  **Returns:**
@@ -700,6 +726,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
 
  **Returns:**
 void
@@ -803,7 +842,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
  **Returns:**
 void
@@ -816,7 +855,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
 
  **Returns:**
 void
@@ -855,7 +894,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
 
  **Returns:**
 void
@@ -868,7 +907,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
 
  **Returns:**
 void

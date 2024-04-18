@@ -17,7 +17,7 @@ url: /aspose.slides/fontfallbackrulescollection/
 | --- | --- |
 | FontFallBackRulesCollection() |  |
 
- **Result:**
+ **Returns:**
 FontFallBackRulesCollection
 
 

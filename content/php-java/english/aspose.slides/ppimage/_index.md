@@ -63,6 +63,19 @@ int
 ---
 
 
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage () | Returns the copy of an image. Read-only IImage. |
+
+ **Returns:**
+IImage
+
+
+---
+
+
 ### getSvgImage {#getSvgImage}
 
 | Name | Description |
@@ -161,6 +174,31 @@ void
 | Error | Condition |
 | --- | --- |
  | ArgumentNullException | When newImageData parameter is null. |
+
+
+---
+
+
+### replaceImage {#replaceImage}
+
+| Name | Description |
+| --- | --- |
+| replaceImage ([IImage](../iimage)) | Replaces image data. Attention: when Image is metafile - it will be rasterized. Use replaceImage(byte[]) instead |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| newImage | [IImage](../iimage) | The new image. |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentNullException | When newImage parameter is null. |
 
 
 ---

@@ -23,7 +23,7 @@ url: /aspose.slides/presentationanimationsgenerator/
 | --- | --- | --- |
 | presentation | [Presentation](../presentation) | The frame size will be set with accordance to the ( Presentation#getSlideSize) |
 
- **Result:**
+ **Returns:**
 PresentationAnimationsGenerator
 
 
@@ -42,7 +42,7 @@ PresentationAnimationsGenerator
 | --- | --- | --- |
 | frameSize | Dimension | The frame size. |
 
- **Result:**
+ **Returns:**
 PresentationAnimationsGenerator
 
 
@@ -61,7 +61,7 @@ PresentationAnimationsGenerator
 | --- | --- | --- |
 | frameSize | Dimension2D | The frame size. |
 
- **Result:**
+ **Returns:**
 PresentationAnimationsGenerator
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/motionpath/
 | --- | --- |
 | MotionPath() |  |
 
- **Result:**
+ **Returns:**
 MotionPath
 
 

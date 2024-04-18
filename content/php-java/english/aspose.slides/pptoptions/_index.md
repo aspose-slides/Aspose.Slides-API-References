@@ -17,7 +17,7 @@ url: /aspose.slides/pptoptions/
 | --- | --- |
 | PptOptions() |  |
 
- **Result:**
+ **Returns:**
 PptOptions
 
 

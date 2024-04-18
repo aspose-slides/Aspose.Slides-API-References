@@ -15,7 +15,7 @@ url: /aspose.slides/point2dfloat/
 | --- | --- |
 | Point2DFloat() |  |
 
- **Result:**
+ **Returns:**
 Point2DFloat
 
 
@@ -28,7 +28,7 @@ Point2DFloat
 | --- | --- |
 | Point2DFloat(float, float) |  |
 
- **Result:**
+ **Returns:**
 Point2DFloat
 
 

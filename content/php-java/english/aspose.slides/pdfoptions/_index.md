@@ -17,7 +17,7 @@ url: /aspose.slides/pdfoptions/
 | --- | --- |
 | PdfOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 PdfOptions
 
 
@@ -141,6 +141,19 @@ Color
 ---
 
 
+### getInkOptions {#getInkOptions}
+
+| Name | Description |
+| --- | --- |
+| getInkOptions () | Provides options that control the look of Ink objects in exported document. Read-only IInkOptions |
+
+ **Returns:**
+[InkOptions](../inkoptions)
+
+
+---
+
+
 ### getJpegQuality {#getJpegQuality}
 
 | Name | Description |
@@ -180,6 +193,19 @@ String
 ---
 
 
+### getRasterizeUnsupportedFontStyles {#getRasterizeUnsupportedFontStyles}
+
+| Name | Description |
+| --- | --- |
+| getRasterizeUnsupportedFontStyles () | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write boolean. Default is false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getSaveMetafilesAsPng {#getSaveMetafilesAsPng}
 
 | Name | Description |
@@ -201,6 +227,19 @@ boolean
 
  **Returns:**
 boolean
+
+
+---
+
+
+### getSlidesLayoutOptions {#getSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
 ---
@@ -375,6 +414,19 @@ void
 ---
 
 
+### setRasterizeUnsupportedFontStyles {#setRasterizeUnsupportedFontStyles}
+
+| Name | Description |
+| --- | --- |
+| setRasterizeUnsupportedFontStyles (boolean) | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write boolean. Default is false. |
+
+ **Returns:**
+void
+
+
+---
+
+
 ### setSaveMetafilesAsPng {#setSaveMetafilesAsPng}
 
 | Name | Description |
@@ -393,6 +445,32 @@ void
 | Name | Description |
 | --- | --- |
 | setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
  **Returns:**
 void

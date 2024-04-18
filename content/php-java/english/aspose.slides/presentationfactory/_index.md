@@ -17,7 +17,7 @@ url: /aspose.slides/presentationfactory/
 | --- | --- |
 | PresentationFactory() |  |
 
- **Result:**
+ **Returns:**
 PresentationFactory
 
 

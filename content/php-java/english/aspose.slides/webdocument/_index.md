@@ -23,7 +23,7 @@ url: /aspose.slides/webdocument/
 | --- | --- | --- |
 | options | [WebDocumentOptions](../webdocumentoptions) | Options set for the document. |
 
- **Result:**
+ **Returns:**
 WebDocument
 
 

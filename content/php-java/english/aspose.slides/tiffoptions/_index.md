@@ -17,8 +17,21 @@ url: /aspose.slides/tiffoptions/
 | --- | --- |
 | TiffOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 TiffOptions
+
+
+---
+
+
+### getBwConversionMode {#getBwConversionMode}
+
+| Name | Description |
+| --- | --- |
+| getBwConversionMode () | Specifies the algorithm for converting a color image into a black and white image. This option will applied only if CompressionType( #getCompressionType/ #setCompressionType(int)) is set to TiffCompressionTypes#CCITT4 or TiffCompressionTypes#CCITT3 Read/write BlackWhiteConversionMode. Default is BlackWhiteConversionMode#Default. |
+
+ **Returns:**
+int
 
 
 ---
@@ -76,6 +89,19 @@ Dimension
 ---
 
 
+### getInkOptions {#getInkOptions}
+
+| Name | Description |
+| --- | --- |
+| getInkOptions () | Provides options that control the look of Ink objects in exported document. Read-only IInkOptions |
+
+ **Returns:**
+[InkOptions](../inkoptions)
+
+
+---
+
+
 ### getNotesCommentsLayouting {#getNotesCommentsLayouting}
 
 | Name | Description |
@@ -110,6 +136,32 @@ int
 
  **Returns:**
 boolean
+
+
+---
+
+
+### getSlidesLayoutOptions {#getSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
+
+
+---
+
+
+### setBwConversionMode {#setBwConversionMode}
+
+| Name | Description |
+| --- | --- |
+| setBwConversionMode (int) | Specifies the algorithm for converting a color image into a black and white image. This option will applied only if CompressionType( #getCompressionType/ #setCompressionType(int)) is set to TiffCompressionTypes#CCITT4 or TiffCompressionTypes#CCITT3 Read/write BlackWhiteConversionMode. Default is BlackWhiteConversionMode#Default. |
+
+ **Returns:**
+void
 
 
 ---
@@ -185,6 +237,32 @@ void
 | Name | Description |
 | --- | --- |
 | setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
  **Returns:**
 void

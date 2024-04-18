@@ -18,7 +18,7 @@ url: /aspose.slides/cellcircularreferenceexception/
 | --- | --- |
 | CellCircularReferenceException() | Initializes a new instance of the CellCircularReferenceException class. |
 
- **Result:**
+ **Returns:**
 CellCircularReferenceException
 
 
@@ -37,7 +37,7 @@ CellCircularReferenceException
 | --- | --- | --- |
 | message | String | A string that describes the error. |
 
- **Result:**
+ **Returns:**
 CellCircularReferenceException
 
 
@@ -57,7 +57,7 @@ CellCircularReferenceException
 | message | String | A string that describes the error. |
 | innerException | RuntimeException | The exception that is the cause of the current exception. |
 
- **Result:**
+ **Returns:**
 CellCircularReferenceException
 
 
@@ -77,7 +77,7 @@ CellCircularReferenceException
 | message | String | A string that describes the error. |
 | reference | String | A circular cell reference. |
 
- **Result:**
+ **Returns:**
 CellCircularReferenceException
 
 

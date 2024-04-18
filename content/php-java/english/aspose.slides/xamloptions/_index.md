@@ -17,7 +17,7 @@ url: /aspose.slides/xamloptions/
 | --- | --- |
 | XamlOptions() | Creates the XamlOptions instance. |
 
- **Result:**
+ **Returns:**
 XamlOptions
 
 

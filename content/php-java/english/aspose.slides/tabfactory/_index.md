@@ -17,7 +17,7 @@ url: /aspose.slides/tabfactory/
 | --- | --- |
 | TabFactory() |  |
 
- **Result:**
+ **Returns:**
 TabFactory
 
 

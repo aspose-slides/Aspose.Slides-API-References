@@ -63,19 +63,6 @@ int
 ---
 
 
-### getLeaderLinesColor {#getLeaderLinesColor}
-
-| Name | Description |
-| --- | --- |
-| getLeaderLinesColor () | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
-
- **Returns:**
-Color
-
-
----
-
-
 ### getLeaderLinesFormat {#getLeaderLinesFormat}
 
 | Name | Description |
@@ -207,19 +194,6 @@ boolean
 
  **Returns:**
 
-
-
----
-
-
-### setLeaderLinesColor {#setLeaderLinesColor}
-
-| Name | Description |
-| --- | --- |
-| setLeaderLinesColor (Color) | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
-
- **Returns:**
-void
 
 
 ---

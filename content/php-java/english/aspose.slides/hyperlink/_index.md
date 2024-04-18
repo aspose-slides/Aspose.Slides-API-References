@@ -23,7 +23,7 @@ url: /aspose.slides/hyperlink/
 | --- | --- | --- |
 | url | String | Hyperlink URL. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -42,7 +42,7 @@ Hyperlink
 | --- | --- | --- |
 | slide | [Slide](../slide) | Target slide. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -66,7 +66,7 @@ Hyperlink
 | stopSoundsOnClick | boolean | Determines whether the sound should be stopped on hyperlink click. |
 | highlightClick | boolean | Determines whether the hyperlink should be highlighted on click. |
 
- **Result:**
+ **Returns:**
 Hyperlink
 
 
@@ -155,6 +155,19 @@ Hyperlink
 | Name | Description |
 | --- | --- |
 | getExternalUrl () | Specifies the external URL. Read-only String. |
+
+ **Returns:**
+String
+
+
+---
+
+
+### getExternalUrlOriginal {#getExternalUrlOriginal}
+
+| Name | Description |
+| --- | --- |
+| getExternalUrlOriginal () | Represents a hyperlink that is set for this portion without regard to the actual content of the portion. PowerPoint behaves specifically for links and their corresponding text in a portion. It allows to create text for the hyperlink in the form of a valid URL, different from the real address of the link. In this case, when you view the link in the edit window, it will be changed to match the text portion. This property represents the original value of the hyperlink. |
 
  **Returns:**
 String

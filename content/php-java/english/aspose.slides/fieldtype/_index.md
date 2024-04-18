@@ -18,7 +18,7 @@ url: /aspose.slides/fieldtype/
 | --- | --- |
 | FieldType(String) | Initializes a new instance of FieldType class. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 

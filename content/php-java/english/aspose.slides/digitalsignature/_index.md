@@ -24,7 +24,7 @@ url: /aspose.slides/digitalsignature/
 | certData | byte[] | a byte array containing the certificate |
 | password | String | Password required to access certificate. |
 
- **Result:**
+ **Returns:**
 DigitalSignature
 
 
@@ -44,7 +44,7 @@ DigitalSignature
 | filePath | String | Path to the file with certificate. |
 | password | String | Password required to access certificate. |
 
- **Result:**
+ **Returns:**
 DigitalSignature
 
 

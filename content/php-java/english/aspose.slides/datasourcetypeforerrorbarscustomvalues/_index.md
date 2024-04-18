@@ -17,7 +17,7 @@ url: /aspose.slides/datasourcetypeforerrorbarscustomvalues/
 | --- | --- |
 | DataSourceTypeForErrorBarsCustomValues() |  |
 
- **Result:**
+ **Returns:**
 DataSourceTypeForErrorBarsCustomValues
 
 

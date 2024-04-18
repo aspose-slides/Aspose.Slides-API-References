@@ -17,7 +17,7 @@ url: /aspose.slides/vbaprojectfactory/
 | --- | --- |
 | VbaProjectFactory() |  |
 
- **Result:**
+ **Returns:**
 VbaProjectFactory
 
 

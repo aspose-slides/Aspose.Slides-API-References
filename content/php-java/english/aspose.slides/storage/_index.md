@@ -17,7 +17,7 @@ url: /aspose.slides/storage/
 | --- | --- |
 | Storage() |  |
 
- **Result:**
+ **Returns:**
 Storage
 
 

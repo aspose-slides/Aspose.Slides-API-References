@@ -23,7 +23,7 @@ url: /aspose.slides/fontdata/
 | --- | --- | --- |
 | fontName | String | Font name. |
 
- **Result:**
+ **Returns:**
 FontData
 
 

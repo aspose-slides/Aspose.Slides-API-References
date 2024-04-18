@@ -19,7 +19,7 @@ url: /aspose.slides/mathaccentfactory/
 | --- | --- |
 | MathAccentFactory() |  |
 
- **Result:**
+ **Returns:**
 MathAccentFactory
 
 
@@ -201,13 +201,13 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| createMathAccent ([MathBorderBox](../mathborderbox)) | Creates a math accent applying to a specified math element with the default accent character value |
+| createMathAccent ([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math accent applying to a specified math element with the default accent character value |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to apply accent |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply accent |
 
  **Returns:**
 [MathAccent](../mathaccent)
@@ -220,13 +220,13 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| createMathAccent ([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math accent applying to a specified math element with the default accent character value |
+| createMathAccent ([MathBorderBox](../mathborderbox)) | Creates a math accent applying to a specified math element with the default accent character value |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply accent |
+| element | [MathBorderBox](../mathborderbox) | math element to apply accent |
 
  **Returns:**
 [MathAccent](../mathaccent)
@@ -258,13 +258,13 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| createMathAccent ([MathSubscriptElement](../mathsubscriptelement)) | Creates a math accent applying to a specified math element with the default accent character value |
+| createMathAccent ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math accent applying to a specified math element with the default accent character value |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply accent |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply accent |
 
  **Returns:**
 [MathAccent](../mathaccent)
@@ -277,13 +277,13 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| createMathAccent ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math accent applying to a specified math element with the default accent character value |
+| createMathAccent ([MathSubscriptElement](../mathsubscriptelement)) | Creates a math accent applying to a specified math element with the default accent character value |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply accent |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply accent |
 
  **Returns:**
 [MathAccent](../mathaccent)
@@ -353,6 +353,25 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
+| createMathAccent ([BaseScript](../basescript)) | Creates a math accent applying to a specified math element with the default accent character value |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [BaseScript](../basescript) | math element to apply accent |
+
+ **Returns:**
+[MathAccent](../mathaccent)
+
+
+---
+
+
+### createMathAccent {#createMathAccent}
+
+| Name | Description |
+| --- | --- |
 | createMathAccent ([MathBox](../mathbox)) | Creates a math accent applying to a specified math element with the default accent character value |
 
  **Parameters:**
@@ -360,6 +379,25 @@ MathAccentFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBox](../mathbox) | math element to apply accent |
+
+ **Returns:**
+[MathAccent](../mathaccent)
+
+
+---
+
+
+### createMathAccent {#createMathAccent}
+
+| Name | Description |
+| --- | --- |
+| createMathAccent ([MathElementBase](../mathelementbase)) | Creates a math accent applying to a specified math element with the default accent character value |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathElementBase](../mathelementbase) | math element to apply accent |
 
  **Returns:**
 [MathAccent](../mathaccent)
@@ -571,13 +609,13 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| createMathAccent ([MathBorderBox](../mathborderbox), char) | Creates a math accent applying to a specified math element |
+| createMathAccent ([MathGroupingCharacter](../mathgroupingcharacter), char) | Creates a math accent applying to a specified math element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to apply accent |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply accent |
 | accentCharacter | char | accent character |
 
  **Returns:**
@@ -591,13 +629,13 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| createMathAccent ([MathGroupingCharacter](../mathgroupingcharacter), char) | Creates a math accent applying to a specified math element |
+| createMathAccent ([MathBorderBox](../mathborderbox), char) | Creates a math accent applying to a specified math element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply accent |
+| element | [MathBorderBox](../mathborderbox) | math element to apply accent |
 | accentCharacter | char | accent character |
 
  **Returns:**
@@ -631,13 +669,13 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| createMathAccent ([MathSubscriptElement](../mathsubscriptelement), char) | Creates a math accent applying to a specified math element |
+| createMathAccent ([MathSuperscriptElement](../mathsuperscriptelement), char) | Creates a math accent applying to a specified math element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply accent |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply accent |
 | accentCharacter | char | accent character |
 
  **Returns:**
@@ -651,13 +689,13 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| createMathAccent ([MathSuperscriptElement](../mathsuperscriptelement), char) | Creates a math accent applying to a specified math element |
+| createMathAccent ([MathSubscriptElement](../mathsubscriptelement), char) | Creates a math accent applying to a specified math element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply accent |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply accent |
 | accentCharacter | char | accent character |
 
  **Returns:**
@@ -731,6 +769,26 @@ MathAccentFactory
 
 | Name | Description |
 | --- | --- |
+| createMathAccent ([BaseScript](../basescript), char) | Creates a math accent applying to a specified math element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [BaseScript](../basescript) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+ **Returns:**
+[MathAccent](../mathaccent)
+
+
+---
+
+
+### createMathAccent {#createMathAccent}
+
+| Name | Description |
+| --- | --- |
 | createMathAccent ([MathBox](../mathbox), char) | Creates a math accent applying to a specified math element |
 
  **Parameters:**
@@ -738,6 +796,26 @@ MathAccentFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBox](../mathbox) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+ **Returns:**
+[MathAccent](../mathaccent)
+
+
+---
+
+
+### createMathAccent {#createMathAccent}
+
+| Name | Description |
+| --- | --- |
+| createMathAccent ([MathElementBase](../mathelementbase), char) | Creates a math accent applying to a specified math element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathElementBase](../mathelementbase) | math element to apply accent |
 | accentCharacter | char | accent character |
 
  **Returns:**

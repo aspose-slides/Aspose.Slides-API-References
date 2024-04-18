@@ -17,7 +17,7 @@ url: /aspose.slides/vbaproject/
 | --- | --- |
 | VbaProject() | This function creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
 
- **Result:**
+ **Returns:**
 VbaProject
 
 
@@ -30,7 +30,7 @@ VbaProject
 | --- | --- |
 | VbaProject(byte[]) | This function loads VBA project from binary representation of OLE container. |
 
- **Result:**
+ **Returns:**
 VbaProject
 
 
@@ -71,6 +71,19 @@ String
 
  **Returns:**
 [VbaReferenceCollection](../vbareferencecollection)
+
+
+---
+
+
+### isPasswordProtected {#isPasswordProtected}
+
+| Name | Description |
+| --- | --- |
+| isPasswordProtected () | Indicates whether the VBAProject is protected by a password to view project properties. Read-only boolean. |
+
+ **Returns:**
+boolean
 
 
 ---

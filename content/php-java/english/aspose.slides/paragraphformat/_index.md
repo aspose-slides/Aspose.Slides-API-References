@@ -20,7 +20,7 @@ url: /aspose.slides/paragraphformat/
 | --- | --- |
 | ParagraphFormat() | Initializes a new instance of ParagraphFormat class. |
 
- **Result:**
+ **Returns:**
 ParagraphFormat
 
 

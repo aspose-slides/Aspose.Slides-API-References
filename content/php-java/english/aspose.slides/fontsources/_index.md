@@ -17,7 +17,7 @@ url: /aspose.slides/fontsources/
 | --- | --- |
 | FontSources() | Creates new default font options. |
 
- **Result:**
+ **Returns:**
 FontSources
 
 

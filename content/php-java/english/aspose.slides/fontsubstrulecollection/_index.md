@@ -17,7 +17,7 @@ url: /aspose.slides/fontsubstrulecollection/
 | --- | --- |
 | FontSubstRuleCollection() |  |
 
- **Result:**
+ **Returns:**
 FontSubstRuleCollection
 
 

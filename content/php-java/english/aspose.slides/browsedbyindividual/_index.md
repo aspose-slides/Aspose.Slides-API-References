@@ -17,7 +17,7 @@ url: /aspose.slides/browsedbyindividual/
 | --- | --- |
 | BrowsedByIndividual() | Initializes a new instance of the BrowsedByIndividual class. |
 
- **Result:**
+ **Returns:**
 BrowsedByIndividual
 
 

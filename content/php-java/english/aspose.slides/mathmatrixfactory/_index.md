@@ -19,7 +19,7 @@ url: /aspose.slides/mathmatrixfactory/
 | --- | --- |
 | MathMatrixFactory() |  |
 
- **Result:**
+ **Returns:**
 MathMatrixFactory
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/vbareferenceoletypelib/
 | --- | --- |
 | VbaReferenceOleTypeLib(String, String) | This function creates new OLE Automation type library reference. |
 
- **Result:**
+ **Returns:**
 VbaReferenceOleTypeLib
 
 

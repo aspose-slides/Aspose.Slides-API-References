@@ -17,7 +17,7 @@ url: /aspose.slides/spreadsheetoptions/
 | --- | --- |
 | SpreadsheetOptions() | Initializes a new instance of the SpreadsheetOptions class. |
 
- **Result:**
+ **Returns:**
 SpreadsheetOptions
 
 
