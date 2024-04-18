@@ -287,6 +287,25 @@ void
 
 | Name | Description |
 | --- | --- |
+| addItem ([ImageTransformOperation](../imagetransformoperation)) | Adds the new image effect to the end of a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [ImageTransformOperation](../imagetransformoperation) | The image effect to add to the end of a collection. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### addItem {#addItem}
+
+| Name | Description |
+| --- | --- |
 | addItem ([AlphaBiLevel](../alphabilevel)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
@@ -306,13 +325,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([ColorChange](../colorchange)) | Adds the new image effect to the end of a collection. |
+| addItem ([InnerShadow](../innershadow)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [ColorChange](../colorchange) | The image effect to add to the end of a collection. |
+| operation | [InnerShadow](../innershadow) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -325,13 +344,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([InnerShadow](../innershadow)) | Adds the new image effect to the end of a collection. |
+| addItem ([ColorChange](../colorchange)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [InnerShadow](../innershadow) | The image effect to add to the end of a collection. |
+| operation | [ColorChange](../colorchange) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -401,13 +420,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaFloor](../alphafloor)) | Adds the new image effect to the end of a collection. |
+| addItem ([AlphaModulateFixed](../alphamodulatefixed)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [AlphaFloor](../alphafloor) | The image effect to add to the end of a collection. |
+| operation | [AlphaModulateFixed](../alphamodulatefixed) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -420,13 +439,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaModulateFixed](../alphamodulatefixed)) | Adds the new image effect to the end of a collection. |
+| addItem ([AlphaFloor](../alphafloor)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [AlphaModulateFixed](../alphamodulatefixed) | The image effect to add to the end of a collection. |
+| operation | [AlphaFloor](../alphafloor) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -777,6 +796,25 @@ boolean
 
 | Name | Description |
 | --- | --- |
+| containsItem ([ImageTransformOperation](../imagetransformoperation)) | Determines whether the IGenericCollection contains a specific value. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ImageTransformOperation](../imagetransformoperation) | The object to locate in the IGenericCollection. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### containsItem {#containsItem}
+
+| Name | Description |
+| --- | --- |
 | containsItem ([AlphaBiLevel](../alphabilevel)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
@@ -796,13 +834,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([ColorChange](../colorchange)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([InnerShadow](../innershadow)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorChange](../colorchange) | The object to locate in the IGenericCollection. |
+| item | [InnerShadow](../innershadow) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -815,13 +853,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([InnerShadow](../innershadow)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([ColorChange](../colorchange)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [InnerShadow](../innershadow) | The object to locate in the IGenericCollection. |
+| item | [ColorChange](../colorchange) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -891,13 +929,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaFloor](../alphafloor)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([AlphaModulateFixed](../alphamodulatefixed)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaFloor](../alphafloor) | The object to locate in the IGenericCollection. |
+| item | [AlphaModulateFixed](../alphamodulatefixed) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -910,13 +948,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaModulateFixed](../alphamodulatefixed)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([AlphaFloor](../alphafloor)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaModulateFixed](../alphamodulatefixed) | The object to locate in the IGenericCollection. |
+| item | [AlphaFloor](../alphafloor) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1224,7 +1262,7 @@ long
 | index | int | Index of element. |
 
  **Returns:**
-[HSL](../hsl), [SoftEdge](../softedge), [ImageTransformOperation](../imagetransformoperation), [AlphaBiLevel](../alphabilevel), [ColorChange](../colorchange), [InnerShadow](../innershadow), [AlphaModulate](../alphamodulate), [Reflection](../reflection), [Glow](../glow), [AlphaFloor](../alphafloor), [AlphaModulateFixed](../alphamodulatefixed), [GrayScale](../grayscale), [Duotone](../duotone), [Luminance](../luminance), [AlphaInverse](../alphainverse), [AlphaCeiling](../alphaceiling), [OuterShadow](../outershadow), [Blur](../blur), [AlphaReplace](../alphareplace), [PresetShadow](../presetshadow), [ColorReplace](../colorreplace), [BiLevel](../bilevel), [Tint](../tint), [FillOverlay](../filloverlay)
+[HSL](../hsl), [SoftEdge](../softedge), [ImageTransformOperation](../imagetransformoperation), [AlphaBiLevel](../alphabilevel), [InnerShadow](../innershadow), [ColorChange](../colorchange), [AlphaModulate](../alphamodulate), [Reflection](../reflection), [Glow](../glow), [AlphaModulateFixed](../alphamodulatefixed), [AlphaFloor](../alphafloor), [GrayScale](../grayscale), [Duotone](../duotone), [Luminance](../luminance), [AlphaInverse](../alphainverse), [AlphaCeiling](../alphaceiling), [OuterShadow](../outershadow), [Blur](../blur), [AlphaReplace](../alphareplace), [PresetShadow](../presetshadow), [ColorReplace](../colorreplace), [BiLevel](../bilevel), [Tint](../tint), [FillOverlay](../filloverlay)
 
 
 ---
@@ -1342,6 +1380,31 @@ boolean
 
 | Name | Description |
 | --- | --- |
+| removeItem ([ImageTransformOperation](../imagetransformoperation)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ImageTransformOperation](../imagetransformoperation) | The object to remove from the IGenericCollection. |
+
+ **Returns:**
+boolean
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | NotSupportedException | The IGenericCollection is read-only. |
+
+
+---
+
+
+### removeItem {#removeItem}
+
+| Name | Description |
+| --- | --- |
 | removeItem ([AlphaBiLevel](../alphabilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
@@ -1367,13 +1430,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([ColorChange](../colorchange)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([InnerShadow](../innershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorChange](../colorchange) | The object to remove from the IGenericCollection. |
+| item | [InnerShadow](../innershadow) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1392,13 +1455,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([InnerShadow](../innershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([ColorChange](../colorchange)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [InnerShadow](../innershadow) | The object to remove from the IGenericCollection. |
+| item | [ColorChange](../colorchange) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1492,13 +1555,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaFloor](../alphafloor)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([AlphaModulateFixed](../alphamodulatefixed)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaFloor](../alphafloor) | The object to remove from the IGenericCollection. |
+| item | [AlphaModulateFixed](../alphamodulatefixed) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1517,13 +1580,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaModulateFixed](../alphamodulatefixed)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([AlphaFloor](../alphafloor)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaModulateFixed](../alphamodulatefixed) | The object to remove from the IGenericCollection. |
+| item | [AlphaFloor](../alphafloor) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean

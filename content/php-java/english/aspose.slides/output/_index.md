@@ -153,6 +153,26 @@ url: /aspose.slides/output/
 ---
 
 
+### bindResource {#bindResource}
+
+| Name | Description |
+| --- | --- |
+| bindResource ([OutputFile](../outputfile), Object) | Binds resource to output file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| outputFile | [OutputFile](../outputfile) | Output file. |
+| obj | Object | Resource object. |
+
+ **Returns:**
+void
+
+
+---
+
+
 ### getResourcePath {#getResourcePath}
 
 | Name | Description |

@@ -15,6 +15,19 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
+| add ([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
+
+ **Returns:**
+[Sequence](../sequence)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
 | add ([GraphicalObject](../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
@@ -28,7 +41,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -67,7 +80,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
+| add ([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -80,7 +93,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
+| add ([GeometryShape](../geometryshape)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -106,7 +119,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([SummaryZoomSection](../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
+| add ([ZoomFrame](../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
@@ -119,7 +132,7 @@ url: /aspose.slides/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| add ([ZoomFrame](../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SummaryZoomSection](../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
 
  **Returns:**
 [Sequence](../sequence)
