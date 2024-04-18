@@ -17,7 +17,7 @@ The IFillFormatCollectionEffectiveData type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.theme/ifillformatcollectioneffectivedata/__getitem__/) |  |
 
 
 ### Remarks

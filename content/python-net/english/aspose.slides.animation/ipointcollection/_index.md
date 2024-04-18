@@ -23,7 +23,7 @@ The IPointCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/ipointcollection/__getitem__/) |  |
 
 
 ### See Also

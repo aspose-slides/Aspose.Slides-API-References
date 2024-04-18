@@ -17,7 +17,7 @@ The IEffectStyleCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.theme/ieffectstylecollection/__getitem__/) |  |
 
 
 ### See Also

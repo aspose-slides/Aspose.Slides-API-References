@@ -24,7 +24,7 @@ The PortionCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/portioncollection/__getitem__/) |  |
 
 ## Methods
 

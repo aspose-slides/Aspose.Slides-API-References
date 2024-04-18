@@ -17,7 +17,7 @@ The VbaReferenceCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.vba/vbareferencecollection/__getitem__/) |  |
 
 ## Methods
 

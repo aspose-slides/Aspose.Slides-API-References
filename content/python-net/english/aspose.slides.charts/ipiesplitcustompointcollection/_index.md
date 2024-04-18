@@ -17,7 +17,7 @@ The IPieSplitCustomPointCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection/__getitem__/) |  |
 
 ## Methods
 

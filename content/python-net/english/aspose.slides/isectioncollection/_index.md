@@ -17,7 +17,7 @@ The ISectionCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/isectioncollection/__getitem__/) |  |
 
 ## Methods
 

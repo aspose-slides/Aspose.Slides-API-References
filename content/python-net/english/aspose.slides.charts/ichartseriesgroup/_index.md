@@ -43,7 +43,7 @@ The IChartSeriesGroup type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/__getitem__/) |  |
 
 
 ### Remarks

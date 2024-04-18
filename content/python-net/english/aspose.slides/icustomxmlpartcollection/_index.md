@@ -17,7 +17,7 @@ The ICustomXmlPartCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icustomxmlpartcollection/__getitem__/) |  |
 
 ## Methods
 

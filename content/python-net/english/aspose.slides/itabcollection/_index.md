@@ -17,7 +17,7 @@ The ITabCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/itabcollection/__getitem__/) |  |
 
 ## Methods
 

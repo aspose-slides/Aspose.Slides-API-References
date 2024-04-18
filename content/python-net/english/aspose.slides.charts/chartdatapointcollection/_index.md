@@ -27,7 +27,7 @@ The ChartDataPointCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/chartdatapointcollection/__getitem__/) |  |
 
 ## Methods
 

@@ -17,7 +17,7 @@ The IImageCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/iimagecollection/__getitem__/) |  |
 
 ## Methods
 

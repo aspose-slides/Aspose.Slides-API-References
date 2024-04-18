@@ -17,7 +17,7 @@ The ColorOperationCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/coloroperationcollection/__getitem__/) |  |
 
 ## Methods
 

@@ -17,7 +17,7 @@ The ITextAnimationCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/itextanimationcollection/__getitem__/) |  |
 
 
 ### See Also

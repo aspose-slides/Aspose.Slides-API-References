@@ -17,7 +17,7 @@ The VbaModuleCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.vba/vbamodulecollection/__getitem__/) |  |
 
 ## Methods
 

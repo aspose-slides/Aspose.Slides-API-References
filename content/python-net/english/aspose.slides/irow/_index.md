@@ -27,7 +27,7 @@ The IRow type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/irow/__getitem__/) |  |
 
 ## Methods
 

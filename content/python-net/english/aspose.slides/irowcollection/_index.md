@@ -17,7 +17,7 @@ The IRowCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/irowcollection/__getitem__/) |  |
 
 ## Methods
 

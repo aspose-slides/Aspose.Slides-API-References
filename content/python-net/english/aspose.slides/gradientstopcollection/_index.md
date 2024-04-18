@@ -26,7 +26,7 @@ The GradientStopCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/gradientstopcollection/__getitem__/) |  |
 
 ## Methods
 

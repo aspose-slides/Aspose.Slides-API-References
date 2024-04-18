@@ -17,7 +17,7 @@ The MasterSlideCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/masterslidecollection/__getitem__/) |  |
 
 ## Methods
 

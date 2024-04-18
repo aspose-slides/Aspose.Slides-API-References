@@ -23,7 +23,7 @@ The IShapeCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/ishapecollection/__getitem__/) |  |
 
 ## Methods
 

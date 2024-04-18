@@ -24,7 +24,7 @@ The BehaviorCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/behaviorcollection/__getitem__/) |  |
 
 ## Methods
 

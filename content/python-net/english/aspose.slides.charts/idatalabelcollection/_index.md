@@ -31,7 +31,7 @@ The IDataLabelCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/idatalabelcollection/__getitem__/) |  |
 
 ## Methods
 

@@ -17,7 +17,7 @@ The AdjustValueCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/adjustvaluecollection/__getitem__/) |  |
 
 
 ### See Also

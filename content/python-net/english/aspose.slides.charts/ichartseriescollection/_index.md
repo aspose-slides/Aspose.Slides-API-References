@@ -17,7 +17,7 @@ The IChartSeriesCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ichartseriescollection/__getitem__/) |  |
 
 ## Methods
 

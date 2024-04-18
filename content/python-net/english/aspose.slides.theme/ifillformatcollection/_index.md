@@ -17,7 +17,7 @@ The IFillFormatCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.theme/ifillformatcollection/__getitem__/) |  |
 
 
 ### See Also

@@ -17,7 +17,7 @@ The CommentAuthorCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/commentauthorcollection/__getitem__/) |  |
 
 ## Methods
 

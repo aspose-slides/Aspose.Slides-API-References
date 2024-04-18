@@ -29,7 +29,7 @@ The PointCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/pointcollection/__getitem__/) |  |
 
 
 ### See Also

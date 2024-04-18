@@ -17,7 +17,7 @@ The ChartSeriesCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/chartseriescollection/__getitem__/) |  |
 
 ## Methods
 

@@ -17,7 +17,7 @@ The IEffectStyleCollectionEffectiveData type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.theme/ieffectstylecollectioneffectivedata/__getitem__/) |  |
 
 
 ### Remarks

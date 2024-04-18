@@ -31,7 +31,7 @@ The DataLabelCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/datalabelcollection/__getitem__/) |  |
 
 ## Methods
 

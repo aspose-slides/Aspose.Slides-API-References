@@ -23,7 +23,7 @@ The ShapeCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/shapecollection/__getitem__/) |  |
 
 ## Methods
 

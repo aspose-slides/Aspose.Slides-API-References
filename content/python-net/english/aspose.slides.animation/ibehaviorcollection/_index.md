@@ -23,7 +23,7 @@ The IBehaviorCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/ibehaviorcollection/__getitem__/) |  |
 
 ## Methods
 

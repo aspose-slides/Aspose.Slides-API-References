@@ -29,7 +29,7 @@ The MotionPath type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/motionpath/__getitem__/) |  |
 
 ## Methods
 

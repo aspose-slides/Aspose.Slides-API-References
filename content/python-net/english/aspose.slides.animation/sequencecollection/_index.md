@@ -23,7 +23,7 @@ The SequenceCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/sequencecollection/__getitem__/) |  |
 
 ## Methods
 

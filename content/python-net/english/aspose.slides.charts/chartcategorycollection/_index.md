@@ -24,7 +24,7 @@ The ChartCategoryCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/chartcategorycollection/__getitem__/) |  |
 
 ## Methods
 

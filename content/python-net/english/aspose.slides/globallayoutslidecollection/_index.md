@@ -21,7 +21,7 @@ The GlobalLayoutSlideCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/globallayoutslidecollection/__getitem__/) |  |
 
 ## Methods
 

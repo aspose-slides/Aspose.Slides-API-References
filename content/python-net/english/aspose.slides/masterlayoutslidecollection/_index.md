@@ -21,7 +21,7 @@ The MasterLayoutSlideCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/masterlayoutslidecollection/__getitem__/) |  |
 
 ## Methods
 

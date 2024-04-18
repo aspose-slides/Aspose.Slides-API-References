@@ -31,7 +31,7 @@ The MathParagraph type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/mathparagraph/__getitem__/) |  |
 
 ## Methods
 

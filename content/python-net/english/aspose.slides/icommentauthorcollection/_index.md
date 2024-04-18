@@ -17,7 +17,7 @@ The ICommentAuthorCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icommentauthorcollection/__getitem__/) |  |
 
 ## Methods
 

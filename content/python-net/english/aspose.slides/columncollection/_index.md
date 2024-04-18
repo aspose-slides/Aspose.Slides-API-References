@@ -17,7 +17,7 @@ The ColumnCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/columncollection/__getitem__/) |  |
 
 ## Methods
 

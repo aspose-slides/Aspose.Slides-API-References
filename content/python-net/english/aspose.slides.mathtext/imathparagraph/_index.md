@@ -24,7 +24,7 @@ The IMathParagraph type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/imathparagraph/__getitem__/) |  |
 
 ## Methods
 

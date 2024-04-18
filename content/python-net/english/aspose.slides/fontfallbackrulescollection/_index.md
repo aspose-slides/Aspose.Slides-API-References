@@ -23,7 +23,7 @@ The FontFallBackRulesCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/fontfallbackrulescollection/__getitem__/) |  |
 
 ## Methods
 

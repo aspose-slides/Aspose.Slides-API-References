@@ -29,7 +29,7 @@ The Row type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/row/__getitem__/) |  |
 
 ## Methods
 

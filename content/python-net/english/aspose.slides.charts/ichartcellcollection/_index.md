@@ -23,7 +23,7 @@ The IChartCellCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ichartcellcollection/__getitem__/) |  |
 
 ## Methods
 

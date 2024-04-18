@@ -17,7 +17,7 @@ The ILineFormatCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.theme/ilineformatcollection/__getitem__/) |  |
 
 
 ### See Also

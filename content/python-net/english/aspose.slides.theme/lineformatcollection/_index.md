@@ -17,7 +17,7 @@ The LineFormatCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.theme/lineformatcollection/__getitem__/) |  |
 
 
 ### See Also

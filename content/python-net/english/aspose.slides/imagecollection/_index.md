@@ -17,7 +17,7 @@ The ImageCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/imagecollection/__getitem__/) |  |
 
 ## Methods
 

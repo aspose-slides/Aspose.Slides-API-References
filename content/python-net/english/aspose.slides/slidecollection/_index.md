@@ -17,7 +17,7 @@ The SlideCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/slidecollection/__getitem__/) |  |
 
 ## Methods
 

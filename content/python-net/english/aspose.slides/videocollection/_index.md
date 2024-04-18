@@ -17,7 +17,7 @@ The VideoCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/videocollection/__getitem__/) |  |
 
 ## Methods
 

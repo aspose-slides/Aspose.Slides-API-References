@@ -17,7 +17,7 @@ The IColorOperationCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icoloroperationcollection/__getitem__/) |  |
 
 ## Methods
 

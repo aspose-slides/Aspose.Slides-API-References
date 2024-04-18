@@ -23,7 +23,7 @@ The IMotionPath type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/imotionpath/__getitem__/) |  |
 
 ## Methods
 

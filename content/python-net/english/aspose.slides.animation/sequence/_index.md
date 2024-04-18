@@ -24,7 +24,7 @@ The Sequence type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/sequence/__getitem__/) |  |
 
 ## Methods
 

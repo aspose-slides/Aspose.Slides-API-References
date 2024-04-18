@@ -17,7 +17,7 @@ The GradientStopCollectionEffectiveData type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/gradientstopcollectioneffectivedata/__getitem__/) |  |
 
 
 ### See Also

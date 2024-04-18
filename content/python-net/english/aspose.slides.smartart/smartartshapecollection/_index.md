@@ -17,7 +17,7 @@ The SmartArtShapeCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.smartart/smartartshapecollection/__getitem__/) |  |
 
 
 ### See Also

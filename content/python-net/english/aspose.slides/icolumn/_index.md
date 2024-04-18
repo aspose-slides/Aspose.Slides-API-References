@@ -26,7 +26,7 @@ The IColumn type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icolumn/__getitem__/) |  |
 
 ## Methods
 

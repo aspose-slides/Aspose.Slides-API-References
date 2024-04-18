@@ -17,7 +17,7 @@ The SectionCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/sectioncollection/__getitem__/) |  |
 
 ## Methods
 

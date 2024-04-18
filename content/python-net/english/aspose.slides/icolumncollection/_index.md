@@ -17,7 +17,7 @@ The IColumnCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icolumncollection/__getitem__/) |  |
 
 ## Methods
 

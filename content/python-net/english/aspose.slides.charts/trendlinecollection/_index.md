@@ -23,7 +23,7 @@ The TrendlineCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/trendlinecollection/__getitem__/) |  |
 
 ## Methods
 

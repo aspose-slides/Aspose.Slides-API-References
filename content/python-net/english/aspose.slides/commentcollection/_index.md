@@ -17,7 +17,7 @@ The CommentCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/commentcollection/__getitem__/) |  |
 
 ## Methods
 

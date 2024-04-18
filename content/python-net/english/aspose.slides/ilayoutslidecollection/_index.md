@@ -17,7 +17,7 @@ The ILayoutSlideCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/ilayoutslidecollection/__getitem__/) |  |
 
 ## Methods
 

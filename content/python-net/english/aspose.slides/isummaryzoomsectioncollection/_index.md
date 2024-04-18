@@ -17,7 +17,7 @@ The ISummaryZoomSectionCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/isummaryzoomsectioncollection/__getitem__/) |  |
 
 ## Methods
 

@@ -17,7 +17,7 @@ The ControlCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/controlcollection/__getitem__/) |  |
 
 ## Methods
 

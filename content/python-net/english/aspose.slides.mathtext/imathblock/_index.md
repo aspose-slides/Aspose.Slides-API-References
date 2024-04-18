@@ -24,7 +24,7 @@ The IMathBlock type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/imathblock/__getitem__/) |  |
 
 ## Methods
 

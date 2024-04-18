@@ -17,7 +17,7 @@ The DigitalSignatureCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/digitalsignaturecollection/__getitem__/) |  |
 
 ## Methods
 

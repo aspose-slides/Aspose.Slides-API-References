@@ -24,7 +24,7 @@ The CellCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/cellcollection/__getitem__/) |  |
 
 
 ### See Also

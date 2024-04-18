@@ -17,7 +17,7 @@ The FillFormatCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.theme/fillformatcollection/__getitem__/) |  |
 
 
 ### See Also

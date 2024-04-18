@@ -17,7 +17,7 @@ The IFontSubstRuleCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/ifontsubstrulecollection/__getitem__/) |  |
 
 ## Methods
 

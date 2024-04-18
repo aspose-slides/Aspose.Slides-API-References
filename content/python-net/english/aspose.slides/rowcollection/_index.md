@@ -17,7 +17,7 @@ The RowCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/rowcollection/__getitem__/) |  |
 
 ## Methods
 

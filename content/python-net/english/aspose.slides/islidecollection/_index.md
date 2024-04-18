@@ -17,7 +17,7 @@ The ISlideCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/islidecollection/__getitem__/) |  |
 
 ## Methods
 

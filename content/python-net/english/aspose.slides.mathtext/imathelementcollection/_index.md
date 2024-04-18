@@ -23,7 +23,7 @@ The IMathElementCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/__getitem__/) |  |
 
 ## Methods
 

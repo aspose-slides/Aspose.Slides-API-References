@@ -23,7 +23,7 @@ The IMathBlockCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/__getitem__/) |  |
 
 ## Methods
 

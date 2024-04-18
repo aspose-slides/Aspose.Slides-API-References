@@ -17,7 +17,7 @@ The IVbaModuleCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.vba/ivbamodulecollection/__getitem__/) |  |
 
 ## Methods
 

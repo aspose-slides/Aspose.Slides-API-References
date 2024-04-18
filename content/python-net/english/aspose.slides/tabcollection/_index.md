@@ -17,7 +17,7 @@ The TabCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/tabcollection/__getitem__/) |  |
 
 ## Methods
 

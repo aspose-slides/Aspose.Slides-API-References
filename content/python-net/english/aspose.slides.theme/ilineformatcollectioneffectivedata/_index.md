@@ -17,7 +17,7 @@ The ILineFormatCollectionEffectiveData type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.theme/ilineformatcollectioneffectivedata/__getitem__/) |  |
 
 
 ### Remarks

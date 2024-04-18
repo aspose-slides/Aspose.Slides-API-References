@@ -23,7 +23,7 @@ The ISequenceCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/isequencecollection/__getitem__/) |  |
 
 ## Methods
 

@@ -27,7 +27,7 @@ The IChartDataPointCollection type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/__getitem__/) |  |
 
 ## Methods
 
