@@ -38,7 +38,17 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [Backdrop3DScene](backdrop3dscene) | Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to. |
 | [Background](background) | Represents background of a slide. |
 | [BackgroundType](backgroundtype) | Defines the slide background fill source. |
+| [BaseChartValue](basechartvalue) | Represents a value of a chart. |
+| [BaseHandoutNotesSlideHeaderFooterManager](basehandoutnotesslideheaderfootermanager) | Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides. |
+| [BaseHeaderFooterManager](baseheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
+| [BaseOverrideThemeManager](baseoverridethememanager) | Base class for classes that provide access to different types of overriden themes. |
+| [BasePortionFormat](baseportionformat) | Common text portion formatting properties. |
+| [BaseScript](basescript) | Math script |
 | [BaseShapeLock](baseshapelock) | Represents a base class for locks (disabled operation). |
+| [BaseSlide](baseslide) | Represents common data for all slide types. |
+| [BaseSlideHeaderFooterManager](baseslideheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
+| [BaseThemeManager](basethememanager) | Base class for classes that provide access to different types of themes. |
+| [Behavior](behavior) | Represent base class behavior of effect. |
 | [BehaviorAccumulateType](behavioraccumulatetype) | Represents types of accumulation of effect behaviors. |
 | [BehaviorAdditiveType](behavioradditivetype) | Represents additive type for effect behavior. |
 | [BehaviorCollection](behaviorcollection) | Represents collection of behavior effects. |
@@ -64,6 +74,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [CategoryAxisType](categoryaxistype) | Represents a type of a category axis. |
 | [Cell](cell) | Represents a cell of a table. |
 | [CellCircularReferenceException](cellcircularreferenceexception) | The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly. |
+| [CellCollection](cellcollection) | Represents a collection of cells. |
 | [CellFormat](cellformat) | Represents format of a table cell. |
 | [CellInvalidFormulaException](cellinvalidformulaexception) | The exception that is thrown when a calculated formula is not correct or was not parsed. |
 | [CellInvalidReferenceException](cellinvalidreferenceexception) | The exception that is thrown when an invalid cell reference is encountered. |
@@ -149,6 +160,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [DisplayBlanksAsType](displayblanksastype) | Determines how missing data will be displayed. |
 | [DisplayUnitType](displayunittype) | Determines multiplicity of the displayed data. |
 | [DocumentProperties](documentproperties) | Represents properties of a presentation. |
+| [DomObject](domobject) | Base DOM object TParent: Type of parent DOM object |
 | [DoubleChartValue](doublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
 | [Duotone](duotone) | Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel. |
 | [Effect](effect) | Represents animation effect. |
@@ -211,6 +223,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [FormatScheme](formatscheme) | Stores theme-defined formats for the shapes. |
 | [FrameTickEventArgs](frametickeventargs) | Represents arguments of the PresentationPlayer.FrameTick event. |
 | [GeometryPath](geometrypath) | Represents geometry path of GeometryShape |
+| [GeometryShape](geometryshape) | Represents the parent class for all geometric shapes. |
 | [GifOptions](gifoptions) | Represents GIF exporting options. |
 | [GlitterTransition](glittertransition) | Glitter slide transition effect. |
 | [GlobalLayoutSlideCollection](globallayoutslidecollection) | Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides. |
@@ -240,10 +253,12 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [HyperlinkColorSource](hyperlinkcolorsource) | Represents source of hyperlink color. |
 | [HyperlinkManager](hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [HyperlinkQueries](hyperlinkqueries) | Provide easy access to contained hyperlinks. |
+| [IImage](iimage) | Represents the raster or vector image. |
 | [ImageCollection](imagecollection) | Represents collection of PPImage. |
 | [ImageFormat](imageformat) | Represents the file format of the image. |
 | [ImagePixelFormat](imagepixelformat) | Specifies the pixel format for the generated images. |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39. |
+| [ImageTransformOperation](imagetransformoperation) | Represents abstract image transformation effect. |
 | [ImageTransformOperationCollection](imagetransformoperationcollection) | Represents a collection of effects apllied to an image. |
 | [ImageTransformOperationFactory](imagetransformoperationfactory) | Allows to create image transform operations For COM compatibility. |
 | [Images](images) | Methods to instantiate and work with IImage. |
@@ -320,6 +335,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [MathDelimiter](mathdelimiter) | Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. Examples: (?2); [?2|?2] |
 | [MathDelimiterFactory](mathdelimiterfactory) | Allows to create a math delimiter For COM comparibility |
 | [MathDelimiterShape](mathdelimitershape) | The location and size of the delimiters relative to the content of the operands |
+| [MathElementBase](mathelementbase) | Base class for IMathElement with the implementation of some methods that are common to all inherited classes For internal use only. Inherited class must be IMathElement. |
 | [MathFraction](mathfraction) | Specifies the fraction object, consisting of a numerator and denominator separated by a fraction bar. The fraction bar can be horizontal or diagonal, depending on the fraction properties. The fraction object is also used to represent the stack function, which places one element above another, with no fraction bar. |
 | [MathFractionFactory](mathfractionfactory) | Allows to create a math fraction For COM comparibility |
 | [MathFractionTypes](mathfractiontypes) | Fraction Types |
@@ -393,8 +409,10 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [OrientationTransition](orientationtransition) | Orientation slide transition effect. |
 | [OuterShadow](outershadow) | Represents an Outer Shadow effect. |
 | [Output](output) | Represents a collection of output elements for IWebDocument. |
+| [OutputFile](outputfile) | Represents an output file. |
 | [OverrideTheme](overridetheme) | Represents a overriding theme. |
 | [PPImage](ppimage) | Represents an image in a presentation. |
+| [PVIObject](pviobject) | Encapsulates basic service infrastructure for objects can be a subject of property value inheritance. |
 | [Paragraph](paragraph) | Represents a paragraph of text. |
 | [ParagraphCollection](paragraphcollection) | Represents a collection of a paragraphs. |
 | [ParagraphFactory](paragraphfactory) | Allows to create paragraphs For COM compatibility. |
@@ -475,6 +493,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [RowFormat](rowformat) | Represents format of a table row. |
 | [SVGOptions](svgoptions) | Represents an SVG options. |
 | [SaveFormat](saveformat) | Constants which define the format of a saved presentation. |
+| [SaveOptions](saveoptions) | Abstract class with options that control how a presentation is saved. |
 | [SaveOptionsFactory](saveoptionsfactory) | Allows to create save options' instances For COM compatibility. |
 | [ScaleEffect](scaleeffect) | Represents animation scale effect. |
 | [SchemeColor](schemecolor) | Represents colors in a color scheme. |
@@ -508,6 +527,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [SlideOrientation](slideorientation) | Represents the slide orientation. |
 | [SlideShowSettings](slideshowsettings) | Represents the slide show settings for the presentation. |
 | [SlideShowTransition](slideshowtransition) | Represents slide show transition. |
+| [SlideShowType](slideshowtype) | Base slide show settings. Ancestors represent types of the slide show: PresentedBySpeaker Presented by a speaker (full screen) BrowsedByIndividual Browsed by individual (window) BrowsedAtKiosk Browsed at a kiosk (full screen) |
 | [SlideSize](slidesize) | Represents a size of slide. |
 | [SlideSizeScaleType](slidesizescaletype) | Represents the scale type of slide content. |
 | [SlideSizeType](slidesizetype) | Represents the slide size preset. |
@@ -570,6 +590,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [TextUnderlineType](textunderlinetype) | Represents the type of text underline. |
 | [TextVerticalOverflowType](textverticaloverflowtype) | Represents text vertical overflow type. |
 | [TextVerticalType](textverticaltype) | Determines vertical writing mode for a text. |
+| [Theme](theme) | Represents a theme. |
 | [ThreeDFormat](threedformat) | Represents 3-D properties. |
 | [TickLabelPositionType](ticklabelpositiontype) | Represents the position type of tick-mark labels on the specified axis. |
 | [TickMarkType](tickmarktype) | Represents the tick mark type for the specified axis. |
